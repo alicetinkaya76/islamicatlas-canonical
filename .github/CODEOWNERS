@@ -1,0 +1,17 @@
+# CODEOWNERS — otomatik review ataması
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default: ikimiz de review ederiz
+*                             @alicetinkaya76
+
+# Domain kararları — Ali asıl reviewer
+/docs/decisions/              @alicetinkaya76
+/schema/canonical/            @alicetinkaya76
+/schema/vocab/                @alicetinkaya76
+
+# Mühendislik — Fatıma ikinci gözetmen rolünde
+# (Fatıma'nın GitHub kullanıcı adı alınınca güncellenir)
+# /scripts/                   @alicetinkaya76 @fatma-github-username
+# /infra/                     @alicetinkaya76 @fatma-github-username
+# /api/                       @alicetinkaya76 @fatma-github-username
+# /.github/                   @alicetinkaya76 @fatma-github-username

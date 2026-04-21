@@ -1,0 +1,52 @@
+# ─── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ─── IDE / Editor ───────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ─── OS ─────────────────────────────────────────────────
+Thumbs.db
+__MACOSX/
+
+# ─── Audit output (her kullanıcı kendi çıktısını üretir) ─
+audit_output/
+# Not: audit_output_example/ commit edilir (reference için)
+
+# ─── Phase 3+ büyük çıktılar ────────────────────────────
+canonical_db/dump/
+derivatives/build/
+er_output/
+infra/postgres_data/
+
+# ─── Secrets ────────────────────────────────────────────
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+
+# ─── Logs ───────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Node (gelecekte frontend eklenirse) ────────────────
+node_modules/
+dist/
+build/
