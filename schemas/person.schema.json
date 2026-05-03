@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/person.schema.json",
+  "title": "Canonical Person",
+  "description": "A canonical person record. Forward-declared in v0.1.0 (Phase 0); active canonicalization begins in P0.2 with the Science Layer migration (186 scholars) and Bosworth rulers fix-up (rulers inline → person PID linkage). Phase 0 records MAY exist as placeholders referenced by other entities; full validation strictness applies from P0.2.",
+  "type": "object",
+  "required": ["@id", "@type", "labels", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "@id": {
+      "type": "string",
+      "pattern": "^iac:person-[0-9]{8}$",
+      "description": "Persistent identifier in the iac:person- namespace."
+    },
+    "@type": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 4,
+      "uniqueItems": true,
+      "contains": { "const": "iac:Person" },
+      "items": {
+        "type": "string",
+        "enum": [
+          "iac:Person",
+          "iac:Scholar",
+          "iac:Ruler",
+          "iac:Narrator",
+          "iac:Poet",
+          "iac:Architect",
+          "iac:Patron",
+          "iac:Mufti",
+          "iac:Calligrapher"
+        ]
+      },
+      "description": "Person subtype(s). Multiple allowed (a person may be both Scholar and Mufti, both Ruler and Patron). Each entry requires the supertype iac:Person to be present."
+    },
+    "labels": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/multilingual_text.schema.json"
+    },
+    "kunya": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "Filiation form (Abū <Name>). Convention: ALA-LC romanized, e.g., 'Abū Bakr', 'Abū al-'Abbās'."
+    },
+    "nasab": {
+      "type": "string",
+      "maxLength": 1000,
+      "description": "Genealogy chain (b. <father> b. <grandfather> ...). Free-text in ALA-LC romanization."
+    },
+    "nisba": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "maxLength": 200 },
+      "description": "Geographical/tribal/professional epithet(s), e.g., ['al-Bukhārī', 'al-Ḥanafī']. Order: most specific first."
+    },
+    "laqab": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "maxLength": 200 },
+      "description": "Honorific/regnal title(s), e.g., ['al-Manṣūr', 'Sayf al-Dawla']."
+    },
+    "birth_temporal": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/temporal.schema.json",
+      "description": "Date of birth. Often only year-precise; many pre-modern figures only have an approximate date. Use approximation='circa' or 'before' / 'after' liberally."
+    },
+    "death_temporal": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/temporal.schema.json",
+      "description": "Date of death — far more often attested than birth in pre-modern Islamic biographical sources."
+    },
+    "floruit_temporal": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/temporal.schema.json",
+      "description": "Approximate period of activity, used when birth/death are unknown. Set approximation='floruit'."
+    },
+    "birth_place": {
+      "type": "string",
+      "pattern": "^iac:place-[0-9]{8}$",
+      "description": "PID reference to iac:place- record of birthplace."
+    },
+    "death_place": {
+      "type": "string",
+      "pattern": "^iac:place-[0-9]{8}$",
+      "description": "PID reference to iac:place- record of place of death."
+    },
+    "active_in_places": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:place-[0-9]{8}$" },
+      "description": "Places where the person was professionally active (taught, ruled, wrote, built). PID references."
+    },
+    "affiliated_dynasties": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:dynasty-[0-9]{8}$" },
+      "description": "Dynasties this person was affiliated with — as ruler, vizier, court scholar, patron client, etc. The nature of affiliation is captured in the inverse pointer on the dynasty record."
+    },
+    "authored_works": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:work-[0-9]{8}$" },
+      "description": "Works authored by this person. Bidirectional with work.authors."
+    },
+    "teachers": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:person-[0-9]{8}$" },
+      "description": "Teachers in the isnād / scholarly chain. Important for hadith narrators and madrasa scholars."
+    },
+    "students": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:person-[0-9]{8}$" },
+      "description": "Students. Inverse of teachers."
+    },
+    "madhab": {
+      "type": "string",
+      "pattern": "^iac:concept-[0-9]{8}$",
+      "description": "PID reference to iac:concept- record of legal school (madhhab). Forward-declared; concept namespace activates in P1."
+    },
+    "tariqa": {
+      "type": "string",
+      "pattern": "^iac:concept-[0-9]{8}$",
+      "description": "PID reference to iac:concept- record of Sufi order. Forward-declared; concept namespace activates in P1."
+    },
+    "profession": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "scholar", "ruler", "vizier", "judge", "mufti", "narrator", "poet",
+          "architect", "calligrapher", "musician", "physician", "astronomer",
+          "mathematician", "philosopher", "merchant", "patron", "scribe",
+          "translator", "geographer", "historian"
+        ]
+      },
+      "description": "Professional/social roles. Controlled vocabulary; multi-valued. Closed enum for Phase 0; extensible in P1."
+    },
+    "authority_xref": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/authority_xref.schema.json"
+    },
+    "provenance": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/provenance.schema.json"
+    },
+    "note": {
+      "type": "string",
+      "maxLength": 5000
+    }
+  },
+  "$comment": "Phase 0.2 hard rules: (a) at least one of birth_temporal / death_temporal / floruit_temporal MUST be present; (b) bidirectional consistency teachers/students enforced post-canonicalization; (c) authored_works ↔ work.authors enforced."
+}

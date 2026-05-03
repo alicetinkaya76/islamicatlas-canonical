@@ -1,221 +1,85 @@
 # islamicatlas-canonical
 
-> Phase 0: Canonical Data Foundation for [islamicatlas.org](https://islamicatlas.org)
+Canonical Linked-Open-Data backend for **islamicatlas.org** with a **search-first** architecture. A single, persistent, citable identifier space (`iac:place-NNNNNNNN`, `iac:dynasty-NNNNNNNN`, `iac:person-NNNNNNNN`, `iac:work-NNNNNNNN`, `iac:manuscript-NNNNNNNN`, `iac:event-NNNNNNNN`) consolidates ~59,000 entities currently distributed across 13 layers of the public-facing atlas, into a unified search-first user experience: one search bar, federated results across all entity types, rich entity pages with map / timeline / relations / sources / cross-refs.
 
-Pleiades + Perseus seviyesinde bir dijital İslam medeniyeti araştırma altyapısının canonical veri modeli.
-
----
-
-## Ne işe yarıyor?
-
-[islamicatlas.org](https://islamicatlas.org) bugün 13 heterojen veri katmanında ~58.000 entity'ye ulaştı — Yâkût'un *Muʿcamü'l-Büldân*'ı, Ziriklî'nin *al-Aʿlām*'ı, DİA, Brill EI-1, Le Strange, Muqaddasî, Maqrizi'nin *Khitat*'ı, Salibiyyat (Haçlı seferleri), Science Layer, DarpIslam, şehir atlasları ve daha fazlası. Her katmanın kendi ID uzayı, kendi şeması, kendi koordinat alan adları var.
-
-Bu repo o dağınık veri katmanını **Pleiades + Perseus modelinden uyarlanan canonical entity + attestation mimarisine** taşıyor:
-
-- **Stable URI:** her entity'nin değişmez adresi (`islamicatlas.org/place/baghdad`)
-- **Entity-level citation:** araştırmacı tek bir varlığa atıf yapabiliyor
-- **Source transparency:** her bilgi kırıntısının hangi kaynağa dayandığı görünür
-- **Linked Open Data:** Wikidata, VIAF, GeoNames bağlantıları
-- **FAIR ilkeleri:** Findable, Accessible, Interoperable, Reusable
+> **Status:** Phase 0 (v0.1.0) — schema + ontology + search foundations.
+> **Maintainer:** Dr. Ali Çetinkaya (Selçuk University, Department of Computer Engineering)
+> **License (data):** CC-BY-SA 4.0 · **License (code):** MIT
 
 ---
 
-## Durum
+## Architecture in one paragraph
 
-**Phase 0 · Week 1 (aktif):** Audit & Inventory
-
-| Hafta | Çıktı | Durum |
-|---|---|:-:|
-| 1 | Veri katmanı audit + inventory | 🟡 aktif |
-| 2 | Canonical schema (8 dosya) + Pydantic + vocab | ⚪ bekliyor |
-| 3-4 | Entity resolution pipeline + manuel doğrulama | ⚪ bekliyor |
-| 5 | PostgreSQL+PostGIS + ETL + Source registry | ⚪ bekliyor |
-| 6 | FastAPI + derivative builder + URL scheme | ⚪ bekliyor |
-| 7-8 | Typesense + regression tests + Zenodo dump | ⚪ bekliyor |
-
-Detaylı plan: [`docs/phase0-canonical-data-foundation.md`](docs/phase0-canonical-data-foundation.md)
+The canonical store sits **upstream** of three downstream consumers: (1) a Typesense search engine that indexes a denormalized projection of every canonical record into a single collection (`iac_entities`); (2) a UI layer that renders rich entity pages from a per-entity-type "page recipe"; (3) the existing islamicatlas.org map/timeline/network visualizations, now reframed as facets and cross-references rather than parallel silos. **Adding new content** means writing a new adapter folder under `pipelines/adapters/` — search/UI/ontology code is untouched. **Adding a new entity type** is a one-time effort across schema + ontology + projection + page recipe.
 
 ---
 
-## Ekip
+## Phase 0 deliverables (this release)
 
-| | Rol | Uzmanlık |
-|---|---|---|
-| **Dr. Ali Çetinkaya** | Lead, domain authority | Islamic studies, DH, Arabic/Ottoman NLP |
-| **Fatıma Zehra Nur Balcı** | Engineering co-lead | Python, PostgreSQL, systems engineering |
-
-İletişim için GitHub issues kullanılır. Karar niyetiyle açılan tartışmalar **ADR** (Architecture Decision Record) olarak dokümante edilir — bkz. [`docs/decisions/`](docs/decisions/).
-
----
-
-## Repo yapısı
+| Layer | Files |
+|------|-------|
+| **Decisions** | 7 ADRs covering URI scheme, authority targets, ontology stack, **search-first architecture**, **unified entity catalog**, **content adapter pattern**, **rich entity page contract**. |
+| **Ontology** | `iac_ontology.ttl` (P0 active classes for place + dynasty + their subtypes, plus forward-declared classes for person, work, manuscript, event). `iac_context.jsonld` JSON-LD 1.1 context. |
+| **Common schemas** | Five reusable JSON Schema 2020-12 building blocks: `coords`, `multilingual_text`, `temporal`, `authority_xref`, `provenance`. |
+| **Namespace schemas** | place + dynasty (active P0); person + work (forward P0.2); manuscript + event (forward P0.3). |
+| **Search artifacts** | `typesense_collection.schema.json`, `facets.yaml`, 6 projection rules, `projector.py` rule-driven engine. |
+| **UI contract** | `entity_page.meta.schema.json` + 6 page recipes, `search_result.schema.json`. |
+| **Adapter framework** | `_template/` boilerplate, `registry.yaml`. |
+| **Tests** | 15 schema fixtures + 3 projector tests. **All 18 PASS.** |
 
 ```
 islamicatlas-canonical/
-├── README.md                            ← buradasınız
-├── CONTRIBUTING.md                      ← PR / commit / review rehberi
-├── CHANGELOG.md
-├── LICENSE                              ← MIT (kod) + CC-BY-4.0 (veri)
-├── pyproject.toml                       ← ruff / mypy / pytest config
-├── .gitignore
-│
-├── .github/
-│   ├── CODEOWNERS                       ← otomatik review ataması
-│   ├── pull_request_template.md
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── phase0-task.md
-│   │   ├── bug-report.md
-│   │   └── adr.md
-│   └── workflows/
-│       └── ci.yml                       ← lint + schema validation
-│
-├── docs/
-│   ├── phase0-canonical-data-foundation.md  ← master plan
-│   ├── setup-github.md                      ← repo kurulum adımları (Ali)
-│   ├── fatima-kickoff.md                    ← onboarding (Fatıma)
-│   ├── meeting-01-agenda.md                 ← ilk toplantı gündemi
-│   ├── meeting-01-notes.template.md         ← toplantı sonrası notlar
-│   ├── canonical_scope.md                   ← Week 1 Ali deliverable (Issue #2)
-│   └── decisions/
-│       ├── ADR-template.md
-│       └── ADR-001-canonical-attestation-model.md
-│
-├── issues/                              ← ilk 3 GitHub issue'nun gövdeleri
-│   ├── README.md
-│   ├── 001-week1-audit.md
-│   ├── 002-canonical-scope.md
-│   └── 003-adr-001-review.md
-│
-├── schema/
-│   ├── README.md                        ← model açıklaması
-│   └── canonical/
-│       ├── place.schema.json
-│       ├── person.schema.json
-│       ├── work.schema.json
-│       ├── event.schema.json
-│       ├── dynasty.schema.json
-│       ├── route.schema.json
-│       ├── source.schema.json
-│       └── attestation.schema.json
-│
-├── scripts/
-│   ├── README.md                        ← scriptlerin kullanımı
-│   ├── requirements.txt
-│   └── week1_audit.py                   ← veri katmanı audit scripti
-│
-└── audit_output_example/                ← Week 1 örnek çıktı (reference)
-    ├── README.md
-    ├── summary.md
-    ├── summary.json
-    ├── cross_reference.md
-    ├── duplicates.md
-    └── <layer_name>.md × 47
+├── docs/decisions/        7 ADRs
+├── ontology/              TTL + JSON-LD context
+├── schemas/               6 entity schemas + 5 common building blocks
+├── search/                Typesense schema, facets, projection rules, projector.py
+├── ui_contract/           page recipes + search-result schema
+├── pipelines/adapters/    _template + registry
+└── tests/                 schema fixtures + projector tests
 ```
 
 ---
 
-## Hızlı başlangıç
-
-### 1. Repo'yu klonla
+## Running the tests
 
 ```bash
-git clone git@github.com:alicetinkaya76/islamicatlas-canonical.git
-cd islamicatlas-canonical
+pip install jsonschema referencing pyyaml
+python3 tests/run_schema_tests.py        # → 15/15 passed (schema validation)
+python3 tests/test_projector.py          # → 3/3 passed (search projector)
 ```
 
-### 2. Python ortamı
+---
+
+## Adding new content (the daily case)
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate    # macOS/Linux
-# .venv\Scripts\activate     # Windows
-
-pip install -r scripts/requirements.txt
+cp -r pipelines/adapters/_template pipelines/adapters/<your-source-id>
+# edit manifest.yaml, drop sources under data/sources/<your-source-id>/,
+# customize canonicalize.py, register in adapters/registry.yaml
+python3 pipelines/run_adapter.py --id <your-source-id>
+python3 pipelines/integrity/check_all.py
+python3 pipelines/search/full_reindex.py
 ```
 
-### 3. Ana atlas repo'sunu referans olarak yanına klonla
-
-```bash
-cd ..
-git clone git@github.com:alicetinkaya76/islamicatlas.git    # veya mevcut yolunu kullan
-cd islamicatlas-canonical
-```
-
-### 4. Week 1 audit scriptini koş
-
-```bash
-python3 scripts/week1_audit.py \
-    --data-dir ../islamicatlas/public/data \
-    --csv-dir  ../islamicatlas/data \
-    --extra    ../islamicatlas/public/data/city-atlas \
-    --out      ./audit_output
-```
-
-Çıktı `audit_output/` altında (git'e commit edilmez, her lokal kullanıcı kendi çıktısını üretir).
-
-### 5. Sonraki adımlar
-
-- [`docs/phase0-canonical-data-foundation.md`](docs/phase0-canonical-data-foundation.md) — tam plan
-- [`docs/fatima-kickoff.md`](docs/fatima-kickoff.md) — Fatıma için brifing
-- [`schema/README.md`](schema/README.md) — model açıklaması
-- GitHub Issues — aktif iş
+No search/UI/ontology code is touched. See `pipelines/adapters/_template/README.md` and ADR-006 for the full runbook (incl. "Add Ibn Khaldūn's Muqaddima" worked example).
 
 ---
 
-## Canonical model — 30 saniyelik özet
+## Adding a new entity type (the rare case)
 
-```
-            ┌────────────────────┐
-            │    Place           │   canonical — islamicatlas otoritesi
-            │  plc_baghdad       │
-            │  coords: 33.3,44.4 │
-            └─────────▲──────────┘
-                      │
-          ┌───────────┼───────────┬───────────┐
-          │           │           │           │
-    ┌─────┴─────┐┌────┴────┐┌─────┴─────┐┌────┴────┐
-    │Attestation││Attestation││Attestation││Attestation│
-    │ src=yaqut ││ src=lestr││ src=dia   ││ src=sal  │
-    │ p.456     ││ p.30-35  ││ "BAĞDAT"  ││ evt_1191 │
-    └───────────┘└──────────┘└───────────┘└──────────┘
-```
-
-**Anahtar kural:** Canonical entity (Place/Person/Work/Event/Dynasty/Route) bilgisi doğrudan taşımaz — bilgi **Attestation**'lardan gelir. Canonical kayıt attestation'ların konsolide edilmiş hâlidir.
-
-Detay: [ADR-001](docs/decisions/ADR-001-canonical-attestation-model.md)
+See ADR-006 §6.4. Steps: ontology class → schema → projection rule → page recipe → manifest → typesense field → test fixtures → reindex.
 
 ---
 
-## Phase 0'da **YAPILMAYACAK** (scope disiplini)
+## Phase activation table
 
-- Frontend redesign
-- Yeni veri katmanı eklenmesi
-- SPARQL endpoint kurulumu
-- 3D/Mapbox geçişi
-- Crowdsource/annotation UI
-
-Bunlar Phase 1+'a aittir.
-
----
-
-## Lisans
-
-- **Kod** (scripts/, schema/): MIT
-- **Veri** (seed data, Source registry, vocab): CC-BY-4.0
-- **Dokümantasyon** (docs/): CC-BY-4.0
-
-Atıf: Çetinkaya, A., & Balcı, F. Z. N. (2026). *Islamic Atlas Canonical Data Foundation* (v0.1.0) [Software]. https://github.com/alicetinkaya76/islamicatlas-canonical
+| Phase | Active namespaces | Acceptance criterion |
+|-------|------------------:|----------------------|
+| **P0** (Hafta 0-8) | place, dynasty | Bosworth NID-001..186 canonical; Yâqūt pilot ≥1k places. |
+| P0.2 (Hafta 9-16) | + person, work | Science Layer 186 scholars → person; OpenITI ~13.7k files → work; Bosworth rulers fix-up. |
+| P0.3 (Hafta 17-24) | + manuscript, event | Ottoman HTR + Salibiyyat + Evliya. |
+| P1 (Hafta 25+) | + institution, concept | Konya City Atlas → institution; madhab/tariqa → concept. |
 
 ---
 
-## İlgili yayınlar
-
-- (Planlanıyor, Week 7-8): "Canonical data infrastructure for Islamic civilization digital humanities: a methodology paper" — hedef: ACM JOCCH / DSH
-
-## İlgili kaynaklar
-
-- [Pleiades Gazetteer](https://pleiades.stoa.org/) — referans model (ancient Mediterranean)
-- [Perseus Digital Library](http://www.perseus.tufts.edu/hopper/) — referans model (classical philology)
-- [Syriaca.org](https://syriaca.org/) — referans model (Syriac prosopography)
-- [OpenITI](https://openiti.org/) — İslam metin korpusu (potansiyel gelecek entegrasyon)
-- [CIDOC-CRM](https://www.cidoc-crm.org/) — kültürel miras ontolojisi
+See `NEXT_SESSION_PROMPT.md` for Hafta 2 (Bosworth ETL pilot).

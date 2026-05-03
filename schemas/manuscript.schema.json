@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/manuscript.schema.json",
+  "title": "Canonical Manuscript",
+  "description": "A canonical manuscript witness record (FRBR Manifestation+Item collapsed). A specific physical codex/scroll/fragment, identifiable by shelf-mark in a specific library. Distinct from Work (the abstract intellectual entity). Forward-declared in v0.1.0; activation in P0.3 with the Ottoman HTR pilot (kadı sicilleri 33,149 records, 79 defters) and Süleymaniye / TSMK / British Library digital catalog crosswalks.",
+  "type": "object",
+  "required": ["@id", "@type", "labels", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "@id": {
+      "type": "string",
+      "pattern": "^iac:manuscript-[0-9]{8}$"
+    },
+    "@type": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "uniqueItems": true,
+      "contains": { "const": "iac:Manuscript" },
+      "items": {
+        "type": "string",
+        "enum": [
+          "iac:Manuscript",
+          "iac:Codex",
+          "iac:Scroll",
+          "iac:Fragment",
+          "iac:Defter"
+        ]
+      }
+    },
+    "labels": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/multilingual_text.schema.json",
+      "description": "Manuscript label — usually the conventional shelf-mark format, e.g., 'Süleymaniye, Şehid Ali Paşa 1825'. Title of contained work goes in witnesses_work, not in labels."
+    },
+    "witnesses_work": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:work-[0-9]{8}$" },
+      "description": "Work(s) witnessed by this manuscript. Typically one but may be multiple for majmū'a (composite) manuscripts. Bidirectional with work.extant_manuscripts."
+    },
+    "current_library": {
+      "type": "string",
+      "pattern": "^iac:place-[0-9]{8}$",
+      "description": "PID of the place (specific library) where the manuscript is currently held. The library itself is a iac:place- of subtype Settlement (or specific iac:institution- in P1)."
+    },
+    "shelf_mark": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500,
+      "description": "Library-internal shelf mark, e.g., 'Şehid Ali Paşa 1825', 'BNF Arabe 5847', 'BL Add. 23,392'. Verbatim form including space/punctuation as the holding library uses."
+    },
+    "folio_count": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10000,
+      "description": "Number of folios. Single-folio fragments use 1."
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "height_mm": { "type": "integer", "minimum": 1, "maximum": 2000 },
+        "width_mm": { "type": "integer", "minimum": 1, "maximum": 2000 },
+        "thickness_mm": { "type": "integer", "minimum": 0, "maximum": 1000 }
+      }
+    },
+    "dating_temporal": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/temporal.schema.json",
+      "description": "When the manuscript was copied. Often known to a single year (colophon) or a quarter-century range (paleographic dating)."
+    },
+    "script": {
+      "type": "string",
+      "enum": [
+        "naskh", "thuluth", "kufi", "muḥaqqaq", "rayḥānī", "tawqī'",
+        "riqā'", "nasta'līq", "shikastah-nasta'līq", "diwani", "diwani-celi",
+        "siyaqat", "matbu'-arabic", "maghribi", "andalusi", "kufi-eastern",
+        "kufi-maghribi", "ta'liq", "talik", "rik'a", "ottoman-naskh"
+      ],
+      "description": "Script style. Controlled vocabulary based on standard Arabic/Persian/Ottoman paleography. Multi-script manuscripts use the dominant script in this field and additional scripts in note."
+    },
+    "scribe": {
+      "type": "string",
+      "pattern": "^iac:person-[0-9]{8}$",
+      "description": "PID of scribe (when known from colophon)."
+    },
+    "patron": {
+      "type": "string",
+      "pattern": "^iac:person-[0-9]{8}$",
+      "description": "PID of patron who commissioned the copy."
+    },
+    "previous_owners": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:person-[0-9]{8}$" },
+      "description": "Known prior owners (from ownership stamps, marginalia, or vakıf certificates)."
+    },
+    "language": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2,3}(-[A-Z][a-z]{3})?$"
+      },
+      "description": "Languages present in the manuscript. Multi-valued for multilingual manuscripts (e.g., ['ar', 'fa', 'ota'] for an Ottoman-era trilingual codex)."
+    },
+    "physical_description": {
+      "type": "string",
+      "maxLength": 5000,
+      "description": "Free-text physical description: support material (paper / parchment), binding, illumination notes, condition. Codicological detail."
+    },
+    "digitization_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to a digital surrogate (manifest, IIIF, viewer). Preferred form: IIIF presentation manifest URI."
+    },
+    "iiif_manifest": {
+      "type": "string",
+      "format": "uri",
+      "description": "IIIF Presentation API manifest URI, when available. Distinct from digitization_url to allow tooling to dispatch directly."
+    },
+    "authority_xref": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/authority_xref.schema.json"
+    },
+    "provenance": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/provenance.schema.json"
+    },
+    "note": {
+      "type": "string",
+      "maxLength": 5000
+    }
+  },
+  "$comment": "Phase 0.3 hard rules: (a) shelf_mark + current_library together must be unique across the catalog; (b) witnesses_work required; (c) at least one dating_temporal anchor required."
+}

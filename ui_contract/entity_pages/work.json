@@ -1,0 +1,34 @@
+{
+  "$schema": "../entity_page.meta.schema.json",
+  "entity_type": "work",
+  "version": "0.1.0",
+  "sections": [
+    { "id": "header", "order": 1, "config": { "show_genre_chips": true, "show_subtype_badge": true } },
+    { "id": "quick_facts", "order": 2, "config": {
+      "fields": ["authors", "composition_temporal", "original_language", "genre", "openiti_uri"]
+    }},
+    { "id": "manuscript_witnesses", "order": 3, "config": {
+      "show_iiif_thumbnails": true,
+      "default_sort": "dating_temporal_asc",
+      "render_only_if_present": "extant_manuscripts"
+    }},
+    { "id": "relations", "order": 4, "config": {
+      "edge_kinds": ["authors", "translation_of", "abridgement_of", "commentary_on", "cites_works", "mentions_persons", "mentions_places"],
+      "graph_layout": "force-directed",
+      "color_by_kind": true
+    }},
+    { "id": "timeline", "order": 5, "config": {
+      "events": ["composition_temporal", "extant_manuscripts.dating_temporal"],
+      "show_compositional_lineage": true
+    }},
+    { "id": "map", "order": 6, "config": {
+      "points": "mentions_places",
+      "render_only_if_present": "mentions_places",
+      "label_strategy": "cluster_with_hover"
+    }},
+    { "id": "cross_refs", "order": 7 },
+    { "id": "sources", "order": 8 },
+    { "id": "authority_links", "order": 9 },
+    { "id": "editorial", "order": 10, "render_only_if_present": true }
+  ]
+}

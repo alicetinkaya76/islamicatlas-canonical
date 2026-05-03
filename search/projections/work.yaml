@@ -1,0 +1,54 @@
+# Search projection rule for: work
+# STATUS: forward-declared (P0.2 active).
+
+entity_type: work
+projector_version: 0.1.0
+
+mappings:
+  id: $.["@id"]
+  entity_type: "@const:work"
+  subtypes: "@derived:subtypes_from_type_array"
+  prefLabel_en: $.labels.prefLabel.en
+  prefLabel_ar: $.labels.prefLabel.ar
+  prefLabel_tr: $.labels.prefLabel.tr
+  prefLabel_translit: "@derived:translit_ascii_fold(labels.prefLabel.ar-Latn-x-alalc, labels.prefLabel.en)"
+  altLabels: "@derived:flatten_altLabels"
+  description_en: $.labels.description.en
+  description_tr: $.labels.description.tr
+  description_ar: $.labels.description.ar
+
+  _geo: "@derived:work_geo_via_authors_or_composition_place"
+
+  century_ce: "@derived:century_from_temporal(composition_temporal.start_ce)"
+  century_ah: "@derived:century_from_temporal_ah(composition_temporal.start_ah)"
+  start_year_ce: $.composition_temporal.start_ce
+  end_year_ce: $.composition_temporal.end_ce
+
+  iqlim: "@derived:iqlim_labels_via_authors(authors)"
+  source_layer: "@derived:source_layers_from_provenance(provenance.derived_from)"
+  language: "@derived:languages_union(original_language, labels)"
+
+  has_coords: "@derived:bool_geo_resolved_work(authors)"
+  has_wikidata: "@derived:bool_authority_present(authority_xref, 'wikidata')"
+  wikidata_qid: "@derived:authority_id(authority_xref, 'wikidata')"
+
+  work_genre: $.genre
+
+  related_pids: "@derived:union(authors, mentions_places, mentions_persons, cites_works, extant_manuscripts, translation_of, abridgement_of, commentary_on)"
+  related_labels: "@lookup:prefLabels(authors + mentions_places + mentions_persons + cites_works)"
+
+  deprecated: "@derived:bool_default(provenance.deprecated, false)"
+  modified_at: "@derived:unix_timestamp(provenance.modified)"
+  _score: "@derived:score_work"
+
+score_components:
+  base: 1.0
+  has_wikidata_bonus: 0.3
+  has_openiti_bonus: 0.3
+  extant_manuscripts_count_log_bonus: 0.1
+  is_canonical_genre_bonus: 0.2  # tarikh, tabaqa, tafsir, fiqh, geography
+  manual_curation_bonus: 0.4
+  deprecated_penalty: -100
+
+unset_for_other_types:
+  - work_genre

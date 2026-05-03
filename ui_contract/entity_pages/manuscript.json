@@ -1,0 +1,31 @@
+{
+  "$schema": "../entity_page.meta.schema.json",
+  "entity_type": "manuscript",
+  "version": "0.1.0",
+  "sections": [
+    { "id": "header", "order": 1, "config": {
+      "show_shelf_mark_prominently": true,
+      "show_subtype_badge": true
+    }},
+    { "id": "quick_facts", "order": 2, "config": {
+      "fields": ["witnesses_work", "current_library", "shelf_mark", "dating_temporal", "script", "scribe", "patron", "folio_count", "language"]
+    }},
+    { "id": "map", "order": 3, "config": {
+      "points": "current_library",
+      "show_collection_neighbors": true,
+      "render_only_if_present": "current_library"
+    }},
+    { "id": "relations", "order": 4, "config": {
+      "edge_kinds": ["witnesses_work", "scribe", "patron", "previous_owners"],
+      "graph_layout": "concentric"
+    }},
+    { "id": "timeline", "order": 5, "config": {
+      "events": ["dating_temporal", "previous_owners_periods"],
+      "render_only_if_present": "previous_owners"
+    }},
+    { "id": "cross_refs", "order": 6 },
+    { "id": "sources", "order": 7 },
+    { "id": "authority_links", "order": 8 },
+    { "id": "editorial", "order": 9, "render_only_if_present": true }
+  ]
+}

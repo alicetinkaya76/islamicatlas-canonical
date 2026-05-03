@@ -1,0 +1,145 @@
+{
+  "@id": "iac:dynasty-00000003",
+  "@type": ["iac:Dynasty", "iac:Caliphate"],
+  "dynasty_subtype": "caliphate",
+  "labels": {
+    "prefLabel": {
+      "en": "Abbasid Caliphate",
+      "ar": "الخلافة العباسية",
+      "tr": "Abbâsî Hilafeti",
+      "ar-Latn-x-alalc": "al-Khilāfa al-'Abbāsīya"
+    },
+    "altLabel": {
+      "en": ["Abbasid dynasty", "'Abbasids"],
+      "tr": ["Abbâsîler"],
+      "ar": ["بنو العباس"]
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "al-Khilāfa al-'Abbāsīya"
+    },
+    "originalScript": {
+      "ar": "الخلافة العباسية"
+    },
+    "description": {
+      "en": "The Abbasid Caliphate (132-656 AH / 750-1258 CE) was the third caliphate to succeed the Prophet Muḥammad. Founded by Abū al-'Abbās al-Saffāḥ in the wake of the 'Abbāsid Revolution, it ruled from Kūfa, then Baghdād (founded 762), then Sāmarrā' (836-892), and again Baghdād. The Caliphate's effective political power began to decline after the rise of regional dynasties (Sāmānids, Buyids, Saljūqs) and ended with the Mongol sack of Baghdād in 656/1258."
+    }
+  },
+  "temporal": {
+    "start_ce": 750,
+    "end_ce": 1258,
+    "start_ah": 132,
+    "end_ah": 656,
+    "approximation": "exact",
+    "era_label": "Abbasid Caliphate (founding to fall of Baghdād)",
+    "note": "Cairo Abbasid line (1261-1517) treated as separate continuation entity."
+  },
+  "bosworth_id": "NID-003",
+  "predecessor": ["iac:dynasty-00000002"],
+  "successor": ["iac:dynasty-00000019", "iac:dynasty-00000020"],
+  "had_capital": [
+    {
+      "place": "iac:place-00000007",
+      "from_ce": 750,
+      "to_ce": 762,
+      "note": "Kūfa: provisional administrative seat of the early Abbasid revolution."
+    },
+    {
+      "place": "iac:place-00000001",
+      "from_ce": 762,
+      "to_ce": 836,
+      "note": "Baghdād: founded by al-Manṣūr in 145/762 as Madīnat al-Salām."
+    },
+    {
+      "place": "iac:place-00000008",
+      "from_ce": 836,
+      "to_ce": 892,
+      "note": "Sāmarrā': capital under al-Mu'taṣim through al-Mu'tamid."
+    },
+    {
+      "place": "iac:place-00000001",
+      "from_ce": 892,
+      "to_ce": 1258,
+      "note": "Baghdād: re-established as capital under al-Mu'tamid; held until Mongol sack."
+    }
+  ],
+  "territory": [
+    "iac:place-00000004",
+    "iac:place-00000005",
+    "iac:place-00000006"
+  ],
+  "rulers": [
+    {
+      "name": "Abū al-'Abbās al-Saffāḥ",
+      "name_ar": "أبو العباس السفاح",
+      "regnal_title": "al-Saffāḥ",
+      "reign_start_ce": 750,
+      "reign_end_ce": 754,
+      "reign_start_ah": 132,
+      "reign_end_ah": 136,
+      "note": "First Abbasid caliph; 'al-Saffāḥ' ('the Bloodletter') is the regnal title."
+    },
+    {
+      "name": "al-Manṣūr",
+      "name_ar": "المنصور",
+      "regnal_title": "Abū Ja'far al-Manṣūr",
+      "reign_start_ce": 754,
+      "reign_end_ce": 775,
+      "reign_start_ah": 136,
+      "reign_end_ah": 158,
+      "note": "Founder of Baghdād (145/762)."
+    },
+    {
+      "name": "al-Mahdī",
+      "name_ar": "المهدي",
+      "reign_start_ce": 775,
+      "reign_end_ce": 785,
+      "reign_start_ah": 158,
+      "reign_end_ah": 169
+    }
+  ],
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q11707",
+      "confidence": 1.0,
+      "method": "manual",
+      "reviewed": true,
+      "reviewed_at": "2026-04-22T12:05:00Z",
+      "reviewed_by": "https://orcid.org/0000-0002-7747-6854",
+      "note": "Verified against Wikidata Q11707 (Abbasid Caliphate)."
+    }
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:3",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-003, p. 6-7.",
+        "extraction_method": "manual",
+        "edition_or_version": "Edinburgh University Press 2004."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_dynasty",
+      "pipeline_version": "v0.1.0",
+      "commit_sha": "a1b2c3d",
+      "input_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generated_at": "2026-04-22T12:00:00Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-04-22T12:00:00Z",
+    "modified": "2026-04-22T12:00:00Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-04-22T12:00:00Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from Bosworth NID-003 (Hafta 2 pilot ETL)."
+      }
+    ],
+    "deprecated": false
+  },
+  "note": "Test fixture for dynasty.schema.json: Abbasid Caliphate as paradigm Phase 0 caliphate record (Bosworth NID-003 anchor, Wikidata reconciled, four capital tenure records, partial rulers list — full list of 37 caliphs deferred to P0.2 prosopography phase)."
+}

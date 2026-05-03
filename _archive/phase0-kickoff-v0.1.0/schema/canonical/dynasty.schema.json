@@ -1,0 +1,198 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://islamicatlas.org/schema/canonical/dynasty.schema.json",
+  "title": "Dynasty",
+  "description": "Bir kanonik hanedan / siyasi birlik (Emevî, Abbâsî, Selçuklu, Osmanlı, beylikler). Bosworth'un 'New Islamic Dynasties'inden beslenir. CIDOC-CRM: E74 Group. schema.org: GovernmentOrganization.",
+  "type": "object",
+  "required": ["id", "slug", "names"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^dyn_[a-z0-9_-]+$",
+      "description": "Kanonik ID — örnek: dyn_umayyad, dyn_abbasid, dyn_seljuk_great, dyn_ottoman"
+    },
+    "slug": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{1,63}$"},
+    "names": {
+      "type": "object",
+      "properties": {
+        "tr": {"type": "string"},
+        "en": {"type": "string"},
+        "ar": {"type": "string"},
+        "ar_translit": {"type": "string"}
+      },
+      "minProperties": 1
+    },
+    "parent_tribe_or_clan": {"type": "string"},
+    "ethnic_origin": {"type": "array", "items": {"type": "string"}, "description": "arap, turk, iranian, kurd, berber, mongol, vb."},
+    "government_type": {
+      "type": "string",
+      "enum": [
+        "caliphate", "sultanate", "emirate", "beylik", "imamate", "khaganate",
+        "atabeglik", "principality", "republic", "khanate"
+      ]
+    },
+    "religious_orientation": {
+      "type": "object",
+      "properties": {
+        "denomination": {
+          "type": "string",
+          "enum": ["sunni", "shii_imami", "shii_ismaili", "shii_zaydi", "ibadi", "khariji", "mixed", "syncretic"]
+        },
+        "madhab": {"type": "string"},
+        "note": {"type": "string"}
+      }
+    },
+    "chronology": {
+      "type": "object",
+      "properties": {
+        "start_ce": {"type": "integer"},
+        "end_ce": {"type": "integer"},
+        "start_hijri": {"type": "integer"},
+        "end_hijri": {"type": "integer"},
+        "duration_years": {"type": "integer"},
+        "century_start": {"type": "integer"},
+        "century_end": {"type": "integer"},
+        "historical_period": {"type": "string", "examples": ["rashidun", "umayyad_era", "abbasid_golden_age", "seljuk", "mongol", "post_mongol", "ottoman_rise"]}
+      }
+    },
+    "territory": {
+      "type": "object",
+      "properties": {
+        "capital_ids": {
+          "type": "array",
+          "description": "Başkent(ler) — zaman içinde değişebilir",
+          "items": {
+            "type": "object",
+            "properties": {
+              "place_id": {"type": "string", "pattern": "^plc_"},
+              "from_ce": {"type": "integer"},
+              "to_ce": {"type": "integer"}
+            }
+          }
+        },
+        "primary_region": {"type": "string"},
+        "regions": {"type": "array", "items": {"type": "string"}},
+        "geographic_zone": {"type": "string"},
+        "territory_approx_km2": {"type": "integer"},
+        "bbox": {
+          "type": "object",
+          "properties": {
+            "north": {"type": "number"},
+            "south": {"type": "number"},
+            "east": {"type": "number"},
+            "west": {"type": "number"}
+          }
+        },
+        "territory_center": {
+          "type": "object",
+          "properties": {
+            "lat": {"type": "number"},
+            "lon": {"type": "number"}
+          }
+        }
+      }
+    },
+    "relations": {
+      "type": "object",
+      "properties": {
+        "predecessor_ids": {"type": "array", "items": {"type": "string", "pattern": "^dyn_"}},
+        "successor_ids": {"type": "array", "items": {"type": "string", "pattern": "^dyn_"}},
+        "parent_id": {"type": "string", "pattern": "^dyn_", "description": "Alt kol ise üst hanedan"},
+        "sub_branches": {"type": "array", "items": {"type": "string", "pattern": "^dyn_"}},
+        "allied_ids": {"type": "array", "items": {"type": "string", "pattern": "^dyn_"}},
+        "rival_ids": {"type": "array", "items": {"type": "string", "pattern": "^dyn_"}},
+        "vassal_of": {"type": "string", "pattern": "^dyn_"},
+        "vassals": {"type": "array", "items": {"type": "string", "pattern": "^dyn_"}}
+      }
+    },
+    "rulers": {
+      "type": "array",
+      "description": "Hükümdarlar — kronolojik sırayla",
+      "items": {
+        "type": "object",
+        "required": ["person_id"],
+        "properties": {
+          "person_id": {"type": "string", "pattern": "^per_"},
+          "reign_start_ce": {"type": "integer"},
+          "reign_end_ce": {"type": "integer"},
+          "reign_start_hijri": {"type": "integer"},
+          "reign_end_hijri": {"type": "integer"},
+          "succession_type": {
+            "type": "string",
+            "enum": ["father_to_son", "fraternal", "cousin", "usurpation", "election", "appointment", "unknown"]
+          },
+          "death_cause": {
+            "type": "string",
+            "enum": ["natural", "illness", "assassinated", "killed_in_battle", "executed", "deposed", "abdicated", "unknown"]
+          },
+          "regnal_name": {"type": "string"},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "military_system": {"type": "string"},
+    "economic_base": {"type": "array", "items": {"type": "string"}, "description": "tarım, ticaret, vergi/haraç, sikke, zanaat"},
+    "cultural_contribution": {"type": "array", "items": {"type": "string"}},
+    "end_cause": {
+      "type": "string",
+      "description": "Hanedanın yıkılış sebebi — serbest metin + anahtar tag",
+      "examples": [
+        "mongol_conquest", "internal_revolt", "successor_state", "absorbed",
+        "crusader_conquest", "timurid_conquest", "ottoman_conquest", "unknown"
+      ]
+    },
+    "analytics": {
+      "type": "object",
+      "description": "İstatistikler — dynasty_analytics.csv'den türetilir",
+      "properties": {
+        "ruler_count": {"type": "integer"},
+        "avg_reign_years": {"type": "number"},
+        "stability_ratio": {"type": "number", "description": "Doğal ölüm oranı — istikrar göstergesi"},
+        "continuity_ratio": {"type": "number", "description": "Baba-oğul veraseti oranı"},
+        "battle_count": {"type": "integer"},
+        "battle_win_ratio": {"type": "number"},
+        "scholar_count": {"type": "integer"},
+        "cultural_productivity": {"type": "number"},
+        "power_index": {"type": "number", "minimum": 0, "maximum": 100},
+        "lifecycle": {"type": "string", "enum": ["nascent", "expanding", "peak", "declining", "fragmenting", "terminal"]}
+      }
+    },
+    "importance_level": {"type": "string", "enum": ["kritik", "yuksek", "normal", "dusuk"]},
+    "attestations": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^att_"}
+    },
+    "sameAs": {
+      "type": "object",
+      "properties": {
+        "wikidata": {"type": "string", "pattern": "^Q[0-9]+$"},
+        "dia_url": {"type": "string", "format": "uri"}
+      }
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "narrative_tr": {"type": "string", "maxLength": 15000},
+        "narrative_en": {"type": "string", "maxLength": 15000},
+        "key_contribution_tr": {"type": "string", "maxLength": 2000},
+        "key_contribution_en": {"type": "string", "maxLength": 2000},
+        "rise_reason_tr": {"type": "string", "maxLength": 3000},
+        "fall_reason_tr": {"type": "string", "maxLength": 3000}
+      }
+    },
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "status": {"type": "string", "enum": ["verified", "needs_review", "disputed", "provisional"]},
+    "version": {"type": "integer"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "legacy_ids": {
+      "type": "object",
+      "properties": {
+        "dynasty_id": {"type": "integer"},
+        "bosworth_chapter": {"type": "string"},
+        "dia_id": {"type": "string"}
+      }
+    }
+  }
+}

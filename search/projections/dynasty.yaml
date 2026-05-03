@@ -1,0 +1,58 @@
+# Search projection rule for: dynasty
+
+entity_type: dynasty
+projector_version: 0.1.0
+
+mappings:
+  id: $.["@id"]
+  entity_type: "@const:dynasty"
+  subtypes: "@derived:subtypes_from_type_array"
+  prefLabel_en: $.labels.prefLabel.en
+  prefLabel_ar: $.labels.prefLabel.ar
+  prefLabel_tr: $.labels.prefLabel.tr
+  prefLabel_translit: "@derived:translit_ascii_fold(labels.prefLabel.ar-Latn-x-alalc, labels.prefLabel.en)"
+  altLabels: "@derived:flatten_altLabels_plus_rulers(rulers[].name, rulers[].regnal_title)"
+  description_en: $.labels.description.en
+  description_tr: $.labels.description.tr
+  description_ar: $.labels.description.ar
+
+  # Geo: first capital's coords (looked up via had_capital[0].place → place record)
+  _geo: "@derived:dynasty_geo(had_capital, territory)"
+
+  century_ce: "@derived:century_from_temporal(temporal.start_ce)"
+  century_ah: "@derived:century_from_temporal_ah(temporal.start_ah)"
+  start_year_ce: $.temporal.start_ce
+  end_year_ce: $.temporal.end_ce
+
+  iqlim: "@derived:iqlim_labels(territory)"
+
+  source_layer: "@derived:source_layers_from_provenance(provenance.derived_from)"
+  language: "@derived:languages_from_labels"
+
+  has_coords: "@derived:bool_geo_resolved(had_capital, territory)"
+  has_wikidata: "@derived:bool_authority_present(authority_xref, 'wikidata')"
+  wikidata_qid: "@derived:authority_id(authority_xref, 'wikidata')"
+
+  dynasty_subtype: $.dynasty_subtype
+
+  related_pids: "@derived:union(predecessor, successor, had_capital[].place, territory, rulers[].person_pid)"
+  related_labels: "@lookup:prefLabels(predecessor + successor + had_capital[].place + territory)"
+
+  deprecated: "@derived:bool_default(provenance.deprecated, false)"
+  modified_at: "@derived:unix_timestamp(provenance.modified)"
+
+  _score: "@derived:score_dynasty"
+
+# Dynasty-specific score components:
+score_components:
+  base: 1.0
+  has_wikidata_bonus: 0.3
+  has_coords_bonus: 0.2
+  is_caliphate_bonus: 0.6       # caliphates are anchor entities (Rāshidūn, Umayyad, Abbasid, ...)
+  has_bosworth_id_bonus: 0.3    # Bosworth-anchored = high-confidence canonical
+  duration_log_bonus: 0.05      # log10(end_ce - start_ce) × this; longer-lived dynasties slightly preferred
+  manual_curation_bonus: 0.4
+  deprecated_penalty: -100
+
+unset_for_other_types:
+  - dynasty_subtype

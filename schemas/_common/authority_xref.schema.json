@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/authority_xref.schema.json",
+  "title": "Authority Cross-References",
+  "description": "An array of cross-references to external authority files. Each item identifies a single authority record (Wikidata QID, Pleiades PID, VIAF ID, GeoNames ID, OpenITI URI, TGN ID, LCNAF ID, ISNI). Phase 0 (v0.1.0) actively reconciles only Wikidata and Pleiades; the remaining authorities are forward-declared in the enum so that pipelines for Phase 0.2+ can extend the same schema without breaking existing records.",
+  "type": "array",
+  "uniqueItems": true,
+  "items": { "$ref": "#/$defs/xrefItem" },
+  "$defs": {
+    "xrefItem": {
+      "type": "object",
+      "required": ["authority", "id"],
+      "additionalProperties": false,
+      "properties": {
+        "authority": {
+          "type": "string",
+          "enum": [
+            "wikidata",
+            "pleiades",
+            "viaf",
+            "geonames",
+            "openiti",
+            "tgn",
+            "lcnaf",
+            "isni",
+            "gnd",
+            "bnf"
+          ],
+          "description": "Authority identifier. Phase 0: 'wikidata' and 'pleiades' are reconciled actively. Phase 0.2: 'viaf' (person), 'openiti' (source). Phase 1: 'geonames'. Phase 2+: 'tgn', 'lcnaf', 'isni', 'gnd', 'bnf'."
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "description": "Authority-specific identifier as a string. Format constraints depend on 'authority'; cross-validated by pipelines/reconcilers/utils/id_format.py. Examples: wikidata 'Q5773'; pleiades '658381'; viaf '12345678'; geonames '170063'; openiti '0429Yaqut.MucamBuldan'."
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Reconciliation confidence in [0, 1]. 1.0 = manually verified gold standard; >=0.85 = high-confidence auto-match; 0.70-0.85 = medium-confidence (auto-accepted in Phase 0 only if no manual review queue triggered); <0.70 = low-confidence (Phase 0 dispatches to manual review)."
+        },
+        "method": {
+          "type": "string",
+          "enum": [
+            "manual",
+            "openrefine_v3",
+            "wikidata_property_match",
+            "coordinate_distance",
+            "label_fuzzy",
+            "transliteration_variant",
+            "redirect_chain",
+            "imported_from_source"
+          ],
+          "description": "Reconciliation method. 'manual' = human verified. 'openrefine_v3' = Wikidata Reconciliation API + property hints. 'coordinate_distance' = matched to Pleiades by lat/lon proximity (≤10 km). 'label_fuzzy' = Levenshtein > 0.85. 'imported_from_source' = the cross-reference came from a source dataset (Le Strange has Yâkût refs already)."
+        },
+        "reviewed": {
+          "type": "boolean",
+          "default": false,
+          "description": "True iff a human has confirmed this match. Records with reviewed=true and confidence<1.0 are unusual and indicate a reviewer accepted a match below ideal confidence."
+        },
+        "reviewed_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 datetime of the manual review (when reviewed=true)."
+        },
+        "reviewed_by": {
+          "type": "string",
+          "format": "uri",
+          "description": "URI of the reviewer; preferably an ORCID ('https://orcid.org/0000-0002-7747-6854')."
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 1000,
+          "description": "Editorial note: disambiguation rationale, alternative candidates considered, why this match was preferred."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "authority": { "const": "wikidata" } } },
+          "then": {
+            "properties": {
+              "id": {
+                "pattern": "^Q[1-9][0-9]*$",
+                "description": "Wikidata QID, format Q<positive-integer>."
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "authority": { "const": "pleiades" } } },
+          "then": {
+            "properties": {
+              "id": {
+                "pattern": "^[1-9][0-9]*$",
+                "description": "Pleiades PID, a positive integer-as-string."
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "authority": { "const": "viaf" } } },
+          "then": {
+            "properties": {
+              "id": {
+                "pattern": "^[1-9][0-9]{1,21}$",
+                "description": "VIAF ID, 2–22 digit positive integer."
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "authority": { "const": "geonames" } } },
+          "then": {
+            "properties": {
+              "id": {
+                "pattern": "^[1-9][0-9]*$"
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "authority": { "const": "openiti" } } },
+          "then": {
+            "properties": {
+              "id": {
+                "pattern": "^[0-9]{4}[A-Z][A-Za-z0-9]+(\\.[A-Za-z0-9_]+)?$",
+                "description": "OpenITI URI in the canonical form '<deathYearAH>AuthorShortname.WorkShortname' (e.g., '0429Yaqut.MucamBuldan')."
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "authority": { "const": "isni" } } },
+          "then": {
+            "properties": {
+              "id": {
+                "pattern": "^[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{3}[0-9X]$",
+                "description": "ISNI in the canonical 16-digit grouped form '0000 0001 2103 2683'."
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "$comment": "Phase 0 pipeline actively populates only authority='wikidata' and authority='pleiades'. Other authority values are accepted by the schema but result in no automated reconciliation work in v0.1.0."
+}

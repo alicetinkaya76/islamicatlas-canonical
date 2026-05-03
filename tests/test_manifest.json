@@ -1,0 +1,104 @@
+{
+  "$comment": "Test manifest for islamicatlas-canonical Phase 0 v0.1.0 schema fixtures. The validator (tests/run_schema_tests.py) loads each fixture, validates it against its 'schema', and asserts the outcome matches 'expect'. For 'expect' = 'invalid' cases, the validator additionally checks that at least one of the raised errors carries 'validator' (jsonschema's keyword for the failed constraint) equal to one of the keywords in 'expected_error_keywords'. The keyword list captures the canonical jsonschema error codes; multiple are accepted because some nested-ref errors surface as 'allOf'/'anyOf' wrappers around the underlying keyword.",
+  "version": "0.1.0",
+  "tests": [
+    {
+      "name": "coords-positive",
+      "fixture": "valid/coords_valid.json",
+      "schema": "_common/coords.schema.json",
+      "expect": "valid"
+    },
+    {
+      "name": "multilingual_text-positive",
+      "fixture": "valid/multilingual_text_valid.json",
+      "schema": "_common/multilingual_text.schema.json",
+      "expect": "valid"
+    },
+    {
+      "name": "temporal-positive",
+      "fixture": "valid/temporal_valid.json",
+      "schema": "_common/temporal.schema.json",
+      "expect": "valid"
+    },
+    {
+      "name": "authority_xref-positive",
+      "fixture": "valid/authority_xref_valid.json",
+      "schema": "_common/authority_xref.schema.json",
+      "expect": "valid"
+    },
+    {
+      "name": "provenance-positive",
+      "fixture": "valid/provenance_valid.json",
+      "schema": "_common/provenance.schema.json",
+      "expect": "valid"
+    },
+    {
+      "name": "place-positive-aleppo",
+      "fixture": "valid/place_valid.json",
+      "schema": "place.schema.json",
+      "expect": "valid"
+    },
+    {
+      "name": "dynasty-positive-abbasid",
+      "fixture": "valid/dynasty_valid.json",
+      "schema": "dynasty.schema.json",
+      "expect": "valid"
+    },
+    {
+      "name": "coords-negative-lat-out-of-range",
+      "fixture": "invalid/coords_invalid_lat_out_of_range.json",
+      "schema": "_common/coords.schema.json",
+      "expect": "invalid",
+      "expected_error_keywords": ["maximum"]
+    },
+    {
+      "name": "coords-negative-missing-lon",
+      "fixture": "invalid/coords_invalid_missing_lon.json",
+      "schema": "_common/coords.schema.json",
+      "expect": "invalid",
+      "expected_error_keywords": ["required"]
+    },
+    {
+      "name": "multilingual_text-negative-no-pref",
+      "fixture": "invalid/multilingual_text_invalid_no_pref.json",
+      "schema": "_common/multilingual_text.schema.json",
+      "expect": "invalid",
+      "expected_error_keywords": ["required"]
+    },
+    {
+      "name": "temporal-negative-no-anchor",
+      "fixture": "invalid/temporal_invalid_no_anchor.json",
+      "schema": "_common/temporal.schema.json",
+      "expect": "invalid",
+      "expected_error_keywords": ["anyOf"]
+    },
+    {
+      "name": "authority_xref-negative-qid-format",
+      "fixture": "invalid/authority_xref_invalid_qid_format.json",
+      "schema": "_common/authority_xref.schema.json",
+      "expect": "invalid",
+      "expected_error_keywords": ["pattern", "allOf"]
+    },
+    {
+      "name": "provenance-negative-no-source",
+      "fixture": "invalid/provenance_invalid_no_source.json",
+      "schema": "_common/provenance.schema.json",
+      "expect": "invalid",
+      "expected_error_keywords": ["minItems"]
+    },
+    {
+      "name": "place-negative-no-id",
+      "fixture": "invalid/place_invalid_no_id.json",
+      "schema": "place.schema.json",
+      "expect": "invalid",
+      "expected_error_keywords": ["required"]
+    },
+    {
+      "name": "dynasty-negative-no-temporal",
+      "fixture": "invalid/dynasty_invalid_no_temporal.json",
+      "schema": "dynasty.schema.json",
+      "expect": "invalid",
+      "expected_error_keywords": ["required"]
+    }
+  ]
+}

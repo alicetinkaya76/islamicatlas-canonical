@@ -1,0 +1,69 @@
+# Bosworth — The New Islamic Dynasties: A Chronological and Genealogical Manual
+# C. E. Bosworth, Edinburgh University Press 2004, 186 NIDs (NID-001 .. NID-186).
+#
+# Hafta 2 of Phase 0: this is the seeding adapter for the iac:dynasty-* namespace.
+# CSV-driven (the upstream archive package ships pre-tabulated all_dynasties_enriched.csv,
+# all_rulers_merged.csv, dynasty_relations.csv, dynasty_analytics.csv); the adapter
+# walks all 186 NIDs in one pass.
+
+adapter_id: "bosworth"
+display_name: "Bosworth — The New Islamic Dynasties (EUP 2004)"
+adapter_version: 0.1.0
+
+source_kind: secondary_scholarly
+languages: [en, tr, ar]
+license: "Fair use (tertiary-reference excerpts). The canonical store records derivative facts only — chapter pointers, names, dates, regnal lists. Bosworth narrative prose is not redistributed."
+
+# Seeds the dynasty namespace.
+target_namespaces: [dynasty]
+
+target_phase_min: P0
+target_phase_max: ~
+
+extraction_method: structured_csv
+
+# All upstream paths are repository-relative; resolved by run_adapter.py.
+input_paths:
+  - data/sources/bosworth/all_dynasties_enriched.csv
+  - data/sources/bosworth/all_rulers_merged.csv
+  - data/sources/bosworth/dynasty_relations.csv
+output_paths:
+  - data/canonical/dynasty/
+
+# Provenance inherited by every record produced from this adapter.
+provenance_template:
+  source_id_pattern: "bosworth-nid:{dynasty_id}"
+  page_or_locator_pattern: "Bosworth, New Islamic Dynasties, NID-{dynasty_id_padded}"
+  edition_or_version: "Edinburgh University Press 2004 (paperback reprint)."
+
+reconciliation:
+  enabled: true
+  authorities: [wikidata]
+  threshold_auto_accept: 0.85
+  threshold_review: 0.70
+  cache_path: data/cache/wikidata_reconcile.sqlite
+  seed_path: pipelines/adapters/bosworth/seed/wikidata_qid_seed.json
+  # Reconciliation type hint: Q164950 (caliphate) is the closest single-type
+  # hint; recon API matches subclasses too. For non-caliphates the seed +
+  # label match still resolves cleanly.
+  type_qid: "Q164950"
+  mode: auto                       # 'live' | 'offline' | 'auto'
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]
+
+# Phase 2 of canonicalization (read by integrity/check_all.py): which row types
+# in dynasty_relations.csv carry political-continuity semantics. 'selef' rows
+# express id_1 → id_2 succession (id_1 is the predecessor of id_2).
+relations_semantics:
+  predecessor_relation_type: "selef"
+
+# Bosworth records carry capital_lat/lon and regions_all; in Hafta 2 these
+# cannot land in had_capital[] / territory[] (the dynasty.schema.json place
+# pattern is strict iac:place-NNNNNNNN and the place namespace is empty until
+# Hafta 3). Capital + territory data is sidecared to a non-canonical file and
+# re-applied in Hafta 3 once Yâqūt + Le Strange canonicalize iac:place-* PIDs.
+sidecar_pending:
+  capital: data/_state/bosworth_capital_pending.json
+
+projection_overrides: ~

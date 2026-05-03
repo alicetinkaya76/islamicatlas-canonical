@@ -1,0 +1,278 @@
+{
+  "@context": {
+    "@version": 1.1,
+
+    "iac":     "https://w3id.org/islamicatlas/ontology#",
+    "iac-prp": "https://w3id.org/islamicatlas/ontology/property#",
+    "crm":     "http://www.cidoc-crm.org/cidoc-crm/",
+    "rdf":     "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs":    "http://www.w3.org/2000/01/rdf-schema#",
+    "owl":     "http://www.w3.org/2002/07/owl#",
+    "skos":    "http://www.w3.org/2004/02/skos/core#",
+    "prov":    "http://www.w3.org/ns/prov#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema":  "https://schema.org/",
+    "time":    "http://www.w3.org/2006/time#",
+    "geo":     "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf":    "http://xmlns.com/foaf/0.1/",
+    "xsd":     "http://www.w3.org/2001/XMLSchema#",
+
+    "id":   "@id",
+    "type": "@type",
+
+    "Place":              { "@id": "crm:E53_Place" },
+    "Settlement":         { "@id": "iac:Settlement" },
+    "Region":             { "@id": "iac:Region" },
+    "Iqlim":              { "@id": "iac:Iqlim" },
+    "Dynasty":            { "@id": "iac:Dynasty" },
+    "Caliphate":          { "@id": "iac:Caliphate" },
+    "Sultanate":          { "@id": "iac:Sultanate" },
+    "Emirate":            { "@id": "iac:Emirate" },
+    "Imamate":            { "@id": "iac:Imamate" },
+    "Beylik":             { "@id": "iac:Beylik" },
+
+    "schema_Place":        { "@id": "schema:Place" },
+    "schema_Organization": { "@id": "schema:Organization" },
+
+    "prefLabel": {
+      "@id": "skos:prefLabel",
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@id": "skos:altLabel",
+      "@container": [ "@language", "@set" ]
+    },
+    "transliteration": {
+      "@id": "iac-prp:transliteration",
+      "@container": "@language"
+    },
+    "originalScript": {
+      "@id": "iac-prp:originalScript",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dcterms:description",
+      "@container": "@language"
+    },
+
+    "name":  "schema:name",
+    "title": "dcterms:title",
+    "url":   "schema:url",
+
+    "coords": {
+      "@id": "iac-prp:coordinates",
+      "@type": "@id"
+    },
+    "lat": {
+      "@id": "geo:lat",
+      "@type": "xsd:double"
+    },
+    "lon": {
+      "@id": "geo:long",
+      "@type": "xsd:double"
+    },
+    "precision_meters": {
+      "@id": "iac-prp:precisionMeters",
+      "@type": "xsd:integer"
+    },
+    "geometry_type": {
+      "@id": "iac-prp:geometryType"
+    },
+    "crs": {
+      "@id": "iac-prp:coordinateReferenceSystem",
+      "@type": "@id"
+    },
+    "uncertainty": {
+      "@id": "iac-prp:locationUncertainty"
+    },
+
+    "located_in": {
+      "@id": "iac:locatedInRegion",
+      "@type": "@id"
+    },
+    "falls_within": {
+      "@id": "crm:P89_falls_within",
+      "@type": "@id"
+    },
+    "has_part": {
+      "@id": "crm:P10i_contains",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "subtype": {
+      "@id": "iac:hasSubtype",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "temporal": {
+      "@id": "iac-prp:temporalCoverage",
+      "@type": "@id"
+    },
+    "start_ce": {
+      "@id": "iac-prp:startCE",
+      "@type": "xsd:gYear"
+    },
+    "end_ce": {
+      "@id": "iac-prp:endCE",
+      "@type": "xsd:gYear"
+    },
+    "start_ah": {
+      "@id": "iac-prp:startAH",
+      "@type": "xsd:integer"
+    },
+    "end_ah": {
+      "@id": "iac-prp:endAH",
+      "@type": "xsd:integer"
+    },
+    "approximation": {
+      "@id": "iac-prp:temporalApproximation"
+    },
+    "owl_time_interval": {
+      "@id": "time:hasTime",
+      "@type": "@id"
+    },
+
+    "authority_xref": {
+      "@id": "iac-prp:authorityXref",
+      "@type": "@id"
+    },
+    "wikidata": {
+      "@id": "iac-prp:wikidataQID",
+      "@type": "@id"
+    },
+    "pleiades": {
+      "@id": "iac-prp:pleiadesPID",
+      "@type": "@id"
+    },
+    "viaf": {
+      "@id": "iac-prp:viafID",
+      "@type": "@id"
+    },
+    "geonames": {
+      "@id": "iac-prp:geonamesID",
+      "@type": "@id"
+    },
+    "openiti_uri": {
+      "@id": "iac-prp:openitiURI",
+      "@type": "@id"
+    },
+    "tgn": {
+      "@id": "iac-prp:tgnID",
+      "@type": "@id"
+    },
+    "lcnaf": {
+      "@id": "iac-prp:lcnafID",
+      "@type": "@id"
+    },
+    "isni": {
+      "@id": "iac-prp:isniID",
+      "@type": "@id"
+    },
+    "confidence": {
+      "@id": "iac-prp:reconciliationConfidence",
+      "@type": "xsd:double"
+    },
+    "method": {
+      "@id": "iac-prp:reconciliationMethod"
+    },
+    "reviewed": {
+      "@id": "iac-prp:reviewedFlag",
+      "@type": "xsd:boolean"
+    },
+
+    "provenance": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    },
+    "derived_from": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "generated_by": {
+      "@id": "prov:wasGeneratedBy",
+      "@type": "@id"
+    },
+    "generated_at": {
+      "@id": "prov:generatedAtTime",
+      "@type": "xsd:dateTime"
+    },
+    "attributed_to": {
+      "@id": "prov:wasAttributedTo",
+      "@type": "@id"
+    },
+    "source": {
+      "@id": "dcterms:source",
+      "@type": "@id"
+    },
+    "creator": {
+      "@id": "dcterms:creator",
+      "@type": "@id"
+    },
+    "created": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+    "modified": {
+      "@id": "dcterms:modified",
+      "@type": "xsd:dateTime"
+    },
+    "license": {
+      "@id": "dcterms:license",
+      "@type": "@id"
+    },
+    "pipeline_name": {
+      "@id": "iac-prp:pipelineName"
+    },
+    "pipeline_version": {
+      "@id": "iac-prp:pipelineVersion"
+    },
+
+    "predecessor": {
+      "@id": "iac:precededBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "successor": {
+      "@id": "iac:succeededBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "had_capital": {
+      "@id": "iac:hadCapital",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "rulers": {
+      "@id": "iac-prp:rulers",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "bosworth_id": {
+      "@id": "iac:bosworthId"
+    },
+    "yaqut_id": {
+      "@id": "iac:yaqutId"
+    },
+
+    "related": {
+      "@id": "skos:related",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "broader": {
+      "@id": "skos:broader",
+      "@type": "@id"
+    },
+    "narrower": {
+      "@id": "skos:narrower",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "schema_version": "iac-prp:schemaVersion",
+    "data_version":   "iac-prp:dataVersion",
+    "release":        "iac-prp:releaseTag"
+  }
+}

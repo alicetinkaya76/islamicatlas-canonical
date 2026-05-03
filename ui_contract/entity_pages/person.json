@@ -1,0 +1,38 @@
+{
+  "$schema": "../entity_page.meta.schema.json",
+  "entity_type": "person",
+  "version": "0.1.0",
+  "sections": [
+    { "id": "header", "order": 1, "config": {
+      "show_subtype_badge": true,
+      "show_kunya_nasab_inline": true,
+      "show_nisba_chips": true
+    }},
+    { "id": "quick_facts", "order": 2, "config": {
+      "fields": ["birth_temporal", "death_temporal", "birth_place", "death_place", "profession", "madhab", "tariqa"]
+    }},
+    { "id": "map", "order": 3, "config": {
+      "points": ["birth_place", "death_place", "active_in_places"],
+      "show_trajectory": false,
+      "trajectory_phase": "P1.0"
+    }},
+    { "id": "timeline", "order": 4, "config": {
+      "events_source": "life_events_synth",
+      "events": ["birth_temporal", "death_temporal", "active_in_places_periods"],
+      "show_authored_works_as_dots": true
+    }},
+    { "id": "isnad_chain", "order": 5, "config": {
+      "source": "teachers_students",
+      "depth": 2,
+      "render_only_if_present": "teachers"
+    }},
+    { "id": "relations", "order": 6, "config": {
+      "edge_kinds": ["affiliated_dynasties", "authored_works", "teachers", "students"],
+      "graph_layout": "concentric"
+    }},
+    { "id": "cross_refs", "order": 7 },
+    { "id": "sources", "order": 8 },
+    { "id": "authority_links", "order": 9 },
+    { "id": "editorial", "order": 10, "render_only_if_present": true }
+  ]
+}

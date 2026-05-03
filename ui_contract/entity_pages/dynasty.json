@@ -1,0 +1,38 @@
+{
+  "$schema": "../entity_page.meta.schema.json",
+  "entity_type": "dynasty",
+  "version": "0.1.0",
+  "sections": [
+    { "id": "header", "order": 1, "config": { "show_subtype_badge": true } },
+    { "id": "quick_facts", "order": 2, "config": {
+      "fields": ["dynasty_subtype", "temporal", "bosworth_id", "had_capital", "predecessor", "successor"]
+    }},
+    { "id": "timeline", "order": 3, "config": {
+      "events_source": "rulers",
+      "show_capital_relocations": true,
+      "show_predecessor_successor_chain": true
+    }},
+    { "id": "rulers_table", "order": 4, "config": {
+      "columns": ["regnal_title", "name", "reign_period_ce", "reign_period_ah", "person_pid_link"],
+      "default_sort": "reign_start_ce_asc",
+      "expandable_rows": true
+    }},
+    { "id": "map", "order": 5, "config": {
+      "show_capitals_as_markers": true,
+      "show_territory_as_polygons": false,
+      "show_capital_tenure_animation": true,
+      "render_only_if_present": "had_capital"
+    }},
+    { "id": "relations", "order": 6, "config": {
+      "edge_kinds": ["predecessor", "successor", "had_capital", "territory"],
+      "graph_layout": "hierarchical",
+      "highlight_succession_chain": true
+    }},
+    { "id": "cross_refs", "order": 7, "config": {
+      "layers_priority": ["bosworth", "salibiyyat", "evliya-celebi", "openiti"]
+    }},
+    { "id": "sources", "order": 8 },
+    { "id": "authority_links", "order": 9 },
+    { "id": "editorial", "order": 10, "render_only_if_present": true }
+  ]
+}

@@ -1,0 +1,533 @@
+@prefix iac:     <https://w3id.org/islamicatlas/ontology#> .
+@prefix iac-cls: <https://w3id.org/islamicatlas/ontology/class#> .
+@prefix iac-prp: <https://w3id.org/islamicatlas/ontology/property#> .
+
+@prefix crm:     <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema:  <https://schema.org/> .
+@prefix time:    <http://www.w3.org/2006/time#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+#######################################################################
+# ONTOLOGY METADATA
+#######################################################################
+
+<https://w3id.org/islamicatlas/ontology>
+    a                owl:Ontology ;
+    dcterms:title    "islamicatlas-canonical Ontology (iac:)"@en ,
+                     "islamicatlas-canonical Ontolojisi (iac:)"@tr ;
+    dcterms:creator  <https://orcid.org/0000-0002-7747-6854> ;
+    dcterms:created  "2026-05-03"^^xsd:date ;
+    dcterms:modified "2026-05-03"^^xsd:date ;
+    owl:versionInfo  "0.1.0-phase0" ;
+    owl:versionIRI   <https://w3id.org/islamicatlas/ontology/0.1.0> ;
+    dcterms:license  <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    rdfs:comment """
+        islamicatlas-canonical extension ontology. Phase 0 (v0.1.0) defines
+        a minimum set of classes covering Dynasty hierarchy and Place
+        subtypes used in the place + dynasty namespaces.
+
+        Top-level alignment: CIDOC-CRM v7.1.3.
+        Phase 0.2+ classes (Madhab, Tariqa, Madrasa, Mosque, Tekke, Vakıf,
+        Iqta, Tabaqa, Isnad, CaliphalRole, ...) are forward-declared with
+        rdfs:isDefinedBy this ontology but are NOT instantiated in the
+        Phase 0 release. They will be activated as their corresponding
+        namespaces (person, source, monument, event, institution) come
+        online.
+
+        Sub-decisions resolved in ADR-003:
+          - iac:Caliphate is rdfs:subClassOf iac:Dynasty -> crm:E40_Legal_Body
+            (the institution; the role and the doctrine are separate classes).
+          - iac:Madhab is dual-typed: crm:E55_Type + skos:Concept.
+          - schema.org alignment is applied at JSON-LD context level
+            (not as owl:equivalentClass) for forward flexibility.
+          - Dublin Core Terms is used for provenance metadata in P0;
+            BIBO is deferred to Phase 0.2 (with source namespace).
+    """@en ;
+    rdfs:seeAlso     <https://github.com/alicetinkaya76/islamicatlas-canonical> ,
+                     <https://islamicatlas.org/> .
+
+#######################################################################
+# §1  CORE CLASSES — DYNASTY HIERARCHY  (active in Phase 0)
+#######################################################################
+
+iac:Dynasty
+    a                owl:Class ;
+    rdfs:label       "Dynasty"@en , "Hanedan"@tr , "سلالة"@ar ;
+    rdfs:subClassOf  crm:E40_Legal_Body ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A polity with continuity of rulership characterised by hereditary succession or a defining founding lineage. Concrete instances tax, raise armies, mint coins, and have predecessors and successors. Used in the dynasty namespace to canonicalise C. E. Bosworth's New Islamic Dynasties (2004)."@en ;
+    rdfs:comment     "Phase 0 active class. ~186 instances expected from Bosworth NID."@en .
+
+iac:Caliphate
+    a                owl:Class ;
+    rdfs:label       "Caliphate"@en , "Hilafet"@tr , "خلافة"@ar ;
+    rdfs:subClassOf  iac:Dynasty ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A polity headed by a caliph (khalīfa), claiming continuity with the Prophetic authority. Examples: Rāshidūn (632–661), Umayyad (661–750), Abbasid (750–1258), Umayyad of Cordoba (929–1031), Fatimid (909–1171), Ottoman (after 1517 dual claim, formally 1517–1924)."@en ;
+    skos:related     iac:CaliphalRole , iac:CaliphalInstitution ;
+    rdfs:comment     "Caliphate-as-institution. For caliph-as-role-of-a-person see iac:CaliphalRole. For caliphate-as-doctrine see iac:CaliphalInstitution."@en .
+
+iac:Sultanate
+    a                owl:Class ;
+    rdfs:label       "Sultanate"@en , "Sultanlık"@tr , "سلطنة"@ar ;
+    rdfs:subClassOf  iac:Dynasty ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A polity headed by a sultan (sulṭān), exercising temporal sovereignty often nominally under the spiritual authority of a caliph. Examples: Great Seljuk (1037–1194), Ayyubid (1171–1260), Mamluk Sultanate of Egypt (1250–1517), Sultanate of Rum (1077–1308), Sultanate of Delhi (1206–1526)."@en .
+
+iac:Emirate
+    a                owl:Class ;
+    rdfs:label       "Emirate"@en , "Emirlik"@tr , "إمارة"@ar ;
+    rdfs:subClassOf  iac:Dynasty ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A polity headed by an amīr (commander/prince), often regional in scope or subordinate to a larger sultanate or caliphate. Examples: Aghlabids of Ifrīqiya (800–909), Banū Hūd of Zaragoza (1039–1110), Emirate of Granada (1230–1492)."@en .
+
+iac:Imamate
+    a                owl:Class ;
+    rdfs:label       "Imamate"@en , "İmamet"@tr , "إمامة"@ar ;
+    rdfs:subClassOf  iac:Dynasty ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A polity headed by an imām, in the sense of legitimate religio-political leadership distinct from caliphal claim. Used primarily in Shīʿī, Ibādī, and Zaydī contexts. Examples: Zaydī Imamate of Yemen, Ibādī Imamate of Oman, Rustamids of Tāhert."@en .
+
+iac:Beylik
+    a                owl:Class ;
+    rdfs:label       "Beylik"@en , "Beylik"@tr , "بیلیک"@ar ;
+    rdfs:subClassOf  iac:Dynasty ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "Anatolian principalities (sing. beylik) emerging in the post-Seljuk period after the disintegration of the Sultanate of Rum. Examples: Karamanoğulları, Germiyanoğulları, Aydınoğulları, Saruhanoğulları, Eretnaoğulları, Osmanoğulları (later imperial Ottoman dynasty)."@en .
+
+#######################################################################
+# §2  CORE CLASSES — PLACE SUBTYPES  (active in Phase 0)
+#######################################################################
+
+iac:Settlement
+    a                owl:Class ;
+    rdfs:label       "Settlement"@en , "Yerleşim"@tr , "مستوطنة"@ar ;
+    rdfs:subClassOf  crm:E53_Place ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A place inhabited continuously, including cities (madīna), towns (qarya), villages, and fortified towns (ḥiṣn-as-settlement, qaṣaba). Distinguished from purely geographical features (mountains, rivers, deserts) by sustained human habitation."@en .
+
+iac:Region
+    a                owl:Class ;
+    rdfs:label       "Region"@en , "Bölge"@tr , "منطقة"@ar ;
+    rdfs:subClassOf  crm:E53_Place ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A geographic region recognised in classical Islamic geography but not necessarily a single political unit. Examples: Khurāsān, al-Andalus, al-Maghrib, Bilād al-Shām, al-Jazīra, Rūm."@en .
+
+iac:Iqlim
+    a                owl:Class ;
+    rdfs:label       "Iqlīm"@en , "İklim"@tr , "إقليم"@ar ;
+    rdfs:subClassOf  iac:Region ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A regional administrative or geographical division as used by classical Muslim geographers (Yaʿqūbī, Iṣṭakhrī, Muqaddasī, Yāqūt). Number and extent of iqlīm vary across authors; al-Muqaddasī enumerates fourteen for the dār al-islām. Compare with the Greek geographic klima (κλίμα) which iqlīm phonetically descends from but with which it is not always cognate semantically."@en ;
+    rdfs:comment     "Used for the 14 al-Muqaddasī iqlīm in islamicatlas.org's Makdisi layer."@en .
+
+#######################################################################
+# §3  PHASE 0.2+ CLASSES  (forward-declared, NOT yet instantiated)
+#######################################################################
+
+# ----- §3.1 Religious doctrine: madhāhib + tariqas (P0.2/P0.3) -----
+
+iac:Madhab
+    a                owl:Class ;
+    rdfs:label       "Madhab (school of law)"@en , "Mezhep"@tr , "مذهب"@ar ;
+    rdfs:subClassOf  crm:E55_Type , skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A school of Islamic legal doctrine. The four canonical Sunni madhāhib are Ḥanafī, Mālikī, Shāfiʿī, and Ḥanbalī; the Imāmī (Twelver) Shīʿī madhab is Jaʿfarī; Zaydī and Ibādī are also recognised."@en ;
+    rdfs:comment     "Phase 0.2+ class. Dual-typed as crm:E55_Type (categorial) and skos:Concept (hierarchical) — ADR-003 §3.2."@en .
+
+iac:Tariqa
+    a                owl:Class ;
+    rdfs:label       "Tarīqa (Sufi order)"@en , "Tarikat"@tr , "طريقة"@ar ;
+    rdfs:subClassOf  crm:E40_Legal_Body ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A Sufi order organised around a transmissive chain (silsila) tracing back to a founding shaykh. Examples: Qādiriyya, Shādhiliyya, Naqshbandiyya, Mawlawiyya, Khalwatiyya, Tijāniyya."@en ;
+    rdfs:comment     "Phase 0.3+ class. Activated when the institution namespace is created."@en .
+
+# ----- §3.2 Buildings + sites (P0.3) -----
+
+iac:Madrasa
+    a                owl:Class ;
+    rdfs:label       "Madrasa"@en , "Medrese"@tr , "مدرسة"@ar ;
+    rdfs:subClassOf  crm:E27_Site ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "An institution of higher learning, typically endowed by a vakıf, including the physical building. The Madrasa Niẓāmiyya of Baghdad (founded 1065) is the canonical exemplar; Mustansiriyya (1227), Sahn-i Semân (Istanbul, 1463) are major later instances."@en ;
+    rdfs:comment     "Phase 0.3+ class. Activated when the monument namespace is created."@en .
+
+iac:Mosque
+    a                owl:Class ;
+    rdfs:label       "Mosque"@en , "Cami"@tr , "مسجد"@ar ;
+    rdfs:subClassOf  crm:E27_Site ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A masjid; a Muslim place of communal prayer. Includes both small neighbourhood mosques (masjid) and the larger congregational mosques where the Friday prayer is held (jāmiʿ)."@en ;
+    rdfs:comment     "Phase 0.3+ class."@en .
+
+iac:Tekke
+    a                owl:Class ;
+    rdfs:label       "Tekke / Zāwiya"@en , "Tekke"@tr , "تكية"@ar ;
+    rdfs:subClassOf  crm:E27_Site ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A Sufi lodge serving as a residential and ritual centre for a tarīqa. Anatolian/Ottoman variants tekke; North African variants zāwiya, ribāṭ (in the Sufi sense); Persian khānaqāh."@en ;
+    rdfs:comment     "Phase 0.3+ class."@en .
+
+# ----- §3.3 Endowment + iqtaa (P0.3) -----
+
+iac:Vakif
+    a                owl:Class ;
+    rdfs:label       "Vakıf / Waqf"@en , "Vakıf"@tr , "وقف"@ar ;
+    rdfs:subClassOf  crm:E40_Legal_Body ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A pious endowment under Islamic law in which property is set aside in perpetuity, with its usufruct directed to a specified beneficiary or charitable purpose. The endowment itself is an entity with legal personality."@en ;
+    rdfs:comment     "Phase 0.3+ class. Activated when the institution namespace is created."@en .
+
+iac:Iqta
+    a                owl:Class ;
+    rdfs:label       "Iqṭāʿ"@en , "İkta"@tr , "إقطاع"@ar ;
+    rdfs:subClassOf  crm:E40_Legal_Body ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A grant of land or its tax revenue made by a sovereign in return for service. Distinct from the European fief in juridical structure, especially in heritability."@en ;
+    rdfs:comment     "Phase 0.3+ class."@en .
+
+# ----- §3.4 Knowledge organisation: Tabaqāt + isnād (P0.3) -----
+
+iac:Tabaqa
+    a                owl:Class ;
+    rdfs:label       "Ṭabaqa"@en , "Tabaka"@tr , "طبقة"@ar ;
+    rdfs:subClassOf  crm:E78_Curated_Holding ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A generation-cohort within the ṭabaqāt biographical genre. Each ṭabaqa enumerates the named scholars belonging to a single generational layer. The genre originates with Ibn Saʿd (d. 845) and is elaborated through al-Dhahabī, Ibn Ḥajar, Sakhāwī, Suyūṭī and beyond."@en ;
+    rdfs:comment     "Phase 0.3+ class. Used by tabakat.io and prosopographical layers."@en .
+
+iac:Isnad
+    a                owl:Class ;
+    rdfs:label       "Isnād (chain of transmission)"@en , "İsnad"@tr , "إسناد"@ar ;
+    rdfs:subClassOf  crm:E29_Design ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A chain of named transmitters by which a hadith or other piece of transmitted knowledge is authenticated. Modeled here as a directed acyclic structure of person-to-person transmission events."@en ;
+    rdfs:comment     "Phase 0.3+ class. Activated when person namespace is mature."@en .
+
+# ----- §3.5 Caliphal role + doctrine (P0.2) -----
+
+iac:CaliphalRole
+    a                owl:Class ;
+    rdfs:label       "Caliphal role"@en , "Halife rolü"@tr ;
+    rdfs:subClassOf  crm:E55_Type ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "The role/title of caliph (khalīfa) held by a person at a particular time. Distinct from iac:Caliphate (the institution) and iac:CaliphalInstitution (the doctrine)."@en ;
+    rdfs:comment     "Phase 0.2+ class. Activated when person namespace is created."@en .
+
+iac:CaliphalInstitution
+    a                owl:Class ;
+    rdfs:label       "Caliphal institution (doctrine)"@en , "Hilafet kavramı"@tr ;
+    rdfs:subClassOf  crm:E55_Type , skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "The doctrinal/theoretical concept of the caliphate, distinct from any concrete instance of a caliphal polity. Engaged with most prominently by Māwardī (d. 1058), Juwaynī (d. 1085), Ibn Taymiyya (d. 1328), and modern thinkers (Rashīd Riḍā 1923, ʿAlī ʿAbd al-Rāziq 1925)."@en ;
+    rdfs:comment     "Phase 0.2+ class."@en .
+
+#######################################################################
+# §4  CORE PROPERTIES  (active in Phase 0)
+#######################################################################
+
+iac:hasSubtype
+    a                owl:ObjectProperty ;
+    rdfs:label       "has subtype"@en , "alt tipi"@tr ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:domain      crm:E1_CRM_Entity ;
+    rdfs:range       crm:E55_Type ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "Connects an iac entity to a domain-specific subtype (e.g., a Place to Settlement/Region/Iqlim). Specialisation of crm:P2_has_type."@en .
+
+iac:bosworthId
+    a                owl:DatatypeProperty ;
+    rdfs:label       "Bosworth NID id"@en , "Bosworth NID kimliği"@tr ;
+    rdfs:domain      iac:Dynasty ;
+    rdfs:range       xsd:string ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "The dynasty's identifier in C. E. Bosworth, *The New Islamic Dynasties* (Edinburgh University Press, 2004). Format: \"NID-001\" through \"NID-186\". Source-of-truth identifier for the dynasty namespace."@en .
+
+iac:yaqutId
+    a                owl:DatatypeProperty ;
+    rdfs:label       "Yāqūt Muʿjam id"@en , "Yâkût Muʿcem kimliği"@tr ;
+    rdfs:domain      crm:E53_Place ;
+    rdfs:range       xsd:string ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "The place's identifier in the source extraction of Yāqūt al-Ḥamawī's Muʿjam al-Buldān used by islamicatlas.org. Format: 1-based integer."@en .
+
+iac:succeededBy
+    a                  owl:ObjectProperty , owl:IrreflexiveProperty ;
+    rdfs:label         "succeeded by"@en , "halefi"@tr ;
+    rdfs:domain        iac:Dynasty ;
+    rdfs:range         iac:Dynasty ;
+    owl:inverseOf      iac:precededBy ;
+    rdfs:isDefinedBy   <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition    "Asserts a successor relationship between two dynasties. Bosworth uses this implicitly through narrative; we make it explicit. Multiple successors are allowed (a dynasty may fragment into more than one)."@en .
+
+iac:precededBy
+    a                  owl:ObjectProperty , owl:IrreflexiveProperty ;
+    rdfs:label         "preceded by"@en , "selefi"@tr ;
+    rdfs:domain        iac:Dynasty ;
+    rdfs:range         iac:Dynasty ;
+    owl:inverseOf      iac:succeededBy ;
+    rdfs:isDefinedBy   <https://w3id.org/islamicatlas/ontology> .
+
+iac:hadCapital
+    a                owl:ObjectProperty ;
+    rdfs:label       "had capital"@en , "başkenti"@tr ;
+    rdfs:domain      iac:Dynasty ;
+    rdfs:range       crm:E53_Place ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "Connects a dynasty to its capital(s). Multiple values allowed; pair with iac:capitalPeriod for temporal qualification (P0.2)."@en .
+
+iac:locatedInRegion
+    a                owl:ObjectProperty ;
+    rdfs:label       "located in region"@en , "bulunduğu bölge"@tr ;
+    rdfs:subPropertyOf crm:P89_falls_within ;
+    rdfs:domain      crm:E53_Place ;
+    rdfs:range       iac:Region ;
+    rdfs:isDefinedBy <https://w3id.org/islamicatlas/ontology> ;
+    skos:definition  "A place falls within a recognised region (Khurāsān, al-Andalus, etc.) or iqlīm. Specialisation of crm:P89_falls_within."@en .
+
+#######################################################################
+# §5  COMMON INDIVIDUALS  (Phase 0 — region/iqlim instances)
+#######################################################################
+
+# These instances appear in the place namespace under data/places/_regions/.
+# They are listed here for convenience of SPARQL prefix usage; the
+# canonical record lives in the data/ tree.
+
+iac:region-khurasan
+    a                iac:Region ;
+    rdfs:label       "Khurāsān"@en , "Horasan"@tr , "خراسان"@ar ;
+    skos:prefLabel   "Khurāsān"@en .
+
+iac:region-andalus
+    a                iac:Region ;
+    rdfs:label       "al-Andalus"@en , "Endülüs"@tr , "الأندلس"@ar ;
+    skos:prefLabel   "al-Andalus"@en .
+
+iac:region-maghrib
+    a                iac:Region ;
+    rdfs:label       "al-Maghrib"@en , "Mağrib"@tr , "المغرب"@ar ;
+    skos:prefLabel   "al-Maghrib"@en .
+
+iac:region-sham
+    a                iac:Region ;
+    rdfs:label       "Bilād al-Shām"@en , "Bilâdüşşâm"@tr , "بلاد الشام"@ar ;
+    skos:prefLabel   "Bilād al-Shām"@en .
+
+iac:region-jazira
+    a                iac:Region ;
+    rdfs:label       "al-Jazīra"@en , "Cezîre"@tr , "الجزيرة"@ar ;
+    skos:prefLabel   "al-Jazīra"@en .
+
+iac:region-rum
+    a                iac:Region ;
+    rdfs:label       "Rūm (Anatolia)"@en , "Rum"@tr , "الروم"@ar ;
+    skos:prefLabel   "Rūm"@en .
+
+iac:region-iraq
+    a                iac:Region ;
+    rdfs:label       "al-ʿIrāq"@en , "Irak"@tr , "العراق"@ar ;
+    skos:prefLabel   "al-ʿIrāq"@en .
+
+iac:region-misr
+    a                iac:Region ;
+    rdfs:label       "Miṣr (Egypt)"@en , "Mısır"@tr , "مصر"@ar ;
+    skos:prefLabel   "Miṣr"@en .
+
+iac:region-hijaz
+    a                iac:Region ;
+    rdfs:label       "al-Ḥijāz"@en , "Hicaz"@tr , "الحجاز"@ar ;
+    skos:prefLabel   "al-Ḥijāz"@en .
+
+iac:region-yemen
+    a                iac:Region ;
+    rdfs:label       "al-Yaman"@en , "Yemen"@tr , "اليمن"@ar ;
+    skos:prefLabel   "al-Yaman"@en .
+
+# Additional regions (Sind, Transoxiana, Sicily, Crete, etc.) added as
+# place namespace expands in Phase 0.
+
+#######################################################################
+# §6  SCHEMA.ORG ALIGNMENT  (declared at JSON-LD context level — see iac_context.jsonld)
+#######################################################################
+
+# ADR-003 §3.3: schema.org alignment is applied via JSON-LD context, not
+# owl:equivalentClass, to keep options open for richer alignment in
+# Phase 4. The mappings used at context level are:
+#
+#   iac:Settlement      <-> schema:Place
+#   iac:Region          <-> schema:AdministrativeArea
+#   iac:Dynasty         <-> schema:Organization
+#   iac:Caliphate       <-> schema:Organization
+#   iac:Sultanate       <-> schema:Organization
+#
+# These are JSON-LD term aliases, not owl:equivalentClass assertions.
+# Future Phase 4 work may upgrade these to formal equivalences after
+# domain validation.
+
+#######################################################################
+# §7  FORWARD-DECLARED CLASSES (ADR-005 unified entity catalog)
+#       added in v1.1 / 03 May 2026
+#######################################################################
+
+# These classes are reserved in v0.1.0 (Phase 0) so that cross-reference
+# fields (place.had_capital_of, dynasty.rulers[].person_pid, etc.) can
+# point to them without breaking-change risk when their canonical
+# stores activate. Pipeline integrity check will reject canonical
+# records whose @type contains a forward-declared class until that
+# class's activation Phase is reached (see rdfs:comment annotations).
+
+#-----------------------------------------------
+# §7.1 Person hierarchy   (active P0.2)
+#-----------------------------------------------
+
+iac:Person
+    a                rdfs:Class , owl:Class ;
+    rdfs:label       "Person"@en , "Kişi"@tr , "شخص"@ar ;
+    rdfs:subClassOf  crm:E21_Person , foaf:Person , schema:Person ;
+    rdfs:comment     "An individual human, historical or contemporary. FORWARD-DECLARED for P0.2."@en ;
+    skos:definition  "An individual human in the medieval / early-modern Islamicate world: scholar, ruler, narrator, poet, architect, patron, etc."@en .
+
+iac:Scholar    a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Person ; rdfs:label "Scholar"@en , "Âlim"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Ruler      a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Person ; rdfs:label "Ruler"@en , "Hükümdar"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Narrator   a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Person ; rdfs:label "Narrator"@en , "Râvî"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Poet       a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Person ; rdfs:label "Poet"@en , "Şair"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Architect  a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Person ; rdfs:label "Architect"@en , "Mimar"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Patron     a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Person ; rdfs:label "Patron"@en , "Hâmî"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Mufti      a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Person ; rdfs:label "Mufti"@en , "Müftü"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Calligrapher a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Person ; rdfs:label "Calligrapher"@en , "Hattat"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+
+#-----------------------------------------------
+# §7.2 Work hierarchy   (active P0.2)
+#-----------------------------------------------
+
+iac:Work
+    a                rdfs:Class , owl:Class ;
+    rdfs:label       "Work"@en , "Eser"@tr , "مصنف"@ar ;
+    rdfs:subClassOf  crm:E73_Information_Object ;
+    rdfs:comment     "An abstract intellectual work (FRBR Work). FORWARD-DECLARED for P0.2."@en ;
+    skos:definition  "The intellectual content of a treatise, book, poem, fatwa, letter, etc., distinct from its physical witnesses (manuscripts)."@en .
+
+iac:Book              a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Book"@en , "Kitap"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Treatise          a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Treatise"@en , "Risâle"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Poem              a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Poem"@en , "Şiir"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Fatwa             a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Fatwa"@en , "Fetva"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Letter            a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Letter"@en , "Mektup"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Map               a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Map"@en , "Harita"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Compendium        a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Compendium"@en , "Mecmû'a"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Dictionary        a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Dictionary"@en , "Lugat"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:HadithCollection  a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Hadith Collection"@en , "Hadis Külliyatı"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Tafsir            a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Tafsir"@en , "Tefsir"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Tarikh            a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Tarikh (history)"@en , "Tarih"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Sira              a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Sira"@en , "Siyer"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Tabaqa            a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Tabaqa (biographical dict.)"@en , "Tabakat"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+iac:Geography         a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Work ; rdfs:label "Geography"@en , "Coğrafya"@tr ; rdfs:comment "FORWARD-DECLARED for P0.2."@en .
+
+#-----------------------------------------------
+# §7.3 Manuscript hierarchy   (active P0.3)
+#-----------------------------------------------
+
+iac:Manuscript
+    a                rdfs:Class , owl:Class ;
+    rdfs:label       "Manuscript"@en , "Yazma"@tr , "مخطوط"@ar ;
+    rdfs:subClassOf  crm:E84_Information_Carrier ;
+    rdfs:comment     "A physical witness of one or more works (FRBR Manifestation+Item). FORWARD-DECLARED for P0.3."@en ;
+    skos:definition  "A specific physical codex, scroll, or fragment, identifiable by shelf-mark in a specific library."@en .
+
+iac:Codex     a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Manuscript ; rdfs:label "Codex"@en ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Scroll    a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Manuscript ; rdfs:label "Scroll"@en ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Fragment  a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Manuscript ; rdfs:label "Fragment"@en ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Defter    a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Manuscript ; rdfs:label "Defter (Ottoman register)"@en , "Defter"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+
+#-----------------------------------------------
+# §7.4 Event hierarchy   (active P0.3)
+#-----------------------------------------------
+
+iac:Event
+    a                rdfs:Class , owl:Class ;
+    rdfs:label       "Event"@en , "Olay"@tr , "حدث"@ar ;
+    rdfs:subClassOf  crm:E5_Event , schema:Event ;
+    rdfs:comment     "A temporally anchored historical occurrence. FORWARD-DECLARED for P0.3."@en .
+
+iac:Battle       a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Battle"@en , "Savaş"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Treaty       a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Treaty"@en , "Antlaşma"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Founding     a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Founding"@en , "Kuruluş"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Death        a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Death"@en , "Vefat"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Birth        a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Birth"@en , "Doğum"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Conference   a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Conference"@en , "Toplantı"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Conquest     a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Conquest"@en , "Fetih"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Revolt       a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Revolt"@en , "İsyân"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Coronation   a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Coronation/Bay'a"@en , "Cülûs"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Pilgrimage   a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Pilgrimage"@en , "Hac"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Voyage       a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Voyage"@en , "Seyahat"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Composition  a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Composition (of a work)"@en , "Telif"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+iac:Disaster     a rdfs:Class , owl:Class ; rdfs:subClassOf iac:Event ; rdfs:label "Disaster"@en , "Felâket"@tr ; rdfs:comment "FORWARD-DECLARED for P0.3."@en .
+
+#-----------------------------------------------
+# §7.5 New properties (P0.2-P0.3 forward)
+#-----------------------------------------------
+
+iac:authoredBy
+    a                rdf:Property ;
+    rdfs:label       "authored by"@en ;
+    rdfs:domain      iac:Work ;
+    rdfs:range       iac:Person ;
+    rdfs:subPropertyOf dcterms:creator ;
+    rdfs:comment     "Inverse: iac:authored. FORWARD-DECLARED for P0.2."@en .
+
+iac:witnessesWork
+    a                rdf:Property ;
+    rdfs:label       "witnesses work"@en ;
+    rdfs:domain      iac:Manuscript ;
+    rdfs:range       iac:Work ;
+    rdfs:comment     "FORWARD-DECLARED for P0.3."@en .
+
+iac:teacherOf
+    a                rdf:Property ;
+    rdfs:label       "teacher of"@en ;
+    rdfs:domain      iac:Person ;
+    rdfs:range       iac:Person ;
+    rdfs:comment     "Soft assertion in scholarly chain (isnād). Not symmetric with crm:P11. FORWARD-DECLARED for P0.2."@en .
+
+iac:participantIn
+    a                rdf:Property ;
+    rdfs:label       "participant in"@en ;
+    rdfs:range       iac:Event ;
+    rdfs:comment     "From Person/Dynasty to Event. FORWARD-DECLARED for P0.3."@en .
+
+iac:precededByEvent
+    a                rdf:Property , owl:TransitiveProperty ;
+    rdfs:label       "preceded by event"@en ;
+    rdfs:domain      iac:Event ;
+    rdfs:range       iac:Event ;
+    rdfs:comment     "FORWARD-DECLARED for P0.3."@en .
+
+iac:followedByEvent
+    a                rdf:Property , owl:TransitiveProperty ;
+    rdfs:label       "followed by event"@en ;
+    rdfs:domain      iac:Event ;
+    rdfs:range       iac:Event ;
+    owl:inverseOf    iac:precededByEvent ;
+    rdfs:comment     "FORWARD-DECLARED for P0.3."@en .
+
+iac:causes
+    a                rdf:Property ;
+    rdfs:label       "causes"@en ;
+    rdfs:domain      iac:Event ;
+    rdfs:range       iac:Event ;
+    rdfs:comment     "Stronger semantic than precededByEvent. FORWARD-DECLARED for P0.3."@en .
+
+iac:consequences
+    a                rdf:Property ;
+    rdfs:label       "consequences"@en ;
+    rdfs:domain      iac:Event ;
+    rdfs:range       iac:Event ;
+    owl:inverseOf    iac:causes ;
+    rdfs:comment     "Stronger semantic than followedByEvent. FORWARD-DECLARED for P0.3."@en .

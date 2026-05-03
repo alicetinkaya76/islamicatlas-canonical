@@ -1,0 +1,251 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/dynasty.schema.json",
+  "title": "Canonical Dynasty",
+  "description": "A canonical political dynasty / ruling house in the Islamic Atlas knowledge graph. Phase 0 (v0.1.0) covers five concrete subtypes: Caliphate (universal-claim caliphal dynasties: Rāshidūn, Umayyad, Abbasid, Fāṭimid Ismā'īlī, Andalusian Umayyad after 929, Almohad), Sultanate (Saljūq, Ayyūbid, Mamlūk, Ottoman, etc.), Emirate (sub-caliphal and sub-sultanic ruling families: Aghlabid, Sāmānid, Hamdānid), Imamate (Zaydī, Ibāḍī, Twelver-Imāmī claim-bearing dynasties; distinct from caliphates by doctrinal claim), and Beylik (Anatolian post-Saljūq emirates and analogous principalities). Every dynasty carries multilingual labels, a temporal range (start/end years required: a dynasty without dates is not a dynasty for our purposes), an optional Bosworth NID reference (the primary tertiary-reference anchor), an optional list of capitals, predecessor/successor pointers for political continuity chains, an optional rulers list (Phase 0: minimal name + reign period; full prosopography in P0.2), an authority cross-reference block, and provenance.",
+  "type": "object",
+  "required": ["@id", "@type", "labels", "temporal", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "@id": {
+      "type": "string",
+      "pattern": "^iac:dynasty-[0-9]{8}$",
+      "description": "Persistent identifier in the iac:dynasty- namespace. Eight-digit zero-padded ordinal allocated by the PID minter at first canonicalization; never reassigned, never deleted. Resolves under https://w3id.org/islamicatlas/id/dynasty/<slug>."
+    },
+    "@type": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "uniqueItems": true,
+      "contains": { "const": "iac:Dynasty" },
+      "items": {
+        "type": "string",
+        "enum": [
+          "iac:Dynasty",
+          "iac:Caliphate",
+          "iac:Sultanate",
+          "iac:Emirate",
+          "iac:Imamate",
+          "iac:Beylik"
+        ]
+      },
+      "description": "RDF type array. MUST contain 'iac:Dynasty' (the abstract supertype, subClassOf crm:E40_Legal_Body). MAY additionally contain at most one Phase 0 subtype: 'iac:Caliphate', 'iac:Sultanate', 'iac:Emirate', 'iac:Imamate', or 'iac:Beylik'. The five subtypes are mutually exclusive in Phase 0 (no dynasty has two simultaneously); transitions across categories (e.g., Almoravid emirate that became a quasi-caliphate) are modelled as successor relationships between two separate dynasty records, not as multi-typing."
+    },
+    "dynasty_subtype": {
+      "type": "string",
+      "enum": ["caliphate", "sultanate", "emirate", "imamate", "beylik"],
+      "description": "Discriminator field that mirrors the @type subtype, lower-cased and singular for ergonomic filtering. Optional but recommended. MUST be coherent with @type when present: dynasty_subtype='sultanate' iff '@type' contains 'iac:Sultanate'."
+    },
+    "labels": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/multilingual_text.schema.json",
+      "description": "Multilingual label bundle. The prefLabel sub-property is required by the referenced schema and MUST contain at least 'en' for Phase 0 dynasties (Bosworth's New Islamic Dynasties is the lingua-franca anchor); 'ar' and 'tr' are strongly recommended."
+    },
+    "temporal": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/temporal.schema.json",
+      "description": "Temporal range of the dynasty's political existence. REQUIRED for all dynasties (unlike places, where missing temporal coverage signals continuity, missing temporal coverage on a dynasty signals an incomplete record). Either a CE anchor (start_ce + end_ce) OR an AH anchor (start_ah + end_ah) is sufficient; the canonicalization pipeline computes the other automatically when one is given. For dynasties whose end year is contested by sources, set end_ce/end_ah to the conventionally cited year and use approximation='disputed' with a note."
+    },
+    "bosworth_id": {
+      "type": "string",
+      "pattern": "^NID-[0-9]{3}$",
+      "description": "Bosworth 'New Islamic Dynasties: A Chronological and Genealogical Manual' NID record identifier (1-186 in the second edition). Primary tertiary-reference anchor for Phase 0 dynasty canonicalization. The Bosworth pilot ETL (Hafta 2 of Phase 0) seeds the dynasty namespace by walking NID-001 through NID-186 in sequence. When present, this same identifier appears in provenance.derived_from with source_type='secondary_scholarly'."
+    },
+    "predecessor": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^iac:dynasty-[0-9]{8}$"
+      },
+      "description": "PID references to dynasties that preceded this one in political continuity. Captures cases of direct succession (Rāshidūn → Umayyad), conquest succession (Sāsānian → Umayyad over Iran is OUT of scope; only intra-Islamicate predecessors are recorded here), partition succession (Ilkhānid → Jalāyirid + Muẓaffarid + …), and overthrow succession. Bidirectional consistency with successor enforced by the post-canonicalization integrity check."
+    },
+    "successor": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^iac:dynasty-[0-9]{8}$"
+      },
+      "description": "PID references to dynasties that succeeded this one. Inverse of predecessor."
+    },
+    "had_capital": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": ["place"],
+        "additionalProperties": false,
+        "properties": {
+          "place": {
+            "type": "string",
+            "pattern": "^iac:place-[0-9]{8}$",
+            "description": "PID reference to the iac:place- record of the capital."
+          },
+          "from_ce": {
+            "type": "integer",
+            "minimum": -3000,
+            "maximum": 3000,
+            "description": "CE year the capital was established as the dynasty's seat. Optional; omit if the dynasty had a single capital across its whole span."
+          },
+          "to_ce": {
+            "type": "integer",
+            "minimum": -3000,
+            "maximum": 3000,
+            "description": "CE year the capital was relinquished. Omit when the dynasty held the capital until its terminal year (signal: end of dynasty.temporal range)."
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 1000,
+            "description": "Free-text editorial note (e.g., 'co-capital with Sāmarrā' 836-892')."
+          }
+        },
+        "description": "Capital-tenure record: which place served as capital, optionally for which sub-period."
+      },
+      "description": "Capitals of the dynasty, each with optional sub-period tenure. Multiple records express capital relocations (Abbasid: Kūfa → Baghdād → Sāmarrā' → Baghdād) and co-capitals. Bidirectional consistency with place.had_capital_of enforced post-canonicalization."
+    },
+    "territory": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^iac:place-[0-9]{8}$"
+      },
+      "description": "Territorial extent expressed as a list of PID references to iac:place- records of subtype 'region' or 'iqlim' that the dynasty controlled at its territorial maximum or characteristic extent. NOT a precise polygon; the canonical-store does not carry historical-political polygons in Phase 0 (those live in Phase 0.3+ as time-stamped territorial-extent records). Useful for coarse 'which dynasties ruled in Khurāsān ca. 900 CE' queries."
+    },
+    "rulers": {
+      "type": "array",
+      "uniqueItems": false,
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300,
+            "description": "Ruler's name in conventional English/ALA-LC romanisation. Phase 0 minimal: just a string. In P0.2, when the iac:person- namespace activates, this becomes a PID reference and the inline name becomes a denormalised display copy."
+          },
+          "name_ar": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300,
+            "description": "Ruler's name in Arabic script. Optional in Phase 0."
+          },
+          "regnal_title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300,
+            "description": "Regnal title (laqab / kunya commonly used in regnal contexts), e.g., 'al-Manṣūr', 'al-Mu'taṣim bi-llāh', 'Yıldırım Bāyezīd'."
+          },
+          "reign_start_ce": {
+            "type": "integer",
+            "minimum": -3000,
+            "maximum": 3000,
+            "description": "Start of reign in CE. Required de facto (a ruler without a reign date is half-recorded)."
+          },
+          "reign_end_ce": {
+            "type": "integer",
+            "minimum": -3000,
+            "maximum": 3000,
+            "description": "End of reign in CE."
+          },
+          "reign_start_ah": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1700,
+            "description": "Start of reign in AH."
+          },
+          "reign_end_ah": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1700,
+            "description": "End of reign in AH."
+          },
+          "person_pid": {
+            "type": "string",
+            "pattern": "^iac:person-[0-9]{8}$",
+            "description": "Forward-declared: PID reference to an iac:person- record, once the person namespace is live (Phase 0.2). In Phase 0 this field is unused; consumers MUST treat absence as 'not yet linked'."
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 2000,
+            "description": "Free-text editorial note (e.g., 'co-regent with brother al-Hādī during 785'; 'Bosworth NID-003 lists 36 rulers; this record covers only the first 12, the remainder pending')."
+          }
+        },
+        "description": "Minimal ruler record for Phase 0. Order in the array MUST be chronological (earliest reign_start first); the canonicalization pipeline rejects out-of-order arrays."
+      },
+      "description": "Chronological list of rulers. Phase 0 carries inline minimal records (name + reign period); Phase 0.2 will deprecate the inline form in favour of person_pid references with the inline fields kept as denormalised display copies."
+    },
+    "authority_xref": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/authority_xref.schema.json",
+      "description": "Cross-references to external authority files. Phase 0 actively reconciles Wikidata ('e.g., Q11707' for Abbasid Caliphate); Pleiades is generally not applicable for dynasties (it is a place-authority); VIAF is applicable for the dynasty-as-corporate-body and is included as forward-declaration but not actively reconciled in Phase 0."
+    },
+    "provenance": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/provenance.schema.json",
+      "description": "Mandatory provenance block. For Phase 0 Bosworth-pilot dynasties, derived_from MUST contain at least one entry with source_id='bosworth-nid:NNN' and source_type='secondary_scholarly'."
+    },
+    "note": {
+      "type": "string",
+      "maxLength": 5000,
+      "description": "Free-text editorial note. Kept short; longer commentary belongs in labels.description.<lang> as a properly-tagged multilingual paragraph."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "dynasty_subtype": { "const": "caliphate" } },
+        "required": ["dynasty_subtype"]
+      },
+      "then": {
+        "properties": {
+          "@type": { "contains": { "const": "iac:Caliphate" } }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "dynasty_subtype": { "const": "sultanate" } },
+        "required": ["dynasty_subtype"]
+      },
+      "then": {
+        "properties": {
+          "@type": { "contains": { "const": "iac:Sultanate" } }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "dynasty_subtype": { "const": "emirate" } },
+        "required": ["dynasty_subtype"]
+      },
+      "then": {
+        "properties": {
+          "@type": { "contains": { "const": "iac:Emirate" } }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "dynasty_subtype": { "const": "imamate" } },
+        "required": ["dynasty_subtype"]
+      },
+      "then": {
+        "properties": {
+          "@type": { "contains": { "const": "iac:Imamate" } }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "dynasty_subtype": { "const": "beylik" } },
+        "required": ["dynasty_subtype"]
+      },
+      "then": {
+        "properties": {
+          "@type": { "contains": { "const": "iac:Beylik" } }
+        }
+      }
+    }
+  ],
+  "$comment": "Phase 0 hard rules (enforced by pipeline, not by JSON Schema): (a) temporal MUST contain at least start_ce or start_ah AND the corresponding end; (b) rulers array, when present, MUST be chronologically sorted by reign_start_ce (or _ah); (c) had_capital.place MUST resolve to existing place PIDs of subtype 'settlement' at integrity-check time; (d) for each capital, the inverse pointer place.had_capital_of MUST contain this dynasty's PID; (e) predecessor/successor MUST resolve to existing dynasty PIDs and the inverse must be consistent."
+}

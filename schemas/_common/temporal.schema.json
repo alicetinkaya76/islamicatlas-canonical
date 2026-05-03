@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/temporal.schema.json",
+  "title": "Temporal Coverage",
+  "description": "Temporal coverage of an entity, expressible in CE years, AH (Hijri) years, and / or ISO 8601 dates. Either a Common-Era anchor (start_ce) OR an Anno Hegirae anchor (start_ah) OR an iso_start_date is required for a record to assert any temporality at all. Ranges are inclusive on both ends. The 'approximation' flag annotates the precision of the assertion (exact / circa / before / after / floruit / disputed).",
+  "type": "object",
+  "additionalProperties": false,
+  "anyOf": [
+    { "required": ["start_ce"] },
+    { "required": ["start_ah"] },
+    { "required": ["iso_start_date"] }
+  ],
+  "properties": {
+    "start_ce": {
+      "type": "integer",
+      "minimum": -3000,
+      "maximum": 3000,
+      "description": "Start year in the Common Era (proleptic Gregorian). BCE years are encoded as negative integers (-44 for 44 BCE). Year 0 is permitted following ISO 8601 conventions and represents 1 BCE in proleptic Gregorian."
+    },
+    "end_ce": {
+      "type": "integer",
+      "minimum": -3000,
+      "maximum": 3000,
+      "description": "End year (CE). MUST be >= start_ce when both are present (enforced by pipeline temporal validator, not by JSON Schema alone)."
+    },
+    "start_ah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 1700,
+      "description": "Start year in Anno Hegirae (Islamic lunar calendar). 1 AH begins on 16 July 622 CE (Julian)."
+    },
+    "end_ah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 1700,
+      "description": "End year (AH). MUST be >= start_ah when both are present."
+    },
+    "iso_start_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Precise start date in ISO 8601 format (YYYY-MM-DD). Use only when day-level precision is sourced; otherwise use start_ce / start_ah."
+    },
+    "iso_end_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Precise end date in ISO 8601 format."
+    },
+    "approximation": {
+      "type": "string",
+      "enum": ["exact", "circa", "before", "after", "floruit", "disputed"],
+      "default": "exact",
+      "description": "Precision flag. 'exact' = year-precise from a credible source. 'circa' = approximate; record value as the conventional rounded year. 'before' = terminus ante quem; the actual date is at or before the recorded year. 'after' = terminus post quem. 'floruit' = the person/entity was active at this period (no precise birth/foundation date). 'disputed' = scholarly disagreement about the date."
+    },
+    "uncertainty_years": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1000,
+      "description": "Approximate margin of error in years. For 'circa' values, conventionally 25 (i.e., ±25 years); for 'floruit' often 50."
+    },
+    "era_label": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Human-readable period label, used as fallback for entities whose dates are vague (e.g., 'Late Umayyad', 'pre-Mongol', '5th–6th c. AH / 11th–12th c. CE')."
+    },
+    "owl_time_interval": {
+      "type": "string",
+      "format": "uri",
+      "description": "URI reference to an OWL-Time time:ProperInterval individual, when one has been minted. Optional in Phase 0; pipeline auto-generates these in Phase 4 LOD export."
+    },
+    "note": {
+      "type": "string",
+      "maxLength": 2000,
+      "description": "Free-text editorial note explaining the temporal assertion (e.g., 'Bosworth gives 749/132; Kennedy 750/132').'"
+    }
+  },
+  "$comment": "Cross-field constraint (end >= start) is asserted in pipeline validators rather than via JSON Schema 'if/then' to keep the schema simple and human-auditable. Test fixtures in tests/fixtures/invalid/ contain a positive negative case (start > end) for which the pipeline validator must fail."
+}

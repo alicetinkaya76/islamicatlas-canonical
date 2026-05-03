@@ -1,0 +1,205 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://islamicatlas.org/schema/canonical/work.schema.json",
+  "title": "Work",
+  "description": "Bir kanonik eser (kitap, risale, divan, şerh, ferman, sicil). CIDOC-CRM: E73 Information Object / F1 Work (FRBRoo). schema.org: CreativeWork.",
+  "type": "object",
+  "required": ["id", "slug", "titles"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^wrk_[a-z0-9_-]+$",
+      "description": "Kanonik ID — örnek: wrk_muqaddima, wrk_kitab_al_shifa, wrk_mujam_al_buldan"
+    },
+    "slug": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{1,63}$"},
+    "titles": {
+      "type": "object",
+      "description": "Eserin adı — en az bir dilde",
+      "properties": {
+        "ar": {"type": "string", "description": "Özgün Arapça başlık"},
+        "ar_translit": {"type": "string"},
+        "fa": {"type": "string", "description": "Farsça başlık (varsa)"},
+        "ottoman": {"type": "string", "description": "Osmanlıca başlık"},
+        "tr": {"type": "string"},
+        "en": {"type": "string"},
+        "short_title": {"type": "string", "description": "Kısaltılmış yaygın ad (ör. 'Muqaddima')"}
+      },
+      "minProperties": 1
+    },
+    "title_variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "form": {"type": "string"},
+          "language": {"type": "string"},
+          "source_id": {"type": "string"}
+        }
+      }
+    },
+    "authors": {
+      "type": "array",
+      "description": "Yazar(lar) — Person canonical ID'leri",
+      "items": {
+        "type": "object",
+        "required": ["person_id"],
+        "properties": {
+          "person_id": {"type": "string", "pattern": "^per_"},
+          "role": {
+            "type": "string",
+            "enum": ["author", "compiler", "translator", "commentator", "abridger", "annotator"]
+          }
+        }
+      }
+    },
+    "related_works": {
+      "type": "array",
+      "description": "Diğer eserlerle ilişkiler — şerh/muhtasar/tercüme zinciri",
+      "items": {
+        "type": "object",
+        "properties": {
+          "work_id": {"type": "string", "pattern": "^wrk_"},
+          "relation": {
+            "type": "string",
+            "enum": [
+              "commentary_on",
+              "supercommentary_on",
+              "abridgment_of",
+              "translation_of",
+              "response_to",
+              "refutation_of",
+              "continuation_of",
+              "draws_upon",
+              "cited_by"
+            ]
+          }
+        }
+      }
+    },
+    "genre": {
+      "type": "array",
+      "description": "Eser türü — controlled vocabulary",
+      "items": {
+        "type": "string",
+        "examples": [
+          "fiqh", "hadith", "tafsir", "kalam", "tasawwuf", "falsafa",
+          "tarih", "siyar", "rihla", "coğrafya", "tabakat", "divan",
+          "mesnevi", "risale", "fihrist", "lugat", "sicil", "vakfiye",
+          "ferman", "mecmua", "hasiye", "sharh", "mukhtasar"
+        ]
+      }
+    },
+    "field": {
+      "type": "array",
+      "description": "Çalışma alanı — Person.fields ile aynı vocabulary",
+      "items": {"type": "string"}
+    },
+    "language": {
+      "type": "array",
+      "description": "Eserin yazıldığı dil(ler)",
+      "items": {"type": "string", "pattern": "^[a-z]{2,3}$"}
+    },
+    "chronology": {
+      "type": "object",
+      "properties": {
+        "composed_start_ce": {"type": "integer"},
+        "composed_end_ce": {"type": "integer"},
+        "composed_start_hijri": {"type": "integer"},
+        "composed_end_hijri": {"type": "integer"},
+        "composition_place_id": {"type": "string", "pattern": "^plc_"},
+        "uncertain": {"type": "boolean"}
+      }
+    },
+    "manuscripts": {
+      "type": "array",
+      "description": "Bilinen el yazmaları / önemli baskılar",
+      "items": {
+        "type": "object",
+        "properties": {
+          "shelfmark": {"type": "string", "description": "Ör. 'Süleymaniye, Ayasofya 1234'"},
+          "library": {"type": "string"},
+          "library_place_id": {"type": "string", "pattern": "^plc_"},
+          "date_ce": {"type": "integer"},
+          "folios": {"type": "string"},
+          "iiif_manifest": {"type": "string", "format": "uri"},
+          "digital_url": {"type": "string", "format": "uri"}
+        }
+      }
+    },
+    "editions": {
+      "type": "array",
+      "description": "Matbû baskılar",
+      "items": {
+        "type": "object",
+        "properties": {
+          "editor": {"type": "string"},
+          "publisher": {"type": "string"},
+          "place": {"type": "string"},
+          "year_ce": {"type": "integer"},
+          "volumes": {"type": "integer"},
+          "is_critical": {"type": "boolean"},
+          "isbn": {"type": "string"}
+        }
+      }
+    },
+    "extent": {
+      "type": "object",
+      "description": "Eserin büyüklüğü",
+      "properties": {
+        "volume_count": {"type": "integer"},
+        "page_count_approx": {"type": "integer"},
+        "is_lost": {"type": "boolean"},
+        "is_fragmentary": {"type": "boolean"},
+        "is_extant": {"type": "boolean"}
+      }
+    },
+    "topics_mentioned": {
+      "type": "object",
+      "description": "Bu eserde bahsedilen kanonik varlıklar — birincil kaynak olduğunda attestation üretir",
+      "properties": {
+        "places": {"type": "array", "items": {"type": "string", "pattern": "^plc_"}},
+        "persons": {"type": "array", "items": {"type": "string", "pattern": "^per_"}},
+        "events": {"type": "array", "items": {"type": "string", "pattern": "^evt_"}},
+        "dynasties": {"type": "array", "items": {"type": "string", "pattern": "^dyn_"}}
+      }
+    },
+    "attestations": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^att_"}
+    },
+    "sameAs": {
+      "type": "object",
+      "properties": {
+        "wikidata": {"type": "string", "pattern": "^Q[0-9]+$"},
+        "viaf": {"type": "string"},
+        "openiti_uri": {"type": "string"},
+        "worldcat": {"type": "string"},
+        "dia_url": {"type": "string", "format": "uri"}
+      }
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "tr": {"type": "string", "maxLength": 5000},
+        "en": {"type": "string", "maxLength": 5000},
+        "ar": {"type": "string", "maxLength": 5000}
+      }
+    },
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "status": {"type": "string", "enum": ["verified", "needs_review", "disputed", "provisional"]},
+    "version": {"type": "integer"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "legacy_ids": {
+      "type": "object",
+      "properties": {
+        "dia_works_key": {"type": "string"},
+        "ei1_works_key": {"type": ["integer", "string"]},
+        "gas_id": {"type": "string"},
+        "gal_id": {"type": "string"},
+        "openiti_book_uri": {"type": "string"}
+      }
+    }
+  }
+}

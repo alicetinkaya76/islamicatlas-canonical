@@ -1,0 +1,55 @@
+# Search projection rule for: event
+# STATUS: forward-declared (P0.3 active).
+
+entity_type: event
+projector_version: 0.1.0
+
+mappings:
+  id: $.["@id"]
+  entity_type: "@const:event"
+  subtypes: "@derived:subtypes_from_type_array"
+  prefLabel_en: $.labels.prefLabel.en
+  prefLabel_ar: $.labels.prefLabel.ar
+  prefLabel_tr: $.labels.prefLabel.tr
+  prefLabel_translit: "@derived:translit_ascii_fold(labels.prefLabel.ar-Latn-x-alalc, labels.prefLabel.en)"
+  altLabels: "@derived:flatten_altLabels"
+  description_en: $.note
+  description_tr: ~
+  description_ar: ~
+
+  _geo: "@lookup:place_coords(location)"
+
+  century_ce: "@derived:century_from_temporal(temporal.start_ce)"
+  century_ah: "@derived:century_from_temporal_ah(temporal.start_ah)"
+  start_year_ce: $.temporal.start_ce
+  end_year_ce: $.temporal.end_ce
+
+  iqlim: "@derived:iqlim_labels_via_place(location)"
+  source_layer: "@derived:source_layers_from_provenance(provenance.derived_from)"
+  language: "@derived:languages_from_labels"
+
+  has_coords: "@derived:bool_geo_resolved_event(location, secondary_locations)"
+  has_wikidata: "@derived:bool_authority_present(authority_xref, 'wikidata')"
+  wikidata_qid: "@derived:authority_id(authority_xref, 'wikidata')"
+
+  event_subtype: "@derived:subtype_first_specific(@type)"
+
+  related_pids: "@derived:union(location, secondary_locations, participants_persons, participants_dynasties, victor_dynasty, preceded_by, followed_by, causes, consequences)"
+  related_labels: "@lookup:prefLabels(location + participants_persons + participants_dynasties)"
+
+  deprecated: "@derived:bool_default(provenance.deprecated, false)"
+  modified_at: "@derived:unix_timestamp(provenance.modified)"
+  _score: "@derived:score_event"
+
+score_components:
+  base: 1.0
+  has_wikidata_bonus: 0.3
+  has_coords_bonus: 0.2
+  has_day_precision_bonus: 0.3   # temporal.iso_start_date set
+  is_battle_or_treaty_bonus: 0.3  # frequently-searched event types
+  participants_count_log_bonus: 0.05
+  manual_curation_bonus: 0.4
+  deprecated_penalty: -100
+
+unset_for_other_types:
+  - event_subtype

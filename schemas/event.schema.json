@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/event.schema.json",
+  "title": "Canonical Event",
+  "description": "A canonical event record — a temporally anchored historical occurrence (CIDOC CRM E5_Event). Phase 0 forward-declared; activation in P0.3 with the Salibiyyat layer (Crusader battles), Evliya Çelebi voyage events, and Bosworth dynasty foundings/falls. Events provide the connective tissue of historical narrative: they link persons, places, and dynasties at specific moments.",
+  "type": "object",
+  "required": ["@id", "@type", "labels", "temporal", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "@id": {
+      "type": "string",
+      "pattern": "^iac:event-[0-9]{8}$"
+    },
+    "@type": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "uniqueItems": true,
+      "contains": { "const": "iac:Event" },
+      "items": {
+        "type": "string",
+        "enum": [
+          "iac:Event",
+          "iac:Battle",
+          "iac:Treaty",
+          "iac:Founding",
+          "iac:Death",
+          "iac:Birth",
+          "iac:Conference",
+          "iac:Conquest",
+          "iac:Revolt",
+          "iac:Coronation",
+          "iac:Pilgrimage",
+          "iac:Voyage",
+          "iac:Composition",
+          "iac:Disaster"
+        ]
+      }
+    },
+    "labels": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/multilingual_text.schema.json",
+      "description": "Event name. Examples: prefLabel.en='Battle of Manzikert' / prefLabel.ar='معركة ملاذكرد' / prefLabel.tr='Malazgirt Savaşı'."
+    },
+    "temporal": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/temporal.schema.json",
+      "description": "When the event occurred. REQUIRED for events. Day-precision when known (iso_start_date); otherwise year-precision."
+    },
+    "location": {
+      "type": "string",
+      "pattern": "^iac:place-[0-9]{8}$",
+      "description": "Primary location of the event. PID of iac:place-."
+    },
+    "secondary_locations": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:place-[0-9]{8}$" },
+      "description": "Additional locations involved (e.g., for a multi-day battle that spread across multiple sites, or a treaty signed in one place but ratified in another)."
+    },
+    "participants_persons": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:person-[0-9]{8}$" },
+      "description": "Persons involved in the event."
+    },
+    "participants_dynasties": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:dynasty-[0-9]{8}$" },
+      "description": "Dynasties involved (sides in a battle, parties to a treaty, founder of a city)."
+    },
+    "outcome": {
+      "type": "string",
+      "enum": [
+        "victory_attacker", "victory_defender", "stalemate", "decisive",
+        "indecisive", "founded", "destroyed", "signed", "broken",
+        "succeeded", "failed", "unknown"
+      ],
+      "description": "Coarse outcome label, when applicable. Detailed narrative goes in note."
+    },
+    "victor_dynasty": {
+      "type": "string",
+      "pattern": "^iac:dynasty-[0-9]{8}$",
+      "description": "If outcome is victory-tagged, the victor dynasty PID."
+    },
+    "preceded_by": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:event-[0-9]{8}$" },
+      "description": "Events that immediately preceded this one (causally or chronologically)."
+    },
+    "followed_by": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:event-[0-9]{8}$" },
+      "description": "Events that immediately followed."
+    },
+    "causes": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:event-[0-9]{8}$" },
+      "description": "Events asserted as causes (stronger semantic than preceded_by)."
+    },
+    "consequences": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:event-[0-9]{8}$" },
+      "description": "Events asserted as consequences (stronger semantic than followed_by)."
+    },
+    "casualties": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "estimated_total": { "type": "integer", "minimum": 0 },
+        "side_a": { "type": "integer", "minimum": 0 },
+        "side_b": { "type": "integer", "minimum": 0 },
+        "civilian": { "type": "integer", "minimum": 0 },
+        "source_estimate": { "type": "string", "maxLength": 500 }
+      },
+      "description": "Casualty figures (when reported by sources). Often varies wildly across pre-modern sources; record the most authoritative scholarly estimate and cite via source_estimate."
+    },
+    "authority_xref": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/authority_xref.schema.json"
+    },
+    "provenance": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/provenance.schema.json"
+    },
+    "note": {
+      "type": "string",
+      "maxLength": 10000,
+      "description": "Free-text editorial narrative — events warrant longer notes than other entity types because the chronological detail is often the most interesting research substrate."
+    }
+  },
+  "$comment": "Phase 0.3 hard rules: (a) at least one of location / secondary_locations required; (b) at least one of participants_persons / participants_dynasties required (an event without participants is a non-event); (c) preceded_by / followed_by bidirectional consistency enforced post-canonicalization."
+}

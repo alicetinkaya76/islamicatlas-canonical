@@ -1,0 +1,56 @@
+# Adapter manifest template — copy this folder to pipelines/adapters/<your-source-id>/
+# and fill in the values below. See ADR-006 for the full contract.
+
+adapter_id: "_template"          # snake_case, registry primary key, e.g. "ibn-khaldun-muqaddima"
+display_name: "_template — describe the source here"
+adapter_version: 0.1.0           # semver; bump on breaking changes
+
+# Source category. One of: primary_textual | secondary_scholarly | tertiary_reference | manual_editorial | authority_file
+source_kind: secondary_scholarly
+
+# Source language(s) (BCP-47).
+languages: [ar]
+
+# License of the source data. Be precise — important for the eventual CC-BY-SA dump.
+license: "TBD"
+
+# Which canonical namespaces this adapter populates.
+# Values: place | dynasty | person | work | manuscript | event | institution | concept | route
+target_namespaces: [work]
+
+# Earliest phase in which this adapter can run (depends on which namespaces are active).
+target_phase_min: P0.2
+target_phase_max: ~              # ~ = open-ended
+
+# How the source is extracted.
+# Values: manual | ocr | htr | structured_csv | structured_json | wikidata_query | scraping
+extraction_method: structured_json
+
+# Filesystem layout. Edit to match your source.
+input_paths:
+  - data/sources/_template/main.json
+output_paths:
+  - data/canonical/work/
+
+# Provenance template. Each canonical record produced by this adapter inherits this skeleton.
+# {placeholders} are filled in per-record by canonicalize.py.
+provenance_template:
+  source_id_pattern: "_template:{record_id}"
+  page_or_locator_pattern: "{section}, p. {page}"
+  edition_or_version: "TBD edition"
+
+# Reconciliation behaviour.
+reconciliation:
+  enabled: true
+  authorities: [wikidata]        # which authority APIs to consult
+  threshold_auto_accept: 0.85
+  threshold_review: 0.70
+  cache_path: data/cache/wikidata_reconcile.sqlite
+
+# Maintainer and contact.
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]
+
+# Optional: search projection overrides for records produced by this adapter.
+# (Most adapters don't need this; defaults from search/projections/<type>.yaml apply.)
+projection_overrides: ~

@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://islamicatlas.org/schema/canonical/source.schema.json",
+  "title": "Source",
+  "description": "Bir birincil veya ikincil kaynağın kanonik kaydı. Tüm attestation'lar bir Source'a bağlanır. CIDOC-CRM: E31 Document. schema.org: CreativeWork.",
+  "type": "object",
+  "required": ["id", "slug", "title", "kind", "language"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Kanonik tekil tanımlayıcı (UUID v4 veya deterministik slug-tabanlı)",
+      "pattern": "^src_[a-z0-9_]+$",
+      "examples": ["src_yaqut_mujam", "src_zirikli_alam", "src_dia", "src_bosworth_2004"]
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL güvenli kısa tanımlayıcı",
+      "pattern": "^[a-z0-9][a-z0-9_-]{1,63}$"
+    },
+    "title": {
+      "type": "object",
+      "description": "Kaynağın adı — en az bir dilde",
+      "properties": {
+        "tr": {"type": "string"},
+        "en": {"type": "string"},
+        "ar": {"type": "string"},
+        "original": {"type": "string", "description": "Özgün dilindeki başlık"}
+      },
+      "minProperties": 1
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "primary_manuscript",
+        "primary_printed",
+        "secondary_monograph",
+        "encyclopedia",
+        "reference_work",
+        "dataset",
+        "journal_article",
+        "archival_document"
+      ]
+    },
+    "language": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[a-z]{2,3}$"},
+      "description": "ISO 639-1/3 kodları",
+      "minItems": 1
+    },
+    "author": {
+      "type": "array",
+      "description": "Yazar(lar); müellif, editör, derleyici",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {"type": "string"},
+          "role": {"type": "string", "enum": ["author", "editor", "translator", "compiler"]},
+          "person_id": {"type": "string", "description": "Varsa Person canonical ID'si"},
+          "viaf": {"type": "string"},
+          "wikidata": {"type": "string", "pattern": "^Q[0-9]+$"}
+        }
+      }
+    },
+    "date": {
+      "type": "object",
+      "description": "Oluşturulma veya yayın tarihi",
+      "properties": {
+        "original_hijri": {"type": "integer"},
+        "original_ce": {"type": "integer"},
+        "edition_ce": {"type": "integer"},
+        "edition_publisher": {"type": "string"},
+        "edition_place": {"type": "string"}
+      }
+    },
+    "bibliographic": {
+      "type": "object",
+      "description": "Standart bibliyografik alanlar — CSL-JSON uyumlu",
+      "properties": {
+        "isbn": {"type": "string"},
+        "issn": {"type": "string"},
+        "doi": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "publisher": {"type": "string"},
+        "place_of_publication": {"type": "string"},
+        "volume_count": {"type": "integer"},
+        "pages": {"type": "string"}
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "description": "Kaynağın coğrafi ve kronolojik kapsama alanı",
+      "properties": {
+        "temporal_start_ce": {"type": "integer"},
+        "temporal_end_ce": {"type": "integer"},
+        "geographic_scope": {"type": "array", "items": {"type": "string"}},
+        "entity_count_approx": {"type": "integer"}
+      }
+    },
+    "reliability_tier": {
+      "type": "string",
+      "enum": ["gold", "silver", "bronze", "unverified"],
+      "description": "Kaynak güvenilirlik katmanı — attestation ağırlıklandırmasında kullanılır"
+    },
+    "external_ids": {
+      "type": "object",
+      "properties": {
+        "wikidata": {"type": "string", "pattern": "^Q[0-9]+$"},
+        "oclc": {"type": "string"},
+        "viaf": {"type": "string"},
+        "openalex": {"type": "string"}
+      }
+    },
+    "notes": {"type": "string"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "version": {"type": "string"}
+  }
+}

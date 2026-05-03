@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/place.schema.json",
+  "title": "Canonical Place",
+  "description": "A canonical geographical entity in the Islamic Atlas knowledge graph. Phase 0 (v0.1.0) covers three subtypes: Settlement (cities, towns, villages, ribāṭs), Region (administrative provinces, districts, kūra), and Iqlim (the great geographical regions of the medieval Islamic world: Khurāsān, Andalus, Maghrib, Shām, etc.). Every place carries multilingual labels, optional point coordinates (Phase 0: point geometry only), optional temporal coverage (the period during which the place was attested under this canonical identity), an authority cross-reference block (Wikidata + Pleiades actively reconciled in Phase 0), and provenance. Place-to-place administrative containment is encoded via 'located_in' (immediate parent) and 'falls_within_iqlim' (great-region parent); these are PID references that point back to other Place records.",
+  "type": "object",
+  "required": ["@id", "@type", "labels", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "@id": {
+      "type": "string",
+      "pattern": "^iac:place-[0-9]{8}$",
+      "description": "Persistent identifier in the iac:place- namespace. Eight-digit zero-padded ordinal. Allocated by the PID minter at first canonicalization; never reassigned, never deleted (cf. provenance.deprecated for soft-delete). Resolves under https://w3id.org/islamicatlas/id/place/<slug> via the public URI resolver (slug derived from the ALA-LC transliteration of the canonical English/Arabic prefLabel)."
+    },
+    "@type": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "uniqueItems": true,
+      "contains": { "const": "iac:Place" },
+      "items": {
+        "type": "string",
+        "enum": ["iac:Place", "iac:Settlement", "iac:Region", "iac:Iqlim"]
+      },
+      "description": "RDF type array. MUST contain 'iac:Place' (the abstract supertype). MAY additionally contain at most one Phase 0 subtype: 'iac:Settlement' (city/town/village/ribāṭ; CIDOC CRM E53 Place + place-of-habitation interpretation), 'iac:Region' (administrative province / kūra; CRM E53 + crm:P89_falls_within), or 'iac:Iqlim' (great geographical region per Makdisī's regional schema; CRM E53 with iac-specific cultural-geographical semantics). Other subtypes (iac:Mountain, iac:RiverSystem, iac:Hijaz, etc.) are reserved for Phase 0.3+."
+    },
+    "labels": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/multilingual_text.schema.json",
+      "description": "Multilingual label bundle. The prefLabel sub-property is required by the referenced schema and MUST contain at least one of {'en', 'ar', 'tr'} for Phase 0 places. ALA-LC transliteration ('ar-Latn-x-alalc') is strongly recommended for Arabic-script primary names so that the public-URI slug minter has a deterministic input."
+    },
+    "place_subtype": {
+      "type": "string",
+      "enum": ["settlement", "region", "iqlim"],
+      "description": "Discriminator field that mirrors the @type subtype but is intentionally lower-cased and singular for ergonomic filtering in pipelines (the @type array carries the formal RDF semantics; 'place_subtype' is for SQL-style WHERE clauses). MUST be coherent with @type: place_subtype='settlement' iff '@type' contains 'iac:Settlement'."
+    },
+    "coords": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/coords.schema.json",
+      "description": "Geographic coordinates. Optional in Phase 0 because some attested places (e.g., reference regions, lost cities mentioned only by name in Yâkût) are unlocatable; in such cases coords is omitted and an explanatory note belongs in temporal.note or in a future iac:locationStatus annotation. When present, geometry_type MUST be 'point' in Phase 0."
+    },
+    "temporal_coverage": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/temporal.schema.json",
+      "description": "The period during which the place was attested or active under this canonical identity. For settlements, typically the period of documented habitation under this name (a settlement that changed names is a separate canonical record cross-linked via altLabel + 'predecessor_place'). For regions/iqlims, the period during which the regional schema was in administrative force. Optional: many places (e.g., Aleppo, Damascus) are continuously attested and carry no explicit temporal_coverage; the absence is a meaningful semantic signal of continuity."
+    },
+    "authority_xref": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/authority_xref.schema.json",
+      "description": "Cross-references to external authority files. Phase 0 actively reconciles Wikidata and Pleiades; entries from other authorities (geonames, tgn, etc.) MAY be present if imported from upstream sources but are not validated against the live authority API in Phase 0."
+    },
+    "located_in": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^iac:place-[0-9]{8}$"
+      },
+      "description": "Immediate administrative parent place(s). PID references to other iac:place- records, typically of subtype 'region' or 'iqlim'. Multiple values express historical reassignment (a settlement reassigned between provinces over time); when temporality of the parent assertion matters, it is captured in record_history rather than in this flat list. Maps to crm:P89_falls_within in RDF export."
+    },
+    "falls_within_iqlim": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^iac:place-[0-9]{8}$"
+      },
+      "description": "Great-region parent(s). PID references to iqlim-typed Place records (Khurāsān, Andalus, Shām, etc.). Computed transitively where possible by the canonicalization pipeline; manually overrideable. A place can sit in multiple iqlims across different periodisations (e.g., border cities)."
+    },
+    "had_capital_of": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^iac:dynasty-[0-9]{8}$"
+      },
+      "description": "PID references to iac:dynasty- records for which this place served as capital. Captures the inverse of dynasty.had_capital. The pair is enforced as bidirectionally consistent by the post-canonicalization integrity check (pipelines/integrity/check_capital_inverse.py). Multiple values are common (Baghdad was capital of both Abbasids and several successor states)."
+    },
+    "yaqut_id": {
+      "type": "string",
+      "pattern": "^yaqut:[0-9]{1,6}$",
+      "description": "CURIE-style identifier into the Yâqūt al-Ḥamawī Mu'jam al-Buldān corpus. Format: 'yaqut:' + numeric record ID from the canonical Yâqūt extraction (1-based, max 6 digits since the corpus has ~14k entries). When present, this is treated as the primary upstream pointer; the same ID also appears in provenance.derived_from with source_type='primary_textual'."
+    },
+    "bosworth_place_ref": {
+      "type": "string",
+      "pattern": "^NID-[0-9]{3}$",
+      "description": "Cross-reference to a Bosworth NID record when this place is named in connection with a dynasty (e.g., 'capital of NID-042'). Provided as a denormalised convenience pointer; the authoritative dynasty-place link lives on the Dynasty record's had_capital field."
+    },
+    "derived_from_layers": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "yaqut",
+          "le-strange",
+          "makdisi",
+          "evliya-celebi",
+          "ibn-battuta",
+          "salibiyyat",
+          "darp-islam",
+          "konya-city-atlas",
+          "science-layer",
+          "manual-editorial"
+        ]
+      },
+      "description": "Convenience set of upstream Islamic-Atlas data layers that contributed assertions to this canonical record. Redundant with provenance.derived_from at the record-of-truth level, but useful for fast filtering in the canonicalization UI ('show me all places with a Le Strange contribution that lack Pleiades reconciliation'). Layer codes are stable; new layers added in Phase 0.3+ will extend the enum."
+    },
+    "predecessor_place": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^iac:place-[0-9]{8}$"
+      },
+      "description": "Earlier place identities for the same physical site under different names (e.g., a Roman Antiochia → Islamic Anṭākiya → Ottoman Antakya chain). PID references to iac:place- records of preceding identities. NB: not used for refoundation-on-different-site cases; those are unrelated places with cross-cited provenance notes."
+    },
+    "successor_place": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^iac:place-[0-9]{8}$"
+      },
+      "description": "Later place identities for the same physical site. Inverse of predecessor_place. Bidirectional consistency enforced by integrity check."
+    },
+    "provenance": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/provenance.schema.json",
+      "description": "Mandatory provenance block. At least one upstream source (provenance.derived_from) must be cited. The pipeline that produced the canonical record (provenance.generated_by) and the responsible editor (provenance.attributed_to, ORCID) are required. Once written, the initial derived_from set is immutable; subsequent edits append entries to record_history but do not rewrite the original assertion."
+    },
+    "note": {
+      "type": "string",
+      "maxLength": 5000,
+      "description": "Free-text editorial note. Kept short; longer commentary belongs in labels.description.<lang> as a properly-tagged multilingual paragraph."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "place_subtype": { "const": "settlement" } },
+        "required": ["place_subtype"]
+      },
+      "then": {
+        "properties": {
+          "@type": { "contains": { "const": "iac:Settlement" } }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "place_subtype": { "const": "region" } },
+        "required": ["place_subtype"]
+      },
+      "then": {
+        "properties": {
+          "@type": { "contains": { "const": "iac:Region" } }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "place_subtype": { "const": "iqlim" } },
+        "required": ["place_subtype"]
+      },
+      "then": {
+        "properties": {
+          "@type": { "contains": { "const": "iac:Iqlim" } }
+        }
+      }
+    }
+  ],
+  "$comment": "Phase 0 hard rules (enforced by pipeline, not by JSON Schema): (a) coords.geometry_type MUST be 'point' if coords present; (b) authority_xref entries with authority='wikidata' or 'pleiades' MUST be reconciled against the live API at canonicalization time; (c) located_in / falls_within_iqlim MUST resolve to existing place PIDs at integrity-check time; (d) for had_capital_of, the inverse pointer dynasty.had_capital MUST exist and contain this place's PID."
+}

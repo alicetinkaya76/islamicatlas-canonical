@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/provenance.schema.json",
+  "title": "Provenance",
+  "description": "Per-entity provenance metadata blending W3C PROV-O (process model: who-derived-from-what-when-by-which-activity) with Dublin Core Terms (record-level metadata: created, modified, source, license). Every canonical entity in islamicatlas-canonical MUST carry a provenance block. Provenance immutability principle: 'created' and the initial 'derived_from' set are write-once; subsequent modifications append to record_history and update 'modified', but never overwrite the original assertions.",
+  "type": "object",
+  "required": ["derived_from", "generated_by", "created", "attributed_to"],
+  "additionalProperties": false,
+  "properties": {
+    "derived_from": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": ["source_id"],
+        "additionalProperties": false,
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200,
+            "description": "Identifier of the upstream source. Either a CURIE-style identifier into a known source dataset ('yaqut:7842', 'bosworth-nid:42', 'le-strange:312', 'makdisi:muq-0024') or an iac PID once the source namespace is live ('iac:source-00000001')."
+          },
+          "source_type": {
+            "type": "string",
+            "enum": [
+              "primary_textual",
+              "secondary_scholarly",
+              "tertiary_reference",
+              "manual_editorial",
+              "authority_file"
+            ],
+            "description": "Source category. 'primary_textual' = a primary source text (Yâkût Mu'cem itself). 'secondary_scholarly' = modern scholarly work (Bosworth NID, Le Strange Lands). 'tertiary_reference' = encyclopaedic (DİA, EI). 'manual_editorial' = an editorial assertion by the canonical store author. 'authority_file' = imported from an external authority (Wikidata cross-reference)."
+          },
+          "page_or_locator": {
+            "type": "string",
+            "maxLength": 500,
+            "description": "Source-internal locator: page number ('cilt 2 sayfa 145'), folio reference, sectional pointer ('NID #42, p.94'), or a structured locator. Free-text by design to accommodate the heterogeneity of pre-modern citation conventions."
+          },
+          "extraction_method": {
+            "type": "string",
+            "enum": ["manual", "ocr", "htr", "structured_csv", "structured_json", "wikidata_query", "scraping"],
+            "description": "How the data was extracted from the source."
+          },
+          "edition_or_version": {
+            "type": "string",
+            "maxLength": 200,
+            "description": "Specific edition / version of the source (e.g., 'Wüstenfeld 1866-1873', 'Bosworth 2004 EUP repr.', 'OpenITI 2023.1.1')."
+          }
+        }
+      },
+      "description": "List of upstream sources from which the canonical entity is derived. PROV-O: prov:wasDerivedFrom. At least one source is required."
+    },
+    "generated_by": {
+      "type": "object",
+      "required": ["pipeline_name", "pipeline_version"],
+      "additionalProperties": false,
+      "properties": {
+        "pipeline_name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "description": "Name of the ETL pipeline that produced this canonical record. Examples: 'canonicalize_dynasty', 'canonicalize_place_yaqut', 'merge_place_multisource'."
+        },
+        "pipeline_version": {
+          "type": "string",
+          "pattern": "^v?[0-9]+\\.[0-9]+\\.[0-9]+(-[A-Za-z0-9.+-]+)?$",
+          "description": "Semver of the pipeline at the time of generation. Required for reproducibility."
+        },
+        "commit_sha": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{7,40}$",
+          "description": "Git commit SHA of the canonical-store repository at generation time. Optional but strongly recommended for reproducibility."
+        },
+        "input_hash": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$",
+          "description": "SHA-256 hash of the concatenated input source files used to produce this entity, computed by the pipeline. Enables detecting silent source mutations."
+        }
+      },
+      "description": "PROV-O: prov:wasGeneratedBy. The activity that produced the canonical record."
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "PROV-O: prov:generatedAtTime. ISO 8601 datetime when the canonical record was generated."
+    },
+    "attributed_to": {
+      "type": "string",
+      "format": "uri",
+      "description": "PROV-O: prov:wasAttributedTo. URI (preferably ORCID) of the person responsible for the canonical record. Defaults to the canonical-store maintainer's ORCID."
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Dublin Core: dcterms:created. Datetime the canonical record was first instantiated. Write-once."
+    },
+    "modified": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Dublin Core: dcterms:modified. Datetime of the most recent modification to the canonical record. May equal 'created' if never modified."
+    },
+    "license": {
+      "type": "string",
+      "format": "uri",
+      "default": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "description": "License URI under which the canonical record is published. Defaults to CC-BY-SA 4.0 (the canonical-store data licence)."
+    },
+    "record_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["change_type", "changed_at", "changed_by"],
+        "additionalProperties": false,
+        "properties": {
+          "change_type": {
+            "type": "string",
+            "enum": ["create", "update", "merge", "split", "deprecate", "revive"],
+            "description": "Kind of change. 'merge' = two canonical entities consolidated into this one (the others are deprecated). 'split' = this entity was created by separating from another. 'deprecate' = soft-delete (the entity is no longer authoritative but the PID is kept stable for citation continuity). 'revive' = un-deprecation."
+          },
+          "changed_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "changed_by": {
+            "type": "string",
+            "format": "uri"
+          },
+          "release": {
+            "type": "string",
+            "pattern": "^v[0-9]+\\.[0-9]+\\.[0-9]+(-[A-Za-z0-9.+-]+)?$",
+            "description": "Release tag at which the change took effect."
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 2000,
+            "description": "Free-text rationale for the change."
+          },
+          "merged_from": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^iac:[a-z]+-[0-9]{8}$"
+            },
+            "uniqueItems": true,
+            "description": "When change_type='merge', the PIDs of the entities subsumed into this one (now deprecated)."
+          }
+        }
+      },
+      "description": "Audit log of changes to this canonical record across releases. Strictly append-only; entries are never deleted or rewritten."
+    },
+    "deprecated": {
+      "type": "boolean",
+      "default": false,
+      "description": "Soft-delete flag. Once an entity is created, its PID lives forever for citation stability. If the entity is later judged invalid (e.g., merged into another, or sourced from a since-retracted dataset), 'deprecated' is set to true and a record_history entry is appended; the PID continues to resolve but downstream consumers know to follow the redirect."
+    },
+    "deprecated_in_favor_of": {
+      "type": "string",
+      "pattern": "^iac:[a-z]+-[0-9]{8}$",
+      "description": "When deprecated=true and the entity has been merged into another, the canonical PID that supersedes this one. Public URI resolver issues a 301 redirect to the successor."
+    }
+  },
+  "$comment": "If 'deprecated'=true then 'deprecated_in_favor_of' SHOULD be present (semantic-level rule, enforced by pipeline; not by JSON Schema in v0.1.0 to keep schema simple)."
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../entity_page.meta.schema.json",
+  "entity_type": "event",
+  "version": "0.1.0",
+  "sections": [
+    { "id": "header", "order": 1, "config": { "show_subtype_badge": true, "show_outcome_badge": true } },
+    { "id": "quick_facts", "order": 2, "config": {
+      "fields": ["temporal", "location", "participants_persons", "participants_dynasties", "outcome", "victor_dynasty"]
+    }},
+    { "id": "map", "order": 3, "config": {
+      "points": ["location", "secondary_locations"],
+      "show_dynasty_territories_at_event_time": true,
+      "render_only_if_present": "location"
+    }},
+    { "id": "timeline", "order": 4, "config": {
+      "show_chain": true,
+      "chain_kinds": ["preceded_by", "followed_by", "causes", "consequences"],
+      "depth": 2
+    }},
+    { "id": "casualties_panel", "order": 5, "config": {
+      "render_only_if_present": "casualties"
+    }},
+    { "id": "relations", "order": 6, "config": {
+      "edge_kinds": ["participants_persons", "participants_dynasties", "victor_dynasty", "preceded_by", "followed_by", "causes", "consequences"],
+      "graph_layout": "force-directed"
+    }},
+    { "id": "cross_refs", "order": 7 },
+    { "id": "sources", "order": 8 },
+    { "id": "authority_links", "order": 9 },
+    { "id": "editorial", "order": 10, "render_only_if_present": true }
+  ]
+}

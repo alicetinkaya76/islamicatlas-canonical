@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/coords.schema.json",
+  "title": "Coordinates",
+  "description": "Geographic coordinates for an entity. Phase 0 supports point geometry only; polygon and bounding-box geometry types are reserved in the enum for Phase 0.3+ but MUST NOT be instantiated in v0.1.0. The default coordinate reference system is WGS84 (EPSG:4326). Coordinates are decimal degrees, signed (negative latitudes south of equator, negative longitudes west of prime meridian).",
+  "type": "object",
+  "required": ["lat", "lon"],
+  "additionalProperties": false,
+  "properties": {
+    "lat": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90,
+      "description": "Decimal-degree latitude in WGS84. North-positive. Range is closed: -90 (south pole) to 90 (north pole) inclusive."
+    },
+    "lon": {
+      "type": "number",
+      "minimum": -180,
+      "maximum": 180,
+      "description": "Decimal-degree longitude in WGS84. East-positive. Range is closed: -180 to 180 inclusive."
+    },
+    "precision_meters": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100000000,
+      "description": "Radius of positional uncertainty around the (lat, lon) point, in metres. A value of 0 means submetre precision; a value of 50000 means '~50 km centroid'. Omit if unknown; do not encode as 0."
+    },
+    "geometry_type": {
+      "type": "string",
+      "enum": ["point", "polygon", "bbox"],
+      "default": "point",
+      "description": "Geometry kind. Phase 0 release accepts only 'point'; 'polygon' and 'bbox' are reserved for Phase 0.3+ and currently fail validation in pipeline (see iac:phase-0-geometry-only constraint)."
+    },
+    "crs": {
+      "type": "string",
+      "format": "uri",
+      "default": "http://www.opengis.net/def/crs/EPSG/0/4326",
+      "description": "Coordinate reference system URI. Default WGS84 (EPSG:4326). Other CRS values trigger a transformation step in the export pipeline."
+    },
+    "uncertainty": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["exact", "centroid", "approximate", "unlocated", "disputed"],
+          "description": "Categorical uncertainty: 'exact' = surveyed; 'centroid' = polygon centroid taken as point; 'approximate' = informed estimate from sources; 'unlocated' = referenced but not geolocatable; 'disputed' = scholarly disagreement on identification."
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 1000,
+          "description": "Free-text note explaining the uncertainty (e.g., 'centroid of the larger Bilād al-Shām reference region')."
+        }
+      },
+      "required": ["type"]
+    },
+    "derived_from_source": {
+      "type": "string",
+      "description": "Identifier of the primary source that supplied these coordinates. Format is a CURIE-like string ('yaqut:7842', 'le-strange:312', 'manual:cetinkaya') or an iac PID ('iac:source-00000001' once source namespace is live)."
+    }
+  },
+  "$comment": "Phase 0 geometry constraint: only geometry_type='point' is currently exported and validated. Pipelines/transformers/validate_phase0_geometry.py enforces this until Phase 0.3 polygons are activated."
+}

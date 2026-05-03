@@ -1,0 +1,34 @@
+{
+  "$schema": "../entity_page.meta.schema.json",
+  "entity_type": "place",
+  "version": "0.1.0",
+  "sections": [
+    { "id": "header", "order": 1, "config": { "show_subtype_badge": true, "show_authority_badges_inline": false } },
+    { "id": "quick_facts", "order": 2, "config": {
+      "fields": ["coords", "place_subtype", "located_in", "falls_within_iqlim", "had_capital_of", "yaqut_id", "temporal_coverage"]
+    }},
+    { "id": "map", "order": 3, "config": {
+      "layer_style": "ottoman-historical",
+      "show_neighbors_within_km": 50,
+      "default_zoom": 8,
+      "render_only_if_present": "coords"
+    }},
+    { "id": "relations", "order": 4, "config": {
+      "graph_layout": "force-directed",
+      "edge_kinds": ["located_in", "falls_within_iqlim", "had_capital_of", "predecessor_place", "successor_place"],
+      "max_nodes_visible": 25
+    }},
+    { "id": "timeline", "order": 5, "config": {
+      "events_source": "cross_refs",
+      "filter_by_pid": true
+    }, "render_only_if_present": true },
+    { "id": "cross_refs", "order": 6, "config": {
+      "layers_priority": ["yaqut", "le-strange", "makdisi", "evliya-celebi", "ibn-battuta", "salibiyyat", "konya-city-atlas", "darp-islam"],
+      "group_by_layer": true
+    }},
+    { "id": "sources", "order": 7, "config": { "citation_style": "chicago-author-date" } },
+    { "id": "authority_links", "order": 8 },
+    { "id": "editorial", "order": 9, "render_only_if_present": true }
+  ],
+  "default_lang_fallback": ["tr", "en", "ar", "translit"]
+}

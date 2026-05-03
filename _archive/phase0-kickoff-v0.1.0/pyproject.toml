@@ -1,0 +1,55 @@
+[project]
+name = "islamicatlas-canonical"
+version = "0.1.0"
+description = "Phase 0 canonical data foundation for islamicatlas.org"
+requires-python = ">=3.9"
+readme = "README.md"
+license = { text = "MIT (code) / CC-BY-4.0 (data)" }
+authors = [
+    { name = "Ali Çetinkaya" },
+    { name = "Fatıma Zehra Nur Balcı" },
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+src = ["scripts"]
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+    "F",    # pyflakes
+    "I",    # isort
+    "B",    # flake8-bugbear
+    "UP",   # pyupgrade
+    "N",    # pep8-naming
+    "RUF",  # ruff-specific
+]
+ignore = [
+    "E501",  # line too long — handled by formatter
+    "N806",  # variable in function should be lowercase (false positives in DH code)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/week1_audit.py" = ["PLR0912", "PLR0915"]  # audit script has many branches by design
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.mypy]
+python_version = "3.9"
+strict = false     # Phase 0 gradually strictens; Week 2+ yeni modüller strict
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false   # Week 2'de true'ya çek
+
+[[tool.mypy.overrides]]
+module = "scripts.week1_audit"
+ignore_errors = true   # audit script stdlib only, type check sonraya
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+python_files = "test_*.py"

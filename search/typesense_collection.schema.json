@@ -1,0 +1,274 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/search/v0.1.0/typesense_collection.schema.json",
+  "title": "Typesense Collection Schema — iac_entities",
+  "description": "Unified search collection schema for islamicatlas.org's federated entity search. All canonical entity types (place, dynasty, person, work, manuscript, event) project into a single Typesense collection 'iac_entities' with entity_type as discriminator. This schema is consumed by pipelines/search/full_reindex.py to declare/update the Typesense collection on bootstrap. Field selection is informed by ADR-004 (search-first architecture) and ADR-005 (unified catalog). The corresponding Typesense schema (the live one running in Typesense itself) is generated FROM this schema by search/typesense_schema_emit.py — this is the source of truth, the live one is downstream.",
+  "collection_name": "iac_entities",
+  "default_sorting_field": "_score",
+  "enable_nested_fields": true,
+  "token_separators": [".", "-", "/", "_", "'", "ʿ", "ʾ"],
+  "symbols_to_index": ["+", "&"],
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "facet": false,
+      "comment": "Canonical PID (e.g., 'iac:place-00000042'). Typesense's primary key."
+    },
+    {
+      "name": "entity_type",
+      "type": "string",
+      "facet": true,
+      "comment": "Discriminator. enum: place|dynasty|person|work|manuscript|event"
+    },
+    {
+      "name": "subtypes",
+      "type": "string[]",
+      "facet": true,
+      "optional": true,
+      "comment": "Type subtypes from @type minus the supertype, e.g., ['settlement'] for places, ['caliphate'] for dynasties."
+    },
+    {
+      "name": "prefLabel_en",
+      "type": "string",
+      "facet": false,
+      "optional": true,
+      "locale": "en",
+      "infix": true,
+      "comment": "English preferred label. Infix-indexed for partial-match queries."
+    },
+    {
+      "name": "prefLabel_ar",
+      "type": "string",
+      "facet": false,
+      "optional": true,
+      "locale": "ar",
+      "infix": true
+    },
+    {
+      "name": "prefLabel_tr",
+      "type": "string",
+      "facet": false,
+      "optional": true,
+      "locale": "tr",
+      "infix": true
+    },
+    {
+      "name": "prefLabel_translit",
+      "type": "string",
+      "facet": false,
+      "optional": true,
+      "infix": true,
+      "comment": "ALA-LC romanization, ASCII-folded. The most-targeted query field for typo-tolerant Latin-script searches."
+    },
+    {
+      "name": "altLabels",
+      "type": "string[]",
+      "facet": false,
+      "optional": true,
+      "infix": true,
+      "comment": "Flattened union of all altLabel arrays across languages. Lower ranking weight than prefLabel_*."
+    },
+    {
+      "name": "description_en",
+      "type": "string",
+      "facet": false,
+      "optional": true,
+      "locale": "en",
+      "comment": "English description, for full-text relevance and snippet generation."
+    },
+    {
+      "name": "description_tr",
+      "type": "string",
+      "facet": false,
+      "optional": true,
+      "locale": "tr"
+    },
+    {
+      "name": "description_ar",
+      "type": "string",
+      "facet": false,
+      "optional": true,
+      "locale": "ar"
+    },
+    {
+      "name": "_geo",
+      "type": "geopoint",
+      "facet": false,
+      "optional": true,
+      "comment": "Primary geographic point. For places: coords.lat/lon. For dynasties: first capital coords. For manuscripts: current_library coords. For events: location coords. For persons: birth_place coords (if available). For works: composition place coords (P0.3+)."
+    },
+    {
+      "name": "century_ce",
+      "type": "int32",
+      "facet": true,
+      "optional": true,
+      "comment": "CE century bucket. Computed from temporal.start_ce // 100 + 1 (e.g., 750 → 8th c.). Negative for BCE."
+    },
+    {
+      "name": "century_ah",
+      "type": "int32",
+      "facet": true,
+      "optional": true,
+      "comment": "AH century bucket. Computed from temporal.start_ah // 100 + 1."
+    },
+    {
+      "name": "start_year_ce",
+      "type": "int32",
+      "facet": false,
+      "optional": true,
+      "comment": "Sortable year-precision start (CE). Used for chronological sort_by parameter."
+    },
+    {
+      "name": "end_year_ce",
+      "type": "int32",
+      "facet": false,
+      "optional": true
+    },
+    {
+      "name": "iqlim",
+      "type": "string[]",
+      "facet": true,
+      "optional": true,
+      "comment": "Containing great-region(s). For places: falls_within_iqlim resolved to iqlim labels. For dynasties: territory iqlim memberships. For persons/works: derived from active_in_places."
+    },
+    {
+      "name": "source_layer",
+      "type": "string[]",
+      "facet": true,
+      "optional": true,
+      "comment": "Atlas data layers contributing to this entity. From provenance.derived_from + place.derived_from_layers. Common values: yaqut, le-strange, makdisi, evliya-celebi, ibn-battuta, salibiyyat, darp-islam, konya-city-atlas, science-layer, bosworth, manual."
+    },
+    {
+      "name": "language",
+      "type": "string[]",
+      "facet": true,
+      "optional": true,
+      "comment": "Languages associated with the entity (labels languages, work original_language, manuscript languages)."
+    },
+    {
+      "name": "has_coords",
+      "type": "bool",
+      "facet": true,
+      "optional": false,
+      "comment": "Computed: true iff _geo is populated. Enables filtering to mappable entities."
+    },
+    {
+      "name": "has_wikidata",
+      "type": "bool",
+      "facet": true,
+      "optional": false,
+      "comment": "Computed: true iff authority_xref contains a wikidata entry."
+    },
+    {
+      "name": "wikidata_qid",
+      "type": "string",
+      "facet": false,
+      "optional": true,
+      "comment": "Wikidata QID denormalized for direct outbound link rendering."
+    },
+    {
+      "name": "place_subtype",
+      "type": "string",
+      "facet": true,
+      "optional": true,
+      "comment": "Type-specific. Place: settlement|region|iqlim."
+    },
+    {
+      "name": "dynasty_subtype",
+      "type": "string",
+      "facet": true,
+      "optional": true,
+      "comment": "Type-specific. Dynasty: caliphate|sultanate|emirate|imamate|beylik."
+    },
+    {
+      "name": "person_profession",
+      "type": "string[]",
+      "facet": true,
+      "optional": true,
+      "comment": "Type-specific. Person: profession array."
+    },
+    {
+      "name": "work_genre",
+      "type": "string[]",
+      "facet": true,
+      "optional": true,
+      "comment": "Type-specific. Work: genre array."
+    },
+    {
+      "name": "manuscript_library",
+      "type": "string",
+      "facet": true,
+      "optional": true,
+      "comment": "Type-specific. Manuscript: current_library prefLabel.en (denormalized for facet)."
+    },
+    {
+      "name": "manuscript_script",
+      "type": "string",
+      "facet": true,
+      "optional": true,
+      "comment": "Type-specific. Manuscript: script."
+    },
+    {
+      "name": "event_subtype",
+      "type": "string",
+      "facet": true,
+      "optional": true,
+      "comment": "Type-specific. Event: battle|treaty|founding|...; mirrors @type subtype."
+    },
+    {
+      "name": "related_pids",
+      "type": "string[]",
+      "facet": false,
+      "optional": true,
+      "comment": "Flat union of all PID references this entity makes (located_in, predecessor, successor, authors, witnesses_work, etc.). Enables 'related to iac:dynasty-00000003' filter queries."
+    },
+    {
+      "name": "related_labels",
+      "type": "string[]",
+      "facet": false,
+      "optional": true,
+      "infix": true,
+      "comment": "Denormalized prefLabels of all related entities (across languages, deduplicated). Critical for cross-entity search: query 'Sayf al-Dawla' hits Halep place doc because Hamdānid dynasty (whose prefLabel includes 'Sayf al-Dawla' family) is related to Halep."
+    },
+    {
+      "name": "deprecated",
+      "type": "bool",
+      "facet": false,
+      "optional": false,
+      "comment": "Soft-delete flag from provenance.deprecated. Default-filtered out unless explicit include_deprecated=true."
+    },
+    {
+      "name": "_score",
+      "type": "float",
+      "facet": false,
+      "optional": true,
+      "comment": "Computed ranking score, populated by the projector. Combination of has_wikidata, has_coords, capital_status, manual_curation. Used as default_sorting_field."
+    },
+    {
+      "name": "modified_at",
+      "type": "int64",
+      "facet": false,
+      "optional": true,
+      "comment": "Unix timestamp of provenance.modified, for tie-breaker recency sort."
+    }
+  ],
+  "_typesense_settings": {
+    "default_typo_tolerance": {
+      "num_typos": 2,
+      "typo_tokens_threshold": 1,
+      "drop_tokens_threshold": 1
+    },
+    "search_fields_priority": {
+      "prefLabel_translit": 4,
+      "prefLabel_en": 3,
+      "prefLabel_ar": 3,
+      "prefLabel_tr": 3,
+      "altLabels": 2,
+      "related_labels": 1.5,
+      "description_en": 1,
+      "description_tr": 1,
+      "description_ar": 1
+    }
+  }
+}

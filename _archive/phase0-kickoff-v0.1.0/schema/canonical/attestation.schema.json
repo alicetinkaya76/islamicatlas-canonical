@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://islamicatlas.org/schema/canonical/attestation.schema.json",
+  "title": "Attestation",
+  "description": "Bir kanonik varlığın (Place/Person/Work/Event) bir kaynakta (Source) bahsedilişi. Pleiades modeli. CIDOC-CRM: E13 Attribute Assignment / E62 String.",
+  "type": "object",
+  "required": ["id", "source_id", "entity_type", "entity_id"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Attestation UUID",
+      "pattern": "^att_[a-z0-9_-]+$"
+    },
+    "source_id": {
+      "type": "string",
+      "description": "Hangi kaynakta geçiyor (Source.id)",
+      "pattern": "^src_[a-z0-9_]+$"
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": ["place", "person", "work", "event", "dynasty", "route"],
+      "description": "Bahsedilen varlığın tipi"
+    },
+    "entity_id": {
+      "type": "string",
+      "description": "Bahsedilen kanonik varlığın ID'si",
+      "pattern": "^(plc|per|wrk|evt|dyn|rte)_[a-z0-9_-]+$"
+    },
+    "locator": {
+      "type": "object",
+      "description": "Kaynakta tam olarak nerede — sayfa, madde, cilt, paragraf",
+      "properties": {
+        "volume": {"type": ["string", "integer"]},
+        "page_start": {"type": "integer"},
+        "page_end": {"type": "integer"},
+        "entry_key": {"type": "string", "description": "Ansiklopedide madde başı (ör. 'BAGDAD')"},
+        "paragraph": {"type": "string"},
+        "line_range": {"type": "string", "description": "'45-62' gibi"},
+        "manuscript_folio": {"type": "string"},
+        "iiif_canvas": {"type": "string", "format": "uri"}
+      }
+    },
+    "surface_form": {
+      "type": "object",
+      "description": "Kaynakta geçen ham metin — normalize edilmemiş",
+      "properties": {
+        "original_script": {"type": "string", "description": "Arapça/Osmanlıca asıl metin"},
+        "translit": {"type": "string", "description": "Translitere edilmiş form"},
+        "context": {"type": "string", "description": "Kısa bağlam (30-200 kelime)", "maxLength": 2000}
+      }
+    },
+    "assertions": {
+      "type": "object",
+      "description": "Bu attestation'ın canonical varlığa kattığı bilgi iddiaları",
+      "properties": {
+        "coordinates": {
+          "type": "object",
+          "properties": {
+            "lat": {"type": "number", "minimum": -90, "maximum": 90},
+            "lon": {"type": "number", "minimum": -180, "maximum": 180},
+            "precision_meters": {"type": "integer"},
+            "method": {"type": "string", "enum": ["stated", "inferred", "geocoded", "unknown"]}
+          }
+        },
+        "date_ce": {"type": "integer"},
+        "date_hijri": {"type": "integer"},
+        "name_variants": {"type": "array", "items": {"type": "string"}},
+        "relations": {
+          "type": "array",
+          "description": "Kaynağın bu varlıkla ilgili iddia ettiği ilişkiler",
+          "items": {
+            "type": "object",
+            "properties": {
+              "predicate": {"type": "string", "examples": ["located_in", "born_in", "teacher_of", "successor_of"]},
+              "object_entity_id": {"type": "string"},
+              "object_literal": {"type": "string"}
+            }
+          }
+        },
+        "attributes": {
+          "type": "object",
+          "description": "Kaynakta kayıtlı serbest-form öznitelikler",
+          "additionalProperties": true
+        }
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "description": "Attestation'ın varlıkla eşleştirme güven derecesi",
+      "properties": {
+        "match_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Entity resolution skoru (0=zayıf, 1=kesin)"
+        },
+        "verification_status": {
+          "type": "string",
+          "enum": ["auto", "auto_high", "human_verified", "disputed", "rejected"]
+        },
+        "verifier": {"type": "string"},
+        "verified_at": {"type": "string", "format": "date-time"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "description": "Bu attestation kaydı nasıl üretildi",
+      "properties": {
+        "extraction_method": {
+          "type": "string",
+          "enum": ["manual", "etl", "llm_assisted", "ocr", "crowdsource"]
+        },
+        "extraction_pipeline": {"type": "string"},
+        "extraction_version": {"type": "string"},
+        "extracted_at": {"type": "string", "format": "date-time"},
+        "original_record_id": {"type": "string", "description": "Legacy sistemdeki ID (migration izi)"}
+      }
+    },
+    "created_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"}
+  }
+}

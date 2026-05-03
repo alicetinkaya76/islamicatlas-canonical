@@ -1,0 +1,199 @@
+# Facet taxonomy for islamicatlas-canonical / iac_entities Typesense collection
+#
+# Read by:  search/projector.py (validates that all referenced fields exist in collection schema)
+# Read by:  UI (renders the facet panel based on this file)
+# Versioned: keep adding new facets in the v0.x series, never remove a facet without deprecation cycle
+
+version: 0.1.0
+
+# Global facets: shown in the unified search UI regardless of selected entity type.
+global_facets:
+
+  - id: entity_type
+    label_tr: "Varlık tipi"
+    label_en: "Entity type"
+    label_ar: "نوع الكيان"
+    field: entity_type
+    type: enum
+    values:
+      - { value: place,      label_tr: "Yer",         label_en: "Place" }
+      - { value: dynasty,    label_tr: "Hanedan",     label_en: "Dynasty" }
+      - { value: person,     label_tr: "Kişi",        label_en: "Person" }
+      - { value: work,       label_tr: "Eser",        label_en: "Work" }
+      - { value: manuscript, label_tr: "Yazma",       label_en: "Manuscript" }
+      - { value: event,      label_tr: "Olay",        label_en: "Event" }
+    default_open: true
+    multi_select: true
+    sort_by: count_desc
+
+  - id: century_ce
+    label_tr: "Yüzyıl (Miladi)"
+    label_en: "Century (CE)"
+    field: century_ce
+    type: int_range_buckets
+    bucket_size: 1
+    min: -1
+    max: 21
+    label_template_tr: "{value}. yy"
+    label_template_en: "{value}th c. CE"
+    default_open: true
+    sort_by: bucket_asc
+
+  - id: century_ah
+    label_tr: "Yüzyıl (Hicrî)"
+    label_en: "Century (AH)"
+    field: century_ah
+    type: int_range_buckets
+    bucket_size: 1
+    min: 1
+    max: 15
+    label_template_tr: "{value}. yy H."
+    label_template_en: "{value}th c. AH"
+    default_open: false
+    sort_by: bucket_asc
+
+  - id: iqlim
+    label_tr: "İklim / Bölge"
+    label_en: "Iqlim / Region"
+    field: iqlim
+    type: enum
+    values:
+      - { value: "Khurāsān",  label_tr: "Horasan",   label_en: "Khurāsān" }
+      - { value: "Andalus",   label_tr: "Endülüs",   label_en: "Andalus" }
+      - { value: "Maghrib",   label_tr: "Mağrib",    label_en: "Maghrib" }
+      - { value: "Shām",      label_tr: "Şam",       label_en: "Shām" }
+      - { value: "Jazīra",    label_tr: "Cezîre",    label_en: "Jazīra" }
+      - { value: "Rūm",       label_tr: "Rûm",       label_en: "Rūm" }
+      - { value: "ʿIrāq",     label_tr: "Irak",      label_en: "ʿIrāq" }
+      - { value: "Miṣr",      label_tr: "Mısır",     label_en: "Miṣr" }
+      - { value: "Ḥijāz",     label_tr: "Hicaz",     label_en: "Ḥijāz" }
+      - { value: "Yaman",     label_tr: "Yemen",     label_en: "Yaman" }
+    default_open: true
+    multi_select: true
+    sort_by: alphabetical
+
+  - id: source_layer
+    label_tr: "Kaynak katmanı"
+    label_en: "Source layer"
+    field: source_layer
+    type: enum
+    values:
+      - { value: yaqut,             label_tr: "Yâkût Mu'cem",         label_en: "Yâqūt Muʿjam" }
+      - { value: le-strange,        label_tr: "Le Strange",           label_en: "Le Strange" }
+      - { value: makdisi,           label_tr: "Makdisî Tasnif",       label_en: "al-Maqdisī" }
+      - { value: bosworth,          label_tr: "Bosworth NID",         label_en: "Bosworth NID" }
+      - { value: evliya-celebi,     label_tr: "Evliya Çelebi",        label_en: "Evliya Çelebi" }
+      - { value: ibn-battuta,       label_tr: "İbn Battûta",          label_en: "Ibn Baṭṭūṭa" }
+      - { value: salibiyyat,        label_tr: "Salibiyyât (Haçlı)",   label_en: "Salibiyyāt (Crusades)" }
+      - { value: darp-islam,        label_tr: "Darp İslam (sikke)",   label_en: "DarpIslam (mints)" }
+      - { value: konya-city-atlas,  label_tr: "Konya City Atlas",     label_en: "Konya City Atlas" }
+      - { value: science-layer,     label_tr: "Bilim Katmanı",        label_en: "Science Layer" }
+      - { value: openiti,           label_tr: "OpenITI",              label_en: "OpenITI" }
+      - { value: manual,            label_tr: "Editöryal",            label_en: "Manual" }
+    default_open: true
+    multi_select: true
+    sort_by: count_desc
+
+  - id: language
+    label_tr: "Dil"
+    label_en: "Language"
+    field: language
+    type: enum
+    values:
+      - { value: ar,  label_tr: "Arapça",         label_en: "Arabic" }
+      - { value: fa,  label_tr: "Farsça",         label_en: "Persian" }
+      - { value: ota, label_tr: "Osmanlıca",      label_en: "Ottoman Turkish" }
+      - { value: tr,  label_tr: "Türkçe",         label_en: "Turkish" }
+      - { value: en,  label_tr: "İngilizce",      label_en: "English" }
+      - { value: la,  label_tr: "Latince",        label_en: "Latin" }
+      - { value: el,  label_tr: "Yunanca",        label_en: "Greek" }
+    default_open: false
+    multi_select: true
+    sort_by: count_desc
+
+  - id: has_coords
+    label_tr: "Haritada görünür"
+    label_en: "Mappable"
+    field: has_coords
+    type: bool
+    default_open: false
+
+  - id: has_wikidata
+    label_tr: "Wikidata bağlantısı var"
+    label_en: "Has Wikidata link"
+    field: has_wikidata
+    type: bool
+    default_open: false
+
+# Type-specific facets: shown only when entity_type filter selects that type.
+type_specific_facets:
+
+  place:
+    - id: place_subtype
+      label_tr: "Yer alt tipi"
+      label_en: "Place subtype"
+      field: place_subtype
+      type: enum
+      values:
+        - { value: settlement, label_tr: "Yerleşim",   label_en: "Settlement" }
+        - { value: region,     label_tr: "Bölge",      label_en: "Region" }
+        - { value: iqlim,      label_tr: "İklim",      label_en: "Iqlim" }
+      default_open: true
+
+  dynasty:
+    - id: dynasty_subtype
+      label_tr: "Hanedan alt tipi"
+      label_en: "Dynasty subtype"
+      field: dynasty_subtype
+      type: enum
+      values:
+        - { value: caliphate, label_tr: "Hilafet",     label_en: "Caliphate" }
+        - { value: sultanate, label_tr: "Saltanat",    label_en: "Sultanate" }
+        - { value: emirate,   label_tr: "Emirlik",     label_en: "Emirate" }
+        - { value: imamate,   label_tr: "İmamet",      label_en: "Imamate" }
+        - { value: beylik,    label_tr: "Beylik",      label_en: "Beylik" }
+      default_open: true
+
+  person:
+    - id: person_profession
+      label_tr: "Meslek / Rol"
+      label_en: "Profession / Role"
+      field: person_profession
+      type: enum
+      multi_select: true
+      default_open: true
+      # values are dynamic (controlled vocab in person.schema.json profession enum)
+
+  work:
+    - id: work_genre
+      label_tr: "Tür"
+      label_en: "Genre"
+      field: work_genre
+      type: enum
+      multi_select: true
+      default_open: true
+
+  manuscript:
+    - id: manuscript_library
+      label_tr: "Kütüphane"
+      label_en: "Library"
+      field: manuscript_library
+      type: enum
+      multi_select: true
+      default_open: true
+    - id: manuscript_script
+      label_tr: "Yazı türü"
+      label_en: "Script"
+      field: manuscript_script
+      type: enum
+      multi_select: true
+      default_open: false
+
+  event:
+    - id: event_subtype
+      label_tr: "Olay tipi"
+      label_en: "Event type"
+      field: event_subtype
+      type: enum
+      multi_select: true
+      default_open: true

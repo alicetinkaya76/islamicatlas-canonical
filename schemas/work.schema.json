@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/work.schema.json",
+  "title": "Canonical Work",
+  "description": "A canonical work record — the abstract intellectual entity (FRBR Work). Distinct from Manuscript (FRBR Manifestation+Item). Phase 0 forward-declared; activation in P0.2 with the OpenITI seed (~13,681 files mapped to work PIDs) and source-namespace ETL (every Bosworth/Yâqūt/Le Strange edition becomes a work record). Bibliographic citations from provenance.derived_from migrate from CURIE strings to work PIDs in P0.2.",
+  "type": "object",
+  "required": ["@id", "@type", "labels", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "@id": {
+      "type": "string",
+      "pattern": "^iac:work-[0-9]{8}$"
+    },
+    "@type": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "uniqueItems": true,
+      "contains": { "const": "iac:Work" },
+      "items": {
+        "type": "string",
+        "enum": [
+          "iac:Work",
+          "iac:Book",
+          "iac:Treatise",
+          "iac:Poem",
+          "iac:Fatwa",
+          "iac:Letter",
+          "iac:Map",
+          "iac:Compendium",
+          "iac:Dictionary",
+          "iac:HadithCollection",
+          "iac:Tafsir",
+          "iac:Tarikh",
+          "iac:Sira",
+          "iac:Tabaqa",
+          "iac:Geography"
+        ]
+      }
+    },
+    "labels": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/multilingual_text.schema.json",
+      "description": "Title bundle. prefLabel.ar typically holds the canonical Arabic title; prefLabel.en the conventional English title (when one exists)."
+    },
+    "authors": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:person-[0-9]{8}$" },
+      "description": "Author(s). Bidirectional with person.authored_works."
+    },
+    "composition_temporal": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/temporal.schema.json",
+      "description": "When the work was composed. Often only approximate; use approximation='circa' for round-century dates and 'before' / 'after' for terminus dates."
+    },
+    "original_language": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Z][a-z]{3})?$",
+      "description": "BCP-47 language tag of the original composition. Common: 'ar', 'fa', 'ota', 'tr'. Translations are separate work records cross-linked via 'translation_of'."
+    },
+    "genre": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "fiqh", "usul-al-fiqh", "hadith", "tafsir", "kalam", "sira",
+          "tarikh", "tabaqa", "tarajim", "rihla", "geography", "cosmography",
+          "edebiyat", "shi'r", "balaghah", "lughah", "nahw", "sarf",
+          "tasawwuf", "falsafah", "mantiq", "tibb", "riyadiyat", "falak",
+          "kimiya", "tarikh-al-anbiya", "qisas", "manaqib", "fatwa",
+          "muqaddima", "sharh", "hashiyah", "mukhtasar", "shaurh",
+          "fihrist", "nashr", "epistolary", "wasiyyah", "sira-ottoman"
+        ]
+      },
+      "description": "Genre classification. Controlled vocabulary based on classical Islamic bibliographic categories (Kâtib Çelebi's Kashf al-Ẓunūn taxonomy as reference). Multi-valued (a work may be both 'tarikh' and 'tabaqa' — biographical chronicle)."
+    },
+    "subjects": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1, "maxLength": 200 },
+      "description": "Free-text subject keywords (Library-of-Congress style). For controlled subject access in P0.3+ via skos:Concept."
+    },
+    "extant_manuscripts": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:manuscript-[0-9]{8}$" },
+      "description": "Known surviving manuscript witnesses. PID references to iac:manuscript-. Bidirectional with manuscript.witnesses_work."
+    },
+    "translation_of": {
+      "type": "string",
+      "pattern": "^iac:work-[0-9]{8}$",
+      "description": "If this work is a translation, the original work PID. Translations are first-class works with their own authors (translators)."
+    },
+    "abridgement_of": {
+      "type": "string",
+      "pattern": "^iac:work-[0-9]{8}$",
+      "description": "If this is a mukhtaṣar (abridgement), the source work PID."
+    },
+    "commentary_on": {
+      "type": "string",
+      "pattern": "^iac:work-[0-9]{8}$",
+      "description": "If this is a sharḥ or ḥāshiyah (commentary or supercommentary), the source work PID."
+    },
+    "mentions_places": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:place-[0-9]{8}$" },
+      "description": "Places named in the work — important for geographical/biographical works (Yâqūt, Ibn Baṭṭūṭa, Le Strange). Populated by NER pipelines."
+    },
+    "mentions_persons": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:person-[0-9]{8}$" },
+      "description": "Persons named in the work."
+    },
+    "cites_works": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^iac:work-[0-9]{8}$" },
+      "description": "Other works explicitly cited or quoted. Important for intellectual-history graph."
+    },
+    "openiti_uri": {
+      "type": "string",
+      "pattern": "^[0-9]{4}[A-Z][A-Za-z0-9]+(\\.[A-Za-z0-9_]+)?$",
+      "description": "OpenITI canonical URI ('<deathYearAH>AuthorShortname.WorkShortname'). Phase 0.2 active reconciliation target."
+    },
+    "bosworth_id": {
+      "type": "string",
+      "pattern": "^NID-[0-9]{3}$",
+      "description": "Bosworth NID — used when the work IS Bosworth's NID for a particular dynasty. Most works have no bosworth_id."
+    },
+    "authority_xref": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/authority_xref.schema.json"
+    },
+    "provenance": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/provenance.schema.json"
+    },
+    "note": {
+      "type": "string",
+      "maxLength": 5000
+    }
+  },
+  "$comment": "Phase 0.2 hard rules: (a) authors required (anonymous works use a sentinel iac:person-00000000 'Anonymous'); (b) original_language required; (c) at least one of composition_temporal or floruit-of-author required."
+}

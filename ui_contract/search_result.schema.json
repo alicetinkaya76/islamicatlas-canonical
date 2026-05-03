@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/ui-contract/v0.1.0/search_result.schema.json",
+  "title": "Search Result Card",
+  "description": "Contract for a single search-result card rendered in the unified search UI. The result card is derived from a Typesense search hit (search/typesense_collection.schema.json) and adds presentation-layer fields (snippet HTML, type-aware secondary line, type icon). UI implementation MAY consume Typesense hits directly; this schema documents the canonical card shape for components.",
+  "type": "object",
+  "required": ["id", "entity_type", "title", "snippet"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^iac:[a-z]+-[0-9]{8}$",
+      "description": "Canonical PID. Card click navigates to /id/{namespace}/{slug}."
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": ["place", "dynasty", "person", "work", "manuscript", "event"]
+    },
+    "title": {
+      "type": "string",
+      "description": "Primary card title, derived from prefLabel in the user's current UI language with fallback chain (TR → EN → AR → translit)."
+    },
+    "transliteration": {
+      "type": "string",
+      "description": "ALA-LC transliteration shown as a subdued secondary on the title line, when prefLabel is non-Latin script."
+    },
+    "secondary": {
+      "type": "string",
+      "description": "Type-aware secondary line. Place: 'Settlement, in Bilād al-Shām'. Dynasty: 'Caliphate, 750-1258 CE'. Person: 'Scholar, Khurāsānī (d. 256/870)'. Work: 'Hadith collection by al-Bukhārī (d. 256/870)'. Manuscript: 'Codex, Süleymaniye 1825, 9th c. AH'. Event: 'Battle, Manzikert, 463 AH / 1071 CE'."
+    },
+    "snippet": {
+      "type": "string",
+      "description": "HTML-safe text snippet from the description field, with query terms wrapped in <mark> tags. ≤ 280 chars."
+    },
+    "type_icon": {
+      "type": "string",
+      "enum": ["map-pin", "crown", "user", "book-open", "scroll", "calendar"],
+      "description": "Lucide icon name keyed by entity_type. UI maps: place→map-pin, dynasty→crown, person→user, work→book-open, manuscript→scroll, event→calendar."
+    },
+    "score": {
+      "type": "number",
+      "description": "Relevance score from Typesense (0..1 normalized for display)."
+    },
+    "facet_chips": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["facet_id", "value", "label"],
+        "additionalProperties": false,
+        "properties": {
+          "facet_id": { "type": "string" },
+          "value": { "type": "string" },
+          "label": { "type": "string" }
+        }
+      },
+      "description": "Up to 3 facet chips on the card (e.g., 'Khurāsān', '8th c.', 'Bosworth'). Click expands the facet panel."
+    },
+    "thumbnail_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional thumbnail (manuscript: IIIF cover, place: static map preview, person: portrait if Wikidata has one)."
+    },
+    "deprecated": {
+      "type": "boolean",
+      "description": "If true, card is rendered with strikethrough + 'See: <new entity>' redirect notice."
+    }
+  }
+}

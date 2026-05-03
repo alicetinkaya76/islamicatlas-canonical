@@ -1,0 +1,26 @@
+{
+  "@type": ["iac:Place", "iac:Settlement"],
+  "place_subtype": "settlement",
+  "labels": {
+    "prefLabel": {
+      "en": "Aleppo",
+      "ar": "حلب"
+    }
+  },
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "yaqut:7842",
+        "source_type": "primary_textual",
+        "extraction_method": "manual"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_place_yaqut",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-04-22T11:30:00Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-04-22T11:30:00Z"
+  }
+}

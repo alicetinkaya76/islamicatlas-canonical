@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "description": "Curated offline Wikidata QID seed for Bosworth dynasties. Only entries with high editorial confidence are listed here. Used as fallback when the live OpenRefine reconciliation API is unreachable. The live API run will populate the SQLite cache (data/cache/wikidata_reconcile.sqlite) with broader coverage.",
+    "format": "{ \"<source_record_id>\": { \"qid\": \"Q...\", \"confidence\": 1.0, \"reviewed\": true, \"note\": \"...\" } }",
+    "source_record_id_format": "bosworth-nid:<dynasty_id>",
+    "curator": "https://orcid.org/0000-0002-7747-6854",
+    "curated_at": "2026-05-03",
+    "release_target": "v0.1.0-phase0",
+    "schema": "authority_xref entries with method=imported_from_source, reviewed=true (curator-verified)"
+  },
+  "bosworth-nid:1": {
+    "qid": "Q11704",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Rashidun Caliphate (632-661); curator-verified offline seed."
+  },
+  "bosworth-nid:2": {
+    "qid": "Q12559",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Umayyad Caliphate (Damascus, 661-750); curator-verified offline seed."
+  },
+  "bosworth-nid:3": {
+    "qid": "Q11707",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Abbasid Caliphate (750-1258, with Cairo line through 1517); curator-verified, also present in dynasty_valid.json fixture."
+  },
+  "bosworth-nid:4": {
+    "qid": "Q170244",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Caliphate of Córdoba / Spanish Umayyads (756-1031); curator-verified offline seed."
+  },
+  "bosworth-nid:7": {
+    "qid": "Q104506",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Emirate of Granada / Nasrid dynasty (1230-1492); curator-verified offline seed."
+  },
+  "bosworth-nid:14": {
+    "qid": "Q172165",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Almoravid dynasty (al-Murābiṭūn, 1040-1147); curator-verified offline seed."
+  },
+  "bosworth-nid:15": {
+    "qid": "Q179293",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Almohad Caliphate (al-Muwaḥḥidūn, 1121-1269); curator-verified offline seed."
+  },
+  "bosworth-nid:16": {
+    "qid": "Q310801",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Marinid Sultanate (1244-1465); curator-verified offline seed."
+  },
+  "bosworth-nid:18": {
+    "qid": "Q726113",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Hafsid dynasty (Tunis, 1229-1574); curator-verified offline seed."
+  },
+  "bosworth-nid:25": {
+    "qid": "Q623635",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Tulunid dynasty (Egypt/Syria, 868-905); curator-verified offline seed."
+  },
+  "bosworth-nid:27": {
+    "qid": "Q187198",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Fatimid Caliphate (909-1171); curator-verified offline seed."
+  },
+  "bosworth-nid:30": {
+    "qid": "Q205892",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Ayyubid dynasty (1171-1341); curator-verified offline seed."
+  },
+  "bosworth-nid:31": {
+    "qid": "Q12544",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Mamluk Sultanate of Cairo (1250-1517); curator-verified offline seed."
+  },
+  "bosworth-nid:75": {
+    "qid": "Q207401",
+    "confidence": 0.95,
+    "reviewed": true,
+    "note": "Buyid dynasty / Buwayhids (934-1062); curator-verified offline seed."
+  },
+  "bosworth-nid:83": {
+    "qid": "Q44729",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Samanid Empire (819-999); curator-verified offline seed."
+  },
+  "bosworth-nid:89": {
+    "qid": "Q19595",
+    "confidence": 0.95,
+    "reviewed": true,
+    "note": "Khwarazmian Empire / Khwārazm Shāhs (1077-1231); curator-verified offline seed."
+  },
+  "bosworth-nid:91": {
+    "qid": "Q207170",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Seljuk Empire (1037-1194); curator-verified offline seed."
+  },
+  "bosworth-nid:107": {
+    "qid": "Q207100",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Sultanate of Rum / Anatolian Seljuks (1077-1308); curator-verified offline seed."
+  },
+  "bosworth-nid:130": {
+    "qid": "Q12560",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Ottoman Empire (c. 1300-1922); curator-verified offline seed."
+  },
+  "bosworth-nid:131": {
+    "qid": "Q12557",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Mongol Empire / Great Khans (1206-1368); curator-verified offline seed."
+  },
+  "bosworth-nid:133": {
+    "qid": "Q11710",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Ilkhanate (Mongol Iran, 1256-1335); curator-verified offline seed."
+  },
+  "bosworth-nid:144": {
+    "qid": "Q1145",
+    "confidence": 0.9,
+    "reviewed": true,
+    "note": "Timurid Empire (1370-1507); curator-verified offline seed."
+  },
+  "bosworth-nid:148": {
+    "qid": "Q156607",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Safavid dynasty (1501-1736); curator-verified offline seed."
+  },
+  "bosworth-nid:151": {
+    "qid": "Q156478",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Qajar dynasty (1789-1925); curator-verified offline seed."
+  },
+  "bosworth-nid:158": {
+    "qid": "Q193515",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Ghaznavid dynasty (977-1186); curator-verified offline seed."
+  },
+  "bosworth-nid:175": {
+    "qid": "Q33296",
+    "confidence": 1.0,
+    "reviewed": true,
+    "note": "Mughal Empire (1526-1857); curator-verified offline seed."
+  }
+}

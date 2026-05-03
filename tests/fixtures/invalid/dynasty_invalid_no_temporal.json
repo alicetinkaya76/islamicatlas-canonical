@@ -1,0 +1,28 @@
+{
+  "@id": "iac:dynasty-00000003",
+  "@type": ["iac:Dynasty", "iac:Caliphate"],
+  "dynasty_subtype": "caliphate",
+  "labels": {
+    "prefLabel": {
+      "en": "Abbasid Caliphate",
+      "ar": "الخلافة العباسية"
+    }
+  },
+  "bosworth_id": "NID-003",
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:3",
+        "source_type": "secondary_scholarly",
+        "extraction_method": "manual"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_dynasty",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-04-22T12:00:00Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-04-22T12:00:00Z"
+  }
+}

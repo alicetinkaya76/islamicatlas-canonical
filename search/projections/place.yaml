@@ -1,0 +1,69 @@
+# Search projection rule for: place
+#
+# Source: schemas/place.schema.json
+# Target: search/typesense_collection.schema.json (entity_type=place)
+# Read by: search/projector.py
+#
+# Each `mappings` entry defines how a Typesense field is populated from the canonical place record.
+# Special notations:
+#   $.<path>          : JSONPath into the canonical record
+#   @derived:<rule>   : computed by a named rule in projector.py (search/derivation_rules.py)
+#   @const:<value>    : literal constant
+#   @lookup:<...>     : resolve a PID reference by fetching the referenced canonical record's prefLabel
+
+entity_type: place
+projector_version: 0.1.0
+
+mappings:
+  id: $.["@id"]
+  entity_type: "@const:place"
+  subtypes: "@derived:subtypes_from_type_array"
+  prefLabel_en: $.labels.prefLabel.en
+  prefLabel_ar: $.labels.prefLabel.ar
+  prefLabel_tr: $.labels.prefLabel.tr
+  prefLabel_translit: "@derived:translit_ascii_fold(labels.prefLabel.ar-Latn-x-alalc, labels.prefLabel.en)"
+  altLabels: "@derived:flatten_altLabels"
+  description_en: $.labels.description.en
+  description_tr: $.labels.description.tr
+  description_ar: $.labels.description.ar
+
+  _geo: "@derived:geopoint(coords.lat, coords.lon)"
+
+  century_ce: "@derived:century_from_temporal(temporal_coverage.start_ce)"
+  century_ah: "@derived:century_from_temporal_ah(temporal_coverage.start_ah)"
+  start_year_ce: $.temporal_coverage.start_ce
+  end_year_ce: $.temporal_coverage.end_ce
+
+  iqlim: "@derived:iqlim_labels(falls_within_iqlim)"
+
+  source_layer: "@derived:source_layers_union(provenance.derived_from, derived_from_layers)"
+  language: "@derived:languages_from_labels"
+
+  has_coords: "@derived:bool_field_present(coords)"
+  has_wikidata: "@derived:bool_authority_present(authority_xref, 'wikidata')"
+  wikidata_qid: "@derived:authority_id(authority_xref, 'wikidata')"
+
+  place_subtype: $.place_subtype
+
+  related_pids: "@derived:union(located_in, falls_within_iqlim, had_capital_of, predecessor_place, successor_place)"
+  related_labels: "@lookup:prefLabels(located_in + falls_within_iqlim + had_capital_of)"
+
+  deprecated: "@derived:bool_default(provenance.deprecated, false)"
+  modified_at: "@derived:unix_timestamp(provenance.modified)"
+
+  _score: "@derived:score_place"
+
+# Place-specific score components (multiplicative bonuses on the base 1.0):
+score_components:
+  base: 1.0
+  has_wikidata_bonus: 0.3
+  has_coords_bonus: 0.2
+  is_capital_bonus: 0.5         # had_capital_of != []
+  manual_curation_bonus: 0.4    # provenance.derived_from contains source_type=manual_editorial
+  is_iqlim_bonus: 0.3           # great-region entities are anchor entities, get a small boost
+  deprecated_penalty: -100      # absolute, not multiplicative
+
+# Type-specific facets that should be unset for non-place entities.
+# (The projector emits null for absent fields; Typesense respects optional=true.)
+unset_for_other_types:
+  - place_subtype

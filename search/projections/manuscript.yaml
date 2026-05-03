@@ -1,0 +1,57 @@
+# Search projection rule for: manuscript
+# STATUS: forward-declared (P0.3 active).
+
+entity_type: manuscript
+projector_version: 0.1.0
+
+mappings:
+  id: $.["@id"]
+  entity_type: "@const:manuscript"
+  subtypes: "@derived:subtypes_from_type_array"
+  prefLabel_en: $.labels.prefLabel.en
+  prefLabel_ar: $.labels.prefLabel.ar
+  prefLabel_tr: $.labels.prefLabel.tr
+  prefLabel_translit: "@derived:translit_ascii_fold(labels.prefLabel.en, shelf_mark)"
+  altLabels: "@derived:flatten_altLabels_plus_shelf_variants(shelf_mark)"
+  description_en: $.physical_description
+  description_tr: ~
+  description_ar: ~
+
+  _geo: "@lookup:place_coords(current_library)"
+
+  century_ce: "@derived:century_from_temporal(dating_temporal.start_ce)"
+  century_ah: "@derived:century_from_temporal_ah(dating_temporal.start_ah)"
+  start_year_ce: $.dating_temporal.start_ce
+  end_year_ce: $.dating_temporal.end_ce
+
+  iqlim: "@derived:iqlim_labels_via_place(current_library)"
+  source_layer: "@derived:source_layers_from_provenance(provenance.derived_from)"
+  language: $.language
+
+  has_coords: "@derived:bool_geo_resolved_manuscript(current_library)"
+  has_wikidata: "@derived:bool_authority_present(authority_xref, 'wikidata')"
+  wikidata_qid: "@derived:authority_id(authority_xref, 'wikidata')"
+
+  manuscript_library: "@lookup:prefLabel_en(current_library)"
+  manuscript_script: $.script
+
+  related_pids: "@derived:union(witnesses_work, current_library, scribe, patron, previous_owners)"
+  related_labels: "@lookup:prefLabels(witnesses_work + current_library + scribe)"
+
+  deprecated: "@derived:bool_default(provenance.deprecated, false)"
+  modified_at: "@derived:unix_timestamp(provenance.modified)"
+  _score: "@derived:score_manuscript"
+
+score_components:
+  base: 1.0
+  has_iiif_bonus: 0.5
+  has_digitization_url_bonus: 0.3
+  has_dated_colophon_bonus: 0.2  # dating_temporal.approximation == "exact"
+  has_wikidata_bonus: 0.3
+  major_library_bonus: 0.2       # Süleymaniye, BnF, BL, TSMK, Topkapı, Berlin SBB, Vatican BAV
+  manual_curation_bonus: 0.4
+  deprecated_penalty: -100
+
+unset_for_other_types:
+  - manuscript_library
+  - manuscript_script

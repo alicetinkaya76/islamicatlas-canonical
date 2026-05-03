@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/ui-contract/v0.1.0/entity_page.meta.schema.json",
+  "title": "Entity Page Recipe (Meta-Schema)",
+  "description": "Meta-schema for per-entity-type page recipes. Each entity_type has its own recipe file at ui_contract/entity_pages/<type>.json that conforms to THIS schema. The UI layer reads the recipe at render time and instantiates section components in declared order with declared config. See ADR-007 for design.",
+  "type": "object",
+  "required": ["entity_type", "sections"],
+  "additionalProperties": false,
+  "properties": {
+    "entity_type": {
+      "type": "string",
+      "enum": ["place", "dynasty", "person", "work", "manuscript", "event"]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "description": "Recipe semver. Bump when section order/config changes meaningfully."
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "order"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "header",
+              "quick_facts",
+              "map",
+              "timeline",
+              "relations",
+              "sources",
+              "cross_refs",
+              "authority_links",
+              "editorial",
+              "rulers_table",
+              "manuscript_witnesses",
+              "isnad_chain",
+              "casualties_panel"
+            ],
+            "description": "Section component identifier. Closed enum for v0.1.0; extends with controlled deprecation cycle."
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 99,
+            "description": "Render order. Sections sorted ascending by this value."
+          },
+          "config": {
+            "type": "object",
+            "description": "Free-form section config. Component is responsible for validating its own config; this schema does not constrain.",
+            "additionalProperties": true
+          },
+          "render_only_if_present": {
+            "type": "boolean",
+            "default": false,
+            "description": "If true, section is omitted when its underlying data field is empty/absent."
+          },
+          "responsive": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "mobile": { "type": "string", "enum": ["show", "hide", "collapse"] },
+              "tablet": { "type": "string", "enum": ["show", "hide", "collapse"] },
+              "desktop": { "type": "string", "enum": ["show", "hide", "collapse"] }
+            },
+            "description": "Per-breakpoint visibility override."
+          }
+        }
+      }
+    },
+    "default_lang_fallback": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Language fallback chain for label rendering when current UI lang label is absent. Default ['tr', 'en', 'ar', 'translit']."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+# Adapter registry — single source of truth for all enabled adapters.
+# Read by pipelines/run_all_adapters.py, which orchestrates extract + canonicalize.
+# Adding a new adapter: copy pipelines/adapters/_template/, edit manifest.yaml,
+# and add a line below.
+
+version: 0.1.0
+
+adapters:
+  # Phase 0 (Hafta 2): Bosworth pilot. Seeds the dynasty namespace.
+  - adapter_id: bosworth
+    enabled: true                 # Hafta 2 ETL pilot — 186 NIDs in one CSV-driven pass
+    priority: 100
+    config:
+      strict_mode: true
+      reconciliation_threshold: 0.85
+      namespace: dynasty
+      pipeline_name: canonicalize_dynasty
+
+  # Phase 0 (Hafta 3-4): Yâqūt pilot. Seeds the place namespace.
+  - adapter_id: yaqut
+    enabled: false                # not yet implemented
+    priority: 200
+    config:
+      strict_mode: true
+      reconciliation_threshold: 0.85
+      namespace: place
+      pipeline_name: canonicalize_place_yaqut
+
+  # Phase 0 (Hafta 4): Le Strange. Augments place records with administrative-region context.
+  - adapter_id: le-strange
+    enabled: false
+    priority: 210
+    config:
+      strict_mode: true
+      mode: merge_into_existing_places
+      namespace: place
+      pipeline_name: canonicalize_place_le_strange
+
+  # Phase 0.2 (Hafta 9+): Science Layer migration. Seeds the person namespace from existing data.
+  - adapter_id: science-layer
+    enabled: false
+    priority: 300
+    config:
+      namespace: person
+      pipeline_name: canonicalize_person_science_layer
+
+  # Phase 0.2 (Hafta 12+): Bosworth rulers fix-up. Promotes inline rulers to person PIDs.
+  - adapter_id: bosworth-rulers-fixup
+    enabled: false
+    priority: 310
+    config:
+      namespace: person
+      pipeline_name: canonicalize_person_from_bosworth_rulers
+      depends_on: [bosworth]
+
+  # Phase 0.2: OpenITI work seed.
+  - adapter_id: openiti
+    enabled: false
+    priority: 320
+    config:
+      namespace: work
+      pipeline_name: canonicalize_work_openiti
+
+# Reserved for future adapters (forward-declared for planning):
+#   - ibn-khaldun-muqaddima
+#   - kashf-al-zunun
+#   - suleymaniye-htr
+#   - kadi-sicilleri-ottoman-htr
+#   - salibiyyat-events
+#   - evliya-celebi-voyages
+#   - ibn-battuta-rihla
+#   - makdisi-ahsan-al-taqasim
+#   - konya-city-atlas
+#   - darp-islam-mints
