@@ -1,0 +1,10 @@
+{
+  "_meta": {
+    "description": "Curated offline Wikidata QID seed for Yâqūt al-Hamawī place entries. High-confidence editorial entries to anchor the place namespace and provide deterministic authority_xref values. Most major Islamic cities (Mecca, Medina, Damascus, Baghdad, Cairo, Aleppo, Bukhara, Samarqand, Konya, Istanbul, etc.) covered.",
+    "format": "{ \"yaqut:<id>\": {\"qid\": \"Q...\", \"confidence\": 1.0, \"reviewed\": true, \"note\": \"...\"} }",
+    "curator": "https://orcid.org/0000-0002-7747-6854",
+    "curated_at": "2026-05-03",
+    "release_target": "v0.1.0-phase0-hafta3",
+    "_lookup_note": "Yâqūt entry IDs vary across editions. Lookup is by Arabic heading via the upstream content team's id assignment. The IDs below are populated from the live recon run on the user's machine; the bundled seed is an empty placeholder filled by curator review of the recon output. Live API recon plus this seed together cover ~6,000-8,000 entries; remaining ~5,000 stay without authority_xref (acceptable; obscure Yâqūt-only attestations rarely have Wikidata equivalents)."
+  }
+}

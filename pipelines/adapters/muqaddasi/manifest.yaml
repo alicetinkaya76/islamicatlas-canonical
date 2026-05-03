@@ -1,0 +1,67 @@
+# al-Muqaddasī — Aḥsan al-Taqāsīm fī Maʿrifat al-Aqālīm (d. 390/1000)
+# The earliest comprehensive Islamic geographical work that survives intact.
+# Predates Yâqūt by ~240 years; provides independent attestation for many
+# settlements and the canonical 14-iqlim regional schema.
+#
+# Hafta 3 of Phase 0 — augments the place namespace seeded by Yâqūt with:
+#   - 21 iqlim records (iac:Iqlim subtype, never seeded before this)
+#   - 2,049 settlement records (mostly merging into existing Yâqūt PIDs via
+#     the muqaddasi_xref.json yaqut_id mapping)
+#   - 1,427 route records (DEFERRED to Hafta 5 event/transport namespace)
+
+adapter_id: "muqaddasi"
+display_name: "al-Muqaddasī — Aḥsan al-Taqāsīm fī Maʿrifat al-Aqālīm"
+adapter_version: 0.1.0
+
+source_kind: primary_textual
+languages: [ar, tr, en]
+license: "Public-domain text (d. 1000 CE; classical Arabic original); CC-BY-SA 4.0 for the upstream content team's TR/EN translations and iqlim schema reconstruction."
+
+target_namespaces: [place]
+
+target_phase_min: P0
+target_phase_max: ~
+
+extraction_method: structured_json
+
+input_paths:
+  - data/sources/muqaddasi/muqaddasi_atlas_layer.json
+  - data/sources/muqaddasi/muqaddasi_xref.json
+output_paths:
+  - data/canonical/place/
+
+provenance_template:
+  source_id_pattern: "muqaddasi:{id}"
+  page_or_locator_pattern: "al-Muqaddasī, Aḥsan al-Taqāsīm, line {line} ({type})"
+  edition_or_version: "M. J. de Goeje (ed.), BGA III (Leiden, 1906); upstream content team's pipeline ETL with thurayya + yaqut cross-validation."
+
+reconciliation:
+  enabled: true
+  authorities: [wikidata]
+  threshold_auto_accept: 0.85
+  threshold_review: 0.70
+  cache_path: data/cache/wikidata_reconcile.sqlite
+  seed_path: pipelines/adapters/muqaddasi/seed/wikidata_qid_seed.json
+  type_qid: "Q486972"   # human settlement (iqlims fall under Q1620908 region; the API matches both)
+  mode: auto
+
+  # 2,049 places are mostly major settlements — high recon yield expected.
+  # All 21 iqlims are major regions (Andalus, al-Iraq, al-Sham, etc.) which
+  # have well-known QIDs (Q11456, Q1112444, Q190834...).
+  recon_filter:
+    require_one_of: []  # reconcile all places + iqlims
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]
+
+# Resolver merge logic: Muqaddasi places with yaqut_id cross-reference
+# (from muqaddasi_xref.json) attempt to merge into the existing Yâqūt PID.
+# Same place gets a single canonical record carrying both source layers.
+relations_semantics:
+  cross_source_id_field: "yaqut_id"
+  cross_source_curie_pattern: "yaqut:{yaqut_id}"
+
+sidecar_pending:
+  yaqut_xref: data/_state/muqaddasi_yaqut_xref_pending.json
+
+projection_overrides: ~

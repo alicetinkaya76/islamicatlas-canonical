@@ -1,0 +1,51 @@
+# Le Strange — The Lands of the Eastern Caliphate (1905)
+# Modern orientalist gazetteer; 434 records covering Iraq, Persia, Central Asia.
+# Two-mode operation:
+#   - Records with yaqut_id cross-reference (274/434) augment existing Yâqūt PIDs
+#     via a sidecar consumed by pass-2 integrity backfill.
+#   - Records without yaqut cross-reference (160/434) become new place records.
+
+adapter_id: "le-strange"
+display_name: "G. Le Strange — The Lands of the Eastern Caliphate (1905)"
+adapter_version: 0.1.0
+
+source_kind: secondary_scholarly
+languages: [en, ar, tr]
+license: "Public-domain (Le Strange's text); CC-BY-SA 4.0 for upstream content team's TR + cross-reference enrichment."
+
+target_namespaces: [place]
+
+target_phase_min: P0
+target_phase_max: ~
+
+extraction_method: structured_json
+
+input_paths:
+  - data/sources/le-strange/le_strange_eastern_caliphate.json
+  - data/sources/le-strange/le_strange_xref.json
+output_paths:
+  - data/canonical/place/
+
+provenance_template:
+  source_id_pattern: "le-strange:{id}"
+  page_or_locator_pattern: "Le Strange, Lands of the Eastern Caliphate, p. {page_range}, ch. {chapter}"
+  edition_or_version: "Cambridge: Cambridge University Press, 1905; reprint Frank Cass 1966."
+
+reconciliation:
+  enabled: true
+  authorities: [wikidata]
+  threshold_auto_accept: 0.85
+  threshold_review: 0.70
+  cache_path: data/cache/wikidata_reconcile.sqlite
+  seed_path: pipelines/adapters/le_strange/seed/wikidata_qid_seed.json
+  type_qid: "Q486972"
+  mode: auto
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]
+
+# Sidecar for pass-2 augmentation of existing Yâqūt PIDs.
+sidecar_pending:
+  yaqut_xref: data/_state/le_strange_yaqut_augment_pending.json
+
+projection_overrides: ~

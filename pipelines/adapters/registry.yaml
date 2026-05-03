@@ -16,9 +16,9 @@ adapters:
       namespace: dynasty
       pipeline_name: canonicalize_dynasty
 
-  # Phase 0 (Hafta 3-4): Yâqūt pilot. Seeds the place namespace.
+  # Phase 0 (Hafta 3): Yâqūt pilot. Seeds the place namespace (~12,954 entries).
   - adapter_id: yaqut
-    enabled: false                # not yet implemented
+    enabled: true                 # Hafta 3 — Yâqūt al-Hamawī Muʿjam al-Buldān
     priority: 200
     config:
       strict_mode: true
@@ -26,15 +26,27 @@ adapters:
       namespace: place
       pipeline_name: canonicalize_place_yaqut
 
-  # Phase 0 (Hafta 4): Le Strange. Augments place records with administrative-region context.
+  # Phase 0 (Hafta 3): Muqaddasī Aḥsan al-Taqāsīm. Adds 21 iqlims, 2049 places, 1427 routes.
+  - adapter_id: muqaddasi
+    enabled: true                 # Hafta 3 — al-Muqaddasī (d. 390/1000)
+    priority: 205
+    config:
+      strict_mode: true
+      reconciliation_threshold: 0.85
+      namespace: place
+      pipeline_name: canonicalize_place_muqaddasi
+      depends_on: [yaqut]         # Muqaddasī xref resolves into existing Yâqūt PIDs
+
+  # Phase 0 (Hafta 3): Le Strange. Augments places with administrative-region context.
   - adapter_id: le-strange
-    enabled: false
+    enabled: true                 # Hafta 3 — Le Strange Lands of the Eastern Caliphate
     priority: 210
     config:
       strict_mode: true
       mode: merge_into_existing_places
       namespace: place
       pipeline_name: canonicalize_place_le_strange
+      depends_on: [yaqut]
 
   # Phase 0.2 (Hafta 9+): Science Layer migration. Seeds the person namespace from existing data.
   - adapter_id: science-layer

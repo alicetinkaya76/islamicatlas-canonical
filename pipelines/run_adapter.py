@@ -66,7 +66,13 @@ def main() -> int:
         return 2
     strict = args.strict or not args.lenient  # default: strict
 
-    adapter_dir = REPO_ROOT / "pipelines" / "adapters" / args.adapter_id
+    # Folder name is Python-package-friendly (underscore); adapter_id may use
+    # hyphen for human-readability. Try both.
+    candidate_dirs = [
+        REPO_ROOT / "pipelines" / "adapters" / args.adapter_id,
+        REPO_ROOT / "pipelines" / "adapters" / args.adapter_id.replace("-", "_"),
+    ]
+    adapter_dir = next((d for d in candidate_dirs if d.exists()), candidate_dirs[0])
     manifest_path = adapter_dir / "manifest.yaml"
     if not manifest_path.exists():
         print(f"ERROR: manifest.yaml not found for adapter {args.adapter_id!r} at {manifest_path}",
@@ -127,7 +133,7 @@ def main() -> int:
             return 2
 
     # ---- Dynamically import adapter modules ---------------------------
-    adapter_pkg = f"pipelines.adapters.{args.adapter_id}"
+    adapter_pkg = f"pipelines.adapters.{adapter_dir.name}"
     extract_mod = importlib.import_module(f"{adapter_pkg}.extract")
     canonicalize_mod = importlib.import_module(f"{adapter_pkg}.canonicalize")
 
@@ -157,13 +163,13 @@ def main() -> int:
     if not args.dry_run:
         out_dir.mkdir(parents=True, exist_ok=True)
 
-    # ---- Sidecar (capital + territory pending) ------------------------
-    sidecar_pending: dict | None = None
-    sidecar_path: Path | None = None
+    # ---- Sidecar handling (per-adapter pending data) -------------------
+    sidecar_data: dict[str, dict] = {}   # key = sidecar name, value = dict to fill
+    sidecar_paths: dict[str, Path] = {}  # key = sidecar name, value = output path
     sidecar_cfg = manifest.get("sidecar_pending") or {}
-    if "capital" in sidecar_cfg:
-        sidecar_path = REPO_ROOT / sidecar_cfg["capital"]
-        sidecar_pending = {}
+    for name, rel_path in sidecar_cfg.items():
+        sidecar_paths[name] = REPO_ROOT / rel_path
+        sidecar_data[name] = {}
 
     # ---- Canonicalize ------------------------------------------------
     options = {
@@ -172,7 +178,15 @@ def main() -> int:
         "pipeline_name": registry_config.get("pipeline_name", f"canonicalize_{namespace}"),
         "pipeline_version": "v0.1.0",
         "reconciliation_type_qid": recon_cfg.get("type_qid"),
-        "capital_sidecar": sidecar_pending,
+        # Backward-compat: legacy 'capital_sidecar' single key
+        "capital_sidecar": sidecar_data.get("capital"),
+        # New: per-name sidecar dicts addressable by adapters
+        "parent_sidecar": sidecar_data.get("parent"),
+        "persons_sidecar": sidecar_data.get("persons"),
+        "events_sidecar": sidecar_data.get("events"),
+        "yaqut_xref_sidecar": sidecar_data.get("yaqut_xref"),
+        # Pass-through manifest options
+        "recon_filter": recon_cfg.get("recon_filter") or {},
     }
 
     print(f"=== run_adapter: id={args.adapter_id} ns={namespace} mode={recon_mode} strict={strict}")
@@ -220,17 +234,17 @@ def main() -> int:
 
         if not args.dry_run:
             out_path = out_dir / filename_for_pid(pid)
-            # Preserve fields that are populated by the integrity pass
-            # (predecessor/successor for cross-record edges, plus any
-            # had_capital/territory entries that may be backfilled in
-            # later phases). Re-running the adapter alone should not wipe
-            # those out — the standard pipeline is run_adapter → integrity,
-            # so a partial re-run for debugging keeps the integrity state.
+            # Preserve integrity-pass fields on overwrite (predecessor/successor,
+            # had_capital, territory, located_in — these come from second-pass
+            # backfills and shouldn't be wiped by a partial re-run).
             if out_path.exists():
                 try:
                     with out_path.open(encoding="utf-8") as fh:
                         prior = json.load(fh)
-                    for k in ("predecessor", "successor", "had_capital", "territory"):
+                    for k in (
+                        "predecessor", "successor", "had_capital", "territory",
+                        "located_in", "had_capital_of", "falls_within_iqlim",
+                    ):
                         if prior.get(k) and not record.get(k):
                             record[k] = prior[k]
                 except (OSError, json.JSONDecodeError):
@@ -241,17 +255,23 @@ def main() -> int:
             )
         n_written += 1
 
-    # ---- Persist sidecar ---------------------------------------------
-    if sidecar_pending is not None and sidecar_path is not None and not args.dry_run:
-        sidecar_path.parent.mkdir(parents=True, exist_ok=True)
-        sidecar_path.write_text(
-            json.dumps(sidecar_pending, ensure_ascii=False, indent=2, sort_keys=True),
-            encoding="utf-8",
-        )
-        print(
-            f"\nSidecar written: {sidecar_path.relative_to(REPO_ROOT)} "
-            f"({len(sidecar_pending)} entries)"
-        )
+    # ---- Persist sidecars --------------------------------------------
+    if not args.dry_run:
+        for name, payload in sidecar_data.items():
+            if not payload:
+                continue
+            spath = sidecar_paths.get(name)
+            if not spath:
+                continue
+            spath.parent.mkdir(parents=True, exist_ok=True)
+            spath.write_text(
+                json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True),
+                encoding="utf-8",
+            )
+            print(
+                f"\nSidecar written: {spath.relative_to(REPO_ROOT)} "
+                f"({len(payload)} entries) [{name}]"
+            )
 
     # ---- Summary -----------------------------------------------------
     elapsed = time.time() - t0

@@ -1,13 +1,38 @@
+# Canonical store and runtime state — regenerable from source data
 data/canonical/
 data/_state/
 data/_index/
 data/cache/
-data/review_queue/
-*.bak
-*.bak2
+
+# Large source datasets that exceed reasonable git tracking thresholds
+# (deferred to git-lfs migration in Phase 0.5+)
+data/sources/dia/dia_chunks.json
+data/sources/**/dia_chunks.json
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
 .DS_Store
 ._*
+.AppleDouble
+
+# Build artefacts
+*.bak
+*.bak[0-9]
+*.tmp
+build/
+dist/
+
+# Logs
 *.log
-/tmp/

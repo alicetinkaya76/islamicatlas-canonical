@@ -156,7 +156,7 @@ def main() -> int:
             n_with_xref += 1
     coverage_pct = (n_with_xref / len(files) * 100) if files else 0
     if args.recon_mode == "live":
-        threshold = 35.0
+        threshold = 70.0
         if coverage_pct < threshold:
             failures.append(
                 f"(E) live mode: only {coverage_pct:.1f}% reconciled "

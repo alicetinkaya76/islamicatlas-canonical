@@ -162,7 +162,56 @@ These battles + events are P0.3 active (forward-declared in current schemas). In
 
 | File | Size | Why excluded |
 |------|------|--------------|
-| `dia_chunks.json` | 73 MB | Full-text content of every DİA entry. Useful for P0.2 deep content (search snippet generation, NER), but too large to keep in canonical repo. Load on demand into a separate `data/cache/dia_full/` directory at P0.2 onset. |
+| `dia_chunks.json` | 73 MB | Full-text content of every DİA entry. Useful for P0.2 deep content (search snippet generation, NER), but too large to keep in canonical repo. Load on demand into a separate `data/cache/dia_full/` directory at P0.2 onset. **Status as of Hafta 3:** still excluded; held locally on Mac at `data/sources/dia/dia_chunks.json` (gitignored). Hafta 4 person-namespace adapter consumes this file at ingest time — canonical store records (which ARE gitignored) carry the relevant chunk references; the raw chunks file itself stays out of the repo until Phase 0.5 git-lfs migration. |
+
+---
+
+## Hafta 3 additions (Yâqūt + Muqaddasī expansion)
+
+### `yaqut/` — Muʿjam al-Buldān, 12,954 entries (Hafta 3)
+
+The classical Islamic gazetteer; primary seed for the `iac:place-*` namespace.
+
+| File | Size | Purpose |
+|------|------|---------|
+| `yaqut_lite.json` | 6.5 MB | Compact format, 18 fields per entry, flat lat/lon + geo_confidence (5-level enum: exact / approximate / inferred / region / country). Coverage: 12,954/12,954 names + descriptions, 11,471/12,954 with coords. |
+| `yaqut_detail.json` | 11 MB | Per-id full Arabic text + parent_locations array. Joined to lite by integer id. |
+| `yaqut_crossref.json` | 1.5 MB | 606 places with person crossrefs (8,692 person attestations from El-Aʿlām). Sidecar for Hafta 4 person-namespace linkage. |
+| `yaqut_entries.json` | 32 MB | (OPTIONAL — on user's Mac at `project/data/yaqut/`, not committed) Richer 37-field format with curated coords, etymology, alternate_names. The yaqut adapter auto-detects this file as a sibling of yaqut_lite; when present, it merges richer-format provenance with lite's wider coord coverage. |
+| `yaqut_alam_crossref_enriched.json` | (variable) | (OPTIONAL) Enriched person-place crossref with TR + DİA URL + coords for 13,940 persons. Hafta 4 prep. |
+| `yaqut_place_graph.json` | (variable) | (OPTIONAL) Pre-computed parent/neighbor adjacency for 2,523 nodes. Hafta 3 doesn't directly use this — adapter walks parent_locations from the detail file — but it's a useful cross-check. |
+| `yaqut_translations.json` | (variable) | (OPTIONAL) Translation-pipeline metadata, not directly used. |
+
+**Adapter:** `pipelines/adapters/yaqut/`. **Output:** 12,954 canonical place records.
+
+### `muqaddasi/` — Aḥsan al-Taqāsīm, 21 iqlims + 2,049 places + 1,427 routes (Hafta 3)
+
+The earliest comprehensive Islamic geographical work that survives intact (al-Muqaddasī, d. 390/1000), predating Yâqūt by ~240 years. Provides independent attestation and the canonical 14-iqlim regional schema.
+
+| File | Size | Purpose |
+|------|------|---------|
+| `muqaddasi_atlas_layer.json` | 1.8 MB | Top-level: 21 `aqualim` (iqlim) records + nested children, 2,049 flat `places` records (all with coords + TR/EN/AR names + certainty enum), 1,427 `routes` records (transport edges, **deferred to Hafta 5+ event/transport namespace**). |
+| `muqaddasi_xref.json` | 0.2 MB | 245 muq-id → yaqut_id cross-references. Drives the Muqaddasī ↔ Yâqūt bidirectional attestation pass in `pipelines/integrity/place_integrity.py`. |
+
+**Adapter:** `pipelines/adapters/muqaddasi/`. **Output:** 2,070 canonical records (21 iqlim + 2,049 settlements). Routes deferred.
+
+### `le-strange/` — Updated to v2 (Hafta 3)
+
+Same files as Hafta 2 baseline, but the adapter is now operational:
+- 274/434 entries are augmentations of existing Yâqūt PIDs (sidecar consumed by `place_integrity.py`).
+- 160/434 entries are new place records (rivers, smaller fortresses, Le Strange-only attestations).
+
+---
+
+## Cross-source merge logic (Hafta 3 invariant)
+
+When the same medieval place is attested by multiple sources (e.g., Aleppo / Halab is in Yâqūt's gazetteer, Muqaddasī's iqlim al-Shām, and Le Strange's Eastern Caliphate chapter), Phase 0 keeps **one canonical PID per source** (no PID renaming — PIDs are immutable). Cross-attestation is recorded via:
+
+- `derived_from_layers[]`: union of `["yaqut", "makdisi", "le-strange"]`
+- `provenance.derived_from[]`: append-only entries from each source
+- `note`: bidirectional cross-reference text ("Same place is canonicalized at iac:place-NNNN under Muqaddasī's id=...")
+
+A future Phase 0.5 ResolverV2 pass will consolidate same-as chains into single PIDs once the authority_xref Wikidata QIDs are resolved across all three layers.
 
 ---
 

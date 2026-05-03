@@ -1,0 +1,80 @@
+# Yâqūt al-Hamawī — Muʿjam al-Buldān (d. 626/1229)
+# The classical Islamic gazetteer; ~12,000 place entries spanning Iberia → India.
+#
+# Hafta 3 of Phase 0 — primary seeding adapter for iac:place-* namespace.
+# Two-format ingest:
+#   - yaqut_lite.json    (kompakt, 18 fields, geo_confidence stratified, 11,471 coords)
+#   - yaqut_detail.json  (full Arabic text + parent_locations per id)
+#   - yaqut_crossref.json (606 places ↔ 8,692 person crossrefs)
+# When the richer yaqut_entries.json (37 fields) is also present, the adapter
+# auto-merges — preferring the rich format's field semantics, augmenting from
+# kompakt's wider coord coverage.
+
+adapter_id: "yaqut"
+display_name: "Yâqūt al-Hamawī — Muʿjam al-Buldān"
+adapter_version: 0.1.0
+
+source_kind: primary_classical_gazetteer
+languages: [ar, tr, en]
+license: "Public-domain text (d. 1229 CE; classical Arabic original); CC-BY-SA 4.0 for the upstream content team's TR/EN translations and cross-reference enrichment."
+
+target_namespaces: [place]
+
+target_phase_min: P0
+target_phase_max: ~
+
+extraction_method: structured_json
+
+input_paths:
+  - data/sources/yaqut/yaqut_lite.json
+  - data/sources/yaqut/yaqut_detail.json
+  - data/sources/yaqut/yaqut_crossref.json
+output_paths:
+  - data/canonical/place/
+
+provenance_template:
+  source_id_pattern: "yaqut:{id}"
+  page_or_locator_pattern: "Yâqūt, Muʿjam al-Buldān, entry id={id}"
+  edition_or_version: "Beirut: Dār Sādir, 1977 (5 vols, ed. F. Wüstenfeld base); cross-referenced with the upstream pipeline ETL output."
+
+reconciliation:
+  enabled: true
+  authorities: [wikidata]
+  threshold_auto_accept: 0.85
+  threshold_review: 0.70
+  cache_path: data/cache/wikidata_reconcile.sqlite
+  seed_path: pipelines/adapters/yaqut/seed/wikidata_qid_seed.json
+  type_qid: "Q486972"   # human settlement (subclass-matching reconciler also catches city, town)
+  mode: auto
+
+  # 12,954 entries × ~1.7s/query = 6 hours of live recon. To stay within
+  # session bounds we reconcile a TARGETED subset (entries with coordinates
+  # OR DİA cross-reference OR alam_crossref). The rest are canonicalized
+  # without authority_xref (Wikidata coverage for obscure villages is poor).
+  recon_filter:
+    require_one_of: [has_coords, has_dia_url, has_alam_crossref]
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]
+
+# Two-pass design: parent_locations from yaqut_detail.json drives
+# located_in[] PID resolution in pipelines/integrity/check_all.py
+# (same selef-edge resolution pattern as Bosworth dynasty_relations).
+relations_semantics:
+  parent_relation_field: "parent_locations"  # in yaqut_detail.json
+
+# Capital backfill consumes data/_state/bosworth_capital_pending.json:
+# 186 dynasty capital_name values are fuzzy-matched against Yâqūt place
+# labels (heading_tr, heading_en, alternate_names) to populate
+# dynasty.had_capital[].
+capital_backfill:
+  source: data/_state/bosworth_capital_pending.json
+  match_against: [prefLabel.tr, prefLabel.en, prefLabel.ar, altLabel.*]
+
+# Sidecars persisted at end-of-run for use by integrity/check_all.py
+# and Hafta 4 person-namespace adapter.
+sidecar_pending:
+  parent: data/_state/yaqut_parent_pending.json
+  persons: data/_state/yaqut_persons_pending.json
+
+projection_overrides: ~
