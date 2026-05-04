@@ -48,27 +48,57 @@ adapters:
       pipeline_name: canonicalize_place_le_strange
       depends_on: [yaqut]
 
-  # Phase 0.2 (Hafta 9+): Science Layer migration. Seeds the person namespace from existing data.
+  # Phase 0 (Hafta 4): Science Layer migration. Seeds the person namespace from
+  # 182 curated scholar entries with full trilingual names + dates + xref to alam/yaqut.
   - adapter_id: science-layer
-    enabled: false
+    enabled: true
     priority: 300
     config:
+      strict_mode: true
+      reconciliation_threshold: 0.85
       namespace: person
       pipeline_name: canonicalize_person_science_layer
 
-  # Phase 0.2 (Hafta 12+): Bosworth rulers fix-up. Promotes inline rulers to person PIDs.
+  # Phase 0 (Hafta 4): Bosworth rulers fix-up. Promotes inline rulers to person PIDs.
   - adapter_id: bosworth-rulers-fixup
-    enabled: false
-    priority: 310
+    enabled: true
+    priority: 305
     config:
+      strict_mode: true
+      reconciliation_threshold: 0.85
       namespace: person
       pipeline_name: canonicalize_person_from_bosworth_rulers
       depends_on: [bosworth]
 
+  # Phase 0 (Hafta 4): DİA biographies. Primary mass-seed of person namespace.
+  # ~7,300 distinct persons from 19,742 chunks across 8,093 slugs.
+  - adapter_id: dia
+    enabled: true
+    priority: 310
+    config:
+      strict_mode: true
+      reconciliation_threshold: 0.85
+      namespace: person
+      pipeline_name: canonicalize_person_dia
+      depends_on: [science-layer, bosworth-rulers-fixup]
+
+  # Phase 0 (Hafta 4): El-Aʿlām (Ziriklī). Two-track: augment DİA-known persons,
+  # mint new for the rest (~12,500 net new).
+  - adapter_id: el-alam
+    enabled: true
+    priority: 320
+    config:
+      strict_mode: true
+      mode: two_track_augment_or_mint
+      reconciliation_threshold: 0.85
+      namespace: person
+      pipeline_name: canonicalize_person_el_alam
+      depends_on: [dia]
+
   # Phase 0.2: OpenITI work seed.
   - adapter_id: openiti
     enabled: false
-    priority: 320
+    priority: 400
     config:
       namespace: work
       pipeline_name: canonicalize_work_openiti

@@ -180,11 +180,16 @@ def main() -> int:
         "reconciliation_type_qid": recon_cfg.get("type_qid"),
         # Backward-compat: legacy 'capital_sidecar' single key
         "capital_sidecar": sidecar_data.get("capital"),
-        # New: per-name sidecar dicts addressable by adapters
+        # New (Hafta 3): per-name sidecar dicts addressable by adapters
         "parent_sidecar": sidecar_data.get("parent"),
         "persons_sidecar": sidecar_data.get("persons"),
         "events_sidecar": sidecar_data.get("events"),
         "yaqut_xref_sidecar": sidecar_data.get("yaqut_xref"),
+        # New (Hafta 4): generic sidecars dict so person-namespace adapters
+        # can address any sidecar by manifest name without requiring a code
+        # change to run_adapter.py. The named keys above remain for backward
+        # compatibility with Hafta 3 place adapters.
+        "sidecars": sidecar_data,
         # Pass-through manifest options
         "recon_filter": recon_cfg.get("recon_filter") or {},
     }

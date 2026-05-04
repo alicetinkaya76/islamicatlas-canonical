@@ -1,0 +1,29 @@
+adapter_id: bosworth-rulers-fixup
+description: |
+  Promotes the inline rulers[] arrays of Bosworth dynasties (Hafta 2 output)
+  into iac:person- namespace records, and back-fills had_ruler[] PID arrays
+  on the dynasty side. Per Y4.2 decision (Hafta 4): dual-write phase. The
+  inline rulers[] is left intact for UI continuity; rulers[i].person_pid
+  is added; had_ruler[] is filled. P0.2 cutover removes inline rulers[].
+
+target_namespaces:
+  - person
+
+input_paths:
+  - data/canonical/dynasty/
+
+reconciliation:
+  enabled: true
+  mode: offline
+  type_qid: Q5
+  cache_path: data/cache/wikidata_reconcile.sqlite
+  seed_path: data/sources/wikidata_reconcile_seed_persons.json
+  threshold_auto_accept: 0.85
+  threshold_review: 0.70
+  recon_filter:
+    # Tier-b inclusion: ALL Bosworth rulers go through recon (high-value)
+    always_include: true
+
+sidecar_pending:
+  bosworth_rulers_pending: data/_state/bosworth_rulers_pending.json
+  rulers_to_dynasty_xref: data/_state/rulers_to_dynasty_xref.json

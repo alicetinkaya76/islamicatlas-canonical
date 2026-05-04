@@ -1,0 +1,30 @@
+adapter_id: science-layer
+description: |
+  Curated 182 scholar entries from Selçuk University İslam Medeniyeti Akademisi
+  v7 source. Each scholar has full trilingual names (en/tr/ar), birth/death CE,
+  birth_place + active_places (with coordinates), fields, key_works, and
+  optional xref_alam / xref_yaqut hints. High-confidence Tier-1 seed for the
+  resolver; runs BEFORE DİA so that DİA lookups can match against existing
+  PIDs by name+death-year.
+
+target_namespaces:
+  - person
+
+input_paths:
+  - data/sources/science_layer.json
+
+reconciliation:
+  enabled: true
+  mode: offline       # CLI override possible
+  type_qid: Q5
+  cache_path: data/cache/wikidata_reconcile.sqlite
+  seed_path: data/sources/wikidata_reconcile_seed_persons.json
+  threshold_auto_accept: 0.85
+  threshold_review: 0.70
+  recon_filter:
+    always_include: true   # all 182 are high-value
+
+sidecar_pending:
+  science_layer_xref_alam: data/_state/science_layer_xref_alam.json
+  science_layer_xref_yaqut: data/_state/science_layer_xref_yaqut.json
+  science_layer_active_places_pending: data/_state/science_layer_active_places_pending.json

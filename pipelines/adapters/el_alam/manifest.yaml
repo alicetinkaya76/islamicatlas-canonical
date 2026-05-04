@@ -1,0 +1,44 @@
+adapter_id: el-alam
+description: |
+  El-Aʿlām (Khayr al-Dīn al-Ziriklī, 1893-1976) biographies. The 8th edition
+  (2002) covers ~14,000 figures from the Prophet's era through the 20th
+  century. This dataset (alam_lite.json: 13,940 entries) carries:
+    - heading_ar (h), heading_tr (ht), heading_en (he)
+    - description_tr (dt), description_en (de)
+    - death_hijri (hd), death_miladi (md)
+    - century_ce (c), gender (g), lat/lon (where applicable)
+
+  Two-track adapter (Le Strange pattern from Hafta 3):
+
+  Track A — AUGMENT: alam_id is in dia_to_alam_xref → no new PID;
+            sidecar entry telling person_integrity.py to add 'el-alam' to
+            derived_from_layers (via provenance.derived_from append) on
+            the existing DİA-derived person record.
+
+  Track B — MINT NEW: alam_id is not in dia_to_alam_xref → new iac:person-
+            PID; full canonicalization from alam_lite alone.
+
+target_namespaces:
+  - person
+
+input_paths:
+  - data/sources/alam_lite.json
+  - data/sources/dia_alam_xref.json
+  - data/sources/yaqut_alam_crossref_enriched.json
+
+reconciliation:
+  enabled: true
+  mode: offline
+  type_qid: Q5
+  cache_path: data/cache/wikidata_reconcile.sqlite
+  seed_path: data/sources/wikidata_reconcile_seed_persons.json
+  threshold_auto_accept: 0.85
+  threshold_review: 0.70
+  recon_filter:
+    # Tier-b: only Alam entries with DİA URL hint OR coordinates OR death_ce >= 1000
+    min_year_ce: 1000
+
+sidecar_pending:
+  el_alam_augment_pending: data/_state/el_alam_augment_pending.json
+  el_alam_persons_pending: data/_state/el_alam_persons_pending.json
+  el_alam_yaqut_xref_pending: data/_state/el_alam_yaqut_xref_pending.json

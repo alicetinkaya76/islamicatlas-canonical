@@ -4,7 +4,13 @@
   "title": "Canonical Dynasty",
   "description": "A canonical political dynasty / ruling house in the Islamic Atlas knowledge graph. Phase 0 (v0.1.0) covers five concrete subtypes: Caliphate (universal-claim caliphal dynasties: Rāshidūn, Umayyad, Abbasid, Fāṭimid Ismā'īlī, Andalusian Umayyad after 929, Almohad), Sultanate (Saljūq, Ayyūbid, Mamlūk, Ottoman, etc.), Emirate (sub-caliphal and sub-sultanic ruling families: Aghlabid, Sāmānid, Hamdānid), Imamate (Zaydī, Ibāḍī, Twelver-Imāmī claim-bearing dynasties; distinct from caliphates by doctrinal claim), and Beylik (Anatolian post-Saljūq emirates and analogous principalities). Every dynasty carries multilingual labels, a temporal range (start/end years required: a dynasty without dates is not a dynasty for our purposes), an optional Bosworth NID reference (the primary tertiary-reference anchor), an optional list of capitals, predecessor/successor pointers for political continuity chains, an optional rulers list (Phase 0: minimal name + reign period; full prosopography in P0.2), an authority cross-reference block, and provenance.",
   "type": "object",
-  "required": ["@id", "@type", "labels", "temporal", "provenance"],
+  "required": [
+    "@id",
+    "@type",
+    "labels",
+    "temporal",
+    "provenance"
+  ],
   "additionalProperties": false,
   "properties": {
     "@id": {
@@ -17,7 +23,9 @@
       "minItems": 1,
       "maxItems": 3,
       "uniqueItems": true,
-      "contains": { "const": "iac:Dynasty" },
+      "contains": {
+        "const": "iac:Dynasty"
+      },
       "items": {
         "type": "string",
         "enum": [
@@ -33,7 +41,13 @@
     },
     "dynasty_subtype": {
       "type": "string",
-      "enum": ["caliphate", "sultanate", "emirate", "imamate", "beylik"],
+      "enum": [
+        "caliphate",
+        "sultanate",
+        "emirate",
+        "imamate",
+        "beylik"
+      ],
       "description": "Discriminator field that mirrors the @type subtype, lower-cased and singular for ergonomic filtering. Optional but recommended. MUST be coherent with @type when present: dynasty_subtype='sultanate' iff '@type' contains 'iac:Sultanate'."
     },
     "labels": {
@@ -72,7 +86,9 @@
       "uniqueItems": true,
       "items": {
         "type": "object",
-        "required": ["place"],
+        "required": [
+          "place"
+        ],
         "additionalProperties": false,
         "properties": {
           "place": {
@@ -116,7 +132,9 @@
       "uniqueItems": false,
       "items": {
         "type": "object",
-        "required": ["name"],
+        "required": [
+          "name"
+        ],
         "additionalProperties": false,
         "properties": {
           "name": {
@@ -164,7 +182,7 @@
           "person_pid": {
             "type": "string",
             "pattern": "^iac:person-[0-9]{8}$",
-            "description": "Forward-declared: PID reference to an iac:person- record, once the person namespace is live (Phase 0.2). In Phase 0 this field is unused; consumers MUST treat absence as 'not yet linked'."
+            "description": "Optional PID reference to the iac:person- record canonicalizing this ruler. Populated by bosworth-rulers-fixup (Hafta 4). Bidirectional invariant: rulers[i].person_pid == had_ruler[i] for all i."
           },
           "note": {
             "type": "string",
@@ -188,61 +206,120 @@
       "type": "string",
       "maxLength": 5000,
       "description": "Free-text editorial note. Kept short; longer commentary belongs in labels.description.<lang> as a properly-tagged multilingual paragraph."
+    },
+    "had_ruler": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^iac:person-[0-9]{8}$"
+      },
+      "description": "PID references to iac:person- records of all rulers, in chronological order matching the inline rulers[] array. Populated by the bosworth-rulers-fixup adapter (Hafta 4) once the person namespace is seeded. P0.2 cutover: when had_ruler[] is fully populated for all 186 dynasties, the inline rulers[] field will be removed (migration script: pipelines/integrity/migrate_rulers_to_pids.py)."
     }
   },
   "allOf": [
     {
       "if": {
-        "properties": { "dynasty_subtype": { "const": "caliphate" } },
-        "required": ["dynasty_subtype"]
+        "properties": {
+          "dynasty_subtype": {
+            "const": "caliphate"
+          }
+        },
+        "required": [
+          "dynasty_subtype"
+        ]
       },
       "then": {
         "properties": {
-          "@type": { "contains": { "const": "iac:Caliphate" } }
+          "@type": {
+            "contains": {
+              "const": "iac:Caliphate"
+            }
+          }
         }
       }
     },
     {
       "if": {
-        "properties": { "dynasty_subtype": { "const": "sultanate" } },
-        "required": ["dynasty_subtype"]
+        "properties": {
+          "dynasty_subtype": {
+            "const": "sultanate"
+          }
+        },
+        "required": [
+          "dynasty_subtype"
+        ]
       },
       "then": {
         "properties": {
-          "@type": { "contains": { "const": "iac:Sultanate" } }
+          "@type": {
+            "contains": {
+              "const": "iac:Sultanate"
+            }
+          }
         }
       }
     },
     {
       "if": {
-        "properties": { "dynasty_subtype": { "const": "emirate" } },
-        "required": ["dynasty_subtype"]
+        "properties": {
+          "dynasty_subtype": {
+            "const": "emirate"
+          }
+        },
+        "required": [
+          "dynasty_subtype"
+        ]
       },
       "then": {
         "properties": {
-          "@type": { "contains": { "const": "iac:Emirate" } }
+          "@type": {
+            "contains": {
+              "const": "iac:Emirate"
+            }
+          }
         }
       }
     },
     {
       "if": {
-        "properties": { "dynasty_subtype": { "const": "imamate" } },
-        "required": ["dynasty_subtype"]
+        "properties": {
+          "dynasty_subtype": {
+            "const": "imamate"
+          }
+        },
+        "required": [
+          "dynasty_subtype"
+        ]
       },
       "then": {
         "properties": {
-          "@type": { "contains": { "const": "iac:Imamate" } }
+          "@type": {
+            "contains": {
+              "const": "iac:Imamate"
+            }
+          }
         }
       }
     },
     {
       "if": {
-        "properties": { "dynasty_subtype": { "const": "beylik" } },
-        "required": ["dynasty_subtype"]
+        "properties": {
+          "dynasty_subtype": {
+            "const": "beylik"
+          }
+        },
+        "required": [
+          "dynasty_subtype"
+        ]
       },
       "then": {
         "properties": {
-          "@type": { "contains": { "const": "iac:Beylik" } }
+          "@type": {
+            "contains": {
+              "const": "iac:Beylik"
+            }
+          }
         }
       }
     }

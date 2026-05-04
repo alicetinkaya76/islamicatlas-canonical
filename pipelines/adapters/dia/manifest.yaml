@@ -1,0 +1,40 @@
+adapter_id: dia
+description: |
+  Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA) biographies. Primary bulk
+  seed for the iac:person- namespace. Combines two upstream files:
+    - dia_chunks.json (19,742 text chunks across 8,093 slugs; ~70 MB)
+    - dia_lite.json (8,528 enriched metadata records, slug-keyed)
+  The two are joined by slug (chunks.s == lite.id). Dia_alam_xref provides
+  a 1,280-entry bridge to El-Aʿlām (alam_id) used by the resolver Tier-1.
+
+  Filter: a slug is treated as a biography iff
+    (a) any of its chunks has a non-empty 'd' (death-paren), OR
+    (b) its lite entry has any of dh / dc / bp / fn / mz set.
+  Otherwise the slug is skipped (likely a place, concept, work title, or
+  disambiguation page).
+
+target_namespaces:
+  - person
+
+input_paths:
+  - data/sources/dia_chunks.json
+  - data/sources/dia_lite.json
+  - data/sources/dia_alam_xref.json
+
+reconciliation:
+  enabled: true
+  mode: offline
+  type_qid: Q5
+  cache_path: data/cache/wikidata_reconcile.sqlite
+  seed_path: data/sources/wikidata_reconcile_seed_persons.json
+  threshold_auto_accept: 0.85
+  threshold_review: 0.70
+  recon_filter:
+    # Tier-b hot-path: only DİA persons with chunk_count >= 5 (well-known)
+    # OR with explicit DİA→Alam xref get live recon. Others stay offline-only.
+    min_chunks_for_recon: 5
+
+sidecar_pending:
+  dia_persons_pending: data/_state/dia_persons_pending.json
+  dia_to_alam_xref: data/_state/dia_to_alam_xref.json
+  dia_birth_death_places_pending: data/_state/dia_birth_death_places_pending.json
