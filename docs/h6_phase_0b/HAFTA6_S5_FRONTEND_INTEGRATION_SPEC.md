@@ -140,6 +140,51 @@ Tier resolution kuralları:
 - **Tier 4**: placeholder mint (~2,262 author)
 - (**Tier 3** mevcut implementasyonda kullanılmıyor)
 
+### 2.4 — Wikidata QID display policy (H7 quality gate)
+
+**Bağlam.** `data/canonical/person/*.json` dosyalarındaki `authority_xref`
+listesinde 607 person record'unun Wikidata QID'i mevcut. Bu QID'lerin
+büyük bir kısmı H4 OpenRefine v3 reconciliation pipeline'ından gelmiş ve
+kalitesi denetlenmemiş. H7 Stage 1'de **doğrulanmış-yanlış 4 QID** flag'lendi
+(Khwarizmi → Aquinas, al-Qāsim → Hz. Muhammed, Badr → modern botanist,
+'Alī II → Shah Alam II). Geri kalan ~603 xref'in audit'i H8'e ertelendi.
+
+**Phase 0b kuralı (zorunlu).** Frontend Wikidata QID'lerini şu durumlarda
+**gizlemelidir**:
+
+```ts
+// Tüm authority_xref consumer kodu bu predikatı uygulamalı:
+function isWikidataXrefDisplayable(entry: AuthorityXref): boolean {
+  if (entry.authority !== "wikidata") return true; // bu kural sadece wikidata için
+  if (entry.confidence === undefined) return false;     // kalibre edilmemiş
+  if (entry.confidence < 0.85) return false;            // düşük güven
+  if (entry.note?.startsWith("h7_audit_confirmed_wrong_target:")) return false;
+  if (entry.reviewed === false && entry.method === "openrefine_v3") return false;
+  return true;
+}
+```
+
+**Sonuçları**:
+- `confidence == 0.0` + `note startswith "h7_audit_confirmed_wrong_target:"`
+  → **görünür Wikidata link YOK**, başka kalıntı UI da yok
+  (PersonCard "Wikidata'da incele" butonu render edilmez).
+- `confidence < 0.85` veya `reviewed: false` + OpenRefine kaynaklı entry'ler
+  → **görünür Wikidata link YOK** (Phase 0b'de). Phase 0c'de H8 audit
+  sonrası `confidence ≥ 0.85` ve `reviewed: true` olanlar açılır.
+- `method == "manual"` ve `reviewed: true` ve `confidence ≥ 0.85` olanlar
+  → görünür (şu an person store'da bu profile uyan ~28 record var,
+  Rashidun caliphs gibi yüksek-importance figures).
+
+**Neden bu sıkı?** Şu an UI'da görünen rastgele bir Wikidata link **yanlış
+Wikipedia/Wikidata sayfasına götürebilir**. "Khwarizmi → Aquinas" tarzı
+hatalar academic credibility'yi doğrudan vurur. Quality gate, Phase 0b
+sonu için "0 yanlış Wikidata link sızıntısı" güvencesi sağlar. H8 audit
+sonrası gate gevşetilir, daha fazla link açılır.
+
+**Frontend test ölçütü.** PersonCard render testlerinde `iac:person-00000184`
+(Khwarizmi) **wikidata link butonu içermemeli**. Storybook fixture olarak
+4 H7-flagged PID kullanılabilir.
+
 ---
 
 ## 3 — File access pattern
@@ -177,7 +222,7 @@ Production için tavsiye edilmez (binary fetch overhead).
 | ID | Deliverable | Done when |
 |---|---|---|
 | F1 | `WorkCard` component (single record, no cluster) | 100 random work random sample render eder |
-| F2 | `PersonCard` component (Tier 4 badge dahil) | Tier 4 placeholder'lar açık göster |
+| F2 | `PersonCard` component (Tier 4 badge + Wikidata gate) | Tier 4 placeholder açık göster; **§2.4 Wikidata gate uygulandı** (Khwarizmi/Q9438 fixture'da link YOK) |
 | F3 | `ClusterView` component | cluster-000001…000006 doğru render |
 | F4 | `WorkPage` route (`/works/:pid`) | both single + cluster member case |
 | F5 | Storybook fixtures | her component için 3+ story |
@@ -228,6 +273,9 @@ Phase 0b sonu için:
   manuscript namespace açıldığında nasıl render edilecek?
 - Çok dilli labels (`labels.prefLabel.{ar,tr,en}`): RTL/LTR mixed
   rendering test plan?
+- Wikidata QID gating (§2.4): Phase 0b boyunca sadece manuel-verified
+  yüksek-confidence link'ler görünecek; H8'de gate gevşetildiğinde UI
+  contract değişir mi (yeni "verified" badge gerekir mi)?
 
 > Bu konular Faz 0b kickoff toplantısında konuşulacak.
 
