@@ -1,0 +1,46 @@
+adapter_id: openiti-works
+description: |
+  Convert OpenITI corpus_works.json (9,104 entries) into iac:work-* records,
+  with authors resolved via the openiti_author_resolution.json sidecar
+  produced by the openiti_author_resolve pre-pass.
+
+  Distinctive fields (vs science-works):
+    - openiti_uri: written to the structural work.openiti_uri field AND
+      mirrored as authority_xref entry (authority="openiti_uri")
+    - subjects: derived from corpus_genres.json join (primary_genre +
+      rule_based_type — we keep both when they disagree)
+    - composition_temporal: if work has explicit year, use it; otherwise
+      derive {"end_ce": <author_death_ce>, "approximation": "before"}
+      from the resolved author's death_ce — visible on islamicatlas.org
+      timeline as a "≤" indicator
+    - extant_manuscripts: derived from versions_detail (size, source,
+      manuscript provenance)
+    - original_language: languages[0] (typically "ara")
+
+  Author resolution failure mode: If a work's author_id is not in the
+  resolution map (should not happen because the pre-pass covers ALL
+  corpus_authors entries), the work is still minted but flagged in
+  openiti_works_unresolved sidecar.
+
+  Bidirectional pass A back-writes work PIDs to person.authored_works[]
+  for both Tier 1/2 matched persons AND Tier 4 placeholder persons.
+
+target_namespaces:
+  - work
+
+input_paths:
+  - data/sources/openiti/corpus_works.json
+  - data/sources/openiti/corpus_genres.json   # optional, joined for subjects
+
+reconciliation:
+  enabled: false   # 9,104 records — too many for offline recon; subject of Hafta 6+
+  mode: offline
+  type_qid: Q571
+  cache_path: data/cache/wikidata_reconcile.sqlite
+
+sidecars_consumes:
+  - openiti_author_resolution: data/_state/openiti_author_resolution.json
+
+sidecar_pending:
+  openiti_works_unresolved: data/_state/openiti_works_unresolved.json
+  openiti_works_authors_pending: data/_state/openiti_works_authors_pending.json

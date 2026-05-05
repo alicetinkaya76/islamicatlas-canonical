@@ -1,0 +1,40 @@
+adapter_id: science-works
+description: |
+  Convert science_layer.json's curated key_works + filtered discoveries
+  into iac:work-* records. Curated, trilingual (en/tr/ar), year-precise.
+
+  - 224 key_works mentions across 181 of 182 scholars
+  - 129 discoveries (filter: "is the entry a written work?" — drop concepts
+    like "Algebra as a discipline", keep "Kitāb al-Manāẓir")
+  - Each work record gets authors[] = [<scholar_pid>] resolved via
+    pid_minter.lookup of "science-layer:scholar_NNNN" (idempotent).
+  - Bidirectional back-write to person.authored_works[] is performed
+    by integrity_pass_A_bidirectional, NOT by this adapter.
+
+  Author resolution failure mode: if pid_minter cannot resolve
+  scholar_NNNN (i.e. science-layer person adapter has not run yet, or
+  science_layer.json scholar list shifted), the work is still minted
+  but authors[] is empty — flagged in sidecar science_works_orphan_works
+  for human triage.
+
+target_namespaces:
+  - work
+
+input_paths:
+  - data/sources/science_layer.json
+
+reconciliation:
+  enabled: true
+  mode: offline       # CLI override possible (--recon-mode auto on Mac)
+  type_qid: Q571      # Q571 = book; for work-namespace recon
+  cache_path: data/cache/wikidata_reconcile.sqlite
+  seed_path: data/sources/wikidata_reconcile_seed_works.json
+  threshold_auto_accept: 0.85
+  threshold_review: 0.70
+  recon_filter:
+    always_include: true   # all are high-value curated works
+
+sidecar_pending:
+  science_works_authors_pending: data/_state/science_works_authors_pending.json
+  science_works_discovery_drops: data/_state/science_works_discovery_drops.json
+  science_works_orphan_works: data/_state/science_works_orphan_works.json
