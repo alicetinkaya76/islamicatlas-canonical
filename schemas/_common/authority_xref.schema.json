@@ -5,11 +5,16 @@
   "description": "An array of cross-references to external authority files. Each item identifies a single authority record (Wikidata QID, Pleiades PID, VIAF ID, GeoNames ID, OpenITI URI, TGN ID, LCNAF ID, ISNI). Phase 0 (v0.1.0) actively reconciles only Wikidata and Pleiades; the remaining authorities are forward-declared in the enum so that pipelines for Phase 0.2+ can extend the same schema without breaking existing records.",
   "type": "array",
   "uniqueItems": true,
-  "items": { "$ref": "#/$defs/xrefItem" },
+  "items": {
+    "$ref": "#/$defs/xrefItem"
+  },
   "$defs": {
     "xrefItem": {
       "type": "object",
-      "required": ["authority", "id"],
+      "required": [
+        "authority",
+        "id"
+      ],
       "additionalProperties": false,
       "properties": {
         "authority": {
@@ -24,7 +29,8 @@
             "lcnaf",
             "isni",
             "gnd",
-            "bnf"
+            "bnf",
+            "same_as"
           ],
           "description": "Authority identifier. Phase 0: 'wikidata' and 'pleiades' are reconciled actively. Phase 0.2: 'viaf' (person), 'openiti' (source). Phase 1: 'geonames'. Phase 2+: 'tgn', 'lcnaf', 'isni', 'gnd', 'bnf'."
         },
@@ -77,7 +83,13 @@
       },
       "allOf": [
         {
-          "if": { "properties": { "authority": { "const": "wikidata" } } },
+          "if": {
+            "properties": {
+              "authority": {
+                "const": "wikidata"
+              }
+            }
+          },
           "then": {
             "properties": {
               "id": {
@@ -88,7 +100,13 @@
           }
         },
         {
-          "if": { "properties": { "authority": { "const": "pleiades" } } },
+          "if": {
+            "properties": {
+              "authority": {
+                "const": "pleiades"
+              }
+            }
+          },
           "then": {
             "properties": {
               "id": {
@@ -99,7 +117,13 @@
           }
         },
         {
-          "if": { "properties": { "authority": { "const": "viaf" } } },
+          "if": {
+            "properties": {
+              "authority": {
+                "const": "viaf"
+              }
+            }
+          },
           "then": {
             "properties": {
               "id": {
@@ -110,7 +134,13 @@
           }
         },
         {
-          "if": { "properties": { "authority": { "const": "geonames" } } },
+          "if": {
+            "properties": {
+              "authority": {
+                "const": "geonames"
+              }
+            }
+          },
           "then": {
             "properties": {
               "id": {
@@ -120,7 +150,13 @@
           }
         },
         {
-          "if": { "properties": { "authority": { "const": "openiti" } } },
+          "if": {
+            "properties": {
+              "authority": {
+                "const": "openiti"
+              }
+            }
+          },
           "then": {
             "properties": {
               "id": {
@@ -131,7 +167,13 @@
           }
         },
         {
-          "if": { "properties": { "authority": { "const": "isni" } } },
+          "if": {
+            "properties": {
+              "authority": {
+                "const": "isni"
+              }
+            }
+          },
           "then": {
             "properties": {
               "id": {

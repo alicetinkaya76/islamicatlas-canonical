@@ -433,15 +433,27 @@ def pass_b_same_as(
                 f"members: {', '.join(other_members[:5])}"
             )
             existing_note = w.get("note") or ""
+            note_changed = False
             if note_line not in existing_note:
                 if existing_note:
                     w["note"] = existing_note + " || " + note_line
                 else:
                     w["note"] = note_line
-                # Schema additionalProperties=false in v0.1.0; structural
-                # cluster_id is stored ONLY in work_same_as_clusters.json
-                # sidecar (consumers query that). H6 schema migration will
-                # add `same_as_cluster_id` as a first-class field.
+                note_changed = True
+            # Structural field (v0.2.0+ schema). Source-of-truth for
+            # cluster membership; backwards-compat note line above is
+            # kept for pre-v0.2.0 frontend readers.
+            existing_cid = w.get("same_as_cluster_id")
+            if existing_cid is not None and existing_cid != cid:
+                raise RuntimeError(
+                    f"{wid} already in cluster {existing_cid!r}; "
+                    f"refusing to overwrite with {cid!r}. "
+                    f"Manual review required (work_same_as_clusters.json)."
+                )
+            field_changed = (existing_cid != cid)
+            if field_changed:
+                w["same_as_cluster_id"] = cid
+            if note_changed or field_changed:
                 works_modified += 1
         output_records.append(w)
 

@@ -240,7 +240,7 @@ def test_b1_work_pids_unique(all_work_records):
     assert not dupes, f"duplicate work PIDs: {dupes[:5]}"
 
 
-@pytest.mark.xfail(reason="Hafta 4 pid_index.json does not track work namespace (only person/dynasty/place); H6 task to extend pid_index schema.", strict=False)
+@pytest.mark.xfail(reason="Hafta 6 Stream 4 added schema v0.2.0 + structural same_as_cluster_id field, but pid_index.json still tracks only person/dynasty/place namespaces. Extending pid_index to cover work namespace is a separate task (own commit, own backfill of 9,330 PIDs); not in Stream 4 scope.", strict=False)
 def test_b2_pid_index_consistent(all_work_records):
     """B2: pid_index.json (if maintained) reflects the same record count
     as canonical work files."""
@@ -487,25 +487,34 @@ def test_e1_clusters_have_valid_structure(same_as_clusters):
 
 
 def test_e2_cluster_members_have_pointer(all_work_records, same_as_clusters):
-    """E2: Every work that's a cluster member has its cluster_id appearing
-    in the note field (schema v0.1.0 has no _same_as_cluster_id field;
-    sidecar work_same_as_clusters.json is the structural lookup)."""
+    """E2 (v0.2.0+): Every cluster member work record carries cluster_id
+    BOTH in the structural field `same_as_cluster_id` (source-of-truth
+    after H6 schema migration) AND in the note string (kept for
+    backwards-compat readers). Either failing is a Pass B regression."""
     clusters = same_as_clusters["clusters"]
     expected_pointers = {}
     for cid, c in clusters.items():
         for m in c.get("members", []):
             expected_pointers[m] = cid
-    bad = []
+    field_missing = []
+    note_missing = []
     for w in all_work_records:
         wid = w["@id"]
         if wid in expected_pointers:
-            note = w.get("note") or ""
             cid = expected_pointers[wid]
+            field = w.get("same_as_cluster_id")
+            if field != cid:
+                field_missing.append((wid, cid, field))
+            note = w.get("note") or ""
             if cid not in note:
-                bad.append((wid, cid, note[:80]))
-    assert not bad, (
-        f"{len(bad)} cluster members lack cluster id in note; "
-        f"first 3: {bad[:3]}"
+                note_missing.append((wid, cid, note[:80]))
+    assert not field_missing, (
+        f"{len(field_missing)} cluster members lack same_as_cluster_id "
+        f"structural field; first 3: {field_missing[:3]}"
+    )
+    assert not note_missing, (
+        f"{len(note_missing)} cluster members lack cluster id in note "
+        f"(backwards-compat); first 3: {note_missing[:3]}"
     )
 
 

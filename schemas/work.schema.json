@@ -1,10 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/work.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.2.0/work.schema.json",
   "title": "Canonical Work",
-  "description": "A canonical work record — the abstract intellectual entity (FRBR Work). Distinct from Manuscript (FRBR Manifestation+Item). Phase 0 forward-declared; activation in P0.2 with the OpenITI seed (~13,681 files mapped to work PIDs) and source-namespace ETL (every Bosworth/Yâqūt/Le Strange edition becomes a work record). Bibliographic citations from provenance.derived_from migrate from CURIE strings to work PIDs in P0.2.",
+  "description": "A canonical work record — the abstract intellectual entity (FRBR Work). Distinct from Manuscript (FRBR Manifestation+Item). Phase 0 forward-declared; activation in P0.2 with the OpenITI seed (~13,681 files mapped to work PIDs) and source-namespace ETL (every Bosworth/Yâqūt/Le Strange edition becomes a work record). Bibliographic citations from provenance.derived_from migrate from CURIE strings to work PIDs in P0.2. v0.2.0 (2026-05-05): Add same_as_cluster_id and dia_slug; extend authority_xref enum with 'same_as'; loosen extant_manuscripts.items pattern. Backward-compatible additive changes.",
   "type": "object",
-  "required": ["@id", "@type", "labels", "provenance"],
+  "required": [
+    "@id",
+    "@type",
+    "labels",
+    "provenance"
+  ],
   "additionalProperties": false,
   "properties": {
     "@id": {
@@ -16,7 +21,9 @@
       "minItems": 1,
       "maxItems": 3,
       "uniqueItems": true,
-      "contains": { "const": "iac:Work" },
+      "contains": {
+        "const": "iac:Work"
+      },
       "items": {
         "type": "string",
         "enum": [
@@ -45,7 +52,10 @@
     "authors": {
       "type": "array",
       "uniqueItems": true,
-      "items": { "type": "string", "pattern": "^iac:person-[0-9]{8}$" },
+      "items": {
+        "type": "string",
+        "pattern": "^iac:person-[0-9]{8}$"
+      },
       "description": "Author(s). Bidirectional with person.authored_works."
     },
     "composition_temporal": {
@@ -63,13 +73,45 @@
       "items": {
         "type": "string",
         "enum": [
-          "fiqh", "usul-al-fiqh", "hadith", "tafsir", "kalam", "sira",
-          "tarikh", "tabaqa", "tarajim", "rihla", "geography", "cosmography",
-          "edebiyat", "shi'r", "balaghah", "lughah", "nahw", "sarf",
-          "tasawwuf", "falsafah", "mantiq", "tibb", "riyadiyat", "falak",
-          "kimiya", "tarikh-al-anbiya", "qisas", "manaqib", "fatwa",
-          "muqaddima", "sharh", "hashiyah", "mukhtasar", "shaurh",
-          "fihrist", "nashr", "epistolary", "wasiyyah", "sira-ottoman"
+          "fiqh",
+          "usul-al-fiqh",
+          "hadith",
+          "tafsir",
+          "kalam",
+          "sira",
+          "tarikh",
+          "tabaqa",
+          "tarajim",
+          "rihla",
+          "geography",
+          "cosmography",
+          "edebiyat",
+          "shi'r",
+          "balaghah",
+          "lughah",
+          "nahw",
+          "sarf",
+          "tasawwuf",
+          "falsafah",
+          "mantiq",
+          "tibb",
+          "riyadiyat",
+          "falak",
+          "kimiya",
+          "tarikh-al-anbiya",
+          "qisas",
+          "manaqib",
+          "fatwa",
+          "muqaddima",
+          "sharh",
+          "hashiyah",
+          "mukhtasar",
+          "shaurh",
+          "fihrist",
+          "nashr",
+          "epistolary",
+          "wasiyyah",
+          "sira-ottoman"
         ]
       },
       "description": "Genre classification. Controlled vocabulary based on classical Islamic bibliographic categories (Kâtib Çelebi's Kashf al-Ẓunūn taxonomy as reference). Multi-valued (a work may be both 'tarikh' and 'tabaqa' — biographical chronicle)."
@@ -77,13 +119,28 @@
     "subjects": {
       "type": "array",
       "uniqueItems": true,
-      "items": { "type": "string", "minLength": 1, "maxLength": 200 },
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200
+      },
       "description": "Free-text subject keywords (Library-of-Congress style). For controlled subject access in P0.3+ via skos:Concept."
     },
     "extant_manuscripts": {
       "type": "array",
       "uniqueItems": true,
-      "items": { "type": "string", "pattern": "^iac:manuscript-[0-9]{8}$" },
+      "items": {
+        "type": "string",
+        "oneOf": [
+          {
+            "pattern": "^iac:manuscript-[0-9]{8}$"
+          },
+          {
+            "format": "uri",
+            "minLength": 8
+          }
+        ]
+      },
       "description": "Known surviving manuscript witnesses. PID references to iac:manuscript-. Bidirectional with manuscript.witnesses_work."
     },
     "translation_of": {
@@ -104,19 +161,28 @@
     "mentions_places": {
       "type": "array",
       "uniqueItems": true,
-      "items": { "type": "string", "pattern": "^iac:place-[0-9]{8}$" },
+      "items": {
+        "type": "string",
+        "pattern": "^iac:place-[0-9]{8}$"
+      },
       "description": "Places named in the work — important for geographical/biographical works (Yâqūt, Ibn Baṭṭūṭa, Le Strange). Populated by NER pipelines."
     },
     "mentions_persons": {
       "type": "array",
       "uniqueItems": true,
-      "items": { "type": "string", "pattern": "^iac:person-[0-9]{8}$" },
+      "items": {
+        "type": "string",
+        "pattern": "^iac:person-[0-9]{8}$"
+      },
       "description": "Persons named in the work."
     },
     "cites_works": {
       "type": "array",
       "uniqueItems": true,
-      "items": { "type": "string", "pattern": "^iac:work-[0-9]{8}$" },
+      "items": {
+        "type": "string",
+        "pattern": "^iac:work-[0-9]{8}$"
+      },
       "description": "Other works explicitly cited or quoted. Important for intellectual-history graph."
     },
     "openiti_uri": {
@@ -138,6 +204,16 @@
     "note": {
       "type": "string",
       "maxLength": 5000
+    },
+    "same_as_cluster_id": {
+      "type": "string",
+      "pattern": "^cluster-[0-9]{6}$",
+      "description": "If this work belongs to a SAME-AS cluster (proven equivalence with a work from another source), this field carries the cluster identifier. Cluster membership and canonical-member selection are recorded in data/_state/work_same_as_clusters.json. Pass B writes this field; consumers should query it directly."
+    },
+    "dia_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{0,99}(:title_[0-9]{1,4})?$",
+      "description": "TDV İslam Ansiklopedisi (DİA) slug for the scholar+title pair this work was promoted from. Format: '<scholar-slug>' or '<scholar-slug>:title_<index>'. Top-level field analogous to bosworth_id and openiti_uri (DİA does not appear in authority_xref's enum because Phase 0 reconciliation logic does not query DİA as an authority service)."
     }
   },
   "$comment": "Phase 0.2 hard rules: (a) authors required (anonymous works use a sentinel iac:person-00000000 'Anonymous'); (b) original_language required; (c) at least one of composition_temporal or floruit-of-author required."
