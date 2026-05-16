@@ -145,6 +145,75 @@ H7 yeni kazanimlar (master plan disi):
 - [x] Frontend spec patch git diff'te gorunuyor mu? Evet, +49/-1 satir
 - [x] ADR-009 docs/decisions/'da gorunuyor mu? Evet, ADR-008'den sonra
 
+---
+
+## Pre-existing issues discovered during H7 (not introduced by H7)
+
+H7 Stage 5 close'da full integration suite ilk kez calistirildi (H6 close
+sadece `test_work_pilot.py`'i kosmustu). Bu **yeni bir kesif** ortaya
+cikardi:
+
+### Issue PE-1: H4 placeholder records carry source_type='digital_corpus'
+
+- **Test**: `tests/integration/test_dia_pilot.py::test_a1_all_person_records_validate`
+- **Failing records**: 2,262 person records (sample PIDs:
+  iac:person-00021298, 21299, 21300, 24359, 24706)
+- **Schema violation**: `provenance.derived_from[0].source_type ==
+  "digital_corpus"`, but person.schema enum allows only
+  `["primary_textual", "secondary_scholarly", "tertiary_reference",
+  "manual_editorial", "authority_file"]`
+- **Source**: All 2,262 records carry release tag `v0.1.0-phase0`
+  (Hafta 4 v2 person seed, commit `6ac18b2`). H4 commit message claims
+  "26/26 tests green"; this means at H4 time the schema accepted
+  `digital_corpus`. The H6 Stream 4 schema migration (v0.1.0 -> v0.2.0)
+  narrowed the source_type enum, but the migration only touched
+  `work.schema.json`, not `person.schema.json` — and the existing 2,262
+  records were not re-validated post-migration.
+- **Blame**: NOT H7. H7's only canonical/person mutations were on PIDs
+  184, 115, 20919, 182 (4 records). The 2,262 failing records are
+  untouched by any H7 commit.
+- **Severity**: Schema-invalid records are technical debt, not data
+  corruption. The records semantically encode "OpenITI Tier 4
+  placeholder author from digital corpus" — a meaningful provenance
+  category that the schema simply doesn't have a vocabulary for.
+- **Remediation options** (deferred to H8):
+  - Option B1: Extend person.schema source_type enum to include
+    `digital_corpus`. Lowest-risk; documents reality.
+  - Option B2: Mass-rename 2,262 records' source_type to
+    `tertiary_reference`. Wrong semantics (digital_corpus is closer to
+    primary_textual than tertiary_reference for OpenITI).
+  - Option B3: Mass-rename to `primary_textual`. Closer semantically
+    but loses the "Tier 4 placeholder, no fulltext mint yet"
+    distinction.
+  - Recommended: B1 + ADR-010 documenting the new enum value.
+
+### Acceptance impact
+
+H7 close commits the integration suite in the state:
+- `tests/integration/test_work_pilot.py`: 23 passed, 3 xfail, 3 skipped
+- `tests/integration/test_h7_invariants.py`: 6 passed (H7's own work)
+- `tests/integration/test_dia_pilot.py::test_a1`: FAILS (Issue PE-1 above)
+- Other test_dia_pilot.py tests: 44 passed (suite robust to PE-1)
+- Total: 73 passed, 1 failed, 3 skipped, 3 xfailed
+
+The failing test is committed as-is; H8 first task: PE-1 remediation.
+This is intentional. H7's scope was QID quality + frontend gate +
+ADR-009 doctrine. PE-1 is unrelated technical debt that surfaced
+because H7 ran the full suite — value created by *finding* the bug,
+not by silently masking it.
+
 H7 temiz kapandi. H8 oturumu rich-mint kaynak verisi (DiA chunk
 re-extraction veya equivalent) ile baslamalidir - ADR-009 doctrine'i
 ile uyumlu Stream 2 ancak ondan sonra mumkun.
+
+H8 baslarken iki paralel oncelik:
+
+1. **PE-1 remediation** (tahmini 30-60 dk): person.schema.json source_type
+   enum'a `digital_corpus` ekle, ADR-010 yaz (decision rationale), schema
+   migration v0.2.0 -> v0.2.1 bump, integration suite tamamen yesil.
+2. **DiA rich-mint pipeline kuruluusu** (tahmini 6-10 saat): ADR-009
+   doctrine'i ile uyumlu, ham DiA encyclopedia kaynaktan (chunks veya
+   scraping) extract + canonicalize.
+
+PE-1 oncelikle yapilirsa H8'de "test suite tamamen yesil baseline" elde
+edilir; rich-mint pipeline bunun uzerine kurulur.
