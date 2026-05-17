@@ -103,6 +103,22 @@ adapters:
       namespace: work
       pipeline_name: canonicalize_work_openiti
 
+  # Phase 0 (Hafta 8): DİA full-narrative upgrade pass.
+  # Re-aggregates dia_chunks per slug (ADR-012 50K limit), gap-fills
+  # prefLabel.ar (Arabic-script validated) + death_temporal (extended date
+  # parser) where H4's pass left them empty. Augments
+  # provenance.derived_from with dia-chunks-v8:<slug>; never overwrites
+  # existing fields. Operates on the 3,309 Cat A slugs (slug present in
+  # data/_state/dia_slug_to_pid.slug_to_pid).
+  - adapter_id: dia-person-enrichment-v8
+    enabled: false                # H8 Stage 3 — enable after Stage 4 pilot
+    priority: 325
+    config:
+      strict_mode: true
+      namespace: person
+      pipeline_name: enrich_person_dia_v8
+      depends_on: [dia, el-alam]
+
 # Reserved for future adapters (forward-declared for planning):
 #   - ibn-khaldun-muqaddima
 #   - kashf-al-zunun

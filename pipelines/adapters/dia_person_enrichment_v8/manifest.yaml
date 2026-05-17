@@ -1,0 +1,39 @@
+adapter_id: dia-person-enrichment-v8
+description: |
+  H8 Stage 3 upgrade pass for the dia adapter (H4 vintage). Re-aggregates
+  dia_chunks per slug (Stage 2b analyzer v2: avg 2.44 chunks/slug, 68.8%
+  of records exceed H4's 5000-char description.tr cap). Per ADR-011 v1.1
+  and ADR-012 (description maxLength 50000), writes the full Turkish
+  narrative to labels.description.tr, gap-fills labels.prefLabel.ar from
+  chunk `a` (Arabic-script validation), and gap-fills death_temporal from
+  chunk `d` (extended parser covering Hijri, Gregorian range, and
+  approximate forms).
+
+  Scope: only Cat A slugs (slug ∈ data/_state/dia_slug_to_pid.json
+  .slug_to_pid). 3,309 person records affected. Cat B/C slugs (4,784)
+  deferred to H8.5/H9 per ADR-011 v1.1.
+
+  Operates on EXISTING records — H4's create-lineage provenance.generated_by
+  and derived_from[0] (dia:<slug>) stay intact; this adapter appends a
+  dia-chunks-v8:<slug> entry to derived_from and an update entry to
+  record_history.
+
+  Idempotent: re-run skips records already carrying dia-chunks-v8:* in
+  provenance.derived_from.
+
+target_namespaces:
+  - person
+
+input_paths:
+  - data/sources/dia_chunks.json
+
+# This adapter operates on existing records. No new PIDs minted.
+# data/_state/dia_slug_to_pid.json is loaded inline by extract.py (not
+# declared as input_path because run_adapter.py requires every input_path
+# to exist before extract; we want graceful behavior if state sidecar
+# absent in a fresh clone).
+
+reconciliation:
+  enabled: false
+
+maintainer: https://orcid.org/0000-0002-7747-6854
