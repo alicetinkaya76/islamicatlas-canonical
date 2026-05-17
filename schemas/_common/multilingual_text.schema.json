@@ -56,12 +56,12 @@
         "^[a-z]{2,3}(-[A-Z][a-z]{3})?(-[A-Z]{2})?(-x-[a-z0-9]+)?$": {
           "type": "string",
           "minLength": 1,
-          "maxLength": 5000,
-          "description": "A longer descriptive paragraph in this language. Maps to dcterms:description in JSON-LD export."
+          "maxLength": 50000,
+          "description": "A longer descriptive paragraph in this language. Maps to dcterms:description in JSON-LD export. Bumped from 5000 to 50000 at ADR-012 to accommodate full DiA encyclopedia entry narratives (per-slug aggregated). Truncation strategy applies only to the long-tail >50000 case."
         }
       },
       "additionalProperties": false,
-      "description": "Optional descriptive paragraphs by language."
+      "description": "Optional descriptive paragraphs by language. Per-language maxLength is 50000 chars (ADR-012)."
     }
   },
   "$defs": {
