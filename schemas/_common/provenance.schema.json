@@ -29,9 +29,10 @@
               "secondary_scholarly",
               "tertiary_reference",
               "manual_editorial",
-              "authority_file"
+              "authority_file",
+              "digital_corpus"
             ],
-            "description": "Source category. 'primary_textual' = a primary source text (Yâkût Mu'cem itself). 'secondary_scholarly' = modern scholarly work (Bosworth NID, Le Strange Lands). 'tertiary_reference' = encyclopaedic (DİA, EI). 'manual_editorial' = an editorial assertion by the canonical store author. 'authority_file' = imported from an external authority (Wikidata cross-reference)."
+            "description": "Source category. 'primary_textual' = a primary source text (Yâkût Mu'cem itself). 'secondary_scholarly' = modern scholarly work (Bosworth NID, Le Strange Lands). 'tertiary_reference' = encyclopaedic (DİA, EI). 'manual_editorial' = an editorial assertion by the canonical store author. 'authority_file' = imported from an external authority (Wikidata cross-reference). 'digital_corpus' = OpenITI Tier-4 placeholder where author/work is attested via an OpenITI text URI but no full mint exists yet — see ADR-010."
           },
           "page_or_locator": {
             "type": "string",
