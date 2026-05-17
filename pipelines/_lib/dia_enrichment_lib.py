@@ -195,29 +195,52 @@ def build_temporal_from_parsed_d(d_parsed: dict | None) -> dict | None:
     return temporal
 
 
+TRUNCATION_MARKER = " [… truncated]"
+
+
 def truncate_at_sentence_boundary(text: str, max_len: int = DESCRIPTION_MAX_LEN) -> tuple[str, bool]:
-    """Truncate text at last sentence boundary before max_len.
+    """Truncate text at last sentence boundary, guaranteeing result <= max_len.
 
     Returns (text, was_truncated). If len(text) <= max_len, returns text
     unchanged with was_truncated=False.
 
-    Search window: [max_len - 200, max_len] for sentence-end punctuation.
-    Fallback: cut at last whitespace before max_len - 50.
+    Reserves the truncation marker length before searching, so the marker is
+    accounted for in the cap. Cut position is always <= (max_len - marker_len),
+    so the final string is guaranteed <= max_len.
+
+    Search window: [search_end - 200, search_end] for sentence-end punctuation,
+    where search_end = max_len - marker_len.
+    Fallback: last whitespace before search_end - 50.
+    Degenerate: max_len <= marker_len returns marker truncated to fit.
+
+    H8 Stage 5 bug fix: previously the marker was appended AFTER cut_pos which
+    could be at max_len, causing the final string to exceed max_len by up to
+    marker_len chars. Discovered by efgani-cemaleddin (74,318 char aggregated
+    narrative producing a 50,008-char description.tr, failing ADR-012
+    maxLength: 50000).
     """
     if len(text) <= max_len:
         return text, False
-    # Look for sentence-end punctuation in a window before max_len
-    search_start = max(0, max_len - 200)
-    search_region = text[search_start:max_len]
+    marker_len = len(TRUNCATION_MARKER)
+    if max_len <= marker_len:
+        # Degenerate: not enough room even for the marker; return marker
+        # truncated to fit. Pathological case; production never hits this.
+        return TRUNCATION_MARKER[:max_len], True
+    search_end = max_len - marker_len
+    search_start = max(0, search_end - 200)
+    search_region = text[search_start:search_end]
     matches = list(SENTENCE_END_RE.finditer(search_region))
     if matches:
         cut_pos = search_start + matches[-1].end()
-        return text[:cut_pos] + " [… truncated]", True
-    # Fallback: cut at last whitespace before max_len - 50
-    cut_pos = text.rfind(" ", 0, max_len - 50)
-    if cut_pos == -1:
-        cut_pos = max_len - 50
-    return text[:cut_pos] + " [… truncated]", True
+    else:
+        # Fallback: cut at last whitespace before search_end - 50
+        fallback_end = max(0, search_end - 50)
+        cut_pos = text.rfind(" ", 0, fallback_end)
+        if cut_pos == -1:
+            cut_pos = fallback_end
+    # Defensive: guarantee cut_pos in [0, search_end]
+    cut_pos = max(0, min(cut_pos, search_end))
+    return text[:cut_pos] + TRUNCATION_MARKER, True
 
 
 def build_h8_provenance_entry(slug: str) -> dict:
