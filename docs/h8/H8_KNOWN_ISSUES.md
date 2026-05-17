@@ -82,4 +82,44 @@ match the new tag; full integration suite green; ADR-011 written.`
 
 ---
 
+## H8 Close — final state of known issues
+
+**As of H8 close commit** *(see HAFTA8_CLOSE_STATE.md for the SHA)*,
+H8 introduced one new logged-and-deferred issue (PE-2 above), and
+discovered-and-closed one issue within H8 itself (the Stage 5
+`truncate_at_sentence_boundary` maxLength overflow, postmortem
+preserved in `docs/h8/HAFTA8_STAGE_5_BULK.md` §"Postmortem"). The
+Stage 5 bug is **not** a residual H9 issue; it is documented here for
+audit trail only.
+
+### Soft TODOs (process improvement, not formal issues)
+
+- **Property-based test for `truncate_at_sentence_boundary`**: A
+  Hypothesis-style randomized test asserting
+  `len(truncate(text, max_len)) <= max_len` for varying inputs would
+  guard against future regressions of the same class of bug. The
+  existing `test_ag7_description_within_50k` covers the invariant on
+  the actual canonical population (3,309 records), but a property
+  test would catch it at lib level before any record is written.
+  Effort: ~30 min. Suggested target: H9 Stage 1 (alongside PE-2
+  housekeeping) or as opportunistic during any later refactor of
+  `pipelines/_lib/dia_enrichment_lib.py`.
+- **Hybrid-sampling pilot template**: Stage 4's alphabetical sort
+  systematically underrepresented the overflow tail (~5% of population
+  per Stage 2b). Future pilot fixtures (`run_adapter.py --limit N
+  --sample STRATEGY`) could benefit from a `STRATEGY` parameter
+  supporting `alphabetical | random | stratified_by_<attribute>`.
+  Not blocking; not yet specced. Suggested target: H10+ as part of
+  any pilot-template tooling sweep.
+
+### Issue ledger at H8 close
+
+| Issue | Severity | Status | Target |
+|---|---|---|---|
+| PE-1 (2,262 records' source_type not in enum) | High → CLOSED | Resolved at Stage 1, commit `4e6176a` | n/a |
+| PE-2 (schema $id coherence across 10 files) | Low (cosmetic) | OPEN | H9 Stage 1 (recommended) |
+| Stage 5 truncate maxLength overflow | High → CLOSED | Resolved at Stage 5, commit `ec9ba52` (patch in `apply_h8_stage5_truncate_fix.py`) | n/a — postmortem only |
+
+**Net: PE-2 is the sole open H8-originated issue carried into H9.**
+
 <!-- Future H8-discovered issues here -->

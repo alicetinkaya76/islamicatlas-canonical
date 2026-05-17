@@ -172,6 +172,110 @@ ADR-011 v1.1 ADR-012'ye back-reference yapar).
 
 ---
 
+## Karar 7 — Bulk run on full Cat A (3,309 records) under `--strict`
+
+**Bağlam**: Stage 4 pilot (50 records, deterministic alphabetical
+subset) emitted 7/7 AG green ve 0 validation failure. ADR-011 v1.1
+patch shape ve ADR-012 schema bump pilot batch'te doğrulandı. Bulk
+run önce `--lenient` (silent-skip on error) ya da `--strict` (halt-on-
+first-error) modunda yapılabilirdi.
+
+**Karar**: `--strict`. Bulk run komutu:
+`python3 pipelines/run_adapter.py --id dia-person-enrichment-v8 --strict`
+
+**Gerekçe**: (a) Pilot, lenient mode'un meşru gerekçesini ortadan
+kaldırdı — record-level failure beklenmiyor; varsa silently
+absorblamak yerine investigation tetiklenmeli. (b) `--strict` halt
+ise, error surface'i tek bir record'da yoğunlaşır, debugging süresi
+küçülür. (c) Stage 5 bulk için planlanan AM acceptance criterion
+(≥ 2,647 enrichment) `--strict` altında verifiable bir contract olur.
+
+**Sonuç**: Bulk run iki pasta hâline geldi (Karar 8 nedeniyle).
+Pre-fix run 637 record yazdı, 638'inci (`efgani-cemaleddin`) maxLength
+overflow nedeniyle halt etti. Post-fix resume yine `--strict` ile
+çalıştı: `skip_idempotent=637`, `yielded=2,672`, validation failures
+= 0. Toplam: 3,309 / 3,309 Cat A enriched (100% kapsama). AM hedefi
+(≥ 2,647) %25 marjla aşıldı.
+
+---
+
+## Karar 8 — `truncate_at_sentence_boundary`: marker length'i search range'den rezerve et
+
+**Bağlam**: Stage 5 strict bulk halt etti çünkü `efgani-cemaleddin`
+(74,318-char aggregated narrative) için truncate işlemi 50,008-char
+çıktı üretti — ADR-012 schema constraint'i (50,000) 8 char aştı. Root
+cause: sentence-boundary search penceresi `[max_len-200, max_len]`
+spanlıyordu, bu yüzden `cut_pos` en kötü ihtimalle `max_len`'e
+ulaşıyordu. " […truncated]" marker'ı (15 char) sonradan eklenince
+total length `max_len + marker_len`'e kadar çıkabiliyordu. Function's
+contract (`len(result) ≤ max_len + marker_len`) açıktı ama ADR-012'nin
+strict `maxLength: 50000`'i tolere etmiyordu.
+
+**Karar**: Marker length'i search range'den rezerve et:
+`search_end = max_len - marker_len`. `TRUNCATION_MARKER` top-level
+constant olarak çıkar (test edilebilirlik için). Defensive clamp
+ekle: `cut_pos = max(0, min(cut_pos, search_end))`. Degenerate
+guard: `max_len ≤ marker_len` durumunda `TRUNCATION_MARKER[:max_len]`
+döndür (production hit etmeyen edge case ama function total olur).
+
+**Gerekçe**: (a) En basit fix — sadece search end'i yeniden hesapla,
+diğer logic değişmez. (b) `len(result) ≤ max_len` invariant'ı artık
+universal — tüm input'lar için geçerli, sadece typical'lar için
+değil. (c) Constant'ı çıkarmak future property-based test için
+zemin hazırlar. (d) Patch file (`apply_h8_stage5_truncate_fix.py`)
+idempotent: TRUNCATION_MARKER constant'in varlığını probe ederek
+re-run no-op olur.
+
+**Sonuç**: Patch uygulandı, lib import sanity OK, efgani-cemaleddin
+re-verify edildi (input=74,318 → output=49,999 ≤ 50,000 ✓). Stage 5
+bulk resume sırasında previously-failed record başarıyla yazıldı.
+Bug Stage 5 içinde kapatıldı; H9'a residual issue olarak taşınmıyor.
+
+### Yan ders (postmortem note)
+
+Alphabetically-sorted pilot tail conditions'i underrepresent ediyor:
+50 alphabetic sample, narrative length p99 distribution'ı sample
+etmez. Stage 4 pilot p<0% probability ile overflow rejimini
+gözlemledi; randomized 50-sample p≈92% ile gözlemleyebilirdi. Future
+pilot template'i hybrid sampling (alphabetical + random-by-attribute-
+decile) önerir. Bu bir process improvement, formal karar değil —
+`HAFTA8_STAGE_5_BULK.md` §"Why the pilot did not catch it"'te kayıtlı.
+
+---
+
+## Karar 9 — H8 close: tek ceremonial commit + `hafta8-close` tag + adapter enable
+
+**Bağlam**: Stage 5 tamamlandı; H8 kapanışı için iki seçenek var:
+**A** — Stage 6 close'u birden çok commit'e böl (bir close-state
+doc commit, bir adapter-enable commit, bir tag commit). **B** —
+Tek ceremonial commit: 5 dosya değişikliği + tag — H7 close pattern'i
+ile uyumlu.
+
+**Karar**: B. Tek commit:
+1. `docs/h8/HAFTA8_STAGE_5_BULK.md` (NEW — bulk journal + postmortem).
+2. `docs/h8/HAFTA8_CLOSE_STATE.md` (NEW — H8 close state).
+3. `docs/h8/H8_DECISION_LOG.md` (APPEND — Karar 7, 8, 9 — bu girdiler).
+4. `docs/h8/H8_KNOWN_ISSUES.md` (APPEND — H8 close footer; PE-2 unchanged,
+   Stage 5 bug closed-within-H8).
+5. `pipelines/adapters/registry.yaml` (FLIP — `dia-person-enrichment-v8`
+   `enabled: false → true`).
+6. Tag `hafta8-close` close commit'inde.
+
+**Gerekçe**: (a) **Ceremoniality**: H7'nin pattern'ı (single close
+commit + tag) audit trail'i okunabilir tutar — H8 close'un tek
+SHA'ya bağlanması H9 retrospektif için clean entry point sağlar.
+(b) **Atomicity**: 5 değişiklik mantıken atomic — close-state doc'un
+adapter enable'siz tutarsız olur, journal'sız ise referans dangle eder.
+(c) **Idempotency**: orchestrator (`apply_h8_stage6_close.py`)
+re-runnable; dry-run + wet-run ayrımı tek commit cycle'da görünür.
+(d) **Adapter enable**: registry flip ceremonial commit'in semantic
+core'u — H8 kapanışıyla birlikte gelecek `run_all_adapters.py`
+replay'leri bu adapter'i otomatik dahil eder. Flip pre-Stage-6
+yapılsa, "enabled but not closed" bir window oluşurdu.
+
+**Sonuç**: Tek close commit, 5 dosya değişikliği, `hafta8-close` tag.
+H8 hesap-kapatması tamamlanır; H9 PE-2 (veya AO scraping) ile başlar.
+
 <!-- Stages 3-6 kararları burada eklenecek -->
 
 

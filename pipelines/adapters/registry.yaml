@@ -111,7 +111,7 @@ adapters:
   # existing fields. Operates on the 3,309 Cat A slugs (slug present in
   # data/_state/dia_slug_to_pid.slug_to_pid).
   - adapter_id: dia-person-enrichment-v8
-    enabled: false                # H8 Stage 3 — enable after Stage 4 pilot
+    enabled: true                 # H8 Stage 6 close — Cat A bulk complete (3,309/3,309 enriched)
     priority: 325
     config:
       strict_mode: true
