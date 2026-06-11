@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/coords.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/coords.schema.json",
   "title": "Coordinates",
   "description": "Geographic coordinates for an entity. Phase 0 supports point geometry only; polygon and bounding-box geometry types are reserved in the enum for Phase 0.3+ but MUST NOT be instantiated in v0.1.0. The default coordinate reference system is WGS84 (EPSG:4326). Coordinates are decimal degrees, signed (negative latitudes south of equator, negative longitudes west of prime meridian).",
   "type": "object",

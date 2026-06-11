@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/authority_xref.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/authority_xref.schema.json",
   "title": "Authority Cross-References",
   "description": "An array of cross-references to external authority files. Each item identifies a single authority record (Wikidata QID, Pleiades PID, VIAF ID, GeoNames ID, OpenITI URI, TGN ID, LCNAF ID, ISNI). Phase 0 (v0.1.0) actively reconciles only Wikidata and Pleiades; the remaining authorities are forward-declared in the enum so that pipelines for Phase 0.2+ can extend the same schema without breaking existing records.",
   "type": "array",

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.2.0/work.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.3.0/work.schema.json",
   "title": "Canonical Work",
   "description": "A canonical work record — the abstract intellectual entity (FRBR Work). Distinct from Manuscript (FRBR Manifestation+Item). Phase 0 forward-declared; activation in P0.2 with the OpenITI seed (~13,681 files mapped to work PIDs) and source-namespace ETL (every Bosworth/Yâqūt/Le Strange edition becomes a work record). Bibliographic citations from provenance.derived_from migrate from CURIE strings to work PIDs in P0.2. v0.2.0 (2026-05-05): Add same_as_cluster_id and dia_slug; extend authority_xref enum with 'same_as'; loosen extant_manuscripts.items pattern. Backward-compatible additive changes.",
   "type": "object",
@@ -46,7 +46,7 @@
       }
     },
     "labels": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/multilingual_text.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/multilingual_text.schema.json",
       "description": "Title bundle. prefLabel.ar typically holds the canonical Arabic title; prefLabel.en the conventional English title (when one exists)."
     },
     "authors": {
@@ -59,7 +59,7 @@
       "description": "Author(s). Bidirectional with person.authored_works."
     },
     "composition_temporal": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/temporal.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/temporal.schema.json",
       "description": "When the work was composed. Often only approximate; use approximation='circa' for round-century dates and 'before' / 'after' for terminus dates."
     },
     "original_language": {
@@ -196,10 +196,10 @@
       "description": "Bosworth NID — used when the work IS Bosworth's NID for a particular dynasty. Most works have no bosworth_id."
     },
     "authority_xref": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/authority_xref.schema.json"
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/authority_xref.schema.json"
     },
     "provenance": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/provenance.schema.json"
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/provenance.schema.json"
     },
     "note": {
       "type": "string",

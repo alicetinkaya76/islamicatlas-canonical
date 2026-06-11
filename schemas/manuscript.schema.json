@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/manuscript.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.3.0/manuscript.schema.json",
   "title": "Canonical Manuscript",
   "description": "A canonical manuscript witness record (FRBR Manifestation+Item collapsed). A specific physical codex/scroll/fragment, identifiable by shelf-mark in a specific library. Distinct from Work (the abstract intellectual entity). Forward-declared in v0.1.0; activation in P0.3 with the Ottoman HTR pilot (kadı sicilleri 33,149 records, 79 defters) and Süleymaniye / TSMK / British Library digital catalog crosswalks.",
   "type": "object",
@@ -29,7 +29,7 @@
       }
     },
     "labels": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/multilingual_text.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/multilingual_text.schema.json",
       "description": "Manuscript label — usually the conventional shelf-mark format, e.g., 'Süleymaniye, Şehid Ali Paşa 1825'. Title of contained work goes in witnesses_work, not in labels."
     },
     "witnesses_work": {
@@ -65,7 +65,7 @@
       }
     },
     "dating_temporal": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/temporal.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/temporal.schema.json",
       "description": "When the manuscript was copied. Often known to a single year (colophon) or a quarter-century range (paleographic dating)."
     },
     "script": {
@@ -119,10 +119,10 @@
       "description": "IIIF Presentation API manifest URI, when available. Distinct from digitization_url to allow tooling to dispatch directly."
     },
     "authority_xref": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/authority_xref.schema.json"
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/authority_xref.schema.json"
     },
     "provenance": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/provenance.schema.json"
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/provenance.schema.json"
     },
     "note": {
       "type": "string",
