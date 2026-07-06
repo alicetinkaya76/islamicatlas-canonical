@@ -156,12 +156,39 @@ def madde_body(parsed: dict) -> str:
     return "\n".join(p.get("body") or "" for p in parsed.get("parts", []))
 
 
+_HARAKAT = re.compile("[ؐ-ًؚ-ٰٟۖ-ۭـ]")
+_AR_FOLD = str.maketrans({"أ": "ا", "إ": "ا", "آ": "ا", "ٱ": "ا",
+                          "ى": "ي", "ئ": "ي", "ؤ": "و", "ة": "ه", "ء": ""})
+
+
+def rasm(t: Optional[str]) -> str:
+    """Arabic consonantal skeleton for lenient comparison: drop harakat/tatweel,
+    fold hamza/alif/ya/ta-marbuta variants, strip the definite article `ال`."""
+    t = unicodedata.normalize("NFKC", t or "")
+    t = _HARAKAT.sub("", t).translate(_AR_FOLD)
+    t = re.sub(r"\bال", "", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def arabic_matches(a: Optional[str], b: Optional[str]) -> bool:
+    ra, rb = rasm(a), rasm(b)
+    return bool(ra) and ra == rb
+
+
 def verify(parsed: dict, chunk_n: Optional[str], chunk_a: Optional[str],
            chunk_t: Optional[str], coverage_min: float = 0.95) -> dict:
     """Cross-check a parsed madde against its dia_chunks record.
 
-    Returns a verdict dict; non-empty `flags` → route to review, never a silent
-    write (ADR-014 §Karar; North Star: don't auto-resolve borderline cases).
+    Review-BLOCKING flags establish that the RIGHT madde was fetched:
+      * title_mismatch — scraped <h1> != chunk.n (exact Turkish title)
+      * low_coverage   — chunk.t not ⊆ scraped body (< coverage_min)
+      * no_cilt_sayfa  — no locator parsed
+    The Arabic title is ADVISORY: dia_chunks `a` is a reduced normalization
+    (no definite article, hamza stripped) of the DiA's fully-vocalized title,
+    so string inequality is COMMON for correct pages (H9 Stage 2d.1 finding —
+    every early arabic_mismatch had h1_match + coverage 1.0). `ar_match` is
+    rasm-compared and recorded for spot-checking, but does NOT gate review when
+    h1 + coverage already confirm identity. North Star: flags = genuine doubt.
     """
     flags = []
     h1_match = None
@@ -169,15 +196,11 @@ def verify(parsed: dict, chunk_n: Optional[str], chunk_a: Optional[str],
         h1_match = normalize_text(parsed.get("title_tr")).casefold() == normalize_text(chunk_n).casefold()
         if not h1_match:
             flags.append("title_mismatch")
-    ar_match = None
-    if chunk_a:
-        ar_match = normalize_text(parsed.get("title_ar")) == normalize_text(chunk_a)
-        if not ar_match:
-            flags.append("arabic_mismatch")
     cov = coverage(chunk_t, madde_body(parsed))
     if cov < coverage_min:
         flags.append("low_coverage")
     if not any(p.get("cilt") for p in parsed.get("parts", [])):
         flags.append("no_cilt_sayfa")
+    ar_match = arabic_matches(parsed.get("title_ar"), chunk_a) if chunk_a else None
     return {"h1_match": h1_match, "ar_match": ar_match,
             "coverage": round(cov, 4), "flags": flags}

@@ -80,13 +80,29 @@ def test_madde_body_concat():
     assert "birinci bölüm" in body and "ikinci bölüm" in body
 
 
-def test_verify_pass_and_flags():
+def test_verify_review_flags_are_title_and_coverage():
     m = P.parse_madde(_load("fixture_single.html"), "test-single")
     ok = P.verify(m, "TEST MADDE", "اختبار", "elma armut kiraz vişne")
     assert ok["h1_match"] is True and ok["ar_match"] is True
     assert ok["coverage"] >= 0.95 and ok["flags"] == []
 
     bad = P.verify(m, "BAŞKA MADDE", "خطأ", "tamamen alakasiz kelimeler burada")
-    assert "title_mismatch" in bad["flags"]
-    assert "arabic_mismatch" in bad["flags"]
-    assert "low_coverage" in bad["flags"]
+    assert "title_mismatch" in bad["flags"] and "low_coverage" in bad["flags"]
+    assert "arabic_mismatch" not in bad["flags"]     # arabic is advisory (2d.1)
+    assert bad["ar_match"] is False
+
+
+def test_arabic_mismatch_is_advisory_not_review():
+    """h1 + coverage confirm identity → a differently-normalized Arabic title
+    (definite article + hamza, as in the live dia_chunks `a`) is NOT review."""
+    m = P.parse_madde(_load("fixture_single.html"), "test-single")  # title_ar='اختبار'
+    v = P.verify(m, "TEST MADDE", "الاختبار", "elma armut kiraz vişne")
+    assert v["flags"] == []
+    assert v["ar_match"] is True                      # rasm folds the ال
+
+
+def test_rasm_and_arabic_matches():
+    assert P.rasm("الْعَبَّاس") == P.rasm("عباس")        # harakat + definite article
+    assert P.rasm("أحمد") == P.rasm("احمد")             # hamza fold
+    assert P.arabic_matches("العبّاس بن أحمد", "عباس بن احمد")
+    assert not P.arabic_matches("عباس", "محمد")

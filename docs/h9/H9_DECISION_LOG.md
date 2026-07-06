@@ -222,4 +222,38 @@ North Star'ın "sayımı koddan üret, tahmin etme" ilkesinin gereği.
 - Kod additive → `pytest tests/integration/` 98 passed; schema 15/15.
 - Bulk kullanıcıda; bitince 2e (assemble + kapsam istatistikleri + journal).
 
+## Karar 6 — Arapça başlık doğrulaması advisory (rasm); review = title+coverage
+
+**Tarih:** 2026-07-06
+**Stage:** 2d.1 (bulk koşarken keşfedildi)
+**İlgili ADR:** ADR-014
+
+### Bağlam
+
+Bulk'ın ilk ~625 maddesindeki 6 review-flag'in hepsi `arabic_mismatch`'ti ve
+hepsinde `h1_match=True` + `coverage=1.0` idi. Neden: `dia_chunks.a` DiA'nın
+tam harekeli başlığının indirgenmiş bir normalizasyonu (`ال`'siz, hamza'sız),
+dolayısıyla ham string eşitliği doğru sayfalarda bile başarısız.
+
+### Karar
+
+Arapça başlık **advisory**: review-blocking flag'ler yalnız `title_mismatch`,
+`low_coverage`, `no_cilt_sayfa` (kimliği bunlar kesinleştirir). `ar_match`
+**rasm** normalizasyonuyla (harakat/tatweel at, hamza/alif/ya/ta-marbuta katla,
+`ال` sıyır) hesaplanıp kaydedilir ama review'a sokmaz.
+
+### Gerekçe
+
+Yanlış sayfa zaten h1 (birebir Türkçe başlık) + coverage ile yakalanır; Arapça
+ortografi farkı kimliği değiştirmez. Scraped tam-harekeli başlık zaten
+istediğimiz (rich-mint için chunk.a'dan iyi) veridir. North Star: flag = gerçek
+şüphe, gürültü değil.
+
+### Sonuç
+
+- 6 flagged kayıt yeni mantıkla `flags=[]`, `ar_match=True`.
+- Parser test 8→10; `pytest tests/integration/` 98→**100 passed**; schema 15/15.
+- Koşan bulk eski mantıkta; 2e verdict'leri offline yeniden hesaplar (re-scrape
+  yok).
+
 <!-- Sonraki H9 kararları burada eklenecek -->
