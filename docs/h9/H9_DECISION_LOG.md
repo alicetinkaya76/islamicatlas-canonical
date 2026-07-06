@@ -188,4 +188,38 @@ Pilot ampirik olarak doğruladı: 100/100 madde coverage medyan 1.000 (min 0.998
 - `pytest tests/integration/` 93→**98 passed** (additive); schema 15/15.
 - Sıradaki: 2d — tam koşu CLI'ı + gece başlatma komutu (koşu kullanıcıda).
 
+## Karar 5 — Bulk teslim edildi; koşu kullanıcıda; kapsam 8.093 (≈4,5 saat)
+
+**Tarih:** 2026-07-06
+**Stage:** 2d
+**İlgili ADR:** ADR-014
+
+### Bağlam
+
+Tam koşu ~11 saatlik, kesintiye dayanıklı bir gece işidir; handoff §4 bunu
+kullanıcının başlatmasını, oturumun yalnız kendi kendine devam eden aracı +
+komutu teslim etmesini şart koşar.
+
+### Karar
+
+`scrape.py --all` (resumable, 2c'de doğrulandı) + yeni `--status` izleme
+subcommand'i + `run_bulk.sh` gece başlatıcısı (caffeinate+nohup+log) teslim
+edildi. **Bulk oturum içinde BAŞLATILMADI.** Kapsam **8.093 distinct slug ≈
+4,5 saat** olarak düzeltildi (handoff'un "19.742 madde / 11 saat"i chunk
+sayısıdır; fetch birimi maddedir). Pilotun 100 slug'ı sidecar'da → `--all`
+kalan 7.993'ü çeker.
+
+### Gerekçe
+
+Kesintiye dayanıklılık (checkpoint/atomik yazım + resume) 2c'de kanıtlı;
+`--status` 4,5 saatlik koşuyu network'süz izlemeyi sağlar. Süre düzeltmesi
+North Star'ın "sayımı koddan üret, tahmin etme" ilkesinin gereği.
+
+### Sonuç
+
+- `run_bulk.sh` (`bash -n` temiz) + `--status` + izleme/durdurma/assemble
+  talimatları teslim.
+- Kod additive → `pytest tests/integration/` 98 passed; schema 15/15.
+- Bulk kullanıcıda; bitince 2e (assemble + kapsam istatistikleri + journal).
+
 <!-- Sonraki H9 kararları burada eklenecek -->

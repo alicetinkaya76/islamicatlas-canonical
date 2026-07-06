@@ -63,10 +63,15 @@ record is marked `review`, never silently accepted.
 python3 pipelines/adapters/dia_tdv_scrape/scrape.py --limit 50
 python3 pipelines/adapters/dia_tdv_scrape/scrape.py --slugs hassaf,abaka,gazzali
 
-# full self-resuming run (~8,093 distinct slugs ≈ 4.5 h @ 2 s) — see Stage 2d
-python3 pipelines/adapters/dia_tdv_scrape/scrape.py --all
+# full self-resuming run (~8,093 distinct slugs ≈ 4.5 h @ 2 s) — overnight launcher:
+bash pipelines/adapters/dia_tdv_scrape/run_bulk.sh    # caffeinate + nohup + log
+python3 pipelines/adapters/dia_tdv_scrape/scrape.py --all   # (equivalent, foreground)
 
-# resume is automatic (completed slugs skipped); force re-fetch with --refetch
+# monitor / stop / resume
+python3 pipelines/adapters/dia_tdv_scrape/scrape.py --status   # done/remaining/coverage
+pkill -INT -f dia_tdv_scrape/scrape.py                         # graceful stop; re-run to resume
+# resume is automatic (completed slugs skipped); --refetch forces re-fetch
+
 # project checkpoint → data/sources/dia_chunks_rich.json
 python3 pipelines/adapters/dia_tdv_scrape/scrape.py --assemble
 ```

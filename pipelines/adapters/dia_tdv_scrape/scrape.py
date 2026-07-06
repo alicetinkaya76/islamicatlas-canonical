@@ -37,7 +37,7 @@ import os
 import signal
 import sys
 import time
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from email.utils import format_datetime, parsedate_to_datetime
 from pathlib import Path
@@ -290,6 +290,28 @@ def run_assemble(args) -> int:
     return 0
 
 
+def run_status(args) -> int:
+    """Print a progress summary from the checkpoint sidecar (no fetching).
+
+    Handy during the ~4.5 h bulk run: shows done / remaining / coverage / flags.
+    """
+    import statistics
+    s = _load_progress().get("slugs", {})
+    universe = len(_load_chunks_index())
+    counts = Counter(v.get("status") for v in s.values())
+    done = sum(counts.get(k, 0) for k in ("ok", "review", "unchanged"))
+    flagged = sum(1 for v in s.values() if v.get("verify", {}).get("flags"))
+    covs = [v["verify"]["coverage"] for v in s.values()
+            if isinstance(v.get("verify"), dict) and "coverage" in v["verify"]]
+    print(f"[status] universe={universe} processed={len(s)} "
+          f"done={done} remaining={universe - done}")
+    print(f"[status] by_status={dict(counts)} review_flagged={flagged}")
+    if covs:
+        print(f"[status] coverage median={statistics.median(covs):.3f} "
+              f"min={min(covs):.3f} ge0.95={sum(c >= 0.95 for c in covs)}/{len(covs)}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[1] if __doc__ else "")
     g = ap.add_mutually_exclusive_group()
@@ -299,15 +321,19 @@ def main() -> int:
     g.add_argument("--slugs-file", help="Path to a newline-delimited slug list.")
     g.add_argument("--assemble", action="store_true",
                    help="Project checkpoint sidecar → dia_chunks_rich.json (no fetching).")
+    g.add_argument("--status", action="store_true",
+                   help="Print progress summary from the checkpoint sidecar (no fetching).")
     ap.add_argument("--refetch", action="store_true", help="Re-fetch even completed slugs.")
     ap.add_argument("--rate", type=float, default=DEFAULT_RATE,
                     help=f"Seconds between requests (default {DEFAULT_RATE}; never below 2).")
     args = ap.parse_args()
 
+    if args.status:
+        return run_status(args)
     if args.assemble:
         return run_assemble(args)
     if not (args.all or args.limit or args.slugs or args.slugs_file):
-        ap.error("choose one of --all / --limit / --slugs / --slugs-file / --assemble")
+        ap.error("choose one of --all / --limit / --slugs / --slugs-file / --assemble / --status")
     if args.rate < DEFAULT_RATE:
         print(f"[scrape] rate {args.rate}s below budget; clamping to {DEFAULT_RATE}s.",
               file=sys.stderr)
