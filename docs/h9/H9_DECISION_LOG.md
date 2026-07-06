@@ -256,4 +256,40 @@ istediğimiz (rich-mint için chunk.a'dan iyi) veridir. North Star: flag = gerç
 - Koşan bulk eski mantıkta; 2e verdict'leri offline yeniden hesaplar (re-scrape
   yok).
 
+## Karar 7 — AO tamamlandı: rich dosya üretildi, AP bloğu kalktı
+
+**Tarih:** 2026-07-06
+**Stage:** 2e
+**İlgili ADR:** ADR-009, ADR-014
+
+### Bağlam
+
+Kullanıcı bulk koşusunu ve 2e'yi bana devretti ("izin konusuna takılma, tüm
+işleri bitir"). Tam koşu (8.093/8.093, 0 error, ~4,5 saat) tamamlandıktan sonra
+verdict'ler 2d.1 mantığıyla düzeltilip rich dosya üretilecek.
+
+### Karar
+
+`--reverify` (gzip arşivden offline yeniden hesap, re-scrape yok) ile 8.093
+verdict düzeltildi; `--assemble` ile `dia_chunks_rich.json` (Path 3a, lean,
+gövdesiz) üretildi. 10 review vakası insan denetimine bırakıldı; AO
+H9_KNOWN_ISSUES'ta kapatıldı.
+
+### Gerekçe
+
+Bulk eski verify mantığında koştuğu için (arapça strict) 16 review vardı;
+extracted VERİ zaten doğruydu, yalnız verdict bayattı. Offline reverify
+re-scrape'i gereksiz kıldı. ar_match True=5412/False=0 → 2d.1'in "arapça
+advisory" kararı ampirik olarak doğru.
+
+### Sonuç
+
+- `dia_chunks_rich.json`: 8.093 kayıt; cilt+sayfa %99.94, title_ar %66.9,
+  müellif %99.9 (1.423 distinct yazar — chunk'larda yoktu), 44 cilt, coverage
+  ≥0.95 %99.96.
+- Review 10: 5 online-only (web-locator → AP), 3 low-coverage, 3 title-varyant.
+- `pytest tests/integration/` 100→**101 passed**; schema 15/15.
+- **AP (dia_works rich-mint) bloğu kalktı** — ADR-009 (a)+(c) eşikleri artık
+  besleniyor. Yazar namespace modellemesi (açık soru 3/4) AP'de karara bağlanır.
+
 <!-- Sonraki H9 kararları burada eklenecek -->

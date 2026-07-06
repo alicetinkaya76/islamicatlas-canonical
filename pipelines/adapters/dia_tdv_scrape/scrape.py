@@ -175,12 +175,18 @@ def _archive_html(slug: str, html: str) -> str:
     return hashlib.sha256(html.encode("utf-8")).hexdigest()
 
 
-def _record(slug, parsed, verdict, status, headers, sha):
-    """Metadata-only record for the checkpoint sidecar (NO body text)."""
+def _extracted(parsed):
+    """Metadata-only projection of a parsed madde (NO body text; ADR-014 §4)."""
     parts = [{k: p.get(k) for k in (
         "part_id", "part_index", "total_parts", "section_slug",
         "author_raw", "cilt", "sayfa_baslangic", "sayfa_bitis", "baski_yili")}
         for p in parsed["parts"]]
+    return {"title_tr": parsed["title_tr"], "title_ar": parsed["title_ar"],
+            "n_parts": parsed["n_parts"], "parts": parts}
+
+
+def _record(slug, parsed, verdict, status, headers, sha):
+    """Metadata-only record for the checkpoint sidecar (NO body text)."""
     return {
         "status": "review" if verdict["flags"] else "ok",
         "http": status,
@@ -189,8 +195,7 @@ def _record(slug, parsed, verdict, status, headers, sha):
         "last_modified": headers.get("Last-Modified"),
         "content_sha256": sha,
         "verify": verdict,
-        "extracted": {"title_tr": parsed["title_tr"], "title_ar": parsed["title_ar"],
-                      "n_parts": parsed["n_parts"], "parts": parts},
+        "extracted": _extracted(parsed),
     }
 
 
@@ -290,6 +295,38 @@ def run_assemble(args) -> int:
     return 0
 
 
+def run_reverify(args) -> int:
+    """Re-parse archived gz HTML + recompute verify verdicts with the CURRENT
+    parse.py logic (offline; NO network). Updates the sidecar in place. Use
+    after a parse/verify refinement (e.g. Stage 2d.1 arabic-advisory) so the
+    checkpoint reflects current policy without re-fetching."""
+    progress = _load_progress()
+    chunk_index = _load_chunks_index()
+    n = n_changed = n_missing = 0
+    for slug, rec in progress.get("slugs", {}).items():
+        if rec.get("status") not in ("ok", "review"):
+            continue
+        gz = HTML_DIR / f"{slug}.html.gz"
+        if not gz.exists():
+            n_missing += 1
+            continue
+        with gzip.open(gz, "rt", encoding="utf-8") as fh:
+            parsed = P.parse_madde(fh.read(), slug)
+        ci = chunk_index.get(slug, {})
+        verdict = P.verify(parsed, ci.get("n"), ci.get("a"), ci.get("t"),
+                           coverage_min=COVERAGE_MIN)
+        if rec.get("verify", {}).get("flags") != verdict["flags"]:
+            n_changed += 1
+        rec["verify"] = verdict
+        rec["extracted"] = _extracted(parsed)
+        rec["status"] = "review" if verdict["flags"] else "ok"
+        n += 1
+    progress.setdefault("meta", {})["reverified"] = _now()
+    _save_progress(progress)
+    print(f"[reverify] recomputed={n} flags_changed={n_changed} gz_missing={n_missing}")
+    return 0
+
+
 def run_status(args) -> int:
     """Print a progress summary from the checkpoint sidecar (no fetching).
 
@@ -323,6 +360,8 @@ def main() -> int:
                    help="Project checkpoint sidecar → dia_chunks_rich.json (no fetching).")
     g.add_argument("--status", action="store_true",
                    help="Print progress summary from the checkpoint sidecar (no fetching).")
+    g.add_argument("--reverify", action="store_true",
+                   help="Re-parse archived gz HTML + recompute verify verdicts (no network).")
     ap.add_argument("--refetch", action="store_true", help="Re-fetch even completed slugs.")
     ap.add_argument("--rate", type=float, default=DEFAULT_RATE,
                     help=f"Seconds between requests (default {DEFAULT_RATE}; never below 2).")
@@ -330,6 +369,8 @@ def main() -> int:
 
     if args.status:
         return run_status(args)
+    if args.reverify:
+        return run_reverify(args)
     if args.assemble:
         return run_assemble(args)
     if not (args.all or args.limit or args.slugs or args.slugs_file):

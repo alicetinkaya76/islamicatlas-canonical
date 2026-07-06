@@ -53,6 +53,20 @@ def test_project_rich_lean_and_flags():
     assert rich["rev1"]["verify"]["flags"] == ["low_coverage"]
 
 
+def test_extracted_is_body_free():
+    """ADR-014 §4: the _extracted projection (used by _record + --reverify)
+    carries factual fields only, never the scraped narrative body."""
+    parsed = {"title_tr": "T", "title_ar": "x", "n_parts": 1,
+              "parts": [{"part_id": "_1", "part_index": 1, "total_parts": 1,
+                         "section_slug": None, "author_raw": "A", "cilt": 1,
+                         "sayfa_baslangic": 2, "sayfa_bitis": None, "baski_yili": 1990,
+                         "body": "BODY MUST NOT LEAK"}]}
+    ex = S._extracted(parsed)
+    assert "body" not in ex["parts"][0]
+    assert ex["parts"][0]["cilt"] == 1 and ex["title_ar"] == "x"
+    assert "BODY MUST NOT LEAK" not in repr(ex)
+
+
 def test_record_excludes_body():
     """ADR-014 §4: the scraped narrative body is NEVER persisted."""
     parsed = {"title_tr": "T", "title_ar": "x", "n_parts": 1,

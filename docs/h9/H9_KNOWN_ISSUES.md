@@ -28,8 +28,20 @@ itibaren doğru sayı: **11**.
 | ID | Konu | Severity | Durum |
 |---|---|---|---|
 | **AN** | Category B fuzzy match — dia_chunks'taki 4,784 non-direct slug | Medium | Open (H9 aday / H10) |
-| **AO** | TDV scraping pipeline → `dia_chunks_rich.json` (cilt + sayfa + arabic_title) | High | Open — H9 ana gövde adayı; AP'nin önkoşulu |
-| **AP** | dia_works rich-mint (ADR-009 eşikleri) | High | Open — AO'ya bloklu, H10+ |
+| **AO** | TDV scraping pipeline → `dia_chunks_rich.json` (cilt + sayfa + arabic_title) | High | ✅ **DONE** (H9 Stage 2a–2e; 8.093 madde, cilt/sayfa %99.94, title_ar %66.9, müellif %99.9 / 1.423 yazar; 10 review insan denetimine) |
+| **AP** | dia_works rich-mint (ADR-009 eşikleri) | High | Open — **AO tamam, blok kalktı**; H10+ |
+
+### AO kapanış notu (Stage 2e)
+
+`data/sources/dia_chunks_rich.json` (Path 3a, lean, gövdesiz, gitignore'lu;
+`scrape.py --assemble` ile yeniden üretilebilir). AP için devredilen açık
+uçlar: (1) **yazar namespace** modellemesi (person vs contributor — proposal
+açık soru 3/4; rich dosyada ham `author_raw` + `section_slug` var), (2) **5
+online-only madde** (`muneccimbasi`, `rasathane`, `tamani-huseyin-rifki`,
+`yahya-b-ebu-kesir`, `yahya-yi-sirvani`) → print cilt/sayfa yerine web-locator,
+(3) **10 review vakası** (3 low-coverage / 3 title-varyant / 5 online-only) →
+insan denetimi. ADR-014 izin belge referansı hâlâ `needs_human_review`
+(yayından önce).
 
 ## Soft TODOs (formal issue değil)
 
