@@ -110,6 +110,18 @@ def _select_slugs(args, chunk_index: dict) -> list:
     return slugs
 
 
+def plan_fetch(selected, progress_slugs, refetch=False):
+    """Which selected slugs still need fetching (pure → enables resume tests).
+
+    A slug is 'done' if a prior record marked it ok / review / unchanged.
+    'error' records are NOT done → retried on the next run. Returns (todo, done).
+    """
+    done = {s for s, v in progress_slugs.items()
+            if v.get("status") in ("ok", "review", "unchanged")}
+    todo = [s for s in selected if refetch or s not in done]
+    return todo, done
+
+
 class RateLimiter:
     def __init__(self, rate: float):
         self.rate = rate
@@ -191,9 +203,7 @@ def run_scrape(args) -> int:
                         "rate": args.rate, "user_agent": USER_AGENT,
                         "updated": _now(), **progress.get("meta", {}),
                         "last_run": _now()}
-    done = {s for s, v in progress["slugs"].items()
-            if v.get("status") in ("ok", "review", "unchanged")}
-    todo = [s for s in slugs if args.refetch or s not in done]
+    todo, done = plan_fetch(slugs, progress["slugs"], args.refetch)
     print(f"[scrape] {len(slugs)} selected · {len(done)} already done · "
           f"{len(todo)} to fetch · rate={args.rate}s")
 
@@ -239,15 +249,15 @@ def run_scrape(args) -> int:
     return 0
 
 
-def run_assemble(args) -> int:
-    """Project the checkpoint sidecar → data/sources/dia_chunks_rich.json (Path 3a).
+def project_rich(progress_slugs):
+    """Project the checkpoint sidecar → lean rich records (pure; Path 3a).
 
-    Lean sidecar: slug-keyed, metadata-only (no body). dia_chunks.json untouched.
+    Slug-keyed, metadata-only (NO scraped body text; ADR-014 §4). Only ok/review
+    records are included. Returns (rich_dict, n_review_flagged).
     """
-    progress = _load_progress()
     rich = {}
     n_flagged = 0
-    for slug, rec in sorted(progress.get("slugs", {}).items()):
+    for slug, rec in sorted(progress_slugs.items()):
         if rec.get("status") not in ("ok", "review"):
             continue
         ex = rec.get("extracted", {})
@@ -262,6 +272,13 @@ def run_assemble(args) -> int:
                        "content_sha256": rec.get("content_sha256"),
                        "provenance": "dia-tdv-scrape (ADR-014)"},
         }
+    return rich, n_flagged
+
+
+def run_assemble(args) -> int:
+    """Write project_rich() → data/sources/dia_chunks_rich.json. dia_chunks.json untouched."""
+    progress = _load_progress()
+    rich, n_flagged = project_rich(progress.get("slugs", {}))
     RICH_PATH.parent.mkdir(parents=True, exist_ok=True)
     with RICH_PATH.open("w", encoding="utf-8") as fh:
         json.dump({"_meta": {"adapter": "dia-tdv-scrape", "compliance": "ADR-014",

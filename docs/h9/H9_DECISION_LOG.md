@@ -152,4 +152,40 @@ olarak (cov(chunk→web)=1.000 iken simetrik Levenshtein 0.15–0.85) doğruland
   15/15 değişmedi. Smoke (2 slug) fetch/resume/assemble'ı doğruladı.
 - Canonical/şema/`dia_chunks.json` dokunulmadı. Sıradaki: 2c pilot.
 
+## Karar 4 — Pilot: coverage metriği doğrulandı, ≥%95 gate %100 geçildi
+
+**Tarih:** 2026-07-06
+**Stage:** 2c
+**İlgili ADR:** ADR-014
+
+### Bağlam
+
+2b scaffold'u 100 slug'lık canlı pilotla ölçekte doğrulanmalı: hash-match
+≥%95, cilt/sayfa parse başarımı, resume. 2a, ham simetrik Levenshtein'ın
+büyük çok-parçalı maddelerde yanıltıcı düştüğünü (web ⊇ chunk) bulmuş ve
+metriği token-coverage'a rafine etmişti.
+
+### Karar
+
+Coverage metriği (chunk.t token'ları ⊆ scraped `.m-content`) ≥0.95 gate'i
+kabul edildi ve pilotta doğrulandı. `scrape.py` iki saf fonksiyona ayrıldı
+(`plan_fetch`, `project_rich`) → resume ve lean-projeksiyon network'süz test
+edilebilir. Pilot'un run-artifact'ları (gitignore'lu) korunur; 2d bunları
+atlar.
+
+### Gerekçe
+
+Coverage, "doğru madde mi çekildi" sorusunu simetrik edit-ratio'dan çok daha
+sağlam yanıtlar (dipnot/bibliyografya web'i uzatır ama chunk anlatısını içerir).
+Pilot ampirik olarak doğruladı: 100/100 madde coverage medyan 1.000 (min 0.998),
+%100'ü ≥0.95; cilt/sayfa ve müellif parça-başına %100; 0 review-flag.
+
+### Sonuç
+
+- Pilot 100/100 ok; coverage %100 ≥0.95; cilt/sayfa %100; title_ar %67
+  (chunk oranıyla tutarlı); 0 flag.
+- Resume canlı re-run'da 0.55 sn'de sıfır-istekle doğrulandı + 3 saf test.
+- `pytest tests/integration/` 93→**98 passed** (additive); schema 15/15.
+- Sıradaki: 2d — tam koşu CLI'ı + gece başlatma komutu (koşu kullanıcıda).
+
 <!-- Sonraki H9 kararları burada eklenecek -->
