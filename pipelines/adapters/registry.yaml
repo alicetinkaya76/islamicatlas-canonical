@@ -119,6 +119,21 @@ adapters:
       pipeline_name: enrich_person_dia_v8
       depends_on: [dia, el-alam]
 
+# Phase 0 (Hafta 9): TDV DiA web metadata scrape (AO). SOURCE-PRODUCING —
+  # writes data/sources/dia_chunks_rich.json (cilt+sayfa + arabic title +
+  # per-section müellif), NOT canonical records. Run via
+  # pipelines/adapters/dia_tdv_scrape/scrape.py, NOT run_adapter.py
+  # (target_namespaces intentionally empty → run_adapter rejects it by design).
+  # Gated on ADR-014 (İSAM written permission). `enabled` is N/A for the
+  # run_adapter path; kept false + listed for registry visibility/provenance.
+  - adapter_id: dia-tdv-scrape
+    enabled: false                # H9 Stage 2b scaffold — source-side fetch; enable N/A
+    priority: 330
+    config:
+      pipeline_name: scrape_dia_tdv     # informational; not a canonicalize pipeline
+      compliance_adr: ADR-014
+      depends_on: [dia]
+
 # Reserved for future adapters (forward-declared for planning):
 #   - ibn-khaldun-muqaddima
 #   - kashf-al-zunun

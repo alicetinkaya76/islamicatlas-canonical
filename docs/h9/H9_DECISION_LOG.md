@@ -102,4 +102,54 @@ parser'ının doğru URL deseni ve selector'lar üzerine kurulmasını sağlar.
   schema 15/15 değişmedi.
 - Açık koşul: izin belge referansı (kullanıcı, yayından önce).
 
+## Karar 3 — AO scaffold: source-üreten adapter (run_adapter'a bağlı değil)
+
+**Tarih:** 2026-07-06
+**Stage:** 2b
+**İlgili ADR:** ADR-006 (sapma gerekçesi), ADR-009, ADR-014
+
+### Bağlam
+
+Proposal §Phase 2 AO'yu "ADR-006-uyumlu manifest+extract+resolve+canonicalize
+dört dosya" olarak tarif eder. Ancak (a) `extract.py` sözleşmesi açıkça "No
+network calls; deterministic" der; (b) `run_adapter.py` `target_namespaces` +
+`schemas/<ns>.schema.json` + `data/canonical/<ns>/` yazımı zorunlu kılar. AO
+ise ağ isteği yapan ve canonical değil **source** (`dia_chunks_rich.json`)
+üreten bir iştir → bu iki sözleşmeyle uyumsuz. (Kullanıcı önerimi onayladı.)
+
+### Karar
+
+- AO, `pipelines/adapters/dia_tdv_scrape/` klasöründe **bağımsız `scrape.py`
+  CLI**'ı olarak yaşar; `run_adapter.py`'ye bağlanmaz. `parse.py` ağdan ayrık
+  ve offline test edilir. `manifest.target_namespaces: []` bilinçlidir →
+  `run_adapter` reddeder (kazayla çağrılma guard'ı). Registry'ye priority 330,
+  enabled:false (görünürlük/provenance için).
+- **Kapsam: 8.093 distinct slug** (19.742 chunk değil). Tüm slug'lar çekilir
+  (yalnız Cat A değil) — cilt+sayfa madde-başıdır ve hem person-locator
+  boşluğunu hem gelecekteki work-mint'i besler.
+- **Rich dosya = yalın sidecar** (Path 3a): slug-anahtarlı, yalnız yeni
+  olgusal alanlar (`title_ar`, per-part `cilt/sayfa/author_raw/section/baski`),
+  gövde `t` TEKRARLANMAZ (AP'de slug ile join; ADR-014 §4 gövde dağıtmama).
+  `dia_chunks.json` değiştirilmez.
+- **Doğrulama = token coverage ≥ 0.95** (`chunk.t` ⊆ scraped `.m-content`) +
+  `h1==chunk.n` + `arabic==chunk.a`. Simetrik edit-ratio değil, çünkü scraped
+  sayfa chunk anlatısını kapsar ama daha uzundur (dipnot/bibliyografya).
+  Sapma → `review` flag, sessiz yazım yok.
+- **Yazar = liste** (`[{section, author_raw}]`); modelleme (person vs
+  contributor namespace) AP/H10+'ya ertelenir (proposal açık soru 3+4).
+
+### Gerekçe
+
+ADR-006 lokalitesi (bir klasör = bir kaynak) korunur; `extract`/canonical
+sözleşmeleri ihlal edilmez. Yalın sidecar hem küçük hem de "structured-from-
+source" vs "scraped" provenance ayrımını korur. Coverage metriği, 2a'da ampirik
+olarak (cov(chunk→web)=1.000 iken simetrik Levenshtein 0.15–0.85) doğrulandı.
+
+### Sonuç
+
+- Adapter iskeleti + 8 offline parser testi + registry + gitignore hazır.
+- `pytest tests/integration/` 85→**93 passed** (additive), `run_schema_tests`
+  15/15 değişmedi. Smoke (2 slug) fetch/resume/assemble'ı doğruladı.
+- Canonical/şema/`dia_chunks.json` dokunulmadı. Sıradaki: 2c pilot.
+
 <!-- Sonraki H9 kararları burada eklenecek -->

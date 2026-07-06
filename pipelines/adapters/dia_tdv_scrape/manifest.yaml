@@ -1,0 +1,51 @@
+adapter_id: dia-tdv-scrape
+display_name: "TDV İslâm Ansiklopedisi — web metadata scrape (cilt/sayfa + Arabic title + müellif)"
+adapter_version: 0.1.0
+source_kind: tertiary_reference
+languages: [tr, ar]
+license: >
+  © Türkiye Diyanet Vakfı / İSAM. Metadata çıkarımı İSAM'ın açık yazılı izniyle
+  yapılır (bkz. docs/decisions/ADR-014-tdv-scraping-compliance.md). Ham HTML
+  yeniden dağıtılmaz; yalnız olgusal alanlar (cilt, sayfa, title_ar, müellif)
+  türetilir.
+extraction_method: scraping
+
+# SOURCE-PRODUCING adapter, NOT a canonical-mint adapter. It writes
+# data/sources/dia_chunks_rich.json (a SOURCE consumed later by AP / dia_works,
+# H10+), the same way dia_chunks.json is a source for the `dia`/v8 adapters.
+# It is run via its own CLI (scrape.py), NOT pipelines/run_adapter.py — the
+# extract→canonicalize→canonical cycle does not apply (no namespace, no schema,
+# network I/O in the fetch stage which run_adapter's extract contract forbids).
+# target_namespaces is intentionally EMPTY: run_adapter.py rejects an empty
+# target_namespaces, which is the desired guard against accidental invocation.
+target_namespaces: []
+
+input_paths:
+  - data/sources/dia_chunks.json          # slug universe + verification body (t)
+
+output_paths:
+  - data/sources/dia_chunks_rich.json     # derived rich source (Path 3a; gitignored)
+  - data/sources/dia_html/                # gzipped raw HTML archive (gitignored)
+
+state_paths:
+  - data/_state/h9_scrape_progress.json   # checkpoint/resume sidecar (gitignored)
+
+politeness:
+  rate_limit_seconds: 2.0                 # 1 request / 2 s; never below
+  parallel_requests: 1
+  user_agent: "islamicatlas-canonical/0.3 (+https://islamicatlas.org; ORCID 0000-0002-7747-6854; mailto:ali.cetinkaya@selcuk.edu.tr)"
+  conditional_get: true                   # If-Modified-Since / If-None-Match
+  respect_retry_after: true
+  cease_on_request: true                  # SIGINT/SIGTERM → checkpoint + exit
+
+verification:
+  method: token_coverage                  # chunk.t tokens ⊆ scraped .m-content
+  coverage_min: 0.95                       # below → review flag, never silent write
+  identity_checks: [h1_eq_chunk_n, arabic_eq_chunk_a]
+
+reconciliation:
+  enabled: false                          # source-side; no canonical resolution here
+
+compliance: docs/decisions/ADR-014-tdv-scraping-compliance.md
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]
