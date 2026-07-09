@@ -158,3 +158,16 @@ def test_pe2_4_schemas_compile_against_full_registry(schema_set):
             assert resolved.contents.get("$id") == base, (
                 f"{rel}: resolver returned wrong resource for {base}"
             )
+
+
+def test_pe2_5_every_schema_file_ends_with_newline():
+    """PE2.5 (H9 Stage 3 housekeeping) — POSIX text-file hygiene: every schema
+    file ends with a trailing newline. dynasty.schema.json was the set's one
+    exception from H2 to H9 (H9_KNOWN_ISSUES soft TODO); this keeps the fix."""
+    schemas_dir = Path(__file__).resolve().parents[2] / "schemas"
+    offenders = [
+        str(p.relative_to(schemas_dir))
+        for p in sorted(schemas_dir.rglob("*.schema.json"))
+        if not p.read_bytes().endswith(b"\n")
+    ]
+    assert not offenders, f"schema files missing trailing newline: {offenders}"

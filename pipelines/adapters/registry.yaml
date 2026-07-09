@@ -1,5 +1,15 @@
-# Adapter registry — single source of truth for all enabled adapters.
-# Read by pipelines/run_all_adapters.py, which orchestrates extract + canonicalize.
+# Adapter registry — single source of truth for all adapters + their configs.
+# H9 Stage 4 correction: a run_all_adapters.py orchestrator was never built —
+# adapters run ONE AT A TIME via `python3 pipelines/run_adapter.py --id <id>`,
+# which reads ONLY the matching entry's `config:` block (pipeline_name etc.).
+# `enabled`/`priority`/`depends_on` are planning/documentation metadata until
+# an orchestrator exists (Faz 0.5 candidate — see docs/PHASE0_CLOSEOUT.md).
+# run_adapter matches this file's entries against the CLI --id argument (and
+# resolves the folder from the same --id, hyphen→underscore). So: run with the
+# EXACT adapter_id listed here — an unmatched --id silently falls back to a
+# generic pipeline_name in every record's provenance (this exact miss stamped
+# 9,330 work records "canonicalize_work" — see Stage 5 journal). Keeping
+# adapter_id == manifest id is the convention that makes that alignment hold.
 # Adding a new adapter: copy pipelines/adapters/_template/, edit manifest.yaml,
 # and add a line below.
 
@@ -95,13 +105,27 @@ adapters:
       pipeline_name: canonicalize_person_el_alam
       depends_on: [dia]
 
-  # Phase 0.2: OpenITI work seed.
-  - adapter_id: openiti
-    enabled: false
+  # Phase 0 (Hafta 5): OpenITI work seed (folder: openiti_works/).
+  # H9 Stage 4: id corrected 'openiti' → 'openiti-works' (manifest id); the
+  # mismatch made run_adapter ignore this entry's config entirely.
+  - adapter_id: openiti-works
+    enabled: true                 # H5 bulk complete (~9.1K works minted)
     priority: 400
     config:
+      strict_mode: true
       namespace: work
       pipeline_name: canonicalize_work_openiti
+
+  # Phase 0 (Hafta 5): Science-layer works (folder: science_works/).
+  # H9 Stage 4: entry was missing entirely (same provenance fallout as above).
+  - adapter_id: science-works
+    enabled: true                 # H5 complete (science_layer.json works)
+    priority: 410
+    config:
+      strict_mode: true
+      namespace: work
+      pipeline_name: canonicalize_work_science
+      depends_on: [science-layer, openiti-works]
 
   # Phase 0 (Hafta 8): DİA full-narrative upgrade pass.
   # Re-aggregates dia_chunks per slug (ADR-012 50K limit), gap-fills

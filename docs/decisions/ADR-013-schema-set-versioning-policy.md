@@ -4,10 +4,18 @@
 **Date:** 2026-06-11
 **Phase:** 0
 **Decision-makers:** Ali Çetinkaya (ORCID 0000-0002-7747-6854)
-**Related:** ADR-002 (registry-based $ref resolution), ADR-010 (PE-2
-deferral rationale), ADR-012 (description maxLength 50K), H6 Stream 4
-schema migration (commit f5f502f), H8 close (commit a41642d, tag
-hafta8-close), PE-2 (docs/h8/H8_KNOWN_ISSUES.md)
+**Related:** registry-based $ref resolution (kodda:
+`tests/run_schema_tests.py::build_registry` — kendi ADR'si yoktur; bu ADR'nin
+ilk sürümü bunu yanlışlıkla ADR-002'ye atfediyordu, ADR-002 Authority
+Reconciliation ADR'sidir), ADR-010 (PE-2 deferral rationale), ADR-012
+(description maxLength 50K), H6 Stream 4 schema migration (commit f5f502f),
+H8 close (commit a41642d, tag hafta8-close), PE-2 (docs/h8/H8_KNOWN_ISSUES.md)
+
+> **Numara notu (H9 Stage 5):** H8 dokümanları (ADR-010 §"future ADR-011",
+> `docs/h8/H8_KNOWN_ISSUES.md` §PE-2) versiyonlama politikası için ADR-011
+> numarasını öngörür; o numara dia_chunks scope kararına (ADR-011) harcandı —
+> politika BU ADR'dir (ADR-013). H8 dokümanları mühürlü olduğundan düzeltme
+> notu buradadır (ADR-014'teki numara-notu kalıbıyla aynı).
 
 ---
 
@@ -37,7 +45,8 @@ Version drift accumulated in three steps:
 
 The result: the URI `…/v0.1.0/_common/provenance.schema.json` no longer
 denotes what it denoted at H1. The drift is **cosmetic with respect to
-validation** — ADR-002's resolution mechanism builds a
+validation** — the resolution mechanism (`tests/run_schema_tests.py::
+build_registry`; run_adapter.py aynı deseni kopyalar) builds a
 `referencing.Registry` by walking `schemas/` on disk and keying each
 schema by whatever `$id` it carries, so `$ref`s resolve regardless of
 whether the version tags are truthful. It is **not** cosmetic with
@@ -99,7 +108,7 @@ every version any file has truthfully or untruthfully claimed.
 
 ### Alternative B: Per-file independent semver
 - **Pros:** Smaller diffs; a touched file bumps alone.
-- **Cons:** Independence is illusory under ADR-002's coupling — bumping
+- **Cons:** Independence is illusory under the registry coupling — bumping
   a `_common` schema's `$id` forces a `$ref` rewrite in every consumer
   anyway, which is most of the set. Eleven version counters to reason
   about; "which combination is deployed" becomes a question.
@@ -164,3 +173,7 @@ every version any file has truthfully or untruthfully claimed.
 **Revision history:**
 - 2026-06-11: First version, accepted at H9 Stage 1 (Ali Çetinkaya;
   drafted with Claude).
+- 2026-07-07: H9 Stage 5 düzeltmesi — "registry-based $ref resolution"un
+  ADR-002'ye yanlış atfı giderildi (mekanizma kodda yaşar, ADR'si yoktur;
+  ADR-002 = Authority Reconciliation); ADR-010/H8'in "future ADR-011"
+  öngörüsü için numara notu eklendi. İçerik/karar değişmedi.

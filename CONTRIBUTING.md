@@ -2,6 +2,14 @@
 
 Bu doküman `islamicatlas-canonical` repo'sunda gündelik çalışma protokolünü açıklar. Her iki katkı sağlayıcı (Ali + Fatıma) bu kuralları takip eder.
 
+> **Fiilî durum notu (H9 Stage 5):** Phase 0 solo yürüdü — H5'ten beri iş
+> `hafta5-work-namespace` branch'ine haftalık stage-commit'leriyle işleniyor
+> (PR/karşılıklı-review fiilen yok; `main` H4'te). Aşağıdaki PR+review
+> protokolü, ikinci katkıcı (Fatıma) aktif olduğunda geçerlidir. Solo dönem
+> disiplini: her stage = 1 commit + `docs/hN/` journal + karar-logu girdisi;
+> hafta kapanışında close-tag. H9 kapanışında branch'in `main`'e merge'ü
+> planlıdır (bkz. docs/PHASE0_CLOSEOUT.md).
+
 ---
 
 ## Temel prensipler
