@@ -24,10 +24,16 @@ hazır · CI gerçek suite'i koşuyor.
 
 ## 1. AP — dia_works rich-mint (H10; 1-1.5 oturum) — sahip: Claude, karar: Ali
 
-**Girdi hazır:** `dia_chunks_rich.json` (8,093 madde; cilt+sayfa %99.94,
-title_ar %66.9, müellif %99.9/1,423 kişi) + `adr009_rich_gate()`
-(work_canonicalize.py, testli) + PidMinter `session()` (31 ms → ~0.001 ms/mint)
-+ work-PID state onarımı (h9_001; 9331 çakışması giderildi, test_b2 bekçi).
+**Girdi hazır:** `dia_chunks_rich.json` + `adr009_rich_gate()` (testli) +
+PidMinter `session()` + work-PID state onarımı (h9_001). **Tam kickoff dokümanı
++ karar çerçevesi: [`docs/h10/HAFTA10_AP_KICKOFF.md`](h10/HAFTA10_AP_KICKOFF.md).**
+
+**Kapsam düzeltmesi (H9 close bulgusu):** AP **toplu-mint DEĞİL, sınırlı-mint.**
+AO (c) cilt+sayfa locator'ını her âlim için verdi; ama per-work (a) çok-dilli
+başlık + (b) açıklama 42.449 DiA-only başlık için YOK (audit bantları:
+42.449 `dia_only`, 37 `moderate_validated`). Zengin-mint edilebilir küme =
+dış-eşleşmeli alt küme (~1.519); 42K DiA-only başlık ADR-009 gereği mint
+edilmez (doğrulanmamış atıf yok garantisi). Detay kickoff'ta.
 
 Kickoff'ta KARAR gereken maddeler (Ali):
 - [ ] **ADR-009 v1.1 revizyonu:** (a) eşiği — title_ar'sız ~%33 madde için

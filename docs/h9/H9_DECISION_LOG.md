@@ -387,4 +387,35 @@ tek sert dış blokör: İSAM izin belge referansı, ADR-014 §Koşul).
   PHASE0_CLOSEOUT.
 - dynasty.schema.json newline'ı + PE2.5 bekçisi; şema seti v0.3.0 değişmedi.
 
+## Karar 11 — H9 close: close-state + tag + main merge; AP sınırı netleştirildi
+
+**Tarih:** 2026-07-09
+**Stage:** 6 (close)
+
+### Bağlam
+
+H9 (schema v0.3.0 + AO scraper + 56-ajanlık review remediation) bitti; kapanış
+töreni gerekiyor. Kapatmadan önce AP'nin gerçek veri modeli incelendi.
+
+### Karar
+
+`HAFTA9_CLOSE_STATE.md` yazıldı; `hafta9-close` tag'i; `hafta5-work-namespace`
+→ `main` merge (no-ff; PHASE0_CLOSEOUT §0). **AP kapsamı düzeltildi:** AO (c)
+locator'ını verdi ama per-work (a)/(b) 42K DiA-only başlık için mevcut değil →
+AP **sınırlı zengin-mint** (dış-eşleşmeli alt küme ~1.519), toplu değil. Ali'nin
+2 kararı (ADR-009 (a) eşiği + katkıcı namespace'i) `docs/h10/HAFTA10_AP_KICKOFF.md`'de
+sayılarla çerçevelendi; öneri A1+B1.
+
+### Gerekçe
+
+North Star "explicit boundaries": AP'yi "8-25K work toplu mint" diye bırakmak,
+projenin reddedilme sebebi olan doğrulanmamış-atıf hatasını davet ederdi.
+Bantların (42.449 dia_only) koddan okunması bu sınırı kanıtladı.
+
+### Sonuç
+
+- H9 kapandı: 11 stage commit + close-state + tag; main'e merge.
+- AP teçhiz edildi (kickoff + gate + session + state onarımı); Ali kararı +
+  onarım koşuları sonrası çalıştırılabilir. Suite 147; canonical 46.702 (mint yok).
+
 <!-- Sonraki H9 kararları burada eklenecek -->
