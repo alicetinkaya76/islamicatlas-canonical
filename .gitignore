@@ -9,6 +9,12 @@ data/cache/
 data/sources/dia/dia_chunks.json
 data/sources/**/dia_chunks.json
 
+# H9 AO (dia-tdv-scrape) — raw HTML archive + derived rich source file.
+# Gitignored per ADR-014 (no raw-HTML redistribution; İSAM permission scope)
+# and size. Re-generable from source + scraper (see adapter README).
+data/sources/dia_html/
+data/sources/dia_chunks_rich.json
+
 # Python
 __pycache__/
 *.py[cod]
@@ -37,3 +43,6 @@ dist/
 # Logs
 *.log
 logs/
+
+# Session scratch (commit-message drafts, entry-state notes)
+tmp/

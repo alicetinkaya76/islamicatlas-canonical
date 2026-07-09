@@ -34,7 +34,9 @@ def run_cmd(cmd: list[str]) -> int:
     return subprocess.call(cmd, cwd=REPO_ROOT)
 
 
-def count_files(directory: Path, pattern: str = "*.json") -> int:
+def count_files(directory: Path, pattern: str = "iac_*.json") -> int:
+    # DH-1 hardening: default pattern matches only canonical record names, so
+    # AppleDouble droppings (._iac_*.json from exFAT/Finder) can't skew counts.
     if not directory.exists():
         return 0
     return sum(1 for _ in directory.glob(pattern))
@@ -68,19 +70,31 @@ def find_records_by_label(language: str, value: str) -> list[Path]:
 
 @pytest.fixture(scope="session")
 def pipeline_state():
-    """Ensure the pipeline has been run; if not, run it now (idempotent)."""
+    """Require a populated place store; skip (don't build) when absent.
+
+    H9 Stage 3: this fixture used to auto-run 3 adapters + integrity passes
+    when the store looked small — a test that silently mutates data/ and, on
+    a fresh clone/CI (no source data), fails confusingly minutes in. Opt back
+    into the old bootstrap explicitly with IAC_TEST_BOOTSTRAP=1.
+    """
+    import os
     if count_files(PLACE_DIR) < 10000:
-        # Bootstrap: run all four adapters + integrity + capital backfill
-        assert run_cmd([sys.executable, "pipelines/run_adapter.py",
-                        "--id", "yaqut", "--recon-mode", "offline"]) == 0
-        assert run_cmd([sys.executable, "pipelines/run_adapter.py",
-                        "--id", "muqaddasi", "--recon-mode", "offline"]) == 0
-        assert run_cmd([sys.executable, "pipelines/run_adapter.py",
-                        "--id", "le-strange", "--recon-mode", "offline"]) == 0
-        assert run_cmd([sys.executable, "pipelines/integrity/place_integrity.py",
-                        "--all"]) == 0
-        if count_files(DYNASTY_DIR) > 0:
-            assert run_cmd([sys.executable, "pipelines/integrity/backfill_capitals.py"]) == 0
+        if os.environ.get("IAC_TEST_BOOTSTRAP") == "1":
+            assert run_cmd([sys.executable, "pipelines/run_adapter.py",
+                            "--id", "yaqut", "--recon-mode", "offline"]) == 0
+            assert run_cmd([sys.executable, "pipelines/run_adapter.py",
+                            "--id", "muqaddasi", "--recon-mode", "offline"]) == 0
+            assert run_cmd([sys.executable, "pipelines/run_adapter.py",
+                            "--id", "le-strange", "--recon-mode", "offline"]) == 0
+            assert run_cmd([sys.executable, "pipelines/integrity/place_integrity.py",
+                            "--all"]) == 0
+            if count_files(DYNASTY_DIR) > 0:
+                assert run_cmd([sys.executable,
+                                "pipelines/integrity/backfill_capitals.py"]) == 0
+        else:
+            pytest.skip(
+                f"place store empty/incomplete ({count_files(PLACE_DIR)} records); "
+                f"run the pipeline first (or set IAC_TEST_BOOTSTRAP=1) — see README")
     return {"place_count": count_files(PLACE_DIR)}
 
 
@@ -102,6 +116,10 @@ class TestPlaceNamespaceVolume:
     def test_a2_filename_pattern(self, pipeline_state):
         bad = []
         for path in PLACE_DIR.glob("*.json"):
+            # DH-1: AppleDouble droppings are a filesystem artifact, not a
+            # naming violation — report them separately, don't fail on them.
+            if path.name.startswith("._"):
+                continue
             if not path.name.startswith("iac_place_"):
                 bad.append(path.name)
         assert not bad, f"Filenames not matching iac_place_NNNNNNNN.json: {bad[:5]}"
@@ -110,35 +128,13 @@ class TestPlaceNamespaceVolume:
 class TestSchemaValidity:
     """B. Every record must validate against place.schema.json."""
 
+    @pytest.mark.slow_fullstore
     def test_b_all_records_schema_valid(self, pipeline_state):
-        from jsonschema import Draft202012Validator
-        from referencing import Registry, Resource
-
-        schemas: dict = {}
-        schemas_dir = REPO_ROOT / "schemas"
-        for schema_path in schemas_dir.rglob("*.schema.json"):
-            with schema_path.open(encoding="utf-8") as fh:
-                s = json.load(fh)
-            if s.get("$id"):
-                schemas[s["$id"]] = s
-        registry = Registry()
-        for sid, s in schemas.items():
-            registry = registry.with_resource(uri=sid, resource=Resource.from_contents(s))
-
-        with (schemas_dir / "place.schema.json").open(encoding="utf-8") as fh:
-            target = json.load(fh)
-        validator = Draft202012Validator(target, registry=registry)
-
-        failures = []
-        for path in PLACE_DIR.glob("iac_place_*.json"):
-            with path.open(encoding="utf-8") as fh:
-                rec = json.load(fh)
-            errs = list(validator.iter_errors(rec))
-            if errs:
-                failures.append((path.name, errs[0].message))
-                if len(failures) > 5:
-                    break
-        assert not failures, f"Schema validation failures: {failures}"
+        # H9 Stage 3: uses conftest's cached records+validator (store no
+        # longer re-read); marked slow_fullstore for the fast inner loop.
+        from tests.integration.conftest import validate_all
+        failures = validate_all("place")
+        assert not failures, f"Schema validation failures: {failures[:5]}"
 
 
 class TestSpotChecks:

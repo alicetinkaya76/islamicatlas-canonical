@@ -14,12 +14,51 @@ Phase 0 için bir sürüm stratejisi:
 - `0.5.x` — Week 7-8 Search + tests
 - `1.0.0` — Phase 0 complete, DOI'li Zenodo dump
 
+> **Not (H9 Stage 5):** Yukarıdaki proje-sürümü ekseni, **schema-set etiketi**
+> (ADR-013; şu an v0.3.0) ile AYRI eksenlerdir — schema-set etiketi 11 şema
+> dosyasının `$id`'lerini sürümler, proje release'ini değil. Haftalar fiilen
+> plan tablosundan hızlı ilerledi; aşağıdaki [Unreleased] retrospektifi
+> gerçekleşeni hafta-hafta kaydeder (sayılar journal'lardan; SHA'lar commit
+> grafiğinden).
+
 ---
 
-## [Unreleased]
+## [Unreleased] — H2→H9 retrospektifi (Phase 0 gövdesi)
 
-### Added
-- (burada aktif değişiklikler listelenecek)
+### Hafta 2-3 — dynasty + place seed
+- Bosworth NID adapter'ı: 186 dynasty (`hafta2` dizisi).
+- Yâqūt (12,954) + Muqaddasī (2,070) + Le Strange augment → 15,239 place;
+  iki-geçişli integrity (parent/capital backfill).
+
+### Hafta 4 — person seed (`5fb02a7` main tepesi)
+- DİA (~7,3K) + el-Aʿlām two-track (~12,5K yeni) + science-layer (182) +
+  Bosworth rulers fix-up → person namespace; Wikidata recon cache + seed.
+
+### Hafta 5-7 — work seed + ER + QID hijyeni (`hafta7-close` = `8833ec0`)
+- OpenITI + science-works → 9,330 work + Hassâf elle rich-mint (9,331.
+  kayıt); ADR-008 resolver, ADR-009 rich-mint doktrini (dia_works sığ mint
+  YASAK); H7 QID audit + frontend display-gate.
+- work.schema $id v0.2.0'a bump (PE-2 driftinin doğuşu — H9'da kapandı).
+
+### Hafta 8 — PE-1 + dia_chunks person enrichment (`a41642d`, `hafta8-close`)
+- ADR-010 `digital_corpus` enum + ADR-012 description maxLength 50K.
+- `dia-person-enrichment-v8`: 3,309 Cat A kişi tam anlatı upgrade'i
+  (%76.5 description büyümesi); truncate marker bug'ı bulunup düzeltildi.
+- ADR-011 v1.1 (`a` alanı = Arapça başlık düzeltmesi); AO/AP planı yazıldı.
+
+### Hafta 9 — PE-2 + AO scraper + review remediation (`89cfd79` → …)
+- Stage 1 (`89cfd79`): 11 dosyalık şema seti atomik **v0.3.0** + ADR-013
+  (set-düzeyi semver, test-pinli).
+- Stage 2a-2e (`83b006a`→`12dc460`): **AO** — ADR-014 compliance gate (İSAM
+  yazılı izni; robots `Allow:/`), dia-tdv-scrape adapter'ı, 8,093 madde
+  (~4,5 saat, 0 hata) → `dia_chunks_rich.json`: cilt+sayfa %99.94, Arapça
+  başlık %66.9, **1,423 madde yazarı** (chunk'larda yoktu); 10 kayıt insan
+  incelemesine işaretli. AP (dia_works) bloğu kalktı.
+- Stage 3-5: 56-ajanlık repo incelemesinin remediation'ı — work-PID state
+  onarımı (9331 çakışma bombası), recon offline-TTL, el-alam Track-A kaybı,
+  projector @id-tabanlı tip çıkarımı (46,702/46,702 projeksiyon), suite
+  101→147 test + `make test-fast` (~9 sn), CI'ın gerçek suite'i koşması,
+  kök dizin arşivi, bu retrospektif. Ayrıntı: `docs/h9/` + PHASE0_CLOSEOUT.
 
 ---
 

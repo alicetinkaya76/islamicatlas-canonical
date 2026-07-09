@@ -351,7 +351,12 @@ class WikidataReconciler:
             fetched = datetime.fromisoformat(fetched_at.replace("Z", "+00:00"))
         except ValueError:
             return None
-        if datetime.now(timezone.utc) - fetched > self.ttl:
+        # TTL only gates entries when a refetch is actually possible. In
+        # offline mode there is no network path to refresh an expired row —
+        # honoring the TTL there silently strips QIDs from re-runs (the whole
+        # 11K-row cache aged past 30 days in 2026-06) and breaks
+        # reproducibility. Offline = the cache IS the source of truth.
+        if self.mode != "offline" and datetime.now(timezone.utc) - fetched > self.ttl:
             return None
         try:
             return json.loads(response_json)
@@ -433,14 +438,24 @@ class WikidataReconciler:
         Format: { "<source_record_id>": {"qid": "Q...", "confidence": 1.0,
                                           "reviewed": True, "note": "..."}, ... }
         """
-        if not self.seed_path or not self.seed_path.exists():
+        if not self.seed_path:
+            return {}
+        if not self.seed_path.exists():
+            # A manifest explicitly declared this seed — silence here means
+            # every downstream run quietly loses its curated QIDs.
+            print(f"[reconcile] WARNING: declared seed file missing: {self.seed_path}",
+                  file=sys.stderr)
             return {}
         try:
             with self.seed_path.open(encoding="utf-8") as fh:
                 data = json.load(fh)
-        except (OSError, json.JSONDecodeError):
+        except (OSError, json.JSONDecodeError) as exc:
+            print(f"[reconcile] WARNING: seed file unreadable ({exc}): {self.seed_path}",
+                  file=sys.stderr)
             return {}
         if not isinstance(data, dict):
+            print(f"[reconcile] WARNING: seed file is not a JSON object: {self.seed_path}",
+                  file=sys.stderr)
             return {}
         return data
 

@@ -2,7 +2,11 @@
 
 Canonical Linked-Open-Data backend for **islamicatlas.org** with a **search-first** architecture. A single, persistent, citable identifier space (`iac:place-NNNNNNNN`, `iac:dynasty-NNNNNNNN`, `iac:person-NNNNNNNN`, `iac:work-NNNNNNNN`, `iac:manuscript-NNNNNNNN`, `iac:event-NNNNNNNN`) consolidates ~59,000 entities currently distributed across 13 layers of the public-facing atlas, into a unified search-first user experience: one search bar, federated results across all entity types, rich entity pages with map / timeline / relations / sources / cross-refs.
 
-> **Status:** Phase 0 (v0.1.0) — schema + ontology + search foundations.
+> **Status:** Phase 0, Hafta 9 sonu — schema set **v0.3.0** (ADR-013);
+> canonical store **46,702 kayıt** (place 15,239 · person 21,946 · work 9,331 ·
+> dynasty 186 — koddan sayılır, `make reindex-dry` özetiyle doğrulanır);
+> AO (TDV DiA scraper) tamam, AP (dia_works rich-mint) H10 hedefi.
+> Kalan işlerin sıralı listesi: [`docs/PHASE0_CLOSEOUT.md`](docs/PHASE0_CLOSEOUT.md).
 > **Maintainer:** Dr. Ali Çetinkaya (Selçuk University, Department of Computer Engineering)
 > **License (data):** CC-BY-SA 4.0 · **License (code):** MIT
 
@@ -14,28 +18,29 @@ The canonical store sits **upstream** of three downstream consumers: (1) a Types
 
 ---
 
-## Phase 0 deliverables (this release)
+## Phase 0 deliverables (H9 itibarıyla)
 
 | Layer | Files |
 |------|-------|
-| **Decisions** | 7 ADRs covering URI scheme, authority targets, ontology stack, **search-first architecture**, **unified entity catalog**, **content adapter pattern**, **rich entity page contract**. |
-| **Ontology** | `iac_ontology.ttl` (P0 active classes for place + dynasty + their subtypes, plus forward-declared classes for person, work, manuscript, event). `iac_context.jsonld` JSON-LD 1.1 context. |
-| **Common schemas** | Five reusable JSON Schema 2020-12 building blocks: `coords`, `multilingual_text`, `temporal`, `authority_xref`, `provenance`. |
-| **Namespace schemas** | place + dynasty (active P0); person + work (forward P0.2); manuscript + event (forward P0.3). |
-| **Search artifacts** | `typesense_collection.schema.json`, `facets.yaml`, 6 projection rules, `projector.py` rule-driven engine. |
-| **UI contract** | `entity_page.meta.schema.json` + 6 page recipes, `search_result.schema.json`. |
-| **Adapter framework** | `_template/` boilerplate, `registry.yaml`. |
-| **Tests** | 15 schema fixtures + 3 projector tests. **All 18 PASS.** |
+| **Decisions** | **14 ADR** — URI scheme, authority targets, ontology stack, search-first, unified catalog, adapter pattern, rich page contract, entity resolution, DiA rich-mint doktrini (ADR-009), digital_corpus, dia_chunks scope, maxLength 50K, schema-set versiyonlama (ADR-013), TDV scraping compliance (ADR-014). |
+| **Ontology** | `iac_ontology.ttl` + `iac_context.jsonld` (H2 vintage; Faz 0.5'te w3id yayını öncesi bakım gerekir — bkz. PHASE0_CLOSEOUT). |
+| **Schemas** | 11 dosyalık set, tek etiket **v0.3.0** (ADR-013; test-pinli): 6 entity + 5 `_common` yapı taşı. |
+| **Canonical store** | 46,702 kayıt (gitignored; `data/sources/` + adapter replay'den yeniden üretilebilir). |
+| **Adapters** | 12 adapter (`registry.yaml`): bosworth, yaqut, muqaddasi, le-strange, science-layer/-works, bosworth-rulers-fixup, dia, el-alam, openiti-works, dia-person-enrichment-v8, dia-tdv-scrape. |
+| **Search artifacts** | `typesense_collection.schema.json`, `facets.yaml`, 6 projection rules, `projector.py`; `full_reindex.py --dry-run` = 46,702/46,702 projeksiyon regresyon kapısı. |
+| **UI contract** | `entity_page.meta.schema.json` + 6 page recipes (testle doğrulanır), `search_result.schema.json`. |
+| **Tests** | `pytest tests/integration` → **147 passed** (15 şema fixture'ı dahil); ayrıca CLI: `run_schema_tests.py`, `test_projector.py`, `test_resolver.py`. |
 
 ```
 islamicatlas-canonical/
-├── docs/decisions/        7 ADRs
+├── docs/decisions/        14 ADR
+├── docs/h5..h9/           haftalık journal + karar logları
 ├── ontology/              TTL + JSON-LD context
-├── schemas/               6 entity schemas + 5 common building blocks
+├── schemas/               11 dosyalık v0.3.0 seti (6 entity + 5 _common)
 ├── search/                Typesense schema, facets, projection rules, projector.py
 ├── ui_contract/           page recipes + search-result schema
-├── pipelines/adapters/    _template + registry
-└── tests/                 schema fixtures + projector tests
+├── pipelines/             adapters (12) + _lib + integrity + migrations + search
+└── tests/                 integration suite + schema fixtures + CLI testleri
 ```
 
 ---
@@ -43,9 +48,9 @@ islamicatlas-canonical/
 ## Running the tests
 
 ```bash
-pip install jsonschema referencing pyyaml
-python3 tests/run_schema_tests.py        # → 15/15 passed (schema validation)
-python3 tests/test_projector.py          # → 3/3 passed (search projector)
+pip install -r requirements.txt
+make test        # tam kapı: schema CLI + projector + resolver + pytest (147 passed)
+make test-fast   # iç döngü (~9 sn): tüm-store validasyonları hariç
 ```
 
 ---
@@ -73,13 +78,14 @@ See ADR-006 §6.4. Steps: ontology class → schema → projection rule → page
 
 ## Phase activation table
 
-| Phase | Active namespaces | Acceptance criterion |
+| Phase | Active namespaces | Plan / gerçekleşen (2026-07 durumu) |
 |-------|------------------:|----------------------|
-| **P0** (Hafta 0-8) | place, dynasty | Bosworth NID-001..186 canonical; Yâqūt pilot ≥1k places. |
-| P0.2 (Hafta 9-16) | + person, work | Science Layer 186 scholars → person; OpenITI ~13.7k files → work; Bosworth rulers fix-up. |
-| P0.3 (Hafta 17-24) | + manuscript, event | Ottoman HTR + Salibiyyat + Evliya. |
-| P1 (Hafta 25+) | + institution, concept | Konya City Atlas → institution; madhab/tariqa → concept. |
+| **P0** (Hafta 0-8) | place, dynasty | ✅ Bosworth 186 dynasty; Yâqūt+Muqaddasī+Le Strange 15,239 place. |
+| P0.2 | + person, work | ✅ Erken geldi (H4-H5): DİA+el-Aʿlām+science 21,946 person; OpenITI+science 9,331 work. H8 v8 enrichment; H9 AO scraper. |
+| P0.3 | + manuscript, event | Şemalar forward-declared; içerik açık. |
+| P1 | + institution, concept | Açık. |
 
----
-
-See `NEXT_SESSION_PROMPT.md` for Hafta 2 (Bosworth ETL pilot).
+Kalan işlerin sahipli/sıralı listesi (AP → AN → Faz 0.5 → v1.0.0):
+**[`docs/PHASE0_CLOSEOUT.md`](docs/PHASE0_CLOSEOUT.md)**. Haftalık oturum
+kayıtları `docs/h5..h9/` altındadır (H2-H4 kökten `docs/h2..h4/`e taşındı,
+H9 Stage 5).

@@ -4,12 +4,22 @@
   "title": "Entity Page Recipe (Meta-Schema)",
   "description": "Meta-schema for per-entity-type page recipes. Each entity_type has its own recipe file at ui_contract/entity_pages/<type>.json that conforms to THIS schema. The UI layer reads the recipe at render time and instantiates section components in declared order with declared config. See ADR-007 for design.",
   "type": "object",
-  "required": ["entity_type", "sections"],
+  "required": [
+    "entity_type",
+    "sections"
+  ],
   "additionalProperties": false,
   "properties": {
     "entity_type": {
       "type": "string",
-      "enum": ["place", "dynasty", "person", "work", "manuscript", "event"]
+      "enum": [
+        "place",
+        "dynasty",
+        "person",
+        "work",
+        "manuscript",
+        "event"
+      ]
     },
     "version": {
       "type": "string",
@@ -21,7 +31,10 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["id", "order"],
+        "required": [
+          "id",
+          "order"
+        ],
         "additionalProperties": false,
         "properties": {
           "id": {
@@ -63,9 +76,30 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
-              "mobile": { "type": "string", "enum": ["show", "hide", "collapse"] },
-              "tablet": { "type": "string", "enum": ["show", "hide", "collapse"] },
-              "desktop": { "type": "string", "enum": ["show", "hide", "collapse"] }
+              "mobile": {
+                "type": "string",
+                "enum": [
+                  "show",
+                  "hide",
+                  "collapse"
+                ]
+              },
+              "tablet": {
+                "type": "string",
+                "enum": [
+                  "show",
+                  "hide",
+                  "collapse"
+                ]
+              },
+              "desktop": {
+                "type": "string",
+                "enum": [
+                  "show",
+                  "hide",
+                  "collapse"
+                ]
+              }
             },
             "description": "Per-breakpoint visibility override."
           }
@@ -74,8 +108,14 @@
     },
     "default_lang_fallback": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Language fallback chain for label rendering when current UI lang label is absent. Default ['tr', 'en', 'ar', 'translit']."
+    },
+    "$schema": {
+      "type": "string",
+      "description": "Relative pointer to this meta-schema (editor convenience); not a JSON Schema dialect id."
     }
   }
 }

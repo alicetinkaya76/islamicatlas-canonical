@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/provenance.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/provenance.schema.json",
   "title": "Provenance",
   "description": "Per-entity provenance metadata blending W3C PROV-O (process model: who-derived-from-what-when-by-which-activity) with Dublin Core Terms (record-level metadata: created, modified, source, license). Every canonical entity in islamicatlas-canonical MUST carry a provenance block. Provenance immutability principle: 'created' and the initial 'derived_from' set are write-once; subsequent modifications append to record_history and update 'modified', but never overwrite the original assertions.",
   "type": "object",
@@ -29,9 +29,10 @@
               "secondary_scholarly",
               "tertiary_reference",
               "manual_editorial",
-              "authority_file"
+              "authority_file",
+              "digital_corpus"
             ],
-            "description": "Source category. 'primary_textual' = a primary source text (Yâkût Mu'cem itself). 'secondary_scholarly' = modern scholarly work (Bosworth NID, Le Strange Lands). 'tertiary_reference' = encyclopaedic (DİA, EI). 'manual_editorial' = an editorial assertion by the canonical store author. 'authority_file' = imported from an external authority (Wikidata cross-reference)."
+            "description": "Source category. 'primary_textual' = a primary source text (Yâkût Mu'cem itself). 'secondary_scholarly' = modern scholarly work (Bosworth NID, Le Strange Lands). 'tertiary_reference' = encyclopaedic (DİA, EI). 'manual_editorial' = an editorial assertion by the canonical store author. 'authority_file' = imported from an external authority (Wikidata cross-reference). 'digital_corpus' = OpenITI Tier-4 placeholder where author/work is attested via an OpenITI text URI but no full mint exists yet — see ADR-010."
           },
           "page_or_locator": {
             "type": "string",

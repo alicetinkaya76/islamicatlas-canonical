@@ -1,8 +1,19 @@
 name: CI
 
+# H9 Stage 4 rewrite. The previous workflow was doubly broken:
+#   * smoke-test-audit called scripts/week1_audit.py — the file does not exist
+#     → guaranteed red on every push;
+#   * schema validation globbed schema/canonical/* (also nonexistent) → 0
+#     files validated, reported green (and used Draft7 against 2020-12
+#     schemas).
+# It also only fired on `main`, while all H5+ work lives on hafta* branches.
+# This version runs the REAL suite. The canonical store (data/canonical,
+# data/_state) is gitignored, so store-dependent tests skip themselves on a
+# fresh clone (guards added in H9 Stage 3) — measured storeless-green locally.
+
 on:
   push:
-    branches: [main]
+    branches: [main, "hafta*"]
   pull_request:
     branches: [main]
 
@@ -11,8 +22,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  lint-and-validate:
-    name: Lint & Schema Validation
+  test:
+    name: Schema + projector + resolver + integration suite
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -22,49 +33,24 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
+          cache-dependency-path: requirements.txt
 
-      - name: Install dev dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install ruff mypy jsonschema
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      - name: Ruff format check
-        run: ruff format --check scripts/
-        continue-on-error: true   # Week 1'de soft; Week 2'den itibaren strict
+      - name: Run the full gate (same entry point as local `make test`)
+        run: make test
 
-      - name: Ruff lint
-        run: ruff check scripts/
-        continue-on-error: true
-
-      - name: Validate JSON Schema files are valid JSON Schema
-        run: |
-          python -c "
-          import json, glob, sys
-          from jsonschema import Draft7Validator
-          failed = False
-          for f in sorted(glob.glob('schema/canonical/*.schema.json')):
-              try:
-                  schema = json.load(open(f))
-                  Draft7Validator.check_schema(schema)
-                  print(f'✓ {f}')
-              except Exception as e:
-                  print(f'✗ {f}: {e}')
-                  failed = True
-          sys.exit(1 if failed else 0)
-          "
-
-  smoke-test-audit:
-    name: Audit Script Smoke Test
+  lint:
+    name: Ruff (advisory)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
-      - name: Verify audit script imports & argparse
-        run: |
-          python -c "import ast; ast.parse(open('scripts/week1_audit.py').read()); print('✓ syntax OK')"
-          python scripts/week1_audit.py --help
+      - name: Install ruff
+        run: pip install ruff
+      - name: Ruff lint (advisory until a cleanup pass adopts a config)
+        run: ruff check pipelines/ search/ tests/
+        continue-on-error: true

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.1.0/_common/temporal.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/temporal.schema.json",
   "title": "Temporal Coverage",
   "description": "Temporal coverage of an entity, expressible in CE years, AH (Hijri) years, and / or ISO 8601 dates. Either a Common-Era anchor (start_ce) OR an Anno Hegirae anchor (start_ah) OR an iso_start_date is required for a record to assert any temporality at all. Ranges are inclusive on both ends. The 'approximation' flag annotates the precision of the assertion (exact / circa / before / after / floruit / disputed).",
   "type": "object",

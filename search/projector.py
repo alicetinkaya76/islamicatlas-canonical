@@ -231,10 +231,18 @@ class Projector:
     # ----- derivation implementations -----------------------------------
 
     def _d_subtypes(self, record: dict, *_) -> list[str]:
+        # Subtypes = every @type entry except the namespace supertype,
+        # regardless of array order (H9 Stage 3 fix — the old `types[1:]`
+        # returned ["person"] as a subtype for subtype-first arrays like
+        # ["iac:Scholar", "iac:Person"]).
         types = record.get("@type", []) or []
         if len(types) <= 1:
             return []
-        return [t.split(":", 1)[-1].lower() for t in types[1:]]
+        supertype = self._infer_entity_type(record)
+        return sorted({
+            t.split(":", 1)[-1].lower() for t in types
+            if t.split(":", 1)[-1].lower() != supertype
+        })
 
     def _d_subtype_first_specific(self, record: dict, *_) -> str | None:
         subs = self._d_subtypes(record)
@@ -330,11 +338,23 @@ class Projector:
         return self._iqlim_lookup
 
     def _d_source_layers(self, record: dict, *_) -> list[str]:
+        # Maps provenance source_id prefixes → facet layer values. Kept in
+        # sync with search/facets.yaml source_layer values (H9 Stage 3: added
+        # the person/work-era prefixes — science-works, el-alam, dia variants,
+        # tdv_dia — that landed after this map was first written).
         prefix_map = {
             "yaqut": "yaqut", "le-strange": "le-strange",
-            "bosworth-nid": "bosworth", "makdisi": "makdisi",
+            "bosworth-nid": "bosworth",
+            # 'muqaddasi:' is the prefix the muqaddasi adapter actually stamps
+            # (2,070 place records); it belongs to the declared 'makdisi'
+            # facet layer (al-Maqdisī). Review catch, H9 Stage 3.
+            "makdisi": "makdisi", "muqaddasi": "makdisi",
             "evliya": "evliya-celebi", "ibn-battuta": "ibn-battuta",
             "openiti": "openiti", "manual": "manual",
+            "science-works": "science-layer", "science-layer": "science-layer",
+            "el-alam": "el-alam", "alam": "el-alam",
+            "dia": "dia", "dia-chunks": "dia", "dia-chunks-v8": "dia",
+            "dia-rich": "dia", "tdv_dia": "dia",
         }
         layers: set[str] = set()
         for entry in (record.get("provenance", {}).get("derived_from") or []):
@@ -583,9 +603,18 @@ class Projector:
     # ----- helpers -------------------------------------------------------
 
     def _infer_entity_type(self, record: dict) -> str:
+        # @id is authoritative: the PID pattern iac:<ns>-NNNNNNNN carries the
+        # namespace by construction (ADR-001). H9 Stage 3 fix — inferring from
+        # @type[0] broke on the 768 person records whose arrays are
+        # subtype-first (e.g. ["iac:Scholar", "iac:Person"]), killing
+        # full_reindex with "No projection rule for entity_type=scholar".
+        pid = record.get("@id") or ""
+        m = re.match(r"^iac:([a-z]+)-[0-9]{8}$", pid)
+        if m:
+            return m.group(1)
         types = record.get("@type") or []
         if not types:
-            raise ProjectorError("Record has no @type")
+            raise ProjectorError("Record has no @type and no parseable @id")
         first = types[0]
         if first.startswith("iac:"):
             return first.split(":", 1)[1].lower()

@@ -67,6 +67,10 @@ class PidMinter:
         self.counter_path = self.state_dir / "pid_counter.json"
         self.index_path = self.state_dir / "pid_index.json"
         self.lock_path = self.state_dir / ".pid_minter.lock"
+        # Batch-session state (see session()); None = per-call persistence.
+        self._session_counter: dict[str, int] | None = None
+        self._session_index: dict[str, str] | None = None
+        self._session_dirty = False
 
     # ----- public API ----------------------------------------------------
 
@@ -85,6 +89,15 @@ class PidMinter:
 
         index_key = f"{namespace}:{input_hash}"
 
+        # Inside a session(): mint against the in-memory copy; persist on exit.
+        if self._session_index is not None:
+            if index_key in self._session_index:
+                return self._session_index[index_key]
+            pid = self._allocate(self._session_counter, namespace)
+            self._session_index[index_key] = pid
+            self._session_dirty = True
+            return pid
+
         with self._exclusive_lock():
             counter = self._load_counter()
             index = self._load_index()
@@ -94,20 +107,23 @@ class PidMinter:
                 # touching the counter.
                 return index[index_key]
 
-            next_ord = counter.get(namespace, 0) + 1
-            if next_ord > 99_999_999:
-                raise PidMinterError(
-                    f"Namespace {namespace!r} ordinal exhausted (>99,999,999). "
-                    f"Schema PID pattern must be widened before continuing."
-                )
-            pid = _PID_PATTERN_TEMPLATE.format(ns=namespace, ord=next_ord)
-
-            counter[namespace] = next_ord
+            pid = self._allocate(counter, namespace)
             index[index_key] = pid
 
             self._save_counter(counter)
             self._save_index(index)
             return pid
+
+    @staticmethod
+    def _allocate(counter: dict[str, int], namespace: str) -> str:
+        next_ord = counter.get(namespace, 0) + 1
+        if next_ord > 99_999_999:
+            raise PidMinterError(
+                f"Namespace {namespace!r} ordinal exhausted (>99,999,999). "
+                f"Schema PID pattern must be widened before continuing."
+            )
+        counter[namespace] = next_ord
+        return _PID_PATTERN_TEMPLATE.format(ns=namespace, ord=next_ord)
 
     def lookup(self, namespace: str, input_hash: str) -> str | None:
         """Return the PID for (namespace, input_hash) without minting a new one.
@@ -116,12 +132,57 @@ class PidMinter:
         the caller knows the entity should already exist and wants to bail
         loudly if not.
         """
+        if self._session_index is not None:
+            return self._session_index.get(f"{namespace}:{input_hash}")
         with self._exclusive_lock():
             index = self._load_index()
         return index.get(f"{namespace}:{input_hash}")
 
+    @contextmanager
+    def session(self) -> Iterator["PidMinter"]:
+        """Batch-mint context: load state once, mint in memory, persist once.
+
+        mint()/lookup() calls inside the block operate on an in-memory copy;
+        the exclusive lock is held for the whole block and the index/counter
+        are written exactly once on exit (atomic, fsynced). Semantics match
+        per-call minting — same PIDs, same idempotency — but a bulk pass
+        (e.g. AP dia_works, 8-25K mints) does one read+write instead of N
+        full-index rewrites (~31 ms/mint measured → minutes saved).
+
+        The state is persisted EVEN IF the block raises (finally-path): a
+        caller may already have written canonical records carrying PIDs
+        minted in this session, and dropping those allocations would let the
+        next run hand the same ordinal to a different entity. A persisted-
+        but-unused allocation is merely a phantom index entry — harmless by
+        comparison, and disk-existence guards (see el_alam Track A) already
+        tolerate phantoms. (Review-proven failure mode, H9 Stage 3.)
+
+        Nesting is not supported; the inner call raises.
+        """
+        if self._session_index is not None:
+            raise PidMinterError("PidMinter.session() does not nest")
+        with self._exclusive_lock():
+            self._session_counter = self._load_counter()
+            self._session_index = self._load_index()
+            self._session_dirty = False
+            try:
+                yield self
+            finally:
+                counter, index, dirty = (
+                    self._session_counter, self._session_index, self._session_dirty)
+                self._session_counter = None
+                self._session_index = None
+                self._session_dirty = False
+                if dirty:
+                    self._save_counter(counter)
+                    self._save_index(index)
+
     def stats(self) -> dict[str, int]:
         """Return the current high-water-mark per namespace."""
+        # Inside a session() the lock is already held by this instance —
+        # re-acquiring flock on a fresh fd self-deadlocks (review-proven).
+        if self._session_counter is not None:
+            return dict(self._session_counter)
         with self._exclusive_lock():
             return dict(self._load_counter())
 
