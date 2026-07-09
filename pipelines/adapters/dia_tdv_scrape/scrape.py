@@ -122,6 +122,25 @@ def plan_fetch(selected, progress_slugs, refetch=False):
     return todo, done
 
 
+def _retry_after_seconds(ra: str | None, attempt: int) -> float:
+    """Delay for a 429/503. Honors both RFC 9110 Retry-After forms —
+    delta-seconds AND HTTP-date (the old parser only knew digits, so a
+    date-form header fell through to exponential backoff, violating the
+    manifest's respect_retry_after promise). Server-specified delays are
+    honored up to 300 s; without a header, exponential backoff capped at 60 s."""
+    if ra:
+        if ra.strip().isdigit():
+            return min(float(ra.strip()), 300.0)
+        try:
+            dt = parsedate_to_datetime(ra)
+            delta = (dt - datetime.now(timezone.utc)).total_seconds()
+            if delta > 0:
+                return min(delta, 300.0)
+        except (TypeError, ValueError):
+            pass
+    return min(float(2 ** attempt), 60.0)
+
+
 class RateLimiter:
     def __init__(self, rate: float):
         self.rate = rate
@@ -159,9 +178,7 @@ def _fetch(session, slug, prior, rl):
             time.sleep(min(2 ** attempt, 8))
             continue
         if r.status_code in (429, 503):
-            ra = r.headers.get("Retry-After")
-            delay = float(ra) if (ra and ra.isdigit()) else 2 ** attempt
-            time.sleep(min(delay, 60))
+            time.sleep(_retry_after_seconds(r.headers.get("Retry-After"), attempt))
             continue
         return (r.status_code, r.text if r.status_code == 200 else None, dict(r.headers))
     return ("error", None, {"error": "retry_exhausted"})
@@ -204,10 +221,12 @@ def run_scrape(args) -> int:
     slugs = _select_slugs(args, chunk_index)
     progress = _load_progress()
     progress.setdefault("slugs", {})
-    progress["meta"] = {"adapter": "dia-tdv-scrape", "compliance": "ADR-014",
+    # Spread FIRST so current-run values win (H9 Stage 3 fix: the old order
+    # let stale meta from the first run shadow rate/user_agent forever).
+    progress["meta"] = {**progress.get("meta", {}),
+                        "adapter": "dia-tdv-scrape", "compliance": "ADR-014",
                         "rate": args.rate, "user_agent": USER_AGENT,
-                        "updated": _now(), **progress.get("meta", {}),
-                        "last_run": _now()}
+                        "updated": _now(), "last_run": _now()}
     todo, done = plan_fetch(slugs, progress["slugs"], args.refetch)
     print(f"[scrape] {len(slugs)} selected · {len(done)} already done · "
           f"{len(todo)} to fetch · rate={args.rate}s")

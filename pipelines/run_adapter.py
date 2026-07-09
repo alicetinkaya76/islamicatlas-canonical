@@ -217,6 +217,7 @@ def main() -> int:
         if not pid:
             failures.append(("<no-pid>", "record missing @id"))
             n_validation_fail += 1
+            print("FAIL  <no-pid>  record missing @id", file=sys.stderr)
             if strict:
                 break
             continue
@@ -239,9 +240,14 @@ def main() -> int:
 
         if not args.dry_run:
             out_path = out_dir / filename_for_pid(pid)
-            # Preserve integrity-pass fields on overwrite (predecessor/successor,
-            # had_capital, territory, located_in — these come from second-pass
-            # backfills and shouldn't be wiped by a partial re-run).
+            # Preserve integrity-pass fields on overwrite — these come from
+            # second-pass backfills (place/dynasty relations, person↔work and
+            # person↔place links) and shouldn't be wiped by a partial re-run.
+            # H9 Stage 3: the original whitelist covered only place/dynasty
+            # fields; a person-adapter re-run silently dropped authored_works /
+            # birth_place / death_place / active_in_places. authority_xref is
+            # likewise preserved when the fresh record carries none (e.g.
+            # offline re-run with a cold reconciler).
             if out_path.exists():
                 try:
                     with out_path.open(encoding="utf-8") as fh:
@@ -249,6 +255,9 @@ def main() -> int:
                     for k in (
                         "predecessor", "successor", "had_capital", "territory",
                         "located_in", "had_capital_of", "falls_within_iqlim",
+                        "authored_works", "active_in_places",
+                        "birth_place", "death_place", "had_ruler",
+                        "authority_xref",
                     ):
                         if prior.get(k) and not record.get(k):
                             record[k] = prior[k]
@@ -289,7 +298,7 @@ def main() -> int:
         print(f"  reconcile counters:  {reconciler.counters}")
         reconciler.close()
     print(f"  PID counter state:   {pid_minter.stats()}")
-    if failures and not strict:
+    if failures:
         print()
         print(f"  First 5 of {len(failures)} validation failures:")
         for pid, msg in failures[:5]:

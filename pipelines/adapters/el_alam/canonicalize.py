@@ -29,6 +29,7 @@ import re
 from typing import Iterator
 
 from pipelines._lib import person_canonicalize as pc
+from pipelines._lib.pid_minter import filename_for_pid
 
 ATTRIBUTED_TO = "https://orcid.org/0000-0002-7747-6854"
 LICENSE = "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -104,14 +105,24 @@ def canonicalize(extracted_iter, pid_minter, reconciler, options):
         # TRACK A — augment-only sidecar; do NOT mint a new PID.
         # ---------------------------------------------------------------
         if dia_slug:
-            # The DİA adapter's PID for this slug is computable since the
-            # minter is idempotent: input_hash is "dia:<slug>"
-            try:
-                existing_pid = pid_minter.mint(namespace, f"dia:{dia_slug}")
-            except Exception:
-                existing_pid = None
-            # If for some reason that lookup fails (e.g. non-bio slug skipped
-            # by DİA filter), fall through to Track B as a safety net.
+            # Look up the DİA adapter's PID for this slug — READ-ONLY.
+            # (H9 Stage 3 fix: this used to call mint(), which allocated a
+            # fresh PID for slugs the DİA filter had skipped — mint always
+            # succeeds, so the Track-B safety net below was dead code and 20
+            # Ziriklī persons were silently routed to an augment sidecar
+            # keyed on PIDs that had no canonical record.)
+            existing_pid = pid_minter.lookup(namespace, f"dia:{dia_slug}")
+            if existing_pid:
+                # Guard against phantom index entries (PID indexed but record
+                # never written, e.g. dia's pre-fix mint-before-skip): only
+                # treat as Track A if the canonical file actually exists.
+                # Repo root derives from the minter's state dir
+                # (<repo>/data/_state) — run_adapter passes no repo_root.
+                repo_root = pid_minter.state_dir.parent.parent
+                rec_path = (repo_root / "data" / "canonical" / namespace /
+                            filename_for_pid(existing_pid))
+                if not rec_path.exists():
+                    existing_pid = None
             if existing_pid:
                 augment_pending[existing_pid] = {
                     "alam_id": aid,

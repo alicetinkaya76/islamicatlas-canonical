@@ -4,10 +4,11 @@ full_reindex.py — Walk the canonical store and project every record into
 its Typesense-ready search document via the existing Projector. Validates
 that every record projects cleanly.
 
-Per the Hafta 2 acceptance contract (H2.7 default), the real Typesense
-bootstrap is deferred to Hafta 6 — this CLI's job for now is to act as a
-projection regression gate. If `--dry-run` is set (default), it prints
-NDJSON to stdout (or to --out PATH) and a summary to stderr.
+The live Typesense indexer is not implemented yet (deferred to Faz 0.5,
+post-AP — see docs/PHASE0_CLOSEOUT.md); this CLI acts as the projection
+regression gate. The `--dry-run` flag is REQUIRED (not default): it prints
+NDJSON to stdout (or to --out PATH) and a summary to stderr; a flagless
+call exits 2 by design.
 
 Usage:
     python3 pipelines/search/full_reindex.py --dry-run
@@ -40,9 +41,9 @@ def main() -> int:
                     "contract."
     )
     parser.add_argument("--dry-run", action="store_true",
-                        help="Default in Hafta 2: emit NDJSON instead of "
-                             "calling the Typesense bootstrap. Required until "
-                             "Hafta 6 lands the live indexer.")
+                        help="Required: emit NDJSON instead of calling a "
+                             "Typesense bootstrap (live indexer lands in "
+                             "Faz 0.5, post-AP).")
     parser.add_argument("--namespace", default=None,
                         help="Restrict projection to one namespace dir (e.g. "
                              "'dynasty'). Default: all namespaces present.")
@@ -53,10 +54,10 @@ def main() -> int:
     args = parser.parse_args()
 
     if not args.dry_run:
-        # Hard guard until Hafta 6.
+        # Hard guard: no live indexer exists yet (Faz 0.5, post-AP).
         print(
-            "ERROR: live Typesense indexing is deferred until Hafta 6. "
-            "Re-run with --dry-run for projection validation only.",
+            "ERROR: live Typesense indexing is not implemented (Faz 0.5, "
+            "post-AP). Re-run with --dry-run for projection validation only.",
             file=sys.stderr,
         )
         return 2

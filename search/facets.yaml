@@ -1,7 +1,10 @@
 # Facet taxonomy for islamicatlas-canonical / iac_entities Typesense collection
 #
-# Read by:  search/projector.py (validates that all referenced fields exist in collection schema)
 # Read by:  UI (renders the facet panel based on this file)
+# Consistency with search/typesense_collection.schema.json and the projector's
+# derivations is enforced by tests/integration/test_search_ui_contract.py (no
+# code reads this file at projection time — H9 Stage 3 corrected the stale
+# claim that the projector validates it).
 # Versioned: keep adding new facets in the v0.x series, never remove a facet without deprecation cycle
 
 version: 0.1.0
@@ -68,7 +71,12 @@ global_facets:
       - { value: "Miṣr",      label_tr: "Mısır",     label_en: "Miṣr" }
       - { value: "Ḥijāz",     label_tr: "Hicaz",     label_en: "Ḥijāz" }
       - { value: "Yaman",     label_tr: "Yemen",     label_en: "Yaman" }
-    default_open: true
+    # H9 Stage 3: closed until the data exists — 0/15,239 places carry
+    # falls_within_iqlim and data/iqlim_labels.json is not generated, so an
+    # open iqlim facet renders permanently empty. Iqlim backfill is a
+    # Faz 0.5 candidate (see docs/PHASE0_CLOSEOUT.md); flip default_open
+    # back when the backfill lands.
+    default_open: false
     multi_select: true
     sort_by: alphabetical
 
@@ -89,6 +97,10 @@ global_facets:
       - { value: konya-city-atlas,  label_tr: "Konya City Atlas",     label_en: "Konya City Atlas" }
       - { value: science-layer,     label_tr: "Bilim Katmanı",        label_en: "Science Layer" }
       - { value: openiti,           label_tr: "OpenITI",              label_en: "OpenITI" }
+      # H9 Stage 3: person-namespace layers that landed in H4-H8 — values
+      # match projector._d_source_layers' prefix_map exactly.
+      - { value: dia,               label_tr: "TDV İslâm Ansiklopedisi", label_en: "TDV Encyclopaedia of Islam" }
+      - { value: el-alam,           label_tr: "el-Aʿlâm (Ziriklî)",   label_en: "al-Aʿlām (Ziriklī)" }
       - { value: manual,            label_tr: "Editöryal",            label_en: "Manual" }
     default_open: true
     multi_select: true

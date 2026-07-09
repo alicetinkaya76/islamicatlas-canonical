@@ -83,10 +83,15 @@ _TITLE_STOPWORDS = frozenset({
     "muqaddimah", "diwan",
 })
 
-# Token-level Arabic article prefix strip — applied AFTER tokenization to
+# Token-level Arabic ARTICLE prefix strip — applied AFTER tokenization to
 # catch attached forms like "alqanun" → "qanun" that the dash-replacement
 # step doesn't reach (because the source text had no dash).
-_TOKEN_ARABIC_PREFIXES = ("al", "el", "il", "li", "fi", "wa", "bi")
+# H9 Stage 3: narrowed to the article forms only. The old list also stripped
+# attached proclitics (li/fi/wa/bi), which mangled roots that merely START
+# with those letters: "Wafayāt"→"fayat" (breaking the Vefeyât match),
+# "Fihrist"→"hrist", "Bidāya"→"daya". Standalone proclitic tokens are still
+# dropped via _TITLE_STOPWORDS after the apostrophe/dash split.
+_TOKEN_ARABIC_PREFIXES = ("al", "el", "il")
 
 # Turkish-specific single-character ASCII folds. NFKD decomposition does
 # NOT split these because they are precomposed codepoints, not letter+
@@ -114,7 +119,11 @@ _TOKEN_TRANSLIT_FOLDS = [
     ("sh", "s"),    # Sharh ↔ Şerh
     ("z", "d"),     # Dhahabi/Zehebi normalization
     ("j", "c"),     # Jabr ↔ Cebr
-    ("w", ""),      # Khwarizmi/Hârizmî/Hayawān/Hayevân — drop w entirely (Latin trans variants split unpredictably)
+    ("w", ""),      # Khwarizmi/Hârizmî — drop w entirely (Latin trans variants split unpredictably)
+    ("v", ""),      # H9 Stage 3: drop v symmetrically with w — Turkish
+                    # transliteration renders Arabic wāw as v (Hayawān↔Hayevân,
+                    # Wafayāt↔Vefeyât); dropping only w left the pairs apart
+                    # ("hayan" vs "hayav"). Aggressive, per the Pass-B gate note.
     ("q", "k"),     # Qānūn ↔ Kânûn
     ("e", "a"),     # Turkish e ↔ Arabic a (Cebr/Jabr, Hayevan/Hayawan,
                     # Mes'udi/Mas'udi). False-positive risk mitigated by
@@ -139,7 +148,12 @@ _TOKEN_TRANSLIT_FOLDS = [
 # "fi't-Tıb" reduces correctly via the dash and apostrophe are handled
 # separately in normalize_title_for_fingerprint().
 _PUNCT_RE = re.compile(r"[\.,;:\!\?\(\)\[\]\{\}\"\u201c\u201d\u2018\u2019\u00ab\u00bb<>\\/\u02bc\u02bb\u02be\u02bf\u02c8]")
-_DASH_AND_APOSTROPHE_RE = re.compile(r"[-\u2010\u2011\u2012\u2013\u2014\u2015'\u02bc\u02bb]")
+# H9 Stage 3: \u02be/\u02bf (02be/02bf) and curly quotes (2018/2019) joined this class \u2014
+# they are apostrophe-equivalent SEPARATORS in transliteration ("a\u02bfy\u0101n" must
+# split like "a'y\u00e2n"), not strippable punctuation (stripping glued the halves:
+# "ayan" vs "a yan" \u2192 fingerprint mismatch on Wafay\u0101t/Vefey\u00e2t pairs).
+_DASH_AND_APOSTROPHE_RE = re.compile(
+    r"[-\u2010\u2011\u2012\u2013\u2014\u2015'\u02bc\u02bb\u02be\u02bf\u2018\u2019]")
 _WHITESPACE_RE = re.compile(r"\s+")
 
 # Arabic case-endings stripped from token tails (after consonant-skeleton folding).
@@ -207,11 +221,12 @@ def normalize_title_for_fingerprint(title: str) -> str:
     layers an "author PID overlap" gate on top of fingerprint match,
     making false-positive merges very unlikely.
 
-    Examples:
+    Examples (locked by tests/integration/test_work_canonicalize_lib.py):
         "al-Qānūn fī al-Ṭibb"        → "kanun tib"
         "el-Kânûn fi't-Tıb"          → "kanun tib"
-        "Kitāb al-Ḥayawān"           → "havavan"  (after w→v double-v collapse)
-        "Kitabu'l-Hayevan"           → "havavan"
+        "Kitāb al-Ḥayawān"           → "hayan"  (w AND v dropped, aa→a)
+        "Kitabu'l-Hayevan"           → "hayan"
+        "Wafayāt al-aʿyān"           → "acyan afayat"-style match with "Vefeyâtü'l-a'yân"
     """
     if not title or not isinstance(title, str):
         return ""
@@ -244,11 +259,15 @@ def normalize_title_for_fingerprint(title: str) -> str:
         if not tok:
             continue
 
-        # 8a. Arabic script handling — strip article prefix, then check
-        #     stopword in Arabic
+        # 8a. Arabic script handling — check stopwords BEFORE the prefix
+        #     strip (H9 Stage 3: stripping first turned the stopword "في"
+        #     into the garbage token "ي"), then strip the article prefix and
+        #     re-check; single-letter leftovers are dropped.
         if any(_is_arabic_script_char(ch) for ch in tok):
+            if tok in _ARABIC_STOPWORDS:
+                continue
             stripped = _ARABIC_PREFIXES_RE.sub("", tok)
-            if stripped and stripped not in _ARABIC_STOPWORDS:
+            if len(stripped) >= 2 and stripped not in _ARABIC_STOPWORDS:
                 norm_tokens.append(stripped)
             continue
 
@@ -595,34 +614,41 @@ def build_work_provenance(
 # @type array builder for works
 # --------------------------------------------------------------------------- #
 
-# Closed enum from work.schema.json @type.items; kept here to mirror
-# person_canonicalize.py's PROFESSION_TO_SUBTYPE design. If schema enum
-# differs, the schema validator will catch it and the integrity test
-# `test_a5_type_array_contains_work` will fail.
+# Closed enum from work.schema.json v0.3.0 @type.items (H9 Stage 3: the H5
+# draft carried subtypes — LegalManual, HistoricalChronicle, Encyclopedia,
+# Commentary, Translation, DivanCollection — that never entered the frozen
+# enum; an early `return` hid the mismatch as dead code). Any drift is caught
+# by test_work_canonicalize_lib.py::test_work_subtypes_match_schema_enum.
 WORK_SUBTYPES = {
     "iac:Work",            # base type — always present
     "iac:Book",
     "iac:Treatise",
+    "iac:Poem",
+    "iac:Fatwa",
+    "iac:Letter",
+    "iac:Map",
+    "iac:Compendium",
     "iac:Dictionary",
-    "iac:Encyclopedia",
-    "iac:Commentary",
-    "iac:Translation",
-    "iac:DivanCollection",
     "iac:HadithCollection",
-    "iac:LegalManual",
-    "iac:HistoricalChronicle",
+    "iac:Tafsir",
+    "iac:Tarikh",
+    "iac:Sira",
+    "iac:Tabaqa",
+    "iac:Geography",
 }
 
 
-# Heuristic mapping: subjects → suggested subtypes
+# Heuristic mapping: subjects → suggested subtypes (v0.3.0 enum values)
 _SUBJECT_TO_SUBTYPE = {
     "hadith": "iac:HadithCollection",
-    "fiqh": "iac:LegalManual",
-    "history": "iac:HistoricalChronicle",
+    "fiqh": "iac:Treatise",          # enum has no LegalManual; treatise is the honest fit
+    "history": "iac:Tarikh",
     "lexicography": "iac:Dictionary",
-    "biography": "iac:Encyclopedia",  # tabaqat-style works
-    "tafsir": "iac:Commentary",
-    "poetry": "iac:DivanCollection",
+    "biography": "iac:Tabaqa",       # tabaqat-style works
+    "tafsir": "iac:Tafsir",
+    "poetry": "iac:Poem",
+    "geography": "iac:Geography",
+    "sira": "iac:Sira",
 }
 
 
@@ -633,12 +659,13 @@ def build_work_type_array(
     is_commentary: bool = False,
     extra_subtypes: list[str] | None = None,
 ) -> list[str]:
-    return ["iac:Work"]   # H5 conservative; schema enum migration in H6
-    """Build the @type array for a work record.
+    """Build the @type array for a work record (v0.3.0 enum, maxItems=3).
 
-    Always includes 'iac:Work'. Additional subtypes derived from subjects[]
-    (with explicit overrides for translation/commentary). Capped at 4
-    items (schema constraint, mirrors person).
+    Always includes 'iac:Work'. Additional subtypes derived from subjects[].
+    `is_translation` / `is_commentary` are accepted for API compatibility but
+    contribute nothing: the frozen v0.3.0 enum has no Translation/Commentary
+    class (candidates for a future v0.4.x set bump, ADR-013 R2/R3).
+    Unknown extra_subtypes are silently dropped (enum-guarded).
     """
     types: set[str] = {"iac:Work"}
     if subjects:
@@ -646,18 +673,14 @@ def build_work_type_array(
             sub = _SUBJECT_TO_SUBTYPE.get(s)
             if sub and sub in WORK_SUBTYPES:
                 types.add(sub)
-    if is_translation:
-        types.add("iac:Translation")
-    if is_commentary:
-        types.add("iac:Commentary")
     if extra_subtypes:
         for t in extra_subtypes:
             if t in WORK_SUBTYPES:
                 types.add(t)
     out = sorted(types)
-    if len(out) > 4:
+    if len(out) > 3:  # schema @type maxItems=3
         non_base = [t for t in out if t != "iac:Work"]
-        out = ["iac:Work"] + sorted(non_base)[:3]
+        out = ["iac:Work"] + sorted(non_base)[:2]
     return out
 
 
@@ -802,22 +825,13 @@ def try_resolve_author_pid(
     for cand in candidate_input_hashes:
         if not cand:
             continue
-        # Prefer lookup_only when supported (does not mint)
-        if hasattr(pid_minter, "lookup"):
-            try:
-                pid = pid_minter.lookup("person", cand)
-                if pid:
-                    return pid
-            except Exception:
-                continue
-        # Otherwise: try a pure read of the index
-        if hasattr(pid_minter, "_index"):
-            try:
-                idx = pid_minter._index.get("person", {})
-                if cand in idx:
-                    return idx[cand]
-            except Exception:
-                continue
+        # lookup() reads without minting (PidMinter guarantees the method;
+        # the old `_index` fallback here targeted an attribute that never
+        # existed, with a key shape that was wrong even if it had — removed
+        # in H9 Stage 3).
+        pid = pid_minter.lookup("person", cand)
+        if pid:
+            return pid
     return None
 
 
@@ -856,3 +870,43 @@ def quick_validate_work(record: dict) -> list[str]:
         if not isinstance(a, str) or not re.match(r"^iac:person-[0-9]{8}$", a):
             errors.append(f"invalid author PID: {a!r}")
     return errors
+
+
+# DiA print locator ("TDV DiA cilt 16 s. 395") or a dated web locator for the
+# 5 online-only maddes (H9 Stage 2e finding) — both satisfy ADR-009 (c).
+_ADR009_PRINT_LOCATOR_RE = re.compile(r"cilt\s*\d+.{0,20}s(?:ayfa)?\.?\s*\d+", re.IGNORECASE)
+_ADR009_WEB_LOCATOR_RE = re.compile(r"https?://islamansiklopedisi\.org\.tr/\S+.{0,40}\d{4}")
+
+
+def adr009_rich_gate(record: dict) -> list[str]:
+    """ADR-009 rich-mint doctrine gate — the pre-write check AP (dia_works,
+    H10+) MUST run on every DiA-side work record. Returns failure strings
+    (empty == record may be written to canonical).
+
+    Doctrine (ADR-009 §Karar): a DiA-side work record may be written IFF
+      (a) labels.prefLabel carries >= 2 languages,
+      (b) labels.description carries >= 1 non-empty language,
+      (c) provenance.derived_from[].page_or_locator has a specific cilt+sayfa
+          reference (or, per H9 Stage 2e, a dated web locator for the five
+          online-only maddes).
+    Failures route to a review sidecar — never a silent write.
+    """
+    failures: list[str] = []
+    labels = record.get("labels") or {}
+
+    pref = labels.get("prefLabel") or {}
+    langs = [k for k, v in pref.items() if isinstance(v, str) and v.strip()]
+    if len(langs) < 2:
+        failures.append(f"adr009(a): prefLabel has {len(langs)} language(s), need >=2")
+
+    desc = labels.get("description") or {}
+    if not any(isinstance(v, str) and v.strip() for v in desc.values()):
+        failures.append("adr009(b): no non-empty description in any language")
+
+    derived = (record.get("provenance") or {}).get("derived_from") or []
+    locators = [e.get("page_or_locator") or "" for e in derived]
+    if not any(_ADR009_PRINT_LOCATOR_RE.search(loc) or _ADR009_WEB_LOCATOR_RE.search(loc)
+               for loc in locators):
+        failures.append("adr009(c): no cilt+sayfa (or dated web) locator in derived_from")
+
+    return failures

@@ -292,4 +292,99 @@ advisory" kararı ampirik olarak doğru.
 - **AP (dia_works rich-mint) bloğu kalktı** — ADR-009 (a)+(c) eşikleri artık
   besleniyor. Yazar namespace modellemesi (açık soru 3/4) AP'de karara bağlanır.
 
+## Karar 8 — Tüm-repo incelemesi: 56-ajanlık tarama + adversarial doğrulama; kod remediation'ı Stage 3
+
+**Tarih:** 2026-07-07
+**Stage:** 3
+**İlgili ADR:** ADR-009 (gate implementasyonu), ADR-014 (scraper düzeltmeleri)
+
+### Bağlam
+
+Kullanıcı "tüm projeyi incele ve iyileştir; daha smart ve hızlı bitirmemi
+sağla" dedi. 6 paralel derin okuyucu (lib, adapters, tests, schema+search,
+docs+roadmap, hijyen+CI) 81 ham bulgu üretti; her bug/perf bulgusu 2 bağımsız
+çürütücüye verildi → **16 doğrulanmış, 9 çürütülüp elendi**, 56'sı
+test/hijyen/docs/roadmap kategorisinde.
+
+### Karar
+
+Doğrulanmış bulgular üç stage'e bölünerek kapatılır: Stage 3 = kod (veri
+güvenliği + AP-hazırlık + arama katmanı), Stage 4 = test/CI altyapısı,
+Stage 5 = hijyen/docs/roadmap. Canonical KAYITLARA dokunulmaz; tek istisna
+data/_state PID onarımıdır (h9_001 migration'ı — H6 Hassâf elle mint'inin
+counter/index dışında kalması AP'nin ilk mint'inde `iac:work-00009331`
+çakışması üretecekti). Davranış düzeltmelerinin mevcut kayıtlara yansıtılması
+(el-alam re-run, phantom audit) ayrı, journal'lı koşulara devredilir
+(PHASE0_CLOSEOUT §2).
+
+### Gerekçe
+
+Çürütücü katmanı 9 yanlış-pozitifi (ör. "pipeline_version hardcode",
+"Tier-1 alan adı bug'ı") uygulamaya girmeden eledi. Kod-önce sıralaması:
+AP H10'da bu kütüphanelerin üstüne biniyor; state onarımı geciktirilirse
+her gün riskli.
+
+### Sonuç
+
+- 16/16 bulgunun kod ayağı kapalı; `full_reindex --dry-run` 46.702/46.702
+  (768 fail'den); fingerprint 4 çeviri-yazı çifti kilitli; `adr009_rich_gate`
+  + PidMinter `session()` (31 ms → 0.001 ms/mint) AP'ye hazır.
+- test_b2 bekçisi xfail'den çıkarıldı; drift sınıfı kalıcı kırmızı.
+
+## Karar 9 — Suite hızlandırma: paylaşılan cache EVET, multiprocessing HAYIR; slow_fullstore marker'ı
+
+**Tarih:** 2026-07-07
+**Stage:** 4
+
+### Bağlam
+
+Ölçüm: person store 3×, place ~9× diskten yükleniyor; 3 tüm-store validasyon
+testi 16 sn; suite 31 sn; iç-döngü modu yok. CI ise çifte bozuk (var olmayan
+script'e kırmızı + boş glob'la sahte-yeşil şema adımı) ve `main`-only.
+
+### Karar
+
+(1) `conftest.py` lru_cache yükleyicileri + modül fixture delegasyonu.
+(2) Multiprocessing fan-out DENENDİ, benchmark REDDETTİ (macOS spawn'da
+jsonschema import maliyeti person geçişini 5.5→7.3 sn'ye yavaşlattı) —
+sıralı `validate_all` kaldı; karar conftest docstring'inde kalıcı.
+(3) Tüm-store testleri `slow_fullstore` marker'ı → `make test-fast` (~9 sn);
+tam kapı `make test` (CI aynısını koşar — tek doğruluk kaynağı).
+(4) Sessiz kapsam açıldı: 15 şema fixture'ı pytest'e; truncate fuzz (H8
+TODO); rich-dosya invariant'ları; g3 skip→xfail; bosworth rmtree guard'ı;
+yaqut bootstrap'ı opt-in. Hiçbir eşik esnetilmedi.
+
+### Sonuç
+
+`pytest` 101→**147 passed** / 21 sn; iç döngü ~9 sn; CI gerçek suite'i
+`hafta*` dahil koşuyor; requirements.txt/Makefile/pytest.ini kökte.
+
+## Karar 10 — Dış yüz gerçeğe eşitlendi + PHASE0_CLOSEOUT tek yol haritası
+
+**Tarih:** 2026-07-07
+**Stage:** 5
+**İlgili ADR:** ADR-013 (xref düzeltmesi + numara notu)
+
+### Bağlam
+
+README/CHANGELOG/CONTRIBUTING H4/v0.1.0'da donmuştu (7 ADR / 18 test / ~59K
+iddiası vs gerçek: 14 ADR / 145 test / 46.702 koddan-sayılı kayıt); kökte 10
+bayat dosya; 13,3 MB bayt-özdeş kopya; ADR-013'te yanlış ADR-002 atfı; ve
+ADR-013'ün referans verdiği "Faz 0.5 roadmap" hiç yazılmamıştı.
+
+### Karar
+
+Kök arşivi `git mv` ile `docs/h2..h4/` + `_archive/root/`e; kopyalar `git rm`;
+README/CHANGELOG/CONTRIBUTING koddan-üretilen sayılarla güncellendi (North
+Star: sayı fabrikasyonu yok); ADR-013 düzeltmeleri revision-history'li;
+`docs/PHASE0_CLOSEOUT.md` kalan işlerin tek sahipli/sıralı listesi olarak
+yazıldı (H9 close → AP → onarım koşuları → AN → Faz 0.5 → v1.0.0/Zenodo;
+tek sert dış blokör: İSAM izin belge referansı, ADR-014 §Koşul).
+
+### Sonuç
+
+- Kök temiz; dış yüz H9 gerçeğinde; sonraki oturumların giriş noktası
+  PHASE0_CLOSEOUT.
+- dynasty.schema.json newline'ı + PE2.5 bekçisi; şema seti v0.3.0 değişmedi.
+
 <!-- Sonraki H9 kararları burada eklenecek -->

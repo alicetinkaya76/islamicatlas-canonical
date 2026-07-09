@@ -152,9 +152,11 @@ def canonicalize(extracted_iter, pid_minter, reconciler, options):
 
     for record in extracted_iter:
         slug = record["slug"]
-        # Idempotent PID — slug is the natural source key
+        # Idempotent PID — slug is the natural source key. NOTE: the mint is
+        # deferred to after the temporal-eligibility skip below (H9 Stage 3
+        # fix — minting first left 361 phantom person:dia:* index entries
+        # with no canonical record).
         input_hash = f"dia:{slug}"
-        pid = pid_minter.mint(namespace, input_hash)
 
         title = _detitle(record["title"])
         name_ar = record["name_ar"]
@@ -201,6 +203,9 @@ def canonicalize(extracted_iter, pid_minter, reconciler, options):
             # Skip this record — not enough date info to satisfy the schema.
             # In strict mode this would otherwise fail validation.
             continue
+
+        # Record is eligible — NOW mint (idempotent; skip above needs no PID).
+        pid = pid_minter.mint(namespace, input_hash)
 
         # Profession
         professions = []
