@@ -1,0 +1,10 @@
+# islamicatlas-canonical — runtime + test dependencies (H9 Stage 4).
+# Single source of truth: README, CI and local installs all use this file.
+# Python 3.11 (CI matrix pin; pyenv locally).
+jsonschema>=4.18
+referencing
+pyyaml
+pytest
+requests
+beautifulsoup4
+lxml

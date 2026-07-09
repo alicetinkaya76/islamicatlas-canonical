@@ -66,55 +66,36 @@ STATE_DIR = REPO_ROOT / "data" / "_state"
 # --------------------------------------------------------------------------- #
 
 
+# Fixtures below delegate to conftest's process-cached loaders (H9 Stage 3 —
+# eliminates the repeated whole-store disk loads across modules).
+
 @pytest.fixture(scope="module")
 def schemas_registry():
-    """Build a referencing Registry from every schema in SCHEMAS_DIR.
-    Skip the test cleanly when jsonschema is unavailable."""
     if not _HAS_JSONSCHEMA:
         pytest.skip("jsonschema/referencing not installed")
-    schemas: dict[str, dict] = {}
     if not SCHEMAS_DIR.exists():
         pytest.skip(f"schemas dir not found at {SCHEMAS_DIR}")
-    for schema_path in SCHEMAS_DIR.rglob("*.schema.json"):
-        with schema_path.open(encoding="utf-8") as fh:
-            s = json.load(fh)
-        if s.get("$id"):
-            schemas[s["$id"]] = s
-    registry = Registry()
-    for sid, s in schemas.items():
-        registry = registry.with_resource(uri=sid, resource=Resource.from_contents(s))
-    return registry
+    from tests.integration import conftest as shared
+    return shared.schemas_registry()
 
 
 @pytest.fixture(scope="module")
 def work_validator(schemas_registry):
-    target_path = SCHEMAS_DIR / "work.schema.json"
-    if not target_path.exists():
-        pytest.skip(f"work.schema.json not found at {target_path}")
-    with target_path.open(encoding="utf-8") as fh:
-        target = json.load(fh)
-    return Draft202012Validator(target, registry=schemas_registry)
+    from tests.integration import conftest as shared
+    return shared.validator_for("work")
 
 
 @pytest.fixture(scope="module")
 def person_validator(schemas_registry):
-    target_path = SCHEMAS_DIR / "person.schema.json"
-    if not target_path.exists():
-        pytest.skip(f"person.schema.json not found at {target_path}")
-    with target_path.open(encoding="utf-8") as fh:
-        target = json.load(fh)
-    return Draft202012Validator(target, registry=schemas_registry)
+    from tests.integration import conftest as shared
+    return shared.validator_for("person")
 
 
 @pytest.fixture(scope="module")
 def all_work_records():
-    """Load every iac_work_*.json from data/canonical/work/."""
-    if not WORK_DIR.exists():
-        pytest.skip(f"work dir not found: {WORK_DIR}")
-    out = []
-    for p in sorted(WORK_DIR.glob("iac_work_*.json")):
-        with p.open(encoding="utf-8") as fh:
-            out.append(json.load(fh))
+    """Every iac_work_*.json from data/canonical/work/ (process-cached)."""
+    from tests.integration import conftest as shared
+    out = shared.load_records("work")
     if not out:
         pytest.skip(f"no work records found in {WORK_DIR}")
     return out
@@ -122,13 +103,9 @@ def all_work_records():
 
 @pytest.fixture(scope="module")
 def all_person_records():
-    """Load every iac_person_*.json from data/canonical/person/."""
-    if not PERSON_DIR.exists():
-        pytest.skip(f"person dir not found: {PERSON_DIR}")
-    out = []
-    for p in sorted(PERSON_DIR.glob("iac_person_*.json")):
-        with p.open(encoding="utf-8") as fh:
-            out.append(json.load(fh))
+    """Every iac_person_*.json from data/canonical/person/ (process-cached)."""
+    from tests.integration import conftest as shared
+    out = shared.load_records("person")
     if not out:
         pytest.skip(f"no person records found in {PERSON_DIR}")
     return out
@@ -166,17 +143,14 @@ def integrity_report():
 # --------------------------------------------------------------------------- #
 
 
+@pytest.mark.slow_fullstore
 def test_a1_all_work_records_validate(all_work_records, work_validator):
-    """A1: Every iac:work-* record must validate against work.schema."""
-    failures = []
-    for rec in all_work_records:
-        errors = list(work_validator.iter_errors(rec))
-        if errors:
-            top = errors[0]
-            path = ".".join(str(x) for x in top.absolute_path) or "<root>"
-            failures.append((rec.get("@id"), f"[{path}] {top.message[:200]}"))
+    """A1: Every iac:work-* record must validate against work.schema.
+    (H9 Stage 3: cached records+validator; marked slow_fullstore.)"""
+    from tests.integration import conftest as shared
+    failures = shared.validate_all("work")
     assert not failures, (
-        f"{len(failures)} schema-invalid works; first 3: {failures[:3]}"
+        f"{len(failures)}+ schema-invalid works (reporting capped); first 3: {failures[:3]}"
     )
 
 
@@ -240,17 +214,22 @@ def test_b1_work_pids_unique(all_work_records):
     assert not dupes, f"duplicate work PIDs: {dupes[:5]}"
 
 
-@pytest.mark.xfail(reason="Hafta 6 Stream 4 added schema v0.2.0 + structural same_as_cluster_id field, but pid_index.json still tracks only person/dynasty/place namespaces. Extending pid_index to cover work namespace is a separate task (own commit, own backfill of 9,330 PIDs); not in Stream 4 scope.", strict=False)
 def test_b2_pid_index_consistent(all_work_records):
-    """B2: pid_index.json (if maintained) reflects the same record count
-    as canonical work files."""
+    """B2: pid_index.json covers every canonical work record (PID-collision
+    guard for AP/H10+).
+
+    History: xfail'ed at H6 with a "pid_index only tracks person/dynasty/place"
+    rationale that was doubly stale — the index is FLAT ("<ns>:<hash>" keys,
+    not nested), and it has tracked all 9,330 adapter-minted works since H5.
+    The one true gap it hid was iac:work-00009331 (H6 hand-mint outside
+    PidMinter), repaired by pipelines/migrations/h9_001_work_pid_state_repair.py.
+    This test now runs strict so counter/index/store drift stays red."""
     idx_path = STATE_DIR / "pid_index.json"
     if not idx_path.exists():
         pytest.skip(f"pid_index.json not found at {idx_path}")
     with idx_path.open(encoding="utf-8") as fh:
         idx = json.load(fh)
-    work_ns = idx.get("work", {})
-    minted_pids = set(work_ns.values())
+    minted_pids = {v for k, v in idx.items() if k.startswith("work:")}
     canonical_pids = {r["@id"] for r in all_work_records}
     extra_minted = minted_pids - canonical_pids
     missing_minted = canonical_pids - minted_pids
@@ -295,7 +274,7 @@ def test_b3_input_hash_pid_idempotent(all_work_records):
 # --------------------------------------------------------------------------- #
 
 
-@pytest.mark.xfail(reason="Acceptance X (T1+T2 ≥70%) deferred to Hafta 6 manual seed (Stream 3); current ~37% reflects DİA store coverage of OpenITI's 3,618 authors, not algorithm quality.", strict=False)
+@pytest.mark.xfail(reason="Acceptance X (T1+T2 >=70%) still unmet at H9 (measured ~37.5%: tiers {2:1356, 4:2262}); the H6 manual seed never lifted it. Re-evaluate after AP (H10+) widens DiA-side work/author coverage — H9 Stage 3 kept the threshold rather than bending it to fit.", strict=False)
 def test_c1_openiti_author_resolution_acceptance_X(author_resolution_map):
     """C1: Tier 1 + Tier 2 cover ≥70% of OpenITI's authors (acceptance X).
     Tier 4 placeholder mints are the remainder."""
@@ -518,7 +497,7 @@ def test_e2_cluster_members_have_pointer(all_work_records, same_as_clusters):
     )
 
 
-@pytest.mark.xfail(reason="Threshold inverted: low precision_proxy means author gate is filtering aggressively (good). H6 will redefine this metric.", strict=False)
+@pytest.mark.xfail(reason="Threshold inverted: low precision_proxy means the author gate filters aggressively (good). H6 never redefined the metric; slated for the AP (H10+) resolver rework — H9 Stage 3 refreshed this stale reason without changing semantics.", strict=False)
 def test_e3_dual_gate_precision_proxy(same_as_clusters):
     """E3: SAME-AS dual-gate precision proxy = dual_gate_passed_pairs /
     (dual_gate + fingerprint_only) ≥ 0.5. With author overlap as the
@@ -681,9 +660,13 @@ def test_g3_canon_cluster_has_two_members(same_as_clusters, all_work_records):
             canon_cluster_found = True
             break
     if not canon_cluster_found:
-        pytest.skip(
-            "No Canon SAME-AS cluster found — likely fingerprint algorithm "
-            "didn't catch this pair; review work_same_as_clusters.json audit"
+        # H9 Stage 3: xfail, not skip — the old skip+assert-True combination
+        # could never fail, i.e. dead coverage. Shows as xfailed (not skipped)
+        # in every run; the day the fingerprint (or an AP merge) clusters the
+        # Canon pair, this branch is not taken and the test simply PASSES.
+        pytest.xfail(
+            "No Canon SAME-AS cluster: fingerprint doesn't catch this pair; "
+            "H6 manual review deliberately did not merge it (revisit at AP)"
         )
     assert canon_cluster_found
 

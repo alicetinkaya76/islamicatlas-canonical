@@ -35,56 +35,46 @@ DYNASTY_DIR = REPO_ROOT / "data" / "canonical" / "dynasty"
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 STATE_DIR = REPO_ROOT / "data" / "_state"
 
+from tests.integration import conftest as shared  # noqa: E402
+
+# H9 Stage 3: on a fresh clone/CI the canonical store + state sidecars are
+# absent (gitignored) — this module used to hard-fail 8 tests there. Skip
+# the whole module instead; locally (store present) nothing changes.
+pytestmark = pytest.mark.skipif(
+    not PERSON_DIR.exists(),
+    reason="canonical person store not present (fresh clone/CI) — run the pipeline first",
+)
+
 
 # --------------------------------------------------------------------------- #
-# Fixtures
+# Fixtures — thin wrappers over conftest's process-cached loaders (H9 Stage 3:
+# the person store was loaded 3× across modules; now once per process).
 # --------------------------------------------------------------------------- #
 
 
 @pytest.fixture(scope="module")
 def schemas_registry():
-    schemas: dict[str, dict] = {}
-    for schema_path in SCHEMAS_DIR.rglob("*.schema.json"):
-        with schema_path.open(encoding="utf-8") as fh:
-            s = json.load(fh)
-        if s.get("$id"):
-            schemas[s["$id"]] = s
-    registry = Registry()
-    for sid, s in schemas.items():
-        registry = registry.with_resource(uri=sid, resource=Resource.from_contents(s))
-    return registry
+    return shared.schemas_registry()
 
 
 @pytest.fixture(scope="module")
-def person_validator(schemas_registry):
-    with (SCHEMAS_DIR / "person.schema.json").open(encoding="utf-8") as fh:
-        target = json.load(fh)
-    return Draft202012Validator(target, registry=schemas_registry)
+def person_validator():
+    return shared.validator_for("person")
 
 
 @pytest.fixture(scope="module")
-def dynasty_validator(schemas_registry):
-    with (SCHEMAS_DIR / "dynasty.schema.json").open(encoding="utf-8") as fh:
-        target = json.load(fh)
-    return Draft202012Validator(target, registry=schemas_registry)
+def dynasty_validator():
+    return shared.validator_for("dynasty")
 
 
 @pytest.fixture(scope="module")
 def all_person_records():
-    out = []
-    for p in sorted(PERSON_DIR.glob("iac_person_*.json")):
-        with p.open(encoding="utf-8") as fh:
-            out.append(json.load(fh))
-    return out
+    return shared.load_records("person")
 
 
 @pytest.fixture(scope="module")
 def all_dynasty_records():
-    out = []
-    for p in sorted(DYNASTY_DIR.glob("iac_dynasty_*.json")):
-        with p.open(encoding="utf-8") as fh:
-            out.append(json.load(fh))
-    return out
+    return shared.load_records("dynasty")
 
 
 # --------------------------------------------------------------------------- #
@@ -92,16 +82,12 @@ def all_dynasty_records():
 # --------------------------------------------------------------------------- #
 
 
-def test_a1_all_person_records_validate(all_person_records, person_validator):
-    """A1: Every iac:person-* record must validate against person.schema."""
-    failures = []
-    for rec in all_person_records:
-        errors = list(person_validator.iter_errors(rec))
-        if errors:
-            top = errors[0]
-            failures.append((rec.get("@id"),
-                             f"[{'.'.join(str(x) for x in top.absolute_path) or '<root>'}] {top.message[:200]}"))
-    assert not failures, f"{len(failures)} schema-invalid persons; first: {failures[:3]}"
+@pytest.mark.slow_fullstore
+def test_a1_all_person_records_validate():
+    """A1: Every iac:person-* record must validate against person.schema.
+    (H9 Stage 3: cached records+validator; marked slow_fullstore.)"""
+    failures = shared.validate_all("person")
+    assert not failures, f"schema-invalid persons; first: {failures[:3]}"
 
 
 def test_a2_all_dynasty_records_validate_with_patched_schema(all_dynasty_records, dynasty_validator):
@@ -400,7 +386,7 @@ def test_g3_bosworth_ruler_count_in_band(all_person_records):
         df = r.get("provenance", {}).get("derived_from", [])
         if any(d.get("source_id", "").startswith("bosworth-nid:") for d in df):
             bosworth_count += 1
-    n_dyn = len(list(DYNASTY_DIR.glob("*.json")))
+    n_dyn = len(list(DYNASTY_DIR.glob("iac_dynasty_*.json")))  # DH-1: AppleDouble-proof
     if n_dyn == 7:
         # Sandbox: 94 rulers across 7 sample dynasties
         assert 80 <= bosworth_count <= 110, f"Sandbox: expected ~94 Bosworth rulers, got {bosworth_count}"

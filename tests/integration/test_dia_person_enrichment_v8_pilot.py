@@ -35,40 +35,29 @@ ARABIC_RE = re.compile(r"[\u0600-\u06FF\u0750-\u077F]")
 
 @pytest.fixture(scope="module")
 def v8_records():
-    """Find person records carrying dia-chunks-v8:* in provenance.derived_from."""
+    """Person records carrying dia-chunks-v8:* in provenance.derived_from.
+    (H9 Stage 3: filters conftest's process-cached store instead of re-reading
+    21,946 files — this module no longer re-loads the person store.)"""
+    from tests.integration import conftest as shared
     out = []
-    if not PERSON_DIR.exists():
-        return out
-    for fp in sorted(PERSON_DIR.glob("iac_person_*.json")):
-        try:
-            with fp.open(encoding="utf-8") as fh:
-                rec = json.load(fh)
-        except (json.JSONDecodeError, OSError):
-            continue
+    for rec in shared.load_records("person"):
         derived = rec.get("provenance", {}).get("derived_from", []) or []
         for d in derived:
             if isinstance(d, dict):
                 sid = d.get("source_id")
                 if isinstance(sid, str) and sid.startswith("dia-chunks-v8:"):
-                    out.append((fp.name, rec))
+                    pid = rec.get("@id", "")
+                    fname = f"iac_person_{pid.rsplit('-', 1)[-1]}.json" if pid else "?"
+                    out.append((fname, rec))
                     break
     return out
 
 
 @pytest.fixture(scope="module")
 def person_validator():
-    """Schema validator with full $ref resolution registry."""
-    registry = Registry()
-    for sp in SCHEMAS_DIR.rglob("*.schema.json"):
-        with sp.open(encoding="utf-8") as fh:
-            s = json.load(fh)
-        if s.get("$id"):
-            registry = registry.with_resource(
-                uri=s["$id"], resource=Resource.from_contents(s)
-            )
-    with (SCHEMAS_DIR / "person.schema.json").open(encoding="utf-8") as fh:
-        target = json.load(fh)
-    return Draft202012Validator(target, registry=registry)
+    """Schema validator with full $ref resolution registry (process-cached)."""
+    from tests.integration import conftest as shared
+    return shared.validator_for("person")
 
 
 # ----------------------------------------------------------------------

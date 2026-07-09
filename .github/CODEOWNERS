@@ -5,13 +5,14 @@
 *                             @alicetinkaya76
 
 # Domain kararları — Ali asıl reviewer
+# (H9 Stage 4: yollar güncel düzene çevrildi — /schema/canonical/ ve
+#  /schema/vocab/ mevcut ağaçta yok; şema seti schemas/ altındadır ve ADR-013
+#  ile donuk olduğundan hedefli owner ataması burada kritik.)
 /docs/decisions/              @alicetinkaya76
-/schema/canonical/            @alicetinkaya76
-/schema/vocab/                @alicetinkaya76
+/schemas/                     @alicetinkaya76
 
 # Mühendislik — Fatıma ikinci gözetmen rolünde
 # (Fatıma'nın GitHub kullanıcı adı alınınca güncellenir)
-# /scripts/                   @alicetinkaya76 @fatma-github-username
-# /infra/                     @alicetinkaya76 @fatma-github-username
-# /api/                       @alicetinkaya76 @fatma-github-username
+# /pipelines/                 @alicetinkaya76 @fatma-github-username
+# /search/                    @alicetinkaya76 @fatma-github-username
 # /.github/                   @alicetinkaya76 @fatma-github-username

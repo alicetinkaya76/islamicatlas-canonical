@@ -53,6 +53,10 @@ def main() -> int:
                              "on the curated seed only.")
     parser.add_argument("--keep", action="store_true",
                         help="Don't reset the canonical store before running.")
+    parser.add_argument("--force-clean", action="store_true",
+                        help="Allow the clean-slate reset even when non-dynasty "
+                             "namespaces are populated (DESTROYS the shared "
+                             "data/_state PID index for ALL namespaces).")
     args = parser.parse_args()
 
     failures: list[str] = []
@@ -64,6 +68,24 @@ def main() -> int:
     cache_dir = REPO_ROOT / "data" / "cache"
 
     if not args.keep:
+        # H9 Stage 3 guard: this script predates the person/place/work
+        # stores. Its rmtree of data/_state would orphan the PID index of
+        # 46K+ records from OTHER namespaces. Refuse unless explicitly forced.
+        populated = [
+            ns for ns in ("person", "place", "work")
+            if any((REPO_ROOT / "data" / "canonical" / ns).glob(f"iac_{ns}_*.json"))
+        ]
+        # Valuable non-PID state (e.g. the AO scrape checkpoint) also lives in
+        # data/_state and deserves the same protection even on a store-less
+        # machine (review catch, H9 Stage 3).
+        if (state_dir / "h9_scrape_progress.json").exists():
+            populated.append("_state/h9_scrape_progress.json")
+        if populated and not args.force_clean:
+            print(f"REFUSING clean-slate reset: would destroy shared state for "
+                  f"{populated} (data/_state is SHARED across namespaces). "
+                  f"Re-run with --keep (recommended) or --force-clean.",
+                  file=sys.stderr)
+            return 2
         for d in (canonical_dir, state_dir, cache_dir):
             if d.exists():
                 shutil.rmtree(d)
