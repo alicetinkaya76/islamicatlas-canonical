@@ -66,10 +66,25 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
 
 - [ ] **el-alam re-run** (`--id el-alam`): Track-A fix'i sonrası 20 kayıp
       Ziriklī kişisi Track B'den basılır (~15 dk; idempotency probe'u eskileri
-      atlar). Öncesinde `--dry-run`la sayı teyidi.
-- [ ] **361 phantom person:dia:* PID denetimi:** pid_index'te olup diskte
-      olmayanların listesi `data/_state/phantom_pids_audit.json`'a; AP author
-      linkage'ı yalnız disk-doğrulamalı PID kullanır (el_alam guard'ı örnek).
+      atlar). Öncesinde `--dry-run`la sayı teyidi. Sayı ayrıntısı (2026-07-09,
+      koddan yeniden üretildi): Track-A disk-guard'ı 22 alam kaydını Track
+      B'ye düşürüyor = 20 benzersiz dia_slug (`ibn-zekvan` ve `nesib` 2'şer
+      kayıt); 22'nin 1'i (alam_id=4800, Âtike bint Abdülmuttalib — hd/md/c
+      hepsi None) temporal-eligibility skip'ine düşer → 21 kayıt basılır.
+      El_alam mint-erteleme fix'i (aşağıdaki madde) sayesinde 4800 artık
+      phantom PID üretmez.
+- [ ] **Phantom PID denetimi — genel "indexte var, diskte yok" taraması:**
+      kapsam yalnız 361 `person:dia:*` DEĞİL. Aynı mint-before-skip deseni
+      el_alam Track B'de de vardı (2026-07-09'da dia'daki fixin aynısıyla
+      düzeltildi: mint, temporal-eligibility skip'inin arkasına taşındı) ve
+      **1.249 phantom `person:el-alam:*`** girdisi bırakmış durumda. Genel
+      `person:*` taraması (2026-07-09, koddan yeniden üretildi): toplam
+      **2.779 phantom** = 361 dia + 1.249 el-alam + 1.167 openiti + 2
+      bosworth-nid (openiti/bosworth sınıflarının nedeni henüz teşhis
+      edilmedi — ayrıca incelenecek). Tam liste
+      `data/_state/phantom_pids_audit.json`'a; AP author linkage'ı yalnız
+      disk-doğrulamalı PID kullanır (el_alam guard'ı örnek). Index temizliği
+      journal'lı ayrı koşudur; canonical kayıtlara dokunulmaz.
 - [ ] **9,330 work kaydının jenerik provenance'ı** (`canonicalize_work`):
       registry id düzeltmesi ileriye dönük çözüldü; mevcutlar için mini
       migration (source_id önekinden gerçek pipeline_name) — düşük öncelik,
