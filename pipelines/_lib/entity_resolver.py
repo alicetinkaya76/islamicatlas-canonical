@@ -16,12 +16,21 @@ Resolver is canonical-store-internal: it consults the lookup index
 
 from __future__ import annotations
 
+import math
+import re
 import sqlite3
+import unicodedata
 import uuid
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterator, Optional
+
+try:
+    from rapidfuzz import fuzz as _fuzz
+    _HAVE_RAPIDFUZZ = True
+except ImportError:  # pragma: no cover — requirements.txt lists rapidfuzz
+    _HAVE_RAPIDFUZZ = False
 
 
 @dataclass
@@ -199,20 +208,226 @@ class EntityResolver:
         nisba: list[str],
         kunya: str | None,
     ) -> ResolutionDecision:
-        """Fuzzy match against blocked candidates.
+        """Blocking + multi-feature similarity per ADR-008 §8.2 (H10 Stage 1;
+        replaces the H2 stub that returned "new" unconditionally).
 
-        STUB in v0.1.0: returns kind="new" unconditionally. Bosworth Hafta 2
-        canonical store is empty for the dynasty namespace before this adapter
-        runs, so Tier 2 is unreachable in practice; the stub is sufficient for
-        Hafta 2 deliverable.
+        Blocking: FTS5 over label_fts (query tokens OR-ed), joined to
+        entity_bracket for the entity_type filter, bm25-ranked, capped at
+        BLOCK_LIMIT. A candidate whose bracket year contradicts the query by
+        > HARD_YEAR_BLOCK years is dropped (namesakes centuries apart).
 
-        Full implementation in P0.2 with the A'lam + DIA + EI1 person seed,
-        which is when Tier 2 first encounters non-empty canonical store and
-        non-trivial deduplication challenges.
+        Scoring: weighted mean over the features PRESENT on both sides
+        (weights from resolver_weights / _load_weights; absent features
+        renormalize away rather than diluting the score):
+            label    max token_set_ratio over candidate pref labels
+            alt      same over alt/translit labels
+            temporal 1 - min(|Δyear|, YEAR_DECAY) / YEAR_DECAY
+            spatial  1 - min(haversine_km, KM_DECAY) / KM_DECAY
+
+        Decision: score >= auto_accept_threshold AND >= 2 corroborating
+        features → "match"; >= review_threshold → "review" (top candidates
+        attached for the queue); else "new". A name-only score can never
+        auto-match — single-feature hits cap at "review" (North Star: no
+        auto-merge on a bare name; namesakes are the norm in this corpus).
         """
-        # Placeholder: future blocking + similarity scoring goes here.
-        # See ADR-008 §8.2 Tier 2 for the full algorithm.
-        return ResolutionDecision(kind="new", confidence=0.0)
+        if not _HAVE_RAPIDFUZZ:
+            return ResolutionDecision(kind="new", confidence=0.0,
+                                      feature_scores={"tier2_disabled": 1.0})
+        conn = self._connect()
+        if conn is None:
+            return ResolutionDecision(kind="new", confidence=0.0)
+
+        query_texts = self._query_label_texts(labels, nisba, kunya)
+        if not query_texts:
+            return ResolutionDecision(kind="new", confidence=0.0)
+
+        candidates = self._block_candidates(conn, entity_type, query_texts)
+        if not candidates:
+            return ResolutionDecision(kind="new", confidence=0.0)
+
+        q_year = self._primary_year(temporal)
+        q_lat, q_lon = coords.get("lat"), coords.get("lon")
+        weights = (self._weights or {}).get(entity_type) or {}
+        auto_thr = float(weights.get("auto_accept_threshold", 0.90))
+        review_thr = float(weights.get("review_threshold", 0.70))
+
+        scored: list[Candidate] = []
+        for pid, bracket in candidates.items():
+            feats = self._score_features(
+                conn, pid, query_texts, q_year, q_lat, q_lon, bracket)
+            if feats is None:
+                continue  # hard year-block
+            score, n_feats = self._weighted_score(feats, weights)
+            scored.append(Candidate(pid=pid, score=round(score, 4),
+                                    feature_scores={**feats, "n_features": float(n_feats)}))
+        if not scored:
+            return ResolutionDecision(kind="new", confidence=0.0)
+
+        scored.sort(key=lambda c: -c.score)
+        best = scored[0]
+        n_feats = int(best.feature_scores.get("n_features", 1))
+
+        if best.score >= auto_thr and n_feats >= 2:
+            return ResolutionDecision(
+                kind="match", matched_pid=best.pid, confidence=best.score,
+                candidates=scored[:5], feature_scores=best.feature_scores)
+        if best.score >= review_thr:
+            return ResolutionDecision(
+                kind="review", confidence=best.score,
+                candidates=scored[:5], feature_scores=best.feature_scores)
+        return ResolutionDecision(kind="new", confidence=best.score,
+                                  candidates=scored[:3])
+
+    # ----- Tier 2 helpers -------------------------------------------------
+
+    BLOCK_LIMIT = 200          # ADR-008: 50-200 candidates after blocking
+    HARD_YEAR_BLOCK = 150      # bracket-year contradiction > this → drop
+    YEAR_DECAY = 50.0          # |Δyear| at which temporal score reaches 0
+    KM_DECAY = 50.0            # haversine km at which spatial score reaches 0
+
+    _TR_FOLD = str.maketrans({
+        "ı": "i", "İ": "i", "ş": "s", "Ş": "s", "ğ": "g", "Ğ": "g",
+        "ç": "c", "Ç": "c", "ö": "o", "Ö": "o", "ü": "u", "Ü": "u",
+    })
+    _NAME_PUNCT_RE = re.compile(r"[-‐‑‒–—―''ʼʻʾʿ‘’\.\,\(\)\[\]«»\"]+")
+    _WS_RE = re.compile(r"\s+")
+
+    @classmethod
+    def _normalize_name(cls, text: str) -> str:
+        """Diacritic-stripped, TR-folded, punctuation-split lowercase form.
+        Deliberately LIGHTER than work_canonicalize's title fingerprint (no
+        generic-word dropping — 'Kitāb' matters in a title, not in a name);
+        rapidfuzz token_set_ratio absorbs token order and subset effects."""
+        nfkd = unicodedata.normalize("NFKD", text)
+        s = "".join(ch for ch in nfkd if not unicodedata.combining(ch))
+        s = s.translate(cls._TR_FOLD).lower()
+        s = cls._NAME_PUNCT_RE.sub(" ", s)
+        return cls._WS_RE.sub(" ", s).strip()
+
+    def _query_label_texts(self, labels: dict, nisba: list[str],
+                           kunya: str | None) -> list[str]:
+        texts: list[str] = []
+        pref = labels.get("prefLabel") or {}
+        for v in pref.values():
+            if isinstance(v, str) and v.strip():
+                texts.append(v)
+        for arr in (labels.get("altLabel") or {}).values():
+            if isinstance(arr, list):
+                texts.extend(t for t in arr if isinstance(t, str) and t.strip())
+        extras = " ".join([kunya or ""] + [n for n in nisba if n]).strip()
+        if extras and texts:
+            texts.append(f"{texts[0]} {extras}")
+        elif extras:
+            texts.append(extras)
+        norm = [self._normalize_name(t) for t in texts]
+        return [t for t in dict.fromkeys(norm) if t]  # dedupe, keep order
+
+    def _block_candidates(self, conn: sqlite3.Connection, entity_type: str,
+                          query_texts: list[str]) -> dict[str, tuple]:
+        """FTS5 token-OR match → {pid: (start_year_ce, end_year_ce, lat, lon)}."""
+        tokens: list[str] = []
+        for t in query_texts:
+            tokens.extend(tok for tok in t.split() if len(tok) >= 2)
+        tokens = list(dict.fromkeys(tokens))[:12]
+        if not tokens:
+            return {}
+        fts_query = " OR ".join(f'"{tok}"' for tok in tokens)
+        try:
+            rows = conn.execute(
+                """
+                SELECT f.pid, b.start_year_ce, b.end_year_ce, b.lat, b.lon
+                  FROM label_fts f
+                  JOIN entity_bracket b ON b.pid = f.pid
+                 WHERE label_fts MATCH ? AND b.entity_type = ?
+                 ORDER BY bm25(label_fts)
+                 LIMIT ?
+                """,
+                (fts_query, entity_type, self.BLOCK_LIMIT * 4),
+            ).fetchall()
+        except sqlite3.OperationalError:
+            return {}
+        out: dict[str, tuple] = {}
+        for pid, sy, ey, lat, lon in rows:
+            if pid not in out:
+                out[pid] = (sy, ey, lat, lon)
+            if len(out) >= self.BLOCK_LIMIT:
+                break
+        return out
+
+    def _primary_year(self, temporal: dict) -> Optional[int]:
+        for k in ("start_ce", "end_ce"):
+            v = (temporal or {}).get(k)
+            if isinstance(v, int):
+                return v
+        return None
+
+    def _candidate_labels(self, conn: sqlite3.Connection, pid: str) -> dict[str, list[str]]:
+        rows = conn.execute(
+            "SELECT kind, text FROM label WHERE pid = ?", (pid,)).fetchall()
+        out: dict[str, list[str]] = {"pref": [], "alt": []}
+        for kind, text in rows:
+            out["pref" if kind == "pref" else "alt"].append(text)
+        return out
+
+    def _score_features(self, conn, pid, query_texts, q_year, q_lat, q_lon,
+                        bracket) -> Optional[dict[str, float]]:
+        sy, ey, c_lat, c_lon = bracket
+        c_year = sy if isinstance(sy, int) else (ey if isinstance(ey, int) else None)
+
+        # Hard year block: both sides dated and centuries apart → not the
+        # same entity, whatever the name says (namesake suppression).
+        if q_year is not None and c_year is not None \
+                and abs(q_year - c_year) > self.HARD_YEAR_BLOCK:
+            return None
+
+        cand = self._candidate_labels(conn, pid)
+        feats: dict[str, float] = {}
+
+        pref_norm = [self._normalize_name(t) for t in cand["pref"]]
+        if pref_norm and query_texts:
+            feats["label"] = max(
+                _fuzz.token_set_ratio(q, c) for q in query_texts for c in pref_norm
+            ) / 100.0
+        alt_norm = [self._normalize_name(t) for t in cand["alt"]]
+        if alt_norm and query_texts:
+            feats["alt"] = max(
+                _fuzz.token_set_ratio(q, c) for q in query_texts for c in alt_norm
+            ) / 100.0
+
+        if q_year is not None and c_year is not None:
+            feats["temporal"] = 1.0 - min(abs(q_year - c_year), self.YEAR_DECAY) / self.YEAR_DECAY
+
+        if None not in (q_lat, q_lon, c_lat, c_lon):
+            feats["spatial"] = 1.0 - min(
+                self._haversine_km(q_lat, q_lon, c_lat, c_lon), self.KM_DECAY
+            ) / self.KM_DECAY
+
+        return feats if feats else None
+
+    @staticmethod
+    def _weighted_score(feats: dict[str, float], weights: dict) -> tuple[float, int]:
+        """Weighted mean over PRESENT features; weights renormalize so a
+        missing feature neither helps nor hurts. Returns (score, n_features)
+        where n_features counts corroborating signals (label+alt = one name
+        signal — they are not independent evidence)."""
+        w_map = {"label": weights.get("w_label", 0.35),
+                 "alt": weights.get("w_alt", 0.15),
+                 "temporal": weights.get("w_temporal", 0.20),
+                 "spatial": weights.get("w_spatial", 0.30)}
+        total_w = sum(w_map[f] for f in feats if f in w_map)
+        if total_w <= 0:
+            return 0.0, 0
+        score = sum(feats[f] * w_map[f] for f in feats if f in w_map) / total_w
+        signals = sum(1 for f in ("temporal", "spatial") if f in feats)
+        signals += 1 if ("label" in feats or "alt" in feats) else 0
+        return score, signals
+
+    @staticmethod
+    def _haversine_km(lat1, lon1, lat2, lon2) -> float:
+        rlat1, rlon1, rlat2, rlon2 = map(math.radians, (lat1, lon1, lat2, lon2))
+        dlat, dlon = rlat2 - rlat1, rlon2 - rlon1
+        a = math.sin(dlat / 2) ** 2 + math.cos(rlat1) * math.cos(rlat2) * math.sin(dlon / 2) ** 2
+        return 6371.0 * 2 * math.asin(math.sqrt(a))
 
     # ----- Tier 3: review queue -----------------------------------------
 

@@ -89,15 +89,41 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
       registry id düzeltmesi ileriye dönük çözüldü; mevcutlar için mini
       migration (source_id önekinden gerçek pipeline_name) — düşük öncelik,
       Faz 0.5'e kayabilir.
+- [ ] **Çapraz-kaynak person dedup taraması (H10 Karar 3 bulgusu):** Tier-2
+      kalibrasyonu, H4-H5 seed'lerinin (Tier-2'siz koşmuşlardı) store'da
+      bıraktığı muhtemel dublörleri ifşa etti (örneklemde 21/250: aynı isim +
+      ölüm ±5 + skor ≥0.95, ör. İbn Rüşd çifti). İş: person store'u kendi
+      kendine karşı Tier-2'den geçir, ≥0.95 çiftleri review kuyruğuna çıkar
+      (~1 saat makine + tarihçi onayı). Merge İNSAN kararıyla (ADR-008 Tier-3).
 
-## 3. AN — Cat B fuzzy match (H10.5-H11; 1 oturum) — sahip: Claude
+## 3. AN — Cat B fuzzy match (H10.5-H11; ~0.5 oturum kaldı) — sahip: Claude
 
 4,784 slug'lık dia_chunks Cat B kümesi (kişi olmayan/fuzzy adaylar).
-Altyapı notu (Stage 3 incelemesinden): `entity_resolver.py` Tier-2 stub
-(`kind='new'` sabit) → gerçek blocking+similarity yazılacak (fingerprint +
-death-bucket blocklama; rapidfuzz eklenirse requirements'a girer); Tier-3
-review kuyruğu (`_review_enqueue`) hazır ama bugün erişilemez durumda.
-Borderline eşleşmeler `needs_human_review` — asla otomatik merge.
+- [x] **Motor hazır (H10 Stage 1):** Tier-2 blocking+similarity gerçek
+      implementasyon (ADR-008 §8.2); rapidfuzz requirements'ta; Tier-3 kuyruk
+      fiilen akıyor; person auto-eşiği ground-truth'la 0.95'e kalibre
+      (precision %99.2, 20 ms/resolve — `resolver_weights.yaml` +
+      HAFTA10_STAGE_1_RESOLVER.md).
+- [ ] AN'in kendisi: Cat B slug'larını Tier-2'den geçir; ≥0.95 iki-sinyalli
+      eşleşmeler otomatik, 0.70-0.95 review kuyruğuna. Borderline
+      `needs_human_review` — asla otomatik merge.
+
+## 3.5. Kaynak dönüştürme — v2 içerik katmanları (H11+; kaynak başına ~0.5-1 oturum)
+
+9 dönüştürülmemiş kaynağın 9-ajanlık profillemesi (2026-07-09; sayılar koddan):
+~17K potansiyel yeni entity. Sıra, bağımlılığa göre:
+
+| Kaynak | Hedef ns | Entity | Blokör |
+|---|---|---:|---|
+| darp-islam | place (darphane) | ~3.381 | Tier-2 ✅ (hazır) |
+| evliya-celebi | place (+10 sefer→event) | 5.444 | Tier-2 ✅; seferler event-aktivasyonu |
+| ibn-battuta | place/event | 317+7 | Tier-2 ✅; seferler event-aktivasyonu |
+| scholars | person | ~285 | Tier-2 ✅ (JS-literal parse) |
+| ei1 | person/place/work | ~5.600 | Tier-2 ✅ (OCR gürültü; en büyük) |
+| battles-events | **event** | ~100+200 kenar | **event ns aktivasyonu (ADR-005 faz kararı — Ali)** |
+| konya-city-atlas | **institution**/place | ~1.384 | **institution şeması yok (ADR-006 §6.4 — Ali)** |
+| maqrizi-khitat | **institution**/place | 801 | aynı |
+| major-cities | place augment | ~0 | şemaya sığmayan alanlar — düşük öncelik |
 
 ## 4. Faz 0.5 — yayın hazırlığı (H11+; 2-3 oturum) — sahip: Ali+Claude
 
