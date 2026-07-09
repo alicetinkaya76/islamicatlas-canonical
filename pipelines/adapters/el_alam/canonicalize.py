@@ -146,8 +146,10 @@ def canonicalize(extracted_iter, pid_minter, reconciler, options):
         # ---------------------------------------------------------------
         # TRACK B — mint a new PID
         # ---------------------------------------------------------------
+        # NOTE: the mint is deferred to after the temporal-eligibility skip
+        # below (same H9 Stage 3 fix as dia — minting first left 1,249
+        # phantom person:el-alam:* index entries with no canonical record).
         input_hash = f"el-alam:{aid}"
-        pid = pid_minter.mint(namespace, input_hash)
 
         labels = pc.build_person_labels(
             name_ar=h_ar,
@@ -183,6 +185,9 @@ def canonicalize(extracted_iter, pid_minter, reconciler, options):
                 continue
         else:
             floruit = None
+
+        # Record is eligible — NOW mint (idempotent; skip above needs no PID).
+        pid = pid_minter.mint(namespace, input_hash)
 
         # Profession from description (Turkish desc has best signal)
         professions = pc.classify_profession(dt or de or "")
