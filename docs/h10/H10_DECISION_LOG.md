@@ -150,4 +150,14 @@ Cat B/C (4.784) Tier-2'den geçirildi: eşleşenler DiA provenance+locator aldı
 kuyruk/triage havuzları sayılı. Kişi/yer/kavram ayrımı OTOMATİKLEŞTİRİLMEDİ.
 AP'ye yan ürün: +2.261 slug→pid haritası (an_cat_b_resolution.json).
 
+## Karar 8 — Onarımlar: hedefli mint (tam re-run reddi), phantom politikası, dedup taraması
+
+**Tarih:** 2026-07-10 · **Stage:** 6
+
+(1) el-alam kayıp-21 HEDEFLİ script'le mint'lendi — tam re-run 12.5K kaydın
+provenance.created'ını bozacağı için reddedildi. (2) Phantom denetimi sidecar'a
+(2.782; openiti sınıfı teşhis edildi: H5 placeholder kısmî yazımı); index
+temizliği bilinçli YOK — tüketiciler disk-doğrulamalı. (3) Person dedup
+taraması başlatıldı; adaylar dosyaya, merge insan kararına.
+
 <!-- Sonraki H10 kararları burada eklenecek -->

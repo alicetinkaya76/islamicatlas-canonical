@@ -64,7 +64,7 @@ prosedürüyle v0.4.0 set bump.
 Stage 3'ün kod düzeltmeleri davranışı ileriye dönük düzeltti; mevcut
 kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
 
-- [ ] **el-alam re-run** (`--id el-alam`): Track-A fix'i sonrası 20 kayıp
+- [x] **el-alam onarımı (H10 S6; hedefli script, 21 mint — tam re-run provenance bozardı)** (`--id el-alam`): Track-A fix'i sonrası 20 kayıp
       Ziriklī kişisi Track B'den basılır (~15 dk; idempotency probe'u eskileri
       atlar). Öncesinde `--dry-run`la sayı teyidi. Sayı ayrıntısı (2026-07-09,
       koddan yeniden üretildi): Track-A disk-guard'ı 22 alam kaydını Track
@@ -73,7 +73,7 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
       hepsi None) temporal-eligibility skip'ine düşer → 21 kayıt basılır.
       El_alam mint-erteleme fix'i (aşağıdaki madde) sayesinde 4800 artık
       phantom PID üretmez.
-- [ ] **Phantom PID denetimi — genel "indexte var, diskte yok" taraması:**
+- [x] **Phantom PID denetimi (H10 S6: sidecar yazıldı; openiti sınıfı teşhisli; temizlik bilinçli YOK) — genel "indexte var, diskte yok" taraması:**
       kapsam yalnız 361 `person:dia:*` DEĞİL. Aynı mint-before-skip deseni
       el_alam Track B'de de vardı (2026-07-09'da dia'daki fixin aynısıyla
       düzeltildi: mint, temporal-eligibility skip'inin arkasına taşındı) ve
@@ -89,7 +89,7 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
       registry id düzeltmesi ileriye dönük çözüldü; mevcutlar için mini
       migration (source_id önekinden gerçek pipeline_name) — düşük öncelik,
       Faz 0.5'e kayabilir.
-- [ ] **Çapraz-kaynak person dedup taraması (H10 Karar 3 bulgusu):** Tier-2
+- [x] **Çapraz-kaynak person dedup taraması (H10 S6: script + koşu; adaylar person_dedup_candidates.json'da) (H10 Karar 3 bulgusu):** Tier-2
       kalibrasyonu, H4-H5 seed'lerinin (Tier-2'siz koşmuşlardı) store'da
       bıraktığı muhtemel dublörleri ifşa etti (örneklemde 21/250: aynı isim +
       ölüm ±5 + skor ≥0.95, ör. İbn Rüşd çifti). İş: person store'u kendi
