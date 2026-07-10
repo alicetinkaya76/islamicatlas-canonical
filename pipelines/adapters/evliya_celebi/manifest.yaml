@@ -1,0 +1,33 @@
+adapter_id: evliya-celebi
+display_name: "Evliyâ Çelebi Seyahatnâme — atlas katmanı v2.0.0 (5,444 konum)"
+adapter_version: 0.1.0
+source_kind: primary_textual
+languages: [tr, en, ar]
+license: "Derleme katman (Başaran Maps + al-Thurayyā + Wikidata + Üçdal neşri); own-project structuring"
+extraction_method: structured_json
+
+# Yerleşim alt kümesi place'e (iki-track, Tier-2); yapı kategorileri
+# institution-bekleyen havuza SAYILIR (mint yok — konya/maqrizi ile aynı
+# ADR-006 §6.4 kapısı); doğal/bilinmeyen triage'a; 10 sefer event-aktivasyonu
+# kararına kadar sidecar'da.
+target_namespaces: [place]
+
+input_paths:
+  - data/sources/evliya-celebi/evliya_atlas_layer.json
+
+output_paths:
+  - data/canonical/place/
+
+sidecar_pending:
+  evliya_augment: data/_state/evliya_augment_pending.json
+
+provenance_template:
+  source_id_pattern: "evliya-celebi:{id}"
+  page_or_locator_pattern: "Seyahatnâme, sefer {voyage_id}, cilt {volume}"
+  edition_or_version: "Atlas katmanı v2.0.0 (2026-04-02)"
+
+reconciliation:
+  enabled: false   # EntityResolver
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]

@@ -160,4 +160,14 @@ provenance.created'ını bozacağı için reddedildi. (2) Phantom denetimi sidec
 temizliği bilinçli YOK — tüketiciler disk-doğrulamalı. (3) Person dedup
 taraması başlatıldı; adaylar dosyaya, merge insan kararına.
 
+## Karar 9 — Evliyâ: yerleşim alt kümesi dönüştü (2.232 mint); yapılar institution-havuzuna
+
+**Tarih:** 2026-07-10 · **Stage:** 7
+
+5.444 konumun kategori yönlendirmesi: 2.568 yerleşim iki-track'ten (160
+augment / 2.232 mint / 176 review); 2.608 YAPI (cami/türbe/hamam...) MINT
+EDİLMEDİ — konya/maqrizi ile birlikte tek institution-karar havuzunda
+(ADR-006 §6.4, Ali); 268 doğal/bilinmeyen triage; 10 sefer event-bekleyen.
+place 19.809; store 52.257; test bandı belgeli genişledi.
+
 <!-- Sonraki H10 kararları burada eklenecek -->

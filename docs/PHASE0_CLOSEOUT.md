@@ -115,7 +115,7 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
 | Kaynak | Hedef ns | Entity | Blokör |
 |---|---|---:|---|
 | ~~darp-islam~~ | place | **✅ H10 S2: 2.338 mint + 621 augment + 337 review** | — |
-| evliya-celebi | place (+10 sefer→event) | 5.444 | Tier-2 ✅; seferler event-aktivasyonu |
+| ~~evliya-celebi~~ | place | **✅ H10 S7: 2.232 mint + 158 augment + 176 review** | 2.608 yapı institution-havuzunda; 10 sefer event-bekliyor |
 | ibn-battuta | place/event | 317+7 | Tier-2 ✅; seferler event-aktivasyonu |
 | ~~scholars~~ | person | **✅ H10 S3: 46 augment + 3 review** (49 isimli) | **252 yetim kart: v1 app db.json GEREK (Ali — kaynak temini)**; kenarlar Stage-3b |
 | ~~ei1~~ | person(+augments) | **✅ H10 S4: +964 mint, 224 augment, 1.574 review** | tarihsiz 2.119 + sınıflar triage havuzunda |

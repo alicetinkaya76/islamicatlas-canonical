@@ -108,13 +108,12 @@ class TestPlaceNamespaceVolume:
 
     def test_a1_total_record_count(self, pipeline_state):
         n = count_files(PLACE_DIR)
-        # Band history: H3 seed 15,239 (Yaqut 12,954 + Muqaddasi 2,070 +
-        # Le Strange ~215) → H10 Stage 2 adds darp-islam Track-B mints
-        # (+2,338 = 17,577). Band widened DELIBERATELY with that commit;
-        # numbers are counted from the store, never estimated.
-        assert 17_000 <= n <= 19_000, (
-            f"Expected ~17,577 place records (15,239 H3 seed + 2,338 "
-            f"darp-islam); got {n}"
+        # Band history: H3 seed 15,239 → H10 S2 +2,338 darp-islam (17,577)
+        # → H10 S7 +2,232 evliya-celebi settlements (19,809). Band widened
+        # DELIBERATELY with each adapter commit; counted, never estimated.
+        assert 19_000 <= n <= 21_000, (
+            f"Expected ~19,809 place records (15,239 H3 + 2,338 darp + "
+            f"2,232 evliya); got {n}"
         )
 
     def test_a2_filename_pattern(self, pipeline_state):
