@@ -85,10 +85,7 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
       `data/_state/phantom_pids_audit.json`'a; AP author linkage'ı yalnız
       disk-doğrulamalı PID kullanır (el_alam guard'ı örnek). Index temizliği
       journal'lı ayrı koşudur; canonical kayıtlara dokunulmaz.
-- [ ] **9,330 work kaydının jenerik provenance'ı** (`canonicalize_work`):
-      registry id düzeltmesi ileriye dönük çözüldü; mevcutlar için mini
-      migration (source_id önekinden gerçek pipeline_name) — düşük öncelik,
-      Faz 0.5'e kayabilir.
+- [x] **9,330 work provenance düzeltildi (H10 S12, h10_002; history'li).**
 - [x] **Çapraz-kaynak person dedup taraması (H10 S6: script + koşu; adaylar person_dedup_candidates.json'da) (H10 Karar 3 bulgusu):** Tier-2
       kalibrasyonu, H4-H5 seed'lerinin (Tier-2'siz koşmuşlardı) store'da
       bıraktığı muhtemel dublörleri ifşa etti (örneklemde 21/250: aynı isim +

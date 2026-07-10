@@ -207,4 +207,13 @@ Store'a dokunulmadı; H7 display-gate kalıcılaştı; kademeli temizlik
 PHASE0_CLOSEOUT'a. Metodoloji dersi: H9 refuter'ları OpenITI-seed bulgusunu
 fazla-çürütmüş — popülasyon ölçümü nihai hakem.
 
+## Karar 14 — Kararsız kuyruk boşaldı: provenance düzeltmesi + 3 kenar; kalan her şey Ali-kapılı
+
+**Tarih:** 2026-07-10 · **Stage:** 12+13
+
+h10_002: 9.330 work pipeline_name düzeltildi (history'li, idempotent).
+Scholar kenarları: 3 teacher-edge uygulandı (yön doğrulamalı); 160 kenar +
+10 isnad db.json/P1-graf bekliyor. Bu noktada karar-gerektirmeyen tüm işler
+tamamlandı — kalan kalemlerin tamamı PHASE0_CLOSEOUT'ta Ali-kapılı.
+
 <!-- Sonraki H10 kararları burada eklenecek -->
