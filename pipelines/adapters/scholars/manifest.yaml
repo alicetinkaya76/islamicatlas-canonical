@@ -1,0 +1,34 @@
+adapter_id: scholars
+display_name: "islamicatlas v1 scholars layer — 49 core scholars (bilingual cards)"
+adapter_version: 0.1.0
+source_kind: digital_corpus
+languages: [tr, en]
+license: "islamicatlas.org v1 app data (own project; DİA-sourced editorial cards)"
+extraction_method: structured_json
+
+target_namespaces: [person]
+
+# HONEST BOUNDARY: scholar_identity.js carries 296 cards but 252 reference a
+# db.json name authority NOT in the repo → unprocessable until Ali supplies
+# the v1 app's db.json (PHASE0_CLOSEOUT source-acquisition item). Scope here
+# = the 49 named CSV scholars (44 w/ identity card, 47 w/ meta).
+input_paths:
+  - data/sources/scholars/scholars.csv
+  - data/sources/scholars/scholars_converted.json
+
+output_paths:
+  - data/canonical/person/
+
+sidecar_pending:
+  scholars_augment: data/_state/scholars_augment_pending.json
+
+provenance_template:
+  source_id_pattern: "scholars:{scholar_id}"
+  page_or_locator_pattern: "scholars.csv scholar_id={scholar_id}"
+  edition_or_version: "islamicatlas v1 scholars layer (v4.8.x)"
+
+reconciliation:
+  enabled: false   # EntityResolver (Tier-1/2/3) kullanılır
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]

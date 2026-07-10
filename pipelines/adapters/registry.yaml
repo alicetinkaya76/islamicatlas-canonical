@@ -139,6 +139,17 @@ adapters:
       pipeline_name: canonicalize_work_science
       depends_on: [science-layer, openiti-works]
 
+  # Phase 0 (Hafta 10): v1 scholars layer — 49 core scholars, two-track via
+  # Tier-2 (mostly augments: EN descriptions + kunya/nisba/laqab gap-fill).
+  - adapter_id: scholars
+    enabled: true                 # H10 Stage 3
+    priority: 335                 # 330 dia-tdv-scrape'te; sıra dokümantasyon amaçlı
+    config:
+      strict_mode: true
+      namespace: person
+      pipeline_name: canonicalize_person_scholars
+      depends_on: [dia, el-alam, science-layer]
+
   # Phase 0 (Hafta 8): DİA full-narrative upgrade pass.
   # Re-aggregates dia_chunks per slug (ADR-012 50K limit), gap-fills
   # prefLabel.ar (Arabic-script validated) + death_temporal (extended date

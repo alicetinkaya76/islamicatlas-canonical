@@ -115,4 +115,20 @@ adapter reddeder. (4) 3 pilot-kalıntısı "rezerve PID" bilinçli tutuldu
 hatası; full_reindex 49.040/49.040; make test 156 passed. Sağlama örnekleminde
 tüm auto-match'ler 0-3 km / conf ≥0.97. Kuyruktaki 337 vaka tarihçiye.
 
+## Karar 5 — scholars: 49 çekirdek âlim augment-ağırlıklı dönüştü; 252 yetim kart kaynak-temini kalemi
+
+**Tarih:** 2026-07-10
+**Stage:** 3
+
+### Bağlam / Karar / Sonuç
+
+v1 uygulamasının scholars katmanı (JS-literal) node-eval'li determinist
+türevle JSON'a çevrildi (commit'li). 49 isimli âlim Tier-2'den geçti:
+**46 augment** (EN açıklama + kunya/nisba/laqab gap-fill; applier idempotent)
++ 0 mint + 3 review. identity'nin 252 kartı isim-otoritesiz (kayıp db.json)
+→ İŞLENMEDİ; PHASE0_CLOSEOUT'a kaynak-temini kalemi (Ali). Hoca-talebe
+kenarları (163+10 isnad) Stage-3b'ye — `_id_to_pid` haritası sidecar'da
+hazır. Bekçi facet-testi yeni prefix'i yakaladı → `scholars` facet değeri
+ilan edildi. `make test` 156 passed.
+
 <!-- Sonraki H10 kararları burada eklenecek -->

@@ -118,7 +118,7 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
 | ~~darp-islam~~ | place | **✅ H10 S2: 2.338 mint + 621 augment + 337 review** | — |
 | evliya-celebi | place (+10 sefer→event) | 5.444 | Tier-2 ✅; seferler event-aktivasyonu |
 | ibn-battuta | place/event | 317+7 | Tier-2 ✅; seferler event-aktivasyonu |
-| scholars | person | ~285 | Tier-2 ✅ (JS-literal parse) |
+| ~~scholars~~ | person | **✅ H10 S3: 46 augment + 3 review** (49 isimli) | **252 yetim kart: v1 app db.json GEREK (Ali — kaynak temini)**; kenarlar Stage-3b |
 | ei1 | person/place/work | ~5.600 | Tier-2 ✅ (OCR gürültü; en büyük) |
 | battles-events | **event** | ~100+200 kenar | **event ns aktivasyonu (ADR-005 faz kararı — Ali)** |
 | konya-city-atlas | **institution**/place | ~1.384 | **institution şeması yok (ADR-006 §6.4 — Ali)** |
