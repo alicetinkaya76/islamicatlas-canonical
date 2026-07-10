@@ -178,4 +178,14 @@ place 19.809; store 52.257; test bandı belgeli genişledi.
 event-bekleyen. Üçüncü applier kopyası yerine parametrik
 `apply_layer_augments.py` (sonraki kaynaklar için standart). Store 52.385.
 
+## Karar 11 — openiti phantom'ları: rejenerasyon DEĞİL index-repoint
+
+**Tarih:** 2026-07-10 · **Stage:** 9
+
+Teşhis kökü buldu: 1.167 phantom = ilk-geçiş mint'i + aynı koşuda Tier-2'ye
+çözülme (yazılMAmalılar; rejenerasyon dublör üretirdi). Work'ler map_pid
+kullanıyor (0 referans). h10_001 migration'ı index'i gerçeğe repoint etti
+(kalan 0, idempotent, counter dokunulmadı). Kalan 1.615 phantom = meşru
+skip-rezervasyonları (politika: bırak; disk-doğrulamalı lookup).
+
 <!-- Sonraki H10 kararları burada eklenecek -->
