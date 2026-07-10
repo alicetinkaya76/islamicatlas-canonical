@@ -139,6 +139,17 @@ adapters:
       pipeline_name: canonicalize_work_science
       depends_on: [science-layer, openiti-works]
 
+  # Phase 0 (Hafta 10): EI1 — person mints (dated new) + person/place/dynasty
+  # EN-summary augments; concept/unknown/xref skipped with counts.
+  - adapter_id: ei1
+    enabled: true                 # H10 Stage 4
+    priority: 340
+    config:
+      strict_mode: true
+      namespace: person
+      pipeline_name: canonicalize_person_ei1
+      depends_on: [dia, el-alam, science-layer, yaqut]
+
   # Phase 0 (Hafta 10): v1 scholars layer — 49 core scholars, two-track via
   # Tier-2 (mostly augments: EN descriptions + kunya/nisba/laqab gap-fill).
   - adapter_id: scholars

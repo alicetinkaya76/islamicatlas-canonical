@@ -131,4 +131,14 @@ kenarları (163+10 isnad) Stage-3b'ye — `_id_to_pid` haritası sidecar'da
 hazır. Bekçi facet-testi yeni prefix'i yakaladı → `scholars` facet değeri
 ilan edildi. `make test` 156 passed.
 
+## Karar 6 — EI1: tek-namespace mint + çok-namespace augment; OCR recall'ı kuyruğa
+
+**Tarih:** 2026-07-10 · **Stage:** 4
+
+person 21.946→22.910 (+964 tarihli yeni); 242 eşleşme-olayı → 224 kayıtta
+EN/TR/AR özet gap-fill; 1.574 review (OCR-translit recall'ı insan şeridinde);
+tarihsiz-yeni (2.119), yer/hanedan-yeni (729), concept/unknown/xref (1.940)
+MINT EDİLMEDİ — tümü sidecar'da sayılı. Work başlıkları ADR-009 gereği
+mint dışı. Store 50.004; make test 156.
+
 <!-- Sonraki H10 kararları burada eklenecek -->
