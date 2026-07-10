@@ -136,9 +136,10 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
 - [ ] **w3id.org PR** (ADR-001): v0.3.0 (ya da o günkü etiket) yolları.
 - [ ] **Schema set v1.0.0** atomik bump (ADR-013 R2-R4; AP'nin şemaya
       dokunup dokunmadığına göre v0.3.0/v0.4.x'ten).
-- [ ] **Canlı Typesense yolu:** `typesense_schema_emit` + `full_reindex
-      --live` + upsert (bugün tümü yok; NDJSON hazır). İqlim facet'i ya
-      backfill'le doldurulur ya kapsamdan çıkarılır (şimdilik kapalı).
+- [x] **Canlı Typesense yolu — KOD TAMAM (H10 S10):** emit + upsert +
+      Makefile + sözleşme testleri; ilk canlı koşu HOSTING KARARINA bağlı
+      (env-kilitli; 15-dk reçete Stage-10 journal'ında). İqlim facet'i
+      kapalı (backfill ayrı kalem).
 - [ ] **QID audit + display-gate gevşetme** (H7'nin H8'e vaadi, hiç
       yapılmadı): H4 recon 517 + yaqut auto-accept 1,001 QID örneklem
       denetimi (ADR-002 ≤%5 yanlış-pozitif hedefi); OpenITI seed'in

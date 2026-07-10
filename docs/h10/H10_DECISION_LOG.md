@@ -188,4 +188,13 @@ kullanıyor (0 referans). h10_001 migration'ı index'i gerçeğe repoint etti
 (kalan 0, idempotent, counter dokunulmadı). Kalan 1.615 phantom = meşru
 skip-rezervasyonları (politika: bırak; disk-doğrulamalı lookup).
 
+## Karar 12 — Typesense canlı yolu kodlandı; ilk koşu hosting kararına env-kilitli
+
+**Tarih:** 2026-07-10 · **Stage:** 10
+
+emit (34-alan saf gövde; _score float doğrulamalı) + upsert (batch import,
+satır-sonuç sayımlı, sessiz kayıp yok) + Makefile hedefleri + 2 sözleşme
+testi (projeksiyon⊆şema örneklemli gerçek-store'da). Hosting (Cloud vs
+self-host) Ali kararı — env yокken bilinçli net hata; reçete journal'da.
+
 <!-- Sonraki H10 kararları burada eklenecek -->

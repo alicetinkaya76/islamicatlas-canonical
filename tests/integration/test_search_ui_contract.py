@@ -124,3 +124,41 @@ def test_entity_page_recipes_validate_against_meta_schema():
         if recipe.get("entity_type") != path.stem:
             bad.append((path.name, f"entity_type={recipe.get('entity_type')!r} != filename"))
     assert not bad, f"recipe/meta-schema violations: {bad}"
+
+
+def test_typesense_emit_produces_clean_api_body():
+    """H10 S10: emit strips doc-keys and yields a live-creatable body."""
+    from search.typesense_schema_emit import emit
+    body = emit()
+    assert body["name"] == "iac_entities"
+    assert body["fields"], "no fields emitted"
+    for f in body["fields"]:
+        assert "comment" not in f and "description" not in f, f
+        assert set(f) <= {"name", "type", "facet", "optional", "index",
+                          "sort", "infix", "locale", "stem"}, f
+    names = {f["name"]: f for f in body["fields"]}
+    dsf = body.get("default_sorting_field")
+    if dsf:  # Typesense: numeric + mevcut alan olmalı, yoksa create patlar
+        assert dsf in names, f"default_sorting_field {dsf!r} not among fields"
+        assert names[dsf]["type"] in ("int32", "int64", "float"), names[dsf]
+
+
+def test_projected_docs_fit_collection_schema(projector):
+    """Sampled real projections must only carry fields the collection
+    declares (a live import would otherwise silently drop/err them)."""
+    import json as _json
+    from search.typesense_schema_emit import emit
+    declared = {f["name"] for f in emit()["fields"]}
+    canonical = REPO / "data" / "canonical"
+    if not canonical.exists():
+        pytest.skip("canonical store not present")
+    checked = 0
+    for ns_dir in sorted(canonical.iterdir()):
+        if not ns_dir.is_dir():
+            continue
+        for path in sorted(ns_dir.glob(f"iac_{ns_dir.name}_*.json"))[::200]:
+            doc = projector.project(_json.loads(path.read_text(encoding="utf-8")))
+            extra = set(doc) - declared
+            assert not extra, f"{path.name}: undeclared fields {sorted(extra)}"
+            checked += 1
+    assert checked > 100
