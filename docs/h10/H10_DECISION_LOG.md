@@ -88,4 +88,31 @@ Tier-2 artık var; tüm person store'u kendi kendine karşı koşturup ≥0.95
 Örneklemdeki oran (21/250 ≈ %8'i alam-xref'li kesitin) evrene doğrusal
 genellenemez; gerçek sayı taramada koddan sayılacak.
 
+## Karar 4 — darp-islam: iki-track mint + küratör-sinyalli demotion; place 15.239→17.577
+
+**Tarih:** 2026-07-10
+**Stage:** 2
+**İlgili:** ADR-006 v1.1 (resolve aşaması), ADR-008, ADR-010 (digital_corpus)
+
+### Bağlam
+
+v2'nin harita katmanı için ilk kaynak dönüşümü: DarpIslam 3.381 geokodlu
+darphane. İlk kez bir adapter Tier-2 resolver'a bağlanıyor; darphane
+şehirlerinin çoğu Yâqūt'ta zaten var → dublör riski asıl tasarım problemi.
+
+### Karar
+
+(1) İki-track: match → augment-sidecar (le-strange deseni; apply_darp_augments
+uygular), new → mint, review → kuyruk + MINT YOK. (2) Pilot bulgusu üzerine
+**hinted-new demotion**: küratör yakut-ipucu taşıyan ama resolver'ın
+bulamadığı 119 mint review'a (mint edilseydi dublör olurdu). (3) İndeks yoksa
+adapter reddeder. (4) 3 pilot-kalıntısı "rezerve PID" bilinçli tutuldu
+(onay gelirse aynı PID); test_i bu kategoriyi belgeli-şartla tanır.
+
+### Sonuç
+
+3.381 = 706 augment-olayı (621 yer) + 2.338 yeni + 337 review; 0 validasyon
+hatası; full_reindex 49.040/49.040; make test 156 passed. Sağlama örnekleminde
+tüm auto-match'ler 0-3 km / conf ≥0.97. Kuyruktaki 337 vaka tarihçiye.
+
 <!-- Sonraki H10 kararları burada eklenecek -->

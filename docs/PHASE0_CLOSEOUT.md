@@ -115,7 +115,7 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
 
 | Kaynak | Hedef ns | Entity | Blokör |
 |---|---|---:|---|
-| darp-islam | place (darphane) | ~3.381 | Tier-2 ✅ (hazır) |
+| ~~darp-islam~~ | place | **✅ H10 S2: 2.338 mint + 621 augment + 337 review** | — |
 | evliya-celebi | place (+10 sefer→event) | 5.444 | Tier-2 ✅; seferler event-aktivasyonu |
 | ibn-battuta | place/event | 317+7 | Tier-2 ✅; seferler event-aktivasyonu |
 | scholars | person | ~285 | Tier-2 ✅ (JS-literal parse) |
