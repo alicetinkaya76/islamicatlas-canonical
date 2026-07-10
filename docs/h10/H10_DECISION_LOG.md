@@ -170,4 +170,12 @@ EDİLMEDİ — konya/maqrizi ile birlikte tek institution-karar havuzunda
 (ADR-006 §6.4, Ali); 268 doğal/bilinmeyen triage; 10 sefer event-bekleyen.
 place 19.809; store 52.257; test bandı belgeli genişledi.
 
+## Karar 10 — İbn Battûta durakları dönüştü; jenerik layer-applier
+
+**Tarih:** 2026-07-10 · **Stage:** 8
+
+317 durak: 148 augment-olayı (124 yer) + 128 mint + 41 review; 7 sefer
+event-bekleyen. Üçüncü applier kopyası yerine parametrik
+`apply_layer_augments.py` (sonraki kaynaklar için standart). Store 52.385.
+
 <!-- Sonraki H10 kararları burada eklenecek -->

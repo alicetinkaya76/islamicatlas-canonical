@@ -1,0 +1,31 @@
+adapter_id: ibn-battuta
+display_name: "İbn Battûta Rihle — atlas katmanı (317 durak, 7 sefer)"
+adapter_version: 0.1.0
+source_kind: primary_textual
+languages: [tr, en, ar]
+license: "Rihla (14. yy, telif dışı); atlas yapılandırması own-project"
+extraction_method: structured_json
+
+# Duraklar place'e (iki-track, Tier-2); 7 sefer + rotalar (GeoJSON)
+# event-aktivasyonuna kadar bekler; gezgin kişisi zaten person store'da.
+target_namespaces: [place]
+
+input_paths:
+  - data/sources/ibn-battuta/ibn_battuta_atlas_layer.json
+
+output_paths:
+  - data/canonical/place/
+
+sidecar_pending:
+  ibn_battuta_augment: data/_state/ibn_battuta_augment_pending.json
+
+provenance_template:
+  source_id_pattern: "ibn-battuta:{id}"
+  page_or_locator_pattern: "Rihla, s. {src_page}"
+  edition_or_version: "atlas katmanı (ibn_battuta_atlas_layer.json)"
+
+reconciliation:
+  enabled: false   # EntityResolver
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]
