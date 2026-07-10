@@ -140,10 +140,12 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
       Makefile + sözleşme testleri; ilk canlı koşu HOSTING KARARINA bağlı
       (env-kilitli; 15-dk reçete Stage-10 journal'ında). İqlim facet'i
       kapalı (backfill ayrı kalem).
-- [ ] **QID audit + display-gate gevşetme** (H7'nin H8'e vaadi, hiç
-      yapılmadı): H4 recon 517 + yaqut auto-accept 1,001 QID örneklem
-      denetimi (ADR-002 ≤%5 yanlış-pozitif hedefi); OpenITI seed'in
-      doğrulanmış-yanlış QID'leri temizliği.
+- [x] **QID audit YAPILDI (H10 S11) — sonuç: gevşetme YOK, tam tersi.**
+      TAM evren (3.073): %33.7 MISMATCH (dynasty %96; Safevîler→Spartacus
+      League sınıfı kanıtlar). Display-gate KALICI. → YENİ kalem:
+- [ ] **QID temizlik oturumu (Ali+Claude):** kademeli kural (aşikâr-çöp
+      purge: sim<60+sinyalsiz; sınır-vakalar review'a); qid_audit_report.json
+      kanıt listesi hazır. Temizlik olmadan QID yayını YOK.
 - [ ] **check_all davranışı:** bayraksız çağrının store'a yazması (resolve)
       footgun — `--resolve` opt-in'e çevirme kararı (runbook'larla birlikte).
 - [ ] **Zenodo dump + DOI** (CHANGELOG 1.0.0 tanımı): ADR-014 belge referansı

@@ -197,4 +197,14 @@ satır-sonuç sayımlı, sessiz kayıp yok) + Makefile hedefleri + 2 sözleşme
 testi (projeksiyon⊆şema örneklemli gerçek-store'da). Hosting (Cloud vs
 self-host) Ali kararı — env yокken bilinçli net hata; reçete journal'da.
 
+## Karar 13 — QID denetimi: %33.7 yanlış-pozitif (TAM evren); display-gate kalıcı, temizlik insan-onaylı ayrı oturum
+
+**Tarih:** 2026-07-10 · **Stage:** 11
+
+3.073 QID'in tamamı canlı Wikidata'ya karşı ölçüldü: 1.037 MISMATCH
+(dynasty %96!). Safevîler→Spartacus League sınıfı kanıtlar tartışmasız.
+Store'a dokunulmadı; H7 display-gate kalıcılaştı; kademeli temizlik
+PHASE0_CLOSEOUT'a. Metodoloji dersi: H9 refuter'ları OpenITI-seed bulgusunu
+fazla-çürütmüş — popülasyon ölçümü nihai hakem.
+
 <!-- Sonraki H10 kararları burada eklenecek -->
