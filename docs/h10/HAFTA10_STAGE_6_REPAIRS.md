@@ -28,8 +28,14 @@ H10 Karar 3'ün işi: 22.931 person kendine-karşı Tier-2'den (≥0.95 +
 çiftleri. STORE'A YAZMAZ; merge ADR-008 Tier-3 insan kararı. (Sonuç sayısı
 koşu bitince bu dosyanın altına işlenir.)
 
-### Tarama sonucu (koşu tamamlanınca güncellenir)
-- scanned / candidate_pairs: koşu sürüyor — commit sonrası ek not.
+### Tarama sonucu (2026-07-10, koddan)
+- **22.931 tarandı → 3.199 aday çift** (`person_dedup_candidates.json`).
+- Örneklem şüphesiz gerçek dublörler: Ebû Bekir, ʿUthmān, ʿAlī, el-Mansûr,
+  el-Mehdî... (bosworth-rulers/science-layer ↔ dia/el-alam çift-tohumları) —
+  H4-H5'in Tier-2'siz dönemi ölçekte görünür oldu (~%14'lük kesişim).
+- Merge İNSAN kararı (ADR-008 Tier-3): dosya skor-sıralı aday listesidir;
+  onaylanan çiftler ileride ADR-008 append-only merge semantiğiyle birleşir
+  (ayrı, journal'lı iş — Faz 0.5 öncesi önerilir, arama dublör gösteriyor).
 
 ## Kabul
 - [x] 21/21 onarım idempotent; audit sidecar yazıldı; make test 156; index tazelendi.
