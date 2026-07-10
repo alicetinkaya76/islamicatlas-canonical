@@ -141,4 +141,13 @@ tarihsiz-yeni (2.119), yer/hanedan-yeni (729), concept/unknown/xref (1.940)
 MINT EDİLMEDİ — tümü sidecar'da sayılı. Work başlıkları ADR-009 gereği
 mint dışı. Store 50.004; make test 156.
 
+## Karar 7 — AN: 2.261 Cat-B eşleşmesi bağlandı; 1.889 kuyruk; 634 triage — mint sıfır
+
+**Tarih:** 2026-07-10 · **Stage:** 5
+
+Cat B/C (4.784) Tier-2'den geçirildi: eşleşenler DiA provenance+locator aldı
+(zenginleştirme el-alam'ca doyurulmuştu — dürüst sayım: +22 ar, +1 desc);
+kuyruk/triage havuzları sayılı. Kişi/yer/kavram ayrımı OTOMATİKLEŞTİRİLMEDİ.
+AP'ye yan ürün: +2.261 slug→pid haritası (an_cat_b_resolution.json).
+
 <!-- Sonraki H10 kararları burada eklenecek -->

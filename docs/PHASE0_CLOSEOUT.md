@@ -104,9 +104,8 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
       fiilen akıyor; person auto-eşiği ground-truth'la 0.95'e kalibre
       (precision %99.2, 20 ms/resolve — `resolver_weights.yaml` +
       HAFTA10_STAGE_1_RESOLVER.md).
-- [ ] AN'in kendisi: Cat B slug'larını Tier-2'den geçir; ≥0.95 iki-sinyalli
-      eşleşmeler otomatik, 0.70-0.95 review kuyruğuna. Borderline
-      `needs_human_review` — asla otomatik merge.
+- [x] **AN TAMAM (H10 S5):** 2.261 match (provenance+locator bağlandı; AP'ye
+      +2.261 slug→pid haritası) · 1.889 review kuyruğu · 634 triage (mint yok).
 
 ## 3.5. Kaynak dönüştürme — v2 içerik katmanları (H11+; kaynak başına ~0.5-1 oturum)
 
