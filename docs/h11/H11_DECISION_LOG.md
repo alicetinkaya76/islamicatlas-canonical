@@ -31,4 +31,26 @@ sınıfı — DOĞRU dışarıda) + 23 scholar-çözümsüz + 9 slug-çakışmas
 AYNI ESER olduğunu ifşa etti → work-dublör adayı kuyruğa (merge insan
 kararı); guard eklendi (key-sahipliyse augment yok). make test 158.
 
+## Karar 2 — EVENT NAMESPACE AKTİVASYONU (kullanıcı devriyle): battles+events ilk 100 olay
+
+**Tarih:** 2026-07-12 · **Stage:** 2
+
+### Karar + Gerekçe
+
+event.schema v0.3.0 setinde ZATEN tanımlı (iac:Battle/Founding/Disaster...
+enum'u, projeksiyon kuralı ve UI-tarifi dahil) — aktivasyon şema değişikliği
+gerektirmiyor, geri alınabilir (kayıtlar silinebilir), ADR-005 faz sırasının
+(P0.3) veri-hazır öne alınışı. "Sen karar ver" devri kapsamında en düşük
+riskli aktivasyon buydu; institution AKTİVE EDİLMEDİ (yeni şema = v0.4.0
+set-bump = Ali).
+
+### Sonuç
+
+100 olay mint (50 savaş → iac:Battle; kategoriler → Founding/Composition/
+Disaster/Event); location Tier-2 place-çözümü: 40 bağlı, 60 çözümsüz (boş
+bırakıldı — koordinattan place mint edilmez); 214 yerel-kenar (causes/
+related) sidecar'da PID-bağlama koşusunu bekliyor. Store 52.477; reindex
+52.477/52.477; make test 158. v2'nin zaman-çizelgesi katmanı ilk verisini
+aldı. Seferler (17) + monuments/diplomacy/trade_routes bilinçli-beklemede.
+
 <!-- Sonraki H11 kararları burada eklenecek -->

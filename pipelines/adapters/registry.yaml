@@ -225,3 +225,14 @@ adapters:
 #   - makdisi-ahsan-al-taqasim
 #   - konya-city-atlas
 #   - darp-islam-mints
+
+  # Phase 0 (Hafta 11): battles+events — EVENT NAMESPACE AKTİVASYONU
+  # (şema sette hazırdı; H11 Karar 2). location Tier-2 place-bağlamalı.
+  - adapter_id: battles-events
+    enabled: true                 # H11 Stage 2
+    priority: 500
+    config:
+      strict_mode: true
+      namespace: event
+      pipeline_name: canonicalize_event_battles
+      depends_on: [yaqut, darp-islam, evliya-celebi]

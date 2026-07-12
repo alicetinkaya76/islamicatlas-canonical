@@ -1,0 +1,29 @@
+adapter_id: battles-events
+display_name: "islamicatlas v1 battles+events editorial layer (100 olay)"
+adapter_version: 0.1.0
+source_kind: manual_editorial
+languages: [tr, en]
+license: "islamicatlas.org v1 editorial dataset (own project)"
+extraction_method: structured_json
+
+# EVENT NAMESPACE AKTİVASYONU (H11 Karar 2): şema v0.3.0 setinde zaten
+# tanımlı — şema değişikliği yok. location Tier-2 place-çözümüyle bağlanır
+# (eşleşmezse boş; asla koordinattan place mint edilmez). causal_links/
+# monuments/diplomacy/trade_routes yield edilmez (kenar+şemasız sınıflar).
+target_namespaces: [event]
+
+input_paths:
+  - data/sources/battles-events/battles.csv
+  - data/sources/battles-events/events.csv
+
+output_paths:
+  - data/canonical/event/
+
+sidecar_pending:
+  battles_edges: data/_state/battles_events_edges_pending.json
+
+reconciliation:
+  enabled: false
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]
