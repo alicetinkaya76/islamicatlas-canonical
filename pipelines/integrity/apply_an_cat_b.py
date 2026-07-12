@@ -41,6 +41,31 @@ def main() -> int:
     args = ap.parse_args()
 
     matches = json.loads(RES.read_text(encoding="utf-8"))["matches"]
+    # H10 final-review guard: aynı PID'e birden çok slug düştüyse (resolver
+    # over-merge adayı) OTOMATİK UYGULANMAZ — 9 kayda yanlış-kişi verisi
+    # bulaştığı kanıtlandı (Nûh II ← Mansûr b. Nûh Arapça etiketi). Bu
+    # çakışmalar collisions kuyruğuna yazılır; karar tarihçinin.
+    from collections import Counter
+    pid_counts = Counter(m["pid"] for m in matches.values())
+    collision_pids = {p for p, c in pid_counts.items() if c > 1}
+    if collision_pids:
+        coll_path = REPO_ROOT / "data" / "review_queue" / "an-cat-b-collisions.jsonl"
+        coll_path.parent.mkdir(parents=True, exist_ok=True)
+        existing = set()
+        if coll_path.exists():
+            for line in coll_path.read_text(encoding="utf-8").splitlines():
+                try:
+                    existing.add(json.loads(line)["slug"])
+                except Exception:
+                    pass
+        with coll_path.open("a", encoding="utf-8") as fh:
+            for slug, m in sorted(matches.items()):
+                if m["pid"] in collision_pids and slug not in existing:
+                    fh.write(json.dumps({"slug": slug, **m}, ensure_ascii=False) + "\n")
+        n_skip_coll = sum(1 for m in matches.values() if m["pid"] in collision_pids)
+        matches = {s: m for s, m in matches.items() if m["pid"] not in collision_pids}
+        print(f"[apply_an] ÇAKIŞMA: {len(collision_pids)} PID / {n_skip_coll} slug "
+              f"otomatik-uygulama DIŞI → {coll_path.name} (tarihçi)")
     chunks = json.loads((REPO_ROOT / "data/sources/dia_chunks.json").read_text(encoding="utf-8"))
     agg = aggregate_chunks_by_slug(chunks)
     now = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")

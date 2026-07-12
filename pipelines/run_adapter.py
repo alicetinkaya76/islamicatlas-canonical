@@ -258,9 +258,41 @@ def main() -> int:
                         "authored_works", "active_in_places",
                         "birth_place", "death_place", "had_ruler",
                         "authority_xref",
+                        # H10 final-review: augment/edge alanları da re-run'da
+                        # silinmesin (scholar kenarları, layer katkıları,
+                        # kart gap-fill'leri)
+                        "teachers", "students", "kunya", "nisba", "laqab",
                     ):
                         if prior.get(k) and not record.get(k):
                             record[k] = prior[k]
+                    # derived_from_layers: BİRLEŞİM (applier katkıları + taze)
+                    prior_layers = prior.get("derived_from_layers") or []
+                    if prior_layers:
+                        merged = list(dict.fromkeys(
+                            (record.get("derived_from_layers") or []) + prior_layers))
+                        record["derived_from_layers"] = merged
+                    # provenance: created gerçeği + applier tarihçesi korunur
+                    p_prov = prior.get("provenance") or {}
+                    r_prov = record.get("provenance") or {}
+                    if p_prov.get("created"):
+                        r_prov["created"] = p_prov["created"]
+                    prior_hist = p_prov.get("record_history") or []
+                    if prior_hist:
+                        fresh_hist = r_prov.get("record_history") or []
+                        seen_notes = {(h.get("changed_at"), h.get("note"))
+                                      for h in prior_hist}
+                        merged_hist = prior_hist + [
+                            h for h in fresh_hist
+                            if (h.get("changed_at"), h.get("note")) not in seen_notes]
+                        r_prov["record_history"] = merged_hist
+                    prior_df = p_prov.get("derived_from") or []
+                    fresh_df = r_prov.get("derived_from") or []
+                    fresh_sids = {d.get("source_id") for d in fresh_df}
+                    extra_df = [d for d in prior_df
+                                if d.get("source_id") not in fresh_sids]
+                    if extra_df:
+                        r_prov["derived_from"] = fresh_df + extra_df
+                    record["provenance"] = r_prov
                 except (OSError, json.JSONDecodeError):
                     pass
             out_path.write_text(

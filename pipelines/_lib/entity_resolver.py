@@ -19,6 +19,7 @@ from __future__ import annotations
 import math
 import re
 import sqlite3
+import sys
 import unicodedata
 import uuid
 from dataclasses import dataclass, field
@@ -84,10 +85,17 @@ class EntityResolver:
     def __init__(self, repo_root: Path | str, weights_path: Path | str | None = None):
         self.repo_root = Path(repo_root)
         self.index_path = self.repo_root / "data" / "_index" / "lookup.sqlite"
+        # H10 final-review: karar cache'i lookup.sqlite'tan AYRILDI —
+        # `build_lookup --rebuild` indeks dosyasını silip yeniden kurar ve
+        # cache'i (5 adapter'ın idempotency hafızasını) yanında götürüyordu.
+        # Cache artık data/_state'te yaşar; indeks istendiği kadar rebuild edilir.
+        self.cache_path = self.repo_root / "data" / "_state" / "decision_cache.sqlite"
         self.review_queue_dir = self.repo_root / "data" / "review_queue"
         self.review_decisions_path = self.repo_root / "data" / "review_decisions.jsonl"
         self.weights_path = Path(weights_path) if weights_path else self.repo_root / "pipelines" / "_lib" / "resolver_weights.yaml"
         self._conn: Optional[sqlite3.Connection] = None
+        self._cache_conn: Optional[sqlite3.Connection] = None
+        self._queued_rids: dict[str, set] = {}   # adapter_id → kuyruktaki rid'ler
         self._weights = self._load_weights()
 
     # ----- public API ----------------------------------------------------
@@ -146,6 +154,9 @@ class EntityResolver:
         if self._conn is not None:
             self._conn.close()
             self._conn = None
+        if self._cache_conn is not None:
+            self._cache_conn.close()
+            self._cache_conn = None
 
     # ----- Tier 1: deterministic match ----------------------------------
 
@@ -254,7 +265,8 @@ class EntityResolver:
         scored: list[Candidate] = []
         for pid, bracket in candidates.items():
             feats = self._score_features(
-                conn, pid, query_texts, q_year, q_lat, q_lon, bracket)
+                conn, pid, query_texts, q_year, q_lat, q_lon, bracket,
+                entity_type=entity_type)
             if feats is None:
                 continue  # hard year-block
             score, n_feats = self._weighted_score(feats, weights)
@@ -370,13 +382,18 @@ class EntityResolver:
         return out
 
     def _score_features(self, conn, pid, query_texts, q_year, q_lat, q_lon,
-                        bracket) -> Optional[dict[str, float]]:
+                        bracket, entity_type: str = "person") -> Optional[dict[str, float]]:
         sy, ey, c_lat, c_lon = bracket
         c_year = sy if isinstance(sy, int) else (ey if isinstance(ey, int) else None)
 
-        # Hard year block: both sides dated and centuries apart → not the
-        # same entity, whatever the name says (namesake suppression).
-        if q_year is not None and c_year is not None \
+        # Hard year block — PERSONS ONLY (H10 final-review düzeltmesi):
+        # kişilerde iki taraf da ölüm-yılıdır ve yüzyıllar-ötesi fark adaş
+        # demektir; YERLERDE ise sorgu yılı çoğunlukla TANIKLIK yılıdır
+        # (sikke basımı, Evliyâ'nın uğrama tarihi) — yer varlığını sürdürür,
+        # bu blok aynı şehri kendi pid'inden düşürüp mükerrer mint üretti
+        # (kanıtlı: Aydhab/Sehwan/Kûlam). Yer/eser için yıl yalnız SKOR
+        # sinyalidir, elek değildir.
+        if entity_type == "person" and q_year is not None and c_year is not None \
                 and abs(q_year - c_year) > self.HARD_YEAR_BLOCK:
             return None
 
@@ -410,10 +427,13 @@ class EntityResolver:
         missing feature neither helps nor hurts. Returns (score, n_features)
         where n_features counts corroborating signals (label+alt = one name
         signal — they are not independent evidence)."""
-        w_map = {"label": weights.get("w_label", 0.35),
-                 "alt": weights.get("w_alt", 0.15),
-                 "temporal": weights.get("w_temporal", 0.20),
-                 "spatial": weights.get("w_spatial", 0.30)}
+        # H10 final-review: eksik anahtar = 0 ağırlık (YAML kontratı sızdırmaz
+        # — person'da w_spatial tanımlı değilse spatial skora HİÇ girmez;
+        # eski kod default'la diriltiyordu).
+        w_map = {"label": weights.get("w_label", 0.0),
+                 "alt": weights.get("w_alt", 0.0),
+                 "temporal": weights.get("w_temporal", 0.0),
+                 "spatial": weights.get("w_spatial", 0.0)}
         total_w = sum(w_map[f] for f in feats if f in w_map)
         if total_w <= 0:
             return 0.0, 0
@@ -438,10 +458,24 @@ class EntityResolver:
         decision: ResolutionDecision,
         extracted_summary: dict,
     ) -> None:
-        """Append a review-queue entry as JSONL."""
+        """Append a review-queue entry as JSONL (rid-dedup'lu — H10 final-
+        review: cache kaybı + re-run eski kayıtları MÜKERRER kuyruklıyordu;
+        aynı extracted_record_id bir kuyruk dosyasına bir kez girer)."""
         import json
         self.review_queue_dir.mkdir(parents=True, exist_ok=True)
         queue_path = self.review_queue_dir / f"{adapter_id}.jsonl"
+        if adapter_id not in self._queued_rids:
+            seen: set = set()
+            if queue_path.exists():
+                for line in queue_path.read_text(encoding="utf-8").splitlines():
+                    try:
+                        seen.add(json.loads(line).get("extracted_record_id"))
+                    except json.JSONDecodeError:
+                        continue
+            self._queued_rids[adapter_id] = seen
+        if extracted_record_id in self._queued_rids[adapter_id]:
+            return
+        self._queued_rids[adapter_id].add(extracted_record_id)
         entry = {
             "queue_id": decision.queue_id,
             "adapter_id": adapter_id,
@@ -463,13 +497,32 @@ class EntityResolver:
 
     # ----- decision cache (idempotent re-runs) --------------------------
 
+    def _cache_connect(self) -> sqlite3.Connection:
+        if self._cache_conn is None:
+            self.cache_path.parent.mkdir(parents=True, exist_ok=True)
+            self._cache_conn = sqlite3.connect(self.cache_path)
+            self._cache_conn.execute("PRAGMA journal_mode = WAL")
+            # v2 şeması: tier + queue_id taşınır (H10 final-review — replay
+            # eskiden tier/queue_id düşürüp kanıt zincirini bozuyordu).
+            self._cache_conn.execute("""
+                CREATE TABLE IF NOT EXISTS decision_cache (
+                  adapter_id TEXT NOT NULL,
+                  extracted_record_id TEXT NOT NULL,
+                  decision_kind TEXT NOT NULL,
+                  matched_pid TEXT,
+                  confidence REAL,
+                  tier INTEGER,
+                  queue_id TEXT,
+                  decided_at TEXT NOT NULL,
+                  PRIMARY KEY (adapter_id, extracted_record_id)
+                )""")
+            self._cache_conn.commit()
+        return self._cache_conn
+
     def _cache_lookup(self, adapter_id: str, extracted_record_id: str) -> ResolutionDecision | None:
-        conn = self._connect()
-        if conn is None:
-            return None
-        row = conn.execute(
+        row = self._cache_connect().execute(
             """
-            SELECT decision_kind, matched_pid, confidence
+            SELECT decision_kind, matched_pid, confidence, tier, queue_id
               FROM decision_cache
              WHERE adapter_id = ? AND extracted_record_id = ?
             """,
@@ -478,28 +531,23 @@ class EntityResolver:
         if not row:
             return None
         return ResolutionDecision(
-            kind=row[0],
-            matched_pid=row[1],
-            confidence=row[2],
-            tier=0,  # cache hit; original tier preserved in log only
+            kind=row[0], matched_pid=row[1], confidence=row[2],
+            tier=row[3] or 0, queue_id=row[4],
         )
 
     def _cache_store(self, adapter_id: str, extracted_record_id: str, decision: ResolutionDecision) -> None:
-        conn = self._connect()
-        if conn is None:
-            return
+        conn = self._cache_connect()
         conn.execute(
             """
             INSERT OR REPLACE INTO decision_cache
-              (adapter_id, extracted_record_id, decision_kind, matched_pid, confidence, decided_at)
-              VALUES (?, ?, ?, ?, ?, ?)
+              (adapter_id, extracted_record_id, decision_kind, matched_pid,
+               confidence, tier, queue_id, decided_at)
+              VALUES (?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
-                adapter_id,
-                extracted_record_id,
-                decision.kind,
-                decision.matched_pid,
-                decision.confidence,
+                adapter_id, extracted_record_id, decision.kind,
+                decision.matched_pid, decision.confidence, decision.tier,
+                decision.queue_id,
                 datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
             ),
         )
@@ -507,8 +555,11 @@ class EntityResolver:
 
     # ----- weights config ------------------------------------------------
 
-    def _load_weights(self) -> dict:
-        if not self.weights_path.exists():
+    def _in_code_default_weights(self) -> dict:
+        return self._load_weights(_defaults_only=True)
+
+    def _load_weights(self, _defaults_only: bool = False) -> dict:
+        if _defaults_only or not self.weights_path.exists():
             # Default weights baked in. Override by writing the YAML file.
             return {
                 "person": {
@@ -541,9 +592,19 @@ class EntityResolver:
         try:
             import yaml
             with self.weights_path.open(encoding="utf-8") as fh:
-                return yaml.safe_load(fh)
-        except Exception:
-            return {}
+                loaded = yaml.safe_load(fh)
+            if not isinstance(loaded, dict) or not loaded:
+                raise ValueError("resolver_weights.yaml boş/tip-dışı")
+            return loaded
+        except Exception as exc:
+            # H10 final-review: sessiz {} dönüşü tüm ağırlıkları sıfırlayıp
+            # her şeyi 'new' yapardı. Sesli uyar + in-code default'lara düş
+            # (davranış öngörülebilir kalır; kalibre 0.95 kaybolur — uyarı
+            # bunu açıkça söyler).
+            print(f"[resolver] WARNING: resolver_weights.yaml yüklenemedi ({exc}); "
+                  f"in-code default'lara düşülüyor (person auto=0.90 — "
+                  f"KALİBRESİZ).", file=sys.stderr)
+            return self._in_code_default_weights()
 
     # ----- SQLite connection management ---------------------------------
 

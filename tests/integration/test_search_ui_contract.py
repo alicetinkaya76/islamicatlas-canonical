@@ -138,9 +138,11 @@ def test_typesense_emit_produces_clean_api_body():
                           "sort", "infix", "locale", "stem"}, f
     names = {f["name"]: f for f in body["fields"]}
     dsf = body.get("default_sorting_field")
-    if dsf:  # Typesense: numeric + mevcut alan olmalı, yoksa create patlar
+    if dsf:  # Typesense: numeric + mevcut + NON-optional olmalı, yoksa create patlar
         assert dsf in names, f"default_sorting_field {dsf!r} not among fields"
         assert names[dsf]["type"] in ("int32", "int64", "float"), names[dsf]
+        assert not names[dsf].get("optional", False), (
+            f"default_sorting_field {dsf!r} optional olamaz (Typesense reddeder)")
 
 
 def test_projected_docs_fit_collection_schema(projector):

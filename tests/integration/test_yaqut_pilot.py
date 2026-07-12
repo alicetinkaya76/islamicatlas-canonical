@@ -267,15 +267,32 @@ class TestIdempotency:
             with darp_sidecar.open(encoding="utf-8") as fh:
                 skipped = json.load(fh).get("_review_skipped", {})
             reserved_ok = {f"place:{rid}" for rid in skipped}
+        # H10 S14 kategorisi: dedup'ta SİLİNEN mükerrer mint'lerin pid'leri —
+        # index'te rezerv kalırlar (idempotent hash aynı pid'i döndürür;
+        # kayıt yeniden yazılmamalı, kept_pid kullanılmalı). Belgeli mazur.
+        reserved_pids = set()
+        dedup_log = STATE_DIR / "place_dupes_removed_h10_003.json"
+        if dedup_log.exists():
+            with dedup_log.open(encoding="utf-8") as fh:
+                reserved_pids = {r["removed_pid"]
+                                 for r in json.load(fh).get("removed", [])}
         unexcused = [
             k for k, v in place_pids.items()
             if not (PLACE_DIR / f"iac_place_{v.rsplit('-', 1)[1]}.json").exists()
-            and k not in reserved_ok
+            and k not in reserved_ok and v not in reserved_pids
         ]
         assert not unexcused, (
             f"{len(unexcused)} indexed place PIDs have no record file and no "
             f"documented review-reservation; first 3: {unexcused[:3]}")
-        assert len(place_pids) - (len(place_pids) - on_disk) == on_disk  # arithmetic sanity
+        # Ters yön (H10 final-review: eski satır totolojiydi): diskteki her
+        # kayıt index'te de olmalı — indekssiz dosya, idempotency deliğidir.
+        indexed_ords = {v.rsplit("-", 1)[1] for v in place_pids.values()}
+        on_disk_ords = {p.name[len("iac_place_"):-len(".json")]
+                        for p in PLACE_DIR.glob("iac_place_*.json")}
+        unindexed = sorted(on_disk_ords - indexed_ords)
+        assert not unindexed, (
+            f"{len(unindexed)} on-disk place records missing from pid_index; "
+            f"first 3: {unindexed[:3]}")
 
 
 class TestSidecarCompleteness:

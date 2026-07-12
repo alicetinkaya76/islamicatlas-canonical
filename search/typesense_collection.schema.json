@@ -242,8 +242,8 @@
       "name": "_score",
       "type": "float",
       "facet": false,
-      "optional": true,
-      "comment": "Computed ranking score, populated by the projector. Combination of has_wikidata, has_coords, capital_status, manual_curation. Used as default_sorting_field."
+      "optional": false,
+      "comment": "Computed ranking score, populated by the projector (every doc carries it — verified over the full store). Used as default_sorting_field; Typesense REJECTS a create-collection whose default_sorting_field is optional (H10 final-review fix)."
     },
     {
       "name": "modified_at",

@@ -216,4 +216,16 @@ Scholar kenarları: 3 teacher-edge uygulandı (yön doğrulamalı); 160 kenar +
 10 isnad db.json/P1-graf bekliyor. Bu noktada karar-gerektirmeyen tüm işler
 tamamlandı — kalan kalemlerin tamamı PHASE0_CLOSEOUT'ta Ali-kapılı.
 
+## Karar 15 — Final-review remediation: 5 veri-onarımı sınıfı + resolver/cache mimari düzeltmeleri
+
+**Tarih:** 2026-07-12 · **Stage:** 14
+
+46-ajanlık H10-geneli inceleme 17 onaylı bulgu verdi. Veri: 58 doğum-ölüm
+taşıma, 9+14 çakışma geri-alımı (yanlış-kişi bulaşması kanıtlıydı — North
+Star: çok-eşleşme artık ASLA otomatik uygulanmaz), 8 mükerrer yer silme
+(koşu-içi indeks tazeliği; kök neden = yer için HARD_YEAR_BLOCK — kaldırıldı),
+469 evliya temporal. Mimari: decision_cache index'ten ayrıldı (rebuild
+idempotency'yi öldürüyordu), preserve-listesi H10 alanlarını kapsar, _score
+optional:false (canlı Typesense blocker'ı). Store 52.377; suite 158.
+
 <!-- Sonraki H10 kararları burada eklenecek -->

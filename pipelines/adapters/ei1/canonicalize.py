@@ -74,9 +74,13 @@ def canonicalize(extracted_records: Iterator[dict], pid_minter, reconciler=None,
 
         labels = _build_labels(raw)
         temporal = _temporal(raw)
+        # Resolver'a yalnız ÖLÜM yılı verilir (bc doğumdur; ölüm-bracket'lı
+        # store'a karşı yanlış sinyal olur — H10 final-review).
+        q_temporal = ({"start_ce": temporal["start_ce"]}
+                      if temporal.get("_from") == "dc" else {})
         decision = resolver.resolve(
             entity_type=ns, adapter_id="ei1", extracted_record_id=rid,
-            labels=labels, temporal=temporal)
+            labels=labels, temporal=q_temporal)
 
         if decision.kind == "match":
             stats["match"] += 1
@@ -128,6 +132,10 @@ def _build_labels(raw: dict) -> dict:
 
 
 def _temporal(raw: dict) -> dict:
+    """H10 final-review düzeltmesi: hangi anahtardan geldiği taşınır — bc
+    (doğum) death_temporal'a yazılıp 58 kayda yanlış ölüm yılı basmıştı.
+    Ayrıca doğum yılı resolver'a ölüm-yılıymış gibi verilmez (yanlış tarih,
+    tarihsizden kötü skorlar ve review bandını atlatır)."""
     out: dict = {}
     for k in ("dc", "bc"):
         v = raw.get(k)
@@ -135,6 +143,7 @@ def _temporal(raw: dict) -> dict:
             v = int(v.strip())
         if isinstance(v, int) and -600 <= v <= 2000:
             out["start_ce"] = v
+            out["_from"] = k
             break
     return out
 
@@ -157,13 +166,15 @@ def _augment_payload(raw: dict, decision) -> dict:
 def _build_person(raw, labels, temporal, rid, pid_minter,
                   pipeline_name, pipeline_version, now) -> dict:
     pid = pid_minter.mint("person", rid)
+    # dc → death_temporal; bc → birth_temporal (P0.2 "en az bir temporal"
+    # kuralını doğum da sağlar; doğumu ölüm diye yazmak 58 kaydı bozmuştu).
+    t_field = "death_temporal" if temporal.get("_from") == "dc" else "birth_temporal"
     record = {
         "@id": pid,
         "@type": ["iac:Person"],
         "labels": labels,
         "profession": ["scholar"],
-        "death_temporal": {"start_ce": temporal["start_ce"],
-                           "approximation": "exact" if raw.get("dc") else "circa"},
+        t_field: {"start_ce": temporal["start_ce"], "approximation": "exact"},
         "provenance": {
             "derived_from": [{
                 "source_id": rid,

@@ -60,6 +60,26 @@ def main() -> int:
                 n_noop += 1
                 continue
 
+            # H10 final-review guard: çok-olaylı PID (aynı kayda birden çok
+            # EI1 makalesi match'lenmiş) = adaş-merge şüphesi — otomatik
+            # UYGULANMAZ; collisions kuyruğuna (14 PID / 18 düşen olay
+            # sınıfı; 5166'da yanlış-kişi EN açıklaması kanıtlandı).
+            if len(events) > 1:
+                coll = REPO_ROOT / "data" / "review_queue" / "ei1-collisions.jsonl"
+                coll.parent.mkdir(parents=True, exist_ok=True)
+                seen = set()
+                if coll.exists():
+                    for line in coll.read_text(encoding="utf-8").splitlines():
+                        try:
+                            seen.add(json.loads(line)["pid"])
+                        except Exception:
+                            pass
+                if pid not in seen and not args.dry_run:
+                    with coll.open("a", encoding="utf-8") as fh:
+                        fh.write(json.dumps({"pid": pid, "events": events},
+                                            ensure_ascii=False) + "\n")
+                print(f"  COLLISION {pid}: {len(events)} olay → kuyruk (uygulanmadı)")
+                continue
             ev = events[0]
             changed = []
             labels = rec.setdefault("labels", {})
