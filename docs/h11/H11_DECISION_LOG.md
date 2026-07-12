@@ -73,4 +73,18 @@ test_h7_1 artık iki meşru biçimi tanır (tombstone VEYA kanıtlı-karantina).
 313 place. Yayın yüzünde kanıtlanmış-yanlış iddia kalmadı; make test 158;
 reindex temiz. Sınır bandının nihai kararı tarihçi oturumuna.
 
+## Karar 4 — db.json teslimi: scholars evreni 49→450; kenarlar bağlandı
+
+**Tarih:** 2026-07-12 · **Stage:** 4
+
+Kullanıcı v1 sitesinin tam verisini (data.zip) + `src/data/db.json`'ı teslim
+etti (450 âlim: üç-dilli ad + doğum/ölüm + koordinat + üç-dilli anlatı).
+H10 S3'ün "252 yetim kart" sınırı KALKTI. Extract db.json-otoriteli yeniden
+yazıldı (sözleşme aynı — 49'luk eski koşu idempotent kaldı). Sonuç: 450 =
+354 augment (232 kayıt yeni gap-fill: prefLabel.ar + desc en/tr/ar) + 4 mint
++ 92 review; kenar geçişi tam haritayla 11 hoca-talebe bağı daha uyguladı
+(Ebû Hanîfe.students ✓); 150 kenar (influence/isnad — şema alanı yok) P1-graf
+havuzunda. Zip envanterinden gelecek işler: salibiyyat olay katmanı,
+dia_travel/relations, yaqut_detail, alam_detail (7.6MB) — sıraya not edildi.
+
 <!-- Sonraki H11 kararları burada eklenecek -->

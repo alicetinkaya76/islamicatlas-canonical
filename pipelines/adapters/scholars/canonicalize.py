@@ -62,13 +62,18 @@ def canonicalize(extracted_records: Iterator[dict], pid_minter, reconciler=None,
             labels["prefLabel"]["tr"] = raw["name_tr"]
         if raw.get("name_en"):
             labels["prefLabel"]["en"] = raw["name_en"]
+        if raw.get("name_ar"):  # H11 S4: db.json Arapça adları getirdi
+            labels["prefLabel"]["ar"] = raw["name_ar"]
         alt = [v for v in (raw.get("name_original"),) if v]
         if alt:  # ALA-LC transliteration ("Abū Ḥanīfa al-Nuʿmān") → en bucket
             labels["altLabel"] = {"en": alt}
 
         temporal = {}
-        if (raw.get("death_ce") or "").isdigit():
-            temporal["start_ce"] = int(raw["death_ce"])
+        d = raw.get("death_ce")  # db.json int verir; csv str verirdi
+        if isinstance(d, str) and d.strip().lstrip("-").isdigit():
+            d = int(d.strip())
+        if isinstance(d, int):
+            temporal["start_ce"] = d
 
         decision = resolver.resolve(
             entity_type="person", adapter_id="scholars",
@@ -110,6 +115,8 @@ def _augment_payload(raw, card, decision) -> dict:
         "preflabel_en": raw.get("name_en"),
         "description_en": raw.get("narrative_en"),
         "description_tr": raw.get("narrative_tr"),
+        "description_ar": raw.get("narrative_ar"),
+        "preflabel_ar": raw.get("name_ar"),
         "kunya": card.get("kunya_tr"),
         "nisba": _split_list(card.get("nisba_tr")),
         "laqab": _split_list(card.get("laqab_tr")),
@@ -161,6 +168,8 @@ def _build_person(raw, card, labels, rid, pid_minter, namespace,
         desc["tr"] = raw["narrative_tr"][:5000]
     if raw.get("narrative_en"):
         desc["en"] = raw["narrative_en"][:5000]
+    if raw.get("narrative_ar"):
+        desc["ar"] = raw["narrative_ar"][:5000]
     if desc:
         record["labels"]["description"] = desc
     if card.get("kunya_tr"):
