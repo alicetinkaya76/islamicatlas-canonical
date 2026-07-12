@@ -17,10 +17,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sqlite3
 import sys
 from pathlib import Path
 from typing import Iterable
+
+_PID_RE = re.compile(r"^iac:([a-z]+)-[0-9]{8}$")
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 CANONICAL_DIR = REPO_ROOT / "data" / "canonical"
@@ -47,6 +50,9 @@ CREATE TABLE IF NOT EXISTS label (
   text TEXT NOT NULL
 );
 CREATE INDEX IF NOT EXISTS label_text_idx ON label(text);
+-- H10 Stage 1: Tier-2 scoring fetches labels per candidate PID (~200/resolve);
+-- without this index each fetch scanned all label rows (measured 467 ms/resolve).
+CREATE INDEX IF NOT EXISTS label_pid_idx ON label(pid);
 
 CREATE VIRTUAL TABLE IF NOT EXISTS label_fts USING fts5(pid UNINDEXED, text);
 
@@ -88,8 +94,16 @@ def index_one(conn: sqlite3.Connection, record: dict) -> None:
     pid = record.get("@id")
     if not pid:
         return
-    types = record.get("@type") or []
-    entity_type = types[0].split(":", 1)[-1].lower() if types else "unknown"
+    # entity_type from @id — authoritative per ADR-001 (H10 Stage 1 fix: the
+    # old @type[0] read mis-bracketed the 768 subtype-first person records,
+    # e.g. ["iac:Scholar","iac:Person"] → 'scholar' → invisible to Tier-2
+    # blocking by entity_type='person'; same bug class as the H9 projector fix).
+    m = _PID_RE.match(pid)
+    if m:
+        entity_type = m.group(1)
+    else:
+        types = record.get("@type") or []
+        entity_type = types[0].split(":", 1)[-1].lower() if types else "unknown"
 
     # 1. authority_xref
     for x in record.get("authority_xref", []) or []:
@@ -136,11 +150,18 @@ def index_one(conn: sqlite3.Connection, record: dict) -> None:
     # 4. entity_bracket
     coords = record.get("coords") or {}
     lat, lon = coords.get("lat"), coords.get("lon")
+    # H10 Stage 1 fix: person records carry death_/floruit_/birth_temporal —
+    # none of which the old list read, leaving every person bracket-less
+    # (century blocking dead for 21,946 records). Death year is the primary
+    # bracket for persons (ADR-008 §8.2 blocking key).
     temporal = (
         record.get("temporal")
         or record.get("temporal_coverage")
         or record.get("composition_temporal")
         or record.get("dating_temporal")
+        or record.get("death_temporal")
+        or record.get("floruit_temporal")
+        or record.get("birth_temporal")
         or {}
     )
     start_ce = temporal.get("start_ce")

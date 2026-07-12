@@ -1,0 +1,35 @@
+adapter_id: ei1
+display_name: "Encyclopaedia of Islam, 1st ed. (1913-1936) — structured OCR derivative"
+adapter_version: 0.1.0
+source_kind: tertiary_reference
+languages: [en, tr, ar]
+license: "EI1 out-of-copyright (Brill 1913-1936); OCR/structuring own-project"
+extraction_method: ocr
+
+# Single-yield-namespace: only PERSON records are minted (geography/dynasty
+# tracks are augment/review-only; their 'new' cases are never minted — see
+# canonicalize docstring). concept/unknown/cross_reference classes are
+# skipped with counts (no canonical home; triage = human).
+target_namespaces: [person]
+
+input_paths:
+  - data/sources/ei1/ei1_lite.json
+  - data/sources/ei1/ei1_geo.json
+  - data/sources/ei1/ei1_works.json
+
+output_paths:
+  - data/canonical/person/
+
+sidecar_pending:
+  ei1_augment: data/_state/ei1_augment_pending.json
+
+provenance_template:
+  source_id_pattern: "ei1:{id}"
+  page_or_locator_pattern: "EI1 vol. {vol}, p. {page}"
+  edition_or_version: "EI1 (Brill, 1913-1936)"
+
+reconciliation:
+  enabled: false   # EntityResolver (Tier-1/2/3)
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]

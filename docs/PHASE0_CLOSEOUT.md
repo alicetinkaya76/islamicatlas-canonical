@@ -64,7 +64,7 @@ prosedürüyle v0.4.0 set bump.
 Stage 3'ün kod düzeltmeleri davranışı ileriye dönük düzeltti; mevcut
 kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
 
-- [ ] **el-alam re-run** (`--id el-alam`): Track-A fix'i sonrası 20 kayıp
+- [x] **el-alam onarımı (H10 S6; hedefli script, 21 mint — tam re-run provenance bozardı)** (`--id el-alam`): Track-A fix'i sonrası 20 kayıp
       Ziriklī kişisi Track B'den basılır (~15 dk; idempotency probe'u eskileri
       atlar). Öncesinde `--dry-run`la sayı teyidi. Sayı ayrıntısı (2026-07-09,
       koddan yeniden üretildi): Track-A disk-guard'ı 22 alam kaydını Track
@@ -73,7 +73,7 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
       hepsi None) temporal-eligibility skip'ine düşer → 21 kayıt basılır.
       El_alam mint-erteleme fix'i (aşağıdaki madde) sayesinde 4800 artık
       phantom PID üretmez.
-- [ ] **Phantom PID denetimi — genel "indexte var, diskte yok" taraması:**
+- [x] **Phantom PID denetimi (H10 S6: sidecar yazıldı; openiti sınıfı teşhisli; temizlik bilinçli YOK) — genel "indexte var, diskte yok" taraması:**
       kapsam yalnız 361 `person:dia:*` DEĞİL. Aynı mint-before-skip deseni
       el_alam Track B'de de vardı (2026-07-09'da dia'daki fixin aynısıyla
       düzeltildi: mint, temporal-eligibility skip'inin arkasına taşındı) ve
@@ -85,19 +85,41 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
       `data/_state/phantom_pids_audit.json`'a; AP author linkage'ı yalnız
       disk-doğrulamalı PID kullanır (el_alam guard'ı örnek). Index temizliği
       journal'lı ayrı koşudur; canonical kayıtlara dokunulmaz.
-- [ ] **9,330 work kaydının jenerik provenance'ı** (`canonicalize_work`):
-      registry id düzeltmesi ileriye dönük çözüldü; mevcutlar için mini
-      migration (source_id önekinden gerçek pipeline_name) — düşük öncelik,
-      Faz 0.5'e kayabilir.
+- [x] **9,330 work provenance düzeltildi (H10 S12, h10_002; history'li).**
+- [x] **Çapraz-kaynak person dedup taraması (H10 S6: script + koşu; adaylar person_dedup_candidates.json'da) (H10 Karar 3 bulgusu):** Tier-2
+      kalibrasyonu, H4-H5 seed'lerinin (Tier-2'siz koşmuşlardı) store'da
+      bıraktığı muhtemel dublörleri ifşa etti (örneklemde 21/250: aynı isim +
+      ölüm ±5 + skor ≥0.95, ör. İbn Rüşd çifti). İş: person store'u kendi
+      kendine karşı Tier-2'den geçir, ≥0.95 çiftleri review kuyruğuna çıkar
+      (~1 saat makine + tarihçi onayı). Merge İNSAN kararıyla (ADR-008 Tier-3).
 
-## 3. AN — Cat B fuzzy match (H10.5-H11; 1 oturum) — sahip: Claude
+## 3. AN — Cat B fuzzy match (H10.5-H11; ~0.5 oturum kaldı) — sahip: Claude
 
 4,784 slug'lık dia_chunks Cat B kümesi (kişi olmayan/fuzzy adaylar).
-Altyapı notu (Stage 3 incelemesinden): `entity_resolver.py` Tier-2 stub
-(`kind='new'` sabit) → gerçek blocking+similarity yazılacak (fingerprint +
-death-bucket blocklama; rapidfuzz eklenirse requirements'a girer); Tier-3
-review kuyruğu (`_review_enqueue`) hazır ama bugün erişilemez durumda.
-Borderline eşleşmeler `needs_human_review` — asla otomatik merge.
+- [x] **Motor hazır (H10 Stage 1):** Tier-2 blocking+similarity gerçek
+      implementasyon (ADR-008 §8.2); rapidfuzz requirements'ta; Tier-3 kuyruk
+      fiilen akıyor; person auto-eşiği ground-truth'la 0.95'e kalibre
+      (precision %99.2, 20 ms/resolve — `resolver_weights.yaml` +
+      HAFTA10_STAGE_1_RESOLVER.md).
+- [x] **AN TAMAM (H10 S5):** 2.261 match (provenance+locator bağlandı; AP'ye
+      +2.261 slug→pid haritası) · 1.889 review kuyruğu · 634 triage (mint yok).
+
+## 3.5. Kaynak dönüştürme — v2 içerik katmanları (H11+; kaynak başına ~0.5-1 oturum)
+
+9 dönüştürülmemiş kaynağın 9-ajanlık profillemesi (2026-07-09; sayılar koddan):
+~17K potansiyel yeni entity. Sıra, bağımlılığa göre:
+
+| Kaynak | Hedef ns | Entity | Blokör |
+|---|---|---:|---|
+| ~~darp-islam~~ | place | **✅ H10 S2: 2.338 mint + 621 augment + 337 review** | — |
+| ~~evliya-celebi~~ | place | **✅ H10 S7: 2.232 mint + 158 augment + 176 review** | 2.608 yapı institution-havuzunda; 10 sefer event-bekliyor |
+| ~~ibn-battuta~~ | place | **✅ H10 S8: 128 mint + 124 augment + 41 review** | 7 sefer+rotalar event-bekliyor |
+| ~~scholars~~ | person | **✅ H10 S3: 46 augment + 3 review** (49 isimli) | **252 yetim kart: v1 app db.json GEREK (Ali — kaynak temini)**; kenarlar Stage-3b |
+| ~~ei1~~ | person(+augments) | **✅ H10 S4: +964 mint, 224 augment, 1.574 review** | tarihsiz 2.119 + sınıflar triage havuzunda |
+| battles-events | **event** | ~100+200 kenar | **event ns aktivasyonu (ADR-005 faz kararı — Ali)** |
+| konya-city-atlas | **institution**/place | ~1.384 | **institution şeması yok (ADR-006 §6.4 — Ali)** |
+| maqrizi-khitat | **institution**/place | 801 | aynı |
+| major-cities | place augment | ~0 | şemaya sığmayan alanlar — düşük öncelik |
 
 ## 4. Faz 0.5 — yayın hazırlığı (H11+; 2-3 oturum) — sahip: Ali+Claude
 
@@ -111,13 +133,16 @@ Borderline eşleşmeler `needs_human_review` — asla otomatik merge.
 - [ ] **w3id.org PR** (ADR-001): v0.3.0 (ya da o günkü etiket) yolları.
 - [ ] **Schema set v1.0.0** atomik bump (ADR-013 R2-R4; AP'nin şemaya
       dokunup dokunmadığına göre v0.3.0/v0.4.x'ten).
-- [ ] **Canlı Typesense yolu:** `typesense_schema_emit` + `full_reindex
-      --live` + upsert (bugün tümü yok; NDJSON hazır). İqlim facet'i ya
-      backfill'le doldurulur ya kapsamdan çıkarılır (şimdilik kapalı).
-- [ ] **QID audit + display-gate gevşetme** (H7'nin H8'e vaadi, hiç
-      yapılmadı): H4 recon 517 + yaqut auto-accept 1,001 QID örneklem
-      denetimi (ADR-002 ≤%5 yanlış-pozitif hedefi); OpenITI seed'in
-      doğrulanmış-yanlış QID'leri temizliği.
+- [x] **Canlı Typesense yolu — KOD TAMAM (H10 S10):** emit + upsert +
+      Makefile + sözleşme testleri; ilk canlı koşu HOSTING KARARINA bağlı
+      (env-kilitli; 15-dk reçete Stage-10 journal'ında). İqlim facet'i
+      kapalı (backfill ayrı kalem).
+- [x] **QID audit YAPILDI (H10 S11) — sonuç: gevşetme YOK, tam tersi.**
+      TAM evren (3.073): %33.7 MISMATCH (dynasty %96; Safevîler→Spartacus
+      League sınıfı kanıtlar). Display-gate KALICI. → YENİ kalem:
+- [ ] **QID temizlik oturumu (Ali+Claude):** kademeli kural (aşikâr-çöp
+      purge: sim<60+sinyalsiz; sınır-vakalar review'a); qid_audit_report.json
+      kanıt listesi hazır. Temizlik olmadan QID yayını YOK.
 - [ ] **check_all davranışı:** bayraksız çağrının store'a yazması (resolve)
       footgun — `--resolve` opt-in'e çevirme kararı (runbook'larla birlikte).
 - [ ] **Zenodo dump + DOI** (CHANGELOG 1.0.0 tanımı): ADR-014 belge referansı

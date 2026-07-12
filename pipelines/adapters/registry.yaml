@@ -58,6 +58,40 @@ adapters:
       pipeline_name: canonicalize_place_le_strange
       depends_on: [yaqut]
 
+  # Phase 0 (Hafta 10): DarpIslam mints. Two-track via Tier-2 resolver
+  # (H10 Stage 1): known towns augmented (sidecar), new mint-towns minted,
+  # review band queued. FIRST adapter wired to EntityResolver.
+  - adapter_id: darp-islam
+    enabled: true                 # H10 Stage 2 — bulk complete
+    priority: 220
+    config:
+      strict_mode: true
+      namespace: place
+      pipeline_name: canonicalize_place_darp_islam
+      depends_on: [yaqut, muqaddasi, le-strange]   # resolver matches against these
+
+  # Phase 0 (Hafta 10): Evliyâ Çelebi atlas katmanı — yerleşim alt kümesi
+  # (iki-track Tier-2); yapılar institution-bekleyen, seferler event-bekleyen.
+  - adapter_id: evliya-celebi
+    enabled: true                 # H10 Stage 7
+    priority: 225
+    config:
+      strict_mode: true
+      namespace: place
+      pipeline_name: canonicalize_place_evliya
+      depends_on: [yaqut, darp-islam]
+
+  # Phase 0 (Hafta 10): İbn Battûta Rihle durakları — iki-track Tier-2;
+  # 7 sefer + rotalar event-bekleyen.
+  - adapter_id: ibn-battuta
+    enabled: true                 # H10 Stage 8
+    priority: 230
+    config:
+      strict_mode: true
+      namespace: place
+      pipeline_name: canonicalize_place_ibn_battuta
+      depends_on: [yaqut, evliya-celebi]
+
   # Phase 0 (Hafta 4): Science Layer migration. Seeds the person namespace from
   # 182 curated scholar entries with full trilingual names + dates + xref to alam/yaqut.
   - adapter_id: science-layer
@@ -126,6 +160,28 @@ adapters:
       namespace: work
       pipeline_name: canonicalize_work_science
       depends_on: [science-layer, openiti-works]
+
+  # Phase 0 (Hafta 10): EI1 — person mints (dated new) + person/place/dynasty
+  # EN-summary augments; concept/unknown/xref skipped with counts.
+  - adapter_id: ei1
+    enabled: true                 # H10 Stage 4
+    priority: 340
+    config:
+      strict_mode: true
+      namespace: person
+      pipeline_name: canonicalize_person_ei1
+      depends_on: [dia, el-alam, science-layer, yaqut]
+
+  # Phase 0 (Hafta 10): v1 scholars layer — 49 core scholars, two-track via
+  # Tier-2 (mostly augments: EN descriptions + kunya/nisba/laqab gap-fill).
+  - adapter_id: scholars
+    enabled: true                 # H10 Stage 3
+    priority: 335                 # 330 dia-tdv-scrape'te; sıra dokümantasyon amaçlı
+    config:
+      strict_mode: true
+      namespace: person
+      pipeline_name: canonicalize_person_scholars
+      depends_on: [dia, el-alam, science-layer]
 
   # Phase 0 (Hafta 8): DİA full-narrative upgrade pass.
   # Re-aggregates dia_chunks per slug (ADR-012 50K limit), gap-fills

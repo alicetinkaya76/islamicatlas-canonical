@@ -1,7 +1,7 @@
 # islamicatlas-canonical — quick command layer (H9 Stage 4).
 # The weekly gate is `make test`; CI runs the same target (single source of truth).
 
-.PHONY: test test-fast schema reindex-dry scrape-status help
+.PHONY: test test-fast schema reindex-dry scrape-status emit-collection upsert-live help
 
 help:
 	@echo "make test          - full gate: schema fixtures CLI + projector + resolver + pytest (~25 s with store)"
@@ -9,6 +9,8 @@ help:
 	@echo "make schema        - 15 schema fixture checks (also inside pytest as test_schema_fixtures)"
 	@echo "make reindex-dry   - project all 46K canonical records (search-layer regression gate)"
 	@echo "make scrape-status - dia-tdv-scrape checkpoint progress"
+	@echo "make emit-collection - Typesense create-collection govdesi (stdout)"
+	@echo "make upsert-live   - canli Typesense'e yukle (TYPESENSE_URL+API_KEY gerekli)"
 
 test:
 	python3 tests/run_schema_tests.py
@@ -27,3 +29,9 @@ reindex-dry:
 
 scrape-status:
 	python3 pipelines/adapters/dia_tdv_scrape/scrape.py --status
+
+emit-collection:
+	python3 search/typesense_schema_emit.py
+
+upsert-live:
+	python3 pipelines/search/upsert.py

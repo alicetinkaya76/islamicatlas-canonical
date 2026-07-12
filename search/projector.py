@@ -355,6 +355,9 @@ class Projector:
             "el-alam": "el-alam", "alam": "el-alam",
             "dia": "dia", "dia-chunks": "dia", "dia-chunks-v8": "dia",
             "dia-rich": "dia", "tdv_dia": "dia",
+            "darp-islam": "darp-islam",
+            "scholars": "scholars",      # H10 S3: v1 core-scholar cards
+            "ei1": "ei1",                # H10 S4: Encyclopaedia of Islam 1st ed.
         }
         layers: set[str] = set()
         for entry in (record.get("provenance", {}).get("derived_from") or []):

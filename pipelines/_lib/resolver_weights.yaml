@@ -1,0 +1,61 @@
+# resolver_weights.yaml — Tier-2 feature weights + thresholds (ADR-008 §8.2).
+# Loaded wholesale by EntityResolver._load_weights (this file REPLACES the
+# in-code defaults; keep every entity type present).
+#
+# person.auto_accept_threshold = 0.95 is DATA-CALIBRATED (H10 Stage 1):
+# 250 alam↔dia ground-truth pairs + threshold sweep on the live 46,702-record
+# index — at 0.90 the auto band carried 9 genuine mismatches (namesakes with
+# nearby dates, e.g. İbn el-Alkami 0.902); at 0.95 it carries 1
+# (precision 99.2% counting exposed store-duplicates as correct). Demoted
+# cases fall to the review queue, not to "new" — recall moves to the human
+# lane, per North Star (borderline merges are the historians' call).
+# Sweep table + methodology: docs/h10/HAFTA10_STAGE_1_RESOLVER.md.
+
+person:
+  w_label: 0.35
+  w_alt: 0.15
+  w_temporal: 0.20
+  w_authority: 0.20
+  w_kunya: 0.10
+  auto_accept_threshold: 0.95   # calibrated (was 0.90 default)
+  review_threshold: 0.70
+
+place:
+  w_label: 0.30
+  w_alt: 0.15
+  w_temporal: 0.05
+  w_spatial: 0.30
+  w_authority: 0.20
+  auto_accept_threshold: 0.90   # not yet calibrated; place gains spatial signal
+  review_threshold: 0.70
+
+dynasty:
+  w_label: 0.40
+  w_temporal: 0.30
+  w_authority: 0.20
+  w_alt: 0.10
+  auto_accept_threshold: 0.90
+  review_threshold: 0.80
+
+work:
+  w_label: 0.40
+  w_temporal: 0.10
+  w_author: 0.30
+  w_genre: 0.10
+  w_authority: 0.10
+  auto_accept_threshold: 0.90
+  review_threshold: 0.70
+
+manuscript:
+  w_shelf_mark: 0.50
+  w_library: 0.30
+  w_dating: 0.20
+  auto_accept_threshold: 0.95
+  review_threshold: 0.80
+
+event:
+  w_label: 0.30
+  w_temporal: 0.40
+  w_spatial: 0.30
+  auto_accept_threshold: 0.90
+  review_threshold: 0.70

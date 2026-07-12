@@ -108,9 +108,12 @@ class TestPlaceNamespaceVolume:
 
     def test_a1_total_record_count(self, pipeline_state):
         n = count_files(PLACE_DIR)
-        assert 14_000 <= n <= 16_000, (
-            f"Expected ~15,239 place records (Yaqut 12,954 + Muqaddasi 2,070 + "
-            f"Le Strange ~215); got {n}"
+        # Band history: H3 seed 15,239 → H10 S2 +2,338 darp-islam (17,577)
+        # → H10 S7 +2,232 evliya-celebi settlements (19,809). Band widened
+        # DELIBERATELY with each adapter commit; counted, never estimated.
+        assert 19_000 <= n <= 21_000, (
+            f"Expected ~19,809 place records (15,239 H3 + 2,338 darp + "
+            f"2,232 evliya); got {n}"
         )
 
     def test_a2_filename_pattern(self, pipeline_state):
@@ -250,11 +253,46 @@ class TestIdempotency:
             pytest.skip("pid_index.json missing")
         with idx_path.open(encoding="utf-8") as fh:
             pid_index = json.load(fh)
-        # Check that 'place' namespace count matches the file count
-        place_pids = [k for k in pid_index if k.startswith("place:")]
-        assert len(place_pids) == count_files(PLACE_DIR), (
-            f"PID index count ({len(place_pids)}) != file count ({count_files(PLACE_DIR)})"
-        )
+        # Check that 'place' namespace count matches the file count.
+        # H10 Stage 2 exception class — RESERVED PIDs: a mint piloted as
+        # Track-B then demoted to review keeps its index entry so a later
+        # historian approval re-mints the SAME pid (idempotent hash). Such
+        # reservations are only excused when the darp sidecar's
+        # _review_skipped list explicitly documents the source record.
+        place_pids = {k: v for k, v in pid_index.items() if k.startswith("place:")}
+        on_disk = count_files(PLACE_DIR)
+        reserved_ok = set()
+        darp_sidecar = STATE_DIR / "darp_islam_augment_pending.json"
+        if darp_sidecar.exists():
+            with darp_sidecar.open(encoding="utf-8") as fh:
+                skipped = json.load(fh).get("_review_skipped", {})
+            reserved_ok = {f"place:{rid}" for rid in skipped}
+        # H10 S14 kategorisi: dedup'ta SİLİNEN mükerrer mint'lerin pid'leri —
+        # index'te rezerv kalırlar (idempotent hash aynı pid'i döndürür;
+        # kayıt yeniden yazılmamalı, kept_pid kullanılmalı). Belgeli mazur.
+        reserved_pids = set()
+        dedup_log = STATE_DIR / "place_dupes_removed_h10_003.json"
+        if dedup_log.exists():
+            with dedup_log.open(encoding="utf-8") as fh:
+                reserved_pids = {r["removed_pid"]
+                                 for r in json.load(fh).get("removed", [])}
+        unexcused = [
+            k for k, v in place_pids.items()
+            if not (PLACE_DIR / f"iac_place_{v.rsplit('-', 1)[1]}.json").exists()
+            and k not in reserved_ok and v not in reserved_pids
+        ]
+        assert not unexcused, (
+            f"{len(unexcused)} indexed place PIDs have no record file and no "
+            f"documented review-reservation; first 3: {unexcused[:3]}")
+        # Ters yön (H10 final-review: eski satır totolojiydi): diskteki her
+        # kayıt index'te de olmalı — indekssiz dosya, idempotency deliğidir.
+        indexed_ords = {v.rsplit("-", 1)[1] for v in place_pids.values()}
+        on_disk_ords = {p.name[len("iac_place_"):-len(".json")]
+                        for p in PLACE_DIR.glob("iac_place_*.json")}
+        unindexed = sorted(on_disk_ords - indexed_ords)
+        assert not unindexed, (
+            f"{len(unindexed)} on-disk place records missing from pid_index; "
+            f"first 3: {unindexed[:3]}")
 
 
 class TestSidecarCompleteness:

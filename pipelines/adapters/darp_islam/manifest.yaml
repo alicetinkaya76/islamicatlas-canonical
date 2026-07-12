@@ -1,0 +1,45 @@
+adapter_id: darp-islam
+display_name: "DarpIslam — Digital Corpus of Islamic Mints (v1.1, 2026-03-27)"
+adapter_version: 0.1.0
+source_kind: digital_corpus
+languages: [tr, en, ar]
+license: >
+  Aggregated dataset: Ö. Diler, Islamic Mints (2009) via Hamburg Univ. ERC
+  digitization (MIT-licensed shards) + nomisma.org mint records (ODC/CC —
+  see darpislam_lite.json metadata.data_sources for per-source counts).
+extraction_method: structured_json
+
+target_namespaces: [place]
+
+input_paths:
+  - data/sources/darp-islam/darpislam_lite.json
+  - data/sources/darp-islam/darpislam_detail_0.json
+  - data/sources/darp-islam/darpislam_detail_1.json
+  - data/sources/darp-islam/darpislam_detail_2.json
+  - data/sources/darp-islam/darpislam_detail_3.json
+  - data/sources/darp-islam/darpislam_detail_4.json
+  - data/sources/darp-islam/darpislam_detail_5.json
+  - data/sources/darp-islam/darpislam_detail_6.json
+
+output_paths:
+  - data/canonical/place/
+
+# Two-track via the H10 Tier-2 resolver (ADR-008): matches AUGMENT existing
+# places (sidecar below, applied by pipelines/integrity/apply_darp_augments.py);
+# news mint; review-band cases are queued (data/review_queue/darp-islam.jsonl)
+# and NOT minted. Requires data/_index/lookup.sqlite (canonicalize refuses
+# to run without it — duplicate-mint guard).
+sidecar_pending:
+  darp_augment: data/_state/darp_islam_augment_pending.json
+
+provenance_template:
+  source_id_pattern: "darp-islam:{mint_id}"
+  page_or_locator_pattern: "{nomisma_uri} | DarpIslam mint id={mint_id}"
+  edition_or_version: "DarpIslam v1.1 (2026-03-27)"
+
+# WikidataReconciler devre dışı — resolution EntityResolver'la (Tier-1/2/3).
+reconciliation:
+  enabled: false
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]
