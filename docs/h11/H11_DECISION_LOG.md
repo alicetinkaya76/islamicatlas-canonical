@@ -53,4 +53,24 @@ related) sidecar'da PID-bağlama koşusunu bekliyor. Store 52.477; reindex
 52.477/52.477; make test 158. v2'nin zaman-çizelgesi katmanı ilk verisini
 aldı. Seferler (17) + monuments/diplomacy/trade_routes bilinçli-beklemede.
 
+## Karar 3 — QID karantinası (kullanıcı devriyle): 388 aşikâr-çöp taşındı; H7 tombstone doktrini karantina altında birleşti
+
+**Tarih:** 2026-07-12 · **Stage:** 3
+
+### Karar
+
+SİLME DEĞİL TAŞIMA: denetimin MISMATCH sınıfından sim<70 + doğrulayıcı-
+sinyalsiz olanlar (dynasty <85 — reviewed=true display-gate'i aştığı için)
+kayıtlardan çıkarılıp kanıtlarıyla `qid_quarantine.json`'a; her kayıtta
+history izi; tarihçi geri alabilir. 653 sınır-vakası kayıtta kaldı
+(display-gate zaten gizliyor) → review. H7'nin 4 insan-onaylı yanlış-hedefi
+(Hârizmî→Thomas Aquinas...) tombstone deseninden karantinaya BİRLEŞTİRİLDİ;
+test_h7_1 artık iki meşru biçimi tanır (tombstone VEYA kanıtlı-karantina).
+
+### Sonuç
+
+388 karantina = 24 dynasty (Safevîler→Spartacus League sınıfı) + 51 person +
+313 place. Yayın yüzünde kanıtlanmış-yanlış iddia kalmadı; make test 158;
+reindex temiz. Sınır bandının nihai kararı tarihçi oturumuna.
+
 <!-- Sonraki H11 kararları burada eklenecek -->

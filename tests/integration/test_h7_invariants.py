@@ -55,38 +55,43 @@ def _load_xref(pid: str) -> list[dict]:
 
 @pytest.mark.parametrize("pid,bad_qid", H7_TARGETS)
 def test_h7_1_qid_flag_invariant(pid: str, bad_qid: str) -> None:
-    """Each H7 target carries the wikidata xref with confidence==0.0
-    and the h7_audit_ note prefix. Method/reviewed combination MUST
-    indicate a deliberate flag, not a stale low-confidence draft."""
+    """The H7 confirmed-wrong QIDs must remain visibly wrong in ONE of two
+    sanctioned forms (H11 Karar 3 doktrin birleşmesi):
+      (a) H7 tombstone: in-record xref w/ confidence==0.0 + h7_audit_ note, OR
+      (b) H11 quarantine: xref REMOVED from the record and present in
+          data/_state/qid_quarantine.json with evidence.
+    What must NEVER happen: the bad QID sitting in the record as a normal,
+    displayable xref — or vanishing without a quarantine trace."""
     fn = _person_path(pid)
     if not fn.exists():
         pytest.skip(f"canonical person store not present: {fn}")
 
     xrefs = _load_xref(pid)
     matches = [
-        e
-        for e in xrefs
+        e for e in xrefs
         if isinstance(e, dict)
         and e.get("authority") == "wikidata"
         and e.get("id") == bad_qid
     ]
-    assert len(matches) == 1, (
-        f"{pid}: expected exactly 1 wikidata xref for {bad_qid}, "
-        f"got {len(matches)}"
-    )
-    e = matches[0]
-    assert e.get("confidence") == 0.0, (
-        f"{pid}: confidence should be 0.0, got {e.get('confidence')!r} "
-        f"(was the H7 flag reverted?)"
-    )
-    assert e.get("reviewed") is False, (
-        f"{pid}: reviewed should be False, got {e.get('reviewed')!r}"
-    )
-    note = e.get("note") or ""
-    assert note.startswith(H7_NOTE_PREFIX), (
-        f"{pid}: note should start with {H7_NOTE_PREFIX!r}, "
-        f"got {note[:80]!r}"
-    )
+    if matches:  # form (a): tombstone
+        assert len(matches) == 1
+        e = matches[0]
+        assert e.get("confidence") == 0.0, (
+            f"{pid}: tombstone confidence should be 0.0, got "
+            f"{e.get('confidence')!r} (was the H7 flag reverted?)")
+        assert e.get("reviewed") is False
+        assert (e.get("note") or "").startswith(H7_NOTE_PREFIX)
+        return
+    # form (b): quarantined
+    qpath = REPO_ROOT / "data" / "_state" / "qid_quarantine.json"
+    assert qpath.exists(), (
+        f"{pid}: bad QID {bad_qid} absent from record AND no quarantine "
+        f"sidecar — the wrong-target evidence vanished")
+    q = json.loads(qpath.read_text(encoding="utf-8"))
+    assert any(x.get("pid") == pid and x.get("qid") == bad_qid
+               for x in q.get("quarantined", [])), (
+        f"{pid}: bad QID {bad_qid} neither tombstoned in-record nor "
+        f"quarantined with evidence")
 
 
 def test_h7_2_frontend_spec_has_wikidata_gate() -> None:
