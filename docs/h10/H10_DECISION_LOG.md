@@ -228,4 +228,11 @@ Star: çok-eşleşme artık ASLA otomatik uygulanmaz), 8 mükerrer yer silme
 idempotency'yi öldürüyordu), preserve-listesi H10 alanlarını kapsar, _score
 optional:false (canlı Typesense blocker'ı). Store 52.377; suite 158.
 
-<!-- Sonraki H10 kararları burada eklenecek -->
+## Karar 16 — H10 close: 14 stage, kararsız kuyruk boş; tag + main merge
+
+**Tarih:** 2026-07-12 · **Stage:** close
+
+Close-state yazıldı; `hafta10-close` tag'i; main'e no-ff merge. Makine
+tarafında karar-gerektirmeyen iş kalmadı — H11+ tamamen Ali-kapılı kalemlerde
+(PHASE0_CLOSEOUT). Store 52.377; suite 158; tüm kuyruklar belgeli.
+
