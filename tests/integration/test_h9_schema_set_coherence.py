@@ -40,7 +40,7 @@ TAG_RE = re.compile(r"^v\d+\.\d+\.\d+$")
 # ADR-013 R4 enforcement pin. A set-level version bump updates this
 # constant in the SAME commit that rewrites the $ids — see
 # docs/decisions/ADR-013-schema-set-versioning-policy.md.
-EXPECTED_SET_VERSION = "v0.3.0"
+EXPECTED_SET_VERSION = "v0.4.0"  # H11 Karar 5: institution aktivasyonu (ADR-015) — atomik bump
 
 # Set membership is intentionally pinned (relative to schemas/): adding
 # or removing a schema file is a conscious, reviewed act that updates
@@ -52,6 +52,7 @@ EXPECTED_FILES = {
     "_common/provenance.schema.json",
     "_common/temporal.schema.json",
     "dynasty.schema.json",
+    "institution.schema.json",
     "event.schema.json",
     "manuscript.schema.json",
     "person.schema.json",

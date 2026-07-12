@@ -182,4 +182,5 @@ def _supertype_for_namespace(namespace: str) -> str:
         "work": "iac:Work",
         "manuscript": "iac:Manuscript",
         "event": "iac:Event",
+        "institution": "iac:Institution",
     }[namespace]

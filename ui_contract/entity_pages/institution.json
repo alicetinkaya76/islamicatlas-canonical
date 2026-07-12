@@ -1,0 +1,16 @@
+{
+  "$schema": "../entity_page.meta.schema.json",
+  "entity_type": "institution",
+  "version": "0.1.0",
+  "sections": [
+    { "id": "header", "order": 1, "config": { "show_subtype_badge": true } },
+    { "id": "quick_facts", "order": 2, "config": {
+      "fields": ["institution_subtype", "located_in", "founded_temporal", "patron_person", "patron_dynasty"]
+    }},
+    { "id": "map", "order": 3, "config": { "zoom": 14, "show_located_in_context": true } },
+    { "id": "relations", "order": 4, "config": { "show": ["located_in", "patron_person", "patron_dynasty"] } },
+    { "id": "sources", "order": 5, "config": { "show_derived_from_layers": true } },
+    { "id": "authority_links", "order": 6, "config": {} }
+  ],
+  "default_lang_fallback": ["tr", "en", "ar"]
+}

@@ -114,7 +114,7 @@ def test_entity_page_recipes_validate_against_meta_schema():
     validator = Draft202012Validator(meta)
     recipes_dir = REPO / "ui_contract" / "entity_pages"
     recipes = sorted(recipes_dir.glob("*.json"))
-    assert len(recipes) == 6
+    assert len(recipes) == 7  # +institution (H11 S5)
     bad = []
     for path in recipes:
         recipe = json.loads(path.read_text(encoding="utf-8"))

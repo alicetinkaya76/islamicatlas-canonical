@@ -6,7 +6,7 @@
 help:
 	@echo "make test          - full gate: schema fixtures CLI + projector + resolver + pytest (~25 s with store)"
 	@echo "make test-fast     - inner loop: pytest without the whole-store validation tests (~9 s)"
-	@echo "make schema        - 15 schema fixture checks (also inside pytest as test_schema_fixtures)"
+	@echo "make schema        - 17 schema fixture checks (also inside pytest as test_schema_fixtures)"
 	@echo "make reindex-dry   - project all 46K canonical records (search-layer regression gate)"
 	@echo "make scrape-status - dia-tdv-scrape checkpoint progress"
 	@echo "make emit-collection - Typesense create-collection govdesi (stdout)"

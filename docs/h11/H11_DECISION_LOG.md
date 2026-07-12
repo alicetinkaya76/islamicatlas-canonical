@@ -87,4 +87,13 @@ yazıldı (sözleşme aynı — 49'luk eski koşu idempotent kaldı). Sonuç: 45
 havuzunda. Zip envanterinden gelecek işler: salibiyyat olay katmanı,
 dia_travel/relations, yaqut_detail, alam_detail (7.6MB) — sıraya not edildi.
 
+## Karar 5 — Institution aktivasyonu + set v0.4.0 (ADR-015; kullanıcı onayı "Yapılar için evet")
+
+**Tarih:** 2026-07-12 · **Stage:** 5
+
+ADR-013 prosedürünün ilk gerçek icrası: 38 URI atomik v0.4.0; institution
+şeması (located_in place-PID'li, patron alanlı, 14 alt-tip); fixture 17/17;
+facet+recipe+projeksiyon aynı commit'te. make test 160. ~4.800 bekleyen yapı
+dönüştürülebilir — adapter'lar S6.
+
 <!-- Sonraki H11 kararları burada eklenecek -->

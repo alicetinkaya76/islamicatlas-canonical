@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/multilingual_text.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/multilingual_text.schema.json",
   "title": "Multilingual Text",
   "description": "A multilingual text bundle: preferred labels keyed by language tag, optional alternative labels (each language as an array of strings), optional ALA-LC transliteration variants, and optional original-script representation. Language tag pattern is a pragmatic subset of BCP-47: lowercase ISO 639-1/-3 codes, optionally followed by a four-letter script code (capitalised), an optional two-letter region code, and an optional private-use 'x-...' subtag. Examples: 'en', 'tr', 'ar', 'fa', 'ota', 'ar-Latn', 'ar-Latn-x-alalc', 'tr-Arab' (Ottoman Turkish in Arabic script).",
   "type": "object",

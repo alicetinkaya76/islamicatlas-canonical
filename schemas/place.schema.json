@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.3.0/place.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.4.0/place.schema.json",
   "title": "Canonical Place",
   "description": "A canonical geographical entity in the Islamic Atlas knowledge graph. Phase 0 (v0.1.0) covers three subtypes: Settlement (cities, towns, villages, ribāṭs), Region (administrative provinces, districts, kūra), and Iqlim (the great geographical regions of the medieval Islamic world: Khurāsān, Andalus, Maghrib, Shām, etc.). Every place carries multilingual labels, optional point coordinates (Phase 0: point geometry only), optional temporal coverage (the period during which the place was attested under this canonical identity), an authority cross-reference block (Wikidata + Pleiades actively reconciled in Phase 0), and provenance. Place-to-place administrative containment is encoded via 'located_in' (immediate parent) and 'falls_within_iqlim' (great-region parent); these are PID references that point back to other Place records.",
   "type": "object",
@@ -25,7 +25,7 @@
       "description": "RDF type array. MUST contain 'iac:Place' (the abstract supertype). MAY additionally contain at most one Phase 0 subtype: 'iac:Settlement' (city/town/village/ribāṭ; CIDOC CRM E53 Place + place-of-habitation interpretation), 'iac:Region' (administrative province / kūra; CRM E53 + crm:P89_falls_within), or 'iac:Iqlim' (great geographical region per Makdisī's regional schema; CRM E53 with iac-specific cultural-geographical semantics). Other subtypes (iac:Mountain, iac:RiverSystem, iac:Hijaz, etc.) are reserved for Phase 0.3+."
     },
     "labels": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/multilingual_text.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/multilingual_text.schema.json",
       "description": "Multilingual label bundle. The prefLabel sub-property is required by the referenced schema and MUST contain at least one of {'en', 'ar', 'tr'} for Phase 0 places. ALA-LC transliteration ('ar-Latn-x-alalc') is strongly recommended for Arabic-script primary names so that the public-URI slug minter has a deterministic input."
     },
     "place_subtype": {
@@ -34,15 +34,15 @@
       "description": "Discriminator field that mirrors the @type subtype but is intentionally lower-cased and singular for ergonomic filtering in pipelines (the @type array carries the formal RDF semantics; 'place_subtype' is for SQL-style WHERE clauses). MUST be coherent with @type: place_subtype='settlement' iff '@type' contains 'iac:Settlement'."
     },
     "coords": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/coords.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/coords.schema.json",
       "description": "Geographic coordinates. Optional in Phase 0 because some attested places (e.g., reference regions, lost cities mentioned only by name in Yâkût) are unlocatable; in such cases coords is omitted and an explanatory note belongs in temporal.note or in a future iac:locationStatus annotation. When present, geometry_type MUST be 'point' in Phase 0."
     },
     "temporal_coverage": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/temporal.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/temporal.schema.json",
       "description": "The period during which the place was attested or active under this canonical identity. For settlements, typically the period of documented habitation under this name (a settlement that changed names is a separate canonical record cross-linked via altLabel + 'predecessor_place'). For regions/iqlims, the period during which the regional schema was in administrative force. Optional: many places (e.g., Aleppo, Damascus) are continuously attested and carry no explicit temporal_coverage; the absence is a meaningful semantic signal of continuity."
     },
     "authority_xref": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/authority_xref.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/authority_xref.schema.json",
       "description": "Cross-references to external authority files. Phase 0 actively reconciles Wikidata and Pleiades; entries from other authorities (geonames, tgn, etc.) MAY be present if imported from upstream sources but are not validated against the live authority API in Phase 0."
     },
     "located_in": {
@@ -121,7 +121,7 @@
       "description": "Later place identities for the same physical site. Inverse of predecessor_place. Bidirectional consistency enforced by integrity check."
     },
     "provenance": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/provenance.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/provenance.schema.json",
       "description": "Mandatory provenance block. At least one upstream source (provenance.derived_from) must be cited. The pipeline that produced the canonical record (provenance.generated_by) and the responsible editor (provenance.attributed_to, ORCID) are required. Once written, the initial derived_from set is immutable; subsequent edits append entries to record_history but do not rewrite the original assertion."
     },
     "note": {

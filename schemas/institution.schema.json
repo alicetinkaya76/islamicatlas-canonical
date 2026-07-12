@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.4.0/institution.schema.json",
+  "title": "Institution",
+  "description": "A built structure or endowed institution of the Islamic world: mosque, madrasa, shrine/türbe, hammam, caravanserai/han, palace, bridge, church, fountain/çeşme, market/bedesten, tekke, library, hospital/darüşşifa, observatory. Activated H11 (v0.4.0 set bump, ADR-015) to absorb ~4,800 building-class records held pending since H10 (Evliyâ + Konya + Cairo + Maqrīzī layers). Distinct from iac:Place: a place is a settlement/region; an institution is a STRUCTURE, normally located_in a place.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["@id", "@type", "labels", "provenance"],
+  "properties": {
+    "@id": {
+      "type": "string",
+      "pattern": "^iac:institution-[0-9]{8}$",
+      "description": "Canonical PID."
+    },
+    "@type": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 2,
+      "uniqueItems": true,
+      "contains": { "const": "iac:Institution" },
+      "items": {
+        "type": "string",
+        "enum": [
+          "iac:Institution", "iac:Mosque", "iac:Madrasa", "iac:Shrine",
+          "iac:Hammam", "iac:Caravanserai", "iac:Palace", "iac:Bridge",
+          "iac:Church", "iac:Fountain", "iac:Market", "iac:Tekke",
+          "iac:Library", "iac:Hospital", "iac:Observatory"
+        ]
+      }
+    },
+    "institution_subtype": {
+      "type": "string",
+      "enum": ["mosque", "madrasa", "shrine", "hammam", "caravanserai",
+               "palace", "bridge", "church", "fountain", "market", "tekke",
+               "library", "hospital", "observatory", "other"],
+      "description": "Lower-cased discriminator mirroring the @type subtype (SQL-style filtering; the @type array carries the formal semantics)."
+    },
+    "labels": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/multilingual_text.schema.json"
+    },
+    "coords": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/coords.schema.json"
+    },
+    "located_in": {
+      "type": "string",
+      "pattern": "^iac:place-[0-9]{8}$",
+      "description": "The settlement this structure stands in (Tier-2 resolved; omitted when unresolved — never guessed)."
+    },
+    "founded_temporal": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/temporal.schema.json",
+      "description": "Construction/foundation dating."
+    },
+    "patron_person": {
+      "type": "string",
+      "pattern": "^iac:person-[0-9]{8}$",
+      "description": "Founding/endowing patron, when resolvable to a canonical person."
+    },
+    "patron_dynasty": {
+      "type": "string",
+      "pattern": "^iac:dynasty-[0-9]{8}$",
+      "description": "Patron dynasty, when resolvable."
+    },
+    "derived_from_layers": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string" },
+      "description": "Source layers that attest this structure (evliya-celebi, konya-city-atlas, cairo-city-atlas, maqrizi-khitat, ...)."
+    },
+    "authority_xref": {
+      "type": "array",
+      "items": {
+        "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/authority_xref.schema.json"
+      }
+    },
+    "provenance": {
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/provenance.schema.json"
+    },
+    "note": {
+      "type": "string",
+      "maxLength": 2000
+    }
+  }
+}

@@ -219,6 +219,7 @@ class Projector:
             "score_work": self._score_default,
             "score_manuscript": self._score_default,
             "score_event": self._score_default,
+            "score_institution": self._score_default,
         }
 
     def _lookups(self) -> dict[str, Callable]:
