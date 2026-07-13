@@ -108,4 +108,12 @@ kanıtı) ve `spatial_km_decay` (Almâs yanlış-auto-match kanıtı) eklendi �
 öntanımlılar eski davranışı korur. Mağaza 56,399; gate 160 passed.
 Ayrıntı: HAFTA11_STAGE_6_INSTITUTION_ADAPTERS.md
 
+## Karar 7 — Yerel canlı arama + web v0 (S7-S8)
+
+**Tarih:** 2026-07-13 · **Stage:** 7-8
+
+Hosting beklenmeden: Docker Typesense 29.0 + 56,399/56,399 upsert (fail=0);
+`web/` altında framework'süz v2 arayüzü v0 (arama+facet+varlık+harita),
+tarayıcıda uçtan uca doğrulandı. Ayrıntı: HAFTA11_STAGE_7 + _8 journalleri.
+
 <!-- Sonraki H11 kararları burada eklenecek -->
