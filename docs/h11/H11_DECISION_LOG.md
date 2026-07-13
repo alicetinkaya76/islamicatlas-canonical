@@ -96,4 +96,16 @@ ADR-013 prosedürünün ilk gerçek icrası: 38 URI atomik v0.4.0; institution
 facet+recipe+projeksiyon aynı commit'te. make test 160. ~4.800 bekleyen yapı
 dönüştürülebilir — adapter'lar S6.
 
+## Karar 6 — Üç institution adapter'ı + ADR-008 §8.2 revizyonu (S6)
+
+**Tarih:** 2026-07-13 · **Stage:** 6
+
+3,918 yapı: konya-city-atlas 542 (39 sınır kaydı MINT EDİLMEDİ → kuyruk) +
+maqrizi-khitat 801 (Kahire çapası editoryal sabit, kanıtlı) +
+evliya-institutions 2,575 mint / 9 augment / 24 review (H10 havuzu kapandı).
+Resolver'a tip-bazlı `review_min_signals` ("(Meçhul Cami)" 632 sahte review
+kanıtı) ve `spatial_km_decay` (Almâs yanlış-auto-match kanıtı) eklendi —
+öntanımlılar eski davranışı korur. Mağaza 56,399; gate 160 passed.
+Ayrıntı: HAFTA11_STAGE_6_INSTITUTION_ADAPTERS.md
+
 <!-- Sonraki H11 kararları burada eklenecek -->

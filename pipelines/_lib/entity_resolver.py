@@ -266,7 +266,8 @@ class EntityResolver:
         for pid, bracket in candidates.items():
             feats = self._score_features(
                 conn, pid, query_texts, q_year, q_lat, q_lon, bracket,
-                entity_type=entity_type)
+                entity_type=entity_type,
+                km_decay=float(weights.get("spatial_km_decay", self.KM_DECAY)))
             if feats is None:
                 continue  # hard year-block
             score, n_feats = self._weighted_score(feats, weights)
@@ -283,7 +284,16 @@ class EntityResolver:
             return ResolutionDecision(
                 kind="match", matched_pid=best.pid, confidence=best.score,
                 candidates=scored[:5], feature_scores=best.feature_scores)
-        if best.score >= review_thr:
+        # review_min_signals (YAML, tip-bazlı; öntanımlı 1 = eski davranış):
+        # tek-sinyal (yalnız etiket-benzerliği) adaylar review bandına
+        # giremez — koordinatsız placeholder kayıtlar FTS mıknatısına dönüyor
+        # ((Meçhul Cami) 632 sahte kuyruk girdisi çekti, H11 S6 kanıtı).
+        # İSTİSNA: skor auto eşiğinde/üstündeyse tek sinyalle bile kuyruğa
+        # düşer — isim-birebir çakışma insan görmeli ("name-only asla
+        # auto-match olmaz" doktrininin öbür yüzü).
+        min_sig = int(weights.get("review_min_signals", 1))
+        review_ok = n_feats >= min_sig or best.score >= auto_thr
+        if best.score >= review_thr and review_ok:
             return ResolutionDecision(
                 kind="review", confidence=best.score,
                 candidates=scored[:5], feature_scores=best.feature_scores)
@@ -382,7 +392,13 @@ class EntityResolver:
         return out
 
     def _score_features(self, conn, pid, query_texts, q_year, q_lat, q_lon,
-                        bracket, entity_type: str = "person") -> Optional[dict[str, float]]:
+                        bracket, entity_type: str = "person",
+                        km_decay: float | None = None) -> Optional[dict[str, float]]:
+        # km_decay: tip-bazlı YAML spatial_km_decay (H11 S6) — YERLER şehir
+        # ölçeğinde (50 km) doğru; YAPILARDA aynı şehrin iki ayrı camisi
+        # 1-2 km arayla spatial≈1.0 verip yanlış auto-match üretti (Almâs
+        # Camii'ne 3 farklı Evliyâ camisi, kanıtlı). Bina kimliği bina
+        # ölçeği ister.
         sy, ey, c_lat, c_lon = bracket
         c_year = sy if isinstance(sy, int) else (ey if isinstance(ey, int) else None)
 
@@ -415,9 +431,10 @@ class EntityResolver:
             feats["temporal"] = 1.0 - min(abs(q_year - c_year), self.YEAR_DECAY) / self.YEAR_DECAY
 
         if None not in (q_lat, q_lon, c_lat, c_lon):
+            decay = km_decay if km_decay else self.KM_DECAY
             feats["spatial"] = 1.0 - min(
-                self._haversine_km(q_lat, q_lon, c_lat, c_lon), self.KM_DECAY
-            ) / self.KM_DECAY
+                self._haversine_km(q_lat, q_lon, c_lat, c_lon), decay
+            ) / decay
 
         return feats if feats else None
 

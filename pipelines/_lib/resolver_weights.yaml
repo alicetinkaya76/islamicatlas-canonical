@@ -59,3 +59,21 @@ event:
   w_spatial: 0.30
   auto_accept_threshold: 0.90
   review_threshold: 0.70
+
+# H11 S6 (ADR-015): institution two-track — sinyal ad+konum (yapı adları
+# şehir içinde ayırt edicidir, şehirler arası mesafe spatial'la elenir).
+# temporal zayıf sinyal: Evliyâ tanıklık yılı ile kuruluş yılı farklı şeyler.
+institution:
+  w_label: 0.40
+  w_alt: 0.10
+  w_spatial: 0.40
+  w_temporal: 0.10
+  auto_accept_threshold: 0.90
+  review_threshold: 0.70
+  # H11 S6 kanıtı: koordinatsız placeholder aday ((Meçhul Cami)) label-only
+  # 0.8 ile 632 sahte review çekti → tek-sinyal adaylar kuyruğa giremez
+  # (skor >= auto eşiği istisnası resolver'da).
+  review_min_signals: 2
+  # Bina-ölçekli spatial (H11 S6): 50 km şehir-decay'i aynı şehrin iki ayrı
+  # yapısına spatial≈1.0 verip yanlış auto-match üretti (Almâs kanıtı).
+  spatial_km_decay: 2.0

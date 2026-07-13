@@ -236,3 +236,33 @@ adapters:
       namespace: event
       pipeline_name: canonicalize_event_battles
       depends_on: [yaqut, darp-islam, evliya-celebi]
+
+  # Phase 0 (Hafta 11 S6): INSTITUTION NAMESPACE AKTİVASYONU (ADR-015).
+  # Sıra şartı: evliya-institutions, city-atlas mint'leri + lookup rebuild
+  # SONRASI koşar (two-track; manifest başlığı).
+  - adapter_id: konya-city-atlas
+    enabled: true                 # H11 Stage 6
+    priority: 510
+    config:
+      strict_mode: true
+      namespace: institution
+      pipeline_name: canonicalize_institution_konya
+      depends_on: [yaqut]
+
+  - adapter_id: maqrizi-khitat
+    enabled: true                 # H11 Stage 6
+    priority: 520
+    config:
+      strict_mode: true
+      namespace: institution
+      pipeline_name: canonicalize_institution_maqrizi
+      depends_on: [yaqut]
+
+  - adapter_id: evliya-institutions
+    enabled: true                 # H11 Stage 6
+    priority: 530
+    config:
+      strict_mode: true
+      namespace: institution
+      pipeline_name: canonicalize_institution_evliya
+      depends_on: [konya-city-atlas, maqrizi-khitat]

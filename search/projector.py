@@ -360,6 +360,11 @@ class Projector:
             "scholars": "scholars",      # H10 S3: v1 core-scholar cards
             "ei1": "ei1",                # H10 S4: Encyclopaedia of Islam 1st ed.
             "battles-events": "manual",  # H11 S2: v1 editoryal olay katmanı
+            # H11 S6 (ADR-015): institution katmanları. konya-city-atlas ve
+            # evliya-celebi önekleri facet değerleriyle birebir (fallback da
+            # tutar) — açık girdi, muqaddasi-sınıfı sessiz boşluk bırakmamak için.
+            "konya-city-atlas": "konya-city-atlas",
+            "maqrizi-khitat": "maqrizi-khitat",
         }
         layers: set[str] = set()
         for entry in (record.get("provenance", {}).get("derived_from") or []):

@@ -1,0 +1,29 @@
+adapter_id: evliya-institutions
+display_name: "Evliyâ Çelebi yapıları — 2,608 (H10 institution_pending havuzu)"
+adapter_version: 0.1.0
+source_kind: digital_corpus
+languages: [tr, en, ar]
+license: "islamicatlas.org v1 Evliyâ atlas layer (own project)"
+extraction_method: structured_json
+
+# ADR-015 / H11 Karar 6. İKİ AŞAMALI SIRA ŞARTI: konya-city-atlas +
+# maqrizi-khitat koştuktan ve lookup.sqlite yeniden kurulduktan SONRA koşar
+# (two-track eşleşmesi taze institution namespace'ini ister — Evliyâ Konya
+# ve Kahire yapılarını da tasvir eder). located_in doldurulmaz (kayıtlarda
+# şehir adı yok; koordinattan çıkarım = tahmin, ADR-008).
+target_namespaces: [institution]
+
+input_paths:
+  - data/sources/evliya-celebi/evliya_atlas_layer.json
+
+output_paths:
+  - data/canonical/institution/
+
+sidecar_pending:
+  evliya_institutions: data/_state/evliya_institutions_pending.json
+
+reconciliation:
+  enabled: false
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]
