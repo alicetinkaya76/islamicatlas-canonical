@@ -114,6 +114,7 @@
 
     renderFacets(res.facet_counts || []);
     renderPager(found);
+    if (mapMode) renderMap();
   }
 
   const FACET_TITLES = { entity_type: "Tür", source_layer: "Kaynak katmanı", subtypes: "Alt tür", century_ah: "Hicrî yüzyıl" };
@@ -148,6 +149,7 @@
   }
 
   function renderPager(found) {
+    $pager.hidden = mapMode;   // harita modunda liste sayfalayıcısı gizli kalır
     const pages = Math.ceil(found / PER_PAGE);
     if (pages <= 1) { $pager.innerHTML = ""; return; }
     $pager.innerHTML = `
@@ -157,6 +159,64 @@
     const prev = document.getElementById("prev"), next = document.getElementById("next");
     if (prev) prev.onclick = () => { state.page--; search(); window.scrollTo(0, 0); };
     if (next) next.onclick = () => { state.page++; search(); window.scrollTo(0, 0); };
+  }
+
+  // ---------- harita görünümü (H11 S9) ----------
+  const $hitsEl = document.getElementById("hits");
+  const $mapEl = document.getElementById("results-map");
+  const $btnList = document.getElementById("view-list");
+  const $btnMap = document.getElementById("view-map");
+  let mapMode = false, map = null, markers = null;
+
+  function setMode(m) {
+    mapMode = m;
+    $btnList.classList.toggle("active", !m);
+    $btnMap.classList.toggle("active", m);
+    $hitsEl.hidden = m; $pager.hidden = m; $mapEl.hidden = !m;
+    if (m) renderMap();
+  }
+  $btnList.addEventListener("click", () => setMode(false));
+  $btnMap.addEventListener("click", () => setMode(true));
+
+  async function renderMap() {
+    if (!window.L) return;
+    if (!map) {
+      map = L.map("results-map", { scrollWheelZoom: true }).setView([35, 38], 4);
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        { attribution: "© OpenStreetMap" }).addTo(map);
+      markers = L.layerGroup().addTo(map);
+    }
+    setTimeout(() => map.invalidateSize(), 60);
+    // Aynı sorgu+filtre, coords şartıyla, ilk 250 geo-hit
+    const params = new URLSearchParams({
+      q: state.q || "*", query_by: QUERY_BY, per_page: 250, page: 1,
+      include_fields: "id,entity_type,prefLabel_tr,prefLabel_en,_geo,subtypes",
+    });
+    const fb = [filterBy(), "has_coords:true"].filter(Boolean).join(" && ");
+    params.set("filter_by", fb);
+    const r = await fetch(`${TS.url}/collections/iac_entities/documents/search?${params}`, {
+      headers: { "X-TYPESENSE-API-KEY": TS.searchKey },
+    });
+    if (!r.ok) return;
+    const res = await r.json();
+    markers.clearLayers();
+    const pts = [];
+    for (const h of res.hits || []) {
+      const d = h.document;
+      if (!d._geo) continue;
+      pts.push(d._geo);
+      const name = d.prefLabel_tr || d.prefLabel_en || d.id;
+      L.circleMarker(d._geo, {
+        radius: 6, weight: 1.5, color: "#5f3d1c",
+        fillColor: { person: "#7a4d9e", place: "#1f6f6b", work: "#a3612d",
+                     institution: "#b0453a", dynasty: "#34627d", event: "#6d7332" }[d.entity_type] || "#8a5a2b",
+        fillOpacity: .85,
+      }).bindPopup(`<div class="map-popup"><a href="entity.html?id=${encodeURIComponent(d.id)}">${esc(name)}</a><br>${TYPE_TR[d.entity_type] || d.entity_type}${(d.subtypes || []).length ? " · " + d.subtypes.map((s) => SUBTYPE_TR[s] || s).join(", ") : ""}</div>`)
+        .addTo(markers);
+    }
+    const note = res.found > 250 ? ` (ilk 250 nokta gösteriliyor / ${res.found.toLocaleString("tr-TR")})` : "";
+    $meta.textContent = `${res.found.toLocaleString("tr-TR")} koordinatlı sonuç${note}`;
+    if (pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.2), { maxZoom: 9 });
   }
 
   let t = null;

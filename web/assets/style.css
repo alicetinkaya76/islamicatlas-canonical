@@ -145,3 +145,16 @@ a:hover { text-decoration: underline; }
   text-align: center; color: var(--ink-soft); font-size: .78rem;
   padding: 1.4rem; border-top: 1px solid var(--line); margin-top: 2rem;
 }
+
+/* ---------- sonuç haritası (H11 S9) ---------- */
+.results-toolbar { display: flex; justify-content: space-between; align-items: center; }
+.view-toggle { display: flex; gap: .3rem; padding-bottom: .55rem; }
+.view-toggle button {
+  font: inherit; font-size: .78rem; padding: .22rem .7rem; cursor: pointer;
+  border: 1px solid var(--line); border-radius: 999px; background: var(--card);
+  color: var(--ink-soft);
+}
+.view-toggle button.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.results-map { height: 540px; border-radius: var(--radius); border: 1px solid var(--line); box-shadow: var(--shadow); }
+.map-popup { font-family: inherit; font-size: .85rem; }
+.map-popup a { font-weight: 700; }

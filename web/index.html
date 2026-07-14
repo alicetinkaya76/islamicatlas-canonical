@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>İslam Atlası — Arama</title>
 <link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="config.js"></script>
 </head>
 <body>
@@ -30,8 +31,15 @@
   <div class="results-layout">
     <aside class="facets" id="facets"></aside>
     <section class="results">
-      <div class="results-meta" id="meta"></div>
+      <div class="results-toolbar">
+        <div class="results-meta" id="meta"></div>
+        <div class="view-toggle">
+          <button id="view-list" class="active">Liste</button>
+          <button id="view-map">Harita</button>
+        </div>
+      </div>
       <div id="hits"></div>
+      <div id="results-map" class="results-map" hidden></div>
       <div class="pager" id="pager"></div>
     </section>
   </div>
@@ -40,6 +48,7 @@
 <footer class="site-footer">
   islamicatlas.org v2 · canonical LOD store üzerinden — her kayıt kaynağına kadar izlenebilir
 </footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>
