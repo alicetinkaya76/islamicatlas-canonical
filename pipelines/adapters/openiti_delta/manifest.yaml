@@ -1,0 +1,26 @@
+adapter_id: openiti-delta
+display_name: "OpenITI delta H13 — LaCie tam-klonundan 73 yeni kitap"
+adapter_version: 0.1.0
+source_kind: digital_corpus
+languages: [ar, fa]
+license: "OpenITI corpus (CC BY-NC-SA); katalog: kendi LaCie klonu 2026-03-13, fixed CSV 2026-07-07"
+extraction_method: structured_json
+
+target_namespaces: [work]
+
+input_paths:
+  - data/sources/openiti/corpus_works_delta_h13.json
+  - data/sources/openiti/corpus_genres.json
+
+output_paths:
+  - data/canonical/work/
+
+sidecar_pending:
+  openiti_works_unresolved: data/_state/openiti_delta_unresolved.json
+  openiti_works_authors_pending: data/_state/openiti_delta_authors_pending.json
+
+reconciliation:
+  enabled: false
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]
