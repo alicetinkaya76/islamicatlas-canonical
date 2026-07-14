@@ -116,4 +116,18 @@ Hosting beklenmeden: Docker Typesense 29.0 + 56,399/56,399 upsert (fail=0);
 `web/` altında framework'süz v2 arayüzü v0 (arama+facet+varlık+harita),
 tarayıcıda uçtan uca doğrulandı. Ayrıntı: HAFTA11_STAGE_7 + _8 journalleri.
 
+## Karar 8 — data.zip bonus katmanları: Salibiyyât + alam_detail + DİA kenarları (S9-S11)
+
+**Tarih:** 2026-07-14 · **Stage:** 9-11
+
+14 aday dosya paralel profillendi; 7'si bayt-bayt mağaza kopyası çıktı (iş
+yok). Dönüşenler: Salibiyyât 754 tanıklık-olayı + 24 kale; alam_detail
+11,379 kişi gap-fill (EN tanımlar ilk kez); dia_relations 7,965
+hoca-talebe kenarı (yön v1 kodundan teyitli, 41 çelişki kuyruğa);
+dia_travel 1,741 active_in_places (fuzzy'siz birebir + artikel eşdeğerliği;
+155 belirsiz ad = mağaza dup-kümelerinin somut listesi). Resolver'a
+tip-bazlı `name_evidence: max` (Musul/Urfa kanıtı; person kapalı).
+Mağaza 57,177; gate 160; Typesense canlı tazelendi.
+Ayrıntı: HAFTA11_STAGE_9_11_BONUS_LAYERS.md
+
 <!-- Sonraki H11 kararları burada eklenecek -->

@@ -441,3 +441,12 @@ hariç (kanıt: koordinatsız "(Meçhul Cami)" placeholder'ı 632 sahte kuyruk
 girdisi çekti); `spatial_km_decay` — yapı sınıfında bina-ölçekli (2 km)
 mesafe çürümesi (kanıt: 50 km decay aynı şehirdeki 3 farklı Evliyâ camisini
 Almâs Camii'ne auto-match etti). institution ağırlık bloğu resolver_weights.yaml'da.
+
+**Revision (2026-07-14, H11 S9-S11):** `name_evidence: max` tip-bazlı YAML
+seçeneği — label/alt tek isim kanıtına katlanır (max), ağırlık w_label+w_alt;
+place+institution'da açık, person'da KAPALI (auto 0.95 eski formülle
+kalibre). Kanıt: zengin-altLabel adayın cezalandırılması (Musul 0.876
+vakası). Ayrıca isim-tek-sinyal bağlama için fuzzy'siz desen eklendi:
+belirsizlik-korumalı birebir eşleme + artikel eşdeğerliği
+(dia_travel_places.py) — mağazada TEKİL aday şartı, mükerrer kümeye asla
+bağlanmaz.

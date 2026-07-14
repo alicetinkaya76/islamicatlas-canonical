@@ -365,6 +365,7 @@ class Projector:
             # tutar) — açık girdi, muqaddasi-sınıfı sessiz boşluk bırakmamak için.
             "konya-city-atlas": "konya-city-atlas",
             "maqrizi-khitat": "maqrizi-khitat",
+            "salibiyyat": "salibiyyat",  # H11 S9
         }
         layers: set[str] = set()
         for entry in (record.get("provenance", {}).get("derived_from") or []):

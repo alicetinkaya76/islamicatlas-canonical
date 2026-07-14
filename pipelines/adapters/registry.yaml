@@ -266,3 +266,22 @@ adapters:
       namespace: institution
       pipeline_name: canonicalize_institution_evliya
       depends_on: [konya-city-atlas, maqrizi-khitat]
+
+  # Phase 0 (Hafta 11 S9): Salibiyyât katmanı — tanıklık-olayları + kaleler.
+  - adapter_id: salibiyyat-events
+    enabled: true                 # H11 Stage 9
+    priority: 540
+    config:
+      strict_mode: true
+      namespace: event
+      pipeline_name: canonicalize_event_salibiyyat
+      depends_on: [yaqut, battles-events]
+
+  - adapter_id: salibiyyat-castles
+    enabled: true                 # H11 Stage 9
+    priority: 550
+    config:
+      strict_mode: true
+      namespace: institution
+      pipeline_name: canonicalize_institution_salibiyyat
+      depends_on: []

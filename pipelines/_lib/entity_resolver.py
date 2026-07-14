@@ -443,7 +443,24 @@ class EntityResolver:
         """Weighted mean over PRESENT features; weights renormalize so a
         missing feature neither helps nor hurts. Returns (score, n_features)
         where n_features counts corroborating signals (label+alt = one name
-        signal — they are not independent evidence)."""
+        signal — they are not independent evidence).
+
+        name_evidence: "max" (YAML, tip-bazlı; öntanımlı "weighted" = eski
+        davranış): label ve alt TEK isim kanıtına katlanır — max(label, alt),
+        ağırlığı w_label+w_alt. Gerekçe (H11 S9, kanıtlı): zengin altLabel'lı
+        aday, sorgu alt vermediğinde CEZALANIYORDU (Musul: label 1.0 +
+        spatial 1.0, alt 0.38 → 0.876 < 0.9 review); alt bazen de kurtarır
+        (Urfa: label 0.62, alt 'Edessa' 1.0). İsim kanıtının iki görünümü
+        birbirinin aleyhine ortalanmaz. Person kalibrasyonu (auto 0.95,
+        prec %99.2) ESKİ formülle ölçüldü → person'da açılmaz
+        (yeniden kalibrasyon gerektirir)."""
+        if weights.get("name_evidence") == "max" and ("label" in feats or "alt" in feats):
+            name = max(feats.get("label", 0.0), feats.get("alt", 0.0))
+            feats = {k: v for k, v in feats.items() if k not in ("label", "alt")}
+            feats["label"] = name
+            weights = {**weights,
+                       "w_label": weights.get("w_label", 0.0) + weights.get("w_alt", 0.0),
+                       "w_alt": 0.0}
         # H10 final-review: eksik anahtar = 0 ağırlık (YAML kontratı sızdırmaz
         # — person'da w_spatial tanımlı değilse spatial skora HİÇ girmez;
         # eski kod default'la diriltiyordu).

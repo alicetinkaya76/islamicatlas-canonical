@@ -21,6 +21,9 @@ person:
   review_threshold: 0.70
 
 place:
+  # H11 S9: isim kanıtı = max(label, alt) — zengin-altLabel cezası kanıtla
+  # kaldırıldı (Musul/Urfa vakaları; entity_resolver._weighted_score).
+  name_evidence: max
   w_label: 0.30
   w_alt: 0.15
   w_temporal: 0.05
@@ -64,6 +67,7 @@ event:
 # şehir içinde ayırt edicidir, şehirler arası mesafe spatial'la elenir).
 # temporal zayıf sinyal: Evliyâ tanıklık yılı ile kuruluş yılı farklı şeyler.
 institution:
+  name_evidence: max          # H11 S9 (place ile aynı gerekçe)
   w_label: 0.40
   w_alt: 0.10
   w_spatial: 0.40
