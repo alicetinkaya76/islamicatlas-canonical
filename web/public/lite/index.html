@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>İslam Atlası — Arama</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="config.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">۞</span>
+    <span class="brand-name">İslam Atlası</span>
+    <span class="brand-sub">v2 · 57.177 varlık</span>
+  </a>
+</header>
+
+<main class="search-layout">
+  <section class="search-hero" id="hero">
+    <h1>İslam medeniyetinin birleşik dizini</h1>
+    <p class="hero-sub">Kişiler · Yerler · Eserler · Yapılar · Hanedanlar · Olaylar — tek arama, altı kaynak katmanından fazlası</p>
+  </section>
+
+  <div class="search-bar-wrap">
+    <input id="q" class="search-bar" type="search" autocomplete="off"
+           placeholder="Ara: Alâeddin Camii, İbn Sînâ, Kurtuba, Selçuklular…" autofocus>
+  </div>
+
+  <div class="results-layout">
+    <aside class="facets" id="facets"></aside>
+    <section class="results">
+      <div class="results-toolbar">
+        <div class="results-meta" id="meta"></div>
+        <div class="view-toggle">
+          <button id="view-list" class="active">Liste</button>
+          <button id="view-map">Harita</button>
+        </div>
+      </div>
+      <div id="hits"></div>
+      <div id="results-map" class="results-map" hidden></div>
+      <div class="pager" id="pager"></div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  islamicatlas.org v2 · canonical LOD store üzerinden — her kayıt kaynağına kadar izlenebilir
+</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
