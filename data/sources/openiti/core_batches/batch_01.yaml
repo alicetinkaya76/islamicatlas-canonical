@@ -1,39 +1,47 @@
-# Çekirdek Külliyat — Parti 1 (H13 S-D; kullanıcı talebi: "must olan 10 kitap,
-# sonra 10 daha" — aşamalı derinleştirme programı; seçim Claude önerisi,
-# değişiklik hakkı Ali'de)
+# Çekirdek Külliyat — Parti 1 (H13 S-D, REVİZE 2026-07-15)
+# Kullanıcı yönlendirmesi: "Mu'cem ve Rihle zaten sitede ÇOK detaylı var
+# [onlar katmanların kaynak metinleri]; siteyi incele — genel itibarıyla
+# ATLAS'TA BİR YERİ OLABİLECEK kitapları önceliyoruz."
+# Seçim ölçütü: kitaptan-katmana dönüşme potansiyeli (olay/yer/rota/şehir
+# verisi taşıyan metinler); zaten katmanlaşmış eserler (Mu'cem, Rihle,
+# Ahsenü't-Tekâsîm, Seyahatnâme, Hıtat, Salibiyyât kronikleri) HARİÇ.
 batch: 1
-theme: "Mutlak klasikler + atlas katmanlarının kaynak metinleri"
+theme: "Atlas-DNA'lı metinler: fetih/sefer olayları + klasik coğrafya + toponim sözlüğü + erken seyahat + şehir tarihleri"
 books:
-  - uri: 0256Bukhari.Sahih
-    name_tr: "el-Câmiu's-Sahîh (Sahîh-i Buhârî)"
-    why: "Hadis külliyatının zirvesi; ziyaretçinin ilk arayacağı metin"
-  - uri: 0261Muslim.Sahih
-    name_tr: "Sahîh-i Müslim"
-    why: "İkinci temel hadis kaynağı"
-  - uri: 0179MalikIbnAnas.Muwatta
-    name_tr: "el-Muvatta"
-    why: "En erken hadis-fıkıh derlemesi (10 sürümle klondaki en zengin)"
-  - uri: 0505Ghazali.IhyaCulumDin
-    name_tr: "İhyâu Ulûmi'd-Dîn"
-    why: "Tasavvuf-ahlâk klasiği; mARkdown yapısı temiz (40 kitâb + 227 bâb)"
-  - uri: 0808IbnKhaldun.Tarikh
-    name_tr: "Kitâbü'l-İber (Mukaddime dahil)"
-    why: "Tarih felsefesinin kurucu metni"
-  - uri: 0428IbnSina.QanunFiTibb
-    name_tr: "el-Kânûn fi't-Tıb"
-    why: "Bilim mirası vitrini"
-  - uri: 0310Tabari.JamicBayan
-    name_tr: "Câmiu'l-Beyân (Taberî Tefsiri)"
-    why: "Rivayet tefsirinin anası"
-  - uri: 0310Tabari.Tarikh
-    name_tr: "Târîhu't-Taberî"
-    why: "İslam tarih yazımının omurgası"
-  - uri: 0626YaqutHamawi.MucjamBuldan
-    name_tr: "Mu'cemü'l-Büldân"
-    why: "ATLASIN YER KATMANININ KAYNAĞI — kitaptan haritaya köprü"
-  - uri: 0779IbnBattuta.Rihla
-    name_tr: "er-Rihle"
-    why: "SEYAHAT KATMANININ KAYNAĞI — kitaptan rotaya köprü"
-# Parti 2 taslağı (onay bekliyor): 0630IbnAthirCizzDin.Kamil + 0845Maqrizi.Suluk
-# (Salibiyyât tanıklıklarının kaynak metinleri) + Sîre, Fütûh, Hidâye, Risâle,
-# Keşşâf, Milel, Tehâfüt, AhsanTaqasim (→ muqaddasi katmanı köprüsü).
+  - uri: 0279Baladhuri.FutuhBuldan
+    name_tr: "Fütûhu'l-Büldân (Belâzürî)"
+    atlas_role: "Fetih olayları katmanı adayı — şehir şehir fetih anlatısı → event mint'leri"
+  - uri: 0207Waqidi.Maghazi
+    name_tr: "Kitâbü'l-Meğâzî (Vâkıdî)"
+    atlas_role: "Hz. Peygamber'in seferleri haritası — battles katmanının erken-dönem uzantısı"
+  - uri: 0213IbnHisham.SiraNabawiyya
+    name_tr: "es-Sîretü'n-Nebeviyye (İbn Hişâm)"
+    atlas_role: "Sîre olay-coğrafyası; Meğâzî ile çapraz-doğrulama"
+  - uri: 0487AbuCubaydBakri.MucjamMaIstacjama
+    name_tr: "Mu'cemü Me'sta'cem (Bekrî)"
+    atlas_role: "Yâkût'a kardeş TOPONİM SÖZLÜĞÜ — mevcut 19,929 yer kaydına augment kaynağı"
+  - uri: 0367IbnHawqal.SuratArd
+    name_tr: "Sûretü'l-Arz (İbn Havkal)"
+    atlas_role: "Klasik coğrafya — bölge tasvirleri → place augment + iklim sınırları"
+  - uri: 0346Istakhri.MasalikWaMamalik
+    name_tr: "el-Mesâlik ve'l-Memâlik (İstahrî)"
+    atlas_role: "YOL AĞLARI — menzil/mesafe verisi → rota katmanı adayı"
+  - uri: 0560SharifIdrisi.NuzhatMushtaq
+    name_tr: "Nüzhetü'l-Müştâk (İdrîsî)"
+    atlas_role: "Dünya coğrafyası; Sicilya-normand haritacılığı bağlamı"
+  - uri: 0614IbnJubayr.Rihla
+    name_tr: "er-Rihle (İbn Cübeyr)"
+    atlas_role: "İbn Battûta'dan 150 yıl ÖNCEKİ seyahat — yeni seyahat katmanı adayı"
+  - uri: 0249Azraqi.AkhbarMakka
+    name_tr: "Ahbâru Mekke (Ezrakî)"
+    atlas_role: "MEKKE ŞEHİR ATLASI adayı — Konya/Kahire CityAtlas'ına kardeş"
+  - uri: 0463KhatibBaghdadi.TarikhBaghdad
+    name_tr: "Târîhu Bağdâd (Hatîb el-Bağdâdî)"
+    atlas_role: "BAĞDAT ŞEHİR ATLASI adayı — giriş cildi topografya tasviridir"
+# Parti 2 taslağı (atlas-DNA devamı): Mürûcü'z-Zeheb (0346Mascudi.MurujDhahab),
+# el-Buldân (0292Yacqubi.Buldan), Takvîmü'l-Büldân (0732AbuFida.TaqwimBuldan),
+# Târîhu Dımaşk (0571IbnCasakir.TarikhDimashq — Dımaşk şehir atlası),
+# Târîhu't-Taberî, el-Kâmil (0630IbnAthirCizzDin.Kamil) + es-Sülûk
+# (0845Maqrizi.Suluk) [Salibiyyât kaynak metinleri].
+# Evrensel klasikler (Buhârî, Müslim, İhyâ, Kânûn...) sonraki partilere —
+# kullanıcı yönlendirmesi: atlas'ta yeri olabilecekler ÖNCE.
