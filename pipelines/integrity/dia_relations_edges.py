@@ -3,13 +3,18 @@
 dia_relations_edges.py — DİA hoca-talebe ağı → person.teachers/students
 (H11 S11; data.zip dönüşümünün kenar ayağı).
 
-dia_relations.json: ts 8,127 kenar [hoca_slug, talebe_slug, w] + co 3,390
-çağdaşlık çifti. YÖN v1 KAYNAK KODUNDAN TEYİTLİ (DiaIdCard.jsx:31
-`relations.ts.forEach(([teacher, student, count])` → "🎓 Hocaları" bloğu):
-ts[0] = hoca, ts[1] = talebe.
+dia_relations.json: ts 8,127 kenar [talebe_slug, hoca_slug, w] + co 3,390
+çağdaşlık çifti. YÖN DÜZELTMESİ (H11 S11 doğrulama süpürmesi, KRİTİK):
+v1 kodu DiaIdCard.jsx `[teacher, student]` diye AÇAR ama verinin kendisi
+bunu çürütür — TÜM meşhur çiftlerde pozisyon-0 tarihsel TALEBEDİR:
+[gazzali, cuveyni], [ebu-yusuf, ebu-hanife], [safii, malik-b-enes],
+[ahmed-b-hanbel, safii], [buhari, ahmed-b-hanbel], [ibn-kayyim,
+ibn-teymiyye], [sehavi, ibn-hacer], [watt, bell]. v1 SİTESİNİN KENDİSİ
+yönü ters gösteriyormuş (H10 S11 dersi: popülasyon ölçümü nihai hakem;
+kod adlandırması kanıt değildir). ts[0] = TALEBE, ts[1] = HOCA.
 
 Uygulama (append-only, gap-fill):
-  hoca.students  += talebe_pid      talebe.teachers += hoca_pid
+  talebe.teachers += hoca_pid      hoca.students += talebe_pid
   (uniqueItems — mevcut girdi korunur, mükerrer eklenmez)
 
 Gürültü doktrini:
@@ -74,8 +79,8 @@ def main() -> int:
             stats["unresolved"] += 1
             unresolved_slugs.update(s for s, p in ((a, pa), (b, pb)) if not p)
             continue
-        add_students[pa].add(pb)   # a hoca → talebeleri
-        add_teachers[pb].add(pa)   # b talebe → hocaları
+        add_teachers[pa].add(pb)   # a TALEBE → hocaları (yön: popülasyon kanıtı)
+        add_students[pb].add(pa)   # b HOCA  → talebeleri
         stats["applied_edges"] += 1
 
     now = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
@@ -100,9 +105,9 @@ def main() -> int:
             hist.append({
                 "change_type": "update", "changed_at": now,
                 "changed_by": ATTRIBUTED_TO, "release": "v0.1.0-phase0",
-                "note": f"{MARKER} (H11 S11): teachers/students from "
-                        f"dia_relations.json ts edges (yön DiaIdCard.jsx'ten "
-                        f"teyitli; çift-yönlü çiftler uygulanmadı).",
+                "note": f"{MARKER} (H11 S11 rev): teachers/students from "
+                        f"dia_relations.json ts=[talebe,hoca] (yön popülasyon "
+                        f"kanıtıyla düzeltildi; çift-yönlüler uygulanmadı).",
             })
         rec["provenance"]["modified"] = now
         path.write_text(json.dumps(rec, ensure_ascii=False, indent=2) + "\n",

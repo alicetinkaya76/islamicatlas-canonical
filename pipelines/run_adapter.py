@@ -279,11 +279,20 @@ def main() -> int:
                     prior_hist = p_prov.get("record_history") or []
                     if prior_hist:
                         fresh_hist = r_prov.get("record_history") or []
+                        # 'create' için anahtar (change_type, note): kayıt BİR
+                        # kez yaratılır — yeniden koşu yeni timestamp'la aynı
+                        # create notunu tekrar sokuyordu (H11 S9 doğrulama
+                        # bulgusu: 754 salibiyyat + 801 maqrizi çift-create).
+                        # 'update' eski (changed_at, note) anahtarında kalır.
                         seen_notes = {(h.get("changed_at"), h.get("note"))
                                       for h in prior_hist}
+                        prior_create_notes = {h.get("note") for h in prior_hist
+                                              if h.get("change_type") == "create"}
                         merged_hist = prior_hist + [
                             h for h in fresh_hist
-                            if (h.get("changed_at"), h.get("note")) not in seen_notes]
+                            if (h.get("changed_at"), h.get("note")) not in seen_notes
+                            and not (h.get("change_type") == "create"
+                                     and h.get("note") in prior_create_notes)]
                         r_prov["record_history"] = merged_hist
                     prior_df = p_prov.get("derived_from") or []
                     fresh_df = r_prov.get("derived_from") or []

@@ -130,4 +130,15 @@ tip-bazlı `name_evidence: max` (Musul/Urfa kanıtı; person kapalı).
 Mağaza 57,177; gate 160; Typesense canlı tazelendi.
 Ayrıntı: HAFTA11_STAGE_9_11_BONUS_LAYERS.md
 
+## Karar 9 — S9-S11 doğrulama süpürmesi bulguları ve onarımlar
+
+**Tarih:** 2026-07-14 · **Stage:** 11 (kapanış)
+
+5 bağımsız çürütücü: 2 mercek temiz; 3 bulgu ONARILDI: (1) KRİTİK —
+dia_relations ts yönü tersti (v1 kodunun değişken adları veriyle çürütüldü;
+h11_002: 15,930 girdi geri alındı, doğru yönle yeniden; 4/4 nokta-doğrulama);
+(2) run_adapter history-merge çift-'create' kökü (1,555 kayıt temizlendi);
+(3) 12 yakın-eş yer çifti (Cürcân/Corcân sınıfı) dup kuyruğuna. Karar 8'in
+"yön teyitli" ifadesi bu kararla DÜZELTİLMİŞTİR.
+
 <!-- Sonraki H11 kararları burada eklenecek -->

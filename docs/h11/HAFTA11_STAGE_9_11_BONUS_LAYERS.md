@@ -40,10 +40,16 @@ pending dosyalarını daraltıp eziyordu (toplama marker-öncesine alındı).
 
 ## S11 — DİA kenarları
 
-- **dia_relations → teachers/students:** 7,965 kenar / 3,400 kişi. YÖN v1
-  KAYNAK KODUNDAN TEYİTLİ (DiaIdCard.jsx: `[teacher, student, count]`).
-  41 çift-yönlü çift = çelişki → İKİSİ DE uygulanmadı (kuyruk); 3,390 co
-  (çağdaşlık) şemasız → pending.
+- **dia_relations → teachers/students:** 7,965 kenar / 3,400 kişi.
+  **YÖN DÜZELTMESİ (doğrulama süpürmesi, KRİTİK):** ilk uygulama v1
+  kodunun `[teacher, student]` açılımına güvendi; bağımsız çürütücü tüm
+  meşhur çiftlerde pozisyon-0'ın tarihsel TALEBE olduğunu gösterdi
+  ([Gazzâlî, Cüveynî], [Ebû Yûsuf, Ebû Hanîfe], [Şâfiî, Mâlik], [Watt,
+  Bell]...) — v1 sitesinin kendisi yönü ters gösteriyormuş. h11_002
+  migrasyonu 15,930 girdiyi geri aldı; doğru yönle yeniden uygulandı;
+  nokta-doğrulama 4/4 (H10 S11 dersi bir kez daha: kod adlandırması kanıt
+  değildir, popülasyon ölçümü nihai hakemdir). 41 çift-yönlü çift =
+  çelişki → uygulanmadı (kuyruk); 3,390 co (çağdaşlık) şemasız → pending.
 - **dia_travel → active_in_places:** 1,741 kenar / 1,360 kişi.
   İsim-tek-sinyal auto-match yasağı delinmedi: fuzzy YOK, belirsizlik-
   korumalı BİREBİR eşleme (norm eşit + mağazada TEKİL aday) + el-/al-
@@ -69,3 +75,19 @@ bağlama 166→251'e çıktı.
 - Typesense canlı: **57,177/57,177 upsert fail=0**; "Hıttîn" araması yeni
   tanıklık + mevcut olayı birlikte getiriyor.
 - Web: arama sayfasına Liste/Harita geçişi (250 geo-nokta, tür-renkli).
+
+## Doğrulama süpürmesi (5 bağımsız çürütücü, örneklem-bazlı)
+
+| Mercek | Sonuç |
+|---|---|
+| Salibiyyât kaynak-sadakat | TEMİZ (12/12 alan-düzeyi birebir; 754+24 sayım tam; yılsız 36'nın hiçbiri mint edilmemiş) + kozmetik: çift-'create' geçmişi |
+| Salibiyyât konum bağları | TEMİZ (251 bağ/31 pid tam tarama; maks sapma 7,1 km, >50 km sıfır) |
+| alam_detail ezme denetimi | TEMİZ (repo-çapında: 67 uzun DİA anlatısının hiçbiri kısa dt ile ezilmemiş; şema 5/5) |
+| ts yönü | **KRİTİK — DOĞRULANDI ve DÜZELTİLDİ** (yukarıda) |
+| dia-travel bağları | 14/14 doğru; orta: Cürcân/Corcân mükerrer-şehir çifti — tekillik koruması farklı-yazımlı mağaza mükerrerlerine kör |
+
+Düzeltmeler: (1) h11_002 yön migrasyonu; (2) run_adapter history merge
+köküne create-not-anahtarı (yeniden koşu çift-'create' üretiyordu — 1,555
+kayıt temizlendi: 754 salibiyyat + 801 maqrizi); (3) dia-travel kişilerinde
+<10 km yer-çifti taraması → 12 dup-aday çifti h11-s6-curation kuyruğuna
+(Cürcân/Corcân dahil).
