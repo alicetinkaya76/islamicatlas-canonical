@@ -36,6 +36,7 @@ const ScienceLayerView = lazy(() => import('./components/science/ScienceLayerVie
 const SalibiyyatView = lazy(() => import('./components/salibiyyat/SalibiyyatView'));
 const EvliyaView = lazy(() => import('./components/evliya/EvliyaView'));
 const MuqaddasiView = lazy(() => import('./components/muqaddasi/MuqaddasiView'));
+const LibraryView = lazy(() => import('./components/library/LibraryView'));  // H13 S-D Çekirdek Külliyat
 
 /* ═══ Eagerly loaded — needed on every page ═══ */
 import MapView from './components/map/MapView';
@@ -126,7 +127,7 @@ function LangDropdown({ lang, setLang }) {
   );
 }
 
-const VALID_TABS = ['cityatlas', 'map', 'dashboard', 'timeline', 'links', 'scholars', 'battles', 'alam', 'yaqut', 'dia', 'ei1', 'rihla', 'khitat', 'lestrange', 'science', 'salibiyyat', 'evliya', 'muqaddasi', 'admin'];
+const VALID_TABS = ['cityatlas', 'map', 'dashboard', 'timeline', 'links', 'scholars', 'battles', 'alam', 'yaqut', 'dia', 'ei1', 'rihla', 'khitat', 'lestrange', 'science', 'salibiyyat', 'evliya', 'muqaddasi', 'library', 'admin'];
 
 /* Tab order for swipe navigation (excludes admin) */
 const SWIPE_TAB_ORDER = ['map', 'dashboard', 'alam', 'dia', 'ei1', 'scholars', 'rihla', 'yaqut', 'lestrange', 'khitat', 'salibiyyat'];
@@ -452,6 +453,7 @@ export default function App() {
               <button role="tab" aria-selected={tab === 'salibiyyat'} className={`tab${tab === 'salibiyyat' ? ' active' : ''}`} onClick={() => selectTab('salibiyyat')} onMouseEnter={() => preloadData('/data/salibiyyat_atlas_layer.json')}>{"⚔️ " + (t.tabs.salibiyyat || "Salibiyyât")}</button>
               <button role="tab" aria-selected={tab === 'evliya'} className={`tab${tab === 'evliya' ? ' active' : ''}`} onClick={() => selectTab('evliya')} onMouseEnter={() => preloadData('/data/evliya_atlas_layer.json')}>{"🐫 " + (t.tabs.evliya || "Evliyâ Çelebi")}</button>
               <button role="tab" aria-selected={tab === 'muqaddasi'} className={`tab${tab === 'muqaddasi' ? ' active' : ''}`} onClick={() => selectTab('muqaddasi')} onMouseEnter={() => preloadData('/data/muqaddasi_atlas_layer.json')}>{"📐 " + (t.tabs.muqaddasi || "Makdisî")}</button>
+              <button role="tab" aria-selected={tab === 'library'} className={`tab${tab === 'library' ? ' active' : ''}`} onClick={() => selectTab('library')}>{"📚 " + (t.tabs.library || (lang === 'en' ? 'Library' : 'Kütüphane'))}</button>
             </div>
             <button className="quiz-trigger" onClick={() => setQuizOpen(true)}
               aria-label={{ tr: 'Bilgi yarışması', en: 'Knowledge quiz', ar: 'اختبار المعرفة' }[lang]}>🎓 Quiz</button>
@@ -495,6 +497,7 @@ export default function App() {
          tab === 'cityatlas' ? <CityAtlasView lang={lang} initialSearch={hashParams.search} /> :         tab === 'evliya' ? <EvliyaView lang={lang} /> :
          tab === 'science' ? <ScienceLayerView lang={lang} /> :
          tab === 'muqaddasi' ? <MuqaddasiView lang={lang} t={t} initialSearch={hashParams.search} /> :
+         tab === 'library' ? <LibraryView lang={lang} initialBook={hashParams.book} initialSec={hashParams.sec} /> :
          <CausalView lang={lang} t={t} />}
         </Suspense>
       </main>

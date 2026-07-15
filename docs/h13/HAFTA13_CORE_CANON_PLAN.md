@@ -31,3 +31,6 @@ bağımsız kapanır (kapı+journal+commit), liste onayı Ali'de.
 Tefsir+Tarih, Mu'cemü'l-Büldân, Rihle. Tamamı klonda doğrulandı
 (sürümleriyle). Tema: mutlak klasikler + atlas katmanlarının kaynak
 metinleri (kitap↔harita kenetlenmesi programın kilit fikri).
+
+**Durum (2026-07-15):** Parti 1 CANLI — okuma verisi + canonical augment +
+Kütüphane/okuyucu arayüzü tamam (HAFTA13_STAGE_D_CORE_CANON_BATCH1.md).
