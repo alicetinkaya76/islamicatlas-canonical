@@ -226,10 +226,37 @@ def main() -> int:
                            ensure_ascii=False), encoding="utf-8")
 
         labels = rec.get("labels", {}).get("prefLabel", {})
+        desc = rec.get("labels", {}).get("description", {}) or {}
+        # yazar bloğu: canonical kişi kaydından ad + tarih + katman-ötesi bağlar
+        author = None
+        apid = (rec.get("authors") or [None])[0]
+        if apid:
+            ap = REPO_ROOT / "data/canonical/person" / f"iac_person_{apid.rsplit('-', 1)[1]}.json"
+            if ap.exists():
+                arec = json.loads(ap.read_text(encoding="utf-8"))
+                al = arec.get("labels", {}).get("prefLabel", {})
+                dt = arec.get("death_temporal") or {}
+                sids = [d.get("source_id", "") for d in
+                        arec.get("provenance", {}).get("derived_from", [])]
+                author = {
+                    "pid": apid,
+                    "name_tr": al.get("tr"), "name_ar": al.get("ar"),
+                    "death_ah": dt.get("start_ah"), "death_ce": dt.get("start_ce"),
+                    "dia_slug": next((s.split(":", 1)[1] for s in sids
+                                      if s.startswith("dia:")), None),
+                    "alam_id": next((s.split(":", 1)[1] for s in sids
+                                     if s.startswith("el-alam:")), None),
+                }
+        comp = rec.get("composition_temporal") or {}
         manifest = {
             "pid": pid, "uri": uri,
             "title_tr": labels.get("tr"), "title_ar": labels.get("ar"),
-            "author_pid": (rec.get("authors") or [None])[0],
+            "description_tr": desc.get("tr"), "description_en": desc.get("en"),
+            "composition": {"ah": comp.get("start_ah"),
+                            "ce": comp.get("start_ce") or comp.get("end_ce"),
+                            "approx": comp.get("approximation")},
+            "author": author,
+            "author_pid": apid,
             "version_file": os.path.basename(vf),
             "sections": toc,
             "total_words": total_words,

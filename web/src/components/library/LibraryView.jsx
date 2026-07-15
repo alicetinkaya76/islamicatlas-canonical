@@ -253,6 +253,41 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
         <div dir="rtl" style={{ fontFamily: "'Amiri',serif", fontSize: 23, color: GOLD, lineHeight: 1.45 }}>{book.title_ar}</div>
         <div style={{ fontWeight: 700, fontSize: 14, margin: '6px 0 2px' }}>{book.name_tr}</div>
         <div style={{ fontSize: 12, opacity: .7, marginBottom: 10 }}>{book.title_tr}</div>
+        {book.author && (
+          <div style={{ ...card, padding: '10px 12px', fontSize: 12, marginBottom: 10 }}>
+            <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.06em', opacity: .65, marginBottom: 4 }}>
+              ✍️ {tr ? 'Müellif' : 'Author'}
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 8 }}>
+              <b>{book.author.name_tr}</b>
+              {book.author.name_ar && <span dir="rtl" style={{ fontFamily: "'Amiri',serif", fontSize: 15, color: GOLD }}>{book.author.name_ar}</span>}
+            </div>
+            {(book.author.death_ah || book.author.death_ce) && (
+              <div style={{ opacity: .75, marginTop: 2 }}>
+                {tr ? 'ö.' : 'd.'} {book.author.death_ah ? `${book.author.death_ah} H` : ''}{book.author.death_ah && book.author.death_ce ? ' / ' : ''}{book.author.death_ce ? `${book.author.death_ce} M` : ''}
+              </div>
+            )}
+            <div style={{ marginTop: 6 }}>
+              {book.author.dia_slug && (
+                <a href={`#dia?search=${encodeURIComponent(book.author.name_tr || book.author.dia_slug)}`}
+                  style={{ ...chip, textDecoration: 'none', cursor: 'pointer' }}>
+                  {tr ? "DİA'da" : 'in TDV'} →
+                </a>
+              )}
+              {book.author.alam_id && (
+                <a href={`#alam?id=${book.author.alam_id}`}
+                  style={{ ...chip, textDecoration: 'none', cursor: 'pointer' }}>
+                  el-Aʿlâm →
+                </a>
+              )}
+            </div>
+          </div>
+        )}
+        {book.description_tr && (
+          <div style={{ ...card, padding: '10px 12px', fontSize: 12.5, lineHeight: 1.65, marginBottom: 10 }}>
+            {tr ? book.description_tr : (book.description_en || book.description_tr)}
+          </div>
+        )}
         <div style={{ ...card, padding: '10px 12px', fontSize: 12, marginBottom: 10 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', padding: '3px 0' }}>
             <span style={{ opacity: .65 }}>{tr ? 'Bölüm' : 'Sections'}</span><b>{book.n_sections.toLocaleString('tr-TR')}</b>
@@ -264,6 +299,12 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
             <span style={{ opacity: .65 }}>{tr ? 'Sürüm' : 'Version'}</span>
             <b style={{ fontSize: 10, maxWidth: 150, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{book.version_file}</b>
           </div>
+          {book.composition && (book.composition.ah || book.composition.ce) && (
+            <div style={{ display: 'flex', justifyContent: 'space-between', padding: '3px 0' }}>
+              <span style={{ opacity: .65 }}>{tr ? 'Telif' : 'Composed'}</span>
+              <b>{book.composition.approx === 'before' ? (tr ? '≤ ' : '≤ ') : ''}{book.composition.ah ? `${book.composition.ah} H` : ''}{book.composition.ah && book.composition.ce ? ' / ' : ''}{book.composition.ce ? `${book.composition.ce} M` : ''}</b>
+            </div>
+          )}
           <div style={{ display: 'flex', justifyContent: 'space-between', padding: '3px 0' }}>
             <span style={{ opacity: .65 }}>{tr ? 'Kalıcı kimlik' : 'PID'}</span><b style={{ fontSize: 10 }}>{book.pid}</b>
           </div>
