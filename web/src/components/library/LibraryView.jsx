@@ -8,6 +8,8 @@
  * diakritik-duyarsız arama, kimlik kartında çift bilgi blokları.
  */
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 
 const GOLD = '#c9a84c';
 const norm = (s) =>
@@ -34,7 +36,11 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
   const [secIdx, setSecIdx] = useState(0);
   const [section, setSection] = useState(null);
   const [tocQuery, setTocQuery] = useState('');
+  const [mentions, setMentions] = useState(null);   // kitap→yer anılmaları
+  const [mode, setMode] = useState('text');         // text | map
   const secCache = useRef({});
+  const mapRef = useRef(null);
+  const mapElRef = useRef(null);
   const readerRef = useRef(null);
 
   useEffect(() => {
@@ -54,6 +60,12 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
         setBook({ ...m, pidnum });
         setSecIdx(sec);
         setTocQuery('');
+        setMode('text');
+        setMentions(null);
+        fetch(`/reading/${pidnum}/mentions.json`)
+          .then((r) => (r.ok ? r.json() : null))
+          .then(setMentions)
+          .catch(() => setMentions(null));
         window.location.hash = `library?book=${pidnum}&sec=${sec}`;
       });
   }, []);
@@ -76,6 +88,39 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
     setSecIdx(i);
     if (book) window.location.hash = `library?book=${book.pidnum}&sec=${i}`;
   }, [book]);
+
+  // Kitap haritası: koyu CARTO zemin + anılma yoğunluğuna göre marker
+  useEffect(() => {
+    if (mode !== 'map' || !mentions || !mapElRef.current) return;
+    if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; }
+    const pts = mentions.places.filter((pl) =>
+      pl.lat != null && (pl.total >= 2 || pl.name.includes(' ')));
+    const map = L.map(mapElRef.current, { scrollWheelZoom: true, zoomControl: true });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+      { attribution: '© OpenStreetMap · CARTO', subdomains: 'abcd' }).addTo(map);
+    const grp = [];
+    pts.forEach((pl) => {
+      const r = Math.min(4 + Math.log2(pl.total + 1) * 2.4, 16);
+      const mk = L.circleMarker([pl.lat, pl.lon], {
+        radius: r, weight: 1.2, color: GOLD,
+        fillColor: GOLD, fillOpacity: 0.55,
+      }).addTo(map);
+      const secBtns = pl.secs.slice(0, 8).map((s) =>
+        `<button data-sec="${s}" style="margin:2px;padding:1px 8px;border-radius:8px;border:1px solid ${GOLD};background:none;color:${GOLD};cursor:pointer;font-size:11px">§${s}</button>`).join('');
+      mk.bindPopup(`<div dir="rtl" style="font-family:Amiri,serif;font-size:16px"><b>${pl.name}</b></div>
+        <div style="font-size:11px;opacity:.8">${pl.total} ${lang === 'en' ? 'mentions' : 'anılma'} · ${pl.secs.length} ${lang === 'en' ? 'sections' : 'bölüm'}</div>
+        <div>${secBtns}</div>`);
+      mk.on('popupopen', (e) => {
+        e.popup.getElement().querySelectorAll('button[data-sec]').forEach((b) => {
+          b.onclick = () => { setMode('text'); gotoSec(parseInt(b.dataset.sec, 10)); };
+        });
+      });
+      grp.push([pl.lat, pl.lon]);
+    });
+    if (grp.length) map.fitBounds(L.latLngBounds(grp).pad(0.15), { maxZoom: 7 });
+    mapRef.current = map;
+    return () => { if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; } };
+  }, [mode, mentions, lang, gotoSec]);
 
   const filteredToc = useMemo(() => {
     if (!book) return [];
@@ -158,8 +203,22 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
         </div>
       </aside>
 
-      {/* ORTA: okuyucu */}
-      <section ref={readerRef} style={{ overflowY: 'auto', padding: '18px 34px 60px' }}>
+      {/* ORTA: okuyucu / kitap haritası */}
+      <section ref={readerRef} style={{ overflowY: 'auto', padding: '18px 34px 60px', position: 'relative' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: 6, marginBottom: 10 }}>
+          <button onClick={() => setMode('text')}
+            style={{ ...chip, cursor: 'pointer', border: 'none', background: mode === 'text' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'text' ? '#0f1419' : GOLD, fontWeight: 700 }}>
+            📖 {tr ? 'Metin' : 'Text'}
+          </button>
+          <button onClick={() => setMode('map')} disabled={!mentions}
+            style={{ ...chip, cursor: mentions ? 'pointer' : 'default', border: 'none', background: mode === 'map' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'map' ? '#0f1419' : GOLD, fontWeight: 700, opacity: mentions ? 1 : .4 }}>
+            🗺 {tr ? 'Kitap Haritası' : 'Book Map'}{mentions ? ` (${mentions.n_geocoded.toLocaleString('tr-TR')})` : ''}
+          </button>
+        </div>
+        {mode === 'map' && (
+          <div ref={mapElRef} style={{ height: 'calc(100vh - 240px)', minHeight: 380, borderRadius: 10, border: '1px solid rgba(201,168,76,.3)' }} />
+        )}
+        {mode === 'text' && (
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 }}>
           <button disabled={secIdx <= 0} onClick={() => gotoSec(secIdx - 1)}
             style={{ ...chip, cursor: secIdx > 0 ? 'pointer' : 'default', border: 'none', opacity: secIdx > 0 ? 1 : .35 }}>
@@ -173,8 +232,9 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
             {tr ? 'Sonraki' : 'Next'} →
           </button>
         </div>
-        {!section && <div style={{ opacity: .6, textAlign: 'center', padding: 40 }}>{tr ? 'Bölüm yükleniyor…' : 'Loading…'}</div>}
-        {section && section.paras.map((p, i) => (
+        )}
+        {mode === 'text' && !section && <div style={{ opacity: .6, textAlign: 'center', padding: 40 }}>{tr ? 'Bölüm yükleniyor…' : 'Loading…'}</div>}
+        {mode === 'text' && section && section.paras.map((p, i) => (
           <p key={i} dir="rtl" style={{ fontFamily: "'Amiri','Scheherazade New',serif", fontSize: 19, lineHeight: 2.05, margin: '0 0 14px', textAlign: 'justify' }}>
             {p.p && (
               <a href={`#library?book=${book.pidnum}&sec=${secIdx}&p=${p.p}`}
@@ -208,6 +268,22 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
             <span style={{ opacity: .65 }}>{tr ? 'Kalıcı kimlik' : 'PID'}</span><b style={{ fontSize: 10 }}>{book.pid}</b>
           </div>
         </div>
+        {mentions && mentions.sec_pids && mentions.sec_pids[String(secIdx)] && (
+          <div style={{ ...card, padding: '10px 12px', marginBottom: 10 }}>
+            <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.06em', opacity: .65, marginBottom: 6 }}>
+              📍 {tr ? 'Bu bölümdeki yerler' : 'Places in this section'}
+            </div>
+            <div dir="rtl">
+              {(mentions.sections[String(secIdx)] || []).map((nm, k) => (
+                <button key={k} onClick={() => setMode('map')}
+                  title={tr ? 'Kitap haritasında gör' : 'Show on book map'}
+                  style={{ ...chip, cursor: 'pointer', border: 'none', fontFamily: "'Amiri',serif", fontSize: 13 }}>
+                  {nm}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
         {book.atlas_role && (
           <div style={{ ...card, padding: '10px 12px', fontSize: 12, marginBottom: 10, fontStyle: 'italic' }}>
             🗺 {book.atlas_role}
