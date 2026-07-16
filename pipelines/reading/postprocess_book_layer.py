@@ -29,7 +29,8 @@ from pipelines.reading.book_geo import link_records  # noqa: E402
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--pid", required=True, help="pidnum (00001293)")
-    ap.add_argument("--kind", required=True, choices=["events", "structures", "routes", "entries"])
+    ap.add_argument("--kind", required=True,
+                    choices=["events", "structures", "routes", "entries", "regions"])
     ap.add_argument("--records-key", default=None)
     ap.add_argument("--input", required=True)
     ap.add_argument("--center", default=None, help="lat,lon (şehir politikası)")
@@ -45,8 +46,51 @@ def main() -> int:
         r["seq"] = i + 1
 
     center = tuple(float(x) for x in args.center.split(",")) if args.center else None
-    stats = link_records(records, name_key="place_ar" if args.kind == "events" else "name_ar",
-                         center=center, radius_km=args.radius)
+    if args.kind == "routes":
+        # çift uç: from/to ayrı geocode (tek-ad link_records'u iki kez sar)
+        from pipelines.reading.book_geo import build_geo_lexicon, name_variants
+        lex, _ = build_geo_lexicon()
+
+        def geo(name):
+            for v in name_variants(name or ""):
+                if v in lex:
+                    pid, lat, lon, note = lex[v]
+                    return pid, lat, lon
+            return None, None, None
+        both = one = zero = 0
+        for r in records:
+            r["from_pid"], r["from_lat"], r["from_lon"] = geo(r.get("from_ar"))
+            r["to_pid"], r["to_lat"], r["to_lon"] = geo(r.get("to_ar"))
+            n = (r["from_lat"] is not None) + (r["to_lat"] is not None)
+            both += n == 2; one += n == 1; zero += n == 0
+        stats = {"linked": both, "unlinked": zero, "suspect": 0, "partial": one}
+    elif args.kind == "regions":
+        # bölge: şehir listesinin geocode'lu centroid'i
+        from pipelines.reading.book_geo import build_geo_lexicon, name_variants
+        lex, _ = build_geo_lexicon()
+        stats = {"linked": 0, "unlinked": 0, "suspect": 0}
+        for r in records:
+            pts = []
+            city_pids = []
+            for c in (r.get("cities_ar") or [])[:15]:
+                for v in name_variants(c):
+                    if v in lex:
+                        pid, lat, lon, note = lex[v]
+                        if lat is not None:
+                            pts.append((lat, lon))
+                            city_pids.append(pid)
+                        break
+            if pts:
+                r["lat"] = sum(x for x, _ in pts) / len(pts)
+                r["lon"] = sum(y for _, y in pts) / len(pts)
+                r["city_pids"] = city_pids
+                r["geo_note"] = f"centroid ({len(pts)} şehirden)"
+                stats["linked"] += 1
+            else:
+                stats["unlinked"] += 1
+    else:
+        stats = link_records(records, name_key="place_ar" if args.kind == "events" else "name_ar",
+                             center=center, radius_km=args.radius)
 
     manifest = json.loads((REPO_ROOT / "web/public/reading" / args.pid / "manifest.json")
                           .read_text(encoding="utf-8"))
@@ -71,9 +115,10 @@ def main() -> int:
     out.mkdir(parents=True, exist_ok=True)
     (out / f"{args.pid}_{args.kind}.json").write_text(
         json.dumps(layer, ensure_ascii=False, indent=1), encoding="utf-8")
+    extra = f" kısmi={stats['partial']}" if "partial" in stats else ""
     print(f"[{manifest.get('name_tr','?')[:30]}] {args.kind}: kayıt={len(records)} "
           f"koordinatlı={stats['linked']} şüpheli={stats['suspect']} "
-          f"koordinatsız={stats['unlinked']}")
+          f"koordinatsız={stats['unlinked']}{extra}")
     return 0
 
 

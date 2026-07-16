@@ -173,6 +173,8 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
     siege: '#b8607a', founding: '#5cb85c', revolt: '#9b59b6', administration: '#7f8c8d',
     gate: '#c9a84c', well: '#5bc0de', mosque: '#5cb85c', quarter: '#e08e45',
     monument: '#9b59b6', boundary_marker: '#7f8c8d', mountain: '#8a7440', entry: '#c9a84c',
+    canal: '#5bc0de', street: '#e08e45', fief: '#5cb85c', bath: '#b8607a',
+    migration: '#5bc0de', revelation_context: '#8a7440', region: '#c9a84c',
     cemetery: '#b8607a', house: '#d9534f', marker: '#5bc0de', other: '#aaa',
   }), []);
   useEffect(() => {
@@ -183,6 +185,21 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
       { attribution: '© OpenStreetMap · CARTO', subdomains: 'abcd' }).addTo(map);
     const grp = [];
+    if (layerData.kind === 'routes') {
+      layerData.records.filter((r) => r.from_lat != null && r.to_lat != null).forEach((r) => {
+        const line = L.polyline([[r.from_lat, r.from_lon], [r.to_lat, r.to_lon]],
+          { color: GOLD, weight: 1.6, opacity: .55 }).addTo(map);
+        line.bindPopup(`<div dir="rtl" style="font-family:Amiri,serif;font-size:14px"><b>${r.from_ar} ← ${r.to_ar}</b></div>
+          ${r.distance_text ? `<div dir="rtl" style="font-size:11px">📏 ${r.distance_text}</div>` : ''}
+          <button data-sec="${r.sec}" style="margin-top:3px;padding:1px 8px;border-radius:8px;border:1px solid ${GOLD};background:none;color:${GOLD};cursor:pointer;font-size:11px">§${r.sec}</button>`);
+        line.on('popupopen', (e) => {
+          e.popup.getElement().querySelectorAll('button[data-sec]').forEach((b) => {
+            b.onclick = () => { setMode('text'); gotoSec(parseInt(b.dataset.sec, 10)); };
+          });
+        });
+        grp.push([r.from_lat, r.from_lon], [r.to_lat, r.to_lon]);
+      });
+    }
     pts.forEach((r) => {
       const typ = r.event_type || r.type || 'other';
       const mk = L.circleMarker([r.lat, r.lon], {
@@ -303,7 +320,7 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
           {layerData && (
             <button onClick={() => setMode('layer')}
               style={{ ...chip, cursor: 'pointer', border: 'none', background: mode === 'layer' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'layer' ? '#0f1419' : GOLD, fontWeight: 700 }}>
-              {layerData.kind === 'structures' ? '🏛' : layerData.kind === 'entries' ? '🗺' : '⚔️'} {tr ? ({ structures: 'Yapılar', entries: 'Maddeler', events: 'Olaylar' }[layerData.kind] || 'Katman') : ({ structures: 'Structures', entries: 'Entries', events: 'Events' }[layerData.kind] || 'Layer')} ({layerData.records.length})
+              {({ structures: '🏛', entries: '🗺', routes: '🛤', regions: '🌍' }[layerData.kind] || '⚔️')} {tr ? ({ structures: 'Yapılar', entries: 'Maddeler', events: 'Olaylar', routes: 'Yollar', regions: 'Bölgeler' }[layerData.kind] || 'Katman') : ({ structures: 'Structures', entries: 'Entries', events: 'Events', routes: 'Routes', regions: 'Regions' }[layerData.kind] || 'Layer')} ({layerData.records.length})
             </button>
           )}
           {stopsDraft && (
