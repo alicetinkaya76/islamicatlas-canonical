@@ -149,7 +149,6 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
         <div style="font-size:12px"><b>${s.seq}. ${s.name_tr || ''}</b></div>
         ${s.arrival_text ? `<div dir="rtl" style="font-size:11px;opacity:.85">📅 ${s.arrival_text}</div>` : ''}
         <div style="font-size:11px;opacity:.85;max-width:230px">${(s.stay_summary_tr || '').slice(0, 220)}</div>
-        <div style="font-size:10px;margin-top:4px;color:#b8860b">⚠ ${lang === 'en' ? 'DRAFT — pending review' : 'TASLAK — onay bekliyor'} · ${s.confidence}</div>
         <button data-sec="${s.sec}" style="margin-top:3px;padding:1px 8px;border-radius:8px;border:1px solid ${GOLD};background:none;color:${GOLD};cursor:pointer;font-size:11px">${lang === 'en' ? 'read section' : 'bölümü oku'} §${s.sec}</button>`);
       mk.on('popupopen', (e) => {
         e.popup.getElement().querySelectorAll('button[data-sec]').forEach((b) => {
@@ -257,7 +256,7 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
           {stopsDraft && (
             <button onClick={() => setMode('route')}
               style={{ ...chip, cursor: 'pointer', border: 'none', background: mode === 'route' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'route' ? '#0f1419' : GOLD, fontWeight: 700 }}>
-              🧭 {tr ? 'Rota' : 'Route'} ({stopsDraft.stops.length}) <span style={{ fontSize: 9, opacity: .8 }}>{tr ? 'taslak' : 'draft'}</span>
+              🧭 {tr ? 'Rota' : 'Route'} ({stopsDraft.stops.length})
             </button>
           )}
         </div>

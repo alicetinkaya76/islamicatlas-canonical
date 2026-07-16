@@ -42,3 +42,20 @@ Fütûh (olay şeması: fetih+yer+tarih+pasaj) → Ezrakî (yapı şeması: Mekk
 Hıtat'ı) → Meğâzî (sefer olayları) → ... Onay akışı: Ali kuyruk dosyasını
 (veya ileride onay ekranını) işledikçe taslak→canonical terfisi ayrı
 adapter koşusuyla yapılır.
+
+## Karar (2026-07-16): doğrudan yerleştirme
+
+Kullanıcı inceleme kapısını bekletmeden doğrudan yerleştirme talimatı verdi
+("human review gerek[mez] direk olarak yerleştir") — v1'deki kendi süreciyle
+tutarlı sahip kararı. Uygulanan:
+- Taslak → ibn_jubayr_atlas_layer.json (status: PUBLISHED, sahip kararı
+  kayıtlı); confidence/geo_note/geo_candidates alanları veride KORUNDU
+  (dürüstlük veri düzeyinde sürer).
+- UI'dan 'taslak' rozetleri kalktı; rota kitap sayfasının birinci-sınıf
+  özelliği.
+- 107 bağlı yer kaydına canonical iz: derived_from_layers += ibn-jubayr
+  (jenerik applier; ibn-battuta deseni) + facet değeri; place şeması
+  derived_from_layers enum'una 'ibn-jubayr' (geriye-uyumlu genişletme,
+  ADR-013 bump gerektirmez).
+- Onay kuyruğu dosyası kapatıldı (git geçmişinde durur); geo_suspect 7
+  nokta haritada gizli kalmaya devam eder.
