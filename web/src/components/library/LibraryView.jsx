@@ -37,8 +37,9 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
   const [section, setSection] = useState(null);
   const [tocQuery, setTocQuery] = useState('');
   const [mentions, setMentions] = useState(null);   // kitap→yer anılmaları
-  const [stopsDraft, setStopsDraft] = useState(null); // çıkarılmış rota (taslak)
-  const [mode, setMode] = useState('text');         // text | map | route
+  const [stopsDraft, setStopsDraft] = useState(null); // çıkarılmış rota
+  const [layerData, setLayerData] = useState(null);   // olay/yapı katmanı
+  const [mode, setMode] = useState('text');         // text | map | route | layer
   const secCache = useRef({});
   const mapRef = useRef(null);
   const mapElRef = useRef(null);
@@ -72,6 +73,11 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
           .then((r) => (r.ok ? r.json() : null))
           .then(setStopsDraft)
           .catch(() => setStopsDraft(null));
+        setLayerData(null);
+        fetch(`/reading/${pidnum}/layer.json`)
+          .then((r) => (r.ok ? r.json() : null))
+          .then(setLayerData)
+          .catch(() => setLayerData(null));
         window.location.hash = `library?book=${pidnum}&sec=${sec}`;
       });
   }, []);
@@ -160,6 +166,47 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
     mapRef.current = map;
     return () => { if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; } };
   }, [mode, stopsDraft, lang, gotoSec]);
+
+  // Olay/yapı katmanı haritası: tür-renkli markerlar
+  const LAYER_COLORS = useMemo(() => ({
+    conquest: '#c9a84c', battle: '#d9534f', treaty: '#5bc0de', raid: '#e08e45',
+    siege: '#b8607a', founding: '#5cb85c', revolt: '#9b59b6', administration: '#7f8c8d',
+    gate: '#c9a84c', well: '#5bc0de', mosque: '#5cb85c', quarter: '#e08e45',
+    monument: '#9b59b6', boundary_marker: '#7f8c8d', mountain: '#8a7440', entry: '#c9a84c',
+    cemetery: '#b8607a', house: '#d9534f', marker: '#5bc0de', other: '#aaa',
+  }), []);
+  useEffect(() => {
+    if (mode !== 'layer' || !layerData || !mapElRef.current) return;
+    if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; }
+    const pts = layerData.records.filter((r) => r.lat != null && !r.geo_suspect);
+    const map = L.map(mapElRef.current, { scrollWheelZoom: true });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+      { attribution: '© OpenStreetMap · CARTO', subdomains: 'abcd' }).addTo(map);
+    const grp = [];
+    pts.forEach((r) => {
+      const typ = r.event_type || r.type || 'other';
+      const mk = L.circleMarker([r.lat, r.lon], {
+        radius: 7, weight: 1.2, color: '#0f1419',
+        fillColor: LAYER_COLORS[typ] || '#aaa', fillOpacity: .9,
+      }).addTo(map);
+      mk.bindPopup(`<div dir="rtl" style="font-family:Amiri,serif;font-size:15px"><b>${r.title_ar || r.name_ar || ''}</b></div>
+        <div style="font-size:12px"><b>${r.title_tr || r.name_tr || ''}</b> · <span style="opacity:.7">${typ}</span></div>
+        ${r.date_text ? `<div dir="rtl" style="font-size:11px;opacity:.85">📅 ${r.date_text}</div>` : ''}
+        ${r.measurements_text ? `<div dir="rtl" style="font-size:11px;opacity:.85">📏 ${r.measurements_text.slice(0, 90)}</div>` : ''}
+        ${r.summary_ar ? `<div dir="rtl" style="font-family:Amiri,serif;font-size:12px;opacity:.9;max-width:250px">${r.summary_ar.slice(0, 180)}</div>` : ''}
+        <div style="font-size:11px;opacity:.85;max-width:240px">${(r.summary_tr || '').slice(0, 200)}</div>
+        <button data-sec="${r.sec}" style="margin-top:3px;padding:1px 8px;border-radius:8px;border:1px solid ${GOLD};background:none;color:${GOLD};cursor:pointer;font-size:11px">${lang === 'en' ? 'read' : 'bölümü oku'} §${r.sec}</button>`);
+      mk.on('popupopen', (e) => {
+        e.popup.getElement().querySelectorAll('button[data-sec]').forEach((b) => {
+          b.onclick = () => { setMode('text'); gotoSec(parseInt(b.dataset.sec, 10)); };
+        });
+      });
+      grp.push([r.lat, r.lon]);
+    });
+    if (grp.length) map.fitBounds(L.latLngBounds(grp).pad(0.15), { maxZoom: 9 });
+    mapRef.current = map;
+    return () => { if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; } };
+  }, [mode, layerData, lang, gotoSec, LAYER_COLORS]);
 
   const filteredToc = useMemo(() => {
     if (!book) return [];
@@ -253,6 +300,12 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
             style={{ ...chip, cursor: mentions ? 'pointer' : 'default', border: 'none', background: mode === 'map' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'map' ? '#0f1419' : GOLD, fontWeight: 700, opacity: mentions ? 1 : .4 }}>
             🗺 {tr ? 'Kitap Haritası' : 'Book Map'}{mentions ? ` (${mentions.n_geocoded.toLocaleString('tr-TR')})` : ''}
           </button>
+          {layerData && (
+            <button onClick={() => setMode('layer')}
+              style={{ ...chip, cursor: 'pointer', border: 'none', background: mode === 'layer' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'layer' ? '#0f1419' : GOLD, fontWeight: 700 }}>
+              {layerData.kind === 'structures' ? '🏛' : layerData.kind === 'entries' ? '🗺' : '⚔️'} {tr ? ({ structures: 'Yapılar', entries: 'Maddeler', events: 'Olaylar' }[layerData.kind] || 'Katman') : ({ structures: 'Structures', entries: 'Entries', events: 'Events' }[layerData.kind] || 'Layer')} ({layerData.records.length})
+            </button>
+          )}
           {stopsDraft && (
             <button onClick={() => setMode('route')}
               style={{ ...chip, cursor: 'pointer', border: 'none', background: mode === 'route' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'route' ? '#0f1419' : GOLD, fontWeight: 700 }}>
@@ -260,7 +313,7 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
             </button>
           )}
         </div>
-        {(mode === 'map' || mode === 'route') && (
+        {(mode === 'map' || mode === 'route' || mode === 'layer') && (
           <div ref={mapElRef} style={{ height: 'calc(100vh - 240px)', minHeight: 380, borderRadius: 10, border: '1px solid rgba(201,168,76,.3)' }} />
         )}
         {mode === 'text' && (
