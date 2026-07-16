@@ -1,0 +1,3314 @@
+{
+ "metadata": {
+  "kind": "regions",
+  "source_work": "iac:work-00001748",
+  "book": "Sûretü'l-Arz (İbn Havkal)",
+  "extraction": "Claude bölüm-bazlı yapılandırılmış çıkarım + book_geo 3-kademeli bağlama (H14 runbook)",
+  "status": "PUBLISHED — sahip kararıyla doğrudan (2026-07-16); confidence/geo_note alanları veride",
+  "n_records": 124,
+  "n_geocoded": 94
+ },
+ "kind": "regions",
+ "records": [
+  {
+   "name_ar": "ديار العرب",
+   "name_tr": "Arap diyarı (Ceziretü'l-Arab)",
+   "sec": 2,
+   "page": "V01P005",
+   "quote_ar": "وبدأت بذكر ديار العرب فجعلتها إقليما واحدا لأن الكعبة فيها ومكة أم «2» القرى وهى واسطة هذه الأقاليم عندى",
+   "cities_ar": [
+    "مكة",
+    "مسقط",
+    "القلزم"
+   ],
+   "summary_tr": "İbn Havkal kitabına Arap diyarı ile başladığını, Kâbe orada olduğu ve Mekke 'ümmü'l-kurâ' sayıldığı için onu tek bir iklim yaptığını söyler; bu iklimi bölgelerin ortası (vasıta) kabul eder. Fars Denizi'nin bu diyarın çoğunu kuşattığını, Maskat adasından Mekke ve Kulzüm'e doğru döndüğünü ve Umman'dan «عن خمسين فرسخا» mesafedeki yerin Re'sü'l-Cumcume diye anıldığını belirtir.",
+   "products_text": "",
+   "confidence": "medium",
+   "seq": 1,
+   "lat": 22.48855,
+   "lon": 49.120400000000004,
+   "city_pids": [
+    "iac:place-00011505",
+    "iac:place-00011245"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "مملكة ايران شهر (إقليم بابل / مملكة فارس)",
+   "name_tr": "İranşehr memleketi (Bâbil iklimi merkezli Fars memleketi)",
+   "sec": 2,
+   "page": "V01P009",
+   "quote_ar": "فأعمرها وأكثرها خيرا وأحسنها استقامة فى السياسة وتقويم العمارات ووفور الجبايات مملكة ايران شهر وقطبها إقليم بابل وهي مملكة فارس",
+   "cities_ar": [],
+   "summary_tr": "Yeryüzü memleketlerinin direği dört olup en mamur, en hayırlı, siyaseti ve imarı en düzgün, vergileri en bol olanı İranşehr memleketidir; ekseni Bâbil iklimidir ve bu Fars memleketidir. İslam gelince her memleketten pay almış: Rum memleketinden Şam, Mısır, Mağrib ve Endülüs'ü, Çin memleketinden Mâverâünnehr'i almıştır.",
+   "products_text": "",
+   "confidence": "high",
+   "seq": 2
+  },
+  {
+   "name_ar": "مملكة الإسلام",
+   "name_tr": "İslam memleketi",
+   "sec": 2,
+   "page": "V01P016",
+   "quote_ar": "فإن طولها من حد فرغانه حتى يقطع خراسان والجبال والعراق وديار العرب الى سواحل اليمن فهو نحو خمسة أشهر",
+   "cities_ar": [
+    "فرغانه",
+    "مصر",
+    "طنجة"
+   ],
+   "summary_tr": "İslam memleketinin uzunluğu Fergana sınırından Horasan, Cibâl, Irak ve Arap diyarını geçerek Yemen sahillerine «نحو خمسة أشهر», genişliği Rum ülkesinden Şam, Cezire, Irak, Fars ve Kirman'ı geçip Fars Denizi kıyısındaki Mansûre'ye «نحو أربعة أشهر»dır. Mağrib-Endülüs kolu 'elbisedeki yen (كالكم فى الثوب)' gibi olduğundan uzunluğa katılmamıştır; katılsa Fergana'dan Mağrib ve Endülüs'e «ثلثمائة مرحلة» olurdu (Fergana-Belh vadisi «نيفا وعشرين مرحلة», Belh vadisi-Irak «نحو ستين مرحلة», Irak-Mısır «نحو ثلثين مرحلة», Mısır-Mağrib uçları «مائة وثمانين مرحلة», Mısır-Tanca hizası bu mesafenin yarısı). Sınırları: doğusu Hind toprağı ve Fars Denizi, batısı Okyanus kıyısındaki Sudan memleketi, kuzeyi Rum, Ermen, Lân, Rân, Serîr, Hazar, Rus, Bulgar, Sakâlibe ve bir kısım Türkler, güneyi Fars Denizi'dir.",
+   "products_text": "",
+   "confidence": "high",
+   "seq": 3,
+   "lat": 32.9072,
+   "lon": 12.71785,
+   "city_pids": [
+    "iac:place-00011311",
+    "iac:place-00007991"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "مملكة الروم",
+   "name_tr": "Rum (Bizans) memleketi",
+   "sec": 2,
+   "page": "V01P013",
+   "quote_ar": "وأرض الروم حدها من هذا البحر المحيط على بلد الجلالقة «17» وافرنجه وروميه «18» واثيناس الى القسطنطينية ثم الى أرض الصقالبة ويشبه أن يكون نحو مائة وسبعين مرحلة",
+   "cities_ar": [
+    "القسطنطينية",
+    "روميه",
+    "اثيناس"
+   ],
+   "summary_tr": "Rum ülkesi Okyanus'tan Calâlika (Galiçya), Frenk, Roma ve Atina üzerinden Kostantiniyye'ye, oradan Sakâlibe topraklarına uzanır; «نحو مائة وسبعين مرحلة» kadardır ve kuzeydeki Suğûr sınırından Sakâlibe'ye «نحو شهرين»dir. Asıl Rum, Roma sınırından Sakâlibe sınırına kadardır; Frenkler ve Calâlika'nın dilleri farklı olsa da din ve memleket birdir. Memleket Kostantiniyye'de oturan hükümdara nispet edilir; doğusu İslam ülkeleri, batı ve güneyi Okyanus, kuzeyi Çin işi sınırlarıdır.",
+   "products_text": "",
+   "confidence": "high",
+   "seq": 4
+  },
+  {
+   "name_ar": "مملكة الصين",
+   "name_tr": "Çin memleketi",
+   "sec": 2,
+   "page": "V01P013",
+   "quote_ar": "ومملكة الصين كلها منسوبة الى صاحب الصين المقيم بخمدان «13» كما مملكة الروم منسوبة الى الملك المقيم بالقسطنطينية",
+   "cities_ar": [
+    "خمدان"
+   ],
+   "summary_tr": "Horasan hükümdarının hâcibi Ebû İshâk İbrâhîm b. el-Betkîn'in (ve Ebû İshâk el-Fârisî'nin) naklince Çin memleketi «أربعة أشهر فى ثلثة أشهر»dir; körfez ağzından Mâverâünnehr'deki İslam ülkesine «نحو ثلثة أشهر», doğu sınırından Tibet, Toğuzğuz, Hırhîz ve Kimek üzerinden denize «نحو أربعة أشهر»dır. Memleketin dilleri çeşitlidir; Toğuzğuz, Hırhîz, Kimek, Ğuziyye ve Harluhiyye Türklerinin dili birdir, Çin ve Tibet'in dili bunlardan ayrıdır. Memleket Humdân'da oturan Çin hükümdarına nispet edilir; kuzeyi ve doğusu Okyanus, güneyi İslam memleketi ve Hind'dir.",
+   "products_text": "",
+   "confidence": "high",
+   "seq": 5
+  },
+  {
+   "name_ar": "مملكة الهند",
+   "name_tr": "Hind memleketi",
+   "sec": 2,
+   "page": "V01P015",
+   "quote_ar": "وأرض الهند تجاه بلاد الزنج من جانب بحر فارس الشرقى وطولها من عمل مكران فى أرض المنصورة والسند هند وهم البدهه وسائر بلدان السند الى أن تنتهى الى قنوج",
+   "cities_ar": [
+    "قنوج",
+    "المنصورة"
+   ],
+   "summary_tr": "Hind toprağı Fars Denizi'nin doğu yakasında Zenc ülkesinin karşısındadır; uzunluğu Mekrân amelinden Mansûre toprağı, Sind-hind (Budeha) ve öteki Sind beldeleri üzerinden Kanûc'a, oradan Tibet toprağına «نحو أربعة أشهر», genişliği Fars Denizi'nden Kanûc toprağına «نحو ثلثة أشهر»dir. Hind memleketine Sind, Keşmir ve Tibet'in bir ucu ile onların dininde olanlar dahildir; memleket Kanûc'da oturan hükümdara nispet edilir.",
+   "products_text": "",
+   "confidence": "high",
+   "seq": 6
+  },
+  {
+   "name_ar": "ديار الأتراك والخزر وبلغار والروس والصقالبة",
+   "name_tr": "Türk diyarı, Hazar, Bulgar, Rus ve Sakâlibe",
+   "sec": 2,
+   "page": "V01P014",
+   "quote_ar": "وبلغار مدينة صغيرة ليس لها أعمال كثيرة وكانت مشهورة لأنها كانت فرضة لهذه الممالك فاكتسحها الروس وأتوا على خزران وسمندر واتل فى سنة ثمان وخمسين وثلثمائة",
+   "cities_ar": [
+    "بلغار",
+    "خزران",
+    "سمندر",
+    "اتل",
+    "باراب",
+    "اسبيجاب",
+    "جرجان",
+    "برذعه"
+   ],
+   "summary_tr": "Türk diyarında ayrı hükümdarlıklar vardır: Ğuziyye'nin sınırları Hazar, Kimek, Harluhiyye toprağı, Bulgar ile Cürcân'dan Bârâb ve İsbîcâb'a uzanan İslam sınırı arasındadır; Kimekler Harluhiyye'nin ardında kuzeyde, Hırhîz Toğuzğuz-Kimek-Okyanus arasında, Toğuzğuz Tibet-Harluhiyye-Hırhîz-Çin arasındadır. Bulgar küçük bir şehirdi ve bu memleketlerin iskelesi (furda) olduğu için meşhurdu; Ruslar onu silip süpürüp «فى سنة ثمان وخمسين وثلثمائة» Hazrân, Semender ve İtil'i vurdular, oradan Rum ve Endülüs'e yöneldiler. Hazar, İtil nehrinin adını taşıyan iki yakalı küçük bir beldedir; Becnâkiyye denen bir Türk kolu Hazar ile Rum arasına yerleşmiş olup eskiden Endülüs'e, sonra Berzea'ya çıkanlar bunlardır.",
+   "products_text": "ياجوج ülkesine dair: «أن تجاراتهم إنما تصل اليهم على ظهور الرجال وأصلاب المعز» — ticaret malları oraya ancak adam sırtında ve keçi sağrısında ulaşır; tüccarları Hârizm yörelerindendir.",
+   "confidence": "high",
+   "seq": 7,
+   "lat": 42.23062,
+   "lon": 69.75409,
+   "city_pids": [
+    "iac:place-00013042"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "بلاد السودان والنوبة والبجة والحبشة والزنج",
+   "name_tr": "Sudan, Nûbe, Bece, Habeşistan ve Zenc ülkeleri",
+   "sec": 2,
+   "page": "V01P015",
+   "quote_ar": "وطول أرضهم ألف فرسخ فى نحوها عرضا غير أنها الى البحر لا الى ظهر الواحات أطول من عرضها",
+   "cities_ar": [
+    "قوص"
+   ],
+   "summary_tr": "Yeryüzünün güneyindeki Sudan ülkesi Okyanus kıyısında olup hiçbir memleketle bitişik değildir; uzunluğu «ألف فرسخ» ve genişliği de o kadardır. Nûbe'nin bir sınırı Saîd yönünden Mısır'a, Bece diyarı Nil ile Kulzüm denizi arasında Habeş ile Nûbe arasında Kûs sınırlarından geçilmez çöle kadar uzanan dar-uzun bir diyardır. Habeşistan Kulzüm denizi üzerindedir ve şu anda başlarında «نحو ثلثين سنة»dir hüküm süren bir kraliçe vardır; Zenc toprağı Sudan topraklarının en uzunudur ve Habeş'ten başkasıyla bitişmez. Nûbe ve Habeş, Hristiyan olup Rum mezheplerini benimsemeleriyle öteki Sudan kavimlerinden ayrılır.",
+   "products_text": "Nûbe/Habeş ile Mısır arasındaki çöller hakkında: «مفاوز معمورة فيها معادن الذهب» — içinde altın madenleri bulunan mamur çöller; Kulzüm denizi yoluyla Mısır ve Şam'a bağlanırlar.",
+   "confidence": "high",
+   "seq": 8,
+   "lat": 25.9152,
+   "lon": 32.7649,
+   "city_pids": [
+    "iac:place-00009992"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "البحار: بحر فارس وبحر الروم وبحر الخزر",
+   "name_tr": "Denizler: Fars Denizi, Rum Denizi ve Hazar Denizi",
+   "sec": 2,
+   "page": "V01P011",
+   "quote_ar": "وأما البحار فأشهرها اثنان وأعظمها بحر فارس ثم بحر الروم وهما خليجان متقابلان يأخذان من البحر المحيط وأفسحهما طولا وعرضا بحر فارس",
+   "cities_ar": [
+    "القلزم",
+    "الفرما"
+   ],
+   "summary_tr": "En meşhur iki deniz Okyanus'tan çıkan karşılıklı iki körfez olan Fars Denizi ile Rum Denizi'dir; en genişi Fars Denizi'dir. Kulzüm'den Çin'e düz hatla «نحو مائتى مرحلة», Kulzüm'den Mağrib'deki Hacer'in ucuna «مائة وثمانين مرحلة», Kulzüm'den Irak'a karadan «نحو شهر», Irak'tan Belh nehrine «نحو شهرين», Belh nehrinden Fergana sınırındaki İslam'ın sonuna «نيف وعشرون مرحلة»dir; Rum Denizi'nin uzunluğu «نحو أربعة أشهر»dır ve Kulzüm ile Rum Denizi arası Ferama hizasında «ثلث مراحل»dir. Hazar Denizi'nin bu iki denizle hiçbir bağlantısı yoktur; İtil (Rus nehri), Kür, Aras ile Cîl, Deylem ve Taberistan sularından beslenen tatlı sulu, çukurda bir denizdir; Hârizm gölü de başka denize bitişmez.",
+   "products_text": "",
+   "confidence": "high",
+   "seq": 9
+  },
+  {
+   "name_ar": "ديار العرب",
+   "name_tr": "Arap Diyarı (Arabistan)",
+   "sec": 3,
+   "page": "V01P017",
+   "quote_ar": "فابتدأت بديار العرب لأن القبلة بها ومكة فيها وهى أم القرى وبلد العرب وأوطانهم التى لم يشركهم فى سكناها غيرهم",
+   "cities_ar": [
+    "مكة",
+    "المدينة",
+    "اليمامة",
+    "الكوفة",
+    "البصرة",
+    "عبادان",
+    "ايلة",
+    "جدة",
+    "الجار",
+    "مدين",
+    "وادى القرى",
+    "تبوك",
+    "تيماء",
+    "خيبر",
+    "ينبع"
+   ],
+   "products_text": "العشور، القبالات، العنبر بسواحل عدن، جلود النمور والعبيد (هدايا)، الحنطة والشعير والنخل بالبحرين",
+   "summary_tr": "İbn Havkal, Belh okulu düzenine uygun olarak tasvire kıble ve Mekke'nin bulunduğu Arap diyarıyla başlar. Sınırları Fars denizi (Abadan'dan Kulzüm ve Eyle'ye), Şam, Cezire ve Irak hattıyla çizer; bölgeyi Hicaz, Necd, Yemen, Umman, Mehre ve bâdiyelere ayırır. Mesafeler aynen verilir: Abadan'dan Bahreyn'e on bir merhale, Bahreyn'den Umman'a bir ay, Aden'den Cidde'ye bir ay, Kûfe'den Medine'ye yirmi merhale.",
+   "confidence": "high",
+   "seq": 10,
+   "lat": 25.923874545454552,
+   "lon": 40.091807272727266,
+   "city_pids": [
+    "iac:place-00011505",
+    "iac:place-00013423",
+    "iac:place-00012909",
+    "iac:place-00010482",
+    "iac:place-00001200",
+    "iac:place-00002989",
+    "iac:place-00011011",
+    "iac:place-00012351",
+    "iac:place-00002450",
+    "iac:place-00002742",
+    "iac:place-00004513"
+   ],
+   "geo_note": "centroid (11 şehirden)"
+  },
+  {
+   "name_ar": "تهامة اليمن",
+   "name_tr": "Yemen Tihâmesi (hükümdarlar ve gelirler)",
+   "sec": 3,
+   "page": "V01P023",
+   "quote_ar": "وأكثر أمواله المقبوضة من العشور وهى ما ينيف على خمس مائة ألف دينار عثرى",
+   "cities_ar": [
+    "زبيد",
+    "عدن",
+    "عثر",
+    "حلى",
+    "صعدة",
+    "السرين",
+    "صنعاء"
+   ],
+   "products_text": "العشور (خمس مائة ألف دينار عثرى)، قبالات زبيد (مائتا ألف دينار)، جباية عدن عن المراكب العشرية، العنبر بسواحل عدن، العبيد والعنبر وجلود النمور من دهلك، المدابغ وضرائب القوافل بصعدة",
+   "summary_tr": "Tihâme-i Yemen'in üç hükümdarı (İbn Ziyâd ailesi, Asir sahibi İbn Tarf, Hali sahibi el-Cerâmî) ve gelirleri anlatılır: İbn Ziyâd'ın öşür gelirleri beş yüz bin uşarî dinarı aşar, Zebîd mukataaları iki yüz bin dinardır. Aden gümrüğü ve amber vergisi, Dehlek adaları sahibinden köle-amber-kaplan derisi hediyeleri kaydedilir. Geç dönem müstensih notu: 540 senesinde Aden'e girdim, gemi öşrü mukataası yüz on dört bin murâbıtî dinar idi.",
+   "confidence": "high",
+   "seq": 11,
+   "lat": 14.090166666666667,
+   "lon": 44.12133333333333,
+   "city_pids": [
+    "iac:place-00005963",
+    "iac:place-00008249",
+    "iac:place-00008208"
+   ],
+   "geo_note": "centroid (3 şehirden)"
+  },
+  {
+   "name_ar": "البحرين",
+   "name_tr": "Bahreyn (Karmatî ülkesi)",
+   "sec": 3,
+   "page": "V01P025",
+   "quote_ar": "وأما البحرين ومدنها وهى هجر والاحساء والقطيف والعقير وبيشة والخرج واوال",
+   "cities_ar": [
+    "هجر",
+    "الاحساء",
+    "القطيف",
+    "العقير",
+    "بيشة",
+    "الخرج",
+    "اوال",
+    "الجرعاء"
+   ],
+   "products_text": "الضريبة العظيمة على المراكب المجتازة، الحنطة والشعير والنخل، ما يقبضونه من الحجاج ومال عمان",
+   "summary_tr": "Bahreyn şehirleri sayılır ve Ebû Saîd el-Cennâbî soyunun (Karmatîler) geçen gemilerden aldığı büyük vergi ile gelir paylaşım düzeni anlatılır: beşte bir Sahibü'z-zamân'a, üç humus Ebû Saîd evladına ayrılır. Cer'â'daki toplanma ve şûrâ âdetleri, 358 yılında Sâbûr'un öldürülmesiyle birliğin bozulması nakledilir; yıllık gelirlerinin bir milyon dinar (bazen yüz-iki yüz bin fazlası) olduğu işitilmiştir.",
+   "confidence": "high",
+   "seq": 12,
+   "lat": 22.346,
+   "lon": 48.040666666666674,
+   "city_pids": [
+    "iac:place-00012641",
+    "iac:place-00002368",
+    "iac:place-00001097"
+   ],
+   "geo_note": "centroid (3 şehirden)"
+  },
+  {
+   "name_ar": "مكة",
+   "name_tr": "Mekke ve Haram bölgesi",
+   "sec": 3,
+   "page": "V01P027",
+   "quote_ar": "وأنا مبتدئ من ديار العرب بذكر مكة ومكة مدينة فيما بين شعاب الجبال وطولها من المعلاة الى المسفلة نحو ميلين",
+   "cities_ar": [
+    "مكة",
+    "منى",
+    "عرفات",
+    "المزدلفة",
+    "جدة"
+   ],
+   "products_text": "ليس بجميع مكة شجر مثمر غير شجر البادية؛ ماؤهم من السماء الى مواجن وبرك",
+   "summary_tr": "Mekke dağ vadileri arasında, uzunluğu Muallâ'dan Mesfele'ye yaklaşık iki mil olan taş yapılı bir şehirdir; Mescid-i Harâm, Kâbe, Zemzem, Makâm-ı İbrâhim, Safâ-Merve, Minâ (Mekke'ye üç mil), Müzdelife ve Arafat ayrıntıyla tarif edilir. Akarsuyu yoktur; Muktedir devrinde tamamlanan bir kaynak suyu getirilmiştir, meyve ağacı bulunmaz, Harem sınırları işaret taşlarıyla bellidir.",
+   "confidence": "high",
+   "seq": 13,
+   "lat": 22.08475,
+   "lon": 40.958324999999995,
+   "city_pids": [
+    "iac:place-00011505",
+    "iac:place-00008311",
+    "iac:place-00011203",
+    "iac:place-00002989"
+   ],
+   "geo_note": "centroid (4 şehirden)"
+  },
+  {
+   "name_ar": "المدينة",
+   "name_tr": "Medine",
+   "sec": 3,
+   "page": "V01P030",
+   "quote_ar": "فأما المدينة فهى أقل من نصف مكة وهى فى حرة سبخة الأرض ولها نخيل كثيرة",
+   "cities_ar": [
+    "المدينة",
+    "قباء",
+    "الفرع",
+    "العقيق"
+   ],
+   "products_text": "نخيل كثيرة، مزارع وضياع أكثرها خراب وقتنا هذا",
+   "summary_tr": "Medine Mekke'nin yarısından küçüktür, çorak bir harre üzerindedir ve bol hurmalıkları kuyulardan köle emeğiyle sulanır; surludur, Mescid ve Peygamber'in kabri tarif edilir. Kubâ iki mil uzaklıkta, Uhud iki fersah kuzeydedir; Fer' dört günlük mesafededir ve çevre çiftliklerin çoğu 'zamanımızda' haraptır. Medine tozunun cüzzama karşı emân olduğu rivayeti aktarılır.",
+   "confidence": "high",
+   "seq": 14,
+   "lat": 24.25391,
+   "lon": 42.15954,
+   "city_pids": [
+    "iac:place-00013423",
+    "iac:place-00008507"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "اليمامة",
+   "name_tr": "Yemâme",
+   "sec": 3,
+   "page": "V01P030",
+   "quote_ar": "وأما اليمامة فواد والمدينة به تسمى الخضرمة",
+   "cities_ar": [
+    "الخضرمة",
+    "وادى القرى",
+    "هجر"
+   ],
+   "products_text": "أكثر نخيلا وثمرا من المدينة ومن سائر الحجاز",
+   "summary_tr": "Yemâme bir vadidir; şehri Hadrame olup hurma ve meyvece Medine'den ve bütün Hicaz'dan zengindir. Benû'l-Uhaydır'ın gelişiyle Rabîa ve Mudar Arapları buradan Mısır tarafına (Nil ile Kulzüm denizi arasına, Asvan yakınına ve altın madeni bölgesi Allâkî'ye) göçmüştür. Hicaz'da Mekke ve Medine'den sonra en büyük yer Yemâme, onu izleyen Vâdilkurâ'dır.",
+   "confidence": "high",
+   "seq": 15,
+   "lat": 25.23,
+   "lon": 44.18333333333334,
+   "city_pids": [
+    "iac:place-00010969",
+    "iac:place-00012351",
+    "iac:place-00012641"
+   ],
+   "geo_note": "centroid (3 şehirden)"
+  },
+  {
+   "name_ar": "مدن الحجاز (الجار وجدة والطائف والحجر وتبوك ومدين)",
+   "name_tr": "Hicaz şehirleri",
+   "sec": 3,
+   "page": "V01P031",
+   "quote_ar": "والطائف مدينة صغيرة نحو وادى القرى كثيرة الشجر والثمر وأكثر ثمارها الزيت",
+   "cities_ar": [
+    "الجار",
+    "جدة",
+    "الطائف",
+    "الحجر",
+    "تبوك",
+    "مدين",
+    "الجحفة",
+    "فيد",
+    "خيبر",
+    "ينبع",
+    "تيماء"
+   ],
+   "products_text": "أكثر ثمارها الزيت (الطائف)، فواكه مكة وبقولها منها؛ جدة كثيرة التجارات والأموال؛ حجارة المسن من جبل رضوى؛ نخيل وزرع بخيبر وينبع وتيماء",
+   "summary_tr": "Câr Medine'nin, Cidde Mekke'nin limanıdır; Cidde eskiden Hicaz'ın en zengin ticaret şehriyken İbn Ca'fer el-Hasenî'nin yerleşmesiyle çökmüştür. Tâif ağaç ve meyvesi bol, ürünü çoğunlukla zeytin olan serin bir dağ şehridir; Hicr, Semûd diyarıdır; Tebük ve Medyen (Şuayb'ın kuyusu) tarif edilir. Yenbu'dan Ridvâ dağından bileği taşı her tarafa taşınır; Hayber ve Teymâ hurmalık hisarlardır.",
+   "confidence": "high",
+   "seq": 16,
+   "lat": 24.508042857142858,
+   "lon": 39.782071428571435,
+   "city_pids": [
+    "iac:place-00002989",
+    "iac:place-00007855",
+    "iac:place-00002450",
+    "iac:place-00011011",
+    "iac:place-00009327",
+    "iac:place-00004513",
+    "iac:place-00002742"
+   ],
+   "geo_note": "centroid (7 şehirden)"
+  },
+  {
+   "name_ar": "اليمن",
+   "name_tr": "Yemen (San'a, Sa'de, Hadramevt, Mehre)",
+   "sec": 3,
+   "page": "V01P036",
+   "quote_ar": "وليس بجميع اليمن مدينة أكبر ولا أكثر مرافق وأهلا من صنعاء",
+   "cities_ar": [
+    "صنعاء",
+    "صعدة",
+    "نجران",
+    "جرش",
+    "عدن",
+    "حضر موت",
+    "الشحر",
+    "شبام",
+    "جمع",
+    "مرباط",
+    "ظفار"
+   ],
+   "products_text": "الأدم (بصعدة ونجران وجرش والطائف)، الورس بالمذيخرة، العقيق والجزع والجمست من شبام، اللبان من مهرة، نجب الإبل، السموك والألبان والتمور",
+   "summary_tr": "San'a ekvator çizgisi üzerinde, havası ılıman, Yemen'in en büyük şehridir; Gumdân sarayı harabesi anılır. Sa'de deri (edîm) işleme ve tüccar merkezi, Mezhice dağı vers (kırmızı boya) yetiştiricisidir; Şibâm dağından akik, cez' ve ametist çıkar. Aden küçük ama deniz iskelesi olarak şöhretlidir; Mehre halkının dili anlaşılmaz, ekmek bilmezler, dünyaca kullanılan lübân (günnük) oradandır; Mehre'nin uzunluğu dört yüz fersahtır.",
+   "confidence": "high",
+   "seq": 17,
+   "lat": 18.69216,
+   "lon": 47.73294,
+   "city_pids": [
+    "iac:place-00011941",
+    "iac:place-00008249",
+    "iac:place-00007038",
+    "iac:place-00003239",
+    "iac:place-00011073"
+   ],
+   "geo_note": "centroid (5 şehirden)"
+  },
+  {
+   "name_ar": "عمان",
+   "name_tr": "Umman",
+   "sec": 3,
+   "page": "V01P038",
+   "quote_ar": "وقصبتها صحار وهى على البحر وبها من التجار والتجارة ما لا يحصى كثرة",
+   "cities_ar": [
+    "صحار",
+    "نزوى"
+   ],
+   "products_text": "كثيرة النخل والفواكه الجرومية من الموز والرمان والنبق",
+   "summary_tr": "Umman kendi kendine yeten bölgeleri olan geniş bir nahiyedir; hurma ile muz, nar, nebk gibi sıcak iklim meyveleri boldur. Başşehri Suhâr, Fars denizi kıyısında İslam dünyasının en mamur ve zengin liman şehridir; ülke sınırlarının üç yüz fersah olduğu söylenir. Hâricîler (Şurât) Mu'tazıd adına yapılan fetihten sonra Nezvâ'ya çekilmiştir; imamları ve beytülmalleri oradadır.",
+   "confidence": "high",
+   "seq": 18
+  },
+  {
+   "name_ar": "بحر فارس",
+   "name_tr": "Fars Denizi (genel tasvir)",
+   "sec": 4,
+   "page": "V01P042",
+   "quote_ar": "والذي يجب أن يذكر بعد ديار العرب بحر فارس لأنه يشتمل على أكثر حدودها",
+   "cities_ar": [
+    "القلزم",
+    "ايلة",
+    "عبادان",
+    "سيراف",
+    "هرموز",
+    "الديبل",
+    "عيذاب",
+    "سواكن",
+    "دهلك",
+    "زيلع",
+    "باضع"
+   ],
+   "products_text": "معدن الزمرد ومعادن الذهب بمفاوز البجة، مغاص اللؤلؤ بسنجلة وقرب عدن وخارك وعمان وسرنديب، جلود الدباغ من الجزائر (البقرى والملمع والأدم الثقيل)",
+   "summary_tr": "Arap diyarından sonra onu üç taraftan kuşatan Fars denizi anlatılır: doğu sahili Kulzüm-Eyle-Abadan-Siraf-Hürmüz-Deybül üzerinden Hint, Tibet ve Çin sahillerine uzanır; batı sahilinde Beja çölleri, Aydâb, Sevâkin ve Dehlek-Zeyla adaları vardır. Deniz mesafeleri aynen verilir: Sencele-Cidde arası bir gün bir gece, oradan Bâdi' iki mecrâ, Dehlek'e dört, Zeyla'ya altı mecrâ. Gelgitin Kulzüm'den Çin'e kadar günde iki kez olduğu, Endülüs kuzeyindeki Okyanus dışında Mağrib ve Rum denizlerinde gelgit olmadığı belirtilir.",
+   "confidence": "high",
+   "seq": 19,
+   "lat": 22.714850000000002,
+   "lon": 45.442387499999995,
+   "city_pids": [
+    "iac:place-00001200",
+    "iac:place-00014940",
+    "iac:place-00004979",
+    "iac:place-00001365"
+   ],
+   "geo_note": "centroid (4 şehirden)"
+  },
+  {
+   "name_ar": "سواحل بحر فارس (القلزم الى الديبل)",
+   "name_tr": "Fars Denizi liman şehirleri",
+   "sec": 4,
+   "page": "V01P048",
+   "quote_ar": "ثم ينتهى الى سيراف وهى الفرضة العظيمة لفارس وهى مدينة جليلة وأبنيتها ساج",
+   "cities_ar": [
+    "القلزم",
+    "ايلة",
+    "عبادان",
+    "مهروبان",
+    "سينيز",
+    "جنابه",
+    "سيراف",
+    "هرموز",
+    "الديبل",
+    "الملتان"
+   ],
+   "products_text": "السينيزى الذي يحمل الى الآفاق (من سينيز)، أبنية ساج بسيراف، النخل بهرموز، مجمع التجارة بالديبل",
+   "summary_tr": "Kulzüm Mısır ve Şam'ın limanıdır, ekinsiz ve susuzdur; Eyle Yahudilerin elinde Peygamber ahitnamesi bulunan küçük bir şehirdir. Abadan murabıtların kaldığı bir ribat-hisardır; Mahrûbân, Sînîz (âfâka taşınan sînîzî kumaşı) ve Cennâbe Fars limanlarıdır. Sîrâf Fars'ın büyük limanı ve en zengin şehridir, binaları tik ağacındandır; Hürmüz Kirman'ın, Deybül Sind'in limanıdır. Geç müstensih notları 538 ve 539 tarihli ziyaretleri aktarır.",
+   "confidence": "high",
+   "seq": 20,
+   "lat": 30.265733333333333,
+   "lon": 54.90688333333333,
+   "city_pids": [
+    "iac:place-00001200",
+    "iac:place-00014940",
+    "iac:place-00013444"
+   ],
+   "geo_note": "centroid (3 şehirden)"
+  },
+  {
+   "name_ar": "بلاد البجة",
+   "name_tr": "Beja ülkesi",
+   "sec": 4,
+   "page": "V01P049",
+   "quote_ar": "وينتهى فى حدهم ما بين الحبشة وأرض مصر وأرض النوبة معدن الزمرد والذهب",
+   "cities_ar": [
+    "عيذاب",
+    "اسوان",
+    "العلاقى",
+    "قفط",
+    "قوص",
+    "سواكن"
+   ],
+   "products_text": "معدن الزمرد والذهب، معدن تبر لا فضة فيه بأيدى ربيعة، الصوف والقطن والحيوان من الرقيق والإبل (تجارة)، اللحم واللبن طعامهم",
+   "summary_tr": "Beja, Nil ile deniz arasında çadırlarda yaşayan, Habeşlilerden daha koyu tenli göçebe bir kavimdir; ülkelerinde Mısır-Habeş-Nübye arasında zümrüt ve altın (tibr) madeni vardır ve madenin geliri Mısır'a gider. 31 yılında Abdullah b. Ebî Serh'in Asvan fethi, 204'te Kıft baskını, 212'de Hakem en-Nâbigî'nin seferi ve 238-245 olaylarında Muhammed el-Kummî'nin Beja kralı Ali Baba'yı esir alıp Bağdat'a götürmesi tarihleriyle anlatılır. Tüccarlar onlara yün, pamuk, köle ve deve getirir; boyları (Hadârib vb.) tek tek sayılır.",
+   "confidence": "high",
+   "seq": 21,
+   "lat": 26.151025,
+   "lon": 31.866175,
+   "city_pids": [
+    "iac:place-00000643",
+    "iac:place-00008526",
+    "iac:place-00009814",
+    "iac:place-00009992"
+   ],
+   "geo_note": "centroid (4 şehirden)"
+  },
+  {
+   "name_ar": "بلاد النوبة",
+   "name_tr": "Nübye",
+   "sec": 4,
+   "page": "V01P056",
+   "quote_ar": "ثم يتصل ذلك بمفاوز النوبة والنوبة نصارى أيضا وبلدهم أوسع من الحبشة",
+   "cities_ar": [
+    "دنقله",
+    "علوه",
+    "اسوان"
+   ],
+   "products_text": "كثيرة التمر والزرع والخضر، الذرة والدخن بدكن، معادن التبر الغزير الكثير، الذهب الجيد والحديد عند الاحديين",
+   "summary_tr": "Nübyeliler Hristiyandır; ülkeleri Habeşistan'dan geniş ve daha mamurdur, Nil şehirlerinin arasından geçer. En bayındır bölge Alve'dir: bir merhalede kesintisiz köylerden geçilir; yazarın orada bulunduğu sırada kral Kercuve b. Cûtî on yedi yıl hüküm sürüp ölmüş, yerine kız kardeşinin oğlu geçmiştir (Sudan âdeti). Alve'nin uzunluğu Nil boyunca bir ay, genişliği sekiz merhaledir; iki Nübye kralı vardır: Alve kralı ile ona bağlı Dongola (Mukurra) kralı, ve tibr madenleri Müslümanlar duymasın diye işletilmez.",
+   "confidence": "high",
+   "seq": 22,
+   "lat": 24.0889,
+   "lon": 32.8998,
+   "city_pids": [
+    "iac:place-00000643"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "بلد الحبشة",
+   "name_tr": "Habeşistan",
+   "sec": 4,
+   "page": "V01P058",
+   "quote_ar": "بلد الحبشة فملكتهم مرأة مذ سنون كثيرة",
+   "cities_ar": [],
+   "products_text": "جلود النمور والجلود البقرية الملمعة وأكثر جلود اليمن التى تدبغ للنعال تقع من ناحيتهم الى عدن",
+   "summary_tr": "Habeşistan'ı uzun yıllardır bir kadın yönetmektedir; bilinen Habeş kralı Hadânî'yi öldüren bu kraliçe hâlâ ülkeye ve komşu Hadânî topraklarına hâkimdir. Ülke uçsuz bucaksız, geçilmesi güç çöl ve kırlarla tarif edilir. (Bir önceki pasajda kaplan ve sığır derilerinin buradan Aden'e geçtiği, Zeyla'nın Hicaz-Yemen'e geçiş iskelesi olduğu söylenir.)",
+   "confidence": "medium",
+   "seq": 23
+  },
+  {
+   "name_ar": "أرض الزنج",
+   "name_tr": "Zenc ülkesi",
+   "sec": 4,
+   "page": "V01P059",
+   "quote_ar": "وهذه المعادن تمتد فى بلد الزنج على البحر",
+   "cities_ar": [],
+   "products_text": "معادن التبر الغزير الكثير تمتد فى بلد الزنج، قليل العمارة قشف تافه الزرع",
+   "summary_tr": "Aden'in karşısında Zenc ülkesi başlar; tibr (altın tozu) madenleri Zenc kıyıları boyunca İslam sınırlarını aşıp bazı Hint beldelerinin hizasına kadar uzanır. Ülkenin az bayındır, ekininin cılız olduğu, yalnız kral merkezine bitişik yerlerin mamur olduğu; uçlarında beyaz Zencîler bulunduğunun rivayet edildiği kaydedilir.",
+   "confidence": "medium",
+   "seq": 24
+  },
+  {
+   "name_ar": "المغرب",
+   "name_tr": "Mağrib (genel sınırlar ve ticaret)",
+   "sec": 5,
+   "page": "V01P060",
+   "quote_ar": "وقد بدأت بذكر حده المحيط به من قبوله وحده من مصر الإسكندرية على النيل",
+   "cities_ar": [
+    "الإسكندرية",
+    "برقة",
+    "اطرابلس",
+    "المهدية",
+    "تونس",
+    "تنس",
+    "سبتة",
+    "طنجة",
+    "سجلماسه",
+    "غانه",
+    "اودغست"
+   ],
+   "products_text": "المولدات الحسان والغلمان الروقة، العنبر والحرير والأكسية الصوف، الأنطاع والحديد والرصاص والزيبق، الخدم من بلاد السودان والصقالبة، الخيل والبغال الفره",
+   "summary_tr": "Mağrib'in çevre sınırı İskenderiye-Nil-Vâhât-Nübye çölü-Okyanus-Gâne/Evdagust-Tanca hattıyla çizilir. Eski Mısır-Gâne çöl yolunun rüzgâr ve düşman yüzünden terk edilip kervanların Sicilmâse'ye kaydığı, Evdagust'ta 42.000 dinarlık borç senedi görüldüğü anlatılır. Doğuya sevk edilen mallar arasında halife anneleri olmuş melez cariyeler, köleler, amber, ipek, yün giysiler, demir, kurşun ve cıva sayılır; fiyatlar son derece ucuzdur.",
+   "confidence": "high",
+   "seq": 25,
+   "lat": 34.9075525,
+   "lon": 7.244065,
+   "city_pids": [
+    "iac:place-00000630",
+    "iac:place-00013766",
+    "iac:place-00006250",
+    "iac:place-00007991"
+   ],
+   "geo_note": "centroid (4 şehirden)"
+  },
+  {
+   "name_ar": "الاندلس",
+   "name_tr": "Endülüs",
+   "sec": 5,
+   "page": "V01P061",
+   "quote_ar": "وأما الاندلس فهى جزيرة تتصل بالبر الأصغر من جهة جليقيه وافرنجه وهى فى جملة المغرب",
+   "cities_ar": [
+    "شنترين",
+    "لشبونه",
+    "اكشنبه",
+    "جبل طارق",
+    "مالقه",
+    "المريه",
+    "مرسيه",
+    "بلنسيه",
+    "طرطوشه"
+   ],
+   "products_text": "(بحر المحيط فى شمال الاندلس فيه مد وجزر يرتفع الماء فوق العشر الأذرع كارتفاعه بالبصرة)",
+   "summary_tr": "Endülüs, Caliciye ve Frank ülkesi yönünden küçük karaya bitişen ve Mağrib'in cümlesinden sayılan bir 'ada'dır; batısını boğaz, kuzey-doğusunu Okyanus kuşatır. Sınır hattı Şenterîn-Lişbûne-Ükşûnübe-Cebel-i Târık-Mâlaka-Meriye-Mürsiye-Belensiye-Turtûşe üzerinden küfür diyarına (Frank, Bask, Calicye) ulaşır. Yazar Endülüs'ü ayrı bir harita olarak çizdiğini, İslam tarafından ona Sicilya'nın komşu olduğunu söyler.",
+   "confidence": "high",
+   "seq": 26,
+   "lat": 36.989194999999995,
+   "lon": -3.97121,
+   "city_pids": [
+    "iac:place-00013801",
+    "iac:place-00015341"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "برقة",
+   "name_tr": "Berka",
+   "sec": 5,
+   "page": "V01P066",
+   "quote_ar": "وذلك أنها تنفرد فى التجارة بالقطران الذي ليس فى كثير من النواحى كهو",
+   "cities_ar": [
+    "برقة"
+   ],
+   "products_text": "القطران، الجلود المجلوبة للدباغ بمصر، التمور من اوجله، الصوف والفلفل والعسل والشمع والزيت",
+   "summary_tr": "Berka, Mısır'dan Kayrevan'a gidenin uğradığı ilk minberli şehirdir; kırmızı toprağı halkının hep kırmızıya çalan giysilerinden tanınmasına yol açar. Ticarette katranla tek başınadır; Mısır'da tabaklanacak deriler, Evcile hurması, yün, biber, bal, balmumu ve zeytinyağı pazarları canlıdır. Suyu yağmur sarnıçlarındandır ve fiyatları çoğu zaman ucuzdur; Mağrib'de yalnız Berka'nın iltizama verildiği ileride belirtilir.",
+   "confidence": "high",
+   "seq": 27
+  },
+  {
+   "name_ar": "اجدابيه واوجله وودان وسرت",
+   "name_tr": "Ecdâbiye, Evcile, Veddân ve Sirt",
+   "sec": 5,
+   "page": "V01P067",
+   "quote_ar": "وسرت مدينة ذات سور صالح كالمنيع من طين وطابية وبها قبائل من البربر",
+   "cities_ar": [
+    "اجدابيه",
+    "اوجله",
+    "ودان",
+    "سرت"
+   ],
+   "products_text": "التمور العظيمة باوجله وودان، الأكسية المقاربة وشقة الصوف، الشب السرتى، صدقات سائمة الإبل والغنم، لوازم على القوافل من بلاد السودان",
+   "summary_tr": "Ecdâbiye kerpiç-tuğla yapılı, camili bir şehirdir; valisi Sudan kervanlarından geçiş vergisi alır ve limanına gemiler uğrar; ihraç malı kaba abalar ve yün toplarıdır. Evcile ve Veddân 'adaları' bol ve ucuz hurmalarıyla anılır. Sirt surlu bir şehirdir; deve-koyun zekâtı ve kervan vergileriyle geliri Ecdâbiye'den fazladır, denize bir ok atımıdır ve sirt şapı (eş-şebbü's-sirtî) buradan bolca yüklenir.",
+   "confidence": "high",
+   "seq": 28,
+   "lat": 24.73,
+   "lon": 44.61,
+   "city_pids": [
+    "iac:place-00012437"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "اطرابلس",
+   "name_tr": "Trablus",
+   "sec": 5,
+   "page": "V01P068",
+   "quote_ar": "وهى مدينة بيضاء من الصخر الأبيض على ساحل البحر خصبة حصينة كبيرة",
+   "cities_ar": [
+    "اطرابلس",
+    "لبده",
+    "صبره"
+   ],
+   "products_text": "الخوخ الفرسك والكمثرى، الصوف المرتفع وطيقان الأكسية الفاخرة الزرق والكحل النفوسية والسود والبيض الثمينة",
+   "summary_tr": "Trablus beyaz taştan, surlu ve verimli bir sahil şehridir; Rum ülkesi ve Mağrib'den gece gündüz ticaret gemileri gelir. Benzersiz şeftali ve armudu, değerli yünü ve mavi-siyah-beyaz Nefûse abalarıyla ünlüdür. Halkı temiz giyimli, misafirperver ve dayanışmacıdır: fırtınada gemileri kendi kayıklarıyla ücretsiz bağlayıp limana alırlar; Lebde ve Sabra'da kervanlardan geçiş resmi alınır.",
+   "confidence": "high",
+   "seq": 29
+  },
+  {
+   "name_ar": "قابس وسفاقس",
+   "name_tr": "Kâbis ve Sfaks",
+   "sec": 5,
+   "page": "V01P070",
+   "quote_ar": "مدينة جل غلاتها الزيتون والزيت وبها منه ما ليس بغيرها مثله",
+   "cities_ar": [
+    "قابس",
+    "سفاقس",
+    "المهدية"
+   ],
+   "products_text": "الزيتون والزيت (ربما بلغ من ستين قفيزا بدينار الى مائة قفيز بدينار)، الحرير الكثير الغزير بقابس، جلود تدبغ بالقرظ، جهاز الصوف، صيود السمك بحظائر",
+   "summary_tr": "Kâbis akarsulu, ağaçlı, zeytinyağı ve hububat zengini surlu bir şehirdir; bol ipek dokunur ve karaz ile tabaklanan derileri Cürş edîmi ayarında olup Mağrib'in çoğuna yayılır; bâdiyesindeki Hâricî eğilimli halkın yol kesiciliği anlatılır. Sfaks'ın başlıca ürünü zeytindir: yağı geçmişte altmış-yüz kafîz bir dinara satılırdı ve Mısır'a Şam yağının azlığında buradan çekilir; balık, denizde kurulan çitlerle kolayca avlanır. Sfaks-Mehdiye arası iki merhaledir.",
+   "confidence": "high",
+   "seq": 30,
+   "lat": 34.4,
+   "lon": 9.8,
+   "city_pids": [
+    "iac:place-00006460"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "المهدية",
+   "name_tr": "Mehdiye",
+   "sec": 5,
+   "page": "V01P070",
+   "quote_ar": "استحدثها المهدى القائم بالمغرب وسماها بهذا الاسم وهى فى نحر البحر",
+   "cities_ar": [
+    "المهدية",
+    "القيروان",
+    "المنصورية"
+   ],
+   "products_text": "كثيرة التجارة، خصبة رفهة الفواكه والغلات",
+   "summary_tr": "Mehdiye, Mağrib'de kaim olan Mehdî'nin (Fâtımî) kurduğu, 308 yılında Rakkâde'den taşındığı liman şehridir; taş suru ve Râfika kapılarına benzer eşsiz iki demir kapısı vardır. Yazar 336 senesinde şehri görmüştür; Ebû Yezîd Mahled b. Keydâd isyanı ilk uğursuzluğu olmuş, Mansûr'un Kayrevan yanında Mansûriye'yi kurup taşınmasıyla (Şevval 337 tarihi metinde geçer) şehir eski canlılığını yitirmiştir.",
+   "confidence": "high",
+   "seq": 31,
+   "lat": 35.6804,
+   "lon": 10.0963,
+   "city_pids": [
+    "iac:place-00010037"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "سوسه والمنستير",
+   "name_tr": "Sûse ve Monastır",
+   "sec": 5,
+   "page": "V01P072",
+   "quote_ar": "وأما سوسه فمدينة بين الجزيرة والمهدية طيبة رفهة خصبة على نحر البحر",
+   "cities_ar": [
+    "سوسه",
+    "المنستير",
+    "شقانص"
+   ],
+   "products_text": "ضياع جمة ووجوه من الجباية غزيرة وغلات واسعة، أسواق حسنة وفنادق وحمامات",
+   "summary_tr": "Sûse, Cezire ile Mehdiye arasında, surlu, kaynak sulu, verimli bir deniz limanıdır; Kayrevan'a bir merhale mesafede olup çarşıları, hanları ve hamamlarıyla anılır. Mehdiye ile arasındaki Münestîr ribatında yıl boyu kalabalık bir topluluk yaşar; Afrika halkı yılın belli vaktinde toplanıp günlerce kalır. Daha aşağı itibarlı Şakânis ribatında da balıkçılıkla geçinen bir topluluk oturur; iki ribata Afrikiyye'de vakıflar ve her yerden sadakalar gelir.",
+   "confidence": "high",
+   "seq": 32
+  },
+  {
+   "name_ar": "الجزيرة (شريك)",
+   "name_tr": "Cezire iklimi (Menzil Bâşû)",
+   "sec": 5,
+   "page": "V01P072",
+   "quote_ar": "إقليم له مدينة تعرف بمنزل باشوا واسعة العمل خصبة",
+   "cities_ar": [
+    "منزل باشوا"
+   ],
+   "products_text": "جميع الفواكه بها، أسواق فى كل شهر تحضر لأيام معروفة",
+   "summary_tr": "Cezire, şehri Menzil Bâşû olan bir iklimdir; Sûse'den daha geniş işlekli, sultana geliri ve nüfusu daha çoktur. Sularında ağır bir vahamet vardır: yabancı giren hastalanır, fakat Sûdânlılar orada sıhhat bulur. Bütün meyveler yetişir ve Bâşû'da her ay belli günlerde kurulan pazarlar vardır.",
+   "confidence": "high",
+   "seq": 33
+  },
+  {
+   "name_ar": "تونس",
+   "name_tr": "Tunus",
+   "sec": 5,
+   "page": "V01P073",
+   "quote_ar": "ومن غلاتها القطن ويحمل الى القيروان فيظهر الانتفاع به وكذلك القنب والكروياء والعصفر والعسل والسمن والحبوب والزيت",
+   "cities_ar": [
+    "تونس",
+    "قرطاجنه"
+   ],
+   "products_text": "غضار حسن الصباغ وخزف حسن كالعراقى المجلوب، القطن والقنب والكروياء والعصفر والعسل والسمن والحبوب والزيت والماشية",
+   "summary_tr": "Tunus eski (ezelî) bir şehirdir; kadim adının Terşîş olduğu, Müslümanların bina ve bahçeler kurmasıyla Tunus dendiği anlatılır. Irak işi gibi güzel sırlı çanak-çömlek üretilir; pamuğu Kayrevan'a taşınır, kenevir, kimyon (kerevya), aspur, bal, sadeyağ, hububat ve zeytinyağı ürünlerindendir. Meyve bolluğu ve havasının sağlamlığıyla ünlü Kartaca'ya komşudur.",
+   "confidence": "high",
+   "seq": 34,
+   "lat": 36.77071,
+   "lon": 10.17736,
+   "city_pids": [
+    "iac:place-00013766"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "سطفوره",
+   "name_tr": "Satfûre iklimi (Benzert)",
+   "sec": 5,
+   "page": "V01P073",
+   "quote_ar": "وسطفوره إقليم أيضا على البحر جليل له ثلث مدائن",
+   "cities_ar": [
+    "انبلونه",
+    "متيجه",
+    "بنزرت"
+   ],
+   "products_text": "ثمار كثيرة ببنزرت، الحيتان بها وبتونس ما يزيد على الكثرة، واد يخرج فيه فى كل شهر نوع من السمك",
+   "summary_tr": "Satfûre deniz kıyısında üç şehri (Enbelûne, Metîce, Benzert) olan bir iklimdir; Benzert Sûse'den küçük, meyvesi bol bir sahil şehridir. Nehirleri geniş ve gür olup sultana vergisi azdır; balığı Tunus'la birlikte bolluğuyla Trablus'u geçer ve her ay ayrı bir balık türü veren şaşırtıcı bir vadisi anlatılır. Halkı karada ve denizde metanetli, sıkıntıya dayanıklıdır, fakat 'bu vakitte' bölge boşalmıştır.",
+   "confidence": "high",
+   "seq": 35
+  },
+  {
+   "name_ar": "طبرقه وباجه ومرسى الخرز",
+   "name_tr": "Tabarka, Bâce ve Mersâ'l-Harez",
+   "sec": 5,
+   "page": "V01P074",
+   "quote_ar": "مرسى الخرز وفيه معدن المرجان",
+   "cities_ar": [
+    "طبرقه",
+    "باجه",
+    "مرسى الخرز",
+    "تونس"
+   ],
+   "products_text": "معدن المرجان (لا نظير له فى الجودة)، القمح والشعير بباجه (ما ليس بجميع المغرب كهو كثرة وجودة)، تعشير مراكب الاندلسيين",
+   "summary_tr": "Tabarka, Endülüslülerin gemiye bindiği geçiş iskelesidir; küçüklüğüne rağmen Endülüslü tüccar gemilerinin uğrağı ve eskiden öşür yeri olmasıyla ün kazanmıştır. Yolu üzerindeki Bâce, buğday-arpası bollukta ve kalitede yazara göre bütün Mağrib'de eşsiz olan kadim bir şehirdir. Bir merhale ötedeki Mersâ'l-Harez'de dünyada benzeri olmayan mercan madeni işletilir: çoğu zaman elli kayık, her birinde yirmi adam çalışır ve sultanın emin ve nâzırı gelirini denetler.",
+   "confidence": "high",
+   "seq": 36,
+   "lat": 36.77071,
+   "lon": 10.17736,
+   "city_pids": [
+    "iac:place-00013766"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "بونه",
+   "name_tr": "Bûne (Annâbe)",
+   "sec": 5,
+   "page": "V01P075",
+   "quote_ar": "وبها معادن حديد كثيرة ويحمل منه الى الأقطار الغزير الكثير",
+   "cities_ar": [
+    "بونه",
+    "جيجل",
+    "بجايه",
+    "مرسى بنى جناد",
+    "مرسى الدجاج"
+   ],
+   "products_text": "معادن حديد كثيرة، الكتان، الغنم والصوف والماشية، العسل، التين العظيم الجسيم بمرسى الدجاج",
+   "summary_tr": "Bûne orta ölçekli, çarşıları güzel, ucuzluk ve bereket içinde bir sahil şehridir; çok demir madeni vardır ve demiri bol bol dış bölgelere taşınır, keten de ekilir. Ticareti koyun, yün ve hayvan üzerinedir; kendi valisi ve daimî bir Berberî askerî birliği bulunur. Cezayir yönünde Cîcel, Bicâye, Benî Cennâd ve tin'iyle ünlü Mersâ'd-Decâc limanları sıralanır.",
+   "confidence": "high",
+   "seq": 37
+  },
+  {
+   "name_ar": "جزائر بنى مزغناى",
+   "name_tr": "Benî Mezganna Cezayiri (Cezayir şehri)",
+   "sec": 5,
+   "page": "V01P076",
+   "quote_ar": "مدينة عليها سور على سيف البحر أيضا وفيها أسواق كثيرة",
+   "cities_ar": [
+    "جزائر بنى مزغناى",
+    "تامدفوس",
+    "اشرشال",
+    "برشك"
+   ],
+   "products_text": "المواشى من البقر والغنم سائمة فى الجبال، العسل ما يجهز عنهم، السمن والتين يجلب الى القيروان",
+   "summary_tr": "Cezâir-i Benî Mezganna surlu bir sahil şehridir; kıyıda tatlı su kaynakları, geniş bâdiyesi ve dağlarında kalabalık Berberîler vardır. Malları çoğunlukla dağlarda otlayan sığır ve koyundur; balları ihraç edilir, sadeyağ ve incirleri Kayrevan'a taşınır. Bir ok atımı açıktaki adaya düşman geldiğinde sığınırlar; harap Tâmedfûs ile putları ve eski eserleri kalan kadim Şerşel ve meyveli Berşek de anılır.",
+   "confidence": "high",
+   "seq": 38,
+   "lat": 31.17,
+   "lon": -6.81,
+   "city_pids": [
+    "iac:place-00002423"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "تنس",
+   "name_tr": "Tenes",
+   "sec": 5,
+   "page": "V01P076",
+   "quote_ar": "وتنس مدينة عليها سور ولها أبواب عدة",
+   "cities_ar": [
+    "تنس"
+   ],
+   "products_text": "الخراج والجوالى والصدقات والأعشار ومراصد على المتاجر، السفرجل المعنق (لحسنه ونعمته وحلاوته)",
+   "summary_tr": "Tenes surlu, birkaç kapılı, denizden iki mil içeride, bol sulu bir vadi üzerinde bir şehirdir. Endülüslülerin gemileriyle geçtiği ve ticaret için uğradığı en büyük şehirdir; sultanının haraç, cizye, sadaka, öşür ve gümrük gelirleri çoktur. Yazarın güzelliğini hâlâ anlata geldiği sap(lı) ayvası (sefercel-i mu'annak) meşhurdur; kalabalık Berberî bâdiyesi vardır.",
+   "confidence": "high",
+   "seq": 39
+  },
+  {
+   "name_ar": "وهران وواسلن وارجكوك ومليله ونكور",
+   "name_tr": "Vahran ve batı sahil şehirleri",
+   "sec": 5,
+   "page": "V01P077",
+   "quote_ar": "مدينة خصبة لها سور عظيم حصين وماؤها فيها ولها بساتين كثيرة",
+   "cities_ar": [
+    "وهران",
+    "قصر الفلوس",
+    "واسلن",
+    "ارجكوك",
+    "مليله",
+    "نكور",
+    "المزمة"
+   ],
+   "products_text": "القمح والشعير والمواشى، أكثر أموالهم الماشية، بساتين وأجنة فيها من جميع الفواكه",
+   "summary_tr": "Vahran'ın limanı her rüzgârdan korunaklıdır; yazar Berberî diyarında Mersâ Mûsâ dışında benzerini bilmediğini söyler, şehir Endülüs'ün iskelesi konumundadır ve bâdiyesindeki Yezdâce Berberîleri Sanhâcalı Yûsuf b. Zîrî'nin uhdesindedir. Vâslen surlu ve verimli, Ercekûk ada-limanı olan küçük bir şehirdir. Melîle eskiden surlu ve sulu büyük bir yerken Mısır fatihi Cevher tarafından yıkılmış, Nekûr da eski büyüklüğünü yitirmiş olup limanı Mezemme adasındadır.",
+   "confidence": "high",
+   "seq": 40,
+   "lat": 31.379,
+   "lon": 25.056,
+   "city_pids": [
+    "iac:place-00009709",
+    "iac:place-00014898"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "سبتة وطنجة",
+   "name_tr": "Septe ve Tanca",
+   "sec": 5,
+   "page": "V01P078",
+   "quote_ar": "ومنها الى مدينة سبتة وهى لطيفة على نحر البحر وبها بساتين وأجنة تقوم بأهلها",
+   "cities_ar": [
+    "سبتة",
+    "طنجة",
+    "مرسى موسى"
+   ],
+   "products_text": "معدن للمرجان صالح يعمل فيه قويربات لطاف، الزرع حنطة وشعير وحبوب بطنجة",
+   "summary_tr": "Septe deniz kıyısında küçük bir şehirdir; bahçeleri halkına yeter, kuyu suları tatlıdır ve işletilen bir mercan madeni vardır. Yazarın zamanında Emevîlerin Mağrib yakasındaki tek yeridir; çevre Berberîlerin vergisini Septe valisi toplar. Tanca kadim bir şehirdir; İdrisîler korkusuyla halkı bir mil ötede dağ üstünde yeni bir şehir kurmuştur, ürünleri buğday-arpa olup suyu kaynağı bilinmeyen kanallarla uzaktan gelir ve suru yoktur.",
+   "confidence": "high",
+   "seq": 41,
+   "lat": 35.8297,
+   "lon": -5.5599,
+   "city_pids": [
+    "iac:place-00006250",
+    "iac:place-00007991"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "اقليم طنجة (الهبط): ازيلى والبصرة والاقلام وكرت والحجر",
+   "name_tr": "Tanca iklimi / Habt (İdrisî şehirleri)",
+   "sec": 5,
+   "page": "V01P079",
+   "quote_ar": "والبصرة مدينة مقتصدة عليها سور ليس بالمنيع",
+   "cities_ar": [
+    "زلول",
+    "ازيلى",
+    "تشمس",
+    "البصرة",
+    "الاقلام",
+    "كرت",
+    "ماسيته",
+    "الحجر",
+    "جرمانه",
+    "تاوارت"
+   ],
+   "products_text": "القطن المحمول الى افريقية وغيرها، القمح والشعير والقطانى",
+   "summary_tr": "Okyanus kıyısındaki Azîlâ, Zelûl ve kadim Teşemmes ile içerideki Basra, Aklâm, Kert, Mâsîte ve sarp kaya şehri Hacer, İdrisîlere ait Tanca iklimini oluşturur; haracını İdrisîler toplar. Basra'nın pamuğu Afrikiyye'ye ve başka yerlere taşınır; buğday, arpa ve baklagilleri boldur, halkı güzellik ve nezahetle nitelenir. Aklâm'ı Yahya b. İdrîs kurmuştur; Mûsâ b. Ebi'l-Âfiye kuşatmalarına ve Emevîlerin şehri bir ara açlıkla almasına değinilir; Hacer İdrisîlerin en değerli kalesidir.",
+   "confidence": "high",
+   "seq": 42,
+   "lat": 32.497825,
+   "lon": -7.283250000000001,
+   "city_pids": [
+    "iac:place-00006070",
+    "iac:place-00000549",
+    "iac:place-00000881",
+    "iac:place-00016376"
+   ],
+   "geo_note": "centroid (4 şehirden)"
+  },
+  {
+   "name_ar": "سله وبرغواطه",
+   "name_tr": "Selâ ribatı ve Bergavâta",
+   "sec": 5,
+   "page": "V01P081",
+   "quote_ar": "وبسله رباط يرابط فيه المسلمون وعليه المدينة الأزلية المعروفة بسله القديمة",
+   "cities_ar": [
+    "سله"
+   ],
+   "products_text": "بلدهم بلد مستقل بنفسه عن الحاجة الى ما فى غيره؛ يصل اليهم أهل اغمات والسوس وسجلماسه بالتجارة",
+   "summary_tr": "Vâdî Selâ Müslüman yerleşiminin son sınırıdır; harap eski Selâ'nın çevresindeki ribatlarda bazen yüz bin kişiye varan murâbıt toplanıp Okyanus kıyısındaki Bergavâta üzerine gaza eder. Bergavâta'nın dini, Irak'ta yıldız ilmi öğrenip döndükten sonra Berberce vahiy aldığını ileri süren Sâlih b. Abdullah'ın uydurduğu şeriattır: Şaban orucu, Ramazan iftarı ve kendi 'kur'an'ları anlatılır. Ağmât, Sûs ve Sicilmâse halkı onlarla ticaret eder; yazar 340 senesinde Sicilmâse'de onlara gaza çağrısı yapan Muhammed b. el-Feth'i görmüştür.",
+   "confidence": "high",
+   "seq": 43
+  },
+  {
+   "name_ar": "طريق القيروان الى تاهرت (سبيبه ومجانه وباغاى والمسيلة)",
+   "name_tr": "Kayrevan-Tâhert yolu şehirleri",
+   "sec": 5,
+   "page": "V01P084",
+   "quote_ar": "وهى كثيرة الزعفران والزرع وبها معادن حديد وفضة",
+   "cities_ar": [
+    "سبيبه",
+    "مرماجنه",
+    "مجانه",
+    "مسكيانه",
+    "باغاى",
+    "طبنه",
+    "المسيلة",
+    "الاربس",
+    "ابه",
+    "تيجس",
+    "جلولا"
+   ],
+   "products_text": "الكمون والكروياء والبقول والكتان بسبيبه، الزعفران ومعادن حديد وفضة وحجارة المطاحن بمجانه، الزعفران بالاربس وابه، القطن والحنطة والشعير بطبنه والمسيلة، معدن الحديد بالاربس",
+   "summary_tr": "Kayrevan'dan Tâhert ve Fas'a giden yol merhale merhale sayılır: Sebîbe kimyon, kerevya ve keten yetiştirir; Mecâne safranıyla, demir-gümüş madenleriyle ve bütün Mağrib'e taşınan değirmen taşlarıyla anılır. Bâgâye surlu büyük bir şehirdir ve yanı başındaki Evrâs dağı on iki günlük uzunluktadır; Tubne pamuk-hububat şehriyken iç çekişmeyle çökmüştür. Urbus ve Übbe safran bölgesidir; Mesîle'yi Fâtımî hizmetkârı Ali el-Endelüsî kurmuştur ve Kayrevan'a taşınan saplı ayvası Tenes kökenlidir.",
+   "confidence": "high",
+   "seq": 44,
+   "lat": 35.029854,
+   "lon": 24.186525999999997,
+   "city_pids": [
+    "iac:place-00013528",
+    "iac:place-00000403",
+    "iac:place-00000008",
+    "iac:place-00017345",
+    "iac:place-00013852"
+   ],
+   "geo_note": "centroid (5 şehirden)"
+  },
+  {
+   "name_ar": "تاهرت",
+   "name_tr": "Tâhert",
+   "sec": 5,
+   "page": "V01P085",
+   "quote_ar": "وهى أحد معادن الدواب والماشية والغنم",
+   "cities_ar": [
+    "تاهرت"
+   ],
+   "products_text": "معادن الدواب والماشية والغنم والبراذين الفراهية، العسل والسمن وضروب الغلات",
+   "summary_tr": "Tâhert biri kadim, biri sonradan kurulmuş iki büyük şehirdir; her ikisinde de cami, imam ve hatip vardır, ticaret yeni şehirde yoğundur. Evlerin çoğuna giren akarsuları, bahçeleri, hamamları ve hanları anılır; at-katır, koyun ve yük hayvanı 'madeni' sayılır, bal ve sadeyağı boldur. İlerideki pasajda, fitnelerin sürekliliği yüzünden Tâhert ve çevresindeki Berberîlerin yazarın zamanında yoksullaştığı belirtilir.",
+   "confidence": "high",
+   "seq": 45,
+   "lat": 35.36971,
+   "lon": 1.36504,
+   "city_pids": [
+    "iac:place-00013715"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "فاس",
+   "name_tr": "Fas",
+   "sec": 5,
+   "page": "V01P090",
+   "quote_ar": "وفاس مدينة جليلة يشقها نهر وهى جانبان يليهما أميران مختلفان",
+   "cities_ar": [
+    "فاس"
+   ],
+   "products_text": "جميع ما بها من الفواكه والغلات والمطاعم والمشارب والتجارات والمرافق زائد على سائر ما قرب منها فى أرض الهبط",
+   "summary_tr": "Fas, İdrîs b. İdrîs'in kurduğu, ortasından nehir geçen ve iki yakasını ayrı emirlerin yönettiği büyük bir şehirdir; iki yaka halkı arasında sürekli fitne ve kanlı çatışma vardır. Nehri üzerinde çok değirmen döner; şehir taş döşelidir ve yaz günleri çarşılar nehir suyuyla yıkanıp serinletilir. Meyve, mahsul, yiyecek-içecek ve ticarette Habt bölgesindeki bütün yakın-uzak yerlerden üstündür.",
+   "confidence": "high",
+   "seq": 46,
+   "lat": 34.0331,
+   "lon": -5.0003,
+   "city_pids": [
+    "iac:place-00009014"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "سجلماسه",
+   "name_tr": "Sicilmâse",
+   "sec": 5,
+   "page": "V01P090",
+   "quote_ar": "وسجلماسه مدينة حسنة الموضع جليلة الأهل فاخرة العمل على نهر يزيد فى الصيف كزيادة النيل",
+   "cities_ar": [
+    "سجلماسه",
+    "فاس"
+   ],
+   "products_text": "زرع يحصد الى سبع سنين عن بذر واحد، نخيل ورطب أخضر فى غاية الحلاوة، تجارة غير منقطعة الى بلد السودان، جباية زهاء أربع مائة ألف دينار",
+   "summary_tr": "Sicilmâse, yazın Nil gibi taşan bir nehir üzerinde kurulu, Mısır usulü sulu ekim yapılan seçkin bir şehirdir; bir ekimden yedi yıla dek hasat alınabildiği, başağı buğdayla arpa arası bir tahıl anlatılır. Fas'a on üç merhaledir; halkı Mağriblilerden görünüş ve karakterce ayrılan zengin, ilim ve mürüvvet sahibi kimselerdir, evleri Kûfe evlerine benzer. Sudan kervan ticaretinin merkezi olarak yalnız kendi bölgesinin geliri yaklaşık dört yüz bin dinardır ve yazar 340 yılında girdiği şehirde Evdagust'ta gördüğü 42.000 dinarlık senedi anar.",
+   "confidence": "high",
+   "seq": 47,
+   "lat": 34.0331,
+   "lon": -5.0003,
+   "city_pids": [
+    "iac:place-00009014"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "السوس الأقصى واغمات",
+   "name_tr": "Uzak Sûs ve Ağmât",
+   "sec": 5,
+   "page": "V01P091",
+   "quote_ar": "وليس بالمغرب كله بلد أجمع ولا ناحية أوفر وأغزر وأكثر خيرا منها",
+   "cities_ar": [
+    "اغمات",
+    "السوس الأقصى",
+    "درعه"
+   ],
+   "products_text": "الأترج والجوز واللوز والنخل وقصب السكر والسمسم والقنب وسائر البقول",
+   "summary_tr": "Ağmât, Fas-Sicilmâse yolunun solunda kalan, Sicilmâse'ye ve başka yerlere ticareti bol büyük bir rustâktır; Sicilmâse'ye yaklaşık sekiz merhale, Fas'a da o kadardır. Okyanus yönündeki Uzak Sûs, yazara göre Mağrib'in en toplu ve en hayırlı ülkesidir: soğuk ve sıcak iklim ürünleri (ağaç kavunu, ceviz, badem, hurma, şeker kamışı, susam, kenevir) bir arada yetişir. Halkı Mâlikî sünnîler ile Mûsevî Şiîler diye ikiye ayrılır; aralarında kesintisiz çatışma vardır ve tek camide iki fırka ayrı ayrı on ezanla namaz kılar.",
+   "confidence": "high",
+   "seq": 48,
+   "lat": 27.708,
+   "lon": 18.677,
+   "city_pids": [
+    "iac:place-00000823",
+    "iac:place-00013315"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "اودغست وبلاد السودان (غانه وكوغه وتادمكه)",
+   "name_tr": "Evdagust ve Sudan ülkeleri",
+   "sec": 5,
+   "page": "V01P100",
+   "quote_ar": "وربما بلغ الحمل الملح فى دواخل بلد السودان وأقاصيه ما بين مائتين الى ثلثمائة دينار",
+   "cities_ar": [
+    "اودغست",
+    "غانه",
+    "كوغه",
+    "سامه",
+    "كزم",
+    "كوكو",
+    "مرنده",
+    "زويله",
+    "فزان",
+    "اوليل",
+    "لمطه",
+    "تادمكه",
+    "تامدلت"
+   ],
+   "products_text": "التبر المثار على قديم الأيام (ملك غانه أيسر ملوك الأرض)، الملح من اوليل (الحمل ما بين مائتين الى ثلثمائة دينار)، الدرق اللمطية من لمطه",
+   "summary_tr": "Sicilmâse'den Evdagust'a iki ay, Evdagust'tan Gâne'ye on küsur gün; Gâne-Kûga bir ay, Zevîle'den Ecdâbiye'ye bir ay gibi mesafeler aynen sıralanır. Gâne kralı, eskiden beri çıkarılan tibr (altın) hazineleriyle yeryüzü krallarının en zenginidir; Kûga sahibiyle hediyeleşir. Sudan kralları tuz için Evdagust krallarına muhtaçtır: bir yük tuz iç bölgelerde iki yüz-üç yüz dinara ulaşır; Evlîl tuz madeni, Lamta ise deriden lamtî kalkanların merkezidir ve Tâdmekke kralları Benî Tânemâk'tır.",
+   "confidence": "high",
+   "seq": 49,
+   "lat": 23.0175,
+   "lon": 10.522499999999999,
+   "city_pids": [
+    "iac:place-00010493",
+    "iac:place-00009190",
+    "iac:place-00001150",
+    "iac:place-00002424"
+   ],
+   "geo_note": "centroid (4 şehirden)"
+  },
+  {
+   "name_ar": "قسطيليه وقفصه ونفزاوه",
+   "name_tr": "Kastîliye (Cerîd), Kafsa ve Nefzâve",
+   "sec": 5,
+   "page": "V01P093",
+   "quote_ar": "مدينة أيضا كبيرة عليها سور حصين ولها نخيل كثيرة والتمر والقسب بها كثير",
+   "cities_ar": [
+    "سماطه",
+    "بشرى",
+    "نفطه",
+    "قسطيليه",
+    "الحمة",
+    "قفصه",
+    "نقاوس",
+    "بلزمه",
+    "القسطنطينية",
+    "سطيف"
+   ],
+   "products_text": "التمر والقسب (مغوثة افريقية بتمورها)، الأترج الكثير الحسن، جهاز الصوف من الشقة والكسى والحنبل يحمل الى جميع الأقطار",
+   "summary_tr": "Cerîd bölgesinin şehirleri sayılır: Kastîliye surlu büyük bir şehirdir, hurması ve kuru hurması (kasb) Afrikiyye'nin imdadına yetişir, ağaç kavunu boldur; buğday-arpa ekilmediği için yiyecek dışarıdan gelir ve pahalıdır. Yün mamulleri (şukka, kisâ, hanbel) her diyara buradan taşınır; Kafsa'nın suyu Kastîliye'ninkinden tatlıdır. Bölge halkının çoğu İbâzî-Vehbî Hâricîler ve Mu'tezilî Zenâte-Mezâte'dir; 330 yılı öncesi mamur olan Kumûde şehirlerini Ebû Yezîd'in vurduğu kaydedilir.",
+   "confidence": "high",
+   "seq": 50,
+   "lat": 35.8702,
+   "lon": 5.555795,
+   "city_pids": [
+    "iac:place-00014896",
+    "iac:place-00014223"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "جبل نفوسه",
+   "name_tr": "Nefûse dağı",
+   "sec": 5,
+   "page": "V01P094",
+   "quote_ar": "وأما جبل نفوسه فجبل عال منيف يكون نحو ثلثة أيام",
+   "cities_ar": [
+    "شروس",
+    "جادوا"
+   ],
+   "products_text": "كروم وأعناب طيبة وتين غزير وأكثر زروعهم الشعير (خبزه أطيب طعما من خبز الحنطة)",
+   "summary_tr": "Nefûse, yaklaşık üç günlük yüksek bir dağdır; ortasındaki Şerûs ile Nefzâve tarafındaki Câdû adlı iki minberli şehri vardır. Akarsuları, bağları, bol inciri anlatılır; başlıca ekinleri arpadır ve arpa ekmeğinin lezzeti yazara göre yeryüzü ekmeklerinde eşsizdir. Dağ, İslam'ın başından beri İbâzî ve Vehbî Hâricîlerin hicret yurdudur; Abdullah b. İbâz ile Abdullah b. Vehb er-Râsibî burada ölmüştür ve dağa tek bir yoldan girilir.",
+   "confidence": "high",
+   "seq": 51,
+   "lat": 26.12,
+   "lon": 18.14,
+   "city_pids": [
+    "iac:place-00002878"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "القيروان",
+   "name_tr": "Kayrevan ve Mağrib'in geliri",
+   "sec": 5,
+   "page": "V01P095",
+   "quote_ar": "وكانت القيروان أعظم مدينة بالمغرب وأكثرها تجرا وأموالا",
+   "cities_ar": [
+    "القيروان",
+    "رقادة",
+    "المنصورية"
+   ],
+   "products_text": "ديوان جميع المغرب واليها تجبى أموالها؛ ارتفاع المغرب من خراج وعشر وصدقات ومراع وجوال ومراصد من سبع مائة ألف دينار الى ثمان مائة ألف دينار",
+   "summary_tr": "Kayrevan Mağrib'in en büyük, en ticaretli ve zengin şehriydi; bütün Mağrib'in divanı orada tutulur, gelirler oraya toplanırdı ve dış mahallesindeki Rakkâde, Ağlebîlerin sarayları idi. Yazar, Mağrib beytülmâl sahibi Hamdân Karmat lakaplı Ebü'l-Hasan'dan 336 senesinde dinlediğine göre Mağrib'in haraç, öşür, sadaka, mera, cizye ve gümrüklerden yıllık geliri yedi yüz-sekiz yüz bin dinardır; aynı rakamı 360'ta haraç âmili Ziyâdetullah'tan da işitmiştir. Mağrib'de Berka dışında hiçbir yerin iltizamda olmadığı, işlerin emanet usulüyle yürüdüğü eklenir.",
+   "confidence": "high",
+   "seq": 52,
+   "lat": 35.816199999999995,
+   "lon": 10.12215,
+   "city_pids": [
+    "iac:place-00010037",
+    "iac:place-00005568"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "صحراء صنهاجة وبنو مسوفا",
+   "name_tr": "Sanhâca çölü ve Benû Mesûfa",
+   "sec": 5,
+   "page": "V01P101",
+   "quote_ar": "وفيما بين اودغست وسجلماسه غير قبيلة من قبائل البربر متعزبون",
+   "cities_ar": [
+    "اودغست",
+    "سجلماسه"
+   ],
+   "products_text": "أقواتهم الألبان وفى بعض الاوقات اللحم، لا يعرفون البر ولا الشعير ولا الدقيق، لوازم على المجتازين بالتجارة ومن الراجعين بالتبر من بلد السودان",
+   "summary_tr": "Evdagust ile Sicilmâse arasındaki çölde hiç şehir görmemiş bâdiye Berberîleri yaşar; bunlardan Benû Mesûfa buğday, arpa ve unu bilmez, sütle ve ara sıra etle beslenir. Çölde iz sürme ve kılavuzlukta eşsizdirler; yol onların elindedir ve Sudan'dan tibr ile dönen tüccarlardan deve ve yük başına geçiş resmi alırlar. Çocukluktan itibaren yüzlerini örttükleri (litham), ağzı avret sayıp örtülmesi gerektiğine inandıkları anlatılır; Sanhâca kralı Tenberûtân'ın üç yüz bin çadıra hükmettiği rivayeti aktarılır.",
+   "confidence": "medium",
+   "seq": 53
+  },
+  {
+   "name_ar": "الاندلس",
+   "name_tr": "Endülüs",
+   "sec": 6,
+   "page": "V01P108",
+   "quote_ar": "فأما الاندلس فهى من نفائس جزائر البحر ومن الجلالة فى القدر بما حوته واشتملت عليه",
+   "cities_ar": [
+    "قرطبه",
+    "الزهراء",
+    "اشبيليه",
+    "بجانه",
+    "المريه",
+    "طليطله",
+    "مارده",
+    "وادى الحجارة",
+    "مدينة سالم",
+    "لبله",
+    "شلب",
+    "لشبونه",
+    "شنتره",
+    "بطليوس",
+    "بلنسيه"
+   ],
+   "summary_tr": "İbn Havkal Endülüs'ü \"denizin adalarının en değerlilerinden\" sayar ve oraya \"فى أول سنة سبع وثلثين وثلثمائة\" (337 yılı başında) girdiğini, hükümdarın Abdurrahman b. Muhammed (III. Abdurrahman) olduğunu söyler; boyutunu \"طولها شهر فى عرض نيف وعشرين يوما\" (bir aylık uzunluk, yirmi küsur günlük genişlik) olarak verir. Darphanenin yıllık geliri \"مائتا ألف دينار\", hazinede 340 yılına dek biriken malın \"عشرين ألف ألف دينار\"dan az eksiği olduğu nakledilir. En büyük şehir Kurtuba'dır (Bağdat'ın bir yakasına benzetilir); Abdurrahman batısında ez-Zehra şehrini kurmuş, ev yapana \"أربع مائة درهم\" yardım ilan etmiştir. Bölüm sonunda Kurtuba'dan İşbiliye, Lişbune, Şentere, Tuleytula, Medinetüsalim vb. şehirlere merhale/gün cinsinden ayrıntılı mesafe listesi (ör. \"من قرطبه الى المريه فرضة بجانة سبعة أيام\") verilir.",
+   "products_text": "الزيبق والحديد والرصاص (cıva, demir, kurşun); yünden değerli keçeler (لبود ثلاثينية، اللبد بالخمسين والستين دينارا); الخز والقز والديباج; بجانه'de dokunan ridalar Mısır, Mekke ve Yemen'e taşınır; keten (الكتان) Mısır'a dek gider; ميرقه adasından \"بغل بيع بخمس مائة دينار\" denen katırlar; ihracatın başında \"الرقيق من الجوارى والغلمان... والخدم الصقالبة\" (Frank ve Galiçya esirleri, hadım Sakalibe) gelir",
+   "confidence": "high",
+   "seq": 54,
+   "lat": 38.468599999999995,
+   "lon": -3.5668750000000005,
+   "city_pids": [
+    "iac:place-00006141",
+    "iac:place-00015341",
+    "iac:place-00016512",
+    "iac:place-00007244"
+   ],
+   "geo_note": "centroid (4 şehirden)"
+  },
+  {
+   "name_ar": "صقليه",
+   "name_tr": "Sicilya",
+   "sec": 7,
+   "page": "V01P117",
+   "quote_ar": "ويلحق بها فى حسن الحال مما هو بيد أهل الإسلام صقليه وهى جزيرة",
+   "cities_ar": [
+    "بلرم",
+    "الخالصة",
+    "ريو",
+    "البيضاء",
+    "بلهرا"
+   ],
+   "summary_tr": "Sicilya ikizkenar üçgen biçiminde bir ada olarak tasvir edilir; boyutu \"طولها سبعة أيام فى أربعة أيام\" (yedi güne dört gün). Adada dağlar, kaleler ve hisarlar hâkimdir; tek meşhur şehri, beş mahalleden (bilhassa surlu Balerm ile sultanın oturduğu el-Hâlisa) oluşan Balerm'dir. İbn Havkal Balerm camiinde \"سبعة آلف رجل ونيفا\" cemaat hesapladığını, şehir ve çevresinde \"نيف وثلثمائة مسجد\" bulunduğunu bizzat gördüğünü söyler; ayrıca \"يوم الجمعة لعشر خلون من رجب سنة اثنتين وستين\" tarihli bir gözlemini aktarır. Ahaliyi (özellikle üç yüze yakın muallimi) cehalet ve soğan düşkünlüğüyle uzun uzun yerer; adanın verimden kıtlığa döndüğünü belirtir.",
+   "products_text": "\"لم تختص بوجه من فضائل البلدان غير القمح والصوف والشعر والخمر وصبابة من القند الى شىء من ثياب الكتان\" (buğday, yün, kıl, şarap, biraz şeker kamışı pekmezi ve keten); ayrıca البربير (papirüs): çoğu gemi halatı, azı sultan için tomar/kâğıt yapılır — Mısır'dakinin yeryüzünde tek benzeri",
+   "confidence": "high",
+   "seq": 55,
+   "lat": 23.75,
+   "lon": 45.95,
+   "city_pids": [
+    "iac:place-00004095"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "مصر",
+   "name_tr": "Mısır",
+   "sec": 8,
+   "page": "V01P131",
+   "quote_ar": "فأما مصر فلها حد يأخذ من بحر الروم من الإسكندرية ويزعم قوم من برقة فى البرية حتى ينتهى الى ظهر الواحات",
+   "cities_ar": [
+    "الفسطاط",
+    "الإسكندرية",
+    "القاهرة",
+    "تنيس",
+    "دمياط",
+    "اسوان",
+    "اخميم",
+    "البلينا",
+    "الاشمونين",
+    "الفيوم",
+    "الفرما",
+    "بلبيس",
+    "رشيد",
+    "منوف",
+    "صخا"
+   ],
+   "summary_tr": "Mısır'ın sınırları (İskenderiye'den Vahalar, Nûbe, Bece ve Kulzüm denizine, oradan Cifâr üzerinden tekrar Rum denizine) çizilir; Kıpti aylarına göre Nil taşkını ve haraç takvimi ayrıntıyla anlatılır: Nil \"سبع عشرة ذراعا وعشر أصابع\" olduğunda haraç \"أربعة آلف ألف دينار ومائتى ألف وسبعة وخمسين ألف دينار\" idi; Cevher \"سنة تسع وخمسين وثلثمائة\"ta \"ثلثة آلف ألف دينار وفوق أربع مائة ألف دينار\" toplamıştır. Başşehir Fustat \"نحو ثلث بغداذ\" büyüklüğünde olup Mağribliler dışında Cevher'in kurduğu Kahire anlatılır. Şatnûf'tan Reşid'e ve İskenderiye'ye Delta kollarındaki şehirler سقس birimiyle (ör. \"ستة عشر سقسا\"), Remle-Fustat yolu \"إحدى عشرة مرحلة\", Asvan'dan denize uzunluk \"نحو عشرين مرحلة\" ve berid listesiyle verilir; piramitler (\"ارتفاع كل واحد منهما أربع مائة ذراع\") ve İskenderiye feneri (\"سمكها كان يزيد على ثلثمائة ذراع\") tasvir edilir.",
+   "products_text": "تنيس ودمياط'ta \"رفيع الكتان وثياب الشرب والدبيقى والمصبغات من الحلل التنيسية\" — bir hulle \"مائين دنانير\"a ulaşır, Irak'a giden yük \"من عشرين ألف دينار الى ثلثين ألف دينار\" idi; صخا'da bol keten ve turp yağı (زيت الفجل); قصب السكر ve şeker imalathaneleri (الصافية، دمى جمول); Feyyum tırâzından \"قيمة الزوج منها ثلثمائة دينار\" perdeler; عين شمس yakınında دهن البلسان; شبروا'da bal şarabı; Bece sınırında altın ve zümrüt (الزبرجد/الزمرد) madenleri; eşsiz katır ve eşekler",
+   "confidence": "high",
+   "seq": 56,
+   "lat": 29.415187500000002,
+   "lon": 31.1396875,
+   "city_pids": [
+    "iac:place-00009198",
+    "iac:place-00000630",
+    "iac:place-00009399",
+    "iac:place-00004899",
+    "iac:place-00000643",
+    "iac:place-00017479",
+    "iac:place-00009354",
+    "iac:place-00005516"
+   ],
+   "geo_note": "centroid (8 şehirden)"
+  },
+  {
+   "name_ar": "الواحات",
+   "name_tr": "Vahalar (el-Vâhât)",
+   "sec": 8,
+   "page": "V01P152",
+   "quote_ar": "وأما الواحات فإنها بلاد كانت معمورة بالمياه والأشجار والقرى والروم قبل فتحها",
+   "cities_ar": [
+    "القلمون",
+    "القصر",
+    "بيريس",
+    "بيخيط",
+    "بهنسة الواح",
+    "الفرفرون",
+    "سنترية"
+   ],
+   "summary_tr": "Vahalar, Nil'in çevrelediği dairenin merkezinde ayrı bir bölge gibi tasvir edilir: iç (الداخلة) ve dış (الخارجة) olmak üzere iki kısımdır ve \"بين الداخلة والخارجة ثلث مراحل\" mesafe vardır; hangi yönden gidilirse gidilsin ulaşım \"من ثلاث مراحل الى أربع مراحل\"tır. Fetihten beri Lüvâte Berberilerinden Âl-i Abdûn'un elindedir; misafirperverlikleri ve tüccara ikramları övülür, ülkede tek bir Yahudi bulunmadığı, hamam ve han olmadığı, sıcak kaynak sularının hamam yerini tuttuğu kaydedilir. Eskiden Mısır'dan Gâne'ye giden yol buradan geçerken İbn Tolun devrinde kum fırtınaları yüzünden kapatılmıştır. Bölgede Müslümanların \"نحو خمسة عشر منبرا\" ihdas ettiği belirtilir.",
+   "products_text": "\"أكثر غلاتهم بعد القمح والشعير الأرز\" (buğday ve arpadan sonra en çok pirinç); \"العناب الكثير والفوة الواسعة الغزيرة\" (bol hünnap ve kök boya) çevre bölgelere gönderilir; ayrıca iri taneli değerli hurmalar (التمور الجليلة الكبار الحب), baklagiller (القطانى), meyve ve sebze ihtiyaç fazlasıdır",
+   "confidence": "high",
+   "seq": 57,
+   "lat": 28.33383333333333,
+   "lon": 33.258199999999995,
+   "city_pids": [
+    "iac:place-00009864",
+    "iac:place-00015604",
+    "iac:place-00006675"
+   ],
+   "geo_note": "centroid (3 şehirden)"
+  },
+  {
+   "name_ar": "الجفار",
+   "name_tr": "el-Cifâr",
+   "sec": 8,
+   "page": "V01P157",
+   "quote_ar": "ومن حد هذه البحيرة الى حد فلسطين والشأم أرض رمال كلها متصلة حسنة اللون تسمى الجفار بها نخيل ومنازل ومياه",
+   "cities_ar": [],
+   "summary_tr": "Tinnis gölünden Filistin ve Şam sınırına uzanan, hurmalıkları, konakları ve suları olan kesintisiz kumluk bölge olarak tanıtılır. İbn Havkal bu kumun Mağrib'de Nefzâve ve Sicilmâse kumlarına, oradan Evdegast'a; öbür yandan Kulzüm, Yesrib, Vâdilkurâ, Bahreyn, Şihr ve Mehre üzerinden Horasan, Sind, Tibet ve Çin'e dek yeryüzündeki bütün kumların birbirine bağlı olduğu şeklindeki görüşünü burada açar. Bölgede \"حيات شبرية\" denen, kumdan mahmillere sıçrayıp ısıran yılanlar bulunduğu kaydedilir. Abdullah b. Abdülhakem'den, Cifâr'ın Firavun devrinde son derece mamur olduğu rivayeti aktarılır.",
+   "products_text": "metin ürün/ticaret saymaz; yalnızca \"بها نخيل ومنازل ومياه\" (hurmalıklar, konaklar ve sular) denir",
+   "confidence": "medium",
+   "seq": 58
+  },
+  {
+   "name_ar": "تيه بنى إسرائيل",
+   "name_tr": "Tîh-i Benî İsrâîl",
+   "sec": 8,
+   "page": "V01P157",
+   "quote_ar": "وأما تيه بنى إسرائيل فيقال إن طوله نحو أربعين فرسخا وعرضه قريبا منه",
+   "cities_ar": [],
+   "summary_tr": "İsrailoğullarının çölü kısa bir sınır tasviriyle verilir: uzunluğunun \"نحو أربعين فرسخا\" (yaklaşık kırk fersah), genişliğinin de ona yakın olduğu söylenir. Kumluk ve kısmen sert zeminli bir arazidir; içinde kaynaklar ve seyrek hurmalıklar vardır. Sınırları Cifâr, Tûr-i Sînâ dağı, Beytülmakdis (Filistin) toprakları ve Mısır'ın Havf'ı üzerinden Kulzüm'e dayandırılır.",
+   "products_text": "ürün/ticaret zikredilmez; yalnızca \"وبه عيون ونخيل مفترشة قليلة\" (kaynaklar ve az, dağınık hurmalıklar)",
+   "confidence": "medium",
+   "seq": 59
+  },
+  {
+   "name_ar": "الفيوم",
+   "name_tr": "Feyyûm",
+   "sec": 8,
+   "page": "V01P159",
+   "quote_ar": "وبالفيوم مدن كبار جليلة وطرز مشهورة وكور عظام للسلطان والعامة",
+   "cities_ar": [
+    "الفيوم",
+    "اليهنسة",
+    "طحا"
+   ],
+   "summary_tr": "Feyyûm hem bir iklim/bölge adı hem de el-Lâhûn kanalı üzerinde iki yakalı bir şehir olarak tasvir edilir; Nil taşkınına muhtaç olmadan suyu akan tek yer olduğu, kanalı Yusuf peygamberin yaptırıp \"اللاهون\" adını verdiği rivayeti aktarılır. Havası sağlıksız, yabancıya uygun değildir; başlıca mahsulü pirinçtir. Eskiden bütün bölgeyi kuşatan ve \"حائط العجوز\" diye bilinen surun izlerini İbn Havkal bizzat gördüğünü söyler; bu surun Nûbe sınırına dek Nil'in iki yakasını kuşattığını ekler. Tahâ şehri ve fakih Ebû Ca'fer et-Tahâvî de burada anılır.",
+   "products_text": "meşhur tırâz atölyeleri: اليهنسة'de \"الستور والاستبرقات والشرع والخيام... والفساطيط العظام بالصوف والكتان بأصباغ لا تستحيل\" — perdelerin boyu \"من ثلثين ذراعا\", çiftinin değeri \"ثلثمائة دينار\"a varır; \"أكثر غلاتها الأرز\" (başlıca ürünü pirinç), bol meyve",
+   "confidence": "high",
+   "seq": 60,
+   "lat": 29.31,
+   "lon": 30.8418,
+   "city_pids": [
+    "iac:place-00009354"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "الشأم",
+   "name_tr": "Şam (Suriye) bölgesi",
+   "sec": 9,
+   "page": "V01P164",
+   "quote_ar": "وأما الشأم فإن غربيها بحر الروم وشرقيها البادية من ايلة الى الفرات ثم من الفرات الى حد الروم وشماليها بلاد الروم وجنوبيها مصر وتيه بنى إسرائيل",
+   "cities_ar": [
+    "الرملة",
+    "بيت المقدس",
+    "غزة",
+    "نابلس",
+    "طبرية",
+    "صور",
+    "دمشق",
+    "بعلبك",
+    "بيروت",
+    "حمص",
+    "حماة",
+    "حلب",
+    "انطاكية",
+    "ملطيه",
+    "طرسوس"
+   ],
+   "products_text": "جبال فلسطين: «زيتون وتين وجميز الى سائر الفواكه»؛ بيروت: «من النخيل وقصب السكر والغلات المتوافرة وتجارات البحر عليها دارة واردة وصادرة»؛ معرة النعمن: «السعة فى التين والفستق»؛ بالس: «أكثر غلاتها القمح والشعير ويعمل بها من الصابون الكثير الغزير»؛ منبج: «ناطف الزبيب المعمول بالجوز والفستق والسمسم»؛ زغر: «من عمل النيل والتجارة به» وبسر «الانقلاء»",
+   "summary_tr": "İbn Havkal Şam'ı Belh okulu düzeninde cünd cünd anlatır: Filistin, Ürdün, Dımaşk, Humus, Kınnesrîn cündleri ile Avâsım ve Suğûr. Bölgenin uzunluğu Malatya sınırından Refah'a «خمسة وعشرون يوما» (yirmi beş gün), Filistin'in eni Yafa'dan Erîhâ'ya «مسيرة يومين»dir. Rum istilalarını tarihleriyle kaydeder: Halep'in düşüşü «فى تأريخ ثلثمائة ونيف وسبعين», Antakya'nın fethi «فى أول سنة تسع وخمسين», Malatya'nın kaybı «فى سنة تسع عشرة وثلثمائة». Şam'ın eski geliri «تسعة وثلثين ألف ألف درهم وخمس مائة ألف درهم» olarak verilir; Filistin-Ürdün iltizamları «بخمس مائة ألف دينار» ile anılır.",
+   "confidence": "high",
+   "seq": 61,
+   "lat": 34.99746625,
+   "lon": 36.170573749999996,
+   "city_pids": [
+    "iac:place-00007675",
+    "iac:place-00014039",
+    "iac:place-00002017",
+    "iac:place-00003928",
+    "iac:place-00003917",
+    "iac:place-00003866",
+    "iac:place-00001070",
+    "iac:place-00007906"
+   ],
+   "geo_note": "centroid (8 şehirden)"
+  },
+  {
+   "name_ar": "بحر الروم",
+   "name_tr": "Bahrü'r-Rûm (Akdeniz) ve adaları",
+   "sec": 10,
+   "page": "V01P189",
+   "quote_ar": "وسأصل ذلك بذكر بحر الروم وتصويره إذ هو خليج من البحر المحيط عليه أكثر هذه الديار وقد أتيت به على التقريب لا على الحقيقة",
+   "cities_ar": [
+    "القسطنطينية",
+    "انطاليه",
+    "اطرابزنده",
+    "انقره",
+    "كمخ",
+    "ملطيه",
+    "اثيناس",
+    "روميه",
+    "ملف",
+    "نابل",
+    "طرطوشه",
+    "صقليه",
+    "قبرس",
+    "اقريطش",
+    "مالطه"
+   ],
+   "products_text": "نابل: «أكثر أموال أهل نابل من الكتان وثياب الكتان وبها منه ثياب ليس بسائر الارض مثلها... ويباع الثوب منها بالدون فمن مائة وخمسين رباعى»؛ اجيا: «معدن الميعة التى تجلب الى جميع الأرض فى البر والبحر»؛ قبرس: «المصطكى الجيد والميعة الكثيرة والحرير والكتان وبها من القمح والشعير والحبوب»؛ مالطه: الحمير المتوحشة والغنم والعسل؛ ضريبة انطاليه: «ثلثة قناطير ذهبا... وثلثين ألف دينار ومائة أسير فى كل سنة»",
+   "summary_tr": "Akdeniz'i Muhit Okyanusu'ndan çıkan bir körfez olarak tasvir eder; boğaz Endülüs ile Tanca-Sebte arasındadır ve genişliği «نحو اثنى عشر ميلا»dır. Rum ülkesinin yolları anlatılır: Kemah'tan Kostantiniyye'ye «مائة وستة وثمنين بريدا», dönüşte Ankara üzerinden Malatya'ya «مائة وثمنية وعشرين بريدا»; kendi hesabıyla toplam yol «أربعين مرحلة»dir. Antalya ile Kostantiniyye arası karadan «ثمنية أيام», denizden «خمسة عشر يوما»dır. Adalardan Sicilya Müslümanların elindeki en büyüğüdür; Kıbrıs ve Girit'in Rumlarca alınışı, Rum vergi düzeni (her ocaktan iki dinar, denizcilere on iki dinar; Nikephoros'un ocak başına on dinar tarhı) ayrıntılı verilir.",
+   "confidence": "high",
+   "seq": 62,
+   "lat": 34.99666666666667,
+   "lon": 13.276666666666669,
+   "city_pids": [
+    "iac:place-00011833",
+    "iac:place-00009424",
+    "iac:place-00000874"
+   ],
+   "geo_note": "centroid (3 şehirden)"
+  },
+  {
+   "name_ar": "الجزيرة",
+   "name_tr": "el-Cezîre (Dicle-Fırat arası)",
+   "sec": 11,
+   "page": "V01P209",
+   "quote_ar": "والجزيرة إقليم جليل بنفسه شريف كان بسكانه وأهله رفه بخصبه كثير الجبايات لسلطانه",
+   "cities_ar": [
+    "الموصل",
+    "نصيبين",
+    "سنجار",
+    "بلد",
+    "رأس العين",
+    "حران",
+    "الرها",
+    "الرقة",
+    "قرقيسيا",
+    "آمد",
+    "ميافارقين",
+    "ماردين",
+    "جزيرة ابن عمر",
+    "تكريت",
+    "حصن كيفا"
+   ],
+   "products_text": "نصيبين: «الغلات من الحبوب والقمح والشعير والكروم الرائعة»، ثم «الغلات بالحبوب والسمسم والقطن والأرز»؛ جبل ماردين: «جوهر للزجاج الجيد ويحمل منه الى سائر بلدان الجزيرة والعراق وبلد الروم»؛ سنجار: «السماق والجوز واللوز والزيتون والأترج والسمسم والرمان الكبير»؛ عرابان: «كثيرة الأقطان وثياب القطن تحمل منها وتجهز الى الشأم»؛ جزيرة ابن عمر: تجارة «كالعسل والسمن والمن والجبن والجوز واللوز والبندق والزبيب والتين»؛ آمد: حجارة الأرحية «يساوى الحجر للطحن به بالعراق من خمسين دينارا»؛ سروج: الرب والناطف من الزبيب",
+   "summary_tr": "Dicle ile Fırat arasındaki Cezîre'yi Diyâr-ı Rabîa, Mudar ve Bekr olarak anlatır; mesafeler ayrıntılıdır: «من الرقة الى الانبار عشرون يوما», «من الموصل الى آمد أربعة عشر يوما», Musul-Cezîre ibn Ömer «ثلثون فرسخا». Nusaybin'in refahı «الى سنة ثلثين وثلثمائة» sürmüş, Hamdânîlerin zulmüyle Benî Habîb «فى نحو عشرة آلف فارس» ile Rum tarafına geçip Hristiyanlaşmıştır. Müellif «سنة ثمان وخمسين»de bulunduğu Nusaybin ve Musul'un vergi tahminlerini rakam rakam verir (Nusaybin tahılı «عشرة آلف كر»; Musul toplamı «ستة عشر ألف ألف درهم ومائتا ألف وتسعون ألف درهم»). Re'sül-Ayn'ın üç yüzden fazla kaynağı, Musul'daki Dicle ortası yüzer değirmenler (el-urûb) ve sonraki elin «سنة ستين وخمس مائة» Musul imarı ile «سنة تسع وسبعين وخمس مائة» Âmid'in fethi kayıtları da bölümdedir.",
+   "confidence": "high",
+   "seq": 63,
+   "lat": 36.532830000000004,
+   "lon": 40.186538999999996,
+   "city_pids": [
+    "iac:place-00011725",
+    "iac:place-00006677",
+    "iac:place-00015066",
+    "iac:place-00003596",
+    "iac:place-00013276",
+    "iac:place-00005583",
+    "iac:place-00014477",
+    "iac:place-00000040",
+    "iac:place-00002566",
+    "iac:place-00003780"
+   ],
+   "geo_note": "centroid (10 şehirden)"
+  },
+  {
+   "name_ar": "العراق",
+   "name_tr": "Irak",
+   "sec": 12,
+   "page": "V01P230",
+   "quote_ar": "وأما «2» العراق فإنه فى الطول من حد تكريت الى عبادان وعبادان مدينة على نحر بحر فارس",
+   "cities_ar": [
+    "البصرة",
+    "الكوفة",
+    "واسط",
+    "بغداذ (مدينة السلام)",
+    "سر من رأى",
+    "تكريت",
+    "عبادان",
+    "الأبلة",
+    "القادسية",
+    "الحيرة",
+    "حلوان",
+    "النهروان",
+    "المدائن",
+    "كربلا",
+    "الدسكرة"
+   ],
+   "products_text": "Basra: «استفاضة الذكر بالتجارة والمتاع والمجالب والجهاز الى سائر أقطار الأرض»; kesintisiz hurmalıklar «نخيل متصلة من عبداسى الى عبادان نيف وخمسين فرسخا»; Sevâd vergi tarifesi: buğday ceribine «أربعة دراهم», arpaya «درهمين», hurma ceribine «ثمنية دراهم», bağ ve yoncaya «ستة دراهم»; Nehrevan «كثيرة الغلات والخيرات والنخيل والكروم والسمسم خاصة»; Hulvan'ın başlıca meyvesi «جل ثمارها التين»; Kadisiye'de hacı develerine yem olarak katt (القت); iltizam: Basra geliri «سنة ثمان وخمسين» yılında «ستة آلف ألف درهم», Vasıt aynı yıl «ستة آلف ألف درهم», Kufe sevâdı ve Irak tasasicleri «ثلثين ألف ألف درهم»",
+   "summary_tr": "İbn Havkal Irak'ı Tikrit'ten Abadan'a uzunlamasına, Kadisiye-Hulvan hattında enlemesine sınırlarıyla tanımlar ve onu «أعظم أقاليم الأرض منزلة» (yeryüzü iklimlerinin makamca en büyüğü) sayar. Basra, Kufe, Vasıt ve Bağdat (Medinetüsselam) ayrıntılı tasvir edilir; Basra'nın kanalları («زادت على مائة ألف نهر وعشرين ألف نهر» rivayetiyle), hurmalıkları ve dünya çapındaki ticareti vurgulanır. Mesafeler menzillerle verilir: Bağdat-Kufe «أربع مراحل», Bağdat-Vasıt «ثمانى مراحل», Bağdat-Hulvan «ست مراحل». Sevâd'ın Sasani ve erken İslam dönemi vergi gelirleri (Ömer, Haccac, Ömer b. Abdülaziz dönemleri) rakamlarıyla aktarılır; müellif 358 («سنة ثمان وخمسين») yılı iltizam akitlerine bizzat şahit olduğunu söyler.",
+   "confidence": "high",
+   "seq": 64,
+   "lat": 32.891881,
+   "lon": 44.676514999999995,
+   "city_pids": [
+    "iac:place-00010482",
+    "iac:place-00012366",
+    "iac:place-00011016",
+    "iac:place-00006410",
+    "iac:place-00002566",
+    "iac:place-00000140",
+    "iac:place-00004054",
+    "iac:place-00013465",
+    "iac:place-00010987",
+    "iac:place-00004820"
+   ],
+   "geo_note": "centroid (10 şehirden)"
+  },
+  {
+   "name_ar": "خوزستان",
+   "name_tr": "Huzistan",
+   "sec": 13,
+   "page": "V01P247",
+   "quote_ar": "وأما حدود خوزستان ومحلها مما يجاورها من البقاع المضافة اليها والمصاقبة لنواحيها فإن شرقيها حد فارس واصبهان",
+   "cities_ar": [
+    "الاهواز",
+    "عسكر مكرم",
+    "تستر",
+    "جندى سابور",
+    "السوس",
+    "رامهرمز",
+    "الدورق",
+    "ايذج",
+    "نهر تيرى",
+    "جبى",
+    "الطيب",
+    "قرقوب",
+    "بصنى",
+    "حصن مهدى",
+    "الباسيان"
+   ],
+   "products_text": "Tuster dibacı «يتخذ بتستر الديباج الذي يحمل الى جميع الآفاق» ve eskiden Kâbe örtüsü («كسوة الكعبة») burada dokunurdu; Sus'ta ağır hazz kumaşları («الخزوز الثقيلة») ve turunç («صنف من الأترج شمامات ذكية»); Karkub'da «السوسن جرد الذي يحمل الى الآفاق»; Basınna'nın dünyaca ünlü perdeleri («الستور المشهورة فى جميع الأرض المرقوم عليها عمل بصنى»); Ramhurmuz'dan ipek kumaş («ثياب الابريسم»); Tayyib'de Ermeni işine benzer uçkurlar (تكك); her büyük kûrede şeker kamışı «ليس من بلد ليس به قصب سكر», en çok Mesrukan'da; pirinç temel gıda («يكثر عندهم الأرز... وهو لهم قوت»); Asek duşabı «الدوشاب الآسكى الذي يحمل الى العراق مشهور بالجودة»",
+   "summary_tr": "Huzistan doğuda Fars ve İsfahan (sınır Tab nehri), batıda Vasıt rüstakı, kuzeyde Saymara-Kerc-Lur hattı ile çevrili düz, akarsuları bol bir bölge olarak tasvir edilir; en büyük nehri Tuster nehridir ve Sabur'un yaptırdığı Şazervan seddi anlatılır. Ahvaz merkez kûre olmakla birlikte müellif kendi zamanında Askeri Mükrem'in daha mamur olduğunu ekler. Halkın Farsça ve Arapça yanında ayrıca Huzice («لسانا آخر خوزيا») konuştuğu, Mutezile mezhebinin hâkim olduğu belirtilir. Mesafeler aynen verilir: Askeri Mükrem-Tuster «مرحلة», Tuster-Cündişapur «مرحلة», Askeri Mükrem-İzec «أربع مراحل»; bölgenin 358 («سنة ثمان وخمسين») yılı iltizamı Ebu'l-Fazl eş-Şirazi elinde «بثلثين ألف ألف درهم» idi.",
+   "confidence": "high",
+   "seq": 65,
+   "lat": 31.157686249999998,
+   "lon": 48.61790625,
+   "city_pids": [
+    "iac:place-00001167",
+    "iac:place-00008414",
+    "iac:place-00002523",
+    "iac:place-00006777",
+    "iac:place-00005335",
+    "iac:place-00013253",
+    "iac:place-00012232",
+    "iac:place-00002906"
+   ],
+   "geo_note": "centroid (8 şehirden)"
+  },
+  {
+   "name_ar": "فارس",
+   "name_tr": "Fars",
+   "sec": 14,
+   "page": "V02P259",
+   "quote_ar": "وأما فارس فالذى يحيط بها مما يلى المشرق حدود كرمان ومما يلى المغرب كور خوزستان ومما يلى الشمال المفازة التى بين فارس وخراسان وبعض حدود اصبهان ومن الجنوب بحرها",
+   "cities_ar": [
+    "شيراز",
+    "اصطخر",
+    "سيراف",
+    "جور",
+    "فسا",
+    "دارابجرد",
+    "سابور",
+    "النوبندجان",
+    "كازرون",
+    "الرجان",
+    "توج",
+    "جنابه",
+    "سينيز",
+    "مهروبان",
+    "كثه (يزد)"
+   ],
+   "products_text": "Gül suyu ihracı: «فماء الورد الذي بكوار وجور ينقل الى سائر الأرض حتى المغرب وبلد الروم والاندلس وروميه وأرض افرنجه والى مصر واليمن وبلد الهند والصين»; dokumalar: Siniz'den «الثياب السينيزى», Cennabe'den «المناديل الجنابية», Tevvec'den «ثياب التوزى», Fesa'dan «طراز الوشى المرتفع», Cehrum halıları («الجهرمى من البسط»), susanjird «أرفع مما يكون بقرقوب»; Darabcird mumyası «المومياى الذي يحمل الى الآفاق وهى ملك للسلطان ولا نظير له» ve renkli tuz dağları («جبال من الملح الأبيض والأسود والأصفر والأحمر والأخضر»); madenler «من الفضة والحديد والآنك والكبريت والنفط»; Şiraz «أبراد معروفة مشهورة... بالشيرازية»",
+   "summary_tr": "Fars beş kûre (İstahr, Erdeşir Hurre, Darabcird, Errecan, Sabur), beş Kürt zumûmu, beş yüz bin çadırı aşan Kürt oymakları, kaleleri, ateş evleri, nehirleri ve gölleriyle sistematik biçimde tasvir edilir; Basra'dan Hind'e uzanan deniz «ببحر فارس» adıyla bu ülkeye nispet edilir. Şiraz İslam döneminde kurulmuş eyalet merkezi, Siraf zengin tüccarlarıyla («ينفق على داره زيادة على ثلثين ألف دينار») deniz ticaretinin kapısıdır. Ülke sıcak cürûm ve serin surûd kuşaklarına ayrılır; yollar fersah fersah sayılır: Şiraz-Siraf «ستين فرسخا», Şiraz-Yezd «ثمنين فرسخا» (özet listede «أربعة وسبعون فرسخا»), Şiraz-İsfahan «ثلثة وسبعين فرسخا», sahil boyu «نحو مائة وستين فرسخا». Haracın mesaha usulüyle alındığı, toplam gelirin 350 («سنة خمسين») yılında «ألف ألف وخمس مائة ألف دينار وزيادة» tahmin edildiği kaydedilir.",
+   "confidence": "high",
+   "seq": 66,
+   "lat": 31.247846,
+   "lon": 51.09721,
+   "city_pids": [
+    "iac:place-00007402",
+    "iac:place-00004565",
+    "iac:place-00013467",
+    "iac:place-00002680",
+    "iac:place-00010150"
+   ],
+   "geo_note": "centroid (5 şehirden)"
+  },
+  {
+   "name_ar": "كرمان",
+   "name_tr": "Kirman",
+   "sec": 15,
+   "page": "V02P304",
+   "quote_ar": "وأما كرمان فشرقيها أرض مكران ومفازة ما بين مكران والبحر من وراء البلوص وغربيها أرض فارس وشماليها مفازة خراسان وسجستان وجنوبيها بحر فارس",
+   "cities_ar": [
+    "السيرجان",
+    "جيرفت",
+    "بم",
+    "هرموز",
+    "بردشير",
+    "نرماشير",
+    "الفهرج",
+    "زرند",
+    "ماهان",
+    "خبيص",
+    "المنوجان",
+    "سوروا",
+    "رويين",
+    "ولاشكرد",
+    "كوميز"
+   ],
+   "products_text": "ثياب بم من القطن الفاخرة \"مما يبلغ الثوب ثلثين دينارا\" تباع بخراسان والعراق ومصر، وعمائم وطيالسة مقورة؛ البطائن الزرندية تحمل الى مصر وأقاصى المغرب؛ النيل والكمون يزرعان من حد مغون الى هرموز ويحملان الى الآفاق؛ الفانيذ وقصب السكر الغزير؛ التمر \"مائة منا بدرهم\"; معادن الفضة (جبال المعدن، درفارد) ومعادن حديد بجبال البارز؛ هرموز \"مجمع تجارة كرمان وهى فرضة البحر\" وجيرفت \"متجر خراسان وسجستان\"",
+   "summary_tr": "İbn Havkal Kirman'ı doğusu Mekran, batısı Fars, kuzeyi Horasan-Sicistan çölü, güneyi Fars denizi olan bir bölge olarak sınırlar; sıcak (cürûm) ve soğuk (surûd) kuşaklara ayırır. Başkent Sîrecân olup Cîruft, Bem ve Hürmüz büyük şehirlerdir; Hürmüz deniz limanı ve ticaret merkezi, Cîruft Horasan ile Sicistan'ın pazarıdır. Kufs ve Bâriz dağlarının halkları, gümüş madeni dağları ve Bem'in krallarca saklanan ünlü pamuklu kumaşları anlatılır. Şehirler arası mesafeler merhale ve fersah olarak sayılır (ör. Sîrecân'dan Bem'e menziller, Sîrecân'dan Habîs'e altı merhale); Muhammed b. İlyâs sonrası karışıklıkta gelirin Nasr için 'beş yüz bin dinar' toplandığı nakledilir.",
+   "confidence": "high",
+   "seq": 67,
+   "lat": 29.51793,
+   "lon": 56.618117500000004,
+   "city_pids": [
+    "iac:place-00014940",
+    "iac:place-00015146",
+    "iac:place-00013941",
+    "iac:place-00010549"
+   ],
+   "geo_note": "centroid (4 şehirden)"
+  },
+  {
+   "name_ar": "مكران",
+   "name_tr": "Mekran",
+   "sec": 16,
+   "page": "V02P325",
+   "quote_ar": "ومكران ناحية واسعة عريضة والغالب عليها المفاوز والقحط والضيق والمتغلب عليها رجل يعرف بعيسى بن معدان",
+   "cities_ar": [
+    "التيز",
+    "كيز",
+    "الفنجبور",
+    "دزك",
+    "راسك",
+    "به",
+    "بند",
+    "قصر قند",
+    "اصفقه",
+    "فهلفهره",
+    "مشكى",
+    "قنبلى",
+    "ارمابيل"
+   ],
+   "products_text": "كيز \"فرضة مكران\" وبها نخيل كثيرة؛ رستاق خرذان \"وبه فانيذ كثير وقصب سكر ونخيل وعامة الفانيذ الذي يحمل الى الآفاق منها\"; وبقصدار أيضا فانيذ؛ الغالب على أرض مكران البوادى والزروع البخوس لقلة الأنهار",
+   "summary_tr": "Mekran, çöllerin, kıtlığın ve darlığın hâkim olduğu geniş bir bölge olarak tasvir edilir; hâkimi Îsâ b. Ma'dân olup merkezi Kîz'dir (Mültan'ın yarısı kadar, hurmalıklı liman şehri). En büyük şehri Fencebûr'dur; şehirlerin tümü sıcak kuşaktandır (cürûm). Harzân rustakının fânîz (şeker) üretimi her tarafa taşınır; Meşkî'de Mutahhar b. Recâ Abbasiler adına hutbe okutur. Mesafeler aynen verilir: 'من التيز الى كيز نحو خمس مراحل', 'وطول عمل مكران من التيز الى قزدار نحو اثنتى عشرة مرحلة'.",
+   "confidence": "high",
+   "seq": 68,
+   "lat": 26.313665,
+   "lon": 63.20417125,
+   "city_pids": [
+    "iac:place-00013180",
+    "iac:place-00010521",
+    "iac:place-00014027",
+    "iac:place-00013661",
+    "iac:place-00014535",
+    "iac:place-00014793",
+    "iac:place-00014566",
+    "iac:place-00013111"
+   ],
+   "geo_note": "centroid (8 şehirden)"
+  },
+  {
+   "name_ar": "السند",
+   "name_tr": "Sind",
+   "sec": 16,
+   "page": "V02P320",
+   "quote_ar": "والمنصورة مدينة مقدارها فى الطول والعرض نحو ميل فى مثله ويحيط بها خليج من نهر مهران وهى فى شبيه بالجزيرة وأهلها مسلمون",
+   "cities_ar": [
+    "المنصورة",
+    "الديبل",
+    "النيرون",
+    "قالرى",
+    "انرى",
+    "بلرى",
+    "مسواهى",
+    "الفهرج",
+    "بانيه",
+    "منجابرى",
+    "سدوستان",
+    "الرور",
+    "الجندرور",
+    "الملتان",
+    "بسمد"
+   ],
+   "products_text": "بالمنصورة \"قصب سكر يعقد منه القند الغزير الكثير\" وثمرة الليمونة وفاكهة الانبج؛ نقودهم القندهاريات \"كل درهم منها خمسة دراهم\" والدرهم الطاطرى؛ الديبل \"متجر عظيم وتجارتها من وجوه كثيرة وهى فرضة هذه البلاد\"; الرور \"خصبة رفهة كثيرة التجارة\"; نهر مهران كالنيل فى الكبر وجريه، فيه التماسيح ويزرع عليه حسبما يزرع بأرض مصر",
+   "summary_tr": "Sind'in kalbi, Mihran (İndus) nehrinin bir koluyla ada gibi çevrili Mansûre'dir; halkı Müslüman, hükümdarı Kureyş'ten Hebbâr b. el-Esved soyundan olup hutbe Abbasiler adınadır. Mültan, Hind'in dört bir yanından hacca gelinen büyük putuyla ve 'ferc beytü'z-zeheb' adıyla anlatılır; emîri Sâme b. Lüey soyundandır. Deybül deniz limanı ve büyük ticaret merkezi, Rûr Mültan'a yakın büyüklükte zengin bir şehirdir. Mesafeler aynen sayılır: 'ومن المنصورة الى الديبل ست مراحل ومن المنصورة الى الملتان اثنتا عشرة مرحلة'; Mihran nehri Nil'e benzetilir, taşkınıyla Mısır'daki gibi ziraat yapılır.",
+   "confidence": "high",
+   "seq": 69,
+   "lat": 31.30830333333333,
+   "lon": 54.573401666666676,
+   "city_pids": [
+    "iac:place-00017471",
+    "iac:place-00014461",
+    "iac:place-00013069",
+    "iac:place-00013642",
+    "iac:place-00013444",
+    "iac:place-00013614"
+   ],
+   "geo_note": "centroid (6 şehirden)"
+  },
+  {
+   "name_ar": "طوران والبدهه",
+   "name_tr": "Turan ve Budha",
+   "sec": 16,
+   "page": "V02P324",
+   "quote_ar": "وهى ناحية خصبة الأسعار وبها أعناب وفواكه الصرود ورمان حسن وليس بها نخيل",
+   "cities_ar": [
+    "طوران",
+    "قصدار",
+    "كيزكانان",
+    "مجاك",
+    "سيوى",
+    "قندابيل"
+   ],
+   "products_text": "بكيزكانان أعناب وفواكه الصرود ورمان حسن وليس بها نخيل؛ البدهه أهل إبل و\"الجمل الفالح الذي يرغب فيه أهل خراسان وغيرهم لنتاج البخاتى البلخية والنوق السمرقندية\"; قندابيل \"ممتار للبدهه\" وليس بها نخيل؛ رستاق ايل فيه غلات وزروع وكروم ومواش واسعة وإبل وغنم وبقر",
+   "summary_tr": "Turan, ortasında hisar bulunan bir vadi olup kasabası da Turan adını taşır; Kuzdâr şehrinin hâkimi Mu'tez b. Ahmed Abbasiler adına hutbe okutur ve Kîzkânân'da oturur. Budha bölgesinin ana şehri Kandâbîl'dir; Budha halkı Berberîler gibi çölde kamış kulübelerde yaşayan deve sahipleridir ve Horasan'ın rağbet ettiği damızlık develeri yetiştirirler. Mesafeler aynen: 'ومن قزدار الى الملتان عشرون مرحلة', 'ومن قندابيل الى المنصورة نحو ثمانى مراحل', 'ومن قصدار الى قندابيل نحو خمسة فراسخ'.",
+   "confidence": "high",
+   "seq": 70,
+   "lat": 30.971033333333335,
+   "lon": 65.54340666666667,
+   "city_pids": [
+    "iac:place-00008010",
+    "iac:place-00014685",
+    "iac:place-00017197"
+   ],
+   "geo_note": "centroid (3 şehirden)"
+  },
+  {
+   "name_ar": "بلاد الهند التى يملكها الإسلاميون",
+   "name_tr": "Müslümanların elindeki Hind şehirleri (Belhera ülkesi)",
+   "sec": 16,
+   "page": "V02P319",
+   "quote_ar": "وأما مدن الهند فهى قامهل وكنبايه وسوباره ولها نواح جليلة واساول وجناول وسندان وصيمور",
+   "cities_ar": [
+    "قامهل",
+    "كنبايه",
+    "سوباره",
+    "اساول",
+    "جناول",
+    "سندان",
+    "صيمور"
+   ],
+   "products_text": "بقامهل وسندان وصيمور وكنبايه \"مساجد جوامع\" وهى مدن خصبة واسعة وبها النارجيل ويستعملون منه الشراب والخل؛ الغالب على زروعهم الأرز ولهم العسل الكثير ولا نخيل لهم",
+   "summary_tr": "Kanbâya'dan Saymûr'a kadar uzanan bölge, 'Kitâbü'l-Emsâl sahibi' Belhera'nın ülkesidir; halkın çoğu kâfir olmakla birlikte Müslümanlar üzerine ancak Müslüman bir vali atanır ve camilerde cuma kılınıp ezan açıkça okunur. Kâmühül, Kanbâya, Sûbâre, Sindân ve Saymûr Müslümanların elindeki Hind şehirleri olarak sayılır; hindistancevizi içeceği, pirinç ziraati ve bol bal anlatılır. Mesafeler aynen: 'ومن قامهل الى كنبايه أربع مراحل', 'وبين صيمور وسرنديب خمس عشرة مرحلة'; Kanbâya denizden 'نحو فرسخ' uzaklıktadır.",
+   "confidence": "high",
+   "seq": 71
+  },
+  {
+   "name_ar": "اذربيجان",
+   "name_tr": "Azerbaycan",
+   "sec": 17,
+   "page": "V02P334",
+   "quote_ar": "وأكمل هذه النواحى اذربيجان وأكبر مدنها اردبيل وأجلها وإن كانت فى وقتنا قد رزحت أحوالها",
+   "cities_ar": [
+    "اردبيل",
+    "المراغة",
+    "ارميه",
+    "اشنه",
+    "تبريز",
+    "خوى",
+    "سلماس",
+    "مرند",
+    "الميانج",
+    "الخونج",
+    "داخرقان",
+    "برزند",
+    "ورثان",
+    "موقان",
+    "البيلقان"
+   ],
+   "products_text": "باردبيل \"خبزها بالعدد خمسون رغيفا بدرهم\" والعسل والسمن والجوز والزبيب رخيصة كالمجان؛ بطيخ الاردهرى بقرية من قرى المراغة؛ يجلب من اشنه وسوادها \"الأغنام والدواب والعسل واللوز والجوز والشمع\" الى بلد الموصل؛ التكك التى تعمل بسلماس \"تباع التكة من دينار الى عشرة دنانير\"; المقاعد الأرمنى المحفور بمرند وتبريز؛ مرصد الخونج مقاطعته \"مائة ألف دينار وزائد الى ألف ألف درهم\" فى السنة",
+   "summary_tr": "Azerbaycan bölgenin en mükemmel kısmı sayılır; en büyük şehri, ordugâh, emirlik sarayı ve divanların bulunduğu Erdebîl'dir — surunu 331 yılında ('فى سنة إحدى وثلثين') Merzübân b. Muhammed yıktırmıştır; yanı başında yazın kışın karı eksilmeyen Sebelân dağı yükselir. Merâga eski ordugâh, bahçeleri ve suları bol bir şehir; Urmiye Kebûzân gölünün batısında bağlık bir şehirdir; Tebrîz metin katmanına göre 'bugün' Azerbaycan'ın en mamur kasabasıdır. Ucuzluk vurgusu belirgindir: Erdebîl'de bir dirheme elli ekmek. Yollar aynen verilir: 'ومن اردبيل الى الميانج عشرون فرسخا', 'ومن المراغة الى الدينور ستون فرسخا لا منبر فيها'.",
+   "confidence": "high",
+   "seq": 72,
+   "lat": 38.73437571428571,
+   "lon": 47.21606285714285,
+   "city_pids": [
+    "iac:place-00000434",
+    "iac:place-00002439",
+    "iac:place-00013452",
+    "iac:place-00013997",
+    "iac:place-00012467",
+    "iac:place-00011731",
+    "iac:place-00013178"
+   ],
+   "geo_note": "centroid (7 şehirden)"
+  },
+  {
+   "name_ar": "الران",
+   "name_tr": "Arrân",
+   "sec": 17,
+   "page": "V02P341",
+   "quote_ar": "وليس بالران مدينة أكبر من برذعه والباب وتفليس",
+   "cities_ar": [
+    "برذعه",
+    "باب الأبواب",
+    "تفليس",
+    "البيلقان",
+    "ورثان",
+    "برديج",
+    "الشماخية",
+    "شروان",
+    "اللايجان",
+    "الشابران",
+    "قبله",
+    "شكى",
+    "جنزه",
+    "شمكور",
+    "خنان"
+   ],
+   "products_text": "ببرذعه يرتفع من الإبريسم \"شىء عظيم جسيم كثير غزير\" لأن توتهم مباح لا مالك له ويجهز الى فارس وخوزستان؛ السمك السرماهى من نهر الكر يحمل الى اردبيل والرى والعراق؛ تين تصوب وفاكهة الروقال؛ بباب الأبواب ثياب كتان وزعفران كثير ورقيق من دور الكفر؛ الفوة الغزيرة تحمل الى جرجان ويقصد بها بلاد الهند؛ بتفليس العسل \"نحو عشرين رطلا بدرهم\"",
+   "summary_tr": "Arrân'ın anası Berzea'dır: bir zamanlar Rey ve İsfahan'dan sonra Irak ile Taberistan arasındaki en büyük, en verimli şehirken yağma ve zulümle çökmüştür — 'bugün ekmek pişiren yalnız beş fırıncı kaldı, oysa bin iki yüzden fazlaydı' denir; pazarı 'sûku'l-Kürkî' pazar günleri kurulur. Bâbü'l-Ebvâb (Derbent) Hazar denizinin limanıdır; liman ağzında taş-kurşun set ve zincirli kapı tasvir edilir. Tiflis ucuz ve müstahkem bir serhat şehridir (metin katmanı 'sonra Gürcülerin eline geçti' kaydını düşer). Yol ölçüleri aynen: Berzea-Derbent 'نحو تسعين فرسخا', Berzea-Tiflis 'اثنان وستون فرسخا'.",
+   "confidence": "high",
+   "seq": 73,
+   "lat": 40.558222,
+   "lon": 47.230294,
+   "city_pids": [
+    "iac:place-00002555",
+    "iac:place-00013178",
+    "iac:place-00012467",
+    "iac:place-00001637",
+    "iac:place-00013324"
+   ],
+   "geo_note": "centroid (5 şehirden)"
+  },
+  {
+   "name_ar": "ارمينيه",
+   "name_tr": "Ermeniyye",
+   "sec": 17,
+   "page": "V02P342",
+   "quote_ar": "ويرتفع بها ثياب مرعزى وصوف من بسط ووسائد ومقاعد وأنماط وتكك وغير ذلك من أصناف الأرمنى المصبوغ بالقرمز",
+   "cities_ar": [
+    "دبيل",
+    "نشوى",
+    "خلاط",
+    "ارجيش",
+    "منازجرد",
+    "بركرى",
+    "بدليس",
+    "قاليقلا",
+    "ارزن",
+    "ميافارقين",
+    "وسطان",
+    "الزوزان"
+   ],
+   "products_text": "بدبيل ثياب مرعزى وصوف مصبوغة بالقرمز \"وهو صبغ أحمر... من دود ينسج على نفسه كدودة القز\" والبزيون والبتوت والبسط والستور \"فلا نظير لها فى شىء من الأرض\"; سمك الطريخ من بحيرة خلاط يملح ويحمل الى الموصل والجزيرة والعراق والشأم؛ ملح البورق ومقالع الزرنيخ الأحمر والأصفر؛ البغال الجياد من الزوزان تجلب الى العراق والشأم وخراسان؛ السبنيات والمقارم والمناديل المعمولة بميافارقين",
+   "summary_tr": "Ermeniyye ikiye ayrılır: Dâhile (Debîl, Nahçıvan/Neşevî, Kālîkalā) ve Hârice (Bergiri, Ahlât, Ercîş, Vestan, Zevzan). Başkenti, Erdebîl'den büyük olan ve camisi kiliseye bitişik Debîl'dir; halkın çoğunluğu Hristiyandır ve eskiden ülke Sinbât b. Aşot'undu, Yûsuf b. Ebi's-Sâc onların elinden aldı. Kırmız boyalı Ermeni yün dokumaları, halı-yastık-uçkur takımları dünyada eşsiz diye övülür; Trabzon (Atrabzunde) Rum ülkesine ticaret kapısıdır. Ahlât gölünün tirîh balığı, boraks ve zırnık ocakları sayılır; vergi bahsinde 344 yılı ('لسنة أربع وأربعين وثلثمائة') mukataaları tek tek dirhem rakamlarıyla verilir.",
+   "confidence": "high",
+   "seq": 74,
+   "lat": 39.124824000000004,
+   "lon": 41.637364,
+   "city_pids": [
+    "iac:place-00000425",
+    "iac:place-00011576",
+    "iac:place-00013591",
+    "iac:place-00001534",
+    "iac:place-00013291"
+   ],
+   "geo_note": "centroid (5 şehirden)"
+  },
+  {
+   "name_ar": "الجبال",
+   "name_tr": "Cibâl (Dağlar bölgesi)",
+   "sec": 18,
+   "page": "V02P357",
+   "quote_ar": "والجبال تشتمل على مدن مشهورة ومعظمها همذان والدينور واصبهان وقم ولها مدن أصغر من هذه مثل قاسان «13» ونهاوند واللور «14» والكرج والبرج",
+   "cities_ar": [
+    "همذان",
+    "الدينور",
+    "اصبهان",
+    "قم",
+    "قاسان",
+    "نهاوند",
+    "الكرج",
+    "البرج",
+    "قزوين",
+    "بروجرد",
+    "حلوان",
+    "الصيمرة",
+    "السيروان",
+    "شهرزور",
+    "زنجان"
+   ],
+   "products_text": "الزعفران المتخذ بالروذراور; كثيرة الأغنام والألبان والأجبان; يرتفع منها (اصبهان) العتابى والوشى وسائر ثياب الإبريسم والقطن ما يجهز بذلك الى العراق وفارس وسائر الجبال وخراسان وخوزستان; الجبن المحمول الى كثير من أعمال الأرض ويوصف بالجودة; نقودهم الذهب والفضة ويغلب الذهب; بقرب اصبهان معدن للكحل",
+   "summary_tr": "Cibâl bölgesinin sınırları doğuda Horasan-Fars çölü, batıda Azerbaycan, kuzeyde Deylem-Kazvin-Rey, güneyde Irak ve Huzistan olarak verilir; başlıca şehirleri Hemedan, Dînever, İsfahan ve Kum'dur. Metin Hemedan merkezli yol ağlarını fersah fersah sayar (örn. Hemedan'dan Sâve'ye otuz fersah, Sâve'den Rey'e otuz fersah). İsfahan Yahûdiyye ve Şehristan adlı iki şehirden oluşur ve aralarında iki mil vardır — Endülüs'teki Kurtuba ile Zehrâ'ya benzetilir; Fars, Cibâl, Horasan ve Huzistan için bir ticaret kapısıdır. Rûzrâver za'feranı ile bölgenin koyun, süt ve peynir ürünleri özellikle övülür.",
+   "confidence": "high",
+   "seq": 75,
+   "lat": 34.08917222222223,
+   "lon": 49.32171666666667,
+   "city_pids": [
+    "iac:place-00012747",
+    "iac:place-00013258",
+    "iac:place-00000729",
+    "iac:place-00009373",
+    "iac:place-00001610",
+    "iac:place-00009612",
+    "iac:place-00017486",
+    "iac:place-00017474",
+    "iac:place-00006093"
+   ],
+   "geo_note": "centroid (9 şehirden)"
+  },
+  {
+   "name_ar": "الديلم",
+   "name_tr": "Deylem (ve dağ beylikleri: Rûyân/Rûvinc, Bâzûsbân, Kârin)",
+   "sec": 19,
+   "page": "V02P376",
+   "quote_ar": "فأما ناحية الديلم فسهل وجبل والسهل للجيل وهم مفترشون على شط بحر الخزر تحت جبال الديلم",
+   "cities_ar": [
+    "الطرم",
+    "شهمار",
+    "ارم",
+    "بريم",
+    "شالوس"
+   ],
+   "products_text": "وهم أهل زرع وسوائم; ناحيتهم كثيرة الشجر والغياض; على طعامهم خبز الأرز والسمك والثوم (الديلم والجيل)",
+   "summary_tr": "Deylem sahil (Cîl/Gîlân halkı) ve sarp dağlardan oluşur; kral merkezi Tarm'da Cüstânoğulları oturur. Halkın dili Farsça, Rânî ve Ermeniceden ayrıdır; Hasan b. Zeyd dönemine dek çoğu kâfirdi, Alevîler aralarına girince bir kısmı Müslüman oldu ve dağlarda hâlâ kâfirler vardır. Kârin dağlarında Sâriye'ye bir merhale mesafede Şehmâr dışında şehir yoktur; Bâzûsbân dağlarının reisi Erim adlı köyde oturur ve minber yoktur. Deylem'e Taberistan'dan giriş, deniz kıyısındaki Şâlûs üzerindendir.",
+   "confidence": "high",
+   "seq": 76,
+   "lat": 33.640366666666665,
+   "lon": 53.1955,
+   "city_pids": [
+    "iac:place-00007925",
+    "iac:place-00017514",
+    "iac:place-00006959"
+   ],
+   "geo_note": "centroid (3 şehirden)"
+  },
+  {
+   "name_ar": "الرى ونواحيها",
+   "name_tr": "Rey ve çevresi (Kazvin, Ebher, Zencan dahil)",
+   "sec": 19,
+   "page": "V02P378",
+   "quote_ar": "وأعظم مدينة فى هذه الناحية الرى وقد مر ذكرها",
+   "cities_ar": [
+    "الرى",
+    "خوار",
+    "ويمه",
+    "شلنبه",
+    "قزوين",
+    "ابهر",
+    "زنجان",
+    "الطالقان"
+   ],
+   "products_text": "ويرتفع من الرى بالجلب منها الى غيرها من البلاد القطن المحمول الى العراق واذربيجان وغيرهما والثياب المنيرة والأبراد والأكسية; نقودهم الدراهم والدنانير",
+   "summary_tr": "Rey bu bölgenin en büyük şehridir; boyutu bir buçuk fersah kare olup Bağdat'tan sonra doğunun en mamur şehri sayılır, Nîşâbur ise alan bakımından daha büyüktür. Mâtâk, Belîsân, Kûhek, Hişâm ve Sîn kapıları ile Rûze başta olmak üzere çarşıları sayılır; şehirden Irak ve Azerbaycan'a pamuk, çizgili kumaşlar ve abalar ihraç edilir. Kazvin suyu kıt fakat bereketli bir hisar şehridir; Ebher ve Zencan küçük, sulak ve müstahkemdir. Rey'in Verâmîn, Varzenîn gibi minbersiz ama şehirlerden kalabalık köyleri vardır — birinde on bin adamı aşkın nüfus bulunduğu nakledilir.",
+   "confidence": "high",
+   "seq": 77,
+   "lat": 36.30867,
+   "lon": 55.685649999999995,
+   "city_pids": [
+    "iac:place-00013282",
+    "iac:place-00004459",
+    "iac:place-00009612",
+    "iac:place-00006093",
+    "iac:place-00013343"
+   ],
+   "geo_note": "centroid (5 şehirden)"
+  },
+  {
+   "name_ar": "قومس",
+   "name_tr": "Kūmis",
+   "sec": 19,
+   "page": "V02P379",
+   "quote_ar": "وقومس فإن أكبر مدينة بها الدامغان وهى أكبر من خوار الرى وسمنان أصغر منها وبسطام أصغر من سمنان",
+   "cities_ar": [
+    "الدامغان",
+    "سمنان",
+    "بسطام"
+   ],
+   "products_text": "ويحمل من فواكهها (بسطام) الى العراق الكثير الغزير ويرتفع من قومس أكسية معروفة وتحمل الى الأمصار وهى فاشية فى جميع الأرض",
+   "summary_tr": "Kūmis'in en büyük şehri Dâmgân'dır ve Rey'in Huvâr'ından büyüktür; Simnân ondan, Bistâm da Simnân'dan küçüktür. Dâmgân suyu az, orta derecede mamur bir şehirdir; Bistâm ondan daha mamur ve meyvesi daha boldur, meyveleri bol miktarda Irak'a taşınır. Kūmis'ten çıkan meşhur abalar şehirlere gönderilir ve bütün ülkelerde yaygındır.",
+   "confidence": "high",
+   "seq": 78,
+   "lat": 36.17,
+   "lon": 54.35,
+   "city_pids": [
+    "iac:place-00013243"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "طبرستان",
+   "name_tr": "Taberistan",
+   "sec": 19,
+   "page": "V02P381",
+   "quote_ar": "وطبرستان بلد كثير المياه والثمار والأشجار الجليلة العظيمة",
+   "cities_ar": [
+    "آمل",
+    "ساريه",
+    "ناتل",
+    "شالوس",
+    "كلار",
+    "الرويان",
+    "ميله",
+    "تريجى",
+    "عين الهم",
+    "مامطير",
+    "طميسه"
+   ],
+   "products_text": "ويرتفع بجميع طبرستان الإبريسم ويحمل منه الى جميع الآفاق; من الخشب الخلنج والكرم الملون المجزع والشمشار والشوحط; أصناف من الثياب الإبريسم والأكسية الصوف الثمينة والبركانات العجيبة; مناديل قطن وشرابيات ودساتك ساذجة ومذهبة; على طعامهم خبز الأرز والسمك والثوم",
+   "summary_tr": "Taberistan'ın en büyük şehri, bu devirde valilerin oturduğu Âmul'dur; eskiden Sâriye'de otururlardı. Bölge su, meyve ve ulu ağaçlarla kaplı, yağmuru pek bol bir iklimdir; binaların çoğu ahşap ve kamıştır, damlar kiremitle eğimli örtülür. İslam ve küfür diyarının hiçbir bölgesi ipek bolluğunda Taberistan'a yaklaşmaz; ipeği her ufka taşınır, abaları ve berkânları paha bakımından eşsizdir. Denize mesafe bir günden azdır ve gemi yüzen nehri yoktur.",
+   "confidence": "high",
+   "seq": 79,
+   "lat": 34.085,
+   "lon": 53.165000000000006,
+   "city_pids": [
+    "iac:place-00015161",
+    "iac:place-00006959"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "جرجان",
+   "name_tr": "Cürcân",
+   "sec": 19,
+   "page": "V02P382",
+   "quote_ar": "وجرجان وأعمالها وجبالها مصاقبة لطبرستان وحومتها كبيرة",
+   "cities_ar": [
+    "جرجان",
+    "بكراباذ",
+    "استاراباذ",
+    "ابسكون",
+    "دهستان"
+   ],
+   "products_text": "وأكثر ما يعمل الإبريسم ببكراباذ وأصل إبريسم طبرستان من جرجان; بها الثلج والنخل والأترج وفواكه الصرود والجروم والتين والزيتون وسائر الفواكه; ارتفاعها فمن مائتى ألف دينار الى ألفى ألف درهم",
+   "summary_tr": "Cürcân, Taberistan'a komşu olup aralarından geçen büyük bir nehirle iki yakaya ayrılır: doğuda Cürcân, batıda ondan küçük Bekrâbâz; ipeğin çoğu Bekrâbâz'da işlenir ve Taberistan ipeğinin tohumu aslında Cürcân'dandır. Rey ve Irak geçildikten sonra doğuda kendi ölçeğinde ondan daha derli toplu ve bereketli şehir yoktu; hurma, ağaç kavunu, incir, zeytin ve hem soğuk hem sıcak iklim meyveleri bir aradadır. Hazar denizindeki iskelesi Ebeskûn'dur; oradan Hazar'a, Bâbü'l-Ebvâb'a, Cîl ve Deylem'e binilir. Metin, gelirinin Veşmgîr b. Ziyâr ve oğlu Behistûn adına iki yüz bin dinardan iki bin kere bin dirheme kadar olduğunu, bölgede halkın dediğine göre binden fazla kale bulunduğunu kaydeder.",
+   "confidence": "high",
+   "seq": 80,
+   "lat": 32.65,
+   "lon": 52.95,
+   "city_pids": [
+    "iac:place-00004975"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "بحر الخزر",
+   "name_tr": "Hazar Denizi",
+   "sec": 20,
+   "page": "V02P385",
+   "quote_ar": "وبحر الخزر فإن شرقيه بعض الديلم وطبرستان وجرجان وبعض المفازة التى بين جرجان وخوارزم",
+   "cities_ar": [
+    "ابسكون",
+    "دهستان",
+    "باب الأبواب"
+   ],
+   "products_text": "ولا يرتفع من هذا البحر شىء سوى السموك; ويرتفع منها (جزيرة تجاه الكر) الفوة ويحملونها الى ورثان وبرذعه; ويحمل الى جزيرة الباب الدواب من نواحى برذعه وورثان فتسرح فيها وتسمن",
+   "summary_tr": "Hazar denizi yeryüzündeki denizlerin hiçbiriyle bağlantılı değildir; yalnız Rus nehri (İtil) ona dökülür ve suyu tuzlu, gelgitsiz, dibi karanlıktır. Denizden balıktan başka bir şey çıkmaz; Müslüman topraklarından Hazar ülkesine ticaret için gemiyle geçilir. İçinde meskûn ada yoktur; Siyâh-kûh adası büyük olup pınarları, ağaçları ve yabani hayvanları vardır, Bâb yakınındaki adadan kızılkök (fuvve) çıkarılıp Versân ve Berzea'ya taşınır. Ebeskûn'dan sağda Hazar'a kadar Dehistân dışında köy-şehir yoktur; rüzgâr uygun olursa deniz Taberistan'dan Bâbü'l-Ebvâb'a enine bir haftada geçilir.",
+   "confidence": "high",
+   "seq": 81,
+   "lat": 32.65,
+   "lon": 52.95,
+   "city_pids": [
+    "iac:place-00004975"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "الخزر",
+   "name_tr": "Hazar ülkesi (İtil, Hazarân, Semender, Serîr)",
+   "sec": 20,
+   "page": "V02P389",
+   "quote_ar": "وأما الخزر فاسم الإقليم وقصبته تسمى اتل واتل اسم النهر الذي يجرى اليهم من الروس وبلغار ويفيض فى بحر الخزر",
+   "cities_ar": [
+    "اتل",
+    "خزران",
+    "سمندر",
+    "باب الأبواب"
+   ],
+   "products_text": "وليس يرتفع من بلد الخزر نفسه شىء يحمل الى القرب أو البعد غير غرى السمك فأما الرقيق والعسل والشمع والخز والأوبار فمجلوبة اليهم; ويحمل اليهم من نواحى جرجان وطبرستان واذربيجان والروم الملبوس; مصب تجارة الروسية على دائم الأوقات الى خزران وكان عليهم فيما يوردونه نحو العشر من أموالهم",
+   "summary_tr": "Hazar iklim adıdır; başkenti İtil nehrinin iki yakasında iki parçadır — kral batı yakadaki Hazarân'da oturur, doğu yaka İtil'dir ve iki parça boyca bir fersah kadardır. Kral Yahudidir; ülkede on bin Müslümanı aşkın nüfus ve otuz kadar mescit olduğu söylenir, ordusu ise on iki bin kayıtlı asker olarak nakledilir. Bâbü'l-Ebvâb yolu üzerindeki Semender'in eskiden kırk bin bağı olduğu söylenir; müellif 358 yılında Cürcân'da sorduğunda Rusların gelip tek üzüm ve kuru üzüm bile bırakmadığını öğrenmiştir (Rusların Bulgar ve Hazarân'ı tahribi de 358 yılına bağlanır). Mesafeler aynen: İtil'den Semender'e sekiz gün, Semender'den Bâbü'l-Ebvâb'a dört gün, Serîr memleketi ile Bâbü'l-Ebvâb arası üç gündür.",
+   "confidence": "high",
+   "seq": 82
+  },
+  {
+   "name_ar": "برطاس",
+   "name_tr": "Burtas",
+   "sec": 20,
+   "page": "V02P393",
+   "quote_ar": "وبرطاس أمم متاخمة للخزر ليس بينهم وبين الخزر لسان غيرهم وهم قوم مفترشون على وادى اتل",
+   "cities_ar": [],
+   "products_text": "وهم أصحاب بيوت خشب",
+   "summary_tr": "Burtas, Hazarlara komşu ve İtil vadisine yayılmış kavimlerdir; Burtas ülke adıdır, tıpkı Rus, Hazar ve Serîr gibi halkın değil memleketin adıdır. Dilleri Hazar ve Rus dilinden ayrıdır; ahşap evlerde otururlar ve kalabalık ve güçlüdürler. Mesafeler aynen: İtil'den Burtas'ın ilk sınırına yirmi gün, Burtas'ın başından sonuna yaklaşık on beş gündür.",
+   "confidence": "high",
+   "seq": 83
+  },
+  {
+   "name_ar": "بلغار",
+   "name_tr": "Bulgar",
+   "sec": 20,
+   "page": "V02P396",
+   "quote_ar": "وبلغار اسم «16» للناحية وللمدينة وهم مسلمون وفى البلد مسجد جامع",
+   "cities_ar": [
+    "بلغار",
+    "سوار"
+   ],
+   "products_text": "وأبنيتهم من خشب يأوونها فى الشتاء وبالصيف يفترشون الأرض فى الخركاهات; (العسل والشمع والوبر يحمل من ناحية الروس وبلغار الى الخزر)",
+   "summary_tr": "Bulgar hem bölgenin hem şehrin adıdır; halkı Müslümandır ve şehirde bir cuma mescidi vardır, yakınındaki Suvâr şehrinde de cami bulunur. Orada hatiplik yapmış biri müellife iki şehrin nüfusunun on bin adam kadar olduğunu ve kışın gündüzün iki fersah yürünemeyecek kadar kısaldığını bildirmiştir; müellif de yaklaştığında dört namazı art arda kılacak kadar kısa bir gündüze bizzat tanık olduğunu söyler. 358 yılında Rusların Bulgar'ı tahrip ettiği kaydedilir; İç Bulgar'da Hristiyanlar ve Müslümanlar vardır.",
+   "confidence": "high",
+   "seq": 84
+  },
+  {
+   "name_ar": "الروس",
+   "name_tr": "Ruslar",
+   "sec": 20,
+   "page": "V02P396",
+   "quote_ar": "والروس ثلثة أصناف فصنف هم أقرب الى بلغار وملكهم بمدينة تسمى كويابه",
+   "cities_ar": [
+    "كويابه",
+    "صلا",
+    "ارثا"
+   ],
+   "products_text": "ويحمل من ارثا السمور الأسود والثعالب السود والرصاص وبعض زيبق; ولم تزل الروس يتجرون الى الخزر والى الروم",
+   "summary_tr": "Ruslar üç sınıftır: Bulgar'a en yakın olanların kralı Kuyâbe'de, Salâviye denilenlerin kralı Salâ'da, Ersâniye denilenlerin kralı Ersâ'da oturur. Ticaret için Kuyâbe ve çevresine gidilir; Ersâ'ya ise hiçbir yabancının girdiği duyulmamıştır, çünkü topraklarına ayak basan yabancıları öldürürler. Ersâ'dan kara samur, kara tilki, kurşun ve bir miktar cıva taşınır. Ölülerini yakarlar ve zenginleriyle birlikte cariyeler kendi rızalarıyla yakılır. Mesafe aynen: Bulgar'dan Kuyâbe'ye yaklaşık yirmi merhaledir.",
+   "confidence": "high",
+   "seq": 85
+  },
+  {
+   "name_ar": "مفازة خراسان وفارس",
+   "name_tr": "Horasan ile Fars arasındaki çöl",
+   "sec": 21,
+   "page": "V02P398",
+   "quote_ar": "وأما مفازة خراسان وفارس فالذى يحيط بها من شرقيها حد مكران وشىء من حدود سجستان وغربيها حدود قومس والرى وقم وقاسان وشماليها حدود خراسان وشىء من سجستان وجنوبيها حدود كرمان وفارس وشىء من حدود اصبهان،",
+   "cities_ar": [
+    "سبيج",
+    "الجرمق",
+    "نايين",
+    "يزد",
+    "عقده",
+    "اردستان",
+    "خبيص",
+    "زاور",
+    "نرماشير",
+    "قم",
+    "قاسان",
+    "دزه",
+    "سمنان",
+    "الدامغان",
+    "الطبسين"
+   ],
+   "products_text": "خبيص: بها نخيل كثيرة وهى خصبة رخيصة الأسعار على مر الأوقات؛ çölün kendisinde ürün yok: وليس يستدرك من مفازة فارس وخراسان غير علم الطريق; yollarda menziller ve vakıf ribatlar",
+   "summary_tr": "İbn Havkal bu çölü doğuda Mekran ve Sicistan, batıda Kumis-Rey-Kum-Kāşān, kuzeyde Horasan, güneyde Kirman-Fars-İsfahan hudutlarıyla sınırlar; İslam çöllerinin en az meskûn ve en çok haydutlu olanı sayar, çünkü tek bir iklimin idaresinde değildir. Çölde şehir olarak yalnız Sebîc (Kirman ameli) ile üç köyden ibaret Cermak vardır; kenar şehirler Nāyîn, Yezd, Hubays, Zāver, Kum, Kāşān, Semnân, Dāmgān vb. Haydutların sığınağı Kerkes-kūh dağıdır (eteğinin çevresi 'نحو فرسخين' der, kendisi görmemiştir). Yazar Rey-İsfahan, Yezd, Şûr, Zāver, Hubays ve 'Yeni Yol' güzergâhlarını menzil menzil, mesafeleri aynen (ör. من كركس كويه الى دير الجص أربعة فراسخ، وبين سياه كويه وكركس كويه تسعة فراسخ) verir ve hepsini bizzat kat ettiğini söyler.",
+   "confidence": "high",
+   "seq": 86,
+   "lat": 32.583985714285724,
+   "lon": 56.050738571428575,
+   "city_pids": [
+    "iac:place-00012869",
+    "iac:place-00000435",
+    "iac:place-00013941",
+    "iac:place-00015146",
+    "iac:place-00009373",
+    "iac:place-00014028",
+    "iac:place-00013243"
+   ],
+   "geo_note": "centroid (7 şehirden)"
+  },
+  {
+   "name_ar": "سجستان",
+   "name_tr": "Sicistan (Sîstan)",
+   "sec": 22,
+   "page": "V02P410",
+   "quote_ar": "وأما سجستان وما يتصل بها مما قد جمعت اليها فى الصورة فإن الذي يحيط بها مما يلى المشرق مفازة بين كرمان وأرض السند وبين سجستان وشىء من عمل الملتان",
+   "cities_ar": [
+    "زرنج",
+    "بست",
+    "القرنين",
+    "خواش",
+    "فره",
+    "جزه",
+    "سروان",
+    "الزالقان",
+    "روذان",
+    "الطاق",
+    "نه",
+    "كش",
+    "غزنه",
+    "بنجواى",
+    "اسفنجاى"
+   ],
+   "products_text": "ناحية خصبة كثيرة الطعام والتمور والأعناب؛ çölünden الحلتيت (şeytantersi) büyük mahsul: يرتفع من مفازة سجستان فيما بينها وبين مكران غلة عظيمة من الحلتيت; Zere gölünden سمك كثير وقصب; Büst'te متاجر الى بلد الهند; rüzgârla dönen un değirmenleri",
+   "summary_tr": "Sicistan'ın merkezi, hisarlı ve on üç ribat kapılı geniş rabazlı Zerenc'tir; Saffârî emirlik sarayları buradadır ve Amr b. Leys'in yaptırdığı çarşının günlük geliri metne göre 'نحو ألف درهم'dir. Ülke sıcak, kumlu ve düz olup şiddetli rüzgârlarıyla ünlüdür; halk değirmenleri rüzgârla döndürür ve kum tepelerini mühendislikle nakleder (yazara 'سنة ستين' yılında Mısır'a gelen biri 20.000 dirhemlik kum-nakli hikâyesini anlatmıştır). Hîlmend (هيل مند) nehri Gûr'dan çıkıp Büst üzerinden gelir, kanallara bölünüp uzunluğu 'نحو ثلثين فرسخا' olan tatlı sulu Zere gölüne dökülür. Bölge hurma, üzüm ve yiyecek bakımından bereketlidir; vergi geliri olarak Sicistan ve Ruhhac için 'مائة ألف دينار ومن الورق ثلثمائة ألف درهم' kaydedilir; Herat, Büst, Gazne yollarının menzilleri tek tek sayılır.",
+   "confidence": "high",
+   "seq": 87,
+   "lat": 29.814852000000002,
+   "lon": 58.573154,
+   "city_pids": [
+    "iac:place-00006016",
+    "iac:place-00001898",
+    "iac:place-00009574",
+    "iac:place-00005671",
+    "iac:place-00013660"
+   ],
+   "geo_note": "centroid (5 şehirden)"
+  },
+  {
+   "name_ar": "خراسان",
+   "name_tr": "Horasan (genel çerçeve)",
+   "sec": 23,
+   "page": "V02P425",
+   "quote_ar": "وأما خراسان فتشتمل على كور عظام وأعمال جسام وخراسان اسم الإقليم",
+   "cities_ar": [
+    "نيسابور",
+    "مرو",
+    "بلخ",
+    "هراة",
+    "سرخس",
+    "نسا",
+    "ابيورد",
+    "طوس",
+    "اسفزار",
+    "بوسنج",
+    "باذغيس",
+    "مرو الروذ",
+    "الجوزجان",
+    "الباميان",
+    "آمل"
+   ],
+   "products_text": "وأنفس ثياب القطن والإبريسم ما يرتفع من نيسابور ومرو; en değerli köleler Türk illerinden: وأنفس الرقيق ما يقع من بلاد الترك (bir gulâm 'بثلثة آلف دينار'); develer Serahs ve Belh'te; koyun Guzz, Gûr ve Halaç'tan celbedilir",
+   "summary_tr": "İbn Havkal Horasan'ı doğuda Sicistan-Hind, batıda Guzz çölü ve Cürcan, kuzeyde Mâverâünnehir, güneyde Fars çölü ve Kumis ile sınırlar; Hârezm ve Huttel'i Mâverâünnehir'e katar. Sâmânoğulları'na bağlı 'نيف وثلثون عملا' (otuz küsur amel) vardır; her amelde kadı, berîd sahibi, bündâr ve maûnet sahibi bulunur. En büyük dört merkez Nîşâbur, Merv, Belh ve Herat'tır. Bölüm sonunda mesafeler toplu verilir: Nîşâbur amelinin başından Ceyhun'a 'ثلث وعشرون مرحلة', Horasan'ın eni Bedahşan'dan Hârezm gölüne 'اربعين مرحلة'.",
+   "confidence": "high",
+   "seq": 88,
+   "lat": 36.313309090909094,
+   "lon": 63.20240181818181,
+   "city_pids": [
+    "iac:place-00012317",
+    "iac:place-00014773",
+    "iac:place-00002102",
+    "iac:place-00006376",
+    "iac:place-00012003",
+    "iac:place-00008019",
+    "iac:place-00015700",
+    "iac:place-00001314",
+    "iac:place-00011175",
+    "iac:place-00015191",
+    "iac:place-00013159"
+   ],
+   "geo_note": "centroid (11 şehirden)"
+  },
+  {
+   "name_ar": "نيسابور",
+   "name_tr": "Nîşâbur",
+   "sec": 23,
+   "page": "V02P431",
+   "quote_ar": "وليس بخراسان مدينة أصح هواء وأفسح فضاء وأشد عمارة وأدوم تجارة وأكثر سابلة وأعظم قافلة من نيسابور، ويرتفع عنها من أصناف البز وفاخر ثياب القطن والقز ما ينقل الى سائر بلدان الإسلام",
+   "cities_ar": [
+    "نيسابور",
+    "البوزجان",
+    "مالن",
+    "خايمند",
+    "سلومك",
+    "سنكان",
+    "زوزن",
+    "كندر",
+    "ترشيز",
+    "خان روان",
+    "ازاذوار",
+    "خسروكرد",
+    "بهمن آباذ",
+    "مزينان",
+    "اسفرايين"
+   ],
+   "products_text": "أصناف البز وفاخر ثياب القطن والقز ما ينقل الى سائر بلدان الإسلام وبعض بلدان الشرك لكثرته وجودته",
+   "summary_tr": "Nîşâbur (Ebreşehr) düz bir ovada, kerpiçten, yaklaşık 'فرسخ فى مثله' yayılmış; medine, kuhendiz ve rabazdan oluşur, cuma camii Muasker denen yerdedir ve emâret sarayı Amr b. Leys yapısıdır. Çarşıları rabazdadır; Büyük ve Küçük Murabbaa çarşıları, tüccar hanları ve her meslek için ayrı fundukları anlatılır; suyu yeraltı kanallarındandır, bazısı 'مائة درجة' derinliktedir. Horasan'ın en sağlıklı havalı, en mamur ve en işlek ticaret şehri sayılır; pamuklu ve ipekli kumaşları bütün İslam ülkelerine taşınır. Metne sonradan katılan pasaj Guzzların şehri yağmasını 'سنة تسع وأربعين وخمس مائة' tarihiyle, yeniden imarı 'سنة ثمانين وخمس مائة' işitimiyle verir.",
+   "confidence": "high",
+   "seq": 89,
+   "lat": 34.4342075,
+   "lon": 58.22392375,
+   "city_pids": [
+    "iac:place-00012317",
+    "iac:place-00017458",
+    "iac:place-00014724",
+    "iac:place-00017034",
+    "iac:place-00014259",
+    "iac:place-00006125",
+    "iac:place-00015159",
+    "iac:place-00000602"
+   ],
+   "geo_note": "centroid (8 şehirden)"
+  },
+  {
+   "name_ar": "طوس",
+   "name_tr": "Tûs",
+   "sec": 23,
+   "page": "V02P433",
+   "quote_ar": "وبنوقان معدن القدور البرام وتحمل الى سائر بلاد خراسان من جبلها وفى هذا الجبل غير معدن من النحاس والحديد والفضة والفيروزج والخماهن والدهنج",
+   "cities_ar": [
+    "الرايكان",
+    "طبران",
+    "نوقان",
+    "تروغوذ",
+    "سناباذ"
+   ],
+   "products_text": "معدن القدور البرام تحمل الى سائر بلاد خراسان؛ معادن النحاس والحديد والفضة والفيروزج والخماهن والدهنج؛ ذكر معادن ذهب غير أنها تقصر عن المؤنة وشىء من البلور غير صاف",
+   "summary_tr": "Tûs Nîşâbur'a bağlanan bir nahiyedir; şehirleri Râyekân, Tabarân, Nûkân ve Türogûz'dur. Ali b. Mûsâ er-Rızâ'nın kabri Nûkân dışında, Hârûn er-Reşîd'in kabri de yanında, Senâbâz köyündeki sağlam hisarlı güzel bir meşheddedir. Nûkân dağından taş tencere (birâm) çıkarılıp bütün Horasan'a taşınır; aynı dağda bakır, demir, gümüş, firuze, hamâhen ve dehnec madenleri vardır; altın damarları ise masrafı karşılamaz denir.",
+   "confidence": "high",
+   "seq": 90,
+   "lat": 32.61,
+   "lon": 54.269999999999996,
+   "city_pids": [
+    "iac:place-00007860",
+    "iac:place-00006658"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "مرو الشاهجان",
+   "name_tr": "Merv (Merv-i Şâhicân)",
+   "sec": 23,
+   "page": "V02P436",
+   "quote_ar": "ويرتفع من مرو الإبريسم والقز الكثير ويقال أن أصل الإبريسم بجرجان وطبرستان على قديم الأيام وقع من مرو ومنها يرتفع القطن الذي ينسب فى سائر الأقطان اليها جودته",
+   "cities_ar": [
+    "مرو",
+    "كشميهن",
+    "هرمزفره",
+    "سنج",
+    "حيرنج",
+    "الدندانقان",
+    "القرينين",
+    "باشان",
+    "خرق",
+    "السوسقان",
+    "زرق"
+   ],
+   "products_text": "الإبريسم والقز الكثير؛ القطن الذي ينسب فى سائر الأقطان اليها جودته وهو الغاية فى اللين؛ بطيخهم يقدد ويحمل الى كثير من الآفاق؛ فى مفازتها الاشترغاز",
+   "summary_tr": "Merv kadim bir şehirdir; kuhendizi Tahmûres'e, eski şehri Zülkarneyn'e atfedilir; dağdan uzak, çorak ve kumlu bir ovada kerpiç yapılıdır, üç cuma camii sayılır ve Mâcân'daki cami, çarşı ve emâret sarayı Ebû Müslim yapısıdır. Murgâb (مرغاب، وتفسيره مروآب) nehrinin suyu Zark köyündeki taksim yerinden delikli ahşap levhalarla mahallelere adaletle bölüştürülür; bu su işinde 'عشرة آلف رجل'den fazla adam çalıştığı nakledilir. Kavun kurusu uzak ufuklara taşınır; ipek ve kalitesiyle meşhur pamuk buradan çıkar. Kaydedilen tarihî not: İslam'ın ilk asrında Merv ordugâhtı, Yezdicerd burada bir değirmende öldürüldü ve Abbâsî devleti buradan zuhur etti.",
+   "confidence": "high",
+   "seq": 91,
+   "lat": 36.974452,
+   "lon": 61.907776,
+   "city_pids": [
+    "iac:place-00014773",
+    "iac:place-00012683",
+    "iac:place-00013251",
+    "iac:place-00001353",
+    "iac:place-00017475"
+   ],
+   "geo_note": "centroid (5 şehirden)"
+  },
+  {
+   "name_ar": "هراة",
+   "name_tr": "Herat ve çevresi",
+   "sec": 23,
+   "page": "V02P439",
+   "quote_ar": "ويرتفع من كروخ الكشمش المجلوب الى الآفاق والزبيب الطائفى المحمول الى العراق وسائر البلاد",
+   "cities_ar": [
+    "هراة",
+    "كروخ",
+    "اوفه",
+    "مالن",
+    "خيسار",
+    "استربيان",
+    "ماراباذ",
+    "باشان",
+    "كواسان",
+    "كواران",
+    "كوشك",
+    "ادرسكن"
+   ],
+   "products_text": "كروخ'tan الكشمش المجلوب الى الآفاق والزبيب الطائفى المحمول الى العراق; ماراباذ'dan أرز كثير يجلب الى النواحى; Herat فرضة لخراسان وسجستان وفارس",
+   "summary_tr": "Herat sağlam hisarlı, dört kapılı (Bâb Serây demirden, diğerleri ahşap) bir şehirdir; her kapısında çarşı vardır ve camii Horasan'ın en kalabalık mescidi sayılır; şehir Horasan, Sicistan ve Fars için bir iskele/pazar (فرضة) kabul edilir. Vali Muhammed b. Cerrâh'a karşı isyan üzerine Eş'as b. Muhammed şehri sulhen, iç hisarı zorla almış ve surlar yerle bir edilmiştir. Gûr tarafından gelen nehir Vahvâ, Bârest, Şekûkân, Kerâğ gibi kanallara ayrılıp rustakları sular. Kervah'tan kuru üzüm (keşmiş) ve Tâifî zebîbi Irak'a taşınır; Mârâbâz'dan bol pirinç çıkar; Esfizâr'ın dört şehri (en büyüğü Kevâsân) bağlı-bahçelidir.",
+   "confidence": "high",
+   "seq": 92,
+   "lat": 34.361708,
+   "lon": 60.14978,
+   "city_pids": [
+    "iac:place-00013081",
+    "iac:place-00014724",
+    "iac:place-00013120",
+    "iac:place-00014717",
+    "iac:place-00001353"
+   ],
+   "geo_note": "centroid (5 şehirden)"
+  },
+  {
+   "name_ar": "بوسنج",
+   "name_tr": "Bûşenc (Pûşeng)",
+   "sec": 23,
+   "page": "V02P439",
+   "quote_ar": "ولهم من أشجار العرعر ما ليس بجميع خراسان فى بلد ويحمل هذا الخشب الى سائر النواحى",
+   "cities_ar": [
+    "بوسنج",
+    "خركرد",
+    "فركرد",
+    "كره",
+    "كوسرى"
+   ],
+   "products_text": "أشجار العرعر ما ليس بجميع خراسان فى بلد ويحمل هذا الخشب الى سائر النواحى",
+   "summary_tr": "Bûşenc Herat'ın yaklaşık yarısı büyüklüğünde, hendekli hisarı ve üç kapısı (Bâb Alî, Bâb Herât, Bâb Kuhistân) olan bir şehirdir; yapıları Herat'tan farklı olarak alçıdandır. Suyu Herat nehrindendir; bu nehir çoğu zaman Serahs'a varmadan kesilir, yazın kurur, kışın ulaşır. Başka hiçbir Horasan beldesinde olmayan bollukta ardıç (ar'ar) ağaçları vardır ve keresteleri her tarafa taşınır; bağlı şehirler Harkerd, Ferkerd, Kere ve en büyükleri Kûserî'dir.",
+   "confidence": "high",
+   "seq": 93,
+   "lat": 33.102975,
+   "lon": 58.871674999999996,
+   "city_pids": [
+    "iac:place-00015700",
+    "iac:place-00017558",
+    "iac:place-00016056",
+    "iac:place-00003087"
+   ],
+   "geo_note": "centroid (4 şehirden)"
+  },
+  {
+   "name_ar": "باذغيس",
+   "name_tr": "Bâdgîs",
+   "sec": 23,
+   "page": "V02P440",
+   "quote_ar": "وجبل الفضة على جبل كان فيه معدن للفضة فتعطل لقلة الحطب",
+   "cities_ar": [
+    "جبل الفضة",
+    "كوه",
+    "كوغناباذ",
+    "بست",
+    "جاذوا",
+    "كابرون",
+    "كالوون",
+    "دهستان",
+    "خجستان"
+   ],
+   "products_text": "kuru tarım (مباخس) ve koyun: أصحاب زروع مباخس وأغنام; جبل الفضة'de eski gümüş madeni: كان فيه معدن للفضة فتعطل لقلة الحطب",
+   "summary_tr": "Bâdgîs'in şehirleri Cebelü'l-Fidda, Kûh, Kûğnâbâz, Bust, Câzevâ, Kâbrûn, Kâlvûn ve Dihistân'dır; sultanın makamı Kûğnâbâz'da, en büyük ve mamur olanı Dihistân'dır (Bûşenc'in yaklaşık yarısı kadar). Halkın çoğu yağmura dayalı ekinler (mebâhis) ve koyunlarla geçinir; Kâlvûn ve Kâbrûn'un suyu yalnız yağmur ve kuyulardandır. Cebelü'l-Fidda'daki gümüş madeni odun kıtlığından âtıl kalmıştır; Hucistân köyünün halkı ise aşırı Hâricîdir (شراة غلاة).",
+   "confidence": "high",
+   "seq": 94,
+   "lat": 33.217999999999996,
+   "lon": 61.842,
+   "city_pids": [
+    "iac:place-00002938",
+    "iac:place-00001898",
+    "iac:place-00004975",
+    "iac:place-00004153"
+   ],
+   "geo_note": "centroid (4 şehirden)"
+  },
+  {
+   "name_ar": "كنج رستاق",
+   "name_tr": "Genc Rustâk",
+   "sec": 23,
+   "page": "V02P440",
+   "quote_ar": "وهم أصحاب زروع وبساتين وكروم وهى مدينة صحيحة التربة والهواء",
+   "cities_ar": [
+    "ببن",
+    "كيف",
+    "بغشور"
+   ],
+   "products_text": "زروع وبساتين وكروم; Bağşûr'da زروعهم كلها بخوس وماؤهم من الأبآر",
+   "summary_tr": "Genc Rustâk'ın merkezi Bebn olup Kîf ve Bağşûr da ona bağlıdır; sultan Bebn'de oturur ve Bebn Bûşenc'den büyüktür. Bebn ve Kîf'in akarsuları, bahçeleri ve bağları boldur; Bağşûr çölde kurulmuş, kuyu suyuyla ve yağmura dayalı ekinlerle geçinen, toprağı ve havası sağlıklı bir şehirdir. Bu şehirlerin hepsi Merv er-Rûz yolu üzerindedir; Nîşâbur berîd sahibi Ebû Mansûr el-Begavî buralıdır.",
+   "confidence": "high",
+   "seq": 95,
+   "lat": 33.29,
+   "lon": 53.83,
+   "city_pids": [
+    "iac:place-00002031"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "مرو الروذ والطالقان",
+   "name_tr": "Merv er-Rûz ve Tâlekân",
+   "sec": 23,
+   "page": "V02P441",
+   "quote_ar": "ومرو الروذ بها من المدن قصر أحنف ودزه ومرو الروذ أكبرها وهى أكبر من بوسنج ولها نهر كبير",
+   "cities_ar": [
+    "مرو الروذ",
+    "قصر أحنف",
+    "دزه",
+    "الطالقان"
+   ],
+   "products_text": "بساتين وكروم كثيرة وفواكه حسنة على نهر مرو الروذ",
+   "summary_tr": "Merv er-Rûz, Bûşenc'den büyük olup Merv'e akan büyük nehrin (Murgâb) kıyısındadır; havası ve toprağı hoştur, nehir boyunda bağ ve bahçeleri çoktur. Kasr-ı Ahnef ondan bir merhale, Dize ise Enbâr yolu üzerinde 'على أربعة فراسخ'tedir; nehir Dize'nin ortasından geçip şehri köprüyle bağlanan iki yarıya böler. Tâlekân, Merv er-Rûz büyüklüğünde, Cûzcân dağlarına bitişik dağlık bir şehirdir ve havası Merv er-Rûz'dan daha sağlamdır.",
+   "confidence": "high",
+   "seq": 96,
+   "lat": 36.486965,
+   "lon": 65.8206525,
+   "city_pids": [
+    "iac:place-00011175",
+    "iac:place-00014519",
+    "iac:place-00014028",
+    "iac:place-00013343"
+   ],
+   "geo_note": "centroid (4 şehirden)"
+  },
+  {
+   "name_ar": "الجوزجان",
+   "name_tr": "Cûzcân",
+   "sec": 23,
+   "page": "V02P442",
+   "quote_ar": "ويرتفع من الجوزجان الجلود المدبوغة بها فتعم خراسان وما وراء النهر، والجوزجان ناحية عامة الخصب كثيرة أسباب التجارة والمجالب",
+   "cities_ar": [
+    "الفارياب",
+    "اليهودية",
+    "اشبورقان",
+    "اندخذ",
+    "كندرم",
+    "أشترج",
+    "انبار",
+    "سان",
+    "نريان",
+    "الجرزوان",
+    "جلار"
+   ],
+   "products_text": "الجلود المدبوغة بها فتعم خراسان وما وراء النهر; كندرم كثيرة الكروم والجوز واللوز; vergi kaydı: مائة ألف دينار وأربع مائة ألف درهم فى كل سنة",
+   "summary_tr": "Cûzcân'ın büyük şehirleri Enbâr, Yehûdiyye, Eşbûrkân ve Fâryâb'dır; Âl-i Ferîgûn'un kışlık makamı Enbâr'da, yazlığı iki dağ arasında Mekke'ye benzetilen Cürzüvân'dadır. Fâryâb camisinin minaresi yoktur, Yehûdiyye camisinin iki minaresi vardır; Kunderm ceviz, badem ve bağlarıyla, Endehûz ise çöl içinde yedi köyü ve Kürt koyunculularıyla anılır. Buranın tabaklanmış derileri Horasan ve Mâverâünnehir'in her yanına yayılır; yıllık geliri 'مائة ألف دينار وأربع مائة ألف درهم' olarak kaydedilir. Mesafeler aynen verilir: Eşbûrkân-Enbâr bir merhale, Eşbûrkân-Endehûz iki merhale, Eşbûrkân-Kunderm dört gün.",
+   "confidence": "high",
+   "seq": 97,
+   "lat": 35.794891428571425,
+   "lon": 65.65304714285715,
+   "city_pids": [
+    "iac:place-00013051",
+    "iac:place-00016339",
+    "iac:place-00000668",
+    "iac:place-00013065",
+    "iac:place-00006228",
+    "iac:place-00011997",
+    "iac:place-00017482"
+   ],
+   "geo_note": "centroid (7 şehirden)"
+  },
+  {
+   "name_ar": "غرج الشار",
+   "name_tr": "Garcistân (Garc eş-Şâr)",
+   "sec": 23,
+   "page": "V02P443",
+   "quote_ar": "ويرتفع من شورمين زبيب كثير يحمل الى النواحى",
+   "cities_ar": [
+    "بشين",
+    "شورمين",
+    "بلكيان"
+   ],
+   "products_text": "بشين'den أرز كثير يحمل الى بلخ وغيرها; شورمين'den زبيب كثير يحمل الى النواحى",
+   "summary_tr": "Garc eş-Şâr'ın birbirine yakın büyüklükte iki şehri Beşîn ve Şûrmîn'dir; ülkeye adını veren hükümdar 'Şâr' ikisinde de değil, dağdaki Belkiyân köyünde oturur. Eskiden burası 'ملك الغرجه' denen büyük bir hükümdarın ülkesiydi. Beşîn'den Belh ve komşu beldelere bol pirinç, Şûrmîn'den çevreye bol kuru üzüm gider; Beşîn ile Merv er-Rûz Dizesi arası bir merhaledir.",
+   "confidence": "high",
+   "seq": 98,
+   "lat": 36.853645,
+   "lon": 61.237840000000006,
+   "city_pids": [
+    "iac:place-00014329",
+    "iac:place-00002132"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "الغور",
+   "name_tr": "Gûr",
+   "sec": 23,
+   "page": "V02P444",
+   "quote_ar": "وأما الغور فإنها دار كفر وإنما تذكر فى الإسلام لإن بها مسلمين وهى جبال عامرة ذات عيون وبساتين وأنهار",
+   "cities_ar": [],
+   "products_text": "وأكثر رقيق الغور يقع الى هراة وسجستان ونواحيها; dağ silsilesi معادن للفضة والذهب (en zengini Hırhîz'e yakın olanı)",
+   "summary_tr": "Gûr, İslam ülkelerinin ortasında kalmış bir küfür yurdu olarak tasvir edilir; pınarları, bahçeleri ve nehirleri olan mamur, sarp dağlardır ve sınırındaki bazı topluluklar Müslüman görünürler. Her yanı Müslüman beldelerle çevrili tek küfür bölgesi olduğu (Mağrib'deki Bergavâta dışında) vurgulanır. Gûr kölelerinin çoğu Herat ve Sicistan taraflarına düşer; Gûr dağları Bâmiyân üzerinden Pençhîr'e, Vahân ve Türk illerine, Şâş sınırından Hırhîz'e uzanır ve baştan başa gümüş-altın madenleri taşır.",
+   "confidence": "high",
+   "seq": 99
+  },
+  {
+   "name_ar": "سرخس ونسا وفراوه",
+   "name_tr": "Serahs, Nesâ ve Ferâve",
+   "sec": 23,
+   "page": "V02P444",
+   "quote_ar": "وأما سرخس فمدينة بين نيسابور ومرو وهى فى أرض سهلة",
+   "cities_ar": [
+    "سرخس",
+    "نسا",
+    "فراوه",
+    "ابيورد"
+   ],
+   "products_text": "Serahs: معظم أملاكهم الجمال وهى مطرح لحمولات ما وراء النهر ومدن خراسان; Nesâ: خصبة كثيرة المياه والبساتين",
+   "summary_tr": "Serahs, Nîşâbur ile Merv arasında düz bir arazidedir; kalıcı akarsuyu yoktur (Herat suyunun artığı yılın bir kısmında ulaşır), ekinleri yağmura bağlıdır ve Merv'in yaklaşık yarısı kadardır; halkının malı ağırlıkla deve olup şehir Mâverâünnehir ve Horasan kervan yüklerinin konağıdır. Nesâ dağlar arasında, evlerinin içinden sular akan, bahçeli ve verimli bir şehirdir. Ferâve ise Guzz'a karşı çöl ağzında bir sınır ribatıdır; köyü ve ekini yoktur, ortasından akan bir pınarla geçinen 'دون ألف رجل ذى بأس' murâbıt barındırır.",
+   "confidence": "high",
+   "seq": 100,
+   "lat": 37.821866666666665,
+   "lon": 58.55276666666666,
+   "city_pids": [
+    "iac:place-00006376",
+    "iac:place-00012003",
+    "iac:place-00015174"
+   ],
+   "geo_note": "centroid (3 şehirden)"
+  },
+  {
+   "name_ar": "قوهستان",
+   "name_tr": "Kuhistân",
+   "sec": 23,
+   "page": "V02P445",
+   "quote_ar": "ويرتفع منها أنواع من الكرابيس فتحمل الى كثير من النواحى ولهم مسوح معروفة مشهورة",
+   "cities_ar": [
+    "قاين",
+    "ينابذ",
+    "الطبسين",
+    "خور",
+    "الطبس",
+    "خوسب"
+   ],
+   "products_text": "أنواع من الكرابيس فتحمل الى كثير من النواحى ولهم مسوح معروفة مشهورة; الطين النجاحى الذي يحمل الى الآفاق للأكل; Tabeseyn'de نخيل",
+   "summary_tr": "Kuhistân, Fars çölüne bakan bir Horasan nahiyesidir; bu adla bir şehri yoktur, kasabası hendekli kuhendize sahip Kâyin'dir ve suyu kanallardan gelir. Şehirleri Yenâbiz, Tabeseyn (Kerî), Hûr ve Tabes-i Mesînân'dır; Tabeseyn sıcak iklimli (cerûmî) olup hurmalıkları Kâyin'in bahçelerinden çoktur. Yerleşim seyrek, aralar çöldür ve buralarda Kürtler ile deve-koyun sürücüleri yaşar; hiçbir yerde akarsu yoktur, yalnız kanal ve kuyu vardır. Kâyin tarafında, Nîşâbur yönünde 'على مسيرة يومين' mesafede yemek için ufuklara taşınan Necâhî kili çıkar; kirbâs dokumaları ve meşhur çul (müsûh) üretimi de buradan yayılır.",
+   "confidence": "high",
+   "seq": 101,
+   "lat": 31.78,
+   "lon": 53.16,
+   "city_pids": [
+    "iac:place-00009402"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "بلخ",
+   "name_tr": "Belh",
+   "sec": 23,
+   "page": "V02P447",
+   "quote_ar": "وهى مدينة قديمة أزلية تجمع جميع التجارات وتقصد بالأمتعة من سائر الجهات وفى أهلها علم",
+   "cities_ar": [
+    "بلخ",
+    "سياه جرد"
+   ],
+   "products_text": "النوق المتقدمة على سائر ما فى جنسها; الأترج الحسن الفائق الكباب والنينوفر وقصب السكر; نهر دهاس يدير عشر أرحية",
+   "summary_tr": "Belh, rabazıyla birlikte 'نحو فرسخ فى مثله' tutan, kerpiç yapılı, kadim bir ovada şehirdir; Nevbahâr, Hindüvân, Yahûd kapıları gibi meşhur kapıları ve caminin çevresini saran çarşıları vardır. Dehâs adlı nehri on değirmen döndürür ve Siyâhcird'e kadar rustaklarını sular; kapılarını bağlar ve bağlıklar kuşatır. Her yönden ticaret mallarının toplandığı, halkı ilim ve fıkıhta ince görüşlü bir merkezdir; cinsinin en üstünü sayılan develeri, turuncu, nilüferi ve şeker kamışı buradan çıkar. Sonradan eklenen not şehrin 'سنة خمسين وخمسمائة' yılında Guzz eliyle harap edilip yakınına taşındığını söyler.",
+   "confidence": "high",
+   "seq": 102,
+   "lat": 36.7581,
+   "lon": 66.8981,
+   "city_pids": [
+    "iac:place-00002102"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "طخيرستان",
+   "name_tr": "Tohâristân",
+   "sec": 23,
+   "page": "V02P447",
+   "quote_ar": "وأما طخيرستان فإن أكبر مدنها الطايقان وهى مدينة فى مستواة وبينها وبين الجبل غلوة ولها نهر كبير وبساتين وكروم ومقدار الطايقان نحو ربع بلخ",
+   "cities_ar": [
+    "خلم",
+    "سمنجان",
+    "بغلان",
+    "سكلكند",
+    "ورواليز",
+    "ارهن",
+    "راون",
+    "الطايقان",
+    "سكيمشت",
+    "روا",
+    "سراى عاصم",
+    "اندراب",
+    "مذر",
+    "كه"
+   ],
+   "products_text": "Enderâb'a جاربايه ve بنجهير gümüşü toplanır: اليها تجمع الفضة التى تقع من جاربايه وبنجهير; şehirleri ذوات أنهار وأشجار وزروع كثيرة عامرة خصبة",
+   "summary_tr": "Tohâristân Belh ameline bağlıdır; en büyük şehri, dağa bir ok atımı ('غلوة') mesafede düzlükte kurulu, büyük nehirli, bağlı-bahçeli Tâyekân olup Belh'in yaklaşık dörtte biri kadardır. Onu büyüklükte Vervâlîz ve dağ boğazındaki Enderâbe izler; Câribâye ve Pençhîr madenlerinin gümüşü Enderâbe'de toplanır ve şehrin iki nehri (Enderâb ve Kâsân) vardır. Kalan şehirler birbirine benzer ve hepsi nehirli, ağaçlı, ekinli ve verimlidir.",
+   "confidence": "high",
+   "seq": 103,
+   "lat": 34.99587,
+   "lon": 67.933645,
+   "city_pids": [
+    "iac:place-00014982",
+    "iac:place-00005349"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "الختل",
+   "name_tr": "Huttel",
+   "sec": 23,
+   "page": "V02P448",
+   "quote_ar": "وبالخنل النتاج المشهور بالكثرة والوفور ويجلب منها الخيل والبغال",
+   "cities_ar": [
+    "هلاورد",
+    "لاوكند",
+    "كاونك",
+    "تمليات",
+    "هلبك",
+    "سكندره",
+    "منك",
+    "انديجاراغ",
+    "فارغر",
+    "رستاق بيك"
+   ],
+   "products_text": "النتاج المشهور بالكثرة والوفور ويجلب منها الخيل والبغال والرميك حسب ما يجلب من طخيرستان",
+   "summary_tr": "Huttel, Vahşâb ile Harbâb (Bedahşan) nehirleri arasındadır ve nehirleri Tirmiz'den önce Kuvâziyân yakınında birleşip Ceyhun'u oluşturur; Vahş ovası dışında tümü dağlıktır ama şehirleri (Sikendere hariç) düzlüktedir. En büyük şehri Munk, ardından sultanın oturduğu Hulbuk gelir; Munk'un suru alçı ve taştandır, diğer yapılar kerpiçtir. Bölge at, katır ve kısrak yetiştiriciliğiyle meşhurdur ve bunlar dışarıya sevk edilir; küfür diyarından Vahân ve Kerrân ona komşudur.",
+   "confidence": "high",
+   "seq": 104,
+   "lat": 37.955526666666664,
+   "lon": 69.39115666666666,
+   "city_pids": [
+    "iac:place-00014949",
+    "iac:place-00014694",
+    "iac:place-00013753",
+    "iac:place-00014950",
+    "iac:place-00014833",
+    "iac:place-00014431"
+   ],
+   "geo_note": "centroid (6 şehirden)"
+  },
+  {
+   "name_ar": "بذخشان",
+   "name_tr": "Bedahşan",
+   "sec": 23,
+   "page": "V02P448",
+   "quote_ar": "ويرتفع من بذخشان البجاذى الرفيع والحجارة ذات الجوهر النفيس التى تدانى الياقوت فى الحسن والرونق البديع",
+   "cities_ar": [
+    "بذخشان"
+   ],
+   "products_text": "البجاذى الرفيع; yakuta yakın cevherli taşlar (موردة ورمانية وأحمر قانئ وخمرى الصبغ); وهى أصل اللازورد; ويرتفع اليها من المسك التبتى على وخان الكثير",
+   "summary_tr": "Bedahşan, rustakları bol, mamur ve verimli bir iklimdir; Harbâb nehrinin batı yakasındadır ve İbnü'l-Feth'in memleketi olarak anılır; Munk'tan küçüktür ama bağları, ağaçları ve nehirleri vardır. Dağlarında çok maden bulunur: yakuta yaklaşan gül kurusu, nar rengi, koyu kırmızı ve şarabî cevherli taşlar ile becâzî (la'l türü) buradan çıkar ve burası lâciverdin (lazur) asıl kaynağıdır. Tibet miski Vahân yoluyla bolca buraya gelir.",
+   "confidence": "high",
+   "seq": 105
+  },
+  {
+   "name_ar": "بنجهير وجاربايه",
+   "name_tr": "Pençhîr ve Câribâye",
+   "sec": 23,
+   "page": "V02P448",
+   "quote_ar": "وبنجهير مدينة على جبل وتشتمل على نحو عشرة ألف رجل",
+   "cities_ar": [
+    "بنجهير",
+    "جاربايه",
+    "فروان"
+   ],
+   "products_text": "وكلاهما معدن للفضة; مقام أهلها على ما يستخرجونه من الفضة وغيرها من اللازورد والجوهر",
+   "summary_tr": "Pençhîr dağ üstünde, 'نحو عشرة ألف رجل' barındıran bir maden şehridir; halkına kabalık ve fesat hâkimdir denir, ekinleri elverişli ve nehir boyu bahçelidir. Câribâye ondan küçüktür; ikisi de gümüş madenidir ve halkı gümüş, lâcivert ve cevher çıkarmakla geçinir; Câribâye'de ne bahçe ne ekin vardır. Pençhîr nehri şehrin ortasını yarar, Fervân'a kıvrılıp Hind topraklarına dökülür.",
+   "confidence": "high",
+   "seq": 106
+  },
+  {
+   "name_ar": "الباميان وكابل وغزنه",
+   "name_tr": "Bâmiyân, Kâbil ve Gazne",
+   "sec": 23,
+   "page": "V02P449",
+   "quote_ar": "ويرتفع من كابل ثياب من القطن حسنة يعمل منها السبنيات الفاخرة والشرابيات المثمنة وتخرج الى خراسان وتدخل الى الصين وتنبث بالسند وأعمالها",
+   "cities_ar": [
+    "الباميان",
+    "بشغورقند",
+    "سكاوند",
+    "كابل",
+    "نجرا",
+    "فروان",
+    "غزنه"
+   ],
+   "products_text": "Kâbil'de النيل (yılda tüccar diliyle 'بألفى ألف دينار وزائد'); ثياب من القطن حسنة (السبنيات والشرابيات) تخرج الى خراسان والصين والسند; معادن حديد كثيرة; Gazne فرضة الهند",
+   "summary_tr": "Bâmiyân, Belh'in yaklaşık üçte biri kadar, dağ üstünde hisarsız bir şehirdir; ülkesi Şîr-i Bâmiyân'a nispet edilir ve meyveleri dışarıdan (Arsef vb.) getirilir. Gazne Hind'in iskelesi (فرضة الهند) olup bu havalinin en zengin ticaret şehridir; ancak 'سنة خمس وخمسين'te Hâcib Alptegin'in ordusuyla çökmesi yüzünden durumu değişmiştir. Kâbil'in sarp kuhendizinde Müslümanlar, rabazında kâfirler ve Yahudiler oturur; Hind hükümdarlığının (Şâhiyye) ancak Kâbil'de akdedilmesiyle meşruiyet kazandığına inanılır. Kâbil çivit ticareti (tüccarlarının deyişiyle yılda 'بألفى ألف دينار وزائد') ve Horasan'a, Çin'e, Sind'e giden pamuklu sebeniyyât-şarâbiyyât kumaşlarıyla anılır; demir madenleri çoktur, hurması yoktur.",
+   "confidence": "high",
+   "seq": 107,
+   "lat": 34.49512333333333,
+   "lon": 68.58605333333333,
+   "city_pids": [
+    "iac:place-00013159",
+    "iac:place-00017022",
+    "iac:place-00010060"
+   ],
+   "geo_note": "centroid (3 şehirden)"
+  },
+  {
+   "name_ar": "آمل وزم",
+   "name_tr": "Âmul ve Zem (Ceyhun boyu)",
+   "sec": 23,
+   "page": "V02P451",
+   "quote_ar": "وآمل وزم مدينتان متقاربتان فى الكبر على شط جيحون وبهما مياه جارية وبساتين وزروع",
+   "cities_ar": [
+    "آمل",
+    "زم"
+   ],
+   "products_text": "بساتين وزروع; ticaret düğümü: وبهما مجمع طرق خراسان الى ما وراء النهر",
+   "summary_tr": "Âmul ve Zem, Ceyhun kıyısında birbirine yakın büyüklükte iki şehirdir; akarsuları, bahçeleri ve ekinleri vardır ve Horasan'dan Mâverâünnehir'e giden yolların kavşağıdırlar. Horasan'ın en büyük geçidi Âmul'dedir; Zem imarca ondan geridir ama onun da bir geçidi vardır. İkisini Belh hududundan Hârezm gölüne uzanan, pınarsız ve nehirsiz, kuyulu ve otlaklı kumlu bir çöl kuşatır.",
+   "confidence": "high",
+   "seq": 108
+  },
+  {
+   "name_ar": "ما وراء النهر (عام)",
+   "name_tr": "Mâverâünnehir (genel tasvir)",
+   "sec": 24,
+   "page": "V02P463",
+   "quote_ar": "وما وراء النهر «24» إقليم من أخصب أقاليم الأرض منزلة وأنزهها وأكثرها خيرا",
+   "cities_ar": [
+    "بخارا",
+    "سمرقند",
+    "خوارزم",
+    "فرغانه",
+    "الشاش",
+    "اشروسنه",
+    "الطراز",
+    "باراب",
+    "ستكند",
+    "اسبيجاب",
+    "بنجهير",
+    "الصغانيان",
+    "واشجرد",
+    "الترمذ",
+    "خجنده"
+   ],
+   "products_text": "معادن الحديد الفائضة عن الحاجة؛ معادن الذهب والفضة والزيبق التي لا يقاربها معدن في سائر بلدان الإسلام؛ النوشاذر الذي لم يعلمه المؤلف في غير ما وراء النهر (رأى شيئا منه بصقلية وليس كنوشاذرهم في القوة)؛ الكاغذ الذي لا نظير له في الجودة والكثرة؛ الصوف والقز وطرائف الكرابيس والبز؛ الرقيق من الأتراك المحيطين (خير رقيق وأكثره ثمنا)؛ المسك المجلوب من التبت وخرخيز؛ الزعفران من الصغانيان إلى واشجرد؛ الأوبار من السمور والسنجاب والثعالب؛ الخدنك والختو والبزاة؛ الفواكه الكثيرة بالسغد واشروسنه وفرغانه والشاش؛ الفستق المباح في الجبال",
+   "summary_tr": "Bölümün açılışında Mâverâünnehir'in sınırları çizilir (doğuda Fâmir/Râşt ve Hind toprakları, batıda Guziyye ve Harluhiyye Türkleri, güneyde Bedahşan'dan Hârizm gölüne Ceyhun) ve iklim yeryüzünün en verimli, en müreffeh bölgelerinden biri olarak tasvir edilir. Halkın cömertliği, cihattaki gücü (metne göre 'زيادة على عشرة آلف رباط' — on binden fazla ribât), Sâmânî yönetimi ve vergi/maaş düzeni ('عشرون ألف ألف درهم' yıllık iki taksit) ayrıntılı anlatılır. Demir, altın, gümüş, cıva ve nışadır madenleri, kâğıt, kürkler, misk, köle ticareti ve meyve bolluğu bölgenin başlıca ürünleri olarak sayılır.",
+   "confidence": "high",
+   "seq": 109,
+   "lat": 40.120365,
+   "lon": 67.37950500000001,
+   "city_pids": [
+    "iac:place-00013551",
+    "iac:place-00006611",
+    "iac:place-00015231",
+    "iac:place-00013042",
+    "iac:place-00013334",
+    "iac:place-00012368"
+   ],
+   "geo_note": "centroid (6 şehirden)"
+  },
+  {
+   "name_ar": "الختل والوخش",
+   "name_tr": "Huttel ve Vahş",
+   "sec": 24,
+   "page": "V02P475",
+   "quote_ar": "وأرض الختل ذات زروع وثمار وهى ناحية على غاية الخصب والسعة وبها من الدواب والمواشى الغزير الكثير",
+   "cities_ar": [
+    "هلبك",
+    "منك",
+    "تمليات",
+    "فارغر",
+    "كاوبنج",
+    "انديجاراغ",
+    "هلاورد",
+    "لاوكند"
+   ],
+   "products_text": "يرتفع من وخان والشقنية المسك والرقيق؛ بوخان معادن للفضة غزيرة؛ في أودية الختل ذهب وتبر كثير يجمع في السيول؛ زروع وثمار ودواب ومواش غزيرة",
+   "summary_tr": "Ceyhun üzerindeki ilk kûre olarak Huttel ve Vahş tek amel altında birleşmiş iki bölge diye tanıtılır; Harbâb ile Vahşâb nehirleri arasındadır. Sultanın makamı Hulbuk'tadır; Vahş'ın şehirleri Hulâverd ve Lâvkend'dir. Komşu küfür diyarı Vahân ve Şıknîye'den misk ve köle gelir; Vahân'da zengin gümüş madenleri, Huttel vadilerinde sellerle toplanan altın ve altın tozu vardır. Vahân ile Tibet arası metne göre 'مسافة قريبة'dir.",
+   "confidence": "high",
+   "seq": 110,
+   "lat": 37.955526666666664,
+   "lon": 69.39115666666667,
+   "city_pids": [
+    "iac:place-00014950",
+    "iac:place-00014833",
+    "iac:place-00013753",
+    "iac:place-00014431",
+    "iac:place-00014949",
+    "iac:place-00014694"
+   ],
+   "geo_note": "centroid (6 şehirden)"
+  },
+  {
+   "name_ar": "الترمذ والصغانيان والقواذيان وواشجرد وشومان",
+   "name_tr": "Tirmiz, Sağâniyân, Kuvâziyân, Vâşcird ve Şûmân",
+   "sec": 24,
+   "page": "V02P476",
+   "quote_ar": "ويرتفع من واشجرد وشومان الى قرب الصغانيان زعفران كثير يحمل الى كثير من النواحى والبلدان",
+   "cities_ar": [
+    "الترمذ",
+    "صرمنجى",
+    "هاشم جرد",
+    "القواذيان",
+    "نودز",
+    "واشجرد",
+    "شومان",
+    "الصغانيان"
+   ],
+   "products_text": "زعفران كثير من واشجرد وشومان إلى قرب الصغانيان يحمل إلى كثير من النواحي والبلدان؛ الفوة من القواذيان تحمل إلى بلد الهند الكثير الغزير وللسلطان فيها سهم",
+   "summary_tr": "Tirmiz, Ceyhun kıyısında kuhandizli ve surlu bir liman-pazar (furda) şehri olarak anlatılır; sokak ve çarşıları tuğla döşelidir, en yakın dağ 'على نحو مرحلة' uzaklıktadır. Kuvâziyân (Fez de denir) Tirmiz'den çok küçüktür; Vâşcird Tirmiz'e denk, Şûmân ondan küçüktür. Sağâniyân şehirce Tirmiz'den büyük ama Tirmiz nüfus ve malca üstündür; Horasan ordu kumandanı Ebû Ali b. Muhtâc'ın memleketidir. Vâşcird-Şûmân yöresinden safran, Kuvâziyân'dan Hindistan'a ihraç edilen kökboya (fuvve) kalkar.",
+   "confidence": "high",
+   "seq": 111,
+   "lat": 39.037842500000004,
+   "lon": 61.06413500000001,
+   "city_pids": [
+    "iac:place-00012177",
+    "iac:place-00012368",
+    "iac:place-00007360",
+    "iac:place-00013334"
+   ],
+   "geo_note": "centroid (4 şehirden)"
+  },
+  {
+   "name_ar": "اخسيسك وفربر",
+   "name_tr": "Ahsîsek (Zem karşısı) ve Ferber",
+   "sec": 24,
+   "page": "V02P476",
+   "quote_ar": "وهى مدينة خصبة صغيرة والغالب على أطرافها السوائم من الإبل والغنم",
+   "cities_ar": [
+    "اخسيسك",
+    "زم",
+    "فربر"
+   ],
+   "products_text": "الغالب على أطرافها السوائم من الإبل والغنم؛ وعلى ظهرها مفازة وأبآر ومراع",
+   "summary_tr": "Ahsîsek, Horasan tarafındaki Zem'in karşısında, idari olarak Mâverâünnehir'e bağlı küçük fakat verimli bir şehir olarak geçer; çevresinde deve ve koyun sürüleri, ardında çöl, kuyular ve otlaklar vardır. Ferber ise Buhara'ya bağlı bir şehir olarak zikredilir.",
+   "confidence": "medium",
+   "seq": 112
+  },
+  {
+   "name_ar": "خوارزم",
+   "name_tr": "Hârizm",
+   "sec": 24,
+   "page": "V02P481",
+   "quote_ar": "وخوارزم ناحية خصبة كثيرة الأطعمة والحبوب والفواكه غير أنه لا جوز بها ويرتفع منها من ثياب القطن والصوف أمتعة كثيرة تصل الى الآفاق",
+   "cities_ar": [
+    "كاث",
+    "الجرجانية",
+    "درغان",
+    "هزار اسب",
+    "خيوه",
+    "ارد خشميثن",
+    "سافردز",
+    "نوزوار",
+    "كردران خواش",
+    "كردر",
+    "قرية قراتكين",
+    "مذمينيه",
+    "مزداخقان",
+    "الطاهرية"
+   ],
+   "products_text": "ثياب القطن والصوف أمتعة كثيرة تصل إلى الآفاق؛ يسارهم من متاجرة الأتراك واقتناء المواشي؛ أكثر رقيق الصقالبة والخزر مع رقيق الأتراك؛ الأوبار من الفنك والسمور والثعالب والدلق؛ لا جوز بها وليس ببلدهم معدن ذهب ولا فضة",
+   "summary_tr": "Hârizm, Horasan'dan ve Mâverâünnehir'den kopuk, her yandan çöllerle çevrili ayrı bir iklim olarak tasvir edilir; Ceyhun'un iki yakasında uzanır, en büyük şehri Gürgenç (el-Curcâniyye) Oğuz ticaretinin kapısıdır ve kervanları Cürcan ile Hazar'a çıkar. Eski başkent Kâs'ı nehir yıkmıştır. Metin Ceyhun'un kanal ağını (Gâvhâre, Kerderânhâş, Hîve, Mezrâ, Vezâk vb.) ve gölü ayrıntısıyla verir: gölün çevresi 'نحو مائة فرسخ', iki göl arası 'نحو عشرين مرحلة', Ceyhun ile Şâş nehri döküldüğü yerler arası 'نحو عشرة أيام'. Pamuk-yün dokumalar, Türklerle ticaret, Sakâlibe-Hazar-Türk köleleri ve kürkler başlıca gelir kaynaklarıdır; halkı Horasan'da en çok gurbete çıkan, dili kendine özgü bir topluluktur.",
+   "confidence": "high",
+   "seq": 113,
+   "lat": 41.376275,
+   "lon": 60.11414166666666,
+   "city_pids": [
+    "iac:place-00010063",
+    "iac:place-00004551",
+    "iac:place-00006206",
+    "iac:place-00014920",
+    "iac:place-00014779",
+    "iac:place-00007853"
+   ],
+   "geo_note": "centroid (6 şehirden)"
+  },
+  {
+   "name_ar": "بخارا",
+   "name_tr": "Buhara ve çevresi",
+   "sec": 24,
+   "page": "V02P472",
+   "quote_ar": "ولم أر ولم أسمع فى الإسلام بظاهر بلد أحسن من ظاهر بخارا",
+   "cities_ar": [
+    "بومجكث",
+    "الطواويس",
+    "نمجكث",
+    "زندنه",
+    "مغكان",
+    "خجاده",
+    "بيكند",
+    "فربر",
+    "كرمينيه",
+    "خديمنكن",
+    "خرغانكث",
+    "مذيامجكث"
+   ],
+   "products_text": "يرتفع من الطواويس من ثياب القطن ما يحمل لكثرته الى العراق؛ يرتفع من بخارا ثياب تعرف بالبخارية كرابيس ثقال الأوزان يرغب العرب فيها وكذلك البسط وثياب من الصوف للفرش ومقاعد ومصليات محاريب؛ فواكه بخارا أصح فواكه ما وراء النهر؛ نقود: الدراهم الغطريفية والمحمدية والمسيبية",
+   "summary_tr": "Buhara (asıl adı Bûmeckes) Sâmânîlerin Horasan üzerindeki emirlik merkezi olarak uzun uzadıya tasvir edilir: şehri, kasrları ve köyleriyle kuşatan dış sur metne göre 'اثنا عشر فرسخا فى مثلها' ölçüsündedir; yedi demir kapısı, Sugd nehrinden beslenen sayısız kanalı vardır. Kuhandizinden bakıldığında göğe değen kesintisiz yeşillik anlatılır. Duvar içinde Tavâvîs, Nemcekes, Zendene, Magkân, Hucâde; dışında Bîkend, Ferber, Kirmîniye vb. şehirleri sayılır; Bîkend'de 'نحو ألف رباط' olduğu söylenir. Tavâvîs'ten Irak'a pamuklu, Buhara'dan Arapların rağbet ettiği 'البخارية' kumaşlar ve halılar ihraç edilir; kendine özgü Gıtrîfî karışık-maden dirhemleri yalnız Buhara'da geçer. Nüfus kalabalıklığından yiyecek, çevre Mâverâünnehir'den taşınır.",
+   "confidence": "high",
+   "seq": 114,
+   "lat": 39.758826666666664,
+   "lon": 66.05993166666667,
+   "city_pids": [
+    "iac:place-00015699",
+    "iac:place-00013345",
+    "iac:place-00006103",
+    "iac:place-00015213",
+    "iac:place-00004167",
+    "iac:place-00011041"
+   ],
+   "geo_note": "centroid (6 şehirden)"
+  },
+  {
+   "name_ar": "السغد وسمرقند",
+   "name_tr": "Suğd ve Semerkand",
+   "sec": 24,
+   "page": "V02P492",
+   "quote_ar": "وسمرقند مجمع رقيق ما وراء النهر وخير الرقيق بما وراء النهر تربية سمرقند",
+   "cities_ar": [
+    "سمرقند",
+    "الدبوسية",
+    "اربنجن",
+    "الكشانية",
+    "اشتيخن",
+    "كرمينيه",
+    "بنجيكث",
+    "ورغسر",
+    "اباركث",
+    "كبوذنجكث",
+    "ويذار",
+    "زرمان"
+   ],
+   "products_text": "سمرقند مجمع رقيق ما وراء النهر وخير الرقيق تربية سمرقند؛ من جبل كوهك أحجار البلد والطين المستعمل فى الأوانى والنورة والزجاج وبلغه أن فيه فضة وذهبا؛ ويذار يعمل بها الثياب الويذارية القطنية تجلب الى فارس والعراق وسائر الأقطار ويبلغ الثوب منها من عشرين دينارا الى دينارين؛ أعناب الدرغم تفضل على سائر الرساتيق",
+   "summary_tr": "Suğd, Buhara'nın doğusunda Kirmîniye'den sonra Debûsiye, Erbincen, Kuşâniye ve Semerkand ile başlar; başkenti Semerkand'dır. Şehrin dört kapısı (Bâbü's-Sîn, Nevbahâr, Buhara, Kiş), kurşun kaplı su kemeri, Sugd vadisinin Varagsar'dan dağılan kanal sistemi (Berş, Bârmeş, Beşmîn vb.) ve on iki rustâkı (Mâyemürg, Şâvezâr, Dergam, Ebgar, Büzmâcen, Vîzâr vb.) ayrıntılı anlatılır. Sugd vadisi, Gûta-i Dımaşk ve Übülle nehriyle karşılaştırılıp en güzeli sayılır; yeşilliği 'ثمنية أيام' boyunca kesilmez. Semerkand Mâverâünnehir'in köle pazarı ve limanıdır (furda); Vîzâr'ın pamuklu 'الويذارية' kumaşları Fars ve Irak'a ihraç edilir. Kuşâniye Suğd'un kalbi ve en mamur şehridir.",
+   "confidence": "high",
+   "seq": 115,
+   "lat": 39.159499999999994,
+   "lon": 64.71721428571429,
+   "city_pids": [
+    "iac:place-00006611",
+    "iac:place-00013244",
+    "iac:place-00000408",
+    "iac:place-00000672",
+    "iac:place-00015259",
+    "iac:place-00010123",
+    "iac:place-00012608"
+   ],
+   "geo_note": "centroid (7 şehirden)"
+  },
+  {
+   "name_ar": "كش",
+   "name_tr": "Kiş (Keş)",
+   "sec": 24,
+   "page": "V02P501",
+   "quote_ar": "ويرتفع بكش من الملح المستخرج «2» من الأرض ما يحمل الى كثير من آفاق خراسان",
+   "cities_ar": [
+    "كش",
+    "نوقد قريش",
+    "سونج",
+    "اسكيفغن",
+    "بركنان"
+   ],
+   "products_text": "الملح المستخرج من الأرض يحمل الى كثير من آفاق خراسان؛ فى جبالها العقاقير الكثيرة وبها يسقط الترنجبين؛ منها بغال ما وراء النهر ويجلب الى أقطار خراسان منها الفره الجياد؛ فواكه تدرك أسرع مما تدرك بسائر ما وراء النهر وتأتى بواكيرها الى بخارا",
+   "summary_tr": "Kiş; kuhandiz, hisar, rabaz ve dış şehirden oluşan, ölçüsü 'نحو ثلث فرسخ فى مثله' olan, çok verimli fakat vebalı (havası bozuk) bir şehir olarak tasvir edilir; sıcak iklimli (cerûmî) olduğundan meyveleri Mâverâünnehir'in her yerinden önce olgunlaşır ve turfandası Buhara'ya gider. Kasârîn ve Esrûz nehirleri şehrin iki yanından akar; ameli 'نحو أربعة أيام فى مثلها' uzunluğundadır. Topraktan çıkarılan tuz Horasan'a taşınır; dağlarında bol şifalı bitki (akâkîr) ve terencübin vardır; Mâverâünnehir'in katırları buradan çıkar.",
+   "confidence": "high",
+   "seq": 116,
+   "lat": 38.702299999999994,
+   "lon": 66.05355,
+   "city_pids": [
+    "iac:place-00006804",
+    "iac:place-00016297"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "نسف",
+   "name_tr": "Nesef (Nahşeb)",
+   "sec": 24,
+   "page": "V02P502",
+   "quote_ar": "والغالب على نسف ونواحيها المضافة اليها الخصب والسعة",
+   "cities_ar": [
+    "نسف",
+    "بزده",
+    "كسبه"
+   ],
+   "products_text": "الغالب على قراهم المباخس (زراعة بعلية) وسقيهم بالنواضح لا بالسيح لمباقلهم وأجنتهم؛ الغالب عليها الخصب والسعة",
+   "summary_tr": "Nesef, Buhara-Belh yolu üzerinde düzlükte kurulu, harap bir kuhandizi ve dört kapılı (Neccâriye, Semerkand, Kiş, Gûbezîn) bir rabazı olan şehir olarak anlatılır; Kiş sularının toplandığı tek nehir şehrin ortasından geçer ve yılın bir kısmında kurur. Minberli iki kasabası Bezde ve Kesbe'dir; Bezde Nesef'ten büyüktür. Köylerinde kuru tarım (mebâhis) hâkimdir, bostanlar kuyu suyuyla (nevâdıh) sulanır; bölgeye genel olarak bolluk ve genişlik hâkimdir.",
+   "confidence": "high",
+   "seq": 117,
+   "lat": 38.885,
+   "lon": 65.6,
+   "city_pids": [
+    "iac:place-00012013",
+    "iac:place-00015222"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "اشروسنه",
+   "name_tr": "Üsrûşene",
+   "sec": 24,
+   "page": "V02P503",
+   "quote_ar": "وأما اشروسنه فإنه اسم الإقليم [كما أن السغد اسم الإقليم] «10» وليس بها مدينة بهذا الاسم",
+   "cities_ar": [
+    "بومجكث",
+    "ارسيانيكث",
+    "كركث",
+    "غزق",
+    "فغكث",
+    "ساباط",
+    "زامين",
+    "ديزك",
+    "نوجكث",
+    "خرقانه",
+    "مرسمنده",
+    "خديسر"
+   ],
+   "products_text": "مزارعها ومراعيها وقراها عامرة خصبة كثيرة الخير؛ بمرسمنده مجتمع سوق ينتابه الناس من الأماكن البعيدة فى رأس كل شهر مرة؛ زامين منزل للسابلة من السغد الى فرغانه",
+   "summary_tr": "Üsrûşene'nin bir iklim adı olduğu, bu adla bir şehir bulunmadığı belirtilir; başkenti (yerel dilde) Bûmeckes'tir ve erkekleri 'نحو عشرة آلف رجل' tahmin edilir. Zâmîn (Sûsende) Suğd-Fergana yolunun konağıdır; Dîzek'te Semerkandlıların ribât nöbeti tuttuğu, Afşin'in yaptırdığı ünlü Hudîser ribâtı 'على فرسخين' uzaklıktadır. Mersmende soğuğundan bağ-bostan tutmayan ama suyu bol, çayırlı bir dağ şehridir ve ayda bir kurulan meşhur pazarı uzaklardan ziyaretçi çeker. İklimde gemi yüzecek nehir ve göl yoktur; fakat ekinlik, otlak ve köyleri mamur ve berekettedir.",
+   "confidence": "high",
+   "seq": 118,
+   "lat": 40.142985714285714,
+   "lon": 68.31336999999999,
+   "city_pids": [
+    "iac:place-00015699",
+    "iac:place-00008854",
+    "iac:place-00014450",
+    "iac:place-00014189",
+    "iac:place-00005935",
+    "iac:place-00015228",
+    "iac:place-00004166"
+   ],
+   "geo_note": "centroid (7 şehirden)"
+  },
+  {
+   "name_ar": "البتم",
+   "name_tr": "Buttem dağları",
+   "sec": 24,
+   "page": "V02P505",
+   "quote_ar": "والبتم جبال شاهقة سامقة منيعة والغالب عليها النزهة والخضرة",
+   "cities_ar": [
+    "برغر",
+    "بنجيكث",
+    "مسخا",
+    "مينك",
+    "مرسمنده",
+    "جنكاكث",
+    "سويدك"
+   ],
+   "products_text": "فيها معادن الذهب والفضة والزاج والنوشاذر الذي يحمل الى كثير من الأماكن؛ بناحية مينك ومرسمنده تتخذ آلات الحديد التى تعم خراسان ويجهز الى العراق لأن الحديد بفرغانه لين ممكن",
+   "summary_tr": "Buttem, yüksek ve sarp dağlar zinciri olarak tasvir edilir; Semerkand, Suğd ve Buhara'nın suyu Orta Buttem'deki Cen kaynağından çıkar. Nışadır ocakları ayrıntıyla anlatılır: buhar çıkan mağaraların üstüne ev yapılır, buhar duvarlara yapışınca nışadır kazınır; içerisi o kadar sıcaktır ki ıslak keçeye bürünmeden girilemez. Altın, gümüş ve zâc madenleri vardır; Mînk ve Mersmende yöresinde Fergana'nın yumuşak demirinden Horasan'ı kaplayan ve Irak'a gönderilen demir aletler yapılır. Mînk, Kuteybe b. Müslim'in Müsevvide ile savaştığı yerdir.",
+   "confidence": "high",
+   "seq": 119,
+   "lat": 40.334999999999994,
+   "lon": 67.295,
+   "city_pids": [
+    "iac:place-00001678",
+    "iac:place-00015228"
+   ],
+   "geo_note": "centroid (2 şehirden)"
+  },
+  {
+   "name_ar": "الشاش وايلاق",
+   "name_tr": "Şâş ve İlâk",
+   "sec": 24,
+   "page": "V02P507",
+   "quote_ar": "وليس بخراسان وما وراء النهر إقليم على مقدارها فى المساحة أكثر منابر وقرى عامرة",
+   "cities_ar": [
+    "بنكث",
+    "دنفغانكث",
+    "جينانجكث",
+    "نجاكث",
+    "فناكث",
+    "خرشكث",
+    "استوركث",
+    "وينكرد",
+    "تونكث",
+    "سكاكث",
+    "بانجخاش",
+    "نوكث",
+    "بالايان",
+    "اربلخ",
+    "خاش"
+   ],
+   "products_text": "بايلاق معادن ذهب وفضة فى جبالها؛ وبايلاق دار ضرب للعين والورق يروج فيها مال كثير من النوعين جميعا؛ وليس بما وراء النهر دار ضرب إلا ببخارا وسمرقند وايلاق فقط",
+   "summary_tr": "Şâş ve İlâk birlikte tasvir edilir: yüzölçümleri metne göre 'مسيرة يومين فى ثلثة أيام' olduğu halde Horasan ve Mâverâünnehir'de bu boyutta minber ve mamur köyce daha zengin iklim yoktur; Türklere karşı en büyük serhattir (sugûr). Şâş'ın başkenti Binkes üç surlu, çok kapılı bir şehirdir; Türklerin girişini önlemek için Sâfilg dağından Şâş vadisine uzanan seddi Abdullah b. Humeyd b. Sevr yaptırmıştır. İlâk'ın başkenti Tûnkes'tir; İlâk dağlarında altın ve gümüş madenleri, ayrıca altın-gümüş sikke basan darphane vardır — Mâverâünnehir'de darphane yalnız Buhara, Semerkand ve İlâk'tadır. Bölge bahçe, ağaç ve köşklerle kesintisiz mamur anlatılır.",
+   "confidence": "high",
+   "seq": 120,
+   "lat": 41.375226000000005,
+   "lon": 70.347954,
+   "city_pids": [
+    "iac:place-00011918",
+    "iac:place-00013949",
+    "iac:place-00014925",
+    "iac:place-00013532",
+    "iac:place-00013106"
+   ],
+   "geo_note": "centroid (5 şehirden)"
+  },
+  {
+   "name_ar": "اسبيجاب ونواحيها",
+   "name_tr": "İsbîcâb ve çevresi (Tarâz, Fârâb, Savgar, Sabran)",
+   "sec": 24,
+   "page": "V02P510",
+   "quote_ar": "وليس بخراسان كلها وما وراء النهر بلد لا خراج عليه إلا اسبيجاب",
+   "cities_ar": [
+    "اسبيجاب",
+    "بذخكث",
+    "سبانيكث",
+    "الطراز",
+    "اطلخ",
+    "شلجى",
+    "كدر",
+    "ستكند",
+    "شاوغر",
+    "صبران",
+    "وسيج"
+   ],
+   "products_text": "صبران مدينة يجتمع بها الغزية للصلح والهدنة والتجارات إذا كان صلح؛ الطراز منجر للمسلمين من الأتراك؛ بين باراب وكنجده والشاش مراع خصبة بينها نحو ألف بيت من الأتراك قد أسلموا",
+   "summary_tr": "İsbîcâb, Binkes'in yaklaşık üçte biri büyüklüğünde, harap kuhandizli fakat şehir ve rabazı mamur, bolluk içinde bir serhat şehri olarak anlatılır; metne göre Horasan ve Mâverâünnehir'de haraç alınmayan tek belde İsbîcâb'dır. Çevre şehirleri arasında Tarâz Türklerle Müslümanların ticaret kapısı, Sabran barış zamanında Oğuzların anlaşma ve ticaret için toplandığı müstahkem şehirdir; Sütkend İslam'a girmiş Türk oymaklarının toplandığı minberli bir şehirdir. Kedir, Fârâb'ın kasabasıdır; mantık kitaplarının şârihi Ebû Nasr el-Fârâbî buradan (Vesîc) çıkmıştır. Fârâb ile Kence ve Şâş arasındaki otlaklarda 'نحو ألف بيت' Müslüman olmuş Türk çadırı vardır.",
+   "confidence": "high",
+   "seq": 121,
+   "lat": 37.80919142857143,
+   "lon": 60.846378571428566,
+   "city_pids": [
+    "iac:place-00013042",
+    "iac:place-00015610",
+    "iac:place-00017176",
+    "iac:place-00013134",
+    "iac:place-00014317",
+    "iac:place-00010166",
+    "iac:place-00007475"
+   ],
+   "geo_note": "centroid (7 şehirden)"
+  },
+  {
+   "name_ar": "خجنده",
+   "name_tr": "Hucende",
+   "sec": 24,
+   "page": "V02P511",
+   "quote_ar": "وهى مدينة نزهة بها فواكه حسنة وفى أهلها جمال ولهم مروءة",
+   "cities_ar": [
+    "خجنده",
+    "كند",
+    "القرية الحديثة",
+    "جند",
+    "خواره"
+   ],
+   "products_text": "كلها كروم وبساتين وفواكه حسنة؛ مدينة تضيق عما يعمهم من الزروع فيجلب اليهم من سائر فرغانه واشروسنه ما يقيم أودهم؛ تنحدر اليهم السفن من نهر الشاش وتحمل فيه المير الى القرية الحديثة إذا كانت الهدنة",
+   "summary_tr": "Hucende, Şâş nehrinin batı yakasında, boyu eninden uzun, bağ ve bostanlarla kaplı ferah bir şehir olarak tasvir edilir; tek şehri 'على فرسخ منها' uzaklıktaki Kend'dir. Ekinleri halkına yetmediğinden tahıl Fergana ve Üsrûşene'den getirilir. Şâş nehrinin kaynakları ve akışı burada anlatılır: taşkında Ceyhun'un 'نحو ثلثى' kadar olur, barış zamanı Oğuz hükümdarının kışladığı el-Karyetü'l-hadîse'ye gemiyle erzak taşınır; bu köy Hârizm'e 'على عشر مراحل', Fârâb'a 'على عشرين مرحلة' uzaklıktadır.",
+   "confidence": "high",
+   "seq": 122,
+   "lat": 43.188,
+   "lon": 68.042,
+   "city_pids": [
+    "iac:place-00003272"
+   ],
+   "geo_note": "centroid (1 şehirden)"
+  },
+  {
+   "name_ar": "فرغانه",
+   "name_tr": "Fergana",
+   "sec": 24,
+   "page": "V02P512",
+   "quote_ar": "وفرغانه اسم الإقليم وهو عمل عريض موضوع على سعة مدنها وقراها وقصبتها اخشيكث",
+   "cities_ar": [
+    "اخشيكث",
+    "قبا",
+    "اوش",
+    "اوزكند",
+    "كاسان",
+    "مرغينان",
+    "وانكث",
+    "سوخ",
+    "خواكند",
+    "رشتان",
+    "زندرامش",
+    "خيلام",
+    "مسكان",
+    "مدوا",
+    "كروان"
+   ],
+   "products_text": "معادن الذهب والفضة بناحية نقاد واخشيكث وغيرهما؛ يرتفع الزيبق بسوخ من جبالها؛ بناحية نسيا العليا زفت وجراغسنك وفضة وذهب وفيروزج وحديد وصفر وآنك؛ باسبره جبل الحجارة السود التى تحترق كالفحم ويبيض برمادها الثياب؛ شجر الطبرخون الذي يحمل بزره الى الآفاق؛ نوشاذر كثير كالذى يرتفع من البتم",
+   "summary_tr": "Fergana geniş bir iklim olarak tasvir edilir; başkenti Şâş nehri kıyısındaki Ahsîkes'tir, her şehrinin kuhandizi, bahçeleri ve akarsuları vardır. Mâverâünnehir'de köyü Fergana'dan çok yer yoktur; köy sınırı kimi zaman 'مرحلة' bulur. Kûreleri (Nesyâ, İsbere, Nakâd, Miyân-rûzân, Cedgal vb.) ve şehirleri sayılır; Ûzkend küfür diyarı kapısındaki son şehir ve Türk kapısında bir ticaret merkezidir. Nakâd ve Ahsîkes yöresinde altın-gümüş, Sûh'ta cıva, Yukarı Nesyâ'da zift, firuze, demir ve kurşun; İsbere'de kömür gibi yanan kara taşlar vardır; tohumları dünyaya ihraç edilen tabarhûn ağacı ve Buttem'inki gibi bol nışadır bölge ürünlerindendir. Nasr b. Ahmed'in doğum yeri Miyân-rûzân'daki Haylâm'dır.",
+   "confidence": "high",
+   "seq": 123,
+   "lat": 41.126077499999994,
+   "lon": 64.83051375,
+   "city_pids": [
+    "iac:place-00015550",
+    "iac:place-00001132",
+    "iac:place-00010080",
+    "iac:place-00011150",
+    "iac:place-00017200",
+    "iac:place-00017563",
+    "iac:place-00005515",
+    "iac:place-00014788"
+   ],
+   "geo_note": "centroid (8 şehirden)"
+  },
+  {
+   "name_ar": "بلاد السودان (فى خاتمة الكتاب)",
+   "name_tr": "Sudan ülkeleri (hâtimede, Batlamyus eleştirisi bağlamında)",
+   "sec": 25,
+   "page": "V02P526",
+   "quote_ar": "وجميع بلدهم فى الإقليم الثانى وأوله على البحر المحيط غانه ثم كوغه ثم سامه ثم غريوا «17» ثم كزم",
+   "cities_ar": [
+    "غانه",
+    "كوغه",
+    "سامه",
+    "غريوا",
+    "كزم"
+   ],
+   "products_text": "",
+   "summary_tr": "Kitabın hâtimesi asıl olarak bir bölge tasviri değildir; Batlamyus'a atfedilen ölçüleri ve 'Sudan ülkesi yedi yıllık yoldur' iddiasını çürütürken Sudan beldelerini sayar: Okyanus kıyısında Gâne, sonra Kûga, Sâme, Garîvâ ve Kezm; ardında Nûbe, Habeşe ve Zenc gelir. Metne göre tüm ülkeleri 'لا تزيد على خمسين ومائتى مرحلة طولا', küfür ülkelerinin tamamı 'أربع مائة مرحلة' tutmaz; Ye'cûc-Me'cûc toprakları da 'لا يبلغ مائتى مرحلة' denir. Şehir/ticaret tasviri içermediği için düşük güvenle kaydedildi.",
+   "confidence": "low",
+   "seq": 124
+  }
+ ]
+}
