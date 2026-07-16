@@ -37,7 +37,8 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
   const [section, setSection] = useState(null);
   const [tocQuery, setTocQuery] = useState('');
   const [mentions, setMentions] = useState(null);   // kitap→yer anılmaları
-  const [mode, setMode] = useState('text');         // text | map
+  const [stopsDraft, setStopsDraft] = useState(null); // çıkarılmış rota (taslak)
+  const [mode, setMode] = useState('text');         // text | map | route
   const secCache = useRef({});
   const mapRef = useRef(null);
   const mapElRef = useRef(null);
@@ -66,6 +67,11 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
           .then((r) => (r.ok ? r.json() : null))
           .then(setMentions)
           .catch(() => setMentions(null));
+        setStopsDraft(null);
+        fetch(`/reading/${pidnum}/stops_draft.json`)
+          .then((r) => (r.ok ? r.json() : null))
+          .then(setStopsDraft)
+          .catch(() => setStopsDraft(null));
         window.location.hash = `library?book=${pidnum}&sec=${sec}`;
       });
   }, []);
@@ -121,6 +127,40 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
     mapRef.current = map;
     return () => { if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; } };
   }, [mode, mentions, lang, gotoSec]);
+
+  // Rota (taslak): sıralı duraklar + altın kesikli polyline + numaralı marker
+  useEffect(() => {
+    if (mode !== 'route' || !stopsDraft || !mapElRef.current) return;
+    if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; }
+    const pts = stopsDraft.stops.filter((s) => s.lat != null && !s.geo_suspect);
+    const map = L.map(mapElRef.current, { scrollWheelZoom: true });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+      { attribution: '© OpenStreetMap · CARTO', subdomains: 'abcd' }).addTo(map);
+    const line = pts.map((s) => [s.lat, s.lon]);
+    if (line.length > 1) L.polyline(line, { color: GOLD, weight: 2, dashArray: '6 8', opacity: .7 }).addTo(map);
+    pts.forEach((s) => {
+      const mk = L.circleMarker([s.lat, s.lon], {
+        radius: s.is_stay ? 9 : 5, weight: 1.5, color: '#0f1419',
+        fillColor: s.confidence === 'high' ? GOLD : '#8a7440', fillOpacity: .95,
+      }).addTo(map);
+      mk.bindTooltip(String(s.seq), { permanent: true, direction: 'center',
+        className: 'route-seq-label', opacity: 1 });
+      mk.bindPopup(`<div dir="rtl" style="font-family:Amiri,serif;font-size:16px"><b>${s.name_ar}</b></div>
+        <div style="font-size:12px"><b>${s.seq}. ${s.name_tr || ''}</b></div>
+        ${s.arrival_text ? `<div dir="rtl" style="font-size:11px;opacity:.85">📅 ${s.arrival_text}</div>` : ''}
+        <div style="font-size:11px;opacity:.85;max-width:230px">${(s.stay_summary_tr || '').slice(0, 220)}</div>
+        <div style="font-size:10px;margin-top:4px;color:#b8860b">⚠ ${lang === 'en' ? 'DRAFT — pending review' : 'TASLAK — onay bekliyor'} · ${s.confidence}</div>
+        <button data-sec="${s.sec}" style="margin-top:3px;padding:1px 8px;border-radius:8px;border:1px solid ${GOLD};background:none;color:${GOLD};cursor:pointer;font-size:11px">${lang === 'en' ? 'read section' : 'bölümü oku'} §${s.sec}</button>`);
+      mk.on('popupopen', (e) => {
+        e.popup.getElement().querySelectorAll('button[data-sec]').forEach((b) => {
+          b.onclick = () => { setMode('text'); gotoSec(parseInt(b.dataset.sec, 10)); };
+        });
+      });
+    });
+    if (line.length) map.fitBounds(L.latLngBounds(line).pad(0.12), { maxZoom: 7 });
+    mapRef.current = map;
+    return () => { if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; } };
+  }, [mode, stopsDraft, lang, gotoSec]);
 
   const filteredToc = useMemo(() => {
     if (!book) return [];
@@ -214,8 +254,14 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
             style={{ ...chip, cursor: mentions ? 'pointer' : 'default', border: 'none', background: mode === 'map' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'map' ? '#0f1419' : GOLD, fontWeight: 700, opacity: mentions ? 1 : .4 }}>
             🗺 {tr ? 'Kitap Haritası' : 'Book Map'}{mentions ? ` (${mentions.n_geocoded.toLocaleString('tr-TR')})` : ''}
           </button>
+          {stopsDraft && (
+            <button onClick={() => setMode('route')}
+              style={{ ...chip, cursor: 'pointer', border: 'none', background: mode === 'route' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'route' ? '#0f1419' : GOLD, fontWeight: 700 }}>
+              🧭 {tr ? 'Rota' : 'Route'} ({stopsDraft.stops.length}) <span style={{ fontSize: 9, opacity: .8 }}>{tr ? 'taslak' : 'draft'}</span>
+            </button>
+          )}
         </div>
-        {mode === 'map' && (
+        {(mode === 'map' || mode === 'route') && (
           <div ref={mapElRef} style={{ height: 'calc(100vh - 240px)', minHeight: 380, borderRadius: 10, border: '1px solid rgba(201,168,76,.3)' }} />
         )}
         {mode === 'text' && (
