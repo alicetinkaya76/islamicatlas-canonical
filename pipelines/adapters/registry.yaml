@@ -296,3 +296,22 @@ adapters:
       namespace: work
       pipeline_name: canonicalize_work_openiti_works
       depends_on: [openiti-works]
+
+  # Phase 0 (Hafta 15): kitap-katmanlarından canonical mint (H14 çıkarımları).
+  - adapter_id: book-events
+    enabled: true                 # H15
+    priority: 570
+    config:
+      strict_mode: true
+      namespace: event
+      pipeline_name: canonicalize_event_book_layers
+      depends_on: [openiti-works]
+
+  - adapter_id: book-structures
+    enabled: true                 # H15
+    priority: 580
+    config:
+      strict_mode: true
+      namespace: institution
+      pipeline_name: canonicalize_institution_book_layers
+      depends_on: [openiti-works]

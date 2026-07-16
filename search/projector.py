@@ -366,6 +366,10 @@ class Projector:
             "konya-city-atlas": "konya-city-atlas",
             "maqrizi-khitat": "maqrizi-khitat",
             "salibiyyat": "salibiyyat",  # H11 S9
+            # H15: kitap-katmanı mint'leri
+            "futuh-buldan": "futuh-buldan", "maghazi": "maghazi",
+            "sira": "sira", "azraqi-makka": "azraqi-makka",
+            "tarikh-baghdad": "tarikh-baghdad",
         }
         layers: set[str] = set()
         for entry in (record.get("provenance", {}).get("derived_from") or []):
