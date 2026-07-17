@@ -211,6 +211,8 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
         ${r.date_text ? `<div dir="rtl" style="font-size:11px;opacity:.85">📅 ${r.date_text}</div>` : ''}
         ${r.measurements_text ? `<div dir="rtl" style="font-size:11px;opacity:.85">📏 ${r.measurements_text.slice(0, 90)}</div>` : ''}
         ${r.summary_ar ? `<div dir="rtl" style="font-family:Amiri,serif;font-size:12px;opacity:.9;max-width:250px">${r.summary_ar.slice(0, 180)}</div>` : ''}
+        ${r.vocalization_ar ? `<div dir="rtl" style="font-family:Amiri,serif;font-size:11px;opacity:.75;max-width:250px">🔤 ${r.vocalization_ar.slice(0, 120)}</div>` : ''}
+        ${r.region_hint_ar ? `<div dir="rtl" style="font-size:11px;opacity:.75;max-width:250px">🧭 ${r.region_hint_ar.slice(0, 100)}</div>` : ''}
         <div style="font-size:11px;opacity:.85;max-width:240px">${(r.summary_tr || '').slice(0, 200)}</div>
         <button data-sec="${r.sec}" style="margin-top:3px;padding:1px 8px;border-radius:8px;border:1px solid ${GOLD};background:none;color:${GOLD};cursor:pointer;font-size:11px">${lang === 'en' ? 'read' : 'bölümü oku'} §${r.sec}</button>`);
       mk.on('popupopen', (e) => {

@@ -27,3 +27,15 @@ facet/harita vatandaşı.
 5 yeni kaynak-katmanı facet'i (futuh-buldan, maghazi, sira, azraqi-makka,
 tarikh-baghdad) + prefix_map; place şeması enum += bakri-mucjam.
 Gate 160 · projeksiyon 58,744/58,744 · Typesense 58,744 fail=0.
+
+## Bekrî gazetteer — düzgün çıkarımla geri geldi (H15b)
+
+Yapısal kısayolun çöküşünden sonra 55 ajanlık madde çıkarımı (2 tur + 2
+boşluk retry; toplam ~3M token, API 529'lar journal-birikimi + hedefli
+retry ile toparlandı): **3,697 toponim maddesi** (harekeleme tarifi +
+bölge ipucu + birebir pasaj), SIKI birebir bağlamayla **1,853 koordinatlı**
+(İbn Cübeyr'den sonra en zengin katman). 1,834 ayrık yere place augment
+(madde başına 1.0 bağ — mıknatıs yok). UI popup'ında 🔤 harekeleme +
+🧭 bölge ipucu. Ders pekişti: sözlük-tipi kitaplarda yapısal kestirme
+YOK — LLM çıkarımı şart. Tarayıcı-doğrulamalı; Arabistan yoğunluklu
+1,817 nokta.
