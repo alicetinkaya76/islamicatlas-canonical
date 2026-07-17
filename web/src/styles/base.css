@@ -146,3 +146,10 @@ button:focus-visible, .tab:focus-visible, select:focus-visible, input:focus-visi
   z-index: 1000 !important;
   pointer-events: auto;
 }
+
+/* H16: Kütüphane sekmesi rozet (yeni özellik keşfedilebilirliği) */
+.nav-badge-new {
+  display: inline-block; margin-left: 5px; padding: 0 5px;
+  border-radius: 999px; font-size: 9px; font-weight: 800;
+  background: #c9a84c; color: #0f1419; vertical-align: middle;
+}

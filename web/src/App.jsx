@@ -372,6 +372,11 @@ export default function App() {
           aria-label={{ tr: 'Ana navigasyon', en: 'Main navigation', ar: 'التنقل الرئيسي' }[lang]}>
           <button className={`tab${tab === 'map' ? ' active' : ''}`} onClick={() => selectTab('map')}>{t.tabs.map}</button>
           <button className={`tab${tab === 'dashboard' ? ' active' : ''}`} onClick={() => selectTab('dashboard')}>{t.tabs.dashboard}</button>
+          <button className={`tab${tab === 'library' ? ' active' : ''}`} onClick={() => selectTab('library')}
+            title={{ tr: 'Çekirdek Külliyat — tam metin okuyucu + kitap haritaları', en: 'Core canon — full-text reader + book maps', ar: 'المكتبة' }[lang]}>
+            {{ tr: '📖 Kütüphane', en: '📖 Library', ar: '📖 المكتبة' }[lang]}
+            <span className="nav-badge-new">17</span>
+          </button>
           <NavDropdown
             label={{ tr: '📚 Kaynaklar', en: '📚 Sources', ar: '📚 المصادر' }[lang]}
             items={[
@@ -388,6 +393,7 @@ export default function App() {
               { id: 'salibiyyat', label: t.tabs.salibiyyat || '⚔️ Salibiyyât', badge: '790', preload: '/data/salibiyyat_atlas_layer.json' },
               { id: 'evliya', label: t.tabs.evliya || '🐫 Evliyâ Çelebi', badge: '5,444', preload: '/data/evliya_atlas_layer.json' },
               { id: 'muqaddasi', label: t.tabs.muqaddasi || '📐 Makdisî', badge: '2,049', preload: '/data/muqaddasi_atlas_layer.json' },
+              { id: 'library', label: { tr: '📖 Kütüphane (Çekirdek Külliyat)', en: '📖 Library (core canon)', ar: '📖 المكتبة' }[lang], badge: '17' },
             ]}
             activeTab={tab}
             onSelect={selectTab}
