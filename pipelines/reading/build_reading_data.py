@@ -274,10 +274,23 @@ def main() -> int:
         print(f"✓ {uri:42s} bölüm:{len(toc):5d} kelime:{total_words:9,d} → reading/{pidnum}/")
 
     OUT_ROOT.mkdir(parents=True, exist_ok=True)
-    (OUT_ROOT / "core_shelf.json").write_text(
-        json.dumps({"batch": batch["batch"], "theme": batch.get("theme"),
-                    "books": shelf}, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"\nraf: {len(shelf)} kitap → web/public/reading/core_shelf.json")
+    # KÜMÜLATİF raf: mevcut kitapları koru, bu partinin kitaplarını ekle/güncelle
+    # (parti-2 koşusu parti-1'i ezmesin — H16 dersi).
+    shelf_path = OUT_ROOT / "core_shelf.json"
+    existing = []
+    if shelf_path.exists():
+        try:
+            existing = json.loads(shelf_path.read_text(encoding="utf-8")).get("books", [])
+        except (OSError, json.JSONDecodeError):
+            existing = []
+    new_pids = {b["pid"] for b in shelf}
+    kept = [b for b in existing if b["pid"] not in new_pids]
+    merged = kept + shelf
+    shelf_path.write_text(
+        json.dumps({"batches": sorted({b.get("batch", 1) for b in [batch]} |
+                                      {1}), "theme": batch.get("theme"),
+                    "books": merged}, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"\nraf: +{len(shelf)} kitap (toplam {len(merged)}) → core_shelf.json")
     return 0
 
 
