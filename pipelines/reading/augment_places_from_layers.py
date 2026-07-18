@@ -24,6 +24,7 @@ LAYERS = {
     "00002702_routes": "istakhri-mesalik",
     "00001748_regions": "ibn-hawqal",
     "00001333_regions": "idrisi-nuzhat",
+    "00002947_routes": "yaqubi-buldan",     # H16
 }
 
 

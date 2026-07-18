@@ -211,6 +211,9 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
         ${r.date_text ? `<div dir="rtl" style="font-size:11px;opacity:.85">📅 ${r.date_text}</div>` : ''}
         ${r.measurements_text ? `<div dir="rtl" style="font-size:11px;opacity:.85">📏 ${r.measurements_text.slice(0, 90)}</div>` : ''}
         ${r.summary_ar ? `<div dir="rtl" style="font-family:Amiri,serif;font-size:12px;opacity:.9;max-width:250px">${r.summary_ar.slice(0, 180)}</div>` : ''}
+        ${r.longitude_text ? `<div dir="rtl" style="font-size:11px;color:#c9a84c">🧭 tûl (boylam): ${r.longitude_text} · arz (enlem): ${r.latitude_text || '—'}${r.clime_text ? ' · '+r.clime_text : ''}</div>` : ''}
+        ${r.vocalization_ar ? `<div dir="rtl" style="font-size:11px;opacity:.75">🔤 ${r.vocalization_ar.slice(0,90)}</div>` : ''}
+        ${r.region_hint_ar ? `<div dir="rtl" style="font-size:11px;opacity:.75">🧭 ${r.region_hint_ar.slice(0,90)}</div>` : ''}
         ${r.vocalization_ar ? `<div dir="rtl" style="font-family:Amiri,serif;font-size:11px;opacity:.75;max-width:250px">🔤 ${r.vocalization_ar.slice(0, 120)}</div>` : ''}
         ${r.region_hint_ar ? `<div dir="rtl" style="font-size:11px;opacity:.75;max-width:250px">🧭 ${r.region_hint_ar.slice(0, 100)}</div>` : ''}
         <div style="font-size:11px;opacity:.85;max-width:240px">${(r.summary_tr || '').slice(0, 200)}</div>

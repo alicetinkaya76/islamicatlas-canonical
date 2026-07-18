@@ -3,8 +3,8 @@
 Canonical Linked-Open-Data backend for **islamicatlas.org** with a **search-first** architecture. A single, persistent, citable identifier space (`iac:place-NNNNNNNN`, `iac:dynasty-NNNNNNNN`, `iac:person-NNNNNNNN`, `iac:work-NNNNNNNN`, `iac:manuscript-NNNNNNNN`, `iac:event-NNNNNNNN`) consolidates ~59,000 entities currently distributed across 13 layers of the public-facing atlas, into a unified search-first user experience: one search bar, federated results across all entity types, rich entity pages with map / timeline / relations / sources / cross-refs.
 
 > **Status:** Phase 0, Hafta 9 sonu — schema set **v0.4.0** (ADR-013/015 — institution aktif);
-> canonical store **57,250 kayıt** (person 22,935 · place 19,929 · work 9,404 ·
-> institution 3,942 · dynasty 186 · event 854 — koddan sayılır, `make reindex-dry`
+> canonical store **67,833 kayıt** (person 22,935 · place 19,929 · event 9,956 · work 9,404 ·
+> institution 5,423 · dynasty 186 — koddan sayılır, `make reindex-dry`
 > özetiyle doğrulanır);
 > AO (TDV DiA scraper) tamam, AP (dia_works rich-mint) H10 hedefi.
 > Kalan işlerin sıralı listesi: [`docs/PHASE0_CLOSEOUT.md`](docs/PHASE0_CLOSEOUT.md).
@@ -26,9 +26,9 @@ The canonical store sits **upstream** of three downstream consumers: (1) a Types
 | **Decisions** | **14 ADR** — URI scheme, authority targets, ontology stack, search-first, unified catalog, adapter pattern, rich page contract, entity resolution, DiA rich-mint doktrini (ADR-009), digital_corpus, dia_chunks scope, maxLength 50K, schema-set versiyonlama (ADR-013), TDV scraping compliance (ADR-014). |
 | **Ontology** | `iac_ontology.ttl` + `iac_context.jsonld` (H2 vintage; Faz 0.5'te w3id yayını öncesi bakım gerekir — bkz. PHASE0_CLOSEOUT). |
 | **Schemas** | 12 dosyalık set, tek etiket **v0.4.0** (ADR-013; test-pinli): 6 entity + 5 `_common` yapı taşı. |
-| **Canonical store** | 57,250 kayıt (gitignored; `data/sources/` + adapter replay'den yeniden üretilebilir). |
+| **Canonical store** | 67,833 kayıt (gitignored; `data/sources/` + adapter replay'den yeniden üretilebilir). |
 | **Adapters** | 19 adapter (`registry.yaml`); en yeniler: scholars, ei1, battles-events, konya-city-atlas, maqrizi-khitat, evliya-institutions (H10-H11). |
-| **Search artifacts** | `typesense_collection.schema.json`, `facets.yaml`, 6 projection rules, `projector.py`; `full_reindex.py --dry-run` = 57,250/57,250 projeksiyon regresyon kapısı. |
+| **Search artifacts** | `typesense_collection.schema.json`, `facets.yaml`, 6 projection rules, `projector.py`; `full_reindex.py --dry-run` = 67,833/67,833 projeksiyon regresyon kapısı. |
 | **UI contract** | `entity_page.meta.schema.json` + 6 page recipes (testle doğrulanır), `search_result.schema.json`. |
 | **Tests** | `pytest tests/integration` → **160 passed** (17 şema fixture'ı dahil); ayrıca CLI: `run_schema_tests.py`, `test_projector.py`, `test_resolver.py`. |
 

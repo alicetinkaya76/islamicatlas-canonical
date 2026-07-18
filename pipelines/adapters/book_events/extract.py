@@ -17,6 +17,11 @@ BOOKS = {
     "00001293": ("futuh-buldan", "Fütûhu'l-Büldân (Belâzürî)"),
     "00001099": ("maghazi", "Kitâbü'l-Meğâzî (Vâkıdî)"),
     "00000809": ("sira", "es-Sîretü'n-Nebeviyye (İbn Hişâm)"),
+    # H16 parti-2 kronikleri (yıl-başlıklı → yüksek tarihli-oran)
+    "00000331": ("kamil", "el-Kâmil fi't-Târîh (İbn el-Esîr)"),
+    "00000508": ("suluk", "es-Sülûk (Makrîzî)"),
+    "00000338": ("tabari", "Târîhu't-Taberî"),
+    "00000880": ("muruj", "Mürûcü'z-Zeheb (Mes'ûdî)"),
 }
 
 

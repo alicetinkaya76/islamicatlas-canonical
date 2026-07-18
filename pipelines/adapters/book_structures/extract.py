@@ -16,6 +16,7 @@ from typing import Iterator
 BOOKS = {
     "00001848": ("azraqi-makka", "Ahbâru Mekke (Ezrakî)", "iac:place-00011505"),
     "00000261": ("tarikh-baghdad", "Târîhu Bağdâd (Hatîb el-Bağdâdî)", "iac:place-00002027"),
+    "00000228": ("tarikh-dimashq", "Târîhu Dımaşk (İbn Asâkir)", "iac:place-00004883"),
 }
 
 

@@ -26,3 +26,30 @@ kullanılmadı, ADR-014).
   (parti-2 koşusu parti-1'i ezmişti — düzeltildi, ders).
 - Kronik çıkarımında yıl başlıkları ("ثم دخلت سنة ...") date_h'ye taşınır —
   tarihli olay oranı parti-1'den yüksek olmalı (mint edilebilirlik).
+
+## Çıkarım sonuçları ve mint (2026-07-18)
+
+365 ajan / 26,2M token / 1 hata (API). **Workflow VM dersi:** dönüş dizisi
+4096 sınırını aştı (el-Kâmil tek başına 5,133) → workflow "failed" dedi ama
+364 ajanın verisi journal'daydı; sonuçlar AJAN PROMPT'undaki pid'e göre
+kitaplara ayrıştırılıp kurtarıldı (agent-*.jsonl'de prompt var).
+
+| Kitap | Katman | Kayıt | Koordinatlı |
+|---|---|--:|--:|
+| el-Kâmil | ⚔️ olay | 5,133 | 2,914 |
+| Taberî | ⚔️ olay | 2,282 | 1,410 |
+| es-Sülûk | ⚔️ olay | 1,519 | 935 |
+| Mürûc | ⚔️ olay | 599 | 351 |
+| Ebü'l-Fidâ | 🗺 madde | 338 | 112 (+312 TARİHÎ koordinat) |
+| İbn Asâkir | 🏛 Dımaşk yapısı | 314 | 128 |
+| Ya'kûbî | 🛤 yol | 188 | 55 çift-uç |
+
+**Canonical mint:** book-events 9,102 tarihli olay (kronikler yıl-başlıklı
+→ tarihli-oran parti-1'in çok üstünde; 2,132 tarihsiz katmanda kalır) +
+book-structures 1,481 yapı (Dımaşk eklendi) + Ya'kûbî 84 yer augment.
+**Mağaza 58,744 → 67,833** (event 854→9,956!). Ebü'l-Fidâ'nın ortaçağ
+enlem/boylamı MODERN KOORDİNATA ÇEVRİLMEDİ (farklı başlangıç meridyeni —
+"tûl/arz" değerleri metindeki yazılı haliyle popup'ta gösterilir).
+
+Kanıt: "Hıttîn" araması artık ÜÇ kaynaktan döner — salibiyyat tanıklığı +
+editoryal kayıt + İbn el-Esîr'in kendi anlatısı (kamil).
