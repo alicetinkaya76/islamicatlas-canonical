@@ -127,7 +127,9 @@ function LangDropdown({ lang, setLang }) {
   );
 }
 
-const VALID_TABS = ['cityatlas', 'map', 'dashboard', 'timeline', 'links', 'scholars', 'battles', 'alam', 'yaqut', 'dia', 'ei1', 'rihla', 'khitat', 'lestrange', 'science', 'salibiyyat', 'evliya', 'muqaddasi', 'library', 'admin'];
+/* H17 S2: 'darpislam' eklendi — sekme render'ı vardı ama listede yoktu;
+   #darpislam yenilemede map'e düşüyordu. */
+const VALID_TABS = ['cityatlas', 'map', 'dashboard', 'timeline', 'links', 'scholars', 'battles', 'alam', 'yaqut', 'dia', 'ei1', 'rihla', 'khitat', 'lestrange', 'science', 'salibiyyat', 'evliya', 'muqaddasi', 'darpislam', 'library', 'admin'];
 
 /* Tab order for swipe navigation (excludes admin) */
 const SWIPE_TAB_ORDER = ['map', 'dashboard', 'alam', 'dia', 'ei1', 'scholars', 'rihla', 'yaqut', 'lestrange', 'khitat', 'salibiyyat'];
@@ -149,8 +151,10 @@ function parseHash() {
   const params = {};
   if (qs) qs.split('&').forEach(p => { const [k, v] = p.split('='); if (k) params[decodeURIComponent(k)] = decodeURIComponent(v || ''); });
 
-  // Tab route
+  // Tab route — H17 S2: #dia/abaka gibi sekme-içi segment artık atılmıyor,
+  // params.slug olarak görünüme akar (DiaIdCard'ın paylaştığı URL sözleşmesi).
   if (VALID_TABS.includes(first)) {
+    if (segments[1]) params.slug = decodeURIComponent(segments[1]);
     return { tab: first, params, entityRoute: null };
   }
 
@@ -271,12 +275,22 @@ export default function App() {
     return () => window.removeEventListener('atlas:layersolo', handler);
   }, [tab]);
 
-  /* ── Science Layer: cross-view navigation (el-A'lâm / Yâkût) ── */
+  /* ── Cross-view navigation (el-A'lâm / Yâkût / …) ──
+     H17 S2: entityId artık atılmıyor — hedef görünüme ?id= ile akar
+     (Bilim Atlası → A'lâm kartı, Makdisî xref vb. kayıt vurgusu). */
   useEffect(() => {
     const handler = (e) => {
       const { view, entityId } = e.detail || {};
       if (view && VALID_TABS.includes(view)) {
-        selectTab(view);
+        setTab(view);
+        setMenuOpen(false);
+        setEntityRoute(null);
+        const params = entityId != null ? { id: String(entityId) } : {};
+        setHashParams(params);
+        try {
+          window.history.replaceState(null, '',
+            '#' + view + (entityId != null ? `?id=${encodeURIComponent(entityId)}` : ''));
+        } catch {}
       }
     };
     window.addEventListener('navigateToView', handler);
@@ -491,9 +505,9 @@ export default function App() {
          tab === 'timeline' ? <TimelineView lang={lang} t={t} /> :
          tab === 'scholars' ? <ScholarView lang={lang} t={t} /> :
          tab === 'battles' ? <BattleView lang={lang} t={t} /> :
-         tab === 'alam' ? <AlamView lang={lang} t={t} initialSearch={hashParams.search} /> :
+         tab === 'alam' ? <AlamView lang={lang} t={t} initialSearch={hashParams.search} initialId={hashParams.id} /> :
          tab === 'yaqut' ? <YaqutView lang={lang} t={t} initialSearch={hashParams.search} /> :
-         tab === 'dia' ? <DiaView lang={lang} t={t} initialSearch={hashParams.search} /> :
+         tab === 'dia' ? <DiaView lang={lang} t={t} initialSearch={hashParams.search} initialSlug={hashParams.slug} /> :
          tab === 'ei1' ? <Ei1View lang={lang} t={t} initialSearch={hashParams.search} /> :
          tab === 'darpislam' ? <DarpView lang={lang} t={t} isMobile={isMobile} initialSearch={hashParams.search} /> :
          tab === 'rihla' ? <RihlaView lang={lang} t={t} initialSearch={hashParams.search} /> :

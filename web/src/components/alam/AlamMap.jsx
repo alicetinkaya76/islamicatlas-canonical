@@ -137,8 +137,15 @@ export default function AlamMap({ lang, ta, data, selectedId, selectedBio, detai
     ring.addTo(map);
     selectedMarkerRef.current = ring;
 
-    // Fly to
-    map.flyTo([selectedBio.lat, selectedBio.lon], Math.max(map.getZoom(), 6), { duration: 0.8 });
+    // Fly to — H17 S2: gizli (0-boyutlu) konteynerde flyTo animasyonu
+    // NaN LatLng üretip görünümü çökertiyordu (mobilde kart açıkken
+    // derin-link seçimi); görünmez haritada animasyonsuz setView.
+    const sz = map.getSize();
+    if (sz.x > 0 && sz.y > 0) {
+      map.flyTo([selectedBio.lat, selectedBio.lon], Math.max(map.getZoom(), 6), { duration: 0.8 });
+    } else {
+      map.setView([selectedBio.lat, selectedBio.lon], 6, { animate: false });
+    }
 
     // Multi-location lines
     if (detailData && detailData.mc) {

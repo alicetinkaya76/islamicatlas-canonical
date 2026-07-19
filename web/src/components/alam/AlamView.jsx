@@ -52,7 +52,7 @@ function buildLookup(data) {
   return m;
 }
 
-export default function AlamView({ lang, t: tProp, initialSearch }) {
+export default function AlamView({ lang, t: tProp, initialSearch, initialId }) {
   const t = tProp || T[lang];
   const ta = t.alam || {};
 
@@ -84,17 +84,26 @@ export default function AlamView({ lang, t: tProp, initialSearch }) {
     if (initialSearch) setSearch(initialSearch);
   }, [initialSearch]);
 
-  /* ═══ Loading / error guard ═══ */
-  if (dataLoading || !ALAM_LITE) return <SkeletonLoader variant="list" rows={10} message={ta.loading || 'al-Aʿlām verileri yükleniyor'} />;
-  if (dataError) return (
-    <div className="skeleton-loader" style={{ textAlign: 'center', padding: 40 }}>
-      <p style={{ color: '#ef5350', fontSize: 13 }}>{String(dataError.message || dataError)}</p>
-      <button onClick={() => window.location.reload()} style={{ marginTop: 12, padding: '8px 20px', background: '#1a6b5a', color: '#fff', border: 'none', borderRadius: 6, cursor: 'pointer' }}>Tekrar dene / Retry</button>
-    </div>
-  );
+  /* H17 S2: #alam?id= derin linki — YaqutIdCard/DiaView/Kütüphane bu
+     sözleşmeyle çağırıyordu ama id hiç okunmuyordu. */
+  useEffect(() => {
+    if (initialId == null || !ALAM_LITE) return;
+    const n = parseInt(initialId, 10);
+    if (isNaN(n) || !ALAM_BY_ID[n]) return;
+    setSelectedId(n);
+    setShowMobile('card');
+    (async () => {
+      try {
+        const base = import.meta.env.BASE_URL || '/';
+        const resp = await fetch(`${base}alam_detail.json`);
+        if (resp.ok) { const all = await resp.json(); setDetailCache(all); setDetailData(all[n] || null); }
+      } catch (e) { console.warn('alam detail deep-link load failed:', e); }
+    })();
+  }, [initialId, ALAM_LITE, ALAM_BY_ID]);
 
   /* ═══ Filter biographies ═══ */
   const filtered = useMemo(() => {
+    if (!ALAM_LITE) return [];
     let arr = ALAM_LITE;
 
     // Period filter (based on miladi death or birth year)
@@ -179,6 +188,18 @@ export default function AlamView({ lang, t: tProp, initialSearch }) {
 
   /* Selected bio object */
   const selectedBio = selectedId ? ALAM_BY_ID[selectedId] : null;
+
+  /* ═══ Loading / error guard — H17 S2: TÜM hook'ların ALTINA taşındı.
+     Eskiden hook'ların ortasındaydı; hover-preload'suz soğuk açılışta
+     (doğrudan #alam URL'si) React hook-sayısı hatasıyla çöküyordu
+     (DiaView'daki "ALL hooks above conditional return" kuralı). ═══ */
+  if (dataLoading || !ALAM_LITE) return <SkeletonLoader variant="list" rows={10} message={ta.loading || 'al-Aʿlām verileri yükleniyor'} />;
+  if (dataError) return (
+    <div className="skeleton-loader" style={{ textAlign: 'center', padding: 40 }}>
+      <p style={{ color: '#ef5350', fontSize: 13 }}>{String(dataError.message || dataError)}</p>
+      <button onClick={() => window.location.reload()} style={{ marginTop: 12, padding: '8px 20px', background: '#1a6b5a', color: '#fff', border: 'none', borderRadius: 6, cursor: 'pointer' }}>Tekrar dene / Retry</button>
+    </div>
+  );
 
   return (
     <div className="alam-view">

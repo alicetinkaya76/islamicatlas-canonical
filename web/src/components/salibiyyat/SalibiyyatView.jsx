@@ -349,11 +349,13 @@ function SalibiyyatViewInner({ lang, initialSearch, onNavigate }) {
         onNavigate('khitat', { highlight: atlasId });
       }
     } else {
-      /* Fallback: hash-based navigation */
+      /* Fallback: hash-based navigation — H17 S2: '#tab=...' biçimini
+         parseHash hiç tanımıyordu (tıklama sessizce boşa gidiyordu);
+         standart '#<sekme>?highlight=' sözleşmesine çevrildi. */
       if (type === 'atlas_battle') {
-        window.location.hash = `#tab=battles&highlight=${atlasId}`;
+        window.location.hash = `#battles?highlight=${atlasId}`;
       } else if (type === 'atlas_khitat') {
-        window.location.hash = `#tab=khitat&highlight=${atlasId}`;
+        window.location.hash = `#khitat?highlight=${atlasId}`;
       }
     }
   }, [onNavigate]);
