@@ -1,0 +1,198 @@
+{
+  "generated_by": "pipelines/frontend/build_source_counts.py",
+  "note": "ELLE DÜZENLEMEYİN — bu dosya veriden üretilir. Sayılar ham tamsayıdır; '13,9K' gibi kısaltma/biçimlendirme JSX tarafında yapılır. Eksik dosyada count=null, status='missing'.",
+  "sources": {
+    "yaqut": {
+      "count": 12954,
+      "detail": {
+        "unit": "yer"
+      },
+      "files": [
+        "web/public/data/yaqut_lite.json"
+      ],
+      "status": "ok"
+    },
+    "alam": {
+      "count": 13940,
+      "detail": {
+        "unit": "biyografi"
+      },
+      "files": [
+        "web/public/data/alam_lite.json"
+      ],
+      "status": "ok"
+    },
+    "dia": {
+      "count": 8528,
+      "detail": {
+        "unit": "madde"
+      },
+      "files": [
+        "web/public/data/dia_lite.json"
+      ],
+      "status": "ok"
+    },
+    "ei1": {
+      "count": 7568,
+      "detail": {
+        "unit": "madde"
+      },
+      "files": [
+        "web/public/data/ei1_lite.json"
+      ],
+      "status": "ok"
+    },
+    "lestrange": {
+      "count": 434,
+      "detail": {
+        "unit": "coğrafi kayıt"
+      },
+      "files": [
+        "web/public/data/le_strange_eastern_caliphate.json"
+      ],
+      "status": "ok"
+    },
+    "rihla": {
+      "count": 317,
+      "detail": {
+        "unit": "durak",
+        "travelers": 1,
+        "voyages": 7
+      },
+      "files": [
+        "web/public/data/ibn_battuta_atlas_layer.json"
+      ],
+      "status": "ok"
+    },
+    "khitat": {
+      "count": 801,
+      "detail": {
+        "unit": "yapı",
+        "categories": 33
+      },
+      "files": [
+        "web/public/data/maqrizi_khitat_atlas_layer.json"
+      ],
+      "status": "ok"
+    },
+    "cityatlas": {
+      "count": 1384,
+      "detail": {
+        "unit": "yapı",
+        "per_city": {
+          "cairo": 801,
+          "konya": 583
+        }
+      },
+      "files": [
+        "web/public/data/city-atlas/cairo.json",
+        "web/public/data/city-atlas/konya.json"
+      ],
+      "status": "ok"
+    },
+    "darpislam": {
+      "count": 3381,
+      "detail": {
+        "unit": "darphane (geokodlu, haritada gösterilen)",
+        "metadata_total_mints": 3458,
+        "metadata_geocoded": 3381,
+        "metadata_total_emissions": 10733
+      },
+      "files": [
+        "web/public/data/darpislam_lite.json"
+      ],
+      "status": "ok"
+    },
+    "salibiyyat": {
+      "count": 790,
+      "detail": {
+        "unit": "olay",
+        "castles": 24,
+        "routes": 11,
+        "locations": 123,
+        "clusters": 21
+      },
+      "files": [
+        "web/public/data/salibiyyat_atlas_layer.json"
+      ],
+      "status": "ok"
+    },
+    "evliya": {
+      "count": 5444,
+      "detail": {
+        "unit": "yer/durak",
+        "voyages": 10
+      },
+      "files": [
+        "web/public/data/evliya_atlas_layer.json"
+      ],
+      "status": "ok"
+    },
+    "science": {
+      "count": 182,
+      "detail": {
+        "unit": "âlim",
+        "institutions": 37,
+        "knowledge_routes": 24,
+        "discoveries": 129
+      },
+      "files": [
+        "web/public/data/science_layer.json"
+      ],
+      "status": "ok"
+    },
+    "muqaddasi": {
+      "count": 2049,
+      "detail": {
+        "unit": "yerleşim",
+        "routes": 1427,
+        "aqualim": 21
+      },
+      "files": [
+        "web/public/data/muqaddasi_atlas_layer.json"
+      ],
+      "status": "ok"
+    },
+    "battles": {
+      "count": 100,
+      "detail": {
+        "unit": "savaş",
+        "note": "public/data altında ayrı savaş dosyası yok; sayı JS bundle'a gömülen web/src/data/db.json 'battles' listesinden",
+        "db_events": 200
+      },
+      "files": [
+        "web/src/data/db.json"
+      ],
+      "status": "bundle"
+    },
+    "library": {
+      "count": 17,
+      "detail": {
+        "unit": "kitap",
+        "batches": 2
+      },
+      "files": [
+        "web/public/reading/core_shelf.json"
+      ],
+      "status": "ok"
+    }
+  },
+  "source_files": [
+    "web/public/data/alam_lite.json",
+    "web/public/data/city-atlas/cairo.json",
+    "web/public/data/city-atlas/konya.json",
+    "web/public/data/darpislam_lite.json",
+    "web/public/data/dia_lite.json",
+    "web/public/data/ei1_lite.json",
+    "web/public/data/evliya_atlas_layer.json",
+    "web/public/data/ibn_battuta_atlas_layer.json",
+    "web/public/data/le_strange_eastern_caliphate.json",
+    "web/public/data/maqrizi_khitat_atlas_layer.json",
+    "web/public/data/muqaddasi_atlas_layer.json",
+    "web/public/data/salibiyyat_atlas_layer.json",
+    "web/public/data/science_layer.json",
+    "web/public/data/yaqut_lite.json",
+    "web/public/reading/core_shelf.json",
+    "web/src/data/db.json"
+  ]
+}

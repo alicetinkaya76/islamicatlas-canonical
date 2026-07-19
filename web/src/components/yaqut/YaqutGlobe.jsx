@@ -2,6 +2,8 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import * as THREE from 'three';
 import { hn } from '../../data/i18n-utils';
 import T from '../../data/i18n';
+/* H17 Dalga-0: sayısal palet bookkit string paletinden türetilir (değerler birebir aynı). */
+import { GEO_COLORS_NUM as GEO_COLORS_HEX } from '../shared/bookkit';
 
 /* ═══ Constants ═══ */
 const GLOBE_RADIUS = 5;
@@ -9,16 +11,6 @@ const MARKER_BASE_SIZE = 0.06;
 const ATMOSPHERE_COLOR = new THREE.Color(0x1a6b5a);
 const ROTATION_SPEED = 0.0008;
 const CLICK_THRESHOLD = 8; // pixels — ignore click if mouse moved more than this
-
-/* ═══ Geo type colors (same palette as flat map) ═══ */
-const GEO_COLORS_HEX = {
-  city: 0xd4a84b, village: 0x66bb6a, mountain: 0xa1887f, river: 0x4fc3f7,
-  fortress: 0xef5350, region: 0xce93d8, town: 0xff8a65, district: 0xffb74d,
-  valley: 0x81c784, water: 0x29b6f6, well: 0x4dd0e1, monastery: 0x9575cd,
-  spring: 0x26c6da, pass: 0x8d6e63, island: 0x4db6ac, desert: 0xffd54f,
-  place: 0x90a4ae, market: 0xf06292, quarter: 0x78909c, wadi: 0xaed581,
-  sea: 0x1565c0,
-};
 
 /* ═══ Lat/Lon → 3D position on sphere ═══ */
 function latLonToVec3(lat, lon, radius) {
