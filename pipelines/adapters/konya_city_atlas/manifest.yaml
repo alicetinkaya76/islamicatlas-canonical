@@ -1,0 +1,28 @@
+adapter_id: konya-city-atlas
+display_name: "Konya City Atlas — 583 yapı (Konyalı 2007 + Konyapedia)"
+adapter_version: 0.1.0
+source_kind: digital_corpus
+languages: [tr, en, ar]
+license: "islamicatlas.org v1 city-atlas dataset (own project; Konyalı 2007 dizini + Konyapedia zenginleştirmesi)"
+extraction_method: structured_json
+
+# INSTITUTION NAMESPACE AKTİVASYONU (ADR-015 / H11 Karar 6): şema v0.4.0
+# setiyle geldi (S5). Namespace bu koşuda dolduğu için two-track yok — hepsi
+# mint. located_in tek şehir-çapası Tier-2 çözümü (Konya); patron_dynasty
+# AÇIK alias tablosu (fuzzy değil — çift-Karaman tuzağı canonicalize.py'de).
+target_namespaces: [institution]
+
+input_paths:
+  - data/sources/konya-city-atlas/konya.json
+
+output_paths:
+  - data/canonical/institution/
+
+sidecar_pending:
+  konya_institutions: data/_state/konya_institutions_pending.json
+
+reconciliation:
+  enabled: false
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]

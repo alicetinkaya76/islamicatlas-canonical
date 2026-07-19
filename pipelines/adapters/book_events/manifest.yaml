@@ -1,0 +1,22 @@
+adapter_id: book-events
+display_name: "Kitap-katmanı olayları — Fütûh + Meğâzî + Sîre (tarihli alt-küme)"
+adapter_version: 0.1.0
+source_kind: primary_textual
+languages: [tr, ar]
+license: "OpenITI metinlerinden Claude yapılandırılmış çıkarım (H14); CC BY-SA"
+extraction_method: structured_json
+target_namespaces: [event]
+input_paths:
+  - data/sources/book-layers/00001293_events.json
+  - data/sources/book-layers/00001099_events.json
+  - data/sources/book-layers/00000809_events.json
+  - data/sources/book-layers/00000331_events.json
+  - data/sources/book-layers/00000508_events.json
+  - data/sources/book-layers/00000338_events.json
+  - data/sources/book-layers/00000880_events.json
+output_paths:
+  - data/canonical/event/
+reconciliation:
+  enabled: false
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]

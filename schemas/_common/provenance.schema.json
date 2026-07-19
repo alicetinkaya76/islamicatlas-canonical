@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/provenance.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/provenance.schema.json",
   "title": "Provenance",
   "description": "Per-entity provenance metadata blending W3C PROV-O (process model: who-derived-from-what-when-by-which-activity) with Dublin Core Terms (record-level metadata: created, modified, source, license). Every canonical entity in islamicatlas-canonical MUST carry a provenance block. Provenance immutability principle: 'created' and the initial 'derived_from' set are write-once; subsequent modifications append to record_history and update 'modified', but never overwrite the original assertions.",
   "type": "object",

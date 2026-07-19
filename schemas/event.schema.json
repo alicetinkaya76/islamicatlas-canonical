@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.3.0/event.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.4.0/event.schema.json",
   "title": "Canonical Event",
   "description": "A canonical event record — a temporally anchored historical occurrence (CIDOC CRM E5_Event). Phase 0 forward-declared; activation in P0.3 with the Salibiyyat layer (Crusader battles), Evliya Çelebi voyage events, and Bosworth dynasty foundings/falls. Events provide the connective tissue of historical narrative: they link persons, places, and dynasties at specific moments.",
   "type": "object",
@@ -38,11 +38,11 @@
       }
     },
     "labels": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/multilingual_text.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/multilingual_text.schema.json",
       "description": "Event name. Examples: prefLabel.en='Battle of Manzikert' / prefLabel.ar='معركة ملاذكرد' / prefLabel.tr='Malazgirt Savaşı'."
     },
     "temporal": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/temporal.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/temporal.schema.json",
       "description": "When the event occurred. REQUIRED for events. Day-precision when known (iso_start_date); otherwise year-precision."
     },
     "location": {
@@ -119,10 +119,10 @@
       "description": "Casualty figures (when reported by sources). Often varies wildly across pre-modern sources; record the most authoritative scholarly estimate and cite via source_estimate."
     },
     "authority_xref": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/authority_xref.schema.json"
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/authority_xref.schema.json"
     },
     "provenance": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/provenance.schema.json"
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/provenance.schema.json"
     },
     "note": {
       "type": "string",

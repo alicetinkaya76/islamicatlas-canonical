@@ -47,7 +47,8 @@ except ImportError:  # pragma: no cover
 
 
 _PID_PATTERN_TEMPLATE = "iac:{ns}-{ord:08d}"
-_VALID_NAMESPACES = {"place", "dynasty", "person", "work", "manuscript", "event"}
+_VALID_NAMESPACES = {"place", "dynasty", "person", "work", "manuscript",
+                     "event", "institution"}  # institution: H11 S6 (ADR-015)
 
 
 class PidMinterError(Exception):

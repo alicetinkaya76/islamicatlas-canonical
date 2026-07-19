@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>İslam Atlası — Varlık</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="config.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">۞</span>
+    <span class="brand-name">İslam Atlası</span>
+    <span class="brand-sub">v2</span>
+  </a>
+  <form class="header-search" onsubmit="location.href='index.html?q='+encodeURIComponent(this.q.value);return false;">
+    <input name="q" type="search" placeholder="Yeni arama…">
+  </form>
+</header>
+
+<main class="entity-layout" id="entity">
+  <p class="loading">Yükleniyor…</p>
+</main>
+
+<footer class="site-footer">
+  islamicatlas.org v2 · canonical LOD store üzerinden — her kayıt kaynağına kadar izlenebilir
+</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="assets/entity.js"></script>
+</body>
+</html>

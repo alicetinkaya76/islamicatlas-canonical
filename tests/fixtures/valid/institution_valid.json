@@ -1,0 +1,47 @@
+{
+  "@id": "iac:institution-00000001",
+  "@type": ["iac:Institution", "iac:Mosque"],
+  "institution_subtype": "mosque",
+  "labels": {
+    "prefLabel": {
+      "tr": "Alâeddin Camii",
+      "en": "Alaeddin Mosque"
+    },
+    "description": {
+      "tr": "Konya'nın en eski selâtin camii; Selçuklu dönemi."
+    }
+  },
+  "coords": { "lat": 37.8746, "lon": 32.4932 },
+  "founded_temporal": { "start_ce": 1221, "approximation": "circa" },
+  "derived_from_layers": ["konya-city-atlas"],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "konya-city-atlas:1",
+        "source_type": "digital_corpus",
+        "page_or_locator": "konya.json id=1",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Konya City Atlas (islamicatlas v1)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_institution_konya",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-07-12T00:00:00Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-07-12T00:00:00Z",
+    "modified": "2026-07-12T00:00:00Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-07-12T00:00:00Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Fixture."
+      }
+    ],
+    "deprecated": false
+  }
+}

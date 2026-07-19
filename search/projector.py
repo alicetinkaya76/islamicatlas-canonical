@@ -219,6 +219,7 @@ class Projector:
             "score_work": self._score_default,
             "score_manuscript": self._score_default,
             "score_event": self._score_default,
+            "score_institution": self._score_default,
         }
 
     def _lookups(self) -> dict[str, Callable]:
@@ -358,6 +359,23 @@ class Projector:
             "darp-islam": "darp-islam",
             "scholars": "scholars",      # H10 S3: v1 core-scholar cards
             "ei1": "ei1",                # H10 S4: Encyclopaedia of Islam 1st ed.
+            "battles-events": "manual",  # H11 S2: v1 editoryal olay katmanı
+            # H11 S6 (ADR-015): institution katmanları. konya-city-atlas ve
+            # evliya-celebi önekleri facet değerleriyle birebir (fallback da
+            # tutar) — açık girdi, muqaddasi-sınıfı sessiz boşluk bırakmamak için.
+            "konya-city-atlas": "konya-city-atlas",
+            "maqrizi-khitat": "maqrizi-khitat",
+            "salibiyyat": "salibiyyat",  # H11 S9
+            # H15: kitap-katmanı mint'leri
+            "futuh-buldan": "futuh-buldan", "maghazi": "maghazi",
+            "sira": "sira", "azraqi-makka": "azraqi-makka",
+            "tarikh-baghdad": "tarikh-baghdad",
+            "kamil": "kamil", "suluk": "suluk", "tabari": "tabari",
+            "muruj": "muruj", "tarikh-dimashq": "tarikh-dimashq",
+            "yaqubi-buldan": "yaqubi-buldan",
+            "istakhri-mesalik": "istakhri-mesalik",
+            "ibn-hawqal": "ibn-hawqal", "idrisi-nuzhat": "idrisi-nuzhat",
+            "bakri-mucjam": "bakri-mucjam",
         }
         layers: set[str] = set()
         for entry in (record.get("provenance", {}).get("derived_from") or []):

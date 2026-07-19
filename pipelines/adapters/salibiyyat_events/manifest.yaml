@@ -1,0 +1,29 @@
+adapter_id: salibiyyat-events
+display_name: "Salibiyyât — 6 Müslüman vekāyi'nâmecisinden Haçlı dönemi tanıklıkları (790)"
+adapter_version: 0.1.0
+source_kind: primary_textual
+languages: [tr, en, ar]
+license: "islamicatlas.org v1 Salibiyyât katmanı (own project; kaynak kronikler kamu malı)"
+extraction_method: structured_json
+
+# H11 S9. Kayıtlar tanıklıktır (kronik pasajı başına bir), tekilleştirilmiş
+# olay değil; cluster→canonical (Hıttîn/Kudüs 1187/Ayn Câlût/Mansûre)
+# eşlemesi sidecar'a düşer, otomatik birleştirme YOK. Yılsız 36 kayıt mint
+# edilmez (temporal şemada zorunlu). castles/boundaries/routes bu adapter'da
+# işlenmez.
+target_namespaces: [event]
+
+input_paths:
+  - data/sources/salibiyyat/salibiyyat_atlas_layer.json
+
+output_paths:
+  - data/canonical/event/
+
+sidecar_pending:
+  salibiyyat_events: data/_state/salibiyyat_events_pending.json
+
+reconciliation:
+  enabled: false
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]

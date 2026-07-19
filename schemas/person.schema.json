@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.3.0/person.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.4.0/person.schema.json",
   "title": "Canonical Person",
   "description": "A canonical person record. Forward-declared in v0.1.0 (Phase 0); active canonicalization begins in P0.2 with the Science Layer migration (186 scholars) and Bosworth rulers fix-up (rulers inline → person PID linkage). Phase 0 records MAY exist as placeholders referenced by other entities; full validation strictness applies from P0.2.",
   "type": "object",
@@ -35,7 +35,7 @@
       "description": "Person subtype(s). Multiple allowed (a person may be both Scholar and Mufti, both Ruler and Patron). Each entry requires the supertype iac:Person to be present."
     },
     "labels": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/multilingual_text.schema.json"
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/multilingual_text.schema.json"
     },
     "kunya": {
       "type": "string",
@@ -60,15 +60,15 @@
       "description": "Honorific/regnal title(s), e.g., ['al-Manṣūr', 'Sayf al-Dawla']."
     },
     "birth_temporal": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/temporal.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/temporal.schema.json",
       "description": "Date of birth. Often only year-precise; many pre-modern figures only have an approximate date. Use approximation='circa' or 'before' / 'after' liberally."
     },
     "death_temporal": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/temporal.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/temporal.schema.json",
       "description": "Date of death — far more often attested than birth in pre-modern Islamic biographical sources."
     },
     "floruit_temporal": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/temporal.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/temporal.schema.json",
       "description": "Approximate period of activity, used when birth/death are unknown. Set approximation='floruit'."
     },
     "birth_place": {
@@ -136,10 +136,10 @@
       "description": "Professional/social roles. Controlled vocabulary; multi-valued. Closed enum for Phase 0; extensible in P1."
     },
     "authority_xref": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/authority_xref.schema.json"
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/authority_xref.schema.json"
     },
     "provenance": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/provenance.schema.json"
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/provenance.schema.json"
     },
     "note": {
       "type": "string",

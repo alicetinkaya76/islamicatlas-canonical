@@ -49,3 +49,15 @@ tmp/
 
 # Tier-3 review queue (resolver output; human-work state, regenerable)
 data/review_queue/
+
+# Local dev infra (H11 S7): yerel Typesense verisi + env
+data/_local/
+.env
+web/config.js
+web/.search_key
+web/node_modules/
+web/dist/
+web/public/data
+web/public/lite/config.js
+web/.env
+web/public/reading/

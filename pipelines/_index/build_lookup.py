@@ -159,6 +159,7 @@ def index_one(conn: sqlite3.Connection, record: dict) -> None:
         or record.get("temporal_coverage")
         or record.get("composition_temporal")
         or record.get("dating_temporal")
+        or record.get("founded_temporal")   # institution (H11 S6, ADR-015)
         or record.get("death_temporal")
         or record.get("floruit_temporal")
         or record.get("birth_temporal")

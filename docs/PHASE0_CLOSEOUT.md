@@ -7,10 +7,24 @@ ADR-009/013/014, HAFTA9_STAGE_2e, CHANGELOG). ADR-013'ün atıf yaptığı ama
 hiç yazılmamış "Faz 0.5 roadmap" da budur. Her kalem kapandıkça burada
 işaretlenir; yeni iş çıkarsa buraya eklenir.
 
-**Durum özeti (H9 Stage 5 sonu):** schema set v0.3.0 · canonical 46,702 kayıt
-· suite 147 passed (`make test`) / iç döngü ~9 sn (`make test-fast`) ·
-`full_reindex --dry-run` 46,702/46,702 · AO tamam, `dia_chunks_rich.json`
-hazır · CI gerçek suite'i koşuyor.
+**Durum özeti (H11 S11 sonu, 2026-07-14):** schema set **v0.4.0** (ADR-015)
+· canonical **57,177 kayıt** (person 22,935 · place 19,929 · work 9,331 ·
+institution 3,942 · event 854 · dynasty 186) · suite **160 passed** ·
+`full_reindex --dry-run` 57,177/57,177 · **yerel Typesense CANLI**
+(docker, 57,177 upsert fail=0) · **web/ arayüz v0 ÇALIŞIYOR** (arama +
+facet + varlık sayfası + harita) · hoca-talebe ağı person kayıtlarında
+(7,965 kenar) · H9 kapanış maddeleri ve H10-H11 aşamaları için
+`docs/h10/`+`docs/h11/` journalleri. Aşağıdaki eski bölümlerin durumu:
+§0 KAPANDI (H9 close + merge + LaCie arşivlendi); §1 AP → H11 S1'de
+A1+B3 augment-only icra edildi (30 locator; 1,489 kuyruk); event+
+institution aktivasyonu TAMAM (H11 S2/S5-S6); data.zip bonus katmanları
+TAMAM (H11 S9-S11). Kalan işler artık iki sınıf: (a) Ali-kapılı kararlar
+(İSAM izin yazısı — yalnız yayın öncesi; hosting; tarihçi oturumları:
+dup-merge [dia_travel_pending'deki Mekke×8 kanıt listesiyle], borderline-QID,
+review kuyrukları), (b) Faz 2 teknik kalemler (kişi-yer bağlama
+[dia_geo+alam_places], contemporaries, ei1 68 kenar, muqaddasi_xref,
+salibiyyat boundaries/routes frontend, TR-ekzonim alias, w3id/ontoloji/
+v1.0.0/Zenodo).
 
 ---
 

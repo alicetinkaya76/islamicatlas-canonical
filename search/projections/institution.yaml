@@ -1,0 +1,44 @@
+# Search projection rule for: institution (H11 S5 aktivasyonu, ADR-015)
+entity_type: institution
+projector_version: 0.1.0
+
+mappings:
+  id: $.["@id"]
+  entity_type: "@const:institution"
+  subtypes: "@derived:subtypes_from_type_array"
+  prefLabel_en: $.labels.prefLabel.en
+  prefLabel_ar: $.labels.prefLabel.ar
+  prefLabel_tr: $.labels.prefLabel.tr
+  prefLabel_translit: "@derived:translit_ascii_fold(labels.prefLabel.ar-Latn-x-alalc, labels.prefLabel.en)"
+  altLabels: "@derived:flatten_altLabels"
+  description_en: $.labels.description.en
+  description_tr: $.labels.description.tr
+  description_ar: $.labels.description.ar
+
+  _geo: "@derived:geopoint(coords.lat, coords.lon)"
+
+  century_ce: "@derived:century_from_temporal(founded_temporal.start_ce)"
+  century_ah: "@derived:century_from_temporal_ah(founded_temporal.start_ah)"
+  start_year_ce: $.founded_temporal.start_ce
+  end_year_ce: $.founded_temporal.end_ce
+
+  source_layer: "@derived:source_layers_union(provenance.derived_from, derived_from_layers)"
+  language: "@derived:languages_from_labels"
+
+  has_coords: "@derived:bool_field_present(coords)"
+  has_wikidata: "@derived:bool_authority_present(authority_xref, 'wikidata')"
+  wikidata_qid: "@derived:authority_id(authority_xref, 'wikidata')"
+
+  related_pids: "@derived:union(located_in, patron_person, patron_dynasty)"
+  related_labels: "@lookup:prefLabels(located_in + patron_person + patron_dynasty)"
+
+  deprecated: "@derived:bool_default(provenance.deprecated, false)"
+  modified_at: "@derived:unix_timestamp(provenance.modified)"
+
+  _score: "@derived:score_institution"
+
+score_components:
+  base: 1.0
+  has_wikidata_bonus: 0.3
+  has_coords_bonus: 0.2
+  deprecated_penalty: -100

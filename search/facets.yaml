@@ -25,6 +25,7 @@ global_facets:
       - { value: work,       label_tr: "Eser",        label_en: "Work" }
       - { value: manuscript, label_tr: "Yazma",       label_en: "Manuscript" }
       - { value: event,      label_tr: "Olay",        label_en: "Event" }
+      - { value: institution, label_tr: "Yapı",       label_en: "Institution" }
     default_open: true
     multi_select: true
     sort_by: count_desc
@@ -92,9 +93,26 @@ global_facets:
       - { value: bosworth,          label_tr: "Bosworth NID",         label_en: "Bosworth NID" }
       - { value: evliya-celebi,     label_tr: "Evliya Çelebi",        label_en: "Evliya Çelebi" }
       - { value: ibn-battuta,       label_tr: "İbn Battûta",          label_en: "Ibn Baṭṭūṭa" }
+      - { value: ibn-jubayr,        label_tr: "İbn Cübeyr",           label_en: "Ibn Jubayr" }
+      - { value: futuh-buldan,      label_tr: "Fütûhu'l-Büldân",      label_en: "Futūḥ al-Buldān" }
+      - { value: maghazi,           label_tr: "Meğâzî (Vâkıdî)",      label_en: "al-Maghāzī" }
+      - { value: sira,              label_tr: "Sîre (İbn Hişâm)",     label_en: "Sīra (Ibn Hishām)" }
+      - { value: azraqi-makka,      label_tr: "Ahbâru Mekke",         label_en: "Akhbār Makka" }
+      - { value: istakhri-mesalik,  label_tr: "İstahrî Mesâlik",       label_en: "al-Iṣṭakhrī Masālik" }
+      - { value: ibn-hawqal,        label_tr: "İbn Havkal",           label_en: "Ibn Ḥawqal" }
+      - { value: idrisi-nuzhat,     label_tr: "İdrîsî Nüzhet",        label_en: "al-Idrīsī Nuzha" }
+      - { value: bakri-mucjam,      label_tr: "Bekrî Mu'cem",         label_en: "al-Bakrī Muʿjam" }
+      - { value: kamil,             label_tr: "el-Kâmil (İbn el-Esîr)", label_en: "al-Kāmil" }
+      - { value: suluk,             label_tr: "es-Sülûk (Makrîzî)",   label_en: "al-Sulūk" }
+      - { value: tabari,            label_tr: "Târîhu't-Taberî",      label_en: "Tārīkh al-Ṭabarī" }
+      - { value: muruj,             label_tr: "Mürûc (Mes'ûdî)",      label_en: "Murūj al-Dhahab" }
+      - { value: tarikh-dimashq,    label_tr: "Târîhu Dımaşk",        label_en: "Tārīkh Dimashq" }
+      - { value: yaqubi-buldan,     label_tr: "Ya'kûbî Büldân",       label_en: "al-Yaʿqūbī Buldān" }
+      - { value: tarikh-baghdad,    label_tr: "Târîhu Bağdâd",        label_en: "Tārīkh Baghdād" }
       - { value: salibiyyat,        label_tr: "Salibiyyât (Haçlı)",   label_en: "Salibiyyāt (Crusades)" }
       - { value: darp-islam,        label_tr: "Darp İslam (sikke)",   label_en: "DarpIslam (mints)" }
       - { value: konya-city-atlas,  label_tr: "Konya City Atlas",     label_en: "Konya City Atlas" }
+      - { value: maqrizi-khitat,    label_tr: "Makrîzî Hıtat",        label_en: "Maqrīzī Khiṭaṭ" }
       - { value: science-layer,     label_tr: "Bilim Katmanı",        label_en: "Science Layer" }
       - { value: openiti,           label_tr: "OpenITI",              label_en: "OpenITI" }
       # H9 Stage 3: person-namespace layers that landed in H4-H8 — values

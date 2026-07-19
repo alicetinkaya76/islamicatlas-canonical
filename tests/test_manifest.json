@@ -49,56 +49,88 @@
       "fixture": "invalid/coords_invalid_lat_out_of_range.json",
       "schema": "_common/coords.schema.json",
       "expect": "invalid",
-      "expected_error_keywords": ["maximum"]
+      "expected_error_keywords": [
+        "maximum"
+      ]
     },
     {
       "name": "coords-negative-missing-lon",
       "fixture": "invalid/coords_invalid_missing_lon.json",
       "schema": "_common/coords.schema.json",
       "expect": "invalid",
-      "expected_error_keywords": ["required"]
+      "expected_error_keywords": [
+        "required"
+      ]
     },
     {
       "name": "multilingual_text-negative-no-pref",
       "fixture": "invalid/multilingual_text_invalid_no_pref.json",
       "schema": "_common/multilingual_text.schema.json",
       "expect": "invalid",
-      "expected_error_keywords": ["required"]
+      "expected_error_keywords": [
+        "required"
+      ]
     },
     {
       "name": "temporal-negative-no-anchor",
       "fixture": "invalid/temporal_invalid_no_anchor.json",
       "schema": "_common/temporal.schema.json",
       "expect": "invalid",
-      "expected_error_keywords": ["anyOf"]
+      "expected_error_keywords": [
+        "anyOf"
+      ]
     },
     {
       "name": "authority_xref-negative-qid-format",
       "fixture": "invalid/authority_xref_invalid_qid_format.json",
       "schema": "_common/authority_xref.schema.json",
       "expect": "invalid",
-      "expected_error_keywords": ["pattern", "allOf"]
+      "expected_error_keywords": [
+        "pattern",
+        "allOf"
+      ]
     },
     {
       "name": "provenance-negative-no-source",
       "fixture": "invalid/provenance_invalid_no_source.json",
       "schema": "_common/provenance.schema.json",
       "expect": "invalid",
-      "expected_error_keywords": ["minItems"]
+      "expected_error_keywords": [
+        "minItems"
+      ]
     },
     {
       "name": "place-negative-no-id",
       "fixture": "invalid/place_invalid_no_id.json",
       "schema": "place.schema.json",
       "expect": "invalid",
-      "expected_error_keywords": ["required"]
+      "expected_error_keywords": [
+        "required"
+      ]
     },
     {
       "name": "dynasty-negative-no-temporal",
       "fixture": "invalid/dynasty_invalid_no_temporal.json",
       "schema": "dynasty.schema.json",
       "expect": "invalid",
-      "expected_error_keywords": ["required"]
+      "expected_error_keywords": [
+        "required"
+      ]
+    },
+    {
+      "name": "institution-positive",
+      "fixture": "valid/institution_valid.json",
+      "schema": "institution.schema.json",
+      "expect": "valid"
+    },
+    {
+      "name": "institution-negative-no-supertype",
+      "fixture": "invalid/institution_invalid_no_institution_type.json",
+      "schema": "institution.schema.json",
+      "expect": "invalid",
+      "expect_keywords": [
+        "contains"
+      ]
     }
   ]
 }

@@ -1,0 +1,23 @@
+adapter_id: maqrizi-khitat
+display_name: "Makrîzî Hıtat — 801 Kahire/Fustat yapısı"
+adapter_version: 0.1.0
+source_kind: digital_corpus
+languages: [tr, en, ar]
+license: "islamicatlas.org v1 atlas layer (own project; Makrîzî el-Hıtat çıkarımı — kaynak metin kamu malı)"
+extraction_method: structured_json
+
+# ADR-015 / H11 Karar 6. cairo.json = maqrizi_khitat_atlas_layer.json'ın
+# zengin formu (AYNI 801 kayıt — iki ayrı kaynak değil; extract.py başlığı).
+target_namespaces: [institution]
+
+input_paths:
+  - data/sources/maqrizi-khitat/cairo.json
+
+output_paths:
+  - data/canonical/institution/
+
+reconciliation:
+  enabled: false
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]

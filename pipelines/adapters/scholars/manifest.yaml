@@ -8,11 +8,10 @@ extraction_method: structured_json
 
 target_namespaces: [person]
 
-# HONEST BOUNDARY: scholar_identity.js carries 296 cards but 252 reference a
-# db.json name authority NOT in the repo → unprocessable until Ali supplies
-# the v1 app's db.json (PHASE0_CLOSEOUT source-acquisition item). Scope here
-# = the 49 named CSV scholars (44 w/ identity card, 47 w/ meta).
+# H11 S4: db.json TESLİM EDİLDİ → evren 450 âlim (H10 S3'ün 49'luk sınırı
+# kalktı; 296 kimlik kartının tamamı adreslenebilir).
 input_paths:
+  - data/sources/scholars/db.json               # H11 S4: v1 isim otoritesi (450 âlim; kullanıcı teslimi 2026-07-12)
   - data/sources/scholars/scholars.csv
   - data/sources/scholars/scholars_converted.json
 

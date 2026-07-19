@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+# İslam Atlası v2 — yerel test başlatıcı (H15)
+# Kullanım: bash scripts/start_local.sh
+set -e
+REPO="/Users/alicetinkaya/Desktop/islamicatlas_canonical"
+cd "$REPO"
+
+echo "▸ 1/3  Typesense (arama motoru) başlatılıyor…"
+if ! docker ps --format '{{.Names}}' | grep -q '^islamicatlas-typesense$'; then
+  docker start islamicatlas-typesense 2>/dev/null || {
+    echo "  (ilk kez) container oluşturuluyor…"
+    KEY=$(grep TYPESENSE_API_KEY .env | cut -d= -f2)
+    docker run -d --name islamicatlas-typesense --restart unless-stopped \
+      -p 8108:8108 -v "$REPO/data/_local/typesense:/data" \
+      typesense/typesense:29.0 --data-dir /data --api-key="$KEY" --enable-cors
+  }
+fi
+until curl -s http://localhost:8108/health | grep -q ok; do sleep 1; done
+echo "  ✓ Typesense hazır (http://localhost:8108)"
+
+echo "▸ 2/3  Arama verisi güncel mi kontrol ediliyor…"
+set -a; source .env; set +a
+COUNT=$(curl -s "http://localhost:8108/collections/iac_entities" \
+  -H "X-TYPESENSE-API-KEY: $TYPESENSE_API_KEY" 2>/dev/null | grep -o '"num_documents":[0-9]*' | cut -d: -f2)
+if [ -z "$COUNT" ] || [ "$COUNT" -lt 1000 ]; then
+  echo "  veri yükleniyor (bir kerelik, ~1 dk)…"
+  python3 pipelines/search/upsert.py --recreate
+else
+  echo "  ✓ $COUNT kayıt yüklü"
+fi
+
+echo "▸ 3/3  Web arayüzü başlatılıyor…"
+echo ""
+echo "  ►►►  http://localhost:3000  ◄◄◄"
+echo ""
+echo "  (durdurmak için Ctrl+C)"
+cd web && npm run dev -- --port 3000 --no-open

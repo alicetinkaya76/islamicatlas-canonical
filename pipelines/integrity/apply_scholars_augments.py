@@ -71,8 +71,12 @@ def main() -> int:
         if ev.get("preflabel_en") and not pref.get("en"):
             pref["en"] = ev["preflabel_en"]
             changed_fields.append("prefLabel.en")
+        if ev.get("preflabel_ar") and not pref.get("ar"):
+            pref["ar"] = ev["preflabel_ar"]
+            changed_fields.append("prefLabel.ar")
         desc = labels.setdefault("description", {})
-        for lang, key in (("en", "description_en"), ("tr", "description_tr")):
+        for lang, key in (("en", "description_en"), ("tr", "description_tr"),
+                          ("ar", "description_ar")):
             if ev.get(key) and not desc.get(lang):
                 desc[lang] = ev[key][:5000]
                 changed_fields.append(f"description.{lang}")

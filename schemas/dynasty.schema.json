@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/islamicatlas/schemas/v0.3.0/dynasty.schema.json",
+  "$id": "https://w3id.org/islamicatlas/schemas/v0.4.0/dynasty.schema.json",
   "title": "Canonical Dynasty",
   "description": "A canonical political dynasty / ruling house in the Islamic Atlas knowledge graph. Phase 0 (v0.1.0) covers five concrete subtypes: Caliphate (universal-claim caliphal dynasties: Rāshidūn, Umayyad, Abbasid, Fāṭimid Ismā'īlī, Andalusian Umayyad after 929, Almohad), Sultanate (Saljūq, Ayyūbid, Mamlūk, Ottoman, etc.), Emirate (sub-caliphal and sub-sultanic ruling families: Aghlabid, Sāmānid, Hamdānid), Imamate (Zaydī, Ibāḍī, Twelver-Imāmī claim-bearing dynasties; distinct from caliphates by doctrinal claim), and Beylik (Anatolian post-Saljūq emirates and analogous principalities). Every dynasty carries multilingual labels, a temporal range (start/end years required: a dynasty without dates is not a dynasty for our purposes), an optional Bosworth NID reference (the primary tertiary-reference anchor), an optional list of capitals, predecessor/successor pointers for political continuity chains, an optional rulers list (Phase 0: minimal name + reign period; full prosopography in P0.2), an authority cross-reference block, and provenance.",
   "type": "object",
@@ -51,11 +51,11 @@
       "description": "Discriminator field that mirrors the @type subtype, lower-cased and singular for ergonomic filtering. Optional but recommended. MUST be coherent with @type when present: dynasty_subtype='sultanate' iff '@type' contains 'iac:Sultanate'."
     },
     "labels": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/multilingual_text.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/multilingual_text.schema.json",
       "description": "Multilingual label bundle. The prefLabel sub-property is required by the referenced schema and MUST contain at least 'en' for Phase 0 dynasties (Bosworth's New Islamic Dynasties is the lingua-franca anchor); 'ar' and 'tr' are strongly recommended."
     },
     "temporal": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/temporal.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/temporal.schema.json",
       "description": "Temporal range of the dynasty's political existence. REQUIRED for all dynasties (unlike places, where missing temporal coverage signals continuity, missing temporal coverage on a dynasty signals an incomplete record). Either a CE anchor (start_ce + end_ce) OR an AH anchor (start_ah + end_ah) is sufficient; the canonicalization pipeline computes the other automatically when one is given. For dynasties whose end year is contested by sources, set end_ce/end_ah to the conventionally cited year and use approximation='disputed' with a note."
     },
     "bosworth_id": {
@@ -195,11 +195,11 @@
       "description": "Chronological list of rulers. Phase 0 carries inline minimal records (name + reign period); Phase 0.2 will deprecate the inline form in favour of person_pid references with the inline fields kept as denormalised display copies."
     },
     "authority_xref": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/authority_xref.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/authority_xref.schema.json",
       "description": "Cross-references to external authority files. Phase 0 actively reconciles Wikidata ('e.g., Q11707' for Abbasid Caliphate); Pleiades is generally not applicable for dynasties (it is a place-authority); VIAF is applicable for the dynasty-as-corporate-body and is included as forward-declaration but not actively reconciled in Phase 0."
     },
     "provenance": {
-      "$ref": "https://w3id.org/islamicatlas/schemas/v0.3.0/_common/provenance.schema.json",
+      "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/provenance.schema.json",
       "description": "Mandatory provenance block. For Phase 0 Bosworth-pilot dynasties, derived_from MUST contain at least one entry with source_id='bosworth-nid:NNN' and source_type='secondary_scholarly'."
     },
     "note": {
