@@ -1,3 +1,4 @@
+import { SOURCE_COUNTS, fmtCount } from '../../data/sourceCounts';
 import { useMemo, useRef, useEffect, useCallback } from 'react';
 import * as d3 from 'd3';
 import DB from '../../data/db.json';
@@ -149,16 +150,16 @@ export default function Dashboard({ lang, t: tProp, onTabChange }) {
     { key: 'cities', icon: '🏙', count: DB.cities?.length || 0, label: t.layers.cities, tab: 'map' },
     { key: 'routes', icon: '🛤', count: DB.routes?.length || 0, label: t.layers.routes, tab: 'map' },
     { key: 'madrasas', icon: '🎓', count: DB.madrasas?.length || 0, label: t.layers.madrasas, tab: 'map' },
-    { key: 'alam', icon: '📖', count: 13940, label: t.landing.alamBio, tab: 'alam' },
-    { key: 'darpislam', icon: '🪙', count: 3458, label: { tr: 'Darphane', en: 'Mints' }[lang], tab: 'darpislam' },
-    { key: 'khitat', icon: '🏛️', count: 801, label: { tr: 'Yapı (el-Hıṭaṭ)', en: 'Structures (al-Khiṭaṭ)' }[lang], tab: 'khitat' },
-    { key: 'cityatlas', icon: '🏙️', count: 219, label: { tr: 'Yapı (Konya)', en: 'Monuments (Konya)' }[lang], tab: 'cityatlas' },
-    { key: 'lestrange', icon: '🗺️', count: 434, label: { tr: 'Coğrafi Kayıt (Le Strange)', en: 'Geographic Records (Le Strange)' }[lang], tab: 'lestrange' },
-    { key: 'muqaddasi', icon: '📐', count: 2049, label: { tr: 'Yerleşim (Makdisî)', en: 'Places (al-Muqaddasī)' }[lang], tab: 'muqaddasi' },
-    { key: 'rihla', icon: '🧭', count: 317, label: { tr: 'Durak (İbn Battûta)', en: 'Stops (Ibn Battuta)' }[lang], tab: 'rihla' },
-    { key: 'evliya', icon: '🐫', count: 5444, label: { tr: 'Durak (Evliyâ Çelebi)', en: 'Stops (Evliya Çelebi)' }[lang], tab: 'evliya' },
-    { key: 'salibiyyat', icon: '⚔️', count: 790, label: { tr: 'Olay (Salibiyyât)', en: 'Events (Crusades)' }[lang], tab: 'salibiyyat' },
-    { key: 'science', icon: '🔬', count: 186, label: { tr: 'Bilim Atlası', en: 'Science Atlas' }[lang], tab: 'science' },
+    { key: 'alam', icon: '📖', count: SOURCE_COUNTS.alam, label: t.landing.alamBio, tab: 'alam' },
+    { key: 'darpislam', icon: '🪙', count: SOURCE_COUNTS.darpislam, label: { tr: 'Darphane', en: 'Mints' }[lang], tab: 'darpislam' },
+    { key: 'khitat', icon: '🏛️', count: SOURCE_COUNTS.khitat, label: { tr: 'Yapı (el-Hıṭaṭ)', en: 'Structures (al-Khiṭaṭ)' }[lang], tab: 'khitat' },
+    { key: 'cityatlas', icon: '🏙️', count: SOURCE_COUNTS.cityatlas, label: { tr: 'Yapı (Şehir Atlası)', en: 'Structures (City Atlas)' }[lang], tab: 'cityatlas' },
+    { key: 'lestrange', icon: '🗺️', count: SOURCE_COUNTS.lestrange, label: { tr: 'Coğrafi Kayıt (Le Strange)', en: 'Geographic Records (Le Strange)' }[lang], tab: 'lestrange' },
+    { key: 'muqaddasi', icon: '📐', count: SOURCE_COUNTS.muqaddasi, label: { tr: 'Yerleşim (Makdisî)', en: 'Places (al-Muqaddasī)' }[lang], tab: 'muqaddasi' },
+    { key: 'rihla', icon: '🧭', count: SOURCE_COUNTS.rihla, label: { tr: 'Durak (İbn Battûta)', en: 'Stops (Ibn Battuta)' }[lang], tab: 'rihla' },
+    { key: 'evliya', icon: '🐫', count: SOURCE_COUNTS.evliya, label: { tr: 'Durak (Evliyâ Çelebi)', en: 'Stops (Evliya Çelebi)' }[lang], tab: 'evliya' },
+    { key: 'salibiyyat', icon: '⚔️', count: SOURCE_COUNTS.salibiyyat, label: { tr: 'Olay (Salibiyyât)', en: 'Events (Crusades)' }[lang], tab: 'salibiyyat' },
+    { key: 'science', icon: '🔬', count: SOURCE_COUNTS.science, label: { tr: 'Bilim Atlası', en: 'Science Atlas' }[lang], tab: 'science' },
   ], [lang]);
 
   /* Era distribution */
@@ -305,23 +306,23 @@ export default function Dashboard({ lang, t: tProp, onTabChange }) {
           <h3 className="dash-card-title">{{ tr: 'Veri Kaynakları', en: 'Data Sources', ar: 'مصادر البيانات' }[lang]}</h3>
           <div className="dash-sources-grid">
             {[
-              { icon: '📖', name: 'al-Aʿlām', count: '13,940', scope: '7–20. yy.', tab: 'alam',
+              { icon: '📖', name: 'al-Aʿlām', count: fmtCount('alam'), scope: '7–20. yy.', tab: 'alam',
                 desc: { tr: 'Ziriklî biyografi', en: 'Ziriklī biographies', ar: 'تراجم الزركلي' }[lang] },
-              { icon: '📚', name: 'DİA', count: '8,528', scope: '7–20. yy.', tab: 'dia',
+              { icon: '📚', name: 'DİA', count: fmtCount('dia'), scope: '7–20. yy.', tab: 'dia',
                 desc: { tr: 'TDV âlim biyografileri', en: 'TDV scholar bios', ar: 'تراجم علماء TDV' }[lang] },
-              { icon: '📕', name: 'EI-1', count: '7,568', scope: '7–19. yy.', tab: 'ei1',
+              { icon: '📕', name: 'EI-1', count: fmtCount('ei1'), scope: '7–19. yy.', tab: 'ei1',
                 desc: { tr: 'Brill 1. baskı', en: 'Brill 1st edition', ar: 'طبعة بريل الأولى' }[lang] },
-              { icon: '🌍', name: "Muʿjam", count: '12,954', scope: '7–13. yy.', tab: 'yaqut',
+              { icon: '🌍', name: "Muʿjam", count: fmtCount('yaqut'), scope: '7–13. yy.', tab: 'yaqut',
                 desc: { tr: 'Yâkût coğrafya', en: 'Yāqūt geography', ar: 'جغرافيا ياقوت' }[lang] },
-              { icon: '🪙', name: 'DarpIslam', count: '3,458', scope: 'H. 1–399', tab: 'darpislam', desc: { tr: 'İslam darphaneleri', en: 'Islamic mints' }[lang] },
-              { icon: '🏛️', name: 'el-Hıṭaṭ', count: '801', scope: 'Kâhire', tab: 'khitat', desc: { tr: 'Makrîzî Kâhire topografyası', en: 'Maqrīzī Cairo topography' }[lang] },
-              { icon: '🏙️', name: 'Konya Atlası', count: '219', scope: 'Konya', tab: 'cityatlas', desc: { tr: 'Konyalı mimari envanteri', en: 'Konyalı architectural inventory' }[lang] },
-              { icon: '🗺️', name: 'Le Strange', count: '434', scope: '7–15. yy.', tab: 'lestrange', desc: { tr: 'Doğu Hilâfet coğrafyası', en: 'Eastern Caliphate geography' }[lang] },
-              { icon: '📐', name: 'Makdisî', count: '2,049', scope: '4. yy. H.', tab: 'muqaddasi', desc: { tr: 'Ahsenü\'t-Tekâsîm coğrafyası', en: 'Aḥsan al-Taqāsīm geography' }[lang] },
-              { icon: '🧭', name: 'İbn Battûta', count: '317', scope: '14. yy.', tab: 'rihla', desc: { tr: 'Rihle seyahat durakları', en: 'Rihla travel stops' }[lang] },
-              { icon: '🐫', name: 'Evliyâ Çelebi', count: '5,444', scope: '17. yy.', tab: 'evliya', desc: { tr: 'Seyahatnâme durakları', en: 'Seyahatname travel stops' }[lang] },
-              { icon: '⚔️', name: 'Salibiyyât', count: '790', scope: '1096–1438', tab: 'salibiyyat', desc: { tr: 'Haçlı seferleri olayları', en: 'Crusade events' }[lang] },
-              { icon: '🔬', name: 'Bilim Atlası', count: '186', scope: '8–15. yy.', tab: 'science', desc: { tr: 'İslam bilim tarihi', en: 'Islamic science history' }[lang] },
+              { icon: '🪙', name: 'DarpIslam', count: fmtCount('darpislam'), scope: 'H. 1–399', tab: 'darpislam', desc: { tr: 'İslam darphaneleri', en: 'Islamic mints' }[lang] },
+              { icon: '🏛️', name: 'el-Hıṭaṭ', count: fmtCount('khitat'), scope: 'Kâhire', tab: 'khitat', desc: { tr: 'Makrîzî Kâhire topografyası', en: 'Maqrīzī Cairo topography' }[lang] },
+              { icon: '🏙️', name: 'Şehir Atlası', count: fmtCount('cityatlas'), scope: 'Kâhire+Konya', tab: 'cityatlas', desc: { tr: 'Şehir mimari envanterleri', en: 'City architectural inventories' }[lang] },
+              { icon: '🗺️', name: 'Le Strange', count: fmtCount('lestrange'), scope: '7–15. yy.', tab: 'lestrange', desc: { tr: 'Doğu Hilâfet coğrafyası', en: 'Eastern Caliphate geography' }[lang] },
+              { icon: '📐', name: 'Makdisî', count: fmtCount('muqaddasi'), scope: '4. yy. H.', tab: 'muqaddasi', desc: { tr: 'Ahsenü\'t-Tekâsîm coğrafyası', en: 'Aḥsan al-Taqāsīm geography' }[lang] },
+              { icon: '🧭', name: 'İbn Battûta', count: fmtCount('rihla'), scope: '14. yy.', tab: 'rihla', desc: { tr: 'Rihle seyahat durakları', en: 'Rihla travel stops' }[lang] },
+              { icon: '🐫', name: 'Evliyâ Çelebi', count: fmtCount('evliya'), scope: '17. yy.', tab: 'evliya', desc: { tr: 'Seyahatnâme durakları', en: 'Seyahatname travel stops' }[lang] },
+              { icon: '⚔️', name: 'Salibiyyât', count: fmtCount('salibiyyat'), scope: '1096–1438', tab: 'salibiyyat', desc: { tr: 'Haçlı seferleri olayları', en: 'Crusade events' }[lang] },
+              { icon: '🔬', name: 'Bilim Atlası', count: fmtCount('science'), scope: '8–15. yy.', tab: 'science', desc: { tr: 'İslam bilim tarihi', en: 'Islamic science history' }[lang] },
             ].map(src => (
               <div key={src.name} className="dash-source-card" onClick={() => goTab(src.tab)} role="button" tabIndex={0}>
                 <div className="dash-source-header">

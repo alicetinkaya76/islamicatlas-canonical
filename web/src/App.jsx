@@ -2,6 +2,7 @@ import FeedbackModal from './components/shared/FeedbackModal';
 import './styles/feedback.css';
 import { useState, useRef, useCallback, useEffect, Suspense, lazy } from 'react';
 import T from './data/i18n';
+import { fmtCount } from './data/sourceCounts';
 import LandingPage from './components/landing/LandingPage';
 import LazyLoader from './components/shared/LazyLoader';
 import MetaTags from './components/shared/MetaTags';
@@ -389,25 +390,25 @@ export default function App() {
           <button className={`tab${tab === 'library' ? ' active' : ''}`} onClick={() => selectTab('library')}
             title={{ tr: 'Çekirdek Külliyat — tam metin okuyucu + kitap haritaları', en: 'Core canon — full-text reader + book maps', ar: 'المكتبة' }[lang]}>
             {{ tr: '📖 Kütüphane', en: '📖 Library', ar: '📖 المكتبة' }[lang]}
-            <span className="nav-badge-new">17</span>
+            <span className="nav-badge-new">{fmtCount('library')}</span>
           </button>
           <NavDropdown
             label={{ tr: '📚 Kaynaklar', en: '📚 Sources', ar: '📚 المصادر' }[lang]}
             items={[
-              { id: 'alam', label: t.tabs.alam, badge: '13.9K', preload: '/data/alam_lite.json' },
-              { id: 'dia',  label: t.tabs.dia,  badge: '8.5K',  preload: '/data/dia_lite.json' },
-              { id: 'ei1',  label: t.tabs.ei1,  badge: '7.6K',  preload: '/data/ei1_lite.json' },
-              { id: 'yaqut', label: t.tabs.yaqut, badge: '13K',  preload: '/data/yaqut_lite.json' },
-              { id: 'rihla', label: t.tabs.rihla || 'İbn Battûta', badge: '317', preload: '/data/ibn_battuta_atlas_layer.json' },
-              { id: 'khitat', label: t.tabs.khitat || '🏛️ el-Hıṭaṭ', badge: '801', preload: '/data/maqrizi_khitat_atlas_layer.json' },
-              { id: 'lestrange', label: t.tabs.lestrange || '🗺️ Le Strange', badge: '434', preload: '/data/le_strange_eastern_caliphate.json' },
-              { id: 'cityatlas', label: t.tabs.cityatlas || '🏙️ Şehir Atlası', badge: '1,020', preload: '/data/city-atlas/konya.json' },
-              { id: 'darpislam', label: t.tabs.darpislam, badge: '3.5K', preload: '/data/darpislam_lite.json' },
-              { id: 'science', label: t.tabs.science || '🔬 Bilim Atlası', badge: '182', preload: '/data/science_layer.json' },
-              { id: 'salibiyyat', label: t.tabs.salibiyyat || '⚔️ Salibiyyât', badge: '790', preload: '/data/salibiyyat_atlas_layer.json' },
-              { id: 'evliya', label: t.tabs.evliya || '🐫 Evliyâ Çelebi', badge: '5,444', preload: '/data/evliya_atlas_layer.json' },
-              { id: 'muqaddasi', label: t.tabs.muqaddasi || '📐 Makdisî', badge: '2,049', preload: '/data/muqaddasi_atlas_layer.json' },
-              { id: 'library', label: { tr: '📖 Kütüphane (Çekirdek Külliyat)', en: '📖 Library (core canon)', ar: '📖 المكتبة' }[lang], badge: '17' },
+              { id: 'alam', label: t.tabs.alam, badge: fmtCount('alam'), preload: '/data/alam_lite.json' },
+              { id: 'dia',  label: t.tabs.dia,  badge: fmtCount('dia'),  preload: '/data/dia_lite.json' },
+              { id: 'ei1',  label: t.tabs.ei1,  badge: fmtCount('ei1'),  preload: '/data/ei1_lite.json' },
+              { id: 'yaqut', label: t.tabs.yaqut, badge: fmtCount('yaqut'),  preload: '/data/yaqut_lite.json' },
+              { id: 'rihla', label: t.tabs.rihla || 'İbn Battûta', badge: fmtCount('rihla'), preload: '/data/ibn_battuta_atlas_layer.json' },
+              { id: 'khitat', label: t.tabs.khitat || '🏛️ el-Hıṭaṭ', badge: fmtCount('khitat'), preload: '/data/maqrizi_khitat_atlas_layer.json' },
+              { id: 'lestrange', label: t.tabs.lestrange || '🗺️ Le Strange', badge: fmtCount('lestrange'), preload: '/data/le_strange_eastern_caliphate.json' },
+              { id: 'cityatlas', label: t.tabs.cityatlas || '🏙️ Şehir Atlası', badge: fmtCount('cityatlas'), preload: '/data/city-atlas/konya.json' },
+              { id: 'darpislam', label: t.tabs.darpislam, badge: fmtCount('darpislam'), preload: '/data/darpislam_lite.json' },
+              { id: 'science', label: t.tabs.science || '🔬 Bilim Atlası', badge: fmtCount('science'), preload: '/data/science_layer.json' },
+              { id: 'salibiyyat', label: t.tabs.salibiyyat || '⚔️ Salibiyyât', badge: fmtCount('salibiyyat'), preload: '/data/salibiyyat_atlas_layer.json' },
+              { id: 'evliya', label: t.tabs.evliya || '🐫 Evliyâ Çelebi', badge: fmtCount('evliya'), preload: '/data/evliya_atlas_layer.json' },
+              { id: 'muqaddasi', label: t.tabs.muqaddasi || '📐 Makdisî', badge: fmtCount('muqaddasi'), preload: '/data/muqaddasi_atlas_layer.json' },
+              { id: 'library', label: { tr: '📖 Kütüphane (Çekirdek Külliyat)', en: '📖 Library (core canon)', ar: '📖 المكتبة' }[lang], badge: fmtCount('library') },
             ]}
             activeTab={tab}
             onSelect={selectTab}

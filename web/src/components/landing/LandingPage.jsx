@@ -1,3 +1,4 @@
+import { SOURCE_COUNTS } from '../../data/sourceCounts';
 import { useState, useEffect, useRef, useCallback } from 'react';
 import DB from '../../data/db.json';
 import T from '../../data/i18n';
@@ -55,14 +56,14 @@ export default function LandingPage({ lang, setLang, onEnter }) {
   }, [setLang]);
 
   const stats = [
-    { key: 'dynasties', count: DB.dynasties?.length || 186, label: t.landing.dynasties },
-    { key: 'scholars', count: DB.scholars?.length || 313, label: t.landing.scholars },
-    { key: 'battles', count: DB.battles?.length || 65, label: t.landing.battles },
-    { key: 'rulers', count: DB.rulers?.length || 830, label: t.landing.rulers },
-    { key: 'monuments', count: DB.monuments?.length || 60, label: t.landing.monuments },
-    { key: 'cities', count: DB.cities?.length || 82, label: t.landing.cities },
-    { key: 'madrasas', count: DB.madrasas?.length || 35, label: t.landing.madrasas },
-    { key: 'alam', count: 13940, label: t.landing.alamBio },
+    { key: 'dynasties', count: DB.dynasties?.length || 0, label: t.landing.dynasties },
+    { key: 'scholars', count: DB.scholars?.length || 0, label: t.landing.scholars },
+    { key: 'battles', count: DB.battles?.length || 0, label: t.landing.battles },
+    { key: 'rulers', count: DB.rulers?.length || 0, label: t.landing.rulers },
+    { key: 'monuments', count: DB.monuments?.length || 0, label: t.landing.monuments },
+    { key: 'cities', count: DB.cities?.length || 0, label: t.landing.cities },
+    { key: 'madrasas', count: DB.madrasas?.length || 0, label: t.landing.madrasas },
+    { key: 'alam', count: SOURCE_COUNTS.alam, label: t.landing.alamBio },
   ];
 
   return (
