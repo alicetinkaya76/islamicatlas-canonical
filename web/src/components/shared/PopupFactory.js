@@ -1,4 +1,5 @@
 import { n, lf } from '../../hooks/useEntityLookup';
+import { booksBlockHtml } from '../../data/placeBooks';
 
 /* ═══ Popup HTML Builders ═══ */
 
@@ -150,6 +151,8 @@ export function buildCityPopup(c, lang, t) {
     `<div class="p-row"><span class="p-k">${mk.role}</span><span class="p-v">${lf(c, 'role', lang)}</span></div>` +
     narrBlock(c, lang) +
     ctxRow('🏗', { tr: 'Katmanlar', en: 'Layers', ar: '' }[lang], lf(c, 'layers', lang)) +
+    /* H18 S2: yer→kitap köprüsü (place_index; birebir Arapça ad eşleşmesi) */
+    booksBlockHtml(c.ar, lang) +
     (fun ? `<div class="p-vis"><span class="p-vis-i">🎲</span>${fun}</div>` : '');
 }
 

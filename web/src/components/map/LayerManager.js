@@ -2,6 +2,7 @@ import L from 'leaflet';
 import DB from '../../data/db.json';
 import { REL_C, ZONE_C, IMP_OP } from '../../config/colors';
 import { n } from '../../hooks/useEntityLookup';
+import { ensurePlaceIndex } from '../../data/placeBooks';
 import {
   buildDynastyPopup, buildBattlePopup, buildEventPopup,
   buildScholarPopup, buildMonumentPopup, buildCityPopup, buildRoutePopup,
@@ -68,6 +69,7 @@ function hasRange(yr) { return yr && (yr[0] !== FULL_RANGE[0] || yr[1] !== FULL_
  * Returns the active dynasty count.
  */
 export function renderLayers({ lg, layers, filters, year, yearRange, lang, t, analyticsMap, causalIdx, onPopupOpen }) {
+  ensurePlaceIndex();   // H18 S2: yer→kitap indeksi (tek sefer, tembel)
   const yr = yearRange || FULL_RANGE;
   const rangeActive = hasRange(yr);
   /* When range is active, use midpoint for opacity/styling calculations */
@@ -283,7 +285,9 @@ export function renderLayers({ lg, layers, filters, year, yearRange, lang, t, an
       const r = c.pop ? Math.max(7, Math.min(20, Math.sqrt(c.pop / 12000))) : 7;
       L.circleMarker([c.lat, c.lon], {
         radius: r, fillColor: '#f97316', fillOpacity: 0.65, color: '#fff', weight: 1.2
-      }).bindPopup(buildCityPopup(c, lang, t), popOpt(340)).addTo(lg.cities);
+      /* H18 S2: içerik FONKSİYON — place_index tembel yüklendikten sonraki
+         her açılışta kitap köprüsü bloğu görünür. */
+      }).bindPopup(() => buildCityPopup(c, lang, t), popOpt(340)).addTo(lg.cities);
       const cLayers = lg.cities.getLayers();
       if (cLayers.length) popupTrack(cLayers[cLayers.length - 1], 'city', c.id);
     });

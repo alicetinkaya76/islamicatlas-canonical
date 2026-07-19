@@ -55,9 +55,23 @@ STOPLIST = {"الجمعة", "الجماعة", "السلام", "الاسلام", 
             "الحجارة", "سواء", "باذن", "بأذن", "كوفى", "البير", "مرحب",
             "السرية", "الغد", "الشمال", "اليمين", "يسير", "قريب", "بعيد",
             "عظيم", "الفتح", "النصر", "الخليج", "سوق", "نهر", "وادي",
-            "جبل", "عين", "بئر", "قصر", "حصن", "دير", "تل"}
+            "جبل", "عين", "بئر", "قصر", "حصن", "دير", "تل",
+            # 4. tur (H18 dup-küme+frekans kalibrasyonu dökümünden):
+            # para/ölçü, sık sıfat, kişi adı/nisbe ve kavim homografları
+            "دينار", "سنين", "معروف", "الزهري", "سهيل", "مناف", "لبني",
+            "البربر", "البحيرة", "العزي", "مناة", "اراك", "عبلة", "دودان",
+            "زناتة", "يكسوم",
+            # 4b: eşik-altı kişi-adı homografları (4. tur dökümünün kuyruğu)
+            "خارجة", "حاطب", "عوانة", "رباح"}
 # not: kavim adları (الروم/الترك/الهند...) tip-ötesi korumaya bırakıldı;
 # genel cins isimler kesinlik için bilinçli feda.
+
+# H18: 3-harf uzunluk korumasının EDİTORYAL istisnası (stoplist'in aynası —
+# elle, gerekçeli). 3-harfli 1.218 normalize adın çoğu tehlikeli homograf
+# (اذن/ابا/اني sınıfı) → len>=4 kuralı kalır; مكة ise metinlerde açık ara
+# en sık geçen gerçek yer adıdır ve dup-küme kuralı tek belirgin kayda
+# (iac:place-00011505, Ezrakî çapası) bağlar.
+ALLOW_SHORT = {"مكة"}
 
 
 def norm_ar(s: str) -> str:
@@ -69,22 +83,48 @@ def norm_ar(s: str) -> str:
     return s
 
 
+def _hav(a, b, c, d):
+    import math
+    p = math.pi / 180
+    x = (math.sin((c - a) * p / 2) ** 2
+         + math.cos(a * p) * math.cos(c * p) * math.sin((d - b) * p / 2) ** 2)
+    return 6371 * 2 * math.asin(math.sqrt(x))
+
+
 def build_lexicon() -> dict:
-    """norm(ad) → (pid, orijinal_ad, lat, lon); yalnız TEKİL-pid adlar.
+    """norm(ad) → (pid, orijinal_ad, lat, lon).
 
     TİP-ÖTESİ KORUMA (ilk koşu kanıtı: عمرو/يزيد/الحسن/إسماعيل kişi adları
     yer olarak eşleşti): tek-token bir ad mağazada HERHANGİ bir kişi
     etiketiyle de çakışıyorsa sözlüğe girmez — metinde o kelime çoğunlukla
-    kişidir; yer okuması tekil-pid olsa bile güvenilmez."""
+    kişidir; yer okuması tekil-pid olsa bile güvenilmez.
+
+    ÇOK-PID ADLAR — DUP-KÜME KURALI (H18; H14 build_stop_lexicon deseninin
+    genellemesi): eski katı tekil-pid şartı, mağaza mükerrerleri yüzünden
+    EN ÜNLÜ şehirleri (بغداد/مكة/القاهرة sınıfı) sözlükten tamamen
+    düşürüyordu — Târîhu Bağdâd'ın haritasında Bağdat yoktu (H18 canlı
+    kanıt). Aynı norm-adın TÜM koordinatlı adayları <50 km kümeleniyorsa
+    bunlar aynı şehrin mağaza mükerrerleridir → en belirgin (en çok
+    kaynak-curie'li) kayda bağlanır; dağınıksa (Trablus Şam/Libya sınıfı)
+    ad sözlüğe GİRMEZ (belirsizlik-koruması aynen)."""
     conn = sqlite3.connect(REPO_ROOT / "data/_index/lookup.sqlite")
-    person_words: set[str] = set()
+    # TİP-ÖTESİ KORUMA FREKANS-EŞİKLİ (H18 kalibrasyonu): eski "herhangi bir
+    # kişi etiketinde token olarak geçiyorsa dışarıda" kuralı بغداد/مكة/دمشق
+    # sınıfını da düşürüyordu (kişi etiketlerinde 'nisbe/ikamet' tokeni olarak
+    # 1-9 kez geçiyorlar). Ölçüm (2026-07-19, 22.935 kişi etiketi):
+    # kişi adları عمرو 313 · يزيد 173 · الحسن 800 · إسماعيل 438;
+    # şehirler بغداد 2 · مكة 1 · دمشق 9 · الكوفة 2 · حلب 2 · البصرة 0.
+    # Eşik 25 = en yüksek şehrin ~3 katı, en düşük kişi adının 1/7'si.
+    PERSON_TOKEN_MIN = 25
+    person_tok_cnt: dict[str, int] = defaultdict(int)
     for (text,) in conn.execute(
             "SELECT l.text FROM label l JOIN entity_bracket b ON b.pid=l.pid "
             "WHERE b.entity_type='person' AND l.lang IN ('ar','tr')"):
         for w in TOKEN.findall(text):
-            person_words.add(norm_ar(w))
-    raw: dict[str, set] = defaultdict(set)
-    meta: dict[str, tuple] = {}
+            person_tok_cnt[norm_ar(w)] += 1
+    person_words: set[str] = {w for w, c in person_tok_cnt.items()
+                              if c >= PERSON_TOKEN_MIN}
+    raw: dict[str, dict] = defaultdict(dict)      # norm → {pid: (ad, lat, lon)}
     for text, pid, lat, lon in conn.execute(
             "SELECT l.text, l.pid, b.lat, b.lon FROM label l "
             "JOIN entity_bracket b ON b.pid = l.pid "
@@ -92,12 +132,12 @@ def build_lexicon() -> dict:
         n = norm_ar(text.strip())
         if n.startswith("و") and len(n) > 4:
             n = n[1:]
-        if len(n) < 4 or n in STOPLIST:
+        if (len(n) < 4 and n not in ALLOW_SHORT) or n in STOPLIST:
             continue
         if " " not in n and n in person_words:
             continue                      # tip-ötesi çakışma → dışarıda
-        raw[n].add(pid)
-        meta[n] = (text.strip(), lat, lon)
+        raw[n][pid] = (text.strip(), lat, lon)
+    curie_cnt = dict(conn.execute("SELECT pid, COUNT(*) FROM source_curie GROUP BY pid"))
     # belirginlik: ≥2 kaynak-curie'li YA DA otorite bağlı kayıtlar
     prominent: set[str] = set()
     for pid, cnt in conn.execute(
@@ -107,17 +147,25 @@ def build_lexicon() -> dict:
         prominent.add(pid)
     conn.close()
     lex = {}
-    for n, pids in raw.items():
-        if len(pids) != 1:
-            continue
+    n_cluster = 0
+    for n, cands in raw.items():
         toks = n.split()
         # künye koruması: çok-kelimeli adın TÜM token'ları kişi-kelimesiyse
         # (أبو محمد) yer okuması güvenilmez
         if len(toks) > 1 and all(w in person_words for w in toks):
             continue
-        name, lat, lon = meta[n]
-        pid = next(iter(pids))
+        if len(cands) == 1:
+            pid = next(iter(cands))
+        else:
+            geo = [(p, la, lo) for p, (_, la, lo) in cands.items() if la is not None]
+            if not geo or not all(_hav(geo[0][1], geo[0][2], g[1], g[2]) < 50
+                                  for g in geo):
+                continue                  # dağınık adaşlar → belirsiz, dışarıda
+            pid = max(cands, key=lambda p: curie_cnt.get(p, 0))
+            n_cluster += 1
+        name, lat, lon = cands[pid]
         lex[n] = (pid, name, lat, lon, pid in prominent)
+    print(f"  dup-küme çözümü: {n_cluster:,} ad (<50km mükerrer kümesi → en belirgin)")
     return lex
 
 
