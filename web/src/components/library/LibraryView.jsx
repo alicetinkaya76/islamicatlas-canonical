@@ -272,6 +272,30 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
     return q ? book.sections.filter((s) => norm(s.title).includes(q)) : book.sections;
   }, [book, tocQuery]);
 
+  /* H18 S3: kitap istatistikleri — tamamı mevcut veriden istemcide sayılır
+     (mentions + layer); elle sayı yok. */
+  const bookStats = useMemo(() => {
+    if (!book) return null;
+    const topPlaces = mentions
+      ? [...mentions.places].sort((a, b) => b.total - a.total).slice(0, 20)
+      : [];
+    const kindCounts = {};
+    if (layerData) {
+      layerData.records.forEach((r) => {
+        const k = r.event_type || r.type || 'other';
+        kindCounts[k] = (kindCounts[k] || 0) + 1;
+      });
+    }
+    const kinds = Object.entries(kindCounts).sort((a, b) => b[1] - a[1]);
+    return {
+      topPlaces,
+      maxTotal: topPlaces.length ? topPlaces[0].total : 1,
+      kinds,
+      nLayer: layerData ? layerData.records.length : 0,
+      nGeoLayer: layerData ? layerData.records.filter((r) => r.lat != null || r.from_lat != null).length : 0,
+    };
+  }, [book, mentions, layerData]);
+
   /* ═══ stil kısayolları (v1 koyu-altın dili) ═══ */
   const card = { background: 'rgba(255,255,255,.04)', border: '1px solid rgba(201,168,76,.25)', borderRadius: 10 };
   const chip = { display: 'inline-block', padding: '2px 10px', borderRadius: 999, fontSize: 11, background: 'rgba(201,168,76,.15)', color: GOLD, marginRight: 6, marginBottom: 4 };
@@ -408,9 +432,68 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
               🧭 {tr ? 'Rota' : 'Route'} ({stopsDraft.stops.length})
             </button>
           )}
+          {(mentions || layerData) && (
+            <button onClick={() => setMode('stats')}
+              style={{ ...chip, cursor: 'pointer', border: 'none', background: mode === 'stats' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'stats' ? '#0f1419' : GOLD, fontWeight: 700 }}>
+              📊 {tr ? 'İstatistik' : 'Stats'}
+            </button>
+          )}
         </div>
         {(mode === 'map' || mode === 'route' || mode === 'layer') && (
           <div ref={mapElRef} style={{ height: 'calc(100vh - 240px)', minHeight: 380, borderRadius: 10, border: '1px solid rgba(201,168,76,.3)' }} />
+        )}
+        {mode === 'stats' && bookStats && (
+          <div style={{ maxWidth: 760, margin: '0 auto' }}>
+            {/* sayı kutuları — hepsi veriden */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(130px,1fr))', gap: 10, marginBottom: 18 }}>
+              {[
+                [book.n_sections, tr ? 'bölüm' : 'sections'],
+                [book.total_words, tr ? 'kelime' : 'words'],
+                mentions && [mentions.n_places, tr ? 'anılan yer' : 'places'],
+                mentions && [mentions.n_geocoded, tr ? 'koordinatlı yer' : 'geocoded'],
+                layerData && [bookStats.nLayer, ({ structures: tr ? 'yapı' : 'structures', entries: tr ? 'madde' : 'entries', events: tr ? 'olay' : 'events', routes: tr ? 'yol' : 'routes', regions: tr ? 'bölge' : 'regions' }[layerData.kind] || (tr ? 'katman kaydı' : 'layer records'))],
+              ].filter(Boolean).map(([nVal, lbl]) => (
+                <div key={lbl} style={{ ...card, padding: '12px 10px', textAlign: 'center' }}>
+                  <div style={{ color: GOLD, fontSize: 22, fontWeight: 700 }}>{Number(nVal).toLocaleString('tr-TR')}</div>
+                  <div style={{ fontSize: 11, opacity: .7 }}>{lbl}</div>
+                </div>
+              ))}
+            </div>
+            {/* katman tür dağılımı */}
+            {bookStats.kinds.length > 1 && (
+              <div style={{ ...card, padding: '12px 16px', marginBottom: 18 }}>
+                <div style={{ color: GOLD, fontSize: 13, fontWeight: 700, marginBottom: 8 }}>
+                  {tr ? 'Katman tür dağılımı' : 'Layer kind distribution'}
+                </div>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                  {bookStats.kinds.map(([k, c]) => (
+                    <span key={k} style={{ ...chip, background: 'rgba(0,0,0,.25)', border: `1px solid ${LAYER_COLORS[k] || '#aaa'}`, color: LAYER_COLORS[k] || '#ccc', marginRight: 0 }}>
+                      {k} · {c.toLocaleString('tr-TR')}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+            {/* ilk 20 yer — anılma sayısı barları */}
+            {bookStats.topPlaces.length > 0 && (
+              <div style={{ ...card, padding: '12px 16px' }}>
+                <div style={{ color: GOLD, fontSize: 13, fontWeight: 700, marginBottom: 10 }}>
+                  {tr ? 'En çok anılan yerler' : 'Most mentioned places'}
+                </div>
+                {bookStats.topPlaces.map((pl) => (
+                  <button key={pl.pid} onClick={() => setMode('map')}
+                    title={tr ? 'Kitap haritasında gör' : 'View on book map'}
+                    style={{ display: 'grid', gridTemplateColumns: '150px 1fr 48px', alignItems: 'center', gap: 8, width: '100%', background: 'none', border: 'none', cursor: 'pointer', color: 'inherit', padding: '3px 0' }}>
+                    <span dir="rtl" style={{ fontFamily: "'Amiri',serif", fontSize: 15, textAlign: 'left', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis' }}>{pl.name}</span>
+                    <span style={{ height: 8, borderRadius: 4, background: 'rgba(201,168,76,.18)', overflow: 'hidden' }}>
+                      <span style={{ display: 'block', height: '100%', width: `${Math.max(3, (pl.total / bookStats.maxTotal) * 100)}%`, background: GOLD, borderRadius: 4 }} />
+                    </span>
+                    <span style={{ fontSize: 11, opacity: .8, textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{pl.total.toLocaleString('tr-TR')}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
         )}
         {mode === 'text' && (
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 }}>
