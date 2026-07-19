@@ -1,0 +1,28 @@
+{
+  "capabilities": [
+    "map",
+    "events"
+  ],
+  "coverage_note": "Mağazada yalnız battle:1..50 curie'si var; db.json battles 100 kayıt içeriyor → kapsam 50/100. Ayrıca 50 adet battles-events:event:* curie'si db.json 'events' koleksiyonuna aittir ve bu kabın kapsamı dışıdır.",
+  "entity_kind_counts": {
+    "event": 50
+  },
+  "generated_by": "pipelines/frontend/build_containers.py",
+  "name_ar": null,
+  "name_tr": "İslam Tarihinde Savaşlar",
+  "pid_coverage": {
+    "mapped": 50,
+    "pct": 50.0,
+    "total": 100
+  },
+  "pid_map_key": "db.json battles[].id (int) — string olarak",
+  "record_count": 100,
+  "source_files": [
+    "web/src/data/db.json",
+    "data/_index/lookup.sqlite"
+  ],
+  "source_key": "battles",
+  "unmatched_curies": [],
+  "work_note": "work_missing: küratörlü modern veri seti; mağazada tek bir klasik esere bağlı work kaydı yok.",
+  "work_pid": null
+}

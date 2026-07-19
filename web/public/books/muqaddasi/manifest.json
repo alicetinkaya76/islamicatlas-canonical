@@ -1,0 +1,32 @@
+{
+  "capabilities": [
+    "map",
+    "routes"
+  ],
+  "coverage_note": "Mağazada 21 iklim curie'si var (muqaddasi:muq-iqlim-*), ancak frontend aqualim kayıtlarında id alanı bulunmadığından bunlar pid_map'e alınmadı; eşleme sıra varsayımıyla YAPILMADI.",
+  "entity_kind_counts": {
+    "place": 2049
+  },
+  "generated_by": "pipelines/frontend/build_containers.py",
+  "name_ar": "أحسن التقاسيم في معرفة الأقاليم",
+  "name_tr": "Ahsenü't-Tekâsîm fî Ma'rifeti'l-Ekâlîm",
+  "pid_coverage": {
+    "mapped": 2049,
+    "pct": 98.99,
+    "total": 2070
+  },
+  "pid_map_key": "muqaddasi_atlas_layer.json places[].id (ör. muq-0001)",
+  "record_breakdown": {
+    "aqualim": 21,
+    "places": 2049
+  },
+  "record_count": 2070,
+  "source_files": [
+    "web/public/data/muqaddasi_atlas_layer.json",
+    "data/_index/lookup.sqlite"
+  ],
+  "source_key": "muqaddasi",
+  "unmatched_curies": [],
+  "work_note": "Dublet: iac:work-00000154 ve iac:work-00001533 aynı eser (أحسن التقاسيم في معرفة الأقاليم); manifest'e ilki yazıldı.",
+  "work_pid": "iac:work-00000154"
+}

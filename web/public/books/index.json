@@ -1,0 +1,74 @@
+{
+  "containers": [
+    {
+      "capabilities": [
+        "map",
+        "events"
+      ],
+      "key": "battles",
+      "pid_coverage": {
+        "mapped": 50,
+        "pct": 50.0,
+        "total": 100
+      },
+      "record_count": 100
+    },
+    {
+      "capabilities": [
+        "map",
+        "structures"
+      ],
+      "key": "khitat",
+      "pid_coverage": {
+        "mapped": 801,
+        "pct": 100.0,
+        "total": 801
+      },
+      "record_count": 801
+    },
+    {
+      "capabilities": [
+        "map",
+        "routes"
+      ],
+      "key": "muqaddasi",
+      "pid_coverage": {
+        "mapped": 2049,
+        "pct": 98.99,
+        "total": 2070
+      },
+      "record_count": 2070
+    },
+    {
+      "capabilities": [
+        "map",
+        "network",
+        "routes"
+      ],
+      "key": "science",
+      "pid_coverage": {
+        "mapped": 406,
+        "pct": 100.0,
+        "total": 406
+      },
+      "record_count": 406
+    },
+    {
+      "capabilities": [
+        "map",
+        "globe",
+        "analytics",
+        "graph",
+        "idcard"
+      ],
+      "key": "yaqut",
+      "pid_coverage": {
+        "mapped": 12954,
+        "pct": 100.0,
+        "total": 12954
+      },
+      "record_count": 12954
+    }
+  ],
+  "generated_by": "pipelines/frontend/build_containers.py"
+}

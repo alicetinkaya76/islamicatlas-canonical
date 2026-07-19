@@ -1,0 +1,34 @@
+{
+  "capabilities": [
+    "map",
+    "network",
+    "routes"
+  ],
+  "coverage_note": "224 eser + 182 kişi eşlendi. Mağazadaki 2 adet science-works:disc_* curie'si discoveries koleksiyonuna aittir ve 'kişi + eserler' kapsamı dışında bırakıldı.",
+  "entity_kind_counts": {
+    "person": 182,
+    "work": 224
+  },
+  "generated_by": "pipelines/frontend/build_containers.py",
+  "name_ar": null,
+  "name_tr": "İslam Bilim Tarihi Atlası",
+  "pid_coverage": {
+    "mapped": 406,
+    "pct": 100.0,
+    "total": 406
+  },
+  "pid_map_key": "science_layer.json scholars[].id (scholar_NNNN) ve eserler için scholar_NNNN:kw_K (K = key_works dizisindeki sıra)",
+  "record_breakdown": {
+    "key_works": 224,
+    "scholars": 182
+  },
+  "record_count": 406,
+  "source_files": [
+    "web/public/data/science_layer.json",
+    "data/_index/lookup.sqlite"
+  ],
+  "source_key": "science",
+  "unmatched_curies": [],
+  "work_note": "work_missing: küratörlü modern katman; mağazada tek bir klasik esere bağlı work kaydı yok.",
+  "work_pid": null
+}
