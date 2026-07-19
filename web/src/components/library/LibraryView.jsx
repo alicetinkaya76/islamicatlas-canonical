@@ -10,6 +10,7 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import { fmtCount } from '../../data/sourceCounts';
 
 const GOLD = '#c9a84c';
 const norm = (s) =>
@@ -28,7 +29,7 @@ function openitiRepoUrl(uri) {
   return `https://github.com/OpenITI/${bucket}/tree/master/data/${author}/${uri}`;
 }
 
-export default function LibraryView({ lang = 'tr', initialBook = null, initialSec = null }) {
+export default function LibraryView({ lang = 'tr', initialBook = null, initialSec = null, initialP = null }) {
   const tr = lang !== 'en';
   const [shelf, setShelf] = useState(null);
   const [err, setErr] = useState(null);
@@ -44,6 +45,11 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
   const mapRef = useRef(null);
   const mapElRef = useRef(null);
   const readerRef = useRef(null);
+  /* H17 S4: &p= çapası — link üretiliyordu ama açılışta hiç kullanılmıyordu */
+  const pendingP = useRef(null);
+  /* Ref yalnız ilk mount'ta dolarsa remount/HMR'da kaybolur; prop her
+     geldiğinde kurulur, kaydırma gerçekleşince tüketilir. */
+  useEffect(() => { if (initialP) pendingP.current = initialP; }, [initialP]);
 
   useEffect(() => {
     fetch('/reading/core_shelf.json')
@@ -56,7 +62,7 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
 
   const openBook = useCallback((pidnum, sec = 0) => {
     fetch(`/reading/${pidnum}/manifest.json`)
-      .then((r) => r.json())
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`manifest ${r.status}`))))
       .then((m) => {
         secCache.current = {};
         setBook({ ...m, pidnum });
@@ -79,8 +85,12 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
           .then(setLayerData)
           .catch(() => setLayerData(null));
         window.location.hash = `library?book=${pidnum}&sec=${sec}`;
-      });
-  }, []);
+      })
+      /* H17 S4: bozuk pidnum sessiz beyaz ekran bırakıyordu */
+      .catch(() => setErr(tr
+        ? `Kitap açılamadı (${pidnum}) — okuma verisi eksik olabilir; scripts/start_local.sh veri kontrolünü koşun.`
+        : `Could not open book (${pidnum}) — reading data may be missing.`));
+  }, [tr]);
 
   useEffect(() => {
     if (initialBook) openBook(initialBook, parseInt(initialSec || '0', 10) || 0);
@@ -96,7 +106,35 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
       .then((s) => { secCache.current[key] = s; setSection(s); readerRef.current?.scrollTo(0, 0); });
   }, [book, secIdx]);
 
+  /* H17 S4: bölüm yüklenince bekleyen sayfa-çapasına kaydır + kısa vurgu.
+     Çapa ancak paragraflar boyandıktan sonra bulunur — birkaç kare denenir
+     (ilk rAF, StrictMode/uzun bölüm boyamasında erken kalıyordu). */
+  useEffect(() => {
+    if (!section || !pendingP.current) return;
+    const p = pendingP.current;
+    let tries = 0;
+    const attempt = () => {
+      if (pendingP.current !== p) return;
+      const el = document.getElementById(`para-${p}`);
+      if (el) {
+        /* pending BURADA sıfırlanmaz: StrictMode'da ikinci openBook koşusu
+           bölümü yeniden indirip scrollTo(0,0) ile ezebiliyor; çapa ancak
+           kullanıcı bölüm değiştirince (gotoSec) düşer, yeniden-yüklemede
+           tekrar kazanır. */
+        el.scrollIntoView({ block: 'start' });
+        el.style.background = 'rgba(201,168,76,.14)';
+        setTimeout(() => { el.style.background = ''; }, 2500);
+      } else if (++tries < 30) {
+        setTimeout(attempt, 60);
+      }
+    };
+    /* rAF DEĞİL setTimeout: gömülü/arka-plan sekmelerde rAF kısılıp hiç
+       ateşlenmeyebiliyor (tarayıcı panelinde canlı gözlendi). */
+    setTimeout(attempt, 0);
+  }, [section]);
+
   const gotoSec = useCallback((i) => {
+    pendingP.current = null;   // kullanıcı gezinmesi bekleyen çapayı düşürür
     setSecIdx(i);
     if (book) window.location.hash = `library?book=${book.pidnum}&sec=${i}`;
   }, [book]);
@@ -212,8 +250,6 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
         ${r.measurements_text ? `<div dir="rtl" style="font-size:11px;opacity:.85">📏 ${r.measurements_text.slice(0, 90)}</div>` : ''}
         ${r.summary_ar ? `<div dir="rtl" style="font-family:Amiri,serif;font-size:12px;opacity:.9;max-width:250px">${r.summary_ar.slice(0, 180)}</div>` : ''}
         ${r.longitude_text ? `<div dir="rtl" style="font-size:11px;color:#c9a84c">🧭 tûl (boylam): ${r.longitude_text} · arz (enlem): ${r.latitude_text || '—'}${r.clime_text ? ' · '+r.clime_text : ''}</div>` : ''}
-        ${r.vocalization_ar ? `<div dir="rtl" style="font-size:11px;opacity:.75">🔤 ${r.vocalization_ar.slice(0,90)}</div>` : ''}
-        ${r.region_hint_ar ? `<div dir="rtl" style="font-size:11px;opacity:.75">🧭 ${r.region_hint_ar.slice(0,90)}</div>` : ''}
         ${r.vocalization_ar ? `<div dir="rtl" style="font-family:Amiri,serif;font-size:11px;opacity:.75;max-width:250px">🔤 ${r.vocalization_ar.slice(0, 120)}</div>` : ''}
         ${r.region_hint_ar ? `<div dir="rtl" style="font-size:11px;opacity:.75;max-width:250px">🧭 ${r.region_hint_ar.slice(0, 100)}</div>` : ''}
         <div style="font-size:11px;opacity:.85;max-width:240px">${(r.summary_tr || '').slice(0, 200)}</div>
@@ -243,18 +279,56 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
   if (err) return <div style={{ padding: 40, textAlign: 'center', opacity: .8 }}>{err}</div>;
   if (!shelf) return <div style={{ padding: 40, textAlign: 'center', opacity: .6 }}>{tr ? 'Kütüphane yükleniyor…' : 'Loading library…'}</div>;
 
-  /* ═══════════ RAF GÖRÜNÜMÜ ═══════════ */
+  /* ═══════════ RAF GÖRÜNÜMÜ (H17 S4: iki bölümlü) ═══════════ */
   if (!book) {
+    /* Kürasyonlu Atlas Görünümleri — v1'in sevilen kitap sayfaları rafta
+       kart olarak; tıklama mevcut sekmelerine gider (Dalga-0 raf birleşmesi).
+       Rozet sayıları veriden (sourceCounts) — elle sayı yasak. */
+    const curated = [
+      { tab: 'yaqut', ar: 'معجم البلدان', name: tr ? "Mu'cemü'l-Büldân" : 'Muʿjam al-Buldān', by: 'Yâkût el-Hamevî', key: 'yaqut', caps: '🗺 🌍 📊 🕸' },
+      { tab: 'rihla', ar: 'الرحلة', name: tr ? 'Rihle' : 'Riḥla', by: 'İbn Battûta', key: 'rihla', caps: '🛤 🗺' },
+      { tab: 'evliya', ar: 'سياحتنامه', name: 'Seyahatnâme', by: 'Evliyâ Çelebi', key: 'evliya', caps: '🛤 🗺 🕰' },
+      { tab: 'muqaddasi', ar: 'أحسن التقاسيم', name: tr ? "Ahsenü't-Tekāsîm" : 'Aḥsan al-Taqāsīm', by: 'Makdisî', key: 'muqaddasi', caps: '🗺 🛤 📐' },
+      { tab: 'khitat', ar: 'الخطط', name: tr ? 'el-Hıtat' : 'al-Khiṭaṭ', by: 'Makrîzî', key: 'khitat', caps: '🏛 🗺' },
+      { tab: 'lestrange', ar: '', name: 'Lands of the Eastern Caliphate', by: 'G. Le Strange', key: 'lestrange', caps: '🗺 🔗' },
+      { tab: 'salibiyyat', ar: '', name: tr ? 'Salibiyyât (6 kronik)' : 'Crusades (6 chronicles)', by: tr ? 'Müslüman kronikçiler' : 'Muslim chroniclers', key: 'salibiyyat', caps: '⚔️ 🕰 🕸' },
+    ];
     return (
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '24px 16px 60px' }}>
         <h1 style={{ color: GOLD, fontSize: 26, margin: '4px 0 2px' }}>
           📚 {tr ? 'Kütüphane' : 'Library'}
         </h1>
-        <p style={{ opacity: .75, margin: '0 0 20px', fontSize: 14 }}>
+        <p style={{ opacity: .75, margin: '0 0 14px', fontSize: 14 }}>
           {tr
-            ? `Çekirdek Külliyat — parti ${shelf.batch}: ${shelf.theme}`
-            : `Core canon — batch ${shelf.batch}: ${shelf.theme}`}
+            ? `${shelf.books.length} kitap · ${shelf.batches.length} parti — ${shelf.theme}`
+            : `${shelf.books.length} books · ${shelf.batches.length} batches — ${shelf.theme}`}
         </p>
+
+        <h2 style={{ color: GOLD, fontSize: 15, margin: '4px 0 8px', opacity: .9, letterSpacing: '.04em' }}>
+          ✨ {tr ? 'Kürasyonlu Atlas Görünümleri' : 'Curated Atlas Views'}
+        </h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(240px,1fr))', gap: 10, marginBottom: 22 }}>
+          {curated.map((c) => (
+            <button key={c.tab} onClick={() => { window.location.hash = `#${c.tab}`; }}
+              style={{ ...card, borderColor: 'rgba(201,168,76,.45)', padding: '10px 14px', textAlign: 'left', cursor: 'pointer', color: 'inherit', transition: 'border-color .15s' }}
+              onMouseEnter={(e) => (e.currentTarget.style.borderColor = GOLD)}
+              onMouseLeave={(e) => (e.currentTarget.style.borderColor = 'rgba(201,168,76,.45)')}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 8 }}>
+                <div style={{ fontWeight: 700, fontSize: 14 }}>{c.name}</div>
+                {c.ar && <div dir="rtl" style={{ fontFamily: "'Amiri',serif", fontSize: 15, color: GOLD }}>{c.ar}</div>}
+              </div>
+              <div style={{ fontSize: 11.5, opacity: .7, margin: '2px 0 6px' }}>{c.by}</div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11 }}>
+                <span style={{ opacity: .85 }}>{c.caps}</span>
+                <span style={{ ...chip, marginRight: 0 }}>{fmtCount(c.key)}</span>
+              </div>
+            </button>
+          ))}
+        </div>
+
+        <h2 style={{ color: GOLD, fontSize: 15, margin: '4px 0 8px', opacity: .9, letterSpacing: '.04em' }}>
+          📖 {tr ? 'Çekirdek Külliyat — tam metin' : 'Core canon — full text'}
+        </h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(320px,1fr))', gap: 14 }}>
           {shelf.books.map((b) => (
             <button key={b.pid} onClick={() => openBook(b.pidnum)}
@@ -355,7 +429,7 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
         )}
         {mode === 'text' && !section && <div style={{ opacity: .6, textAlign: 'center', padding: 40 }}>{tr ? 'Bölüm yükleniyor…' : 'Loading…'}</div>}
         {mode === 'text' && section && section.paras.map((p, i) => (
-          <p key={i} dir="rtl" style={{ fontFamily: "'Amiri','Scheherazade New',serif", fontSize: 19, lineHeight: 2.05, margin: '0 0 14px', textAlign: 'justify' }}>
+          <p key={i} id={p.p ? `para-${p.p}` : undefined} dir="rtl" style={{ fontFamily: "'Amiri','Scheherazade New',serif", fontSize: 19, lineHeight: 2.05, margin: '0 0 14px', textAlign: 'justify' }}>
             {p.p && (
               <a href={`#library?book=${book.pidnum}&sec=${secIdx}&p=${p.p}`}
                 title={tr ? 'Sayfa çapası — link kopyalanabilir' : 'Page anchor'}

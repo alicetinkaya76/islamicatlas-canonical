@@ -518,7 +518,7 @@ export default function App() {
          tab === 'cityatlas' ? <CityAtlasView lang={lang} initialSearch={hashParams.search} /> :         tab === 'evliya' ? <EvliyaView lang={lang} /> :
          tab === 'science' ? <ScienceLayerView lang={lang} /> :
          tab === 'muqaddasi' ? <MuqaddasiView lang={lang} t={t} initialSearch={hashParams.search} /> :
-         tab === 'library' ? <LibraryView lang={lang} initialBook={hashParams.book} initialSec={hashParams.sec} /> :
+         tab === 'library' ? <LibraryView lang={lang} initialBook={hashParams.book} initialSec={hashParams.sec} initialP={hashParams.p} /> :
          <CausalView lang={lang} t={t} />}
         </Suspense>
       </main>
