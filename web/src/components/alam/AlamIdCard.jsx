@@ -2,6 +2,8 @@ import { useMemo, useState } from 'react';
 import XREFS from '../../data/alam_xrefs.json';
 import { hn, dn } from '../../data/i18n-utils';
 import T from '../../data/i18n';
+/* H19 S2: ds alanı boşken mağaza pid-merge köprüsünden DİA slug'ı */
+import { ensurePersonBridge, bridgeFromAlam } from '../../data/personBridge';
 
 /* ═══ Normalize xrefs ═══ */
 function normalizeXrefs(raw) {
@@ -320,11 +322,19 @@ export default function AlamIdCard({ lang, ta, bio, detail, onClose, allData, on
         </a>
       )}
 
-      {/* Navigate to DİA tab internally */}
-      {bio.ds && (
+      {/* Navigate to DİA tab internally — H19 S2: ds yoksa pid-merge köprüsü */}
+      {(bio.ds || (ensurePersonBridge(), bridgeFromAlam(bio.id)?.dia)) && (
         <button className="alam-dia-link" style={{ background:'#1a3a2a', border:'1px solid #1a6b5a44', cursor:'pointer', marginTop:4 }}
-          onClick={() => { window.location.hash = `dia/${bio.ds}`; }}>
+          onClick={() => { window.location.hash = `dia/${bio.ds || bridgeFromAlam(bio.id)?.dia}`; }}>
           📚 {ta.diaBrowse || "DİA Sekmesinde Aç"}
+        </button>
+      )}
+
+      {/* H19 S2: kişi köprüsünden EI-1 bağı (pid-merge; xref'te yoktu) */}
+      {bridgeFromAlam(bio.id)?.ei1 != null && (
+        <button className="alam-dia-link" style={{ background:'#3a2a1a', border:'1px solid #6b4a1a44', cursor:'pointer', marginTop:4 }}
+          onClick={() => { window.location.hash = `ei1/${bridgeFromAlam(bio.id).ei1}`; }}>
+          📕 {{ tr: "EI-1'de Aç", en: 'Open in EI-1', ar: 'EI-1' }[lang] || "EI-1'de Aç"}
         </button>
       )}
 

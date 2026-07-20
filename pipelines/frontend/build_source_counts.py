@@ -143,7 +143,11 @@ def build() -> dict:
             total += n or 0
         sources["cityatlas"] = entry(
             total,
-            {"unit": "yapı", "per_city": per_city},
+            {"unit": "yapı", "per_city": per_city,
+             # H19: dürüstlük notu — cairo.json, maqrizi/khitat katmanının
+             # zengin formu (AYNI 801 yapı); kaynaklar-arası TOPLAM alınırken
+             # khitat ile çifte sayılmamalı.
+             "overlap": {"cairo": "khitat (aynı 801 yapı)"}},
             [rel(cf) for cf in city_files])
 
     # --- darpislam: mints ----------------------------------------------------

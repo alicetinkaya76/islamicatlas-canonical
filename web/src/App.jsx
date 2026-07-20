@@ -509,7 +509,7 @@ export default function App() {
          tab === 'alam' ? <AlamView lang={lang} t={t} initialSearch={hashParams.search} initialId={hashParams.id} /> :
          tab === 'yaqut' ? <YaqutView lang={lang} t={t} initialSearch={hashParams.search} /> :
          tab === 'dia' ? <DiaView lang={lang} t={t} initialSearch={hashParams.search} initialSlug={hashParams.slug} /> :
-         tab === 'ei1' ? <Ei1View lang={lang} t={t} initialSearch={hashParams.search} /> :
+         tab === 'ei1' ? <Ei1View lang={lang} t={t} initialSearch={hashParams.search} initialId={hashParams.slug} /> :
          tab === 'darpislam' ? <DarpView lang={lang} t={t} isMobile={isMobile} initialSearch={hashParams.search} /> :
          tab === 'rihla' ? <RihlaView lang={lang} t={t} initialSearch={hashParams.search} /> :
          tab === 'khitat' ? <KhitatView lang={lang} t={t} initialSearch={hashParams.search} /> :

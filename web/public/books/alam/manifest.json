@@ -1,0 +1,30 @@
+{
+  "capabilities": [
+    "map",
+    "analytics",
+    "network"
+  ],
+  "entity_kind_counts": {
+    "person": 11379
+  },
+  "generated_by": "pipelines/frontend/build_containers.py",
+  "name_ar": "الأعلام",
+  "name_tr": "el-A'lâm (Ziriklî)",
+  "pid_coverage": {
+    "mapped": 11379,
+    "pct": 81.63,
+    "total": 13940
+  },
+  "pid_map_key": "alam_lite.json içindeki id alanı (int) — string olarak",
+  "record_count": 13940,
+  "source_files": [
+    "web/public/data/alam_lite.json",
+    "data/_index/lookup.sqlite"
+  ],
+  "source_key": "alam",
+  "unmatched_curie_count": 0,
+  "unmatched_curie_sample": [],
+  "unmatched_note": "Eşlenemeyen curie'ler için ayrı kuyruk dosyası üretilmedi; mağaza kuyrukları zaten mevcut (sayı + örnek ile yetinildi).",
+  "work_note": "Label taramasıyla bulundu: pref 'الأعلام' / 'al-Aʿlām', alt başlık 'قاموس تراجم لأشهر الرجال والنساء من العرب والمستعربين والمستشرقين' (Ziriklî'nin alt başlığı) — mağazada tek kayıt, dublet yok.",
+  "work_pid": "iac:work-00000333"
+}

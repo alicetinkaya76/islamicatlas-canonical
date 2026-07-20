@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
-"""Dalga-1 "Kitap Kabı" üreticisi — mağaza pid eşlemesini frontend'e yansıtır.
+"""Dalga-1+2 "Kitap Kabı" üreticisi — mağaza pid eşlemesini frontend'e yansıtır.
 
-Kapsam (künyesi tam 5 kaynak):
+Kapsam — Dalga-1 (künyesi tam 5 kaynak):
     yaqut      Mu'cemü'l-Büldân      12.954 yer     (yaqut_lite.json)
     muqaddasi  Ahsenü't-Tekāsîm       2.049 yer + 21 iklim (muqaddasi_atlas_layer.json)
     khitat     el-Hıtat                 801 yapı    (maqrizi_khitat_atlas_layer.json)
     battles    Savaşlar (küratörlü)     100 olay    (db.json "battles")
     science    İlim Atlası (küratörlü)  182 kişi + eserler (science_layer.json)
+
+Kapsam — Dalga-2 (%80+ pid'li 5 kaynak):
+    alam       el-A'lâm (Ziriklî)    13.940 kişi    (alam_lite.json)
+    dia        DİA biyografi katmanı  8.528 kişi    (dia_lite.json)
+    evliya     Seyahatnâme            5.444 yer+yapı (evliya_atlas_layer.json)
+    salibiyyat Haçlı Seferleri          790 olay + 24 kale (salibiyyat_atlas_layer.json)
+    cityatlas  Şehir Atlası — Konya     583 yapı    (city-atlas/konya.json;
+               Kahire kaba GİRMEZ → khitat kabına işaretçi, çifte temsil önlenir)
 
 Çıktılar (her kaynak için web/public/books/<key>/ altına):
     manifest.json  — künye + SAYILMIŞ kapsam (uydurma sayı YOK)
@@ -14,7 +22,7 @@ Kapsam (künyesi tam 5 kaynak):
                      (curie'nin yerel kısmı frontend veri dosyasındaki bir
                       kaydın id'sine birebir doğrulanır; doğrulanamayan
                       curie'ler eşlenmemiş sayılır ve manifest'te raporlanır)
-    web/public/books/index.json — 5 kabın özeti
+    web/public/books/index.json — 10 kabın özeti
 
 Keşfedilen curie biçimleri (data/_index/lookup.sqlite, source_curie):
     yaqut:<int>                      → iac:place-*        yerel id = <int>
@@ -30,6 +38,16 @@ Keşfedilen curie biçimleri (data/_index/lookup.sqlite, source_curie):
                                        (key_works dizisinin K. elemanı)
     science-works:disc_NNNN          → iac:work-*         (discoveries koleksiyonu;
                                        "kişi + eserler" kapsamı dışı → haric)
+    el-alam:<int>                    → iac:person-*       yerel id = <int>
+    dia:<slug>                       → iac:person-*       yerel id = <slug>
+      (İKİNCİ aile: dia-chunks:<slug>, dia-chunks-v8:<slug>, dia-rich:<slug>:title_N,
+       tdv_dia:<slug>:title_N — pid_map'e ALINMAZ; manifest'te ayrı raporlanır)
+    evliya-celebi:EC_NNNNN           → iac:institution-* / iac:place-* (karışık)
+    salibiyyat:SAL_ENNNN             → iac:event-*        yerel id = SAL_ENNNN
+    salibiyyat:CST_NNN               → iac:institution-*  yerel id = CST_NNN
+      (clusters[].id 'EC_NNNN' Evliyâ'nın EC_ önekiyle ÇAKIŞIR; mağaza curie'si
+       yok → kap dışı; kaplar arası anahtar DAİMA kaynak-önekli, çıplak id asla)
+    konya-city-atlas:konya_<slug>    → iac:institution-*  yerel id = konya_<slug>
 
 Determinizm: timestamp yok; json.dumps(sort_keys=True); girdi aynıysa çıktı
 bayt-bayt aynıdır. Kapsam %100 değilse GERÇEK yüzde yazılır, yuvarlama
@@ -40,6 +58,7 @@ iddiası yok.
 
 import json
 import sqlite3
+from collections import Counter
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
@@ -331,12 +350,285 @@ def build_science(cur):
     return manifest, pid_map
 
 
+# ------------------------------------------------------- Dalga-2 kaynakları
+
+UNMATCHED_NOTE = (
+    "Eşlenemeyen curie'ler için ayrı kuyruk dosyası üretilmedi; mağaza "
+    "kuyrukları zaten mevcut (sayı + örnek ile yetinildi)."
+)
+
+
+def unmatched_fields(unmatched, sample_n=20):
+    """Dalga-2 kuralı: eşlenemeyenler SAYI ile raporlanır, kuyruk dosyası yok."""
+    return {
+        "unmatched_curie_count": len(unmatched),
+        "unmatched_curie_sample": sorted(unmatched)[:sample_n],
+        "unmatched_note": UNMATCHED_NOTE,
+    }
+
+
+def build_alam(cur):
+    src = DATA / "alam_lite.json"
+    records = load_json(src)
+    ids = {str(r["id"]) for r in records}  # id alanı int → string anahtar
+
+    pid_map, unmatched = {}, []
+    for source_id, pid in fetch_curies(cur, "el-alam:%"):
+        local = source_id.split(":", 1)[1]
+        if local in ids:
+            pid_map[local] = pid
+        else:
+            unmatched.append(source_id)
+
+    manifest = {
+        "source_key": "alam",
+        "name_tr": "el-A'lâm (Ziriklî)",
+        "name_ar": "الأعلام",
+        "work_pid": "iac:work-00000333",
+        "work_note": (
+            "Label taramasıyla bulundu: pref 'الأعلام' / 'al-Aʿlām', alt başlık "
+            "'قاموس تراجم لأشهر الرجال والنساء من العرب والمستعربين والمستشرقين' "
+            "(Ziriklî'nin alt başlığı) — mağazada tek kayıt, dublet yok."
+        ),
+        "record_count": len(records),
+        "entity_kind_counts": kind_counts(pid_map),
+        "capabilities": ["map", "analytics", "network"],
+        "pid_coverage": coverage(len(pid_map), len(records)),
+        "pid_map_key": "alam_lite.json içindeki id alanı (int) — string olarak",
+        "generated_by": GENERATED_BY,
+        "source_files": [
+            "web/public/data/alam_lite.json",
+            "data/_index/lookup.sqlite",
+        ],
+    }
+    manifest.update(unmatched_fields(unmatched))
+    return manifest, pid_map
+
+
+def build_dia(cur):
+    src = DATA / "dia_lite.json"
+    records = load_json(src)
+    ids = {str(r["id"]) for r in records}  # id alanı slug (string)
+
+    pid_map, unmatched = {}, []
+    for source_id, pid in fetch_curies(cur, "dia:%"):
+        local = source_id.split(":", 1)[1]
+        if local in ids:
+            pid_map[local] = pid
+        else:
+            unmatched.append(source_id)
+
+    # İKİNCİ curie ailesi (dia-chunks vd.): pid_map'e ALINMAZ, ayrı raporlanır.
+    dia_pids = {pid for _, pid in fetch_curies(cur, "dia:%")}
+    related_families = {}
+    for fam in ("dia-chunks", "dia-chunks-v8", "dia-rich", "tdv_dia"):
+        rows = fetch_curies(cur, fam + ":%")
+        if not rows:
+            continue
+        related_families[fam] = {
+            "curie_count": len(rows),
+            "entity_kind_counts": kind_counts(dict(rows)),
+            "shares_pid_with_dia": sum(1 for _, p in rows if p in dia_pids),
+        }
+
+    manifest = {
+        "source_key": "dia",
+        "name_tr": "TDV İslâm Ansiklopedisi (DİA) Biyografi Katmanı",
+        "name_ar": None,
+        "work_pid": None,
+        "work_note": (
+            "work_missing: mağazada DİA'nın kendisine ait work kaydı yok "
+            "(label taraması 'İslâm Ansiklopedisi' → 0 sonuç)."
+        ),
+        "record_count": len(records),
+        "entity_kind_counts": kind_counts(pid_map),
+        "capabilities": ["map", "network", "sankey", "analytics"],
+        "pid_coverage": coverage(len(pid_map), len(records)),
+        "pid_map_key": "dia_lite.json içindeki id alanı (slug)",
+        "related_curie_families": related_families,
+        "related_curie_note": (
+            "Mağazada 'dia:' dışında dia-chunks / dia-chunks-v8 / dia-rich / "
+            "tdv_dia önekli İKİNCİ bir curie ailesi var; sayıları yukarıda "
+            "raporlandı, pid_map'e YALNIZ 'dia:' ailesi kondu."
+        ),
+        "generated_by": GENERATED_BY,
+        "source_files": [
+            "web/public/data/dia_lite.json",
+            "data/_index/lookup.sqlite",
+        ],
+    }
+    manifest.update(unmatched_fields(unmatched))
+    return manifest, pid_map
+
+
+def build_evliya(cur):
+    src = DATA / "evliya_atlas_layer.json"
+    layer = load_json(src)
+    places = layer["places"]
+    ids = {str(p["id"]) for p in places}  # id alanı EC_NNNNN (string)
+
+    pid_map, unmatched = {}, []
+    for source_id, pid in fetch_curies(cur, "evliya-celebi:%"):
+        local = source_id.split(":", 1)[1]  # EC_00001
+        if local in ids:
+            pid_map[local] = pid
+        else:
+            unmatched.append(source_id)
+
+    manifest = {
+        "source_key": "evliya",
+        "name_tr": "Evliyâ Çelebi Seyahatnâmesi",
+        "name_ar": "سياحتنامه",
+        "work_pid": "iac:work-00000062",
+        "work_note": (
+            "Dublet: iac:work-00000062 ve iac:work-00000210 aynı eser "
+            "(Seyahatnâme); manifest'e ilki yazıldı."
+        ),
+        "record_count": len(places),
+        "entity_kind_counts": kind_counts(pid_map),
+        "capabilities": ["map", "voyages"],
+        "pid_coverage": coverage(len(pid_map), len(places)),
+        "pid_map_key": "evliya_atlas_layer.json places[].id (EC_NNNNN)",
+        "coverage_note": (
+            "Kayıtlar yer + yapı karışıktır; ayrım entity_kind_counts'ta "
+            "(iac:place-* / iac:institution-*) sayılmıştır."
+        ),
+        "generated_by": GENERATED_BY,
+        "source_files": [
+            "web/public/data/evliya_atlas_layer.json",
+            "data/_index/lookup.sqlite",
+        ],
+    }
+    manifest.update(unmatched_fields(unmatched))
+    return manifest, pid_map
+
+
+def build_salibiyyat(cur):
+    src = DATA / "salibiyyat_atlas_layer.json"
+    layer = load_json(src)
+    events = layer["events"]
+    castles = layer["castles"]
+    event_ids = {str(e["id"]) for e in events}    # SAL_ENNNN
+    castle_ids = {str(c["id"]) for c in castles}  # CST_NNN
+    total = len(events) + len(castles)
+
+    pid_map, unmatched = {}, []
+    for source_id, pid in fetch_curies(cur, "salibiyyat:%"):
+        local = source_id.split(":", 1)[1]
+        if local in event_ids or local in castle_ids:
+            pid_map[local] = pid
+        else:
+            unmatched.append(source_id)
+
+    n_clusters = len(layer.get("clusters") or [])
+    manifest = {
+        "source_key": "salibiyyat",
+        "name_tr": "Salibiyyât — Müslüman Gözüyle Haçlı Seferleri",
+        "name_ar": None,
+        "work_pid": None,
+        "work_note": (
+            "work_missing: 6 vakayinameden derlenmiş küratörlü katman; "
+            "mağazada katmanın kendisine ait tek bir work kaydı yok "
+            "(bileşen eserler, ör. el-Kâmil, mağazada ayrıca mevcuttur)."
+        ),
+        "record_count": total,
+        "record_breakdown": {"castles": len(castles), "events": len(events)},
+        "entity_kind_counts": kind_counts(pid_map),
+        "capabilities": ["map", "compare", "routes", "timeline", "castles"],
+        "pid_coverage": coverage(len(pid_map), total),
+        "pid_map_key": (
+            "salibiyyat_atlas_layer.json events[].id (SAL_ENNNN) ve "
+            "castles[].id (CST_NNN)"
+        ),
+        "id_collision_note": (
+            "clusters[].id ({n} adet, 'EC_NNNN') EVLİYÂ kabının 'EC_NNNNN' "
+            "önekiyle ÇAKIŞIR; kümelerin mağaza curie'si yoktur ve bu kabın "
+            "kapsamı dışıdır. Kaplar arası her birleştirmede anahtar DAİMA "
+            "kaynak-önekli kullanılmalıdır (ör. 'salibiyyat:SAL_E0001', "
+            "'evliya:EC_00002'); çıplak id asla."
+        ).format(n=n_clusters),
+        "generated_by": GENERATED_BY,
+        "source_files": [
+            "web/public/data/salibiyyat_atlas_layer.json",
+            "data/_index/lookup.sqlite",
+        ],
+    }
+    manifest.update(unmatched_fields(unmatched))
+    return manifest, pid_map
+
+
+def build_cityatlas(cur):
+    src = DATA / "city-atlas" / "konya.json"
+    records = load_json(src)
+    ids = {str(r["id"]) for r in records}  # id alanı konya_<slug>
+    dup_ids = sorted(
+        k for k, v in Counter(str(r["id"]) for r in records).items() if v > 1
+    )
+    cairo_count = len(load_json(DATA / "city-atlas" / "cairo.json"))
+
+    pid_map, unmatched = {}, []
+    for source_id, pid in fetch_curies(cur, "konya-city-atlas:%"):
+        local = source_id.split(":", 1)[1]
+        if local in ids:
+            pid_map[local] = pid
+        else:
+            unmatched.append(source_id)
+
+    manifest = {
+        "source_key": "cityatlas",
+        "name_tr": "Şehir Atlası — Konya",
+        "name_ar": "أطلس مدينة قونية",
+        "work_pid": None,
+        "work_note": (
+            "work_missing: İbrahim Hakkı Konyalı + Konyapedia'dan derlenmiş "
+            "küratörlü katman; mağazada katmana ait work kaydı yok (label "
+            "taraması 'Konya Tarihi' / 'Konyalı' → 0 work sonucu)."
+        ),
+        "record_count": len(records),
+        "entity_kind_counts": kind_counts(pid_map),
+        "capabilities": ["map", "structures"],
+        "pid_coverage": coverage(len(pid_map), len(records)),
+        "pid_map_key": "city-atlas/konya.json içindeki id alanı (konya_<slug>)",
+        "cities": {
+            "cairo": {
+                "pointer": "khitat",
+                "note": (
+                    "cairo.json = maqrizi layer'ın zengin formu, AYNI 801 "
+                    "yapı — çifte temsil önlenir (sayıldı: cairo.json {n} "
+                    "kayıt)."
+                ).format(n=cairo_count),
+            },
+            "konya": {
+                "data_file": "web/public/data/city-atlas/konya.json",
+                "record_count": len(records),
+            },
+        },
+        "coverage_note": (
+            "Konya dosyasında {t} kayıt, {u} benzersiz id var; yinelenen "
+            "id'ler: {d} (mağaza curie'leri 'konya_*' biçimli olduğundan "
+            "pid_map bundan etkilenmez)."
+        ).format(t=len(records), u=len(ids), d=dup_ids),
+        "generated_by": GENERATED_BY,
+        "source_files": [
+            "web/public/data/city-atlas/konya.json",
+            "data/_index/lookup.sqlite",
+        ],
+    }
+    manifest.update(unmatched_fields(unmatched))
+    return manifest, pid_map
+
+
 # ---------------------------------------------------------------- ana akış
 
 BUILDERS = {
+    "alam": build_alam,
     "battles": build_battles,
+    "cityatlas": build_cityatlas,
+    "dia": build_dia,
+    "evliya": build_evliya,
     "khitat": build_khitat,
     "muqaddasi": build_muqaddasi,
+    "salibiyyat": build_salibiyyat,
     "science": build_science,
     "yaqut": build_yaqut,
 }

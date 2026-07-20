@@ -1,0 +1,40 @@
+{
+  "capabilities": [
+    "map",
+    "structures"
+  ],
+  "cities": {
+    "cairo": {
+      "note": "cairo.json = maqrizi layer'ın zengin formu, AYNI 801 yapı — çifte temsil önlenir (sayıldı: cairo.json 801 kayıt).",
+      "pointer": "khitat"
+    },
+    "konya": {
+      "data_file": "web/public/data/city-atlas/konya.json",
+      "record_count": 583
+    }
+  },
+  "coverage_note": "Konya dosyasında 583 kayıt, 581 benzersiz id var; yinelenen id'ler: ['kp_beyşehi_r_gölü_2'] (mağaza curie'leri 'konya_*' biçimli olduğundan pid_map bundan etkilenmez).",
+  "entity_kind_counts": {
+    "institution": 542
+  },
+  "generated_by": "pipelines/frontend/build_containers.py",
+  "name_ar": "أطلس مدينة قونية",
+  "name_tr": "Şehir Atlası — Konya",
+  "pid_coverage": {
+    "mapped": 542,
+    "pct": 92.97,
+    "total": 583
+  },
+  "pid_map_key": "city-atlas/konya.json içindeki id alanı (konya_<slug>)",
+  "record_count": 583,
+  "source_files": [
+    "web/public/data/city-atlas/konya.json",
+    "data/_index/lookup.sqlite"
+  ],
+  "source_key": "cityatlas",
+  "unmatched_curie_count": 0,
+  "unmatched_curie_sample": [],
+  "unmatched_note": "Eşlenemeyen curie'ler için ayrı kuyruk dosyası üretilmedi; mağaza kuyrukları zaten mevcut (sayı + örnek ile yetinildi).",
+  "work_note": "work_missing: İbrahim Hakkı Konyalı + Konyapedia'dan derlenmiş küratörlü katman; mağazada katmana ait work kaydı yok (label taraması 'Konya Tarihi' / 'Konyalı' → 0 work sonucu).",
+  "work_pid": null
+}
