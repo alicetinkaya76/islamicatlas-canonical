@@ -63,7 +63,8 @@ def main() -> int:
 
         confs = [round(e.get("confidence", 0), 2) for e in events]
         summary = {k: [e.get(k) for e in events][:4]
-                   for k in ("stop_id", "darp_id", "evliya_id", "voyage_id")
+                   for k in ("stop_id", "darp_id", "evliya_id", "voyage_id",
+                             "lestrange_id")   # H20 Dalga-3
                    if any(e.get(k) is not None for e in events)}
         rec.setdefault("provenance", {}).setdefault("record_history", []).append({
             "change_type": "update", "changed_at": now,
