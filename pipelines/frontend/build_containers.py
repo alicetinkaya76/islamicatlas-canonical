@@ -367,6 +367,101 @@ def unmatched_fields(unmatched, sample_n=20):
     }
 
 
+CROSSWALK_NOTE = (
+    "KARAR H22-1 (kanıta dayalı): eşleşen ama MİNT EDİLMEMİŞ kayıtlar "
+    "pid_coverage'a SAYILMAZ. Kapsam 'bu kaynaktan kaç kayıt mint edildi' "
+    "sorusunun cevabıdır; H20 eşleştirmesinde bulunan kayıtlar mağazada "
+    "zaten vardı (başka kaynaktan mint edilmişti), bu kaynaktan TÜREMEDİ. "
+    "provenance.derived_from yazmak sahte köken iddiası olurdu ve metriği "
+    "yalanlardı. Doğru temsil zaten uygulandı: derived_from_layers. "
+    "Eşleşme buraya AYRI ve dürüst bir sayı olarak yazılır."
+)
+
+
+def crosswalk_of(state_file):
+    """H20 eşleştirme sidecar'ından crosswalk (curie → pid) sayısı."""
+    p = REPO / "data/_state" / state_file
+    if not p.exists():
+        return None
+    d = json.loads(p.read_text(encoding="utf-8"))
+    cw = d.get("crosswalk") or {}
+    return {"matched": len(cw), "note": CROSSWALK_NOTE}
+
+
+def build_lestrange(cur):
+    src = DATA / "le_strange_eastern_caliphate.json"
+    raw = load_json(src)
+    records = raw if isinstance(raw, list) else (
+        raw.get("places") or raw.get("records") or raw.get("entries") or [])
+    ids = {str(r.get("id")) for r in records if r.get("id") is not None}
+
+    pid_map, unmatched = {}, []
+    for source_id, pid in fetch_curies(cur, "le-strange:%"):
+        local = source_id.split(":", 1)[1]
+        if local in ids:
+            pid_map[local] = pid
+        else:
+            unmatched.append(source_id)
+
+    manifest = {
+        "source_key": "lestrange",
+        "name_tr": "Lands of the Eastern Caliphate (Le Strange)",
+        "name_ar": None,
+        "work_pid": None,
+        "work_note": "Modern akademik eser; mağazada work kaydı yok (work_missing).",
+        "record_count": len(records),
+        "entity_kind_counts": kind_counts(pid_map),
+        "capabilities": ["map", "xref"],
+        "pid_coverage": coverage(len(pid_map), len(records)),
+        "crosswalk": crosswalk_of("h20_lestrange_augment_pending.json"),
+        "pid_map_key": "le_strange_eastern_caliphate.json id alanı — string olarak",
+        "generated_by": GENERATED_BY,
+        "source_files": [
+            "web/public/data/le_strange_eastern_caliphate.json",
+            "data/_index/lookup.sqlite",
+        ],
+        **unmatched_fields(unmatched),
+    }
+    return manifest, pid_map
+
+
+def build_darpislam(cur):
+    src = DATA / "darpislam_lite.json"
+    raw = load_json(src)
+    records = raw.get("mints") if isinstance(raw, dict) else raw
+    records = records or []
+    ids = {str(r.get("id")) for r in records if r.get("id") is not None}
+
+    pid_map, unmatched = {}, []
+    for source_id, pid in fetch_curies(cur, "darp-islam:%"):
+        local = source_id.split(":", 1)[1]
+        if local in ids:
+            pid_map[local] = pid
+        else:
+            unmatched.append(source_id)
+
+    manifest = {
+        "source_key": "darpislam",
+        "name_tr": "İslam Darphaneleri (DarpIslam)",
+        "name_ar": None,
+        "work_pid": None,
+        "work_note": "Nümismatik veri kümesi; klasik eser kaydı yok (work_missing).",
+        "record_count": len(records),
+        "entity_kind_counts": kind_counts(pid_map),
+        "capabilities": ["map", "analytics"],
+        "pid_coverage": coverage(len(pid_map), len(records)),
+        "crosswalk": crosswalk_of("h20_darpislam_augment_pending.json"),
+        "pid_map_key": "darpislam_lite.json mints[].id — string olarak",
+        "generated_by": GENERATED_BY,
+        "source_files": [
+            "web/public/data/darpislam_lite.json",
+            "data/_index/lookup.sqlite",
+        ],
+        **unmatched_fields(unmatched),
+    }
+    return manifest, pid_map
+
+
 def build_alam(cur):
     src = DATA / "alam_lite.json"
     records = load_json(src)
@@ -631,6 +726,8 @@ BUILDERS = {
     "salibiyyat": build_salibiyyat,
     "science": build_science,
     "yaqut": build_yaqut,
+    "lestrange": build_lestrange,
+    "darpislam": build_darpislam,
 }
 
 
@@ -644,12 +741,15 @@ def main():
         out_dir = BOOKS / key
         write_json(out_dir / "manifest.json", manifest)
         write_json(out_dir / "pid_map.json", pid_map)
-        index_entries.append({
+        entry = {
             "key": key,
             "record_count": manifest["record_count"],
             "pid_coverage": manifest["pid_coverage"],
             "capabilities": manifest["capabilities"],
-        })
+        }
+        if manifest.get("crosswalk"):
+            entry["crosswalk_matched"] = manifest["crosswalk"]["matched"]
+        index_entries.append(entry)
         cov = manifest["pid_coverage"]
         print("{:10s} kayıt={:6d} eşlenen={:6d} kapsam=%{}".format(
             key, manifest["record_count"], cov["mapped"], cov["pct"]))

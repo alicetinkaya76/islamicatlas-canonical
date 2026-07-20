@@ -1,0 +1,33 @@
+{
+  "capabilities": [
+    "map",
+    "analytics"
+  ],
+  "crosswalk": {
+    "matched": 753,
+    "note": "KARAR H22-1 (kanıta dayalı): eşleşen ama MİNT EDİLMEMİŞ kayıtlar pid_coverage'a SAYILMAZ. Kapsam 'bu kaynaktan kaç kayıt mint edildi' sorusunun cevabıdır; H20 eşleştirmesinde bulunan kayıtlar mağazada zaten vardı (başka kaynaktan mint edilmişti), bu kaynaktan TÜREMEDİ. provenance.derived_from yazmak sahte köken iddiası olurdu ve metriği yalanlardı. Doğru temsil zaten uygulandı: derived_from_layers. Eşleşme buraya AYRI ve dürüst bir sayı olarak yazılır."
+  },
+  "entity_kind_counts": {
+    "place": 2338
+  },
+  "generated_by": "pipelines/frontend/build_containers.py",
+  "name_ar": null,
+  "name_tr": "İslam Darphaneleri (DarpIslam)",
+  "pid_coverage": {
+    "mapped": 2338,
+    "pct": 69.15,
+    "total": 3381
+  },
+  "pid_map_key": "darpislam_lite.json mints[].id — string olarak",
+  "record_count": 3381,
+  "source_files": [
+    "web/public/data/darpislam_lite.json",
+    "data/_index/lookup.sqlite"
+  ],
+  "source_key": "darpislam",
+  "unmatched_curie_count": 0,
+  "unmatched_curie_sample": [],
+  "unmatched_note": "Eşlenemeyen curie'ler için ayrı kuyruk dosyası üretilmedi; mağaza kuyrukları zaten mevcut (sayı + örnek ile yetinildi).",
+  "work_note": "Nümismatik veri kümesi; klasik eser kaydı yok (work_missing).",
+  "work_pid": null
+}

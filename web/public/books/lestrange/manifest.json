@@ -1,0 +1,33 @@
+{
+  "capabilities": [
+    "map",
+    "xref"
+  ],
+  "crosswalk": {
+    "matched": 117,
+    "note": "KARAR H22-1 (kanıta dayalı): eşleşen ama MİNT EDİLMEMİŞ kayıtlar pid_coverage'a SAYILMAZ. Kapsam 'bu kaynaktan kaç kayıt mint edildi' sorusunun cevabıdır; H20 eşleştirmesinde bulunan kayıtlar mağazada zaten vardı (başka kaynaktan mint edilmişti), bu kaynaktan TÜREMEDİ. provenance.derived_from yazmak sahte köken iddiası olurdu ve metriği yalanlardı. Doğru temsil zaten uygulandı: derived_from_layers. Eşleşme buraya AYRI ve dürüst bir sayı olarak yazılır."
+  },
+  "entity_kind_counts": {
+    "place": 215
+  },
+  "generated_by": "pipelines/frontend/build_containers.py",
+  "name_ar": null,
+  "name_tr": "Lands of the Eastern Caliphate (Le Strange)",
+  "pid_coverage": {
+    "mapped": 215,
+    "pct": 49.54,
+    "total": 434
+  },
+  "pid_map_key": "le_strange_eastern_caliphate.json id alanı — string olarak",
+  "record_count": 434,
+  "source_files": [
+    "web/public/data/le_strange_eastern_caliphate.json",
+    "data/_index/lookup.sqlite"
+  ],
+  "source_key": "lestrange",
+  "unmatched_curie_count": 0,
+  "unmatched_curie_sample": [],
+  "unmatched_note": "Eşlenemeyen curie'ler için ayrı kuyruk dosyası üretilmedi; mağaza kuyrukları zaten mevcut (sayı + örnek ile yetinildi).",
+  "work_note": "Modern akademik eser; mağazada work kaydı yok (work_missing).",
+  "work_pid": null
+}
