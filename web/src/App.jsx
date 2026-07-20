@@ -38,6 +38,7 @@ const SalibiyyatView = lazy(() => import('./components/salibiyyat/SalibiyyatView
 const EvliyaView = lazy(() => import('./components/evliya/EvliyaView'));
 const MuqaddasiView = lazy(() => import('./components/muqaddasi/MuqaddasiView'));
 const LibraryView = lazy(() => import('./components/library/LibraryView'));  // H13 S-D Çekirdek Külliyat
+const VisitsView = lazy(() => import('./components/visits/VisitsView'));   // H21 S3: durak modeli (3 seyyah tek harita)
 
 /* ═══ Eagerly loaded — needed on every page ═══ */
 import MapView from './components/map/MapView';
@@ -130,7 +131,7 @@ function LangDropdown({ lang, setLang }) {
 
 /* H17 S2: 'darpislam' eklendi — sekme render'ı vardı ama listede yoktu;
    #darpislam yenilemede map'e düşüyordu. */
-const VALID_TABS = ['cityatlas', 'map', 'dashboard', 'timeline', 'links', 'scholars', 'battles', 'alam', 'yaqut', 'dia', 'ei1', 'rihla', 'khitat', 'lestrange', 'science', 'salibiyyat', 'evliya', 'muqaddasi', 'darpislam', 'library', 'admin'];
+const VALID_TABS = ['cityatlas', 'map', 'dashboard', 'timeline', 'links', 'scholars', 'battles', 'alam', 'yaqut', 'dia', 'ei1', 'rihla', 'khitat', 'lestrange', 'science', 'salibiyyat', 'evliya', 'muqaddasi', 'darpislam', 'library', 'visits', 'admin'];
 
 /* Tab order for swipe navigation (excludes admin) */
 const SWIPE_TAB_ORDER = ['map', 'dashboard', 'alam', 'dia', 'ei1', 'scholars', 'rihla', 'yaqut', 'lestrange', 'khitat', 'salibiyyat'];
@@ -408,6 +409,7 @@ export default function App() {
               { id: 'salibiyyat', label: t.tabs.salibiyyat || '⚔️ Salibiyyât', badge: fmtCount('salibiyyat'), preload: '/data/salibiyyat_atlas_layer.json' },
               { id: 'evliya', label: t.tabs.evliya || '🐫 Evliyâ Çelebi', badge: fmtCount('evliya'), preload: '/data/evliya_atlas_layer.json' },
               { id: 'muqaddasi', label: t.tabs.muqaddasi || '📐 Makdisî', badge: fmtCount('muqaddasi'), preload: '/data/muqaddasi_atlas_layer.json' },
+              { id: 'visits', label: { tr: '🧭 Seyahatnâmeler', en: '🧭 Travel Accounts', ar: '🧭 الرحلات' }[lang] },
               { id: 'library', label: { tr: '📖 Kütüphane (Çekirdek Külliyat)', en: '📖 Library (core canon)', ar: '📖 المكتبة' }[lang], badge: fmtCount('library') },
             ]}
             activeTab={tab}
@@ -519,6 +521,7 @@ export default function App() {
          tab === 'science' ? <ScienceLayerView lang={lang} /> :
          tab === 'muqaddasi' ? <MuqaddasiView lang={lang} t={t} initialSearch={hashParams.search} /> :
          tab === 'library' ? <LibraryView lang={lang} initialBook={hashParams.book} initialSec={hashParams.sec} initialP={hashParams.p} /> :
+         tab === 'visits' ? <VisitsView lang={lang} /> :
          <CausalView lang={lang} t={t} />}
         </Suspense>
       </main>
