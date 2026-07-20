@@ -37,7 +37,16 @@ def main() -> int:
     args = ap.parse_args()
 
     data = json.loads((REPO_ROOT / args.sidecar).read_text(encoding="utf-8"))
-    augments = data.get(args.augments_key)
+    # --augments-key noktalı YOL kabul eder ("augments.person"): H21 Dalga-4'te
+    # ei1 sidecar'ı tek koşuda iki namespace üretiyor
+    # ({"augments": {"person": {...}, "place": {...}}}) — jenerik applier tek
+    # namespace'e yazdığı için hangi dalın uygulandığı çağrıda belirtilir.
+    # Noktasız anahtar eski davranışı aynen korur.
+    augments: dict | None = data
+    for part in args.augments_key.split("."):
+        augments = augments.get(part) if isinstance(augments, dict) else None
+        if augments is None:
+            break
     if augments is None:  # düz {pid: [...]} şekli
         augments = {k: v for k, v in data.items() if k.startswith("iac:")}
     ns_dir = REPO_ROOT / "data" / "canonical" / args.namespace
@@ -64,7 +73,8 @@ def main() -> int:
         confs = [round(e.get("confidence", 0), 2) for e in events]
         summary = {k: [e.get(k) for e in events][:4]
                    for k in ("stop_id", "darp_id", "evliya_id", "voyage_id",
-                             "lestrange_id")   # H20 Dalga-3
+                             "lestrange_id",   # H20 Dalga-3
+                             "ei1_id")         # H21 Dalga-4
                    if any(e.get(k) is not None for e in events)}
         rec.setdefault("provenance", {}).setdefault("record_history", []).append({
             "change_type": "update", "changed_at": now,

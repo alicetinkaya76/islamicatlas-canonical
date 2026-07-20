@@ -141,6 +141,14 @@
     "provenance": {
       "$ref": "https://w3id.org/islamicatlas/schemas/v0.4.0/_common/provenance.schema.json"
     },
+    "derived_from_layers": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      },
+      "description": "Convenience set of upstream Islamic-Atlas data layers that contributed assertions to this person record (ei1, dia, el-alam, openiti, ...). Optional and additive; the record of truth stays provenance.derived_from. Mirrors place.derived_from_layers but is deliberately un-enumerated, following institution.schema.json: person layers are added faster than the enum can be curated. Introduced H21 Dalga-4 (EI-1 triage) — backward compatible, no existing record carries the field."
+    },
     "note": {
       "type": "string",
       "maxLength": 5000
