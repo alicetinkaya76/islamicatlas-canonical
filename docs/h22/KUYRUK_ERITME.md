@@ -140,3 +140,38 @@ Ayrıntı: `docs/PHASE0_CLOSEOUT.md` §2'ye iki yeni madde eklendi. Özet:
 - [ ] (c) sınıfı 20 phantom hedefi: `el_alam_*_pending` kuyrukları eritilirken
       atlama-oranı kapısının bunları yakalaması beklenir — doğrulanacak.
 - [ ] *(Ali: buraya ekle)*
+
+---
+
+## Kararların tam listesi (H22, hepsi kanıtlı + geri alınabilir)
+
+| # | Karar | Etki | Commit |
+|---|---|---|---|
+| 1 | 27 EI-1 hayalet kaydı yumuşak-silindi (silme DEĞİL; PID yaşar, projector -100) | 27 | `140366f` |
+| 2 | **Kapsam ≠ crosswalk**: yüzde şişirilmedi, ayrı dürüst sayı açıldı; +2 kap (10→12) | 870 eşleşme görünür | `8ad0e43` |
+| 3 | **xref kopukluğu = YARIŞ KOŞULU** (bilinçli kapı değil); augment yeniden koşuldu + kalıcı kapı | **1.193** | `6b6477d` |
+| 4 | 241 birebir yer dubleti birleştirildi (aynı ad + d=0 koordinat; 8 örnek elle denetlendi) | 241 | `0a2a14c` |
+| 5 | Kuyruk hijyeni: süperseding 1.305 + low_info 391 + fast_track 505 + tie 1.613 | yük 5.561→3.865 | `c37cf29` |
+| 6 | 131 çapraz-kaynak kişi dubleti (#3'ün diğer yüzü); 91 tek-kelimelik nisbe BIRAKILDI | 131 | `93b235b` |
+| 7 | **İndeks mükerrerleme bug'ı** (label 635.257→211.800, süre 8dk→9sn) + PHASE0 gerçeğe eşitlendi | isabet ↑ | `823c41c` |
+
+### Uygulanmayan ve NEDEN (bilinçli sınırlar)
+- **91 tek-kelimelik nisbe çifti**: aynı nisbe + aynı yıl ölmüş FARKLI
+  kişiler olabilir (الهذلي/الربعي sınıfı). Kanıt yetersiz → kuyrukta.
+- **1.613 beraberlik kaydı**: ilk iki adayın skoru BİREBİR eşit; ayırt
+  edici sinyal matematiksel olarak yok. Hangi eşik konursa konsun ikisi
+  de aynı tarafta. İşaretlendi, çözülmedi.
+- **1.615 phantom PID**: mint defterinde (pid_index.json), lookup'ta
+  DEĞİL. Silmek ordinal determinizmini kırar; kırık bağ da yok (b=0).
+  Zarar yok → dokunulmadı.
+- **326 OpenITI-içi aynı başlıklı eser**: baskı/nüsha varyantı mı mükerrer
+  mi ayırt edilemiyor; birleştirme OpenITI geri-bağlanabilirliğini bozar.
+- **ap-dia-works 1.457 author_mismatch**: jenerik Arapça başlıklar
+  (tezkire 140, târih 57...). Başlık benzerliği bilgi taşımıyor; çözüm
+  bibliyografik, otomatik değil.
+
+### Ölçüldü ama etkisi ÇIKMADI (dürüstlük kaydı)
+İndeks bug'ı düzeltildikten sonra Le Strange eşleştirmesi yeniden
+koşuldu: auto-match 117 / review 54 / unmatched 48 — **öncesiyle
+birebir aynı**. Bug bu kuyruğu etkilememiş. "Düzeltme her şeyi iyileştirir"
+varsayımı bu kuyrukta doğrulanmadı.
