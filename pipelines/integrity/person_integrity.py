@@ -495,10 +495,26 @@ def pass_augment_alam(strict: bool = False) -> dict:
         _save_record(path, record)
         applied += 1
 
+    # H22 KAPI (yarış koşulu koruması): bu pass, kayıtları yazan adapter'lar
+    # HÂLÂ ÇALIŞIRKEN koşarsa dosyalar henüz yoktur ve augment'ler sessizce
+    # düşer. 2026-07-10'da tam bu oldu: 1.280 pending'in 1.193'ü (%93)
+    # atlandı, kimse fark etmedi; 10 gün sonra H22 teşhisiyle bulundu
+    # (xref↔store kopukluğunun asıl sebebi). Artık atlama oranı %10'u
+    # aşarsa gürültü çıkar; --strict'te hata.
+    _total = len(pending)
+    if _total and skipped / _total > 0.10:
+        _msg = (f"[augment_alam] UYARI: pending'in %{100*skipped/_total:.0f}'i "
+                f"({skipped}/{_total}) atlandı — kayıt dosyaları yok. "
+                f"Adapter'lar bitmeden mi koşuldu? (H22 yarış-koşulu kapısı)")
+        if strict:
+            raise SystemExit(_msg)
+        print(_msg)
+
     report = {
         "pass": "augment_alam",
         "applied": applied,
         "skipped_missing_record": skipped,
+        "skip_ratio_gate": "H22: >%10 atlama uyarı/strict-hata üretir",
         "validation_failures": len(failures),
         "failure_examples": failures[:10],
     }

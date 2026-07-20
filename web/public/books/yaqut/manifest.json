@@ -1,0 +1,30 @@
+{
+  "capabilities": [
+    "map",
+    "globe",
+    "analytics",
+    "graph",
+    "idcard"
+  ],
+  "entity_kind_counts": {
+    "place": 12954
+  },
+  "generated_by": "pipelines/frontend/build_containers.py",
+  "name_ar": "معجم البلدان",
+  "name_tr": "Mu'cemü'l-Büldân",
+  "pid_coverage": {
+    "mapped": 12954,
+    "pct": 100.0,
+    "total": 12954
+  },
+  "pid_map_key": "yaqut_lite.json içindeki id alanı (int) — string olarak",
+  "record_count": 12954,
+  "source_files": [
+    "web/public/data/yaqut_lite.json",
+    "data/_index/lookup.sqlite"
+  ],
+  "source_key": "yaqut",
+  "unmatched_curies": [],
+  "work_note": "Dublet: iac:work-00000111 ve iac:work-00000407 aynı eser (معجم البلدان); manifest'e ilki yazıldı.",
+  "work_pid": "iac:work-00000111"
+}

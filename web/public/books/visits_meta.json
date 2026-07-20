@@ -1,0 +1,250 @@
+{
+ "durust_sinirlar": [
+  "Evliyâ'nın sırası GÜZERGÂH DEĞİLDİR (dosya sırası, 343 blok hâlinde örülü); sira_turu ile beyan edilir, UI çizgi çizmemelidir.",
+  "Evliyâ kayıtlarının çoğu şehir içi yapıdır (cami/türbe/hamam), güzergâh durağı değil; ayrım kaynak katmanın `category` alanında.",
+  "İbn Battûta'da metindeki varış İFADESİ alanı yok → varis_metin hiçbir rihla durağında yazılmadı.",
+  "İbn Battûta'da date_uncertain işaretli 110 hicrî tarih BASTIRILDI (tahmin yayınlanmaz).",
+  "İbn Cübeyr'in hicrî tarihlerinde yıl basamağı tutarsız; DÜZELTİLMEDİ, aynen taşındı.",
+  "İbn Cübeyr katmanı bir ÇIKARIM taslağıdır (sahip kararıyla yayımlanmış); confidence ve geo_note alanları korunmuştur.",
+  "Koordinatsız duraklar ATILMADI; yer_pid/lat/lon anahtarları olmadan girerler.",
+  "geo_suspect duraklar SİLİNMEDİ; geo_note ön ekiyle işaretlenip veride bırakıldı, gizleme UI'ın işidir."
+ ],
+ "generated_by": "pipelines/frontend/build_visits.py",
+ "kaynak_basina": {
+  "evliya": {
+   "dosya_sirasi_blok_sayisi": 343,
+   "geo_note_tasiyan": 0,
+   "geo_suspect": 0,
+   "guven_yok_gerekce": "Katmandaki `category_confidence` bir SINIFLANDIRMA güvenidir (bu yer cami mi kale mi), durak çıkarımının güveni değildir → `guven` alanına eşlenmedi (gerekçe 4).",
+   "ham_kayit": 5444,
+   "kapsam_uyarisi": "Kayıtların çoğu GÜZERGÂH DURAĞI değil ŞEHİR İÇİ YAPIDIR (cami 1097, türbe 456, hamam 303, medrese 99...); ayrım kaynak katmanın `category` alanındadır ve oraya bakılmalıdır. Bu dosya onları 'ziyaret edilen nokta' olarak taşır, 'durak' olarak yorumlanmalarını İDDİA ETMEZ.",
+   "kaynak_dosya": "web/public/data/evliya_atlas_layer.json",
+   "koordinatli": 5444,
+   "koordinatli_ama_yer_pid_siz": 637,
+   "koordinatsiz": 0,
+   "n_durak": 5444,
+   "n_seyahat": 10,
+   "olu_alanlar": {
+    "volume": "5444/5444 null",
+    "year_approx": "5444/5444 null (anahtar 5431 kayıtta var, değer yok)"
+   },
+   "sira_gerekce": "Katmanda seq/sıra alanı YOK. Dosya sırası seyahatler arasında ÖRÜLÜ: 5.444 kayıt voyage_id'ye göre 343 ayrı bloğa dağılmış (ör. V05×4 → V07×3 → V05×1 → ...). Bu bir güzergâh değil, Başaran Google Maps dışa aktarım sırasıdır. seq yalnızca seyahat içinde EC_ id'ye göre artan, DETERMİNİSTİK bir konumlandırmadır; güzergâh İDDİASI DEĞİLDİR.",
+   "sira_turu": "dosya_sirasi",
+   "tasinmayan_alanlar": [
+    "category",
+    "category_confidence",
+    "cross_refs",
+    "description_ar",
+    "description_en",
+    "description_tr",
+    "name_en",
+    "source",
+    "volume",
+    "year_approx"
+   ],
+   "tasinmayan_gerekce": "description_* alanları kilobaytlıktır; taşınsa dosya ~13 MB olur ve 5 MB tavanı aşılırdı. cross_refs (2.846 kayıtta dolu) bir çapraz-referans katmanıdır, rota omurgası değil.",
+   "ui_kurali": "sira_turu='dosya_sirasi' → duraklar çizgiyle BİRLEŞTİRİLMEZ, nokta bulutu olarak gösterilir.",
+   "yer_pid_curie_sayisi": 4807,
+   "yer_pid_kaynagi": "source_curie 'evliya-celebi:EC_NNNNN'",
+   "yer_pid_li": 4807,
+   "yer_pid_li_ama_koordinatsiz": 0,
+   "yer_pid_siz": 637,
+   "yer_pid_tur_dagilimi": {
+    "institution": 2575,
+    "place": 2232
+   }
+  },
+  "ibn-jubayr": {
+   "geo_note_tasiyan": 70,
+   "geo_suspect": 7,
+   "ham_kayit": 208,
+   "kaynak_dosya": "web/public/reading/00002694/stops_draft.json",
+   "kaynak_statu": "PUBLISHED — sahip kararıyla doğrudan yerleştirildi (2026-07-16, H14 Karar); confidence/geo_note alanları veride korunur",
+   "koordinatli": 124,
+   "koordinatli_ama_yer_pid_siz": 0,
+   "koordinatsiz": 84,
+   "n_durak": 208,
+   "n_seyahat": 1,
+   "pid_li_koordinatsiz_ornek": "seq 26 سبك/Sebk → iac:place-00006269: pid mağazada VAR ama entity_bracket'te lat/lon boş. Kaynak dosyada 'lat': null olarak duruyordu; null şişirme kuralıyla anahtar yazılmadı. Kimlik çözümü ile konum bilgisi ayrı olgulardır.",
+   "sira_gerekce": "stops[].seq global 1..N kesintisiz; postprocess_ibn_jubayr.py'de sec + bölüm-içi sıradan kurulmuş güzergâh sırasıdır.",
+   "sira_turu": "metin_tanikli",
+   "tasinmayan_alanlar": [
+    "departure_text",
+    "geo_candidates",
+    "name_en",
+    "notes",
+    "page",
+    "people",
+    "quote_ar",
+    "secs",
+    "stay_summary_tr",
+    "type"
+   ],
+   "tasinmayan_gerekce": "Rota omurgası ilkesi (gerekçe 1). `geo_candidates` (41 durak) bilerek dışarıda: belirsizlik çözümü inceleme kuyruğunun konusudur (data/review_queue/ibn-jubayr-stops.jsonl), rota omurgasının değil.",
+   "varis_h_format_uyarisi": "Kaynakta hicrî yıl basamağı TUTARSIZ ('578-10-26' ile '0578-12-08' bir arada). DÜZELTİLMEDİ — değer aynen taşındı; sıralama/karşılaştırma yapan tüketici yılı int'e çevirmelidir. Onarım kaynak boru hattının (postprocess_ibn_jubayr.py) işidir.",
+   "varis_h_yazilan": 66,
+   "varis_h_yil_basamak_dagilimi": {
+    "3": 26,
+    "4": 40
+   },
+   "varis_metin_yazilan": 167,
+   "yer_pid_dogrulanamayan": [],
+   "yer_pid_kaynagi": "stops[].place_pid (entity_bracket'te doğrulandı)",
+   "yer_pid_li": 125,
+   "yer_pid_li_ama_koordinatsiz": 1,
+   "yer_pid_siz": 83
+  },
+  "rihla": {
+   "geo_note_tasiyan": 0,
+   "geo_suspect": 0,
+   "ham_kayit": 317,
+   "is_stay_bilinmeyen": 46,
+   "is_stay_kaynagi": "stay (gün sayısı) > 0",
+   "kaynak_dosya": "web/public/data/ibn_battuta_atlas_layer.json",
+   "koordinatli": 317,
+   "koordinatli_ama_yer_pid_siz": 197,
+   "koordinatsiz": 0,
+   "n_durak": 317,
+   "n_seyahat": 7,
+   "sira_gerekce": "travel_stops[].seq voyage-İÇİ 1..N kesintisiz; güzergâh sırasıdır.",
+   "sira_turu": "metin_tanikli",
+   "tasinmayan_alanlar": [
+    "arr",
+    "country",
+    "date_uncertain",
+    "dep",
+    "disputed",
+    "en",
+    "narr_en",
+    "narr_tr",
+    "obs_en",
+    "obs_tr",
+    "people",
+    "quote_ar",
+    "quote_en",
+    "quote_tr",
+    "region_en",
+    "region_tr",
+    "sig",
+    "src_line",
+    "src_page",
+    "stay",
+    "topics",
+    "type",
+    "xref"
+   ],
+   "tasinmayan_gerekce": "Rota omurgası ilkesi (gerekçe 1): kaynağa özgü zenginlik kaynak katmanda kalır, (kaynak, sid, seq) ile JOIN edilir. Dikkat: `disputed: true` işaretli 10 durak visits.json'da AYRICA işaretlenmez — ihtilaf bilgisi kaynak katmandadır.",
+   "varis_h_bastirilan_date_uncertain": 110,
+   "varis_h_yazilan": 65,
+   "varis_metin_yok_gerekce": "Katmanda metindeki varış İFADESİNİ tutan alan yok; milâdî 'arr' türetilmiş tarihtir ve şemaya alınmaz.",
+   "yer_pid_curie_sayisi": 120,
+   "yer_pid_kaynagi": "source_curie 'ibn-battuta:<stop id>'",
+   "yer_pid_li": 120,
+   "yer_pid_li_ama_koordinatsiz": 0,
+   "yer_pid_siz": 197
+  }
+ },
+ "kimlik": {
+  "evliya": {
+   "seyyah_adaylar": [
+    "iac:person-00000223",
+    "iac:person-00000351",
+    "iac:person-00002620"
+   ],
+   "seyyah_note": "Dublet: 223 ve 351 aynı kişi (ö. 1682); 2620 ayrı bir kayıt (ö. 1684, 'Evli̇ya Çelebi̇' — noktasız-i artefaktı şüphesi). En küçük pid yazıldı, birleştirme YAPILMADI.",
+   "seyyah_pid": "iac:person-00000223",
+   "work_adaylar": [
+    "iac:work-00000062",
+    "iac:work-00000210"
+   ],
+   "work_note": "Dublet: iac:work-00000062 ve iac:work-00000210 aynı eser (Seyahatnâme); build_containers.py ile aynı seçim.",
+   "work_pid": "iac:work-00000062"
+  },
+  "ibn-jubayr": {
+   "seyyah_adaylar": [
+    "iac:person-00000300",
+    "iac:person-00000349",
+    "iac:person-00003718"
+   ],
+   "seyyah_note": "ÜÇ aday da aynı kişi görünümünde (İbn Cübeyr, ö. 614/1217); en küçük pid yazıldı. Mağaza-içi kişi dubleti — insan kararı bekler, otomatik birleştirilmedi.",
+   "seyyah_pid": "iac:person-00000300",
+   "work_adaylar": [
+    "iac:work-00000157",
+    "iac:work-00000208",
+    "iac:work-00002694"
+   ],
+   "work_note": "work_pid kaynak katmanın kendi metadata.source_work beyanından alındı (iac:work-00002694); mağazada aynı esere işaret eden 2 dublet daha var, seçim DEĞİŞTİRİLMEDİ.",
+   "work_pid": "iac:work-00002694"
+  },
+  "rihla": {
+   "seyyah_adaylar": [
+    "iac:person-00000198"
+   ],
+   "seyyah_note": "Tek eşleşme (ابن بطوطة); dublet yok.",
+   "seyyah_pid": "iac:person-00000198",
+   "work_adaylar": [
+    "iac:work-00000026",
+    "iac:work-00000841"
+   ],
+   "work_note": "Dublet: iac:work-00000026 ve iac:work-00000841 aynı eser (تحفة النظار في غرائب الأمصار وعجائب الأسفار); en küçük pid yazıldı, birleştirme YAPILMADI.",
+   "work_pid": "iac:work-00000026"
+  }
+ },
+ "kimlik_notu": "Seyyah/eser pid'lerinde mağaza dubletleri var. build_containers.py precedent'i uygulandı: en küçük pid yazıldı, adayların TAMAMI burada listelendi, hiçbir birleştirme otomatik YAPILMADI — dublet temizliği ayrı bir insan kararıdır.",
+ "schema_version": "durak-1.0.0",
+ "sozlesme": {
+  "determinizm": "timestamp/generated alanı YOK; seyahatler sid'e, duraklar (sid, seq)'e göre sıralı; json sort_keys. İki koşu bayt-bayt aynıdır.",
+  "durak_alanlari": [
+   "sid",
+   "seq",
+   "yer_pid",
+   "ad_ar",
+   "ad_tr",
+   "lat",
+   "lon",
+   "varis_h",
+   "varis_metin",
+   "is_stay",
+   "sec",
+   "guven",
+   "geo_note"
+  ],
+  "join_kurali": "Zengin alanlar kaynak katmanda kalır; visits.json (kaynak, sid, seq) ve yer_pid üzerinden JOIN edilir.",
+  "kaynak_enum": [
+   "evliya",
+   "ibn-jubayr",
+   "rihla"
+  ],
+  "null_kurali": "Alan yoksa anahtar YAZILMAZ. 'lat': null diye bir şey yoktur; 'lat' anahtarı ya vardır ya yoktur. False ve 0.0 gerçek değerdir.",
+  "seyahat_alanlari": [
+   "id",
+   "kaynak",
+   "ad_tr",
+   "seyyah_pid",
+   "work_pid",
+   "n_durak",
+   "sira_turu"
+  ],
+  "sid_kurali": "sid DAİMA kaynak öneklidir (rihla-vN / ibn-jubayr-v1 / evliya-VNN); çıplak id yasak.",
+  "sira_turu_enum": {
+   "dosya_sirasi": "sıra yalnız kaynak dosyanın sırasıdır; GÜZERGÂH DEĞİLDİR — UI çizgi çizmez",
+   "metin_tanikli": "sıra metinden/çıkarımdan gelir; GÜZERGÂHTIR"
+  }
+ },
+ "toplam": {
+  "bolme_gerekti_mi": false,
+  "boyut_tavani_mb": 5,
+  "dosya_bayt": 1281197,
+  "dosya_mb": 1.222,
+  "geo_note_tasiyan": 70,
+  "geo_suspect": 7,
+  "koordinatli": 5885,
+  "koordinatli_ama_yer_pid_siz": 834,
+  "koordinatsiz": 84,
+  "n_durak": 5969,
+  "n_seyahat": 18,
+  "yer_pid_li": 5052,
+  "yer_pid_li_ama_koordinatsiz": 1,
+  "yer_pid_siz": 917
+ }
+}

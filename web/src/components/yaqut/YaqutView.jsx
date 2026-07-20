@@ -1,6 +1,8 @@
-import { useState, useMemo, useCallback, useEffect, Component } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import useAsyncData from '../../hooks/useAsyncData.jsx';
 import SkeletonLoader from '../shared/SkeletonLoader';
+/* H17 Dalga-0: normalize + ErrorBoundary bookkit'ten (davranış birebir aynı). */
+import { normalize, ErrorBoundary } from '../shared/bookkit';
 import YaqutSidebar from './YaqutSidebar';
 import YaqutMap from './YaqutMap';
 import YaqutIdCard from './YaqutIdCard';
@@ -10,43 +12,8 @@ import { PlaceGraph, PersonPlaceNetwork, GeoHeatmap } from './YaqutAdvanced';
 import '../../styles/yaqut.css';
 import T from '../../data/i18n';
 
-/* ═══ Error Boundary ═══ */
-class YaqutErrorBoundary extends Component {
-  constructor(props) { super(props); this.state = { hasError: false, error: null }; }
-  static getDerivedStateFromError(error) { return { hasError: true, error }; }
-  componentDidCatch(error, info) { console.error('YaqutView error:', error, info); }
-  render() {
-    if (this.state.hasError) {
-      const tl = T[this.props.lang] || T.tr;
-      const ty = tl.yaqut || {};
-      return (
-        <div style={{ padding: 40, textAlign: 'center', color: '#c4b89a' }}>
-          <h3>⚠️ {ty.errorOccurred || 'Bir hata oluştu'}</h3>
-          <p style={{ color: '#ef5350', fontSize: 12, fontFamily: 'monospace' }}>{String(this.state.error)}</p>
-          <button onClick={() => this.setState({ hasError: false, error: null })}
-            style={{ marginTop: 16, padding: '8px 16px', background: '#1a6b5a', color: '#fff', border: 'none', borderRadius: 6, cursor: 'pointer' }}>
-            {ty.retry || 'Tekrar Dene'}
-          </button>
-        </div>
-      );
-    }
-    return this.props.children;
-  }
-}
-
 const ARABIC_ALPHA_ORDER = 'أبتثجحخدذرزسشصضطظعغفقكلمنوهي'.split('');
 const PERIODS = ['active', 'ruined', 'legendary'];
-
-const normalize = (s) =>
-  (s || '').toLowerCase()
-    .replace(/ı/g, 'i').replace(/ğ/g, 'g').replace(/ü/g, 'u')
-    .replace(/ş/g, 's').replace(/ö/g, 'o').replace(/ç/g, 'c')
-    .replace(/â/g, 'a').replace(/î/g, 'i').replace(/û/g, 'u')
-    .replace(/[āáà]/g, 'a').replace(/[ūú]/g, 'u').replace(/[īíì]/g, 'i')
-    .replace(/[ḥḫ]/g, 'h').replace(/ṣ/g, 's').replace(/ṭ/g, 't')
-    .replace(/ḍ/g, 'd').replace(/ẓ/g, 'z').replace(/ʿ|ʾ|'/g, '')
-    .replace(/[\u0610-\u065f\u0670]/g, '')
-    .replace(/ة/g, 'ه').replace(/ى/g, 'ي').replace(/أ|إ|آ/g, 'ا');
 
 function extractTopGeoTypes(data) {
   const c = {}; data.forEach(e => { if (e.gt) c[e.gt] = (c[e.gt] || 0) + 1; });
@@ -250,8 +217,8 @@ export { normalize as yaqutNormalize };
 
 export default function YaqutViewWrapper(props) {
   return (
-    <YaqutErrorBoundary lang={props.lang}>
+    <ErrorBoundary lang={props.lang} label="YaqutView">
       <YaqutViewInner {...props} />
-    </YaqutErrorBoundary>
+    </ErrorBoundary>
   );
 }

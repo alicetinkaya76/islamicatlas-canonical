@@ -7,24 +7,56 @@ ADR-009/013/014, HAFTA9_STAGE_2e, CHANGELOG). ADR-013'ün atıf yaptığı ama
 hiç yazılmamış "Faz 0.5 roadmap" da budur. Her kalem kapandıkça burada
 işaretlenir; yeni iş çıkarsa buraya eklenir.
 
-**Durum özeti (H11 S11 sonu, 2026-07-14):** schema set **v0.4.0** (ADR-015)
-· canonical **57,177 kayıt** (person 22,935 · place 19,929 · work 9,331 ·
-institution 3,942 · event 854 · dynasty 186) · suite **160 passed** ·
-`full_reindex --dry-run` 57,177/57,177 · **yerel Typesense CANLI**
-(docker, 57,177 upsert fail=0) · **web/ arayüz v0 ÇALIŞIYOR** (arama +
-facet + varlık sayfası + harita) · hoca-talebe ağı person kayıtlarında
-(7,965 kenar) · H9 kapanış maddeleri ve H10-H11 aşamaları için
-`docs/h10/`+`docs/h11/` journalleri. Aşağıdaki eski bölümlerin durumu:
-§0 KAPANDI (H9 close + merge + LaCie arşivlendi); §1 AP → H11 S1'de
-A1+B3 augment-only icra edildi (30 locator; 1,489 kuyruk); event+
-institution aktivasyonu TAMAM (H11 S2/S5-S6); data.zip bonus katmanları
-TAMAM (H11 S9-S11). Kalan işler artık iki sınıf: (a) Ali-kapılı kararlar
-(İSAM izin yazısı — yalnız yayın öncesi; hosting; tarihçi oturumları:
-dup-merge [dia_travel_pending'deki Mekke×8 kanıt listesiyle], borderline-QID,
-review kuyrukları), (b) Faz 2 teknik kalemler (kişi-yer bağlama
-[dia_geo+alam_places], contemporaries, ei1 68 kenar, muqaddasi_xref,
-salibiyyat boundaries/routes frontend, TR-ekzonim alias, w3id/ontoloji/
-v1.0.0/Zenodo).
+**Durum özeti (H22 kova-A, 2026-07-20 — HEPSİ KODDAN ÖLÇÜLDÜ):** schema set
+**v0.4.0** (ADR-015) · canonical **67,833 kayıt** (person 22,935 · place
+19,929 · event 9,956 · work 9,404 · institution 5,423 · dynasty 186) ·
+bunların **399'u yumuşak-silinmiş** (`provenance.deprecated=true`: place 241
+[H22 #4 dublet birleştirme, 0a2a14c] + person 158 [27'si H22 #1 EI-1 hayaleti,
+140366f; kalanı önceki haftaların emeklileri]) → **aktif 67,434** · suite
+**160 passed, 2 skipped, 3 xfailed** (28,7 sn) · reverse-lookup index
+`data/_index/lookup.sqlite`: entity_bracket 67,833 · label 211,800 ·
+label_fts 211,800 · source_curie 75,161 · authority_xref 11,923.
+
+Sayı düzeltmeleri (bu güncellemede ölçülüp doğrulandı):
+- **Mağaza 57,177 → 67,833.** Eski özet H11 S11 tarihliydi ve H12-H21'i hiç
+  görmemiş. Fark +10,656 = ağırlıklı olarak event (854 → 9,956; kitap-katmanı
+  olayları H14-H16) + institution (3,942 → 5,423) + work (9,331 → 9,404).
+  person/place/dynasty sayıları H11'den beri değişmedi (22,935 / 19,929 / 186)
+  — H12+ işi ağırlıklı olarak *katman ve arayüz* üretti, yeni kişi/yer değil.
+- **Phantom PID: 2,779 → 1,615.** Ayrıntı ve mutabakat §2'de.
+
+**H12-H21'de ne oldu (özet; ayrıntı `docs/h12/`…`docs/h21/` journallerinde):**
+H12 v1 React kabuğu v2 önyüzüne taşındı (b216fd1) · H13 OpenITI Kütüphanesi +
+Çekirdek Külliyat parti-1, 10 kitap site içinde okunur (c49b415…810abb1) ·
+H14-H16 jenerik kitap-katmanı boru hattı, iki parti okuma verisi, coğrafya
+klasikleri (3be80df…bfcc377; mağaza 67,833'e burada çıktı) · H17-H21 beş
+"dalga": bookkit çekirdeği + Yer Grafı onarımı (1a94260), kitap kabı üreticisi
++ arama 31,992 kayıt (a58ac46, e32ad8d), kişi köprüsü (aca5a5d), **Ulema
+Havuzu canlı — 22,935 kişi** (3e66f67), durak modeli + EI-1 triyajı ve dalga
+planı kapanışı (890ac60, cee94a0).
+
+**Kalan işler** iki sınıf: (a) Ali-kapılı kararlar (İSAM izin yazısı — yalnız
+yayın öncesi; hosting/DNS; tarihçi oturumları: dup-merge
+[dia_travel_pending'deki Mekke×8 kanıt listesiyle], borderline-QID, review
+kuyrukları), (b) yayın/akademik paket ve Faz 2 teknik kalemleri (ontoloji +
+w3id kalıcı adresler + v1.0.0 + Zenodo DOI + veri indirme/API + data paper;
+kişi-yer bağlama [dia_geo+alam_places], contemporaries, ei1 68 kenar,
+muqaddasi_xref, salibiyyat boundaries/routes frontend, TR-ekzonim alias).
+
+> **Arşiv — H11 S11 tarihli özet (2026-07-14; BAYAT, silinmedi).** Sayıları
+> yukarıdaki ölçümle geçersizleşti; kayıt için aynen korunuyor:
+>
+> > schema set **v0.4.0** (ADR-015) · canonical **57,177 kayıt** (person
+> > 22,935 · place 19,929 · work 9,331 · institution 3,942 · event 854 ·
+> > dynasty 186) · suite **160 passed** · `full_reindex --dry-run`
+> > 57,177/57,177 · **yerel Typesense CANLI** (docker, 57,177 upsert fail=0) ·
+> > **web/ arayüz v0 ÇALIŞIYOR** (arama + facet + varlık sayfası + harita) ·
+> > hoca-talebe ağı person kayıtlarında (7,965 kenar) · H9 kapanış maddeleri
+> > ve H10-H11 aşamaları için `docs/h10/`+`docs/h11/` journalleri. Aşağıdaki
+> > eski bölümlerin durumu: §0 KAPANDI (H9 close + merge + LaCie arşivlendi);
+> > §1 AP → H11 S1'de A1+B3 augment-only icra edildi (30 locator; 1,489
+> > kuyruk); event+institution aktivasyonu TAMAM (H11 S2/S5-S6); data.zip
+> > bonus katmanları TAMAM (H11 S9-S11).
 
 ---
 
@@ -99,6 +131,80 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
       `data/_state/phantom_pids_audit.json`'a; AP author linkage'ı yalnız
       disk-doğrulamalı PID kullanır (el_alam guard'ı örnek). Index temizliği
       journal'lı ayrı koşudur; canonical kayıtlara dokunulmaz.
+- [x] **Phantom sayı çelişkisi ÇÖZÜLDÜ + sınıflandırma yapıldı (H22, 2026-07-20;
+      ölçüm, tahmin değil).** Yukarıdaki madde **2.779** diyor, sidecar
+      `_meta.total` ise **1.615** ve `by_prefix`'te openiti sınıfı YOK. İkisi de
+      kendi tarihinde doğruydu; mutabakat birebir kapanıyor:
+
+      | | kayıt |
+      |---|---:|
+      | H10 S6 taraması (yalnız `person:*`) | 2.779 |
+      | − openiti (H10 S9'da REPOINT edildi, `h10_001_openiti_index_repoint.py`) | −1.167 |
+      | + `place:darp-islam:` (person-only tarama bunu görmüyordu) | +3 |
+      | **bugünkü sidecar toplamı** | **1.615** |
+
+      Bugünkü kırılım: el-alam 1.249 · dia 361 · darp-islam 3 · bosworth-nid 2.
+      Yani "openiti sınıfının nedeni teşhis edilmedi" notu ARTIK GEÇERSİZ —
+      H10 S9'da hem teşhis hem tamir edildi (ilk-geçiş mint'leri, aynı koşuda
+      Tier-2'ye çözülüp diske hiç yazılmamış; girdiler resolution map'in gerçek
+      pid'ine repoint edildi, silinmedi).
+
+      **Sınıflandırma (1.615 phantom, 67.833 canonical dosyanın tamamı ve
+      lookup.sqlite'ın beş tablosu tarandı):**
+      - **(a) index artığı — 1.595.** Hiçbir canonical kaydın hiçbir alanında
+        geçmiyor; hiçbir aktif kayıt işaret etmiyor.
+      - **(b) canlı referans — 0.** Kırık bağ YOK. Yani bugün itibarıyla
+        phantom'lar yayımlanan grafta hiçbir kopukluk üretmiyor.
+      - **(c) belirsiz — 20.** Yalnız *bekleyen kuyruk* dosyalarında hedef
+        olarak geçiyor: `el_alam_augment_pending.json` (20) ve
+        `el_alam_yaqut_xref_pending.json` (8), kesişimle 20 ayrık pid. Kuyruklar
+        eritilirse bu 20 hedef "dosya yok" diye sessizce düşer — H22 #3'te
+        (6b6477d) 1.193 augment'i kaybettiren sessiz-düşme deseninin aynısı.
+        Kuyruk eritilirken atlama-oranı kapısı bunları yakalar.
+
+      Tam liste + yöntem + mutabakat tablosu makine-okunur olarak
+      `data/_state/phantom_pids_classification.json`'da (salt sınıflandırma
+      sidecar'ı; hiçbir şeyi silmez, `phantom_pids_audit.json`'a dokunmaz).
+
+      **BULGU: `build_lookup.py` phantom'ların kaynağı DEĞİL.** Bu iş kaleminin
+      varsayımı ("indekste referansı var → indeks üretiminden düşür") ölçümle
+      ÇÜRÜDÜ: 1.615 phantom'ın **0'ı** `lookup.sqlite`'ta bulunuyor (label,
+      label_fts, entity_bracket, source_curie, authority_xref — beşi de temiz;
+      phantom kaynak anahtarları `source_curie.source_id`'de de yok). Sebep
+      yapısal: `build_lookup.py` yalnız **diskte gördüğü** kayıtları yazar,
+      dolayısıyla diskte olmayan bir pid'i hiçbir zaman yazamaz.
+      Phantom'lar `data/_state/pid_index.json`'da, yani **mint defterinde**
+      yaşıyor — `PidMinter.session()` istisna yolunda bile rezervasyonu kalıcı
+      yazdığı için (H9 S3'te review'la kararlaştırılan davranış: kullanılmamış
+      rezervasyon zararsız, ama serbest bırakılan ordinal BAŞKA bir varlığa
+      verilirse atıf istikrarı kırılır). **Sonuç: pid_index.json'dan silme
+      YAPILMADI ve yapılmamalı** — sidecar'ın kendi `policy` alanı da bunu
+      söylüyor. Doğru tamir deseni silme değil **repoint**'tir (H10 S9
+      precedent'i); ancak dia/el-alam sınıfında repoint edilecek hedef yok
+      (varlık hiç yaratılmadı), o yüzden rezervasyon olarak kalıyorlar.
+- [x] **AMA gerçek bir indeks artığı bulundu ve düzeltildi (H22, `build_lookup.py`).**
+      Phantom avı sırasında ölçülen asıl kusur: `label` ve `label_fts` bare
+      INSERT kullanıyordu (diğer dört tablo INSERT OR REPLACE), dolayısıyla
+      `--rebuild`siz her koşu **her etiket satırının tam bir kopyasını daha**
+      ekliyordu. Canlı indekste ölçüldü: 211.800 benzersiz (pid,lang,kind,text)
+      demeti için **635.257 satır** — üç birikmiş geçiş, 423.457 saf mükerrer.
+      (Bu oturum sırasında canlı sayının 423.457 → 635.257'ye çıktığı
+      gözlendi: paralel bir koşu tam da bu hatayı işlerken yakalandı.)
+      Zarar yalnız şişkinlik değil **isabet kaybı**: Tier-2 blocking
+      `label_fts MATCH ... LIMIT BLOCK_LIMIT*4` ile aday topluyor, mükerrer
+      satırlar limiti aynı pid'in kopyalarıyla doldurduğu için etkin aday
+      çeşitliliği ~1/3'e düşüyordu. Düzeltmeler: (1) etiketler pid başına
+      silinip yeniden yazılıyor (idempotent), (2) `label_fts` koşu sonunda
+      `label`'dan tek seferde yeniden üretiliyor — per-pid FTS silme
+      `pid UNINDEXED` yüzünden tam tarama demek ve koşuyu >10 dk'ya çıkarıyordu;
+      toplu üretim aynı işi 9,4 sn'de yapıyor (8dk25sn → 9,4sn), üstelik iki
+      tablonun sayıları bir daha ayrışamaz (canlıda label 3x iken FTS'te 6x ve
+      9x çokluklar da vardı), (3) diskte karşılığı kalmayan pid'lerin satırları
+      koşu sonunda budanıyor (stale-row GC — silinen/birleştirilen kayıt eskiden
+      indekste sonsuza dek kalıyordu; H22 #1/#4'ün yumuşak-silmeleri için önemli).
+      Doğrulama: temiz kurulum 211.800; üzerine sahte bayat satır enjekte edilip
+      tekrar koşuldu → 2 bayat satır budandı, label yine 211.800 (idempotent);
+      canlı indekste tekrar koşu 211.800 → 211.800, değişiklik yok. Suite 160.
 - [x] **9,330 work provenance düzeltildi (H10 S12, h10_002; history'li).**
 - [x] **Çapraz-kaynak person dedup taraması (H10 S6: script + koşu; adaylar person_dedup_candidates.json'da) (H10 Karar 3 bulgusu):** Tier-2
       kalibrasyonu, H4-H5 seed'lerinin (Tier-2'siz koşmuşlardı) store'da
@@ -130,10 +236,14 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
 | ~~ibn-battuta~~ | place | **✅ H10 S8: 128 mint + 124 augment + 41 review** | 7 sefer+rotalar event-bekliyor |
 | ~~scholars~~ | person | **✅ H10 S3: 46 augment + 3 review** (49 isimli) | **252 yetim kart: v1 app db.json GEREK (Ali — kaynak temini)**; kenarlar Stage-3b |
 | ~~ei1~~ | person(+augments) | **✅ H10 S4: +964 mint, 224 augment, 1.574 review** | tarihsiz 2.119 + sınıflar triage havuzunda |
-| battles-events | **event** | ~100+200 kenar | **event ns aktivasyonu (ADR-005 faz kararı — Ali)** |
-| konya-city-atlas | **institution**/place | ~1.384 | **institution şeması yok (ADR-006 §6.4 — Ali)** |
-| maqrizi-khitat | **institution**/place | 801 | aynı |
+| battles-events | **event** | ~100+200 kenar | ~~event ns aktivasyonu~~ **ÇÖZÜLDÜ: event ns aktif** (H11 S2; store'da 9.956 event — H14-H16 kitap-katmanı olaylarıyla) |
+| konya-city-atlas | **institution**/place | ~1.384 | ~~institution şeması yok~~ **ÇÖZÜLDÜ: ADR-015 institution ns aktivasyonu** (H11 S5-S6; store'da 5.423 institution) |
+| maqrizi-khitat | **institution**/place | 801 | aynı — blokör kalktı |
 | major-cities | place augment | ~0 | şemaya sığmayan alanlar — düşük öncelik |
+
+**Not (H22, ölçüm):** iki "Ali-kapılı" blokör de H11'de kalkmış ama bu tablo
+güncellenmemişti. Kaynakların kendisi hâlâ dönüştürülmedi — blokör artık
+karar değil, sıra.
 
 ## 4. Faz 0.5 — yayın hazırlığı (H11+; 2-3 oturum) — sahip: Ali+Claude
 
@@ -151,6 +261,11 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
       Makefile + sözleşme testleri; ilk canlı koşu HOSTING KARARINA bağlı
       (env-kilitli; 15-dk reçete Stage-10 journal'ında). İqlim facet'i
       kapalı (backfill ayrı kalem).
+      **Güncelleme (H22):** frontend araması H18 S4'te 16.006 → **31.992**
+      kayda çıktı (e32ad8d) ve gündelik kullanım bunun üzerinden gidiyor;
+      **hosting/DNS kararı H21 sonunda hâlâ AÇIK** (`docs/h21/HAFTA21_DALGA4.md`
+      son bölüm) — yani bu kalem kapanmadı, sadece beklerken yerel yol
+      olgunlaştı.
 - [x] **QID audit YAPILDI (H10 S11) — sonuç: gevşetme YOK, tam tersi.**
       TAM evren (3.073): %33.7 MISMATCH (dynasty %96; Safevîler→Spartacus
       League sınıfı kanıtlar). Display-gate KALICI. → YENİ kalem:
@@ -161,6 +276,22 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
       footgun — `--resolve` opt-in'e çevirme kararı (runbook'larla birlikte).
 - [ ] **Zenodo dump + DOI** (CHANGELOG 1.0.0 tanımı): ADR-014 belge referansı
       olmadan YAYIN YOK.
+
+## 4.5. H22 kova-A — kuyruk eritme (DEVAM EDİYOR) — sahip: Claude, karar: Ali
+
+Ayrıntı ve karar defteri: [`docs/h22/KUYRUK_ERITME.md`](h22/KUYRUK_ERITME.md).
+
+- [x] 27 EI-1 hayalet kaydı **yumuşak-silindi** (140366f) — PID korunur.
+- [x] **KARAR H22-1:** kapsam yüzdesi vs crosswalk ayrımı (8ad0e43) — H20'de
+      "Ali'ye" bırakılan kalem kanıtla kapandı; yüzde şişirilmedi.
+- [x] xref kopukluğunun kök sebebi: **yarış koşulu** (6b6477d) — 1.193 augment
+      geri kazanıldı; alam kapsamı %81,63 → %90,19; kişi köprüsü 67 → 1.260.
+- [x] 241 birebir yer dubleti birleştirildi (0a2a14c) — yumuşak-silme.
+- [x] Kuyruk hijyeni: inceleme yükü 5.561 → 3.865 (c37cf29) — hiçbir eşleşme
+      kabul/ret edilmedi, hiçbir satır silinmedi.
+- [x] Phantom PID sınıflandırması + `build_lookup.py` idempotency/GC onarımı
+      (§2'deki iki yeni madde).
+- [ ] Kalan inceleme yükü **3.865 satır** — tarihçi oturumu (Ali).
 
 ## 5. Sürekli disiplin
 

@@ -1,0 +1,31 @@
+{
+  "capabilities": [
+    "map",
+    "voyages"
+  ],
+  "coverage_note": "Kayıtlar yer + yapı karışıktır; ayrım entity_kind_counts'ta (iac:place-* / iac:institution-*) sayılmıştır.",
+  "entity_kind_counts": {
+    "institution": 2575,
+    "place": 2232
+  },
+  "generated_by": "pipelines/frontend/build_containers.py",
+  "name_ar": "سياحتنامه",
+  "name_tr": "Evliyâ Çelebi Seyahatnâmesi",
+  "pid_coverage": {
+    "mapped": 4807,
+    "pct": 88.3,
+    "total": 5444
+  },
+  "pid_map_key": "evliya_atlas_layer.json places[].id (EC_NNNNN)",
+  "record_count": 5444,
+  "source_files": [
+    "web/public/data/evliya_atlas_layer.json",
+    "data/_index/lookup.sqlite"
+  ],
+  "source_key": "evliya",
+  "unmatched_curie_count": 0,
+  "unmatched_curie_sample": [],
+  "unmatched_note": "Eşlenemeyen curie'ler için ayrı kuyruk dosyası üretilmedi; mağaza kuyrukları zaten mevcut (sayı + örnek ile yetinildi).",
+  "work_note": "Dublet: iac:work-00000062 ve iac:work-00000210 aynı eser (Seyahatnâme); manifest'e ilki yazıldı.",
+  "work_pid": "iac:work-00000062"
+}

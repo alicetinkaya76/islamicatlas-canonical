@@ -1,0 +1,38 @@
+{
+  "capabilities": [
+    "map",
+    "compare",
+    "routes",
+    "timeline",
+    "castles"
+  ],
+  "entity_kind_counts": {
+    "event": 754,
+    "institution": 24
+  },
+  "generated_by": "pipelines/frontend/build_containers.py",
+  "id_collision_note": "clusters[].id (21 adet, 'EC_NNNN') EVLİYÂ kabının 'EC_NNNNN' önekiyle ÇAKIŞIR; kümelerin mağaza curie'si yoktur ve bu kabın kapsamı dışıdır. Kaplar arası her birleştirmede anahtar DAİMA kaynak-önekli kullanılmalıdır (ör. 'salibiyyat:SAL_E0001', 'evliya:EC_00002'); çıplak id asla.",
+  "name_ar": null,
+  "name_tr": "Salibiyyât — Müslüman Gözüyle Haçlı Seferleri",
+  "pid_coverage": {
+    "mapped": 778,
+    "pct": 95.58,
+    "total": 814
+  },
+  "pid_map_key": "salibiyyat_atlas_layer.json events[].id (SAL_ENNNN) ve castles[].id (CST_NNN)",
+  "record_breakdown": {
+    "castles": 24,
+    "events": 790
+  },
+  "record_count": 814,
+  "source_files": [
+    "web/public/data/salibiyyat_atlas_layer.json",
+    "data/_index/lookup.sqlite"
+  ],
+  "source_key": "salibiyyat",
+  "unmatched_curie_count": 0,
+  "unmatched_curie_sample": [],
+  "unmatched_note": "Eşlenemeyen curie'ler için ayrı kuyruk dosyası üretilmedi; mağaza kuyrukları zaten mevcut (sayı + örnek ile yetinildi).",
+  "work_note": "work_missing: 6 vakayinameden derlenmiş küratörlü katman; mağazada katmanın kendisine ait tek bir work kaydı yok (bileşen eserler, ör. el-Kâmil, mağazada ayrıca mevcuttur).",
+  "work_pid": null
+}

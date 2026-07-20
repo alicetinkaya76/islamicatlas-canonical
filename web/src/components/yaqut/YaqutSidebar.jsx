@@ -1,121 +1,34 @@
-import { useState, useCallback, useRef, useEffect } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import { hn } from '../../data/i18n-utils';
 import T from '../../data/i18n';
+/* H17 Dalga-0: palet + sanal liste bookkit'ten (görsel çıktı birebir aynı). */
+import { GEO_COLORS, GEO_ICONS, GEO_EN, GEO_TR, PERIOD_LABEL, VirtualList } from '../shared/bookkit';
 
-/* ═══ Geo type color + icon map ═══ */
-const GEO_COLORS = {
-  city:       '#d4a84b', // altın
-  village:    '#66bb6a', // yeşil
-  mountain:   '#a1887f', // kahverengi
-  river:      '#4fc3f7', // mavi
-  fortress:   '#ef5350', // kırmızı
-  region:     '#ce93d8', // mor
-  town:       '#ff8a65', // turuncu
-  district:   '#ffb74d', // açık turuncu
-  valley:     '#81c784', // açık yeşil
-  water:      '#29b6f6', // koyu mavi
-  well:       '#4dd0e1', // turkuaz
-  monastery:  '#9575cd', // lacivert
-  spring:     '#26c6da', // cyan
-  pass:       '#8d6e63', // koyu kahve
-  island:     '#4db6ac', // teal
-  desert:     '#ffd54f', // sarı
-  place:      '#90a4ae', // gri
-  market:     '#f06292', // pembe
-  quarter:    '#78909c', // gri-mavi
-  wadi:       '#aed581', // lime
-  sea:        '#1565c0', // koyu mavi
-};
-
-const GEO_ICONS = {
-  city: '🏙', village: '🏘', mountain: '⛰', river: '🏞', fortress: '🏰',
-  region: '📍', town: '🏛', district: '📌', valley: '🌿', water: '💧',
-  well: '🕳', monastery: '⛪', spring: '💦', pass: '🛤', island: '🏝',
-  desert: '🏜', place: '📍', market: '🏪', quarter: '🏠', wadi: '🌊', sea: '🌊',
-};
-
-/* ═══ Virtual list ═══ */
 const ITEM_HEIGHT = 68;
-const OVERSCAN = 5;
 
-function VirtualList({ items, selectedId, onSelect, lang }) {
-  const containerRef = useRef(null);
-  const [scrollTop, setScrollTop] = useState(0);
-  const [containerHeight, setContainerHeight] = useState(400);
-
-  useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-    const obs = new ResizeObserver(entries => {
-      for (const e of entries) setContainerHeight(e.contentRect.height);
-    });
-    obs.observe(el);
-    return () => obs.disconnect();
-  }, []);
-
-  const handleScroll = useCallback((e) => {
-    setScrollTop(e.target.scrollTop);
-  }, []);
-
-  const startIdx = Math.max(0, Math.floor(scrollTop / ITEM_HEIGHT) - OVERSCAN);
-  const endIdx = Math.min(items.length, Math.ceil((scrollTop + containerHeight) / ITEM_HEIGHT) + OVERSCAN);
-  const totalHeight = items.length * ITEM_HEIGHT;
-  const offsetY = startIdx * ITEM_HEIGHT;
-  const visible = items.slice(startIdx, endIdx);
-
+/* Yâkût satır çizimi — bookkit VirtualList'e renderItem olarak verilir. */
+function renderYaqutRow(e, selectedId, onSelect, lang) {
   return (
-    <div ref={containerRef} className="yaqut-list-container" onScroll={handleScroll}>
-      <div style={{ height: totalHeight, position: 'relative' }}>
-        <div style={{ position: 'absolute', top: offsetY, left: 0, right: 0 }}>
-          {visible.map(e => (
-            <div key={e.id}
-              className={`yaqut-list-item${e.id === selectedId ? ' selected' : ''}`}
-              style={{ height: ITEM_HEIGHT }}
-              onClick={() => onSelect(e.id)}>
-              <div className="yaqut-list-top">
-                <span className="yaqut-list-icon" style={{ color: GEO_COLORS[e.gt] || '#90a4ae' }}>
-                  {GEO_ICONS[e.gt] || '📍'}
-                </span>
-                <div className="yaqut-list-heading" dir="rtl">{e.h}</div>
-              </div>
-              <div className="yaqut-list-name">{hn(e, lang)}</div>
-              <div className="yaqut-list-meta">
-                <span className="yaqut-list-type">{lang === 'tr' ? e.gtt : e.gte}</span>
-                {e.ct && <span className="yaqut-list-country"> · {e.ct}</span>}
-                {(e.pc > 0) && <span className="yaqut-list-xref"> · 👤{e.pc}</span>}
-                {e.ds && <span className="yaqut-list-dia"> · DİA</span>}
-              </div>
-            </div>
-          ))}
-        </div>
+    <div key={e.id}
+      className={`yaqut-list-item${e.id === selectedId ? ' selected' : ''}`}
+      style={{ height: ITEM_HEIGHT }}
+      onClick={() => onSelect(e.id)}>
+      <div className="yaqut-list-top">
+        <span className="yaqut-list-icon" style={{ color: GEO_COLORS[e.gt] || '#90a4ae' }}>
+          {GEO_ICONS[e.gt] || '📍'}
+        </span>
+        <div className="yaqut-list-heading" dir="rtl">{e.h}</div>
+      </div>
+      <div className="yaqut-list-name">{hn(e, lang)}</div>
+      <div className="yaqut-list-meta">
+        <span className="yaqut-list-type">{lang === 'tr' ? e.gtt : e.gte}</span>
+        {e.ct && <span className="yaqut-list-country"> · {e.ct}</span>}
+        {(e.pc > 0) && <span className="yaqut-list-xref"> · 👤{e.pc}</span>}
+        {e.ds && <span className="yaqut-list-dia"> · DİA</span>}
       </div>
     </div>
   );
 }
-
-/* ═══ Geo type TR → EN map ═══ */
-const GEO_EN = {
-  city: 'City', village: 'Village', mountain: 'Mountain', river: 'River',
-  fortress: 'Fortress', region: 'Region', town: 'Town', district: 'District',
-  valley: 'Valley', water: 'Water', well: 'Well', monastery: 'Monastery',
-  spring: 'Spring', pass: 'Pass', island: 'Island', desert: 'Desert',
-  place: 'Place', market: 'Market', quarter: 'Quarter', wadi: 'Wadi', sea: 'Sea',
-};
-
-const GEO_TR = {
-  city: 'Şehir', village: 'Köy', mountain: 'Dağ', river: 'Nehir',
-  fortress: 'Kale', region: 'Bölge', town: 'Kasaba', district: 'Nahiye',
-  valley: 'Vadi', water: 'Su', well: 'Kuyu', monastery: 'Manastır',
-  spring: 'Pınar', pass: 'Geçit', island: 'Ada', desert: 'Çöl',
-  place: 'Mevki', market: 'Pazar', quarter: 'Mahalle', wadi: 'Kuru Dere', sea: 'Deniz',
-};
-
-/* ═══ Period TR/EN ═══ */
-const PERIOD_LABEL = {
-  active: { tr: 'Aktif', en: 'Active' },
-  ruined: { tr: 'Harap', en: 'Ruined' },
-  legendary: { tr: 'Efsanevî', en: 'Legendary' },
-};
 
 export default function YaqutSidebar({
   lang, ty, filtered, search, setSearch,
@@ -286,9 +199,9 @@ export default function YaqutSidebar({
 
       <VirtualList
         items={filtered}
-        selectedId={selectedId}
-        onSelect={onSelect}
-        lang={lang}
+        itemHeight={ITEM_HEIGHT}
+        className="yaqut-list-container"
+        renderItem={(e) => renderYaqutRow(e, selectedId, onSelect, lang)}
       />
     </div>
   );

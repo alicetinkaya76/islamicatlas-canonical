@@ -1,5 +1,7 @@
 import { useMemo, useState } from 'react';
 import { FIELD_COLORS } from './DiaSidebar';
+/* H19 S2: xref'in ötesinde pid-merge köprüsü (person_bridge) */
+import { ensurePersonBridge, bridgeFromDia } from '../../data/personBridge';
 
 function fmtDate(h, m, place) {
   const parts = [];
@@ -44,8 +46,13 @@ export default function DiaIdCard({ lang, td, bio, works, relations, lookup, tra
   }, [relations, bio, lookup]);
 
   const alamIds = useMemo(() => {
-    if (!bio || !xref) return [];
-    return xref.dia_to_alam?.[bio.id] || [];
+    ensurePersonBridge();
+    if (!bio) return [];
+    const fromXref = (xref && xref.dia_to_alam?.[bio.id]) || [];
+    if (fromXref.length) return fromXref;
+    /* H19 S2: xref'te yoksa mağaza pid-merge köprüsünden (tekil eşleşme) */
+    const b = bridgeFromDia(bio.id);
+    return b && b.alam != null ? [b.alam] : [];
   }, [xref, bio]);
 
   if (!bio) {
@@ -198,6 +205,13 @@ export default function DiaIdCard({ lang, td, bio, works, relations, lookup, tra
       </div>
 
       {/* Cross-ref to el-A'lâm */}
+      {(() => { const b = bridgeFromDia(bio?.id); return b && b.ei1 != null ? (
+        <div className="dia-xref-row">
+          <button className="dia-btn dia-btn-xref" onClick={() => { window.location.hash = `ei1/${b.ei1}`; }}>
+            📕 {{ tr: "EI-1'de Aç", en: 'Open in EI-1', ar: 'EI-1' }[lang] || "EI-1'de Aç"}
+          </button>
+        </div>
+      ) : null; })()}
       {alamIds.length > 0 && (
         <div className="dia-idcard-xref">
           <button className="dia-btn dia-btn-xref" onClick={() => onNavigateAlam(alamIds[0])}>

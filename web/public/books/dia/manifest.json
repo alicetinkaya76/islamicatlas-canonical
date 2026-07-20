@@ -1,0 +1,62 @@
+{
+  "capabilities": [
+    "map",
+    "network",
+    "sankey",
+    "analytics"
+  ],
+  "entity_kind_counts": {
+    "person": 7383
+  },
+  "generated_by": "pipelines/frontend/build_containers.py",
+  "name_ar": null,
+  "name_tr": "TDV İslâm Ansiklopedisi (DİA) Biyografi Katmanı",
+  "pid_coverage": {
+    "mapped": 7383,
+    "pct": 86.57,
+    "total": 8528
+  },
+  "pid_map_key": "dia_lite.json içindeki id alanı (slug)",
+  "record_count": 8528,
+  "related_curie_families": {
+    "dia-chunks": {
+      "curie_count": 2243,
+      "entity_kind_counts": {
+        "person": 2243
+      },
+      "shares_pid_with_dia": 1951
+    },
+    "dia-chunks-v8": {
+      "curie_count": 3309,
+      "entity_kind_counts": {
+        "person": 3309
+      },
+      "shares_pid_with_dia": 3309
+    },
+    "dia-rich": {
+      "curie_count": 30,
+      "entity_kind_counts": {
+        "work": 30
+      },
+      "shares_pid_with_dia": 0
+    },
+    "tdv_dia": {
+      "curie_count": 1,
+      "entity_kind_counts": {
+        "work": 1
+      },
+      "shares_pid_with_dia": 0
+    }
+  },
+  "related_curie_note": "Mağazada 'dia:' dışında dia-chunks / dia-chunks-v8 / dia-rich / tdv_dia önekli İKİNCİ bir curie ailesi var; sayıları yukarıda raporlandı, pid_map'e YALNIZ 'dia:' ailesi kondu.",
+  "source_files": [
+    "web/public/data/dia_lite.json",
+    "data/_index/lookup.sqlite"
+  ],
+  "source_key": "dia",
+  "unmatched_curie_count": 0,
+  "unmatched_curie_sample": [],
+  "unmatched_note": "Eşlenemeyen curie'ler için ayrı kuyruk dosyası üretilmedi; mağaza kuyrukları zaten mevcut (sayı + örnek ile yetinildi).",
+  "work_note": "work_missing: mağazada DİA'nın kendisine ait work kaydı yok (label taraması 'İslâm Ansiklopedisi' → 0 sonuç).",
+  "work_pid": null
+}

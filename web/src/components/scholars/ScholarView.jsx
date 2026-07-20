@@ -5,6 +5,7 @@ import SCHOLAR_LINKS from '../../data/scholar_links';
 import SCHOLAR_IDENTITY from '../../data/scholar_identity';
 import ISNAD_CHAINS from '../../data/isnad_chains';
 import ScholarNetwork, { DISC_COLORS } from './ScholarNetwork';
+import UlemaPool from './UlemaPool';   // H20 S3: dinamik Ulema Havuzu (4. mod)
 import ScholarTimeline from './ScholarTimeline';
 import { lf } from '../../hooks/useEntityLookup';
 import '../../styles/scholars.css';
@@ -144,8 +145,18 @@ export default function ScholarView({ lang, t: tProp }) {
             onClick={() => setView('timeline')}>
             📊 {ts.timelineView || 'Timeline'}
           </button>
+          {/* H20 S3: Ulema Havuzu — 450'lik set yanında DİNAMİK havuz
+              (sahip kararı 2026-07-19). Diğer üç görünüm dokunulmadı. */}
+          <button className={`scholar-view-btn${view === 'pool' ? ' active' : ''}`}
+            onClick={() => setView('pool')}
+            title={lang === 'en' ? 'All person records in the store — grows with every new book'
+                                 : 'Mağazadaki tüm kişi kayıtları — her yeni kitapla büyür'}>
+            🕌 {lang === 'en' ? 'Pool' : 'Havuz'}
+          </button>
         </div>
 
+        {/* H20 S3: 450-set araçları havuz modunda gizli (havuzun kendi filtresi var) */}
+        {view !== 'pool' && (<>
         <div className="scholar-toolbar-sep" />
 
         {/* Discipline pills */}
@@ -203,6 +214,7 @@ export default function ScholarView({ lang, t: tProp }) {
         <span className="scholar-stats">
           {filtered.length} / {allScholars.length}
         </span>
+        </>)}
       </div>
 
       {/* Chain selector (isnad mode only) — OUTSIDE scholar-main */}
@@ -241,7 +253,11 @@ export default function ScholarView({ lang, t: tProp }) {
         </div>
       )}
 
+      {/* H20 S3: Havuz modu — kendi arama/filtresi var, 450-set araçları kapalı */}
+      {view === 'pool' && <UlemaPool lang={lang} />}
+
       {/* Main area */}
+      {view !== 'pool' && (
       <div className="scholar-main">
         {/* D3 view */}
         {view === 'network' || view === 'isnad' ? (
@@ -483,6 +499,7 @@ export default function ScholarView({ lang, t: tProp }) {
           )}
         </div>
       </div>
+      )}
     </div>
   );
 }

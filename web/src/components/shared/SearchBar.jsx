@@ -32,7 +32,7 @@ const normalize = (s) =>
     .replace(/أ|إ|آ/g, 'ا');
 
 /* ═══ Build search index with multi-field support ═══ */
-function buildSearchIndex(alamData) {
+function buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData) {
   const idx = [];
 
   DB.dynasties.forEach(d => {
@@ -181,6 +181,53 @@ function buildSearchIndex(alamData) {
     });
   });
 
+  /* H18 S4: tam-pid kaynak kapları (Dalga-1) — odaklanınca yüklenir */
+  (yaqutData || []).forEach(e => {
+    idx.push({
+      type: 'yaqut', icon: '🌍', obj: { id: e.id },
+      lat: e.lat ?? 30, lon: e.lon ?? 45, zoom: e.lat != null ? 8 : 4,
+      name_tr: e.ht || e.h, name_en: e.he || e.h,
+      search_tr: normalize((e.ht || '') + ' ' + (e.h || '')),
+      search_en: normalize((e.he || '') + ' ' + (e.h || '')),
+      search_extra: normalize([e.gtt || '', e.gte || '', e.ct || ''].join(' ')),
+      ctx_yr: '', ctx_detail: [e.gtt || '', e.ct || ''].filter(Boolean).join(' · '),
+    });
+  });
+  ((muqData && muqData.places) || []).forEach(e => {
+    idx.push({
+      type: 'muqaddasi', icon: '📐', obj: { id: e.id },
+      lat: parseFloat(e.lat) || 30, lon: parseFloat(e.lon) || 45, zoom: 8,
+      name_tr: e.name_tr || e.name_ar, name_en: e.name_en || e.name_ar,
+      search_tr: normalize((e.name_tr || '') + ' ' + (e.name_ar || '')),
+      search_en: normalize((e.name_en || '') + ' ' + (e.name_ar || '')),
+      search_extra: normalize(e.iqlim_ar || ''),
+      ctx_yr: '', ctx_detail: 'Makdisî',
+    });
+  });
+  ((khitatData && khitatData.structures) || []).forEach(e => {
+    idx.push({
+      type: 'khitat', icon: '🏛', obj: { id: e.id },
+      lat: e.lat ?? 30.05, lon: e.lon ?? 31.26, zoom: 12,
+      name_tr: e.tr || e.en || e.ar, name_en: e.en || e.ar,
+      search_tr: normalize((e.tr || '') + ' ' + (e.ar || '')),
+      search_en: normalize((e.en || '') + ' ' + (e.ar || '')),
+      search_extra: normalize(e.cat || ''),
+      ctx_yr: e.ah ? `(${e.ah} H)` : '', ctx_detail: 'el-Hıtat · Kahire',
+    });
+  });
+  ((scienceData && scienceData.scholars) || []).forEach(e => {
+    const nm = e.full_name || {};
+    idx.push({
+      type: 'science', icon: '🔬', obj: { id: e.id },
+      lat: 30, lon: 45, zoom: 4,
+      name_tr: nm.tr || nm.en, name_en: nm.en || nm.tr,
+      search_tr: normalize((nm.tr || '') + ' ' + (nm.ar || '')),
+      search_en: normalize((nm.en || '') + ' ' + (nm.ar || '')),
+      search_extra: normalize((e.fields || []).join(' ')),
+      ctx_yr: e.death_year ? `(ö. ${e.death_year})` : '', ctx_detail: 'Bilim Atlası',
+    });
+  });
+
   return idx;
 }
 
@@ -199,13 +246,20 @@ function fuzzyMatch(haystack, needle) {
 }
 
 /* ═══ Type labels — derived from t inside component ═══ */
-function getTypeLabels(t) {
+function getTypeLabels(t, lang) {
   return {
     dynasty: t.m.dynasty, battle: t.m.battle, event: t.m.event,
     scholar: t.m.scholar, monument: t.m.monument, city: t.m.city,
     ruler: t.m.ruler, madrasa: t.layers.madrasas, alam: t.alam.title,
+    /* H18 S4: tam-pid kaynak kapları tek çip altında */
+    sources: { tr: 'Kaynaklar', en: 'Sources', ar: 'المصادر' }[lang] || 'Kaynaklar',
   };
 }
+
+/* H18 S4: 'sources' çipi bu dört tipin şemsiyesi (battles zaten 'battle') */
+const SOURCE_TYPES = new Set(['yaqut', 'muqaddasi', 'khitat', 'science']);
+const catMatch = (cats, type) =>
+  cats.has(type) || (SOURCE_TYPES.has(type) && cats.has('sources'));
 
 const CATEGORIES = [
   { key: 'dynasty',  icon: '🏛', labelKey: 'dynasty' },
@@ -216,13 +270,14 @@ const CATEGORIES = [
   { key: 'event',    icon: '📜', labelKey: 'event' },
   { key: 'ruler',    icon: '👑', labelKey: 'ruler' },
   { key: 'alam',     icon: '📖', labelKey: 'alam' },
+  { key: 'sources',  icon: '🗃', labelKey: 'sources' },
 ];
 
 /* Map from search category key → map layer key */
 const CAT_TO_LAYER = {
   dynasty: 'dynasties', battle: 'battles', scholar: 'scholars',
   monument: 'monuments', city: 'cities', event: 'events',
-  ruler: 'rulers', madrasa: 'madrasas', alam: null,
+  ruler: 'rulers', madrasa: 'madrasas', alam: null, sources: null,
 };
 
 const RECENT_KEY = 'atlas-recent-searches';
@@ -243,8 +298,16 @@ export default function SearchBar({ lang, onFlyTo, onSelectEntity }) {
 
   // Lazy-load alam data — search works immediately with DB data, alam entries arrive later
   const { data: alamData } = useAsyncData('/data/alam_lite.json');
+  /* H18 S4: kaynak kapları İLK odakta yüklenir (sayfa yükünü şişirmez) */
+  const [sourcesArmed, setSourcesArmed] = useState(false);
+  const { data: yaqutData } = useAsyncData(sourcesArmed ? '/data/yaqut_lite.json' : null);
+  const { data: muqData } = useAsyncData(sourcesArmed ? '/data/muqaddasi_atlas_layer.json' : null);
+  const { data: khitatData } = useAsyncData(sourcesArmed ? '/data/maqrizi_khitat_atlas_layer.json' : null);
+  const { data: scienceData } = useAsyncData(sourcesArmed ? '/data/science_layer.json' : null);
 
-  const searchIndex = useMemo(() => buildSearchIndex(alamData), [alamData]);
+  const searchIndex = useMemo(
+    () => buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData),
+    [alamData, yaqutData, muqData, khitatData, scienceData]);
   const totalCount = searchIndex.length;
 
   useEffect(() => {
@@ -285,7 +348,7 @@ export default function SearchBar({ lang, onFlyTo, onSelectEntity }) {
     const needle = normalize(q.trim());
     const scored = [];
     for (const item of searchIndex) {
-      if (!cats.has(item.type)) continue;
+      if (!catMatch(cats, item.type)) continue;
       const mTr = fuzzyMatch(item.search_tr, needle);
       const mEn = fuzzyMatch(item.search_en, needle);
       const mEx = item.search_extra ? fuzzyMatch(item.search_extra, needle) : { match: false, score: Infinity };
@@ -324,12 +387,22 @@ export default function SearchBar({ lang, onFlyTo, onSelectEntity }) {
     setShowDropdown(false); setShowRecent(false);
     addToRecent(query.trim() || (f(item, 'name', lang)));
     setQuery('');
-    if (onFlyTo) onFlyTo({ lat: item.lat, lon: item.lon, zoom: item.zoom });
+    /* H18 S4: kayıt sözleşmesi olan tipler doğrudan kaynağına gider
+       (S2 derin-link onarımlarının meyvesi); kalanlar haritaya uçar. */
+    if (item.type === 'alam') {
+      window.location.hash = `#alam?id=${item.obj.id}`;
+    } else if (item.type === 'yaqut') {
+      window.location.hash = `#yaqut?search=${encodeURIComponent(item.name_tr || '')}`;
+    } else if (item.type === 'science') {
+      window.location.hash = '#science';
+    } else {
+      if (onFlyTo) onFlyTo({ lat: item.lat, lon: item.lon, zoom: item.zoom });
+    }
     if (onSelectEntity) onSelectEntity(item);
   }, [onFlyTo, onSelectEntity, query, lang, addToRecent]);
 
   const handleRandom = useCallback(() => {
-    const filtered = searchIndex.filter(i => activeCategories.has(i.type));
+    const filtered = searchIndex.filter(i => catMatch(activeCategories, i.type));
     if (!filtered.length) return;
     const item = filtered[Math.floor(Math.random() * filtered.length)];
     setQuery(''); setShowDropdown(false); setShowRecent(false);
@@ -338,6 +411,7 @@ export default function SearchBar({ lang, onFlyTo, onSelectEntity }) {
   }, [searchIndex, activeCategories, onFlyTo, onSelectEntity]);
 
   const handleFocus = useCallback(() => {
+    setSourcesArmed(true);   // H18 S4: kaynak verileri ilk odakta iner
     if (query.trim().length >= 2 && results.length > 0) setShowDropdown(true);
     else if (!query.trim() && recentSearches.length > 0) { setShowRecent(true); setShowDropdown(false); }
   }, [query, results, recentSearches]);
@@ -359,7 +433,7 @@ export default function SearchBar({ lang, onFlyTo, onSelectEntity }) {
     console.error('[SearchBar] T[lang] is broken. lang=', lang, 'T keys=', Object.keys(T));
     return <div style={{color:'red'}}>SearchBar: i18n error (lang={String(lang)})</div>;
   }
-  const labels = getTypeLabels(t);
+  const labels = getTypeLabels(t, lang);
 
   return (
     <div className="search-wrap" ref={wrapRef}>

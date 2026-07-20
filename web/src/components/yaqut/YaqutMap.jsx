@@ -2,6 +2,8 @@ import { useEffect, useRef, useCallback, useMemo, useState, lazy, Suspense } fro
 import L from 'leaflet';
 import { hn } from '../../data/i18n-utils';
 import T from '../../data/i18n';
+/* H17 Dalga-0: palet bookkit'ten (değerler birebir aynı). */
+import { geoColor } from '../shared/bookkit';
 
 /* ═══ Lazy-load Globe (Three.js only when needed) ═══ */
 const YaqutGlobe = lazy(() => import('./YaqutGlobe'));
@@ -12,19 +14,6 @@ const TILE_ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright">OSM<
 
 const CENTER = [30, 45]; // Islamic world center
 const ZOOM = 4;
-
-/* ═══ Color by geo_type ═══ */
-const GEO_COLORS = {
-  city: '#d4a84b', village: '#66bb6a', mountain: '#a1887f', river: '#4fc3f7',
-  fortress: '#ef5350', region: '#ce93d8', town: '#ff8a65', district: '#ffb74d',
-  valley: '#81c784', water: '#29b6f6', well: '#4dd0e1', monastery: '#9575cd',
-  spring: '#26c6da', pass: '#8d6e63', island: '#4db6ac', desert: '#ffd54f',
-  place: '#90a4ae', market: '#f06292', quarter: '#78909c', wadi: '#aed581', sea: '#1565c0',
-};
-
-function geoColor(gt) {
-  return GEO_COLORS[gt] || '#90a4ae';
-}
 
 /* ═══ Geo type histogram data ═══ */
 function buildGeoHistogram(filtered) {

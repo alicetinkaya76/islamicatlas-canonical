@@ -25,7 +25,7 @@ function buildStats(data) {
   };
 }
 
-export default function Ei1View({ lang, t: tProp, initialSearch }) {
+export default function Ei1View({ lang, t: tProp, initialSearch, initialId }) {
   const t = tProp || T[lang];
   const te = t.ei1 || {};
 
@@ -54,6 +54,14 @@ export default function Ei1View({ lang, t: tProp, initialSearch }) {
   useEffect(() => {
     if (initialSearch) setSearch(initialSearch);
   }, [initialSearch]);
+
+  /* H19 S2: #ei1/<id> derin linki — Ei1IdCard'ın paylaştığı URL + kişi
+     köprüsü (alam/dia kartlarındaki EI-1 düğmeleri) bu sözleşmeyi kullanır. */
+  useEffect(() => {
+    if (initialId == null) return;
+    const n = parseInt(initialId, 10);
+    if (!isNaN(n)) { setSelectedId(n); setShowMobile('card'); }
+  }, [initialId]);
 
   const filtered = useMemo(() => {
     if (!EI1_LITE) return [];

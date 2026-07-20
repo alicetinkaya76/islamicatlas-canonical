@@ -41,7 +41,7 @@ function buildStats(data) {
   };
 }
 
-export default function DiaView({ lang, t: tProp, initialSearch }) {
+export default function DiaView({ lang, t: tProp, initialSearch, initialSlug }) {
   const t = tProp || T[lang];
   const td = t.dia || {};
 
@@ -70,6 +70,13 @@ export default function DiaView({ lang, t: tProp, initialSearch }) {
   useEffect(() => {
     if (initialSearch) setSearch(initialSearch);
   }, [initialSearch]);
+
+  /* H17 S2: #dia/<slug> derin linki — DiaIdCard'ın paylaştığı URL ve
+     AlamIdCard köprüsü bu segmenti yazıyordu ama App atıyordu. */
+  useEffect(() => {
+    if (!initialSlug || !DIA_LITE) return;
+    if (DIA_BY_ID[initialSlug]) { setSelectedId(initialSlug); setShowMobile('card'); }
+  }, [initialSlug, DIA_LITE, DIA_BY_ID]);
 
   /* ═══ ALL hooks MUST be above conditional return ═══ */
   const filtered = useMemo(() => {

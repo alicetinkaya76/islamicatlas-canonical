@@ -1,0 +1,173 @@
+{
+  "containers": [
+    {
+      "capabilities": [
+        "map",
+        "analytics",
+        "network"
+      ],
+      "key": "alam",
+      "pid_coverage": {
+        "mapped": 12572,
+        "pct": 90.19,
+        "total": 13940
+      },
+      "record_count": 13940
+    },
+    {
+      "capabilities": [
+        "map",
+        "events"
+      ],
+      "key": "battles",
+      "pid_coverage": {
+        "mapped": 50,
+        "pct": 50.0,
+        "total": 100
+      },
+      "record_count": 100
+    },
+    {
+      "capabilities": [
+        "map",
+        "structures"
+      ],
+      "key": "cityatlas",
+      "pid_coverage": {
+        "mapped": 542,
+        "pct": 92.97,
+        "total": 583
+      },
+      "record_count": 583
+    },
+    {
+      "capabilities": [
+        "map",
+        "analytics"
+      ],
+      "crosswalk_matched": 753,
+      "key": "darpislam",
+      "pid_coverage": {
+        "mapped": 2338,
+        "pct": 69.15,
+        "total": 3381
+      },
+      "record_count": 3381
+    },
+    {
+      "capabilities": [
+        "map",
+        "network",
+        "sankey",
+        "analytics"
+      ],
+      "key": "dia",
+      "pid_coverage": {
+        "mapped": 7383,
+        "pct": 86.57,
+        "total": 8528
+      },
+      "record_count": 8528
+    },
+    {
+      "capabilities": [
+        "map",
+        "voyages"
+      ],
+      "key": "evliya",
+      "pid_coverage": {
+        "mapped": 4807,
+        "pct": 88.3,
+        "total": 5444
+      },
+      "record_count": 5444
+    },
+    {
+      "capabilities": [
+        "map",
+        "structures"
+      ],
+      "key": "khitat",
+      "pid_coverage": {
+        "mapped": 801,
+        "pct": 100.0,
+        "total": 801
+      },
+      "record_count": 801
+    },
+    {
+      "capabilities": [
+        "map",
+        "xref"
+      ],
+      "crosswalk_matched": 117,
+      "key": "lestrange",
+      "pid_coverage": {
+        "mapped": 215,
+        "pct": 49.54,
+        "total": 434
+      },
+      "record_count": 434
+    },
+    {
+      "capabilities": [
+        "map",
+        "routes"
+      ],
+      "key": "muqaddasi",
+      "pid_coverage": {
+        "mapped": 2049,
+        "pct": 98.99,
+        "total": 2070
+      },
+      "record_count": 2070
+    },
+    {
+      "capabilities": [
+        "map",
+        "compare",
+        "routes",
+        "timeline",
+        "castles"
+      ],
+      "key": "salibiyyat",
+      "pid_coverage": {
+        "mapped": 778,
+        "pct": 95.58,
+        "total": 814
+      },
+      "record_count": 814
+    },
+    {
+      "capabilities": [
+        "map",
+        "network",
+        "routes"
+      ],
+      "key": "science",
+      "pid_coverage": {
+        "mapped": 406,
+        "pct": 100.0,
+        "total": 406
+      },
+      "record_count": 406
+    },
+    {
+      "capabilities": [
+        "map",
+        "globe",
+        "analytics",
+        "graph",
+        "idcard"
+      ],
+      "key": "yaqut",
+      "pid_coverage": {
+        "mapped": 12954,
+        "pct": 100.0,
+        "total": 12954
+      },
+      "record_count": 12954
+    }
+  ],
+  "generated_by": "pipelines/frontend/build_containers.py"
+}

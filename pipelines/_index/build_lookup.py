@@ -10,7 +10,22 @@ with five tables (see ADR-008 §8.3):
     decision_cache      — (adapter_id, extracted_record_id) → decision
 
 Usage:
-    python3 pipelines/_index/build_lookup.py [--rebuild]
+    python3 pipelines/_index/build_lookup.py [--rebuild] [--out PATH]
+
+Idempotency (H22): a run WITHOUT --rebuild is now equivalent to a run WITH it.
+Previously `label`/`label_fts` used a bare INSERT while the other four tables
+used INSERT OR REPLACE, so every re-run appended a complete second copy of
+every label row. Measured on the live index 2026-07-20: 635,257 label rows for
+211,800 distinct (pid,lang,kind,text) tuples — i.e. three accumulated passes,
+423,457 pure duplicate rows (~3x FTS bloat on the hot Tier-2 scoring path).
+Labels are now cleared per-PID before re-insert, and rows whose PID no longer
+has a file under data/canonical/ are pruned at the end of the walk (stale-row
+GC — a deleted/superseded record used to keep its index rows forever).
+
+NOT a phantom-PID source: this script only ever writes PIDs it read off disk.
+The 1,615 phantoms in data/_state/phantom_pids_audit.json are pid_index.json
+(mint-ledger) reservations; none of them has ever had a row here — verified
+0/1615 across all five tables. See docs/PHASE0_CLOSEOUT.md §2.
 """
 
 from __future__ import annotations
@@ -90,10 +105,53 @@ def iter_canonical() -> Iterable[tuple[Path, dict]]:
                 yield path, json.load(fh)
 
 
+def prune_stale(conn: sqlite3.Connection, live_pids: set[str]) -> dict[str, int]:
+    """Drop rows whose PID no longer has a canonical file on disk.
+
+    Without this, a record that is deleted, merged away or superseded keeps its
+    labels/bracket/CURIEs in the index forever, and only `--rebuild` clears
+    them. Derivative index only — no source data is touched.
+    """
+    conn.execute("CREATE TEMP TABLE IF NOT EXISTS _live(pid TEXT PRIMARY KEY)")
+    conn.execute("DELETE FROM _live")
+    conn.executemany("INSERT OR IGNORE INTO _live(pid) VALUES (?)",
+                     ((p,) for p in live_pids))
+    removed: dict[str, int] = {}
+    for table in ("authority_xref", "source_curie", "label", "entity_bracket"):
+        cur = conn.execute(
+            f"DELETE FROM {table} WHERE pid NOT IN (SELECT pid FROM _live)")
+        if cur.rowcount > 0:
+            removed[table] = cur.rowcount
+    return removed
+
+
+def rebuild_fts(conn: sqlite3.Connection) -> int:
+    """Regenerate label_fts wholesale from the (already-correct) label table.
+
+    label_fts declares `pid UNINDEXED`, so a per-PID `DELETE ... WHERE pid = ?`
+    costs a full scan of the FTS content table — 67.8K of those made a re-run
+    take >10 min (measured). One truncate + one bulk re-insert is O(n) and also
+    repairs the drifted FTS row counts (multiplicities of 6 and 9 observed on
+    the live index, where label showed 3), since the two tables were previously
+    written by independent statements and could not be kept in step.
+    """
+    conn.execute("DELETE FROM label_fts")
+    conn.execute("INSERT INTO label_fts(pid, text) SELECT pid, text FROM label")
+    return conn.execute("SELECT COUNT(*) FROM label_fts").fetchone()[0]
+
+
 def index_one(conn: sqlite3.Connection, record: dict) -> None:
     pid = record.get("@id")
     if not pid:
         return
+
+    # Idempotency: `label` has no primary key, so a bare INSERT on a re-run
+    # appends a duplicate copy of every row (measured 3x on the live index).
+    # Clear this PID's label rows before re-inserting. Uses label_pid_idx, so
+    # it is cheap. The other tables are INSERT OR REPLACE, already idempotent.
+    # label_fts is NOT written here — it is regenerated from `label` in one
+    # bulk pass at the end of the run (see rebuild_fts).
+    conn.execute("DELETE FROM label WHERE pid = ?", (pid,))
     # entity_type from @id — authoritative per ADR-001 (H10 Stage 1 fix: the
     # old @type[0] read mis-bracketed the 768 subtype-first person records,
     # e.g. ["iac:Scholar","iac:Person"] → 'scholar' → invisible to Tier-2
@@ -130,7 +188,6 @@ def index_one(conn: sqlite3.Connection, record: dict) -> None:
             "INSERT INTO label(pid, lang, kind, text) VALUES (?, ?, 'pref', ?)",
             (pid, lang, text),
         )
-        conn.execute("INSERT INTO label_fts(pid, text) VALUES (?, ?)", (pid, text))
     for lang, arr in (labels.get("altLabel", {}) or {}).items():
         if isinstance(arr, list):
             for t in arr:
@@ -138,14 +195,12 @@ def index_one(conn: sqlite3.Connection, record: dict) -> None:
                     "INSERT INTO label(pid, lang, kind, text) VALUES (?, ?, 'alt', ?)",
                     (pid, lang, t),
                 )
-                conn.execute("INSERT INTO label_fts(pid, text) VALUES (?, ?)", (pid, t))
     for scheme, t in (labels.get("transliteration", {}) or {}).items():
         if isinstance(t, str):
             conn.execute(
                 "INSERT INTO label(pid, lang, kind, text) VALUES (?, ?, 'translit', ?)",
                 (pid, scheme, t),
             )
-            conn.execute("INSERT INTO label_fts(pid, text) VALUES (?, ?)", (pid, t))
 
     # 4. entity_bracket
     coords = record.get("coords") or {}
@@ -187,31 +242,55 @@ def main() -> int:
     parser.add_argument("--rebuild", action="store_true",
                         help="Drop tables and rebuild from scratch.")
     parser.add_argument("--quiet", action="store_true")
+    parser.add_argument("--out", type=Path, default=INDEX_PATH,
+                        help="Write to an alternate index path (default: "
+                             "data/_index/lookup.sqlite). Used to build a "
+                             "shadow index for before/after comparison without "
+                             "disturbing readers of the live one.")
     args = parser.parse_args()
 
-    INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
-    if args.rebuild and INDEX_PATH.exists():
-        INDEX_PATH.unlink()
+    index_path = args.out
+    index_path.parent.mkdir(parents=True, exist_ok=True)
+    if args.rebuild and index_path.exists():
+        index_path.unlink()
 
-    conn = sqlite3.connect(INDEX_PATH)
+    conn = sqlite3.connect(index_path)
     conn.execute("PRAGMA journal_mode = WAL")
     conn.executescript(SCHEMA)
     conn.commit()
 
     n = 0
+    live_pids: set[str] = set()
     for path, record in iter_canonical():
         try:
             index_one(conn, record)
+            pid = record.get("@id")
+            if pid:
+                live_pids.add(pid)
             n += 1
         except Exception as exc:
             print(f"  WARN: {path.relative_to(REPO_ROOT)}: {exc}", file=sys.stderr)
+
+    # Stale-row GC. Skipped after --rebuild (the file was just recreated) and
+    # skipped if the walk produced nothing, so a mis-pointed CANONICAL_DIR can
+    # never empty a good index.
+    removed: dict[str, int] = {}
+    if live_pids and not args.rebuild:
+        removed = prune_stale(conn, live_pids)
+
+    # FTS mirrors `label`; regenerate it after the walk and the prune so the
+    # two can never drift (they did on the live index — see rebuild_fts).
+    fts_rows = rebuild_fts(conn)
     conn.commit()
 
     if not args.quiet:
-        print(f"Indexed {n} canonical records into {INDEX_PATH.relative_to(REPO_ROOT)}")
+        print(f"Indexed {n} canonical records into {index_path}")
+        if removed:
+            print(f"  pruned stale rows (PID no longer on disk): {removed}")
         for table in ("authority_xref", "source_curie", "label", "entity_bracket", "decision_cache"):
             count = conn.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
             print(f"  {table}: {count} rows")
+        print(f"  label_fts: {fts_rows} rows (regenerated from label)")
 
     conn.close()
     return 0

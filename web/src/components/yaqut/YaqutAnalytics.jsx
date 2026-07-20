@@ -2,25 +2,14 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import * as d3 from 'd3';
 import { hn } from '../../data/i18n-utils';
 import T from '../../data/i18n';
+import { GEO_COLORS, GEO_TR } from '../shared/bookkit';
 
 /* ═══ Shared ═══ */
 const MARGIN = { top: 30, right: 20, bottom: 40, left: 50 };
 
-const GEO_COLORS = {
-  city: '#d4a84b', village: '#66bb6a', mountain: '#a1887f', river: '#4fc3f7',
-  fortress: '#ef5350', region: '#ce93d8', town: '#ff8a65', district: '#ffb74d',
-  valley: '#81c784', water: '#29b6f6', well: '#4dd0e1', monastery: '#9575cd',
-  spring: '#26c6da', pass: '#8d6e63', island: '#4db6ac', desert: '#ffd54f',
-  place: '#90a4ae', market: '#f06292', quarter: '#78909c', wadi: '#aed581',
-};
-
-const GEO_TR = {
-  city: 'Şehir', village: 'Köy', mountain: 'Dağ', river: 'Nehir',
-  fortress: 'Kale', region: 'Bölge', town: 'Kasaba', district: 'Nahiye',
-  valley: 'Vadi', water: 'Su', well: 'Kuyu', monastery: 'Manastır',
-  spring: 'Pınar', pass: 'Geçit', island: 'Ada', desert: 'Çöl',
-  place: 'Mevki', market: 'Pazar', quarter: 'Mahalle', wadi: 'Kuru Dere',
-};
+/* H17 Dalga-0: palet bookkit'ten. Not: eski yerel kopyada 'sea' eksikti —
+   birleşik palet 'sea'ye gri fallback yerine haritayla aynı koyu maviyi verir
+   (tutarlılık düzeltmesi; grafiklerin geri kalanı birebir aynı). */
 
 /* ═══ A) Geo Type Distribution — Bar Chart ═══ */
 function GeoTypeChart({ data, lang, ty }) {

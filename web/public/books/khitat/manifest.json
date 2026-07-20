@@ -1,0 +1,27 @@
+{
+  "capabilities": [
+    "map",
+    "structures"
+  ],
+  "entity_kind_counts": {
+    "institution": 801
+  },
+  "generated_by": "pipelines/frontend/build_containers.py",
+  "name_ar": "الخطط",
+  "name_tr": "el-Hıtat",
+  "pid_coverage": {
+    "mapped": 801,
+    "pct": 100.0,
+    "total": 801
+  },
+  "pid_map_key": "maqrizi_khitat_atlas_layer.json structures[].id (int) — string olarak; curie yerel kısmı cairo_NNNN biçiminden çözüldü",
+  "record_count": 801,
+  "source_files": [
+    "web/public/data/maqrizi_khitat_atlas_layer.json",
+    "data/_index/lookup.sqlite"
+  ],
+  "source_key": "khitat",
+  "unmatched_curies": [],
+  "work_note": null,
+  "work_pid": "iac:work-00000059"
+}
