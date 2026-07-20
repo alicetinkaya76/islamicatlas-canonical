@@ -1,0 +1,95 @@
+{
+  "_doc": "Ulema Havuzu sayimlari. Her sayi bu kosunun taramasindan uretildi; tahmin/yuvarlama yok. Uretici: pipelines/frontend/build_ulema_pool.py",
+  "_notlar": [],
+  "cakisma_matrisi": {
+    "a_kesisim_d": 67,
+    "a_kesisim_d_kesisim_e": 1,
+    "a_kesisim_e": 106,
+    "d_kesisim_e": 70,
+    "yalniz_a": 11207,
+    "yalniz_d": 7247,
+    "yalniz_e": 999
+  },
+  "ham_curie_onek_sayimi": {
+    "bosworth-nid": 828,
+    "dia": 7383,
+    "dia-chunks": 2243,
+    "dia-chunks-v8": 3309,
+    "ei1": 1174,
+    "el-alam": 11379,
+    "openiti": 2262,
+    "scholars": 280,
+    "science-layer": 182
+  },
+  "kaynak_basina_kisi": {
+    "a": 11379,
+    "b": 8611,
+    "d": 7383,
+    "e": 1174,
+    "s": 182,
+    "sc": 280
+  },
+  "kaynak_curiesiz_kisi": 0,
+  "meslek_dagilimi": {
+    "architect": 18,
+    "astronomer": 164,
+    "calligrapher": 139,
+    "geographer": 68,
+    "historian": 1235,
+    "judge": 377,
+    "mathematician": 113,
+    "merchant": 4,
+    "mufti": 16,
+    "musician": 153,
+    "narrator": 597,
+    "philosopher": 248,
+    "physician": 221,
+    "poet": 2328,
+    "ruler": 2249,
+    "scholar": 16544,
+    "scribe": 146,
+    "translator": 39,
+    "vizier": 141
+  },
+  "olum_tarihi": {
+    "en_az_biri_var": 22833,
+    "hicri_var": 19438,
+    "miladi_var": 22736,
+    "tarihsiz": 102
+  },
+  "tarama": {
+    "ad_tr_prefLabel_en_fallback": 1792,
+    "bozuk_pid": 0,
+    "canonical_dosya_okunan": 22935,
+    "deprecated_haric": 0,
+    "dosya_bracket_uyumlu": true,
+    "entity_bracket_person": 22935,
+    "havuz_disi_birakilan": 0
+  },
+  "tohum_450": {
+    "_doc": "'havuzda' = scholars:<id> curie'si uzerinden havuzdaki bir pid'e IZLENEBILEN tohum sayisi. Curie'si olmayan tohumlar icin havuz uyeligi BILINMIYOR: ayni kisi baska bir kaynak curie'siyle (el-alam, dia, ...) havuzda olabilir; isim eslestirmesi Faz-2 isi, burada tahmin YAPILMADI.",
+    "db_json_scholar_sayisi": 450,
+    "havuzda_izlenebilir": 275,
+    "id_araligi": [
+      1,
+      462
+    ],
+    "isnad_dugum_havuzda_izlenebilir": 19,
+    "isnad_dugum_tekil": 28,
+    "isnad_kenar_tekil": 26,
+    "isnad_tekil_kenar_iki_ucu_havuzda": 11,
+    "isnad_zincir_sayisi_kenar_toplam": 27,
+    "scholars_curie_ile_pid_almis": 275,
+    "scholars_curie_yok_havuz_durumu_bilinmiyor": 175,
+    "tekil_id": 450,
+    "yetim_scholars_curie": [
+      14,
+      23,
+      28,
+      31,
+      33
+    ],
+    "yetim_scholars_curie_sayisi": 5
+  },
+  "toplam_kisi": 22935
+}

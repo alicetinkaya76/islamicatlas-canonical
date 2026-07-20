@@ -26,3 +26,22 @@ export function bridgeFromAlam(alamId) {
 export function bridgeFromDia(slug) {
   return (BR && BR.dia && BR.dia[slug]) || null;
 }
+
+/* H20 S3: pid → kaynak id'leri (Ulema Havuzu'nun ihtiyacı; havuz kayıtları
+   yalnız kaynak KODU taşır, id taşımaz). Ters indeks ilk istekte kurulur. */
+let BY_PID = null;
+export function bridgeByPid(pidNum) {
+  if (!BR) return null;
+  if (!BY_PID) {
+    BY_PID = {};
+    for (const [alamId, v] of Object.entries(BR.alam || {})) {
+      const n = v.pid && v.pid.replace('iac:person-', '').replace(/^0+/, '');
+      if (n) BY_PID[n] = { ...(BY_PID[n] || {}), alam: alamId, dia: v.dia ?? BY_PID[n]?.dia, ei1: v.ei1 ?? BY_PID[n]?.ei1 };
+    }
+    for (const [slug, v] of Object.entries(BR.dia || {})) {
+      const n = v.pid && v.pid.replace('iac:person-', '').replace(/^0+/, '');
+      if (n) BY_PID[n] = { ...(BY_PID[n] || {}), dia: slug, alam: v.alam ?? BY_PID[n]?.alam, ei1: v.ei1 ?? BY_PID[n]?.ei1 };
+    }
+  }
+  return BY_PID[String(pidNum)] || null;
+}
