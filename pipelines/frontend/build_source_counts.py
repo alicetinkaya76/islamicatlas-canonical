@@ -54,6 +54,9 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
 DATA = REPO / "web" / "public" / "data"
+# H24: katalog kaynakları H23'te canonical /view-data'ya taşındı; rozet
+# sayısı GÖRÜNÜM sayısıyla aynı olmalı (emekli/dublet düşmüş) → önce oradan say.
+VIEW = REPO / "web" / "public" / "view-data"
 READING = REPO / "web" / "public" / "reading"
 DB_JSON = REPO / "web" / "src" / "data" / "db.json"
 OUT = REPO / "web" / "src" / "data" / "source_counts.json"
@@ -84,9 +87,10 @@ def entry(count, detail, files, status="ok"):
     return {"count": count, "detail": detail, "files": files, "status": status}
 
 
-def count_list_file(name: str, unit: str):
-    """Düz liste JSON'u: uzunluğu say."""
-    p = DATA / name
+def count_list_file(name: str, unit: str, prefer_view: bool = False):
+    """Düz liste JSON'u: uzunluğu say. prefer_view=True ise view-data
+    (canonical türevi) varsa oradan sayar — rozet görünümle tutarlı olur."""
+    p = (VIEW / name) if (prefer_view and (VIEW / name).exists()) else (DATA / name)
     d = load(p)
     if d is None:
         return entry(None, None, [rel(p)], "missing")
@@ -97,10 +101,10 @@ def build() -> dict:
     sources = {}
 
     # --- düz liste dosyaları -------------------------------------------------
-    sources["yaqut"] = count_list_file("yaqut_lite.json", "yer")
-    sources["alam"] = count_list_file("alam_lite.json", "biyografi")
-    sources["dia"] = count_list_file("dia_lite.json", "madde")
-    sources["ei1"] = count_list_file("ei1_lite.json", "madde")
+    sources["yaqut"] = count_list_file("yaqut_lite.json", "yer", prefer_view=True)
+    sources["alam"] = count_list_file("alam_lite.json", "biyografi", prefer_view=True)
+    sources["dia"] = count_list_file("dia_lite.json", "madde", prefer_view=True)
+    sources["ei1"] = count_list_file("ei1_lite.json", "madde", prefer_view=True)
     sources["lestrange"] = count_list_file(
         "le_strange_eastern_caliphate.json", "coğrafi kayıt")
 

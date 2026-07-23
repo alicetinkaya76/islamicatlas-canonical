@@ -3,42 +3,42 @@
   "note": "ELLE DÜZENLEMEYİN — bu dosya veriden üretilir. Sayılar ham tamsayıdır; '13,9K' gibi kısaltma/biçimlendirme JSX tarafında yapılır. Eksik dosyada count=null, status='missing'.",
   "sources": {
     "yaqut": {
-      "count": 12954,
+      "count": 12935,
       "detail": {
         "unit": "yer"
       },
       "files": [
-        "web/public/data/yaqut_lite.json"
+        "web/public/view-data/yaqut_lite.json"
       ],
       "status": "ok"
     },
     "alam": {
-      "count": 13940,
+      "count": 13844,
       "detail": {
         "unit": "biyografi"
       },
       "files": [
-        "web/public/data/alam_lite.json"
+        "web/public/view-data/alam_lite.json"
       ],
       "status": "ok"
     },
     "dia": {
-      "count": 8528,
+      "count": 8491,
       "detail": {
         "unit": "madde"
       },
       "files": [
-        "web/public/data/dia_lite.json"
+        "web/public/view-data/dia_lite.json"
       ],
       "status": "ok"
     },
     "ei1": {
-      "count": 7568,
+      "count": 7538,
       "detail": {
         "unit": "madde"
       },
       "files": [
-        "web/public/data/ei1_lite.json"
+        "web/public/view-data/ei1_lite.json"
       ],
       "status": "ok"
     },
@@ -181,12 +181,9 @@
     }
   },
   "source_files": [
-    "web/public/data/alam_lite.json",
     "web/public/data/city-atlas/cairo.json",
     "web/public/data/city-atlas/konya.json",
     "web/public/data/darpislam_lite.json",
-    "web/public/data/dia_lite.json",
-    "web/public/data/ei1_lite.json",
     "web/public/data/evliya_atlas_layer.json",
     "web/public/data/ibn_battuta_atlas_layer.json",
     "web/public/data/le_strange_eastern_caliphate.json",
@@ -194,8 +191,11 @@
     "web/public/data/muqaddasi_atlas_layer.json",
     "web/public/data/salibiyyat_atlas_layer.json",
     "web/public/data/science_layer.json",
-    "web/public/data/yaqut_lite.json",
     "web/public/reading/core_shelf.json",
+    "web/public/view-data/alam_lite.json",
+    "web/public/view-data/dia_lite.json",
+    "web/public/view-data/ei1_lite.json",
+    "web/public/view-data/yaqut_lite.json",
     "web/src/data/db.json"
   ]
 }

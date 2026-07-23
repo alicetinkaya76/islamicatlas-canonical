@@ -138,12 +138,16 @@ export default function CityAtlasSidebar({
           {filtered.length !== data.length && ` / ${data.length}`}
         </h3>
         <ul className="ca-list">
-          {filtered.map((r) => {
+          {filtered.map((r, i) => {
             const catCfg = city.categories[r.category] || {};
             const dateStr = getDateStr(r);
             return (
               <li
-                key={r.id}
+                /* H24: konya.json'da id benzersiz değil ('kp_beyşehi_r_gölü_2'
+                   3 kayıtta — koordinatsız, farklı dönem). Kaynak v1 symlink'i
+                   olduğundan veriye dokunmadan indeksle benzersizleştiriyoruz
+                   → React "aynı key" uyarısı çözülür. */
+                key={`${r.id}-${i}`}
                 className={`ca-list-item ${selectedId === r.id ? 'selected' : ''}`}
                 onClick={() => onSelect(r)}
               >

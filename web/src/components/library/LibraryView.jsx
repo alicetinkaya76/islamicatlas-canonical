@@ -101,9 +101,13 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
     const key = `${book.pidnum}:${secIdx}`;
     if (secCache.current[key]) { setSection(secCache.current[key]); return; }
     setSection(null);
+    /* H24: bölüm fetch'i guard'sızdı — bozuk/eksik sec dosyası kalıcı
+       "Bölüm yükleniyor…" kilidine sokuyordu. r.ok kontrolü + .catch ile
+       hata durumunda kilit yerine boş-bölüm mesajı gösterilir. */
     fetch(`/reading/${book.pidnum}/sec_${String(secIdx).padStart(4, '0')}.json`)
-      .then((r) => r.json())
-      .then((s) => { secCache.current[key] = s; setSection(s); readerRef.current?.scrollTo(0, 0); });
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`sec ${r.status}`))))
+      .then((s) => { secCache.current[key] = s; setSection(s); readerRef.current?.scrollTo(0, 0); })
+      .catch(() => setSection({ paras: [], _error: true }));
   }, [book, secIdx]);
 
   /* H17 S4: bölüm yüklenince bekleyen sayfa-çapasına kaydır + kısa vurgu.
@@ -511,6 +515,7 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
         </div>
         )}
         {mode === 'text' && !section && <div style={{ opacity: .6, textAlign: 'center', padding: 40 }}>{tr ? 'Bölüm yükleniyor…' : 'Loading…'}</div>}
+        {mode === 'text' && section && section._error && <div style={{ opacity: .7, textAlign: 'center', padding: 40 }}>{tr ? 'Bu bölüm yüklenemedi (dosya eksik olabilir). Başka bir bölüm seçin.' : 'This section could not be loaded.'}</div>}
         {mode === 'text' && section && section.paras.map((p, i) => (
           <p key={i} id={p.p ? `para-${p.p}` : undefined} dir="rtl" style={{ fontFamily: "'Amiri','Scheherazade New',serif", fontSize: 19, lineHeight: 2.05, margin: '0 0 14px', textAlign: 'justify' }}>
             {p.p && (
