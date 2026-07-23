@@ -40,7 +40,7 @@ const CERT_GROUP = {
 /* ═══ Main component ═══ */
 function MuqaddasiViewInner({ lang, initialSearch }) {
   const tr = MUQ_T[lang] || MUQ_T.tr;
-  const { data: rawData, loading, error } = useAsyncData('/data/muqaddasi_atlas_layer.json');
+  const { data: rawData, loading, error } = useAsyncData('/view-data/muqaddasi_atlas_layer.json');
 
   const places = useMemo(() => rawData?.places || [], [rawData]);
   const routes = useMemo(() => rawData?.routes || [], [rawData]);

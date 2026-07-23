@@ -46,7 +46,7 @@ export default function DiaView({ lang, t: tProp, initialSearch, initialSlug }) 
   const td = t.dia || {};
 
   const isMobile = typeof window !== 'undefined' && window.innerWidth <= 768;
-  const { data: DIA_LITE, loading: dataLoading, error: dataError } = useAsyncData('/data/dia_lite.json');
+  const { data: DIA_LITE, loading: dataLoading, error: dataError } = useAsyncData('/view-data/dia_lite.json');
   const { data: DIA_REL } = useAsyncData(isMobile ? null : '/data/dia_relations.json');
   const { data: DIA_WORKS } = useAsyncData(isMobile ? null : '/data/dia_works.json');
   const { data: DIA_TRAVEL } = useAsyncData(isMobile ? null : '/data/dia_travel.json');

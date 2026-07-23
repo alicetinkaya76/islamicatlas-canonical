@@ -13,7 +13,7 @@ import './evliya.css';
 
 const EvliyaDashboard = lazy(() => import('./EvliyaDashboard'));
 
-const EVLIYA_DATA_URL = '/data/evliya_atlas_layer.json';
+const EVLIYA_DATA_URL = '/view-data/evliya_atlas_layer.json';
 const SEARCH_DEBOUNCE_MS = 250;
 
 /**

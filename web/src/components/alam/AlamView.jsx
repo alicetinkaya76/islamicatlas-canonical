@@ -57,7 +57,7 @@ export default function AlamView({ lang, t: tProp, initialSearch, initialId }) {
   const ta = t.alam || {};
 
   /* ═══ Async data ═══ */
-  const { data: ALAM_LITE, loading: dataLoading, error: dataError } = useAsyncData('/data/alam_lite.json');
+  const { data: ALAM_LITE, loading: dataLoading, error: dataError } = useAsyncData('/view-data/alam_lite.json');
 
   /* ═══ Derived lookups (recomputed only when data changes) ═══ */
   const ALAM_BY_ID = useMemo(() => ALAM_LITE ? buildLookup(ALAM_LITE) : {}, [ALAM_LITE]);
