@@ -29,7 +29,11 @@ else
   echo "  ✓ $COUNT kayıt yüklü"
 fi
 
-echo "▸ 3/3  Web arayüzü başlatılıyor…"
+echo "▸ 3/4  Görünüm verisi canonical'dan üretiliyor (H23; ~5 sn)…"
+python3 pipelines/frontend/build_view_data.py --view all | sed 's/^/  /'
+echo "  ✓ web/public/view-data/ güncel (eski görünümler artık merkezî defterden)"
+
+echo "▸ 4/4  Web arayüzü başlatılıyor…"
 echo ""
 echo "  ►►►  http://localhost:3000  ◄◄◄"
 echo ""
