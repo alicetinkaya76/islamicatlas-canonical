@@ -29,7 +29,7 @@ export default function Ei1View({ lang, t: tProp, initialSearch, initialId }) {
   const t = tProp || T[lang];
   const te = t.ei1 || {};
 
-  const { data: EI1_LITE, loading, error } = useAsyncData('/data/ei1_lite.json');
+  const { data: EI1_LITE, loading, error } = useAsyncData('/view-data/ei1_lite.json');
   const { data: EI1_WORKS } = useAsyncData('/data/ei1_works.json');
   const { data: EI1_REL } = useAsyncData('/data/ei1_relations.json');
   const { data: EI1_GEO } = useAsyncData('/data/ei1_geo.json');

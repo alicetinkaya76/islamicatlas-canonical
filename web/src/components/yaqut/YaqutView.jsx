@@ -44,7 +44,10 @@ function buildStats(data) {
 
 function YaqutViewInner({ lang, t, initialSearch }) {
   const ty = t.yaqut || {};
-  const { data: YAQUT_LITE, loading: dataLoading, error: dataError } = useAsyncData('/data/yaqut_lite.json');
+  /* H23 veri akışı birleşmesi: canonical'dan türetilen görünüm dosyası
+     (build_view_data.py). Emekli/merge kayıtlar düşer, düzeltmeler yansır;
+     v1 kürasyon zenginliği (gt/tg/hp/ct) korunur. Şema birebir aynı. */
+  const { data: YAQUT_LITE, loading: dataLoading, error: dataError } = useAsyncData('/view-data/yaqut_lite.json');
 
   const YAQUT_BY_ID = useMemo(() => YAQUT_LITE ? buildLookup(YAQUT_LITE) : {}, [YAQUT_LITE]);
   const TOP_GEO_TYPES = useMemo(() => YAQUT_LITE ? extractTopGeoTypes(YAQUT_LITE) : [], [YAQUT_LITE]);

@@ -35,3 +35,6 @@ emit-collection:
 
 upsert-live:
 	python3 pipelines/search/upsert.py
+
+view-data:
+	python3 pipelines/frontend/build_view_data.py --view all
