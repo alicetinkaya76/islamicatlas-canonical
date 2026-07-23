@@ -238,4 +238,19 @@ const SCHOLAR_LINKS = [
   { source:315, target:3,   type:'isnad' },  // Süfyân b. Uyeyne → Şâfiî
   { source:315, target:4,   type:'isnad' },  // Süfyân b. Uyeyne → Ahmed
 ];
-export default SCHOLAR_LINKS;
+
+/* H24: hayalet-uçlu link temizliği. 3 kaynak-id (14, 23, 28, 31, 33)
+   db.json scholars dizisinde HİÇ YOK (dizinin kendi boşlukları) — bu id'lere
+   işaret eden 8 link ölü. ScholarNetwork zaten guard'lıydı ama kenar sessizce
+   kaybolup ağın kopuk görünmesine katkı veriyordu. Export noktasında db.json'a
+   karşı doğrulanır → geçersiz uçlu linkler bir daha sızmaz; konsola sayı düşer. */
+import DB from './db.json';
+const _validIds = new Set(DB.scholars.map((s) => s.id));
+const _clean = SCHOLAR_LINKS.filter(
+  (l) => _validIds.has(l.source) && _validIds.has(l.target));
+if (_clean.length !== SCHOLAR_LINKS.length) {
+  console.info(
+    `[scholar_links] ${SCHOLAR_LINKS.length - _clean.length} hayalet-uçlu link elendi ` +
+    `(db.json'da olmayan âlim id'si); ${_clean.length} geçerli link.`);
+}
+export default _clean;

@@ -297,11 +297,12 @@ export default function SearchBar({ lang, onFlyTo, onSelectEntity }) {
   const inputRef = useRef(null);
 
   // Lazy-load alam data — search works immediately with DB data, alam entries arrive later
-  const { data: alamData } = useAsyncData('/data/alam_lite.json');
+  const { data: alamData } = useAsyncData('/view-data/alam_lite.json');
   /* H18 S4: kaynak kapları İLK odakta yüklenir (sayfa yükünü şişirmez) */
   const [sourcesArmed, setSourcesArmed] = useState(false);
-  const { data: yaqutData } = useAsyncData(sourcesArmed ? '/data/yaqut_lite.json' : null);
-  const { data: muqData } = useAsyncData(sourcesArmed ? '/data/muqaddasi_atlas_layer.json' : null);
+  const { data: yaqutData } = useAsyncData(sourcesArmed ? '/view-data/yaqut_lite.json' : null);
+  const { data: muqData } = useAsyncData(sourcesArmed ? '/view-data/muqaddasi_atlas_layer.json' : null);
+  /* H24: khitat/science henüz canonical'a bağlanmadı (H23'te 6 görünüm); /data kalır — tutarlı. */
   const { data: khitatData } = useAsyncData(sourcesArmed ? '/data/maqrizi_khitat_atlas_layer.json' : null);
   const { data: scienceData } = useAsyncData(sourcesArmed ? '/data/science_layer.json' : null);
 
