@@ -1,4 +1,4 @@
-export default function CityAtlasDetail({ record: r, city, lang, getName, getCat, onClose }) {
+export default function CityAtlasDetail({ record: r, city, lang, getName, getCat, onClose, onReadInBook }) {
   // ── Multilingual content helper ──
   const ml = (fieldBase, record) => {
     if (lang === "en") return record[fieldBase + "_en"] || record[fieldBase] || "";
@@ -62,6 +62,21 @@ export default function CityAtlasDetail({ record: r, city, lang, getName, getCat
       </header>
 
       <div className="ca-detail-body">
+        {/* ── H25 ters köprü: kayıt kitaptan türediyse kaynak bölüme git ── */}
+        {onReadInBook && r._sec != null && (
+          <button
+            onClick={() => onReadInBook(r)}
+            style={{
+              width: '100%', margin: '2px 0 12px', padding: '8px 12px',
+              borderRadius: 8, border: '1px solid var(--gold, #c9a84c)',
+              background: 'rgba(201,168,76,0.12)', color: 'var(--gold, #c9a84c)',
+              cursor: 'pointer', fontSize: '0.8rem', fontWeight: 600,
+              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6,
+            }}
+          >
+            📖 {t('Kitapta oku', 'Read in the book', 'اقرأ في الكتاب')} §{r._sec}
+          </button>
+        )}
         {/* ── Tarih ── */}
         {(r.dates?.founding_hijri || r.dates?.founding_miladi) && (
           <section className="ca-detail-section">

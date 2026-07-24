@@ -6,7 +6,7 @@ import CityAtlasDetail from './CityAtlasDetail';
 import CityAtlasLegend from './CityAtlasLegend';
 import './cityAtlas.css';
 
-export default function CityAtlasView({ lang: propLang, onClose, initialSearch, embedded = false, lockCityId = null }) {
+export default function CityAtlasView({ lang: propLang, onClose, initialSearch, embedded = false, lockCityId = null, onReadInBook = null }) {
   // ── City selection ──
   // H25 dilim-2: gömülü modda (Kitap Kabı içinde) tek şehre kilitlenir;
   // şehir seçici gizlenir, "✕" kapatma "metne dön" olur.
@@ -247,6 +247,16 @@ export default function CityAtlasView({ lang: propLang, onClose, initialSearch, 
             getName={getName}
             getCat={getCat}
             onClose={() => setSelectedRecord(null)}
+            /* H25 ters köprü: kitap-türevi şehir atlasında (mecca/baghdad/damascus)
+               kaydın kaynak bölümüne git. Gömülüyse parent (LibraryView) hafif
+               geçiş yapar; bağımsızsa #library derin-linkine gider. */
+            onReadInBook={(rec) => {
+              if (rec._sec == null) return;
+              if (onReadInBook) onReadInBook(rec);
+              else if (city.bookPidnum) {
+                window.location.hash = `library?book=${city.bookPidnum}&sec=${rec._sec}`;
+              }
+            }}
           />
         )}
       </div>
