@@ -41,11 +41,34 @@ mecca.json'u konya/cairo gibi okur (koordinatsız kaydı zaten zarif karşılıy
   inşa anlatısı + "وأنه بناه من خمسة أجبل في لبنان وطور وطور سينا…"). Konsol hatası yok.
 - Gate 160; mecca.json bayt-bayt deterministik.
 
-## Bu dilimde YAPILMAYAN (bilerek, sonraki adım)
-- Ezrakî'nin **tek "Kitap Kabı" yüzü** (künye/içindekiler/bağlantılar + yetenek
-  sekmeleri: Metin | Mekke Atlası | Yapılar) ve Kütüphane↔Şehir Atlası köprüsü.
-  Bu, jenerik kap bileşenidir (Dalga A); Mekke atlası önce görünür kazanç
-  olarak teslim edildi. Kullanıcı onayıyla devam.
+## Dilim-2: birleşik Kitap Kabı yüzü (kullanıcı "devam" dedi)
+Ezrakî artık TEK Kitap Kabı yüzünde açılıyor; şehir atlası kabın bir **yetenek
+sekmesi**. UI'daki kanıt (tarayıcı-doğrulamalı):
+- Okuyucu sekmeleri: **Metin | 🗺 Mekke Atlası (808) | 🗺 Kitap Haritası (221) |
+  🏛 Yapılar (808) | 📊 İstatistik** — kullanıcının önizlemesindeki sıra.
+- "🗺 Mekke Atlası" sekmesi, o cilalı CityAtlas görünümünü **kabın içine gömer**
+  (tam genişlik; bölüm-ağacı + künye sütunları o modda gizlenir); altbaşlık
+  dürüstlük notu, 109 iğne, kategori filtreleri, 808 liste hepsi çalışıyor.
+- "←" düğmesi metne döndürür. Konsol hatası yok.
+
+**Nasıl (kod, minimal + veri-güdümlü):**
+- `cityAtlasRegistry.js` mecca girişine `bookPidnum: '00001848'` — kitap↔atlas bağı.
+- `CityAtlasView.jsx`: `embedded` + `lockCityId` propları (şehir seçici gizli,
+  tek şehre kilitli, "✕"→"←" metne dön); `.city-atlas--embedded { height:100% }`.
+- `LibraryView.jsx`: `cityAtlas = REGISTRY.find(c=>c.bookPidnum===book.pidnum)`;
+  varsa `mode='cityatlas'` sekmesi + gömülü render; atlas modunda grid tek sütun,
+  yan sütunlar gizli. **Regresyon kontrolü:** şehir atlası olmayan kitap (İdrîsî)
+  bu sekmeyi GÖSTERMEZ (veri-güdümlü) — doğrulandı.
+
+**Neden LibraryView'i genişlettim, yeni bileşen yazmadım:** LibraryView zaten
+"yarı-doğmuş kap" (3 bölme + mode-sekmesi deseni); atlas'ı bir yetenek sekmesi
+olarak eklemek en az riskli ve tüm çekirdek kitaplara ölçeklenebilir yol.
+
+## Bu dilimde YAPILMAYAN (bilerek, sonraki adımlar)
+- Kap sekmelerinin `books/index.json` manifest `capabilities`'inden sürülmesi
+  (şu an mode-sekmeleri reading dosyalarının varlığından; atlas sekmesi
+  registry'den). Jenerik manifest-güdümlü kap = tüm kitaplara ölçekleme adımı.
+- Ters köprü: #cityatlas Mekke detayından "kitapta oku" derin-linki.
 - Frontend→Typesense mağaza bağlantısı (ana #map hâlâ db.json).
 
 ## Değişen dosyalar

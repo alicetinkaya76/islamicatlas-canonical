@@ -134,6 +134,10 @@ const CITY_ATLAS_REGISTRY = [
   // pipelines/frontend/build_mecca_atlas.py → view-data/city-atlas/mecca.json
   {
     id: 'mecca',
+    // H25 dilim-2: kitap↔atlas köprüsü. Bu şehir atlası Ezrakî'nin kitabından
+    // türedi (pidnum 00001848); LibraryView bu alanı görüp kitabın kabına
+    // "🗺 Şehir Atlası" yetenek sekmesi ekler → tek Kitap Kabı yüzü.
+    bookPidnum: '00001848',
     name_tr: 'Mekke Şehir Atlası',
     name_en: 'Mecca City Atlas',
     name_ar: 'أطلس مدينة مكة',

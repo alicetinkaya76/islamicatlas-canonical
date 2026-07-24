@@ -12,6 +12,11 @@
   position: relative;
 }
 
+/* H25 dilim-2: Kitap Kabı içine gömülünce tam ekran değil, kabı doldurur */
+.city-atlas--embedded {
+  height: 100%;
+}
+
 /* ── HEADER ── */
 .ca-header {
   display: flex;
