@@ -376,6 +376,7 @@ class Projector:
             "istakhri-mesalik": "istakhri-mesalik",
             "ibn-hawqal": "ibn-hawqal", "idrisi-nuzhat": "idrisi-nuzhat",
             "bakri-mucjam": "bakri-mucjam",
+            "alatli": "alatli",          # H25: Alatlı senkronik atlas füzyonu
         }
         layers: set[str] = set()
         for entry in (record.get("provenance", {}).get("derived_from") or []):
