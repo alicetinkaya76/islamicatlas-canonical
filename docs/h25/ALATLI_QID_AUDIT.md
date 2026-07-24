@@ -26,12 +26,24 @@ xref muhtemel FP (ya da store'un tarih hatası). `alatli_qid_audit.py` bunu tara
 farklı dönemli bir store kişisine yapışmış — display-gate'in ARDINDA temizlenmeyi
 bekleyen tam da bu sınıf.
 
-## Nasıl kullanılır
-- Worklist: `data/review_queue/alatli-qid-audit.jsonl` (11 çelişki) +
-  `alatli-qid-conflicts.jsonl` (2 augment-anı, Gazzâlî Q9546≠store, Cüveynî).
-- QID-temizlik oturumunda (Ali-kapılı) her satır: store xref FP mi, store tarih
-  hatası mı, yoksa adaş mı → tarihçi karar. Alatlı tarafı date-corroborated.
-- Yeniden üret: `python3 pipelines/integrity/alatli_qid_audit.py`.
+## Temizlik uygulandı — 8 quarantine, 3 tarihçide
+
+`h25_001_alatli_qid_quarantine.py` (h11_001 deseni; SİLME DEĞİL taşıma, geri
+alınabilir): **Δ≥100 yıl** olanları quarantine etti — hiçbir ömür 100+ yıl
+olmadığından (doğum/ölüm ekseni karışması dahil) aynı kişi imkânsız → kesin FP.
+
+- **8 quarantine** (Δ 199–889): Q39619/Q9458/Q194442/Q8474/Q31066/Q214559/
+  Q168776/Q2651897. Örnek doğrulama: Q39619 store "Abū 'l-Hasan 'Alī (1.)"
+  ö.1482 = bosworth 15.yy hükümdarı, Halife Ali (ö.661) DEĞİL; xref
+  `openrefine_v3` conf 0.83, note'u zaten "Manual review recommended" diyordu.
+  → `data/_state/qid_quarantine.json` (387→395), record_history'de kanıt.
+- **3 tarihçide (Δ<100)**: Abdülhak Hâmid Tarhan Δ85 (store etiketi Alatlı ile
+  BİREBİR → 1852 doğum/1937 ölüm, aynı kişi eksen-karışması, **FP DEĞİL** — dry-run
+  bunu yakaladı, eşiği 80→100 yükseltti), Ahmed Rasim Δ67, İbn Yûnus Δ51.
+- Ayrıca `alatli-qid-conflicts.jsonl` (2 augment-anı: Gazzâlî Q9546≠store Q320324,
+  Cüveynî) tarihçide — store'un QID'i mi FP yoksa adaş mı, isim-eşleşmeli.
+
+Yeniden üret: `alatli_qid_audit.py` → `h25_001_alatli_qid_quarantine.py`.
 
 ## Kapsam kazancı (bonus)
 Füzyon store QID'li kişi sayısını **412 → 559** çıkardı (+147: 53 mint + 98 augment
