@@ -125,6 +125,48 @@ const CITY_ATLAS_REGISTRY = [
       belirsiz:     { color: '#757575', label_tr: 'Bilinmiyor',          label_en: 'Unknown',            label_ar: 'غير معروف' },
     },
   },
+  // ── Mekke (Ezrakî · Ahbâru Mekke) ──
+  // H25 dikey dilim: Ezrakî'nin Mekke'si Konya/Kahire'ye KARDEŞ şehir atlası
+  // olarak eklendi. FARK: Ezrakî GÖRELİ topografya yazar (modern koordinat DEĞİL);
+  // 808 özellikten yalnız ~109'u bir canonical place'e çözülüp yaklaşık koordinat
+  // aldı, kalanı göreli tarifiyle listede. Altbaşlık bu farkı açıkça söyler ki
+  // okur Konya'nın saha-ölçümü hassasiyetiyle karıştırmasın. Veri:
+  // pipelines/frontend/build_mecca_atlas.py → view-data/city-atlas/mecca.json
+  {
+    id: 'mecca',
+    name_tr: 'Mekke Şehir Atlası',
+    name_en: 'Mecca City Atlas',
+    name_ar: 'أطلس مدينة مكة',
+    subtitle_tr: 'Ezrakî — Ahbâru Mekke · göreli topografya (Harem çevresi); konumlar yaklaşık, modern ölçüm değil',
+    subtitle_en: 'al-Azraqī — Akhbār Makka · relative topography; positions approximate, not modern survey',
+    subtitle_ar: 'الأزرقي — أخبار مكة · طوبوغرافيا نسبية؛ المواقع تقريبية لا مسحية',
+    dataFile: '/view-data/city-atlas/mecca.json',
+    center: [21.4225, 39.8262],   // Kâbe
+    defaultZoom: 12,
+    activateZoom: 10,
+    boundingBox: [[20.5, 39.0], [22.3, 40.6]],
+    recordCount: 808,
+    source: 'Ebü\'l-Velîd el-Ezrakî (ö. 250/864), Ahbâru Mekke',
+    sourceYear: '~250/864',
+    icon: '🕋',
+    color: '#B8860B',
+    categories: {
+      mosque:          { color: '#2E7D32', icon: '🕌', label_tr: 'Mescid',        label_en: 'Mosque',        label_ar: 'مسجد' },
+      house:           { color: '#8D6E63', icon: '🏠', label_tr: 'Ev / Konut',    label_en: 'House',         label_ar: 'دار' },
+      well:            { color: '#0288D1', icon: '💧', label_tr: 'Kuyu',          label_en: 'Well',          label_ar: 'بئر' },
+      mountain:        { color: '#6D4C41', icon: '🏔️', label_tr: 'Dağ',           label_en: 'Mountain',      label_ar: 'جبل' },
+      gate:            { color: '#C19A6B', icon: '🚪', label_tr: 'Kapı',          label_en: 'Gate',          label_ar: 'باب' },
+      quarter:         { color: '#00838F', icon: '🏘️', label_tr: 'Mahalle',       label_en: 'Quarter',       label_ar: 'حي' },
+      monument:        { color: '#7B1FA2', icon: '🗿', label_tr: 'Âbide / Nişan', label_en: 'Monument',      label_ar: 'معلم' },
+      marker:          { color: '#F57C00', icon: '📍', label_tr: 'İşaret Taşı',   label_en: 'Marker',        label_ar: 'علامة' },
+      boundary_marker: { color: '#BF360C', icon: '🪧', label_tr: 'Harem Sınırı',  label_en: 'Ḥaram Boundary', label_ar: 'علم الحرم' },
+      cemetery:        { color: '#546E7A', icon: '🪦', label_tr: 'Mezarlık',      label_en: 'Cemetery',      label_ar: 'مقبرة' },
+      other:           { color: '#757575', icon: '▫️', label_tr: 'Diğer',         label_en: 'Other',         label_ar: 'أخرى' },
+    },
+    periods: {
+      belirsiz: { color: '#757575', label_tr: 'Tarihsiz / Tesisî', label_en: 'Undated', label_ar: 'غير مؤرَّخ' },
+    },
+  },
 ];
 
 export default CITY_ATLAS_REGISTRY;
