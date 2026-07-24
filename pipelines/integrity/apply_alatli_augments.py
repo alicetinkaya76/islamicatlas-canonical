@@ -26,7 +26,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-SIDECAR = REPO_ROOT / "data" / "sources" / "alatli" / "_alatli_augment_pending.json"
+DEFAULT_SIDECAR = REPO_ROOT / "data" / "sources" / "alatli" / "_alatli_augment_pending.json"
 ATTRIBUTED_TO = "https://orcid.org/0000-0002-7747-6854"
 EDITION = ("Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt "
            "(Kapadokya Üniversitesi Yayınları, 2014/2021).")
@@ -54,9 +54,11 @@ def _queue(path: Path, obj: dict, dry: bool):
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--sidecar", default=str(DEFAULT_SIDECAR),
+                    help="augment sidecar yolu ({pid:[event]} formatı)")
     args = ap.parse_args()
 
-    side = json.loads(SIDECAR.read_text(encoding="utf-8"))
+    side = json.loads(Path(args.sidecar).read_text(encoding="utf-8"))
     now = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
     coll_q = REPO_ROOT / "data" / "review_queue" / "alatli-collisions.jsonl"
     conf_q = REPO_ROOT / "data" / "review_queue" / "alatli-qid-conflicts.jsonl"

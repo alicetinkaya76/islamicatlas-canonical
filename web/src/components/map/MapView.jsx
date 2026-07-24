@@ -13,6 +13,7 @@ import YearInfoPanel from './YearInfoPanel';
 import HeatmapLayer from './HeatmapLayer';
 import YearExplorer from './YearExplorer';
 import ScholarMigrationMap from './ScholarMigrationMap';
+import CanonicalLayer from './CanonicalLayer';
 import BottomSheet from '../shared/BottomSheet';
 import DB from '../../data/db.json';
 
@@ -35,6 +36,7 @@ export default function MapView({ lang, t, sidebarOpen, mapRef, onPopupOpen, onT
   const [heatmapVisible, setHeatmapVisible] = useState(false);
   const [yearExplorerOpen, setYearExplorerOpen] = useState(false);
   const [migrationVisible, setMigrationVisible] = useState(false);
+  const [canonicalVisible, setCanonicalVisible] = useState(false);   // H26: canonical olay overlay
   const [filterSheetOpen, setFilterSheetOpen] = useState(false);
   const [mapReady, setMapReady] = useState(false);
 
@@ -268,6 +270,25 @@ export default function MapView({ lang, t, sidebarOpen, mapRef, onPopupOpen, onT
           🧭 {lang === 'ar' ? 'هجرة العلماء' : lang === 'en' ? 'Migration' : 'Göç'}
         </button>
 
+        {/* ── Canonical olay katmanı toggle (H26) ── */}
+        <button
+          className="canonical-toggle"
+          onClick={() => setCanonicalVisible(p => !p)}
+          title={lang === 'en'
+            ? 'Book-derived events from the canonical store (5,618)'
+            : 'Merkezî defterden kitap-türevi olaylar (5.618)'}
+          style={{
+            position: 'absolute', top: 12, right: 390, zIndex: 1000,
+            background: canonicalVisible ? 'rgba(56,189,248,0.2)' : 'rgba(18,18,24,0.85)',
+            border: `1px solid ${canonicalVisible ? 'rgba(56,189,248,0.5)' : 'rgba(255,255,255,0.1)'}`,
+            color: canonicalVisible ? '#38bdf8' : '#a89b8c',
+            padding: '6px 10px', borderRadius: 8, cursor: 'pointer', fontSize: 12,
+            backdropFilter: 'blur(6px)', transition: 'all 0.2s',
+          }}
+        >
+          📜 {lang === 'ar' ? 'الأحداث المصدرية' : lang === 'en' ? 'Book Events' : 'Kitap Olayları'}
+        </button>
+
         {/* ── Heatmap canvas layer ── */}
         {heatmapVisible && (
           <HeatmapLayer map={mapObj.current} lang={lang} visible={heatmapVisible} />
@@ -276,6 +297,11 @@ export default function MapView({ lang, t, sidebarOpen, mapRef, onPopupOpen, onT
         {/* ── Scholar Migration layer ── */}
         {migrationVisible && (
           <ScholarMigrationMap map={mapObj.current} lang={lang} visible={migrationVisible} />
+        )}
+
+        {/* ── Canonical olay katmanı (H26; EK overlay, v1 render'ına dokunmaz) ── */}
+        {canonicalVisible && (
+          <CanonicalLayer map={mapObj.current} lang={lang} visible={canonicalVisible} />
         )}
 
         {/* ── Year Explorer modal ── */}
