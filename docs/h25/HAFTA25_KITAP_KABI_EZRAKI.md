@@ -64,11 +64,34 @@ sekmesi**. UI'daki kanıt (tarayıcı-doğrulamalı):
 "yarı-doğmuş kap" (3 bölme + mode-sekmesi deseni); atlas'ı bir yetenek sekmesi
 olarak eklemek en az riskli ve tüm çekirdek kitaplara ölçeklenebilir yol.
 
-## Bu dilimde YAPILMAYAN (bilerek, sonraki adımlar)
+## Dilim-3: ÖLÇEKLEME — tüm şehir-topografyası kitaplarına (kullanıcı "tüm kitaplara ölçekle")
+Profil: 17 çekirdek kitaptan **kind=structures olan tam 3'ü** şehir atlasına
+uygun — Ezrakî (Mekke, bitti), **Hatîb→Bağdat (632)**, **İbn Asâkir→Şam (314)**.
+Diğerleri olay/rota/bölge (şehir atlası DEĞİL; zaten uygun sekmeleri var).
+
+**Config-güdümlü üretici:** `build_mecca_atlas.py` → **`build_book_city_atlas.py`**
+(silindi/genelleştirildi). `CITIES` config'i (pidnum + city_id + id_prefix + kutu);
+yeni şehir = 1 satır. Aynı dürüst kural: yalnız bölge-kutusu içi VE geo_suspect
+OLMAYAN koordinat iğnelenir. Üretim: Mekke 808/109 · **Bağdat 632/226** ·
+**Şam 314/61**. `builder_ar` → detay panelinde "Bâni" (Mekke'ye de zenginlik
+kattı — Kâbe'nin bâni zinciri artık görünüyor). Mekke sayıları/mantığı AYNI
+(fark yalnız patron ek alanı = iyileştirme).
+
+**Registry DRY:** 22-türlü PAYLAŞILAN `BOOK_CITY_CATS` paleti (Mekke/Bağdat/Şam
+ortak; yapı türleri örtüşür) + Bağdat + Şam girişleri (bookPidnum ile).
+
+**Tarayıcı-doğrulamalı:** #cityatlas artık **Konya·Kahire·Mekke·Bağdat·Şam**;
+Bağdat gerçek Bağdat'ta (Mansûr/Kâzımiye/Rusâfe), Bağdat-özgü kategoriler
+(Mahalle 97 · Kanal 57 · Köprü 54 · Saray 53…). Kitap kabı: Hatîb→"🗺 Bağdat
+Atlası (632)", İbn Asâkir→"🗺 Şam Atlası (314)", Vâkıdî (olay kitabı)→atlas
+sekmesi YOK (veri-güdümlü, doğru). Gate 160.
+
+## Sonraki adımlar (onaya)
 - Kap sekmelerinin `books/index.json` manifest `capabilities`'inden sürülmesi
-  (şu an mode-sekmeleri reading dosyalarının varlığından; atlas sekmesi
-  registry'den). Jenerik manifest-güdümlü kap = tüm kitaplara ölçekleme adımı.
-- Ters köprü: #cityatlas Mekke detayından "kitapta oku" derin-linki.
+  (jenerik manifest-güdümlü kap; şu an atlas sekmesi registry'den, mode-sekmeleri
+  reading dosya varlığından — çalışıyor ama iki kaynak).
+- Ters köprü: #cityatlas şehir detayından "kitapta oku" derin-linki.
+- Öteki yanlış-yerleşen içerik: Vâkıdî 89 olay→#battles, İdrîsî/İstahrî rota atlası.
 - Frontend→Typesense mağaza bağlantısı (ana #map hâlâ db.json).
 
 ## Değişen dosyalar

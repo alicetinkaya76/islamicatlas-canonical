@@ -1,3 +1,35 @@
+// H25 ölçekleme: kitap-türevi şehir atlaslarının (Mekke/Bağdat/Şam) PAYLAŞILAN
+// kategori paleti. Bu şehirler ortaçağ şehir tarihlerinden (Ezrakî/Hatîb/İbn
+// Asâkir) türer; yapı türleri (reading layer `type`) örtüşür → tek palet DRY.
+// Yeni bir kitap-şehri eklenince buraya yalnız eksik tür eklenir.
+const BOOK_CITY_CATS = {
+  mosque:          { color: '#2E7D32', icon: '🕌', label_tr: 'Mescid / Cami', label_en: 'Mosque',        label_ar: 'مسجد' },
+  house:           { color: '#8D6E63', icon: '🏠', label_tr: 'Ev / Konut',    label_en: 'House',         label_ar: 'دار' },
+  well:            { color: '#0288D1', icon: '💧', label_tr: 'Kuyu',          label_en: 'Well',          label_ar: 'بئر' },
+  mountain:        { color: '#6D4C41', icon: '🏔️', label_tr: 'Dağ',           label_en: 'Mountain',      label_ar: 'جبل' },
+  gate:            { color: '#C19A6B', icon: '🚪', label_tr: 'Kapı',          label_en: 'Gate',          label_ar: 'باب' },
+  quarter:         { color: '#00838F', icon: '🏘️', label_tr: 'Mahalle',       label_en: 'Quarter',       label_ar: 'محلة' },
+  monument:        { color: '#7B1FA2', icon: '🗿', label_tr: 'Âbide / Nişan', label_en: 'Monument',      label_ar: 'معلم' },
+  marker:          { color: '#F57C00', icon: '📍', label_tr: 'İşaret Taşı',   label_en: 'Marker',        label_ar: 'علامة' },
+  boundary_marker: { color: '#BF360C', icon: '🪧', label_tr: 'Sınır Taşı',    label_en: 'Boundary',      label_ar: 'علم الحرم' },
+  cemetery:        { color: '#546E7A', icon: '🪦', label_tr: 'Mezarlık',      label_en: 'Cemetery',      label_ar: 'مقبرة' },
+  street:          { color: '#A1887F', icon: '🛣️', label_tr: 'Sokak / Cadde', label_en: 'Street',        label_ar: 'درب' },
+  canal:           { color: '#039BE5', icon: '🌊', label_tr: 'Kanal',         label_en: 'Canal',         label_ar: 'قناة' },
+  bridge:          { color: '#5D4037', icon: '🌉', label_tr: 'Köprü',         label_en: 'Bridge',        label_ar: 'جسر' },
+  palace:          { color: '#AD1457', icon: '🏰', label_tr: 'Saray',         label_en: 'Palace',        label_ar: 'قصر' },
+  market:          { color: '#EF6C00', icon: '🏪', label_tr: 'Çarşı / Pazar', label_en: 'Market',        label_ar: 'سوق' },
+  fief:            { color: '#689F38', icon: '📐', label_tr: 'İkta / Arazi',  label_en: 'Fief',          label_ar: 'قطيعة' },
+  village:         { color: '#33691E', icon: '🏡', label_tr: 'Köy',           label_en: 'Village',       label_ar: 'قرية' },
+  church:          { color: '#6A1B9A', icon: '⛪', label_tr: 'Kilise',        label_en: 'Church',        label_ar: 'كنيسة' },
+  river:           { color: '#0277BD', icon: '🏞️', label_tr: 'Nehir',         label_en: 'River',         label_ar: 'نهر' },
+  wall:            { color: '#616161', icon: '🧱', label_tr: 'Sur',           label_en: 'Wall',          label_ar: 'سور' },
+  bath:            { color: '#00897B', icon: '♨️', label_tr: 'Hamam',         label_en: 'Bath',          label_ar: 'حمّام' },
+  other:           { color: '#757575', icon: '▫️', label_tr: 'Diğer',         label_en: 'Other',         label_ar: 'أخرى' },
+};
+const BOOK_CITY_PERIODS = {
+  belirsiz: { color: '#757575', label_tr: 'Tarihsiz / Tesisî', label_en: 'Undated', label_ar: 'غير مؤرَّخ' },
+};
+
 const CITY_ATLAS_REGISTRY = [
   {
     id: 'konya',
@@ -154,22 +186,54 @@ const CITY_ATLAS_REGISTRY = [
     sourceYear: '~250/864',
     icon: '🕋',
     color: '#B8860B',
-    categories: {
-      mosque:          { color: '#2E7D32', icon: '🕌', label_tr: 'Mescid',        label_en: 'Mosque',        label_ar: 'مسجد' },
-      house:           { color: '#8D6E63', icon: '🏠', label_tr: 'Ev / Konut',    label_en: 'House',         label_ar: 'دار' },
-      well:            { color: '#0288D1', icon: '💧', label_tr: 'Kuyu',          label_en: 'Well',          label_ar: 'بئر' },
-      mountain:        { color: '#6D4C41', icon: '🏔️', label_tr: 'Dağ',           label_en: 'Mountain',      label_ar: 'جبل' },
-      gate:            { color: '#C19A6B', icon: '🚪', label_tr: 'Kapı',          label_en: 'Gate',          label_ar: 'باب' },
-      quarter:         { color: '#00838F', icon: '🏘️', label_tr: 'Mahalle',       label_en: 'Quarter',       label_ar: 'حي' },
-      monument:        { color: '#7B1FA2', icon: '🗿', label_tr: 'Âbide / Nişan', label_en: 'Monument',      label_ar: 'معلم' },
-      marker:          { color: '#F57C00', icon: '📍', label_tr: 'İşaret Taşı',   label_en: 'Marker',        label_ar: 'علامة' },
-      boundary_marker: { color: '#BF360C', icon: '🪧', label_tr: 'Harem Sınırı',  label_en: 'Ḥaram Boundary', label_ar: 'علم الحرم' },
-      cemetery:        { color: '#546E7A', icon: '🪦', label_tr: 'Mezarlık',      label_en: 'Cemetery',      label_ar: 'مقبرة' },
-      other:           { color: '#757575', icon: '▫️', label_tr: 'Diğer',         label_en: 'Other',         label_ar: 'أخرى' },
-    },
-    periods: {
-      belirsiz: { color: '#757575', label_tr: 'Tarihsiz / Tesisî', label_en: 'Undated', label_ar: 'غير مؤرَّخ' },
-    },
+    categories: BOOK_CITY_CATS,
+    periods: BOOK_CITY_PERIODS,
+  },
+  // ── Bağdat (Hatîb el-Bağdâdî · Târîhu Bağdâd) — H25 ölçekleme ──
+  {
+    id: 'baghdad',
+    bookPidnum: '00000261',
+    name_tr: 'Bağdat Şehir Atlası',
+    name_en: 'Baghdad City Atlas',
+    name_ar: 'أطلس مدينة بغداد',
+    subtitle_tr: 'Hatîb el-Bağdâdî — Târîhu Bağdâd · göreli topografya; konumlar yaklaşık, modern ölçüm değil',
+    subtitle_en: 'al-Khaṭīb al-Baghdādī — Taʾrīkh Baghdād · relative topography; positions approximate',
+    subtitle_ar: 'الخطيب البغدادي — تاريخ بغداد · طوبوغرافيا نسبية؛ المواقع تقريبية',
+    dataFile: '/view-data/city-atlas/baghdad.json',
+    center: [33.315, 44.383],
+    defaultZoom: 12,
+    activateZoom: 10,
+    boundingBox: [[32.1, 43.2], [34.5, 45.6]],
+    recordCount: 632,
+    source: 'el-Hatîb el-Bağdâdî (ö. 463/1071), Târîhu Bağdâd',
+    sourceYear: '~460/1068',
+    icon: '🏛️',
+    color: '#C9A227',
+    categories: BOOK_CITY_CATS,
+    periods: BOOK_CITY_PERIODS,
+  },
+  // ── Şam (İbn Asâkir · Târîhu Medîneti Dımaşk) — H25 ölçekleme ──
+  {
+    id: 'damascus',
+    bookPidnum: '00000228',
+    name_tr: 'Şam Şehir Atlası',
+    name_en: 'Damascus City Atlas',
+    name_ar: 'أطلس مدينة دمشق',
+    subtitle_tr: 'İbn Asâkir — Târîhu Medîneti Dımaşk · göreli topografya; konumlar yaklaşık, modern ölçüm değil',
+    subtitle_en: 'Ibn ʿAsākir — Taʾrīkh Madīnat Dimashq · relative topography; positions approximate',
+    subtitle_ar: 'ابن عساكر — تاريخ مدينة دمشق · طوبوغرافيا نسبية؛ المواقع تقريبية',
+    dataFile: '/view-data/city-atlas/damascus.json',
+    center: [33.513, 36.292],
+    defaultZoom: 12,
+    activateZoom: 10,
+    boundingBox: [[32.3, 35.1], [34.7, 37.5]],
+    recordCount: 314,
+    source: 'İbn Asâkir (ö. 571/1176), Târîhu Medîneti Dımaşk',
+    sourceYear: '~560/1165',
+    icon: '🏙️',
+    color: '#4E9A51',
+    categories: BOOK_CITY_CATS,
+    periods: BOOK_CITY_PERIODS,
   },
 ];
 
