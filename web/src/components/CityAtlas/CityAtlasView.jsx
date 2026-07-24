@@ -6,9 +6,12 @@ import CityAtlasDetail from './CityAtlasDetail';
 import CityAtlasLegend from './CityAtlasLegend';
 import './cityAtlas.css';
 
-export default function CityAtlasView({ lang: propLang, onClose, initialSearch }) {
+export default function CityAtlasView({ lang: propLang, onClose, initialSearch, embedded = false, lockCityId = null }) {
   // ── City selection ──
-  const [selectedCityId, setSelectedCityId] = useState(CITY_ATLAS_REGISTRY[0].id);
+  // H25 dilim-2: gömülü modda (Kitap Kabı içinde) tek şehre kilitlenir;
+  // şehir seçici gizlenir, "✕" kapatma "metne dön" olur.
+  const [selectedCityId, setSelectedCityId] = useState(lockCityId || CITY_ATLAS_REGISTRY[0].id);
+  useEffect(() => { if (lockCityId) setSelectedCityId(lockCityId); }, [lockCityId]);
 
   // ── Language: prop → localStorage → default 'tr' ──
   const [lang, setLang] = useState(
@@ -156,12 +159,12 @@ export default function CityAtlasView({ lang: propLang, onClose, initialSearch }
   }
 
   return (
-    <div className="city-atlas" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+    <div className={`city-atlas${embedded ? ' city-atlas--embedded' : ''}`} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
       {/* ── Header ── */}
       <header className="ca-header">
         <div className="ca-header-left">
-          {/* City Picker Tabs */}
-          {CITY_ATLAS_REGISTRY.length > 1 && (
+          {/* City Picker Tabs — gömülü modda gizli (tek şehre kilitli) */}
+          {!embedded && CITY_ATLAS_REGISTRY.length > 1 && (
             <div className="ca-city-tabs">
               {CITY_ATLAS_REGISTRY.map((c) => (
                 <button
@@ -200,9 +203,11 @@ export default function CityAtlasView({ lang: propLang, onClose, initialSearch }
           <button
             className="ca-close"
             onClick={onClose}
-            title={lang === 'en' ? 'Back to atlas' : 'Atlasa dön'}
+            title={embedded
+              ? (lang === 'en' ? 'Back to text' : 'Metne dön')
+              : (lang === 'en' ? 'Back to atlas' : 'Atlasa dön')}
           >
-            ✕
+            {embedded ? '←' : '✕'}
           </button>
         </div>
       </header>

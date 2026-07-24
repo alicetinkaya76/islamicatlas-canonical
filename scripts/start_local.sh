@@ -31,6 +31,7 @@ fi
 
 echo "▸ 3/4  Görünüm verisi canonical'dan üretiliyor (H23; ~5 sn)…"
 python3 pipelines/frontend/build_view_data.py --view all | sed 's/^/  /'
+python3 pipelines/frontend/build_mecca_atlas.py | sed 's/^/  /'   # H25: Ezrakî → Mekke şehir atlası
 echo "  ✓ web/public/view-data/ güncel (eski görünümler artık merkezî defterden)"
 
 echo "▸ 4/4  Web arayüzü başlatılıyor…"

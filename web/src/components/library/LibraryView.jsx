@@ -11,6 +11,8 @@ import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { fmtCount } from '../../data/sourceCounts';
+import CITY_ATLAS_REGISTRY from '../../data/cityAtlasRegistry';
+import CityAtlasView from '../CityAtlas/CityAtlasView';
 
 const GOLD = '#c9a84c';
 const norm = (s) =>
@@ -300,6 +302,17 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
     };
   }, [book, mentions, layerData]);
 
+  /* H25 dilim-2: bu kitabın bir şehir atlası var mı? (registry bookPidnum eşleşmesi)
+     Varsa okuyucuya "🗺 Şehir Atlası" yetenek sekmesi eklenir — kitabın metni,
+     haritası ve şehir atlası TEK Kitap Kabı yüzünde toplanır (birleşme). */
+  const cityAtlas = useMemo(
+    () => (book ? CITY_ATLAS_REGISTRY.find((c) => c.bookPidnum === book.pidnum) : null),
+    [book],
+  );
+  const caTabLabel = cityAtlas
+    ? (tr ? cityAtlas.name_tr.replace('Şehir ', '') : cityAtlas.name_en.replace('City ', ''))
+    : '';
+
   /* ═══ stil kısayolları (v1 koyu-altın dili) ═══ */
   const card = { background: 'rgba(255,255,255,.04)', border: '1px solid rgba(201,168,76,.25)', borderRadius: 10 };
   const chip = { display: 'inline-block', padding: '2px 10px', borderRadius: 999, fontSize: 11, background: 'rgba(201,168,76,.15)', color: GOLD, marginRight: 6, marginBottom: 4 };
@@ -381,8 +394,9 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
   /* ═══════════ OKUYUCU (3 sütun) ═══════════ */
   const tocEntry = book.sections[secIdx] || {};
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: '290px 1fr 280px', gap: 0, height: 'calc(100vh - 120px)', minHeight: 420 }}>
-      {/* SOL: bölüm ağacı */}
+    <div style={{ display: 'grid', gridTemplateColumns: mode === 'cityatlas' ? '1fr' : '290px 1fr 280px', gap: 0, height: 'calc(100vh - 120px)', minHeight: 420 }}>
+      {/* SOL: bölüm ağacı — atlas modunda gizli (kap tam genişlik olur) */}
+      {mode !== 'cityatlas' && (
       <aside style={{ borderRight: '1px solid rgba(201,168,76,.2)', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
         <div style={{ padding: '10px 12px' }}>
           <button onClick={() => { setBook(null); window.location.hash = 'library'; }}
@@ -412,14 +426,23 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
           {filteredToc.length > 800 && <div style={{ padding: 12, fontSize: 12, opacity: .6 }}>… {tr ? 'daraltmak için arayın' : 'search to narrow'}</div>}
         </div>
       </aside>
+      )}
 
-      {/* ORTA: okuyucu / kitap haritası */}
-      <section ref={readerRef} style={{ overflowY: 'auto', padding: '18px 34px 60px', position: 'relative' }}>
+      {/* ORTA: okuyucu / kitap haritası / şehir atlası */}
+      <section ref={readerRef} style={{ overflowY: mode === 'cityatlas' ? 'hidden' : 'auto', padding: mode === 'cityatlas' ? 0 : '18px 34px 60px', position: 'relative', display: 'flex', flexDirection: 'column' }}>
         <div style={{ display: 'flex', justifyContent: 'center', gap: 6, marginBottom: 10 }}>
           <button onClick={() => setMode('text')}
             style={{ ...chip, cursor: 'pointer', border: 'none', background: mode === 'text' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'text' ? '#0f1419' : GOLD, fontWeight: 700 }}>
             📖 {tr ? 'Metin' : 'Text'}
           </button>
+          {/* H25 dilim-2: kitabın kendi şehir atlası — kabın içinde yetenek sekmesi */}
+          {cityAtlas && (
+            <button onClick={() => setMode('cityatlas')}
+              title={tr ? 'Bu kitaptan türeyen şehir atlası' : 'City atlas derived from this book'}
+              style={{ ...chip, cursor: 'pointer', border: 'none', background: mode === 'cityatlas' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'cityatlas' ? '#0f1419' : GOLD, fontWeight: 700 }}>
+              🗺 {caTabLabel} ({cityAtlas.recordCount.toLocaleString('tr-TR')})
+            </button>
+          )}
           <button onClick={() => setMode('map')} disabled={!mentions}
             style={{ ...chip, cursor: mentions ? 'pointer' : 'default', border: 'none', background: mode === 'map' ? GOLD : 'rgba(201,168,76,.15)', color: mode === 'map' ? '#0f1419' : GOLD, fontWeight: 700, opacity: mentions ? 1 : .4 }}>
             🗺 {tr ? 'Kitap Haritası' : 'Book Map'}{mentions ? ` (${mentions.n_geocoded.toLocaleString('tr-TR')})` : ''}
@@ -443,6 +466,11 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
             </button>
           )}
         </div>
+        {mode === 'cityatlas' && cityAtlas && (
+          <div style={{ flex: 1, minHeight: 0, borderTop: '1px solid rgba(201,168,76,.2)' }}>
+            <CityAtlasView embedded lockCityId={cityAtlas.id} lang={lang} onClose={() => setMode('text')} />
+          </div>
+        )}
         {(mode === 'map' || mode === 'route' || mode === 'layer') && (
           <div ref={mapElRef} style={{ height: 'calc(100vh - 240px)', minHeight: 380, borderRadius: 10, border: '1px solid rgba(201,168,76,.3)' }} />
         )}
@@ -530,7 +558,8 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
         ))}
       </section>
 
-      {/* SAĞ: kimlik kartı */}
+      {/* SAĞ: kimlik kartı — atlas modunda gizli (kap tam genişlik) */}
+      {mode !== 'cityatlas' && (
       <aside style={{ borderLeft: '1px solid rgba(201,168,76,.2)', overflowY: 'auto', padding: '14px 14px 40px' }}>
         <div dir="rtl" style={{ fontFamily: "'Amiri',serif", fontSize: 23, color: GOLD, lineHeight: 1.45 }}>{book.title_ar}</div>
         <div style={{ fontWeight: 700, fontSize: 14, margin: '6px 0 2px' }}>{book.name_tr}</div>
@@ -622,6 +651,7 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
             : 'Text: OpenITI corpus (CC BY-NC-SA). Page anchors reference the printed edition.'}
         </div>
       </aside>
+      )}
     </div>
   );
 }

@@ -1,0 +1,47 @@
+# Alatlı — "Tarihe Yön Veren Metinler" senkronik atlas füzyonu.
+# 9 ciltlik külliyattan (Bize + Batı'ya Yön Veren Metinler) türetilmiş 677 kişi;
+# tarih-teyitli Wikidata QID + koordinat. İslami taraf canonical'a mint/augment;
+# Batı kanonu (scope kararı: karşılaştırmalı mercek) MINT EDİLMEZ → yan-tablo.
+
+adapter_id: "alatli"
+display_name: "Alatlı — Tarihe Yön Veren Metinler (senkronik atlas)"
+adapter_version: 0.1.0
+
+source_kind: secondary_scholarly
+languages: [tr, en, ar]
+license: "Kapadokya Üniversitesi Yayınları 2014/2021 — kişisel araştırma"
+
+target_namespaces: [person]
+target_phase_min: P0.2
+target_phase_max: ~
+
+extraction_method: structured_json
+
+input_paths:
+  - data/sources/alatli/main.json
+output_paths:
+  - data/canonical/person/
+
+provenance_template:
+  source_id_pattern: "alatli:{record_id}"
+  page_or_locator_pattern: "Tarihe Yön Veren Metinler, {volume}"
+  edition_or_version: "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt, Kapadokya Üniversitesi Yayınları 2014/2021"
+
+# Alatlı zaten tarih-teyitli QID taşıyor → yeni Wikidata recon YOK.
+reconciliation:
+  enabled: false
+  authorities: []
+  threshold_auto_accept: 1.0
+  threshold_review: 1.0
+  cache_path: data/cache/wikidata_reconcile.sqlite
+
+# Sidecar'lar: augment (Track A), Batı-tutulan (scope-b), QID-audit bulguları.
+sidecar_pending:
+  alatli_augment: data/sources/alatli/_alatli_augment_pending.json
+  alatli_western_held: data/sources/alatli/_alatli_western_held.json
+  alatli_qid_audit: data/sources/alatli/_alatli_qid_audit.json
+
+maintainer: https://orcid.org/0000-0002-7747-6854
+contact_for_updates: [ali.cetinkaya@selcuk.edu.tr]
+
+projection_overrides: ~
