@@ -86,11 +86,23 @@ Bağdat gerçek Bağdat'ta (Mansûr/Kâzımiye/Rusâfe), Bağdat-özgü kategori
 Atlası (632)", İbn Asâkir→"🗺 Şam Atlası (314)", Vâkıdî (olay kitabı)→atlas
 sekmesi YOK (veri-güdümlü, doğru). Gate 160.
 
+## Dilim-4: ters köprü — çift yönlü Kitap Kabı (kullanıcı "devam")
+Kap döngüsü artık iki yönlü. Şehir atlasındaki bir yapıya tıklayıp detayda
+**"📖 Kitapta oku §N"** ile o yapının kaynak bölümüne gidilir. İki yol:
+- **Gömülü** (LibraryView içi): parent hafif geçiş yapar (setMode('text')+gotoSec),
+  refetch yok.
+- **Bağımsız** (#cityatlas): `#library?book=<bookPidnum>&sec=N` derin-linki.
+Kayıtlar zaten `_sec` (kaynak bölüm) taşıyor; düğme yalnız kitap-türevi
+şehirlerde (mecca/baghdad/damascus, `city.bookPidnum` var) çıkar.
+**Tarayıcı-doğrulamalı:** Ezrakî gömülü Ebû Kubeys→§1 metne atladı; #cityatlas
+Bağdat→§1 `#library?book=00000261` gitti; Konya (kitap-türevi değil)→düğme YOK.
+0 konsol hatası. Kod: CityAtlasView `onReadInBook` propu + handler; CityAtlasDetail
+düğme; LibraryView gömülü callback.
+
 ## Sonraki adımlar (onaya)
 - Kap sekmelerinin `books/index.json` manifest `capabilities`'inden sürülmesi
   (jenerik manifest-güdümlü kap; şu an atlas sekmesi registry'den, mode-sekmeleri
   reading dosya varlığından — çalışıyor ama iki kaynak).
-- Ters köprü: #cityatlas şehir detayından "kitapta oku" derin-linki.
 - Öteki yanlış-yerleşen içerik: Vâkıdî 89 olay→#battles, İdrîsî/İstahrî rota atlası.
 - Frontend→Typesense mağaza bağlantısı (ana #map hâlâ db.json).
 

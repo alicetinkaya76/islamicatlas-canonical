@@ -468,7 +468,11 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
         </div>
         {mode === 'cityatlas' && cityAtlas && (
           <div style={{ flex: 1, minHeight: 0, borderTop: '1px solid rgba(201,168,76,.2)' }}>
-            <CityAtlasView embedded lockCityId={cityAtlas.id} lang={lang} onClose={() => setMode('text')} />
+            <CityAtlasView embedded lockCityId={cityAtlas.id} lang={lang}
+              onClose={() => setMode('text')}
+              /* H25 ters köprü: atlastaki yapıdan kaynak bölüme (gömülü = hafif,
+                 refetch yok) */
+              onReadInBook={(rec) => { if (rec._sec != null) { setMode('text'); gotoSec(rec._sec); } }} />
           </div>
         )}
         {(mode === 'map' || mode === 'route' || mode === 'layer') && (
