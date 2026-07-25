@@ -133,11 +133,16 @@ def build() -> dict:
             {"unit": "yapı", "categories": len(cats)},
             [rel(p)])
 
-    # --- cityatlas: city-atlas/*.json toplamı --------------------------------
-    city_dir = DATA / "city-atlas"
-    city_files = sorted(city_dir.glob("*.json")) if city_dir.is_dir() else []
+    # --- cityatlas: hem v1 (data/city-atlas: konya/cairo) hem kitap-türevi ----
+    # (view-data/city-atlas: mecca/baghdad/damascus) — H26 oto-uyum: yeni şehir
+    # atlası eklenince rozet build'de kendiliğinden güncellenir (yol ıraksaması
+    # kapatıldı; eskiden yalnız data/ sayılıp Mekke/Bağdat/Şam dışarıda kalıyordu).
+    city_dirs = [DATA / "city-atlas", VIEW / "city-atlas"]
+    city_files = sorted(
+        (cf for d in city_dirs if d.is_dir() for cf in d.glob("*.json")),
+        key=lambda p: p.stem)
     if not city_files:
-        sources["cityatlas"] = entry(None, None, [rel(city_dir)], "missing")
+        sources["cityatlas"] = entry(None, None, [rel(d) for d in city_dirs], "missing")
     else:
         per_city, total = {}, 0
         for cf in city_files:

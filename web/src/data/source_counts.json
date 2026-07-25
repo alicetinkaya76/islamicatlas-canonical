@@ -76,20 +76,26 @@
       "status": "ok"
     },
     "cityatlas": {
-      "count": 1384,
+      "count": 3138,
       "detail": {
         "unit": "yapı",
         "per_city": {
+          "baghdad": 632,
           "cairo": 801,
-          "konya": 583
+          "damascus": 314,
+          "konya": 583,
+          "mecca": 808
         },
         "overlap": {
           "cairo": "khitat (aynı 801 yapı)"
         }
       },
       "files": [
+        "web/public/view-data/city-atlas/baghdad.json",
         "web/public/data/city-atlas/cairo.json",
-        "web/public/data/city-atlas/konya.json"
+        "web/public/view-data/city-atlas/damascus.json",
+        "web/public/data/city-atlas/konya.json",
+        "web/public/view-data/city-atlas/mecca.json"
       ],
       "status": "ok"
     },
@@ -193,6 +199,9 @@
     "web/public/data/science_layer.json",
     "web/public/reading/core_shelf.json",
     "web/public/view-data/alam_lite.json",
+    "web/public/view-data/city-atlas/baghdad.json",
+    "web/public/view-data/city-atlas/damascus.json",
+    "web/public/view-data/city-atlas/mecca.json",
     "web/public/view-data/dia_lite.json",
     "web/public/view-data/ei1_lite.json",
     "web/public/view-data/yaqut_lite.json",

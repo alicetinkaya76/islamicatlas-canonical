@@ -1,6 +1,6 @@
 import FeedbackModal from './components/shared/FeedbackModal';
 import './styles/feedback.css';
-import { useState, useRef, useCallback, useEffect, Suspense, lazy } from 'react';
+import { useState, useRef, useCallback, useEffect, Suspense, lazy, Fragment } from 'react';
 import T from './data/i18n';
 import { fmtCount } from './data/sourceCounts';
 import LandingPage from './components/landing/LandingPage';
@@ -76,16 +76,26 @@ function NavDropdown({ label, items, activeTab, onSelect }) {
         {label} <span className="nav-dropdown-arrow">▾</span>
       </button>
       <div className="nav-dropdown-panel" role="menu">
-        {items.map(item => (
-          <button key={item.id}
-            className={`nav-dropdown-item${activeTab === item.id ? ' active' : ''}`}
-            role="menuitem"
-            onClick={() => { onSelect(item.id); setOpen(false); }}
-            onMouseEnter={() => item.preload && preloadData(item.preload)}>
-            <span className="nav-dropdown-item-icon">{item.icon}</span>
-            <span className="nav-dropdown-item-label">{item.label}</span>
-            {item.badge && <span className="nav-dropdown-item-badge">{item.badge}</span>}
-          </button>
+        {items.map((item, i) => (
+          <Fragment key={item.id}>
+            {/* Bölüm başlığı: v1 klasik kaynaklar ↔ v2 birleşik görünümler ayrımı
+                (ilk kez göründüğünde). Menüde 'ayrık kova' hissini giderir. */}
+            {item.section && item.section !== items[i - 1]?.section && (
+              <div className="nav-dropdown-section" style={{
+                padding: '6px 12px 2px', fontSize: 10, letterSpacing: '.08em',
+                textTransform: 'uppercase', opacity: .5, fontWeight: 700,
+              }}>{item.section}</div>
+            )}
+            <button
+              className={`nav-dropdown-item${activeTab === item.id ? ' active' : ''}`}
+              role="menuitem"
+              onClick={() => { onSelect(item.id); setOpen(false); }}
+              onMouseEnter={() => item.preload && preloadData(item.preload)}>
+              <span className="nav-dropdown-item-icon">{item.icon}</span>
+              <span className="nav-dropdown-item-label">{item.label}</span>
+              {item.badge && <span className="nav-dropdown-item-badge">{item.badge}</span>}
+            </button>
+          </Fragment>
         ))}
       </div>
     </div>
@@ -395,23 +405,29 @@ export default function App() {
           </button>
           <NavDropdown
             label={{ tr: '📚 Kaynaklar', en: '📚 Sources', ar: '📚 المصادر' }[lang]}
-            items={[
-              { id: 'alam', label: t.tabs.alam, badge: fmtCount('alam'), preload: '/data/alam_lite.json' },
-              { id: 'dia',  label: t.tabs.dia,  badge: fmtCount('dia'),  preload: '/data/dia_lite.json' },
-              { id: 'ei1',  label: t.tabs.ei1,  badge: fmtCount('ei1'),  preload: '/data/ei1_lite.json' },
-              { id: 'yaqut', label: t.tabs.yaqut, badge: fmtCount('yaqut'),  preload: '/data/yaqut_lite.json' },
-              { id: 'rihla', label: t.tabs.rihla || 'İbn Battûta', badge: fmtCount('rihla'), preload: '/data/ibn_battuta_atlas_layer.json' },
-              { id: 'khitat', label: t.tabs.khitat || '🏛️ el-Hıṭaṭ', badge: fmtCount('khitat'), preload: '/data/maqrizi_khitat_atlas_layer.json' },
-              { id: 'lestrange', label: t.tabs.lestrange || '🗺️ Le Strange', badge: fmtCount('lestrange'), preload: '/data/le_strange_eastern_caliphate.json' },
-              { id: 'cityatlas', label: t.tabs.cityatlas || '🏙️ Şehir Atlası', badge: fmtCount('cityatlas'), preload: '/data/city-atlas/konya.json' },
-              { id: 'darpislam', label: t.tabs.darpislam, badge: fmtCount('darpislam'), preload: '/data/darpislam_lite.json' },
-              { id: 'science', label: t.tabs.science || '🔬 Bilim Atlası', badge: fmtCount('science'), preload: '/data/science_layer.json' },
-              { id: 'salibiyyat', label: t.tabs.salibiyyat || '⚔️ Salibiyyât', badge: fmtCount('salibiyyat'), preload: '/data/salibiyyat_atlas_layer.json' },
-              { id: 'evliya', label: t.tabs.evliya || '🐫 Evliyâ Çelebi', badge: fmtCount('evliya'), preload: '/data/evliya_atlas_layer.json' },
-              { id: 'muqaddasi', label: t.tabs.muqaddasi || '📐 Makdisî', badge: fmtCount('muqaddasi'), preload: '/data/muqaddasi_atlas_layer.json' },
-              { id: 'visits', label: { tr: '🧭 Seyahatnâmeler', en: '🧭 Travel Accounts', ar: '🧭 الرحلات' }[lang] },
-              { id: 'library', label: { tr: '📖 Kütüphane (Çekirdek Külliyat)', en: '📖 Library (core canon)', ar: '📖 المكتبة' }[lang], badge: fmtCount('library') },
-            ]}
+            items={(() => {
+              // Bölüm etiketleri: v1 kaynak görünümleri ↔ v2 birleşik görünümler.
+              // (Kütüphane artık YALNIZ üstteki düz buton — dropdown'dan çıkarıldı,
+              //  çift-listeleme giderildi.)
+              const gV1 = { tr: 'Kaynak Görünümleri', en: 'Source Views', ar: 'عروض المصادر' }[lang];
+              const gV2 = { tr: 'Birleşik Görünümler', en: 'Unified Views', ar: 'عروض موحدة' }[lang];
+              return [
+                { id: 'alam', section: gV1, label: t.tabs.alam, badge: fmtCount('alam'), preload: '/data/alam_lite.json' },
+                { id: 'dia',  section: gV1, label: t.tabs.dia,  badge: fmtCount('dia'),  preload: '/data/dia_lite.json' },
+                { id: 'ei1',  section: gV1, label: t.tabs.ei1,  badge: fmtCount('ei1'),  preload: '/data/ei1_lite.json' },
+                { id: 'yaqut', section: gV1, label: t.tabs.yaqut, badge: fmtCount('yaqut'),  preload: '/data/yaqut_lite.json' },
+                { id: 'rihla', section: gV1, label: t.tabs.rihla || 'İbn Battûta', badge: fmtCount('rihla'), preload: '/data/ibn_battuta_atlas_layer.json' },
+                { id: 'khitat', section: gV1, label: t.tabs.khitat || '🏛️ el-Hıṭaṭ', badge: fmtCount('khitat'), preload: '/data/maqrizi_khitat_atlas_layer.json' },
+                { id: 'lestrange', section: gV1, label: t.tabs.lestrange || '🗺️ Le Strange', badge: fmtCount('lestrange'), preload: '/data/le_strange_eastern_caliphate.json' },
+                { id: 'darpislam', section: gV1, label: t.tabs.darpislam, badge: fmtCount('darpislam'), preload: '/data/darpislam_lite.json' },
+                { id: 'science', section: gV1, label: t.tabs.science || { tr: '🔬 Bilim Atlası', en: '🔬 Science Atlas', ar: '🔬 أطلس العلوم' }[lang], badge: fmtCount('science'), preload: '/data/science_layer.json' },
+                { id: 'salibiyyat', section: gV1, label: t.tabs.salibiyyat || '⚔️ Salibiyyât', badge: fmtCount('salibiyyat'), preload: '/data/salibiyyat_atlas_layer.json' },
+                { id: 'evliya', section: gV1, label: t.tabs.evliya || '🐫 Evliyâ Çelebi', badge: fmtCount('evliya'), preload: '/data/evliya_atlas_layer.json' },
+                { id: 'muqaddasi', section: gV1, label: t.tabs.muqaddasi || '📐 Makdisî', badge: fmtCount('muqaddasi'), preload: '/data/muqaddasi_atlas_layer.json' },
+                { id: 'cityatlas', section: gV2, label: t.tabs.cityatlas || { tr: '🏙️ Şehir Atlası', en: '🏙️ City Atlas', ar: '🏙️ أطلس المدن' }[lang], badge: fmtCount('cityatlas'), preload: '/data/city-atlas/konya.json' },
+                { id: 'visits', section: gV2, label: { tr: '🧭 Seyahatnâmeler', en: '🧭 Travel Accounts', ar: '🧭 الرحلات' }[lang] },
+              ];
+            })()}
             activeTab={tab}
             onSelect={selectTab}
           />
@@ -476,6 +492,10 @@ export default function App() {
               <button role="tab" aria-selected={tab === 'salibiyyat'} className={`tab${tab === 'salibiyyat' ? ' active' : ''}`} onClick={() => selectTab('salibiyyat')} onMouseEnter={() => preloadData('/data/salibiyyat_atlas_layer.json')}>{"⚔️ " + (t.tabs.salibiyyat || "Salibiyyât")}</button>
               <button role="tab" aria-selected={tab === 'evliya'} className={`tab${tab === 'evliya' ? ' active' : ''}`} onClick={() => selectTab('evliya')} onMouseEnter={() => preloadData('/data/evliya_atlas_layer.json')}>{"🐫 " + (t.tabs.evliya || "Evliyâ Çelebi")}</button>
               <button role="tab" aria-selected={tab === 'muqaddasi'} className={`tab${tab === 'muqaddasi' ? ' active' : ''}`} onClick={() => selectTab('muqaddasi')} onMouseEnter={() => preloadData('/data/muqaddasi_atlas_layer.json')}>{"📐 " + (t.tabs.muqaddasi || "Makdisî")}</button>
+              {/* H27 mobil parite: khitat/cityatlas/visits drawer'da eksikti (masaüstünde vardı) */}
+              <button role="tab" aria-selected={tab === 'khitat'} className={`tab${tab === 'khitat' ? ' active' : ''}`} onClick={() => selectTab('khitat')} onMouseEnter={() => preloadData('/data/maqrizi_khitat_atlas_layer.json')}>{t.tabs.khitat || '🏛️ el-Hıṭaṭ'}</button>
+              <button role="tab" aria-selected={tab === 'cityatlas' ? true : undefined} className={`tab${tab === 'cityatlas' ? ' active' : ''}`} onClick={() => selectTab('cityatlas')} onMouseEnter={() => preloadData('/data/city-atlas/konya.json')}>{t.tabs.cityatlas || { tr: '🏙️ Şehir Atlası', en: '🏙️ City Atlas', ar: '🏙️ أطلس المدن' }[lang]}</button>
+              <button role="tab" aria-selected={tab === 'visits' ? true : undefined} className={`tab${tab === 'visits' ? ' active' : ''}`} onClick={() => selectTab('visits')}>{{ tr: '🧭 Seyahatnâmeler', en: '🧭 Travel Accounts', ar: '🧭 الرحلات' }[lang]}</button>
               <button role="tab" aria-selected={tab === 'library'} className={`tab${tab === 'library' ? ' active' : ''}`} onClick={() => selectTab('library')}>{"📚 " + (t.tabs.library || (lang === 'en' ? 'Library' : 'Kütüphane'))}</button>
             </div>
             <button className="quiz-trigger" onClick={() => setQuizOpen(true)}
