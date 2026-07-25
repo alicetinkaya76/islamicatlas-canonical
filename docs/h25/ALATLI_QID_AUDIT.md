@@ -26,7 +26,19 @@ xref muhtemel FP (ya da store'un tarih hatası). `alatli_qid_audit.py` bunu tara
 farklı dönemli bir store kişisine yapışmış — display-gate'in ARDINDA temizlenmeyi
 bekleyen tam da bu sınıf.
 
-## Temizlik uygulandı — 8 quarantine, 3 tarihçide
+## GENİŞLETME: bir QID birden çok FP-taşıyıcıda
+
+İlk audit QID başına yalnız İLK store kaydını taradı → eksikti. Canlı test bunu
+yakaladı: Q39619 (Halife Ali) **6 farklı** store kişisinde (966/982/1121/1482/
+1485/1732 — hiçbiri ~661 değil), Q9458 (Muhammed) benzer. Audit store-taraflı
+iterasyona çevrildi (`alatli_qid_audit.py`): HER taşıyıcı ayrı denetlenir.
+**Ad-eşleşmesi güvenilir DEĞİL** — store "'Alī" ö.1121 + Ali QID = ad aynı ama
+FARKLI Ali (yaygın ad). Δ≥100 tek ayraç: hiçbir ömür 100+y değil → aynı kişi
+imkânsız, ad ne olursa olsun. Cerrahi kanıt: Q8011'de "Al-Razi ö.925" FP çıktı,
+"İbn Sînâ ö.1037" DOĞRU korundu. **Toplam 34 FP-QID temizlendi** (8+26),
+qid_quarantine 387→421. Q39619/Q9458 artık 0 taşıyıcı.
+
+## Temizlik uygulandı — Δ≥100 quarantine, Δ<100 tarihçide
 
 `h25_001_alatli_qid_quarantine.py` (h11_001 deseni; SİLME DEĞİL taşıma, geri
 alınabilir): **Δ≥100 yıl** olanları quarantine etti — hiçbir ömür 100+ yıl
