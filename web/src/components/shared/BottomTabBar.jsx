@@ -10,6 +10,8 @@ const PRIMARY_TABS = [
 
 const SECONDARY_TABS = [
   { id: 'library',    icon: '📖', tr: 'Kütüphane',      en: 'Library',       ar: 'المكتبة' },
+  // H27: #visits (Seyahatnâmeler) hiçbir mobil navda yoktu → mobilde erişilemezdi.
+  { id: 'visits',     icon: '🧭', tr: 'Seyahatnâmeler', en: 'Travel Accounts', ar: 'الرحلات' },
   { id: 'rihla',      icon: '🧭', tr: 'İbn Battûta',    en: 'Ibn Battuta',   ar: 'ابن بطوطة' },
   { id: 'evliya',     icon: '🐫', tr: 'Evliyâ Çelebi',  en: 'Evliya Çelebi', ar: 'أوليا جلبي' },
   { id: 'muqaddasi',  icon: '📐', tr: 'Makdisî',        en: 'al-Muqaddasī',  ar: 'المقدسي' },
