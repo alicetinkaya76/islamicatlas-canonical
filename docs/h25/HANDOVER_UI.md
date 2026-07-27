@@ -44,9 +44,10 @@ Bu, deprecated 6 mint'i −100'e çeker ve 34 quarantine'i yansıtır.
 Metinler (Alatlı)" görünür, 234 kayıt süzer). Hardcoded liste kullanıyorsan
 `source_layer: alatli` değerini ekle.
 
-### 3. Deprecated 6 mint gizlensin
+### 3. Deprecated 7 mint gizlensin
 Aşırı-mint dedup'ı (ad-sırası farkı yüzünden resolver kaçırmıştı): Bolayır,
-Bayburtlu Zihni, Grunebaum, Ziya Gökalp, Louis Bazin, Fatma Aliye → her biri
+Bayburtlu Zihni, Grunebaum, Ziya Gökalp, Louis Bazin, Fatma Aliye, İbn Mahled
+Sâid → her biri
 `provenance.deprecated=true` + `deprecated_in_favor_of=<mevcut pid>` (projector
 −100). H23'teki **27 EI-1 hayaleti gibi** — `build_view_data` deprecated'ı zaten
 filtreliyorsa otomatik düşer; değilse aynı filtreyi uygula. QID'leri mevcut
