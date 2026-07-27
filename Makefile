@@ -40,3 +40,4 @@ view-data:
 	python3 pipelines/frontend/build_view_data.py --view all
 	python3 pipelines/frontend/build_book_city_atlas.py
 	python3 pipelines/frontend/build_canonical_map_layer.py
+	python3 pipelines/frontend/build_canonical_overview.py
