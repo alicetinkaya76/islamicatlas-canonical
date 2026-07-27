@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import * as d3 from 'd3';
 import DB from '../../data/db.json';
 import CANONICAL from '../../data/canonical_overview.json';
+import SynchronicStrips from './SynchronicStrips';
 import { REL_C, ZONE_C, LINK_COL } from '../../config/colors';
 import { ERA_BANDS } from '../../config/eras';
 import { n, lf } from '../../hooks/useEntityLookup';
@@ -17,6 +18,10 @@ export default function TimelineView({ lang, t }) {
   const [showRulers, setShowRulers] = useState(false);
   const [showCausal, setShowCausal] = useState(true);
   const [showCanonical, setShowCanonical] = useState(false);   // H28: canonical olay yoğunluğu (ek katman)
+  /* H30: görünüm modu — 'dynasties' (v1 hanedan çizelgesi, varsayılan) |
+     'synchronic' (Alatlı Doğu↔Batı şeritleri). Ayrı SEKME açmak yerine mod:
+     App.jsx fan-out'u (VALID_TABS/nav/dispatch/i18n/mobil) hiç dokunulmaz. */
+  const [viewMode, setViewMode] = useState('dynasties');
   const [zoom, setZoom] = useState(1);
   const [tooltip, setTooltip] = useState(null);
   const [selectedEra, setSelectedEra] = useState(null);
@@ -365,6 +370,20 @@ export default function TimelineView({ lang, t }) {
   return (
     <div className="tl-wrap">
       <div className="tl-toolbar">
+        {/* H30: mod seçici — hanedan çizelgesi ↔ Alatlı senkronik şeritleri */}
+        <div className="tl-grp">
+          <button className={`tl-btn${viewMode === 'dynasties' ? ' active' : ''}`}
+            onClick={() => setViewMode('dynasties')}>
+            🏛 {{ tr: 'Hanedanlar', en: 'Dynasties', ar: 'الدول' }[lang]}
+          </button>
+          <button className={`tl-btn${viewMode === 'synchronic' ? ' active' : ''}`}
+            onClick={() => setViewMode('synchronic')}
+            title={{ tr: 'Alatlı senkronik atlası — aynı tarihte Doğu ve Batı yan yana',
+                     en: 'Alatlı synchronic atlas — East and West side by side' }[lang]}>
+            ⇄ {{ tr: 'Senkronik (Doğu↔Batı)', en: 'Synchronic (East↔West)', ar: 'تزامني' }[lang]}
+          </button>
+        </div>
+        {viewMode === 'dynasties' && <>
         <div className="tl-grp">
           <span className="tl-label">{t.tl.colorBy}:</span>
           <button className={`tl-btn${colorMode === 'rel' ? ' active' : ''}`} onClick={() => setColorMode('rel')}>{t.tl.byRel}</button>
@@ -386,10 +405,14 @@ export default function TimelineView({ lang, t }) {
           <span className="tl-label">{Math.round(zoom * 100)}%</span>
           <button className="tl-btn" onClick={() => setZoom(z => Math.min(3, z + 0.25))}>🔍+</button>
         </div>
+        </>}
       </div>
-      <div className="tl-scroll">
+      {/* Hanedan çizelgesi (v1) — SVG hep DOM'da kalır ki D3 ref'i kopmasın;
+          senkronik modda gizlenir. */}
+      <div className="tl-scroll" style={viewMode === 'synchronic' ? { display: 'none' } : undefined}>
         <svg ref={svgRef} />
       </div>
+      {viewMode === 'synchronic' && <SynchronicStrips lang={lang} />}
       {tooltip && (
         <div className="tt" style={{ left: tooltip.x + 12, top: tooltip.y - 10, maxWidth: 420 }}
           dangerouslySetInnerHTML={{ __html: tooltip.html }} />
