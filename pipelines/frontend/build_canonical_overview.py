@@ -44,8 +44,37 @@ def count_active(ns: str) -> int:
     return n
 
 
+def ah_to_ce(ah: int) -> int:
+    """Hicrî → Milâdî yıl (standart astronomik yaklaşım). Tarih dönüşümü meşru
+    (coğrafi koordinat DEĞİL — o çevrilmez, bu çevrilir)."""
+    return round(ah * 0.970229 + 621.567)
+
+
+def scan_events():
+    """event namespace tek geçiş: aktif sayı + CE-ondalık histogramı.
+    Histogram, Analiz Timeline'ının canonical olay yoğunluk katmanı içindir
+    (temporal.start_ah olan aktif olaylar; CE'ye çevrilip on-yıllık kovalanır)."""
+    active = 0
+    hist = {}
+    for f in glob.glob(str(CANON / "event" / "*.json")):
+        try:
+            d = json.loads(Path(f).read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        if d.get("provenance", {}).get("deprecated"):
+            continue
+        active += 1
+        ah = (d.get("temporal") or {}).get("start_ah")
+        if isinstance(ah, (int, float)) and ah > 0:
+            decade = (ah_to_ce(int(ah)) // 10) * 10
+            hist[decade] = hist.get(decade, 0) + 1
+    # deterministik: on-yıl anahtarına göre sıralı
+    return active, {str(k): hist[k] for k in sorted(hist)}
+
+
 def build() -> dict:
-    store = {ns: count_active(ns) for ns in NAMESPACES}
+    ev_active, ev_decades = scan_events()   # event tek geçişte: sayı + histogram
+    store = {ns: (ev_active if ns == "event" else count_active(ns)) for ns in NAMESPACES}
     store_total = sum(store.values())
 
     ulema = None
@@ -67,6 +96,9 @@ def build() -> dict:
         "store": {**store, "total": store_total},
         "ulema_pool": ulema,
         "canonical_events": {"events": ce_events, "places": ce_places},
+        # Analiz Timeline'ının canonical olay yoğunluk katmanı: aktif olayların
+        # CE on-yıllık dağılımı (temporal.start_ah olanlar; AH→CE çevrilmiş).
+        "events_by_ce_decade": ev_decades,
     }
 
 

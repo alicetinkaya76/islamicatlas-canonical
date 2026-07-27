@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import * as d3 from 'd3';
 import DB from '../../data/db.json';
+import CANONICAL from '../../data/canonical_overview.json';
 import { REL_C, ZONE_C, LINK_COL } from '../../config/colors';
 import { ERA_BANDS } from '../../config/eras';
 import { n, lf } from '../../hooks/useEntityLookup';
@@ -15,6 +16,7 @@ export default function TimelineView({ lang, t }) {
   const [showScholars, setShowScholars] = useState(true);
   const [showRulers, setShowRulers] = useState(false);
   const [showCausal, setShowCausal] = useState(true);
+  const [showCanonical, setShowCanonical] = useState(false);   // H28: canonical olay yoğunluğu (ek katman)
   const [zoom, setZoom] = useState(1);
   const [tooltip, setTooltip] = useState(null);
   const [selectedEra, setSelectedEra] = useState(null);
@@ -271,6 +273,37 @@ export default function TimelineView({ lang, t }) {
       });
     }
 
+    // H28: Canonical olay yoğunluğu — CE on-yıllık dağılım (EK katman, v1
+    // çizimine dokunmaz; kitap-türevi 9k+ tarihli olayın "ne zaman" görünümü).
+    if (showCanonical && CANONICAL.events_by_ce_decade) {
+      const hist = Object.entries(CANONICAL.events_by_ce_decade)
+        .map(([d, c]) => [+d, c]).filter(([d]) => d >= 622 && d <= 1930);
+      const maxC = Math.max(1, ...hist.map(([, c]) => c));
+      // Üstte, era başlığının hemen altında kompakt band — toggle'lanınca HEMEN
+      // görünür (SVG çok uzun; alta koyarsak katlamanın altında kalır).
+      // İlk hanedan satırlarının üstüne yarı-saydam biner (opacity 0.5).
+      const bandMax = 52;
+      const bandBase = mt + 10 + bandMax;   // y: [mt+10, mt+10+bandMax]
+      const gden = svg.append('g').attr('class', 'canonical-density');
+      hist.forEach(([dec, c]) => {
+        const bx = x(dec);
+        const bw = Math.max(1.5, x(dec + 10) - x(dec) - 1);
+        const bh = (c / maxC) * bandMax;
+        gden.append('rect')
+          .attr('x', bx).attr('y', bandBase - bh)
+          .attr('width', bw).attr('height', bh)
+          .attr('fill', '#38bdf8').attr('opacity', 0.5).attr('cursor', 'pointer')
+          .on('mouseenter', ev => setTooltip({
+            x: ev.pageX, y: ev.pageY,
+            html: `<b>📜 ${dec}–${dec + 9}</b><br/><span style="color:#38bdf8">${c.toLocaleString('tr-TR')}</span> ${lang === 'en' ? 'canonical events' : 'canonical olay'}`,
+          }))
+          .on('mouseleave', () => setTooltip(null));
+      });
+      gden.append('text').attr('x', ml).attr('y', bandBase - bandMax - 4)
+        .attr('fill', '#38bdf8').attr('font-size', 11).attr('opacity', 0.85)
+        .text(lang === 'en' ? 'Canonical events (per decade)' : 'Canonical olay (on-yıllık yoğunluk)');
+    }
+
     // Scholars
     if (showScholars) {
       const lanes = 8;
@@ -327,7 +360,7 @@ export default function TimelineView({ lang, t }) {
           .on('mouseleave', () => setTooltip(null));
       });
     }
-  }, [impDyns, colorMode, showBattles, showEvents, showScholars, showRulers, showCausal, dynLinks, dynRowMap, zoom, lang, t, analyticsMap]);
+  }, [impDyns, colorMode, showBattles, showEvents, showScholars, showRulers, showCausal, showCanonical, dynLinks, dynRowMap, zoom, lang, t, analyticsMap]);
 
   return (
     <div className="tl-wrap">
@@ -340,6 +373,10 @@ export default function TimelineView({ lang, t }) {
         <div className="tl-grp">
           <button className={`tl-btn${showBattles ? ' active' : ''}`} onClick={() => setShowBattles(p => !p)}>⚔ {t.tl.battles}</button>
           <button className={`tl-btn${showEvents ? ' active' : ''}`} onClick={() => setShowEvents(p => !p)}>📜 {t.tl.events}</button>
+          <button className={`tl-btn${showCanonical ? ' active' : ''}`} onClick={() => setShowCanonical(p => !p)}
+            title={lang === 'en' ? 'Canonical book-events density (per decade)' : 'Canonical kitap-olayı yoğunluğu (on-yıllık)'}>
+            📜+ {lang === 'en' ? 'Canonical' : 'Canonical Olay'}
+          </button>
           <button className={`tl-btn${showScholars ? ' active' : ''}`} onClick={() => setShowScholars(p => !p)}>📚 {t.tl.scholars}</button>
           <button className={`tl-btn${showRulers ? ' active' : ''}`} onClick={() => setShowRulers(p => !p)}>👑 {t.m.rulers}</button>
           <button className={`tl-btn${showCausal ? ' active' : ''}`} onClick={() => setShowCausal(p => !p)}>🔗 {{ tr: 'Nedensellik', en: 'Causality', ar: '' }[lang]}</button>
