@@ -245,6 +245,29 @@ kayıtlara yansıtmak için birer idempotent koşu gerekir (hepsi journal'lı):
 güncellenmemişti. Kaynakların kendisi hâlâ dönüştürülmedi — blokör artık
 karar değil, sıra.
 
+## 3.6. Alatlı füzyonu (H25; backend YAPILDI, UI kalanı) — sahip: Claude
+
+Alev Alatlı "Tarihe Yön Veren Metinler" 9-cilt atlası (~/Desktop/alev_alatlı/
+corpus_json/) → `alatli` adapter. **Detay + UI reçetesi: `docs/h25/HANDOVER_UI.md`**
+(+ `ALATLI_QID_AUDIT.md`, `ALATLI_TELIF_KAPISI.md`).
+
+- [x] **Adapter + füzyon:** 234 kişi `source_layer=alatli` (53 mint + 181 augment);
+      registry+projector prefix_map+facets kayıtlı; integrity 0/0, şema 17/17.
+- [x] **98 tarih-teyitli QID** mevcut kişilere (display-gate ardında, reviewed:false).
+- [x] **QID audit → 34 FP quarantine** (Q39619 Halife Ali 6 yanlış taşıyıcı→0, Q9458→0;
+      store'un %33,7 FP'sine katkı; `qid_quarantine.json` 387→421). Δ≥100 kuralı;
+      ad-eşleşmesi güvenilmez dersi. Kalan Δ<100 (Abdülhak Hâmid axis-karışması vb.)
+      tarihçide.
+- [x] **7 aşırı-mint dedup** (ad-sırası farkı; provenance.deprecated + QID mevcut
+      kişiye taşındı). build_view_data deprecated'ı zaten filtreliyor → otomatik düşer.
+- [ ] **UI tazeleme (paralel H27 oturumu):** `make view-data` + `make upsert-live` —
+      dedup/quarantine SONRASI şart; Kaynak facet doğrula.
+- [ ] **Telif kapısı (yayın; §4 ile):** `source_layer=alatli` kamu CC-BY-SA dump'tan
+      ÇIKAR (İSAM deseni; olgular yayınlanabilir, seçim izne-bağlı, düzyazı store'da yok).
+- [ ] **FIRSAT — Track-3 senkronik timeline view** (Bize/Batıya yan yana zaman ekseni;
+      Batı kanonu `_alatli_western_held.json` yan-tabloda). Ref: standalone atlas
+      `timeline_standalone.html`. Opsiyonel; UI oturumunun alanı.
+
 ## 4. Faz 0.5 — yayın hazırlığı (H11+; 2-3 oturum) — sahip: Ali+Claude
 
 - [ ] **İSAM izin belge referansı** → ADR-014 §Koşul (SAHİP: ALİ — tek sert
