@@ -1,4 +1,5 @@
 import { SOURCE_COUNTS, fmtCount } from '../../data/sourceCounts';
+import CANONICAL from '../../data/canonical_overview.json';
 import { useMemo, useRef, useEffect, useCallback } from 'react';
 import * as d3 from 'd3';
 import DB from '../../data/db.json';
@@ -298,6 +299,54 @@ export default function Dashboard({ lang, t: tProp, onTabChange }) {
                 <span className="dash-stat-label">{s.label}</span>
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* CARD: Merkezî Defter (Canonical LOD store) — H28.
+            Pano artık GERÇEK mağaza ölçeğini de gösteriyor (67k+ aktif kayıt),
+            v1 kürasyonlu katmanlardan (Overview: 186 hanedan/450 âlim...) AYRI ve
+            ETİKETLİ. "450 vs 22.777 âlim" kopukluğunu Ulema Havuzu kartıyla çözer.
+            Sayılar canonical_overview.json'dan (build taraması; elle sayı yok). */}
+        <div className="dash-card dash-card-wide">
+          <h3 className="dash-card-title">
+            {{ tr: '📇 Merkezî Defter (Canonical)', en: '📇 Canonical Store', ar: '📇 السجل المركزي' }[lang]}
+          </h3>
+          <p style={{ margin: '-4px 0 10px', fontSize: 12, opacity: 0.6 }}>
+            {{ tr: `Bağlı açık veri defteri — ${CANONICAL.store.total.toLocaleString('tr-TR')} aktif kayıt (v1 kürasyonlu katmanlardan bağımsız)`,
+               en: `Linked open-data store — ${CANONICAL.store.total.toLocaleString('en-US')} active records (distinct from curated v1 layers)`,
+               ar: 'السجل المفتوح المرتبط' }[lang]}
+          </p>
+          <div className="dash-overview-grid">
+            {[
+              { icon: '👤', n: CANONICAL.store.person,      label: { tr: 'Kişi', en: 'Persons', ar: 'أشخاص' }[lang] },
+              { icon: '📍', n: CANONICAL.store.place,       label: { tr: 'Yer', en: 'Places', ar: 'أماكن' }[lang] },
+              { icon: '📕', n: CANONICAL.store.work,        label: { tr: 'Eser', en: 'Works', ar: 'أعمال' }[lang] },
+              { icon: '📜', n: CANONICAL.store.event,       label: { tr: 'Olay', en: 'Events', ar: 'أحداث' }[lang] },
+              { icon: '🏛️', n: CANONICAL.store.institution, label: { tr: 'Kurum', en: 'Institutions', ar: 'مؤسسات' }[lang] },
+              { icon: '👑', n: CANONICAL.store.dynasty,     label: { tr: 'Hanedan', en: 'Dynasties', ar: 'دول' }[lang] },
+            ].map(s => (
+              <div key={s.label} className="dash-stat">
+                <span className="dash-stat-icon">{s.icon}</span>
+                <span className="dash-stat-num"><CountUp target={s.n} /></span>
+                <span className="dash-stat-label">{s.label}</span>
+              </div>
+            ))}
+            {CANONICAL.ulema_pool && (
+              <div className="dash-stat" onClick={() => goTab('scholars')} role="button" tabIndex={0}
+                title={{ tr: 'Ulema Havuzu — tüm kişi kayıtlarının dinamik agregası', en: 'Scholar Pool — dynamic aggregate of all person records' }[lang]}>
+                <span className="dash-stat-icon">🎓</span>
+                <span className="dash-stat-num"><CountUp target={CANONICAL.ulema_pool} /></span>
+                <span className="dash-stat-label">{{ tr: 'Ulema Havuzu', en: 'Scholar Pool', ar: 'مجمع العلماء' }[lang]}</span>
+              </div>
+            )}
+            {CANONICAL.canonical_events?.events && (
+              <div className="dash-stat" onClick={() => goTab('map')} role="button" tabIndex={0}
+                title={{ tr: 'Kitap-türevi olaylar (ana haritada "Kitap Olayları" katmanı)', en: 'Book-derived events (main map "Book Events" layer)' }[lang]}>
+                <span className="dash-stat-icon">📜</span>
+                <span className="dash-stat-num"><CountUp target={CANONICAL.canonical_events.events} /></span>
+                <span className="dash-stat-label">{{ tr: 'Kitap Olayı', en: 'Book Events', ar: 'أحداث الكتب' }[lang]}</span>
+              </div>
+            )}
           </div>
         </div>
 

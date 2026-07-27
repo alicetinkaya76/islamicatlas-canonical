@@ -33,6 +33,7 @@ echo "▸ 3/4  Görünüm verisi canonical'dan üretiliyor (H23; ~5 sn)…"
 python3 pipelines/frontend/build_view_data.py --view all | sed 's/^/  /'
 python3 pipelines/frontend/build_book_city_atlas.py | sed 's/^/  /'   # H25: kitap→şehir atlasları (Mekke/Bağdat/Şam)
 python3 pipelines/frontend/build_canonical_map_layer.py | sed 's/^/  /'   # H26: ana haritaya canonical olay katmanı
+python3 pipelines/frontend/build_canonical_overview.py | sed 's/^/  /'   # H28: Pano canonical özeti
 echo "  ✓ web/public/view-data/ güncel (eski görünümler artık merkezî defterden)"
 
 echo "▸ 4/4  Web arayüzü başlatılıyor…"
