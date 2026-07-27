@@ -25,11 +25,39 @@ from __future__ import annotations
 import json
 import math
 import re
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Callable, Iterable
 
 import yaml
+
+
+_DOTTED_I = "i̇"   # "i" + COMBINING DOT ABOVE — Türkçe İ.lower() artefaktı
+
+
+def _nfc_deep(value: Any) -> Any:
+    """Projeksiyon metinlerini NFC'ye çevirir + Türkçe nokta-artefaktını onarır (H29).
+
+    ÖLÇÜM (canlı, varsayım değil): mağazada 1.567 kayıt "i"+U+0307 dizisi
+    taşıyor — Türkçe "İ" (U+0130) TÜRKÇE-DUYARSIZ `.lower()` ile küçültülünce
+    oluşan artefakt. Küçük "i+nokta"nın BİRLEŞİK hâli Unicode'da YOK, dolayısıyla
+    NFC bunu düzeltmez (indekste NFC=True olduğu hâlde bozuk kaldığı doğrulandı).
+    Etki: kelime ORTASINDAKİ artefakt token eşleşmesini kırıyor → "Fatma Aliye"
+    aramasında AKTİF kayıt bulunamıyor, yalnız emekli dublesi çıkıyordu.
+
+    Onarım DAR tutuldu: yalnız "i"+U+0307 → "i". U+0307 genel olarak silinmez,
+    çünkü bilimsel transliterasyonda anlamlı (ör. "ṁ"). Kaynak canonical
+    dosyalara DOKUNULMAZ — düzeltme yalnız arama projeksiyonundadır; kalıcı veri
+    onarımı ayrı bir iştir (bkz. docs/h29).
+    """
+    if isinstance(value, str):
+        return unicodedata.normalize("NFC", value).replace(_DOTTED_I, "i")
+    if isinstance(value, list):
+        return [_nfc_deep(v) for v in value]
+    if isinstance(value, dict):
+        return {k: _nfc_deep(v) for k, v in value.items()}
+    return value
 
 
 class ProjectorError(Exception):
@@ -65,7 +93,14 @@ class Projector:
                 ) from exc
         # Drop nulls / empties — Typesense respects optional=true
         doc = {k: v for k, v in doc.items() if v is not None and v != [] and v != ""}
-        return doc
+        # H29: Unicode NFC normalizasyonu (arama bulunabilirliği).
+        # ÖLÇÜM: mağazada 1.567 kayıt NFD (ayrışmış) formda — "İ" = i + U+0307
+        # combining dot. Kelime ORTASINDA olunca Typesense token'ı eşleşmiyordu:
+        # "Fatma Ali̇ye Hanim" NFC "Fatma Aliye" ile BULUNAMIYOR, yalnız emekli
+        # dublesi çıkıyordu (canlı doğrulandı). Normal klavye NFC üretir → indeks
+        # de NFC olmalı. Canonical kayıtlara DOKUNULMAZ (kaynak-sadakat); yalnız
+        # projeksiyon normalize edilir, görüntülenen metin karakter-eşdeğeridir.
+        return _nfc_deep(doc)
 
     def project_all(self) -> Iterable[dict]:
         """Walk data/canonical/, project every record, yield search docs."""
