@@ -1,6 +1,12 @@
 import { useState, useEffect, useMemo } from 'react';
 import CITY_ATLAS_REGISTRY from '../../data/cityAtlasRegistry';
+import { SOURCE_DETAILS } from '../../data/sourceCounts';
 import CityAtlasMap from './CityAtlasMap';
+
+// H27 oto-uyum: şehir tab rozeti artık ELLE recordCount değil, build-zamanı
+// sayımdan (source_counts.json cityatlas.per_city) beslenir → veriden ıraksamaz;
+// yeni şehir eklenince/veri değişince kendiliğinden güncellenir.
+const CITY_COUNTS = SOURCE_DETAILS.cityatlas?.per_city || {};
 import CityAtlasSidebar from './CityAtlasSidebar';
 import CityAtlasDetail from './CityAtlasDetail';
 import CityAtlasLegend from './CityAtlasLegend';
@@ -179,7 +185,7 @@ export default function CityAtlasView({ lang: propLang, onClose, initialSearch, 
                      lang === 'ar' ? c.name_ar.replace('أطلس مدينة ', '') :
                      c.name_tr.replace(' Şehir Atlası', '')}
                   </span>
-                  <span className="ca-city-tab-badge">{c.recordCount}</span>
+                  <span className="ca-city-tab-badge">{CITY_COUNTS[c.id] ?? c.recordCount}</span>
                 </button>
               ))}
             </div>
