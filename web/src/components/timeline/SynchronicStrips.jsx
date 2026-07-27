@@ -49,7 +49,7 @@ export default function SynchronicStrips({ lang = 'tr' }) {
 
   /* Şerit içi "lane" paketleme: çakışan yaşam çizgileri alt alta yığılır. */
   const packed = useMemo(() => {
-    if (!data) return { dogu: [], bati: [], lanesE: 1, lanesW: 1 };
+    if (!data) return { bize: [], batiya: [], lanesE: 1, lanesW: 1 };
     const pack = (rows) => {
       const laneEnd = [];
       const out = [];
@@ -64,16 +64,23 @@ export default function SynchronicStrips({ lang = 'tr' }) {
       });
       return { rows: out, lanes: Math.max(1, laneEnd.length) };
     };
-    const e = pack(data.dogu), b = pack(data.bati);
-    return { dogu: e.rows, bati: b.rows, lanesE: e.lanes, lanesW: b.lanes };
+    const e = pack(data.bize), b = pack(data.batiya);
+    return { bize: e.rows, batiya: b.rows, lanesE: e.lanes, lanesW: b.lanes };
   }, [data]);
 
   if (err) return <div style={{ padding: 30, opacity: .7 }}>{tr ? 'Senkronik veri bulunamadı — `python3 pipelines/frontend/build_alatli_synchronic.py` koşun.' : 'Synchronic data missing.'}</div>;
   if (!data) return <div style={{ padding: 30, opacity: .6 }}>{tr ? 'Senkronik atlas yükleniyor…' : 'Loading…'}</div>;
 
-  const LH = 7;                                   // lane yüksekliği
-  const hE = packed.lanesE * LH + 26;
-  const hW = packed.lanesW * LH + 26;
+  /* Yerleşim: 358 + 308 kayıt lane-paketlenince şerit ekranı taşırıyordu
+     (BATIYA görünmez oluyordu). Şerit başına lane TAVANI + ince lane ile İKİSİ
+     DE aynı ekranda kalır; tavanı aşan lane'ler modulo ile sarılır (çizgiler
+     üst üste binebilir — kayıt KAYBOLMAZ, tooltip/tıklama çalışır). */
+  const LH = 4;
+  const MAX_LANES = 42;
+  const lanesE = Math.min(packed.lanesE, MAX_LANES);
+  const lanesW = Math.min(packed.lanesW, MAX_LANES);
+  const hE = lanesE * LH + 26;
+  const hW = lanesW * LH + 26;
   const axisY = hE + 34;
   const H = hE + 68 + hW;
 
@@ -82,13 +89,13 @@ export default function SynchronicStrips({ lang = 'tr' }) {
     if (b != null && d != null) return year >= b && year <= d;
     return Math.abs(r.anchor_ce - year) <= 25;    // tek tarihli: ±25 yıl "çağdaş"
   };
-  const nE = packed.dogu.filter(alive).length;
-  const nW = packed.bati.filter(alive).length;
+  const nE = packed.bize.filter(alive).length;
+  const nW = packed.batiya.filter(alive).length;
 
   const strip = (rows, side, topY, color) => rows.map((r, i) => {
     const isAlive = alive(r);
     const x0 = x(r._x0), x1 = x(r._x1);
-    const yy = topY + r._lane * LH;
+    const yy = topY + (r._lane % MAX_LANES) * LH;   // tavanı aşan lane sarılır
     const wd = Math.max(2, x1 - x0);
     return (
       <rect key={`${side}-${i}`} x={x0} y={yy} width={wd} height={LH - 2} rx={1.5}
@@ -97,7 +104,9 @@ export default function SynchronicStrips({ lang = 'tr' }) {
         onMouseEnter={(ev) => setHover({ r, x: ev.clientX, y: ev.clientY, side })}
         onMouseLeave={() => setHover(null)}
         onClick={() => {
-          if (side === 'dogu') window.location.hash = `scholars?q=${encodeURIComponent(r.name)}`;
+          // H31: şerit üyeliği kanondan, tıklama hedefi VERİDEN gelir —
+          // merkezî defterde karşılığı varsa (pid) havuzda ara, yoksa Wikidata.
+          if (r.pid) window.location.hash = `scholars?q=${encodeURIComponent(r.name)}`;
           else if (r.qid) window.open(`https://www.wikidata.org/wiki/${r.qid}`, '_blank', 'noopener');
         }} />
     );
@@ -112,9 +121,9 @@ export default function SynchronicStrips({ lang = 'tr' }) {
           onChange={(e) => setYear(+e.target.value)}
           style={{ flex: 1, minWidth: 260, accentColor: GOLD }} />
         <span style={{ fontSize: 12 }}>
-          <span style={{ color: GOLD }}>▲ {tr ? 'Doğu' : 'East'} {nE}</span>
+          <span style={{ color: GOLD }}>▲ {tr ? 'Bize' : '“Bize”'} {nE}</span>
           <span style={{ opacity: .4, margin: '0 6px' }}>·</span>
-          <span style={{ color: CYAN }}>▼ {tr ? 'Batı' : 'West'} {nW}</span>
+          <span style={{ color: CYAN }}>▼ {tr ? 'Batıya' : '“Batıya”'} {nW}</span>
           <span style={{ opacity: .55, marginLeft: 6 }}>{tr ? 'çağdaş' : 'contemporaries'}</span>
         </span>
       </div>
@@ -129,12 +138,12 @@ export default function SynchronicStrips({ lang = 'tr' }) {
         ))}
 
         {/* şerit etiketleri */}
-        <text x={4} y={12} fill={GOLD} fontSize={11} fontWeight="700">▲ {tr ? 'DOĞU' : 'EAST'}</text>
-        <text x={4} y={axisY + 30} fill={CYAN} fontSize={11} fontWeight="700">▼ {tr ? 'BATI' : 'WEST'}</text>
+        <text x={4} y={12} fill={GOLD} fontSize={11} fontWeight="700">▲ {tr ? 'BİZE' : '“BIZE”'}</text>
+        <text x={4} y={axisY + 30} fill={CYAN} fontSize={11} fontWeight="700">▼ {tr ? 'BATIYA' : '“BATIYA”'}</text>
 
-        {strip(packed.dogu, 'dogu', 18, GOLD)}
+        {strip(packed.bize, 'bize', 18, GOLD)}
         <line x1={ml} x2={w - mr} y1={axisY} y2={axisY} stroke="rgba(201,168,76,.35)" />
-        {strip(packed.bati, 'bati', axisY + 36, CYAN)}
+        {strip(packed.batiya, 'batiya', axisY + 36, CYAN)}
 
         {/* seçili yıl imleci */}
         <line x1={x(year)} x2={x(year)} y1={0} y2={H - 18} stroke="#fff" strokeWidth={1.5} opacity={.75} />
@@ -143,18 +152,19 @@ export default function SynchronicStrips({ lang = 'tr' }) {
       {hover && (
         <div style={{
           position: 'fixed', left: Math.min(hover.x + 12, window.innerWidth - 260), top: hover.y + 12,
-          background: 'rgba(12,14,20,.97)', border: `1px solid ${hover.side === 'dogu' ? GOLD : CYAN}`,
+          background: 'rgba(12,14,20,.97)', border: `1px solid ${hover.side === 'bize' ? GOLD : CYAN}`,
           borderRadius: 8, padding: '7px 10px', fontSize: 12, zIndex: 3000, maxWidth: 250, pointerEvents: 'none',
         }}>
-          <div style={{ fontWeight: 700, color: hover.side === 'dogu' ? GOLD : CYAN }}>{hover.r.name}</div>
+          <div style={{ fontWeight: 700, color: hover.side === 'bize' ? GOLD : CYAN }}>{hover.r.name}</div>
           <div style={{ opacity: .8 }}>
             {hover.r.birth_ce != null ? hover.r.birth_ce : '?'} – {hover.r.death_ce != null ? hover.r.death_ce : '?'}
             {hover.r.place ? ` · ${hover.r.place}` : ''}
           </div>
           <div style={{ opacity: .55, fontSize: 11, marginTop: 3 }}>
-            {hover.side === 'dogu'
-              ? (tr ? 'Merkezî defterde kayıtlı — tıkla: havuzda ara' : 'In canonical store — click to search pool')
-              : (tr ? 'Yan-tablo (mint edilmedi) — tıkla: Wikidata' : 'Side table (not minted) — click: Wikidata')}
+            {hover.r.both && <span style={{ color: '#e0b34d' }}>{tr ? 'Her iki kanonda · ' : 'In both canons · '}</span>}
+            {hover.r.pid
+              ? (tr ? 'Merkezî defterde var — tıkla: havuzda ara' : 'In canonical store — click to search pool')
+              : (tr ? 'Defterde yok (antolojide var) — tıkla: Wikidata' : 'Not in store — click: Wikidata')}
           </div>
         </div>
       )}
@@ -162,8 +172,8 @@ export default function SynchronicStrips({ lang = 'tr' }) {
       {/* Dürüstlük + telif kapısı notu — EKRANDA */}
       <div style={{ fontSize: 11, opacity: .6, marginTop: 8, lineHeight: 1.6 }}>
         {tr
-          ? `⚠ Sayaçlar ANTOLOJİNİN SEÇİM DAĞILIMIDIR — tarihsel üretkenlik ölçüsü DEĞİL. Bir yılda "Batı 41 / Doğu 5" görmek, o çağda Batı'nın daha üretken olduğunu değil, Alatlı'nın o dönem için daha çok Batılı metin seçtiğini gösterir. · Kaynak: ${data.source}. Doğu ${data.counts.dogu} kişi merkezî defterden (pid'li); Batı ${data.counts.bati} kişi yan-tablodan — mağazaya MINT EDİLMEDİ (kapsam+telif kararı), pid taşımaz. Tarihsiz kayıtlar çizilmez. Alatlı-türevli kayıtlar araştırma sürümündedir; kamuya açık dağıtıma izin/karar gelene kadar girmez.`
-          : `⚠ Counters reflect the ANTHOLOGY'S SELECTION, not historical productivity. Source: ${data.source}. East ${data.counts.dogu} from the canonical store; West ${data.counts.bati} from a side table — not minted (scope+rights). Undated records are not drawn. Alatlı-derived records stay in the research build.`}
+          ? `⚠ “Bize” / “Batıya” ALATLI'NIN EDİTÖRYEL ÇERÇEVESİDİR — coğrafi ya da etnik bir ayrım DEĞİLDİR (antolojinin kendi terimleri: hangi metinler “bize”, hangileri “Batı'ya” yön verdi). ⚠ Sayaçlar da ANTOLOJİNİN SEÇİM DAĞILIMIDIR, tarihsel üretkenlik ölçüsü değil. · Kaynak: ${data.source}; ${data.counts.total_source_rows} kayıttan ${data.counts.undated_dropped} tanesi tarihsiz olduğu için çizilmedi. “Bize” ${data.counts.bize} · “Batıya” ${data.counts.batiya} (${data.counts.both} kayıt her iki kanonda). Bunların ${data.counts.linked_to_store}'i merkezî deftere bağlı; kalanı yalnız antolojide (inceleme kuyruğu veya kapsam dışı). Alatlı-türevli kayıtlar araştırma sürümündedir; kamuya açık dağıtıma izin/karar gelene kadar girmez.`
+          : `⚠ “Bize”/“Batıya” is Alatlı's EDITORIAL FRAME — not a geographic or ethnic division. Counters reflect the anthology's selection, not historical productivity. Source: ${data.source}; ${data.counts.undated_dropped} of ${data.counts.total_source_rows} rows undated (not drawn). ${data.counts.linked_to_store} linked to the canonical store. Alatlı-derived records stay in the research build.`}
       </div>
     </div>
   );
