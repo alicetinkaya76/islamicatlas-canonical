@@ -458,37 +458,20 @@ export default function App() {
             <div className="header-search-desktop">
               <SearchBar lang={lang} onFlyTo={handleFlyTo} onSelectEntity={handleSearchSelect} />
             </div>
+            {/* H38: çekmece artık REGISTRY'DEN TÜRER. Önceden 21 buton elle
+                yazılıydı; H33 registry'yi kurmuştu ama bu blok ondan okumuyordu
+                → ÖLÇÜLDÜ: registry 22 öğe derken çekmecede 21 vardı ve H37'nin
+                yeni sekmesi mobilde hiç görünmüyordu (H27'de kapattığımız
+                'mobilde erişilemeyen sekme' kusurunun aynısı geri gelmişti). */}
             <div className="tabs" role="tablist" aria-label={{ tr: 'Görünüm seçimi', en: 'View selection', ar: 'اختيار العرض' }[lang]}>
-              <button role="tab" aria-selected={tab === 'map'} className={`tab${tab === 'map' ? ' active' : ''}`} onClick={() => selectTab('map')}>{t.tabs.map}</button>
-              <button role="tab" aria-selected={tab === 'dashboard'} className={`tab${tab === 'dashboard' ? ' active' : ''}`} onClick={() => selectTab('dashboard')}>{t.tabs.dashboard}</button>
-              <button role="tab" aria-selected={tab === 'timeline'} className={`tab${tab === 'timeline' ? ' active' : ''}`} onClick={() => selectTab('timeline')}>{t.tabs.timeline}</button>
-              <button role="tab" aria-selected={tab === 'links'} className={`tab${tab === 'links' ? ' active' : ''}`} onClick={() => selectTab('links')}>{t.tabs.links}</button>
-              <button role="tab" aria-selected={tab === 'scholars'} className={`tab${tab === 'scholars' ? ' active' : ''}`} onClick={() => selectTab('scholars')}>{t.tabs.scholars}</button>
-              <button role="tab" aria-selected={tab === 'battles'} className={`tab${tab === 'battles' ? ' active' : ''}`} onClick={() => selectTab('battles')}>{t.tabs.battles}</button>
-              <button role="tab" aria-selected={tab === 'alam'} className={`tab${tab === 'alam' ? ' active' : ''}`} onClick={() => selectTab('alam')}
-                onMouseEnter={() => preloadData('/data/alam_lite.json')}>{t.tabs.alam}</button>
-              <button role="tab" aria-selected={tab === 'yaqut'} className={`tab${tab === 'yaqut' ? ' active' : ''}`} onClick={() => selectTab('yaqut')}
-                onMouseEnter={() => preloadData('/data/yaqut_lite.json')}>{t.tabs.yaqut}</button>
-              <button role="tab" aria-selected={tab === 'dia'} className={`tab${tab === 'dia' ? ' active' : ''}`} onClick={() => selectTab('dia')}
-                onMouseEnter={() => preloadData('/data/dia_lite.json')}>{t.tabs.dia}</button>
-              <button role="tab" aria-selected={tab === 'ei1'} className={`tab${tab === 'ei1' ? ' active' : ''}`} onClick={() => selectTab('ei1')}
-                onMouseEnter={() => preloadData('/data/ei1_lite.json')}>{t.tabs.ei1}</button>
-              <button role="tab" aria-selected={tab === 'darpislam'} className={`tab${tab === 'darpislam' ? ' active' : ''}`} onClick={() => selectTab('darpislam')}
-                onMouseEnter={() => preloadData('/data/darpislam_lite.json')}>{t.tabs.darpislam}</button>
-              <button role="tab" aria-selected={tab === 'rihla'} className={`tab${tab === 'rihla' ? ' active' : ''}`} onClick={() => selectTab('rihla')}
-                onMouseEnter={() => preloadData('/data/ibn_battuta_atlas_layer.json')}>{t.tabs.rihla || 'İbn Battûta'}</button>
-              <button role="tab" aria-selected={tab === 'lestrange'} className={`tab${tab === 'lestrange' ? ' active' : ''}`} onClick={() => selectTab('lestrange')}
-                onMouseEnter={() => preloadData('/data/le_strange_eastern_caliphate.json')}>{t.tabs.lestrange || '🗺️ Le Strange'}</button>
-              <button role="tab" aria-selected={tab === 'science'} className={`tab${tab === 'science' ? ' active' : ''}`} onClick={() => selectTab('science')}
-                onMouseEnter={() => preloadData('/data/science_layer.json')}>{'🔬 ' + (t.tabs.science || 'Bilim Atlası')}</button>
-              <button role="tab" aria-selected={tab === 'salibiyyat'} className={`tab${tab === 'salibiyyat' ? ' active' : ''}`} onClick={() => selectTab('salibiyyat')} onMouseEnter={() => preloadData('/data/salibiyyat_atlas_layer.json')}>{"⚔️ " + (t.tabs.salibiyyat || "Salibiyyât")}</button>
-              <button role="tab" aria-selected={tab === 'evliya'} className={`tab${tab === 'evliya' ? ' active' : ''}`} onClick={() => selectTab('evliya')} onMouseEnter={() => preloadData('/data/evliya_atlas_layer.json')}>{"🐫 " + (t.tabs.evliya || "Evliyâ Çelebi")}</button>
-              <button role="tab" aria-selected={tab === 'muqaddasi'} className={`tab${tab === 'muqaddasi' ? ' active' : ''}`} onClick={() => selectTab('muqaddasi')} onMouseEnter={() => preloadData('/data/muqaddasi_atlas_layer.json')}>{"📐 " + (t.tabs.muqaddasi || "Makdisî")}</button>
-              {/* H27 mobil parite: khitat/cityatlas/visits drawer'da eksikti (masaüstünde vardı) */}
-              <button role="tab" aria-selected={tab === 'khitat'} className={`tab${tab === 'khitat' ? ' active' : ''}`} onClick={() => selectTab('khitat')} onMouseEnter={() => preloadData('/data/maqrizi_khitat_atlas_layer.json')}>{t.tabs.khitat || '🏛️ el-Hıṭaṭ'}</button>
-              <button role="tab" aria-selected={tab === 'cityatlas' ? true : undefined} className={`tab${tab === 'cityatlas' ? ' active' : ''}`} onClick={() => selectTab('cityatlas')} onMouseEnter={() => preloadData('/data/city-atlas/konya.json')}>{t.tabs.cityatlas || { tr: '🏙️ Şehir Atlası', en: '🏙️ City Atlas', ar: '🏙️ أطلس المدن' }[lang]}</button>
-              <button role="tab" aria-selected={tab === 'visits' ? true : undefined} className={`tab${tab === 'visits' ? ' active' : ''}`} onClick={() => selectTab('visits')}>{{ tr: '🧭 Seyahatnâmeler', en: '🧭 Travel Accounts', ar: '🧭 الرحلات' }[lang]}</button>
-              <button role="tab" aria-selected={tab === 'library'} className={`tab${tab === 'library' ? ' active' : ''}`} onClick={() => selectTab('library')}>{"📚 " + (t.tabs.library || (lang === 'en' ? 'Library' : 'Kütüphane'))}</button>
+              {itemsFor('drawer').map((it) => (
+                <button key={it.id} role="tab" aria-selected={tab === it.id}
+                  className={`tab${tab === it.id ? ' active' : ''}`}
+                  onClick={() => selectTab(it.id)}
+                  onMouseEnter={() => it.preload && preloadData(it.preload)}>
+                  {navLabel(it, t, lang)}
+                </button>
+              ))}
             </div>
             <button className="quiz-trigger" onClick={() => setQuizOpen(true)}
               aria-label={{ tr: 'Bilgi yarışması', en: 'Knowledge quiz', ar: 'اختبار المعرفة' }[lang]}>🎓 Quiz</button>
@@ -529,13 +512,19 @@ export default function App() {
          tab === 'khitat' ? <KhitatView lang={lang} t={t} initialSearch={hashParams.search} /> :
          tab === 'lestrange' ? <LeStrangeView lang={lang} t={t} initialSearch={hashParams.search} /> :
          tab === 'salibiyyat' ? <SalibiyyatView lang={lang} t={t} initialSearch={hashParams.search} /> :
-         tab === 'cityatlas' ? <CityAtlasView lang={lang} initialSearch={hashParams.search} /> :         tab === 'evliya' ? <EvliyaView lang={lang} /> :
+         tab === 'cityatlas' ? <CityAtlasView lang={lang} initialSearch={hashParams.search} /> :
+         tab === 'evliya' ? <EvliyaView lang={lang} /> :
          tab === 'science' ? <ScienceLayerView lang={lang} /> :
          tab === 'muqaddasi' ? <MuqaddasiView lang={lang} t={t} initialSearch={hashParams.search} /> :
          tab === 'library' ? <LibraryView lang={lang} initialBook={hashParams.book} initialSec={hashParams.sec} initialP={hashParams.p} /> :
          tab === 'visits' ? <VisitsView lang={lang} />  :
          tab === 'causalreview' ? <CausalReview lang={lang} /> :
-         <CausalView lang={lang} t={t} />}
+         /* H38: 'links' ARTIK AÇIK BİR DAL. Eskiden dalı yoktu ve zincirin sonundaki
+            yakalayıcı CausalView'di — yani dalı UNUTULAN her yeni sekme sessizce
+            Nedensellik ekranını gösteriyordu. Şimdi yakalayıcı haritaya düşer ve
+            guard test dispatch'i registry ile karşılaştırır. */
+         tab === 'links' ? <CausalView lang={lang} t={t} /> :
+         <MapView lang={lang} t={t} sidebarOpen={sidebarOpen} mapRef={mapRef} onPopupOpen={recordDiscovery} onTourComplete={handleTourComplete} onCloseSidebar={() => setSidebarOpen(false)} entityRoute={entityRoute} onEntityRouteConsumed={clearEntityRoute} />}
         </Suspense>
       </main>
       <Footer lang={lang} />

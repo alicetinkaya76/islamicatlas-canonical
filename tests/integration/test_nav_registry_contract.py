@@ -54,15 +54,55 @@ def test_bottom_tab_bar_uses_registry():
             f"{name} elle listeye dönmüş — registry'den türetin")
 
 
+def _dispatch_block(app: str) -> str:
+    """Render dispatch'i (Suspense içindeki ternary zinciri) izole eder.
+
+    H38: bu izolasyon ŞART. Önceki sürüm `tab === '<id>'` ifadesini TÜM dosyada
+    arıyordu — nav butonlarının `className={...tab === 'links'...}` ifadeleri de
+    eşleştiği için test, render dalı OLMAYAN 'links'i geçirmişti (ölçüldü).
+    Yanlış ölçen guard, guard olmamaktan beterdir: yeşil yanar ve korur sanılır.
+    """
+    start = app.index("<Suspense fallback={<LazyLoader />}>")
+    return app[start:app.index("</Suspense>", start)]
+
+
 def test_every_registry_tab_has_a_render_branch():
     """Menüde olup ekranı olmayan sekme = sessiz kırık."""
-    app = APP.read_text(encoding="utf-8")
-    missing = [
-        tid for tid in _registry_ids()
-        if f"tab === '{tid}'" not in app and f"'{tid}'" not in app.split("return (")[-1]
-    ]
+    block = _dispatch_block(APP.read_text(encoding="utf-8"))
+    # 'admin' dispatch'ten ÖNCE, kendi erken-return'ünde ele alınır.
+    missing = [tid for tid in _registry_ids()
+               if tid != "admin" and f"tab === '{tid}'" not in block]
     assert not missing, (
         f"registry'de olup App.jsx render dispatch'inde karşılığı olmayan sekme: {missing}")
+
+
+def test_dispatch_fallback_is_not_a_real_view():
+    """Zincirin sonundaki yakalayıcı, dalı unutulan sekmeyi GİZLEMEMELİ.
+
+    H38 ölçümü: yakalayıcı `<CausalView>` idi → dalı yazılmayan her yeni sekme
+    sessizce Nedensellik ekranını gösteriyordu. Yakalayıcı haritadır; harita
+    zaten `tab === 'map'` dalına da sahip olduğu için ayırt edici bilgi taşımaz
+    ve guard testi asıl kilit olarak kalır.
+    """
+    block = _dispatch_block(APP.read_text(encoding="utf-8"))
+    tail = block[block.rindex(" :") :]
+    assert "MapView" in tail, f"dispatch yakalayıcısı haritadan başka bir görünüm: {tail[:120]}"
+
+
+def test_mobile_drawer_derives_from_registry():
+    """H38: mobil çekmece elle buton listesine dönmemeli.
+
+    Ölçüldü: registry 22 öğe derken çekmecede 21 elle yazılmış buton vardı ve
+    yeni eklenen sekme mobilde hiç görünmüyordu — H27'de kapatılan
+    'mobilde erişilemeyen sekme' kusurunun aynısı geri gelmişti.
+    """
+    app = APP.read_text(encoding="utf-8")
+    m = re.search(r'<div className="tabs" role="tablist".*?</div>', app, re.S)
+    assert m, "mobil çekmecenin sekme bloğu bulunamadı"
+    drawer = m.group(0)
+    assert "itemsFor('drawer')" in drawer, "çekmece registry'den türetmiyor"
+    elle = drawer.count("selectTab('")
+    assert elle == 0, f"çekmecede {elle} elle yazılmış sekme butonu kaldı"
 
 
 def test_library_curated_shelf_comes_from_registry():

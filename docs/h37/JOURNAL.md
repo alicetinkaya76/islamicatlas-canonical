@@ -79,10 +79,14 @@ H36'nın iki denetimi, meşruiyetin iki ayrı yoldan kaybedilebildiğini ölçm�
 | `navRegistry.js` | **1 giriş** |
 | `App.jsx` | 1 lazy import + 1 render dalı |
 
-Bunun karşılığında sekme masaüstü "Analiz ▾" açılırında, mobil çekmecede, alt
-sekme çubuğunda ve `VALID_TAB_IDS`te **kendiliğinden** belirdi — ölçüldü.
-H27 denetiminin tarif ettiği eski maliyet ~8 dokunuştu ve biri unutulunca
-sessiz kırılıyordu.
+Bunun karşılığında sekme masaüstü "Analiz ▾" açılırında, alt sekme çubuğunun
+"Daha" panelinde ve `VALID_TAB_IDS`te **kendiliğinden** belirdi.
+
+> **Düzeltme (H38).** Bu bölüm ilk yazıldığında "mobil çekmecede de belirdi"
+> diyordu. **Yanlıştı** — registry'nin `navs` alanını okumuş, çekmecenin DOM'unu
+> ölçmemiştim. Gerçekte çekmece hâlâ elle yazılmış 21 butondu ve yeni sekme
+> orada yoktu (registry 22 ↔ DOM 21). H38 çekmeceyi registry'den türetti ve
+> ölçüm 22 = 22 oldu. Ayrıntı: `docs/h38/JOURNAL.md`.
 
 ## Ölçümle yakalanan iki kusur
 
