@@ -46,16 +46,20 @@ const NAV_ITEMS = [
     label: { tr: '📕 EI-1', en: '📕 EI-1', ar: '📕 دائرة المعارف' } },
   { id: 'yaqut', icon: '🌍', group: 'source', navs: ['dropdown', 'drawer', 'bottom', 'swipe'],
     countKey: 'yaqut', preload: '/data/yaqut_lite.json',
-    label: { tr: "🌍 Mu'cemü'l-Büldân", en: '🌍 Muʿjam al-Buldān', ar: '🌍 معجم البلدان' } },
+    label: { tr: "🌍 Mu'cemü'l-Büldân", en: '🌍 Muʿjam al-Buldān', ar: '🌍 معجم البلدان' },
+    curated: { ar: 'معجم البلدان', by: 'Yâkût el-Hamevî', caps: '🗺 🌍 📊 🕸', name: { tr: "Mu'cemü'l-Büldân", en: "Muʿjam al-Buldān" } } },
   { id: 'rihla', icon: '🧭', group: 'source', navs: ['dropdown', 'drawer', 'bottom', 'swipe'],
     countKey: 'rihla', preload: '/data/ibn_battuta_atlas_layer.json',
-    label: { tr: '🧭 İbn Battûta', en: '🧭 Ibn Battuta', ar: '🧭 ابن بطوطة' } },
+    label: { tr: '🧭 İbn Battûta', en: '🧭 Ibn Battuta', ar: '🧭 ابن بطوطة' },
+    curated: { ar: 'الرحلة', by: 'İbn Battûta', caps: '🛤 🗺', name: { tr: "Rihle", en: "Riḥla" } } },
   { id: 'khitat', icon: '🏛️', group: 'source', navs: ['dropdown', 'drawer', 'bottom', 'swipe'],
     countKey: 'khitat', preload: '/data/maqrizi_khitat_atlas_layer.json',
-    label: { tr: '🏛️ el-Hıṭaṭ', en: '🏛️ al-Khiṭaṭ', ar: '🏛️ الخطط' } },
+    label: { tr: '🏛️ el-Hıṭaṭ', en: '🏛️ al-Khiṭaṭ', ar: '🏛️ الخطط' },
+    curated: { ar: 'الخطط', by: 'Makrîzî', caps: '🏛 🗺', name: { tr: "el-Hıtat", en: "al-Khiṭaṭ" } } },
   { id: 'lestrange', icon: '🗺️', group: 'source', navs: ['dropdown', 'drawer', 'bottom', 'swipe'],
     countKey: 'lestrange', preload: '/data/le_strange_eastern_caliphate.json',
-    label: { tr: '🗺️ Le Strange', en: '🗺️ Le Strange', ar: '🗺️ لي سترينج' } },
+    label: { tr: '🗺️ Le Strange', en: '🗺️ Le Strange', ar: '🗺️ لي سترينج' },
+    curated: { ar: '', by: 'G. Le Strange', caps: '🗺 🔗', name: { tr: "Lands of the Eastern Caliphate", en: "Lands of the Eastern Caliphate" } } },
   { id: 'darpislam', icon: '🪙', group: 'source', navs: ['dropdown', 'drawer', 'bottom'],
     countKey: 'darpislam', preload: '/data/darpislam_lite.json',
     label: { tr: '🪙 Darphaneler', en: '🪙 Mints', ar: '🪙 دور السك' } },
@@ -64,13 +68,16 @@ const NAV_ITEMS = [
     label: { tr: '🔬 Bilim Atlası', en: '🔬 Science Atlas', ar: '🔬 أطلس العلوم' } },
   { id: 'salibiyyat', icon: '⚔️', group: 'source', navs: ['dropdown', 'drawer', 'bottom', 'swipe'],
     countKey: 'salibiyyat', preload: '/data/salibiyyat_atlas_layer.json',
-    label: { tr: '⚔️ Salibiyyât', en: '⚔️ Crusades', ar: '⚔️ صليبيات' } },
+    label: { tr: '⚔️ Salibiyyât', en: '⚔️ Crusades', ar: '⚔️ صليبيات' },
+    curated: { ar: '', by: 'Müslüman kronikçiler', caps: '⚔️ 🕰 🕸', name: { tr: "Salibiyyât (6 kronik)", en: "Crusades (6 chronicles)" } } },
   { id: 'evliya', icon: '🐫', group: 'source', navs: ['dropdown', 'drawer', 'bottom'],
     countKey: 'evliya', preload: '/data/evliya_atlas_layer.json',
-    label: { tr: '🐫 Evliyâ Çelebi', en: '🐫 Evliya Çelebi', ar: '🐫 أوليا جلبي' } },
+    label: { tr: '🐫 Evliyâ Çelebi', en: '🐫 Evliya Çelebi', ar: '🐫 أوليا جلبي' },
+    curated: { ar: 'سياحتنامه', by: 'Evliyâ Çelebi', caps: '🛤 🗺 🕰', name: { tr: "Seyahatnâme", en: "Seyahatnâme" } } },
   { id: 'muqaddasi', icon: '📐', group: 'source', navs: ['dropdown', 'drawer', 'bottom'],
     countKey: 'muqaddasi', preload: '/data/muqaddasi_atlas_layer.json',
-    label: { tr: '📐 Makdisî', en: '📐 al-Muqaddasī', ar: '📐 المقدسي' } },
+    label: { tr: '📐 Makdisî', en: '📐 al-Muqaddasī', ar: '📐 المقدسي' },
+    curated: { ar: 'أحسن التقاسيم', by: 'Makdisî', caps: '🗺 🛤 📐', name: { tr: "Ahsenü't-Tekāsîm", en: "Aḥsan al-Taqāsīm" } } },
 
   /* ── Kaynaklar ▾ : v2 birleşik görünümler ───────────────────────── */
   { id: 'cityatlas', icon: '🏙️', group: 'unified', navs: ['dropdown', 'drawer', 'bottom'],
@@ -110,6 +117,11 @@ export function navLabel(item, t, lang) {
   const fromI18n = t?.tabs?.[item.id];
   if (typeof fromI18n === 'string' && fromI18n.trim()) return fromI18n;
   return item.label?.[lang] || item.label?.tr || item.id;
+}
+
+/** Kütüphane rafındaki 'Kürasyonlu Atlas Görünümleri' — eser-türevi v1 görünümleri. */
+export function curatedItems() {
+  return NAV_ITEMS.filter((it) => it.curated);
 }
 
 export const VALID_TAB_IDS = NAV_ITEMS.map((i) => i.id);
