@@ -1,33 +1,21 @@
 import { useState, useCallback } from 'react';
 import BottomSheet from './BottomSheet';
+import { itemsFor } from '../../config/navRegistry';
 
-const PRIMARY_TABS = [
-  { id: 'map',       icon: '🗺️', tr: 'Harita',   en: 'Map',       ar: 'خريطة' },
-  { id: 'dashboard', icon: '📊', tr: 'Pano',     en: 'Dashboard', ar: 'لوحة' },
-  { id: 'alam',      icon: '📖', tr: 'A\'lâm',   en: 'al-Aʿlām',  ar: 'الأعلام' },
-  { id: 'dia',       icon: '📚', tr: 'DİA',      en: 'DİA',       ar: 'موسوعة' },
-];
-
+/* H33: TEK KAYNAK — config/navRegistry.js. Etiketler registry'nin
+   label{tr,en,ar} alanından; 'bottomPrimary' alt çubukta, 'bottom' ise
+   "Daha" sayfasında görünür. Yeni sekme eklemek = registry'ye 1 satır. */
+const _row = (it) => ({
+  id: it.id, icon: it.icon,
+  tr: (it.label?.tr || it.id).replace(/^\S+\s/, ''),
+  en: (it.label?.en || it.id).replace(/^\S+\s/, ''),
+  ar: (it.label?.ar || it.id).replace(/^\S+\s/, ''),
+});
+const PRIMARY_TABS = itemsFor('bottomPrimary').slice(0, 4).map(_row);
 const SECONDARY_TABS = [
-  { id: 'library',    icon: '📖', tr: 'Kütüphane',      en: 'Library',       ar: 'المكتبة' },
-  // H27: #visits (Seyahatnâmeler) hiçbir mobil navda yoktu → mobilde erişilemezdi.
-  { id: 'visits',     icon: '🧭', tr: 'Seyahatnâmeler', en: 'Travel Accounts', ar: 'الرحلات' },
-  { id: 'rihla',      icon: '🧭', tr: 'İbn Battûta',    en: 'Ibn Battuta',   ar: 'ابن بطوطة' },
-  { id: 'evliya',     icon: '🐫', tr: 'Evliyâ Çelebi',  en: 'Evliya Çelebi', ar: 'أوليا جلبي' },
-  { id: 'muqaddasi',  icon: '📐', tr: 'Makdisî',        en: 'al-Muqaddasī',  ar: 'المقدسي' },
-  { id: 'salibiyyat', icon: '⚔️', tr: 'Salibiyyât',     en: 'Crusades',      ar: 'صليبيات' },
-  { id: 'lestrange',  icon: '🗺️', tr: 'Le Strange',     en: 'Le Strange',    ar: 'لي سترينج' },
-  { id: 'khitat',     icon: '🏛️', tr: 'el-Hıṭaṭ',      en: 'al-Khiṭaṭ',    ar: 'الخطط' },
-  { id: 'yaqut',      icon: '🌍', tr: "Mu'cem",         en: "Mu'jam",        ar: 'معجم' },
-  { id: 'science',    icon: '🔬', tr: 'Bilim Atlası',   en: 'Science Atlas', ar: 'أطلس العلوم' },
-  { id: 'darpislam',  icon: '🪙', tr: 'Darphaneler',    en: 'Mints',         ar: 'دور السك' },
-  { id: 'cityatlas',  icon: '🏙️', tr: 'Şehir Atlası',  en: 'City Atlas',    ar: 'أطلس المدن' },
-  { id: 'ei1',        icon: '📕', tr: 'EI-1',           en: 'EI-1',          ar: 'دائرة المعارف' },
-  { id: 'timeline',   icon: '📅', tr: 'Zaman Çizelgesi',en: 'Timeline',      ar: 'الجدول الزمني' },
-  { id: 'links',      icon: '🔗', tr: 'Nedensellik',    en: 'Causality',     ar: 'السببية' },
-  { id: 'scholars',   icon: '🎓', tr: 'Âlimler',        en: 'Scholars',      ar: 'العلماء' },
-  { id: 'battles',    icon: '⚔️', tr: 'Savaşlar',       en: 'Battles',       ar: 'المعارك' },
-];
+  ...itemsFor('bottomPrimary').slice(4),
+  ...itemsFor('bottom'),
+].map(_row);
 
 const MORE_LABEL = { tr: 'Daha', en: 'More', ar: 'المزيد' };
 const QUIZ_LABEL = { tr: 'Quiz', en: 'Quiz', ar: 'اختبار' };
