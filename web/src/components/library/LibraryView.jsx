@@ -12,6 +12,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { fmtCount } from '../../data/sourceCounts';
 import CITY_ATLAS_REGISTRY from '../../data/cityAtlasRegistry';
+import { curatedItems } from '../../config/navRegistry';   // H35: raf tek kaynaktan
 import CityAtlasView from '../CityAtlas/CityAtlasView';
 
 const GOLD = '#c9a84c';
@@ -325,15 +326,17 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
     /* Kürasyonlu Atlas Görünümleri — v1'in sevilen kitap sayfaları rafta
        kart olarak; tıklama mevcut sekmelerine gider (Dalga-0 raf birleşmesi).
        Rozet sayıları veriden (sourceCounts) — elle sayı yasak. */
-    const curated = [
-      { tab: 'yaqut', ar: 'معجم البلدان', name: tr ? "Mu'cemü'l-Büldân" : 'Muʿjam al-Buldān', by: 'Yâkût el-Hamevî', key: 'yaqut', caps: '🗺 🌍 📊 🕸' },
-      { tab: 'rihla', ar: 'الرحلة', name: tr ? 'Rihle' : 'Riḥla', by: 'İbn Battûta', key: 'rihla', caps: '🛤 🗺' },
-      { tab: 'evliya', ar: 'سياحتنامه', name: 'Seyahatnâme', by: 'Evliyâ Çelebi', key: 'evliya', caps: '🛤 🗺 🕰' },
-      { tab: 'muqaddasi', ar: 'أحسن التقاسيم', name: tr ? "Ahsenü't-Tekāsîm" : 'Aḥsan al-Taqāsīm', by: 'Makdisî', key: 'muqaddasi', caps: '🗺 🛤 📐' },
-      { tab: 'khitat', ar: 'الخطط', name: tr ? 'el-Hıtat' : 'al-Khiṭaṭ', by: 'Makrîzî', key: 'khitat', caps: '🏛 🗺' },
-      { tab: 'lestrange', ar: '', name: 'Lands of the Eastern Caliphate', by: 'G. Le Strange', key: 'lestrange', caps: '🗺 🔗' },
-      { tab: 'salibiyyat', ar: '', name: tr ? 'Salibiyyât (6 kronik)' : 'Crusades (6 chronicles)', by: tr ? 'Müslüman kronikçiler' : 'Muslim chroniclers', key: 'salibiyyat', caps: '⚔️ 🕰 🕸' },
-    ];
+    /* H35: sabit dizi KALDIRILDI — raf artık navRegistry'den türer (H33 tek
+       kaynak ilkesi). Yeni bir eser-türevi atlas görünümü eklemek = registry'ye
+       `curated: {...}` alanı; raf kendiliğinden büyür. */
+    const curated = curatedItems().map((it) => ({
+      tab: it.id,
+      key: it.countKey || it.id,
+      ar: it.curated.ar,
+      by: it.curated.by,
+      caps: it.curated.caps,
+      name: (tr ? it.curated.name.tr : it.curated.name.en) || it.curated.name.tr,
+    }));
     return (
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '24px 16px 60px' }}>
         <h1 style={{ color: GOLD, fontSize: 26, margin: '4px 0 2px' }}>
@@ -351,11 +354,20 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(240px,1fr))', gap: 10, marginBottom: 22 }}>
           {curated.map((c) => (
             <button key={c.tab} onClick={() => { window.location.hash = `#${c.tab}`; }}
+              /* H35: bu kartlar kabın İÇİNDE açılmaz — kendi tam-ekran atlas
+                 görünümlerine gider (Yâkût'un 12.935 kayıtlık arayüzünü kaba
+                 gömmek doğru olmazdı). H27 "fırlatma" bulgusuna dürüst çözüm:
+                 davranışı gizlemek yerine ↗ ile ÖNCEDEN söylemek. */
+              title={tr ? `${c.name} — tam ekran atlas görünümüne gider`
+                        : `${c.name} — opens its full-screen atlas view`}
               style={{ ...card, borderColor: 'rgba(201,168,76,.45)', padding: '10px 14px', textAlign: 'left', cursor: 'pointer', color: 'inherit', transition: 'border-color .15s' }}
               onMouseEnter={(e) => (e.currentTarget.style.borderColor = GOLD)}
               onMouseLeave={(e) => (e.currentTarget.style.borderColor = 'rgba(201,168,76,.45)')}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 8 }}>
-                <div style={{ fontWeight: 700, fontSize: 14 }}>{c.name}</div>
+                <div style={{ fontWeight: 700, fontSize: 14 }}>
+                  {c.name}
+                  <span style={{ opacity: .45, fontSize: 11, marginLeft: 4 }} aria-hidden="true">↗</span>
+                </div>
                 {c.ar && <div dir="rtl" style={{ fontFamily: "'Amiri',serif", fontSize: 15, color: GOLD }}>{c.ar}</div>}
               </div>
               <div style={{ fontSize: 11.5, opacity: .7, margin: '2px 0 6px' }}>{c.by}</div>

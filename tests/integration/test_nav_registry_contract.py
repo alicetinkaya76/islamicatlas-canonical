@@ -63,3 +63,18 @@ def test_every_registry_tab_has_a_render_branch():
     ]
     assert not missing, (
         f"registry'de olup App.jsx render dispatch'inde karşılığı olmayan sekme: {missing}")
+
+
+def test_library_curated_shelf_comes_from_registry():
+    """H35: Kütüphane'nin 'Kürasyonlu Atlas Görünümleri' rafı elle dizi OLMAMALI.
+
+    Eskiden 7 öğelik sabit diziydi → yeni bir eser-türevi görünüm eklenince raf
+    güncellenmiyordu (oto-uyum boşluğu). Artık registry'deki `curated` alanından
+    türer; bu test sabit dizinin geri gelmesini engeller."""
+    lib = (REPO / "web" / "src" / "components" / "library" / "LibraryView.jsx").read_text(encoding="utf-8")
+    assert "curatedItems" in lib, "LibraryView rafı registry'den türetmiyor"
+    m = re.search(r"const curated = (.{0,30})", lib, re.S)
+    assert m and "[" not in m.group(1), (
+        f"curated elle diziye dönmüş: {m.group(1) if m else '?'} — registry'den türetin")
+    reg = REG.read_text(encoding="utf-8")
+    assert reg.count("curated: {") >= 5, "registry'de kürasyon meta'sı beklenenden az"
