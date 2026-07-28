@@ -77,3 +77,51 @@ ifadesi başka bir canonical olayla eşleştirilirse (tarihçi onayıyla) dolar.
 ## 6) Yayın kuralı
 Bu katman **iddia değil kayıt**tır: varsayılan `needs_human_review`; tarihçi
 onayı olmadan atlas/analiz görünümüne bağlanmaz.
+
+---
+
+## 7) İkinci tur + ikinci denetim — belirgin ilerleme, iki yeni bulgu
+
+Sıkı tur (415 aday, 4 ajan): **111 kabul (%26,7)**, 304 red. Kabul örnekleri
+sağlam: `بسبب ابنين له أخذهما` · `بعلة الخوانيق` (hunnâk hastalığından öldü) ·
+`خوفا من العار` (ardan korkup kendini boğdu) · `عصبية للحجاج` ·
+`وذلك أنهم كانوا خالفوا عليه`.
+
+### Denetimin doğruladıkları
+| Desen | Durum |
+|---|---|
+| D1 fa-lammâ zaman çerçevesi | **TEMİZLENDİ** (70/70 kabulde yok) |
+| D5 aktör-iddiası | **TEMİZLENDİ** (`asserted_by` 70/70 doldurulmuş) |
+| D3 anafora dolgusu | Büyük ölçüde temiz; kalan 3 kayıt `evidence_complete=false`+`low` |
+| `link_type`→`confidence` kuralı | **%100 tutuyor** — `high` yalnız explicit_talil/motive_reported |
+| `quote_ar` sadakati | **70/70 bayt-bayt** kaynakla aynı; sıfır parafraz |
+| D6 (gerçekleşmemiş sonuç) | `seq 250` doğru: `effect_realized=intent_only` |
+
+### İki yeni bulgu (bu turun ürünü)
+**(a) KODUMDA BUG — sahte eşleşme.** `MARKERS_AR` düz **substring** aranıyordu:
+`لأن` işareti **الأنهار / الأنبار / الأنصار / الأندلس** içinde eşleşiyordu.
+415 "güçlü" adayın **308'i sahteydi** (gerçek 107). Kelime-sınırlı regex'e
+geçildi. Ayrıca kabul edilenlerin **24'ü** hasatçının hiç aramadığı kalıplardan
+geliyordu (`وكان سبب`, `وسبب ذلك`, lâm-i ta'lîl + muzâri) → eklendi.
+**Sonuç: ar_strong 415 → 195** (denetçinin "+80-90 aday" tahminiyle birebir).
+
+**(b) Kararın kararlılığı kanıtlandı.** Gerçek-işaretli adaya göre kabul oranı
+partiler arası **0,93 · 1,04 · 1,41 · 0,93** — yani B4'ün göze batan %41 kabulü
+gevşeklik değil, **girdi bileşimi**. Düzeltmenin tuttuğunun en güçlü kanıtı.
+
+### Kalan kusurlar (dürüstçe)
+- **D4 onomastik/çıplak-ad:** `بسبب ابنة خاقان` gibi sebep bir *önerme* değil
+  çıplak ad; yine de `high` verilmişti → `cause_is_proposition` alanı eklendi.
+- **`effect_realized` sözlüğü bozuktu** (bir parti "true" yazmış, 29 kayıt
+  makineyle denetlenemez) → şema `enum`'a bağlandı.
+- **B4 partisinin 41 kabulü diskte yok** → CLAUDE.md'nin "her sayı `data/`den
+  yeniden üretilebilir" kuralını ihlal ediyordu.
+- Kronikler arası **mükerrerlik**: aynı olay 5 çift (%14) — "111 bağ" ≠ 111 olay.
+
+### Denetimin nihai kararı — UYULDU
+> **A. `ar_weak`'e ölçeklenmemeli.** 2.288 adayın %98,6'sı tam da D1/D2/D8
+> üreten edatlar; beklenen hasat 2.288 okuma → ~10 bağ (bağ başına ~60 kat
+> pahalı). **Uygulandı: ölçeklenmedi.**
+> **B. Bugünkü hâliyle yayına uygun değil.** → Bu yüzden **temiz havuzla
+> (195 aday) final koşusu** yapıldı: hem kirli adaylar elendi, hem B4'ün
+> "çıktı diskte yok" sorunu ortadan kalktı (çıktı doğrudan alınıyor).
