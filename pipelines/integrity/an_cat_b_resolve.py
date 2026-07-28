@@ -35,6 +35,7 @@ from pipelines._lib.dia_enrichment_lib import (  # noqa: E402
     aggregate_chunks_by_slug, classify_arabic_script,
     parse_death_paren_extended, build_temporal_from_parsed_d)
 from pipelines._lib.entity_resolver import EntityResolver  # noqa: E402
+from pipelines._lib.institution_common import tr_title  # H31: Türkçe-güvenli başlık
 
 OUT = REPO_ROOT / "data" / "_state" / "an_cat_b_resolution.json"
 
@@ -62,7 +63,7 @@ def main() -> int:
     for slug in cat_b:
         a = agg[slug]
         title = (a.get("primary_n") or "").strip()
-        labels = {"prefLabel": {"tr": title.title() if title.isupper() else title}}
+        labels = {"prefLabel": {"tr": tr_title(title) if title.isupper() else title}}   # H31: .title() → tr_title
         ar = (a.get("primary_a") or "").strip()
         if ar and classify_arabic_script(ar) == "arabic_primary":
             labels["prefLabel"]["ar"] = ar

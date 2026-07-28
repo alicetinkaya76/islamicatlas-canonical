@@ -49,6 +49,7 @@ import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
+from pipelines._lib.institution_common import tr_title  # H31: Türkçe-güvenli başlık
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(REPO_ROOT))
@@ -315,7 +316,7 @@ def _labels(r: dict) -> dict:
     t = clean_title(r["t"])
     if not t:
         return {}
-    pref = {"en": t.title() if t.isupper() else t}
+    pref = {"en": tr_title(t) if t.isupper() else t}   # H31: .title() → tr_title
     alts = [x for x in (clean_title(r.get("tn") or ""),)
             if x and x.lower() != t.lower()]
     labels: dict = {"prefLabel": pref}
