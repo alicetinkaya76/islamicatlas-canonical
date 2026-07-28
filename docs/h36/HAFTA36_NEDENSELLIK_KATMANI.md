@@ -125,3 +125,54 @@ gevşeklik değil, **girdi bileşimi**. Düzeltmenin tuttuğunun en güçlü kan
 > **B. Bugünkü hâliyle yayına uygun değil.** → Bu yüzden **temiz havuzla
 > (195 aday) final koşusu** yapıldı: hem kirli adaylar elendi, hem B4'ün
 > "çıktı diskte yok" sorunu ortadan kalktı (çıktı doğrudan alınıyor).
+
+---
+
+## 8) Final koşu ve kapanış
+
+Temiz havuzla (195 `ar_strong`) son koşu — iki denetimin **tüm** kurallarıyla:
+
+| | |
+|---|---|
+| İncelenen | 195 |
+| **Kabul** | **170** |
+| Red | 25 |
+
+Kabul oranı %87; bu **kalite gevşemesi değil**, havuzun temizlenmesinin sonucu.
+Denetçi zaten "gerçek-işaretli adayda kabul/işaret ≈ 1,0" ölçmüştü — birebir tuttu.
+
+### Kalite dağılımı
+- **link_type:** explicit_talil 144 · motive_reported 21 · onomastic 2 ·
+  fa_consequential 2 · state_description 1
+- **güven:** high 97 · medium 59 · low 14
+- **kanıt tam** (sebep+sonuç ikisi de alıntıda): 144/170
+- **sebep bir önerme** (çıplak ad değil): 147/170
+- **effect_realized:** realized 169 · intent_only 1
+
+Kuralların uygulandığının kanıtı (örnek kayıtlar):
+- `seq 53` — sebep yalnız hastalık **adı** (`بعلة الخوانيق`) →
+  `cause_is_proposition=false`, güven düşürülmüş (D4 kilidi çalışıyor).
+- `seq 32` — çıkarımcı kendisi yazmış: *"gerçek suç halkası alıntıda yok"* →
+  `evidence_complete=false`, `low`.
+- `seq 254`, `seq 259` — sonucun zamiri alıntı dışına gönderiyor →
+  `evidence_complete=false` (D3 kilidi).
+- `seq 13`, `seq 142` — "bu yüzden ona X adı verildi" → `onomastic` (D4 ayrımı).
+
+### Çıktı
+`data/sources/causal/causal_links.json` — **sidecar**, canonical DEĞİL.
+Her kayıt `needs_human_review: true`.
+
+### Yapılmayanlar (bilinçli)
+- **`ar_weak`'e ölçeklenmedi** (denetim kararı A). 2.110 adayın ~%98'i D1/D2/D8
+  üreten edatlar; beklenen hasat ~10 bağ, bağ başına ~60 kat maliyet.
+- **UI'a bağlanmadı.** Bu katman tarihçi onayı olmadan görünmez. CausalView
+  db.json'daki 200 küratörlü bağla çalışmaya devam eder.
+- **canonical'a yazılmadı** — `causes` alanı olay→olay PID bağı bekler.
+
+### Devir (tarihçi kuyruğu)
+1. 170 bağın onayı — öncelik: 97 `high` + `evidence_complete=true` olanlar.
+2. 23 kayıt `cause_is_proposition=false` (sebep çıplak ad) — ayrı gözden geçirme.
+3. Kronikler arası mükerrerlik (2. denetim: ~%14) — aynı olayın iki kaynakta
+   farklı sebep atfı **tarihyazımsal olarak değerlidir**, silinmemeli, eşlenmeli.
+4. Onaylananlar için sebep ifadesi başka bir canonical olayla eşleşirse
+   `causes`/`consequences` alanı gerçek anlamıyla doldurulabilir.
