@@ -8,18 +8,23 @@
 
 ADIM 1 (bu script): ucuz filtre — 7 kroniğin 11.253 olayından Arapça nedensel
 işaret taşıyanları ayıklar ve GÜÇ SINIFINA ayırır:
-    ar_strong   415  — açık ta'lîl (وذلك أن، لأن، بسبب…) veya mef'ûlün leh
-                       (خوفا، طمعا، عصبية…). Asıl değerli küme.
-    ar_weak   2.288  — çok anlamlı (فلما، حتى، إذ…): zaman/gaye de olabilir;
+    ar_strong   195  — açık ta'lîl (وذلك أن، لأن، بسبب، وكان سبب…) veya
+                       mef'ûlün leh (خوفا، طمعا، عصبية…). Asıl değerli küme.
+    ar_weak   2.110  — çok anlamlı (فلما، حتى، إذ…): zaman/gaye de olabilir;
                        çıkarım adımı bunları VARSAYILAN OLARAK REDDEDER.
-    (atlanan)   195  — Türkçe özette nedensellik var, Arapça asılda YOK.
+                       2. denetim: bu katmana ölçeklenmemeli (bkz. docs/h36).
+    (atlanan)   202  — Türkçe özette nedensellik var, Arapça asılda YOK.
 
 ADIM 2 (ayrı): yapılandırılmış çıkarım — sebep/sonuç ifadesi + bağlaç + pasaj.
 
-DENETİM DERSİ (pilot sonrası, bu sürümün varlık sebebi): ilk sürüm Türkçe
-özete de bakıyordu ve pilot kabullerinin çoğu fa-lammâ ZAMAN çerçevesini sebep
-sanıyordu. Denetçi "bu haliyle ölçeklenmemeli" dedi; filtre Arapça asıla
-taşındı, güç sınıfı eklendi. Ayrıntı: docs/h36/.
+İKİ DENETİM DERSİ (bu sürümün varlık sebebi):
+  1) DÖNGÜSELLİK — ilk sürüm Türkçe özete de bakıyordu; summary_tr ise ÖNCEKİ
+     BİR LLM'in ürünü → "kaynağın bağı" ölçütü "LLM'in bağı"na dönüşmüştü.
+     Kanıt: seq 13 TR'de "yüzünden…", Arapça asılda yalnız "من … حتى".
+  2) SAHTE EŞLEŞME — işaretler DÜZ SUBSTRING aranıyordu; "لأن" işareti
+     الأنهار / الأنبار / الأنصار / الأندلس içinde eşleşiyordu. ÖLÇÜLDÜ: 415
+     "güçlü" adayın 308'i sahteydi. Artık kelime-sınırlı regex + denetçinin
+     bulduğu eksik kalıplar (وكان سبب، وسبب ذلك…). Ayrıntı: docs/h36/.
 
 Çıktı: data/_state/causal_candidates.json
 Determinizm: kitap+seq sıralı, timestamp yok.
@@ -27,6 +32,7 @@ Determinizm: kitap+seq sıralı, timestamp yok.
 
 import json
 import os
+import re
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
@@ -46,7 +52,10 @@ OUT = REPO / "data" / "_state" / "causal_candidates.json"
 
 # A) Açık ta'lîl — kaynağın doğrudan gerekçe bildirmesi (en güçlü kanıt)
 MARKERS_AR_STRONG = ["وذلك أن", "لأن", "بسبب", "من أجل", "لأجل", "مما أدى",
-                     "فترتب", "على إثر", "نتيجة", "لعلة", "بعلة"]
+                     "فترتب", "على إثر", "نتيجة", "لعلة", "بعلة",
+                     # 2. denetim: kabul edilenlerin 24'ü bu kalıplardan geldi,
+                     # ama hasatçı bunları HİÇ aramıyordu (recall boşluğu).
+                     "وكان سبب", "وسبب ذلك", "وسبب", "كان السبب"]
 # B) Mef'ûlün leh — eylemin gerekçesini bildiren mansûb masdar (güçlü)
 MARKERS_AR_MOTIVE = ["خوفا", "طمعا", "عصبية", "رغبة في", "كراهية", "حرصا",
                      "طلبا", "انتقاما"]
@@ -61,11 +70,24 @@ MARKERS_TR = ["sebebiyle", "yüzünden", "sonucunda", "neden oldu", "yol açtı"
               "sebep oldu"]
 
 
+# ── KELİME SINIRI (2. denetim bulgusu) ───────────────────────────────────────
+# İlk sürüm DÜZ SUBSTRING arıyordu → "لأن" işareti الأنهار / الأنبار / الأنصار /
+# الأندلس içinde eşleşiyordu. ÖLÇÜLDÜ: 415 "güçlü" adayın 308'i SAHTE işaretle
+# girmişti; gerçek oran 107/415 (%25,8). Arapça'da boşlukla ayrılmış kelime
+# sınırı yeterli değil (ال- takısı bitişik yazılır) → işaret ya metnin başında
+# ya da boşluk/noktalama sonrasında başlamalı.
+_BOUNDARY = r"(?:^|[\s،؛؟\.\,\:\;\!\?\(\)\[\]\"'«»\-–—])"
+
+
+def _find(markers, text: str) -> list[str]:
+    return [m for m in markers if re.search(_BOUNDARY + re.escape(m), text)]
+
+
 def hits(blob_ar: str, blob_tr: str) -> dict:
     """Arapça asıldan KANIT, Türkçe özetten yalnız İPUCU toplar."""
-    strong = [m for m in MARKERS_AR_STRONG if m in blob_ar]
-    motive = [m for m in MARKERS_AR_MOTIVE if m in blob_ar]
-    weak = [m for m in MARKERS_AR_WEAK if m in blob_ar]
+    strong = _find(MARKERS_AR_STRONG, blob_ar)
+    motive = _find(MARKERS_AR_MOTIVE, blob_ar)
+    weak = _find(MARKERS_AR_WEAK, blob_ar)
     low = blob_tr.lower()
     tr_hint = [m for m in MARKERS_TR if m in low]
     if strong or motive:
