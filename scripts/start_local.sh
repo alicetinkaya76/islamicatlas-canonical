@@ -35,6 +35,7 @@ python3 pipelines/frontend/build_book_city_atlas.py | sed 's/^/  /'   # H25: kit
 python3 pipelines/frontend/build_canonical_map_layer.py | sed 's/^/  /'   # H26: ana haritaya canonical olay katmanı
 python3 pipelines/_index/build_lookup.py --quiet   # H31: indeks bayatlamasın (havuz kaynak izleri)
 python3 pipelines/frontend/build_alatli_synchronic.py | sed 's/^/  /'   # H30: Alatlı senkronik atlas
+python3 pipelines/frontend/build_scholar_network.py | sed 's/^/  /'   # H34: canonical isnâd ağı
 python3 pipelines/frontend/build_ulema_pool.py | sed 's/^/  /' | tail -2   # H29: havuz bayatlamasın (yeni kişi mint'leri)
 python3 pipelines/frontend/build_canonical_overview.py | sed 's/^/  /'   # H28: Pano canonical özeti
 echo "  ✓ web/public/view-data/ güncel (eski görünümler artık merkezî defterden)"

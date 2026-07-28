@@ -5,7 +5,8 @@ import SCHOLAR_LINKS from '../../data/scholar_links';
 import SCHOLAR_IDENTITY from '../../data/scholar_identity';
 import ISNAD_CHAINS from '../../data/isnad_chains';
 import ScholarNetwork, { DISC_COLORS } from './ScholarNetwork';
-import UlemaPool from './UlemaPool';   // H20 S3: dinamik Ulema Havuzu (4. mod)
+import UlemaPool from './UlemaPool';
+import CanonicalIsnadNetwork from './CanonicalIsnadNetwork';   // H34: canonical isnâd ağı (5. mod)   // H20 S3: dinamik Ulema Havuzu (4. mod)
 import ScholarTimeline from './ScholarTimeline';
 import { lf } from '../../hooks/useEntityLookup';
 import '../../styles/scholars.css';
@@ -153,10 +154,18 @@ export default function ScholarView({ lang, t: tProp }) {
                                  : 'Mağazadaki tüm kişi kayıtları — her yeni kitapla büyür'}>
             🕌 {lang === 'en' ? 'Pool' : 'Havuz'}
           </button>
+          {/* H34: merkezî defterden isnâd ağı — v1'in 450/155'i yerine
+              3.393 âlim / 7.869 hoca-talebe bağı. v1 ağı DEĞİŞMEDİ. */}
+          <button className={`scholar-view-btn${view === 'canonical' ? ' active' : ''}`}
+            onClick={() => setView('canonical')}
+            title={lang === 'en' ? 'Teacher–student network from the canonical store'
+                                 : 'Merkezî defterden hoca–talebe (isnâd) ağı'}>
+            🔗 {lang === 'en' ? 'Canonical Net' : 'Canonical Ağ'}
+          </button>
         </div>
 
         {/* H20 S3: 450-set araçları havuz modunda gizli (havuzun kendi filtresi var) */}
-        {view !== 'pool' && (<>
+        {view !== 'pool' && view !== 'canonical' && (<>
         <div className="scholar-toolbar-sep" />
 
         {/* Discipline pills */}
@@ -255,12 +264,13 @@ export default function ScholarView({ lang, t: tProp }) {
 
       {/* H20 S3: Havuz modu — kendi arama/filtresi var, 450-set araçları kapalı */}
       {view === 'pool' && <UlemaPool lang={lang} />}
+      {view === 'canonical' && <CanonicalIsnadNetwork lang={lang} />}
 
       {/* Main area */}
       {view !== 'pool' && (
       <div className="scholar-main">
         {/* D3 view */}
-        {view === 'network' || view === 'isnad' ? (
+        {(view === 'network' || view === 'isnad') ? (
           <ScholarNetwork
             scholars={filtered}
             links={filteredLinks}
