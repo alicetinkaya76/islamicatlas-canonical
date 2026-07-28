@@ -23,7 +23,9 @@ DÜRÜSTLÜK KURALLARI
     - Tarihsiz kayıt ÇİZİLMEZ (677'nin 662'si tarihli; 15'i düşer).
     - `canon` iki değeri birden taşıyan 4 kayıt İKİ ŞERİTTE DE görünür,
       `both: true` ile işaretlenir (uydurulmuş tek-taraf ataması yok).
-    - Koordinat repoda YOK → harita katmanı bu sürümde yok (uydurulmaz).
+    - Koordinat + cilt/sayfa atfı H32'de upstream'den aktarıldı (sidecar
+      `_alatli_geo_cites.json`; 526 koordinat, 666 atıf). Sidecar yoksa görünüm
+      bozulmaz, alanlar boş kalır — koordinat ASLA uydurulmaz.
     - Telif: docs/h25/ALATLI_TELIF_KAPISI.md — Alatlı-türevi kayıtlar araştırma
       sürümünde kalır; çıktı `publication_gate: "alatli"` ile işaretlenir.
 
@@ -38,6 +40,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
 MAIN = REPO / "data" / "sources" / "alatli" / "main.json"
+GEOCITES = REPO / "data" / "sources" / "alatli" / "_alatli_geo_cites.json"
 CANON_DIR = REPO / "data" / "canonical" / "person"
 OUT = REPO / "web" / "public" / "view-data" / "alatli_synchronic.json"
 
@@ -65,6 +68,11 @@ def canonical_links() -> dict[str, str]:
 def build():
     rows = json.loads(MAIN.read_text(encoding="utf-8"))
     links = canonical_links()
+    # H32: koordinat + cilt/sayfa atfı (upstream'den aktarılan sidecar).
+    # Yoksa görünüm bozulmaz — harita/atıf alanları boş kalır (uydurma yok).
+    gc = {}
+    if GEOCITES.is_file():
+        gc = json.loads(GEOCITES.read_text(encoding="utf-8")).get("records", {})
 
     bize, batiya, undated = [], [], 0
     for r in rows:
@@ -87,6 +95,18 @@ def build():
             "pid": links.get(r.get("id")),          # None ise merkezî defterde yok
             "both": len(canon) > 1,
         }
+        # H32: koordinat + ilk atıf (cilt/sayfa) — "kaynağa in" ve harita için
+        extra = gc.get(r.get("id")) or {}
+        pl = extra.get("place") or {}
+        if isinstance(pl.get("lat"), (int, float)) and isinstance(pl.get("lon"), (int, float)):
+            rec["lat"], rec["lon"] = pl["lat"], pl["lon"]
+            if pl.get("label"):
+                rec["place"] = pl["label"]
+        cites = extra.get("cites") or []
+        if cites:
+            c0 = cites[0]
+            rec["cite"] = {k: c0[k] for k in ("vol", "book_page", "text") if c0.get(k) is not None}
+            rec["cite_count"] = len(cites)
         if "bize" in canon:
             bize.append(rec)
         if "batiya" in canon:
@@ -115,6 +135,8 @@ def build():
             "both": sum(1 for x in bize if x["both"]),
             "undated_dropped": undated,
             "linked_to_store": linked,
+            "with_coords": sum(1 for x in bize + batiya if x.get("lat") is not None),
+            "with_cite": sum(1 for x in bize + batiya if x.get("cite")),
             "total_source_rows": len(rows),
         },
         "bize": bize,

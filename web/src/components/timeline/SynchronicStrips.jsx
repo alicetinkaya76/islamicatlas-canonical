@@ -14,6 +14,8 @@
  * Tarihsiz kayıt ÇİZİLMEZ (uydurma yok); yaşam aralığı yoksa nokta gösterilir.
  */
 import { useEffect, useRef, useState, useMemo } from 'react';
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 
 const GOLD = '#c9a84c';     // Doğu (v1 dili)
 const CYAN = '#38bdf8';     // Batı (canonical/dış katman rengi — H26/H28 ile tutarlı)
@@ -24,7 +26,10 @@ export default function SynchronicStrips({ lang = 'tr' }) {
   const [err, setErr] = useState(false);
   const [year, setYear] = useState(1300);
   const [hover, setHover] = useState(null);
+  const [showMap, setShowMap] = useState(false);   // H32: seçili yılın haritası
   const wrapRef = useRef(null);
+  const mapElRef = useRef(null);
+  const mapRef = useRef(null);
   const [w, setW] = useState(1200);
 
   useEffect(() => {
@@ -67,6 +72,41 @@ export default function SynchronicStrips({ lang = 'tr' }) {
     const e = pack(data.bize), b = pack(data.batiya);
     return { bize: e.rows, batiya: b.rows, lanesE: e.lanes, lanesW: b.lanes };
   }, [data]);
+
+  /* H32: seçili YILDA yaşayan + KOORDİNATLI kişilerin haritası.
+     Koordinat upstream'den aktarıldı (526 kişi); koordinatsız kayıt haritada
+     GÖSTERİLMEZ (uydurma yok) — sayısı panelde yazar. */
+  useEffect(() => {
+    if (!showMap || !data || !mapElRef.current) return undefined;
+    if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; }
+    const map = L.map(mapElRef.current, { scrollWheelZoom: false, zoomControl: true });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+      { attribution: '© OpenStreetMap · CARTO', subdomains: 'abcd' }).addTo(map);
+    const pts = [];
+    [['bize', GOLD], ['batiya', CYAN]].forEach(([side, color]) => {
+      (data[side] || []).forEach((r) => {
+        if (r.lat == null || r.lon == null) return;
+        const b = r.birth_ce, d = r.death_ce;
+        const isAlive = (b != null && d != null)
+          ? (year >= b && year <= d)
+          : Math.abs(r.anchor_ce - year) <= 25;
+        if (!isAlive) return;
+        const mk = L.circleMarker([r.lat, r.lon], {
+          radius: 6, weight: 1.2, color: '#0b1016', fillColor: color, fillOpacity: .9,
+        }).addTo(map);
+        mk.bindPopup(
+          `<div style="font-weight:700;color:${color}">${r.name}</div>
+           <div style="font-size:11px;opacity:.8">${r.birth_ce ?? '?'} – ${r.death_ce ?? '?'}${r.place ? ' · ' + r.place : ''}</div>
+           ${r.cite ? `<div style="font-size:11px;color:#e0b34d">📖 ${r.cite.vol}${r.cite.book_page != null ? ' · s.' + r.cite.book_page : ''}</div>` : ''}`,
+        );
+        pts.push([r.lat, r.lon]);
+      });
+    });
+    if (pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.2), { maxZoom: 6 });
+    else map.setView([33, 35], 3);
+    mapRef.current = map;
+    return () => { if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; } };
+  }, [showMap, data, year]);
 
   if (err) return <div style={{ padding: 30, opacity: .7 }}>{tr ? 'Senkronik veri bulunamadı — `python3 pipelines/frontend/build_alatli_synchronic.py` koşun.' : 'Synchronic data missing.'}</div>;
   if (!data) return <div style={{ padding: 30, opacity: .6 }}>{tr ? 'Senkronik atlas yükleniyor…' : 'Loading…'}</div>;
@@ -120,6 +160,16 @@ export default function SynchronicStrips({ lang = 'tr' }) {
         <input type="range" min={X0} max={X1} value={year} step={1}
           onChange={(e) => setYear(+e.target.value)}
           style={{ flex: 1, minWidth: 260, accentColor: GOLD }} />
+        <button onClick={() => setShowMap((p) => !p)}
+          title={tr ? 'Seçili yılda yaşayanları haritada göster (yalnız koordinatlı kayıtlar)' : 'Map of those alive in the selected year'}
+          style={{
+            border: `1px solid ${showMap ? GOLD : 'rgba(255,255,255,.18)'}`,
+            background: showMap ? 'rgba(201,168,76,.18)' : 'transparent',
+            color: showMap ? GOLD : '#a89b8c', borderRadius: 7,
+            padding: '3px 9px', fontSize: 11.5, cursor: 'pointer',
+          }}>
+          🗺 {tr ? 'Harita' : 'Map'}
+        </button>
         <span style={{ fontSize: 12 }}>
           <span style={{ color: GOLD }}>▲ {tr ? 'Bize' : '“Bize”'} {nE}</span>
           <span style={{ opacity: .4, margin: '0 6px' }}>·</span>
@@ -127,6 +177,20 @@ export default function SynchronicStrips({ lang = 'tr' }) {
           <span style={{ opacity: .55, marginLeft: 6 }}>{tr ? 'çağdaş' : 'contemporaries'}</span>
         </span>
       </div>
+
+      {/* H32: seçili yılın haritası (yalnız koordinatlı kayıtlar) */}
+      {showMap && (
+        <div style={{ marginBottom: 10 }}>
+          <div ref={mapElRef} style={{
+            height: 300, borderRadius: 10, border: '1px solid rgba(201,168,76,.3)',
+          }} />
+          <div style={{ fontSize: 10.5, opacity: .55, marginTop: 3 }}>
+            {tr
+              ? `Haritada yalnız KOORDİNATLI kayıtlar var (${data.counts.with_coords}/${data.counts.bize + data.counts.batiya}); koordinatsız olanlar uydurulmadı.`
+              : `Only geocoded records are mapped (${data.counts.with_coords}); the rest are not invented.`}
+          </div>
+        </div>
+      )}
 
       <svg width="100%" height={H} style={{ display: 'block' }}>
         {/* yüzyıl ızgarası */}
@@ -160,6 +224,21 @@ export default function SynchronicStrips({ lang = 'tr' }) {
             {hover.r.birth_ce != null ? hover.r.birth_ce : '?'} – {hover.r.death_ce != null ? hover.r.death_ce : '?'}
             {hover.r.place ? ` · ${hover.r.place}` : ''}
           </div>
+          {/* H32: kaynağa in — Alatlı cilt + sayfa atfı */}
+          {hover.r.cite && (
+            <div style={{ fontSize: 11, marginTop: 4, color: '#e0b34d' }}>
+              📖 {hover.r.cite.vol}
+              {hover.r.cite.book_page != null && ` · s.${hover.r.cite.book_page}`}
+              {hover.r.cite_count > 1 && (
+                <span style={{ opacity: .6 }}> (+{hover.r.cite_count - 1})</span>
+              )}
+              {hover.r.cite.text && (
+                <div style={{ opacity: .7, fontSize: 10.5, marginTop: 1 }}>
+                  {String(hover.r.cite.text).slice(0, 90)}
+                </div>
+              )}
+            </div>
+          )}
           <div style={{ opacity: .55, fontSize: 11, marginTop: 3 }}>
             {hover.r.both && <span style={{ color: '#e0b34d' }}>{tr ? 'Her iki kanonda · ' : 'In both canons · '}</span>}
             {hover.r.pid

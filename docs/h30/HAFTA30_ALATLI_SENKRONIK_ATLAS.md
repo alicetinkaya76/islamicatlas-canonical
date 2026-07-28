@@ -95,3 +95,36 @@ coğrafi-değil uyarıları ekranda; **0 konsol hatası**.
   677/677 dolu → aktarım gerekir. Store'da pasaj tutulmaz (telif).
 - Doküman tutarsızlığı: augment sayısı ALATLI_TELIF_KAPISI.md'de 183, HANDOVER'da
   181; dosyadan sayım **181** (234−53).
+
+---
+
+## H32 — Harita + "kaynağa in" eklendi (kalan iki eksik kapandı)
+
+H30/H31'de "koordinat repoda yok, cilt/sayfa atfı yok" diye dürüstçe
+işaretlenmişti. Upstream'de ikisi de vardı; **yalnız bu iki alan** aktarıldı.
+
+**Aktarım** `pipelines/adapters/alatli/enrich_geo_cites.py` →
+`data/sources/alatli/_alatli_geo_cites.json` (677 kayıt · **522 koordinat** ·
+**677 atıf**).
+
+**TELİF SINIRI (bilinçli):**
+- ALINDI: `place.lat/lon` (olgu) + `cites[].vol/book_page/pdf_page/role/text`
+  (bibliyografik künye — olgusal atıf).
+- **ALINMADI: `desc`** (açıklama düzyazısı olabilir). ALATLI_TELIF_KAPISI.md'nin
+  *"store'da Alatlı düzyazısı YOK — hiç pasaj alınmadı"* ilkesi korundu.
+  Doğrulandı: aktarılan kayıtlarda `desc` alanı **0**.
+- Sidecar da `alatli` katmanındadır → yayın kapısı aynen geçerli.
+
+**UI (SynchronicStrips):**
+- Hover künyesine **📖 cilt · sayfa** + künye metni + "(+N)" ek atıf sayısı.
+- **🗺 Harita** toggle: seçili YILDA yaşayan + koordinatlı kişiler
+  (bize=altın, batıya=camgöbeği), popup'ta ad/yıl/yer + cilt-sayfa.
+- Ekranda: *"Haritada yalnız KOORDİNATLI kayıtlar var (526/666); koordinatsız
+  olanlar uydurulmadı."*
+
+**Doğrulama (canlı):** 1274 → haritada **14 kişi**; altın noktalar Anadolu/İran/
+Orta Asya, mavi noktalar Batı Avrupa — senkroniklik coğrafi olarak da görünüyor.
+Şerit sayaçları Bize 11 / Batıya 8. 0 konsol hatası. Gate 163.
+
+**Not:** `enrich_geo_cites.py` upstream'e (repo dışı) bağlı olduğu için build
+zincirine EKLENMEDİ; sidecar repoda durur, upstream değişirse elle çalıştırılır.
