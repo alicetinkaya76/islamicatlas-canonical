@@ -1,6 +1,7 @@
 import FeedbackModal from './components/shared/FeedbackModal';
 import './styles/feedback.css';
 import { useState, useRef, useCallback, useEffect, Suspense, lazy, Fragment } from 'react';
+import NAV_ITEMS, { itemsFor, itemsInGroup, navLabel, VALID_TAB_IDS, SWIPE_ORDER } from './config/navRegistry';
 import T from './data/i18n';
 import { fmtCount } from './data/sourceCounts';
 import LandingPage from './components/landing/LandingPage';
@@ -141,10 +142,11 @@ function LangDropdown({ lang, setLang }) {
 
 /* H17 S2: 'darpislam' eklendi — sekme render'ı vardı ama listede yoktu;
    #darpislam yenilemede map'e düşüyordu. */
-const VALID_TABS = ['cityatlas', 'map', 'dashboard', 'timeline', 'links', 'scholars', 'battles', 'alam', 'yaqut', 'dia', 'ei1', 'rihla', 'khitat', 'lestrange', 'science', 'salibiyyat', 'evliya', 'muqaddasi', 'darpislam', 'library', 'visits', 'admin'];
+/* H33: tek kaynak — web/src/config/navRegistry.js */
+const VALID_TABS = VALID_TAB_IDS;
 
 /* Tab order for swipe navigation (excludes admin) */
-const SWIPE_TAB_ORDER = ['map', 'dashboard', 'alam', 'dia', 'ei1', 'scholars', 'rihla', 'yaqut', 'lestrange', 'khitat', 'salibiyyat'];
+const SWIPE_TAB_ORDER = SWIPE_ORDER;
 
 /* ═══ Entity types that can be deep-linked ═══ */
 const ENTITY_TYPES = ['dynasty', 'battle', 'scholar', 'monument', 'city', 'waqf', 'event', 'ruler', 'madrasa'];
@@ -405,40 +407,29 @@ export default function App() {
           </button>
           <NavDropdown
             label={{ tr: '📚 Kaynaklar', en: '📚 Sources', ar: '📚 المصادر' }[lang]}
-            items={(() => {
-              // Bölüm etiketleri: v1 kaynak görünümleri ↔ v2 birleşik görünümler.
-              // (Kütüphane artık YALNIZ üstteki düz buton — dropdown'dan çıkarıldı,
-              //  çift-listeleme giderildi.)
-              const gV1 = { tr: 'Kaynak Görünümleri', en: 'Source Views', ar: 'عروض المصادر' }[lang];
-              const gV2 = { tr: 'Birleşik Görünümler', en: 'Unified Views', ar: 'عروض موحدة' }[lang];
-              return [
-                { id: 'alam', section: gV1, label: t.tabs.alam, badge: fmtCount('alam'), preload: '/data/alam_lite.json' },
-                { id: 'dia',  section: gV1, label: t.tabs.dia,  badge: fmtCount('dia'),  preload: '/data/dia_lite.json' },
-                { id: 'ei1',  section: gV1, label: t.tabs.ei1,  badge: fmtCount('ei1'),  preload: '/data/ei1_lite.json' },
-                { id: 'yaqut', section: gV1, label: t.tabs.yaqut, badge: fmtCount('yaqut'),  preload: '/data/yaqut_lite.json' },
-                { id: 'rihla', section: gV1, label: t.tabs.rihla || 'İbn Battûta', badge: fmtCount('rihla'), preload: '/data/ibn_battuta_atlas_layer.json' },
-                { id: 'khitat', section: gV1, label: t.tabs.khitat || '🏛️ el-Hıṭaṭ', badge: fmtCount('khitat'), preload: '/data/maqrizi_khitat_atlas_layer.json' },
-                { id: 'lestrange', section: gV1, label: t.tabs.lestrange || '🗺️ Le Strange', badge: fmtCount('lestrange'), preload: '/data/le_strange_eastern_caliphate.json' },
-                { id: 'darpislam', section: gV1, label: t.tabs.darpislam, badge: fmtCount('darpislam'), preload: '/data/darpislam_lite.json' },
-                { id: 'science', section: gV1, label: t.tabs.science || { tr: '🔬 Bilim Atlası', en: '🔬 Science Atlas', ar: '🔬 أطلس العلوم' }[lang], badge: fmtCount('science'), preload: '/data/science_layer.json' },
-                { id: 'salibiyyat', section: gV1, label: t.tabs.salibiyyat || '⚔️ Salibiyyât', badge: fmtCount('salibiyyat'), preload: '/data/salibiyyat_atlas_layer.json' },
-                { id: 'evliya', section: gV1, label: t.tabs.evliya || '🐫 Evliyâ Çelebi', badge: fmtCount('evliya'), preload: '/data/evliya_atlas_layer.json' },
-                { id: 'muqaddasi', section: gV1, label: t.tabs.muqaddasi || '📐 Makdisî', badge: fmtCount('muqaddasi'), preload: '/data/muqaddasi_atlas_layer.json' },
-                { id: 'cityatlas', section: gV2, label: t.tabs.cityatlas || { tr: '🏙️ Şehir Atlası', en: '🏙️ City Atlas', ar: '🏙️ أطلس المدن' }[lang], badge: fmtCount('cityatlas'), preload: '/data/city-atlas/konya.json' },
-                { id: 'visits', section: gV2, label: { tr: '🧭 Seyahatnâmeler', en: '🧭 Travel Accounts', ar: '🧭 الرحلات' }[lang] },
-              ];
-            })()}
+            /* H33: TEK KAYNAK — navRegistry. Bölüm başlıkları gruptan türer
+               (v1 kaynak görünümleri ↔ v2 birleşik görünümler); Kütüphane
+               yalnız üstteki düz butondur (çift-listeleme H27'de giderildi). */
+            items={itemsInGroup('source', 'unified')
+              .filter((it) => it.navs.includes('dropdown'))
+              .map((it) => ({
+                id: it.id,
+                section: it.group === 'unified'
+                  ? { tr: 'Birleşik Görünümler', en: 'Unified Views', ar: 'عروض موحدة' }[lang]
+                  : { tr: 'Kaynak Görünümleri', en: 'Source Views', ar: 'عروض المصادر' }[lang],
+                label: navLabel(it, t, lang),
+                badge: it.countKey ? fmtCount(it.countKey) : undefined,
+                preload: it.preload,
+              }))}
             activeTab={tab}
             onSelect={selectTab}
           />
           <NavDropdown
             label={{ tr: '📊 Analiz', en: '📊 Analysis', ar: '📊 التحليل' }[lang]}
-            items={[
-              { id: 'timeline', label: t.tabs.timeline },
-              { id: 'links',    label: t.tabs.links },
-              { id: 'scholars', label: t.tabs.scholars },
-              { id: 'battles',  label: t.tabs.battles },
-            ]}
+            items={itemsInGroup('analysis').map((it) => ({
+              id: it.id,
+              label: navLabel(it, t, lang),
+            }))}
             activeTab={tab}
             onSelect={selectTab}
           />
