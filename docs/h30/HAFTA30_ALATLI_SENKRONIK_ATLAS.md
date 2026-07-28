@@ -54,8 +54,44 @@ Tarayıcı: mod düğmesi çalışıyor, 868 şerit çubuğu, kaydırıcı 1273/
 sayaçları doğru güncelliyor, telif+seçim notu ekranda, **0 konsol hatası**.
 Gate 161.
 
+## H31 DÜZELTMESİ — keşif iki hatamı ortaya çıkardı, ikisi de giderildi
+
+Paralel keşif (4 ajan) ilk sürümdeki **iki ciddi hatayı** buldu:
+
+**(1) ETİKETLEME HATASI (dürüstlük).** İlk sürüm "DOĞU / BATI" yazıyordu.
+Upstream'in kendi notu: **"canon = Alatlı'nın editöryel çerçevesi (COĞRAFYA
+DEĞİL)"**. Yani ayrım coğrafi/etnik değil, antolojinin kendi terimleri:
+`bize` (bize yön veren metinler) / `batiya` (Batı'ya yön verenler).
+→ UI artık "BİZE / BATIYA" diyor ve ekranda **"coğrafi ya da etnik bir ayrım
+DEĞİLDİR"** uyarısı duruyor.
+
+**(2) KAYNAK HATASI (kapsam).** İlk sürüm iki ayrı yerden besleniyordu
+(canonical=Doğu, yan-tablo=Batı). Ölçüm bunun ÇARPIK olduğunu gösterdi:
+canonical'daki Alatlı izli kayıtlar `bize` kanonunun **ALT KÜMESİ** (232/359 —
+kalanı inceleme kuyruğunda) ve canonical'da **6 `batiya` kaydı** da var, yani
+"canonical = Doğu" varsayımı yanlıştı.
+→ Artık TEK KAYNAK `data/sources/alatli/main.json` (677 kayıt, `canon` etiketi
+kaynağın kendisinden). Canonical yalnız **bağlantı katmanı**: alatli id → pid
+eşlenirse kayıt tıklanabilir.
+
+**Yeni sayılar (ölçüm):** "bize" **358** · "batiya" **308** · her iki kanonda
+**4** (iki şeritte de görünür, `both` işaretli) · tarihsiz **15** çizilmedi ·
+merkezî deftere bağlı **231**. Önceki sürüm 227+274 idi → kapsam genişledi,
+üyelik artık kaynağın kendi etiketinden.
+
+**Yerleşim onarımı:** 358+308 kayıt lane-paketlenince "BATIYA" şeridi ekrandan
+taşıyordu; lane tavanı (42) + ince lane (4px) ile ikisi de aynı ekranda. Tavanı
+aşan lane modulo ile sarılır — çizgiler üst üste binebilir, **kayıt kaybolmaz**.
+
+**Doğrulama:** 1033 çubuk; 1274 → Bize 11 / Batıya 8; 1600 → 12 / 21;
+Mevlânâ (1273, pid'li) ↔ Thomas Aquinas (1274) duruyor; editöryel-çerçeve ve
+coğrafi-değil uyarıları ekranda; **0 konsol hatası**.
+
 ## Kalan
-- Referans HTML'deki **harita** bileşeni (yıl→coğrafya) bu sürümde YOK — Batı
-  kayıtlarında `place_label` var ama koordinat yok (uydurulmaz); Faz-2.
-- "tıkla-kaynağa-in" (Alatlı cilt/sayfa) — store'da pasaj tutulmuyor (telif),
-  yalnız `record_count` var.
+- Referans HTML'deki **harita** bileşeni (yıl→coğrafya) bu sürümde YOK — repoda
+  koordinat yok (uydurulmaz). Upstream `app_data.json`'da `place.lat/lon` 522/677
+  dolu → aktarılırsa harita mümkün (Faz-2).
+- "tıkla-kaynağa-in" (Alatlı cilt/sayfa): repoda `cites` alanı yok; upstream'de
+  677/677 dolu → aktarım gerekir. Store'da pasaj tutulmaz (telif).
+- Doküman tutarsızlığı: augment sayısı ALATLI_TELIF_KAPISI.md'de 183, HANDOVER'da
+  181; dosyadan sayım **181** (234−53).

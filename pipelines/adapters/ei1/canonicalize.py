@@ -30,6 +30,7 @@ from pathlib import Path
 from typing import Iterator
 
 from pipelines._lib.entity_resolver import EntityResolver
+from pipelines._lib.institution_common import tr_title  # H31: Türkçe-güvenli başlık
 
 ATTRIBUTED_TO = "https://orcid.org/0000-0002-7747-6854"
 LICENSE = "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -123,7 +124,7 @@ def _build_labels(raw: dict) -> dict:
     t = (raw.get("t") or "").strip()
     tn = (raw.get("tn") or "").strip()
     if t:
-        pref["en"] = t.title() if t.isupper() else t
+        pref["en"] = tr_title(t) if t.isupper() else t   # H31: .title() Türkçe İ'yi bozuyordu
     labels: dict = {"prefLabel": pref or {"en": f"EI1 {raw.get('id')}"}}
     alts = [v for v in (tn,) if v and v.lower() != t.lower()]
     if alts:

@@ -1,146 +1,141 @@
 #!/usr/bin/env python3
-"""Alatlı senkronik atlas verisi (H30) — "aynı tarihte Doğu ve Batı yan yana".
+"""Alatlı senkronik atlas verisi (H30, H31'de KAYNAK DÜZELTİLDİ).
 
 Alatlı'nın (Tarihe Yön Veren Metinler) biricik katkısı SENKRONİK bakış: bir yılda
-İslam dünyasında kim yaşıyordu, aynı anda Batı'da kim? Bu üretici o karşılaştırmayı
-tek JSON'a indirger; UI (Zaman Çizelgesi → Senkronik mod) iki paralel şerit çizer.
+"bize" yön veren metinlerin yazarları kimlerdi, aynı anda "Batı'ya" yön verenler?
 
-İKİ ŞERİT, İKİ FARKLI KAYNAK DURUMU (dürüstlük):
-  DOĞU  → canonical mağaza (source_id prefix `alatli:`), 227 aktif kişi.
-          Tarih: birth/death/floruit_temporal (start_ce | start_ah→CE).
-  BATI  → data/sources/alatli/_alatli_western_held.json, 280 kişi.
-          Bunlar canonical'a MINT EDİLMEDİ (H25 kapsam+telif kararı); yan-tabloda
-          durur. Alanlar olgusaldır (ad/doğum/ölüm/yer/Wikidata QID).
+H31 DÜZELTMESİ — İKİ ÖNEMLİ HATA GİDERİLDİ
+------------------------------------------
+(1) KAYNAK: İlk sürüm iki ayrı yerden besleniyordu (canonical=Doğu,
+    yan-tablo=Batı). ÖLÇÜM bunun ÇARPIK olduğunu gösterdi: canonical'daki
+    Alatlı izli kayıtlar `bize` kanonunun ALT KÜMESİ (232 / 359) — kalanı
+    inceleme kuyruğunda. Üstelik canonical'da 6 `batiya` kaydı da var, yani
+    "canonical = Doğu" varsayımı yanlıştı.
+    → Artık TEK KAYNAK: `data/sources/alatli/main.json` (677 kayıt, `canon`
+      etiketi kaynağın kendisinden). Canonical yalnız BAĞLANTI katmanı: alatli
+      id → pid eşlenirse kayıt tıklanabilir olur.
+(2) ETİKET: İlk sürüm "DOĞU / BATI" yazıyordu. Upstream'in kendi notu:
+    "canon = Alatlı'nın editöryel çerçevesi (COĞRAFYA DEĞİL)". Bu yüzden
+    UI etiketi artık Alatlı'nın kendi terimleri: `bize` / `batiya`; coğrafi
+    ya da etnik bir ayrım olmadığı ekranda yazar.
 
-TELİF KAPISI (docs/h25/ALATLI_TELIF_KAPISI.md):
-  Telif-hassas olan tek şey Alatlı'nın SEÇİMİ (hangi kişiler) — düzyazı ALINMADI.
-  Karar: Alatlı-türevli kayıtlar "kişisel/araştırma sürümünde kalır", kamuya açık
-  CC-BY-SA dump'a İZİN gelene kadar GİRMEZ. Bu dosya araştırma arayüzü içindir;
-  bu yüzden çıktı `publication_gate: "alatli"` ile İŞARETLENİR ve UI ekranda
-  kapıyı yazar. Yayın hattı kurulduğunda tek satırla dışlanır.
+DÜRÜSTLÜK KURALLARI
+    - Tarihsiz kayıt ÇİZİLMEZ (677'nin 662'si tarihli; 15'i düşer).
+    - `canon` iki değeri birden taşıyan 4 kayıt İKİ ŞERİTTE DE görünür,
+      `both: true` ile işaretlenir (uydurulmuş tek-taraf ataması yok).
+    - Koordinat repoda YOK → harita katmanı bu sürümde yok (uydurulmaz).
+    - Telif: docs/h25/ALATLI_TELIF_KAPISI.md — Alatlı-türevi kayıtlar araştırma
+      sürümünde kalır; çıktı `publication_gate: "alatli"` ile işaretlenir.
 
 Çıktı: web/public/view-data/alatli_synchronic.json (gitignored; build'de üretilir)
-Determinizm: yıl+ad sıralı; timestamp yok.
-Çalıştırma: python3 pipelines/frontend/build_alatli_synchronic.py
+Determinizm: yıl+ad sıralı, timestamp yok.
 """
 
 import glob
 import json
+import re
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
-CANON = REPO / "data" / "canonical" / "person"
-WEST = REPO / "data" / "sources" / "alatli" / "_alatli_western_held.json"
+MAIN = REPO / "data" / "sources" / "alatli" / "main.json"
+CANON_DIR = REPO / "data" / "canonical" / "person"
 OUT = REPO / "web" / "public" / "view-data" / "alatli_synchronic.json"
 
-
-def ah_to_ce(ah: int) -> int:
-    """Hicrî→Milâdî yıl (tarih dönüşümü meşrudur; koordinat dönüşümü DEĞİL)."""
-    return round(ah * 0.970229 + 621.567)
+_SRC_RE = re.compile(r'"source_id"\s*:\s*"alatli:([^"]+)"')
 
 
-def temporal_ce(t) -> int | None:
-    """Bir *_temporal bloğundan CE yılı çıkar (CE öncelikli, yoksa AH→CE)."""
-    if not isinstance(t, dict):
-        return None
-    for k in ("start_ce", "end_ce"):
-        if isinstance(t.get(k), int):
-            return t[k]
-    for k in ("start_ah", "end_ah"):
-        if isinstance(t.get(k), int):
-            return ah_to_ce(t[k])
-    return None
+def canonical_links() -> dict[str, str]:
+    """alatli kaynak-id → canonical pid (yalnız AKTİF kayıtlar).
 
-
-def build_east():
-    """canonical mağazadan Alatlı-izli aktif kişiler."""
-    out = []
-    for f in glob.glob(str(CANON / "*.json")):
+    Kayıt tıklanabilirliği için; şerit üyeliği BURADAN türetilmez (H31 dersi:
+    canonical, kanonun alt kümesidir)."""
+    out: dict[str, str] = {}
+    for f in glob.glob(str(CANON_DIR / "*.json")):
         txt = Path(f).read_text(encoding="utf-8")
         if "alatli:" not in txt:
             continue
         d = json.loads(txt)
         if d.get("provenance", {}).get("deprecated"):
             continue
-        birth = temporal_ce(d.get("birth_temporal"))
-        death = temporal_ce(d.get("death_temporal"))
-        anchor = death or birth or temporal_ce(d.get("floruit_temporal"))
-        if anchor is None:
-            continue          # tarihsiz kayıt senkronik eksene KONULMAZ (uydurma yok)
-        pref = (d.get("labels", {}) or {}).get("prefLabel", {}) or {}
-        name = pref.get("tr") or pref.get("en") or pref.get("ar") or ""
-        # H29: "i"+U+0307 artefaktı (Türkçe İ.lower()) — görüntüde onarılır
-        name = name.replace("i̇", "i")
-        xref = d.get("authority_xref") or {}
-        qid = xref.get("wikidata") if isinstance(xref, dict) else None
-        out.append({
-            "pid": d["@id"],
-            "name": name,
-            "birth_ce": birth,
-            "death_ce": death,
-            "anchor_ce": anchor,
-            "qid": qid,
-            "side": "dogu",
-        })
-    out.sort(key=lambda r: (r["anchor_ce"], r["name"]))
+        for sid in _SRC_RE.findall(txt):
+            out.setdefault(sid, d["@id"])
     return out
 
 
-def build_west():
-    """yan-tablodan Batı figürleri (canonical DEĞİL; kapı arkasında)."""
-    if not WEST.is_file():
-        return []
-    d = json.loads(WEST.read_text(encoding="utf-8"))
-    out = []
-    for key, v in d.items():
-        if not isinstance(v, dict):
-            continue
-        birth, death = v.get("birth_ce"), v.get("death_ce")
-        anchor = death if isinstance(death, int) else birth
-        if not isinstance(anchor, int):
-            continue
-        out.append({
-            "held_id": key,               # pid YOK — mint edilmedi (dürüst)
-            "name": v.get("name_tr") or v.get("name_en") or "",
+def build():
+    rows = json.loads(MAIN.read_text(encoding="utf-8"))
+    links = canonical_links()
+
+    bize, batiya, undated = [], [], 0
+    for r in rows:
+        birth, death = r.get("birth_ce"), r.get("death_ce")
+        anchor = death if isinstance(death, int) else (birth if isinstance(birth, int) else None)
+        if anchor is None:
+            undated += 1
+            continue                      # tarihsiz kayıt senkronik eksene KONULMAZ
+        canon = r.get("canon") or []
+        rec = {
+            "id": r.get("id"),
+            "name": (r.get("name_tr") or r.get("name_en") or "").replace("i̇", "i"),
             "birth_ce": birth if isinstance(birth, int) else None,
             "death_ce": death if isinstance(death, int) else None,
             "anchor_ce": anchor,
-            "place": v.get("place_label"),
-            "qid": v.get("qid"),
-            "mentions": v.get("record_count"),
-            "side": "bati",
-        })
-    out.sort(key=lambda r: (r["anchor_ce"], r["name"]))
-    return out
+            "qid": r.get("qid"),
+            "place": r.get("place_label"),
+            "mentions": r.get("record_count"),
+            "confidence": r.get("confidence"),
+            "pid": links.get(r.get("id")),          # None ise merkezî defterde yok
+            "both": len(canon) > 1,
+        }
+        if "bize" in canon:
+            bize.append(rec)
+        if "batiya" in canon:
+            batiya.append(rec)
 
+    key = lambda x: (x["anchor_ce"], x["name"])   # noqa: E731
+    bize.sort(key=key)
+    batiya.sort(key=key)
+    years = [x["anchor_ce"] for x in bize + batiya]
+    linked = sum(1 for x in bize + batiya if x["pid"])
 
-def main():
-    east, west = build_east(), build_west()
-    years = [r["anchor_ce"] for r in east + west]
-    doc = {
+    return {
         "generated_by": "pipelines/frontend/build_alatli_synchronic.py",
         "source": ("Alatlı, Tarihe Yön Veren Metinler "
                    "(Kapadokya Üniversitesi Yayınları)"),
-        # UI bu kapıyı EKRANDA yazar; yayın hattı bunu görüp dışlar.
+        "canon_note": ("'bize' / 'batiya' Alatlı'nın EDİTÖRYEL ÇERÇEVESİDİR — "
+                       "coğrafi ya da etnik bir ayrım DEĞİLDİR."),
         "publication_gate": "alatli",
         "gate_note": ("Alatlı-türevli kayıtlar araştırma sürümünde kalır; kamuya "
                       "açık CC-BY-SA dump'a izin/karar gelene kadar girmez "
                       "(docs/h25/ALATLI_TELIF_KAPISI.md)."),
-        "west_note": ("Batı figürleri canonical mağazaya MINT EDİLMEDİ (kapsam+"
-                      "telif kararı); yan-tablodan okunur, pid taşımaz."),
         "range_ce": [min(years), max(years)] if years else None,
-        "counts": {"dogu": len(east), "bati": len(west)},
-        "dogu": east,
-        "bati": west,
+        "counts": {
+            "bize": len(bize),
+            "batiya": len(batiya),
+            "both": sum(1 for x in bize if x["both"]),
+            "undated_dropped": undated,
+            "linked_to_store": linked,
+            "total_source_rows": len(rows),
+        },
+        "bize": bize,
+        "batiya": batiya,
     }
+
+
+def main():
+    doc = build()
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(doc, f, ensure_ascii=False, indent=1)
         f.write("\n")
+    c = doc["counts"]
     print(f"yazıldı: {OUT.relative_to(REPO).as_posix()}")
-    print(f"  DOĞU (canonical) : {len(east):>4}")
-    print(f"  BATI (yan-tablo) : {len(west):>4}")
-    print(f"  CE aralığı       : {doc['range_ce']}")
+    print(f"  kaynak satır       : {c['total_source_rows']}")
+    print(f"  'bize'   şeridi    : {c['bize']}")
+    print(f"  'batiya' şeridi    : {c['batiya']}  (her ikisi: {c['both']})")
+    print(f"  tarihsiz (düştü)   : {c['undated_dropped']}")
+    print(f"  merkezî deftere bağlı: {c['linked_to_store']}")
+    print(f"  CE aralığı         : {doc['range_ce']}")
 
 
 if __name__ == "__main__":
