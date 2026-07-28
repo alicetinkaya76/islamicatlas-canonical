@@ -91,6 +91,11 @@ const NAV_ITEMS = [
     label: { tr: '📅 Zaman Çizelgesi', en: '📅 Timeline', ar: '📅 الجدول الزمني' } },
   { id: 'links', icon: '🔗', group: 'analysis', navs: ['dropdown', 'drawer', 'bottom'],
     label: { tr: '🔗 Nedensellik', en: '🔗 Causality', ar: '🔗 السببية' } },
+  /* H37: nedensellik ONAY KAPISI. v1'in '🔗 Nedensellik' görünümünün hemen
+     ardında durur (aynı konu), ama ikon BİLEREK farklı: menüde iki 🔗 yan yana
+     düşünce ayırt edilemiyordu (ölçüldü). ⚖ = tarihçi kararı. */
+  { id: 'causalreview', icon: '⚖️', group: 'analysis', navs: ['dropdown', 'drawer', 'bottom'],
+    label: { tr: '⚖️ Nedensellik Onayı', en: '⚖️ Causal Review', ar: '⚖️ مراجعة السببية' } },
   { id: 'scholars', icon: '🎓', group: 'analysis', navs: ['dropdown', 'drawer', 'bottom', 'swipe'],
     label: { tr: '🎓 Âlimler', en: '🎓 Scholars', ar: '🎓 العلماء' } },
   { id: 'battles', icon: '⚔️', group: 'analysis', navs: ['dropdown', 'drawer', 'bottom'],

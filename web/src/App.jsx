@@ -40,6 +40,7 @@ const EvliyaView = lazy(() => import('./components/evliya/EvliyaView'));
 const MuqaddasiView = lazy(() => import('./components/muqaddasi/MuqaddasiView'));
 const LibraryView = lazy(() => import('./components/library/LibraryView'));  // H13 S-D Çekirdek Külliyat
 const VisitsView = lazy(() => import('./components/visits/VisitsView'));   // H21 S3: durak modeli (3 seyyah tek harita)
+const CausalReview = lazy(() => import('./components/causal/CausalReview'));   // H37: nedensellik inceleme (tarihçi kapısı)
 
 /* ═══ Eagerly loaded — needed on every page ═══ */
 import MapView from './components/map/MapView';
@@ -532,7 +533,8 @@ export default function App() {
          tab === 'science' ? <ScienceLayerView lang={lang} /> :
          tab === 'muqaddasi' ? <MuqaddasiView lang={lang} t={t} initialSearch={hashParams.search} /> :
          tab === 'library' ? <LibraryView lang={lang} initialBook={hashParams.book} initialSec={hashParams.sec} initialP={hashParams.p} /> :
-         tab === 'visits' ? <VisitsView lang={lang} /> :
+         tab === 'visits' ? <VisitsView lang={lang} />  :
+         tab === 'causalreview' ? <CausalReview lang={lang} /> :
          <CausalView lang={lang} t={t} />}
         </Suspense>
       </main>
