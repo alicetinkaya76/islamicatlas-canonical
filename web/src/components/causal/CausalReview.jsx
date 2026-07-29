@@ -59,11 +59,21 @@ export default function CausalReview({ lang = 'tr' }) {
 
   const key = (r) => `${r.book_pid}:${r.seq}`;
 
+  /* H39 ONARIMI: karar İKİ yerden gelir ve ekran ikisini de görmek zorundadır.
+     Önceki sürüm yalnız localStorage'a bakıyordu → veriye İŞLENMİŞ 148 karar
+     ekranda görünmüyor, "170 kaldı" yazıyordu (ölçüldü). Kalıcı karar
+     `review.verdict` alanındadır; localStorage yalnız henüz dışa aktarılmamış
+     yerel taslaktır ve kalıcı olanın üstüne biner. */
+  const decisionFor = (r) => decisions[key(r)]
+    || (r.review?.verdict ? { verdict: r.review.verdict, at: r.review?.at, applied: true } : null);
+
   const list = useMemo(() => {
     if (!data) return [];
     return data.records.filter((r) => {
+      const d = decisions[key(r)]
+        || (r.review?.verdict ? { verdict: r.review.verdict } : null);
       if (filter === 'all') return true;
-      if (filter === 'undecided') return !decisions[key(r)];
+      if (filter === 'undecided') return !d;
       if (filter === 'high') return r.confidence === 'high';
       // flagged: denetimin işaret ettiği riskli kayıtlar
       return r.evidence_complete === false || r.cause_is_proposition === false
@@ -77,9 +87,15 @@ export default function CausalReview({ lang = 'tr' }) {
   if (!data) return <div style={{ padding: 30, opacity: .6 }}>{tr ? 'Yükleniyor…' : 'Loading…'}</div>;
 
   const r = list[i];
-  const decided = Object.keys(decisions).length;
-  const approved = Object.values(decisions).filter((d) => d.verdict === 'approve').length;
-  const rejected = Object.values(decisions).filter((d) => d.verdict === 'reject').length;
+  /* Sayaçlar KAYITLAR üzerinden hesaplanır, localStorage anahtarları üzerinden
+     değil — aksi hâlde veriye işlenmiş kararlar sayılmaz (H39 ölçümü: 148 karar
+     işlenmişken ekran "170 kaldı" diyordu). */
+  const allDecisions = data.records.map(decisionFor).filter(Boolean);
+  const decided = allDecisions.length;
+  const approved = allDecisions.filter((d) => d.verdict === 'approve').length;
+  const rejected = allDecisions.filter((d) => d.verdict === 'reject').length;
+  const applied = allDecisions.filter((d) => d.applied).length;
+  const rDecision = r ? decisionFor(r) : null;
 
   const decide = (verdict) => {
     if (!r) return;
@@ -118,7 +134,7 @@ export default function CausalReview({ lang = 'tr' }) {
       </h1>
       <p style={{ opacity: .72, fontSize: 12.5, margin: '0 0 12px', lineHeight: 1.65 }}>
         {tr
-          ? `${data.records.length} bağ — hepsi kaynağın Arapça asılda kendi kurduğu sebep–sonuç; hiçbiri yorum değil. Onaylanmayan bağ atlas/analiz görünümüne GİRMEZ. Kararlar tarayıcıda saklanır; "Kararları indir" ile repoya alınır.`
+          ? `${data.records.length} bağ — hepsi kaynağın Arapça asılda kendi kurduğu sebep–sonuç; hiçbiri yorum değil. Onaylanmayan bağ atlas/analiz görünümüne GİRMEZ. Veriye işlenmiş kararlar gerekçesiyle görünür; bu ekranda verdiğiniz yeni kararlar tarayıcıda tutulur ve "Kararları indir" ile repoya alınır.`
           : `${data.records.length} links extracted from the Arabic source itself. Unapproved links never reach the atlas.`}
       </p>
 
@@ -127,7 +143,10 @@ export default function CausalReview({ lang = 'tr' }) {
         <span style={{ fontSize: 12 }}>
           <b style={{ color: OK }}>{approved}</b> {tr ? 'onay' : 'approved'} ·{' '}
           <b style={{ color: NO }}>{rejected}</b> {tr ? 'red' : 'rejected'} ·{' '}
-          <b>{data.records.length - decided}</b> {tr ? 'kaldı' : 'left'}
+          <b>{data.records.length - decided}</b> {tr ? 'kuyrukta' : 'left'}
+          {applied > 0 && (
+            <span style={{ opacity: .6 }}> · {applied} {tr ? 'veriye işlenmiş' : 'applied'}</span>
+          )}
         </span>
         {[
           ['undecided', tr ? 'Karar bekleyen' : 'Undecided'],
@@ -159,7 +178,22 @@ export default function CausalReview({ lang = 'tr' }) {
           <div style={{ fontSize: 11.5, opacity: .6, marginBottom: 8 }}>
             {i + 1} / {list.length} · {r.book} · §{r.sec}{r.page ? ` · ${r.page}` : ''}
             {r.date_text ? ` · ${r.date_text}` : ''}
+            {rDecision && (
+              <span style={{ color: rDecision.verdict === 'approve' ? OK : NO, marginLeft: 8 }}>
+                · {rDecision.verdict === 'approve' ? (tr ? '✓ onaylı' : '✓ approved') : (tr ? '✗ reddedilmiş' : '✗ rejected')}
+                {rDecision.applied ? (tr ? ' (veride)' : ' (in data)') : (tr ? ' (yerel)' : ' (local)')}
+              </span>
+            )}
           </div>
+          {/* Kararın gerekçesi — veriye işlenmiş kararlarda saklanır; onay
+              kapısının denetlenebilir olması bunu gerektirir. */}
+          {r.review?.basis && (
+            <div style={{ fontSize: 11, opacity: .6, marginBottom: 8, lineHeight: 1.55,
+              borderLeft: `2px solid ${GOLD}`, paddingLeft: 8 }}>
+              <b>{tr ? 'Karar dayanağı' : 'Basis'}:</b> {r.review.basis}
+              {r.review.reason_arb ? ` — ${r.review.reason_arb}` : (r.review.reason_a ? ` — ${r.review.reason_a}` : '')}
+            </div>
+          )}
 
           {/* Arapça asıl — kanıt */}
           <div dir="rtl" style={{

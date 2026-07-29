@@ -21,6 +21,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[2]
 SRC = REPO / "data" / "sources" / "causal" / "causal_links.json"
 OUT = REPO / "web" / "public" / "view-data" / "causal_review.json"
+LINKS_OUT = REPO / "web" / "public" / "view-data" / "causal_reader_links.json"
 
 
 def main() -> None:
@@ -55,6 +56,37 @@ def main() -> None:
     kb = OUT.stat().st_size // 1024
     print(f"yazıldı: {OUT.relative_to(REPO).as_posix()} | kayıt: {len(records)} "
           f"| karara bağlanan: {decided} (onay {approved}) | KB: {kb}")
+
+    # ── Okuyucu köprüsü: YALNIZ ONAYLANANLAR, kitap→bölüm indeksinde ────────
+    # Onay kapısının anlamı, onaylanan bağın METNİN YANINDA görünmesi. Bu indeks
+    # kitap okunurken "kaynak bu bölümde şu sebep-sonucu kuruyor" rozetini besler.
+    # ONAYSIZ HİÇBİR BAĞ BURAYA GİRMEZ — kapı veri düzeyinde uygulanır, UI'da değil.
+    by_book: dict[str, dict[str, list]] = {}
+    for r in records:
+        if (r.get("review") or {}).get("verdict") != "approve":
+            continue
+        sec = r.get("sec")
+        if sec is None:
+            continue
+        by_book.setdefault(str(r["book_pid"]), {}).setdefault(str(sec), []).append({
+            "seq": r.get("seq"), "page": r.get("page"), "date_text": r.get("date_text"),
+            "connector_ar": r.get("connector_ar"), "quote_ar": r.get("quote_ar"),
+            "cause_tr": r.get("cause_tr"), "effect_tr": r.get("effect_tr"),
+            "link_type": r.get("link_type"), "place_pid": r.get("place_pid"),
+        })
+    links_out = {
+        "_doc": ("Okuyucuda gösterilen ONAYLANMIŞ nedensel bağlar (kitap → bölüm). "
+                 "Onaysız bağ bu dosyaya GİRMEZ. Üretici: build_causal_review.py"),
+        "counts": {"books": len(by_book),
+                   "sections": sum(len(v) for v in by_book.values()),
+                   "links": sum(len(x) for v in by_book.values() for x in v.values())},
+        "by_book": by_book,
+    }
+    LINKS_OUT.write_text(json.dumps(links_out, ensure_ascii=False, indent=1) + "\n",
+                         encoding="utf-8")
+    c = links_out["counts"]
+    print(f"yazıldı: {LINKS_OUT.relative_to(REPO).as_posix()} | onaylı bağ: {c['links']} "
+          f"| {c['books']} kitap · {c['sections']} bölüm")
 
 
 if __name__ == "__main__":

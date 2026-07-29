@@ -72,12 +72,20 @@ def main() -> None:
             continue
         if prev:
             overwritten += 1
-        rec["review"] = {
+        # GEREKÇE KAYDI: kararın kendisi kadar, NEYE DAYANDIĞI da saklanır.
+        # Devredilmiş yargıda (Ali "sen çalıştır" dediğinde) bu zorunlu — gerekçesiz
+        # karar denetlenemez ve bilinçli biçimde geri alınamaz.
+        review = {
             "verdict": verdict,
             "at": (d or {}).get("at") if isinstance(d, dict) else None,
             "by": dec_doc.get("reviewer") or "historian",
             "source": dec_doc.get("source", "web CausalReview (H37)"),
         }
+        if isinstance(d, dict):
+            for k in ("basis", "reason_a", "reason_b", "reason_arb", "evidence", "reason"):
+                if d.get(k):
+                    review[k] = d[k]
+        rec["review"] = review
         # Karara bağlandı → artık insan kuyruğunda değil. Reddedilen kayıt da
         # karara bağlanmıştır; SİLİNMEZ, elenmiş olarak durur.
         rec["needs_human_review"] = False

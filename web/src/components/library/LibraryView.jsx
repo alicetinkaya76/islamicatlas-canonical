@@ -146,6 +146,20 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
     if (book) window.location.hash = `library?book=${book.pidnum}&sec=${i}`;
   }, [book]);
 
+  /* H39 — ONAYLANMIŞ nedensel bağlar metnin yanında.
+     Onay kapısının anlamı, onaylanan bağın okunduğu yerde görünmesi. Dosya
+     YALNIZ onaylı bağ taşır (kapı veri düzeyinde, build_causal_review.py);
+     burada ayrıca süzme yapılmaz. Dosya yoksa/boşsa bölüm sessizce eskisi
+     gibi görünür — v1 okuma yolu değişmez (ek katman deseni). */
+  const [causalByBook, setCausalByBook] = useState(null);
+  useEffect(() => {
+    fetch('/view-data/causal_reader_links.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => setCausalByBook(d?.by_book || {}))
+      .catch(() => setCausalByBook({}));
+  }, []);
+  const secCausal = (book && causalByBook?.[String(book.pidnum)]?.[String(secIdx)]) || [];
+
   // Kitap haritası: koyu CARTO zemin + anılma yoğunluğuna göre marker
   useEffect(() => {
     if (mode !== 'map' || !mentions || !mapElRef.current) return;
@@ -557,6 +571,32 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
             {tr ? 'Sonraki' : 'Next'} →
           </button>
         </div>
+        )}
+        {/* H39: bu bölümde kaynağın KENDİ kurduğu, onaylanmış sebep–sonuç.
+            Yorum değil, alıntının içindeki bağ; bağlaç birebir gösterilir. */}
+        {mode === 'text' && secCausal.length > 0 && (
+          <div style={{ border: '1px solid rgba(201,168,76,.3)', borderRadius: 10,
+            padding: '10px 12px', marginBottom: 14, background: 'rgba(201,168,76,.05)' }}>
+            <div style={{ fontSize: 11.5, color: GOLD, fontWeight: 700, marginBottom: 6 }}>
+              ⚖️ {tr ? `Kaynağın bu bölümde kurduğu sebep–sonuç (${secCausal.length})`
+                     : `Causal links stated by the source here (${secCausal.length})`}
+            </div>
+            {secCausal.map((c, i) => (
+              <div key={i} style={{ fontSize: 12.5, lineHeight: 1.65, padding: '6px 0',
+                borderTop: i ? '1px solid rgba(255,255,255,.07)' : 'none' }}>
+                <div>
+                  <b style={{ color: GOLD }}>{tr ? 'Sebep' : 'Cause'}:</b> {c.cause_tr}
+                </div>
+                <div>
+                  <b style={{ color: GOLD }}>{tr ? 'Sonuç' : 'Effect'}:</b> {c.effect_tr}
+                </div>
+                <div style={{ opacity: .65, fontSize: 11.5, marginTop: 2 }}>
+                  <span dir="rtl" style={{ fontFamily: "'Amiri',serif", fontSize: 14 }}>{c.connector_ar}</span>
+                  {c.page ? ` · ${c.page}` : ''}{c.date_text ? ` · ${c.date_text}` : ''}
+                </div>
+              </div>
+            ))}
+          </div>
         )}
         {mode === 'text' && !section && <div style={{ opacity: .6, textAlign: 'center', padding: 40 }}>{tr ? 'Bölüm yükleniyor…' : 'Loading…'}</div>}
         {mode === 'text' && section && section._error && <div style={{ opacity: .7, textAlign: 'center', padding: 40 }}>{tr ? 'Bu bölüm yüklenemedi (dosya eksik olabilir). Başka bir bölüm seçin.' : 'This section could not be loaded.'}</div>}
