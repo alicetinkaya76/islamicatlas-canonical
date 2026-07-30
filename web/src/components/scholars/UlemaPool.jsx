@@ -90,6 +90,13 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
      yalnız 17'sinde (%0,07) görünür; bu bir "özellik" değil, külliyat
      büyüdükçe kendiliğinden büyüyen bir kapıdır. */
   const [shelfByAuthor, setShelfByAuthor] = useState(null);
+  /* H47: AYNI KİŞİ OLABİLECEK öbür kayıtlar. Denetimin ölçtüğü asıl kusur:
+     "22.824" bir kişi sayısı DEĞİL kayıt sayısıdır; aynı kişi 2-3 pid'e
+     dağılmış ve bedeli sayı değil ZENGİNLİK PARÇALANMASI — biyografi bir
+     kayıtta, eserleri başka kayıtta. Kullanıcı "bütün Gazzâlî"yi göremiyordu.
+     BİRLEŞTİRME YAPILMIYOR (veri-yıkıcı, tarihçi kararı); parçalanma yalnızca
+     GÖRÜNÜR kılınıyor: kullanıcı öbür kayda tek tıkla geçebiliyor. */
+  const [clusters, setClusters] = useState(null);
 
   useEffect(() => {
     const base = import.meta.env.BASE_URL || '/';
@@ -133,6 +140,13 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
       .then((d) => setLinks(d?.links || {}))
       .catch(() => setLinks({}));
   }, []);
+  useEffect(() => {
+    fetch('/view-data/person_clusters.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => setClusters(d?.clusters || {}))
+      .catch(() => setClusters({}));
+  }, []);
+
   useEffect(() => {
     fetch('/reading/core_shelf.json')
       .then((r) => (r.ok ? r.json() : null))
@@ -261,6 +275,50 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
             <div style={{ fontSize: 10.5, opacity: .45, marginTop: 8, fontFamily: 'monospace' }}>
               iac:person-{String(selected.id).padStart(8, '0')}
             </div>
+            {/* Aynı kişi olabilecek öbür kayıtlar — parçalanmayı görünür kılar */}
+            {(() => {
+              const c = clusters?.[String(selected.id)];
+              /* `goster:false` → zayıf katman. ÖLÇÜLDÜ: 30 zayıf kümenin 15'i
+                 gerçekte AYRI kişiydi. Yarısı yanlış olan bir uyarıyı göstermek
+                 kullanıcıyı yanlış birleştirmeye teşvik eder; dosyada kalır,
+                 ekranda çıkmaz. */
+              if (!c || c.goster === false) return null;
+              const digerleri = (c.uyeler || []).filter((u) => u !== selected.id);
+              if (!digerleri.length) return null;
+              const etiket = c.yargi === 'evet' ? (tr ? '✓ incelendi: aynı kişi' : '✓ verified')
+                : c.yargi === 'belirsiz' ? (tr ? 'incelendi: doğrulanamadı' : 'inconclusive')
+                : { kesin: tr ? 'güçlü kanıt' : 'strong evidence',
+                    olasi: tr ? 'olası' : 'likely' }[c.guven] || c.guven;
+              return (
+                <div style={{ marginTop: 10, padding: '8px 10px', borderRadius: 8,
+                  border: `1px solid ${c.yargi === 'evet' ? 'rgba(74,222,128,.45)' : 'rgba(186,104,200,.45)'}`,
+                  background: c.yargi === 'evet' ? 'rgba(74,222,128,.07)' : 'rgba(186,104,200,.07)' }}>
+                  <div style={{ fontSize: 11.5, color: c.yargi === 'evet' ? '#4ade80' : '#ce93d8', fontWeight: 700 }}>
+                    {c.yargi === 'evet' ? '👤' : '⚠'} {tr ? `Aynı kişinin başka kaydı (${digerleri.length}) · ${etiket}`
+                          : `Same person, other records (${digerleri.length}) · ${etiket}`}
+                  </div>
+                  <div style={{ fontSize: 11, opacity: .7, margin: '3px 0 5px' }}>
+                    {(c.gerekce || []).join(' · ')}
+                  </div>
+                  {digerleri.map((u) => {
+                    const k = pool?.find((x) => x.id === u);
+                    return (
+                      <a key={u} href={`#scholars?pid=iac:person-${String(u).padStart(8, '0')}`}
+                        style={{ display: 'block', fontSize: 12.5, color: c.yargi === 'evet' ? '#4ade80' : '#ce93d8',
+                          textDecoration: 'none', padding: '2px 0' }}>
+                        → {k ? nameTr(k) : `iac:person-${String(u).padStart(8, '0')}`}
+                        {k?.k?.length ? <span style={{ opacity: .6 }}> · {k.k.join(', ')}</span> : null}
+                      </a>
+                    );
+                  })}
+                  <div style={{ fontSize: 10.5, opacity: .55, marginTop: 4 }}>
+                    {tr ? 'Kayıtlar BİRLEŞTİRİLMEDİ — birleştirme kararı tarihçinindir.'
+                        : 'Records are NOT merged — merging is a historian decision.'}
+                  </div>
+                </div>
+              );
+            })()}
+
             {/* Nottan AYIKLANMIŞ bilgi. Ham `note` alanının %84'ü üretim izidir
                 ("cross-reference", "slug=", "Chunk count") — o gösterilmez;
                 içine gömülü gerçek bilgi çıkarılır (doğum yeri, uzmanlık,
