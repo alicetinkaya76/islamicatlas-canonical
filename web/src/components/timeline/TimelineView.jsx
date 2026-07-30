@@ -8,7 +8,6 @@ import { ERA_BANDS } from '../../config/eras';
 import { n, lf } from '../../hooks/useEntityLookup';
 import EraCard from './EraCard';
 import ERA_INFO from '../../data/era_info';
-import { fmtCount } from '../../data/sourceCounts';   // H41: Alatlı sayısı üretimden
 
 export default function TimelineView({ lang, t }) {
   const svgRef = useRef(null);
@@ -384,7 +383,7 @@ export default function TimelineView({ lang, t }) {
             {/* H41: etiket "Alatlı" adını TAŞIMIYORDU — kullanıcı "Alatlı yok"
                 dedi, çünkü ekranda o ad hiç yazmıyordu. Kaynak adı, katmanın
                 keşfedilebilirliğinin kendisidir. */}
-            ⇄ {{ tr: `Senkronik — Alatlı (${fmtCount('alatli')})`, en: `Synchronic — Alatlı (${fmtCount('alatli')})`, ar: 'تزامني' }[lang]}
+            ⇄ {{ tr: 'Senkronik (Doğu↔Batı)', en: 'Synchronic (East↔West)', ar: 'تزامني' }[lang]}
           </button>
         </div>
         {viewMode === 'dynasties' && <>

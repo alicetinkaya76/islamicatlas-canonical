@@ -17,6 +17,7 @@ import { useEffect, useRef, useState, useMemo } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
+const NAMED_LH = 13;        // H42: ad yazılabilen satır yüksekliği (LH=4 çok ince)
 const GOLD = '#c9a84c';     // Doğu (v1 dili)
 const CYAN = '#38bdf8';     // Batı (canonical/dış katman rengi — H26/H28 ile tutarlı)
 
@@ -27,6 +28,14 @@ export default function SynchronicStrips({ lang = 'tr' }) {
   const [year, setYear] = useState(1300);
   const [hover, setHover] = useState(null);
   const [showMap, setShowMap] = useState(false);   // H32: seçili yılın haritası
+  /* H42: ekran "flu renkli çizgiler"den ibaretti — 670 isimsiz çubuk, tıklayınca
+     sessizce #scholars'a atıyordu (kullanıcı nereye gittiğini anlamıyordu).
+     İki ekleme: (a) SEÇİLİ KAYIT paneli — tıklama artık yönlendirmez, kim
+     olduğunu gösterir ve nereye gidileceğini AÇIK düğmeyle sorar; (b) YALNIZ
+     ÇAĞDAŞLAR kipi — seçili yılda yaşamayanlar gizlenir, kalan az sayıda çubuğun
+     yanına ADI YAZILIR. Ancak o zaman şerit "okunur" hale geliyor. */
+  const [sel, setSel] = useState(null);
+  const [onlyAlive, setOnlyAlive] = useState(false);
   const wrapRef = useRef(null);
   const mapElRef = useRef(null);
   const mapRef = useRef(null);
@@ -119,10 +128,6 @@ export default function SynchronicStrips({ lang = 'tr' }) {
   const MAX_LANES = 42;
   const lanesE = Math.min(packed.lanesE, MAX_LANES);
   const lanesW = Math.min(packed.lanesW, MAX_LANES);
-  const hE = lanesE * LH + 26;
-  const hW = lanesW * LH + 26;
-  const axisY = hE + 34;
-  const H = hE + 68 + hW;
 
   const alive = (r) => {
     const b = r.birth_ce, d = r.death_ce;
@@ -132,23 +137,55 @@ export default function SynchronicStrips({ lang = 'tr' }) {
   const nE = packed.bize.filter(alive).length;
   const nW = packed.batiya.filter(alive).length;
 
+  /* Yükseklik KİPE bağlıdır: yalnız-çağdaşlar kipinde satır sayısı o yıl
+     yaşayanların sayısıdır ve her satır ad yazacak kadar yüksektir. */
+  const hE = onlyAlive ? Math.min(nE, MAX_LANES) * NAMED_LH + 26 : lanesE * LH + 26;
+  const hW = onlyAlive ? Math.min(nW, MAX_LANES) * NAMED_LH + 26 : lanesW * LH + 26;
+  const axisY = hE + 34;
+  const H = hE + 68 + hW;
+
+  /* Yalnız-çağdaşlar kipinde satır sırası: o yıl yaşayanların kendi içindeki
+     sırası (özgün lane'ler seyrek kalır, ekranın yarısı boş görünürdü).
+
+     DÜZ HESAP, useMemo DEĞİL: bu satır erken return'lerin (err / !data)
+     ARDINDA geliyor; oraya hook koymak render'lar arasında hook sayısını
+     değiştirir ve bileşeni çökertir. H17'de AlamView tam bu yüzden soğuk
+     açılışta çöküyordu — aynı hataya düşmeyelim. 670 kayıt için maliyet
+     ihmal edilebilir. */
+  const aliveIdx = new Map();
+  for (const rows of [packed.bize, packed.batiya]) {
+    let k = 0;
+    for (const r of rows) if (alive(r)) aliveIdx.set(r, k++);
+  }
+  const aliveIndex = (_rows, r) => aliveIdx.get(r) ?? 0;
+
   const strip = (rows, side, topY, color) => rows.map((r, i) => {
     const isAlive = alive(r);
+    if (onlyAlive && !isAlive) return null;          // H42: ekranı temizle
     const x0 = x(r._x0), x1 = x(r._x1);
-    const yy = topY + (r._lane % MAX_LANES) * LH;   // tavanı aşan lane sarılır
+    /* Yalnız-çağdaşlar kipinde satırlar SIKIŞTIRILIR (özgün lane'ler seyrek
+       kalırdı) ve her satıra ad yazacak yer açılır. */
+    const yy = onlyAlive
+      ? topY + (aliveIndex(rows, r) % MAX_LANES) * NAMED_LH
+      : topY + (r._lane % MAX_LANES) * LH;
     const wd = Math.max(2, x1 - x0);
+    const isSel = sel?.r === r;
     return (
-      <rect key={`${side}-${i}`} x={x0} y={yy} width={wd} height={LH - 2} rx={1.5}
-        fill={color} opacity={isAlive ? 0.95 : 0.22}
+      <g key={`${side}-${i}`}>
+      {onlyAlive && (
+        <text x={Math.min(x1 + 6, w - 120)} y={yy + NAMED_LH - 3}
+          fill={color} fontSize={10} opacity={.92} style={{ pointerEvents: 'none' }}>
+          {r.name}
+        </text>
+      )}
+      <rect x={x0} y={yy} width={wd} height={(onlyAlive ? NAMED_LH : LH) - 2} rx={1.5}
+        fill={color} opacity={isSel ? 1 : (isAlive ? 0.95 : 0.22)}
+        stroke={isSel ? '#fff' : 'none'} strokeWidth={isSel ? 1.2 : 0}
         style={{ cursor: 'pointer' }}
         onMouseEnter={(ev) => setHover({ r, x: ev.clientX, y: ev.clientY, side })}
         onMouseLeave={() => setHover(null)}
-        onClick={() => {
-          // H31: şerit üyeliği kanondan, tıklama hedefi VERİDEN gelir —
-          // merkezî defterde karşılığı varsa (pid) havuzda ara, yoksa Wikidata.
-          if (r.pid) window.location.hash = `scholars?q=${encodeURIComponent(r.name)}`;
-          else if (r.qid) window.open(`https://www.wikidata.org/wiki/${r.qid}`, '_blank', 'noopener');
-        }} />
+        onClick={() => setSel({ r, side })} />
+      </g>
     );
   });
 
@@ -160,6 +197,20 @@ export default function SynchronicStrips({ lang = 'tr' }) {
         <input type="range" min={X0} max={X1} value={year} step={1}
           onChange={(e) => setYear(+e.target.value)}
           style={{ flex: 1, minWidth: 260, accentColor: GOLD }} />
+        {/* H42: ekranı okunur kılan asıl anahtar. Kapalıyken 670 isimsiz çubuk
+            var; açıkken yalnız o yıl yaşayanlar kalır ve HER ÇUBUĞUN YANINA ADI
+            YAZILIR. "Flu renkli çizgiler" ancak böyle okunabilir hale geliyor. */}
+        <button onClick={() => setOnlyAlive((p) => !p)}
+          title={tr ? 'Yalnız seçili yılda yaşayanları göster — adlarıyla'
+                    : 'Show only those alive in the selected year, with names'}
+          style={{
+            border: `1px solid ${onlyAlive ? GOLD : 'rgba(255,255,255,.18)'}`,
+            background: onlyAlive ? 'rgba(201,168,76,.18)' : 'transparent',
+            color: onlyAlive ? GOLD : '#a89b8c', borderRadius: 7,
+            padding: '3px 9px', fontSize: 11.5, cursor: 'pointer', fontWeight: 600,
+          }}>
+          🔎 {tr ? 'Yalnız çağdaşlar (adlarıyla)' : 'Only contemporaries'}
+        </button>
         <button onClick={() => setShowMap((p) => !p)}
           title={tr ? 'Seçili yılda yaşayanları haritada göster (yalnız koordinatlı kayıtlar)' : 'Map of those alive in the selected year'}
           style={{
@@ -188,6 +239,60 @@ export default function SynchronicStrips({ lang = 'tr' }) {
             {tr
               ? `Haritada yalnız KOORDİNATLI kayıtlar var (${data.counts.with_coords}/${data.counts.bize + data.counts.batiya}); koordinatsız olanlar uydurulmadı.`
               : `Only geocoded records are mapped (${data.counts.with_coords}); the rest are not invented.`}
+          </div>
+        </div>
+      )}
+
+      {/* H42: SEÇİLİ KAYIT. Önceden tıklama sessizce #scholars'a atıyordu ve
+          kullanıcı nereye gittiğini/ne gördüğünü anlamıyordu. Artık tıklama
+          kimliği burada açar; gidilecek yer AÇIK DÜĞMEYLE sorulur. */}
+      {sel && (
+        <div style={{
+          border: `1px solid ${sel.side === 'bize' ? GOLD : CYAN}`, borderRadius: 10,
+          padding: '10px 12px', marginBottom: 10, background: 'rgba(255,255,255,.03)',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, flexWrap: 'wrap' }}>
+            <b style={{ color: sel.side === 'bize' ? GOLD : CYAN, fontSize: 15 }}>{sel.r.name}</b>
+            <span style={{ fontSize: 12, opacity: .7 }}>
+              {sel.r.birth_ce != null ? sel.r.birth_ce : '?'} – {sel.r.death_ce != null ? sel.r.death_ce : '?'}
+              {sel.r.place ? ` · ${sel.r.place}` : ''}
+            </span>
+            <span style={{ fontSize: 11, opacity: .55 }}>
+              {sel.side === 'bize' ? (tr ? '▲ “Bize” kanonunda' : '▲ in “Bize”')
+                                   : (tr ? '▼ “Batıya” kanonunda' : '▼ in “Batıya”')}
+              {sel.r.both && (tr ? ' · her ikisinde' : ' · in both')}
+            </span>
+            <button onClick={() => setSel(null)}
+              style={{ marginLeft: 'auto', border: 'none', background: 'none',
+                color: '#a89b8c', cursor: 'pointer', fontSize: 15 }}>✕</button>
+          </div>
+          {sel.r.cite && (
+            <div style={{ fontSize: 11.5, opacity: .75, marginTop: 5 }}>
+              📖 {sel.r.cite.vol}{sel.r.cite.book_page != null && ` · s.${sel.r.cite.book_page}`}
+              {sel.r.cite_count > 1 && <span style={{ opacity: .6 }}> (+{sel.r.cite_count - 1} {tr ? 'geçiş daha' : 'more'})</span>}
+              {sel.r.cite.text && <div style={{ opacity: .7, marginTop: 2 }}>{String(sel.r.cite.text).slice(0, 160)}</div>}
+            </div>
+          )}
+          <div style={{ display: 'flex', gap: 8, marginTop: 9, flexWrap: 'wrap' }}>
+            {sel.r.pid ? (
+              <button onClick={() => { window.location.hash = `scholars?q=${encodeURIComponent(sel.r.name)}`; }}
+                style={{ border: `1px solid ${GOLD}`, background: 'rgba(201,168,76,.12)', color: GOLD,
+                  borderRadius: 7, padding: '4px 10px', fontSize: 11.5, cursor: 'pointer' }}>
+                🎓 {tr ? 'Âlimler havuzunda aç' : 'Open in scholar pool'}
+              </button>
+            ) : (
+              <span style={{ fontSize: 11, opacity: .55 }}>
+                {tr ? 'Merkezî defterde karşılığı yok — yalnız antolojide.'
+                    : 'No canonical record — anthology only.'}
+              </span>
+            )}
+            {sel.r.qid && (
+              <button onClick={() => window.open(`https://www.wikidata.org/wiki/${sel.r.qid}`, '_blank', 'noopener')}
+                style={{ border: '1px solid rgba(255,255,255,.2)', background: 'none', color: '#a89b8c',
+                  borderRadius: 7, padding: '4px 10px', fontSize: 11.5, cursor: 'pointer' }}>
+                ↗ Wikidata ({sel.r.qid})
+              </button>
+            )}
           </div>
         </div>
       )}
