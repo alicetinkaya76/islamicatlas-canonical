@@ -20,16 +20,41 @@ import { ensurePersonBridge, bridgeByPid } from '../../data/personBridge';
  */
 
 /* Kaynak kısa kodları → rozet + derin link üreteci.
-   Kodlar üreticinin sözleşmesi (ulema_pool.json): a/d/e/s/sc/b. */
+   Kodlar üreticinin sözleşmesi (ulema_pool.json): a/d/e/s/sc + bc/by/bo/ba/b.
+
+   H46: 'b' TEK kovaydı ve href SABİT null'dı — 3.105 kişinin tek rozeti
+   tıklanamıyordu. Alt-kodlara ayrıldı; her biri kendi açılabilir hedefine
+   gider, hedefi olmayan önek DÜRÜSTÇE ayrı görünür ve neden açılmadığını
+   söyler. href imzası (bridge, record): hedefler kayıttaki `t` alanından
+   gelir ve üretici onları YALNIZ gerçekten çözüldüklerinde yazar.
+
+   Bu tablo build_ulema_pool.py'nin CODE_LABELS'ıyla birlikte değişmek
+   zorundadır (meta.kaynak_basina anahtar kümesi çipleri besliyor). */
 const SRC = {
   a:  { label: "el-A'lâm",  color: '#c9a84c', href: (b) => (b && b.alam != null ? `#alam?id=${b.alam}` : null) },
   d:  { label: 'DİA',       color: '#4db6ac', href: (b) => (b && b.dia ? `#dia/${b.dia}` : null) },
   e:  { label: 'EI-1',      color: '#ff8a65', href: (b) => (b && b.ei1 != null ? `#ei1/${b.ei1}` : null) },
   s:  { label: 'Bilim Atlası', color: '#81c784', href: () => '#science' },
   sc: { label: '450 tohum', color: '#9575cd', href: () => '#scholars' },
-  b:  { label: 'Kitap/diğer', color: '#90a4ae', href: () => null },
+  /* DİA madde-parçası. Hedef yalnız SLUG BU KİŞİYE AİTSE yazılır — ölçüldü:
+     300 kayıtta slug BAŞKA bir pid'e bağlıydı ve link yanlış maddeyi açardı. */
+  bc: { label: 'DİA (madde parçası)', color: '#4db6ac',
+        href: (b, r) => (r?.t?.bc ? `#dia/${r.t.bc}` : null),
+        bosNeden: 'Bu kişinin DİA madde-parçası başka bir kayda bağlı; yanlış madde açmamak için bağ verilmedi.' },
+  /* Bosworth hükümdar listesi. Hedef HANEDANI haritada açar, kişinin kendi
+     kaydını DEĞİL — etiket bunu söylüyor, "kişi sayfası" izlenimi vermiyor. */
+  by: { label: 'Bosworth hanedanı', color: '#ba68c8',
+        href: (b, r) => (r?.t?.by ? `#dynasty/${r.t.by}` : null) },
+  /* OpenITI külliyatı: eser mağazada var ama sitede yalnız 17 kitap okunabilir. */
+  bo: { label: 'OpenITI külliyatı', color: '#90a4ae', href: () => null,
+        bosNeden: 'Eseri merkezî defterde kayıtlı, ama bu kitap sitede henüz okunabilir değil.' },
+  /* Alatlı antolojisi: şeritte çizili ama şerit kişiye derin link kabul etmiyor. */
+  ba: { label: 'Alatlı antolojisi', color: '#90a4ae', href: () => null,
+        bosNeden: 'Senkronik şeritte çizili; şerit henüz kişiye doğrudan bağ kabul etmiyor.' },
+  b:  { label: 'Kitap/diğer', color: '#90a4ae', href: () => null,
+        bosNeden: 'Kaynak izi var, açılabilir bir sayfası yok.' },
 };
-const SRC_ORDER = ['a', 'd', 'e', 's', 'sc', 'b'];
+const SRC_ORDER = ['a', 'd', 'e', 's', 'sc', 'bc', 'by', 'bo', 'ba', 'b'];
 
 /* Üretici alan adları TR; eski/İng. varyantlara karşı tek okuma noktası. */
 const nameTr = (r) => r.ad_tr || '';
@@ -331,15 +356,17 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
               {srcsOf(selected).map((s) => {
                 const def = SRC[s];
                 if (!def) return null;
-                const href = def.href(bridgeByPid(selected.id));
+                const href = def.href(bridgeByPid(selected.id), selected);
                 return href ? (
                   <a key={s} href={href}
                     style={{ padding: '6px 10px', borderRadius: 8, border: `1px solid ${def.color}`, color: def.color, textDecoration: 'none', fontSize: 12.5 }}>
                     {def.label} →
                   </a>
                 ) : (
-                  <span key={s} style={{ padding: '6px 10px', borderRadius: 8, border: '1px solid rgba(255,255,255,.15)', opacity: .7, fontSize: 12.5 }}>
+                  <span key={s} title={def.bosNeden || undefined}
+                    style={{ padding: '6px 10px', borderRadius: 8, border: '1px solid rgba(255,255,255,.15)', opacity: .55, fontSize: 12.5 }}>
                     {def.label}
+                    {def.bosNeden && <span style={{ opacity: .7, fontSize: 11 }}> · {tr ? 'sayfa yok' : 'no page'}</span>}
                   </span>
                 );
               })}

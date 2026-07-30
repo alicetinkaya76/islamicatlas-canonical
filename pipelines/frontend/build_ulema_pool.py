@@ -90,16 +90,32 @@ SOURCE_CODES = {
     "scholars": "sc",
 }
 OTHER_CODE = "b"
+
+# H46: 'b' (Kitap/diğer) TEK bir kovaydı ve rozeti TIKLANAMIYORDU (href sabit
+# null) — 3.105 kişinin tek rozeti buydu. Oysa ham curie öneki hangi kaynağın
+# izi olduğunu biliyor. Alt-kodlara ayrıldı ki her biri KENDİ açılabilir
+# hedefine gitsin; hedefi OLMAYAN önek de dürüstçe ayrı görünsün.
+BOOK_CODES = {
+    "dia-chunks": "bc",       # DİA madde-parçası → #dia/<slug>  (pid eşitliği ŞART)
+    "dia-chunks-v8": "bc",
+    "bosworth-nid": "by",     # Bosworth hükümdar listesi → #dynasty/<id>
+    "openiti": "bo",          # OpenITI külliyatı → çoğunda açılabilir sayfa YOK
+    "alatli": "ba",           # Alatlı antolojisi → şerit derin link kabul etmiyor
+}
 CODE_LABELS = {
     "a": "el-alam",
     "d": "dia",
     "e": "ei1",
     "s": "science-layer",
     "sc": "scholars (450 tohum)",
+    "bc": "dia-madde-parcasi",
+    "by": "bosworth-hanedan",
+    "bo": "openiti-kulliyat",
+    "ba": "alatli-antoloji",
     "b": "kitap-cikarimi/diger",
 }
 # Çıktıda kaynak kodlarının deterministik sırası.
-CODE_ORDER = ["a", "d", "e", "s", "sc", "b"]
+CODE_ORDER = ["a", "d", "e", "s", "sc", "bc", "by", "bo", "ba", "b"]
 
 PID_RE = re.compile(r"^iac:person-(\d+)$")
 
@@ -183,15 +199,73 @@ def load_source_codes():
 
     codes = {}
     prefix_counts = Counter()
+    # H46: locator (curie'nin ':' sonrası) artık SAKLANIYOR — hedef id'si oradan
+    # geliyor. Bugüne dek atılıyordu, bu yüzden 'b' rozeti hedefsizdi.
+    locators = {}
     for source_id, pid in rows:
         num = pid_num(pid)
         if num is None:
             continue
-        prefix, sep, _ = source_id.partition(":")
+        prefix, sep, loc = source_id.partition(":")
         prefix_counts[prefix if sep else "(oneksiz)"] += 1
-        code = SOURCE_CODES.get(prefix, OTHER_CODE) if sep else OTHER_CODE
+        if not sep:
+            code = OTHER_CODE
+        elif prefix in SOURCE_CODES:
+            code = SOURCE_CODES[prefix]
+        else:
+            code = BOOK_CODES.get(prefix, OTHER_CODE)
+            if code != OTHER_CODE:
+                locators.setdefault(num, {})[prefix] = loc
         codes.setdefault(num, set()).add(code)
-    return codes, prefix_counts
+    return codes, prefix_counts, locators
+
+
+def resolve_targets(locators):
+    """pid_no -> {alt_kod: hedef} — YALNIZ GERÇEKTEN AÇILAN hedefler.
+
+    H46 doktrini: hedef çözülmüyorsa alan YAZILMAZ. Sahte tıklanabilirlik,
+    dürüst boşluktan kötüdür.
+
+    EN BÜYÜK TUZAK (ölçüldü): dia-chunks slug'ının 267'si BAŞKA bir pid'e bağlı.
+    Slug'a bakıp link üretmek o kişilerde KESİNLİKLE yanlış DİA maddesini
+    açardı. Bu yüzden pid EŞİTLİK kontrolü pazarlık konusu değildir.
+    """
+    out = {}
+    # DİA kataloğu: slug -> pid
+    slug2pid = {}
+    for rel in ("web/public/view-data/dia_lite.json", "web/public/data/dia_lite.json"):
+        f = REPO / rel
+        if f.is_file():
+            d = json.loads(f.read_text(encoding="utf-8"))
+            arr = d if isinstance(d, list) else (d.get("records") or d.get("items") or [])
+            slug2pid = {str(x.get("id")): x.get("pid") for x in arr if x.get("id")}
+            break
+    # v1 hanedan kataloğu: id kümesi
+    dyn_ids = set()
+    f = REPO / "web" / "src" / "data" / "db.json"
+    if f.is_file():
+        dyn_ids = {str(x.get("id")) for x in json.loads(f.read_text(encoding="utf-8")).get("dynasties", [])}
+
+    sayac = Counter()
+    for num, per_prefix in locators.items():
+        pid = f"iac:person-{num:08d}"
+        hedef = {}
+        for prefix, loc in per_prefix.items():
+            if prefix.startswith("dia-chunks"):
+                # PID EŞİTLİĞİ: slug bu kişiye mi ait?
+                if slug2pid.get(loc) == pid:
+                    hedef["bc"] = loc
+                    sayac["bc"] += 1
+                else:
+                    sayac["bc_reddedildi"] += 1
+            elif prefix == "bosworth-nid":
+                nid = loc.split(":")[0]
+                if nid in dyn_ids:
+                    hedef["by"] = nid
+                    sayac["by"] += 1
+        if hedef:
+            out[num] = hedef
+    return out, sayac
 
 
 def store_person_total():
@@ -242,7 +316,7 @@ def seed_pid_map():
 
 # ---------------------------------------------------------------- serileştirme
 
-def build_records(persons, codes, only_with_curie=False, short_names=False):
+def build_records(persons, codes, only_with_curie=False, short_names=False, targets=None):
     """LITE kayıt listesi — pid numarası artan (determinizm)."""
     records = []
     for num in sorted(persons):
@@ -261,6 +335,11 @@ def build_records(persons, codes, only_with_curie=False, short_names=False):
             rec["om"] = p["om"]
         if srcs:
             rec["k"] = [c for c in CODE_ORDER if c in srcs]
+        # H46: çözülmüş hedefler (alt-kod -> locator). YALNIZ gerçekten açılan
+        # hedefler yazılır; alan yoksa rozet tıklanamaz ve öyle görünür.
+        t = (targets or {}).get(num)
+        if t:
+            rec["t"] = t
         if p["m"] and not short_names:
             rec["m"] = p["m"]
         records.append(rec)
@@ -407,11 +486,13 @@ def main():
         return 1
 
     persons, scan_stats = load_persons()
-    codes, prefix_counts = load_source_codes()
+    codes, prefix_counts, locators = load_source_codes()
+    targets, target_counts = resolve_targets(locators)
+    print(f"  hedefi cozulen: {dict(target_counts)}")
     bracket_total = store_person_total()
 
     notes = []
-    records = build_records(persons, codes)
+    records = build_records(persons, codes, targets=targets)
     payload = serialize_pool(records, notes)
 
     if len(payload) > SIZE_CAP:
@@ -421,7 +502,7 @@ def main():
             f"kisiler tutuldu, kaynak-curie'siz {dropped} mint kayit HAVUZ DISI "
             f"birakildi."
         )
-        records = build_records(persons, codes, only_with_curie=True)
+        records = build_records(persons, codes, only_with_curie=True, targets=targets)
         payload = serialize_pool(records, notes)
 
     if len(payload) > SIZE_CAP:
@@ -432,7 +513,7 @@ def main():
         )
         records = build_records(
             persons, codes, only_with_curie=True, short_names=True
-        )
+        , targets=targets)
         payload = serialize_pool(records, notes)
 
     meta = build_meta(
