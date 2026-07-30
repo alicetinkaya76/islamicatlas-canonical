@@ -44,6 +44,7 @@ view-data:
 	python3 pipelines/frontend/build_alatli_synchronic.py
 	python3 pipelines/frontend/build_scholar_network.py
 	python3 pipelines/frontend/build_ulema_pool.py
+	python3 pipelines/frontend/build_person_bridge.py
 	python3 pipelines/frontend/build_ulema_pool_links.py
 	python3 pipelines/frontend/build_causal_review.py
 	python3 pipelines/frontend/build_canonical_overview.py

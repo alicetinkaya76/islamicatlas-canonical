@@ -27,6 +27,11 @@ export function bridgeFromDia(slug) {
   return (BR && BR.dia && BR.dia[slug]) || null;
 }
 
+/* H45: EI-1 kaydından kişiye — üçüncü yön. */
+export function bridgeFromEi1(ei1Id) {
+  return (BR && BR.ei1 && BR.ei1[String(ei1Id)]) || null;
+}
+
 /* H20 S3: pid → kaynak id'leri (Ulema Havuzu'nun ihtiyacı; havuz kayıtları
    yalnız kaynak KODU taşır, id taşımaz). Ters indeks ilk istekte kurulur. */
 let BY_PID = null;
@@ -41,6 +46,14 @@ export function bridgeByPid(pidNum) {
     for (const [slug, v] of Object.entries(BR.dia || {})) {
       const n = v.pid && v.pid.replace('iac:person-', '').replace(/^0+/, '');
       if (n) BY_PID[n] = { ...(BY_PID[n] || {}), dia: slug, alam: v.alam ?? BY_PID[n]?.alam, ei1: v.ei1 ?? BY_PID[n]?.ei1 };
+    }
+    /* H45: EI-1 yönü. Ters indeks yalnız alam ve dia haritalarından kuruluyordu;
+       YALNIZ-EI1 kişiler (972 kayıt, ölçüldü) indekse hiç girmiyor, havuzdaki
+       'e' rozeti tıklanamıyordu. `BR.ei1 || {}` guard'ı sayesinde ei1'siz eski
+       bir person_bridge.json ile de çalışır (davranış: eskisi gibi). */
+    for (const [ei1Id, v] of Object.entries(BR.ei1 || {})) {
+      const n = v.pid && v.pid.replace('iac:person-', '').replace(/^0+/, '');
+      if (n) BY_PID[n] = { ...(BY_PID[n] || {}), ei1: ei1Id, alam: v.alam ?? BY_PID[n]?.alam, dia: v.dia ?? BY_PID[n]?.dia };
     }
   }
   return BY_PID[String(pidNum)] || null;

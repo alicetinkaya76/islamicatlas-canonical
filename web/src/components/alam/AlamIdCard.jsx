@@ -4,6 +4,7 @@ import { hn, dn } from '../../data/i18n-utils';
 import T from '../../data/i18n';
 /* H19 S2: ds alanı boşken mağaza pid-merge köprüsünden DİA slug'ı */
 import { ensurePersonBridge, bridgeFromAlam } from '../../data/personBridge';
+import PoolLink from '../shared/PoolLink';   // H45: havuza dönüş
 
 /* ═══ Normalize xrefs ═══ */
 function normalizeXrefs(raw) {
@@ -338,6 +339,11 @@ export default function AlamIdCard({ lang, ta, bio, detail, onClose, allData, on
         </button>
       )}
 
+      {/* H45: kaynak kartları TERMİNAL siloydu — kullanıcı maddeye
+          gelip orada kalıyor, aynı kişinin öbür kaynaklardaki izlerine
+          dönemiyordu. Havuza dönüş bağı pid ile kurulur; pid yoksa düğme
+          HİÇ çıkmaz (sahte tıklanabilirlik yok). */}
+      <PoolLink pid={bio.pid} lang={lang} style={{ marginInlineEnd: 8 }} />
       {/* Source footer */}
       <div className="alam-idcard-source">{ta.source}</div>
     </div>

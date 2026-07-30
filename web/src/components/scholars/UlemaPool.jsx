@@ -59,6 +59,12 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
      Notlar 4 MB olduğu için AYRI dosyada ve ilk seçimde bir kez yüklenir. */
   const [links, setLinks] = useState(null);
   const [notes, setNotes] = useState(null);
+  /* H45 ters yön: bu kişi Çekirdek Külliyat'ta bir kitabın müellifi mi?
+     core_shelf.json'un 17 kaydının 17'sinde author_pid var. Küçük dosya,
+     panel açılışında bir kez. Kitap yoksa rozet HİÇ çıkmaz — 22.824 kişinin
+     yalnız 17'sinde (%0,07) görünür; bu bir "özellik" değil, külliyat
+     büyüdükçe kendiliğinden büyüyen bir kapıdır. */
+  const [shelfByAuthor, setShelfByAuthor] = useState(null);
 
   useEffect(() => {
     const base = import.meta.env.BASE_URL || '/';
@@ -101,6 +107,21 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
       .then((r) => (r.ok ? r.json() : null))
       .then((d) => setLinks(d?.links || {}))
       .catch(() => setLinks({}));
+  }, []);
+  useEffect(() => {
+    fetch('/reading/core_shelf.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => {
+        const m = {};
+        for (const b of (d?.books || [])) {
+          if (b.author_pid) (m[b.author_pid] ||= []).push(b);
+        }
+        setShelfByAuthor(m);
+      })
+      /* reading/ ağacı gitignore'da: temiz kopyada dosya YOKTUR ve rozet
+         çıkmaz. Sessiz olduğu unutulmasın — "rozet neden yok?" sorusunun ilk
+         cevabı `build_reading_data.py` koşulmamış olmasıdır. */
+      .catch(() => setShelfByAuthor({}));
   }, []);
   useEffect(() => {                       // notlar: ilk seçimde, bir kez
     if (!selected || notes) return;
@@ -231,6 +252,27 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
                   )}
                   {N.o && <div style={{ opacity: .75 }}><span style={{ opacity: .8 }}>{tr ? 'Kaynakta' : 'In source'}: </span>{N.o}</div>}
                   {N.s && <div style={{ opacity: .85, marginTop: 3 }}>{N.s}</div>}
+                </div>
+              );
+            })()}
+
+            {/* Çekirdek Külliyat'ta eseri okunabilen müellif → kitabına git */}
+            {(() => {
+              const pid = `iac:person-${String(selected.id).padStart(8, '0')}`;
+              const kitaplar = shelfByAuthor?.[pid] || [];
+              if (!kitaplar.length) return null;
+              return (
+                <div style={{ marginTop: 12 }}>
+                  <div style={{ fontSize: 12, color: GOLD, fontWeight: 700, marginBottom: 5 }}>
+                    {tr ? 'Kütüphanede eseri' : 'Readable work'}
+                  </div>
+                  {kitaplar.map((b) => (
+                    <a key={b.pidnum} href={`#library?book=${b.pidnum}`}
+                      style={{ display: 'block', padding: '5px 9px', borderRadius: 7, marginBottom: 4,
+                        border: `1px solid ${GOLD}`, color: GOLD, textDecoration: 'none', fontSize: 12.5 }}>
+                      📖 {b.name_tr} →
+                    </a>
+                  ))}
                 </div>
               );
             })()}

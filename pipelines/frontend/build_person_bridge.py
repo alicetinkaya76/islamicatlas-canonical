@@ -65,7 +65,7 @@ BRIDGE_SOURCES = {"el-alam": "alam", "dia": "dia", "ei1": "ei1"}
 
 DOC = (
     "Dalga-2 kişi köprüsü: lookup.sqlite source_curie pid-merge'lerinden "
-    "türetilen iki yönlü arama haritaları (alam<->dia/ei1). Yalnız "
+    "türetilen ÜÇ YÖNLÜ arama haritası (alam / dia / ei1 — H45). Yalnız "
     "iac:person namespace; dia-chunks ailesi bilinçli olarak dışarıda "
     "(ayrı kimlik evreni). Aynı kaynaktan birden çok curie'si olan pid'ler "
     "köprüye alınmaz (skipped_multi). alam/ei1 id'leri string. "
@@ -94,8 +94,31 @@ def load_person_sources(db_path):
     return persons
 
 
-def build_maps(persons, only_multi_source=False):
-    """(alam_map, dia_map, n_persons, skipped_multi) üret."""
+def _published_ei1_ids():
+    """Yayınlanan EI-1 kataloğundaki id kümesi (kapının ölçütü).
+
+    Katalog yoksa None döner → kapı UYGULANMAZ (v1 davranışı korunur), ama
+    o zaman 30 ölü link geri gelir; guard testi bunu yakalar.
+    """
+    import json as _json
+    from pathlib import Path as _Path
+    for rel in ("web/public/view-data/ei1_lite.json", "web/public/data/ei1_lite.json"):
+        p = _Path(__file__).resolve().parents[2] / rel
+        if p.is_file():
+            d = _json.loads(p.read_text(encoding="utf-8"))
+            arr = d if isinstance(d, list) else (d.get("records") or d.get("items") or [])
+            return {str(x.get("id")) for x in arr if x.get("id") is not None}
+    return None
+
+
+def build_maps(persons, only_multi_source=False, published_ei1=None):
+    """(alam_map, dia_map, ei1_map, n_persons, skipped_multi) üret.
+
+    H45: ei1 haritası EKLENDİ. `BRIDGE_SOURCES` ei1'i baştan beri TOPLUYORDU
+    ama harita kurulmuyordu; sonuç: yalnız-EI1 kişiler ters indekse hiç
+    girmiyor, havuzdaki EI-1 rozeti tıklanamıyordu (ölçüldü: 972 ölü rozet).
+    alam/dia kurulumu AYNEN korunur — v1 tüketicileri etkilenmez.
+    """
     skipped_multi = 0
     kept = {}
     for pid, srcs in persons.items():
@@ -108,6 +131,7 @@ def build_maps(persons, only_multi_source=False):
 
     alam_map = {}
     dia_map = {}
+    ei1_map = {}
     for pid, ids in kept.items():
         if "alam" in ids:
             alam_map[ids["alam"]] = {
@@ -121,14 +145,26 @@ def build_maps(persons, only_multi_source=False):
                 "alam": ids.get("alam"),
                 "ei1": ids.get("ei1"),
             }
+        if "ei1" in ids and (published_ei1 is None or ids["ei1"] in published_ei1):
+            # YAYIN KAPISI (H45): mağazada ei1 curie'si olan 1.174 kişinin 30'u
+            # yayınlanan EI-1 kataloğunda YOK (27'si h22 hayalet-defteri kaydı,
+            # yumuşak-silinmiş). Kapı olmadan bu 30'u tıklanabilir yapardık ve
+            # boş karta götürürdü — sahte tıklanabilirlik. Dürüst boşluk yeğdir:
+            # bu kişilerde EI-1 rozeti çıkmaz (havuzda da zaten yoklar).
+            ei1_map[ids["ei1"]] = {
+                "pid": pid,
+                "alam": ids.get("alam"),
+                "dia": ids.get("dia"),
+            }
 
     # Deterministik sıralama: alam sayısal artan, dia bayt-sıralı.
     alam_sorted = {k: alam_map[k] for k in sorted(alam_map, key=lambda s: (len(s), s))}
     dia_sorted = {k: dia_map[k] for k in sorted(dia_map)}
-    return alam_sorted, dia_sorted, len(kept), skipped_multi
+    ei1_sorted = {k: ei1_map[k] for k in sorted(ei1_map, key=lambda s: (len(s), s))}
+    return alam_sorted, dia_sorted, ei1_sorted, len(kept), skipped_multi
 
 
-def serialize(alam_map, dia_map, n_persons, skipped_multi, reduced):
+def serialize(alam_map, dia_map, ei1_map, n_persons, skipped_multi, reduced):
     doc = DOC
     if reduced:
         doc += (
@@ -140,9 +176,11 @@ def serialize(alam_map, dia_map, n_persons, skipped_multi, reduced):
         "n_persons": n_persons,
         "n_alam": len(alam_map),
         "n_dia": len(dia_map),
+        "n_ei1": len(ei1_map),
         "skipped_multi": skipped_multi,
         "alam": alam_map,
         "dia": dia_map,
+        "ei1": ei1_map,
     }
     return (json.dumps(out, ensure_ascii=False, separators=(",", ":")) + "\n").encode(
         "utf-8"
@@ -203,21 +241,25 @@ def labels_for(pids):
 
 def main():
     persons = load_person_sources(DB)
-    alam_map, dia_map, n_persons, skipped_multi = build_maps(persons)
-    payload = serialize(alam_map, dia_map, n_persons, skipped_multi, reduced=False)
+    published_ei1 = _published_ei1_ids()
+    alam_map, dia_map, ei1_map, n_persons, skipped_multi = build_maps(
+        persons, published_ei1=published_ei1)
+    payload = serialize(alam_map, dia_map, ei1_map, n_persons, skipped_multi, reduced=False)
     reduced = False
     if len(payload) > SIZE_CAP:
         reduced = True
-        alam_map, dia_map, n_persons, skipped_multi = build_maps(
-            persons, only_multi_source=True
+        alam_map, dia_map, ei1_map, n_persons, skipped_multi = build_maps(
+            persons, only_multi_source=True, published_ei1=published_ei1
         )
-        payload = serialize(alam_map, dia_map, n_persons, skipped_multi, reduced=True)
+        payload = serialize(alam_map, dia_map, ei1_map, n_persons, skipped_multi, reduced=True)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_bytes(payload)
 
     print(f"person_bridge.json yazildi: {OUT}")
-    print(f"  n_persons={n_persons}  n_alam={len(alam_map)}  n_dia={len(dia_map)}")
+    print(f"  n_persons={n_persons}  n_alam={len(alam_map)}  n_dia={len(dia_map)}  n_ei1={len(ei1_map)}")
+    yalniz_ei1 = sum(1 for v in ei1_map.values() if not v.get("alam") and not v.get("dia"))
+    print(f"  yalnız-EI1 kişi (rozeti bugüne dek ÖLÜ olan): {yalniz_ei1}")
     print(f"  skipped_multi={skipped_multi}  boyut={len(payload)} bayt  reduced={reduced}")
 
     ana = xref_analysis(alam_map)

@@ -634,9 +634,24 @@ export default function LibraryView({ lang = 'tr', initialBook = null, initialSe
                 {tr ? 'ö.' : 'd.'} {book.author.death_ah ? `${book.author.death_ah} H` : ''}{book.author.death_ah && book.author.death_ce ? ' / ' : ''}{book.author.death_ce ? `${book.author.death_ce} M` : ''}
               </div>
             )}
+            {/* H45: müellif kutusu, kitabın YAZARINI hiçbir kişi kaydına
+                bağlamıyordu. Ölçüldü: 17 manifestin 17'sinde `author.pid` var ve
+                17'sinin de havuzda karşılığı bulunuyor; buna karşılık bugün
+                yalnız 6 kitapta çıkış vardı (dia_slug 3 + alam_id 3), 11 müellif
+                tamamen çıkışsızdı. Havuz bağı pid ile kurulur — H43'te
+                doğrulanmış `#scholars?pid=` sözleşmesi.
+
+                DİA bağı da yükseltildi: `?search=<ad>` yerine `#dia/<slug>`
+                (doğrudan kayıt; ad araması çoklu/yanlış sonuç verebiliyordu). */}
             <div style={{ marginTop: 6 }}>
+              {book.author.pid && (
+                <a href={`#scholars?pid=${encodeURIComponent(book.author.pid)}`}
+                  style={{ ...chip, textDecoration: 'none', cursor: 'pointer' }}>
+                  🕌 {tr ? 'Âlimler havuzunda' : 'in scholar pool'} →
+                </a>
+              )}
               {book.author.dia_slug && (
-                <a href={`#dia?search=${encodeURIComponent(book.author.name_tr || book.author.dia_slug)}`}
+                <a href={`#dia/${encodeURIComponent(book.author.dia_slug)}`}
                   style={{ ...chip, textDecoration: 'none', cursor: 'pointer' }}>
                   {tr ? "DİA'da" : 'in TDV'} →
                 </a>

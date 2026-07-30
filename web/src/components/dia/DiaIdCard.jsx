@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import { FIELD_COLORS } from './DiaSidebar';
 /* H19 S2: xref'in ötesinde pid-merge köprüsü (person_bridge) */
 import { ensurePersonBridge, bridgeFromDia } from '../../data/personBridge';
+import PoolLink from '../shared/PoolLink';   // H45: havuza dönüş
 
 function fmtDate(h, m, place) {
   const parts = [];
@@ -201,6 +202,11 @@ export default function DiaIdCard({ lang, td, bio, works, relations, lookup, tra
       <div className="dia-idcard-actions">
         <a href={diaUrl} target="_blank" rel="noopener noreferrer" className="dia-btn dia-btn-primary">
           📚 {td.viewDia || "DİA'da Görüntüle"}</a>
+        {/* H45: kaynak kartları TERMİNAL siloydu — kullanıcı maddeye
+            gelip orada kalıyor, aynı kişinin öbür kaynaklardaki izlerine
+            dönemiyordu. Havuza dönüş bağı pid ile kurulur; pid yoksa düğme
+            HİÇ çıkmaz (sahte tıklanabilirlik yok). */}
+        <PoolLink pid={bio.pid} lang={lang} style={{ marginInlineEnd: 8 }} />
         <button className="dia-btn dia-btn-secondary" onClick={handleShare}>🔗 {td.share || 'Paylaş'}</button>
       </div>
 

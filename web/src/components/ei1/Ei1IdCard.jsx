@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { EI1_FIELD_COLORS } from './ei1Constants';
+import PoolLink from '../shared/PoolLink';   // H45: havuza dönüş
 
 function fmtDate(h, m, place) {
   const parts = [];
@@ -179,6 +180,11 @@ export default function Ei1IdCard({ lang, te, bio, works, relations, lookup, onC
 
       {/* Actions */}
       <div className="ei1-idcard-actions">
+        {/* H45: kaynak kartları TERMİNAL siloydu — kullanıcı maddeye
+            gelip orada kalıyor, aynı kişinin öbür kaynaklardaki izlerine
+            dönemiyordu. Havuza dönüş bağı pid ile kurulur; pid yoksa düğme
+            HİÇ çıkmaz (sahte tıklanabilirlik yok). */}
+        <PoolLink pid={bio.pid} lang={lang} style={{ marginInlineEnd: 8 }} />
         <button className="ei1-btn ei1-btn-secondary" onClick={handleShare}>
           🔗 {te.share || 'Share'}
         </button>
