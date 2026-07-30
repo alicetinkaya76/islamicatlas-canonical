@@ -37,6 +37,7 @@ python3 pipelines/_index/build_lookup.py --quiet   # H31: indeks bayatlamasın (
 python3 pipelines/frontend/build_alatli_synchronic.py | sed 's/^/  /'   # H30: Alatlı senkronik atlas
 python3 pipelines/frontend/build_scholar_network.py | sed 's/^/  /'   # H34: canonical isnâd ağı
 python3 pipelines/frontend/build_ulema_pool.py | sed 's/^/  /' | tail -2   # H29: havuz bayatlamasın (yeni kişi mint'leri)
+python3 pipelines/frontend/build_ulema_pool_links.py | sed 's/^/  /'   # H44: havuz ilişki+not yan dosyaları
 python3 pipelines/frontend/build_causal_review.py | sed 's/^/  /'   # H37: nedensellik onay kuyruğu + okuyucu köprüsü
 python3 pipelines/frontend/build_canonical_overview.py | sed 's/^/  /'   # H28: Pano canonical özeti
 echo "  ✓ web/public/view-data/ güncel (eski görünümler artık merkezî defterden)"

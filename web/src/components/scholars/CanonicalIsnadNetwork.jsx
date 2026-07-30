@@ -125,9 +125,13 @@ export default function CanonicalIsnadNetwork({ lang = 'tr' }) {
             {sel.death_ce != null ? ` · ö. ${sel.death_ce}` : ''} · {sel.deg} {tr ? 'bağ' : 'links'}
             {sel.layers?.length ? ` · ${sel.layers.join(', ')}` : ''}
           </span>
-          <button onClick={() => { window.location.hash = `scholars?q=${encodeURIComponent(sel.name)}`; }}
+          {/* H44: bu düğme ADA göre arama yapıyordu (`?q=${sel.name}`) ve
+              kayıplıydı — havuz modu bile açılmıyordu. Ağın 3.393 düğümünün
+              TAMAMINDA `pid` var; pid tek kişiyi adresler (H43'te doğrulanmış
+              desen: SynchronicStrips → UlemaPool). */}
+          <button onClick={() => { window.location.hash = `scholars?pid=${encodeURIComponent(sel.pid)}`; }}
             style={{ marginLeft: 10, border: `1px solid ${GOLD}`, background: 'none', color: GOLD, borderRadius: 6, padding: '2px 8px', fontSize: 11.5, cursor: 'pointer' }}>
-            {tr ? 'Havuzda ara' : 'Search pool'}
+            {tr ? 'Havuzda aç' : 'Open in pool'}
           </button>
           <button onClick={() => setSel(null)}
             style={{ marginLeft: 6, border: 'none', background: 'none', color: '#a89b8c', cursor: 'pointer' }}>✕</button>

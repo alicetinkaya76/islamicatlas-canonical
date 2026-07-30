@@ -43,6 +43,10 @@ export default function ScholarView({ lang, t: tProp, initialPid, initialSearch 
      ÖLÇÜLDÜ: #scholars?pid=… ile gelindiğinde ekran "Hoca-Öğrenci Ağı"nda
      kalıyordu. Prop'a tepki veren efekt bunu kapatır. */
   useEffect(() => { if (initialPid) setView('pool'); }, [initialPid]);
+  /* Eski `#scholars?q=…` bağları da havuza düşsün: aranan kişi v1'in 450'lik
+     ağında büyük olasılıkla yok; arama kutusu boş bir ağ ekranı "anlamsız yere
+     gitmek"tir (H43'ün aynı sınıfı). */
+  useEffect(() => { if (initialSearch) setView('pool'); }, [initialSearch]);
   const [activeDiscs, setActiveDiscs] = useState(new Set(ALL_DISCS));
   const [periodYear, setPeriodYear] = useState(2025);
   const [linkFilter, setLinkFilter] = useState('');

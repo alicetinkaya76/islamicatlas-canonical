@@ -49,6 +49,16 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
   const [q, setQ] = useState(initialSearch || '');
   const [srcFilter, setSrcFilter] = useState(new Set());
   const [selected, setSelected] = useState(null);
+  /* H44 — HAVUZUN ASIL KAZANCI BURADA GÖRÜNÜR.
+     Ali sordu: "havuzda artırınca ne elde ediyoruz?" Ölçüldü: havuz 22.824
+     kişiye çıkmıştı ama yayınlanan kayıt yalnız 7 alan taşıyordu; mağazadaki
+     7.919 hoca, 7.926 talebe, 8.298 yer bağı ve 21.883 biyografik notun
+     HİÇBİRİ arayüze çıkmıyordu. Yani büyüme kayıt SAYISINI artırmış, kayıt
+     DERİNLİĞİNİ ekrana taşımamıştı.
+     Yan dosyalar LITE endeksi bozmadan bunu kapatır; liste aynı hızda kalır.
+     Notlar 4 MB olduğu için AYRI dosyada ve ilk seçimde bir kez yüklenir. */
+  const [links, setLinks] = useState(null);
+  const [notes, setNotes] = useState(null);
 
   useEffect(() => {
     const base = import.meta.env.BASE_URL || '/';
@@ -85,6 +95,20 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
        hilesine gerek kalmadan kişiyi listenin başına getirir. */
     setQ(nameTr(hit) || '');
   }, [initialPid, pool]);
+
+  useEffect(() => {
+    fetch('/view-data/ulema_pool_links.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => setLinks(d?.links || {}))
+      .catch(() => setLinks({}));
+  }, []);
+  useEffect(() => {                       // notlar: ilk seçimde, bir kez
+    if (!selected || notes) return;
+    fetch('/view-data/ulema_pool_notes.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => setNotes(d?.notes || {}))
+      .catch(() => setNotes({}));
+  }, [selected, notes]);
 
   const filtered = useMemo(() => {
     if (!pool) return [];
@@ -191,6 +215,73 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
             <div style={{ fontSize: 10.5, opacity: .45, marginTop: 8, fontFamily: 'monospace' }}>
               iac:person-{String(selected.id).padStart(8, '0')}
             </div>
+            {/* Nottan AYIKLANMIŞ bilgi. Ham `note` alanının %84'ü üretim izidir
+                ("cross-reference", "slug=", "Chunk count") — o gösterilmez;
+                içine gömülü gerçek bilgi çıkarılır (doğum yeri, uzmanlık,
+                kaynağın kendi ölüm ifadesi, serbest not). */}
+            {(() => {
+              const N = notes?.[String(selected.id)];
+              if (!N) return null;
+              return (
+                <div style={{ fontSize: 12.5, lineHeight: 1.7, marginTop: 10,
+                  borderLeft: `2px solid ${GOLD}`, paddingLeft: 9 }}>
+                  {N.y && <div><span style={{ opacity: .6 }}>{tr ? 'Doğum yeri' : 'Born in'}: </span>{N.y}</div>}
+                  {N.k?.length > 0 && (
+                    <div><span style={{ opacity: .6 }}>{tr ? 'Uzmanlık' : 'Field'}: </span>{N.k.join(' · ')}</div>
+                  )}
+                  {N.o && <div style={{ opacity: .75 }}><span style={{ opacity: .8 }}>{tr ? 'Kaynakta' : 'In source'}: </span>{N.o}</div>}
+                  {N.s && <div style={{ opacity: .85, marginTop: 3 }}>{N.s}</div>}
+                </div>
+              );
+            })()}
+
+            {/* İlişkiler — hoca / talebe / yer. Sayı gösterilir, tıklanınca
+                ilgili kişiye gidilir (pid sözleşmesi, H43). */}
+            {(() => {
+              const L = links?.[String(selected.id)];
+              if (!L) return null;
+              const grup = [
+                ['h', tr ? 'Hocaları' : 'Teachers'],
+                ['o', tr ? 'Talebeleri' : 'Students'],
+              ].filter(([k]) => L[k]?.length);
+              if (!grup.length && !L.y?.length) return null;
+              return (
+                <div style={{ marginTop: 14 }}>
+                  <div style={{ fontSize: 12, color: GOLD, fontWeight: 700, marginBottom: 6 }}>
+                    {tr ? 'İsnâd ve yer bağları' : 'Isnād and place links'}
+                  </div>
+                  {grup.map(([k, lbl]) => (
+                    <div key={k} style={{ fontSize: 12, marginBottom: 5 }}>
+                      <span style={{ opacity: .65 }}>{lbl} ({L[k].length}): </span>
+                      {L[k].slice(0, 6).map((pid) => {
+                        const n = Number(String(pid).split('-').pop());
+                        const kisi = pool?.find((x) => x.id === n);
+                        /* Havuz dışındaki uç: ham pid basmak yerine DÜRÜST bir
+                           etiket. Kenar gerçektir (mağazada var) ama karşı taraf
+                           havuz süzgecine girmemiştir; tıklanabilir yapmak boş
+                           ekrana götürürdü. */
+                        return kisi ? (
+                          <a key={pid} href={`#scholars?pid=${encodeURIComponent(pid)}`}
+                            style={{ color: GOLD, textDecoration: 'none', marginRight: 8 }}>
+                            {nameTr(kisi)}
+                          </a>
+                        ) : (
+                          <span key={pid} style={{ opacity: .45, marginRight: 8 }}
+                            title={pid}>{tr ? '(havuz dışı)' : '(outside pool)'}</span>
+                        );
+                      })}
+                      {L[k].length > 6 && <span style={{ opacity: .5 }}>+{L[k].length - 6}</span>}
+                    </div>
+                  ))}
+                  {L.y?.length > 0 && (
+                    <div style={{ fontSize: 12, opacity: .7 }}>
+                      📍 {tr ? 'Bağlı yer' : 'Places'}: {L.y.length}
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
+
             <div style={{ marginTop: 14, fontSize: 12, color: GOLD, fontWeight: 700 }}>
               {tr ? 'Kaynak izleri' : 'Source traces'}
             </div>

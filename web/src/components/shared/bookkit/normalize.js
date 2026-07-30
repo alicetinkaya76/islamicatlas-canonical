@@ -15,7 +15,9 @@ export const normalize = (s) =>
     .replace(/[āáà]/g, 'a').replace(/[ūú]/g, 'u').replace(/[īíì]/g, 'i')
     .replace(/[ḥḫ]/g, 'h').replace(/ṣ/g, 's').replace(/ṭ/g, 't')
     .replace(/ḍ/g, 'd').replace(/ẓ/g, 'z').replace(/ʿ|ʾ|'/g, '')
-    .replace(/[ؐ-ٰٟ]/g, '')
-    .replace(/ة/g, 'ه').replace(/ى/g, 'ي').replace(/أ|إ|آ/g, 'ا');
+    .normalize('NFKD').replace(/[\u0300-\u036F]/g, '')   // İ→i+U+0307 dahil birleşik diyakritikler
+    .replace(/[\u0610-\u061A\u064B-\u065F\u0670]/g, '')   // YALNIZ harekeler (harf bloğu DIŞARIDA)
+    .replace(/\u0640/g, '')                                   // tatvîl (ـ) aramada gürültü
+    .replace(/ة/g, 'ه').replace(/ى/g, 'ي').replace(/[أإآ]/g, 'ا');
 
 export default normalize;

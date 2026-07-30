@@ -114,10 +114,24 @@ export function buildScholarPopup(s, lang, t, causalIdx) {
   const mk = t.m;
   const leg = lf(s, 'legacy', lang);
 
+  /* H44: ANA HARİTANIN 450 ÂLİM POPUP'I "undefined — undefined" BASIYORDU.
+     Kod `s.field` ve `s.sub` okuyordu; db.json'da bu adlarda alan YOK
+     (ölçüldü: field 0/450, sub 0/450, work_tr 0/450). Doğru adlar `disc_tr`/
+     `disc_en` (450/450) ve `works_tr` (246/450) — yani veri hep oradaydı,
+     yalnız alan adı tutmuyordu. LayerManager ham `s`'i gönderiyor
+     (SCHOLAR_META birleştirmesi yalnız ScholarView'da yapılıyor) ve
+     scholar_meta.js'te de bu adlar yok, dolayısıyla değer hiçbir yoldan
+     dolmuyordu.
+
+     Boş satır BASILMAZ: veri yoksa satırın kendisi düşer — "undefined"
+     yazmaktansa hiç yazmamak dürüsttür. */
+  const disc = lf(s, 'disc', lang);
+  const work = lf(s, 'works', lang) || lf(s, 'work', lang);
+
   return `<div class="p-title">📚 ${n(s, lang)}</div>` +
     `<div class="p-row"><span class="p-k">${mk.born}</span><span class="p-v">${s.b || '?'} – ${s.d || '?'}</span></div>` +
-    `<div class="p-row"><span class="p-k">${mk.field}</span><span class="p-v">${s.field} — ${s.sub}</span></div>` +
-    `<div class="p-row"><span class="p-k">${mk.work}</span><span class="p-v">${lf(s, 'work', lang)}</span></div>` +
+    (disc ? `<div class="p-row"><span class="p-k">${mk.field}</span><span class="p-v">${disc}</span></div>` : '') +
+    (work ? `<div class="p-row"><span class="p-k">${mk.work}</span><span class="p-v">${work}</span></div>` : '') +
     narrBlock(s, lang) +
     ctxRow('🏆', mk.legacy, leg) +
     ctxRow('🔗', mk.chain, lf(s, 'chain', lang)) +
