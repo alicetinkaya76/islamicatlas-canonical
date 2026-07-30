@@ -41,12 +41,12 @@ const roleOf = (r) => (r.m && r.m.length ? r.m[0] : '');
 
 const ITEM_H = 62;
 
-export default function UlemaPool({ lang = 'tr' }) {
+export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
   const tr = lang !== 'en';
   const [pool, setPool] = useState(null);
   const [meta, setMeta] = useState(null);
   const [err, setErr] = useState(false);
-  const [q, setQ] = useState('');
+  const [q, setQ] = useState(initialSearch || '');
   const [srcFilter, setSrcFilter] = useState(new Set());
   const [selected, setSelected] = useState(null);
 
@@ -68,6 +68,23 @@ export default function UlemaPool({ lang = 'tr' }) {
       return next;
     });
   }, []);
+
+  /* H43: dışarıdan gelen pid'i kayda çöz. Havuz kimliği SAYIDIR
+     (_pid_format: "iac:person-%08d") — gelen 'iac:person-00005687' → 5687.
+     Ölçüldü: senkronik şeritteki 231 pid'in 231'i havuzda karşılık buluyor. */
+  useEffect(() => {
+    if (!initialPid || !pool) return;
+    const m = String(initialPid).match(/(\d+)\s*$/);
+    if (!m) return;
+    const hit = pool.find((r) => Number(r.id) === Number(m[1]));
+    if (!hit) return;
+    setSelected(hit);
+    /* Listeyi de o kişiye getir: 22.824 kayıtlık sanal listede seçili kayıt
+       ekranın çok dışında kalıyordu (ölçüldü: sağ panel doğru kişiyi açarken
+       liste Abū Bakr'dan başlıyordu). Arama kutusunu adıyla doldurmak, kaydırma
+       hilesine gerek kalmadan kişiyi listenin başına getirir. */
+    setQ(nameTr(hit) || '');
+  }, [initialPid, pool]);
 
   const filtered = useMemo(() => {
     if (!pool) return [];

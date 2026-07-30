@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import DB from '../../data/db.json';
 import SCHOLAR_META from '../../data/scholar_meta';
 import SCHOLAR_LINKS from '../../data/scholar_links';
@@ -30,9 +30,19 @@ const DISC_EN = {
   'Mimari & Sanat':'Architecture', 'Çağdaş İslam Düşüncesi':'Modern Thought',
 };
 
-export default function ScholarView({ lang, t: tProp }) {
+export default function ScholarView({ lang, t: tProp, initialPid, initialSearch }) {
   const t = tProp || T[lang];
-  const [view, setView] = useState('network'); // 'network' | 'isnad' | 'timeline'
+  /* H43: pid ile gelindiğinde doğrudan HAVUZ modunda açılır — v1'in 450'lik
+     ağında o kişi zaten yoktur; varsayılan moda düşmek "anlamsız yere gitmek"
+     demekti (ölçüldü: senkronik şeritten gelen bağ). */
+  const [view, setView] = useState(initialPid ? 'pool' : 'network'); // 'network' | 'isnad' | 'timeline' | 'pool' | 'canonical'
+
+  /* useState BAŞLANGIÇ DEĞERİ yalnız ilk render'da okunur. Sekme zaten
+     açıkken hash değişirse (SPA içi gezinme — senkronik şeritten gelen bağ tam
+     olarak böyle çalışır) bileşen yeniden mount OLMAZ ve mod değişmezdi.
+     ÖLÇÜLDÜ: #scholars?pid=… ile gelindiğinde ekran "Hoca-Öğrenci Ağı"nda
+     kalıyordu. Prop'a tepki veren efekt bunu kapatır. */
+  useEffect(() => { if (initialPid) setView('pool'); }, [initialPid]);
   const [activeDiscs, setActiveDiscs] = useState(new Set(ALL_DISCS));
   const [periodYear, setPeriodYear] = useState(2025);
   const [linkFilter, setLinkFilter] = useState('');
@@ -269,7 +279,7 @@ export default function ScholarView({ lang, t: tProp }) {
       )}
 
       {/* H20 S3: Havuz modu — kendi arama/filtresi var, 450-set araçları kapalı */}
-      {view === 'pool' && <UlemaPool lang={lang} />}
+      {view === 'pool' && <UlemaPool lang={lang} initialPid={initialPid} initialSearch={initialSearch} />}
       {view === 'canonical' && <CanonicalIsnadNetwork lang={lang} />}
 
       {/* Main area */}

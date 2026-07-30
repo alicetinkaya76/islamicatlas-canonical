@@ -273,9 +273,12 @@ export default function SynchronicStrips({ lang = 'tr' }) {
               {sel.r.cite.text && <div style={{ opacity: .7, marginTop: 2 }}>{String(sel.r.cite.text).slice(0, 160)}</div>}
             </div>
           )}
+          {/* H43: bağ ADA göre değil PID'e göre kurulur. "Muhammed" gibi genel
+              bir adla arama anlamsız sonuç veriyordu (#scholars?q=Muhammed);
+              pid tek bir kişiyi adresler ve havuz modunu doğrudan açar. */}
           <div style={{ display: 'flex', gap: 8, marginTop: 9, flexWrap: 'wrap' }}>
             {sel.r.pid ? (
-              <button onClick={() => { window.location.hash = `scholars?q=${encodeURIComponent(sel.r.name)}`; }}
+              <button onClick={() => { window.location.hash = `scholars?pid=${encodeURIComponent(sel.r.pid)}`; }}
                 style={{ border: `1px solid ${GOLD}`, background: 'rgba(201,168,76,.12)', color: GOLD,
                   borderRadius: 7, padding: '4px 10px', fontSize: 11.5, cursor: 'pointer' }}>
                 🎓 {tr ? 'Âlimler havuzunda aç' : 'Open in scholar pool'}

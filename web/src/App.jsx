@@ -501,7 +501,10 @@ export default function App() {
         {tab === 'map' ? <MapView lang={lang} t={t} sidebarOpen={sidebarOpen} mapRef={mapRef} onPopupOpen={recordDiscovery} onTourComplete={handleTourComplete} onCloseSidebar={() => setSidebarOpen(false)} entityRoute={entityRoute} onEntityRouteConsumed={clearEntityRoute} /> :
          tab === 'dashboard' ? <Dashboard lang={lang} t={t} onTabChange={selectTab} /> :
          tab === 'timeline' ? <TimelineView lang={lang} t={t} /> :
-         tab === 'scholars' ? <ScholarView lang={lang} t={t} /> :
+         /* H43: hash parametreleri ScholarView'a HİÇ GEÇMİYORDU — bu yüzden
+            #scholars?q=… derin linki sessizce yok sayılıyor, kullanıcı boş
+            varsayılan ekrana düşüyordu (senkronik şeritten gelen bağ). */
+         tab === 'scholars' ? <ScholarView lang={lang} t={t} initialPid={hashParams.pid} initialSearch={hashParams.q} /> :
          tab === 'battles' ? <BattleView lang={lang} t={t} /> :
          tab === 'alam' ? <AlamView lang={lang} t={t} initialSearch={hashParams.search} initialId={hashParams.id} /> :
          tab === 'yaqut' ? <YaqutView lang={lang} t={t} initialSearch={hashParams.search} /> :
