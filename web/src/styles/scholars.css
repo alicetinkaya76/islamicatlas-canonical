@@ -589,3 +589,25 @@
   .isnad-chain-bar { flex-direction: column; gap: 4px; padding: 6px 8px; }
   .isnad-chain-chip { font-size: 9px; padding: 2px 6px; }
 }
+
+/* H41: v2 modlarının sayı rozeti. Ölçüldü — kullanıcı Âlimler'i açıp "hâlâ 450"
+   diyordu: havuz (22.824) ve canonical ağ (3.393) 4. ve 5. sekmede gizliydi,
+   varlıkları ilk bakışta görünmüyordu. Rozet v1 render yoluna dokunmaz. */
+.scholar-view-badge {
+  display: inline-block;
+  margin-inline-start: 6px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.5;
+  background: rgba(201, 168, 76, .18);
+  color: #c9a84c;
+  border: 1px solid rgba(201, 168, 76, .35);
+  vertical-align: middle;
+}
+.scholar-view-btn.active .scholar-view-badge {
+  background: rgba(15, 20, 25, .22);
+  color: #0f1419;
+  border-color: rgba(15, 20, 25, .3);
+}

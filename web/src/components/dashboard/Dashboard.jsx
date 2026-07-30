@@ -10,21 +10,48 @@ import '../../styles/dashboard.css';
 import { f, n } from '../../data/i18n-utils';
 import T from '../../data/i18n';
 
-/* ── CountUp animation ── */
+/* ── CountUp animation ──
+   H41: SAYI, ANİMASYONA BAĞLI OLAMAZ. Tarayıcı gizli/arka plandaki sekmede
+   requestAnimationFrame'i kısar (ölçüldü: document.hidden=true → 500ms'de
+   0 kare) — o hâlde bileşen mount olursa sayaç "0"da KALIYORDU. Yani Pano
+   bütün sayılarını 0 gösteriyordu; veri yerindeydi, animasyon hiç başlamıyordu.
+   (H17'de aynı rAF-kısıtlaması kaydırma işinde öğrenilmişti; sayaç
+   düzeltilmemişti.)
+
+   Kural: animasyon SÜSTÜR, sayı VERİDİR. Süs çalışmazsa sayı yine görünür. */
 function CountUp({ target, duration = 1800 }) {
   const ref = useRef(null);
   useEffect(() => {
-    let start = null;
     const el = ref.current;
     if (!el) return;
+    const fmt = (v) => Math.round(v).toLocaleString('tr-TR');
+    const jumpToEnd = () => { el.textContent = fmt(target); };
+
+    // Gizli sekmede animasyon YOK: son değer doğrudan yazılır.
+    if (typeof document !== 'undefined' && document.hidden) {
+      jumpToEnd();
+      // Sekme görünür olunca bir kez animasyonlu göster (süs geri gelir).
+      const onVis = () => {
+        if (!document.hidden) { document.removeEventListener('visibilitychange', onVis); run(); }
+      };
+      document.addEventListener('visibilitychange', onVis);
+      return () => document.removeEventListener('visibilitychange', onVis);
+    }
+
+    let raf = null, start = null, done = false;
     const ease = t => 1 - Math.pow(1 - t, 3);
     function frame(ts) {
       if (!start) start = ts;
       const p = Math.min((ts - start) / duration, 1);
-      el.textContent = Math.round(ease(p) * target).toLocaleString();
-      if (p < 1) requestAnimationFrame(frame);
+      el.textContent = fmt(ease(p) * target);
+      if (p < 1) raf = requestAnimationFrame(frame); else done = true;
     }
-    requestAnimationFrame(frame);
+    function run() { start = null; done = false; raf = requestAnimationFrame(frame); }
+    run();
+    /* Emniyet kemeri: rAF hiç ateşlenmezse (sekme animasyon ortasında gizlenir,
+       tarayıcı kısar) süre dolduğunda son değeri yaz. Sayı asla 0'da kalmaz. */
+    const safety = setTimeout(() => { if (!done) jumpToEnd(); }, duration + 400);
+    return () => { if (raf) cancelAnimationFrame(raf); clearTimeout(safety); };
   }, [target, duration]);
   return <span ref={ref}>0</span>;
 }
@@ -288,9 +315,24 @@ export default function Dashboard({ lang, t: tProp, onTabChange }) {
     <div className="dashboard" style={{ overflowY: 'auto', maxHeight: 'calc(100vh - 64px)', paddingBottom: 40 }}>
       <div className="dash-grid">
 
-        {/* CARD 1: Overview */}
+        {/* CARD 1: Overview
+            H41: bu kartın NE OLDUĞU yazmıyordu. Ölçüldü/bildirildi: kullanıcı
+            "âlimler hâlâ 450" diyor — çünkü burada 450 yazıyor, aşağıdaki
+            Merkezî Defter kartında 22.824 yazıyor ve ikisi arasında hiçbir bağ
+            görünmüyor. Sayı yanlış değil; ETİKETİ eksikti. */}
         <div className="dash-card dash-card-wide">
-          <h3 className="dash-card-title">{td.overview || 'Overview'}</h3>
+          <h3 className="dash-card-title">
+            {td.overview || 'Overview'}
+            <span style={{ fontSize: 11, fontWeight: 400, opacity: .6, marginInlineStart: 8 }}>
+              {{ tr: ' — elle kürasyonlu çekirdek set (v1)', en: ' — hand-curated core set (v1)',
+                 ar: ' — مجموعة منتقاة' }[lang]}
+            </span>
+          </h3>
+          <p style={{ margin: '-4px 0 10px', fontSize: 12, opacity: .6 }}>
+            {{ tr: `Seçilmiş, anlatısı yazılmış kayıtlar. Defterin TAMAMI için aşağıdaki Merkezî Defter kartına bakın (${CANONICAL.store.total.toLocaleString('tr-TR')} kayıt).`,
+               en: `Selected records with written narrative. See the Canonical Store card below for the full store (${CANONICAL.store.total.toLocaleString('en-US')} records).`,
+               ar: 'مجموعة منتقاة؛ انظر السجل المركزي أدناه' }[lang]}
+          </p>
           <div className="dash-overview-grid">
             {overviewStats.map(s => (
               <div key={s.key} className="dash-stat" onClick={() => goTab(s.tab)} role="button" tabIndex={0}>

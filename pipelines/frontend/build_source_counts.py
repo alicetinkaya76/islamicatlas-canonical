@@ -252,6 +252,47 @@ def build() -> dict:
             {"unit": "kitap", "batches": len(d.get("batches", []))},
             [rel(p)])
 
+    # --- H41: v2 görünümlerinin rozetleri --------------------------------
+    # Ölçüldü: Âlimler ekranı açılınca kullanıcı "hâlâ 450" diyordu; havuz ve
+    # canonical ağ gizli sekmelerdeydi ve sayıları görünmüyordu. Rozet eklendi
+    # ama sayıları SABİT KODLAMAK H27'nin eleştirdiği hataydı → buradan üretilir.
+    p = REPO / "web" / "public" / "books" / "ulema_pool.json"
+    d = load(p)
+    sources["ulemapool"] = (entry(None, None, [rel(p)], "missing") if d is None
+                            else entry(d.get("n") or len(d.get("kisiler", [])),
+                                       {"unit": "kişi"}, [rel(p)]))
+
+    p = REPO / "web" / "public" / "view-data" / "scholar_network.json"
+    d = load(p)
+    sources["scholarnet"] = (entry(None, None, [rel(p)], "missing") if d is None
+                             else entry(len(d.get("nodes", [])),
+                                        {"unit": "âlim", "edges": len(d.get("edges", []))},
+                                        [rel(p)]))
+
+    p = REPO / "web" / "public" / "view-data" / "alatli_synchronic.json"
+    d = load(p)
+    if d is None:
+        sources["alatli"] = entry(None, None, [rel(p)], "missing")
+    else:
+        c = d.get("counts", {})
+        sources["alatli"] = entry(
+            c.get("bize", 0) + c.get("batiya", 0) + c.get("both", 0),
+            {"unit": "kişi", "bize": c.get("bize"), "batiya": c.get("batiya"),
+             "with_coords": c.get("with_coords")},
+            [rel(p)])
+
+    p = REPO / "data" / "sources" / "causal" / "causal_links.json"
+    d = load(p)
+    if d is None:
+        sources["causal"] = entry(None, None, [rel(p)], "missing")
+    else:
+        recs = d.get("records", [])
+        onay = sum(1 for r in recs if (r.get("review") or {}).get("verdict") == "approve")
+        # Rozet ONAYLANANI gösterir: onaysız bağ hiçbir yere girmez, sayılmaz da.
+        sources["causal"] = entry(onay, {"unit": "onaylı bağ", "total": len(recs),
+                                         "pending": sum(1 for r in recs if r.get("needs_human_review"))},
+                                  [rel(p)])
+
     all_files = sorted({f for s in sources.values() for f in s["files"]})
     return {
         "generated_by": "pipelines/frontend/build_source_counts.py",

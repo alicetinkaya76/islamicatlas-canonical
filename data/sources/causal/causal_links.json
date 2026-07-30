@@ -40,10 +40,10 @@
     "rejected": 13
    }
   ],
-  "decided": 148,
-  "approved": 147,
-  "rejected": 1,
-  "pending": 22
+  "decided": 167,
+  "approved": 163,
+  "rejected": 4,
+  "pending": 3
  },
  "records": [
   {
@@ -58,7 +58,7 @@
    "connector_ar": "بسبب",
    "cause_tr": "Bîverasb'ın adamlarının Kâbî'nin iki oğlunu alıp götürmesi",
    "effect_tr": "Isfahan halkından Kâbî adlı sıradan bir adamın ayaklanması ve insanları Bîverasb ile savaşmaya çağırması",
-   "quote_ar": "وثب رجل من العامة من أهل أصبهان يقال له كابي بسبب ابنين له أخذهما أصحاب بيوراسب ... ثم نصب ذلك كالعلم ودعا الناس إلى مجاهدة بيوراسب ومحاربته فأسرع إلى إجابته خلق كثير",
+   "quote_ar": "وثب رجل من العامة من أهل أصبهان بقال له كابي بسبب ابنين له أخذهما أصحاب بيوراسب ... ثم نصب ذلك كالعلم ودعا الناس إلى مجاهدة بيوراسب ومحاربته فأسرع إلى إجابته خلق كثير",
    "cause_is_proposition": true,
    "evidence_complete": true,
    "effect_realized": "realized",
@@ -74,7 +74,9 @@
     "reason_a": "بسبب bağımsız bir kelime olarak geçiyor ve isyanın gerekçesini doğrudan kuruyor; hem sebep (iki oğlunun alınması) hem sonuç (ayaklanma ve halkı savaşa çağırma) alıntıda mevcut.",
     "reason_b": "Alıntıda \"بسبب\" gerçek bir ta'lil edatı olarak Kâbî'nin ayaklanmasını iki oğlunun Bîverasb'ın adamlarınca alınmasına bağlıyor; sebep de sonuç da metinde önerme halinde ve yön doğru.",
     "evidence": "وثب رجل من العامة من أهل أصبهان يقال له كابي بسبب ابنين له أخذهما أصحاب بيوراسب"
-   }
+   },
+   "quote_ar_model_edited": "وثب رجل من العامة من أهل أصبهان يقال له كابي بسبب ابنين له أخذهما أصحاب بيوراسب ... ثم نصب ذلك كالعلم ودعا الناس إلى مجاهدة بيوراسب ومحاربته فأسرع إلى إجابته خلق كثير",
+   "quote_source_aligned": true
   },
   {
    "book_pid": "00000331",
@@ -146,15 +148,28 @@
    "place_pid": "iac:place-00001200",
    "link_type": "explicit_talil",
    "connector_ar": "وسبب ذلك",
-   "cause_tr": "Cumartesi günleri kendilerine bol balık gelmesi, cumartesi dışındaki günlerde ise hiç balık gelmemesi (gerçek suç/ihlâl halkası alıntıda yok)",
-   "effect_tr": "Eyle halkının maymuna çevrilmesi (mesh)",
-   "quote_ar": "وفي ملكه مسخ أهل أيلة قردة وسبب ذلك أنهم كانوا تأتيهم يوم السبت حيتان البحر كثيرا فإذا كان غير يوم السبت لا يجيء إليهم منها شيء",
+   "cause_tr": "Eyle halkının cumartesi yasağını havuz hilesiyle çiğneyip balıkları pazar günü toplaması ve içlerinden bazılarının nehyine rağmen vazgeçmemesi",
+   "effect_tr": "Allah'ın onları maymuna çevirmesi (mesh)",
+   "quote_ar": "وفي ملكه مسخ أهل أيلة قردة وسبب ذلك أنهم كانوا تأتيهم يوم السبت حيتان البحر كثيرا فإذا كان غير يوم السبت لا يجيء إليهم منها شيء فعملوا على جانب البحر حياضا كبيرة وأجروا فيها الماء فإذا كان آخر نهار يوم الجمعة يتحول الماء إلى الحياض فتدخلها الحيتان ولا تقدر على الخروج عنها فيأخذونها يوم الأحد فنهاهم بعض أهلها فلم ينتهوا فمسخهم الله قردة",
    "cause_is_proposition": true,
    "evidence_complete": false,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "low",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "وفي ملكه مسخ أهل أيلة قردة وسبب ذلك أنهم كانوا تأتيهم يوم السبت حيتان البحر كثيرا فإذا كان غير يوم السبت لا يجيء إليهم منها شيء",
+   "quote_widened": true,
+   "cause_tr_original": "Cumartesi günleri kendilerine bol balık gelmesi, cumartesi dışındaki günlerde ise hiç balık gelmemesi (gerçek suç/ihlâl halkası alıntıda yok)",
+   "effect_tr_original": "Eyle halkının maymuna çevrilmesi (mesh)",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "وسبب ذلك'in mercii geniş pasajda açıkça mesh olayıdır ve kronikçi gerekçe cümlesini sonuna kadar sürdürerek havuz hilesiyle cumartesi yasağını çiğneme ve nehye uymama halkasını mesh sebebi olarak bizzat kurar.",
+    "reason_b": "Genis pasajda İbnü'l-Esîr mesh olayının sebebini kendisi kuruyor; ancak gerçek komşu halka bol balık gelmesi degil, cumartesi yasağını havuz hilesiyle çiğneyip uyarıya rağmen vazgeçmemeleridir."
+   }
   },
   {
    "book_pid": "00000331",
@@ -287,15 +302,28 @@
    "place_pid": "iac:place-00013423",
    "link_type": "explicit_talil",
    "connector_ar": "وكان سببها أن",
-   "cause_tr": "Benî Nadîr yahudilerinden Sellâm b. Ebü'l-Hukayk, Huyey b. Ahtab, Kinâne b. er-Rebî' ve diğerlerinin Hz. Peygamber'e karşı Ahzâb'ı toplaması",
-   "effect_tr": "Şevval ayındaki gazve (sonucun zamiri ها alıntı dışına gönderiyor)",
-   "quote_ar": "وكانت في شوال وكان سببها أن نفرا من يهود من بني النضير منهم سلام بن أبي الحقيق وحيي بن أخطب وكنانة بن الربيع بن أبي الحقيق وغيرهم حزبوا الأحزاب على رسول الله",
+   "cause_tr": "Benî Nadîr yahudilerinden Sellâm b. Ebü'l-Hukayk, Huyey b. Ahtab ve Kinâne b. er-Rebî' gibi kimselerin Hz. Peygamber'e karşı Kureyş ve Gatafân'ı toplayıp savaşa çağırması",
+   "effect_tr": "Ahzâb'ın Medine üzerine yürümesi ve Hz. Peygamber'in hendek kazdırdığı Hendek (Ahzâb) gazvesi",
+   "quote_ar": "وكانت في شوال وكان سببها أن نفرا من يهود من بني النضير منهم سلام بن أبي الحقيق وحيي بن أخطب وكنانة بن الربيع بن أبي الحقيق وغيرهم حزبوا الأحزاب على رسول الله فقدموا على قريش بمكة فدعوهم إلى حرب رسول الله وقالوا نكون معكم حتى نستأصله فأجابوهم إلى ذلك ثم أتوا على غطفان فدعوهم إلى حرب رسول الله وأخبروهم أن قريشا معهم على ذلك فأجابوهم فخرجت قريش وقائدها أبو سفيان بن حرب وخرجت غطفان وقائدها عيينة بن حصن في بني فزارة والحارث بن عوف بن أبي حارثة المري في مرة ومسعر بن رخيلة الأشجعي في أشجع فلما سمع بهم رسول الله أمر بحفر الخندق",
    "cause_is_proposition": true,
    "evidence_complete": false,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "medium",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "وكانت في شوال وكان سببها أن نفرا من يهود من بني النضير منهم سلام بن أبي الحقيق وحيي بن أخطب وكنانة بن الربيع بن أبي الحقيق وغيرهم حزبوا الأحزاب على رسول الله",
+   "quote_widened": true,
+   "cause_tr_original": "Benî Nadîr yahudilerinden Sellâm b. Ebü'l-Hukayk, Huyey b. Ahtab, Kinâne b. er-Rebî' ve diğerlerinin Hz. Peygamber'e karşı Ahzâb'ı toplaması",
+   "effect_tr_original": "Şevval ayındaki gazve (sonucun zamiri ها alıntı dışına gönderiyor)",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Baglaç açık ta'lildir (وكان سببها أن), sebep yuvasında olay vardır (حزبوا الأحزاب) ve geniş pasaj ها'nın mercii olan gazveyi zincirin sonunda hendek kazma emriyle metin içinde görünür kılar.",
+    "reason_b": "Genis pencerede ها zamirinin mercii metnin içinde temellenmiş oluyor (hendek kazma emri) ve kaynak Benî Nadîr yahudilerinin Ahzâb'ı toplamasını gazvenin sebebi olarak açıkça kuruyor."
+   }
   },
   {
    "book_pid": "00000331",
@@ -458,15 +486,28 @@
    "place_pid": null,
    "link_type": "explicit_talil",
    "connector_ar": "وكان سبب ذلك",
-   "cause_tr": "Osman'ın Muâviye'ye mektup yazıp Habîb b. Mesleme'yi Şam halkıyla Ermeniye'ye gazâya göndermesini emretmesi",
-   "effect_tr": "Muâviye'nin onu oraya sevketmesi, Habîb'in Kālîkalâ'ya gelip şehri kuşatması (ذلك'in mercii alıntı dışında)",
-   "quote_ar": "وكان سبب ذلك أن عثمان كتب إلى معاوية يأمره أن يغزي حبيب بن مسلمة في أهل الشام أرمينية فوجهه إليها فأتى قاليقلا فحصرها",
+   "cause_tr": "Osman'ın Muâviye'ye mektup yazıp Habîb b. Mesleme'yi Şam ordusuyla Ermeniye gazâsına göndermesini emretmesi ve Habîb'in Kālîkalâ'ya varıp şehri kuşatmasıyla açılan sefer",
+   "effect_tr": "Habîb b. Mesleme'ye Selmân b. Rebîa ile takviye gönderenin Saîd b. el-Âs olması",
+   "quote_ar": "وقيل إن الذي أمد حبيب بن مسلمة بسلمان بن ربيعة كان سعيد بن العاص وكان سبب ذلك أن عثمان كتب إلى معاوية يأمره أن يغزي حبيب بن مسلمة في أهل الشام أرمينية فوجهه إليها فأتى قاليقلا فحصرها",
    "cause_is_proposition": true,
    "evidence_complete": true,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "medium",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "وكان سبب ذلك أن عثمان كتب إلى معاوية يأمره أن يغزي حبيب بن مسلمة في أهل الشام أرمينية فوجهه إليها فأتى قاليقلا فحصرها",
+   "quote_widened": true,
+   "cause_tr_original": "Osman'ın Muâviye'ye mektup yazıp Habîb b. Mesleme'yi Şam halkıyla Ermeniye'ye gazâya göndermesini emretmesi",
+   "effect_tr_original": "Muâviye'nin onu oraya sevketmesi, Habîb'in Kālîkalâ'ya gelip şehri kuşatması (ذلك'in mercii alıntı dışında)",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Geniş pasaj ذلك'in merciini gösteriyor: Habîb'e Selmân b. Rebîa ile takviyeyi gönderenin Saîd b. el-Âs olduğu rivayeti; kronikçi bunun sebebini Osman'ın Ermeniye gazâsı emriyle başlayan sefer olarak açık ta'lil ile kuruyor, ancak önceki okuma sonucu sebep zincirinin bir halkasıyla karıştırmış.",
+    "reason_b": "Genis pencere ذلك'in merciini açığa çıkardı: açıklanan şey Habîb'e Selmân b. Rebîa ile takviye gönderenin Saîd b. el-Âs olmasıdır; önceki okuma sonuç yuvasına zincirin ara halkasını (Kālîkalâ kuşatması) koymuştu."
+   }
   },
   {
    "book_pid": "00000331",
@@ -478,15 +519,28 @@
    "place_pid": null,
    "link_type": "explicit_talil",
    "connector_ar": "وكان سبب عزله أن",
-   "cause_tr": "Îzec halkı ile Kürtlerin Osman'ın hilâfetinin üçüncü yılında irtidâd etmesi ve Ebû Mûsâ'nın halkı cihada teşvik edip yaya cihadın faziletini anlatması",
-   "effect_tr": "Ebû Mûsâ'nın (Basra'dan) azledilmesi",
-   "quote_ar": "وكان سبب عزله أن أهل إيذج والأكراد كفروا في السنة الثالثة من خلافة عثمان فنادى أبو موسى في الناس وحضهم على الجهاد وذكر من فضل الجهاد ماشيا",
+   "cause_tr": "Ebû Mûsâ'nın yaya cihadın faziletini anlatıp kendisi ağırlığını kırk katırla çıkarması, bineklerden pay isteyen halkı kamçılaması ve halkın bunun üzerine Osman'a gidip ondan kurtarılmayı istemesi",
+   "effect_tr": "Ebû Mûsâ el-Eş'arî'nin Basra valiliğinden azledilmesi",
+   "quote_ar": "وكان سبب عزله أن أهل إيذج والأكراد كفروا في السنة الثالثة من خلافة عثمان فنادى أبو موسى في الناس وحضهم على الجهاد وذكر من فضل الجهاد ماشيا فحمل نفر على دوابهم وأجمعوا على أن يخرجوا رجالة وقال آخرون لا نعجل بشيء حتى ننظر ما يصنع فإن أشبه قوله فعله فعلنا كما يفعل فلما خرج أخرج ثقله من قصره على أربعين بغلا فتعلقوا بعنانه وقالوا احملنا على بعض هذه الفضول وارغب في المشي كما رغبتنا فيه فضرب القوم بسوطه فتركوا دابته فمضى وأتوا عثمان فاستعفوه منه وقالوا ما كل ما نعلم نحب أن تسألنا عنه فأبدلنا به فقال من تحبون فقالوا غيلان بن خرشة في كل أحد عوض من هذا العبد الذي قد أكل أرضنا أما منكم خسيس فترفعونه أما منكم فقير فتجبرونه يا معشر قريش حتى متى يأكل هذا الشيخ الأشعري هذه البلاد فانتبه لها عثمان فعزل أبا موسى وولى عبد الله بن عامر بن كريز",
    "cause_is_proposition": true,
    "evidence_complete": false,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "medium",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "وكان سبب عزله أن أهل إيذج والأكراد كفروا في السنة الثالثة من خلافة عثمان فنادى أبو موسى في الناس وحضهم على الجهاد وذكر من فضل الجهاد ماشيا",
+   "quote_widened": true,
+   "cause_tr_original": "Îzec halkı ile Kürtlerin Osman'ın hilâfetinin üçüncü yılında irtidâd etmesi ve Ebû Mûsâ'nın halkı cihada teşvik edip yaya cihadın faziletini anlatması",
+   "effect_tr_original": "Ebû Mûsâ'nın (Basra'dan) azledilmesi",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Baglaç sonucu kendi içinde taşıyor (سبب عزله) ve geniş pasaj gerekçe zincirinin kesilen halkalarını veriyor: yaya cihadı öven Ebû Mûsâ'nın kırk katır yükle çıkması ve kamçı vurması üzerine halkın Osman'a giderek azlini istemesi.",
+    "reason_b": "Kaynak azlin sebebini açıkça \"وكان سبب عزله أن\" ile kuruyor, fakat zincirin sonuca komşu halkası irtidâd haberi degil, kırk katır olayının ardından Basralıların Osman'a gidip Ebû Mûsâ'dan şikâyetle azlini istemesidir."
+   }
   },
   {
    "book_pid": "00000331",
@@ -619,15 +673,28 @@
    "place_pid": null,
    "link_type": "explicit_talil",
    "connector_ar": "وكان سبب ذلك",
-   "cause_tr": "Hüseyin'in öldürüldüğü haberinin Abdullah b. ez-Zübeyr'e ulaşması, onun halk içinde kalkıp bu katli büyütmesi ve Kûfe ile Irak halkını ayıplaması",
-   "effect_tr": "Abdullah b. ez-Zübeyr'in Yezîd'e muhalefetini açığa vurması ve Mekke'de kendisine biat edilmesi",
-   "quote_ar": "وكان سبب ذلك أن عبد الله بن الزبير أظهر الخلاف علي يزيد وبويع بمكة بعد قتل الحسين فإنه لما بلغه قتل الحسين قام في الناس فعظم قتله وعاب أهل الكوفة خاصة وأهل العراق عامة",
+   "cause_tr": "Abdullah b. ez-Zübeyr'in Hüseyin'in katlinden sonra Yezîd'e muhalefetini açığa vurması ve Mekke'de kendisine biat edilmesi",
+   "effect_tr": "Yezîd'in Amr b. Saîd'i Medine valiliğinden azledip Velîd b. Utbe b. Ebî Süfyân'ı tayin etmesi",
+   "quote_ar": "قيل وفي هذه السنة عزل يزيد عمرو بن سعيد عن المدينة وولاها الوليد بن عتبة بن أبي سفيان وكان سبب ذلك أن عبد الله بن الزبير أظهر الخلاف علي يزيد وبويع بمكة بعد قتل الحسين",
    "cause_is_proposition": true,
    "evidence_complete": true,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "medium",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "وكان سبب ذلك أن عبد الله بن الزبير أظهر الخلاف علي يزيد وبويع بمكة بعد قتل الحسين فإنه لما بلغه قتل الحسين قام في الناس فعظم قتله وعاب أهل الكوفة خاصة وأهل العراق عامة",
+   "quote_widened": true,
+   "cause_tr_original": "Hüseyin'in öldürüldüğü haberinin Abdullah b. ez-Zübeyr'e ulaşması, onun halk içinde kalkıp bu katli büyütmesi ve Kûfe ile Irak halkını ayıplaması",
+   "effect_tr_original": "Abdullah b. ez-Zübeyr'in Yezîd'e muhalefetini açığa vurması ve Mekke'de kendisine biat edilmesi",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Geniş pasajın açılışı ذلك'in merciini veriyor (Amr b. Saîd'in azli ve Velîd b. Utbe'nin tayini) ve kronikçi bunun sebebi olarak İbn ez-Zübeyr'in Mekke'de biat alarak muhalefetini açığa vurmasını koyuyor; önceki okuma sebep-sonuç uçlarını pasajın iç halkasıyla değiştirmiş.",
+    "reason_b": "Genis pencere ذلك'in merciini gösterdi: kaynağın kurduğu bağ, İbnü'z-Zübeyr'in Yezîd'e muhalefetini açıkça göstermesi ve Mekke'de biat alması → Yezîd'in Amr b. Saîd'i Medine'den azledip Velîd b. Utbe'yi tayin etmesidir; önceki okuma sebep-sonucu bir halka geriye kaydırmıştı."
+   }
   },
   {
    "book_pid": "00000331",
@@ -729,15 +796,28 @@
    "place_pid": "iac:place-00008279",
    "link_type": "explicit_talil",
    "connector_ar": "وسبب ذلك",
-   "cause_tr": "Abdülmelik'in, Amr b. Saîd b. el-Âs'ı öldürdükten sonra kılıç çekip muhaliflerini öldürmesi ve böylece Şam'ın kendisine kalması",
-   "effect_tr": "Mus'ab b. ez-Zübeyr'in öldürülmesi ve Abdülmelik'in Irak'a hâkim olması",
-   "quote_ar": "في هذه السنة قتل مصعب بن الزبير في جمادى الآخرة واستولى عبد الملك بن مروان على العراق وسبب ذلك أن عبد الملك بن مروان لما قتل عمرو بن سعيد بن العاص كما تقدم ذكره وضع السيف فقتل من خالفه فصفا له الشام",
+   "cause_tr": "Abdülmelik'in Amr b. Saîd'i öldürdükten sonra kılıç çekip muhaliflerini tasfiye etmesiyle Şam'ın ona kalması ve muhalif kalmayınca Irak'taki Mus'ab üzerine yürümeye karar vermesi",
+   "effect_tr": "Mus'ab b. ez-Zübeyr'in Cemâziyelâhir'de öldürülmesi ve Abdülmelik b. Mervân'ın Irak'a hâkim olması",
+   "quote_ar": "في هذه السنة قتل مصعب بن الزبير في جمادى الآخرة واستولى عبد الملك بن مروان على العراق وسبب ذلك أن عبد الملك بن مروان لما قتل عمرو بن سعيد بن العاص كما تقدم ذكره وضع السيف فقتل من خالفه فصفا له الشام فلما لم يبق له مخالف فيه أجمع المسير إلى مصعب بن الزبير بالعراق",
    "cause_is_proposition": true,
    "evidence_complete": true,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "high",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "في هذه السنة قتل مصعب بن الزبير في جمادى الآخرة واستولى عبد الملك بن مروان على العراق وسبب ذلك أن عبد الملك بن مروان لما قتل عمرو بن سعيد بن العاص كما تقدم ذكره وضع السيف فقتل من خالفه فصفا له الشام",
+   "quote_widened": true,
+   "cause_tr_original": "Abdülmelik'in, Amr b. Saîd b. el-Âs'ı öldürdükten sonra kılıç çekip muhaliflerini öldürmesi ve böylece Şam'ın kendisine kalması",
+   "effect_tr_original": "Mus'ab b. ez-Zübeyr'in öldürülmesi ve Abdülmelik'in Irak'a hâkim olması",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "وسبب ذلك açık ta'lildir ve geniş pasaj işleyen halkayı tamamlıyor: Şam'da muhalif kalmayınca Abdülmelik Irak'taki Mus'ab üzerine yürümeye karar veriyor, iddia edilen sonuç da cümlenin başında bizzat metinde duruyor.",
+    "reason_b": "Kaynak \"وسبب ذلك أن\" ile Şam'ın Abdülmelik'e kalmasını ve muhalif kalmayınca Irak'ta Mus'ab üzerine yürümeye karar vermesini, Mus'ab'ın katli ile Irak'ın ele geçirilmesinin sebebi olarak kendisi kuruyor."
+   }
   },
   {
    "book_pid": "00000331",
@@ -839,15 +919,28 @@
    "place_pid": "iac:place-00013423",
    "link_type": "explicit_talil",
    "connector_ar": "وسبب ذلك",
-   "cause_tr": "Mansûr'un Abdullah b. er-Rebî'yi Medine'ye vali tayin etmesi ve onun Şevval'in bitimine beş gün kala şehre gelmesi (asıl sebep halkası alıntıda kesik)",
-   "effect_tr": "Medine'de Sûdân'ın vali Abdullah b. er-Rebî'ye karşı ayaklanması ve valinin kaçması",
-   "quote_ar": "وفيها ثار السودان بالمدينة على عاملها عبد الله بن الربيع الحارثي فهرب منهم وسبب ذلك أن المنصور استعمل عبد الله بن الربيع على المدينة وقدمها لخمس بقين من شوال",
+   "cause_tr": "Vali Abdullah b. er-Rebî'in askerlerinin Medine tüccarına zulmetmesi ve valinin şikâyetçileri azarlayıp bu zulmü kınamaması (zincirin ilk halkası Mansûr'un onu vali tayin etmesi)",
+   "effect_tr": "Medine'de Sûdân'ın vali Abdullah b. er-Rebî'e karşı ayaklanması ve valinin şehirden kaçması",
+   "quote_ar": "وفيها ثار السودان بالمدينة على عاملها عبد الله بن الربيع الحارثي فهرب منهم وسبب ذلك أن المنصور استعمل عبد الله بن الربيع على المدينة وقدمها لخمس بقين من شوال فنازع جنده التجار في بعض ما يشترونه منهم فشكا ذلك التجار إلى ابن الربيع فأنتهرهم وشتمهم فتزايد طمع الجند فيهم فعدوا على رجل صيرفي فنازعوه كيسه فاستعان بالناس فخلص ماله منهم وشكا أهل المدينة ذلك منهم فلم ينكره ابن الربيع ثم جاء رجل من الجند فاشترى من جزار لحما يوم جمعة ولم يعطه ثمنه وشهر عليه السيف فضربه الجزار بشفرة في خاصرته فقتله واجتمع الجزارون وتنادى السودان على الجند وهم يروحون إلى الجمعو فقتلوهم بالعمد",
    "cause_is_proposition": true,
    "evidence_complete": false,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "low",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "وفيها ثار السودان بالمدينة على عاملها عبد الله بن الربيع الحارثي فهرب منهم وسبب ذلك أن المنصور استعمل عبد الله بن الربيع على المدينة وقدمها لخمس بقين من شوال",
+   "quote_widened": true,
+   "cause_tr_original": "Mansûr'un Abdullah b. er-Rebî'yi Medine'ye vali tayin etmesi ve onun Şevval'in bitimine beş gün kala şehre gelmesi (asıl sebep halkası alıntıda kesik)",
+   "effect_tr_original": "Medine'de Sûdân'ın vali Abdullah b. er-Rebî'ye karşı ayaklanması ve valinin kaçması",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Geniş pasajda kronikçi \"وسبب ذلك أن\" ile ayaklanmanın gerekçe zincirini kendisi kuruyor: valinin askerlerinin tüccara saldırısı ve valinin şikâyetleri azarlayıp bu davranışı hoş görmesi, ardından Sûdân'ın valiye karşı ayaklanıp onu kaçırtması.",
+    "reason_b": "Geniş pasajda kronikçi 'وسبب ذلك' ile ayaklanmanın sebebini bizzat kurar; ancak iddia edilen sebep zincirin uzak ucudur (tayin), gerçek komşu halka valinin askerlerinin tüccara tecavüzlerini cezasız bırakması ve bir askerin kasaptan parasını vermeden et alıp kılıç çekmesi üzerine kasabın onu öldürmesidir."
+   }
   },
   {
    "book_pid": "00000331",
@@ -859,15 +952,28 @@
    "place_pid": null,
    "link_type": "explicit_talil",
    "connector_ar": "وكان سبب عزله أن",
-   "cause_tr": "Mansûr'un ona mektup yazıp İbrâhim ile birlikte çıkanların evlerinin yıkılmasını ve hurmalıklarının kesilmesini emretmesi",
-   "effect_tr": "Selm b. Kuteybe'nin Basra valiliğinden azledilmesi",
-   "quote_ar": "في هذه السنة عزل سلم بن قتيبة عن البصرة وكان سبب عزله أن المنصور كتب إليه بأمره بهدم دور من خرج مع إبراهيم وبعقر نخلهم",
+   "cause_tr": "Selm b. Kuteybe'nin Mansûr'un yıkım emrine karşılık \"evlerden mi hurmalıklardan mı başlayayım\" diye yazması ve Mansûr'un bunu hoş karşılamaması",
+   "effect_tr": "Selm b. Kuteybe'nin Basra valiliğinden azledilip yerine Muhammed b. Süleyman'ın atanması",
+   "quote_ar": "في هذه السنة عزل سلم بن قتيبة عن البصرة وكان سبب عزله أن المنصور كتب إليه بأمره بهدم دور من خرج مع إبراهيم وبعقر نخلهم فكتب سلم بأي ذلك أبدأ بالدور أم النخل فانكر المنصور ذلك عليه وعزله",
    "cause_is_proposition": true,
    "evidence_complete": true,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "medium",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "في هذه السنة عزل سلم بن قتيبة عن البصرة وكان سبب عزله أن المنصور كتب إليه بأمره بهدم دور من خرج مع إبراهيم وبعقر نخلهم",
+   "quote_widened": true,
+   "cause_tr_original": "Mansûr'un ona mektup yazıp İbrâhim ile birlikte çıkanların evlerinin yıkılmasını ve hurmalıklarının kesilmesini emretmesi",
+   "effect_tr_original": "Selm b. Kuteybe'nin Basra valiliğinden azledilmesi",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Geniş pasaj \"وكان سبب عزله أن\" ta'lilini sonuna kadar taşıyor: işleyen sebep Mansûr'un emri değil, Selm'in \"evlerden mi hurmalıktan mı başlayayım\" diye yazıp itiraz eder görünmesi ve Mansûr'un bunu hoş karşılamayıp onu azletmesi.",
+    "reason_b": "Kaynak 'وكان سبب عزله أن' ile azlin sebebini kendisi kurar, fakat asıl komşu halka emrin verilmesi değil Selm'in 'evlerden mi hurmalıklardan mı başlayayım' diye yazarak emri savsaklaması ve Mansûr'un bunu hoş görmemesidir."
+   }
   },
   {
    "book_pid": "00000331",
@@ -917,7 +1023,16 @@
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "medium",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "review": {
+    "verdict": "reject",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Geniş pasajda da \"بسبب\" yuvasında olay değil çıplak bir şahıs adı var; kaynak Attâf'ın ne yaptığını (isyan/eylem) hiç anlatmıyor, yalnızca surun yıkımından sonra onun Ermeniye'ye gitmiş olduğunu ekliyor.",
+    "reason_b": "Geniş pencerede de sebep yuvasında çıplak ad kalıyor: Attâf b. Süfyân'ın Musul'da ne yaptığı (isyanı) hiç bildirilmez, sadece surun yıkımından önce Ermeniye'ye gitmiş olduğu ve Reşîd'in onu ele geçiremediği söylenir."
+   }
   },
   {
    "book_pid": "00000331",
@@ -1459,15 +1574,28 @@
    "place_pid": null,
    "link_type": "motive_reported",
    "connector_ar": "خوفا",
-   "cause_tr": "Nîsâbur'a gelen kişiden korkması (korkulan şahsın adı alıntıda geçmiyor; zamir merciî yok)",
+   "cause_tr": "Bâris el-Kebîr'in İsmâil'e gönderdiği Rey-Taberistan-Cürcân haracını, İsmâil'in ölüm haberi üzerine geri çevirip kendine alması ve bu yüzden Horasan'a geçen Ahmed b. İsmâil'den korkması",
    "effect_tr": "Bâris el-Kebîr'in Cürcân'dan Bağdat'a kaçması",
-   "quote_ar": "فلما ورد نيسابور هرب بارس الكبير من جرجان إلى بغداد خوفا منه",
+   "quote_ar": "فلما ورد نيسابور هرب بارس الكبير من جرجان إلى بغداد خوفا منه وكان سبب خوفه أن الأمير إسماعيل كان قد استعمل ابنه أحمد على جرجان لما أخذها من محمد بن زيد ثم عزله عنها واستعمل عليها بارس الكبير على ما ذكرناه فاجتمع عند بارس أموال جمة من خراج الري وطبرستان وجرجان فبلغت ثمانين وقرأ فحملها إلى إسماعيل فلما سارت عنه بلغه خبر موت إسماعيل فردها إليه وأخذها فلما سار إليه أحمد خافه",
    "cause_is_proposition": true,
    "evidence_complete": false,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "low",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "فلما ورد نيسابور هرب بارس الكبير من جرجان إلى بغداد خوفا منه",
+   "quote_widened": true,
+   "cause_tr_original": "Nîsâbur'a gelen kişiden korkması (korkulan şahsın adı alıntıda geçmiyor; zamir merciî yok)",
+   "effect_tr_original": "Bâris el-Kebîr'in Cürcân'dan Bağdat'a kaçması",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Geniş pasaj \"منه\" zamirinin merciini (Ahmed b. İsmâil) ve kaynağın açık ta'lilini (\"وكان سبب خوفه أن\") veriyor: Bâris, İsmâil'e gönderdiği büyük malı onun ölüm haberi üzerine geri çevirip kendine aldığı için Ahmed'den korkup Bağdat'a kaçmıştır.",
+    "reason_b": "Geniş pasaj hem zamirin merciini (Nîşâbûr'a gelen kişi Ahmed b. İsmâil'dir) hem de kronikçinin 'وكان سبب خوفه أن' ile açıkça kurduğu asıl sebebi verir: Bâris'in, İsmâil'in ölüm haberi üzerine gönderdiği seksen yük malı geri çevirip kendine alması ve Ahmed'in üzerine yürümesi."
+   }
   },
   {
    "book_pid": "00000331",
@@ -2323,13 +2451,24 @@
    "connector_ar": "بسبب",
    "cause_tr": "İlig Han'ın Horasan'a yönelmesi",
    "effect_tr": "Horasan'da ihtilâf/karışıklık çıkması",
-   "quote_ar": "ووصل إلى القلعة فحصرها ثلاثا وأربعين يوما وراسله صاحبها في الصلح فلم يجبه ثم بلغه عن خراسان إختلاف بسبب قصد ايلك الخان لها فصالح ملك الهند على خمسمائة فيل وثلاثة الآف منافضة",
+   "quote_ar": "ثم بلغه عن خراسان إختلاف بسبب قصد ايلك الخان لها",
    "cause_is_proposition": true,
    "evidence_complete": true,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "medium",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "ووصل إلى القلعة فحصرها ثلاثا وأربعين يوما وراسله صاحبها في الصلح فلم يجبه ثم بلغه عن خراسان إختلاف بسبب قصد ايلك الخان لها فصالح ملك الهند على خمسمائة فيل وثلاثة الآف منافضة",
+   "quote_widened": true,
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Kaynak \"اختلاف بسبب قصد ايلك الخان لها\" ifadesiyle sebebi (İlig Han'ın Horasan'a yönelmesi) ve sonucu (Horasan'da ihtilâf) doğrudan kendisi kuruyor; pasajın sonu da Yemînüddevle'nin ihtilâfı düzeltmek için dönmesiyle bunu teyit ediyor.",
+    "reason_b": "Bağ metinde doğrudan 'بسبب' ile kurulmuştur ve sebep yuvasında çıplak ad değil bir olay vardır ('قصد ايلك الخان لها'); pasajın sonu ('وعاد يمين الدولة إلى خراسان لأصلاح ما اختلف فيها') Horasan'daki ihtilâfı teyit eder, ara halka yoktur."
+   }
   },
   {
    "book_pid": "00000331",
@@ -2491,15 +2630,28 @@
    "place_pid": "iac:place-00002439",
    "link_type": "explicit_talil",
    "connector_ar": "وكان سبب ذلك أنه",
-   "cause_tr": "Vehsûzân'ın Oğuzlardan büyük bir topluluğu, kendileri için hazırladığı yemeğe davet etmesi",
+   "cause_tr": "Vehsûzân'ın Oğuzları hazırladığı yemeğe davet edip sofrada otuz kadar reislerini tutuklaması ve böylece geri kalanların gücünü kırması (hile)",
    "effect_tr": "Tebriz'de çok sayıda Oğuz'un öldürülmesi",
-   "quote_ar": "في هذه سنة اثنتين وثلاثين قتل وهسوذان بن مهلان جمعا كثيرا من الغز بمدينة تبريز وكان سبب ذلك أنه دعا جمعا كثيرا منهم إلى طعام صنعه لهم",
+   "quote_ar": "قتل وهسوذان بن مهلان جمعا كثيرا من الغز بمدينة تبريز وكان سبب ذلك أنه دعا جمعا كثيرا منهم إلى طعام صنعه لهم فلما طعموا أو شربوا قبض على ثلاثين رجلا منهم من مقديمهم فضعف الباقون فأكثر فيهم القتل",
    "cause_is_proposition": true,
    "evidence_complete": true,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "high",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "في هذه سنة اثنتين وثلاثين قتل وهسوذان بن مهلان جمعا كثيرا من الغز بمدينة تبريز وكان سبب ذلك أنه دعا جمعا كثيرا منهم إلى طعام صنعه لهم",
+   "quote_widened": true,
+   "cause_tr_original": "Vehsûzân'ın Oğuzlardan büyük bir topluluğu, kendileri için hazırladığı yemeğe davet etmesi",
+   "effect_tr_original": "Tebriz'de çok sayıda Oğuz'un öldürülmesi",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Genis pasajda 'وكان سبب ذلك' zamiri (ذلك = Tebriz'de cok sayida Oguz'un oldurulmesi) net cozuluyor ve kronikci gerekce zincirini sonuna kadar veriyor: ziyafete davet, yemek sirasinda otuz reisin yakalanmasi, kalanlarin zayiflamasi ve toplu katliam.",
+    "reason_b": "Genis pasajda Ibn el-Esir bagi kendisi kuruyor: 'vekane sebebu zalike ennehu dea' ile ziyafet tuzagini oldurmenin sebebi sayiyor ve ara halkalar (otuz onderin yakalanmasi, geri kalanin zayif dusmesi) ayni cumle zincirinde veriliyor."
+   }
   },
   {
    "book_pid": "00000331",
@@ -3060,7 +3212,16 @@
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "low",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "review": {
+    "verdict": "reject",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "On kat genisleyen pencerede de 'بسبب الإعتقاد' ifadesi acilmiyor; sebep yuvasinda hala olay degil ciplak/soyut bir ad var ve kronikci itikadin fitneyi nasil dogurdugunu hicbir yerde kurmuyor.",
+    "reason_b": "Genis pasaj da sebep yuvasini doldurmuyor: 'bisebebi'l-i'tikad' ciplak bir konu adi olarak kaliyor, hangi itikadi ayriligin ne yaptigi hicbir yerde bildirilmiyor, dolayisiyla kaynak bir onerme-duzeyi nedensellik kurmuyor."
+   }
   },
   {
    "book_pid": "00000331",
@@ -3432,15 +3593,28 @@
    "place_pid": "iac:place-00014039",
    "link_type": "explicit_talil",
    "connector_ar": "وسبب ذلك أن",
-   "cause_tr": "Hâcib Yûsuf b. Fîrûz'un, (emîrin) babası ve dedesi nezdinde en büyük hâcib olması — yalnızca arka plan durumu; asıl nedensel önerme alıntının dışında kalıyor",
-   "effect_tr": "Dımaşk'ta emîr ile asker arasında fitne çıkması",
-   "quote_ar": "في هذه السنة وقعت الفتنة بدمشق بين صاحبها والجند وسبب ذلك أن الحاجب يوسف بن فيروز كان أكبر حاجب عند أبيه وجده",
+   "cause_tr": "Kendilerine kötü davrandığı için memlûklerin kin beslediği Hâcib Yûsuf b. Fîrûz'un Dımaşk'a dönüp yeminine rağmen işlere karışması, düşmanlarının onu öldürmekte anlaşıp Tarvaş eliyle öldürmesi ve katillerin korkup şehre girmeyerek dışarıda konaklaması",
+   "effect_tr": "Dımaşk'ta emîr (Şihâbüddin) ile asker arasında fitne çıkması",
+   "quote_ar": "وقعت الفتنة بدمشق بين صاحبها والجند وسبب ذلك أن الحاجب يوسف بن فيروز كان أكبر حاجب عند أبيه وجده ثم إنه خاف أباه شمس الملوك وهرب منه إلى تدمر فلما كان في هذه السنة سأل أن يحضر إلى دمشق وكان يخاف جماعة المماليك لأنه كان أساء إليهم وعاملهم أقبح معاملة فكلهم عليه حنق لا سيما في الحادثة التي خرج فيها شمس الملوك وقد تقدمت فإنه أشار بقتل جماعة برأيه وبقتل سونج بن تاج الملوك فصاروا كلهم أعداء مبغضين فلما طلب الأمان والحضور إلى دمشق أجيب إلى ذلك فأنكر جماعة الأمراء والمماليك قربه وخافوه أن يفعل بهم مثل فعله الأول فلم يزل يتوصل معهم حتى حلف لهم واستحلفهم وشرط على نفسه أنه لا يتولى من الأمور شيئا ثم إنه جعل يدخل نفسه في كثير من الأمور فاتفق أعداؤه على قتله فبينما هو يسير مع شهاب الدين وإلى جانبه أمير اسمه تراوش يحادثه إذ ضربه تراوش بالسيف فقتله فحمل ودفن في تربة والده بالعقيبة ثم إن تراوش والمماليك خافوا فلم يدخلوا البلد ونزلوا بظاهره",
    "cause_is_proposition": true,
    "evidence_complete": false,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "low",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "في هذه السنة وقعت الفتنة بدمشق بين صاحبها والجند وسبب ذلك أن الحاجب يوسف بن فيروز كان أكبر حاجب عند أبيه وجده",
+   "quote_widened": true,
+   "cause_tr_original": "Hâcib Yûsuf b. Fîrûz'un, (emîrin) babası ve dedesi nezdinde en büyük hâcib olması — yalnızca arka plan durumu; asıl nedensel önerme alıntının dışında kalıyor",
+   "effect_tr_original": "Dımaşk'ta emîr ile asker arasında fitne çıkması",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Genis pasajda 'وسبب ذلك أن' ile baslayan aciklama kesintisiz surup fitneye baglaniyor: Yusuf b. Firuz'un Dimask'a donup isleri karistirmasi, kin besleyen memluklerin onu Travas eliyle oldurmesi ve ardindan korkup sehre girmeyip disarida ordugah kurmasi.",
+    "reason_b": "Genis pasaj gosteriyor ki iddia edilen sebep (Yusuf'un en buyuk hacib olusu) zincirin uzak arka plan halkasidir; kaynagin kendi anlattigi bitisik halka Yusuf'un Tarawus eliyle oldurulmesi ve memluklerin korkup sehre girmeyerek sart dayatmasidir."
+   }
   },
   {
    "book_pid": "00000331",
@@ -3452,15 +3626,28 @@
    "place_pid": "iac:place-00002027",
    "link_type": "explicit_talil",
    "connector_ar": "بسبب",
-   "cause_tr": "İbn el-Vezîr ve İbn Kâvurt (yalnızca iki ad; ayyârları takipten nasıl emin kıldıkları alıntıda yok)",
-   "effect_tr": "Bağdat'ta ayyârların işinin artması ve çoğalması",
-   "quote_ar": "وفي هذه السنة زاد أمر العيارين وكثر لأمنهم من الطلب بسبب ابن الوزير وابن قاورت",
+   "cause_tr": "İbn el-Vezîr ile sultanın kayınbiraderi İbn Kâvurt'un ayyârların yağmasından pay almaları ve böylece ayyârları takipten emin kılmaları",
+   "effect_tr": "Bağdat'ta ayyârların işinin artıp çoğalması",
+   "quote_ar": "زاد أمر العيارين وكثر لأمنهم من الطلب بسبب ابن الوزير وابن قاورت أخي زوجة السلطان لأنهما كان لهما نصيب من الذي يأخذه العيارون",
    "cause_is_proposition": false,
    "evidence_complete": false,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "low",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "وفي هذه السنة زاد أمر العيارين وكثر لأمنهم من الطلب بسبب ابن الوزير وابن قاورت",
+   "quote_widened": true,
+   "cause_tr_original": "İbn el-Vezîr ve İbn Kâvurt (yalnızca iki ad; ayyârları takipten nasıl emin kıldıkları alıntıda yok)",
+   "effect_tr_original": "Bağdat'ta ayyârların işinin artması ve çoğalması",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Genis pasaj, dar alintida kesilen 'لأنهما كان لهما نصيب من الذي يأخذه العيارون' halkasini gosteriyor; boylece sebep yuvasi ciplak addan cikip olaya donusuyor (iki nufuzlunun yagmadan pay almasi ayyarlari takipten emin kiliyor).",
+    "reason_b": "Genis pasajda 'liennehuma kane lehuma nasib mimma ye'huzu'l-ayyarun' ifadesi iki adi onermeye cevirip ayyarlarin takipten neden emin olduklarini kaynagin agzindan aciklıyor."
+   }
   },
   {
    "book_pid": "00000331",
@@ -3582,15 +3769,28 @@
    "place_pid": "iac:place-00011505",
    "link_type": "explicit_talil",
    "connector_ar": "وكان سببها أن",
-   "cause_tr": "Mekke kölelerinden bir grubun Minâ'da hacılara zarar verip fesat çıkarması",
-   "effect_tr": "Aralarında çatışma çıkması ve bir grubun öldürülmesi (halkın Mekke'ye girmekten alıkonulması)",
-   "quote_ar": "لأكثر الناس لصدهم عن دخول مكة ... وكان سببها أن جماعة من عبيد مكة أفسدوا في الحاج بمنى ... ووقع القتال بينهم فقتل جماعة",
+   "cause_tr": "Mekke kölelerinden bir grubun Minâ'da hacılara saldırıp fesat çıkarması ve bunu izleyen misilleme zinciri (hac emîrinin adamlarının onlardan bir grubu öldürmesi, sağ kalanların Mekke'ye dönüp toplanarak yaklaşık bin deveyi yağmalaması)",
+   "effect_tr": "Hac emîri ile Mekke emîri arasında fitne çıkması, karşılıklı çatışmada bir grubun öldürülmesi ve hacıların Mekke'ye sokulmaması",
+   "quote_ar": "منع دخول مكة لفتنة جرت بين أمير الحاج وأمير مكة وكان سببها أن جماعة من عبيد مكة أفسدوا في الحاج بمنى فنفر عليهم بعض أصحاب أمير الحاج فقتلوا منهم جماعة ورجع من سلم إلى مكة وجمعوا جمعا وأغاروا على جمال الحاج وأخذوا منها قريبا من ألف جمل فنادى أمير الحاج في جنده فركبوا بسلاحهم ووقع القتال بينهم فقتل جماعة",
    "cause_is_proposition": true,
    "evidence_complete": false,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "low",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "لأكثر الناس لصدهم عن دخول مكة ... وكان سببها أن جماعة من عبيد مكة أفسدوا في الحاج بمنى ... ووقع القتال بينهم فقتل جماعة",
+   "quote_widened": true,
+   "cause_tr_original": "Mekke kölelerinden bir grubun Minâ'da hacılara zarar verip fesat çıkarması",
+   "effect_tr_original": "Aralarında çatışma çıkması ve bir grubun öldürülmesi (halkın Mekke'ye girmekten alıkonulması)",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Genis pasajda 'وكان سببها' zamirinin mercii (hac emîri ile Mekke emîri arasindaki fitne) gorunur hale geliyor ve kronikci sebebi kesintisiz zincirle kuruyor: kolelerin Mina'da hacilara saldirmasi, misilleme kirimi, develerin yagmalanmasi ve toplu catisma.",
+    "reason_b": "Genis pasajda 'ha' zamirinin mercii aciga cikiyor: kaynak, hac emiri ile Mekke emiri arasindaki fitnenin sebebini Mekke kolelerinin Mina'da haccilara fesat cikarmasi olarak kendisi ilan ediyor."
+   }
   },
   {
    "book_pid": "00000331",
@@ -3970,7 +4170,16 @@
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "low",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "review": {
+    "verdict": "reject",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Genis pasajda da \"بسبب ابنة خاقان\" sebep yuvasi aciklanmamis ciplak bir ad olarak kaliyor; Taberi'nin ekledigi tek acik ta'lil (\"سبب دخول الخزر أرمينية ... كان أن سعيد بن سلم ضرب عنق المنجم السلمي\") ise bu iddiayi degil, onunla yarisan bambaska bir rivayeti kuruyor.",
+    "reason_b": "Genis pencerede de \"ابنة خاقان\" sebep yuvasinda ciplak bir ad olarak kaliyor (kizin ne yaptigi/basina ne geldigi hic anlatilmiyor); Taberi'nin sundugu ikinci rivayet (Said b. Selm'in Muneccim es-Sulemi'yi oldurmesi) ise ayni zincirin ara halkasi degil, bu okumaya rakip bir alternatif sebep aciklamasidir."
+   }
   },
   {
    "book_pid": "00000338",
@@ -4483,15 +4692,28 @@
    "place_pid": null,
    "link_type": "explicit_talil",
    "connector_ar": "وذلك أنه",
-   "cause_tr": "Aynal'ın ez-Zâhir Tatar'ın memlûklerinden olması (arka plan durumu; gerekçe zinciri alıntının dışında sürüyor)",
-   "effect_tr": "Safed nâibi Emîr Aynal ez-Zâhirî'nin itaatten çıkması",
-   "quote_ar": "خرج الأمير أينال الظاهري نائب صفد عن الطاعة وذلك أنه كان من جملة مماليك الظاهر ططر",
+   "cause_tr": "Barsbay'in saltanati ele almasiyla Aynal'in efendisi Tatar'in oglu el-Muzaffer'in hal'edilmesi ve bunun Aynal'a agir gelmesi",
+   "effect_tr": "Safed naibi Emir Aynal ez-Zahiri'nin isyani hazirlayip itaatten cikmasi (Safed kalesindeki mahpuslari salivermesi, muhaliflerini tutuklamasi)",
+   "quote_ar": "خرج الأمير أينال الظاهري نائب صفد عن الطاعة وذلك أنه كان من جملة مماليك الظاهر ططر رباه صغيرا ثم ولاه نيابة قلعة صفد لما خرج بالمظفر إلى دمشق لحفظ ذخيرة حملها إلى القلعة صفد. فلما قام السلطان برسباي بالأمر بعد ططر ولي أينال نيابة صفد فشق عليه خلع ابن أستاذه من السلطة وأخذ في تدبير أمره حتى أظهر ذلك",
    "cause_is_proposition": true,
    "evidence_complete": false,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "low",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "خرج الأمير أينال الظاهري نائب صفد عن الطاعة وذلك أنه كان من جملة مماليك الظاهر ططر",
+   "quote_widened": true,
+   "cause_tr_original": "Aynal'ın ez-Zâhir Tatar'ın memlûklerinden olması (arka plan durumu; gerekçe zinciri alıntının dışında sürüyor)",
+   "effect_tr_original": "Safed nâibi Emîr Aynal ez-Zâhirî'nin itaatten çıkması",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Genis pasaj Makrizi'nin \"وذلك أنه\" ile actigi gerekce zincirini sonuna kadar goruyor: efendisi Tatar'in oglunun Barsbay tarafindan hal'edilmesi Aynal'a agir gelmis (فشق عليه) ve o da isyanini hazirlayip aciga vurmustur.",
+    "reason_b": "Genis pasajda Makrizi \"وذلك أنه\" ile basladigi gerekceyi sonuna kadar acikliyor: Aynal'in Tatar'in memluku olmasi arka plandir, asil sebep ustasinin oglunun Barsbay tarafindan hal'edilmesinin ona agir gelmesidir (فشق عليه خلع ابن أستاذه من السلطة)."
+   }
   },
   {
    "book_pid": "00000508",
@@ -4565,7 +4787,7 @@
    "connector_ar": "خوفا من",
    "cause_tr": "İskender'den korku (İskender'in Karayülük üzerine yürüyüp Erzurum'u alması alıntıda anlatılmakla birlikte korkunun nesnesi çıplak addır)",
    "effect_tr": "Karayülük'ün Âmid'e dönmesi ve bir gece sonra oradan Erganî'ye çıkması",
-   "quote_ar": "وقدم الخبر بأن اسكندر بن قرا يوسف مشى على قرا يلوك وغزا على مدينة أرزن الروم وأخذها فعاد قرا يلوك إلى آمد وخرج منها بعد ليلة إلى أرقنين خوفا من اسكندر",
+   "quote_ar": "وقدم الخبر بأن اسكندر بن قرا يوسف مشى على قرا يلوك وغزا على مدينة أرزن الروم وأخذها. فعاد قرا يلوك إلى آمد وخرج منها بعد ليلة إلى أرقنين خوفا من اسكند",
    "cause_is_proposition": false,
    "evidence_complete": true,
    "effect_realized": "realized",
@@ -4581,7 +4803,9 @@
     "reason_a": "خوفا mansûb mef'ûlün leh olarak saik bildiriyor ve Karayülük'ün Âmid'den Erganî'ye çıkışını İskender korkusuna bağlıyor.",
     "reason_b": "خوفا من açık bir maf'ûl li-ecl olarak Karayülük'ün Âmid'den Erganî'ye çıkışını gerekçelendiriyor ve korkunun konusu olan İskender'in fiili (yürüyüp Erzurum'u alması) aynı alıntıda bildirildiği için sebep çıplak ad değil önermedir.",
     "evidence": "فعاد قرا يلوك إلى آمد وخرج منها بعد ليلة إلى أرقنين خوفا من اسكندر"
-   }
+   },
+   "quote_ar_model_edited": "وقدم الخبر بأن اسكندر بن قرا يوسف مشى على قرا يلوك وغزا على مدينة أرزن الروم وأخذها فعاد قرا يلوك إلى آمد وخرج منها بعد ليلة إلى أرقنين خوفا من اسكندر",
+   "quote_source_aligned": true
   },
   {
    "book_pid": "00000508",
@@ -4804,15 +5028,28 @@
    "place_pid": null,
    "link_type": "motive_reported",
    "connector_ar": "عصبية",
-   "cause_tr": "Haccâc lehine asabiyet (çıplak güdü adı; hangi olguya dayandığı açılmamış)",
-   "effect_tr": "Yûsuf b. Ömer'in Irak valiliğine gelince onları önceki hallerine döndürmesi",
+   "cause_tr": "Yusuf b. Omer'in Haccac lehine asabiyeti, yani Haccac'in koydugu hukmu Omer b. Abdulaziz'in hafifletmesine ragmen savunmasi",
+   "effect_tr": "Irak valiligine gelince Necranlilari Haccac'in koydugu ilk duruma (1800 hulle) dondurup Omer b. Abdulaziz'in 200 hullelik indirimini iptal etmesi",
    "quote_ar": "فلما ولي يوسف بن عمر العراق، في أيام الوليد بن يزيد ردهم إلى أمرهم الأول عصبية للحجاج",
    "cause_is_proposition": false,
    "evidence_complete": false,
    "effect_realized": "realized",
    "asserted_by": "chronicler",
    "confidence": "medium",
-   "needs_human_review": true
+   "needs_human_review": false,
+   "quote_ar_original": "فلما ولي يوسف بن عمر العراق، في أيام الوليد بن يزيد ردهم إلى أمرهم الأول عصبية للحجاج",
+   "quote_widened": true,
+   "cause_tr_original": "Haccâc lehine asabiyet (çıplak güdü adı; hangi olguya dayandığı açılmamış)",
+   "effect_tr_original": "Yûsuf b. Ömer'in Irak valiliğine gelince onları önceki hallerine döndürmesi",
+   "review": {
+    "verdict": "approve",
+    "at": null,
+    "by": "delegated-adjudication (genis pencere)",
+    "source": "H40: alıntı penceresi ~10x genişletildi → 2 bağımsız mercek; yeni alıntı KAYNAKTA doğrulanır",
+    "basis": "genis pencere — iki mercek mutabik",
+    "reason_a": "Genis pasaj \"أمرهم الأول\"in merciini (Haccac'in Ibnu'l-Es'as suphesiyle 1800 hulleye cikardigi yuk) acikca veriyor ve Belazuri, Yusuf b. Omer'in bu yuku geri getirmesini mef'ul li-eclih kalibiyla \"عصبية للحجاج\" gerekcesine baglayarak sebep-sonucu kendisi kuruyor.",
+    "reason_b": "Baglac zaman degil sebep (mef'ul li-eclih: عصبية للحجاج) bildiriyor ve genis pasaj \"أمرهم الأول\"in ne oldugunu (Haccac'in yukledigi 1800 hulle, Omer b. Abdulaziz'in 200'e indirmesi) acikca kurdugundan gudu artik bos bir ad degil, kaynagin kendi kurdugu gerekcedir."
+   }
   },
   {
    "book_pid": "00001293",

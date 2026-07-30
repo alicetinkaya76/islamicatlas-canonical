@@ -184,9 +184,57 @@
         "web/public/reading/core_shelf.json"
       ],
       "status": "ok"
+    },
+    "ulemapool": {
+      "count": 22824,
+      "detail": {
+        "unit": "kişi"
+      },
+      "files": [
+        "web/public/books/ulema_pool.json"
+      ],
+      "status": "ok"
+    },
+    "scholarnet": {
+      "count": 3393,
+      "detail": {
+        "unit": "âlim",
+        "edges": 7869
+      },
+      "files": [
+        "web/public/view-data/scholar_network.json"
+      ],
+      "status": "ok"
+    },
+    "alatli": {
+      "count": 670,
+      "detail": {
+        "unit": "kişi",
+        "bize": 358,
+        "batiya": 308,
+        "with_coords": 526
+      },
+      "files": [
+        "web/public/view-data/alatli_synchronic.json"
+      ],
+      "status": "ok"
+    },
+    "causal": {
+      "count": 163,
+      "detail": {
+        "unit": "onaylı bağ",
+        "total": 170,
+        "pending": 3
+      },
+      "files": [
+        "data/sources/causal/causal_links.json"
+      ],
+      "status": "ok"
     }
   },
   "source_files": [
+    "data/sources/causal/causal_links.json",
+    "web/public/books/ulema_pool.json",
     "web/public/data/city-atlas/cairo.json",
     "web/public/data/city-atlas/konya.json",
     "web/public/data/darpislam_lite.json",
@@ -199,11 +247,13 @@
     "web/public/data/science_layer.json",
     "web/public/reading/core_shelf.json",
     "web/public/view-data/alam_lite.json",
+    "web/public/view-data/alatli_synchronic.json",
     "web/public/view-data/city-atlas/baghdad.json",
     "web/public/view-data/city-atlas/damascus.json",
     "web/public/view-data/city-atlas/mecca.json",
     "web/public/view-data/dia_lite.json",
     "web/public/view-data/ei1_lite.json",
+    "web/public/view-data/scholar_network.json",
     "web/public/view-data/yaqut_lite.json",
     "web/src/data/db.json"
   ]

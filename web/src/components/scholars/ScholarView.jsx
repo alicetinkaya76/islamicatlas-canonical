@@ -11,6 +11,7 @@ import ScholarTimeline from './ScholarTimeline';
 import { lf } from '../../hooks/useEntityLookup';
 import '../../styles/scholars.css';
 import T from '../../data/i18n';
+import { fmtCount } from '../../data/sourceCounts';   // H41: rozetler üretimden
 
 const discColor = d => DISC_COLORS[d] || '#c9a84c';
 
@@ -153,6 +154,10 @@ export default function ScholarView({ lang, t: tProp }) {
             title={lang === 'en' ? 'All person records in the store — grows with every new book'
                                  : 'Mağazadaki tüm kişi kayıtları — her yeni kitapla büyür'}>
             🕌 {lang === 'en' ? 'Pool' : 'Havuz'}
+            {/* H41: sayı ROZETİ. Ölçüldü: kullanıcı Âlimler'i açıp "hâlâ 450"
+                diyordu — havuz 4. sekmede gizliydi ve varlığı görünmüyordu.
+                Rozet, v1 render yoluna dokunmadan v2'yi keşfedilebilir kılar. */}
+            <span className="scholar-view-badge">{fmtCount('ulemapool')}</span>
           </button>
           {/* H34: merkezî defterden isnâd ağı — v1'in 450/155'i yerine
               3.393 âlim / 7.869 hoca-talebe bağı. v1 ağı DEĞİŞMEDİ. */}
@@ -161,6 +166,7 @@ export default function ScholarView({ lang, t: tProp }) {
             title={lang === 'en' ? 'Teacher–student network from the canonical store'
                                  : 'Merkezî defterden hoca–talebe (isnâd) ağı'}>
             🔗 {lang === 'en' ? 'Canonical Net' : 'Canonical Ağ'}
+            <span className="scholar-view-badge">{fmtCount('scholarnet')}</span>
           </button>
         </div>
 

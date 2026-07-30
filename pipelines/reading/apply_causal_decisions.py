@@ -24,12 +24,49 @@ Kullanım:
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
 LINKS = REPO / "data" / "sources" / "causal" / "causal_links.json"
+READING = REPO / "web" / "public" / "reading"
 
 VALID = {"approve", "reject"}
+
+
+def _norm(s: str) -> str:
+    return re.sub(r"\s+", " ", s or "").strip()
+
+
+def _section_text(book_pid: str, sec) -> str | None:
+    """Kaynak bölümün tam metni — alıntı doğrulamasının hakemi."""
+    p = READING / str(book_pid) / f"sec_{str(sec).zfill(4)}.json"
+    if not p.is_file():
+        return None
+    data = json.loads(p.read_text(encoding="utf-8"))
+    return _norm(" ".join(x.get("t", "") for x in data.get("paras", [])))
+
+
+def verify_quote(rec: dict, quote: str) -> tuple[bool, str]:
+    """Yeni alıntı KAYNAKTA BİREBİR var mı, ve bağlacı taşıyor mu?
+
+    H40'ın kilit güvencesi. Bir dil modeli 'birebir kopyala' talimatına rağmen
+    kelime düzeltebilir, harekeleyebilir, kısaltabilir. Doğrulanmamış alıntıyı
+    veriye yazmak, bu katmanın tek meşruiyetini ("alıntılar kaynakla bayt-bayt
+    aynıdır") kaybettirir. Doğrulanamayan alıntı REDDEDİLİR — kayıt kuyrukta
+    kalır; yanlış alıntıyla onaylanmış bir bağdan iyidir.
+    """
+    if not quote or not quote.strip():
+        return False, "yeni alıntı boş"
+    full = _section_text(rec["book_pid"], rec.get("sec"))
+    if full is None:
+        return False, "kaynak bölüm dosyası yok (okuma verisi üretilmemiş)"
+    if _norm(quote) not in full:
+        return False, "alıntı kaynakta BİREBİR bulunamadı (model metni değiştirmiş olabilir)"
+    conn = _norm(rec.get("connector_ar") or "")
+    if conn and conn not in _norm(quote):
+        return False, f"bağlaç {conn!r} yeni alıntıda geçmiyor"
+    return True, "ok"
 
 
 def main() -> None:
@@ -45,9 +82,11 @@ def main() -> None:
 
     by_key = {f"{r['book_pid']}:{r['seq']}": r for r in doc["records"]}
 
-    applied = overwritten = skipped_same = deferred = 0
+    applied = overwritten = skipped_same = deferred = widened = 0
     unmatched: list[str] = []
     invalid: list[str] = []
+    quote_rejected: list[str] = []
+    corrected: set[str] = set()
 
     for key, d in decisions.items():
         verdict = (d or {}).get("verdict") if isinstance(d, dict) else d
@@ -72,6 +111,26 @@ def main() -> None:
             continue
         if prev:
             overwritten += 1
+
+        # ── Genişletilmiş alıntı (H40) ────────────────────────────────────
+        # Karar dosyası yeni bir alıntı sınırı öneriyorsa, KAYNAKTA DOĞRULANMADAN
+        # yazılmaz. Doğrulanamayan öneri kaydı onaylatmaz; kayıt kuyrukta kalır.
+        yeni_q = (d or {}).get("yeni_quote_ar") if isinstance(d, dict) else None
+        if yeni_q and verdict == "approve":
+            ok, why = verify_quote(rec, yeni_q)
+            if not ok:
+                quote_rejected.append(f"{key}: {why}")
+                continue
+            rec["quote_ar_original"] = rec["quote_ar"]
+            rec["quote_ar"] = _norm(yeni_q)
+            rec["quote_widened"] = True
+            widened += 1
+            for src, dst in (("duzeltilmis_sebep", "cause_tr"), ("duzeltilmis_sonuc", "effect_tr")):
+                if d.get(src):
+                    rec.setdefault(dst + "_original", rec.get(dst))
+                    rec[dst] = d[src]
+                    corrected.add(key)
+
         # GEREKÇE KAYDI: kararın kendisi kadar, NEYE DAYANDIĞI da saklanır.
         # Devredilmiş yargıda (Ali "sen çalıştır" dediğinde) bu zorunlu — gerekçesiz
         # karar denetlenemez ve bilinçli biçimde geri alınamaz.
@@ -108,6 +167,14 @@ def main() -> None:
         print(f"  EŞLEŞMEYEN  : {len(unmatched)} → {unmatched[:5]}{' …' if len(unmatched) > 5 else ''}")
     if invalid:
         print(f"  GEÇERSİZ    : {len(invalid)} → {invalid[:5]}")
+    if widened:
+        print(f"  alıntı genişletildi: {widened} (kaynakta birebir doğrulandı)")
+    if corrected:
+        print(f"  okuma düzeltildi   : {len(corrected)} (sebep/sonuç; eskisi *_original'da)")
+    if quote_rejected:
+        print(f"  ALINTI DOĞRULANAMADI → onaylanmadı: {len(quote_rejected)}")
+        for q in quote_rejected[:6]:
+            print(f"      {q}")
     print(f"katman durumu : {total} bağ | onay {approved} · red {rejected} · bekleyen {total - decided}")
 
     if a.dry_run:

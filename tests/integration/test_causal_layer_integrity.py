@@ -87,3 +87,38 @@ def test_arayuz_verisi_kaynakla_ayni_sayida():
     view = json.loads(VIEW.read_text(encoding="utf-8"))["records"]
     assert len(src) == len(view), (
         f"kaynak {len(src)} ≠ arayüz {len(view)} — `make view-data` koşulmamış")
+
+
+def test_alintilar_kaynakla_birebir(records):
+    """H40: her alıntı KAYNAK METİNDE birebir bulunmalı.
+
+    Ekranda ve journal'da "alıntılar kaynakla bayt-bayt aynıdır" deniyor. Bu
+    iddia ÖLÇÜLMEDEN doğru sayılamaz: ölçüldüğünde 170 kaydın 2'sinde model
+    kaynaktaki OCR hatasını (بقال → يقال) SESSİZCE DÜZELTMİŞTİ. İyileştirme
+    yönünde bir sapma da sapmadır — alıntı, kaynağın ne dediğidir. İkisi
+    kaynakla hizalandı; bu test sapmanın geri gelmesini engeller.
+
+    Elipsli alıntılarda her parça ayrı ayrı aranır (elips, atlanan metnin
+    yerini tutar; birleşik hâli kaynakta zaten bulunmaz).
+    """
+    import re as _re
+    reading = REPO / "web" / "public" / "reading"
+
+    def norm(s):
+        return _re.sub(r"\s+", " ", s or "").strip()
+
+    sapan = []
+    atlanan = 0
+    for r in records:
+        p = reading / str(r["book_pid"]) / f"sec_{str(r['sec']).zfill(4)}.json"
+        if not p.is_file():
+            atlanan += 1          # okuma verisi gitignored; CI'da yoksa atla
+            continue
+        full = norm(" ".join(x.get("t", "")
+                             for x in json.loads(p.read_text(encoding="utf-8")).get("paras", [])))
+        parts = [norm(x) for x in _re.split(r"\.\.\.|…", norm(r["quote_ar"])) if norm(x)]
+        if not all(x in full for x in parts):
+            sapan.append(f"{r['book_pid']}:{r['seq']}")
+    if atlanan == len(records):
+        pytest.skip("okuma verisi yok (web/public/reading üretilmemiş)")
+    assert not sapan, f"alıntısı kaynakla birebir tutmayan bağ: {sapan[:5]}"
