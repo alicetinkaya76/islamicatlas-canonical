@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00002516",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ENES b. NADR",
+      "ar": "أنس بن النضر"
+    },
+    "originalScript": {
+      "ar": "أنس بن النضر"
+    },
+    "altLabel": {
+      "tr": [
+        "Enes b. en-Nadr b. Damdam el-Ensârî el-Hazrecî"
+      ]
+    },
+    "description": {
+      "tr": "Benî Adî b. Neccâr kabilesinden olup Enes b. Mâlik’in amcasıdır. Bedir Savaşı’na katılmadığı için duyduğu üzüntüyü Hz. Peygamber’in huzurunda dile getiren Enes, müşriklerle yapılacak ilk savaşta kendini göstereceğini söyledi. Daha sonra Uhud Gazvesi’ne katıldı (3/625). Bu savaşta müslümanların bozguna uğraması ağırına gittiği için onların bu hallerinden dolayı Cenâb-ı Hak’tan mağfiret diledi ve müşriklerin Resûlullah’a karşı saygısız tutumları sebebiyle de Allah’a sığındı. Ardından kılıcına yapışarak savaş meydanına doğru ilerlerken bozguna uğrayan sahâbîlerden Sa‘d b. Muâz’a rastladı ve ona cennetin kokusunu Uhud tarafından aldığını söyleyerek geri dönmesini tavsiye etti. Daha sonra. Hz. Ömer ve Talha b. Ubeydullah’ın da aralarında bulunduğu bir grubun Hz. Peygamber’in vefat ettiğini ileri sürüp bir köşede çaresiz bir şekilde oturduklarını görünce onlara Resûlullah neyin uğrunda öldüyse aynı şey uğrunda ölmek gerektiğini söyleyerek kendilerini toparlamalarına vesile oldu. Düşmanla kahramanca çarpışan Enes savaş esnasında Süfyân b. Uveyf tarafından şehid edildi. Savaştan sonra bu olayı Hz. Peygamber’e anlatan Sa‘d b. Muâz onun gibi yiğitlik gösteremediğini itiraf etti. Müşrikler tarafından burnu, kulakları ve çeşitli organları kesilen Enes’in vücudunda seksenden fazla yara bulunduğu görüldü. Bu sebeple kız kardeşi Rubeyyi‘ onu güçlükle tanıyabildi. Hz. Peygamber’in hizmetinde bulunan Enes b. Mâlik’e amcasının adı verildi. Kur’ân-ı Kerîm’de, “Müminlerden öyle yiğitler var ki Allah’a verdikleri sözde durdular” (el-Ahzâb 33/23) meâlindeki âyetin Enes b. Nadr hakkında nâzil olduğu belirtilmiştir. Onunla ilgili olarak nakledilen diğer bir husus da kız kardeşi Rubeyyi‘in bir kadının dişini kırması olayındaki tutumudur. Dişi kırılan kadının yakınları kendilerine teklif edilen diyeti kabul etmeyip kısas isteyince durum Hz. Peygamber’e bildirildi, o da kısas yapılmasını emretti. Bunun üzerine Enes b. Nadr Resûl-i Ekrem’e gelerek, “Vallahi Rubeyyi‘in dişi kırılamaz, yâ Resûlellah!” diye itirazda bulunduysa da Hz. Peygamber bunun Allah’ın emri olduğunu ve uygulanması gerektiğini belirtti. Ancak o sırada dişi kırılan kadının yakınları kısastan vazgeçip diyete razı oldular. Bunun üzerine Resûl-i Ekrem, “Allah’ın kullarından öylesi var ki şöyle olacak diye yemin etse muhakkak Allah onun yeminini yerine getirir” (Buhârî, “Ṣulḥ”, 8) diyerek Enes’in Allah katındaki mevkiini dile getirdi. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 235-236 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:enes-b-nadr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=enes-b-nadr, https://islamansiklopedisi.org.tr/enes-b-nadr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:enes-b-nadr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/enes-b-nadr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:01Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=enes-b-nadr (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî; Hazrecî"
+  ],
+  "death_temporal": {
+    "start_ah": 3,
+    "start_ce": 625,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=enes-b-nadr, URL: https://islamansiklopedisi.org.tr/enes-b-nadr || DİA death-date string: (ö. 3/625) || Chunk count: 1"
+}

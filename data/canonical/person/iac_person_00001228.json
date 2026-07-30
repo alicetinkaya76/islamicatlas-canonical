@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00001228",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AYRAL, Macit"
+    },
+    "description": {
+      "tr": "11 Nisan 1891’de İstanbul Beylerbeyi’nde doğdu. Şehremaneti Zibhiye İdaresi (Mezbaha) Müdürü Zühdü Bey’in oğludur. İlk tahsilini Beylerbeyi Hamidiye Mektebi’nde tamamladı. Üsküdar İdâdîsi’nin son sınıfında iken sağlık sebebiyle tahsilini yarıda bıraktı. Daha ilk mektep sıralarında hat hocası Ali Efendi’den sülüs ve nesih yazılarını öğrenmeye başladı. Daha sonra Enderun Mektebi hat hocası Ahmed Râkım Efendi’ye devam etti. Babasının da teşvikiyle girdiği Medresetü’l-hattâtîn’de yazı tahsilini tamamladı. Burada Hulûsi Efendi’den (Yazgan) ta‘lik icâzeti aldı (1923). Ayrıca Sâmi Efendi’nin talebesi olan Tuğrakeş İsmail Hakkı Altunbezer’den sülüs celîsini ilerletti. Ali Efendi’nin hocası olan Şefik Bey’e ait kıta ve murakka‘lardan da önemli ölçüde faydalandı. Macit Ayral ta‘lik ve nesihten ziyade sülüs ve celî sülüs ile meşgul olmuştur. Sülüste Şefik Bey’in tavrını benimsemiş ve o üslûpta eser vermiştir. Celî sülüste ise Sâmi Efendi yolunda yazmıştır. 1908 yılında Evkaf Nezâreti Kalemi’nde başladığı memurluk hayatına daha sonra polis müdüriyeti sicil mümeyyizi olarak devam etti. 1923’te bu görevinden ayrılarak Bâbıâli caddesinde açtığı yazıhanede serbest hattatlık yapmaya başladı. Burası zamanla devrin tanınmış hattatlarının buluşup sohbet ettikleri önemli bir sanat mahfili haline gelmiştir. Harf inkılâbını takip eden yıllarda Ankara’ya yerleşti ve emekli oluncaya kadar Vilâyet Meclis-i Umûmî başkâtipliği görevini yürüttü. 1955’te tekrar İstanbul’a döndü. Kısa bir süre sonra, Bağdat Güzel Sanatlar Akademisi’nde hüsn-i hat dersleri vermek üzere Irak’a davet edildi. Burada dört yıl kaldıktan sonra 1959 Temmuzunda Türkiye’ye döndü. Emsali arasında nezaketi, kibarlığı ve şık giyimi ile tanınan Macit Ayral, bundan sonraki yıllarını yazı yazmak ve eski eserleri incelemekle geçirdi. 19 Mart 1961’de İstanbul’da vefat etti, mezarı Karacaahmet’tedir. Macit Ayral yazı tarifinde ve meşk yazmada, özellikle imzasız ve tarihsiz yazıların hattatını ve devrini tesbitte fevkalâde ustaydı. Yarım asra yaklaşan sanat hayatı boyunca yazılarında Mâcid imzası yanında Hüseyin Mâcid, Abdülmâcid, Mâcid b. Zühdî imzalarını da kullanmıştır. Özel koleksiyonlara girmiş pek çok eseri yanında İstanbul’da Şişli, Levent, Şile, Bebek, Yeşilköy, Muratpaşa, Beyoğlu Kamerhatun, Seyyid Ahmed camileriyle Arap Camii’nde celî yazıları vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 284 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ayral-macit",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ayral-macit, https://islamansiklopedisi.org.tr/ayral-macit",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:38Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ayral-macit (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1891,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ayral-macit, URL: https://islamansiklopedisi.org.tr/ayral-macit || DİA death place: İstanbul || DİA death-date string: (1891-1961) || Chunk count: 1",
+  "death_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00003294"
+  ]
+}

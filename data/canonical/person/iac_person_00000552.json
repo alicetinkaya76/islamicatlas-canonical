@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00000552",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. YEZÎD el-ADEVÎ",
+      "ar": "عبد الله بن يزيد العدوي"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن يزيد العدوي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdirrahmân Abdullāh b. Yezîd el-Adevî el-Mukrî"
+      ]
+    },
+    "description": {
+      "tr": "120 yılı civarında doğdu. el-Mukrî lakabı ile tanınmıştır. Uzun ömrünü Kur’an ve hadise vakfetti. Nitekim kendisi, otuz altı yılını Basra’da, otuz beş yılını da Mekke’de olmak üzere ömrünün büyük bir kısmını Kur’an okutmakla geçirdiğini bildirmektedir. Mekke’de uzun yıllar ikamet ettiği için Şeyhü’l-Harem diye de bilinmektedir. Abdullah b. Yezîd’in kıraat ilmindeki hocası, bu ilmin ünlü imamı Nâfi‘dir. Ayrıca başta Basra’nın ünlü muhaddisi İbn Avn olmak üzere, Ebû Hanîfe, Kehmes b. Hasan, Şu‘be b. Haccâc, Saîd b. Ebû Eyyûb gibi hocalardan hadis okudu. Buhârî, Ahmed b. Hanbel, İshak b. Râhûye, Ali b. Medînî ve Ebû Bekir b. Ebû Şeybe ve diğer bazı kimselere de hadis okuttu. Güvenilir bir râvi olan Abdullah’ın rivayetleri, başta Kütüb-i Sitte olmak üzere birçok hadis kitabında yer almıştır. Buhârî onun rivayetlerinden on ikisini Ṣaḥîḥ ’ine, on beşini de el-Edebü’l-müfred ’ine almıştır. Âlî isnadlı rivayetleri ise, Ebû Bekir Ahmed b. Ca‘fer el-Katîî’ye ait beş cüzlük el-Ḳaṭîʿiyyât ’ta bulunmaktadır. Abdullah’ın rivayet ettiği hadislerden meydana getirilmiş olan Eḥâdîs̱ü Ebî ʿAbdirraḥmân ʿAbdillâh b. Yezîd el-Muḳrî mimmâ vâfeḳa’l-İmâm Aḥmed adlı on beş sayfalık bir cüz günümüze kadar gelmiştir (Zâhiriyye Ktp., Mecmua, nr. 87/16). Abdullah b. Mübârek’in kendisinden övgü ile söz ettiği Abdullah b. Yezîd doksan yaşlarında iken Mekke’de vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 143 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-yezid-el-adevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-yezid-el-adevi, https://islamansiklopedisi.org.tr/abdullah-b-yezid-el-adevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-b-yezid-el-adevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-b-yezid-el-adevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-yezid-el-adevi (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Adevî; Mukrî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 213,
+    "start_ce": 828,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-yezid-el-adevi, URL: https://islamansiklopedisi.org.tr/abdullah-b-yezid-el-adevi || DİA death place: Mekke || DİA death-date string: (ö. 213/828) || DİA categories: hadis > rivayet > isnâd || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002172",
+    "iac:person-00003674",
+    "iac:person-00005970",
+    "iac:person-00007106"
+  ],
+  "students": [
+    "iac:person-00000753",
+    "iac:person-00000935",
+    "iac:person-00001599",
+    "iac:person-00003758",
+    "iac:person-00003986"
+  ]
+}

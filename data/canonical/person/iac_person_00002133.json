@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00002133",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ AMR el-HAFFÂF",
+      "ar": "أبو عمرو الخفّاف"
+    },
+    "originalScript": {
+      "ar": "أبو عمرو الخفّاف"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Amr Ahmed b. Nasr b. İbrâhîm el-Haffâf en-Nîsâbûrî"
+      ]
+    },
+    "description": {
+      "tr": "219’da (834) doğdu. “Ayakkabıcı” anlamına gelen Haffâf lakabını hangi sebeple aldığı bilinmemektedir. Hadis tahsiline başlamadan evvel tasavvufla ilgilendi. Hadis öğrenmeye önce Nîşâbur’daki âlimlerden ders alarak başladı. Daha sonra Bağdat, Kûfe, Medine, Mekke vb. ilim merkezlerine seyahatler yaptı; buralarda İshak b. Râhûye , Amr b. Zürâre, Hüseyin b. Dahhâk, Ebû Hemmâm es-Sekûnî, Ahmed b. Menî‘ ve Ebû Küreyb el-Hemdânî gibi âlimlerden faydalandı. Kendisinden de İbnü’ş-Şarkī , Ebû Abdullah İbnü’l-Ahrem , Muhammed b. Ahmed ez-Zühlî , Ebû Saîd el-Hîrî vb. muhaddisler hadis okudu. Akranı olan ünlü muhaddis Muhammed b. İshak es-Serrâc, hâfızası onunki kadar kuvvetli birini görmediğini, ancak cerh ve ta‘dîl açısından râvileri hakkında herhangi bir kanaat belirtmeden hadisleri arka arkaya okuyup geçtiğini söylemektedir. İbn Huzeyme de onun hâfıza gücünden söz ederken Horasan ’da bir benzerinin bulunmadığını belirtmiştir. Talebesi Ebû Bekir es-Sıbgī ise hocasının 100.000 hadisi müzakere edecek kapasiteye sahip olduğundan bahsedildiğini haber vermektedir. Ebû Amr el-Haffâf ülkesinde büyük bir şöhrete sahipti. Halk ve idareciler ona çok değer verir, bu sebeple “zeynü’l-eşrâf” diye anılırdı. Ebû Amr’a karşı büyük bir saygı duyan Saffârî emîri ve Horasan hâkimi Amr b. Leys , yanlış bir uygulamasını gördüğü takdirde kendisini uyarmasını ondan rica etmişti. Ebû Amr el-Haffâf ibadete çok düşkündü. Hiç ara vermeden otuz yıldan fazla oruç tuttuğu nakledilmektedir. Varlıklı bir kimse olan ve mirasçısı bulunmadığı için servetini Allah rızâsı için dağıtan Ebû Amr 299 yılı Şâban ayında (Nisan 912) vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 97 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-amr-el-haffaf",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-amr-el-haffaf, https://islamansiklopedisi.org.tr/ebu-amr-el-haffaf",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-amr-el-haffaf",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-amr-el-haffaf",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:54Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-amr-el-haffaf (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Nîsâbûrî"
+  ],
+  "death_temporal": {
+    "start_ah": 299,
+    "start_ce": 912,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-amr-el-haffaf, URL: https://islamansiklopedisi.org.tr/ebu-amr-el-haffaf || DİA death-date string: (ö. 299/912) || DİA categories: hadis > tasavvuf || Chunk count: 1"
+}

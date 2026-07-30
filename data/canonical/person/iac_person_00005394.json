@@ -1,0 +1,60 @@
+{
+  "@id": "iac:person-00005394",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mehmed Tâhir Ağa"
+    },
+    "description": {
+      "tr": "Sultan I. Mahmud devrinde daha on iki yaşında iken babasıyla birlikte Rusya ve Avusturya seferlerine (1737-1738) katıldığı bilinmektedir. Zilkade 1173 (Haziran 1760) tarihinde Hacı Ahmed Ağa’nın vekili sıfatıyla başmimarlık görevinde bulundu ve 1174 yılı ortasında (1761 yılı başları) bu göreve asaleten tayin edildi. Arşiv belgelerinde 12 Şâban 1175’te (8 Mart 1762) mimarbaşı olarak tekrar Ahmed Ağa görünmesinden Mehmed Tâhir Ağa’nın bu ilk görevinin kısa sürdüğü anlaşılmaktadır ( BA , Cevdet-Saray, nr. 7671). Aynı yıl içinde ikinci defa göreve geldiği kabul edilen Mehmed Tâhir Ağa’nın 2 Cemâziyelâhir 1177 (8 Aralık 1763) tarihli belgeden Edirne Sarayı’nı keşfe gittiği öğrenilmektedir ( BA , Cevdet-Saray, nr. 599). 7 Rebîülevvel 1181 (3 Ağustos 1767) tarihli Tersane Sarayı ile ilgili keşif defteri mimarbaşı İbrâhim Ağa tarafından hazırlandığına göre Mehmed Tâhir Ağa daha önce görevinden ayrılmış olmalıdır ( BA , Cevdet-Saray, nr. 4241). 1181 Zilhicce sonunda (1768 Mayıs ortaları) bu göreve Abdi Ağa getirildi. 1183 Zilhicce ortasında (Nisan 1770) üçüncü defa mimarbaşılığa tayin edilen Mehmed Tâhir Ağa 1189 (1775) yılına kadar görevini sürdürdü ve bu tarihte yerine Hâfız İbrâhim Ağa getirildi. 1191’de (1777) dördüncü defa görev alan Mehmed Tâhir Ağa 18 Ramazan 1198 (5 Ağustos 1784) tarihine kadar görevini devam ettirdi ve yerine tekrar Hâfız İbrâhim Ağa tayin edildi. Görevden ayrıldıktan sonra Şâban 1202’de (Mayıs 1788) I. Abdülhamid devrinde Avusturya seferi sırasında Fethülislâm civarında bir köprünün nâzırlığını yürüttü; çevredeki diğer köprülerin bakımı ve yeniden yapımı için gerekli çalışmalarda bulundu. Özellikle III. Mustafa devrinde 22 Mayıs 1766 depremi sonrasında İstanbul’da başlatılan büyük imar faaliyeti sırasında görev yapan Mehmed Tâhir Ağa’nın birçok yapıda hizmeti mevcuttur. Bu dönemde imparatorluğun diğer bölgelerinde başta kaleler olmak üzere yoğun bir tamir faaliyeti gerçekleştirilmiştir. Bunların önemli bir kısmında planlamayı Mehmed Tâhir Ağa’nın yaptığı anlaşılmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 535-536 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-tahir-aga",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-tahir-aga, https://islamansiklopedisi.org.tr/mehmed-tahir-aga",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:39Z",
+    "modified": "2026-05-04T15:34:39Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-tahir-aga (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1202,
+    "start_ce": 1788,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-tahir-aga, URL: https://islamansiklopedisi.org.tr/mehmed-tahir-aga || DİA death-date string: (ö. 1202/1788’den sonra) || Chunk count: 1"
+}

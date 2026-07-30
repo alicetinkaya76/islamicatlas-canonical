@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00004388",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBRÂHİM b. VELÎD",
+      "ar": "إبراهيم بن الوليد"
+    },
+    "originalScript": {
+      "ar": "إبراهيم بن الوليد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû İshâk İbrâhîm b. el-Velîd b. Abdilmelik"
+      ]
+    },
+    "description": {
+      "tr": "Hayatının halife olmazdan önceki dönemi hakkında çok az bilgi vardır. İbn Sa‘d muhaddis Zührî ile görüştüğünü ve ondan bir sahîfenin rivayeti hususunda izin istediğini bildiren bir rivayet nakleder ( eṭ-Ṭabaḳāt , II, 172). Bu rivayetten İbrâhim’in gençliğinde hadis ilmiyle ilgilendiği anlaşılmaktadır. Onun ilk siyasî görevi, kardeşi Halife III. Yezîd tarafından Ürdün’e vali tayin edilmesiyle başladı ve ardından veliaht ilân edildi. III. Yezîd’in kendisini veliaht tayin etmediğine dair bazı rivayetler de bulunmaktadır. İbrâhim, III. Yezîd’in ölümü üzerine (19 Zilhicce 126 / 2 Ekim 744) hilâfet makamına geçti. İlk iş olarak III. Yezîd’in kendisinden sonra ikinci veliaht tayin ettiği Abdülazîz b. Haccâc b. Abdülmelik’in veliahtlığını onayladı. Ancak bazı merkezler onun halifeliğini tanımadığı gibi başşehir Dımaşk’a yakın Humus halkı dahi kendisine itaat etmedi. Üç ay kadar bu makamda kalabilen İbrâhim’in bütün zamanı kargaşa içinde geçti. II. Velîd’in öldürülmesinden sonra şiddetlenen fitneyi bastırmaktan âciz kaldı. Ülkedeki karışıklıklar giderek arttı ve sarsılmış olan merkezî idarenin otoritesi daha da zayıfladı. Azerbaycan ve İrmîniye Valisi Mervân b. Muhammed, III. Yezîd’in isyanı sırasında öldürülen II. Velîd’in intikamını almak ve onun oğullarının haklarını korumak iddiasıyla harekete geçti. Ancak Mervân’ın asıl amacı hilâfeti ele geçirmekti. Cezîre halkının biatını aldıktan sonra Suriye üzerine yürüyen Mervân, Kınnesrîn’e yönelerek İbrâhim’in kardeşi olan Vali Bişr’in ordusunu bozguna uğrattı, valiyi ve kardeşini esir aldı. Halkı biat etmediği için İbrâhim’in gönderdiği ordu tarafından kuşatma altında tutulan Humus üzerine gitti ve şehri işgal etti. Humus halkının biatını aldıktan sonra 80.000 kişilik ordusuyla Dımaşk’a doğru ilerledi, İbrâhim de ona karşı büyük bir ordu gönderdi. İki ordu Dımaşk civarında Aynülcer denilen yerde karşılaştı. Meydana gelen savaşta (7 Safer 127 / 18 Kasım 744) İbrâhim’in kumandanı Süleyman b. Hişâm yenilip Dımaşk’a sığındı. Süleyman ve adamları bu sırada II. Velîd’in hapiste bulunan iki oğlunu öldürdüler. II. Mervân bu zaferin ardından Dımaşk’a girdi ve halifeliğini ilân etti. Şehirden kaçmak zorunda kalan İbrâhim ise bir süre gizlendikten sonra Mervân’a biat edeceğini açıklayarak ondan eman istedi. Mervân isteğini kabul edip onu yakınları arasına aldı. İbrâhim, Emevî hilâfetinin sona erdiği Zap Suyu Savaşı’nda (11 Cemâziyelâhir 132 / 25 Ocak 750) nehirde boğularak ölenler arasındaydı. Onun daha önce II. Mervân veya Abbâsîler’den Abdullah b. Ali b. Abdullah tarafından öldürüldüğü de rivayet edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 359 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibrahim-b-velid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibrahim-b-velid, https://islamansiklopedisi.org.tr/ibrahim-b-velid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ibrahim-b-velid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ibrahim-b-velid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:306",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=306, heading_ar=إبراهيم بن الوليد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:28Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:28Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:28Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibrahim-b-velid (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[306]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=306 (heading_ar=إبراهيم بن الوليد) via Track A (DİA→Alam xref bridge). dt=Emir, Dımaşk'ta ikamet etmekteydi"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 132,
+    "start_ce": 750,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibrahim-b-velid, URL: https://islamansiklopedisi.org.tr/ibrahim-b-velid || El-Aʿlām (Ziriklī) cross-reference: alam_id=[306] || DİA death-date string: (ö. 132/750) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=306, heading_ar=إبراهيم بن الوليد, dt=Emir, Dımaşk'ta ikamet etmekteydi"
+}

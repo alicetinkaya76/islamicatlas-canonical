@@ -1,0 +1,54 @@
+{
+  "@id": "iac:person-00007411",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Turgut Alp"
+    },
+    "description": {
+      "tr": "Hayatına dair çok az bilgi vardır. Onun tarihî bir şahsiyet olmayıp halk rivayetlerinde ortaya çıkan efsanevî bir kişi olduğu da ileri sürülür. Bununla birlikte ilk Osmanlı kronikleri yanında bazı Bizans kaynaklarında çeşitli askerî faaliyetleri dolayısıyla adı zikredilir. İsmindeki Alp kelimesi bir unvandır ve muhtemelen onun veya babasının Selçuklu Devleti’nin hizmetinde dirlik sahibi olduğuna işaret eder. İlk Osmanlı kaynaklarındaki rivayetlere göre Osman Bey’in yanında bulunmuş ve Yarhisar’ın alınmasına katılmış, ardından İnegöl’ün fethiyle görevlendirilmiştir. Kaynaklarda Turgut Alp’in şehri muhasara ederken Osman Bey’in de yardıma geldiğine değinilir. Yine İnegöl’ün fethi esnasında şehrin tekfuru Aya Nikola’nın Türkler’e karşı düşmanca hareketleri sebebiyle idam edildiği ve şehrin idaresinin Turgut Alp’e verildiği kaydedilir. Bundan sonra Turgut Alp, Köse Mihal ile birlikte Orhan Gazi’nin yanında Atranos’un (Orhaneli) fethine katıldı. Orhan Bey’in geldiğini haber alan Atranos hâkimi hisardan çıkıp kaçarken bir kayadan düşerek öldüğünden kale kolayca ele geçirildi (725/1325). Atranos’un alınması Bursa’nın fethini kolaylaştırdı. Turgut Alp’in 735 (1334-35) yılında sağ olduğu bilinmekte, fakat epeyce yaşlı olduğu anlaşılmaktadır. Onun ayrıca İnegöl çevresinde Keşiş dağı yakınında yaşayan dervişlerden Geyikli Baba ile yakınlığına dair bazı rivayetlere rastlanır. Adı ölümünden sonra İnegöl yöresine verilmiş ve burası Turgut-ili diye anılmıştır. Âşıkpaşazâde, Neşrî ve diğer tarihçiler de İnegöl yöresini Turgut-ili şeklinde anar. Bu adlandırma XVI. yüzyıldan itibaren tamamen ortadan kalkmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2012 yılında İstanbul’da basılan 41. cildinde, 416 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:turgut-alp",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=turgut-alp, https://islamansiklopedisi.org.tr/turgut-alp",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:02Z",
+    "modified": "2026-05-04T15:35:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=turgut-alp (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 735,
+    "start_ce": 1334,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=turgut-alp, URL: https://islamansiklopedisi.org.tr/turgut-alp || DİA death-date string: (ö. 735/1334-35’ten sonra) || DİA categories: rivayet || Chunk count: 1"
+}

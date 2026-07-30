@@ -1,0 +1,100 @@
+{
+  "@id": "iac:person-00003753",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Ebû Müleyke",
+      "ar": "ابن أبي مليكة"
+    },
+    "originalScript": {
+      "ar": "ابن أبي مليكة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Abdullah b. Ubeydillâh b. Ebî Müleyke Züheyr et-Teymî el-Mekkî"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Ali’nin hilâfeti döneminde veya daha önce Mekke’de doğdu (Zehebî, V, 89). Ebû Muhammed künyesiyle de anılır. Sahâbî olan dedesi Ebû Müleyke Züheyr b. Abdullah b. Cüd‘ân’a nisbetle İbn Ebû Müleyke diye şöhret bulmuştur. Dedesinin babası Abdullah, Hz. Ebû Bekir’in babasının amcazadesi olup Câhiliye devrinde mazlumları koruyan, zenginliği ve cömertliğiyle tanınan bir Kureyşli idi ( DİA , I, 93-94). İbn Ebû Müleyke kendi ifadesine göre otuz, İbn Hibbân’a göre ise seksen ( Meşâhîr , s. 83) sahâbî ile görüştü ve onlardan çok sayıda hadis rivayet etti. Hz. Âişe, Ümmü Seleme, Esmâ bint Ebû Bekir, Abâdile, Abdullah b. Ca‘fer b. Ebû Tâlib, Misver b. Mahreme onun hadis rivayet ettiği sahâbîlerden bazılarıdır. İbn Ebû Hâtim, onun Hz. Ömer ile Hz. Osman’dan rivayet ettiği hadislerin mürsel olduğunu kaydetmektedir ( el-Merâsîl , s. 99). Kendisinden hadis rivayet edenler arasında oğlu Yahyâ, kız kardeşinin oğlu Abdurrahman b. Ebû Bekir, Amr b. Dînâr, Atâ b. Ebû Rebâh, Humeyd et-Tavîl, Eyyûb es-Sahtiyânî, Hammâd b. Seleme, İbn Cüreyc ve Leys b. Sa‘d zikredilebilir. Sika bir muhaddis olarak nitelendirilen İbn Ebû Müleyke’nin rivayet ettiği hadisler Kütüb-i Sitte ’de ve diğer hadis kitaplarında yer almaktadır. Hadis, fıkıh ve kıraat ilimlerindeki şöhreti yanında dirayetli bir idareci ve güçlü bir hatip olarak da bilinen İbn Ebû Müleyke, Abdullah b. Zübeyr’in hilâfeti döneminde Harem-i şerif’te müezzinlik ve imamlık, Tâif ve Mekke’de kadılık yapmış, Mekke’de vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 438 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-ebu-muleyke",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-ebu-muleyke, https://islamansiklopedisi.org.tr/ibn-ebu-muleyke",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:18Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:18Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-ebu-muleyke (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "deprecate",
+        "note": "h22_003 kişi-dublet birleştirme: aynı normalize Arapça ad 'ابن ابي مليكه' + aynı ölüm (117 AH / 735 CE) + ayrık kaynaklar; iac:person-00013486 lehine emekli. PID korunur, geri alınabilir (h22_003 --restore).",
+        "changed_at": "2026-07-20T14:37:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854"
+      }
+    ],
+    "deprecated": true,
+    "deprecated_in_favor_of": "iac:person-00013486"
+  },
+  "nisba": [
+    "Teymî; Mekkî"
+  ],
+  "death_temporal": {
+    "start_ah": 117,
+    "start_ce": 735,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-ebu-muleyke, URL: https://islamansiklopedisi.org.tr/ibn-ebu-muleyke || DİA birth place: Mekke || DİA death place: Mekke || DİA death-date string: (ö. 117/735) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000495",
+    "iac:person-00000874",
+    "iac:person-00000996",
+    "iac:person-00002210",
+    "iac:person-00002394",
+    "iac:person-00002595",
+    "iac:person-00005568",
+    "iac:person-00007499"
+  ],
+  "students": [
+    "iac:person-00001041",
+    "iac:person-00001162",
+    "iac:person-00002627",
+    "iac:person-00003141",
+    "iac:person-00003506",
+    "iac:person-00003721",
+    "iac:person-00005117",
+    "iac:person-00006380"
+  ]
+}

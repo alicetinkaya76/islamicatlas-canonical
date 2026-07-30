@@ -1,0 +1,60 @@
+{
+  "@id": "iac:person-00008077",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Tâceddin Bey"
+    },
+    "description": {
+      "tr": "Tâceddinoğulları Beyliği’nin kurucusu."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:taceddin-bey",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=taceddin-bey, https://islamansiklopedisi.org.tr/taceddin-bey",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:11Z",
+    "modified": "2026-05-04T15:35:11Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=taceddin-bey (0 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 788,
+    "start_ce": 1386,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=taceddin-bey, URL: https://islamansiklopedisi.org.tr/taceddin-bey"
+}

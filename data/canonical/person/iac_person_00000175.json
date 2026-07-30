@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00000175",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Muhammad XII (3.)"
+    },
+    "description": {
+      "tr": "Son Nasrî sultanı; 897/1492'de Gırnata'yı teslim etti; Fas'a geçti"
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:7:ruler:29",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-007, ruler #30",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:04:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:04:50Z",
+    "modified": "2026-05-04T15:04:50Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:04:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Promoted from inline rulers[29] of iac:dynasty-00000007 (The Nasrids or Banū 'l-Ahmar) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[29].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "affiliated_dynasties": [
+    "iac:dynasty-00000007"
+  ],
+  "laqab": [
+    "Sultān"
+  ],
+  "floruit_temporal": {
+    "start_ce": 1487,
+    "end_ce": 1492,
+    "approximation": "floruit"
+  },
+  "death_temporal": {
+    "start_ce": 1533,
+    "start_ah": 940,
+    "approximation": "exact",
+    "note": "Bosworth death code: d. 940/1533"
+  },
+  "note": "Bosworth death code: d. 940/1533 || Promoted from iac:dynasty-00000007 rulers[29] (Bosworth NID-007)."
+}

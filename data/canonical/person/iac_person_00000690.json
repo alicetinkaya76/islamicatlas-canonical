@@ -1,0 +1,60 @@
+{
+  "@id": "iac:person-00000690",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Acem Ali"
+    },
+    "description": {
+      "tr": "Osmanlı mimarlık tarihinde Acem Alisi ve Esir Ali adlarıyla da tanınır. Alîsî ( عليسي ) kelimesinin Babinger ve Mayer tarafından yanlışlıkla Îsâ ( عيسى ) şeklinde okunması üzerine literatüre giren Mimar Acem Îsâ ile aynı kişidir. Azerbaycan Türkleri’nden olan ve kendi vakfiyelerinde adı Abdülkerim oğlu Alâeddin Ali Bey şeklinde geçen Acem Ali’nin bu lakaplarla tanınmasının sebebi, Yavuz Sultan Selim’in doğu seferi sırasında İranlılar’dan esir alınmış olmasıdır. Şehremini’de, masrafını da bizzat karşılayarak yaptığı ve bugün Mimar Camii, Mimar Acem Camii ve Örümceksiz Dede Camii adlarıyla anılan caminin mihrap cephesi önündeki hazîrede gömülü olduğu bilinmektedir. 8 Şevval 943 (20 Mart 1537) tarihli vakfiyesinden o tarihte hayatta olduğu öğrenilmekte, yerine tayin edilen Mimar Sinan’ın 944 (1537-38) yılı içinde göreve başlamış olmasından da vakfiyenin tanziminden kısa bir müddet sonra öldüğü anlaşılmaktadır. Acem Ali, Bursa üslûbundan gelen yan mekânları terketmek ve orta kubbeyi ayak kullanmadan doğrudan duvarlar üzerine oturtmak suretiyle, kendinden önce Edirne ve İstanbul Beyazıt camilerinin yapımıyla başlatılmış olan klasik Osmanlı mimarisine, daha sonra halefi Mimar Sinan’ın geliştireceği toplu plan esasını getirmiştir. Kanûnî döneminin başlarına ait olan İstanbul Sultan Selim Camii, Acem Ali’nin kendi üslûbunu eksiksiz biçimde ortaya koyduğu en önemli eseridir. Halefi ve üslûbunun takipçisi olan Mimar Sinan, başlangıçta Şehzade Camii gibi, Acem Ali’nin yalın görünümlü yapılarına ters düşen zengin bir eser yapmışsa da Süleymaniye’de onun sadeliğine dönmüştür. Mimar Sinan’ın, gerek selefinin üslûbunu benimsemiş olması, gerekse onun yaptığı birçok eseri tamir ve tâdil etmesi, Acem Ali’nin bazı eserlerinin ona mal edilmesine yol açmıştır. Gebze’deki Çoban Mustafa Paşa Camii ile İstanbul Sultanahmet’teki İbrâhim Paşa Sarayı bunların en önemlileridir. Bazılarının kitâbesinin bulunmamasına rağmen üslûplarından ve yapıldıkları tarihlerden Acem Ali’ye ait oldukları anlaşılan başlıca eserler arasında Saraybosna’da Gazi Hüsrev Bey Külliyesi, Sofya’da Kadı Seyfeddin, Manisa’da Sultan, Trabzon’da Hatuniye, Konya’da Sultan Selim, Çorlu’da Süleymaniye, Tekirdağ’a bağlı Saray’da Ayas Paşa, İstanbul Fatih’te Bâlî Paşa, Eyüp’te Cezerî Kasım, Sütlüce ve Silivri’de Pîrî Mehmed Paşa camileri ile Topkapı Sarayı’nda Bâbüsselâm (ikinci kapı) sayılabilir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 322 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:acem-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=acem-ali, https://islamansiklopedisi.org.tr/acem-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-05-04T15:32:45Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=acem-ali (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 944,
+    "start_ce": 1537,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=acem-ali, URL: https://islamansiklopedisi.org.tr/acem-ali || DİA death-date string: (ö. 944/1537 [?]) || Chunk count: 1"
+}

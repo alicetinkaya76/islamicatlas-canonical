@@ -1,0 +1,100 @@
+{
+  "@id": "iac:person-00000215",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abu Nuwas",
+      "tr": "Ebû Nüvâs",
+      "ar": "أبو نواس"
+    },
+    "originalScript": {
+      "ar": "أبو نواس"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Nuwas al-Hasan ibn Hani al-Hakami"
+      ],
+      "tr": [
+        "Ebû Nüvâs el-Hasen b. Hânî el-Hakemî"
+      ],
+      "ar": [
+        "أبو نواس الحسن بن هانئ الحكمي"
+      ]
+    },
+    "description": {
+      "tr": "En büyük Arapça şair — şarap ve aşk şiirleriyle sarayları skandalize etti, 1001 Gece'de karakter olarak göründü, 1.200 yıl sonra hâlâ yasaklı || Ebû Nüvâs, Abbasi Bağdat'ının radikal kültürel özgürlüğünü temsil eder. || [Tarih notu] Wagner'in Abu Nuwas (1965) çalışması kritik biyografiyi oluşturdu.",
+      "en": "Greatest Arabic-language poet — scandalised courts with wine and love poems, appeared as character in 1001 Nights, still banned in parts of the Arab world 1,200 years later || Abu Nuwas represents the radical cultural freedom of Abbasid Baghdad. His khamriyyat (wine poetry) deliberately broke with pre-Islamic qasida conventions, replacing desert nostalgia with urban sophistication. The source notes he spent most of his life 'in pursuit not of progress, but of pleasure.' He remains controversial: still banned in some countries, yet considered by many scholars the finest Arabic poet ever. || [Historiographical note] Wagner's Abu Nuwas (1965) established the critical biography. His appearance in 1001 Nights cemented popular fame but obscured the literary sophistication that makes him a major world poet.",
+      "ar": "أعظم شاعر بالعربية — أثار الجدل بقصائد الخمر والغزل || يمثل أبو نواس الحرية الثقافية الراديكالية لبغداد العباسية. خمرياته كسرت عمدًا تقاليد القصيدة الجاهلية"
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0032",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0032, lecture_id=poetry",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-05-04T15:37:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0032 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 3 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 756,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 814,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q5670",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Abu Nuwas')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0032, lecture_week=18. || Key works: {'title': {'en': 'Diwan (wine and love poetry)', 'tr': 'Dîvân (şarap ve aşk şiirleri)', 'ar': 'ديوان أبي نواس'}, 'year': 800, 'field': 'literature', 'significance': {'en': 'Revolutionized Arabic poetry — replaced desert nostalgia with urban hedonism, still banned in parts of the Arab world', 'tr': 'Arap şiirini devrimleştirdi — çöl nostaljisini kentsel hedonizmle değiştirdi, Arap dünyasının bazı bölgelerinde hâlâ yasaklı'}} || Modern parallel: Imagine a court poet who is simultaneously the Bob Dylan, Oscar Wilde, and Charles Bukowski of his civilization — celebrated, banned, and immortalized in folklore, all at once.",
+  "active_in_places": [
+    "iac:place-00001167",
+    "iac:place-00001954",
+    "iac:place-00002027"
+  ],
+  "authored_works": [
+    "iac:work-00000053"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00012946",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Fūṭī",
+      "tr": "İbn el-Fûtî",
+      "ar": "ابن الفوطي"
+    },
+    "originalScript": {
+      "ar": "ابن الفوطي"
+    },
+    "description": {
+      "tr": "Tarihçi, felsefeciler arasında sayılan",
+      "en": "Historian, considered among the philosophers"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd al-Razzāq b. Aḥmad b. Muhammad al-Ṣābūnī, known as Ibn al-Fūṭī, al-Marwazī al-aṣl, al-Shaybānī al-Baghdādī, Abū al-Faḍl, Kamāl al-Dīn"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdurazzâk b. Ahmed b. Muhammed es-Sâbûnî, el-meʿrûf bi İbn el-Fûtî, el-Merûzî el-Asl, eş-Şeybânî el-Bağdâdî, Ebû'l-Fazl, Kemâlüddîn"
+      ],
+      "ar": [
+        "عبد الرزاق بن أحمد بن محمد الصابوني المعروف ب ابن الفوطي ، المروزي الأصل، الشيباني البغدادي أبو الفضل، كمال الدين"
+      ]
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:5405",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5405",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:14Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=5405 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:5405."
+      },
+      {
+        "change_type": "deprecate",
+        "note": "h22_003 kişi-dublet birleştirme: aynı normalize Arapça ad 'ابن الفوطي' + aynı ölüm (723 AH / 1323 CE) + ayrık kaynaklar; iac:person-00004185 lehine emekli. PID korunur, geri alınabilir (h22_003 --restore).",
+        "changed_at": "2026-07-20T14:37:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854"
+      }
+    ],
+    "deprecated": true,
+    "deprecated_in_favor_of": "iac:person-00004185"
+  },
+  "death_temporal": {
+    "start_ah": 723,
+    "start_ce": 1323,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5405, heading_ar=ابن الفوطي || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
+  "kunya": "أبو الفضل"
+}

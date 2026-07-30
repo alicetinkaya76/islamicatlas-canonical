@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00002625",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EYMEN b. HUREYM",
+      "ar": "أيمن بن خريم"
+    },
+    "originalScript": {
+      "ar": "أيمن بن خريم"
+    },
+    "altLabel": {
+      "tr": [
+        "Eymen b. Hureym b. Fâtik el-Esedî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Dımaşklı olup sonradan Kûfe’ye yerleşen babası Hureym b. Fâtik ile amcası Sebre sahâbî idiler. Babasının ve amcasının Bedir Gazvesi’ne katıldığına, ayrıca amcasının Hudeybiye Antlaşması’nda bulunduğuna dair rivayetler vardır. Abdüllatîf b. Ahmed el-Bikāî her iki kardeşi Ehl-i Bedir arasında saymaktadır ( Ehlü Bedr , s. 69, 91). Bazı kaynaklarda ise Bedir Gazvesi sırasında henüz ergin olmayan Eymen ile babasının ve amcasının Mekke’nin fethinde İslâmiyet’i kabul ettikleri ileri sürülmektedir. Ashabın hayatına dair eserlerde Eymen’in sahâbî kabul edildiği görülmektedir. Eymen’in yalancı şahitlik konusunda doğrudan Hz. Peygamber’den bir hadis rivayet ettiği söylenmekle beraber Tirmizî’nin de belirttiği gibi onun Resûl-i Ekrem’den hadis işittiği bilinmemektedir (Tirmizî, “Şehâdât”, 3, “Büyûʿ”, 3, “Ḥudûd”, 16). Siyasî konularda bilgi ve tecrübe sahibi olan Eymen hayatı boyunca müslümanlar arasındaki ihtilâflardan uzak durmaya çalışmıştır. Abdülmelik b. Mervân’ın ona bir miktar para verdiği, babasının ve amcasının sahâbî olduklarını hatırlatarak kendisinin de Abdullah b. Zübeyr’e karşı savaşmasının uygun olacağını söylediği, fakat Eymen’in, “Ben namaz kılan bir kimseyle savaşmam” diye başlayan şiiriyle bu teklifi reddettiği belirtilmektedir (İbn Sa‘d, VI, 38). Devrinin tanınmış şairleri arasında yer alan Eymen’i, kasidelerinde övdüğü kimselerin meziyetlerini zikrederken mübalağalı ifadelerden sakındığı için başarılı saymayanlar vardır (Merzübânî, s. 222-223). Buna karşılık Abdülmelik b. Mervân onu, övdüğü kimselerin özellikle ruhî ve ahlâkî vasıflarını dikkate aldığı için takdir etmiştir. Emevî valilerinden Abdülazîz b. Mervân ve Bişr b. Mervân hakkında da şiirler söyleyen Eymen, Kûfeli şairlerin çoğunun yaptığı gibi gazel tarzında kasideler de söylemiştir. Eymen lirik bir şair olup dili fasih, kelime örgüsü sağlam, ifadesi açıktır. Bununla birlikte mânası güç anlaşılan şiirleri de vardır. Medih, hiciv, gazel ve hikmet tarzında şiirler yazan Eymen’in Halife Osman’ın ardından yazdığı mersiye bu türün güzel bir örneğini teşkil eder. Abdülazîz b. Mervân ile Bişr b. Mervân’ın, şiirlerini çok beğendikleri Eymen b. Hureym’e “halîlü’l-hulefâ” lakabı verilmiştir. Eymen b. Hureym’in şiirlerinden bazı parçalar çeşitli eserlerde bugüne ulaşmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 551 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:eymen-b-hureym",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=eymen-b-hureym, https://islamansiklopedisi.org.tr/eymen-b-hureym",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:1855",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=1855, heading_ar=أيمن بن خريم",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:03Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=eymen-b-hureym (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[1855]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=1855 (heading_ar=أيمن بن خريم) via Track A (DİA→Alam xref bridge). dt=Şair, Mısır'da Abdülaziz b. Mervan yanında yüksek bir konuma sahipti, sonra Irak"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Esedî"
+  ],
+  "death_temporal": {
+    "start_ah": 80,
+    "start_ce": 699,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=eymen-b-hureym, URL: https://islamansiklopedisi.org.tr/eymen-b-hureym || El-Aʿlām (Ziriklī) cross-reference: alam_id=[1855] || DİA death-date string: (ö. 80/699 [?]) || DİA categories: hadis > rivayet > şiir || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=1855, heading_ar=أيمن بن خريم, dt=Şair, Mısır'da Abdülaziz b. Mervan yanında yüksek bir konuma sahipti, sonra Irak'ta onun kardeşi Beş"
+}

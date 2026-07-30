@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00000360",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Gazi Husrev-beg",
+      "tr": "Gazi Hüsrev Bey",
+      "ar": "غازي خسرو بك"
+    },
+    "originalScript": {
+      "ar": "غازي خسرو بك"
+    },
+    "altLabel": {
+      "en": [
+        "Gazi Husrev-beg ibn Ferhad"
+      ],
+      "tr": [
+        "Gazi Hüsrev Bey b. Ferhad"
+      ],
+      "ar": [
+        "غازي خسرو بك بن فرهاد"
+      ]
+    },
+    "description": {
+      "tr": "Vakıf cami, medrese, kütüphane ve çarşılarla Saraybosna'yı büyük bir İslâm kültür merkezi haline getirdi || Gazi Hüsrev Bey'in vakfı, Saraybosna'yı bir pazar kasabasından Osmanlı Balkanları'nın entelektüel başkentine dönüştürdü. Medresesi nesiller boyu Bosnalı ulema yetiştirdi; Balkanlar'ın en eski kütüphanesi binlerce yazmayı korumaktadır. || [Tarih notu] Handžić'in vakıf belgelerini incelemesi sofistike bir şehir planlama vizyonunu ortaya koymuştur. Gazi Hüsrev Bey Kütüphanesi 1992 Saraybosna kuşatmasından sağ kurtulmuştur.",
+      "en": "Built Sarajevo into a major Islamic cultural center through endowed mosques, madrasas, libraries, and markets || Gazi Husrev-beg's endowment transformed Sarajevo from a market town into the intellectual capital of Ottoman Balkans. His madrasa trained generations of Bosnian ulema, and his library — the oldest in the Balkans — preserves thousands of manuscripts. || [Historiographical note] Handžić's study of the waqf documents revealed a sophisticated urban planning vision. The Gazi Husrev-beg Library survived the 1992 siege of Sarajevo.",
+      "ar": "بنى سراييفو مركزًا ثقافيًا إسلاميًا كبيرًا عبر وقف المساجد والمدارس والمكتبات والأسواق || حوّل وقف غازي خسرو بك سراييفو من بلدة سوقية إلى عاصمة فكرية للبلقان العثماني. درّبت مدرسته أجيالًا من علماء البوسنة ومكتبته — الأقدم في البلقان — تحفظ آلاف المخطوطات. || [Historiographical note] كشفت دراسة هانجيتش لوثائق الوقف عن رؤية تخطيط حضري متطورة. نجت مكتبة غازي خسرو بك من حصار سراييفو 1992."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0191",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0191",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "dia-chunks:gazi-husrev-bey",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/gazi-husrev-bey",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:52Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0191 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1480,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1541,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0191, lecture_week=n/a. || Key works: {'title': {'en': 'Gazi Husrev-beg Waqf Foundation', 'tr': 'Gazi Hüsrev Bey Vakfiyesi', 'ar': 'وقفية غازي خسرو بك'}, 'year': 1531, 'significance': {'en': 'Most extensive waqf complex in the Balkans, still operational', 'tr': \"Balkanlar'ın en kapsamlı vakıf külliyesi, hâlâ faal\", 'ar': 'أوسع مجمع وقفي في البلقان ولا يزال عاملًا'}} || Modern parallel: Like a university founder who builds not just a campus but an entire city ecosystem — Husrev-beg's waqf still serves Sarajevo today.",
+  "authored_works": [
+    "iac:work-00000219"
+  ]
+}

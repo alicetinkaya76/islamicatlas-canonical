@@ -1,0 +1,104 @@
+{
+  "@id": "iac:person-00001312",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bakkālî",
+      "ar": "البقّالي"
+    },
+    "originalScript": {
+      "ar": "البقّالي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Fazl Muhammed b. Ebi’l-Kāsım b. Bâbcûk (Baycûk) el-Hârizmî el-Bakkālî"
+      ]
+    },
+    "description": {
+      "tr": "Hârizm’in Cürcâniye şehrinde doğduğu anlaşılan Bakkālî hakkında kaynaklarda yeterli bilgi yoktur. Daha çok kuru yiyecekler alıp sattığı için Bakkāl (Arap olmayanların söyleyişiyle Bakkālī) diye meşhur olduğu, ayrıca “zeynü’l-meşâyih” lakabıyla anıldığı bilinmektedir. Âdemî’nin nahivle ilgili kitabını ezberlediği için Âdemî diye de tanınmaktadır. Meşhur müfessir ve dilci Zemahşerî’nin önde gelen talebelerindendi. Ayrıca hadiste de ondan faydalandı. Hocasının ölümü üzerine talebelerinin başına geçerek onun yerini aldı ve kısa zamanda meşhur oldu. Tefsir ve nahiv alanındaki eserleri yanında Hanefî fıkhındaki bilgisi ve güzel ahlâkı ile de tanınan Bakkālî, 29 Cemâziyelâhir 562’de (22 Nisan 1167) yetmiş yaşının üzerinde Cürcâniye’de öldü. Bu tarih bazı kaynaklarda 561 (1166), 576 (1180) ve 586 (1190) olarak da zikredilmiştir. Eserleri. 1. Tefsîrü’l-Baḳḳālî . Sadece VII. cildi hakkında bilgi bulunan ve Arapça olan bu eser, kaynaklarda Bakkālî’ye nisbet edilen Miftâḥu’t-tenzîl adlı tefsir olmalıdır. 247 varak hacmindeki bu cilt, Tâhâ sûresinin başından Sebe’ sûresinin sonuna kadar olan kısmı ihtiva etmekte olup son sayfasında VIII. cildin Kasas sûresiyle başlayacağına işaret edilmiştir (bk. Süleymaniye Ktp., Damad İbrâhim Paşa, nr. 99). Buna göre eserin tamamının yaklaşık on iki cilt kadar olduğu tahmin edilebilir. 2. Terâcimü’l-eʿâcim . Farsça muhtasar bir Kur’an lugatı (satır arası tercüme) mahiyetinde olan eserde kısa bir Arapça mukaddimenin ardından besmele ve Fâtiha sûresindeki kelimelerin açıklamaları yapılmakta, daha sonra Nâs sûresine geçilerek geriye doğru sûreler sırasıyla ele alınmakta ve eser Bakara sûresiyle son bulmaktadır. Bilinen yazma nüshalarından birinin kapağında (Süleymaniye Ktp., Mesih Paşa, nr. 59) adı Miṣbâḥu’l-beyân fî tavżîḥi meʿâni’l-Ḳurʾân şeklinde yazılmış ise de ilk sayfasında Terâcimü’l-eʿâcim adı da yer almaktadır (bk. Süleymaniye Ktp., Fâtih, nr. 5176, 65 varak; İbrâhim Efendi, nr. 16/2, 144-183. varaklar; Mesih Paşa, nr. 59, 34 varak; İÜ Ktp., nr. 408, 88 varak; nr. 1182, 82 varak; nr. 1311, 34 varak; Sivas Ziya Bey Ktp., nr. 201, 66 varak). Bazı kaynaklarda eserin adı et-Terâcim bi-lisâni’l-eʿâcim olarak zikredilmektedir. Bakkālî’nin kaynaklarda zikredilen diğer eserlerinden bazıları da şunlardır: et-Tenbîh ʿalâ iʿcâzi’l-Ḳurʾân , Eẕkârü’ṣ-ṣalât , Cemʿu’t-tefâriḳ fi’l-fürûʿ , el-Esnâ fî şerḥi esmâʾi’l-ḥüsnâ , Taḳvîmü’l-lisân , el-İʿcâb fî ʿilmi’l-iʿrâb , Menâzilü’l-ʿArab , Terġībü’l-ʿilm , el-Fetâvâ . Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 544-545 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bakkali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bakkali, https://islamansiklopedisi.org.tr/bakkali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:bakkali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=bakkali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bakkali (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=bakkali)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hârizmî; Bakkālî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 562,
+    "start_ce": 1167,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bakkali, URL: https://islamansiklopedisi.org.tr/bakkali || DİA birth place: Cürcâniye || DİA death-date string: (ö. 562/1167) || DİA categories: tefsir > nahiv > hadis || Chunk count: 1",
+  "birth_place": "iac:place-00015199",
+  "teachers": [
+    "iac:person-00007814"
+  ],
+  "students": [
+    "iac:person-00005925"
+  ]
+}

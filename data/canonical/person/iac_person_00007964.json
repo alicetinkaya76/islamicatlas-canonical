@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00007964",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FAYSAL b. TÜRKÎ",
+      "ar": "فيصل بن تركي"
+    },
+    "originalScript": {
+      "ar": "فيصل بن تركي"
+    },
+    "description": {
+      "tr": "Suudî ailesine mensup Vehhâbî emîri."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:faysal-b-turki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=faysal-b-turki, https://islamansiklopedisi.org.tr/faysal-b-turki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:8309",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8309, heading_ar=فيصل بن تركي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:10Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=faysal-b-turki (0 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8309]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8309 (heading_ar=فيصل بن تركي) via Track A (DİA→Alam xref bridge). dt=Cesur ve kabiliyetli imâm."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1282,
+    "start_ce": 1865,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=faysal-b-turki, URL: https://islamansiklopedisi.org.tr/faysal-b-turki || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8309] || El-Aʿlām (Track A) augmentation: alam_id=8309, heading_ar=فيصل بن تركي, dt=Cesur ve kabiliyetli imâm."
+}

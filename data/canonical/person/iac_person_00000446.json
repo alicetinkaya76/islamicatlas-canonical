@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00000446",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdülhalim Çelebi"
+    },
+    "description": {
+      "tr": "Mevlânâ Celâleddîn-i Rûmî’nin on dokuzuncu kuşaktan torunudur. Babası Konya Mevlânâ Dergâhı postnişini Abdülvâhid Çelebi’nin 1907’de vefatı üzerine aynı dergâhta postnişin oldu. Üç yıl sonra İttihatçılar’ın baskısıyla azledilerek yerine Necip Çelebi oğlu Veled Çelebi (İzbudak) tayin edildi. Sultan Reşad’ın vefatından sonra 1919’da ikinci defa aynı makama döndü. Ancak bir yıl sonra yine azledilerek yerine birkaç aylığına Yâkub oğlu Âmil Çelebi getirildi. 1921’de üçüncü ve son defa Mevlânâ Dergâhı postnişinliğine iade edildi. İstiklâl Harbi’ne de katılan Abdülhalim Çelebi, Konya’dan milletvekili seçildi. Birinci devre Büyük Millet Meclisi reis vekilliği yaptı. Meclis Başkanlığı’na verdiği önergelerle dikkati çekti. Konya Delibaş İsyanı’nın bastırılmasında büyük rolü oldu. Vatanî hizmetlerinden dolayı kendisine İstiklâl madalyası verildi. Cumhuriyet’in ilânından sonra Mustafa Kemal Paşa’nın isteği ve tasvibi ile oğlu Mehmed Bâkır Çelebi’yi, o devirde en büyük Mevlevî âsitânesinin bulunduğu Suriye’nin Halep şehrine tayin etti. Türkiye’de tekkelerin kapatılmasından ve Abdülhalim Çelebi’nin de vefatından sonra Mevlevî tekkelerinin merkezi olan Konya’nın bu vasfı Halep şehrine geçti. M. Bâkır Çelebi Halep’te Atatürk tarafından kendisine şahsen verilmiş olan millî görevlerin gerçekleşmesini sağlamak maksadıyla çok gizli ve faydalı çalışmalar yaptı. Hatay’ın anavatana barış yoluyla ilhak edilmesinde önemli hizmetlerde bulundu. 1943’te İstanbul’da ölümünden sonra oğlu Celâleddin Çelebi Türkiye’ye döndü. Ailesinin yedi yüz yıllık terbiye ve geleneklerine uyarak ömrünü vatan ve milletine faydalı hizmetlere vakfeden Abdülhalim Çelebi, İstanbul’da kaldığı bir otelin balkonundan düşerek komaya girdi ve götürüldüğü Yenikapı Mevlevîhânesi’nde vefat etti. Şeker hastası olması dolayısıyla baş dönmesinden düşerek öldüğü veya siyasî sebeplerle suikasta uğradığı söylenirse de ailesi onun hırsızlık için işlenmiş bir cinayete kurban gittiği kanaatindedir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 212 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulhalim-celebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulhalim-celebi, https://islamansiklopedisi.org.tr/abdulhalim-celebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:38Z",
+    "modified": "2026-05-04T15:39:37Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulhalim-celebi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:33Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1874,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdulhalim-celebi, URL: https://islamansiklopedisi.org.tr/abdulhalim-celebi || DİA death place: İstanbul || DİA death-date string: (1874-1925) || Chunk count: 1",
+  "death_place": "iac:place-00000735"
+}

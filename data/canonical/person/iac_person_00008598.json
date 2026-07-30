@@ -1,0 +1,96 @@
+{
+ "@id": "iac:person-00008598",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Ahsāʾī",
+   "tr": "El-Ahsâî",
+   "ar": "الأحسائي"
+  },
+  "originalScript": {
+   "ar": "الأحسائي"
+  },
+  "description": {
+   "tr": "İmâmî mezhepten felsefeci. Kişfi ilham ve keşfe dayanan (Keşfiyye) mezhebinin kurucusu. Takipçileri",
+   "en": "Twelver Imāmī philosopher and founder of the Kashshfiyya school, based on unveiling and inspiration"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Aḥmad b. Zayn al-Dīn b. Ibrāhīm b. Sakr b. Ibrāhīm b. Dāghir b. Rāshid al-Saqrī al-Mutayrfī al-Ahsāʾī al-Bahāʾī"
+  },
+  "altLabel": {
+   "tr": [
+    "Ahmed b. Zeynüddîn b. İbrahim b. Sakr b. İbrahim b. Dâğer b. Râşid es-Sakrî el-Mutayrfî el-Ahsâî el-Bahrânî"
+   ],
+   "ar": [
+    "أحمد بن زين الدين بن إبراهيم بن صقر بن إبراهيم بن داغر بن راشد الصقريالمطيرفي الأحسائي البحراني"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:566",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=566",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:35Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:35Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:35Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=566 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:566."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (861-8598) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000861 lehine yumuşak-silindi. Gerekçe: el-Ahsâî nisbesi, Ahsâ bağlantısı ve 1826 ölüm yılı Şeyhîliğin kurucusu Ahmed el-Ahsâî'de birebir örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000861"
+ },
+ "death_temporal": {
+  "start_ah": 1241,
+  "start_ce": 1826,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=566, heading_ar=الأحسائي || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 26.07, 50.56",
+ "active_in_places": [
+  "iac:place-00001500",
+  "iac:place-00008999"
+ ]
+}

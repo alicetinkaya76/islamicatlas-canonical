@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00007241",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "TÂHİR EFENDİ, Halîfezâde"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu ve orada yaşadı. Adı Mehmed’dir. Babası Dîvân-ı Hümâyun halifeliği yaptığından “Halîfezâde” lakabıyla tanındı. Hayatına dair yeterli bilgi yoktur. III. Osman devrinde (1754-1757) şöhrete ulaştı ve şöhreti III. Mustafa döneminde (1757-1774) sürdü. Divan kâtipliği görevinde iken vefat etti. Rumeli kadılarından divan şairi Âkif Fethullah Efendi vefatına tarih düşürmüştür: “Olan cûyende-i târîh-i sâl-i fevti gûş etsin / Dedi hâtif Halîfezâde Tâhir göçtü ukbâya” (1188). Tâhir Efendi nüktedan ve hoşsohbet kişiliğinin yanı sıra şairliği ve özellikle mûsikişinaslığı ile tanınmıştır. “Tâhir” mahlasıyla kaleme aldığı şiirlerine güfte mecmualarında rastlanmaktaysa da bir divanı bilinmemektedir. Silâhdarzâde ve Bağdatlı Şefkat tezkirelerinde onun “cemî-i maârifte yegâne, husûsan ilm-i mûsikîde hâce-i zaman” olduğu ifade edilmektedir. El yazması bazı güfte mecmualarında dinî eserlerine de rastlanan Tâhir Efendi daha çok din dışı sahadaki sözlü eserleri ve saz eserleriyle tanınmıştır. Sadeddin Nüzhet Ergun onun, güfteleri Abdülahad Nûri’ye ait üç ilâhisinin metnini antolojisinde neşretmiştir (I, 373-374). Yılmaz Öztuna’nın listesini verdiği peşrev, beste, aksak semâi ve yürük semâi formunda toplam yedi eserinden peşrev dışındakiler Türkiye Radyo ve Televizyon Kurumu repertuvarında mevcuttur. Bunlar arasında, “Ey dil sev ol perîveşi bu hüsn ü ân ile” mısraıyla başlayan hüseynî ve, “Bilindi bûseye yok yârin izni” mısraıyla başlayan sabâ makamındaki ağır semâilerinin güftesi de kendisine aittir. Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 398 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:tahir-efendi-halifezade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=tahir-efendi-halifezade, https://islamansiklopedisi.org.tr/tahir-efendi-halifezade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:tahir-efendi-halifezade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/tahir-efendi-halifezade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:00Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:00Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:00Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=tahir-efendi-halifezade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1188,
+    "start_ce": 1774,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=tahir-efendi-halifezade, URL: https://islamansiklopedisi.org.tr/tahir-efendi-halifezade || DİA birth place: İstanbul || DİA death place: İstanbul || DİA death-date string: (ö. 1188/1774) || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "death_place": "iac:place-00000735"
+}

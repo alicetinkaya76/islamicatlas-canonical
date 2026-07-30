@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00021307",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Safadi"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "openiti:0764Safadi",
+        "source_type": "digital_corpus",
+        "page_or_locator": "OpenITI corpus_authors.json id=0764Safadi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "OpenITI corpus snapshot 2024-2026"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "openiti-author-resolve",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T21:23:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T21:23:43Z",
+    "modified": "2026-05-04T21:23:43Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T21:23:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Placeholder person minted by openiti-author-resolve Tier 4 (no T1/T2 match in canonical person index). Pending biographic enrichment in Hafta 6 (DİA chunk re-extraction + cross-source alignment). Authored works will be back-populated by integrity_pass_A_bidirectional after openiti-works adapter."
+      }
+    ],
+    "deprecated": false
+  },
+  "note": "Tier-4 placeholder from OpenITI author_id=0764Safadi. Biographic content sparse pending Hafta 6 enrichment.",
+  "death_temporal": {
+    "start_ce": 1363,
+    "start_ah": 764,
+    "approximation": "circa"
+  },
+  "authored_works": [
+    "iac:work-00000298",
+    "iac:work-00000643",
+    "iac:work-00001847",
+    "iac:work-00002995",
+    "iac:work-00003382",
+    "iac:work-00003672",
+    "iac:work-00004412",
+    "iac:work-00005444",
+    "iac:work-00006345",
+    "iac:work-00006656",
+    "iac:work-00006964"
+  ]
+}

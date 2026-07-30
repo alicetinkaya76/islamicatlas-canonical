@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00002490",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EMÎN-i AHMED-i RÂZÎ",
+      "ar": "أمين أحمد رازي"
+    },
+    "originalScript": {
+      "ar": "أمين أحمد رازي"
+    },
+    "altLabel": {
+      "tr": [
+        "Heft İḳlîm adlı eseriyle tanınan İranlı tezkire müellifi."
+      ]
+    },
+    "description": {
+      "tr": "Rey’de doğdu. Hayatı hakkında fazla bilgi yoktur. Kültürlü ve zengin bir aileye mensup olduğu anlaşılmaktadır. Babası Hâce Mirza Ahmed ve şair olan amcası Hâce Muhammed Şerîf, Safevî Hükümdarı Şah I. Tahmasb zamanında (1524-1576) önemli görevlerde bulunmuşlardı. Amcazadesi Hâce Gıyâs Bey, Bâbürlü Ekber Şah’ın (1556-1605) sarayında yüksek bir görevde bulunduktan sonra Cihangir’in vezirlerinden biri oldu. Emîn-i Râzî de diğer bazı şair ve edipler gibi Hindistan’a gidip Ekber Şah’ın sarayına intisap etti. Kendisini şöhrete kavuşturan Heft İḳlîm adlı tezkiresini 996’da (1588) Hindistan’da iken yazmaya başlayıp altı yılda tamamladığına göre 1002’den (1594) sonra vefat etmiş olmalıdır. Heft İḳlîm , yedi coğrafî bölge esasına göre düzenlenerek yedi bölüme ayrılmış; her bölümde, kendi içinde daha küçük bölgelere, ülkelere veya şehirlere ayrılan bir bölge (iklim) ele alınmıştır. Her ana bölgenin tarih ve coğrafyası hakkında bilgi veren bir girişten sonra, orada yetişen büyük şahsiyetlerin biyografileri genellikle ölüm tarihi sırasına göre ve çok defa kısa olarak anlatılmıştır. Eserin tamamında 1560 âlim, şair, edip, mutasavvıf, emîr ve hükümdarın biyografileri ele alınmış, şairlere ve şiirlerine daha çok yer verilmiştir. İran edebiyatı tarihi için önemli bir kaynak olmakla birlikte daha önce yazılmış tezkirelerden pek çok nakil ve iktibası ihtiva eden eserin dili, o dönemde yazılmış diğer mensur eserlere göre daha sadedir. İran’da ve İran dışındaki çeşitli kütüphanelerde yazma nüshaları bulunan Heft İḳlîm ’in ilmî bir neşri henüz yapılmamıştır. Eserin E. Denison Ross, A. H. Harley ve Abdülmuktedir tarafından gerçekleştirilen yayımı (I-III, Kalküta 1918, 1927, 1939) eksiktir. Cevâd Fâzıl neşri ise (I-III, Tahran 1341 hş./1962) tam olmakla birlikte fihristi bulunmadığı, birçok yanlışlık ve matbaa hatası ile dolu olduğu için ilmî neşir sayılmaz. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 114 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:emin-i-ahmed-i-razi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=emin-i-ahmed-i-razi, https://islamansiklopedisi.org.tr/emin-i-ahmed-i-razi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:01Z",
+    "modified": "2026-05-04T15:39:52Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=emin-i-ahmed-i-razi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1002,
+    "start_ce": 1594,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=emin-i-ahmed-i-razi, URL: https://islamansiklopedisi.org.tr/emin-i-ahmed-i-razi || DİA birth place: Rey || DİA death place: 1002 || DİA death-date string: (ö. 1002/1594’ten sonra) || Chunk count: 1",
+  "birth_place": "iac:place-00015119"
+}

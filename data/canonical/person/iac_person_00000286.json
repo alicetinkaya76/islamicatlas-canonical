@@ -1,0 +1,118 @@
+{
+  "@id": "iac:person-00000286",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ahmad Yasawi",
+      "tr": "Ahmed Yesevî",
+      "ar": "أحمد يسوي"
+    },
+    "originalScript": {
+      "ar": "أحمد يسوي"
+    },
+    "altLabel": {
+      "en": [
+        "Khwaja Ahmad ibn Ibrahim Yasawi"
+      ],
+      "tr": [
+        "Hoca Ahmed b. İbrâhîm Yesevî"
+      ],
+      "ar": [
+        "خواجه أحمد بن إبراهيم يسوي"
+      ]
+    },
+    "description": {
+      "tr": "Orta Asya Türk dünyasını kendi dillerindeki tasavvufî şiirle İslâmlaştırdı — tüm Türk tasavvuf tarikatlarının manevî babası || Yesevî'nin dehası dilseldir: tasavvufî şiir için Arapça veya Farsça yerine Türkçe kullanarak göçebe Türk halklarına ulaşmak için doğrudan bir kanal oluşturdu. || [Tarih notu] Türkistan'daki (Kazakistan) türbesi 1389'da Timur tarafından yeniden inşa edildi ve şimdi UNESCO Dünya Mirası Alanıdır.",
+      "en": "Islamized the Central Asian Turkic world through Sufi poetry in their own language — the spiritual father of all Turkic Sufi orders || Yasawi's genius was linguistic: by using Turkish rather than Arabic or Persian for mystical poetry, he created a direct channel for Sufi ideas to reach nomadic Turkic peoples. || [Historiographical note] His shrine in Turkestan (Kazakhstan) was rebuilt by Timur in 1389 and is now a UNESCO World Heritage Site — testament to his enduring spiritual authority.",
+      "ar": "نشر الإسلام في عالم الترك عبر الشعر الصوفي بلغتهم — الأب الروحي لجميع الطرق الصوفية التركية || كانت عبقرية يسوي لغوية: باستخدام التركية بدلاً من العربية أو الفارسية"
+    }
+  },
+  "profession": [
+    "philosopher",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0103",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0103",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:220",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=220",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:57:46Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:57:46Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:57:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0103 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['nisba', 'laqab']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1093,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1166,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q401543",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ahmad Yasawi')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0103, lecture_week=n/a. || Key works: {'title': {'en': 'Dīwān-i Ḥikmat (Collected Wisdom)', 'tr': 'Dîvân-ı Hikmet', 'ar': 'ديوان حكمت'}, 'year': 1150, 'field': 'philosophy', 'significance': {'en': 'Collection of Turkic mystical poems (hikmat) that spread Sufism among the Turkic peoples of Central Asia', 'tr': \"Orta Asya'nın Türk halklarına tasavvufu yayan Türkçe tasavvufî şiir (hikmet) derlemesi\"}} || Modern parallel: Like Martin Luther writing theology in German instead of Latin — making profound ideas accessible by choosing the people's language.",
+  "birth_place": "iac:place-00015235",
+  "authored_works": [
+    "iac:work-00000143"
+  ],
+  "nisba": [
+    "Yesevî"
+  ],
+  "laqab": [
+    "Pîr-i Türkistân",
+    "Hazret-i Sultan"
+  ]
+}

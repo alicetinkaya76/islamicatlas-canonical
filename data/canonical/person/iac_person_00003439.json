@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00003439",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HİŞÂM ed-DESTÜVÂÎ",
+      "ar": "هشام الدستوائي"
+    },
+    "originalScript": {
+      "ar": "هشام الدستوائي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Hişâm b. Ebî Abdillâh Senber el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "Hadis rivayetinin yanında ticaretle de meşgul olduğundan satmak istediği giyim eşyalarını Ahvaz’ın kasabalarından Destüvâ’dan getirdiği için Destüvâî veya Sâhibü’d-Destüvâî diye anılmıştır. Bu nisbeyi Destevâî şeklinde okuyanlar da bulunmaktadır (Mizzî, XXX, 216). Hişâm Katâde b. Diâme, Hammâd b. Ebû Süleyman, Yahyâ b. Ebû Kesîr, Eyyûb es-Sahtiyânî ve Ma‘mer b. Râşid gibi muhaddislerden hadis almış, Katâde’nin hadislerini en iyi onun bildiği, Yahyâ b. Ebû Kesîr’in rivayetlerini kitapları kaybolan Evzâî’den daha iyi koruduğu kabul edilmiştir. Kendisinden hadis rivayet edenler arasında Ebû Dâvûd et-Tayâlisî, Yezîd b. Hârûn, Abdurrahman b. Mehdî, Abdullah b. Mübârek, Yahyâ b. Saîd el-Kattân, İsmâil b. Uleyye, Bişr b. Mufaddal, akranlarından Şu‘be b. Haccâc, Nadr b. Şümeyl, Vekî‘ b. Cerrâh gibi muhaddisler bulunmaktadır. Hâfızası son derece kuvvetli, güvenilir bir muhaddis olarak tanınan Hişâm’ın bu yönünü takdir eden Ahmed b. Hanbel ezberlediğini ondan daha iyi koruyan bir kimsenin bulunacağına ihtimal vermemektedir. Hadiste Hişâm’ın sözü üzerine söz söylenemeyeceğini belirten Şu‘be de hocası Katâde’nin hadislerini Hişâm’ın kendisinden daha iyi muhafaza ettiğini belirtmiştir. Yahyâ el-Kattân ise bir hadisi Hişâm’dan dinledikten sonra artık onu başkasından duymanın o kadar önemli olmadığını söylemiştir. Hadis rivayetindeki bu konumu dolayısıyla kendisine “emîrü’l-mü’minîn fi’l-hadîs” unvanı verilmiştir. Bazı kaynaklarda Hişâm’ın Kaderiyye’ye mensup olduğu zikredilmektedir (Mizzî, XXX, 221; Zehebî, Teẕkiretü’l-ḥuffâẓ , I, 164). Ancak Kaderiyye’nin propagandasını yapmadığı, bu mezhebin önde gelenleri arasında yer almadığı veya daha sonra bu tür görüşlerinden vazgeçtiği için rivayetleri İmam Mâlik’in el-Muvaṭṭaʾ ı dışındaki hadis kitaplarında yer almıştır. Hişâm ed-Destüvâî, Allah rızâsı için hadis rivayet ettiğini ve âhirette ancak bu sayede kurtulabileceğini umduğunu söylemiştir. Allah korkusuyla çok ağladığı ve bu sebeple gözlerini kaybettiği rivayet edilmektedir ( Zehebî, Teẕkiretü’l-ḥuffâẓ , I, 164). Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 153 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hisam-ed-destuvai",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hisam-ed-destuvai, https://islamansiklopedisi.org.tr/hisam-ed-destuvai",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:15Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hisam-ed-destuvai (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Basrî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 153,
+    "start_ce": 770,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hisam-ed-destuvai, URL: https://islamansiklopedisi.org.tr/hisam-ed-destuvai || DİA death-date string: (ö. 153/770) || DİA categories: hadis > rivayet > mezhep || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002627",
+    "iac:person-00003139",
+    "iac:person-00004785",
+    "iac:person-00005217",
+    "iac:person-00007646"
+  ],
+  "students": [
+    "iac:person-00001560",
+    "iac:person-00004060",
+    "iac:person-00007290",
+    "iac:person-00007656"
+  ]
+}

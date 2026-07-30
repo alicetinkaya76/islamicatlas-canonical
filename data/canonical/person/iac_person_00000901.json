@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00000901",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AKSUNGUR el-PORSUKĪ"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Saîd Seyfüddîn Kasîmüddevle Aksungur el-Porsukī"
+      ]
+    },
+    "description": {
+      "tr": "Sultan Tuğrul Bey’in emîrlerinden Porsuk’un memlük ü olduğu için efendisine nisbetle el-Porsukī diye anılan Aksungur, 1105 yılında Büyük Selçuklu Sultanı Muhammed Tapar tarafından Irak şahne liğine tayin edildi. Emîr Mevdûd’un Bâtınîler tarafından öldürülmesi üzerine (1113), onun yerine Musul valiliğine getirildi ve Haçlılar’la cihada memur edildi. İki aydan fazla bir süre Urfa’yı kuşattıysa da bir sonuç alamadı. Aksungur 1115 yılında, daha önce cihad harekâtına katılması istendiği halde katılmayan İlgazi’yi cezalandırmak maksadıyla sefere çıktı, fakat Dârâ yakınlarında İlgazi’nin âni baskınına uğrayarak mağlûp oldu. Bu mağlûbiyet üzerine Sultan Muhammed Tapar tarafından Musul valiliğinden azledilen Aksungur, iktâ ı olan Rahbe’ye çekildi ve Muhammed Tapar’ın ölümüne kadar orada sakin bir hayat sürdü. Muhammed Tapar’ın oğlu Mahmud, Irak Selçukluları tahtına çıkınca onu tekrar Bağdat şahneliğine tayin etti. Sultan Mahmud ile kardeşi Mesud arasındaki taht mücadeleleri sırasında bu görevden alınan Aksungur, 1121 yılında ikinci defa Musul valiliğine getirildi. Hille Emîri Dübeys b. Sadaka’nın Bağdat’a hücumundan çekinen Halife Müsterşid, Sultan Mahmud’dan yardım isteyince sultan onu Musul valiliğiyle birlikte Irak şahneliğine tayin etti. Fakat Aksungur, taktik hatası yüzünden Dübeys b. Sadaka’ya mağlûp oldu (1122). Irak ve Suriye’de geniş bir alanda hâkimiyet kurmak isteyen Dübeys, Haçlılar’la iş birliği yapıp Kral Baudouin ile birlikte Halep’i muhasara etti. Ancak Aksungur şehrin Haçlılar’ın eline geçmesine mani oldu ve Halep’i zaptetti (1125). Daha sonra Kefertab’ı da ele geçiren Aksungur, Azâz muhasarasında ağır bir bozguna uğrayarak Musul’a döndü ve Câmi-i Atîk’te cuma namazında iken Bâtınîler tarafından öldürüldü. Halep’e hâkim olduktan sonra halka çok iyi davranan, gümrük vergilerini kaldırıp zulüm ve kötülüklere son veren Aksungur hayır sever ve dindar bir emîr idi. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 297 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:aksungur-el-porsuki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=aksungur-el-porsuki, https://islamansiklopedisi.org.tr/aksungur-el-porsuki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:aksungur-el-porsuki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/aksungur-el-porsuki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-07-14T13:16:09Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=aksungur-el-porsuki (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 520,
+    "start_ce": 1126,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=aksungur-el-porsuki, URL: https://islamansiklopedisi.org.tr/aksungur-el-porsuki || DİA death-date string: (ö. 520/1126) || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00011725"
+  ]
+}

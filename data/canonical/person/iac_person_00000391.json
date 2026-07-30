@@ -1,0 +1,58 @@
+{
+  "@id": "iac:person-00000391",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABBAS b. VELÎD b. ABDÜLMELİK",
+      "ar": "عبّاس بن الوليد بن عبد الملك"
+    },
+    "originalScript": {
+      "ar": "عبّاس بن الوليد بن عبد الملك"
+    },
+    "description": {
+      "tr": "Çocukluk ve gençlik yılları hakkında bilgi yoktur. İlk askerî faaliyetlerine babası zamanında başladı. Özellikle amcası Mesleme b. Abdülmelik’le birlikte Bizans’a karşı yaptığı gazâlarda büyük bir şöhret kazandı. 706 yılında, Tyana (Tuana) önlerinde Meymûn el-Cürcânî (Cürcümânî) kumandasındaki İslâm ordusunun Marianos tarafından mağlûp edilmesi üzerine, buna misilleme olarak ertesi yıl Mesleme ile birlikte Tyana’yı kuşattı. Uzun süren bir muhasaradan sonra şehir teslim oldu. 708’de, amcasıyla birlikte Bedendûn (Pozantı) çevresinde bazı yerleri ele geçirdi. Sonra da kardeşi Mervân ile Orta Anadolu’da bazı kale ve kasabaları fethetti. Babasının ölümünden sonra bir müddet kenara itildiği ve hiçbir askerî harekâta katılmadığı anlaşılmaktadır. Ancak, II. Yezîd zamanında Basra’da tehlikeli bir isyan çıkaran Yezîd b. Mühelleb’e karşı amcasıyla birlikte gönderildi. Irak’ta Akr mevkiinde Mühelleb’in ordusunu mağlûp etti (720). Bu savaştan sonra tekrar Anadolu gazâlarına katıldı. Hayatının büyük bir kısmını seferlerde geçiren Abbas, sonunda Halife II. Velîd’e karşı başlatılan muhalefete katılmak zorunda kaldı ve kardeşi Yezîd b. Velîd’in ısrarı üzerine ona biat etti. Emevî ailesi içindeki iktidar mücadelesinde mümkün olduğu kadar tarafsız hareket etmesine rağmen olayların pek dışında kalamadı; son Emevî halifesi II. Mervân tarafından Harran’da hapsedildi ve burada öldü. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 29 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbas-b-velid-b-abdulmelik",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbas-b-velid-b-abdulmelik, https://islamansiklopedisi.org.tr/abbas-b-velid-b-abdulmelik",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-05-04T15:32:37Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbas-b-velid-b-abdulmelik (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 132,
+    "start_ce": 749,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbas-b-velid-b-abdulmelik, URL: https://islamansiklopedisi.org.tr/abbas-b-velid-b-abdulmelik || DİA death-date string: (ö. 132/749-50) || Chunk count: 1"
+}

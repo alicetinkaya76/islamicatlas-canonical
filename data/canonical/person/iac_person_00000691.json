@@ -1,0 +1,98 @@
+{
+  "@id": "iac:person-00000691",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ACÎBE el-BAĞDÂDİYYE",
+      "ar": "عجيبة البغداديّة"
+    },
+    "originalScript": {
+      "ar": "عجيبة البغداديّة"
+    },
+    "altLabel": {
+      "tr": [
+        "Acîbe bint Muhammed b. Ebî Gālib el-Bâkdârî el-Bağdâdiyye",
+        "Acîbe bt. el-Hâfız Muhammed b. Ebî Galip el-Bakdârî, el-Bağdâdiyye"
+      ],
+      "ar": [
+        "عجيبة بنت الحافظ محمد بن أبي غالب الباقداري، البغدادية"
+      ]
+    },
+    "description": {
+      "tr": "Dav’ü’s-sabâh lakabıyla da bilinir. Bağdat’ta doğdu. Babasından ve zamanın meşhur âlimlerinden okudu. Abdullah b. Mansûr el-Mevsılî ve Ebü’l-Meâlî Muhammed el-Lemmâs’tan çeşitli kitaplar, hâfız Muhammed b. Ebû Bekir el-İsfahânî’den Begavî’nin Şerḥu’s-sünne ’sini ve başka hadis kaynaklarını, Abdülhak el-Yûsufî’den de Şâfiî’nin İḫtilâfü’l-ḥadîs̱ ’i ile Buhârî’nin et-Târîḫu’l-kebîr ’ini ve diğer çeşitli kitapları dinleyip rivayet etmiştir. Acîbe, Mes‘ûd es-Sekafî ve Ebû Abdullah er-Rüstemî tarafından kendilerine icâzet verilen âlimlerin son halkasını teşkil eder. Kendisinden de muhaddis Afîfüddin Muhammed el-Harrât, Sirâceddin Ebû Hafs Ömer el-Kazvînî ve Mahmûd b. Ali ez-Zâkıfî gibi meşhur âlimler muhtelif kitapları rivayet etmişlerdir. Şeyhlerini ve isnadlarını ihtiva eden on cüzlük bir meşyeha sı bulunmaktadır. Doksan üç yaşlarında iken Bağdat’ta vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 326 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "A scholar of hadith, from the learned people of Baghdad"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿUjaybah bt. al-Ḥāfiz Muḥammad b. Abī Ghālib al-Baqdārī, al-Baghdādiyyah"
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:acibe-el-bagdadiyye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=acibe-el-bagdadiyye, https://islamansiklopedisi.org.tr/acibe-el-bagdadiyye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:6719",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6719, heading_ar=عجيبة البغدادية",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=acibe-el-bagdadiyye (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6719]. Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6719 (heading_ar=عجيبة البغدادية) via Track A (DİA→Alam xref bridge). dt=Hadis ilmine âlime, Bağdat'ın ilim ehlinden"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+translit from alam_detail.json el-alam:6719."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bâkdârî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 647,
+    "start_ce": 1249,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=acibe-el-bagdadiyye, URL: https://islamansiklopedisi.org.tr/acibe-el-bagdadiyye || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6719] || DİA birth place: Bağdat || DİA death place: Bağdat || DİA death-date string: (ö. 647/1249-50) || DİA categories: rivayet > hadis > isnâd || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6719, heading_ar=عجيبة البغدادية, dt=Hadis ilmine âlime, Bağdat'ın ilim ehlinden"
+}

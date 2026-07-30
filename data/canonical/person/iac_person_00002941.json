@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00002941",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "GÜNDÜZ, Abdurrahman"
+    },
+    "description": {
+      "tr": "Siirt’in Eruh ilçesine bağlı Şâvirân (Kuşdalı) köyünde doğdu. Bölgede dersleri ve irşad faaliyetiyle tanınan bir aileye mensuptur. İlk eğitimini müderris ve şeyh olan babası Muhyiddin’den aldı. Babası vefat edince ailenin geçimini sağlamak için bir süre öğrenimine ara verdi. Yirmili yaşlarda Eruh’a bağlı Nivila, Tillo köyleriyle Silvan ve Cizre’de tahsilini sürdürdü. Okuduğu hocalar arasında Molla Yahyâ Nivilî, Molla Zâhir Tivankî ve Molla Muhammed Kuveşilî sayılabilir. Cizre’de Şeyh İbrâhim Hakkı’nın yanında öğrenimini tamamlayarak ondan hem ilim hem tasavvuf icâzeti aldı. 1925-1930 yıllarında Eruh’a bağlı Reşine, 1930-1933 yıllarında Torık, 1933-1940 arasında Binırve köylerinde imamlık ve müderrislik; Kanikan, Tarham, Mergi ve Şâvirân köylerinde müderrislik yaptı. Kendi köyünde vefatına kadar irşad ve tedris faaliyetini sürdürdü, birçok mürid ve öğrenci yetiştirdi. 4 Mart 1974 tarihinde Şâvirân köyünde vefat etti. Abdurrahman Gündüz çevresinde yardım sever, mütevazi, insanlar arasındaki ihtilâfları çözen bir kişi olarak tanınmıştır. Nakşibendî şeyhlerinden de ders almakla birlikte Kādirî tarikatında karar kılmış ve bu tarikat üzere faaliyet göstermiştir. Talebelerinden yeğeni Muhammed Şirin Keskin de çevrede tanınmış âlimlerdendir. Eserleri. Gündüz’ün eserlerinin yazma nüshaları Diyarbakır’da Şarkiyat Araştırmaları Derneği Kütüphanesi’nde bulunmaktadır. 1. ʿAḳīdetü’l-îmân . Eş‘ariyye görüşlerinin hâkim olduğu eserde konular bu çerçevede ele alınmakta, müellif, mutlak müctehid olmayan kişilerin dört mezhep imamından birine bağlanması gerektiğini, bunların dışında başka birine bağlanmanın doğru olmadığını, kendisinin de Şâfiî mezhebini benimsediğini söylemektedir. 2. Şifâʾü’l-ekbâd fî ferâʾiżi’l-ʿibâd . Kürtçe olup çevredeki medreselerde çok okunan kitaplar arasındadır. Müellif Muḫtaṣaru Şifâʾi’l-ekbâd adıyla eserin Kürtçe manzum bir özetini de yazmıştır. 3. Nehcü’n-necâḥ Muḫtaṣaru Nûri’ṣ-ṣabâḥ fî aḥkâmi’n-nikâḥ . Şâfiî mezhebine göre nikâh konusunun genişçe işlendiği bu eser Şeyh Abdullah es-Siirdî’ye ait kitabın muhtasarıdır. 4. el-Maʿfuvvât fî maḥvi’ṣ-ṣalât . Yine Şâfiî mezhebine göre helâl ve haram konularını ve müellifin fetvalarını içeren eseri yine müellif manzum olarak Kürtçe’ye çevirmiştir. 5. Zübdetü’t-tecvîd . Müellif bu Kürtçe eseri de Muḫtaṣarü’z-Zübde adıyla nazmen özetlemiştir. 6. Tekmiletü Taṣrîfi’z-Zencânî . İzzeddin ez-Zencânî’nin sarfa dair meşhur eserini tamamlayıcı nitelikte bir çalışmadır. 7. el-Mûcizü’n-naẓîf . Yine sarf konularının kısaca ele alındığı manzum bir eserdir. 8. Mirʾâtü’l-iʿrâb . Bu eserde nahiv meseleleri ayrıntılı biçimde işlenmektedir. 9. Livâʾü’l-iʿrâb . Bir önceki eserin özeti niteliğinde manzum bir kitaptır. 10. Cevherü’l-beyân . Arap edebiyatıyla ilgili olan eserde özellikle beyan, istiare ve âdâb konuları ele alınmaktadır. 11. Tuḥfetü’l-aḥbâb . Arap belâgatına dairdir. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan (gözden geçirilmiş 2. basım) EK-1. cildinde, 490 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:gunduz-abdurrahman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=gunduz-abdurrahman, https://islamansiklopedisi.org.tr/gunduz-abdurrahman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:gunduz-abdurrahman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=gunduz-abdurrahman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:07Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:07Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=gunduz-abdurrahman (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=gunduz-abdurrahman)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Şâfiî (mezhep)",
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ce": 1899,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=gunduz-abdurrahman, URL: https://islamansiklopedisi.org.tr/gunduz-abdurrahman || DİA death-date string: (1899-1974) || DİA categories: mezhep > şiir > tarikat || Chunk count: 1"
+}

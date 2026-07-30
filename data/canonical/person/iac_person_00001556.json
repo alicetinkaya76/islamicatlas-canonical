@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00001556",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BİŞR b. BERÂ",
+      "ar": "بشر بن البراء"
+    },
+    "originalScript": {
+      "ar": "بشر بن البراء"
+    },
+    "altLabel": {
+      "tr": [
+        "Bişr b. el-Berâ’ b. Ma‘rûr el-Ensârî el-Hazrecî"
+      ]
+    },
+    "description": {
+      "tr": "Medine’nin Hazrec kabilesi Selemeoğulları sülâlesine mensuptur. Hicretten önce müslüman oldu ve babası Berâ b. Ma‘rûr ile birlikte İkinci Akabe Biatı’na katıldı (622). Hicretten sonra Hz. Peygamber onunla Vâkıd b. Abdullah el-Leysî arasında kardeşlik bağı ( muâhât ) kurdu. Daha sonra Bedir’de, ileri saflarda okçu olarak çarpıştığı Uhud’da, Hendek Gazvesi, Hudeybiye Musâlahası ve Hayber’in fethinde bulundu. Hz. Peygamber yahudilerin teslim olmasından sonra, Hayber’de birkaç gün kalmıştı. Bu sırada Sellâm b. Mişkem’in karısı olan Zeyneb bint Hâris adındaki yahudi kadını bir koyun keserek Hz. Peygamber’e ziyafet vermek isteğini bildirerek onu davet etti. Fakat asıl maksadı Resûl-i Ekrem’i zehirlemekti. Hz. Peygamber yanına Bişr b. Berâ’yı da alarak bu davete gitti. Ancak ilk lokmada yemeğe zehir karıştırıldığını anladı ve lokmasını yutmadan çıkardı. Bişr ise Hz. Peygamber’in huzurunda saygısızlık olur düşüncesiyle ağzına aldığı lokmayı zorla yuttu. Bazı rivayetlere göre hemen orada öldü; bir rivayete göre de zehrin tesiriyle bir yıl sonra vefat etti. Hz. Peygamber müslüman olan her kabileye içlerinden birisini yeniden başkan tayin ederdi. Bişr’in mensup olduğu Benî Seleme kabilesinden bir heyet huzuruna geldiğinde de onlara başkanlarının kim olduğunu sormuş; onlardan, “Ced b. Kays’tır, ancak biraz cimricedir” cevabını alınca bu durumdan memnun kalmayan Hz. Peygamber, “Hangi hastalık vardır ki o, cimrilikten daha elem verici olsun! Hayır, sizin başkanınız Ced b. Kays değil Bişr b. Berâ’dır” diyerek onu kabilesine başkan tayin etmiştir (Hâkim, III, 219-220). Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 219-220 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bisr-b-bera",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bisr-b-bera, https://islamansiklopedisi.org.tr/bisr-b-bera",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bisr-b-bera",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bisr-b-bera",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:44Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bisr-b-bera (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî; Hazrecî"
+  ],
+  "death_temporal": {
+    "start_ah": 7,
+    "start_ce": 628,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bisr-b-bera, URL: https://islamansiklopedisi.org.tr/bisr-b-bera || DİA death-date string: (ö. 7/628) || DİA categories: rivayet || Chunk count: 1"
+}

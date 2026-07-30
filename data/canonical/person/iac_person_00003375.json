@@ -1,0 +1,58 @@
+{
+  "@id": "iac:person-00003375",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Helâkî",
+      "ar": "هلاكى"
+    },
+    "originalScript": {
+      "ar": "هلاكى"
+    },
+    "description": {
+      "tr": "Asıl adı Mahmud’dur. Şuarâ tezkirelerinde Karamanlı olduğu kaydedilmektedir. Helâkî müstaidlik seviyesine ulaştıktan sonra medreseden ayrılarak imamlık yapmaya başladı. İstanbul’da ve daha sonra gidip yerleştiği Bursa Yarhisarı’nda ölümüne kadar imamlık görevini sürdürdü. Helâkî, gözleri iyi görmediğinden çevresindekilerce Selmân-ı Sâvecî’ye ve Timurlu Hükümdarı Şâhruh devri şairlerinden Ârifî’ye benzetilmiştir (Âşık Çelebi, vr. 75 a-b ). Gözlerinin iyi görmediğini bazı rubâîlerinde kendisi de dile getirir ( Dîvan , s. 206). Farsça öğretmekte devrinde bir üstat sayılan ve görme zaafına rağmen Farsça divanları elinden düşürmeyen Helâkî zamanının Farsça bilen birçok âlimine hocalık yapmıştır. Şiirlerinde sık sık fakirlikten şikâyet eden Helâkî’nin bu ifadelerinden pek rahat bir hayat sürmediği anlaşılmaktadır. Güzellere aşırı derecede düşkün olup onların aşkı yüzünden perişan olduğu için Helâkî mahlasını aldığı rivayet edilen şairin bu hükmü doğrulayacak çeşitli şiirleri vardır. Ancak kendisini imamlığa adamış bir kimsenin böyle zevk ve eğlence âlemlerini terennüm eden şiirlerinin gerçeği ne ölçüde yansıttığı şüphelidir. Burada, divan şiirinin belli estetik geleneklerinin belirlediği bir çerçevenin söz konusu olabileceği gözden kaçırılmamalıdır. Helâkî yalın, akıcı, pürüzsüz bir dil kullanmış, atasözü ve deyimlerle Türkçe’nin inceliklerinden ustaca faydalanarak güzel şiirler yazmaya muvaffak olmuştur. Zâtî, Hayâlî, Yahyâ Bey ve Emrî gibi şiiri Acem taklitçiliğinden kurtarma yolunda yazdığı manzumelerine birçok eski şiir mecmualarında rastlanmaktadır. Bu durum Helâkî’nin onlar kadar olmasa bile sevilerek okunduğunu göstermektedir. Helâkî divanının tenkitli neşri, yurt dışında bulunan iki nüshasına şiir ve nazîre mecmualarındaki diğer manzumeleri de ilâve edilmek suretiyle Mehmed Çavuşoğlu tarafından gerçekleştirilmiştir (bk. bibl.). Helâkî mahlası ile Hâfız-ı Şîrâzî’ye yapılmış tahmîslerin ona ait olduğu tahmin edilmektedir. Ancak bu konuda kesin bilgi olmadığı için Çavuşoğlu bunları divana almamıştır. XVI. yüzyılda yaşamış aynı adı taşıyan bir başka divan şairi de Dobrucalı Helâkî’dir (bk. Latîfî, s. 364). Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 17. cildinde, 173 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:helaki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=helaki, https://islamansiklopedisi.org.tr/helaki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:14Z",
+    "modified": "2026-05-04T15:34:14Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=helaki (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 983,
+    "start_ce": 1575,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=helaki, URL: https://islamansiklopedisi.org.tr/helaki || DİA death-date string: (ö. 983/1575 [?]) || DİA categories: şiir > rivayet || Chunk count: 1"
+}

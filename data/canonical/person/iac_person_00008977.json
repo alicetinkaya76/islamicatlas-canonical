@@ -1,0 +1,89 @@
+{
+ "@id": "iac:person-00008977",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Jawharī",
+   "tr": "Cevherî",
+   "ar": "الجوهري"
+  },
+  "originalScript": {
+   "ar": "الجوهري"
+  },
+  "description": {
+   "tr": "Faziletli İmâmî, Bağdat halkından.",
+   "en": "A virtuous Imāmī, from the people of Baghdad."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Ahmad b. Muhammad b. ʿUbayd Allāh b. al-Hasan b. ʿAyyāsh Abū ʿAbd Allāh al-Jawharī"
+  },
+  "altLabel": {
+   "tr": [
+    "Ahmet b. Muhammed b. Ubeydi'llah b. Hasan b. Ayyaş Ebü Abdillah el-Cevherî"
+   ],
+   "ar": [
+    "أحمد بن محمد بن عبيد الله بن الحسن ابن عياش، أبو عبد الله الجوهري"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:1010",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1010",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:38Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:38Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:38Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=1010 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1010."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1811-8977) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001811 lehine yumuşak-silindi. Gerekçe: el-Cevherî nisbesi, dilci-âlim profili ve 1009/1011 yılı es-Sıhâh müellifi İsmâil b. Hammâd el-Cevherî ile uyuşuyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001811"
+ },
+ "death_temporal": {
+  "start_ah": 401,
+  "start_ce": 1011,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1010, heading_ar=الجوهري || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
+ "authored_works": [
+  "iac:work-00006003"
+ ],
+ "kunya": "أبو عبد الله"
+}

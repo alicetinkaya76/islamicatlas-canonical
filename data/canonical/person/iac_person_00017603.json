@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00017603",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Sanūsī",
+      "tr": "Senûsî",
+      "ar": "السنوسي"
+    },
+    "originalScript": {
+      "ar": "السنوسي"
+    },
+    "description": {
+      "tr": "Tunuslu Mâlikî fıkıh âlimi.",
+      "en": "Tunisian Mālikī jurist."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad b. ʿUthmān b. Muhammad b. Aḥmad al-Sanūsī, called (al-Kāfī Ibn Muhaynna), from the grandsons of Shaykh ʿAskar al-Sharīf al-Ḥusaynī"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Osmân b. Muhammed b. Ahmed es-Senûsî, kendisine (Kâfî İbn Muheyenne) da denilir, Şeyh Askeri'nin Şerif Hüseynî soyundan torunları"
+      ],
+      "ar": [
+        "محمد بن عثمان بن محمد بن أحمد السنوسي ويقال له (الكافي ابن مهينة) من حفدة الشيخ عساكر الشريف الحسيني"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:10573",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10573",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:06Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=10573 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:10573."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1255,
+    "start_ce": 1839,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10573, heading_ar=السنوسي || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 36.81, 10.18"
+}

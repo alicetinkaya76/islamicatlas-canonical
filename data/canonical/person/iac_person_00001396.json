@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00001396",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BEDREDDİN el-BİHÂRÎ",
+      "ar": "بدر الدين بهارى"
+    },
+    "originalScript": {
+      "ar": "بدر الدين بهارى"
+    },
+    "description": {
+      "tr": "Aslen Uttar Pradeş eyaletindeki Meerut şehrinde doğdu. Büyük dedesi Şeyh Fahreddin Zâhid (ö. 704/1304) orada büyük bir tasavvufî merkez kurmuş ve Şah Velâyet namıyla meşhur olmuştu. Dedesi Şeyh Şehâbeddin Hakgû, dinî görüşlerini tenkit ettiği Muhammed b. Tuğluk (1325-1351) tarafından öldürüldü. Pîr Bedr ve Bedr-i Âlem diye de anılan Şeyh Bedreddin mânevî terbiyesini babası Fahreddin ile Sühreverdî şeyhi Seyyid Celâleddin Buhârî’den aldı. Şeyh Şerefeddin Yahyâ onu Bihâr’a davet ettiyse de ancak onun vefatından sonra 782’de (1380) oraya ulaşabildi. İlk evliliğini Bihârlı bir Hindu kadınla yaptı, daha sonra da Kanpûr hânedanı ile evlilik bağı kurdu. Doğu Bengal’deki seyahatleri sırasında çok sayıda Hindu denizcisinin ihtidâsına vesile oldu. Ayrıca Sonargaon’da İslâm hâkimiyetinin kurulmasında katkıda bulundu. Çhoti Dergâh adıyla tanınan kabrinin bulunduğu Bihâr’da 27 Receb 844’te (22 Aralık 1440) vefat etti. Pîr Bedr’in zaman zaman kaldığı Çitagong’daki çilehânesi şehrin koruyucusu olarak telakki edilmekte olup Hindu ve müslüman denizcilerce ziyaret edilmektedir. Dergâh yakınındaki bir cami ve bir su deposu da onun adını taşımaktadır. Bedr, Bengal’de Sonargaonlu Penç Pîr ile “sular hâkimiyeti”ni paylaşma şerefine sahip idi. Bengal denizcileri denize açılırken şöyle niyazda bulunurlardı: “Allah, Nebî, Penç Pîr, Bedr, Bedr!” Denizler ve nehirler üzerindeki mânevî hâkimiyet onun ailesinin ruhanî bir vasfı olarak kabul edilmektedir. Nitekim büyük dedesi Fahreddin Zâhid’in Yamuna nehrine gömülmek üzere olan bir grubu kurtardığı rivayet edilir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 330-331 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bedreddin-el-bihari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bedreddin-el-bihari, https://islamansiklopedisi.org.tr/bedreddin-el-bihari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bedreddin-el-bihari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bedreddin-el-bihari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:41Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bedreddin-el-bihari (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 844,
+    "start_ce": 1440,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bedreddin-el-bihari, URL: https://islamansiklopedisi.org.tr/bedreddin-el-bihari || DİA birth place: Meerut || DİA death place: 844 || DİA death-date string: (ö. 844/1440) || DİA categories: tasavvuf > rivayet || Chunk count: 1"
+}

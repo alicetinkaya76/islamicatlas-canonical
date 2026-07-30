@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00002707",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FEHMİ EFENDİ, Cerrah"
+    },
+    "description": {
+      "tr": "Bugün Bulgaristan sınırları içinde kalan İslimye’de (Sliven) doğdu. 1293 (1876) Osmanlı-Rus harbi esnasında muhacir kafileleri arasında İstanbul’a geldi. Bir müddet ziraatla meşgul oldu ve bu arada cerrahlık ve bazı ilâç tatbiklerini öğrenip ücretsiz olarak hekimlik yaptı. Bunun dışında öğrenimi ve yetişmesi hakkında bilgi bulunmamaktadır. Sünbüliyye tarikatına intisap eden ve Fatih Altımermer’deki Hekimoğlu Ali Paşa Camii müezzinliği görevinde de bulunan Fehmi Efendi bilhassa sesinin güzelliği ve zikri idare etmedeki ustalığıyla dikkati çekti. Bazı tekkelerde zâkirlik yaptıktan sonra Silivrikapı’daki Seyyid Nizam Dergâhı zâkirbaşılığına getirildi. 25 Ocak 1935 tarihinde vefat etti ve dergâhın karşısındaki mezarlıkta Hacı Nâfiz Bey’in kabrinin yanına defnedildi. Vefatıyla ilgili olarak Mehmet Suphi Ezgi’nin verdiği 1938 tarihi yanlıştır. Devrinde mahfûzatının çokluğu ve başarılı mûsiki hocalığı ile tanınan Fehmi Efendi asıl haklı şöhretini zâkirbaşılıkla yapmış, ayrıca bestelediği dinî ve din dışı eserlerle de zamanın mûsikişinasları arasında yer almıştır. Bu sahada bilhassa Durakçı Hacı Nâfiz Bey’den faydalandığı bilinmektedir. Ondan 500 kadar ilâhi ve birçok duraktan başka Nâyî Osman Dede’nin mi‘raciyyesini de meşkettiği söylenir. Suphi Ezgi neşrettiği durakların tamamına yakın kısmını, hocalık konusundaki gayret ve titizliği mûsiki çevrelerince daima takdirle karşılanan Fehmi Efendi’den aldığını ifade eder. Yetiştirdiği talebeler arasında Abdülkadir Töre, Zeki Çağlarman ve zâkirbaşı Ali Gerçek gibi mûsikişinaslar bilhassa zikredilmelidir. Fehmi Efendi’nin mûsiki eserlerinden beste, semâi, şarkı, durak ve ilâhi formlarındaki toplam on sekiz adedinin listesini Yılmaz Öztuna kaydetmektedir ( BTMA , I, 287). Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 297 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:fehmi-efendi-cerrah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=fehmi-efendi-cerrah, https://islamansiklopedisi.org.tr/fehmi-efendi-cerrah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:fehmi-efendi-cerrah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/fehmi-efendi-cerrah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=fehmi-efendi-cerrah (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1935,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=fehmi-efendi-cerrah, URL: https://islamansiklopedisi.org.tr/fehmi-efendi-cerrah || DİA death place: Silivrikapı || DİA death-date string: (ö. 1935) || DİA categories: tarikat || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005972"
+  ],
+  "students": [
+    "iac:person-00002633",
+    "iac:person-00007374"
+  ]
+}

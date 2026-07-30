@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00000381",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABBAS b. AHMED b. TOLUN",
+      "ar": "عبّاس بن احمد بن طولون"
+    },
+    "originalScript": {
+      "ar": "عبّاس بن احمد بن طولون"
+    },
+    "description": {
+      "tr": "Fustat yakınlarında Abbâse’de doğdu. Annesi Sâmerrâ’daki büyük Türk emîrlerinden Yârcûh’un kızı idi. Abbas diğer kardeşleri gibi babasının sıkı disiplini altında büyüdü ve iyi bir tahsil gördü. Babası 873 yılında İskenderiye’ye giderken Abbas’ı da beraberinde götürdü ve tecrübe sahibi olması için şehrin idaresini ona verdi. 878’de Suriye seferine çıkarken onu Mısır’da vekil bıraktı ve kendisine, işleri yürütmekle görevlendirdiği Ahmed b. Muhammed el-Vâsıtî’nin tavsiyelerine göre hareket etmesini tembih etti. Fakat maiyetindeki emîrler, Suriye seferinin uzun sürmesi ve Ahmed b. Tolun’un disiplinli idaresinden hoşlanmamaları sebebiyle onun öldüğü şâyiasını çıkarıp Abbas’ı kandırdılar. Abbas, babası Tarsus’ta bulunduğu sırada isyan etti. Vâsıtî’nin durumu babasına bildirdiğini öğrenince de geri dönmenin artık mümkün olamayacağını anladı ve kardeşi Rebîa’yı Fustat’ta vekil bırakarak İskenderiye’ye gitti. Bu sırada devlete ait hazineyi, diğer kıymetli eşyayı, silâhları ve hayvanları, ayrıca Vâsıtî’yi de beraberinde götürdü. Babası 879’da Fustat’a döndüğünde, Abbas korkusundan İskenderiye’den Berka’ya kaçmıştı. Daha sonra İfrîkıye’ye gitti, Lebde’de vali ve halk tarafından iyi karşılanmasına rağmen askerlerinin şehri yağmalamasına ses çıkarmadı. Lebde halkının şikâyeti ve yardım isteği üzerine İfrîkıye Valisi İbrâhim b. Ağleb’in gönderdiği ordu ile kendilerine yardıma gelen İbâzî reisi İlyâs b. Mansûr’un ordusu karşısında Trablus yakınlarında mağlûp olup Berka’ya kaçtı. Bu sırada babası ordu ile Fustat’tan ayrılıp İskenderiye’ye geldi ve kumandanı Tapar’ı büyük bir kuvvetle oğlunun üzerine gönderdi (882). Abbas esir alındı, babasından yüz kamçı yedikten sonra da hapsedildi. Ahmed b. Tolun oğluna, kendisinden sonra hükümdarlık makamına geçecek olan Humâreveyh’e muhalefet etmemesini vasiyet etti. Abbas buna rağmen Humâreveyh’e biat etmedi ve bu yüzden tekrar hapsedildi; kısa bir süre sonra da öldürüldü. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 21 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbas-b-ahmed-b-tolun",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbas-b-ahmed-b-tolun, https://islamansiklopedisi.org.tr/abbas-b-ahmed-b-tolun",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbas-b-ahmed-b-tolun (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T11:30:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "h10_003 R2: çok-slug çakışması — AN katkıları geri alındı (reverted: []); slug'lar collisions kuyruğunda."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 270,
+    "start_ce": 884,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbas-b-ahmed-b-tolun, URL: https://islamansiklopedisi.org.tr/abbas-b-ahmed-b-tolun || DİA birth place: Abbâse || DİA death-date string: (ö. 270/884) || Chunk count: 1",
+  "birth_place": "iac:place-00008152",
+  "active_in_places": [
+    "iac:place-00009198"
+  ]
+}

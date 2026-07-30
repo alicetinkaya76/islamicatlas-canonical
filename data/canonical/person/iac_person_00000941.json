@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000941",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ b. SEHL",
+      "ar": "عليّ بن سهل"
+    },
+    "originalScript": {
+      "ar": "عليّ بن سهل"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Sehl el-İsfahânî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Cüneyd-i Bağdâdî ile mektuplaştığı, Ebû Türâb en-Nahşebî ve çağdaşı diğer sûfîlerle görüştüğü bilinmektedir. Kaynaklar onun bir sohbet sırasında “lebbeyk” diyerek vefat ettiğini bildirir. Kabri İsfahan’da Tokçu Mezarlığı’ndadır. Ali b. Sehl’in Cüneyd-i Bağdâdî’ye yazdığı mektuplardan biri sekr ve sahv konusundadır. Bu mektupta savunduğu fikirlerden onun sahva dayalı tasavvufî bir görüşe sahip olduğu söylenebilir. Amr b. Osman el-Mekkî, Ebû Ya‘kūb en-Nehrecûrî ve Ebû Ya‘kūb Akta‘ gibi sûfîlerle birlikte Hallâc’a karşı çıkması bu görüşü doğrulamaktadır. Ona göre tasavvuf, Allah’ın dışındaki her şeyden yüz çevirmektir. İsfahânî, gerçek anlamda Allah’ı tanıyan ve hayatının her anında O’nunla şuurlu bir beraberliğe erişen kimsenin, başka şeylerle huzûr ve sükûn bulamayacağı görüşündedir. Bu yüzden yakīn i Allah’ı bilmek, huzûr u da O’nunla şuurlu ve devamlı bir beraberlik hali olarak ele alır; yakīnin geçici, huzûrun ise kalıcı olduğunu söyler. Ali b. Sehl insanları dinî yaşayışlarına göre sınıflandırır ve her sınıfın temel vasfını, Allah’ın sıfatlarından birinin tecellîsi ile bağlantılı olarak açıklar. Dine karşı kayıtsız olan gafillerin hilm , Allah’ı zikredenlerinse rahmet sıfatı ile hayat bulduğunu söyler. O, kulun ibadet ve taatlardaki başarısının şahsî iradesinden kaynaklanmadığı, Allah’ın kendisini başarılı kıldığı için itaatkâr bir kul olduğu görüşündedir. Bu sebeple isyanı Allah’a muhalefet, itaati de Allah’la uyum halinde olmak şeklinde değerlendirir. Akıl, ruh, nefis ve hevâ gibi tasavvufî terimleri açıklarken aslında temiz olan ruhun daima iyiliği istediğini ileri sürer. Ona göre akıl ve ruh insanı âhirete yönelmeye ve nefsin arzularına karşı koymaya çağırdığı için akla bazan ruh da denilmektedir. Birbirine zıt iki ayrı yapıya sahip olan akıl ile hevâdan birincisini besleyen şey ilâhî yardım, diğerini güçlendiren şey ise ilâhî yardımdan mahrumiyettir. Bu iki zıt kutbun arasında yer alan nefis, hangisi kuvvetli ise onun tesirinde kalmaktadır. Öyleyse tehlikelerden korunmak için nefsi akıl, ruh ve imanın kontrolünde tutmak gerekir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 442 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-b-sehl",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-b-sehl, https://islamansiklopedisi.org.tr/ali-b-sehl",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ali-b-sehl",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ali-b-sehl",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-b-sehl (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "İsfahânî"
+  ],
+  "death_temporal": {
+    "start_ah": 307,
+    "start_ce": 919,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-b-sehl, URL: https://islamansiklopedisi.org.tr/ali-b-sehl || DİA death place: İsfahan || DİA death-date string: (ö. 307/919) || DİA categories: tasavvuf || Chunk count: 1"
+}

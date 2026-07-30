@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00000291",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ahmad ibn Majid",
+      "tr": "Ahmed b. Mâcid",
+      "ar": "أحمد بن ماجد"
+    },
+    "originalScript": {
+      "ar": "أحمد بن ماجد"
+    },
+    "altLabel": {
+      "en": [
+        "Shihab al-Din Ahmad ibn Majid al-Najdi"
+      ],
+      "tr": [
+        "Şihâbeddîn Ahmed b. Mâcid en-Necdî"
+      ],
+      "ar": [
+        "شهاب الدين أحمد بن ماجد النجدي"
+      ]
+    },
+    "description": {
+      "tr": "Hint Okyanusu'nun en büyük navigatörü — el kitapları yüzyıllık Arap denizcilik bilgisini kodifiye etti ve rivayete göre Vasco da Gama'yı Doğu Afrika'dan Hindistan'a yönlendirdi || İbn Mâcid, yüzyıllardır Hint Okyanusu rotalarına hâkim olan Arap navigasyon geleneğinin zirvesini temsil eder. || [Tarih notu] Da Gama'yı gerçekten yönlendirip yönlendirmediği tartışmalıdır.",
+      "en": "The greatest navigator of the Indian Ocean — his manuals codified centuries of Arab maritime knowledge and reportedly guided Vasco da Gama from East Africa to India || Ibn Majid represented the culmination of the Arab navigational tradition that had dominated Indian Ocean routes for centuries. His works describe star-compass readings, monsoon timing, and dozens of specific routes. || [Historiographical note] Whether he actually guided da Gama is debated. What is certain is that Portuguese navigation in the Indian Ocean depended heavily on Arab navigational knowledge.",
+      "ar": "أعظم ملاح في المحيط الهندي — دوّن قرون من المعرفة البحرية العربية || يمثل ابن ماجد ذروة التقليد الملاحي العربي"
+    }
+  },
+  "profession": [
+    "geographer",
+    "astronomer",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0108",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0108",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:297",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=297",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:57:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:57:56Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:57:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0108 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['nisba']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1432,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1500,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q1919866",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ahmad ibn Majid')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0108, lecture_week=n/a. || Key works: {'title': {'en': 'Kitāb al-Fawāʾid fī Uṣūl ʿIlm al-Baḥr wa-l-Qawāʿid', 'tr': \"Kitâbü'l-Fevâid fî Usûli İlmi'l-Bahr ve'l-Kavâid\", 'ar': 'كتاب الفوائد في أصول علم البحر والقواعد'}, 'year': 1490, 'field': 'geography', 'significance': {'en': 'Comprehensive manual of Indian Ocean navigation: stellar navigation, monsoon patterns, coastal descriptions, and route planning', 'tr': 'Hint Okyanusu navigasyonunun kapsamlı el kitabı: yıldız navigasyonu, muson kalıpları, kıyı betimlemeleri ve rota planlaması' || Modern parallel: Like a master pilot whose navigational charts and ocean knowledge enabled an entire age of exploration.",
+  "authored_works": [
+    "iac:work-00000148"
+  ],
+  "nisba": [
+    "Ummânî"
+  ]
+}

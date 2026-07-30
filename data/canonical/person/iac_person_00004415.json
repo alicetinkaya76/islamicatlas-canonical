@@ -1,0 +1,84 @@
+{
+  "@id": "iac:person-00004415",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbrâhim Rodosî"
+    },
+    "description": {
+      "tr": "Rodos adasında doğdu. Tahsil için İstanbul’a gitti. Sülüs ve nesih yazılarını İsmâil Zühdü Ağa’dan (Eski) meşkederken onun vefatı üzerine (1144/1731) en iyi öğrencisi Kâtibzâde Mustafa Efendi’den tamamlayarak icâzet aldı. Medrese tahsilinden sonra kadılık yaptı. Devrin Rumeli kadıları arasında adından övgüyle bahsedilen bir şahsiyet olarak tanındı. Ayrıca Bursa’da kadılık yaptığı yıllarda Durmuşzâde Ahmed Efendi’nin talebelerinden Seyyid Mustafa Âsım Efendi’den ta‘lik öğrendi. Vefatında Edirnekapı Mezarlığı’nda şair Bâkî’nin yanına defnedildi. Sultan I. Mahmud devrinin meşhur hattatları arasında yer alan Rodosî’nin müze ve kütüphanelerde sülüs ve nesih pek çok eseri vardır. Topkapı Sarayı Müzesi Kütüphanesi (Hazine, nr. 2299/54), Dârü’l-kütübi’l-Mısriyye (el-Fünûnü’l-Cemîle, nr. 71, 72; Tal‘at, nr. 10) ve Ekrem Hakkı Ayverdi hat koleksiyonunda sülüs-nesih kıtalar ve bir sülüs-nesih murakka‘ İbrâhim Rodosî’nin sanatında ulaştığı seviyeyi gösteren güzel örneklerdir. Rodosî’nin yetiştirdiği öğrencilerden Mustafa Kütâhî ve Galata Sarayı yazı hocası Yûsuf Hâfız önde gelen Osmanlı hattatları arasında yer alır. Ayrıca Süleyman b. Ahmed, Mir’ât-ı Hattâtîn adlı eserinde Köstendilî Ahmed Efendi, Üsküdarlı Hatipzâde Hacı Mustafa Efendi ve Bosnalı Mustafa Ağa’yı da gördüğü eserlerinden dolayı Rodosî’nin talebesi olarak kaydetmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 348-349 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibrahim-rodosi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibrahim-rodosi, https://islamansiklopedisi.org.tr/ibrahim-rodosi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ibrahim-rodosi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ibrahim-rodosi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:28Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:28Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:28Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibrahim-rodosi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1201,
+    "start_ce": 1787,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibrahim-rodosi, URL: https://islamansiklopedisi.org.tr/ibrahim-rodosi || DİA death place: Efendi || DİA death-date string: (ö. 1201/1787) || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00015103"
+  ]
+}

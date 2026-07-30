@@ -1,0 +1,91 @@
+{
+ "@id": "iac:person-00008488",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Būṣīrī",
+   "tr": "Bûsîrî",
+   "ar": "البوصيري"
+  },
+  "originalScript": {
+   "ar": "البوصيري"
+  },
+  "description": {
+   "tr": "Hadis hafızlarından",
+   "en": "Among the hadith scholars"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Ahmad b. Abī Bakr (ʿAbd al-Raḥmān?) b. Ismāʿīl b. Salīm b. Qāymāz b. ʿUthmān al-Būṣīrī al-Kinānī al-Šāfiʿī, Abū al-ʿAbbās Šihāb al-Dīn"
+  },
+  "altLabel": {
+   "tr": [
+    "Ahmcd b. Ebî Bekr (Abdurrahman?) b. İsmâil b. Selîm b. Kâymâz b. Osman el-Bûsîrî el-Kenânî eş-Şâfiî, Ebu'l-Abbâs Şihâbüddîn"
+   ],
+   "ar": [
+    "أحمد بن أبي بكر (عبد الرحمن؟) ابن إسماعيل بن سليم بن قايماز بن عثمان البوصيري الكناني الشافعي، أبو العباس، شهاب الدين"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:438",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=438",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:33Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:33Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=438 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:438."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1637-8488) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001637 lehine yumuşak-silindi. Gerekçe: Ahmed b. Ebû Bekir el-Bûsîrî'nin 1436 ölüm yılı ve muhaddis kimliği el-A'lâm'ın 15. yy \"البوصيري\" kaydıyla örtüşüyor; Kasîdetü'l-bürde şairi Bûsîrî (ö. 1294) ile karışma yok."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001637"
+ },
+ "death_temporal": {
+  "start_ah": 840,
+  "start_ce": 1436,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=438, heading_ar=البوصيري || Ziriklī century_ce=15",
+ "authored_works": [
+  "iac:work-00000521",
+  "iac:work-00001666",
+  "iac:work-00007977"
+ ],
+ "kunya": "أبو العباس"
+}

@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00005335",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEHMED EMİN EFENDİ, Hayâtîzâde"
+    },
+    "description": {
+      "tr": "IV. Mehmed devri hekimbaşısı olan yahudi mühtedisi Mustafa Feyzi Efendi’nin torunu ve müderris Ahmed Efendi’nin oğludur. Medrese tahsilinden sonra müderrislik ruûsunu elde edip ailesinin nüfuzu sayesinde süratle yükseldi. Önce Yenişehir kadılığına tayin edildi, 1147’de (1734) Edirne kadısı oldu, kardeşi Mustafa Feyzi Efendi’nin emekliye ayrılması üzerine Zilkade 1148’de (Mart 1736) Mekke pâyesiyle ( İlmiyye Salnâmesi , s. 184) hekimbaşılığa getirildi, arkasından İstanbul kadılığı pâyesine ulaştı. 26 Zilkade 1150’de (17 Mart 1738) bilfiil İstanbul kadısı oldu. 1152’de (1739) kadılıktan alındı, 13 Zilkade 1152’de (11 Şubat 1740) Rumeli kazaskerliğine yükseldi. Örfî müddetini tamamlamasının ardından azledildi (16 Cemâziyelâhir 1154 / 29 Ağustos 1741). Bir süre mâzul olarak kaldıktan sonra Pîrîzâde Mehmed Sâhib Efendi’nin hastalığı sebebiyle azledilmesi üzerine I. Mahmud tarafından 13 Rebîülevvel 1159’da (5 Nisan 1746) şeyhülislâmlığa getirildi. Mehmed Emin Efendi, kısa süren şeyhülislâmlığı sırasında giderek yoğunlaşan Avrupa meseleleriyle ilgilenmiş, özellikle Fransa, Avusturya, Prusya ve Osmanlı siyasî münasebetleri ve müzakerelerinde Fransız siyaseti taraftarı olarak Humbaracı Ahmed Paşa ile birlikte hareket etmiştir (Uzunçarşılı, IV/2, s. 208). Yedi ay kadar meşihatta kaldıktan sonra rahatsızlığı sebebiyle fetva vazifesini ve şeyhülislâmlıktaki idarî işleri takip edememesi, ayrıca çok gösterişli bir hayat yaşaması, ulemâya karşı sert muamelesi tepki çekmeye başladı ve bilhassa ulemânın huzursuzluğuna yol açtı. Bunun üzerine 9 Şevval 1159’da (25 Ekim 1746) azledilerek Bursa’da ikamete mecbur tutuldu. Kendi arzusu ve halefi Şeyhülislâm Mehmed Zeynî Efendi’nin işaretiyle Mekke kadılığına tayin edildiyse de Şam’da rahatsızlanarak görevinden istifa etti. Yine Zeynî Efendi’nin teklifiyle Bursa’da ikamet etmesi için Ramazan 1160’ta (Eylül 1747) bir ferman çıkarıldı ( BA, MD , s. 153, s. 117), fakat bu emir eline ulaşmadan Şam’da vefat etti. Hekimbaşılıktan şeyhülislâmlığa yükselen ilk âlim olan Hayâtîzâde’nin herhangi bir eseri olduğuna dair bir kayda rastlanmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 462 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-emin-efendi-hayatizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-emin-efendi-hayatizade, https://islamansiklopedisi.org.tr/mehmed-emin-efendi-hayatizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-emin-efendi-hayatizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-emin-efendi-hayatizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:38Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-emin-efendi-hayatizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1160,
+    "start_ce": 1747,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-emin-efendi-hayatizade, URL: https://islamansiklopedisi.org.tr/mehmed-emin-efendi-hayatizade || DİA death place: Şam || DİA death-date string: (ö. 1160/1747) || DİA categories: fetva || Chunk count: 1"
+}

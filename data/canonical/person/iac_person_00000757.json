@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00000757",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED b. MUHAMMED b. MESRÛK",
+      "ar": "أحمد بن محمّد بن مسروق"
+    },
+    "originalScript": {
+      "ar": "أحمد بن محمّد بن مسروق"
+    },
+    "description": {
+      "tr": "214’te (829) Tûs’ta doğdu; Bağdat’ta yaşadı. Ebü’l-Abbas b. Mesrûk diye de tanınır. Hâris el-Muhâsibî, Serî es-Sakatî, Muhammed b. Mansûr et-Tûsî ve Muhammed el-Bürcülânî gibi meşhur sûfîlerin sohbetinde bulundu. Cüneyd-i Bağdâdî’ye hizmet etti. İlim tahsil etmek için Rey ve Horasan civarını dolaştı. Kabri Bağdat’ta Bâbü Harb Mezarlığı’ndadır. Ahmed b. Muhammed zühdü, Allah’tan başka hiçbir şeyin tesiri altında kalmamak, takvâyı da dünya nimetlerine göz dikmemek ve kalpte bunlara yer vermemek şeklinde açıklar. Allah ve mâsivâ ile ilgili temel tasavvufî düşünceyi ünsiyet ve vahşet terimleriyle açıklamaya çalışan İbn Mesrûk’a göre vahşet, bezm-i elest ten sonra Allah’tan ayrı kalmaktır. Dünyaya gelişin gayesi mâsivâ ile değil, Allah ile ünsiyet (dostluk) etmektir. Onun anlayışına göre gurbet te Allah ile ünsiyet, taat ve ibadetle olur. İbn Mesrûk semâ konusunda oldukça müsamahalıdır. Ancak onun bu müsamahası daha çok dış ve iç dünyası istikamet kazanmış kimseler içindir. Kalbi taate zorla alışanlara semâ için bir ruhsat vermez; zira ona göre böyleleri, kazanayım derken mânevî hallerini kaybederler. Ahmed b. Muhammed, Ali b. Ca‘d, İbnü’l-Medînî ve Ahmed b. Hanbel gibi muhaddislerden hadis tahsil etmekle beraber, Dârekutnî tarafından hadis rivayetinde zayıf kabul edilmiştir. el-Ḳanâʿa ( Cüzʾü’l-Ḳanâʿa ) adlı eserinin günümüze kadar gelip gelmediği bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 103 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-b-muhammed-b-mesruk",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-b-muhammed-b-mesruk, https://islamansiklopedisi.org.tr/ahmed-b-muhammed-b-mesruk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:50Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-b-muhammed-b-mesruk (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 298,
+    "start_ce": 910,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-b-muhammed-b-mesruk, URL: https://islamansiklopedisi.org.tr/ahmed-b-muhammed-b-mesruk || DİA birth place: Tûs || DİA death place: Bağdat || DİA death-date string: (ö. 298/910-11) || DİA categories: hadis > tasavvuf > rivayet || Chunk count: 1",
+  "students": [
+    "iac:person-00004584"
+  ]
+}

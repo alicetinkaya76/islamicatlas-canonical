@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00004492",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Îrec Mirza",
+      "ar": "ايرج ميرزا"
+    },
+    "originalScript": {
+      "ar": "ايرج ميرزا"
+    },
+    "description": {
+      "tr": "Tebriz’de doğdu. Kaçar hânedanından Sadrüşşuarâ Gulâm Hüseyin Mirza’nın oğludur. Âkā Muhammed Takī, Ârif-i İsfahânî ve Mirza Nasrullah Bahâr-ı Şirvânî’den Arapça ve Farsça; İkbâl-i Âştiyânî’den mantık, felsefe, meânî ve beyan dersleri aldı. Tebriz Dârülfünunu’na devam ettiği yıllarda Fransızca ve Rusça öğrendi. On altı yaşında iken evlenen Îrec Mirza, üç yıl sonra eşinin ve babasının ölümü üzerine ailesinin geçimini sağlamak amacıyla devlet hizmetine girmek zorunda kaldı. Veliaht Muzafferüddin Mirza onu bayramlar ve selâm törenleri için kaside yazmakla görevlendirdi. Kendisine “fahrü’ş-şuarâ” lakabını veren Emîr-i Nizâm tarafından daima teşvik edildi. Bir ara Kıvâmüssaltana ile Avrupa’ya gitti. 1923 yılına kadar Tebriz, Kirmanşah, Tahran, Abâde, İsfahan ve Meşhed’de Maliye ve Maarif bakanlıklarıyla gümrük teşkilâtına bağlı kuruluşlarda çeşitli görevlerde bulundu. 28 Şâban 1344 (13 Mart 1926) tarihinde Tahran’da vefat etti ve Zâhirüddevle Kabristanı’na defnedildi. Gençlik döneminde Ferruhî-yi Sîstânî’nin etkisi altında kalan Îrec daha sonra Menûçihrî, Hâkānî-yi Şirvânî ve Kāânî-i Şîrâzî tarzında şiirler yazmaya başladı. Hayatının son on yılında, vezin ve kafiyede klasik şiir kurallarına bağlı kalmakla birlikte konu itibariyle yeni, sade ve akıcı şiirler kaleme aldı. Dilde sadeleşme akımını savunan Îrec şiirlerinde halk deyimleri ve atasözlerini ustaca kullanmıştır. Eserleri. 1. Dîvân . Yaklaşık 4000 beyit ihtiva eden eser, önce şairin oğlu Hüsrev Mirza’nın mukaddimesiyle birlikte yedi küçük kitap halinde yayımlanmış (Tahran 1307-1309 hş.), daha sonra diğer eserleriyle beraber Külliyyât ’ın içinde neşredilmiştir (Tahran 1342 hş.). 2. ʿÂrifnâme . Kāimmakām-ı Ferâhânî’nin Celâyirnâme ’si tarzındaki mesnevi, hezec bahrinin “mefâîlün mefâîlün feûlün” vezniyle yazılmış olup 550 beyitten meydana gelir. Şair bu mesneviyi, Ebü’l-Kāsım Ârif-i Kazvînî’nin Meşhed’de verdiği konser sırasında Kaçarlar’ı kınayan bir şiir okuması üzerine kaleme almıştır. Kadın hakları, çiftçilerin yoksulluğu, ülkedeki kanunsuzluklar gibi konuların işlendiği eser kısa zamanda yayılmış, bazı kesimlerin büyük tepkisini çekmesi şairi güç durumda bırakmıştır. ʿÂrifnâme son olarak Külliyyât içerisinde basılmıştır (Tahran 1342 hş.). 3. Zühre vü Menûçihr . William Shakespeare’in Venüs ile Adonis ’inin manzum tercümesi olup (Tahran, ts.; Mehâbâd 1336 hş.) tamamlanamamıştır. Eser Külliyyât ’ın içinde de yayımlanmıştır (Tahran 1342 hş.). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 442-443 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:irec-mirza",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=irec-mirza, https://islamansiklopedisi.org.tr/irec-mirza",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:irec-mirza",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=irec-mirza",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:29Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:29Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=irec-mirza (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=irec-mirza)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1874,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=irec-mirza, URL: https://islamansiklopedisi.org.tr/irec-mirza || DİA birth place: Tebriz || DİA death place: Tahran || DİA death-date string: (1874-1926) || DİA categories: şiir > felsefe > mantık || Chunk count: 1",
+  "death_place": "iac:place-00007880",
+  "active_in_places": [
+    "iac:place-00007880"
+  ]
+}

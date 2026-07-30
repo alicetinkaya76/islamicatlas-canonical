@@ -1,0 +1,111 @@
+{
+  "@id": "iac:person-00004648",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KABBÂNÎ, Ebû Ali",
+      "ar": "أبو علي القبّاني"
+    },
+    "originalScript": {
+      "ar": "أبو علي القبّاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Alî el-Hüseyn b. Muhammed b. Ziyâd el-Kabbânî en-Nîsâbûrî"
+      ]
+    },
+    "description": {
+      "tr": "210 (825) yılı civarında doğdu. “Kantarcı” anlamına gelen Kabbânî lakabıyla anılması dedesinin ödünç olarak verdiği kantarı sebebiyledir (Sem‘ânî, X, 43). Tahsil için İshak b. Râhûye, Amr b. Zürâre gibi hemşerileriyle birlikte uzun süre Horasan, Haremeyn ve Irak bölgelerine seyahat ederek Sehl b. Osman el-Askerî, Ebû Bekir İbn Ebû Şeybe, Süreyc b. Yûnus, Ahmed b. Menî‘, Buhârî gibi âlimlerden faydalandı. Buhârî başta olmak üzere Yahyâ b. Muhammed el-Anberî, İbnü’ş-Şarkī, İbnü’l-Ahrem, Nîşâbur Kadısı Yahyâ b. Mansûr ve Da‘lec b. Ahmed kendisinden istifade edenlerden bazılarıdır. Rivayet ettiği hadisleri ve râvilerin adlarını iyi ezberlemesiyle tanınan Kabbânî, devrinin önde gelen hadis hâfızlarından biri ve Müslim’den sonra etrafında en çok âlimin toplandığı bir şahsiyet olarak kabul edilmiştir. Buhârî Nîşâbur’a geldiğinde ve mihne olayının yaşandığı bir sırada onun derslerini aksatmadan takip etmiş, Buhârî de kendisinden rivayette bulunmuştur (“Ṭıb”, 3). Buhârî’nin “haddesenî el-Hüseyn” diye zikrettiği hocasının Hüseyin b. Ca‘fer el-Bîkendî olabileceği ileri sürülmüşse de onun Kabbânî olduğu görüşü daha ağır basmaktadır (Kelâbâzî, I, 175; Zehebî, Teẕkiretü’l-ḥuffâẓ , II, 681; İbn Hacer, Fetḥu’l-bârî , X, 137). Kızından olma torunu Ebû Muhammed Abdullah b. Ahmed el-Hasîrî, Kabbânî’nin 289’da (902) vefat ettiğini, namazını Muhammed b. İbrâhim el-Bûşencî’nin kıldırdığını ve Makberetü Hüseyin b. Muâz’da defnedildiğini söylemektedir ( İbn Hacer, Tehẕîbü’t-Tehẕîb , I, 540). Kaynaklarda Kabbânî’nin el-Müsned , el-Künâ , Etbâʿu’l-etbâʿ , et-Târîḫ gibi eserleri zikredilmekteyse de bunların günümüze ulaşıp ulaşmadığı bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 14 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kabbani-ebu-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kabbani-ebu-ali, https://islamansiklopedisi.org.tr/kabbani-ebu-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:kabbani-ebu-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/kabbani-ebu-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:30Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kabbani-ebu-ali (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kabbânî; Nîsâbûrî"
+  ],
+  "birth_temporal": {
+    "start_ah": 210,
+    "start_ce": 825,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 289,
+    "start_ce": 902,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kabbani-ebu-ali, URL: https://islamansiklopedisi.org.tr/kabbani-ebu-ali || DİA death place: Muâz || DİA death-date string: (ö. 289/902) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "death_place": "iac:place-00011372",
+  "teachers": [
+    "iac:person-00000756",
+    "iac:person-00001599",
+    "iac:person-00003758",
+    "iac:person-00005677"
+  ],
+  "students": [
+    "iac:person-00001915",
+    "iac:person-00004125",
+    "iac:person-00004328"
+  ]
+}

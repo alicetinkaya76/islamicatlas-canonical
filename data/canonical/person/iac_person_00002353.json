@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00002353",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÜ’l-HÂRİS",
+      "ar": "أبو الحارث"
+    },
+    "originalScript": {
+      "ar": "أبو الحارث"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hâris el-Leys b. Hâlid el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Bazı kaynaklarda Mervezî nisbesiyle de anıldığı zikredilmiştir. Ancak Ebû Amr ed-Dânî bunun doğru olmadığını, bu nisbe ile aynı adı taşıyan kimsenin Mâlik b. Enes’in talebelerinden biri olduğunu ve Ebû Bekir künyesiyle anıldığını söylemiştir ( Zehebî, Maʿrifetü’l-ḳurrâʾ , I, 211). Kıraat ilmini arz yoluyla kırâat-i seb‘a imamlarından olan Ali b. Hamza el-Kisâî’den öğrendi ve onun önde gelen talebeleri arasında yer aldı. Ayrıca Hamza b. Kāsım el-Ahvel ve Yahyâ b. Mübârek el-Yezîdî’den de faydalanarak rivayette bulundu. Seleme b. Âsım, Muhammed b. Yahyâ el-Kisâî, Fadl b. Şâzân ve Ya‘kūb b. Ahmed et-Türkmânî kendisinden kıraat ilminde istifade eden talebelerindendir. Hadisle de meşgul olup bu ilimde sika olarak değerlendirilen ve bazı kaynaklarda bir rivayetine yer verilen (bk. Hatîb, XIII, 16; Zehebî, Târîḫu’l-İslâm , vr. 64 a ) Ebü’l-Hâris, kıraat ilmindeki hocalarından Yahyâ b. Mübârek el-Yezîdî’den hadis rivayet etmiş, kendisinden de Muhammed b. Yahyâ el-Kisâî ve Seleme b. Âsım rivayette bulunmuşlardır. İbn Mücâhid’in (ö. 324/936) Kitâbü’s-Sebʿa ’sında Kisâî kıraatinin râvileri arasında yer verdiği Ebü’l-Hâris’in, özellikle hicrî V. yüzyıldan itibaren kırâat-i seb‘a imamlarının râvilerini iki ile sınırlayan kıraat kitaplarında (meselâ bk. Mekkî b. Ebû Tâlib, s. 175-194; Dânî, s. 3) Kisâî’nin iki râvisinden biri olarak tercih edilmesinin sebebi, herhalde onun bu ilimdeki üstünlüğü, özellikle Kisâî kıraatini icrada üstat sayılması ve buna bağlı olarak, Ebû Amr ed-Dânî’nin de belirttiği gibi ( et-Teysîr , s. 3), bu kıraatle ilgili rivayetinin güvenle ve yaygın bir şekilde okunmuş olmasıdır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 322 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebul-haris",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebul-haris, https://islamansiklopedisi.org.tr/ebul-haris",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebul-haris",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebul-haris",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:58Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebul-haris (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 240,
+    "start_ce": 854,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebul-haris, URL: https://islamansiklopedisi.org.tr/ebul-haris || DİA death-date string: (ö. 240/854) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

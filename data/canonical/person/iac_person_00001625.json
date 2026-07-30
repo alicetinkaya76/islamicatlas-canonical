@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00001625",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BURHÂNEDDİN KUTB-i ÂLEM",
+      "ar": "برهان الدين قطب عالم"
+    },
+    "originalScript": {
+      "ar": "برهان الدين قطب عالم"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Burhânüddîn Kutb-i Âlem Abdullāh b. Mahmûd b. Celâliddîn Hüseyn el-Buhârî"
+      ]
+    },
+    "description": {
+      "tr": "Receb 790’da (Temmuz 1388) Hindistan’da Bahâvelpûr’a bağlı Uç’ta doğdu. Kutb-i Âlem ve Mahdûm-i Cihâniyân unvanıyla tanınan dedesi Celâleddin Hüseyin el-Buhârî’ye (ö. 785/1384) nisbetle Sânî-i Mahdûm-i Cihâniyân unvanlarıyla tanınır. Küçük yaşta babasını kaybetti. On iki yaşında iken annesiyle birlikte Gucerât’ta Fetten’e (Pattan) göç ederek Mevlânâ Ali Şîr el-Gucerâtî’den ilim tahsil etti. Sühreverdiyye tarikatı hırkasını büyük kardeşi Hâmid b. Mahmûd el-Hüseynî ve babasının amcası Sadreddin b. Ahmed el-Uççî’den giydi. Ebü’l-Fütûh Nûreddin eş-Şîrâzî, Şehâbeddin Ahmed b. Abdullah, Kemâleddin b. Kıvâmüddin el-Fettenî ve diğer bazı şeyhler vasıtasıyla Nakşibendiyye, Kādiriyye ve Kübreviyye tarikatlarına da intisap etti. Ahmed Şah Gucerâtî Ahmedâbâd şehrini kurunca Fetten’den ayrılarak oraya gitti. Bir süre eski Asâval’da oturduktan sonra Ahmedâbâd’a 6 mil mesafedeki Bâtve köyüne yerleşerek büyük dedesi Celâleddin Ahmer Hüseyin b. Ahmed’in (ö. 691/1292) kurduğu Sühreverdiyye tarikatının Buhâriyye kolunu yaymaya çalıştı. Gucerât hükümdarı kendisine büyük saygı göstererek sarayında barındırdı. Başta oğlu Şah Âlem (ö. 1495) olmak üzere pek çok halife ve talebe yetiştirdi. 8 Zilhicce 857’de (10 Aralık 1453) Bâtve’de vefat etti. Hindistan’da Ahmedşâhî kazası ileri gelenleri onun için muhteşem bir türbe yaptırmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 437 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:burhaneddin-kutb-i-alem",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=burhaneddin-kutb-i-alem, https://islamansiklopedisi.org.tr/burhaneddin-kutb-i-alem",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:45Z",
+    "modified": "2026-05-04T15:39:46Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=burhaneddin-kutb-i-alem (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Buhârî"
+  ],
+  "death_temporal": {
+    "start_ah": 857,
+    "start_ce": 1453,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=burhaneddin-kutb-i-alem, URL: https://islamansiklopedisi.org.tr/burhaneddin-kutb-i-alem || DİA birth place: Uç || DİA death place: Bâtve || DİA death-date string: (ö. 857/1453) || DİA categories: tarikat || Chunk count: 1",
+  "birth_place": "iac:place-00001107"
+}

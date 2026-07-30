@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00007982",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HASAN b. KĀSIM ed-DÂÎ",
+      "ar": "الحسن بن القاسم الداعي"
+    },
+    "originalScript": {
+      "ar": "الحسن بن القاسم الداعي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed ed-Dâî-İlelhak el-Hasen b. Kāsım b. el-Hasen el-Alevî"
+      ]
+    },
+    "description": {
+      "tr": "Taberistan ve Deylem’de hüküm süren Zeydîler’in ünlü kumandanlarından."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-b-kasim-ed-dai",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-b-kasim-ed-dai, https://islamansiklopedisi.org.tr/hasan-b-kasim-ed-dai",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:11Z",
+    "modified": "2026-05-04T15:35:11Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-b-kasim-ed-dai (0 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 316,
+    "start_ce": 928,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-b-kasim-ed-dai, URL: https://islamansiklopedisi.org.tr/hasan-b-kasim-ed-dai"
+}

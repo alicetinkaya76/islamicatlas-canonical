@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00001068",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMRE bint MES‘ÛD",
+      "ar": "عمرة بنت مسعود"
+    },
+    "originalScript": {
+      "ar": "عمرة بنت مسعود"
+    },
+    "altLabel": {
+      "tr": [
+        "Amre bint Mes‘ûd b. Kays"
+      ]
+    },
+    "description": {
+      "tr": "Ensarın ileri gelen reislerinden Sa‘d b. Ubâde’nin annesidir. Hz. Peygamber’in Medine’ye hicretinden hemen sonra ona biat etti. Hicretin 5. yılında oğlu Sa‘d Hz. Peygamber’le birlikte Dûmetülcendel Gazvesi’ndeyken Medine’de vefat etti. Sa‘d yanında olmadığı için, çok arzu etmesine rağmen, vefatından önce kendi adına herhangi bir hayır yapılmasını vasiyet edemedi. Amre’nin vefatından bir ay sonra seferden dönen Hz. Peygamber kabrine giderek cenaze namazını kıldı (bk. Tirmizî, “Cenâʾiz”, 47). Sa‘d b. Ubâde, annesinin vefat etmeden önce hayır yapmak istediğini öğrenince Hz. Peygamber’e giderek durumu arzetti ve annesi adına bir vakıf kurup kuramayacağını sordu. Hz. Peygamber’in müsbet cevap vermesi üzerine en üstün hayrın ne olduğunu sordu; “Su akıtmak” cevabını alınca bir kuyu kazdırarak annesi adına vakfetti. Sa‘d b. Ubâde’nin annesi adına bir bostan vakfettiği (bk. Buhârî, “Veṣâyâ”, 15), onun hayatta iken yerine getiremediği bir adağını Hz. Peygamber’in iznini aldıktan sonra köle âzat ederek yerine getirdiği de (bk. Nesâî, “Veṣâyâ”, 8) rivayet edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 96 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amre-bint-mesud",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amre-bint-mesud, https://islamansiklopedisi.org.tr/amre-bint-mesud",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amre-bint-mesud",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amre-bint-mesud",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amre-bint-mesud (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 5,
+    "start_ce": 626,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amre-bint-mesud, URL: https://islamansiklopedisi.org.tr/amre-bint-mesud || DİA death place: Medine || DİA death-date string: (ö. 5/626) || DİA categories: rivayet || Chunk count: 1"
+}

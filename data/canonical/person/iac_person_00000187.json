@@ -1,0 +1,168 @@
+{
+  "@id": "iac:person-00000187",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Al-Biruni",
+      "tr": "Bîrûnî",
+      "ar": "البيروني"
+    },
+    "originalScript": {
+      "ar": "البيروني"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Rayhan Muhammad ibn Ahmad al-Biruni"
+      ],
+      "tr": [
+        "Ebû Reyhân Muhammed b. Ahmed el-Bîrûnî",
+        "el-Bîrûnî"
+      ],
+      "ar": [
+        "أبو الريحان محمد بن أحمد البيروني"
+      ]
+    },
+    "description": {
+      "tr": "Dünya'nın yarıçapını modern değerin %1'i dahilinde hesapladı — bir dağ ve trigonometri kullanarak, Avrupalılar denemeden 500 yıl önce || Bîrûnî, tarihin belki de ilk gerçek karşılaştırmacısıdır. Tahkîk, Hindu felsefesi, bilim ve toplumsal âdetlerini İslami geleneklere uyguladığı analitik titizlikle ele alır — 11. yüzyıl için şaşırtıcı bir metodolojik sıçrama. Nandana Kalesi'nden (modern Pakistan) yaptığı jeodezik hesap, Dünya yarıçapı için ~6.339,9 km verdi — modern 6.371 km'ye karşı <%1 hata. || [Tarih notu] E.S. Kennedy'nin (1973) Bîrûnî'nin jeodezik yönteminin yeniden inşası, matematiksel sağlamlığını doğruladı. Sachau'nun 1888 Tahkîk çevirisi Bîrûnî'yi Batı akademisine tanıttı ama eseri devrimci kılan karşılaştırmalı metodolojiyi küçümsedi.",
+      "en": "Calculated Earth's radius to within 1% of the modern value — using a mountain and trigonometry, 500 years before Europeans tried || Biruni is perhaps history's first true comparativist. His Indica treats Hindu philosophy, science, and social custom with the same analytical rigor he applied to Islamic traditions — an astonishing methodological leap for the 11th century. His geodetic calculation of Earth's circumference (using Nandana Fort, modern Pakistan) yielded ~6,339.9 km for Earth's radius vs. the modern 6,371 km — a <1% error. || [Historiographical note] E.S. Kennedy's (1973) reconstruction of Biruni's geodetic method confirmed its mathematical soundness. Sachau's 1888 translation of Indica introduced Biruni to Western scholarship but underplayed the comparative methodology that makes the work revolutionary.",
+      "ar": "حسب نصف قطر الأرض بدقة ١٪ من القيمة الحديثة — باستخدام جبل ومثلثات، قبل محاولة الأوروبيين بخمسة قرون || البيروني أول مقارِن حقيقي في التاريخ. كتابه تحقيق ما للهند يعامل الفلسفة والعلم الهندوسيين بنفس الصرامة التحليلية. حسابه لمحيط الأرض من قلعة ناندانا أعطى خطأً أقل من ١٪"
+    }
+  },
+  "profession": [
+    "astronomer",
+    "mathematician",
+    "geographer",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0004",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0004, lecture_id=biruni",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:12",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=12",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E1048",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-24T06:55:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0004 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:15:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "h11_001 QID karantinası: wikidata:Q11458 kayıttan çıkarıldı (denetim MISMATCH, sim=56, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T06:55:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-2 conf 1.0): ['authority_xref', 'altLabel.tr', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 973,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1048,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0004, lecture_week=8. || Key works: {'title': {'en': 'Kitāb Taḥqīq mā li-l-Hind (Indica)', 'tr': \"Tahkîku mâ li'l-Hind\", 'ar': 'تحقيق ما للهند'}, 'year': 1030, 'field': 'geography', 'significance': {'en': 'First objective comparative study of Indian civilization by a Muslim scholar', 'tr': 'Bir Müslüman alim tarafından Hint medeniyetinin ilk nesnel karşılaştırmalı çalışması'}}; {'title': {'en': 'Al-Qānūn al-Masʿūdī', 'tr': \"el-Kânûnü'l-Mes'ûdî\", 'ar': 'القانون المسعودي'}, 'year': 1037, 'field': 'astronomy', 'significance': {'en': || Modern parallel: Imagine a single person being both a NASA scientist and a National Geographic anthropologist — measuring Earth's size with homemade instruments while also writing the most sympathetic cross-cultural study of a foreign civilization.",
+  "active_in_places": [
+    "iac:place-00015199"
+  ],
+  "authored_works": [
+    "iac:work-00000008",
+    "iac:work-00000009",
+    "iac:work-00000010",
+    "iac:work-00000951",
+    "iac:work-00001295",
+    "iac:work-00002028",
+    "iac:work-00002216",
+    "iac:work-00002758",
+    "iac:work-00003406",
+    "iac:work-00003463",
+    "iac:work-00004017",
+    "iac:work-00004997",
+    "iac:work-00005387",
+    "iac:work-00005814",
+    "iac:work-00006038",
+    "iac:work-00006234",
+    "iac:work-00006983",
+    "iac:work-00007858",
+    "iac:work-00008157",
+    "iac:work-00009202",
+    "iac:work-00009286"
+  ],
+  "kunya": "Ebü'r-Reyhân",
+  "nisba": [
+    "Bîrûnî",
+    "Hârizmî"
+  ],
+  "laqab": [
+    "el-Üstâz (Hoca)"
+  ],
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q11826",
+      "confidence": 1.0,
+      "method": "imported_from_source",
+      "reviewed": false,
+      "note": "Alatlı (Tarihe Yön Veren Metinler): Tier-2 ad+ölüm eşleşmesi; QID Wikidata tarih-teyitli."
+    }
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

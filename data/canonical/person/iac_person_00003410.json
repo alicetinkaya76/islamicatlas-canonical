@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00003410",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hilâtî",
+      "ar": "الخلاطي"
+    },
+    "originalScript": {
+      "ar": "الخلاطي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Sadrüddîn Muhammed b. Abbâd b. Melik Dâd el-Hılâtî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Bitlis’in bir ilçesi olan Ahlat’a (Arapça eserlerde Hılât) nisbetle Hılâtî diye anılmaktadır. Cemâleddin Mahmûd b. Ahmed el-Hasîrî’den fıkıh okudu ve Ṣaḥîḥ-i Müslim ’i dinledi. Kureşî’nin Zebîdî, İbn Kutluboğa’nın İbnü’z-Zebîdî şeklinde kaydettiği bir âlimden de Ṣaḥîḥ-i Buḫârî ’yi dinledi. Her iki kaynağın da adını belirtmediği bu âlim, Hanefî ve Hanbelî tabakat kitaplarında Zebîdî veya İbnü’z’-Zebîdî diye anılan ve çeşitli şehirlerde Ṣaḥîḥ-i Buḫârî ’yi okuttuğu kaydedilen Ebû Abdullah Hüseyin b. Mübârek ez-Zebîdî (ö. 631/1234) olmalıdır. Her iki hocasının da Dımaşk, Halep ve Bağdat gibi ilim merkezlerinde bulunduğu göz önüne alınırsa Hılâtî’nin ilim tahsili için bu şehirlere gitmiş olduğu düşünülebilir. Kahire’de Süyûfiyye Medresesi’nde ders verdiği bilinen Hılâtî’nin talebelerinden sadece Mısır Hanefî kādılkudâtı Ahmed b. İbrâhim es-Serûcî’nin adı zikredilmektedir. Hılâtî Receb 652’de (Eylül 1254) vefat etti. Eserleri. 1. Telḫîṣü’l-Câmiʿi’l-kebîr . Muhammed b. Hasan eş-Şeybânî’nin Hanefî mezhebinin ana kaynaklarından olan el-Câmiʿu’l-kebîr ’inin muhtasarıdır. İstanbul kütüphanelerinde çok sayıda yazma nüshası bulunan (meselâ bk. Süleymaniye Ktp., Fâtih, nr. 1552; Hasan Hüsnü Paşa, nr. 513; Esad Efendi, nr. 584; Lâleli, nr. 841; Ayasofya, nr. 1073; Yenicami, nr. 378) eserin birçok şerhi yapılmıştır. Günümüze ulaşan önemli şerhleri arasında İbn Balabân’ın Tuḥfetü’l-ḥarîṣ fî şerḥi’t-Telḫîṣ , Mes‘ûd b. Muhammed el-Gucdüvânî’nin et-Tenvîr şerḥu Telḫîṣi’l-Câmiʿi’l-kebîr , Bâbertî’nin Şerḥu Telḫîṣi’l-Câmiʿi’l-kebîr adlı eserleriyle Sa‘deddin et-Teftâzânî ve Molla Fenârî’nin şerhleri zikredilebilir. Telḫîṣ ’in bir kısmı Mevkūfâtî Mehmed Efendi tarafından Türkçe’ye çevrilerek şerhedilmiştir. Bu eserin bir nüshası Terceme-i Telhîsü’l-Câmii’l-kebîr adıyla Süleymaniye Kütüphanesi’nde kayıtlıdır (Şehid Ali Paşa, nr. 719). Mevkūfâtî tercümeye yazdığı mukaddimede eserin çok muhtasar olduğunu, bu sebeple bazı yerleri anlamakta güçlük çektiğini belirtmektedir (bk. vr. 2 a ). 2. Maḳṣadü’l-Müsned . Ebû Hanîfe’nin el-Müsned adlı eserinin muhtasarı olup Dârü’l-kütübi’l-Mısriyye’de bir nüshası bulunmaktadır (Hadis, nr. 440/2; bu eserlerin yazma nüshaları için bk. Brockelmann, GAL , I, 178-179, 475; Suppl. , I, 286, 290, 655; Sezgin, I, 416, 426-427). Kaynaklarda Hılâtî’nin Taʿlîḳ ʿalâ Ṣaḥîḥi Müslim adlı bir eserinden de söz edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 17. cildinde, 321-322 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hilati",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hilati, https://islamansiklopedisi.org.tr/hilati",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:hilati",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=hilati",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:14Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hilati (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=hilati)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hılâtî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 652,
+    "start_ce": 1254,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hilati, URL: https://islamansiklopedisi.org.tr/hilati || DİA death place: 652 || DİA death-date string: (ö. 652/1254) || DİA categories: fıkıh > hadis > mezhep || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003297"
+  ],
+  "students": [
+    "iac:person-00003964"
+  ]
+}

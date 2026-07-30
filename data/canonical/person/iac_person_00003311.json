@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00003311",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂTIB b. AMR",
+      "ar": "حاطب بن عمرو"
+    },
+    "originalScript": {
+      "ar": "حاطب بن عمرو"
+    },
+    "altLabel": {
+      "tr": [
+        "Hâtıb (Ebû Hâtıb) b. Amr b. Abdişems el-Kureşî el-Âmirî"
+      ]
+    },
+    "description": {
+      "tr": "Resûl-i Ekrem’in müşriklerin zulmü sebebiyle Erkam b. Ebü’l-Erkam’ın evine sığınması hadisesinden ve Hz. Ömer’den önce müslüman oldu. Müşriklerin şiddetli baskılarına göğüs gerdi. Sevde bint Zem‘a ile evli olan kardeşi Sekrân ve diğer kardeşi Selît ile birlikte Habeşistan’a hicret etti. Onun Habeşistan’a ilk hicret eden müslümanlar arasında yer aldığı ve Habeş toprağına ilk ayak basan sahâbî olduğu söylendiği gibi Habeşistan’a yapılan her iki hicrette bulunduğu da rivayet edilmektedir. Hâtıb, Medine’ye hicretin başlamasından önce Mekke’ye döndü; oradan da Medine’ye hicret etti. Hz. Peygamber’le birlikte Bedir ve Uhud gazvelerine katıldı. Belâzürî’nin bildirdiğine göre, İslâmiyet’in ilk yıllarında Kureyş’ten yazı yazmayı bilen sayılı kişilerden biri olduğu için Resûl-i Ekrem’in vahiy kâtipliğini de yaptı. Güzel konuşması sebebiyle “Kureyş’in hatibi” diye anılan, Hudeybiye’de Mekkeliler’i temsil eden ve Mekke’nin fethi sırasında müslüman olan Süheyl b. Amr da onun kardeşidir. Habeşistan’da veya Mekke’ye döndükten sonra Medine’ye hicret edemeden orada vefat eden kardeşi Sekrân’dan dul kalan Sevde bint Zem‘a’yı Hz. Hatice’nin vefatından sonra Resûlullah ile onun evlendirdiği söylenmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 444 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hatib-b-amr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hatib-b-amr, https://islamansiklopedisi.org.tr/hatib-b-amr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:13Z",
+    "modified": "2026-05-04T15:34:13Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hatib-b-amr (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Âmirî"
+  ],
+  "death_temporal": {
+    "start_ah": 3,
+    "start_ce": 624,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hatib-b-amr, URL: https://islamansiklopedisi.org.tr/hatib-b-amr || DİA death-date string: (ö. 3/624’ten sonra) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

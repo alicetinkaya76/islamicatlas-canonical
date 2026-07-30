@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00000780",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED EFENDİ, Siyâhî"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu; babasının adı Sâlih’tir. Türk nesta‘lik hattının ilk büyük üstatlarından biri olarak kabul edilmiş, rengi siyah olduğundan Siyâhî lakabıyla anılmıştır. Hattı, akrabası meşhur hattatlardan Tophâneli Mahmud Nûri ’den öğrenerek icâzet aldı. Askerî kassâm başkâtibi olarak Defterdar Kılıç Ali Paşa ile Trabzon’a giderken Ağva sahilinde vefat etti. Himmetzâde Abdullah Efendi’nin, vefatına düşürdüğü tarih şöyledir: “Haşrda rû-sefîd ola Siyâhî-i elemdîde” (1099/1687-88). Nesta‘lik yazıdaki başarısından dolayı devrinin İmâd’ı olarak kabul edilmiştir. Aynı zamanda şair olan Ahmed Efendi pek çok hattat yetiştirmiştir; Durmuşzâde Ahmed Efendi bunların en meşhurudur. Eserlerinin bir kısmı bazı müze ve özel koleksiyonlarda bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 61 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-efendi-siyahi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-efendi-siyahi, https://islamansiklopedisi.org.tr/ahmed-efendi-siyahi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:52Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-efendi-siyahi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1099,
+    "start_ce": 1687,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-efendi-siyahi, URL: https://islamansiklopedisi.org.tr/ahmed-efendi-siyahi || DİA birth place: İstanbul || DİA death-date string: (ö. 1099/1687-88) || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00004599",
+    "iac:person-00006020",
+    "iac:person-00007551",
+    "iac:person-00007573"
+  ]
+}

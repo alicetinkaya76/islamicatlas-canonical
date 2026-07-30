@@ -1,0 +1,82 @@
+{
+  "@id": "iac:person-00000578",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdullah Nâilî Paşa"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Hotin ağalığından emekli Halil Ağa’nın oğludur. Tahsilini tamamladıktan sonra 1713’te Dîvân-ı Hümâyun Kalemi’ne mülâzım olarak girdi. Daha sonra çeşitli memuriyetlere tayin edildi. 1730’da beylikçi kesedarı, 1736 Rus seferinde Babadağı ordugâhında bulunduğu sırada da beylikçi oldu. Aynı yıl İran-Rus seferi sırasında rikâb beylikçiliğine, bir süre sonra da teşrifatçılığa getirildi. Teşrifatçılığı döneminde hükümdarın emriyle, çok karışık ve dağınık durumda olan teşrifat kanunlarını yeniden düzenledi. 1745’te teşrifatçılıkla birlikte kendisine tekrar beylikçilik verildi. İki yıl sonra reîsülküttâb, 1754’te başdefterdar oldu. Hekimoğlu Ali Paşa’nın azli üzerine 18 Mayıs 1755’te sadrazamlığa getirildi. Sadârette üç ay kadar kalabildi, 24 Ağustos 1755’te azledilerek Sakız adasına sürüldü. Ancak kısa bir müddet sonra affedilerek Girit valiliğine tayin edildi, bu arada Kavala ve Selânik sancakları da kendisine arpalık olarak verildi. 1758’de kendi isteği üzerine Cidde valiliğine gönderildi. Hac için Mekke’ye giderken hastalanarak yolda vefat etti. Naaşı Mekke’de Hz. Hatice’nin kabri yanına defnedildi. Abdullah Nâilî Paşa’nın Mukaddime-i Kavânîn-i Teşrîfât ’tan başka, kıraat ilmiyle ilgili el-İfâdetü’l-muḳniʿa fî ḳırâʾati’l-eʾimmeti’l-erbaʿa adlı Arapça bir eseri ve mürettep bir divanı vardır. En önemli eseri olan Mukaddime-i Kavânîn-i Teşrîfât , kendi türünde en kıymetli derlemelerden biridir. Eserin önemi, muhtevasının zenginliği ve müellifinin konu hakkında yetkili bir kimse olmasından gelmektedir. Nitekim müellif, eserin başlangıcında devlet teşrifatına ait belgelerin hazinede saklandığını, ancak bir süreden beri teşrifata ait esasların unutulduğunu, teşrifatçıların ellerinde ihtilâf anında kolayca bakabilecekleri muntazam bir metnin bulunmadığını ifade ederek hükümdarın fermanı ile, teşrifatçılıkta bulunduğu sırada bu eksikliği gidermek üzere bu eseri derlediğini belirtmektedir. Açık ve anlaşılır bir dille kaleme alınan eserde, Osmanlı Devleti’nde çeşitli vesilelerle yapılan merasimler, tarihleriyle birlikte ayrıntılı olarak verilmektedir. Bir kısmı Türk Tarihi Encümeni Mecmuası ’nda tefrika halinde yayımlanan eserin çeşitli kütüphanelerde yazmaları bulunmaktadır. Bunlar arasında, Topkapı Sarayı Müzesi Kütüphanesi (Yeniler, nr. 612) ile Türk Tarih Kurumu Kütüphanesi’nde (nr. 20) kayıtlı olan nüshalar zikredilebilir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 124-125 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-naili-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-naili-pasa, https://islamansiklopedisi.org.tr/abdullah-naili-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-naili-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-naili-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-naili-pasa (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:33Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1171,
+    "start_ce": 1758,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-naili-pasa, URL: https://islamansiklopedisi.org.tr/abdullah-naili-pasa || DİA birth place: İstanbul || DİA death place: Mekke || DİA death-date string: (ö. 1171/1758) || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

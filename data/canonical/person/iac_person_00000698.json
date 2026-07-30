@@ -1,0 +1,59 @@
+{
+  "@id": "iac:person-00000698",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Adanali Ziya"
+    },
+    "description": {
+      "tr": "Ailesi hakkında fazla bilgi yoktur. Rüşdiyeyi Adana’da bitirdi. Henüz yirmi yaşlarında iken şiire heves ederek hicivle işe başladı. Ziyâ Paşa’nın Adana valiliği sırasında idare aleyhine yazdığı bir şiire rağmen vali tarafından takdir edilerek tahsil için İstanbul’a gönderildi. İstanbul’da önce bir süre Mekteb-i Tıbbiyye’ye devam etti. Mizacı belli kayıtlar altına girmeye müsait olmadığı için kısa zamanda buradan ayrılarak derbeder bir hayat sürmeye başladı. Ancak bir süre sonra bu hayattan da bıktı. Bir tanıdığı vasıtasıyla Evkaf Nezâreti’nde bir kaleme memur olarak girdi; bu kalemde devrin tanınmış şairleriyle tanışma ve dostluk kurma fırsatı buldu. Bu arada yine sefil bir hayat sürmeye başladı. Sarhoş olarak dolaştığı bir gün yolda seraskerin arabasına yaklaşarak küfür edince yakalanıp tevkif edildi. Hapisten kurtarılmak için arkadaşları tarafından deli olduğu söylenince tımarhaneye atıldı. Ancak bir süre sonra deli olmadığı anlaşıldı ve Fizan’a sürüldü. 1894’te bir fırsatını bulup Fizan’dan Mısır’a kaçtı. Daha sonra affedilerek İstanbul’a döndü. Sadrazam Cevad Paşa’ya takdim ettiği bir arzuhal üzerine Afyonkarahisar evkaf müdürlüğüne tayin edildi (1895). 1910 yılında emekliye ayrıldı; ölüm tarihi olan 26 Ağustos 1932’ye kadar burada derbeder bir hayat sürdü. Mezarı Afyonkarahisar Tayyare Şehitliği’ndedir. Devrinde adı, eski edebiyatı temsil eden şairler arasında ön sırada zikredilen Adanalı Ziya’nın, özellikle gazel tarzındaki şiirleri ince hayaller ve üslûp güzelliği bakımından o yılların edebiyat otoriteleri tarafından takdirle karşılanmıştır. Şiire ve edebiyata büyük bir kabiliyeti olduğu halde derbeder bir hayat sürmesi, kabiliyetinin boş yere yok olmasına sebep olmuştur. Hemen hepsi eski tarzda olan şiirlerini Evrâk-ı Hazan adıyla bir kitapta toplamak istemişse de bu arzusunu gerçekleştirememiştir. Şiirlerinin bir kısmı ölümünden sonra Afyon Halkevi tarafından çıkarılan Taşpınar dergisinde yayımlanmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 353 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:adanali-ziya",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=adanali-ziya, https://islamansiklopedisi.org.tr/adanali-ziya",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-05-04T15:32:45Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=adanali-ziya (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1859,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=adanali-ziya, URL: https://islamansiklopedisi.org.tr/adanali-ziya || DİA death-date string: (1859-1932) || DİA categories: şiir || Chunk count: 1"
+}

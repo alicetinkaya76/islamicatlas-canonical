@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00000194",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Maimonides",
+      "tr": "Mûsâ b. Meymûn",
+      "ar": "موسى بن ميمون"
+    },
+    "originalScript": {
+      "ar": "موسى بن ميمون"
+    },
+    "altLabel": {
+      "en": [
+        "Moses ben Maimon (Rambam)"
+      ],
+      "tr": [
+        "Mûsâ b. Meymûn (Rambam)"
+      ],
+      "ar": [
+        "أبو عمران موسى بن عبيد الله ميمون"
+      ]
+    },
+    "description": {
+      "tr": "Ortaçağın en büyük Yahudi filozofu ve hekimi — İslami, Yahudi ve Hristiyan entelektüel geleneklerinin birbirini besleyebileceğini kanıtladı || Mûsâ b. Meymûn, İslam medeniyetinin çapraz tozlaşmasını temsil eder. Müslüman Kurtuba'da eğitim, Fas'ta Müslüman alimler altında öğrenim, Arapça'da felsefe yazımı, Kahire'de Müslüman saraya hizmet — kariyeri tek bir gelenek içinde sınıflandırılamaz. || [Tarih notu] Stroumsa'nın Maimonides in His World (2009) eseri, Mûsâ b. Meymûn'u İslami entelektüel çevresinden izole olarak çalışma eğilimini sorguladı.",
+      "en": "Greatest medieval Jewish philosopher and physician — proved that Islamic, Jewish, and Christian intellectual traditions could fertilize each other. Personal physician to Saladin's court while leading Cairo's Jewish community || Maimonides epitomizes the cross-pollination of Islamic civilization. Educated in Muslim Córdoba, trained under Muslim scholars in Fez, writing philosophy in Arabic for a Jewish audience, and serving a Muslim court in Cairo — his career is impossible to categorize within a single tradition. The Guide for the Perplexed, written in Judaeo-Arabic, synthesizes Farabi and Ibn Sina's philosophy with Talmudic reasoning. || [Historiographical note] Stroumsa's Maimonides in His World (2009) challenged the tendency to study Maimonides in isolation from his Islamic intellectual environment. The Cairo Geniza documents (over 300,000 fragments) provide unparalleled archival evidence of his daily life and medical practice.",
+      "ar": "أعظم فيلسوف وطبيب يهودي في العصور الوسطى — أثبت أن التقاليد الفكرية الإسلامية واليهودية والمسيحية يمكن أن تخصّب بعضها بعضًا || موسى بن ميمون يجسّد التلاقح المتبادل للحضارة الإسلامية. تعلّم في قرطبة المسلمة وكتب الفلسفة بالعربية لجمهور يهودي وخدم بلاطًا مسلمًا في القاهرة"
+    }
+  },
+  "profession": [
+    "physician",
+    "philosopher",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0011",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0011, lecture_id=maimonides",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-05-04T15:39:31Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0011 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1135,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1204,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q127398",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Maimonides')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0011, lecture_week=15. || Key works: {'title': {'en': 'Dalālat al-Ḥāʾirīn (Guide for the Perplexed)', 'tr': \"Delâletü'l-Hâirîn\", 'ar': 'دلالة الحائرين'}, 'year': 1190, 'field': 'philosophy', 'significance': {'en': 'Synthesis of Aristotelian philosophy with Jewish theology — written in Judaeo-Arabic', 'tr': 'Aristoteles felsefesinin Yahudi teolojisiyle sentezi — Yahudi-Arapçası ile yazıldı'}}; {'title': {'en': 'Mishneh Torah', 'tr': 'Mişne Tora', 'ar': 'مشنيه توراه'}, 'year': 1180, 'field': 'religious_sciences', 'significance': {'en || Modern parallel: Imagine being simultaneously the Chief Rabbi of your community, a top surgeon at the local hospital, and a bestselling philosopher — while writing in a language shared by three faiths.",
+  "birth_place": "iac:place-00009538",
+  "active_in_places": [
+    "iac:place-00009192",
+    "iac:place-00009538"
+  ],
+  "authored_works": [
+    "iac:work-00000021",
+    "iac:work-00000022"
+  ]
+}

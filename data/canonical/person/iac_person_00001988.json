@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00001988",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DERENBOURG, Hartwig"
+    },
+    "description": {
+      "tr": "Paris’te doğdu; yahudi asıllı şarkiyatçı Joseph Naphtali Derenbourg’un oğludur. Üniversiteyi bitirdikten sonra (1863) yüksek lisans için gittiği Göttingen’de H. Ewald, E. Bertheau, F. Wüstenfeld ve T. Benfey gibi ünlü şarkiyatçılardan ders aldı; ardından Leipzig’e giderek felsefe doktorası yaptı. Çocukluğunda İbrânîce, orta öğrenimi sırasında Grekçe ve Latince öğrenmiş olan Derenbourg üniversitede Arapça ve diğer Sâmî dillere yöneldi; L. Krehl ve H. L. Fleischer ile birlikte İbrânî, Arap, Habeş ve Fenike yazmaları, İsrail tarihi ve Eski Ahid kritiği üzerine çalışmalar yaptı. Paris’e döndükten sonra Bibliothèque Impériale’in kataloglama servisinde görev aldı ve yaklaşık üç yılını buradaki yazma eserler üzerinde çalışmakla geçirdi (1867-1870). 1870’te bir yayınevi sahibinin kızıyla evlenmesi üzerine kütüphanecilikten ayrılarak kayınpederine ait yayınevinin Paris bürosunda yönetici oldu. Beş yıl kadar sonra yayıncılıktan da vazgeçip Ecole Pratique des Langues Orientales’de Arapça ve Ecole Rabbinique’te Doğu dilleri okutmaya başladı; bu arada Société Asiatique’e üye oldu. 1880’de Kültür Bakanlığı’nca Escurial, Madrid ve Granada kütüphanelerindeki yazmalar üzerinde araştırma yapmakla, arkasından da Corpus inscriptionum semiticarum ’un Himyerî ve Sebaî kitâbeleriyle ilgili dördüncü bölümünün hazırlanmasında babasına yardımcı olmakla görevlendirildi (1881). 1885’te École Pratique des Hautes Études’ün Arapça ve İslâmoloji kürsülerine tayin edildi. Yaptığı çalışmalarla Légion d’Honneur ödülüne lâyık görüldü (1897); 1900 yılında da Académie des Inscriptions et des Belles-Lettres üyeliğine seçildi. 12 Nisan 1908’de Saint-Cloud’da öldü. Eserleri. 1. Les manuscrits arabes de l’Escurial (I, Paris 1884; II, 1903; III, 1928). Escurial Kütüphanesi’ndeki Arapça yazmaların katalogu olup III. cildi É. Lévi-Provençal tarafından yayımlanmıştır. 2. Le Livre de Sibawaïhi / Kitâbü Sîbeveyhi (Paris 1881-1882). Sîbeveyhi’nin Arapça grameriyle ilgili ünlü kitabının Kahire, Escurial, Oxford, Paris, Saint-Petersbourg ve Viyana kütüphanelerindeki yazmalarına dayanılarak hazırlanmış iki ciltlik tahkikli neşridir; ayrıca esere Fransızca tercümesiyle birlikte bir giriş ve çeşitli açıklamalar ilâve edilmiştir. 3. Chrestomathie élémentaire de l’arabe littéral (Paris 1885, 1892). Arap edebiyatı klasiklerinden yapılmış seçmelerden oluşan bu eseri M. Jean Spiro ile birlikte hazırlamıştır. 4. ʿOumâra du Yémen: Sa vie et son œuvre (I-II, Paris 1897-1908). Ünlü Arap şair ve edibi Umâre el-Yemenî’nin hayat hikâyesini ve eserlerini ihtiva eden bir çalışmadır. 5. Ousâma Ibn Mounḳidh: Un émir syrien au premier siècle des Croisades, 1095-1188 . İbn Münkız’ın el-İʿtibâr adlı eserinin tahkikli neşridir (Paris 1884-1886). Eseri Souvenirs historiques et récits de chasse adıyla Fransızca’ya tercüme etmiştir (Paris 1895). 6. Vie d’Ousama (Paris 1889-1893). Müellifin, İbn Münkız’ın hayatı ve eserleriyle ilgili çeşitli kaynaklardan topladığı bilgilerden derlediği bir eserdir. 7. Notes critiques sur les manuscrits arabes de la Bibliothèque Nationale de Madrid (Paris 1904). Madrid Millî Kütüphanesi’ndeki Arapça yazmalar üzerine yapılmış bir incelemedir. Bunlardan başka babası ile birlikte yaptığı çeşitli ortak çalışmaları, yirmiye yakın ilmî dergide 150’yi aşkın makalesi yayımlanmıştır (bütün eserleri için bk. Schwab, Mélanges Hartwig Derenbourg , s. 444-462). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 171-172 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:derenbourg-hartwig",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=derenbourg-hartwig, https://islamansiklopedisi.org.tr/derenbourg-hartwig",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:derenbourg-hartwig",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=derenbourg-hartwig",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=derenbourg-hartwig (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=derenbourg-hartwig)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1844,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=derenbourg-hartwig, URL: https://islamansiklopedisi.org.tr/derenbourg-hartwig || DİA birth place: Paris || DİA death-date string: (1844-1908) || DİA categories: felsefe || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00016806"
+  ],
+  "teachers": [
+    "iac:person-00002794",
+    "iac:person-00006389",
+    "iac:person-00007638"
+  ],
+  "students": [
+    "iac:person-00001983",
+    "iac:person-00005246",
+    "iac:person-00005260",
+    "iac:person-00006312",
+    "iac:person-00007634"
+  ]
+}

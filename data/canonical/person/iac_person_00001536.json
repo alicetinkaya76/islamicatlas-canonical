@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00001536",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BÎKENDÎ, Ahmed b. Ali",
+      "ar": "أحمد بن علي البيكندي"
+    },
+    "originalScript": {
+      "ar": "أحمد بن علي البيكندي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Fazl Ahmed b. Alî b. Amr el-Bîkendî"
+      ]
+    },
+    "description": {
+      "tr": "Buhara yakınlarında âlimlerinin çokluğuyla meşhur bir yerleşim merkezi olan Bîkend’e nisbetle anılan ve anne tarafından dedesi Ahmed b. Süleyman’a nisbetle Süleymânî diye de tanınan Bîkendî 311’de (923) doğdu. İlim tahsili için Irak, Şam ve Mısır’a seyahatler yaptı. Muhammed b. Hamdûye el-Mervezî, Ali b. İshak el-Mâderâî, Muhammed b. Ya‘kūb el-Esam, Abdullah b. Ca‘fer b. Fâris el-İsfahânî gibi âlimlerin derslerini dinledi. Kendisinden de Ca‘fer b. Muhammed el-Müstağfirî, oğlu Ebû Zer Muhammed b. Ca‘fer, Muhammed b. Ahmed el-Bîkendî ve bu yöre âlimlerinden birçoğu rivayette bulundu. Çok yazan bir âlim olan Bîkendî her hafta bir risâle telif eder, Bîkend’den Buhara’ya giderek yazdıklarını rivayet ederdi. Güçlü bir hâfızaya sahip titiz bir muhaddis olarak tanınır. İrili ufaklı 400’e yakın eser telif etmişse de Zehebî’nin bazı notlar aldığını ve içinde büyük âlimlere yönelik tenkitler bulunduğunu söylediği “esmâü’r-ricâl” ile ilgili bir tanesi dışında eserleri hakkında kaynaklarda bilgi bulunmamaktadır. Bîkendî, Zilkade 404’te (Mayıs 1014) Bîkend’de vefat etmiştir. Vefat tarihini 412 (1021) olarak zikreden kaynaklar da vardır."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bikendi-ahmed-b-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bikendi-ahmed-b-ali, https://islamansiklopedisi.org.tr/bikendi-ahmed-b-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bikendi-ahmed-b-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bikendi-ahmed-b-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:44Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bikendi-ahmed-b-ali (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bîkendî"
+  ],
+  "death_temporal": {
+    "start_ah": 404,
+    "start_ce": 1014,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bikendi-ahmed-b-ali, URL: https://islamansiklopedisi.org.tr/bikendi-ahmed-b-ali || DİA death place: Bîkend || DİA death-date string: (ö. 404/1014) || DİA categories: rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002575"
+  ],
+  "students": [
+    "iac:person-00001537",
+    "iac:person-00005907"
+  ]
+}

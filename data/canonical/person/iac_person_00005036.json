@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00005036",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KÜRZ b. CÂBİR",
+      "ar": "كرز بن جابر"
+    },
+    "originalScript": {
+      "ar": "كرز بن جابر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdirrahmân Kürz b. Câbir el-Fihrî"
+      ]
+    },
+    "description": {
+      "tr": "Hudeybiye Antlaşması’nda Hz. Peygamber’in yanında bulunduğu dikkate alınarak bu sırada müslüman olduğu söylenmiştir. Kureyş’in önde gelen isimlerinden biri olup henüz İslâmiyet’i kabul etmediği dönemde Mekkeli bir çetenin başında Medine’nin güneyindeki kenar mahallelere saldırarak halkı kılıçtan geçirip mallarını yağmaladı, ayrıca Cemmâ (Zülcedr) otlağındaki sürülerini alıp kaçtı. Olayı haber alan Resûlullah, Medine’de Zeyd b. Hârise’yi vekil bırakarak küçük bir müfreze ile onu yakalamak üzere yola çıktı. İlk Bedir veya Sefevân Gazvesi denilen bu olayda Bedir yakınlarındaki Sefevân vadisine kadar devam eden birkaç günlük takibe rağmen Kürz ve adamlarına yetişilemeyerek geri dönüldü (Rebîülevvel 2 / Eylül 623). Resûlullah, çobanı Yesâr’ı öldürerek zekât develerini çalan Becîle kabilesine mensup sekiz kişilik eşkıya grubunu yakalamak üzere gönderdiği yirmi kişilik müfrezenin başında Kürz b. Câbir’i görevlendirdi. Kürz, Cemmâ otlağına giderek eşkıyayı yakaladı ve Medine’ye getirdi (6/628; bk. ZÜLCEDR SERİYYESİ ). Mekke’nin fethinde Hâlid b. Velîd’in kumandasındaki birlikte görev alan Kürz, arkadaşı Hubeyş b. Hâlid’le birlikte Hz. Peygamber’in çizdiği güzergâhı terkedip başka bir yoldan ilerlerken Handeme denilen yerde bir grup Kureyş savaşçısıyla girdikleri çatışmada Hubeyş şehid oldu. Kendisi de onun cesedi etrafında mersiyeler okuyarak çarpışmaya devam etti ve şehid düştü (Ramazan 8 / Ocak 630). Bu madde TDV İslâm Ansiklopedisi’nin 2002 yılında Ankara’da basılan 26. cildinde, 575 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kurz-b-cabir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kurz-b-cabir, https://islamansiklopedisi.org.tr/kurz-b-cabir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:kurz-b-cabir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/kurz-b-cabir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:35Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kurz-b-cabir (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Fihrî"
+  ],
+  "death_temporal": {
+    "start_ah": 8,
+    "start_ce": 630,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kurz-b-cabir, URL: https://islamansiklopedisi.org.tr/kurz-b-cabir || DİA death-date string: (ö. 8/630) || Chunk count: 1"
+}

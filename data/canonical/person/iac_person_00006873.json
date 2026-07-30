@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00006873",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Şenebûzî",
+      "ar": "الشنبوذي"
+    },
+    "originalScript": {
+      "ar": "الشنبوذي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Ferec Muhammed b. Ahmed b. İbrâhîm eş-Şenebûzî"
+      ]
+    },
+    "description": {
+      "tr": "300 (912-13) yılında muhtemelen Bağdat’ta doğdu. Ebü’l-Hasan İbn Şenebûz’dan (Şennebûz olarak da harekelenmiştir) okuduğu (bk. Dâvûdî, II, 57) ve uzun süre onunla birlikte bulunduğu için Gulâmü’ş-Şenebûzî (Şenebûzî’nin çocuğu veya hizmetçisi) lakabıyla ve Şenebûzî nisbesiyle anıldı (İbnü’l-Esîr, II, 211). İlim tahsili için seyahatlere çıktı. İbn Şenebûz, Mûsâ b. Ubeydullah el-Hâkānî, İbn Mücâhid, İbrâhim b. Muhammed el-Mâverdî, İbn Miksem el-Attâr, İbnü’l-Allâf, Muhammed b. Hasan en-Nakkāş, Muhammed b. Mûsâ ez-Zeynebî gibi âlimlerden kıraat öğrendi. Gerek tefsir gerekse kıraat ve ilelü’l-kırâât konularında şöhret kazandı. Kendisinden Ebû Ali Hasan b. Ali el-Ahvâzî, Ebû Tâhir Muhammed b. Yâsîn el-Halebî, Ebü’l-Alâ Muhammed b. Ali el-Vâsıtî, Abdullah b. Muhammed b. Mekkî es-Sevvâk faydalandı. Hatîb el-Bağdâdî’nin kaydettiğine göre tefsir ve kıraate dair ezberinde şevâhid olarak 50.000 beyit bulunduğu dikkate alındığında ( Târîḫu Baġdâd , I, 272) şiir ve edebiyatla da ilgilendiği söylenebilir; ayrıca tefsir ve kıraat alanlarında çok iyi yetiştiği anlaşılır. Şenebûzî 13 Safer 388’de (14 Şubat 998) vefat etti. Bu tarih 387 olarak da zikredilmiştir. Şenebûzî’ye dair birbirinden farklı değerlendirmeler yapılmıştır. Dârekutnî onun hakkında olumsuz sözler söylemiş, Ebü’l-Fazl Ubeydullah b. Ahmed es-Sayrafî kıraat ve tefsir alanlarında büyük bir âlim olduğunu belirtmiş, Ebû Amr ed-Dânî mükemmel bir üstat sayıldığını zikretmiş, Hatîb el-Bağdâdî rivayetleri konusunda eleştiriler bulunduğunu kaydetmiştir. İbnü’l-Esîr, geniş ilmî birikimine rağmen hadis konusunda zayıf olduğunu ileri sürerken Ebü’l-Alâ el-Hemedânî onu övmüş ve sika bir âlim diye nitelemiştir. Kaynaklarda Şenebûzî’ye el-İşâre fî talṭîfi’l-ʿibâre , Kitâbü’t-Tefsîr (tamamlanamadığı belirtilmiştir) ve Mâ ḫâlefe fîhi İbn Kes̱îr Ebâ ʿAmr adlı eserler nisbet edilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 38. cildinde, 535 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:senebuzi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=senebuzi, https://islamansiklopedisi.org.tr/senebuzi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:senebuzi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/senebuzi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:55Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=senebuzi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Şenebûzî"
+  ],
+  "birth_temporal": {
+    "start_ah": 300,
+    "start_ce": 912,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 388,
+    "start_ce": 998,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=senebuzi, URL: https://islamansiklopedisi.org.tr/senebuzi || DİA birth place: Bağdat || DİA death place: 388 || DİA death-date string: (ö. 388/998) || DİA categories: tefsir > hadis > rivayet || Chunk count: 1",
+  "students": [
+    "iac:person-00000868"
+  ]
+}

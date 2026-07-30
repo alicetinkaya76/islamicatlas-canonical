@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00001302",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bahşî",
+      "ar": "البخشي"
+    },
+    "originalScript": {
+      "ar": "البخشي"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Muhammed el-Bahşî el-Halvetî"
+      ]
+    },
+    "description": {
+      "tr": "1038’de (1628) Halep yakınlarındaki Bekfelûn köyünde doğdu. Bazı kaynaklarda doğduğu köye nisbetle Bekfelûnî diye anılır ( Brockelmann, GAL , II, 397). Amasya’dan Suriye’ye göç eden büyük dedesi Ahmed el-Bahşî tanınmış bir sûfî, tefsir ve fıkıh âlimi idi (Taşköprizâde, s. 413). Bahşî ilk dinî bilgileri çocukluğunu geçirdiği Halep’te babasından öğrendi. Daha sonra Şam’a giderek devrin tanınmış âlimlerinden dinî ilimleri tahsil ettikten sonra Halep’e döndü ve oraya yerleşti. Halep’te müftü Muhammed Hasan el-Kevâkibî’den fıkıh ve hadis dersleri aldı. Bir süre sonra talebe okutmaya başladı ve bazı risâleler telif etti. Bu arada Halvetî-Cemâlî şeyhlerinden İhlâs b. Nasruddin’e intisap ederek sülûk ünü tamamladı. 1675’te Anadolu’ya gitmek üzere Halep’ten ayrıldı. Anadolu’yu dolaşarak İstanbul’a kadar gitti. Burada Köprülü Fâzıl Mustafa Paşa’nın ilgi ve teveccühünü kazandı. Halep’e döndüğünde vefat etmiş bulunan şeyhinin makamına geçti. Bir süre irşad faaliyetinde bulunduktan sonra yerine oğlu Muhammed’i bırakarak hacca gitti. Hac sonrası Halep’e dönmeyip Mekke’ye yerleşti. 5 Rebîülâhir 1098’de (18 Şubat 1687) burada vefat etti ve Hz. Hatice’nin kabri yakınlarına defnedildi. Tarikat silsilesi Halvetiyye’nin Cemâliyye koluna ulaşan Şeyh Bahşî’ye, tasavvuf tarihi kaynaklarında Bahşiyye adlı bir tarikat nisbet edilmektedir. Harîrîzâde’nin tövbe, iman, İslâm, evrâd ve ibadete dayalı beş esası olduğunu söylediği bu tarikatın yaygınlık derecesi hakkında bilgi yoktur. Eserleri. 1. Şemsü’l-mefâḫir . Muhammed b. Yahyâ et-Tâzifî’nin (ö. 963/1556) Abdülkādir-i Geylânî’nin menâkıbına dair Ḳalâʾidü’l-cevâhir (Kahire 1303) adlı eserinin zeylidir (Kahire 1326). 2. Reşeḥâtü’l-meddâd fîmâ yeteʿallaḳu bi’ṣ-ṣâfinâti’l-ciyâd . At yetiştirilmesiyle ilgili olan bu eser Râgıb et-Tabbâh tarafından neşredilmiştir (Halep 1930). 3. Risâle fî tefsîri Sebbiḥi’sme rabbike’l-aʿlâ . A‘lâ sûresinin tefsiri olup Sadrazam Kara Mustafa Paşa’ya ithaf edilmiştir ( Brockelmann, GAL , II, 397). Şeyh Bahşî’nin bu eserleri dışında kaynaklarda Şerḥu’l-Bürde , Şâfiye naẓmü’l-Kâfiye , Ḥâşiye ʿale’l-İʿrâbi’l-Ḳārî adlı üç eseri daha zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 521 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bahsi--bahsiyye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bahsi--bahsiyye, https://islamansiklopedisi.org.tr/bahsi--bahsiyye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:bahsi--bahsiyye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=bahsi--bahsiyye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bahsi--bahsiyye (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=bahsi--bahsiyye)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bahşî; Halvetî"
+  ],
+  "death_temporal": {
+    "start_ah": 1098,
+    "start_ce": 1687,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bahsi--bahsiyye, URL: https://islamansiklopedisi.org.tr/bahsi--bahsiyye || DİA birth place: Bekfelûn || DİA death place: 1098 || DİA death-date string: (ö. 1098/1687) || DİA categories: tefsir > tarikat > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004894"
+  ]
+}

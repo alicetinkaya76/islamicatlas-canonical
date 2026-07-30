@@ -1,0 +1,137 @@
+{
+  "@id": "iac:person-00001148",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂSIM el-AHVEL",
+      "ar": "عاصم الأحول"
+    },
+    "originalScript": {
+      "ar": "عاصم الأحول"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdirrahmân Âsım b. Süleymân el-Ahvel el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "Doğum yeri ve tarihi bilinmemektedir. el-Ahvel veya Âsımü’l-Ahvel lakabıyla tanınır. Bu gibi lakapların genellikle kişilerin fizyonomik kusurları yüzünden verildiği dikkate alınırsa Âsım’ın gözlerinin şaşı olduğu söylenebilir. Âsım el-Ahvel, sahâbî Enes b. Mâlik ve Abdullah b. Sercis’ten hadis almakla birlikte yaptığı rivayetler esas itibariyle tâbiînin büyüklerindendir. Zehebî, Âsım’a dördüncü tabaka ricâli arasında yer verir. İbrâhim en-Nehaî, Hasan-ı Basrî, Saîd b. Cübeyr ve Mücâhid hadis rivayet ettiği tâbiîlerin en tanınmış olanlarıdır. Kendisinden de Şu‘be, Ma‘mer b. Râşid, Yahyâ b. Saîd el-Kattân, Abdullah b. Mübârek gibi meşhur muhaddisler rivayette bulunmuşlardır. Önceleri Kûfe çarşısında muhtesiplik yapmış, daha sonra ise Abbâsîler’in ilk yıllarında Ebû Ca‘fer el-Mansûr devrinde Medâin’de kadılık görevinde bulunmuştur. Onun Medâin muhtesibi olduğu da söylenmektedir. Ancak tabakat kitaplarına göre Âsım el-Ahvel daha çok hadis ilmi ve rivayetiyle meşhur olmuş, bu ilimde çoğunluğun görüşüne göre hâfız lık derecesine yükselmiştir. Süfyân es-Sevrî Âsım’ı, tanıdığı dört büyük hadis hâfızından biri olarak göstermektedir. Yahyâ el-Kattân’ın kendisini hadiste zayıf görmesine karşılık Ahmed b. Hanbel, İbn Maîn, Ebû Zür‘a ve Ali b. Medînî gibi âlimler onun sika olduğuna hükmetmişlerdir. Rivayet ettiği hadislerin başta Kütüb-i Sitte olmak üzere hemen hemen bütün muteber hadis kitaplarında yer alması da Âsım’ın hadis ilmindeki güvenilir yerini teyit etmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 475 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:asim-el-ahvel",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=asim-el-ahvel, https://islamansiklopedisi.org.tr/asim-el-ahvel",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:asim-el-ahvel",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/asim-el-ahvel",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:4825",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=4825, heading_ar=عاصم الأحول",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=asim-el-ahvel (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4825]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:28Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=4825 (heading_ar=عاصم الأحول) via Track A (DİA→Alam xref bridge). dt=Hadis hafızlarından, sika, Basra ehlinden."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Basrî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 142,
+    "start_ce": 759,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=asim-el-ahvel, URL: https://islamansiklopedisi.org.tr/asim-el-ahvel || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4825] || DİA death-date string: (ö. 142/759) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=4825, heading_ar=عاصم الأحول, dt=Hadis hafızlarından, sika, Basra ehlinden.",
+  "active_in_places": [
+    "iac:place-00001954"
+  ],
+  "teachers": [
+    "iac:person-00001058",
+    "iac:person-00001415",
+    "iac:person-00002515",
+    "iac:person-00003260",
+    "iac:person-00005614",
+    "iac:person-00005618",
+    "iac:person-00006063",
+    "iac:person-00006607"
+  ],
+  "students": [
+    "iac:person-00000524",
+    "iac:person-00000939",
+    "iac:person-00001788",
+    "iac:person-00005217",
+    "iac:person-00005679",
+    "iac:person-00006743",
+    "iac:person-00006906",
+    "iac:person-00007106",
+    "iac:person-00007122",
+    "iac:person-00007656",
+    "iac:person-00007661"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00018721",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Ṣafī al-Dīn al-Armawī",
+      "tr": "Safiyyü'd-Dîn el-Armavî",
+      "ar": "الصفي الأرموي"
+    },
+    "originalScript": {
+      "ar": "الصفي الأرموي"
+    },
+    "description": {
+      "tr": "Dil ve hadis ilminde âlim.",
+      "en": "Scholar of language and hadith."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Maḥmūd b. Muḥammad (Abī Bakr) b. Ḥāmid, Abū al-Thanāʾ, Ṣafī al-Dīn al-Armawī al-Qarāfī"
+    },
+    "altLabel": {
+      "tr": [
+        "Mahmûd b. Muhammed Ebî Bekr b. Hâmid, Ebû's-Senâ, Safiyyüddîn el-Armavî el-Karafî"
+      ],
+      "ar": [
+        "محمود بن محمد (أبي بكر) بن حامد، أبو الثناء، صفي الدين الأرمويالقرافي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:11820",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11820",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:22Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:22Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=11820 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:11820."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 723,
+    "start_ce": 1323,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11820, heading_ar=الصفي الأرموي || Ziriklī century_ce=14",
+  "active_in_places": [
+    "iac:place-00009493"
+  ],
+  "kunya": "أبو الثناء"
+}

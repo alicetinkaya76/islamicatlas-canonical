@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00008465",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Ibshītī",
+      "tr": "el-İbşîtî",
+      "ar": "الإبشيطي"
+    },
+    "originalScript": {
+      "ar": "الإبشيطي"
+    },
+    "description": {
+      "tr": "Şâfiî fakîh, ferz âlimi, hadise vâkıf, İbşît'te (Mısır'ın Muhalleseh kasabalarından) doğdu, el-Ezher",
+      "en": "A Shafi'i jurist, expert in Islamic jurisprudence of inheritance, knowledgeable in hadith, born in A"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ahmad b. Ismāʿīl b. Abī Bakr b. ʿUmar b. Buraidah, Shihāb al-Dīn al-Ibshītī"
+    },
+    "altLabel": {
+      "tr": [
+        "Ahmet b. İsmâîl b. Ebî Bekr b. Ömer b. Büreyde, Şihâbüddîn el-İbşîtî"
+      ],
+      "ar": [
+        "أحمد بن إسماعيل بن أبي بكر بن عمر ابن بريدة (بضم الباء وفتح الراءوسكون الياء) شهاب الدين الإبشيطي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:410",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=410",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:33Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=410 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:410."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 883,
+    "start_ce": 1478,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=410, heading_ar=الإبشيطي || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 24.47, 39.6"
+}

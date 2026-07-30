@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00005049",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Kusûrî",
+      "ar": "قصورى"
+    },
+    "originalScript": {
+      "ar": "قصورى"
+    },
+    "description": {
+      "tr": "1193 (1779) yılında doğdu. Asıl adı Ömer olup Dârende’nin Ayvalı bucağına bağlı Kızılcaşar köyündendir. Adı ilk defa Deliktaşlı Ruhsatî’nin bir manzumesinde, “Kusûrî’nin gözü benzer pınara” mısraında anılmıştır. Eflâtun Cem Güney ve M. Kaya Bilgegil’in yaptığı araştırmalar sonucunda Kusûrî’nin altı defa evlendiği, ailesiyle birlikte Anadolu’da ve Anadolu dışında çeşitli yerlerde dolaştığı tesbit edilmiştir. Uzunca bir süre imamlık yapan şair, zaman zaman bazı tanınmış kişilerin himayesine girmek zorunda kalmıştır. Hayatının sonlarına doğru Şarkışla’nın Altınyayla bucağına bağlı Güzeloğlan köyüne gelmiş ve yetmiş beş yaşlarında burada vefat etmiştir. Şiirlerinden maceralı, sıkıntılı ve ıstırap dolu bir hayat sürdüğü anlaşılan şairin hayatının son yıllarında tasavvufa yöneldiği anlaşılmaktadır. Daha sağlığında geniş bir çevrede şöhret kazandığı tahmin edilen Kusûrî şiirlerini genellikle koşma ve destan tarzında söylemiş, ancak divan edebiyatı etkisi altında zaman zaman divan, müstezad, gazel ve müseddesler de yazmıştır. Şiirlerinde yaşadığı dönemin ortak zevk, inanış ve düşüncelerini ustalıkla dile getiren şair daha çok aşk, sıla hasreti, devrinden şikâyet ve dünyanın oluşumundaki çeşitli sırlar üzerinde durmuştur. Kusûrî yer yer Âşık Ömer, Gevherî ve Karacaoğlan’ın etkisi altında kalmış, kendisi de başta Gürünlü İrfânî olmak üzere XIX. yüzyılda yaşayan Şürbî, Dârendeli Remzî, Tâlibî, Şevkî, Erzurumlu Emrah ve Ruhsatî gibi şairleri etkilemiştir. M. Kaya Bilgegil, Kusûrî’nin kendisinde bulunan bir cönkte mevcut doksan üç şiirini kısa bir incelemeyle birlikte yayımlamıştır (bk. bibl.). Kitapta ayrıca Kusûrî’nin oğlu Şürbî’ye ait on şiir bulunmaktadır. Vehbi Cem Aşkun, Kusûrî’nin elli kadar başka şiiri bulunduğunu açıklamışsa da bunlar neşredilmemiştir. Tezkirelerde asıl adı Ömer, mahlası Kusûrî olan ikinci bir şairden daha söz edilmektedir (ö. 1145/1732). Antep’te kadılık yapan şairin Farsça bilgisi yanında şiir ve inşâda da usta olduğu, Nâbî’nin eserlerini tahmis ve tanzir ettiği, ayrıca Şâhidî’nin Tuhfe-i Şâhidî ’sine bir tahmîsinin bulunduğu belirtilmektedir (İpekten v.dğr., s. 257). Bu madde TDV İslâm Ansiklopedisi’nin 2002 yılında Ankara’da basılan 26. cildinde, 467-468 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kusuri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kusuri, https://islamansiklopedisi.org.tr/kusuri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:35Z",
+    "modified": "2026-05-04T15:34:35Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kusuri (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1193,
+    "start_ce": 1779,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1268,
+    "start_ce": 1852,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kusuri, URL: https://islamansiklopedisi.org.tr/kusuri || DİA death-date string: (ö. 1268/1852 civarı) || DİA categories: şiir > tasavvuf || Chunk count: 1"
+}

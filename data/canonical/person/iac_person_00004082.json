@@ -1,0 +1,84 @@
+{
+  "@id": "iac:person-00004082",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN YERBÛ‘ eş-ŞENTERÎNÎ",
+      "ar": "ابن يربوع الشنتريني"
+    },
+    "originalScript": {
+      "ar": "ابن يربوع الشنتريني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdullāh b. Ahmed b. Saîd b. Süleymân b. Yerbû‘ eş-Şenterînî el-İşbîlî"
+      ]
+    },
+    "description": {
+      "tr": "444’te (1052) doğdu. Aslen Şenterînli (Santarem) olup Şentemeriyeli (Santaver) olduğu da söylenen (İbnü’l-Ebbâr, s. 212) İbn Yerbû‘ daha sonra Kurtuba’ya yerleşti ve “Kurtuba muhaddisi” diye tanındı. İbnü’d-Delâî, Ebû Ali el-Gassânî ve Buhârî’nin el-Câmiʿu’ṣ-ṣaḥîḥ ’inin Ebû Zer el-Herevî nüshasını kendisinden dinlediği Ebû Abdullah Muhammed b. Ahmed b. Îsâ b. Muhammed b. Manzûr el-Kaysî el-İşbîlî kendilerinden hadis dinleyip icâzet aldığı hocalarından bazılarıdır. Ebû Ca‘fer İbnü’l-Bâziş ile İbn Beşküvâl de onun meşhur iki talebesidir. Uzun süre yanından ayrılmadığı hocası Ebû Ali el-Gassânî onun bilgi ve zekâsını övmüş, İbn Beşküvâl de kendisini zabtı sağlam, güvenilir bir muhaddis, cerh ve ta‘dîl açısından hadis ricâlini iyi bilen bir âlim olarak tanıtmıştır ( eṣ-Ṣıla , I, 294). Zâhirî mezhebini benimseyen İbn Yerbû‘ 9 Safer 522’de (13 Şubat 1128) vefat etti ve Rabaz Kabristanı’na defnedildi. Pek çok kitap yazdığı belirtilen İbn Yerbû‘un kaynaklarda adı geçen bazı eserleri şunlardır: el-İḳlîd fî beyâni’l-esânîd , Tâcü’l-ḥilye ve sirâcü’l-buġye fî maʿrifeti esânîdi’l-Muvaṭṭaʾ , Lisânü’l-beyân ʿammâ fî kitâbi Ebî Naṣr el-Kelâbâẕî mine(’l-iġfâl ve)’n-nuḳṣân , el-Minhâc fî ricâli Müslim b. Ḥaccâc . Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 449 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-yerbu-es-senterini",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-yerbu-es-senterini, https://islamansiklopedisi.org.tr/ibn-yerbu-es-senterini",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:23Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:23Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-yerbu-es-senterini (1 chunks) by dia adapter (Hafta 4). Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Şenterînî; İşbîlî"
+  ],
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 522,
+    "start_ce": 1128,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-yerbu-es-senterini, URL: https://islamansiklopedisi.org.tr/ibn-yerbu-es-senterini || DİA death place: 522 || DİA death-date string: (ö. 522/1128) || DİA categories: hadis > mezhep || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002835",
+    "iac:person-00004113"
+  ],
+  "students": [
+    "iac:person-00003699",
+    "iac:person-00004142"
+  ]
+}

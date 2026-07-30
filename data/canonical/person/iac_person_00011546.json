@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00011546",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Muntakhab",
+      "tr": "el-Muntahab",
+      "ar": "المنتخب"
+    },
+    "originalScript": {
+      "ar": "المنتخب"
+    },
+    "description": {
+      "tr": "Nahiv ve aruz âlimi, Bağdat halkındandır.",
+      "en": "A grammarian and prosodist from the people of Baghdad."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Sālim b. Aḥmad b. Sālim al-Tamīmī"
+    },
+    "altLabel": {
+      "tr": [
+        "Sâlim b. Ahmed b. Sâlim et-Temîmî"
+      ],
+      "ar": [
+        "سالم بن أحمد بن سالم التميمي، أبو المرجى، المعروف ب المنتخب"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:3851",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=3851",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:01Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=3851 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:3851."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 611,
+    "start_ce": 1215,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=3851, heading_ar=المنتخب || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
+  "kunya": "أبو المرجى"
+}

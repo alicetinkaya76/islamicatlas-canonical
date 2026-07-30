@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00019771",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Philby",
+      "tr": "Filbî",
+      "ar": "فلبي"
+    },
+    "originalScript": {
+      "ar": "فلبي"
+    },
+    "description": {
+      "tr": "İngiliz müsteşrik, Arap yarımadasını bilimsel olarak en çok tanıyan yazarlardan.",
+      "en": "A British Orientalist, one of the most knowledgeable writers on the Arabian Peninsula."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Harry St. John Philby or al-Hajj ʿAbdullah Philby"
+    },
+    "altLabel": {
+      "tr": [
+        "Harî Sent Cohn Filbî veya el-Hâc Abdullah Filbî"
+      ],
+      "ar": [
+        "هاري سانت جون فلبي، أو الحاج عبد الله فلبي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:12963",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=12963",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:philby-harry-st-john-bridger",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/philby-harry-st-john-bridger",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:36Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=12963 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:12963."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1380,
+    "start_ce": 1960,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=12963, heading_ar=فلبي || Ziriklī century_ce=20 || Ziriklī place coords (city/region of activity): 33.89, 35.5",
+  "active_in_places": [
+    "iac:place-00002352",
+    "iac:place-00006893"
+  ]
+}

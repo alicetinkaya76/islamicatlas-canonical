@@ -1,0 +1,52 @@
+{
+  "@id": "iac:person-00025631",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "HAlidID E"
+    },
+    "description": {
+      "en": "HAlidID E, al-^Abb.vs Abu hlUHAMMAD, bom\nin 223 (837), died 31 1 (923), according to the\nsatirist Ibn Bassam, in early life a waterseller\nand vendor of pomegranates, was one of the\nablest financiers o",
+      "tr": "[HALİD İBN BARMEK] HALİD İBN BARMEK, el-Abbas Ebû Muhammed, 223'te (837 M.) doğdu, 311'de (923 M.) öldü, hicivci İbn Bessam'a göre, gençliğinde su satıcısı ve nar satıcısıydı, en yetenekli maliyecilerden biriydi."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "death_temporal": {
+    "start_ce": 923,
+    "approximation": "exact"
+  },
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "ei1:6868",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 2, p. 58",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936), digitized/structured ei1_lite v-repo; OCR-derived — noise possible"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_ei1",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-07-10T15:42:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-07-10T15:42:10Z",
+    "modified": "2026-07-10T15:42:10Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-07-10T15:42:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization by canonicalize_person_ei1 v0.1.0 (H10 Stage 4; Tier-2 kind=new, dated)."
+      }
+    ],
+    "deprecated": false
+  }
+}

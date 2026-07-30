@@ -1,0 +1,109 @@
+{
+  "@id": "iac:person-00000493",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. BÜDEYL",
+      "ar": "عبد الله بن بديل"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن بديل"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdullāh b. Büdeyl b. Verkā’ el-Huzâî",
+        "Abdullâh b. Bedîl b. Varkâ el-Huzâî"
+      ],
+      "ar": [
+        "عبد الله بن بديل بن ورقاء الخزاعي"
+      ]
+    },
+    "description": {
+      "tr": "Huzâa kabilesinin son reisi olup Mekke fethi sırasında veya fetihten önce müslüman olduğu rivayet edilmektedir. Huneyn, Tâif ve Tebük seferlerine katıldı. Halife Osman devrinde Abdullah b. Âmir’le birlikte İsfahan halkıyla anlaşma yaptı. Sıffîn Savaşı’nda Hz. Ali taraftarı olarak sağ kanattaki piyadelere kumanda etti ve tesirli konuşmasıyla taraftarlarına cesaret verdi. Bir ara Muâviye’nin çadırına kadar sokulduysa da etrafı sarılarak öldürüldü. Savaştan sonra Şamlılar’dan kendisini tanıyan çıkmayınca, cesaret ve kahramanlığına hayran kalmış olan Muâviye bizzat gelerek Abdullah’ı teşhis etti ve “Huzâalılar’ın erkekleri bir yana, kadınları bile fırsat bulsa bizimle savaşmaktan geri kalmaz” demek suretiyle takdir duygularını ifade etti. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 89 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "Companion (of the Prophet)"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbdullāh b. Badīl b. Warqāʾ al-Khuzāʿī"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-budeyl",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-budeyl, https://islamansiklopedisi.org.tr/abdullah-b-budeyl",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:5827",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5827, heading_ar=عبد الله بن بديل",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-b-budeyl",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-b-budeyl",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-budeyl (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5827]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5827 (heading_ar=عبد الله بن بديل) via Track A (DİA→Alam xref bridge). dt=Sahâbî"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+translit from alam_detail.json el-alam:5827."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Huzâî"
+  ],
+  "death_temporal": {
+    "start_ah": 37,
+    "start_ce": 657,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-budeyl, URL: https://islamansiklopedisi.org.tr/abdullah-b-budeyl || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5827] || DİA death-date string: (ö. 37/657) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5827, heading_ar=عبد الله بن بديل, dt=Sahâbî"
+}

@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00000530",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. MUTÎ‘",
+      "ar": "عبد الله بن المطيع"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن المطيع"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdullāh b. el-Mutî‘ b. Esved el-Kureşî el-Adevî"
+      ]
+    },
+    "description": {
+      "tr": "Medine’de doğdu. İlk siyasî faaliyetlere Muâviye devrinde başladı ve onun Ziyâd’ı Medine’ye vali tayin etmesine şiddetle karşı çıktı. Bu hareketiyle Emevî taraftarlarını çok öfkelendirdi, bu yüzden ağır itham ve hakaretlere mâruz kaldı. Yezîd b. Muâviye’ye biat meselesi tartışılırken halkı kışkırtmasından endişe edildiği için Medine’de hapsedildi; fakat başta Abdullah b. Ömer olmak üzere Adî kabilesi mensupları buna şiddetle itiraz edince hapisten çıkarıldı. Hz. Hüseyin’i Kûfe’ye gitmekten vazgeçirmeye çalıştıysa da başaramadı. Yezîd’in halifeliğine tepki göstererek Medine’yi terketmek istedi. Ancak, İbn Ömer’in, bir halifeye biat etmeden ölenlerin Câhiliye ölümüyle (dinden çıkmış olarak) dünyayı terketmiş olacaklarını ifade eden hadisi hatırlatması üzerine Medine’de kalarak Yezîd aleyhindeki faaliyetlerine devam etti; bir kısım halkın Mekke’de halifeliğini ilân eden Abdullah b. Zübeyr’e biat etmesini sağladı. Harre Vak‘ası’nda Emevîler’e karşı savaştı (683). Medine müdafaası sırasında halkı cesaretlendirmek için okuduğu hutbe meşhurdur. Emevîler Medine’yi ele geçirince İbnü’z-Zübeyr’in yanına giderek Mekke’yi kuşatan Emevî birliklerine karşı onun safında kahramanca savaştı. 65 (684-85) yılında İbnü’z-Zübeyr tarafından Kûfe’ye vali tayin edildi. Burada halkı İbnü’z-Zübeyr aleyhine kışkırtarak Muhammed b. Hanefiyye’ye biata davet eden Muhtâr es-Sekafî’nin faaliyetlerinden ve tayin ettiği emîrü’ş-şurtayı (bk. ŞURTA ) öldürmesinden dolayı endişeye kapıldı ve Kûfe’yi terkedip Mekke’ye döndü (66/685-86). Haccâc b. Yûsuf Mekke’yi muhasara ettiği sırada yaralandı ve İbnü’z-Zübeyr’den kısa bir müddet önce öldü. Babası yoluyla rivayet ettiği bilinen tek hadis Müslim’in Ṣaḥîḥ ’inde (“Cihâd”, 88), Dârimî’nin es-Sünen ’inde (“Diyât”, 24) ve Ahmed b. Hanbel’in el-Müsned ’inde (III, 413; IV, 213) yer almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 122 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-muti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-muti, https://islamansiklopedisi.org.tr/abdullah-b-muti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-b-muti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-b-muti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-muti (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Adevî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 74,
+    "start_ce": 693,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-muti, URL: https://islamansiklopedisi.org.tr/abdullah-b-muti || DİA birth place: Medine || DİA death-date string: (ö. 74/693) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

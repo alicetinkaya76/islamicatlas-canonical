@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00009035",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Qumūlī",
+      "tr": "Kumûlî",
+      "ar": "القمولي"
+    },
+    "originalScript": {
+      "ar": "القمولي"
+    },
+    "description": {
+      "tr": "Mısırlı Şâfiî fakihi, Mısır Sa'îdi'nde (Kumûle) halkından",
+      "en": "Egyptian Shāfiʿī jurist, from the people of (Qumūla) in Upper Egypt"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Aḥmad b. Muḥammad b. Abī al-Ḥarm al-Quršī al-Makhzūmī, Najm al-Dīn al-Qumūlī"
+    },
+    "altLabel": {
+      "tr": [
+        "Ahmed b. Muhammed b. Ebî'l-Harm el-Kuršî el-Mahzûmî, Necmüddin el-Kumûlî"
+      ],
+      "ar": [
+        "أحمد بن محمد بن أبي الحرم القرشي المخزومي، نجم الدين القمولي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:1081",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1081",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:39Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=1081 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1081."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 727,
+    "start_ce": 1327,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1081, heading_ar=القمولي || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+  "kunya": "نجم الدين"
+}

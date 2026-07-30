@@ -1,0 +1,101 @@
+{
+  "@id": "iac:person-00003980",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN NÜCEYM, Sirâceddin",
+      "ar": "سراج الدين ابن نجيم"
+    },
+    "originalScript": {
+      "ar": "سراج الدين ابن نجيم"
+    },
+    "altLabel": {
+      "tr": [
+        "Sirâcüddîn Ömer b. İbrâhîm b. Muhammed el-Mısrî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Büyük dedesi Nüceym’e nisbetle İbn Nüceym lakabıyla anılır. Kaynaklar, hocalarından sadece ağabeyi Zeynüddin İbn Nüceym’in adını zikretmektedir. İbn Nüceym ilmî birikimi, titizliği, sade ve akıcı üslûbu sayesinde karmaşık meselelerle ağdalı fıkhî metinleri anlaşılır hale getirmekte maharet sahibiydi. Yaşadığı devirde devlet adamları, ulemâ ve halkın sevgisini kazandı. Cemâziyelevvel 993’te (Mayıs 1585) tamamladığı el-ʿİḳdü’l-cevher adlı risâlesinin başındaki bir ifadesinden o tarihlerde Şeyhûniyye Medresesi’nde ders verdiği anlaşılmaktadır (Şeşen, II, 230). 6 Rebîülevvel 1005 (28 Ekim 1596) tarihinde Kahire’de vefat etti ve ağabeyinin Seyyide Sekîne hazîresindeki kabrinin yanına defnedildi. Eserleri. 1. en-Nehrü’l-fâʾiḳ . Hanefî mezhebinin temel fıkıh kitaplarından olan Ebü’l-Berekât en-Nesefî’ye ait Kenzü’d-deḳāʾiḳ ’ın en önemli şerhlerinden biri olup birçok yazma nüshası günümüze ulaşmıştır (bk. KENZÜ’d-DEKĀİK ). 2. İcâbetü’s-sâʾil . Tarsûsî Necmeddin Efendi’nin yargı hukukuna dair Enfaʿu’l-vesâʾil adlı eserinin muhtasarı olan kitap Brockelmann tarafından ağabeyi Zeynüddin İbn Nüceym’e nisbet edilmiştir ( GAL Suppl. , II, 87, 427). 3. Tetimme fi’l-furûḳ mine’l-Eşbâh ve’n-neẓâʾir . Zeynüddin İbn Nüceym’in meşhur eserinin altıncı bölümünü oluşturan “el-Furûḳ”u tamamlayan bir çalışmadır. Ahmed b. Muhammed el-Hamevî’nin el-Eşbâh ve’n-neẓâʾir şerhi Ġamzü ʿuyûni’l-beṣâʾir ile birlikte yapılan baskılarında (İstanbul 1290; Beyrut 1405/1985) nâşir tarafından Sirâceddin İbn Nüceym’e atfedilmiştir. el-Eşbâh ve’n-neẓâʾir ’in Dımaşk baskısının (1403/1983) nâşiri Muhammed Mutî‘ el-Hâfız da esere yazdığı mukaddimede (s. 10) Sirâceddin İbn Nüceym’e nisbet ettiği Tetimme ’yi altıncı bölümün sonuna eklemiş, baş tarafına koyduğu açıklamada ise İbn Âbidîn’in bu kısmın Zeynüddin İbn Nüceym’e ait olduğu yönündeki iddiasına dikkat çekmiştir (s. 493). Brockelmann ise eseri Zeynüddin İbn Nüceym’e nisbet etmektedir ( GAL , II, 401; ayrıca bk. el-EŞBÂH ve’n-NEZÂİR ). 4. el-ʿİḳdü’l-cevher fi’l-kelâm ʿalâ sûreti’l-Kevs̱er (Köprülü Ktp., Fâzıl Ahmed Paşa, nr. 1582/3, vr. 73-94) (bu eserlerin yazma nüshaları için bk. Brockelmann, GAL , II, 252, 401; Suppl. , II, 87, 266, 427; Şeşen, I, 266, 287-288; II, 230). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 235-236 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-nuceym-siraceddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-nuceym-siraceddin, https://islamansiklopedisi.org.tr/ibn-nuceym-siraceddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-nuceym-siraceddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-nuceym-siraceddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:21Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:21Z",
+    "modified": "2026-07-14T13:16:09Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-nuceym-siraceddin (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-nuceym-siraceddin)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mısrî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 1005,
+    "start_ce": 1596,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-nuceym-siraceddin, URL: https://islamansiklopedisi.org.tr/ibn-nuceym-siraceddin || DİA death place: Kahire || DİA death-date string: (ö. 1005/1596) || DİA categories: fıkıh > kelâm > mezhep || Chunk count: 1",
+  "death_place": "iac:place-00009399",
+  "active_in_places": [
+    "iac:place-00009399"
+  ]
+}

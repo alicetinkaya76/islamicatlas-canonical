@@ -1,0 +1,84 @@
+{
+  "@id": "iac:person-00001209",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Avni Ömer Efendi"
+    },
+    "description": {
+      "tr": "Babasının adı Mustafa’dır. Ailesi ve tahsili hakkında fazla bilgi yoktur. Dîvân-ı Hümâyun Kalemi’nden yetişti. İmam Mehmed Efendi’den hat dersleri alarak sülüs ve nesih yazıda maharet kazandı. Dîvân-ı Hümâyun kâtipliği ve reîsülküttaplık yaptı; nişancılık pâyesiyle emekli oldu. Halvetiyye şeyhlerinden Cihangirî Hasan Efendi’ye intisap eden Avni Ömer Efendi’nin İstanbul Kabataş’ta set üstünde inşa ettirdiği bir cami ve mektebi vardır. Mezarı yaptırdığı caminin mihrabı önündedir. Avni Ömer Efendi Osmanlı toprak sistemi ve taksimatı hakkında Kānûn-ı Osmânî Mefhûm-i Defter-i Hâkānî adıyla bir eser kaleme alarak bunu devrin padişahı IV. Murad’a takdim etmiştir. Sade bir dille yazılan eser mukaddime, asıl metin ve kısa bir hâtimeden meydana gelmektedir. Müellif mukaddimede arazi hakkında genel bilgiler vererek kendi zamanında şehir ve köylerde halkın işlediği arazinin hukukî statüsü (öşrî, harâcî, mülk, mîrî vb.) üzerinde durmakta, Osmanlı ülkesinde bu statüde olan yerlerden örnekler vermektedir. Metin kısmında ise Osmanlı ülkesindeki toprakları haslar, mâlikâne, evkaf, arpalık, ocaklık, zeâmet ve timarlar, tekaüt timarları, yurtluk timarlar, mâlikâne timarlar, münâvebe timarları, geri hizmet timarları, canbâzân ve garîbân timarları, voynuk beyleri ve çeribaşı timarları, yund ocaklar, timarlı kale muhafızları, müsellem timarları, hassa av kuşları timarı, ashâb-ı derek timarı, derbendci timarları, atçeken timarları, hıristiyan timarları, baştinalar olmak üzere yirmi beş kısma ayırarak her birinin hangi hizmetlere tahsis edildiği, aralarındaki farklar ve yer yer uygulamada aldığı şekiller hakkında bilgi vermektedir. Ayrıca toprak sistemi ve toprağa tasarruf edenlerle ilgili çeşitli terimleri de açıklamaktadır. Hâtimede ise eserin dilinin sadeliğine ve IV. Murad adına yazıldığına temas edilmektedir. Osmanlı toprak sistemi konusunda önemli bir kaynak olan eserin asıl değeri, XVII. yüzyılda bu konuda yazılmış diğer kaynaklarla mukayese edildikten sonra daha iyi anlaşılacaktır. Eserin bir nüshası Süleymaniye Kütüphanesi’nde (Yahyâ Tevfik, nr. 1578/278) bulunmaktadır. Uzunçarşılı kendi özel kütüphanesindeki istinsah edilmiş bir nüshayı Belleten’de yayımlamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 124-125 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:avni-omer-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=avni-omer-efendi, https://islamansiklopedisi.org.tr/avni-omer-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:avni-omer-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/avni-omer-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=avni-omer-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1070,
+    "start_ce": 1659,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=avni-omer-efendi, URL: https://islamansiklopedisi.org.tr/avni-omer-efendi || DİA death-date string: (ö. 1070/1659) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004468"
+  ]
+}

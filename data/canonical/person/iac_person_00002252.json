@@ -1,0 +1,115 @@
+{
+  "@id": "iac:person-00002252",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ SA‘D el-BAĞDÂDÎ",
+      "ar": "أبو سعد البغدادي"
+    },
+    "originalScript": {
+      "ar": "أبو سعد البغدادي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Sa‘d Ahmed b. Muhammed b. Ahmed el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "Safer 463’te (Kasım 1070) İsfahan’da doğdu. Vaazları ile meşhur olan ve İbnü’l-Bağdâdî diye tanınan babası Muhammed Bağdat’tan gelip buraya yerleşmiş bir âlimdi. İlk tahsilini İsfahan’da yaptı. Babasından başka şehrin ileri gelen muhaddislerinden Ebü’l-Kāsım İbn Mende, kardeşi Ebû Amr İbn Mende, İbn Mâce el-Ebherî, Süleyman b. İbrâhim ve daha başka âlimlerden faydalandı. On altı yaşına gelince tahsilini ilerletmek üzere Bağdat’a gittiğinde (479/1086), talebesi olmayı çok istediği hadis âlimi ve zâhid Ebû Nasr ez-Zeynebî’nin cenazesiyle karşılaştı. Burada Âsım b. Hasan el-Âsımî, Ebû Abdullah Mâlik b. Ahmed el-Bâniyâsî gibi âlimlerden hadis rivayet etti. Kendisinden de İbn Nâsır es-Selâmî, Abdülkerîm b. Muhammed es-Sem‘ânî, Ebü’l-Kāsım İbn Asâkir, Ebû Mûsâ el-Medînî ve Ebü’l-Ferec İbnü’l-Cevzî gibi tanınmış âlimler rivayette bulundular. Talebesi Horasanlı meşhur âlim Abdülkerîm es-Sem‘ânî, kendisinden güvenilir hadis hâfızı diye söz ettiği hocası hakkında bilgi verirken onun Ṣaḥîḥ-i Müslim ’i ezbere bildiğini ve talebelerine imlâ ettiği hadisleri ezbere yazdırdığını belirtmekte, hac maksadıyla gittiği Mekke’de ve Medine’de kalabalık talebe gruplarına hadis yazdırırken kendisinin de orada bulunduğunu ve bu sırada ona müstemlîlik ettiğini söylemektedir. Sem‘ânî, hocasının kendisinden hadis yazdığını da zikretmektedir. Ebû Sa‘d, on birinci hac yolculuğundan dönerken 540 yılı Rebîülevvel ayında (Eylül 1145) Nihâvend’de vefat etti. Cenazesi İsfahan’a götürülerek orada defnedildi. Ebû Sa‘d el-Bağdâdî, Selef âlimlerinin yolunda ve sünnete uygun tarzda yaşamaya gayret eden, insanlara iyilik etmeyi seven, resmiyetten hoşlanmayan, mütevazi, güzel ahlâklı ve müttaki bir âlimdi. Bağdat’ta bulunduğu sırada bir tanıdığından 10 dinar borç almıştı. Bu zat, Selçuklu Sultanı Melikşah’ın torunu Mes‘ûd b. Muhammed Tapar’ı ziyarete gittiğinde Ebû Sa‘d’ın maddî sıkıntı içinde olduğunu haber verdi. Sultan Mes‘ûd onun vasıtasıyla Ebû Sa‘d’a 500 dinar gönderdiyse de o bu parayı kabul etmedi. Ebû Sa‘d’ın bir özelliği de Abdülkerîm es-Sem‘ânî, İbn Asâkir ve Ebû Mûsâ el-Medînî gibi âlimlere hocalık yapmış olan ablası Fâtıma bint el-Bağdâdî gibi vaazlarıyla ünlü olmasıydı. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 218 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-sad-el-bagdadi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-sad-el-bagdadi, https://islamansiklopedisi.org.tr/ebu-sad-el-bagdadi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-sad-el-bagdadi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-sad-el-bagdadi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-sad-el-bagdadi (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 540,
+    "start_ce": 1145,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-sad-el-bagdadi, URL: https://islamansiklopedisi.org.tr/ebu-sad-el-bagdadi || DİA birth place: İsfahan || DİA death place: Nihâvend || DİA death-date string: (ö. 540/1145) || DİA categories: hadis > rivayet > sünnet || Chunk count: 1",
+  "death_place": "iac:place-00012204",
+  "active_in_places": [
+    "iac:place-00012204"
+  ],
+  "teachers": [
+    "iac:person-00003938",
+    "iac:person-00006522"
+  ],
+  "students": [
+    "iac:person-00007133"
+  ]
+}

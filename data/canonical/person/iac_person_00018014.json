@@ -1,0 +1,114 @@
+{
+ "@id": "iac:person-00018014",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ḥākim Shāh",
+   "tr": "Hâkim Şâh",
+   "ar": "حكيم شاه"
+  },
+  "originalScript": {
+   "ar": "حكيم شاه"
+  },
+  "description": {
+   "tr": "Araştırmacı, kendisine ait kitapları vardır; bunlardan (Medâru'l-Fuhûl fî Şerhi Menâri'l-Vusûl - yaz",
+   "en": "Researcher with books, including (Madār al-Fuhūl fī Sharḥ Manār al-Wusūl - ms.) both belonging to hi",
+   "ar": "شاه، \"الملك\"."
+  },
+  "altLabel": {
+   "en": [
+    "SHAH"
+   ],
+   "tr": [
+    "Muhammed b. Mübarek Şâh b. Muhammed el-Herevî es-Sünbülî el-Hanefî, Şemsüddin, Hâkim Şâh el-Kazvînî"
+   ],
+   "ar": [
+    "محمد بن مبارك شاه بن محمد الهروي ثم الرومي الحنفي، شمس الدين، حكيم شاه القزويني"
+   ]
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muhammad b. Mubārak Shāh b. Muhammad al-Haravī al-Sunnubulī al-Ḥanafī, Shams al-Dīn, Ḥākim Shāh al-Qazvīnī"
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:11037",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11037",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "ei1:4978",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "EI1 vol. 4, p. 13",
+    "extraction_method": "ocr",
+    "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:37:12Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:37:12Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:37:12Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=11037 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:26Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T15:44:36Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "ei1 augment (H10 Stage 4, Tier-2 conf 0.99): gap-filled ['description.ar', 'altLabel.en']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:11037."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3069-18014) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003069 lehine yumuşak-silindi. Gerekçe: \"Hakîm Şah\" gibi ayırt edici bir unvan-ad birleşimi, 1522/1523 yılı ve tabip-âlim profili (tıp yanında tefsir-hadis) aynı şahsa işaret ediyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003069"
+ },
+ "death_temporal": {
+  "start_ah": 928,
+  "start_ce": 1522,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11037, heading_ar=حكيم شاه || Ziriklī century_ce=16 || Ziriklī place coords (city/region of activity): 34.35, 62.2",
+ "active_in_places": [
+  "iac:place-00009612",
+  "iac:place-00012668"
+ ]
+}

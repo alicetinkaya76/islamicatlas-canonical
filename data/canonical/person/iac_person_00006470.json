@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00006470",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Rûnî",
+      "ar": "رونى"
+    },
+    "originalScript": {
+      "ar": "رونى"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Ferec b. Mes‘ûd-i Rûnî"
+      ]
+    },
+    "description": {
+      "tr": "Bülferec diye de bilinir. Nisbesiyle tanındığı Rûne’nin Nîşâbur, Horasan veya Lahor yakınlarında bulunduğu ileri sürülmekte, ailesinin Lahor’a yerleştiği ve Rûnî’nin orada büyüdüğü kabul edilmektedir. Gazne sarayında yetişti. Gazneli Sultanı İbrâhim b. Mes‘ûd’u öven kasidelerinin çokluğundan onun bu hükümdar zamanında (1059-1099) şöhret kazandığı anlaşılmaktadır. Ancak daha önce Sultan İbrâhim’in oğlu Hindistan Valisi Seyfüddevle Mahmud’un Lahor’daki sarayında yükseldi ve 460 (1068) yılından sonra Gazne sarayına geçti. III. Mesud’u (1099-1115) öven kasideleri İbrâhim’den sonra da sarayda kaldığını gösterir. Rûnî, dönemin şairlerinden öğrencisi Mes‘ûd-i Sa‘d-i Selmân ile iyi bir dostluk kurdu. Mes‘ûd’un bir şiirinde Rûnî’den sitayişle bahsetmesinin onun zindana atılmasına sebep olduğu ileri sürülürse de genellikle Mes‘ûd-i Sa‘d’ın övdüğü kişinin şair Ebü’l-Ferec-i Rûnî değil Lahor Valisi Ebü’l-Ferec olduğu kabul edilmektedir. Rûnî’nin bir ara divan işlerinde çalıştığı bilinmektedir. Fakat kendisini çekemeyenler yüzünden bu işten uzaklaştırıldı ve bundan dolayı zaman zaman sıkıntılı günler yaşadı. Vefat tarihi belli olmayan Rûnî’nin III. Mesud’a kasideler sunmasına ve 500 (1107) yılından 508’e (1115) kadar süren Kannevc fethini bir kasideyle anlatmasına bakarak bu tarihlerden sonra öldüğü tahmin edilebilir. Rûnî’nin çoğunlukla kasidelerden oluşan, ayrıca rubâî ve gazellerinin yer aldığı divanı günümüze ulaşmıştır. Avfî’nin Lübâbü’l-elbâb ’ında ve Şems-i Kays’ın el-Muʿcem ’inde divanın nüshalarında yer almayan bazı beyitleri de bulunmaktadır. Kasidelerinin çoğunu Gazneli Sultanı İbrâhim’e ve oğlu III. Mesud’a ithaf eden, diğer oğlu Seyfüddevle Mahmud için dokuz kaside yazan Rûnî şiirde asıl ustalığını bu türde göstermiştir; fakat rubâîleri de önemlidir ve Ömer Hayyâm’ın bunlardan etkilendiği söylenir. Evhadüddîn-i Enverî, Zâhir-i Fâryâbî, Örfî-i Şîrâzî ve Feyzî-i Hindî onun şiirlerini örnek alan şairler arasındadır. Rûnî’nin divanı ilk defa Hindistan’da basılmış (Bombay 1320/1902), daha sonra Rus şarkiyatçısı K. I. Chaykin (Tahran 1304 hş.) ve Mahmud Mehdevî tarafından (Meşhed, ts.) yayımlanmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2008 yılında İstanbul’da basılan 35. cildinde, 245 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:runi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=runi, https://islamansiklopedisi.org.tr/runi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:51Z",
+    "modified": "2026-05-04T15:34:51Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=runi (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 460,
+    "start_ce": 1068,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 500,
+    "start_ce": 1107,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=runi, URL: https://islamansiklopedisi.org.tr/runi || DİA death-date string: (ö. 500/1107’den sonra) || Chunk count: 1"
+}

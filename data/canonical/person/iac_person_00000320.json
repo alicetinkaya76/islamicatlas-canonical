@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00000320",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Hamzah Fansuri",
+      "tr": "Hamza Fansûrî",
+      "ar": "حمزة الفنصوري"
+    },
+    "originalScript": {
+      "ar": "حمزة الفنصوري"
+    },
+    "altLabel": {
+      "en": [
+        "Hamzah ibn Abd Allah al-Fansuri"
+      ],
+      "tr": [
+        "Hamza b. Abdullah el-Fansûrî"
+      ],
+      "ar": [
+        "حمزة بن عبد الله الفنصوري"
+      ]
+    },
+    "description": {
+      "tr": "İbnü'l-Arabî'nin vahdet-i vücûd felsefesini Malay edebî eserler aracılığıyla Güneydoğu Asya'ya aktardı || Açe sarayında Malay-İslam entelektüel geleneğinin öncüsü || [Tarih notu] Eserleri er-Rânirî tarafından yakıldı ama yazma nüshalar halinde günümüze ulaştı",
+      "en": "Transmitted Ibn Arabi's wahdat al-wujud philosophy to Southeast Asia through Malay literary works || Pioneer of Malay-Islamic intellectual tradition in the Acehnese court || [Historiographical note] His works were burned by al-Raniri but survived in manuscript copies; now foundational to Malay literary studies",
+      "ar": "نقل فلسفة وحدة الوجود لابن عربي إلى جنوب شرق آسيا || رائد التقليد الفكري الملايو-الإسلامي || [Historiographical note] أحرق الرانيري أعماله لكنها نجت في نسخ مخطوطة"
+    }
+  },
+  "profession": [
+    "philosopher",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0138",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0138",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:52Z",
+    "modified": "2026-05-04T14:58:52Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0138 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1550,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1610,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0138, lecture_week=n/a. || Key works: {'title': {'en': 'Asrār al-ʿĀrifīn (Secrets of the Gnostics)', 'tr': \"Esrârü'l-Ârifîn\", 'ar': 'أسرار العارفين'}, 'year': 1590, 'field': 'philosophy', 'significance': {'en': \"First systematic Sufi philosophical text in Malay, spreading Ibn Arabi's thought to SE Asia\", 'tr': \"Malayca ilk sistematik sûfî felsefe metni; İbnü'l-Arabî düşüncesini Güneydoğu Asya'ya yaydı\", 'ar': 'أول نص فلسفي صوفي منهجي بالملايوية'}} || Modern parallel: Like an open-source evangelist adapting complex frameworks for new ecosystems",
+  "authored_works": [
+    "iac:work-00000179"
+  ]
+}

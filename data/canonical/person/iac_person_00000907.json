@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00000907",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALÂ b. HADRAMÎ",
+      "ar": "العلاء بن الحضرمي"
+    },
+    "originalScript": {
+      "ar": "العلاء بن الحضرمي"
+    },
+    "altLabel": {
+      "tr": [
+        "el-Alâ’ b. Abdillâh b. İmâd el-Hadramî"
+      ],
+      "ar": [
+        "العلاء ابن الحضرمي"
+      ]
+    },
+    "description": {
+      "tr": "Babası Abdullah Hadramut’tan gelerek Mekke’ye yerleşmiştir. Alâ Mekke’de doğdu ve erken tarihlerde müslüman oldu. Okuma yazma bildiği için zaman zaman Hz. Peygamber’e kâtiplik yapmıştır. Hz. Peygamber onu İslâmiyet’i tebliğ etmek, zekât, sadaka ve cizye toplamak üzere 630 yılında Bahreyn ve Uman’a gönderdi. Alâ Hz. Peygamber’in mektubunu Bahreyn Valisi Münzir b. Sâvâ’ya verdi ve ona Mecûsîliği bırakıp İslâmiyet’i kabul etmesini tavsiye etti. İslâmiyet’in hem dünya işlerini, hem de âhiret hayatını birlikte ele almasına hayran kaldığını söyleyen Münzir’in Hz. Peygamber’le birkaç defa daha mektuplaştığı ve sonunda müslüman olduğu anlaşılmaktadır. Bu bölgedeki başarıları sebebiyle Hz. Peygamber Alâ b. Hadramî’yi Bahreyn’e vali tayin etti. Bazı kaynaklarda Alâ’nın bu görevi Hz. Peygamber’in hayatı boyunca sürdürdüğü zikredilirken diğer bazı kaynaklar daha sonra onun yerine Resûlullah’ın Ebân b. Saîd’i tayin ettiğini kaydederler. Hz. Ebû Bekir devrinde ortaya çıkan irtidad olayları sırasında Bahreyn’e yeniden vali tayin edilen Alâ, mürtedleri bozguna uğratarak büyük başarı kazandı. Bölgede emniyet ve huzuru sağladıktan sonra İran topraklarında fütuhata girişti ve birçok yeri fethetti. Bu sırada Fars bölgesine bir çıkarma harekâtı düzenlediyse de bu ilk deniz seferi yenilgiyle sonuçlandı (638). Hz. Ömer bozguna uğrayan İslâm ordusunu imha edilmekten kurtarmak için bölgeye yardımcı birlikler göndermek zorunda kaldı ve kendisinden izinsiz giriştiği bu harekât sebebiyle Alâ’yı Bahreyn valiliğinden azlederek yerine Ebû Hüreyre’yi tayin etti. Alâ hac farîzasını yerine getirip Kûfe’ye dönerken yolda öldü. Hz. Peygamber’den rivayet ettiği dört hadis Kütüb-i Sitte ’de yer almıştır. Alâ’nın duaları makbul bir sahâbî olduğu rivayet edilmekte ve kaynaklarda bununla ilgili bazı menkıbeler yer almaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 310 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ala-b-hadrami",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ala-b-hadrami, https://islamansiklopedisi.org.tr/ala-b-hadrami",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ala-b-hadrami",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ala-b-hadrami",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:6886",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6886, heading_ar=العلاء ابن الحضرمي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ala-b-hadrami (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6886]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6886 (heading_ar=العلاء ابن الحضرمي) via Track A (DİA→Alam xref bridge). dt=Sahâbî, İslâm'ın başlangıcında fetihler döneminin önemli şahsiyetlerinden biri."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hadramî"
+  ],
+  "death_temporal": {
+    "start_ah": 21,
+    "start_ce": 642,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ala-b-hadrami, URL: https://islamansiklopedisi.org.tr/ala-b-hadrami || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6886] || DİA birth place: Mekke || DİA death-date string: (ö. 21/642) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6886, heading_ar=العلاء ابن الحضرمي, dt=Sahâbî, İslâm'ın başlangıcında fetihler döneminin önemli şahsiyetlerinden biri."
+}

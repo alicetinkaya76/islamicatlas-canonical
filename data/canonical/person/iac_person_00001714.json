@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00001714",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CASANOVA, Paul"
+    },
+    "description": {
+      "tr": "Orléansville’de doğdu. 1920’den itibaren Collège de France’da Arapça dersleri vermeye başladı. Daha sonra Mısır’a gitti ve Mısır (Kahire) Üniversitesi tarafından Arap Dili Felsefesi (Fıkhü’l-lugati’l-Arabiyye) Kürsüsü’nde profesör olarak görevlendirildi (1925). Ertesi yıl Kahire’de öldü. Eserleri. 1. Inventaire Sommaire de la Collection des Monnaies Musulmanes (Paris 1896). Bibliothèque Nationale’de bulunan ve daha önce Henri Lavoix’nın üzerinde çalışma yaptığı İslâmî paralar katalogudur. 2. Mohammed et la Fin du Monde (Paris 1911). İslâm akaidine göre kıyamet konusunun işlendiği bir eserdir. Casanova ayrıca Makrîzî’nin el-Ḫıṭaṭ ’ının coğrafya ile ilgili kısımlarını U. Bouriant ile birlikte Description topographique et historique de l’Égypte adıyla Fransızca’ya çevirerek cüzler halinde yayımlamıştır ( Mémoires publiés par les membres de l’Institut Français d’Archéologie Orientale du Caire , Le Caire 1893-1920). Makalelerinden bazıları da şunlardır: “Etude sur les inscriptions arabes des poids et mesures en verre”, BIE , seri 3, II (1891), s. 89-121; “Notes de numismatique himyarite”, Revue Numismatique , seri 3, XI (Paris 1893), s. 176-189; “Monnaie des Assassins de Perse”, a.e. , seri 2, XI (1893), s. 343-352; “Monnaie du Chef des Zendj (264 hégire=877-878), a.e. , seri 3, XI (1893), s. 510-516; “Numismatique des Danishmendites”, a.e. , seri 3, XII (1894), s. 307-321, 433-460; XIII (1895), s. 389-402; XIV (1895), s. 210-230, 306-315; “Notice sur une manuscript de la secte des assassins”, JA , seri 9, XI (1898), s. 151-159; “Les ispehbeds de Firîm”, Braune Festschrift (1922), s. 117-126. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 160 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:casanova-paul",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=casanova-paul, https://islamansiklopedisi.org.tr/casanova-paul",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:casanova-paul",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=casanova-paul",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=casanova-paul (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=casanova-paul)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1861,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=casanova-paul, URL: https://islamansiklopedisi.org.tr/casanova-paul || DİA birth place: Orléansville || DİA death-date string: (1861-1926) || DİA categories: felsefe || Chunk count: 1",
+  "students": [
+    "iac:person-00007237"
+  ]
+}

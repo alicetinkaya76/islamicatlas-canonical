@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00002924",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Gulâm Hüseyin",
+      "ar": "غلام حسين"
+    },
+    "originalScript": {
+      "ar": "غلام حسين"
+    },
+    "altLabel": {
+      "tr": [
+        "Gulâm Hüseyn Selîm Zeydpûrî"
+      ]
+    },
+    "description": {
+      "tr": "Evez’de Bâre Banki civarındaki Zeydpûr’da doğdu. Daha sonra İngiliz Bâzârı diye de bilinen Engrîzâbâd’a göç etti. İyi bir eğitim gördü. Bölgedeki İngiliz Doğu Hindistan Şirketi’nin ticarî temsilcisi George Udny’nin (Udney) sorumluluğu altında postahane müdürü (dak münşî) oldu. Udny’nin ricası üzerine bir Bengal tarihi yazmayı kabul etti ve 1202’de (1787-88) tamamladığı bu Farsça eserine Riyâżü’s-selâṭîn adını verdi. Eser bir mukaddime ve dört bölümden meydana gelmektedir. Gulâm Hüseyin Riyâżü’s-selâṭîn ’in mukaddimesinde Bengal ve civarını tanıtır; bölgede yaşayan halka dair bilgi verir. Ayrıca bazı şehir ve kasabaları tasvir eder; Bengal sultanlarıyla valilerini ve onlarla ilgili bazı anekdotları anlatır. Birinci bölümde Delhi sultanlarının tayin ettiği Bengal valilerinden, ikinci bölümde bağımsız Bengal sultanlarından, üçüncü bölümde Bâbürlüler’e bağlı vekillerden (nâzımlar, nizamlar), son bölümde Fransız ve Portekizliler’in Bengal’e gelişinden ve buradaki İngiliz hâkimiyetinden bahseder. Mevlevî Abdülhak Âbid tarafından neşredilen Riyâżü’s-selâṭîn ’i (Kalküta 1890) Mevlevî Abdüsselâm notlarla birlikte İngilizce’ye çevirmiştir (Calcutta 1902; Delhi 1975). Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 185 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:gulam-huseyin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=gulam-huseyin, https://islamansiklopedisi.org.tr/gulam-huseyin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:07Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:07Z",
+    "modified": "2026-05-04T15:34:07Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=gulam-huseyin (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1233,
+    "start_ce": 1817,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=gulam-huseyin, URL: https://islamansiklopedisi.org.tr/gulam-huseyin || DİA birth place: Zeydpûr || DİA death-date string: (ö. 1233/1817) || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00002982"
+  ]
+}

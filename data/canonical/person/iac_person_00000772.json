@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00000772",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED EFENDİ, Çâlâk"
+    },
+    "description": {
+      "tr": "Tasavvuf ve mûsiki çevrelerinde Çâlâk lakabı ile şöhret bulmuştur. Kelime halk ağzında “çaylak” şekline girdiğinden Çaylak Ahmed Efendi olarak da anılır. Hayatı hakkında fazla bilgi bulunmamakla beraber İstanbul’da yaşadığı bilinmektedir. 1091’de (1680) Cağaloğlu Sarayı civarında kendi lakabı ile anılan Halvetiyye Tekkesi şeyhliğine tayin edildi. Safer 1123 (1711) tarihinde vefatına kadar bu vazifede kaldı ve aynı tekkenin hazîresine defnedildi. Müstakimzâde, Mecmûa-i İlâhiyyât ’ında onun 1133’te öldüğünü kaydediyorsa da diğer kaynaklarla karşılaştırıldığında bu tarihin yanlış olduğu anlaşılmaktadır. Vefatından sonra yerine, Türk dinî mûsikisinin önde gelen bestekârlarından biri olan oğlu Çâlâkzâde Şeyh Mustafa Efendi getirilmiştir. Ahmed Efendi zamanının önemli zâkirleri arasında yer almış, dinî mûsiki ve tasavvuf sahasındaki kudretini de uzun müddet devam ettirdiği şeyhlik vazifesi ile göstermiştir. Bestelediği dinî eserler muhtelif el yazması güfte mecmualarında görülmekte ise de bunlardan hiçbiri günümüze ulaşmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 58-59 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-efendi-calak",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-efendi-calak, https://islamansiklopedisi.org.tr/ahmed-efendi-calak",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-efendi-calak",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-efendi-calak",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:52Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-efendi-calak (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1123,
+    "start_ce": 1711,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1123,
+    "start_ce": 1711,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-efendi-calak, URL: https://islamansiklopedisi.org.tr/ahmed-efendi-calak || DİA death place: 1091 || DİA death-date string: (ö. 1123/1711) || DİA categories: tasavvuf || Chunk count: 1"
+}

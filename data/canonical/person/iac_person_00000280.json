@@ -1,0 +1,116 @@
+{
+  "@id": "iac:person-00000280",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Tipu Sultan",
+      "tr": "Tîpû Sultân",
+      "ar": "تيبو سلطان"
+    },
+    "originalScript": {
+      "ar": "تيبو سلطان"
+    },
+    "altLabel": {
+      "en": [
+        "Sultan Fateh Ali Khan Tipu"
+      ],
+      "tr": [
+        "Sultân Feth Ali Hân Tîpû"
+      ],
+      "ar": [
+        "السلطان فتح علي خان تيبو"
+      ]
+    },
+    "description": {
+      "tr": "Dünyanın ilk demir kılıflı askeri roketlerini geliştirdi — her Avrupa eşdeğerinden üstün ve İngilizlerin Congreve roketini oluşturmak için doğrudan incelediği || Tîpû'nun roketleri kâğıt veya bambu yerine demir borular kullandı, emsalsiz menzil ve güvenilirlik elde etti. || [Tarih notu] Tîpû roketlerinden Congreve roketine (1804) ve modern roketçiliğe uzanan doğrudan hat, askeri tarihte iyi belgelenmiştir.",
+      "en": "Developed the world's first iron-cased military rockets — superior to any European equivalent and directly studied by the British to create the Congreve rocket || Tipu's rockets used iron tubes instead of paper or bamboo casings, achieving unprecedented range and reliability. British forces collected specimens after 1799 and reverse-engineered them. || [Historiographical note] The direct line from Tipu's rockets to the Congreve rocket (1804) to modern rocketry is well-documented in military history.",
+      "ar": "طوّر أول صواريخ حربية ذات أغلفة حديدية في العالم || استخدمت صواريخ تيبو أنابيب حديدية بدلاً من الورق أو الخيزران"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0097",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0097",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "ei1:5714",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 4, p. 13",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      },
+      {
+        "source_id": "dia-chunks:tipu-sultan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/tipu-sultan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:57:27Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:57:27Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:57:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0097 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1750,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1799,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q10088",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Tipu Sultan')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0097, lecture_week=n/a. || Key works: {'title': {'en': 'Fathul Mujahidin (Military Manual)', 'tr': \"Fethü'l-Mücâhidîn (Askerî El Kitabı)\", 'ar': 'فتح المجاهدين'}, 'year': 1786, 'field': 'engineering', 'significance': {'en': 'Military manual systematizing iron-cased rocket technology with detailed specifications for range, warhead types, and deployment tactics', 'tr': 'Menzil, başlık türleri ve konuşlandırma taktikleri için detaylı spesifikasyonlarla demir kılıflı roket teknolojisini sistematize eden askeri el kitabı'}} || Modern parallel: Like a military R&D chief whose technology was captured, reverse-engineered, and became the foundation of the enemy's next-generation weapons.",
+  "authored_works": [
+    "iac:work-00000136"
+  ]
+}

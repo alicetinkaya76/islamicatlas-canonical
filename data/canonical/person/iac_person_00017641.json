@@ -1,0 +1,101 @@
+{
+  "@id": "iac:person-00017641",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Ḥanafiyya",
+      "tr": "İbn el-Hanefiyye",
+      "ar": "ابن الحنفية"
+    },
+    "originalScript": {
+      "ar": "ابن الحنفية"
+    },
+    "description": {
+      "tr": "İslam'ın ilk devirinin güçlü mücahitlerinden biridir.",
+      "en": "One of the mighty warriors in the early Islamic period.",
+      "ar": "محمد بن الحنفية ابن علي بن ابي طالب من الشخصيات المهمة في تاريخ الكلام والسياسة الاسلامية المبكرة، تلقى الفقه وعلم الكلام عن ابيه علي. اعلنه المختار الثقفي مهديا في ثورته مما يجعله من اوائل الامثلة في التاريخ السياسي لفكرة المهدوية في الاسلام. نسبت اليه فرقة الكيسانية رغم ان علاقته المباشرة بهذه الحركة محل جدال. له مكانة مرموقة في تقليد اهل البيتوقد اشتهر بحكمته وعلمه الواسع في المسائل الكلامية والفقهية، حيث كان من المراجع المهمة في عصره للفتوى والإرشاد الديني. توفي في المدينة المنورة عام 700م تاركاً أثراً عميقاً في تطور الفكر الإسلامي المبكر وخاصة في مجال علم الكلام. رغم الجدل السياسي الذي أحاط به، يُذكر كشخصية علمية محترمة ساهمت في إثراء التراث الفكري الإسلامي."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad b. ʿAlī b. Abī Ṭālib al-Hāshimī al-Qurayshī"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Ali b. Ebî Tâlib el-Hâşimî el-Kureyşî"
+      ],
+      "ar": [
+        "محمد بن علي بن أبي طالب، الهاشمي القرشي، أبو القاسم المعروف ب ابن الحنفية"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:10612",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10612",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "scholars:128",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=128",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:07Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:07Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=10612 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['description.ar', 'kunya', 'nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:10612."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 81,
+    "start_ce": 700,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10612, heading_ar=ابن الحنفية || Ziriklī century_ce=7 || Ziriklī place coords (city/region of activity): 24.47, 39.6",
+  "kunya": "Ebü'l-Kāsım",
+  "nisba": [
+    "Hâşimî",
+    "Kureşî"
+  ],
+  "laqab": [
+    "İbnü'l-Hanefiyye"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00000619",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜRRAHİM EFENDİ, Hoca"
+    },
+    "description": {
+      "tr": "Adana’da doğdu. İlk tahsilini tamamladıktan sonra Hüseyin Halhalî ve Sadreddinzâde Mehmed Emin Şirvânî’den ders aldı. Daha sonra Hocazâde Abdülaziz Efendi’ye intisap etti ve ondan mülâzım oldu. 1620-1624 tarihleri arasında Siyavuş Paşa, Hâfız Paşa ve Mustafa Paşa medreselerinde, ardından Sahn-ı Semân, Ayasofya, Süleymaniye ve Sultan Ahmed medreselerinde müderrislik yaptı. Bir süre sonra kadılık mesleğine geçerek 1634’te Yenişehir kadısı oldu. 1638’de önce İstanbul pâyesini aldı, sonra fiilen İstanbul kadısı, 1641’de de Anadolu kazaskeri oldu. Kısa bir süre Adana kadılığı yaptıktan sonra 1645’te Rumeli kazaskerliğine, 25 Nisan 1647’de de şeyhülislâmlığa getirildi. Abdürrahim Efendi’nin şeyhülislâmlığı döneminde en önemli icraatı, Sultan İbrâhim’in önce hal‘ine, daha sonra da katline fetva vermesidir. Bu konuda ocak ağalarını yanına almış, ayrıca ulemânın da desteğini sağlamıştı. 18 Temmuz 1649’da ocak ağalarının aşırı hareketleri sırasında Murad Paşa’nın gadrine uğrayarak azledildi ve Mekke’ye gönderildi. Hacdan sonra Kudüs kadılığına tayin edildi. Bir süre sonra yine ocak ağalarının aracılığı ile İstanbul’a döndü ve kendisine Üsküdar kadılığı verildi. Ağalar Vak‘ası (1651) sırasında İstanbul’dan çıkarılarak Belgrad’a gönderildi; 6 Şubat 1656’da orada vefat etti ve Belgrad’da İmâret Camii avlusuna defnedildi. Müderrislik hayatı boyunca pek çok talebe yetiştirdiğinden “hoca” unvanıyla anılan Abdürrahim Efendi bilgili, dürüst ve doğruyu söylemekten çekinmeyen bir âlimdi. Sultan İbrâhim’in hal‘i ve öldürülmesi olaylarının bizzat içinde bulunmuş ve olayların akışında tesiri olmuştur. Kâtib Çelebi, çeşitli konularda onun desteğini görmüş, hatta ondan aldığı bilgileri yer yer Fezleke’de zikretmiştir (II, 293). Bazı kitapların kenarlarına yazdığı hâşiyeler dışında herhangi bir eseri bilinmemektedir (bk. Uşşâkīzâde İbrâhim, s. 196). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 289 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahim-efendi-hoca",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahim-efendi-hoca, https://islamansiklopedisi.org.tr/abdurrahim-efendi-hoca",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdurrahim-efendi-hoca",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdurrahim-efendi-hoca",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahim-efendi-hoca (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1066,
+    "start_ce": 1656,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahim-efendi-hoca, URL: https://islamansiklopedisi.org.tr/abdurrahim-efendi-hoca || DİA birth place: Adana || DİA death place: Belgrad || DİA death-date string: (ö. 1066/1656) || DİA categories: fetva || Chunk count: 1",
+  "teachers": [
+    "iac:person-00007070"
+  ]
+}

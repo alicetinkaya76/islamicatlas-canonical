@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00000995",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALKAME b. ULÂSE",
+      "ar": "علقمة بن علاثة"
+    },
+    "originalScript": {
+      "ar": "علقمة بن علاثة"
+    },
+    "altLabel": {
+      "tr": [
+        "Alkame b. Ulâse b. Avf el-Kilâbî el-Âmirî"
+      ]
+    },
+    "description": {
+      "tr": "Âmir b. Sa‘saa kabilesinin Kilâb boyuna mensuptur. Câhiliye devrinde kabilesi arasında büyük bir nüfuz ve itibara sahipti. Hudeybiye Antlaşması’ndan sonra ve Mekke’nin fethinden önce Medine’ye giderek Hz. Peygamber’le görüştü ve kabilesi adına ona biat etti. Müellefe-i kulûb dan olduğu, Hz. Peygamber’in aynı durumdaki diğer sahâbîlerle birlikte ganimetten ona da önemli paylar ayırdığı kaynaklarda zikredilir. Alkame, Tâif halkının müslüman oluşundan kısa bir süre sonra irtidad ederek Şam’a gitti. Hz. Peygamber’in ölümü üzerine çıkan karışıklıktan faydalanarak Kilâboğulları arasına döndü ve onları teşkilâtlandırmak istedi, fakat Hz. Ebû Bekir’in bölgeye Ka‘kā‘ b. Amr kumandasında bir askerî birlik göndermesi üzerine Suriye’ye kaçmak zorunda kaldı. Hz. Peygamber’in ölümünden sonra irtidad ettiği, hatta bu irtidad olayının Hz. Ömer devrinde meydana geldiği hakkında da bazı rivayetler vardır. Alkame’nin daha sonra tövbe ederek yeniden müslüman olduğu bilinmektedir. Nitekim Hz. Ömer onu Havran’a vali tayin etmiş, hayatının sonuna kadar da burada kalmıştır. Alkame ile amcazadesi Âmir b. Tufeyl arasındaki üstünlük iddiası üzerine şair A‘şâ Meymûn’un Alkame aleyhine söylediği kaside, Câhiliye devri edebî mahsulleri arasında yer alır. İslâmiyet’in ilk yıllarında Alkame’nin Bizans imparatorunun huzurunda Resûl-i Ekrem hakkında iyi sözler söylemesi sebebiyle Hz. Peygamber onun aleyhindeki bu kasidenin rivayet edilmesini yasaklamıştı. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 468 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:alkame-b-ulase",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=alkame-b-ulase, https://islamansiklopedisi.org.tr/alkame-b-ulase",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:alkame-b-ulase",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/alkame-b-ulase",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:6895",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6895, heading_ar=علقمة بن علاثة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:33Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=alkame-b-ulase (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6895]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6895 (heading_ar=علقمة بن علاثة) via Track A (DİA→Alam xref bridge). dt=Vali, sahâbeden."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kilâbî; Âmirî"
+  ],
+  "death_temporal": {
+    "start_ah": 20,
+    "start_ce": 641,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=alkame-b-ulase, URL: https://islamansiklopedisi.org.tr/alkame-b-ulase || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6895] || DİA death-date string: (ö. 20/641) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6895, heading_ar=علقمة بن علاثة, dt=Vali, sahâbeden."
+}

@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00005353",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mehmed Hâlis Efendi"
+    },
+    "description": {
+      "tr": "Şirvan’da doğdu. Bölgenin tanınmış hocalarından Mehmed Efendi’nin oğludur. Şirvan’da ilk öğrenimini tamamladıktan sonra Amasya’da altı yıl süreyle tahsil gördü. 1867’de İstanbul’a gitti. Fatih Tabhâne Medresesi’nde ikamet ederken bir taraftan Tikveşli Yûsuf Ziyâeddin Efendi’nin Fâtih Camii’ndeki derslerine devam edip icâzet aldı, diğer taraftan Teftîşü’l-muallimîn Mektebi’nde okudu. 1871’de Farsça muallimliği diploması aldı. Ayrıca ruûs imtihanını kazanarak Fâtih Camii’nde ders verme hakkını elde etti. 1873 yılında kısa bir süre Nif nahiyesi (İzmir’e bağlı Kemalpaşa ilçesi) müdürlüğü ve Menemen kaymakamlığı yaptı. 1875’te önce Koca Mustafa Paşa Askerî Rüşdiyesi Arapça muallimliğine, ardından Galata Rüşdiyesi Farsça muallimliğine tayin edildi. 1878 yılında Dârüşşafaka’da Arapça, akaid ve fıkıh muallimliğine getirilen Mehmed Hâlis Efendi mektebin ilk hocaları ve kurucuları arasında yer aldı. 1884’te Meclis-i Tedkīkāt-ı Şer‘iyye, 1888’de Tedkīk-i Müellefât Encümeni üyeliği görevlerinde bulundu. Kısa bir müddet huzur derslerine muhatap olarak katıldı. Daha sonra ibtidâ-i hâric ve İstanbul müderrisliğinden başlamak üzere bilâd-ı hamse ve Haremeyn-i muhteremeyn pâyelerine kadar yükseldi. 1908 yılında ders vekilliği (Medâris-i İslâmiyye nâzırlığı) görevine getirildi. Bu vazifeden 1911’de ayrılan Mehmed Hâlis Efendi vefatında Fâtih Camii bahçesindeki kabristana defnedildi. Mehmed Hâlis Efendi, ders vekilliği sırasında medreselerde yeni fen derslerinin okutulması ve bu kurumların ıslah edilmesi yolunda çaba göstermiş ve önemli hizmetler yapmıştır. Eserleri: Telhîsü’n-nahv (Dârüşşafaka’nın beşinci sınıfında okutulmak üzere hazırlanmıştır, İstanbul 1323, 1328); Mîzânü’l-ezhân (idâdîlerin dördüncü sınıfında okutulan mantık kitabıdır, İstanbul 1324); Usûl-i Akāid (Dârüşşafaka’da okutulmuştur); İlm-i Kelâm ; Envârü’l-âdâb (İstanbul 1324); Cihâd-ı Ekber (İstanbul 1333); Tatbîkāt-ı Arabiyye . Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 490 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-halis-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-halis-efendi, https://islamansiklopedisi.org.tr/mehmed-halis-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:mehmed-halis-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=mehmed-halis-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-halis-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=mehmed-halis-efendi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1843,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=mehmed-halis-efendi, URL: https://islamansiklopedisi.org.tr/mehmed-halis-efendi || DİA birth place: Şirvan || DİA death place: 1911 || DİA death-date string: (1843-1913) || DİA categories: fıkıh > kelâm > mantık || Chunk count: 1",
+  "students": [
+    "iac:person-00001086",
+    "iac:person-00005126",
+    "iac:person-00005305",
+    "iac:person-00005600",
+    "iac:person-00007426",
+    "iac:person-00007682"
+  ]
+}

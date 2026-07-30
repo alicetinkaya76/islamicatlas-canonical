@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00003246",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HASAN EFENDİ, Zâkirî"
+    },
+    "description": {
+      "tr": "Foça’da doğdu. Hatiplik yapması ve devrinin önemli zâkirlerinden olması sebebiyle Hatîb Zâkirî Hasan Efendi diye de anılır. Küçük yaşta İstanbul’a giden Hasan Efendi Halvetiyye şeyhlerinden Nûreddinzâde’ye intisap etti. Güzel sesi ve zikir idare etmedeki kabiliyetiyle dikkati çekerek dergâhın zâkirbaşılığına getirildi. Nev‘îzâde Atâî, zâkirbaşının bulunmadığı bir zikir meclisinde bu vazifenin şeyh efendi tarafından Hasan Efendi’ye verildiğini, zikri başarılı bir şekilde idare etmesi üzerine daha sonra da bu hizmete devam ettiğini ve zamanla bu sahada üstat olduğunu söyler. Sultan I. Mustafa döneminde Eminönü Küçükpazar’daki Hoca Hayreddin Camii’ne hatip olan Hasan Efendi bu görevi sırasında vefat etti. Caminin hazîresinde, Fâtih Sultan Mehmed dönemi ulemâsından Hoca Hayreddin Efendi’nin yanına defnedildi. Evliya Çelebi’nin anlattığına göre Hasan Efendi, bir öğle vakti minarede ezan okurken bir çaylak sarığını başından kapıp minarenin alemi üzerine bırakmış, bir hafta kadar burada duran sarığın çıkan bir fırtınada minareden düştüğü sabah Hasan Efendi vefat etmiştir. Bazı kaynaklarda I. Mustafa’nın musâhiplerinden olduğu söylenen Hasan Efendi’nin vefat tarihini Atâî, Kâtib Çelebi ve diğer kaynaklar 1032 (1623), Müstakimzâde Süleyman Sâdeddin ise 1030 (1621) olarak kaydeder. Hasan Efendi, dinî mûsikinin özellikle cami mûsikisi formunda bestelediği eserlerle tanınmıştır. Zamanımıza ulaşan besteleri arasında hüseynî cenaze salâsı, dilkeş-hâverân sabah salâsı, bayatî cuma ve bayram salâsı, nühüft Mersiye-i İmam Hüseyin en meşhurlarıdır. Halil Can, cenaze salâsı ile sabah salâsının Buhûrîzâde Mustafa Itrî tarafından bestelendiğini söyler. Mehmet Suphi Ezgi ise Itrî’nin eserleri olarak bilinen segâh tekbir ve salât-ı ümmiyyenin de üslûp benzerliğini ve Hasan Efendi’nin talebesi şair Dâî’nin bir manzumesini delil göstererek ona ait olduğunu ileri sürerse de ( Türk Musikisi , II, 8) bu görüş mûsiki çevrelerinde kabul görmemiştir. Bazı güfte mecmualarında rastlanan Zâkirî mahlaslı manzumelerinden Hasan Efendi’nin orta derecede bir şair olduğu anlaşılmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 319 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-efendi-zakiri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-efendi-zakiri, https://islamansiklopedisi.org.tr/hasan-efendi-zakiri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hasan-efendi-zakiri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hasan-efendi-zakiri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-efendi-zakiri (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1032,
+    "start_ce": 1623,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-efendi-zakiri, URL: https://islamansiklopedisi.org.tr/hasan-efendi-zakiri || DİA birth place: Foça || DİA death place: Küçükpazar || DİA death-date string: (ö. 1032/1623) || Chunk count: 1"
+}

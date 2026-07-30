@@ -1,0 +1,116 @@
+{
+  "@id": "iac:person-00000265",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Arabi",
+      "tr": "Muhyiddîn İbnü'l-Arabî",
+      "ar": "محيي الدين ابن العربي"
+    },
+    "originalScript": {
+      "ar": "محيي الدين ابن العربي"
+    },
+    "altLabel": {
+      "en": [
+        "Muḥyī al-Dīn Abū ʿAbd Allāh Muḥammad ibn ʿAlī ibn al-ʿArabī"
+      ],
+      "tr": [
+        "Muhyiddîn Ebû Abdillâh Muhammed b. Alî İbnü'l-Arabî"
+      ],
+      "ar": [
+        "محيي الدين أبو عبد الله محمد بن علي ابن العربي"
+      ]
+    },
+    "description": {
+      "tr": "İslâm tasavvufunun en etkili metafizik sistemi olan vahdet-i vücûd doktrinini geliştirdi || İbnü'l-Arabî'nin metafizik sistemi İslâm düşüncesinde yeni bir paradigma yarattı; yüzyıllar boyunca tasavvuf, felsefe ve kelâmı etkiledi. || [Tarih notu] 'eş-Şeyhü'l-Ekber' (En Büyük Üstad) lakabıyla anılır; mirası İslâm geleneği içinde hayranlık ve eleştiri arasında tartışmalı kalmaya devam eder.",
+      "en": "Developed the doctrine of wahdat al-wujud (Unity of Being), the most influential metaphysical system in Islamic mysticism || Ibn al-Arabi's metaphysical system created a new paradigm in Islamic thought, influencing Sufism, philosophy, and theology across the entire Islamic world for centuries. || [Historiographical note] Called 'al-Shaykh al-Akbar' (The Greatest Master); his legacy remains contested between admirers and critics within Islamic tradition.",
+      "ar": "طور عقيدة وحدة الوجود أكثر الأنظمة الميتافيزيقية تأثيراً في التصوف الإسلامي || أنشأ نظامه الميتافيزيقي نموذجاً جديداً في الفكر الإسلامي"
+    }
+  },
+  "profession": [
+    "philosopher",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0082",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0082",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:31",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=31",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:56:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:56:52Z",
+    "modified": "2026-07-10T14:25:01Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:56:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0082 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1165,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1240,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q46420",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ibn al-Arabi')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0082, lecture_week=n/a. || Key works: {'title': {'en': 'al-Futuhat al-Makkiyya', 'tr': \"el-Fütûhâtü'l-Mekkiyye\", 'ar': 'الفتوحات المكية'}, 'year': 1231, 'field': 'philosophy', 'significance': {'en': 'Encyclopedic masterwork of Islamic mystical philosophy in 560 chapters', 'tr': '560 bölümlük İslâm tasavvuf felsefesinin ansiklopedik başyapıtı'}}; {'title': {'en': 'Fusus al-Hikam', 'tr': \"Fusûsü'l-Hikem\", 'ar': 'فصوص الحكم'}, 'year': 1229, 'field': 'philosophy', 'significance': {'en': \"Dense philosophical treatise on the 'bezels of wi || Modern parallel: Like a systems philosopher whose unified theory generates centuries of both devoted followers and fierce critics.",
+  "birth_place": "iac:place-00011139",
+  "active_in_places": [
+    "iac:place-00004883",
+    "iac:place-00010004"
+  ],
+  "authored_works": [
+    "iac:work-00000115",
+    "iac:work-00000116"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00012689",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abd al-Rahman al-Bahkilī",
+      "tr": "Abdurrahman el-Behkelî",
+      "ar": "عبد الرحمن البهكلي"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن البهكلي"
+    },
+    "description": {
+      "tr": "Tarihçi, Sabya şehrinde doğdu, Sabya ve Sana arasında gezindi, el-Mansur (Ali b. el-Abbas) tarafında",
+      "en": "Historian, born in the city of Sabya, traveled between it and Sanaa, appointed as governor in Bayt a"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Abd al-Rahman b. Ahmad b. al-Hasan b. 'Ali al-Bahkilī al-Dumdī al-Subay'ī al-Tahāmī al-Yamanī"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdurrahman b. Ahmed b. Hasen b. Ali el-Behkelî ed-Dumdî es-Subayyî et-Tehâmî el-Yemenî"
+      ],
+      "ar": [
+        "عبد الرحمن بن أحمد بن الحسن بن علي البهكلي الضمدي ثم الصبيائي التهامياليماني"
+      ]
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:5124",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5124",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:12Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=5124 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:5124."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1248,
+    "start_ce": 1832,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5124, heading_ar=عبد الرحمن البهكلي || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 24.47, 39.6"
+}

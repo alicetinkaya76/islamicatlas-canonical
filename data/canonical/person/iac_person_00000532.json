@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00000532",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. NEVFEL",
+      "ar": "عبد الله بن نوفل"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن نوفل"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdullāh b. Nevfel b. Hâris b. Abdilmuttalib b. Hişâm"
+      ]
+    },
+    "description": {
+      "tr": "Dedesi Hâris, Hz. Peygamber’in en büyük amcası olup kendisi ashap arasında Peygamber’e en çok benzeyenlerden biri idi. Muâviye’nin 662 yılında Medine’ye vali tayin ettiği Mervân b. Hakem tarafından Medine kadılığına getirildi. Muâviye, 669’da Mervân b. Hakem’i görevden alıp valiliğe Saîd b. Âs’ı tayin edince yeni vali Abdullah b. Nevfel’i vazifesinden uzaklaştırdı ve yerine Ebû Seleme b. Abdurrahman b. Avf’ı tayin etti. Ebû Hüreyre’nin Abdullah b. Nevfel için, “O, İslâm’da gördüğüm ilk kadıdır” dediği rivayet edilir. İmam Mâlik de bu görüştedir. Halbuki gerek Hz. Peygamber’in, gerekse Hulefâ-yi Râşidîn’in daha önce birçok şehre kadılar tayin ettiği bilinmektedir. Ayrıca Medine’de Ebû Bekir zamanında Ömer’in, Ömer zamanında Ebü’d-Derdâ’nın, Osman zamanında da Mugīre b. Nevfel b. Hâris’in kazâ işleriyle görevlendirildiklerine dair kaynaklarda kesin bilgiler vardır. Abdullah b. Nevfel’in yaklaşık sekiz yıl süren Medine kadılığından sonra başka bir görevde bulunup bulunmadığı hususunda kaynaklarda bilgi yoktur. Onun ölüm tarihiyle ilgili olarak da değişik rivayetler vardır. Muâviye’nin halifeliğinin (661-680) son yıllarında veya 63 (683) yılında Harre Vak‘ası’nda vefat ettiği nakledilmektedir. Şu hususu da belirtmek gerekir ki bazı kaynaklar, 84 (703) yılında vefat eden yeğeni Abdullah b. Hâris el-Hâşimî ile Abdullah b. Nevfel’i karıştırırlar ve bu yüzden Abdullah b. Nevfel’in ölümünü de yanlışlıkla 84 (703) olarak gösterirler. Abdullah’ın rivayet ettiği herhangi bir hadise kaynaklarda rastlanmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 126 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-nevfel",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-nevfel, https://islamansiklopedisi.org.tr/abdullah-b-nevfel",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-05-04T15:32:39Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-nevfel (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 63,
+    "start_ce": 683,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-nevfel, URL: https://islamansiklopedisi.org.tr/abdullah-b-nevfel || DİA death-date string: (ö. 63/683 [?]) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

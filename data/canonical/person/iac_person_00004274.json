@@ -1,0 +1,119 @@
+{
+  "@id": "iac:person-00004274",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-MÜNKEDİR",
+      "ar": "ابن المنكدر"
+    },
+    "originalScript": {
+      "ar": "ابن المنكدر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh (Ebû Bekr) Muhammed b. el-Münkedir b. Abdillâh el-Kureşî et-Teymî"
+      ]
+    },
+    "description": {
+      "tr": "Medineli olup 60 (679) yılı civarında doğduğu zikredilmiştir. Hz. Âişe’nin dayısı olan babası Münkedir sahâbîdir; ancak onun sahâbî olmadığını söyleyenler de bulunmaktadır (İbn Abdülber, III, 533). Amcası Rebîa, kardeşleri Ebû Bekir ve Ömer Hicaz bölgesinin tanınmış fakihlerindendir. Münkedir’in Hz. Âişe’den yardım istediği, onun verdiği para ile satın aldığı câriyeden Muhammed, Ebû Bekir ve Ömer adlı oğullarının dünyaya geldiği kaydedilmektedir. İbnü’l-Münkedir Abdullah b. Abbas, Abdullah b. Ömer, Abdullah b. Zübeyr, Esmâ bint Ebû Bekir, Câbir b. Abdullah, Enes b. Mâlik gibi sahâbîlerden, Urve b. zübeyr ve Saîd b. Müseyyeb gibi tâbiîlerden rivayette bulunurken kendisinden rivayet edenler arasında oğulları Yûsuf ve Münkedir’le Zührî, Eyyûb es-Sahtiyânî, Ebû Hanîfe, Süfyân es-Sevrî, Mâlik b. Enes gibi âlimler vardır. Güvenilirliğinde ittifak edilen ve aynı zamanda ileri gelen kıraat âlimlerinden biri olan İbnü’l-Münkedir’in 200’den fazla müsned hadis rivayet ettiği kaydedilmekte olup bunlardan bazıları Kütüb-i Sitte ’de yer almıştır. İbnü’l-Münkedir’in dünyaya değer vermediği, ikramda bulunmayı sevdiği, fakirleri himaye ettiği belirtilmiş, İmam Mâlik onu insanların en âbidi ve zâhidi diye övmüştür. Zâhid kişiliğiyle tanınan Ebû Sahr el-Eylî ile her yıl hacca giden İbnü’l-Münkedir 131’de (748) vefat etti. 130 yılında öldüğü de kaydedilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 157 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-munkedir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-munkedir, https://islamansiklopedisi.org.tr/ibnul-munkedir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:11458",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=11458, heading_ar=ابن المنكدر",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:26Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:26Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:26Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-munkedir (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[11458]. Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=11458 (heading_ar=ابن المنكدر) via Track A (DİA→Alam xref bridge). dt=Zahid, hadis otoritelerinden"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Teymî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 60,
+    "start_ce": 679,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 131,
+    "start_ce": 748,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-munkedir, URL: https://islamansiklopedisi.org.tr/ibnul-munkedir || El-Aʿlām (Ziriklī) cross-reference: alam_id=[11458] || DİA death place: 131 || DİA death-date string: (ö. 131/748) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=11458, heading_ar=ابن المنكدر, dt=Zahid, hadis otoritelerinden",
+  "teachers": [
+    "iac:person-00000482",
+    "iac:person-00000533",
+    "iac:person-00000557",
+    "iac:person-00001654",
+    "iac:person-00002515",
+    "iac:person-00002595",
+    "iac:person-00006380",
+    "iac:person-00006610",
+    "iac:person-00007521"
+  ],
+  "students": [
+    "iac:person-00001560",
+    "iac:person-00002172",
+    "iac:person-00002215",
+    "iac:person-00002627",
+    "iac:person-00004037",
+    "iac:person-00005206",
+    "iac:person-00006152",
+    "iac:person-00007105",
+    "iac:person-00007121",
+    "iac:person-00007122",
+    "iac:person-00007897"
+  ]
+}

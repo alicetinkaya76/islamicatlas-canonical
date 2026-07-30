@@ -1,0 +1,118 @@
+{
+  "@id": "iac:person-00000209",
+  "@type": [
+    "iac:Architect",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Mimar Sinan",
+      "tr": "Mimar Sinân",
+      "ar": "المعمار سنان"
+    },
+    "originalScript": {
+      "ar": "المعمار سنان"
+    },
+    "altLabel": {
+      "en": [
+        "Koca Mimar Sinan Agha"
+      ],
+      "tr": [
+        "Koca Mimar Sinân Ağa"
+      ],
+      "ar": [
+        "قوجه معمار سنان آغا"
+      ]
+    },
+    "description": {
+      "tr": "50 yılda baş mimar olarak 374 yapı tasarladı — Süleymaniye Külliyesi (14 yapı) ve kubbesi Ayasofya'yı aşan Selimiye Camii dahil. İslam dünyasının en büyük mimarıdır || Sinân'ın kariyeri Osmanlı mimarisinin tüm altın çağını kapsar. 374 yapısı 94 cami, 52 mescit, 57 medrese, 35 saray, 22 türbe, 17 imaret, 3 hastane ve 7 su kemeri içerir. || [Tarih notu] Kuran'ın eseri (1987) en kapsamlı mimari analizi oluşturdu. Necipoğlu (2005) eserini Osmanlı saray kültürü ve siyaseti içinde bağlamsallaştırdı.",
+      "en": "Designed 374 structures in 50 years as chief architect — including the Süleymaniye Complex (14 buildings) and the Selimiye Mosque whose dome surpassed Hagia Sophia. He is the greatest architect of the Islamic world || Sinan's career spans the entire golden age of Ottoman architecture. His 374 structures include 94 mosques, 52 prayer rooms, 57 madrasas, 35 palaces, 22 mausoleums, 17 public kitchens, 3 hospitals, and 7 aqueducts. The Selimiye's achievement was not just dome diameter (31.22m vs Hagia Sophia's 31.87m in one direction) but the unified interior space without secondary supports — something Hagia Sophia's buttressing system could not achieve. || [Historiographical note] Kuran's Sinan the Grand Old Master of Ottoman Architecture (1987) established the most comprehensive architectural analysis. Necipoğlu's The Age of Sinan (2005) contextualized his work within Ottoman court culture and politics. His autobiography (Tezkiretü'l-Bünyân) is one of the earliest architect's memoirs.",
+      "ar": "صمّم ٣٧٤ منشأة في ٥٠ عامًا رئيسًا للمعماريين — بما فيها مسجد السليمية الذي تجاوزت قبّته آيا صوفيا || حياة سنان المهنية تمتد عبر العصر الذهبي للعمارة العثمانية. إنجاز السليمية لم يكن مجرد قطر قبة بل فضاء داخلي موحد بلا دعامات ثانوية"
+    }
+  },
+  "profession": [
+    "scholar",
+    "architect"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0026",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0026, lecture_id=osmanli-mimari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:36",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=36",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-12T14:15:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0026 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:15:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "h11_001 QID karantinası: wikidata:Q173996 kayıttan çıkarıldı (denetim MISMATCH, sim=20, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1489,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1588,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0026, lecture_week=7. || Key works: {'title': {'en': 'Selimiye Mosque (Edirne)', 'tr': 'Selimiye Camii (Edirne)', 'ar': 'مسجد السليمية (أدرنة)'}, 'year': 1574, 'field': 'architecture', 'significance': {'en': \"Dome surpassed Hagia Sophia's diameter (31.22m) — his self-declared masterpiece\", 'tr': \"Kubbenin çapı (31,22m) Ayasofya'yı aştı — kendi ilan ettiği şaheseri\"}}; {'title': {'en': 'Süleymaniye Complex (Istanbul)', 'tr': 'Süleymaniye Külliyesi (İstanbul)', 'ar': 'مجمع السليمانية (إسطنبول)'}, 'year': 1557, 'field': 'architecture || Modern parallel: Imagine a single architect designing 374 buildings — including one whose dome rivals St. Peter's Basilica — over a 50-year career, while simultaneously engineering aqueducts and bridges. He's Frank Lloyd Wright, Zaha Hadid, and a civil engineer, combined.",
+  "active_in_places": [
+    "iac:place-00000735"
+  ],
+  "authored_works": [
+    "iac:work-00000042",
+    "iac:work-00000043"
+  ],
+  "nisba": [
+    "Ağırnâsî (Kayseri)"
+  ],
+  "laqab": [
+    "Koca Mimar Sinan"
+  ]
+}

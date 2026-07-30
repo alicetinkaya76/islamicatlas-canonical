@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00003131",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hamîd Kalender",
+      "ar": "حميد قلندر"
+    },
+    "originalScript": {
+      "ar": "حميد قلندر"
+    },
+    "altLabel": {
+      "tr": [
+        "Hamîdüddîn b. Tâciddîn Kalender ed-Dihlevî"
+      ]
+    },
+    "description": {
+      "tr": "Halacîler’in (1290-1320) son döneminde Delhi civarındaki Kîlûgari’de doğdu. İlk dinî bilgileri, Çiştiyye tarikatı şeyhlerinden Nizâmeddin Evliyâ’nın müridi olan babası Mevlânâ Tâceddin’den aldı. Küçük yaştan itibaren babasıyla birlikte Nizâmeddin Evliyâ’nın sohbetlerine katıldı. Tuğluklu Sultanı II. Muhammed’in emriyle müslüman aileler Delhi’den Devletâbâd’a gönderilince Hamîd Kalender de oraya gitmek zorunda kaldı (1327). Devletâbâd’da bulunduğu sırada şeyhin halifelerinden Burhâneddîn-i Garîb’in sohbetlerine devam etti ve meclisinde dinlediği sözleri yazdı. 753’te (1352) Delhi’ye dönen Hamîd Kalender, ertesi yıl Nizâmeddin Evliyâ’nın halifesi Çırâğ-ı Dehlî’nin sohbetlerine devam etmeye başladı. Burada şeyhin sözlerinden (melfûzât) derlediği Ḫayrü’l-mecâlis adlı eserini kaleme aldı. Kaynaklarda Çırâğ-ı Dehlî’nin Hamîd Kalender’e, “Sen bir ârifsin; sana nasıl kalender diyebilirim” dediği, onun da babasına şeyhi Nizâmeddin Evliyâ’nın aynı şekilde hitap ettiğini söylediği, bu olaydan sonra Kalenderîler gibi yaşamaya başladığı rivayet edilir. Ölümüne kadar (ö. 757/1356) Çırâğ-ı Dehlî’ye hizmet ettiği ve sözlerini derlediği bilinen Hamîd Kalender’in bundan sonraki hayatı hakkında bilgi yoktur. Hamîd Kalender’in ev edinmediği, evlenmediği ve bir kalenderî gibi yaşadığı da bilinmektedir. Çiştî şeyhlerinden Gîsûdırâz, Hamîd Kalender ve taraftarlarını gerçek anlamda sûfî kabul etmez. Hamîd Kalender’in tek eseri olan menâkıbnâme tarzındaki Ḫayrü’l-mecâlis sade bir ifade ile kaleme alınmış olup 1354-1359 yılları arasında yazılmıştır. Çiştiyye mensuplarının büyük ilgi gösterdikleri eser Halîk Ahmed Nizâmî tarafından neşredilmiştir (Aligarh 1959). Onun günümüze kadar gelmeyen bir divanından Tuğluklu Hükümdarı Fîrûz Şah Tuğluk için yazdığı birkaç kaside Mecmûʿa-i Leṭâʾif ve’s-sefîne adlı bir eser içinde zamanımıza ulaşmıştır ( EI 2 Suppl. [İng.] , s. 352). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 461 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hamid-kalender",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hamid-kalender, https://islamansiklopedisi.org.tr/hamid-kalender",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:11Z",
+    "modified": "2026-05-04T15:34:11Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hamid-kalender (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Dihlevî"
+  ],
+  "death_temporal": {
+    "start_ah": 761,
+    "start_ce": 1360,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hamid-kalender, URL: https://islamansiklopedisi.org.tr/hamid-kalender || DİA birth place: Kîlûgari || DİA death-date string: (ö. 761/1360 [?]) || DİA categories: rivayet > tarikat || Chunk count: 1"
+}

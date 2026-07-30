@@ -1,0 +1,98 @@
+{
+  "@id": "iac:person-00001884",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Cürmûzî",
+      "ar": "الجرموزي"
+    },
+    "originalScript": {
+      "ar": "الجرموزي"
+    },
+    "altLabel": {
+      "tr": [
+        "Mutahhar b. Muhammed b. Ahmed el-Muntasır eş-Şerîf el-Hasenî"
+      ]
+    },
+    "description": {
+      "tr": "1003’te (1595) San‘a’nın Cürmûz köyünde doğdu. Kaynaklarda hayatı hakkında fazla bilgi yoktur. Zamanının sayılı Zeydî âlimlerinden olup 27 Zilhicce 1077’de (20 Haziran 1667) âmil olarak görev yaptığı Uteme’de vefat etti. Eserleri. 1. ʿİḳdü’l-cevâhiri’l-behiyye fî maʿrifeti’l-memleketi’l-Yemeniyye ve’d-devleti’l-Fâṭımiyyeti’l-Ḥüseyniyye . Hz. Peygamber devrinden 1007 (1598) yılına kadar Yemen’de valilik yapan devlet adamları ve burada hüküm süren hânedanlardan bahseden eserin yazma nüshası Riyad’da Hamed el-Câsir’in özel kütüphanesinde bulunmaktadır. 2. ed-Dürretü’l-muḍıyye fi’s-sîreti’l-Ḳāsımiyye . 1064 (1653-54) yılında tamamlanan ve Zeydî imam Mansûr-Billâh’ın hayatını ihtiva eden eser, en-Nübẕetü’l-müşîre ilâ cümelin min ʿuyûni’s-sîre fî aḫbâri Mevlânâ el-Manṣûr-Billâh el-Ḳāsım b. Muḥammed adıyla meşhur olup yazma nüshası San‘a Camii Kütüphanesi’nde ve British Museum’dadır (nr. 1064, 3329). 3. el-Cevheretü’l-münîre fî târîḫi devleti’l-Müʾeyyed-Billâh ez-Zeydî . Yazma nüshası Berlin Kütüphanesi’nde bulunan (nr. 147) eser el-Cevheretü’l-muḍıyye fî târîḫi’l-ḫilâfeti’l-Müʾeyyediyye ve el-Cevheretü’l-münîre fî cümelin min ʿuyûni’s-sîre adlarıyla da bilinmektedir. Müellif kitabında daha çok kendi müşahedelerine dayanarak Zeydî imam Müeyyed-Billâh’ın (ö. 1054/1644) Yemen Beylerbeyi Haydar Paşa ve halefi Nasuh Paşa ile mücadelesinden, Yemen’deki Osmanlı hâkimiyetinden bahsetmekte ve yaşadığı devrin meşhur bilginlerinin biyografileri hakkında bilgi vermektedir. Eserin II. cildi Milano Ambrosiana Kütüphanesi’nde bulunmaktadır (Arabo, nr. A 7305 A 115). 4. Tuḥfetü’l-esmâʿ ve’l-ebṣâr bimâ fi’s-sîreti’l-Mütevekkiliyye min ġarâʾibi’l-aḫbâr . Zeydî imam Mütevekkil-Alellah’ın hayatı ve faaliyetlerine dair olan ve Sîretü’l-İmâm Mütevekkil-ʿAlellah İsmâʿîl b. el-Ḳāsım b. Manṣûr adıyla da bilinen eserin yazma nüshaları Yemen’de Mükellâ’da halk kütüphanesinde, Vatikan Kütüphanesi’nde (nr. 971) ve San‘a Camii Kütüphanesi’nde bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 139 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:curmuzi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=curmuzi, https://islamansiklopedisi.org.tr/curmuzi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:curmuzi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=curmuzi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:12175",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=12175, heading_ar=الجرموزي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:49Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=curmuzi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[12175]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=curmuzi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=12175 (heading_ar=الجرموزي) via Track A (DİA→Alam xref bridge). dt=Yemenli tarihçi."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hasenî"
+  ],
+  "death_temporal": {
+    "start_ah": 1077,
+    "start_ce": 1667,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=curmuzi, URL: https://islamansiklopedisi.org.tr/curmuzi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[12175] || DİA birth place: Cürmûz || DİA death place: Uteme || DİA death-date string: (ö. 1077/1667) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=12175, heading_ar=الجرموزي, dt=Yemenli tarihçi.",
+  "authored_works": [
+    "iac:work-00001440",
+    "iac:work-00001628",
+    "iac:work-00002016"
+  ]
+}

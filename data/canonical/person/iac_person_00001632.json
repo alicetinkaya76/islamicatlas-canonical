@@ -1,0 +1,108 @@
+{
+  "@id": "iac:person-00001632",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Burzülî",
+      "ar": "البرزلي"
+    },
+    "originalScript": {
+      "ar": "البرزلي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Kāsım b. Ahmed b. Muhammed el-Belevî el-Kayrevânî"
+      ]
+    },
+    "description": {
+      "tr": "Kayrevan’a bağlı Burzüle’ye veya Benî Birzâle kabilesine nisbetle Burzülî diye tanınır. 740’ta (1339) Kayrevan’da doğdu, daha sonra Tunus’a yerleşti. Ebû Abdullah İbn Merzûk el-Hatîb, Ebü’l-Hasan el-Batrûnî, Ahmed b. Muhammed el-Belensî, Ebû Muhammed Abdullah b. Muhammed eş-Şebîbî, Ahmed b. Haydara et-Tevzerî, Ebü’l-Abbas el-Mümnânî, Burhâneddin eş-Şâmî, İbnü’l-Hâce el-Belensî gibi tanınmış âlimlerden ders aldı. Kırk yıl kadar İbn Arafe ile beraber bulundu; ondan tefsir, hadis, fıkıh, kıraat, tasavvuf, nahiv, mantık ve matematik konularında birçok kitap okuyup icâzet aldı. 1438 yılında hac yolculuğu sırasında Kahire’ye uğradı. Bir müddet orada ikamet edip ders okudu ve ders verdi. Tunus’a dönünce Zeytûne Camii imamı oldu. Bu arada ders okutmaya da başladı. Sadece Tunus’ta değil bütün Mağrib bölgesinde fetva için ona başvurulurdu. Ebü’l-Kāsım İbn Nâcî, Ebû Zeyd es-Seâlibî ve Ebü’l-Abbas Hulûlû önde gelen talebeleridir. Kahire’deki ikameti sırasında da İbn Hacer el-Askalânî ve Ahmed b. Yûnus’a icâzet vermiştir. 100 yıldan fazla bir ömür sürmüş olan Burzülî Tunus’ta vefat etmiştir. Vefat tarihi bazı kaynaklarda 841 (1437), 842 (1438), 843 (1439) olarak da zikredilmektedir. Eserleri. 1. Câmiʿu mesâʾili’l-aḥkâm fîmâ nezele bi’l-müftîn ve’l-ḥükkâm . Dîvânü’l-Burzülî diye de bilinen eser iki cilt olup Mâlikî mezhebine göre çeşitli konularda verilen birçok fetvayı, fetva verenin ismini de zikrederek nakleder. Zaman zaman devrin içtimaî ve iktisadî hayatı ile tarihî olaylar hakkında da bilgi verir. Bu özelliğiyle X-XIV. yüzyıl Kuzey Afrika’sı hakkında önemli bir yere sahip olan eser, Venşerîsî’nin (ö. 914/1508) meşhur el-Miʿyârü’l-Muʿrib adlı kitabının da temel kaynakları arasındadır. Eserin Tunus Millî Kütüphanesi’nde dört yazma nüshası vardır (Mahfûz, I, 116; ayrıca bk. Brockelmann, GAL , II, 319; Suppl. , II, 347). 2. el-Ḥâvî fi’l-fetâvâ . Nevâzilü’l-Burzülî olarak tanınan eser iki cilt olup yazma bir nüshası Tunus Millî Kütüphanesi’nde bulunmaktadır (nr. 4851). Ebü’l-Abbas Hulûlû ve Bû Saîdî tarafından da ihtisar edilen eserin vakıfla ilgili bir bölümü Belkāsım Tabâbî tarafından neşredilmiştir (Tunus 1987). Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 466 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:burzuli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=burzuli, https://islamansiklopedisi.org.tr/burzuli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:burzuli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=burzuli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:45Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=burzuli (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=burzuli)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Belevî; Kayrevânî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 844,
+    "start_ce": 1440,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=burzuli, URL: https://islamansiklopedisi.org.tr/burzuli || DİA birth place: Kayrevan || DİA death place: Tunus || DİA death-date string: (ö. 844/1440) || DİA categories: fetva > fıkıh > hadis || Chunk count: 1",
+  "birth_place": "iac:place-00013399",
+  "death_place": "iac:place-00013766",
+  "teachers": [
+    "iac:person-00003650"
+  ],
+  "students": [
+    "iac:person-00003494",
+    "iac:person-00003967",
+    "iac:person-00006362",
+    "iac:person-00006737"
+  ]
+}

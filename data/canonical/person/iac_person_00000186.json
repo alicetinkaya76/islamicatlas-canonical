@@ -1,0 +1,120 @@
+{
+  "@id": "iac:person-00000186",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Haytham",
+      "tr": "İbn Heysem",
+      "ar": "ابن الهيثم"
+    },
+    "originalScript": {
+      "ar": "ابن الهيثم"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Ali al-Hasan ibn al-Hasan ibn al-Haytham"
+      ],
+      "tr": [
+        "Ebû Alî el-Hasen b. el-Hasen İbn Heysem"
+      ],
+      "ar": [
+        "أبو علي الحسن بن الحسن ابن الهيثم"
+      ]
+    },
+    "description": {
+      "tr": "Görmenin gözden çıkan ışınlarla değil, göze giren ışıkla çalıştığını kanıtladı — ve deneysel bilimsel yönteme öncülük etti: hipotez → deney → sonuç || İbn Heysem'in Kitâbü'l-Menâzır, optik tarihinin tartışmasız en önemli tek eseridir. 1.000 yıl dominant olan Öklid ve Batlamyus ışın teorisini, camera obscura dahil kontrollü deneylerle desteklenen bir girdi modeliyle değiştirdi. Tekrarlanabilir deney ısrarı Roger Bacon'dan iki yüzyıl öncedir. || [Tarih notu] Sabra'nın Kitâbü'l-Menâzır'ın kritik edisyonu ve çevirisi (1989), Batı optik tarihyazımında İbn Heysem'in Bacon ve Kepler üzerindeki önceliğini yeniden kurdu. Önceki çalışmalar (örn. Crombie 1953) deneysel yöntemi ağırlıklı olarak 13. yüzyıl Avrupalılarına atfediyordu.",
+      "en": "Proved that vision works by light entering the eye — not by rays leaving it — and pioneered the experimental scientific method: hypothesis → experiment → conclusion || Ibn al-Haytham's Kitāb al-Manāẓir is arguably the most important single work in the history of optics. He replaced the emission theory of Euclid and Ptolemy — dominant for 1,000 years — with an intromission model supported by controlled experiments including the camera obscura. His insistence on reproducible experimentation predates Roger Bacon by two centuries. || [Historiographical note] Sabra's critical edition and translation (1989) of Kitāb al-Manāẓir restored Ibn al-Haytham's priority over Bacon and Kepler in Western optics historiography. Earlier accounts (e.g., Crombie 1953) attributed the experimental method primarily to 13th-century Europeans.",
+      "ar": "أثبت أن الرؤية تعمل بدخول الضوء إلى العين — لا بخروج أشعة منها — وأسّس المنهج العلمي التجريبي || كتاب المناظر لابن الهيثم أهم عمل منفرد في تاريخ البصريات. استبدل نظرية الإبصار لإقليدس وبطليموس بنموذج مدعوم بتجارب مضبوطة بما في ذلك الغرفة المظلمة. إصراره على التجريب القابل للتكرار سبق روجر بيكن بقرنين"
+    }
+  },
+  "profession": [
+    "philosopher",
+    "mathematician",
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0003",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0003, lecture_id=ibn-haytham",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:11",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=11",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-12T14:15:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0003 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:15:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "h11_001 QID karantinası: wikidata:Q11423 kayıttan çıkarıldı (denetim MISMATCH, sim=25, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 965,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1040,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0003, lecture_week=9. || Key works: {'title': {'en': 'Kitāb al-Manāẓir (Book of Optics)', 'tr': \"Kitâbü'l-Menâzır\", 'ar': 'كتاب المناظر'}, 'year': 1021, 'field': 'optics', 'significance': {'en': 'Seven-volume treatise that overthrew Euclid/Ptolemy emission theory and established modern optics', 'tr': 'Öklid/Batlamyus ışın teorisini devirip modern optiği kuran yedi ciltlik eser'}}; {'title': {'en': 'On the Configuration of the World', 'tr': 'Dünya Konfigürasyonu Üzerine', 'ar': 'في هيئة العالم'}, 'year': 1027, 'field': 'astronomy', || Modern parallel: Imagine a physicist under house arrest proving that 1,000 years of consensus physics was wrong — and then inventing the scientific method as a bonus. He's the Galileo of optics, three centuries early.",
+  "active_in_places": [
+    "iac:place-00009399"
+  ],
+  "authored_works": [
+    "iac:work-00000006",
+    "iac:work-00000007",
+    "iac:work-00001838",
+    "iac:work-00006176"
+  ],
+  "kunya": "Ebû Ali",
+  "nisba": [
+    "Basrî → Mısrî"
+  ],
+  "laqab": [
+    "el-Basrî"
+  ]
+}

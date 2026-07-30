@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00003207",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂRİSÎ, Mahmûd b. Ubeydullah",
+      "ar": "محمود بن عبيد الله الحارثي"
+    },
+    "originalScript": {
+      "ar": "محمود بن عبيد الله الحارثي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Kāsım (Ebü’l-Mehâmid) Alâüddîn Mahmûd b. Ubeydillâh b. Sâid el-Hârisî"
+      ]
+    },
+    "description": {
+      "tr": "Zilhicce 531’de (Eylül 1137) Serahs’ta doğdu ve orada yetişti. Doğum tarihi 541 (1147) olarak da kaydedilmektedir. Mervli olması sebebiyle Mervezî ve Belh civarındaki Tâykân’a nisbetle Tâykânî nisbeleriyle de anılır. Babası, amcaları Muhammed ve Ubeydullah b. Sâid ile Abdülazîz b. Osman en-Nesefî’den ders aldı. Ayrıca Abdülkerîm b. Muhammed es-Sem‘ânî, Nasr b. Seyyâr es-Sâidî, Mes‘ûd b. Muhammed el-Mes‘ûdî, Ebû Muhammed Fazl b. Muhammed ez-Zeyyâdî gibi âlimlerden hadis dinledi. Kendisinden İbnü’d-Dübeysî ve İbnü’n-Neccâr el-Bağdâdî gibi âlimler rivayette bulundular. Özellikle fıkıh ilminde derinleşerek devrinin önemli Hanefî hukukçularından biri oldu. Hilâf ilmi ve mezhebindeki görüşlere vukufundan dolayı “şeyhülislâm” lakabıyla tanındı. 605 (1209) yılında hac için gittiği Mekke ve Medine’de, dönüşte bir müddet kaldığı Bağdat ile daha sonra yerleştiği Merv’de ders verdi. 19 Rebîülevvel 606 (21 Eylül 1209) tarihinde Merv’de vefat etti. Hepsi de fürû-i fıkıhla ilgili olan eserlerinden sadece, Muhammed b. Hasan eş-Şeybânî’nin el-Câmiʿu’l-kebîr ’inin Ahmed b. Ebü’l-Müeyyed el-Mahmûdî en-Nesefî tarafından kaleme alınmış manzum şeklinin şerhi olan Tefhîmü’t-taḥrîr li-naẓmi’l-Câmiʿi’l-kebîr adlı kitabı günümüze ulaşmıştır (Süleymaniye Ktp., Reîsülküttâb Mustafa Efendi, nr. 306; Dârü’l-kütübi’l-Mısriyye, Fıkhu Hanefî, nr. 95). Kaynaklarda adı geçen diğer eserleri de şunlardır: el-ʿAvn fi’l-fıḳh , Ḫulâṣatü’n-nihâye fî fevâʾidi’l-Hidâye , el-ʿUdde ve el-Fetâvâ . Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 204 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:harisi-mahmud-b-ubeydullah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=harisi-mahmud-b-ubeydullah, https://islamansiklopedisi.org.tr/harisi-mahmud-b-ubeydullah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=harisi-mahmud-b-ubeydullah (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hârisî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 606,
+    "start_ce": 1209,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=harisi-mahmud-b-ubeydullah, URL: https://islamansiklopedisi.org.tr/harisi-mahmud-b-ubeydullah || DİA birth place: Serahs || DİA death place: Merv || DİA death-date string: (ö. 606/1209) || DİA categories: fıkıh > hadis > rivayet || Chunk count: 1",
+  "birth_place": "iac:place-00014213",
+  "students": [
+    "iac:person-00004119",
+    "iac:person-00004301",
+    "iac:person-00006798"
+  ]
+}

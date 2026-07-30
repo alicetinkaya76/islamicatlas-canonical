@@ -1,0 +1,116 @@
+{
+  "@id": "iac:person-00001526",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bihârî",
+      "ar": "بهارى"
+    },
+    "originalScript": {
+      "ar": "بهارى"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhibbullāh b. Abdişşekûr el-Bihârî"
+      ],
+      "en": [
+        "al-BIHARI"
+      ]
+    },
+    "description": {
+      "tr": "Hindistan’ın Bihâr eyaleti sınırları içinde bulunan Muhib Alipûr’a bağlı Kerâ köyünde doğdu. Babası Hz. Osman, annesi Hz. Ebû Bekir’in soyundan gelmektedir. Kutbüddin b. Abdülhalim es-Sihâlevî ve Kutbüddin el-Hüseynî eş-Şemsâbâdî gibi hocalardan ders aldı. Hanefî fıkhı ve mantık sahalarında üne kavuştu. Dekken’de görüştüğü ve üzerinde büyük bir tesir bıraktığı Evrengzîb tarafından önce Leknev, ardından Haydarâbâd kadılığına tayin edildi (1097/1685-86). Daha sonra kadılık görevinden alınıp Şah Âlem’in oğlu şehzade Refîu’l-kadr’in hocalığı ile görevlendirildi. Kâbil’e vali olarak tayin edilen Şah Âlem Bihârî’yi de yanında götürdü (1109/1697-98). Babası Evrengzîb’in ölümü üzerine Dekken’e dönen Şah Âlem, Fâzıl Han unvanını verdiği Bihârî’yi Hindistan başkadısı tayin etti (1118/1706-1707). Ancak Bihârî göreve başladıktan birkaç ay sonra vefat etti. Eserleri. 1. Müsellemü’s̱-s̱übût . Hanefî usûl-i fıkhına dair bir eser olup 1109’da (1697-98) kaleme alınmıştır (Leknev 1263; Aligarh 1297; Aymara 1297; Delhi 1311; Kahire 1322, 1324, 1326). 2. Süllemü’l-ʿulûm . Mantıkla ilgili bir eserdir (Leknev 1290; Delhi 1322; Kazan 1906). Muhammed Mübârek b. Muhammed Dâim Edhemî Fârûkī’nin el-Münhiyye (Leknev 1265; Kanpûr 1298, 1309; Delhi 1300; Kazan 1887; Lahor 1309), Muhammed Mübîn el-Leknevî’nin Mirʾâtü’ş-şürûḥ (Leknev 1288, 1300, 1322; Kanpûr 1311, 1314), Muhammed Hasan el-Leknevî’nin el-Aḳvâlü’l-erbaʿa (Kanpûr 1286; Leknev 1326), Haydar Ali b. Hamdullah’ın Taḥrîrât , Muhammed Ali el-Mübârekî el-Kanpûrî’nin Miʿrâcü’l-fühûm , Muhammed Abdülbahâ’nın İntâḳu’l-mefhûm (Delhi 1322) adlı eserleri başta olmak üzere pek çok şerh, hâşiye ve ta‘lîkātı vardır. 3. Risâle fi’l-muġāleṭâti’l-ʿâmmeti’l-vürûd . Abdülhay el-Leknevî’nin Muʿînü’l-ġāʾis̱în adlı şerhiyle birlikte basılmıştır (Hind 1298). 4. el-Cevherü’l-ferd . Atomlarla ilgili bir risâledir (yazmaları için bk. GAL , II, 554; Suppl. , II, 624). Bunlardan başka kaynaklarda Risâle fî is̱bâti enne meẕhebe’l-Ḥanefiyye ebʿad ʿani’r-reʾy min meẕhebi’ş-Şâfiʿiyye adlı bir eserinden de söz edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 139 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "al-BIHARI (Muhibb Allah b.",
+      "ar": "البهاري (محب الله بن"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bihari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bihari, https://islamansiklopedisi.org.tr/bihari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:bihari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=bihari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "ei1:1209",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 1, p. 20",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:43Z",
+    "modified": "2026-07-10T15:44:36Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bihari (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=bihari)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 0.96): gap-filled ['description.en', 'description.ar', 'altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bihârî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 1119,
+    "start_ce": 1707,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bihari, URL: https://islamansiklopedisi.org.tr/bihari || DİA birth place: Kerâ || DİA death-date string: (ö. 1119/1707) || DİA categories: mantık || Chunk count: 1",
+  "birth_place": "iac:place-00010180"
+}

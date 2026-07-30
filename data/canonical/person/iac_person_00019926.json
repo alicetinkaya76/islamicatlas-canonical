@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00019926",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Hind bint Athātha",
+      "tr": "Hind bint Esâse",
+      "ar": "هند بنت أثاثة"
+    },
+    "originalScript": {
+      "ar": "هند بنت أثاثة"
+    },
+    "description": {
+      "tr": "Kureyşli şaire",
+      "en": "Qurayshi poetess"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Hind bint Athātha b. ʿAbbād b. al-Muṭṭalib b. ʿAbd Manāf"
+    },
+    "altLabel": {
+      "tr": [
+        "Hind bint Esâse b. Abbâd b. el-Muttalib b. Abd Menâf"
+      ],
+      "ar": [
+        "هند بنت أثاثة بن عباد بن المطلب بن عبد مناف"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:13132",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=13132",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:38Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=13132 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:13132."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 631,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=13132, heading_ar=هند بنت أثاثة || Ziriklī century_ce=7 || Gender: F || Ziriklī place coords (city/region of activity): 21.42, 39.83"
+}

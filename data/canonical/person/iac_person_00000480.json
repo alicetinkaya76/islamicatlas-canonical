@@ -1,0 +1,59 @@
+{
+  "@id": "iac:person-00000480",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdülkerim Nâdir Paşa"
+    },
+    "description": {
+      "tr": "Zağra’da doğdu. Genç yaşta İstanbul’a gelerek yeni kurulan Asâkir-i Mansûre-i Muhammediyye’ye girdi ve buradan mülâzım oldu. Harbiye Mektebi’nin kuruluşundan sonra subay olarak mektep taburuna tayin edildi. 1835’te Viyana’ya gönderildi. Orada beş yıl kaldıktan sonra geri döndü ve miralay rütbesiyle Erkân-ı Harbiyye başkanlığına getirildi. Tanzimat devri ileri gelenlerinin himayesiyle kısa sürede yükseldi. 1846’da feriklik rütbesiyle Dâr-ı Şûrâ-yı Askerî âzalığı ile Mekâtib-i Askeriyye nâzırlığına, ertesi yıl merkezi Bağdat’ta olan Altıncı Ordu müşirliğine tayin edildi. Sultan Abdülaziz döneminde çeşitli yerlerde ordu kumandanlığı, valilik, ayrıca seraskerlik, bahriye nâzırlığı ve serdâr-ı ekremlik görevlerinde bulundu. II. Abdülhamid’in saltanatının ilk yıllarında çıkan 1878 Osmanlı-Rus Savaşı sırasında Rumeli ordusu kumandanı idi. Bu savaşta pek başarı gösteremeyip Ruslar’ın Balkanlar’a yayılmasına engel olamayınca padişah tarafından görevinden alındı ve Serasker Redif Paşa ile birlikte dîvânıharbe verildi. Muhakeme sonunda Rus yenilgisinin tek sorumlusu olmadığı, bunda İstanbul’daki askerî meclisin de payı bulunduğu anlaşılınca görevine iade edildi, fakat Midilli’ye gönderildi. Daha sonra Rodos’a nakledildi; 1883’te orada öldü ve Murad Reis Türbesi’ne defnedildi. Hüseyin Avni Paşa’ya yakınlığı dolayısıyla Sultan Abdülaziz’in hal‘inde rolü olduğu iddia edilenler arasında onun da adı geçer. Dürüst ve cesur bir asker olmakla birlikte kendisinden beklenen başarıyı gösteremeyen Abdülkerim Nâdir Paşa’nın, öte yandan Nâmık Paşa ile birlikte, ordunun Avrupaî tarzda teşkilâtlanmasında önemli hizmetleri geçmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 253-254 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulkerim-nadir-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulkerim-nadir-pasa, https://islamansiklopedisi.org.tr/abdulkerim-nadir-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:38Z",
+    "modified": "2026-05-04T15:32:38Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulkerim-nadir-pasa (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:33Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1807,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdulkerim-nadir-pasa, URL: https://islamansiklopedisi.org.tr/abdulkerim-nadir-pasa || DİA birth place: Zağra || DİA death place: 1883 || DİA death-date string: (1807-1883) || Chunk count: 1"
+}

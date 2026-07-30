@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00001449",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BELOT, Jean-Baptiste"
+    },
+    "description": {
+      "tr": "Fransa’nın Bourgogne bölgesinde bugün Côte d’Or vilâyetine bağlı olan Lux kasabasında doğdu. Dijon papaz okulunda belâgat, Grek-Latin edebiyatı ve bir yıl felsefe okudu, özel olarak da gramer dersleri aldı. 1842’de Compagnie de Jésus teşkilâtına girdi, geri kalan papazlık tahsilini burada tamamladı. 1844’te Cezayir’e giderek orada iki yıl öğretmenlik yaptı. Cezayir’de bulunduğu sırada Arapça öğrendi. 1847’de Fransa’ya döndü ve iki yıl sonra Éléments de la Grammaire Arabe adlı eserini yazdı (Vals 1849). Kilise teşkilâtında çeşitli görevlerde bulundu. 1855-1859 yılları arasında Roma’da ilâhiyat tahsil etti. 1866’da Lübnan’a gitti. Lübnan’daki ilk iki yılını Cizvit papazlarının idare etmekte oldukları bir okulda hocalık yaparak geçirdikten sonra ölümüne kadar kalacağı Beyrut’a gitti. Beyrut’ta yazarlığa ve yayımcılığa başladı. Ruhanîlik, hıristiyan hayatı ve kutsal metinle ilgili birçok Arapça eser neşretti (bu eserler için bk. H. Fleisch, s. 3-4). 1872’de Katolik Matbaası’nın müdürü oldu ve 1898’e kadar bu görevde kaldı. 1898’den ölümüne kadar da sadece Arapça bölümüne nezaret etti. Eserleri. 1. Éléments de la Grammaire Arabe (taş baskısı, Vals 1849). 2. Nuḫabü’l-mülaḥ (A. Rodet ile birlikte; I-V, Beyrut 1870-1874). Arap edebiyatından seçmeleri ihtiva eden eserin daha sonra birçok baskısı yapılmıştır. 3. el-Ferâʾidü’d-dürriyye fi’l-luġateyni’l-ʿArabiyye ve’l-Fransiyye ( Vocabulaire Arabe-Français ) (Beyrut 1883). Belot bu eserini P. Cuche’un sözlüğünü esas alarak hazırlamıştır. Bu eser de birçok defa basılmıştır; ayrıca küçük hacimli baskıları da vardır. 4. Dictionnaire Français-Arabe (Beyrut 1890). 5. Cours Pratique de Langue Arabe (Beyrut 1896). Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 426-427 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:belot-jean-baptiste",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=belot-jean-baptiste, https://islamansiklopedisi.org.tr/belot-jean-baptiste",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:belot-jean-baptiste",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=belot-jean-baptiste",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:42Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=belot-jean-baptiste (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=belot-jean-baptiste)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1822,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=belot-jean-baptiste, URL: https://islamansiklopedisi.org.tr/belot-jean-baptiste || DİA birth place: Lux || DİA death-date string: (1822-1904) || DİA categories: felsefe > belâgat || Chunk count: 1"
+}

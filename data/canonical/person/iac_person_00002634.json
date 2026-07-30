@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00002634",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EZHER b. SA‘D",
+      "ar": "أزهر بن سعد"
+    },
+    "originalScript": {
+      "ar": "أزهر بن سعد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Ezher b. Sa‘d es-Semmân el-Bâhilî"
+      ]
+    },
+    "description": {
+      "tr": "109’da (727-28), bazı kaynaklara göre ise 111’de (729-30) doğdu. Basra civarında yaşayan Benî Bâhile kabilesinin azatlı kölesiydi. Babasının Sicistan’ın Ruhhac kasabasından oluşuna bakarak onun da burada doğduğu tahmin edilebilir. Ezher Araplar’a esir düşerek Bâhile kabilesine satıldı. İlk tahsiline Basra’da başladı ve Kur’an öğrendikten sonra hadis ezberlemeye yöneldi. Devrin tanınmış âlimlerinden Süleyman b. Tarhân et-Teymî, Yûnus b. Ubeyd, Abdullah b. Avn, Kurre b. Hâlid’in derslerine devam etti. Ali b. Medînî, İshak b. Râhûye, Ahmed b. Hanbel, Bündâr, Muhammed b. Yahyâ ez-Zühlî, Ahmed b. Furât gibi muhaddisler kendisinden hadis rivayet ettiler. Hadis meclislerine birlikte katıldığı ders arkadaşı meşhur Türk âlimi Abdullah b. Mübârek’in kendisinden rivayette bulunması onun hadis ilmindeki yerini göstermeye yeterlidir. Son derece güçlü bir hâfızaya sahip olan Ezher, azatlı bir köle olmasına rağmen hâfızası ve gayretiyle ilimde yüksek bir yere ulaştı. Yahyâ b. Maîn, İbn Avn’ın öğrencileri içinde onun kadar bilgili başka bir kişinin bulunmadığını söylerdi. Abbâsî Halifesi Ebû Ca‘fer el-Mansûr’la yakın arkadaş oldukları rivayet edilen Ezher halife olduktan sonra onunla fazla görüşmemiştir. Iraklı muhaddisler arasında gerçek bir otorite kabul edilmiş, Basra’daki hadis meclislerine kendisinden hadis yazmak üzere binlerce talebe gelmiştir. Ayrıca hadisleri yazılı bir kitaptan nakletmesi sebebiyle takdir edilmiş ve rivayetleri İbn Mâce dışında Kütüb-i Sitte ’de yer almıştır. Hocası İbn Avn’ın hadislerini en iyi bilmesiyle de şöhret bulan Ezher, ömrünün sonlarına doğru yoksul düşen hocasının bütün ihtiyaçlarını karşılamıştır. Ezher b. Sa‘d sika bir râvi olup rivayet ettiği hadisler delil olmaya elverişli bulunduğu için tanınmış fıkıh âlimi Hammâd b. Zeyd öğrencilerine onun naklettiği hadisleri yazmalarını tavsiye etmiştir. Hadis münekkidi Ukaylî, Ezher’in rivayet ettiği hadislerden ikisini ele alarak onun bunlarda tedlîs yaptığını, dolayısıyla zayıf bir râvi olduğunu iddia etmişse de İbn Hacer bu iddianın cerh sayılamayacağını, Ezher’i zayıf râviler arasında zikretmenin doğru olmayacağını söylemiştir. Nitekim Zehebî de Ukaylî’nin bu kanaatini hatalı bulmuş ve Ahmed b. Hanbel’in bir başka râviyi Ezher’e tercih etmesinin onu yanılttığını belirtmiştir. Ezher 203 (818-19) yılında Basra’da vefat etmiştir. Halîfe b. Hayyât bu tarihi 207 (822-23) olarak zikretmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 63-64 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ezher-b-sad",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ezher-b-sad, https://islamansiklopedisi.org.tr/ezher-b-sad",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:03Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ezher-b-sad (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bâhilî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 203,
+    "start_ce": 818,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ezher-b-sad, URL: https://islamansiklopedisi.org.tr/ezher-b-sad || DİA death place: Basra || DİA death-date string: (ö. 203/818-19) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003674",
+    "iac:person-00007741"
+  ],
+  "students": [
+    "iac:person-00000753",
+    "iac:person-00000935",
+    "iac:person-00001613",
+    "iac:person-00003986",
+    "iac:person-00004030",
+    "iac:person-00004182",
+    "iac:person-00007896"
+  ]
+}

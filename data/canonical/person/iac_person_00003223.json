@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00003223",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hârun Buğra Han"
+    },
+    "description": {
+      "tr": "Abdülkerim Satuk Buğra Han’ın torunu olup şehzadeliğinde kardeşi Ebü’l-Hasan Ali Arslan Han tarafından devletin batı kısımlarını idare etmekle görevlendirildi. Kendisi, Mâverâünnehir’i ilk fetheden Karahanlı hükümdarı olarak şöhret kazanmıştır. Sâmânîler’in içinde bulunduğu karışıklıklar dolayısıyla bir kısım muhalif Sâmânî kumandanlarının da desteğini sağlayarak 990’da İsfîcâb’ı zaptetti. İki yıl sonra Sâmânîler’in başşehri Buhara’ya girdi (Rebîülevvel 382 / Mayıs 992). Sâmânî Emîri Nûh b. Mansûr şehri terketmek zorunda kaldı. Bu hareketi, Sâmânîler’in Horasan valisi Ebû Ali es-Simcûrî tarafından desteklenmişti. Hatta onunla daha İsfîcâb’ın zaptı sırasında, Ceyhun nehri sınır olmak üzere Sâmânî Devleti’ni taksim etme hususunda gizli bir antlaşma da yapmıştı. Böylece Horasan Ebû Ali’nin, Mâverâünnehir de Hârun Buğra Han’ın idaresine geçecekti. Ancak Hârun Buhara’ya girdikten sonra Ebû Ali’yi bir ordu kumandanı gibi gördü ve daha önceki anlaşmaya yanaşmadı. Fakat çok geçmeden Buhara’da ağır bir hastalığa yakalandı ve yerine Sâmânî şehzadelerinden Abdülazîz Nûh b. Nasr’ı bırakarak buradan ayrılmak zorunda kaldı. Kâşgar’a dönerken Koçkarbaşı mevkiinde vefat etti. Hârun Buğra Han, Şihâbüddevle ve Zahîrüdda‘ve gibi İslâmî lakaplar taşımaktaysa da bu lakaplar muhtemelen halife tarafından verilmiş olmayıp kendisi unvanlarına eklemiştir. Zira o sırada Karahanlılar ile Sünnî İslâm muhiti arasında henüz resmî bir münasebet kurulmamıştı. Bilinen en eski Karahanlı paraları ona ait olup 382’de (992) Îlâk’ta basılan sikkeler Abbâsî halifeliğiyle herhangi bir münasebetinin bulunmadığını gösterir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 257-258 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:harun-bugra-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=harun-bugra-han, https://islamansiklopedisi.org.tr/harun-bugra-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:harun-bugra-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/harun-bugra-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=harun-bugra-han (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 382,
+    "start_ce": 992,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=harun-bugra-han, URL: https://islamansiklopedisi.org.tr/harun-bugra-han || DİA death place: Buhara || DİA death-date string: (ö. 382/992) || Chunk count: 1"
+}

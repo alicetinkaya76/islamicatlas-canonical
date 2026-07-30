@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003054",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HAKEM b. EBÜ’l-ÂS",
+      "ar": "الحكم بن أبي العاص"
+    },
+    "originalScript": {
+      "ar": "الحكم بن أبي العاص"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Mervân el-Hakem b. Ebi’l-Âs b. Ümeyye el-Ümevî"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Osman’ın amcası, Ebû Süfyân’ın amcasının oğlu, Emevî Halifesi I. Mervân’ın babasıdır. İslâmiyet’i kabul etmeden önce Resûlullah’a eziyet edenler arasında zikredilen Hakem Mekke’nin fethi sırasında müslüman oldu. Daha sonra Medine’ye giderek orada bir müddet kaldı. Bu süre içerisinde Hz. Peygamber’i üzecek bazı davranışlarda bulundu. Resûl-i Ekrem’in yürüyüşünü ve hareketlerini alaylı şekilde taklide yeltendiği, kapısını dinlediği ve Hz. Peygamber’in müşrikler hakkında bazı sahâbîlere verdiği özel bilgileri etrafa yaydığı rivayet edilmektedir. Bunun üzerine Resûl-i Ekrem onu Tâif’e sürdü. Hakem’in Tâif’teki sürgün hayatı Hz. Peygamber’in vefatına kadar devam etti. Halife Ebû Bekir’e ve ardından Hz. Ömer’e Hakem’i Medine’ye getirtmeleri yolunda teklifte bulunulduysa da Resûlullah’ın sürgüne gönderdiği bir kimseyi geri getiremeyeceklerini söyleyerek kabul etmediler. Fakat Hz. Osman halife olunca amcasını Tâif’ten Medine’ye çağırdı ve ayrıca kendisine 100.000 dirhem verdi. Hakem’i geri çağırmasının yanlış bir davranış olduğu söylenince de Peygamber hayatta iken amcasının geri getirilmesi hususunda ondan söz aldığını ileri sürdü. Hz. Osman’ın bu tutumunun, daha sonra kendisine karşı gerçekleştirilecek ayaklanmanın sebeplerinden birini teşkil ettiği belirtilmektedir. Hakem, Hz. Osman’a karşı başlatılan isyandan birkaç ay önce Medine’de öldü. Onun vefat tarihi 32 (652) olarak da kaydedilmektedir ( İbn Hacer, el-İṣâbe , I, 346). Hz. Osman, Hakem’in ölümünden sonra mezarını üzerine bir mahfaza örterek koruma altına almıştır. Resûl-i Ekrem’in sohbetinden gereği gibi faydalanamadığı bildirilen Hakem ve soyu aleyhinde Hz. Peygamber’den ve sahâbîlerden sahih olmadığı belirtilen pek çok haber nakledilmiştir (bk. Heysemî, V, 241-244; İbn Hacer, el-Meṭâlibü’l-ʿâliye , IV, 329-332). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 175-176 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hakem-b-ebul-as",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hakem-b-ebul-as, https://islamansiklopedisi.org.tr/hakem-b-ebul-as",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hakem-b-ebul-as",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hakem-b-ebul-as",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:09Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:09Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hakem-b-ebul-as (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ümevî"
+  ],
+  "death_temporal": {
+    "start_ah": 31,
+    "start_ce": 651,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hakem-b-ebul-as, URL: https://islamansiklopedisi.org.tr/hakem-b-ebul-as || DİA death-date string: (ö. 31/651) || DİA categories: rivayet || Chunk count: 1"
+}

@@ -1,0 +1,62 @@
+{
+  "@id": "iac:person-00000770",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED ÇELEBİ, Na‘ne"
+    },
+    "description": {
+      "tr": "Türk mûsiki kaynaklarında Na‘ne lakabıyla tanınır. İstanbul’da Galata semtinde doğdu. Devrinin mûsiki üstatlarından ders aldı. Sesi çok güzel olduğu için Sultan IV. Mehmed devrinde (1648-1687) şöhreti artarak padişah sohbetlerine katılmaya başladı. Bir müddet sonra da hânendeler arasına girdi. Hayatının son yılları hakkında yeterli bilgi yoksa da İstanbul’da vefat ettiği bilinmektedir. Devrinin bestekârları arasında önemli bir yeri bulunan Ahmed Çelebi aynı zamanda iyi bir hoca idi. Talebelerini büyük bir titizlikle seçtiği, mûsikinin inceliklerine vâkıf olmayanları kabul etmediği söylenir. Çeşitli el yazması güfte mecmualarında dinî ve din dışı birçok eserine rastlanıyorsa da zamanımıza ancak iki bestesi ile bir ağır semâisi ulaşmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 56 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-celebi-nane",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-celebi-nane, https://islamansiklopedisi.org.tr/ahmed-celebi-nane",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:52Z",
+    "modified": "2026-05-04T15:39:39Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-celebi-nane (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1098,
+    "start_ce": 1686,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-celebi-nane, URL: https://islamansiklopedisi.org.tr/ahmed-celebi-nane || DİA death place: İstanbul || DİA death-date string: (ö. 1098/1686-87) || Chunk count: 1",
+  "death_place": "iac:place-00000735"
+}

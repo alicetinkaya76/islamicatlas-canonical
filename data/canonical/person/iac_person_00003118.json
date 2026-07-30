@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00003118",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hamâdu Mûsâ"
+    },
+    "altLabel": {
+      "tr": [
+        "Sîdî Ahmed b. Mûsâ el-Cezûlî es-Simlâlî"
+      ]
+    },
+    "description": {
+      "tr": "864 (1460) veya 865 (1461) yılında Fas’ın güneybatısında Sûs bölgesindeki Bû Mervân’da doğdu. Asıl adı olan Ahmed b. Mûsâ’yı Kuzey Afrika yerlileri Hamâdu Mûsâ şeklinde telaffuz ettiklerinden bu adla tanınır. Sayılarının 300’ü aştığı söylenen birçok şeyhten feyiz alarak yetişen Hamâdu Mûsâ, Cezûliyye tarikatı şeyhlerinden Abdülazîz et-Tebbâ‘a intisap ettikten sonra memleketinden ayrılarak muhtemelen şeyhinin emriyle Bağdat’a kadar uzanan bir seyahate çıktı. İki yıl sonra 927’de (1521) Merakeş’e döndü. Şeyhi Tebbâ‘ın kabri başında yedi gün kalıp ardından Sûs’a geçti ve Tâzervâlt’ta bir zâviye kurdu. Sa‘dî Sultanı Abdullah el-Gālib’in kendisini ziyaret etmesi şöhretinin daha da yayılmasını sağladı. Sultan Abdullah, 965’te (1558) Tanca ve Sebte’ye (Ceuta) kadar gelen Osmanlılar’a karşı ondan yardım istedi; şeyh de bölgeyi terketmeleri konusunda Osmanlılar’a çağrı yaparak ayrılmalarını sağladı. Portekizliler’e karşı da Sultan Abdullah’ı desteklemeyi sürdürdü. Sa‘dîler kendisine büyük saygı duydular. Tâzervâlt’ta vefat eden Hamâdu Mûsâ’nın türbesi günümüzde mart, ağustos ve eylül aylarında olmak üzere yılda üç defa ziyaret edilmektedir. Sa‘dîler’in son zamanlarında birbirine muhalif üç grup, devletin zayıflamasını fırsat bilerek kendi bölgelerinde müstakil emirlikler kurdular. Hamâdu Mûsâ’nın torunlarından Ebû Hassûn Ali es-Simlâlî’nin Sûs’ta kurduğu emirlik bunlardan biridir. Ebû Hassûn, Sa‘dî Sultanı Ahmed Ebû Mahallî’nin 1614’te ölümünden sonra tahta geçen Sultan Zeydân’ı zayıf düşürmek için başta Cezûle kabilesi olmak üzere Sûs Berberîleri’ni merkezî idareye karşı ayaklandırdı; 1626’da Yahyâ’nın ölmesiyle Hâdî Emirliği dağıldı. Îlîğ şehri Sûs bölgesinin ve Ebû Hassûn’un emirliğinin merkezi oldu. Birkaç yıl içinde sınırlarını genişleten Ebû Hassûn 1631’de Sicilmâse’yi aldı. Sûs bölgesini iktisadî bakımdan ayakta tutabilmek için Îlîğ’i Batı Afrika ticaretinin merkezi haline getirdi. XIX. yüzyılın başlarında Ulâd Sîdî Hamâdu Mûsâ, Tâzervâlt Sultanlığı’na eski gücünü kazandırdıysa da Filâlîler’den Mevlây Hasan (1873-1893) sultanlığı yeniden etkisiz hale getirdi. Buna rağmen Tâzervâlt prensleri Hamâdu Mûsâ’ya borçlu oldukları mânevî otoritelerini XX. yüzyılın başına kadar korudular. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 399-400 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hamadu-musa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hamadu-musa, https://islamansiklopedisi.org.tr/hamadu-musa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:11Z",
+    "modified": "2026-05-04T15:34:11Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hamadu-musa (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cezûlî; Simlâlî"
+  ],
+  "birth_temporal": {
+    "start_ah": 865,
+    "start_ce": 1461,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 971,
+    "start_ce": 1563,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hamadu-musa, URL: https://islamansiklopedisi.org.tr/hamadu-musa || DİA birth place: Mervân || DİA death-date string: (ö. 971/1563) || DİA categories: tarikat || Chunk count: 1"
+}

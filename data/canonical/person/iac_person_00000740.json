@@ -1,0 +1,87 @@
+{
+  "@id": "iac:person-00000740",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahîzâde Yûsuf Efendi"
+    },
+    "description": {
+      "tr": "Ahî Çelebi diye de tanınır. Sultan II. Bayezid devri âlimlerinden olup babasının adı Cüneyd’dir. Önce Ahmed Kırîmî’den, daha sonra Sultan Bayezid’in hocası Molla Selâhaddin’den ve Molla Hüsrev’den ders aldı. Sırasıyla Bursa Molla Hüsrev, Edirne Haceriyye (Taşlık), İstanbul Kalenderiyye ve Vezir Mahmud Paşa medreselerine müderris oldu. Daha sonra Bursa Sultaniye Medresesi’ne ve oradan da Semâniye (Sahn-ı Semân) medreselerinden birine tayin edildi. Bugün Fâtih Camii yakınlarındaki Dârüşşafaka caddesinde bulunan Ahîzâde Camii’ni yaptırıp kitaplarını da oraya vakfeden Ahîzâde Yûsuf Efendi, Sahn Medresesi’nde müderris iken vefat etti ve bu caminin hazîresine defnedildi. Vefat tarihi bazı kaynaklarda 902 (1497) ve 904 (1499) olarak da geçer. Ahîzâde’nin en önemli eseri Ẕaḫîretü’l-ʿuḳbâ fî şerḥi Ṣadri’ş-şerîʿati’l-ʿuẓmâ ’dır. Burhânüşşerîa Mahmûd b. Sadrüşşerîa el-Evvel’in Viḳāyetü’r-rivâye fî mesâʾili’l-Hidâye adlı eserine torunu Sadrüşşerîa es-Sânî Ubeydullah b. Mes‘ûd’un yaptığı şerhin (ki müellifin lakabı olan Sadrüşşerîa adıyla tanınmıştır) hâşiyesi olan eser, 891-901 (1486-1496) yılları arasında telif edilmiştir. Birçok kütüphanedeki yazmaları yanında Kayseri Râşid Efendi Kütüphanesi’nde müellif hattıyla bir yazması da bulunan (bk. A. Rıza Karabulut, sütun 705) bu eser, Hâşiye-i Çelebi diye de tanınmış olup birkaç defa basılmıştır (Kalküta 1245; Leknev 1873, 1882, 1304; Lahor 1897; Kanpûr 1878). Ahîzâde’nin nahiv, mantık ve belâgatla ilgili tarifleri şemalarla gösteren Zübdetü’t-taʿrîfât adlı eseri de Osman Azmî b. Ahmed’in bazı ilâveleriyle basılmıştır (İstanbul 1285, 1308). Ayrıca Terceme-i Ferâiz-i Sirâciyye , Taʿlîḳāt ʿalâ Tefsîri’l-Beyżâvî (Süleymaniye Ktp., Şehid Ali Paşa, nr. 184) adlı henüz basılmamış eserleriyle küfre götüren lafızları açıklayan akaidle ilgili Hediyyetü’l-mühtedîn (Hidâyetü’l-mehdiyyîn) adlı matbu (İstanbul 1403/1983) bir risâlesi vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 549 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahizade-yusuf-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahizade-yusuf-efendi, https://islamansiklopedisi.org.tr/ahizade-yusuf-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahizade-yusuf-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahizade-yusuf-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahizade-yusuf-efendi (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 905,
+    "start_ce": 1500,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahizade-yusuf-efendi, URL: https://islamansiklopedisi.org.tr/ahizade-yusuf-efendi || DİA death-date string: (ö. 905/1500) || DİA categories: tefsir > mantık > nahiv || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005581"
+  ]
+}

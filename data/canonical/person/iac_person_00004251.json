@@ -1,0 +1,109 @@
+{
+  "@id": "iac:person-00004251",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Ruler",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-LEBBÛDÎ",
+      "ar": "ابن اللبّودي"
+    },
+    "originalScript": {
+      "ar": "ابن اللبّودي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Zekeriyyâ Necmüddîn Yahyâ b. Muhammed b. Abdân b. Abdilvâhid el-Halebî ed-Dımaşkī et-Tabîb"
+      ]
+    },
+    "description": {
+      "tr": "607’de (1210-11) Halep’te doğdu. Küçük yaşta ailesiyle birlikte Dımaşk’a yerleşti. Burada İbn Ebû Usaybia’nın hocası hekim Mühezzebüddin ed-Dahvâr’dan tıp tahsil etti. Ardından felsefe, matematik ve astronomi gibi aklî ilimler alanında üstün başarı göstererek kendi bölgesinde üne kavuştu. Ayrıca yazdığı şiirlerle dikkat çekiyor, hatta şiirde Lebîd b. Rebîa ile, nesirde Abdülhamîd el-Kâtib’le ve belâgatta Sehbân’la aynı düzeyde sayılıyordu (İbn Ebû Usaybia, s. 663). Bu meziyetleri sebebiyle Humus Hükümdarı el-Melikü’l-Mansûr İbrâhim onu hizmetine aldı ve tabipliğinin yanında siyaset ve idarecilikteki yeteneğinden dolayı vezirliğe tayin etti. İbnü’l-Lebbûdî, 643’te (1245-46) el-Melikü’l-Mansûr’un ölümü üzerine Mısır’a el-Melikü’s-Sâlih Necmeddin Eyyûb’un yanına gitti ve bu emîrden büyük saygı görerek kısa bir müddet sonra ayda 3000 dirhem maaşla İskenderiye’de divan başkanlığına getirildi. Mısır’da iken 661 (1263) ve 664 (1266) yıllarında Filistin ve Dımaşk’a gidip geldiği, hayatının son dört yılını Dımaşk’ta divan başkanı olarak geçirdiği bilinmektedir ( a.g.e. , s. 664-666). Genelde kabul edilen ölüm tarihi 670’tir (1271); İbn Kesîr’in yazdığına göre Dımaşk’ta Hammâmülfelek civarında kendi vakfı olan Lebbûdiyye Medresesi’ne gömülmüştür ( el-Bidâye , XIII, 262). Eserleri. İbnü’l-Lebbûdî’nin yaşadığı XIII. yüzyıl, İslâm toplumunda ilim ve felsefe hareketlerinin genel olarak durakladığı dönemdir; o yıllarda bu alanlarda yapılan çalışmaların öncekilerin tekrarı mahiyetinde olduğu, büyük ölçüde orijinaliteden yoksun bulunduğu kabul edilir. Nitekim İbnü’l-Lebbûdî’ye ait yirmi iki eserin listesini veren İbn Ebû Usaybia bu eserlerin sekizinin önceki hekim, filozof ve matematikçilerin kitaplarının ihtisarından ibaret olduğunu söyler ( ʿUyûnü’l-enbâʾ , s. 668). Bunlardan İbn Sînâ’nın el-İşârât ve’t-tenbîhât ’ına yazdığı muhtasar (Süleymaniye Ktp., Ayasofya, nr. 2420), Fahreddin er-Râzî’nin Kitâbü’l-Meʿâlim ’ine yazdığı şerh (Süleymaniye Ktp., Ayasofya, nr. 2321), ayrıca Muḫtaṣarü’l-Külliyât mine’l-Ḳānûn li’bn Sînâ (Bibliothèque Nationale, nr. 2918, müellif hattı) ve Tedḳīḳu’l-mebâḥis̱i’ṭ-ṭıbbiyye fî taḥḳīḳi’l-mesâʾili’l-ḫilâfiyye ʿalâ ṭarîḳı mesâʾili ḫilâfi’l-fuḳahâʾ (Escurial Library, nr. 892) günümüze ulaşmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 122 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "ruler",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-lebbudi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-lebbudi, https://islamansiklopedisi.org.tr/ibnul-lebbudi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibnul-lebbudi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibnul-lebbudi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:13459",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=13459, heading_ar=ابن اللبودي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:26Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:26Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:26Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-lebbudi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[13459]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibnul-lebbudi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=13459 (heading_ar=ابن اللبودي) via Track A (DİA→Alam xref bridge). dt=Bilge, edib, tıp bilginlerinden."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Halebî"
+  ],
+  "death_temporal": {
+    "start_ah": 670,
+    "start_ce": 1271,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-lebbudi, URL: https://islamansiklopedisi.org.tr/ibnul-lebbudi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[13459] || DİA birth place: Halep || DİA death-date string: (ö. 670/1271 [?]) || DİA categories: tıp > felsefe > matematik || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=13459, heading_ar=ابن اللبودي, dt=Bilge, edib, tıp bilginlerinden.",
+  "active_in_places": [
+    "iac:place-00003866",
+    "iac:place-00011312"
+  ]
+}

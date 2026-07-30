@@ -1,0 +1,142 @@
+{
+  "@id": "iac:person-00000234",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Hasan al-Basri",
+      "tr": "Hasan el-Basrî",
+      "ar": "الحسن البصري"
+    },
+    "originalScript": {
+      "ar": "الحسن البصري"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Sa'id al-Hasan ibn Abi al-Hasan al-Basri"
+      ],
+      "tr": [
+        "Ebû Saîd el-Hasen b. Ebi'l-Hasen el-Basrî"
+      ],
+      "ar": [
+        "أبو سعيد الحسن بن أبي الحسن البصري"
+      ]
+    },
+    "description": {
+      "tr": "İslam kelâmının öncüsü ve Basra fikir halkasının kurucusu || Hasan el-Basrî'nin halkası İslam'daki ilk organize fikir forumuydu. || [Tarih notu] Bazı eserlerin yazarlığı tartışmalıdır.",
+      "en": "Pioneer of Islamic theology (kalām) and Basran intellectual circle; founded the tradition of rational theological discourse || Hasan al-Basri's circle was the first organized intellectual forum in Islam, producing both the Mu'tazila and the Ash'ari traditions. || [Historiographical note] His authorship of certain texts is debated; the Risāla ilā ʿAbd al-Malik is among the most securely attributed.",
+      "ar": "رائد علم الكلام الإسلامي ومؤسس حلقة البصرة الفكرية || كانت حلقة الحسن البصري أول منتدى فكري منظم في الإسلام"
+    }
+  },
+  "profession": [
+    "scholar",
+    "philosopher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0051",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0051",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:58",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=58",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E0050",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:52Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0051 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-1 conf 1.0): ['derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 642,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 728,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q293500",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Hasan al-Basri')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0051, lecture_week=n/a. || Key works: {'title': {'en': 'Risāla ilā ʿAbd al-Malik', 'tr': \"Abdülmelik'e Risâle\", 'ar': 'رسالة إلى عبد الملك'}, 'year': 700, 'field': 'theology', 'significance': {'en': 'Earliest systematic treatise on free will (qadar) in Islam', 'tr': \"İslam'da irade özgürlüğü (kader) üzerine ilk sistematik risale\"}} || Modern parallel: Like Socrates — we know him primarily through his students, who founded entire schools of thought.",
+  "active_in_places": [
+    "iac:place-00001954"
+  ],
+  "birth_place": "iac:place-00013423",
+  "authored_works": [
+    "iac:work-00000076"
+  ],
+  "kunya": "Ebû Saîd",
+  "nisba": [
+    "Basrî"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

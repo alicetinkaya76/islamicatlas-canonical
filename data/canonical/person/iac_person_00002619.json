@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00002619",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EVHADÜDDÎN-i MERÂGĪ",
+      "ar": "أوحد الدين مراغي"
+    },
+    "originalScript": {
+      "ar": "أوحد الدين مراغي"
+    },
+    "altLabel": {
+      "tr": [
+        "Evhadüddîn (Rüknüddîn) b. Hüseyn-i Merâgī-i İsfahânî"
+      ]
+    },
+    "description": {
+      "tr": "673’te (1274) Azerbaycan’ın Merâga şehrinde doğdu. Bundan dolayı Merâgī veya Merâgāî, babası İsfahanlı olduğu ve kendisi de bir süre bu şehirde oturduğu için İsfahânî nisbelerini aldı. Bazı kaynakların, onun başlangıçta Sâfî olan mahlasını bırakıp Evhadî mahlasını almasını, devrin tanınmış sûfîlerinden Evhadüddîn-i Kirmânî’ye intisap etmesine bağlamaları doğru değildir. Zira 673’te (1274) doğan Evhadüddîn-i Merâgī’nin 635’te (1238) ölen Evhadüddîn-i Kirmânî’ye bizzat intisap etmesi mümkün değildir. Bu intisap olayı, Evhadüddîn-i Merâgī’nin Evhadüddîn-i Kirmânî’ye mânen intisap etmesiyle açıklanabilir. Eserlerinden iyi bir tahsil gördüğü anlaşılan Evhadüddîn, uzun seyahatlerden sonra yerleştiği Merâga’da başta İlhanlı hükümdarlarından Ebû Said Bahadır Han olmak üzere bazı devlet adamları tarafından himaye edildi. Evhadüddin Merâga’da öldü ve burada defnedildi. Mahmûd Ferruh onun hakkında Aḥvâl ü Âs̱âr-ı Evḥadî-yi İṣfahânî (Meşhed 1335 hş.) adlı bir monografi kaleme almıştır. Daha çok mersiye ve gazel türünde başarılı olan Merâgī, manzumelerinde genellikle dinî, ahlâkî ve tasavvufî konuları işlemiştir. Eserleri. 1. Dîvân . Yaklaşık 10.000 beyitten ibaret olan divanı, çoğu Ebû Said Bahadır Han ile Vezir Gıyâseddin Muhammed’i öven kaside, gazel, terciibend, terkibibend ve rubâîlerden meydana gelmektedir. Eser Seyyid Yûşa‘ (Madras 1951) ve Hamîd Seâdet (Tahran 1340 hş.) tarafından neşredilmiştir. 2. Dehnâme ( Manṭıḳu’l-ʿuşşâḳ ). 600 beyit civarında olan bu tasavvufî mesnevi 706’da (1307) Fahreddîn-i Irâkī’nin aynı adı taşıyan mesnevisine nazîre olarak yazılmıştır. Âşık ile mâşukun mektuplaşmaları tarzında kaleme alınan eser, Nasîrüddîn-i Tûsî’nin torunu Vecîhüddin Yûsuf’un isteği üzerine ve onun adına yazılmıştır. Dehnâme Mahmûd Ferruh tarafından yayımlanmıştır (Meşhed 1335 hş.). 3. Câm-ı Cem . Senâî’nin Ḥadîḳatü’l-ḥaḳīḳa ’sı tarzında ve onun vezniyle kaleme alınmış ahlâkî ve tasavvufî bir mesnevidir. Câm-ı Cihânbîn adıyla da tanınan ve yaklaşık 5000 beyit ihtiva eden mesnevi Merâgī’nin en iyi eseri olarak kabul edilir. Câm-ı Cem Vahîd-i Destgirdî tarafından neşredilmiştir (Tahran 1307 hş.). Bu üç eseri ayrıca Saîd-i Nefîsî bir arada yayımlamıştır (Tahran 1340 hş.). Kaynaklardan sadece Ṣuḥuf-i İbrâhîm adlı tezkirede adı geçen Enîsü’l-ʿâşıḳīn adlı eserin Evhadüddin’e ait olup olmadığı belli değildir. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 520-521 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:evhaduddin-i-meragi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=evhaduddin-i-meragi, https://islamansiklopedisi.org.tr/evhaduddin-i-meragi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:evhaduddin-i-meragi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=evhaduddin-i-meragi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:03Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=evhaduddin-i-meragi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=evhaduddin-i-meragi)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 738,
+    "start_ce": 1338,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=evhaduddin-i-meragi, URL: https://islamansiklopedisi.org.tr/evhaduddin-i-meragi || DİA birth place: Merâga || DİA death place: Merâga || DİA death-date string: (ö. 738/1338) || DİA categories: tasavvuf > şiir || Chunk count: 1"
+}

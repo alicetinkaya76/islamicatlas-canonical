@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00000996",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALKAME b. VAKKĀS",
+      "ar": "علقمة بن وقّاص"
+    },
+    "originalScript": {
+      "ar": "علقمة بن وقّاص"
+    },
+    "altLabel": {
+      "tr": [
+        "Alkame b. Vakkās b. Mihsan el-Leysî el-Medenî"
+      ]
+    },
+    "description": {
+      "tr": "Kinâneoğulları’nın Utvâre kolundan olduğu için Utvârî nisbesiyle de anılır. Hz. Peygamber zamanında doğan çocuklardandır. Her ne kadar oğlu Amr’a dayandırılan bir rivayete göre Alkame Hendek Savaşı’na katıldığını ve Hz. Peygamber’e gelen bir heyetin içinde bulunduğunu söylemişse de bu rivayet makbul görülmemiş ve Alkame büyük tâbiîlerden sayılmıştır. Hz. Ömer, Âişe, Abdullah b. Ömer, Bilâl b. Hâris ve Amr b. Âs gibi sahâbîlerden hadis rivayet etmiştir. İbn Sa‘d ve Nesâî’nin sika olduğunu belirttikleri Alkame’nin rivayetleri pek fazla değildir. Kendisinden oğulları Amr ve Abdullah ile İbn Şihâb ez-Zührî, İbn Ebû Müleyke gibi büyük muhaddisler rivayette bulunmuşlardır. Alkame’nin hadisleri Kütüb-i Sitte ’de yer almıştır. Alkame’nin, Cemel Vak‘ası’ndan önce pek düşünceli gördüğü Talha b. Ubeydullah ile konuşarak ona hiç değilse oğlu Muhammed’i bu savaşa sokmamasını tavsiye ettiği rivayet edilmektedir (bk. İbnü’l-Esîr, el-Kâmil , III, 220). Alkame’nin ölüm tarihi kesin olarak belli değildir. Bütün kaynaklar onun Abdülmelik b. Mervân zamanında (685-705) vefat ettiğini kaydetmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 468 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:alkame-b-vakkas",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=alkame-b-vakkas, https://islamansiklopedisi.org.tr/alkame-b-vakkas",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:33Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=alkame-b-vakkas (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Leysî; Medenî"
+  ],
+  "death_temporal": {
+    "start_ah": 86,
+    "start_ce": 705,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=alkame-b-vakkas, URL: https://islamansiklopedisi.org.tr/alkame-b-vakkas || DİA death-date string: (ö. 86/705 [?]) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000533",
+    "iac:person-00000874",
+    "iac:person-00001039",
+    "iac:person-00001541",
+    "iac:person-00006207"
+  ],
+  "students": [
+    "iac:person-00003753",
+    "iac:person-00005838",
+    "iac:person-00007897"
+  ]
+}

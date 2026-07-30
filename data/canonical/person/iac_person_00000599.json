@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00000599",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜLMELİK b. NÛH b. NASR",
+      "ar": "عبد الملك بن نوح نصر"
+    },
+    "originalScript": {
+      "ar": "عبد الملك بن نوح نصر"
+    },
+    "altLabel": {
+      "tr": [
+        "el-Melikü’l-Müeyyed Abdülmelik b. Nûh b. Nasr"
+      ]
+    },
+    "description": {
+      "tr": "333’te (944) doğdu. Babası Nûh b. Nasr’ın 954 yılında ölümü üzerine henüz on yaşında iken Buhara’da Sâmânî tahtına çıktı. Babası I. Nûh zamanında Sâmânîler büyük sıkıntı içindeydi. Abdülmelik tahta çıktığında idareye muhtemelen Türk kumandanları hâkimdi. Bu yüzden, muhteris emîrleri itaat altına almakta büyük zorluklarla karşılaştı. Özellikle Horasan Valisi Ebû Ali Çagānî, Yukarı Ceyhun bölgesinde büyük bir nüfuza sahip, Ebû Ali es-Simcûrî de Kuhistan’da geniş topraklara hâkim durumda idi. Ebû Ali Çagānî’yi uzaklaştırmak için Abdülmelik tarafından Horasan’a gönderilen Bekir b. Mâlik orayı ele geçirdi. Ebû Ali de askerlerinin Abdülmelik’in ordusuna katılmaları üzerine, 200 taraftarıyla Rey’de Büveyhîler’den Rüknüddevle’ye sığındı. Bekir b. Mâlik, Sâmânî emîrinin Türk muhafızları tarafından öldürülünce (957) yerine Ebü’l-Hasan es-Simcûrî tayin edildi. Ancak halka kötü davrandığı için Abdülmelik onu azlederek Ebû Mansûr Muhammed b. Abdürrezzâk’ı Horasan valiliğine getirdi (960). Ebû Mansûr Horasan’ı iyi idare etti. Bu arada Alp Tegin’in emrindeki Türk askerleri Buhara’da yönetimi ele geçirerek Sâmânîler’i zor durumda bıraktılar. Bunun üzerine Abdülmelik kumandanlarından Begtegin’i idam ederek askerlerin devlet idaresindeki nüfuzunu kırmak istedi. Fakat içteki karışıklıklar onu Türk Emîri Alp Tegin’i Horasan valiliğine tayin etmeye mecbur bıraktı (961). Büveyhîler’le I. Nûh devrinde başlayan savaşlar Abdülmelik devrinde Sâmânîler’e fazla fayda sağlamayan bir antlaşmayla sona erdi (344/955-56). el-Melikü’l-müeyyed, el-Melikü’l-muvaffak ve el-Emîrü’r-reşîd unvanlarını alan Abdülmelik 23 Kasım 961’de, Buhara meydanında çevgân oynarken attan düşüp öldü. Başka bir rivayete göre de düştükten sonra öldürüldü. Yerine kardeşi Mansûr b. Nûh geçti. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 271-272 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulmelik-b-nuh-b-nasr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulmelik-b-nuh-b-nasr, https://islamansiklopedisi.org.tr/abdulmelik-b-nuh-b-nasr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdulmelik-b-nuh-b-nasr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdulmelik-b-nuh-b-nasr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulmelik-b-nuh-b-nasr (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 350,
+    "start_ce": 961,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdulmelik-b-nuh-b-nasr, URL: https://islamansiklopedisi.org.tr/abdulmelik-b-nuh-b-nasr || DİA death-date string: (ö. 350/961) || DİA categories: rivayet || Chunk count: 1"
+}

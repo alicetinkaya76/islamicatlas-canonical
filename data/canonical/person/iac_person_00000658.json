@@ -1,0 +1,60 @@
+{
+  "@id": "iac:person-00000658",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdurrahman Eşref Efendi"
+    },
+    "description": {
+      "tr": "Merzifonlu Şerefeddin Ali’nin oğludur. Medrese tahsilini tamamladıktan sonra kadılık mesleğine girdi. Hayatı hakkında fazla bilgi bulunmayan Abdurrahman Eşref Efendi’nin önemi, yazdığı eserlerden gelmektedir. 1728’de Türkçe olarak kaleme aldığı Tezkiretü’l-hikem fî tabakāti’l-ümem , bir mukaddime ile otuz altı tezkire ve bir hâtimeden meydana gelir. Eserde çeşitli kavim ve milletlerden, ilk devir İslâm şairlerinden, Kur’an dili olan Arapça’nın nükte ve meziyetlerinden, meşhur kıraat imamlarından ve kırâat-i seb‘adan, Arap lugatçıları ve eserlerinden, nahiv ilminden ve bu sahada yazılmış eserlerden, ünlü müfessirler ve muhaddislerden, fukaha ve kelâmcılardan bahsedilir. Ansiklopedik mahiyetteki bu eser, 1252’de tek cilt halinde Mısır’da, 1291’de de Şemseddin Sivâsî’nin manzum Menâkıb-ı İmâm-ı A‘zam adlı eserinin kenarında İstanbul’da basılmıştır. Abdurrahman Eşref Efendi’nin diğer bir eseri, dört bab ile bir hâtimeden meydana gelen Mir’âtü’s-safâ ’dır; 1710 yılında yazılmış ve devrin sadrazamı Nevşehirli Damad İbrâhim Paşa’ya sunulmuştur. Eserde Mekke, Medine, Kudüs ve Halîlürrahman’ın faziletlerinden; hâtime kısmında ise peygamber, evliya ve sahâbî kabirlerinden bahsedilir. Uyûnü’l-ulûm ve Şerh-i Muammâ-yı sagīr li-Mevlânâ Câmî adlı kitapları, yukarıda adı geçen Tezkiretü’l-hikem tarzında yazılmış ansiklopedik mahiyette eserlerdir. Ayrıca bir divanı ve ahlâkî hikâyeler ihtiva eden bir risâlesi vardır. Bazı kaynaklarda yanlışlıkla şair Nedîm’in amcası olarak gösterilen Abdurrahman Eşref’in, aslında Nedîm’le herhangi bir akrabalığı yoktur. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 161 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-esref-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-esref-efendi, https://islamansiklopedisi.org.tr/abdurrahman-esref-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:41Z",
+    "modified": "2026-05-04T15:32:41Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-esref-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1151,
+    "start_ce": 1738,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-esref-efendi, URL: https://islamansiklopedisi.org.tr/abdurrahman-esref-efendi || DİA death-date string: (ö. 1151/1738-39) || DİA categories: kelâm > nahiv > şiir || Chunk count: 1"
+}

@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00001494",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BEŞİR AĞA, Hacı"
+    },
+    "description": {
+      "tr": "Harem ağalarının en ünlülerinden olup muhtemelen XVII. yüzyıl ortalarında doğmuş, küçük yaşta zenci köle olarak İstanbul’a getirilmiş ve kızlar ağası Yapraksız Ali Ağa’nın yanında yetişmiştir. Zamanla padişah musâhipliğine yükselen Beşir Ağa 1705’te saray hazinedarı oldu. 1713’te zamanın Dârüssaâde ağası Süleyman Ağa ile birlikte önce Kıbrıs’ta, sonra da Mısır’da ikamete mecbur edildi. Daha sonra buradan Hicaz’a gönderildi ve şeyhülharemlik makamına tayin edildi. 1717’de İstanbul’a getirilerek Dârüssaâde ağası oldu. On üç yılı III. Ahmed, on altı yılı da I. Mahmud zamanında olmak üzere toplam yirmi dokuz yıl harem ağalığı görevinde bulunan Beşir Ağa 3 Haziran 1746’da vefat etti; türbesi Eyüp’tedir. Beşir Ağa sarayda özellikle I. Mahmud üzerinde büyük nüfuz sahibi olması dolayısıyla önemli mevkilere tayinlerde tesirli olmuştur. İlim ve maarif ehlini himaye etmiş, ayrıca pek çok hayır eseri yaptırmıştır. Bunların başlıcaları Bâbıâli’de cami, sıbyan mektebi, medrese, kütüphane, tekke ve sebilden meydana gelen bir külliye; Eyüp’te bir dârülhadis, kütüphane ve çeşme; Topkapı Sarayı içinde bir mescid; İstanbul’un çeşitli yerlerinde çeşmeler; Medine’de bir medrese ve kütüphane, Kahire’de bir sebil ve mektep; Ziştovi’de bir medrese ve kütüphanedir. Ayrıca Bağdat’ta İmâm-ı Âzam Camii Kütüphanesi’ne de bir miktar kitap vakfetmiştir. Hacı Beşir Ağa’nın kurduğu vakıf kütüphanelerinden başka oldukça zengin bir özel kütüphanesinin de olduğu anlaşılmaktadır. Vefat ettiğinde sadece Karaağaç’taki hazine odalarında, arasında Kâtib Çelebi’nin el yazısıyla Cihannümâ adlı eserinin de bulunduğu 150 kadar değerli kitap çıkmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 555 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:besir-aga-haci",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=besir-aga-haci, https://islamansiklopedisi.org.tr/besir-aga-haci",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:besir-aga-haci",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/besir-aga-haci",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:43Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=besir-aga-haci (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1159,
+    "start_ce": 1746,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=besir-aga-haci, URL: https://islamansiklopedisi.org.tr/besir-aga-haci || DİA death place: Bağdat || DİA death-date string: (ö. 1159/1746) || DİA categories: hadis || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00003525"
+  ]
+}

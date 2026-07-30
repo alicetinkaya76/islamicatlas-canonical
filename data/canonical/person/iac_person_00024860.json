@@ -1,0 +1,52 @@
+{
+  "@id": "iac:person-00024860",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Barsbey"
+    },
+    "description": {
+      "en": "BARSBEY, al-Mal:k al-Ashraf Saif al-DIn, \nSultan of P'gypt, was enrolled among the Mamluks of Sultan Barkuk, under Mu^aiyad Shaikh \n(1412—1421 = 815—S24) Governor of Tripolis; \non the latter's death h",
+      "tr": "BERSBAY, el-Melik el-Eşref Seyf el-Din, Mısır Sultanı; Sultan Berkuk'un Memlukları arasına kaydedildi, Mueyyed Şeyh (1412-1421 = 815-824) döneminde Trablus Valisi; onun ölümü üzerine."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "death_temporal": {
+    "start_ce": 1422,
+    "approximation": "exact"
+  },
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "ei1:1110",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 1, p. 13",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936), digitized/structured ei1_lite v-repo; OCR-derived — noise possible"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_ei1",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-07-10T15:42:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-07-10T15:42:10Z",
+    "modified": "2026-07-10T15:42:10Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-07-10T15:42:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization by canonicalize_person_ei1 v0.1.0 (H10 Stage 4; Tier-2 kind=new, dated)."
+      }
+    ],
+    "deprecated": false
+  }
+}

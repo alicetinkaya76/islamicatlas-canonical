@@ -1,0 +1,126 @@
+{
+  "@id": "iac:person-00003955",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Müferric",
+      "ar": "ابن مفرّج"
+    },
+    "originalScript": {
+      "ar": "ابن مفرّج"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Ahmed b. Muhammed el-Kurtubî"
+      ]
+    },
+    "description": {
+      "tr": "315 (927) yılında Kurtuba’da (Córdoba) doğdu. Babasının büyük dedesi Müferric, Abdurrahman b. Hakem veya Abdurrahman b. Muâviye’nin mevlâsı idi (Kādî İyâz, II, 435). İbn Müferric Kurtuba’da Kāsım b. Asbağ, Muhammed b. Abdullah b. Ebû Düleym, Muhammed b. Muhammed b. Abdüsselâm el-Huşenî, Ahmed b. Ubâde er-Ruaynî ve akranlarından hadis dinledi. 337’de (949) çıktığı hac ve ilim yolculuğu sırasında Hicaz, Yemen, Şam ve Mısır’a uğradı; aralarında Ebû Saîd İbnü’l-A‘râbî, Hayseme b. Süleyman, Ebü’l-Hasan İbn Nâfi‘ el-Huzâî, Ebü’l-Abbas es-Sükkerî, Ebû Muhammed İbnü’l-Verd, İbnü’s-Seken, Ebû Ali Hasan b. Mervân el-Bezzâz, Ebû Ya‘kūb İbn Hamdân ve Ebü’l-Meymûn Abdurrahman b. Râşid’in de bulunduğu birçok âlimden hadis öğrendi. Endülüs’te ve ziyaret ettiği bölgelerde pek çok kimse kendisinden hadis rivayet etti. Bunlar arasında hocası Ebû Saîd İbn Yûnus, Ebü’l-Velîd İbnü’l-Faradî, İbrâhim b. Şâkir, Ebü’l-Mutarrif Abdurrahman b. Mervân el-Kanâziî ve Ebû Ömer et-Talemenkî gibi âlimler yer almaktadır. 345 (956) yılında Endülüs’e dönen ve II. Hakem’in yanında saygın bir yeri bulunan İbn Müferric İsticce (Ecija) ve Reyye (Rayyo, Raiyo) şehirlerinde kadılık görevinde bulundu. 11 Receb 380 (4 Ekim 990) tarihinde vefat etti. Hadis ilminde ve özellikle hadis ricâli konusunda derin bilgi sahibi olan İbn Müferric’in fıkhü’l-hadîse ve Hasan-ı Basrî ile Zührî’nin görüşlerini derlediği kitapları başta olmak üzere tâbiîn fıkhına dair eserler telif ettiği, Kāsım b. Asbağ’ın rivayetlerini müsned şeklinde topladığı, ayrıca şiirinin bulunduğu kaydedilmektedir. Kādî İyâz, Tertîbü’l-medârik ’te Endülüs ulemâsıyla ilgili olarak kendisinden birçok nakilde bulunmuştur (III, 575). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 215 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-muferric",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-muferric, https://islamansiklopedisi.org.tr/ibn-muferric",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:9061",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=9061, heading_ar=ابن مفرج",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:21Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:21Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-muferric (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[9061]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=9061 (heading_ar=ابن مفرج) via Track A (DİA→Alam xref bridge). dt=Çalışkan bir kadı"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kurtubî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 315,
+    "start_ce": 927,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 380,
+    "start_ce": 990,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-muferric, URL: https://islamansiklopedisi.org.tr/ibn-muferric || El-Aʿlām (Ziriklī) cross-reference: alam_id=[9061] || DİA death-date string: (ö. 380/990) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=9061, heading_ar=ابن مفرج, dt=Çalışkan bir kadı",
+  "active_in_places": [
+    "iac:place-00009538",
+    "iac:place-00011287"
+  ],
+  "teachers": [
+    "iac:person-00003539",
+    "iac:person-00004084",
+    "iac:person-00004135",
+    "iac:person-00004336",
+    "iac:person-00004772"
+  ],
+  "students": [
+    "iac:person-00003806",
+    "iac:person-00004178",
+    "iac:person-00004216"
+  ]
+}

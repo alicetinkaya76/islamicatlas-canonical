@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00009308",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Kawāzī",
+      "tr": "Kevâzî",
+      "ar": "الكوازي"
+    },
+    "originalScript": {
+      "ar": "الكوازي"
+    },
+    "description": {
+      "tr": "Edebiyat ve tıp ilimlerine vakıf âlim, Basra halkından",
+      "en": "A scholar knowledgeable in literature and medicine, from the people of Basra"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ahmad b. Yūsuf al-Kawāzī al-ʿAbbāsī al-Baṣrī al-Shāfiʿī"
+    },
+    "altLabel": {
+      "tr": [
+        "Ahmet b. Yusuf el-Kevâzî el-Abbâsî el-Basrî eş-Şâfiî"
+      ],
+      "ar": [
+        "أحمد بن يوسف الكوازي العباسي البصري الشافعي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:1375",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1375",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:41Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=1375 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:1375."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1188,
+    "start_ce": 1774,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1375, heading_ar=الكوازي || Ziriklī century_ce=18 || Ziriklī place coords (city/region of activity): 30.51, 47.78"
+}

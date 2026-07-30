@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00015140",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Aswārī",
+      "tr": "Esvarî",
+      "ar": "الأسواري"
+    },
+    "originalScript": {
+      "ar": "الأسواري"
+    },
+    "description": {
+      "tr": "Mu'tezilî kadirî, okuyuculardan ve vaazçılardan, Basra halkından",
+      "en": "Mu'tazilite predestinarian, among the readers and preachers, from the people of Basra"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAmr b. Fāʾid, Abū ʿAlī al-Aswārī al-Tamīmī"
+    },
+    "altLabel": {
+      "tr": [
+        "Amr b. Fâid, Ebû Alî el-Esvarî et-Temîmî"
+      ],
+      "ar": [
+        "عمرو بن فائد، أبو علي الأسواري التميمي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:7871",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7871",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:38Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=7871 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7871."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 200,
+    "start_ce": 815,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7871, heading_ar=الأسواري || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 30.51, 47.78",
+  "active_in_places": [
+    "iac:place-00001954"
+  ],
+  "kunya": "أبو علي"
+}

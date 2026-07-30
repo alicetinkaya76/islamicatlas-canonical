@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00000642",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. KÂ‘B el-ENSÂRÎ",
+      "ar": "عبد الرحمن بن كعب الأنصاري"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن كعب الأنصاري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Leylâ Abdurrahmân b. Kâ‘b el-Ensârî el-Mâzinî"
+      ]
+    },
+    "description": {
+      "tr": "İbn Hibbân tarafından el-Harrânî nisbesiyle zikredilmişse de hemen bütün kaynaklarda Benî Mâzin kabilesine nisbetle el-Mâzinî diye geçer. Doğum tarihi belli değildir. Bedir ve Uhud savaşlarına, ayrıca Hendek Gazvesi’nde ve daha sonraki bütün savaşlara katıldı. Hicretin üçüncü yılı rebîülevvel ayında yapılan Benî Nadîr Gazvesi’nde, Hz. Peygamber tarafından Abdullah b. Selâm ile birlikte Benî Nadîr yahudilerine ait hurmalıkları kesmekle görevlendirildi. Hz. Ömer devrinin sonlarına doğru öldü. Vefat yeri belli değildir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 167 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-kab-el-ensari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-kab-el-ensari, https://islamansiklopedisi.org.tr/abdurrahman-b-kab-el-ensari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-05-04T15:32:40Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-kab-el-ensari (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî; Mâzinî"
+  ],
+  "death_temporal": {
+    "start_ah": 24,
+    "start_ce": 644,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-kab-el-ensari, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-kab-el-ensari || DİA death-date string: (ö. 24/644-45) || Chunk count: 1"
+}

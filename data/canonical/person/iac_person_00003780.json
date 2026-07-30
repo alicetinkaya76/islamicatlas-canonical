@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00003780",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN EBÜ’l-VERD",
+      "ar": "ابن أبي الورد"
+    },
+    "originalScript": {
+      "ar": "ابن أبي الورد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Ahmed b. Muhammed b. Îsâ b. Abdirrahmân"
+      ]
+    },
+    "description": {
+      "tr": "Bağdat’ta doğdu. Esmer olduğu için Habeşî lakabıyla tanınır. Gençlik yıllarında özellikle hadis ilmiyle meşgul oldu. Daha sonra tasavvufî hayata yönelen İbn Ebü’l-Verd o yıllarda Bağdat’ta yaşayan Cüneyd-i Bağdâdî, Hâris el-Muhâsibî, Serî es-Sakatî gibi büyük sûfîlerin sohbetlerinden istifade etmekle birlikte daha çok Bişr el-Hâfî’nin tasavvuf anlayışını benimsedi. Tasavvufu, “Allah’a uzaklığın verdiği bulanıklıktan kurtulup O’na yakınlığın duruluğuna erişmektir” diye tarif eden İbn Ebü’l-Verd, diğer ilk dönem zâhidleri gibi ahlâkî konulara ve özellikle alçak gönüllülüğe ağırlık vermiştir. Ona göre gönüllerini dünya sevgisiyle dolduranları eleştirmemek, ayıplamamak, Allah’ın onları dünyaya düşkünlükten kurtarması için dua etmek gerekir. Tasavvuf yolunda maksada ancak dostun kapısını ısrarla çalmak, yasaklara riayet etmek, hizmete dört elle sarılmak, musibetlere sabretmek ve kerametleri gizlemekle ulaşılabilir. “Usule uymayan kişi vüsûlü gerçekleştiremez” (Ebû Nuaym, X, 316). İbn Ebü’l-Verd’in üzerinde önemle durduğu bir konu da tasavvufî hayatın edep ve usulleridir. O velîyi Allah’ın dostunu dost, düşmanını düşman bilen kişi olarak tarif etmiş, velî olan bir zatın Allah katındaki derecesi yükseldikçe tevazuunun, malı çoğaldıkça cömertliğinin, ömrü uzadıkça ibadet etme çabasının artacağını söylemiştir. İbn Ebü’l-Verd, müridi “amellerindeki gelişmeyi ve eksikliği gören kişi” olarak tanımlar. Murad ise kendisinde sadece Allah’ın tasarruf ettiğini müşahede etmektir. Zühdü, dindarlığı ve faziletiyle meşhur bir zâhid olan ağabeyi Muhammed b. Muhammed de İbn Ebü’l-Verd diye tanındığından tabakat kitaplarında ikisine ait sözler birbirine karıştırılmıştır. Ebû Abdullah es-Sâcî’nin sohbetine devam eden ve onun takdirini kazanan Muhammed, farzları ihmal edip nâfile ibadetlere yönelmenin ve kalp huzuru ile şuurlu bir biçimde ifa edilmeyen ibadetlerin kişinin mahvına sebep olacağını söylemiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 476 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-ebul-verd",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-ebul-verd, https://islamansiklopedisi.org.tr/ibn-ebul-verd",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:18Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:18Z",
+    "modified": "2026-05-04T15:34:18Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-ebul-verd (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 263,
+    "start_ce": 876,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-ebul-verd, URL: https://islamansiklopedisi.org.tr/ibn-ebul-verd || DİA birth place: Bağdat || DİA death-date string: (ö. 263/876) || DİA categories: tasavvuf > hadis || Chunk count: 1"
+}

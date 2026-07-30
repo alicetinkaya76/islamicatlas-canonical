@@ -1,0 +1,114 @@
+{
+  "@id": "iac:person-00005063",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KUTEYBE b. SAÎD",
+      "ar": "قتيبة بن سعيد"
+    },
+    "originalScript": {
+      "ar": "قتيبة بن سعيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Recâ’ Kuteybe b. Saîd b. Cemîl es-Sekafî"
+      ]
+    },
+    "description": {
+      "tr": "149 (766) veya 150’de doğdu. Adının Yahyâ veya Ali, Kuteybe’nin onun lakabı olduğu da söylenmiştir. Sakīf kabilesinin mevlâsı olup aslen Belh yakınlarındaki Bağlân köyünden olduğu için Belhî ve Bağlânî nisbeleriyle de anılır. İlk gençlik yıllarında re’y ve kıyas taraftarı olduğu söylenen Kuteybe‘nin, gördüğü bir rüyanın hadis ilimleriyle uğraşması gerektiği şeklinde yorumlanması üzerine bu sahaya yöneldiği ifade edilmiş, bunun üzerine 172’de (788) çıktığı seyahat sırasında Bağdat, Şam, Mısır, Mekke ve Medine gibi yerleri dolaşarak Leys b. Sa‘d, İbn Lehîa, Ebû Avâne el-Vâsıtî, Mâlik b. Enes, Hammâd b. Zeyd ve Süfyân b. Uyeyne’den ve daha pek çok âlimden hadis öğrenmiştir. 216’da (831) Bağdat’a gittiğinde kendisinden istifade eden Yahyâ b. Maîn ile Ahmed b. Hanbel’den başka Abdullah b. Zübeyr el-Humeydî, Nuaym b. Hammâd, Ali b. Medînî, Ebû Hayseme Züheyr b. Harb ve Ebû Bekir İbn Ebû Şeybe gibi âlimler de ondan hadis dinlemişlerdir. Rivayetleri Kütüb-i Sitte ’de yer alan Kuteybe’den Buhârî 380, Müslim 668 hadis nakletmiştir. Zehebî, Kuteybe hakkında içinde seksen kadar âlî isnadla rivayet edilmiş hadislerine de yer verdiği bir biyografi çalışması yaptığını söylemekte, İbn Hacer el-Askalânî de üzerinde hocaları ve talebeleriyle ilgili bazı özel işaret ve remizlerin bulunduğu bir kitabının varlığından söz etmektedir. Hadis münekkitleri tarafından güvenilir bir râvi olarak kabul edilen, şiir yazdığı ve oldukça zengin biri olduğu belirtilen Kuteybe b. Saîd Şâban 240’ta (Ocak 855) Bağlân’da vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 2002 yılında Ankara’da basılan 26. cildinde, 491-492 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kuteybe-b-said",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kuteybe-b-said, https://islamansiklopedisi.org.tr/kuteybe-b-said",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:kuteybe-b-said",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/kuteybe-b-said",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:35Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kuteybe-b-said (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sekafî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 240,
+    "start_ce": 855,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kuteybe-b-said, URL: https://islamansiklopedisi.org.tr/kuteybe-b-said || DİA birth place: 150 || DİA death place: Bağlân || DİA death-date string: (ö. 240/855) || DİA categories: hadis > rivayet > kıyas || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002138",
+    "iac:person-00003142",
+    "iac:person-00003916",
+    "iac:person-00004557",
+    "iac:person-00004559",
+    "iac:person-00005117",
+    "iac:person-00005206",
+    "iac:person-00007121",
+    "iac:person-00007661"
+  ],
+  "students": [
+    "iac:person-00000408",
+    "iac:person-00000753",
+    "iac:person-00000760",
+    "iac:person-00002788",
+    "iac:person-00003235",
+    "iac:person-00003507",
+    "iac:person-00005861",
+    "iac:person-00006145",
+    "iac:person-00006915",
+    "iac:person-00007357",
+    "iac:person-00007652"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "@id": "iac:person-00000205",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Rushd (Averroes)",
+      "tr": "İbn Rüşd",
+      "ar": "ابن رشد"
+    },
+    "originalScript": {
+      "ar": "ابن رشد"
+    },
+    "altLabel": {
+      "en": [
+        "Abu al-Walid Muhammad ibn Ahmad ibn Rushd"
+      ],
+      "tr": [
+        "Ebü'l-Velîd Muhammed b. Ahmed İbn Rüşd"
+      ],
+      "ar": [
+        "أبو الوليد محمد بن أحمد ابن رشد"
+      ]
+    },
+    "description": {
+      "tr": "'Şârih' — Aristoteles şerhleri o kadar otoriteydi ki Avrupalı filozoflar ona basitçe 'Şârih' dediler. Akılcı felsefeyi hem İslam hem Hristiyan medeniyetleri için kurtardı || İbn Rüşd'ün 38 Aristoteles şerhi (kısa, orta ve uzun), ortaçağ Avrupa'sının Aristoteles felsefesini aldığı araçtı. Paris'teki Latin Averroizm hareketi 1270 ve 1277 Kınamaları'nı kışkırttı. || [Tarih notu] Renan'ın Averroès et l'Averroïsme (1852) eseri İbn Rüşd'ü Yunan ve Avrupa felsefesi arasındaki köprü olarak belirledi.",
+      "en": "The 'Commentator' — his Aristotle commentaries were so authoritative that European philosophers simply called him 'the Commentator.' Saved rationalist philosophy for both Islamic and Christian civilizations || Ibn Rushd's 38 Aristotle commentaries (short, middle, and long) were the vehicle through which medieval Europe received Aristotelian philosophy. The Latin Averroist movement at Paris provoked the Condemnations of 1270 and 1277 — ironically, these condemnations forced philosophers to develop new approaches that contributed to the Scientific Revolution. His 'double truth' theory (though likely a misattribution) catalyzed the separation of philosophy from theology. || [Historiographical note] Renan's Averroès et l'Averroïsme (1852) established the narrative of Averroes as the bridge between Greek and European philosophy. Urvoy (1991) and Taylor (2005) have complicated this picture by emphasizing Ibn Rushd's Islamic context and original contributions beyond mere commentary.",
+      "ar": "الشارح — شروحه على أرسطو كانت حجّة لدرجة أن الفلاسفة الأوروبيين سمّوه ببساطة 'الشارح' || شروح ابن رشد الثمانية والثلاثون على أرسطو كانت الوسيلة التي تلقت بها أوروبا الوسطى الفلسفة الأرسطية. حركة الرشدية اللاتينية أثارت إدانات ١٢٧٠ و١٢٧٧"
+    }
+  },
+  "profession": [
+    "philosopher",
+    "physician",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0022",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0022, lecture_id=endulus-bilim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:21",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=21",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E0052",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0022 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-1 conf 1.0): ['derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1126,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1198,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q39837",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ibn Rushd (Averroes)')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0022, lecture_week=3. || Key works: {'title': {'en': 'Tahāfut al-Tahāfut (Incoherence of the Incoherence)', 'tr': \"Tehâfütü't-Tehâfüt\", 'ar': 'تهافت التهافت'}, 'year': 1180, 'field': 'philosophy', 'significance': {'en': 'Systematic defense of Aristotelian philosophy against Ghazali — foundational for European Scholasticism', 'tr': \"Gazzâlî'ye karşı Aristoteles felsefesinin sistematik savunusu — Avrupa Skolastisizminin temeli\"}}; {'title': {'en': 'Al-Kulliyāt fī al-Ṭibb (Colliget)', 'tr': \"el-Külliyât fi't-Tıb\", 'ar': 'الكليات في ا || Modern parallel: Imagine being so good at explaining someone else's work that an entire continent builds its educational system on your explanations — and then names a philosophical movement after you.",
+  "birth_place": "iac:place-00009538",
+  "active_in_places": [
+    "iac:place-00009538",
+    "iac:place-00011062"
+  ],
+  "authored_works": [
+    "iac:work-00000036",
+    "iac:work-00000037"
+  ],
+  "kunya": "Ebü'l-Velîd",
+  "nisba": [
+    "Kurtubî"
+  ],
+  "laqab": [
+    "eş-Şârih el-Ekber (En Büyük Şârih)"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00021840",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Firdawsi",
+      "en": "Ferdowsi"
+    },
+    "description": {
+      "en": "Ferdowsi was the greatest poet of Persian literature and Iranian national identity. His Shahnameh, composed over thirty years, is one of the world's longest epic poems at approximately 60,000 couplets. His deliberate choice to write in pure Persian avoiding Arabic loanwords became the literary manifesto of Iran's cultural independence.",
+      "tr": "Firdevsî, Fars edebiyatının ve İran millî kimliğinin en büyük şairidir. Otuz yıldan fazla emekle yazdığı Şehnâme yaklaşık 60.000 beyitten oluşan dünyanın en uzun epik şiirlerinden biridir. Eserini özellikle Arapça kelimelerden arındırarak saf Farsça yazmayı tercih etmesi İran'ın kültürel bağımsızlığının edebî manifestosu olmuştur."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "openiti:0410Firdawsi",
+        "source_type": "digital_corpus",
+        "page_or_locator": "OpenITI corpus_authors.json id=0410Firdawsi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "OpenITI corpus snapshot 2024-2026"
+      },
+      {
+        "source_id": "scholars:22",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=22",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "openiti-author-resolve",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T21:23:46Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T21:23:46Z",
+    "modified": "2026-07-10T14:25:01Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T21:23:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Placeholder person minted by openiti-author-resolve Tier 4 (no T1/T2 match in canonical person index). Pending biographic enrichment in Hafta 6 (DİA chunk re-extraction + cross-source alignment). Authored works will be back-populated by integrity_pass_A_bidirectional after openiti-works adapter."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 0.99): gap-filled ['prefLabel.en', 'description.en', 'description.tr', 'kunya', 'nisba', 'laqab']."
+      }
+    ],
+    "deprecated": false
+  },
+  "note": "Tier-4 placeholder from OpenITI author_id=0410Firdawsi. Biographic content sparse pending Hafta 6 enrichment.",
+  "death_temporal": {
+    "start_ce": 1019,
+    "start_ah": 410,
+    "approximation": "circa"
+  },
+  "authored_works": [
+    "iac:work-00000739"
+  ],
+  "kunya": "Ebü'l-Kāsım",
+  "nisba": [
+    "Tûsî"
+  ],
+  "laqab": [
+    "Firdevsî (Cennetlik)"
+  ]
+}

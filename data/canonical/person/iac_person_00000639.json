@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00000639",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. HASSÂN b. SÂBİT",
+      "ar": "عبد الرحمن بن حسّان بن ثابت"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن حسّان بن ثابت"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Saîd Abdurrahmân b. Hassân b. Sâbit el-Hazrecî el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "Hicretten altı yıl sonra (m. 627-28) doğdu. Annesi, Hz. Peygamber’in hanımı Mâriye’nin kız kardeşi Sîrîn’dir. Peygamber hayatta iken doğduğu için sahâbî olduğunu söyleyenler varsa da onu tâbiî sayanlar çoğunluktadır. Hayatının büyük bir kısmını, doğum yeri olan Medine’de geçirmiş, bir süre de Dımaşk’ta kalmıştır. Devrinin bazı şairleriyle giriştiği hiciv yarışında zaman zaman babasından destek görmüş, Muâviye’nin halifeliği döneminde yazdığı hicivlerle Emevîler’i rahatsız etmiştir. Muâviye’nin kızı Remle hakkında söylediği beyitler dolayısıyla kendini hicveden Yezîd’i, yazdığı bir şiirle mağlûp etmiştir. Bunu hazmedemeyen müstakbel halife, anlayışlı olmasını tavsiye eden babasını da dinlemeyerek, hıristiyan şair Ahtal’dan yardım istemiş, o da kendisini himaye edeceğine dair söz aldıktan sonra Abdurrahman’ın şahsında ensarı hicvetmiştir. Ahtal’ın bu hicviyesi müslümanları üzmüştür. Babasından, annesinden ve diğer bazı sahâbîlerden pek az rivayeti vardır. Şiirleri, Sâmî Mekkî el-Ânî tarafından Şiʿru ʿAbdirraḥmân b. Ḥassân el-Enṣârî adıyla neşredilmiştir (Bağdat 1971). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 164 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-hassan-b-sabit",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-hassan-b-sabit, https://islamansiklopedisi.org.tr/abdurrahman-b-hassan-b-sabit",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-05-04T15:32:40Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-hassan-b-sabit (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hazrecî; Ensârî"
+  ],
+  "death_temporal": {
+    "start_ah": 104,
+    "start_ce": 722,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-hassan-b-sabit, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-hassan-b-sabit || DİA death-date string: (ö. 104/722-23) || DİA categories: rivayet || Chunk count: 1"
+}

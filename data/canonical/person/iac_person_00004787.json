@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00004787",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KATÂDE b. NU‘MÂN",
+      "ar": "قتادة بن النعمان"
+    },
+    "originalScript": {
+      "ar": "قتادة بن النعمان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Amr Katâde b. Nu‘mân b. Zeyd ez-Zaferî"
+      ]
+    },
+    "description": {
+      "tr": "579 yılı civarında Medine’de doğdu. Evs kabilesine mensup olup Ebû Saîd el-Hudrî’nin anne bir kardeşidir. Künyesinin Ebû Ömer, Ebû Osman ve Ebû Abdullah olduğu da zikredilmiştir. Annesi Enîse bint Kays b. Amr el-Hazreciyye sahâbîdir. Katâde b. Nu‘mân hicret sırasında müslüman oldu. İkinci Akabe Biatı’nda bulunduğu, Bedir, Uhud ve Hendek gazveleri başta olmak üzere Hz. Peygamber’in katıldığı bütün savaşlara iştirak ettiği belirtilmiştir. Katâde’nin karanlık ve fırtınalı bir gecede evi uzak olmasına rağmen yatsı namazına gelmesi üzerine Resûl-i Ekrem’in ona bir hurma dalı verdiği, bu dalın onun yolunu aydınlattığı nakledilmekteyse de ( Müsned , III, 65) senedindeki isimlerden Füleyh b. Süleyman’ın hadisleriyle ihticâc edilemeyeceğine dair Yahyâ b. Maîn ve Ebû Dâvûd’un sözleri ( Zehebî, Mîzânü’l-iʿtidâl , III, 365, 366), Nesâî’nin de aynı kişiyi “zayıf” olarak değerlendirmesi ( İbn Hacer, Tehẕîbü’t-Tehẕîb , VIII, 304) dikkate alındığında bu rivayetin sahih olmadığı anlaşılmaktadır. Katâde b. Nu‘mân, Mekke’nin fethi sırasında Benî Zafer’in sancağını taşımış, Hz. Ebû Bekir döneminde mürtedlere karşı yapılan savaşlarda görev almış, Hz. Ömer zamanında Medine’de müşavere heyetinde bulunmuştur. Şam’ın fethine katılarak Hz. Ömer Dımaşk’a girdiğinde öncü kuvvetler arasında yer aldığı da rivayet edilmektedir. Medine’de vefat eden ve cenaze namazı Hz. Ömer tarafından kıldırılan Katâde’nin soyu, muhaddis ve ilk siyer-megāzî müelliflerinden Âsım b. Ömer b. Katâde’nin ( DİA , III, 479) vefatından sonra devam etmemiştir. Katâde Hz. Peygamber’den yedi hadis rivayet etmiş, kendisinden oğlu Ömer, Ebû Saîd el-Hudrî, Mahmûd b. Lebîd, Ubeyd b. Huneyn gibi şahsiyetler rivayette bulunmuştur. İyâz b. Serh ise ondan Ebû Saîd el-Hudrî vasıtasıyla hadis almıştır. Velîd Abdülkerîm el-A‘zamî, Ḳatâde b. Nuʿmân el-Enṣârî (Bağdad 1979) adlı eserinde Katâde’nin hayatını incelemiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2022 yılında Ankara’da basılan 25. cildinde, 24 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:katade-b-numan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=katade-b-numan, https://islamansiklopedisi.org.tr/katade-b-numan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:katade-b-numan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/katade-b-numan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:8426",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8426, heading_ar=قتادة بن النعمان",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:32Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=katade-b-numan (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8426]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8426 (heading_ar=قتادة بن النعمان) via Track A (DİA→Alam xref bridge). dt=Ebu Bedr'den sağlıh; onların kahramanlarından"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Zaferî"
+  ],
+  "death_temporal": {
+    "start_ah": 23,
+    "start_ce": 643,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=katade-b-numan, URL: https://islamansiklopedisi.org.tr/katade-b-numan || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8426] || DİA birth place: Medine || DİA death-date string: (ö. 23/643) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=8426, heading_ar=قتادة بن النعمان, dt=Ebu Bedr'den sağlıh; onların kahramanlarından"
+}

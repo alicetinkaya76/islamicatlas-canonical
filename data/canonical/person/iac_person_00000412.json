@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00000412",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdi",
+      "ar": "عبدي"
+    },
+    "originalScript": {
+      "ar": "عبدي"
+    },
+    "description": {
+      "tr": "Patrona İsyanı hakkında kaleme aldığı tarihiyle tanınan Abdi Efendi’nin hayatına dair bilgiler, daha çok kendi eserine dayanır. Bazı kaynaklara göre, III. Ahmed’in mühürdarı oldu; 1753-1764 yılları arasında birkaç defa reîsülküttaplığa getirildi. Aynı zamanda şair olan Abdi’nin o devirde yaşamış birkaç Abdi’den hangisi olduğu kesin olarak bilinmemektedir. Abdi Efendi’nin, Târîh-i Sultan Mahmud Han İbn Sultan Mustafa Han adını taşıyan, fakat daha çok Abdi Târihi adıyla bilinen kitabı monografik bir eser olup sadece Patrona ayaklanmasını, başlangıcından bastırılmasına kadar canlı bir şekilde anlatmaktadır. Bizzat devrin olayları içinde yaşamış bir kimsenin kaleminden çıkan bu eser, müellifinin şahsî müşahedelerini vermesi bakımından orijinal bir kaynaktır; aynı zamanda bu olay hakkında yazılmış Destârî Sâlih’in eserinde ve Sâmi Târihi ’nde verilen bilgileri de tamamlar mahiyettedir. Ayrıca bu tarihte 1142 (1729-30) vak‘aları arasında İran savaşlarıyla ilgili bilgiler de vardır. Abdi Târihi ’nin, Süleymaniye Kütüphanesi’nde (Esad Efendi, nr. 2153) kayıtlı nüshası, Faik Reşit Unat tarafından neşredilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 73 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "A litterateur versed in rhetoric and prosody, from the people of Basra"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAlī b. al-Ḥasan b. Ismāʿīl al-Abdī"
+    },
+    "altLabel": {
+      "tr": [
+        "Alî b. Hasen b. İsmâîl Abdî"
+      ],
+      "ar": [
+        "علي بن الحسن بن إسماعيل العبدي ، من بني عبد القيس، أبو الحسن"
+      ]
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdi, https://islamansiklopedisi.org.tr/abdi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:7051",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=7051, heading_ar=العبدي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:38Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[1485, 7051]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=7051 (heading_ar=العبدي) via Track A (DİA→Alam xref bridge). dt=Belâgat ve aruz ilmine vâkıf bir edib, Basra halkından"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+kunya+translit from alam_detail.json el-alam:7051."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:33Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1178,
+    "start_ce": 1764,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdi, URL: https://islamansiklopedisi.org.tr/abdi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[1485, 7051] || DİA death-date string: (ö. 1178/1764 [?]) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=7051, heading_ar=العبدي, dt=Belâgat ve aruz ilmine vâkıf bir edib, Basra halkından",
+  "active_in_places": [
+    "iac:place-00003525"
+  ],
+  "kunya": "أبو الحسن"
+}

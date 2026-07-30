@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00002030",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Deyrebî",
+      "ar": "الديربي"
+    },
+    "originalScript": {
+      "ar": "الديربي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Abbâs Şihâbüddîn Ahmed b. Ömer ed-Deyrebî el-Mısrî"
+      ]
+    },
+    "description": {
+      "tr": "1061’de (1651) doğdu. Ezher’de öğrenim gördü. Arapça ve İslâmî ilimler sahasında başta amcası Ali ed-Deyrebî, Muhammed el-Kalyûbî, Ebü’s-Sürûr el-Meydânî, Ali eş-Şebrâmellisî, Mansûr et-Tûhî ve Burhâneddin el-Birmâvî olmak üzere çok sayıda hocadan ders aldı. 27 Şâban 1151’de (10 Aralık 1738) vefat etti. Eserleri. Deyrebî, bir kısmı risâleler halinde olan çok sayıda eser telif etmiş olup (bk. Cebertî, I, 239-240) başlıcaları şunlardır: 1. Fetḥu’l-meliki’l-mecîd li-nefʿi’l-ʿabîd (Kahire 1280, 1287, 1288, 1296, 1298, 1316, 1318, 1323, 1324, 1334; Leknev 1291; Mekke 1316). Kitâbü’l-Mücerrebât veya Mücerrebâtü’d-Deyrebî adıyla da bilinen eserde çeşitli fizikî ve ruhî hastalıkların tedavisinde faydalı gördüğü âyetleri, sûreleri, duaları, ayrıca bitkileri ve ilâç formüllerini bir araya toplamış, bunlara bazı tılsımları da ilâve etmiştir. Müellif daha çok bu kitabı ile meşhur olmuştur. 2. Ġāyetü’l-maḳṣûd li-men yeteʿâṭa’l-ʿuḳūd (Bulak 1290; Kahire 1297, 1303, 1311, 1315, 1326). Nikâhla ilgili meselelerin incelendiği bir eserdir. 3. Ġāyetü’l-merâm fîmâ yeteʿallaḳu bi-enkiḥati’l-enâm . Yine nikâh konularını işlediği bu eserine bir de hâşiye yazmıştır. 4. Fetḥu’l-meliki’l-cevâd bi-teshîli ḳısmeti’t-terikât ʿalâ baʿżi’l-ʿibâd . Miras hukukuna dairdir. 5. Menâsikü’l-ḥac (son üç eserin yazma nüshaları için bk. Brockelmann, GAL , II, 421; Suppl. , II, 445). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 268 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:deyrebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=deyrebi, https://islamansiklopedisi.org.tr/deyrebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:deyrebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=deyrebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=deyrebi (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=deyrebi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Deyrebî; Mısrî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 1151,
+    "start_ce": 1738,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=deyrebi, URL: https://islamansiklopedisi.org.tr/deyrebi || DİA death place: 1151 || DİA death-date string: (ö. 1151/1738) || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00000547"
+  ],
+  "teachers": [
+    "iac:person-00006745"
+  ]
+}

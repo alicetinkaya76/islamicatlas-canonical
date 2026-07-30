@@ -1,0 +1,106 @@
+{
+  "@id": "iac:person-00002025",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DEVRAKĪ, Ya‘kūb b. İbrâhim",
+      "ar": "يعقوب بن إبراهيم الدورقي"
+    },
+    "originalScript": {
+      "ar": "يعقوب بن إبراهيم الدورقي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Yûsuf Ya‘kūb b. İbrâhîm b. Kesîr ed-Devrakī"
+      ]
+    },
+    "description": {
+      "tr": "166’da (782-83) Bağdat’ta doğdu. Kardeşi muhaddis Ahmed b. İbrâhim gibi Abdî ve Kaysî nisbeleriyle de anılır (Devrakī nisbesinin anlamları için bk. DEVRAKĪ, Ahmed b. İbrâhim ). Bağdat’ta tâbiînin büyüklerinden meşhur hadis ve fıkıh âlimi Leys b. Sa‘d’ı gördüğü söylenen Devrakī ilim tahsil etmek için çeşitli ülkelere seyahat etmiş, Yahyâ b. Maîn, Süfyân b. Uyeyne, Yahyâ el-Kattân, Vekî‘ b. Cerrâh, Abdurrahman b. Mehdî gibi muhaddislerden hadis öğrenmiş, Ahmed b. Hanbel’den de faydalanmıştır. Kendisinden de Kütüb-i Sitte müelliflerinden başka kardeşi Ahmed ed-Devrakī, Ebû Zür‘a er-Râzî, Ebû Hâtim er-Râzî, İbn Huzeyme, İbn Sâid el-Hâşimî gibi büyük muhaddisler rivayette bulunmuşlardır. eṭ-Ṭabaḳāt sahibi İbn Sa‘d da onun talebesi olmuştur. Nesâî ve İbn Hibbân onun güvenilir bir muhaddis olduğunu söylemişlerdir. Hatîb el-Bağdâdî ve Zehebî’nin de güvenilir bir hadis hâfızı olarak nitelendirdikleri Devrakī kendi döneminde Irak bölgesinde çok hadis rivayet etmekle tanınmıştır. Kaynakların çoğunda Devrakī’nin bir müsnedi olduğu belirtilmektedir. Ayrıca Dâvûdî onun bir de tefsir yazdığını söylemekte ise de hocası Hüşeym b. Beşîr’in et-Tefsîr ’ini rivayet etmiş olması sebebiyle (bk. Sezgin, I, 38) böyle bir hükme varılmış olabileceği akla gelmektedir. Devrakī Bağdat’ta ölmüştür. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 248 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:devraki-yakub-b-ibrahim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=devraki-yakub-b-ibrahim, https://islamansiklopedisi.org.tr/devraki-yakub-b-ibrahim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:devraki-yakub-b-ibrahim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/devraki-yakub-b-ibrahim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=devraki-yakub-b-ibrahim (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 252,
+    "start_ce": 866,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=devraki-yakub-b-ibrahim, URL: https://islamansiklopedisi.org.tr/devraki-yakub-b-ibrahim || DİA birth place: Bağdat || DİA death-date string: (ö. 252/866) || DİA categories: hadis > rivayet > tefsir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000643",
+    "iac:person-00007121",
+    "iac:person-00007584",
+    "iac:person-00007652",
+    "iac:person-00007656"
+  ],
+  "students": [
+    "iac:person-00002178",
+    "iac:person-00002313",
+    "iac:person-00003875",
+    "iac:person-00003926",
+    "iac:person-00004000",
+    "iac:person-00004007",
+    "iac:person-00004148",
+    "iac:person-00004150",
+    "iac:person-00006915",
+    "iac:person-00007357"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00011134",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Mushabbab",
+      "tr": "Muşebbibi",
+      "ar": "المشبب"
+    },
+    "originalScript": {
+      "ar": "المشبب"
+    },
+    "description": {
+      "tr": "Karafettikilerin büyük kari'lerinden olup, Hanbelî olduğu sanılmaktadır.",
+      "en": "Among the great Qur'anic readers of the inhabitants of al-Qarāfah, presumed to be Ḥanbalī."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Khalīl b. ʿUthmān b. ʿAbd al-Raḥmān, Abū al-Ṣafāʾ al-Qarāfī al-Miṣrī, al-Mushabbab"
+    },
+    "altLabel": {
+      "tr": [
+        "Halîl b. Osmân b. Abdurrahmân, Ebû's-Safâ el-Karâfî el-Mısrî, el-Muşebbibi"
+      ],
+      "ar": [
+        "خليل بن عثمان بن عبد الرحمن، أبو الصفاء القرافي المصري، المعروف ب المشبب"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:3393",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=3393",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:58Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=3393 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:3393."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 801,
+    "start_ce": 1398,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=3393, heading_ar=المشبب || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+  "kunya": "أبو الصفاء"
+}

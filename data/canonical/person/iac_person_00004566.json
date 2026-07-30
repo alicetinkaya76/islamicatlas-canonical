@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00004566",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İSMAİL EFENDİ, Kesikbacak"
+    },
+    "description": {
+      "tr": "Batı Trakya’nın Serez şehrinde doğdu. İlk öğrenimini memleketinde tamamladıktan sonra İstanbul’a giderek Üsküdar Toptaşı Askerî Rüşdiyesi’ne kaydoldu. Zeki ve atılgan bir çocuk olan İsmail Hakkı, bir gün okuldan evine dönerken tramvaydan düşerek her iki bacağını da kaybetti. Bu durum onun hayat çizgisini değiştirdi; dayısı olan Fâtih Camii dersiâmlarından, Şehzade Camii şeyhülkurrâsı Serezli Ahmed Şükrü Efendi’nin himayesinde hıfza başladı. Daha sonra Oflu Mehmet Âşıkkutlu ile birlikte Reîsülkurrâ Varnalızâde Hâfız Hamdi Efendi’den kırâat-i aşereyi okuyarak icâzet aldı. Bekir Hâki Yener ve Ömer Nasuhi Bilmen gibi âlimlerin derslerini takip ederek hadis ve fıkıh bilgisini geliştirmeye çalıştı. Fatih’te Kumrulu Mescid karşısında bir bakkal dükkânı açarak ticarete başlayan İsmail Efendi (1930) fahrî olarak Kur’an dersleri de veriyordu. İlk resmî hizmetine 1942’de Afyon Merkez Kur’an Kursu öğretmenliğiyle başladı. 1952 yılında İstanbul Fatih’teki Dülgerzâde Camii Kur’an Kursu öğretmenliğine nakledildi ve 1972’de emekli oluncaya kadar bu görevini sürdürdü. 11 Kasım 1972’de İstanbul’da öldü ve Edirnekapı Şehitliği’ne defnedildi. Soyadı kanunundan sonra Bayrı soyadını alan İsmail Efendi çok sayıda talebe yetiştirmiş olup bunlardan doksan sekizine aşere, 3170 kadarına da tashîh-i hurûf belgesi vermiştir. Maaşının bir kısmını öğrencilerinin ihtiyaçlarına harcamak üzere her ay Gönenli Mehmet Efendi’ye göndermiş, özürlü olmasına rağmen kendine güvenini yitirmemiş ve saygınlığını hayatı boyunca sürdürmesini başarmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 23. cildinde, 96 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ismail-efendi-kesikbacak",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ismail-efendi-kesikbacak, https://islamansiklopedisi.org.tr/ismail-efendi-kesikbacak",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:30Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ismail-efendi-kesikbacak (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1905,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ismail-efendi-kesikbacak, URL: https://islamansiklopedisi.org.tr/ismail-efendi-kesikbacak || DİA birth place: Serez || DİA death place: İstanbul || DİA death-date string: (1905-1972) || DİA categories: fıkıh > hadis || Chunk count: 1",
+  "death_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00006867"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+ "@id": "iac:person-00016717",
+ "@type": [
+  "iac:Person",
+  "iac:Ruler"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Shaybānī",
+   "tr": "Şeybânî",
+   "ar": "الشيباني"
+  },
+  "originalScript": {
+   "ar": "الشيباني"
+  },
+  "description": {
+   "tr": "Fıkıh ve usul ilminde imam olup Ebû Hanîfe'nin ilmini yayan kişidir.",
+   "en": "An imam in jurisprudence and principles of jurisprudence; the one who disseminated the knowledge of",
+   "ar": "محمد بن الحسن الشيباني، التلميذ الثاني الأكبر للإمام أبي حنيفة والشخصية الأساسية في تدوين الفقه الحنفي. تلقى العلم أيضا عن الإمام مالك بن أنس. يعتبر كتابه السير الكبير أول مؤلف في القانون الدولي الإسلامي، ومؤلفاته الستة المعروفة بظاهر الرواية تشكل النصوص الأساسية للمذهب الحنفي."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muḥammad b. al-Ḥasan b. Farqad, Abū ʿAbd Allāh"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. Hasan b. Ferked, Ebû Abdillâh"
+   ],
+   "ar": [
+    "محمد بن الحسن بن فرقد، من موالي بني شيبان، أبو عبد الله"
+   ]
+  }
+ },
+ "profession": [
+  "ruler"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:9596",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9596",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "scholars:282",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=282",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:55Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:55Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:55Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=9596 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 3 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 0.99): gap-filled ['description.ar', 'kunya', 'nisba']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:05Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholar_links teacher edge (H10 S13): teachers += iac:person-00002172."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:9596."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (6936-16717) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00006936 lehine yumuşak-silindi. Gerekçe: İmam Muhammed b. Hasan eş-Şeybânî 189/805'te ölmüş ve Vâsıt'ta doğmuştur; A'lam kaydının Vâsıt koordinatı ve yılı (±1) örtüşüyor, 'ruler' etiketi hatalı rol atamasıdır."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00006936"
+ },
+ "death_temporal": {
+  "start_ah": 189,
+  "start_ce": 804,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9596, heading_ar=الشيباني || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 32.19, 46.26",
+ "active_in_places": [
+  "iac:place-00002027",
+  "iac:place-00010482",
+  "iac:place-00012366"
+ ],
+ "authored_works": [
+  "iac:work-00000386",
+  "iac:work-00002132",
+  "iac:work-00002313",
+  "iac:work-00004514",
+  "iac:work-00004958",
+  "iac:work-00006063",
+  "iac:work-00006282",
+  "iac:work-00007132"
+ ],
+ "kunya": "Ebû Abdullah",
+ "nisba": [
+  "Şeybânî",
+  "Kûfî → Bağdâdî"
+ ],
+ "teachers": [
+  "iac:person-00002172"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00004469",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İmam Şah",
+      "ar": "إمام شاه"
+    },
+    "originalScript": {
+      "ar": "إمام شاه"
+    },
+    "altLabel": {
+      "tr": [
+        "İmâmüddîn Abdürrahîm b. Hasen b. Sadriddîn"
+      ]
+    },
+    "description": {
+      "tr": "Hindistan’daki Nizârî Hocalar üzerinde son derece etkili olan İsmâilî dâîsi Pîr Sadreddin’in torunu, Pîr Hasan Kebîrüddin’in oğludur. Kendisi genç yaşta iken babasının ölümü üzerine onun yerine Hocalar’ın pîri olan ağabeyi Tâceddin’in bu görevine karşı çıkınca Sind Hoca cemaatinin de mânevî baskısı sonucu İran’a gitmek zorunda kaldı. İran’da otuz birinci Nizârî imamı Muhammed b. İslâm Şah ile görüşerek ondan Sind’deki Hoca cemaatine pîr olarak tayin edilmesini istedi. Bu isteği kabul edilmeyince Gucerât’a döndü. Burada mahallî Hindular’ın ihtida edip İsmâiliyye’ye katılmasını sağlama konusunda büyük başarılar gösterdi. Rivayete göre Gucerât Sultanı Mahmud Şah onun vasıtasıyla İsmâiliyye’ye intisap etmiştir. İmam Şah, oğlu Nûr (Nâr) Muhammed Şah’ı sultanın büyük kızı ile evlendirerek Gucerât’taki durumunu sağlamlaştırdı. Mensupları tarafından velî sayılan, fakat Nizârî toplumunda Hz. Ali neslinden olmayıp sadece unvan olarak seyyid kabul edilen İmam Şah, bazı konularda onlardan ayrılıp İmamşâhîler veya Hindistan’da bilindiği üzere Satpantis (gerçek yolun takipçileri) adıyla yeni bir fırka kurdu. Bundan dolayı İslâm Şah’ın oğlu Abdüsselâm tarafından İsmâiliyye’den çıkarıldı. Ayrıca Kebîrüddin Hasan ailesinde ortaya çıkan karışıklıklar yüzünden İsmâilî imâmetince Tâceddin’den sonra yeni bir pîr tayin edilmedi. İmam Şah, 919 (1513) yılında Ahmedâbâd yakınlarında kurduğu Pîrâne kasabasında öldü ve orada defnedildi. İmamşâhîler fırkası oğlu Nûr Muhammed Şah tarafından sürdürüldü. Eserleri. İmam Şah’ın Hint-İsmâilî kültürü konularını içeren ve Gucerâtî dilinde yazılan on beş eserinden bir kısmı şunlardır: 1. Bai Budhai . Kız kardeşi Budhai ile dinî ve teozofik konular üzerinde konuşmasını ihtiva eden yetmiş bir kısa şiirden meydana gelmiştir. 2. To Munivar Bhai (Muman Chitveni) . Manzum bir eser olup mistik kozmogoniyle ilgili 552 rubâîyi içerir. 3. Jannatpuri (Cennet kasabası). İmam Şah’ın mânevî olarak cenneti ziyaret edişini ele alan ve 153 rubâîden oluşan eser özet halinde yayımlanmıştır ( Collectanea , Cairo 1948, I, 122-137). 4. Satveni (Gerçek sözler). Çeşitli dinî konularla ilgili yirmi iki şiir ihtiva etmektedir. 5. Jhankâr (Cenk). Kıyamete dair meseleleri içeren 486 beyitten ibarettir. 6. Man Sanjamni (Akıl için öğütler). Şeriatın tarifleri, pîr ve mürid arasındaki ilişkileri konu alan 332 beyitlik bir manzumedir (diğer eserleri için bk. Ivanow, Ismaili Literature , s. 179-181). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 199-200 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:imam-sah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=imam-sah, https://islamansiklopedisi.org.tr/imam-sah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:imam-sah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=imam-sah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:29Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:29Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=imam-sah (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=imam-sah)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 919,
+    "start_ce": 1513,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=imam-sah, URL: https://islamansiklopedisi.org.tr/imam-sah || DİA death place: Tâceddin || DİA death-date string: (ö. 919/1513) || DİA categories: şiir > rivayet || Chunk count: 1"
+}

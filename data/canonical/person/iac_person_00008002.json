@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00008002",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN MEYMÛN, Ebû Gālib",
+      "ar": "أبو غالب ابن ميمون"
+    },
+    "originalScript": {
+      "ar": "أبو غالب ابن ميمون"
+    },
+    "altLabel": {
+      "tr": [
+        "Müntehe’ṭ-ṭaleb min eşʿâri’l-ʿArab adlı şiir mecmuası ile tanınan edebiyat âlimi."
+      ]
+    },
+    "description": {
+      "tr": "Müntehe’ṭ-ṭaleb min eşʿâri’l-ʿArabadlı şiir mecmuası ile tanınan edebiyat âlimi."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-meymun-ebu-galib",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-meymun-ebu-galib, https://islamansiklopedisi.org.tr/ibn-meymun-ebu-galib",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:11Z",
+    "modified": "2026-05-04T15:35:11Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-meymun-ebu-galib (0 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 589,
+    "start_ce": 1193,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-meymun-ebu-galib, URL: https://islamansiklopedisi.org.tr/ibn-meymun-ebu-galib"
+}

@@ -1,0 +1,87 @@
+{
+ "@id": "iac:person-00000331",
+ "@type": [
+  "iac:Architect",
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Mansa Musa",
+   "tr": "Mansa Mûsâ",
+   "ar": "مانسا موسى"
+  },
+  "originalScript": {
+   "ar": "مانسا موسى"
+  },
+  "altLabel": {
+   "en": [
+    "Mansa Musa I of Mali"
+   ],
+   "tr": [
+    "Mali Mansa Mûsâ I"
+   ],
+   "ar": [
+    "مانسا موسى الأول ملك مالي"
+   ]
+  },
+  "description": {
+   "tr": "Timbuktu'yu büyük bir İslam öğretim merkezine dönüştüren tarihin en zengin insanı || 1324'teki haccı o kadar altın dağıttı ki Akdeniz ekonomilerini istikrarsızlaştırdı || [Tarih notu] Genellikle zenginlik anlatısına indirgenir; kalıcı mirası Timbuktu'nun ilmî altyapısıdır",
+   "en": "Richest person in history who built Timbuktu into a major center of Islamic learning || His hajj in 1324 distributed so much gold it destabilized Mediterranean economies || [Historiographical note] Often reduced to wealth narrative; his lasting legacy is the scholarly infrastructure of Timbuktu",
+   "ar": "أغنى شخص في التاريخ الذي بنى تمبكتو || وزع في حجه عام ١٣٢٤ من الذهب ما زعزع اقتصادات المتوسط || [Historiographical note] غالباً يُختزل في رواية الثروة"
+  }
+ },
+ "profession": [
+  "scholar",
+  "architect"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0152",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0152",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-05-04T14:58:52Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0152 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (331-20978) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00020978 lehine yumuşak-silindi. Gerekçe: Mali hükümdarı Mansa Mûsâ (ö. 1337) tek kişidir; bilim kaydındaki 'architect/scholar' rolü Timbuktu külliyesi banîliğinden türemiş bir etiket olup Bosworth'ün 'ruler' kaydıyla çelişmez."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00020978"
+ },
+ "birth_temporal": {
+  "start_ce": 1280,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1337,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0152, lecture_week=n/a. || Key works: {'title': {'en': 'Timbuktu University Complex', 'tr': 'Timbuktu Üniversite Kompleksi', 'ar': 'مجمع جامعة تمبكتو'}, 'year': 1327, 'field': 'architecture', 'significance': {'en': 'Founded Sankore, Djinguereber, and Sidi Yahia mosques as university complexes', 'tr': 'Sankore, Cinguerebir ve Sidi Yahya camilerini üniversite kompleksleri olarak kurdu'}} || Modern parallel: Like a tech billionaire whose university endowments transform a city into a knowledge hub",
+ "authored_works": [
+  "iac:work-00000190"
+ ]
+}

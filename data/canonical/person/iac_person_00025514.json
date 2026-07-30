@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00025514",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-'L'TUI  ai-LTRCSH"
+    },
+    "altLabel": {
+      "en": [
+        "al-'l'tui ai-ltrcsh"
+      ]
+    },
+    "description": {
+      "en": "al-'L'TUI — ai.-LTRCSH \n\nLtbi and its commentary fath al-\\Vahbl^ commonly known a.-, ul-Manl/n (Cairo I2S6)- and \nYallrndt aUDahr of al-lha'ahbi.",
+      "tr": "EL-UTBÎ - EL-LEBÎ EL-TERCÜŞ - Lebî ve onun şerhi Fethu'l-Vehhâb, yaygın olarak El-Menlûn (Kahire 1286) olarak bilinir- ve El-İsfahânî'nin Yetîmetü'd-Dehr'i."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "death_temporal": {
+    "start_ce": 917,
+    "approximation": "exact"
+  },
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "ei1:5961",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 4, p. 48",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936), digitized/structured ei1_lite v-repo; OCR-derived — noise possible"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_ei1",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-07-10T15:42:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-07-10T15:42:10Z",
+    "modified": "2026-07-10T15:42:10Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-07-10T15:42:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization by canonicalize_person_ei1 v0.1.0 (H10 Stage 4; Tier-2 kind=new, dated)."
+      },
+      {
+        "change_type": "deprecate",
+        "note": "h22_001 yumuşak-silme: EI-1 taranmış metin artifact'inden mint edilmiş hayalet kayıt (H21 triyajı; kural A7_sayfa_ustbilgisi; kaynak başlık \"al-'L'TUI  ai-LTRCSH\"). Gerçek bir kişiye karşılık gelmiyor. PID korunur, geri alınabilir: h22_001 --restore.",
+        "changed_at": "2026-07-20T11:29:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854"
+      }
+    ],
+    "deprecated": true
+  }
+}

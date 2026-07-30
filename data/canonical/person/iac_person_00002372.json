@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00002372",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÜ’l-YEMÂN",
+      "ar": "أبو اليمان"
+    },
+    "originalScript": {
+      "ar": "أبو اليمان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Yemân el-Hakem b. Nâfi‘ el-Behrânî"
+      ]
+    },
+    "description": {
+      "tr": "138’de (755) Humus’ta doğdu. Behrâ kabilesinden bir kadının âzatlısı olduğu için Behrânî nisbesiyle anıldı. On iki yaşında iken hadis tahsiline başladı. Hemen hepsi Humuslu olan Safvân b. Amr, Harîz b. Osman, Şuayb b. Ebû Hamza, İsmâil b. Ayyâş gibi muhaddislerden hadis okudu. Hadis tahsili için başka yere gitmedi. Belki de hac münasebetiyle ziyaret ettiği Medine’de İmam Mâlik’in evini lüks bir şekilde döşenmiş gördüğünü, âlimlerin evinin böyle olmaması gerektiği düşüncesiyle ondan hadis okumadığını, fakat sonraları bu davranışından dolayı pişmanlık duyduğunu söylerdi. Kendisinden Yahyâ b. Maîn, Ahmed b. Hanbel, Buhârî, Osman b. Saîd ed-Dârimî, Ebû Hâtim er-Râzî ve Ebû Zür‘a ed-Dımaşkī gibi tanınmış muhaddisler rivayette bulundular. Ebü’l-Yemân’ın, Zührî’nin en güvenilir talebelerinden olan hocası Şuayb b. Ebû Hamza’dan rivayeti bazı tenkitlere yol açmış, Şuayb’dan hadis dinlemediği veya sadece bir hadis dinlediği, öteki rivayetleri icâzet yoluyla aldığı ileri sürülmüştür. Şuayb’ın oğlunun söylediğine göre Ebü’l-Yemân, babasından hadis mecmualarını rivayet izni aldığı için kendisine gelerek bu mecmuaları alıp yazmış ve onları Şuayb’dan dinlemiş gibi rivayet etmiştir. Ahmed b. Hanbel, Şuayb b. Ebû Hamza’dan olan rivayetleri konusunda Ebü’l-Yemân’dan bilgi istediği zaman bu hadislerin bir kısmını ona bizzat okuduğunu, bir kısmını ondan dinlediğini, bazılarını da icâzet ve münâvele yoluyla rivayet ettiğini, fakat münâvele yoluyla aldığı hadisleri kimseye rivayet etmediğini söylemiştir. Ebü’l-Yemân’ın Şuayb b. Ebû Hamza’dan aldığı bu rivayetlerden 257’sinin Ṣaḥîḥ-i Buḫârî ’de, bir kısmının Ṣaḥîḥ-i Müslim ’de yer alması, onları hocasından güvenilir bir rivayet şekliyle aldığını göstermektedir. Ahmed b. Hanbel, onun Harîz b. Osman ile Safvân b. Amr’dan olan rivayetlerinin sahih olduğunu belirtmektedir. Muhaddis İsmâil b. Ayyâş’ın kâtibi olarak da tanınan Ebü’l-Yemân’ın rivayetleri Kütüb-i Sitte ’de yer almış, Buhârî ondan bizzat rivayet ettiği halde diğer Kütüb-i Sitte müellifleri bir başka râvi vasıtasıyla kendisinden rivayette bulunmuşlardır. Ebü’l-Yemân Zilhicce 222’de (Kasım 837) Humus’ta vefat etti. Bu tarih 211 (826) ve 221 (836) olarak da zikredilir. Ebü’l-Yemân’ın rivayetlerini ihtiva eden bir hadis mecmuası günümüze kadar gelmiştir (Dârü’l-kütübi’z-Zâhiriyye, nr. 120/5, vr. 70 a -87 b ). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 350-351 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebul-yeman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebul-yeman, https://islamansiklopedisi.org.tr/ebul-yeman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebul-yeman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebul-yeman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:59Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:59Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:59Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebul-yeman (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Behrânî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 222,
+    "start_ce": 837,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebul-yeman, URL: https://islamansiklopedisi.org.tr/ebul-yeman || DİA birth place: Humus || DİA death place: Humus || DİA death-date string: (ö. 222/837) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00007105"
+  ]
+}

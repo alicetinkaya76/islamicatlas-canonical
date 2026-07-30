@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00003269",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HASAN PAŞA, Çatalcalı"
+    },
+    "description": {
+      "tr": "Çatalcalı bir yeniçerinin oğludur. Önce Çaşnigîr Mehmed Ağa’nın hizmetine girdi, daha sonra “saraç şâkirdi” olarak saraçhâneye alındı ve burada Hacı Mustafa Ağa’ya intisap etti. Mustafa Ağa, Dârüssaâde ağalığına getirilince Hasan Ağa da sırasıyla matbah emini, çavuşbaşı, 1615’te kapıcıbaşı ve ardından mîrâhûr-ı evvel oldu. 18 Şevval 1035’te (13 Temmuz 1626) beylerbeyilik pâyesiyle kaptanpaşalığa getirildi. I. Ahmed’in kızlarından Fatma Sultan’la evlenen ve bundan dolayı “damad” sıfatıyla da anılan Hasan Paşa, kaptan-ı deryâ olduktan sonra âdet olduğu üzere Donanma-yı Hümâyun’la Akdeniz’e ve Karadeniz’e seyrüseferlerde bulundu. 1627’de Karadeniz sahillerini talan eden ve İstanbul’a kadar gelen Kazaklar üzerine çıktığı seferde Kili’ye kadar gitti. Burada kendisine katılan Özü muhafızı Murtaza Paşa ile Silistre Valisi Kantemir Mirza’ya hil‘atler giydiren Hasan Paşa, onların getirdiği esirlerden Kazaklar hakkında bilgiler aldı. Bu bilgiler doğrultusunda hareket ederek sazlıklarda gizlenen Kazaklar’ın üzerine âni bir baskın düzenledi. Bunların çoğunu bertaraf etti, 7-800 kadarını da esir aldı. Özü Kalesi’ni tamir ettiren Hasan Paşa bu başarıları dolayısıyla İstanbul’da büyük şenliklerle karşılandı. Kırım hanlığına getirilen Canbeg Giray’ı makamına oturtmakla da görevlendirilen Hasan Paşa’nın başarıları hırslı ve hasis bir kişi olan bacanağı Topal Receb Paşa’nın kıskançlığına sebep olmuştu. Hatta Özü muhafızı Murtaza Paşa da Hasan Paşa’nın aleyhine döndü ve sadârete onun bazı icraatlarını kötüleyici mektuplar gönderdi. Bu muhalefete Çatalcalı’nın kapı kethüdâsı Konevî Abdülfettâh Ağa da katılınca Hasan Paşa görevinden alındı (13 Rebîülevvel 1040 / 20 Ekim 1630). Bu âni azilden dolayı sarsılan Hasan Paşa Budin beylerbeyiliğine getirildi, fakat daha görev yerine gitmeden Rumeli’de asker toplamakla görevlendirildi. Ancak Yenişehir’den Tırhala’ya giderken Doğanköprüsü denilen yerde öldü (3 Muharrem 1041 / 1 Ağustos 1631). Bazı kaynaklarda Receb Paşa tarafından zehirlendiği öne sürülmektedir. Hasan Paşa’nın naaşı İstanbul’a getirilerek Gedikpaşa mahallesinde yaptırdığı mektep civarına defnedildi. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 335 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-pasa-catalcali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-pasa-catalcali, https://islamansiklopedisi.org.tr/hasan-pasa-catalcali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hasan-pasa-catalcali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hasan-pasa-catalcali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:13Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-pasa-catalcali (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1041,
+    "start_ce": 1631,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-pasa-catalcali, URL: https://islamansiklopedisi.org.tr/hasan-pasa-catalcali || DİA death place: Yenişehir || DİA death-date string: (ö. 1041/1631) || Chunk count: 1"
+}

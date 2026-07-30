@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00000823",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahmed Münîr Bahâeddin"
+    },
+    "altLabel": {
+      "tr": [
+        "Çörekçizâde, Koyun Halîfe"
+      ]
+    },
+    "description": {
+      "tr": "Çörekçi esnafından Mehmed Efendi’nin oğlu olduğundan Çörekçizâde, İstanbul’un kasaplık hayvan ihtiyacını karşılamakla görevli bulunduğu için de Koyun Halîfe lakaplarıyla tanınmıştır. İstanbul’da doğdu; küçük yaşta saraya alınarak Enderun’da tahsil gördü. Önce Galata Sarayı’nda Mestçizâde Ahmed Efendi’den, daha sonra onun hocası Ebü’l-Kāsım Mehmed Râsim Efendi’den şiir, edebiyat ve diğer güzel sanatlarla beraber hat öğrenerek icâzet aldı. Saraydaki hizmetini çırağ edilerek (bk. ENDERUN ) bitirdikten sonra “koyun halifeliği” ile görevlendirildi. Bu vazifede iken katıldığı Rusya seferinde, ordu İsakça’da (bugün Romanya’da) bulunduğu sırada, vefatına tarih olmak üzere söylenen “hitâm-ı a‘mâl” terkibinin gösterdiği 1183 yılının Muharrem ayında (Mayıs 1769) vefat etti. Müstakimzâde, Mecmûa-i İlâhiyyât ’ındaki besteciler fihristinde yanlış olarak onun 1184’te vefat ettiğini kaydetmektedir. Devrinde bestekâr ve hattat olarak şöhret kazanan Ahmed Efendi, şiirlerinde Münîr mahlasını kullanmıştır. Çeşitli yazma mecmualarda bazı şiir ve ilâhileri bulunmakla beraber bunlar müstakil bir divanda toplanmamıştır. Ayrıca güfte mecmualarında Koyun Halîfe adına kayıtlı bazı dinî ve din dışı bestelerine rastlanmaktaysa da bunlardan hiçbirinin notası zamanımıza ulaşmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 109 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-munir-bahaeddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-munir-bahaeddin, https://islamansiklopedisi.org.tr/ahmed-munir-bahaeddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:01Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-munir-bahaeddin (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1183,
+    "start_ce": 1769,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-munir-bahaeddin, URL: https://islamansiklopedisi.org.tr/ahmed-munir-bahaeddin || DİA birth place: İstanbul || DİA death place: 1184 || DİA death-date string: (ö. 1183/1769) || DİA categories: şiir || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "teachers": [
+    "iac:person-00000776",
+    "iac:person-00005376"
+  ]
+}

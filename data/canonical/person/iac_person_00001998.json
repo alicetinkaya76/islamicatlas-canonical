@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00001998",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Derviş Ahmed"
+    },
+    "description": {
+      "tr": "Tokatlı olup babası Mehmed Efendi’dir. İstanbul’a giderek Enderûn-ı Hümâyun’a girmiş ve burada yetişmiştir. Devhatü’l-küttâb , Sarây-ı Sultânî muallimi Kâtû Mehmed Efendi’den, Tuhfe-i Hattâtîn ise Enderûn-ı Hümâyun muallimi Belgradî Mehmed Efendi’den hat sanatını öğrendiğini belirtmektedir. Sülüs-nesih yazılarından icâzet alan Derviş Ahmed, ayrıca Nasuhpaşazâde Ömer Efendi ve Anber Mustafa Ağa ile hattın inceliklerine dair müzakerelerde bulundu. Topkapı Sarayı’nın hat muallimi oldu. Şeyh Hamdullah tavrını benimseyerek bu yolda birçok mushaf yazdı. Müstakimzâde’nin Hekimoğlu Ali Paşa Camii’nde gördüğünü kaydettiği büyük boy mushafın şimdi nerede olduğu bilinmemektedir. Ayrıca hat sanatına dair kaleme aldığı Arâisü’l-hat adlı risâlesi de zamanımıza intikal etmemiştir. Aynı zamanda güzel sesli bir hâfız olduğu belirtilen Derviş Ahmed vefatında Çemberlitaş’taki Atik Ali Paşa Camii hazîresine defnedildi. Kardeşi Fazlı, onun oğlu Fazlızâde Mustafa ve kendi oğlu Derviş Mehmed efendiler de hat sanatını meslek edinerek XVIII. yüzyılda eser verenlerdendir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 191 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dervis-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dervis-ahmed, https://islamansiklopedisi.org.tr/dervis-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:dervis-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/dervis-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dervis-ahmed (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1127,
+    "start_ce": 1715,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dervis-ahmed, URL: https://islamansiklopedisi.org.tr/dervis-ahmed || DİA death place: Çemberlitaş || DİA death-date string: (ö. 1127/1715) || Chunk count: 1"
+}

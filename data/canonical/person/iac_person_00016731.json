@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00016731",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abū Jaʿfar al-Ṭūsī",
+      "tr": "Ebû Ca'fer et-Tûsî",
+      "ar": "أبو جعفر الطوسي"
+    },
+    "originalScript": {
+      "ar": "أبو جعفر الطوسي"
+    },
+    "description": {
+      "tr": "Müfessir, es-Subekkî tarafından Şiâ fıkıh âlimi ve yazarları olarak nitelendirilmiştir.",
+      "en": "Exegete; al-Subkī characterized him as a jurist of the Shiʿa and their author."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muḥammad b. al-Ḥasan b. ʿAlī al-Ṭūsī"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. el-Hasan b. Ali et-Tûsî"
+      ],
+      "ar": [
+        "محمد بن الحسن بن علي الطوسي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:9616",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9616",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:55Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=9616 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:9616."
+      },
+      {
+        "change_type": "deprecate",
+        "note": "h22_003 kişi-dublet birleştirme: aynı normalize Arapça ad 'ابو جعفر الطوسي' + aynı ölüm (460 AH / 1067 CE) + ayrık kaynaklar; iac:person-00007418 lehine emekli. PID korunur, geri alınabilir (h22_003 --restore).",
+        "changed_at": "2026-07-20T14:37:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854"
+      }
+    ],
+    "deprecated": true,
+    "deprecated_in_favor_of": "iac:person-00007418"
+  },
+  "death_temporal": {
+    "start_ah": 460,
+    "start_ce": 1067,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9616, heading_ar=أبو جعفر الطوسي || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 36.44, 59.33",
+  "active_in_places": [
+    "iac:place-00008019",
+    "iac:place-00008850"
+  ],
+  "kunya": "أبو جعفر"
+}

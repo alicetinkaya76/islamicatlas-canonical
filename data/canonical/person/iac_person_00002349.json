@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00002349",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÜ’l-FÜTÛH el-MÛSEVÎ",
+      "ar": "أبو الفتوح الموسوي"
+    },
+    "originalScript": {
+      "ar": "أبو الفتوح الموسوي"
+    },
+    "altLabel": {
+      "tr": [
+        "Hasen b. Ca‘fer b. Muhammed el-Mûsevî el-Hasenî"
+      ]
+    },
+    "description": {
+      "tr": "Mekke’de emirlik yapan şeriflerden Hz. Hasan evlâdından Mûsâ b. Abdullah’tan dolayı Mûsevî nisbesini almıştır. Bu aileye mensup emîrlerin ilki Mûsâ b. Abdullah, sonuncusu da Ebü’l-Fütûh’un oğlu Şükür’dür. Kardeşi Îsâ b. Ca‘fer’in 384’te (994) ölümü üzerine Mekke emîri olan Ebü’l-Fütûh cesur, idealist ve şair ruhlu bir kimseydi. 381 (991) yılından itibaren kardeşine emirlikte yardımcı olmuş, bu sırada büyük nüfuz kazanmış, Abbâsî ve Fâtımî halifelerine çeşitli yazılar yazmıştı. Ebü’l-Fütûh 402’de (1011) Mekke’de müstakil emirliğini ilân etti ve adına para bastırdı. Daha sonra Filistin’in merkezi Remle’ye giderek Râşid-Billâh lakabıyla bu defa halifeliğini ilân etti. Buna karşılık Fâtımî Halifesi Hâkim-Biemrillâh 403 (1012) yılında Ebü’l-Fütûh’un amcazadesi Ebü’t-Tayyib’i Haremeyn valiliğine tayin etti ve 50.000 dinarla çeşitli hediyeler ve hil‘at gönderdi. Bunun üzerine pek çok kimse Ebü’l-Fütûh’tan ayrıldı ve Hâkim-Biemrillâh’a bağlandı. Ebü’l-Fütûh ise Cerrâhîler’den ve Türk emîrlerinden Yârûh Tegin’den Mekke’ye dönme konusunda yardım istedi. Onların yardımıyla aynı yıl içinde gizlice Vâdilkurâ’ya kadar geldi. Emirliği Ebü’t-Tayyib’den alarak durumu Fâtımî halifesine bildirdi, Fâtımî halifesi de bunu kabul etmek zorunda kaldı. Bundan sonra Ebü’l-Fütûh hutbeyi Fâtımî halifesi adına okuttu ve ölünceye kadar Mekke emirliğine devam etti. Ancak halife, Ebü’l-Fütûh’a yardım eden Müferric b. Dağfel’i bir hile ile öldürttü (404/1013). Ebü’l-Fütûh’un ölümünden sonra oğlu Şükür Mekke emîri oldu. Yirmi üç yıl emirlik yapan Şükür’ün erkek evlâdı olmadığından Mûsevî ailesinin emirliği onunla sona erdi (453/1061). Emirlik aynı sülâleden Benî Füleyte (Felîte) denilen Hâşimîler (Hevâşim) ailesine geçti. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 321 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebul-futuh-el-musevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebul-futuh-el-musevi, https://islamansiklopedisi.org.tr/ebul-futuh-el-musevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:2660",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=2660, heading_ar=أبو الفتوح الموسوي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:58Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebul-futuh-el-musevi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[2660]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=2660 (heading_ar=أبو الفتوح الموسوي) via Track A (DİA→Alam xref bridge). dt=Şerîf, emîrlerden biri"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mûsevî; Hasenî"
+  ],
+  "birth_temporal": {
+    "start_ah": 381,
+    "start_ce": 991,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 430,
+    "start_ce": 1039,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebul-futuh-el-musevi, URL: https://islamansiklopedisi.org.tr/ebul-futuh-el-musevi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[2660] || DİA death-date string: (ö. 430/1039) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=2660, heading_ar=أبو الفتوح الموسوي, dt=Şerîf, emîrlerden biri"
+}

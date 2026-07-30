@@ -1,0 +1,99 @@
+{
+  "@id": "iac:person-00002780",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Firebrî",
+      "ar": "الفربري"
+    },
+    "originalScript": {
+      "ar": "الفربري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Yûsuf b. Matar el-Firebrî Buhârî’nin el-Câmiʿu’ṣ-ṣaḥîḥ adlı eserinin en önemli râvisi."
+      ]
+    },
+    "description": {
+      "tr": "231’de (845) Ceyhun ile Buhara arasındaki Firebr (Ferebr) köyünde doğdu. Müslim ve Tirmizî gibi muhaddislerin hocası olan Ali b. Haşrem el-Mervezî’den hadis tahsil ettiği bilinmekte, diğer hocaları ve tahsil hayatı hakkında bilgi bulunmamaktadır. Kendisinden İbnü’s-Seken, Ebû Zeyd el-Mervezî, Ebû İshak İbrâhim b. Ahmed el-Müstemlî, Ebü’l-Heysem Muhammed b. Mekkî el-Küşmîhenî ve Ebû Muhammed Abdullah b. Ahmed b. Hameviyye (Hammûye) es-Serahsî gibi Ṣaḥîḥ-i Buḫârî râvileri hadis rivayet etmişlerdir (diğer talebeleri için bk. DİA , VII, 117’deki şema). Talebesi Küşmîhenî el-Câmiʿu’ṣ-ṣaḥîḥ ’i ondan 320 (932) yılında dinlediğine göre hayatının sonuna kadar öğretim faaliyetini sürdürmüş demektir. Firebrî’yi ilim dünyasına tanıtan en önemli faaliyeti, Buhârî’nin el-Câmiʿu’ṣ-ṣaḥîḥ ’inin aslına sahip olması (Sezgin, s. 178) ve onu rivayet etmesidir. Buhârî’den bu eseri 248’de (862) Firebr’de, 252’de (866) veya 253-255 (867-869) yılları arasında Buhara’da dinlediği belirtilmektedir. Her ne kadar Firebrî’nin, el-Câmiʿu’ṣ-ṣaḥîḥ ’i Buhârî’den birçok kişinin dinlediğini, fakat bu râvilerin hepsinin kendisinden önce vefat ettiğini söylediği ileri sürülmekteyse de Zehebî bu rivayetin doğru olmadığını belirterek eseri Firebrî’den sonra Buhârî’nin talebelerinden Pezdevî’nin (ö. 329/940-41) rivayete devam ettiğini bildirmektedir. Firebrî ayrıca, Buhârî’nin halku’l-Kur’ân konusunda yazdığı Ḫalḳu efʿâli’l-ʿibâd adlı eserini de rivayet etmiştir ( Keşfü’ẓ-ẓunûn , I, 722; ayrıca bk. HALKU EF‘ÂLİ’l-İBÂD ). Güvenilir bir muhaddis olan Firebrî 20 Şevval 320’de (24 Ekim 932) vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 132 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:firebri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=firebri, https://islamansiklopedisi.org.tr/firebri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:firebri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/firebri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=firebri (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Firebrî"
+  ],
+  "death_temporal": {
+    "start_ah": 320,
+    "start_ce": 932,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=firebri, URL: https://islamansiklopedisi.org.tr/firebri || DİA death place: 320 || DİA death-date string: (ö. 320/932) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001599"
+  ],
+  "students": [
+    "iac:person-00004336"
+  ]
+}

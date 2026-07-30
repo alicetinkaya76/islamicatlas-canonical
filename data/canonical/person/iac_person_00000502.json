@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00000502",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. EBÛ BEKİR",
+      "ar": "عبد الله بن أبي بكر"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن أبي بكر"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdullāh b. Ebî Bekr es-Sıddîk b. Ebî Kuhâfe el-Kureşî et-Teymî"
+      ]
+    },
+    "description": {
+      "tr": "Esmâ ile öz kardeş, Âişe ile de baba bir kardeş olan Abdullah, Mekke’de doğdu. Hicret sırasında, Sevr mağarasında bulundukları üç gün boyunca Hz. Peygamber ile babasının istihbarat hizmetlerini üstlendiği zaman çocuk denecek yaşta idi. Abdullah, Kureyş müşriklerinin yaptıkları toplantıları takip edip Peygamber’in aleyhine alınan kararları öğrenir, akşam karanlığında gizlice Sevr mağarasına giderek olup bitenleri aktarırdı. Geceyi mağarada geçirdikten sonra alaca karanlıkta kimseye görünmeden tekrar Mekke’ye dönerdi. Hz. Âişe, üvey kardeşinin bu son derece tehlikeli işteki başarısını, onun cesur, akıllı ve becerikli oluşuyla açıklamıştır. Abdullah, Peygamber’in Medine’ye ulaştığını öğrenince ailesiyle birlikte oraya hicret etti. Aşere-i mübeşşere den Saîd b. Zeyd’in kız kardeşi Âtike ile evlenen Abdullah’ın, hanımına olan düşkünlüğü sebebiyle savaşlara katılma gibi bazı görevlerini yerine getiremediği ve bundan dolayı babasının emriyle ondan ayrılmak zorunda kaldığı rivayet edilir. Ancak bu ayrılığın üzüntüsünü içli şiirlerle terennüm ederek babasının merhametini celbetmiş ve Âtike ile tekrar bir araya gelmiştir. Abdullah, Mekke fethine ve Huneyn Gazvesi’ne katıldı; Tâif Muhasarası’nda yaralandı. Bir süre iyileşen bu yara daha sonra tekrar açıldı ve ölümüne sebep oldu. Cenaze namazını babası kıldırdı. Abdullah’tan, Begavî ve Hâkim’in eserlerinde naklettikleri sadece bir hadis rivayet edilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 95-96 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-ebu-bekir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-ebu-bekir, https://islamansiklopedisi.org.tr/abdullah-b-ebu-bekir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-05-04T15:32:39Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-ebu-bekir (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Teymî"
+  ],
+  "death_temporal": {
+    "start_ah": 11,
+    "start_ce": 632,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-ebu-bekir, URL: https://islamansiklopedisi.org.tr/abdullah-b-ebu-bekir || DİA birth place: Mekke || DİA death-date string: (ö. 11/632-33) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

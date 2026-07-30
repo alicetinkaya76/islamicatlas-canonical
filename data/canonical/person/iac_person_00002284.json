@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00002284",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Tâşfîn II",
+      "ar": "أبو تاشفين"
+    },
+    "originalScript": {
+      "ar": "أبو تاشفين"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Tâşfîn Abdurrahmân b. Ebî Hammû Mûsâ b. Yûsuf b. Abdirrahmân b. Yağmurasan ez-Zeyyânî"
+      ]
+    },
+    "description": {
+      "tr": "752’de (1351) Nedroma’da doğdu ve gençliğini burada geçirdi. Sultan Ebû Sâbit’in (1348-1352) Merînîler karşısında tutunamayarak Tunus’a kaçması üzerine, Merinî Sultanı Ebû İnân tarafından zâhid bir insan olan dedesi Ebû Ya‘kūb ile birlikte Fas’a gönderildi ve burada kendilerine çok iyi muamele edildi. Ebû Tâşfîn, babası II. Ebû Hammû’nun Tilimsân’a dönerek Abdülvâdîler’in başına geçmesi üzerine Fas’tan Tilimsân’a döndü (760/1359) ve veliaht tayin edildi. Ancak Ebû Tâşfîn tahtın normal şekilde boşalmasını beklemeyip babasını ve kardeşlerini Oran şehrinde hapsettirerek hükümdarlığını ilân etti (1388). Babası II. Ebû Hammû bir süre sonra hapisten kurtulup Tilâmsân’a döndü, oğlu ile görüşüp tahttan feragat ettiğini bildirerek hacca gitmek için izin istedi ve Ebû Tâşfîn’in verdiği bir gemiyle yola çıktı. Fakat yolda gemideki muhafızları çeşitli vaadlerle kandırıp Bicâye’de karaya çıktı ve Tilimsân’a dönerek tahtı tekrar ele geçirdi (790/1388). Bu gelişmeler üzerine Fas’a iltica eden Ebû Tâşfîn, Merînîler’den sağladığı kuvvetlerle Tilimsân üzerine yürüdü. Gırân’da meydana gelen savaşta babası II. Ebû Hammû yenildi ve öldürüldü. Böylece Ebû Tâşfîn tahtı tekrar ele geçirdi (1 Zilhicce 791 / 21 Kasım 1389). Ebû Tâşfîn Merînîler’in himayesinde tahta çıktığı için onlara tâbi olarak adına hutbe okuttu ve para bastırdı. 17 Receb 795 (29 Mayıs 1393) tarihinde ölen Ebû Tâşfîn’in kabri Brosselard tarafından Tilimsân’daki eski bir hisar mezarlığında tesbit edilmiştir. Ebû Tâşfîn son derece ihtiraslı, gaddar ve sefih bir insandı. Hatalarını unutturmak için güzel sanatları ve edebiyatı teşvik ve himaye etmiştir. Mevlid kandilleri babasının zamanında olduğu gibi onun döneminde de büyük törenlerle kutlanmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 240-241 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-tasfin-ii",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-tasfin-ii, https://islamansiklopedisi.org.tr/ebu-tasfin-ii",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-tasfin-ii",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-tasfin-ii",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:57Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-tasfin-ii (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.97): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Zeyyânî"
+  ],
+  "death_temporal": {
+    "start_ah": 795,
+    "start_ce": 1393,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-tasfin-ii, URL: https://islamansiklopedisi.org.tr/ebu-tasfin-ii || DİA birth place: Nedroma || DİA death-date string: (ö. 795/1393) || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00013750"
+  ]
+}

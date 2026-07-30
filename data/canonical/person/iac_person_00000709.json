@@ -1,0 +1,59 @@
+{
+  "@id": "iac:person-00000709",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Âdile Sultan"
+    },
+    "description": {
+      "tr": "1 Haziran 1826’da doğdu. Annesi Zernigâr Hanım doğumdan kısa bir süre sonra öldü. II. Mahmud, Adlî olan lakabına telmihen yeni doğan çocuğuna Âdile adını verdi. Doğumu için yapılan masrafların listesi Topkapı Sarayı Arşivi’nde ( Ceyb-i Hümâyun Defteri , nr. 4/2472) bulunmaktadır. On üç yaşında iken babası vefat edince, tahsil ve terbiyesiyle ağabeyi Sultan Abdülmecid meşgul oldu. Yirmi yaşında iken, Tophane Müşiri (daha sonra sırasıyla kaptan-ı deryâ, serasker ve sadrazam olan) Mehmed Ali Paşa ile evlenmesi uygun görüldü. Nikâhları 28 Nisan 1845 tarihinde kıyıldı. Ertesi yılın şubat ayında bir hafta devam eden muhteşem bir düğünle evlendiler. Âdile Sultan’ın düğün töreni, XIX. yüzyılda Osmanlı sarayında yaşanan en ilgi çekici hadiselerden biri olarak tarihe geçmiştir. Bugün Fındıklı’da Mimar Sinan Üniversitesi’nin bulunduğu yerdeki Neşetâbâd Sarayı, evlendikten sonra Âdile Sultan’a tahsis edildi. Zaman zaman Kuruçeşme’de Esma Sultan’dan kalan yalıda, Kâğıthane, Çırağan, Validebağı ve Kandilli’deki saraylarda oturdu. Tek çocuğu Hayriye Sultan’ı 1865’te İşkodralı Mustafa Şerîfî Paşazâde Rızâ Bey’le evlendiren Âdile Sultan 1869’da kocasını, kısa bir süre sonra da kızını kaybetti. Nakşibendî tarikatı şeyhlerinden Bâlâ Tekkesi şeyhi Ali Efendi’ye (ö. 1877) intisap etti. Dindarlığı ve yardım severliğiyle tanınan Âdile Sultan’ın Fındıklı’daki sarayı âlim ve şeyhlerin sık sık toplanıp sohbet ettikleri, muhtaç ve fakirlerin her zaman başvurduğu bir yer haline geldi. 12 Şubat 1899’da burada vefat etti; Eyüp’teki Hüsrev Paşa Türbesi’nde, kocası Mehmed Ali Paşa’nın yanına defnedildi. 1851-1892 yılları arasında kurduğu on dört vakfın vakfiyeleri İstanbul Üniversitesi Kütüphanesi’nde (TY, nr. 4993) bulunmaktadır. Âdile Sultan’ın şiirlerinin büyük bir bölümü dinî-tasavvufî bir mahiyet taşır. Münâcât, na‘t, mersiye, Ehl-i beyt ve ashap ile tarikat kurucularının methiyelerinden meydana gelen bu şiirlerin yanı sıra, babası, kocası, kızı ve kardeşleri için yazdığı manzumeler de divanında geniş bir yer tutar. Kendisinden önce vefat eden hânedan mensupları için yazdığı “Tahassürnâme” ve “İftiraknâme” gibi manzumelerde yer yer güzel parçalar bulunmasına rağmen, Fıtnat Hanım ve Leylâ Hanım gibi diğer Osmanlı kadın şairleriyle karşılaştırılacak olursa, pek başarılı bir şair olduğu söylenemez. Şiirlerinde kafiye hataları ve vezin yanlışlıkları da göze çarpar. Kütüphanelerde çeşitli yazmaları bulunan divanının (TSMK, Hazine, nr. 995, 996, 997; Millet Ktp., Ali Emîrî Efendi, Manzum, nr. 260) en iyi nüshası, İstanbul Üniversitesi Kütüphanesi’ndedir (TY, nr. 4805). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 382-383 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:adile-sultan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=adile-sultan, https://islamansiklopedisi.org.tr/adile-sultan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-05-04T15:32:45Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=adile-sultan (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1826,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=adile-sultan, URL: https://islamansiklopedisi.org.tr/adile-sultan || DİA birth place: 1826 || DİA death place: Eyüp || DİA death-date string: (1826-1899) || DİA categories: tarikat > hadis > tasavvuf || Chunk count: 1"
+}

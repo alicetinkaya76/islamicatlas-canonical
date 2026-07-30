@@ -1,0 +1,59 @@
+{
+  "@id": "iac:person-00000982",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ali Sedad"
+    },
+    "description": {
+      "tr": "Ahmed Cevdet Paşa’nın oğludur. Özel öğrenim gördü; Said Bey’den fizik ve kimya dersleri aldı. Galata Sarayı Sultânîsi, Mahrec-i Aklâm ve Hukuk Mektebi gibi önemli okullarda mantık hocalığı yaptı. Kırk üç yaşında öldü ve Fâtih hazîresinde babasının yanına defnedildi. Ali Sedad, yüzyıllarca fikir hayatımıza hâkim olan Fârâbî-İbn Sînâ geleneği içinde Aristo mantık anlayışına bağlıdır. Kendisinden önce gelen Türk mantıkçılarından farkı, mantık ilminin Avrupa’daki gelişmelerinden haberdar olmasıdır. Öncekiler bağlı bulundukları geleneğin kapalı sistemi içerisinde mantık konularını işlemişlerdi. Ali Sedad ise gelenek çemberinin dışına çıkarak yeni fikirlerin tartışmasını yapmış, çeşitli akımlara karşı bağlı olduğu Fârâbî-İbn Sînâ anlayışı içindeki Aristo mantığının şuurlu bir savunucusu ve taraftarı olmuştur. En önemli eseri Mîzânü’l-ukūl fi’l-mantık ve’l-usûl ’dür. Bu eserin yazılış sebebi ilgi çekicidir. Ahmed Cevdet Paşa bir mantık kitabı yazmış ve adını oğluna izâfeten Mi‘yâr-ı Sedâd koymuştu. Ali Sedad, babasının bu iltifatına teşekkür etmek ve bir anlamda onun arzusunu gerçekleştirmek için Mîzânü’l-ukūl ’ü kaleme almıştır. Bu kitap Avrupa’da gelişen mantık akımlarına da yer verdiği için kendi alanında yazılmış ilk telif eserdir. Kitabın birinci ve ikinci bölümü klasik mantık konularına, üçüncü bölümü ise metodoloji meselelerine ayrılmıştır. Ek olarak da o zaman için henüz Avrupa’da yeni olan “cebirsel mantık”a (logique algebrique) yer verilmiştir. Böylece Mîzânü’l-ukūl , bizde cebirsel mantığa ve metodolojiye yer veren kendi türünün ilk orijinal eseri olma hüviyetini kazanmıştır. Ali Sedad eserinde Avrupa’da mevcut mantık anlayışlarını aktarmakla yetinmemiş, onların tenkidini de yaparak bu alanda bir otorite olduğunu göstermiştir. Cebirsel mantığa karşı çıkan Ali Sedad mantık alanının cebir sahasından daha geniş olduğunu, bu sebeple mantığın cebire uygulanamayacağını ve bu yolun çıkmaza gireceğini derin bir vukufla belirtmiştir. Nitekim mantığın daha sonraki gelişmeleri Ali Sedad’ı haklı çıkarmıştır. Bununla beraber, yine bir Türk mantıkçısı olan çağdaşı Sâlih Zeki’nin hücumlarına uğramaktan kurtulamamıştır. Mîzânü’l-ukūl İstanbul’da basılmıştır (1303). Ali Sedad’ın söz konusu kitap dışında yine mantığa dair Lisânü’l-mîzân (İstanbul 1306) ile fizik alanında Kavâidü’t-tahavvülât fî harekâti’z-zerrât (İstanbul 1300) adlı Türkçe eserleri kaleme aldığı bilinmektedir. Fransız matematikçilerinden Sone’nin eserini de Hesâb-ı Tefâzulî ve Temâmî adı ile Türkçe’ye kazandırmıştır. Muhtelif gazete ve dergilerde yayımlanan ilmî ve edebî makalelerinden başka Arûz-ı Osmânî (İstanbul 1314) adlı bir de risâlesi vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 442 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-sedad",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-sedad, https://islamansiklopedisi.org.tr/ali-sedad",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:33Z",
+    "modified": "2026-05-04T15:33:33Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-sedad (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1857,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ali-sedad, URL: https://islamansiklopedisi.org.tr/ali-sedad || DİA death place: Bey || DİA death-date string: (1857-1900) || DİA categories: mantık > matematik || Chunk count: 1"
+}

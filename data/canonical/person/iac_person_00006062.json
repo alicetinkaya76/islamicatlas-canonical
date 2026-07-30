@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00006062",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Nefûsî",
+      "ar": "النفوسي"
+    },
+    "originalScript": {
+      "ar": "النفوسي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Sehl b. Meymûn b. Abdilvehhâb el-Fârisî en-Nefûsî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatına dair yeterli bilgi bulunmamaktadır. Kaynaklarda Rüstemîler’in ikinci imamı Abdülvehhâb b. Abdurrahman’ın oğlu Meymûn’un oğullarından biri olduğu zikredilir. Annesi de Rüstemî ailesindendir. Fârisî nisbesiyle meşhur olması, Rüstemî hânedanının ilk kurucusu Abdurrahman b. Rüstem’in İran asıllı oluşundan kaynaklanmaktadır. Nefûseli olduğu ve ilmî şöhretini bu bölgede kazandığı için Nefûsî nisbesiyle tanınmıştır (Şemmâhî, I, 244). Tâhert’te yaşayan, Arapça ve Berberîce bilgisi, dinî ilimlere vukufu ve kemaliyle şöhret kazanan Nefûsî bu şehrin tanınmasına yardımcı olan kişilerden biri kabul edilmektedir. Tahsili esnasında bölge halkının konuştuğu Berberîce’yi de öğrenmişti. Bu sebeple III. (IX.) yüzyılın ilk yarısına kadar Rüstemî imamı Ebû Saîd el-Eflah ve daha sonra imam olan Ebû Hâtim Yûsuf b. Muhammed’in hizmetinde çalıştı. O dönemde Arapça konuşan Tâhert Rüstemî imamlarının yerli halkla anlaşabilmek için tercümana ihtiyaçları vardı. Nefûsî’nin bu amaçla tercüme işlerinde istihdam edildiği bilinmektedir ( a.g.e. , a.y.). İbâzî Rüstemî Devleti, 296 (909) yılında İsmâilî imamı Ubeydullah el-Mehdî el-Fâtımî adına Kuzey Afrika’da faaliyet gösteren İsmâilî dâîsi Ebû Abdullah eş-Şiî tarafından ortadan kaldırıldığı sırada Nefûsî, Tunus sınırındaki Mersalharez veya daha güçlü bir rivayete göre Cezayir sahili üzerindeki Mersaddecâc’a (burası için bk. Bekrî, s. 64-65, 82) gidip yerleşti ve hayatının son yıllarını burada geçirdi (Dercînî, II, 352). Şemmâhî, Nefûsî’nin Mersaddecâc’da vefat ettiğini ve kabrinin ziyaretgâh olduğunu belirtmesine rağmen ölüm tarihine dair kesin bilgi vermemektedir. Nefûsî’nin din ve tarihle ilgili şiirlerini, İbâzıyye fırkasının tarihini, inanç esaslarını, ayrıca vaaz ve nasihatlerini ihtiva eden Berberî dilinde yazılmış bir divanından bahsedilmekteyse de bu eser günümüze ulaşmamıştır. Şemmâhî, Nefûsî’nin Mersaddecâc’da bulunduğu sırada yanına gelen Saîd adlı bir kişiye Ehl-i da‘vet’in (İbâzîler) durumunu sorduğunu, büyük ihtimalle ondan aldığı cevap üzerine vaaz, nasihat ve uyarılarını ihtiva eden Berberîce on iki eser yazdığını belirtir ( Kitâbü’s-Siyer , I, 244). Bunların altısını Nükkârî İbâzîleri’nin kaçırdığı, kalan kitaplarını ise korumak amacıyla elbisesinin iç kısmına soktuğu ve bunları başını koynuna doğru eğmek suretiyle okuduğu nakledilmektedir. Bu kitapların da Benîdercîn Kalesi’nin düşmesi üzerine diğer eserlerle birlikte yandığı, daha sonra kendisine nisbet edilen çalışmaların ise ondan duyulup kayda geçirilenler olduğu belirtilmektedir ( a.g.e. , I, 244-245). F. Béguinot, Kuzey Afrika’nın millî diliyle dinî risâleler, vekāyi‘nâmeler, şiir ve biyografiler yazmış olan İbâzî müellifleri içinde seçkin bir yeri bulunan Nefûsî’nin Mizâb, Cerbe ve Nefûse bölgelerinde yapılacak araştırmalar neticesinde eserlerinden bir kısmının bulunabileceğini kaydetmektedir ( EI 2 [İng.] , VII, 895). Bu madde TDV İslâm Ansiklopedisi’nin 2006 yılında İstanbul’da basılan 32. cildinde, 533-534 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:nefusi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=nefusi, https://islamansiklopedisi.org.tr/nefusi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:8331",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8331, heading_ar=النفوسي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:47Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=nefusi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8331]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8331 (heading_ar=النفوسي) via Track A (DİA→Alam xref bridge). dt=İbâziyye âlimlerinden bir tarihçi."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Fârisî; Nefûsî"
+  ],
+  "death_temporal": {
+    "start_ah": 300,
+    "start_ce": 912,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=nefusi, URL: https://islamansiklopedisi.org.tr/nefusi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8331] || DİA death place: Mersaddecâc || DİA death-date string: (ö. 300/912-13 [?]) || DİA categories: rivayet > şiir || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=8331, heading_ar=النفوسي, dt=İbâziyye âlimlerinden bir tarihçi."
+}

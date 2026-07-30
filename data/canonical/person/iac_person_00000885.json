@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00000885",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂKIL b. BÜKEYR",
+      "ar": "عاقل بن البكير"
+    },
+    "originalScript": {
+      "ar": "عاقل بن البكير"
+    },
+    "altLabel": {
+      "tr": [
+        "Âkıl b. el-Bükeyr b. Abdiyâlîl el-Kinânî el-Leysî"
+      ]
+    },
+    "description": {
+      "tr": "Babasının adı bazı kaynaklarda Bükeyr, bazılarında ise Ebü’l-Bükeyr olarak geçmektedir. Annesi Afrâ bint Ubeyd, Hazrec kabilesinin Benî Neccâr koluna mensuptu ve hac için geldiği Mekke’de Bükeyr b. Abdüyâlîl ile evlenmişti. 590’da doğan Âkıl’ın asıl adı Gāfil idi; ancak müslüman olunca Hz. Peygamber kendisine Âkıl adını verdi. Âkıl ve kardeşleri Dârülerkam’da Hz. Peygamber’e ilk biat edenlerdendir. Âkıl ilk hicret edenler arasında yer aldı ve Hz. Peygamber onu ensardan Mübeşşir b. Abdülmünzir ile, başka bir rivayete göre ise Mücezzer b. Ziyâd ile kardeş yaptı (bk. MUÂHÂT ). Bedir Savaşı’na katılan Âkıl, bu savaşta Mâlik b. Züheyr el-Cüşemî tarafından şehid edildi. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 247-248 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:akil-b-bukeyr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=akil-b-bukeyr, https://islamansiklopedisi.org.tr/akil-b-bukeyr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:akil-b-bukeyr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/akil-b-bukeyr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=akil-b-bukeyr (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kinânî; Leysî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 2,
+    "start_ce": 624,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=akil-b-bukeyr, URL: https://islamansiklopedisi.org.tr/akil-b-bukeyr || DİA death-date string: (ö. 2/624) || DİA categories: rivayet || Chunk count: 1"
+}

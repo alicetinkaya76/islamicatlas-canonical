@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00001978",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Dellâlülkütüb",
+      "ar": "دلال الكتب"
+    },
+    "originalScript": {
+      "ar": "دلال الكتب"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Meâlî Sa‘d b. Alî b. el-Kāsım Dellâlü'l-kütüb el-Hazîrî"
+      ]
+    },
+    "description": {
+      "tr": "Bağdat’ın kuzeyinde bulunan Düceyl bölgesindeki Hazîre köyünde doğdu. Aslen Medineli olduğu tahmin edilmektedir. Ensârî ve Hazrecî nisbelerini bu sebeple almış olmalıdır. Devrinin tanınmış edebiyatçılarından Ebû Mansûr İbnü’l-Cevâlîkī, Ebü’s-Saâdât İbnü’ş-Şecerî ve Ebû Muhammed İbnü’l-Haşşâb’dan faydalandı. Hanefî fakihlerden fıkıh tahsil etti. Bağdat’ta kitap istinsah edip satarak geçimini temin ettiği için verrâk ve “dellâlü’l-kütüb” lakaplarıyla tanındı. Bazı dinî görüşleri sebebiyle suçlanıp devlet adamlarına şikâyet edildiğini öğrenince hayatının tehlikede olduğunu anladı ve bir süre Bağdat’tan uzaklaşarak Suriye’de dolaştı. Kendisiyle uğraşanların öldüğünü haber alınca tekrar Bağdat’a döndü ve 568 yılı Safer ayında (Ekim 1172) burada vefat etti. Dellâlülkütüb çeşitli ilimlere vâkıf bir edip, akıcı bir üslûpla yazdığı kısa lirik şiirleri bulunan bir şairdir. Şiirlerinin konusu kadın, aşk ve mizahtır. Nazımda olduğu kadar nesirde de büyük bir sanatkâr olduğu bilinmektedir. Eserleri. Başlıca eserleri şunlardır: 1. Zînetü’d-dehr ve ʿuṣratü ehli’l-ʿaṣr . Ebû Mansûr es-Seâlibî’nin Yetîmetü’d-dehr adlı eserinin bir devamı olarak Ali b. Hasan el-Bâharzî tarafından yazılan Dümyetü’l-ḳaṣr ’ın zeylidir. Eserde çağdaşlarından ve daha önce yaşamış şairlerden bir kısmını ele almakta ve şiirlerinden örnekler vermektedir. Eser günümüze kadar gelmemiştir. 2. Lümeḥu’l-mülaḥ . Bir kaside antolojisi olan eser alfabetik olup 549 (1154) yılında kaleme alınmıştır. Köprülü (nr. 1364), Süleymaniye (Ayasofya, nr. 4246) ve Topkapı Sarayı Müzesi (III. Ahmed, nr. 2344) kütüphanelerinde yazmaları bulunmaktadır. 3. el-İʿcâz fi’l-eḥâcî ve’l-elġāz . Emîr Mücâhidüddin Kaymaz’a ithaf edilen eser 1000 kadar bilmeceyi (lugaz) ihtiva etmektedir. Eserin bir nüshası İʿcâzü’l-münâcî (muḥâcî) fi’l-elġāz ve’l-eḥâcî adıyla Topkapı Sarayı Müzesi Kütüphanesi’nde kayıtlıdır (III. Ahmed, nr. 2419). Dellâlülkütüb’ün bunlardan başka bir de divanının bulunduğu kaydedilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 146-147 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dellalulkutub",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dellalulkutub, https://islamansiklopedisi.org.tr/dellalulkutub",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:dellalulkutub",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=dellalulkutub",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:51Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dellalulkutub (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=dellalulkutub)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hazîrî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 568,
+    "start_ce": 1172,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dellalulkutub, URL: https://islamansiklopedisi.org.tr/dellalulkutub || DİA birth place: Hazîre || DİA death place: Suriye || DİA death-date string: (ö. 568/1172) || DİA categories: fıkıh || Chunk count: 1",
+  "death_place": "iac:place-00006769",
+  "teachers": [
+    "iac:person-00001805",
+    "iac:person-00004208",
+    "iac:person-00004333"
+  ]
+}

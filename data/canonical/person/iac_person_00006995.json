@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00006995",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Seyyid Nuh",
+      "ar": "سيّد نوح"
+    },
+    "originalScript": {
+      "ar": "سيّد نوح"
+    },
+    "description": {
+      "tr": "Diyarbekir’de doğdu. Adı Mehmed olup hayatı hakkında kaynaklarda fazla bilgi bulunmamaktadır. Memleketinde gördüğü düzenli bir öğrenimden sonra genç yaşta İstanbul’a geldi. Burada ilim tahsilinin yanı sıra mûsiki eğitimi aldı. Şöhretinin en parlak zamanı IV. Mehmed ile (1648-1687) III. Ahmed (1703-1730) arasındaki dönemdir. Ali Ufkî Bey, Hâfız Post, Buhûrîzâde Mustafa Itrî Efendi ve Nazîm gibi çağdaşı olduğu mûsikişinaslarla görüşmüş olması muhtemeldir. Mûsikideki yeteneğini bu ortamda daha da geliştirdi. Enderun’daki mûsiki fasıllarının hânendeleri arasında yer aldı ve başhânende oldu. Seyyid Nuh’un tegannisini Ebûishakzâde Esad Efendi Acem, Mehmet Suphi Ezgi Âzerî tarzına benzetmektedir ( Atrabü’l-âsâr , vr. 22 a ; Nazarî-Amelî Türk Musikisi , I, 114). III. Ahmed zamanında kendisine Diyarbekir’de bir timar verilerek emekli oldu. Memleketine döndükten bir müddet sonra vefat etti. Esad Efendi ölümü için düşürülen, “Bin yıl da ömrü olsa kişinin ne kârı var / Nûh’un da bir müsâade-i rûzigârı var” tarih beytini kaydetmektedir ( Atrabü’l-âsâr , vr. 22 b ). Esad Efendi, Seyyid Nuh’un sesinin orta güzellikte olduğunu, bestelerinde parlak bir üslûbun bulunduğunu söylemektedir ( a.g.e. , vr. 22 a-b ). Kendisini bizzat dinlediğini belirten Esad Efendi otuz civarında beste, semâi ve şarkısının olduğunu bildirmekteyse de ( a.g.e. , vr. 22 b ) kaynaklarda eski güfte mecmualarında 100’den fazla eserinin güftesinin yer aldığı ileri sürülmektedir. Bestelerinden günümüze on beş kadarı ulaşmıştır (Aksüt, s. 46; BTMA , II, 146). Suphi Ezgi eserinde tâhir ve şehnaz makamlarındaki besteleriyle hümâyun makamındaki semâisinin notalarını vermektedir. III. Ahmed devri mutasavvıf şair ve hattatlarından Fasîh Ahmed Dede, Seyyid Nuh’a gönderdiği bir muhabbetnâmede onu övmüş ve mûsikinin Pisagor’u olduğunu ifade etmiştir (İbnülemin, s. 306). Bu madde TDV İslâm Ansiklopedisi’nin 2009 yılında İstanbul’da basılan 37. cildinde, 74 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:seyyid-nuh",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=seyyid-nuh, https://islamansiklopedisi.org.tr/seyyid-nuh",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:seyyid-nuh",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/seyyid-nuh",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:57Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=seyyid-nuh (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1126,
+    "start_ce": 1714,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=seyyid-nuh, URL: https://islamansiklopedisi.org.tr/seyyid-nuh || DİA birth place: Diyarbekir || DİA death place: Diyarbekir || DİA death-date string: (ö. 1126/1714) || Chunk count: 1"
+}

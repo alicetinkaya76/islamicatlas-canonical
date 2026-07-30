@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00000744",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED AĞA, Vardakosta"
+    },
+    "description": {
+      "tr": "Türk mûsiki kaynaklarında, Enderun ağalarından ve ayrıca padişahın yanında bulunarak sohbetlerine katılmakla görevlendirilmiş kişilerden olduğu için, Musâhib Ahmed Ağa ve boylu boslu olduğu için de Vardakosta Ahmed Ağa lakaplarıyla anılmaktadır. Vardakosta kelimesi İtalyanca guardacosta dan bozulmadır. Osmanlıca metinlerde bir denizcilik terimi olarak “korsan gemisi, sahil muhafaza gemisi ve sahil muhafızı” mânalarında kullanılmış, iriyarı, güçlü kuvvetli kadın ve erkeklere de halk arasında vardakosta denilmiştir. Ahmed Ağa, Enderun ağalarından ve devrinin önde gelen mûsikişinaslarından biri olduğuna göre denizcilikle ilgili bir görevi bulunması uzak ihtimaldir. Bu lakabı alması boylu boslu, güçlü kuvvetli olmasıyla izah edilebilir. Amasya’ya bağlı bir kasabada doğdu. Küçük yaşta İstanbul’a gitti ve saraya alındı. Mûsikideki temel bilgileri Enderun’da edindiği anlaşılmaktadır. Mevleviyye tarikatına intisap etti. Galata ve Yenikapı mevlevîhânelerine devam ederek tarikat terbiyesi aldı. Burada bilhassa Abdürrahim Künhî Dede’den istifade etti. Galata Mevlevîhânesi’nde Şeyh Galib’in dostluğunu kazanarak onun bazı şiirlerini besteledi. Kendisi de büyük bir bestekâr olan III. Selim’den yakın ilgi görerek bir müddet sonra “musâhib-i şehriyârî”ler arasına alındı. Hatta III. Selim’in bestelediği sûzidilârâ Mevlevî âyininin bizzat hükümdar tarafından Ahmed Ağa’ya meşkedildikten sonra Galata Mevlevîhânesi’nde okunduğu söylenir. Musâhiplik görevinde iken öldü ve Galata Mevlevîhânesi hazîresine gömüldü. Ahmed Ağa, eserlerinden anlaşıldığına göre devrinin önde gelen bestekârlarındandı. Kaynaklarda iyi bir hânende ve tamburî olduğu da belirtilmektedir. Esrar Dede, Tezkire ’sinde onun edebî değeri fazla olmamakla birlikte birtakım manzumeler kaleme aldığını söyler. Asıl şöhretini bestelediği dinî ve din dışı eserlerle kazandı. İcat ettiği ferahfezâ makamı ve tertip ettiği darb-ı hüner adlı on dokuz vuruşlu usul, mûsiki nazariyatındaki kudretini gösterir. Bestelediği hicaz, nihâvend ve sabâ Mevlevî âyinlerinden sonuncusu unutulmuştur. Bu üç âyinin dışında yaptığı başka bir dinî eseri bilinmemektedir. Din dışı alanda ise pek çok saz eseri ile sözlü eser bestelemiştir. Abdürrahim Dede (Şeydâ Hâfız), Küçük Mehmed Ağa ve Hacı Sâdullah Ağa ile birlikte besteledikleri tâhir makamındaki kârı da unutulan eserleri arasındadır. Ahmed Ağa’nın çeşitli yazma güfte mecmualarında birçok eserine rastlanmaktaysa da bunlardan sadece iki Mevlevî âyini ile on bir saz eseri ve on dokuz sözlü eseri günümüze ulaşmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 41-42 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-aga-vardakosta",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-aga-vardakosta, https://islamansiklopedisi.org.tr/ahmed-aga-vardakosta",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-aga-vardakosta",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-aga-vardakosta",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-aga-vardakosta (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1209,
+    "start_ce": 1794,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-aga-vardakosta, URL: https://islamansiklopedisi.org.tr/ahmed-aga-vardakosta || DİA death-date string: (ö. 1209/1794) || DİA categories: tarikat || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000625"
+  ]
+}

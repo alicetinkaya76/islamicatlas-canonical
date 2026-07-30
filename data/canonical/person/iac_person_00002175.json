@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00002175",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Hasîn",
+      "ar": "أبو حصين"
+    },
+    "originalScript": {
+      "ar": "أبو حصين"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Hasîn Osmân b. Âsım b. Hasîn el-Esedî el-Kûfî"
+      ]
+    },
+    "description": {
+      "tr": "Câhiliye devri Arap şairlerinden Abîd b. Ebras’ın soyundan geldiği rivayet edilir. Kûfe’deki Esedoğulları’nın en önde geleniydi. Câbir b. Semüre, Abdullah b. Abbas, Abdullah b. Zübeyr, Enes b. Mâlik ve Ebû Saîd el-Hudrî gibi sahâbîlerden ve Mücâhid b. Cebr, Şa‘bî gibi tâbiîlerden hadis, Yahyâ b. Vessâb’dan da arz yoluyla kıraat tahsil etti. Kendisinden de Şu‘be b. Haccâc, Süfyân es-Sevrî, Şerîk b. Abdullah, Ebû Avâne el-Vâsıtî, Süfyân b. Uyeyne gibi âlimler hadis, A‘meş ise kıraate dair çeşitli rivayetlerde bulundu. Kûfe’nin en güvenilir dört muhaddisinden biri kabul edilmesine rağmen pek az rivayette bulundu. Rivayetleri Kütüb-i Sitte ’de yer almıştır. Elli yıl süreyle Kûfe Mescidi’nde talebe okutan Ebû Hasîn sorulan bir meseleye cevap vermenin önemli ve güç bir iş olduğunu söylerdi. Fazla araştırmadan cevap verenlere kızar ve, “Bu soru Hz. Ömer’e sorulsaydı Ehl-i Bedir’i istişareye çağırırdı” derdi. Hz. Osman taraftarı olan Ebû Hasîn Emevîler’in baskısından çekinir, fakat onlara boyun eğmezdi. Son derece mütevazi bir hayat sürdü. Devlet adamlarından birinin kendisine gönderdiği 2000 dirhemi ihtiyacı olmasına rağmen kabul etmedi. Vefatı sırasında baygınlık geçirmeye başlayınca, “Biz onlara zulmetmedik, fakat kendileri zalimdi” (ez-Zuhruf 43/76) meâlindeki âyeti okumaya başladı. Birkaç defa baygınlık geçirdiği halde bu âyeti dilinden düşürmedi. Ebû Hasîn 128 (745-46) yılında Kûfe’de vefat etti. 127 (744-45) ve 132 (749-50) yıllarında vefat ettiğine dair rivayetler de vardır. İbn Hibbân onu tebeu’t-tâbiînden kabul etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 145 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-hasin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-hasin, https://islamansiklopedisi.org.tr/ebu-hasin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:55Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-hasin (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Esedî"
+  ],
+  "death_temporal": {
+    "start_ah": 128,
+    "start_ce": 745,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-hasin, URL: https://islamansiklopedisi.org.tr/ebu-hasin || DİA death place: Kûfe || DİA death-date string: (ö. 128/745-46) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00006743"
+  ]
+}

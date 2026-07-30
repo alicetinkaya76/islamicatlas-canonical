@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00020813",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-'Ādid"
+    },
+    "description": {
+      "tr": "Son Fâtımî halife; Salâhaddin hilâfeti ilga etti; yatağında ölürken"
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:27:ruler:13",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-027, ruler #14",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:09:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:09:10Z",
+    "modified": "2026-05-04T15:09:10Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:09:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Promoted from inline rulers[13] of iac:dynasty-00000027 (The Fātimids) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[13].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "affiliated_dynasties": [
+    "iac:dynasty-00000027"
+  ],
+  "laqab": [
+    "Khalīfa"
+  ],
+  "floruit_temporal": {
+    "start_ce": 1160,
+    "end_ce": 1171,
+    "start_ah": 555,
+    "end_ah": 567,
+    "approximation": "floruit"
+  },
+  "death_temporal": {
+    "start_ce": 1171,
+    "start_ah": 567,
+    "approximation": "exact",
+    "note": "Bosworth death code: d. 567/1171"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q286460",
+      "confidence": 0.8,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Medium-confidence match for \"'Ādid\"; score=0.80 (review threshold 0.70). Manual review recommended."
+    }
+  ],
+  "note": "Bosworth death code: d. 567/1171 || Promoted from iac:dynasty-00000027 rulers[13] (Bosworth NID-027)."
+}

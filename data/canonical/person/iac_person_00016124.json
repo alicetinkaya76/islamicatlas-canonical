@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00016124",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Harawī",
+      "tr": "Herevî",
+      "ar": "الهروي"
+    },
+    "originalScript": {
+      "ar": "الهروي"
+    },
+    "description": {
+      "tr": "Edebiyat bilgini",
+      "en": "A scholar of literature"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad b. Ādam b. Kamāl al-Harawī, Abū al-Muẓaffar"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Âdem b. Kemâl el-Herevî, Ebû'l-Muẓaffar"
+      ],
+      "ar": [
+        "محمد بن آدم بن كمال الهروي ، أبو المظفر"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:8942",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=8942",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:48Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:48Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:48Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=8942 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:8942."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 414,
+    "start_ce": 1023,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=8942, heading_ar=الهروي || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 34.35, 62.2",
+  "active_in_places": [
+    "iac:place-00012668"
+  ],
+  "authored_works": [
+    "iac:work-00007086"
+  ],
+  "kunya": "أبو المظفر"
+}

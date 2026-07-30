@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00017751",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abū ʿAbd Allāh",
+      "tr": "Ebû Abdullâh",
+      "ar": "أبو عبد الله"
+    },
+    "originalScript": {
+      "ar": "أبو عبد الله"
+    },
+    "description": {
+      "tr": "Endelüs'ün son melikleri",
+      "en": "The last king of al-Andalus"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad (Abū ʿAbd Allāh) b. ʿAlī (Abī al-Hasan) b. Saʿd b. ʿAlī b. Yūsuf b. Muhammad (al-Ghanī bi-llāh) al-Nasrī, min Banī al-Aḥmar, al-Ansārī al-Khuzraʿī, al-Mashāhur bi-Abī ʿAbd Allāh"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed (Ebû Abdullâh) b. Ali (Ebî el-Hasen) b. Saad b. Ali b. Yûsuf b. Muhammed (el-Ganî billâh) en-Nasrî, Benî el-Ahmer'den, el-Ensârî el-Huzrûcî, el-Meşhûr bi-Ebî Abdullâh"
+      ],
+      "ar": [
+        "محمد ( أبو عبد الله ) بن علي (أبي الحسن) بن سعد بن علي بن يوسف بن محمد (الغني بالله)النصري، من بني الأحمر، الأنصاري الخزرجي، المعروف ب أبي عبد الله، ويسميهالإسبان Boabdil بو أبدل"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:10740",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10740",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:08Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:08Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=10740 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:10740."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 940,
+    "start_ce": 1533,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10740, heading_ar=أبو عبد الله || Ziriklī century_ce=16 || Ziriklī place coords (city/region of activity): 37.18, -3.6",
+  "active_in_places": [
+    "iac:place-00002614",
+    "iac:place-00008830"
+  ],
+  "kunya": "أبو عبد الله"
+}

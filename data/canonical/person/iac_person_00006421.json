@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00006421",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "RIEU, Charles"
+    },
+    "description": {
+      "tr": "Cenevre’de doğdu. 1835’te girdiği Cenevre Akademisi’nde üç yıl felsefe, bir yıl fen bilimleri öğrenimi gördü. Bu okulun bir döneminde Fransız şarkiyatçısı Antoine Isaac Silvestre de Sacy’nin öğrencilerinden Jean Humbert’in sınıfına devam etti ve diplomasını alınca Bonn Üniversitesi Felsefe Fakültesi’ne kaydoldu. Burada Georg Wilhelm Freytag’dan Arapça, Christian Lassen’den Sanskritçe, ayrıca klasik tarih ve kültür derslerinin yanı sıra Almanca ve Latince okudu. Daha sonraki bir dönemde de Freytag ile Johann Gildemeister’den Arapça dersleri aldı; bir yandan da özel İbrânîce öğrenimi gördü. 1843 yılında Ebü’l-Alâ el-Maarrî üzerine hazırladığı tezini tamamlayarak doktor unvanını aldı. En ilginç ve anlaşılması güç şairlerden olan Maarrî hakkındaki bu çalışmasıyla Arap dili ve edebiyatı âlimleri arasına girdi ve çok çabuk şöhret kazandı. 1844’te Société Asiatique’e üye seçildi. 1847’de yaklaşık yarım asır hizmet vereceği British Museum’a girdi; 1867 yılında Doğu Yazmaları Bölümü’nün başkanlığına getirildi. Rieu burada en önemli eserlerini oluşturan Doğu yazmaları kataloglarını hazırladı. Yazmalarla müellifleri hakkında değerli bilgiler içeren bu kataloglar araştırmacıların vazgeçilmez başvuru kaynağı haline geldi. 1893’te British Museum’daki görevinden emekliye ayrıldıysa da ömrünün sonuna kadar bu kuruma katkıda bulunmaya devam etti. 6 Eylül 1894’te Bonn Üniversitesi’nde doktorasının jübilesini kutladı. Aynı yılın sonlarında W. Robertson Smith’in ölümüyle boşalan Cambridge Üniversitesi’ndeki Sir Thomas Adams Arapça kürsüsünün başkanlığına davet edildi; 1632’de kurulan kürsünün on altıncı ve yegâne Britanya dışı kökenli başkanı oldu. 19 Mart 1902’de Londra’da öldü. Eserleri. 1. De Abu’l-Alae poetae arabici vita et carminibus (Bonn 1843). Doktora tezidir. 2. Catalogus codicum manuscriptorum orientalium qui in Museo Britannico asservantur. Pars secunda, Codices Arabicos amplectens (London 1871). William Cureton’un 1846’da birinci kısmını yayımladığı British Museum Kütüphanesi’ndeki Arapça yazmalara ait katalogun ikinci kısmıdır. 3. Catalogue of the Persian Manuscripts in the British Museum (I-III, London 1879-1883; London 1966). 2536 Farsça yazma eserin katalogudur. 4. Catalogue of Turkish Manuscripts in the British Museum (London 1888; Osnabrück 1978). 483 Türkçe yazma eserin katalogudur. 5. Supplement to the Catalogue of the Arabic Manuscripts in the British Museum (London 1894; Hildesheim 2000). O tarihten 1894 yılına kadar kütüphaneye gelen 1290 yazmanın katalogudur. 6. Supplement to the Catalogue of the Persian Manuscripts in The British Museum (London 1895). 1883-1895 yılları arasında British Museum Kütüphanesi’ne gelen 425 yazmanın katalogudur. Rieu ayrıca Otto von Böhtlingk ile birlikte Hemachandra’nın Sanskritçe sözlüğü Abhidana chintamani ’yi orijinal metnin transkripsiyonunu yapmak suretiyle katkıda bulunarak yayımlamıştır (Saint-Petersburg 1847). Bu madde TDV İslâm Ansiklopedisi’nin 2008 yılında İstanbul’da basılan 35. cildinde, 94 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:rieu-charles",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=rieu-charles, https://islamansiklopedisi.org.tr/rieu-charles",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:rieu-charles",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=rieu-charles",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:51Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=rieu-charles (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=rieu-charles)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1820,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=rieu-charles, URL: https://islamansiklopedisi.org.tr/rieu-charles || DİA birth place: Cenevre || DİA death-date string: (1820-1902) || DİA categories: felsefe || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002797"
+  ]
+}

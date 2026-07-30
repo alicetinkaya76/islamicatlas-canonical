@@ -1,0 +1,111 @@
+{
+  "@id": "iac:person-00000638",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. HÂRİS",
+      "ar": "عبد الرحمن بن الحارث"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن الحارث"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdurrahmân b. el-Hâris b. Hişâm b. el-Mugīre el-Mahzûmî",
+        "Abdurrahman b. el-Haris b. Hişam el-Mahzûmî el-Kureşî el-Medenî, Ebû Muhammed"
+      ],
+      "ar": [
+        "عبد الرحمن بن الحارث بن هشام المخزومي القرشي المدني، أبو محمد"
+      ]
+    },
+    "description": {
+      "tr": "Hicretin birinci yılında doğduğu bilinmektedir. Babasının vefatından sonra annesinin Hz. Ömer’le evlenmesi üzerine onun himayesine girdi. Asıl adı İbrâhim’di; ancak halifeliği sırasında, peygamber adı taşıyanların isimlerini değiştirmeyi düşündüğü sıralarda Hz. Ömer, ona Abdurrahman adını verdi. İlmi ve cömertliğiyle tanınan ve Hz. Osman’ın kızıyla evlenen Abdurrahman, Hz. Âişe ile birlikte Cemel Savaşı’na katıldı. Onu çok takdir eden Âişe, “Abdurrahman b. Hâris gibi on çocuğum olsaydı, evimde oturup onları yetiştirmeyi her şeye tercih ederdim” derdi. Hz. Osman, mushaf nüshalarını çoğaltıp çeşitli bölgelere göndermeye karar verince, bunu gerçekleştirmek üzere Zeyd b. Sâbit, Saîd b. Âs ve Abdullah b. Zübeyr ile birlikte damadı Abdurrahman’ı da görevlendirdi. Ayrıca Osman şehid edildiği sırada Abdurrahman yanında bulunduğu için yaralanmıştı. Rivayet ettiği hadisleri Hz. Ömer, Osman, Ebû Hüreyre, Âişe, Ümmü Seleme gibi sahâbîlerden nakletmiş, kendisinden de fukahâ-yi seb‘a dan biri olan oğlu Ebû Bekir, ayrıca Ebû Kılâbe, Şa‘bî gibi muhaddisler rivayette bulunmuşlardır. Rivayet ettiği hadisler Ṣaḥîḥ-i Buḫârî ile dört büyük sünende yer almıştır. Abdurrahman, Muâviye’nin hilâfet yıllarında Medine’de vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 164 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "A Successor, reliable, of great standing, among the nobility of Quraysh."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd al-Raḥmān b. al-Ḥārith b. Hishām al-Makhzūmī al-Qurayshī al-Madanī, Abū Muḥammad"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-haris",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-haris, https://islamansiklopedisi.org.tr/abdurrahman-b-haris",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:5148",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5148, heading_ar=عبد الرحمن بن الحارث",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-haris (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5148]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5148 (heading_ar=عبد الرحمن بن الحارث) via Track A (DİA→Alam xref bridge). dt=Tâbiî, sika, derecesi yüksek, Kureyş'in aşrafından."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+kunya+translit from alam_detail.json el-alam:5148."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mahzûmî"
+  ],
+  "death_temporal": {
+    "start_ah": 43,
+    "start_ce": 663,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-haris, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-haris || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5148] || DİA death place: Medine || DİA death-date string: (ö. 43/663-64) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5148, heading_ar=عبد الرحمن بن الحارث, dt=Tâbiî, sika, derecesi yüksek, Kureyş'in aşrafından.",
+  "kunya": "أبو محمد",
+  "teachers": [
+    "iac:person-00000874",
+    "iac:person-00006207",
+    "iac:person-00006242"
+  ],
+  "students": [
+    "iac:person-00006501"
+  ]
+}

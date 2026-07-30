@@ -1,0 +1,120 @@
+{
+  "@id": "iac:person-00001457",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bennânî",
+      "ar": "البنّاني"
+    },
+    "originalScript": {
+      "ar": "البنّاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Abdisselâm b. Hamdûn el-Bennânî"
+      ]
+    },
+    "description": {
+      "tr": "Fas’ta doğdu. Başta Hicaz bölgesi olmak üzere çeşitli ilim ve kültür merkezlerini dolaşarak tahsilini tamamladı. Hocaları arasında Abdülkādir el-Fâsî’nin iki oğlu Muhammed ve Abdurrahman ile İbnü’l-Hâc Ahmed b. Arabî de bulunmaktadır. Daha sonra ülkesine dönerek Karaviyyîn Medresesi’nde hocalık yapmaya başladı. Ṣaḥîḥ-i Buḫârî derslerinin yanı sıra Arap dili ve edebiyatına duyduğu yakın ilgi sebebiyle Muḫtaṣaru Ḫalîl adlı eseri her yıl okuturdu. Memleketinde çıkan siyasî kargaşa sebebiyle 1150 (1737) yılında Tıtvân’a gitti. Burada altı yıl boyunca tefsir, hadis ve gramer dersleri verdi. Sonra tekrar Fas’a döndü. 16 Zilkade 1163’te (17 Ekim 1750) hayli ileri bir yaşta iken Fas’ta vefat etti. Eserleri. 1. Meʿâni’l-vefâʾ bi-meʿâni’l-İktifâʾ . Kelâî’nin (ö. 634/1237) el-İktifâʾ fî meġāzî Resûlillâh ve’s̱-s̱elâs̱eti’l-ḫulefâʾ adlı kitabının şerhi olup bu eseri hocası Muhammed b. Abdülkādir el-Fâsî’nin isteği üzerine yazmaya başlamış, ancak tamamlamaya ömrü kâfi gelmemiştir. Eserin altı cilt olduğu kaydedilmektedir. 2. Kitâb fî feżâʾili’l-Ḥaremeyn . Haccın önemi ve ifa şekli ile Mekke ve Medine’nin sınırları gibi konulardan bahsetmekte, ayrıca hacda birbirleriyle karşılaşan İslâm âlimlerinden söz etmektedir. Bennânî’nin bunlardan başka el-Ecvibetü’l-Bennâniyye ʿani’l-esʾileti’l-Mıṣrıyye , Şerḥu’l-Ḥizbi’l-kebîr , Şerḥu Lâmiyyeti’z-Zeḳḳāk (ahkâma dair), İḫtiṣâru Şerḥi’ş-Şifâʾ ile hocası İbnü’l-Hâc hakkında kaleme aldığı Fehrese adlı eserleri vardır. Yarım kalmış bazı çalışmalarının bulunduğu da kaynaklarda zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 459 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bennani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bennani, https://islamansiklopedisi.org.tr/bennani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:bennani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=bennani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:10282",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=10282, heading_ar=البناني",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:42Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bennani (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[10282]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=bennani)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=10282 (heading_ar=البناني) via Track A (DİA→Alam xref bridge). dt=Hadis âlimlerinden, Fez ahalinden."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bennânî"
+  ],
+  "birth_temporal": {
+    "start_ah": 1150,
+    "start_ce": 1737,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1163,
+    "start_ce": 1750,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bennani, URL: https://islamansiklopedisi.org.tr/bennani || El-Aʿlām (Ziriklī) cross-reference: alam_id=[10282] || DİA birth place: Fas || DİA death place: Fas || DİA death-date string: (ö. 1163/1750) || DİA categories: hadis > tefsir || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=10282, heading_ar=البناني, dt=Hadis âlimlerinden, Fez ahalinden.",
+  "teachers": [
+    "iac:person-00002676",
+    "iac:person-00004192",
+    "iac:person-00004666",
+    "iac:person-00005564"
+  ],
+  "students": [
+    "iac:person-00003486",
+    "iac:person-00003843",
+    "iac:person-00003906",
+    "iac:person-00004040"
+  ]
+}

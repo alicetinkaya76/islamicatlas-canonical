@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00006723",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Sayrafî",
+      "ar": "الصيرفي"
+    },
+    "originalScript": {
+      "ar": "الصيرفي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Bündâr es-Sayrafî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Bazı kaynaklarda nisbesi “Sûfî” şeklinde kayıtlıdır. Muahhar kaynaklardan Baḥrü’l-velâye ’de adı yanlış olarak Ali b. Hüseyin el-Pendârî şeklinde yazılmıştır (Süleyman Şeyhî, s. 139). Muhtemelen âlim sûfîlerden Bündâr b. Hüseyin eş-Şîrâzî’nin oğludur. Sayrafî, Horasan bölgesindeki şehirleri, Irak, Suriye ve Mısır’ı dolaşarak sûfîlerinin sohbetlerine katıldı. Nîşâbur’da Ebû Osman el-Hîrî ve Mahfûz b. Mahmûd’un, Semerkant’ta Muhammed b. Fazl el-Belhî’nin, Belh’te Muhammed b. Hâmid’in, Cûzcân’da Ebû Ali el-Cûzcânî’nin, Rey’de Yûsuf b. Hüseyin er-Râzî’nin, Bağdat’ta Cüneyd-i Bağdâdî, Ruveym b. Ahmed, Semnûn b. Hamza, İbn Atâ ve Ebû Muhammed el-Cerîrî’nin, Şam’da Tâhir el-Makdisî, İbnü’l-Cellâ ve Ebû Amr ed-Dımaşkī’nin, Mısır’da Ebû Bekir el-Mısrî, Ebû Bekir ez-Zekkāk ve Rûzbârî’nin sohbetlerinde onlardan istifade etti. Sayrafî, sırf Cüneyd-i Bağdâdî’nin sohbetlerine katıldığı için buna imkân bulamayan İbn Hafîf’in kendisine saygı gösterdiğini belirtmektedir (Sülemî, s. 501-504). Hücvîrî’nin “pîrlerin pîri” diye andığı Sayrafî’nin ( Keşfü’l-mahcûb , s. 95) bazı sözleri oğlu Muhammed tarafından rivayet edilmiştir. Tasavvufu “her şeyi Hak’tan ve Hakk’a ait olarak görmek, zâhir ve bâtında halkı görmemek” şeklinde tanımlayan Sayrafî dünyada sıkıntısız hayatın mümkün olmadığını, hevâ ile Hakk’a ulaşılamayacağını, dünya ve âhiretten vazgeçmeden Hakk’ın bulunamayacağını vurgulamış, halkla fazla haşır neşir olmanın zararlarına işaret etmiştir. Öte yandan oğluna, “Evlâdım! Sakın insanlarla ihtilâfa düşme, Allah’ın kul olarak kabul ettiği bir kimseyi kardeş olarak kabul etmekten çekinme” dediği rivayet edilir. Tevazua büyük önem veren Sayrafî ilk defa gördüğü bir üstadın hemen elini öper ve ardından yürümeyi tercih ederdi. Namaz kılarken üzerinde bulunan elbiseyi halk ile görüşeceği zaman daha iyisiyle değiştirmekten hoşlanmaz, “Allah’ın huzuruna çıkmanın edebi budur” derdi. Sayrafî ayrıca hadis rivayetinde bulunmuş ve güvenilir bir râvi kabul edilmiştir. Hadis aldığı kimseler arasında hadis hâfızı İbn Cevsâ da vardır. Sülemî, Sayrafî’nin Dâvûd b. Süleyman b. Huzeyme’den aldığı bir hadisi eserinde kaydetmiştir ( Ṭabaḳāt , s. 501-502). Bu madde TDV İslâm Ansiklopedisi’nin 2009 yılında İstanbul’da basılan 36. cildinde, 216-217 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:sayrafi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=sayrafi, https://islamansiklopedisi.org.tr/sayrafi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:54Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=sayrafi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sayrafî"
+  ],
+  "death_temporal": {
+    "start_ah": 359,
+    "start_ce": 969,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=sayrafi, URL: https://islamansiklopedisi.org.tr/sayrafi || DİA death-date string: (ö. 359/969-70) || DİA categories: hadis > rivayet > tasavvuf || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002132"
+  ]
+}

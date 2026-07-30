@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00021321",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "IbnHazm"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "openiti:0456IbnHazm",
+        "source_type": "digital_corpus",
+        "page_or_locator": "OpenITI corpus_authors.json id=0456IbnHazm",
+        "extraction_method": "structured_json",
+        "edition_or_version": "OpenITI corpus snapshot 2024-2026"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "openiti-author-resolve",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T21:23:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T21:23:44Z",
+    "modified": "2026-05-04T21:23:44Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T21:23:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Placeholder person minted by openiti-author-resolve Tier 4 (no T1/T2 match in canonical person index). Pending biographic enrichment in Hafta 6 (DİA chunk re-extraction + cross-source alignment). Authored works will be back-populated by integrity_pass_A_bidirectional after openiti-works adapter."
+      }
+    ],
+    "deprecated": false
+  },
+  "note": "Tier-4 placeholder from OpenITI author_id=0456IbnHazm. Biographic content sparse pending Hafta 6 enrichment.",
+  "death_temporal": {
+    "start_ce": 1064,
+    "start_ah": 456,
+    "approximation": "circa"
+  },
+  "authored_works": [
+    "iac:work-00000349",
+    "iac:work-00000857",
+    "iac:work-00000879",
+    "iac:work-00001152",
+    "iac:work-00001887",
+    "iac:work-00003033",
+    "iac:work-00003258",
+    "iac:work-00003454",
+    "iac:work-00004227",
+    "iac:work-00004525",
+    "iac:work-00005711",
+    "iac:work-00006400",
+    "iac:work-00006491",
+    "iac:work-00006494",
+    "iac:work-00006499",
+    "iac:work-00006575",
+    "iac:work-00006750",
+    "iac:work-00006911",
+    "iac:work-00007164",
+    "iac:work-00007249",
+    "iac:work-00007312",
+    "iac:work-00007518",
+    "iac:work-00008000",
+    "iac:work-00008289",
+    "iac:work-00008473",
+    "iac:work-00008606",
+    "iac:work-00008651",
+    "iac:work-00008741",
+    "iac:work-00008807",
+    "iac:work-00008872",
+    "iac:work-00009231",
+    "iac:work-00009270",
+    "iac:work-00009289"
+  ]
+}

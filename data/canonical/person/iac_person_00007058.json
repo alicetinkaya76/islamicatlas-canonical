@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00007058",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ŞÎRÂZÎ, Bismil",
+      "ar": "بسمل شيرازي"
+    },
+    "originalScript": {
+      "ar": "بسمل شيرازي"
+    },
+    "altLabel": {
+      "tr": [
+        "Hâci Alî Ekber Bismil-i Şîrâzî"
+      ]
+    },
+    "description": {
+      "tr": "1187’de (1773) Şîraz’da doğdu. Mahlası “Bismil”, lakabı Nevvâb’dır. Safevîler döneminde Irâk-ı Acem’den gelerek İsfahan’a yerleşen ataları 1135 (1722-23) yılındaki Afgan istilâsından sonra Şîraz’a göç etmiş, babası Âgā Ali Nakīb burada doğmuştur. Bismil eğitimini babasının da hocalık yaptığı Şîraz’daki Medrese-i Hakîm’de aldı. Tezkiresinde verdiği bilgiye göre burada edebiyat, felsefe, matematik, mantık ve dinî ilimleri öğrendi; tasavvuf konusunda derinleşti. Hocaları arasında Muhammed Hüseyin b. Muhammed Ma‘sûm-i Kazvînî de vardı. Tahsilini tamamladıktan sonra aynı medresede hocalığa başladı ve birçok öğrenci yetiştirdi. Bunlar arasında en tanınmışı Nasrullah b. Abdülgaffâr-ı Şîrâzî’dir. Bismil, Kaçar Hükümdarı Feth Ali Şah’ın Fars valisi olan oğlu Hüseyin Mirza Fermânfermân’ın kızıyla evlenerek “nevvâb” unvanı aldı. İran’ın çeşitli bölgeleri yanında Mekke, Medine ve atebâta seyahat etti. 1263 (1847) yılında Şîraz’da vefat etti ve oradaki İmamzâde Mîr Seyyid Muhammed b. Mûsâ el-Kâzım’ın türbesi civarında defnedildi. Eserleri. 1. Dîvân . Arapça ve Farsça şiirler içeren divanla aşağıda anılan diğer eserlerin yer aldığı bir yazma Tahran Üniversitesi Kütüphanesi’nde kayıtlıdır (nr. 2999). 2. Teẕkire-i Dilgüşâ . Feth Ali Şah ve on iki Kaçar prensiyle Şîrâzî’nin dönemindeki şairlere dair 185 biyografiyi içeren eserde Şîraz cami ve medreselerinin anlatıldığı bir giriş bölümü bulunmakta, son bölümde müellifin biyografisi yer almaktadır (nşr. Mansûr Restgâr Fesâyî, Şîraz 1371 hş.). 3. Tuḥfetü’s-sefer li-nûri’l-baṣar . Belâgatla ilgilidir. 4. Ẕaḫîretü’n-necât fî mîrâs̱i’l-emvât . Hüseyin Ali Mirza Kaçar adına telif etmiştir. 5. Nûrü’l-hidâye fî is̱bâti’r-risâle . 6. Enderznâme . 7. Şerḥ-i Sî Faṣl-i Ḫâce Naṣîreddîn-i Ṭûsî . 8. Baḥrü’l-leʾâlî . Hz. Peygamber’in ve Şîa imamlarının hayatlarının anlatıldığı bir eserdir (diğer eserleri için bk. DMBİ , XII, 151). Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 184 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:sirazi-bismil",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=sirazi-bismil, https://islamansiklopedisi.org.tr/sirazi-bismil",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:sirazi-bismil",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=sirazi-bismil",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:57Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=sirazi-bismil (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=sirazi-bismil)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1135,
+    "start_ce": 1722,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1263,
+    "start_ce": 1847,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=sirazi-bismil, URL: https://islamansiklopedisi.org.tr/sirazi-bismil || DİA birth place: Şîraz || DİA death place: Şîraz || DİA death-date string: (ö. 1263/1847) || DİA categories: tasavvuf > felsefe > mantık || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00005185"
+  ]
+}

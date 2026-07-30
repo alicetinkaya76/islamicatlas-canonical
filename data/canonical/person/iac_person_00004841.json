@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00004841",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KELÎM-i KÂŞÂNÎ",
+      "ar": "كليم كاشانى"
+    },
+    "originalScript": {
+      "ar": "كليم كاشانى"
+    },
+    "description": {
+      "tr": "Hemedan’da doğdu. Meliküşşuarâ Mirza Ebû Tâlib, Tâlibâ-yi Kelîm ve Hallâku’l-meânî-i Sânî unvanlarıyla anılan şair, Kâşân’da uzun süre kaldığı ve öğrenimini bu şehirde yaptığı için daha çok Kâşânî nisbesiyle tanınır. Öğrenimini Kâşân ve Şîraz’da tamamladıktan sonra Bâbürlü Hükümdarı Cihangir döneminde Hindistan’a giderek Bîcâpûr’da Âdilşâhîler’den II. İbrâhim Şah’ın valisi ve I. Şah İsmâil’in torunlarından olan Şahnevâz Han’a intisap etti. Şahnevâz Han’ın ölümü üzerine 1028’de (1619) Irak’a gitti. Burada beklediği ilgiyi göremeyince iki yıl sonra tekrar Hindistan’a döndü. Gûlkünde’de Kutubşâhîler’den Muhammed Kulı b. İbrâhim’in veziri Mîr Muhammed Emîn’e ve ardından Bâbürlü Hükümdarı Şah Cihan’a intisap etti. Şah Cihan tarafından kendisine melikü’ş-şuarâ unvanı verildi. Şah Cihan ile birlikte Keşmir’e giden Kelîm-i Kâşânî hükümdardan izin alarak orada kaldı, ancak sarayla ilişkisini kesmedi ve kendisine maaş bağlandı. Burada Şah Cihan adına Pâdşâhnâme adlı eserini yazdı. Şah Cihan Keşmir’e ikinci gelişinde yazdığı kasideden dolayı kendisini ödüllendirdi. 1061’de (1651) Keşmir’de öldü. Şiirin her türünde çok sayıda ürün veren Kelîm daha çok gazelleriyle tanınır. Gazellerinin dili açık ve sağlamdır. Kaside ve mesnevilerinin dili de oldukça sade olmakla birlikte ifade bakımından gazelleri kadar mükemmel değildir. Kelîm aynı zamanda edebî sanatlardan irsâl-i meseli çok kullanmakla da tanınır. Eserleri. 1. Külliyât . Yaklaşık 10.000’i divanına ait olmak üzere 25.000 beyit ihtiva eder. Kaside, gazel, rubâî ve kıtalardan oluşan divanı basılmıştır (Kanpûr 1879; Tahran 1354 h./1336 hş.). 2. Pâdşâhnâme . Şah Cihan’la ilgili olayların şehnâme tarzında anlatıldığı eser Şahcihânnâme , Fütûḥât-ı Şahcihânî , Ẓafernâme-i Şâhcihân , Şahnâme-i Kelîm adlarıyla da anılır (nüshaları için bk. Storey, I, 572-573). Bu madde TDV İslâm Ansiklopedisi’nin 2022 yılında Ankara’da basılan 25. cildinde, 212 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kelim-i-kasani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kelim-i-kasani, https://islamansiklopedisi.org.tr/kelim-i-kasani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:kelim-i-kasani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=kelim-i-kasani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:33Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kelim-i-kasani (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=kelim-i-kasani)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1061,
+    "start_ce": 1651,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kelim-i-kasani, URL: https://islamansiklopedisi.org.tr/kelim-i-kasani || DİA birth place: Hemedan || DİA death-date string: (ö. 1061/1651) || DİA categories: şiir || Chunk count: 1"
+}

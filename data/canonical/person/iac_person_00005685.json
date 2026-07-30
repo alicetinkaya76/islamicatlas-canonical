@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00005685",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MUHAMMED b. KÂ‘B el-KURAZÎ",
+      "ar": "محمّد بن كعب القرظي"
+    },
+    "originalScript": {
+      "ar": "محمّد بن كعب القرظي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Hamza (Ebû Abdillâh) Muhammed b. Kâ‘b b. Süleym el-Kurazî"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Ali’nin hilâfetinin son yılında (40/661) Kûfe’de doğdu. Gençlik döneminde Medine’ye yerleşti. Hz. Peygamber zamanında dünyaya geldiği ve onu gördüğü rivayet edilmekteyse de bunun doğru olmadığı (Zehebî, V, 65, 67) ve bu bilginin babasıyla ilgili bulunduğu ( İbn Hacer, el-İṣâbe , VI, 346) anlaşılmaktadır. Ebân b. Osman b. Affân, Enes b. Mâlik, Berâ b. Âzib, Câbir b. Abdullah, Zeyd b. Erkam, Abdullah b. Abbas, Amr b. Âs başta olmak üzere pek çok kişiden hadis rivayet eden Muhammed b. Kâ‘b’dan kardeşi Osman, ayrıca Zeyd b. Eslem, Ebû Ma‘şer es-Sindî, Amr b. Dînâr, Muhammed b. Aclân, İbnü’l-Münkedir gibi şahıslar rivayette bulunmuştur. Hz. Ali, İbn Mes‘ûd, Ebû Hüreyre ve Ebü’d-Derdâ gibi sahâbîlerden mürsel rivayetlerinin olduğu söylenen Muhammed b. Kâ‘b’ı İbn Sa‘d, Ali b. Medînî ve Ebû Zür‘a er-Râzî gibi âlimler güvenilir kabul etmiş (İbn Ebû Hâtim, VIII, 67; Zehebî, V, 68), başta Kütüb-i Sitte olmak üzere hadis kaynaklarında rivayetlerine yer verilmiştir. Muhammed b. Kâ‘b’dan gelen rivayetler umumiyetle nüzûl sebepleri (meselâ bk. Taberî, VI, 7, 28, 89; XXV, 100) ve Kur’an kıssalarıyla ( a.g.e. , XII, 92-93, 98, 102; XIII, 25, 72; XIX, 169; XX, 68) ilgilidir. Onun zaman zaman te’villere başvurduğu ( a.g.e. , XXIII, 80, 84) ve fıkhî konulara ilişkin yorumlar yaptığı ( a.g.e. , VII, 21) görülmektedir. Muhammed b. Kâ‘b, Rebeze Mescidi’ndeki tefsir dersi sırasında meydana gelen deprem sonucu enkaz altında kalarak öldü (108/726). Ölüm tarihini 117 (735), 118, 120, hatta 129 (747) olarak kaydedenler de vardır. Tâbiîn neslinden Medine tefsir ekolünün önde gelenlerinden olan Muhammed b. Kâ‘b’ın Ömer b. Abdülazîz’le dostluk kurduğu ve halifeye tavsiyelerde bulunduğu, ayrıca çok Kur’an okuduğu, varlıklı olmasına rağmen servetini tasadduk ederek zühd hayatı yaşadığı ifade edilmektedir. Onun Tefsîrü’l-Ḳuraẓî adıyla bir eser yazdığı kaydedilmektedir ( Keşfü’ẓ-ẓunûn , I, 457). Hz. Peygamber’in, kendisinden sonra Kur’an’ı en iyi inceleyip anlayacağını haber verdiği kişinin Muhammed b. Kâ‘b olduğu rivayet edilmiştir ( İbn Sa‘d, eṭ-Ṭabaḳāt , VII, 501). Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 30. cildinde, 542-543 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:muhammed-b-kab-el-kurazi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=muhammed-b-kab-el-kurazi, https://islamansiklopedisi.org.tr/muhammed-b-kab-el-kurazi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:42Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=muhammed-b-kab-el-kurazi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kurazî"
+  ],
+  "death_temporal": {
+    "start_ah": 108,
+    "start_ce": 726,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=muhammed-b-kab-el-kurazi, URL: https://islamansiklopedisi.org.tr/muhammed-b-kab-el-kurazi || DİA birth place: Kûfe || DİA death-date string: (ö. 108/726 [?]) || DİA categories: rivayet > tefsir > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00002215",
+    "iac:person-00007838"
+  ]
+}

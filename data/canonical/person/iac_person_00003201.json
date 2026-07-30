@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003201",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂRİS b. SIMME",
+      "ar": "الحارث بن الصمّة"
+    },
+    "originalScript": {
+      "ar": "الحارث بن الصمّة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Sa‘d el-Hâris b. es-Sımme b. Amr en-Neccârî el-Hazrecî"
+      ]
+    },
+    "description": {
+      "tr": "Künyesi bazı kaynaklarda Ebü’l-Cüheym olarak geçmekteyse de Ebü’l-Cüheym onun sahâbî olan oğullarından biridir (İbn Hacer, I, 281). Resûl-i Ekrem, hicretten sonra ensarla muhacirler arasında yaptığı kardeşlik (muâhât) merasiminde onunla Suheyb b. Sinân’ı kardeş ilân etmiştir. Hâris Bedir Gazvesi’ne katılmak istemiş, ancak deveden düşüp yaralandığı için Ravhâ’da Hz. Peygamber tarafından geri çevrilmiş, fakat zaferden sonra savaşa katılmış gibi kendisine ganimetten pay ayrılmıştır. Uhud Gazvesi’nde önemli hizmetler gören Hâris, bu savaşta zor durumda kalan arkadaşlarının yardımına koşmuş, Resûlullah’ın özel hizmetinde bulunmuş, müslümanların dağıldığı sırada Resûl-i Ekrem’in yanından ayrılmayan ve ona ölüm biatı yapan beş on kişi arasında yer almıştır. Hz. Peygamber, bu sırada kendisini öldürmeye gelen Übey b. Halef’i Hâris’in mızrağını kullanarak öldürmüş, yine aynı maksatla Resûl-i Ekrem’i arayan Osman b. Abdullah el-Mugīre’yi de Hâris katletmiştir. Hâris bu savaşta Resûlullah’ın emriyle Hz. Hamza’yı aramaya çıkmış, onun parçalanmış cesediyle karşılaşınca başından uzun süre ayrılamamış, ardından gönderilen Hz. Ali Hamza’nın naaşı başında Hâris’i görünce duygulu bir şiir söylemiştir. Hâris, Resûl-i Ekrem tarafından Münzir b. Amr başkanlığında Necidliler’e İslâm’ı tebliğ için gönderilen heyet içinde yer almıştır. Heyette bulunanlar Bi’rimaûne’de kuşatılıp şehid edildiği sırada onlardan ayrı olan Hâris ile Amr b. Ümeyye katliamdan kurtulmuştur. Ancak durumu öğrenince geri dönmeyi doğru bulmayan Hâris arkadaşlarını öldürenlere yetişerek onlarla bir süre savaşmış, fakat bir müddet sonra şehid edilmiştir. Düşmana esir düşen Amr b. Ümeyye ise daha sonra serbest bırakılmıştır. Hâris b. Sımme’nin, Taberânî’nin el-Muʿcemü’l-kebîr ’inde (III, 271) kaydedilen bir rivayetine göre Uhud’da Hz. Peygamber kendisine Abdurrahman b. Avf’ı sormuş, Hâris dağın eteğinde onu yalnız başına gördüğünü söyleyince Resûlullah, melekler de yanında bulunduğu halde onun müşriklere karşı savaştığını haber vermiştir. Daha sonra Abdurrahman’ın yanına giden ve onu yedi kişinin cesedi başında gören Hâris müşrikleri kimin öldürdüğünü sormuş, Abdurrahman da ikisini bizzat öldürdüğünü, diğerlerini ise kendilerini göremediği bazı kimselerin katlettiğini söylemiştir. Hâris’in oğlu Sa‘d’ın Sıffîn’de Hz. Ali’nin yanında savaştığı bilinmekte, soyunun Medine ve Bağdat’ta devam ettiği rivayet edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 200-201 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:haris-b-simme",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=haris-b-simme, https://islamansiklopedisi.org.tr/haris-b-simme",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:haris-b-simme",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/haris-b-simme",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=haris-b-simme (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Neccârî; Hazrecî"
+  ],
+  "death_temporal": {
+    "start_ah": 4,
+    "start_ce": 625,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=haris-b-simme, URL: https://islamansiklopedisi.org.tr/haris-b-simme || DİA death-date string: (ö. 4/625) || DİA categories: rivayet > şiir || Chunk count: 1"
+}

@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00000306",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Sutayda al-Mahamili",
+      "tr": "Süteyde el-Mehâmilî",
+      "ar": "ستيتة المحاملي"
+    },
+    "originalScript": {
+      "ar": "ستيتة المحاملي"
+    },
+    "altLabel": {
+      "en": [
+        "Sutayda bint al-Husayn ibn Isma'il al-Mahamili"
+      ],
+      "tr": [
+        "Süteyde bt. el-Hüseyin b. İsmâîl el-Mehâmilî"
+      ],
+      "ar": [
+        "ستيتة بنت الحسين بن إسماعيل المحاملي"
+      ]
+    },
+    "description": {
+      "tr": "Ortaçağ İslam tarihinde belgelenen az sayıdaki kadın matematikçiden biri — cebir, aritmetik ve matematiksel olarak karmaşık İslam miras hukuku (ferâiz) konusunda uzman || Babası el-Mehâmilî önde gelen bir Bağdat kadısıydı. Hem matematik hem hukuk bilimlerinde üstünlük gösterdi. || [Tarih notu] Hatîb el-Bağdâdî ve İbnü'l-Cevzî tarafından anılır.",
+      "en": "One of the few documented female mathematicians in medieval Islamic history — mastered algebra, arithmetic, and the mathematically complex Islamic inheritance law (faraidh) || Her father al-Mahamili was a prominent Baghdadi judge. She excelled in both mathematical and legal sciences, demonstrating that women could achieve mastery in the most technical disciplines. || [Historiographical note] Mentioned by al-Khatib al-Baghdadi and Ibn al-Jawzi. Her expertise in faraidh (inheritance math) shows how Islamic law created demand for female mathematical literacy.",
+      "ar": "من أوائل عالمات الرياضيات الموثقات في التاريخ الإسلامي الوسيط || كان أبوها المحاملي قاضياً بارزاً في بغداد"
+    }
+  },
+  "profession": [
+    "mathematician",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0123",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0123",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:32Z",
+    "modified": "2026-05-04T14:58:32Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0123 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 900,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 987,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0123, lecture_week=n/a. || Key works: {'title': {'en': 'Mathematical works (algebra, arithmetic, inheritance calculations)', 'tr': 'Matematik eserleri (cebir, aritmetik, miras hesaplamaları)', 'ar': 'أعمال رياضية (الجبر، الحساب، حساب المواريث)'}, 'year': 950, 'field': 'mathematics', 'significance': {'en': 'Proficient in hisab (arithmetic), faraidh (inheritance calculations), and algebra — among the very few women mathematicians documented in medieval Islam', 'tr': \"Hesap, ferâiz (miras hesabı) ve cebir alanlarında yetkin — ortaçağ İ || Modern parallel: Like a female mathematics professor at a time when women were largely excluded from STEM — and excelling at the most applied branch of mathematics.",
+  "authored_works": [
+    "iac:work-00000163"
+  ]
+}

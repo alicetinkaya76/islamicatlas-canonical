@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00002084",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Dükkī",
+      "ar": "الدقّي"
+    },
+    "originalScript": {
+      "ar": "الدقّي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Muhammed b. Dâvûd ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Dîneverli olduğu için Dîneverî, Şam’da yaşadığı için Dımaşkī nisbeleriyle de tanınır. Dükkī nisbesi kaynaklarda Zükkī (Hatîb, V, 266) ve Rakkī ( İbnü’l-Esîr, el-Kâmil , VIII, 612; Şa‘rânî, I, 119) şeklinde de verilir. Bağdat’a giderek bir süre orada yaşadıktan sonra Şam’a yerleşen Dükkī, Hatîb el-Bağdâdî’ye göre Bağdat’ta, Münâvî’ye göre ise Mısır’da vefat etmiştir. Yaklaşık 240’ta (854) doğduğu dikkate alınırsa 100 yıldan epey fazla yaşadığı söylenebilir (Sülemî, s. 448). Çağındaki sûfîlerin en büyüklerinden biri olan Dükkī, daha ziyade üstadı İbnü’l-Cellâ ’nın tasavvuf anlayışını benimsemekle birlikte Ebû Bekir ez-Zekkāk, Abdullah er-Râzî ve Ebû Bekir el-Mısrî gibi sûfîlerden de faydalandı, Cüneyd-i Bağdâdî ile görüştü. Ebû Bekir İbn Mücâhid ’den kıraat, Muhammed b. Ca‘fer el-Harâitî ’den hadis okudu. Başta Ebû Nasr es-Serrâc olmak üzere bazı sûfî müellifler onun görüşlerini nakletmişlerdir. Dükkī’ye göre helâl yiyecekler kişiyi sâlih amellere yöneltir; helâl olup olmadığı şüpheli besinler insanın yolunu şaşırmasına sebep olur; haram yiyecekler ise Allah ile kulu arasında perde olur. Sûfî âfiyet ve huzur aramamalı, zahmet ve meşakkate katlanmayı öğrenmelidir. Hayatta keder ve sevinç birbirini takip eder. Fakat tasavvuf ehli belâyı sevinçle karşılamalı, kurtuluşunu acılarda aramalıdır. Semâa önem veren ve bu hususla ilgili garip hikâyeler anlatan Dükkī tevekkül ün tam olmasını, fakirin hem zâhir hem bâtın itibariyle sebeplerden uzak kalmasını ister. Fakrı sûfînin bir hali olarak anlar. Sûfînin fakr haline sahip oluşunun belirtisi, her vakitte o vakit için yapılması en uygun olan şeyle meşgul olması ve kendisini kötülüklerden uzak tutmasıdır. Allah’a yakın olmanın alâmeti de onun dışında kalan her şeyden ilgiyi kesmektir. Allah’ın kelâmı gönüllere ışıklarını yayınca oradaki bencil arzuları yok eder. Ârifler Allah ile yaşadıklarından gerçek hayat onların hayatıdır. Rabbini bilen O’ndan ümit kesmez, nefsini tanıyan yaptığı işle kibirlenmez. Allah’ı bilen O’na sığınır, O’nu unutan ise yaratıklara sığınır. Dükkī uzun tecrübeler sonunda ulaştığı bu tür kanaatleriyle kendisinden sonraki sûfîler üzerinde tesirli olmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 20 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dukki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dukki, https://islamansiklopedisi.org.tr/dukki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:53Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dukki (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 360,
+    "start_ce": 971,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dukki, URL: https://islamansiklopedisi.org.tr/dukki || DİA death place: Mısır || DİA death-date string: (ö. 360/971) || DİA categories: tasavvuf > hadis > kelâm || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003178",
+    "iac:person-00003954"
+  ]
+}

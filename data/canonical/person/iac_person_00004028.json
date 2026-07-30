@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00004028",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN ŞEREF el-MAKDİSÎ",
+      "ar": "ابن شرف المقدسي"
+    },
+    "originalScript": {
+      "ar": "ابن شرف المقدسي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Fidâ İmâdüddîn İsmâîl b. İbrâhîm b. Muhammed el-Makdisî"
+      ]
+    },
+    "description": {
+      "tr": "782’de (1380) Kudüs’te doğdu. Burada Kur’ân-ı Kerîm ve çeşitli ilimlere dair bazı temel eserleri ezberledi. Ebü’l-Hayr İbnü’l-Alâî’den hadis, Şehâbeddin İbnü’l-Hâim’den matematik ve ferâiz dersleri aldı. Şemseddin Muhammed b. Abdüddâim el-Birmâvî, Şemseddin el-Kalkaşendî ve İbn Hacer el-Askalânî’nin derslerine devam etti. Hocaları arasında özellikle matematik âlimi İbnü’l-Hâim’den çok faydalandı. Muhtemelen 814 (1411) yılından sonra çıktığı hac yolculuğundan dönüşünde ilim tahsili için Kahire’ye gitti. Kahire’de Veliyyüddin el-Irâkī’nin torunlarının eğitimiyle ilgilendi. Irâkī’nin, Celâleddin Abdurrahman b. Ömer el-Bülkīnî ve Şerefeddin İbnü’l-Küveyk gibi âlimlerin derslerine katıldı. Burada ve Dımaşk’ta Sâlihiyye Medresesi’nde ders verdi, hocası İbnü’l-Hâim’in matematikle ilgili eserlerini okuttu. Kudüs’e döndükten sonra öğretim faaliyetini sürdürdü ve 13 Rebîülâhir 852 (16 Haziran 1448) tarihinde vefat etti. Başta matematik ve fıkıh olmak üzere ferâiz, fıkıh usulü, nahiv ve edebî ilimlerde bilgi sahibi olan İbn Şeref’in öğrencileri arasında İbn Hassân, İbn Ebû Şerîf, Bikāî ve Yahyâ b. Muhammed el-Münâvî gibi âlimler yer almaktadır. İbn Şeref’in Şâfiî fıkhıyla ilgili Şerḥu Behceti’l-Ḥâvî ve Şerḥu Tehẕîbi’t-Tenbîh adlı eserleriyle İbnü’l-Hâim’in matematiğe dair Miftâḥu’l-ḥisâb ’ının ihtisarı olan Esnânü’l-Miftâḥ , et-Tavżîḥ ʿalâ Elfiyeti’l-Birmâvî ve Ṭabaḳātü’ş-Şâfiʿiyye adlı eserlerinin bulunduğu kaynaklarda zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 378 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-seref-el-makdisi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-seref-el-makdisi, https://islamansiklopedisi.org.tr/ibn-seref-el-makdisi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:23Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:23Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-seref-el-makdisi (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Makdisî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 814,
+    "start_ce": 1411,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 852,
+    "start_ce": 1448,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-seref-el-makdisi, URL: https://islamansiklopedisi.org.tr/ibn-seref-el-makdisi || DİA birth place: Kudüs || DİA death place: Dımaşk || DİA death-date string: (ö. 852/1448) || DİA categories: matematik > fıkıh > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001551",
+    "iac:person-00001607",
+    "iac:person-00003821",
+    "iac:person-00004200",
+    "iac:person-00004226"
+  ],
+  "students": [
+    "iac:person-00001535",
+    "iac:person-00003763",
+    "iac:person-00005804"
+  ]
+}

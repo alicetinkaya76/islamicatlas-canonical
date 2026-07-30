@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00001481",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Berkī",
+      "ar": "البرقي"
+    },
+    "originalScript": {
+      "ar": "البرقي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ca‘fer Ahmed b. Muhammed b. Hâlid el-Berkī"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Kûfeli bir ailedendir. Irak Valisi Yûsuf b. Ömer es-Sekafî, Zeyd b. Ali’nin öldürülmesinden sonra Berkī’nin üçüncü dedesi Muhammed b. Ali’yi öldürünce ikinci dedesi Abdurrahman, o zaman küçük bir çocuk olan oğlu Hâlid’i de (Berkī’nin dedesi) yanına alarak İran’ın Kum bölgesine kaçtı ve Berka’ya yerleşti. Ebû Ca‘fer buraya nisbetle Berkī diye anılır. Değişik konularda birçok eser veren Berkī, İmâmiyye âlimleri nazarında genellikle güvenilir ( sika ) bir kişi ise de pek itimat edilmeyen zayıf kimselerden rivayette bulunduğu ve mürsel lere itibar ettiği için tenkide uğramıştır. Hatta muhtemelen bu sebeple Kum Hâkimi Ahmed b. Muhammed b. Îsâ bir ara onu Kum’dan uzaklaştırmış, fakat daha sonra kendisinden özür dileyip geri gelmesini sağlamıştır. İbn Dâvûd el-Kummî ona hem sika olanlar hem de olmayanlar arasında yer vermiştir. Sika olmayanlar arasında yer verişini Gadâirî’nin Berkī’yi tenkidine bağlıyorsa da Muhsin el-Emîn’in ifadesine göre ( Aʿyânü’ş-Şîʿa , III, 106) Gadâirî onu tenkit etmemiş, aksine savunmuştur. 274 (887) yılında vefat eden Berkī’nin ölüm tarihi bazı kaynaklarda 280 (893) olarak da zikredilmektedir. Eserleri. Berkī’ye birçok eser nisbet edilmiş olup Kays Âl-i Kays ( el-Îrâniyyûn ve’l-edebü’l-ʿArabî , III, 47-56) 129, Muhammed el-Emîn de ( Aʿyânü’ş-Şîʿa , III, 105-106) 99 kitabını ismen zikreder. Bunların en önemlisi el-Meḥâsin ’dir. Fıkıh, tevhid, hikmet ve âdâb gibi çeşitli konuları ihtiva eden ve uzun süre Şiîler arasında önemini koruyan bu kitap, iki cilt halinde Celâleddin el-Hüseynî (Tahran 1370) ve Muhammed Sâdık Bahrüddin (Necef 1384/1964) tarafından neşredilmiştir. Ancak matbu nüsha aslının tamamı olmayıp sadece bazı bölümlerini içine almaktadır. Esasen İbnü’n-Nedîm’in, Berkī’nin babası Ebû Abdullah Muhammed b. Hâlid el-Berkī’ye nisbet ettiği ve bu bakımdan diğer kaynaklardan ayrıldığı asıl eserin kitap ve babları hakkında da kesin bilgi yoktur. Bazı kaynaklarda Berkī’ye nisbet edilen kitaplardan hiç değilse bir kısmının müstakil eserler olmayıp el-Meḥâsin ’in bölümleri olması muhtemeldir. Berkī’nin Kitâbü’r-Ricâl adlı eseri de 1963’te Kâzım el-Mûsevî tarafından Tahran Üniversitesi yayınları arasında neşredilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 509 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:berki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=berki, https://islamansiklopedisi.org.tr/berki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:berki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=berki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:965",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=965, heading_ar=البرقي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:42Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=berki (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[965]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=berki)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=965 (heading_ar=البرقي) via Track A (DİA→Alam xref bridge). dt=İmâmî araştırmacısı, Berka'nın (Kum şehrinin köylerinden) sakinlerinden, aslı Kû"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 274,
+    "start_ce": 887,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=berki, URL: https://islamansiklopedisi.org.tr/berki || El-Aʿlām (Ziriklī) cross-reference: alam_id=[965] || DİA death-date string: (ö. 274/887) || DİA categories: fıkıh > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=965, heading_ar=البرقي, dt=İmâmî araştırmacısı, Berka'nın (Kum şehrinin köylerinden) sakinlerinden, aslı Kûfe'den",
+  "authored_works": [
+    "iac:work-00001308",
+    "iac:work-00006743"
+  ]
+}

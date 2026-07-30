@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00008956",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Tabaṭabā",
+      "tr": "İbn Tabâtabâ",
+      "ar": "ابن طباطبا"
+    },
+    "originalScript": {
+      "ar": "ابن طباطبا"
+    },
+    "description": {
+      "tr": "Mısır'da Tâlibîlerin nâib'i, uzun metanetli ve ıssız doğada gözlemci şairlerden biri",
+      "en": "Leader of the Talibids in Egypt, and one of the refined poets in asceticism and love poetry"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ahmad b. Muhammad b. Ismāʿīl b. al-Qāsim b. Ibrāhīm (Tabaṭabā) b. Ismāʿīl al-Hasanī al-Rasī al-Ṭālibī, Abu al-Qāsim"
+    },
+    "altLabel": {
+      "tr": [
+        "Ahmet b. Muhammed b. İsmâil b. el-Kâsım b. İbrâhîm (Tabâtabâ) b. İsmâil el-Hasenî er-Resî et-Tâlibî, Ebû el-Kâsım"
+      ],
+      "ar": [
+        "أحمد بن محمد بن إسماعيل بن القاسم ابن إبراهيم (طباطبا) بن إسماعيلالحسني الرسي الطالبي، أبو القاسم ابن طباطبا"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:988",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=988",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:38Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=988 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:988."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 345,
+    "start_ce": 956,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=988, heading_ar=ابن طباطبا || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+  "active_in_places": [
+    "iac:place-00011312"
+  ],
+  "kunya": "أبو القاسم"
+}

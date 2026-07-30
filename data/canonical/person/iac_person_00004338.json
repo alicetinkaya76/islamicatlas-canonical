@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00004338",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’s-SEMH",
+      "ar": "ابن السمح"
+    },
+    "originalScript": {
+      "ar": "ابن السمح"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Kāsım Asbağ b. Muhammed b. es-Semh el-Gırnâtî"
+      ]
+    },
+    "description": {
+      "tr": "Kültürlü bir ailenin çocuğu olarak Kurtuba’da (Córdoba) doğdu. Öğrencisi Ebû Mervân Süleyman b. Muhammed en-Nâşî, onun güneş yılı hesabıyla elli altı yıl yaşadığını ve 18 Receb 426’da (29 Mayıs 1035) vefat ettiğini söylediğine göre (Sâid el-Endelüsî, s. 170) 368 (979) yılında doğmuş olması gerekir. Küçük yaştan itibaren aklî ilimlere merak duyan İbnü’s-Semh, döneminde Endülüs’ün en meşhur matematikçisi olan Mesleme b. Ahmed el-Mecrîtî’den matematik ve astronomi okudu; ayrıca tıp alanında da bilgi sahibiydi. V. (XI.) yüzyılın başlarında Hakem el-Müntasır döneminde çıkan siyasî karışıklıklar sebebiyle Kurtuba’dan ayrılarak Gırnata’ya (Granada) yerleşti ve huzurlu bir hayattan sonra burada öldü. Eserleri. 1. el-ʿAmel bi’l-usṭurlâb . Mercé Villadrich Grau tarafından incelenip İspanyolca’ya tercüme edilmiştir (Barcelona 1986). 2. el-Kâfî fi’l-ḥisâbi’l-hevâʾî (Risâle kâfiye fi’l-ḥisâbi’l-hevâʾî) . On bölümden meydana gelen eser zihinden hesap yapma usulleri üzerine yazılmıştır (Sezgin, V, 356). 3. Kitâbü S̱imâri’l-ʿaded . Sayı sistemlerinin pratik hayatta sağladığı yararları konu alan eser Kitâbü’l-Muʿâmelât adıyla da anılır ( a.g.e. , V, 356). 4. Zîc ʿalâ meẕhebi’s-Sindhind . Sindhind (Siddhânta) yöntemiyle düzenlenen astronomi tablolarını konu edinen eser iki bölümden oluşmaktadır; ilk bölümü cetvellere, ikinci bölümü ise bunların izahına ayrılmıştır. İbnü’z-Zerkāle’nin el-ʿAmel bi’ṣ-ṣaḥîfe adlı çalışmasının 64 ve 65. bablarının bu kitaptan alındığı sanılmaktadır ( EI 2 [İng.] , III, 928). 5. Kitâbü’t-Taʿrîf bi-ṣûreti ṣanʿati’l-usṭurlâb . 6. Kitâb fi’l-hendese . 7. Kitâbü Ṭabîʿati’l-ʿaded . 8. Kitâbü’l-Medḫal ile’l-hendese . Öklid’in Elementler ’inin tefsiri mahiyetindedir. Bunlardan başka yıldızların zenit noktalarının hesaplanmasına dair bir kitabın 416 (1025) yılında Eski İspanyolca’ya yapılan bir tercümesi bulunmakta ve bunun aslının İbnü’s-Semh’e ait olduğu kabul edilmektedir (Sezgin, VI, 249). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 204 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnus-semh",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnus-semh, https://islamansiklopedisi.org.tr/ibnus-semh",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibnus-semh",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibnus-semh",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:27Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:27Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnus-semh (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibnus-semh)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Gırnâtî"
+  ],
+  "birth_temporal": {
+    "start_ah": 368,
+    "start_ce": 979,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 426,
+    "start_ce": 1035,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnus-semh, URL: https://islamansiklopedisi.org.tr/ibnus-semh || DİA death place: 426 || DİA death-date string: (ö. 426/1035) || DİA categories: matematik > astronomi > tefsir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005287"
+  ]
+}

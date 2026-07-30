@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00018165",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abū al-Ḥasan al-Bakrī",
+      "tr": "Ebu'l-Hasan el-Bikrî",
+      "ar": "أبو الحسن البكري"
+    },
+    "originalScript": {
+      "ar": "أبو الحسن البكري"
+    },
+    "description": {
+      "tr": "Mısırlı müfessir, mutasavvıf, Şâfiî mezhebinin âlimlerinden.",
+      "en": "An Egyptian exegete and mystic from the scholars of the Shāfiʿī school."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muḥammad b. Muḥammad b. ʿAbd al-Raḥmān b. Aḥmad b. Muḥammad b. Aḥmad b. Muḥammad b. ʿAwḍ b. ʿAbd al-Khāliq, Abū al-Ḥasan al-Bakrī al-Ṣiddīqī"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Muhammed b. Abdurrahman b. Ahmed b. Muhammed b. Ahmed b. Muhammed b. Avz b. Abdülhâlik, Ebu'l-Hasan el-Bikrî es-Sıddîkî"
+      ],
+      "ar": [
+        "محمد بن محمد بن عبد الرحمن ابن أحمد بن محمد بن أحمد بن محمد ابن عوض بنعبد الخالق، أبو الحسن البكري الصديقي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:11212",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11212",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:bekri-ebul-hasan-es-siddiki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bekri-ebul-hasan-es-siddiki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:15Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=11212 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:11212."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 952,
+    "start_ce": 1545,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11212, heading_ar=أبو الحسن البكري || Ziriklī century_ce=16 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+  "kunya": "أبو الحسن"
+}

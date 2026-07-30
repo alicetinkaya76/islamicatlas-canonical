@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00017891",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Qāḍī ʿIyāḍ",
+      "tr": "İbn el-Kâzî ʿIyâz",
+      "ar": "ابن القاضي عياض"
+    },
+    "originalScript": {
+      "ar": "ابن القاضي عياض"
+    },
+    "description": {
+      "tr": "Babası gibi Sebte'den kadı",
+      "en": "Judge from Ceuta, like his father"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad b. ʿIyāḍ b. Mūsā al-Yaḥsûbī al-Sabtī, Abū ʿAbd Allāh"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. ʿIyâz b. Mûsâ el-Yahsubî es-Sibtî, Ebû Abdullâh"
+      ],
+      "ar": [
+        "محمد بن عياض بن موسى اليحصبي السبتي، أبو عبد الله"
+      ]
+    }
+  },
+  "profession": [
+    "judge"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:10899",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10899",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:11Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=10899 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:10899."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 575,
+    "start_ce": 1179,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10899, heading_ar=ابن القاضي عياض || Ziriklī century_ce=12 || Ziriklī place coords (city/region of activity): 37.18, -3.6",
+  "active_in_places": [
+    "iac:place-00006250",
+    "iac:place-00008830"
+  ],
+  "authored_works": [
+    "iac:work-00006423"
+  ],
+  "kunya": "أبو عبد الله"
+}

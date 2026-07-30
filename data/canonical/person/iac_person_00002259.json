@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00002259",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ SAÎD el-MAKBÜRÎ",
+      "ar": "أبو سعيد المقبري"
+    },
+    "originalScript": {
+      "ar": "أبو سعيد المقبري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Saîd Keysân (b. Saîd ?) el-Makbürî"
+      ]
+    },
+    "description": {
+      "tr": "Babasının adı ve soyu hakkında bilgi yoktur. Makbürî nisbesini, Hz. Ömer devrinde kabir kazmakla görevlendirilmesi veya evinin Bakī‘ Kabristanı’na yakın olması sebebiyle aldığı söylenmekte, Medenî nisbesiyle de anılmaktadır. Ümmü Şerîk’in kölesi iken âzat edilmesi için sahibiyle 40.000 dirheme anlaşan Ebû Saîd, bu meblağın büyük bir kısmını muhtemelen taksitler halinde ödedikten sonra geri kalanı bir defada ödemek istediyse de sahibi bunu kabul etmedi. Ebû Saîd’in konuyu Hz. Ömer’e intikal ettirmesi üzerine sahibinin kabul etmediği bedel beytülmâle alınarak Ebû Saîd âzat edildi ve Ümmü Şerîk’e de parasını ister bir defada ister taksitler halinde beytülmâlden alabileceği bildirildi. Ebû Saîd, devlet hazinesinden herkese yardım edildiği yıllarda zengin oldu ve zekâtını Hz. Ömer’e götürdü. Ancak devlet, zekâtları kabul etmeye ihtiyaç duymayacak kadar zengin olduğu için halife ona zekâtını bizzat dağıtmasını söyledi. Ebû Saîd el-Makbürî Hz. Ömer, Hz. Ali, Ebû Hüreyre, Ebû Saîd el-Hudrî, Abdullah b. Selâm, Üsâme b. Zeyd ve Ukbe b. Âmir el-Cühenî gibi sahâbîlerden hadis rivayet etmiş, kendisinden de başta oğlu muhaddis Saîd b. Ebû Saîd olmak üzere torunu Abdullah b. Saîd, Amr b. Ebû Amr, Sâbit b. Kays el-Gıfârî gibi tâbiîn muhaddisleri hadis almışlardır. İbn Sa‘d ve Ebû Zür‘a er-Râzî onu hadis rivayetinde sika olarak kabul ederken Yahyâ b. Maîn ve Ahmed b. Hanbel olumsuz bir yanı olmadığını söylemekle yetinmişlerdir. Hayatının son dört yılında -muhtemelen yaşlılığı sebebiyle- rivayetleri birbirine karıştırdığı ileri sürülen Ebû Saîd’in çok hadis naklettiği Vâkıdî tarafından söylenmişse de kaynaklarda fazla rivayeti bulunmamaktadır. Ṣaḥîḥ-i Buḫârî ’de iki, Ebû Dâvûd’un es-Sünen ’inde de bir rivayeti yer almıştır. Ebû Saîd 100 (718-19) yılında Medine’de vefat etmiştir. İbn Sa‘d onun Velîd b. Abdülmelik devrinde (705-715) öldüğünü söylemektedir. Tahâvî ise oğlu Saîd b. Ebû Saîd’in vefat ettiği 125 (743) yılını yanlışlıkla onun ölüm tarihi olarak zikretmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 224 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-said-el-makburi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-said-el-makburi, https://islamansiklopedisi.org.tr/ebu-said-el-makburi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-said-el-makburi (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Makbürî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 100,
+    "start_ce": 718,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-said-el-makburi, URL: https://islamansiklopedisi.org.tr/ebu-said-el-makburi || DİA death place: Medine || DİA death-date string: (ö. 100/718-19) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00003768",
+    "iac:person-00005117",
+    "iac:person-00007887"
+  ]
+}

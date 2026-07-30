@@ -1,0 +1,124 @@
+{
+  "@id": "iac:person-00000733",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHFEŞ el-EKBER",
+      "ar": "الأخفش الأكبر"
+    },
+    "originalScript": {
+      "ar": "الأخفش الأكبر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hattâb Abdülhamîd b. Abdilmecîd el-Ahfeş el-Ekber",
+        "Abdülhamîd b. Abdülmecîd, Kays b. Saʿlebe'nin mevlâsı, Ebû'l-Hattâb"
+      ],
+      "ar": [
+        "عبد الحميد بن عبد المجيد مولى قيس ابن ثعلبة، أبو الخطاب"
+      ]
+    },
+    "description": {
+      "tr": "Kays b. Sa‘lebe oğullarının âzatlısıdır. Ahfeş lakabıyla tanınan dilcilerin ilki olduğu için “yaşça en büyük” anlamında el-Ekber sıfatıyla anıldı. Ebû Amr b. Alâ’dan ders aldı. Kendisinden de Sîbeveyhi, Kisâî, Îsâ b. Ömer, Yûnus b. Habîb ve Ebû Ubeyde Ma‘mer b. Müsennâ ders aldılar. Kaynaklarda müttaki ve sözüne güvenilir bir âlim olarak zikredilen Ahfeş’in Arap diline en büyük hizmeti, bedevî kabileler arasında dolaşarak lehçe araştırmaları ve derlemeler yapmış olmasıdır. Arap edebiyatında, kasideleri bir bütün olarak şerhetme geleneği yerine, her bir beyti ayrı ayrı ele alıp şerhetme yeniliği Ahfeş el-Ekber’e nisbet edilmekle beraber kaynaklarda herhangi bir eserinden söz edilmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 525 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "Among the great scholars of Arabic"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd al-Hamīd b. ʿAbd al-Majīd, mawlā Qays b. Thaʿlaba, Abū al-Khattāb"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahfes-el-ekber",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahfes-el-ekber, https://islamansiklopedisi.org.tr/ahfes-el-ekber",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:5068",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5068, heading_ar=الأخفش الأكبر",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:ahfes-el-ekber",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahfes-el-ekber",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahfes-el-ekber (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5068]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5068 (heading_ar=الأخفش الأكبر) via Track A (DİA→Alam xref bridge). dt=Arapçada büyük ilimlerden"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+kunya+translit from alam_detail.json el-alam:5068."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 177,
+    "start_ce": 793,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahfes-el-ekber, URL: https://islamansiklopedisi.org.tr/ahfes-el-ekber || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5068] || DİA death-date string: (ö. 177/793) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5068, heading_ar=الأخفش الأكبر, dt=Arapçada büyük ilimlerden",
+  "kunya": "أبو الخطاب",
+  "teachers": [
+    "iac:person-00002131"
+  ],
+  "students": [
+    "iac:person-00004501",
+    "iac:person-00004931",
+    "iac:person-00005216",
+    "iac:person-00007005",
+    "iac:person-00007740"
+  ]
+}

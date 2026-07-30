@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00004125",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-AHREM",
+      "ar": "ابن الأخرم"
+    },
+    "originalScript": {
+      "ar": "ابن الأخرم"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Ya‘kūb b. Yûsuf eş-Şeybânî en-Nîsâbûrî"
+      ]
+    },
+    "description": {
+      "tr": "250’de (864) doğdu. Babası ve ilk dönemlerde kendisi İbnü’l-Kirmânî diye tanınmıştır. Tahsil için Nîşâbur dışına hiç çıkmadığı belirtilmiş olup Yahyâ b. Muhammed ez-Zühlî, Ebû Ali el-Kabbânî ve Muhammed b. Nasr el-Mervezî gibi hocalardan istifade etti. Başta Hâkim en-Nîsâbûrî olmak üzere Ebû Abdullah İbn Mende ve daha pek çok kişi kendisinden hadis rivayetinde bulundu. Hadis ilimlerinde, özellikle de ilel ve ricâl konularında iyi yetişmiş bir âlim olan İbnü’l-Ahrem’in dönemin ilim adamlarıyla zaman zaman ilmî tartışmalara katıldığı belirtilmekte ve Arapça’yı iyi kullandığı söylenmektedir. Hadis alanındaki başarısı sebebiyle İbnü’l-Ahrem’i akranlarına tercih eden İbn Huzeyme, tartışmalı meselelerde onun görüşlerini benimsemiştir ( Zehebî, Teẕkiretü’l-ḥuffâẓ , III, 865). İbnü’l-Ahrem 14 Cemâziyelâhir 344’te (5 Ekim 955) vefat etti. Onun kaynaklarda zikredilen ve genellikle Ṣaḥîḥayn üzerine yapılmış müstahrec türü çalışmalar olduğu anlaşılan eserleri şunlardır: el-Müstaḫrec ʿale’ṣ-Ṣaḥîḥayn , el-Müsnedü’l-kebîr , Ebü’l-Abbas Muhammed b. İshak es-Serrâc’ın isteği üzerine hazırladığı el-Müstaḫrec ʿalâ Ṣaḥîḥi Müslim , el-Muḫtaṣarü’ṣ-ṣaḥîḥ el-müttefeḳu ʿaleyh , el-ʿAvâlî , Kitâbü’r-Risâle ( Hediyyetü’l-ʿârifîn , II, 41). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 482 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-ahrem",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-ahrem, https://islamansiklopedisi.org.tr/ibnul-ahrem",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:24Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:24Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:24Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-ahrem (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Şeybânî; Nîsâbûrî"
+  ],
+  "death_temporal": {
+    "start_ah": 344,
+    "start_ce": 955,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-ahrem, URL: https://islamansiklopedisi.org.tr/ibnul-ahrem || DİA death place: 344 || DİA death-date string: (ö. 344/955) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003235",
+    "iac:person-00004648",
+    "iac:person-00005460"
+  ]
+}

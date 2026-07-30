@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00005157",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mahmud Celâleddin Efendi"
+    },
+    "description": {
+      "tr": "Kafkasya’nın Dağıstan bölgesinde dünyaya geldi. Doğum tarihi belli olmamakla birlikte 1188’de (1774) yazılmış mükemmel bir murakkaı görüldüğünden 1163 (1750) yılı civarında doğduğu tahmin edilebilir. Babası Nakşibendî şeyhlerinden Mehmed Efendi ile beraber İstanbul’a göç eden Mahmud Celâleddin’in XVIII. yüzyılın üstatlarından Akmolla Ömer, Abdüllatif, Yamakzâde Sâlih ve Ebûbekir Râşid efendilerden yazı meşketmek istemesine rağmen dik başlı davranışları sebebiyle hocaları tarafından talebeliğe kabul edilmediği söylenir. Bunun üzerine Şeyh Hamdullah’ın ve Hâfız Osman’ın eserlerine bakarak kendi gayretiyle sanatını geliştirmiş ve üstat seviyesine çıkmıştır. Önceleri bazan Mahmûdü’l-Mevdûd imzasıyla yazdığı, eserlerinden anlaşılmaktadır (TSMK, Emanet Hazinesi, nr. 273; Güzel Yazılar, nr. 322-329). Sonradan Mahmud Celâleddin ismini tercih etmiştir. Mushaf, en‘âm-ı şerîf, evrâd-ı şerîfe, dua kitapları, kıta, murakka‘, hilye ve levha şeklinde mükemmel yazıları çok olup bunlar müze ve koleksiyonlarda yer almaktadır. Eski hattatların eserlerine taklit olarak yazdığı kıta ve murakka‘ları da dikkate değerdir. Ancak celî sülüs hattı sert ve durgun ifadesinden, ayrıca harekelerinin zayıflığından dolayı Mustafa Râkım’ın hareketli ve gergin görünüşlü mükemmel tavrına karşı pek tutunamamıştır. Fakat Sultan Abdülmecid’in, hüsn-i hattı Mahmud Celâleddin’in önde gelen talebesi Mehmed Tâhir Efendi’den meşketmesi sebebiyle devrin bir kısım hattatları bir müddet daha bu yolda devam etmişlerse de Sultan Abdülmecid’in vefatı üzerine bunların çoğu Mustafa Râkım yoluna dönmüştür. Eyüp’teki Mihrişah Vâlide Sultan Türbesi’nin 1207 (1793) tarihli mermer üzerine celî sülüs yazıları Mahmud Celâleddin’e aittir. Kendisinin Dîvân-ı Hümâyun’da vazife aldığına dair bir kayıt yoksa da divanî ile yazıp imzaladığı bir kıtası, onun bu hatta da çok başarılı olduğunu göstermektedir. Mahmud Celâleddin Efendi, hayatını Boğaz’ın İstavroz semtinde (Beylerbeyi’nin şimdiki Abdullahağa mahallesi) sürdürürken 1245 (1829) yılında vefat edince Eyüpsultan civarındaki Şeyh Murad Dergâhı hazîresine gömüldü. Mezarının yeri belli olmamakla beraber kabir taşı halen dergâhta muhafaza edilmektedir. Mahmud Celâleddin Efendi’nin zevcesi Esmâ İbret de hat sanatında isim bırakan hanımlardandır. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 27. cildinde, 359 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mahmud-celaleddin-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mahmud-celaleddin-efendi, https://islamansiklopedisi.org.tr/mahmud-celaleddin-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mahmud-celaleddin-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mahmud-celaleddin-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:36Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mahmud-celaleddin-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1163,
+    "start_ce": 1750,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1829,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=mahmud-celaleddin-efendi, URL: https://islamansiklopedisi.org.tr/mahmud-celaleddin-efendi || DİA death-date string: (ö. 1829) || Chunk count: 1"
+}

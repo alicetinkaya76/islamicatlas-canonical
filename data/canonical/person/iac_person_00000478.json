@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00000478",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜLKERÎM-i KEŞMÎRÎ",
+      "ar": "عبد الكريم كشميرى"
+    },
+    "originalScript": {
+      "ar": "عبد الكريم كشميرى"
+    },
+    "description": {
+      "tr": "Doğumu ve ilk zamanlarına dair fazla bilgi yoktur. Nâdir Şah’ın Delhi’yi ele geçirmesi üzerine (1739) onun hizmetine girdi. Şahla birlikte Pencap, Sind, Afganistan, Horasan, Mâverâünnehir ve Hârizm seferlerine katıldı. 1741’de Kazvin seferi sırasında ondan ayrılarak Kerbelâ-Halep yoluyla Mekke’ye gitti. Hac farîzasını yerine getirdikten sonra Hindistan’a, 1743’te de Delhi’ye döndü ve orada öldü. Abdülkerîm-i Keşmîrî, bizzat katıldığı Nâdir Şah’ın seferlerinde gezip gördüğü yerler hakkında bilgi veren Beyân-ı Vâḳıʿ veya Târîḫ-i Nâdirî (Nâdirnâme) adlı coğrafî, ekonomik ve sosyal bakımdan son derece zengin bir eser kaleme almıştır. Müellif kitabında Nâdir Şah’a dair saray adamlarından edindiği bilgileri de objektif bir şekilde kaydetmiş, yer yer onu tenkit etmekten bile çekinmemiştir. Beş bölüme ayrılan eserin birinci bölümünde Nâdir Şah’ın siyasî sahada ortaya çıkışı, yükselişi, İran’a hâkim oluşu ve Hindistan üzerine yürüyüşü; ikinci bölümde İran’a dönüşü, Herat, Buhara, Hârizm seferleri; üçüncü bölümde müellifin Kazvin’den Bağdat’a seyahati, Halep yolu ile Mekke’ye gidişi ve Cidde’den Hindistan’a varışı; dördüncü bölümde Bengal’in kısa tasviri, Nâdir Şah’ın vefatı, Ahmed Şah Dürrânî’nin seferi ve Muhammed Şah’ın ölümü; beşinci bölümde de Ahmed Şah’ın hâkimiyeti sırasındaki olaylar anlatılmaktadır. Eserin sonunda ise Bağdat ile Mekke arasındaki mesafe saat olarak tesbit edilmiştir. Beyân-ı Vâḳıʿ ın F. Gladwin tarafından yapılan muhtasar bir tercümesi, The Memoirs of Khoja Abdulkurreem adıyla yayımlanmıştır (Calcutta 1788, 1812; London 1793). Müellifin Mekke yolculuğunu anlatan bölümünü ise L. Langles, Voyages de l’Inde à la Mecque adıyla 1797’de Paris’te neşretmiştir. Eserin metninin tam bir neşri henüz yapılmamıştır. Giriş kısmında beş bölüm ve bir hâtimeden ibaret olduğu kaydedilmekte ise de hâtime kısmı hiçbir yazmada mevcut değildir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 252-253 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulkerim-i-kesmiri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulkerim-i-kesmiri, https://islamansiklopedisi.org.tr/abdulkerim-i-kesmiri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdulkerim-i-kesmiri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdulkerim-i-kesmiri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:38Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulkerim-i-kesmiri (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1198,
+    "start_ce": 1784,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdulkerim-i-kesmiri, URL: https://islamansiklopedisi.org.tr/abdulkerim-i-kesmiri || DİA death-date string: (ö. 1198/1784) || Chunk count: 1"
+}

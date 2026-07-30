@@ -1,0 +1,100 @@
+{
+ "@id": "iac:person-00010077",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Ashraf Jān Balāṭ",
+   "tr": "Eşref Can Balat",
+   "ar": "الأشرف جان بلاط"
+  },
+  "originalScript": {
+   "ar": "الأشرف جان بلاط"
+  },
+  "description": {
+   "tr": "Mısır ve Şam'da Çerkez Memlûk sultanlarından.",
+   "en": "One of the Circassian Mamluk sultans in Egypt and Syria."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Jān Balāṭ b. Yashbak al-Ashrafī, Abū al-Nasr"
+  },
+  "altLabel": {
+   "tr": [
+    "Can Balat b. Yişbek el-Eşrefî, Ebû'n-Nasr"
+   ],
+   "ar": [
+    "جان بلاط بن يشبك الأشرفي. أبو النصر"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:2211",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=2211",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:canbolat-el-esrefi",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/canbolat-el-esrefi",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:48Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:48Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:48Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=2211 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.97): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:2211."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1696-10077) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001696 lehine yumuşak-silindi. Gerekçe: جان بلاط الأشرفي ile الأشرف جان بلاط aynı ad+lakab bileşimi, 1500/1501 yılı ve Kahire bağlamı Memlük sultanı Canbolat'ı gösteriyor; \"scholar\" etiketi rol gürültüsü."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001696"
+ },
+ "death_temporal": {
+  "start_ah": 906,
+  "start_ce": 1500,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=2211, heading_ar=الأشرف جان بلاط || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+ "kunya": "أبو النصر"
+}

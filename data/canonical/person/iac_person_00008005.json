@@ -1,0 +1,62 @@
+{
+  "@id": "iac:person-00008005",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-MÜTEFENNİNE"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Alî er-Rahbî"
+      ]
+    },
+    "description": {
+      "tr": "Ferâize dair eseriyle tanınan Şâfiî fakihi."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-mutefennine",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-mutefennine, https://islamansiklopedisi.org.tr/ibnul-mutefennine",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:11Z",
+    "modified": "2026-05-04T15:35:11Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-mutefennine (0 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 577,
+    "start_ce": 1181,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-mutefennine, URL: https://islamansiklopedisi.org.tr/ibnul-mutefennine",
+  "authored_works": [
+    "iac:work-00008905"
+  ]
+}

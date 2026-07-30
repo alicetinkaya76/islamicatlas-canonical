@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00009299",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Fartun",
+      "tr": "İbn Fertun",
+      "ar": "ابن فرتون"
+    },
+    "originalScript": {
+      "ar": "ابن فرتون"
+    },
+    "description": {
+      "tr": "Fas halkından tarihçi. Yaklaşık 630 yılında Sebte'ye yerleşti ve 635 yılında Endelüs'e girdi. Cezire",
+      "en": "Historian from the people of Fes. He settled in Ceuta around the year 630 and entered al-Andalus in"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Abū al-ʿAbbās Ahmad b. Yūsuf b. Ahmad b. Yūsuf b. Ibrāhīm al-Sulamī Ibn Fartun"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû'l-Abbâs Ahmed b. Yusuf b. Ahmed b. Yusuf b. İbrâhim es-Sulemî İbn Fertun"
+      ],
+      "ar": [
+        "أحمد بن يوسف بن أحمد بن يوسف ابن إبراهيم السلمي، أبو العباس ابن فرتون"
+      ]
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:1366",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1366",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:41Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=1366 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1366."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 660,
+    "start_ce": 1262,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1366, heading_ar=ابن فرتون || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 35.89, -5.32",
+  "active_in_places": [
+    "iac:place-00006250"
+  ],
+  "kunya": "أبو العباس"
+}

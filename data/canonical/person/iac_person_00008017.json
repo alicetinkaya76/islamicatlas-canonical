@@ -1,0 +1,54 @@
+{
+  "@id": "iac:person-00008017",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Karaman Bey"
+    },
+    "description": {
+      "tr": "Karamanoğulları Beyliği’nin kurucusu Türkmen beyi."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:karaman-bey",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=karaman-bey, https://islamansiklopedisi.org.tr/karaman-bey",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:11Z",
+    "modified": "2026-05-04T15:35:11Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=karaman-bey (0 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 660,
+    "start_ce": 1262,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=karaman-bey, URL: https://islamansiklopedisi.org.tr/karaman-bey"
+}

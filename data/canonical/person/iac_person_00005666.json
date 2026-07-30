@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00005666",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MUHAMMED b. ABDULLAH el-ENSÂRÎ",
+      "ar": "محمّد بن عبد الله الأنصاري"
+    },
+    "originalScript": {
+      "ar": "محمّد بن عبد الله الأنصاري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Abdillâh b. Müsennâ el-Ensârî el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "118 (736) yılında doğdu. Enes b. Mâlik’in soyundan geldiği için Enesî nisbesiyle de anılır. Genç yaşta ilim tahsiline başladı. Babasından ve Humeyd et-Tavîl, Mâlik b. Dînâr, İbn Cüreyc, Saîd b. Ebû Arûbe, Hemmâm b. Münebbih, Şu‘be b. Haccâc gibi pek çok âlimden hadis dinledi, rivayette bulundu. Kendisinden hadis rivayet edenler arasında Bündâr, Ebû Bekir İbn Ebû Şeybe, Ebû Müslim el-Keccî, Muhammed b. İsmâil el-Buhârî, Ebü’l-Velîd et-Tayâlisî, Ahmed b. Hanbel, Yahyâ b. Maîn, Ebû Hâtim er-Râzî, Kuteybe b. Saîd yer almaktadır. Rivayet konusunda sika ve sadûk olduğu nakledilir. Züfer b. Hüzeyl, Ebû Yûsuf, Osman el-Bettî ve Ubeydullah b. Hasan el-Anberî’den fıkıh tahsil eden Muhammed b. Abdullah, Abbâsî Halifesi Hârûnürreşîd döneminde 191 (807) yılında Basra kadısı oldu. Bir süre sonra Bağdat’ın doğu yakası kadılığına tayin edildi. Halife Emîn devrinde bu görevinden alınarak mezâlim mahkemelerinde görevlendirildi. İkinci defa getirildiği Basra kadılığından Halife Me’mûn tarafından azledildi. Daha sonra hadis rivayetiyle meşgul olan Muhammed b. Abdullah Receb 215’te (Eylül 830) Basra’da vefat etti. Ölüm yılı bazı kaynaklarda 214 (829) ve 218 (833) olarak da geçmektedir. Muhammed b. Abdullah’ın rivayet ettiği hadisleri ihtiva eden cüzün bazı nüshaları günümüze ulaşmıştır (Sezgin, I, 100). Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 30. cildinde, 486 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator",
+    "judge"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:muhammed-b-abdullah-el-ensari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=muhammed-b-abdullah-el-ensari, https://islamansiklopedisi.org.tr/muhammed-b-abdullah-el-ensari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:muhammed-b-abdullah-el-ensari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/muhammed-b-abdullah-el-ensari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:42Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=muhammed-b-abdullah-el-ensari (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.96): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî; Basrî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 118,
+    "start_ce": 736,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 215,
+    "start_ce": 830,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=muhammed-b-abdullah-el-ensari, URL: https://islamansiklopedisi.org.tr/muhammed-b-abdullah-el-ensari || DİA death place: Basra || DİA death-date string: (ö. 215/830) || DİA categories: rivayet > hadis > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00006233",
+    "iac:person-00007892"
+  ],
+  "students": [
+    "iac:person-00004830"
+  ]
+}

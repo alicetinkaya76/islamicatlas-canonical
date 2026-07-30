@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00017269",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Bint al-Mīlaq",
+      "tr": "İbn Bint el-Mîlak",
+      "ar": "ابن بنت الميلق"
+    },
+    "originalScript": {
+      "ar": "ابن بنت الميلق"
+    },
+    "description": {
+      "tr": "Mısır kadısı",
+      "en": "Egyptian judge"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad b. ʿAbd al-Dāʾim b. Muhammad, Abū al-Maʿālī, Nāṣir al-Dīn, known as Ibn Bint al-Mīlaq or Ibn al-Mīlaq"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Abdüddâim b. Muhammed, Ebülmealî, Nasırüddîn, meşhûr adıyla İbn Bint el-Mîlak veya kısaca İbn el-Mîlak"
+      ],
+      "ar": [
+        "محمد بن عبد الدائم بن محمد، أبو المعالي، ناصر الدين المعروف ب ابن بنت الميلق ، ويختصر فيقال ابن الميلق"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:10199",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10199",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:02Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=10199 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:10199."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 797,
+    "start_ce": 1395,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10199, heading_ar=ابن بنت الميلق || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+  "kunya": "Ebülmealî"
+}

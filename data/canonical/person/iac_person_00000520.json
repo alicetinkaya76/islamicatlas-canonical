@@ -1,0 +1,141 @@
+{
+  "@id": "iac:person-00000520",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. İDRÎS",
+      "ar": "عبد الله بن إدريس"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن إدريس"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdullāh b. İdrîs b. Yezîd el-Evdî el-Kûfî",
+        "Abdullah b. İdrîs el-Evedî el-Kûfî"
+      ],
+      "ar": [
+        "عبد الله بن إدريس الأودي الكوفي"
+      ]
+    },
+    "description": {
+      "tr": "110 veya 120 yılında doğduğuna dair kendisinden nakledilen iki rivayetten başka, 115’te doğduğu da söylenmektedir. Rivayet ettiği hadisleri babasından, A‘meş, Süfyân es-Sevrî, Hişâm b. Urve, Şu‘be, Mâlik b. Enes vb. birçok hadisçiden dinledi. Kıraati de Nâfi‘ ve A‘meş’ten öğrenerek ikinci asrın sayılı kıraat âlimlerinden biri oldu. Kendisinden hadis rivayet edenler arasında ise hocası Mâlik b. Enes, Abdullah b. Mübârek, Ahmed b. Hanbel, Yahyâ b. Maîn ve İshak b. Râhûye gibi imamlar vardır. İmam Mâlik onun hem dostu, hem de hocasıydı; bununla birlikte kendisinden hadis rivayet etmiştir. İmam Mâlik el-Muvaṭṭaʾ da onun adını zikretmemişse de, “Ali’den (Ali b. Ebû Tâlib) bana ulaştığına göre...” diyerek “ta‘lîkan” rivayet ettiği hemen bütün hadisleri Abdullah b. İdrîs’ten almıştır. Muhtemelen aralarındaki bu yakınlıktan dolayı, Abdullah Kûfe’de oturmasına rağmen fetvalarının çoğunda Medine ehlinin görüşlerine meylederek Kûfeliler’e muhalif kalmıştır. Abdullah b. İdrîs’in geniş bilgisi, üstün ahlâkı, hadis rivayetindeki titizlik ve güvenilirliği sebebiyle, Ahmed b. Hanbel ve Ebû Hâtim gibi hadis imamları ondan övgüyle söz etmişlerdir. Halifelere ve devlet büyüklerine yaklaşmaktan son derece çekinmiş ve devlet hizmeti kabul etmemiştir. Hârûnürreşîd tarafından kendisine teklif edilen Kûfe kadılığını, “Ben kadılığa lâyık değilim” diyerek reddetmiştir. Bunun üzerine halife ona, “Keşke seni görmeseydim” deyince o da halifeye, “Keşke ben de seni görmeseydim” şeklinde karşılık vererek hiç kimseden çekinmediğini göstermiştir. Hatta o, arkadaşı Hafs b. Gıyâs’ın hem kadılık vazifesini kabul etmesini, hem de Bağdat’tan ayrılacakları sırada halife tarafından yol masrafı olarak gönderilen parayı almasını hoş karşılamadığı gibi, bu maksatla kendisine sunulan beş bin dirhemi de (veya dinar) reddetmiştir. Halifenin, hiç değilse oğlu Me’mûn’a hadis rivayet etmesi doğrultusundaki isteğine de, “Oğlun bize başka öğrencilerle birlikte gelirse ona da hadis rivayet ederiz” cevabını vermiş, böylece hiç kimseye özel muamele yapamayacağını bildirmiştir. Rivayet ettiği hadisler Kütüb-i Sitte ’nin tamamında yer almıştır. Abdullah b. İdrîs, 192 (808) yılı Zilhicce ayında vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 110 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "One of the prominent hadith scholars"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd Allāh b. Idrīs al-Awdī al-Kūfī"
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-idris",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-idris, https://islamansiklopedisi.org.tr/abdullah-b-idris",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:5811",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5811, heading_ar=عبد الله بن إدريس",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-b-idris",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-b-idris",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-idris (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5811]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5811 (heading_ar=عبد الله بن إدريس) via Track A (DİA→Alam xref bridge). dt=Hadis hâfızlarının ileri gelenleri arasından"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+kunya+translit from alam_detail.json el-alam:5811."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 192,
+    "start_ce": 808,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-idris, URL: https://islamansiklopedisi.org.tr/abdullah-b-idris || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5811] || DİA birth place: 115 || DİA death-date string: (ö. 192/808) || DİA categories: hadis > rivayet > fetva || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5811, heading_ar=عبد الله بن إدريس, dt=Hadis hâfızlarının ileri gelenleri arasından",
+  "active_in_places": [
+    "iac:place-00010482"
+  ],
+  "kunya": "أبو محمد",
+  "teachers": [
+    "iac:person-00001019",
+    "iac:person-00003438",
+    "iac:person-00005206",
+    "iac:person-00007106",
+    "iac:person-00007122"
+  ],
+  "students": [
+    "iac:person-00000524",
+    "iac:person-00000753",
+    "iac:person-00002582",
+    "iac:person-00003986",
+    "iac:person-00007652"
+  ]
+}

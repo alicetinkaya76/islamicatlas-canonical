@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00005518",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEZ, Adam"
+    },
+    "description": {
+      "tr": "Almanya’nın güneyindeki Freiburg im Breisgau’da doğdu. İlk ve orta öğrenimini burada tamamladıktan sonra Strasburg’daki Kaiser Friedrich Wilhelm Üniversitesi’nde şarkiyat okudu ve 1892’de Harran’ın İslâm öncesi tarihi üzerine doktora yaptı. 1895’te Basel Üniversitesi’nde Sâmî dil ve edebiyatları doçenti oldu ve buradaki asıl kurucusu sayıldığı Islamwissenschaft bölümünde ders vermeye başladı. Bir ara ilmî araştırmalarda bulunmak üzere Mısır ve Irak’a gitti; 29 Aralık 1917’de Basel’de genç denilebilecek bir yaşta öldü. Mez daha çok, ölümünden sonra Die Renaissance des Islâms adı altında yayımlanan İslâm medeniyetinin IV. (X.) yüzyıldaki durumunu ele aldığı ünlü kitabıyla tanınmakta ve İslâm kültür tarihçiliğinin Batı’daki öncülerinden sayılmaktadır. Eserleri. 1. Geschichte der Stadt Ḥarrân in Mesopotamien bis zum Einfall der Araber (Strassburg 1892, doktora tezi). 2. Abulkâsim ein bagdâder Sittenbild von Muhammad ibn ahmad abulmutahhar alazdi (Heidelberg 1902). Ebü’l-Mutahhar Muhammed b. Ahmed el-Ezdî’nin Ḥikâyetü Ebi’l-Ḳāsım adlı eserinin uzun bir Almanca giriş ve sözlük ilâvesiyle neşridir. 3. Die Renaissance des Islâms . Mez’in en önemli eseri olup Hermann Reckendorf tarafından yayımlanmış (Heidelberg 1922) ve İspanyolca (Salvador Vila, El renacimiento del Islam , Madrid 1936), İngilizce (Salahuddin Khuda Buksh – D. S. Margoliouth, The Renaissance of Islam , London 1937), Arapça (Ebû Rîde, el-Ḥaḍâretü’l-İslâmiyye fi’l-ḳarni’r-râbiʿ el-hicrî ev ʿaṣru’n-nehḍa fi’l-İslâm , I-II, Kahire 1359-1360, 1366, 1377/1957), Farsça (Ali Rızâ Zekâvetî Karagözlü, Temeddün-i İslâmî der Ḳarn-i Çehârum-i Hicrî , Tahran 1983) ve Türkçe (Cemal Köprülü, İslâm’ın Kalkınma Çağı , Ankara, ts., sadece ilk yedi bölümden oluşan 1. fasikül; Salih Şaban, Onuncu Yüzyılda İslâm Medeniyeti: İslâm’ın Rönesansı , İstanbul 2000) tercümeleri yapılmıştır. Mez bu eserinde İslâm kültürünün X. yüzyıldaki durumunu ayrıntılı biçimde ele almakta ve yönetim, maliye, iktisadî, dinî, ilmî, hukukî ve sosyal hayat, dil ve edebiyat, sanayi, ticaret, kara ve deniz taşımacılığı gibi çok geniş bir yelpazeye yayılmış konularda İslâm toplumunun belli bir dönemdeki yaşantısını büyük ölçüde birinci elden kaynaklara dayanarak incelemektedir. Eser özellikle farklı konularda önemli malzemeler aktardığı için büyük bir değer taşır. Mez’in makalelerinden bazıları şunlardır: “Das arabische Sprichwort” ( Allgemeine Zeitung , Beilage 4 [München 1904], s. 148-150); “Geschichte der Wunder Muhammeds. Résumé” ( Verhandlungen des 2. Kongresses für allgemeine Religionsgeschichte , Basel 1905, s. 235-238); “Über einige sekundäre Verba im Arabischen” ( Orientalische Studien: Theodor Nöldeke zum siebzigsten Geburtstag [2. März 1906] gewidmet von Freunden und Schülern [ed. C. Bezold], Gieszen 1906, I, 249-254); “Von der muhammedanischen Stadt im 4. Jahrhundert” ( ZA , XXVII [1912], s. 65-74). Bu madde TDV İslâm Ansiklopedisi’nin 2004 yılında Ankara’da basılan 29. cildinde, 514-515 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mez-adam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mez-adam, https://islamansiklopedisi.org.tr/mez-adam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:mez-adam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=mez-adam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:41Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mez-adam (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=mez-adam)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1869,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=mez-adam, URL: https://islamansiklopedisi.org.tr/mez-adam || DİA birth place: Breisgau || DİA death-date string: (1869-1917) || Chunk count: 1"
+}

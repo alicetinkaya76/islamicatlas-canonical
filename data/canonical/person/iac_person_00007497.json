@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00007497",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ümmü Ri‘le",
+      "ar": "أمّ رعلة"
+    },
+    "originalScript": {
+      "ar": "أمّ رعلة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ümmü Ri‘le el-Kuşeyriyye"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Peygamber devrinde Yemâme taraflarında yaşayan Âmir b. Sa‘saa oğullarının Kuşeyr kabilesindendir. Kabilesinde iyi bir eğitim alarak yetişti. Gençliğinden itibaren şiirle ilgilendi. Arapça’yı düzgün kullanması, hitabeti ve fasih konuşmasıyla ün kazandı. Ümmü Ri‘le, kuvvetli bir ihtimale göre Huneyn Gazvesi ile (8/630) Vedâ haccı (10/632) arasındaki bir tarihte İslâm’a girdi. Müslüman olduklarını bildirmek üzere Medine’ye gelen heyetler arasında genellikle kadınların yer almadığı bilindiği halde onun Sevr b. Urve b. Abdullah, Hayde b. Muâviye b. Kuşeyr ve Kurre b. Hübeyre gibi sahâbîlerden meydana gelen Kuşeyr heyetiyle birlikte Medine’ye geldiği ve Resûl-i Ekrem ile görüşerek İslâm’a girdiği anlaşılmaktadır. Kendine son derece güvenen Ümmü Ri‘le, bedevî olmasına rağmen gösterdiği cesaret ve fasih konuşmasıyla Hz. Peygamber’i hayrette bıraktı. Resûlullah ile kadınları ilgilendiren bazı konularda sohbet etti ve ona fıkıhla ilgili önemli sorular sordu. Hanımların sosyal hayata yeterince katılamayıp geri planda kaldıklarını, zamanlarını eşlerine ve çocuklarına ayırdıklarını, bu sebeple cihada iştirak edemedikleri için bu sevaptan mahrum kaldıklarını söyledi; bunun yerine kendilerini Allah’a yaklaştıracak sevabı bol ameller öğretmesini istedi. Resûl-i Ekrem de ona gece gündüz fırsat buldukça Allah’ı zikretmeye devam etmelerini, gözlerini harama bakmaktan sakınmalarını ve toplum içinde âdâba uygun biçimde alçak sesle konuşmalarını tavsiye etti. Ardından Ümmü Ri‘le kadınları güzelleştirme işini meslek edindiğini, onları eşleri için süsleyip güzelleştirdiğini, bunu yapmanın günah olup olmadığını sordu. Hz. Peygamber de özellikle güzelliklerini yitirdiklerinde hanımların buna ihtiyacı bulunduğunu belirterek bu işi yapmaya devam edebileceğini bildirdi. Kabilesine dönen ve Resûlullah’ın hayatta bulunduğu süre içinde hakkında başka bilgi bulunmayan Ümmü Ri‘le, Resûlullah’ın vefatından sonra ridde savaşları esnasında kocası Ebû Ri‘le ile birlikte tekrar Medine’ye gitti, ancak Resûl-i Ekrem’in vefat ettiğini duyunca çok üzüldü. Üzüntüsünü paylaşmak için Hz. Fâtıma’nın evine gitti; Hz. Hasan ile Hüseyin’i yanına aldı ve onlarla birlikte şehrin sokaklarında mersiyeler söyleyerek dolaştı; halkın Resûlullah’ın vefatına olan üzüntüsünü tazeledi. Bu olayın ardından Ümmü Ri‘le’nin kabilesine geri döndüğü ve kısa bir süre sonra vefat ettiği tahmin edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2012 yılında İstanbul’da basılan 42. cildinde, 328 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ummu-rile",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ummu-rile, https://islamansiklopedisi.org.tr/ummu-rile",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:04Z",
+    "modified": "2026-05-04T15:35:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ummu-rile (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 11,
+    "start_ce": 632,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ummu-rile, URL: https://islamansiklopedisi.org.tr/ummu-rile || DİA death-date string: (ö. 11/632’den sonra) || DİA categories: fıkıh || Chunk count: 1"
+}

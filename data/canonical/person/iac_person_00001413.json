@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00001413",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Behrân",
+      "ar": "بهران"
+    },
+    "originalScript": {
+      "ar": "بهران"
+    },
+    "altLabel": {
+      "tr": [
+        "Sirâcüddîn Muhammed b. Yahyâ b. Muhammed et-Temîmî ez-Zeydî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Basralı bir aileye mensup olup 888’de (1483) Yemen’in Sa‘de şehrinde doğdu. Behrân lakabıyla tanınmıştır. Gençlik yıllarında bir yandan Yemen’in muhtelif şehirlerinde ticaretle meşgul olurken bir yandan da bulunduğu yerdeki ilim adamlarından ders okudu. En ünlü hocası, zamanında Zeydî fıkhının önde gelen şahsiyetlerinden biri olan Seyyid Murtazâ b. Kāsım’dır. Mütevekkil-Alellah ez-Zeydî döneminde başkadılık yapan Behrân 957 Ramazanında (Eylül 1550) doğum yeri olan Sa‘de’de öldü. Eserleri. Fıkıh, fıkıh usulü, tefsir, hadis ve Arap edebiyatı sahalarında kaleme aldığı on beş kadar eserinin başlıcaları şunlardır: 1. Teftîḥu’l-ḳulûb ve’l-ebṣâr li’l-ihtidâʾ ilâ keyfiyyeti iḳṭiṭâfi Es̱mâri’l-ezhâr . Mütevekkil Yahyâ b. Şemseddin’in (ö. 965/1558) el-Es̱mâr fî fıḳhi’l-eʾimmeti’l-aṭhâr adlı kitabının şerhi olup meseleleri delilleriyle zikreden bir Zeydî fıkıh kitabıdır. 2. el-Kâfil . Zeydî fıkıh usulüne dairdir. 3. el-Muʿtemed min ḥadîs̱i seyyidine’l-Muṣṭafâ . Kütüb-i Sitte ’de yer alan hadislerin fıkıh konularına göre düzenlendiği bir eserdir. 4. el-Muḫtaṣarü’ş-şâfî fî ʿilmeyi’l-ʿarûż ve’l-ḳavâfî (bu dört eserin yazma nüshaları için bk. Brockelmann, GAL , II, 534; Suppl. , II, 557; Ziriklî, VIII, 11; el-Habeşî, el-Fikrü’l-İslâmî , s. 234). 5. Cevâhirü’l-aḫbâr ve’l-âs̱ârü’l-müstaḫrece min lücceti’l-Baḥri’z-zeḫḫâr . Behrân bu eserinde Mehdî-Lidînillâh’ın (ö. 840/1437) el-Baḥrü’z-zeḫḫâr ’ındaki hadisleri tahriç etmiştir. Kitap bu eserle birlikte önce Kahire’de (1366/1947), sonra bu baskıdan ofset olarak San‘a’da (1409/1988) beş cilt halinde basılmıştır. 6. Behcetü’l-cemâl ve maḥaccetü’l-kemâl fi’l-meẕmûm ve’l-memdûḥ mine’l-ḫiṣâl fi’l-eʾimmeti ve’l-ʿummâl (Kahire 1349). Kaynaklarda adı geçen diğer eserleri arasında, Zemahşerî’nin tefsiri üzerine yazdığı Tekmîlü’l-Keşşâf adlı hâşiye ile Zemahşerî ve İbn Kesîr’in tefsirlerini bir araya getirdiği et-Tefsîrü’l-kebîr ’i zikredilebilir (diğer eserleri için bk. Ziriklî, VIII, 11). Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 358-359 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:behran",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=behran, https://islamansiklopedisi.org.tr/behran",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:behran",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=behran",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:41Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=behran (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=behran)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Temîmî; Zeydî"
+  ],
+  "death_temporal": {
+    "start_ah": 957,
+    "start_ce": 1550,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=behran, URL: https://islamansiklopedisi.org.tr/behran || DİA birth place: Sa'de || DİA death-date string: (ö. 957/1550) || DİA categories: fıkıh > tefsir > hadis || Chunk count: 1",
+  "birth_place": "iac:place-00014341"
+}

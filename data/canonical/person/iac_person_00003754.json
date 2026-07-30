@@ -1,0 +1,106 @@
+{
+  "@id": "iac:person-00003754",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Ebû Ömer",
+      "ar": "ابن أبي عمر"
+    },
+    "originalScript": {
+      "ar": "ابن أبي عمر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Yahyâ b. Ebî Ömer el-Adenî ed-Derâverdî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Yemenli olup dedesine nisbetle İbn Ebû Ömer diye tanınmıştır. Ebû Ömer künyesinin babasına ait olduğu da söylenmektedir. Başta babası olmak üzere Süfyân b. Uyeyne, Abdülazîz b. Muhammed ed-Derâverdî, Abdürrezzâk es-San‘ânî, Fudayl b. İyâz, Vekî‘ b. Cerrâh, Yezîd b. Hârûn gibi hocalardan hadis dinlemiştir. Müslim, Tirmizî, İbn Mâce, Bakī b. Mahled, Ebû Hâtim er-Râzî, Ebû Zür‘a er-Râzî, Ebû Zür‘a ed-Dımaşkī ve oğlu Abdullah ondan hadis öğrenen pek çok kimse arasında yer alır. Bir müddet Aden’de kadılık yapan İbn Ebû Ömer daha sonra Mekke’ye yerleşmiş ve Harem-i şerif şeyhliğine getirilmiştir. Ahmed b. Hanbel onu Mekke’de hadisi yazılabilecek önemli bir âlim diye nitelendirirken Ebû Hâtim, dindar kişiliğine rağmen hocası Süfyân b. Uyeyne’ye isnat ederek uydurma bir hadis nakledecek kadar dalgın biri olarak değerlendirmiş, ardından da sadûk bir râvi olduğunu kaydetmiştir (İbn Ebû Hâtim, VIII, 124-125). Müslim gibi bazı münekkitler ise onu hadisi delil olabilecek, doğru sözlü bir râvi diye nitelemiş, Yahyâ b. Maîn de sika değerlendirmesinde bulunmuştur ( et-Târîḫ , II, 542). Bir asra yakın yaşadığı ve birçok defa haccettiği söylenen İbn Ebû Ömer 19 Zilhicce 243’te (8 Nisan 858) Mekke’de vefat etmiştir. Rivayetleri Müslim ve Tirmizî’nin el-Câmiʿu’ṣ-ṣaḥîḥ ’leri ile Nesâî ve İbn Mâce’nin es-Sünen ’lerinde yer alan İbn Ebû Ömer’in Kitâbü’l-Îmân adlı eseri (Dârü’l-kütübi’z-Zâhiriyye, Mecmua, nr. 104, vr. 223 a -250 b ) Hamed b. Hamdî el-Câbirî el-Harbî’nin tahkikiyle ve el-Îmân adıyla yayımlanmıştır (Küveyt 1407/1986). Kaynaklarda, talebelerinden Ebû Muhammed İshak b. Ahmed el-Huzâî tarafından rivayet edilen el-Müsned adlı bir eserinden söz edilmekteyse de bu eserin günümüze ulaştığına dair bilgi bulunmamaktadır. el-Müsned , Ahmed b. Ebû Bekir el-Bûsîrî’nin zamanımıza intikal etmeyen ve İtḥâfü’l-ḫıyere adıyla da anılan Eṭrâfü’l-mesânîdi’l-ʿaşere ’sinin ihtiva ettiği on müsnedden biridir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 438 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-ebu-omer",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-ebu-omer, https://islamansiklopedisi.org.tr/ibn-ebu-omer",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ibn-ebu-omer",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ibn-ebu-omer",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:18Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:18Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-ebu-omer (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.96): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Adenî; Derâverdî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 243,
+    "start_ce": 858,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-ebu-omer, URL: https://islamansiklopedisi.org.tr/ibn-ebu-omer || DİA death place: Mekke || DİA death-date string: (ö. 243/858) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000676",
+    "iac:person-00001984",
+    "iac:person-00002802",
+    "iac:person-00007121",
+    "iac:person-00007584",
+    "iac:person-00007715"
+  ],
+  "students": [
+    "iac:person-00001307",
+    "iac:person-00002311",
+    "iac:person-00002313",
+    "iac:person-00003920",
+    "iac:person-00005861",
+    "iac:person-00007357"
+  ]
+}

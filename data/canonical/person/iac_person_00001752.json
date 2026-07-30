@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00001752",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Celûdî",
+      "ar": "الجلودي"
+    },
+    "originalScript": {
+      "ar": "الجلودي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ahmed Abdülazîz b. Yahyâ b. Ahmed el-Celûdî"
+      ]
+    },
+    "description": {
+      "tr": "Basra’nın Celûd köyünden veya Ezd kabilesinin Celûd kolundan olduğu için Celûdî diye anılmaktadır. Kaynaklarda kendisinden, Basra’da Şiî-İmâmiyye’nin ileri gelenlerinden, fıkıh âlimi, güvenilir râvi ve tarihçilerinden biri olarak bahsedilen Celûdî’nin hayatı hakkında hemen hiçbir bilgi bulunmamaktadır. Çeşitli konularda yazdığı ve ekseriyeti risâle şeklinde olan eserlerinin sayısı 185’tir. Sîretü emîri’l-müʾminîn ʿAlî b. Ebî Ṭâlib , Aḫbâru Ebî Bekr ve ʿÖmer , Aḫbâru İbn ʿAbbâs , Aḫbâru ʿAḳīl b. Ebî Ṭâlib , Aḫbâru Ḥamza b. ʿAbdilmuṭṭalib , Aḫbâru Zeyd b. ʿAlî , Aḫbâru Benî Mervân , Aḫbâru Eks̱em b. Ṣayfî , Aḫbâru ʿÖmer b. ʿAbdilʿazîz gibi biyografik eserleri yanında Kitâbü’l-Cemel , Kitâbü Ṣıffîn , Kitâbü’l-Ḥakemeyn , Kitâbü’l-Ḫavâric , Aḫbârü’l-ʿArab ve’l-Fürs ve Aḫbârü’t-Tevvâbîn gibi tarihî konularda yazılmış kitapları vardır. Fıkıhla ilgili olan eserleri Kitâbü’d-Derâhim ve’d-denânîr , Kitâbü’l-Mütʿa ve mâ câʾe fî taḥlîlihâ , Kitâbü’l-Mürşid ve’l-müsterşid , Kitâbü Mâ ruviye fi’ş-şaṭranc ’dan başka Kitâbü’n-Nâsiḫ ve’l-mensûḫ , Kitâbü’l-Ḳırâʾât , Mecmûʿu ḳırâʾâti ʿAlî b. Ebî Ṭâlib adlı tefsir ve kıraate dair eserleri de vardır. Arap edebiyatıyla ilgili bazı eserleri ise şunlardır: Kitâbü’t-Tems̱îl bi’ş-şiʿr , Kitâbü Ṭabaḳāti’l-ʿArab ve’ş-şuʿarâʾ , Aḫbâru Ḥassân , Aḫbâru ʿAbdirraḥmân b. Ḥassân , Aḫbâru Ümeyye b. Ebi’ṣ-Ṣalt , Aḫbâru ʿAmr b. Maʿdîkerib , Aḫbârü’l-Ferezdaḳ , Aḫbâru Ebî Nüvâs (eserlerinin geniş bir listesi için bk. Hediyyetü’l-ʿârifîn , I, 576-577; Seyyid Hasan es-Sadr, s. 244-247). Basra’da vefat eden Celûdî’nin eserleri zamanımıza intikal etmemiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 272 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "poet",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:celudi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=celudi, https://islamansiklopedisi.org.tr/celudi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:celudi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/celudi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:5576",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5576, heading_ar=الجلودي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=celudi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5576]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5576 (heading_ar=الجلودي) via Track A (DİA→Alam xref bridge). dt=Tarihçi ve edip"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Celûdî"
+  ],
+  "death_temporal": {
+    "start_ah": 332,
+    "start_ce": 944,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=celudi, URL: https://islamansiklopedisi.org.tr/celudi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5576] || DİA death-date string: (ö. 332/944) || DİA categories: fıkıh > tefsir || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5576, heading_ar=الجلودي, dt=Tarihçi ve edip"
+}

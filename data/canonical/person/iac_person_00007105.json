@@ -1,0 +1,127 @@
+{
+  "@id": "iac:person-00007105",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ŞUAYB b. EBÛ HAMZA",
+      "ar": "شعيب بن أبي حمزة"
+    },
+    "originalScript": {
+      "ar": "شعيب بن أبي حمزة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bişr Şuayb b. Dînâr el-Ümevî el-Hımsî"
+      ]
+    },
+    "description": {
+      "tr": "Humus’ta doğdu. Babasının künyesiyle Şuayb b. Ebû Hamza diye anıldı. Nâfi‘, İbn Şihâb ez-Zührî, Ebü’z-Zinâd, İkrime b. Hâlid, İbnü’l-Münkedir, Zeyd b. Eslem gibi hocalardan ders aldı. Oğlu Bişr başta olmak üzere Ebû Hayve, Velîd b. Müslim, İsmâil b. Ayyâş, Bakıyye b. Velîd ve Ebü’l-Yemân onun talebeleri arasında yer alır. Yahyâ b. Maîn, yazısı güzel olan ve Dîvânü’n-nafakāt’ta görev yapan Şuayb’ın Emevî Halifesi Hişâm b. Abdülmelik için Zührî’den imlâ yoluyla hadis yazdığını zikretmektedir ( Zehebî, Aʿlâmü’n-nübelâʾ , VII, 188). Şuayb, İbn Şihâb ez-Zührî’ye kâtiplik yaptı ve onun en güvenilir talebesi oldu. Bu hocadan rivayet ettiği hadislerin sayısı 1700’ü bulmaktadır. Şuayb’ın ölümüne yakın bir zamanda oğlu Bişr’in de yanında bulunduğu bir sırada bazı öğrencileri kendisinden hadis yazmak istediklerini söylemişler, Şuayb da büyükçe bir sepeti göstererek, “Bunlar Zührî’den dinleyip yazdığım ve daha sonra tashih ettiğim hadislerdir, isterseniz bunları benden rivayet edebilirsiniz” demiş, talebelerin rivayet sırasında hangi sîgayı kullanacaklarını sormaları üzerine de “enbeenâ Şuayb, ahberenâ Şuayb” diyebileceklerini belirttikten sonra aynı hadisleri kendisinden semâ ve kıraat yoluyla alan oğlu Bişr’den de rivayet edebileceklerini ilâve etmiştir (Ebû Zür‘a ed-Dımaşkī, I, 433, 434; Zehebî, Aʿlâmü’n-nübelâʾ , VII, 190). Şuayb 162’de (779) vefat etti. Bu tarih 163 olarak da zikredilmiştir. Ahmed b. Hanbel’in, kitaplarını gördüğünü ve bunların zabt yönünden sağlam olduğunu söyleyerek kendisinden övgüyle söz ettiği Şuayb hakkında hadis münekkitlerince sika ve sebt gibi değerlendirmeler yapılmıştır. Şuayb’ın rivayet ettiği hadisler Kütüb-i Sitte ’de yer almaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 223 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scribe"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:suayb-b-ebu-hamza",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=suayb-b-ebu-hamza, https://islamansiklopedisi.org.tr/suayb-b-ebu-hamza",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:suayb-b-ebu-hamza",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/suayb-b-ebu-hamza",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:4409",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=4409, heading_ar=شعيب بن أبي حمزة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:58Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=suayb-b-ebu-hamza (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4409]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.95): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=4409 (heading_ar=شعيب بن أبي حمزة) via Track A (DİA→Alam xref bridge). dt=Hadis hâfızı, güvenilir, Hims ahından"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ümevî; Hımsî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 162,
+    "start_ce": 779,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=suayb-b-ebu-hamza, URL: https://islamansiklopedisi.org.tr/suayb-b-ebu-hamza || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4409] || DİA birth place: Humus || DİA death place: 162 || DİA death-date string: (ö. 162/779) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=4409, heading_ar=شعيب بن أبي حمزة, dt=Hadis hâfızı, güvenilir, Hims ahından",
+  "active_in_places": [
+    "iac:place-00003931"
+  ],
+  "teachers": [
+    "iac:person-00002394",
+    "iac:person-00004274",
+    "iac:person-00005969",
+    "iac:person-00007838",
+    "iac:person-00007887",
+    "iac:person-00007897"
+  ],
+  "students": [
+    "iac:person-00001311",
+    "iac:person-00002372",
+    "iac:person-00004555",
+    "iac:person-00007587"
+  ]
+}

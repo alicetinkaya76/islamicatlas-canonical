@@ -1,0 +1,99 @@
+{
+  "@id": "iac:person-00000254",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Chaghmini",
+      "tr": "Mahmûd el-Çağmînî",
+      "ar": "محمود الجغميني"
+    },
+    "originalScript": {
+      "ar": "محمود الجغميني"
+    },
+    "altLabel": {
+      "en": [
+        "Maḥmūd ibn Muḥammad ibn ʿUmar al-Jāghmīnī"
+      ],
+      "tr": [
+        "Mahmûd b. Muhammed b. Ömer el-Çağmînî"
+      ],
+      "ar": [
+        "محمود بن محمد بن عمر الجغميني"
+      ]
+    },
+    "description": {
+      "tr": "İslâm eğitim tarihinin en etkili temel astronomi ders kitabını yazdı || Çağmînî'nin Mülahhas'ı, Orta Asya'dan Kuzey Afrika'ya 100'den fazla şerh yazılarak İslâm dünyasının standart astronomi ders kitabı oldu. || [Tarih notu] İslâm eğitimi üzerindeki muazzam etkisine rağmen, Batı tarih yazımında yeterince çalışılmamıştır.",
+      "en": "Wrote the most influential elementary astronomy textbook in Islamic education history || al-Chaghmini's Mulakhkhas became the standard astronomy primer across the Islamic world, with over 100 commentaries produced from Central Asia to North Africa. || [Historiographical note] Despite its enormous influence on Islamic education, al-Chaghmini remains understudied in Western historiography.",
+      "ar": "كتب أشهر كتاب أولي في علم الفلك في تاريخ التعليم الإسلامي || أصبح الملخص الكتاب المعياري لتدريس الفلك في العالم الإسلامي"
+    }
+  },
+  "profession": [
+    "astronomer",
+    "mathematician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0071",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0071",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:56:29Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:56:29Z",
+    "modified": "2026-05-04T15:39:32Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:56:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0071 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1150,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1221,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q4060361",
+      "confidence": 0.88,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Chaghmini')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0071, lecture_week=n/a. || Key works: {'title': {'en': \"al-Mulakhkhas fi'l-Hay'a\", 'tr': \"el-Mülahhas fi'l-Hey'e\", 'ar': 'الملخص في الهيئة'}, 'year': 1200, 'field': 'astronomy', 'significance': {'en': 'Most widely taught astronomy textbook in Islamic madrasas for 500+ years', 'tr': '500+ yıl İslâm medreselerinde en çok okutulan astronomi ders kitabı'}} || Modern parallel: Like a textbook author whose introductory textbook becomes the global standard for centuries.",
+  "birth_place": "iac:place-00004462",
+  "active_in_places": [
+    "iac:place-00004462"
+  ],
+  "authored_works": [
+    "iac:work-00000099"
+  ]
+}

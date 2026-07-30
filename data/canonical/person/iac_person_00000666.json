@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00000666",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdurrahman Şeref"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Tophâne-i Âmire Muhasebe Kalemi mümeyyizlerinden Hasan Efendi’nin oğludur. İlk tahsilinden sonra Eyüp Rüşdiyesi’ne, ardından Mekteb-i Sultânî’ye girdi; 1873’te buradan mezun oldu. Sırasıyla Mahrec-i Aklâm-ı Şâhâne, Mekteb-i Sultânî ve Dârülmuallimîn’de tarih-coğrafya öğretmenliği, Mekteb-i Mülkiyye’de müdürlük yaptı. Uzun ve başarılı eğitim hayatı boyunca birçok nişan ve madalya ile mükâfatlandırıldı. II. Meşrutiyet’in ilânından sonra âyan âzası, 1907 ve 1909’da iki defa Maarif nâzırı oldu. Asıl şöhrete, 1909 yılından 1 Kasım 1922’ye, yani saltanatın ilgasına kadar yürüttüğü vak‘anüvislikle kavuştu. Böylece Osmanlı Devleti’nin son resmî devlet tarihçisi oldu. 1918’de bir ara Evkaf nâzırlığı yaptı. Cumhuriyet’in ilânından sonra İstanbul’dan ikinci devre milletvekili seçildi. 18 Şubat 1925’te Ankara’da öldü; mezarı Edirnekapı dışında Otaktepe aile kabristanındadır. Abdurrahman Şeref, resmî görevleri yanında telif faaliyetlerinde de bulunmuş, çoğu ders kitabı mahiyetinde birçok eser kaleme almıştır. Hilâliahmer Cemiyeti’nin ve 27 Kasım 1909’daki kurulan Târîh-i Osmânî Encümeni’nin başkanlığını yapmış, bu kurulun yayın organı olan Târîh-i Osmânî Encümeni Mecmuası ’nda çeşitli makaleler yayımlamıştır. Bazı gazetelerde neşredilen yazılarını Târih Musâhabeleri (İstanbul 1339) adı altında toplamıştır. Vak‘anüvisliği sırasında yazdığı ve 1908-1918 yılları arasında cereyan eden olayları ihtiva eden Vekāyi‘nâme adlı eserini ise yayımlamamıştır. Bu eser dönemin politikasına uygun biçimde kaleme alınmıştır. Halbuki uzun süre devlet hizmetinde bulunan ve birçok olayın yakın şahidi olan müellifin, devrin tarihine ışık tutacak pek çok konuya açıklık getirmesi beklenirdi. Eser Türk Tarih Kurumu Kütüphanesi’ndedir (nr. 542). Müellif ayrıca Lutfî Târihi ’nin VIII. cildini genişleterek neşretmiştir. Diğer eserleri şunlardır: Fezleke-i Târîh-i Düvel-i İslâmiyye (İstanbul 1301); Târîh-i Devlet-i Osmâniyye (İstanbul 1309-1312, 1315-1318); Târîh-i Asr-ı Hâzır ; Harb-i Hâzırın Menşei (İstanbul 1334); Fezleke-i Târîh-i Devlet-i Osmâniyye (İstanbul 1315). Târih Musâhabeleri daha sonra yeni harflerle de birkaç defa basılmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 175 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-seref",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-seref, https://islamansiklopedisi.org.tr/abdurrahman-seref",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:44Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-seref (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1853,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-seref, URL: https://islamansiklopedisi.org.tr/abdurrahman-seref || DİA birth place: İstanbul || DİA death-date string: (1853-1925) || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00003443",
+    "iac:person-00004955",
+    "iac:person-00005010",
+    "iac:person-00007549"
+  ]
+}

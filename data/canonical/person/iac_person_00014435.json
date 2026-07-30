@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00014435",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Muhakkiq al-Thānī",
+      "tr": "Muhakkık es-Sânî",
+      "ar": "المحقق الثاني"
+    },
+    "originalScript": {
+      "ar": "المحقق الثاني"
+    },
+    "description": {
+      "tr": "İmâmî usûl müctehedit. El-Alâî olarak bilinirdi. Cebel-i Âmil'de (Lübnan) doğdu, Mısır'a giderek ora",
+      "en": "An Imāmī usūlī jurist. He was known as al-ʿAlāʾī. He was born in Jabal ʿĀmil (in Lebanon), traveled"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAlī b. al-Ḥusayn b. ʿAbd al-ʿAlī al-Karkī al-ʿĀmilī, Abū al-Ḥasan"
+    },
+    "altLabel": {
+      "tr": [
+        "Alî b. Hüseyin b. Abdülâlî el-Kerkî el-Âmilî, Ebü'l-Hasan"
+      ],
+      "ar": [
+        "علي بن الحسين بن عبد العالي الكركي العاملي، أبو الحسن، الملقب ب المحقق الثاني"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:7091",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7091",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:31Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:31Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=7091 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 3 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7091."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 940,
+    "start_ce": 1534,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7091, heading_ar=المحقق الثاني || Ziriklī century_ce=16 || Ziriklī place coords (city/region of activity): 32.0, 44.34",
+  "active_in_places": [
+    "iac:place-00002080",
+    "iac:place-00002942",
+    "iac:place-00011943"
+  ],
+  "authored_works": [
+    "iac:work-00000458",
+    "iac:work-00001726",
+    "iac:work-00006770"
+  ],
+  "kunya": "أبو الحسن"
+}

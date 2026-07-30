@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00000321",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Zheng He",
+      "tr": "Çeng Ho",
+      "ar": "تشنغ خه"
+    },
+    "originalScript": {
+      "ar": "تشنغ خه"
+    },
+    "altLabel": {
+      "en": [
+        "Ma He (Zheng He)"
+      ],
+      "tr": [
+        "Ma He (Çeng Ho)"
+      ],
+      "ar": [
+        "ما خه (تشنغ خه)"
+      ]
+    },
+    "description": {
+      "tr": "Modern öncesi tarihin en büyük deniz seferlerini yöneten Müslüman Çinli amiral; Doğu Afrika'ya ulaştı || Ming Hanedanı'nın en büyük deniz komutanı olan Hui Müslümanı || [Tarih notu] Amerika'ya ulaştığı iddiası reddedilir; ciddi araştırma Hint Okyanusu ağlarına odaklanır",
+      "en": "Muslim Chinese admiral who led the largest naval expeditions in pre-modern history; reached East Africa || Hui Muslim who became the Ming Dynasty's greatest naval commander || [Historiographical note] Gavin Menzies's claim that he reached the Americas is widely rejected; serious scholarship focuses on Indian Ocean networks",
+      "ar": "أميرال صيني مسلم قاد أكبر الحملات البحرية في التاريخ || مسلم هوي أصبح أعظم قائد بحري في سلالة مينغ || [Historiographical note] يُرفض ادعاء وصوله إلى الأمريكتين على نطاق واسع"
+    }
+  },
+  "profession": [
+    "geographer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0141",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0141",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:52Z",
+    "modified": "2026-05-04T14:58:52Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0141 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1371,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1433,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0141, lecture_week=n/a. || Key works: {'title': {'en': 'Seven Treasure Ship Voyages', 'tr': 'Yedi Hazine Gemisi Seferi', 'ar': 'رحلات سفن الكنوز السبع'}, 'year': 1405, 'field': 'navigation', 'significance': {'en': '7 expeditions across Indian Ocean with fleet of 300+ ships, predating European exploration by 80 years', 'tr': \"Avrupa keşiflerinden 80 yıl önce 300'den fazla gemilik filoyla Hint Okyanusu'nda 7 sefer\", 'ar': 'سبع رحلات عبر المحيط الهندي بأسطول يضم أكثر من ٣٠٠ سفينة'}} || Modern parallel: Like SpaceX sending reusable spacecraft — each expedition was a logistics marvel beyond its era",
+  "authored_works": [
+    "iac:work-00000180"
+  ]
+}

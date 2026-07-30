@@ -1,0 +1,106 @@
+{
+  "@id": "iac:person-00007051",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Sipâhîzâde Mehmed"
+    },
+    "description": {
+      "tr": "Tahsilini muhtemelen doğduğu Bursa’da tamamladıktan sonra ilmiyeye intisap edip 981’de (1573) Mustafa Paşa Medresesi’ne müderris oldu. Gösterdiği başarıdan dolayı kendisine Üç Şerefeli Medrese (Edirne) pâyesi verildi. 987’de (1579) Sahn-ı Semân, 991’de (1583) Ayasofya müderrisliğine, ardından İzmir kadılığına getirildi. Bir yıl sonra Bağdat kadılığına, 997’de (1589) tekrar İzmir kadılığına tayin edildi ve orada vefat etti (Atâî, s. 309-310). Eserleri. 1. Evḍaḥu’l-mesâlik ilâ maʿrifeti’l-büldân ve’l-memâlik . Coğrafya-tarih konularının işlendiği kitapta denizler, göller, nehirler, dağlar ve tepeler anlatılmış, ardından alfabetik sırayla şehir ve ülkeler hakkında kısa bilgiler verilmiştir. Eserin başlıca kaynakları Ebü’l-Fidâ’nın Taḳvîmü’l-büldân ’ı ile İbn Abdülhak el-Bağdâdî’nin Merâṣıdü’l-ıṭṭılâʿ ıdır. 980’de (1572) tamamlanarak III. Murad’a sunulan ve ansiklopedik mahiyeti sebebiyle yaygın bir şekilde kullanıldığı anlaşılan kitabın çeşitli kütüphanelerde birçok nüshası mevcut olup Mehdî Îd er-Ravâdıyye tarafından neşredilmiştir (Beyrut 1427/2006). 2. Muhtasaru Evdahi’l-mesâlik ilâ ma‘rifeti’l-büldân ve’l-memâlik . Sokullu Mehmed Paşa’nın emriyle Evḍaḥu’l-mesâlik ’in kısaltılarak Türkçe’ye çevrilmiş şekli olup paşaya sunulan eser tarih ve coğrafya lugatı niteliğindeki Türkçe kitapların ilki olması bakımından önemlidir (Süleymaniye Ktp., Damad İbrâhim Paşa, nr. 856). 3. Enmûẕecü’l-fünûn fi’l-maʿârifi’l-ʿâmme . Taşköprizâde’nin Mevzûâtü’l-ulûm ’u tarzında yazılan ve tefsir, hadis, kelâm, usûl-i fıkıh, ferâiz, meânî, tıp ve astronomi gibi ilimlere yer veren kitap Sinan Paşa’ya sunulmuştur (Süleymaniye Ktp., Lâleli, nr. 2151; İsmihan Sultan, nr. 303). 4. Tercümetü Durûbi’l-emsâl (Ârif Hikmet Ktp., nr. 3495). 5. Risâle fi’t-tefsîr (Süleymaniye Ktp., Ayasofya, nr. 390). 6. Hâşiye-i Şerhu Tecrîd ( Osmanlı Müellifleri , III, 66). 7. Hâşiye alâ Şerhi Hikmeti’l-ayn ( a.g.e. , a.y.). Bu madde TDV İslâm Ansiklopedisi’nin 2009 yılında İstanbul’da basılan 37. cildinde, 258-259 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    },
+    "altLabel": {
+      "tr": [
+        "Sipâhizâde Mehmed"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:sipahizade-mehmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=sipahizade-mehmed, https://islamansiklopedisi.org.tr/sipahizade-mehmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:sipahizade-mehmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=sipahizade-mehmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "alatli:E0431",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:57Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=sipahizade-mehmed (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=sipahizade-mehmed)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-2 conf 1.0): ['authority_xref', 'altLabel.tr', 'derived_from_layers']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 997,
+    "start_ce": 1589,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=sipahizade-mehmed, URL: https://islamansiklopedisi.org.tr/sipahizade-mehmed || DİA death place: 997 || DİA death-date string: (ö. 997/1589) || DİA categories: tefsir > fıkıh > hadis || Chunk count: 1",
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q129951566",
+      "confidence": 1.0,
+      "method": "imported_from_source",
+      "reviewed": false,
+      "note": "Alatlı (Tarihe Yön Veren Metinler): Tier-2 ad+ölüm eşleşmesi; QID Wikidata tarih-teyitli."
+    }
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

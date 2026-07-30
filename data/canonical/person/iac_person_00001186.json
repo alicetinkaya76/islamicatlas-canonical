@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00001186",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ATIYYE b. ESVED",
+      "ar": "عطيّة بن الأسود"
+    },
+    "originalScript": {
+      "ar": "عطيّة بن الأسود"
+    },
+    "description": {
+      "tr": "Benî Hanîfe kabilesindendir. Sicistan ve Horasan’da Hâricîliğin yayılması için büyük gayretler gösterdi. Yezîd b. Muâviye’nin hilâfeti sırasında, Ezârika’nın reisi Nâfi‘ b. Ezrak’la birlikte Emevîler’e karşı isyan etti. Ancak Nâfi‘ b. Ezrak’ın, kendilerinden olsalar bile, Hâricîler’in bulunduğu yere hicret etmeyerek Emevî yönetimi altında yaşamayı kabullenenleri ( kaade ) tekfir etmesi, muhaliflerinin kadın ve çocuklarının öldürülmesini helâl sayması üzerine Ezârika’dan ayrılarak kendisi gibi düşünen bazı Hâricî reisleriyle birlikte Yemâme’ye gittiler. Yolda ordusuyla birlikte Ezârika’ya katılmak isteyen Necde b. Âmir’le karşılaştılar ve kendisini Ezârika’nın doğru yoldan ayrıldığı noktasında ikna ederek tekrar Yemâme’ye dönmesini sağladılar. Böylece Necde’yi Ezârika’ya katılmaktan vazgeçirip emîrü’l-mü’minîn ilân ettiler ve kendisine biat ettiler. Daha sonra Uman’da Abbâd b. Abdullah’a karşı gönderilen Necedat ordusunun kumandanlığına tayin edilen Atıyye kesin bir galibiyet elde ederek Abbâd’ı öldürdü; asayişi temin için aylarca burada kaldı. Ancak Uman dönüşü, Atıyye b. Esved ile Necde b. Âmir arasında bazı ihtilâflar çıktı. Meselâ Necde’nin kara ve deniz seferi yapan birliklere farklı tahsisat vermesi, bilgisizlikleri yüzünden bazı haramları işleyenlerin mâzur sayılacaklarını ileri sürmesi gibi hususlar, başlıca ihtilâf konularını teşkil ediyordu. Atıyye, Necde ile anlaşamayacağına kanaat getirince daha önce savaştığı Uman’a döndü. Fakat Uman’da şartlar değiştiği için fazla kalamadı ve deniz yoluyla Kirman’a geçti. Burada hâkimiyet kurarak kendi adına para bastırdı. Üzerine gönderilen Emevî kumandanı Mühelleb’in ordusu karşısında tutunamayıp önce Sicistan’a, daha sonra Sind’e kaçtıysa da Kandâbîl’de Mühelleb’in askerleri tarafından yakalanarak öldürüldü. Her ne kadar Necde b. Âmir’le ihtilâfa düştüğünde Kirman ile Sicistan’daki ikameti sırasında kendisine tâbi olanlar “Ataviyye” diye anılmışsa da Atıyye’nin Hâricîler içinde kendisine has görüşlere sahip olduğu tesbit edilememiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 63 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:atiyye-b-esved",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=atiyye-b-esved, https://islamansiklopedisi.org.tr/atiyye-b-esved",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:atiyye-b-esved",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/atiyye-b-esved",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:6837",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6837, heading_ar=عطية بن الأسود",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=atiyye-b-esved (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6837]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6837 (heading_ar=عطية بن الأسود) via Track A (DİA→Alam xref bridge). dt=Hâricîlerin âlim ve emîrlerinden."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 75,
+    "start_ce": 694,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=atiyye-b-esved, URL: https://islamansiklopedisi.org.tr/atiyye-b-esved || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6837] || DİA death-date string: (ö. 75/694) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6837, heading_ar=عطية بن الأسود, dt=Hâricîlerin âlim ve emîrlerinden."
+}

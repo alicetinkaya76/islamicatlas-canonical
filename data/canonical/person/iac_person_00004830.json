@@ -1,0 +1,137 @@
+{
+  "@id": "iac:person-00004830",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Keccî",
+      "ar": "الكجّي"
+    },
+    "originalScript": {
+      "ar": "الكجّي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Müslim İbrâhîm b. Abdillâh b. Müslim el-Keccî el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "192 (808) veya 200 (816) yılında doğdu. Babası, bilinmeyen bir yerden göç ederek Basra’ya yerleşti (İbnü’n-Nedîm, s. 338). Keccî (Keşşî) nisbesiyle anılması konusunda farklı açıklamalar vardır. Kelimenin bir yere nisbetle kullanıldığını düşünenlere göre Kec, İran’ın Hûzistan bölgesinde bulunan Zeyr Kec (Yâkūt, IV, 438) veya Cürcân’a 3 fersah uzaklıktaki Keş köyüdür (Kettânî, s. 34). Basra’da ev inşaatında kireç kullanımı sırasında çabuk donan bir malzemenin adını (kecc: Farsça kireç) sıkça söylediği için kendisine Keccî denildiği kaydedilmiş (Hatîb, VI, 121), üçüncü ceddinin adının Kec olduğu ve ona nisbetle böyle anıldığı da ileri sürülmüştür. Keccî Ebû Âsım en-Nebîl, Ali b. Medînî, Muhammed b. Abdullah el-Ensârî, Haccâc b. Minhâl el-Enmâtî ve Abdülmelik b. Kureyb el-Asmaî gibi âlimlerden hadis dinledi. Ahmed b. Selmân el-Bağdâdî, Ebü’l-Kāsım el-Begavî, Süleyman b. Ahmed et-Taberânî, Ebû Bekir Ahmed b. Ca‘fer el-Katîî kendisinden hadis rivayet edenler arasında yer aldı. Bir müddet Dımaşk’ta idarî görev yaptığı anlaşılan ( a.g.e. , VI, 122), Bağdat’ta kalabalık grupların hazır bulunduğu büyük imlâ meclislerinden söz edilen ve cömert kişiliğiyle tanınan Keccî 7 Muharrem 292 (19 Kasım 904) tarihinde Bağdat’ta vefat etti; cenazesi Basra’ya götürülerek orada defnedildi. Dârekutnî, Mûsâ b. Hârûn, Abdülganî b. Saîd gibi münekkitler Keccî’yi sadûk ve sika olarak değerlendirmiş, Zehebî kendisinden asrın şeyhi diye söz etmiş ve senedinde üç râvi bulunan (sülâsiyyetü’s-sened) hadisleri olduğunu belirtmiştir. Eserleri. 1. Kitâbü’s-Sünen . Mübârekfûrî eserin yazma bir nüshasının mevcudiyetinden söz etmektedir ( Muḳaddimetü Tuḥfeti’l-aḥveẕî , I, 335). 2. Cüzʾ fîhi ḥadîs̱ü Ebî Müslim İbrâhîm b. ʿAbdillâh el-Baṣrî . Dârü’l-kütübi’z-Zâhiriyye’de (nr. 4566, 16 varak) ve Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi’nde (İsmail Saib Sencer, nr. 2716/2, 17 varak) birer nüshası bulunan eser, çeşitli konularla ilgili 135 (İsmail Saib Sencer nüshasında 111) hadis ihtiva etmekte olup bu nüshalar esas alınarak Abdullah Kılıç tarafından Ebû Müslim el-Keccî ve Hadis Cüz’ü adıyla tahkik edilmiştir (bk. bibl.). Keccî’nin ayrıca Kitâbü’l-Müsned ve Nâsiḫu’l-Ḳurʾân ve mensûḫuh adlı eserlerinin bulunduğu kaynaklarda zikredilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2022 yılında Ankara’da basılan 25. cildinde, 164-165 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kecci",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kecci, https://islamansiklopedisi.org.tr/kecci",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:kecci",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=kecci",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:143",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=143, heading_ar=الكجي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:33Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kecci (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[143]. Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=kecci)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=143 (heading_ar=الكجي) via Track A (DİA→Alam xref bridge). dt=Hadis hâfızlarından"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Keccî; Basrî"
+  ],
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 200,
+    "start_ce": 816,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 292,
+    "start_ce": 904,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kecci, URL: https://islamansiklopedisi.org.tr/kecci || El-Aʿlām (Ziriklī) cross-reference: alam_id=[143] || DİA death place: Bağdat || DİA death-date string: (ö. 292/904) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=143, heading_ar=الكجي, dt=Hadis hâfızlarından",
+  "active_in_places": [
+    "iac:place-00001954"
+  ],
+  "teachers": [
+    "iac:person-00000935",
+    "iac:person-00001156",
+    "iac:person-00002136",
+    "iac:person-00005666",
+    "iac:person-00007148"
+  ],
+  "students": [
+    "iac:person-00000695",
+    "iac:person-00001157",
+    "iac:person-00001403",
+    "iac:person-00001915",
+    "iac:person-00004059",
+    "iac:person-00006037",
+    "iac:person-00006703",
+    "iac:person-00007222",
+    "iac:person-00008020"
+  ]
+}

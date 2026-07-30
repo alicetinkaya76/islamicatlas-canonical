@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00001187",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ATIYYE b. KAYS",
+      "ar": "عطيّة بن قيس"
+    },
+    "originalScript": {
+      "ar": "عطيّة بن قيس"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Yahyâ Atıyye b. Kays el-Kilâbî"
+      ]
+    },
+    "description": {
+      "tr": "Kelâî, Hımsî ve Dımaşkī nisbeleriyle de anılır. Hicretin 7. yılında doğdu. Übey b. Kâ‘b, Abdullah b. Amr, Abdullah b. Ömer, Nu‘mân b. Beşîr ve Muâviye b. Ebû Süfyân gibi sahâbîlerden hadis öğrendi. Kur’ân-ı Kerîm’i arz yoluyla Ümmü’d-Derdâ’ya okudu. Hemşerisi ve yaşça kendisinden küçük olan meşhur kıraat âlimi İbn Âmir’in vefatından sonra Dımaşk kāri i oldu. Kendisinden arz yoluyla kıraat okuyanlar arasında Saîd b. Abdülazîz ve Ali b. Ebû Hamele gibi muhaddis ve mukrî ler vardır. Güvenilir bir kıraat âlimi olması sebebiyle halk, ellerinde bulunan Kur’an nüshalarındaki muhtemel istinsah hatalarını düzeltmek üzere onun etrafında toplanırlar, bu nüshaların imlâsında onun kıraatini esas alırlardı. Ebû Hâtim’e göre rivayeti makbul sayılabilecek bir derecede idi. Oğlu Sa‘d Abdullah b. Alâ b. Zebr, Abdurrahman b. Yezîd b. Câbir gibi muhaddisler kendisinden rivayette bulunmuşlar, İmam Müslim ile dört Sünen’in sahipleri kitaplarında onun rivayetlerine yer vermişlerdir. Âbid, zâhid ve mücahid bir âlim olan ve ordunun Kur’an muallimi olarak da bilinen Atıyye, Ebû Eyyûb el-Ensârî ile birlikte İstanbul’un muhasarasına da katıldı. 114 yıl gibi uzun ve bereketli bir ömür sürdükten sonra 121’de (739) vefat etti. 110 (728) yılında vefat ettiği de ileri sürülmüştür. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 63 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:atiyye-b-kays",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=atiyye-b-kays, https://islamansiklopedisi.org.tr/atiyye-b-kays",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:atiyye-b-kays",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/atiyye-b-kays",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=atiyye-b-kays (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kilâbî"
+  ],
+  "death_temporal": {
+    "start_ah": 121,
+    "start_ce": 739,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=atiyye-b-kays, URL: https://islamansiklopedisi.org.tr/atiyye-b-kays || DİA death place: 121 || DİA death-date string: (ö. 121/739) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00007505"
+  ]
+}

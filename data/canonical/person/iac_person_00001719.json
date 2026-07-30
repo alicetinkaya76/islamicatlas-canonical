@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00001719",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CAUSSIN de PERCEVAL, Armand Pierre"
+    },
+    "description": {
+      "tr": "13 Ocak 1795’te Paris’te doğdu. Müsteşrik olan babası Jean Jacques Antoine Caussin de Perceval’in tesirinde kalarak Doğu dillerine yakın ilgi duydu. 1817’de Türkiye’ye geldi. Bir müddet sonra Lübnan’a gitti ve orada üç yıl kaldı. Arap ülkelerindeki Fransız sefâret ve konsolosluklarında tercüman olarak çalıştı. Dönüşünde Paris’teki École nationale des langues orientales vivantes’a halk Arapça’sı hocası tayin edildi (1822). 1833’te Collège de France’ta Arap dili ve edebiyatı profesörü olarak görev aldı. 15 Ocak 1871’de Paris’te öldü. Eserleri. 1. Grammaire Arabe vulgaire . Cezayir, Mısır ve Suriye’de konuşulan Arapça’nın grameri hakkındaki bu eser 1824’te Paris’te yayımlanmış, daha sonra çeşitli baskıları yapılmıştır. 2. Dictionnaire Français-Arabe . Ellious Bocthor’un aynı adı taşıyan Fransızca-Arapça sözlüğünü gözden geçirerek ve bazı ilâvelerle iki cilt halinde yeniden yayımlamıştır (Paris 1828-1829). 3. Essai sur l’histoire des Arabes avant l’islamisme, pendant l’époque de Mahomet et Jusqu’à la réduction de toutes les tribus sous la loi musulmane . Klasik İslâm tarihi kaynaklarından faydalanarak İslâm öncesi Arap tarihini, hicretten itibaren kronolojik bir sırayla Asr-ı saâdet’i, Arap kabilelerinin İslâm hâkimiyeti altına alınmasını, Hz. Ebû Bekir ve 18 (639) yılına kadar Hz. Ömer devirlerini anlattığı bu eser Caussin de Perceval’in en önemli eseridir. Bu sahada yazılmış kitaplar arasında seçkin bir yeri olan Essai sur l’histoire des Arabes... Paris’te üç cilt halinde neşredilmiştir (1847-1849). Caussin’in önemli makalelerinden bazıları da şunlardır: “Mémoire sur le calendrier arabe avant l’Islamisme”, JA , seri IV, I (1843), s. 342-379; “Notice sur les trois poètes arabes, Akhtal, Farazdak et Djerir”, JA , seri II, XIII (1844), s. 507-552. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 170 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:caussin-de-perceval-armand-pierre",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=caussin-de-perceval-armand-pierre, https://islamansiklopedisi.org.tr/caussin-de-perceval-armand-pierre",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:caussin-de-perceval-armand-pierre",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=caussin-de-perceval-armand-pierre",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=caussin-de-perceval-armand-pierre (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=caussin-de-perceval-armand-pierre)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1871,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=caussin-de-perceval-armand-pierre, URL: https://islamansiklopedisi.org.tr/caussin-de-perceval-armand-pierre || DİA birth place: Paris || DİA death-date string: (ö. 1871) || Chunk count: 1",
+  "students": [
+    "iac:person-00001827",
+    "iac:person-00001968",
+    "iac:person-00002075",
+    "iac:person-00003472"
+  ]
+}

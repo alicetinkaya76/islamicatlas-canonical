@@ -1,0 +1,87 @@
+{
+  "@id": "iac:person-00000816",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED MÂHİR EFENDİ, Ballıklızâde"
+    },
+    "description": {
+      "tr": "Babası Seyyid Hâfız Mehmed Said, dedesi Hâfız Mehmed Nûreddin’dir. Bağlı bulunduğu aile aslen Kastamonulu olup Ballıklıefendizâde lakabıyla tanınmıştır. Ahmed Mâhir şeyh ve âlim Ahmed Hicâbî’den icâzet aldı (1300/1882-83). Kendisi de ders okutarak birçok talebeye icâzet verdi. 1901’de İstanbul’a gitti. Abdurrahman Paşa’nın himayesinde istînaf mahkemesi üyeliği ve çeşitli yerlerde hâkimlik yaptı. Bir süre Şûrâ-yı Evkaf başkanlığında bulundu. 1908’den itibaren siyasî hayata geçerek Meclis-i Meb‘ûsan’da yedi yıl, Büyük Millet Meclisi ikinci devresinde de iki yıl milletvekilliği yaptı. Meclis-i Meb‘ûsan’da bulunduğu sırada geçici reislik ve birinci reis vekilliği gibi görevlerde bulundu. Emekli olduktan sonra şehremaneti müşavirliğine tayin edildi. Dârülfünun İlâhiyat Fakültesi’nde ve Medresetü’l-vâizîn’de on üç yıl tefsir ve kelâm okuttu. İstanbul pâyesini, ikinci rütbe Mecîdî ve üçüncü rütbe Osmânî nişanlarını aldı. Ayrıca Sultan Reşad tarafından kıymetli bir kürk, ferace , çok değerli bir tesbih ve iki adet saatle ödüllendirildi. Görevli olarak Medîne-i Münevvere’ye ve Rumeli’ye seyahatler yaptı. 4 Eylül 1925’te Kastamonu’da vefat etti. Eserleri. 1. el-Muhkem fî şerhi’l-Hikem . En hacimli eseri olup İbn Atâullah el-İskenderî’ye ait el-Ḥikemü’l-ʿAṭâʾiyye ’nin şerhidir. Asıl eserde bulunan 321 hikmet , Arapça asılları ve tercümeleri verildikten sonra oldukça geniş bir şekilde açıklanmıştır. Bu açıklamalar tasavvufî, dinî remizler ve tabirler bakımından çok zengindir. Eser iki cilt halinde basılmıştır (İstanbul 1323, 628 sayfa). 2. Hutbe Mecmuası . Türkçe bir mukaddimeden sonra yetmiş iki Arapça hutbeden meydana gelen eserin (İstanbul 1316, 87 sayfa) bir yazma nüshası Millî Kütüphane’dedir (06 Mil A, nr. 4987, 48 varak). 3. el-Fâtiha fî tefsîri’l-Fâtiha . Müellifin tefsir dersi notlarından ibaret olup basılmıştır (İstanbul 1331, 69 sayfa). 4. Mu‘cizât-ı Kur’âniyye . Kitabın birinci kısmı, yazarın 1324-1325 (1908-1909) yıllarında gazetelerde yayımlanmış makalelerinden meydana gelmiş olup basılmıştır (İstanbul 1328, 280 sayfa). Aziz Demircioğlu’nun özel kütüphanesinde bulunan müellif hattıyla 278 sayfa olan ikinci kısmı ise henüz basılmamıştır. 5. Hâtırat . Günlük hâtıralarını yazdığı doksan üç yapraklık bir eser olup torunu Ali Binkaya’nın özel kütüphanesinde mevcuttur. Ahmed Mâhir Efendi kendi döneminde üslûbunun güzelliği ve hitabetteki üstün başarısıyla dikkati çekmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 98 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-mahir-efendi-balliklizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-mahir-efendi-balliklizade, https://islamansiklopedisi.org.tr/ahmed-mahir-efendi-balliklizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ahmed-mahir-efendi-balliklizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ahmed-mahir-efendi-balliklizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:01Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-mahir-efendi-balliklizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ahmed-mahir-efendi-balliklizade)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1860,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ahmed-mahir-efendi-balliklizade, URL: https://islamansiklopedisi.org.tr/ahmed-mahir-efendi-balliklizade || DİA death place: Kastamonu || DİA death-date string: (1860-1925) || DİA categories: tefsir > kelâm > tasavvuf || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00019837"
+  ],
+  "students": [
+    "iac:person-00000795"
+  ]
+}

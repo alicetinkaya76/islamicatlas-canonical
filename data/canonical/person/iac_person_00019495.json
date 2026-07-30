@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00019495",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Nāṣir b. Abī Nabhān",
+      "tr": "Nasır b. Ebû Nebhân",
+      "ar": "ناصر بن أبي نبهان"
+    },
+    "originalScript": {
+      "ar": "ناصر بن أبي نبهان"
+    },
+    "description": {
+      "tr": "Dahî, Diyâr-ı Umâniyye'de ilim şeyhlerinden",
+      "en": "Man of cunning, one of the shaykhs of knowledge in the lands of ʿOmān"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "al-Nāṣir b. Abī Nabhān"
+    },
+    "altLabel": {
+      "tr": [],
+      "ar": []
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:12665",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=12665",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:33Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=12665 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill translit from alam_detail.json el-alam:12665."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1263,
+    "start_ce": 1847,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=12665, heading_ar=ناصر بن أبي نبهان || Ziriklī century_ce=19",
+  "authored_works": [
+    "iac:work-00002621",
+    "iac:work-00004533"
+  ]
+}

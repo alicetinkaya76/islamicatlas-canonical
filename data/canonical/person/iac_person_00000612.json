@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00000612",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜLVEHHÂB b. ATÂ el-HAFFÂF",
+      "ar": "عبد الوهّاب بن عطاء الخفّاف"
+    },
+    "originalScript": {
+      "ar": "عبد الوهّاب بن عطاء الخفّاف"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Nasr Abdülvehhâb b. Atâ el-Haffâf el-Basrî Rivayetleri Buhârî dışında Kütüb-i Sitte ’de yer alan bir muhaddis."
+      ]
+    },
+    "description": {
+      "tr": "Benî İcl’in mevlâ sı olduğu için el-İclî diye de anılır. Hayatı hakkında fazla bilgi bulunmadığı gibi, “ayakkabıcı (kavaf)” anlamına gelen Haffâf lakabını hangi sebeple aldığı da bilinmemektedir. Büyük muhaddis Saîd b. Ebû Arûbe’nin hadislerini en iyi bildiği, derslerine yıllarca devam ettiği ve onun kitaplarını yazıp bunları hocasının huzurunda talebelerine okuduğu için, ondan hadis rivayet etmesiyle tanındı. Ayrıca Humeyd et-Tavîl, İbn Avn, İbn Cüreyc, Mâlik b. Enes ve Ebû Amr b. Alâ gibi muhaddislerden hadis öğrendi. Hem muhaddis hem de yedi kıraat imamından biri olan Ebû Amr b. Alâ’dan hadislerini ve kıraat tarikini rivayet etti. Kendisinden de Ahmed b. Hanbel, Yahyâ b. Maîn, İshak b. Râhûye gibi muhaddisler rivayette bulundular. Memleketi olan Basra’dan Bağdat’a gidip yerleşti ve orada hadis rivayetine başladı. Yahyâ b. Maîn ve Dârekutnî gibi muhaddisler onun güvenilir bir râvi olduğunu belirtmekte, kendisini yakından tanıyan Yahyâ b. Saîd el-Kattân da hakkında müsbet düşünmektedir. Ancak Buhârî ve Nesâî “kuvvetli değildir” demekte, Ahmed b. Hanbel onu zayıf bulmakta, Ebû Hâtim ise hadislerinin i‘tibar için yazılabileceğini söylemektedir. Kuvvetli olmadığını söyleyen Nesâî, rivayetlerini es-Sünen ’ine almakta bir beis görmemiştir. İbn Sa‘d’ın sadûk dediği, hadislerini Zehebî’nin hasen olarak değerlendirdiği Abdülvehhâb son derece duygulu bir zâhid idi. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 285 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulvehhab-b-ata-el-haffaf",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulvehhab-b-ata-el-haffaf, https://islamansiklopedisi.org.tr/abdulvehhab-b-ata-el-haffaf",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulvehhab-b-ata-el-haffaf (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Basrî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 204,
+    "start_ce": 819,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdulvehhab-b-ata-el-haffaf, URL: https://islamansiklopedisi.org.tr/abdulvehhab-b-ata-el-haffaf || DİA death-date string: (ö. 204/819-20) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002131",
+    "iac:person-00003506",
+    "iac:person-00003674",
+    "iac:person-00003721",
+    "iac:person-00003734",
+    "iac:person-00005206"
+  ],
+  "students": [
+    "iac:person-00000753",
+    "iac:person-00003986",
+    "iac:person-00007652"
+  ]
+}

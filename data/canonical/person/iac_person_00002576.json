@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00002576",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EŞ‘ARÎ, Ahmed b. Muhammed",
+      "ar": "أحمد بن محمد الأشعري"
+    },
+    "originalScript": {
+      "ar": "أحمد بن محمد الأشعري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Abbâs Ahmed b. Muhammed b. Meymûn el-Mâlekī el-Eş‘arî"
+      ]
+    },
+    "description": {
+      "tr": "İbnü’s-Sükkân diye de bilinir. Doğum yeri olan Endülüs’teki Mâlik şehrinden on iki yaşında iken ayrılıp babası ile birlikte Tunus’a göç etti. Burada devrin tanınmış âlimlerinden fıkıh, hadis ve Arap edebiyatı dersleri aldı. Tahsilini tamamladıktan sonra daha çok hadis rivayetiyle ve eser telifiyle meşgul oldu, birçok talebe yetiştirdi. Rivayet ettiği hadislerden hükümler çıkarır ve bunları bizzat yaşamaya çalışırdı. Geniş kitap bilgisi yanında âlimleri el yazılarından tanıma kabiliyetine de sahipti. er-Risâletü’l-Maġribiyye adlı seyahatnâmesiyle meşhur olan Ebû Muhammed el-Abderî onunla 689 (1290) yılında hac dönüşü görüştüğünü söylemekte, Eş‘arî’nin sade yaşayışı, güzel ahlâkı ve ibadete düşkünlüğünden söz etmektedir. Seyyah İbn Rüşeyd’in de görüştüğü Eş‘arî’nin 690 (1291) yılından sonraki hayatı hakkında bilgi bulunmadığı gibi hangi tarihte vefat ettiği de bilinmemektedir. Eserleri. Eş‘arî’nin kaynaklarda zikredilen eserleri şunlardır: 1. Ḫulâṣatü’ṣ-ṣafâ min ḫaṣâʾiṣi’l-Muṣṭafâ . 320 küsur beyitten meydana gelen eserde Hz. Peygamber’in bütün mûcizelerinin bir araya getirilmesi amaçlanmıştır. 2. İkmâlü Meydâni’s-sâbıḳīn ve ḥilyetü’ṣ-ṣâdıḳīne’l-muṣaddıḳīn fî ẕikri’ṣ-ṣaḥâbeti’l-ekremîn . Ebü’r-Rebî‘ el-Kelâî’nin, sahâbîlerin ve Asr-ı saâdet’te yaşayan büyük tâbiîlerin hal tercümelerini konu alan yarım kalmış eserini tamamlayan bir çalışmadır. 3. İkmâlü Teẕyîli (Ẕeyli) Ebî Bekr b. Fetḥûn ʿale’l-İstîʿâb . İbn Abdülber en-Nemerî’nin el-İstîʿâb ’ına Ebû Bekir b. Fethûn tarafından yapılan zeyli ikmal etmek üzere yazdığı bu eserin Abderî ile görüştüğü 689 (1290) yılında henüz tamamlanmadığı bilinmektedir. Şiirleriyle de tanınan Eş‘arî’nin kaynaklarda bunlardan başka, hocası fakih Muhammed b. Hasan b. Hubeyş’in hocalarını anlattığı ve kitaplarını bir araya getirdiği Bernâmec adlı eseriyle el-Iṭṭılâʿ ʿalâ mâ yelzemü fî refʿi’l-eydî fi’ṣ-ṣalâti minel-ittibâʿ adlı kitabı zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 443 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:esari-ahmed-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=esari-ahmed-b-muhammed, https://islamansiklopedisi.org.tr/esari-ahmed-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:esari-ahmed-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=esari-ahmed-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:02Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=esari-ahmed-b-muhammed (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=esari-ahmed-b-muhammed)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 690,
+    "start_ce": 1291,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=esari-ahmed-b-muhammed, URL: https://islamansiklopedisi.org.tr/esari-ahmed-b-muhammed || DİA death-date string: (ö. 690/1291’den sonra) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00013766"
+  ]
+}

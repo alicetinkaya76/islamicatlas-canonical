@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00000387",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABBAS b. HÜSEYİN eş-ŞÎRÂZÎ",
+      "ar": "عبّاس بن حسين الشيرازي"
+    },
+    "originalScript": {
+      "ar": "عبّاس بن حسين الشيرازي"
+    },
+    "description": {
+      "tr": "303’te (915) Şîraz’da doğdu. Daha sonra Bağdat’a giderek Muizzüddevle’nin kâtibi oldu. 963’te Dîvân-ı Nafakāt’ın başkanı Mühellebî’nin ölümü üzerine, Muizzüddevle tarafından İbn Fesânces ( ابن فسانجس ) ile birlikte hükümette görevlendirildi. Bu arada Mühellebî’nin kızı ile evlendi. 967’de Muizzüddevle’nin ölümünden sonra, onun oğlu ve halefi İzzüddevle Bahtiyâr tarafından vezirlik sıfatıyla görevinde bırakıldıysa da rakibi İbn Fesânces’in entrikaları üzerine 970’te azledildi. Fakat ertesi yıl tekrar vezir oldu ve İbn Fesânces’i saf dışı bıraktı. Askere vermek üzere halktan zorla para toplaması, özellikle Bahtiyâr’ın sofracıbaşısı İbn Bakıyye’nin düşmanlığını üzerine çekti. 973’te onun çevirdiği bir entrika sonunda tutuklandı ve yerine İbn Bakıyye getirildi. Kısa bir süre sonra da Kûfe’de muhtemelen zehirlenerek öldürüldü. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 26 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbas-b-huseyin-es-sirazi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbas-b-huseyin-es-sirazi, https://islamansiklopedisi.org.tr/abbas-b-huseyin-es-sirazi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abbas-b-huseyin-es-sirazi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abbas-b-huseyin-es-sirazi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbas-b-huseyin-es-sirazi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 362,
+    "start_ce": 973,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbas-b-huseyin-es-sirazi, URL: https://islamansiklopedisi.org.tr/abbas-b-huseyin-es-sirazi || DİA birth place: Şîraz || DİA death-date string: (ö. 362/973) || Chunk count: 1"
+}

@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00001723",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CEBBÂR b. SAHR",
+      "ar": "جبار بن صخر"
+    },
+    "originalScript": {
+      "ar": "جبار بن صخر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Cebbâr b. Sahr b. Ümeyye el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "Medineli olup Hazrec kabilesinin Benî Selime kolundandır. Hz. Peygamber’e biat eden hanımlardan biri olan annesi Suâd bint Seleme de aynı kabiledendir. Hicretten yaklaşık otuz iki yıl önce doğdu. Ne zaman müslüman olduğu bilinmemektedir. Birinci ve İkinci Akabe biatlarında bulundu. Hicretten sonra Hz. Peygamber onunla Mikdâd b. Amr arasında kardeşlik bağı (muâhât) kurdu. Bedir ve Uhud savaşlarına katıldı. Diğer bütün gazvelerde de Hz. Peygamber’in yanında yer aldı. Hayber’in fethedilmesi üzerine (7/628) Hz. Peygamber tarafından Zeyd b. Sâbit’le birlikte ganimet mallarının tesbitiyle görevlendirildi. Hayber’de kalan yahudilerin ödeyeceği vergileri tahmin etmekle görevli olan (hâris) Abdullah b. Revâha Mûte Savaşı’nda şehid düşünce Hz. Peygamber tarafından bu göreve tayin edildi. Cebbâr hasat zamanı Hayber’e gider, üzüm ve hurma gibi mahsulü ağaç üzerinde tahmin eder, hasattan sonra yarıya bölerek yahudilere hakkını verir, kalan kısmı beytülmâl adına teslim alırdı. Birkaç yıl bu görevi yaptı. Bir ara Hz. Peygamber onu su kuyularının düzeltilmesi işiyle görevlendirdi. Hz. Ömer zamanında da Medine’de vergi tahmin memurluğunu yürüttü. Bunun yanı sıra pazar kolculuğu (hisbe) görevinde bulundu. Hz. Ömer’in yahudileri Hayber’den çıkardıktan sonra paylaştırdığı Vâdilkurâ arazisinden Cebbâr’a da bir hisse düştü. Hz. Osman’ın halifeliği döneminde Medine’de vefat eden Cebbâr’ın Hz. Peygamber’den rivayet ettiği bir hadis Ahmed b. Hanbel’in el-Müsned ’indedir (III, 421). Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 182 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cebbar-b-sahr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cebbar-b-sahr, https://islamansiklopedisi.org.tr/cebbar-b-sahr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-05-04T15:33:47Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cebbar-b-sahr (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 30,
+    "start_ce": 650,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cebbar-b-sahr, URL: https://islamansiklopedisi.org.tr/cebbar-b-sahr || DİA death-date string: (ö. 30/650-51) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

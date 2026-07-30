@@ -1,0 +1,110 @@
+{
+  "@id": "iac:person-00002077",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Duhaym",
+      "ar": "دحيم"
+    },
+    "originalScript": {
+      "ar": "دحيم"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Saîd Abdurrahmân b. İbrâhîm b. Amr Duhaym el-Kureşî ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "170 yılı Şevval ayında (Nisan 787) doğdu. “Kötü” anlamına gelen Duhaym lakabını hangi sebeple aldığı bilinmemekle beraber bu lakaptan hoşlanmadığı zikredilmektedir. Osman b. Affân’ın âzatlısı Yetîm’e nisbetle kendisine “Duhaymü İbni’l-Yetîm” dendiği de söylenmektedir. Mısır, Hicaz, Bağdat, Kûfe ve Basra gibi ilim merkezlerine seyahatler yaparak hadis, fıkıh, kıraat ve nesep ilimlerini tahsil etti. Süfyân b. Uyeyne, Velîd b. Müslim, Ebû Müshir gibi hocalardan faydalandı. Velîd b. Müslim’den hadis yanında kıraat de öğrendi. Abdullah b. Muhammed b. Hâşim ez-Za‘ferânî bu kıraati ondan arz yoluyla alarak rivayet etti. Kendisinden de Buhârî, Müslim, Ebû Dâvûd, Nesâî, İbn Mâce, Zühlî, Bakī b. Mahled, Ebû Hâtim er-Râzî ve Ebû Zür‘a er-Râzî gibi meşhur muhaddisler rivayette bulundular. Ahmed b. Hanbel, Ebû Dâvûd, Ebû Hâtim, Nesâî, İbn Hibbân, Dârekutnî ve diğer cerh ve ta‘dîl âlimleri onun sika bir râvi olduğunu kabul ederler. Kendisi de Şamlı râvilerin cerh ve ta‘dîlinde otorite kabul edilmiştir. Kırk iki yaşında Bağdat’a gittiğinde, yaşça ondan büyük olmalarına rağmen Ahmed b. Hanbel ve Yahyâ b. Maîn gibi âlimler Duhaym’e büyük itibar gösterdiler. Burada kendisiyle hadis müzakere eden bazı kimseler, hadislerde geçen (meselâ bk. Buhârî, “Ṣalât”, 63; Müslim, “Fiten”, 70) “fie-i bâğiye”nin Dımaşk halkı olduğunu söylediler. Duhaym bir Emevî taraftarı olması sebebiyle onlara, “Bunu söyleyen fahişe çocuğudur” diye hakaret etti. Bunun üzerine Bağdatlılar kendisinden bir müddet hadis okumadılar; fakat daha sonra yine rivayete devam ettiler. Duhaym’in rivayet ettiği hadisler Ṣaḥîḥ-i Buḫârî ile Ebû Dâvûd, Nesâî ve İbn Mâce’nin sünenlerinde yer almıştır. Fıkıhta Evzâî’nin görüşlerini benimseyen Duhaym, Ürdün ve Filistin’de Taberiye ve Remle şehirlerinde uzun süre kadılık yaptı. Bu görevde iken Halife Mütevekkil-Alellah onu Mısır’a kādılkudât olarak tayin etti. Fakat halifenin mektubu kendisine geldiğinde Mısır’a hareket edemeden 17 Ramazan 245’te (16 Aralık 859) Filistin’in Remle şehrinde vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 549 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator",
+    "judge"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:duhaym",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=duhaym, https://islamansiklopedisi.org.tr/duhaym",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:duhaym",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/duhaym",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:53Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=duhaym (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 245,
+    "start_ce": 859,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=duhaym, URL: https://islamansiklopedisi.org.tr/duhaym || DİA death place: 245 || DİA death-date string: (ö. 245/859) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002227",
+    "iac:person-00007121",
+    "iac:person-00007587"
+  ],
+  "students": [
+    "iac:person-00001307",
+    "iac:person-00001599",
+    "iac:person-00002179",
+    "iac:person-00002313",
+    "iac:person-00003920",
+    "iac:person-00004067",
+    "iac:person-00004139",
+    "iac:person-00005861",
+    "iac:person-00006074",
+    "iac:person-00007896"
+  ]
+}

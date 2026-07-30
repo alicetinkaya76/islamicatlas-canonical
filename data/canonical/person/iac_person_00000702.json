@@ -1,0 +1,117 @@
+{
+  "@id": "iac:person-00000702",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ADEVÎ, Ali b. Ahmed",
+      "ar": "علي بن أحمد العدوي"
+    },
+    "originalScript": {
+      "ar": "علي بن أحمد العدوي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Ahmed b. Mükremillâh (Mükerrem) es-Saîdî el-Adevî"
+      ]
+    },
+    "description": {
+      "tr": "Mısır’ın Saîd bölgesinde Menfelût yakınlarındaki Benî Adî’de doğdu (1112/1700). Daha sonra Kahire’ye giderek Muhammed el-Büleydî, Abdullah el-Mağribî, İbrâhim el-Feyyûmî, Sâlim en-Nefrâvî, Şelebî ve Hifnî gibi âlimlerin derslerine katıldı. Mâlikî fıkhında büyük bir otorite olarak halk ve yöneticilerin sevgi ve saygısını kazanan Adevî, başta Ezher olmak üzere Kahire’deki birçok medresede ders verdi. Aralarında Derdîr , Muhammed b. Ahmed ed-Desûkī , Kal‘î, Bennânî gibi âlimlerin de bulunduğu pek çok talebe yetiştirdi. Şeyh Ali b. Muhammed eş-Şinnâvî vasıtasıyla Ahmediyye tarikatına intisap etti. 10 Receb 1189’da (6 Eylül 1775) Kahire’de vefat etti. Zamanında Mâlikî fukahasının en önde gelenlerinden olan Adevî, Mâlikî fıkhına dair eserlerin şerhlerine hâşiyeler yazan ilk müellif olarak da bilinir. Eserleri. Eserlerinin hemen hepsi hâşiye tarzında olup başlıcaları şunlardır: 1. Haraşî’nin, Halîl b. İshak’ın Muḫtaṣar ’ına yaptığı şerhin hâşiyesi (Bulak 1299, 1317, 1319; şerhin kenarında, I-VIII). 2. Zürkānî’nin Ali el-Menûfî’ye ait el-ʿİzziyye (el-Muḳaddimetü’l-ʿİzziyye) adlı esere yaptığı şerhin hâşiyesi (Bulak 1298; Kahire 1229, 1304). 3. İbn Ebû Zeyd el-Kayrevânî’nin Risâle ’sine Ali el-Menûfî’nin Kifâyetü’ṭ-ṭâlibi’r-rabbânî adıyla yaptığı şerhin hâşiyesi (I-II, Bulak 1288; Kahire 1300, 1310). Bu üç eser Mâlikî fıkhına dairdir. 4. ed-Dürretü’l-ferîde ʿale’l-kelimâti’t-tevḥîdiyye . el-Emîrü’l-Kebîr Muhammed es-Sünbâvî’nin Maṭlaʿu’n-neyyireyn fîmâ yeteʿallaḳu bi’l-ḳudreteyn adlı eseriyle birlikte basılmıştır (Kahire 1896). Bu eserlerden başka, Irâkī’nin hadis ıstılahlarına dair el-Elfiyye adlı eserine Şeyhülislâm Zekeriyyâ el-Ensârî’nin, Abdurrahman el-Ahdarî’nin mantıka dair es-Süllemü’l-mürevnaḳ adlı eserine Ahmed el-Mollâvî’nin, İbrâhim el-Lekānî’nin Cevheretü’t-tevḥîd adlı eserine oğlu Abdüsselâm el-Lekānî’nin yaptığı şerhlere hâşiyeler yazmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 373 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:adevi-ali-b-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=adevi-ali-b-ahmed, https://islamansiklopedisi.org.tr/adevi-ali-b-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:adevi-ali-b-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=adevi-ali-b-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=adevi-ali-b-ahmed (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=adevi-ali-b-ahmed)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Saîdî; Adevî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 1189,
+    "start_ce": 1775,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=adevi-ali-b-ahmed, URL: https://islamansiklopedisi.org.tr/adevi-ali-b-ahmed || DİA birth place: Adî || DİA death place: Kahire || DİA death-date string: (ö. 1189/1775) || DİA categories: hadis > mantık > tarikat || Chunk count: 1",
+  "death_place": "iac:place-00009399",
+  "active_in_places": [
+    "iac:place-00009399"
+  ],
+  "teachers": [
+    "iac:person-00003403"
+  ],
+  "students": [
+    "iac:person-00001987",
+    "iac:person-00002018",
+    "iac:person-00002436",
+    "iac:person-00005190"
+  ]
+}

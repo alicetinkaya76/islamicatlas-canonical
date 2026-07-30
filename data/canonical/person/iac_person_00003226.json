@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003226",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HASAN AĞA, Benli"
+    },
+    "description": {
+      "tr": "1016 (1607) yılında Edirne’de doğdu. Daha sonra ailesiyle birlikte İstanbul’a gitti. On sekiz yaşında Enderun’a alınıncaya kadar babasının helvacı dükkânında çalıştı. Sarayda, o sıralarda çocuk yaşta olan IV. Murad’dan gördüğü yakın ilgi onun padişahlığı döneminde de devam etti ve bir müddet sonra musâhib-i şehriyârîler arasına girdi. IV. Murad’ın vefatı üzerine (1640) saraydan ayrıldı. Bundan sonraki hayatı hakkında bilgi bulunmayan Hasan Ağa İstanbul’da vefat etti. Hasan Ağa, sesinin güzelliği sayesinde ve bestelediği eserlerle devrinin önde gelen mûsikişinasları arasında yer almıştır. Babasından tambura çalmayı öğrenerek mûsikiye başladığı kaydedilmektedir. Enderun’a girdikten sonra tambur çalmasını da öğrenen Hasan Ağa tambur üstadı olarak şöhret oldu. Nitekim IV. Murad’ın kendisinden sık sık tambura ve Rumeli türküleri dinlediği, ayrıca sarayda yapılan fasıllara sazı ve sesiyle katıldığı bilinmektedir. Ancak mûsikideki asıl şöhretini bestelediği saz eserlerinde ortaya koyduğu başarı ile kazanmıştır. Zamanımıza ulaşan on üç peşrev ve saz semâisinin arasında bilhassa iki rast peşrevi ve aynı makamdaki saz semâisi ile pençgâh peşrevi Türk mûsikisi repertuvarının en seçkin eserlerindendir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 285 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-aga-benli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-aga-benli, https://islamansiklopedisi.org.tr/hasan-aga-benli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hasan-aga-benli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hasan-aga-benli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-aga-benli (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1016,
+    "start_ce": 1607,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1073,
+    "start_ce": 1662,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-aga-benli, URL: https://islamansiklopedisi.org.tr/hasan-aga-benli || DİA birth place: Edirne || DİA death place: İstanbul || DİA death-date string: (ö. 1073/1662) || Chunk count: 1",
+  "death_place": "iac:place-00000735"
+}

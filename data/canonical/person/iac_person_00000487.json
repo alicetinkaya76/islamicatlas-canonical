@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00000487",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. ALİ el-VEZÎR",
+      "ar": "عبد الله بن علي الوزير"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن علي الوزير"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdullāh b. Alî b. Ahmed es-San‘ânî"
+      ]
+    },
+    "description": {
+      "tr": "el-Vezîr veya İbnü’l-Vezîr diye de tanınmıştır. Hz. Hasan’ın soyundandır. 1074’te (1663) San‘a’da doğdu. Ali b. Yahyâ el-Birtî, Hüseyin b. Muhammed el-Mağribî ve Muhammed b. İbrâhim es-Sehûlî gibi devrin önde gelen âlimlerinden ders aldı. Özellikle tefsir, tarih, edebiyat ve şiirde geniş bilgi sahibiydi. Başta tanınmış âlim el-Emîru’s-San‘ânî Muhammed b. İsmâil olmak üzere birçok talebe yetiştiren Abdullah b. Ali’nin San‘a’da derslerini takip edenler arasında Halife Kāsım b. Hüseyin de bulunmaktaydı. Ömrünün sonlarına doğru ders vermeyi bırakıp inzivaya çekildi ve San‘a’da vefat etti. Yazmaları bulunan eserleri şunlardır: 1. Ṭabaḳu’l-ḥalvâ ve ṣıhâfü’l-men ve’s-selvâ . 1046-1090 (1636-1679) yılları arasındaki olayları içine alan eserin bazı kısımları Abdullah Muhammed el-Habeşî tarafından el-Burtuġāliyyûn ʿalâ sâḥili’l-Baḥri’l-aḥmer başlığı ile yayımlandı ( el-ʿArab , IX/1-2 [1974], s. 18-37). Eserin tenkitli tam neşri Muhammed Abdürrahîm Câzim tarafından yapılmıştır ( Târîḫu’l-Yemen ḫilâle’l-ḳarni’l-ḥâdî ʿaşer el-hicrî [Ṭabaḳu’l-ḥalvâ...] Beyrut 1405/1985). 2. er-Ravżü’l-bâsimü’n-naḍîr . Tarihçi Muhammed Zebâre tarafından Neşrü’l-ʿarf (I-II, Kahire 1376) adlı eserinin içinde neşredilmiştir (II, 117-134). 3. Akrâtü’ẕ-ẕeheb fi’l-müfâḫare beyne’r-Ravża ve Biʾri’l-ʿAzeb . Bu eser de Abdullah Muhammed el-Habeşî tarafından neşredilmiştir ( Mecelletü Dirâsâtin Yemeniyye , I, 1978). 4. Câmiʿu’l-mütûn fî aḫbâri’l-Yemeni’l-meymûn . Yahyâ b. Hüseyin es-San‘ânî’nin Enbâʾü’z-zemen fî aḫbâri’l-Yemen adlı eserinden kısaltılarak telif edilmiştir. 5. Neşrü’l-ʿabîr . Hocası Ali b. Yahyâ el-Birtî’nin biyografisine dair eseri. 6. Cevârişü’l-efrâḥ ve ḳūtü’l-ervâḥ . Şiirlerini topladığı divanı. 7. İrsâlü’ẕ-ẕüʾâbe ʿalâ mesʾeleti’ṣ-ṣaḥâbe . Salâh el-Ahfeş’in risâlesine reddiye. 8. en-Nuġbe li-ḫidmeti şerḥi’n-Nuḫbe (hadis). 9. ed-Dürrü’l-munaẓẓam li-şavti’l-ḳalem (edebiyat). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 83 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-ali-el-vezir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-ali-el-vezir, https://islamansiklopedisi.org.tr/abdullah-b-ali-el-vezir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-ali-el-vezir (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1147,
+    "start_ce": 1735,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-ali-el-vezir, URL: https://islamansiklopedisi.org.tr/abdullah-b-ali-el-vezir || DİA birth place: San'a || DİA death place: San'a || DİA death-date string: (ö. 1147/1735) || DİA categories: hadis > tefsir || Chunk count: 1",
+  "students": [
+    "iac:person-00002495"
+  ]
+}

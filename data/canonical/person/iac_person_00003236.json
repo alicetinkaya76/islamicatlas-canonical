@@ -1,0 +1,104 @@
+{
+  "@id": "iac:person-00003236",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HASAN b. ZEYD",
+      "ar": "الحسن بن زيد"
+    },
+    "originalScript": {
+      "ar": "الحسن بن زيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed el-Hasen b. Zeyd b. el-Hasen b. Alî b. Ebî Tâlib el-Kureşî el-Hâşimî"
+      ],
+      "ar": [
+        "عيسى بن زيد"
+      ]
+    },
+    "description": {
+      "tr": "Muhtemelen 83 (702) yılında Medine’de doğdu. Ali evlâdı içindeki ilk Abbâsî taraftarı olarak bilinir. Devrinde Hâşimoğulları’nın saygı duyulan isimlerinin başında yer alıyordu. Fazileti, dürüstlüğü ve dindarlığı sayesinde Abbâsî halifeleriyle iyi münasebetler içinde olmuştur. Kızı Ümmü Külsûm, ilk Abbâsî halifesi Ebü’l-Abbas es-Seffâh ile, diğer kızı Nefîse es-Seyyide, Ca‘fer es-Sâdık’ın oğlu İshak el-Mü’temin ile evlendi. İkinci Abbâsî halifesi Ebû Ca‘fer el-Mansûr, Hasan b. Zeyd’i 149 Ramazanında (Ekim 766) Medine’ye vali tayin etti (Halîfe b. Hayyât, et-Târîḫ , s. 435). Ancak halife 155’te (772), muhtemelen, o sıralarda Medine’de zekât memuru olarak görevlendirilen hadis hâfızı Füleyh b. Süleyman’ın kışkırtması sebebiyle onu görevden aldı ve hapsettirip mallarına el koydurdu. Yerine Abdüssamed b. Ali b. Abdullah b. Abbas’ı tayin etti. Mansur’un veliahdı olan oğlu Muhammed el-Mehdî ise valiye gizlice mektup göndererek ona iyi davranılmasını istedi. Ancak halifenin ölümüne kadar hapsedilen Hasan b. Zeyd, Mehdî-Billâh tarafından hapisten çıkarıldı; malları ve itibarı iade edildi. Hatta Mehdî-Billâh, yanından hiç ayırmadığı Hasan’la birlikte 168 (785) yılında hac için yola çıktıysa da yolda yeterli su bulunmadığı için bir süre sonra geri döndü. Hasan b. Zeyd ise geri dönmeyi kabul etmeyerek yola devam etti, fakat Medine’nin doğusunda Hâcir denilen yerde vefat etti ve oraya defnedildi. Hasan b. Zeyd babası Zeyd b. Hasan, Abdullah b. Abbas’ın kölesi İkrime el-Berberî, Abdullah b. Ebû Bekir b. Muhammed, Abdullah b. Hasan b. Hasan ve Muâviye b. Abdullah b. Ca‘fer’den rivayette bulunmuş; İbn İshak, İbn Ebû Zi’b, Abdurrahman b. Ebü’z-Zinâd, Mâlik b. Enes, Ebû Üveys ve oğlu İsmâil b. Hasan da kendisinden hadis rivayet etmişlerdir. İbn Sa‘d, İbn Hibbân ve İbn Hacer el-Askalânî tarafından “sika, sadûk” ve “fâzıl” olarak tavsif edilir. Muhammed, Kāsım, Ali, İbrâhim, Zeyd, Îsâ, İsmâil, İshak, Abdullah adlı dokuz oğlu ve iki kızı olmuştur (İbn Sa‘d, s. 386). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 361 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-b-zeyd",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-b-zeyd, https://islamansiklopedisi.org.tr/hasan-b-zeyd",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:7990",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=7990, heading_ar=عيسى بن زيد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-b-zeyd (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[7990]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=7990 (heading_ar=عيسى بن زيد) via Track A (DİA→Alam xref bridge). dt=Mu'tezilî isyancı, Tâlibîlerin büyüklerinden."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Hâşimî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 83,
+    "start_ce": 702,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 168,
+    "start_ce": 785,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-b-zeyd, URL: https://islamansiklopedisi.org.tr/hasan-b-zeyd || El-Aʿlām (Ziriklī) cross-reference: alam_id=[7990] || DİA birth place: Medine || DİA death-date string: (ö. 168/785) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=7990, heading_ar=عيسى بن زيد, dt=Mu'tezilî isyancı, Tâlibîlerin büyüklerinden.",
+  "active_in_places": [
+    "iac:place-00003440"
+  ],
+  "authored_works": [
+    "iac:work-00004259"
+  ]
+}

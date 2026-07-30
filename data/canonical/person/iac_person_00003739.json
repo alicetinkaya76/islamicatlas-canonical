@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00003739",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN EBÛ CEMRE, Abdullah b. Sa‘d",
+      "ar": "ابن أبي جمرة ، عبد الله بن سعد"
+    },
+    "originalScript": {
+      "ar": "ابن أبي جمرة ، عبد الله بن سعد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdullāh b. Sa‘d b. Ebî Cemre el-Ezdî Ṣaḥîḥ-i Buḫârî muhtasarı ve bu muhtasara yazdığı şerhle tanınan Endülüslü âlim."
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Mâlikî mezhebine mensup bir tarihçi, müfessir, kıraat âlimi ve muhaddis olduğu kaydedilmekte, doğru bildiğini açıkça söylemekten çekinmemesiyle tanınmaktadır. Kendisine bazı kerametler isnat edilmiştir. Vefat tarihi çeşitli kaynaklarda 525 (1131), 675 (1276) ve 695 (1296) olarak zikredilmişse de genel kanaat 699’da (1300) Kahire’de öldüğü şeklindedir. Eserleri. 1. Cemʿu’n-nihâye fî bedʾi’l-ḫayri ve’l-ġāye ( Muḫtaṣaru İbn Ebî Cemre ). Müellif, Ṣaḥîḥ-i Buḫârî ’den kolayca ezberlenebilecek 300 hadisin senedlerini hazfetmek suretiyle meydana getirdiği bu eserini Behcetü’n-nüfûs ve teḥallîhâ bi-maʿrifeti mâ lehâ ve mâ ʿaleyhâ adıyla şerhetmiş olup eser ve şerhi İskenderiye (1864), Kahire (1286, taşbaskı 1302, 1321, 1327, 1349) ve Bulak’ta (1314) basılmış; daha sonra İsmâil es-Sâvî, Abdülkādir et-Tûnisî ve Abdüssamed el-Hüseynî tarafından dört cilt halinde yine Kahire’de (1348, 1355) yayımlanmıştır. Üchûrî ve diğer bazı âlimler eser üzerine şerh yazmışlardır. 2. el-Merâʾi’l-ḥisân . İbn Ebû Cemre, Behcetü’n-nüfûs ’u yazdığı dönemde rüyasında sık sık Resûl-i Ekrem’i gördüğünü ve eser üzerinde görüştüğünü, rüyalarından yetmişini bu eserinde bir araya getirdiğini söylemektedir. Eser, Behcetü’n-nüfûs ’un çeşitli baskılarının sonunda yayımlanmıştır (Kahire 1355; Beyrut 1972, 1979). 3. Şerḥu ḥadîs̱i ʿUbâde b. eṣ-Ṣâmit . Biatla ilgili bir risâle olup Cemʿu’n-nihâye ’de bulunan bir hadisin (Buhârî, “Îmân”, 10) müstakil şerhinden ibarettir. İbn Ebû Cemre Cemʿu’n-nihâye ’de bulunan İfk ve İsrâ hadislerini de şerhetmiş, İbnü’l-Kıftî’nin Târîḫu’l-ḥükemâʾ ını Kitâb fî ṭabaḳāti’l-ḥükemâʾ adıyla ihtisar etmiştir. Onun ayrıca bir tefsir yazdığı kaydedilmektedir ( Keşfü’ẓ-ẓunûn , I, 436; II, 1097). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 426-427 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-ebu-cemre-abdullah-b-sad",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-ebu-cemre-abdullah-b-sad, https://islamansiklopedisi.org.tr/ibn-ebu-cemre-abdullah-b-sad",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-ebu-cemre-abdullah-b-sad",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-ebu-cemre-abdullah-b-sad",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:18Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:18Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-ebu-cemre-abdullah-b-sad (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-ebu-cemre-abdullah-b-sad)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 699,
+    "start_ce": 1300,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-ebu-cemre-abdullah-b-sad, URL: https://islamansiklopedisi.org.tr/ibn-ebu-cemre-abdullah-b-sad || DİA death-date string: (ö. 699/1300 [?]) || DİA categories: hadis > tefsir > mezhep || Chunk count: 1",
+  "students": [
+    "iac:person-00004189"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00021421",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ZakiNajibMahmud"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "openiti:1414ZakiNajibMahmud",
+        "source_type": "digital_corpus",
+        "page_or_locator": "OpenITI corpus_authors.json id=1414ZakiNajibMahmud",
+        "extraction_method": "structured_json",
+        "edition_or_version": "OpenITI corpus snapshot 2024-2026"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "openiti-author-resolve",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T21:23:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T21:23:44Z",
+    "modified": "2026-05-04T21:23:44Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T21:23:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Placeholder person minted by openiti-author-resolve Tier 4 (no T1/T2 match in canonical person index). Pending biographic enrichment in Hafta 6 (DİA chunk re-extraction + cross-source alignment). Authored works will be back-populated by integrity_pass_A_bidirectional after openiti-works adapter."
+      }
+    ],
+    "deprecated": false
+  },
+  "note": "Tier-4 placeholder from OpenITI author_id=1414ZakiNajibMahmud. Biographic content sparse pending Hafta 6 enrichment.",
+  "death_temporal": {
+    "start_ce": 1993,
+    "start_ah": 1414,
+    "approximation": "circa"
+  },
+  "authored_works": [
+    "iac:work-00000904",
+    "iac:work-00001225",
+    "iac:work-00002043",
+    "iac:work-00002271",
+    "iac:work-00002283",
+    "iac:work-00002347",
+    "iac:work-00002423",
+    "iac:work-00002567",
+    "iac:work-00002578",
+    "iac:work-00002610",
+    "iac:work-00002701",
+    "iac:work-00002720",
+    "iac:work-00002721",
+    "iac:work-00002858",
+    "iac:work-00002945",
+    "iac:work-00003045",
+    "iac:work-00003056",
+    "iac:work-00003215",
+    "iac:work-00003297",
+    "iac:work-00003313",
+    "iac:work-00003331",
+    "iac:work-00003363",
+    "iac:work-00003384",
+    "iac:work-00003433",
+    "iac:work-00003469",
+    "iac:work-00003506",
+    "iac:work-00003512",
+    "iac:work-00003636",
+    "iac:work-00003639",
+    "iac:work-00003878",
+    "iac:work-00003932",
+    "iac:work-00003980",
+    "iac:work-00004022",
+    "iac:work-00004080",
+    "iac:work-00004179",
+    "iac:work-00004880",
+    "iac:work-00005724",
+    "iac:work-00005839",
+    "iac:work-00006558"
+  ]
+}

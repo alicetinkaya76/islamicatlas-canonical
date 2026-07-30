@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00001431",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Belatî",
+      "ar": "البلطي"
+    },
+    "originalScript": {
+      "ar": "البلطي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Feth Osmân b. Îsâ b. Mansûr el-Edîb en-Nahvî"
+      ]
+    },
+    "description": {
+      "tr": "524’te (1130) Musul’a yakın Belat kasabasında doğdu. Büleytî diye de anılmaktadır. Çocukluğu ve ilk tahsili hakkında çok az bilgi vardır. Kaynaklarda onun nahiv ilmini Ebû Nizâr Hasan b. Sâfî el-Bağdâdî ve İbnü’d-Dehhân Saîd b. Mübârek’ten tahsil ettiği zikredilmektedir. Daha sonra Şam’a giderek orada öğretimle meşgul oldu. Mısır Selâhaddîn-i Eyyûbî tarafından zaptedilince (567/1171) Kahire’ye gitti. Selâhaddîn-i Eyyûbî kendisine maaş bağlayarak onu Kahire’de Fustat Camii’nde nahiv dersleri, bazı kaynaklara göre nahivle birlikte kıraat dersleri vermekle görevlendirdi. Bundan sonra şöhreti yayılan Belatî, 19 Safer 599 (7 Kasım 1202) tarihinde vefatına kadar bu görevi yürüttü. Yalnızlığı sevmesi ve bu yüzden tek başına yaşaması sebebiyle ölümü ancak üç gün sonra farkedilebildi. Belatî zevk ve eğlenceye düşkün bir kişi idi. Sultanlara fazla iltifat etmeyişi dışında devrinde beğenilen bir yanı yoktu. Bununla beraber Arap dili ve edebiyatı ile tarih ilminde otorite idi. Nahivde Basra ve Kûfe ekollerini birleştirmiştir. Aruz ilmini de iyi bilen Belatî aynı zamanda iyi bir şairdi. Çeşitli konularda ve değişik nazım şekillerinde şiirler yazmıştır. Selâhaddîn-i Eyyûbî’nin kâtibi, daha sonra veziri olan Kādî el-Fâzıl’ı methettiği müveşşah tarzındaki kasidesi meşhurdur. Bu kasidede Kādî el-Fâzıl’ın, meslektaşları Câhiz, İbn Abbâd ve İbnü’l-Amîd’den daha üstün olduğunu iddia eder. Belatî aruz, Arap dili ve edebiyatı ile hat sanatı ve dinî konularda eserler vermiştir. Ancak “el-Harbâviyye” adlı kasidesi dışında bugüne ulaşan herhangi bir eseri bilinmemektedir. Bu kaside Abdülilâh Nebhân ( MMLADm. , s. 354-378) ve Hannâ Cemil Haddâd tarafından ( el-Mevrid , s. 279-292) neşredilmiş, yazma nüshaları hakkında da bilgi verilmiştir. Kaynaklarda zikredilen eserleri ise şunlardır: el-ʿArûżü’l-kebîr , el-ʿArûżü’ṣ-ṣaġīr , el-ʿİẓâtü’l-mûḳıẓât , en-Neyyir fi’l-ʿArabiyye , Aḫbârü’l-Mütenebbî , el-Müstezâd ʿale’l-müstecâd min (fî) feʿalâti’l-ecvâd , ʿİlmü eşkâli’l-ḫaṭ , et-Taṣḥîf ve’t-taḥrîf , Taʿlîlü’l-ʿibâdât (ḳırâʾât) . Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 391 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:belati",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=belati, https://islamansiklopedisi.org.tr/belati",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:42Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=belati (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Nahvî"
+  ],
+  "death_temporal": {
+    "start_ah": 599,
+    "start_ce": 1202,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=belati, URL: https://islamansiklopedisi.org.tr/belati || DİA birth place: Belat || DİA death-date string: (ö. 599/1202) || DİA categories: nahiv || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004112"
+  ]
+}

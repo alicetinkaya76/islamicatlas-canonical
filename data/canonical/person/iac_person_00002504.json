@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00002504",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Emîrî Fîrûzkûhî",
+      "ar": "أميري فيروزكوهي"
+    },
+    "originalScript": {
+      "ar": "أميري فيروزكوهي"
+    },
+    "description": {
+      "tr": "İran’ın Mâzenderan bölgesindeki Fîrûzkûh şehrinde doğdu. Asıl adı Seyyid Kerîm olup çeşitli idarî ve askerî görevlerde bulunan köklü bir ailenin çocuğudur. Bir süre Fîrûzang’da hâkimlik yapan babası Mustafa Kulı Muntazamüddevle, Kaçarlar’dan Muzafferüddin Şah döneminde (1896-1907) Avrupa’ya giden ilk İran aydınlarındandır. Emîrî küçük yaşta ailesiyle birlikte Tahran’a gitti. Yedi yaşında iken babası ölünce annesinin gözetiminde Fransız ve Amerikan kolejlerinde öğrenim gördü. Tapu dairesinde memur olarak çalıştığı yıllarda eski İran mûsikisini öğrendi. 1935’te klasik ilimleri tahsil etmeye başladı. Tanınmış âlimlerden Şeyh Abdülmelik-i Kocûrî ve Seyyid Hüseyn-i Kâşânî’den uzun yıllar ders aldı. Seyyid Kâzım-ı Assâr, Mirza Halîl-i Kemreî gibi âlimlerden de faydalandı. Özellikle Arap ve Fars dili ve edebiyatları hakkında geniş bilgi sahibi oldu. Bir süre noterlik yaptıktan sonra kendini tamamıyla telife ve araştırmaya verdi. Emîrî Tahran’da vefat etti. Seyyidü’ş-şuarâ lakabıyla tanınan ve şiirlerinde Emîrî mahlasını kullanan Fîrûzkûhî, çağdaş İran şiirinde Hint üslûbunu yenileyen bir şair olarak tanınır. Ancak Emîrî bu üslûbu sadece gazellerinde kullanmış, kasidelerini ise Horasan üslûbu ile yazmıştır. Şiirlerinin üçte ikisini oluşturan gazellerinde Sa‘dî, Hâfız ve Vahşî-i Bâfkī gibi klasik İran şairlerinin gazellerindeki coşku ile Sâib’in şiirlerindeki zarafet ve derinliğin bağdaştırıldığı görülür. Şairin Arapça şiirleri de vardır. Emîrî’nin Efâfnâme der Lüzûm-ı Ḥicâb (Tahran 1313 hş./1934) adlı ilk şiir kitabından sonra üç ciltten oluşan divanının iki cildi yayımlanmıştır. Emîrî, ayrıca Sâib’in divanı ile (Tahran 1333 hş./1954) Şehdî-i Rengerundî’nin Şeb Âheng adlı şiir kitabını (Tahran, ts.) bir önsözle birlikte yayıma hazırlamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 155 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:emiri-firuzkuhi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=emiri-firuzkuhi, https://islamansiklopedisi.org.tr/emiri-firuzkuhi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:01Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=emiri-firuzkuhi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1910,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=emiri-firuzkuhi, URL: https://islamansiklopedisi.org.tr/emiri-firuzkuhi || DİA birth place: Fîrûzkûh || DİA death place: Tahran || DİA death-date string: (1910-1985) || DİA categories: şiir || Chunk count: 1",
+  "birth_place": "iac:place-00009337",
+  "death_place": "iac:place-00007880",
+  "active_in_places": [
+    "iac:place-00007880"
+  ]
+}

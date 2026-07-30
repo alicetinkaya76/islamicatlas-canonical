@@ -1,0 +1,123 @@
+{
+  "@id": "iac:person-00001915",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DA‘LEC b. AHMED",
+      "ar": "دعلج بن أحمد"
+    },
+    "originalScript": {
+      "ar": "دعلج بن أحمد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Da‘lec b. Ahmed b. Da‘lec es-Sicistânî"
+      ]
+    },
+    "description": {
+      "tr": "259’da (872-73) Sicistan’da doğdu. Ticaret için gittiği Mekke, Medine, Irak, Horasan ve çevresinde Abdullah b. Ahmed b. Hanbel, Ebû Müslim el-Keccî, Osman b. Saîd ed-Dârimî, Muhammed b. İbrâhim el-Bûşencî, Ali b. Abdülazîz el-Begavî ve İbn Huzeyme gibi âlimlerden hadis tahsil etti. Kendisinden de Dârekutnî, İbn Şâzân el-Bağdâdî, Ebû İshak el-İsferâyînî ve Hâkim en-Nîsâbûrî gibi âlimler rivayette bulundular. Da‘lec bir süre Mekke’de kaldı. Fakat üç bedevînin onu, “Horasanlı bir hemşerin bizim kardeşimizi öldürdü, biz de seni öldüreceğiz” diye tehdit etmesi üzerine Mekke’yi terkederek Bağdat’a yerleşti. Çok zengin ve hayır sever bir kimse olan Da‘lec Mekke, Bağdat ve Sicistan’da hadisçilerin istifadesine tahsis edilmiş vakıflar kurdu. Hatîb el-Bağdâdî onun cömertliğiyle ilgili birçok menkıbe nakletmektedir ( Târîḫu Baġdâd , VIII, 389-392). Da‘lec Nîşâbur’a gittiği zaman İbn Huzeyme’nin bütün eserlerini elde etti. Dârekutnî de onun rivayetlerini ihtiva eden kitapları müsned tertibine koydu ve Şu‘be ile Mâlik b. Enes’in rivayetlerini bir araya getirdi. Da‘lec şüphe ettiği hadislerin üzerine işaret koyardı. Dârekutnî hocaları arasında ondan daha sika ve titiz birini görmediğini söylemektedir. Da‘lec adı geçen Müsned ’i, her iki varak arasına bir dinar koyarak incelemesi için İbn Ukde’ye gönderdi. Bu sebeple onun en sağlam rivayetlere sahip olduğu kabul edilmektedir. Aynı zamanda fakih olduğu ve çeşitli fetvalar verdiği de bilinen Da‘lec 20 Cemâziyelâhir 351’de (26 Temmuz 962) Bağdat’ta vefat etti. Müsned ’inin günümüze kadar geldiği bilinmemekle beraber Müsnedü’l-muḳıllîn adlı eserinden seçilen hadisleri ihtiva eden bir nüsha Zâhiriyye Kütüphanesi’nde bulunmaktadır (Mecmua, nr. 34, vr. 105 a -127 b ). Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 430-431 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dalec-b-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dalec-b-ahmed, https://islamansiklopedisi.org.tr/dalec-b-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:dalec-b-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/dalec-b-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:3497",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3497, heading_ar=دعلج بن أحمد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:50Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dalec-b-ahmed (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3497]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3497 (heading_ar=دعلج بن أحمد) via Track A (DİA→Alam xref bridge). dt=Zamanının Bağdat muhaddisi"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sicistânî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 351,
+    "start_ce": 962,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dalec-b-ahmed, URL: https://islamansiklopedisi.org.tr/dalec-b-ahmed || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3497] || DİA birth place: Sicistan || DİA death place: Bağdat || DİA death-date string: (ö. 351/962) || DİA categories: hadis > rivayet > fetva || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3497, heading_ar=دعلج بن أحمد, dt=Zamanının Bağdat muhaddisi",
+  "teachers": [
+    "iac:person-00001402",
+    "iac:person-00001635",
+    "iac:person-00001936",
+    "iac:person-00003875",
+    "iac:person-00004102",
+    "iac:person-00004150",
+    "iac:person-00004648",
+    "iac:person-00004830"
+  ],
+  "students": [
+    "iac:person-00001934",
+    "iac:person-00003064",
+    "iac:person-00003775",
+    "iac:person-00004011",
+    "iac:person-00004516"
+  ]
+}

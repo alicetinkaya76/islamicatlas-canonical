@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00002250",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Rigāl",
+      "ar": "أبو رغال"
+    },
+    "originalScript": {
+      "ar": "أبو رغال"
+    },
+    "description": {
+      "tr": "Kaynaklarda hayatı hakkında bilgi bulunmamaktadır. Adı, nesebi ve menşeine dair farklı rivayetler vardır. Hatta bazı araştırmacılar tarafından efsanevî bir kişi olarak gösterilmektedir ( İA , IV, 44; EI 2 [İng.] , I, 144). Bir rivayete göre, Ebrehe Kâbe’yi yıkmak için çıktığı sefer esnasında Tâif’e varınca Sakīf kabilesinin ileri gelenleri, reisleri Mes‘ûd b. Muattib ile beraber kendisini karşılayarak emrine âmâde olduklarını, Lât Mâbedi’ne dokunmadığı takdirde erzak ve rehber vereceklerini söylediler. Ebrehe’nin bu teklifi kabul etmesi üzerine Ebû Rigāl’i rehber olarak görevlendirdiler. Ebû Rigāl onları Mekke yakınlarındaki Mugammes’e kadar götürdü ve burada âniden öldü. Araplar onun ölümünü ilâhî gazabın bir tezahürü olarak yorumladılar ve bu tarihten itibaren bir hain nazarıyla baktıkları Ebû Rigāl’in mezarını taşlamayı gelenek haline getirdiler. Emevîler devrinin meşhur şairlerinden Cerîr b. Atıyye (ö. 110/728 [?]) Ferezdak’ı hicvederken, “Onun mezarını Ebû Rigāl’in mezarı gibi lânet ve nefretle taşlayın” demiştir. Bu sözler, onun mezarının ölümünden 150 yıl sonra hâlâ taşlandığını göstermektedir. Ebû Rigāl’in kendi kabilelerine mensup olmasından dolayı Sakīfliler’in utanç duydukları Hassân b. Sâbit’in bir şiirinden anlaşılmaktadır ( İA , VIII, 446). İbn Kuteybe ve Mes‘ûdî gibi bazı tarihçilerin kaydettiği, Sakīfliler’i müdafaa maksadı güden başka bir rivayete göre Ebû Rigāl, Sâlih peygamber tarafından zekât toplamak üzere Mekke’ye gönderilmiş, ancak Mekke halkına yaptığı zulüm ve haksızlıklar yüzünden Sakīf (Kasî b. Münebbih) tarafından öldürülmüştür. Kötü niyetle uydurulduğu söylenen bazı rivayetlerde Sakīf ile Ebû Rigāl aynı kişi olarak gösterilmektedir ( İA , X, 97). Diğer bir rivayette ise Ebû Rigāl’in Semûd kavmine mensup olduğu, onların kendilerine peygamber olarak gönderilen Hz. Sâlih’e inanmadıkları için Allah tarafından helâk edildikleri, Ebû Rigāl’in o sırada Mekke’de Allah’ın hareminde bulunduğu için söz konusu felâketten kurtulduğu, ancak Mekke’den ayrıldıktan kısa bir süre sonra onun da öldüğü ifade edilmektedir (Taberî, Târîḫ , I, 231-232). Hz. Peygamber, Tebük Gazvesi sırasında Hicr’den geçerken ashabına Semûd kavminin başına gelen bu felâketi anlatmış ve onlara buradan su almamalarını emretmiştir ( Tecrid Tercemesi , IX, 135). Bu rivayetler daha sonra birbirine karıştırılmış ve farklı şekiller almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 217 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-rigal",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-rigal, https://islamansiklopedisi.org.tr/ebu-rigal",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-05-04T15:33:56Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-rigal (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 570,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ebu-rigal, URL: https://islamansiklopedisi.org.tr/ebu-rigal || DİA death-date string: (ö. 570 [?]) || DİA categories: rivayet || Chunk count: 1"
+}

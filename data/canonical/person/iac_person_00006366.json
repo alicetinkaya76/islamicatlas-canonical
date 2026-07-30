@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00006366",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "RAVH b. ABDÜLMÜ’MİN",
+      "ar": "روح بن عبد المؤمن"
+    },
+    "originalScript": {
+      "ar": "روح بن عبد المؤمن"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Ravh b. Abdilmü’min b. Abde (Kurre) el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında fazla bilgi bulunmamakla birlikte hoca-talebe ilişkileri hakkında verilen bilgilere bakıldığında Basra’da doğup yetiştiği ve bu çevrede yaşadığı söylenebilir. Hüzeyl’in mevlâsı olması dolayısıyla Hüzelî nisbesiyle de anılan Ravh kıraat ilmini Ya‘kūb el-Hadramî’den tahsil etti; kırâat-i seb‘a imamlarından Ebû Amr b. Alâ’nın talebeleri Ahmed b. Mûsâ, Muâz b. Muâz ve Ubeydullah b. Muâz’dan bazı okuyuşları rivayet etti. Kendisinden kadı Tayyib b. Hasan b. Hamdân, Ebû Bekir Muhammed b. Vüheyb es-Sekafî, Ebü’l-Hasan el-Hulvânî ve başkaları arz yoluyla kıraat öğrendi. Hadis aldığı hocaları ve talebeleri hakkında Mizzî’nin verdiği listeye bakıldığında bu ilimde de geniş bir çevre ile temasta olduğu anlaşılır. Ebû Avâne el-Vâsıtî, Hammâd b. Zeyd, Ca‘fer b. Süleyman ed-Dabbî, Riyâh b. Amr el-Kaysî hadis rivayet ettiği kişilerden bazılarıdır. Kendisinden rivayette bulunanlar arasında Ahmed b. Dâvûd el-Mekkî, Ebû Ya‘lâ el-Mevsılî, Abdullah b. Ahmed b. Hanbel, Ebû Zür‘a er-Râzî, Osman b. Saîd ed-Dârimî’nin isimleri zikredilebilir. Buhârî Câmiʿu’ṣ-ṣaḥîḥ ’inde onun bir rivayetine yer vermiştir (“Bedʾü’l-ḫalḳ”, 8). Ravh’ın kırâat-i aşereyle ilgili eserlerde Ya‘kūb el-Hadramî’nin kıraati için iki râviden biri olarak tercih edilmesi onun bu ilimdeki uzmanlığının bir delili şeklinde görülebileceği gibi Buhârî’nin Câmiʿu’ṣ-ṣaḥîḥ ’inde rivayetine yer vermesi de güvenilirliği konusunda önemli bir husus olarak değerlendirilebilir. Ebû Hâtim kendisini “sadûk” diye nitelendirmiş, İbn Hibbân onun biyografisine es̱-S̱iḳāt ’ında yer vermiştir. Ebû Amr ed-Dânî’ye göre de sika bir âlim olan Ravh için (İbnü’l-Cezerî, I, 285) Zehebî “mütkın” terimini kullanmıştır. Kaynaklarda Ravh b. Abdülmü’min’in genellikle 233’te (847-48) vefat ettiği belirtilmekle birlikte ölümü için 234 ve 235 (849-50) tarihleri de zikredilmiş, İbn Hibbân 233 yılını kaydettikten sonra “bu tarihten biraz önce veya biraz sonra” ifadesini kullanmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 472 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ravh-b-abdulmumin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ravh-b-abdulmumin, https://islamansiklopedisi.org.tr/ravh-b-abdulmumin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:50Z",
+    "modified": "2026-05-04T15:34:50Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ravh-b-abdulmumin (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Basrî; Hadramî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 233,
+    "start_ce": 847,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ravh-b-abdulmumin, URL: https://islamansiklopedisi.org.tr/ravh-b-abdulmumin || DİA death place: 233 || DİA death-date string: (ö. 233/847-48 [?]) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

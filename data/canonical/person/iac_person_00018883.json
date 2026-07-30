@@ -1,0 +1,135 @@
+{
+  "@id": "iac:person-00018883",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Saʿd al-Dīn al-Taftāzānī",
+      "tr": "Saʿd et-Taftâzânî",
+      "ar": "السعد التفتازاني"
+    },
+    "originalScript": {
+      "ar": "السعد التفتازاني"
+    },
+    "description": {
+      "tr": "Arap dili, belagat ve mantık imamlarından.",
+      "en": "One of the authorities in Arabic language, rhetoric, and logic.",
+      "ar": "التفتازاني (سعد الدين مسعود بن عمر)، عالم مشهور في البلاغة والمنطق والميتافيزيقا واللاهوت والفقه وموضوعات أخرى ومؤلف عدة كتب دراسية تُستخدم حتى اليوم."
+    },
+    "altLabel": {
+      "en": [
+        "al-TAFTAZANI"
+      ],
+      "tr": [
+        "Mesûd b. Ömer b. Abdullâh et-Taftâzânî, Saʿdüddîn"
+      ],
+      "ar": [
+        "مسعود بن عمر بن عبد الله التفتازاني، سعد الدين"
+      ]
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Masʿūd b. ʿUmar b. ʿAbdallāh al-Taftāzānī, Saʿd al-Dīn"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:11994",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11994",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "ei1:5443",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 4, p. 25",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      },
+      {
+        "source_id": "scholars:225",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=225",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:24Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:24Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:24Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=11994 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 0.97): gap-filled ['description.ar', 'altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:11994."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 793,
+    "start_ce": 1390,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11994, heading_ar=السعد التفتازاني || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 36.55, 61.16",
+  "active_in_places": [
+    "iac:place-00002551",
+    "iac:place-00006376"
+  ],
+  "authored_works": [
+    "iac:work-00000866",
+    "iac:work-00000949",
+    "iac:work-00001065",
+    "iac:work-00002771"
+  ],
+  "kunya": "Ebû Saîd",
+  "nisba": [
+    "Teftâzânî",
+    "Horasânî"
+  ],
+  "laqab": [
+    "Sa'düddîn"
+  ]
+}

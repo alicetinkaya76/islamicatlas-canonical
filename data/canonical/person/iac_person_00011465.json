@@ -1,0 +1,86 @@
+{
+ "@id": "iac:person-00011465",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Nābigha al-Dhubyānī",
+   "tr": "En-Nâbiga ez-Zubyânî",
+   "ar": "النابغة الذبياني"
+  },
+  "originalScript": {
+   "ar": "النابغة الذبياني"
+  },
+  "description": {
+   "tr": "Câhiliye dönemi şairi, birinci tabakadan",
+   "en": "Pre-Islamic poet, of the first generation"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Ziyād b. Mu'āwiya b. Dubāb al-Dhubyānī al-Gatafānī al-Muḍarī, Abū Umāma"
+  },
+  "altLabel": {
+   "tr": [
+    "Ziyâd b. Muâviye b. Dubâb ez-Zubyânî el-Gatafânî el-Mudârî, Ebû Umâme"
+   ],
+   "ar": [
+    "زياد بن معاوية بن ضباب الذبياني الغطفاني المضري، أبو أمامة"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:3756",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=3756",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:01Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:01Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:01Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=3756 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:3756."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (5958-11465) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00005958 lehine yumuşak-silindi. Gerekçe: Arapça ad birebir aynı (النابغة الذبياني) ve her iki kayıt da 604 milâdî ölümlü Câhiliye şairi Nâbiga ez-Zübyânî'yi gösterir; Ziriklī'deki olum_h=18 hicretten önceki yılın işaretidir, 'scholar' etiketi ise kaba rol atamasıdır."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00005958"
+ },
+ "death_temporal": {
+  "start_ah": 18,
+  "start_ce": 604,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=3756, heading_ar=النابغة الذبياني || Ziriklī century_ce=7 || Ziriklī place coords (city/region of activity): 22.0, 40.0",
+ "kunya": "أبو أمامة"
+}

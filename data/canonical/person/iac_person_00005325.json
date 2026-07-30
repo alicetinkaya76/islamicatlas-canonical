@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00005325",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEHMED EFENDİ, Koğacızâde"
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi bulunmamaktadır. 1006 (1598) yılında Fatih’in Sofular semtinde bulunan ve Şeyh Ekmeleddin Efendi’ye nisbetle Ekmel Tekkesi diye anılan Halvetî tekkesinin (bugün Kur’an kursu binası) şeyhi olan Mehmed Efendi bu tekkede yirmi yıl kadar irşad faaliyetinde bulunduktan sonra 1026’da (1617) vefat etti. Mehmed Efendi, tasavvufî kişiliğinin yanı sıra dinî mûsiki sahasındaki eserleriyle de şöhret kazanmıştır. Nev‘îzâde Atâî, onun mûsiki ilmi sahasında zamanın otoriteleri arasında yer aldığını ve o devirde tekkelerde okunan dinî eserlerin büyük kısmının Mehmed Efendi’nin besteleri olduğunu belirtir, ayrıca dönemin bir diğer dinî eserler bestekârı Hatîb Zâkirî Hasan Efendi ile aralarında bir rekabetin bulunduğunu söyler. El yazması bazı güfte mecmualarında Koğacızâde adına kayıtlı dinî eserlere rastlanmaktadır. Ancak hiçbir eserinin notası günümüze ulaşmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 454-455 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-efendi-kogacizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-efendi-kogacizade, https://islamansiklopedisi.org.tr/mehmed-efendi-kogacizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-efendi-kogacizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-efendi-kogacizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:38Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-efendi-kogacizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1006,
+    "start_ce": 1598,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1026,
+    "start_ce": 1617,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-efendi-kogacizade, URL: https://islamansiklopedisi.org.tr/mehmed-efendi-kogacizade || DİA death place: 1026 || DİA death-date string: (ö. 1026/1617) || DİA categories: tasavvuf || Chunk count: 1"
+}

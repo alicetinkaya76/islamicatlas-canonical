@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00002819",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "GĀLİB b. ABDULLAH",
+      "ar": "غالب بن عبد الله"
+    },
+    "originalScript": {
+      "ar": "غالب بن عبد الله"
+    },
+    "altLabel": {
+      "tr": [
+        "Gālib b. Abdillâh b. Mis‘ar el-Kinânî"
+      ]
+    },
+    "description": {
+      "tr": "Kinâneoğulları’na mensup olduğu için Kinânî, onun alt kolları Leys ve Kelb kabilelerine nisbetle de Leysî ve Kelbî diye anılır. Hayatına dair fazla bilgi vermeyen kaynaklar, daha çok onun başarılı bir kumandan olarak katıldığı savaşlardan söz eder. Hz. Peygamber, 2. yılın 10 Şevvalinde (5 Nisan 624) Benî Süleym ve Gatafân kabilelerine Gālib b. Abdullah’ın kumandasında bir seriyye gönderdi. Düşmanı bozguna uğratan müslümanlar dört gün sonra pek çok ganimet elde ederek geri döndüler. 7. yılın Ramazan ayında (Ocak 629) Resûl-i Ekrem yine Gālib b. Abdullah kumandasında 130 kişilik bir birliği, Meyfaa mevkiinde oturan Uvâl ve Abd b. Sa‘lebe oğulları üzerine sevketti. Meyfaa Seferi diye anılan bu savaşta düşmanın ileri gelenleri öldürüldü ve ganimet elde edildi. 8. yılın Safer ayında ise (Haziran 629) Hz. Peygamber Gālib’i on, on dokuz veya altmış kişi olduğu rivayet edilen bir birliğin başında Mekke ile Medine arasındaki Kedîd bölgesinde ikamet eden, Kinâneoğulları’ndan Benî Leys’e mensup Mülevvihoğulları üzerine gönderdi. Bu kabileden birçok kişi Hendek Gazvesi’nde Medine’yi kuşatanlar arasında yer almıştı. Birlik ele geçirdiği ganimetlerle geri döndü. Medine’ye iki günlük mesafedeki Fedek yakınlarında oturan Mürreoğulları da Hendek Gazvesi’nde müşrik ordusunda yer almışlar, ayrıca 7 (628) yılında Beşîr b. Sa‘d kumandasındaki otuz kişilik birliğin yirmi sekiz mücahidini şehid etmişlerdi. Hz. Peygamber onları cezalandırmak amacıyla 8. yılın Safer ayında (Haziran 629) Zübeyr b. Avvâm’ın kumandasında 200 kişilik bir birlik hazırladı. Bu arada Mülevvihoğulları baskınından dönen Gālib b. Abdullah’ın başarılarını dikkate alan Resûl-i Ekrem, Mürreoğulları’na gönderilmek üzere hazırladığı birliğin başına Zübeyr b. Avvâm’ın yerine Gālib’i getirdi. Mürre Seferi diye anılan bu savaşta pek çok müşrik öldürüldü, birçok ganimet ve esir elde edildi (bk. MÜRRE SERİYYESİ ). Hz. Peygamber’in Mekke’nin fethinde yol güvenliğini sağlamakla görevlendirdiği Gālib b. Abdullah’ın Hz. Ömer devrinde Kādisiye Savaşı’nda önemli yararlıklar gösterdiği ve Hürmüz’ü öldürdüğü, Muâviye döneminde ise Ziyâd b. Ebîh tarafından 48 (668) yılında Horasan’a vali tayin edildiği kaynaklarda zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 327 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:galib-b-abdullah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=galib-b-abdullah, https://islamansiklopedisi.org.tr/galib-b-abdullah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:8063",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8063, heading_ar=غالب بن عبد الله",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:05Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:05Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=galib-b-abdullah (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8063]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8063 (heading_ar=غالب بن عبد الله) via Track A (DİA→Alam xref bridge). dt=Kumandan, sahâbî, valilerden"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kinânî"
+  ],
+  "death_temporal": {
+    "start_ah": 48,
+    "start_ce": 668,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=galib-b-abdullah, URL: https://islamansiklopedisi.org.tr/galib-b-abdullah || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8063] || DİA death-date string: (ö. 48/668’den sonra) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=8063, heading_ar=غالب بن عبد الله, dt=Kumandan, sahâbî, valilerden"
+}

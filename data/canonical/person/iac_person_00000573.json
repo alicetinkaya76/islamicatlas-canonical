@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00000573",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH-ı SAYRAFÎ",
+      "ar": "عبد الله صيرفى"
+    },
+    "originalScript": {
+      "ar": "عبد الله صيرفى"
+    },
+    "description": {
+      "tr": "Babası Tebrizli sarraf Hâce Mahmud’dur. Tebriz’de yaşadı ve orada vefat ederek Serendib Mezarlığı’na defnedildi. Müstakimzâde Bağdatlı olduğunu söyler. Kaynakların çoğu, yazıda hocasının Yâkūt el-Müsta‘sımî’nin talebelerinden Seyyid Haydar Kündenüvis olduğunu belirtirlerse de Abdullah’ın, Yâkūt’un aklâm-ı sitte yi öğrettiği altı üstat arasında bulunduğunu ileri sürenler de vardır. Eserleri, yaşadığı devrin mimari âbideleri üzerindeki kitâbeler ve iç mekânlardaki tezyinî celî yazılarla, çeşitli murakka‘ ve yazmalardaki hatları olmak üzere iki grupta toplanabilir. Abdullah’ın bilhassa kitâbe ve tezyinî yazılardaki başarısını, hocası Seyyid Haydar’ın devrin en büyük celî üstadı olmasına bağlamak ve aralarındaki hoca-talebe münasebetinin kuvvetli bir delili olarak kabul etmek mümkündür. Tebriz’deki İmâret-i Üstâd u Şâkird ve Dımaşkıyye Medresesi gibi eserlerin kitâbe ve tezyinî hatları Abdullah-ı Sayrafî’ye aittir. Otuz altı mushaf ve çok murakka‘ yazmıştır. Bunların çoğu İstanbul kütüphanelerinde mevcuttur. Yazdıkları arasında en güzel örnekler, Türk ve İslâm Eserleri Müzesi’nde ve Topkapı Sarayı’nda (Emanet Hazinesi, nr. 49) bulunan mushaf-ı şeriflerdir. Tahran’da Kütübhâne-i Saltanatî ve Meşhed’de Kütübhâne-i Razavî’de (bk. Râhnümâ-yı Gencîne-i Ḳurʾân , s. 475) iki mushafı, İngiltere’de Chester Beatty Library’de (Dublin) ise (MS, nr. 1468) yazdığı bir diğer mushaf mevcuttur. Sülüs hattının kaidelerini anlatan Risâle der Ḳavâʿid-i Ḫaṭṭ-ı S̱ülüs̱ adlı bir risâlesi de Kütübhâne-i Razavî’dedir. Talebeleri arasında Hayreddin Mar‘aşî ve Şeyh Hamdullah önde gelen isimlerdir. Bilhassa Şeyh Hamdullah başlangıç dönemlerinde Sayrafî’den çok etkilenmiştir. Bu sebeple Sayrafî, Osmanlı hattatlarına dolaylı olarak tesir etmiştir. Horasan hattatlarının silsilesi de ona dayanmaktadır. Ölüm tarihi kesin olarak belli değildir. Ancak Topkapı Sarayı Müzesi Kütüphanesi’nde bulunan mushaf, 745 (1344-45) tarihini taşıdığına göre vefatı bundan sonra olmalıdır. P. P. Soucek ise hiçbir kaynak belirtmeden vefat tarihini 746’dan (1345-46) sonra göstermektedir (bk. EIr. , I, 203). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 132 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-i-sayrafi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-i-sayrafi, https://islamansiklopedisi.org.tr/abdullah-i-sayrafi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-i-sayrafi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 745,
+    "start_ce": 1344,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-i-sayrafi, URL: https://islamansiklopedisi.org.tr/abdullah-i-sayrafi || DİA death place: Tebriz || DİA death-date string: (ö. 745/1344-45’ten sonra) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00007678"
+  ]
+}

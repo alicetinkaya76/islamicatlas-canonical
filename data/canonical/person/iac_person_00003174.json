@@ -1,0 +1,98 @@
+{
+  "@id": "iac:person-00003174",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hânsevî",
+      "ar": "الهانسوي"
+    },
+    "originalScript": {
+      "ar": "الهانسوي"
+    },
+    "altLabel": {
+      "tr": [
+        "Cemâlüddîn Ahmed b. Muhammed b. Muzaffer en-Nu‘mânî el-Hânsevî"
+      ]
+    },
+    "description": {
+      "tr": "580 (1184-85) yılında Hindistan’ın Pencap bölgesindeki Hânsî şehrinde doğdu. Soyu Ebû Hanîfe’ye kadar uzanır. Hayatı hakkındaki bilgiler menkıbelerle karışıktır. Çok iyi Arapça bilenlerin tayin edildiği hatiplik görevinde bulunduğuna göre iyi bir öğrenim görmüş olmalıdır. Hânsevî, bu görevi sırasında Çiştî şeyhlerinden Ferîdüddin Mes‘ûd Genc-i Şeker’e intisap etti. Şeyhinin isteği üzerine resmî görevinden ayrılarak onun önde gelen mürid ve halifelerinden biri oldu. Hilâfet alıp memleketi Hânsî’ye döndükten sonra Ecûdhen şehrinde ikamet eden şeyhini birkaç defa ziyaret etti. Sağlığının bozulması üzerine de kendisinden haber almak için bir hizmetçisini ona göndermeye başladı. Resmî görevini bıraktıktan sonra sıkıntı ve zorluklarla dolu bir hayat süren Hânsevî, yanında bir müddet kalan Nizâmeddin Evliyâ’dan durumunu şeyhine anlatmasını istemiş, şeyhi de kendisine bu yola girenlerin başına bu gibi hallerin gelebileceğini bildirmişti. Hânsevî şeyhinden beş yıl önce Hânsî’de vefat etti. 1406 yılında kendisi ve üç müridinin kabirleri üzerine bir türbe inşa edildi. Eserleri. Âlim ve şair bir sûfî olan Hânsevî’nin çeşitli eserleri olduğu bilinmekteyse de bunlardan ancak ikisi günümüze ulaşmıştır. 1. Dîvân . Çiştiyye tarikatına mensup bir sûfî tarafından yazılan ilk manzum eser olan bu Farsça divan iki bölümden meydana gelmekte olup birinci bölümü gazelleri, ikinci bölümü rubâî ve kıtaları ihtiva etmektedir. VII. (XIII.) yüzyılın başlarında Kuzey Hindistan’da bulunan dinî ve siyasî kurumlarla halkın inanç ve davranışları hakkında bilgi vermesi açısından da önemli olan eser Pîrcî Refîuddin tarafından neşredilmiştir (Delhi 1889). K. V. Zetterstéen, Hânsevî’nin bazı şiirlerini İngilizce’ye tercüme ederek yayımlamıştır (“Selections from the Divan of Jamāluddin Ahmad Hansawi”, Islamic Research Association Miscellany , I [1948], s. 165-182). 2. Mülhemât (Alwar 1306; Delhi 1308). Hikemî ve tasavvufî mesellerden meydana gelen, bilhassa zâhid ile ârif arasındaki farkları ortaya koyan Arapça bir eserdir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 49 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hansevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hansevi, https://islamansiklopedisi.org.tr/hansevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:hansevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=hansevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:11Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hansevi (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=hansevi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hânsevî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 580,
+    "start_ce": 1184,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 659,
+    "start_ce": 1260,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hansevi, URL: https://islamansiklopedisi.org.tr/hansevi || DİA birth place: Hânsî || DİA death place: Hânsî || DİA death-date string: (ö. 659/1260-61) || DİA categories: tasavvuf > tarikat > şiir || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00019858"
+  ]
+}

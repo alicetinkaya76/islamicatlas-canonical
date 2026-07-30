@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00001136",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂŞIKKUTLU, Mehmet Rüştü"
+    },
+    "description": {
+      "tr": "Of ilçesinin Uğurlu (Çifaruksa) kasabasında doğdu. Babası Ahmed Cemâleddin, annesi Hanîfe’dir. İlk öğrenimini kasabanın öğretmeni olan babasından yaptı, sonra aynı yerde hıfzını tamamladı. Muhitin tanınmış âlimlerinden Çalıkzâde Tâhir Efendi, Çalekli Dursun Feyzi Efendi ve Kasımzâde Hasan Efendi’den Arapça, Bakkalzâde Paçanlı İsmâil Hakkı’dan ferâiz dersleri aldı. İmtihanla Çifaruksa Medresesi’nin dördüncü sınıfına kaydoldu. Altıncı sınıftayken medreseler kapatılınca (1924) bir müddet daha Dursun Feyzi Efendi’den tefsir, akaid ve fıkıh okuduktan sonra İstanbul’a giderek Hâfız Ahmed Şükrü ve yeğeni Hâfız İsmâil Hakkı Bayrî’den aşere ve takrîb , Varnalızâde Hâfız Ahmed Hamdî’den de İbnü’l-Cezerî’nin Ṭayyibetü’n-Neşr ’ini okudu. Mehmet Rüştü görev hayatına oldukça erken yaşlarda Uğurlu kasabası Merkez Camii’nde fahrî imam-hatip olarak başladı. 1936 yılında Uğurlu Kur’an Kursu öğreticiliğine, 1941’de Of merkez vâizliğine tayin edildi. Resmî görevini sürdürürken bir yandan da kıraat, fıkıh ve Arapça okuttu. 1976 yılında vâizlikten emekliye ayrıldı. Diyanet İşleri Başkanlığı’nca Ankara ve İstanbul’da açılan hizmet içi eğitim kurslarında 1974-1979 yılları arasında, bütün rivayet ve tarikleriyle aşere okuttu. Ṭayyibetü’n-Neşr ’i takrir etti. 28 Ağustos 1980’de tedavi için Trabzon’dan İstanbul’a giderken uçakta vefat eden Âşıkkutlu, doğduğu yer olan Uğurlu kasabasında defnedildi. Sahasında pek çok öğrenci yetiştiren Âşıkkutlu’nun kıraat konusunda Aşere Kaideleri , Takrîb Kaideleri , Tayyibe Tercümesi ve Tayyibe Şerhi adlı dört eseri vardır. Henüz basılmamış olan bu kitaplar Uğurlu’da vârislerinin elinde bulunan özel kitaplığındadır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 6 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:asikkutlu-mehmet-rustu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=asikkutlu-mehmet-rustu, https://islamansiklopedisi.org.tr/asikkutlu-mehmet-rustu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=asikkutlu-mehmet-rustu (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1901,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=asikkutlu-mehmet-rustu, URL: https://islamansiklopedisi.org.tr/asikkutlu-mehmet-rustu || DİA death place: Trabzon || DİA death-date string: (1901-1980) || DİA categories: fıkıh > tefsir > rivayet || Chunk count: 1",
+  "death_place": "iac:place-00015093",
+  "teachers": [
+    "iac:person-00001313",
+    "iac:person-00002950"
+  ],
+  "students": [
+    "iac:person-00007691"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@id": "iac:person-00000738",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahîzâde Abdülhalim Efendi"
+    },
+    "description": {
+      "tr": "Kazasker Ahîzâde Mehmed Efendi’nin oğlu ve Şeyhülislâm Ahîzâde Hüseyin Efendi’nin büyük kardeşidir. İstanbul’da doğdu. Devrinin ünlü âlimlerinden ve bu arada Şeyhülislâm Ebüssuûd Efendi’den ilim tahsil etti. Pîr Mehmed Dede’den sülüs ve nesih yazıyı öğrendi. Yeni İbrâhim Paşa, Kasım Paşa, Yeni Ali Paşa, Şah Sultan, Haseki, Sahn-ı Semân, Şehzade ve Üsküdar Vâlide Sultan medreselerinde müderrislik yaptı. Bursa, Edirne ve İstanbul kadılıklarında bulundu. 1596 ve 1599 yıllarında iki defa Anadolu kazaskeri, 1601’de de Rumeli kazaskeri oldu. İki yıl sonra bu görevinden ayrılan Ahîzâde 12 Haziran 1604 tarihinde İstanbul’da şîrpençeden vefat etti ve evinin karşısındaki Çukur Medrese’ye bitişik türbeye defnedildi. Halîmî mahlasıyla şiirler yazan Ahîzâde’nin tertip ettiği vakfiyeler, şer‘î hüccet ve temessük ler kendisinden sonra örnek alındı. Çiçek ve özellikle lâle yetiştirmeye meraklıydı; bu arada bazı yeni lâle türleri de elde ettiği bilinmektedir. Bazı risâleleri yanında başlıca eserleri şunlardır: 1. Taʿlîḳa ʿale’l-Hidâye ve bazı şürûḥihâ . Eserin bazı yazma nüshaları Süleymaniye Kütüphanesi’ndedir (Esad Efendi, nr. 922; Hacı Beşir Ağa, nr. 199/448). 2. Terceme-i Şevâhidü’n-nübüvve . Süleymaniye Kütüphanesi’nde (Esad Efendi, nr. 286; Çelebi Abdullah Efendi, nr. 253) yazmaları bulunan bu eserin Nevâhidü’l-fütüvve fî tercemeti Şevâhidi’n-nübüvve adıyla müellif hattı bir nüshası da aynı kütüphanededir (Fâtih, nr. 4275, 523 varak). Bazı nüshalarda eserin adı Şevâhidü’n-nübüvve Tercümesi şeklinde geçmektedir (Süleymaniye Ktp., Hekimoğlu, nr. 722; Lâleli, nr. 2023; Hamidiye, nr. 633; Hacı Mahmud Efendi, nr. 4376). 3. Muḫtaṣarü’d-Dürer ve’l-Ġurer (Süleymaniye Ktp., Hamidiye, nr. 454/1, 232 varak). Ayrıca el-Eşbâh ve’n-neẓâʾir , Câmiʿu’l-fuṣûleyn , ed-Dürer ve’l-Ġurer ve Şerḥu’l-Miftâḥ adlı eserlere hâşiyeler yazmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 548 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahizade-abdulhalim-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahizade-abdulhalim-efendi, https://islamansiklopedisi.org.tr/ahizade-abdulhalim-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahizade-abdulhalim-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahizade-abdulhalim-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahizade-abdulhalim-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1013,
+    "start_ce": 1604,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahizade-abdulhalim-efendi, URL: https://islamansiklopedisi.org.tr/ahizade-abdulhalim-efendi || DİA birth place: İstanbul || DİA death place: İstanbul || DİA death-date string: (ö. 1013/1604) || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "death_place": "iac:place-00000735",
+  "teachers": [
+    "iac:person-00002390"
+  ],
+  "students": [
+    "iac:person-00001171",
+    "iac:person-00003529"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00001544",
+  "@type": [
+    "iac:Mufti",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BİLGE, Mahmut"
+    },
+    "description": {
+      "tr": "Cizre’de doğdu. Birçok âlim, müderris ve müftü yetiştiren bir aileye mensuptur. Babası Mella Abdurrahman Hoserî tanınmış bir âlimdi. İlk eğitimini babasından aldı, Arapça’nın yanı sıra Farsça öğrendi. 1922’de babasından icâzet aldı. 1963 yılında Trabzon İmam-Hatip Okulu’ndan mezun oldu. 1920’de önce vekil öğretmen, daha sonra sınavları verince asil öğretmen oldu. 1 Ekim 1929’da öğretmenlikten istifa etti ve 1930’da Cizre belediye kâtipliğiyle veznedarlığı görevlerine tayin edildi. 1934 yılından itibaren Nusaybin, Kızıltepe, Cizre ve Mardin merkezinde nüfus memurluğu ile nüfus başkâtipliği yaptı. Diyanet İşleri Başkanlığı’nın açtığı imtihanı kazanarak 31 Ekim 1948’de Cizre müftüsü oldu. 1969’da Birecik ve ardından Silopi’de (1970-1971) müftülük görevinde bulundu ve bu son görevinden emekliye ayrıldı. Mahmut Bilge Cizre’de vefat etti. Eserleri. 1. Ay Risâlesi (Ankara 1963). Aya gitmenin mümkün olup olmadığı, dinin bu konudaki cevabının ne olduğu hususunda tartışmaların yaşandığı bir ortamda yazılan risâlede müellif aklî ve dinî delillerden hareketle aya gidilebileceğini belirtmiş ve bu düşüncelerinden dolayı bölgedeki bazı çevreler tarafından şiddetli eleştirilere mâruz kalmış, dinsizlikle suçlanmıştır. 2. Nuh (a.s) ve Tûfanı (Ankara 1963). Eserde tûfan, tûfanın mahiyeti, Hz. Nûh hakkında bilgiler, Cûdî dağı ve Cizre anlatılmakta, Nûh’un gemisinin Cûdî dağında bulunduğuna dair bazı deliller ileri sürülmektedir. 3. Yezidîler: Tarih-İbadet-Örf ve Âdetler (nşr. Ahmet Taşgın, Ankara 2002). 4. Resûl-ü Ekrem Muhammed Mustafa’nın Nüfus Hüviyet Cüzdanı (Ankara 1965). Mahmut Bilge’nin bunların dışında Kıyâmet Risâlesi (Kur’an’da kıyametle ilgili âyetlerin izahıdır), Öldükten Sonra Dirilmek , Kur’ân-ı Kerim’deki Kıssalardan Hisseler , Cin Risâlesi , İslâmda İtikadî Fırka ve Şubeler , Hac Kılavuzu , Ferâiz Kitabı , Kasîde-i Bürde’nin Tercüme ve Şerhi , Bânet Süâd Kasidesinin Tercüme ve Şerhi Münferice Kasidesinin Tercüme ve Şerhi , Cezerî’nin Tecvidi Tercüme ve Şerhi gibi eserleri de vardır. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan (gözden geçirilmiş 2. basım) EK-1. cildinde, 199-200 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "mufti"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bilge-mahmut",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bilge-mahmut, https://islamansiklopedisi.org.tr/bilge-mahmut",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:bilge-mahmut",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=bilge-mahmut",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:44Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bilge-mahmut (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=bilge-mahmut)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1904,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=bilge-mahmut, URL: https://islamansiklopedisi.org.tr/bilge-mahmut || DİA birth place: Cizre || DİA death place: Cizre || DİA death-date string: (1904-1974) || DİA categories: şiir || Chunk count: 1"
+}

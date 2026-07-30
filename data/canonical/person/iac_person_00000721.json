@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00000721",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ağakapili İsmâil"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Doğum tarihi bilinmemektedir. Ağakapısı mektebinde hocalık yaptığı için Ağakapılı lakabıyla tanındı. Babasının adı Ali olduğundan yazılarına genellikle İsmâil b. Ali şeklinde imza atmıştır. Aklâm-ı sitteyi Büyük Derviş Ali’den öğrendi ve ondan icâzet aldı. Şeyh Hamdullah vadisinde mükemmel eserler veren Ağakapılı kırktan fazla mushaf-ı şerif ile çok sayıda en‘âm-ı şerif ve kıta yazmıştır. Hâfız Osman’ın Sünbül Efendi Dergâhı hazîresindeki mezar kitâbesini de yazan Ağakapılı, “Hüsn-i hattı biz bildik, Osman Efendimiz yazdı” sözüyle, çağdaşları arasında en çok Hâfız Osman’ı beğendiğini ifade etmiştir. Ölümünde bu kitâbe, isim ve tarih değiştirilerek, Kasımpaşa’da bugün yok olan Tersane (Zindan) arkasında Darıderesi Mezarlığı’ndaki kabir taşına hakkedilmiştir. Yetiştirdiği talebeleri arasında en meşhuru, “İkinci” veya “İmam” lakaplarıyla Büyük Derviş Ali’den ayırt edilen Anbârîzâde Derviş Ali’dir. Kaynaklarda, Ağakapılı’nın ancak seksen yaşına vardığında ellerine titreme geldiği kaydedildiğine göre, uzun bir ömür sürmüş olmalıdır. Onun celî sülüsle yazdığı bir başka eser de, sonraki celî anlayışına göre pek iptidai kalan Fatih’te Şeyhülislâm Feyzullah Efendi Medrese ve Kütüphanesi’nin (bugünkü Millet Kütüphanesi) kitâbeleridir. Ağakapılı’nın vefatına Müstakimzâde Sâdeddin Efendi’nin düşürdüğü tarih mısraı şöyledir: “Oldu İsmâîl Efendi hâce-i me’vâ meded” (1118). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 461-462 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:agakapili-ismail",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=agakapili-ismail, https://islamansiklopedisi.org.tr/agakapili-ismail",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:agakapili-ismail",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/agakapili-ismail",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=agakapili-ismail (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1118,
+    "start_ce": 1706,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=agakapili-ismail, URL: https://islamansiklopedisi.org.tr/agakapili-ismail || DİA birth place: İstanbul || DİA death-date string: (ö. 1118/1706) || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00001179"
+  ]
+}

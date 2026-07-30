@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00002716",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ferâhânî",
+      "ar": "فراهانى"
+    },
+    "originalScript": {
+      "ar": "فراهانى"
+    },
+    "description": {
+      "tr": "22 Temmuz 1860’ta Sultanâbâd’a bağlı Kâzerân köyünde doğdu. Asıl adı Mirza Sâdık Han olup babası ve annesi tarafından ünlü Kaçar veziri Mirza Ebü’l-Kāsım Kāimmakām’ın akrabasıdır. Ailesinde şair ve devlet adamlarının bulunması sayesinde iyi bir tahsil gördü. Arap dili ve edebiyatı, tarih, felsefe, matematik, astronomi öğrenimi yanında Avrupa edebiyatını da tanımaya çalıştı. Küçük yaşta şiirle ilgilenmeye başlayan Ferâhânî babasının ölümünden sonra (1874) Tahran’a gitti. Burada Emîr-i Nizâm Hasan Ali Han ve Şehzade Tahmasb Mirzâ-yı Müeyyidüddevle’nin takdir ve himayesini gördü. Önceleri Pervâne mahlasını kullanırken Emîr-i Nizâm’a hürmeten Emîrî mahlası ile şiirler yazmaya başladı. Muzafferüddin Şah tarafından 1896’da kendisine “Edîbü’l-Memâlik” lakabı verildi. 1898 yılında Tebriz’de kurulan Lokmâniyye Medresesi’nin müdür yardımcılığına getirildi. Aynı yıl haftalık Edeb gazetesini çıkardı. Kafkasya ve Hârizm seyahatlerinden sonra bu gazeteyi Meşhed’de yayımlamaya devam etti. 1905’te Bâdkûbe’de Farsça ilâveli Türkçe İrşad gazetesini çıkardı. Meşrutiyet hareketlerini destekleyen Ferâhânî, birinci meclisin açılmasıyla birlikte Meclis gazetesinin yazı işleri müdürlüğüne getirildi. 1907’de haftalık ʿIrâḳ-ı ʿAcem gazetesini yayımladı. Bir süre çeşitli şehirlerde hâkimlik yaptı. 21 Şubat 1917’de Tahran’da öldü. Klasik şiirin her türünü deneyen Ferâhânî daha çok kaside tarzında başarılı oldu. Eski şairleri taklit ederek yazdığı kasidelerinde Nâsırüddin Şah, Muzafferüddin Şah gibi hükümdarlarla diğer emîrleri övdü ve karşılığında onlardan mükâfat bekledi. Meşrutiyet devrinden sonra vatan sevgisinin ön plana çıktığı kasidelerinde döneminin bütün siyasî faaliyetlerini işledi; sosyal hareketleri, reformları tenkit etti. Halkı hürriyet ve meşrutiyet yolunda mücadeleye çağırdı. Genç şairleri şiirde yeni konular bulmaya ve halka yönelik şiir söylemeye teşvik etti; vatan ve millet sevgisini yansıtan şiirlerin aşk şiirlerinden daha güzel olduğunu anlatmaya çalıştı. Meşrutiyetten önce yazdığı şiirlerde anlaşılması güç kelimelerle yüklü bir dile sahipken sosyal muhtevalı şiirlerinde halkın anlayabileceği bir dil kullandı. Şiirleri ölümünden sonra Vahîd-i Destgirdî tarafından derlenerek yayımlanmış (Tahran 1312 hş.) ve bunun daha sonra çeşitli baskıları yapılmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 356 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ferahani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ferahani, https://islamansiklopedisi.org.tr/ferahani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ferahani (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1860,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ferahani, URL: https://islamansiklopedisi.org.tr/ferahani || DİA birth place: Kâzerân || DİA death-date string: (1860-1917) || DİA categories: felsefe > şiir > astronomi || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00007880"
+  ]
+}

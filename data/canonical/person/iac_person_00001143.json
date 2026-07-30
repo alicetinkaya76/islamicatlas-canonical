@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00001143",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂSIM b. ÖMER b. KATÂDE",
+      "ar": "عاصم بن عمر بن قتادة"
+    },
+    "originalScript": {
+      "ar": "عاصم بن عمر بن قتادة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Amr (Ebû Ömer) Âsım b. Ömer b. Katâde ez-Zaferî"
+      ]
+    },
+    "description": {
+      "tr": "Evs kabilesinin bir kolu olan Benî Zafer’e mensuptur. Çocukluk ve gençlik yılları doğum yeri olan Medine’de geçmiştir. Bedir Gazvesi’ne katılan dedesi Katâde duyduğu hadisleri oğlu Ömer’e öğretmiş, o da bu hadisleri Âsım’a rivayet etmiştir. Babasından başka Câbir b. Abdullah, Enes b. Mâlik, Mahmûd b. Lebîd, büyükannesi Rumeyse ve Ali b. Hüseyin b. Ali’den hadis almıştır. Kendisinden hadis dinleyenler arasında oğlu Fazl, Muhammed b. Aclân, Abdurrahman b. Süleyman ve ünlü siyer ve megāzî müellifi İbn İshak bulunmaktadır. İbn İshak’ın çok sayıdaki hocaları arasında kendisine en çok güvendiği ve adını en çok andığı dört âlimden biri odur. Rivayetleri Kütüb-i Sitte ’de yer almış, Yahyâ b. Maîn, Ebû Zür‘a ve Nesâî onun güvenilir bir muhaddis olduğunu söylemişlerdir. Âsım’ı güvenilir kabul etmeyenlerin de mevcut olduğu iddiasını Yahyâ b. Saîd el-Kattân şiddetle reddetmiştir. Emevî halifelerinden Ömer b. Abdülazîz (717-720) onu hilâfet merkezine davet ederek Şam Camii’nde megāzî ve sahâbîlerin menkıbelerine dair dersler vermesini temin etmişti. Halifenin vefatı üzerine Medine’ye dönmüş (720) ve burada on sekiz yıl kadar öğretim faaliyetinde bulunduktan sonra 738’de vefat etmiştir. 737, 735 hatta 724 yılında vefat ettiğine dair rivayetler de vardır. Âsım b. Ömer’in siyer ve megāzîye dair yazdığı eser günümüze müstakil bir kitap halinde intikal etmemiş, ancak İbn İshak, Vâkıdî, İbn Sa‘d ve Taberî eserlerinin birçok yerinde ondan iktibaslar yapmışlardır. Yahudilerin Hz. Peygamber’in geleceğine dair verdikleri haberler, Hz. Peygamber’in annesi Âmine’nin ölümü, Hz. Peygamber ve ashabının Mekke’de Ebû Tâlib mahallesinde muhasara edilmeleri, Hz. Peygamber’in Kâbe’yi ziyaret için Mekke’ye gelen kabilelere İslâmiyet’i anlatması, Akabe biatları, Bedir ve Uhud başta olmak üzere muhtelif gazve ve seriyyelere dair geniş bilgiler onun rivayetleri arasında zikredilebilir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 479 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:asim-b-omer-b-katade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=asim-b-omer-b-katade, https://islamansiklopedisi.org.tr/asim-b-omer-b-katade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:asim-b-omer-b-katade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/asim-b-omer-b-katade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=asim-b-omer-b-katade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Zaferî"
+  ],
+  "death_temporal": {
+    "start_ah": 120,
+    "start_ce": 738,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=asim-b-omer-b-katade, URL: https://islamansiklopedisi.org.tr/asim-b-omer-b-katade || DİA death place: 738 || DİA death-date string: (ö. 120/738) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001654",
+    "iac:person-00002515"
+  ],
+  "students": [
+    "iac:person-00003884",
+    "iac:person-00005670"
+  ]
+}

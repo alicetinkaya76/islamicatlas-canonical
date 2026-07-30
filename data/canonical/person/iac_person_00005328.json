@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00005328",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEHMED EFENDİ, Lâlezârî"
+    },
+    "altLabel": {
+      "tr": [
+        "III. Ahmed döneminde çiçekçiler şeyhi ve Mîzânü’l-ezhâr adlı risâlenin yazarı."
+      ]
+    },
+    "description": {
+      "tr": "Tefsîrî Ahmed Efendi’nin oğlu olup hayatı hakkında fazla bilgi yoktur. Osmanlı tarihinde bir dönem çok ilgi çeken lâlenin yetiştirilmesindeki bilgi ve becerisinden dolayı kendisine Lâlezârî unvanı verilmiştir. III. Ahmed tarafından 1137’de (1724-25) serşükûfeciliğe tayin edildiği ve aşırı talep sebebiyle artan lâle fiyatlarının düzenlenmesi görevinin kendisine verildiği bilinmektedir. İstanbul kadısı Kethüdâzâde Mehmed Efendi’ye gönderilen bir fermanla bütün şükûfecilerin Mehmed Lâlezârî tarafından düzenlenen narha uymaları, narhtan fazla fiyatla alışverişe cesaret edenlerin çiçeklerinin müsadere edilip kendilerinin sürgüne gönderileceği bildirildi. 27 Şevval 1138’de (28 Haziran 1726) düzenlenen bu narhla ilgili kayıtlar İstanbul kadılığına ait sicil defterlerinde bulunmaktadır. Defterde 239 adet lâle ismi yer almakta ve lâleler en pahalısından başlanarak kıymetlerine göre sıralanmaktadır. Bu listeye göre lâle fiyatları 6 akçe ile 50 kuruş arasında değişmektedir. Lâlezârî Mehmed Efendi İstanbul’da vefat etti. Mezarı babası tarafından tamir ettirilen, kendisinin de minberini yaptırdığı Lâlezâr Mescidi’nin hazîresindedir. Mehmed Efendi’nin tesbit ettiği lâle cinslerinin sayısının 100’den fazla olduğu ve bunlardan bir kısmının isimlerinin bizzat Sadrazam Nevşehirli Damad İbrâhim Paşa tarafından konulduğu kaydedilmektedir. Mehmed Efendi Risâle-i Lâle el-Müsemmâ bi-Mîzâni’l-ezhâr adlı bir eser kaleme almıştır. İyi bir lâlenin nasıl yetiştirileceğini anlatan risâlede bir lâlede bulunması gereken yirmi kadar vasıf sayılmakta, lâlenin ekiminin nasıl yapılacağı ve toprağının sahip olması gereken nitelikler kaydedilmektedir. Eserin çeşitli yazma nüshaları mevcuttur (Âtıf Efendi Ktp., nr. 2127; Millet Ktp., Ali Emîrî Efendi, Tabîiyye, nr. 163, 174; İÜ Ktp., TY, nr. 9853; Köprülü Ktp., Mehmed Âsım Bey, nr. 481; Hacı Selim Ağa Ktp., nr. 1272). Mîzânü’l-ezhâr Heinrich Friedrich von Diez tarafından Almanca’ya tercüme edilmiş ( Tulpen- und Narcissen-Bau in der Türkey , Halle-Berlin 1815), W. S. Murray tarafından Almanca’dan İngilizce’ye çevrilip kısaltılarak The Habit of Flowers adıyla yayımlanmıştır (Baytop, s. 4, 14). Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 456 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-efendi-lalezari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-efendi-lalezari, https://islamansiklopedisi.org.tr/mehmed-efendi-lalezari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:38Z",
+    "modified": "2026-05-04T15:40:11Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-efendi-lalezari (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1149,
+    "start_ce": 1736,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-efendi-lalezari, URL: https://islamansiklopedisi.org.tr/mehmed-efendi-lalezari || DİA death place: İstanbul || DİA death-date string: (ö. 1149/1736-37) || DİA categories: tefsir || Chunk count: 1",
+  "death_place": "iac:place-00000735"
+}

@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00002510",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Enderâbî",
+      "ar": "الأندرابي"
+    },
+    "originalScript": {
+      "ar": "الأندرابي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Ahmed b. Ebî Ömer el-Enderâbî"
+      ]
+    },
+    "description": {
+      "tr": "Afganistan şehirlerinden Enderâblıdır. Hayatı hakkında yeterli bilgi yoktur. Ahmed ez-Zâhid lakabıyla da anılır. Hocalarının çoğu Nîşâburlu olduğuna göre öğrenimini ve özellikle kıraat ilmindeki ihtisasını bu şehirde tamamladığı söylenebilir. Ebû Ca‘fer Ahmed b. Ebû Ahmed el-Merverrûzî’den Ebû Müzâhim Mûsâ b. Ubeydullah el-Hâkānî’nin kıraatle ilgili “kasîde-i râiyye”sini rivayet etmiş; Ebû Bekir Ahmed b. Hasan’dan Ebû Ca‘fer, Nâfi‘ b. Abdurrahman, İbn Âmir, Ebû Amr b. Alâ ve Âsım b. Behdele’nin; Ebû Ali Hasan b. Hüseyin el-Buhârî’den Ebû Amr b. Alâ, Âsım ve Ali b. Hamza el-Kisâî’nin; Ebû Osman Saîd b. Muhammed el-Bahîrî’den Nâfi‘, İbn Kesîr ve Âsım’ın; Ebü’l-Kāsım Abdurrahman b. Ahmed el-Attâr’dan Ya‘kūb el-Hadramî’nin; Ebû Bekir Muhammed b. Abdülazîz el-Hîrî’den Ebû Ca‘fer’in; Ebû Abdullah Muhammed b. Ali el-Habbâzî’den Nâfi‘ ve Ebû Ca‘fer’in; Ebû Mansûr Nasr b. Bekir el-Mihrânî’den de Hamza ve Kisâî’nin kıraatlerini muhtelif tarikleriyle öğrenmiştir. Ayrıca Ebü’l-Hasan Ali b. Muhammed el-Hazzâ’dan Kur’an’ın tamamını birkaç defa okuyarak kıraatle ilgili bilgilerini pekiştirmiştir. Enderâbî hadisle de ilgilenmiş, Ebû Saîd Muhammed b. Ali el-Haşşâb, Ebû Amr Muhammed b. Yahyâ b. Hüseyin, Ebû Mansûr Nasr b. Bekir el-Mihrânî, Hâkim en-Nîsâbûrî gibi âlimlerden hadis rivayet etmiştir. Kur’an ilimleri ve özellikle kıraat alanında devrinin önde gelen âlimlerinden olan Enderâbî, Yâkūt’un tesbitine göre 20 Rebîülevvel 470’te (11 Ekim 1077) vefat etti. İbnü’l-Cezerî ise onun 500 (1106) yılından sonra öldüğünü kaydetmektedir. Eserleri. Enderâbî’nin günümüze ulaşan tek eseri el-Îżâḥ fi’l-ḳırâʾât ’tir. Elli üç babdan meydana gelen ve Kur’an ilimlerine dair pek çok konuyu ihtiva etmesiyle kendi türünde ilk kaynaklar arasında sayılan eserin bilinen yegâne nüshası İstanbul Üniversitesi Kütüphanesi’nde kayıtlıdır (AY, nr. 1350). el-Îżâḥ ’ın birinci babı Ahmed Nusayyif el-Cenâbî tarafından Feżâʾilü’l-Ḳurʾân ve ehlihî ve aḫlâḳuhüm , otuz ikinci babı da Ḳırâʾâtü’l-ḳurrâʾi’l-maʿrûfîn bi-rivâyâti’r-ruvâti’l-meşhûrîn adıyla neşredilmiştir (bk. bibl.). İbnü’l-Cezerî, Enderâbî’nin İḫtiyâru Ebî ʿUbeyd ve İḫtiyâru Ebî Ḥâtim adlı iki eserinden daha söz etmekteyse de bunların günümüze intikal edip etmediği bilinmemektedir. Ḳırâʾâtü’l-ḳurrâʾi’l-maʿrûfîn bi-rivâyâti’r-ruvâti’l-meşhûrîn adıyla neşredilen bab içinde yer alan (s. 142-146, 151-154) ve “İḫtiyâru Ebî ʿUbeyd el-Ḳāsım b. Sellâm”, “İḫtiyâru Ebî Ḥâtim Sehl b. Muḥammed” başlıklarını taşıyan bölümler bu iki eserin özeti olmalıdır. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 185 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:enderabi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=enderabi, https://islamansiklopedisi.org.tr/enderabi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:enderabi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=enderabi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:01Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=enderabi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=enderabi)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Enderâbî"
+  ],
+  "death_temporal": {
+    "start_ah": 470,
+    "start_ce": 1077,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=enderabi, URL: https://islamansiklopedisi.org.tr/enderabi || DİA death place: 470 || DİA death-date string: (ö. 470/1077) || DİA categories: hadis > rivayet > şiir || Chunk count: 1"
+}

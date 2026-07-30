@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00002028",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DEYLEMÎ, Şîrûye b. Şehredâr",
+      "ar": "شيروية بن شهردار الديلمي"
+    },
+    "originalScript": {
+      "ar": "شيروية بن شهردار الديلمي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Şücâ‘ Şîrûye b. Şehredâr b. Şîrûye"
+      ]
+    },
+    "description": {
+      "tr": "445’te (1053) Hemedan’da doğdu. Muhaddis Şehredâr b. Şîrûye’nin babası olup yalancı peygamber Esved el-Ansî’yi öldüren sahâbî Fîrûz ed-Deylemî’nin soyundandır. İlkiyâ lakabıyla ün yapmıştır. Kur’an’ı ezberledikten sonra hadis tahsili için başta Hemedan olmak üzere Horasan bölgesinin belli başlı ilim merkezlerini dolaştı. Bağdat’a ve Kazvin’e giderek devrin tanınmış âlimlerinden hadis okudu. Belli başlı hocaları arasında, İbn Zîrek diye anılan Muhammed b. Osman el-Kūmesânî, İbnü’l-Büsrî diye bilinen Ali b. Ahmed, Ebû Amr İbn Mende, Ebü’l-Feth Abdûs b. Abdullah, Ebû Muhammed ed-Dûnî ve Ebü’l-Ferec Ali b. Muhammed el-Cerîrî sayılabilir. Tahsilini tamamladıktan sonra Hemedan’a döndü ve buradaki medresede hadis müderrisliği görevini üstlendi. Medresenin idarî işlerini de yürüten Deylemî’nin bir hizmetli gibi çalıştığı rivayet edilir. Kendisinden hadis öğrenenler arasında oğlu Şehredâr, Ebû Mûsâ el-Medînî ve İbnü’l-Mu‘temid diye anılan devrin tanınmış vâizi Muhammed b. Fazl el-İsferâyînî anılmaya değer isimlerdir. Zehebî, Şîrûye’nin hadis ezberleme yeteneğinin orta derecede olduğunu söylemiştir. Fıkıhta Şâfiî mezhebine bağlı olup devrinde Hemedan ve çevresinde yaygın olan Şîa, Hâricîlik, Mu‘tezile gibi fırkalara kapılmamış ve sünneti savunmuştur. Yüzünün ve ahlâkının güzelliği ve az konuşmasıyla ün yapmış olan Deylemî 9 Receb 509 (28 Kasım 1115) Pazar günü Hemedan’da vefat etti. Eserleri. 1. Firdevsü’l-aḫbâr . Metinleri kısa, fakat çoğu zayıf, hatta mevzû olan 10.000 hadisi senedlerini almayarak bir araya getirdiği bu kitap oğlu Şehredâr tarafından yeniden düzenlenmiş, Saîd b. Besyûnî Zağlûl tarafından son cildi fihrist olmak üzere altı cilt halinde yayımlanmıştır (Beyrut 1406/1986). 2. Riyâżü’l-üns li-ʿuḳalâʾi’l-ins . Hz. Peygamber ile ondan sonra gelen halifelere dair bir eserdir ( Brockelmann, GAL , I, 419). 3. Târîḫu Hemedân . Hemedan’da yetişen âlimlerin hayatını ihtiva etmektedir ( a.g.e. , I, 420). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 266 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:deylemi-siruye-b-sehredar",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=deylemi-siruye-b-sehredar, https://islamansiklopedisi.org.tr/deylemi-siruye-b-sehredar",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:deylemi-siruye-b-sehredar",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=deylemi-siruye-b-sehredar",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=deylemi-siruye-b-sehredar (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=deylemi-siruye-b-sehredar)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Şâfiî (mezhep)",
+    "Mu'tezilî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 509,
+    "start_ce": 1115,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=deylemi-siruye-b-sehredar, URL: https://islamansiklopedisi.org.tr/deylemi-siruye-b-sehredar || DİA birth place: Hemedan || DİA death place: Hemedan || DİA death-date string: (ö. 509/1115) || DİA categories: hadis > fıkıh > sünnet || Chunk count: 1",
+  "students": [
+    "iac:person-00002225",
+    "iac:person-00004239"
+  ]
+}

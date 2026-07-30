@@ -1,0 +1,57 @@
+{
+  "@id": "iac:person-00000476",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜLKERÎM-i BUHÂRÎ",
+      "ar": "عبد الكريم بخارى"
+    },
+    "originalScript": {
+      "ar": "عبد الكريم بخارى"
+    },
+    "description": {
+      "tr": "Hayatı hakkında ayrıntılı bilgi yoktur. Muhtemelen 1760’larda Buhara’da doğdu. On altı yaşında iken Keşmir’e gitti ve Herat, Kandehar, Kâbil, Peşâver, Muzafferâbâd yoluyla geri döndü. İkinci ve uzun seyahatini 1789’da gerçekleştirdi; Kâşgar, Yârkend, Tibet ve Keşmir’i dolaştı. 1799’da Buhara’ya sığınan ve sekiz ay burada kalan Şah Mahmud Dürrânî’ye intisap etti. 1804’te Rusya’ya giden Buhara elçilik heyetinde önemsiz bir görev aldı. Saint Petersburg’da dokuz ay kaldıktan sonra Moskova-Astarhan yoluyla geri döndü. Dönüş sırasında Hîve’de iken Hîve hanının Buhara’ya karşı bir çapul seferi düzenlemek için yaptığı hazırlıklara şahit oldu. Bu durumu Buhara Emîri Haydar Han’a bildirdi ise de buna gereken önem verilmedi. 1807 Ekimi başlarında Mirza Muhammed Yûsuf’un başkanlığındaki Buhara elçilik heyeti ile Rusya-Romanya üzerinden İstanbul’a geldi. Heyetin burada bulunduğu ilk yıl içinde eşi vebadan ölünce yeniden evlendi ve İstanbul’a yerleşti. 1830’dan sonra hakkında herhangi bir bilgiye rastlanmamış olması, onun bu tarihlerde öldüğünü düşündürmektedir. Abdülkerîm asıl şöhretini Orta Asya tarihi üzerine yazdığı Farsça eseriyle yapmıştır. İstanbul’da bulunduğu sırada kaleme aldığı eserini, kendisini devamlı teşvik eden ve büyük yardımlarını gördüğü Sadâret teşrifatçısı Ârif Bey’e ithaf etmiştir. Eserinde Orta Asya’nın Buhara, Hîve, Hokand, Afganistan ve Keşmir gibi bölgelerinin coğrafî durumları ve tarihî olayları hakkında dikkate değer bilgiler verir. Bu bilgiler doğrudan doğruya kendisinin şahsî gözlemlerine dayandığı için esere orijinal bir nitelik kazandırmıştır. Müellif özellikle Buhara ve çevresindeki hadiselere ağırlık vermiş, Orta Asya hanlıklarının baş düşmanının Rusya olduğu üzerinde önemle durmuştur. Ayrıca, Buhara hükümdarlarından Muhammed Ma‘sûm Han ile Haydar Han, Hîve hanlarından Seyyid Ebülgazî Bahâdır Han ve Hokand hanlarından Âlim Han devirleri ile Ahmed Şah Dürrânî’den itibaren Afganistan tarihi hakkında önemli bilgiler vermiştir. Yer yer ifade bozukluklarına rastlanan eserde bazı Türkçe kelimeler de bulunmaktadır. Eserin Ârif Bey’in terekesinden çıkan tek nüshası, Fransızca tercümesi ile birlikte Paris’te neşredilmiştir ( Histoire de l’Asie Centrale: Boukhara, Khiva, Khoqand, depuis les dernieres années du règne de Nadir Chah [1153], jusqu’à 1233 de l’hégire, 1740-1818 , ed. Ch. Schefer, Paris 1876; I-II, Amsterdam 1970). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 249-250 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulkerim-i-buhari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulkerim-i-buhari, https://islamansiklopedisi.org.tr/abdulkerim-i-buhari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:38Z",
+    "modified": "2026-05-04T15:32:38Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulkerim-i-buhari (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1830,
+    "approximation": "after"
+  },
+  "note": "DİA cross-reference: slug=abdulkerim-i-buhari, URL: https://islamansiklopedisi.org.tr/abdulkerim-i-buhari || DİA birth place: Buhara || DİA death-date string: (ö. 1830’dan sonra) || DİA categories: hadis || Chunk count: 1"
+}

@@ -1,0 +1,70 @@
+{
+  "@id": "iac:person-00001452",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Benâkitî",
+      "ar": "بناكتى"
+    },
+    "originalScript": {
+      "ar": "بناكتى"
+    },
+    "altLabel": {
+      "tr": [
+        "Fahrüddîn Ebû Süleymân Dâvûd b. Muhammed Benâkitî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında pek az bilgi vardır. Fahr-i Benâkitî adıyla da tanınır. Özellikle şer‘î ilimlerde birçok âlim yetiştiren Benâkitli bir aileye mensuptur. Babası Tâceddin Ebü’l-Fazl Muhammed (ö. 682/1283), Begavî’nin Meṣâbîḥu’s-sünne ’sine el-Meysûr adıyla şerh yazmış büyük bir âlim, kardeşi Nizâmeddin Ali ise (ö. 699/1300), herkesin hürmet ve itimadını kazanmış, Tebriz’de irşad ile meşgul olan bir mutasavvıftı. Daha çok şair olarak tanınan Benâkitî Tebriz’de İlhanlılar sarayına intisap etti. Zilkade 701’de (Temmuz 1302) Gazan Mahmud Han tarafından melikü’ş-şuarâlığa tayin edildi. Benâkitî’nin en önemli eseri, Olcaytu Hudâbende’nin (1304-1317) emriyle yazmaya başladığı ve asıl adı Ravżatü üli’l-elbâb fî tevârîḫi’l-ekâbir ve’l-ensâb olan Târîḫ-i Benâkitî ’dir. Müellif eserini 1317’de Ebû Said Bahadır Han döneminde tamamladı. Eser, muhtevasındaki sıralamada yapılan değişiklik ve İlhanlılar dönemine ait orijinal bilgiler dışında Reşîdüddin’in Câmiʿu’t-tevârîḫ adlı tarihinin bir özeti niteliğindedir. Târîḫ-i Benâkitî , sırasıyla peygamberler ve kilise babaları (âbâ-yı Nasrâniyye), eski İran hükümdarları, Hz. Peygamber ve halifeler, Abbâsîler ve onların çağdaşı İran hânedanları, yahudiler, hıristiyanlar ve Franklar, Hintliler, Çinliler ve Moğollar olmak üzere dokuz bölüme ayrılır. 1304-1317 yılları arasındaki olayları içine alan dokuzuncu bölümün son tarafları orijinal bilgiler ihtiva eder. Benâkitî’nin gayri müslimler hakkında verdiği hükümler gerçeğe oldukça yakındır. Müslümanlarca bilinmeyen Avrupa ülkeleri ve oralardaki olayları da belirtmesi ayrıca dikkate değer. Eserin dünya kütüphanelerindeki çeşitli nüshalarından başka 746’da (1345) istinsah edilen güzel bir nüshası Süleymaniye Kütüphanesi’ndedir (Ayasofya, nr. 3096). Çin’le ilgili olan sekizinci bölüm August Müller tarafından Latince çevirisiyle birlikte Abdallare Beidawaei Historia Sinensis adıyla ve Beyzâvî’ye nisbet edilerek yayımlanmış (Berlin 1677; Jena 1689), sonradan S. Weston da aynı hatayı işleyerek bu bölümü A Chinese Chronicle by Abdollah of Beyza (London 1820) adıyla İngilizce’ye çevirmiştir. Ancak daha sonra Quatremère eserin Niẓâmü’t-tevârîḫ sahibi Beyzâvî’ye değil Benâkitî’ye ait olduğunu ispat etmiş, sekizinci bölümün bir parçasını da Fransızca’ya çevirmiştir. Târîḫ-i Benâkitî Ca‘fer Şuâr tarafından yayımlanmıştır (Tahran 1348 hş./1969). Melikü’ş-şuarâ unvanını taşıyan Benâkitî’nin divanı günümüze kadar gelmemiştir. Devletşah onun çok parlak kaside ve kıtalarının bulunduğunu söyler ve bir gazelini nakleder. Tarihinde de bazı şiirlerine rastlanmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 429-430 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:benakiti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=benakiti, https://islamansiklopedisi.org.tr/benakiti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:42Z",
+    "modified": "2026-05-04T15:33:42Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=benakiti (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 730,
+    "start_ce": 1329,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=benakiti, URL: https://islamansiklopedisi.org.tr/benakiti || DİA death-date string: (ö. 730/1329-30) || Chunk count: 1"
+}

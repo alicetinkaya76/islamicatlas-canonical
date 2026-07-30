@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00000761",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED b. SİNÂN",
+      "ar": "أحمد بن سنان"
+    },
+    "originalScript": {
+      "ar": "أحمد بن سنان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ca‘fer Ahmed b. Sinân b. Esed el-Kattân el-Vâsıtî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında fazla bilgi yoktur. Vekî‘ b. Cerrâh, Abdurrahman b. Mehdî, Yahyâ b. Saîd el-Kattân ve İmam Şâfiî gibi devrinin şöhretli muhaddislerinden hadis okudu. Kendisinden de İmam Buhârî, Müslim, Ebû Dâvûd, İbn Mâce, İbn Huzeyme gibi muhaddisler hadis rivayet etti. Oğlu Ca‘fer b. Ahmed de talebelerindendir. Yine onun talebelerinden olan Ebû Hâtim er-Râzî, “zamanın imamı” diye övdüğü hocasının sika ve sadûk bir muhaddis olduğunu söyler. Diğer talebeleri İmam Nesâî ile Dârekutnî de aynı görüşe katılırlar. Hâkim en-Nîsâbûrî, bir hocasından naklen, “Yaşadığı asırda Abdullah b. Mübârek ne ise kendi devrine göre Ahmed b. Sinân da odur” dendiğini anlatır. Rivayet ettiği hadislerden biri Buhârî’nin Ṣaḥîḥ ’inde, diğerleri ise Müslim’in Ṣaḥîḥ ’i ile Ebû Dâvûd ve İbn Mâce’nin sünenlerinde ve Nesâî’nin es-Sünenü’l-kübrâ ’sında yer almıştır. Kaynaklarda onun, râvilere göre tertip edilmiş bir müsned inden söz edilmekle beraber, bu eserin günümüze kadar gelip gelmediği henüz bilinmemektedir. Ahmed b. Sinân’dan nakledilen sözlerden biri şudur: “Her bid‘atçı muhaddislere düşmandır, bid‘at illetine yakalanan kimsenin kalbinden hadis zevki çekip alınmıştır.” Kaynaklarda vefat tarihi için 250, 254, 256, 258 ve 259 yılları yer almaktadır. Zehebî ( el-ʿİber , I, 370), Safedî ( el-Vâfî , VI, 407), İbn Kesîr ( el-Bidâye , XI, 31) ve İbnü’l-İmâd ( Şeẕerât , II, 137) 258 yılında vefat ettiğini söylemekte, İbn Hacer ise bu ihtilâfların istinsah hatasından meydana geldiğini, doğrusunun 259 yılı olduğunu belirtmektedir (bk. Tehẕîbü’t-Tehẕîb , I, 34). Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 132-133 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-b-sinan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-b-sinan, https://islamansiklopedisi.org.tr/ahmed-b-sinan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:50Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-b-sinan (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Vâsıtî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 259,
+    "start_ce": 872,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-b-sinan, URL: https://islamansiklopedisi.org.tr/ahmed-b-sinan || DİA death-date string: (ö. 259/872-73) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000643",
+    "iac:person-00006568",
+    "iac:person-00007584",
+    "iac:person-00007656"
+  ],
+  "students": [
+    "iac:person-00001599",
+    "iac:person-00002157",
+    "iac:person-00003875",
+    "iac:person-00003920",
+    "iac:person-00005861"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "@id": "iac:person-00000525",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. MUGAFFEL",
+      "ar": "عبد الله بن مغفّل"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن مغفّل"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Saîd (Ebû Ziyâd) Abdullāh b. Mugaffel el-Müzenî",
+        "Abdullâh b. Muğfel el-Muzenî"
+      ],
+      "ar": [
+        "عبد الله بن مغفل المزني"
+      ]
+    },
+    "description": {
+      "tr": "Tebük Savaşı öncesinde, fakirlikleri sebebiyle binecek hayvan bulamadıkları için Hz. Peygamber’e müracaat eden, onun da kendilerine binek temin edememesi üzerine, orduya katılamayacaklarından ötürü aşırı derecede üzülüp göz yaşı döken (bk. BEKKÂÎN ) ve bu samimi davranışlarından dolayı haklarında Tevbe sûresinin 92. âyeti nâzil olan sahâbîlerden biridir. Bey‘atürrıdvân sırasında, altında biat edilen ağacın bir dalını kaldırarak Hz. Peygamber’in gölgelenmesini sağlamıştır. Hz. Ömer tarafından Basra’ya mürşid ve muallim olarak gönderilen Abdullah’tan kırk üç hadis intikal etmiş olup bunların altısı Ṣaḥîḥayn ’da yer almıştır. Kendisinden Hasan-ı Basrî, Muâviye b. Kurre, Sâbit el-Bünânî ve Ebü’l-Âliye gibi meşhur âlimler hadis rivayet etmiştir. Tüster’in fethinde şehre ilk giren kimse olan Abdullah, muallim tayin edildiği Basra’ya yerleşmiş ve orada vefat etmiştir. Vasiyeti üzerine cenaze namazını Ebû Berze el-Eslemî kıldırmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 119-120 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "A Companion, one of the People of the Tree."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd Allāh b. Mughal al-Muzanī"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-mugaffel",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-mugaffel, https://islamansiklopedisi.org.tr/abdullah-b-mugaffel",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:6247",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6247, heading_ar=عبد الله بن مغفل",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-b-mugaffel",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-b-mugaffel",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-mugaffel (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6247]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6247 (heading_ar=عبد الله بن مغفل) via Track A (DİA→Alam xref bridge). dt=Sahâbî, enbiyâ ağacının ashabından."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+translit from alam_detail.json el-alam:6247."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Müzenî"
+  ],
+  "death_temporal": {
+    "start_ah": 59,
+    "start_ce": 679,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-mugaffel, URL: https://islamansiklopedisi.org.tr/abdullah-b-mugaffel || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6247] || DİA death-date string: (ö. 59/679) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6247, heading_ar=عبد الله بن مغفل, dt=Sahâbî, enbiyâ ağacının ashabından.",
+  "students": [
+    "iac:person-00002325",
+    "iac:person-00003260",
+    "iac:person-00006512",
+    "iac:person-00006607"
+  ]
+}

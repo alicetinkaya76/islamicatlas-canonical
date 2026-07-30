@@ -1,0 +1,92 @@
+{
+ "@id": "iac:person-00000301",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Birjandi",
+   "tr": "Bircendî",
+   "ar": "البرجندي"
+  },
+  "originalScript": {
+   "ar": "البرجندي"
+  },
+  "altLabel": {
+   "en": [
+    "Abd al-Ali ibn Muhammad ibn Husayn al-Birjandi"
+   ],
+   "tr": [
+    "Abdülalî b. Muhammed b. Hüseyin el-Bircendî"
+   ],
+   "ar": [
+    "عبد العلي بن محمد بن حسين البرجندي"
+   ]
+  },
+  "description": {
+   "tr": "Tûsî şerhinde Dünya'nın kendi ekseni etrafında dönüşü lehine argümanlar önerdi — Kopernik öncesi yersel hareketin en ileri tartışmalarından || Bircendî'nin Dünya'nın dönüşü tartışması, Galileo'nun eylemsizlik kavramının bir öncülüğünü içerir. || [Tarih notu] Dünya üzerindeki nesnelerin dönüşünü paylaştığı argümanı, dairesel eylemsizlik kavramına dikkat çekici ölçüde yakındır.",
+   "en": "Proposed arguments for Earth's rotation on its axis in his commentary on al-Tusi — one of the most advanced pre-Copernican discussions of terrestrial motion || al-Birjandi's discussion of Earth's rotation includes what amounts to an anticipation of Galileo's concept of inertia — objects on Earth share its rotation. || [Historiographical note] His argument that objects on Earth share its rotation is remarkably close to the concept of circular inertia — a key step toward Newtonian mechanics.",
+   "ar": "اقترح حججاً لدوران الأرض حول محورها في شرحه على التذكرة || يتضمن نقاشه لدوران الأرض ما يشبه استباقاً لمفهوم القصور الذاتي عند غاليليو"
+  }
+ },
+ "profession": [
+  "astronomer",
+  "mathematician"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0118",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0118",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:22Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:22Z",
+  "modified": "2026-07-12T14:15:21Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:22Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0118 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:15:21Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "h11_001 QID karantinası: wikidata:Q135945760 kayıttan çıkarıldı (denetim MISMATCH, sim=0, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (301-1548) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001548 lehine yumuşak-silindi. Gerekçe: Nisbe el-Bircendî, Bircend doğum yeri ve 934/1527-28 ölüm yılı astronom Abdülalî el-Bircendî'de birleşiyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001548"
+ },
+ "birth_temporal": {
+  "start_ce": 1455,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1528,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0118, lecture_week=n/a. || Key works: {'title': {'en': \"Commentary on al-Tusi's Tadhkira\", 'tr': \"Tûsî'nin Tezkire'sine Şerh\", 'ar': 'شرح تذكرة الطوسي'}, 'year': 1507, 'field': 'astronomy', 'significance': {'en': \"Advanced commentary proposing Earth's rotational motion — independently anticipating aspects of Copernican heliocentrism\", 'tr': \"Dünya'nın dönme hareketini öneren ileri düzey şerh — Kopernik güneş merkezciliğinin yönlerini bağımsız olarak önceleyen\"}} || Modern parallel: Like a physicist who comes tantalizingly close to a revolutionary theory — articulating key pieces of the puzzle without the final synthesis.",
+ "authored_works": [
+  "iac:work-00000158"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003108",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HALÎLULLĀH-ı KİRMÂNÎ",
+      "ar": "خليل الله كرمانى"
+    },
+    "originalScript": {
+      "ar": "خليل الله كرمانى"
+    },
+    "description": {
+      "tr": "775’te (1374) İran’ın Kirman şehri yakınlarındaki Kûhbenân köyünde doğdu. Ni‘metullāhiyye tarikatının pîri Ni‘metullāh-ı Velî’nin (ö. 834/1431) oğludur. Soyu, İmam Ca‘fer es-Sâdık’ın oğlu İsmâil’e ulaşmaktadır. İlk tahsilini doğduğu yerde tamamlayan Halîlullah tasavvuf terbiyesini babasından aldı. Babasının vefatı üzerine onun yerine seccadenişin oldu. Tarikatın merkezi olan Mâhân’da irşad faaliyetine devam ederken Timur’un oğlu Şâhruh’un daveti üzerine Herat’a göç etti. Timurlular’la aralarında anlaşmazlık çıkınca 840’tan (1436) sonra, dört oğlundan biri olan Mîr Şemseddin’i Ni‘metullāhiyye Tekkesi’nin yönetimi ve türbedarlığı için Mâhân’da bırakarak Habîbullah ve Muhibbullah adlı iki oğluyla birlikte Behmenîler’in hüküm sürdüğü Hindistan’ın Dekken bölgesine gitti. Behmenî Sultanı I. Ahmed (1422-1436), daha önce babası Ni‘metullāh-ı Velî’yi Dekken’e davet etmiş, şeyh bu davete yaşlılığını mazeret göstererek icabet etmemiş, yerine Halîlullah’ın oğlu Nûrullah’ı göndermiş, Behmenî sultanı da Nûrullah’a “melikü’l-meşâyih” unvanını vererek ülkesinde yaşayan sûfîlerin mânevî lideri konumuna yükseltmişti. Halîlullah Şah Dekken’de büyük bir saygıyla karşılandı. Oğullarının Behmenî hânedanına damat olmaları üzerine de sarayla yakın ilişkiler kurdu ve Sultan II. Alâeddin Ahmed’in güvenini kazanarak bölgenin en meşhur sûfîlerinden biri oldu. Ni‘metullāhiyye tarikatı onun döneminde Şiî bir görünüm kazanmış, Behmenîler’in başşehri Bîder’de açtığı dergâh, XVIII. yüzyılın sonlarına kadar tarikatın Hindistan’daki merkezi olarak faaliyet göstermiştir. Hayatının son yıllarını ibadet ve tefekkürle geçiren Halîlullah Şah vefat edince Bîder’de hükümdar mezarlarının bulunduğu yerin yakınlarına defnedildi. Sultan II. Alâeddin Ahmed tarafından adına bir türbe yaptırıldı. Daha sonra ailesine mensup bazı kişilerin de defnedildiği bu bölge zamanla Halîliyye diye meşhur oldu. Halîlullah Şah’ın oğulları ve torunlarının bir kısmı devletin önemli mevkilerinde bulundular. Bîder’deki tekke ailenin yönetiminden çıkınca bölgede yetişen Ni‘metullāhî dervişleri İran’a geçerek tarikatı burada canlandırdılar. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 332-333 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:halilullah-i-kirmani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=halilullah-i-kirmani, https://islamansiklopedisi.org.tr/halilullah-i-kirmani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:halilullah-i-kirmani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/halilullah-i-kirmani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:10Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=halilullah-i-kirmani (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 860,
+    "start_ce": 1456,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=halilullah-i-kirmani, URL: https://islamansiklopedisi.org.tr/halilullah-i-kirmani || DİA birth place: Kûhbenân || DİA death place: Bîder || DİA death-date string: (ö. 860/1456) || DİA categories: tarikat > tasavvuf || Chunk count: 1",
+  "birth_place": "iac:place-00015144"
+}

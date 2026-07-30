@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00005205",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MÂLİK b. EBÜ’s-SEMH",
+      "ar": "مالك بن أبي السمح"
+    },
+    "originalScript": {
+      "ar": "مالك بن أبي السمح"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Velîd Mâlik b. Câbir b. Sa‘lebe et-Tâî"
+      ]
+    },
+    "description": {
+      "tr": "Muâviye b. Ebû Süfyân zamanında (661-680) Tay kabilesinin yaşadığı topraklarda doğdu. İbn Ebü’s-Semh olarak da bilinir. Babası aynı kabileden olup annesi Benî Mahzûm kabilesinden Kureyşli bir hanımdı. Küçük yaşta babasını kaybetmesinin ardından yaşadıkları bölgede kıtlık çıkınca ailesiyle birlikte Medine’ye göç etmek zorunda kaldı. Burada sanatkârları himaye etmesiyle tanınan Abdullah b. Ca‘fer b. Ebû Tâlib onu evlât edindi. Cemîle es-Sülemiyye ve Ömer el-Vâdî gibi Medineli mûsikişinaslardan ders alarak kendini yetiştirdi. 684 yılında Hamza b. Abdullah b. Zübeyr’in evinde mûsiki üstadı Ma‘bed b. Vehb’i tanıma imkânı bulan Mâlik sesini çok beğendiği Ma‘bed’den mûsiki dersleri almaya başladı ve zamanının büyük kısmını onun yanında geçirdi. Yeteneğiyle kısa zamanda Medine’de tanındı ve şöhreti giderek yayılmaya başladı. Evini bir mûsiki okulu haline getiren hâmisi Abdullah b. Ca‘fer’in 700 yıllarında ölümü üzerine Hâşimîler’den Süleyman b. Ali’ye intisap etmekle birlikte Emevî devlet büyüklerinden de yakın ilgi gördü. Kaynaklarda, II. Yezîd ve II. Velîd’in saraylarında yapılan mûsiki toplantılarında Mâlik’in icralarından özellikle söz edilir. Abbâsîler’in iktidara gelişinden (750) sonra Süleyman b. Ali, Aşağı Dicle’ye vali olarak tayin edilince onunla birlikte Basra’ya kadar gitti. Kısa bir süre sonra tekrar Medine’ye dönen Mâlik, Halife Ebû Ca‘fer el-Mansûr’un (754-775) ilk dönemlerine kadar yaşadı ve seksen yaşının üzerinde olduğu halde burada vefat etti. Devrinin mugannîleri arasında farklı bir yere sahip olan Mâlik’in okuyuşunda tamamen hocası Ma‘bed’in üslûbu hâkimdi, bu üslûp üzerine okuduğu eserler unutulmaz icralar olarak mûsiki tarihine geçmiştir. Bestekârlık sahasında da kabiliyeti olmasına rağmen Ma‘bed’e duyduğu saygıdan dolayı hocası hayatta olduğu sürece beste yapmayacağına dair söz vermiştir. el-Eġānî ’de nakledildiğine göre Mâlik’in yegâne bestesi, “Lâ îşe illâ bi-Mâlik bin Ebi’s-Semh” sözleriyle başlayan eseridir. İshak el-Mevsılî, Mâlik’i Mekkeli İbn Süreyc, İbn Muhriz ve Medineli Ma‘bed b. Vehb ile birlikte zamanın en ünlü dört sanatkârı arasında zikreder. Mâlik şarkıları en ince nüanslarına kadar kolayca öğrenebilen, müzik estetiğini ön plana çıkaran, özellikle bulunduğu yörenin melodik unsurlarını kendine has tavırlarıyla yorumlayan bir sanatkâr olarak Arap mûsiki tarihinin en önemli simaları arasında yer alır. Yetiştirdiği talebeler içinde Muhammed b. Âişe en meşhurlarındandır. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 27. cildinde, 506 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:malik-b-ebus-semh",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=malik-b-ebus-semh, https://islamansiklopedisi.org.tr/malik-b-ebus-semh",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=malik-b-ebus-semh (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 140,
+    "start_ce": 757,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=malik-b-ebus-semh, URL: https://islamansiklopedisi.org.tr/malik-b-ebus-semh || DİA death-date string: (ö. 140/757 [?]) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005139"
+  ],
+  "students": [
+    "iac:person-00003635"
+  ]
+}

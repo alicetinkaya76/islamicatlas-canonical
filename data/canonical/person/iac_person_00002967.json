@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00002967",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂBİS b. SA‘D",
+      "ar": "حابس بن سعد"
+    },
+    "originalScript": {
+      "ar": "حابس بن سعد"
+    },
+    "altLabel": {
+      "tr": [
+        "Hâbis b. Sa‘d b. Münzir el-Cermî et-Tâî"
+      ]
+    },
+    "description": {
+      "tr": "Adı Hâbis b. Rebîa olarak da kaydedilmekle birlikte İbn Hibbân, Hâbis b. Sa‘d ile Hâbis b. Rebîa’nın ayrı kişiler olduğunu belirtir ( es̱-S̱iḳāt , III, 94-95). Dımaşklılar’ın Yemânî nisbesiyle andığı Hâbis’in sahâbî mi, yoksa muhadramûn dan mı olduğu konusunda ihtilâf vardır. İbn Sa‘d ve Ebû Zür‘a onu Dımaşk’a yerleşen sahâbîler arasında saymaktadırlar. Zehebî, Mîzânü’l-iʿtidâl ’de sahâbîleri zikretmemekle birlikte eserine Hâbis’i almış ve sahâbî olduğu konusundaki görüşün zayıflığını belirtmişse de (I, 428) el-Kâşif (I, 135) ve Tecrîdü esmâʾi’ṣ-ṣaḥâbe (I, 94) adlı kitaplarında onun sahâbî olduğunu söylemiştir. İbn Hacer, Hâbis’i el-İṣâbe ’ye almakla beraber (I, 272), Taḳrîbü’t-Tehẕîb ’de onun muhadramûndan olduğunu kaydetmiş (I, 137), Tehẕîbü’t-Tehẕîb ’de de sahâbî olmadığı yönündeki kanaatini belirtmiştir (II, 127). Hz. Ebû Bekir devrinde Medine’ye gelen Hâbis b. Sa‘d, yine onun hilâfeti zamanında Dımaşk’a gitti. Rivayete göre, Hz. Ömer Hâbis’i Humus kadılığına tayin etmek isteyince ona kadı olduğu zaman nasıl hüküm vereceğini sormuş, Hâbis ictihad edeceğini ve maiyetindekilerle istişarede bulunacağını söylemiş, Hz. Ömer de kendisini bu göreve tayin etmiştir. Ancak Hâbis Hz. Ömer’in yanından ayrıldıktan az sonra bir rüyasını anlatmak üzere geri dönmüş, rüyasında güneşin meleklerden meydana gelen büyük bir toplulukla birlikte doğudan, ayın da büyük bir yıldız topluluğuyla birlikte batıdan geldiğini söylemiştir. Hz. Ömer’in, kendisinin hangi grubun yanında yer aldığını sorması üzerine ay ile beraber olduğunu belirtmiştir. Bunun üzerine Hz. Ömer, “Sen silinip yok olanla berabersin” diyerek onu tayin etmekten vazgeçmiştir. Hâbis b. Sa‘d, Sıffîn Savaşı’nda Muâviye tarafında yer alarak Tay kabilesinin sancaktarlığını yapmış ve bu savaşta hayatını kaybetmiştir (Rebîülevvel 37 / Eylül 657). Hâbis b. Sa‘d, Hz. Fâtıma ve Ebû Bekir’den hadis rivayet etmiş, kendisinden de Ebü’t-Tufeyl, Cübeyr b. Nüfeyr ve başkaları rivayette bulunmuştur. Dârekutnî’nin meçhul ve metrûk dediği Hâbis’in bir rivayeti Ahmed b. Hanbel’in el-Müsned ’inde bulunmaktadır (IV, 105, 109). Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 380 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:habis-b-sad",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=habis-b-sad, https://islamansiklopedisi.org.tr/habis-b-sad",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:habis-b-sad",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/habis-b-sad",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:07Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:07Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=habis-b-sad (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cermî"
+  ],
+  "death_temporal": {
+    "start_ah": 37,
+    "start_ce": 657,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=habis-b-sad, URL: https://islamansiklopedisi.org.tr/habis-b-sad || DİA death-date string: (ö. 37/657) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

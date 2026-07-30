@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00002804",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FÜLEYH b. SÜLEYMAN",
+      "ar": "فليح بن سليمان"
+    },
+    "originalScript": {
+      "ar": "فليح بن سليمان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Yahyâ Abdülmelik b. Süleymân b. Ebi’l-Mugīre el-Huzâî"
+      ]
+    },
+    "description": {
+      "tr": "Asıl adı Abdülmelik olup Füleyh lakabıyla tanınmıştır. Eslemî, Cermî ve Medenî nisbeleriyle de anılır. Zeyd b. Hattâb ailesinin âzatlısı olan Füleyh Medine’de yaşadığından hep Medineli âlimlerden rivayette bulundu. Nâfi‘, Zührî, Hişâm b. Urve, Yahyâ b. Saîd el-Ensârî, Zeyd b. Eslem gibi muhaddislerden hadis aldı. Kendisinden de başta oğlu Muhammed olmak üzere Abdullah b. Mübârek, İbn Vehb, Ebû Dâvûd et-Tayâlisî, Saîd b. Mansûr gibi muhaddisler hadis rivayet ettiler. Hatta Zeyd b. Ebû Üneyse gibi bazı hocaları da ondan rivayette bulundu. Rivayetleri başta Kütüb-i Sitte olmak üzere birçok hadis kitabında yer alan Füleyh’ten Buhârî ahkâm konusunda hadis almamakla beraber menâkıb ve rikāk a dair hadislerine Ṣaḥîḥ ’inde yer vermiş, Müslim ise ondan sadece bir hadis rivayet etmiştir. Buhârî, İbn Hibbân ve Zehebî gibi birçok âlim onu güvenilir bulurken bazı muhaddisler kendisini tenkit, hatta itham etmişlerdir. Zehebî, Füleyh’in rivayetlerinin hasen derecesinde; İbn Adî, Dârekutnî, Hâkim en-Nîsâbûrî ve Zekeriyyâ b. Yahyâ es-Sâcî kabul edilebilir nitelikte olduğunu söylemişler; Yahyâ b. Maîn, İbnü’l-Medînî, Ebû Dâvûd, Ebû Hâtim ve Nesâî ise onun zayıf olduğunu ileri sürerek hadislerini güvenilir bulmamışlardır. Füleyh’in, İmam Mâlik’in veya Zührî’nin râvilerine, hatta iddiaya göre bazı sahâbîlere dil uzatması rivayetlerine itibar edilmemesine yol açmıştır. Abdullah b. Ömer’e ait hadislerden oluşan bir nüshayı Nâfi‘den nakleden Füleyh’in rivayetleri arasında hem sahih hem de zayıf olanlar vardır. Füleyh’in, Abbâsî Halifesi Ebû Ca‘fer el-Mansûr tarafından Medine’de zekât memuru olarak görevlendirildiği bilinmekte; aralarında bir anlaşmazlık bulunan Hz. Hasan’ın torunu Hasan b. Zeyd’e bu görevi sırasında kötü davrandığı, hatta halifeden onun oğullarının hapsedilmesini istediği söylenmektedir. Onun bazı rivayetlerini ihtiva eden bir mecmua Zâhiriyye Kütüphanesi’nde bulunmaktadır (Mecmua, nr. 124/7, vr. 82 a -87 b ). Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 248 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:fuleyh-b-suleyman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=fuleyh-b-suleyman, https://islamansiklopedisi.org.tr/fuleyh-b-suleyman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:05Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:05Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=fuleyh-b-suleyman (1 chunks) by dia adapter (Hafta 4). Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Huzâî"
+  ],
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 168,
+    "start_ce": 784,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=fuleyh-b-suleyman, URL: https://islamansiklopedisi.org.tr/fuleyh-b-suleyman || DİA death-date string: (ö. 168/784) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003438",
+    "iac:person-00005969",
+    "iac:person-00007655",
+    "iac:person-00007838",
+    "iac:person-00007897"
+  ],
+  "students": [
+    "iac:person-00000524",
+    "iac:person-00004072",
+    "iac:person-00006609",
+    "iac:person-00007290",
+    "iac:person-00007836"
+  ]
+}

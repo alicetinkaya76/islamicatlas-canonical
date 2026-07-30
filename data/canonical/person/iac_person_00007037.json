@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00007037",
+  "@type": [
+    "iac:Architect",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "SİNÂN-ı ATÎK"
+    },
+    "description": {
+      "tr": "Türk mimarlık tarihinde Atik Sinan veya Âzadlı Sinan adıyla tanınan sanatkârın tam adı Sinâneddin Yûsuf b. Abdullah’tır. Doğum tarihi bilinmemekle beraber günümüze kalabilen mezar taşı kitâbesinden 27 Rebîülevvel 876’da (13 Eylül 1471) vefat ettiği anlaşılmaktadır. XV. yüzyıl Osmanlı mimarisinin ve bilhassa Fâtih Sultan Mehmed dönemi mimari faaliyetlerinin başta gelen mimarıdır. İstanbul’un ilk ve en büyük yapılar topluluğu olan Fâtih Camii ve Külliyesi’nin (1463-1470) yapımını tamamlamıştır. Baba adından da anlaşılacağı üzere sonradan Müslümanlığı kabul ettiğinden Batılı araştırmacılar tarafından kimliği üzerinde çok durulmuş ve Müslümanlığı kabul etmeden önceki adının Hristodulos olduğu yolunda bir iddia ortaya atılmıştır. Fakat bu çevrelerce aynı ad, Fâtih Camii ve Külliyesi ile inşa tarihleri arasında büyük bir zaman farkı bulunan Bursa Hudâvendigâr Camii için de öne sürülmüştür. Esasen bu iddiaların belgelerle desteklenemediği gibi doğru olması da mümkün değildir. Mimar Atik Sinan’ın günümüze gelen 869 (1464) ve 873 (1468) tarihli iki vakfiyesinden ölümünden sonra mal varlığını İstanbul Fatih’te yaptırdığı mescid, zâviye ve mektebe bağışladığı anlaşılmaktadır. Vakfiyelerde belirtilen yapılardan zâviye ve mektep zamanla ortadan kalkmıştır. Mescid ise Sinan’ın adıyla değil vaktiyle bitişiğindeki çeşmenin üzerindeki aynada bulunan iki kumru kabartması sebebiyle Kumrulu Mescid adıyla tanınmaktadır. Günümüzde adı geçen çeşme mevcut olmayıp kabartmaları cami duvarında muhafaza edilmektedir. Meşe dikme, çatkı ve atkılarla takviye edilmiş moloz taş örgülü mescid 1964-1965 yıllarında tamamen yenilenmiştir. Kendi mezarı da mescidin hazîre bölümündedir. Bazı tarihî kaynaklarda Mimar Atik Sinan hakkında, Fâtih Camii’nin sütunlarını kısalttığı için Fâtih Sultan Mehmed tarafından ellerinin kesildiği yolunda bir kayıt varsa da bu gerçek değildir. Bu madde TDV İslâm Ansiklopedisi’nin 2009 yılında İstanbul’da basılan 37. cildinde, 228 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "architect"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:sinan-i-atik",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=sinan-i-atik, https://islamansiklopedisi.org.tr/sinan-i-atik",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:sinan-i-atik",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/sinan-i-atik",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:57Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=sinan-i-atik (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 876,
+    "start_ce": 1471,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=sinan-i-atik, URL: https://islamansiklopedisi.org.tr/sinan-i-atik || DİA death place: 876 || DİA death-date string: (ö. 876/1471) || Chunk count: 1"
+}

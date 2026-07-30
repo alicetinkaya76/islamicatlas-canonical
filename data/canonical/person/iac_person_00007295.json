@@ -1,0 +1,110 @@
+{
+  "@id": "iac:person-00007295",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Tebûzekî",
+      "ar": "التبوذكي"
+    },
+    "originalScript": {
+      "ar": "التبوذكي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Seleme Mûsâ b. İsmâîl et-Tebûzekî el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "Muhtemelen 136’da (753-54) doğdu. Tebûzekî nisbesiyle anılması konusunda farklı rivayetler vardır. Evinde muhtemelen Râmhürmüz’e bağlı Tebûzek köyünden gelenleri misafir ettiği veya Basra’daki Tebûzek mahallesinden bir ev satın aldığı yahut gübre veya tavuk sakatatı sattığı için bu nisbeyi aldığı söylenmiştir. Ayrıca Benî Minkar’ın mevlâsı olduğundan Minkarî diye de anılmıştır. Onun bu nisbe ile anılmaktan hoşlandığı, fakat Tebûzekî denmesini istemediği bilinmektedir. Basra’da yaşayan Tebûzekî 160 (777) yılından itibaren hadis dinlemeye başladı. En yaşlı hocası tâbiîlerden A‘yen el-Hârizmî’dir. Onun hadis dinlemeye başladığı yıl vefat eden Şu‘be b. Haccâc ile İsrâil b. Yûnus’tan çok az hadis alabilmiştir. Basra’da hadisleri konularına göre tasnif eden ilk muhaddislerden biri olan Saîd b. Ebû Arûbe’den hadis ve fıkıh okudu. Uzun süre talebelik ettiği Hammâd b. Seleme, Cerîr b. Hâzim, Yezîd b. İbrâhim et-Tüsterî gibi âlimlerden çok sayıda hadis rivayet etti. Ayrıca Ebân b. Yezîd, Abdullah b. Mübârek ve Mübârek b. Fedâle gibi şahıslardan hadis öğrendi. Tebûzekî’nin talebeleri arasında Yahyâ b. Maîn, Muhammed b. Yahyâ ez-Zühlî, Ebû Zür‘a er-Râzî, Ebû Hâtim er-Râzî, İbn Şeybe, İbnü’l-Cüneyd el-Huttelî, İbn Ebû Hayseme ve torunu İbn Ebû Âsım gibi hadis âlimleri yer almış, Buhârî ile Ebû Dâvûd da ondan hadis dinlemiştir. Müslim ile diğer Kütüb-i Sitte müellifleri Tebûzekî’nin rivayetlerini bir başka râvi vasıtasıyla rivayet etmiştir. Tebûzekî kızı Esmâ’yı muhaddis Ebû Âsım en-Nebîl’in oğlu Amr ile evlendirdi ve bu evlilikten Kitâbü’s-Sünne müellifi İbn Ebû Âsım dünyaya geldi. Saç ve sakallarını kına ile boyadığı zikredilen Tebûzekî Receb 223’te (Haziran 838) Basra’da vefat etti. Tebûzekî hadis hâfızı, hüccet ve imam gibi sıfatlarla da anılmıştır. Rivayetleri başta Kütüb-i Sitte olmak üzere birçok hadis kitabında yer almış; Yahyâ b. Maîn, İbn Sa‘d, Buhârî, Ebû Hâtim er-Râzî, İbn Hibbân ve Zehebî gibi âlimler onun hadis rivayeti açısından güvenilir kabul edildiğini söylemiştir. Ebû Hâtim er-Râzî, “Basra’da kendilerinden hadis rivayet ettiğim kişiler içinde hadisi en güvenilir olanı Tebûzekî’dir” diyerek onun hadis ilmindeki yerine işaret etmiştir. Yahyâ b. Maîn’in kendisinden otuz beş bin civarında hadis aldığının söylenmesi onun ne kadar hadis rivayet ettiğine dair bir fikir verir. Bu madde TDV İslâm Ansiklopedisi’nin 2011 yılında İstanbul’da basılan 40. cildinde, 227 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:tebuzeki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=tebuzeki, https://islamansiklopedisi.org.tr/tebuzeki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:tebuzeki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/tebuzeki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:01Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=tebuzeki (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Tebûzekî; Basrî"
+  ],
+  "birth_temporal": {
+    "start_ah": 160,
+    "start_ce": 777,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 223,
+    "start_ce": 838,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=tebuzeki, URL: https://islamansiklopedisi.org.tr/tebuzeki || DİA death place: Basra || DİA death-date string: (ö. 223/838) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000524",
+    "iac:person-00002110",
+    "iac:person-00003141",
+    "iac:person-00003734",
+    "iac:person-00006743",
+    "iac:person-00007106"
+  ],
+  "students": [
+    "iac:person-00002157",
+    "iac:person-00002179",
+    "iac:person-00002313",
+    "iac:person-00003592",
+    "iac:person-00003747",
+    "iac:person-00004030",
+    "iac:person-00007652",
+    "iac:person-00007896"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00001090",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "A‘REC, Humeyd b. Kays",
+      "ar": "حميد بن قيس الأعرج"
+    },
+    "originalScript": {
+      "ar": "حميد بن قيس الأعرج"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Safvân Humeyd b. Kays el-A‘rec el-Mekkî"
+      ]
+    },
+    "description": {
+      "tr": "Babası Kays, Zübeyr b. Avvâm’ın mevâlî sinden olduğu için, onun mensup bulunduğu kabileden dolayı Esedî nisbesiyle de anılır. Kıraat ilmini Mücâhid b. Cebr’den öğrenerek bu kıraati ona üç defa arzetmiş ve hayatı boyunca sadece Mücâhid’in kıraatini okutup rivayet etmiştir. Bu sahada yetiştirdiği en meşhur talebeleri Süfyân b. Uyeyne ile yedi kıraat imamlarından Ebû Amr b. Alâ’dır. Her ikisi de kıraati ondan arz yoluyla almışlardır. Süfyân b. Uyeyne’nin söylediğine göre Mekkeliler’in içinde İbn Kesîr ile A‘rec’den daha iyi Kur’an bilen yoktu. Hadis tahsil ettiği hocaları arasında Zührî, Muhammed b. İbrâhim et-Teymî, Amr b. Şuayb ve Muhammed b. Münkedir gibi muhaddisler; hadis okuttuğu talebeleri arasında da Ebû Hanîfe, Süfyân es-Sevrî, Mâlik b. Enes, Ca‘fer es-Sâdık ve Ma‘mer b. Râşid gibi meşhur âlimler vardır. Rivayetleri Kütüb-i Sitte ’de mevcut olup meşhur hadis tenkitçileri tarafından güvenilir bir muhaddis olarak tanıtılmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 351 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:arec-humeyd-b-kays",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=arec-humeyd-b-kays, https://islamansiklopedisi.org.tr/arec-humeyd-b-kays",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-05-04T15:33:35Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=arec-humeyd-b-kays (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mekkî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 130,
+    "start_ce": 747,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=arec-humeyd-b-kays, URL: https://islamansiklopedisi.org.tr/arec-humeyd-b-kays || DİA death-date string: (ö. 130/747-48) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

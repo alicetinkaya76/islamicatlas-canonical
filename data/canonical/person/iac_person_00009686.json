@@ -1,0 +1,102 @@
+{
+  "@id": "iac:person-00009686",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Amīn al-Rīḥānī",
+      "tr": "Emîn er-Rîhânî",
+      "ar": "أمين الريحاني"
+    },
+    "originalScript": {
+      "ar": "أمين الريحاني"
+    },
+    "description": {
+      "tr": "Kâtip hatîb, tarihçiler arasında sayılan.",
+      "en": "Writer orator, reckoned among the historians."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Amīn b. Fāris b. Antūn b. Yūsuf b. ʿAbd al-Ạḥad al-Bijānī, known as al-Rīḥānī"
+    },
+    "altLabel": {
+      "tr": [
+        "Emîn b. Fâris b. Antûn b. Yûsuf b. Abdulâhid el-Bicânî, meşhûru ile er-Rîhânî"
+      ],
+      "ar": [
+        "أمين بن فارس بن أنطون بن يوسف بن عبد الأحد البجاني، المعروف بالريحاني"
+      ]
+    }
+  },
+  "profession": [
+    "scribe"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:1783",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1783",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:45Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=1783 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:1783."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1359,
+    "start_ce": 1940,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1783, heading_ar=أمين الريحاني || Ziriklī century_ce=20",
+  "active_in_places": [
+    "iac:place-00002950"
+  ],
+  "authored_works": [
+    "iac:work-00001708",
+    "iac:work-00002424",
+    "iac:work-00003536",
+    "iac:work-00003670",
+    "iac:work-00003778",
+    "iac:work-00004830",
+    "iac:work-00005559",
+    "iac:work-00005767",
+    "iac:work-00006061",
+    "iac:work-00006250",
+    "iac:work-00007187",
+    "iac:work-00007639",
+    "iac:work-00007981"
+  ]
+}

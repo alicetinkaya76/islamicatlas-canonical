@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00001837",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Cilyânî",
+      "ar": "الجلياني"
+    },
+    "originalScript": {
+      "ar": "الجلياني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Fazl Abdülmün‘im b. Ömer b. Abdillâh el-Cilyânî el-Gassânî el-Endelüsî"
+      ]
+    },
+    "description": {
+      "tr": "7 Muharrem 531’de (5 Ekim 1136) Gırnata’nın Vâdîâş (Guadix) bölgesindeki Cilyâne’de (Juliana) doğdu. Murâbıtlar döneminin (1056-1147) sonlarında dünyaya gelen Cilyânî’nin hayatı hakkında fazla bilgi yoktur. Endülüs’ten Mağrib’e geçerek önce Kahire’ye gittiği, sonra Suriye’yi gezip Dımaşk’a yerleştiği ve 601 (1204-1205) yılında Bağdat’ı ziyaret etmesinin ardından tekrar Dımaşk’a dönerek orada vefat ettiği bilinmektedir. Kaynaklarda “hakîmü’z-zamân” unvanıyla anıldığı ifade edilen Cilyânî tıp sahasında, özellikle göz hastalıkları alanında otorite kabul ediliyordu. Aynı zamanda kimyager, matematikçi, mutasavvıf, edip ve yazdığı kasidelerle üne kavuşmuş bir şairdi; çevresinde iyi huylu, hoşsohbet, hazırcevap bir kimse olarak tanınıyordu. Dımaşk’ta önemli bir alışveriş merkezi olan Lebâdin’de, Yâkūt el-Hamevî gibi meşhur şahsiyetlerin uğradığı tıbbî malzeme ve ilâç satışı yapılan bir dükkânı vardı. 620 (1223) yılı civarında Ruha’da (Urfa) vefat eden oğlu Abdülmü’min b. Abdülmün‘im de kendisi gibi şair ve ünlü bir göz hekimi (kehhâl) idi. Selâhaddîn-i Eyyûbî’nin izzet ve ikramına mazhar olan Cilyânî onun hakkında birçok kaside yazmış, bazı kitaplarını kendisine ithaf etmiş ve Akkâ şehrini kuşatan Haçlılar’ı arkadan sardığında da (586/1190) “et-Tuhfetü’l-cevheriyye” adlı meşhur kasidesini göndermiştir; ancak bu kaside savaş sebebiyle hükümdarın eline bir yıl sonra ulaşabilmiştir (kaside için bk. İbn Ebû Usaybia, s. 630-635). Eserleri. 1. Dîvânü’t-tedbîc ( Dîvânü’l-mübeşşirât ve’l-ḳudsiyyât ). Abdülcelîl Hasan Abdülmehdî tarafından neşredilmiştir (Amman 1989). 2. Menâdiḥu’l-memâdiḥ ve ravżatü’l-meʾâs̱ir ve’l-mefâḫir fî ḫaṣâʾiṣi’l-Meliki’n-Nâṣır Ṣalâḥıddîn . 3. Dîvânü’l-ḥikem ve meydânü’l-kelim ( Dîvânü’l-ḥikem ve mens̱ûrü’l-kelim ). 4. Edebü’s-sülûk (son üç eserin yazma nüshaları için bk. Brockelmann, GAL , I, 567; Suppl. , I, 785). Cilyânî’nin kaynaklarda zikredilen diğer eserleri de şunlardır: Teʿâlîḳ fi’ṭ-ṭıb , Risâle fî ṣıfâti’l-edviyeti’l-mürekkebe , Câmiʿu enmâṭi’l-mesâʾil fi’l-ʿarûż ve’l-ḫuṭab ve’r-resâʾil , Kitâbü Sırri’l-belâġa ve ṣanâʾiʿi’l-bedîʿ fî faṣli’l-ḫiṭâb , Dîvânü’l-ġazel ve’t-teşbîb ve’l-müveşşaḥât ve’d-dûbeytî , Dîvânü’t-teressül ve’l-muḫâṭabât , Nehcü’l-vedâʿa li-ehli’l-ḫilâʿa , Dîvânü’l-müşevviḳāt ile’l-meleʾi’l-aʿlâ , Kitâbü Taḥrîri’n-naẓar , Kitâbü Nevâdiri’l-vaḥy , Dîvânü teşbîhât ve elġāz ve rumûz ve eḥâcî ve evṣâf ve zecriyyât ve eġrâż şettâ . Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 1 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet",
+    "physician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cilyani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cilyani, https://islamansiklopedisi.org.tr/cilyani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:cilyani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=cilyani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:48Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:48Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:48Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cilyani (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=cilyani)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cilyânî; Gassânî; Endelüsî"
+  ],
+  "birth_temporal": {
+    "start_ah": 601,
+    "start_ce": 1204,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 602,
+    "start_ce": 1205,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cilyani, URL: https://islamansiklopedisi.org.tr/cilyani || DİA death place: Endülüs || DİA death-date string: (ö. 602/1205-1206) || DİA categories: tıp > matematik || Chunk count: 1"
+}

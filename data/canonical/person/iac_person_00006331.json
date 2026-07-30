@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00006331",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "RÂFİ‘ b. MÂLİK",
+      "ar": "رافع بن مالك"
+    },
+    "originalScript": {
+      "ar": "رافع بن مالك"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Mâlik Râfi‘ b. Mâlik b. el-Aclân el-Hazrecî el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "Hazrec kabilesinin Benî Züreyḳ kolundan olduğu için Zürekī nisbesiyle de anılır. Hz. Peygamber’den hadis rivayet eden diğer oğlu Rifâa’dan dolayı Ebû Rifâa künyesiyle de bilinen Râfi‘, Übey b. Selûl’ün kızı ve Abdullah b. Übeyy’in kız kardeşi Ümmü Mâlik ile evlendi. Ümmü Mâlik, Resûlullah’a biat eden hanımlardandı. Bu evlilikten Bedir Gazvesi’ne iştirak eden Mâlik, Rifâa ve Hallâd adlı oğulları dünyaya geldi. Câhiliye döneminde yazı yazdığı, iyi yüzdüğü ve iyi ok attığı kaydedilen pek az kimseden biri olan Râfi‘in Muâz b. Hâris (Afrâ) ile Mekke’ye gittikleri, Hz. Peygamber’le görüşüp müslüman oldukları, bu sebeple Hazrec kabilesinin ilk müslümanları diye bilindikleri kaydedilmektedir. Onun bütün Akabe biatlarında bulunduğu, Resûl-i Ekrem’in Medineliler’le irtibatını sağlamak üzere seçtiği on iki temsilciden biri olduğu, yetmiş beş Medineli’nin katıldığı İkinci Akabe Biatı’nda Medine’ye hicret ettiği takdirde Hz. Peygamber’i koruyacağına dair ilk defa onun söz verdiği belirtilmektedir. Râfi‘, Akabe’de Resûlullah ile görüştüğünde Hz. Peygamber o güne kadar inen âyetleri kendisine vermiş, Râfi‘ ondan Yûsuf sûresini öğrenmiş, Medine’ye döndüğünde bu sûreyi Benî Züreyḳ Mescidi’nde toplanan müslümanlara okumuş, bu sebeple Züreyḳ Mescidi Medine’de ilk Kur’ân-ı Kerîm okunan mescid diye anılmıştır. Resûl-i Ekrem de bu gayretinden dolayı Râfi‘den memnun olduğunu ifade etmiştir. Onun müslüman olup Mekke’ye yerleştiği, Tâhâ sûresi nâzil olduktan sonra sûreyi yazıp Medine’ye gittiği ve Züreykoğulları’na okuduğu da belirtilmiştir (İbnü’l-Esîr, II, 198). Râfi‘in Bedir Gazvesi’nde bulunduğu zikredilmekteyse de üç oğlunun da iştirak ettiği bu gazveye katılmadığı anlaşılmaktadır. Onun Akabe Biatı’nda bulunmayı Bedir Gazvesi’nde bulunmaktan üstün görmesi (Buhârî, “Meġāzî”, 13), Ehl-i Bedr’in üstünlüğünü vurgulayan hadisi duymaması sebebiyle ileri sürdüğü şahsî kanaati olmalıdır (İbn Hacer, Fetḥu’l-bârî , VII, 364). Hz. Peygamber’in Medine’de Saîd b. Zeyd ile kardeş ilân ettiği Râfi‘ b. Mâlik Uhud Gazvesi’nde şehid oldu (3/625). Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 392 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:rafi-b-malik",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=rafi-b-malik, https://islamansiklopedisi.org.tr/rafi-b-malik",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:rafi-b-malik",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/rafi-b-malik",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:50Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=rafi-b-malik (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hazrecî; Ensârî"
+  ],
+  "death_temporal": {
+    "start_ah": 3,
+    "start_ce": 625,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=rafi-b-malik, URL: https://islamansiklopedisi.org.tr/rafi-b-malik || DİA death-date string: (ö. 3/625) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

@@ -1,0 +1,84 @@
+{
+  "@id": "iac:person-00000767",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahmed Câvid",
+      "ar": "أحمد جاود"
+    },
+    "originalScript": {
+      "ar": "أحمد جاود"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Timarlı sipahilerden Mustafa adlı bir süvari alay beyinin oğludur. 1787 yılında Hazîne-i Hümâyun hizmetkârı olarak saraya girdi. Kabiliyeti sayesinde kısa bir süre sonra Has Oda’ya alındı ve 1803’te “hâcelik” rütbesiyle şehremini oldu. Bu görevde iken öldü; mezarı Beşiktaş’ta Yahyâ Efendi Dergâhı hazîresindedir. Sarayda bulunduğu sırada III. Selim tarafından önemli olayları kronolojik olarak yazmakla görevlendirilen Ahmed Câvid, 1204 Ramazanında (Mayıs 1790 ortaları) başlayıp 1205 Cemâziyelevveline (1791 yılı başları) kadar gelen yıllık tarzında bir eser kaleme almış ve bu sebeple sarayda kendisine “vak‘anüvîs-i Enderûn” denilmiştir. Hadîka-i Vekāyi‘ adıyla bilinen bu eserin birçok yazması olup bir nüshası İstanbul Üniversitesi Kütüphanesi’ndedir (TY, nr. 6037). Müellifin önsözde belirttiği gibi, eserin başlıca kaynakları III. Selim’in hatt-ı hümâyunları, İslâm ülkelerinden gelen mektuplar ve öteki bazı resmî kayıtlardır. Ahmed Câvid’in tarihe dair bazı yazılarını ihtiva eden iki ciltlik bir eseri daha vardır. Müntehabât-ı Câvid Bey veya Târîh-i Câvid Ahmed Bey adıyla bilinen bu eserin birinci cildi 1035-1188 (1626-1774), ikinci cildi ise 1188-1197 (1774-1782) yılları arasındaki olayları ihtiva eder. Müellif bu eserini Kâtib Çelebi, Naîmâ, Fındıklılı Mehmed Ağa, Çelebizâde Âsım, Enverî, Vâsıf, Ahmed Resmî ve Edîb efendilerin tarihleri ile Vâsıf’ın İspanya sefâretine gitmesi sırasında onun yerine vekâlet eden Teşrifâtî Hasan Efendi’nin Cerîde ’sinden faydalanarak, son kısımlarını ise bizzat kendi gözlemlerine dayanarak kaleme almıştır. III. Selim’e sunulan ve son kısımları birinci elden tarih kaynağı olduğu için ayrı bir değer taşıyan bu eser Cevdet Paşa’nın kaynakları arasındadır. İki nüshası İstanbul Üniversitesi Kütüphanesi’ndedir (TY, nr. 92 ve 93). Ahmed Câvid, Osmanzâde Tâib’in Hadîkatü’l-vüzerâ ’sına Dilâverzâde (Dilâver Ağazâde) Ömer Efendi tarafından yapılmış olan zeylin devamı olarak Verd-i Mutarrâ adıyla bir başka zeyil de kaleme almıştır. Râgıb Mehmed Paşa ile Yûsuf Ziyâ Paşa arasındaki vezîriâzamların (1757’den 1798’e kadar) biyografilerini ihtiva eden bu eser İstanbul’da yayımlanmış (1271), daha sonra da bunun tıpkıbasımı yapılmıştır (Freiburg 1969). Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 52-53 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-cavid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-cavid, https://islamansiklopedisi.org.tr/ahmed-cavid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-cavid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-cavid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:52Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-cavid (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1803,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ahmed-cavid, URL: https://islamansiklopedisi.org.tr/ahmed-cavid || DİA birth place: İstanbul || DİA death-date string: (ö. 1803) || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00005929",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MU‘TAZID-BİLLÂH, Ebû Bekir b. Süleyman",
+      "ar": "المعتضد بالله أبو بكر بن سليمان"
+    },
+    "originalScript": {
+      "ar": "المعتضد بالله أبو بكر بن سليمان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Feth el-Mu‘tazıd-Billâh Ebû Bekr b. Süleymân el-Müstekfî-Billâh b. Ahmed el-Hâkim-Biemrillâh el-Abbâsî"
+      ]
+    },
+    "description": {
+      "tr": "Halife Müstekfî-Billâh’ın oğludur. Veliahdını belirlemeden ölen kardeşi II. Hâkim-Biemrillâh’ın vefatından sonra onun yakınlarından oluşan Emîr Şeyhûn el-Ömerî başkanlığındaki bir heyet tarafından alçak gönüllülüğü, hayır severliği ve ilim ehline yakınlığı dolayısıyla tercih edilerek halife seçildi (753/1352). Memlük tarihi kaynakları övgüyle andıkları Mu‘tazıd-Billâh hakkında çok az bilgi vermektedir. Hilâfete geldiği yıl, Halep nâibi ve yandaşlarının isyanını bastırmak amacıyla Suriye’ye doğru sefere çıkan Sultan el-Melikü’s-Sâlih’le birlikte Dımaşk’a giden Mu‘tazıd’ı, Bâbülferec girişindeki Demmâgıyye Medresesi’nde ziyaret ettiğini ve huzurunda bir hadis cüzü okuduğunu söyleyen Ebü’l-Fidâ İbn Kesîr onu genç ve yakışıklı, güzel konuşan ve keskin zekâlı bir kişi olarak tanımlar ( el-Bidâye , XIV, 245). Sultan el-Melikü’s-Sâlih Selâhaddin, el-Melikü’n-Nâsır Hasan (ikinci saltanatı) ve el-Melikü’l-Mansûr Selâhaddin Muhammed dönemlerinde halifelik yapan ve 1353, 1359 yıllarında hacca giden Mu‘tazıd Cemâziyelevvel 763’te (Mart 1362) vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 384-385 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mutazid-billah-ebu-bekir-b-suleyman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mutazid-billah-ebu-bekir-b-suleyman, https://islamansiklopedisi.org.tr/mutazid-billah-ebu-bekir-b-suleyman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:45Z",
+    "modified": "2026-05-04T15:34:45Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mutazid-billah-ebu-bekir-b-suleyman (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Müstekfî; Abbâsî"
+  ],
+  "death_temporal": {
+    "start_ah": 763,
+    "start_ce": 1362,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mutazid-billah-ebu-bekir-b-suleyman, URL: https://islamansiklopedisi.org.tr/mutazid-billah-ebu-bekir-b-suleyman || DİA death place: 763 || DİA death-date string: (ö. 763/1362) || DİA categories: hadis || Chunk count: 1"
+}

@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00001204",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AVF b. AFRÂ",
+      "ar": "عوف بن عفراء"
+    },
+    "originalScript": {
+      "ar": "عوف بن عفراء"
+    },
+    "altLabel": {
+      "tr": [
+        "Avf b. Hâris b. Rifâa el-Hazrecî"
+      ]
+    },
+    "description": {
+      "tr": "Bazan annesi Afrâ’ya, bazan da babası Hâris’e nisbetle anılan Avf, kardeşi Muâz ile birlikte Birinci ve İkinci Akabe biatlarında bulundu. Sadece İkinci Akabe Biatı’nda bulunduğu da rivayet edilmiştir (İbn Sa‘d, III, 493). Bedir Savaşı’nda Mekkeli müşriklerden Rebîa’nın iki oğlu Şeybe ve Utbe ile Utbe’nin oğlu Velîd’in karşısına kardeşleri Muâz ve Muavviz ile birlikte çıktı. Utbe, Avf ile kardeşlerinin ensardan olduklarını öğrenince onlarla savaşmayı kabul etmedi. Zaten Hz. Peygamber de ilk savaşçıların Kureyş’ten ve kendi amcasının oğullarından olmasını istediğinden Avf ve kardeşlerine dua ederek saflarına dönmelerini emretti. Savaşın kızıştığı bir sırada Avf Hz. Peygamber’e yaklaşarak Allah’ın rızâsını kazanmanın yolunu sordu. Savaşta elinden kalkanı düşse bile harbe devam etmenin Allah’ı hoşnut edeceğini öğrenince kalkanını bir yana atıp savaşa girdi. Kardeşi Muavviz ile beraber Ebû Cehil’i bularak ona hücum edip yaraladılar; fakat Ebû Cehil oğlu İkrime’nin de yardımıyla Avf ile kardeşini şehid etti. Hz. Peygamber savaştan sonra Avf ve kardeşinin şehid düştüğü yere gelerek onların, bu ümmetin Firavun’u ve kâfirlerin elebaşısı olan Ebû Cehil’in öldürülmesine katkıda bulunduklarını belirtti; onlara dua etti. Şehid düştüğünde otuz beş-kırk yaşlarında bulunan Avf’ın Hz. Ali devrine kadar yaşadığı Belâzürî tarafından rivayet edilmekte ise de bu rivayet doğru değildir. Hz. Ali devrinde vefat eden, kardeşi Muâz b. Hâris’tir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 115 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:avf-b-afra",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=avf-b-afra, https://islamansiklopedisi.org.tr/avf-b-afra",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-05-04T15:33:37Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=avf-b-afra (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hazrecî"
+  ],
+  "death_temporal": {
+    "start_ah": 2,
+    "start_ce": 624,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=avf-b-afra, URL: https://islamansiklopedisi.org.tr/avf-b-afra || DİA death-date string: (ö. 2/624) || DİA categories: rivayet || Chunk count: 1"
+}

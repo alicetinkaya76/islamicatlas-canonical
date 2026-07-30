@@ -1,0 +1,87 @@
+{
+  "@id": "iac:person-00001035",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMMÂR b. ALİ",
+      "ar": "عمّار بن علي"
+    },
+    "originalScript": {
+      "ar": "عمّار بن علي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Kāsım Ammâr b. Ali el-Mevsılî"
+      ]
+    },
+    "description": {
+      "tr": "Batı dünyasında Canamusalı diye tanınır. Musul’da doğdu. Doğum yerine nisbetle Mevsılî olarak da bilinir. Mısır’a göç ederek hayatının büyük bir bölümünü Kahire’de geçirdi; bu arada Horasan ve Filistin’e de seyahatler yaptı. Mısır’da öldü. Nazarî bilgilerini çeşitli uygulama ve ameliyatlarda geliştiren Ammâr, göz hastalıkları sahasında hâzık bir hekim olarak tanınmaktadır. Kitâbü’l-Münteḫab fî ʿilmi’l-ʿayn ve ʿilelihâ ve müdâvâtihâ bi’l-edviye ve’l-ḥadîd adlı ünlü eserini Fâtımî Sultanı Hakîm zamanında (996-1020) Mısır’da yazmıştır. Mevsılî bu eserinde, kısa bir önsözden sonra gözün anatomisi üzerinde durmakta ve göz kapakları, saydam tabaka, göz bebeği, göz akı gibi önemli bölgelerdeki hastalıkları tanıtarak tedavi usullerini açıklamaktadır. Bu tedavi usullerinin en değerli yönü, verilen bilgilerin bizzat kendisinin yaptığı tedavi ve ameliyatlardan edindiği tecrübelere dayanmasıdır. Bunlardan özellikle, katarakt ameliyatlarında uyguladığı ince bir metal boru ile katarakt tabakasını emme metodu bu sahada önemli bir buluş olarak kabul edilmektedir. Ammâr’ın bu eseri İslâm dünyasında, çağdaşı ünlü göz hekimi Ali b. Îsâ’nın Teẕkire ’si kadar şöhret kazanmamıştır. Bunun sebebi Ali b. Îsâ’nın eserinin daha mufassal olmasıdır. Gerçekte ise göz hastalıkları konusunda Ammâr’ın eseri daha orijinal bilgiler ihtiva etmektedir. Ammâr’ın çalışmaları kendisinden sonra gelen hekimlere de önemli ölçüde kaynak olmuştur. XIII. yüzyılda Gāfikī el-Mürşid adlı kitabında Ammâr’ın eserinden fazlasıyla faydalandığı gibi, yine bu yüzyılın sonlarında yaşayan Tabib Selâhaddin de Nûrü’l-ʿuyûn adlı kitabının kataraktla ilgili bölümünü aynen Ammâr’ın eserinden almıştır. Kitâbü’l-Münteḫab ’ı XIII. yüzyıl müelliflerinden Nathan ha-Meathi İbrânîce’ye tercüme etmiştir. J. Hirschberg, J. Lippert ve E. Mittwoch tarafından yapılan Almanca çevirisi ise 1905 yılında Leipzig’de basılmıştır ( Die arabischen Augenärzte nach den Quellen bearbeitet ’in II. cildinde; eserin yazma nüshaları için bk. Sezgin, GAS , III, 333). Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 74-75 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "physician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ammar-b-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ammar-b-ali, https://islamansiklopedisi.org.tr/ammar-b-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ammar-b-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ammar-b-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ammar-b-ali (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mevsılî"
+  ],
+  "death_temporal": {
+    "start_ah": 400,
+    "start_ce": 1010,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ammar-b-ali, URL: https://islamansiklopedisi.org.tr/ammar-b-ali || DİA birth place: Musul || DİA death-date string: (ö. 400/1010) || DİA categories: tıp || Chunk count: 1",
+  "birth_place": "iac:place-00011725"
+}

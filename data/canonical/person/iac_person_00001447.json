@@ -1,0 +1,115 @@
+{
+  "@id": "iac:person-00001447",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bellûtî",
+      "ar": "البلّوطي"
+    },
+    "originalScript": {
+      "ar": "البلّوطي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hakem Münzir b. Saîd b. Abdillâh el-Küzenî el-Bellûtî"
+      ]
+    },
+    "description": {
+      "tr": "Kurtuba yakınlarındaki Fahsülbellût’a nisbetle Bellûtî ve Küzne kabilesine nisbetle de Küzenî diye anılır. 265’te (878) doğduğunu ileri sürenler varsa da doğum tarihi olarak genellikle 273 (886) yılı kabul edilir. Endülüs’te Ubeydullah b. Yahyâ el-Leysî’den ve diğer tanınmış âlimlerden ders okuduktan sonra 920’de kırk ay süren bir hac yolculuğuna çıktı. Bu seyahatinde devrin birçok ünlü ilim adamıyla görüştü. Mekke’de İbnü’l-Münzir en-Nîsâbûrî’den mezhepler arası ihtilâflara dair el-İşrâf ʿalâ meẕhebi’l-eşrâf adlı eserini, Mısır’da Ebü’l-Abbas İbn Vellâd’dan Halîl b. Ahmed’in Kitâbü’l-ʿAyn ’ını okudu. Yine Mısır’da nahiv âlimi Ebû Ca‘fer en-Nehhâs ile görüştü. Önce Mâride ve daha sonra Sugūrüşşarkıyye kadılığı yapan Bellûtî, 950 yılında kādılkudât ve Kurtuba’da Zehrâ Camii imam-hatibi olarak görevlendirildi. Vefatına kadar süren bu görevleri sırasında adaletli kararları, hak bildiği konularda kimseden çekinmeyen cesur tavırlarıyla ün yaptı. Ayrıca etkileyici bir hitabet gücü vardı. Endülüs’te ondan daha üstün bir hatip duyulmadığı rivayet edilir. Halife Nâsır-Lidînillâh’ın Bizans elçisini kabulü dolayısıyla düzenlenen bir törende âdet gereği konuşma yapmak için söze başlayan büyük Arap dilcisi Ebû Ali el-Kālî heyecanlanıp konuşmasını devam ettiremeyince Bellûtî hemen öne çıkıp irticâlen bir konuşma yapmış ve dinleyicilerin takdirini kazanmıştı. Bellûtî münazara ve münakaşaya açık, Zâhirî mezhebine temayül gösteren ve mukallit olmayan bir fakihti; ancak kadı olarak bulunduğu mahkemelerde davaları Mâlikî mezhebine göre karara bağlardı. Bilhassa son döneme ait bazı eserlerde onun Mâlikî fakihi olarak zikredilmesi de bundan kaynaklanmış olmalıdır. Zilkade 355’te (Kasım 966) vefat eden Bellûtî’nin cenaze namazını oğlu Abdülmelik kıldırmıştır. 349 (960) veya 366’da (976) öldüğüne dair rivayetler de vardır. Bellûtî’nin, Nâsır-Lidînillâh’ın huzurunda yaptığı meşhur konuşması ile bazı şiirleri kaynaklarda mevcut olup (bk. İbn Hâkān el-Kaysî, s. 239-244; Yâkūt, XIX, 176-185) Humeydî de ona ait üç beyit zikretmiştir ( Ceẕvetü’l-muḳtebis , s. 349). Çeşitli risâle ve hutbeleri yanında el-İbâne ʿan ḥaḳāʾiḳi’d-diyâne , el-İnbâh ʿale’stinbâṭı’l-aḥkâm min Kitâbillâh (Aḥkâmü’l-Ḳurʾân) , en-Nâsiḫ ve’l-mensûḫ adlı eserleri çeşitli kitaplarda zikredilmekte ise de bunların zamanımıza kadar ulaşıp ulaşmadıkları bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 425 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:belluti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=belluti, https://islamansiklopedisi.org.tr/belluti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:belluti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/belluti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:12380",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=12380, heading_ar=البلوطي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:42Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=belluti (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[12380]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=12380 (heading_ar=البلوطي) via Track A (DİA→Alam xref bridge). dt=Kendi döneminde Endülüs'ün kâzî'lerine başlık"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Küzenî; Bellûtî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 273,
+    "start_ce": 886,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 355,
+    "start_ce": 966,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=belluti, URL: https://islamansiklopedisi.org.tr/belluti || El-Aʿlām (Ziriklī) cross-reference: alam_id=[12380] || DİA death-date string: (ö. 355/966) || DİA categories: mezhep > rivayet > nahiv || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=12380, heading_ar=البلوطي, dt=Kendi döneminde Endülüs'ün kâzî'lerine başlık",
+  "teachers": [
+    "iac:person-00004076",
+    "iac:person-00004276"
+  ]
+}

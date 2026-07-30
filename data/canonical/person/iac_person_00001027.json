@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00001027",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂMİR b. FÜHEYRE",
+      "ar": "عامر بن فهيرة"
+    },
+    "originalScript": {
+      "ar": "عامر بن فهيرة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Amr Âmir b. Füheyre et-Teymî"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Peygamber henüz Dârülerkam’a çekilmeden önce müslüman olan kölelerdendir. Bu sebeple büyük işkencelere mâruz kaldı. Daha sonra Hz. Ebû Bekir tarafından satın alınıp âzat edildi ve onun koyunlarının çobanlığını yaparak geçimini sağladı. Hz. Peygamber hicret sırasında Ebû Bekir’le birlikte Sevr mağarasında saklanınca Âmir sürüsünü bu mağaraya doğru sürerek onlara süt ve yiyecek götürdü. Sonra da onlarla birlikte Medine’ye gitti. Ahmed b. Hanbel’in rivayetine göre, hicret sırasında kendilerini takibe koyulan Sürâka’ya verilecek emannâmeyi yazmasını Peygamber ona emretmiş, o da bunu bir deri parçasına yazmıştı. Bu rivayetten, âzatlı bir köle ve çoban olmasına rağmen, o gün için Mekke’de sayıları çok az olan okuma yazma bilenler içinde Âmir’in de bulunduğu anlaşılmaktadır. Medine’de ensar ile muhacirler arasında Resûl-i Ekrem tarafından kurulan muâhât ta Âmir, Hâris b. Evs b. Muâz’la kardeş ilân edildi. Bedir ve Uhud savaşlarına katılan Âmir, hicretin 4. yılında Necidliler’e gönderilen yetmiş kişilik irşad heyetinde yer aldı. Heyet Bi’rimaûne’ye geldiğinde tuzağa düşürüldü. Cebbâr b. Sülmâ’nın attığı mızrak, henüz kırk yaşında olan Âmir’in sırtından girip göğsünden çıktı. O anda Âmir, “Kazandım vallahi!” diye haykırınca öldürdüğü insanın son nefesindeki bu sözüne bir mâna veremeyen Cebbâr, günlerce üzerinde düşündüğü bu olayın tesiriyle daha sonra müslüman oldu. Cebbâr b. Sülmâ ve bu baskını düzenleyenlerin reisi olan Âmir b. Tufeyl, Âmir b. Füheyre’nin naaşının önce göklere yükseldiğini, daha sonra yere indiğini bizzat gördüklerini söylemişlerdir (bk. Buhârî, “Meġāzî”, 28). Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 65-66 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amir-b-fuheyre",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amir-b-fuheyre, https://islamansiklopedisi.org.tr/amir-b-fuheyre",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amir-b-fuheyre",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amir-b-fuheyre",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amir-b-fuheyre (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Teymî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 4,
+    "start_ce": 625,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amir-b-fuheyre, URL: https://islamansiklopedisi.org.tr/amir-b-fuheyre || DİA death-date string: (ö. 4/625) || DİA categories: rivayet || Chunk count: 1"
+}

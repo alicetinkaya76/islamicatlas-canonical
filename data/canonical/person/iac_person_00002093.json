@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00002093",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DÜRRE bint EBÛ LEHEB",
+      "ar": "درة بنت ابي لهب"
+    },
+    "originalScript": {
+      "ar": "درة بنت ابي لهب"
+    },
+    "description": {
+      "tr": "Dürre hayatı boyunca Hz. Peygamber’e düşmanlık eden, kendisi ve karısı aleyhinde müstakil bir sûre inen bir kimsenin kızı olmasına rağmen İslâmiyet’i daha Mekke devrinde kabul etti. Hâris b. Âmir ile evlendi ve ondan Ukbe, Velîd ve Ebû Müslim adlı üç oğlu oldu. Kocası Bedir’de kâfir olarak öldürülünce Medine’ye hicret etti. Daha sonra Dihye b. Halîfe el-Kelbî ve Üsâme b. Zeyd, bazı kaynaklara göre ise Üsâme’nin babası Zeyd b. Hârise ile evlendi. Hz. Peygamber’e biat eden kadınlar arasında yer alan Dürre Medine’ye hicret edince Râfi‘ b. Muallâ ez-Zürakī’nin evinde misafir kaldı. Bazı kadınların, hakkında Tebbet sûresi nâzil olan bir adamın kızı olduğu için onu kınadıklarını ve hicretinin makbul olmayacağını söyleyerek kendisini devamlı şekilde rahatsız ettiklerini Hz. Peygamber’e haber verdi. Buna üzülen Resûl-i Ekrem bir öğle vakti halkı toplayıp, “Ey insanlar! Sizin nesebiniz var da benim yok mu? Dürre benim amcamın kızıdır. Onun hakkında hiç kimse hayırdan başka bir şey söylemesin!” ve, “Diriler ölen yakınları yüzünden rahatsız edilmezler” diyerek onları ikaz etti. Bazı kaynaklarda bu kıssanın kahramanı Sübey‘a bint Ebû Leheb adıyla zikredilmektedir. İbn Hacer bu durumu açıklarken Dürre’nin iki adı bulunabileceği gibi bu adlardan birinin onun lakabı sayılabileceğini veya Sübey‘a’nın Ebû Leheb’in diğer bir kızı olabileceğini söylemektedir. Şair olduğu bilinen Dürre Hz. Peygamber ile Hz. Âişe’den üç hadis rivayet etmiştir. Ahmed b. Hanbel ve Taberânî, onun Hz. Peygamber’den rivayet ettiği belirtilen, “İnsanların en hayırlısı kimdir?” sorusuna Hz. Peygamber’in, “Allah’tan en çok sakınan, daima iyiliği emreden, kötülükten sakındıran ve akrabalık bağını korumakta titizlik gösteren kimsedir” meâlindeki bir hadisini kaydetmişlerdir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 30-31 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:durre-bint-ebu-leheb",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=durre-bint-ebu-leheb, https://islamansiklopedisi.org.tr/durre-bint-ebu-leheb",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:durre-bint-ebu-leheb",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/durre-bint-ebu-leheb",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:53Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=durre-bint-ebu-leheb (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 20,
+    "start_ce": 641,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=durre-bint-ebu-leheb, URL: https://islamansiklopedisi.org.tr/durre-bint-ebu-leheb || DİA death-date string: (ö. 20/641) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

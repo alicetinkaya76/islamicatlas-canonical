@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000466",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜLKĀDİR, Şeyh",
+      "ar": "الشيخ عبد القادر"
+    },
+    "originalScript": {
+      "ar": "الشيخ عبد القادر"
+    },
+    "description": {
+      "tr": "Babasının, maliye memuru olarak bulunduğu Pencap’ta doğdu. İlk ve orta tahsilini Lahor’da tamamladı. 1894’te aynı şehirde bulunan Foreman Christian College’dan mezun oldu. Bir süre öğretmenlik yaptı. Gazeteciliğe merakı yüzünden Lahor’a dönerek 1895’te Pencap Observer gazetesine girdi ve 1898’de aynı gazetenin yazı işleri müdürü oldu. 1901’de Urduca Maḫzen adlı bir dergi çıkardı. Bu arada Lahor’da İslâmî ilimler alanında eğitim ve öğretim yapan bir yüksek okulda öğretmenlik yaptı. 1904’te hukuk öğrenimi için İngiltere’ye gitti. 1907’de İstanbul’a gelen Abdülkādir, II. Abdülhamid ile görüştü ve Hamidiye madalyası ile taltif edildi. 1909 yılına kadar Delhi’de avukatlık yaptı ve arkadaşı Şeyh Muhammed İkrâm ile Temeddün dergisini çıkardı. Daha sonra Lahor’a giderek mesleğini orada sürdürdü. 1911 yılında hukuk müşaviri sıfatıyla Layalpûr’a, 1921’de Lahor mahkemesi üyeliğine tayin edildi. Kısa bir süre sonra istifa ederek siyasete atıldı. Pencap Eyalet Meclisi’nde üye, başkan vekili ve başkan olarak görev yaptı. 1926’da Cenevre’de toplanan VII. Milletler Cemiyeti’ne Hindistan temsilcisi sıfatıyla katıldı. 1927’de Madras’ta toplanan Hindistan Müslümanları Eğitim Konferansı’na başkanlık etti. Ertesi yıl İngiliz idaresi tarafından kendisine “sir” unvanı verildi. Lahor’a yerleştiği 1945 tarihine kadar Hindistan adalet ve hükümet teşkilâtında önemli görevlerde bulundu. 1948’de Maḫzen dergisini yeniden yayımlamaya başladı. Pencap Üniversitesi Urduca Bölümü’nde fahrî dersler verdi. 9 Şubat 1950’de Lahor’da öldü. Abdülkādir, Urdu dili ve edebiyatının gelişmesine ve İngilizce’nin tesirinden kurtulmasına çalışmış, yayımladığı gazete ve dergilerde Hint yarımadasındaki zengin İslâm kültür mirasının önemini ve birleştirici rolünü dile getirmeye gayret etmiştir. Bu yönüyle onu Pakistan’ın mânevî kurucularından saymak mümkündür. Eserleri. 1. Maḳām-ı Ḫilâfet . Çeşitli İslâm ülkelerine, özellikle Türkiye’ye yaptığı seyahat hâtıralarını ihtiva eder. 2. The New School of Urdu Literature . 1898’de kaleme aldığı bu eserde tanınmış bazı Urdu şair ve edipleri hakkındaki görüşleri yer almaktadır. Kitap daha sonra Famous Urdu Poets and Writers adıyla yeniden yayımlanmıştır. 3. Meżâmîn-i Maḫzen-i Edeb . Gazete ve dergilerde yayımlanan yazılarından derlenmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 229-230 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulkadir-seyh",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulkadir-seyh, https://islamansiklopedisi.org.tr/abdulkadir-seyh",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:abdulkadir-seyh",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=abdulkadir-seyh",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:38Z",
+    "modified": "2026-05-17T04:10:20Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulkadir-seyh (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:10:20Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=abdulkadir-seyh)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1874,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdulkadir-seyh, URL: https://islamansiklopedisi.org.tr/abdulkadir-seyh || DİA birth place: Pencap || DİA death-date string: (1874-1950) || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00001913",
+    "iac:work-00002594",
+    "iac:work-00002754",
+    "iac:work-00006192",
+    "iac:work-00006364",
+    "iac:work-00007753",
+    "iac:work-00008860"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00005096",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "LE STRANGE, Guy"
+    },
+    "description": {
+      "tr": "Henry L’Estrange Styleman adlı bir babanın oğlu olarak Hunstanton’da doğdu; 1875 yılında mahkeme kararıyla Styleman soyadını bıraktı. Hayatının büyük bir kısmını İngiltere dışında geçiren Guy le Strange, Paris’te bulunduğu bir sırada Julius Mohl’un etkisinde kalarak İran’a ve Fars edebiyatına ilgi duymaya başladı. Bu arada Stanislas Guyard’ın Arapça derslerine devam edip bu dili dilbilimci düzeyinde öğrenmeyi başardı. 1877-1880 yıllarını dilini ve kültürünü daha iyi öğrenmek amacıyla İran’da geçirdi. Daha sonra Cambridge’e yerleşti ve eserlerinin çoğunu burada yazdı. Küçük yaştan beri görme bozukluğu bulunan Guy le Strange, 1912 yılından itibaren görme yeteneğini kaybetme noktasına geldiyse de çalışmalarına devam etti. 23 Aralık 1933 tarihinde Floransa’da (İtalya) öldü. Eserleri. Feth ‘Ali Akhoun Zade (Mirza): The Vazir of Lankuran (London 1882); A Concise Dictionary, English-Persian (E. H. Palmer ile birlikte, London 1883); Account of a Short Journey East of the Jordan (London 1885); Across the Jordan, Being an Exploration and Survey of Part of Hauran and Jaulan (Gottlieb Schumacher ve Laurence Oliphant ile birlikte, London 1886); Abila of the Decapolis (Gottlieb Schumacher ile birlikte, London 1889); Northern ‘Ajlūn, “Within the Decapolis” (London 1890); Palestine under the Moslems: A Description of Syria and the Holy Land from A.D. 650 to 1500 (İbn Hurdâzbih, Belâzürî, Ya‘kūbî, İbnü’l-Fakīh, Ali b. Hüseyin el-Mes‘ûdî, Muhammed b. Ahmed el-Makdisî, Nâsır-ı Hüsrev, Şerîf el-İdrîsî, Yâkūt el-Hamevî ve Ebü’l-Yümn el-Uleymî gibi Arap tarihçi ve coğrafyacılarının eserlerinden seçtiği bazı bölümlerin tercümesidir, I-II, London 1890; Frankfurt 1993); Diary of a Journey Through Syria and Palestine (Nâsır-ı Hüsrev’in Sefernâme ’sinin Suriye ve Filistin’le ilgili bölümlerinin çevirisidir, London 1893); Baghdad during the Abbasid Caliphate, from Contemporary Arabic and Persian Sources (Oxford 1900; London 1924; Frankfurt 1993); The Lands of the Eastern Caliphate: Mesopotamia, Persia and Central Asia, from the Moslem Conquest to the Time of Timur (Cambridge 1905; Frankfurt 1993; Beşir Fransis ve Korkîs Avvâd tarafından Büldânü’l-ḫilâfeti’ş-şarḳıyye adıyla Arapça’ya çevrilmiştir, Beyrut 1985); Description of the Province of Fars in Persia at the Beginning of the Fourteenth Century A.D. (İbnü’l-Belhî’nin Fârsnâme ’sinin British Museum’da bulunan muhtasar bir yazmasının tercümesidir, London 1912); The Geographical Part of the Nuzhat al-Qulūb (Hamdullah el-Müstevfî’nin Nüzhetü’l-ḳulûb adlı eserinin coğrafya bölümünün neşri ve çevirisidir, Leiden-London 1915-1919; Frankfurt 1993); Ibnu’l-Balkhî: The Fársnáma (R. A. Nicholson ile birlikte, London 1921, 1962; Frankfurt 1993); Don Juan of Persia: A Shi’ah Catholic, 1560-1604 (1604’te basılan Relaciones de Don Juan de Persia adlı eserin neşri ve tercümesidir, London 1926); Embassy to Tamerlane: 1403-1406 (Timur’a elçi olarak gönderilen Ruy González de Clavijo’nun [ö. 1412] anılarının İspanyolca’dan çevirisidir, London 1928; Frankfurt 1994). Müellifin bunların dışında özellikle İslâm coğrafyacıları ve eserlerine dair yayımlanmış birçok makalesi bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 27. cildinde, 119-120 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:le-strange-guy",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=le-strange-guy, https://islamansiklopedisi.org.tr/le-strange-guy",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:le-strange-guy",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=le-strange-guy",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:36Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=le-strange-guy (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=le-strange-guy)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1854,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=le-strange-guy, URL: https://islamansiklopedisi.org.tr/le-strange-guy || DİA birth place: Hunstanton || DİA death-date string: (1854-1933) || Chunk count: 1"
+}

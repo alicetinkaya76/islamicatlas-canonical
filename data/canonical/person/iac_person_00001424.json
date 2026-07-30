@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00001424",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BEKRÎ, Ebü’s-Sürûr",
+      "ar": "أبو السرور البكري"
+    },
+    "originalScript": {
+      "ar": "أبو السرور البكري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’s-Sürûr Zeynüddîn Muhammed b. Muhammed b. Muhammed el-Bekrî"
+      ]
+    },
+    "description": {
+      "tr": "971’de (1563) doğdu. Kaynaklarda künyesi Ebü’l-Vefâ, lakabı Tâcü’l-ârifîn ve Zeynü’l-âbidîn diye de geçmektedir. Meşhur âlimlerin yetiştiği bir sülâleye mensup olup soyu baba tarafından Hz. Ebû Bekir’e, altıncı dedesi Ahmed b. Muhammed’in annesi tarafından da Hz. Hasan’a dayanır (bk. Ali Paşa Mübârek, III, 422). Önce Şâzeliyye tarikatının Bekriyye kolunun kurucusu olan babası Ebü’l-Mekârim el-Bekrî’den, sonra devrin ileri gelen âlimlerinden ders alarak Arap dili sahasında, tefsir ve usulde kendisini yetiştirdi. Ayrıca şiir ve tasavvufla da meşgul oldu. “Saltanat müftüsü” lakabı Mısır’da ilk defa kendisi için kullanılan Ebü’s-Sürûr aynı zamanda ailesinin zengin bir ferdi idi. Muhibbî’nin naklettiğine göre Necmeddin el-Gazzî kendisini 1007’de (1598) Mekke’de görmüş, gerek şahsında gerekse çevresinde müşahede ettiği şeylerden dolayı onu bir âlim, şeyh ve ermiş kişiye değil sultanlara ve ümerâya benzetmiş; altın ve gümüş işlemeli kılıçları, kalkanları, ipek elbiseler içinde hizmet eden çeşitli milletlere mensup hizmetçileri ve köleleri olduğunu zikretmiştir. Hac dönüşü 8 Rebîülâhir 1007’de (8 Kasım 1598) genç yaşta yolda ölen Ebü’s-Sürûr’un cenazesi Kahire’ye götürülüp defnedildi. Ölüm tarihi kaynaklarda Safer 1008 (Eylül 1599) olarak da kaydedilmektedir. Ebü’s-Sürûr’un çeşitli ilim dallarında yazdığı risâleleri yanında dört ciltlik Tefsîrü’l-Ḳurʾân , iki ciltlik Tefsîru sûreti’l-Enʿâm , büyük birer cilt halinde de Tefsîru sûreti’l-Kehf ve Tefsîru sûreti’l-Fetḥ adlarında eserleri olduğu kaynaklarda zikredilmekte, bunlardan Tefsîru sûreti’l-Kehf ’e ait yazma bir nüsha Saraybosna (Sarajevo) Gazi Hüsrev Bey Kütüphanesi’nde bulunmaktadır (nr. 2695). Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 367 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bekri-ebus-surur",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bekri-ebus-surur, https://islamansiklopedisi.org.tr/bekri-ebus-surur",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bekri-ebus-surur",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bekri-ebus-surur",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:41Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bekri-ebus-surur (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bekrî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 1007,
+    "start_ce": 1598,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bekri-ebus-surur, URL: https://islamansiklopedisi.org.tr/bekri-ebus-surur || DİA death place: 1007 || DİA death-date string: (ö. 1007/1598) || DİA categories: tefsir > tasavvuf > tarikat || Chunk count: 1"
+}

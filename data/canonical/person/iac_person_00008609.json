@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00008609",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ahmad al-Būsaʿīdī",
+      "tr": "Ahmed el-Bûsaîdî",
+      "ar": "أحمد البوسعيدي"
+    },
+    "originalScript": {
+      "ar": "أحمد البوسعيدي"
+    },
+    "description": {
+      "tr": "Günümüzün Bûsaîdî devletinin kurucusu ve onların padişahlarının atası; mezhepleri İbâzîdir",
+      "en": "Founder of the contemporary Būsaʿīdī state in Oman, father of its kings, who follow the Ibāḍī school"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ahmad b. Saʿīd b. Ahmad b. Muhammad al-Būsaʿīdī al-Azdī al-ʿUmānī, al-Mutawakkil ʿalā Allāh"
+    },
+    "altLabel": {
+      "tr": [
+        "Ahmed b. Saîd b. Ahmed b. Muhammed el-Bûsaîdî el-Ezdî el-Umânî, el-Mütevekkilü alellah"
+      ],
+      "ar": [
+        "أحمد بن سعيد بن أحمد بن محمد البوسعيدي الأزدي العماني - بضم العينوتخفيف الميم - المتلقب بالمتوكل على الله"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:578",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=578",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:35Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=578 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:578."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1196,
+    "start_ce": 1782,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=578, heading_ar=أحمد البوسعيدي || Ziriklī century_ce=18 || Ziriklī place coords (city/region of activity): 23.59, 58.38"
+}

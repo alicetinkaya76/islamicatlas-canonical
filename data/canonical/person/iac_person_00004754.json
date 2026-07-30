@@ -1,0 +1,60 @@
+{
+  "@id": "iac:person-00004754",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Karesi Bey"
+    },
+    "description": {
+      "tr": "Hayatına dair yeterli bilgi yoktur. Çağdaşı Bizanslı tarihçi Gregoras ondan “Calames’in oğlu Carases” diye bahseder. Osmanlı kaynaklarında ise II. Gıyâseddin Mesud’un (birinci saltanatı 1284-1296) nökeri olduğu belirtilir. Tokat’ta bulunan Karesi ailesinden Kutlu Melek ile oğlu Mustafa Çelebi’ye ait iki mezar taşı kitâbesinden Karesi Bey’in soyunun Dânişmendliler’e dayandığı anlaşılmaktadır. Babasının, Melik Dânişmend Gazi neslinden gelen Yağdı Bey’in oğlu Kalem Bey olduğu, babası ile birlikte Selçuklu Sultanı II. Mesud’un emîrlerinden biri iken Balıkesir ve civarını fethettiği ve bağımsızlığını ilân etmek suretiyle kendi adıyla anılan bir beylik kurduğu söylenebilir. Ancak bu beyliği ne zaman kurduğu kesin olarak belli değildir. Bununla beraber Bizans İmparatoru II. Andronikos’un (1282-1328) saltanatının ilk yıllarından itibaren faaliyete geçtiği ve muhtemelen 1296-1297’de Erdek, Biga, Edremit, Bergama ve Çanakkale hariç Büyük Mysia sahasına hâkim olduğu anlaşılmaktadır. Karesi Bey’in hâkimiyetindeki topraklar Bulgar baskısıyla Rumeli’den, Moğol baskısıyla Anadolu’dan kopup gelen göç dalgalarına son durak olabilecek elverişli bir mekân konumundaydı. Nüfusu artan beylik giderek güçlendi. Bizans İmparatorluğu’nun Alan ve Katalanlar ile ittifak kurmak suretiyle Batı Anadolu beyliklerine yönelik iki seferinden sonra (1302-1308) Karesi Bey topraklarını Küçük Mysia ve Saruhan Beyliği sınırlarına kadar genişletti. Trakya’da uzun süre Bizanslılar’a karşı mücadele veren Ece Halil liderliğindeki Sarı Saltuk Türkmenleri’ni destekledi (1311) ve bu mücadeleden geriye kalan Türkmenler’i ülkesine kabul etti. Oğlu Demirhan Bey ile Bizans İmparatoru III. Andronikos arasında 1328 yılında bir anlaşmanın yapılmış olması Karesi Bey’in bu tarihten önce vefat ettiğini düşündürmektedir. Bazı araştırmacılar, Osmanlı kaynaklarından yola çıkarak bu tarihi 1334 veya 1336 olarak göstermişlerdir. Osmanlı tarihlerinde bir Karesi beyinin ölümünden bahsedilmekte ve adı Aclan Bey şeklinde verilmektedir. Cahen’e göre Aclan Karesi Bey’in unvanıdır. Osmanlı tarihlerinde ise Aclan Bey Karesioğlu şeklinde yer almaktadır. Karesi Bey’in kesin olarak bilinen Yahşi (Aclan) adında bir oğlu vardır. Karesioğulları diye adları geçen Demirhan ve Dursun beylerin onun çocukları olduğu şüphelidir. Balıkesir Mustafa Fakih mahallesinde Paşa Camii yakınında yer alan türbesi 1920 yılında yeniden yapılmıştır. İçinde Karesi Bey ile beş oğluna ait olduğu kabul edilen mezarlar mevcuttur. Karesi Bey’in sandukası kûfî yazı ile süslüdür. Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 487-488 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:karesi-bey",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=karesi-bey, https://islamansiklopedisi.org.tr/karesi-bey",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:32Z",
+    "modified": "2026-05-04T15:34:32Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=karesi-bey (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 728,
+    "start_ce": 1328,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=karesi-bey, URL: https://islamansiklopedisi.org.tr/karesi-bey || DİA death-date string: (ö. 728/1328’den önce) || Chunk count: 1"
+}

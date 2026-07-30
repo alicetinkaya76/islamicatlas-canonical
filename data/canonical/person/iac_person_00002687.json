@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00002687",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FÂTIMA bint SA‘D el-HAYR",
+      "ar": "فاطمة بنت سعد الخير"
+    },
+    "originalScript": {
+      "ar": "فاطمة بنت سعد الخير"
+    },
+    "altLabel": {
+      "tr": [
+        "Ümmü Abdilkerîm Fâtıma bint Sa‘di’l-Hayr b. Muhammed el-Ensâriyye"
+      ]
+    },
+    "description": {
+      "tr": "522’de (1128) İsfahan’da doğdu. Bahreyn’de doğduğu, daha sonra babasının onu İsfahan’a götürdüğü de söylenmektedir (Kehhâle, IV, 59). Babası Ebü’l-Hasan Sa‘dü’l-Hayr hem tâcir hem de muhaddisti. Bu sebeple Fâtıma çok küçük yaşta hadis muhitiyle tanıştı ve İsfahan’ın hadis alanında tanınmış isimlerinden Fâtıma bint Abdullah el-Cûzdâniyye Taberânî’nin el-Muʿcemü’l-kebîr ’ini okuttuğu sırada babasıyla birlikte onun meclisinde bulundu. Daha sonra babası onu Bağdat’a götürerek Hibetullah b. Husayn’ın vefatından az önce kendisinden hadis dinlemesini temin etti. Orada yine hayatlarının son dönemlerini yaşayan Ebû Gālib b. Bennâ’dan ve Zâhir b. Tâhir’den hadis tahsil etti. Diğer hocaları arasında babası ve Ebû Mansûr el-Kazzâz diye tanınan Târîḫu Baġdâd ’ın râvisi Abdurrahman b. Muhammed eş-Şeybânî, dil ve lugat âlimi İbnü’l-Cevâlîkī ve daha başkaları yer almaktadır. Fâtıma, İbn Nüceyye diye bilinen devrin tanınmış vâizi, fakih ve müfessiri Zeynüddin Ebü’l-Hasan Ali b. İbrâhim b. Necâ ile evlenerek Mısır’a gitti. İbn Nüceyye, kendisinden Ziyâeddin el-Makdisî ve Münzirî gibi hadis hâfızlarının rivayette bulunduğu, Selâhaddîn-i Eyyûbî’nin ve oğlu el-Melikü’l-Azîz’in itibar ettiği bir âlimdi. Bu sebeple son derece müreffeh bir hayat yaşadılar. Fâtıma önceleri Dımaşk’ta, daha sonra Mısır’da hadis rivayet etti. Kendisinden hadis hâfızı Ebû Mûsâ Abdullah b. Abdülganî el-Cemmâîlî el-Makdisî, hâfız Ziyâeddin el-Makdisî, İskenderiyeli muhaddis Abdurrahman b. Mukarreb. Hatîbü Merdâ diye bilinen fakih ve muhaddis Muhammed b. İsmâil b. Ahmed el-Makdisî gibi âlimler doğrudan, Münzirî de icâzet yoluyla rivayette bulundular. Ondan icâzetle en son rivayette bulunan kimse Zehebî’nin hocası Ahmed b. Ebü’l-Hayr Selâme’dir. Bazı kaynaklarda Fâtıma’nın fakih olduğu da kaydedilmektedir. Fâtıma bint Sa‘d 8 Rebîülevvel 600’de (15 Kasım 1203) Mısır’da vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 228 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:fatima-bint-sad-el-hayr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=fatima-bint-sad-el-hayr, https://islamansiklopedisi.org.tr/fatima-bint-sad-el-hayr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:03Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=fatima-bint-sad-el-hayr (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 600,
+    "start_ce": 1203,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=fatima-bint-sad-el-hayr, URL: https://islamansiklopedisi.org.tr/fatima-bint-sad-el-hayr || DİA birth place: İsfahan || DİA death place: Mısır || DİA death-date string: (ö. 600/1203) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "students": [
+    "iac:person-00004435",
+    "iac:person-00006399"
+  ]
+}

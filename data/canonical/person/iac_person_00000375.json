@@ -1,0 +1,84 @@
+{
+  "@id": "iac:person-00000375",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABBÂDÎ, Ebû Âsım",
+      "ar": "أبو عاصم العبّادي"
+    },
+    "originalScript": {
+      "ar": "أبو عاصم العبّادي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Âsım Muhammed b. Ahmed b. Muhammed el-Herevî el-Abbâdî"
+      ]
+    },
+    "description": {
+      "tr": "Herat’ta 375 (985) yılında doğdu. Büyük dedesi Abbâd’a izâfetle Abbâdî diye tanınan Ebû Âsım Muhammed’in hayatı ve şahsiyeti hakkında en geniş bilgi, öğrencisi Ebû Sa‘d’ın el-İşrâf ʿalâ ġāvâmiżi’l-ḥükûmât adlı eserinde bulunmaktadır. Fıkıh tahsiline Herat Kadısı Ebû Mansûr el-Ezdî’nin yanında başladı ve Nîşâbur Kadısı Ebû Ömer el-Bistâmî, Ebû Tâhir ez-Ziyâdî ve Ebû İshak el-İsferâyînî gibi bilginlerin derslerine devam ederek öğrenimini tamamladı. Birçok ilim merkezine seyahat etti, değişik ilim adamları ile tanıştı. Herat’a döndükten sonra kadı olarak görev yaptı. Resmî görevi yanı sıra birçok eser kaleme almış ve değerli öğrenciler yetiştirmiştir. Kitâbü’r-Raḳm adlı eserin yazarı olan oğlu Ebü’l-Hasan el-Abbâdî ile Ebû Sa‘d (Saîd) el-Herevî bunların önde gelenlerindendir. Şevval 458’de (Eylül 1066) Herat’ta öldü. Abbâdî dikkatli bir âlim, yazdığı eserlerle Şâfiî fıkhının tedvinine ve klasik üslûp kazanmasına emeği geçmiş büyük bir hukukçu idi. Nevevî’nin ashâbü’l-vücûh tabakasındaki müctehidlerden saydığı Abbâdî’nin, kapalı ifade ve nâdir kullanılan kelimelere karşı özel bir merakı vardı. Bu yüzden üslûbu çetrefildir. Ebû Sa‘d, bu özelliğin ona hocası Ebû İshak’tan geçtiğini kaydeder. Şâfiî fıkhına dair yazdığı Edebü’l-ḳażâʾ , el-Mebsûṭ , el-Hâdî ilâ meẕhebi’l-ʿulemâʾ , Kitâbü’r-Redd ʿale’l-Ḳāḍî es-Semʿânî , Kitâbü’l-Miyâh , Kitâbü’l-Eṭʿime , Kitâbü’z-Ziyâdât , Ziyâdâtü’z-Ziyâdât ve Ṭabaḳātü’l-fuḳahâʾi’ş-Şâfiʿiyye başta gelen eserleri arasındadır. Edebü’l-ḳażâʾ , talebesi Ebû Sa‘d tarafından el-İşrâf ʿalâ ġāvâmiżi’l-ḥükûmât adıyla şerhedilmiştir. Ṭabaḳātü’l-fuḳahâʾi’ş-Şâfiʿiyye ise G. Vitestam tarafından yayımlanmıştır (Leiden 1964). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 13-14 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbadi-ebu-asim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbadi-ebu-asim, https://islamansiklopedisi.org.tr/abbadi-ebu-asim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbadi-ebu-asim (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Herevî; Abbâdî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 375,
+    "start_ce": 985,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 458,
+    "start_ce": 1066,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbadi-ebu-asim, URL: https://islamansiklopedisi.org.tr/abbadi-ebu-asim || DİA death-date string: (ö. 458/1066) || DİA categories: fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004516"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "@id": "iac:person-00000380",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abbas Ağa"
+    },
+    "description": {
+      "tr": "Hatice Turhan Sultan’ın başağası olup Muslih Ağa’nın ölümü üzerine Dârüssaâde ağalığına tayin edildi (9 Nisan 1668). 16 Temmuz 1671’de azledilerek Mısır’a gönderildi. Mısır’da ikameti sırasında orada öldü. Mezarı İmam Şâfiî Türbesi civarındadır. Abbas Ağa, Dârüssaâde ağalığından önce ve sonra birçok hayır eseri yaptırmıştır. Bunların en önemlileri şunlardır: Beşiktaş’ta bir cami ile Çapa Molla Gürânî’de Selçuk Hatun’a ait harap durumdaki camiye minber ilâvesiyle yaptırdığı başka bir cami; Elazığ’ın Çemişkezek kazasının Örençay (Hinesor) köyündeki cami ile muallimhâne; İstanbul Lâleli’de bir çifte hamam, Nevbethane mahallesi ile Demirkapı’da birer hamam; Üsküdar’da Câfer Çelebi Camii karşısında, Atpazarı’nda üçyol ağzında, Beşiktaş’ta Abbas Ağa Camii yanında, Atikali Paşa mahallesi ile Mesihpaşa mahallesinde sebil ve çeşmeler; Nevbethane mahallesinde bir muallimhâne ile dârülkurrâ; Atikali Paşa mahallesinde başka bir muallimhâne. Ayrıca bazı konaklarla vakıflarına gelir sağlamak için birçok dükkân ve bekâr odası da yaptırmıştır. Bunlardan Beşiktaş’taki cami ile Üsküdar’daki çeşme günümüze kadar ulaşan yapılardır. Beşiktaş’ta kendi adıyla anılan mezarlığın 1940 yılında bütün taşları sökülerek kireç yapılmak üzere satılmış, selvi ağaçlarının hepsi kesilmiştir. Ortaya çıkan arsaya 1941-1942’de Abbas Ağa Parkı olarak adlandırılan bahçe yapılmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 20-21 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbas-aga",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbas-aga, https://islamansiklopedisi.org.tr/abbas-aga",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-05-04T15:32:37Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbas-aga (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 1082,
+    "start_ce": 1671,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbas-aga, URL: https://islamansiklopedisi.org.tr/abbas-aga || DİA death-date string: (ö. 1082/1671'den sonra) || Chunk count: 1"
+}

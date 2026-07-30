@@ -1,0 +1,100 @@
+{
+  "@id": "iac:person-00005458",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MERVEZÎ, Ebû İshak",
+      "ar": "أبو إسحاق المروزي"
+    },
+    "originalScript": {
+      "ar": "أبو إسحاق المروزي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû İshâk İbrâhîm b. Ahmed b. İshâk el-Mervezî"
+      ]
+    },
+    "description": {
+      "tr": "Horasan bölgesinde Murgāb nehrinin aşağı kesiminde yer alan Merv (Mervüşşâhicân) şehrindendir. Ebû Muhammed İbn Abdân el-Mervezî, Ebû Saîd Hasan b. Ahmed el-İstahrî ve Bağdat’ta Ebü’l-Abbas İbn Süreyc’den ders aldı; bu hocasından sonra Şâfiîler’in önde gelen âlimi oldu. Rivayette güvenilirliği ve ilimde dirayeti konusunda ittifak mevcut olup öğrencileri vasıtasıyla Şâfiî mezhebi Irak’ta ve diğer bölgelerde yayıldı. Ebû Âsım el-Abbâdî, İslâm dünyasının her tarafından kendisinden ders almak için öğrencilerin geldiğini ve Şâfiî mezhebinde önderlik mevkiinde yetmiş kişinin onun meclisinden yetiştiğini belirtir. Tanınmış öğrencileri arasında Ebû Hâmid el-Merverrûzî, İbn Ebû Hüreyre, Ebû Zeyd Muhammed b. Ahmed el-Mervezî, Ebü’l-Kāsım Abdülazîz b. Abdullah ed-Dârekî, Ebü’l-Hasan el-Mâsercisî gibi âlimler anılabilir. Hayatının sonuna doğru Kahire’ye yerleşti ve İmam Şâfiî’nin ders verdiği yerde hocalık yaptı. 9 Receb 340 (11 Aralık 951) veya 21 Receb 340 (23 Aralık 951) tarihinde orada vefat etti ve İmam Şâfiî’nin kabri yakınına defnedildi. Muvaffakuddin b. Osman (ö. 615/1218) kabrinin ziyaretgâh olduğunu belirtir. el-Müheẕẕeb (Şîrâzî), el-Vasîṭ (Gazzâlî), er-Ravża ’da (Nevevî) sıkça anıldığını ve Şîrâzî’nin el-Müheẕẕeb ’de Ebû İshak künyesiyle Mervezî’yi kastettiğini belirten Nevevî onun Şâfiî ulemâsının imamı, mezhebin şeyhi olduğunu, Horasan ve Irak Şâfiî âlimlerinin tarikinin (mezhep imamının görüşünü tesbitte yol ve yöntem) ona dayandığını söyler ( Tehẕîb , I/2, s. 175). Eserleri. Şerḥu Muḫtaṣari’l-Müzenî (İmam Şâfiî’nin öğrencisi Müzenî’nin eserini yaklaşık sekiz ciltte şerhettiği ve bu esere ait en güzel şerhlerden biri olduğu kaydedilir), Kitâbü’t-Tavassuṭ beyne’ş-Şâfiʿî ve’l-Müzenî (Müzenî’nin adı geçen eserde Şâfiî’ye itirazlarıyla ilgili olarak yazdığı bu eserde bazan onun görüşünü desteklemiş, bazan da karşı çıkmıştır), el-Fuṣûl fî maʿrifeti’l-uṣûl , eş-Şürûṭ ve’l-ves̱âʾiḳ , el-Veṣâyâ ve ḥisâbü’d-devr , Kitâbü’l-Ḫuṣûṣ ve’l-ʿumûm . Bu madde TDV İslâm Ansiklopedisi’nin 2004 yılında Ankara’da basılan 29. cildinde, 234-235 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mervezi-ebu-ishak",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mervezi-ebu-ishak, https://islamansiklopedisi.org.tr/mervezi-ebu-ishak",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:mervezi-ebu-ishak",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=mervezi-ebu-ishak",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mervezi-ebu-ishak (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=mervezi-ebu-ishak)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mervezî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 340,
+    "start_ce": 951,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mervezi-ebu-ishak, URL: https://islamansiklopedisi.org.tr/mervezi-ebu-ishak || DİA death-date string: (ö. 340/951) || DİA categories: mezhep > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004044",
+    "iac:person-00004594"
+  ],
+  "students": [
+    "iac:person-00003748",
+    "iac:person-00004195",
+    "iac:person-00005258",
+    "iac:person-00005456"
+  ]
+}

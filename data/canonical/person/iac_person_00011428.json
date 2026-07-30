@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00011428",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Qazwīnī",
+      "tr": "Kazvinî",
+      "ar": "القزويني"
+    },
+    "originalScript": {
+      "ar": "القزويني"
+    },
+    "description": {
+      "tr": "Tarihçi, coğrafyacı, kadılardan.",
+      "en": "A historian, geographer, and one of the judges."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Zakariyyā b. Muḥammad b. Maḥmūd, from the lineage of Anas b. Mālik al-Anṣārī al-Najjār"
+    },
+    "altLabel": {
+      "tr": [
+        "Zekeriyyâ b. Muhammed b. Mahmûd, Enes b. Mâlik el-Ensârî en-Necâr'ın soyundan"
+      ],
+      "ar": [
+        "زكريا بن محمد بن محمود، من سلالة أنس بن مالك الأنصاري النجاري"
+      ]
+    }
+  },
+  "profession": [
+    "geographer",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:3714",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=3714",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:00Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:00Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:00Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=3714 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:26Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:3714."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 682,
+    "start_ce": 1283,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=3714, heading_ar=القزويني || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 36.27, 50.0",
+  "active_in_places": [
+    "iac:place-00009612"
+  ],
+  "authored_works": [
+    "iac:work-00001717",
+    "iac:work-00002128"
+  ]
+}

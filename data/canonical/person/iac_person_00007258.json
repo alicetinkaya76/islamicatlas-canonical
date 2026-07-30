@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00007258",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Tâlib Efendi"
+    },
+    "description": {
+      "tr": "Bursa’da doğdu. Adı Mehmed’dir. Kaynakların hemen hemen tamamının aksine Atrabü’l-âsâr ’da ismi Ahmed olarak kaydedilmiştir. Kürd Mustafa Efendi adıyla tanınan bir imamın oğlu olmasından dolayı Kürdzâde, Kürdefendizâde, Kürdimamzâde lakaplarıyla anılır. Küçük yaşta ilmiye mesleğine yöneldi. Bursa’da müderris Râgıb Ali Efendi, Hâbilzâde Ömer Efendi gibi âlimlerinden faydalandı. Hâbilzâde Ömer Efendi’nin Medine’ye gitmesinden sonra mülâzım oldu. Şevval 1097’de (Eylül 1686) hâriç pâyesiyle Arabiyye Medresesi’nde görevlendirildi. İki yıl sonra mûsıle-i Sahn’a devam etti. 1109’da (1697) Müftî Ahmed Paşa Medresesi’ne nakledilmesinin ardından Cemâziyelâhir 1111’de (Aralık 1699) Molla Hüsrev Paşa Medresesi’ne tayin edildi. Cemâziyelevvel 1114’te (Ekim 1702) Kütahya kadılığıyla görevlendirildi. Anadolu (Kütahya) Valisi Köprülüzâde Nûman Paşa ile aralarındaki anlaşmazlık yüzünden azledilmesine rağmen (Receb 1115 / Kasım 1703) daha sonra Şeyhülislâm Paşmakçızâde Ali Efendi tarafından aynı görevle Erzurum’a gönderildi (Şevval 1117 / Ocak 1706). Çok kısa süren Erzurum kadılığı sırasında Receb 1118’de (Ekim 1706) vefat etti. Tâlib Efendi IV. Mehmed devrinde şöhrete ulaşmıştır. Özellikle Arapça’ya vukufuyla bilinen, ilmî kişiliğinin yanı sıra döneminde şairliği ve bestekârlığıyla da tanınan Tâlib Efendi’nin şiirlerini topladığı mürettep divanı günümüze ulaşmıştır. Divanındaki Türkçe şiirlerinde “Tâlib”, Farsça gazellerinde “Âzim” mahlasını kullanmıştır. Sâlim Tezkire ’sinde, Şeyhî Vekāyiu’l-fuzalâ ’sında onun şiir ve inşâda başarılı ve şöhret sahibi bir şair olduğunu belirtir. El yazması güfte mecmualarında dinî ve din dışı formlarda bazı bestelerine rastlanan Tâlib Efendi’nin dönemin mûsikişinasları arasında yer aldığı muhakkaktır. Belîğ ondan, özellikle okuyuculuğu ve bestekârlığıyla tanınmış iyi bir mûsikişinas olarak söz eder ( Güldeste , s. 483). Sadettin Nüzhet Ergun, Tâlib Efendi’nin, güfteleri Niyâzî-i Mısrî’ye ait dört ilâhisinin metnini neşretmiştir ( Türk Musikisi Antolojisi , I, 100-101). Bunların arasında sadece, “Ey sanem n’oldun câna kastın var” mısraıyla başlayan sofyan usulündeki eviç ilâhisinin notası günümüze ulaşmıştır ( TSM Sözlü Eserler , s. 141). Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 506 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "judge"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:talib-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=talib-efendi, https://islamansiklopedisi.org.tr/talib-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:talib-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/talib-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:00Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:00Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:00Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=talib-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1118,
+    "start_ce": 1706,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=talib-efendi, URL: https://islamansiklopedisi.org.tr/talib-efendi || DİA birth place: Bursa || DİA death place: 1118 || DİA death-date string: (ö. 1118/1706) || DİA categories: şiir || Chunk count: 1",
+  "birth_place": "iac:place-00015103",
+  "active_in_places": [
+    "iac:place-00019111"
+  ]
+}

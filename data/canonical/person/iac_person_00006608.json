@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00006608",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "SAÎD b. EBÛ SAÎD",
+      "ar": "سعيد بن أبي سعيد"
+    },
+    "originalScript": {
+      "ar": "سعيد بن أبي سعيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Sa‘d Saîd b. Ebî Saîd Keysân el-Leysî el-Makbürî"
+      ]
+    },
+    "description": {
+      "tr": "Babası muhadramûndan kabul edilen Medineli bir tâbiî ve muhaddistir ( DİA , X, 224). Babasından ve Hz. Âişe, Ebû Hüreyre, Sa‘d b. Ebû Vakkās, Ümmü Seleme, Abdullah b. Ömer, Ebû Saîd el-Hudrî, Enes b. Mâlik, Câbir b. Abdullah, Muâviye b. Ebû Süfyân gibi sahâbîlerden hadis rivayet etti. Kendisinden oğulları Abdullah ve Sa‘d ile İbn Ebû Zi’b, Zeyd b. Ebû Üneyse, Ubeydullah b. Ömer, Mâlik b. Enes, İbrâhim b. Tahmân, Abdurrahman b. İshak, Leys b. Sa‘d, Yahyâ b. Saîd el-Ensârî, Amr b. Şuayb gibi muhaddisler rivayette bulundu. Bazı âlimler onun rivayetlerini hatasız nakleden talebesinin Leys b. Sa‘d, bazıları da İbn Ebû Zi’b olduğunu söylemiştir. Üçüncü tabaka tâbiî muhaddislerinden kabul edilen Saîd b. Ebû Saîd hadis hâfızları arasında sayılmaktadır. Ali b. Medînî, İbn Sa‘d, Ebü’l-Hasan el-İclî, Ebû Zür‘a er-Râzî ve Nesâî onun için sika, Ebû Hâtim er-Râzî sadûk, Ahmed b. Hanbel “leyse bihî be’s” diyerek güvenilir biri olduğunu belirtmişlerdir. İbn Sa‘d, onun ölümünden dört yıl önce rivayet ettiği hadisleri yaşlılığından dolayı karıştırdığını ileri sürmüş, Zehebî ise Saîd’in bu süre içinde bir şey rivayet ettiğini sanmadığını ve ona ait münker bir rivayetin olmadığını kaydetmiştir ( Aʿlâmü’n-nübelâʾ , V, 217). Rivayetleri Kütüb-i Sitte ’de yer almıştır. Eserinde zayıf râvilere yer veren İbn Adî, Şu‘be b. Haccâc’ın ondan hadis naklederken, “Saîd yaşlandıktan sonra bize hadis rivayet etti” dediği için onu kitabına aldığını, bununla beraber Saîd’in sıdk ehlinden olduğunu düşündüğünü, ondan hadis imamlarının ve sika râvilerin rivayette bulunduğunu ve onun hakkında hayırdan başka bir şey duymadığını belirtmiştir. İbn Hacer de Saîd’in Hz. Âişe ve Ümmü Seleme’den naklettiği rivayetlerin mürsel olduğunu kaydetmektedir ( Taḳrîbü’t-Tehẕîb , s. 236). Suriye’de murâbıt olarak bulunduğu ve Beyrut’ta hadis rivayet ettiği kaydedilen Saîd b. Ebû Saîd 125 (743) yılında Medine’de vefat etti. Bazı kaynaklarda ölüm tarihi 117 (735), 123 ve 126 (744) olarak da zikredilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2008 yılında İstanbul’da basılan 35. cildinde, 554 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:said-b-ebu-said",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=said-b-ebu-said, https://islamansiklopedisi.org.tr/said-b-ebu-said",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:said-b-ebu-said",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/said-b-ebu-said",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:52Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=said-b-ebu-said (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Leysî; Makbürî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 125,
+    "start_ce": 743,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=said-b-ebu-said, URL: https://islamansiklopedisi.org.tr/said-b-ebu-said || DİA death place: Medine || DİA death-date string: (ö. 125/743) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

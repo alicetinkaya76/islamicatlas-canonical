@@ -1,0 +1,142 @@
+{
+  "@id": "iac:person-00018028",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Shaykh al-Mufīd",
+      "tr": "Şeyh el-Müfîd",
+      "ar": "الشيخ المفيد"
+    },
+    "originalScript": {
+      "ar": "الشيخ المفيد"
+    },
+    "description": {
+      "tr": "İmâmî muhakkık. Zamanında Şîa'nın liderliğine yetişti. Usûl, kelâm ve fıkhta çok sayıda eser yazarı.",
+      "en": "Twelver Shiite theologian and jurist. He attained the leadership of the Shiites in his time. Prolifi"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muḥammad b. Muḥammad b. al-Nuʿmān b. ʿAbd al-Salām al-ʿAkbarī"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Muhammed b. en-Numân b. Abdüsselâm el-Akberî"
+      ],
+      "ar": [
+        "محمد بن محمد بن النعمان بن عبد السلام العكبري، يرفع نسبه إلى قحطان،أبو عبد الله، المفيد، ويعرف بابن المعلم"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:11058",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11058",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:13Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=11058 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:11058."
+      },
+      {
+        "change_type": "deprecate",
+        "note": "h22_003 kişi-dublet birleştirme: aynı normalize Arapça ad 'الشيخ المفيد' + aynı ölüm (413 AH / 1022 CE) + ayrık kaynaklar; iac:person-00005640 lehine emekli. PID korunur, geri alınabilir (h22_003 --restore).",
+        "changed_at": "2026-07-20T14:37:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854"
+      }
+    ],
+    "deprecated": true,
+    "deprecated_in_favor_of": "iac:person-00005640"
+  },
+  "death_temporal": {
+    "start_ah": 413,
+    "start_ce": 1022,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11058, heading_ar=الشيخ المفيد || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 33.72, 44.22",
+  "active_in_places": [
+    "iac:place-00008513"
+  ],
+  "authored_works": [
+    "iac:work-00001552",
+    "iac:work-00001673",
+    "iac:work-00002088",
+    "iac:work-00002681",
+    "iac:work-00002942",
+    "iac:work-00003602",
+    "iac:work-00003627",
+    "iac:work-00003801",
+    "iac:work-00004206",
+    "iac:work-00004660",
+    "iac:work-00004897",
+    "iac:work-00005789",
+    "iac:work-00005916",
+    "iac:work-00006169",
+    "iac:work-00006285",
+    "iac:work-00006430",
+    "iac:work-00006977",
+    "iac:work-00007023",
+    "iac:work-00007176",
+    "iac:work-00007182",
+    "iac:work-00007183",
+    "iac:work-00007257",
+    "iac:work-00007314",
+    "iac:work-00007392",
+    "iac:work-00007446",
+    "iac:work-00007470",
+    "iac:work-00007760",
+    "iac:work-00007864",
+    "iac:work-00008128",
+    "iac:work-00008254",
+    "iac:work-00008598",
+    "iac:work-00008604",
+    "iac:work-00008608",
+    "iac:work-00008635",
+    "iac:work-00008650",
+    "iac:work-00008694",
+    "iac:work-00008736",
+    "iac:work-00008751",
+    "iac:work-00008768",
+    "iac:work-00008800",
+    "iac:work-00008801",
+    "iac:work-00008840",
+    "iac:work-00009067",
+    "iac:work-00009185"
+  ],
+  "kunya": "أبو عبد الله"
+}

@@ -1,0 +1,139 @@
+{
+  "@id": "iac:person-00003839",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Hâmid",
+      "ar": "ابن حامد"
+    },
+    "originalScript": {
+      "ar": "ابن حامد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Hasen b. Hâmid b. Alî el-Verrâk el-Bağdâdî"
+      ],
+      "en": [
+        "HAMID"
+      ]
+    },
+    "description": {
+      "tr": "Bağdat’ta doğdu ve burada yetişti. Ebû Bekir en-Neccâd, Gulâmü’l-Hallâl, Ebû Bekir İbn Mâlik el-Katîî, Ebû Ali İbnü’s-Savvâf ve Ahmed b. Ca‘fer el-Huttelî gibi dönemin önde gelen âlimlerinden ders aldı. Yetiştirdiği öğrenciler arasında Ebû Tâhir İbnü’l-Kattân, Ebû İshak el-Bermekî, Ebû Bekir er-Rüşnânî, Ebû Abdullah İbnü’l-Fukāî, Ebû Bekir İbnü’l-Hayyât Hasan b. Ali el-Ahvâzî ve ölümünden sonra onun yerine ders ve fetva veren tanınmış Hanbelî hukukçusu Ebû Ya‘lâ el-Ferrâ bulunmaktadır. Geçimini bilhassa Kur’ân-ı Kerîm istinsahı ile sağladığı için “Verrâk” lakabıyla anılan İbn Hâmid zühd ve takvâsı ile temayüz etmiş ve Bağdat halkı üzerinde nüfuz ve itibar kazanmıştı. Döneminde cereyan eden ilmî tartışmalara aktif şekilde katılmış, Halife Kādir-Billâh’ın huzurunda Şâfiî âlimi Ebû Hâmid el-İsferâyînî ile yaptığı münazara ilim muhitlerinde bir hayli yankı uyandırmıştı. İbn Hâmid’in o sıralarda Bağdat’a hâkim olan Büveyhî hânedanı ile de yakın ilişki içinde bulunması, Hanbelî mezhebinin diğer mezheplere göre daha canlı ve güçlü bir konumda olmasına katkı sağlamıştır. İdarecilerle olan münasebetine ve onlardan gördüğü ilgiye rağmen siyasî olaylar içerisinde yer almamış, hatta saraydan yapılan ihsan ve yardımları da ihtiyaç içinde bulunduğu halde kabul etmemiştir. Uzun bir ömür sürdüğü ve birçok defa hacca gittiği söylenen İbn Hâmid, 403 (1012) yılında Mekke’den dönerken Vâkısa denen yerde bedevîlerin hücumuna uğramış ve orada öldürülmüştür. Eserleri. İbn Hâmid’in günümüze ulaşan Tehẕîbü’l-ecvibe (nşr. Subhî es-Sâmerrâî, Beyrut 1988) adlı fıkha dair kitabından başka kaynaklarda zikredilen Kitâbü’l-Câmiʿ fi’ḫtilâfi’l-fuḳahâʾ ile (400 cüz) Şerḥu’l-Ḫıraḳī , Şerḥu Uṣûli’d-dîn ve Uṣûlü’l-fıḳh adlı eserleri de vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 24-25 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "HAMID (the Mst/vj;?"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-hamid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-hamid, https://islamansiklopedisi.org.tr/ibn-hamid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-hamid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-hamid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "ei1:1740",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 2, p. 28",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      },
+      {
+        "source_id": "el-alam:2665",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=2665, heading_ar=ابن حامد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:19Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:19Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-hamid (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[2665]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-hamid)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled ['description.en', 'altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=2665 (heading_ar=ابن حامد) via Track A (DİA→Alam xref bridge). dt=Bağdâdlı. Zamanının Hanbelî imâmı, mezheb müderrisi ve müftüsü."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 403,
+    "start_ce": 1012,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-hamid, URL: https://islamansiklopedisi.org.tr/ibn-hamid || El-Aʿlām (Ziriklī) cross-reference: alam_id=[2665] || DİA birth place: Bağdat || DİA death-date string: (ö. 403/1012) || DİA categories: mezhep > fetva || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=2665, heading_ar=ابن حامد, dt=Bağdâdlı. Zamanının Hanbelî imâmı, mezheb müderrisi ve müftüsü.",
+  "authored_works": [
+    "iac:work-00004916"
+  ],
+  "teachers": [
+    "iac:person-00002928",
+    "iac:person-00003689",
+    "iac:person-00006037"
+  ],
+  "students": [
+    "iac:person-00002298"
+  ]
+}

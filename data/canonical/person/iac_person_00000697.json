@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00000697",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Adanali Hayret"
+    },
+    "description": {
+      "tr": "Adana’da çiftçilikle uğraşan Hacı Hüseyin Ağa’nın oğludur. Asıl adı Mehmed Bahâeddin’dir. Devrinde daha çok Hoca Hayret adıyla meşhur oldu. İlk tahsilini Adana’da tamamladı. Bu sırada Arapça ve Farsça öğrendi. Daha sonra İstanbul’a giderek Süleyman Subaşı Medresesi’ne girdi; ayrıca hocalık için açılan imtihanı kazanarak Dârülmuallimîn’den diploma aldı. Bir süre Adana ve Söğüt rüşdiyelerinde görev yaptıktan sonra İstanbul’a döndü. Önce Prens Mustafa Fâzıl Paşa’nın konağında hocalık yaptı. Daha sonra 1876’da Üsküdar Paşakapısı ve 1878’de Gülhane Askerî Rüşdiyesi’nde Türkçe dil bilgisi, ardından da Mekteb-i Sultânî’de Türk edebiyatı dersleri verdi. 1881’de kütüphaneler müfettişliği, 1886’da Maarif Nezâreti Teftiş ve Muayene Encümeni âzalığı, 1892’de Kandiye İdâdîsi edebiyat hocalığı yaptı; 1908’de Dârülfünun ulûm-i dîniyye ve edebiyye şubeleri müdürlüğünde bulundu. Otuzbir Mart Vak‘ası sırasında başmuharrirliğini yaptığı İslâm Mecmuası ’nda yayımlanan bir makalesi yüzünden Rodos’a sürüldü; ancak 1910’da affedildi. 17 Eylül 1913’te İstanbul’da öldü ve Merkezefendi Kabristanı’na defnedildi. Muallim Nâci mektebine mensup şairler arasında belli bir yeri olan Hayret, devrinde daha çok klasik tarzdaki şiirleriyle tanınmıştır. Çağdaşları arasında sözünü sakınmamakla da şöhret kazanan şair, bilhassa hicivleriyle dikkati çekmiştir. İlmî yazı ve münakaşalarının çoğu Beyânülhak , Sırât-ı Müstakîm ve Sebîlürreşâd mecmualarında yayımlanmıştır. Yaratılıştan hür fikirli olan Adanalı Hayret devrinin birçok aydını gibi önce Sultan II. Abdülhamid’e cephe alarak İttihat ve Terakkî Cemiyeti’ne girmiş, kısa bir müddet sonra cemiyetin iç yüzünü anlayınca da ayrılmıştır. Dil, edebiyat, şiir ve tasavvufî konularda geniş bilgisi olmasına rağmen makaleleri dışında fazla eser bırakmamıştır. Şehrâyîn ve Sihr-i Beyân (İstanbul 1302) adlı iki bölümden meydana gelen mesnevi tarzındaki eserinin birinci bölümünde Sultan II. Abdülhamid, ikinci bölümünde de Sadrazam Said Paşa methedilmektedir. Daha çok bir mecmuayı andıran Sûk-ı Ukâz (İstanbul 1304) ancak bir sayı yayımlanabilmiş, şiirleri ise ölümünden sonra Eş‘âr-ı Hayret adıyla bir araya getirilmişse de neşredilmemiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 353 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:adanali-hayret",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=adanali-hayret, https://islamansiklopedisi.org.tr/adanali-hayret",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=adanali-hayret (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1848,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=adanali-hayret, URL: https://islamansiklopedisi.org.tr/adanali-hayret || DİA death place: İstanbul || DİA death-date string: (1848-1913) || DİA categories: tasavvuf > şiir || Chunk count: 1",
+  "death_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00006314"
+  ]
+}

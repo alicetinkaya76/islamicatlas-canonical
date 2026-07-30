@@ -1,0 +1,87 @@
+{
+ "@id": "iac:person-00000341",
+ "@type": [
+  "iac:Person",
+  "iac:Poet",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Saadi Shirazi",
+   "tr": "Sa'dî Şirâzî",
+   "ar": "سعدي شيرازي"
+  },
+  "originalScript": {
+   "ar": "سعدي شيرازي"
+  },
+  "altLabel": {
+   "en": [
+    "Muslih al-Din Saadi"
+   ],
+   "tr": [
+    "Muslihiddin Sa'dî"
+   ],
+   "ar": [
+    "مصلح الدين سعدي"
+   ]
+  },
+  "description": {
+   "tr": "Fars edebî şaheseri; BM tarafından evrensel insan birliği beyannamesi olarak alıntılandı || Fars edebiyatının büyük üstadı; Gülistan ve Bostân'ı dünya edebiyatının şaheserlerindendir. Ahlâk felsefesini hikâye anlatıcılığıyla birleştirdi; BM merkezindeki 'Âdemoğulları bir vücudun azalarıdır' beyti ona aittir. || [Tarih notu] Katouzian, Sa'dî'nin Moğol istilası döneminde yazdığını vurgulayarak eserlerini hayatta kalma edebiyatı olarak yeniden değerlendirmiştir. Wickens'ın İngilizce çevirileri standart referans olarak kabul edilir.",
+   "en": "Persian literary masterpiece on ethics and governance; quoted by UN as universal declaration of human unity || Master of Persian prose and poetry; his Gulistan's opening verse displayed at UN headquarters || [Historiographical note] His \"sons of Adam\" verse displayed at UN since 2005",
+   "ar": "أستاذ الأدب الفارسي الأكبر؛ يُعدّ كتاباه گلستان وبوستان من روائع الأدب العالمي. جمع الفلسفة الأخلاقية بفن القصّ؛ بيته 'بنو آدم أعضاء جسد واحد' منقوش في مقرّ الأمم المتحدة. || [Historiographical note] أكد كاتوزيان أن سعدي كتب في ظل الغزو المغولي مُعيدًا تقييم أعماله بوصفها أدب نجاة. وتُعدّ ترجمات ويكنز الإنجليزية المرجع المعياري."
+  }
+ },
+ "profession": [
+  "poet",
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0166",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0166",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-05-04T14:58:52Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0166 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (341-6543) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00006543 lehine yumuşak-silindi. Gerekçe: İki kayıt da Gülistân şairi Sa'dî-i Şîrâzî'dir (ö. 691/1291-92, Şîraz)."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00006543"
+ },
+ "birth_temporal": {
+  "start_ce": 1210,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1291,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0166, lecture_week=n/a. || Key works: {'title': {'en': 'Gulistan (Rose Garden)', 'tr': 'Gülistân'}, 'year': 1258, 'field': 'literature', 'significance': {'en': 'Persian literary masterpiece on ethics and governance; quoted by UN as universal declaration of human unity', 'tr': 'Fars edebî şaheseri; BM tarafından evrensel insan birliği beyannamesi olarak alıntılandı'}} || Modern parallel: Like writing code comments so elegant they become the project's mission statement",
+ "authored_works": [
+  "iac:work-00000200"
+ ]
+}

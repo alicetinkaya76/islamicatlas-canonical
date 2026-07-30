@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00018561",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Mujīr al-Dīn Ibn Tamīm",
+      "tr": "Mucîru'd-Dîn İbn Temîm",
+      "ar": "مجير الدين ابن تميم"
+    },
+    "originalScript": {
+      "ar": "مجير الدين ابن تميم"
+    },
+    "description": {
+      "tr": "Şair, ordu emirlerinden",
+      "en": "Poet, from the military emirs"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad b. Ya'qūb b. 'Alī Abū 'Abd Allāh Mujīr al-Dīn Ibn Tamīm"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Yakub b. Ali Ebû Abdillâh Mucîru'd-Dîn İbn Temîm"
+      ],
+      "ar": [
+        "محمد بن يعقوب بن علي، أبو عبد الله، مجير الدين ابن تميم"
+      ]
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:11649",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11649",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:20Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:20Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:20Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=11649 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:11649."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 684,
+    "start_ce": 1285,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11649, heading_ar=مجير الدين ابن تميم || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 35.13, 36.75",
+  "kunya": "أبو عبد الله"
+}

@@ -1,0 +1,121 @@
+{
+ "@id": "iac:person-00014773",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Mullā ʿAlī al-Qārī",
+   "tr": "Molla Ali el-Kārî",
+   "ar": "الملا علي القاري"
+  },
+  "originalScript": {
+   "ar": "الملا علي القاري"
+  },
+  "description": {
+   "tr": "Hanefi fıkıh âlimi, zamanının en büyük bilginlerinden",
+   "en": "Hanafi jurist, among the foremost scholars of his time"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAlī b. (Sulṭān) Muḥammad, Nūr al-Dīn al-Mullā al-Harawī al-Qārī"
+  },
+  "altLabel": {
+   "tr": [
+    "Ali b. (Sultân) Muhammed, Nûreddîn el-Mollâ el-Herevî el-Kârî"
+   ],
+   "ar": [
+    "علي بن (سلطان) محمد، نور الدين الملا الهروي القاري"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:7456",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7456",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:34Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:34Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:34Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=7456 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:38Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7456."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (959-14773) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000959 lehine yumuşak-silindi. Gerekçe: Molla Ali el-Kārî'nin Herat nisbesi, koordinatı ve 1605/06 ölüm yılı iki kayıtta da uyuşuyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000959"
+ },
+ "death_temporal": {
+  "start_ah": 1014,
+  "start_ce": 1606,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7456, heading_ar=الملا علي القاري || Ziriklī century_ce=17 || Ziriklī place coords (city/region of activity): 34.35, 62.2",
+ "active_in_places": [
+  "iac:place-00011505",
+  "iac:place-00012668"
+ ],
+ "authored_works": [
+  "iac:work-00000272",
+  "iac:work-00000649",
+  "iac:work-00000734",
+  "iac:work-00001241",
+  "iac:work-00002022",
+  "iac:work-00002102",
+  "iac:work-00002127",
+  "iac:work-00003048",
+  "iac:work-00003814",
+  "iac:work-00005112",
+  "iac:work-00005362",
+  "iac:work-00006188",
+  "iac:work-00006360",
+  "iac:work-00006890",
+  "iac:work-00007019",
+  "iac:work-00007400",
+  "iac:work-00007855",
+  "iac:work-00008201",
+  "iac:work-00008457",
+  "iac:work-00008707",
+  "iac:work-00009071",
+  "iac:work-00009126"
+ ],
+ "kunya": "أبو الحسن"
+}

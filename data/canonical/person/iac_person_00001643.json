@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00001643",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Büştî",
+      "ar": "البشتي"
+    },
+    "originalScript": {
+      "ar": "البشتي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Hâmid Ahmed b. Muhammed el-Harzencî el-Büştî"
+      ]
+    },
+    "description": {
+      "tr": "Nîşâbur yakınlarında bulunan Büşt’e (Büst) nisbetle Büştî, buraya bağlı Hârzenc köyüne nisbetle de Hârzencî diye anılır. Hayatı hakkında fazla bilgi yoktur. Ebû Abdullah el-Bûşencî’den hadis okuduğu, Hâkim en-Nîsâbûrî’ye de hadis okuttuğu bilinmektedir. Gulâmu Sa‘leb’in de belirttiği gibi Büştî, devrinde Horasan dil ve edebiyat âlimlerinin en meşhurlarından biriydi. 330 (941) yılında yaptığı hac yolculuğu sırasında uğradığı Bağdat’ta Irak’ın önde gelen ilim adamlarıyla tanıştı; bedevîlerle teması olmadığı ve onların arasında yaşayan dile ait zengin malzemeyi tanımadığı halde Arap dilindeki derin bilgisi bu âlimleri hayrete düşürdü. Büştî 348 yılı Recebinde (Eylül 959) vefat etti. Eserleri. Halîl b. Ahmed’in Kitâbü’l-ʿAyn adlı eserinde eksik bıraktığı yerleri tamamlamak üzere kaleme aldığı Kitâbü’t-Tekmile ’nin günümüze kadar gelip gelmediği bilinmemektedir. Muhammed b. Ahmed el-Ezherî’nin (ö. 370/980) belirttiğine göre Büştî eserinin baş tarafında faydalandığı kaynakların uzun bir listesini vermiş, bu eserleri hocalarından semâ yoluyla bizzat duymadığını belirtmiş, doğruyu yanlıştan ayırmasını bilen biri için bunun bir kusur sayılamayacağını söylemiştir. Ancak onu ağır bir dille tenkit eden Ezherî, Arap yazısının noktalama ve imlâ bakımından o dönemde henüz mükemmel şeklini almadığını, bir hocadan duymadan yazılı eserlerden faydalanmanın sağlıklı bir yol olamayacağını ve bu sebeple Büştî’nin noktalı ve noktasız harflerle yazılan kelimelerde pek çok hata yaptığını söyleyerek bu konuda çeşitli örnekler vermektedir ( Tehẕîbü’l-luġa , I, 32-40). Büştî’nin, kendisini şöhrete ulaştıran bu eserden başka Kitâbü’t-Tafṣile ve Kitâbü Şerḥi (Tefsîri) ebyâti Edebi’l-kâtib adlı iki kitap daha yazdığı kaynaklarda zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 496 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:busti--alim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=busti--alim, https://islamansiklopedisi.org.tr/busti--alim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:busti--alim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=busti--alim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:45Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=busti--alim (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=busti--alim)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Harzencî; Büştî"
+  ],
+  "birth_temporal": {
+    "start_ah": 330,
+    "start_ce": 941,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 348,
+    "start_ce": 959,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=busti--alim, URL: https://islamansiklopedisi.org.tr/busti--alim || DİA death place: Bağdat || DİA death-date string: (ö. 348/959) || DİA categories: hadis > tefsir || Chunk count: 1"
+}

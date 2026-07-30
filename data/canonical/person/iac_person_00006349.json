@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00006349",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "RAMAZAN EFENDİ, Mahfî"
+    },
+    "description": {
+      "tr": "949’da (1542) Afyon Sandıklı’da doğdu. Tahsilini burada tamamladı. Halvetî şeyhi Kasım Lârendevî’ye intisap ederek halifesi Muhyiddin Karahisârî’den hilâfet aldıktan sonra kırk dört yaşlarında iken İstanbul’a gidip Kocamustafapaşa’da Bezistânî Hüsrev Çelebi tarafından 994’te (1586) Mimar Sinan’a yaptırılan Bezirgân Tekkesi’nde irşad faaliyetine başladı. Ardından kendi adıyla anılan bu tekkede otuz yıla yakın irşad faaliyetini sürdürdü. Vefatında tevhidhânenin bitişiğindeki türbesine defnedildi. “Geçti şeyh bugün”, “rızâ-yı pâk” ve “Kâ‘betü’l-uşşâk” ifadeleri ölümüne tarih düşürülmüştür. Günlerini genellikle oruçla geçirdiği, inzivâ ve halvete çok düşkün olduğu için “Mahfî” unvanıyla tanınan Ramazan Efendi’nin tarikat silsilesi Muhyiddin Karahisârî, Lârendevî Kasım Çelebi, Hacı İzzeddin Ali Karamânî vasıtasıyla Halvetiyye tarikatının dört ana şubesinden Ahmediyye’nin kurucusu Yiğitbaşı Ahmed Şemseddin Marmaravî’ye ulaşır. Ramazâniyye, Ramazan Efendi’nin halifeleri vasıtasıyla Cihangîriyye, Buhûriyye, Hayâtiyye, Raûfiyye ve Cerrâhiyye adlı beş şubeye ayrılmıştır (bk. RAMAZÂNİYYE ). Yûsuf Sünbül Sinan’ın (ö. 936/1529) o zamanlar bahçe halinde olan türbesinin bulunduğu yerden geçerken, “Buradan tevhid kokusu geliyor” diyerek Ramazan Efendi’nin geleceğine işaret ettiği kaydedilir. Rüya tabiri konusunda zamanın İbn Sîrîn’i olarak vasıflandırılan Ramazan Efendi’nin bazı kaynaklarda eserleri olduğundan bahsedilmekteyse de bu eserlerin ona aidiyeti kesinlik kazanmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 437 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ramazan-efendi-mahfi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ramazan-efendi-mahfi, https://islamansiklopedisi.org.tr/ramazan-efendi-mahfi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ramazan-efendi-mahfi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ramazan-efendi-mahfi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:50Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ramazan-efendi-mahfi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1025,
+    "start_ce": 1616,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ramazan-efendi-mahfi, URL: https://islamansiklopedisi.org.tr/ramazan-efendi-mahfi || DİA birth place: Sandıklı || DİA death place: 994 || DİA death-date string: (ö. 1025/1616) || DİA categories: tarikat || Chunk count: 1"
+}

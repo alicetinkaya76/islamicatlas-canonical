@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00000724",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂGEHÎ, Mansûr"
+    },
+    "description": {
+      "tr": "Rumeli’de Vardar Yenicesi’nde doğdu. Hayatı hakkında fazla bilgi yoktur. Bazı tezkirelerde medrese öğreniminden sonra Kaptan Piyâle Paşa’nın maiyetinde donanmada görev yaptığı kaydedilmekte, ayrıca “Hoca Kaynı” lakabıyla tanınan Mahmud Çelebi’nin yanında mülâzım olduğu bilinmektedir. İstanbul ve Gelibolu’da müderrislik ve kadılık yaptı. Kadılıktan mâzul iken vefat etti. Kafzâde Fâizî, “Âgehî’ye kıla rahmet Mennân” mısraını onun ölüm tarihi olarak göstermektedir (985/1577). Faziletli, cömert, hoşsohbet, rind, âlim ve zeki bir kişi olan Âgehî’nin mizah kabiliyeti oldukça yüksek bir şair olduğu kaynaklarda zikredilmektedir. Az yazmış olmasına rağmen divan şairlerinin kudretlilerinden kabul edilmiştir. Mürettep bir divanı bulunmamakta, şiirlerine çeşitli mecmualarda rastlanmaktadır. Mahallî bir renk taşıyan âşıkane duyguların denizcilik tabirleriyle anlatıldığı orijinal bir kasidesi şaire bir hayli şöhret kazandırmıştır. Otuz bir beyitten meydana gelen kaside, bugün unutulmuş birçok denizcilik teriminin anlaşılması bakımından önemlidir. Devrinde ve daha sonra büyük ilgi görerek birçok şair tarafından tahmis ve tanzir edilmiştir. Kaynaklar, kasidenin Piyâle Paşa’nın Akdeniz seferi (1555) dönüşünden sonra yazılmış olabileceğini, Piyâle Paşa’nın seferden dönünce kasideyi Kanûnî Sultan Süleyman’a arzettiğini, padişahın da şaire mükâfat olarak İstanbul’da Molla Şeref Medresesi müderrisliğini verdiğini naklederler. Divan şiirine değişik bir söyleyiş tarzı getiren bu manzume ve tahmîsleri A. Tietze tarafından neşredilmiştir. Âgehî’nin kaynaklarda zikredilen, ancak yakın tarihlere kadar hiçbir nüshasına rastlanmayan Sigetvar Fetihnâmesi adlı eserinin iki nüshası Hüseyin Gazi Yurdaydın tarafından bulunmuştur. Bunlardan Ankara İl Halk Kütüphanesi’nde bulunan nüsha Sigetvar Târihi adı ile kayıtlıdır (nr. 686). Bu nüshadan, Âgehî’nin bizzat Sigetvar seferine katıldığı, eserini Sokullu Mehmed Paşa’ya takdim ettiği ve bu sırada da kadı olduğu öğrenilmektedir. Eserin diğer nüshası Fetihnâme-i Kal‘a-i Sigetvar adıyla İstanbul Üniversitesi Kütüphanesi’nde (TY, nr. 3884) bulunmaktadır. Âgehî’nin Menâkıb-ı İmam Gazzâlî adlı mensur bir eseri de Süleymaniye Kütüphanesi’ndedir (Hacı Mahmud Efendi, nr. 4651). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 448-449 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:agehi-mansur",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=agehi-mansur, https://islamansiklopedisi.org.tr/agehi-mansur",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:agehi-mansur",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/agehi-mansur",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=agehi-mansur (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 985,
+    "start_ce": 1577,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=agehi-mansur, URL: https://islamansiklopedisi.org.tr/agehi-mansur || DİA death place: Gelibolu || DİA death-date string: (ö. 985/1577) || Chunk count: 1"
+}

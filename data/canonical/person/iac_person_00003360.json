@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00003360",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HAYVE b. ŞÜREYH",
+      "ar": "حيوة بن شريح"
+    },
+    "originalScript": {
+      "ar": "حيوة بن شريح"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Zür‘a Hayve b. Şüreyh b. Safvân et-Tücîbî"
+      ]
+    },
+    "description": {
+      "tr": "Arap asıllı olup Kinde kabilesinin Kahire’de yerleşmiş kollarından Benî Tücîb’e mensuptur. Hocalarının çoğu Ukbe b. Müslim et-Tücîbî, Ebû Hüreyre’nin âzatlısı Ebû Yûnus Süleym b. Cübeyr ed-Devsî, Bekir b. Amr el-Meâfirî ve Yezîd b. Ebû Habîb gibi Mısır’da yerleşen tâbiîn neslinden âlimlerdir. Kendisinden fıkıh ve hadis dersi alanlar arasında Mısırlı âlimlerden Abdullah b. Mübârek, Leys b. Sa‘d, Abdullah b. Vehb ve İbn Lehîa gibi isimler yer almaktadır. Ahmed b. Hanbel, Yahyâ b. Maîn, Ebû Hâtim er-Râzî ve Ebü’l-Hasan el-İclî gibi hadis tenkitçileri Hayve’nin hadis rivayetinde güvenilir olduğunu belirtmiş, Ebû Hâtim er-Râzî, onu Mısır’ın ünlü fakihi Leys b. Sa‘d’dan daha üstün gördüğünü söylemiş, İbn Hibbân da ona Kitâbü’s̱-S̱iḳāt adlı eserinde yer vermiştir. Birçok rivayeti âlî isnadlı olup bu rivayetlerin bir kısmı Kütüb-i Sitte ’de mevcuttur. 144 (761) yılında Mısır valisi tarafından Mısır kadılığına getirilmek istenen Hayve b. Şüreyh bütün ısrarlara rağmen bu görevi kabul etmemiştir. Hayve 158 (775) veya 159 (776) yılında Mısır’da vefat etti. Zühd ve takvâsıyla, ayrıca duası makbul bir âlim olmakla tanınan Hayve gösterişten uzak bir hayat sürmüştür. Onun derslerini dinleyen İbn Vehb, ibadetlerini bu kadar gizli yapan başka bir kimse görmediğini söylemiş, Hayve’yi öven Abdullah b. Mübârek de onun üstün vasıflarının sözle anlatılamayacağını belirtmiştir (İbn Hacer, III, 70). Hayve’nin, kendisine verilen yıllık 60 dinar maaşın hepsini evine gelinceye kadar yoksullara dağıttığı rivayet edilir. Hayve b. Şüreyh’in devrin idarecilerine öğüt verecek kadar itibar sahibi olduğu anlaşılmaktadır. Nitekim Mısır nâiblerinden birine şu tavsiyede bulunmuştur: “Sakın ülkemizden silâhı eksik etmeyin. Çünkü aramızda Kıptîler, Habeşîler, Rumlar ve Berberîler var. Kıptîler’in ne zaman antlaşmayı bozacağı, Habeşîler’in ne zaman baskın yapacağı, Rumlar’ın ne zaman ülkeyi istilâ edeceği, Berberîler’in ne zaman ayaklanacağı bilinmez” (Zehebî, VI, 405). Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 17. cildinde, 103 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hayve-b-sureyh",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hayve-b-sureyh, https://islamansiklopedisi.org.tr/hayve-b-sureyh",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:14Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hayve-b-sureyh (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Tücîbî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 158,
+    "start_ce": 775,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hayve-b-sureyh, URL: https://islamansiklopedisi.org.tr/hayve-b-sureyh || DİA death place: Mısır || DİA death-date string: (ö. 158/775 [?]) || DİA categories: rivayet > hadis > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004555",
+    "iac:person-00005670",
+    "iac:person-00007711"
+  ]
+}

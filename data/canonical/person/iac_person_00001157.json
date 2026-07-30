@@ -1,0 +1,125 @@
+{
+  "@id": "iac:person-00001157",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Assâl",
+      "ar": "العسّال"
+    },
+    "originalScript": {
+      "ar": "العسّال"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ahmed Muhammed b. Ahmed b. İbrâhîm el-Assâl el-İsfahânî"
+      ]
+    },
+    "description": {
+      "tr": "Zengin bir tüccarın oğludur. İsfahan’daki âlimlerden başka Şam, Hemedan, Bağdat, Kûfe, Basra, Hicaz, Vâsıt, Rey ve Hûzistan’daki âlimlerden de ilim tahsil etti. Hocaları arasında Ebû Müslim el-Keccî, Ebû Ca‘fer İbn Ebû Şeybe, Muhammed b. Esed el-Medînî, Ebû Şuayb el-Harrânî gibi birçok âlim bulunmaktadır. Hocalarına dair kaleme aldığı Muʿcem ’inde 400 şeyhinin adını vermiştir. Bir ara İsfahan kadılığı yapan Assâl’in talebeleri arasında, her biri birer muhaddis olan dört oğlundan başka İbn Adî, Ebû Abdullah İbn Mende, İbn Merdûye, Ebû Nuaym ve Ebü’ş-Şeyh el-İsfahânî gibi muhaddisler yer almaktadır. Güvenilir bir muhaddis olan Assâl kuvvetli bir hâfızaya sahipti. Büyük bir tefsir kitabını ezbere yazdırdığı, yine Erdistan’da ezberden kırk bin hadis imlâ ettiği, İsfahan’a döndüğünde bu hadisleri yazılı metinleriyle karşılaştırdığı zaman hepsini imlâ ettiği gibi bulduğuna dair rivayetler vardır. Bu rivayetler mübalağalı bile olsa, İbn Mende’nin bin kadar hocadan hadis yazdığına ve bunlar içinde Assâl’den daha güvenilir ve hâfızası daha sağlam birini görmediğine dair beyanı onun hakkında bir fikir vermektedir. Hadis, tefsir, tarih ve fıkıh yanında, kıraat ilminde de üstat olan ve meşhur yedi imamdan Nâfi‘ b. Abdurrahman’ın kıraatini Ebû Abdullah Muhammed b. Ali b. Amr el-İsfahânî’den öğrendiğine işaret edilen Assâl’in Tefsîrü’l-Ḳurʾân , Ḥurûfü’l-ḳırâʾât , el-Maʿrife fi’s-sünne , Târîḫu İṣfahân , Târîḫu’n-nisâʾ , el-Müsned ʿale’l-ebvâb , Ġarîbü’l-ḥadîs̱ , Kitâbü’r-Reḳāʾiḳ , Kitâbü’r-Rüʾye gibi birçok eserinin bulunduğu kaydedilmekte ise de bunların günümüze gelmediği anlaşılmaktadır. Bağdat’a giderek orada hadis rivayet etmiş olan Assâl, 9 Ramazan 349 (2 Kasım 960) günü seksen yaşlarında İsfahan’da vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 503 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:assal",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=assal, https://islamansiklopedisi.org.tr/assal",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:assal",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/assal",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:9049",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=9049, heading_ar=العسال",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=assal (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[9049]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=9049 (heading_ar=العسال) via Track A (DİA→Alam xref bridge). dt=Kadı, hadis bilginlerinden, çok yönlü ilim sahibi, Isfahanlılardan"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "İsfahânî"
+  ],
+  "death_temporal": {
+    "start_ah": 349,
+    "start_ce": 960,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=assal, URL: https://islamansiklopedisi.org.tr/assal || El-Aʿlām (Ziriklī) cross-reference: alam_id=[9049] || DİA death place: İsfahan || DİA death-date string: (ö. 349/960) || DİA categories: hadis > tefsir > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=9049, heading_ar=العسال, dt=Kadı, hadis bilginlerinden, çok yönlü ilim sahibi, Isfahanlılardan",
+  "active_in_places": [
+    "iac:place-00000729"
+  ],
+  "teachers": [
+    "iac:person-00000408",
+    "iac:person-00003735",
+    "iac:person-00003760",
+    "iac:person-00004328",
+    "iac:person-00004830"
+  ],
+  "students": [
+    "iac:person-00002234",
+    "iac:person-00004653"
+  ]
+}

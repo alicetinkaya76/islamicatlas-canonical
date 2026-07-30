@@ -1,0 +1,118 @@
+{
+  "@id": "iac:person-00005195",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MA‘KIL b. SİNÂN",
+      "ar": "معقل بن سنان"
+    },
+    "originalScript": {
+      "ar": "معقل بن سنان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Ma‘kıl b. Sinân b. Muzahhir (Muzâhir) el-Eşcaî"
+      ]
+    },
+    "description": {
+      "tr": "Gatafân kabilesinin Eşca‘ koluna mensup olup Ebû Abdurrahman, Ebû Yezîd, Ebû Îsâ ve Ebû Sinân künyeleriyle de anılır. Kabilesinde ilk müslüman olanlardandır. Resûl-i Ekrem tarafından Benî Hilâl b. Âmir’e İslâm davetçisi olarak gönderilen Ma‘kıl Mekke’nin fethinde (8/630) kabilesinin sancağını taşıdı; fetihten sonra bir müddet orada kaldı, ardından Medine’ye döndü. Kaynaklarda bir süre Kûfe’de kaldığı, Hz. Ömer döneminde tekrar Medine’ye gelip yerleştiği kaydedilmektedir. Emevîler devrinde Medine valisi tarafından Yezîd b. Muâviye’ye biat etmek üzere gönderilen heyette yer aldı. Emevî kumandanlarından Müslim b. Ukbe’ye kendilerine istemeyerek biat ettiklerini söyledi ve Yezîd’in başta içki olmak üzere bazı haramları işlediğini anlattı. Daha sonra Yezîd b. Muâviye’ye karşı muhalefetleri giderek büyüyen Medineliler, valiyi ve Yezîd’i görevden uzaklaştırma kararı alıp ensardan Abdullah b. Hanzale’ye biat ettiler. Fakat bu seçim ensara üstünlük sağladığı için huzursuzluğa yol açtı. Bunun üzerine Kureyş ve mevâlîsinin başına Abdullah b. Mutî‘, muhacirlerin başına Ma‘kıl b. Sinân getirildi. Yezîd b. Muâviye ile Medineliler arasındaki anlaşmazlık Harre Savaşı’na sebep oldu. Medineliler’le Emevî kuvvetleri arasında Harretüvâkım’da cereyan eden savaşta Emevî kumandan Müslim b. Ukbe galip geldi (27 Zilhicce 63 / 27 Ağustos 683) ve ertesi günü Kubâ’da Medineliler’den biat aldı. Buna karşı çıkan bazı kişilerle birlikte Ma‘kıl b. Sinân da öldürüldü. Ma‘kıl’in Nevfel b. Mûsâ tarafından öldürüldüğü kaydedilir. Cesaretiyle tanınan Ma‘kıl b. Sinân Hz. Peygamber’den hadis rivayet etmiş, kendisinden de Alkame b. Kays, Mesrûk b. Ecda‘, Esved b. Yezîd, Sâlim b. Abdullah, Hasan-ı Basrî gibi âlimler rivayette bulunmuştur. Ma‘kıl’in rivayetleri Ebû Dâvûd, Tirmizî, İbn Mâce ve Nesâî’nin es-Sünen ’lerinde yer almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 27. cildinde, 444 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:makil-b-sinan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=makil-b-sinan, https://islamansiklopedisi.org.tr/makil-b-sinan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:makil-b-sinan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/makil-b-sinan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:12256",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=12256, heading_ar=معقل بن سنان",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:37Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=makil-b-sinan (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[12256]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=12256 (heading_ar=معقل بن سنان) via Track A (DİA→Alam xref bridge). dt=Sahâbî, cesur komutanlardan"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Eşcaî"
+  ],
+  "death_temporal": {
+    "start_ah": 63,
+    "start_ce": 683,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=makil-b-sinan, URL: https://islamansiklopedisi.org.tr/makil-b-sinan || El-Aʿlām (Ziriklī) cross-reference: alam_id=[12256] || DİA death-date string: (ö. 63/683) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=12256, heading_ar=معقل بن سنان, dt=Sahâbî, cesur komutanlardan",
+  "active_in_places": [
+    "iac:place-00010482"
+  ],
+  "students": [
+    "iac:person-00000993",
+    "iac:person-00002611",
+    "iac:person-00003260",
+    "iac:person-00005474",
+    "iac:person-00006659"
+  ]
+}

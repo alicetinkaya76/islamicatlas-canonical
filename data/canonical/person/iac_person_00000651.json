@@ -1,0 +1,123 @@
+{
+  "@id": "iac:person-00000651",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. ZEYD",
+      "ar": "عبد الرحمن بن زيد"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن زيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdurrahmân b. Zeyd b. el-Hattâb el-Kureşî",
+        "Abdurrahman b. Zeyd b. Hattab el-Udavî el-Kurşî"
+      ],
+      "ar": [
+        "عبد الرحمن بن زيد بن الخطاب العدوي القرشي"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Ömer’in kardeşi Zeyd’in oğludur. 5 (626) yılında Medine’de doğdu. Anne tarafından dedesi Ebû Lübâbe, onu hurma liflerine sararak Hz. Peygamber’in huzuruna götürmüş, o da yediği hurmadan Abdurrahman’a tattırmış ve başını okşayarak dua etmiştir. Uzun boylu ve yakışıklı bir genç olan Abdurrahman’ı Hz. Ömer, kardeşi Zeyd’e çok benzediği için pek severdi. Bu sebeple onu kızı Fâtıma ile evlendirmiştir. Abdurrahman, Yezîd b. Muâviye tarafından Mekke valiliğine tayin edildi ve uzun süre bu görevde kaldı; ancak Abdullah b. Zübeyr taraftarı olduğu anlaşılınca valilikten azledildi. Hz. Peygamber’in vefatı sırasında henüz altı yaşında olan Abdurrahman’ın doğrudan hadis rivayeti yoktur. Rivayet ettiği hadisleri daha çok babasından, amcası Ömer’den, İbn Mes‘ûd ve diğer sahâbîlerden nakletmiştir. Kendisinden de oğlu Abdülhamîd, ayrıca Hüseyin b. Hâris el-Cedelî ve Sâlim b. Abdullah gibi kişiler rivayette bulunmuşlardır. Abdullah b. Zübeyr zamanında Mekke’de vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 177 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "Governor."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd al-Raḥmān b. Zayd b. al-Khaṭṭāb al-ʿAdawī al-Qurayshī"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-zeyd",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-zeyd, https://islamansiklopedisi.org.tr/abdurrahman-b-zeyd",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:5173",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5173, heading_ar=عبد الرحمن بن زيد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:abdurrahman-b-zeyd",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdurrahman-b-zeyd",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-zeyd (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5173]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5173 (heading_ar=عبد الرحمن بن زيد) via Track A (DİA→Alam xref bridge). dt=Vâlî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+kunya+translit from alam_detail.json el-alam:5173."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî"
+  ],
+  "death_temporal": {
+    "start_ah": 71,
+    "start_ce": 690,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-zeyd, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-zeyd || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5173] || DİA birth place: Medine || DİA death place: Mekke || DİA death-date string: (ö. 71/690) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5173, heading_ar=عبد الرحمن بن زيد, dt=Vâlî.",
+  "kunya": "null",
+  "teachers": [
+    "iac:person-00000522"
+  ],
+  "students": [
+    "iac:person-00006659"
+  ]
+}

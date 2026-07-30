@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00006348",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "RAMAZAN b. İSMÂİL",
+      "ar": "رمضان بن إسماعيل"
+    },
+    "originalScript": {
+      "ar": "رمضان بن إسماعيل"
+    },
+    "description": {
+      "tr": "İstanbul’da medresede öğrenim görürken Abdullah b. Cezzâr’dan aklâm-ı sitteyi meşkederek icâzet aldı. Bu sahada celî sülüs çalışmalarıyla yeteneğini geliştirdi. Özellikle ilgi duyduğu nesih yazıda ilerledi. İlim ve sanatıyla IV. Mehmed devrinin ünlüleri arasında öne çıktı. Mevlânâkapı Mimar Kasım caddesinde Yayla (eski adı Yaylak) Mescidi’nde (Kethüdâ Mescidi, Kurşunlu Cami) imamlık yaptı. Her gün mushaftan yarım cüz yazmayı âdet edinmişti. Yazdığı 400 mushafla en çok mushaf yazan hattatlar arasında yer aldı. Şeyh Hamdullah ekolünün en iyi temsilcilerindendi. Çağdaşı Derviş Ali, Suyolcuzâde Mustafa ve Hâfız Osman yakın dostlarındandı. Hoşsohbet bir insan olan Ramazan Efendi 1091 Ramazanında (Ekim 1680) Kadir gecesinde vefat etti. Ebced hesabıyla “ramazan” kelimesi ölüm tarihini verir. Kabri kendisinin yenilediği, günümüzde arsasında gecekondular bulunan Mevlânâkapı Gavsî Efendi Kādirî Dergâhı hazîresindeydi. Yetiştirdiği talebelerden oğlu Hüseyin babası seviyesinde ünlü bir hattattır. Diğer talebeleri arasında Çinicizâde Abdurrahman Efendi, onun oğlu Derviş İbrâhim, Ebûbekir (Kastamonulu), Seyyid Hasan Hâşimî (Seyyid Abdullah’ın babası), Hüseyin b. Resûl, Halil Hâfız (Halepli), Seyyid Sinâneddin, Ali b. Ebû Bekir, Seyyid Ali, damadı Mehmed Tozkoparanzâde ve Mehmed b. Ca‘fer’in isimleri sayılabilir. İstanbul Türk ve İslâm Eserleri Müzesi’nde (nr. 465) 1059 (1649) tarihli, Sakıp Sabancı Müzesi hat koleksiyonunda 1053 (1643) tarihli ve Ekrem Hakkı Ayverdi hat koleksiyonunda 1065 (1655) tarihli mushafları Ramazan Efendi’nin günümüze ulaştığı bilinen eserlerindendir. Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 439 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ramazan-b-ismail",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ramazan-b-ismail, https://islamansiklopedisi.org.tr/ramazan-b-ismail",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ramazan-b-ismail",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ramazan-b-ismail",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:50Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ramazan-b-ismail (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1091,
+    "start_ce": 1680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ramazan-b-ismail, URL: https://islamansiklopedisi.org.tr/ramazan-b-ismail || DİA death-date string: (ö. 1091/1680) || DİA categories: matematik || Chunk count: 1"
+}

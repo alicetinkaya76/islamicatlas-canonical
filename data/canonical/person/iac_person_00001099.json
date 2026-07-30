@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00001099",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂRİF-i KAZVÎNÎ",
+      "ar": "عارف قزوينى"
+    },
+    "originalScript": {
+      "ar": "عارف قزوينى"
+    },
+    "altLabel": {
+      "tr": [
+        "Mîrzâ Ebü’l-Kāsım Ârif-i Kazvînî"
+      ]
+    },
+    "description": {
+      "tr": "Kazvin’de doğdu. Çocukluğunda hat ve mûsiki dersleri aldı. Tahran’a giderek kısa zamanda geniş bir çevre edindi (1898). Okuduğu gazel ve şarkılarla dikkati çekti. Kaçarlar’dan Muzafferüddin Şah tarafından saraya çağrılarak ödüllendirildi. Meşrutiyetçi hareketler başlayınca karşı olduğu ve uygulamalarını beğenmediği sarayı terkederek bu hareketlere katıldı. Rusya ve İngiltere’nin İran’a müdahalesi üzerine 1915’te İstanbul’a gitti. I. Dünya Savaşı yıllarında bir müddet Türkler’in yanında bir tavır almasına ve İslâm birliğini savunmasına rağmen Azerbaycan’ın bağımsızlık mücadelesi başlayınca bu düşüncelerinden vazgeçti. 1919’da İran’a döndü. Tahran’da düzenlediği konserlerde okuduğu vatan sevgisiyle dolu şiir ve şarkılarıyla bütün İran halkını etkiledi. Albay Muhammed Takī Han 1921’de Pisyan cumhuriyet isteğiyle ayaklanınca Meşhed’e giderek bu harekete katıldı. Adı geçen liderin aynı tarihte öldürülmesi üzerine Tahran’a döndü. Sonradan şah olan başkumandan Rızâ Han başbakan olunca (1923) onu ve gerçekleşmesini istediği cumhuriyet rejimini savundu ve yıkılmak üzere olan Kaçar hânedanını şiddetle tenkit etti. Bu sıralarda okuduğu cumhuriyeti savunan gazel ve marşlar halk üzerinde çok etkili oldu. Ancak bütün bu gayretlerine rağmen yeni iktidar tarafından Hemedan’a sürüldü ve orada öldü (21 Ocak 1934). Ârif-i Kazvînî, Rızâ Şah Pehlevî idaresinin bazı kötü tarafları olduğunu kabul etmekle birlikte, İran’ın eski ihtişamlı günlerini hatırlattığı için Pehlevî adına saygı duyulmasını ve bu ailenin temsil ettiği devlete sahip çıkılmasını istiyordu. Sürgünde bulunduğu yıllarda milliyetçi duygulardan hareketle Zerdüşt’ü ve Zerdüştîliği de övmüştür. İran edebiyatında “tasnif” denilen ve mûsiki ile söylenen şiirde en başarılı şair olarak kabul edilen Ârif-i Kazvînî, gazellerinde özellikle Sa‘dî ve Hâfız’ı taklit etmiş, şiiri halkı aydınlatmak için bir vasıta olarak gördüğünden sade bir dil kullanmıştır. Şiirleri, birkaç manzumesi dışında keder ve ıstırap doludur. Şairliği yanında aynı zamanda iyi bir bestekâr ve güçlü bir icracıdır. Gazel, kıta, kaside, mesnevi ve tasniflerden ibaret yaklaşık 150 manzume ihtiva eden divanı ilk olarak 1924’te Berlin’de Rızâzâdei- Şafak’ın önsözü ve bizzat şairin kaleme aldığı hayat hikâyesiyle birlikte Seyf-i Âzâd tarafından yayımlanmıştır. Ârif-i Kazvînî, Nisan 1923’te tamamladığı bu otobiyografisini Jean-Jacques Rousseau’nun İtiraflar ’ına benzer bir şekilde kaleme almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 368 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:arif-i-kazvini",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=arif-i-kazvini, https://islamansiklopedisi.org.tr/arif-i-kazvini",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=arif-i-kazvini (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1882,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=arif-i-kazvini, URL: https://islamansiklopedisi.org.tr/arif-i-kazvini || DİA birth place: Kazvin || DİA death-date string: (1882-1934) || DİA categories: şiir || Chunk count: 1",
+  "birth_place": "iac:place-00014513",
+  "active_in_places": [
+    "iac:place-00001184",
+    "iac:place-00007880"
+  ]
+}

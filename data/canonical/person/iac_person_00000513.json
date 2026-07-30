@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00000513",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. HASAN b. HASAN",
+      "ar": "عبد الله بن الحسن بن الحسن"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن الحسن بن الحسن"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdullāh b. el-Hasen b. el-Hasen b. Alî b. Ebî Tâlib"
+      ]
+    },
+    "description": {
+      "tr": "69’da (689) Medine’de doğdu. Mescid-i Nebevî’de Ebü’z-Zinâd’dan ders dinledi. Başta babası ve annesi Fâtıma bint Hüseyin b. Ali olmak üzere Abdullah b. Ca‘fer b. Ebû Tâlib, A‘rec, İkrime, Ebû Bekir b. Hazm ve diğer bazı âlimlerden hadis rivayet etti. İki oğlu Mûsâ ve Yahyâ ile İmam Mâlik ve İmam Sevrî de ondan hadis rivayet etmişlerdir. Emevî halifelerinden iyi muamele gördü; Ömer b. Abdülazîz katında büyük bir itibarı vardı. Emevî Halifesi Hişâm b. Abdülmelik’e bağlılığını arzetmek için Dımaşk’a gitti. Abbâsîler iktidara gelince Hz. Ali evlâdından çekinmeye başladılar. Abdullah b. Hasan, Enbâr’a giderek Halife Ebü’l-Abbas es-Seffâh’ı ziyaret etti ve ondan büyük ilgi gördü. Ebû Ca‘fer el-Mansûr 754 yılında hac için Mekke’ye gidince, bütün Hâşimî ailesi mensupları kendisini ziyaret ettiği halde Abdullah’ın iki oğlu Muhammed ve İbrâhim ziyaretine gitmediler. Bu durum dikkatini çekti ve onlardan şüphelenmesine sebep oldu. Mansûr halife olunca Muhammed’le İbrâhim’in niyetlerini öğrenmek için harekete geçti, bazı Hâşimîler’le görüşerek onlar hakkında bilgi edinmeye çalıştı. Hz. Ali’nin ahfadından olan Hasan b. Zeyd, halifeye özellikle Muhammed’in ileride Abbâsîler için tehlikeli olabileceğini söyleyerek onu uyardı. Bunun üzerine Mansûr, Ukbe b. Selm’i, Abdullah b. Hasan ile görüşerek oğullarının gerçek niyetini öğrenmekle görevlendirdi. Abdullah, Ukbe’nin tuzağına düşüp onların bir ihtilâl hazırlığı içinde olduklarını itiraf etti. Ukbe bu durumu derhal halifeye bildirdi. Halife 758’de yine hac maksadıyla Mekke’ye gidince Abdullah’ı yanına çağırdı ve Abbâsîler’e sadakatini öğrenmek istedi. Bu sırada Ukbe’nin içeri girdiğini gören Abdullah bir komploya mâruz kaldığını anladı ve af diledi. Fakat halife onu birkaç yakınıyla birlikte hapsettirdi, daha sonra da Hâşimiyye’ye gönderdi (762). Abdullah aynı yıl orada hapishanede öldü. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 106 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-hasan-b-hasan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-hasan-b-hasan, https://islamansiklopedisi.org.tr/abdullah-b-hasan-b-hasan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-hasan-b-hasan (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 145,
+    "start_ce": 762,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-hasan-b-hasan, URL: https://islamansiklopedisi.org.tr/abdullah-b-hasan-b-hasan || DİA birth place: Medine || DİA death-date string: (ö. 145/762) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000495",
+    "iac:person-00001089",
+    "iac:person-00002144",
+    "iac:person-00002394",
+    "iac:person-00004448"
+  ],
+  "students": [
+    "iac:person-00005206",
+    "iac:person-00007122"
+  ]
+}

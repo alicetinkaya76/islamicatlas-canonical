@@ -1,0 +1,54 @@
+{
+  "@id": "iac:person-00005876",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MUSTAFA EFENDİ, Ebezâde"
+    },
+    "description": {
+      "tr": "Edirne’de doğdu. Annesi Enderun’da ebe olduğundan “Ebezâde” diye tanındı. Ebûishakzâde Esad Efendi babasının müderris olduğunu bildirmektedir ( Şeyhülislâm Esad Efendi ve Atrabü’l-âsâr , haz. Hakkı Tekin, s. 128). Mustafa Efendi iyi bir tahsil gördü. Çocukluğundan başlayarak mûsiki dersleri aldı ve bu sahada belli bir mesafe katetti. Sesinin güzel olduğu belirtilmektedir. Esad Efendi de Ebezâde’nin sesinin gür olduğunu ve tiz perdelere ustalıkla çıkabildiğini söylemektedir ( Atrabü’l-âsâr , vr. 31 b ). Atrabü’l-âsâr ’da ve Edirne Tarihi’nde otuz civarında bestesi olduğu bildirilmekteyse de günümüze sadece bayatî makamındaki nakış yürük semâisi ulaşmıştır ( BTMA , II, 78). Sadettin Nüzhet Ergun, acem makamında iki ve ırak makamında bir olmak üzere üç adet ilâhisi olduğunu kaydetmektedir ( Türk Mûsikisi Antolojisi , I, 185, 263, 283). Ebezâde Mustafa Efendi’nin Musallî (Muslî) ( a.g.e. , I, 125) mahlasıyla şiirler yazdığı da bildirilmektedir ( BTMA , II, 78). Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 297 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mustafa-efendi-ebezade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mustafa-efendi-ebezade, https://islamansiklopedisi.org.tr/mustafa-efendi-ebezade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:44Z",
+    "modified": "2026-05-04T15:34:44Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mustafa-efendi-ebezade (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1122,
+    "start_ce": 1710,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mustafa-efendi-ebezade, URL: https://islamansiklopedisi.org.tr/mustafa-efendi-ebezade || DİA birth place: Edirne || DİA death-date string: (ö. 1122/1710 [?]) || Chunk count: 1"
+}

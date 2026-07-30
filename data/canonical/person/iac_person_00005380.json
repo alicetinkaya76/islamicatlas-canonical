@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00005380",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mehmed Sabri Bey"
+    },
+    "description": {
+      "tr": "İstanbul’da dünyaya geldi. Doğum tarihi için bazı eserlerde 1834 (Aksüt) ve 1836 (Şehsuvaroğlu) gibi farklı tarihlere rastlanmaktaysa da 1262 hicrî yılın karşılığı olan 1846’da doğmuş olmalıdır (İbnülemin, s. 249; Öztuna, II, 246). Tahsilini tamamladıktan sonra memuriyet hayatına başladı. Tophâne-i Âmire Muhasebe Kalemi mümeyyizliğine getirildi ve buradan emekliye ayrıldı. Uzun süre bu görevde bulunduğu için Tophaneli Sabri Bey olarak tanındı. Mûsikideki en önemli hocası Dellâlzâde İsmâil Efendi’dir. Enderun’da yetişen Mehmed Sabri Bey, Dellâlzâde’den dinî ve din dışı mûsiki meşketti; bu arada hıfzını tamamladı. Tophâne-i Âmire’de çalışırken bir taraftan da sarayda başmüezzinlik yapıyor, ayrıca saray mensuplarına mûsiki dersleri veriyordu. II. Abdülhamid’in kardeşi Şehzade Ahmed Kemâleddin Efendi ile dostluk kuran Mehmed Sabri Bey daha sonra şehzadenin sarayında başmüezzinlik görevinde bulundu. Mevleviyye tarikatına intisap ederek Bahariye Mevlevîhânesi mutrip heyetinde yer alan Mehmed Sabri Bey mukabelelerde çoğunlukla na‘t okur, bazan da dua ederdi. Zamanın mûsikişinaslarından Zekâi Dede ve Bolâhenk Nûri Bey’le yakın arkadaşlık kurdu. İyi bir ûdî olup sesinin güzelliği ve nağmelerinin zenginliğiyle tanındı. Tanbûrî Cemil Bey’e bazı plaklarında gazelleriyle eşlik etmiştir. Uzun süre oturduğu Kadıköy’deki evinde cuma günleri yapılan mûsiki meşkine pek çok mûsikişinas iştirak ederdi. Yetiştirdiği talebeler arasında Neyzen Cemil, Kemençeci Kemal Niyazi (Seyhun), Kanûnî Ârif, Nuri Duyguer ve Münir Kökten özellikle zikredilmelidir. Mehmed Sabri Bey vefatında Mahmud Baba Mezarlığı’na defnedildi. Bir kızı ve üç oğlu olan Mehmed Sabri Bey’in büyük oğlu Hüseyin Fahri de dönemin hânendeleri arasında yer alır. Mehmed Sabri Bey dinî ve din dışı eserler bestelemiştir. Öztuna onun bir marş, bir Mevlevî âyini ve beş şarkıdan müteşekkil yedi bestesinin listesini vermişse de (bk. bibl.) Türkiye Radyo Televizyon Kurumu repertuvarında bunlardan ancak üç şarkısı yer almaktadır. Sözleri Nâmık Kemal’e ait, “Âmâlimiz, efkârımız ikbâl-i vatandır” mısraıyla başlayan bir marşı, sûzidil âyini ve diğer iki şarkısının notası hakkında kaynaklarda bilgi bulunmamaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 521 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-sabri-bey",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-sabri-bey, https://islamansiklopedisi.org.tr/mehmed-sabri-bey",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-sabri-bey (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1846,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=mehmed-sabri-bey, URL: https://islamansiklopedisi.org.tr/mehmed-sabri-bey || DİA birth place: İstanbul || DİA death place: Kadıköy || DİA death-date string: (1846-1914) || DİA categories: tarikat || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "teachers": [
+    "iac:person-00004565"
+  ],
+  "students": [
+    "iac:person-00004949"
+  ]
+}

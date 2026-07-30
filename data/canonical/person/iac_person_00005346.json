@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00005346",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEHMED ENVERÎ, Hocazâde"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. İyi bir öğrenim gördü, Hocazâde diye meşhur oldu; Karakız lakabıyla da tanınır. Hattat Suyolcuzâde Mustafa Efendi’den nesih ve sülüs yazıda icâzetnâme aldı. Daha sonra Fîruz Ağa Camii Mektebi’nde yazı hocalığı yaptı. Bu arada Sultan Ahmed Camii başmüezzinliğinde bulundu. Kaynaklarda Sultan II. Mustafa’nın zaman zaman Mehmed Enverî’den yazı meşkettiği ve onun yazı yazmasını seyretmekten hoşlandığı ifade edilmektedir. Mehmed Enverî’nin kırk adet Kur’ân-ı Kerîm, çok sayıda delâil ve en‘âm-ı şerif yazdığını Müstakimzâde bildirmektedir ( Tuhfe , s. 479). Ayrıca Selim Giray’ın isteği üzerine bir mushaf yazmış ve kendisine bunun karşılığında verilen hediyeyi hac yolunda harcamış, hac dönüşü Medine yakınlarında vefat etmiştir. Müstakimzâde vefatına, “Muallim kıla Hâcezâde’yi Allah me’vâya” mısraını tarih düşürmüştür ( a.g.e. , s. 480). Nakşibendî tarikatına mensup olan Mehmed Enverî hattatlığının yanı sıra dinî ve din dışı sahada şiirler yazıp dinî besteler yapmıştır. Şiirlerinde “Enverî” mahlasını kullanmış, ancak bugüne kadar divanına rastlanmamıştır. Güfteleri bestelenen Mehmed Enverî’nin bestelerine bazı el yazması güfte mecmualarında rastlanmaktaysa da günümüze ulaşan bir eseri bulunmamaktadır. XVIII. yüzyıla ait bir mecmuada Lutfî’nin bir na‘tını hüseynî-aşiran makamında bestelediği bildirilmekte (Soydaş, s. 94), XIX. yüzyılda derlenmiş dinî eserlere ait başka bir mecmuada ise aynı güfteyi hüseynî makamında bestelediği belirtilmektedir (Ural, s. 92). Müstakimzâde Süleyman Sâdeddin’in Mecmûa-i İlâhiyyât adlı güfte mecmuasında Mehmed Enverî’nin bir na‘tının Tîznâm (Niznâm) Yûsuf Çelebi tarafından dügâh makamında bestelendiği kaydedilmektedir (Sağman, s. 313). Sadettin Nüzhet Ergun’un Türk Şairleri adlı eserinde şiirlerine örnek olarak iki kısa murabbaına yer verilmiştir (III, 1299). Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 469 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-enveri-hocazade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-enveri-hocazade, https://islamansiklopedisi.org.tr/mehmed-enveri-hocazade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-enveri-hocazade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-enveri-hocazade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-enveri-hocazade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1106,
+    "start_ce": 1695,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-enveri-hocazade, URL: https://islamansiklopedisi.org.tr/mehmed-enveri-hocazade || DİA birth place: İstanbul || DİA death-date string: (ö. 1106/1695) || DİA categories: tarikat || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "teachers": [
+    "iac:person-00007213"
+  ],
+  "students": [
+    "iac:person-00005888",
+    "iac:person-00007769"
+  ]
+}

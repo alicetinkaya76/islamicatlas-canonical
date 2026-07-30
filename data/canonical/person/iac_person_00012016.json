@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00012016",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Amīr Sharaf al-Dīn",
+      "tr": "Emîr Şerefüddîn",
+      "ar": "الأمير شرف الدين"
+    },
+    "originalScript": {
+      "ar": "الأمير شرف الدين"
+    },
+    "description": {
+      "tr": "Kokbani ve şehrinin emîri (Yemen'de), orada doğdu, 1207 h. yılında ona vali oldu ve adil, güzel yöne",
+      "en": "Emir of Cokbani and its city (in Yemen), born there, appointed as its governor in 1207 A.H. and was"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Sharaf al-Dīn b. Aḥmad b. Muḥammad, from the descendants of al-Mutawakkil ʿalā-l-Lāh Yaḥyā Sharaf al-Dīn"
+    },
+    "altLabel": {
+      "tr": [
+        "Şerefüddîn b. Ahmed b. Muhammed, Mütevekkil Alallah Yahya Şerefüddîn'in neslinden"
+      ],
+      "ar": [
+        "شرف الدين بن أحمد بن محمد، من نسل المتوكل على الله يحيى شرف الدين"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:4375",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=4375",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:06Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=4375 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:4375."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1241,
+    "start_ce": 1825,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=4375, heading_ar=الأمير شرف الدين || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 15.35, 44.21"
+}

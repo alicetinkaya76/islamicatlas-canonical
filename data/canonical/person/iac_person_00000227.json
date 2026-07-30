@@ -1,0 +1,100 @@
+{
+  "@id": "iac:person-00000227",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Khalid ibn Yazid",
+      "tr": "Hâlid b. Yezîd",
+      "ar": "خالد بن يزيد"
+    },
+    "originalScript": {
+      "ar": "خالد بن يزيد"
+    },
+    "altLabel": {
+      "en": [
+        "Khalid ibn Yazid ibn Muawiya"
+      ],
+      "tr": [
+        "Hâlid b. Yezîd b. Muâviye"
+      ],
+      "ar": [
+        "خالد بن يزيد بن معاوية"
+      ]
+    },
+    "description": {
+      "tr": "Bilimsel çevirinin ilk Müslüman hamisi — Beytü'l-Hikme'den bir yüzyıldan fazla önce Yunanca ve Kıptîce simya metinlerini Arapçaya çevirtmeyi sipariş ederek çeviri hareketini ateşledi || Hâlid, siyasi hırsı bilim için terk eden bir Emevi prensiydi. || [Tarih notu] Hâlid'in simya hamiliğinin tarihselliği tartışmalıdır ama Ullmann (1972) ve Sezgin (GAS IV) tarafından kabul edilmiştir.",
+      "en": "First Muslim patron of scientific translation — commissioned Greek and Coptic alchemical texts into Arabic over a century before the House of Wisdom, igniting the translation movement || Khalid was an Umayyad prince who renounced political ambition for scholarship. Source material identifies him as commissioning the first Arabic alchemical translations from Greek and Coptic. The Jabirian corpus later credited him as a foundational figure. His patronage demonstrates that the translation movement predated the Abbasids. || [Historiographical note] The historicity of Khalid's alchemical patronage was debated by Ruska (1924) but largely accepted by Ullmann (1972) and Sezgin (GAS IV).",
+      "ar": "أول راعٍ مسلم للترجمة العلمية — أمر بترجمة نصوص الخيمياء قبل بيت الحكمة بأكثر من قرن || كان خالد أميرًا أمويًا تخلى عن الطموح السياسي لصالح العلم. أمر بأول ترجمات عربية للخيمياء من اليونانية والقبطية"
+    }
+  },
+  "profession": [
+    "scholar",
+    "translator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0044",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0044, lecture_id=emevi-bilim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:37Z",
+    "modified": "2026-05-04T15:39:32Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0044 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 668,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 704,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q4165518",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Khalid ibn Yazid')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0044, lecture_week=4. || Key works: {'title': {'en': 'Commissioned first Arabic translations of Greek and Coptic alchemical texts', 'tr': 'Yunanca ve Kıptîce simya metinlerinin ilk Arapça çevirilerini sipariş etti', 'ar': 'أمر بأول ترجمات عربية لنصوص الخيمياء اليونانية والقبطية'}, 'year': 690, 'field': 'translation', 'significance': {'en': 'First known patron of systematic scientific translation into Arabic — predating the House of Wisdom by over a century', 'tr': \"Arapçaya sistematik bilimsel çevirinin bilinen ilk hamisi — Beytü' || Modern parallel: A prince who gave up the throne to fund scientific research — and accidentally started the translation movement that would preserve world civilization.",
+  "birth_place": "iac:place-00004883",
+  "active_in_places": [
+    "iac:place-00004883"
+  ],
+  "authored_works": [
+    "iac:work-00000067"
+  ]
+}

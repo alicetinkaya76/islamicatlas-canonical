@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00000584",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdullah Zühdi Efendi"
+    },
+    "description": {
+      "tr": "Sahâbeden Temîm ed-Dârî’nin soyundan geldiğini kabul eden, bunu bazan imzalarında da belirten Abdullah Zühdi Efendi, muhtemelen Şam’da doğdu; bir müddet Kütahya’da oturduktan sonra ailesiyle birlikte İstanbul’a geldi. Önce Eyyûbî Râşid Efendi’den (ö. 1875) hat meşketti. Fakat asıl üstadı Kazasker Mustafa İzzet Efendi oldu. Zühdi Efendi ondan aldığı dersler sonunda sülüs-nesih yazılarını “Kazasker vadisinde” en mükemmel yazanlardan biri haline geldi. Nuruosmaniye Camii’ndeki yazı meşkhânesinde ve Mühendishâne-i Berrî-i Hümâyun’da hat ve resim hocalığı yaptı. Yazdığı celî hat numunesini diğer hattatların yazıları arasından beğenen ve kendisi de hattat olan Sultan Abdülmecid, Abdullah Zühdi’yi Medine’de Mescid-i Nebevî’nin yazılarını yazmaya memur etti. Zühdi Efendi uzun yıllar Medine’de kalarak Mescid-i Nebevî’nin gerek kubbe kasnaklarına, gerekse duvarlarına kuşak halinde celî sülüsle âyetler yazdı. Hâlâ yerinde duran bu yazılar uzunluk ölçüsüne vurulursa, Zühdi Efendi kadar fazla celî sülüs yazmış olan bir başka hattatın bulunmadığı görülür. Kendisi aynı zamanda ressam olduğundan celî sülüsün girift istiflerine çok önem vermiş, böylece sanatkârane terkipler meydana getirmiştir. Fakat istif endişesiyle harflerin teşrifat ına (üst üste bindirilmesindeki sıra) riayet etmediği için, yazdığı âyetler güçlükle okunabilmektedir. Abdullah Zühdi Efendi daha sonra Mısır’a yerleşti ve kendisine “Mısır hattatı” unvanı verildi. Orada banknot klişelerinin hatlarını, resmî daireler için değişik yazılar ve cami levhaları yazdı. Son günlerini mekteplerdeki yazı derslerine nezaret etmekle geçirdi. Kahire’de vefat eden Zühdi Efendi’nin XIX. yüzyılda hat sanatının Mısır’da yayılıp sevilmesi hususunda büyük gayretleri olmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 147 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-zuhdi-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-zuhdi-efendi, https://islamansiklopedisi.org.tr/abdullah-zuhdi-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-zuhdi-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-zuhdi-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-zuhdi-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1879,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdullah-zuhdi-efendi, URL: https://islamansiklopedisi.org.tr/abdullah-zuhdi-efendi || DİA birth place: Şam || DİA death-date string: (ö. 1879) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005891"
+  ]
+}

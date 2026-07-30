@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00001502",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bettî",
+      "ar": "البتّي"
+    },
+    "originalScript": {
+      "ar": "البتّي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Ahmed b. Alî el-Bettî"
+      ]
+    },
+    "description": {
+      "tr": "Bağdat’a bağlı büyük bir kasaba olan Bet şehrinde doğdu. Gençlik yılları ve yetişme tarzı hakkında geniş bilgi yoktur. Bağdat’ta ahbâr ve edebiyatla birlikte Kur’an ve hadis tahsili yaptı ve bu ilimlerde geniş bilgi sahibi oldu. Hâmisi Halife Kādir-Billâh’ın (991-1031) hizmetine girip divanda kâtiplik, posta ve haberleşme idareciliği gibi görevler üstlendikten sonra geniş edebî kültürü, hat sanatındaki mahareti, mektup ve şiir yazmadaki kabiliyeti ile kısa zamanda şöhrete kavuştu. Fevkalâde zeki, nüktedan ve hazırcevap olduğundan üstün bir mizah kabiliyetine sahipti. Yaptığı nüktelerle insanları güldürür, etkileyici üslûbuyla dargınları barıştırırdı. Mizah ve nüktedanlıktaki maharetinin yanı sıra mûsiki sahasında da geniş bilgi sahibi idi. Bütün muganniyeleri, söyledikleri şarkıların şairlerini ve bunların mânaları hakkındaki rivayetleri bilirdi. Devlet adamlarının sohbet ve eğlence meclislerinde Bettî mutlaka bulunurdu. Bu sebeple kendisi devlet ricâlinin yakın ilgi ve ihsanlarına mazhar olmuştur. Büveyhî hânedanı çevresinde de zekâsı ve nüktedanlığı ile temayüz etmişti. Nitekim Emîr Bahâüddevle’nin dostluk ve iltifatını, Vezir Fahrülmülk Ebû Gālib b. Halef’in de takdirini kazanıp ihsanlarına nâil olmuştu. Ebû Ali el-Hâtimî, Bettî’nin hasletlerine dair el-Muġassel adıyla bir kitap yazmıştır (Ömer Ferruh, II, 571). Şiirleri lafız, mâna ve sanat bakımından orta seviyededir. Şiirlerini irticâlen söyler, iyi bir râvi olmasına rağmen güçlü şairleri taklit ederek şiirini düzeltme yoluna gitmezdi. Fıkıhta Hanefî, itikadda Mu‘tezilî olan Bettî’nin 403 Şâbanında (Mart 1013) öldüğü söylenmekte ise de Hatîb el-Bağdâdî onun 20 Şâban 405 (13 Şubat 1015) tarihinde vefat ettiğini belirtmektedir. Kaynaklarda Bettî’nin, muhtevaları bilinmeyen, ancak biyografik mahiyette oldukları tahmin edilen Kitâbü’l-Ḳādirî , Kitâbü’l-ʿAmîdî ve Kitâbü’l-Faḫrî adlı üç eser kaleme aldığı zikredilmektedir. Fakat bu eserleri günümüze kadar ulaşmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 10-11 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "scribe"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:betti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=betti, https://islamansiklopedisi.org.tr/betti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:betti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/betti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:43Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=betti (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bettî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)",
+    "Mu'tezilî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 405,
+    "start_ce": 1015,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=betti, URL: https://islamansiklopedisi.org.tr/betti || DİA birth place: Bet || DİA death place: Mu || DİA death-date string: (ö. 405/1015) || DİA categories: fıkıh > hadis > rivayet || Chunk count: 1"
+}

@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00014493",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Iṣṭakhrī",
+      "tr": "İsfahrî",
+      "ar": "الإصطخري"
+    },
+    "originalScript": {
+      "ar": "الإصطخري"
+    },
+    "description": {
+      "tr": "Kadı, Muʿtezile mezhebinin şeyhlerinden ve ünlü âlimlerinden.",
+      "en": "Judge, one of the sheikhs of the Muʿtazila and among their renowned scholars."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAlī b. Saʿīd al-Iṣṭakhrī, Abū al-Ḥasan"
+    },
+    "altLabel": {
+      "tr": [
+        "Alî b. Saîd el-İsfahrî, Ebû'l-Hasan"
+      ],
+      "ar": [
+        "علي بن سعيد الإصطخري، أبو الحسن"
+      ]
+    }
+  },
+  "profession": [
+    "judge"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:7152",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7152",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:31Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:31Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=7152 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7152."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 404,
+    "start_ce": 1013,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7152, heading_ar=الإصطخري || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 29.97, 52.67",
+  "kunya": "أبو الحسن"
+}

@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00000602",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜLMUTTALİB b. REBÎA",
+      "ar": "عبد المطّلب بن ربيعة"
+    },
+    "originalScript": {
+      "ar": "عبد المطّلب بن ربيعة"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdülmuttalib b. Rebîa b. el-Hâris el-Hâşimî"
+      ]
+    },
+    "description": {
+      "tr": "Bazı kaynaklarda adı Muttalib olarak geçiyorsa da tabakat ve hadis kitaplarının çoğunda Abdülmuttalib diye kaydedilmekte ve Peygamber’in onun adını değiştirmediği anlaşılmaktadır. Annesi, Hz. Peygamber’in amcası Zübeyr’in kızı Ümmü’l-Hakem. Kendisinin Ṣaḥîḥ-i Müslim ’de (“Zekât”, 167) yer alan rivayetine göre, babalarının teşviki üzerine Fazl b. Abbas ile birlikte Peygamber’e giderek evlenecek çağa geldiklerini ve zekât memurluğundan kazanacakları parayla evlenmek istediklerini söylediler. Bunun üzerine Resûl-i Ekrem, Peygamber ailesine mensup kimselerin bu yolla para kazanmalarının doğru olmadığını hatırlattı ve kendi amcasının oğlu Nevfel b. Hâris ile Mahmiye b. Cez’i çağırttı. Bunlardan Nevfel’e, kızını yeğeni Abdülmuttalib’e, Mahmiye’ye de kızını Fazl’a vermesini tavsiye etti. Gençler bu suretle evlendiler. Abdülmuttalib’e kızını verenin, Nevfel’in kendisi değil kardeşi Ebû Süfyân olduğu da rivayet edilmektedir. Abdülmuttalib Hz. Ömer’in hilâfetine kadar Medine’de kaldı. Sonra Dımaşk’a yerleşti ve orada vefat etti. Vefat tarihi için hicrî 62 (681-82) yılı da gösterilmektedir. Abdülmuttalib Hz. Peygamber’den ve Ali’den hadis rivayet etmiş, kendisinden de oğlu Abdullah, Abdullah b. Hâris b. Nevfel ve onun oğlu Muhammed rivayette bulunmuşlardır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 273-274 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulmuttalib-b-rebia",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulmuttalib-b-rebia, https://islamansiklopedisi.org.tr/abdulmuttalib-b-rebia",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-05-04T15:32:40Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulmuttalib-b-rebia (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hâşimî"
+  ],
+  "death_temporal": {
+    "start_ah": 61,
+    "start_ce": 680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdulmuttalib-b-rebia, URL: https://islamansiklopedisi.org.tr/abdulmuttalib-b-rebia || DİA death place: Medine || DİA death-date string: (ö. 61/680-81) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

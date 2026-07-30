@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00002571",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ESAD EFENDİ, Vassâfzâde"
+    },
+    "description": {
+      "tr": "III. Osman devri şeyhülislâmlarından Abdullah Vassâf Efendi’nin oğlu olan Mehmed Esad 1119’da (1707) İstanbul’da doğdu. Tahsilini tamamladıktan sonra 1143 (1730-31) yılında hâriç derecesiyle müderris oldu, daha sonra 1163’te (1750) Galata kadılığına tayin edildi. Babası Vassâf Efendi’nin şeyhülislâmlığı döneminde Galata kadılığından mâzul bulunan Esad Efendi’ye önce Edirne, daha sonra da Mekke pâyesi verildi. Babasının 1755’te azli ve Bursa’ya gönderilmesi üzerine Esad Efendi de Bursa’ya gitmeye mecbur tutuldu ve bir müddet orada kaldı. 1171’de (1758) kendisine İstanbul pâyesi tevcih edilen ve babasının düşmanları yüzünden uzun süre terfi edemeyen Esad Efendi ancak 1768’de Anadolu kazaskerliğine ve 1773’te Rumeli kazaskerliğine getirilerek her birinde örfî müddet olan birer yıl görev yaptı. I. Abdülhamid zamanında 19 Şevval 1190’da (1 Aralık 1776) şeyhülislâm oldu ve bir yıl sekiz aydan fazla bu makamda kaldı. Yaşlılığı ve hastalığı sebebiyle 24 Cemâziyelâhir 1192 (20 Temmuz 1778) tarihinde görevden alınarak önce Boğaziçi’nde Neşâtâbâd Sarayı yanındaki yalıya, daha sonra Emirgân’da babasından kalma yalıya (Emîrgûneoğlu Yûsuf Paşa Yalısı) çekildi. 28 Temmuz 1778’de vefat etti ve Eyüp’te Siyavuş Paşa Türbesi hazîresinde babasının yanına gömüldü. Esad Efendi dürüst ve mevki için boyun eğmeyen bir kişi olarak tanınmıştır. Bünyesinin zayıflığı ve asabî mizacı dolayısıyla halk arasında “Hindi Molla” lakabıyla anılmıştır. Kaynaklarda tasavvufa meyilli olduğu, şiir söylediği ve ta‘lik hattında Kâtibzâde Mehmed Refî Efendi’den icâzet aldığı kaydedilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 347 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:esad-efendi-vassafzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=esad-efendi-vassafzade, https://islamansiklopedisi.org.tr/esad-efendi-vassafzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:esad-efendi-vassafzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/esad-efendi-vassafzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:02Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=esad-efendi-vassafzade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1143,
+    "start_ce": 1730,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1192,
+    "start_ce": 1778,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=esad-efendi-vassafzade, URL: https://islamansiklopedisi.org.tr/esad-efendi-vassafzade || DİA birth place: İstanbul || DİA death place: 1778 || DİA death-date string: (ö. 1192/1778) || DİA categories: tasavvuf > şiir || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "teachers": [
+    "iac:person-00004793"
+  ]
+}

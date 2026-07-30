@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00002669",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FÂRİSÎ, Muhammed b. Ebû Bekir",
+      "ar": "محمد بن ابي بكر الفارسي"
+    },
+    "originalScript": {
+      "ar": "محمد بن ابي بكر الفارسي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Bedrüddîn Muhammed b. Ebî Bekr b. Muhammed el-Fârisî"
+      ]
+    },
+    "description": {
+      "tr": "Fars bölgesinin Dârcirz şehrinden bir vezir ailesine mensuptur; soyunun Hz. Ebû Bekir’e bağlandığı söylenir. Babası Mekke’ye giderek burada on altı yıl kaldıktan sonra Yemen’e geçip Aden’e yerleşmiştir. Aden’de doğan Fârisî çeşitli âlimlerden dil, edebiyat, mantık, fıkıh, tıp, astronomi ve mûsiki okumuş, özellikle astronomi ilminde şöhrete kavuşmuştur. Bağdatlı İsmâil Paşa, Fârisî’nin Dımaşk’a yerleşerek orada yaşadığını ve 627’de (1230) öldüğünü söylüyorsa da ( Hediyyetü’l-ʿârifîn , II, 112) onu nisbesi, adı, baba ve dede adı aynı ve doğum tarihi 627, ölümü 697 (1298) olan bir Şâfiî fakihiyle (Kehhâle, IX, 118) karıştırdığı anlaşılmaktadır. Ebû Abdullah el-Fârisî’nin Aden’de yaşadığı, bazı eserlerini Resûlîler hânedanından el-Melikü’l-Muzaffer Yûsuf b. Ömer’e ithaf ettiği ve 677’de (1278) Aden’de vefat ettiği bilinmektedir. Eserleri. 1. Meʿâricü’l-fikeri’l-vehîc fî ḥalli müşkilâti’z-zîc . İbrânî harfleriyle yazılmış iki nüshası bulunan astronomi alanındaki bu kitabın, Ebü’l-Hasan Ferîdüddin Ali b. Abdülkerîm eş-Şirvânî’nin eserinden mülhem olduğu sanılmaktadır. 2. Nihâyetü’l-idrâk fî esrâri ʿulûmi’l-eflâk . Astronomiye dair olan eser üç “maksad” (bab) üzere tertip edilmiştir. 3. Mâddetü’l-ḥayât ve ḥıfẓu’n-nefs mine’l-âfât . On bir bab halinde tertip edilen eser çeşitli zehirler üzerinedir. 4. ed-Dürretü’l-münteḫabe fi’l-edviyeti’l-mücerrebe . 5. Âyâtü’l-âfâḳ fî ḫavâṣṣi’l-evfâḳ . Astrolojiyle ilgilidir. 6. Teysîrü’l-meṭâlib fî tesyîri’l-kevâkib . 7. Aḥkâm-ı Câmâsb (bu yedi eserin yazma nüshaları için bk. GAL , I, 625; Suppl. , I, 867). Fârisî’nin et-Tebṣıra fî ʿilmi’l-bayṭara , ay tutulmalarını hesaplamak üzere icat edilmiş bir aletin kullanımı hakkındaki er-Risâletü’l-muẓafferiyye fi’l-ʿamel ile ( eṣ-Ṣafîḥatü’l-cevzeheriyye ) mûsikiye dair Vażʿu’l-elḥân ve Dâretü’ṭ-ṭarab adlı eserleri de kaynaklarda zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 170-171 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "physician",
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:farisi-muhammed-b-ebu-bekir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=farisi-muhammed-b-ebu-bekir, https://islamansiklopedisi.org.tr/farisi-muhammed-b-ebu-bekir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:farisi-muhammed-b-ebu-bekir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=farisi-muhammed-b-ebu-bekir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:03Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=farisi-muhammed-b-ebu-bekir (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=farisi-muhammed-b-ebu-bekir)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Fârisî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 677,
+    "start_ce": 1278,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=farisi-muhammed-b-ebu-bekir, URL: https://islamansiklopedisi.org.tr/farisi-muhammed-b-ebu-bekir || DİA death place: Aden || DİA death-date string: (ö. 677/1278) || DİA categories: astronomi > fıkıh > mantık || Chunk count: 1"
+}

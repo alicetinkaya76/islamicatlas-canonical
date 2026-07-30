@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00002714",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Fenârîzâde Muhyiddin Mehmed Şah"
+    },
+    "description": {
+      "tr": "883 (1478) yılı civarında doğdu. İlk Osmanlı şeyhülislâmı Molla Fenârî’nin oğlu Yûsuf Bâlî’nin torunu, Rumeli Kazaskeri Alâeddin Ali Fenârî’nin oğlu, Şeyhülislâm Muhyiddin Çelebi’nin kardeşidir. Devrin kaynaklarında daha ziyade Şah Çelebi, Mehmed Şah Çelebi adlarıyla anılır. Fenârî ailesine tanınan imtiyaz sebebiyle henüz tahsile başlamadan kendisine 30 akçelik bir görev tahsis edildi. Önce babasından, daha sonra Hatibzâde Muhyiddin Efendi ve Muarrifzâde’den ders görerek kısa sürede akranı arasında ön plana çıktı. Bu arada II. Bayezid kendisini 50 akçe ile Bursa Manastır Medresesi’ne tayin etmişti. Daha sonra Semâniye medreselerinden birine geçen Mehmed Şah, Yavuz Sultan Selim zamanında önce Bursa, ardından İstanbul kadısı oldu. 923’te (1517), merkezi Diyarbekir olan ve Suriye ile Mısır’ın fethinden sonra üçüncü kazaskerlik makamı olarak kurulup Dîvân-ı Hümâyun teşkilâtı içine alınan Arap ve Acem kazaskerliğine (Bilâd-i Arab kazaskerliği) getirildi. 924’te (1518) Edirne kadısı, bir yıl sonra Kemalpaşazâde’nin yerine Anadolu, aynı yıl Zeyrekzâde yerine Rumeli kazaskeri oldu ve bu sonuncu görevinde henüz kırk altı yaşında iken vefat etti. Bursa’da atalarının gömülü olduğu mezarlığa defnedildi. Dönemin kaynaklarında ilmî kudretinden övgüyle bahsedilen ve genç yaşta vefatı büyük bir kayıp olarak nitelendirilen Mehmed Şah’ın, Ayasofya’nın mevcut bütün vakıflarının ayrıntılı sayımını ihtiva eden ve topografik bir eser özelliğini de taşıyan Ayasofya Vakıfları Tahrir Defteri ’ni düzenlediği bilinmektedir (İstanbul Belediyesi Atatürk Kitaplığı, Muallim Cevdet, nr. O. 64). Kendisinin çeşitli ilimlere dair kitaplara şerh ve hâşiyeler yazdığı kaynaklarda belirtilmiş, hatta bunları bir araya getirerek Atik Ali Paşa’ya sunduğu ifade edilmişse de kütüphane kayıtlarında bu çalışmaların Fenârî ailesinin hangi ferdine ait olduğu tam olarak tesbit edilememektedir. Ayrıca Mecdî onun iyi bir şair olduğunu söyleyerek şiirlerinden örnekler verir. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 340-341 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:fenarizade-muhyiddin-mehmed-sah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=fenarizade-muhyiddin-mehmed-sah, https://islamansiklopedisi.org.tr/fenarizade-muhyiddin-mehmed-sah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:fenarizade-muhyiddin-mehmed-sah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/fenarizade-muhyiddin-mehmed-sah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=fenarizade-muhyiddin-mehmed-sah (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 883,
+    "start_ce": 1478,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 929,
+    "start_ce": 1523,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=fenarizade-muhyiddin-mehmed-sah, URL: https://islamansiklopedisi.org.tr/fenarizade-muhyiddin-mehmed-sah || DİA death place: Bursa || DİA death-date string: (ö. 929/1523) || Chunk count: 1",
+  "death_place": "iac:place-00015103",
+  "teachers": [
+    "iac:person-00003319"
+  ]
+}

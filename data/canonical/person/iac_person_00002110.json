@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00002110",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÂN b. YEZÎD",
+      "ar": "أبان بن يزيد"
+    },
+    "originalScript": {
+      "ar": "أبان بن يزيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Yezîd Ebân b. Yezîd b. Ahmed el-Attâr el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "Attâr lakabını hangi sebeple aldığı bilinmemektedir. Hasan-ı Basrî , Ma‘mer b. Râşid , Yahyâ b. Ebû Kesîr , Hişâm b. Urve , Yahyâ b. Saîd el-Ensârî gibi âlimlerden hadis tahsil etmiş, Âsım b. Behdele ’nin kıraatini bizzat kendisinden okumuş, bazı kıraat ihtilâflarını da Katâde b. Diâme ’den öğrenmiştir. Onun nahivle de meşgul olduğu bilinmektedir. Kendisine Yahyâ b. Saîd el-Kattân , Abdullah b. Mübârek , Affân b. Müslim ve Ebû Dâvûd et-Tayâlisî gibi muhaddisler talebelik etmiştir. Bazı râviler de kendisinden kıraat ihtilâflarını rivayet etmişlerdir. Rivayetlerinin bir kısmı, İbn Mâce’nin es-Sünen ’i dışında Kütüb-i Sitte ’de ve diğer hadis mecmualarında yer almıştır. Her ne kadar İbn Adî ve Ebü’l-Ferec İbnü’l-Cevzî Ebân’ı zayıf râviler arasında zikretmişlerse de Ahmed b. Hanbel, Yahyâ b. Maîn, İbnü’l-Medînî, Nesâî, Ebû Hâtim er-Râzî ve İbn Hibbân gibi otoriteler onun sika bir râvi olduğunu söylemişlerdir. Rivayetlerinin Buhârî ve Müslim’in el-Câmiʿu’ṣ-ṣaḥîḥ ’lerinde yer alması da güvenilir bir râvi olduğunu göstermektedir. Önceleri Ebân’ın zayıf bir râvi olduğu düşüncesiyle hadislerini rivayet etmeyen Yahyâ b. Saîd el-Kattân daha sonra bu kanaatinden vazgeçerek hadislerini rivayet etmiştir. İclî onun Kaderiyye görüşünü benimsediğini, fakat bu mezhebin propagandasını yapmadığını söylemektedir. Vefat tarihi kesin olarak bilinmemekte, ancak 163’te (779-80) vefat ettiği bilinen arkadaşı Hemmâm b. Yahyâ ile yakın tarihlerde öldükleri kaydedilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 67-68 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:eban-b-yezid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=eban-b-yezid, https://islamansiklopedisi.org.tr/eban-b-yezid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:53Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=eban-b-yezid (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Basrî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 163,
+    "start_ce": 779,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=eban-b-yezid, URL: https://islamansiklopedisi.org.tr/eban-b-yezid || DİA death place: 163 || DİA death-date string: (ö. 163/779-80 [?]) || DİA categories: rivayet > hadis > nahiv || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005217"
+  ],
+  "students": [
+    "iac:person-00007290",
+    "iac:person-00007295"
+  ]
+}

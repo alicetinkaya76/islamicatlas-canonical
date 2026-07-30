@@ -1,0 +1,131 @@
+{
+  "@id": "iac:person-00000636",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. GANM",
+      "ar": "عبد الرحمن بن غنم"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن غنم"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdurrahmân b. Ganm b. Küreyb b. Hânî el-Eş‘arî",
+        "Abdurrahman b. Ganm b. Kerîz el-Eşʿarî"
+      ],
+      "ar": [
+        "عبد الرحمن بن غنم بن كريز الأشعري"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Yemenli olup Hz. Peygamber hayatta iken doğdu. Babası sahâbî olduğu halde kendisinin sahâbîliği konusunda değişik rivayetler vardır. Muâz b. Cebel Hz. Peygamber tarafından Yemen’e gönderildiği zaman (10/631) ona refakat etmiş ve Muâz’ın vefatına kadar ondan ayrılmayarak kendisinden fıkıh öğrenmiştir. Bundan dolayı da “sâhib-i Muâz” (Muâz’ın arkadaşı) diye tanınır. Hz. Ömer, Osman, Ali, Ebû Zer, Ebû Hüreyre, Ebü’d-Derdâ, Muâviye ve diğer birçok sahâbîden hadis rivayet eden Abdurrahman, fıkıh öğretmek üzere Hz. Ömer tarafından Şam’a gönderildi. Bir süre Filistin’de kaldı ve Mervân’la birlikte 684 yılında Mısır’a gitti. Bununla birlikte daha çok Filistin ve özellikle Şam çevresinde adını duyurmuştur. Kaynaklar Şamlı tâbiîn âlimlerinin hemen hemen hepsinin kendisinden fıkıh tahsil ettiğini kaydederler. Hadis rivayetinde sika kabul edilen Abdurrahman’dan oğlu Muhammed, Ebû İdrîs el-Havlânî, Mekhûl ve Atıyye b. Kays başta olmak üzere birçok tâbiî rivayette bulunmuş, Ahmed b. Hanbel de el-Müsned ’inde ondan mürsel hadisler rivayet etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 162 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "Shaykh of the people of Palestine and the jurist of Syria in his time"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd al-Raḥmān b. Ghanm b. Karīz al-Ashʿarī"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-ganm",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-ganm, https://islamansiklopedisi.org.tr/abdurrahman-b-ganm",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:5258",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5258, heading_ar=عبد الرحمن بن غنم",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:abdurrahman-b-ganm",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdurrahman-b-ganm",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-ganm (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5258]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5258 (heading_ar=عبد الرحمن بن غنم) via Track A (DİA→Alam xref bridge). dt=Filistin halkının şeyhi ve kendi çağında Şam'ın fakihi"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+translit from alam_detail.json el-alam:5258."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanbelî (mezhep)",
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 78,
+    "start_ce": 697,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-ganm, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-ganm || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5258] || DİA death-date string: (ö. 78/697) || DİA categories: rivayet > fıkıh > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5258, heading_ar=عبد الرحمن بن غنم, dt=Filistin halkının şeyhi ve kendi çağında Şam'ın fakihi",
+  "active_in_places": [
+    "iac:place-00009255"
+  ],
+  "teachers": [
+    "iac:person-00005611",
+    "iac:person-00007309"
+  ]
+}

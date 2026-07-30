@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00000403",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABBÂSE bint MEHDÎ",
+      "ar": "عبّاسة بنت المهدي"
+    },
+    "originalScript": {
+      "ar": "عبّاسة بنت المهدي"
+    },
+    "description": {
+      "tr": "Güzelliği ve bilgisiyle meşhur olan Abbâse, önce Muhammed b. Süleyman b. Ali, onun ölümünden sonra İbrâhim b. Sâlih b. Ali, onun da ölümü üzerine Muhammed b. Ali b. Dâvûd ile evlendi. Üçüncü kocasının da vefatı üzerine Îsâ b. Ca‘fer kendisiyle evlenmek istediyse de Ebû Nüvâs’ın, halifeye hitaben yazdığı, “Bir haini öldürmek istediğin zaman onu kılıçla öldürme, Abbâse ile evlendir!” anlamındaki şiirini duyunca bundan vazgeçti. Bazı kaynaklarda yer alan bir rivayete göre ise, Hârûnürreşîd sohbet toplantılarında huzurunda beraberce hazır bulunmalarını sağlamak için kız kardeşi Abbâse ile Ca‘fer b. Yahyâ el-Bermekî’yi nikâhlamış, fakat karı-koca olmalarını kesinlikle yasaklamıştı. Ancak onlar bu emre uymayıp sonunda Abbâse hamile kalınca Hârûnürreşîd Ca‘fer’i derhal idam ettirmiş. Kaynaklarda hikâye tarzında anlatılan bu olay, daha sonra bazı romanlara da konu olmuştur. Aimé Giron ve Albert Tozza’nın birlikte kaleme aldıkları Les nuits de Bağdad (Paris 1904) ile Corcî Zeydân’ın Türkçe’ye de çevrilen Abbâse (trc. Hasan Bedreddin, İstanbul 1923) adlı romanları buna örnek gösterilebilir. Bu rivayetler bir yana, Abbâse’ye babası Mehdî’nin Abadan şehrinin doğusunda bazı toprakları iktâ olarak verdiği bilinmektedir. Abbâse Rakka’da öldü. Süveykatülabbâse adlı yer onun adıyla anılmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 30 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbase-bint-mehdi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbase-bint-mehdi, https://islamansiklopedisi.org.tr/abbase-bint-mehdi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abbase-bint-mehdi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abbase-bint-mehdi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:38Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbase-bint-mehdi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 182,
+    "start_ce": 798,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbase-bint-mehdi, URL: https://islamansiklopedisi.org.tr/abbase-bint-mehdi || DİA death-date string: (ö. 182/798) || DİA categories: rivayet || Chunk count: 1"
+}

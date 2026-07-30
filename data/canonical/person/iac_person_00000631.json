@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00000631",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. BİŞR",
+      "ar": "عبد الرحمن بن بشر"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن بشر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdurrahmân b. Bişr b. el-Hakem el-Abdî en-Nîsâbûrî"
+      ]
+    },
+    "description": {
+      "tr": "Babası Bişr b. Hakem (ö. 238/852-53), Mâlik b. Enes ve Fudayl b. İyâz’ın talebesi olmuş, Buhârî ve Müslim gibi muhaddislere ise hocalık yapmıştır. Hâfızası oğlununkinden daha kuvvetli olup rivayet ettiği hadisler onunkinden fazladır. Hadis tahsili için gittiği yerlere, henüz bulûğ çağına ermemiş bir çocuk olan oğlu Abdurrahman’ı da götürmüş ve onun büyük âlimlerden hadis öğrenmesini sağlamıştır. Babasıyla birlikte gittiği Yemen’de ergenlik çağına giren Abdurrahman, babasının ve dedesinin hocası olan Süfyân b. Uyeyne’den ve ayrıca İsmâil b. Uleyye, Yahyâ b. Saîd el-Kattân, Abdürrezzâk b. Hemmâm’dan hadis tahsil etmiştir. Yahyâ el-Kattân, oğlu gibi sevdiği Abdurrahman’ı bir dersinde öğrencilerine göstererek onun çok zeki olduğunu söylemiş ve kendisinden rivayet edeceği her şeyi tereddütsüz kabul etmelerini tavsiye etmiştir. Abdurrahman’dan da babasının talebeleri Buhârî ve Müslim başta olmak üzere, Ebû Dâvûd, İbn Mâce, İbn Huzeyme gibi tanınmış muhaddisler rivayette bulunmuşlardır. Kur’ân-ı Kerîm okumasıyla da tanınan Abdurrahman’ın sesinin çok güzel olduğu rivayet edilir. Nîşâbur Emîri Abdullah b. Tâhir, onun kıraatini dinlemek üzere akşamları tebdilikıyafet ederek imamlık yaptığı camiye giderdi. Rivayetleri Ṣaḥîḥ-i Buḫârî , Ṣaḥîḥ-i Müslim ile Ebû Dâvûd, Nesâî ve İbn Mâce’nin sünenlerinde yer alan ve İbn Hibban, İbn Ebû Hâtim gibi hadis otoriteleri tarafından güvenilir bir râvi olarak tanıtılan Abdurrahman, uzun bir ömür sürdüğü için, sadece onun rivayet ettiği hadisleri dinlemek üzere birçok hadis âliminin başvurduğu bir otorite olmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 158 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-bisr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-bisr, https://islamansiklopedisi.org.tr/abdurrahman-b-bisr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-bisr (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Nîsâbûrî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 260,
+    "start_ce": 873,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-bisr, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-bisr || DİA death-date string: (ö. 260/873-74) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000676",
+    "iac:person-00002802",
+    "iac:person-00005206",
+    "iac:person-00007121",
+    "iac:person-00007656"
+  ],
+  "students": [
+    "iac:person-00001599",
+    "iac:person-00001971",
+    "iac:person-00002157",
+    "iac:person-00003875",
+    "iac:person-00003920",
+    "iac:person-00005861"
+  ]
+}

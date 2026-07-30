@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00000281",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Dara Shikoh",
+      "tr": "Dârâ Şükûh",
+      "ar": "دارا شكوه"
+    },
+    "originalScript": {
+      "ar": "دارا شكوه"
+    },
+    "altLabel": {
+      "en": [
+        "Muhammad Dara Shikoh"
+      ],
+      "tr": [
+        "Muhammed Dârâ Şükûh"
+      ],
+      "ar": [
+        "محمد دارا شكوه"
+      ]
+    },
+    "description": {
+      "tr": "Sistematik karşılaştırmalı felsefe yoluyla İslam tasavvufu ile Hindu Vedanta düşüncesini köprüledi || Dârâ Şükûh, Upanişadları Kur'an'da atıfta bulunulan 'Gizli Kitap' olarak gördü. || [Tarih notu] Evrengzib tarafından idamı, onu yarıda kalan dinlerarası diyaloğun sembolü yaptı.",
+      "en": "Bridged Islamic Sufi and Hindu Vedantic thought through systematic comparative philosophy; his Upanishad translations became the channel through which Indian philosophy reached Schopenhauer and European Romanticism || Dara Shikoh saw the Upanishads as the 'Hidden Book' referenced in the Quran. His work represents the most sophisticated Muslim engagement with Hindu philosophy in Mughal India. || [Historiographical note] His execution by Aurangzeb made him a symbol of interfaith dialogue cut short. His Upanishad translations influenced European orientalism through Anquetil-Duperron (1801).",
+      "ar": "ربط بين التصوف الإسلامي والفيدانتا الهندية عبر فلسفة مقارنة منهجية || رأى دارا شكوه في الأوبانيشاد 'الكتاب المكنون' المذكور في القرآن"
+    }
+  },
+  "profession": [
+    "philosopher",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0098",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0098",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:57:31Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:57:31Z",
+    "modified": "2026-05-04T14:57:31Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:57:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0098 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1615,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1659,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q604647",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Dara Shikoh')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0098, lecture_week=n/a. || Key works: {'title': {'en': 'Majmaʿ al-Baḥrayn (Confluence of the Two Seas)', 'tr': \"Mecma'u'l-Bahreyn (İki Denizin Birleşimi)\", 'ar': 'مجمع البحرين'}, 'year': 1655, 'field': 'philosophy', 'significance': {'en': 'Pioneering comparative study of Sufi and Vedantic concepts, identifying shared metaphysical principles', 'tr': 'Sûfî ve Vedantik kavramların öncü karşılaştırmalı çalışması, ortak metafizik ilkeleri belirleme'}}; {'title': {'en': 'Sirr-i Akbar (The Great Secret)', 'tr': \"Sırrü'l-Ekber (Büyük Sır)\", || Modern parallel: Like a prince who becomes a bridge between civilizations through scholarship — with fatal political consequences for choosing knowledge over power.",
+  "authored_works": [
+    "iac:work-00000137",
+    "iac:work-00000138"
+  ]
+}

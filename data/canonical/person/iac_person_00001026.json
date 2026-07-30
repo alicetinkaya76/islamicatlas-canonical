@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00001026",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂMİR b. EBÛ VAKKĀS",
+      "ar": "عامر بن ابي وقّاص"
+    },
+    "originalScript": {
+      "ar": "عامر بن ابي وقّاص"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Amr Âmir b. Ebî Vakkās (Mâlik) b. Uheyb el-Kureşî ez-Zührî"
+      ]
+    },
+    "description": {
+      "tr": "Aşere-i mübeşşere den Sa‘d b. Ebû Vakkās’ın kardeşidir. İslâmiyet’e ilk girenler arasında on birinci kişi olduğu kabul edilir. Müslüman olmasından ötürü annesi Hamne bint Süfyân çok üzülmüş, oğlu tekrar eski dinine dönünceye kadar ağzına lokma koymayacağına, bir yudum su bile içmeyeceğine ve gölgede oturmayacağına yemin etmişti. Bunun üzerine, anneye ve babaya karşı iyi davranmak gerektiğini, fakat çocuklarını Allah’a ortak koşmaya zorladıkları takdirde bu isteklerine asla uyulmayacağını belirten âyet (el-Ankebût 29/8) nâzil oldu. Ancak bu hadisenin Sa‘d b. Ebû Vakkās’ın İslâmiyet’i kabul etmesi sırasında meydana geldiğine dair rivayetler de vardır (bk. Müslim, “Feżâʾilü’ṣ-ṣaḥâbe”, 43) ve bu rivayetler birincisinden daha sağlamdır. Ayrıca Sa‘d’ın kardeşinden önce müslüman olduğu dikkate alınırsa (bk. Buhârî, “Feżâʾilü aṣḥâbi’n-nebî”, 15), olayın onunla ilgili olduğu hususunun biraz daha kesinlik kazandığı anlaşılır. Âmir Mekke’de ilk müslümanlara yapılan işkencelere dayanamayarak ikinci hicret kafilesiyle birlikte Habeşistan’a gitmiş, daha sonra da Medine’ye hicret etmiş ve Uhud Savaşı’na katılmıştır. Hz. Ömer devrinde Şam’da vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 65 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amir-b-ebu-vakkas",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amir-b-ebu-vakkas, https://islamansiklopedisi.org.tr/amir-b-ebu-vakkas",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amir-b-ebu-vakkas",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amir-b-ebu-vakkas",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amir-b-ebu-vakkas (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Zührî"
+  ],
+  "death_temporal": {
+    "start_ah": 15,
+    "start_ce": 636,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amir-b-ebu-vakkas, URL: https://islamansiklopedisi.org.tr/amir-b-ebu-vakkas || DİA death place: Şam || DİA death-date string: (ö. 15/636) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

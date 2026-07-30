@@ -1,0 +1,108 @@
+{
+  "@id": "iac:person-00013575",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Abī Shaybah",
+      "tr": "İbn Ebî Şeybe",
+      "ar": "ابن أبي شيبة"
+    },
+    "originalScript": {
+      "ar": "ابن أبي شيبة"
+    },
+    "description": {
+      "tr": "Hadis hafızı",
+      "en": "A hadith scholar",
+      "ar": "ابن أبي شيبة المحدث الكوفي المشهور بكتابه المصنف. مصنفه الذي يضم أكثر من ثلاثين ألف رواية يعد مع مصنف عبد الرزاق من أهم مثالين لهذا النوع. كان من شيوخ البخاري ومسلم. من آخر كبار ممثلي مدرسة الكوفة في الحديث وجمع آثار الصحابة والتابعين بعناية فائقة. كان إخوته عثمان والقاسم أيضا من المحدثين."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd Allāh b. Muḥammad b. Abī Shaybah al-ʿAbsī, Abū Bakr al-Kūfī"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdullâh b. Muhammed b. Ebî Şeybe el-Absî, mevlâları, el-Kûfî, Ebû Bekr"
+      ],
+      "ar": [
+        "عبد الله بن محمد بن أبي شيبة العبسي، مولاهم، الكوفي، أبو بكر"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:6115",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6115",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "scholars:149",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=149",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:21Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:21Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=6115 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['description.ar', 'kunya', 'nisba']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:6115."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 235,
+    "start_ce": 849,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6115, heading_ar=ابن أبي شيبة || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 32.03, 44.4",
+  "active_in_places": [
+    "iac:place-00010482"
+  ],
+  "kunya": "Ebû Bekir",
+  "nisba": [
+    "Kûfî",
+    "Absî"
+  ]
+}

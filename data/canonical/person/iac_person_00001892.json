@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00001892",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CÛZCÂNÎ, Ebû Bekir",
+      "ar": "أبو بكر الجوزجاني"
+    },
+    "originalScript": {
+      "ar": "أبو بكر الجوزجاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Ahmed b. İshâk el-Cûzcânî el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında kaynaklarda yeterli bilgi bulunmamakla birlikte nisbesi dikkate alınarak Cûzcân’da doğduğu söylenebilir. Hocalarından Ebû Süleyman el-Cûzcânî’nin (ö. 200/816 [?]), ömrünün son yıllarında Bağdat’ta bulunduğu sırada Cûzcânî’nin de oraya gidip yerleştiği ve bu sebeple Bağdâdî diye de anıldığı bilinmektedir. Cûzcânî ile birlikte Ebû Süleyman el-Cûzcânî’nin derslerine devam etmiş olan ve akranı olduğu anlaşılan, ancak daha sonra kendisinin de öğrencisi olan Ebû Nasr el-İyâzî 260 (874) yılından sonra öldüğüne göre Cûzcânî’nin III. (IX.) yüzyılın ikinci yarısında vefat ettiğini söylemek mümkündür. Sâmânîler Hükümdarı Nasr b. Ahmed zamanında (864-892) Türkistan’da bir savaş esnasında şehid düşen ve Mesʾeletü’ṣ-ṣıfât adlı bir eserin müellifi olduğu bilinen Ebû Nasr el-İyâzî ile Ehl-i sünnet kelâm mektebinin kurucularından Ebû Mansûr el-Mâtürîdî Cûzcânî’nin en meşhur öğrencileridir. İslâmî ilimlerin birçoğunda üstün seviyeye yükseldiği kabul edilen Cûzcânî’nin daha çok fıkıh ve kelâm ilimlerinde vukuf sahibi olduğu nakledilir. Talebelerinin kelâm ilminde derinleşmesi de onun bu ilimdeki dirayetini gösterir. Kaynaklarda Cûzcânî’nin birçok eser yazdığı belirtilirse de sadece üç tanesinin adı zikredilir. 1. el-Farḳ ve’t-temyîz . İlâhî sıfatlara dair olup özellikle zâtî ve fiilî sıfatlar konusunu inceler. 2. Kitâbü’t-Tevḥîd . 3. Kitâbü’t-Tevbe . Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 97 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cuzcani-ebu-bekir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cuzcani-ebu-bekir, https://islamansiklopedisi.org.tr/cuzcani-ebu-bekir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:49Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cuzcani-ebu-bekir (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cûzcânî; Bağdâdî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)",
+    "Mâtürîdî (akîde)"
+  ],
+  "birth_temporal": {
+    "start_ah": 260,
+    "start_ce": 874,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cuzcani-ebu-bekir, URL: https://islamansiklopedisi.org.tr/cuzcani-ebu-bekir || DİA birth place: Cûzcân || DİA death-date string: (III./IX. yüzyıl) || DİA categories: kelâm > fıkıh > sünnet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001894"
+  ],
+  "students": [
+    "iac:person-00005264"
+  ]
+}

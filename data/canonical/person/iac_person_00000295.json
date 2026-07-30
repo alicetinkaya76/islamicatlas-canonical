@@ -1,0 +1,101 @@
+{
+  "@id": "iac:person-00000295",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Umari",
+      "tr": "Ömerî",
+      "ar": "العمري"
+    },
+    "originalScript": {
+      "ar": "العمري"
+    },
+    "altLabel": {
+      "en": [
+        "Shihab al-Din Ahmad ibn Yahya ibn Fadlallah al-Umari"
+      ],
+      "tr": [
+        "Şihâbeddîn Ahmed b. Yahyâ b. Fazlullâh el-Ömerî"
+      ],
+      "ar": [
+        "شهاب الدين أحمد بن يحيى بن فضل الله العمري"
+      ]
+    },
+    "description": {
+      "tr": "Mesâlik'i bilinen dünyanın 27 ciltlik ansiklopedisidir — Sahra-altı Afrika'nın en ayrıntılı ortaçağ anlatımını içerir || Ömerî, 1324'teki ünlü haccı sırasında Mansa Musa ile tanışan Mısırlı yetkilileri mülakat etti. || [Tarih notu] Mansa Musa'nın altın dağıtımı betimlemesi, Mali İmparatorluğu'nun zenginliğine dair çoğu modern anlatımın kaynağıdır.",
+      "en": "His Masalik is a 27-volume encyclopedia of the known world — containing the most detailed medieval account of Sub-Saharan Africa, including Mansa Musa's Mali Empire || al-Umari interviewed Egyptian officials who had met Mansa Musa during his famous hajj in 1324. His account of Mali's wealth and extent transformed European and Islamic understanding of West Africa. || [Historiographical note] His description of Mansa Musa's gold distribution is the source for most modern accounts of the Mali Empire's wealth.",
+      "ar": "مسالكه موسوعة من 27 مجلداً تحتوي على أدق وصف وسيطي لأفريقيا جنوب الصحراء || قابل العمري مسؤولين مصريين التقوا بمنسا موسى خلال حجه الشهير"
+    }
+  },
+  "profession": [
+    "geographer",
+    "historian",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0112",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0112",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:06Z",
+    "modified": "2026-05-04T15:39:32Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0112 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1300,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1349,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q2658869",
+      "confidence": 0.77,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Medium-confidence match for 'Umari'; score=0.77 (review threshold 0.70). Manual review recommended."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0112, lecture_week=n/a. || Key works: {'title': {'en': 'Masālik al-Abṣār fī Mamālik al-Amṣār', 'tr': \"Mesâlikü'l-Ebsâr fî Memâliki'l-Emsâr\", 'ar': 'مسالك الأبصار في ممالك الأمصار'}, 'year': 1340, 'field': 'geography', 'significance': {'en': \"27-volume encyclopedia of the known world — including the first detailed account of Mansa Musa's Mali Empire from eyewitness interviews\", 'tr': \"Bilinen dünyanın 27 ciltlik ansiklopedisi — görgü tanığı mülakatlarından Mansa Musa'nın Mali İmparatorluğu'nun ilk ayrıntılı anlatımını içerir\"}} || Modern parallel: Like a foreign correspondent who interviews eyewitnesses of epoch-making events — and writes the definitive account.",
+  "birth_place": "iac:place-00004883",
+  "active_in_places": [
+    "iac:place-00009399"
+  ],
+  "authored_works": [
+    "iac:work-00000152"
+  ]
+}

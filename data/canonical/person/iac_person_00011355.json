@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00011355",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Rifāʿa al-Ṭahṭāwī",
+      "tr": "Rifâ'a et-Tahtâvî",
+      "ar": "رفاعة الطهطاوي"
+    },
+    "originalScript": {
+      "ar": "رفاعة الطهطاوي"
+    },
+    "description": {
+      "tr": "Mısır alimi, modern çağda Mısır'ın ilmi diriliş çalışmalarının temel taşlarından biri.",
+      "en": "Egyptian scholar, one of the pillars of Egypt's scientific renaissance in the modern era."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Rifāʿa Rāfiʿ b. Badawī b. ʿAlī al-Ṭahṭāwī, his lineage connects to al-Ḥusayn al-Sabt"
+    },
+    "altLabel": {
+      "tr": [
+        "Rifâ'a Râfi' b. Bedevi b. Ali et-Tahtâvî, nesep zinciri Hüseyin es-Sebt'e ulaşır."
+      ],
+      "ar": [
+        "رفاعة رافع بن بدوي بن علي الطهطاوي، يتصل نسبه بالحسين السبط"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:3628",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=3628",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:00Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:00Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:00Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=3628 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:3628."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1290,
+    "start_ce": 1873,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=3628, heading_ar=رفاعة الطهطاوي || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 26.77, 31.5"
+}

@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00002021",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Devletâbâdî",
+      "ar": "دولت آبادى"
+    },
+    "originalScript": {
+      "ar": "دولت آبادى"
+    },
+    "altLabel": {
+      "tr": [
+        "Şihâbüddîn Ahmed b. Şemsiddîn b. Ömer Zâvulî Devletâbâdî"
+      ]
+    },
+    "description": {
+      "tr": "Dekken’in Devletâbâd şehrinde doğdu. Tahsilini Delhi’de Şeyh Nasîrüddin Çerâğ ed-Dihlevî’nin önde gelen talebelerinden Kādî Abdülmuktedir ve Mevlânâ Hâcegî’nin yanında tamamladı. Timur’un Hindistan’ı işgali sırasında Delhi’yi terkederek Cavnpûr’a yerleşti. Bu bölgenin hükümdarı olan Sultan İbrâhim Şarkī onu büyük bir memnuniyetle ülkesine kabul etti ve kādılkudât olarak görevlendirdi. Bundan sonra kendisine “melikü’l-ulemâ” unvanı verilen Devletâbâdî’nin hükümdar nezdindeki itibarı daha da arttı. Nitekim sarayı ziyaret ettiği zamanlarda özel bir gümüş sandalyeye oturtularak ağırlanırdı. Devletâbâdî Cavnpûr’da vefat etti. Eserleri. Devletâbâdî çeşitli konulardaki eserleri yanında Farsça şiirler de yazmıştır. Bilinen eserleri şunlardır: 1. Baḥr-i Mevvâc . Sultan İbrâhim Şarkī’ye ithaf edilen bu eser Farsça bir Kur’an tefsiridir. İlk altı sûreye ait bölümü 1297 (1880) yılında Leknev’de basılmıştır (yazmaları için bk. Storey I/1, s. 10; I/2, s. 1193). 2. el-ʿAḳāʾidü’l-İslâmiyye . Eserin yazma bir nüshası Râmpûr Devlet Kütüphanesi’nde bulunmaktadır ( Brockelmann, GAL Suppl. , II, 310). 3. Şerḥu Uṣûli’l-Pezdevî . Ebü’l-Yüsr el-Pezdevî’nin Uṣûlü’d-dîn ’i üzerine yazılan bu şerhe ait yazma bir nüshanın Ebü’l-Kelâm Âzâd’ın şahsî kütüphanesinde olduğu belirtilmektedir (Zubaid Ahmad, s. 168). 4. Fetâvâ-yı İbrâhîm Şâhî . Devletâbâdî’nin çeşitli fetvalarını ihtiva eden bu eser Sultan İbrâhim Şarkī’ye ithaf edilmiştir ( UDMİ , IX, 471). 5. Târîḫ-i Medîne (Storey I/1, s. 427). 6. Menâḳıbü’s-sâdât . Peygamber neslinin faziletlerine dairdir (yazmaları için bk. Storey I/1, s. 211; I/2, s. 1261). 7. el-İrşâd fi’n-naḥv (yazmaları için bk. Brockelmann, GAL Suppl. , II, 309-310). 8. Şerḥu’l-Hindî . İbnü’l-Hâcib’in el-Kâfiye ’si üzerine yazılan bir şerhtir ( a.g.e. , II, 310). 9. Bedâʾiʿu’l-mîzân . Arap dili ve belâgatıyla ilgilidir ( Îżâḥu’l-meknûn , I, 170, 172). 10. Muṣaddaḳu’l-fażl . Kâ‘b b. Züheyr’in Ḳaṣîdetü’l-bürde ’si üzerine yazılmış bir şerhtir (Haydarâbâd 1323). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 242-243 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:devletabadi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=devletabadi, https://islamansiklopedisi.org.tr/devletabadi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:devletabadi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=devletabadi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=devletabadi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=devletabadi)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 849,
+    "start_ce": 1445,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=devletabadi, URL: https://islamansiklopedisi.org.tr/devletabadi || DİA birth place: Devletâbâd || DİA death place: Cavnpûr || DİA death-date string: (ö. 849/1445) || DİA categories: tefsir > kelâm > belâgat || Chunk count: 1"
+}

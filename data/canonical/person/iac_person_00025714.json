@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00025714",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Melâyê Batê",
+      "en": "Malaye Bate",
+      "ar": "ملايى باتى"
+    },
+    "description": {
+      "tr": "Melâyê Batê, Kürt edebiyatının ilk büyük şairlerinden olup Mevlûd (Mevlîd) adlı eseriyle tanınır. Bu eser, Hz. Peygamber'in doğumunu ve hayatını Kürtçe (Kurmancî) olarak anlatan manzum bir siyer olup Kürt halk arasında asırlardır mevlid kandillerinde okunmaktadır. Bitlis'te doğmuş ve yaşamıştır. Kürt dil ve edebiyatının erken dönem kaynaklarından birini oluşturması açısından büyük öneme sahiptir.",
+      "en": "Malaye Bate was one of the first major poets of Kurdish literature, known for his Mawlud. This work is a verse biography of the Prophet in Kurdish (Kurmanji), recited at mawlid celebrations among Kurds for centuries. He was born and lived in Bitlis. He holds great importance as one of the earliest sources of Kurdish language and literature.",
+      "ar": "الملا باتي من أوائل الشعراء الكبار في الأدب الكردي، اشتهر بعمله المولود الذي يحكي ولادة النبي صلى الله عليه وسلم وحياته بالكردية الكرمانجية منظوما. هذا العمل مولد يقرأ في أوساط الكرد منذ قرون في ليالي المولد النبوي. ولد وعاش في بدليس. له أهمية كبيرة كونه من المصادر المبكرة للغة والأدب الكردي."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "scholars:252",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=252",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas.org v1 scholars layer (scholars.csv + scholar_identity.js v4.8.x; DİA-sourced bilingual cards)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_scholars",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-07-12T14:48:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-07-12T14:48:04Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization by canonicalize_person_scholars v0.1.0 (H10 Stage 3; Tier-2 kind=new)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kürt"
+  ],
+  "birth_temporal": {
+    "start_ce": 1417,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1491,
+    "approximation": "exact"
+  }
+}

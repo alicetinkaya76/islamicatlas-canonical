@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00002990",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Haci Kirâmî Efendi"
+    },
+    "description": {
+      "tr": "İstanbul’da Mevlevîhânekapı semtinde Rifâiyye’den Kılıççı Mehmed Efendi Dergâhı’nda doğdu. Asıl adı Beşir olup bu ismi hiç kullanmadığı kaydedilir. Orta öğrenimin ardından Bâb-ı Seraskerî’de muhâsebat birinci şube mümeyyizi olarak göreve başladı. Uzun yıllar devam eden bu görevi esnasında ayrıca birçok tekkede, özellikle İmrahor Tekkesi’nde müezzinlik ve zâkirlik yaptı. 1882’de Surre Emini Âsaf Paşa ve Abdüsselâm (Kovacı Şeyh) Tekkesi şeyhi Yahyâ Efendi ile birlikte hacca gitti. Veliaht Mehmed Reşad Efendi’nin müezzinbaşısı olduğu için II. Abdülhamid zamanında uzun süre etrafıyla irtibatı kesilerek yalnız başına yaşamak mecburiyetinde bırakıldığı söylenir. II. Meşrutiyet’in ilânından sonra Koska’da Dârülmûsikī-i Osmânî’nin kurucuları arasında yer aldı ve öğretim kadrosuna girdi. Mehmed Reşad tahta çıkınca kendisiyle olan yakınlığı sebebiyle hünkâr müezzini olmayı bekledi. Ancak bu görev başkasına verilince bazı ailevî meselelerin de yol açtığı ruhî buhran sonucu kendini asarak hayatına son verdi. Mevlevîhânekapı’daki Bağdatlı Tekkesi’nin hazîresine defnedildi. Devrinin tavır sahibi hânende ve tamburîlerinden olan Kirâmî Efendi mûsikideki derin vukufu ile tanınmış, bestelediği eserler ve yetiştirdiği talebelerle kudretini ortaya koymuştur. Mûsikiye dair ilk bilgileri Hacı Fâik Bey’den aldı. Daha sonra Eğrikapı yakınlarında açmış olduğu meşkhânede Bolâhenk Nûri Bey’den, ayrıca Tanbûrî Ali Efendi, Nâfia Nâzırı Ferid Bey ve Suyolcuzâde Sâlih Efendi’den çeşitli eserler meşketti. Sesinin pestçe olduğu ve Hacı Ârif Bey’in sesine benzediği söylenmektedir. Tekkelerdeki zâkirlik, durakçılık ve müezzinliği dışında fasılcılığı ile de meşhur olan Hacı Kirâmî Efendi Taşkasap’taki bir kahvehanede düzenli şekilde mûsiki meşketmiştir. Yetiştirdiği pek çok talebe arasında Hâfız Kemal, Hâfız Sâmi, Ahmet Avni Konuk, Mustafa Nezihi Albayrak, Suphi Ziya Özbekkan, Lemi Atlı, Fahri Kopuz, Abdülkadir Töre, Âmâ Hâfız Hasan, Bahriyeli Şahap, Kanûnî Hacı Ârif Bey ve Zeki Ârif Ataergin sayılabilir. Hacı Kirâmî Efendi’nin eserlerinden bir beste, bir ilâhi ve beş şarkının günümüze ulaştığı tesbit edilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 489-490 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:haci-kirami-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=haci-kirami-efendi, https://islamansiklopedisi.org.tr/haci-kirami-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:08Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:08Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=haci-kirami-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1840,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=haci-kirami-efendi, URL: https://islamansiklopedisi.org.tr/haci-kirami-efendi || DİA death place: Mevlevîhânekapı || DİA death-date string: (1840-1909) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000953",
+    "iac:person-00002980",
+    "iac:person-00006172",
+    "iac:person-00006653"
+  ],
+  "students": [
+    "iac:person-00001170",
+    "iac:person-00001190",
+    "iac:person-00002976",
+    "iac:person-00003032",
+    "iac:person-00003037",
+    "iac:person-00004957",
+    "iac:person-00006254",
+    "iac:person-00007374"
+  ]
+}

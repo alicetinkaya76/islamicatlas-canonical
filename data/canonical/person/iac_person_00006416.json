@@ -1,0 +1,101 @@
+{
+  "@id": "iac:person-00006416",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "RİB‘Î b. HIRÂŞ",
+      "ar": "ربعي بن حراش"
+    },
+    "originalScript": {
+      "ar": "ربعي بن حراش"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Meryem Rib‘î b. Hırâş b. Cahş el-Gatafânî el-Absî"
+      ]
+    },
+    "description": {
+      "tr": "Kûfeli muhadram tâbiîlerdendir. Babası Hırâş b. Cahş’a Hz. Peygamber’in bir mektup gönderdiği, fakat onun bu mektubu yırtıp attığı rivayet edilmektedir (İbn Sa‘d, VI, 127). Rib‘î hadis öğrenmek için bazı ilim merkezlerine giderek Hz. Ali, Ebû Mûsâ el-Eş‘arî, Abdullah b. Mes‘ûd, Ebû Mes‘ûd el-Bedrî, Huzeyfe b. Yemân, Ebû Bekre es-Sekafî ve İmrân b. Husayn gibi sahâbîlerden faydalandı. Suriye’ye gittiğinde Câbiye’de Hz. Ömer’in hutbesini dinledi. Ebû Zer el-Gıfârî’den hadis işitip işitmediği ise ihtilâflıdır. Kendisinden Abdülmelik b. Umeyr el-Kureşî, Ebû Mâlik el-Eşcaî, İbnü’l-Mu‘temir, Şa‘bî gibi muhaddisler rivayette bulundu. Güvenilir bir muhaddis olan ve rivayetleri Kütüb-i Sitte ’de yer alan Rib‘î aynı zamanda devrinin önde gelen zâhidlerindendi. Yalan söylememesiyle tanınan Rib‘î’nin iki oğlu da Haccâc’a isyan etmişti. Rib‘î’nin doğru sözlülüğü Haccâc’a hatırlatılarak oğullarının saklandığı yer hakkında doğru bilgi verebileceği belirtilmişti. Haccâc da ona adamlarını gönderip oğullarının yerini sorduğunda Rib‘î, “Allah yardımcıları olsun” diyerek ikisinin de evde olduğunu söylemiş, onun bu dürüstlüğünü gören Haccâc oğullarını bağışlamıştı. Bazı kaynaklarda Rib‘î’nin Rebî‘ ve Mes‘ûd adında iki kardeşi bulunduğu kaydedilmiş, fakat kendisi dört kardeş olduklarını belirtmiştir (âbid ve zâhid olarak bilinen kardeşi Rebî‘in öldükten sonra yüzü açıldığında etrafında bulunanlara selâm verdiğine dair rivayet ve tartışmalar için bk. İbn Sa‘d, VI, 127; Zehebî, Aʿlâmü’n-nübelâʾ , IV, 361; İbn Hacer, Tehẕîbü’t-Tehẕîb , III, 237). Bazı kaynaklarda Rib‘î b. Hırâş’ın karısının da (imreetü Rib‘î b. Hırâş) hadis rivayet ettiği görülmekte ( Müsned , VI, 357, 369), fakat bu hanımın kimliği hakkında bilgi bulunmamaktadır. Rib‘î b. Hırâş 101’de (719) Kûfe’de vefat etti. Cenaze namazını Zeyd b. Hattâb’ın torunu ve Ömer b. Abdülazîz’in Kûfe valisi muhaddis Abdülhamîd b. Abdurrahman kıldırdı. Onun 81, 82 (701), 102 ve 104’te (722) öldüğü de kaydedilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2008 yılında İstanbul’da basılan 35. cildinde, 79-80 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ribi-b-hiras",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ribi-b-hiras, https://islamansiklopedisi.org.tr/ribi-b-hiras",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ribi-b-hiras",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ribi-b-hiras",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:51Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ribi-b-hiras (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Gatafânî"
+  ],
+  "laqab": [
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 101,
+    "start_ce": 719,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ribi-b-hiras, URL: https://islamansiklopedisi.org.tr/ribi-b-hiras || DİA death place: Kûfe || DİA death-date string: (ö. 101/719) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000522",
+    "iac:person-00000990",
+    "iac:person-00002219",
+    "iac:person-00002224",
+    "iac:person-00003598"
+  ],
+  "students": [
+    "iac:person-00004283",
+    "iac:person-00006501"
+  ]
+}

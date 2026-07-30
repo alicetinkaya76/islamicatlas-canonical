@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00001032",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Âmir-biahkâmillâh",
+      "ar": "الآمر بأحكام الله"
+    },
+    "originalScript": {
+      "ar": "الآمر بأحكام الله"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Alî el-Mansûr b. el-Müsta‘lî"
+      ]
+    },
+    "description": {
+      "tr": "13 Muharrem 490’da (31 Aralık 1096) doğdu. Babası Müsta‘lî’nin ölümü üzerine henüz beş yaşında bir çocukken vezir Emîrü’l-Cüyûş Efdal b. Bedr el-Cemâlî tarafından halife ilân edildi (8 Aralık 1101). Vezir Efdal, Âmir-Biahkâmillâh’ın halifeliğinin ilk yirmi yılında devlet idaresine tamamen hâkim oldu ve ülkeyi âdeta bir hükümdar gibi idare etti. Haçlılar’ın Kudüs başta olmak üzere birçok şehri ele geçirmelerine rağmen onlara karşı ciddi bir tedbir almadı. Âmir, idareyi ele geçirmek maksadıyla 15 Aralık 1121’de veziri Efdal’i öldürttü. Onun yerine Abdullah İbnü’l-Batâihî’yi vezir tayin etti. Fakat onunla da geçinemedi. Ekim 1125’te bu yeni veziri önce hapsettirdi, sonra da kardeşleriyle beraber çarmıha gerdirdi. Halife Âmir-Biahkâmillâh 2 Zilkade 524 (7 Ekim 1130) tarihinde, otuz dört yaşında iken Bâtınîler tarafından öldürüldü. Halifelik müddeti yirmi dokuz yıl beş aydır. Oğlu olmadığı için yerine amcazadesi Meymûn Abdülmecid geçti. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 68 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amir-biahkamillah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amir-biahkamillah, https://islamansiklopedisi.org.tr/amir-biahkamillah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:12393",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=12393, heading_ar=الآمر بأحكام الله",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amir-biahkamillah (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[12393]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=12393 (heading_ar=الآمر بأحكام الله) via Track A (DİA→Alam xref bridge). dt=Mısır'daki Fâtımî Devleti'nin halifelerinden"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 524,
+    "start_ce": 1130,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amir-biahkamillah, URL: https://islamansiklopedisi.org.tr/amir-biahkamillah || El-Aʿlām (Ziriklī) cross-reference: alam_id=[12393] || DİA death-date string: (ö. 524/1130) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=12393, heading_ar=الآمر بأحكام الله, dt=Mısır'daki Fâtımî Devleti'nin halifelerinden"
+}

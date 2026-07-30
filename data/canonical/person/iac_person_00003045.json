@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00003045",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hafsa Sultan"
+    },
+    "description": {
+      "tr": "Hayatı hakkında fazla bilgi yoktur; elli altı yaşında vefat ettiği bilinmekte, buradan 1478 veya 1479 yılında doğmuş olduğu sonucuna varılmaktadır. Belgelerde adının Ayşe, Hafsa bint Abdülmuîn, baba adının da Abdülmuîn’den başka Abdülhay ve Abdurrahman şeklinde geçmesi câriye olarak saraya girdiğini gösterir. Bazı kaynaklarda onu Kırım hânedanına veya Dulkadıroğulları’na bağlama gayreti görülürse de bu inandırıcı değildir. Gençlik yıllarını kocası Yavuz Sultan Selim’in sancak beyi olduğu Trabzon’da geçirdi ve Şehzade Süleyman’ı 1494 yılında burada dünyaya getirdi. Oğlunun II. Bayezid tarafından 1509’da Kefe valiliğine, daha sonra da Yavuz Sultan Selim tahta geçince Saruhan sancak beyliğine tayin edilmesi üzerine onunla birlikte önce Kırım’a, ardından Manisa’ya gitti ve buraya yerleşti; ancak Şehzade Süleyman tahta çıkınca onu İstanbul’a aldırdı. Vâlide sultan (mehd-i ulyâ) olarak on üç yıl beş ay yirmi yedi gün yaşayan Hafsa Sultan 4 Ramazan 940 (19 Mart 1534) tarihinde vefat etti ve Sultan Selim Camii’nin bahçesindeki türbesine gömüldü. Yerli ve yabancı kaynaklar, Hafsa Sultan’ın oğlu Kanûnî Sultan Süleyman üzerinde etkili olduğunu, fakat bunu kötüye kullanmayıp sarayda müsbet mânada idareci bir rol oynadığını ve hayatının sonuna kadar da Hürrem Sultan’ın nüfuz kazanmasını önlemeye çalıştığını yazmaktadır. Onun Yavuz Sultan Selim’e ve Kanûnî’ye gönderdiği bazı mektuplar günümüze ulaşmıştır. Güzelliği kadar hayır severliğiyle de tanınan Hafsa Sultan, yaptırdığı birçok hayır müessesesi arasında bilhassa Manisa’da bir kısmı 1523’te bitirilen cami, medrese, sıbyan mektebi, hankah, imaret, hamam ve dârüşşifâdan meydana gelen külliyesiyle tanınır. Bunlardan hamam (1538) ve dârüşşifâ (1539) ölümünden sonra Kanûnî tarafından onun adına külliyeye ilâve edilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 122-123 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hafsa-sultan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hafsa-sultan, https://islamansiklopedisi.org.tr/hafsa-sultan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hafsa-sultan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hafsa-sultan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:09Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:09Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hafsa-sultan (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 940,
+    "start_ce": 1534,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hafsa-sultan, URL: https://islamansiklopedisi.org.tr/hafsa-sultan || DİA death-date string: (ö. 940/1534) || Chunk count: 1"
+}

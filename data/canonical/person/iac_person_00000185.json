@@ -1,0 +1,134 @@
+{
+  "@id": "iac:person-00000185",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Al-Jahiz",
+      "tr": "Câhiz",
+      "ar": "الجاحظ"
+    },
+    "originalScript": {
+      "ar": "الجاحظ"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Uthman Amr ibn Bahr al-Jahiz"
+      ],
+      "tr": [
+        "Ebû Osmân Amr b. Bahr el-Câhiz",
+        "el-Câhız"
+      ],
+      "ar": [
+        "أبو عثمان عمرو بن بحر الجاحظ"
+      ]
+    },
+    "description": {
+      "tr": "Besin zincirleri, çevresel adaptasyon ve hayvanların hayatta kalma mücadelesini anlattı — Darwin'in Türlerin Kökeni'nden 1.000 yıl önce || Câhiz, zoolojide proto-bilimsel bir yönteme öncülük etti: doğrudan gözlem, çevresel determinizm ve 350'den fazla hayvan türünün sınıflandırılması. 'Hayatta kalma mücadelesi' kavramı doğal seçilimi önceler. Benzer çevrelerdeki hayvanların benzer özellikler geliştirdiğini de kaydetti — modern terminolojiyle yakınsak evrim. || [Tarih notu] Câhiz'in proto-evrimci düşüncesinin kapsamı, Bayrakdar (1983) ve Stott (2012) Darwin ile sistematik karşılaştırmalar yapana kadar Batı akademisinde büyük ölçüde gözden kaçırıldı. Pellat'ın BRILL maddesi (EI2) edebi başarıya odaklanarak bilimsel boyutu küçümsedi.",
+      "en": "Described food chains, environmental adaptation, and animal struggle for survival — 1,000 years before Darwin's Origin of Species || Al-Jahiz pioneered a proto-scientific method in zoology: direct observation, environmental determinism, and classification of over 350 animal species. His concept of 'struggle for existence' (al-ṣirāʿ min ajl al-baqāʾ) prefigures natural selection. He also noted that animals in similar environments develop similar characteristics — convergent evolution in modern terms. || [Historiographical note] The extent of Jahiz's proto-evolutionary thinking was largely overlooked in Western scholarship until Bayrakdar (1983) and Stott (2012) drew systematic comparisons with Darwin. Pellat's BRILL article (EI2) focused on literary achievement, undervaluing the scientific dimension.",
+      "ar": "وصف سلاسل الغذاء والتكيف البيئي وصراع الحيوانات من أجل البقاء — قبل أصل الأنواع لداروين بألف عام || ريادة الجاحظ في المنهج العلمي الأولي في علم الحيوان: الملاحظة المباشرة والحتمية البيئية وتصنيف أكثر من ٣٥٠ نوع. مفهومه في 'الصراع من أجل البقاء' يسبق الانتخاب الطبيعي"
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0002",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0002, lecture_id=jahiz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:244",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=244",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E0114",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0002 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:15:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "h11_001 QID karantinası: wikidata:Q193507 kayıttan çıkarıldı (denetim MISMATCH, sim=38, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-2 conf 1.0): ['authority_xref', 'altLabel.tr', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 776,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 868,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0002, lecture_week=3. || Key works: {'title': {'en': 'Kitāb al-Ḥayawān (Book of Animals)', 'tr': \"Kitâbü'l-Hayevân\", 'ar': 'كتاب الحيوان'}, 'year': 847, 'field': 'natural_sciences', 'significance': {'en': 'Seven-volume zoological encyclopedia with proto-evolutionary observations on adaptation and environmental influence', 'tr': 'Adaptasyon ve çevresel etkiye dair proto-evrimci gözlemler içeren yedi ciltlik zooloji ansiklopedisi'}}; {'title': {'en': \"Kitāb al-Bukhalā' (Book of Misers)\", 'tr': \"Kitâbü'l-Buhalâ\", 'ar': 'كتاب البخلاء' || Modern parallel: Imagine writing both a National Geographic nature documentary and a New York Times bestselling satire — and having both remain relevant for a millennium.",
+  "authored_works": [
+    "iac:work-00000004",
+    "iac:work-00000005"
+  ],
+  "kunya": "Ebû Osman",
+  "nisba": [
+    "Basrî"
+  ],
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q293497",
+      "confidence": 1.0,
+      "method": "imported_from_source",
+      "reviewed": false,
+      "note": "Alatlı (Tarihe Yön Veren Metinler): Tier-2 ad+ölüm eşleşmesi; QID Wikidata tarih-teyitli."
+    }
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

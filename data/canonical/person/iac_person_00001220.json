@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00001220",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AYKAÇ, Fazıl Ahmet"
+    },
+    "description": {
+      "tr": "23 Temmuz 1884’te İstanbul’da doğdu. Babası, çeşitli yerlerde mutasarrıflık yapmış olan Mehmed Celâl Bey, annesi Sâbire Hanım’dır. İlk tahsilini Numûne-i Terakkî Mektebi’nde, rüşdiyeyi babasının mutasarrıf olarak bulunduğu Gümüşhane’de, idâdîyi Musul’da tamamladı. Süleymaniye kasabasında Şeyh Mahvî Efendi’den Farsça dersleri aldı. İstanbul’a döndükten sonra, önce Lycée Français’ye, ardından Sanâyi-i Nefîse Mektebi mimari şubesine devam etti; İstanbul’dan Paris’teki Ecole Libre des Science Politiques’in kurlarını takip etti. Maarif Nezâreti Mekâtib-i Ecnebiyye Kalemi’nde çıraklık, Darphâne kâtipliği ve İzmir Valisi Kâzım Paşa’nın hususi kâtipliğinden sonra, Celâl Sahir’in çıkardığı Seyyâre mecmuasındaki yazılarının da tesiriyle 1908’de Dârülmuallimîn’e hoca tayin edildi. Daha sonra Sanâyi-i Nefîse Mektebi’nde estetik ve mitoloji, İstanbul ve Galatasaray liselerinde edebiyat, felsefe, pedagoji, Fransızca ve usûl-i tercüme derslerini okuttu. 1929’da üçüncü dönem Elazığ milletvekili seçildi, yirmi yıldan fazla milletvekilliği yaptı. 5 Aralık 1967’de vefat etti, Zincirlikuyu Mezarlığı’na defnedildi. On iki on üç yaşlarına kadar resim ve çizgiye ilgi duyduğunu söyleyen Fazıl Ahmet daha sonra şiirle meşgul olmuş ve ilk denemelerini Seyyâre ’de yayımlamıştır. Bir süre Fecr-i Âtî topluluğu içerisinde de bulunmuş, Seyyâre ’den başka Hilâl , Tanin , Akşam gibi gazete ve mecmualarda mizahî yazı ve şiirler, felsefî ve ilmî makaleler neşretmiştir. Devrinde, kalemine “ucu pek sivri ve maktaı pek keskin” sıfatı verildiği gibi kendisine de “edebiyat mâbedinin şeytanı” denmiştir. Tenkitçi bir mizaca sahip olan Fazıl Ahmet, başta Abdülhak Hâmid, Recâizâde Ekrem, Süleyman Nazif ve Mehmed Emin (Yurdakul) olmak üzere devrin meşhur şahsiyetleriyle birlikte zamanındaki bazı hadiseleri alaylı bir dille tenkit etmiştir. Şiirlerinde keskin ve kıvrak bir zekânın mizahından çok, nazîre-mizah karışımı ve çoğu zaman basitleşen bir alay hâkimdir. Gazete ve mecmualarda kalan şiir ve yazıları dışında kitap halinde yayımlanan eserleri şunlardır: Terbiyeye Dâir (İstanbul 1326); Dîvançe-i Fâzıl der Vasf-ı Efâzıl (İstanbul 1329); Harman Sonu (İstanbul 1335); Kırpıntı (İstanbul 1342/1924); Şeytan Diyor ki (İstanbul 1927); Gelecek Asırlarda Tarih Dersi (İstanbul 1928); İkinci Sis (İstanbul 1951). Ayrıca çeşitli konuşma, yazı ve hicivlerini Fazıl Ahmet: Hitabeler, Şiirler, Hicivler ve sâire (İstanbul 1934) adıyla bir kitapta toplamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 254 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:aykac-fazil-ahmet",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=aykac-fazil-ahmet, https://islamansiklopedisi.org.tr/aykac-fazil-ahmet",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=aykac-fazil-ahmet (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1884,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=aykac-fazil-ahmet, URL: https://islamansiklopedisi.org.tr/aykac-fazil-ahmet || DİA birth place: İstanbul || DİA death place: 1967 || DİA death-date string: (1884-1967) || DİA categories: hadis > felsefe > şiir || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00006410"
+  ]
+}

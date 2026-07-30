@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00000912",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Alâeddin Arabî Efendi"
+    },
+    "description": {
+      "tr": "Halep’te doğdu, bu sebeple Arabî lakabıyla meşhur oldu. Halep’teki tahsilinden sonra Osmanlı ülkesine geçerek Edirne’ye gitti. Molla Gürânî’nin derslerine devam etti, zamanla aralarında sıkı bir dostluk meydana geldi. Ayrıca bir süre Hızır Bey’in hizmetinde bulundu ve talebesi oldu. Edirne Dârülhadis müderrisi Fahreddîn-i Acemî’ye muîd olarak göreve başladı. Daha sonra Bursa Kaplıca Medresesi’ne müderris tayin edildi. Bu arada Halvetiyye tarikatı ileri gelenlerinden Şeyh Alâeddin Ali’ye intisap etti. Şeyhin bazı hareketleri hoş karşılanmayarak Manisa’ya sürülmesi üzerine, şeyhi müdafaa edip yanından ayrılmak istemeyince o da birlikte sürüldü. Burada Şehzade Mustafa’nın himayesini gördü. Onun aracılığıyla bir süre sonra affedilerek Sahn-ı Semân’a müderris oldu. Fâtih Sultan Mehmed, saltanatının sonlarına doğru kendisine seksen akçe yevmiye tayin etti. II. Bayezid bazı vezirlerin dedikodusu üzerine yevmiyesini elli akçeye düşürdü ise de kısa bir müddet sonra tekrar yükseltti. Receb 900’de (Nisan 1495) 100 akçe yevmiye ile şeyhülislâm oldu. Bir yıl kadar bu görevde kaldı; Nisan 1496’da öldü. Eyüp’te İdris Köşkü yolu üzerine defnedildi. Tefsir ve fıkıh alanında geniş bilgi sahibi olmakla birlikte herhangi bir eseri bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 319 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:alaeddin-arabi-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=alaeddin-arabi-efendi, https://islamansiklopedisi.org.tr/alaeddin-arabi-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:alaeddin-arabi-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/alaeddin-arabi-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:16Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=alaeddin-arabi-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 901,
+    "start_ce": 1496,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=alaeddin-arabi-efendi, URL: https://islamansiklopedisi.org.tr/alaeddin-arabi-efendi || DİA birth place: Halep || DİA death place: Eyüp || DİA death-date string: (ö. 901/1496) || DİA categories: fıkıh > hadis > tefsir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003447",
+    "iac:person-00005579"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00003538",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HUŞENÎ, Ebû Sa‘lebe",
+      "ar": "أبو ثعلبة الخشني"
+    },
+    "originalScript": {
+      "ar": "أبو ثعلبة الخشني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Sa‘lebe Cürsûm b. Nâşim el-Huşenî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatına dair fazla bilgi yoktur. Kendisinin ve babasının adı hakkında ihtilâf edilmiş, her ikisi için de kaynaklarda pek çok isim sayılmıştır. Zehebî bu isimlerin en meşhurunun Cürsûm b. Nâşim olduğunu belirtir ( Târîḫu’l-İslâm , s. 547; diğer isimler için bk. İbn Hacer, el-İṣâbe , IV, 29-30). Kudâa kabilesinin Huşeyn b. Nemr koluna mensup olan Ebû Sa‘lebe daha çok bu künyesiyle tanınmakta, dedesinin adı ise bilinmemektedir. Kardeşi Amr da Hz. Peygamber hayatta iken İslâmiyet’i kabul edenlerdendir. Hayber fethi için (6/628) hazırlık yapıldığı bir sırada gelerek İslâmiyet’i kabul eden Huşenî bu savaşa katıldı ve kendisine ganimetlerden pay ayrıldı. Daha sonra onu ziyarete gelen ve müslüman olan yedi kişiyle birlikte Bey‘atürrıdvân’da da bulunan Huşenî kabilesine elçi olarak gönderildi ve onların da müslüman olmasını sağladı (İbn Sa‘d, I, 329). Hz. Peygamber’den ve Muâz b. Cebel, Ebû Ubeyde b. Cerrâh gibi sahâbîlerden rivayette bulunan Huşenî’nin, Kütüb-i Sitte başta olmak üzere muteber hadis kaynaklarında pek çok rivayeti yer almakta, kendisinden hadis dinleyenler arasında Ebû İdrîs el-Havlânî, Saîd b. Müseyyeb, Atâ b. Yezîd el-Leysî, Mekhûl, Ebû Kılâbe el-Cermî ve Ebû Recâ el-Utâridî gibi isimler bulunmaktadır. Huşenî, Resûl-i Ekrem’e başvurarak Şam bölgesinde henüz fethedilmemiş olan bazı yerlerin kendisine verilmesini istemiş, Resûlullah’ın, “Bakın hele, Ebû Sa‘lebe neler söylüyor!” demesi üzerine yemin ederek oraların mutlaka fethedileceğini belirtmiş, Hz. Peygamber de onun isteğini yerine getirmiştir ( Müsned , IV, 193-194). Sıffîn Savaşı’nda her iki tarafta da yer almayan ve daha sonra Dımaşk’a yerleşerek çoluk çocuk sahibi olduğu anlaşılan Huşenî bir gece yarısı namaz kılarken secdede vefat etmiştir. Onun Muâviye’nin halifeliği döneminde (661-680) öldüğü de rivayet edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 420 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:huseni-ebu-salebe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=huseni-ebu-salebe, https://islamansiklopedisi.org.tr/huseni-ebu-salebe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:16Z",
+    "modified": "2026-05-04T15:34:16Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=huseni-ebu-salebe (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Huşenî"
+  ],
+  "death_temporal": {
+    "start_ah": 75,
+    "start_ce": 694,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=huseni-ebu-salebe, URL: https://islamansiklopedisi.org.tr/huseni-ebu-salebe || DİA death-date string: (ö. 75/694-95) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

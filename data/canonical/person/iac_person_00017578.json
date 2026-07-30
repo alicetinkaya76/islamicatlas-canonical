@@ -1,0 +1,149 @@
+{
+  "@id": "iac:person-00017578",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn ʿAbd al-Wahhāb",
+      "tr": "İbn Abdülvehhâb",
+      "ar": "ابن عبد الوهاب"
+    },
+    "originalScript": {
+      "ar": "ابن عبد الوهاب"
+    },
+    "description": {
+      "tr": "Arap yarımadasında modern dinî ve ıslahatçı harekâtın öncüsü",
+      "en": "Leader of the modern religious and reform movement in the Arabian Peninsula",
+      "ar": "محمد بن عبد الوهاب مؤسس حركة الإصلاح الديني التي ظهرت في الجزيرة العربية في القرن الثامن عشر. دعا إلى تنقية عقيدة التوحيد وترك الممارسات التي اعتبرها بدعا. تأثر بعمق بأفكار ابن تيمية. أسس تحالفه مع أمير الدرعية محمد بن سعود أساس الدولة السعودية. كتابه كتاب التوحيد هو النص الأساسي لحركته. أثارت أفكاره في العالم الإسلامي قاعدة عريضة من الأنصار ومعارضة قوية كذلك."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muḥammad b. ʿAbd al-Wahhāb b. Sulaymān al-Tamīmī al-Najdī"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Abdülvehhâb b. Süleymân et-Temîmî en-Nejdî"
+      ],
+      "ar": [
+        "محمد بن عبد الوهاب بن سليمان التميمي النجدي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:10546",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10546",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "scholars:98",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=98",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:06Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=10546 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['description.ar', 'nisba']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:10546."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1206,
+    "start_ce": 1792,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10546, heading_ar=ابن عبد الوهاب || Ziriklī century_ce=18 || Ziriklī place coords (city/region of activity): 24.5, 45.0",
+  "active_in_places": [
+    "iac:place-00011930"
+  ],
+  "authored_works": [
+    "iac:work-00001619",
+    "iac:work-00001756",
+    "iac:work-00001779",
+    "iac:work-00003376",
+    "iac:work-00003943",
+    "iac:work-00003949",
+    "iac:work-00004031",
+    "iac:work-00004204",
+    "iac:work-00004368",
+    "iac:work-00004477",
+    "iac:work-00005013",
+    "iac:work-00005713",
+    "iac:work-00006081",
+    "iac:work-00006155",
+    "iac:work-00006454",
+    "iac:work-00006462",
+    "iac:work-00006675",
+    "iac:work-00006742",
+    "iac:work-00006948",
+    "iac:work-00007017",
+    "iac:work-00007022",
+    "iac:work-00007049",
+    "iac:work-00007422",
+    "iac:work-00007547",
+    "iac:work-00007657",
+    "iac:work-00007750",
+    "iac:work-00007758",
+    "iac:work-00007863",
+    "iac:work-00007976",
+    "iac:work-00008439",
+    "iac:work-00008555",
+    "iac:work-00008647",
+    "iac:work-00008839",
+    "iac:work-00008863",
+    "iac:work-00008930",
+    "iac:work-00009128",
+    "iac:work-00009133",
+    "iac:work-00009215",
+    "iac:work-00009305"
+  ],
+  "nisba": [
+    "Temîmî",
+    "Necdî"
+  ],
+  "kunya": "أبو عبد الله"
+}

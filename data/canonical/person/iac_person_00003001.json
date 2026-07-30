@@ -1,0 +1,126 @@
+{
+  "@id": "iac:person-00003001",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hacrî",
+      "ar": "الحجري"
+    },
+    "originalScript": {
+      "ar": "الحجري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdullāh b. Muhammed b. Alî el-Hacrî"
+      ]
+    },
+    "description": {
+      "tr": "Zilhicce 505’te (Haziran 1112) Endülüs’te Meriye’de (Almeria) doğdu. İbn Ubeydullah diye de bilinmektedir. Arap kabilelerinden Hacr b. Zîruayn’a nisbetle Hacrî ve Ruaynî, doğduğu ve ikamet ettiği yerlere nisbetle de Meriyyî, Sebtî nisbeleriyle anılır. Kurtuba (Córdoba) ve İşbîliye (Sevilla) başta olmak üzere muhtelif şehirlerde birçok hocadan ders aldı. Ṣaḥîḥ-i Müslim ’i Ebû Abdullah İbn Zügaybe’den, Nesâî’nin es-Sünen ’ini fakih ve hadis hâfızı Ebû Ca‘fer Ahmed b. Abdurrahman el-Bitrûcî’den okudu. İşbîliye hatibi diye anılan kıraat âlimi ve muhaddis Ebü’l-Hasan Şüreyh b. Muhammed er-Ruaynî’den ve Ahmed b. Abdullah b. Sâlih’ten hadis ve kırâat-i seb‘a tahsil etti. Ayrıca Ebü’l-Hasan İbn Mugīs, Ebû Bekir İbnü’l-Arabî’den ve daha pek çok hocadan faydalandı. 534 (1139-40) yılında kalabalık bir mecliste Ṣaḥîḥ-i Buḫârî ’yi Şüreyh b. Muhammed’e okudu. Hacrî’den hadis ve kıraat okuyanlar arasında Ebü’l-Hattâb İbn Dihye el-Kelbî, Muhammed b. Hasan İbnü’l-Gāzî, Muhammed b. Muhammed el-Yahsubî, Muhammed b. Ubeydullah el-Mürsî, İbnü’s-Saffâr el-Kurtubî ve Abdurrahman b. Kāsım es-Serrâc gibi isimler bulunmaktadır. Zehebî’nin “hadis hâfızı, hüccet, allâme, şeyhü’l-Mağrib, şeyhü’l-İslâm” diye tavsif ettiği Hacrî hadis öğrenim ve öğretiminde titiz davranan ve rivayetlerine güvenilen bir âlimdi. Meriye’de hatiplik yaptı, ancak kendisine teklif edilen kadılık görevini kabul etmedi. Meriye düşman istilâsına uğrayınca Mürsiye’ye (Murcia) gitti. Buradan da önce Fas’a, ardından Sebte’ye (Ceuta) geçerek ömrünün büyük bir kısmını bu şehirde hadis ve kıraat okutmakla geçirdi. Hükümdarın kendisini Merakeş’e davet etmesi üzerine bir müddet orada kaldıysa da tekrar Sebte’ye döndü. Kıraat ve fıkıhla da meşgul olmakla beraber âlî isnadlara sahip bulunması sebebiyle özellikle hadis alanında temayüz eden, zühd ve takvâsı ile halk nazarında büyük itibar kazanan Hacrî, 591 yılı Muharrem ayı sonlarında veya Safer ayı başında (Ocak 1195) Sebte’de vefat etti. Kaynaklarda çeşitli kerametleri zikredilen Hacrî’nin öldüğü sırada büyük bir kuraklığın hüküm sürdüğü, cenazesi kabre konunca halkın yağmur yağdırması için onunla tevessül ederek Allah’a dua ettiği, o gece başlayan yağmurun bir hafta sürdüğü belirtilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 520 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hacri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hacri, https://islamansiklopedisi.org.tr/hacri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hacri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hacri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:6159",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6159, heading_ar=الحجري",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:08Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:08Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hacri (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6159]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6159 (heading_ar=الحجري) via Track A (DİA→Alam xref bridge). dt=Endülüslü muhaddis."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hacrî"
+  ],
+  "death_temporal": {
+    "start_ah": 591,
+    "start_ce": 1195,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hacri, URL: https://islamansiklopedisi.org.tr/hacri || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6159] || DİA death place: Sebte || DİA death-date string: (ö. 591/1195) || DİA categories: hadis > fıkıh > isnâd || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6159, heading_ar=الحجري, dt=Endülüslü muhaddis.",
+  "death_place": "iac:place-00006250",
+  "active_in_places": [
+    "iac:place-00006250"
+  ],
+  "teachers": [
+    "iac:person-00000648"
+  ],
+  "students": [
+    "iac:person-00003728",
+    "iac:person-00006698"
+  ]
+}

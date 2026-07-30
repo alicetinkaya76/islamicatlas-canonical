@@ -1,0 +1,121 @@
+{
+  "@id": "iac:person-00000207",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Nafis",
+      "tr": "İbnü'n-Nefîs",
+      "ar": "ابن النفيس"
+    },
+    "originalScript": {
+      "ar": "ابن النفيس"
+    },
+    "altLabel": {
+      "en": [
+        "Ala al-Din Abu al-Hasan Ali ibn Abi al-Hazm al-Qurashi"
+      ],
+      "tr": [
+        "Alâeddin Ebü'l-Hasen Alî b. Ebi'l-Hazm el-Kureşî"
+      ],
+      "ar": [
+        "علاء الدين أبو الحسن علي بن أبي الحزم القرشي"
+      ]
+    },
+    "description": {
+      "tr": "Pulmoner kan dolaşımını William Harvey'den 300 yıl önce keşfetti — kanın sağ ventrikülden sol ventriküle akciğerler yoluyla geçtiğini kanıtlayarak 1.400 yıllık Galen doktrinini çürüttü || İbnü'n-Nefîs'in pulmoner dolaşım tanımı, İbn Sînâ'nın Kânûn şerhine gömülüdür. Galen'in kanın interventriküler septumda görünmez gözeneklerden geçtiği iddiasını açıkça reddetti. || [Tarih notu] Meyerhof (1935), İbnü'n-Nefîs'in pulmoner dolaşımdaki önceliğini yeniden keşfetti.",
+      "en": "Discovered pulmonary blood circulation 300 years before William Harvey — proved that blood passes from the right to left ventricle via the lungs, contradicting 1,400 years of Galenic doctrine || Ibn al-Nafis's description of pulmonary circulation is embedded in his Commentary on Ibn Sina's Canon. He explicitly rejected Galen's claim that blood passes through invisible pores in the interventricular septum, instead demonstrating that blood must travel from the right ventricle to the lungs, mix with air, then return to the left ventricle. This discovery was unknown to European medicine until Alpago's 1547 Latin translation. || [Historiographical note] Meyerhof (1935) rediscovered Ibn al-Nafis's priority in pulmonary circulation. The question of whether Michael Servetus (1553) and Realdo Colombo (1559) had independent access to this knowledge or whether it was transmitted via Andrea Alpago's translations remains debated.",
+      "ar": "اكتشف الدورة الدموية الرئوية قبل وليام هارفي بثلاثة قرون || وصف ابن النفيس للدورة الدموية الرئوية مضمّن في شرحه لقانون ابن سينا. رفض صراحة ادعاء جالينوس بوجود مسام في الحاجز بين البطينين"
+    }
+  },
+  "profession": [
+    "physician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0024",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0024, lecture_id=eyyubi-medeniyet",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:49",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=49",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-10T14:25:01Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0024 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 0.96): gap-filled ['kunya', 'nisba']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1213,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1288,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q319146",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ibn al-Nafis')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0024, lecture_week=4. || Key works: {'title': {'en': 'Sharḥ Tashrīḥ al-Qānūn (Commentary on the Anatomy of the Canon)', 'tr': \"Şerhu Teşrîhi'l-Kânûn\", 'ar': 'شرح تشريح القانون'}, 'year': 1242, 'field': 'medicine', 'significance': {'en': 'First description of pulmonary circulation — 300 years before William Harvey', 'tr': \"Pulmoner dolaşımın ilk tanımı — William Harvey'den 300 yıl önce\"}} || Modern parallel: Imagine discovering how the heart actually works — and having the discovery buried in a footnote for 300 years until someone else gets the credit.",
+  "birth_place": "iac:place-00004883",
+  "active_in_places": [
+    "iac:place-00004883",
+    "iac:place-00009399"
+  ],
+  "authored_works": [
+    "iac:work-00000039",
+    "iac:work-00002367",
+    "iac:work-00003755",
+    "iac:work-00004086"
+  ],
+  "kunya": "Alâüddîn",
+  "nisba": [
+    "Kureşî",
+    "Dımaşkî"
+  ]
+}

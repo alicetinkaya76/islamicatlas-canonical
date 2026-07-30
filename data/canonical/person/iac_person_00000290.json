@@ -1,0 +1,100 @@
+{
+  "@id": "iac:person-00000290",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Mujawir",
+      "tr": "İbnü'l-Mücâvir",
+      "ar": "ابن المجاور"
+    },
+    "originalScript": {
+      "ar": "ابن المجاور"
+    },
+    "altLabel": {
+      "en": [
+        "Yusuf ibn Ya'qub ibn Muhammad Ibn al-Mujawir"
+      ],
+      "tr": [
+        "Yûsuf b. Ya'kūb b. Muhammed İbnü'l-Mücâvir"
+      ],
+      "ar": [
+        "يوسف بن يعقوب بن محمد ابن المجاور"
+      ]
+    },
+    "description": {
+      "tr": "Arabistan, Yemen ve Somali kıyısı çevresindeki Hint Okyanusu liman şehirleri ve ticaret ağlarının en ayrıntılı ortaçağ anlatımını sağladı || Târîh'i benzersiz biçimde değerlidir çünkü diğer coğrafyacıların göz ardı ettiği liman şehirlerinin gelenek, mimari ve günlük yaşamını kaydetmiştir. || [Tarih notu] Yalnızca bir kez tahkik edilmiştir (1951'de O. Löfgren tarafından).",
+      "en": "Provided the most detailed medieval account of the Indian Ocean port cities and trade networks around Arabia, Yemen, and the Somali coast || His Tarikh is uniquely valuable because he recorded customs, architecture, and daily life of port cities that other geographers ignored — focusing on the Indian Ocean rather than the Mediterranean. || [Historiographical note] Edited only once (in 1951 by O. Löfgren). Remains underutilized despite being the key source for pre-Portuguese Indian Ocean maritime history.",
+      "ar": "قدم أدق وصف وسيطي لمدن الموانئ وشبكات التجارة في المحيط الهندي || تاريخه فريد لأنه سجل عادات وعمارة وحياة مدن الموانئ التي أهملها غيره"
+    }
+  },
+  "profession": [
+    "geographer",
+    "historian",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0107",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0107",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:57:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:57:54Z",
+    "modified": "2026-05-04T15:39:32Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:57:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0107 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1204,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1291,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q6534479",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ibn al-Mujawir')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0107, lecture_week=n/a. || Key works: {'title': {'en': 'Tārīkh al-Mustabṣir', 'tr': \"Târîhu'l-Müstebsır\", 'ar': 'تاريخ المستبصر'}, 'year': 1232, 'field': 'geography', 'significance': {'en': 'Unique account of Arabian and Indian Ocean port cities — the primary source for medieval Aden, Zabid, and the Hadramawt coast', 'tr': 'Arap ve Hint Okyanusu liman şehirlerinin benzersiz anlatımı — ortaçağ Aden, Zebîd ve Hadramut kıyısı için birincil kaynak'}} || Modern parallel: Like a travel journalist who documents the hidden ports and trade routes that nobody else writes about.",
+  "active_in_places": [
+    "iac:place-00011505"
+  ],
+  "authored_works": [
+    "iac:work-00000147"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00002921",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "GUIDI, Michelangelo"
+    },
+    "description": {
+      "tr": "19 Mart 1886’da Roma’da doğdu. Babası ünlü şarkiyatçı Ignazio Guidi’nin yolunda yürüyerek mesleğindeki ilk bilgileri ondan alırken Roma Üniversitesi Şarkiyat Bölümü’nde okudu. İlmî yeteneğini, Leone Caetani gibi sahasında meşhur kişilerle kurduğu ilişkiler sayesinde daha da geliştirdi. Çok sayıda dil öğrenme merakı çocukluk yıllarında başladı. Ülkesinde orta ve yüksek öğretim sırasında zorunlu ders olarak okutulan Grekçe, Latince ve bir Batı dilinden başka Farsça, Türkçe, Rusça ve Kıptîce öğrendi. Kıptîce’deki Grekçe kelimeler üzerine hazırladığı tezle üniversiteden mezun olduktan (1909) bir müddet sonra okuduğu Şarkiyat Bölümü’nde göreve başladı ve ölümüne kadar devam ettiği bu görevi sırasında Francesco Gabrieli ve Maria Nallino gibi birçok önemli şarkiyatçının yetişmesinde etkili oldu. 1926’dan 1929’a kadar Kahire Üniversitesi’nde Arap filolojisi üzerine ders verdi. 1938-1945 yıllarında Roma Üniversitesi Şarkiyat Bölümü’nün, 1932-1946 arasında da babasının çabasıyla kurulan Rivista degli Studi Orientali dergisinin direktörlüğünü yapan Guidi yurt içinde ve dışında birçok bilimsel kuruluş ve vakfın üyesiydi. Eserleri. Aynı zamanda bir Doğu Hıristiyanlığı ve Kıptî kilisesi uzmanı olan Guidi şarkiyatın çeşitli kollarında araştırma yapmış, özellikle İslâm tarihi ve Arap edebiyatıyla ilgilenmiştir. Sayısı 150’ye yaklaşan eserlerinin çoğu ilmî makale şeklinde olup bunların arasında birkaç kitapla ansiklopedi maddeleri de bulunmaktadır. Storia delle Religioni (ed. P. Tacchi Venturi, Torino 1936) adlı kitabın 227-359. sayfaları arasında yer alan “Storia della religione dell’Islam” başlıklı çalışması en kalıcı eseri sayılmaktadır ve kitap bugüne kadar pek çok baskı yapmıştır. Enciclopedia Italiana için yazdığı “Orientalismo” maddesi, günümüzde dahi bu alanda aşılamamış olan maddeler arasındadır. Yine bu ansiklopediye yazdığı “Yazidi” ve Encyclopédie de l’Islam ’a yazdığı “Mazdak” maddeleri de önemlidir. Türk âlemiyle ilgili başlıca çalışmaları, 1924 tarihli Kānûn-ı Esâsî’den İtalyanca’ya yaptığı tercüme ile (“La costituzione turca”, Oriente Moderno , IV [1924], s. 667-675) “Le vicende del Turchestan e la rivoluzione russa” ( Nuova Antologia , VI/249 [1926], s. 185-201, 339-349) adlı makaleleridir. Guidi’nin diğer önemli çalışmaları şöylece sıralanabilir: “Sulle poesie di Muzāḥim al-ʿUqaylī” ( RSO , IX/1-2 [1921], s. 48-54); Gli scrittori zayditi e l’esegesi coranica muʿtazilita (Roma 1925); La lotta tra l’Islām e il Manicheismo. Un libro di Ibn al-Muqaffaʿ contro il Corano confutato da al-Qāsim b. Ibrāhīm (Roma 1927); “Origine dei Yazidi e storia religiosa dell’Islam e del dualismo” ( RSO , XIII [1932], s. 286-300); “Trois conférences sur quelques problèmes généraux de l’orientalisme” ( Annuaire de l’institut de philologie et d’histoire orientales , III [1935], s. 167-216); “Sui Ḫārigiti” ( RSO , XXI [1944], s. 1-14); Storia e cultura degli Arabi fino alla morte di Maometto (Firenze 1951; bu eserde Leone Caetani’nin etkisi görülür). Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 175 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:guidi-michelangelo",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=guidi-michelangelo, https://islamansiklopedisi.org.tr/guidi-michelangelo",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:guidi-michelangelo",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=guidi-michelangelo",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:07Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:07Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=guidi-michelangelo (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=guidi-michelangelo)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1886,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=guidi-michelangelo, URL: https://islamansiklopedisi.org.tr/guidi-michelangelo || DİA birth place: Roma || DİA death-date string: (1886-1946) || Chunk count: 1",
+  "birth_place": "iac:place-00005834",
+  "students": [
+    "iac:person-00001355",
+    "iac:person-00002813",
+    "iac:person-00005987",
+    "iac:person-00006444"
+  ]
+}

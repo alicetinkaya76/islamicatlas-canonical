@@ -1,0 +1,110 @@
+{
+  "@id": "iac:person-00013056",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn ʿAbd al-Salām",
+      "tr": "İbn Abdüsselâm",
+      "ar": "ابن عبد السلام"
+    },
+    "originalScript": {
+      "ar": "ابن عبد السلام"
+    },
+    "description": {
+      "tr": "Şâfiî fakihi ve içtihad mertebesine ulaşmış alim",
+      "en": "Shāfiʿī jurist who attained the rank of ijtihād",
+      "ar": "الفقيه الشافعي المعروف بلقب سلطان العلماء. عمله قواعد الأحكام من الأسس الرئيسة لنظرية المصلحة. مشهور باستقلاليته العلمية أمام السلطة السياسية."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd al-ʿAzīz b. ʿAbd al-Salām b. Abī al-Qāsim b. al-Ḥasan al-Sulamī al-Dimashqī, ʿIzz al-Dīn al-Malqab bi-Sulṭān al-ʿUlamāʾ"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdülaziz b. Abdüsselâm b. Ebî'l-Kâsım b. el-Hasan es-Selemi ed-Dımaşkî, İzzüddin el-Melkab bi-Sultân el-Ulemâ"
+      ],
+      "ar": [
+        "عبد العزيز بن عبد السلام بن أبي القاسم بن الحسن السلمي الدمشقي، عزالدين الملقب بسلطان العلماء"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:5527",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5527",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "scholars:258",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=258",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:15Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=5527 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:20Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['description.ar', 'nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:5527."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 660,
+    "start_ce": 1262,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5527, heading_ar=ابن عبد السلام || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+  "active_in_places": [
+    "iac:place-00009399"
+  ],
+  "nisba": [
+    "Sülemî",
+    "Dımaşkî"
+  ],
+  "laqab": [
+    "İzzüddîn"
+  ]
+}

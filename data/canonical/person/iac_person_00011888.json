@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00011888",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Sharīf al-Kaḥḥāl",
+      "tr": "eş-Şerîf el-Kehhâl",
+      "ar": "الشريف الكحال"
+    },
+    "originalScript": {
+      "ar": "الشريف الكحال"
+    },
+    "description": {
+      "tr": "Mısırlı kehhâl (göz hekimi), edib, şiir ve haberleri vardır.",
+      "en": "An Egyptian oculist, man of letters, with poetry and accounts."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Sulaymān b. Mūsā, Abū al-Faḍl, al-Sharīf Bahāʾ al-Dīn b. Sharaf al-Dīn"
+    },
+    "altLabel": {
+      "tr": [
+        "Süleymân b. Mûsâ, Ebû'l-Fazl, eş-Şerîf Burhâneddin b. Şerefeddin"
+      ],
+      "ar": [
+        "سليمان بن موسى، أبو الفضل، الشريف برهان الدين ابن شرف الدين"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:4235",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=4235",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:04Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=4235 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:4235."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 590,
+    "start_ce": 1194,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=4235, heading_ar=الشريف الكحال || Ziriklī century_ce=12 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+  "kunya": "أبو الفضل"
+}

@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00000604",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜLVÂHİD b. ZEYD",
+      "ar": "عبد الواحد بن زيد"
+    },
+    "originalScript": {
+      "ar": "عبد الواحد بن زيد"
+    },
+    "description": {
+      "tr": "“Şeyhü’l-ubbâd” ve “şeyhü’s-sûfiyye” unvanlarıyla da anılır. Zühdle ilgili menkıbeleriyle meşhurdur. Hasan-ı Basrî ile görüştüğü ve talebesi olduğu rivayet edilir. Attâr, Abdülvâhid’i Yûsuf b. Hüseyin er-Râzî (ö. 304/916) ile çağdaş gösterip onun meclisinde tövbe ettiğini bildirirse de bu doğru değildir. Abdülvâhid, Basra’daki “ağlayan zâhidler”dendir (bk. BEKKÂÎN ). Kaynaklarda, Mâlik b. Dînâr’ın vaazını dinlerken yüksek sesle ağlaması yüzünden yanındakilerin vaazı takip edemedikleri, ağlarken kendinden geçtiği, meclisinde bulunanların da aynı şekilde vecde geldikleri, hatta vecdden ölenler olduğu bildirilmektedir. Vezzân, onun bütün Basralılar’a yetecek kadar hüzne sahip olduğunu söyler. Sürekli olarak sevgi ve aşktan bahsettiği, sevgi üzerinde fazla duran bir zümreyle beraber olduğu, çevresinde bu anlayışta bir cemaatin oluştuğu ve Râbia el-Adeviyye’ye evlenme teklifinde bulunduğu rivayet edilmektedir. O, “En üstün derece muhabbettir” der; ancak rızanın bundan da üstün olduğunu ifade eder. İbn Teymiyye, Abdülvâhid’in peygamberlerden birine atfen, “Allah bana, ben de Allah’a âşığım” dediğini -ki bu söz umumiyetle Ebü’l-Hüseyin en-Nûrî’ye nisbet edilir- ve ilk sûfî zâviyesinin onun müridlerinden biri tarafından kurulduğunu söyler. Aleviyye ve Kümmeliyye tarikatlarının silsilelerinde adı geçen Abdülvâhid’in, başta Yâfiî’nin Ravżü’r-reyâḥîn ’i olmak üzere, menâkıbnâmelerde ve sûfî tabakat kitaplarında birçok söz ve menkıbeleri yer almaktadır. Kesb konusunda Mu‘tezile’nin görüşüne meyletmesi ve yine bu istikamette, “Allah (dilerse) kulları dalâlete düşürür” demeyi Allah’ı tenzihle bağdaştıramaması gibi sebeplerle bu mezhepten olduğu ileri sürülmüşse de Mu‘tezile’nin kurucularından Amr b. Ubeyd’le “i‘tizâlî” görüşlerinden dolayı ilgisini kestiği de kaynaklarda nakledilmektedir. Hasan-ı Basrî ve Atâ b. Ebû Rebâh’tan hadis rivayet etmiş, kendisinden de Vekî‘, İbnü’s-Semmâk ve Dârânî gibi âlimler rivayette bulunmuşlardır. Ancak, hadis münekkitleri onu metrûk bir râvi, rivayet ettiği hadisleri de münker kabul ederler. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 282 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulvahid-b-zeyd",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulvahid-b-zeyd, https://islamansiklopedisi.org.tr/abdulvahid-b-zeyd",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdulvahid-b-zeyd",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdulvahid-b-zeyd",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulvahid-b-zeyd (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Mâlikî (mezhep)",
+    "Mu'tezilî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 177,
+    "start_ce": 793,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdulvahid-b-zeyd, URL: https://islamansiklopedisi.org.tr/abdulvahid-b-zeyd || DİA death-date string: (ö. 177/793) || DİA categories: rivayet > hadis > mezhep || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003260"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@id": "iac:person-00005850",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Musannif",
+      "ar": "المصنّف"
+    },
+    "originalScript": {
+      "ar": "المصنّف"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr b. Hidâyetillâh el-Kûrânî el-Merîvânî el-Hüseynî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Babasının adına nisbetle İbn Hidâyetullah olarak, çok eser verdiği için de “Musannif” lakabıyla tanınır. Kürt asıllı, tasavvuf ehli ve seyyid olduğu, bir süre Medine’de yaşadığı kaydedilir. Yetiştirdiği birçok talebe arasında yalnız oğlu Abdülkerîm’in adı anılmaktadır. Muhibbî, Abdülkerîm’in talebelerinden ve dönemin Nakşibendî-Şâfiî ulemâsının önde gelenlerinden Burhâneddin İbrâhim b. Hasan el-Kûrânî eş-Şehrezûrî’nin Musannif’ten rivayette bulunduğunu naklediyorsa da ( Ḫulâṣatü’l-es̱er , I, 110) bu zat 1025’te (1616) doğduğuna göre Musannif’ten rivayeti oğlu veya bir başkası vasıtasıyla olmalıdır. Musannif, İran’ın Kürdistan bölgesindeki Merivan kasabasına bağlı Çûr köyünde vefat etti. Kaynaklarda Musannif’in yalnız Şâfiî tabakatına dair eseriyle Abdülkerîm b. Muhammed er-Râfiî’nin el-Muḥarrer’ine yazdığı üç ciltlik bir şerhten, Farsça kaleme aldığı Sirâcü’ṭ-ṭarîḳ ve Riyâżü’l-ḫulûd adlı iki kitabından söz edilmekte, Kâtib Çelebi el-Muḥarrer ’e yazdığı şerhin adının el-Vużûḥ olduğunu belirtmektedir ( Keşfü’ẓ-ẓunûn , II, 1613). Ṭabaḳātü’ş-Şâfiʿiyye (Ṭabaḳātü’l-Muṣannif) , İmam Şâfiî’den müellifin yaşadığı X. (XVI.) yüzyıla kadar gelen tanınmış Şâfiî fukahasının hayatına dairdir. Yüzyıllara ayrılarak düzenlenen eserde âlimler vefat tarihine göre sıralanmıştır. 200 civarında biyografi ihtiva eden ve bazı âlimler hakkında bir-iki satırlık bilgiyle yetinilen bu muhtasar eser, daha önceki Şâfiî tabakat kitaplarına dayanması sebebiyle orijinal bir özellik taşımamaktadır. Kitabın Bağdat’ta el-Methafü’l-Irâkī’de (nr. 8676), Şam’da Dârü’l-kütübi’z-Zâhiriyye’de (nr. 6164) ve İstanbul’da Nuruosmaniye Kütüphanesi’nde (nr. 3159, vr. 113 b -145 b ) birer yazma nüshası tesbit edilmiştir. Ebû İshak eş-Şîrâzî’nin Ṭabaḳātü’l-fuḳahâʾ sının arkasında basılan eseri (Bağdad 1356) daha sonra Âdil Nüveyhiz, bu çok hatalı baskı ile yerini belirtmediği bir yazma nüshasının filmini karşılaştırıp diğer kaynaklardan faydalanmak suretiyle yeniden neşretmiştir (Beyrut 1971, 1979, 1402/1982). Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 238-239 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:musannif",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=musannif, https://islamansiklopedisi.org.tr/musannif",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:2039",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=2039, heading_ar=المصنف",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:44Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=musannif (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[2039]. Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:24Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=2039 (heading_ar=المصنف) via Track A (DİA→Alam xref bridge). dt=Şâfiî fakîhlerinden ve müverrihleri"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kûrânî; Merîvânî; Hüseynî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 1014,
+    "start_ce": 1605,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=musannif, URL: https://islamansiklopedisi.org.tr/musannif || El-Aʿlām (Ziriklī) cross-reference: alam_id=[2039] || DİA death place: Musannif || DİA death-date string: (ö. 1014/1605) || DİA categories: rivayet > tasavvuf || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=2039, heading_ar=المصنف, dt=Şâfiî fakîhlerinden ve müverrihleri",
+  "active_in_places": [
+    "iac:place-00009604"
+  ]
+}

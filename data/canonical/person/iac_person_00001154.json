@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00001154",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AŞKÎ, Üsküdarlı"
+    },
+    "description": {
+      "tr": "İstanbul’da Rumelihisarı’nda doğdu. Asıl adı İlyas Çelebi’dir. Doğum tarihi bilinmemektedir. Gençliğinde babası gibi yeniçeri oldu. Âşık Çelebi’nin bildirdiğine göre askerlik mesleğine bir türlü ısınamamakla birlikte çeşitli seferlere katılmış, Alman seferinde öldüğü söylentilerinin çıkması üzerine ulûfesi kesilince Müeyyedzâde Hacı Halife’nin tekkesine kapılanarak derviş olmuştur. Bir müddet sonra Ebü’l-Fazl Çelebi’nin aracılığıyla bir kâtipliğe tayin edilmişse de hastalanarak görevine devam etmediği için yine maaşı kesilmiştir. Kanûnî’ye sunduğu bir şiirinde yıllarca padişah kapısında kulluk ettiğini, piyade olarak seferlere katıldığını ve çeşitli fedakârlıklarda bulunduğunu anlatmaktadır. Şiiri beğenen padişah isteğini sorunca Aşkî o sıralarda ölen şair Basîrî’nin 10 akçelik ödeneğinin kendisine verilmesini talep eden bir kıta nazmetmiş, padişah bu arzusunu yerine getirdiği gibi ayrıca ihsanda da bulunmuştur. Böylece maddî sıkıntılardan kurtulan şair Üsküdar’da bir yalı satın alarak bilgin, sanatkâr ve şeyhlerin toplandığı bir mahfil haline getirdiği bu yalıda yaşamaya başlamıştır. Latîfî Tezkiresi ’nden itibaren birçok kaynakta Üsküdarlı nisbesiyle anılması bundandır. Şairle 1535 yılı baharında tanıştığını bildiren Âşık Çelebi eserinde Aşkî’nin bu yalıda geçirdiği debdebeli hayatı uzun uzun anlatmaktadır. Ancak aşırı harcamaları yüzünden bir müddet sonra borçlanan Aşkî, II. Selim’e sunduğu “kerem” redifli bir kaside ile evinin rehin düştüğünü belirterek yardım istemiştir. Padişahtan ilgi görüp görmediği bilinmeyen şair tekrar Rumelihisarı’na taşınmış ve bir süre sonra vefat ederek Rumelihisarı Mezarlığı’na defnedilmiştir. Bazı tezkirelerde, yeniçerilikten ayrıldıktan sonra Bektaşîlik’ten Bayramîliğe geçtiği söylendiği gibi Sadettin Nüzhet de divanındaki bir murabbaa dayanarak Mevlevî olduğunu öne sürmektedir. Devrinin güçlü şairlerinden biri olan Aşkî’nin tasavvufî şiirleri de vardır. Sade ve samimi bir dille söylediği şiirleri arasında, günümüzde de tanınan ve bir muhammesinin nakarat beytinde geçen “Görelüm âyine-i devrân ne sûret gösterür” mısraı gibi güzel parçalara rastlanmaktadır. Şiirleri bir divan halinde toplanmıştır. Divanının İstanbul kütüphanelerinde bilinen iki nüshası vardır (Millet Ktp., Ali Emîrî Efendi, Manzum, nr. 297; Nuruosmaniye Ktp., nr. 3857). Çeşitli nazîre mecmualarında eserlerinden örneklere rastlanmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 23 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:aski-uskudarli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=aski-uskudarli, https://islamansiklopedisi.org.tr/aski-uskudarli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:aski-uskudarli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/aski-uskudarli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=aski-uskudarli (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 984,
+    "start_ce": 1576,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=aski-uskudarli, URL: https://islamansiklopedisi.org.tr/aski-uskudarli || DİA death-date string: (ö. 984/1576) || DİA categories: tasavvuf > şiir || Chunk count: 1"
+}

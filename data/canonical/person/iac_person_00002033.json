@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00002033",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Dicvî",
+      "ar": "الدجوي"
+    },
+    "originalScript": {
+      "ar": "الدجوي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü'l-Mehâsin Cemâlüddîn Yûsuf b. Ahmed b. Nasr ed-Dicvî el-Mâlikî"
+      ]
+    },
+    "description": {
+      "tr": "Mısır’ın Kalyûb şehrine bağlı Dicve’de doğdu. Soyu anne tarafından Hz. Hasan’a dayanır. Küçük yaşta yakalandığı çiçek hastalığı sebebiyle gözlerini kaybetti. Kur’an’ı ezberledikten sonra Ezher Üniversitesi’nde öğrenime başladı (1883). Hârûn b. Abdürrezzâk el-Bencâvî, Ahmed er-Rifâî el-Feyyûmî, Ahmed Fâid ez-Zürkānî, Muhammed el-Buhayrî, Atıyye el-Adevî gibi üniversitenin ileri gelen hocalarından ders aldı. 1899 yılında buradaki öğrenimini tamamladı ve girdiği imtihanda âlimiyye icâzetini pekiyi derece ile aldı. Daha sonra Ezher Üniversitesi’nde öğretim üyeliği görevine başladı. Geniş bilgisi, sağlam anlayışı ve beliğ hitabetiyle dikkati çeken Dicvî’nin bu özellikleri sebebiyle ünü Ezher dışına da yayıldı. Buradaki görevinden ayrı olarak ders halkaları oluşturup talebeler yetiştirdi. İmam Mâlik’in el-Muvaṭṭaʾ ını okutup icâzet verdiği Muhammed Zâhid Kevserî bunlar arasındadır. Ayrıca aktüel mevzular başta olmak üzere değişik konularda çeşitli gazete ve dergilere, özellikle de Mecelletü’l-Ezher ’e makaleler yazdı. Ezher Üniversitesi Cemâatü kibâri’l-ulemâ üyeliği görevinde de bulunan Dicvî, 5 Safer 1365 (9 Ocak 1946) tarihinde vefat etti ve Aynişems Mezarlığı’nda toprağa verildi. Eserleri. Dicvî’nin makaleleri Maḳālât ve fetâvâ adıyla bir araya getirilerek iki cilt halinde neşredilmiştir (Kahire 1401/1981). Bundan başka hepsi basılmış olan (bk. Ziriklî, VIII, 216-217) şu eserleri vardır: Ḫulâṣatü ʿilmi’l-vażʿ , Tenbîhü’l-müʾminîn li-meḥâsini’d-dîn , Sebîlü’s-saʿâde , el-Cevâbü’l-münîf fi’r-reddi ʿalâ müddeʿi’t-taḥrîf fi’l-Kitâbi’ş-şerîf (Kahire 1331/1913); Resâʾilü’s-selâm ve rusülü’l-İslâm (Kahire, ts.); Tefsîru lâ Yüsʾel ʿammâ yefʿal ; er-Red ʿalâ kitâbi’l-İslâm ve uṣûli’l-ḥükm li-ʿAlî ʿAbdirrâzıḳ . Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 284-285 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dicvi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dicvi, https://islamansiklopedisi.org.tr/dicvi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:dicvi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=dicvi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dicvi (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=dicvi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Dicvî; Mâlikî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ce": 1870,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=dicvi, URL: https://islamansiklopedisi.org.tr/dicvi || DİA birth place: Dicve || DİA death-date string: (1870-1946) || DİA categories: tefsir || Chunk count: 1",
+  "birth_place": "iac:place-00004730",
+  "students": [
+    "iac:person-00007032",
+    "iac:person-00007775"
+  ]
+}

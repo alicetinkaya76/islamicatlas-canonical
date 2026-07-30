@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00005870",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MUSTAFA DEDE EFENDİ, Kûçek"
+    },
+    "description": {
+      "tr": "Edirne’de doğdu ve orada yetişti. Mûsiki kaynaklarında Kûçek (Köçek) Derviş Mustafa olarak tanındı. Mevleviyye tarikatına intisabından sonra Edirne Mevlevîhânesi’nde çilesini tamamlayarak dergâhın aşçıbaşılığına tayin edildi. Dönemin üstatlarından mûsiki öğrenip kendini yetiştirdi. IV. Mehmed devrinde şöhrete ulaştı ve ünlü mûsikişinaslar arasında yer aldı. Edirneli şair Mehmed Rüşdî onun vefatı üzerine şu mısraı yazmıştır: “Bülbül-i gülzâr-ı cennet ola Kûçek Mustafa (1095).” Esad Efendi’nin Atrabü’l-âsâr ’da sesinin güzelliğinden ve üslûbunun parlaklığından söz ettiği Mustafa Dede’nin en önemli yanı bestekârlığıdır. Onun bestelediği bayatî makamındaki âyin, günümüze ulaşmış Mevlevî âyinleri içinde bestekârı bilinen ilk âyin olma özelliğini taşımakta ve melodik yapısı itibariyle türünün en başarılı örneklerinden kabul edilmektedir. Rauf Yektâ Bey, âyinin güftesinde aruzun usule tatbikinde en küçük bir îkā‘ hatasına rastlanmayışından ve güfte taksimatındaki güçlükleri halletmede gösterdiği maharetin ortaya koyduğu usul-makam-melodi uyumuyla sağlanan beste tekniğinden övgüyle bahseder. Atrabü’l-âsâr ’da Mustafa Dede’nin pek çok eser bestelediği kaydedilmişse de Yılmaz Öztuna, beş adet peşrev ve saz semâisinin tesbit edildiğini yazar. Rauf Yektâ Bey, şifahî bir bilgiye dayanarak bayatî Mevlevî âyininin bestekârı Kûçek Mustafa Dede’nin Afyonkarahisar Mevlevîhânesi şeyhlerinden Mustafa Dede ile (ö. 1100/1688-89) aynı kişi olabileceği şeklinde bir kanaat belirtmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 294 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mustafa-dede-efendi-kucek",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mustafa-dede-efendi-kucek, https://islamansiklopedisi.org.tr/mustafa-dede-efendi-kucek",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mustafa-dede-efendi-kucek",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mustafa-dede-efendi-kucek",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:44Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mustafa-dede-efendi-kucek (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1095,
+    "start_ce": 1684,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mustafa-dede-efendi-kucek, URL: https://islamansiklopedisi.org.tr/mustafa-dede-efendi-kucek || DİA birth place: Edirne || DİA death-date string: (ö. 1095/1684) || DİA categories: tarikat || Chunk count: 1"
+}

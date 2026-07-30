@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00002010",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Derviş Sadâyî"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Devrin üstatlarından faydalanarak mûsiki bilgilerini ilerletti. Gülşeniyye tarikatına intisap etti. Atrabü’l-âsâr ’da onun Mevlevî olarak gösterilmesi yanlıştır. Nitekim Mısır’a yaptığı seyahat esnasında Kahire’deki İbrâhim Gülşenî Âsitânesi’nde uzun süre hizmet ettiği belirtilmektedir. Daha sonra Bursa’ya gitti. Orada 6 Muharrem 1066 (5 Kasım 1655) tarihinde vefat etti ve Deveciler Mezarlığı’na defnedildi. Güzel bir sese sahip olan Derviş Sadâyî, bestelediği eserleriyle devrinin önemli mûsikişinasları arasında yer almıştır. Şöhretinin en parlak zamanı IV. Murad devrine (1623-1640) tesadüf eder. Beste ve ilâhi formundaki birçok eserine çeşitli el yazması güfte mecmualarında rastlanmaktaysa da bunlardan sadece, “Gelmişim vahdet ilinden” mısraı ile başlayan evsat usulündeki sabâ ilâhisi notasıyla zamanımıza ulaşabilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 197 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dervis-sadayi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dervis-sadayi, https://islamansiklopedisi.org.tr/dervis-sadayi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:dervis-sadayi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/dervis-sadayi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dervis-sadayi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1066,
+    "start_ce": 1655,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dervis-sadayi, URL: https://islamansiklopedisi.org.tr/dervis-sadayi || DİA birth place: İstanbul || DİA death place: Kahire || DİA death-date string: (ö. 1066/1655) || DİA categories: tarikat || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "death_place": "iac:place-00009399"
+}

@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00006412",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "REYHÂNE bint ŞEM‘ÛN",
+      "ar": "ريحانة بنت شمعون"
+    },
+    "originalScript": {
+      "ar": "ريحانة بنت شمعون"
+    },
+    "altLabel": {
+      "tr": [
+        "Reyhâne bint Şem‘ûn b. Zeyd"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Benî Nadîr kabilesine mensup olup bazı kaynaklarda ismi Reyhâne bint Zeyd diye geçer. Babası Ebû Reyhâne Şem‘ûn b. Zeyd el-Ezdî çeşitli hadis kitaplarında rivayetleri bulunan sahâbîlerdendir. Bir kısım eserlerde Hz. Peygamber’in iki câriyesinden biri olarak kaydedilen Reyhâne, Benî Kurayzalı Hakem (Abdülhakem) adında bir kişiyle evliydi. Bu sebeple bazı kaynaklarda (İbn Abdülber, IV, 310; İbnü’l-Esîr, VII, 120) onun Benî Kurayza’ya mensup bulunduğu belirtilmiş, Benî Nadîr’den olduğu görüşü zayıf sayılmıştır. 5. yılın sonlarında (627 başları) Hendek Gazvesi’nin ardından Resûl-i Ekrem’le yaptıkları antlaşmayı bozan Benî Kurayza muhasara edilmiş, savaşabilecek yaşta olan erkekleri öldürülmüş, kadın ve çocuklarına esir muamelesi yapılmış, malları müslümanlar arasında paylaştırılmıştı. Bu olayda kocası öldürülen Reyhâne de esirler arasında bulunuyordu. Reyhâne’yi Hz. Peygamber “safî” (ganimette Hz. Peygamber’in payı) olarak seçti ve Ümmü’l-Münzir Selmâ bint Kays’ın evine götürülmesini emretti. Reyhâne orada bir ay kadar kaldıktan sonra (İbn Sa‘d, VIII, 131) Resûlullah onunla görüşmeye gitti. Reyhâne’nin utancından görünmek istememesi üzerine Hz. Peygamber onu çağırdı ve müslüman olduğu takdirde kendisiyle evleneceğini söyledi. Reyhâne bu teklifi kabul edince Resûl-i Ekrem onu âzat etti ve diğer eşlerine verdiği gibi ona da 12 ukıyye gümüş vererek 5. yılın Zilhiccesinde (Mayıs 627) kendisiyle evlendi. Hz. Peygamber’in ona mehir olarak hürriyetini bağışladığı da zikredilmiştir. Reyhâne’nin bir süre sonra Resûlullah’ı diğer hanımlarından aşırı şekilde kıskandığı, bunun üzerine Resûl-i Ekrem’in onu ric‘î talâkla boşadığı, ancak Reyhâne’nin bu duruma çok üzülmesi üzerine onu tekrar nikâhına aldığı kaydedilmektedir. Zayıf olduğu belirtilen bir başka rivayete göre ise Reyhâne câriye olarak kalmış ve İslâmiyet’i benimsememiştir (İbn Hacer, IV, 309). Reyhâne, 10. (632) yılda Resûl-i Ekrem Vedâ haccından döndükten bir müddet sonra Medine’de vefat etti ve Bakī‘ Mezarlığı’na defnedildi. Bu madde TDV İslâm Ansiklopedisi’nin 2008 yılında İstanbul’da basılan 35. cildinde, 41-42 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:reyhane-bint-semun",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=reyhane-bint-semun, https://islamansiklopedisi.org.tr/reyhane-bint-semun",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:reyhane-bint-semun",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/reyhane-bint-semun",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:51Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=reyhane-bint-semun (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 10,
+    "start_ce": 632,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=reyhane-bint-semun, URL: https://islamansiklopedisi.org.tr/reyhane-bint-semun || DİA death place: Medine || DİA death-date string: (ö. 10/632) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00008711",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Mujīrī",
+      "tr": "el-Mücîrî",
+      "ar": "المجيري"
+    },
+    "originalScript": {
+      "ar": "المجيري"
+    },
+    "description": {
+      "tr": "Zamanının şeyhülşuyûh.",
+      "en": "The shaykh al-shuyūkh of his time."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ahmad b. ʿAbd al-Fattāḥ b. Yūsuf b. ʿUmar al-Malawī al-Mujīrī, Abū al-ʿAbbās Shihāb al-Dīn, al-Shāfiʿī al-Azharī"
+    },
+    "altLabel": {
+      "tr": [
+        "Ahmed b. Abdulfettâh b. Yusuf b. Ömer el-Melvî el-Mücîrî, Ebu'l-Abbâs Şihâbüddin, Şâfiî el-Ezherî"
+      ],
+      "ar": [
+        "أحمد بن عبد الفتاح بن يوسف بن عمر الملوي المجيري ، أبو العباس شهاب الدين، الشافعي الأزهري"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:695",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=695",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:36Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=695 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:695."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1181,
+    "start_ce": 1767,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=695, heading_ar=المجيري || Ziriklī century_ce=18 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+  "kunya": "أبو العباس"
+}

@@ -1,0 +1,115 @@
+{
+  "@id": "iac:person-00003789",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Eşte",
+      "ar": "ابن أشتة"
+    },
+    "originalScript": {
+      "ar": "ابن أشتة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Muhammed b. Abdillâh b. Muhammed b. Eşte el-İsfahânî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen İsfahanlı olup Süyûtî ve Dâvûdî tarafından Levzerî (Lûzerî) nisbesiyle anılmıştır. Zehebî’nin belirttiğine göre İsfahan’da Muhammed b. Ahmed b. Hasan el-Kisâî’den kıraat dersleri aldı. Kitâbü’s-Sebʿa müellifi Ebû Bekir İbn Mücâhid’e talebelik yaptığına göre tahsil için bir müddet Bağdat’ta bulunmuş olmalıdır. Muhammed b. Ya‘kūb el-Muaddel ve Ebû Bekir Muhammed b. Hasan en-Nakkāş gibi âlimler de onun kıraat hocalarındandır. Mısır’a yerleşen İbn Eşte’nin talebeleri arasında Halef b. İbrâhim, Ebü’t-Tayyib İbn Galbûn, Ebü’l-Kāsım İbnü’d-Debbâğ ve Muhammed b. Abdullah el-Müeddib sayılabilir. Ebû Amr ed-Dânî, İbn Eşte’nin sağlam, güvenilir, Arapça’ya vâkıf, mânaya nüfuzu olan, değerli eserler vermiş bir âlim olduğunu söylemiş ( Zehebî, Maʿrifetü’l-ḳurrâʾ , II, 617), İbnü’l-Cezerî de onun hakkında “büyük bir üstat, güvenilir bir araştırmacı” ifadesini kullanmıştır. İbn Eşte 27 Şâban 360’ta (25 Haziran 971) Mısır’da vefat etti. Eserleri. İbn Eşte’nin kaynaklarda zikredilen eserleri şunlardır: 1. Kitâbü’l-Muḥabber . İbnü’l-Cezerî, kıraatle ilgili bu eserin müellifinin geniş ilmini gösteren bir kitap olduğunu belirtir. 2. Kitâbü’l-Müfîd fi’ş-şâẕ . 3. Kitâbü’l-Meṣâḥif . Süyûtî el-İtḳān ’ını yazarken bu eserden nakillerde bulunduğunu zikretmektedir (meselâ bk. el-İtḳān , I, 149). 4. Riyâżatü’l-elsine fî iʿrâbi’l-Ḳurʾân ve meʿânîh . Kur’ân-ı Kerîm’in i‘rabı hakkındadır. 5. el-Vaḳf ve’l-ibtidâʾ . Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 477 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-este",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-este, https://islamansiklopedisi.org.tr/ibn-este",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-este",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-este",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:10379",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=10379, heading_ar=ابن أشتة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:19Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:19Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-este (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[10379]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-este)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=10379 (heading_ar=ابن أشتة) via Track A (DİA→Alam xref bridge). dt=Arapça ve kiraatlarda bilgili, iyi müellifler"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "İsfahânî"
+  ],
+  "death_temporal": {
+    "start_ah": 360,
+    "start_ce": 971,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-este, URL: https://islamansiklopedisi.org.tr/ibn-este || El-Aʿlām (Ziriklī) cross-reference: alam_id=[10379] || DİA death place: Mısır || DİA death-date string: (ö. 360/971) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=10379, heading_ar=ابن أشتة, dt=Arapça ve kiraatlarda bilgili, iyi müellifler",
+  "active_in_places": [
+    "iac:place-00000729",
+    "iac:place-00011312"
+  ],
+  "students": [
+    "iac:person-00004110"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00020789",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Kral İdris"
+    },
+    "description": {
+      "tr": "1371/1951 Libya Kralı; 1382/1963 üniter devlet; 1969 askeri darbe ile devrildi; Kaddafi dönemi başladı"
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:24:ruler:3",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-024, ruler #4",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:08:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:08:36Z",
+    "modified": "2026-05-04T15:08:36Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:08:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Promoted from inline rulers[3] of iac:dynasty-00000024 (The Sanūsī Chiefs and Rulers) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[3].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "affiliated_dynasties": [
+    "iac:dynasty-00000024"
+  ],
+  "laqab": [
+    "Amīr → Kral"
+  ],
+  "floruit_temporal": {
+    "start_ce": 1918,
+    "end_ce": 1969,
+    "start_ah": 1336,
+    "end_ah": 1389,
+    "approximation": "floruit"
+  },
+  "death_temporal": {
+    "start_ce": 1982,
+    "start_ah": 1401,
+    "approximation": "exact",
+    "note": "Bosworth death code: d. 1401/1982 (sürgünde)"
+  },
+  "note": "Bosworth death code: d. 1401/1982 (sürgünde) || Promoted from iac:dynasty-00000024 rulers[3] (Bosworth NID-024)."
+}

@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00000610",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜLVÂSİ-i CEBELÎ",
+      "ar": "عبد الواسع جبلى"
+    },
+    "originalScript": {
+      "ar": "عبد الواسع جبلى"
+    },
+    "altLabel": {
+      "tr": [
+        "Bedîüzzamân Abdülvâsi‘ b. Abdilcâmi‘ Garcistânî el-Cebelî"
+      ]
+    },
+    "description": {
+      "tr": "Selçuklu Sultanı Sencer’in saray şairi olarak tanınır. Afganistan’ın Garcistan bölgesindeki Cebel’de doğdu. Doğum tarihi bilinmemektedir. Bir süre Herat’ta oturduktan sonra Gazne’ye giderek Gazneli Behrâm Şah b. Mes‘ûd’a intisap etti ve orada dört yıl kaldı. Dayızadesi Behrâm Şah’a yardım için Gazne’ye gelen Selçuklu Sultanı Sencer’in ilgisini çekti ve onun hizmetine girdi. Sultan Sencer’in yanı sıra Şehâbeddin ve Ziyâülmülk Gālib b. Tiğlib, Mâzenderan Hükümdarı Muhammed, Kutbüddin Muhammed ve Atabekler’den Şücâüddin Ömer’e de methiyeler yazdı. Ölüm tarihi olarak genellikle 555 (1160) yılı kabul edilmektedir. Enverî, Muizzî, Mes‘ûd-i Sa‘d, Edîb Sâbir ve Senâî gibi büyük kaside ve mesnevi şairleriyle çağdaş olan Abdülvâsi-i Cebelî, XII. yüzyılın ilk yarısında Fars şiirinde meydana gelen üslûp değişmesinde rol oynayan önemli şairlerden biridir. Şiirlerinde önceki devir şairlerine göre Arapça kelime ve tabirlere daha fazla yer vermiş, edebî sanatları çokça kullanmıştır. Bir saray şairi olarak kasideleri şekil ve muhteva bakımından daha önceki örneklerden pek farklı değildir. Kaynaklarda Arapça şiirleri de olduğu zikredilen şairin iki mülemmaı dışında Arapça şiirine rastlanmamıştır. Başta İran ve Türkiye kütüphaneleri olmak üzere birçok yerde yazma nüshaları bulunan divanı ilk defa 1862’de Lahor’da basılmış, ayrıca Zebîhullah Safâ tarafından iki cilt halinde tenkitli neşri yapılmıştır (Tahran 1339-1341 hş.). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 283 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulvasi-i-cebeli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulvasi-i-cebeli, https://islamansiklopedisi.org.tr/abdulvasi-i-cebeli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdulvasi-i-cebeli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdulvasi-i-cebeli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulvasi-i-cebeli (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.99): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cebelî"
+  ],
+  "birth_temporal": {
+    "start_ah": 555,
+    "start_ce": 1160,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 555,
+    "start_ce": 1160,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdulvasi-i-cebeli, URL: https://islamansiklopedisi.org.tr/abdulvasi-i-cebeli || DİA birth place: Cebel || DİA death-date string: (ö. 555/1160) || Chunk count: 1",
+  "birth_place": "iac:place-00010136"
+}

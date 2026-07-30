@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00002840",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "GAYLÂN b. SELEME",
+      "ar": "غيلان بن سلمة"
+    },
+    "originalScript": {
+      "ar": "غيلان بن سلمة"
+    },
+    "altLabel": {
+      "tr": [
+        "Gaylân b. Seleme b. Muattib es-Sekafî"
+      ]
+    },
+    "description": {
+      "tr": "Dedesinin adı bazı kaynaklarda Şürahbîl veya Mugīs olarak kaydedilmektedir. Sakīf kabilesinin reislerinden olan Gaylân şiirleri, bilge kişiliği ve hikmetli sözleriyle, ayrıca kabilesi içinde işlerini günlük programlar dahilinde yürütmesiyle tanınmıştır. Haftanın bir gününde kendisine getirilen davalara baktığı, bir gün şiirle meşgul olduğu, diğer bir gün de develeriyle ilgilendiği söylenmektedir. Sakīf kabilesi, Câhiliye döneminde Benî Âmir b. Sa‘saa kabilesiyle Tâif’te aralarında çıkan savaşı kumandanları Gaylân sayesinde kazanmıştır. Aynı dönemde, İran’ın idaresi altında bulunan Irak’a yapılan bir ticaret seferinde, aralarında Ebû Süfyân’ın da bulunduğu tüccar kafilesinin Kisrâ huzurundaki sözcülüğünü Gaylân yapmıştır. Bu görüşmede hikmetli konuşması ve diplomatik tavırlarıyla kralı etkilemesi sayesinde izinsiz ticaret yapmak gibi bir suç işlemelerine rağmen cezalandırılmamışlardır. Hatta Gaylân’ın ricası üzerine kral tarafından gönderilen bir mimar Tâif’te ilk defa bir kale yapmıştır (İbn Hacer, III, 190). Gaylân b. Seleme Tâif’in fethinden (9/630) sonra İslâmiyet’i kabul etti. Müslüman olduğu sırada evli bulunduğu on kadından altısını Hz. Peygamber’in emri üzerine boşadı ( el-Muvaṭṭaʾ , “Ṭalâḳ”, 77; Tirmizî, “Nikâḥ”, 33). Âmir ve Ammâr adlı oğulları kendisinden önce, diğer oğlu Nâfi‘ ile kızı Bâdiye ise onunla birlikte müslüman olmuşlardır. Gaylân’ın az sayıdaki şiirlerinin Ebû Saîd es-Sükkerî tarafından Câmiʿu şiʿri Ġaylân adıyla bir divanda toplandığı rivayet edilir. Ebü’l-Ferec el-İsfahânî bu divandan elli beyit nakletmiş ( el-Eġānî , XIII, 202-208), diğer bazı şiirleri de çeşitli eserler vasıtasıyla günümüze ulaşmıştır. Müfessir sahâbî İbn Abbas, “Elbiseni temiz tut” (el-Müddessir 74/4) meâlindeki âyette sözü edilen elbise temizliğini Gaylân’ın, “Hamd olsun, ben ne fâcir elbisesi giydim ne de bir leke ile maskelenirim” şiirini şâhid göstererek “mânevî tahâret ve güzel ahlâk” şeklinde yorumlamıştır. Bazı kaynaklar, “Bu Kur’an iki şehirden bir büyük adama indirilmeli değil miydi?” meâlindeki âyette (ez-Zuhruf 43/31) işaret edilen ve Mekkeli müşrikler tarafından kendisine peygamberlik verilmesi beklenen kişinin Gaylân b. Seleme olduğunu kaydeder (Ebü’l-Ferec el-İsfahânî, XIII, 200). Gaylân b. Seleme İslâmiyet’i kabul ettikten sonra Medine’ye hicret etmeyip Tâif’te kalmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 415 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:gaylan-b-seleme",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=gaylan-b-seleme, https://islamansiklopedisi.org.tr/gaylan-b-seleme",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:gaylan-b-seleme",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/gaylan-b-seleme",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:8113",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8113, heading_ar=غيلان بن سلمة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:06Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=gaylan-b-seleme (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8113]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8113 (heading_ar=غيلان بن سلمة) via Track A (DİA→Alam xref bridge). dt=Cahiliye devri bilge şair"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sekafî"
+  ],
+  "death_temporal": {
+    "start_ah": 23,
+    "start_ce": 644,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=gaylan-b-seleme, URL: https://islamansiklopedisi.org.tr/gaylan-b-seleme || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8113] || DİA death-date string: (ö. 23/644) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=8113, heading_ar=غيلان بن سلمة, dt=Cahiliye devri bilge şair"
+}

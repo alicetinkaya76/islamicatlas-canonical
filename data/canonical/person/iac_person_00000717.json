@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00000717",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AFVÎ, Yâkub"
+    },
+    "description": {
+      "tr": "1089’da (1678) İstanbul’un Topkapı semtinde dünyaya geldi. Celvetî şeyhi Selâmî Ali Efendi’nin halifelerinden Fenâî Mustafa Efendi’nin oğludur. Tasavvufa intisabından önce yeniçerilerin yirminci bölüğünün odabaşısı olduğu için “odabaşı şeyhi” diye tanınan babası, Beşiktaş’ta Yahyâ Efendi Dergâhı’na yakın bir yerde inşa ettirdiği tekkesinde ömrünün sonuna kadar irşad faaliyetinde bulunmuştur. Yâkub Afvî, babasından ve dönemin diğer âlimlerinden ders alarak kendini yetiştirdi. Daha sonra Üsküdar Atpazarı Celvetî Tekkesi şeyhi Bilecikli Osman Efendi’ye intisap etti, seyrüsülûkünü tamamlayıp hilâfet aldı ve onun kızıyla evlendi. Osman Efendi’nin vefatından (1140/1728) bir hafta önce şeyhinin tâlimatıyla irşad görevini üstlendi. Şeyhinin ölümünün ardından Üsküdar Vâlide Sultan Camii ve diğer camilerdeki cuma vâizliği görevinden ayrılıp Hüdâyî Âsitânesi’nin on beşinci şeyhi olarak posta oturdu. Birçok mürid yetiştiren Afvî vefatında vasiyeti üzerine İnadiye semtinde Karacaahmet’e giden caddenin sağ tarafında annesinin yanına defnedildi. Eserleri. 1. el-Vesîletü’l-ʿuẓmâ li-ḥażreti’n-nebiyyi’l-müctebâ . Hz. Peygamber’in hayatından ve salavât-ı şerîfenin faziletlerinden, şefaatten, salât ve selâmla ilgili menkıbelerden bahseden eserin iki yazma nüshası vardır (Hacı Selim Ağa Ktp., Hüdâî Efendi, nr. 392/2; Süleymaniye Ktp., Esad Efendi, nr. 285). 2. Netîcetü’t-tefâsîr . Yûsuf sûresine dair olan eser Beyzâvî, Fahreddin er-Râzî, Zemahşerî, Kurtubî, Mahmûd en-Nîsâbûrî, Ferrâ el-Begavî, Ebüssuûd, İmam Mâtürîdî ve Abdülkerîm el-Kuşeyrî gibi müfessirlerin eserlerinden derlenmiştir (İstanbul 1279, 1318). 3. Lem‘a-i Nûrâniyye fî şerhi kelimâti Hüdâiyye . Aziz Mahmud Hüdâyî’nin, “Ezelden aşkla biz yâne geldik / Hakîkat şem‘ine pervâne geldik” beytiyle başlayan ilâhisinin şerhidir. 1731’de tamamlanan eserin ilk bölümünde sâliklerin hallerinden bahsedilmiş, ikinci bölümde “âlem” kelimesinin ulemâya ve sûfîlere göre anlamları açıklanıp hazarât-ı hams konusuna değinilmiş, üçüncü bölümde Hüdâyî’nin beş beyitlik ilâhisi şerhedilmiştir (Hacı Selim Ağa Ktp., Hüdâî Efendi, nr. 392/1). 4. Ḫulâṣatü’l-beyân fî meẕhebi’n-Nuʿmân . İmâm-ı Âzam’ın menkıbelerinden, ortaya koyduğu belli başlı fıkhî meselelerden bahseden eser iki bölüm ve bir hâtimeden oluşmaktadır (Hacı Selim Ağa Ktp., Hüdâî Efendi, nr. 392/3). 5. Hediyyetü’l-vuʿʿâẓ . Hz. Peygamber’in faziletleri, İhlâs sûresi tefsiri, receb, şâban ve ramazan aylarında oruç tutmanın fazileti gibi konuları içermekte ve her birinin başlığı bir âyet olmak üzere kırk iki bölümden oluşmaktadır (Hacı Selim Ağa Ktp., Hüdâî Efendi, nr. 336; Tuḥfetü’l-vuʿʿâẓ , Hacı Selim Ağa Ktp., Hüdâî Efendi, nr. 623). 6. Hediyyetü’s-sâlikîn . Celvetiyye tarikatının âdâb ve erkânına dair Türkçe bir eserdir (İstanbul 1329). Yâkub Afvî ilâhi tarzı şiirler yazmış, ancak bunlar derlenip bir divan haline getirilmemiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan (gözden geçirilmiş 2. basım) EK-1. cildinde, 38 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:afvi-yakub",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=afvi-yakub, https://islamansiklopedisi.org.tr/afvi-yakub",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:afvi-yakub",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=afvi-yakub",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=afvi-yakub (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=afvi-yakub)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Mâtürîdî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 1149,
+    "start_ce": 1736,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=afvi-yakub, URL: https://islamansiklopedisi.org.tr/afvi-yakub || DİA death-date string: (ö. 1149/1736) || DİA categories: tefsir > tasavvuf > tarikat || Chunk count: 1"
+}

@@ -1,0 +1,121 @@
+{
+  "@id": "iac:person-00000270",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Shatir",
+      "tr": "İbnü'ş-Şâtır",
+      "ar": "ابن الشاطر"
+    },
+    "originalScript": {
+      "ar": "ابن الشاطر"
+    },
+    "altLabel": {
+      "en": [
+        "Ala al-Din Abu'l-Hasan Ali ibn Ibrahim Ibn al-Shatir"
+      ],
+      "tr": [
+        "Alâeddîn Ebü'l-Hasen Alî b. İbrâhîm İbnü'ş-Şâtır"
+      ],
+      "ar": [
+        "علاء الدين أبو الحسن علي بن إبراهيم ابن الشاطر"
+      ]
+    },
+    "description": {
+      "tr": "Batlamyus ekuantını ortadan kaldıran gezegen modelleri geliştirdi — Kopernik 150 yıl sonra matematiksel olarak özdeş yapılar kullandı || Merâga astronomi devrimi'nin parçası. Modelleri jeosantrizmi terk etmeden ekuant sorununu çözdü. || [Tarih notu] Modelleri ile Kopernik'inki arasındaki matematiksel özdeşlik, Bizans veya İtalyan aracılarla iletim yolları sorusunu gündeme getirir.",
+      "en": "Developed planetary models that eliminated the Ptolemaic equant — Copernicus used mathematically identical constructions 150 years later || Part of the 'Maragha revolution' in astronomy alongside al-Tusi and al-Shirazi. His models solved the equant problem without abandoning geocentrism, using the Tusi couple in novel ways. || [Historiographical note] The mathematical identity between his models and Copernicus's raises the unresolved question of transmission routes through Byzantine or Italian intermediaries.",
+      "ar": "طوّر نماذج كوكبية ألغت معدّل بطليموس — استخدم كوبرنيكوس بنى رياضية مطابقة بعد 150 سنة || جزء من ثورة المراغة الفلكية، حلّ مشكلة المعدّل دون التخلي عن مركزية الأرض"
+    }
+  },
+  "profession": [
+    "astronomer",
+    "mathematician",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0087",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0087",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:222",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=222",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:57:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:57:03Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:57:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0087 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['nisba', 'laqab']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1304,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1375,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q718169",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ibn al-Shatir')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0087, lecture_week=n/a. || Key works: {'title': {'en': 'Kitāb Nihāyat al-Suʾl fī Taṣḥīḥ al-Uṣūl', 'tr': \"Kitâbü Nihâyeti's-Sûl fî Tashîhi'l-Usûl\", 'ar': 'كتاب نهاية السؤل في تصحيح الأصول'}, 'year': 1340, 'field': 'astronomy', 'significance': {'en': \"Replaced Ptolemaic equant with double-epicycle models mathematically equivalent to Copernicus's later system\", 'tr': \"Batlamyus'un ekuantını çift-episikl modelleriyle değiştirdi — Kopernik'in sonraki sistemiyle matematiksel olarak eşdeğer\"}} || Modern parallel: Like a physicist whose theoretical framework was rediscovered and credited to someone else — the Ibn al-Shatir–Copernicus connection is one of history of science's most debated cases.",
+  "birth_place": "iac:place-00004883",
+  "active_in_places": [
+    "iac:place-00004883"
+  ],
+  "authored_works": [
+    "iac:work-00000125"
+  ],
+  "nisba": [
+    "Dımaşkî"
+  ],
+  "laqab": [
+    "Alâüddîn"
+  ]
+}

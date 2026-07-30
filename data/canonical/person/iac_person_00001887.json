@@ -1,0 +1,82 @@
+{
+  "@id": "iac:person-00001887",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CÜVEYNÎ, Rüknülislâm",
+      "ar": "ركن الإسلام الجويني"
+    },
+    "originalScript": {
+      "ar": "ركن الإسلام الجويني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Rüknü’l-İslâm Abdullāh b. Yûsuf b. Abdillâh el-Cüveynî"
+      ]
+    },
+    "description": {
+      "tr": "İmâmü’l-Haremeyn el-Cüveynî’nin babasıdır. Nîşâbur yakınlarındaki Cüveyn’de doğdu. Babasından edebiyat okudu; ardından Nîşâbur’a giderek Ebü’t-Tayyib Sehl b. Muhammed es-Su‘lûkî’den fıkıh tahsili yaptı. Daha sonra Merv’de Abdullah b. Ahmed el-Kaffâl el-Mervezî’nin fıkıh derslerine devam ederek icâzet aldı. Hocası Kaffâl el-Mervezî’den başka Adnân b. Muhammed ed-Dabbî, Ebû Nuaym Abdülmelik b. Hasan, İbn Mahmiş ve Ebü’l-Hüseyin b. Bişrân’dan da hadis dinleyen Cüveynî’den oğlu İmâmü’l-Haremeyn el-Cüveynî, Sehl b. İsmâil, Ali b. Ahmed el-Medînî ve başkaları rivayette bulunmuşlardır. 407 (1016-17) yılında Merv’den tekrar Nîşâbur’a döndü. Burada ders okuttu, fetva ve ilmî münazara meclisleri kurarak birçok ilim adamının yetişmesine vesile oldu. Zamanında Şâfiî mezhebinin önde gelen âlimlerinden biri olan ve çoğu fıkha dair olmak üzere çeşitli eserler yazan Cüveynî Zilkade 438’de (Mayıs 1047) Nîşâbur’da vefat etti. Eserleri. el-Cemʿ ve’l-farḳ , el-Vesâʾil fî furûḳı’l-mesâʾil , Mevḳıfü’l-imâm ve’l-meʾmûm (bu üç eserin yazma nüshaları için bk. Brockelmann, GAL , I, 482; Suppl. , I, 667). Kaynaklarda adı geçen diğer eserleri de şunlardır: el-Muḫtaṣar , et-Tebṣıra , et-Teẕkire , Silsiletü’l-vâṣıl , Şerḥu’r-Risâle , et-Tefsîrü’l-kebîr , el-Muḥîṭ . Cüveynî’nin herhangi bir mezhebe bağlı kalmaksızın doğrudan hadislere dayanarak yazmaya başladığı bir fıkıh kitabı olan son eser, bazı bölümlerini gören meşhur hadis âlimi Ahmed b. Hüseyin el-Beyhakī’nin tenkit mahiyetinde bir risâle kaleme alması üzerine (bk. Sübkî, V, 77-90) yazımından vazgeçilerek tamamlanmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 144 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cuveyni-ruknulislam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cuveyni-ruknulislam, https://islamansiklopedisi.org.tr/cuveyni-ruknulislam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:49Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cuveyni-ruknulislam (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cüveynî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 438,
+    "start_ce": 1047,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cuveyni-ruknulislam, URL: https://islamansiklopedisi.org.tr/cuveyni-ruknulislam || DİA birth place: Cüveyn || DİA death place: Nîşâbur || DİA death-date string: (ö. 438/1047) || DİA categories: fıkıh > hadis > mezhep || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004674"
+  ],
+  "students": [
+    "iac:person-00001886"
+  ]
+}

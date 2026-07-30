@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00000893",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AKÖZ, Ömer Fazıl"
+    },
+    "description": {
+      "tr": "27 Haziran 1889 tarihinde Kastamonu’da doğdu. Babası Osman Efendi, annesi Zâhide Hanım’dır. Hıfzını ve rüşdiye tahsilini doğduğu şehirde yaptı. Kastamonu’da Nûmâniye Medresesi müderrisi Ahmed Efendi’den 12 Rebîülevvel 1330 (2 Mart 1912) tarihinde hâfızlık belgesini, İstanbul’a gittikten sonra ise 27 Zilhicce 1331’de (27 Kasım 1913) Debbağ Yûnus Camii imam-hatibi Hasan Sabri Efendi’den aşere takrîb (bk. KIRAAT ) ve İbnü’l-Cezerî’nin Ṭayyibetü’n-Neşr ’ini okuduğuna dair icâzetnâmesini aldı. Ṭayyibe ’nin ezberinde olduğu bilinmektedir. Tokatlı Osman Efendi’den de kıraat ilminde istifade etti. Kastamonu’ya döndüğünde müderris Kırkbeşzâde’nin derslerine devam etti. Ömer Aköz, Posta Telgraf Nezâreti imamlığı ile ilk defa memuriyete başladı (1913). Daha sonra Kastamonu Dârülhilâfesi ihzârî sınıf ve ibtidâ-i hâric riyâziyyât, cebir, hendese ve Kur’ân-ı Kerîm muallimliği, Dârülhilâfe Medresesi tefsir, fıkıh, Kur’ân-ı Kerîm müderrisliği, Kastamonu Nasrullah Camii hatipliği ve Sinan Bey Camii imamlığı yaptı. 1936’da görevini naklettiği İstanbul’da Üsküdar-Beylerbeyi Abdullah Ağa, Büyük Selimiye ve Fâtih camileri imamlıkları, Fâtih Camii başimamı iken aynı zamanda Mushafları Tetkik Heyeti âzalığı ve reisliği vazifelerinde bulundu. Ölümüne kadar sürdürdüğü bu iki görevi yanında İstanbul İmam-Hatip Okulu’nda Kur’ân-ı Kerîm, Arapça ve fıkıh dersleri okuttu. Osmanlılar zamanında, bir ramazan ayında Ravza-i Mutahhara’da mukabele okumak için Medine’ye gönderilenler arasında yer aldı. Kıraat ilmi dışında ferâiz, matematik, astronomi ve fıkıh konularında da iyi yetişmiş bir âlim olan Ömer Aköz, aynı zamanda hattat ve meşhur bir hatipti. Arapça ve Farsça’yı iyi biliyordu; Fransızca da öğrenmişti. Rahmi Şenses, Fikri Aksoy, Mustafa Göl, Mehmet Ali Sarı, Harun Soydaş, Fikret Karamercan, Rıza Çöllüoğlu, Yakup İskender, Abdülhalim Öztürk ve İhsan Özen İstanbul’da kendisinden Arapça ve kıraat okuyan yüzlerce talebesinden bazılarıdır. Vakar ve ciddiyeti ile tanınan ve İslâm-Türk Ansiklopedisi ’ndeki “Âsım b. Behdele” ile “Âsım b. Ebi’s-Sabbâh” maddelerinin de yazarı olan Ömer Aköz, 15 Temmuz 1952’de Kastamonu’dan Ankara’ya giderken Çankırı yakınlarında geçirdiği bir trafik kazasında vefat etti. Naaşı İstanbul’a götürülerek Edirnekapı Halebî Mezarlığı’na defnedildi. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 284-285 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:akoz-omer-fazil",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=akoz-omer-fazil, https://islamansiklopedisi.org.tr/akoz-omer-fazil",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=akoz-omer-fazil (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1889,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=akoz-omer-fazil, URL: https://islamansiklopedisi.org.tr/akoz-omer-fazil || DİA birth place: Kastamonu || DİA death place: Kastamonu || DİA death-date string: (1889-1952) || DİA categories: fıkıh > matematik > tefsir || Chunk count: 1",
+  "students": [
+    "iac:person-00006666"
+  ]
+}

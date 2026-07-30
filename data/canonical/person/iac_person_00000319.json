@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00000319",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Alauddin Khalji",
+      "tr": "Alâeddin Haljî",
+      "ar": "علاء الدين الخلجي"
+    },
+    "originalScript": {
+      "ar": "علاء الدين الخلجي"
+    },
+    "altLabel": {
+      "en": [
+        "Amir Khusrau Dihlawi"
+      ],
+      "tr": [
+        "Emîr Hüsrev Dihlevî"
+      ],
+      "ar": [
+        "أمير خسرو الدهلوي"
+      ]
+    },
+    "description": {
+      "tr": "Hint-Fars edebiyatının babası; sitar ve tablayı icat etti; kavvali müzik formunu yarattı || Ortaçağ Hindistan'ının en üretken şairi; Nizameddin Evliya'nın müridi || [Tarih notu] Son araştırmalar Türk, Fars ve Hint gelenekleri arasındaki kültürel köprü rolünü vurgular",
+      "en": "Father of Indo-Persian literature; invented the sitar and tabla; created qawwali musical form || The most prolific poet of medieval India; disciple of Nizamuddin Auliya || [Historiographical note] Recent scholarship emphasizes his role as cultural bridge between Turkic, Persian, and Indic traditions",
+      "ar": "أب الأدب الهندي-الفارسي؛ اخترع السيتار والطبلة || أغزر شاعر في الهند في العصور الوسطى || [Historiographical note] تؤكد الدراسات الحديثة دوره كجسر ثقافي"
+    }
+  },
+  "profession": [
+    "poet",
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0137",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0137",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:52Z",
+    "modified": "2026-05-04T14:58:52Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0137 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1253,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1325,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0137, lecture_week=n/a. || Key works: {'title': {'en': 'Khamsa (Five Poems)', 'tr': 'Hamse', 'ar': 'خمسة'}, 'year': 1298, 'field': 'literature', 'significance': {'en': 'Five masnavis rivaling Nizami; pioneered Indo-Persian literary tradition', 'tr': \"Nizâmî'ye rakip beş mesnevi; Hint-Fars edebî geleneğinin öncüsü\", 'ar': 'خمس مثنويات تنافس النظامي'}} || Modern parallel: Like a cross-cultural innovator merging musical traditions — similar to fusion music pioneers",
+  "authored_works": [
+    "iac:work-00000178"
+  ]
+}

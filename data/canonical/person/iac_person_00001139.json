@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00001139",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂSIM b. ADÎ",
+      "ar": "عاصم بن عديّ"
+    },
+    "originalScript": {
+      "ar": "عاصم بن عديّ"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Amr Âsım b. Adî b. el-Cedd el-Belevî el-Aclânî"
+      ]
+    },
+    "description": {
+      "tr": "Kaynaklarda künyesi Ebû Abdullah diye de kaydedilir. Fiilen Bedir Savaşı’na iştirak etmemiş olmasına rağmen ittifakla “Bedrî” kabul edilmiştir; zira Hz. Peygamber Bedir’e giderken gördüğü lüzum üzerine Âsım’ı Medine’nin Kubâ ve Âliye bölgesi halkının başında bırakmış, savaş sonrasında da ganimetten payını vermiştir. Âsım b. Adî Hz. Peygamber’le birlikte diğer bütün savaşlara katıldı. Tebük Seferi hazırlıkları sırasında orduya 70 vesk hurma bağışladı. Sefer dönüşünde Hz. Peygamber onu Mâlik b. Duhşüm es-Sâlimî ile birlikte, münafıkların İslâmiyet aleyhindeki faaliyetlerini daha rahat bir şekilde sürdürmek için yaptırdıkları Mescid-i Dırâr’ı ortadan kaldırmakla görevlendirdi. İki sahâbî bu görevi başarıyla tamamladı. Mülâane ile ilgili rivayetlerin çoğunda konuyu Hz. Peygamber’e arzeden aracı kişi olarak görülen Âsım b. Adî’den oğlu Ebü’l-Beddâh, Sehl b. Sa‘d ve Şa‘bî rivayette bulunmuşlardır. Mina’da şeytan taşlama ile ilgili olarak Hz. Peygamber’den naklettiği bir hadis de Ebû Dâvûd, Tirmizî, Nesâî, İbn Mâce, el-Muvaṭṭaʾ ve Dârimî’de rivayet edilmiştir. Âsım b. Adî 115 veya 120 yaşlarında vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 474 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:asim-b-adi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=asim-b-adi, https://islamansiklopedisi.org.tr/asim-b-adi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:asim-b-adi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/asim-b-adi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:4827",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=4827, heading_ar=عاصم بن عدي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=asim-b-adi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4827]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=4827 (heading_ar=عاصم بن عدي) via Track A (DİA→Alam xref bridge). dt=Sahabi"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Belevî; Aclânî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 45,
+    "start_ce": 665,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=asim-b-adi, URL: https://islamansiklopedisi.org.tr/asim-b-adi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4827] || DİA death place: Dârimî || DİA death-date string: (ö. 45/665) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=4827, heading_ar=عاصم بن عدي, dt=Sahabi",
+  "students": [
+    "iac:person-00006501"
+  ]
+}

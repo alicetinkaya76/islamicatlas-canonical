@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00002205",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Kuhâfe",
+      "ar": "أبو قحافة"
+    },
+    "originalScript": {
+      "ar": "أبو قحافة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Kuhâfe Osmân b. Âmir b. Amr et-Teymî el-Kureşî"
+      ]
+    },
+    "description": {
+      "tr": "Câhiliye devrinde Kureyş’in ileri gelenlerinden biri olan Ebû Kuhâfe’nin hayatı hakkında fazla bilgi yoktur. Müslüman olmadan önceki döneminde oğlu Hz. Ebû Bekir’in bütün varlığını İslâmiyet uğrunda harcamasına razı olmuyordu. Onun, müslüman olmaları sebebiyle müşrik efendileri tarafından işkenceye uğratılan köleleri satın alıp âzat etmesine karşı çıkıyor, zayıf ve güçsüz köleler yerine güçlüleri âzat etmesinin daha akıllıca bir iş olacağını, böylece kuvvet ve destek kazanacağını söylüyordu. Torunu Esmâ bint Ebû Bekir’in anlattığına göre, Medine’ye hicret eden Hz. Ebû Bekir’in bütün parasını yanına aldığını, çocuklarına ve ailesine bir şey bırakmadığını farkedince ona kızdı. Mekke’nin fethi sırasında Hz. Peygamber Zûtüvâ denen yerde karargâhını kurduğu zaman küçük kızı Kureybe’nin yardımıyla Ebûkubeys dağına çıktı ve olup bitenleri oradan takip etti. Fetih günü Resûlullah Mescid-i Harâm’a girdiğinde Hz. Ebû Bekir babasını onun huzuruna getirdi. Hz. Peygamber, “Yaşlı babanı buraya kadar yormayıp evinde bıraksaydın onu biz ziyarete giderdik” deyip iltifatta bulundu; Ebû Kuhâfe’nin önüne diz çökerek göğsünü okşadı ve müslüman olmasını istedi; o da İslâmiyet’i kabul etti. Hayatının bundan sonraki dönemi ise daha az bilinmektedir. İbn Kuteybe, Ebû Kuhâfe’nin müslüman olduktan sonra Medine’ye gittiğini ve ölünceye kadar orada kaldığını, İbn Sa‘d ise Mekke’den hiç ayrılmadığını ve 14 yılı Muharrem ayında (Mart 635) burada vefat ettiğini söylemektedir. Doksan yaşını aşkın bir âmâ olması sebebiyle İbn Sa‘d’ın rivayetinin gerçeğe daha uygun olduğu söylenebilir. Kendisinden bir yıl önce vefat eden Hz. Ebû Bekir’in mirasından hissesine düşen payı torunlarına bıraktı. Hz. Ebû Bekir ve Kureybe’den başka Ümmü Ferve adında bir kız çocuğu daha vardı. Hadis kitaplarında Ebû Kuhâfe ile ilgili olarak, Mekke’nin fethedildiği gün Hz. Peygamber’in onun bembeyaz saç ve sakalının siyah olmamak kaydıyla uygun bir renge boyanmasını istediği kaydedilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 177-178 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-kuhafe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-kuhafe, https://islamansiklopedisi.org.tr/ebu-kuhafe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-kuhafe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-kuhafe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:6655",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6655, heading_ar=أبو قحافة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:55Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-kuhafe (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6655]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6655 (heading_ar=أبو قحافة) via Track A (DİA→Alam xref bridge). dt=Ebû Bekir es-Siddîk'in babası."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Teymî; Kureşî"
+  ],
+  "death_temporal": {
+    "start_ah": 14,
+    "start_ce": 635,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-kuhafe, URL: https://islamansiklopedisi.org.tr/ebu-kuhafe || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6655] || DİA death place: Mekke || DİA death-date string: (ö. 14/635) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6655, heading_ar=أبو قحافة, dt=Ebû Bekir es-Siddîk'in babası."
+}

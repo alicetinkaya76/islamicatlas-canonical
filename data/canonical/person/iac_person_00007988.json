@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00007988",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÜRRE es-SULEYHİYYE",
+      "ar": "الحرّة الصليحيّة"
+    },
+    "originalScript": {
+      "ar": "الحرّة الصليحيّة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ervâ bint Ahmed b. Ca‘fer"
+      ]
+    },
+    "description": {
+      "tr": "Yemen’de hüküm süren Suleyhîler’in son hükümdarı."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hurre-es-suleyhiyye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hurre-es-suleyhiyye, https://islamansiklopedisi.org.tr/hurre-es-suleyhiyye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:11Z",
+    "modified": "2026-05-04T15:35:11Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hurre-es-suleyhiyye (0 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 532,
+    "start_ce": 1138,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hurre-es-suleyhiyye, URL: https://islamansiklopedisi.org.tr/hurre-es-suleyhiyye"
+}

@@ -1,0 +1,113 @@
+{
+  "@id": "iac:person-00000190",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Jabir ibn Hayyan",
+      "tr": "Câbir b. Hayyân",
+      "ar": "جابر بن حيان"
+    },
+    "originalScript": {
+      "ar": "جابر بن حيان"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Musa Jabir ibn Hayyan al-Azdi"
+      ],
+      "tr": [
+        "Ebû Mûsâ Câbir b. Hayyân el-Ezdî"
+      ],
+      "ar": [
+        "أبو موسى جابر بن حيان الأزدي"
+      ]
+    },
+    "description": {
+      "tr": "Kimyanın babası — damıtma, kristalizasyon ve imbik icat etti. 'Alkali', 'alchemy' ve 'elixir' kelimeleri onun Arapça terminolojisinden gelir || Ona atfedilen 3.000'den fazla risaleden oluşan 'Câbir külliyatı' muhtemelen iki yüzyıl boyunca bir İsmailî okulun eseridir. Bireysel yazarlık ne olursa olsun, külliyat simyaya sistematik deneyciliği getirdi: kontrollü düzenek, tekrarlanabilir prosedürler ve nicel ölçümler. || [Tarih notu] Kraus (1942-43), Câbirci külliyatın çoğunun sahte olduğunu, 9-10. yüzyıl İsmailî çevrelerince üretildiğini savundu. Newman'ın (2004) çalışması tarihsel Câbir'i kısmen rehabilite etti.",
+      "en": "Father of chemistry — invented distillation, crystallization, and the alembic. Words like 'alkali', 'alchemy', and 'elixir' derive from his Arabic terminology || The 'Jabir corpus' — over 3,000 treatises attributed to him — is likely the work of an Ismaili school over two centuries. Regardless of individual authorship, the corpus introduced systematic experimentation to alchemy: controlled apparatus (alembic, retort), reproducible procedures, and quantitative measurements. It transformed alchemy from mystical speculation into proto-chemistry. || [Historiographical note] Kraus (1942-43) argued that most of the Jabirian corpus was pseudepigraphical, produced by Ismaili circles in the 9th-10th centuries. Newman's later work (2004) partly rehabilitated the historical Jabir. The question remains one of the most debated in Islamic science historiography.",
+      "ar": "أبو الكيمياء — اخترع التقطير والتبلور والإنبيق || مجموع الجابري — أكثر من ٣,٠٠٠ رسالة — قدّم التجريب المنهجي للخيمياء: أجهزة مضبوطة وإجراءات قابلة للتكرار وقياسات كمّية. حوّل الخيمياء من تأمل صوفي إلى كيمياء أولية"
+    }
+  },
+  "profession": [
+    "scholar",
+    "physician",
+    "philosopher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0007",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0007, lecture_id=alchemy",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:13",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=13",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-10T14:25:01Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0007 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba', 'laqab']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 721,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 815,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q167852",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Jabir ibn Hayyan')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0007, lecture_week=13. || Key works: {'title': {'en': 'Kitāb al-Kimyā (Book of Composition)', 'tr': \"Kitâbü'l-Kîmyâ\", 'ar': 'كتاب الكيمياء'}, 'year': 790, 'field': 'chemistry', 'significance': {'en': 'Systematic classification of chemical substances and processes', 'tr': 'Kimyasal maddelerin ve süreçlerin sistematik sınıflandırılması'}}; {'title': {'en': 'Kitāb al-Sabʿīn (Book of Seventy)', 'tr': \"Kitâbü's-Seb'în\", 'ar': 'كتاب السبعين'}, 'year': 800, 'field': 'chemistry', 'significance': {'en': '70 treatises on practical laboratory || Modern parallel: Think of him as the inventor of the laboratory itself — the beakers, the distillation columns, the crystallization dishes. Before Jabir, 'chemistry' was cooking with hope. After Jabir, it was science with glassware.",
+  "authored_works": [
+    "iac:work-00000015",
+    "iac:work-00000016"
+  ],
+  "kunya": "Ebû Mûsâ",
+  "nisba": [
+    "Ezdî",
+    "Kûfî"
+  ],
+  "laqab": [
+    "Ebü'l-Kimyâ (Kimyanın Babası)"
+  ]
+}

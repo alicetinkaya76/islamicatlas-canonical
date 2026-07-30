@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00001939",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Darrâb",
+      "ar": "الضراب"
+    },
+    "originalScript": {
+      "ar": "الضراب"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Hasen b. İsmâîl b. Muhammed ed-Darrâb el-Gassânî el-Mısrî"
+      ]
+    },
+    "description": {
+      "tr": "313’te (925) doğdu. Hayatı hakkında fazla bilgi bulunmamakta, “Darrâb” lakabını darphânede görev yapması sebebiyle aldığı bildirilmektedir. Bağdatlı İsmâil Paşa diğer kaynakların aksine onu “Savvâf” lakabıyla anmaktadır ( Hediyyetü’l-ʿârifîn , I, 272). Mısır’da yaşamakla birlikte hadis tahsili için çeşitli yerlere seyahat etmiş ve oralarda devrin ünlü üstatlarıyla görüşmüştür. Ahmed b. Mervân ed-Dîneverî, Da‘lec b. Ahmed, Ali b. Abdullah b. Ebû Matar gibi hocalardan hadis almıştır. Talebeleri arasında ise başta oğlu Ebü’l-Kāsım Abdülazîz olmak üzere kendisinden yaşça büyük olmasına rağmen meşhur muhaddis Dârekutnî ve Mâlînî bulunmaktadır. Pek çok hadis rivayet ettiği bildirilen Darrâb’ı Dârekutnî ve başkaları zayıf saymış, Zehebî ise onun orta seviyede fakat güvenilir bir muhaddis olduğunu söylemiştir. Kadı Ebû Bekir Ahmed b. Mervân ed-Dîneverî’nin Kitâbü’l-Mücâlese ve cevâhirü’l-ʿilm adlı eserini rivayet edenlerden biri de odur. Darrâb Rebîülevvel (veya Rebîülâhir) 392’de (Ocak veya Şubat 1002) Mısır’da vefat etmiştir. Eserleri. 1. Ẕemmü’r-riyâʾ fi’l-aʿmâli ve’ş-şöhreti fi’n-nâs ve’l-aḥvâl... Eserin bir nüshası Zâhiriyye Kütüphanesi’nde bulunmaktadır (Mecmua, nr. 101, vr. 275 a -300 a ). 2. Kitâbü’l-Mürûʾet . Muhtelif kaynaklarda Darrâb’ın bu kitabıyla tanındığı ifade edilmekle birlikte eserin günümüze kadar gelip gelmediği bilinmemektedir. İbn Hacer el-Askalânî onun Mâlik b. Enes’ten rivayete dair bir eserinden başka Aḫbâru Mıṣr , Aḫbârü’l-muʿallimîn ve el-Mizâḥ adlı eserleri bulunduğunu da söylemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 505 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:darrab",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=darrab, https://islamansiklopedisi.org.tr/darrab",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:darrab",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=darrab",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:51Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=darrab (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=darrab)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Gassânî; Mısrî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 392,
+    "start_ce": 1002,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=darrab, URL: https://islamansiklopedisi.org.tr/darrab || DİA death place: Mısır || DİA death-date string: (ö. 392/1002) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

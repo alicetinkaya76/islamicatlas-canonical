@@ -1,0 +1,126 @@
+{
+  "@id": "iac:person-00000225",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Thabit ibn Qurra",
+      "tr": "Sâbit b. Kurra",
+      "ar": "ثابت بن قرة"
+    },
+    "originalScript": {
+      "ar": "ثابت بن قرة"
+    },
+    "altLabel": {
+      "en": [
+        "Abu al-Hasan Thabit ibn Qurra al-Harrani"
+      ],
+      "tr": [
+        "Ebü'l-Hasen Sâbit b. Kurra el-Harrânî"
+      ],
+      "ar": [
+        "أبو الحسن ثابت بن قرة الحراني"
+      ]
+    },
+    "description": {
+      "tr": "Beytü'l-Hikme'nin en büyük matematikçi-çevirmeni olan Sâbiî yıldız tapıcısı. Arapça Arşimet ve Apollonios'u kurtararak Yunan matematiğini korudu || Sâbit, Harran'dan bir Sâbiî'ydi — Beytü'l-Hikme'nin dini çoğulculuğunun canlı kanıtı. || [Tarih notu] Rosenfeld ve Grigorian (1993) Sâbit hanedanının üç kuşaklık ilmi üretimini belgeledi.",
+      "en": "Sabian star-worshipper who became the greatest mathematician-translator of the House of Wisdom. His Arabic Archimedes and Apollonius saved irreplaceable Greek mathematics. Extended Pythagorean theorem to general triangles || Thabit was a Sabian (star-worshipper) from Harran — living proof of the House of Wisdom's religious pluralism. He translated Archimedes' works that survive only in his Arabic, extended the Pythagorean theorem, and founded a family dynasty of scholars spanning three generations. || [Historiographical note] Rosenfeld and Grigorian (1993) documented the Thabit dynasty's three-generation scholarly output. Sabra (1968) established the mathematical originality beyond translation.",
+      "ar": "صابئي عابد نجوم أصبح أعظم مترجم-رياضي في بيت الحكمة. حفظ رياضيات يونانية لا تُعوَّض || كان ثابت صابئيًا من حرّان — دليل حي على التعددية الدينية في بيت الحكمة. ترجم أعمال أرخميدس التي لا تبقى إلا بالعربية"
+    }
+  },
+  "profession": [
+    "mathematician",
+    "astronomer",
+    "translator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0042",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0042, lecture_id=bayt-al-hikma",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:370",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=370",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E0043",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:33Z",
+    "modified": "2026-07-24T06:55:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0042 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T06:55:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-1 conf 1.0): ['derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 836,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 901,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q250568",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Thabit ibn Qurra')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0042, lecture_week=5. || Key works: {'title': {'en': 'Arabic translations of Archimedes, Apollonius, and Euclid', 'tr': \"Arşimet, Apollonios ve Öklid'in Arapça çevirileri\", 'ar': 'ترجمات أرخميدس وأبولونيوس وإقليدس إلى العربية'}, 'year': 880, 'field': 'translation', 'significance': {'en': 'Preserved Greek mathematical masterworks — many survive only in his Arabic versions', 'tr': 'Yunan matematik şaheserlerini korudu — birçoğu yalnızca onun Arapça versiyonlarında günümüze ulaştı'}} || Modern parallel: A pagan star-worshipper saving the world's mathematics for a Muslim caliph — and then extending it beyond what the Greeks ever achieved.",
+  "authored_works": [
+    "iac:work-00000065",
+    "iac:work-00003714",
+    "iac:work-00004875",
+    "iac:work-00004984",
+    "iac:work-00007328",
+    "iac:work-00008584",
+    "iac:work-00008600"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

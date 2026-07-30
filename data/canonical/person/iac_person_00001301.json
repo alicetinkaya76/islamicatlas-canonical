@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00001301",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bahşel",
+      "ar": "بحشل"
+    },
+    "originalScript": {
+      "ar": "بحشل"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Eslem b. Sehl b. Selm er-Rezzâz el-Vâsıtî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında bilgi yoktur. Pirinç sattığı, başka bir rivayete göre ise Rezzâzîn (pirinççiler) mahallesinde oturduğu için Rezzâz lakabıyla anılır. “Zenci” mânasına gelen Bahşel lakabını ne sebeple aldığı bilinmemektedir. Anne tarafından dedesi olan muhaddis Vehb b. Bakıyye, ayrıca Muhammed b. Ebân el-Vâsıtî, Muhammed b. Sabbâh el-Cercerâî gibi muhaddislerden hadis okudu. Kaynaklar kendisinden hâfızası kuvvetli, güvenilir ve muteber bir hadisçi olarak bahsederler. Bahşel’in Vâsıt şehri tarihine dair olan Târîḫu Vâsıṭ adlı eseri Korkîs Avvâd tarafından neşredilmiştir (Bağdad 1967, Beyrut 1986). Müellif bu eserinde Vâsıt ve çevresinin ilk devir tarihi hakkında kısaca bilgi verdikten sonra Vâsıt’la ilgili din bilginleriyle hadis râvilerini tabakalara ayırmakta, kronolojik sıra ile her biri hakkında bilgi vermekte ve rivayet ettikleri hadisleri sıralamaktadır. Eserde ilk tabakayı Vâsıt’a gelen ashâb-ı kirâm teşkil etmektedir. Târîḫu Vâsıṭ , râvilerin güvenilirliklerini tesbit etmek açısından hadis âlimleri için çok önemli bir kaynaktır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 520 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bahsel",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bahsel, https://islamansiklopedisi.org.tr/bahsel",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:1535",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=1535, heading_ar=بحشل",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:39Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bahsel (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[650, 1535]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=1535 (heading_ar=بحشل) via Track A (DİA→Alam xref bridge). dt=Muhaddis (Vâsıt), zamanında."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Vâsıtî"
+  ],
+  "death_temporal": {
+    "start_ah": 292,
+    "start_ce": 905,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bahsel, URL: https://islamansiklopedisi.org.tr/bahsel || El-Aʿlām (Ziriklī) cross-reference: alam_id=[650, 1535] || DİA death-date string: (ö. 292/905) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=1535, heading_ar=بحشل, dt=Muhaddis (Vâsıt), zamanında.",
+  "active_in_places": [
+    "iac:place-00012366"
+  ],
+  "authored_works": [
+    "iac:work-00003818"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00003671",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN ATIYYE ed-DIMAŞKĪ",
+      "ar": "ابن عطيّة الدمشقي"
+    },
+    "originalScript": {
+      "ar": "ابن عطيّة الدمشقي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdullāh b. Atıyye b. Abdillâh ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi bulunmamaktadır. Dımaşk’ta Câbiye Kapısı denilen yerdeki Atıyye Mescidi’nde imamlık yaptığı, Endülüs müfessirlerinden olan diğer İbn Atıyye’den (ö. 541/1147) ayırt edilebilmesi için kendisine İbn Atıyye el-Kadîm denildiği bilinmektedir. Arz ve semâ yoluyla Hasan b. Habîb, Muhammed b. Nadr b. Ahrem ve Ca‘fer b. Hamdân en-Nîsâbûrî’den kıraat tahsil etmiş; İbn Cevsâ, Ali b. Abdullah el-Hımsî ve Ebû Ali el-Hadâirî’den hadis rivayet etmiştir. Ali b. Dâvûd ed-Dârânî, Abdullah b. Sevvâr el-Anesî ve Turfe el-Harestânî gibi şahsiyetler, kıraat ilminde kendisinden faydalanan ve rivayette bulunanlar arasında yer almaktadır. Hadiste sika olarak değerlendirilen İbn Atıyye’nin âyetlerin tefsirinde istişhâd için ezberinde binlerce beyit bulunduğu rivayet edilmiştir. İbn Atıyye Şevval 383’te (Kasım-Aralık 993) Dımaşk’ta vefat etti. Kaynaklar İbn Atıyye’nin bir tefsiri olduğunu, Brockelmann, bu eserin Süleymaniye (Âşir Efendi, nr. 35) ve Ahmediyye (Halep) kütüphanelerinde birer nüshasının bulunduğunu zikrediyorsa da Süleymaniye Kütüphanesi’nin eski katalogunda kaydedilen tefsirin halen mevcut olmadığı görülmekte, Sezgin de Ahmediyye nüshasını bulamadığını belirtmektedir. Zemahşerî’nin el-Keşşâf ’ında, Kurtubî’nin el-Câmiʿ li-aḥkâmi’l-Ḳurʾân ’ında ve Ebû Hayyân el-Endelüsî’nin el-Baḥrü’l-muḥîṭ ’inde İbn Atıyye’nin bu eserinden iktibas edilmiş bölümler bulunduğu ileri sürülmüştür (Sezgin, I, 105). Ancak bu iktibasların yapıldığı tefsirin İbn Atıyye el-Endelüsî’ye ait el-Muḥarrerü’l-vecîz mi, yoksa İbn Atıyye ed-Dımaşkī’nin burada sözü edilen eseri mi olduğu hususu ayrı bir inceleme konusudur. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 338 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-atiyye-ed-dimaski",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-atiyye-ed-dimaski, https://islamansiklopedisi.org.tr/ibn-atiyye-ed-dimaski",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:17Z",
+    "modified": "2026-05-04T15:34:17Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-atiyye-ed-dimaski (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 383,
+    "start_ce": 993,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-atiyye-ed-dimaski, URL: https://islamansiklopedisi.org.tr/ibn-atiyye-ed-dimaski || DİA death place: Dımaşk || DİA death-date string: (ö. 383/993) || DİA categories: tefsir > rivayet > hadis || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00006085"
+  ]
+}

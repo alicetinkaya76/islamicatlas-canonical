@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00001774",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CEMİL EFENDİ, Şekerci"
+    },
+    "description": {
+      "tr": "Asıl adı Ahmed Cemil’dir. İstanbul’da doğdu ve hayatının büyük bir kısmını burada geçirdi. Babası Şehzade Camii başimamlarından Hasan Tâhir Efendi, annesi Ayşe Sıdıka Hanım’dır. Küçük yaşta hâfız oldu. On üç yaşında babasını kaybedince bir antikacının yanında, daha sonra da bir şeker imalâthanesinde çıraklık yaptı. Bu yaşlarda sesinin güzelliğiyle dikkati çeken Ahmed Cemil’in mûsikide hocaları sultan mâbeyincisi Ûdî Basri Bey ile ünlü hânende Enderunlu (Kel) Ali Bey’dir. İki yıldan fazla bir süre ders aldığı Ali Bey’in onun mûsiki hayatında önemli bir yeri vardır. Şehzadebaşı’nda açtığı şekerci dükkânı da bilhassa devlet adamlarının sıkça uğradığı bir yer olmuştur. On altı yaşında iken Sultan II. Abdülhamid’in kız kardeşlerinden Medîha Sultan’ın dairesine imam oldu. Daha sonra onun vasıtasıyla 1898’de Muzıka-yi Hümâyun’un Türk mûsikisi kısmına ud sanatkârı ve hocası olarak alındı; bu göreve 1911’de kendi isteğiyle emekli oluncaya kadar devam etti. 1912’de Hidiv II. Abbas Hilmi Paşa’nın daveti üzerine Mısır’a gitti. Kahire’de hânedan ve saray mensuplarına ud ve mûsiki dersleri verdi. Orada kaldığı on altı yıl zarfında bir taraftan da şekerci dükkânı açıp Türk şekerciliğini tanıttı. Bu dönemde sultânî-i cedîd adıyla yeni bir makam terkip eden Cemil Efendi, bu makamda bir peşrevle bir saz semâisi bestelemiştir. Kahire’de vefat eden ve oraya gömülen bestekârın ölümünden sonra İstanbul’un Beyazıt semtinde bir sokağa Şekerci Cemil Bey adı verilmiştir. Zamanının mûsikişinasları arasında bilhassa bestekârlığı ve sâzendeliğiyle şöhrete ulaşan, çeşitli makamlarda kırkın üzerinde saz ve söz eseri besteleyen Cemil Efendi, Hüseyin Sadeddin Arel’in mûsiki nazariyatı ve ud hocalığını da yapmıştır. Cemil Efendi’nin hayatı boyunca devam ettirdiği şekercilik mesleğini daha sonra oğulları sürdürmüş ve Şehzadebaşı’ndan Kadıköy’e naklettikleri dükkân “Cemilzâde” adıyla yakın zamana kadar işletilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 327-328 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cemil-efendi-sekerci",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cemil-efendi-sekerci, https://islamansiklopedisi.org.tr/cemil-efendi-sekerci",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cemil-efendi-sekerci (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1867,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=cemil-efendi-sekerci, URL: https://islamansiklopedisi.org.tr/cemil-efendi-sekerci || DİA birth place: İstanbul || DİA death-date string: (1867-1928) || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "teachers": [
+    "iac:person-00000948"
+  ],
+  "students": [
+    "iac:person-00001091",
+    "iac:person-00001190"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00001046",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMR b. HUREYS",
+      "ar": "عمرو بن حريث"
+    },
+    "originalScript": {
+      "ar": "عمرو بن حريث"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Saîd Amr b. Hureys b. Amr el-Kureşî el-Mahzûmî"
+      ]
+    },
+    "description": {
+      "tr": "Hicretten yaklaşık iki yıl önce veya Bedir günü doğduğuna dair rivayetler vardır. Ancak, Medine’de Hz. Peygamber’in, elindeki okla bir ev yeri çizdikten sonra ona, “Bunu sana veriyorum” (Ebû Dâvûd, “Ḫarâc ve İmâre”, 34) dediği dikkate alınırsa, o zaman yaşının pek de küçük olmadığı anlaşılır. Babası ve kardeşi Saîd de sahâbîdir. Kureyş’in bir kolu olan Benî Mahzûm kabilesine nisbet edilerek el-Mahzûmî diye anılır. Hz. Peygamber, çok küçük yaşta huzuruna getirilen Amr’ın başını okşamış, alışverişinin bereketli olması için dua etmiştir. Bu dua bereketiyle Amr daha sonraları yerleştiği Kûfe’nin en büyük zenginlerinden biri olmuştur. Kûfe kurulduktan hemen sonra oraya göç eden Amr, Kûfe Mescidi yanında bir taraftan ibrişim ve elbise ticaretinin, öte yandan dinî ve edebî sohbetlerin merkezi olan büyük bir bina yaptırdı. Emevîler’in Irak valisi Ziyâd b. Ebû Süfyân, kışı geçirmek üzere Basra’ya gittiğinde yerine Amr’ı vekil bırakırdı. Amr b. Hureys ticaretin yanı sıra hadis rivayetiyle de meşgul olmuştu. Doğrudan Hz. Peygamber’den, ayrıca Hz. Ebû Bekir, Ömer, Ali, İbn Mes‘ûd ve kardeşi Saîd’den rivayetleri vardır. Kendisinden başta oğlu Ca‘fer olmak üzere Kûfe hadis ekolünün tanınmış muhaddisleri rivayette bulunmuşlardır. Rivayetleri Kütüb-i Sitte ’de ve Ahmed b. Hanbel’in el-Müsned ’inde (IV, 306-307) yer almaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 85 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amr-b-hureys",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amr-b-hureys, https://islamansiklopedisi.org.tr/amr-b-hureys",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amr-b-hureys",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amr-b-hureys",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amr-b-hureys (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Mahzûmî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 85,
+    "start_ce": 704,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amr-b-hureys, URL: https://islamansiklopedisi.org.tr/amr-b-hureys || DİA death-date string: (ö. 85/704) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

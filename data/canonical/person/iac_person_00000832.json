@@ -1,0 +1,64 @@
+{
+  "@id": "iac:person-00000832",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahmed Raûfî"
+    },
+    "description": {
+      "tr": "1068’de (1657-58) Üsküdar’da doğdu. Medrese tahsilini tamamladıktan sonra Üsküdar Kapıağası Medresesi müderrisliğine tayin edildi. Doğancılar ile Salacak arasındaki Koca Sinan Paşa Camii’nde imam-hatiplik yaptı. Halvetiyye’nin Ramazâniyye koluna mensup Köstendilli Şeyh Ali Efendi’ye (ö. 1143/1730-31) intisap ederek ondan hilâfet aldı. Koca Sinan Paşa Camii yakınlarındaki evinin yanına yaptırdığı tekkede irşadla meşgul oldu ve yirmi kadar halife yetiştirdi. Sultan III. Osman’ın kendisini sık sık ziyaret edip duasını aldığı nakledilmektedir. Üsküdar’da vefat etti ve adı geçen caminin hazîresine defnedildi. Şöhretten kaçınan ve münzevi bir hayat süren Ahmed Raûfî’nin yerine oğlu Muhammed Nûrullah Efendi (ö. 1189/1775) geçti. Raûfî mahlası ile şiir ve ilâhiler yazan Ahmed Raûfî’nin basılmamış bir divanı ile Kurretü’l-uyûn adlı Türkçe bir risâlesi ve Mecâlis adlı Arapça bir mev‘iza kitabı vardır (Süleymaniye Ktp., Hâlet Efendi, nr. 294). Raûfî, Raûfî Efendi ve Ahmed Raûfî Efendi Tekkesi gibi isimlerle anılan Raûfiyye Âsitânesi’nin kuruluş tarihi tesbit edilememiştir. Ancak XVIII. yüzyılın ilk yarısı içinde inşa edilmiş olduğu söylenebilir. XX. yüzyılın başlarına kadar faal olan tekke, 1920’lerde çıkan Doğancılar yangınında tamamen yanmıştır. Ahmed Raûfî Tekkesi’nin bir âsitâne olduğu göz önüne alınarak tam teşekküllü bir tarikat yapısı şeklinde kurulduğu tahmin edilebilir. Tamamen ortadan kalkmış olan bu tekkenin mimarisi hakkında herhangi bir bilgi yoktur. Raûfiyye tarikatı, tekkeler kapatılıncaya kadar Beykoz ve Yeniköy’deki iki tekke ile varlığını sürdürmüştür. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 120 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-raufi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-raufi, https://islamansiklopedisi.org.tr/ahmed-raufi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:03Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-raufi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1170,
+    "start_ce": 1756,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-raufi, URL: https://islamansiklopedisi.org.tr/ahmed-raufi || DİA birth place: Üsküdar || DİA death place: Üsküdar || DİA death-date string: (ö. 1170/1756-57) || DİA categories: tarikat > şiir || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00019778"
+  ]
+}

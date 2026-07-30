@@ -1,0 +1,87 @@
+{
+  "@id": "iac:person-00006554",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Sa‘dullah Han",
+      "ar": "سعد الله خان"
+    },
+    "originalScript": {
+      "ar": "سعد الله خان"
+    },
+    "altLabel": {
+      "tr": [
+        "Sa‘dullāh Hān b. Şeyh Emîr Bahş Allâmî"
+      ]
+    },
+    "description": {
+      "tr": "1018’de (1609) Hindistan’ın Siyâlkût şehrine bağlı Çinut köyünde doğdu. Eğitimini Lahor’da aldı. Molla Yûsuf Giyahî gibi dönemin önde gelen âlimlerinden ders aldı. Hayatının ilk devrelerinde mütevazi bir hayat sürdü. Ardından eğitimini ilerletmek için Delhi’ye gitti. Zaman içinde bilgi ve becerisiyle şöhret buldu. 1050’de (1640) Bâbürlü Hükümdarı Şah Cihan Lahor’a geldiğinde Emîr Mûsevî Han aracılığıyla onunla tanıştı. Bu tanışmadan sonra Şah Cihan tarafından saraya alındı ve değişik görevlerde bulundu. 1052’den (1642) itibaren birkaç yıl boyunca değişik birliklerin başına getirildi. 1055’te (1645) İslâm Han’ın yerine Dîvân-ı Hâlisa’ya tayin edildi. Kandehar, Safevî Hükümdarı II. Şah Abbas tarafından ele geçirilince Şah Cihan, veziri Sa‘dullah Han’ı Evrengzîb ile beraber Kandehar’ı geri almak üzere gönderdiyse de başarıya ulaşılamadı. Bu sefer sırasında hastalanan Sa‘dullah Han 22 Cemâziyelâhir 1066’da (17 Nisan 1656) vefat etti. Onun resmî yazışmalarını içeren mektupları ve münşeat mecmuası Mektûbât-ı Saʿdullāh Ḫân ismiyle Nâzır Hasan Zeydî tarafından neşredilmiştir (Pencap 1968). II. Şah Abbas, Şehzade Evrengzîb ve Dârâ Şükûh gibi dönemin hükümdar ve devlet adamlarına yazdığı kırk altı mektubun yer aldığı bu eser dil ve anlatım açısından önemli münşeat örnekleri arasında sayılır. Sa‘dullah Han ayrıca Abdülhamîd Lâhûrî’nin Şah Cihan’ın hükümdarlığıyla ilgili Pâdişâhnâme adlı eserini düzenlemiştir (Rieu, I, 260). Bu madde TDV İslâm Ansiklopedisi’nin 2008 yılında İstanbul’da basılan 35. cildinde, 432 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:sadullah-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=sadullah-han, https://islamansiklopedisi.org.tr/sadullah-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:sadullah-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/sadullah-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:52Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=sadullah-han (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1066,
+    "start_ce": 1656,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=sadullah-han, URL: https://islamansiklopedisi.org.tr/sadullah-han || DİA birth place: Çinut || DİA death place: 1066 || DİA death-date string: (ö. 1066/1656) || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00010694"
+  ]
+}

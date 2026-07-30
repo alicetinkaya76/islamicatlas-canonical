@@ -1,0 +1,98 @@
+{
+  "@id": "iac:person-00002233",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ NUAYM el-CÜRCÂNÎ",
+      "ar": "أبو نعيم الجرجاني"
+    },
+    "originalScript": {
+      "ar": "أبو نعيم الجرجاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Nuaym Abdülmelik b. Muhammed b. Adî el-Cürcânî el-Esterâbâdî"
+      ]
+    },
+    "description": {
+      "tr": "242 (856-57) yılında Horasan bölgesinde Cürcân yakınlarındaki Esterâbâd’da doğdu. Bu sebeple Esterâbâdî diye de anılır. İlk tahsiline burada başladı. Horasan bölgesindeki âlimlerden faydalandıktan sonra ilim yolculuğuna çıktı. Irak, Hicaz, Mısır ve Cezîre’de tanınmış âlimlerden dersler aldı. Şâfiî fıkhını İmam Şâfiî’nin önde gelen talebesi Rebî‘ b. Süleyman el-Murâdî’den öğrendi. Fakih ve muhaddis Hasan b. Muhammed ez-Za‘ferânî, tarihçi ve muhaddis Ömer b. Şebbe, Ali b. Harb et-Tâî, fakih Ebû Abdullah b. Abdülhakem el-Mısrî, kıraat âlimi ve muhaddis Abbas b. Velîd el-Beyrûtî gibi âlimlerden faydalandı. Tahsilini tamamladıktan sonra Cürcân’a yerleşerek hadis ve fıkıh okutmaya başladı. Kendisine Ebû Ali en-Nîsâbûrî, Taberânî, Cevzakī, kıraat âlimi İbn Mihrân en-Nîsâbûrî ve hadis münekkidi İbn Sâid el-Hâşimî gibi şahsiyetler talebelik ettiler. Ebû Nuaym Horasan bölgesinde Şâfiî fıkıh sistemini, sahâbe ve tâbiîn âlimlerinin çeşitli meselelere dair görüşlerini, Hz. Peygamber’e ulaşan rivayetlerin yanı sıra bazı âlimlerce zayıf kabul edilen mürsel ve mevkuf rivayetleri ve özellikle zayıf râvileri iyi bilmesiyle ün yapmıştır. Talebesi Ebû Ali en-Nîsâbûrî, Horasan’da İbn Huzeyme’den başka Ebû Nuaym gibi büyük bir otorite görmediğini belirtir, onun mevkuf ve mürsel rivayetleri kendilerinin Hz. Peygamber’e ulaşan merfû rivayetleri bildikleri gibi ezbere bildiğini söylerdi. Cürcânî Zilhicce 323’te (Kasım 935) vefat etti. Bu tarih 322 olarak da zikredilmiştir. Kaynaklarda onun fıkha dair birçok eseri bulunduğu söylenmekteyse de zayıf râvilere dair Kitâbü’ḍ-Ḍuʿafâʾ adlı on cüzden ibaret kitabının dışında herhangi bir eserinin adı zikredilmemekte, bu eserinin ise günümüze ulaşıp ulaşmadığı bilinmemektedir. Bağdatlı İsmâil Paşa Ebû Nuaym’ın el-Cerḥ ve’t-taʿdîl adlı bir eseri daha bulunduğunu kaydeder. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 201 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-nuaym-el-curcani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-nuaym-el-curcani, https://islamansiklopedisi.org.tr/ebu-nuaym-el-curcani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-nuaym-el-curcani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-nuaym-el-curcani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-nuaym-el-curcani (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cürcânî; Esterâbâdî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 242,
+    "start_ce": 856,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 323,
+    "start_ce": 935,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-nuaym-el-curcani, URL: https://islamansiklopedisi.org.tr/ebu-nuaym-el-curcani || DİA birth place: Esterâbâd || DİA death place: 323 || DİA death-date string: (ö. 323/935) || DİA categories: rivayet > fıkıh > hadis || Chunk count: 1",
+  "birth_place": "iac:place-00015162"
+}

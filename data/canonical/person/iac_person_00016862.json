@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00016862",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Dr. Haykāl",
+      "tr": "Doktor Haykal",
+      "ar": "الدكتور هيكل"
+    },
+    "originalScript": {
+      "ar": "الدكتور هيكل"
+    },
+    "description": {
+      "tr": "Gazeteci yazar, dil akademisi üyelerinden tarihçi, Mısır'da siyaset adamlarından",
+      "en": "Journalist writer, historian among members of the linguistic academy, statesman in Egypt"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muḥammad Ḥusayn Haykāl, Muḥammad b. Ḥusayn b. Sālim Haykāl"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed Hüseyin Haykal, Muhammed b. Hüseyin b. Sâlim Haykal"
+      ],
+      "ar": [
+        "محمد حسين هيكل، كما عرف، وهو محمد بن حسين بن سالم هيكل"
+      ]
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:9752",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9752",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:57Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=9752 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:9752."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1376,
+    "start_ce": 1956,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9752, heading_ar=الدكتور هيكل || Ziriklī century_ce=20 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+  "authored_works": [
+    "iac:work-00001406",
+    "iac:work-00001541",
+    "iac:work-00001654",
+    "iac:work-00002443",
+    "iac:work-00002779",
+    "iac:work-00002790",
+    "iac:work-00002985",
+    "iac:work-00003183",
+    "iac:work-00003326",
+    "iac:work-00004321",
+    "iac:work-00004323",
+    "iac:work-00004691",
+    "iac:work-00004697"
+  ]
+}

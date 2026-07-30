@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00003416",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HİND b. EBÛ HÂLE",
+      "ar": "هند بن أبي هالة"
+    },
+    "originalScript": {
+      "ar": "هند بن أبي هالة"
+    },
+    "description": {
+      "tr": "Babası, Hz. Hatice’nin ilk kocası olan Ebû Hâle Hind b. Zürâre et-Temîmî’dir. Ebû Hâle’nin adı hususunda ihtilâf edilmiş, Nebbâş, Zürâre yahut Mâlik olduğu da söylenmiştir. Resûl-i Ekrem’in terbiyesi altında yetişen Hind genç yaşta müslüman olmuş, Medine’ye hicret etmiş, Bedir ve bir rivayete göre Uhud gazvelerine katılmıştır. Hind b. Ebû Hâle’nin Resûl-i Ekrem’den sonra ilk üç halife devrindeki hayatına dair bilgi bulunmamakla beraber Hz. Ali döneminde onun yakınında yer aldığı ve Cemel Vak‘ası’nda şehid düştüğü anlaşılmaktadır. Kendisiyle aynı adı taşıyan oğlu Hind’in ise Mus‘ab b. Zübeyr’in yanında Muhtâr es-Sekafî’ye karşı yapılan savaşta (67/687) veya Basra’da vebadan öldüğü, halkın kendi cenazelerini unutup Hind’in cenazesinde toplandığı, onun ölümüyle Hind b. Ebû Hâle’nin neslinin tükendiği söylenmektedir. Hind b. Ebû Hâle’nin çok güzel konuştuğu bilinmekte olup onun adını unutulmaz kılan olay, Hz. Hasan’ın ona dedesini sorması üzerine Resûl-i Ekrem’in şemâilini çok güzel bir şekilde anlatmasıdır (Tirmizî, s. 49-52; Abdülhay el-Kettânî, III, 240-241). Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 64 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hind-b-ebu-hale",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hind-b-ebu-hale, https://islamansiklopedisi.org.tr/hind-b-ebu-hale",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hind-b-ebu-hale",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hind-b-ebu-hale",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:14Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hind-b-ebu-hale (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 36,
+    "start_ce": 656,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hind-b-ebu-hale, URL: https://islamansiklopedisi.org.tr/hind-b-ebu-hale || DİA death-date string: (ö. 36/656) || DİA categories: rivayet || Chunk count: 1"
+}

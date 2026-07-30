@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00002191",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ İDRÎS el-HAVLÂNÎ",
+      "ar": "أبو إدريس الخولاني"
+    },
+    "originalScript": {
+      "ar": "أبو إدريس الخولاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû İdrîs Âizullāh b. Abdillâh b. Amr el-Havlânî"
+      ]
+    },
+    "description": {
+      "tr": "8 (630) yılı sonlarında Dımaşk köylerinden Havlân’da doğdu. Dımaşk’ın fethinden sonra oraya yerleşen yüzlerce sahâbîden birçoğu ile görüşerek onlardan feyiz aldı. Hz. Ömer, Ebü’d-Derdâ, Ebû Zer el-Gıfârî, Ebû Mûsâ el-Eş‘arî, Bilâl-i Habeşî, Ebû Hüreyre, Avf b. Mâlik, Ubâde b. Sâmit gibi sahâbîler kendilerinden hadis öğrendiği kimselerden birkaçıdır. Onun Muâz b. Cebel’den hadis işitip işitmediği konusu ise ihtilâflıdır. Kendisinden İbn Şihâb ez-Zührî, Mekhûl, Atâ el-Horasânî, Seleme b. Dînâr, Yûnus b. Meysere gibi âlimler hadis tahsil ettiler. Ebû İdrîs, Muâviye’nin Şam kadısı sahâbî Fedâle b. Ubeyd öldükten sonra (53/673) onun yerine tayin edilmiş ve bu görevi, I. Yezîd (680-683) ve Abdülmelik b. Mervân (685-705) devirlerinde de devam etmiştir. Abdülmelik b. Mervân döneminde vâizlik görevinde de bulunmuş, fakat bir müddet sonra bu görevinden alındığı için sadece kadılık yapmıştır. Vâizliği daha çok sevdiğini söyler ve, “Beni zevkle yaptığım işten azlettiler, isteksiz olarak üstlendiğim görevde bıraktılar” diye yakınırdı. Dımaşk Mescidi’nde Kur’an öğrenimiyle meşgul olan muhtelif gruplar bir secde âyetine gelince Ebû İdrîs’i yanlarına davet ederler ve secde âyetini ona okutarak arkasında secde ederlerdi. Güvenilir bir muhaddis, ilmi ile amel eden bir âlim, İslâm hukukunun inceliklerini bilen bir fakih ve kıraat ilmine vâkıf bir kişi olan Ebû İdrîs el-Havlânî Dımaşk’ta vefat etmiştir. Onun güzel iki sözü şöyledir: “İffetli olunuz. Erkekleri iffetli olmayan bir milletin kadınları iffetli olmaz”; “Bakıp da düşünen, görüp de hayret eden kimseden daha değerlidir.” Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 168 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-idris-el-havlani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-idris-el-havlani, https://islamansiklopedisi.org.tr/ebu-idris-el-havlani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-idris-el-havlani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-idris-el-havlani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:4786",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=4786, heading_ar=أبو إدريس الخولاني",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:55Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-idris-el-havlani (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4786]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=4786 (heading_ar=أبو إدريس الخولاني) via Track A (DİA→Alam xref bridge). dt=Tâbiî, fıkıh âlimi"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Havlânî"
+  ],
+  "laqab": [
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 80,
+    "start_ce": 699,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-idris-el-havlani, URL: https://islamansiklopedisi.org.tr/ebu-idris-el-havlani || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4786] || DİA birth place: Havlân || DİA death place: Dımaşk || DİA death-date string: (ö. 80/699) || DİA categories: hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=4786, heading_ar=أبو إدريس الخولاني, dt=Tâbiî, fıkıh âlimi"
+}

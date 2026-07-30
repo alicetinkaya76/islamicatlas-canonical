@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00000759",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED b. SÂLİH et-TABERÎ",
+      "ar": "أحمد بن صالح الطبري"
+    },
+    "originalScript": {
+      "ar": "أحمد بن صالح الطبري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ca‘fer Ahmed b. Sâlih et-Taberî el-Mısrî"
+      ]
+    },
+    "description": {
+      "tr": "Babası Taberistanlı bir asker olduğu için İbnü’t-Taberî diye de tanınır. Mısır’da doğdu. Hicaz, Yemen, Irak ve Suriye bölgelerinde hadis tahsil ettikten, kıraat ilmini de Verş ve Kālûn’dan öğrendikten sonra Mısır’a döndü, ilmini orada yaymaya başladı. Muhaddis ve hâfız olduğu kadar kāri , fakih ve nahivci olarak da kabul edilir. İlelü’l-hadîs ve ihtilâfü’l-hadîs konularında mütehassıstı. Özellikle Mısır ve Hicazlı hadis âlimleri kanalıyla gelen hadisleri çok iyi biliyordu. Henüz kırk yaşına gelmeden hadis rivayet etmeye başladı. Mısır merkez olmak üzere Bağdat, Şam, Antakya ve diğer birçok yerde ders verdi. Âdil olduğunu iki şahit ile ispat edenlere ve sakalı çıkmış bulunanlara hadis rivayet ediyordu. Sakalsız olmasına rağmen kendisini imtihana tâbi tuttuğu ve başarılı olduğuna inandığı Ebû Dâvûd’un oğlu Abdullah’a da rivayette bulunmuştur. Zühlî ve Ebû Zür‘a ed-Dımaşkī gibi birçok büyük muhaddisin hadis rivayet ettiği Ahmed b. Sâlih’ten Buhârî de yirmi sekiz hadis rivayet etmiştir. Ayrıca Buhârî onun güvenilir bir muhaddis olduğunu ve kendisine yöneltilen tenkitlerin hiçbir delile dayanmadığını söylemiştir. Bütün kaynaklar İbnü’t-Taberî’nin sika olduğu noktasında müttefiktir. Ancak kibirli oluşu, yegâne kusuru olarak zikredilir. Her ne kadar Nesâî onu cerhetmiş ise de bu cerh, Nesâî’yi meclisinden kovduğu için aralarındaki kırgınlıktan ileri geldiğine hükmedilerek, itibar görmemiştir. İbn Maîn’in cerhi ise gerçekte ona değil, hadis uydurmakla mâruf olan Mekke şeyhi Ahmed b. Sâlih eş-Şemmûnî’ye (Şemmûmî) yöneliktir. Zira İbnü’t-Taberî birçok konuda İbn Maîn seviyesinde görülmüş, hatta Mısır ve Hicazlılar’ın rivayet ettiği hadisleri İbn Maîn’den daha iyi bildiği kabul edilmiştir. Ahmed b. Sâlih’in sağlam ve güvenilir bir muhaddis olduğunu gösteren bir husus da İbn Zebâle’den yüz bin kadar hadis yazdıktan sonra onun hadis uydurduğunu anlayınca bütün hadislerini terketmesidir. Kaynaklarda Kitâbü’ṣ-Ṣaḥâbe adlı bir eserinden bahsedilmektedir. İbnü’t-Taberî Mısır’da vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 132 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-b-salih-et-taberi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-b-salih-et-taberi, https://islamansiklopedisi.org.tr/ahmed-b-salih-et-taberi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-b-salih-et-taberi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-b-salih-et-taberi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:50Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-b-salih-et-taberi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Taberî; Mısrî"
+  ],
+  "death_temporal": {
+    "start_ah": 248,
+    "start_ce": 862,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-b-salih-et-taberi, URL: https://islamansiklopedisi.org.tr/ahmed-b-salih-et-taberi || DİA birth place: Mısır || DİA death place: Mısır || DİA death-date string: (ö. 248/862) || DİA categories: hadis > rivayet > nahiv || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004700",
+    "iac:person-00007604",
+    "iac:person-00007657"
+  ],
+  "students": [
+    "iac:person-00002311",
+    "iac:person-00007384",
+    "iac:person-00007896"
+  ]
+}

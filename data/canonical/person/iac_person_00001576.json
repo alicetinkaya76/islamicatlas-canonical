@@ -1,0 +1,58 @@
+{
+  "@id": "iac:person-00001576",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BORNIER, Vicomte Henri de"
+    },
+    "altLabel": {
+      "tr": [
+        "Hz. Peygamber’i küçük düşürmeye çalışan Mahomet adlı piyesin yazarı Fransız edebiyatçısı."
+      ]
+    },
+    "description": {
+      "tr": "Bugün Fransız edebiyatı eleştirmenleri tarafından önemli bir piyes yazarı olarak kabul edilmemekle birlikte devrinde büyük bir şöhrete ulaşmış olan Bornier 25 Aralık 1825’te Lunel’de (Herault) doğdu. İlk tahsilini Montpellier’de, hukuk eğitimini de Paris’te yaptı. Şöhreti, 1875’te başarıyla oynanan ve kendisine Fransız Akademisi’nin büyük ödülünü kazandıran La fille de Ronald adlı manzum dramdan gelmektedir. Fransız Akademisi üyeliğiyle de taltif edilen (1883) Bornier, daha önce kütüphane memuru olarak girdiği Bibliothèque de l’Arsenal’in müdürlüğüne kadar yükseldi (1889). 1889’da kaleme aldığı manzum dram Mahomet ’te Hıristiyanlığın İslâmiyet’ten üstünlüğünü ve Hz. Muhammed’in de bunun bilincinde olduğunu vurgulamaya çalışmıştır. Birinci perdesinde Mekke dönemini sergileyen oyun, Câhiliye Arapları’nın durumunu tasvir ettikten sonra birliği sağlayıp yarımadaya düzen getirecek güçlü bir lidere olan ihtiyacı gözler önüne koymaktadır. Piyeste bir yandan Hz. Muhammed’in Hira dağında vahiy alışı temsil edilirken diğer yandan da şarkiyatçıların genel iddiasına uygun olarak bazı keşişlerden Kitâb-ı Mukaddes’i öğrendiği vurgulanmaktadır. Oyunun diğer dört perdesi Medine dönemini işlemekte ve İslâm’ın önce bu şehre, sonra Arabistan yarımadasına hâkim oluşu, Bizans ordularının mağlûp edilip Sâsânî İmparatorluğu’nun çökertilişi gibi sosyopolitik muhtevalı olayların yanında Hz. Peygamber’in aile yaşantısını da sergilemektedir. Bu arada Hz. Safiyye, Hz. Âişe ve Hz. Zeyneb’e çeşitli iftiralarda bulunulmakta ve oyun Hz. Peygamber’in bir kadın meselesi yüzünden zehir içerek canına kıyması gibi hayal ürünü bir sahne ile sona ermektedir. Paris’te provalarına başlanan oyunun sahnelenmemesi için II. Abdülhamid’in emriyle Osmanlı hükümetinin girişimlerde bulunması üzerine iki ülke arasında bir diplomasi sorunu doğdu. Fransa Dışişleri Bakanlığı’nın, Paris sefiri Esad Paşa’ya oyunun İslâm’ın peygamberi ve mukaddes değerleri aleyhine bir unsur ihtiva etmediği ve Fransa’nın yönetimindeki Cezayir ile Tunus’ta sahneye konulmayacağı hususlarında teminat vermesine rağmen Türk hükümeti yoğun baskılarını sürdürdü; sonuçta dönemin başbakanı Freycinet eserin oynanmasını tamamen yasaklamak zorunda kaldı (1890). Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 292-293 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bornier-vicomte-henri-de",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bornier-vicomte-henri-de, https://islamansiklopedisi.org.tr/bornier-vicomte-henri-de",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:44Z",
+    "modified": "2026-05-04T15:33:44Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bornier-vicomte-henri-de (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1825,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=bornier-vicomte-henri-de, URL: https://islamansiklopedisi.org.tr/bornier-vicomte-henri-de || DİA death-date string: (1825-1901) || DİA categories: şiir || Chunk count: 1"
+}

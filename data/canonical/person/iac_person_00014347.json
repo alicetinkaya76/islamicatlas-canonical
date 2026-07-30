@@ -1,0 +1,136 @@
+{
+  "@id": "iac:person-00014347",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abū al-Ḥasan al-Ashʿarī",
+      "tr": "Ebû'l-Hasan el-Eş'arî",
+      "ar": "أبو الحسن الأشعري"
+    },
+    "originalScript": {
+      "ar": "أبو الحسن الأشعري"
+    },
+    "description": {
+      "tr": "Eş'arî mezhebinin kurucusu",
+      "en": "Founder of the Ashʿarī school"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAlī b. Ismāʿīl b. Isḥāq, Abū al-Ḥasan, descendant of Abū Mūsā al-Ashʿarī"
+    },
+    "altLabel": {
+      "tr": [
+        "Alî b. İsmâîl b. İshâk, Ebû'l-Hasan, Ebû Mûsâ el-Eş'arî'nin neslinden",
+        "Ebü'l-Hasan el-Eş'arî"
+      ],
+      "ar": [
+        "علي بن إسماعيل بن إسحاق، أبو الحسن، من نسل الصح أبي أبي موسى الأشعري"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:6987",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6987",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "scholars:43",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=43",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E0060",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:30Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=6987 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholar_links teacher edge (H10 S13): students += iac:person-00001310."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:6987."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-2 conf 0.99): ['altLabel.tr', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 324,
+    "start_ce": 936,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6987, heading_ar=أبو الحسن الأشعري || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 30.51, 47.78",
+  "active_in_places": [
+    "iac:place-00001954",
+    "iac:place-00002027"
+  ],
+  "kunya": "Ebü'l-Hasan",
+  "nisba": [
+    "Eş'arî",
+    "Basrî"
+  ],
+  "students": [
+    "iac:person-00001310"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

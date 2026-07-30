@@ -1,0 +1,99 @@
+{
+  "@id": "iac:person-00002306",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ ZER el-HALEBÎ",
+      "ar": "أبو ذرّ الحلبي"
+    },
+    "originalScript": {
+      "ar": "أبو ذرّ الحلبي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Zerr Muvaffakuddîn Ahmed b. İbrâhîm b. Muhammed el-Halebî"
+      ]
+    },
+    "description": {
+      "tr": "9 Safer 818’de (20 Nisan 1415) Halep’te doğdu. Babaannesi, Ömer b. Muhammed el-Acemî’nin kızı olduğu için babası gibi Sıbt İbnü’l-Acemî olarak da tanınır. İlk tahsiline babasının yanında başladı. Daha sonra İbn Hatîb en-Nâsıriyye, İbn Mektûm er-Rahbî ve Şemsü’s-Selâmî’den fıkıh, İbnü’l-Azâzî ve Şemsü’l-Malatî’den Arapça, İbn Hacer el-Askalânî ve diğer bazı muhaddislerden hadis okudu. Ebû Zer önceleri edebiyata ilgi duymuş ve bu alanda birçok eser telif etmiştir. Daha sonra çalışmalarını hadis ve fıkıh sahasında yoğunlaştırmış, üstün zekâsı ve güzel ahlâkı sebebiyle hocası İbn Hacer’in takdirini kazanmıştır. Son yıllarında hâfızasını kaybetmiş ve gözleri görmez olmuştu. 15 Zilkade 884’te (28 Ocak 1480) vefat eden Ebû Zerr’in hayır sahibi, çevresinde daima saygı gören, zâhid ve alçak gönüllü bir ilim adamı olduğu rivayet edilir. Eserleri. 1. Mevlidü’n-nebiyyi’l-aʿẓam . Hz. Peygamber’in doğumundan ve kısaca hayatından bahseden bir eserdir (Beyazıt Devlet Ktp., nr. 7886/2). 2. Ḳurretü’l-ʿayn fî fażli’ş-şeyḫayn ve’ṣ-ṣıḥreyn ve’s-sıbṭayn . Hulefâ-yi Râşidîn ve Hz. Hasan ile Hz. Hüseyin hakkında yazılmıştır (Süleymaniye Ktp., Reîsülküttâb Mustafa Efendi, nr. 1186/2). 3. en-Nâẓırü’ṣ-ṣaḥîḥ ʿalâ Câmiʿi’ṣ-ṣaḥîḥ (Süleymaniye Ktp., Kadızâde Mehmed, nr. 72). Bunların dışında kaynaklarda adı geçen diğer eserleri de şunlardır: et-Tavżîḥ li-mübhemâti’l-Câmiʿi’ṣ-ṣaḥîḥ , Mübhemâtü Müslim , Künûzü’ẕ-ẕeheb fî târîḫi Ḥaleb (İbnü’l-Adîm’in Buġyetü’ṭ-ṭaleb adlı eserine yazdığı zeyil), Şerḥu’ş-Şifâʾ , Şerḥu Meṣâbîḥi’s-sünne , Risâle fi’l-ʿamel bi-rubʿi’l-usṭurlâb , ʿArûsü’l-efrâḥ fîmâ yuḳālü fi’r-râḥ , ʿİḳdü’d-dürer ve’l-leʾâl fîmâ yuḳālü fi’s-silsâl , el-Hilâlü’l-müstenîr fi’l-ʿiẕâri’l-müstedîr , et-Tavżîḥ li’l-evhâmi’l-vâḳıʿa fi’ṣ-ṣaḥîḥ (Sehâvî, I, 198-199; Keşfü’ẓ-ẓunûn , I, 292; Brockelmann, II, 76). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 269 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator",
+    "historian",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-zer-el-halebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-zer-el-halebi, https://islamansiklopedisi.org.tr/ebu-zer-el-halebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ebu-zer-el-halebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ebu-zer-el-halebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:57Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-zer-el-halebi (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ebu-zer-el-halebi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Halebî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 884,
+    "start_ce": 1480,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-zer-el-halebi, URL: https://islamansiklopedisi.org.tr/ebu-zer-el-halebi || DİA birth place: Halep || DİA death-date string: (ö. 884/1480) || DİA categories: fıkıh > hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003821",
+    "iac:person-00003847"
+  ]
+}

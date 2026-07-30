@@ -1,0 +1,112 @@
+{
+  "@id": "iac:person-00000189",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Al-Razi",
+      "tr": "Râzî",
+      "ar": "الرازي"
+    },
+    "originalScript": {
+      "ar": "الرازي"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Bakr Muhammad ibn Zakariya al-Razi"
+      ],
+      "tr": [
+        "Ebû Bekr Muhammed b. Zekeriyyâ er-Râzî"
+      ],
+      "ar": [
+        "أبو بكر محمد بن زكريا الرازي"
+      ]
+    },
+    "description": {
+      "tr": "Çiçek hastalığını kızamıktan ilk klinik olarak ayıran, deneysel tıbbın öncüsü ve dogmatik otoriteye karşı akılcı sorgulamanın savunucusu || Râzî, metinsel otoriteye karşı klinik gözlemi savundu — klinik deneylere benzer bir şey yapan (gruplar üzerinde tedavileri test edip sonuçları karşılaştıran) bilinen ilk hekimdir. Galen'in hılt teorisine şüpheciliği çağının yüzyıllar ilerisindeydi. || [Tarih notu] Iskandar'ın 1962 çalışması, Râzî'nin felsefi eserlerini inceleyerek önceki Batı akademisinde tasvir edilen salt tıbbi figürden çok daha radikal bir düşünürü ortaya çıkardı.",
+      "en": "First to clinically distinguish smallpox from measles, pioneer of experimental medicine, and defender of rational inquiry against dogmatic authority || Al-Razi championed clinical observation over textual authority — he is the first physician known to have conducted something resembling clinical trials (testing treatments on groups and comparing outcomes). His skepticism of Galen's humoral theory was centuries ahead of its time. The Hawi was translated into Latin as Continens in 1279 and became one of the most expensive books in medieval Europe. || [Historiographical note] Iskandar's 1962 study on Razi's philosophical works revealed a far more radical thinker than the purely medical figure portrayed in earlier Western scholarship. His theological skepticism, largely suppressed in Islamic biographical tradition, makes him one of the most controversial figures in Islamic intellectual history.",
+      "ar": "أول من ميّز سريريًا بين الجدري والحصبة، ورائد الطب التجريبي || ناصر الرازي الملاحظة السريرية على سلطة النصوص — أول طبيب معروف أجرى ما يشبه التجارب السريرية. شكّه في نظرية الأخلاط لجالينوس سبق عصره بقرون"
+    }
+  },
+  "profession": [
+    "physician",
+    "scholar",
+    "philosopher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0006",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0006, lecture_id=medicine",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "ei1:7287",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 3, p. 80",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-25T03:22:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0006 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-25T03:22:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "QID Q8011 quarantine (H25 Alatlı audit): store ö.925 vs Alatlı date-corroborated ö.1037 (Δ112) — aynı kişi imkânsız, xref FP; kanıt qid_quarantine.json."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 854,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 925,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0006, lecture_week=12. || Key works: {'title': {'en': 'Kitāb al-Ḥāwī fī al-Ṭibb (Continens)', 'tr': \"Kitâbü'l-Hâvî fi't-Tıb\", 'ar': 'كتاب الحاوي في الطب'}, 'year': 900, 'field': 'medicine', 'significance': {'en': 'Largest medical encyclopedia of the medieval world — 23+ volumes of clinical case notes', 'tr': 'Ortaçağ dünyasının en büyük tıp ansiklopedisi — 23+ cilt klinik vaka notu'}}; {'title': {'en': 'Kitāb al-Judari wa-l-Ḥaṣba', 'tr': \"Kitâbü'l-Cüderî ve'l-Hasbe\", 'ar': 'كتاب الجدري والحصبة'}, 'year': 910, 'field': 'medicine', ' || Modern parallel: A hospital director who compiled the Mayo Clinic's case database by hand, pioneered randomized trials, and publicly challenged the medical establishment — all in the 9th century.",
+  "active_in_places": [
+    "iac:place-00015119"
+  ],
+  "authored_works": [
+    "iac:work-00000013",
+    "iac:work-00000014"
+  ]
+}

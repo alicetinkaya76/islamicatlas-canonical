@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00000755",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED b. KÂMİL",
+      "ar": "أحمد بن كامل"
+    },
+    "originalScript": {
+      "ar": "أحمد بن كامل"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Ahmed b. Kâmil b. Halef b. Şecere el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "Vekî‘ lakabıyla da tanınır. 260’ta (874) doğdu. Meşhur müfessir İbn Cerîr et-Taberî’nin talebesi olup ayrıca Ebû Bekir el-İsfahânî, Muhammed b. Yahyâ el-Kisâî, Ahmed b. Ya‘kūb el-Bağdâdî ve Ebû Bekir Muhammed b. Hârûn gibi âlimlerden, başta Kur’an ve kıraat olmak üzere fıkıh, tefsir, hadis, tarih ve edebiyat okudu. Ebû İsmâil et-Tirmizî, Muhammed b. Cehm, Muhammed b. Sa‘d el-Avfî, Muhammed b. Mesleme el-Vâsıtî, Ebû Kılâbe er-Rekāşî ve Hüseyin b. Sellâm’dan hadis rivayet etmiş, kendisinden de Dârekutnî, Ebû Ubeydullah el-Merzübânî, İbn Şâzân, İbn Rezkūye (İbn Rizkaveyh), Ebü’l-Alâ Muhammed b. Hasan el-Verrâk ve Yahyâ b. İbrâhim el-Müzenî rivayette bulunmuşlardır. Dârekutnî, Ahmed b. Kâmil’in hadis rivayetinde titiz olmadığını (leyyinü’l-hadîs) ve bu konuda yazılı metinlere değil de sadece hâfızasına dayandığını söyleyerek onu tenkit etmektedir. Hocası İbn Cerîr’in fıkhî görüşlerine tâbi olduğu rivayeti yanında herhangi bir mezhebi taklit etmediği ve kendine has mezhebî görüşleri bulunduğu da kaynaklarda zikredilmektedir. Bir süre Kûfe kadılığı da yapan Ahmed b. Kâmil, yazdığı eserlerin yanı sıra, aralarında Ebû Bekir b. Mehrân, İbrâhim b. Ahmed el-Mervezî ve Kādî Ebü’l-Hasan Ahmed b. Muhammed es-Saydelânî gibi âlimlerin de bulunduğu birçok talebe yetiştirmiştir. Ahmed b. Kâmil’in Mûcezü’t-teʾvîl ʿan ḥükmi (muʿcizi veya muʿcizâti)’t-Tenzîl adlı tefsirinden başka Ġarîbü’l-Ḳurʾân ; Kitâbü’t-Taḳrîb fî keşfi’l-ġarîb ve Kitâbü’l-Ḳırâʾât isminde eserleri vardır. Diğer eserlerinin çoğu fıkıh sahasında olup başlıcaları şunlardır: el-Muḫtaṣar ; Kitâbü’l-Ḥayż ; Kitâbü’ş-Şürûṭi’l-kebîr ; Kitâbü’ş-Şürûṭi’ṣ-ṣaġīr ; Kitâbü’l-Vuḳūf ; Aḫbârü’l-ḳuḍâti’ş-şuʿarâʾ (bk. GAL Suppl. , I, 226). Bunlardan başka Kitâbü Ümmehâti’l-müʾminîn ve el-Fevâʾidü’l-ḥiṣân (Hz. Osman’ın faziletlerine dair, bk. GAS , I, 524) adlı eserleri de vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 96 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-b-kamil",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-b-kamil, https://islamansiklopedisi.org.tr/ahmed-b-kamil",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-b-kamil",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-b-kamil",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:50Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-b-kamil (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "death_temporal": {
+    "start_ah": 350,
+    "start_ce": 961,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-b-kamil, URL: https://islamansiklopedisi.org.tr/ahmed-b-kamil || DİA death-date string: (ö. 350/961) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00008216"
+  ],
+  "teachers": [
+    "iac:person-00007225"
+  ],
+  "students": [
+    "iac:person-00003952",
+    "iac:person-00004011"
+  ]
+}

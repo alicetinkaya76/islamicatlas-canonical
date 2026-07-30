@@ -1,0 +1,137 @@
+{
+  "@id": "iac:person-00000997",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Alkamî",
+      "ar": "العلقمي"
+    },
+    "originalScript": {
+      "ar": "العلقمي"
+    },
+    "altLabel": {
+      "tr": [
+        "Şemsüddîn Muhammed b. Abdirrahmân b. Alî el-Alkamî"
+      ]
+    },
+    "description": {
+      "tr": "Kahire’de doğdu (897/1491-92); daha çok Alkamî veya Şems el-Alkamî diye tanındı. Bazı kaynaklarda Kevkebî nisbesiyle de anılır. Süyûtî’nin derslerine devam etti ve ondan icâzet aldı. Aklî ve naklî ilimlerde ihtisas kazandıktan sonra uzun yıllar Ezher’de usul, fıkıh ve hadis okuttu. Hayır sever bir zengin olması sebebiyle fakirlere yardımdan ve camileri tamir ettirmekten hoşlanırdı. Ölümüyle ilgili olarak farklı tarihler zikrediliyorsa da 969 (1561-62) yılında Kahire’de vefat ettiği bilinmektedir. Eserleri. Bilinen ve dördü hadise, biri de tefsire dair olan eserleri şunlardır: 1. el-Kevkebü’l-münîr bi-şerḥi’l-Câmiʿi’ṣ-ṣaġīr . Hocası Süyûtî’nin el-Câmiʿu’ṣ-ṣaġīr adlı eserine yazdığı ve ölümünden bir yıl önce tamamladığı üç ciltlik şerh olup Süleymaniye (Lâleli, nr. 482-483; Beşir Ağa, nr. 102-103; Ayasofya, nr. 0.561; Kılıç Ali Paşa, nr. 204-207; Süleymaniye, nr. 239-242; Fâtih, nr. 777-780; Turhan H. Sultan, nr. 53) ve Nuruosmaniye (nr. 669-670/933-936) kütüphanelerinde nüshaları bulunmaktadır. Müellifin kendi eserinden el-Münteḫab min şerḥi’l-Câmiʿi’ṣ-ṣaġīr li’l-ʿAlḳamî adıyla küçük bir hulâsa yaptığı da anlaşılmaktadır (Süleymaniye Ktp., Süleymaniye, nr. 1029/27, 30). 2. Mülteḳa’l-baḥreyn fi’l-cemʿ beyne kelâmi’ş-şeyḫayn . Adından Buhârî ile Müslim’in el-Câmiʿu’ṣ-ṣaḥîḥ ’lerine müştereken aldıkları (müttefekun aleyh) hadisleri derleyen bir eser olduğu anlaşılmaktadır. 3. Muḫtaṣaru İtḥâfi’l-mehere bi-eṭrâfi’l-ʿaşere . İbn Hacer el-Askalânî’nin İtḥâfü’l-mehere adlı sekiz ciltlik kitabının muhtasarıdır. Eser Dârü’l-kütübi’l-Mısriyye’de bulunmaktadır (bk. Ziriklî, VI, 196). 4. et-Tuḥafü’ẓ-ẓırâf fî telḫîṣi’l-eṭrâf . Medine’de Ârif Hikmet Kütüphanesi’nde bulunmaktadır (bk. Ziriklî, VI, 196). 5. Ḳabesü’n-neyyireyn ʿalâ Tefsîri’l-Celâleyn . Tefsîrü’l-Celâleyn ’e yazdığı hâşiyedir (bk. Fihrisü’l-kütübi’l-ʿArabiyye , I, 45). Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 468-469 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:alkami",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=alkami, https://islamansiklopedisi.org.tr/alkami",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:alkami",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=alkami",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:10240",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=10240, heading_ar=العلقمي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:33Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=alkami (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[10240]. Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=alkami)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=10240 (heading_ar=العلقمي) via Track A (DİA→Alam xref bridge). dt=Şâfiî mezhebinden fıkıh âlimi, hadis bilgisine vâkıf."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Alkamî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 969,
+    "start_ce": 1561,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 969,
+    "start_ce": 1561,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=alkami, URL: https://islamansiklopedisi.org.tr/alkami || El-Aʿlām (Ziriklī) cross-reference: alam_id=[10240] || DİA birth place: Kahire || DİA death place: Kahire || DİA death-date string: (ö. 969/1561-62) || DİA categories: hadis > tefsir > fıkıh || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=10240, heading_ar=العلقمي, dt=Şâfiî mezhebinden fıkıh âlimi, hadis bilgisine vâkıf.",
+  "birth_place": "iac:place-00009399",
+  "death_place": "iac:place-00009399",
+  "active_in_places": [
+    "iac:place-00009399"
+  ],
+  "teachers": [
+    "iac:person-00006394",
+    "iac:person-00007215"
+  ],
+  "students": [
+    "iac:person-00007228"
+  ]
+}

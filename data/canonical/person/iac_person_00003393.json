@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00003393",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HEVZE el-HANEFÎ",
+      "ar": "هوذة الحنفي"
+    },
+    "originalScript": {
+      "ar": "هوذة الحنفي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Alî Hevze b. Alî b. Sümâme el-Hanefî el-Bekrî"
+      ]
+    },
+    "description": {
+      "tr": "Adnânîler’e mensup Yemâme’deki savaşçı kabilelerden Benî Hanîfe’nin reisi olan Hevze, Arap kabileleri arasında büyük bir şöhret ve itibara sahip olduğu gibi Kisrâ Hüsrev Pervîz ile de (590-628) dostça münasebetler kurmuştu. İran-Yemen arasında Kisrâ adına yapılan ticarî faaliyetlere kendi bölgesi Yemâme’de yardımcı oluyor, ticaret kervanlarının güvenliğini sağlıyor, yolcuların çeşitli ihtiyaçlarını gideriyordu. Benî Temîm kabilesi tarafından malları yağmalanan bir kervandaki yolcular Hevze el-Hanefî’ye sığınmışlar, Hevze de kendilerine yardımcı olmuş ve onlarla birlikte gidip Hüsrev Pervîz’le görüşmüştü. Kisrâ bu görüşme sırasında Hevze’ye ihsanda bulunmuş, Hecer bölgesinde bazı arazileri kendisine tahsis etmiş ve bir de taç vermişti. Hevze bu olaydan sonra “Zü’t-tâc, Sâhibü’t-tâc” lakaplarıyla anılmıştır. Öte yandan İran’ın Bahreyn valisi, kervanı yağmalayan Benî Temîm kabilesine karşı bir sefer düzenleyerek birçok kişiyi öldürmüş, pek çoğunu da esir almış, bu arada 100 esir Hevze el-Hanefî’nin teşebbüsleri neticesinde serbest bırakılmıştı. Benî Hanîfe ile Benî Temîm arasında zaman zaman kanlı çatışmalara yol açan bir düşmanlık vardı. Nitekim Hevze gençliğinde bir çarpışma sırasında Benî Temîm’e esir düşmüş, 300 deve karşılığında hürriyetine kavuşabilmişti. Kabile reisliği yanında şairliği ve hatipliğiyle de tanınan Hevze el-Hanefî hıristiyandı. Hz. Peygamber onu 7. yılın Muharrem ayında (Mayıs 628) bir mektupla İslâm’a davet etti ve müslüman olduğu takdirde yönetmekte olduğu bölgede idareciliğinin devam edeceğini bildirdi. Hevze, Resûl-i Ekrem’in elçisi Selît b. Amr el-Âmirî’ye iyi davranıp ikramda bulunmakla birlikte İslâmiyet’i kabul etmediğini bildiren cevabî bir mektup gönderdi. Bu mektubunda İslâm’ın güzel bir din olduğunu, ancak Hz. Muhammed’in vefatından sonra Araplar arasındaki yeri ve itibarı dolayısıyla peygamberlik görevini kendisine bırakması halinde müslüman olacağını bildiriyordu. Mekke’nin fethinden sonra ölen (8/630) Hevze’nin yerine geçen Sümâme b. Üsâl müslüman olmuş ve ridde savaşlarında önemli hizmetler görmüştür. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 17. cildinde, 285 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hevze-el-hanefi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hevze-el-hanefi, https://islamansiklopedisi.org.tr/hevze-el-hanefi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hevze-el-hanefi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hevze-el-hanefi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:13160",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=13160, heading_ar=هوذة الحنفي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:14Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hevze-el-hanefi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[13160]. Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=13160 (heading_ar=هوذة الحنفي) via Track A (DİA→Alam xref bridge). dt=Necid'deki Yemâme'nin sahibi, İslâm öncesi ve Peygamber döneminde Benî Hanîfe'ni"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hanefî; Bekrî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 8,
+    "start_ce": 630,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hevze-el-hanefi, URL: https://islamansiklopedisi.org.tr/hevze-el-hanefi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[13160] || DİA death-date string: (ö. 8/630) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=13160, heading_ar=هوذة الحنفي, dt=Necid'deki Yemâme'nin sahibi, İslâm öncesi ve Peygamber döneminde Benî Hanîfe'nin şairi ve hatîbi"
+}

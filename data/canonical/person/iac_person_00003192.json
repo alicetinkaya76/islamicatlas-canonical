@@ -1,0 +1,62 @@
+{
+  "@id": "iac:person-00003192",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂRİS b. ABDÜLMUTTALİB",
+      "ar": "الحارث بن عبد المطّلب"
+    },
+    "originalScript": {
+      "ar": "الحارث بن عبد المطّلب"
+    },
+    "altLabel": {
+      "tr": [
+        "el-Hâris b. Abdilmuttalib b. Hâşim b. Abdimenâf b. Kusayy"
+      ]
+    },
+    "description": {
+      "tr": "Annesi, Âmir b. Sa‘saa kabilesinden Safiyye bint Cündeb’dir. Hâris’in nesli, Benî Hâşim’in Hârisiyyûn diye bilinen kalabalık bir kolunu teşkil eder. Babası Abdülmuttalib onun adına izâfeten Ebü’l-Hâris künyesiyle anılır. Abdülmuttalib Zemzem Kuyusu’nu kazarken diğer oğulları henüz dünyaya gelmediğinden yanında sadece oğlu Hâris vardı. Hâris bu dönemde babasının en büyük destekçisi olarak görülmektedir. Belâzürî ( Ensâb , I, 79), onun Abdülmuttalib’in oğlu Abdullah’ı kurban etmek istediği yılda öldüğünü kaydediyorsa da Abdullah’ın vefat ettiği sırada Hâris’in hayatta bulunduğuna dair kuvvetli rivayetler mevcuttur. İbn Sa‘d ( eṭ-Ṭabaḳāt , I, 99), Taberî ( Târîḫ , II, 246) ve Zehebî’nin ( Târîḫu’l-İslâm , s. 50) verdikleri bilgiye göre Abdullah b. Abdülmuttalib bir Kureyş kervanı ile Suriye’ye yaptığı bir ticarî seyahatten dönerken Medine’de hastalandı ve orada kaldı. Bu haber Abdülmuttalib’e ulaşınca oğlu Hâris’i durumu öğrenmesi için Medine’ye gönderdi. Ancak Hâris Medine’ye ulaştığında Abdullah vefat etmiş ve defnedilmişti. Buna göre Hâris, Belâzürî’nin verdiği tarihten daha sonraki bir tarihte Abdullah’ın vefatından (570) sonra, Abdülmuttalib’in vefatından (577) önce ölmüş olmalıdır. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 194 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:haris-b-abdulmuttalib",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=haris-b-abdulmuttalib, https://islamansiklopedisi.org.tr/haris-b-abdulmuttalib",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-05-04T15:34:12Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=haris-b-abdulmuttalib (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 570,
+    "approximation": "after"
+  },
+  "note": "DİA cross-reference: slug=haris-b-abdulmuttalib, URL: https://islamansiklopedisi.org.tr/haris-b-abdulmuttalib || DİA death place: Medine || DİA death-date string: (ö. 570’ten sonra) || DİA categories: rivayet || Chunk count: 1"
+}

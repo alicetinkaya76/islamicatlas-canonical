@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00002203",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ KILÂBE er-REKĀŞÎ",
+      "ar": "أبو قلابة الرقاشي"
+    },
+    "originalScript": {
+      "ar": "أبو قلابة الرقاشي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Kılâbe Abdülmelik b. Muhammed b. Abdillâh er-Rekāşî"
+      ]
+    },
+    "description": {
+      "tr": "190’da (806) Basra’da doğdu. Asıl künyesi Ebû Muhammed olduğu halde Ebû Kılâbe diye tanındı. Babası ve dedesi de muhaddisti. Tahsile çok erken yaşlarda başlayarak Buhârî ve Müslim’in hocalarından olan babası Muhammed b. Abdullah başta olmak üzere Yezîd b. Hârûn, Ravh b. Ubâde, Ebû Dâvûd et-Tayâlisî ve Ebû Âsım en-Nebîl gibi âlimlerden hadis öğrendi. “Basra muhaddisi” olarak bilinen Ebû Kılâbe, sonraları Bağdat’a yerleşerek vefatına kadar burada hadis rivayet etti. Kendisinden İbn Mâce, Ebû Bekir eş-Şâfiî, İbn Cerîr et-Taberî ve İbn Huzeyme gibi muhaddisler rivayette bulundular. Ebû Dâvûd onun rivayetlerinin araştırıldıktan sonra kullanılabileceğini belirtmekte, Dârekutnî ise sadûk olduğuna işaret etmekle beraber ezberinden hadis rivayet ettiği için çokça yanıldığını söylemektedir. Nitekim onun ezberinden 60.000 hadis rivayet ettiği kaydedilir. İbn Cerîr et-Taberî de hâfızası Ebû Kılâbe’den daha güçlü birini görmediğini söyler. Titizliğiyle tanınan İbn Huzeyme’nin, hocası Ebû Kılâbe hakkındaki değerlendirmelerinden onun muhtemelen hayatının sonlarına doğru hâfıza kaybına uğradığı anlaşılmaktadır. Kendisiyle ilgili değerlendirmelerin farklı oluşu da bunu göstermektedir. Çirkin yüzlü bir kimse olan Ebû Kılâbe hayır severliği ve ibadete düşkünlüğü ile tanınmıştır. Sadece İbn Hacer el-Askalânî onun âmâ (darîr) olduğunu da kaydetmektedir. Ebû Kılâbe 276 yılı Şevval ayında (Şubat 890) vefat etmiş ve Bağdat’ta Bâbü Horasan’a veya Bâbü’s-Selâme dışına defnedilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 177 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-kilabe-er-rekasi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-kilabe-er-rekasi, https://islamansiklopedisi.org.tr/ebu-kilabe-er-rekasi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-kilabe-er-rekasi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-kilabe-er-rekasi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:55Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-kilabe-er-rekasi (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 276,
+    "start_ce": 890,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-kilabe-er-rekasi, URL: https://islamansiklopedisi.org.tr/ebu-kilabe-er-rekasi || DİA birth place: Basra || DİA death-date string: (ö. 276/890) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00002146",
+    "iac:person-00003359",
+    "iac:person-00003771",
+    "iac:person-00004264",
+    "iac:person-00004340",
+    "iac:person-00004385",
+    "iac:person-00004772"
+  ]
+}

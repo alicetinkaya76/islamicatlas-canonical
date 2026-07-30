@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00004271",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-MÜNECCÂ",
+      "ar": "ابن المنجّا"
+    },
+    "originalScript": {
+      "ar": "ابن المنجّا"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Berekât Zeynüddîn el-Müneccâ b. Osmân b. Es‘ad b. el-Müneccâ ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "10 Zilkade 631 (7 Ağustos 1234) tarihinde Dımaşk’ta doğdu. Büyük dedesine nisbetle İbnü’l-Müneccâ diye tanındı. Çoğunluğu Halep yakınlarındaki Maarretünnu‘mân mevkiine yerleşen Tenûh kabilesinden olduğu için Maarrî ve Tenûhî nisbeleriyle de anılır. Dedesi Es‘ad ile amcası Şemseddin Ömer Harran’da kadılık yapmıştır. Babası İzzeddin Osman da hadis ve fıkıh öğrenimi görmüş, pek çok vakfın kurulmasına öncülük etmiştir. Ebü’l-Hasan İbnü’l-Mukayyir, Ca‘fer el-Hemedânî ve Ebü’l-Ganâim Emînüddin Sâlim b. Hasan b. Hibetullah’ın ders halkasına katılan İbnü’l-Müneccâ, Alemüddin es-Sehâvî ve İbn Mesleme gibi âlimlerden hadis dinledi. Kemâleddin et-Tiflîsî’den fıkıh usulü, İbn Mâlik et-Tâî’den nahiv dersleri aldı. Fıkıh, usûl-i fıkıh, kelâm, tefsir, nahiv sahalarında yetişti ve Dımaşk’ta Hanbelî mezhebinin otoritesi haline geldi. Telif, öğretim ve fetva faaliyetleriyle meşgul oldu. Otuz yıl boyunca Emeviyye Camii’nde, ayrıca Hanbeliyye ve Sadriyye medreselerinde ders verdi. Takıyyüddin İbn Teymiyye, İbnü’l-Attâr, Yûsuf b. Abdurrahman el-Mizzî, Birzâlî, Takıyyüddin Abdullah b. Muhammed b. Ebû Bekir ez-Zerîrânî gibi âlimler onun talebeleri arasında yer alır. İbnü’l-Müneccâ 4 Şâban 695’te (7 Haziran 1296) Dımaşk’ta vefat etti ve Kāsiyûn’daki aile kabristanına defnedildi. Eserleri. 1. el-Mümtiʿ şerḥu’l-Muḳniʿ . Muvaffakuddin İbn Kudâme el-Makdisî’nin Hanbelî fıkhına dair eserinin şerhidir. Dört ciltten ibaret olan kitabın II. cildi Chester Beatty Library’de (nr. 4662 ve 5128), diğer ciltleri ise Topkapı Sarayı Müzesi Kütüphanesi’nde (III. Ahmed, nr. 1134, 1192) kayıtlıdır. Bir nüshası da Dârü’l-kütübi’z-Zâhiriyye’de bulunmaktadır (Burhâneddin İbn Müflih, III, 42). 2. Şerḥu’l-Maḥṣûl . Fahreddin er-Râzî’nin usûl-i fıkıhla ilgili eserinin şerhi olup tamamlanmamıştır. 3. Tefsîrü’l-Ḳurʾâni’l-Kerîm . Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 154 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-munecca",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-munecca, https://islamansiklopedisi.org.tr/ibnul-munecca",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibnul-munecca",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibnul-munecca",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:26Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:26Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:26Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-munecca (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibnul-munecca)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 695,
+    "start_ce": 1296,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-munecca, URL: https://islamansiklopedisi.org.tr/ibnul-munecca || DİA birth place: Dımaşk || DİA death place: Kāsiyûn || DİA death-date string: (ö. 695/1296) || DİA categories: fıkıh > hadis > tefsir || Chunk count: 1",
+  "death_place": "iac:place-00009375",
+  "authored_works": [
+    "iac:work-00000661"
+  ],
+  "teachers": [
+    "iac:person-00003929",
+    "iac:person-00006771"
+  ],
+  "students": [
+    "iac:person-00001553",
+    "iac:person-00004054",
+    "iac:person-00005573"
+  ]
+}

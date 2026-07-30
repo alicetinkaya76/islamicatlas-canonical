@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000967",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ali Kāinî",
+      "ar": "على قائنى"
+    },
+    "originalScript": {
+      "ar": "على قائنى"
+    },
+    "description": {
+      "tr": "Hayatı, ailesi ve yetişmesi hakkında fazla bilgi yoktur. Sultan Ali Meşhedî’nin çağdaşıdır. Kāin’de doğdu; nesta‘lik yazıyı Herat’ta usta bir hattat olan Azher-i Tebrîzî’den öğrendi. Hayatını yazı yazarak kazanmaya başladı. Önce Tebriz’de Akkoyunlu Hükümdarı Sultan Yâkub’un (1478-1490) saray hattatı oldu ve bu sebeple Yâkubî unvanını aldı. O devre ait yazılarında imza olarak bunu kullandı. Sultan Yâkub’un ölümünden sonra, yeğeni Rüstem’in saltanatı sırasında (1492-1497) onun yanında da hattatlığa devam etti. Bu döneme ait eserlerinde ise Rüstemî nisbesini kullandı. Mehdî Beyânî, hattatın bu sırada hacca gittiğini, dönüşte Herat’a giderek sarayı bilgin ve sanatkârların toplandığı bir merkez halinde olan Sultan Hüseyin Baykara’nın (1470-1506) hizmetine girdiğini bildirmektedir. Çocuklarına yazı dersi verdiği Hüseyin Baykara’ya bağlı olduğunu belirtmek için bu devrede Sultânî imzasını kullandığı görülmektedir. Bu sırada tanıştığı Ali Şîr Nevâî ile Abdurrahman-ı Câmî’nin bazı eserlerini de istinsah etmiştir. Hüseyin Baykara adına istinsah ettiği Nevâî’nin Garâibü’s-sıgar adlı divanı İstanbul Üniversitesi Kütüphanesi’nde (TY, nr. 547), Câmî’nin divanı ise Tahran’da Kütübhâne-i Saltanatî’dedir. Ölüm yeri kesin olarak bilinmeyen Ali Kāinî’nin, hayatının son yıllarını Herat’ta geçirdiği söylenebilir. Ali Şîr Nevâî’nin bildirdiğine göre 914’te (1508) vefat etmiştir. İran’da daha çok Sultan Ali adıyla tanınan Kāinî, nesta‘likte tamamen hocası Azher-i Tebrîzî yolunda yürümüş ve bu yazı nevinin gelişmesinde önemli rol oynamıştır. Kaynaklara göre derviş tabiatlı ve iyi ahlâklı bir kimse olan hattat ayrıca şiirle de meşgul olmuştur. Eserleri, istinsah ettiği çeşitli kitaplarla kıtalardan ibaret olup Tahran, Uppsala, Leningrad ve İstanbul kütüphanelerinde bulunmaktadır. Çeşitli eserlerinde şu imzaları kullanmıştır: Sultan Ali el-Kāinî, Sultan Ali el-Ya‘kūbî, Sultan Ali er-Rüstemî. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 402-403 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler",
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-kaini",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-kaini, https://islamansiklopedisi.org.tr/ali-kaini",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ali-kaini",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ali-kaini",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-kaini (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 914,
+    "start_ce": 1508,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-kaini, URL: https://islamansiklopedisi.org.tr/ali-kaini || DİA birth place: Kāin || DİA death place: 914 || DİA death-date string: (ö. 914/1508) || Chunk count: 1"
+}

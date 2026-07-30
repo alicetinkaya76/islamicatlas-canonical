@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00020301",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Yazīd b. ʿAbd al-Mudān",
+      "tr": "Yezîd b. Abdülmedân",
+      "ar": "يزيد بن عبد المدان"
+    },
+    "originalScript": {
+      "ar": "يزيد بن عبد المدان"
+    },
+    "description": {
+      "tr": "Şair, Yemen'in önde gelenleri ve kahraman savaşçılarından, cahiliye döneminde.",
+      "en": "A poet, one of the notables and brave warriors of Yemen in the Jahiliyya period."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Yazīd b. ʿAbd al-Mudān b. al-Diyān b. Qatan"
+    },
+    "altLabel": {
+      "tr": [
+        "Yezîd b. Abdülmedân b. ed-Diyân b. Katan"
+      ],
+      "ar": [
+        "يزيد بن عبد المدان بن الديان بن قطن، من بني الحارث بن كعب، من مذحج"
+      ]
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:13560",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=13560",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:44Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=13560 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:13560."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 10,
+    "start_ce": 631,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=13560, heading_ar=يزيد بن عبد المدان || Ziriklī century_ce=7 || Ziriklī place coords (city/region of activity): 15.35, 44.21",
+  "active_in_places": [
+    "iac:place-00011941"
+  ]
+}

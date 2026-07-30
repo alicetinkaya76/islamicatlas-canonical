@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00001537",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BÎKENDÎ, Muhammed b. Ahmed",
+      "ar": "محمد بن أحمد البيكندي"
+    },
+    "originalScript": {
+      "ar": "محمد بن أحمد البيكندي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ca‘fer Muhammed b. Ahmed b. Hâmid el-Buhârî el-Bîkendî"
+      ]
+    },
+    "description": {
+      "tr": "Buhara’nın 44 km. güneybatısındaki Bîkend kasabasında 382’de (992) doğduğu kabul edilir. Hayatı hakkında kaynaklarda fazla bilgi bulunmayan Bîkendî tahsiline Buhara’da başladı. Usûl-i fıkıhla ilgili bazı eserler okuduktan sonra 1023’te Horasan’ı dolaşarak Ebû Âsım el-Âmirî, Ebû Kāsım ed-Dâvûdî, Ebü’l-Alâ Saîd gibi Hanefî âlimleriyle görüştü. Daha sonra Mısır’a gitti; burada İsmâiliyye’nin ileri gelenlerinden Ebû Nasr Hibetullah b. Mûsâ el-Müeyyed-Fiddîn ve daha başkalarıyla münazaralarda bulunarak kelâm ve usul ilminde önemli bir şahsiyet olduğunu kabul ettirdi. “Kādî Halep” diye tanınmasına rağmen kaynaklarda Halep’e gittiğinden bahsedilmez. Fıkıhta Hanefî olmakla beraber itikadda koyu bir Mu‘tezilî olduğu ve her gittiği yerde Mu‘tezile mezhebini yaymaya çalıştığı nakledilir. Bağdat Valisi Ebû Mansûr Abdülmelik b. Muhammed zamanında bu şehre yerleşmek istediyse de buna izin verilmedi. Ancak vali Ebû Mansûr’un ölümünden sonra Bağdat’a yerleşti ve hayatının kalan kısmını burada geçirdi. Vefatında Bağdat’taki Bâb-ı Harb Kabristanı’na defnedildi. Hayatı boyunca ilim meclislerinden ayrılmayan Bîkendî daha çok kelâmcılığıyla tanınır. Bunun yanında hadis ilmiyle de ilgilenerek Ebû Âmir Adnân b. Muhammed el-Herevî, Ebü’l-Fazl Ahmed b. Ali el-Bîkendî ve daha başkalarından hadis rivayet etti. Kendisinden de Fazl b. Abdülvâhid es-Saydelânî, Sadaka b. Hasan, Sâbit b. Mansûr ve Ebû Gālib el-Bennâ rivayette bulundular. Fakat hadiste sika kabul edilmemiş, hatta 1003’te vefat eden İsmâil b. Muhammed el-Küşânî’yi 1007’de gördüğünü söyleyip ondan hadis naklettiği için “kezzâb” sayılmıştır (İbn Hacer, V, 61). Kaynaklarda Bîkendî’ye nisbet edilen, fakat günümüze kadar ulaşmayan eserler şunlardır: Taḥḳīḳu’r-risâle bi-evḍaḥi’l-edille (nübüvvete dairdir; Keşfü’ẓ-ẓunûn , I, 378); el-Hüdâ ve’l-irşâd li-ehli’l-ḥayreti ve’l-ʿinâd (İsmâilî âlimlerden Ebû Nasr Hibetullah’a reddiyedir; Keşfü’ẓ-ẓunûn , II, 2043); er-Risâletü’l-Mesʿûdiyye (muhtemelen oğlu Ebü’l-Yümn Mes‘ûd adına yazdığı bir risâledir; Kureşî, II, 10)."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bikendi-muhammed-b-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bikendi-muhammed-b-ahmed, https://islamansiklopedisi.org.tr/bikendi-muhammed-b-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bikendi-muhammed-b-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bikendi-muhammed-b-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:44Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bikendi-muhammed-b-ahmed (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Buhârî; Bîkendî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)",
+    "Mu'tezilî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 482,
+    "start_ce": 1089,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bikendi-muhammed-b-ahmed, URL: https://islamansiklopedisi.org.tr/bikendi-muhammed-b-ahmed || DİA death place: Bağdat || DİA death-date string: (ö. 482/1089) || DİA categories: hadis > fıkıh > kelâm || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001536"
+  ]
+}

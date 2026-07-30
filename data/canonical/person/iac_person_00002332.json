@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00002332",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÜ’l-BAHTERÎ, Âs b. Hişâm",
+      "ar": "أبو البختري العاص بن هشام"
+    },
+    "originalScript": {
+      "ar": "أبو البختري العاص بن هشام"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Bahterî el-Âs b. Hişâm b. el-Hâris"
+      ]
+    },
+    "description": {
+      "tr": "Bazı kaynaklarda adı Hâşim olarak da geçen babası ile annesi Ervâ bint Hâris’in soyu Kusay’da Hz. Peygamber’in soyu ile birleşir. Ebü’l-Bahterî Câhiliye döneminde Kureyş kabilesinin ileri gelenlerinden biriydi. Hz. Peygamber İslâmiyet’i açıktan tebliğ etmeye başladığı zaman onu bu davadan vazgeçirmesi için amcası Ebû Tâlib’e başvuran Kureyşliler arasında o da vardı. Ancak onu önemli kılan hadise, Kureyş kabilesinin müslümanlara karşı ilân ettiği boykot sırasında akrabalık bağları sebebiyle tavrını müslümanlardan yana koymasıdır. Ebü’l-Bahterî ile bazı Kureyşliler, kendilerine hiçbir yiyecek verilmeyen müslümanlara önce yiyecek götürdüler; sonra da müslümanlarla görüşmeyi ve onlara yardım ulaştırmayı yasaklayan boykot metnini Kâbe’nin duvarından indirerek Kureyş’in baskısını kırdılar. Hz. Peygamber’in hicret etmesini engellemek için tedbirler almak üzere Kureyşliler’in Dârünnedve’de yaptığı toplantıya da katılan Ebü’l-Bahterî Bedir Savaşı’nda müşrik ordusunun erzak ihtiyacını karşıladı. Onun İslâmiyet aleyhindeki gayretlerine rağmen Hz. Peygamber boykot hadisesindeki iyiliğini dikkate alarak öldürülmemesini emretti. Savaş esnasında Ebü’l-Bahterî ile karşılaşan Mücezzer b. Ziyâd el-Belevî adlı sahâbî, Hz. Peygamber’in bu emrini ona hatırlatarak teslim olmasını istedi. Ebü’l-Bahterî, arkadaşı Cünâde b. Müleyha’ya da eman verilmesi halinde teslim olacağını söyledi; fakat Mücezzir onun bu isteğini kabul etmedi. Bunun üzerine Ebü’l-Bahterî, yaşama hırsı uğruna arkadaşını ölüme terkettiği için Kureyşli kadınların kendisini ayıplayacaklarından endişe ederek savaşmaya devam etti ve öldürüldü. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 296 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebul-bahteri-as-b-hisam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebul-bahteri-as-b-hisam, https://islamansiklopedisi.org.tr/ebul-bahteri-as-b-hisam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebul-bahteri-as-b-hisam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebul-bahteri-as-b-hisam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:58Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebul-bahteri-as-b-hisam (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 2,
+    "start_ce": 624,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebul-bahteri-as-b-hisam, URL: https://islamansiklopedisi.org.tr/ebul-bahteri-as-b-hisam || DİA death-date string: (ö. 2/624) || DİA categories: hadis || Chunk count: 1"
+}

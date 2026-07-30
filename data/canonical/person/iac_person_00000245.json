@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00000245",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abd al-Rahman al-Sufi",
+      "tr": "Abdurrahman es-Sûfî",
+      "ar": "عبد الرحمن الصوفي"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن الصوفي"
+    },
+    "altLabel": {
+      "en": [
+        "Abu al-Husayn Abd al-Rahman ibn Umar al-Sufi"
+      ],
+      "tr": [
+        "Ebü'l-Hüseyn Abdurrahman b. Ömer es-Sûfî"
+      ],
+      "ar": [
+        "أبو الحسين عبد الرحمن بن عمر الصوفي"
+      ]
+    },
+    "description": {
+      "tr": "Batlamyus'u düzelten ilk illüstrasyonlu yıldız kataloğu; Andromeda Galaksisi'nin ilk gözlemi || es-Sûfî'nin kitabı Yunan verilerini Arapça yıldız isimleriyle birleştirdi. || [Tarih notu] Modern astronomideki birçok Arapça yıldız ismi onun kataloğuna dayanır.",
+      "en": "Created first illustrated star catalogue correcting Ptolemy; first recorded observation of Andromeda Galaxy and Large Magellanic Cloud || Al-Sufi's Book of Fixed Stars combined Greek stellar data with original Arabic star names. || [Historiographical note] Many Arabic star names (Aldebaran, Betelgeuse, Rigel) trace back to his catalogue.",
+      "ar": "أنشأ أول فهرس نجومي مصور يصحح بطليموس || جمع الكتاب البيانات اليونانية مع الأسماء العربية"
+    }
+  },
+  "profession": [
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0062",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0062",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:56:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:56:15Z",
+    "modified": "2026-07-12T14:15:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:56:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0062 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:15:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "h11_001 QID karantinası: wikidata:Q469967 kayıttan çıkarıldı (denetim MISMATCH, sim=42, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 903,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 986,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0062, lecture_week=n/a. || Key works: {'title': {'en': 'Kitāb Ṣuwar al-Kawākib al-Thābita', 'tr': \"Kitâbü Suver el-Kevâkibi's-Sâbite\", 'ar': 'كتاب صور الكواكب الثابتة'}, 'year': 964, 'field': 'astronomy', 'significance': {'en': 'First systematic illustrated star catalogue; first recorded observation of Andromeda Galaxy', 'tr': \"İllüstrasyonlu ilk sistematik yıldız kataloğu; Andromeda Galaksisi'nin ilk gözlemi\"}} || Modern parallel: Like the Hubble Deep Field — he saw galaxies 1,000 years before anyone knew what they were.",
+  "birth_place": "iac:place-00015119",
+  "active_in_places": [
+    "iac:place-00015118"
+  ],
+  "authored_works": [
+    "iac:work-00000087"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00002159",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Dücâne",
+      "ar": "أبو دجانة"
+    },
+    "originalScript": {
+      "ar": "أبو دجانة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Dücâne Simâk b. Hareşe b. Levzân el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "Medineli olup Hazrec kabilesindendir. Nesep zincirinin Simâk b. Evs b. Hareşe olduğu da rivayet edilmektedir. Hz. Peygamber onunla Utbe b. Gazvân arasında kardeşlik bağı ( muâhât ) kurmuştu. Bedir, Uhud gazvelerine ve diğer gazvelere katıldı. Bu savaşlarda Kureyş’in ileri gelen silâhşorlarını öldürdü. Uhud Gazvesi ’nin en çetin safhalarında Hz. Peygamber’in yanında bulundu. Zor durumda kalanların yardımına koştu. Müslümanların büyük sıkıntılara düştüğü bu savaşta paniğe kapılmayıp Hz. Peygamber’in etrafında toplanan otuz sahâbîden ve ölüm biatı yapan sekiz kişiden biri de Ebû Dücâne idi. Muhtemelen savaşın başında Hz. Peygamber elindeki kılıcı göstererek onu kendisinden kimin almak istediğini sordu. Bunun üzerine herkes elini uzatarak kılıcı almak istedi. Fakat, “Bunun hakkını kim verir?” deyince herkes elini geri çekti. Ebû Dücâne ise onun hakkının ne olduğunu sordu. “Kırılıncaya kadar düşmana çalmak” cevabını alınca, “Onun hakkını ben veririm yâ Resûlellah!” diyerek kılıcı aldı ve bundan duyduğu sevinci dile getiren irticâlî şiirler söyleyerek düşman saflarına daldı. Bu olaydan sonra kendisine “iki kılıçlı” anlamında “Zü’s-seyfeyn” lakabı verildi. Bu gazvede Hz. Peygamber’in dişinin kırıldığı ve etrafının sarıldığı bir sırada Ebû Dücâne vücuduyla bir kalkan gibi onu korudu. Kendisini öldürmeye ant içen Abdullah b. Humeyd’i karşılayıp öldürdü. Hz. Peygamber ona, “Allahım! Hareşe’nin oğlundan ben nasıl razı isem sen de razı ol” diye dua etti. Huneyn Gazvesi ’nde Hz. Peygamber’in etrafı Hevâzinli müşriklerle sarıldığında onun yanında savaşanlardan biri yine Ebû Dücâne idi. Benî Nadîr Gazvesi’nde Ali b. Ebû Tâlib’e yardımla görevlendirildi. Bu vazifesini hakkıyla ifa ettiği için yalnız muhacirlere tahsis edilen ganimet mallarından arkadaşı Sehl b. Huneyf ile kendisine de pay verildi. Tebük Gazvesi’nde Hazrecliler’in bayrağını o taşıdı. Ebû Dücâne Yemâme’de Müseylimetülkezzâb ’ın katlinde Abdullah b. Zeyd b. Âsım ile beraber bulundu ve burada şehid düştü. Hz. Ali’nin hilâfetine yetiştiği ve Sıffîn’de onun yanında bulunduğu da rivayet edilmektedir. İbn Sa‘d (ö. 230/845), kendi zamanında Medine ve Bağdat’ta Ebû Dücâne’nin torunlarının yaşadığını söylemektedir. Ebû Dücâne çok güçlü ve cesur bir insandı. Bununla gururlanır ve kendisine mahsus bir eda ile yürürdü. Hz. Peygamber’in onun bu tavrını beğenmediği anlaşılmakta, fakat düşman saflarına girişini gördükten sonra, “Allah bu yürüyüşü yalnız bu durumlarda sever” dediği bilinmektedir. Ebû Dücâne en çok iki ameline güvendiğini söylerdi. Bunlardan biri kendini ilgilendirmeyen söze karışmaması, diğeri de kalbinde müslümanlara karşı kötü bir duygu beslememesiydi. Ebû Dücâne’nin hadis rivayet etmediği bilinmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 122 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-ducane",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-ducane, https://islamansiklopedisi.org.tr/ebu-ducane",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-ducane",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-ducane",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:4254",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=4254, heading_ar=أبو دجانة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:54Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-ducane (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4254]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=4254 (heading_ar=أبو دجانة) via Track A (DİA→Alam xref bridge). dt=Sahâbî, cesur ve kahraman bir kişiydi."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî"
+  ],
+  "death_temporal": {
+    "start_ah": 12,
+    "start_ce": 633,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-ducane, URL: https://islamansiklopedisi.org.tr/ebu-ducane || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4254] || DİA death-date string: (ö. 12/633) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=4254, heading_ar=أبو دجانة, dt=Sahâbî, cesur ve kahraman bir kişiydi."
+}

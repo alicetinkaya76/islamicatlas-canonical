@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00002887",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "GIYÂSEDDİN MUHAMMED el-HALÎLÎ",
+      "ar": "غياث الدين محمد الخليلي"
+    },
+    "originalScript": {
+      "ar": "غياث الدين محمد الخليلي"
+    },
+    "altLabel": {
+      "tr": [
+        "Hâce Gıyâsüddîn Muhammed b. Ahmed el-Halîlî et-Tebrîzî"
+      ]
+    },
+    "description": {
+      "tr": "Tebriz’de doğdu. Hakkında yeterli bilgi yoktur. Mehdî Beyânî, hattatın Hâce Gıyâseddin Muhammed b. Ahmed el-Halîlî imzasıyla 992 (1584) tarihini taşıyan bir Kur’an’ını Kum şehrinde Ma‘sûme’nin türbesinde gördüğünü bildirir ( Ḫoşnüvîsân , III-IV, 1128). Müstakimzâde Süleyman Sâdeddin ise hattatın İsfahan’da sülüs ve nesih yazılarda akranından ileri olduğunu, bu sebeple İran Şahı I. Tahmasb’ın Osmanlı Padişahı III. Murad’a göndereceği hediyelere ilâve olarak bir mushaf yazılmasını arzu ettiği zaman bu görevin kendisine verildiğini belirterek 983’te (1575) tamamlanan bu mushafın İstanbul’a getirildikten sonra Ebû Eyyûb el-Ensârî’nin türbesine konduğunu, 979’da (1571) yazdığı kırkıncı Kur’an nüshasının da İstanbul’da Sadrazam Murad Paşa Türbesi’nde bulunduğunu söyler (Tuhfe, s. 382). Hattatın ince bir muhakkak hattıyla yazmış olduğu 992 (1584) tarihli ve Hâce Gıyâseddin Muhammed b. Ahmed el-Halîlî et-Tebrîzî imzalı bir Kur’an nüshası halen Üsküdar’da Hacı Selim Ağa Kütüphanesi’nde Hüdâî Efendi bölümünde bulunmaktadır (nr. 17). Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 60 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:giyaseddin-muhammed-el-halili",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=giyaseddin-muhammed-el-halili, https://islamansiklopedisi.org.tr/giyaseddin-muhammed-el-halili",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:06Z",
+    "modified": "2026-05-04T15:34:06Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=giyaseddin-muhammed-el-halili (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Halîlî; Tebrîzî"
+  ],
+  "death_temporal": {
+    "start_ah": 992,
+    "start_ce": 1584,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=giyaseddin-muhammed-el-halili, URL: https://islamansiklopedisi.org.tr/giyaseddin-muhammed-el-halili || DİA birth place: Tebriz || DİA death-date string: (ö. 992/1584’ten sonra) || Chunk count: 1"
+}

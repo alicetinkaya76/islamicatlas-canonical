@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00000899",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Aksungur"
+    },
+    "altLabel": {
+      "tr": [
+        "Kasîmüddevle Aksungur b. Abdillâh"
+      ]
+    },
+    "description": {
+      "tr": "Büyük Selçuklu Sultanı Melikşah’ın memlük ü olan Aksungur, Melikşah’ın Suriye Seferi’ne katıldı. Halep’in zaptedilmesi üzerine Kasîmüddevle unvanıyla bu şehrin valiliğine getirildi (1087). Sultan Melikşah Suriye’nin idaresini kardeşi Tâcüddevle Tutuş’a bıraktı ve onu Fâtımîler’e karşı sefere memur etti. Sultan, Aksungur ile Urfa Emîri Bozan’a da haber gönderip kuvvetleriyle Tâcüddevle Tutuş’a katılmalarını istedi. Ancak Selçuklu ordusu Trablusşam önlerine varınca Tutuş ile ihtilâfa düşen Aksungur ordudan ayrıldı, bu sebeple Tutuş geri dönmek zorunda kaldı. Bundan bir müddet sonra Melikşah’ın ölümü (1092) üzerine tahtta hak iddia ederek saltanat mücadelesine atılan Tutuş, önce Halep üzerine yürüdü. Aksungur, Tutuş’a mukavemet etmeyip onun emrine girdi, fakat daha sonra Emîr Bozan ile birlikte Tutuş’tan ayrıldı ve Selçuklu tahtının asıl vârisi Berkyaruk b. Melikşah’ın tarafına geçti. Tutuş bu durumda Berkyaruk ile savaşı göze alamayarak asker toplamak gayesiyle Suriye’ye döndü. Bozan ile Aksungur’un böylesine kritik bir anda kendisinden ayrılmalarını ihanet olarak kabul eden Tutuş, onlarla hesaplaşmak için tekrar Halep önlerine geldi. Ruyân köyü yakınındaki savaşta Aksungur’u mağlûp edip esir aldı ve öldürttü (1094). Sultan Melikşah’a sadakatle bağlı olan Aksungur halka çok iyi davranır, onların hak ve hukukunu korumaya itina gösterirdi. Yönetimi altındaki bölgelerde adalet ve emniyet hüküm sürmüştür. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 296 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:aksungur--selcuklu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=aksungur--selcuklu, https://islamansiklopedisi.org.tr/aksungur--selcuklu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:aksungur--selcuklu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/aksungur--selcuklu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=aksungur--selcuklu (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 487,
+    "start_ce": 1094,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=aksungur--selcuklu, URL: https://islamansiklopedisi.org.tr/aksungur--selcuklu || DİA death-date string: (ö. 487/1094) || Chunk count: 1"
+}

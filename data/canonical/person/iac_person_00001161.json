@@ -1,0 +1,117 @@
+{
+  "@id": "iac:person-00001161",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ATÂ b. DÎNÂR",
+      "ar": "عطاء بن دينار"
+    },
+    "originalScript": {
+      "ar": "عطاء بن دينار"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’z-Zeyyât (Ebû Talha) Atâ b. Dînâr el-Hüzelî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında bilgi yoktur. Saîd b. Cübeyr, Hakîm b. Şüreyk ve Ebû Yezîd el-Havlânî gibi âlimlerden rivayette bulunmuştur. Ancak Saîd b. Cübeyr’den rivayet ettiği tefsiri ondan bizzat almamış, Halife Abdülmelik b. Mervân’ın isteği üzerine Saîd b. Cübeyr’in telif ettiği bu eseri Emevî sarayında bularak rivayet etmiştir. Doğrudan doğruya Saîd b. Cübeyr’den herhangi bir şey duymuş değildir. Amr b. Hâris, Saîd b. Ebû Eyyûb ve İbn Lehîa gibi birçok kişinin kendisinden rivayette bulunduğu Atâ b. Dînâr güvenilir bir muhaddis (sika, sadûk) olarak değerlendirilmiş, rivayetleri Ṣaḥîḥ-i Buḫârî ile Ebû Dâvûd ve Tirmizî’nin sünenlerinde yer almıştır. Atâ b. Dînâr Mısır’da vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 35 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ata-b-dinar",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ata-b-dinar, https://islamansiklopedisi.org.tr/ata-b-dinar",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ata-b-dinar",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ata-b-dinar",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:6825",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6825, heading_ar=عطاء بن دينار",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ata-b-dinar (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6825]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6825 (heading_ar=عطاء بن دينار) via Track A (DİA→Alam xref bridge). dt=Hadis âlimlerinden"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hüzelî"
+  ],
+  "death_temporal": {
+    "start_ah": 126,
+    "start_ce": 744,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ata-b-dinar, URL: https://islamansiklopedisi.org.tr/ata-b-dinar || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6825] || DİA death place: Mısır || DİA death-date string: (ö. 126/744) || DİA categories: rivayet > tefsir || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6825, heading_ar=عطاء بن دينار, dt=Hadis âlimlerinden",
+  "active_in_places": [
+    "iac:place-00009399",
+    "iac:place-00011312"
+  ],
+  "students": [
+    "iac:person-00003916"
+  ]
+}

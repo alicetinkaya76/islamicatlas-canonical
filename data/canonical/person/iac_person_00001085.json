@@ -1,0 +1,64 @@
+{
+  "@id": "iac:person-00001085",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Arapzâde Mehmed Ârif Efendi"
+    },
+    "description": {
+      "tr": "1152 (1740) yılında doğdu. Şeyhülislâm Atâullah Efendi’nin oğludur. Medrese tahsilini tamamladıktan sonra kısa zamanda mahreç ve bilâd-ı erbaa (bk. KADI ) derecelerini geçerek 1785’te Yenişehr-i Fener, bir süre sonra Mekke kadısı, 1789’da da İstanbul kadısı oldu. 1795’te Anadolu, 1800’de Rumeli kazaskerliğine tayin edildi. Kısa bir süre mâzuliyetten sonra ikinci defa bu göreve getirildi. III. Selim’in tahttan indirilerek yerine IV. Mustafa’nın padişah olmasından sonra şeyhülislâmlık makamında da değişiklik yapıldı ve Şerifzâde Mehmed Atâullah Efendi’nin yerine Ârif Efendi şeyhülislâm oldu (21 Temmuz 1808). Yirmi beş gün gibi çok kısa süren şeyhülislâmlık dönemi oldukça buhranlı geçti. Bu sırada İstanbul’a gelen Alemdar Mustafa Paşa III. Selim’i tekrar tahta çıkarmaya teşebbüs ederek Çelebi Mustafa Paşa’dan zorla sadâret mührünü aldı. Diğer taraftan IV. Mustafa’yı tahttan indirmek için saraya baskı yapmaya başlayan Alemdar, Ârif Efendi’ye de padişaha bu hususu bildirme görevini verdi. Ancak şeyhülislâm böyle bir görevi üstlenmekte tereddüt gösterince Alemdar’ın hakaretine uğradı. Durumu bildirmek üzere padişahın huzuruna çıktığı zaman da iki yüzlülük ve Alemdar taraftarlığı ile suçlandı. Her iki taraftan görmüş olduğu hakaret üzerine büyük bir şaşkınlığa düşen Ârif Efendi, sonunda kendisini toparlayarak padişahın tepkisini Alemdar’a bildirdi. Bunun üzerine Alemdar saraya yaptığı baskında III. Selim’in cesedi ile karşılaşmış, gelişen olaylar sonunda IV. Mustafa’yı tahttan indirerek yerine II. Mahmud’u çıkarmıştı (28 Temmuz 1808). Saltanat değişikliğinden sonra 15 Ağustos 1808’de Ârif Efendi de azledilmiştir. Bundan sonraki hayatını talebe yetiştirerek, ilim ve hatla uğraşarak geçirmiştir. Özellikle ta‘lik yazıda maharet sahibi olmuş, istinsah ettiği on kadar mushafı Ravza-i Mutahhara’ya göndermiştir. 14 Mayıs 1826’da İstanbul’da ölen Ârif Efendi Çarşıkapı’da babası ve diğer bazı yakınlarının bulunduğu Sinan Paşa Medresesi hazîresine defnedilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 331 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:arapzade-mehmed-arif-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=arapzade-mehmed-arif-efendi, https://islamansiklopedisi.org.tr/arapzade-mehmed-arif-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-05-04T15:33:35Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=arapzade-mehmed-arif-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1152,
+    "start_ce": 1740,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1740,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=arapzade-mehmed-arif-efendi, URL: https://islamansiklopedisi.org.tr/arapzade-mehmed-arif-efendi || DİA death-date string: (1740-1826) || Chunk count: 1"
+}

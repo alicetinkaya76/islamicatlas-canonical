@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00003661",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN ÂŞİR, Ebü’l-Abbas",
+      "ar": "أبو العبّاس ابن عاشر"
+    },
+    "originalScript": {
+      "ar": "أبو العبّاس ابن عاشر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Abbâs Ahmed b. Ömer b. Muhammed b. Âşir el-Ensârî el-Endelüsî"
+      ]
+    },
+    "description": {
+      "tr": "Endülüs’ün Şemîne (Jimena) şehrinde doğdu. Bazı kaynaklarda babasının adı Muhammed, dedesinin Ömer olarak kaydedilmektedir. Öğrenimini Şemîne’de tamamladıktan sonra Cezîretülhadrâ’ya (Algeciras) giderek ders vermeye başladı; ayrıca tasavvufla da ilgilendi. Cezîretülhadrâ’nın hıristiyanlar tarafından kuşatılması üzerine oradan ayrılıp hacca gitti. Mağrib’e döndüğünde önce Fas’ta, ardından Miknâse’de bir süre oturduktan sonra Selâ’ya geldi. Buradan Ribâtülfeth’e geçerek Şeyh Ebû Abdullah el-Yâbürî’ye intisap etti ve onun halifesi oldu. Şeyhin ölümünden sonra Selâ’nın merkezinde bulunan Şeyh Ebû Zekeriyyâ’nın zâviyesinde ikamet etmeye başladı. Burada başta Cemmâîlî’nin ʿUmdetü’l-aḥkâm adlı hadis kitabı olmak üzere kitap istinsah ederek geçimini sağlayan İbn Âşir’in etrafında geniş bir mürid halkası meydana geldi. Merînî Sultanı Ebû İnân Fâris, İbn Âşir’i ziyaret etmek için 757’de (1356) Selâ’ya gelmiş, ancak şeyh kendisiyle görüşmeyi kabul etmemiş, bir mektup göndererek tavsiyelerde bulunmuş ve onun gönlünü almıştı. İbn Âşir’in genelde devlet adamlarına karşı bu şekilde davrandığı söylenir. Şerefü’ṭ-ṭâlib müellifi İbn Kunfüz onunla görüşebilmiş olmasını kendisinin büyük bir başarısı olarak değerlendirir. Ahmed Bâbâ et-Tinbüktî, derslerinde genellikle Gazzâlî’nin İḥyâʾü ʿulûmi’d-dîn ’i ile Muhâsibî’nin en-Nesâʾiḫ ’ini okutan İbn Âşir’in tarikatının kendisinin de kuvvetle sarıldığı İḥyâʾ daki fikirler doğrultusunda olduğunu söyler ( Neylü’l-ibtihâc , s. 43). el-Ḥikemü’l-ʿAṭâʾiyye şârihi İbn Abbâd er-Rundî’nin de aralarında bulunduğu birçok âlimin hocası olan İbn Âşir Selâ’da vefat etti. 1009’da (1600) Selâ’dan geçen Makkarî onun kabrini ziyaret ettiğini, halk arasında kerametlerinin anlatıldığını söyler ( Nefḥu’ṭ-ṭîb , VI, 491, 993). İbn Âşir hakkında Ahmed b. Âşir el-Hâfî (ö. 1163/1750) tarafından yazılan Tuḥfetü’z-zâʾir bi-baʿżı menâḳıbı Sîdî el-Ḥâc Aḥmed b. ʿÂşir adlı menâkıbnâme günümüze ulaşmıştır ( EI 2 [İng.] , III, 720). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 330 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-asir-ebul-abbas",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-asir-ebul-abbas, https://islamansiklopedisi.org.tr/ibn-asir-ebul-abbas",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:17Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-asir-ebul-abbas (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî; Endelüsî"
+  ],
+  "death_temporal": {
+    "start_ah": 765,
+    "start_ce": 1364,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-asir-ebul-abbas, URL: https://islamansiklopedisi.org.tr/ibn-asir-ebul-abbas || DİA death place: 1009 || DİA death-date string: (ö. 765/1364) || DİA categories: hadis > tasavvuf > tarikat || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00005000"
+  ],
+  "students": [
+    "iac:person-00003911"
+  ]
+}

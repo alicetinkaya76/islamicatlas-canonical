@@ -1,0 +1,59 @@
+{
+  "@id": "iac:person-00008067",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Şemseddin Candar"
+    },
+    "description": {
+      "tr": "Sinop ve Kastamonu civarına hâkim olan Candaroğulları Beyliği’nin kurucusu."
+    }
+  },
+  "profession": [
+    "philosopher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:semseddin-candar",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=semseddin-candar, https://islamansiklopedisi.org.tr/semseddin-candar",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:11Z",
+    "modified": "2026-05-04T15:35:11Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=semseddin-candar (0 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 708,
+    "start_ce": 1308,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=semseddin-candar, URL: https://islamansiklopedisi.org.tr/semseddin-candar"
+}

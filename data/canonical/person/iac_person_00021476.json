@@ -1,0 +1,99 @@
+{
+  "@id": "iac:person-00021476",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CabdGhaffarMakkawi"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "openiti:1434CabdGhaffarMakkawi",
+        "source_type": "digital_corpus",
+        "page_or_locator": "OpenITI corpus_authors.json id=1434CabdGhaffarMakkawi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "OpenITI corpus snapshot 2024-2026"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "openiti-author-resolve",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T21:23:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T21:23:44Z",
+    "modified": "2026-05-04T21:23:44Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T21:23:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Placeholder person minted by openiti-author-resolve Tier 4 (no T1/T2 match in canonical person index). Pending biographic enrichment in Hafta 6 (DİA chunk re-extraction + cross-source alignment). Authored works will be back-populated by integrity_pass_A_bidirectional after openiti-works adapter."
+      }
+    ],
+    "deprecated": false
+  },
+  "note": "Tier-4 placeholder from OpenITI author_id=1434CabdGhaffarMakkawi. Biographic content sparse pending Hafta 6 enrichment.",
+  "death_temporal": {
+    "start_ce": 2013,
+    "start_ah": 1434,
+    "approximation": "circa"
+  },
+  "authored_works": [
+    "iac:work-00001814",
+    "iac:work-00001930",
+    "iac:work-00002405",
+    "iac:work-00002585",
+    "iac:work-00002711",
+    "iac:work-00002718",
+    "iac:work-00003096",
+    "iac:work-00003270",
+    "iac:work-00003378",
+    "iac:work-00003502",
+    "iac:work-00003654",
+    "iac:work-00003743",
+    "iac:work-00003784",
+    "iac:work-00003796",
+    "iac:work-00003898",
+    "iac:work-00003999",
+    "iac:work-00004072",
+    "iac:work-00004125",
+    "iac:work-00004298",
+    "iac:work-00004299",
+    "iac:work-00004308",
+    "iac:work-00004331",
+    "iac:work-00004352",
+    "iac:work-00004394",
+    "iac:work-00004549",
+    "iac:work-00004701",
+    "iac:work-00004872",
+    "iac:work-00004881",
+    "iac:work-00004892",
+    "iac:work-00004944",
+    "iac:work-00004970",
+    "iac:work-00005038",
+    "iac:work-00005131",
+    "iac:work-00005296",
+    "iac:work-00005337",
+    "iac:work-00005350",
+    "iac:work-00005395",
+    "iac:work-00005577",
+    "iac:work-00005612",
+    "iac:work-00005697",
+    "iac:work-00005704",
+    "iac:work-00005808",
+    "iac:work-00005887",
+    "iac:work-00006253",
+    "iac:work-00006359",
+    "iac:work-00006470",
+    "iac:work-00006865"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00004331",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’s-SAYRAFÎ, Ebû Zekeriyyâ",
+      "ar": "أبو زكريّا ابن الصيرفي"
+    },
+    "originalScript": {
+      "ar": "أبو زكريّا ابن الصيرفي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Zekeriyyâ Cemâlüddîn Yahyâ b. Ebî Mansûr b. Ebi’l-Feth el-Harrânî"
+      ]
+    },
+    "description": {
+      "tr": "583 (1187) yılında Harran’da doğdu. İbnü’l-Hubeyşî diye de anılır. Abdülkādir b. Abdullah er-Ruhâvî ve Hammâd b. Hibetullah el-Harrânî’den, ayrıca 607’de (1210) gittiği Bağdat’ta İbn Taberzed, İbnü’l-Ahdar, İbn Menînâ, Ebü’l-Bekā el-Ukberî, Ebû Muhammed İbnü’l-Gazzâl; Dımaşk’ta Ebü’l-Yümn el-Kindî, İbnü’l-Harestânî, İbn Mülâib, İbnü’l-Cülâcülî, Ebû Abdullah İbnü’l-Bennâ; Musul’da Mahmûd b. Mevdûd’dan hadis dinledi. Dımaşk’ta Muvaffakuddin İbn Kudâme, Bağdat’ta Ebü’l-Bekā el-Ukberî ve Ebû Bekir İbn Guneyme el-Halâvî’den fıkıh öğrendi. Ukberî’den Arapça dersleri aldı ve et-Tibyân fî iʿrâbi’l-Ḳurʾân adlı kitabını okudu. Tahsil sırasında ve daha sonra uzun süre Bağdat’ta kalan İbnü’s-Sayrafî burada ve Harran’da öğretim, fetva ve telifle meşgul oldu, birçok kitap istinsah etti. Ardından Dımaşk’a yerleşti; Emeviyye Camii’nde ders verdi. Aralarında Takıyyüddin İbn Teymiyye, Hâfız Abdülmü’min ed-Dimyâtî, Mes‘ûd b. Ahmed el-Hârisî, Ebü’l-Hasan İbnü’l-Attâr, İbnü’l-Habbâz, Bedreddin İbn Cemâa ve Zehebî’nin bulunduğu birçok talebe yetiştirdi. 4 Safer 678 (16 Haziran 1279) tarihinde Dımaşk’ta vefat etti ve Bâbülferâdis Kabristanı’na defnedildi. İbnü’s-Sayrafî sünnete aşırı derecede bağlı, müttaki, bid‘at ehline karşı sert ve hakkı söylemekten çekinmeyen bir âlimdi. Kaynaklarda adı geçen eserleri şunlardır: Nevâdirü’l-meẕheb , Deʿâʾimü’l-İslâm fî vücûbi’d-duʿâʾ li’l-imâm (Müstansır-Billâh için yazılmıştır), İntihâzü’l-furaṣ fî men eftâ bi’r-ruḫaṣ , ʿUḳūbâtü’l-cerâʾim (Dımaşk Valisi İftihârüddin el-Harrânî adına yazılmıştır), Âdâbü’d-duʿâʾ . Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 200 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnus-sayrafi-ebu-zekeriyya",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnus-sayrafi-ebu-zekeriyya, https://islamansiklopedisi.org.tr/ibnus-sayrafi-ebu-zekeriyya",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:27Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:27Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnus-sayrafi-ebu-zekeriyya (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Harrânî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 583,
+    "start_ce": 1187,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 678,
+    "start_ce": 1279,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnus-sayrafi-ebu-zekeriyya, URL: https://islamansiklopedisi.org.tr/ibnus-sayrafi-ebu-zekeriyya || DİA birth place: Harran || DİA death place: Dımaşk || DİA death-date string: (ö. 678/1279) || DİA categories: fıkıh > hadis > sünnet || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00009266",
+    "iac:work-00009285"
+  ],
+  "teachers": [
+    "iac:person-00002373",
+    "iac:person-00003908",
+    "iac:person-00006460",
+    "iac:person-00007459"
+  ],
+  "students": [
+    "iac:person-00003208",
+    "iac:person-00004054"
+  ]
+}

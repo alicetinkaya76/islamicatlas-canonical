@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00003814",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Gaylân",
+      "ar": "ابن غيلان"
+    },
+    "originalScript": {
+      "ar": "ابن غيلان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Tâlib Muhammed b. Muhammed b. İbrâhîm b. Gaylân el-Bezzâz el-Hemdânî el-Ġaylâniyyât olarak tanınan hadis cüzlerinin râvisi."
+      ]
+    },
+    "description": {
+      "tr": "Bizzat kendisi, dedesi İbrâhim b. Gaylân’ın kayıtlarına göre Muharrem 347’de (Mart-Nisan 958) doğduğunu belirtmiştir. Ağabeyi Ebü’l-Kāsım Gaylân, Hatîb el-Bağdâdî’nin hocalarından güvenilir bir muhaddisti. İbn Gaylân, başta Ebû Bekir eş-Şâfiî olmak üzere Nîşâburlu muhaddis İbrâhim b. Muhammed el-Müzekkî, Basralı hadis râvisi Ebü’l-Hasan Ali b. Kāsım en-Neccâd gibi âlimlerden hadis rivayet etti. Kendisinden de Hatîb el-Bağdâdî, Ebü’l-Fazl İbn Hayrûn, kıraat âlimi İbn Sivâr el-Bağdâdî, Ebû Ali Ahmed b. Muhammed el-Beredânî, Ca‘fer b. Ahmed es-Serrâc hadis öğrendi. Hatîb el-Bağdâdî’nin belirttiğine göre sadûk bir râvi olan İbn Gaylân 6 Şevval 440 (14 Mart 1049) tarihinde Bağdat’ta vefat etti ve Derbüabde’deki evine defnedildi. Zehebî, İbn Gaylân’ın hocası Ebû Bekir eş-Şâfiî’den 352-354 (963-965) yılları arasında rivayet ettiği 10.000 hadisin on bir cüz tuttuğunu yazmıştır. Ebû Bekir eş-Şâfiî’nin rivayetleri el-Fevâʾid adıyla bilinmekle beraber İbn Gaylân onun en genç öğrencisi olduğu ve uzun bir hayat sürmesi sebebiyle bu hadisleri Ebû Bekir eş-Şâfiî’den en son kendisi rivayet ettiği için eser el-Ġaylâniyyât diye tanınmıştır. Fevâʾidü’l-Bezzâz (Ziriklî, VII, 21) ve el-Fevâʾidü’l-münteḫabetü’l-ʿavâlî ʿani’ş-şüyûḫi’l-meşhûre bi’l-Ġaylâniyyât diye anılan eseri Dârekutnî (ö. 385/995) tahriç etmiş (bu çalışmanın beş cüzü Dârü’l-kütübi’l-Mısriyye’de bulunmaktadır, bk. Fuâd Seyyid, II, 197), ayrıca eserde bulunan ve Ebû Bekir eş-Şâfiî’den itibaren dört râvi ile Hz. Peygamber’e ulaşılan (rubâî) rivayetleri de el-Eḥâdîs̱ü’r-rubâʿiyyât adıyla bir araya getirmiştir (Dârü’l-kütübi’z-Zâhiriyye, Mecmua, nr. 85/2). Muhammed Murtazâ ez-Zebîdî (ö. 1205/1791), eserin Dârekutnî tarafından yapılan tahrîcinin on bir cüzden meydana gelen bir cilt içinde özel kütüphanesinde bulunduğunu ve kendisinin onu âlî senedlerle rivayet ettiğini söylemektedir ( Tâcü’l-ʿarûs , VIII, 54). el-Ġaylâniyyât ’ın muhtelif kısımları British Museum’da (Suppl., 135, Or. 3059, 136), Tübingen Üniversitesi Kütüphanesi’nde (nr. 96), Mekke’de Mektebetü’l-Harem’de (Hadis, nr. 579) ve Kahire’de (Sezgin, I, 191) bulunmaktadır. Heysemî’nin eser üzerinde Tertîbü eḥâdîs̱i’l-Ġaylâniyyât adıyla bir çalışma yaptığı kaydedilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 505 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-gaylan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-gaylan, https://islamansiklopedisi.org.tr/ibn-gaylan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:19Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:19Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-gaylan (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hemdânî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 440,
+    "start_ce": 1049,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-gaylan, URL: https://islamansiklopedisi.org.tr/ibn-gaylan || DİA death place: Derbüabde || DİA death-date string: (ö. 440/1049) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002146"
+  ],
+  "students": [
+    "iac:person-00003313",
+    "iac:person-00006914"
+  ]
+}

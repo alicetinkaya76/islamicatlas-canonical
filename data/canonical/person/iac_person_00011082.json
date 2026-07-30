@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00011082",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Ẓāfir al-Ayyūbī",
+      "tr": "ez-Zâfir el-Eyyûbî",
+      "ar": "الظافر الأيوبي"
+    },
+    "originalScript": {
+      "ar": "الظافر الأيوبي"
+    },
+    "description": {
+      "tr": "Eyyûbî Devleti'nin emirlerinden",
+      "en": "One of the emirs of the Ayyubid State"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Khiḍr (al-Ẓāfir, Muẓaffar al-Dīn, Abū al-ʿAbbās) b. Yūsuf b. Ayyūb"
+    },
+    "altLabel": {
+      "tr": [
+        "Hıdır (ez-Zâfir, Muzaffareddin, Ebü'l-Abbâs) b. Yûsuf b. Eyyûb"
+      ],
+      "ar": [
+        "خضر (الظافر، مظفر الدين، أبو العباس) بن يوسف بن أيوب"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:3333",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=3333",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:57Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=3333 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:3333."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 627,
+    "start_ce": 1230,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=3333, heading_ar=الظافر الأيوبي || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+  "active_in_places": [
+    "iac:place-00011312"
+  ],
+  "kunya": "أبو العباس"
+}

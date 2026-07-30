@@ -1,0 +1,125 @@
+{
+  "@id": "iac:person-00003844",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Hamza",
+      "ar": "ابن حمزة"
+    },
+    "originalScript": {
+      "ar": "ابن حمزة"
+    },
+    "altLabel": {
+      "tr": [
+        "Burhânüddîn İbrâhîm b. Muhammed b. Kemâliddîn el-Hüseynî ed-Dımaşkī el-Beyân ve’t-taʿrîf adlı eseriyle tanınan muhaddis."
+      ]
+    },
+    "description": {
+      "tr": "5 Zilkade 1054’te (3 Ocak 1645) Dımaşk’ta doğdu. Aslen Harranlı olup soyunun Hz. Hüseyin’e ulaştığı söylenmektedir. İlk tahsilini babasının ve ağabeyinin yanında yaptı. Dil, hadis ve fıkıh konularında Dımaşk’ta Muhammed b. Süleyman el-Mağribî, Haskefî, Abdülbâkī el-Hanbelî; Mısır’da Abdülbâkī b. Yûsuf ez-Zürkānî; Haremeyn’de Ahmed b. Muhammed en-Nahlî, İbn Sâlim el-Basrî, Hasan b. Ali el-Uceymî, İbrâhim b. Hasan el-Kûrânî’den ders aldı. Ayrıca Yahyâ eş-Şâvî, İbrâhim el-Fettâl, Muhammed el-Mehâsinî, İsmâil el-Mehâsinî, Muhammed b. Balabân es-Sâlihî, Abdülkādir es-Sûfî ve Kemâleddin el-Mâlikî gibi hocalardan faydalandı. İstanbul’da II. Süleyman’ın hocası olan Molla Abdülvehhâb’ın, Üsküdar Camii imamı Abdülkādir Makdisî’nin ve Medine kadısı Molla Mûsâ Kastamonî’nin derslerine devam etti. İbn Hamza Sâlihiyye’deki Mârdâniyye, Emcediyye ve Cevziyye medreselerinde ders verir, senenin üç ayında Nahhâsîn mahallesindeki evinde okuttuğu Ṣaḥîḥ-i Buḫârî derslerine çok sayıda dinleyici iştirak ederdi. Ayrıca Dımaşk’ta kadı nâibliğiyle nakîbüleşraflık yaptı. 1093 (1682) yılında Mısır nakîbüleşraflığına tayin edildi. 1119 (1707-1708) yılında hacca giden İbn Hamza dönüşte Zâtülhac mevkiinde 9 Safer 1120 (30 Nisan 1708) tarihinde vefat etti ve orada defnedildi. Eserleri. 1. el-Beyân ve’t-taʿrîf fî esbâbi vürûdi’l-ḥadîs̱i’ş-şerîf . Telifine Dımaşk’ta başlanıp 4 Muharrem 1119’da (7 Nisan 1707) İstanbul’da tamamlanan eser hadislerin vürûd sebeplerine dair olup kendi alanında en geniş çalışmadır. Eserin çeşitli baskıları yapılmıştır (meselâ bk. I-II, Halep 1329). 2. Ḥâşiye ʿalâ şerḥi’l-Elfiyye . İbn Hamza’nın, İbn Mâlik et-Tâî’nin el-Elfiyye ’sine onun oğlu Bedreddin Muhammed b. Muhammed (İbnü’n-Nâzım) tarafından yapılan ed-Dürretü’l-muḍıyye (Beyrut 1312) adlı şerh üzerine yazmaya başladığı, ancak tamamlayamadığı bir çalışmasıdır. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 27 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-hamza",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-hamza, https://islamansiklopedisi.org.tr/ibn-hamza",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-hamza",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-hamza",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:10875",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=10875, heading_ar=ابن حمزة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:19Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:19Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-hamza (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[254, 10875]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-hamza)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=10875 (heading_ar=ابن حمزة) via Track A (DİA→Alam xref bridge). dt=Fıkıhçı, Osmanlı Devleti âlimlerinden"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hüseynî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 1120,
+    "start_ce": 1708,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-hamza, URL: https://islamansiklopedisi.org.tr/ibn-hamza || El-Aʿlām (Ziriklī) cross-reference: alam_id=[254, 10875] || DİA birth place: Dımaşk || DİA death place: Dımaşk || DİA death-date string: (ö. 1120/1708) || DİA categories: hadis > fıkıh || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=10875, heading_ar=ابن حمزة, dt=Fıkıhçı, Osmanlı Devleti âlimlerinden",
+  "active_in_places": [
+    "iac:place-00001070",
+    "iac:place-00003866"
+  ],
+  "teachers": [
+    "iac:person-00003299",
+    "iac:person-00003889",
+    "iac:person-00006393",
+    "iac:person-00007447",
+    "iac:person-00007909"
+  ],
+  "students": [
+    "iac:person-00005960"
+  ]
+}

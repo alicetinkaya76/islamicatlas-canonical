@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00001560",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BİŞR b. MUFADDAL",
+      "ar": "بشر بن المفضل"
+    },
+    "originalScript": {
+      "ar": "بشر بن المفضل"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû İsmâîl Bişr b. el-Mufaddal b. Lâhiḳ er-Rekāşî el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "Kuzey Arabistan’da yaşayan Benî Rekāş’ın mevlâ sı olduğu için Rekāşî diye anılır. Hayatı hakkında fazla bilgi yoktur. Başta babası olmak üzere Muhammed b. Münkedir, Humeyd et-Tavîl, Yahyâ b. Saîd el-Ensârî gibi muhaddislerden hadis okudu. Kendisinden de Müsedded b. Müserhed, Ali b. Medînî, Ahmed b. Hanbel ve Amr el-Fellâs gibi tanınmış muhaddisler hadis rivayet ettiler. Ahmed b. Hanbel’in Basralı muhaddisler arasında adâlet ve zabt bakımından varılacak en yüksek mertebede olduğunu söylediği Bişr, hadis münekkidi Yahyâ b. Maîn tarafından da Basra’nın en güvenilir muhaddislerinden biri diye gösterilmiştir. Rivayet ettiği hadislerde hiç yanılmayan iki kişi bulunduğunu söyleyen Ebû Dâvûd, Bişr b. Mufaddal ile İbn Uleyye’nin adlarını zikretmiş, diğer münekkitler de onun güvenilir bir râvi olduğunda ittifak etmişlerdir. Talebesi Ali b. Medînî, Bişr’in gün aşırı oruç tuttuğunu ve her gün 400 rek‘at namaz kıldığını söylemektedir. Rivayetleri Kütüb-i Sitte ’de yer alan ve Hz. Osman taraftarlarından (Osmâniyye) olduğu kaydedilen Bişr b. Mufaddal’ın seksen yıllık bir ömürden sonra 187’de (803; veya 186/802) vefat ettiği bildirilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 223 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bisr-b-mufaddal",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bisr-b-mufaddal, https://islamansiklopedisi.org.tr/bisr-b-mufaddal",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:44Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bisr-b-mufaddal (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Basrî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 187,
+    "start_ce": 803,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bisr-b-mufaddal, URL: https://islamansiklopedisi.org.tr/bisr-b-mufaddal || DİA death place: 187 || DİA death-date string: (ö. 187/803 [?]) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003439",
+    "iac:person-00003506",
+    "iac:person-00004274",
+    "iac:person-00005670",
+    "iac:person-00007655"
+  ],
+  "students": [
+    "iac:person-00000753",
+    "iac:person-00000935",
+    "iac:person-00003760",
+    "iac:person-00005853"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00000371",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abaza Şeyhi"
+    },
+    "altLabel": {
+      "tr": [
+        "Seyyid Abdürrahîm-i Bayrâmî"
+      ]
+    },
+    "description": {
+      "tr": "Kayseri’de doğdu. Medrese tahsilinden sonra Bayramiyye tarikatına intisap etti. Kayseri’de Hoca Vatan Zâviyesi’nde irşadla meşgul oldu. Abaza Paşa isyan edip Erzurum’dan Kayseri’ye geldiği zaman ona yardımcı oldu. Her işinde kendisine akıl hocalığı yaptığı için “Abaza Şeyhi” diye şöhret kazandı. Abaza Paşa’nın ölümünden sonra İstanbul’a geldi. Saraya nüfuz edip IV. Murad’ın yakınları arasına girmeyi başardı. Kendisine Üsküdar’da bir konak verildi. Özellikle padişahın gördüğü rüyaları tabir ederek onun tavır ve hareketlerini etkilemeye çalıştı. Padişahı, “Yeniçeri taifesinden sizin vücudunuza zarar görünür” diyerek yeniçeriler aleyhine kışkırtmaya kalkışınca idam edildi. Kabri Üsküdar’da Mihrimah Sultan Medresesi’nin yanındadır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 12 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abaza-seyhi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abaza-seyhi, https://islamansiklopedisi.org.tr/abaza-seyhi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-05-04T15:39:35Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abaza-seyhi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:33Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1047,
+    "start_ce": 1638,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abaza-seyhi, URL: https://islamansiklopedisi.org.tr/abaza-seyhi || DİA birth place: Kayseri || DİA death place: Üsküdar || DİA death-date string: (ö. 1047/1638) || DİA categories: tarikat || Chunk count: 1",
+  "birth_place": "iac:place-00015095"
+}

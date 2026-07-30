@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00005490",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEVDÛD-i ÇİŞTÎ",
+      "ar": "مودود چشتى"
+    },
+    "originalScript": {
+      "ar": "مودود چشتى"
+    },
+    "description": {
+      "tr": "430’da (1038-39) doğdu. Hoca Mevdûd-i Çiştî ve Hoca Kutbüddîn-i Çiştî olarak da bilinir. Hayatının çoğunu Herat yakınındaki Çişt kasabasında geçirdi. Hayatına dair sınırlı bilgiler, Çiştiyye tarihiyle ilgili ilk kaynaklardan Emîrhord’un Siyerü’l-evliyâʾ adlı eseriyle Abdurrahman-ı Câmî’nin Nefeḥâtü’l-üns ’üne dayanır. Mevdûd-i Çiştî, Hoca Muhammed b. Ebû Ahmed-i Çiştî’nin yeğeni ve halifesi olan Hoca Yûsuf b. Muhammed’in oğludur. İlk eğitimini babasından aldı ve Kur’an’ı ezberledi. On altı yaşına geldiğinde öğreniminde belli bir mesafe almıştı. 459 (1067) yılında babasını kaybedince onun vasiyeti üzerine yerine geçti. Bazı araştırmacıların babasını ve şeyhini Ebû Yûsuf şeklinde kaydetmesi ( DİA , VIII, 344) muhtemelen Siyerü’l-evliyâʾ daki karışıklıktan kaynaklanmıştır. Bu eserin ilgili bölümünde (s. 120-121) babası bazan “Hoca Ebû Yûsuf” şeklinde, bazan da diğer kaynaklarda olduğu gibi “Hoca Yûsuf” şeklinde zikredilmiştir. Mevdûd-i Çiştî’nin henüz kemale ermeden babasının yerine şeyh olmasının ilk zamanlar bazı problemlere sebep olduğu anlaşılmaktadır. Ancak daha sonra Çişt şehrine gelen dönemin büyük mutasavvıflarından Ahmed-i Nâmekī-yi Câmî’nin onu uyardığı, şeyhliği bırakarak önce ilim tahsil etmesi gerektiğini, zira ilmi olmayan zâhidlerin şeytanın maskarası olduğunu söylediği, bunun üzerine Mevdûd’un Belh ve Buhara tarafına giderek dört yıl müddetle “ilm-i zâhir ve bâtın” tahsilinde bulunduğu nakledilmektedir. Rivayete göre Câmî bu uyarıyı, Mevdûd’un 2000 silâhlı müridiyle onu Çişt şehrinden çıkarmak üzere teşebbüse geçtiği sırada yapmıştır. Kudüs ve Semerkant gibi şehirleri de ziyaret eden Mevdûd’un çevresinde birçok mürid toplandı. Oğlu ve halifesi Hoca Ahmed, Hoca Şerîf-i Zendenî, Şâh-ı Sincan ve Hoca Sebzipûşî-i Âzerbaycânî bunların en önemlilerindendir. Minhâcü’l-ʿârifîn ve Ḫulâṣatü’ş-şerîʿa (Gulâm Ali Âryâ, s. 79) isimli eserleri yazdığı kaydedilirse de bunlar günümüze ulaşmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2004 yılında Ankara’da basılan 29. cildinde, 429-430 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mevdud-i-cisti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mevdud-i-cisti, https://islamansiklopedisi.org.tr/mevdud-i-cisti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mevdud-i-cisti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mevdud-i-cisti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:40Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mevdud-i-cisti (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 459,
+    "start_ce": 1067,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 527,
+    "start_ce": 1133,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mevdud-i-cisti, URL: https://islamansiklopedisi.org.tr/mevdud-i-cisti || DİA death-date string: (ö. 527/1133) || DİA categories: rivayet || Chunk count: 1"
+}

@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00002095",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Dürrî Mehmed Efendi"
+    },
+    "description": {
+      "tr": "Osmanlı Devleti’nde pek çok âlim ve altı şeyhülislâm yetiştiren Dürrîzâdeler ailesinin ilk ferdi olup İlyas Efendi’nin oğludur. Medrese tahsilini tamamladıktan sonra müderris oldu. IV. Mehmed devri kazaskerlerinden Reîsülulemâ Abdülkadir Efendi’nin kızı ile evlendi. 1116’da (1704-1705) Süleymaniye müderrisi iken kadılık mesleğine geçti ve 1707’de Mısır, 1716’da Mekke, 1720’de İstanbul kadılığına getirildi. Bu sonuncu görevinden, İstanbul fırıncı esnafının narha riayet etmemesi hususundaki ihmali ileri sürülerek 1721’de azledildi (Râşid, V, 276-277). Uzun bir süre bekledikten sonra 1726’da mâzul İstanbul kadılarının en kıdemlisi olarak Anadolu kazaskerliği ne tayin edildi. Ancak kadıların Sadrazam Nevşehirli Damad İbrâhim Paşa’ya şikâyette bulunarak Dürrî Efendi’nin kadı tayinlerinde tezkirecilerinin sözüne uyup usul ve kıdeme aykırı tevcihlerde bulunduğunu bildirmeleri üzerine görevden alındı ve İstanbul’da oturmasına izin verilmeyip arpalığı olan Tatarpazarcığı ’na gitmesi emredildi. Bir müddet sonra Rumeli kazaskerliği pâyesini alan Dürrî Mehmed Efendi, Patrona Halil ayaklanması nın ardından Ekim 1730’da bilfiil Rumeli kazaskeri oldu. Dokuz ay kadar sonra bu görevden ayrıldı ve Ağustos 1734’te ikinci defa aynı göreve getirildi. 3 Cemâziyelâhir 1147 (31 Ekim 1734) tarihinde şeyhülislâmlığa tayin edildi. Bu sırada oldukça yaşlı idi. Şubat 1736’da felç oldu. I. Mahmud, rahatsızlığı geçinceye kadar düzenlediği fetva, hüccet vb. evrakta imza yerine mühür kullanmasına izin verdi. Dürrî Efendi rahatsızlığı sırasında da devlet meseleleriyle ilgilendi, ancak durumunun giderek ağırlaşması üzerine 1 Zilhicce 1148’de (13 Nisan 1736) azledildi. Hayatının kalan kısmını Üsküdar’daki evinde geçirdi. Vefatında Karacaahmet Miskinler Tekkesi yakınındaki Yeşilkapı Mezarlığı’na defnedildi. Dürrî Efendi’nin müderrislik yapan oğlu Nûreddin genç yaşta vefat etmiş (1722), diğer oğlu Dürrîzâde Mustafa Efendi ise şeyhülislâm olmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 35 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:durri-mehmed-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=durri-mehmed-efendi, https://islamansiklopedisi.org.tr/durri-mehmed-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:durri-mehmed-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/durri-mehmed-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:53Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=durri-mehmed-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1149,
+    "start_ce": 1736,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=durri-mehmed-efendi, URL: https://islamansiklopedisi.org.tr/durri-mehmed-efendi || DİA death place: Üsküdar || DİA death-date string: (ö. 1149/1736) || DİA categories: fetva || Chunk count: 1"
+}

@@ -1,0 +1,124 @@
+{
+ "@id": "iac:person-00000342",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Al-Suyuti",
+   "tr": "Süyûtî",
+   "ar": "السيوطي"
+  },
+  "originalScript": {
+   "ar": "السيوطي"
+  },
+  "altLabel": {
+   "en": [
+    "Jalal al-Din Abd al-Rahman al-Suyuti"
+   ],
+   "tr": [
+    "Celâleddîn Abdurrahmân es-Süyûtî"
+   ],
+   "ar": [
+    "جلال الدين عبد الرحمن السيوطي"
+   ]
+  },
+  "description": {
+   "tr": "Kur'an ilimleri üzerine kesin eser; her İslam disiplininde 500'den fazla eser yazdı || Mısırlı polimat; 600'den fazla eser yazdığı rivayet edilir. el-İtkân fî Ulûmi'l-Kur'ân Kur'ân ilimlerinin ansiklopedik sentezi, Târîhu'l-Hulefâ ise halifelik tarihinin temel kaynağıdır. || [Tarih notu] Sartain, Süyûtî'nin otobiyografik eserlerini detaylı incelemiş ve 'son büyük polimat' imajını eleştirmiştir. Eserlerin çoğunun derleme (compilation) niteliğinde olduğu tartışılmaktadır.",
+   "en": "Definitive work on Quran sciences; authored over 500 works across every Islamic discipline || Most prolific scholar of the Mamluk era with 500+ works; claimed to have reached ijtihad || [Historiographical note] His claim of being a mujtahid was controversial; unmatched productivity",
+   "ar": "عالم موسوعي مصري؛ يُروى أنه ألّف أكثر من ستمئة مؤلف. الإتقان في علوم القرآن تركيب موسوعي لعلوم القرآن، وتاريخ الخلفاء مصدر أساسي لتاريخ الخلافة. || [Historiographical note] درس سارتاين أعمال السيوطي الذاتية بالتفصيل ونقد صورة 'آخر العلماء الموسوعيين الكبار'. يُناقش أن كثيرًا من مؤلفاته ذات طابع تجميعي."
+  }
+ },
+ "profession": [
+  "scholar",
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0167",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0167",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   },
+   {
+    "source_id": "alatli:E0852",
+    "source_type": "secondary_scholarly",
+    "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-07-24T05:45:29Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0167 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-24T05:45:29Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alatli augment (H25, Tier-1 conf 1.0): ['derived_from_layers']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (222-342-7215-12706) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000222 lehine yumuşak-silindi. Gerekçe: Dördü de Celâleddin es-Süyûtî'dir (ö. 1505); 12706'nın Asyût koordinatı (27.18, 31.18) onun nisbesiyle uyumlu, 'ruler' rolü ise etiket gürültüsüdür."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000222"
+ },
+ "birth_temporal": {
+  "start_ce": 1445,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1505,
+  "approximation": "exact"
+ },
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q468432",
+   "confidence": 1.0,
+   "method": "openrefine_v3",
+   "reviewed": false,
+   "note": "Auto-matched via OpenRefine recon (top result for 'Suyuti')."
+  }
+ ],
+ "note": "Promoted from science_layer.json scholar id=scholar_0167, lecture_week=n/a. || Key works: {'title': {'en': 'al-Itqan fi Ulum al-Quran', 'tr': \"el-İtkân fî Ulûmi'l-Kur'ân\"}, 'year': 1498, 'field': 'religious_sciences', 'significance': {'en': 'Definitive work on Quran sciences; authored over 500 works across every Islamic discipline', 'tr': \"Kur'an ilimleri üzerine kesin eser; her İslam disiplininde 500'den fazla eser yazdı\"}} || Modern parallel: Like an AI that writes documentation for every framework — incomparably productive",
+ "birth_place": "iac:place-00009399",
+ "active_in_places": [
+  "iac:place-00009399"
+ ],
+ "authored_works": [
+  "iac:work-00000201"
+ ],
+ "derived_from_layers": [
+  "alatli"
+ ]
+}

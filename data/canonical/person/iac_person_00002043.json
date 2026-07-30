@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00002043",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Dilâver Han"
+    },
+    "description": {
+      "tr": "Bazı kaynaklara göre asıl adı Hasan, Hüseyin veya Âmid Şah Dâvud’dur. Onun Muizzüddin Muhammed b. Sâm’ın (Şehâbeddin Gūrî) soyundan geldiği kabul edilmektedir. Tarih sahnesine çıkışı Delhi Sultanı Fîrûz Şah Tuğluk dönemine rastlar. Bu sırada kendisine sultan tarafından bir unvan ve mansıp verilmiştir. Dhâr şehrindeki Şeyh Kemâleddin Mâlvî’nin türbesinde bulunan bir mezar taşı kitâbesinden, 1392-1393 yıllarında Mâlvâ valisi olduğu anlaşılmaktadır. Dilâver Han adını ne zaman aldığı tam olarak bilinmemekle birlikte bunun kendisine Fîrûz Şah Tuğluk tarafından verilmiş olduğu tahmin edilmektedir. Fîrûz Şah’ın oğlu Muhammed Şah da onu Mâlvâ sûbedar ı tayin etmiştir. Dilâver Han, Fîrûz Şah’ın ölümünden sonraki karışık dönemde de Mâlvâ’daki görevini sürdürmekteydi. 1398’de Timur’un Hindistan seferi sırasında ülkesinden kaçan Delhi Sultanı Nâsırüddin Mahmûd Şah Tuğluk’un Mâlvâ’ya sığınmasını sağladı; ona hükümdar muamelesi yaptı ve 1401’e kadar onu himaye etti. Ancak oğlu Alp Han (Hûşeng Şah Gūrî) babasının bu bağlılığını tasvip etmeyerek ona karşı çıktı ve bu yüzden Mândû’ya gönderildi. Mahmud Şah’ın 1401’de Delhi’ye gidişi üzerine 1392’den beri yıllık vergisini ödememiş olan Dilâver Han oğlunun da teşvikiyle bağımsızlığını ilân etti. Ancak ömrü bu bağımsızlığın sonuçlarını görmeye yetmedi ve 1405’te âniden öldü. Kendisinin muhteris oğlu Alp Han tarafından zehirletildiği de iddia edilmektedir. Nitekim komşu Gucerât Sultanı I. Muzaffer Şah, yakın dostu ve kan kardeşi Dilâver Han’ın zehirletildiğini öne sürerek intikam için Mâlvâ’ya yürümüş ve Alp Han’ı yakalamışsa da daha sonra serbest bırakarak Dhâr’a göndermişti. Mâlvâ’da ilk defa müstakil bir devlet kuran Dilâver Han’ın Dhâr’da bir cami-mescid yaptırdığı bilinmektedir. Tüzük-i Cihângîrî ’de bu binanın inşasına dair verilen 870 (1465-66) tarihi, doğu kapısı üzerindeki kitâbenin yanlış okunuşundan ileri gelmiş olup kuzey girişi üzerinde mevcut kitâbe yapılış tarihi olarak 807 yılı Receb ayını (Ocak 1405) gösterir. Ayrıca onun Mândû’da kendi adını taşıyan bir mescidle kalenin Târâpûr girişini yaptırdığı da anlaşılmaktadır. Bu sonuncu eserdeki kitâbede her ne kadar onun adı zikredilmekteyse de bu yapının ölümünden sonra tamamlanmış olduğu sanılmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 296-297 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dilaver-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dilaver-han, https://islamansiklopedisi.org.tr/dilaver-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:dilaver-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/dilaver-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:53Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dilaver-han (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 808,
+    "start_ce": 1405,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dilaver-han, URL: https://islamansiklopedisi.org.tr/dilaver-han || DİA death-date string: (ö. 808/1405) || Chunk count: 1"
+}

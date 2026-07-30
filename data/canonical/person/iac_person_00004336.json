@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00004336",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’s-SEKEN",
+      "ar": "ابن السكن"
+    },
+    "originalScript": {
+      "ar": "ابن السكن"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Alî Saîd b. Osmân b. Saîd b. es-Seken el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "294’te (907) Bağdat’ta doğdu. Ticaretle uğraştığından Bezzâz veya Bezzâr lakabıyla anılır. Mâverâünnehir, Basra, Kûfe, Dımaşk, Harran, Horasan, Nîşâbur, Vâsıt gibi merkezleri dolaşarak tahsil gördü ve Mısır’a yerleşti. Ebû Arûbe, Ebü’l-Kāsım el-Begavî, İbn Ebû Dâvûd, İbn Cevsâ, Tahâvî gibi muhaddislerden hadis dinledi. Horasan’da Buhârî’nin el-Câmiʿu’ṣ-ṣaḥîḥ ’ini eserin râvilerinden olan Firebrî’den okuma imkânı buldu. Bu eserin Mısır’da ilk defa İbnü’s-Seken tarafından tanınıp yayıldığı ifade edilmektedir. 343’te (954) Mısır’daki evinde kendisinden el-Câmiʿu’ṣ-ṣaḥîḥ ’in tamamını kıraat metoduyla alan Abdullah b. Muhammed el-Cühenî ile Ebû Abdullah İbn Mende, Rabaî, İbn Müferric, Ebü’l-Kāsım İbnü’d-Debbâğ, Abdülganî el-Ezdî başta olmak üzere pek çok talebe ondan istifade etti. Ticaretle uğraştığından seyahatlerinde maddî sıkıntı çekmediği anlaşılan, hadis rivayeti yanında hadislerde görülebilecek gizli kusurlar ve râvilerle ilgili cerh ve ta‘dîl sahasında yetişkin bir âlim olduğu söylenen İbnü’s-Seken, Buhârî ve Müslim’in el-Câmiʿu’ṣ-ṣaḥîḥ ’leri ile Ebû Dâvûd ve Nesâî’nin es-Sünen ’lerini güvenilir bulduğu için tavsiye etmiş, bunların temel kitaplar olduğunu belirtmiştir. İbnü’s-Seken 15 Muharrem 353’te (2 Şubat 964) Mısır’da vefat etti. Eserleri. 1. eṣ-Ṣaḥîḥu’l-münteḳā (es-Sünenü’ṣ-ṣıḥâḥu’l-meʾs̱ûre ʿan Resûlillâh) . Ahkâm hadislerinin senedleri hazfedilerek fıkıh bablarına göre düzenlendiği hacimli bir eser olup Topkapı Sarayı Müzesi Kütüphanesi’nde bulunan (nr. 624, vr. 28 b -29 a ) ve VIII. (XIV.) yüzyılda istinsah edildiği anlaşılan risâle de muhtemelen bu eserden bir parçadır. Hediyyetü’l-ʿârifîn ’de (I, 389) İbnü’s-Seken’in es-Sünen fi’l-ḥâdîs̱ , eṣ-Ṣıḥâḥu’l-meʾs̱ûre ʿani’n-nebî , eṣ-Ṣaḥîḥu’l-münteḳā fi’l-ḥâdîs̱ adlarını taşıyan üç ayrı eserinden bahsedilmekteyse de Kettânî’nin tesbitine göre bunlar aynı kitap için kullanılmış değişik isimlerden ibarettir. 2. el-Ḥurûf fi’ṣ-ṣaḥâbe . İbn Abdülber, Ebü’l-Kāsım İbnü’d-Debbâğ’ın İbnü’s-Seken’den dinlediği bu eserini ondan kıraat metoduyla aldığını söylemektedir. İbn Hacer el-Askalânî, el-İṣâbe ’nin mukaddimesinde İbnü’s-Seken’i sahâbe hakkında eser yazanlar arasında saymakta, ancak onun bu eserinden istifade edip etmediğine dair bilgi vermemektedir. Zehebî ise İbnü’s-Seken’in bu kitabının kendisine ulaşmamış olmasını, Mağrib ülkelerinin dışında yaygınlık kazanamaması ile açıklamaktadır ( Aʿlâmü’n-nübelâʾ , XVI, 117). 3. eḍ-Ḍuʿafâʾ ve’l-metrûkîn (İbn Hayr, s. 211). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 202-203 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnus-seken",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnus-seken, https://islamansiklopedisi.org.tr/ibnus-seken",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibnus-seken",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibnus-seken",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:27Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:27Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnus-seken (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibnus-seken)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "death_temporal": {
+    "start_ah": 353,
+    "start_ce": 964,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnus-seken, URL: https://islamansiklopedisi.org.tr/ibnus-seken || DİA birth place: Bağdat || DİA death place: Mısır || DİA death-date string: (ö. 353/964) || DİA categories: hadis > fıkıh > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001403",
+    "iac:person-00002135",
+    "iac:person-00002780",
+    "iac:person-00003715",
+    "iac:person-00003742",
+    "iac:person-00007239"
+  ],
+  "students": [
+    "iac:person-00000441",
+    "iac:person-00003936",
+    "iac:person-00003955",
+    "iac:person-00004110",
+    "iac:person-00006322",
+    "iac:person-00007450"
+  ]
+}

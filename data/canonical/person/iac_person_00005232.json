@@ -1,0 +1,99 @@
+{
+  "@id": "iac:person-00005232",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MANSÛR b. ZÂZÂN",
+      "ar": "منصور بن زاذان"
+    },
+    "originalScript": {
+      "ar": "منصور بن زاذان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Mugīre Mansûr b. Zâzân es-Sekafî el-Vâsıtî"
+      ]
+    },
+    "description": {
+      "tr": "Abdullah b. Ömer (ö. 73/693) henüz hayatta iken doğduğu kaydedilir. Sakīf kabilesinden Abdullah b. Akīl’in âzatlısı olduğu için Sekafî nisbesiyle anılır. Haccâc’ın kapıcısı olan babası ile kardeşi Hâlid sika râvilerdendir (İbn Hibbân, IV, 266; VI, 256). Verkā adlı oğlunun da râvi olduğu, kardeşi Mugīre b. Zâzân’ın oğlu Ebû Âmir Sürûr ile kız kardeşinin oğlu Müstelim b. Saîd el-Vâsıtî’nin hadis rivayet ettiği bilinmektedir. Hasan-ı Basrî, İbn Sîrîn, Muâviye b. Kurre, Atâ b. Ebû Rebâh, Amr b. Dînâr, Nâfi‘ ve Katâde b. Diâme’den hadis rivayet etti. Enes b. Mâlik ve Nâfi‘den yaptığı rivayetlerin mürsel olduğu belirtilmektedir. Kendisinden Şu‘be b. Haccâc, Ebû Avâne el-Vâsıtî, Hüşeym b. Beşîr, hadis hâfızı Cerîr b. Hâzim el-Ezdî, Halef b. Halîfe el-Eşcaî, yeğeni Sürûr b. Mugīre gibi muhaddisler rivayette bulundular. Hem ilim hem zühd hayatı bakımından Vâsıt’ın üstadı kabul edilir. Hayatının son yıllarına doğru Vâsıt’a 9 fersah mesafedeki Mübârek’e yerleşti. Vaktinin çoğunu namaz ve zikirle geçirdiği için öğrencileri ondan ancak yatsı namazından sonra hadis yazma imkânı bulabilirlerdi. Mansûr’un vefat ettiği yıl hâfıza kaybına uğradığı anlaşılmaktadır ( Buhârî, et-Târîḫu’ṣ-ṣaġīr , II, 30). Âlimlerin çoğu onun 129’da (747) öldüğünü kabul etmektedir. 127 (745), 128 (746), veba salgınının olduğu 131 (748-49) yılında öldüğü de söylenmektedir. Çok kalabalık bir cemaatin katıldığı cenazesinde hıristiyan, Mecûsî ve yahudilerin de bulunduğu belirtilmektedir. Zehebî onun Vâsıt’taki kabrinin ziyaret edildiğini kaydeder ( Aʿlâmü’n-nübelâʾ , V, 442). Sika bir râvi olan Mansûr’un 400 hadis rivayet ettiği, rivayetlerinin Kütüb-i Sitte ’de bulunduğu bilinmektedir. Bu rivayetlerin büyük çoğunluğu talebesi Hüşeym b. Beşîr yoluyla gelmektedir. Onun dünyaya değer vermediği, ibadete düşkün olduğu, Kur’an’ı sık sık hatmettiği ifade edilmektedir. Mansûr’un talebesi Hüşeym hocasının çok ibadet ettiğini anlatırken, “Ölüm meleği kapıda bekliyor deseler daha fazla ibadet edemezdi” der. Nesâî’nin Mansûr’un rivayetlerini Müsnedü Manṣûr b. Zâẕân adlı bir eserde topladığı kaydedilmektedir (Süyûtî, II, 364). Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 13 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mansur-b-zazan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mansur-b-zazan, https://islamansiklopedisi.org.tr/mansur-b-zazan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mansur-b-zazan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mansur-b-zazan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mansur-b-zazan (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sekafî; Vâsıtî"
+  ],
+  "death_temporal": {
+    "start_ah": 129,
+    "start_ce": 747,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mansur-b-zazan, URL: https://islamansiklopedisi.org.tr/mansur-b-zazan || DİA death-date string: (ö. 129/747) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001162",
+    "iac:person-00003260",
+    "iac:person-00004035",
+    "iac:person-00004785",
+    "iac:person-00005969"
+  ],
+  "students": [
+    "iac:person-00002138",
+    "iac:person-00003576",
+    "iac:person-00007106"
+  ]
+}

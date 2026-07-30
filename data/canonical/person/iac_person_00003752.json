@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003752",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN EBÛ MERYEM, Nasr b. Ali",
+      "ar": "ابن أبي مريم ، نصر بن علي"
+    },
+    "originalScript": {
+      "ar": "ابن أبي مريم ، نصر بن علي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Fahrüddîn Nasr b. Alî b. Muhammed eş-Şîrâzî el-Fesevî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Sadrülislâm lakabıyla da anılmıştır. Diğer kaynakların aksine İnbâhü’r-ruvât ’ta (III, 344) İbn Meryem, Buġyetü’l-vuʿât ’ta (II, 314) Ebû Meryem olarak zikredilmesi istinsah veya baskı hatasından kaynaklanmış olmalıdır. İbn Ebû Meryem’in hocaları arasında kaynaklarda sadece Tâcülkurrâ el-Kirmânî’nin adı zikredilmiş ve bu zattan kıraat tahsil ettiği belirtilmiştir. Yine kaynaklarda sadece Mükrem (Mükerrem) b. Alâ b. Nasr’ın ondan kıraat rivayet ettiği bildirilirse de el-Mûḍaḥ adlı eserinin incelenmesinden Ebü’l-Hasan Ali b. Muhammed b. Ebû Ali, Ebü’l-Hasan Ali b. Hibetullah b. Muhammed, Ebü’l-Alâ Hamza b. Muhammed b. Abdülazîz b. Muhammed gibi kişilerin de ona talebe olduğu anlaşılmaktadır ( el-Mûḍaḥ , neşredenin girişi, I, 36). Şîraz hatibi olarak tanınan İbn Ebû Meryem için İbnü’l-Kıftî, “Her cuma hutbe okur ve hiçbir hutbeyi tekrarlamazdı” diyerek onun hitabetteki başarısına ve geniş kültürüne işaret etmiş, nahiv ilminde eşi bulunmadığını kaydetmiştir. Yâkūt da İbn Ebû Meryem’i Şîraz’ın hatibi, âlimi ve edibi diye tanıtmış, şer‘î meselelerin ve edebî müşkillerin hallinde başvurulan merci olduğunu söylemiştir. İbnü’l-Cezerî ise el-Mûḍaḥ adlı eserini incelediğini, bu eserin kıraat alanında onun liyakatini gösterdiğini belirtmiştir. İbn Ebû Meryem’in vefat tarihi kesin olarak bilinmemektedir. Yâkūt 565 (1170) yılından sonra öldüğünü söylemiş, 587 (1191) yılında hayatta olduğu, hatta 600’den (1204) sonra vefat ettiği de ileri sürülmüştür (Cüneyd-i Şîrâzî, s. 407). Eserleri. İbn Ebû Meryem’in günümüze ulaştığı bilinen eseri el-Mûḍaḥ fî vücûhi’l-ḳırâʾât ve ʿilelihâ adını taşımaktadır. el-Mûḍaḥ fi’l-ḳırâʾâti’s̱-s̱emân adıyla da bilinen eserde kırâat-i seb‘aya ilâve olarak Ya‘kūb el-Hadramî’nin kıraatine de yer verilmiştir. Eser Ömer Hamdân el-Kübeysî’nin tahkikiyle üç cilt halinde neşredilmiştir (Cidde 1414/1993). Müellifin kaynaklarda adı geçen diğer eserleri de şunlardır: el-Keşf ve’l-beyân fî tefsîri’l-Ḳurʾân ( Tefsîru İbn Ebî Meryem adıyla da zikredilen eserin sekiz cilt olduğu belirtilmektedir); el-İfṣâḥ fî şerḥi’l-Îżâḥ (Ebû Ali el-Fârisî’nin el-Îżâḥ fi’n-naḥv adlı eserinin şerhidir); el-Münteḳā fî ʿileli’l-ḳırâʾât (eserde şâz kıraatler ve illetleri ele alınmıştır); ʿUyûnü’t-taṣrîf . Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 437 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-ebu-meryem-nasr-b-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-ebu-meryem-nasr-b-ali, https://islamansiklopedisi.org.tr/ibn-ebu-meryem-nasr-b-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-ebu-meryem-nasr-b-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-ebu-meryem-nasr-b-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:18Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:18Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-ebu-meryem-nasr-b-ali (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-ebu-meryem-nasr-b-ali)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Şîrâzî; Fesevî"
+  ],
+  "death_temporal": {
+    "start_ah": 565,
+    "start_ce": 1170,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-ebu-meryem-nasr-b-ali, URL: https://islamansiklopedisi.org.tr/ibn-ebu-meryem-nasr-b-ali || DİA death place: 600 || DİA death-date string: (ö. 565/1170’ten sonra) || DİA categories: tefsir > nahiv > rivayet || Chunk count: 1"
+}

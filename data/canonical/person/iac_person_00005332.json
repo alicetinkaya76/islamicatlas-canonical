@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00005332",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEHMED EFENDİ, Yâkubzâde"
+    },
+    "description": {
+      "tr": "Bursa’nın Karaağaç mahallesinde doğdu. Aynı mahalledeki Halvetî Tekkesi şeyhi Yâkub Efendi’nin oğludur. Kur’an kıraati ve hitabet sahalarında Bursa’nın en önemli kişisi olarak bilinen babasının yanında sülûkunu tamamladı ve ondan icâzetnâme aldı. Bu arada dönemin diğer âlimlerinin derslerini takip ederek kendini yetiştirdi. Babasının 17 Cemâziyelevvel 1052’de (13 Ağustos 1642) vefatı üzerine adı geçen tekkenin şeyhliğine getirildi. Dinî eserler bestekârı Gülşenî Kefeli Derviş Abdi Bursa’ya geldiğinde Mehmed Efendi onu tekkesinde bir müddet misafir etmiş, bu sırada kabiliyet ve vukufunu görerek tekkenin zâkirbaşılığına tayin etmiştir. Yirmi dört yılı aşkın bir süre tekkede şeyhlik yapan Mehmed Efendi 17 Cemâziyelevvel 1077 (15 Kasım 1666) tarihinde vefat etti ve tekkenin hazîresinde babasının mezarının yanına defnedildi. Yerine oğlu İbrâhim Efendi postnişin oldu. Mehmed Efendi, kaleme aldığı şiirlerinin yanında bestelediği eserlerle de dönemin tanınmış sanatkârları arasında yer almıştır. Şiirlerinde “Bîçâre” mahlasını kullanmış, ancak bugüne kadar bir divanına rastlanmamıştır. El yazması güfte mecmualarında bazı dinî besteleri görülmekteyse de günümüze sadece “Milk-i bekādan gelmişem” mısraı ile başlayan güftesi Yûnus Emre’ye ait bir ilâhisi ulaşmıştır. Güfte mecmualarında nevâ makamında kayıtlı olan bu eser zamanımızdaki bazı nota neşriyatında gerdâniye makamında yayımlanmıştır ( Yunus İlâhîleri Güldestesi , s. 138-139; Hatipoğlu, s. 57-58). Mehmed Efendi ayrıca Tarîkatnâme-i Halvetiyye adlı bir eser kaleme almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 460 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-efendi-yakubzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-efendi-yakubzade, https://islamansiklopedisi.org.tr/mehmed-efendi-yakubzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-efendi-yakubzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-efendi-yakubzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:38Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-efendi-yakubzade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1077,
+    "start_ce": 1666,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-efendi-yakubzade, URL: https://islamansiklopedisi.org.tr/mehmed-efendi-yakubzade || DİA death-date string: (ö. 1077/1666) || DİA categories: tarikat || Chunk count: 1"
+}

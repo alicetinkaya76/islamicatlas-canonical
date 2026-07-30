@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00001195",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ATTÂB b. ESÎD",
+      "ar": "عتّاب بن أسيد"
+    },
+    "originalScript": {
+      "ar": "عتّاب بن أسيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdirrahmân Attâb b. Esîd b. Ebi’l-Îs b. Ümeyye el-Ümevî el-Kureşî"
+      ]
+    },
+    "description": {
+      "tr": "Hicretten on üç yıl önce (610 m.) Mekke’de doğdu. Mekke’nin fethedildiği gün (17 Ramazan 8 / 8 Ocak 630) müslüman oldu. Hz. Peygamber Huneyn Seferi’ne çıkacağı esnada onu Mekke valisi tayin etti. Attâb bu göreve getirildiği sırada yirmi yaşlarındaydı. Mekke’nin fethedildiği yıl hac emirliği görevini de o yaptı. Kaynaklar, oldukça genç yaşta Mekke valisi olan Attâb’a Hz. Peygamber’in günde bir dirhem veya yılda 400 dirhem, yahut kırk ukıyye (1600 dirhem) maaş bağladığına dair farklı rivayetler kaydederler. Fazilet sahibi, dirayetli bir sahâbî olan Attâb b. Esîd, bu görevini Hz. Ebû Bekir’in hilâfeti zamanında da sürdürdü ve hicretin on üçüncü yılında Hz. Ebû Bekir’in vefat ettiği 22 Cemâziyelâhir 13 günü (23 Ağustos 634) o da Mekke’de vefat etti. Bazı kaynaklarda ise Hz. Ömer’in hilâfetinin son yıllarında (23/644) vefat ettiği kaydedilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 93 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:attab-b-esid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=attab-b-esid, https://islamansiklopedisi.org.tr/attab-b-esid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:attab-b-esid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/attab-b-esid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:6607",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6607, heading_ar=عتاب بن أسيد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=attab-b-esid (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6607]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6607 (heading_ar=عتاب بن أسيد) via Track A (DİA→Alam xref bridge). dt=Kureyşli Mekkeli Sahabeden"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ümevî; Kureşî"
+  ],
+  "death_temporal": {
+    "start_ah": 13,
+    "start_ce": 634,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=attab-b-esid, URL: https://islamansiklopedisi.org.tr/attab-b-esid || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6607] || DİA birth place: Mekke || DİA death place: Mekke || DİA death-date string: (ö. 13/634) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6607, heading_ar=عتاب بن أسيد, dt=Kureyşli Mekkeli Sahabeden"
+}

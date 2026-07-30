@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00005514",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEYSERE b. MESRÛK",
+      "ar": "ميسرة بن مسروق"
+    },
+    "originalScript": {
+      "ar": "ميسرة بن مسروق"
+    },
+    "altLabel": {
+      "tr": [
+        "Meysere b. Mesrûk el-Absî"
+      ]
+    },
+    "description": {
+      "tr": "Hicretin 3 veya 4. yılında (624 veya 625) Benî Abs kabilesinden Hz. Peygamber’le görüşmek üzere Medine’ye gelen dokuz (veya üç) kişilik heyette bulundu. Vedâ haccında Resûl-i Ekrem’e, “Sana tâbi olmak istiyorum” diyerek müslüman oldu ve, “Senin aracılığınla beni ateşten kurtaran Allah’a hamdolsun” diye memnuniyetini belirtti. Halife Ebû Bekir’in değer verdiği Meysere irtidad olaylarında kabilesiyle birlikte İslâmiyet’e bağlı kaldı. Ebû Bekir onu ve ailesini Hâlid b. Velîd’e tavsiye etti; Meysere de Yemâme’de (11/632) ve Suriye’nin fethinde (13-15/634-636) Hâlid’le beraber savaştı ve bir kısım kuvvetlere kumanda etti. Hâlid b. Velîd, Busrâ’nın alınması esnasında da (13/634) onu 1000 kişilik bir kuvvetin başında önemli stratejik bir mevkii tutmakla görevlendirdi. Öncü kuvvetlere kumanda ettiği de oldu. Yermük Savaşı’nda (15/636) esir alınan müslümanları kurtarmak için Hâlid’in seçtiği 100 atlıdan biri de Meysere idi. Bu savaşta yaşlı olmasına rağmen genç bir düşmanla mübârezede bulunmasına Hâlid b. Velîd güçlükle engel oldu. Suriye’nin fethi boyunca muharip olarak çarpışanlardan biri de Meysere’dir. Humus’un fethinde (15/636) 5000 atlıyla birlikte şehre yaklaştığında bizzat Hâlid b. Velîd tarafından karşılandı ve Hâlid Suriye’de bulunduğu sürece onun önde gelen yardımcılarından biri oldu. Kudüs kuşatmasında (16/637) Patrik Sophronios’un şartı gereğince şehri teslim alması için başkumandan Ebû Ubeyde b. Cerrâh’ın mektubunu Medine’de bulunan Halife Ömer’e Meysere götürdü. Halep fethedildikten sonra (16/637) 3000 kişilik üçüncü birliğin başında Antakya’ya gönderildi. Ayrıca Menbic, Bizâa ve Bâlis’in fethinde bulundu. Halifenin daha ileriye gidilmesi yönündeki isteği üzerine Bizans topraklarına girme kararı alındı ve bir rivayete göre ordusuyla birlikte Bizans sınırını ilk defa Meysere geçti (Belâzürî, s. 235; Taberî, IV, 112). Oldukça zor tabiat şartlarına ve kalabalık düşmana rağmen yollarına devam ettiler. Bizans ülkesindeki fetihlerin önemli bir bölümünde İyâz b. Ganm ile beraber bulunan Meysere’nin adı Mısır ve İskenderiye’nin fethinde de (21/642) geçmekte ve Ehnâs’ın alınmasında 1000 atlıya kumanda ettiği kaydedilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2004 yılında Ankara’da basılan 29. cildinde, 508-509 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:meysere-b-mesruk",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=meysere-b-mesruk, https://islamansiklopedisi.org.tr/meysere-b-mesruk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:41Z",
+    "modified": "2026-05-04T15:34:41Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=meysere-b-mesruk (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 21,
+    "start_ce": 642,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=meysere-b-mesruk, URL: https://islamansiklopedisi.org.tr/meysere-b-mesruk || DİA death-date string: (ö. 21/642 civarı) || DİA categories: rivayet || Chunk count: 1"
+}

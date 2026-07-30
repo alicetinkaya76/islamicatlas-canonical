@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00002020",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Devlet Giray"
+    },
+    "description": {
+      "tr": "Mübârek Giray’ın oğlu olup 918’de (1512) doğdu. Kırım Hanı Saâdet Giray tarafından taht vârisi olarak seçildi ve kalgay oldu. Sâhib Giray’ın hanlığı sırasında eski han Saâdet Giray ile İstanbul’a gitti; uzun süre orada kalarak Osmanlı merkezî idaresini yakından tanıdı. Sâhib Giray, 1549’da Safâ Giray’ın ölümüyle boşalan Kazan Hanlığı’na onun getirilmesini istedi. Sâhib Giray’ı gözden çıkaran Osmanlılar ise Devlet Giray’ı görünüşte Kazan hanı sıfatıyla Kırım’a han olarak gönderdiler. 2 Ekim 1551’de Bahçesaray’da hanlığını resmen ilân eden Devlet Giray, o sırada seferden dönmekte olan Sâhib Giray’ı öldürterek durumunu sağlamlaştırdı. Böylece Kırım’da Osmanlı tesir ve nüfuzunun oldukça arttığı bir dönem başlamış oldu. Devlet Giray ataları gibi Rus düşmanlığına dayanan siyasetini büyük bir gayretle sürdürdü. Ancak Ruslar önce Kazan’ı (1552), ardından da Astarhan’ı (1556) alarak ilerisi için çok önemli sonuçlar doğuracak bir hamle yaptılar. Devlet Giray bu işgalleri önlemek istediyse de başarılı olamadı. Moskova üzerine yaptığı seferler neticesiz kaldı. Öte yandan Osmanlılar’ın 1569’daki Astarhan seferine, Astarhan ve Kazan’ın doğrudan doğruya Osmanlı idaresi altına gireceği endişesiyle gizlice muhalefet etti. İsteksiz olarak katıldığı seferde Osmanlı kuvvetlerine gerekli yardımda bulunmadı; seferin başarısızlıkla sonuçlanmasının kendi durumunu kuvvetlendireceğine, Astarhan ve Kazan’ı bizzat kendi idaresindeki kuvvetlerle geri alabileceğine inanıyordu. Aşağı Volga bölgesinin kontrolünde başarılı olamayan Osmanlılar Moskova Çarlığı ile olan mücadeleyi ona bıraktılar. Devlet Giray 1571’de Oka suyunda Rus müdafaa hattını yarıp Moskova önlerine geldi ve burayı ateşe verdikten sonra geri döndü. Bu başarı dolayısıyla kendisine “Taht-algan” unvanı verildi. İstanbul’da da büyük bir sevince yol açan bu seferin ardından Devlet Giray çardan Kazan ve Astarhan’ın iadesini istediyse de teklifi kabul edilmedi. Bunun üzerine 1572’de yeniden Moskova seferine çıktı, fakat Moskova yakınlarında Molodi’de yenilgiye uğradı. Bu arada Osmanlılar’ın dikkatlerini Lehistan’a çevirip krallık seçimlerine karışmaları, Devlet Giray’ı yeniden faal bir siyasî çekişmenin içine itti. Krallık seçimlerinde Osmanlılar’la yaptığı iş birliği başarıyla sonuçlandı. Az sonra da 985 Saferinde (Mayıs 1577) vefat etti. Devlet Giray’ın hanlık dönemi, Volga bölgesinde, Altın Orda’nın mirası üzerinde Ruslar’la hayatî mücadelelerin verildiği ve Osmanlılar’la bütünleşme sürecinin kuvvetle hissedildiği oldukça önemli bir devreyi teşkil eder. 1571’de Gözleve’de bir cami inşa ettirmiş olduğu bilinmektedir. Sekiz oğlundan altısı Kırım hanı olmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 241-242 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:devlet-giray",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=devlet-giray, https://islamansiklopedisi.org.tr/devlet-giray",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:devlet-giray",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/devlet-giray",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=devlet-giray (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 985,
+    "start_ce": 1577,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=devlet-giray, URL: https://islamansiklopedisi.org.tr/devlet-giray || DİA death place: Molodi || DİA death-date string: (ö. 985/1577) || Chunk count: 1"
+}

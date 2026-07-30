@@ -1,0 +1,131 @@
+{
+  "@id": "iac:person-00001418",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BEKKÂR b. KUTEYBE",
+      "ar": "بكّار بن قتيبة"
+    },
+    "originalScript": {
+      "ar": "بكّار بن قتيبة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekre Bekkâr b. Kuteybe b. Esed es-Sekafî el-Bekrâvî el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "182’de (798) Basra’da doğdu. Sahâbî Ebû Bekre es-Sekafî’nin torunlarından olduğu için Bekrâvî nisbesiyle anılır. Ebû Yûsuf’un talebelerinden Hilâl b. Yahyâ’dan (Hilâlürre’y) fıkıh okudu. Ebû Dâvûd et-Tayâlisî, Yezîd b. Hârûn, Ravh b. Ubâde, Vehb b. Cerîr gibi devrin tanınmış muhaddislerinden hadis rivayet etti. Kendisinden de başta Ebû Ca‘fer et-Tahâvî olmak üzere Ebû Avâne el-İsferâyînî, İbn Huzeyme, İbn Ziyâd en-Nîsâbûrî ve İbn Ebû Hâtim gibi birçok âlim ders okudu ve rivayette bulundu. Halife Mütevekkil-Alellah tarafından 246’da (860) Mısır kadılığına tayin edilen Bekkâr b. Kuteybe, Mısır Valisi Ahmed b. Tolun’un Muvaffak b. Mütevekkil’i veliahtlıktan azletme isteğini kabul etmeyince hapse atıldı. Ancak İbn Tolun’un onu kadılıktan azil yetkisi bulunmadığından resmen bu makamda kalmaya devam etti. Onun yerine Muhammed b. Şâzân el-Cevherî kadılık görevini yürüttü. İlim, takvâ ve adaletiyle tanınan Bekkâr’ın hapse girmesiyle onun hadis derslerinden mahrum kalanlar, önceleri Bekkâr’a son derece saygı gösteren ve ders halkasına katılan İbn Tolun’a başvurarak onun bu derslerini sürdürmesi için izin istediler. Bekkâr verilen müsaade üzerine hapishanede özel bir yerde hadis okuttu, fakat İbn Tolun’un ölümüne kadar hapiste kaldı. Hapisten çıktıktan kırk gün sonra da 6 Zilhicce 270’te (5 Haziran 884) vefat etti. Kahire’de Karâfe Kabristanı’ndaki mezarı ziyaretgâhtır. Kaynaklarda zikredilen eserleri şunlardır: Kitâbü’l-Meḥâḍır ve’s-sicillât , Kitâbü’ş-Şürûṭ , Kitâbü’l-Ves̱âʾiḳ ve’l-ʿuhûd ve Ebû Hanîfe’yi tenkit ettiği konularda İmam Şâfiî’ye yazdığı reddiye. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 365 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bekkar-b-kuteybe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bekkar-b-kuteybe, https://islamansiklopedisi.org.tr/bekkar-b-kuteybe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bekkar-b-kuteybe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bekkar-b-kuteybe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:1981",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=1981, heading_ar=بكار بن قتيبة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:41Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bekkar-b-kuteybe (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[1981]. Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=1981 (heading_ar=بكار بن قتيبة) via Track A (DİA→Alam xref bridge). dt=Kadı, fıkıh âlimi ve muhaddis"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sekafî; Bekrâvî; Basrî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 270,
+    "start_ce": 884,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bekkar-b-kuteybe, URL: https://islamansiklopedisi.org.tr/bekkar-b-kuteybe || El-Aʿlām (Ziriklī) cross-reference: alam_id=[1981] || DİA birth place: Basra || DİA death place: 270 || DİA death-date string: (ö. 270/884) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=1981, heading_ar=بكار بن قتيبة, dt=Kadı, fıkıh âlimi ve muhaddis",
+  "active_in_places": [
+    "iac:place-00001954"
+  ],
+  "teachers": [
+    "iac:person-00003406",
+    "iac:person-00004498",
+    "iac:person-00006367",
+    "iac:person-00006613",
+    "iac:person-00007290"
+  ],
+  "students": [
+    "iac:person-00002137",
+    "iac:person-00003746",
+    "iac:person-00003875",
+    "iac:person-00004102",
+    "iac:person-00004276",
+    "iac:person-00007239"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00000543",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. SUÛD",
+      "ar": "عبد الله بن سعود"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن سعود"
+    },
+    "description": {
+      "tr": "Babası Suûd b. Abdülazîz’in ölümü üzerine 1814’te Suûdîler’in başına geçti. Kardeşiyle olan anlaşmazlığını hallettikten sonra, Mısır Valisi Mehmed Ali Paşa’nın Hicaz bölgesine asayişi sağlamak için gönderdiği kuvvetlerle mücadele etti. Mehmed Ali Paşa’nın oğlu Tosun Paşa’nın Necid harekâtı sırasında onunla mütareke yaptı; ancak sulh müzakereleri bir netice vermedi. 1816’da ölen Tosun Paşa’nın yerine kardeşi İbrâhim Paşa’nın Arabistan’a gelmesiyle mücadele şiddetlendi. Abdullah, 2 Mayıs 1817’de İbrâhim Paşa kuvvetlerine mağlûp oldu ve Vehhâbîler’in merkezi olan Dir‘iye’ye çekildi. İbrâhim Paşa şehri kuşattı; beş aylık bir muhasaradan sonra 6 Eylül’de burayı ele geçirerek iç kaledeki bir kasra sığınmış bulunan Abdullah’ı dört oğlu ve bazı yakınları ile birlikte yakaladı. Önce Medine’ye sonra da Mısır’a götürülen Abdullah kâtibi ve hazinedarı ile birlikte deniz yoluyla İstanbul’a gönderildi. 14 Aralık 1818’de, Haliç’te Defterdar İskelesi’ne çıkarıldıktan sonra halka teşhir edilerek Divanyolu ile Bâbıâli’ye getirildi ve Bostancıbaşı nezaretinde hapsedildi. Haremeyn-i Şerîfeyn’den gasbedilen malların tesbiti için üç gün kadar burada sorguya çekildi; ardından da idam edildi (17 Aralık 1818). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 135-136 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-suud",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-suud, https://islamansiklopedisi.org.tr/abdullah-b-suud",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-b-suud",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-b-suud",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-suud (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1818,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-suud, URL: https://islamansiklopedisi.org.tr/abdullah-b-suud || DİA death-date string: (ö. 1818) || Chunk count: 1"
+}

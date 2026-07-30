@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00003188",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂRİCE b. HUZÂFE",
+      "ar": "خارجة بن حذافة"
+    },
+    "originalScript": {
+      "ar": "خارجة بن حذافة"
+    },
+    "altLabel": {
+      "tr": [
+        "Hârice b. Huzâfe b. Gānim el-Kureşî el-Adevî"
+      ]
+    },
+    "description": {
+      "tr": "Kureyş kabilesinin Benî Adî koluna mensup olduğu için Kureşî ve Adevî nisbeleriyle anılır. Annesi Fâtıma bint Amr b. Büceyre el-Adeviyye’dir. Kureyş arasında kahramanlığı ile tanınan ve “1000 kişiye bedel” bir süvari sayılan Hârice’nin ne zaman müslüman olduğu bilinmemektedir. Hz. Ömer döneminde Mısır’ın fethine katıldı ve halifenin Amr b. Âs’a gönderdiği takviye birliklerden birine kumanda etti. Mısır’ın fethinden sonra Hz. Ömer, Amr b. Âs’a yazdığı mektupta Bey‘atürrıdvân’a katılanlarla birlikte kahramanlığı ve yararlılıkları sebebiyle Hârice’ye de atıyye verilmesini istedi (İbn Sa‘d, IV, 261). Hârice daha sonra Amr b. Âs tarafından şurta âmiri olarak görevlendirildi. Bazı kaynaklarda kadı olarak görev yaptığı da kaydedilir. Hz. Ali’yi, Muâviye b. Ebû Süfyân’ı ve Amr b. Âs’ı öldürmek üzere harekete geçen üç Hâricî’den Zâzeveyh, 17 Ramazan 40 (24 Ocak 661) tarihinde vali Amr b. Âs’ın rahatsızlığı sebebiyle sabah namazını kıldırmakla görevlendiren Hârice b. Huzâfe’yi Amr zannedip hançerle şehid etti. Hârice’nin iki hanımından Abdurrahman, Ebân, Abdullah ve Avn adında dört oğlu olmuştur. Hârice b. Huzâfe’nin naklettiği vitir namazıyla ilgili hadis Abdullah b. Ebû Mürre ez-Zevfî ve Abdurrahman b. Cübeyr el-Mısrî tarafından rivayet edilmiş; Dârimî, İbn Mâce, Ebû Dâvûd ve Tirmizî’nin es-Sünen ’lerinde yer almıştır (Wensinck, VIII, 69). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 168 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:harice-b-huzafe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=harice-b-huzafe, https://islamansiklopedisi.org.tr/harice-b-huzafe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:harice-b-huzafe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/harice-b-huzafe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:3255",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3255, heading_ar=خارجة بن حذافة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:11Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=harice-b-huzafe (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3255]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3255 (heading_ar=خارجة بن حذافة) via Track A (DİA→Alam xref bridge). dt=Sahâbî, cesur kişilerden, bin atlı ile eşdeğer sayılırdı"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Adevî"
+  ],
+  "death_temporal": {
+    "start_ah": 40,
+    "start_ce": 661,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=harice-b-huzafe, URL: https://islamansiklopedisi.org.tr/harice-b-huzafe || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3255] || DİA death-date string: (ö. 40/661) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3255, heading_ar=خارجة بن حذافة, dt=Sahâbî, cesur kişilerden, bin atlı ile eşdeğer sayılırdı"
+}

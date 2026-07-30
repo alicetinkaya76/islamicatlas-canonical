@@ -1,0 +1,102 @@
+{
+  "@id": "iac:person-00020283",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Yazīd b. al-Husayn",
+      "tr": "Yezîd b. el-Husayn",
+      "ar": "يزيد بن الحصين"
+    },
+    "originalScript": {
+      "ar": "يزيد بن الحصين"
+    },
+    "description": {
+      "tr": "Emîr, Emevî dönemi şerefli insanlarından",
+      "en": "Emir, among the notable figures of the Umayyad era"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Yazīd b. al-Husayn b. Numayr b. Nāʾil b. Labīd al-Sukunī, from Banū Sukūn, from Kindah"
+    },
+    "altLabel": {
+      "tr": [
+        "Yezîd b. el-Husayn b. Numeyr b. Nâil b. Lebîd es-Sukûnî, Benî Sukûn'dan, Kinde'den"
+      ],
+      "ar": [
+        "يزيد بن الحصين بن نمير بن نائل ابن لبيد السكوني، من بني السكون، من كندة"
+      ]
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:13537",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=13537",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:yezid-ii",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/yezid-ii",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:43Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=13537 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.98): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:13537."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 103,
+    "start_ce": 721,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=13537, heading_ar=يزيد بن الحصين || Ziriklī century_ce=8 || Ziriklī place coords (city/region of activity): 34.73, 36.71",
+  "active_in_places": [
+    "iac:place-00003931"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@id": "iac:person-00007582",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Vehbi Osman Çelebi"
+    },
+    "description": {
+      "tr": "İstanbul’un Galata semtinde doğdu ve orada yaşadı. Bu sebeple Galatalı Vehbi Osman Çelebi diye tanındı. Kaynaklarda hayatı hakkında yeterli bilgi yoktur. 1640’tan önce hânende olarak Enderun’a alındı. Evliya Çelebi harem-i hâsta kendisiyle arkadaşlık ettiğini belirtir. Şöhretinin en parlak zamanı Sultan IV. Mehmed dönemidir (1648-1687). Sarayda Bostancı Ocağı’nda “damcılık” görevinde bulundu ve bu görevde iken emekliye ayrıldı. Güzel ve yanık bir sesi olan Vehbi Osman Çelebi’nin mûsikideki asıl hocası Derviş Ömer Efendi’dir. Ayrıca başkalarından aldığı derslerle kendini yetiştirdi; mûsikinin nazariyatına ve pratiğine hâkim olarak dönemin önemli mûsiki üstatları arasında yer aldı. İyi bir mûsiki hocası olmasının yanı sıra bestekârlığı da bulunan Vehbi Osman Çelebi şairliğiyle de bilinmektedir. Esad Efendi Atrabü’l-âsâr ’da onun elli kadar murabba ve tesbih bestelediğinden bahseder. Çeşitli kütüphanelerdeki el yazması güfte mecmualarında bazı tesbihlerine rastlanmaktaysa da bunlar günümüze ulaşmamıştır. Ancak Yılmaz Öztuna rast makamında bir peşrev ile iki saz semâisinin bugüne kadar geldiğini söylemektedir. Galatalı Vehbi Osman Çelebi’yi Atrabü’l-âsâr ’da zikredilen, yine IV. Mehmed zamanında şöhret bulmuş, Tersâne-i Âmire rûznâmecisi Mahmud Efendi’nin oğlu ve Musâhib Mustafa Paşa’nın divan efendisi, elli civarında beste, nakış ve şarkı bestekârı Galatalı Osman Efendi ile karıştırmamak gerekir. Bu madde TDV İslâm Ansiklopedisi’nin 2012 yılında İstanbul’da basılan 42. cildinde, 610 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:vehbi-osman-celebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=vehbi-osman-celebi, https://islamansiklopedisi.org.tr/vehbi-osman-celebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:05Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:05Z",
+    "modified": "2026-05-04T15:35:05Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=vehbi-osman-celebi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1091,
+    "start_ce": 1680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=vehbi-osman-celebi, URL: https://islamansiklopedisi.org.tr/vehbi-osman-celebi || DİA death-date string: (ö. 1091/1680 [?]) || Chunk count: 1"
+}

@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00001213",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ayas Paşa"
+    },
+    "description": {
+      "tr": "Avlonya yakınında Himera’da doğdu. Pençe sinde ve mezar kitâbesinde baba adı Mehmed olarak geçer. Enderun’da yetiştikten sonra ağalıkla saraydan çıktı. Yeniçeri ağası olarak Yavuz Sultan Selim’in seferlerine katıldı ve büyük yararlıklar gösterdi. 1519’dan itibaren önce sancak beyi, sonra beylerbeyi olarak hizmet gördü. Canbirdi Gazâlî’nin isyanının bastırılmasında Anadolu beylerbeyi olarak bulundu, onun katli üzerine 1521’de Şam beylerbeyiliğine getirildi. 1522’de Rumeli beylerbeyi olarak Rodos Seferi’ne katıldıktan sonra ikinci vezir sıfatıyla Mısır’daki Hain Ahmed Paşa İsyanı’nın bastırılmasında görevlendirildi. Ancak yolda Ahmed Paşa’nın ölüm haberini alarak İstanbul’a geri döndü. Vezîriâzam Makbul İbrâhim Paşa Mısır idaresini düzenlemek için İstanbul’dan ayrılınca Ayas Paşa da sadâret kaymakamlığına getirildi. Kubbe veziri olarak Kanûnî’nin yanında 1526’da Mohaç, 1529’da Viyana, 1532’de Alman, 1534-1535’te Irakeyn seferlerine katıldı. İbrâhim Paşa’nın idamı üzerine de 15 Mart 1536’da vezîriâzamlığa getirildi. Üç yıl dört ay kadar süren vezîriâzamlığı sırasında padişahla birlikte katıldığı Korfu (1537) ve Kara Boğdan (1538) seferlerinden başka, Hadım Süleyman Paşa’nın Hint Seferi (1538) ile Preveze Zaferi vuku buldu. Bunlardan Korfu seferi sırasında kendisinin teşvikiyle Avlonya yöresindeki Arnavutlar itaat altına alındı ve bu bölgede Delvine sancağı kuruldu. Boğdan seferi ise bu ülkedeki Osmanlı hâkimiyetinin kuvvetle yerleşmesine sebep oldu. Barbaros’un ve Süleyman Paşa’nın deniz harekâtı da Akdeniz ve Hint sularındaki Osmanlı nüfuzunu arttırdı. Devlet adamı olarak pek fazla bir varlık gösterememekle birlikte dürüst, âdil ve mütevazi bir şahsiyete sahip olan Ayas Paşa, 26 Safer 946’da (13 Temmuz 1539) vebadan öldü. Türbesi Eyüp’tedir. Geride çok sayıda çocuğu kalmışsa da bunların önemli mevkilerde bulunmadıkları anlaşılmaktadır. Vize yakınındaki Saray’da bir külliye yaptırmış, buradaki camisi 1531’de tamamlanmıştır. Emlâkinin bulunduğu İstanbul Fındıklı üzerindeki semt kendi adını taşımaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 202-203 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ayas-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ayas-pasa, https://islamansiklopedisi.org.tr/ayas-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ayas-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ayas-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ayas-pasa (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 946,
+    "start_ce": 1539,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ayas-pasa, URL: https://islamansiklopedisi.org.tr/ayas-pasa || DİA birth place: Himera || DİA death-date string: (ö. 946/1539) || Chunk count: 1"
+}

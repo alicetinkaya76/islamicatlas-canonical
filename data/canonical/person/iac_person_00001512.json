@@ -1,0 +1,104 @@
+{
+  "@id": "iac:person-00001512",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Beyyânî",
+      "ar": "البيّاني"
+    },
+    "originalScript": {
+      "ar": "البيّاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Kāsım b. Muhammed b. Kāsım el-Ümevî el-Beyyânî el-Kurtubî"
+      ]
+    },
+    "description": {
+      "tr": "Kurtuba yakınlarındaki Beyyâne’ye (Baena) nisbetle anılır. 220 (835) yılından sonra doğdu. Kurtuba’da öğrenim gördü ve ilim tahsili için Doğu’ya seyahatte bulundu. Ebû Abdullâh İbn Abdülhakem, Müzenî, Rebî‘ b. Süleyman el-Murâdî, Sahnûn, Hâris b. Miskîn, Yûnus b. Abdüla‘lâ es-Sadefî, İbrâhim b. Münzir el-Hizâmî gibi İmâm Mâlik ve Şâfiî’nin tanınmış talebelerinden fıkıh ve hadis okudu. Kurtuba’da, aralarında Ahmed b. Hâlid (İbnü’l-Cebbâb), İbn Lübâbe, Muhammed b. Abdülmelik b. Eymen ve kendi oğlu Muhammed b. Kāsım el-Beyyânî gibi tanınmış âlimlerin de bulunduğu birçok talebe yetiştirdi. Yönetimi boyunca Emîr Muhammed b. Abdurrahman b. Hakem’in (852-886) resmî belgelerini düzenleme görevini yürüttüğünden “Sâhibü’l-vesâik” diye de anılmış olan Beyyânî 276 (890) yılının sonlarında vefat etmiştir. Bu tarihin 277 veya 278 olduğu da rivayet edilmektedir. Derin bir fıkıh ve hadis bilgisine sahip olan Beyyânî devrin önde gelen fıkıh ve hadis otoriteleri arasında yer aldı. Hiçbir imamı taklit etmemekle birlikte daha çok Şâfiî mezhebine meyleder, kendisinden fetva isteyenlere ise Endülüs’te yaygın bulunan Mâlikî mezhebine göre fetva verirdi. Genel biyografi eserleri yanında yalnız Mâlikî veya Şâfiî âlimlerin biyografilerini ihtiva eden tabakat kitaplarına alınmış bulunması da bundan dolayı olmalıdır. Beyyânî’nin kaynaklarda zikredilen en önemli eseri el-Îżâḥ fi’r-red ʿale’l-muḳallidîn olup bu eserini İbn Müzeyn, Muhammed b. Ahmed el-Utbî ve Abdullah b. Hâlid’e reddiye olarak kaleme almıştır. Ayrıca bir tefsiri ve haber-i vâhide dair bir eseri olduğundan da söz edilir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 95-96 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:beyyani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=beyyani, https://islamansiklopedisi.org.tr/beyyani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:43Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=beyyani (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ümevî; Beyyânî; Kurtubî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 220,
+    "start_ce": 835,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 276,
+    "start_ce": 890,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=beyyani, URL: https://islamansiklopedisi.org.tr/beyyani || DİA death-date string: (ö. 276/890) || DİA categories: fıkıh > hadis > fetva || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00014474"
+  ],
+  "teachers": [
+    "iac:person-00003539",
+    "iac:person-00003609",
+    "iac:person-00005954",
+    "iac:person-00006377",
+    "iac:person-00006598"
+  ],
+  "students": [
+    "iac:person-00003919",
+    "iac:person-00004151"
+  ]
+}

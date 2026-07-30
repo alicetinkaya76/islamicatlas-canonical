@@ -1,0 +1,101 @@
+{
+  "@id": "iac:person-00007029",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Şillî",
+      "ar": "الشلّي"
+    },
+    "originalScript": {
+      "ar": "الشلّي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Alevî Cemâlüddîn Muhammed b. Ebî Bekr b. Ahmed eş-Şillî el-Hadramî el-Yemenî el-Mekkî"
+      ]
+    },
+    "description": {
+      "tr": "Şâban 1030’da (Temmuz 1621) Yemen’in Hadramut bölgesindeki Terîm kasabasında doğdu. Hz. Ali soyundan olması dolayısıyla Bâ Alevî ve Hüseynî nisbeleriyle tanınır. Terîm’de babasından Arapça, hadis ve tasavvuf, Fahreddin Ebû Bekir b. Şehâbeddin’den tefsir ve hadis okudu. Hâfızlığını tamamladıktan sonra tahsiline Zufâr’da devam etti. Ardından Hindistan’a ve Mekke’ye gitti. Burada Abdurrahman b. Alevî ve Abdullah b. Ebû Bekir el-Hatîb’den fıkıh; Muhammed b. Muhammed Bâ Rıdvân’dan ferâiz ve matematik; Muhammed b. Alâeddin el-Bâbilî’den hadis, tefsir, fıkıh; Abdülazîz ez-Zemzemî’den fıkıh; Îsâ b. Muhammed es-Seâlibî el-Mağribî ve Ahmed b. Muhammed el-Kuşâşî’den hadis tahsil etti. Rûdânî’den ferâiz, hesap ve tasavvuf okudu. Abdullah b. Saîd Bâkşîr, Ali b. Ebû Bekir b. Cemâl ve Zeynelâbidîn b. Abdülkādir et-Taberî’nin ilim halkalarına devam ederek icâzet aldı ( el-Meşreʿu’r-revî , II, 40). Bir süre Medine’de kalan Şillî daha sonra Mekke’ye yerleşti. Harem-i şerif’te verdiği derslere aralarında Hasan el-Uceymî ve Tâceddin es-Sincârî gibi ileri gelen âlimlerin bulunduğu çok sayıda talebe katıldı. Sağlığının bozulması üzerine ders vermeyi bırakıp eser telifiyle meşgul olmaya başladı. 30 Zilhicce 1093’te (30 Aralık 1682) Mekke’de vefat etti. İslâmî ilimlerin yanı sıra matematik ve astronomi gibi ilimlerle de uğraşan Şillî dinî meselelerin çözümünde bu ilimlerden istifade etti. Astronomi, dil ve mantık alanında çalışmaları bulunmakla birlikte kendisine şöhret kazandıran eserleri tarih ve biyografiye dair kaleme aldıklarıdır. Şemseddin es-Sehâvî, Süyûtî ve Yemen tarihçisi İbnü’d-Deyba‘ın eserleri kaynakları arasında sayılabilir. Eserleri. 1. el-Meşreʿu’r-revî fî menâḳıbi’s-sâdeti’l-kirâm Âli Ebî ʿAlevî . Hadramut bölgesinde yaşayıp özellikle ilimle meşgul olan seyyidlerin biyografisine dair olan eser Hadramut tarihine dair önemli bilgiler içerir (Kahire 1319, 1982; Mekke 1329; Cidde 1401). 2. ʿİḳdü’l-cevâhir ve’d-dürer fî aḫbâri’l-ḳarni’l-ḥâdî ʿaşer . XI. (XVII.) yüzyılda yaşamış ilim ve siyaset adamlarının biyografilerine dair olan eserin nüshaları Medine’de Ârif Hikmet (nr. 453), Yemen’de Ahkāf (Hüseynî Koleksiyonu, nr. 21) ve Hindistan’da Aligarh Üniversitesi (Abdüsselâm Koleksiyonu, nr. F/3021) kütüphaneleriyle İngiltere’de British Museum’da (nr. 16647) kayıtlıdır. 3. es-Sene’l-bâhir bi-tekmîli’n-Nûri’s-sâfir ʿan aḫbâri’l-ḳarni’l-ʿâşir (Chester Beatty Library, nr. 5230; Dârül-kütübi’l-Mısriyye, nr. 1586). Abdülkādir b. Şeyh el-Ayderûs’a ait tabakat kitabının zeylidir. Eser, Osmanlı hâkimiyeti döneminde Arap vilâyetlerindeki ilmî çalışmalar ve sosyal hayat hakkında bilgi vermesi açısından önemlidir. Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 163-164 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:silli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=silli, https://islamansiklopedisi.org.tr/silli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:silli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=silli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:57Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=silli (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=silli)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Şillî; Hadramî; Yemenî; Mekkî"
+  ],
+  "death_temporal": {
+    "start_ah": 1093,
+    "start_ce": 1682,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=silli, URL: https://islamansiklopedisi.org.tr/silli || DİA birth place: Terîm || DİA death place: Mekke || DİA death-date string: (ö. 1093/1682) || DİA categories: hadis > fıkıh > tefsir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005040",
+    "iac:person-00006457"
+  ],
+  "students": [
+    "iac:person-00007447"
+  ]
+}

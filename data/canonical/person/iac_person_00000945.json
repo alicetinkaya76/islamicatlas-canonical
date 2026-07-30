@@ -1,0 +1,59 @@
+{
+  "@id": "iac:person-00000945",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ali Behcet Efendi"
+    },
+    "description": {
+      "tr": "Konya’da doğdu. Ulemâdan Ebûbekir Efendi’nin oğludur. Dedesi Hasan Efendi’den tahsil ve terbiye gördü. Karahisar’a (Afyon) giderek Divâne Mehmed Çelebi Dergâhı postnişini olan akrabası Alâeddin Çelebi’den Mes̱nevî , Mektûbât , ʿAvârifü’l-maʿârif gibi tasavvuf klasiklerini okudu. Daha sonra medrese tahsili yaptı ve kadı oldu. Çeşitli yerlerde ve bir müddet Ankara’da kadılık görevinde bulunduktan sonra istifa ederek tekrar Afyon’a gitti. Alâeddin Çelebi’ye intisap etti, çilesini tamamladı ve “sikke” giydi. 1796 yılında, Bursa’da faaliyet gösteren Kādirî ve Nakşibendî şeyhi Abdülkādir-i Geylânî soyundan Kerküklü Seyyid Mehmed Emin Efendi’ye intisap ederek Nakşibendiyye, Kādiriyye, Kübreviyye, Çiştiyye ve Şettâriyye tarikatlarından icâzet aldı. Şeyh Mehmed Emin Efendi’nin müntesiplerinden olup Bursa’da sürgün hayatı yaşayan ve daha sonra affedilen Sadrazam Burdurlu Derviş Mehmed Paşa’nın tavsiyesiyle II. Mahmud tarafından İstanbul’a davet edildi ve III. Selim’in yaptırdığı Üsküdar’daki Selimiye Nakşibendî Dergâhı şeyhliğine tayin olundu (1816). Tasavvuf tarihinde birbirine zıt temayüllere sahip Nakşibendiyye’den Müceddidiyye ile Mevleviyye tarikatlarına mensup olmakla birlikte Nakşibendî şeyhi olarak faaliyet gösterdi. II. Mahmud devrinin önemli devlet adamları, âlim ve aydınları katında büyük bir nüfuza sahip oldu. Kendisine intisap eden Hâlet Efendi, Pertev Paşa, Kethüdâzâde Ârif, Şeyhülislâm Turşucuzâde Ahmed Muhtar bunlar arasında sayılabilir. XIX. yüzyılda Mevlevî-Nakşî yakınlaşmasında önemli bir yeri olan Şeyh Ali Behcet Efendi ölümüne kadar irşad faaliyetinde bulunarak tâliplere tefsir, hadis, fıkıh, Mes̱nevî ve Mektûbât okuttu. Sadece dört kişiye (İbrâhim Hayrânî, Mülkiye Nâzırı Pertev Paşa, Ahmed Buhârî Dergâhı şeyhi Rıfkı Efendi ve Hacı Ahmed) hilâfet verdi. Büyük oğlu yetişinceye kadar halife olarak yerine İbrâhim Hayrânî Efendi’yi bıraktı. Kabri Selimiye Dergâhı hazîresindedir. Hüseyin Vassâf, Ali Behcet Efendi’nin Risâle-i Ubeydiyye-i Nakşibendiyye , Behcetü’s-sülûk , Sırrü’l-mîâd , Terceme-i Hâl-i Ricâl-i Çiştiyye , Risâle-i Hâliyye ve Rûhâniyye , Divançe ve Vâridât-ı Kalbiyye adlı eserleri olduğunu kaydetmektedir. Bunlardan, Nakşibendiyye’nin sülûk usulünden bahseden ve kendisinin Nakşibendî-Mevlevî silsilesini veren Risâle-i Ubeydiyye-i Nakşibendiyye basılmıştır (İstanbul 1260). Kendi el yazısıyla üç mektubu ve bir manzumesi İstanbul Üniversitesi Kütüphanesi’ndedir (İbnülemin, nr. 3223). Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 382-383 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-behcet-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-behcet-efendi, https://islamansiklopedisi.org.tr/ali-behcet-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-05-04T15:33:17Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-behcet-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1727,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ali-behcet-efendi, URL: https://islamansiklopedisi.org.tr/ali-behcet-efendi || DİA birth place: Konya || DİA death-date string: (1727-1822) || DİA categories: tasavvuf > tarikat > fıkıh || Chunk count: 1"
+}

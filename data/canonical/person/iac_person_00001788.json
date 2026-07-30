@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00001788",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CERÎR b. ABDÜLHAMÎD",
+      "ar": "جرير بن عبد الحميد"
+    },
+    "originalScript": {
+      "ar": "جرير بن عبد الحميد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Cerîr b. Abdilhamîd b. Cerîr (Yezîd) ed-Dabbî er-Râzî"
+      ]
+    },
+    "description": {
+      "tr": "110’da (728) İsfahan’a bağlı Âbe kasabasında (veya Rey’e bağlı Eyye köyünde) doğdu. 107’de (725) Kûfe’de doğduğu da rivayet edilir. Öğrenim çağındayken Bağdat ve Mekke’ye gitti. Kûfe’de uzunca bir süre kaldıktan sonra Rey’e yerleşti ve orada hadis rivayetine başladı. Hocaları arasında Mansûr b. Mu‘temir, Âsım el-Ahvel, Hişâm b. Urve, Yahyâ b. Saîd el-Ensârî ve A‘meş gibi muhaddisler vardır. Kendisinden de Abdullah b. Mübârek, Yahyâ b. Maîn, Ali b. Medînî, İshak b. Râhûye, Ahmed b. Hanbel ve Ebû Bekir b. Ebû Şeybe gibi âlimler rivayette bulunmuştur. Cerîr duyduğu hadisleri hemen yazar, yanında kitabı yokken onları rivayet etmezdi. Birçok muhaddis aşırı olmayan bid‘at ehlinden hadis almayı câiz gördüğü halde Cerîr ehl-i bid‘attan kabul ettiği hocalardan rivayette bulunmazdı. Câbir el-Cu‘fî, İbn Ebû Necîh ve İbn Cüreyc’in rivayetlerine bu sebeple iltifat etmemiştir. Birçok hadis talebesinin uzak ülkelerden gelerek kendisinden hadis öğrendiği Cerîr’in güvenilirliği konusunda âlimler ittifak etmişlerdir. Ahmed b. Hanbel ise onu hadiste otorite olarak görmez. Cerîr’in Şiîliğe meyli olduğu hususundaki iddianın bir dayanağı yoktur. es-Sünenü’l-kübrâ ’sında Cerîr’den otuz kadar hadis rivayet eden Beyhakī ömrünün sonlarına doğru onun hâfızasının zayıfladığını kaydeder; ancak İbn Hacer bu tesbitin doğru olmadığını, Beyhakī’nin onu Cerîr b. Hâzim’le karıştırdığını belirtir. Kıraat ilmini kırâat-i seb‘a imamlarından Hamza b. Habîb ile A‘meş’ten öğrenen Cerîr’in bu ilimlere dair görüşleri, Ebû Ya‘kūb Yûsuf b. Mûsâ el-Kattân ve Ahmed b. Cübeyr el-Antâkî tarafından nakledilmiştir. Zühd ve takvâsı ile tanınan Cerîr Rey’de vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 411-412 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cerir-b-abdulhamid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cerir-b-abdulhamid, https://islamansiklopedisi.org.tr/cerir-b-abdulhamid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:48Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:48Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:48Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cerir-b-abdulhamid (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Dabbî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 188,
+    "start_ce": 804,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cerir-b-abdulhamid, URL: https://islamansiklopedisi.org.tr/cerir-b-abdulhamid || DİA birth place: Kûfe || DİA death place: Rey || DİA death-date string: (ö. 188/804) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "death_place": "iac:place-00015119",
+  "teachers": [
+    "iac:person-00000593",
+    "iac:person-00001019",
+    "iac:person-00001148",
+    "iac:person-00003438",
+    "iac:person-00004283",
+    "iac:person-00007290",
+    "iac:person-00007655"
+  ],
+  "students": [
+    "iac:person-00000407",
+    "iac:person-00000524",
+    "iac:person-00000753",
+    "iac:person-00000935",
+    "iac:person-00002024",
+    "iac:person-00002086",
+    "iac:person-00003758",
+    "iac:person-00003760",
+    "iac:person-00003986",
+    "iac:person-00006609",
+    "iac:person-00007648",
+    "iac:person-00007652"
+  ]
+}

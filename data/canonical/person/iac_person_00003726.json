@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003726",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn De’b",
+      "ar": "ابن دأب"
+    },
+    "originalScript": {
+      "ar": "ابن دأب"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Velîd Îsâ b. Yezîd b. Bekr b. De’b el-Leysî el-Medenî"
+      ]
+    },
+    "description": {
+      "tr": "Medine’de doğdu. Kinâne kabilesinin Şeddâhoğulları koluna mensuptur. Öğrenimini tamamladıktan sonra Bağdat’a yerleşip bir müddet Abbâsî Halifesi Mehdî-Billâh’ın sarayında bulundu, daha sonra Halife Hâdî-İlelhakk’ın nedimi oldu. Bu ilişki Hâdî’nin hilâfeti boyunca devam etti. İbn Kuteybe’nin ensâb ve ahbâr âlimleri arasında saydığı İbn De’b’in rivayette bulunduğu muhaddisler arasında Hişâm b. Urve, İbn Ebû Zi’b, Sâlih b. Keysân gibi râviler yer almış, kendisinden de İbn Sellâm el-Cumahî, Havsere b. Eşres, Şebâbe b. Sevvâr, Ya‘kūb b. İbrâhim b. Sa‘d ve diğerleri rivayette bulunmuştur. İbn Kuteybe ve İbn Sellâm el-Cumahî ona isnaden hadis nakledip bunda bir sakınca görmezken Halef el-Ahmer gibi bazı râviler onu yalancılıkla ve hadis uydurmakla suçlamışlardır (Yâkūt, XVI, 161). Buhârî hadislere ilâvede bulunduğunu, Ebû Hâtim de hadis uydurduğu gerekçesiyle onun “münkerü’l-hadîs” olduğunu kaydetmiş, Zehebî, hadisinin bir değeri olmadığını belirtmek üzere onun hakkında “vâhin” tabirini kullanmıştır. İbnü’l-Müsennâ ise İbn De’b’in Şîa taraftarı olduğunu ve Hâşimoğulları lehine haberler uydurduğunu ileri sürmüştür. İbnü’n-Nedîm, Leylâ ve Mecnûn gibi aşk hikâyelerini derleyenler arasında onu da sayar ( el-Fihrist , s. 365). İbn De’b tatlı dilli, hoşsohbet bir insan olması yanında nesep bilgisi kuvvetli, Arap şiiri ve tarihi konularında geniş bilgi sahibi bir âlim olarak tanınmış, yaşadığı devirde Hicazlılar’ın en edibi diye nitelendirilmiştir. Konuşmasındaki belâgat ve zarafeti, hazırcevaplığı, her duruma uygun şiir ve hikâye üretme veya nakletme becerisi sayesinde üst düzey yöneticilerle çok çabuk kaynaşabilmiş, kibirli davranışlarına rağmen Halife Hâdî’nin dostluğunu kazanmıştır. Hâdî’nin, huzuruna geldiği zaman ona itibar etmesi, sohbetinden bıkmadığını söylemesi ve kendisine bol ihsanda bulunması İbn De’b’in halife yanındaki mevkiini ortaya koymaktadır. İbn De’b kadar meşhur olmamakla birlikte bu ailenin bazı üyeleri de Arap tarihi, şiiri ve nesebi konusundaki bilgileriyle tanınmıştır. Bunlardan özellikle İbn De’b’in dedesi Bekir, büyük amcası Huzeyfe b. De’b, kardeşi Yahyâ b. De’b ve yeğeni Muhammed b. Huzeyfe anılabilir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 411-412 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-deb",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-deb, https://islamansiklopedisi.org.tr/ibn-deb",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:18Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:18Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-deb (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Leysî; Medenî"
+  ],
+  "death_temporal": {
+    "start_ah": 171,
+    "start_ce": 787,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-deb, URL: https://islamansiklopedisi.org.tr/ibn-deb || DİA birth place: Medine || DİA death-date string: (ö. 171/787) || DİA categories: hadis > rivayet > belâgat || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003438",
+    "iac:person-00003768"
+  ],
+  "students": [
+    "iac:person-00004020"
+  ]
+}

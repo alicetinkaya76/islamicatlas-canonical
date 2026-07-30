@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00001383",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BECELÎ, Hasan b. Ali",
+      "ar": "الحسن بن علي البجلي"
+    },
+    "originalScript": {
+      "ar": "الحسن بن علي البجلي"
+    },
+    "altLabel": {
+      "tr": [
+        "el-Hasen b. Alî b. el-Hüseyn el-Becelî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında kesin bilgi yoktur. Bununla beraber Arap coğrafyacılarından Bekrî, İsmâilî dâîsi Ebû Abdullah eş-Şiî’nin Kuzey Afrika’ya gittiği 280 (893) yılından önce bu bölgede Beceliyye fırkasının mevcut olduğunu belirtmektedir. Büyük bir ihtimalle Becelî’nin oğlu olan Muhammed b. Hasan’ın 294 yılında öldüğü dikkate alınırsa Hasan b. Ali’nin III. yüzyılın ortalarında hayatta olduğu tahmin edilebilir. Neftalı ve nisbesine göre Becîle veya Süleym kabilesinin Becle kolundan (bazılarına göre Nahlî veya Nihlî, bk. Aʿyânü’ş-Şîʿa , V, 216) ve Ali b. Hüseyin el-Becelî’nin oğlu olduğu sanılan Becelî görüşlerini Benû Lemâs kabilesi arasında yaydı. Beceliyye’yi Râfizîlik ve İbâhîlik’le itham eden Bekrî’ye göre bu fırka mensupları hilâfetin Hasan b. Ali evlâdına ait bir hak olduğunu ve Hüseyin nesline intikal etmeyeceğini kabul eder; ashaba dil uzatır, faizciliği normal bir alışveriş muamelesi telakki eder. Yine ona göre Beceliyye ezana, “Eşhedü enne Muhammeden hayrü’l-beşer, hayye alâ hayri’l-amel, âlü Muhammed hayrü’l-beriyye” ibarelerini ilâve etmiştir. İbn Hazm da hemen hemen aynı görüşlere katılarak Becelî’nin Nefta’dan Sûs’a geldiğini, yöre halkını ve emîr Ahmed b. İdris’i doğru yoldan saptırdığını, müslümanların namazına benzemeyen bir şekilde namaz kılmayı telkin ettiğini ve bu bölgede küfrünü yaydığını ifade eder. İbn Havkal Beceliyye fırkasının Mûsâ el-Kâzım’ı imam tanıdığını ve imâmeti yalnız ona ait bir hak olarak kabul ettiğini belirtir. Fırkanın ashaba dil uzatması konusuna temas eden Ebü’l-Arab ise Nefta ve Kayrevan’da kendi devrinin Beceliyye lideri olan Muhammed b. Hasan’dan ashap hakkında kötü bir söz duymadığını söyler (bk. el-Ḥulelü’s-sündüsiyye , I, 415). Bu farklı rivayetlerin hepsi, Becelî’nin Kuzey Afrika’da İsmâilî olmayan ve fakat büyük bir ihtimalle imâmeti Hasan evlâdına tahsis eden Şiî bir fırkanın liderlerinden olduğu doğrultusundadır. Beceliyye fırkası daha sonraları Murâbıtlar Devleti’nin kurucusu Abdullah b. Yâsîn el-Cüzûlî tarafından ortadan kaldırılmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 286-287 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:beceli-hasan-b-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=beceli-hasan-b-ali, https://islamansiklopedisi.org.tr/beceli-hasan-b-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:41Z",
+    "modified": "2026-05-04T15:33:41Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=beceli-hasan-b-ali (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Becelî"
+  ],
+  "birth_temporal": {
+    "start_ah": 280,
+    "start_ce": 893,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=beceli-hasan-b-ali, URL: https://islamansiklopedisi.org.tr/beceli-hasan-b-ali || DİA categories: rivayet || Chunk count: 1"
+}

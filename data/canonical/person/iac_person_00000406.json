@@ -1,0 +1,87 @@
+{
+  "@id": "iac:person-00000406",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÂN el-AHVÂZÎ",
+      "ar": "عبدان الأهوازي"
+    },
+    "originalScript": {
+      "ar": "عبدان الأهوازي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdullāh b. Ahmed b. Mûsâ el-Ahvâzî el-Cevâlîkī"
+      ]
+    },
+    "description": {
+      "tr": "“Çuval dokuyan” veya “çuval satan” anlamındaki Cevâlîkī nisbesini ve bazı kaynaklarda görülen el-Kādî unvanını hangi sebeplerle aldığı bilinmemektedir. Daha çok Abdân lakabıyla tanınan Abdullah b. Ahmed’in hayatı ve yetişme tarzı hakkında fazla bilgi yoktur. Ahvaz yakınlarında bir ordugâh şehri olarak kurulan, bugün ise sadece kalıntıları bulunan Askerimükrem’de oturduğu için Ahvâzî, bazan da Askerî nisbeleriyle anılmıştır. Hicaz, Şam, Mısır ve Irak gibi ilim muhitlerini dolaşarak Ebû Bekir b. Ebû Şeybe, Osman b. Ebû Şeybe, Halîfe b. Hayyât ve Bündâr gibi devrinin meşhur muhaddislerinden hadis tahsil etti. İbn Asâkir’in kaydettiğine göre bu maksatla Dımaşk’a gitti (854) ve Ebû Zür‘a ed-Dımaşkī’den hadis okudu. Kendisinden de İbn Kāni‘, Taberânî, Ebû Bekir el-İsmâilî, Hamza el-Kinânî hadis rivayet etmişlerdir. Abdân’dan hadis tahsil eden Ebû Ali en-Nîsâbûrî, Abdân’ın yüz bin hadisi ezbere bildiğini ve hocaları içinde onun kadar çok hadis ezberleyen bir başkasını görmediğini söyler. Bilmediği hadisleri öğrenmek ve bilhassa “âlî isnad” elde etmek için gayret sarfeden Abdân el-Ahvâzî, tâbiî Eyyûb es-Sahtiyânî’nin hadislerini âlî isnad ile rivayet etmek maksadıyla on sekiz defa Basra’ya gitmiştir. Askerimükrem’de Abdân’dan hadis dinlediğini söyleyen Ebû Hâtim el-Büstî de onun hadis rivayeti konusunda çok titiz davrandığını ifade eder. Abdân’ın hadis rivayetinde zaman zaman yanıldığı (bk. VEHİM ) ileri sürülmüştür. Ancak Zehebî, onun sadûk bir hadis hâfızı olduğunu ve pek az yanıldığını belirtir; “hüccet” ve “allâme” diye övdüğü Abdân’ın çeşitli eserleri bulunduğunu, bunlardan üç cüzün kendisine âlî bir isnad ile ulaştığını kaydeder. Kettânî ise onun hadislerini toplayan bir fevâid inin bulunduğunu söyler. Abdân el-Ahvâzî, doksan yaşlarında Askerimükrem’de vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 66-67 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdan-el-ahvazi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdan-el-ahvazi, https://islamansiklopedisi.org.tr/abdan-el-ahvazi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:38Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdan-el-ahvazi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ahvâzî"
+  ],
+  "death_temporal": {
+    "start_ah": 306,
+    "start_ce": 918,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdan-el-ahvazi, URL: https://islamansiklopedisi.org.tr/abdan-el-ahvazi || DİA death place: Askerimükrem || DİA death-date string: (ö. 306/918) || DİA categories: hadis > rivayet > isnâd || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001613",
+    "iac:person-00002311",
+    "iac:person-00003092",
+    "iac:person-00003760"
+  ],
+  "students": [
+    "iac:person-00002126",
+    "iac:person-00003151",
+    "iac:person-00003631",
+    "iac:person-00003894",
+    "iac:person-00004584",
+    "iac:person-00007222"
+  ]
+}

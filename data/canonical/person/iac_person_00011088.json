@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00011088",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Khalf al-Hasrī",
+      "tr": "Hılf el-Hasrî",
+      "ar": "خلف الحصري"
+    },
+    "originalScript": {
+      "ar": "خلف الحصري"
+    },
+    "description": {
+      "tr": "Endülüs'te Haşim b. el-Hakem (el-Meyyid billâh) olarak halife ilan edilen bir sahtekar. Haşim'in öld",
+      "en": "A charlatan who was proclaimed caliph in al-Andalus under the name of Hishām b. al-Hakam (al-Muʾayya"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Khalf al-Hasrī"
+    },
+    "altLabel": {
+      "tr": [],
+      "ar": []
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:3341",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=3341",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:57Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=3341 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill translit from alam_detail.json el-alam:3341."
+      },
+      {
+        "change_type": "deprecate",
+        "note": "h22_003 kişi-dublet birleştirme: aynı normalize Arapça ad 'خلف الحصري' + aynı ölüm (451 AH / 1059 CE) + ayrık kaynaklar; iac:person-00003077 lehine emekli. PID korunur, geri alınabilir (h22_003 --restore).",
+        "changed_at": "2026-07-20T14:37:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854"
+      }
+    ],
+    "deprecated": true,
+    "deprecated_in_favor_of": "iac:person-00003077"
+  },
+  "death_temporal": {
+    "start_ah": 451,
+    "start_ce": 1059,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=3341, heading_ar=خلف الحصري || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 37.38, -5.0"
+}

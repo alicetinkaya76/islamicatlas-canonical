@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00001462",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BERÂ b. MÂLİK",
+      "ar": "البراء بن مالك"
+    },
+    "originalScript": {
+      "ar": "البراء بن مالك"
+    },
+    "altLabel": {
+      "tr": [
+        "el-Berâ’ b. Mâlik b. Nadr el-Hazrecî"
+      ]
+    },
+    "description": {
+      "tr": "Hazrec kabilesinin Neccâroğulları sülâlesine mensup olup meşhur sahâbî Enes b. Mâlik’in kardeşidir. Bazı kaynaklarda baba bir kardeş oldukları belirtilmektedir. Hudeybiye’de Resûlullah’a biat edenler arasında o da vardı. Bedir Gazvesi dışındaki bütün gazvelerde Hz. Peygamber’in yanında yer aldı. Müseylimetülkezzâb üzerine Hz. Ebû Bekir’in gönderdiği orduya katıldı. Müseylime askerleriyle beraber, her yönden tahkim edilmiş ve içerisinde cereyan eden çetin savaş sebebiyle sonraları “hadîkatü’l-mevt” (ölüm bahçesi) denilen bir mevkide mevzilenmişti. Buraya hiçbir yerden girme imkânı bulunmadığından Berâ mızraklar ucunda havaya kaldırılan bir kalkan içinde içeriye fırlatılmasını ısrarla istedi. Bu şekilde oraya girdikten sonra etrafını kuşatan düşman askerleriyle çarpışa çarpışa giriş kapısına kadar ulaştı ve müslümanların içeri girmesini sağladı. Ancak seksenden fazla yara aldı. Tedavisiyle bizzat Hâlid b. Velîd’in bir ay kadar meşgul olması sonucu iyileşebildi. Berâ Hz. Ömer devrinde İran’ın Fars bölgesindeki fetihlere katıldı. Olağan üstü cesaretinin müslümanların hayatını tehlikeye sokabileceğini düşünen Hz. Ömer hiçbir savaşta Berâ’ı kumandan tayin etmemiş, hatta sırf bu sebeple kumandanlarına gönderdiği bir mektupta ona bu tür bir görev verilmemesini hatırlatmıştı. Hz. Peygamber bir hadisinde Berâ’ın mânevî değerine işaret ederek şöyle buyurmuştur: “Saçı başı dağınık olduğu, eski elbiseler giydiği için kendisine önem verilmeyen öyle kimseler vardır ki şöyle olsun diye dua etseler Allah isteklerini geri çevirmez. Berâ b. Mâlik de bunlardandır” (Tirmizî, “Menâḳıb”, 55). Nitekim savaşlarda zor durumda kalan müslümanlar ona başvurarak Allah Teâlâ’dan zafer niyaz etmesini isterlerdi. Tüster muhâsarasında da müslümanların aynı isteğiyle karşılaşınca onlara zafer, kendine şehidlik niyazında bulundu; neticede kale düştü, Berâ da şehid oldu. Muhtelif savaşlarda düşmanla yaptığı teke tek vuruşmalarda yüz meşhur muharibi öldürmesiyle de ünlüdür. Sesi çok güzel olduğu için Hz. Peygamber’in seferlerinde zaman zaman, süratli gitmeleri için nağmelerle develeri coştururdu. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 469 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bera-b-malik",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bera-b-malik, https://islamansiklopedisi.org.tr/bera-b-malik",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bera-b-malik",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bera-b-malik",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:1911",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=1911, heading_ar=البراء بن مالك",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:42Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bera-b-malik (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[1911]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=1911 (heading_ar=البراء بن مالك) via Track A (DİA→Alam xref bridge). dt=Sahâbî, insanların en cesurlarından"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hazrecî"
+  ],
+  "death_temporal": {
+    "start_ah": 20,
+    "start_ce": 641,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bera-b-malik, URL: https://islamansiklopedisi.org.tr/bera-b-malik || El-Aʿlām (Ziriklī) cross-reference: alam_id=[1911] || DİA death-date string: (ö. 20/641) || DİA categories: hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=1911, heading_ar=البراء بن مالك, dt=Sahâbî, insanların en cesurlarından"
+}

@@ -1,0 +1,105 @@
+{
+  "@id": "iac:person-00001163",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ATÂ b. SÂİB",
+      "ar": "عطاء بن السائب"
+    },
+    "originalScript": {
+      "ar": "عطاء بن السائب"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Yezîd Atâ b. es-Sâib b. Yezîd (Mâlik yahut Zeyd) es-Sekafî"
+      ]
+    },
+    "description": {
+      "tr": "Kaynaklarda hayatı hakkında fazla bilgi bulunmayan ve Ebü’s-Sâib veya Ebû Zeyd künyeleriyle de anılan Atâ b. Sâib bazan doğrudan, bazan da arada bir vasıta ile Enes b. Mâlik ve Abdullah b. Ebû Evfâ gibi sahâbîlerden, güvenilir bir muhaddis olan babası Sâib b. Yezîd, Abdurrahman b. Ebû Leylâ, Mücâhid b. Cebr gibi tâbiîlerden hadis rivayet etti. Kendisi de A‘meş, İbn Cüreyc, Şu‘be, Süfyân es-Sevrî ve Süfyân b. Uyeyne gibi meşhur muhaddislere hocalık yaptı. Ahmed b. Hanbel’in iyi bir insan ve güvenilir bir muhaddis olduğunu söylediği Atâ, ömrünün son yıllarında hâfıza kaybına uğradı. Elindeki hadis cüzleri -İclî’nin dediğine göre- pek sağlam olmadığı için, “Bu senin rivayet ettiğin hadislerdendir” şeklindeki telkin leri kabul etmeye, kendilerinden hadis almadığı hocalardan hadis rivayet ettiğini iddia etmeye başladı. Bilhassa tâbiîlerden işittiklerini sahâbîlerden duymuş gibi gösterdi. Bu sebeple hâfızası sağlam olduğu yıllarda ondan hadis almış olan Süfyân es-Sevrî, Şu‘be b. Haccâc ve Hammâd b. Zeyd gibi eski talebelerinin rivayetleri itimada şayan görülmüş, daha sonraları kendisinden hadis okumuş olan talebelerinin rivayetleri ise ihtiyatla karşılanmıştır. Buhârî de onun bir rivayetini mütâbi‘ olarak Ṣaḥîḥ ’ine almış, Ebû Dâvûd, Tirmizî, Nesâî ve İbn Mâce rivayetlerine sünenlerinde yer vermişlerdir. Atâ’nın İbn Sa‘d tarafından 136 (753) olarak tesbit edilen ölüm tarihinin 133, 134 ve 137 olduğu da ileri sürülmüştür. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 37 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ata-b-saib",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ata-b-saib, https://islamansiklopedisi.org.tr/ata-b-saib",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ata-b-saib",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ata-b-saib",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ata-b-saib (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sekafî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 136,
+    "start_ce": 753,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ata-b-saib, URL: https://islamansiklopedisi.org.tr/ata-b-saib || DİA death-date string: (ö. 136/753) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000503",
+    "iac:person-00002515",
+    "iac:person-00003750",
+    "iac:person-00005618"
+  ],
+  "students": [
+    "iac:person-00001019",
+    "iac:person-00003721",
+    "iac:person-00004060",
+    "iac:person-00006906",
+    "iac:person-00007106",
+    "iac:person-00007121",
+    "iac:person-00007122"
+  ]
+}

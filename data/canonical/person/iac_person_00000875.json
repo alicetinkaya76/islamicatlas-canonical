@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00000875",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂİZ b. AMR",
+      "ar": "عائذ بن عمرو"
+    },
+    "originalScript": {
+      "ar": "عائذ بن عمرو"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Hübeyre Âiz b. Amr b. Hilâl el-Müzenî el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "Hudeybiye’de Hz. Peygamber’e biatından önceki hayatı hakkında bilgi yoktur. Huneyn Gazvesi’nde düşmanla göğüs göğüse çarpıştı ve yüzünden ağır şekilde yaralandı. Yarasını bizzat Hz. Peygamber sardı (Hâkim, III, 587-588). Hz. Peygamber’in vefatından sonra Mezopotamya bölgesi fethedilince Basra’da yerleşti. Bir ilim ve irfan mektebi olan evinin kapısı herkese açıktı. Doğru bildiğini söylemekten çekinmeyen bir tabiata sahipti. Bir gün Basra valisi ve Hz. Hüseyin’in katili Ubeydullah b. Ziyâd’ın huzuruna girdi ve, “Zalimler en kötü idarecilerdir” hadisini bizzat Hz. Peygamber’den duyduğunu söyleyerek zulümden sakınmasını tavsiye etti. Valinin ona, “Peygamber’in seçkin ashabındansın” diye yer göstermesi üzerine de ashap arasında seçkinlik diye bir şey olmadığını, böyle şeylerin sonradan meydana çıktığını söyledi (bk. Müslim, “Feżâʾilü’ṣ-ṣaḥâbe”, 170). Cenaze namazını Ubeydullah b. Ziyâd’ın kıldırmasını önlemek için ashaptan Ebû Berze el-Eslemî’nin kıldırmasını vasiyet etti. Hasan-ı Basrî, Muâviye b. Kurre, Âmir el-Ahvel, Abdullah b. Halîfe, kendi oğlu Haşrec Âiz’den hadis rivayet ettiler. Hadislerinden on üçü Ahmed b. Hanbel’in el-Müsned ’inde (V, 64-65), ikisi de Ṣaḥîḥ-i Müslim ’de mevcuttur (“İmâre”, 23; “Feżâʾilü’ṣ-ṣaḥâbe”, 170). Ṣaḥîḥ-i Buḫârî ’de de bir mevkuf rivayeti bulunmaktadır (“Meġāzî”, 35). Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 207 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:aiz-b-amr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=aiz-b-amr, https://islamansiklopedisi.org.tr/aiz-b-amr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-05-04T15:33:14Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=aiz-b-amr (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Müzenî; Basrî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 61,
+    "start_ce": 680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=aiz-b-amr, URL: https://islamansiklopedisi.org.tr/aiz-b-amr || DİA death-date string: (ö. 61/680-81) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

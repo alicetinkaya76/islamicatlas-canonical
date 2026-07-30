@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00006974",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Seyrekzâde Mehmed Âsim"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Bazı kaynaklarda lakabı Zeyrekzâde olarak geçer. Babası Seyrekzâde Seyyid Abdurrahman, dedesi Seyrekzâde Şemseddin Ahmed olup soyu Sultan II. Selim’in hocası Seyrek Muhyiddin Hüseyin Efendi’ye dayanır. Kaynaklarda seyyid unvanıyla anılmaktaysa da bunun gerçeği mi aksettirdiği yoksa nakîbü’l-eşraflıktan dolayı yahut tarikat geleneklerine uyularak mı verildiği konusunda kesinlik yoktur. Seyrekzâde Mehmed Efendi tahsilini Beyazıt Medresesi’nde tamamladı. “Âsım” (Âsımî) mahlasıyla şiirler yazdı. Devrin şeyhülislâmı Esîrî Mehmed Efendi’den mülâzım oldu. 1077 Recebinde (Ocak 1667) Neccâriye, 1080 Rebîülevvelinde (Ağustos 1669) Ferhad Paşa, 1080 Recebinde (Aralık 1669) Kürkçübaşı, 1083 Muharreminde (Mayıs 1672) Hüseyin Efendi, 1084 Recebinde (Ekim-Kasım 1673) Sahn (Fâtih) ve 1085 Ramazanında (Aralık 1674) Siyavuş Paşa medreselerinde görev yaptı. Siyavuş Paşa Medresesi müderrisi iken 15 Şâban 1086 (4 Kasım 1675) tarihinde vebadan öldü. Mezarı Edirnekapı dışında Emîr Buhârî Tekkesi karşısında amcası Yûnus Efendi’nin yanındadır. Kaynaklarda Seyrekzâde’nin mürettep bir divanının olduğu belirtilirse de henüz ele geçmemiştir. Tezkire müellifleri onun mükemmel bir şair ve münşî olduğunu kaydedip şiirlerinden örnekler verir. Şiirleri incelendiğinde tasannua kaçmayan, sade bir dil kullanarak mânaya önem veren bir şair olduğu görülür. Seyrekzâde Mehmed Âsım’ın bilinen eseri Zeyl-i Zübdetü’l-eş‘âr ’ıdır. Tezkireden ziyade bir antoloji sayılabilecek olan eser Kafzâde Fâizî’nin (ö. 1031/1622) Zübdetü’l-eş‘âr ’ının zeylidir. Seyrekzâde eserinde Fâizî’nin bıraktığı 1622 yılından 1675 yılına kadar yetişen şairleri ele almış, bu süre içinde yaşayan 124 şairin hayatı hakkında kısa bilgilerle şiirlerinden örnekler vermiştir. Eserde tanınmış şairlerin manzumelerine fazlaca yer verildiği görülür. Zeyl-i Zübdetü’l-eş‘âr ’ın belli başlı nüshaları İstanbul Üniversitesi (TY, nr. 1711, 2401) ve Millet (Ali Emîrî Efendi, Manzum, nr. 1326) kütüphanelerinde kayıtlıdır. Bu madde TDV İslâm Ansiklopedisi’nin 2009 yılında İstanbul’da basılan 37. cildinde, 38 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:seyrekzade-mehmed-asim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=seyrekzade-mehmed-asim, https://islamansiklopedisi.org.tr/seyrekzade-mehmed-asim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:seyrekzade-mehmed-asim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/seyrekzade-mehmed-asim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:56Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=seyrekzade-mehmed-asim (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1086,
+    "start_ce": 1675,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=seyrekzade-mehmed-asim, URL: https://islamansiklopedisi.org.tr/seyrekzade-mehmed-asim || DİA birth place: İstanbul || DİA death-date string: (ö. 1086/1675) || DİA categories: tarikat > şiir || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

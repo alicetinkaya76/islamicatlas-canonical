@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00000756",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED b. MENÎ‘",
+      "ar": "أحمد بن منيع"
+    },
+    "originalScript": {
+      "ar": "أحمد بن منيع"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ca‘fer Ahmed b. Menî‘ b. Abdirrahmân el-Begavî"
+      ]
+    },
+    "description": {
+      "tr": "Meşhur müfessir ve muhaddis Ebü’l-Kāsım Abdullah el-Begavî’nin ana tarafından dedesidir. Horasan başta olmak üzere birçok ilim merkezini gezerek Süfyân b. Uyeyne, Ebû Bekir b. Ayyâş, Abdullah b. Mübârek ve Yezîd b. Hârûn gibi ünlü muhaddislerden ders aldı. Hadis ilminde hâfız mertebesine ulaştı. Daha sonra Bağdat’a yerleşip ölünceye kadar orada hadis öğretimi ile meşgul oldu. Talebeleri arasında, başta Buhârî olmak üzere, diğer Kütüb-i Sitte müelliflerinin yanı sıra Muhammed b. İshak es-Sâgānî, İbn Huzeyme ve kendi torunu Ebü’l-Kāsım Abdullah el-Begavî de bulunmaktadır. Buhârî ondan bir râvi aracılığı ile aldığı hadislere Ṣaḥîḥ ’inde, doğrudan aldıklarına da diğer eserlerinde yer vermiştir. Hadis münekkitleri tarafından sadûk , sika ve hüccet kabul edilmiştir. İlmî seviyesi bakımından çağdaşı Ahmed b. Hanbel’e yakın olduğu kabul edilen İbn Menî‘in Kur’ân-ı Kerîm’i kırk yıl boyunca üç günde bir hatmettiği rivayet edilir. Bütün kazancını ilim uğrunda harcamıştır. Seksen dört yaşlarında vefat ettiği zaman, kitapları dışında, satılan eşyası ancak yirmi dört dirhem tutmuştur. Kaynaklarda sözü edilen Müsned ’inin günümüze gelip gelmediği bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 100 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-b-meni",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-b-meni, https://islamansiklopedisi.org.tr/ahmed-b-meni",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:50Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-b-meni (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Begavî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 244,
+    "start_ce": 858,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-b-meni, URL: https://islamansiklopedisi.org.tr/ahmed-b-meni || DİA death-date string: (ö. 244/858-59) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000524",
+    "iac:person-00000635",
+    "iac:person-00002142",
+    "iac:person-00003636",
+    "iac:person-00007121",
+    "iac:person-00007661",
+    "iac:person-00007715"
+  ],
+  "students": [
+    "iac:person-00000760",
+    "iac:person-00001599",
+    "iac:person-00003771",
+    "iac:person-00003875",
+    "iac:person-00004007",
+    "iac:person-00004648",
+    "iac:person-00005861",
+    "iac:person-00006915",
+    "iac:person-00007357"
+  ]
+}

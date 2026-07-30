@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00003305",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HASSÂN b. ATIYYE",
+      "ar": "حسّان بن عطيّة"
+    },
+    "originalScript": {
+      "ar": "حسّان بن عطيّة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Hassân b. Atıyye el-Muhâribî"
+      ]
+    },
+    "description": {
+      "tr": "Basralı veya Beyrutlu olduğu rivayet edilir. Dımaşk’ta yaşadı. Hadis ilmiyle meşgul olan Hassân, Ebû Ümâme el-Bâhilî, Saîd b. Müseyyeb, Abdurrahman b. Sâbit, Hâlid b. Ma‘dân ve Nâfi‘den rivayette bulundu. Kendisinden hadis rivayet edenlerin en meşhuru Evzâî’dir. Yahyâ b. Maîn ve Ahmed b. Hanbel onun güvenilir bir râvi olduğu konusunda birleşirler. Zühd ve takvâ konusundaki titizliği yanında rivayet ettiği hadisleri hayatına uygulama konusunda da hassasiyet gösteren Hassân, bir kişinin kendi koyununun sütünden muhtaçları da faydalandırmasının sevap olduğunu bildiren hadisi (Buhârî, “Hibe”, 35) duyar duymaz sahip olduğu koyunun sütünü komşusuyla nöbetleşe sağmaya başlamıştı. Bid‘atlardan kaçınır, ikindi namazından sonra mescidin bir köşesine çekilip akşam vaktine kadar zikirle meşgul olurdu. Ona göre sünnete uygun olarak kılınan iki rek‘at namaz sünnete uygun olmayan yetmiş rek‘attan daha hayırlıdır. Çarşıda karşılaştığı bir rahip ona ve kendisine dua edince “âmin” demiş, yanındakilerin hayretlerini ifade etmeleri üzerine, “Allah belki rahibin kendisi için yaptığı duayı kabul etmeyebilir, fakat benim hakkımdaki duasını kabul etmesini umuyorum” diye cevap vermiştir (Ebû Nuaym, VI, 73). Bazıları Hassân’ın Kaderiyye’den olduğunu söylemişse de (İbn Manzûr, VI, 306) Evzâî, meşhur Kaderiyeci Gaylân ed-Dımaşkī’nin Hassân b. Atıyye’ye kendi fikirleriyle ilgili kanaatini sorduğunu, onun da, “Her ne kadar dilim sana cevap bulmakta yetersiz kalıyorsa da gönlüm dediklerini inkâr ediyor” şeklinde karşılık verdiğini söyleyerek (bk. Ebû Nuaym, VI, 72) hakkındaki bu iddianın doğru olmadığını belirtmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 396 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hassan-b-atiyye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hassan-b-atiyye, https://islamansiklopedisi.org.tr/hassan-b-atiyye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:13Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hassan-b-atiyye (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Muhâribî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 130,
+    "start_ce": 748,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hassan-b-atiyye, URL: https://islamansiklopedisi.org.tr/hassan-b-atiyye || DİA death-date string: (ö. 130/748 [?]) || DİA categories: hadis > rivayet > sünnet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003084"
+  ]
+}

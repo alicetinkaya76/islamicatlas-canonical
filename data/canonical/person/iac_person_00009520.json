@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00009520",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ismāʿīl Ṣidqī",
+      "tr": "İsmâîl Sadkī",
+      "ar": "إسماعيل صدقي"
+    },
+    "originalScript": {
+      "ar": "إسماعيل صدقي"
+    },
+    "description": {
+      "tr": "Mısırlı siyasetçi",
+      "en": "Egyptian politician"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ismāʿīl Ṣidqī Pāshā ibn Aḥmad Shukrī ibn Muḥammad Sayyid Aḥmad"
+    },
+    "altLabel": {
+      "tr": [
+        "İsmâîl Sadkī Paşa b. Ahmed Şekerî b. Muhammed Seyyid Ahmed"
+      ],
+      "ar": [
+        "إسماعيل صدقي (باشا) ابن أحمد شكري ابن محمد سيد أحمد"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:1602",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1602",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:43Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=1602 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:1602."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1369,
+    "start_ce": 1950,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1602, heading_ar=إسماعيل صدقي || Ziriklī century_ce=20 || Ziriklī place coords (city/region of activity): 31.2, 29.92",
+  "active_in_places": [
+    "iac:place-00000630"
+  ]
+}

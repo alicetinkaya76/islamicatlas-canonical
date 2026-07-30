@@ -1,0 +1,95 @@
+{
+ "@id": "iac:person-00000347",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Masha'allah ibn Athari",
+   "tr": "Mâşâallah b. Eserî",
+   "ar": "ماشاء الله بن أثري"
+  },
+  "originalScript": {
+   "ar": "ماشاء الله بن أثري"
+  },
+  "altLabel": {
+   "en": [
+    "Masha'allah ibn Athari al-Basri"
+   ],
+   "tr": [
+    "Mâşâallah b. Eserî el-Basrî"
+   ],
+   "ar": [
+    "ماشاء الله بن أثري البصري"
+   ]
+  },
+  "description": {
+   "tr": "Bağdat'ın kuruluş tarihini belirlemeye yardım eden Yahudi kökenli astronom; Latince'ye en çok çevrilen Arap astronomu || Yahudi asıllı Abbâsî müneccimi; Bağdat'ın kuruluş tarihini astrolojik hesaplarla belirledi. Astronomi aletleri üzerine yazdığı eserler Latince'ye çevrildi ve Avrupa'da yüzyıllarca ders kitabı olarak kullanıldı. || [Tarih notu] Kennedy ve Pingree, Mâşâallah'ın Sâsânî-Hint gökbilim geleneğini Abbâsî sarayına taşıyan kilit figür olduğunu ortaya koymuştur.",
+   "en": "Jewish-origin astronomer who helped determine Baghdad's founding date; most translated Arabic astronomer into Latin || Helped select the astrological date for founding Baghdad; most widely translated Islamic astronomer into Latin || [Historiographical note] Jewish scholar who worked alongside Muslim colleagues; his Latin translations outnumber any other Islamic astronomer",
+   "ar": "منجّم عباسي يهودي الأصل؛ حدّد تاريخ تأسيس بغداد بحسابات فلكية. تُرجمت مؤلفاته عن الآلات الفلكية إلى اللاتينية واستُخدمت كتبًا دراسية في أوروبا لقرون. || [Historiographical note] أظهر كينيدي وبينغري أن ماشاء الله كان الشخصية المحورية في نقل التقليد الفلكي الساساني-الهندي إلى البلاط العباسي."
+  }
+ },
+ "profession": [
+  "astronomer",
+  "mathematician"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0173",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0173",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-05-04T14:58:52Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0173 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (236-347-5256) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000236 lehine yumuşak-silindi. Gerekçe: Üç kayıt da ad, nesep (b. Eserî), Arapça imla, 815 ölüm yılı ve astronomi uzmanlığında birebir örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000236"
+ },
+ "birth_temporal": {
+  "start_ce": 740,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 815,
+  "approximation": "exact"
+ },
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q945425",
+   "confidence": 1.0,
+   "method": "openrefine_v3",
+   "reviewed": false,
+   "note": "Auto-matched via OpenRefine recon (top result for \"Masha'allah ibn Athari\")."
+  }
+ ],
+ "note": "Promoted from science_layer.json scholar id=scholar_0173, lecture_week=n/a. || Key works: {'title': {'en': 'Kitab al-Mawalid', 'tr': \"Kitâbü'l-Mevâlîd\"}, 'year': 780, 'field': 'astronomy', 'significance': {'en': \"Jewish-origin astronomer who helped determine Baghdad's founding date; most translated Arabic astronomer into Latin\", 'tr': \"Bağdat'ın kuruluş tarihini belirlemeye yardım eden Yahudi kökenli astronom; Latince'ye en çok çevrilen Arap astronomu\"}} || Modern parallel: Like a founding engineer whose infrastructure code outlasts every product built on top of it",
+ "authored_works": [
+  "iac:work-00000206"
+ ]
+}

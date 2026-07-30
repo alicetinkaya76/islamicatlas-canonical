@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00010191",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ja'far al-Khattī",
+      "tr": "Ca'fer el-Hatî",
+      "ar": "جعفر الخطي"
+    },
+    "originalScript": {
+      "ar": "جعفر الخطي"
+    },
+    "description": {
+      "tr": "Çağının hat şâiri",
+      "en": "The calligrapher-poet of his time"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ja'far b. Muhammad b. Hasan al-Khattī al-Bahrani al-Abdi al-Adnani, Abu al-Bahr"
+    },
+    "altLabel": {
+      "tr": [
+        "Ca'fer b. Muhammed b. Hasan el-Hatî el-Bahrânî el-Abdî el-Adnânî, Ebü'l-Bahr"
+      ],
+      "ar": [
+        "جعفر بن محمد بن حسن الخطي البحراني العبدي العدناني، أبو البحر"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:2337",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=2337",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:49Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=2337 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:2337."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1028,
+    "start_ce": 1619,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=2337, heading_ar=جعفر الخطي || Ziriklī century_ce=17 || Ziriklī place coords (city/region of activity): 26.07, 50.56",
+  "active_in_places": [
+    "iac:place-00001500",
+    "iac:place-00002080"
+  ],
+  "kunya": "أبو البحر"
+}

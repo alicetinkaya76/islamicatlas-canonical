@@ -1,0 +1,101 @@
+{
+  "@id": "iac:person-00005221",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MA‘N b. ÎSÂ",
+      "ar": "معن بن عيسى"
+    },
+    "originalScript": {
+      "ar": "معن بن عيسى"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Yahyâ Ma‘n b. Îsâ b. Yahyâ b. Dînâr el-Kazzâz el-Eşcaî"
+      ]
+    },
+    "description": {
+      "tr": "130 (748) yılından sonra doğdu. İpek dokumacılığıyla uğraştığı için “Kazzâz” lakabıyla, Benî Eşca‘ın mevlâsı olduğu için “Eşcaî” nisbesiyle anılmıştır. Medine’de yaşadı. İmam Mâlik’ten başka İbn Ebû Zi’b, İbrâhim b. Tahmân, İshak b. Yahyâ, Ebü’l-Gusn Sâbit b. Kays el-Medenî, Muâviye b. Sâlih, Mahreme b. Bükeyr el-Eşca‘ gibi şahıslardan rivayette bulundu. Kendisinden İmam Şâfiî, Ali b. Medînî, Ahmed b. Hanbel, Ebû Hayseme Züheyr b. Harb, Abdullah b. Zübeyr el-Humeydî, Ebû Bekir Abdullah b. Ebû Şeybe, Sahnûn, Muhammed b. Hâris el-Bezzâr, Yahyâ b. Maîn gibi âlimler hadis rivayet ettiler. İmam Mâlik’in özel ilgi gösterdiği talebelerindendi. Mâlik mescide çıktığında ona tutunurdu; bu sebeple kendisine “Mâlik’in bastoncuğu” denmiştir. Mâlik’in en güvenilir râvilerinden olup el-Muvaṭṭaʾ ı rivayet etmiştir. Halife Hârûnürreşîd ve oğulları İmam Mâlik’ten el-Muvaṭṭaʾ ı dinlerken kitabı Ma‘n b. Îsâ’nın okuduğu kaydedilir. İmam Mâlik’in kendisine olan güveni hususunda Ma‘n şöyle der: “Mâlik soran ben olmadıkça Iraklılar’a hadis nakletmezdi. el-Muvaṭṭaʾ daki bütün hadisleri benim ona arzettiklerim müstesna Mâlik’ten semâ yoluyla aldım. Kendisine sorduklarım hariç hadis dışındaki şeylerin hepsini ona arzettim.” Ali b. Medînî de, “Ma‘n bize Mâlik’ten işittiği kırk bin mesele nakletti” demiştir (Zehebî, IX, 305-306). Ebû Hâtim er-Râzî, Mâlik’in öğrencileri içinde hâfızası en güçlü ve en güveniliri kabul ettiği Ma‘n’ı Abdullah b. Nâfi‘ es-Sâiğ ve İbn Vehb’e tercih ettiğini söyler. İbn Habîb onu Medine’de fıkıh konusunda Mâlik’e halef olanlar arasında sayar. Ma‘n 198 yılının Şevval ayında (Haziran 814) Medine’de vefat etti. Ebû Îsâ et-Tirmizî, Ma‘n’ın Mâlik’ten çok sayıda rivayetine el-Câmiʿu’ṣ-ṣaḥîḥ ’inde yer vermiş, Buhârî ve Müslim de kendisinden tahrîcde bulunmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 27. cildinde, 555 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:man-b-isa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=man-b-isa, https://islamansiklopedisi.org.tr/man-b-isa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:man-b-isa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/man-b-isa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=man-b-isa (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Eşcaî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 130,
+    "start_ce": 748,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 198,
+    "start_ce": 814,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=man-b-isa, URL: https://islamansiklopedisi.org.tr/man-b-isa || DİA death place: Medine || DİA death-date string: (ö. 198/814) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005206"
+  ],
+  "students": [
+    "iac:person-00006538"
+  ]
+}

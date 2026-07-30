@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00002056",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DÎNEVERÎ, Ebü’l-Abbas",
+      "ar": "أبو العبّاس الدينوري"
+    },
+    "originalScript": {
+      "ar": "أبو العبّاس الدينوري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ahmed b. Muhammed ed-Dîneverî"
+      ]
+    },
+    "description": {
+      "tr": "Doğum tarihi ve yeri hakkında bilgi yoktur. Yûsuf el-Hüseyin, Abdullah el-Harrâz, Ebû Muhammed el-Cerîrî ve Ebü’l-Abbas İbn Atâ gibi tanınmış sûfîlerin sohbetinde bulundu. Cüneyd-i Bağdâdî’nin kendisine yazdığı bir mektup vesilesiyle onunla ilişki kurdu. Fütüvvet ehlinin en seçkinlerinden olan Dîneverî bir süre Nîşâbur’da ikamet edip tasavvufî konularda çok etkili vaazlar verdikten sonra önce Tirmiz’e, ardından da Semerkant’a gitti ve orada vefat etti. İbn Hafîf’in vecd ve cezbe sahibi bir sûfî olarak tanıttığı Dîneverî’ye göre zikrin en aşağı derecesi sâlikin Allah’tan başka her şeyi unutması, en üst derecesi ise sûfînin zikir esnasında zikri de unutarak zikredilen (Allah) ile istiğrak halinde olmasıdır. Bunun “fenâda fenâ” (fenâ fi’l-fenâ) hali olduğunu belirten Dîneverî, yıldızları gören Hz. İbrâhim’in, “İşte rabbim budur” (el-En‘âm 6/76) demesini de cem‘u’l-cem‘ ve aynü’l-cem‘ haliyle açıklar. Dîneverî’de müşahede fikri önemli bir yer tutar. Ona göre bazı insanlar eşyanın bilgisiyle Allah’a ulaşırlar; eşyayı eşya olarak müşahede ederek bu sayede Allah’a vâsıl olurlar. Bazıları Hakk’ın bilgisinden uzaklaşmaksızın Hak’tan eşyaya döner, eşyayı temaşa ederler; her gördükleri şeyden önce mutlaka Hakk’ı yani Hakk’ın eşyadaki tecellisini temaşa ederler. Bazıları ise eşyadan Allah’a giden yolu bulamadıkları için eşyada takılır kalır, Hakk’ı müşahede edemezler. Dîneverî’ye göre kalbin bilgisi (mükâşefe) ittisâl iledir. Allah bu bilgiye ehil olmayan kullarını hizmetle meşgul eder. Dîneverî bir fütüvvet ehli olarak dürüstlüğü (sıdk) iyi insan olmanın şartı sayar. Samimi ve dürüst olmayan hiçbir hal ve harekete değer vermez. Bu açıdan çağındaki mutasavvıfların gerçek tasavvuftan uzaklaştıklarını görerek bu durumdan yakınır. Sahte sofuların tamaha fazilet, edepsizliğe samimiyet, gerçekten ayrılmaya şatah, helâl olmayan şeylerden zevk almaya hoş rızık, nefsin arzularına uymaya iptilâ, dünya ihtirasına vuslat, ahlâksızlığa cesaret, cimriliğe metanet, dilenciliğe meslek ve saçma sapan sözlere melâmet dediklerini ifade ederek çevresini bu yanılgılara karşı uyarmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 358-359 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dineveri-ebul-abbas",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dineveri-ebul-abbas, https://islamansiklopedisi.org.tr/dineveri-ebul-abbas",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:53Z",
+    "modified": "2026-05-04T15:33:53Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dineveri-ebul-abbas (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Dîneverî"
+  ],
+  "death_temporal": {
+    "start_ah": 340,
+    "start_ce": 951,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dineveri-ebul-abbas, URL: https://islamansiklopedisi.org.tr/dineveri-ebul-abbas || DİA death place: Nîşâbur || DİA death-date string: (ö. 340/951) || DİA categories: tasavvuf || Chunk count: 1"
+}

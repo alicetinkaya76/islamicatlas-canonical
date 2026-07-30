@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00003991",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN REŞÎḲ el-KUŞEYRÎ",
+      "ar": "ابن رشيق القشيري"
+    },
+    "originalScript": {
+      "ar": "ابن رشيق القشيري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed (Ebû Hafs, Ebû Ca‘fer) Abdurrahmân (Abdullāh) b. Reşîḳ el-Kuşeyrî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatının ilk dönemi hakkında bilgi yoktur. Sadece Belc Kalesi’nin İşbîliye (Sevilla) Abbâdî Emirliği’ne bağlı âmili olduğu bilinmektedir. İbn Abbâd el-Mu‘temid-Alellah’ın emriyle Mürsiye’ye (Murcia) saldıran Vezir İbn Ammâr el-Endelüsî’ye yardımcı oldu. Ancak şehrin zaptedilerek (471/1078) Emîr İbn Tâhir’in hâkimiyetine son verilmesinin ardından İbn Ammâr Tuleytula’ya (Toledo) döndü. Orada bıraktığı İbn Reşîḳ, onun adamlarını şehirden uzaklaştırıp emirliği ele geçirdi ve bağımsızlığını ilân etti. O yıllarda çok güçlenen Kastilya Kralı VI. Alfonso, Endülüs’teki bütün müslüman emirliklerden vergi almaya başlamıştı; İbn Reşîḳ de emirlik tahtına oturunca ona hediye gönderdi. Murâbıt Hükümdarı Yûsuf b. Tâşfîn’in Endülüs’e geçmesinden önce emîrlerin birbirlerine düşmeleri sırasında İbn Reşîḳ’in ihanetini bir türlü affedemeyen İbn Abbâd el-Mu‘temid, onu hıristiyanlarla ittifak içinde olmakla suçlayarak Yûsuf b. Tâşfîn’e şikâyet etti. Ancak İbn Reşîḳ, Yûsuf b. Tâşfîn’in hâkimiyetini benimsemesinin işareti olarak onun adına hutbe okutup tehlikeden kurtuldu. Ayrıca Yûsuf b. Tâşfîn ile İbn Abbâd el-Mu‘temid’in VI. Alfonso’ya karşı zafer kazandıkları Zellâka Savaşı’ndan (479/1086) sonra da Mu‘temid’e vergi ödemeyi kabul etti. Fakat bu durum uzun sürmedi. Yûsuf b. Tâşfîn Belensiye’nin (Valencia) düşmesinin ardından tekrar Endülüs’e gelerek bütün emîrleri birlik ve yardıma çağırdığında (480/1087) Mu‘temid yine aynı suçlamaları dile getirdi. Yûsuf b. Tâşfîn de durumu fakihlere inceletip İbn Reşîḳ’in suçluluğuna karar verince onu öldürülmemesi şartıyla Mu‘temid’e teslim etti (481/1088). Bir müddet Lûrka (Lorca) ve İşbîliye’de hapse atılan İbn Reşîḳ’in bundan sonraki hayatı hakkında fazla bir şey bilinmemekte, bazı kaynaklar Mu‘temid tarafından öldürüldüğünü, bazıları da Murâbıtlar’ın İşbîliye’yi aldıkları sırada (484/1091) serbest bırakıldığını rivayet etmektedir (İbnü’l-Ebbâr, II, 175). Ebü’l-Alâ İdrîs b. Ezrak başta olmak üzere birçok şair İbn Reşîḳ’i öven şiirler yazmıştır (Makkarî, III, 573). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 249 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-resik-el-kuseyri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-resik-el-kuseyri, https://islamansiklopedisi.org.tr/ibn-resik-el-kuseyri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:22Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:22Z",
+    "modified": "2026-05-04T15:34:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-resik-el-kuseyri (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kuşeyrî"
+  ],
+  "death_temporal": {
+    "start_ah": 481,
+    "start_ce": 1088,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-resik-el-kuseyri, URL: https://islamansiklopedisi.org.tr/ibn-resik-el-kuseyri || DİA death-date string: (ö. 481/1088’den sonra) || DİA categories: rivayet || Chunk count: 1"
+}

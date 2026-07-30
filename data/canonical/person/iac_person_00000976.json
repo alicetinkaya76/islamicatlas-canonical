@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00000976",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ PAŞA, Güzelce"
+    },
+    "description": {
+      "tr": "989 (1581) yılında doğdu. İstanköylü Ahmed Paşa’nın oğludur. Anne tarafından seyyiddir. Babası, Tunus beylerbeyi iken mehdîlik iddiası ile ortaya çıkan Yahyâ b. Yahyâ adlı bir şakî ile giriştiği savaşta öldü (1590). Bu sırada dokuz yaşlarında bulunan Ali Paşa bir süre sonra babasının adamları ile birleşerek intikamını aldı. Genç yaşta Dimyat sancağı beyliğine getirildi ve on beş yıl bu görevde kaldıktan sonra İstanbul’a geldi. 1605’te kendisine önce Yemen eyaleti, sonra Magosa sancağı verildiyse de kabul etmedi. Daha sonra iki yıl Tunus valiliğinde, üç yıl Mora sancak beyliğinde ve tekrar Kıbrıs’ta görevlendirildi. Ardından, vezirlik rütbesiyle ikinci defa Tunus beylerbeyiliğine tayin edildi. 17 Ocak 1617’de Halil Paşa’nın yerine kaptan-ı deryâ oldu. 23 Ağustos 1617’de Akdeniz’de şiddetli bir fırtınaya tutuldu, maiyetindeki on bir kadırga kayboldu. I. Mustafa’nın tahta çıkışından sonra bir ara azledildiyse de 2 Ocak 1618’de ikinci defa aynı göreve getirildi. Donanma ile Akdeniz’e açıldığı üçüncü seferinde, ele geçirdiği altı kalyon ve ganimet mallarından 200 esirle çok miktarda parayı Sultan II. Osman’a hediye olarak getirdi; böylece diğer vezirler arasında imtiyazlı bir mevki kazandı. Bu sayede 23 Aralık 1619’da Öküz Mehmed Paşa’nın yerine sadrazam oldu. Bu görevde iken hazinenin giderlerini karşılamak üzere büyük gayret sarfetti; hatta kendisinden önceki sadrazam da dahil olmak üzere birçok devlet adamının mallarını müsadere ettirdi. II. Osman’a değerli hediyeler sunarak onun gözüne girmeyi başardı; bu şekilde muhaliflerini kısa zamanda merkezden uzaklaştırdı. Sadrazamlığı sırasında II. Osman’ı Lehistan seferi için teşvik eden Ali Paşa 15 Rebîülâhir 1030’da (7 Mart 1621) vefat etti; Beşiktaş’ta Yahyâ Efendi Dergâhı yakınındaki türbesine defnedildi. Güzelce Ali Paşa’nın kaptanıderyâlığı zamanında Sakız, Nakşa ve Andre sancakları Kaptanpaşa eyaletine bağlanmış, 9 Cemâziyelâhir 1027’de (3 Haziran 1618) çıkarılan bir emr-i şerifle ( BA, MAD , nr. 174, s. 12; BA, MD , nr. 82, s. 64/417) Mora mukātaa gelirleri derya beylerinin sâlyâne ve masraflarına ocaklık tayin edilmiş, tersanede ve gemilerin donanımında bazı değişiklikler yapılmıştır ( BA, MAD , nr. 9853, s. 24). Güler yüzlü, hayır ve hasenat sahibi bir kimse olan ve Çelebi lakabı ile de tanınan Güzelce Ali Paşa, Sakız ve Yeniköy’de birer cami inşa ettirmiş, Kasımpaşa’daki Emîr Efendi Zâviyesi’ne de su getirtmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 424-425 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-pasa-guzelce",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-pasa-guzelce, https://islamansiklopedisi.org.tr/ali-pasa-guzelce",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ali-pasa-guzelce",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ali-pasa-guzelce",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:33Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-pasa-guzelce (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 989,
+    "start_ce": 1581,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1030,
+    "start_ce": 1621,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-pasa-guzelce, URL: https://islamansiklopedisi.org.tr/ali-pasa-guzelce || DİA death place: Beşiktaş || DİA death-date string: (ö. 1030/1621) || Chunk count: 1"
+}

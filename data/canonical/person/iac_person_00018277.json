@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00018277",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Malikshah",
+      "tr": "İbn Melîkşâh",
+      "ar": "ابن ملكشاه"
+    },
+    "originalScript": {
+      "ar": "ابن ملكشاه"
+    },
+    "description": {
+      "tr": "Cömerт ve akılsahibiydi",
+      "en": "He was generous and sensible",
+      "ar": "ملكشاه جلب حلب تحت حكمه أيضاً، لكنه تراجع عندما سمع بقدوم ملكشاه."
+    },
+    "altLabel": {
+      "en": [
+        "MALIKSHAH"
+      ],
+      "tr": [
+        "Muhammed b. Mahmûd b. Muhammed b. Melîkşâh"
+      ],
+      "ar": [
+        "محمد بن محمود بن محمد بن ملكشاه. سلطان سلجوقي. كان في همذان. وحاصربغداد، فامتنعت عليه. ورحل عنها فمرض بالسل وطال به إلى أن توفي ببابهمذان. قال أبو الفداء"
+      ]
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad b. Mahmud b. Muhammad b. Malikshah"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:11333",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11333",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "ei1:3450",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 3, p. 16",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:16Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=11333 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled ['description.ar', 'altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:11333."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 555,
+    "start_ce": 1160,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11333, heading_ar=ابن ملكشاه || Ziriklī century_ce=12"
+}

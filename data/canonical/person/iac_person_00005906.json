@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00005906",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MUSTAFA VÂSIF, Çömez"
+    },
+    "description": {
+      "tr": "Kastamonu’nun Aksu köyündendir. Ailesi Kadıoğulları diye bilinir. Gençliğinde İstanbul’a giderek sülüs-nesih yazılarını Kebecizâde Mehmed Vasfi’den meşkedip icâzet aldı ve hocasının verdiği Çömez lakabıyla tanındı. Ayrıca Laz Ömer diye bilinen Ömer Vasfi’den faydalandı. I. Abdülhamid’in Bahçekapı’daki türbesinde baştürbedarlık ve Hamîd-i Evvel Vakfı kāimmakām vekilliği vazifelerinde bulundu. Sülüs-nesihle yazdığı kıtasına (Sakıp Sabancı Müzesi, nr. 133) ve hilyelerine (Sakıp Sabancı Müzesi, nr. 383) rastlanmaktadır. Mushaf da yazmıştır. Mushaf gibi uzun metinler için tercih edilen “cava kalemi”ni hacca gittiği zaman Cavalı müslümanların elinde görerek İstanbul’a getiren de Mustafa Vâsıf Efendi’dir. Vefatında Eyüp Sultan Camii’nin deniz tarafından duvar bitişiğine defnedilmiştir. Kitâbesinde “serlevha-i hattâtîn” olarak vasıflandırılan Mustafa Vâsıf’ın kabri halen durmaktadır. Onun en büyük hizmeti, Kazasker Mustafa İzzet Efendi gibi hat sanatı tarihinin bir büyük üstadını yetiştirmesidir. Mustafa İzzet’in tahsil gördüğü Enderun’da ve Galata Sarayı’nda Vâsıf Efendi’nin hocalığına dair bir kayıt bulunmadığından bu öğrenimin hususi olarak usta-çırak usulüyle gerçekleştirildiği söylenebilir. Mustafa Vâsıf’ın oğlu Çömezzâde Muhsin Bey de babasının yetiştirdiği bir hattattır. Ravza-i Mutahhara’daki celî sülüslerin yazılması için Medine’ye giden Abdullah Zühdi Efendi’ye bu çalışmalarında yardım etmiştir. Sultan Abdülaziz’in sandukası üzerindeki pûşîdenin celî sülüs yazıları da ona aittir. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 360 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mustafa-vasif-comez",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mustafa-vasif-comez, https://islamansiklopedisi.org.tr/mustafa-vasif-comez",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mustafa-vasif-comez",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mustafa-vasif-comez",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:44Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mustafa-vasif-comez (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1269,
+    "start_ce": 1853,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mustafa-vasif-comez, URL: https://islamansiklopedisi.org.tr/mustafa-vasif-comez || DİA death-date string: (ö. 1269/1853) || Chunk count: 1",
+  "students": [
+    "iac:person-00005891"
+  ]
+}

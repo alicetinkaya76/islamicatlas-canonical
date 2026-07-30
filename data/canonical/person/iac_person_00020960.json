@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00020960",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abdullah I"
+    },
+    "description": {
+      "tr": "Son 1. devlet emiri; İbrâhîm Paşa Dir'iyye'yi yıktı; İstanbul'da idam edildi"
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:55:ruler:2",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-055, ruler #3",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:14:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:14:34Z",
+    "modified": "2026-05-04T15:14:34Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:14:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Promoted from inline rulers[2] of iac:dynasty-00000055 (The Āl Su'ūd (Sa'ūd)) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[2].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "affiliated_dynasties": [
+    "iac:dynasty-00000055"
+  ],
+  "laqab": [
+    "Amīr"
+  ],
+  "floruit_temporal": {
+    "start_ce": 1814,
+    "end_ce": 1818,
+    "start_ah": 1229,
+    "end_ah": 1233,
+    "approximation": "floruit"
+  },
+  "death_temporal": {
+    "start_ce": 1818,
+    "approximation": "circa",
+    "start_ah": 1233,
+    "note": "Inferred from Bosworth reign_end (often ≈ year of death)."
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q192780",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Abdullah I')."
+    }
+  ],
+  "note": "Bosworth relation note: oğlu || Bosworth death code: k. (İstanbul'da idam) || Promoted from iac:dynasty-00000055 rulers[2] (Bosworth NID-055)."
+}

@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003399",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HİBETULLAH b. SELÂME",
+      "ar": "هبة الله بن سلامة"
+    },
+    "originalScript": {
+      "ar": "هبة الله بن سلامة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Kāsım Hibetullāh b. Selâme b. Nasr b. Alî el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "Bağdat’ta doğdu. İbn Selâme künyesiyle de anılan Hibetullah’ın tahsilini Bağdat’ta tamamladığı anlaşılmaktadır. Kıraat ilmini Zeyd b. Ebû Bilâl’den öğrendi. Başta Ebû Bekir el-Katîî olmak üzere birçok hocanın dersine devam ederek hadis dinledi. İyi bir öğrenim gördükten sonra kıraat, tefsir ve hadis alanlarında belli bir seviye kazandı. Bağdat’ta Mansûr Camii’nde çeşitli dersler okuttu ve öğrenci yetiştirdi. Öğrencileri arasında Ebü’l-Hasan Ali b. Kābis et-Tâbisî, kızından torunu olan muhaddis Ebû Muhammed Rızkullah et-Temîmî ve Ebû Nasr el-Haddâdî gibi âlimler bulunmaktadır. Muhtemelen küçük yaştan itibaren gözleri görmeyen ve güçlü bir hâfızaya sahip olan İbn Selâme muhtelif tefsir rivayetlerini ezbere bilen bir müfessirdi. Onun tefsirle ilgili doksan beş rivayeti bulunduğu, âmâ olması sebebiyle eserlerini öğrencilerine ezberden yazdırdığı, ancak bazı tefsir rivayetlerini birbirine karıştırdığı zikredilmektedir (Mustafa Zeyd, I, 368). 9 Receb 410’da (10 Kasım 1019) vefat eden Hibetullah b. Selâme Mansûr Camii Mezarlığı’na defnedildi. Eserleri. 1. en-Nâsiḫ ve’l-mensûḫ ( en-Nâsiḫ ve’l-mensûḫ mine’l[fi’l]-Ḳurʾân , en-Nâsiḫ ve’l-mensûḫ min kitâbillâh ). İbn Selâme’yi şöhrete kavuşturan bu eserde pek çok âyetin mensuh olduğu, bazı âyetlerin ise bir kısmının neshedildiği ileri sürülmektedir. Müellifin faydalandığı, aralarında Muhammed b. Sâib el-Kelbî ile Mukātil b. Süleyman gibi rivayetine güvenilmeyen kimselere ait eserlerin de bulunduğu kaynakları senedleriyle birlikte kitabın sonunda topluca verip metin kısmında haberleri senedsiz kaydetmesi, bunların sahih olanları ile olmayanlarını ayırt etmeyi imkânsız hale getirmiş, bu karışıklık kitabın değerini düşürdüğü gibi müellifin ciddi şekilde eleştirilmesine de sebep olmuştur (Subhî es-Sâlih, s. 266-267, 271; Mustafa Zeyd, I, 368). Çeşitli baskıları bulunan eser (meselâ bk. Kahire 1310, 1379/1960, 1967) ayrıca Züheyr eş-Şâvîş ile Muhammed Ken‘ân (Beyrut 1404/1984, 1406/1986) ve Mûsâ Binây Alvân el-Alîlî’nin (Beyrut 1989) tahkikleriyle neşredilmiştir. en-Nâsiḫ ve’l-mensûḫ , Yemen Zeydî imamlarından Mehdî-Lidînillâh Muhammed b. Mutahhar b. Yahyâ (ö. 728/1328) tarafından ʿUḳūdü’l-ʿiḳyân fi’n-nâsiḫ ve’l-mensûḫ mine’l-Ḳurʾân adıyla manzum hale getirilmiştir ( Îżâḥu’l-meknûn , II, 114; Sezgin, I, 48). Nüveyhiz’in bu manzum eserle İbn Selâme’nin asıl eserini aynı kitap olarak kaydetmesi ( Muʿcemü’l-müfessirîn , II, 710) doğru değildir. 2. en-Nâsiḫ ve’l-mensûḫ mine’l-ḥadîs̱ (yazma nüshaları için bk. Ziriklî, VIII, 72). 3. el-Mesâʾilü’l-mens̱ûre . Nahivle ilgili olan bu eserin herhangi bir nüshasına henüz rastlanmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 17. cildinde, 426 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hibetullah-b-selame",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hibetullah-b-selame, https://islamansiklopedisi.org.tr/hibetullah-b-selame",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:hibetullah-b-selame",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=hibetullah-b-selame",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:14Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hibetullah-b-selame (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=hibetullah-b-selame)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "death_temporal": {
+    "start_ah": 410,
+    "start_ce": 1019,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hibetullah-b-selame, URL: https://islamansiklopedisi.org.tr/hibetullah-b-selame || DİA birth place: Bağdat || DİA death place: 410 || DİA death-date string: (ö. 410/1019) || DİA categories: tefsir > rivayet > hadis || Chunk count: 1"
+}

@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00002218",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ MES‘ÛD ed-DIMAŞKĪ",
+      "ar": "أبو مسعود الدمشقي"
+    },
+    "originalScript": {
+      "ar": "أبو مسعود الدمشقي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Mes‘ûd İbrâhîm b. Muhammed b. Ubeyd ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında fazla bilgi yoktur. Hadis ve ilim tahsili için Bağdat, Basra, Kûfe, Ahvaz, Vâsıt ve İsfahan’a seyahatler yaptı. İsfahanlı kıraat ve hadis âlimi Ebû Bekir Abdullah b. Muhammed b. Fûrek el-Kabbâb, Kûfeli muhaddis Ebü’l-Hasan Ali b. Abdurrahman el-Bekkâî, Ahvazlı hadis hâfızı Ebû Bekir Ahmed b. Abdân eş-Şîrâzî gibi âlimlerden faydalanmış, kendisinden de Hibetullah b. Hasan el-Lâlekâî, Ebü’l-Kāsım Hamza b. Yûsuf es-Sehmî, Ebû Zer el-Herevî ve Ebü’l-Hasan Ahmed b. Muhammed el-Atîkī gibi muhaddisler rivayette bulunmuşlardır. Geniş bir hadis kültürüne sahip olan Ebû Mes‘ûd ed-Dımaşkī, çalışmalarını Buhârî ile Müslim’in el-Câmiʿu’ṣ-ṣaḥîḥ ’leri üzerinde yoğunlaştırmış, Zehebî’nin belirttiğine göre Kur’an kıraatinde de dikkati çekmiştir. Hayatının son devrelerinde Bağdat’a yerleşti. Talebelerine daha çok müzakere yoluyla rivayette bulundu. Derlediği hadisleri ve geniş ilmini öğretmeye yeterli zaman bulamadan Bağdat’ta 401 (1010-11) yılında genç yaşta vefat etti. Receb 400’de (Mart 1010) öldüğü de söylenmektedir. Vasiyeti üzerine cenaze namazı Ebû Hâmid el-İsferâyînî tarafından kıldırıldı ve Mansûr Camii Kabristanı’na defnedildi. Ebû Mes‘ûd ed-Dımaşkī’nin Eṭrâfü’ṣ-Ṣaḥîḥayn (Dârü’l-kütübi’z-Zâhiriyye, Hadis, nr. 373, 140 varak) adlı kitabı, kendisiyle aynı yıl vefat eden Halef el-Vâsıtî’nin aynı adı taşıyan eseriyle birlikte etrâf sahasında yapılan ilk çalışmadır. Ayrıca Zehebî bizzat gördüğünü söylediği bir hadis cüzünden söz etmekte ve bu eseri onun hadis tenkitçiliğinin ve hâfıza gücünün delili saymaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 187-188 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-mesud-ed-dimaski",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-mesud-ed-dimaski, https://islamansiklopedisi.org.tr/ebu-mesud-ed-dimaski",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-mesud-ed-dimaski (1 chunks) by dia adapter (Hafta 4). Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 401,
+    "start_ce": 1010,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-mesud-ed-dimaski, URL: https://islamansiklopedisi.org.tr/ebu-mesud-ed-dimaski || DİA death place: 400 || DİA death-date string: (ö. 401/1010-11) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00007697"
+  ],
+  "students": [
+    "iac:person-00005079"
+  ]
+}

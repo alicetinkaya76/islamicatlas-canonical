@@ -1,0 +1,100 @@
+{
+  "@id": "iac:person-00021484",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "NajibMahfuz"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "openiti:1427NajibMahfuz",
+        "source_type": "digital_corpus",
+        "page_or_locator": "OpenITI corpus_authors.json id=1427NajibMahfuz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "OpenITI corpus snapshot 2024-2026"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "openiti-author-resolve",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T21:23:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T21:23:44Z",
+    "modified": "2026-05-04T21:23:44Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T21:23:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Placeholder person minted by openiti-author-resolve Tier 4 (no T1/T2 match in canonical person index). Pending biographic enrichment in Hafta 6 (DİA chunk re-extraction + cross-source alignment). Authored works will be back-populated by integrity_pass_A_bidirectional after openiti-works adapter."
+      }
+    ],
+    "deprecated": false
+  },
+  "note": "Tier-4 placeholder from OpenITI author_id=1427NajibMahfuz. Biographic content sparse pending Hafta 6 enrichment.",
+  "death_temporal": {
+    "start_ce": 2006,
+    "start_ah": 1427,
+    "approximation": "circa"
+  },
+  "authored_works": [
+    "iac:work-00001923",
+    "iac:work-00002184",
+    "iac:work-00002378",
+    "iac:work-00002835",
+    "iac:work-00002840",
+    "iac:work-00002869",
+    "iac:work-00002893",
+    "iac:work-00003195",
+    "iac:work-00003441",
+    "iac:work-00003468",
+    "iac:work-00003489",
+    "iac:work-00003546",
+    "iac:work-00003756",
+    "iac:work-00004070",
+    "iac:work-00004162",
+    "iac:work-00004172",
+    "iac:work-00004245",
+    "iac:work-00004258",
+    "iac:work-00004344",
+    "iac:work-00004583",
+    "iac:work-00004605",
+    "iac:work-00004760",
+    "iac:work-00004873",
+    "iac:work-00004887",
+    "iac:work-00004895",
+    "iac:work-00004973",
+    "iac:work-00005018",
+    "iac:work-00005030",
+    "iac:work-00005043",
+    "iac:work-00005047",
+    "iac:work-00005065",
+    "iac:work-00005114",
+    "iac:work-00005178",
+    "iac:work-00005219",
+    "iac:work-00005269",
+    "iac:work-00005297",
+    "iac:work-00005418",
+    "iac:work-00005493",
+    "iac:work-00005498",
+    "iac:work-00005527",
+    "iac:work-00005554",
+    "iac:work-00005565",
+    "iac:work-00005653",
+    "iac:work-00005904",
+    "iac:work-00005914",
+    "iac:work-00006427",
+    "iac:work-00006439",
+    "iac:work-00006479"
+  ]
+}

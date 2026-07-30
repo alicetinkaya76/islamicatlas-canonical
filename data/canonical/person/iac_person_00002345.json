@@ -1,0 +1,127 @@
+{
+  "@id": "iac:person-00002345",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÜ’l-FEREC eş-ŞÎRÂZÎ",
+      "ar": "أبو الفرج الشيرازي"
+    },
+    "originalScript": {
+      "ar": "أبو الفرج الشيرازي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Ferec Abdülvâhid b. Muhammed b. Alî eş-Şîrâzî el-Makdisî ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Şîrazlı olup Harran’da doğdu. İdareci ve ilim ehli bir sülâleye mensuptur; soyu meşhur sahâbî Sa‘d b. Ubâde’ye ulaşmaktadır. Kaynaklarda Sa‘dî, Ubâdî, Hazrecî gibi nisbelerle anılması da bundan dolayı olmalıdır. Bağdat’ta Kādî Ebû Ya‘lâ el-Ferrâ’nın derslerine uzun yıllar devam edip ondan fıkıh okudu ve hocasının kitaplarını istinsah etti. Daha sonra Suriye’ye giderek bir süre Beytülmakdis’te ikamet etti. Ardından da Dımaşk’a yerleşti. Orada Ebû Hasan İbnü’s-Simsâr, Abdürrezzâk b. Fazl el-Kelâî ve Ebû Osman es-Sâbûnî’den hadis dinledi; vaazlar verdi ve aralarında Şerefü’l-İslâm lakabıyla tanınan oğlu Abdülvehhâb’ın da bulunduğu birçok talebe yetiştirdi. Hükümdarların meclislerinde Eş‘arîler’le fikrî tartışmalarda bulundu. Şam ve çevresinde Hanbelî mezhebini yaydı. 28 Zilhicce 486 (19 Ocak 1094) tarihinde Dımaşk’ta vefat etti ve Bâbüssagīr Kabristanı’na defnedildi. Kabri meşhur bir ziyaretgâh olup yanı başında İbn Receb el-Hanbelî’nin (ö. 795/1393) mezarı bulunmaktadır. Suriye Selçuklu Sultanı Tutuş’un çok saygı gösterdiği Ebü’l-Ferec eş-Şîrâzî sünnete son derece bağlı, âbid, zâhid ve keramet ehli bir kişiydi. Bazı fıkhî konularda kendine has görüşleri vardır (bk. İbn Receb, I, 72-73). Aynı zamanda güçlü bir hatip olan Ebü’l-Ferec’in kendisinden sonra birçok âlimin yetiştiği nesli bu muhitte “İbnü’l-Hanbelî sülâlesi” diye tanınmıştır. Kaynaklarda adları geçen eserleri şunlardır: Hanbelî fıkhına dair el-Îżâḥ , el-Mübhic , el-Münteḫab ; akaid ve kelâma dair et-Tebṣıra fî uṣûli’d-dîn ; tefsire dair Kitâbü’l-Cevâhir (otuz cilt). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 318-319 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebul-ferec-es-sirazi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebul-ferec-es-sirazi, https://islamansiklopedisi.org.tr/ebul-ferec-es-sirazi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebul-ferec-es-sirazi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebul-ferec-es-sirazi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:6464",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6464, heading_ar=أبو الفرج الشيرازي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:58Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebul-ferec-es-sirazi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6464]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6464 (heading_ar=أبو الفرج الشيرازي) via Track A (DİA→Alam xref bridge). dt=Zamanının Şam şeyhidir."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Şîrâzî; Makdisî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)",
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 486,
+    "start_ce": 1094,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebul-ferec-es-sirazi, URL: https://islamansiklopedisi.org.tr/ebul-ferec-es-sirazi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6464] || DİA birth place: Harran || DİA death place: Dımaşk || DİA death-date string: (ö. 486/1094) || DİA categories: fıkıh > hadis > sünnet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6464, heading_ar=أبو الفرج الشيرازي, dt=Zamanının Şam şeyhidir.",
+  "active_in_places": [
+    "iac:place-00007402",
+    "iac:place-00009462",
+    "iac:place-00002755"
+  ],
+  "teachers": [
+    "iac:person-00002298"
+  ]
+}

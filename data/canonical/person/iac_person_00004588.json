@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00004588",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İSMET-i BUHÂRÎ",
+      "ar": "عصمت بخارى"
+    },
+    "originalScript": {
+      "ar": "عصمت بخارى"
+    },
+    "altLabel": {
+      "tr": [
+        "Hâce Fahruddîn İsmetullah b. Hâce Mes‘ûd Buhârî"
+      ]
+    },
+    "description": {
+      "tr": "Buhara’da doğdu. Buhara’nın seçkin ailelerinden birine mensup olup soyu Ca‘fer b. Ebû Tâlib’e ulaşmaktadır. Asıl adı İsmetullah’tır; Hâce İsmet ve Hâce Fahreddin İsmetullah diye de anılır. Tahsiline Buhara’da başladı. Hayatı boyunca çeşitli ilimlerle ve bu arada inşâ sanatıyla da meşgul oldu. Timur’un 807’de (1405) ölümü üzerine Semerkant’ta tahta geçen Nasîrüddin Halil Sultan ile yakın dostluk kurdu ve özellikle edebî bilgiler alanında sultana hocalık yaptı. Halil Sultan’ın 812 (1409) yılının ilk aylarında kendi adamları tarafından esir edilmesi üzerine endişeye kapılarak Semerkant’ı terketti. Aynı yılın sonlarında Halil Sultan amcası Şâhruh tarafından Rey valiliğine tayin edilince onun maiyetine girdi. Halil Sultan’ın ölümünden sonra Semerkant’a gitti, ardından Buhara’ya döndü. Burada sakin bir hayat yaşamayı tercih eden İsmet-i Buhârî, bazı kaynaklara göre Uluğ Bey’in daveti üzerine bir müddet onun Semerkant’taki sarayında bulundu; âlim, şair ve meziyet sahibi bir kişi olarak itibar gördü; özellikle Buhara’da geçirdiği son yıllarında büyük bir üne kavuştu. Ölüm tarihi Devletşah’ın tezkiresinde ve diğer bazı kaynaklarda 826 (1423) olarak kaydedilmekteyse de doğrusu Ḥabîbü’s-siyer ’de gösterilen 840 (1436-37) yılıdır. Şîa imamları hakkında methiyeleri, Timur için bir mersiyesi bulunan İsmet-i Buhârî, Timurlu sultan ve şehzadelerine dair birçok methiye kaleme almış, hakkında en fazla methiye söylediği Nasîrüddin Halil Sultan tarafından kendisine Nasîrî mahlası verilmiştir. Bazı şiirleriyle gazellerinin tamamında İsmet mahlasını kullanan şairin özellikle tasavvufî rumuzlarla süslediği âşıkane gazelleri çok beğenilmiştir. Şiirlerinde Emîr Hüsrev-i Dihlevî’nin üslûbunu sürdüren İsmet-i Buhârî, Bisâtî-i Semerkandî, Rüstem-i Hûriyânî ve Hayâlî-i Buhârî gibi yetişmelerine yardımcı olduğu şairler başta olmak üzere dönemindeki şairleri etkilemiştir. 7500 kadar beyitten meydana gelen ve İstanbul Üniversitesi Kütüphanesi’nde iki (FY, nr. 493, 940), Topkapı Sarayı Müzesi Kütüphanesi’nde bir nüshası (Hazine, nr. 942) bulunan divanı Ahmed Keremî tarafından yayımlanmıştır (Tahran 1366 hş.). Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 23. cildinde, 138-139 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ismet-i-buhari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ismet-i-buhari, https://islamansiklopedisi.org.tr/ismet-i-buhari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:30Z",
+    "modified": "2026-05-04T15:34:30Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ismet-i-buhari (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 840,
+    "start_ce": 1436,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ismet-i-buhari, URL: https://islamansiklopedisi.org.tr/ismet-i-buhari || DİA birth place: Buhara || DİA death-date string: (ö. 840/1436-37) || DİA categories: tasavvuf || Chunk count: 1"
+}

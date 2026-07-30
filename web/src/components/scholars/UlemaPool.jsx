@@ -97,6 +97,11 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
      BİRLEŞTİRME YAPILMIYOR (veri-yıkıcı, tarihçi kararı); parçalanma yalnızca
      GÖRÜNÜR kılınıyor: kullanıcı öbür kayda tek tıkla geçebiliyor. */
   const [clusters, setClusters] = useState(null);
+  /* H49: yumuşak-silinen pid → kazanan. Birleştirmede kaybeden kayıt
+     canonical'da YAŞAR ama havuzda görünmez; eski bağ (kitap müellifi,
+     paylaşılmış derin link) yönlendirme olmadan BOŞ EKRANA düşerdi
+     (ölçüldü: 17 kitabın 5'inin müellif bağı koptu). */
+  const [redirects, setRedirects] = useState(null);
 
   useEffect(() => {
     const base = import.meta.env.BASE_URL || '/';
@@ -124,7 +129,11 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
     if (!initialPid || !pool) return;
     const m = String(initialPid).match(/(\d+)\s*$/);
     if (!m) return;
-    const hit = pool.find((r) => Number(r.id) === Number(m[1]));
+    let ara = Number(m[1]);
+    /* Yönlendirme: gelen pid yumuşak-silinmişse kazanana çevir. Kullanıcı eski
+       bir linkle gelse bile doğru kayda düşer — atıf istikrarının UI tarafı. */
+    if (redirects && redirects[String(ara)] != null) ara = Number(redirects[String(ara)]);
+    const hit = pool.find((r) => Number(r.id) === ara);
     if (!hit) return;
     setSelected(hit);
     /* Listeyi de o kişiye getir: 22.824 kayıtlık sanal listede seçili kayıt
@@ -132,7 +141,7 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
        liste Abū Bakr'dan başlıyordu). Arama kutusunu adıyla doldurmak, kaydırma
        hilesine gerek kalmadan kişiyi listenin başına getirir. */
     setQ(nameTr(hit) || '');
-  }, [initialPid, pool]);
+  }, [initialPid, pool, redirects]);
 
   useEffect(() => {
     fetch('/view-data/ulema_pool_links.json')
@@ -140,6 +149,13 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
       .then((d) => setLinks(d?.links || {}))
       .catch(() => setLinks({}));
   }, []);
+  useEffect(() => {
+    fetch('/view-data/person_redirects.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => setRedirects(d?.redirects || {}))
+      .catch(() => setRedirects({}));
+  }, []);
+
   useEffect(() => {
     fetch('/view-data/person_clusters.json')
       .then((r) => (r.ok ? r.json() : null))

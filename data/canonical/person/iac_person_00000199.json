@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00000199",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Hunayn ibn Ishaq",
+      "tr": "Huneyn b. İshâk",
+      "ar": "حنين بن إسحاق"
+    },
+    "originalScript": {
+      "ar": "حنين بن إسحاق"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Zayd Hunayn ibn Ishaq al-Ibadi"
+      ],
+      "tr": [
+        "Ebû Zeyd Huneyn b. İshâk el-İbâdî"
+      ],
+      "ar": [
+        "أبو زيد حنين بن إسحاق العبادي"
+      ]
+    },
+    "description": {
+      "tr": "Antik dünyanın en büyük çevirmeni — Galen'in 129 eserini bizzat Yunancadan Arapçaya çevirdi. Huneyn olmasaydı, Yunan tıbbi ve felsefi bilgisinin çoğu kalıcı olarak kaybolacaktı || Huneyn devrimci bir çeviri metodolojisi geliştirdi: birden fazla Yunanca yazmayı karşılaştırdı, Süryanice ara versiyon üretti, sonra nihai Arapçayı oluşturdu. Bu filolojik titizlik, çevirilerinin bazen mevcut Yunanca orijinallerden daha güvenilir olması anlamına gelir. || [Tarih notu] Bergsträsser'in (1925, 1932) Huneyn'in kendi kataloğunun (Risâle) keşfi, Yunan-Arap çeviri hareketi anlayışımızı devrimleştirdi.",
+      "en": "Greatest translator of the ancient world — personally translated 129 works of Galen from Greek to Arabic. Without Hunayn, much of Greek medical and philosophical knowledge would have been permanently lost || Hunayn developed a revolutionary translation methodology: he collated multiple Greek manuscripts, produced a Syriac intermediate version, then rendered the final Arabic. This philological rigor means his translations are sometimes more reliable than surviving Greek originals. He was a Nestorian Christian — living proof that the translation movement was a multi-faith enterprise. || [Historiographical note] Bergsträsser's (1925, 1932) recovery of Hunayn's own catalogue (Risala) revolutionized our understanding of the Greco-Arabic translation movement. Gutas's Greek Thought, Arabic Culture (1998) placed Hunayn at the center of the most consequential knowledge-transfer event before the printing press.",
+      "ar": "أعظم مترجم في العالم القديم — ترجم شخصيًا ١٢٩ عملًا لجالينوس من اليونانية إلى العربية || طوّر حنين منهجية ترجمة ثورية: مقارنة مخطوطات يونانية متعددة ثم نسخة سريانية وسيطة ثم عربية نهائية. هذه الدقة تعني أن ترجماته أحيانًا أوثق من الأصول اليونانية الباقية"
+    }
+  },
+  "profession": [
+    "translator",
+    "physician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0016",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0016, lecture_id=bayt-al-hikma",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:287",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=287",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0016 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 808,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 873,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q503130",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Hunayn ibn Ishaq')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0016, lecture_week=5. || Key works: {'title': {'en': 'Arabic translations of Galen (129 treatises)', 'tr': \"Galen'in Arapça çevirileri (129 risale)\", 'ar': 'ترجمات جالينوس إلى العربية (١٢٩ رسالة)'}, 'year': 850, 'field': 'translation', 'significance': {'en': 'Systematic translation of the entire Galenic medical corpus from Greek to Arabic — many survive only in his Arabic versions', 'tr': 'Tüm Galenik tıp külliyatının Yunancadan Arapçaya sistematik çevirisi — birçoğu yalnızca onun Arapça versiyonlarında günümüze ulaştı'}}; {'title || Modern parallel: Imagine a single person translating the entire medical library of Johns Hopkins into another language — and doing it so well that scholars 1,200 years later prefer his translations to the originals.",
+  "authored_works": [
+    "iac:work-00000027",
+    "iac:work-00000028"
+  ],
+  "kunya": "Ebû Zeyd",
+  "nisba": [
+    "İbâdî"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00000882",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Akfehsî",
+      "ar": "الأقفهسي"
+    },
+    "originalScript": {
+      "ar": "الأقفهسي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abbâs Şihâbüddîn Ahmed b. İmâd b. Muhammed b. Yûsuf el-Akfehsî el-Kāhirî"
+      ]
+    },
+    "description": {
+      "tr": "İbnü’l-İmâd olarak da tanınan Akfehsî, 750’den (1349) önce doğdu. Cemâleddin el-İsnevî, Irâkī, Bulkīnî ve İbnü’s-Sâiğ gibi hocalardan okudu. Fıkıhtaki derin bilgisi sayesinde devrindeki Şâfiî fukahasının önde gelenlerinden biri oldu. Reşîdî, Burhâneddin el-Halebî ve İbn Hacer gibi âlimler kendisinden ders aldılar. Velûd bir müellif olan Akfehsî, başta fıkıh olmak üzere İslâmî ilimlerin değişik dallarında, çoğu yazma olarak günümüze kadar ulaşan otuz kadar kitap ve risâle telif etmiştir. Bunlardan üçü basılmıştır. 1. el-Ḳavlü’t-tâm (temâm) fî aḥkâmi’l-meʾmûm ve’l-imâm (Kahire 1322). 2. Manẓûme fi’l-maʿfüvvât . Fıkha dair olan bu eser Ahmed er-Remlî’nin (ö. 957/1550) Fetḥu’l-cevâd adlı şerhi ve bu şerhe Hüseyin b. Süleyman er-Reşîdî’nin Bulûġu’l-murâd bi-Fetḥi’l-cevâd adıyla yaptığı hâşiye ile birlikte basılmıştır (Kahire 1286, 1298, 1299, 1321). 3. Keşfü’l-esrâr ʿammâ ḫufiye ʿalâ (ʿan fehmi)’l-efkâr . Kelâmla ilgili bazı konuları ihtiva eder (İskenderiye 1315). Akfehsî’nin yazma halinde olan diğer eserlerinden bazıları da şunlardır: Teshîlü’l-maḳāṣıd li-züvvâri’l-mesâcid , Aḥkâmü’l-evânî ve’ẓ-ẓurûf ve mâ fîhâ mine’l-maẓrûf , el-Ḳavlü’t-temâm fî âdâbi duḫûli’l-ḥamâm , ed-Dürretü’ḍ-ḍavʾiyye fi’l-aḥkâmi’s-sünniyye ve’l-aḥvâli’r-rażiyye fî hicreti ḫayri’l-beriyye , et-Taʿaḳḳubât ʿale’l-Mühimmât , Delâʾilü’l-ḥükkâm ilâ maʿrifeti ġavâmizi’l-aḥkâm , Dîvânü’l-ḥayevân , Şerḥu’l-Bürde , Risâle fi’n-Nîl ve ehrâmihâ . Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 235-236 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:akfehsi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=akfehsi, https://islamansiklopedisi.org.tr/akfehsi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:akfehsi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/akfehsi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=akfehsi (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Akfehsî; Kāhirî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 808,
+    "start_ce": 1405,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=akfehsi, URL: https://islamansiklopedisi.org.tr/akfehsi || DİA death-date string: (ö. 808/1405) || DİA categories: fıkıh > kelâm || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001608",
+    "iac:person-00004325",
+    "iac:person-00004490",
+    "iac:person-00004591"
+  ],
+  "students": [
+    "iac:person-00003821",
+    "iac:person-00005150",
+    "iac:person-00007009"
+  ]
+}

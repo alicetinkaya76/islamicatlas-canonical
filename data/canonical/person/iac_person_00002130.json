@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00002130",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ ÂMİR el-EŞ‘ARÎ",
+      "ar": "أبو عامر الأشعري"
+    },
+    "originalScript": {
+      "ar": "أبو عامر الأشعري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ubeyd b. Süleym b. Haddâr el-Eş‘arî"
+      ]
+    },
+    "description": {
+      "tr": "İslâmiyet’in ilk devirlerinde müslüman olan Ebû Âmir, Ebû Mûsâ el-Eş‘arî ’nin amcasıdır. Önceleri âmâ iken gözlerinin sonradan açıldığı ve Habeşistan’a hicret eden müslümanlardan olduğu rivayet edilmektedir. Mekke’nin fethinde ve Huneyn Gazvesi ’nde bulundu. Mekke’nin fethinden sonra Huneyn’de bozguna uğrayan Hevâzinli müşriklerin Evtâs ve Tâif’te toplanarak yeniden savaşa hazırlandıklarını haber alan Hz. Peygamber, Ebû Âmir kumandasındaki bir kuvveti Evtâs ’a gönderdi; kendisi de Tâif ’e hareket etti. Ebû Âmir’e bağlı birlik, yolda Araplar’ın tanınmış şairlerinden Düreyd b. Sımme ve adamlarıyla karşılaştı. Düreyd öldürüldü ve yanındaki kuvvetleri dağıtıldı. Daha sonra Evtâs’ta müşriklerle karşı karşıya gelen Ebû Âmir, Hevâzinli dokuz kişiyle birer birer savaştı. Bu sırada her birini önce İslâmiyet’e davet ediyor, kabul etmeyeni öldürüyordu. Sonunda kendisi de okla dizinden yaralandı. Yeğeni Ebû Mûsâ amcasını yaralayan adamı öldürdükten sonra dizindeki oku çıkardı. Ebû Âmir öleceğini anlayınca Ebû Mûsâ’yı yerine kumandan tayin etti ve onunla Hz. Peygamber’e selâm gönderdi, kendisine dua etmesini istedi. Çok geçmeden şehid oldu. Ebû Mûsâ el-Eş‘arî amcasının silâhını, atını ve eşyasını Hz. Peygamber’e götürerek selâmını ve dua isteğini bildirdi. Bunun üzerine Resûlullah abdest alıp iki rek‘at namaz kıldıktan sonra, “Allahım! Ebû Âmir Ubeyd’e mağfiret et, kendisini kıyamet gününde insanların çoğundan üstün kıl ve cennette ona yüksek bir makam ver” diye dua etti. Ebû Âmir’in eşyası oğluna verildi. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 94 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-amir-el-esari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-amir-el-esari, https://islamansiklopedisi.org.tr/ebu-amir-el-esari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:54Z",
+    "modified": "2026-05-04T15:33:54Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-amir-el-esari (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 8,
+    "start_ce": 630,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-amir-el-esari, URL: https://islamansiklopedisi.org.tr/ebu-amir-el-esari || DİA death-date string: (ö. 8/630) || DİA categories: rivayet || Chunk count: 1"
+}

@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00005610",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MUÂZ b. AMR",
+      "ar": "معاذ بن عمرو"
+    },
+    "originalScript": {
+      "ar": "معاذ بن عمرو"
+    },
+    "altLabel": {
+      "tr": [
+        "Muâz b. Amr b. el-Cemûh el-Hazrecî el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "Medine’de doğdu. Hazrec kabilesinin Seleme (Selime) kolundandır. Annesi Hind bint Amr b. Harâm da sahâbî olup Abdullah b. Amr b. Harâm’ın kız kardeşidir. Muâz genç yaşta müslüman oldu ve kabile reisi olan babasını İslâmiyet’i kabul etmesi hususunda ikna etti. İkinci Akabe Biatı’nda bulundu ve Bedir Gazvesi’ne katıldı. Kendisi gibi genç bir sahâbî olan Muâz b. Hâris ile (Muâz b. Afrâ) birlikte Ebû Cehil’in peşine düşerek onu ağır şekilde yaralayıp öldürmüşlerdi. Ebû Cehil’in üzerinden çıkan şeyleri Muâz b. Amr’a veren Hz. Peygamber onu bu hizmetinden dolayı övdü ( Müsned , I, 193; Buhârî, “Farżu’l-ḫumus”, 17; Müslim, “Cihâd”, 42). Ancak durumu öğrenen Ebû Cehil’in oğlu İkrime Muâz’ı takip ederek sıkıştırdı ve kılıcıyla kolunu kopardı. Bu yüzden Muâz daha sonraki savaşlara katılamamıştır. Resûlullah, “Ne güzel adam!” dediği ( Müsned , II, 419; Tirmizî, “Menâḳıb”, 32) birkaç kişi arasında Muâz’ın da adını saymıştır. Abdullah b. Abbas’ın kendisinden rivayette bulunduğu Muâz b. Amr’ın Hz. Ömer’in hilâfetinin sonlarına doğru 23’te (643), bir başka rivayete göre ise Hz. Osman’ın hilâfetinin ilk yıllarında 24 (644) veya 25 (645) yılında Medine’de vefat ettiği belirtilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 30. cildinde, 336 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:muaz-b-amr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=muaz-b-amr, https://islamansiklopedisi.org.tr/muaz-b-amr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:12200",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=12200, heading_ar=معاذ بن عمرو",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:41Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=muaz-b-amr (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[12200]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=12200 (heading_ar=معاذ بن عمرو) via Track A (DİA→Alam xref bridge). dt=Cesur sahâbî."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hazrecî; Ensârî"
+  ],
+  "death_temporal": {
+    "start_ah": 25,
+    "start_ce": 645,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=muaz-b-amr, URL: https://islamansiklopedisi.org.tr/muaz-b-amr || El-Aʿlām (Ziriklī) cross-reference: alam_id=[12200] || DİA birth place: Medine || DİA death place: Medine || DİA death-date string: (ö. 25/645 [?]) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=12200, heading_ar=معاذ بن عمرو, dt=Cesur sahâbî."
+}

@@ -1,0 +1,112 @@
+{
+  "@id": "iac:person-00001089",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "A‘REC, Abdurrahman b. Hürmüz",
+      "ar": "عبد الرحمن بن هرمز الأعرج"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن هرمز الأعرج"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Dâvûd Abdurrahmân b. Hürmüz el-A‘rec el-Medenî"
+      ]
+    },
+    "description": {
+      "tr": "Rebîa b. Hâris b. Abdülmuttalib’in (veya oğlu Muhammed’in) mevlâ sı olan A‘rec, başta Ebû Hüreyre olmak üzere Abdullah b. Abbas, Muhammed b. Mesleme, Ebû Saîd el-Hudrî ve Abdullah b. Buhayne gibi birçok sahâbîden hadis rivayet etti. Kendisinden de Zührî, Ebü’z-Zinâd, Sâlih b. Keysân ve Abdullah b. Lehîa gibi muhaddisler rivayette bulundular. Mushaf yazmakla da meşgul olan A‘rec, Ebû Hüreyre, İbn Abbas ve Abdullah b. Ayyâş’tan arz usulüyle kıraat tahsil etti. Yedi kıraat imamından Medine’nin meşhur kıraat âlimi Nâfi‘ b. Abdurrahman b. Ebû Nuaym’a da aynı yolla kıraat okuttu. Arap dili ve ensâb konusunda sayılı âlimlerden biriydi. Arapça ile ilgili kaideleri ilk defa ortaya koyanın A‘rec olduğu da ileri sürülmüştür. İmam Mâlik’in A‘rec’den birkaç yıl lugat ve nahiv (kimilerine göre itikadî konuları) öğrendiğine dair rivayetler vardır. Çok hadis rivayet etmesiyle tanınan ve rivayetleri Kütüb-i Sitte ’de yer alan güvenilir muhaddis A‘rec ömrünün sonlarında Mısır’a hicret etti. Murâbıt (bk. RİBÂT ) olarak yaşadığı İskenderiye’de seksen yaşlarında vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 350-351 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:arec-abdurrahman-b-hurmuz",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=arec-abdurrahman-b-hurmuz, https://islamansiklopedisi.org.tr/arec-abdurrahman-b-hurmuz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:arec-abdurrahman-b-hurmuz",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/arec-abdurrahman-b-hurmuz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=arec-abdurrahman-b-hurmuz (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Medenî"
+  ],
+  "death_temporal": {
+    "start_ah": 117,
+    "start_ce": 735,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=arec-abdurrahman-b-hurmuz, URL: https://islamansiklopedisi.org.tr/arec-abdurrahman-b-hurmuz || DİA death place: İskenderiye || DİA death-date string: (ö. 117/735) || DİA categories: rivayet > hadis > nahiv || Chunk count: 1",
+  "death_place": "iac:place-00002102",
+  "teachers": [
+    "iac:person-00000482",
+    "iac:person-00002188",
+    "iac:person-00002258",
+    "iac:person-00005690"
+  ],
+  "students": [
+    "iac:person-00000513",
+    "iac:person-00001943",
+    "iac:person-00002394",
+    "iac:person-00003916",
+    "iac:person-00005206",
+    "iac:person-00005838",
+    "iac:person-00005969",
+    "iac:person-00007655",
+    "iac:person-00007897"
+  ]
+}

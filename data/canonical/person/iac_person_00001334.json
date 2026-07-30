@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00001334",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Barak Han"
+    },
+    "description": {
+      "tr": "Cuci Han’ın oğullarından Togay Timur’un neslinden olup 1367-1379 yılları arasında hüküm süren meşhur Altın Orda Hanı Urus Han’ın torunudur. Babası Kayırçak Han’dır. Uluğ Muhammed Han’ın ilk Altın Orda hanlığı dönemi (1419-1422), Emîr Edigü’nün oğlu Mansur Mirza’nın desteğini alarak ortaya çıkan Gıyâseddin Han ile sona ermişti. Ancak Gıyâseddin Han iki yıl sonra vefat edince Mansur Mirza bu defa Timur Kutluk Han’ın torunu Küçük (Kiçik) Muhammed Han’ı tahta çıkardı. Fakat küçük yaşta bir çocuğun hükümdar olarak itibar sağlayamayacağı görülünce Kazak ilinde hüküm sürmekte olan Barak Han Altın Orda tahtına davet edildi. Anası Urus Han’ın kızı olduğu için Mansur Mirza Barak Han’ın dayısı durumunda idi ve aradaki yakın akrabalık dolayısıyla hanlık için iyi bir namzet bulduğunu zannediyordu. Saray şehrinde bulunan Uluğ Muhammed’i şehirden sürüp hanlığını ilân eden Barak Han, Batı Sibirya bozkırlarında büyümüş olduğu için haşin tabiatlıydı. Nitekim kısa bir müddet sonra Mansur Mirza’ya kızarak onu yayının kirişiyle boğdurttu. Fakat bu durum kendi aleyhine oldu. En büyük destekçisini kaybeden Barak Han bununla da yetinmeyerek Mansur Mirza’ya bağlı olan ve “il” denilen grupları sol kolda Kapanarası kırı denilen yere sürdü. O kış çok şiddetli geçtiği için bütün bu iller hastalıktan, soğuktan ve kıtlıktan kırıldı. Kaçabilenlerin büyük bir kısmı Küçük Muhammed Han ile Mansur Mirza’nın kardeşi Nevruz Mirza’nın yanına sığındılar. Nihayet Küçük Muhammed Han ve Nevruz Mirza Yayık ırmağını ve Cim ırmağını geçerek Kapanarası kırına geldiler. Burada yapılan savaşta Barak Han ve kardeşi Bölük Pulat Sultan yenilerek öldürüldüler. Böylece 1427 yılında Barak Han’ın yerine Küçük Muhammed Han ikinci defa hanlık makamına geçti. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 64 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:barak-han--altin-orda",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=barak-han--altin-orda, https://islamansiklopedisi.org.tr/barak-han--altin-orda",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:barak-han--altin-orda",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/barak-han--altin-orda",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:39Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=barak-han--altin-orda (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 830,
+    "start_ce": 1427,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=barak-han--altin-orda, URL: https://islamansiklopedisi.org.tr/barak-han--altin-orda || DİA death-date string: (ö. 830/1427) || Chunk count: 1"
+}

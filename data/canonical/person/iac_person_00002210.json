@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00002210",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Mahzûre",
+      "ar": "أبو محذورة"
+    },
+    "originalScript": {
+      "ar": "أبو محذورة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Mahzûre Evs b. Mi‘yer b. Levzân el-Cumahî"
+      ]
+    },
+    "description": {
+      "tr": "Kureyş’in Cumah koluna mensuptur. Ebû Mahzûre künyesiyle meşhur olduğundan kendisinin ve babasının adında ihtilâf edilmiş, adının Selman, Semüre, Sümeyr veya Seleme, babasının adının Umeyr olduğu ileri sürülmüştür. Ebû Mahzûre Mekke’nin fethedildiği yıl Hz. Peygamber ile Ci‘râne’de karşılaştıktan sonra müslüman oldu. O sırada Resûl-i Ekrem Tâif Muhasarası’ndan Ci‘râne’ye dönüyordu. Namaz vakti gelince müezzin ezan okumaya başladı. Resûlullah’a karşı büyük bir kin ve düşmanlık besleyen Ebû Mahzûre ile Kureyşli on genç ezan sesini işitince bir yere gizlendiler ve alaylı bir şekilde müezzini taklit ederek yüksek sesle ezan okudular. İçlerinden birinin güzel sesli olduğunu farkeden Hz. Peygamber onları yanına çağırttı ve kendilerine birer birer ezan okuttu. En son okuyan Ebû Mahzûre’nin sesini çok beğenerek ona ezanı öğretti; daha sonra namaz vakti gelince elini başına koyup alnını okşadı ve ezan okumasını emretti. Ebû Mahzûre bu emri isteksiz bir şekilde yerine getirdikten sonra Hz. Peygamber ona bir miktar gümüş para verdi ve kendisine dua etti. Gönlü İslâmiyet’e ısınan Ebû Mahzûre orada müslüman oldu ve Hz. Peygamber’den kendisini Mekke’deki Harem-i şerif’e müezzin yapmasını istedi. Bu arzusunu kabul eden Hz. Peygamber, Mekke Valisi Attâb b. Esîd’e gitmesini ve yeni görevini ona bildirmesini söyledi. Ebû Mahzûre, Resûl-i Ekrem’in Mekke’den ayrılmasına kadar Kâbe’de Bilâl-i Habeşî ile birlikte ezan okudu. Resûlullah’ın okşadığı alnına düşen saçları hiç kestirmedi. 59 (678-79) yılında ölünceye kadar Mekke’de müezzinliğe devam etti. Kendisinden sonra Mescid-i Harâm müezzinliğini oğlu ve torunları yüzyıllarca devam ettirmişlerdir. Kureyş’in nesebini çok iyi bilen Ebû Mahzûre’den hanımı Ümmü Abdülmelik ve oğlu Abdülmelik ile Esved b. Yezîd en-Nehaî, Abdullah b. Muhayrîz, İbn Ebû Müleyke ve daha başkaları hadis rivayet etmişlerdir. Hepsi de ezanı Hz. Peygamber’den öğrenmesiyle ilgili olan sekiz rivayeti Ahmed b. Hanbel’in el-Müsned ’inde bulunmaktadır (III, 408-409; VI, 401). Bu rivayetlerden biri Ṣaḥîḥ-i Müslim ’de, diğerleri Kütüb-i Sitte ’ye dahil dört es-Sünen ’de de yer almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 179-180 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-mahzure",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-mahzure, https://islamansiklopedisi.org.tr/ebu-mahzure",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:1837",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=1837, heading_ar=أبو محذورة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:55Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-mahzure (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[1837]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=1837 (heading_ar=أبو محذورة) via Track A (DİA→Alam xref bridge). dt=İslam'da ilk müezzin"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cumahî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 59,
+    "start_ce": 678,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-mahzure, URL: https://islamansiklopedisi.org.tr/ebu-mahzure || El-Aʿlām (Ziriklī) cross-reference: alam_id=[1837] || DİA death-date string: (ö. 59/678-79) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=1837, heading_ar=أبو محذورة, dt=İslam'da ilk müezzin",
+  "students": [
+    "iac:person-00002611",
+    "iac:person-00003753"
+  ]
+}

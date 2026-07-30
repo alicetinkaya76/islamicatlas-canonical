@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00001795",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Cerrah Mehmed Paşa"
+    },
+    "description": {
+      "tr": "Aslen devşirmedir. Enderun’da yetişti ve Has Oda’da cerrahlık görevinde bulundu. Daha sonra yeniçeri ağası oldu. 1578’de Kaptanıderyâ Piyâle Paşa’dan dul kalan Hâce Gevherî Memlük Sultan’la evlendi. 1579’da beylerbeyiliğe tayin edildi. 1581’de Rumeli beylerbeyi, Mart 1582’de de Boyalı Mehmed Paşa’nın yerine dördüncü vezir oldu. Bu görevde iken III. Murad’ın oğlu Şehzade Mehmed’i (III. Mehmed) sünnet etti. Bu sebeple bundan sonra “cerrah” lakabıyla anıldı. 1584’te üçüncü vezir oldu; Şubat 1587’de azledilmesine rağmen aynı yılın haziran ayında yeniden vezirliğe tayin edildi. Ancak 1589’da Gence seferi sonrasında, 100 dirhem gümüşten 500 akçe kesilmesi gerekirken 2000 adet ayarı düşük akçe kesilmesi ve bunun üzerine sipahilerin ayaklanması sonucu Sadrazam Siyavuş Paşa, Şeyhülislâm Şeyhî Efendi ve Vezir İbrâhim Paşa ile birlikte azledildi. 29 Ocak 1593’te yeniden dördüncü vezirliğe tayin edilen Cerrah Mehmed Paşa bir yıl sonra üçüncü vezir oldu. 1596’da Eğri seferi dolayısıyla Belgrad’da bulunan ordunun zahiresini temine memur edildi. 4 Mart 1596’da sefere çıktı ve Eğri Kalesi kuşatmasına katıldı. Bundan sonra ikinci vezir ve sadâret kaymakamı oldu. 9 Nisan 1598’de Hadım Hasan Paşa’nın azli üzerine sadârete getirildi. Ancak hastalığı sebebiyle Dîvân-ı Hümâyun’a gelemediği ve devlet işlerini nişancı vasıtasıyla sarayından yürüttüğü için 6 Ocak 1599’da azledildi, yerine Damad İbrâhim Paşa getirildi. 7 Şâban 1012 (10 Ocak 1604) tarihinde vefat etti ve yaptırdığı caminin hazîresindeki türbeye gömüldü. İstanbul’da Aksaray’dan Kocamustafapaşa’ya giden yol üzerinde ve Cerrahpaşa adıyla meşhur olan semtte Mimar Dâvud Ağa’ya bir cami (1002/1593-94), türbe, medrese (Cerrah Mehmed Paşa Sultânîsi veya Gevher Han Sultan Medresesi), mektep, dershane, sebil, çeşme, şadırvan ve çifte hamam yaptırmıştır. Hamam 1908’de kapanmış, daha sonra da bakımsızlıktan yıkılmıştır. Caminin köşesinde yer alan çeşme de harap durumdadır. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 415 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cerrah-mehmed-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cerrah-mehmed-pasa, https://islamansiklopedisi.org.tr/cerrah-mehmed-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:cerrah-mehmed-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/cerrah-mehmed-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:48Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:48Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:48Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cerrah-mehmed-pasa (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1013,
+    "start_ce": 1604,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cerrah-mehmed-pasa, URL: https://islamansiklopedisi.org.tr/cerrah-mehmed-pasa || DİA death place: 1599 || DİA death-date string: (ö. 1013/1604) || DİA categories: sünnet || Chunk count: 1"
+}

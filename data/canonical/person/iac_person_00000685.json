@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00000685",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Âbidin Paşa"
+    },
+    "altLabel": {
+      "tr": [
+        "Mes̱nevî tercümesiyle tanınan devlet adamı."
+      ]
+    },
+    "description": {
+      "tr": "Preveze’de doğdu. Memleketinde iyi bir tahsil gördükten sonra İstanbul’a giderek devlet hizmetine girdi. Daha sonra sırasıyla Preveze mutasarrıf muavinliği, merkez kaymakamlığı ve mutasarrıf vekilliği görevlerinde bulundu. İzmir Hukuk Temyiz Meclisi reisliği ve yeni kurulmuş olan Hukuk Komisyonu başkanlığı yaptı. Bu komisyonun kısa bir müddet sonra ilga edilmesi üzerine Sofya mutasarrıflığına tayin edildiyse de oraya gidemeden Erbaa, Tekfurdağı ve Varna mutasarrıflıklarıyla görevlendirildi. Bir süre İstanbul borsa komiserliği yaptı; Bâbıâli’de kurulan birçok komisyonda görev aldı. II. Abdülhamid’in emriyle iki dereceli mebus seçimleriyle ilgili nizamnâme taslağını hazırladı. Osmanlı-Rus harbi sırasında borsa komiserliği görevine ek olarak Yanya’da kurulan komisyon başkanlığına tayin edildi; ayrıca Yenişehir mutasarrıflığı da kendisine verildi. Doğu ıslahat hareketleri için Diyarbekir’e gönderildi. Daha sonra Rumeli beylerbeyi unvanıyla Sivas, altı ay sonra da Selânik valiliğine tayin edildi. 1880 yılında üç ay Hariciye nâzırlığı yaptı. Bunu, Mecîdî nişanı verilerek gönderildiği Adana valiliği takip etti. Dört yıldan fazla bir süre bu görevde kalan Âbidin Paşa, tekrar Sivas valisi (1884) ve bir sene sonra da Ankara valisi oldu. Son olarak Cezâyir-i Bahr-i Sefîd (Akdeniz adaları) valiliği yaptı. Buradan emekli olunca İstanbul’a döndü; ancak ardından Yemen ıslahatı için kurulan komisyona tayin edildi. Âbidin Paşa bu görevde iken vefat etti. İstanbul Merkezefendi Dergâhı postnişini Nûreddin Efendi’ye intisap eden Âbidin Paşa’nın mezarı Fatih Türbesi avlusundadır. Arapça, Farsça, Arnavutça, Fransızca ve Yunanca bilen Âbidin Paşa, bu dillerin edebiyatlarını da gayet iyi kavramıştı. Yunanca yazı ve şiirleri İstanbul’da Neogolos adlı gazetede uzun süre yayımlanmıştır. Eserleri. 1. Tercüme ve Şerh-i Mesnevî-i Şerîf . Âbidin Paşa’nın şöhretini borçlu olduğu bu eser, Mevlânâ’nın Mes̱nevî ’sinin tercümesi ve ilk cildinin şerhidir. Mes̱nevî tercümeleri arasında önemli bir yeri olan eser altı cilttir (baskıları için bk. Özege, Katalog , IV, 1812). 2. Tercüme ve Şerh-i Kasîde-i Bürde . İmam Bûsîrî’nin meşhur kasidesinin tercüme ve şerhidir (İstanbul 1304, 1324). Eserin tıpkıbasımı ve sadeleştirilmiş metni Ömer Faruk Harman tarafından yayımlanmıştır (İstanbul 1977). 3. Âlem-i İslâmiyyet . Müdâfaa adıyla neşredilen kırk sayfalık bu küçük eser, Mısır’da bir papaz tarafından neşredilen bir risâleye reddiyedir (İstanbul 1315). 4. Meâlî-i İslâm . İslâmiyet’in üstünlüklerini anlatan bu kitap, “hikmet” başlıklı küçük pasajlardan meydana gelmiştir (İstanbul 1315). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 310 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abidin-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abidin-pasa, https://islamansiklopedisi.org.tr/abidin-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:abidin-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=abidin-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abidin-pasa (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=abidin-pasa)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1843,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abidin-pasa, URL: https://islamansiklopedisi.org.tr/abidin-pasa || DİA birth place: Preveze || DİA death-date string: (1843-1906) || DİA categories: şiir || Chunk count: 1"
+}

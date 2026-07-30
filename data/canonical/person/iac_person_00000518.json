@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00000518",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. HUZÂFE",
+      "ar": "عبد الله بن حذافة"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن حذافة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Huzâfe Abdullāh b. Huzâfe el-Kureşî es-Sehmî",
+        "Abdullâh b. Halef b. Esʿad b. Âmir el-Huzâʿî"
+      ],
+      "ar": [
+        "عبد الله بن خلف",
+        "عبد الله بن خلف بن أسعد بن عامر الخزاعي"
+      ]
+    },
+    "description": {
+      "tr": "İslâmiyet’in yayılmaya başladığı ilk günlerde müslüman olan Abdullah, Mekke döneminin çileli hayatını yaşadı ve kardeşi Kays b. Huzâfe ile birlikte İkinci Habeşistan hicretine katıldı. Hicretten sonra Medine’ye dönen Abdullah’ın Bedir Savaşı’nda bulunup bulunmadığı konusunda ihtilâf vardır. Hâkim’in el-Müstedrek ’inde yer alan bir rivayette (III, 63), Ebû Saîd el-Hudrî, Bedir’de onu bir bölük askerin başında kumandan olarak gördüğünü söyler. Hz. Peygamber komşu devlet başkanlarına dine davet mektupları gönderdiği sırada, İran kisrâsına hitaben yazdığı mektubu, üstün temsil kabiliyetine sahip olan Abdullah’ın başkanlığındaki bir heyetle gönderdi. Abdullah, hicrî 9. yılda (630) Alkame b. Mücezziz’in kumandasındaki bir seriyyeye katıldı. Halife Ömer devrinde Suriye’nin fethinde görev aldı, Bizanslılar’a esir düştü. Daha sonra Mısır’ın fethinde bulundu ve Hz. Osman devrinin son yıllarında Mısır’da öldü. Güvenilir kaynaklarda Abdullah b. Huzâfe’nin iman gücünü ve kahramanlıklarını dile getiren rivayetler bulunmaktadır. Bunlardan sağlamlığı tesbit edilen rivayetlere göre, Abdullah Suriye’de çarpışırken onu esir alan düşman kuvvetleri Peygamber’in ashabından olduğunu söyleyerek krallarının huzuruna çıkardılar. Kral, Hıristiyanlığı kabul ettiği takdirde kendisine önemli mevkilerle birlikte pek çok servet vermeyi vaad etti. Teklifine önem vermediğini görünce bu defa onu ölümle tehdit etti; buna da aldırmayınca başından öperse hayatını bağışlayacağını bildirdi. Yine bir sonuç alamayınca bu defa, kendi hayatıyla birlikte esir müslümanların hayatını da bağışlayacağını söyledi. Bunun üzerine Abdullah kralın alnından öperek seksen (veya yüz) arkadaşının hayatını kurtardı. Medine’ye döndüklerinde olayı haber alan Hz. Ömer, Abdullah’ı alnından öpmenin her müslümanın görevi olduğunu söyledi ve ilk olarak kendisi öptü. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 108 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "One of the scribes in the early Islamic period"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd Allāh b. Khalaf b. Asʿad b. ʿĀmir al-Khuzāʿī"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-huzafe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-huzafe, https://islamansiklopedisi.org.tr/abdullah-b-huzafe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:5896",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5896, heading_ar=عبد الله بن خلف",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-huzafe (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5896]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5896 (heading_ar=عبد الله بن خلف) via Track A (DİA→Alam xref bridge). dt=İslâm'ın ilk döneminde katibler arasında yer alan kimselerden"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+translit from alam_detail.json el-alam:5896."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Sehmî"
+  ],
+  "death_temporal": {
+    "start_ah": 35,
+    "start_ce": 655,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-huzafe, URL: https://islamansiklopedisi.org.tr/abdullah-b-huzafe || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5896] || DİA death-date string: (ö. 35/655-56) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5896, heading_ar=عبد الله بن خلف, dt=İslâm'ın ilk döneminde katibler arasında yer alan kimselerden"
+}

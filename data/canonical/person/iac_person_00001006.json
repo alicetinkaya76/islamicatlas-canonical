@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00001006",
+  "@type": [
+    "iac:Architect",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALTAN, Kemal"
+    },
+    "description": {
+      "tr": "Sanâyi-i Nefîse Mektebi’nin (bugün Mimar Sinan Üniversitesi) 1914 yılı mezunlarındandır. Hayatının ilk yılları hakkında bilgi edinilememiştir. I. Dünya Savaşı’na yedek subay olarak katıldı; savaştan sonra, Batı Anadolu’nun istilâ ve yangın felâketine uğramış şehirlerinde mimar olarak çalışmaya başladı. Bu yıllarda Manisa Hükümet Konağı ile Numûne Hastahanesi’ni, Salihli Âbidesi’ni ve Isparta Özel İdare Binası’nı yaptı. 1927’de Edirne Maarif Eminliği mimarlığına tayin edilince burada eski Türk mimarlık eserleri üzerinde çalışma fırsatı buldu. Sonraları, merkezi yine Edirne’de olan ve General Kâzım Dirik tarafından idare edilen Trakya Umumi Müfettişliği’nin mimarlığına getirildi. Bu yıllarda çeşitli dergilerde, bilhassa önce Mimar adıyla çıkan Arkitekt ’te ve bazı günlük gazetelerde Trakya ve Rumeli’deki Türk mimarlık eserlerine dair pek çok makale yayımladı. Bir taraftan da Trakya’daki çeşitli Türk eserleriyle hâtıralarının kurtarılmasına çalıştı. Kemal Altan’ın altı yıl kadar İstanbul Arkeoloji Müzeleri Müdürlüğü’nde mimar olarak çalıştığı bilinmektedir. Ölümü üzerine yayımlanan yazılardan anlaşıldığına göre, 1947’de Trakya Umumi Müfettişliği’nin lağvı üzerine Konya’da imar müdürlüğüne tayin edilmiş, fakat kısa bir süre sonra İstanbul’da vefat etmiştir (26 Eylül 1948). Kabri Beşiktaş’ta Yahyâ Efendi Kabristanı’ndadır. Kitap halinde yayımlanmış herhangi bir eseri olmamakla beraber 1935-1948 yılları arasında basılmış pek çok makalesi vardır. Bu makalelerin büyük bir kısmı Akşam gazetesinde çıkmış ve bunların bir bibliyografyası yapılmadığından gazete koleksiyonunda unutulmuştur. Kemal Altan bütün yazılarında, Türk mimarlık eserlerine büyük bir sevgi ve heyecanla bağlı bir araştırıcı olarak kendisini göstermektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 530-531 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "architect"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:altan-kemal",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=altan-kemal, https://islamansiklopedisi.org.tr/altan-kemal",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:altan-kemal",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/altan-kemal",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=altan-kemal (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1948,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=altan-kemal, URL: https://islamansiklopedisi.org.tr/altan-kemal || DİA death place: Beşiktaş || DİA death-date string: (ö. 1948) || Chunk count: 1"
+}

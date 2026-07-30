@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00000781",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahmed Eflâkî",
+      "ar": "أحمد أفلاكي"
+    },
+    "originalScript": {
+      "ar": "أحمد أفلاكي"
+    },
+    "altLabel": {
+      "tr": [
+        "Şemseddîn Ahmed el-Eflâkî el-Ârifî Mevlânâ Celâleddîn-i Rûmî ve etrafındakileri anlatan Menâḳıbü’l-ʿârifîn adlı eserin yazarı."
+      ]
+    },
+    "description": {
+      "tr": "Asıl adı Ahmed olup daha çok Eflâkî nisbesiyle tanınır. Ârifî nisbesi ise Mevlânâ’nın oğlu Ulu Ârif Çelebi’ye intisabından gelmektedir. Eski kaynakların hiçbirinde ailesi, adı, doğum yeri ve tarihi hakkında bilgi yoktur. Hayatına dair bilgiler, Menâḳıbü’l-ʿârifîn ’deki kendisiyle ilgili dolaylı bilgilerden ibarettir. Sultan Veled’i (ö. 1312) gördüğüne ve 1360’ta öldüğüne göre, 1286-1291 yılları arasında doğduğu tahmin edilebilir. Ayrıca babasının Altın Orda Devleti’nin başşehri Saray’da öldüğünde kendisine büyük bir servetle birlikte kitaplar bıraktığına bakılarak da kültürlü bir aileden geldiği söylenebilir. Konya’da doğduğu, Ahî Nâtûr’un oğlu olduğu, İlhanlı Hükümdarı Geyhatu Han’ın 1291’de Konya’ya gelişinde orada bulunduğuna dair rivayetlerin (Sâkıb Dede, III, 5) gerçekle ilgisi yoktur. Eflâkî, muhtemelen tahsilinin bir kısmını doğduğu ülkede tamamladıktan sonra devrin kültür merkezlerinden biri olan Konya’ya gelmiştir. Burada Sirâceddin Mesnevîhan, Abdülmü’min Tokadî ve Nizâmeddin Erzincânî’nin talebesi olmuş, büyük bir ihtimalle bir astronomi âliminden ders almış ve gözlemle uğraştığı için kendisine Eflâkî nisbesi verilmiştir. Mevlânâ’nın oğlu Ulu Ârif Çelebi’ye (ö. 1316) intisap ederek ölümüne kadar yanından ayrılmayan Eflâkî, onun Azerbaycan ve Anadolu seyahatlerine katıldı. Şeyhinin isteği üzerine Menâḳıbü’l-ʿârifîn ’in ilk şekli olan Menâḳıbü’l-ʿârifîn ve merâtibü’l-kâşifîn adlı eserini yazdı. Ulu Ârif Çelebi’nin ölümünden sonra türbedar olarak Âbid Çelebi’ye, onun ölümünden sonra da sırasıyla Vâcid, Şehzâde ve Emîr Âdil çelebilere intisap etti. Bu arada daha önce yazdığı menâkıbı, sadece Menâḳıbü’l-ʿârifîn adı ile genişletmekle meşgul oldu. 30 Receb 761’de (16 Haziran 1360) vefat etti. Eflâkî’nin adı geçen eseri dışında ayrıca dört Türkçe gazeli vardır. Bunlar, Kilisli Rifat ve Veled Çelebi tarafından yayımlanan Dîvân-ı Türkî-i Sultan Veled ’in sonunda birinci ilâve şeklinde basılmış olup (İstanbul 1341, s. 117-119) daha sonra Abdülbaki Gölpınarlı ( Mevlânâ’dan Sonra Mevlevîlik , s. 469-472) ve Feridun Nâfiz Uzluk ( TDAY Belleten , 1961 [1962], s. 291-296) tarafından yeni harflerle de yayımlanmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 62 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-eflaki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-eflaki, https://islamansiklopedisi.org.tr/ahmed-eflaki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-eflaki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-eflaki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "alatli:E1185",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:52Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-eflaki (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-2 conf 1.0): ['authority_xref', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Eflâkî; Ârifî"
+  ],
+  "death_temporal": {
+    "start_ah": 761,
+    "start_ce": 1360,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-eflaki, URL: https://islamansiklopedisi.org.tr/ahmed-eflaki || DİA death place: 761 || DİA death-date string: (ö. 761/1360) || DİA categories: rivayet > astronomi || Chunk count: 1",
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q6025510",
+      "confidence": 1.0,
+      "method": "imported_from_source",
+      "reviewed": false,
+      "note": "Alatlı (Tarihe Yön Veren Metinler): Tier-2 ad+ölüm eşleşmesi; QID Wikidata tarih-teyitli."
+    }
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

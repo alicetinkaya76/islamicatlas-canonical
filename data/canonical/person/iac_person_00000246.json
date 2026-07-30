@@ -1,0 +1,108 @@
+{
+  "@id": "iac:person-00000246",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Kamal al-Din al-Farisi",
+      "tr": "Kemâleddîn el-Fârisî",
+      "ar": "كمال الدين الفارسي"
+    },
+    "originalScript": {
+      "ar": "كمال الدين الفارسي"
+    },
+    "altLabel": {
+      "en": [
+        "Kamal al-Din Hasan ibn Ali al-Farisi"
+      ],
+      "tr": [
+        "Kemâleddîn Hasen b. Ali el-Fârisî"
+      ],
+      "ar": [
+        "كمال الدين حسن بن علي الفارسي"
+      ]
+    },
+    "description": {
+      "tr": "Gökkuşağını su damlacıklarında kırılma ve yansımayla doğru açıklayan ilk bilim insanı || Şîrâzî'nin öğrencisi, cam küre kullanarak İbnü'l-Heysem'in optiğini revize etti. || [Tarih notu] Freiburglu Theodoric üzerindeki önceliği tartışmalıdır.",
+      "en": "First to correctly explain rainbow through refraction and internal reflection in water droplets, 300 years before Descartes || Student of Qutb al-Din al-Shirazi, he revised Ibn al-Haytham's optics using a glass sphere to simulate a raindrop. || [Historiographical note] His priority over Theodoric of Freiberg (c. 1304) is debated but generally recognized.",
+      "ar": "أول من فسّر قوس قزح تفسيراً صحيحاً || تلميذ الشيرازي، نقّح مناظر ابن الهيثم"
+    }
+  },
+  "profession": [
+    "philosopher",
+    "mathematician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0063",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0063",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:221",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=221",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:56:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:56:15Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:56:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0063 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['nisba', 'laqab']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1267,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1319,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q426523",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Kamal al-Din al-Farisi')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0063, lecture_week=n/a. || Key works: {'title': {'en': 'Tanqīḥ al-Manāẓir', 'tr': \"Tenkîhu'l-Menâzır\", 'ar': 'تنقيح المناظر'}, 'year': 1310, 'field': 'optics', 'significance': {'en': 'First correct explanation of the rainbow — 300 years before Descartes', 'tr': \"Gökkuşağının ilk doğru açıklaması — Descartes'tan 300 yıl önce\"}} || Modern parallel: Like building a physical simulation to test a theory — he used a glass sphere as an analog computer.",
+  "authored_works": [
+    "iac:work-00000088"
+  ],
+  "nisba": [
+    "Fârisî"
+  ],
+  "laqab": [
+    "Kemâleddîn"
+  ]
+}

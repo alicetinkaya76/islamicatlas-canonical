@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00000953",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ EFENDİ, Tanbûrî"
+    },
+    "description": {
+      "tr": "Midilli’de doğdu. Enis Efendizâdeler’den Hâfız Bekir Efendi’nin oğludur. İlk tahsiline babasından aldığı derslerle başladı, yedi yaşında hâfız oldu. Bir müddet sonra İstanbul’a gitti, tahsilini oradaki medreselerde tamamladı. Bilhassa kıraat ilminde belli bir seviyeye gelerek talebe yetiştirmeye başladı. Sultan Abdülaziz’in tahta çıktığı yıllarda müezzinlik vazifesi ile saraya alındı ve bir müddet sonra da ikinci imamlığa yükseltildi. Bu sıralarda kendisine Kudüs mevleviyeti pâyesi verilen Ali Efendi imamlık vazifesini 1885 yılında saraydan ayrılıncaya kadar devam ettirdi. Daha sonra İzmir’e yerleşti. Mûsikideki eserlerinin büyük bir kısmını burada besteledi. Hayatının geri kalan yıllarını, İzmir’de ve ara sıra gittiği Manisa’daki meşk toplantılarına devam etmekle ve talebe yetiştirmekle geçirdi. İzmir’de öldü ve Karşıyaka Mezarlığı’na defnedildi. Ölüm tarihi, Hoş Sadâ ve Nazarî-Amelî Türk Musikisi ’nde 1890, 20. Yüzyıl Türk Musıkisi ’nde 1902 olarak gösterilmektedir. Oğlu Aziz Mahmud Efendi de (ö. 1929) zamanının tanınmış bestekâr ve tambur üstatlarındandı. Neo-klasik üslûbu benimseyen ve bestelerindeki romantik ve lirik coşkunluk dolayısıyla “âşık bestekâr” olarak anılan Ali Efendi, devrinin en önemli mûsikişinasları arasında yer almıştır. Mûsikideki ilk hocaları Latif Ağa, Sütlüceli Âsım Bey ve Kemânî Rızâ Efendi’dir. Bir süre sonra Tanbûrî Küçük Osman Bey’den tambur dersleri almış ve tambur çalmadaki maharetini, adının bu saz ile beraber zikredilmesi derecesine getirmiştir. Bestekârlığı ve icracılığının yanı sıra bu sahadaki hocalığı ile de tanınmış ve birçok talebe yetiştirmiştir. Bunlar arasında Tanbûrî Cemil Bey ve Râkım Elkutlu en meşhurlarıdır. Sûzidil makamını büyük ve küçük formlu eserleriyle ihya eden Ali Efendi’nin günümüze biri dinî, yedisi saz ve çoğu şarkı formundaki seksen beş sözlü eseri ulaşmıştır. Bunlardan ancak kırk kadarının notası mevcuttur. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 389-390 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-efendi-tanburi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-efendi-tanburi, https://islamansiklopedisi.org.tr/ali-efendi-tanburi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-efendi-tanburi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1836,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ali-efendi-tanburi, URL: https://islamansiklopedisi.org.tr/ali-efendi-tanburi || DİA birth place: Midilli || DİA death place: İzmir || DİA death-date string: (1836-1890 [?]) || DİA categories: mantık || Chunk count: 1",
+  "students": [
+    "iac:person-00001145",
+    "iac:person-00001773",
+    "iac:person-00002477",
+    "iac:person-00002990",
+    "iac:person-00004567"
+  ]
+}

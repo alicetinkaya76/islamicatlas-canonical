@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00002249",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Rifâa",
+      "ar": "أبو رفاعة"
+    },
+    "originalScript": {
+      "ar": "أبو رفاعة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Rifâa Temîm b. Esîd b. Adî el-Adevî"
+      ]
+    },
+    "description": {
+      "tr": "Adının Abdullah b. Hâris b. Esed, baba adının Esed, Üseyd veya Nüzeyr olduğu da zikredilmektedir. Benî Adî kabilesinden olup Mudarî nisbesiyle de anılan Ebû Rifâa’nın hangi tarihte müslüman olduğu bilinmemekle beraber Hz. Peygamber’den İslâmiyet hakkında ilk bilgileri almasıyla ilgili olay dikkat çekicidir. Bizzat anlattığına göre bir gün Resûlullah minberde konuşurken Mescid-i Nebevî’ye giren Ebû Rifâa Resûl-i Ekrem’e hitaben, “Dini hakkında hiçbir şey bilmeyen garip bir adam geldi; dinini sorup öğrenmek istiyor” dedi. Hz. Peygamber konuşmasını keserek minberden indi ve Ebû Rifâa’nın yanına gelerek ona İslâmiyet hakkında bilgi verdi. Sonra tekrar minbere çıktı ve konuşmasını tamamladı (Müslim, “Cumʿa”, 60). Ebû Rifâa, Bakara sûresini Hz. Peygamber’den öğrendikten sonra onu bir daha unutmadığını söyler, gece boyunca namaz kıldığı halde hiç yorgunluk hissetmediğini belirtirdi. Ebû Rifâa hakkında yukarıda zikredilen rivayet sadece Müslim, Nesâî ve Ahmed b. Hanbel’in eserlerinde yer almakta, diğer güvenilir kaynaklarda başka bir rivayeti bulunmamaktadır. Kendisinden Sıle b. Eşyem, İbn Sîrîn ve Humeyd b. Hilâl rivayette bulunmuşlardır. Basra’ya yerleşen sahâbîler arasında adı geçen Ebû Rifâa 44 (664) yılında Abdurrahman b. Semüre kumandasındaki orduya katılarak Sicistan’a gitti. Ordunun Kâbil Kalesi’ni kuşattığı günlerde bir askerî birlikle gece keşfine çıktı ve bu sırada düşman askerleri tarafından şehid edildi. Onun kabrinin Beyhak’ta olduğunu söyleyenler de vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 217 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-rifaa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-rifaa, https://islamansiklopedisi.org.tr/ebu-rifaa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-rifaa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-rifaa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-rifaa (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Adevî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 44,
+    "start_ce": 664,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-rifaa, URL: https://islamansiklopedisi.org.tr/ebu-rifaa || DİA death-date string: (ö. 44/664) || DİA categories: rivayet || Chunk count: 1"
+}

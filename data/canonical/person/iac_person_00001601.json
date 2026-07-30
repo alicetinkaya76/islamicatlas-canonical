@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00001601",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BUHÂRÎ, Zahîrüddin",
+      "ar": "ظهير الدين البخاري"
+    },
+    "originalScript": {
+      "ar": "ظهير الدين البخاري"
+    },
+    "altLabel": {
+      "tr": [
+        "Zahîrüddîn Ebû Bekr Muhammed b. Ahmed b. Ömer"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Babasından ve devrin önde gelen diğer âlimlerinden ders okudu. Yetiştirdiği talebeler arasında tanınmış âlimlerden Mecdüddin el-Üsrûşenî bulunmaktadır. Buhara’da kadılık ve muhtesiplik yaptı. 5 Muharrem 619’da (19 Şubat 1222) vefat etti. Eserleri. 1. el-Fetâva’ẓ-Ẓahîriyye . Zaman içinde ortaya çıkan (nevâzil ve vâkıât) fıkhî konulara dair fetvaların toplandığı bir eserdir. Bedreddin el-Aynî (ö. 855/1451), bu fetvalardan çok gerekli olanları seçerek el-Mesâʾilü’l-Bedriyyetü’l-münteḫabe mine’l-Fetâva’ẓ-Ẓahîriyye adlı eserini meydana getirmiştir. el-Fetâva’ẓ-Ẓahîriyye ’nin Süleymaniye Kütüphanesi’nin çeşitli bölümlerinde on sekiz kadar yazma nüshası vardır (meselâ bk. Fâtih, nr. 2379, 2380, 2381; Mahmud Paşa, nr. 253, 254; Süleymaniye, nr. 661, 662; ayrıca bk. Brockelmann, GAL , I, 472; Suppl. , I, 652). 2. el-Fevâʾidü’ẓ-Ẓahîriyye . Sadrüşşehîd Hüsâmeddin Ömer b. Abdülazîz’in el-Câmiʿu’ṣ-ṣaġīr şerhinde kapalı ve izaha muhtaç görülen yerleri açıklamak üzere kaleme alınmış bir eserdir (Süleymaniye Ktp., Hekimoğlu, nr. 423, 424; Damad İbrâhim Paşa, nr. 711). Bu kitap Zahîrüddin lakabı ile anılan başka kişilere de nisbet edilmiştir (bk. Leknevî, s. 122), ancak müellifin mukaddimede adını açıkça zikretmesi böyle bir ihtimale imkân vermemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 376-377 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:buhari-zahiruddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=buhari-zahiruddin, https://islamansiklopedisi.org.tr/buhari-zahiruddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:buhari-zahiruddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=buhari-zahiruddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:45Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=buhari-zahiruddin (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=buhari-zahiruddin)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 619,
+    "start_ce": 1222,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=buhari-zahiruddin, URL: https://islamansiklopedisi.org.tr/buhari-zahiruddin || DİA death place: 619 || DİA death-date string: (ö. 619/1222) || DİA categories: fetva || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00000313"
+  ],
+  "students": [
+    "iac:person-00007534"
+  ]
+}

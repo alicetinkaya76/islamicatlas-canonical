@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00003514",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÜR b. ABDURRAHMAN",
+      "ar": "الحرّ بن عبد الرحمن"
+    },
+    "originalScript": {
+      "ar": "الحرّ بن عبد الرحمن"
+    },
+    "altLabel": {
+      "tr": [
+        "el-Hürr b. Abdirrahmân b. Osmân es-Sekafî"
+      ]
+    },
+    "description": {
+      "tr": "Endülüs fâtihi Mûsâ b. Nusayr’ın yeğenidir. Abdülazîz b. Mûsâ b. Nusayr’ın bir suikast sonucu öldürülmesinin ardından askerler tarafından başa geçirilen Eyyûb b. Habîb el-Lahmî’nin yerine Kuzey Afrika Valisi Muhammed b. Yezîd tarafından 97 (716) yılında Endülüs valiliğine tayin edildi. Bu tayinin aslında, Abdülazîz’in öldürülmesi olayının aydınlığa kavuşturulması ve suikastı düzenleyenlerin cezalandırılması amacıyla bizzat Emevî Halifesi Süleyman b. Abdülmelik’in tâlimatı üzerine gerçekleştiği anlaşılmaktadır. Hür, Endülüslü askerlerin kendisine karşı çıkabileceklerini düşünerek yanına eşraftan 400 kişiyi aldı. Endülüs’te herhangi bir muhalefetle karşılaşmadı. Yaklaşık iki buçuk yıl süren valiliği esnasında daha ziyade seferlerle meşgul oldu. Pireneler’i aşarak Sebtîmâniye’ye (Septimania) ulaştı (99/718). Kurtuba’da (Córdoba) rehin tutulan Vizigot asilzadelerinden Pelayo, onun bu meşguliyetinden istifade ederek kaçmayı başardı ve İspanya’nın kuzeyindeki Asturias bölgesinde Endülüs müslümanlarının geleceği açısından son derece önemli olan “reconquista” (Endülüs’ü müslümanlardan geri alma) hareketini başlattı. Muahhar hıristiyan kaynaklarında Hür b. Abdurrahman’ın özellikle hıristiyanlara karşı oldukça sert davrandığı rivayet edilmekteyse de ilk kaynaklarda bu hususu teyit eden bir bilgiye rastlanmamaktadır. Berberîler’le Araplar arasındaki anlaşmazlığı gidermeye çalıştıysa da başarılı olamadı. Endülüs’ün idarî merkezinin İşbîliye’den (Sevilla) Kurtuba’ya nakli de onun icraatları arasında gösterilmektedir (İbn İzârî, II, 25). Ancak bu icraatın kendisinden önceki vali Eyyûb b. Habîb tarafından gerçekleştirilmiş olması daha kuvvetli bir ihtimaldir. Hür, Halife Ömer b. Abdülazîz tarafından görevden alınmış ve yerine Semh b. Mâlik el-Havlânî tayin edilmiştir (Ramazan 100 / Nisan 719). Kaynaklarda Hür b. Âmil’in daha sonraki hayatıyla ilgili bilgi yoktur. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 492-493 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hur-b-abdurrahman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hur-b-abdurrahman, https://islamansiklopedisi.org.tr/hur-b-abdurrahman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:15Z",
+    "modified": "2026-05-04T15:34:15Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hur-b-abdurrahman (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sekafî"
+  ],
+  "birth_temporal": {
+    "start_ah": 97,
+    "start_ce": 716,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 100,
+    "start_ce": 719,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hur-b-abdurrahman, URL: https://islamansiklopedisi.org.tr/hur-b-abdurrahman || DİA death-date string: (ö. 100/719’dan sonra) || DİA categories: rivayet || Chunk count: 1"
+}

@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00000374",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABBÂD b. ZİYÂD b. EBÛ SÜFYÂN",
+      "ar": "عبّاد بن زياد بن أبي سفيان"
+    },
+    "originalScript": {
+      "ar": "عبّاد بن زياد بن أبي سفيان"
+    },
+    "description": {
+      "tr": "Künyesi Ebû Harb’dir; ne zaman doğduğu bilinmemektedir. Babası Ziyâd’ın Muâviye’ye karşı direnmesi üzerine, Basra valisi tarafından kardeşleri Ubeydullah ve Abdurrahman’la birlikte rehin alındı. Ziyâd 53 (673) yılında ölünce Muâviye tarafından Sicistan valiliğine getirildi. Bu sırada bazı fetihlerde bulundu ve Kandehar’ı zaptetti. Yezîd halife olunca Sicistan valiliğinden azledildi. Yezîd’in ölümünü takip eden karışıklıklar sırasında kardeşi Ubeydullah ile birlikte Dımaşk’a gelen Abbâd, Mervân b. Hakem’in halife olması fikrini destekledi ve Mercirâhit savaşına (684) birlik kumandanı olarak katıldı. Daha sonra Dûmetülcendel’e çekilmek istedi, fakat Muhtâr’ın gönderdiği bir birlikle savaşmak zorunda kaldı. Bu savaşı kazanan Abbâd’ın Halife Abdülmelik devrinde başka bir olaya karışmadığı anlaşılmaktadır. Halife Velîd, kardeşi Süleyman’ı veliahtlıktan azlederek oğlu Abdülaziz’i veliaht tayin etmek isteyince, Abbâd’ın onu bu fikrinden vazgeçirmeye çalıştığı söylenir. Büyük bir ihtimalle 100 (718) yılında öldü. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 13 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbad-b-ziyad-b-ebu-sufyan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbad-b-ziyad-b-ebu-sufyan, https://islamansiklopedisi.org.tr/abbad-b-ziyad-b-ebu-sufyan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-05-04T15:32:37Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbad-b-ziyad-b-ebu-sufyan (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 53,
+    "start_ce": 673,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 100,
+    "start_ce": 718,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbad-b-ziyad-b-ebu-sufyan, URL: https://islamansiklopedisi.org.tr/abbad-b-ziyad-b-ebu-sufyan || DİA death-date string: (ö. 100/718) || Chunk count: 1"
+}

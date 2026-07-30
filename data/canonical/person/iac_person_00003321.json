@@ -1,0 +1,99 @@
+{
+  "@id": "iac:person-00003321",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂTİF-i İSFAHÂNÎ",
+      "ar": "هاتف اصفهانى"
+    },
+    "originalScript": {
+      "ar": "هاتف اصفهانى"
+    },
+    "altLabel": {
+      "tr": [
+        "Seyyid Ahmed Hâtif-i İsfahânî"
+      ],
+      "en": [
+        "HATIF"
+      ]
+    },
+    "description": {
+      "tr": "XII. (XVIII.) yüzyılın ilk yarısında İsfahan’da doğdu. Hz. Hüseyin soyundan gelen ailesi, Safevîler döneminde Azerbaycan Urdûbâd şehrinden göç ederek İsfahan’a yerleşmişti. Hâtif matematik, felsefe ve tıp ilimlerini tahsil etti. Devrin meşhur edip ve şairleri olan Muhammed Takī Sahbâ, Lutf Ali Beg Âzer ve Süleyman Sabâhî ile öğrencilik yıllarından başlayarak hayatının sonuna kadar birlikte bulundu. Divanındaki bazı beyitlerden tabiplik yaptığı, mesleğinden memnun olmadığı, hayatının son yıllarını İsfahan ve Kâşân’da geçirdiği anlaşılmaktadır. Bundan dolayı Kâşânî nisbesiyle de anılmıştır. Tıp bilgisini, Kerim Han Zend zamanında Şîraz’da ikamete zorlanan hekim Muhammed Nâsır İsfahânî’den (ö. 1191/1777) öğrenen Hâtif, Kerim Han’ın İsfahan valisi Mîr Abdülvehhâb Mûsevî’nin topladığı şiir meclislerinde de bulundu. Lutf Ali Beg’in oturduğu Kum şehrine birkaç defa ziyaret için gitti ve 1198 (1784) yılının sonlarında burada vefat etti. Oğlu Muhammed Sehâb (ö. 1222/1807) ve kızı Reşha da şairdir. Fazla şiir söylememekle birlikte yazdığı terciibendlerle şöhret kazanan Hâtif, İsfahan’daki edebî faaliyetleriyle Horasan üslûbuna dönüş akımına öncülük eden Ali Müştâk’ın çevresinde yer almış, o yıllarda yaygın olan sebk-i Hindî’ye ilgi göstermeyip Sa‘dî-yi Şîrâzî ve Hâfız-ı Şîrâzî başta olmak üzere eski üstatların yolunda şiirler söylemiştir. Kasidelerinde Enverî ve Kemâleddin İsmâil İsfahânî üslûbu hâkimdir. Bazı kasidelerinde Şîa akîdesine de yer veren şairin vahdet-i vücûd düşüncesini tasavvufî remizlerle işlediği beş kıtalık terciibendi, XII. (XVIII.) yüzyılda yazılmış en güzel Farsça şiir olarak kabul edilmektedir (Browne, IV, 221). Ancak bu şiirin Ferîdüddin Attâr’dan etkiler taşıdığı öne sürülmüştür. Hâtif’in Sa‘dî ve Hâfız üslûbuyla yazdığı gazeller ve tarih düşürdüğü beyitlerle süslediği kıtalarının yanı sıra Arapça şiirleri de takdir edilmiş, belli başlı Avrupa dillerine tercüme edilen şiirleri bilhassa İtalya’da büyük ilgi görmüştür. Tercî, kaside, gazel, kıta, rubâî ve Arapça şiirlerini ihtiva eden divanı Vahîd-i Destgirdî tarafından neşredilmiştir (Tahran 1312 hş.). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 467-468 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "HATIF, Saiyid Ahmad Hatif, a Persian poet \nof Ispahan, died in 1128 (1784).",
+      "ar": "هاتف، السيد أحمد هاتف، شاعر فارسي من أصفهان، توفي في 1128 (1784 م)."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hatif-i-isfahani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hatif-i-isfahani, https://islamansiklopedisi.org.tr/hatif-i-isfahani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "ei1:1814",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 2, p. 33",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      },
+      {
+        "source_id": "dia-chunks:hatif-i-isfahani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hatif-i-isfahani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:13Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hatif-i-isfahani (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled ['description.en', 'description.ar', 'altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1198,
+    "start_ce": 1784,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hatif-i-isfahani, URL: https://islamansiklopedisi.org.tr/hatif-i-isfahani || DİA birth place: İsfahan || DİA death place: İsfahânî || DİA death-date string: (ö. 1198/1784) || DİA categories: şiir > tıp > tasavvuf || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00005810"
+  ]
+}

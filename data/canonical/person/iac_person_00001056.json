@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00001056",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMR b. SAÎD b. ÂS",
+      "ar": "عمرو بن سعيد بن العاص"
+    },
+    "originalScript": {
+      "ar": "عمرو بن سعيد بن العاص"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ukbe Amr b. Saîd b. el-Âs el-Kureşî el-Ümevî"
+      ]
+    },
+    "description": {
+      "tr": "Ebû Ühayha diye tanınan babası Câhiliye devrinde Mekke’nin ileri gelenlerinden biriydi. Annesi Safiyye bint Mugīre, Hâlid b. Velîd’in halasıdır. Amr İslâmiyet’i kabul ettiği zaman, Mekkeli müşrikler müslümanlara huzur vermediği için karısı Fâtıma bint Safvân ile ikinci muhacir kafilesine katılarak Habeşistan’a hicret etti; karısı Fâtıma orada vefat etti. İlk müslümanlardan olan kardeşi Hâlid b. Saîd, daha önce birinci kafileyle birlikte Habeşistan’a gitmişti. O zamanlar henüz müslüman olmayan diğer kardeşi Ebân’ın İslâmiyet’i kabul eden bu iki kardeşi hakkında üzüntüsünü dile getirmek üzere söylediği şiire Amr b. Saîd’in cevap mahiyetindeki mısraları hemen bütün kaynaklarda mevcuttur. İki kardeş hicretin 7. yılında, diğer sahâbîlerle birlikte Medine’ye döndüklerinde Peygamber’in Hayber’de bulunduğunu öğrenerek oraya gittiler. Amr, “Muhammedün resûlullah” yazılı bir yüzüğü Hz. Peygamber’e takdim etti. Vefat ettiği sırada Peygamber’in parmağında bulunan bu yüzüğü ilk üç halife de kullanmış, fakat Hz. Osman Eris Kuyusu’na düşürmüştür. Mekke’nin fethinde, Huneyn, Tâif ve Tebük gazvelerinde bulunan Amr, Hz. Peygamber tarafından Hayber, Tebük, Fedek ve Vâdilkurâ gibi yerlere zekât memuru ve vali olarak gönderildi. Halife Ebû Bekir devrinde her üç kardeş Suriye savaşlarına katıldılar ve Bizanslılar’a karşı yapılan Ecnâdeyn Savaşı’nda şehid oldular. Bu savaşta Amr üstün hitabetiyle müslümanları teşvik etmiş, kendisi de kahramanca dövüştükten sonra otuzdan fazla yara alarak şehid düşmüştü. Bazı kaynaklarda şahadetiyle ilgili ayrıntılı bilgi mevcuttur. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 90-91 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amr-b-said-b-as--sahabi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amr-b-said-b-as--sahabi, https://islamansiklopedisi.org.tr/amr-b-said-b-as--sahabi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amr-b-said-b-as--sahabi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amr-b-said-b-as--sahabi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amr-b-said-b-as--sahabi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Ümevî"
+  ],
+  "death_temporal": {
+    "start_ah": 13,
+    "start_ce": 634,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amr-b-said-b-as--sahabi, URL: https://islamansiklopedisi.org.tr/amr-b-said-b-as--sahabi || DİA death place: Hayber || DİA death-date string: (ö. 13/634) || Chunk count: 1",
+  "death_place": "iac:place-00013990"
+}

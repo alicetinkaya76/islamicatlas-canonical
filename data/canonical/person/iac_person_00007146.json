@@ -1,0 +1,115 @@
+{
+  "@id": "iac:person-00007146",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "SÜLEYMAN b. BİLÂL",
+      "ar": "سليمان بن بلال"
+    },
+    "originalScript": {
+      "ar": "سليمان بن بلال"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Süleymân b. Bilâl et-Teymî"
+      ]
+    },
+    "description": {
+      "tr": "100 (718) yılı civarında doğdu. Berberî soyundan gelmiş olup Hz. Ebû Bekir’in torunlarından Abdullah b. Muhammed b. Abdurrahman’ın veya Kāsım b. Muhammed’in mevlâsı olduğu için Teymî ve Kureşî nisbeleriyle, ayrıca Ebû Eyyûb künyesiyle de anılmıştır. Hadis hâfızı Süleyman b. Bilâl, Ca‘fer es-Sâdık, Basralı zâhid Habîb el-Acemî, Rebîatürre’y, Humeyd et-Tavîl, Zeyd b. Eslem, Yahyâ b. Saîd el-Ensârî, Abdullah b. Dînâr, Sâlih b. Keysân, Hişâm b. Urve, Mûsâ b. Ukbe gibi şahsiyetlerden hadis rivayet etti. Yahyâ b. Saîd el-Ensârî’den en çok onun rivayette bulunduğu belirtilmektedir. Kendisinden az sayıda hadis rivayet eden oğlu Eyyûb’dan başka Abdullah b. Mübârek, Ka‘nebî, İbn Vehb, İsmâil b. Ebû Üveys, Saîd b. Ufeyr, Yahyâ b. Sâlih, ensâb âlimi ve tarihçi İbn Zebâle gibi âlim ve muhaddisler rivayette bulundu. Abdurrahman b. Mehdî ondan daha çok hadis rivayet etmediği için pişmanlık duyduğunu söylemiştir. Rivayetleri Kütüb-i Sitte ’de yer alan ve çok hadis rivayet ettiği kaydedilen Süleyman b. Bilâl imam, müftü, hâfız gibi unvanlarla anılmış; İbn Sa‘d, Yahyâ b. Maîn, Ahmed b. Hanbel, Nesâî, Ebü’l-Hasan el-İclî, Ebû Hâtim er-Râzî gibi hadis münekkitleri onun sika olduğunu söylemiştir. Medine’de fetva verdiği, aynı zamanda şehrin arazi vergilerini (haraç) topladığı ve Medine muhtesibi olduğu kaydedilmektedir. Süleyman b. Bilâl tercih edilen görüşe göre 172’de (788) Medine’de vefat etti. Bu tarih 177 (793) olarak da zikredilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 38. cildinde, 81-82 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:suleyman-b-bilal",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=suleyman-b-bilal, https://islamansiklopedisi.org.tr/suleyman-b-bilal",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:suleyman-b-bilal",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/suleyman-b-bilal",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:59Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:59Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:59Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=suleyman-b-bilal (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Teymî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 100,
+    "start_ce": 718,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 172,
+    "start_ce": 788,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=suleyman-b-bilal, URL: https://islamansiklopedisi.org.tr/suleyman-b-bilal || DİA death place: Medine || DİA death-date string: (ö. 172/788) || DİA categories: rivayet > hadis > fetva || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001673",
+    "iac:person-00002962",
+    "iac:person-00003438",
+    "iac:person-00003506",
+    "iac:person-00005838",
+    "iac:person-00006380",
+    "iac:person-00007655",
+    "iac:person-00007838"
+  ],
+  "students": [
+    "iac:person-00000524",
+    "iac:person-00004072",
+    "iac:person-00004090",
+    "iac:person-00004559",
+    "iac:person-00004713",
+    "iac:person-00006613",
+    "iac:person-00007657",
+    "iac:person-00007660"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "@id": "iac:person-00000707",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ADÎ b. ZEYD",
+      "ar": "عديّ بن زيد"
+    },
+    "originalScript": {
+      "ar": "عديّ بن زيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Adî b. Zeyd b. Hammâd el-İbâdî et-Temîmî"
+      ]
+    },
+    "description": {
+      "tr": "Milâdî 550 yılı civarında Hîre’de doğdu. Aslen Temîm kabilesinden olup Yemen’den Hîre’ye göçmüş hıristiyan bir aileye mensuptur. Dedesi ve babası, Hîre ve çevresinde hüküm süren Sâsânî Krallığı’na bağlı Lahmî hânedanının hizmetinde bulundu. Adî de Medâin’de Sâsânî sarayında tahsil ve terbiye gördü, bu sırada Farsça’yı da öğrendi. Hem Arapça’yı, hem de Farsça’yı konuşup yazabildiği için Kisrâ Hürmüz’ün (579-590) ve bilhassa Hüsrev Pervîz’in (590-628) Arapça yazışmalarında kâtiplik ve mütercimlik yaptı. Hatta bir ara Sâsânî sarayını temsilen Bizans’a elçi olarak gönderildiği (579) ve dönüşünde Şam’a uğradığı da nakledilir. Hayatı Hîre ve Medâin saraylarında geçen Adî b. Zeyd, Hîre hükümdarı olmasına yardım ettiği III. Nu‘mân’ın (580-602) kızı Hind’le evlenerek hükümdarın en yakın nedimi oldu. Adî’nin Hîre sarayındaki nüfuz ve itibarını kıskananlar, İran’ın çıkarlarını Araplar’ınkine tercih ettiğini ileri sürerek onun III. Nu‘mân’ın gözünden düşmesine ve hatta hükümdarın emriyle hapsedilerek boğdurulmasına sebep oldular. Adî b. Zeyd’in öldürülmesinin Sâsânîler ile Lahmîler’in arasını açtığı, sonunda Lahmî hânedanının çöküşünü hızlandırdığı rivayet edilir. Bedevî hayatından koparak yabancı tesirlere açık bir çevrede yetiştiği için, hicrî ikinci ve üçüncü asır dil ve edebiyat âlimleri Adî b. Zeyd’in dilini fasih saymamış ve eserlerinde şiirlerini örnek (şâhid) olarak göstermemişlerdir. Mufaddal ile Asmaî’nin meşhur şiir mecmualarında onun şiirlerine yer verilmemesinin asıl sebebi de bu olmalıdır. Tema olarak dünya hayatının fâniliğini işlediği şiirlerinin daha sonraki şairlere tesir ettiği söylenmektedir. Kolay anlaşılır bir dil kullanan Adî’nin en başarılı şiirleri şaraba dair olanlarıdır. Hicrî üçüncü yüzyıl filologlarından Sükkerî tarafından düzenlenen divanının yazmaları elde edilemediği için, L. Şeyho, Şuʿarâʾü’n-Naṣrâniyye adlı eserinde (s. 439-474) Adî’nin belli başlı kaynaklardaki 400 kadar beytini bir araya toplamıştı. Fakat eser daha sonra bulunmuş ve 1965’te Muhammed Cebbâr el-Muaybid tarafından Bağdat’ta neşredilmiştir. Ancak, hem L. Şeyho tarafından derlenen beyitleri hem de divanındaki şiirleri arasında kendisine nisbeti şüpheli olanlar vardır. Bağdatlı Mehmed Fehmî onun “Dâliyye”si ile şiirlerinden bazı parçaları Târîh-i Edebiyyât-ı Arabiyye adlı eserinde (s. 370-390) Türkçe’ye tercüme etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 382 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:adi-b-zeyd",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=adi-b-zeyd, https://islamansiklopedisi.org.tr/adi-b-zeyd",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-05-04T15:32:45Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=adi-b-zeyd (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "İbâdî; Temîmî"
+  ],
+  "death_temporal": {
+    "start_ce": 600,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=adi-b-zeyd, URL: https://islamansiklopedisi.org.tr/adi-b-zeyd || DİA birth place: Hîre || DİA death-date string: (ö. 600 civarı) || DİA categories: rivayet > şiir || Chunk count: 1"
+}

@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00000303",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Zarqali",
+      "tr": "Zerkâlî (Azarchel)",
+      "ar": "الزرقالي"
+    },
+    "originalScript": {
+      "ar": "الزرقالي"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Ishaq Ibrahim ibn Yahya al-Zarqali"
+      ],
+      "tr": [
+        "Ebû İshâk İbrâhîm b. Yahyâ ez-Zerkâlî"
+      ],
+      "ar": [
+        "أبو إسحاق إبراهيم بن يحيى الزرقالي"
+      ]
+    },
+    "description": {
+      "tr": "Ortaçağ Avrupa'sının en etkili astronomi tabloları olan Toledo Tablolarını oluşturdu — 200 yıl kullanıldı — ve evrensel usturlabı (safîha) icat etti || Zerkâlî, Toledo'dan orijinal gözlemlerle Batlamyus'un verilerini düzeltti. || [Tarih notu] Kopernik onu 'Arzachel' olarak andı — Kopernik devrimine en doğrudan bağlı İslam astronomlarından biri.",
+      "en": "Created the Toledan Tables — the most influential astronomical tables in medieval Europe, used for 200 years — and invented the universal astrolabe (saphaea) || al-Zarqali corrected Ptolemy's data through original observations from Toledo. His discovery that the solar apogee moves slowly was confirmed by Copernicus 400 years later. || [Historiographical note] Copernicus cited him as 'Arzachel' — one of the Islamic astronomers most directly connected to the Copernican revolution.",
+      "ar": "أنشأ جداول طليطلة الأكثر تأثيراً في أوروبا الوسيطة واخترع الأسطرلاب الشامل || صحح الزرقالي بيانات بطليموس بملاحظات أصلية من طليطلة"
+    }
+  },
+  "profession": [
+    "astronomer",
+    "scholar",
+    "mathematician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0120",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0120",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:27Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:27Z",
+    "modified": "2026-05-04T14:58:27Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0120 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1029,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1087,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q11133",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Zarqali')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0120, lecture_week=n/a. || Key works: {'title': {'en': 'Toledan Tables (Zīj al-Zarqālī)', 'tr': \"Toledo Zîci (Zîcü'z-Zerkâlî)\", 'ar': 'زيج الزرقالي (جداول طليطلة)'}, 'year': 1080, 'field': 'astronomy', 'significance': {'en': 'Most influential astronomical tables in medieval Europe — used for 200 years as the basis of European astronomical calculations', 'tr': \"Ortaçağ Avrupa'sının en etkili astronomi tabloları — 200 yıl boyunca Avrupa astronomik hesaplamalarının temeli olarak kullanıldı\"}} || Modern parallel: Like a scientist whose observation tables become the GPS of an entire continent for two centuries.",
+  "authored_works": [
+    "iac:work-00000160"
+  ]
+}

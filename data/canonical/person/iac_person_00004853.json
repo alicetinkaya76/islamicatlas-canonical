@@ -1,0 +1,82 @@
+{
+  "@id": "iac:person-00004853",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KEMÂLEDDÎN-i HÂRİZMÎ",
+      "ar": "كمال الدين خوارزمى"
+    },
+    "originalScript": {
+      "ar": "كمال الدين خوارزمى"
+    },
+    "altLabel": {
+      "tr": [
+        "Kemâlüddîn Hüseyn b. Hasen-i Hârizmî-yi Kübrâvî-yi Zehebî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Mâverâünnehirli olup daha çok Hârizm’de oturduğu için Hârizmî nisbesiyle tanınmıştır. Bazı kaynaklarda Necmeddîn-i Kübrâ’nın soyundan geldiği, bu sebeple Kübrâvî nisbesini aldığı kaydedilmektedir (Ali Şîr Nevâî, s. 10). Küçük yaşta Mâverâünnehir’in ünlü şeyhlerinden Ebü’l-Vefâ-yi Hârizmî’ye intisap eden Kemâleddin ondan Mevlânâ Celâleddîn-i Rûmî’nin Mes̱nevî ’sini okudu. Bir şiirinden dolayı Hanefî fakihleri tarafından tekfir edilerek Şâhruh’a şikâyet edildi. Şâhruh’un fermanıyla Herat’a getirilen Kemâleddin, kendisini tekfir edenlerle yaptığı tartışmadaki savunması üzerine Hârizm’e dönmesine izin verildi. Özbekler’in 836 (1433) veya 840’ta (1436) Hârizm’deki ayaklanmaları sırasında öldürüldü ve şeyhi Ebü’l-Vefâ-yi Hârizmî’nin kabri yanına gömüldü. Eserleri. 1. Yenbûʿu’l-esrâr fî neṣâyiḥi’l-ebrâr . Ahlâkî konuları içeren eserin mukaddimesinde müellif dönemin hükümdarından da faydalandığını kaydeder. Bu hükümdarın huzurunda ilmî tartışmaya giriştiği Şâhruh olması mümkündür. Eserin bir nüshası Tahran’da Meclis-i Şûrâ-yı Millî Kütüphanesi’nde bulunmaktadır (nr. 591). 2. Cevâhirü’l-esrâr ve zevâhirü’l-envâr . Mevlânâ Celâleddîn-i Rûmî’nin Mes̱nevî ’sinin ilk üç cildinin şerhi olup on bölümlük bir önsözle başlar. Birinci bölümde Hz. Ali ile Necmeddîn-i Kübrâ’ya kadar otuz bir sûfînin hal tercümesi ve Mevlânâ’nın tarikat şeceresi hakkında bilgi verilmiş, ikinci bölümde bazı tasavvuf terimleri açıklanmış, diğer bölümlerde tasavvufla ilgili konular üzerinde durulmuştur. Kemâleddin eseri şerhederken bazan secili ifadelere yer vermekle birlikte genellikle sade bir dil kullanmıştır. Eser taş basması olarak üç cilt halinde Leknev’de basılmış (1312/1894), ayrıca Cevâd Şerîat tarafından yayımlanmıştır (İsfahan 1361 hş.). 3. Keşfü’l-hüdâ . Bûsîrî’nin Ḳaṣîdetü’l-bürde ’sinin Hârizm Türkçesi ile yapılmış şerhi olup bilinen tek nüshası Berlin’deki Staatsbibliothek Preußischer Kulturbesitz’de (nr. 1688) bulunmaktadır (Götz, s. 531). Özbek Ebülhayr Han’a ithaf edilen eser üzerinde Devin A. Deweese neşir, tercüme ve tarihsel bir girişle Indiana Üniversitesi’nde tez çalışması yapmıştır. 4. Künûzü’l-ḥaḳāʾiḳ fî rumûzi’d-deḳāʾiḳ . Kemâleddin’in müridlerinin isteği üzerine yazdığı tasavvufa dair bu manzum eser Keşfü’ẓ-ẓunûn ’da (II, 1805-1806) mensur olarak gösterilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2022 yılında Ankara’da basılan 25. cildinde, 233 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kemaleddin-i-harizmi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kemaleddin-i-harizmi, https://islamansiklopedisi.org.tr/kemaleddin-i-harizmi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:kemaleddin-i-harizmi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=kemaleddin-i-harizmi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:33Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kemaleddin-i-harizmi (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=kemaleddin-i-harizmi)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 836,
+    "start_ce": 1433,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kemaleddin-i-harizmi, URL: https://islamansiklopedisi.org.tr/kemaleddin-i-harizmi || DİA death-date string: (ö. 836/1433 veya 840/1436) || DİA categories: tasavvuf > tarikat > şiir || Chunk count: 1"
+}

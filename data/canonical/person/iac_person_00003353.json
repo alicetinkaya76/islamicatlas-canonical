@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00003353",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hayreddin Mar‘aşî"
+    },
+    "description": {
+      "tr": "Hüseyin Hüsâmeddin Efendi’nin verdiği bilgiye göre gençliğinde ilim tahsili için gittiği Amasya’da zamanın en kudretli hattatı olan Edirneli Yahyâ Sûfî’den aklâm-ı sitteyi meşkederek icâzet aldı ( Amasya Târihi , IX, 499-500). Müstakimzâde onu Abdullah-ı Sayrafî’nin (ö. 745/1344-45’ten sonra) talebesi olarak gösterir ( Tuhfe , s. 199-200); ancak bu tarih bakımından mümkün değildir. Divan kâtipliğini yaptığı Amasya Valisi Şehzade Alâeddin Bey’in vefatından sonra zamanını Amasya’da talebelere yazı meşkederek geçiren Hayreddin Mar‘aşî’nin 876 (1472) yılının sonuna doğru vefat ettiği tahmin edilmektedir. Hayreddin Mar‘aşî’nin müze ve kütüphanelerde herhangi bir yazısına rastlanmamıştır. Hüseyin Hüsâmeddin Efendi onun Halîl b. Hasan ve Hayreddin Halil Mar‘aşî şeklindeki imzalarını, Müstakimzâde ise 874 (1470) tarihli bir yazısını gördüğünü yazmaktadır. Osmanlı hat sanatında yeni üslûp arayışları Fâtih Sultan Mehmed devrinde ve II. Bayezid’in Amasya valiliği sırasında başlamış, Hayreddin Mar‘aşî, Celâl, Muhyiddin ve Cemal Amâsî, Abdullah Amâsî ve Şeyh Hamdullah gibi hattatlar etrafında geniş bir hat sanatı muhiti teşekkül etmiştir. Bu sanatkârlar, aklâm-ı sittenin harf ve terkip itibariyle güzelleşip gelişmesi için büyük gayret sarfetmişlerdir. Yâkūt el-Müsta‘sımî’den sonra aklâm-ı sittede ve bilhassa sülüs ve nesih yazılarda İslâm dünyasında uzun süre devam edecek olan Osmanlı hat üslûbunun esaslarını ortaya koyarak yeni bir çığır açan Şeyh Hamdullah Hayreddin Mar‘aşî’nin talebesidir. Hayreddin Mar‘aşî’nin yetiştirdiği diğer talebeler arasında yer alan Muhyiddin Köseç ve Seyyid İbrâhim de Fâtih devrinin meşhur hattatlarındandır. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 17. cildinde, 57 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hayreddin-marasi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hayreddin-marasi, https://islamansiklopedisi.org.tr/hayreddin-marasi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:14Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hayreddin-marasi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 876,
+    "start_ce": 1472,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hayreddin-marasi, URL: https://islamansiklopedisi.org.tr/hayreddin-marasi || DİA death place: Amasya || DİA death-date string: (ö. 876/1472 [?]) || Chunk count: 1",
+  "death_place": "iac:place-00015105",
+  "students": [
+    "iac:person-00003122"
+  ]
+}

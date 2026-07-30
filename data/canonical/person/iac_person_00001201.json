@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00001201",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ATÛFÎ, Hayreddin Hızır"
+    },
+    "description": {
+      "tr": "Kaynaklarda Kastamonî ve Merzifonî nisbeleriyle yer alan Atûfî’nin babasının adı Mahmud’dur. Aslen Merzifonlu olduğunu bizzat kendisi bazı eserlerinde belirtmiştir. Kastamonî nisbesinin hangi sebeple kullanıldığı hakkında bilgi elde edilememiştir. Devrinin tanınmış âlimlerinden Bahşı Halife’den tefsir ve hadis, Amasyalı Mevlânâ Abdî’den ilm-i meânî, Kadızâde’nin torunu meşhur riyâziyeci Kutbüddin Muhammed’den riyâziye, Bursalı Mevlânâ Hocazâde’den usul ve Efdalzâde’den fıkıh okudu. İlmî şöhretinden dolayı Sultan II. Bayezid onu saray hizmetlilerine hoca tayin etti. Bir müddet sonra İstanbul camilerinde vaaz edip tefsir okutmayı daha faydalı görerek saraydaki görevinden ayrıldı. Günde 50 akçe ücretle başladığı bu yeni görevinde zamanla günde 80 akçe ücrete kadar terfi etti. Daha sonra bu görevi de bırakarak evine çekildi ve kitap telifiyle meşgul oldu. Atûfî Eyüp’te vefat etti ve kendi evinin civarına defnedildi. Tefsir, hadis, tıp, mantık ve kelâm ilimlerine dair çoğu şerh ve hâşiye mahiyetinde olmak üzere on beş kadar kitap yazan Atûfî’nin belli başlı eserleri şunlardır: 1. Ḥâşiye ʿalâ Tefsîri Keşşâf (Süleymaniye Ktp., Şehid Ali Paşa, nr. 263). 2. Ḥâşiye ʿalâ Tefsîri Beyżâvî (Süleymaniye Ktp., Beşir Ağa, nr. 25). 3. Keşfü’l-Meşâriḳ . Radıyyüddin es-Sâgānî’nin hem Ṣaḥîḥ-i Buḫârî hem de Ṣaḥîḥ-i Müslim ’de bulunan hadisleri bir araya getirdiği Meşâriḳu’l-envâri’n-nebeviyye adlı eserinin şerhidir. Bu eserin müellif hattıyla 516 varaklık yegâne nüshası Hacı Selim Ağa Kütüphanesi’nde bulunmaktadır (nr. 230). 4. el-Cevheretü’l-cinâniyye fî mesâʾili’l-îmâniyye (TSMK, III. Ahmed, nr. 607). 5. el-Enẓâr fî şerḥi baʿżi’l-eḥâdîs̱ ve’l-âs̱âr . Meşâriḳ şerhinden müellifin bizzat yaptığı seçmelerden meydana gelen bir eserdir (Süleymaniye Ktp., Şehzade Mehmed, nr. 8/1). 6. Mirʾâtü’r-rüʾyâ . Hz. Peygamber’in, “Rüyada beni gören gerçekten görmüştür; çünkü şeytan benim suretime giremez” (Buhârî, “ʿİlim”, 38, “Edeb”, 109, “Taʿbîr”, 10; Müslim, “Rüʾyâ”, 4, 7) meâlindeki hadisinin şerhinden ibarettir. Kaynaklarda zikredilen bu eserin herhangi bir nüshasına henüz rastlanmamıştır. 7. Ravżü’l-insân fî tedâbîri’l-ebdân (Süleymaniye Ktp., Fâtih, nr. 3569). Tıpla ilgili hadislerin şerhine dairdir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 99-100 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:atufi-hayreddin-hizir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=atufi-hayreddin-hizir, https://islamansiklopedisi.org.tr/atufi-hayreddin-hizir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:atufi-hayreddin-hizir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/atufi-hayreddin-hizir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=atufi-hayreddin-hizir (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 948,
+    "start_ce": 1541,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=atufi-hayreddin-hizir, URL: https://islamansiklopedisi.org.tr/atufi-hayreddin-hizir || DİA death place: Eyüp || DİA death-date string: (ö. 948/1541) || DİA categories: hadis > tefsir > matematik || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00019750"
+  ],
+  "teachers": [
+    "iac:person-00003133"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00002765",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FEYZULLAH EFENDİ, Damadzâde"
+    },
+    "description": {
+      "tr": "Şeyhülislâm Damadzâde Ahmed Efendi’nin oğlu olup babasının Bursa kadılığı sırasında 1112’de (1700) bu şehirde doğdu. Dedesi Kazasker Mustafa Râsih Efendi’nin Şeyhülislâm Minkārîzâde Yahyâ Efendi’ye damat olması sebebiyle hem babası hem de kendisi “Damadzâde” lakabı ile tanınır. Tahsilini tamamlayıp müderrislik ruûsunu aldıktan sonra ailesinin nüfuzu ile müderrislikleri süratle atlayıp kadılık mesleğine geçti ve 1143’te (1730) otuz yaşında iken önce Galata, ardından aynı yıl içinde Bursa kadısı oldu. İstanbul kadılığı pâyesini aldıktan sonra 1739’da Anadolu kazaskerliğine getirildi; dokuz aylık bir görevin ardından on yıl süren uzun bir mâzuliyet dönemi yaşadı. Bunda babasının ölmüş olmasının rolü bulunduğu anlaşılmaktadır. 1750 ve 1754 yıllarında iki defa Rumeli kazaskeri oldu. Yine bir süre mâzuliyet hayatı yaşadıktan sonra 27 Şâban 1168 (8 Haziran 1755) tarihinde Vassâf Abdullah Efendi’nin yerine şeyhülislâm tayin edildi. On dört ay kadar süren bu birinci meşihatından 28 Şevval 1169’da (26 Temmuz 1756) azledildi. Herhangi bir sebebin belirtilmediği bu azil için tarihçi Ahmed Vâsıf Efendi sadece “muktezâ-yı hâl” demektedir. Sekiz aylık mâzuliyetin ardından Dürrizâde Mustafa Efendi’nin yerine 28 Cemâziyelevvel 1170’te (18 Şubat 1757) ikinci defa meşihat makamına getirildi. Bir yıla yakın bir süre bu görevde kaldıktan sonra ulemâ ve saray erkânının aleyhindeki faaliyetleri sonucunda 16 Cemâziyelevvel 1171 (26 Ocak 1758) tarihinde görevden alındı. III. Osman zamanındaki toplam meşihatı iki yıl yirmi dört gündür. Dürüstlüğü ile tanınan Feyzullah Efendi’nin, şeyhülislâmlığı zamanında müderrislerin ruûs imtihanlarında çok titiz davrandığı ve bu durumun himaye ve iltimas sebebiyle haksızlığa uğramış olan ulemâyı memnun ettiği belirtilir. Tıp ve matematikle de ilgilenen Feyzullah Efendi aynı zamanda bestekârdır, ancak günümüze herhangi bir bestesi ulaşmamıştır. Mâzuliyet günlerini Sütlüce’deki konağında geçirdikten sonra 30 Cemâziyelevvel 1175’te (27 Aralık 1761) vefat edince burada yaptırdığı dergâha defnedildi. Oğlu Rumeli Kazaskeri Damadzâde Murad Molla İstanbul Çarşamba’da kendi adıyla anılan bir kütüphane kurmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 525-526 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:feyzullah-efendi-damadzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=feyzullah-efendi-damadzade, https://islamansiklopedisi.org.tr/feyzullah-efendi-damadzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:feyzullah-efendi-damadzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/feyzullah-efendi-damadzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=feyzullah-efendi-damadzade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1175,
+    "start_ce": 1761,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=feyzullah-efendi-damadzade, URL: https://islamansiklopedisi.org.tr/feyzullah-efendi-damadzade || DİA death place: 1175 || DİA death-date string: (ö. 1175/1761) || DİA categories: tıp > matematik || Chunk count: 1"
+}

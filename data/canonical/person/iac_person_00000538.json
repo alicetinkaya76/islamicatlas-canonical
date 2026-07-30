@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00000538",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. SÂİB",
+      "ar": "عبد الله بن السائب"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن السائب"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdirrahmân Abdullāh b. es-Sâib b. Ebi's-Sâib Sayfî el-Mahzûmî"
+      ]
+    },
+    "description": {
+      "tr": "Küçük yaşta Hz. Peygamber’i görenlerdendir. Babası Sâib, Câhiliye devrinde ticaretle uğraştığı sıralarda Resûlullah’ın ortağıydı. Kıraati arz yoluyla Übey b. Kâ‘b ve Hz. Ömer’den öğrendi; kendisinden de Mücâhid ve kıraat imamlarından İbn Kesîr kıraat tahsil etti. İbn Ebû Müleyke, Atâ, oğlu Muhammed b. Abdullah kendisinden hadis rivayet etmişlerdir. Mekkeliler, Mekke’den yetişen bir kāri olarak onunla iftihar ederlerdi. Rivayet ettiği hadisler Kütüb-i Sitte ’de ve Ahmed b. Hanbel’in el-Müsned ’inde yer almıştır. Abdullah b. Zübeyr’in hilâfeti döneminde Mekke’de vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 131 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-saib",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-saib, https://islamansiklopedisi.org.tr/abdullah-b-saib",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-05-04T15:32:39Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-saib (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mahzûmî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 70,
+    "start_ce": 689,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-saib, URL: https://islamansiklopedisi.org.tr/abdullah-b-saib || DİA death place: Mekke || DİA death-date string: (ö. 70/689-90) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

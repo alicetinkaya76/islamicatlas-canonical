@@ -1,0 +1,112 @@
+{
+  "@id": "iac:person-00001348",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bâtirkānî",
+      "ar": "الباطرقاني"
+    },
+    "originalScript": {
+      "ar": "الباطرقاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Ahmed b. el-Fazl b. Muhammed b. Ahmed el-Bâtırkānî"
+      ]
+    },
+    "description": {
+      "tr": "372’de (982) İsfahan’ın Bâtırkān köyünde doğdu. Kıraat ilmini muhtelif rivayetleriyle Ebü’l-Fazl Muhammed b. Ca‘fer el-Huzâî ve Muhammed b. Abdülazîz el-Kisâî’den öğrendi. Ebû Abdullah İbn Mende, Dârekutnî’nin talebesi Muhammed b. İbrâhim b. Ahmed, Abdülazîz b. Ebû Bekir Muhammed et-Temîmî, Muhammed b. İbrâhim el-Yezdî, Ebû Müslim ibn Şehdel el-İsfahânî ve Ahmed b. Yûsuf es-Sekafî de onun diğer hocaları arasında zikredilir. Ebü’l-Kāsım el-Hüzelî ile Ebû Ali el-Haddâd ise arz yolu ile kendisinden kıraat okumuşlardır. Ondan hadis rivayet edenler arasında Ebû Muhammed Abdülazîz b. Muhammed en-Nahşebî, Ebû Ali Hasan b. Ali el-Vahşî ve Ebû Abdullah Muhammed b. Abdülvâhid ed-Dekkāk gibi o devrin hadis hâfızları da vardır. Ebû Zekeriyyâ ibn Mende onun pek çok hocadan hadis öğrenip birçok talebeye hadis rivayet ettiğini belirtmekte ve başka konularla uğraşmayıp yalnız hadis ve kıraat tedrisiyle yetinseydi daha faydalı olacaktı demektedir. Öğrencisi Dekkāk da İsfahan’da Kur’an ve kıraat ilimleriyle hadis sahasında ondan daha muhtevalı bir âlim görmediğini beyan etmektedir. Bâtırkānî İsfahan’da Câmi-i Kebîr’de uzun yıllar imamlık yaptı ve 22 Safer 460 (1 Ocak 1068) tarihinde orada vefat etti. Eserleri. Kendi güzel hattı ile muhtelif eserler yazdığı anlaşılan Ebû Bekir el-Bâtırkānî’nin kıraate dair Kitâbü’ş-Şevâz ve Ṭabaḳātü’l-ḳurrâʾ diye de bilinen el-Medḫal ilâ maʿrifeti esânîdi’l-ḳırâʾât ve mecmûʿi’r-rivâyât adlı eserleri ile Ṣaḥîḥ-i Buḫârî ’deki hadisleri müsned tertibine koyduğu bir kitabı vardır. Hadislerin metinlerini Ṣaḥîḥ-i Buḫârî ’den alıp ona kendi senedlerini ilâve ettiği benzerine pek rastlanmayan bu çalışması yadırganmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 195 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:batirkani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=batirkani, https://islamansiklopedisi.org.tr/batirkani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:batirkani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=batirkani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:924",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=924, heading_ar=الباطرقاني",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:39Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=batirkani (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[924]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=batirkani)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=924 (heading_ar=الباطرقاني) via Track A (DİA→Alam xref bridge). dt=Çağının kâri başı (kıraat şeyhi)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bâtırkānî"
+  ],
+  "death_temporal": {
+    "start_ah": 460,
+    "start_ce": 1068,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=batirkani, URL: https://islamansiklopedisi.org.tr/batirkani || El-Aʿlām (Ziriklī) cross-reference: alam_id=[924] || DİA birth place: Bâtırkān || DİA death place: Kebîr || DİA death-date string: (ö. 460/1068) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=924, heading_ar=الباطرقاني, dt=Çağının kâri başı (kıraat şeyhi).",
+  "birth_place": "iac:place-00001366",
+  "teachers": [
+    "iac:person-00003936"
+  ]
+}

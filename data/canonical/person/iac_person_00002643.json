@@ -1,0 +1,58 @@
+{
+  "@id": "iac:person-00002643",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Fağnevî",
+      "ar": "فغنوى"
+    },
+    "originalScript": {
+      "ar": "فغنوى"
+    },
+    "description": {
+      "tr": "VI. (XII.) yüzyılda önemli bir dinî kültür merkezi olan Buhara yakınlarındaki Vâbkîne (Vâbkene) kasabasının İncirfağne köyünde doğdu. Asıl adı Mahmud’dur. Genç yaşlarında yerleştiği Vâbkîne’de sıvacılık yaparak hayatını kazanmaya başladı. Hâcegân silsilesinden Ârif-i Rîvgerî ile tanışıp kısa zamanda onun en seçkin müridi ve birinci halifesi oldu. Doğduğu yere nisbetle Fağnevî nisbesiyle tanındı. Rîvgerî ölüm döşeğinde iken onun iznini alarak Hâcegân silsilesinde ilk defa zikr-i alenîyi (cehrî zikir) icra etmeye başladı. Şeyhinin ölümünden sonra kendi müridleriyle birlikte bir camide aynı usul üzere zikir yaptı. Zamanın büyük âlimlerinden Mevlânâ Hafîzüddin bu işe niçin teşebbüs ettiğini sorduğunda Fağnevî, “Uyumuşların uyanarak, gafillerin şuurlanarak zikirle yola gelmeleri, şeriat ve tarikat caddesine girmeleri, bütün hayırların anahtarı ve saadetlerin aslı olan hakiki tövbe ve inâbete rağbet etmeleri için” şeklinde cevap vermişti. Bu cevabı beğenen Mevlânâ Hafîzüddin’in cehrî zikrin kime yaraştığını sorması üzerine de, “Dili yalan ve dedikodudan, midesi haram lokma ve şüpheli gıdadan, gönlü riya ve gösterişten ve sırrı Hak’tan gayrıya teveccühten pak olan kimseye münasiptir” demişti. Fağnevî’den sonra Bahâeddin Nakşibend’in ortaya çıkışına kadar bütün Hâcegân silsilesi müntesipleri cehrî zikir yapmaya devam etmişlerdir. Fağnevî, Emîr Kelân ve Mîrhord diye tanınan Mîr Hasan ve Mîr Hüseyin Vâbkenî kardeşlerle en önemli halifesi olan Ali Râmîtenî’yi yetiştirmiştir. Hâcegân silsilesi kendisinden sonra Hâce Azîzân diye de tanınan Ali Râmîtenî ile devam etmiştir. Vâbkîne’de vefat eden Fağnevî’nin ölümü için eski kaynaklarda bir tarihe rastlanmaz. Sonraki bazı eserlerde ölüm tarihi olarak 715 (1315-16) ve 717 (1317-18) yılları kaydedilmektedir. Ölümünden sonra beyaz bir kuş şeklinde görünmesi ona atfedilen kerametler arasındadır. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 73 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:fagnevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=fagnevi, https://islamansiklopedisi.org.tr/fagnevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:03Z",
+    "modified": "2026-05-04T15:34:03Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=fagnevi (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 715,
+    "start_ce": 1315,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=fagnevi, URL: https://islamansiklopedisi.org.tr/fagnevi || DİA birth place: İncirfağne || DİA death-date string: (ö. 715/1315-16 [?]) || DİA categories: tarikat || Chunk count: 1"
+}

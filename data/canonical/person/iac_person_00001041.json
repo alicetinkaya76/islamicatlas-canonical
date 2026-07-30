@@ -1,0 +1,144 @@
+{
+  "@id": "iac:person-00001041",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMR b. DÎNÂR",
+      "ar": "عمرو بن دينار",
+      "en": "Amr ibn Dinar"
+    },
+    "originalScript": {
+      "ar": "عمرو بن دينار"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Amr b. Dînâr el-Mekkî el-Cumahî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen İranlı olup 45 (665) veya 46 (666) yılında doğdu. Arap kabilelerinden Cumah’ın himayesine girmiş olmasından dolayı velâ yoluyla mevâlî dendir. Biri dışında bütün dişleri dökülmüş olduğu için el-Esrem lakabıyla anılır. Abâdile başta olmak üzere Câbir b. Abdullah, Ebû Hüreyre, Berâ b. Âzib gibi önde gelen sahâbîlerden; Saîd b. Müseyyeb, Saîd b. Cübeyr, Tâvûs, Mücâhid, İkrime, Vehb b. Münebbih, Atâ b. Ebû Rebâh, Atâ b. Yesâr ve Sâlim b. Abdullah gibi tâbiîn neslinin büyüklerinden hadis dinledi. Fıkıh ve hadiste temayüz etti. Atâ b. Ebû Rebâh’tan sonra Mekke’de fetva mercii olan ve Ali b. Medînî’nin, hadis sahasında eser veren ilk altı kişiden (İbn Şihâb, Amr b. Dînâr, Katâde b. Diâme, Yahyâ b. Ebû Kesîr, Ebû İshak, Süleyman b. Mihrân el-A‘meş) biri olarak zikrettiği Amr b. Dînâr’ın sika oluşu ve rivayetlerinin sıhhati konusunda hadis otoriteleri ittifak etmişlerdir. Süfyân b. Uyeyne ondan duyduğu bir hadisi başkasından duyacağı yirmi hadise tercih ettiğini söylerdi. Amr b. Dînâr eksik bırakılmaması şartıyla hadislerin mâna olarak naklini câiz görmüştür. Diğer taraftan, daha sonra değiştirebileceği endişesiyle kendi görüşlerinin yazılmasını istemezdi. Ca‘fer es-Sâdık, İmam Mâlik, Şu‘be, Katâde, İbn Cüreyc, İbn Ebû Necîh, Eyyûb es-Sahtiyânî, Süfyâneyn (Süfyân es-Sevrî ve Süfyân b. Uyeyne), Hammâdeyn (Hammâd b. Seleme ve Hammâd b. Zeyd) gibi büyük âlimler kendisinden rivayette bulunmuşlardır. Kaynaklarda, gerek fıkıh gerekse hadis konusunda akranlarının birçoğundan üstün olduğu belirtilen Amr b. Dînâr’a Şiîlik isnadında bulunulmuşsa da bu isnadın gerçekle bir ilgisi yoktur. 126 (veya 125) yılında seksen yaşlarında iken vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 83 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "Greatest muhaddith of Mecca. Narrated from Ibn Abbas and Jabir ibn Abdullah. The most used Meccan narrator by Bukhari.",
+      "ar": "أكبر محدثي مكة. يروي عن ابن عباس وجابر بن عبد الله. أكثر الرواة المكيين استعمالا عند البخاري."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amr-b-dinar",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amr-b-dinar, https://islamansiklopedisi.org.tr/amr-b-dinar",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "scholars:313",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=313",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "el-alam:7830",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=7830, heading_ar=عمرو بن دينار",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amr-b-dinar (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[7830]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 0.99): gap-filled ['prefLabel.en', 'description.en', 'description.ar']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=7830 (heading_ar=عمرو بن دينار) via Track A (DİA→Alam xref bridge). dt=Fakih, Mekke halkının müftüsü idi"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mekkî; Cumahî"
+  ],
+  "birth_temporal": {
+    "start_ah": 46,
+    "start_ce": 666,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 126,
+    "start_ce": 744,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amr-b-dinar, URL: https://islamansiklopedisi.org.tr/amr-b-dinar || El-Aʿlām (Ziriklī) cross-reference: alam_id=[7830] || DİA death-date string: (ö. 126/744 [?]) || DİA categories: hadis > fıkıh > isnâd || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=7830, heading_ar=عمرو بن دينار, dt=Fakih, Mekke halkının müftüsü idi",
+  "active_in_places": [
+    "iac:place-00007652",
+    "iac:place-00011505"
+  ],
+  "teachers": [
+    "iac:person-00001067",
+    "iac:person-00001461",
+    "iac:person-00001654",
+    "iac:person-00001656",
+    "iac:person-00002188",
+    "iac:person-00003753",
+    "iac:person-00004448",
+    "iac:person-00006607",
+    "iac:person-00006610"
+  ],
+  "students": [
+    "iac:person-00002968",
+    "iac:person-00003142",
+    "iac:person-00003576",
+    "iac:person-00005217",
+    "iac:person-00007106",
+    "iac:person-00007121",
+    "iac:person-00007122",
+    "iac:person-00007580",
+    "iac:person-00007836"
+  ]
+}

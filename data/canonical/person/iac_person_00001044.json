@@ -1,0 +1,120 @@
+{
+  "@id": "iac:person-00001044",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMR b. HÂRİS",
+      "ar": "عمرو بن الحارث"
+    },
+    "originalScript": {
+      "ar": "عمرو بن الحارث"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ümeyye Amr b. el-Hâris b. Ya‘kūb el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "90 (708-709) yılında Medine’de doğması sebebiyle Medenî, meşhur sahâbî Sa‘d b. Ubâde’nin oğlu Kays’ın mevlâ sı olduğu için de Sa‘dî nisbeleriyle anılır. Abdullah b. Abbas’ın torunu ve Halife Mansûr’un amcası olan Emîr Sâlih b. Ali, çocuklarına muallimlik etmesi için onu Mısır’a götürdüğü ve orada yerleşip kaldığı için de Mısrî nisbesini almıştır. İlk zamanlar fakir iken bu görevi sebebiyle sonraları servet sahibi olup refaha kavuştu. İbn Şihâb ez-Zührî, Katâde b. Diâme, Rebîatürre’y, Hişâm b. Urve gibi birçok muhaddisten hadis öğrendi ve çok geçmeden meşhur bir muhaddis oldu. Hocaları Katâde ve Bükeyr b. Abdullah ondan hadis rivayet ettiler. Ayrıca yaşça kendisinden büyük olan Mücâhid b. Cebr ve Sâlih b. Keysân’dan başka Mâlik b. Enes, Leys b. Sa‘d’a da hadis rivayet etti. Talebesi meşhur muhaddis Abdullah b. Vehb, 370 hocadan hadis rivayet ettiğini, fakat bunların arasında Amr b. Hâris’ten daha güçlü hâfızaya sahip birini görmediğini söylemekte, hocasının bu emsalsiz hâfızasını her gün üç hadis ezberlemesine bağlamaktadır. Ebû Hâtim er-Râzî de onu devrinin hâfızası en güçlü muhaddisi diye tanıtmaktadır. Mısırlı muhaddisler arasında Leys b. Sa‘d’dan sonra geldiği kabul edilen Amr’ın hadisleri hakkında Ahmed b. Hanbel müsbet görüşe sahip değil ise de o umumiyetle sika bir muhaddis olarak bilinmektedir. Hadisteki otoritesinin yanı sıra güzel konuşmasıyla da tanınan Amr b. Hâris geniş bir kültüre sahipti. Bir yere giderken saf bağlayıp yolunu bekleyen halk Kur’an, hadis, fıkıh, şiir, Arap dili ve hatta hesaba dair problemlerini ona sorarlardı. Rivayetleri Kütüb-i Sitte ’de yer alan Amr b. Hâris’in fıkıh kültürünün genişliğine işaret eden hocası Rebîatürre’y, o yaşadıkça Mısır’da fıkhın kaybolmayacağını söylemiştir. Amr b. Hâris Mısır’da vefat etmiştir. Mısır tarihine dair eseri günümüze ulaşmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 84 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amr-b-haris",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amr-b-haris, https://islamansiklopedisi.org.tr/amr-b-haris",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amr-b-haris",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amr-b-haris",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:7819",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=7819, heading_ar=عمرو بن الحارث",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amr-b-haris (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[7819]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=7819 (heading_ar=عمرو بن الحارث) via Track A (DİA→Alam xref bridge). dt=Zamanının en güzel konuşması, şiire en kolay söyleyen ve hadisi en çok bilen ins"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 90,
+    "start_ce": 708,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 148,
+    "start_ce": 765,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amr-b-haris, URL: https://islamansiklopedisi.org.tr/amr-b-haris || El-Aʿlām (Ziriklī) cross-reference: alam_id=[7819] || DİA death place: Mısır || DİA death-date string: (ö. 148/765) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=7819, heading_ar=عمرو بن الحارث, dt=Zamanının en güzel konuşması, şiire en kolay söyleyen ve hadisi en çok bilen insanlarından.",
+  "teachers": [
+    "iac:person-00003438",
+    "iac:person-00004785",
+    "iac:person-00007711",
+    "iac:person-00007897"
+  ],
+  "students": [
+    "iac:person-00005117",
+    "iac:person-00005206",
+    "iac:person-00005618"
+  ]
+}

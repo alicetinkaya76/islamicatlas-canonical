@@ -1,0 +1,118 @@
+{
+  "@id": "iac:person-00000405",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABD b. HUMEYD",
+      "ar": "عبد بن حميد"
+    },
+    "originalScript": {
+      "ar": "عبد بن حميد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abd b. Humeyd b. Nasr el-Kissî (el-Keşşî)",
+        "Abdü b. Humeyd b. Nasr el-Kisî, Ebû Muhammed"
+      ],
+      "ar": [
+        "عبد بن حميد بن نصر الكسي، أبو محمد"
+      ]
+    },
+    "description": {
+      "tr": "Mâverâünnehir’de bir Türk şehri olan Kis’te 170’ten (786-87) sonra doğdu ve aynı şehirde öldü. Gençliğinde o günün önemli ilim merkezlerine giderek Yezîd b. Hârûn, Yahyâ b. Âdem, Abdürrezzâk, Ebû Dâvûd et-Tayâlisî ve Ebû Bekir b. Ebû Şeybe gibi âlimlerden hadis tahsil etti. Kendisinden de Müslim, Tirmizî ve oğlu Muhammed başta olmak üzere Mâverâünnehir âlimlerinin birçoğu hadis rivayet etti. Ṣaḥîḥ-i Buḫârî ’deki bir senedde (“Menâḳıb”, 25) geçen Abdülhamîd (veya Abdülhumeyd) isminin Abd b. Humeyd olduğunu söyleyen Mizzî’yi (bk. Fetḥu’l-bârî , XIV, 94) Dârimî’deki rivayet desteklemektedir. Güvenilir bir muhaddis olan Abd b. Humeyd’in iki eseri vardır: 1. el-Müsnedü’l-kebîr . Müellif tarafından yapılmış bir muhtasarına ait bazı cüzler günümüze kadar ulaşmıştır (bk. GAS , I, 113). el-Münteḫab min Müsnedi ʿAbd b. Ḥumeyd adıyla bilinen ve Süleymaniye (Ayasofya, nr. 894, 204 varak), Millet (Feyzullah Efendi, nr. 548, 207 varak), Nuruosmaniye (nr. 1231, 194 varak) ve Köprülü (nr. 456, 176 varak) kütüphanelerinde birer yazması bulunan eser üzerinde, Kemaleddin Özdemir, Hadis İlminde Abd b. Humeyd ve Müntehab Müsned’i adıyla Ankara Üniversitesi İlâhiyat Fakültesi’nde bir doktora tezi hazırlamıştır. Ayrıca es̱-S̱ülâs̱iyyâtü’l-vâḳıʿa fî Münteḫabi’l-Müsned adlı seçme bir cüzün yazmaları da bulunmaktadır (Süleymaniye Ktp., Ayasofya, nr. 882/2, vr. 10-21; Zâhiriyye Ktp., Hadis, nr. 248, 6 varak). 2. et-Tefsîr . Günümüze ulaşmayan bu eserden İbn Hacer’in yaptığı iktibaslara el-İṣâbe ’de yer yer rastlanmaktadır (bk. GAS , I, 113). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 58 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "One of the hadith scholars."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd b. Humayd b. Nasr al-Kisī, Abū Muḥammad"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abd-b-humeyd",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abd-b-humeyd, https://islamansiklopedisi.org.tr/abd-b-humeyd",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:4951",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=4951, heading_ar=عبد بن حميد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:38Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abd-b-humeyd (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4951]. Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=4951 (heading_ar=عبد بن حميد) via Track A (DİA→Alam xref bridge). dt=Hadis hâfızlarındandır."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+kunya+translit from alam_detail.json el-alam:4951."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kissî; Keşşî"
+  ],
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 249,
+    "start_ce": 863,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abd-b-humeyd, URL: https://islamansiklopedisi.org.tr/abd-b-humeyd || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4951] || DİA death-date string: (ö. 249/863-64) || DİA categories: hadis > rivayet > tefsir || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=4951, heading_ar=عبد بن حميد, dt=Hadis hâfızlarındandır.",
+  "kunya": "أبو محمد",
+  "teachers": [
+    "iac:person-00003758",
+    "iac:person-00004713",
+    "iac:person-00006367",
+    "iac:person-00007290",
+    "iac:person-00007643",
+    "iac:person-00007715"
+  ],
+  "students": [
+    "iac:person-00005861",
+    "iac:person-00007357"
+  ]
+}

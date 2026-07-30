@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00003111",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Halîmî Çelebi"
+    },
+    "description": {
+      "tr": "Kastamonu’da doğdu. Asıl adı Abdülhalim, babasının adı Ali’dir. İlk öğrenimini doğduğu şehirde tamamladıktan sonra Alâeddin Arabî Efendi’nin hizmetine girdi. Onun vefatı üzerine Bursa’da Zeyniyye şeyhlerinden Hacı Halife’ye intisap etti. Bir süre Arap ülkelerinde dolaştıktan sonra İran’a geçti. Kastamonu’ya dönünce Trabzon valisi olan Şehzade Selim’in daveti üzerine Trabzon’a gitti. Yavuz Selim kendisine imam tayin ettiği Halîmî’yi ayrıca şehzadesi Süleyman’ın eğitimiyle de görevlendirdi. Padişah olduktan sonra da günlük 200 akçe maaş bağlayarak hâce tayin etti ve bazı köyleri ona mülk olarak verdi. I. Selim’in Halîmî Çelebi’ye gösterdiği ilgi, onun huzurundan bir an bile ayrılmasına izin vermeyecek dereceye ulaşmıştı. Hatta bazı vezirlerin, padişaha arzedilecek hususları önce Halîmî’ye danışıp daha sonra padişahın huzuruna çıktıkları rivayet edilir. Çağdaşı olan bir şair, “Şol pâdişah ki nâm-ı şerîfi Selîm ola / Lâyık budur musâhibi onun Halîm ola” beytinde bu hususu dile getirmiştir. Yavuz Sultan Selim’le birlikte Mısır seferine katılan Halîmî Çelebi sefer dönüşü Şam’da hastalanmış ve orada vefat etmiştir. Cenaze namazında padişah da hazır bulunmuş, vefatına “râha Hâce Halîmî” ibaresi tarih düşürülmüştür. Arapça ve Farsça müşkül beyit ve muammaları çözme konusundaki başarısıyla tanınan Halîmî’nin şiirleri hakkında Âşık Çelebi ve Latîfî müsbet ifadeler kullanırken Kınalızâde Hasan Çelebi onun şiiri bildiğini, fakat samimi bir söyleyişe sahip olmadığını belirtir. Bazı kaynaklarda Halîmî Çelebi’ye nisbet edilen Lugat-ı Halîmî adlı eser Lutfullah Halîmî’ye aittir. Halîmî Çelebi Kastamonu’da cami, medrese, sıbyan mektebi, imaret ve misafirhaneden ibaret bir külliye ile bir çifte hamam inşa ettirmiştir. Küpçüğez mahallesinde bulunan ve Çifte Hamam adıyla bilinen yapı halen metruk olup kitâbesinden 920 (1514) yılında yaptırıldığı anlaşılmaktadır. İsmail Hakkı Uzunçarşılı, halk arasında Yâkub Ağa Camii (Ağa İmareti) adıyla şöhret bulan Alacamescid mahallesindeki günümüzde hizmete açık camiyi Halîmî Çelebi’nin yaptırdığını, “atabe-i aliyye” ağalarından Yâkub Ağa’nın ise 954 (1547) yılında bu yapıyı tamir ettirip 965’te (1557) vakfiyesini tanzim ettirdiğini ortaya koymuştur. Ahmet Gökoğlu’nun caminin Yâkub Ağa tarafından yaptırıldığını söylemesi ( Paphlagonia , s. 207-209) yanlıştır. Yâkub Ağa Camii’nin Vakıflar Genel Müdürlüğü Tescil Dairesi Arşivi’nde bulunan vakfiyesi Mehmed Behcet tarafından yayımlanmıştır (bu yayımda Halîmî Çelebi’nin adı dizgi yanlışı sonucu Hilmî Çelebi olarak çıkmıştır). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 343-344 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:halimi-celebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=halimi-celebi, https://islamansiklopedisi.org.tr/halimi-celebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:halimi-celebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/halimi-celebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:10Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=halimi-celebi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 922,
+    "start_ce": 1516,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=halimi-celebi, URL: https://islamansiklopedisi.org.tr/halimi-celebi || DİA birth place: Kastamonu || DİA death place: Şam || DİA death-date string: (ö. 922/1516) || DİA categories: rivayet || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00001184",
+    "iac:place-00015093"
+  ],
+  "students": [
+    "iac:person-00006815",
+    "iac:person-00007157"
+  ]
+}

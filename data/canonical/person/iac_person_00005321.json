@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00005321",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEHMED EFENDİ, Eğrikapılı"
+    },
+    "description": {
+      "tr": "İstanbul’un Eyüp semtinde doğdu. Çulha kâhyası Ahmed Efendi’nin oğludur. Rüşdiye tahsilini tamamladıktan sonra Evkaf Nezâreti Evâmir Kalemi’nde memuriyete başladı (1868) ve uzun yıllar burada çalıştı. Mümeyyizlik görevinde iken emekliye ayrıldı. Mehmed Efendi, Otakçılar’da Sertarikzâde Cerrâhî Tekkesi şeyhi Ali Rızâ Efendi’ye intisap etti. Güzel sesi ve zikir idare etmedeki kabiliyetiyle dikkati çekerek Sertarikzâde Tekkesi’nin zâkirbaşısı oldu. Bu tekke ile Eyüp’teki Hatuniye Tekkesi ve Nûreddin Cerrâhî Tekkesi başta olmak üzere birçok tekkede zâkirbaşılık yaptı. Ayrıca seyrüsülûkünü tamamlayıp hilâfet alan Mehmed Efendi 26 Temmuz 1917 tarihinde vefat etti ve Eyüp’te Dâvud Ağa Camii hazîresine defnedildi. Emîr Buhârî Tekkesi şeyhi Mesud Efendi’nin kız kardeşi Zeyneb Hanım’la evli olan Mehmed Bey bestekâr Ali Rıza Şengel’in babasıdır. Mehmed Efendi, zâkirbaşılıktaki şöhretinin yanında dinî eser bestekârı olarak da tanınmıştır. Bolâhenk Nûri Bey’le Hatuniye Tekkesi şeyhi Mehmed Rızâ Efendi’den yüzlerce ilâhi ve tevşîh meşkederek bu konuda kendini yetiştirmiş, ayrıca neyzen Baba Râşid Efendi’den Hamparsum notasını ve Zekâi Dede’den pek çok dinî ve din dışı eser öğrenerek mûsiki bilgilerini geliştirmiş ve repertuvarını genişletmiştir. Mehmed Efendi’nin tevşîh ve ilâhi formundaki yedi eserinin notası günümüze ulaşmıştır. Bunlardan güftesi Yûnus Emre’ye ait, “Hâlet ile bana bir hal göründü” mısraıyla başlayan nevâ ilâhisiyle güftesi Erzurumlu İbrâhim Hakkı’ya ait, “Hak şerleri hayr eyler” mısraıyla başlayan hüseynî ilâhisi zamanımızda da okunan eserlerindendir. Haftanın belirli gecelerinde evinde tertiplediği mûsiki toplantılarıyla dönemin ünlü mûsikişinaslarını bir araya getiren Mehmed Efendi aynı zamanda pek çok talebe yetiştirmiştir. Bunlar arasında oğlu Ali Rıza Şengel ile İzzettin Hümâyi Bey (Elçioğlu) özellikle zikredilmelidir. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 452 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-efendi-egrikapili",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-efendi-egrikapili, https://islamansiklopedisi.org.tr/mehmed-efendi-egrikapili",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:38Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-efendi-egrikapili (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1847,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=mehmed-efendi-egrikapili, URL: https://islamansiklopedisi.org.tr/mehmed-efendi-egrikapili || DİA death place: Eyüp || DİA death-date string: (1847-1917) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00006172",
+    "iac:person-00007804"
+  ],
+  "students": [
+    "iac:person-00002469",
+    "iac:person-00006876"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "@id": "iac:person-00003637",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Âiz",
+      "ar": "ابن عائذ"
+    },
+    "originalScript": {
+      "ar": "ابن عائذ"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh (Ebû Ahmed) Muhammed b. Âiz b. Ahmed el-Kâtib el-Kureşî ed-Dımaşkī"
+      ],
+      "ar": [
+        "ابن عائض"
+      ]
+    },
+    "description": {
+      "tr": "150 (767) yılında muhtemelen Dımaşk’ta doğdu. Dedesinin adı Abdurrahman, Ubeydullah ve Saîd olarak da kaydedilmektedir. Abbâsî Halifesi Me’mûn zamanında (813-817) Gūta (Dımaşk) Dîvânü’l-harâc kâtipliği yapan İbn Âiz güvenilir bir âlim, hadis hâfızı, Mu‘tezile mezhebine mensup (Kaderî) müttaki bir zat olarak bilinmektedir. İsmâil b. Ayyâş, Velîd b. Müslim, Yahyâ b. Hamza el-Hadramî, Attâf b. Hâlid, Heysem b. Humeyd, Velîd b. Muhammed el-Muvakkarî, Süveyd b. Abdülazîz, Abdurrahman b. Mağrâ ve Vâkıdî gibi âlimlerden hadis rivayet etmiş; kendisinden de Ahmed b. İbrâhim el-Büsrî, Ahmed b. Ebü’l-Havârî, Ca‘fer b. Muhammed el-Firyâbî, Abdurrahman b. Abdüssamed es-Sülemî, Ebü’l-Ahves el-Ukberî, Ya‘kūb el-Fesevî, Yezîd b. Abdüssamed ve Ebû Zür‘a Abdurrahman b. Amr ed-Dımaşkī rivayette bulunmuşlardır. İbn Âiz 25 Rebîülâhir 233 (8 Aralık 847) tarihinde Dımaşk’ta vefat etti. Süyûtî ise onun Beyhak’ta öldüğünü kaydeder ( Ṭabaḳātü’l-ḥuffâẓ , s. 206). Ayrıca 232 (846) veya 234 yılında öldüğü de rivayet edilmektedir. Eserleri. 1. el-Meġāzî . İbn Seyyidünnâs ʿUyûnü’l-es̱er ’i yazarken günümüze ulaşmayan bu eseri başlıca kaynak olarak kullanmış ve kitabın bir kısmını Ebü’l-Kāsım Hızır b. Ebü’l-Hüseyin el-Ezdî ed-Dımaşkī’ye okuyup tamamını rivayet konusunda kendisinden icâzet almıştır ( ʿUyûnü’l-es̱er , II, 344). 2. el-Fütûḥ . Müellifin dönemine kadar yapılmış olan fetihler hakkındadır. 3. eṣ-Ṣavâʾif . Yaz aylarında yapılan seferlerle ilgili olduğu anlaşılmaktadır. Son iki eseri Zehebî el-Fütûḥ ve’ṣ-ṣavâʾif adıyla bir kitap olarak kaydeder ( Aʿlâmü’n-nübelâʾ , XI, 106). 4. Siyer . Hz. Peygamber’in hayatının tamamından bahsetmesi sebebiyle el-Meġāzî ’den ayrı bir eser olmalıdır. İbn Âiz’in bunlardan başka bazı eserlerinin bulunduğu kaynaklarda zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 300 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-aiz",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-aiz, https://islamansiklopedisi.org.tr/ibn-aiz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-aiz",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-aiz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:10148",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=10148, heading_ar=ابن عائض",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:17Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-aiz (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[10145, 10148]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-aiz)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=10148 (heading_ar=ابن عائض) via Track A (DİA→Alam xref bridge). dt=Asîr bölgesinin emîri."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî"
+  ],
+  "laqab": [
+    "Mu'tezilî (akîde)"
+  ],
+  "birth_temporal": {
+    "start_ah": 150,
+    "start_ce": 767,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 233,
+    "start_ce": 847,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-aiz, URL: https://islamansiklopedisi.org.tr/ibn-aiz || El-Aʿlām (Ziriklī) cross-reference: alam_id=[10145, 10148] || DİA birth place: Dımaşk || DİA death place: Dımaşk || DİA death-date string: (ö. 233/847) || DİA categories: rivayet > hadis > mezhep || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=10148, heading_ar=ابن عائض, dt=Asîr bölgesinin emîri.",
+  "teachers": [
+    "iac:person-00004555",
+    "iac:person-00007559",
+    "iac:person-00007587"
+  ],
+  "students": [
+    "iac:person-00000750",
+    "iac:person-00002311",
+    "iac:person-00002740",
+    "iac:person-00002788"
+  ]
+}

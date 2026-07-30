@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00018973",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Mustafā Sādiq al-Rāfiʿī",
+      "tr": "Mustafa Sadik er-Râfiî",
+      "ar": "مصطفى صادق الرافعي"
+    },
+    "originalScript": {
+      "ar": "مصطفى صادق الرافعي"
+    },
+    "description": {
+      "tr": "Edebiyat âlimi, şair, büyük yazarlardan biri.",
+      "en": "A scholar of literature, poet, one of the great writers."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Mustafā Sādiq b. ʿAbd al-Razzāq b. Saʿīd b. Aḥmad b. ʿAbd al-Qādir al-Rāfiʿī"
+    },
+    "altLabel": {
+      "tr": [
+        "Mustafa Sadik b. Abdürezzak b. Saîd b. Ahmed b. Abdülkādir er-Râfiî"
+      ],
+      "ar": [
+        "مصطفى صادق بن عبد الرزاق بن سعيد بن أحمد بن عبد القادر الرافعي"
+      ]
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:12088",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=12088",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:25Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:25Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=12088 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:12088."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1356,
+    "start_ce": 1937,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=12088, heading_ar=مصطفى صادق الرافعي || Ziriklī century_ce=20 || Ziriklī place coords (city/region of activity): 34.44, 35.85",
+  "authored_works": [
+    "iac:work-00001117",
+    "iac:work-00001208",
+    "iac:work-00002570",
+    "iac:work-00003187",
+    "iac:work-00004025",
+    "iac:work-00004353",
+    "iac:work-00004382",
+    "iac:work-00005557",
+    "iac:work-00005598",
+    "iac:work-00005614",
+    "iac:work-00007479"
+  ]
+}

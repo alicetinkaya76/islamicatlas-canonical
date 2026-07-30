@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003205",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂRİSE b. SÜRÂKA",
+      "ar": "حارثة بن سراقة"
+    },
+    "originalScript": {
+      "ar": "حارثة بن سراقة"
+    },
+    "altLabel": {
+      "tr": [
+        "Hârise b. Sürâka b. el-Hâris el-Hazrecî el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "Hazrec kabilesinin Neccâroğulları kolundandır. İslâmiyet’i kabul edip etmediği bilinmeyen babası Sürâka hicretten önce vefat etmiştir. Annesi Ümmü Hârise Rubeyyi‘ bint Nadr, Enes b. Mâlik’in halası ve Enes b. Nadr’ın kardeşidir. Bazı kaynaklarda annesine nisbetle Hârise b. Rubeyyi‘ şeklinde de anılır (Ebû Nuaym, I, vr. 160 b ). Buhârî, el-Câmiʿu’ṣ-ṣaḥîḥ ’in bir yerinde annesinin adını Rubeyyi‘ bint Berâ şeklinde kaydederse de (“Cihâd”, 14) bunun bir zühul eseri olabileceği söylenmiştir (İbn Hacer, Fetḥu’l-bârî , XI, 188). Ebû Nuaym, Hârise hakkında, “Annesine çok iyilik etmesiyle meşhurdur; Hz. Peygamber rüyasında onun cennette Kur’an okuyuşunu dinledi” derken onu Hârise b. Nu‘mân ile karıştırmıştır ( Maʿrifetü’ṣ-ṣaḥâbe , I, vr. 160 b ). Hicretten hemen sonra annesiyle birlikte müslüman olan Hârise, Resûl-i Ekrem tarafından Sâib b. Osman ile kardeş ilân edilmiştir. Hârise, bir gün Hz. Peygamber’le sohbet ederken şehidlik mertebesine ulaşması için kendisine dua etmesini istemiş, Resûl-i Ekrem de bu isteğini yerine getirmiştir (İbnü’l-Esîr, I, 426). Yaşının küçük olması sebebiyle Bedir Gazvesi’ne savaşçı olarak katılamayan Hârise, savaş alanının gerisinde bir su birikintisinden su içerken atılan bir okla isabet almış ve bu gazvenin ensardan ilk şehidi olmuştur. Hârise’nin Bedir’de bulunduğuna ve Uhud Gazvesi’nde şehid edildiğine dair rivayet kabul görmemiştir (Ebû Nuaym, I, vr. 161 a ; İbn Hacer, el-İṣâbe , I, 297). Bedir’den Medine’ye dönülünce annesi oğlunun durumunu sormak üzere Hz. Peygamber’e gelerek, “Eğer oğlum cennette ise sabreder, sevabını beklerim; değilse onun için var gücümle ağlarım” demiş, Resûlullah da Hârise’nin Firdevs cennetinde olduğunu söylemiştir (Buhârî, “Cihâd”, 14, “Meġāzî”, 9, “Riḳāḳ”, 51). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 202-203 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:harise-b-suraka",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=harise-b-suraka, https://islamansiklopedisi.org.tr/harise-b-suraka",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:harise-b-suraka",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/harise-b-suraka",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=harise-b-suraka (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hazrecî; Ensârî"
+  ],
+  "death_temporal": {
+    "start_ah": 2,
+    "start_ce": 624,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=harise-b-suraka, URL: https://islamansiklopedisi.org.tr/harise-b-suraka || DİA death-date string: (ö. 2/624) || DİA categories: rivayet || Chunk count: 1"
+}

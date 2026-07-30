@@ -1,0 +1,70 @@
+{
+  "@id": "iac:person-00002771",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FİGĀNÎ, Baba",
+      "ar": "بابا فغاني"
+    },
+    "originalScript": {
+      "ar": "بابا فغاني"
+    },
+    "description": {
+      "tr": "Şîraz’da dünyaya geldi. 925’te (1519) öldüğü sırada altmış yaşını aşkın olduğuna göre 860-865 (1456-1461) yılları arasında doğduğu söylenebilir. Gençliğinde baba mesleği olan bıçakçılıkla uğraştığından bu sıralarda yazdığı şiirlerde “bıçakçı” anlamına gelen Sekkâkî mahlasını kullandı. Ancak divanında bu mahlasla yazılmış herhangi bir şiirine rastlanmaz. Figānî otuz yaşına kadar Şîraz’da yaşadı, daha sonra Horasan’a gitti. Bir süre kaldığı Herat’ta başta Abdurrahman-ı Câmî olmak üzere bazı şairlerle görüştüyse de onlardan beklediği ilgiyi göremedi. Tebriz’e giderek burada tanıştığı şairler vasıtasıyla Akkoyunlu Hükümdarı Sultan Yâkub’un sarayına intisap etti. Sultan Yâkub kendisine “bâbâ-yı şuarâ” unvanını verdiği için Figānî nisbesinin yanı sıra Bâbâ lakabı ile de anıldı. Sultan Yâkub’un ölümünden (896/1490) sonra sırasıyla onun oğlu Baysungur ile Rüstem, Uğurlu oğlu Ahmed ve Elvend Bey gibi hükümdar ve devlet adamları hakkında methiyeler yazdı. Tebriz’de bazı karışıklıkların çıkması üzerine Şîraz’a döndü; bir süre burada kaldı, ancak Şah İsmâil’in zuhuru üzerine tekrar Horasan’a gitti. Bir müddet Ebîverd’de ikamet ettikten sonra Meşhed’e geçti ve oraya yerleşti. 922 (1516) veya 925’te (1519) burada öldü. Figānî Muhteşem-i Kâşânî, Örfî-i Şîrâzî, Vahşî-i Bâfkī gibi tanınmış şairler üzerinde etkili olmuştur. Tezkire yazarları, çok güzel şiirler yazdığını belirttikleri Figānî’yi Hâfız-ı Şîrâzî’ye benzeterek ona Hâfız-ı Kûçek lakabını verirler. Fakat çok şarap içtiğini, gittiği meyhânelerde alay konusu olduğunu, ömrünün sonlarına doğru ise içkiyi terkettiğini kaydederler. Figānî’nin divanı günümüze ulaşmış olup kaside, terkibibend, terciibend ve gazellerden oluşur. Kasidelerinin çoğu özellikle Hz. Ali, Şîa imamları, Akkoyunlu hükümdarları Sultan Yâkub, Baysungur, Rüstem ile Şah İsmâil hakkındadır. Divan Kemal Methûr Dihlevî (Lahor, ts.) ve Süheylî Hânsârî (Tahran 1316 hş.) tarafından neşredilmiştir. Hüseyin Âzâd divandan seçtiği bazı şiirleri Les perles de la couronne, choix de poésies de Baba Feghani adıyla Fransızca’ya çevirmiştir (Paris 1903). Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 58 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:figani-baba",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=figani-baba, https://islamansiklopedisi.org.tr/figani-baba",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=figani-baba (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 925,
+    "start_ce": 1519,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=figani-baba, URL: https://islamansiklopedisi.org.tr/figani-baba || DİA birth place: Şîraz || DİA death-date string: (ö. 925/1519 [?]) || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00004180",
+    "iac:place-00013011",
+    "iac:place-00015176"
+  ]
+}

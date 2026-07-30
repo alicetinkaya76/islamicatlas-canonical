@@ -1,0 +1,137 @@
+{
+  "@id": "iac:person-00005294",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Megāmî",
+      "ar": "المغامي"
+    },
+    "originalScript": {
+      "ar": "المغامي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ömer Yûsuf b. Yahyâ b. Yûsuf ed-Devsî el-Megāmî"
+      ]
+    },
+    "description": {
+      "tr": "Ashaptan Ebû Hüreyre’nin soyundan olup aslen Tuleytula’nın (Toledo) Megām köyündendir. Kurtuba’da (Córdoba) yetişti. Yahyâ b. Yahyâ el-Leysî, Saîd b. Hassân ve İbn Müzeyn diye de tanınan Yahyâ b. İbrâhim’den hadis dinledi, İbn Habîb es-Sülemî’den fıkıh öğrendi ve kitaplarını rivayet etti. Tahsil için Doğu seyahatine çıktı. Haremeyn, San‘a ve Kahire’de Ali b. Abdülazîz el-Begavî, Ebû İshak ed-Deberî, Yûsuf b. Yezîd el-Karâtisî, Ebû Mus‘ab ve başkalarından hadis dinledi. Yedi yıl Haremeyn’de kalmak üzere on bir yıl süren bu seyahatinden sonra Kurtuba’ya döndü. Ardından tekrar Kahire’ye gitti ve daha sonra Kayrevan’a yerleşti. Haremeyn, Yemen, Mısır ve Kayrevan’da birçok âlim kendisinden hadis yanında İbn Habîb’in eserlerini dinledi. Bu âlimler arasında Ali b. Abdülazîz el-Begavî, Ebü’l-Abbas el-İbyânî, Ebû Ca‘fer Ahmed b. Nasr el-Kayrevânî, Muhammed b. Futays, Ebü’l-Arab, İbnü’l-Lebbâd el-Kayrevânî ve Saîd b. Fahlûn anılabilir. Endülüs’te Mâlikî mezhebinin yayılmasında önemli katkısı olan İbn Habîb es-Sülemî’nin, Mâlikî mezhebinin ilk ana kaynaklarından biri olan el-Vâżıḥa fi’s-sünen ve’l-fıḳh ’ı ve diğer bazı eserleri Megāmî tarafından rivayet edilmiştir. Bilhassa el-Vâżıḥa ’nın hemen bütün nüshaları onun rivayetine dayanır (Dabbî, s. 496; Muranyi, s. 39, 43, 47-48, 156). İbn Habîb’in Kitâbü’t-Târîḫ ’i de Megāmî’nin ilâvelerini ihtiva etmektedir. Özellikle Hicaz Mâlikî ulemâsının görüşlerini iyi bilen ve bunları savunan Megāmî, İmam Şâfiî’yi tenkit etmiş ve kendisine on bir cüzden oluşan bir reddiye yazmıştır (günümüze kısmen ulaşan yazma nüshası için bk. a.g.e. , s. 157). İmam Mâlik ve Ömer b. Abdülazîz’in faziletleri hakkında birer eser kaleme alan Megāmî 288 (901) yılında Kayrevan’da vefat etti. Humeydî diğer kaynakların aksine 283 (896) veya 285’te öldüğünü kaydeder ( Ceẕvetü’l-muḳtebis , s. 350). Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 358 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:megami",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=megami, https://islamansiklopedisi.org.tr/megami",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:megami",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/megami",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:13897",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=13897, heading_ar=المغامي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:38Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=megami (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[13897]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:20Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 4 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=13897 (heading_ar=المغامي) via Track A (DİA→Alam xref bridge). dt=Mâlikî âlimlerinden bir fakih, Ebû Hureyre'nin soyundan"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Devsî; Megāmî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 288,
+    "start_ce": 901,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=megami, URL: https://islamansiklopedisi.org.tr/megami || El-Aʿlām (Ziriklī) cross-reference: alam_id=[13897] || DİA death place: Kayrevan || DİA death-date string: (ö. 288/901) || DİA categories: hadis > rivayet > mezhep || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=13897, heading_ar=المغامي, dt=Mâlikî âlimlerinden bir fakih, Ebû Hureyre'nin soyundan",
+  "active_in_places": [
+    "iac:place-00001053",
+    "iac:place-00009538",
+    "iac:place-00010037",
+    "iac:place-00011505",
+    "iac:place-00013399"
+  ],
+  "death_place": "iac:place-00013399",
+  "teachers": [
+    "iac:person-00003819",
+    "iac:person-00007659"
+  ]
+}

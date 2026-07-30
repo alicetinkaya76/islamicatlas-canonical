@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00003039",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hâfiz Yûsuf Efendi"
+    },
+    "description": {
+      "tr": "Girit adasında Hanya şehrinde doğdu. Babasının adı Ahmed’dir. Küçük yaşta ailesiyle birlikte İstanbul’a gitti. Müşir Şâkir Paşa’nın himayesinde yetişti. Öğrenimini tamamladıktan sonra Trabzon defterdarı Şefik Bey’in maiyetinde Trabzon’da bir müddet memurluk yaptı. Dönüşünde kısa bir süre Enderun’a alındıysa da şehremini Rıdvan Paşa’nın aracılığı ile Fatih Belediye Dairesi Tahrîrat kâtipliğine geçti. Bir müddet Enderun’da mûsikişinaslar arasında bulunduğu için Enderûnî Yûsuf, bir ara Vezneciler’de Zeynep Hanım Konağı karşısında bir tütüncü dükkânı işlettiğinden Attar Yûsuf ve uzun süre Kadıköy’de oturması sebebiyle Kadıköylü Yûsuf olarak da anılır. Hâfız Yûsuf vefatında Karacaahmet Mezarlığı’na defnedildi. Bilhassa sesinin güzelliği ve besteleriyle tanınan Hâfız Yûsuf’un ilk mûsiki bilgilerini kimden aldığı belli değilse de hâmisi Şâkir Paşa’nın konağındaki toplantılara katılarak yetiştiği bilinmektedir. Daha sonra kendi kendini yetiştirerek zamanla devrin mûsiki toplantılarının vazgeçilmez hânendeleri arasında yer aldı. Bunda sahip olduğu geniş repertuvarın da büyük etkisi olduğu muhakkaktır. Kemânî Mike, Kirkor ve Şeref Dürrî efendiler, Kanûnî Solak Mihal ve Şemsi efendiler, Santûrî Edhem Efendi, Tanbûrî Garbis Efendi, Giriftzen Rızâ Bey, Ûdî Basri Bey, Hânende Beylerbeyili Hakkı Bey, Hacı Kirâmî Efendi, Domates Ahmed Bey gibi devrin önde gelen mûsikişinaslarıyla meşklere katılmıştır. Hâfız Yûsuf dinî mûsikiye de vâkıftı; bu sahada bilhassa mevlidhanlığı ön plana çıkmaktadır. Hâfız Yûsuf Efendi’nin en önemli vasıflarından biri de mûsiki hocalığıdır. Bazı şehzadelere mûsiki dersi vermiş, II. Meşrutiyet’in ilânından sonra Kadıköy’de kurulan Şark Mûsikisi Cemiyeti’nin eğitim kadrosunda yer almış, çeşitli mekteplerde fahrî mûsiki hocalığı yapmış, bu arada birçok talebe yetiştirmiştir. Halit Lemi Atlı ve Münir Nurettin Selçuk en meşhurlarıdır. Üslûp sahibi bir bestekâr olarak tanınan Hâfız Yûsuf’un günümüze ulaşan ve sayıları ellinin üzerinde bulunan eserlerinden sadece birkaçı ilâhi ve marş formunda olup diğerleri şarkıdır. Bunlar arasında, “Kaldı yollarda bu şeb âşıkının dîdeleri” mısraı ile başlayan kürdili-hicazkâr şarkısı ile, “Ol goncadehen bir gül-i handân olacaktır” mısraı ile başlayan bûselik şarkısı ve hicaz makamında, “Mülk-i cihân sultânı” mısraı ile başlayan ilâhisi çok tanınmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 107 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hafiz-yusuf-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hafiz-yusuf-efendi, https://islamansiklopedisi.org.tr/hafiz-yusuf-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:09Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:09Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hafiz-yusuf-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1857,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=hafiz-yusuf-efendi, URL: https://islamansiklopedisi.org.tr/hafiz-yusuf-efendi || DİA birth place: Hanya || DİA death place: Kadıköy || DİA death-date string: (1857-1925) || Chunk count: 1",
+  "students": [
+    "iac:person-00001190",
+    "iac:person-00006808"
+  ]
+}

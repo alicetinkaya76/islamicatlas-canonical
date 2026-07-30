@@ -1,0 +1,106 @@
+{
+  "@id": "iac:person-00001189",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ATIYYE el-AVFÎ",
+      "ar": "عطيّة العوفي"
+    },
+    "originalScript": {
+      "ar": "عطيّة العوفي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Atıyye b. Sa‘d b. Cünâde el-Avfî el-Cedelî"
+      ]
+    },
+    "description": {
+      "tr": "Doğduğu zaman babası, o sırada Kûfe’de bulunan Hz. Ali’ye gitti ve bir oğlunun dünyaya geldiğini söyleyerek ona ad koymasını rica etti. Hz. Ali de, “Bu Allah’ın bir atıyyesidir” diyerek adını Atıyye koydu. Gençlik ve tahsil dönemi hakkında kaynaklarda bilgi yoktur. Ebû Saîd el-Hudrî, Ebû Hüreyre, İbn Abbas, İbn Ömer, Zeyd b. Erkam ve İkrime gibi sahâbîlerden hadis tahsil etti. Kendisinden de oğulları Hasan ve Ömer ile A‘meş, Haccâc b. Ertât, Muhammed b. Abdurrahman b. Ebû Leylâ ve Mutarrif b. Tarîf gibi önemli şahsiyetler rivayette bulundular. Hadis konusundaki güvenilirliği tartışılmıştır. Ahmed b. Hanbel ve Nesâî onun zayıf olduğunu, Ebû Hâtim ve Yahyâ b. Maîn ise zayıf olmakla beraber hadislerinin değerlendirmeye tâbi tutmak maksadıyla yazılabileceğini söylemişler, Buhârî el-Edebü’l-müfred ’inde, Ebû Dâvûd, Tirmizî ve İbn Mâce de sünenlerinde onun rivayetlerine yer vermişlerdir. Hakkında söylenenlerin tamamı dikkate alınınca onun zayıf bir râvi olduğu anlaşılmaktadır. Hocası Kelbî’nin künyesi Ebü’n-Nadr olduğu halde ona kendiliğinden Ebû Saîd künyesini vermesi ve ondan duyduğu tefsirle ilgili bilgileri diğer hocası Ebû Saîd el-Hudrî’den naklediyormuş intibaını vererek tedlîs yapması, güvenilirliğini kaybetmesinin başlıca sebeplerinden biri olmalıdır. Siyasete de karışmış olan Atıyye, Hz. Ali taraftarı olarak İbnü’l-Eş‘as’ın maiyetinde Haccâc’a karşı savaştı. İbnü’l-Eş‘as yenilince İran içlerine kaçtıysa da yakalandı. Haccâc, Muhammed b. Kāsım es-Sekafî’ye Atıyye’yi sorgulamasını, Hz. Ali’ye lânet ettiği takdirde serbest bırakmasını, aksi halde 400 kırbaç vurduktan başka saç ve sakalını da kazıtmasını emretti. Atıyye, Hz. Ali’ye hakaret etmediği için Haccâc’ın istediği şekilde cezalandırıldı. Daha sonra Horasan’a geçti. Ömer b. Hübeyre’nin Irak valisi olması üzerine ondan izin alarak Kûfe’ye döndü, vefatına kadar orada yaşadı. Onun Hz. Ali’yi bütün ashaba üstün tutan bir Şiî olduğu da söylenmektedir. Atıyye el-Avfî’nin bir tefsiri bulunduğu ve Hatîb el-Bağdâdî gibi bazı âlimlerin onu rivayet etme icâzetine sahip olduğu kaynaklarda zikredilmektedir. Ayrıca Taberî’nin, Tefsîr ’inde ondan 1560 yerde söz etmesi (Sezgin, I, 30), günümüze kadar gelmeyen bu eserin ilmî değeri ve önemi konusunda bir fikir vermektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 62-63 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:atiyye-el-avfi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=atiyye-el-avfi, https://islamansiklopedisi.org.tr/atiyye-el-avfi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:6839",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6839, heading_ar=عطية العوفي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=atiyye-el-avfi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6839]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6839 (heading_ar=عطية العوفي) via Track A (DİA→Alam xref bridge). dt=Hadis âlimleri arasından."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cedelî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 111,
+    "start_ce": 729,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=atiyye-el-avfi, URL: https://islamansiklopedisi.org.tr/atiyye-el-avfi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6839] || DİA death-date string: (ö. 111/729-30) || DİA categories: hadis > tefsir > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6839, heading_ar=عطية العوفي, dt=Hadis âlimleri arasından.",
+  "active_in_places": [
+    "iac:place-00004180",
+    "iac:place-00010482"
+  ],
+  "students": [
+    "iac:person-00002968"
+  ]
+}

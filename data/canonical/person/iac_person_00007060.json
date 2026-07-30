@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00007060",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ŞÎRÂZÎ, İbrâhim",
+      "ar": "إبراهيم شيرازي"
+    },
+    "originalScript": {
+      "ar": "إبراهيم شيرازي"
+    },
+    "altLabel": {
+      "tr": [
+        "Refîüddîn İbrâhîm b. Nûriddîn Tevfîk Şîrâzî"
+      ]
+    },
+    "description": {
+      "tr": "947’de (1540-41) Şîraz’da doğdu. Gençlik yıllarında ticaretle uğraştı ve Hindistan’a kadar gitti. Yirmi yaşlarında iken Âdilşâhî Sultanı I. Ali’nin hizmetine girdi ve çeşitli görevlerde bulundu. 1005 (1596-97) yılında Âdilşâhî Sultanı II. İbrâhim tarafından Nizamşâhîler’in başşehri Ahmednagar’a elçi olarak gönderildi. Bir müddet Bîcâpûr valiliği ve hazinedarlık yaptı. Kaynaklardan 1028 (1619) yılında hayatta olduğu anlaşılmaktadır. Şîrâzî, Mirza Kâmrân Lâhûrî’nin telif ettiği Mîrzânâme ’de önemli bir kültür adamı diye tanıtılır. Şîrâzî’nin en önemli eseri Teẕkiretü’l-mülûk ’tür. Eser Âdilşâhîler’in ve onlarla aynı dönemde Hindistan ve İran’da hüküm süren devletlerin tarihine dair olup 1017-1020 (1608-1611) yılları arasında telif edilmiştir. 1020 (1611) yılına kadar gelen olayları ihtiva eden eser sade bir üslûpla kaleme alınmıştır ve bir mukaddime ile on bölümden meydana gelmektedir. İlk bölüm Behmenîler, iki ile sekizinci bölümler Âdilşâhîler, dokuz ve onuncu bölümler Bâbürlüler, Safevîler ve Dekken’de kurulan hânedanların tarihiyle ilgilidir. Eserin ekinde Hint tapınakları, madenler ve nehirlerle Hindistan’daki acayip ve garip yerler ve olaylar (garâib) hakkında önemli mâlûmat bulunmaktadır. Eserde ayrıca Hindistan ve İran’da kurulan hânedanların menşei ve silsilesine dair değerli bilgiler mevcuttur. Özellikle Haydarâbâd şehrinin kuruluşu, şehirdeki sosyal ve kültürel hayatla ilgili ayrıntılar önemlidir. Eserin çeşitli kütüphanelerde pek çok yazması vardır (Storey, I/1, s. 744). Teẕkiretü’l-mülûk ’ün Alâeddin Behmenşah dönemini içeren kısmı H. S. S. Kādirî tarafından neşredilmiş ( Tārīḫ , III/9 [Hydarâbâd, Supplement 1931], s. 2-41), tam metnini ise A. N. M. Hâlidî, Delhi Âsafiye, Haydarâbâd Sâlâr Jung Müzesi ve Oxford Bodleian kütüphanelerindeki yazmalara dayanarak yayımlamıştır ( Taẕkirat al-Mulūk: History of the Kings , California 1987). Eserin bir kısmı J. S. King tarafından İngilizce’ye tercüme edilmiştir ( The History of the Bahmani Dynasty, Founded on the Burhān-i Maʿāṣir and the Tadhkirat al-Mulūk , London 1900). Müellifin ayrıca Mîrhând’ın Ravżatü’ṣ-ṣafâ ve Hândmîr’in Ḥabîbü’s-siyer adlı eserlerini ihtisar ettiği ve bir Ferhengnâme kaleme aldığı belirtilmektedir (Storey, I/1, s. 742-743). Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 186-187 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:sirazi-ibrahim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=sirazi-ibrahim, https://islamansiklopedisi.org.tr/sirazi-ibrahim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:57Z",
+    "modified": "2026-05-04T15:34:57Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=sirazi-ibrahim (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1005,
+    "start_ce": 1596,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1028,
+    "start_ce": 1619,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=sirazi-ibrahim, URL: https://islamansiklopedisi.org.tr/sirazi-ibrahim || DİA birth place: Şîraz || DİA death-date string: (ö. 1028/1619’dan sonra) || Chunk count: 1"
+}

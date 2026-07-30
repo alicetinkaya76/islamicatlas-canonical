@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00006008",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "NASRÂBÂDÎ, Muhammed Tâhir",
+      "ar": "محمّد طاهر نصر آبادي"
+    },
+    "originalScript": {
+      "ar": "محمّد طاهر نصر آبادي"
+    },
+    "description": {
+      "tr": "1027’de (1618) İsfahan yakınlarındaki Nasrâbâd köyünde doğdu. Dedesi Hâce Sadreddin Ali zengin bir toprak sahibi olup aile daha sonra bilinmeyen sebepler yüzünden mal varlığını kaybedince Hindistan’a göç etti. Nasrâbâdî gençlik döneminin ardından Meşhed, Necef ve Mekke’ye yaptığı seyahatten sonra İsfahan’a yerleşerek şair ve âlimlerin devam ettiği bir kıraathanede çalışmaya başladı. Bu sırada edebî ve ilmî sahada kendini yetiştirdi. Dönemin önde gelen âlimlerinden Âkā Hüseyin Hânsârî’den ders aldı. Safevî Şahı Süleyman’ı şiirleriyle övünce onun ilgisine mazhar oldu. İlerlemiş yaşında İsfahan yakınlarında Lunbân Camii’ne çekilerek tezkiresini kaleme almaya başladı. “Sâib” ve “Kelîm” mahlaslarıyla şiir yazmışsa da bu alanda kabul görmediğinden divanı günümüze ulaşmamıştır. Tezkiresini tamamladığı 1091 (1680) yılından sonra Nasrâbâd’da vefat etti. Oğlu Bedîüzzaman Mirza Bedî İsfahânî, Sultan Hüseyin Şah döneminde “melikü’ş-şuarâ” unvanıyla şöhret bulmuştur. Eserleri. 1. Teẕkire-i Naṣrʾâbâdî . Safevî döneminde yaşamış şairlerin biyografisini içeren tezkire Şah Süleyman’a sunulmuştur. Eser, şiir söyleyen Safevî şehzade ve hükümdarlarından bahsedilen bir mukaddime ile şairlerin anlatıldığı alt başlıklar halinde beş bölümden meydana gelmiştir. 1083’te (1672) şaha sunulmuşsa da 1091 (1680) veya 1093 (1682) yılına kadar telifine devam edildiğine dair bilgiler mevcuttur. 1115 (1703) yılına kadar uzanan bazı olayların yer aldığı tezkireye Nasrâbâdî’nin ölümünden sonra eklemeler yapıldığı anlaşılmaktadır. Eserde şairlerin hayat hikâyeleri kısaca yazılmış ve ardından şiirlerinden örnekler verilmiştir. Müellif daha önce kaleme alınan tezkirelerden faydalanmış, özellikle Tuḥfe-i Sâmî ’den etkilenmiştir. Yazıldığı dönemin sosyal, kültürel ve edebî tarihi açısından önem taşıyan tezkire Vahîd-i Destgirdî (Tahran 1317 hş.) ve Ahmed Müdekkik Yezdî (Tahran 1378 hş.) tarafından neşredilmiştir. 2. Gülşen-i Ḫayâlât . Nasrâbâdî’nin nazım ve nesir yazılarından meydana gelmiştir (Safâ, V/3, s. 1786). Nasrâbâdî’nin bir mektubunu Abbas İkbâl-i Âştiyânî yayımlamıştır ( Yâdgâr , II/4 [Tahran 1324 hş./1945], s. 47-50). Bu madde TDV İslâm Ansiklopedisi’nin 2006 yılında İstanbul’da basılan 32. cildinde, 418 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:nasrabadi-muhammed-tahir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=nasrabadi-muhammed-tahir, https://islamansiklopedisi.org.tr/nasrabadi-muhammed-tahir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:nasrabadi-muhammed-tahir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=nasrabadi-muhammed-tahir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:46Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:46Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=nasrabadi-muhammed-tahir (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=nasrabadi-muhammed-tahir)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1091,
+    "start_ce": 1680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=nasrabadi-muhammed-tahir, URL: https://islamansiklopedisi.org.tr/nasrabadi-muhammed-tahir || DİA birth place: Nasrâbâd || DİA death place: Nasrâbâd || DİA death-date string: (ö. 1091/1680’den sonra) || DİA categories: şiir || Chunk count: 1",
+  "birth_place": "iac:place-00014890",
+  "death_place": "iac:place-00014890",
+  "active_in_places": [
+    "iac:place-00014890"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00001783",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CENEDÎ, Muhammed b. Yûsuf",
+      "ar": "محمد بن يوسف الجندي"
+    },
+    "originalScript": {
+      "ar": "محمد بن يوسف الجندي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Bahâüddîn Muhammed b. Yûsuf b. Ya‘kūb el-Cenedî Kitâbü’s-Sülûk adlı eseriyle tanınan Yemenli tarihçi."
+      ]
+    },
+    "description": {
+      "tr": "Hayatının büyük bir bölümünü Zebîd’de geçirdi. Yemen’in çeşitli şehirlerinde kadılık, müderrislik, Aden ve Zebîd’de muhtesiplik yaptı. Bilinen tek eseri Kitâbü’s-Sülûk fî ṭabaḳāti’l-ʿulemâʾ ve’l-mülûk ’tür. Yemen’in İslâmî dönemi hakkında önemli bilgiler ihtiva eden bu eser Târîḫu’l-Cenedî ve Ṭabaḳātü’l-Cenedî adlarıyla da tanınmaktadır. Müellif tarihin önemine dair bir mukaddimeyle başladığı eserinde Hz. Peygamber’in hayatı hakkında kısa bilgi verdikten sonra Yemenli ve Yemen’e gelmiş olan sahâbîler, tâbiîn, tebeu’t-tâbiîn, Yemenli kadılar, âlimler, edip, şair ve mutasavvıflar, 730 (1330) yılına kadar Yemen’de hüküm süren Resûlî hükümdarları, vezirleri ve emîrlerinden bahseder. Biyografilerini yazdığı şahısların nesepleri, doğum tarihleri, varsa hocaları, öğrencileri ve yaptıkları görevleri anlatır. Hocası allâme Ebü’l-Hasan el-Asbahî’nin teşvikiyle yazdığı Kitâbü’s-Sülûk ’ün başlıca kaynakları, İbn Semüre el-Ca‘dî’nin Ṭabaḳātü fuḳahâʾi’l-Yemen , Ahmed b. Abdullah er-Râzî es-San‘ânî’nin Târîḫu Ṣanʿâ , İshak b. Cerîr es-San‘ânî’nin Târîḫu Ṣanʿâ ; Umâre el-Yemenî’nin Târîḫu’l-Yemen ( el-Müfîd fî aḫbâri Ṣanʿâ ve Zebîd ), İbn Hallikân’ın Vefeyâtü’l-aʿyân adlı eserleridir. Cenedî büyük bir dikkat ve itina ile kaleme aldığı eserinde daha önceki bazı tarihçilerin yaptığı hataları düzeltmiş, kabile ve yer adlarını doğru olarak tesbit etmiştir. Ancak eseri, tertibi ve bazı şahıslar hakkında çok kısa bilgi verilmesi, hatta doğum ve ölüm tarihlerinin dahi zikredilmemesi gibi sebepler yüzünden tenkit edilmiştir. Ali b. Hasan el-Hazrecî, Hüseyin b. Abdurrahman el-Ehdel ve Ebû Mekreme gibi birçok tarihçiye kaynak olan Kitâbü’s-Sülûk ’ün tamamı henüz neşredilmemiştir. Başta Köprülü Kütüphanesi (nr. 1107) olmak üzere çeşitli kütüphanelerde yazma nüshaları mevcuttur (yazma nüshaları için bk. Ahmed b. Hâfız el-Hikemî, s. 97-98). Eserin Yemen’deki Fâtımî dâî leri ve Karmatîler’le ilgili bölümü Henry Cassels Kay tarafından İngilizce tercümesi ve geniş notlar ilâvesiyle Yaman: Its Early Mediæval History adlı eserin içinde neşredilmiş (London 1892), Hasan Süleyman Mahmûd H. C. Kay’ın mukaddimesini ve notlarını Arapça’ya çevirerek bu bölümü tekrar yayımlamıştır (Kahire 1957). Umâre el-Yemenî adlı meşhur tarihçinin hayatı ve eseriyle ilgili kısmı ise Hartwig Derenbourg tarafından ʿOumâra du Yémen: Sa vie et son œuvre adlı eserin II. cildi içinde neşredilmiştir (Paris 1902). Hüseyin b. Abdurrahman el-Ehdel (ö. 855/1451) Kitâbü’s-Sülûk ’ü ihtisar etmiş ve esere Tuḥfetü’z-zemen fî târîḫi sâdâti’l-Yemen (aʿyâni ehli’l-Yemen) adıyla kendi zamanına kadar gelen bir zeyil yazmıştır ( Keşfü’ẓ-ẓunûn , I, 366). Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 362-363 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cenedi-muhammed-b-yusuf",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cenedi-muhammed-b-yusuf, https://islamansiklopedisi.org.tr/cenedi-muhammed-b-yusuf",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:cenedi-muhammed-b-yusuf",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/cenedi-muhammed-b-yusuf",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cenedi-muhammed-b-yusuf (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cenedî"
+  ],
+  "death_temporal": {
+    "start_ah": 732,
+    "start_ce": 1332,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cenedi-muhammed-b-yusuf, URL: https://islamansiklopedisi.org.tr/cenedi-muhammed-b-yusuf || DİA death-date string: (ö. 732/1332) || Chunk count: 1"
+}

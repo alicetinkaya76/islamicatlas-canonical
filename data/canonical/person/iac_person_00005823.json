@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00005823",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MURAD AĞA, Şeştârî"
+    },
+    "description": {
+      "tr": "1019’da (1610) doğdu. Aslen Nahcıvanlı bir Âzerî’dir. Sultan IV. Murad’ın Revan seferinden sonra İstanbul’a getirdiği on iki sanatkâr arasında yer alan Murad Ağa onu sâzende olan bu sanatkâr grubunun iki hânendesinden biridir. Evliya Çelebi onun çârtâ (çârtâr), Behcetî Hüseyin şeştâ, Ebûishakzâde Esad Efendi şeştâr çaldığından bahseder ve şeştâr ustası olmasından dolayı mûsikişinaslar arasında Şeştârî Murad Ağa olarak tanınır. Şöhretinin en parlak zamanı IV. Murad ile (1623-1640) IV. Mehmed (1648-1687) devirleri arasıdır. İstanbul’a gelince Beşiktaş semtine yerleşti ve daha sonra burada vefat etti. Hezargradlı Hüseyin Behcetî vefatına, “İtdi âheng-i fenâ hayf bem-i sâz-ı Murâd” mısraını tarih düşürmüştür (Ergun, II, 785). Murad Ağa, tabii ses güzelliğinin yanı sıra şeştârîliği ve özellikle bestelediği eserlerle dönemin önemli mûsikişinasları arasında yer almıştır. Doğduğu yörede almaya başladığı ilk mûsiki bilgilerini İstanbul’da çeşitli hocalardan aldığı derslerle ilerleterek üstat seviyesine ulaştı. Behcetî’nin tarih manzumesinde şairliğinden de söz edilen Murad Ağa’nın beste, nakış ve şarkı formlarında 100’e yakın eser bestelediği Atrabü’l-âsâr ’da kaydedilmiştir. Günümüze bunlardan sadece kârçe, beste ve semâi formlarında hepsinin de sözleri Farsça olan beş bestesi ulaşmıştır. Bazı güfte mecmualarında bu eserlerin bir kısmının Abdülkādir-i Merâgī adına kaydedildiği görülmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 185 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:murad-aga-sestari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=murad-aga-sestari, https://islamansiklopedisi.org.tr/murad-aga-sestari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:murad-aga-sestari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/murad-aga-sestari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:44Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=murad-aga-sestari (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1084,
+    "start_ce": 1673,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=murad-aga-sestari, URL: https://islamansiklopedisi.org.tr/murad-aga-sestari || DİA death-date string: (ö. 1084/1673) || Chunk count: 1"
+}

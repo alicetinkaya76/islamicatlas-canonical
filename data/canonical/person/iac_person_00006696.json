@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00006696",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ŞARKĪ b. KUTÂMÎ",
+      "ar": "الشرقي بن القطامي"
+    },
+    "originalScript": {
+      "ar": "الشرقي بن القطامي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Müsennâ el-Velîd b. el-Husayn b. Cemmâl b. Habîb el-Kutâmî el-Kelbî"
+      ]
+    },
+    "description": {
+      "tr": "Benî Kelb kabilesine mensuptur. Kûfe’de doğdu ve orada yetişti. Bu arada kelâm dersleri aldı. Lokmân b. Âmir ve Mücâlid b. Saîd gibi âlimlerden rivayette bulundu. Özellikle ensâb, ahbâr, eyyâmü’l-Arab, şiir, dil ve edebiyat alanında kendini yetiştirdi. Abbâsî Halifesi Ebû Ca‘fer el-Mansûr (754-775) oğlu Mehdî-Billâh’a hocalık yapması için onu Bağdat’a getirtti ve kendisinden oğlunu eyyâmü’l-Arab, ahbâr ve şiir yanında güzel ahlâkla yetiştirmesini istedi. Şarkī on civarında hadis rivayet etmiş, fakat güvenilir bir râvi olmadığı söylenmiştir. Kendisinden kadim Arap haberleri, anekdot ve hikâyeler, özellikle aşk hikâyeleri nakledilmiş, garîb kelimeler, tarih ve coğrafyaya ilişkin bazı bilgiler aktarılmıştır. Bu alanlarda ilk râvilerden olan ve bir gözü görmeyen Şarkī 153 (770) veya 155 (772) yılında vefat etti. Şarkī b. Kutâmî’den rivayette bulunan öğrencileri arasında kendisinden daha çok tanınan, Kitâbü’l-Eṣnâm ve Cemheretü’n-neseb müellifi İbnü’l-Kelbî, Medâinî ve Yezîd b. Hârûn anılmaktadır. Kaynaklarda Şarkī’ye ait herhangi bir eserden söz edilmez. Ancak İbnü’n-Nedîm onun garîb kelimelere dair bir kasidesinin bulunduğunu söylemektedir ( el-Fihrist , s. 90). Şarkī’den intikal eden ahbârın önemli bir kısmı ve diğer bazı rivayetleri, Câhiz’in el-Beyân ve’t-tebyîn ’i ile Kitâbü’l-Ḥayevân ’ı, Taberî’nin Târîḫ ’i ve Mes‘ûdî’nin Mürûcü’ẕ-ẕeheb ’i gibi eserlerde yer almaktadır. Onun otorite sayıldığı alanlardan biri de Arap atasözleri ve mesellerinin ortaya çıkmasına sebep teşkil eden olay ve hikâyelerdir. Bu konudaki rivayetleri genellikle orijinal bir nitelik taşımaktadır. Söz konusu bilgiler, W. Heinrichs tarafından yazılan bir makalede birçok örnek verilerek değerlendirilmiştir (bk. bibl.). Şarkī’den rivayet edilen Arap atasözleriyle onların hikâyelerine ilişkin nakiller Mufaddal ed-Dabbî, Ebû İkrime ed-Dabbî, Ebû Ubeyd el-Bekrî, Ebû Ubeyd Kāsım b. Sellâm, Hamza el-İsfahânî, Mufaddal b. Seleme, Ebü’l-Mehâsin eş-Şeybî, Zeyd b. Rifâa, Ebû Hilâl el-Askerî, Ahmed b. Muhammed el-Meydânî ve Zemahşerî gibi emsal yazarlarının kitaplarıyla Câhiz’in Kitâbü’l-Ḥayevân ’ı ve Ebû Mansûr es-Seâlibî’nin S̱imârü’l-ḳulûb ’u gibi eserlerde yer almaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 38. cildinde, 360 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:sarki-b-kutami",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=sarki-b-kutami, https://islamansiklopedisi.org.tr/sarki-b-kutami",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:13236",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=13236, heading_ar=شرقي بن القطامي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:53Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=sarki-b-kutami (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[13236]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=13236 (heading_ar=شرقي بن القطامي) via Track A (DİA→Alam xref bridge). dt=Edebiyat ve soy bilimi âlimi"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kutâmî; Kelbî"
+  ],
+  "death_temporal": {
+    "start_ah": 155,
+    "start_ce": 772,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=sarki-b-kutami, URL: https://islamansiklopedisi.org.tr/sarki-b-kutami || El-Aʿlām (Ziriklī) cross-reference: alam_id=[13236] || DİA birth place: Kûfe || DİA death-date string: (ö. 155/772 [?]) || DİA categories: rivayet > şiir > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=13236, heading_ar=شرقي بن القطامي, dt=Edebiyat ve soy bilimi âlimi",
+  "active_in_places": [
+    "iac:place-00010482"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00001202",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AVÂNE b. HAKEM",
+      "ar": "عوانة بن الحكم"
+    },
+    "originalScript": {
+      "ar": "عوانة بن الحكم"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hakem Avâne b. Hakem b. Avâne el-Kelbî el-Kûfî"
+      ]
+    },
+    "description": {
+      "tr": "109 (727) yılında bir süre Horasan valiliğine vekâlet eden ve daha sonra da Sind valisi olan Hakem b. Avâne’nin oğludur. Doğum tarihi kesin olarak bilinmemektedir. Muhtemelen 90 (709) yılından önce Kûfe’de doğmuştur. Kelb kabilesine mensup olduğuna dair rivayetler yanında bunun sonradan uydurulduğunu ileri sürenler de vardır. Doğuştan âmâ olan Avâne’nin hayatı hakkında fazla bilgi bulunmamaktadır. İbnü’n-Nedîm’e göre 147 (764), Medâinî’ye göre ise 158 (775) yılında vefat etmiştir. Arap şiiri ve ensâb ıyla Emevîler’in ilk dönemi hakkında geniş bilgiye sahip olan Avâne İslâmî devirde kitabına “tarih” adını veren ilk müelliftir. Avâne b. Hakem’in kaynaklarda zikredilen, ancak günümüze ulaşmayan iki eseri vardır. 1. Kitâbü’t-Târîḫ . Hicrî I. yüzyılda meydana gelen olaylara ayrılan eser, yapılan nakiller dikkate alınırsa, dört halife dönemini, irtidad hareketleri, fetihler, Hz. Ali-Muâviye mücadelesi, Hz. Hasan’ın halifelikten feragat etmesi ve Abdülmelik b. Mervân devri sonuna kadar Irak ve Suriye’de vuku bulan olayları ihtiva etmektedir. 2. Sîretü Muʿâviye ve Benî Ümeyye . İslâm dünyasında bir halife ve hânedan hakkında kaleme alınmış ilk kitap olması bakımından ayrı bir önemi vardır. Müellif bu eserinde kronolojik sırayı takip ederek Emevî halifelerine dair bilgi verir. Her iki eser de şiirden ve hikâye üslûbundan arınmamış olmakla beraber İslâm tarih yazıcılığının gelişmesinde önemli bir merhale teşkil eder. Aynı zamanda bu iki eser İbnü’l-Kelbî, Asmaî, Heysem b. Adî, Ziyâd b. Abdullah el-Bekkâî, Medâinî, Belâzürî ve Taberî gibi tarihçilere kaynak olmuştur. Emevîler hakkında verdiği bilgilerde, Kelb kabilesi mensuplarıyla, olayları bizzat görmüş kişilerden veya onların yakınlarından duyduğu rivayetlere istinat etmiş olması eserlerine ayrı bir değer kazandırmaktadır. Ancak olayları anlatırken çok defa Emevîler lehindeki Suriye kaynaklı rivayetlere ağırlık verdiği görülmektedir. Bu yüzden Emevî taraftarı olmak ve onların lehinde haber uydurmakla itham edilmiştir. Bununla beraber ondan yapılan nakillerde zaman zaman Emevî aleyhtarı Irak ve Medine menşeli rivayetlere de rastlanmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 107 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:avane-b-hakem",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=avane-b-hakem, https://islamansiklopedisi.org.tr/avane-b-hakem",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=avane-b-hakem (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kelbî"
+  ],
+  "birth_temporal": {
+    "start_ah": 109,
+    "start_ce": 727,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 147,
+    "start_ce": 764,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=avane-b-hakem, URL: https://islamansiklopedisi.org.tr/avane-b-hakem || DİA death place: Kûfe || DİA death-date string: (ö. 147/764 [?]) || DİA categories: rivayet || Chunk count: 1",
+  "students": [
+    "iac:person-00005290"
+  ]
+}

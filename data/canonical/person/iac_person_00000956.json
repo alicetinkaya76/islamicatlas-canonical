@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00000956",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ el-ESVÂRÎ",
+      "ar": "عليّ الأسواري"
+    },
+    "originalScript": {
+      "ar": "عليّ الأسواري"
+    },
+    "description": {
+      "tr": "İsfahan’ın Esvârî (veya Esvâriyye, bk. Yâkūt, I, 190-191) köyüne mensup olduğu için bu nisbe ile anıldığı sanılmaktadır. Bazı kaynaklarda kendisinden Ebû Ali künyesiyle de söz edilir. Hayatı hakkında yeterli bilgi yoktur. Önceleri Mu‘tezile âlimlerinden Ebü’l-Hüzeyl el-Allâf’a intisap ederek onun en seçkin öğrencileri arasında yer almışken daha sonra Bağdat’a gidip burada Nazzâm ile yaptığı münazaralar neticesinde onun fikirlerini benimsemiştir. Mu‘tezile’nin Basra ekolüne mensup olan Esvârî’ye göre Allah’ı zulme, yalana ve aslah olanı terketmeye kadir olmakla vasıflandırmak câiz olmadığı gibi, müminlere ve çocuklara azap etmekle vasıflandırmak da mümkün değildir. Çünkü eksiklik ve ihtiyaç anlamı taşıyan bu vasıflar ulûhiyyet kavramıyla bağdaşmaz. Âlemdeki her şey Allah’ın ezelî ilmine göre meydana gelir. Hiçbir varlık ve olay bu ezelî bilginin dışına çıkamaz (bk. İbn Hazm, V, 64). Ebü’l-Hüzeyl’in, “Allah, olmayacağını bildiği veya ortaya çıkmayacağını haber verdiği şeyleri de yaratmaya kadirdir” şeklindeki sözlerine karşı çıkan Esvârî’ye göre bu husus şöyle ifade edilmelidir: “Allah eşyayı yaratmaya kadirdir ve Allah bir şeyin olmayacağını bilir veya ortaya çıkmayacağını haber verir.” Esvârî, bu düşüncesiyle Allah’ın irade ve kudretini sınırladığı ve beşerî kudreti daha üstün gösterdiği iddia edilerek, muhalifleri tarafından tekfir edilmiştir. Ona göre insanın esası kalbinde bulunan ruhundan ibarettir. Ruhun görülmesi ise imkânsızdır (bk. Kādî Abdülcebbâr, el-Muġnî , XI, 311). Bazı mezhepler tarihi kaynakları, Esvârî’nin görüşlerini onun adına nisbetle Esvâriyye diye anılan bir fırkaya atfediyorsa da onun bir fırka teşkil edecek genişlikte taraftarlarının bulunduğu tesbit edilememiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 391-392 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-el-esvari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-el-esvari, https://islamansiklopedisi.org.tr/ali-el-esvari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ali-el-esvari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ali-el-esvari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-el-esvari (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Mu'tezilî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 240,
+    "start_ce": 854,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-el-esvari, URL: https://islamansiklopedisi.org.tr/ali-el-esvari || DİA death-date string: (ö. 240/854) || DİA categories: mezhep || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002362",
+    "iac:person-00006028"
+  ]
+}

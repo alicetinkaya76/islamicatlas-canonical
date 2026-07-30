@@ -1,0 +1,65 @@
+{
+  "@id": "iac:person-00002333",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÜ’l-BAHTERÎ, Saîd b. Fîrûz",
+      "ar": "أبو البختري سعيد بن فيروز"
+    },
+    "originalScript": {
+      "ar": "أبو البختري سعيد بن فيروز"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Bahterî Saîd b. Fîrûz et-Tâî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Arap olmayıp Tay kabilesinin mevâlî sindendir. Kûfe’de yaşadığı için Kûfî nisbesiyle ve İbn Ebû İmrân diye de anılır. Ebû Berze el-Eslemî, İbn Abbas, İbn Ömer, Ebû Saîd el-Hudrî gibi sahâbîlerden hadis rivayet etti. Kendisinden de Amr b. Mürre, Atâ b. Sâib, Habîb b. Ebû Sâbit, Yezîd b. Ebû Ziyâd gibi tâbiîler rivayette bulundular. Ebû Berze, Hz. Ömer, Ali, Huzeyfe b. Yemân, Selmân ve İbn Mes‘ûd gibi sahâbîlerden duyduğu bazı hadisleri bizzat Hz. Peygamber’den duymuş gibi rivayet etmesi sebebiyle bazı âlimlerce tenkit edildi. İbn Sa‘d onun hocalarından bizzat duyduğu rivayetleri hasen, böyle olmayanları ise zayıf saymaktadır. Yahyâ b. Maîn, Ebû Hâtim er-Râzî, Ebû Zür‘a er-Râzî ve daha başkaları onu güvenilir bir âlim olarak kabul etmiş, rivayetleri Kütüb-i Sitte ’de yer almıştır. Kûfe’nin ileri gelen fakihlerinden hadis hâfızı Habîb b. Ebû Sâbit, bir defasında Ebü’l-Bahterî ve tanınmış hadis hâfızı, mukrî ve müfessir Saîd b. Cübeyr ile bir araya gelip sohbet ettiklerinden söz ederken içlerinde en âlim olanın ve fıkhı en iyi bilenin Ebü’l-Bahterî olduğunu söylemiştir. Ebü’l-Bahterî, Halife Abdülmelik b. Mervân’ın Kûfe valisi Haccâc’a karşı isyan eden İbnü’l-Eş‘as’ı destekleyen âlim, kurrâ ve zâhidlerin önde gelenlerinden biriydi. Kurrânın onu kendilerine kumandan yapmak istemeleri üzerine bu görevi Araplar’dan birine vermenin daha isabetli olacağını söyleyerek teklifi kabul etmedi. İbn Sîrîn’in belirttiğine göre yakın arkadaşları ona bir emîr gibi saygı gösterirlerdi. Haccâc’a karşı yapılan Deyrülcemâcim Savaşı’nda 82 (701) yılında öldürüldü. Onun yine İbnü’l-Eş‘as’la birlikte Bağdat yakınlarındaki Düceyl’de 83 (702) yılında öldürüldüğünü söyleyenler de vardır. Ebü’l-Bahterî bir ağıt duyunca hemen ağlayacak kadar yufka yürekli ve son derece mütevazi bir kimseydi. “İçlerinde en âlimi olduğum kimselerin arasında bulunmaktansa benden daha âlim kimselerle beraber olmayı tercih ederim” derdi. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 296-297 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebul-bahteri-said-b-firuz",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebul-bahteri-said-b-firuz, https://islamansiklopedisi.org.tr/ebul-bahteri-said-b-firuz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:58Z",
+    "modified": "2026-05-04T15:33:58Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebul-bahteri-said-b-firuz (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 82,
+    "start_ce": 701,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebul-bahteri-said-b-firuz, URL: https://islamansiklopedisi.org.tr/ebul-bahteri-said-b-firuz || DİA death-date string: (ö. 82/701 [?]) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

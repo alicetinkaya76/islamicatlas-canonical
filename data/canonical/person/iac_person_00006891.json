@@ -1,0 +1,61 @@
+{
+  "@id": "iac:person-00006891",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Şeref Hanim"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Şair Mehmed Nebîl Bey’in kızıdır. Soyu baba tarafından Sadrazam Abdullah Nâilî Paşa’ya, annesi Şerife Nakiye Hanım tarafından Şeyhülislâm Âşir Efendi’ye ulaşmaktadır. Büyük babası Vak‘anüvis Halil Nûri Bey aynı zamanda şairdi. Yakacık semtinin hayatında özel bir yeri olduğu şiirlerinden anlaşılmaktadır. Şeref Hanım, Kādirî muhibbi ise de esas olarak Yenikapı Mevlevîhânesi şeyhi Osman Selâhaddin Dede’ye bağlıydı. Vefatında Yenikapı Mevlevîhânesi’nde Muhibler Kabristanı’na defnedildi. Şeref Hanım’ın bazı şiirlerinde maddî sıkıntı çektiği, akrabalarından kalan borçları ödemek zorunda kaldığı belirtilmektedir. Bu husus onun hiç evlenmediğini düşündürmektedir. Sıkıntılarını Sadrazam Âlî Paşa’ya bildirdiği, maaşı olmadığını söyleyerek ondan yardım istediği ve kendisine aylık 200 kuruş maaş bağlandığı divanında Âlî Paşa’ya teşekküründen anlaşılmaktadır. XIX. yüzyılın üç kadın şairinden biri olan Şeref Hanım’ın divanında yirmi bir farklı nazım şekliyle yazılmış toplam 4803 beyit tutarında 677 şiir yer almaktadır. Kullandığı nazım biçimleri, ele aldığı konular, dili ve ifade özellikleri bakımından kadın şairler arasında önemli bir yer kazanmıştır. Dili sade ve nazım tekniği güçlü kabul edilen Şeref Hanım divan edebiyatının klasik mazmunlarına ve benzetmelere şiirlerinde yer vermiştir. Divanındaki birçok şiirde zekâsı, esprisi, bazan da bunların altında gizlenen sitem ve hüzün görülmektedir. Devrine göre serbest ve rahat söyleyişleri garip karşılanan şairin Nedîm tarzı şuh ve şen söyleyişlerinin yanı sıra Nâbî ve Koca Râgıb Paşa tarzında hakîmâne beyitleri de vardır. Daha çok felekten şikâyet, kadere rıza, ehl-i dilin dünyada rahat yüzü görmemesi gibi konuları işlemektedir. Şeref Hanım’ın divanında Mevlânâ Celâleddîn-i Rûmî’ye dair altı manzumede yetmiş kadar beyit yer almaktadır. Ayrıca muhibbi olduğu Kādirî tarikatının kurucusu Abdülkādir-i Geylânî’ye ait dört manzumesi vardır. Bunların yanında Şeref Hanım Kerbelâ mersiyeleriyle tanınmıştır. Nitekim her yıl muharrem ayında bir mersiye kaleme aldığı kaynaklarda belirtilmekte ve divanında 689 beyit halinde on altı mersiye bulunmaktadır. Şeref Hanım’ın tek nüshası bilinen divanı (İÜ Ktp., TY, nr. 2808) basılmış (İstanbul 1284, 1292), eser ayrıca Mehmet Arslan tarafından yayımlanmıştır (İstanbul 2002). Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 38. cildinde, 550 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:seref-hanim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=seref-hanim, https://islamansiklopedisi.org.tr/seref-hanim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:56Z",
+    "modified": "2026-05-04T15:40:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=seref-hanim (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1809,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=seref-hanim, URL: https://islamansiklopedisi.org.tr/seref-hanim || DİA birth place: İstanbul || DİA death-date string: (1809-1861) || DİA categories: tarikat > şiir || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

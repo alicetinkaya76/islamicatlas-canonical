@@ -1,0 +1,70 @@
+{
+  "@id": "iac:person-00007367",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "TOLAN, Hüseyin"
+    },
+    "description": {
+      "tr": "Selânik’in Karaferye kasabasında doğdu. Babası Karanfilzâde Bekir Efendi, annesi Safiye Hanım’dır. Çocukluk yılları hakkında bilgi yoktur. 1924’te ailece Türkiye’ye göç ederek İstanbul’a yerleştiler. Bir süre Altunizade’de ikamet ettikten sonra Karagümrük’e taşındılar. Hüseyin ortaokulu bitirince Beyazıt Camii ikinci imamı İsmail Efendi’nin (Atay) (Sarı İmam) yanında hıfzını tamamladı. Daha sonra aldığı derslerle iyi bir mevlidhan, gazelhan ve Kur’an okuyucusu olarak yetişti. İstanbul Belediyesi Mezarlıklar Müdürlüğü’ne din görevlisi tayin edildi. Asıl mesleği olan ayakkabıcılığa Kapalı Çarşı’daki dükkânında devam etti. 1970-1975 yılları arasında Mahmutpaşa’da Gürün Han’da imamlık yaptı. 23 Ocak 1976’da Karagümrük’teki evinde kalp krizinden öldü ve Topkapı Çamlık Mezarlığı’na defnedildi. Tabii ses güzelliğinin yanı sıra bestelediği dinî ve din dışı eserleriyle tanınan Hüseyin Tolan’ın mûsikideki ilk hocası Ali Rıza Şengel’dir. 1928’lerde Şengel’den nota, usul ve makam bilgileri alarak başladığı mûsiki çalışmalarını Refik Fersan, Fahire Fersan, Münir Nurettin Selçuk, Refik Talat Alpman gibi üstatların yanında nazariyat ve üslûp dersleriyle sürdürdü. Ali Rıza Şengel’in tavsiyesi üzerine Süleymaniye Camii başmüezzini Hâfız Kemal’den mevlid ve gazel tavrı meşketti, ayrıca Vildan Niyazi Ayomak’tan iki yıl kadar mûsiki nazariyatı dersleri aldı. 1940 yılında İstanbul Belediye Konservatuvarı İcra Heyeti’ne okuyucu olarak alındıysa da altı ay sonra istifa etti. Ardından kendini tamamen mûsiki çalışmalarına verdi. Selahattin Pınar, Sadettin Kaynak, Kemal Batanay gibi hocalardan faydalandı. Çarşılı Hüseyin diye tanınan Hüseyin Tolan uzun süre evinde talebelere dinî eserler meşketti ve pek çok talebe yetiştirdi. Bunlar arasında Hüsnü Yetişken, Dursun Çakmak, Necdet Tanlak, İzzet Eskidemir ve Ahmet Muhtar Gölge en tanınmışlarıdır. Bestekârlığa 1939 yılında başlayan ve bestelerinde “Bekirzâde” mahlasını kullanan Hüseyin Tolan’ın ilk eseri, “Zannederim gönlümü bir şûha bağlarsam geçer” mısraıyla başlayan ferahfezâ şarkısıdır. Eserlerinden tesbit edilen üç tevşîh, üç ilâhi, on bir şarkı ve bir köçekçesinin listesini Öztuna (bk. bibl.), bestelerinin güftelerini Rona (bk. bibl.) neşretmiştir. “Evliyâdan himmet aldım” mısraıyla başlayan dügâh, “Bir seher vaktiydi doğdu habîb-i kibriyâ” mısraıyla başlayan rast tevşîhleriyle, “Kullarında yok sana lâyık metâ” mısraıyla başlayan ısfahan ramazan ilâhisi günümüzde de okunan eserlerinden bazılarıdır. Ali Rıza Şengel’in dinî eserlerden oluşan iki defterinden birinin Hüseyin Tolan’ın vârislerinde olduğu söylenmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2012 yılında İstanbul’da basılan 41. cildinde, 232-233 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:tolan-huseyin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=tolan-huseyin, https://islamansiklopedisi.org.tr/tolan-huseyin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:02Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=tolan-huseyin (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1910,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=tolan-huseyin, URL: https://islamansiklopedisi.org.tr/tolan-huseyin || DİA birth place: Karaferye || DİA death place: Karagümrük || DİA death-date string: (1910-1976) || DİA categories: şiir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002737",
+    "iac:person-00003032",
+    "iac:person-00004806",
+    "iac:person-00006293",
+    "iac:person-00006808",
+    "iac:person-00006876"
+  ],
+  "students": [
+    "iac:person-00001684"
+  ]
+}

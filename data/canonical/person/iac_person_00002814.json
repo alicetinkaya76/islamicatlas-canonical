@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00002814",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "GABRIELI, Giuseppe"
+    },
+    "description": {
+      "tr": "Calimera’da (Lecce) doğdu. 1895’te Floransa Üniversitesi Edebiyat Fakültesi’nden, 1899’da Napoli Kraliyet Şarkiyat Enstitüsü’nden mezun oldu. Arapça ve özellikle Doğu kitapları üzerinde bilgisini derinleştirdikten sonra 1903 yılında Roma’daki Avrupa’nın en eski ilmî kuruluşlarından Reale Accademia dei Lincei’de kütüphaneci olarak çalışmaya başladı ve ölümüne kadar bu görevde kaldı. Bir süre Roma Üniversitesi’nde Arapça dersleri verdiyse de asıl kadroya geçmedi. Alanında güçlü bir araştırmacı olarak tanındı. Bu arada Leone Caetani’nin Annali dell’Islam başta olmak üzere çeşitli eserlerine kaynak sağladı; ayrıca onun Onomasticon arabicum adlı kitabıyla ilgili çalışmalarına katıldı. Caetani’nin ve şarkiyatçı Celestino Schiaparelli’nin kitaplarının akademi kütüphanesine kazandırılmasında ve buranın bir İslâm araştırma merkezi haline getirilmesinde en büyük pay Gabrieli’nindir. Gabrieli şarkiyat âlemine sunduğu iki büyük çalışması ile sahasında müstesna bir yer edindi. Bunların ilki Manuale di bibliografia musulmana (Roma 1916), ikincisi İtalya kütüphanelerinde bulunan yazmalara ve vesikalara ait Manoscritti e carte orientali nelle biblioteche e negli archivi d’Italia: Dati statistici e bibliografici delle collezioni, loro storia e catalogazione (Firenze 1930) adındaki değerli kılavuz ile buna yaptığı ektir (“Documenti orientali nelle biblioteche e negli archivi d’Italia”, Accademie e Biblioteche d’Italia , VII [1933], s. 287-304). Gabrieli yalnız şarkiyat üzerine çalışmamış, diğer edebiyat ve kültür alanlarına da eğilerek değişik dallarda birçok eser vermiştir. Oğlu Francesco Gabrieli tarafından hazırlanan bibliyografyasına göre sayıları 249 olan araştırmalarının altmış dokuzu şarkiyata, seksen dokuzu Accademia dei Lincei’nin tarihine, on ikisi bibliyografyaya, otuz biri dinî ve etnik araştırmalara, otuz biri mahallî tarihe ve geriye kalanlar da daha farklı konulara aittir ve aralarında çeşitli metin neşirleri de bulunmaktadır. Bu çalışmalardan Accademia dei Lincei üzerine olan makalelerin tamamı akademi tarafından topluca iki büyük cilt halinde ilim âlemine sunulmuştur (Giuseppe Gabrieli, Contributi alla Storia dell’Accademia dei Lincei , Roma 1989). Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 278 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    },
+    "altLabel": {
+      "tr": [
+        "Joseph Mazzini"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:gabrieli-giuseppe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=gabrieli-giuseppe, https://islamansiklopedisi.org.tr/gabrieli-giuseppe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "alatli:E0168",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=batiya",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:05Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:05Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=gabrieli-giuseppe (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-2 conf 1.0): ['authority_xref', 'altLabel.tr', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1872,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=gabrieli-giuseppe, URL: https://islamansiklopedisi.org.tr/gabrieli-giuseppe || DİA death-date string: (1872-1942) || Chunk count: 1",
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q187336",
+      "confidence": 1.0,
+      "method": "imported_from_source",
+      "reviewed": false,
+      "note": "Alatlı (Tarihe Yön Veren Metinler): Tier-2 ad+ölüm eşleşmesi; QID Wikidata tarih-teyitli."
+    }
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

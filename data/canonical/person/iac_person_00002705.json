@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00002705",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Fedâlî",
+      "ar": "الفضالي"
+    },
+    "originalScript": {
+      "ar": "الفضالي"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Muhammed b. Şâfi‘ el-Fedâlî"
+      ]
+    },
+    "description": {
+      "tr": "Mısır’ın Delta bölgesinde bulunan Fedâle’de doğdu. Hayatı ve ilmî faaliyetleri hakkında fazla bilgi yoktur. Sadece son devir Eş‘arî kelâmcılarından İbrâhim b. Muhammed el-Bâcûrî’nin hocası olduğu ve kelâm ilmine dair iki eser yazdığı bilinmektedir. Şöhretini daha çok Ezher şeyhliği yapmış bulunan Bâcûrî’nin hocası olmasına borçludur. Senûsî’den sonra Burhâneddin el-Lekānî, Bâcûrî vb. Mısırlı ve Kuzey Afrikalı âlimler gibi o da Eş‘ariyye’nin son dönem temsilcilerinden sayılır. Kelâm ilmine önemli bir katkıda bulunmamış, sadece geçmiş âlimlerin görüşlerini tekrarlayarak teyit etmiştir. Eserleri. 1. Kifâyetü’l-ʿavâm fîmâ yecibü ʿaleyhim min ʿilmi’l-kelâm . Muhammed b. Yûsuf es-Senûsî’nin akaide dair Ümmü’l-berâhîn adlı eserine yapılmış bir şerhtir. Klasik kelâm kitapları tarzında kaleme alınan eserin Gazzâlî’nin İlcâmü’l-ʿavâm ’ına reddiye olarak yazıldığı kabul edilir. Her ne kadar kitapta bu hususu belirten bir ifade yoksa da üzerinde durulan itikadî konulara iman etmenin bir ayırım yapmaksızın bütün müslümanlara farz olduğunu belirten açıklamalar yanında eserin taşıdığı isim de bu intibaı uyandırmaktadır. Mukaddimede aklî hükümler (vâcip, câiz ve müstahîl) incelendikten sonra Allah ile peygamberler hakkında inanılması farz olan hususlar elli madde halinde sıralanır. Allah’a nisbet edilmesi vâcip olan sıfatlar “selbî”, “meânî” ve “mânevî” şeklinde kısımlara ayrılarak yirmi maddede, yetkinlik sıfatlarının zıddı olup O’na atfedilmesi imkânsız bulunan sıfatlar da yine yirmi maddede ele alınır. Allah için câiz olan sıfat ise mümkini yaratıp yaratmamak şeklinde ifade edilir. Peygamberler hakkında vâcip ve müstahîl olan nitelikler de on madde halinde sayılarak elli sayısı tamamlanır. Eser iman konusunu işleyen bir hâtime ile sona erer. Fedâlî’nin öğrencisi İbrâhim el-Bâcûrî esere Taḥḳīḳu’l-maḳām ʿalâ Kifâyeti’l-ʿavâm adıyla bir hâşiye yazmıştır. Çeşitli nüshaları bulunan Kifâyetü’l-ʿavâm (meselâ bk. Süleymaniye Ktp., Hacı Mahmud Efendi, nr. 936/2) hâşiyesiyle birlikte defalarca basılmıştır (Bulak 1285; Kahire 1298). Duncan Black Macdonald Kifâyetü’l-ʿavâm ’ı İngilizce’ye çevirerek Development of Muslim Theology adlı kitabı içinde yayımlamıştır (s. 315-351). 2. Risâle ʿalâ lâ ilâhe illallāh (Risâle fî kelimeti’t-tevḥîd) . Bâcûrî bu esere de bir hâşiye yazmış ve her ikisi birlikte yayımlanmıştır (Kahire 1291, 1301; Bombay 1296). Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 293 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:fedali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=fedali, https://islamansiklopedisi.org.tr/fedali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:fedali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=fedali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=fedali (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=fedali)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Fedâlî"
+  ],
+  "laqab": [
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 1236,
+    "start_ce": 1820,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=fedali, URL: https://islamansiklopedisi.org.tr/fedali || DİA birth place: Fedâle || DİA death-date string: (ö. 1236/1820-21) || DİA categories: kelâm || Chunk count: 1",
+  "students": [
+    "iac:person-00001269",
+    "iac:person-00002560"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@id": "iac:person-00020994",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Osman dan Fodio",
+      "ar": "عثمان دان فوديو"
+    },
+    "description": {
+      "tr": "Kurucu; 1218/1804 hicret ve cihat; Emîrü'l-Mü'minîn; Hausa devletlerini fethetti; kardeşi Abdullah Gwandu'da ortak yönetici",
+      "en": "Usman dan Fodio was the founder of the Sokoto Caliphate, the largest Islamic state in nineteenth-century West Africa. From a Fulani scholarly family, Usman launched a Sunni reformist movement against syncretic Islamic practices in the region. He authored numerous works in theology, jurisprudence, and Sufism. The Sokoto Caliphate established through his jihad movement survived until 1903. He also advocated for women's education.",
+      "ar": "عثمان دان فوديو مؤسس خلافة صوكوتو اعظم دولة اسلامية في غرب افريقيا في القرن التاسع عشر. من اصل فولاني من اسرة عالمة بدأ عثمان حركة اصلاحية سنية ضد الممارسات الاسلامية التوفيقية في المنطقة. الف كتبا عديدة في الكلام والفقه والتصوف. استمرت خلافة صوكوتو التي قامت نتيجة حركته الجهادية حتى عام ١٩٠٣. دافع عن تعليم النساء ايضاتأثر عثمان بالتقاليد الإسلامية العريقة في تمبكتو وغيرها من مراكز العلم في غرب أفريقيا. خلّف وراءه تراثاً علمياً ضخماً يضم أكثر من مئة مؤلف باللغات العربية والفولانية والهوسا. توفي عام ١٨١٧ تاركاً إرثاً حضارياً عميقاً في المنطقة."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:61:ruler:0",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-061, ruler #1",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+      },
+      {
+        "source_id": "scholars:212",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=212",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:15:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:15:57Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:15:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Promoted from inline rulers[0] of iac:dynasty-00000061 (The Fulani Rulers in Hausaland, as Sultans and Caliphs of Sokoto) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[0].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['prefLabel.ar', 'description.en', 'description.ar', 'nisba']."
+      }
+    ],
+    "deprecated": false
+  },
+  "affiliated_dynasties": [
+    "iac:dynasty-00000061"
+  ],
+  "laqab": [
+    "Amīr al-Mu'minīn / Sultān"
+  ],
+  "floruit_temporal": {
+    "start_ce": 1804,
+    "end_ce": 1817,
+    "start_ah": 1218,
+    "end_ah": 1232,
+    "approximation": "floruit"
+  },
+  "death_temporal": {
+    "start_ce": 1817,
+    "approximation": "circa",
+    "start_ah": 1232,
+    "note": "Inferred from Bosworth reign_end (often ≈ year of death)."
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q380452",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Osman dan Fodio')."
+    }
+  ],
+  "note": "Bosworth relation note: — || Bosworth death code: d. || Promoted from iac:dynasty-00000061 rulers[0] (Bosworth NID-061).",
+  "nisba": [
+    "Fulânî"
+  ]
+}

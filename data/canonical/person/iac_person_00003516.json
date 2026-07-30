@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003516",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÜR b. YEZÎD",
+      "ar": "الحرّ بن يزيد"
+    },
+    "originalScript": {
+      "ar": "الحرّ بن يزيد"
+    },
+    "altLabel": {
+      "tr": [
+        "el-Hürr b. Yezîd et-Temîmî er-Riyâhî el-Yerbû‘î"
+      ]
+    },
+    "description": {
+      "tr": "Temîm kabilesine mensuptur. Kaynaklarda, Irak Valisi Ubeydullah b. Ziyâd tarafından Hz. Hüseyin’e karşı gönderilen öncü süvari birliğinin kumandanı olarak gösterilir. Hz. Hüseyin’in aile fertleri ve bazı taraftarlarıyla birlikte Mekke’den Kûfe’ye doğru yola çıktığını haber alan Ubeydullah b. Ziyâd, 1000 kişilik bir kuvvetin başına getirdiği Hür b. Yezîd’i onun hareketini takip etmekle görevlendirdi. Diğer bir rivayete göre ise bu görevi veren Kûfe sâhibü’ş-şurtası Husayn b. Nümeyr’dir (Taberî, V, 401). Hür b. Yezîd’in birliğiyle Hz. Hüseyin’in kafilesi Kûfe yakınlarındaki Zûhusüm’de karşılaştılar. Hz. Hüseyin, yolculuğunun sebebini Kûfeliler’in kendisine gönderdiği davet mektuplarını göstererek açıklamaya çalıştıysa da Hür böyle bir şeyden haberinin bulunmadığını söyledi. Bunun üzerine Hz. Hüseyin geri dönmek istedi, fakat Hür ancak Medine ve Kûfe dışındaki bir yere gitmesine izin verebileceğini bildirdi. Anlaşma sağlanamayınca kafile önde, askerler arkada tekrar yola çıktılar ve Ninevâ bölgesindeki Kerbelâ’ya ulaşınca burada konaklamaya mecbur edildiler (2 Muharrem 61 / 2 Ekim 680). Çünkü Ubeydullah Hür b. Yezîd’e kafilenin sarp ve müstahkem yerlere sığınmasına engel olmasını ve Fırat nehriyle irtibatını kesmesini emretmişti. Ubeydullah b. Ziyâd, Rey valiliğine getirilen Ömer b. Sa‘d b. Ebû Vakkās’a da Hz. Hüseyin üzerine yürüyerek kısa sürede bu meseleyi halletmesini istedi. 9 Muharrem 61 (9 Ekim 680) günü Hz. Hüseyin üzerine yürümek için hazırlık yapan Ömer b. Sa‘d, Temîm ve Hemdân birliklerinin başına Hür b. Yezîd’i getirdi. Hz. Hüseyin’e karşı savaşmak istemeyen Hür, Ömer b. Sa‘d’ı saldırı planından vazgeçirmeye çalıştıysa da başaramadı. Hz. Hüseyin’in savaş başlamadan önce yaptığı konuşma üzerine onun saflarına geçti ve yaptıklarından dolayı özür diledi; daha sonra da kahramanca vuruşarak şehid düştü. Hür b. Yezîd’in soyundan gelen Hamdullah el-Müstevfî, onu bu çarpışmadaki ilk şehid olarak kaydeder ve kabrinin Kerbelâ’da olduğunu söyler ( Nüzhetü’l-ḳulûb , s. 32; a.mlf., Târîḫ-i Güzîde , s. 264-265). Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 494 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hur-b-yezid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hur-b-yezid, https://islamansiklopedisi.org.tr/hur-b-yezid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hur-b-yezid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hur-b-yezid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:15Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hur-b-yezid (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.95): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Temîmî; Yerbû"
+  ],
+  "death_temporal": {
+    "start_ah": 61,
+    "start_ce": 680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hur-b-yezid, URL: https://islamansiklopedisi.org.tr/hur-b-yezid || DİA death-date string: (ö. 61/680) || DİA categories: rivayet || Chunk count: 1"
+}

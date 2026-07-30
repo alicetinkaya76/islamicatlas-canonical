@@ -1,0 +1,59 @@
+{
+  "@id": "iac:person-00006673",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Sâmi Necmeddin"
+    },
+    "description": {
+      "tr": "23 Ocak 1911’de Üsküdar’da doğdu. Babası hattat Mehmed Necmeddin Okyay, annesi Seniye Hanım’dır. Ölümü soyadı kanunundan önce olduğu için ailenin Okyay soyadını kullanamamıştır. İlk, orta ve lise öğrenimini Üsküdar’da tamamladıktan sonra Sultanahmet’teki Yüksek İktisat ve Ticaret Mektebi’nden mezun oldu. Çocukluk yıllarında babasından ve onun geniş sanat çevresinden ebru, cilt ve tezhip dersleri almaya başladı. Kısa zamanda üstün yeteneğiyle bu sanatlarda öne çıktı ve klasik tarzda başarılı eserler ortaya koydu. Cilt sanatında “deri oygu” adını verdiği müşebbek şemse tarzını yeniden canlandırdı. Aynı zamanda klasik gömme kitap kapları hazırladı. Mücellit ve müzehhip Bahaeddin Efendi’den (Tokatlıoğlu) ders alarak tezhip ve ruganî cilt yapımını ilerletti. 1931 yılında cilt ve tezhip sanatında hocasından icâzet aldı. Bahaeddin Efendi, Topkapı Sarayı Müzesi Kütüphanesi’nde bulunan bazı kitapların tamiri için görevlendirildiğinde Sâmi Necmeddin hocasına yardımcı oldu. Bu çalışmaları sırasında ve ders aldığı yıllarda hocasının kitap sanatlarıyla ilgili görüş ve bilgilerini, özellikle tezhip ve cilt sanatında kullanılan terim ve tabirleri kaydederek bunların doğru bir şekilde günümüze ulaşmasında önemli rol oynadı. 12 Haziran 1933 tarihinde vefat eden Sâmi Necmeddin, Üsküdar Yeni Vâlide Camii’nde babasının kıldırdığı cenaze namazının ardından Karacaahmet Mezarlığı’na defnedildi. Cilt ve tezhip sahasında yaptığı pek çok eser arasında bilinenler şunlardır: Esad Fuad (Tugay) Bey için Kâmil Akdik’in 1931’de yazdığı en‘âm-ı şerifin bezemesi (TTK Ktp., nr. Y 298); Neyzen Emin Efendi’nin 1933’te yazdığı sülüs, nesih kıta bezemesi ve iki takım deri oygu kabı (Türk Petrol Vakfı Ktp., nr. 57, 114, 115); Şeyh Hamdullah tarafından yazılmış mushaf-ı şerifin hâtime sayfası tezhibi (TSMK, Yeniler, nr. 913). Bu madde TDV İslâm Ansiklopedisi’nin 2009 yılında İstanbul’da basılan 36. cildinde, 74 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:sami-necmeddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=sami-necmeddin, https://islamansiklopedisi.org.tr/sami-necmeddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:53Z",
+    "modified": "2026-05-04T15:34:53Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=sami-necmeddin (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1911,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=sami-necmeddin, URL: https://islamansiklopedisi.org.tr/sami-necmeddin || DİA birth place: Üsküdar || DİA death-date string: (1911-1933) || Chunk count: 1"
+}

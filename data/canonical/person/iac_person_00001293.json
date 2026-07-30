@@ -1,0 +1,98 @@
+{
+  "@id": "iac:person-00001293",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BÂHİLÎ, Ahmed b. Hâtim",
+      "ar": "أحمد بن حاتم الباهلي"
+    },
+    "originalScript": {
+      "ar": "أحمد بن حاتم الباهلي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Nasr Ahmed b. Hâtim el-Bâhilî"
+      ]
+    },
+    "description": {
+      "tr": "Basralı olduğu bilinmekte, ancak hayatı hakkında yeterli bilgi bulunmamaktadır. Asmaî’nin kız kardeşinin oğlu olduğu söylenmekte ise de bu doğru değildir. Asmaî, Ebû Ubeyde ve Ebû Zeyd el-Ensârî’den ilim tahsil eden Bâhilî, hocası Asmaî’nin lugat, edebiyat, şiir ve nahve dair bütün eserlerini rivayet etmiş, ayrıca adı geçen diğer hocalarından da rivayette bulunmuştur. Rivayetine ve ilmine güvenilir bir kimse idi. Bu sebeple Asmaî, onun kendisi hakkında söyleyeceği her şeyin doğru olacağını kabul ederdi. Kuvvetli bir hâfıza ve üstün bir zekâya sahip olduğu için kendisine sorulan sorulara, arzedilen meselelere çok yönlü ve ikna edici cevaplar verirdi. İbrâhim el-Harbî ve Ebü’l-Abbas Sa‘leb onun talebeleri ve râvileri arasında yer almışlardır. Önce Bağdat’ta, bir süre de İsfahan’da ikamet ettikten sonra tekrar Bağdat’a döndü. Yetmiş küsur yaşlarında burada vefat etti. Eserleri. Bâhilî kendisinden önceki müelliflerin geleneğine uyarak ağaç, nebat, deve, hurma, süt, at vb. konularda müstakil eserler yazdı. Özellikle, çekirgeler hakkında ilk defa kitap yazanın o olduğu sanılmaktadır. Başlıca eserleri şunlardır: 1. Kitâbü’l-İştiḳāḳ . Kitâbü İştiḳāḳi’l-esmâʾ adıyla da anılmakta olup onun zamanımıza kadar gelebilmiş yegâne kitabıdır. 293 varak hacmindeki eserin bir nüshası Süleymaniye Kütüphanesi’nde bulunmaktadır (Esad Efendi, nr. 2357). 2. Kitâbü Ebyâti’l-meʿânî . Ebû Ali el-Kālî’nin Endülüs’e getirttiği ve el-Leʾâlî ’sinde Kitâbü’l-Meʿânî diye söz ettiği (Sezgin, II, 59, 67) bir eserdir. Bu ikisinden başka Kitâbü’ş-Şecer ve’n-nebât , Kitâbü’l-Libeʾ ve’l-leben , Kitâbü’l-İbil , Kitâbü’z-Zerʿ ve’n-naḫl , Kitâbü’l-Ḫayl , Kitâbü’ṭ-Ṭayr , Kitâbü Mâ yelḥanü fîhi’l-ʿâmme ve Kitâbü’l-Cerâd adlı eserleri kaynaklarda zikredilmektedir. Ayrıca Ziriklî ( el-Aʿlâm , I, 109) Bâhilî’nin kitapları arasında matbu bir Şerḥu Dîvâni Ẕi’r-rumme ’den söz etmektedir ki bu eser hocası Asmaî’ye ait olup Bâhilî onu sadece rivayet etmiştir (Sezgin, II, 395). Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 484 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bahili-ahmed-b-hatim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bahili-ahmed-b-hatim, https://islamansiklopedisi.org.tr/bahili-ahmed-b-hatim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:bahili-ahmed-b-hatim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=bahili-ahmed-b-hatim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bahili-ahmed-b-hatim (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=bahili-ahmed-b-hatim)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bâhilî"
+  ],
+  "death_temporal": {
+    "start_ah": 231,
+    "start_ce": 846,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bahili-ahmed-b-hatim, URL: https://islamansiklopedisi.org.tr/bahili-ahmed-b-hatim || DİA death place: İsfahan || DİA death-date string: (ö. 231/846) || DİA categories: rivayet > nahiv > şiir || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00002038"
+  ],
+  "teachers": [
+    "iac:person-00001156",
+    "iac:person-00002308"
+  ],
+  "students": [
+    "iac:person-00003186",
+    "iac:person-00006639"
+  ]
+}

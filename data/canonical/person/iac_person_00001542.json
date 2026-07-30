@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00001542",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BİLÂL b. SA‘D",
+      "ar": "بلال بن سعد"
+    },
+    "originalScript": {
+      "ar": "بلال بن سعد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Amr Bilâl b. Sa‘d b. Temîm es-Sekûnî ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "Dımaşk’ta doğdu ve orada yetişti. Sahâbî olan babası Sa‘d b. Temîm’i Hz. Peygamber’in okşayıp dua ettiği rivayet edilmektedir. Bilâl’in hayatı hakkında fazla bilgi yoktur. Bütün ilk zâhidler gibi hüznü neşesine galip bir kişi idi. Bu sebeple kaynakların çoğunda kendisinden “Dımaşk halkının Hasan-ı Basrî’si” diye söz edilir. Ayrıca gür ve güzel sesi, etkili vaazlarıyla tanınmıştır. Dımaşk’ta imamlık ve vâizlik yapardı. Namaz için tekbir aldığında sesinin şehrin çevre köylerinden duyulduğu rivayet edilir. Evzâî, “Ben Bilâl b. Sa‘d’ın vaazını dinledim; ondan daha etkili konuşan bir vâiz duymadım” der (bk. Ebû Nuaym, V, 222). Vaaz ve nasihatlerinde özellikle Kitap ve Sünnet’e bağlılık, ibadetin önemi, cehennem korkusu, ihlâs ve samimiyet, ölüm kaygısı, zühd ve kanaat gibi konulara ağırlık verir, vaazlarını kıssalarla da süslerdi. Bu sebeple kaynaklarda “kassâs” diye de anılır. Bilâl b. Sa‘d dinî konularda re’y e şiddetle karşı çıkmıştır. Ebû Nuaym onun, “Bir zamanlar insanların birbirlerini namaz, oruç, zekât, hayır yapma, iyiliği emretme, kötülükten sakındırma gibi sâlih amellere özendirdiklerini görmüştüm. Şimdi onlar birbirlerini re’ye teşvik ediyorlar” dediğini nakleder ( Ḥilye , V, 224). Ancak o re’yi, “Allah’ın kitabını ve Peygamber’in sünnetini bırakarak kendi görüşüne göre amel etmek” şeklinde tarif ederek ( a.g.e. , V, 229) karşı olduğu re’yin, dinî konularla ilgili hususlarda Kur’an ve Sünnet’e aykırı şekilde şahsî görüşlere önem vermek olduğunu tasrih etmiştir. İbn Sa‘d, İbn Hibbân gibi münekkitler Bilâl b. Sa‘d’ın sika bir râvi olduğunu kaydederler. Babasından başka Abdullah b. Ömer, Câbir b. Abdullah, Ebü’d-Derdâ ve Muâviye gibi sahâbîlerden hadis nakletmiş, kendisinden de Evzâî, Abdullah b. Alâ b. Zebr, Abdurrahman b. Yezîd b. Câbir ile Saîd b. Abdülazîz az sayıda hadis rivayet etmişlerdir. Kaynaklarda herhangi bir eserine rastlanmamakla birlikte tabakat kitaplarında ona isnat edilen nasihat ve mev‘iza türünden sözler geniş yer tutar. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 153 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bilal-b-sad",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bilal-b-sad, https://islamansiklopedisi.org.tr/bilal-b-sad",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:44Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bilal-b-sad (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sekûnî"
+  ],
+  "death_temporal": {
+    "start_ah": 110,
+    "start_ce": 728,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bilal-b-sad, URL: https://islamansiklopedisi.org.tr/bilal-b-sad || DİA birth place: Dımaşk || DİA death-date string: (ö. 110/728 [?]) || DİA categories: sünnet > rivayet > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00006603"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00002623",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EVS b. HAVLÎ",
+      "ar": "أوس بن خولي"
+    },
+    "originalScript": {
+      "ar": "أوس بن خولي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Leylâ Evs b. Havlî b. Abdillâh el-Ensârî el-Hazrecî"
+      ]
+    },
+    "description": {
+      "tr": "Annesi Cemîle bint Übey, münafıklığı ile meşhur Abdullah b. Übey b. Selûl’ün kardeşidir. İslâm’ın ilk yıllarında okuma yazma bilen az sayıdaki sahâbîlerden biri olan Evs Hz. Peygamber’in vahiy kâtiplerindendi. İyi yüzmesi ve ok atmadaki maharetiyle de bilinirdi. Başta Bedir, Uhud ve Hendek gazveleri olmak üzere Hz. Peygamber’in katıldığı bütün savaşlarda bulundu. Hicretten sonra Resûl-i Ekrem onunla muhacirlerden Şücâ‘ b. Vehb el-Esedî arasında kardeşlik bağı ( muâhât ) kurdu. Evs’in Hz. Ömer’le kardeş yapıldığı ve Resûlullah’ın meclisinde onunla gün aşırı nöbetleşe kalarak olup biten hadiseleri ve yeni bilgileri birbirlerine anlattıkları da rivayet edilmektedir (İbn Beşküvâl, II, 603). Umretü’l-kazâ’da Kureyşliler’in muhtemel bir saldırısını önlemek için görevlendirilen 200 askerin başına Hz. Peygamber’in Evs’i getirmesi onun iyi bir savaşçı olduğunu göstermektedir. Evs b. Havlî Hz. Peygamber’in naaşının yıkanması, kefenlenmesi ve defnedilmesi işine ensarı temsilen bizzat katılmıştır. Kaynaklarda, Evs b. Havlî’nin Hz. Osman’ın şehid edilmesinden önce Medine’de vefat ettiği belirtilmekte, fakat kesin bir tarih verilmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 543 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:evs-b-havli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=evs-b-havli, https://islamansiklopedisi.org.tr/evs-b-havli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:03Z",
+    "modified": "2026-05-04T15:34:03Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=evs-b-havli (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî; Hazrecî"
+  ],
+  "death_temporal": {
+    "start_ah": 35,
+    "start_ce": 655,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=evs-b-havli, URL: https://islamansiklopedisi.org.tr/evs-b-havli || DİA death place: Medine || DİA death-date string: (ö. 35/655 [?]) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

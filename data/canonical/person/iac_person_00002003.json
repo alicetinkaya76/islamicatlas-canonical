@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00002003",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DERVİŞ MEHMED, Kevkeb"
+    },
+    "description": {
+      "tr": "Anadolu’nun bir şehrinden Edirne’ye gelip yerleşmiş, bu arada Hâfız Osman’dan İstanbul’da aklâm-ı sitte yi meşkedip icâzet almıştır. Gözü ile kulağı arasında bir tik bulunduğu için Kevkeb (yıldız) lakabıyla anılmıştır. Fakat yazılarını imzalarken bu lakabını kullanmamıştır. Kıraat ilminde söz sahibi olduğu gibi Halvetî tarikatında Yoğurtçular Şeyhi aynı zamanda -hat öğrencilerinden- Mustafa Efendi’nin halifesi de olan Derviş Mehmed, sanatında Hâfız Osman’a en fazla yaklaşan ve onun gibi yazan hattatlardandır. Fakat hoca hakkına riayetsizliği yüzünden hat sanatındaki yıldızı sönmüş ve ömrünün son devresi nasipsiz geçmiştir. Osmanlı Devleti’nin İstanbul yerine daha çok Edirne’den idare edildiği XVII. yüzyıl sonlarında devlet ricâlinden birisi, Hâfız Osman’a pey olarak İstanbul’a bir kese akçe gönderip kendisi için mushaf yazmasını rica eder, o da başlayıp üçte birine kadar gelir. Derviş Mehmed Edirne’de bu durumdan haberdar olunca siparişi yapan kişiye Hâfız Osman’ın hasta ve yaşlı olduğunu, mushafı kendisinin daha güzel ve çabuk yazacağını söyler (bu hadise tahminen Hâfız Osman’a felç gelip de yeniden iyileştiği 1107’den [1695] sonra meydana gelmiş olmalıdır). Bunun üzerine pey akçesi Hâfız Osman’dan geri alınıp sipariş iptal edilir, Derviş Mehmed de yeniden bir mushaf yazmaya başlar. Tezhip için gönderildiği İstanbul’daki mücellit dükkânında mushaf cüzlerini gören Hâfız Osman durumu anlar; üzüntü ve kırgınlığını belli etmeden, “Allah dilediğini siler, dilediğini bırakır; kitapların aslı O’nun yanındadır” meâlindeki âyeti (er-Ra‘d 13/39) okumakla yetinir. Derviş Mehmed yazdığı mushafın henüz üçte birine varmadan kalemini açarken iki parmağını kalemtıraşla keser; açılan yara bir yıl kapanmaz ve mushafı tamamlayamadığı gibi hat sanatından da uzak kalır. Edirne’de vefat eden Derviş Mehmed’in talebeleri arasında Abdullah Vefâî (ö. 1141/1729) ve Şuğlî Ahmed Dede (ö. 1140/1728) adlı Edirneli iki hattat ön sırayı alır. Bunlardan Şuğlî’nin Edirne hat silsilesindeki yeri mühimdir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 193 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dervis-mehmed-kevkeb",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dervis-mehmed-kevkeb, https://islamansiklopedisi.org.tr/dervis-mehmed-kevkeb",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:dervis-mehmed-kevkeb",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/dervis-mehmed-kevkeb",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dervis-mehmed-kevkeb (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1129,
+    "start_ce": 1717,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dervis-mehmed-kevkeb, URL: https://islamansiklopedisi.org.tr/dervis-mehmed-kevkeb || DİA death-date string: (ö. 1129/1717) || DİA categories: hadis > tarikat || Chunk count: 1"
+}

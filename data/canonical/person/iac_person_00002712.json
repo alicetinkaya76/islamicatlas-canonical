@@ -1,0 +1,62 @@
+{
+  "@id": "iac:person-00002712",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FENÂRÎ, Alâeddin"
+    },
+    "description": {
+      "tr": "Bursa’da doğdu. Asıl adı Alâeddin Ali olup babasının adı Yûsuf Bâlî’dir. İlk Osmanlı şeyhülislâmı kabul edilen Molla Fenârî’nin torunudur. Küçük yaşta Herat, Semerkant ve Buhara’ya giderek tanınmış hocalardan ders gördü ve bir müddet müderrislik yaptı. Fâtih Sultan Mehmed’in hükümdarlığının ilk yıllarında Bursa’ya döndü. Devrin önde gelen simalarından Molla Gürânî’nin tavsiyesi üzerine önce Bursa Manastır, daha sonra Gazi Murad Han Medresesi müderrisliğine getirildi. Müderrislikteki başarısı üzerine Bursa kadılığına tayin edildi (872/1467). Beş yıl bu görevde kaldıktan sonra kazasker oldu ve 881’de (1476-77) bu görevden ayrıldı. II. Bayezid zamanında Rumeli kazaskerliğine getirildi (894/1489), ardından da Anadolu kazaskeri oldu. Daha sonra bu görevinden ayrılarak tasavvufa yöneldi. Zeyniyye tarikatına giren ve Şeyh Hacı Halife’ye intisap eden Fenârî’nin vefat tarihi kesin olarak belli değildir. Taşköprizâde onun 903 (1497) yılı civarında öldüğünü yazar. Devrinde fıkıh ve fıkıh usulünden başka kelâm, belâgat ve matematik alanlarındaki bilgisiyle de dikkati çeken Alâeddin Fenârî kadılık görevinin yanı sıra ders de okuturdu. İran kültür muhitinde yetişmiş olması sebebiyle çok sayıda Farsça şiir bilir, kendisi de Gammî mahlasıyla şiir yazardı. Kitap telif etmekten çok talebe okutmayı tercih eden Fenârî’nin kaynaklarda Arap gramerine dair el-Kâfiye ile matematiğe dair et-Tecnîs adlı esere şerh yazdığı kaydedilmektedir. Onun Bursa kadılığı ve kazaskerlikleri sırasında tasdik ettiği bazı vakfiyeler günümüze ulaşmıştır. Bunlar 874 (1470) tarihli Emîr Sultan vakfiyesi, 878 (1473) tarihli Mahmud Paşa vakfiyesi, 889 (1484) tarihli Molla Gürânî vakfiyesi, 891 (1486) tarihli Saka Şems vakfiyesi olup her birinde Mevlânâ Ali b. Yûsuf el-Fenârî imzası yer almaktadır. Bu vakfiyelerin ilkinde Bursa kadısı, ikincisinde henüz Anadolu ve Rumeli olarak ikiye ayrılmadığı için kazasker olarak zikredilmiş, üçüncü ve dördüncü vakfiyelerde ise herhangi bir sıfatla anılmamıştır. Onun Fenârî Alîsi olarak da tanındığına dair bazı kaynaklarda (Hoca Sâdeddin, II, 515) yer alan bilgiler doğru değildir (Repp, s. 22-25). Cizye muhasebesiyle ilgili 895 (1490) tarihli bir hüccette adına rastlanan Rumeli Kazaskeri Alâeddin’in de Alâeddin Fenârî olduğu tahmin edilebilir. Oğullarından Muhyiddin Mehmed Şah Rumeli kazaskerliğine kadar yükselmiş, Muhyiddin Çelebi ise şeyhülislâm olmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 337 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:fenari-alaeddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=fenari-alaeddin, https://islamansiklopedisi.org.tr/fenari-alaeddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-05-04T15:39:54Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=fenari-alaeddin (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 903,
+    "start_ce": 1497,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=fenari-alaeddin, URL: https://islamansiklopedisi.org.tr/fenari-alaeddin || DİA birth place: Bursa || DİA death-date string: (ö. 903/1497 [?]) || DİA categories: fıkıh > şiir > kelâm || Chunk count: 1",
+  "birth_place": "iac:place-00015103"
+}

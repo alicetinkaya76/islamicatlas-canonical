@@ -1,0 +1,84 @@
+{
+  "@id": "iac:person-00001105",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂRİM el-BASRÎ",
+      "ar": "عارم البصري"
+    },
+    "originalScript": {
+      "ar": "عارم البصري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’n-Nu‘mân Muhammed b. el-Fazl es-Sedûsî el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "140’lı (757) yıllarda doğdu. Büyük bir Arap kabilesi olan Sedûs b. Şeybân neslinden geldiği için Sedûsî nisbesini alan Ârim, devrinin ünlü muhaddislerinden Hammâd b. Zeyd, Hammâd b. Seleme, Cerîr b. Hâzim, Abdullah b. Mübârek gibi âlimlerden hadis tahsil etmiştir. Kendisinden de Buhârî, Ahmed b. Hanbel, Abd b. Humeyd, İbn Vâre, Ebû Müslim el-Keccî gibi âlimler hadis rivayet etmiştir. “Kötü huylu, yaramaz çocuk” gibi mânalara gelen Ârim lakabının çocukken babası tarafından kullanıldığı anlaşılmakta ise de (bk. İbn Hacer, IX, 404) o bu vasıflardan tamamen uzak bir yapı ve ahlâka sahip olarak yaşamış, ancak bu lakapla şöhret bulmuştur. Hadis münekkitlerince sadûk , me’mûn ve sika olarak tanıtılmıştır. Hadis münekkidi Ebû Hâtim er-Râzî, bir hadise sahih diyebilmek için onun Ârim tarafından rivayet edilmiş olmasını yeterli görmüştür. İleri yaşlarda hâfızası karıştığı için hadislerine ne derece güvenileceği tartışma konusu olmuş, neticede Ârim’den hâfızası zayıflamadan önce alınan bütün hadislerin sahih olduğu kabul edilmiştir. Hatta Dârekutnî, onun hâfızasının zayıfladığı dönemde bile hiçbir münker hadis rivayet etmediği görüşündedir. İbn Hibbân ise ömrünün sonlarında ne dediğini bilemeyecek derecede aklı karıştığını ileri sürerek bu döneme ait rivayetlerinin öncekilerden ayırt edilmesi gerektiğini, aksi halde Ârim’in bütün hadislerinin terkedilmesi ve hiçbirinin delil olarak kullanılmaması lâzım geldiğini söylemektedir. Ancak Zehebî, İbn Hibbân’ın bu iddiasını ispat edebilecek bir tek münker hadis gösteremediğini belirterek ona karşı çıkmıştır. Nitekim Buhârî de kendisinden doksan iki hadis rivayet etmiş, rivayetleri Kütüb-i Sitte ’de yer almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 375 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:arim-el-basri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=arim-el-basri, https://islamansiklopedisi.org.tr/arim-el-basri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=arim-el-basri (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sedûsî; Basrî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 224,
+    "start_ce": 839,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=arim-el-basri, URL: https://islamansiklopedisi.org.tr/arim-el-basri || DİA death-date string: (ö. 224/839) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000524",
+    "iac:person-00003141",
+    "iac:person-00003142"
+  ],
+  "students": [
+    "iac:person-00004069"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00005209",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MÂLİK b. ŞERÂHÎL",
+      "ar": "مالك بن شراحيل"
+    },
+    "originalScript": {
+      "ar": "مالك بن شراحيل"
+    },
+    "altLabel": {
+      "tr": [
+        "Mâlik b. Şerâhîl b. Amr el-Hemdânî el-Havlânî"
+      ]
+    },
+    "description": {
+      "tr": "İbn Hacer el-Askalânî’nin, Hz. Peygamber dönemine yetişip ondan hadis duyması imkânı bulunduğu halde kendisinden rivayet nakledilmeyenler arasında zikrettiği Mâlik b. Şerâhîl, Havlân kabilesinin müttefiki (halîfi) olup Havlânî nisbesi bununla ilgilidir. Hz. Ömer’in meclisinde hazır bulundu ve Amr b. Âs ile Mısır’ın fethine katıldı; fetihten sonra kendisine bir arazi tahsis edilerek buraya yerleşti. Mısır Valisi Abdülazîz b. Mervân’ın saygı gösterdiği Mâlik b. Şerâhîl, Mekke’de halifeliğini ilân eden Abdullah b. Zübeyr’e karşı savaşmak için Halife Abdülmelik b. Mervân’ın Haccâc b. Yûsuf es-Sekafî kumandasında sevkettiği orduya katılmak üzere, 72 (691) yılında Abdülazîz b. Mervân’ın Mısır’dan deniz yoluyla gönderdiği 3000 kişilik birliğin kumandanlığına getirildi. Abdullah b. Zübeyr’i öldüren Abdurrahman b. Yuhannes (Bahnes) et-Tücîbî’nin Mısır’dan gelen bu birlikten olması, halifenin hem bu askere hem de birliğin kumandanı olan Mâlik b. Şerâhîl’e özel ilgi göstermesine yol açtı ve Mâlik b. Şerâhîl için bir mâlikâne ile bir mescid yaptırılmasını emretti. Fustat’ta Havlân denilen yerde Haccâc tarafından inşa ettirilen bu mescid Mescidü Mâlik ve Mescidü’l-Edîm diye bilinmektedir. Abdülazîz b. Mervân kendisine her yıl hediye olarak elbiseler gönderdiği gibi Haccâc b. Yûsuf da 3000 dirhem yollardı. Süyûtî’nin müctehid imamlardan saydığı Mâlik b. Şerâhîl, Haccâc tarafından tayin edildiği Mısır kadılığı ve vâizliği görevini Muharrem 83’ten (Şubat 702) Safer 84’e (Mart 703) kadar toplam on üç ay sürdürdü ve Abdülazîz b. Mervân’ın talebi üzerine bir müddet imamlık vazifesini üstlendi. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 27. cildinde, 515 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:malik-b-serahil",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=malik-b-serahil, https://islamansiklopedisi.org.tr/malik-b-serahil",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:malik-b-serahil",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/malik-b-serahil",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:8767",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8767, heading_ar=مالك بن شراحيل",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:37Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=malik-b-serahil (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8767]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8767 (heading_ar=مالك بن شراحيل) via Track A (DİA→Alam xref bridge). dt=Mısır kadısı"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hemdânî; Havlânî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 85,
+    "start_ce": 704,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=malik-b-serahil, URL: https://islamansiklopedisi.org.tr/malik-b-serahil || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8767] || DİA death-date string: (ö. 85/704) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=8767, heading_ar=مالك بن شراحيل, dt=Mısır kadısı"
+}

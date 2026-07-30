@@ -1,0 +1,108 @@
+{
+  "@id": "iac:person-00018825",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Marwān b. al-Hakam",
+      "tr": "Mervân b. el-Hakem",
+      "ar": "مروان بن الحكم"
+    },
+    "originalScript": {
+      "ar": "مروان بن الحكم"
+    },
+    "description": {
+      "tr": "Emevî halifesi, Hakem b. Ebî'l-Âs soyundan iktidar sahibi olan ilk kişidir; onun adıyla (Benî Mervân",
+      "en": "Umayyad caliph, he was the first to rule from the line of al-Hakam b. Abī al-ʿĀs; to him is attribut"
+    },
+    "altLabel": {
+      "en": [
+        "MARWAN B al-HAKAM"
+      ],
+      "tr": [
+        "Mervân b. el-Hakem b. Ebî'l-Âs b. Ümeyye b. Abdu Şems b. Abdu Menâf"
+      ],
+      "ar": [
+        "مروان بن الحكم بن أبي العاص ابن أمية بن عبد شمس بن عبد مناف، أبو عبد الملك"
+      ]
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Marwān b. al-Hakam b. Abī al-ʿĀs b. Umayyah b. ʿAbd Shams b. ʿAbd Manāf"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:11933",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11933",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "ei1:3556",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 3, p. 18",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:23Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:23Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=11933 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 3 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled ['altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:11933."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 65,
+    "start_ce": 685,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11933, heading_ar=مروان بن الحكم || Ziriklī century_ce=7 || Ziriklī place coords (city/region of activity): 21.39, 39.86",
+  "active_in_places": [
+    "iac:place-00002875",
+    "iac:place-00007855",
+    "iac:place-00011505"
+  ],
+  "kunya": "أبو عبد الملك"
+}

@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00014155",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Mudgharī",
+      "tr": "el-Mudğarî",
+      "ar": "المدغري"
+    },
+    "originalScript": {
+      "ar": "المدغري"
+    },
+    "description": {
+      "tr": "Neşb ilminde âlim, Mağrip'te Mâlikî fıkhının fukahasından.",
+      "en": "A scholar of genealogy, among the Mālikī jurists of the Maghreb."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "al-ʿArabī b. Muḥammad b. Qāsim, Abū Ḥāmid al-ʿAlawī al-Ḥasanī al-Mudgharī"
+    },
+    "altLabel": {
+      "tr": [
+        "Arap b. Muhammed b. Kâsım, Ebû Hâmid el-Alevî el-Hasenî el-Mudğarî"
+      ],
+      "ar": [
+        "العربي بن محمد بن قاسم، أبو حامد العلوي الحسني المدغري"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:6770",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6770",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:27Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:27Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=6770 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:6770."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1309,
+    "start_ce": 1891,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6770, heading_ar=المدغري || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 34.0, -5.0",
+  "kunya": "أبو حامد"
+}

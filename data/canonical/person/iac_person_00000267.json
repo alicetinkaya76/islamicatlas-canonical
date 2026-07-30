@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00000267",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Qadi Zada al-Rumi",
+      "tr": "Kadızâde-i Rûmî",
+      "ar": "قاضي زاده الرومي"
+    },
+    "originalScript": {
+      "ar": "قاضي زاده الرومي"
+    },
+    "altLabel": {
+      "en": [
+        "Ṣalāḥ al-Dīn Mūsā ibn Muḥammad al-Rūmī"
+      ],
+      "tr": [
+        "Salâhaddîn Mûsâ b. Muhammed er-Rûmî"
+      ],
+      "ar": [
+        "صلاح الدين موسى بن محمد الرومي"
+      ]
+    },
+    "description": {
+      "tr": "Osmanlı ve Timurlu bilimini birleştirdi; Semerkand'da Uluğ Bey'in rasathane programına temel katkı sağladı || Kadızâde, Anadolu âlimlerinin Timurlu Orta Asya'ya batıdan akışını temsil eder ve Uluğ Bey'in efsanevi bilim girişimini zenginleştirir. || [Tarih notu] Talebesi Ali Kuşçu daha sonra İstanbul'a dönerek Osmanlı-Timurlu dünyaları arasında bilimsel bir döngüyü tamamladı.",
+      "en": "Bridged Ottoman and Timurid science; key contributor to Ulugh Beg's observatory program at Samarkand || Qadi Zada represents the westward flow of Anatolian scholars to Timurid Central Asia, enriching Ulugh Beg's legendary scientific enterprise. || [Historiographical note] His student Ali Qushji later returned to Istanbul, completing a scientific circuit between Ottoman and Timurid worlds.",
+      "ar": "ربط بين العلم العثماني والتيموري في مرصد أولوغ بك || مثّل تدفق العلماء من الأناضول إلى آسيا الوسطى التيمورية"
+    }
+  },
+  "profession": [
+    "mathematician",
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0084",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0084",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:56:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:56:56Z",
+    "modified": "2026-05-04T15:39:32Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:56:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0084 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1364,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1436,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q1386256",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Qadi Zada al-Rumi')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0084, lecture_week=n/a. || Key works: {'title': {'en': \"Sharh Ashkal al-Ta'sis\", 'tr': \"Şerhu Eşkâli't-Te'sîs\", 'ar': 'شرح أشكال التأسيس'}, 'year': 1412, 'field': 'mathematics', 'significance': {'en': \"Important commentary on Samarkandi's geometry with original proofs\", 'tr': \"Semerkandî'nin geometrisine özgün ispatlarla önemli şerh\"}}; {'title': {'en': 'Zij-i Sultani (contributor)', 'tr': 'Zîc-i Sultânî (katkıda bulunan)', 'ar': 'زيج سلطاني'}, 'year': 1437, 'field': 'astronomy', 'significance': {'en': \"Key contributor to Ulugh Beg' || Modern parallel: Like a researcher who leaves their home country for a prestigious international lab, training students who return home.",
+  "birth_place": "iac:place-00015103",
+  "authored_works": [
+    "iac:work-00000119",
+    "iac:work-00000120"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00003594",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hüveydâ",
+      "ar": "هويدا"
+    },
+    "originalScript": {
+      "ar": "هويدا"
+    },
+    "description": {
+      "tr": "Asıl adı Hocamnazar Gāyibnazaroğlı’dır. Şiirlerinde “Hüveydâ” mahlasını kullandı. Atalarının aslen Kırgızistan’ın Oş (Ûş) şehrinden olduğu söylenir. Babası Gāyibnazar, Kâşgar’a gidip Nakşibendî şeyhi Âfâk Hoca’nın yanında otuz yıl tasavvufî eğitim almış, daha sonra Fergana’da Âfâk Hoca’nın müridi ve oğlu Hoca Muhyî Ahmed’den (halk diliyle Pâşşâ Pîrim) faydalanmış ve Çimyân köyüne yerleşmiştir. Burada dünyaya gelen Hüveydâ Hokand medreselerinde öğrenimini tamamladıktan sonra köyüne dönüp medresede hocalık yaptı. Bu sırada geçimini dokumacılıkla sağladı. Ahmed Yesevî, Ali Şîr Nevâî, Sûfî Allahyâr ve Şah Meşreb tarzında tasavvufî şiirler yazıyordu. Arapça, Farsça ve dinî ilimlerin yanı sıra Orta Asya Türk edebiyatını iyi bildiği anlaşılan Hüveydâ’nın tasavvufî hayatı ve faaliyetleri hakkında yeterli bilgi yoktur. Babasından Nakşibendî icâzeti aldığı ve kendisinden sonra oğlu Hâl Muhammed’in Oş şehrinde şeyhlik yaptığı bilinmektedir. Hâl Muhammed’in oğlu Muhammed Sirâceddin ile torunu Selâhaddin Sâkıb da sûfî ve şairdi. Eserleri. 1. Dîvân-ı Hüveydâ . Hüveydâ’nın Çağatay Türkçesi’yle kaleme aldığı şiirlerini ihtiva eden eserde dinî, ahlâkî ve tasavvufî konular ele alınmıştır. Saint Petersburg ve Taşkent kütüphanelerinde yazma nüshaları bulunan eser önce Taşkent’te 1903’te, daha sonra, Hüveydâ’nın neslinden gelen Selâhaddin Sâkıb tarafından 1325’te (1907) yine Taşkent’te Kitâb-ı Îşân Hüveydâ-yı Çimyânî adıyla yayımlanmıştır. Bu neşrin kenarında Hüveydâ’nın Râhat-ı Dil isimli eseri de vardır. Divan Özbek (Kiril) alfabesiyle de neşredilmiş (nşr. Ismatullah Abdullah – Kādirkul Rozmatzâde, Taşkent 2005) ve üzerinde Bedriye Kaya tarafından yüksek lisans tezi yapılmıştır (2012, Hoca Nazar Hüveyda ve Divanının Analizi: Metin, Dil ve Edebi İçerik Yönünden İncelemesi , İstanbul Fatih Üniversitesi Sosyal Bilimler Enstitüsü). 2. Râhat-ı Dil . Yine Çağatayca manzum olarak kaleme alınmıştır. Münâcât, na‘t ve dört halifeye dair methiyelerle başlayan eser kıyamet, cehennem, cennet, peygamberler, meşhur sahâbîler ve velîler hakkında ibretli hikâyelerle devam eder. Çeşitli yazma nüshaları bulunan eser 1860 ve 1888’de Kazan’da, 1907’de Taşkent’te divanın kenarında yayımlanmış, 1994’te Taşkent’te Saîdbek Hasan tarafından Özbek alfabesiyle neşredilmiştir. Râhat-ı Dil ’in “Hikâyet-i İbrâhîm b. Edhem” bölümünün müstakil olarak istinsah edilmiş çeşitli yazma nüshaları vardır. Akılbek b. Sabal bu bölümü 1910’da Kazak Türkçesi’ne tercüme etmiş ve İbrâhîm Edhem Oglınıng Kıssasıdır adıyla yayımlamıştır (Kazan 1911). Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan (gözden geçirilmiş 2. basım) EK-1. cildinde, 574 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:huveyda",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=huveyda, https://islamansiklopedisi.org.tr/huveyda",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:huveyda",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=huveyda",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:16Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=huveyda (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=huveyda)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1195,
+    "start_ce": 1781,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=huveyda, URL: https://islamansiklopedisi.org.tr/huveyda || DİA death-date string: (ö. 1195/1781) || DİA categories: tasavvuf > şiir || Chunk count: 1"
+}

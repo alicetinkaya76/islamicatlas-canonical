@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00001670",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Câfer Bey"
+    },
+    "description": {
+      "tr": "Hayatının ilk devreleri hakkında bilgi yoktur. Kaynaklarda adına ilk defa, Kapı ağası iken Gelibolu sancak beyliğiyle kaptanıderyâlığa getirilmesi münasebetiyle rastlanır. Muhtemelen devşirme olup Enderun’da yetişti; önce kapı ağası, sonra da kaptan-ı deryâ oldu (922/1516). Yavuz Sultan Selim’in Mısır seferi sırasında deniz yollarının güvenliğini sağlamak için gerekli olan donanmanın hazırlanmasına çalıştı. Bu maksatla başlatılan tersaneyi genişletme faaliyetlerinde büyük hizmetleri oldu. 300 gemi inşa tezgâhı bulunması planlanan ve Galata’dan Kâğıthane deresine kadar olan yerde kurulan İstanbul tersanesi 1515’te onun gayretleriyle tamamlandı. Yavuz Sultan Selim’e takdim ettiği arîzasında açıkladığı gibi Galata ve Gelibolu tersanelerinde 106 gemi hazırlayarak Mısır’a gönderdiği sırada Mısır’ın fethi haberi geldi. Bunun üzerine Câfer Bey büyük bir donanmayla Mısır’a hareket etti. Memlük donanmasını teslim alarak Doğu Akdeniz’de Osmanlı hâkimiyetini sağladı. Yavuz’un İstanbul’a göndermek istediği kimselerle pek çok eşyayı ve yaralıları merkeze o getirdi (1517). Mısır’ın fethinden sonra İstanbul’a dönen Yavuz Sultan Selim deniz işlerine önem vererek Câfer Bey’den büyük bir donanma hazırlamasını istedi. Padişah aslında Rodos’un fethini tasarlıyordu. Büyük bir gizlilik içinde süren hazırlıklar sırasında bir kadırganın izinsiz olarak denize indirildiğini gören Yavuz buna çok kızarak Câfer Bey’in idamını emretti. Ancak Sadrazam Pîrî Mehmed Paşa’nın araya girmesiyle kaptan-ı deryâ ölümden kurtuldu. Câfer Bey meslek olarak denizcilikten yetişmediği halde disiplini ve gayreti sayesinde donanmaya düzen verdi. Ancak özellikle Yavuz devrindeki sert ve şiddetli hareketlerinden dolayı halk arasında Kanlı Câfer olarak ün yaptı. Kanûnî Sultan Süleyman’ın saltanatının ilk yılında hakkındaki şikâyetler daha da arttı. Celâlzâde Mustafa Çelebi’nin kaydına göre kan dökücü ve zalim bir kişi olan Câfer Bey, bir kethüdâsının merkeze gelip kendisinden şikâyet etmesi üzerine önce görevinden uzaklaştırıldı; daha sonra yapılan teftiş sonucu suçları sabit görülerek idam edildi. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 547 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cafer-bey",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cafer-bey, https://islamansiklopedisi.org.tr/cafer-bey",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:cafer-bey",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/cafer-bey",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:46Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:46Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cafer-bey (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 926,
+    "start_ce": 1520,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cafer-bey, URL: https://islamansiklopedisi.org.tr/cafer-bey || DİA death-date string: (ö. 926/1520) || Chunk count: 1"
+}

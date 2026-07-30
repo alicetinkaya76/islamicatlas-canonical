@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00001244",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Aziz Dede"
+    },
+    "description": {
+      "tr": "İstanbul’da Üsküdar Doğancılar’da doğdu. Ailesi ve ilk öğrenimi hakkında herhangi bir bilgi yoktur. Küçük yaşta gittiği Mısır’da Kahire Mevlevîhânesi’ne devam etmeye başladı. Burada Sivaslı takma adı ile bilinen bir şeyhten ney ve mûsiki dersleri aldı. Daha sonra Maliye Nezâreti’nde görevli olan babasının tayini dolayısıyla Gelibolu’ya gitti. Oradaki rüşdiye öğreniminin ardından Ağazâde Mevlevîhânesi’nde şeyh vekili Ali Dede’nin meşihatı zamanında çile ye girdi. İyi bir tarikat bilgisi ve terbiyesi yanında mûsikide de kendisini yetiştirdi. Hüsâmeddin Dede’nin şeyhliği sırasında çilesini tamamlayarak “dede” oldu. Bir müddet sonra şeyh Mehmed Atâullah Efendi’nin daveti üzerine Galata Mevlevîhânesi neyzenbaşılığı görevi ile İstanbul’a geldi. Sonraları Üsküdar ve Bahariye mevlevîhâneleri neyzenbaşılığı da kendisine verildi. Bu arada Prens Abdülhalim Paşa’dan yakın ilgi ve himaye gördü. Üç mevlevîhânedeki vazifesini ölümüne kadar sürdüren Aziz Dede, hayatının son yıllarında zamanını Üsküdar Ahmediye semtinde açtığı bir attar dükkânında geçirmiştir. 30 Zilhicce 1322 (7 Mart 1905) günü yetmiş yaşlarında vefat etti ve Üsküdar Mevlevîhânesi bahçesine gömüldü. Vefatı üzerine çıkan bir gazete haberinde Aziz Dede’nin aynı zamanda Yenikapı ve Kasımpaşa mevlevîhâneleri neyzenbaşılığına da devam ettiği bildirilmektedir. Gelibolu’daki öğrenimi sırasında mekteple fazla ilgilenmeyip sürekli mevlevîhânedeki dedeleri dinlemek suretiyle neye karşı ilgisi gittikçe artan Aziz Dede İstanbul’a gelince bilhassa neyzen Üsküdarlı Sâlim Bey’den istifade etmiştir. Adı ve şöhreti giderek yayılmaya başlamış ve bir müddet sonra da devrin önemli neyzenleri arasında yer almayı başarmıştır. Bu arada birçok talebe yetiştirmiş, ayrıca besteleriyle de haklı bir şöhret kazanmıştır. Eserlerinden ancak bir peşrev ve dört saz semâisi -Öztuna’ya göre altı saz semâisi- günümüze ulaşabilmiştir. Bunlardan uşşak saz semâisi çok rağbet görmüştür. Yetiştirdiği talebeler arasında ise neyzen Mehmet Emin Yazıcı (ö. 1945) ile Ziya Santur (ö. 1952) en tanınmışlarıdır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 334-335 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:aziz-dede",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=aziz-dede, https://islamansiklopedisi.org.tr/aziz-dede",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:aziz-dede",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/aziz-dede",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:38Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=aziz-dede (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1905,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=aziz-dede, URL: https://islamansiklopedisi.org.tr/aziz-dede || DİA birth place: Doğancılar || DİA death place: Paşa || DİA death-date string: (ö. 1905) || DİA categories: tarikat || Chunk count: 1",
+  "teachers": [
+    "iac:person-00006661"
+  ],
+  "students": [
+    "iac:person-00007693"
+  ]
+}

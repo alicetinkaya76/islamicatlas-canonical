@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000512",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. HÂRİS el-HÂŞİMÎ",
+      "ar": "عبد الله بن الحارث الهاشمي"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن الحارث الهاشمي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdullāh b. el-Hâris b. Nevfel el-Kureşî el-Hâşimî"
+      ]
+    },
+    "description": {
+      "tr": "Dedesi Nevfel, Hz. Peygamber’in amcası Hâris’in oğludur. Babası ve dedesi sahâbî olan Abdullah, Peygamber’in vefatından iki yıl önce doğmuştur. Annesi Hind, Ebû Süfyân’ın kızı ve Peygamber’in baldızıdır. Doğumunun ilk günlerinde teyzesi Ümmü Habîbe’nin evine götürülen Abdullah’ı Hz. Peygamber bu evde gördü ve ağzına ilk lokmayı vererek ( tahnîk ) hayır duada bulundu. Küçüklüğünde Abdullah’ı severken annesinin söylediği bebbe (tombul çocuk) kelimesi, zamanla onun lakabı haline gelmiştir. Babası Hâris’in Basra’ya yerleşmesi sebebiyle Basralılar tarafından iyi tanınan, sevilip takdir edilen Abdullah’ı, Yezîd b. Muâviye’nin ölümü üzerine Basra halkı vali seçerek Abdullah b. Zübeyr adına kendisine biat etti (684). Fakat İbnü’z-Zübeyr daha sonra onu bu görevden aldı. Haccâc’a karşı savaşan İbnü’l-Eş‘as yenilince Abdullah b. Hâris Basra’dan kaçarak Uman’a gitti ve seksen yaşlarında iken orada öldü. İbn Hibbân, onun sam yeli vurması sonucu 698’de ölerek Ebvâ’ya gömüldüğünü söylüyorsa da bu şekilde ölen kendisi değil, oğlu Abdullah’tır. Rivayetleri Kütüb-i Sitte ’de yer alan ve Yahyâ b. Maîn, Ali b. Medînî, Nesâî tarafından sika kabul edilen Abdullah, Hz. Ömer, Osman, Ali, Abbas b. Abdülmuttalib, Übey b. Kâ‘b gibi sahâbîlerden çok sayıda hadis rivayet etmiştir. Doğrudan Hz. Peygamber’den olan rivayetleri ise mürsel dir. Kendisinden de oğulları İshak, Abdullah ve Ubeydullah ile İbn Şihâb ez-Zührî, Ebû İshak es-Sebîî ve Ömer b. Abdülazîz rivayette bulunmuşlardır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 105 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-haris-el-hasimi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-haris-el-hasimi, https://islamansiklopedisi.org.tr/abdullah-b-haris-el-hasimi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-b-haris-el-hasimi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-b-haris-el-hasimi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-haris-el-hasimi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Hâşimî"
+  ],
+  "death_temporal": {
+    "start_ah": 84,
+    "start_ce": 703,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-haris-el-hasimi, URL: https://islamansiklopedisi.org.tr/abdullah-b-haris-el-hasimi || DİA death-date string: (ö. 84/703) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

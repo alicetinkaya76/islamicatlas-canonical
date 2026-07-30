@@ -1,0 +1,112 @@
+{
+  "@id": "iac:person-00003748",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Ebû Hüreyre",
+      "ar": "ابن أبي هريرة"
+    },
+    "originalScript": {
+      "ar": "ابن أبي هريرة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Alî Hasen b. el-Hüseyn b. Ebî Hüreyre el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Çok sayıda hocadan ders aldığı rivayet edilmekle birlikte kaynaklarda bunlardan sadece Ebû İshak el-Mervezî ile İbn Süreyc’in adı zikredilmektedir. İbn Ebû Hüreyre, Ebû İshak el-Mervezî ile birlikte yaptığı kısa bir Mısır seyahati dışında Bağdat’ta yaşadı ve burada Şâfiî fıkhı okuttu, kadılık yaptı. Talebeleri arasında Dârekutnî, el-Müstedrek sahibi Hâkim en-Nîsâbûrî ve Ebû Ali et-Taberî gibi meşhur âlimler bulunmaktadır. Yaşadığı devirde Şâfiî fakihlerinin önde gelenleri arasında yer alan İbn Ebû Hüreyre’nin bazı meselelerde İmam Şâfiî’ye ve diğer mezhep ulemâsına muhalif görüşleri bulunmasından (meselâ bk. Sübkî, III, 256-263) müctehid bir âlim olduğu anlaşılmaktadır. Çeşitli görüşleri Mâverdî’nin el-Ḥâvi’l-kebîr ’i başta olmak üzere Şâfiî fıkıh kitaplarında yer almıştır. Hem halkın hem de idarecilerin büyük saygı duyduğu İbn Ebû Hüreyre 345 yılı Recebinde (Ekim 956) Bağdat’ta vefat etti. Eserleri. 1. Şerḥu Muḫtaṣari’l-Müzenî . Şâfiî fıkhına dair el-Muḫtaṣar adlı eserin şerhi olup öğrencisi Ebû Ali et-Taberî bu esere bir ta‘lik yazmıştır. Kaynaklar Müzenî’nin bu eserine İbn Ebû Hüreyre’nin biri muhtasar, diğeri mufassal olmak üzere iki ayrı şerh yazdığını kaydetmektedir. 2. el-Mesâʾil . Şâfiî fıkhıyla ilgilidir. Ayrıca İbnü’n-Nedîm müellife et-Taʿlîḳ fi’l-fıḳh ve’l-mesâʾil adlı bir eser daha nisbet etmekte ise de ( el-Fihrist , s. 302) bunların günümüze ulaşıp ulaşmadığı tesbit edilememiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 434-435 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-ebu-hureyre",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-ebu-hureyre, https://islamansiklopedisi.org.tr/ibn-ebu-hureyre",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-ebu-hureyre",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-ebu-hureyre",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:2674",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=2674, heading_ar=ابن أبي هريرة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:18Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:18Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-ebu-hureyre (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[2674]. Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-ebu-hureyre)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=2674 (heading_ar=ابن أبي هريرة) via Track A (DİA→Alam xref bridge). dt=Fıkıh âlimi, Irak'ta Şâfiî mezhebinin imamlığı ona intikal etmiştir."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 345,
+    "start_ce": 956,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-ebu-hureyre, URL: https://islamansiklopedisi.org.tr/ibn-ebu-hureyre || El-Aʿlām (Ziriklī) cross-reference: alam_id=[2674] || DİA death place: Bağdat || DİA death-date string: (ö. 345/956) || DİA categories: fıkıh > rivayet > mezhep || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=2674, heading_ar=ابن أبي هريرة, dt=Fıkıh âlimi, Irak'ta Şâfiî mezhebinin imamlığı ona intikal etmiştir.",
+  "teachers": [
+    "iac:person-00004044",
+    "iac:person-00005458"
+  ],
+  "students": [
+    "iac:person-00001934",
+    "iac:person-00003064"
+  ]
+}

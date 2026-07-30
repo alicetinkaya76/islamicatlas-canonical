@@ -1,0 +1,64 @@
+{
+  "@id": "iac:person-00002548",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ERGUNER, Ulvi"
+    },
+    "description": {
+      "tr": "3 Ağustos 1924 tarihinde İstanbul’un Sultanselim semtinde doğdu. Babası tanınmış neyzen Süleyman Erguner, annesi Muazzez Hanım’dır. İlkokulu babasının memuriyeti sebebiyle Karaman, Kütahya ve İstanbul Çarşamba’da okudu. Ortaokulu Konya Askerî Ortaokulu’nda, liseyi ise Maltepe Askerî Lisesi’nde tamamladı. Daha sonra girdiği Kara Harp Okulu’ndan 1943 yılında levazım asteğmeni olarak mezun oldu. Gelibolu, Kars, Ankara ve İstanbul’da görev yaptı; 7 Haziran 1958’de Kore’ye gitti. Bir yıl kaldığı Kore’den dönüşünde İstanbul, Hayrabolu ve Keşan’da ordudaki görevine devam etti. 1 Şubat 1964 tarihinde kendi isteği üzerine yarbay rütbesiyle emekliye ayrıldı. Bundan sonra üç yıl kadar serbest çalıştı. 15 Haziran 1967’de İstanbul Radyosu’nda Türk Sanat ve Halk Mûsikisi şube müdürü olarak görev aldı. 17 Kasım 1974’te öldü ve Edirnekapı Şehitliği’ne defnedildi. Asıl şöhretini ney icracılığı ile kazanan Erguner, ilkokul sıralarından itibaren mûsiki bilgilerini ve ney üflemeyi babasından öğrenmiş, bu arada Konya Askerî Ortaokulu’nda Ahmet Ezgimen’den istifade etmiştir. Ayrıca Ankara ve İstanbul’da bulunduğu yıllarda Halil Can, Nuri Halil Poyraz, İlyas Tonguç, Fahri Kopuz, Hulusi Gökmenli, Cahit Gözkan ve Sadettin Heper’den dinî ve din dışı mûsiki meşketmiş, radyo yayınlarına katılmış, Mesut Cemil ile çalışmalar yapmıştır. Ulvi Erguner yaptığı Türk mûsikisi tarihi çalışmaları ile Fârâbî, Abdülkādir-i Merâgī, Kâtib Çelebi’nin eserlerini mûsiki repertuvarına kazandırmış, kurduğu ve yönettiği Klasik Türk Mûsikisi Erkekler Korosu ile başarılı bir icra ortaya koymuştur. Yurt içi ve yurt dışında düzenlenen Mevlevî mûsikisi ve âyinleriyle ilgili programların çoğunda yer almış, Konya’da yapılagelen Mevlânâ’yı anma törenlerinde Halil Can’dan sonra neyzenbaşılık görevini yürütmüştür. Ayrıca TRT’de günümüzde de (1994) devam eden Türk Tasavvuf Mûsikisi adlı radyo programlarının temel çalışmalarını yaparak ilk defa neşrini sağlamıştır. Türk mûsikisi tarihi, nazariyatı ve usulleriyle ilgili bazıları neşredilmiş incelemeleri bulunan Erguner ud ve keman da çalardı. Bestekârlık alanında pek çalışması olmamakla beraber bayatî-araban makamında bir peşrev ve saz semâisi bestelemiş, neyde babasının tavrını kendi tekniğiyle devam ettirmiştir. Neyzen olarak yetiştirdiği oğullarından Süleyman ile Fransa’da yaşayan ve klasik Türk mûsîkisiyle neyin Avrupa’da tanınmasında başarılı çalışmalar yapan Kudsi Erguner de birer sanatkârdır. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 302 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:erguner-ulvi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=erguner-ulvi, https://islamansiklopedisi.org.tr/erguner-ulvi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:02Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=erguner-ulvi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1924,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=erguner-ulvi, URL: https://islamansiklopedisi.org.tr/erguner-ulvi || DİA death place: 1974 || DİA death-date string: (1924-1974) || DİA categories: tasavvuf || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001693",
+    "iac:person-00002547",
+    "iac:person-00003381"
+  ]
+}

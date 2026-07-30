@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00004731",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KARABEG, Ali Rıza"
+    },
+    "description": {
+      "tr": "Hersek vilâyetinin (Hercegovina) merkezi Mostar’da doğdu. Mustafa Sıdkı Karabeg’in oğludur. İlk ve orta öğrenimini Mostar’da yaptıktan sonra Mehmed Paşa ve Karagöz Bey medreselerine devam etti. Aynı zamanda Karagöz Bey Medresesi’nde başmüderris olan babasının derslerine girdi. Ardından İstanbul’a gitti ve tahsilini burada sürdürdü. İstanbul’dan dönünce çok kısa bir süre için Mostar Lisesi’nde din dersi hocalığı yaptı. Bu görevden ayrıldıktan sonra bir daha devlet memurluğu almadı. Vefatına kadar Mostar camilerinde vaaz verdi. 21 Ocak 1944’te Mostar’da vefat etti. Bosna aydınlarının İslâmî ilimlerde ve irşad sahasında başarılı olanlarından biri sayılan, Bosna-Hersek’in Avusturya-Macaristan Krallığı himayesine verildiği bir dönemde yetişen, bu arada babasının Mostar halkı tarafından öldürülmesi hadisesine şahit olan Karabeg kendisini dinî alandaki çalışmalara vermiştir. 1900 yılının başlarında neşredilen, Bosna-Hersek’teki müslüman halkın edebiyatına yönelik Behar dergisinin önemli müelliflerinden biri olan Karabeg, el-Hidaje dergisi yazarları içinde de görülür. Eserleri arasında, tesettür hakkında yazdığı Rasprava o Hidžabu (Mostar 1928) ve İslâm tarihiyle ilgili Kratki životopis Muhameda a.s. sa Socijalnog Stanovišta ’nın (Mostar 1929) yanı sıra onun adını Bosna-Hersek ilim çevrelerinde duyuran çalışması Prijevod Kur’ana adlı Boşnakça ilk Kur’an tercümesidir (Mostar 1937). Eser bazı çevreler tarafından takdirle karşılanırken el-Hidaje etrafında toplanan bir kısım ulemâ Kur’an tercümesinin câiz olmadığı görüşünü ileri sürerek buna karşı çıkmıştır. Tercüme daha sonra birkaç defa daha yayımlanmış ve son baskısı Enes Kariç’in yazdığı bir önsözle birlikte Hırvatistan’da gerçekleştirilmiştir (nşr. IP August Cesarec, Zagreb 1991). Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 371 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:karabeg-ali-riza",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=karabeg-ali-riza, https://islamansiklopedisi.org.tr/karabeg-ali-riza",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:31Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:31Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=karabeg-ali-riza (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1872,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=karabeg-ali-riza, URL: https://islamansiklopedisi.org.tr/karabeg-ali-riza || DİA birth place: Mostar || DİA death place: Mostar || DİA death-date string: (1872-1944) || DİA categories: hadis || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00017797"
+  ]
+}

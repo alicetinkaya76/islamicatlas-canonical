@@ -1,0 +1,58 @@
+{
+  "@id": "iac:person-00004461",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İMÂDÎ-i GAZNEVÎ",
+      "ar": "عمادى غزنوى"
+    },
+    "originalScript": {
+      "ar": "عمادى غزنوى"
+    },
+    "description": {
+      "tr": "İran edebiyatının ilk tezkirelerinden birini yazan Avfî dışında ( Lübâb , II, 257) bütün tezkirelerde İmâdî’den İmâdî-i Şehriyârî olarak söz edilmektedir. Ancak Avfî de dahil tezkire müelliflerinin hiçbiri onun adını vermemiştir. Mahlası veya nisbesi olan İmâdî’nin, 515’te (1121) Mâzenderan’ın bir bölümünü ele geçiren İmâdüddevle Ferâmerz’in adıyla ilgili olduğu, bu hükümdar hakkında yazdığı bir kaside ve mersiyeden anlaşılmaktadır. Lutf Ali Beg, İmâdî’nin Rey civarında Şehriyâr kasabasından olması sebebiyle Şehriyârî nisbesini aldığını söyler ( Âteşkede , s. 118, 220, 229). Ancak küçük bir bölgeyi elinde bulunduran hükümdarlara o dönemlerde “şehriyâr” denildiği için Şehriyârî nisbesini bu unvan dolayısıyla da almış olabilir. 489’da (1096) ölen Melik Argun b. Alparslan için kaside yazdığına bakılarak bu tarihten yirmi yıl kadar önce (469/1076) doğduğu söylenebilir. Bir süre Gazneliler’den III. Mesud’un ordusunda çalışan İmâdî, bu hükümdarın ölümünden (508/1114) sonra Mâzenderan’da Bâvendîler’den İmâdüddevle Ferâmerz’in sarayına intisap etti. Onun vefatının (530/1135) ardından Irak’a giderek I. Tuğrul b. Muhammed’in hizmetine girdi. Bazı kaynaklarda II. Tuğrul (1177-1194) için de kasideler yazdığı kaydedilmekteyse de bu bilgi doğru değildir. İmâdî’nin vefat tarihi de ihtilâflıdır. Bunun için verilen 530 (1136) ve 550 (1155) yıllarından ikincisi gerçeğe daha yakın görünmektedir. Seyyid Hasan Gaznevî, Edîb Sâbir, Felekî-yi Şirvânî, Kavâmî-yi Râzî, Sa‘deddin Es‘ad b. Şihâb-ı Buhârâî, Mecdüddin b. Adnân, Yûsuf b. Nâsır el-Kâtib gibi çağdaşı şairler İmâdî’nin şiirlerini örnek almışlar, tezkire yazarları kendisinden övgüyle söz etmişlerdir. Melik Argun b. Alparslan, Melik Togan b. Alparslan, İmâdüddevle Ferâmerz, Tuğrul b. Muhammed, Tuğrul’un başveziri Kıvâmüddin Ebü’l-Kāsım, Ebû Mansûr el-Abbâdî ve Abdurrahman Tugayürek gibi devlet adamları onun övdüğü ve himayelerini gördüğü kişiler arasında zikredilebilir. İmâdî’nin 4000 beyit ihtiva ettiği belirtilen divanındaki şiirlerinin çoğu günümüze ulaşmamıştır. Elde bulunan divanın dört nüshasından üçü British Museum’da (MS, Or., nr. 298, 3386, 3500), biri de Aligarh Üniversitesi yazmalar bölümündedir (nr. 891.5511/83). En çok şiir ihtiva eden British Museum’daki nüshasında (MS, Or., nr. 3500) 1734 beyit bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 171-172 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:imadi-i-gaznevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=imadi-i-gaznevi, https://islamansiklopedisi.org.tr/imadi-i-gaznevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:29Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:29Z",
+    "modified": "2026-05-04T15:34:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=imadi-i-gaznevi (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 550,
+    "start_ce": 1155,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=imadi-i-gaznevi, URL: https://islamansiklopedisi.org.tr/imadi-i-gaznevi || DİA death-date string: (ö. 550/1155 [?]) || DİA categories: şiir || Chunk count: 1"
+}

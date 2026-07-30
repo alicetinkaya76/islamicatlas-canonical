@@ -1,0 +1,135 @@
+{
+  "@id": "iac:person-00000870",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂİŞE bint MUHAMMED",
+      "ar": "عائشة بنت محمّد"
+    },
+    "originalScript": {
+      "ar": "عائشة بنت محمّد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ümmü Muhammed Âişe bint Muhammed b. Abdilhâdî el-Makdisiyye",
+        "Âişe b. Muhammed b. Abdülhâdî el-Mukaddisî, Üm Muhammed"
+      ],
+      "ar": [
+        "عائشة بنت محمد بن عبد الهادي المقدسي، أم محمد"
+      ]
+    },
+    "description": {
+      "tr": "723’te (1323) Dımaşk’ta doğdu. Henüz dört yaşlarında iken Ahmed b. Ebû Tâlib el-Haccâr’dan Ṣaḥîḥ-i Buḫârî ’yi, daha sonra Şerefeddin Abdullah b. Hasan’dan Ṣaḥîḥ-i Müslim ’i dinleyerek hadis tahsil etmeye başladı. Babasından ve ayrıca devrinin meşhur âlimi Ebû Bekir er-Râzî’den İbn Hişâm’ın es-Sîre ’si ile Dârimî’nin es-Sünen ’i gibi bazı önemli kitapları okuyarak icâzet aldı. Tahsilini tamamladıktan sonra bütün vaktini hadis okutmaya ve icâzetini aldığı kitapları rivayet etmeye ayırdı. İbn Hacer el-Askalânî kendisinden Ṣaḥîḥ-i Buḫârî başta olmak üzere birkaç kitap okumuştur. Âişe bint Muhammed, Ṣaḥîḥ-i Buḫârî ’nin rivayet tariklerini kendisinde toplamış olan Hâfız el-Haccâr’dan bu kitabı rivayet edenlerin sonuncusudur. Hanbelî mezhebine mensup olan Âişe Bağdat’ta vefat etti (Rebîülevvel 816 / Haziran 1413). İki kardeşi Fâtıma ve Zeyneb de devrinin ileri gelen hadis âlimlerindendi. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 206 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "Chief of hadith scholars in Damascus of her time"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿĀʾisha b. Muḥammad b. ʿAbd al-Hādī al-Muqaddisī, Umm Muḥammad"
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:aise-bint-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=aise-bint-muhammed, https://islamansiklopedisi.org.tr/aise-bint-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:4794",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=4794, heading_ar=عائشة بنت محمد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:aise-bint-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/aise-bint-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:10Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=aise-bint-muhammed (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4794]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=4794 (heading_ar=عائشة بنت محمد) via Track A (DİA→Alam xref bridge). dt=Çağının Dımaşk'taki muhaddislerin başı"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+kunya+translit from alam_detail.json el-alam:4794."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 816,
+    "start_ce": 1413,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=aise-bint-muhammed, URL: https://islamansiklopedisi.org.tr/aise-bint-muhammed || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4794] || DİA birth place: Dımaşk || DİA death place: Bağdat || DİA death-date string: (ö. 816/1413) || DİA categories: hadis > rivayet > mezhep || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=4794, heading_ar=عائشة بنت محمد, dt=Çağının Dımaşk'taki muhaddislerin başı",
+  "active_in_places": [
+    "iac:place-00009462"
+  ],
+  "kunya": "Üm Muhammed",
+  "teachers": [
+    "iac:person-00006371"
+  ],
+  "students": [
+    "iac:person-00001151",
+    "iac:person-00003798",
+    "iac:person-00003821"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00001814",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Cevzakī",
+      "ar": "الجوزقي"
+    },
+    "originalScript": {
+      "ar": "الجوزقي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Muhammed b. Abdillâh b. Muhammed eş-Şeybânî el-Horasânî"
+      ]
+    },
+    "description": {
+      "tr": "306’da (918) Nîşâbur’a bağlı Cevzak köyünde doğdu. Dayısı muhaddis Ebû İshak İbrâhim b. Muhammed el-Müzekkî ile birlikte Mekke, Bağdat, Hemedan, Serahs ve Rey gibi şehirlere ilim tahsili için yolculuklar yaptı. Degūlî, İbn Adî, İbnü’ş-Şarkī gibi muhaddislerden ders aldı. Bu seyahatleri sırasında ayrıca muhaddis ve mutasavvıf Ebû Saîd İbnü’l-A‘râbî ile dil âlimi İsmâil es-Saffâr’dan faydalandı. Hâkim en-Nîsâbûrî ve Ebü’t-Tayyib et-Taberî gibi âlimler de kendisinden rivayette bulundular. Değerli eserler yazmış olmasına rağmen Cevzakī hakkında fazla bilgi bulunmamaktadır. Kaynaklarda onun, “Hadis öğrenmek için 100.000 dirhem harcadım, fakat onunla bir dirhem kazanmadım” dediği nakledilmektedir. Cevzakī 20 Şevval 388’de (15 Ekim 998) Nîşâbur’da vefat etmiştir. Eserleri. 1. Kitâbü’l-Cemʿ beyne’ṣ-Ṣaḥîḥayn . Kitâbü’ṣ-Ṣaḥîḥ mine’l-aḫbâr adıyla da anılan eser, Buhârî ile Müslim’in el-Câmiʿu’ṣ-ṣaḥîḥ ’lerindeki hadisleri bir araya toplamak maksadıyla yapılan çalışmaların ilki olarak bilinmektedir. Bir nüshası Rabat’ta Evkaf Kütüphanesi’nde (nr. 118) bulunmaktadır. Diğer bir nüshası da Dârü’l-kütübi’l-Mısriyye’dedir (nr. 20.075 b). 2. el-Müsnedü’ṣ-ṣaḥîḥ ʿalâ Kitâbi Müslim . Müslim’in el-Câmiʿu’ṣ-ṣaḥîḥ ’i üzerinde yapılan müstahrec çalışmalarından biri olan eserin günümüze kadar gelip gelmediği bilinmemektedir. Kâtib Çelebi, bu eserin Ebû Avâne el-İsferâyînî tarafından ihtisar edildiğini söylemektedir ( Keşfü’ẓ-ẓunûn , II, 1685). 3. el-Müttefiḳ ve’l-müfteriḳ . Hem kendilerinin hem de babalarının veya aynı zamanda dedelerinin ismi, lakabı ve nisbesi yazılış ve okunuş bakımından aynı olan şahıslara dair oldukça hacimli meşhur bir eserdir. Müellifin aynı konuda daha az hacimli bir başka eseri de bulunduğu kaydedilmektedir. Her iki çalışmanın da günümüze geldiği bilinmemekle beraber bu eserin Hatîb el-Bağdâdî’nin aynı adlı eserine kaynaklık ettiği anlaşılmaktadır. Kâtib Çelebi’nin bu eseri el-Müttefiḳ fî fürûʿi’l-Ḥanefiyye adıyla zikretmesi ( Keşfü’ẓ-ẓunûn , II, 1585) bir hata eseri olmalıdır. Cevzakī’nin bunlardan başka Şâfiî’nin er-Risâle ’sini şerhettiği, ayrıca el-Erbaʿûn adlı bir eser yazdığı kaynaklarda zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 465 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cevzaki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cevzaki, https://islamansiklopedisi.org.tr/cevzaki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:cevzaki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=cevzaki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:48Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:48Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:48Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cevzaki (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=cevzaki)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Şeybânî; Horasânî"
+  ],
+  "death_temporal": {
+    "start_ah": 388,
+    "start_ce": 998,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cevzaki, URL: https://islamansiklopedisi.org.tr/cevzaki || DİA birth place: Cevzak || DİA death place: Nîşâbur || DİA death-date string: (ö. 388/998) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001971",
+    "iac:person-00004135"
+  ]
+}

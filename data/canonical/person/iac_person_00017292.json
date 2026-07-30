@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00017292",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Qāḍī Ṣafad",
+      "tr": "Kâzî Safed",
+      "ar": "قاضي صفد"
+    },
+    "originalScript": {
+      "ar": "قاضي صفد"
+    },
+    "description": {
+      "tr": "Şam halkından fakîh, Safed Memleket'inin kâzî-i kuddâtı idi",
+      "en": "A jurist from the people of Damascus, he was the chief judge of the Mamluk state of Safed"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muḥammad b. ʿAbd al-Raḥmān b. al-Ḥusayn, Abū ʿAbd Allāh Ṣadr al-Dīn al-Dimashqī al-ʿUthmānī al-Ṣafadī al-Shāfiʿī"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Abdurrahman b. el-Hüseyn, Ebû Abdullâh Sadruddin ed-Dımaşkî el-Osmânî es-Safedî eş-Şâfiî, Kâzî Safed"
+      ],
+      "ar": [
+        "محمد بن عبد الرحمن بن الحسين، أبو عبد الله صدر الدين الدمشقي العثمانيالصفدي الشافعي المعروف ب قاضي صفد"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:10227",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10227",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:03Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=10227 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:10227."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 780,
+    "start_ce": 1378,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10227, heading_ar=قاضي صفد || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 33.51, 36.28",
+  "kunya": "أبو عبد الله"
+}

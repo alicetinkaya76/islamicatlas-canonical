@@ -1,0 +1,265 @@
+{
+  "@id": "iac:person-00000222",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Al-Suyuti",
+      "tr": "Süyûtî",
+      "ar": "السيوطي"
+    },
+    "originalScript": {
+      "ar": "السيوطي"
+    },
+    "altLabel": {
+      "en": [
+        "Jalal al-Din Abu al-Fadl Abd al-Rahman al-Suyuti"
+      ],
+      "tr": [
+        "Celâleddin Ebü'l-Fazl Abdurrahman es-Süyûtî"
+      ],
+      "ar": [
+        "جلال الدين أبو الفضل عبد الرحمن السيوطي"
+      ]
+    },
+    "description": {
+      "tr": "İslam'ın en verimli yazarı — Kur'ân ilimleri, hadis, dilbilim, tarih ve doğa bilimlerini kapsayan 500+ eser yazdı || Süyûtî, klasik İslam'ın son büyük polimâtı kabul edilir. 500+ eserlik üretimi emsalsizdir. || [Tarih notu] Sartain'ın 1975 çalışması tam bibliyografyayı belgeledi.",
+      "en": "Islam's most prolific author — wrote 500+ works covering Quranic sciences, hadith, linguistics, history, and natural sciences. His al-Itqan remains the definitive encyclopedia of Quranic studies || Suyuti is considered the last great polymath of classical Islam. His output of 500+ works is unmatched. Source material describes him as having written on 'sociology, philosophy of history, and economics' in addition to religious sciences. His Tafsir al-Jalalayn (co-authored) remains one of the most widely used Quran commentaries. || [Historiographical note] Sartain's 1975 study documented the full bibliography. GAS identifies him as the mujaddid (renewer) of the 9th Islamic century. His role as 'last encyclopedist' marks the transition from classical to early modern Islamic scholarship.",
+      "ar": "أغزر مؤلفي الإسلام — كتب أكثر من ٥٠٠ عمل || السيوطي آخر عالم موسوعي عظيم في الإسلام الكلاسيكي. إنتاجه من ٥٠٠+ عمل لا مثيل له. والإتقان لا يزال المرجع الحاسم لعلوم القرآن"
+    }
+  },
+  "profession": [
+    "scholar",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0039",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0039, lecture_id=memluk-bilim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:87",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=87",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:33Z",
+    "modified": "2026-07-12T14:48:05Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0039 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholar_links teacher edge (H10 S13): teachers += iac:person-00000230."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1445,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1505,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q468432",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Suyuti')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0039, lecture_week=4. || Key works: {'title': {'en': 'Al-Itqān fī ʿUlūm al-Qurʾān', 'tr': \"el-İtkân fî Ulûmi'l-Kur'ân\", 'ar': 'الإتقان في علوم القرآن'}, 'year': 1490, 'field': 'religious_sciences', 'significance': {'en': 'Definitive encyclopedia of Quranic sciences — still the standard reference', 'tr': \"Kur'ân ilimlerinin kesin ansiklopedisi — hâlâ standart referans\"}}; {'title': {'en': 'Tārīkh al-Khulafāʾ (History of the Caliphs)', 'tr': \"Târîhu'l-Hulefâ\", 'ar': 'تاريخ الخلفاء'}, 'year': 1495, 'field': 'history', 'significance': || Modern parallel: Imagine writing 500 books covering everything from theology to linguistics to natural history — by hand, in one lifetime. He was Wikipedia before Wikipedia.",
+  "birth_place": "iac:place-00009399",
+  "active_in_places": [
+    "iac:place-00009399"
+  ],
+  "authored_works": [
+    "iac:work-00000060",
+    "iac:work-00000061",
+    "iac:work-00000324",
+    "iac:work-00000332",
+    "iac:work-00000536",
+    "iac:work-00000756",
+    "iac:work-00000918",
+    "iac:work-00000931",
+    "iac:work-00001001",
+    "iac:work-00001003",
+    "iac:work-00001022",
+    "iac:work-00001061",
+    "iac:work-00001080",
+    "iac:work-00001094",
+    "iac:work-00001095",
+    "iac:work-00001140",
+    "iac:work-00001141",
+    "iac:work-00001198",
+    "iac:work-00001236",
+    "iac:work-00001239",
+    "iac:work-00001318",
+    "iac:work-00001387",
+    "iac:work-00001408",
+    "iac:work-00001419",
+    "iac:work-00001435",
+    "iac:work-00001507",
+    "iac:work-00001620",
+    "iac:work-00001665",
+    "iac:work-00001832",
+    "iac:work-00001892",
+    "iac:work-00001974",
+    "iac:work-00002265",
+    "iac:work-00002282",
+    "iac:work-00002382",
+    "iac:work-00002454",
+    "iac:work-00002499",
+    "iac:work-00002559",
+    "iac:work-00002739",
+    "iac:work-00002876",
+    "iac:work-00002990",
+    "iac:work-00003035",
+    "iac:work-00003266",
+    "iac:work-00003488",
+    "iac:work-00003544",
+    "iac:work-00003579",
+    "iac:work-00003730",
+    "iac:work-00004013",
+    "iac:work-00004602",
+    "iac:work-00004748",
+    "iac:work-00004757",
+    "iac:work-00004994",
+    "iac:work-00004996",
+    "iac:work-00005028",
+    "iac:work-00005161",
+    "iac:work-00005229",
+    "iac:work-00005339",
+    "iac:work-00005340",
+    "iac:work-00005404",
+    "iac:work-00005405",
+    "iac:work-00005429",
+    "iac:work-00005497",
+    "iac:work-00005726",
+    "iac:work-00005770",
+    "iac:work-00005842",
+    "iac:work-00005971",
+    "iac:work-00005973",
+    "iac:work-00006050",
+    "iac:work-00006122",
+    "iac:work-00006172",
+    "iac:work-00006237",
+    "iac:work-00006381",
+    "iac:work-00006425",
+    "iac:work-00006502",
+    "iac:work-00006508",
+    "iac:work-00006548",
+    "iac:work-00006589",
+    "iac:work-00006613",
+    "iac:work-00006654",
+    "iac:work-00006674",
+    "iac:work-00006760",
+    "iac:work-00006811",
+    "iac:work-00006891",
+    "iac:work-00006908",
+    "iac:work-00006937",
+    "iac:work-00006990",
+    "iac:work-00007091",
+    "iac:work-00007112",
+    "iac:work-00007128",
+    "iac:work-00007202",
+    "iac:work-00007292",
+    "iac:work-00007322",
+    "iac:work-00007377",
+    "iac:work-00007399",
+    "iac:work-00007526",
+    "iac:work-00007585",
+    "iac:work-00007666",
+    "iac:work-00007679",
+    "iac:work-00007904",
+    "iac:work-00007953",
+    "iac:work-00008006",
+    "iac:work-00008033",
+    "iac:work-00008104",
+    "iac:work-00008147",
+    "iac:work-00008250",
+    "iac:work-00008286",
+    "iac:work-00008355",
+    "iac:work-00008378",
+    "iac:work-00008421",
+    "iac:work-00008434",
+    "iac:work-00008481",
+    "iac:work-00008494",
+    "iac:work-00008518",
+    "iac:work-00008536",
+    "iac:work-00008575",
+    "iac:work-00008582",
+    "iac:work-00008599",
+    "iac:work-00008644",
+    "iac:work-00008675",
+    "iac:work-00008731",
+    "iac:work-00008735",
+    "iac:work-00008812",
+    "iac:work-00008842",
+    "iac:work-00008877",
+    "iac:work-00008880",
+    "iac:work-00008883",
+    "iac:work-00008891",
+    "iac:work-00008952",
+    "iac:work-00008968",
+    "iac:work-00008990",
+    "iac:work-00009077",
+    "iac:work-00009166",
+    "iac:work-00009180",
+    "iac:work-00009243",
+    "iac:work-00009282"
+  ],
+  "kunya": "Ebü'l-Fazl",
+  "nisba": [
+    "Süyûtî",
+    "Şâfiî"
+  ],
+  "laqab": [
+    "Celâlüddîn"
+  ],
+  "teachers": [
+    "iac:person-00000230"
+  ]
+}

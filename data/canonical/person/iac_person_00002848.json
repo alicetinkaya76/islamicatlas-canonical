@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00002848",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Gazi Giray III"
+    },
+    "description": {
+      "tr": "1674’te doğdu. I. Selim Giray Han’ın oğludur. 1699 yılı başlarında büyük kardeşi II. Devlet Giray’ın ikinci veliahdı (nûreddin) oldu. Çerkezistan nizamlığına tayin edildiği halde bu göreve gitmedi. Nogaylarla birleşerek ağabeyine karşı ayaklandıysa da başarıya ulaşamadı ve ondan af diledi. Rumeli taraflarında ikametine izin verilen Gazi Giray Edirne’ye gidince Osmanlı padişahı tarafından on sekiz gün kadar kapı arasında hapsedildi, ardından Rodos’a sürüldü. Babası Selim Giray’ın dördüncü hanlığında (1702-1704) onun veliahdı (kalgay) oldu. Selim Giray ölünce Aralık 1704’te Kırım hanlığına getirildi. Kardeşleri Kaplan Giray’ı kalgay, Mengli Giray’ı nûreddin yapan Gazi Giray, Rusya-İsveç savaşlarının devam ettiği kritik bir dönemde Kırım Hanlığı’nın başında bulundu. O sırada Osmanlı Devleti ile Rusya arasında barış hüküm sürüyordu. İstanbul’dan kendisine taraf olmaması bildirilmişti. Ancak han, Tatar kuvvetlerinin Rusya ve Lehistan ülkelerine akın yapmasına engel olamadı (Râşid, III, 215-216). Bu hadise, Rusya’nın İstanbul’a elçi göndererek hanı şikâyet etmesine sebep oldu. Osmanlı hükümetinin, kendi barış politikasını bozan handan başka şikâyetleri de vardı. Meselâ Bucak nogaylarını Kırım tâbiliğinden ayırarak doğrudan İstanbul’a bağlama teşebbüslerine Gazi Giray karşı çıkmıştı. Bu mesele için İstanbul’a çağrılan Hanağası (vezir) Mustafa Ağa bütün suçu Gazi Giray’ın üzerine attı. Öte yandan Kaplan Giray da hanlığı ele geçirmek için İstanbul’da entrikalar çevirmekten geri durmuyordu. Sonunda Gazi Giray azledildi ve yerine I. Kaplan Giray getirildi. Rumeli’de Karinâbâd’da ikamet ettirilen Gazi Giray Rebîülâhir 1120’de (Temmuz 1708) otuz altı yaşında iken vebadan öldü ve Yanbolu Camii hazîresine defnedildi. Âbid ve Azamet adlarında iki oğlu olup bunlardan ikincisi kalgay olmuştur. Abdülgaffar Kırîmî’ye göre uzun boylu, siyah sakallı, cesur ve dindar bir kişi olan Gazi Giray yine bu gözlemciye göre biraz safça idi. Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 453 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:gazi-giray-iii",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=gazi-giray-iii, https://islamansiklopedisi.org.tr/gazi-giray-iii",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:gazi-giray-iii",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/gazi-giray-iii",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:06Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=gazi-giray-iii (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1120,
+    "start_ce": 1708,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=gazi-giray-iii, URL: https://islamansiklopedisi.org.tr/gazi-giray-iii || DİA birth place: 1674 || DİA death place: 1120 || DİA death-date string: (ö. 1120/1708) || DİA categories: hadis || Chunk count: 1"
+}

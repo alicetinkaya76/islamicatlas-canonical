@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00006354",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Râmiz",
+      "ar": "راميز"
+    },
+    "originalScript": {
+      "ar": "راميز"
+    },
+    "description": {
+      "tr": "1148 (1735-36) yılında İstanbul Fatih’te Cebecibaşı Ali Ağa mahallesinde doğdu. Asıl adı Hüseyin olup Azîzzâde diye anılır. Babası Rumeli kadılarından Mustafa Naîm Efendi’dir. Anne tarafından dedesi de Rumeli kadılarındandı. Dedelerinden başlayarak babası, ağabeyi ve dayıları gibi kadıların çok olduğu, şiirle meşgul olan bir ilim ve irfan ortamında yetişen Ramiz çok küçük yaşta babasını kaybetti. Dönemin ileri gelen hocalarından ilim tahsil ederek kendini yetiştirdi. On altı yaşlarında iken Şeyhülislâm Vassâf Abdullah Efendi’den dördüncü teşrifatçılık vazifesiyle 5 Şâban 1165 (18 Haziran 1752) tarihinde ilmiye mesleğine girip dedeleri gibi müderrisliğe intisap ettiyse de geçim sıkıntısı yüzünden kadılık yolunu seçmek zorunda kaldı. Daha sonra Rumeli kazaskerliğinde bulunan şahıslardan yirmi yıl boyunca mahkeme yazışmaları hakkındaki sak usulünü tahsil etti. Hayatının büyük kısmını edebiyat ve tarihle meşgul olarak geçiren Râmiz’in, şuarâ tezkiresinde Îsâzâde Mehmed Sâlih Sahvî Efendi’nin hal tercümesini verirken ondan “mürşidimiz” diye bahsetmesine bakılarak Halvetiyye tarikatının Şemsiyye şubesine mensup olduğu söylenebilir. Gayretli, titiz ve hoşsohbet kişiliğiyle tanınan Râmiz Efendi, bilhassa biyografi alanında verdiği eserlerle XVIII. yüzyılın önemli simaları arasında yer almıştır. Nesrindeki akıcı üslûba karşılık çoğu kendi eserlerinde rastlanan şiirlerinde pek başarılı olamamıştır. Râmiz İstanbul’da vefat etti. Eserleri. 1. Zübdetü’l-vâkıât . 1182 (1768) yılı başlarında yazılmaya başlanan eserin mukaddimesinde Receb 1182 - Zilhicce 1188 (Kasım 1768 - Şubat 1775) tarihleri arasındaki altı buçuk yıllık olayları kapsayacağı kaydedilmekle birlikte İstanbul Üniversitesi Kütüphanesi’nde bulunan (TY, nr. 2395) yegâne nüshada Cemâziyelevvel 1187 (Temmuz 1773) tarihine kadar gelen III. Mustafa devri (1757-1774) olayları anlatılmıştır. İmlâ bakımından yer yer hatalar ihtiva eden bu nüsha, I. Abdülhamid devrinde sadrazam kethüdâsı olup sonradan sadrazam olan Moralı Derviş Mehmed Paşa’ya takdim edilmiştir. 2. Âdâb-ı Zurefâ . Sâlim Mehmed Emin Efendi’nin Tezkiretü’ş-şuarâ ’sına zeyil olarak kaleme alınmıştır. Tezkirede 1132-1198 (1720-1784) yılları arasında yetişmiş 376 şairin biyografisi hakkında ayrıntılı bilgi verilmiş ve isabetli değerlendirmeler yapılmıştır. Eserin bizzat müellif tarafından yazılıp hattat Müstakimzâde Süleyman Sadeddin Efendi’nin düzelttiği orijinal nüshası Süleymaniye Kütüphanesi’nde bulunmaktadır (Esad Efendi, nr. 3873). Âdâb-ı Zurefâ üzerine bir doktora çalışması yapılmış (1987), bu çalışma daha sonra neşredilmiştir (bk. bibl.). Râmiz’in Âdâb-ı Zurefâ ’sı ile Zübdetü’l-vâkıât ’ında rastlanan şiirleri yanında kaynaklarda bazı eserleri gösterilmektedir. Hadîkatü’l-vüzerâ Zeyli , Devhatü’l-meşâyih Zeyli , Hamîletü’l-kübrâ Zeyli , Keşfü’z-zunûn Zeyli ve sak usulünü anlatan Zahîr-i Hükkâm bunlar arasında sayılabilir. Râmiz’in ayrıca sadâret kaymakamı, kaptan paşalar ve “âgā-yı dûdmân-ı Bektâşiyân”ın menkıbelerini toplamış olduğu belirtilmektedir (Levend, s. 320). Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 451 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ramiz",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ramiz, https://islamansiklopedisi.org.tr/ramiz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ramiz",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ramiz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:50Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ramiz (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ramiz)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1148,
+    "start_ce": 1735,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1202,
+    "start_ce": 1788,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ramiz, URL: https://islamansiklopedisi.org.tr/ramiz || DİA death place: İstanbul || DİA death-date string: (ö. 1202/1788) || DİA categories: tarikat || Chunk count: 1",
+  "death_place": "iac:place-00000735"
+}

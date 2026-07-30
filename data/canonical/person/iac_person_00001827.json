@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00001827",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CHERBONNEAU, Jacques Auguste"
+    },
+    "description": {
+      "tr": "28 Ağustos 1813’te La Chapelle Blanche’ta doğdu. Paris’teki École des Langues Orientales’de meşhur müsteşriklerden Silvestre de Sacy ile Caussin de Perceval’den Arapça öğrendi. Fransız hükümeti onu Arapça öğretmeni olarak Cezayir’in Konstantin şehrine gönderdi, okulların düzenlenmesi ve ders kitaplarının yazılması görevini de kendisine verdi. 1879’da Paris’e döndü ve mezun olduğu okula Arapça profesörü tayin edildi. 1882 yılında Paris’te öldü. Eserleri. Cherbonneau Cezayir’de Arap dili, edebiyatı ve lehçeleri üzerinde, ayrıca Fâtımîler ve Benî Hafs gibi devletler başta olmak üzere İslâm tarihine ait çeşitli konularda çalışmalar yaptı. Bazı kaynak eserlerin metinlerini ve Fransızca tercümelerini yayımladı. Müstakil eserleri şunlardır: Essai sur la littérature arabe au Soudan (Constantine 1856); Dictionnaire Français-arabe (Paris 1876); Fables de Lokman (Paris 1847, 1925); Anecdotes musulmanes (Cezayir 1847); Exercices Pour la Lecture des manuscrits arabes (1853); Traité méthodique de la conjugaison Arabe dans le dialecte Algérien (Paris 1854); Leçon de lecture Arabe (Paris 1856). Cherbonneau, İbn Vâdirân’ın Târîḫu Tûnis , İbn Hammâd’ın Kitâbü’n-Nübeẕi’l-muḥtâce , Ebü’l-Hayr el-İşbîlî’nin Kitâbü’l-Filâḥa , İbn Battûta’nın Riḥle , Abderî’nin er-Riḥletü’l-Maġribiyye , İbn Kunfüz’ün el-Fârisiyye ve İbnü’l-Kūtıyye’nin Târîḫu iftitâḥi’l-Endelüs adlı eserlerinden bazı bölümleri Fransızca’ya çevirerek yayımlamıştır ( Index Islamicus , s. 277, 327, 333-335, 694). Ayrıca başta Journal Asiatique olmak üzere Revue Africaine , Nouvelles annales des voyages , Revue orientale et algérienne , Revue de géographie , Revue de l’Orient gibi belli başlı dergilerde 100’e yakın makale yazmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 519-520 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cherbonneau-jacques-auguste",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cherbonneau-jacques-auguste, https://islamansiklopedisi.org.tr/cherbonneau-jacques-auguste",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:cherbonneau-jacques-auguste",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=cherbonneau-jacques-auguste",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:48Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:48Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:48Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cherbonneau-jacques-auguste (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=cherbonneau-jacques-auguste)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1813,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=cherbonneau-jacques-auguste, URL: https://islamansiklopedisi.org.tr/cherbonneau-jacques-auguste || DİA birth place: Blanche || DİA death-date string: (1813-1882) || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00016806"
+  ],
+  "teachers": [
+    "iac:person-00001719",
+    "iac:person-00006389",
+    "iac:person-00006524"
+  ]
+}

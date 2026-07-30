@@ -1,0 +1,102 @@
+{
+  "@id": "iac:person-00002165",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Gānim",
+      "ar": "أبو غانم"
+    },
+    "originalScript": {
+      "ar": "أبو غانم"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Gānim Bişr b. Gānim el-Horâsânî el-Müdevvene adlı eseriyle tanınan İbâzî fakihi."
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında fazla bilgi yoktur. Horasan ’da doğup büyüdüğü ve II. (VIII.) yüzyılın sonu ile III. (IX.) yüzyılın başlarında yaşadığı bilinmektedir. Fuat Sezgin, vefat tarihinin 200 (815) yılı civarında olduğunu kaydetmektedir ( GAS , I, 586). On iki bölümden meydana gelen el-Müdevvene ’yi Horasan’da tamamladıktan sonra Ebû Gānim, Kuzey Afrika’nın büyük şehirlerinden, o dönemin İbâzıyye merkezi Tâhert’e doğru, şehrin kurucusu ve Rüstemîler ’in İbâzıyye kolunun ikinci büyük imamı Abdülvehhâb b. Abdurrahman ’a kitabını takdim etmek üzere yola çıktı. Bu yolculuk sırasında İbâzîler’in faaliyet merkezi olan Cebelinefûse’ye uğradı. Burada İbâzî şeyhi Ebû Hafs Amrûs b. Feth’in yanında bir müddet kaldı. Ebû Hafs bu süre içinde el-Müdevvene ’den bir nüsha istinsah edip Mağrib İbâzî literatürüne katkıda bulundu. Bu eser el-Müdevvenetü’ṣ-ṣuġrâ olarak bilinmektedir. Ebû Gānim daha sonra Tâhert’e geçerek eserini Abdülvehhâb’a takdim etti. Ancak bu nüsha Rüstemî Kütüphanesi’nin tahrip olması sonucunda kaybolmuştur. Ebû Gānim eserindeki bilgileri, İbâzîler ’in ileri gelen âlimleri Ebû Eflah, Hânim b. Mansûr ve özellikle Ebû Ubeyde Müslim et-Temîmî’den, onun talebeleri Abdullah b. Abdülazîz ile Ebü’l-Muarric Ömer b. Muhammed ve diğerleri vasıtasıyla elde etmiştir. Eserin diğer önemli bir özelliği de İbâzîler’den ilk hadis tedvin eden Hânim b. Mansûr’dan Ebû Yezîd el-Kazvînî vasıtasıyla aldığı hadisleri kaydetmesidir. Bunun yanı sıra Kuzey Afrika’ya giderken Mısır İbâzîleri’nden duyduğu hadis ve rivayetleri nakletmiş, devrinin diğer İbâzî kaynaklarından da faydalanmıştır. Bu yönleriyle eser güvenilir bir İbâzî kaynağıdır. J. C. Wilkinson el-Müdevvene ’nin, muhtemelen İmam Eflah b. Abdülvehhâb’ın döneminden itibaren yapılan önemli ilâvelerle birlikte Rüstemî devri sonrasında Nükkârîler’in güç kazandığı zamana kadar tedrîcen tamamlandığını söylemektedir ( Isl. , LXII/2 [1985], s. 250). Abdullah b. Yezîd el-Fezârî’ye de atfedilen eser Berberî diline tercüme edilmiştir. Eserin bizzat Ebû Gānim tarafından yazılmış el-Müdevvenetü’ṣ-ṣuġrâ ve Ettafeyyiş (ö. 1332/1914) tarafından hazırlanmış el-Müdevvenetü’l-kübrâ olmak üzere günümüze ulaşan iki ayrı tertibi vardır. el-Müdevvenetü’ṣ-ṣuġrâ (I-II, 1404/1984) ve el-Müdevvenetü’l-kübrâ (I-II, 1404/1984) Uman’da Vizâretü’t-türâsi’l-kavmî ve’s-sekāfe tarafından neşredilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 126-127 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-ganim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-ganim, https://islamansiklopedisi.org.tr/ebu-ganim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:12180",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=12180, heading_ar=أبو غانم",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:54Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-ganim (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[12180]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=12180 (heading_ar=أبو غانم) via Track A (DİA→Alam xref bridge). dt=Mısırlı kâri, nahvî"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Horâsânî"
+  ],
+  "birth_temporal": {
+    "start_ah": 200,
+    "start_ce": 815,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 200,
+    "start_ce": 815,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-ganim, URL: https://islamansiklopedisi.org.tr/ebu-ganim || El-Aʿlām (Ziriklī) cross-reference: alam_id=[12180] || DİA death-date string: (ö. 200/815 [?]) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=12180, heading_ar=أبو غانم, dt=Mısırlı kâri, nahvî",
+  "teachers": [
+    "iac:person-00002292",
+    "iac:person-00006374"
+  ]
+}

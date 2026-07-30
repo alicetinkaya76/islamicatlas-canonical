@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00000925",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ali Aşkî Bey"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu ve orada yaşadı. Beylikçi Hacı Sâlih Ağa’nın oğlu olduğu için Beylikçizâde lakabı ile tanındı. Babasından kalan mal varlığı sayesinde rahat bir hayat yaşadı. Edebiyat ve mûsiki çevrelerinde bulunarak kendisini yetiştirdi. Mûsikideki hocası, bestekâr Zekâi Dede’dir. Kırk yaşlarında, tahminen 1878-1882 yılları arasında Lüleburgaz’da vefat etti. Ali Aşkî Bey, Türkçe ve Arapça manzumeleri ile edebiyatta da kabiliyetini göstermiş, ancak şiirlerinin toplandığı bir divana bugüne kadar rastlanmamıştır. Mevleviyye tarikatı müntesibi olup asıl şöhretini dinî besteleri ile yapmıştır. Bunlardan hüseynî-aşiran Mevlevî âyini unutulmuş, nikriz âyini ise ölümü ile yarıda kalmıştır. Sadettin Nüzhet Ergun Türk Musikisi Antolojisi ’nde onun on dört eserinin güftesini vermiştir. Yılmaz Öztuna ise zamanımıza on beş ilâhisinin ulaştığını bildirmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 381-382 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-aski-bey",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-aski-bey, https://islamansiklopedisi.org.tr/ali-aski-bey",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-aski-bey (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1882,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ali-aski-bey, URL: https://islamansiklopedisi.org.tr/ali-aski-bey || DİA birth place: İstanbul || DİA death place: Lüleburgaz || DİA death-date string: (ö. 1882 [?]) || DİA categories: tarikat || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "teachers": [
+    "iac:person-00007804"
+  ]
+}

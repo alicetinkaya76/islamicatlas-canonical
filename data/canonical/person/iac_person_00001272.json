@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00001272",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BAER, Gabriel"
+    },
+    "description": {
+      "tr": "Berlin’de doğdu ve Kudüs’te öldü. Kudüs İbrânî Üniversitesi’nde (Hebrew University) otuz yıl ders verdi. İhtisas alanı İslâm tarihi, özellikle Mısır olmak üzere Ortadoğu yakın tarihidir. Gerek kendi memleketinde gerekse diğer ülkelerde çok tanınan araştırmalarının odak noktası da bu alandır. İbrânîce’yi, Arapça’yı, Türkçe’yi ve başlıca Avrupa dillerini bilen Baer, ilmî araştırmalarında sosyoloji verilerinden de yararlanmıştır. Eserleri. 1. A History of Landownership in Modern Egypt, 1800-1950 (Oxford 1962). Müellif doktora tezi üzerine kurduğu bu ilk eserinde Mısır’da ziraî konuları incelemekte ve modern Mısır’ın ekonomik ve politik üst tabakasının oluşumundaki etkisini araştırmaktadır. 2. Egyptian Guilds in Modern Times (Jerusalem 1964). Eser Yeniçağ’da loncaların gerileyişini, sosyoekonomik hayattaki rollerini ele almaktadır. 3. Population and Society in the Arab East (London 1964; İbrânîce olarak da basılmıştır). İsrail’de ve İsrail dışındaki üniversitelerde yaygın bir şekilde başvurulan ders kitabı niteliğindedir; bu eserde onun zaman zaman çelişki gösteren verileri değerlendirmedeki tarafsızlığı dikkati çekmektedir. 4. Studies in the Social History of Modern Egypt (Chicago 1969; Arapça olarak da basılmıştır). Bedevîler, köy ağaları, vakıf reformu, fellâhların itaatsizliği, Mısır ceza hukuku, şehirleşmenin başlangıcı, köleliğin ilgası ve belediye idarelerinin doğuşu konularındaki on üç makalesinden oluşan bir eserdir. 5. Fellah and Townsman in the Middle East, Studies in Social History (London 1982). Baer’in bu son eseri, başta taşra ve şehir gelişimi olmak üzere Osmanlı İmparatorluğu ve Arap ülkelerinin son dönemlerindeki sosyal kurumları ve sosyal ilişkileri üzerine birçok karşılaştırmalı araştırmayı ihtiva etmektedir. Baer İslâmiyet, Osmanlı İmparatorluğu, Arap ülkeleri, Türkiye ve İran araştırmalarıyla ilgilenen İsrailli müsteşrikleri bünyesinde toplayan ve ilmî bir kurum olan Israel Oriental Society’nin kurucularından biridir. Bir süre bu kurumun başkanlığını ve neşrettiği iki ilmî derginin de editörlüğünü yapmıştır. Bunlar Kudüs’te İbrânîce çıkan Ha-Mizrah Ha-Hadash (Yeni doğu) ile önce Kudüs’te, daha sonra Hayfa’da İngilizce çıkan Asian and African Studies ’tir. Her iki dergi de İsrail’de Ortadoğu tarihi, edebiyatı, dilleri, siyaseti, sosyal ve ekonomik şartlarının araştırılması yönünde kayda değer bir ilgi uyandırmıştır. Bu dergilerde yayımlanan çok sayıdaki makalelerden bazıları bizzat Baer’e aitse de onun araştırmalarının çoğu muhtelif dillerde olmak üzere yurt dışındaki çeşitli dergi ve ansiklopedilerde yer almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 422-423 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:baer-gabriel",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=baer-gabriel, https://islamansiklopedisi.org.tr/baer-gabriel",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:baer-gabriel",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=baer-gabriel",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:38Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=baer-gabriel (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=baer-gabriel)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1919,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=baer-gabriel, URL: https://islamansiklopedisi.org.tr/baer-gabriel || DİA birth place: Berlin || DİA death-date string: (1919-1982) || Chunk count: 1"
+}

@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00005035",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KÜRZ b. ALKAME",
+      "ar": "كرز بن علقمة"
+    },
+    "originalScript": {
+      "ar": "كرز بن علقمة"
+    },
+    "altLabel": {
+      "tr": [
+        "Kürz b. Alkame b. Hilâl el-Huzâî"
+      ]
+    },
+    "description": {
+      "tr": "Mekke ve civarında yaşayan Huzâa kabilesinin Kâ‘b kolundan olup Kürz b. Hubeyş diye de bilinir. Hem Câhiliye hem İslâm döneminde yaşayan muammerûn dandır. İyi bir iz sürücü (kāif) olarak şöhret yapmış, kendisinden sonra oğulları da bu mesleği sürdürmüştür. Hicret sırasında Hz. Peygamber ve Ebû Bekir’in izlerini o sürmüş, müşriklerle birlikte Sevr mağarasına kadar gitmiş ve izlerin orada bittiğini görünce onları ya yerin yuttuğunu ya da göğe kaldırıldıklarını söylemiştir. Kürz, Resûl-i Ekrem’in ayağını ve ayak izini gördüğünde bunun Harem-i şerif’te bulunan Makām-ı İbrâhim’deki ize benzediğini, dolayısıyla onun da peygamber olması gerektiğini söyleyerek Resûl-i Ekrem’in peygamberliğini bu yolla ispat etmek istemiştir. Kürz b. Alkame Mekke’nin fethedildiği gün müslüman oldu ve bir ara Medine’ye yerleşti. Zaman zaman Askalân (veya Usfân) şehrine gidip orada ikamet ettiği rivayet edilmektedir. Uzun süre yaşamış olması sebebiyle kendisine çeşitli konularda danışılan kimse konumundaydı. Muâviye b. Ebû Süfyân devrinde Medine Valisi Mervân b. Hakem, Harem-i şerif’in sınırlarını belirleyen bazı nişan ve alâmetlerin kaybolduğunu bir mektupla bildirince Muâviye, Kürz b. Alkame hayatta ise ona danışılmasını ve bütün alâmetlerin buna göre yenilenmesini emretmiş, Harem’in sınırları en son onun tesbitiyle çizilmiştir. Hayatının sonlarına doğru gözlerini kaybeden Kürz 45 (665) yılı civarında vefat etti. Onun nerede öldüğü bilinmemektedir. Kürz b. Alkame Hz. Peygamber’den altı hadis rivayet etmiş, Urve b. Zübeyr b. Avvâm ve Süleyman b. Habîb tarafından nakledilen bu rivayetleri Tayâlisî ( Müsned , s. 182), Humeydî ( Müsned , I, 260) ve Ahmed b. Hanbel ( Müsned , III, 477) tarafından tahriç edilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2002 yılında Ankara’da basılan 26. cildinde, 575 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kurz-b-alkame",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kurz-b-alkame, https://islamansiklopedisi.org.tr/kurz-b-alkame",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:8557",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8557, heading_ar=كرز بن علقمة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:35Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kurz-b-alkame (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8557]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8557 (heading_ar=كرز بن علقمة) via Track A (DİA→Alam xref bridge). dt=Sahâbî, uzun ömürlü olanlardan."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Huzâî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 45,
+    "start_ce": 665,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kurz-b-alkame, URL: https://islamansiklopedisi.org.tr/kurz-b-alkame || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8557] || DİA death-date string: (ö. 45/665 [?]) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=8557, heading_ar=كرز بن علقمة, dt=Sahâbî, uzun ömürlü olanlardan."
+}

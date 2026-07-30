@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00011829",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Sulaymān al-Bustānī",
+      "tr": "Süleymân el-Bustânî",
+      "ar": "سليمان البستاني"
+    },
+    "originalScript": {
+      "ar": "سليمان البستاني"
+    },
+    "description": {
+      "tr": "Kâtip ve vezir, edebiyat ve siyaset adamlarından",
+      "en": "Secretary and vizier, from the men of literature and politics"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Sulaymān b. Khattār b. Salūm al-Bustānī"
+    },
+    "altLabel": {
+      "tr": [
+        "Süleymân b. Hattâr b. Selûm el-Bustânî"
+      ],
+      "ar": [
+        "سليمان بن خطار بن سلوم البستاني"
+      ]
+    }
+  },
+  "profession": [
+    "vizier",
+    "scribe"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:4172",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=4172",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:04Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=4172 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:4172."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1343,
+    "start_ce": 1925,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=4172, heading_ar=سليمان البستاني || Ziriklī century_ce=20 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+  "authored_works": [
+    "iac:work-00001787",
+    "iac:work-00003303",
+    "iac:work-00003925",
+    "iac:work-00004447",
+    "iac:work-00004777",
+    "iac:work-00006171"
+  ]
+}

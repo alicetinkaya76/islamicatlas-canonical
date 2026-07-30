@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00003227",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HASAN AĞA, Enfî"
+    },
+    "description": {
+      "tr": "İstanbul’da Tophane civarındaki Fındıklı semtinde dünyaya geldi. Mehmet Suphi Ezgi onun 1660’lı yıllarda doğmuş olabileceğini söyler. Enfî ve Burnaz lakaplarıyla tanınmış olup bu lakapların kendisine enfiye çekme merakından veya büyük burunlu olmasından dolayı verildiği rivayet edilir. İlk mûsiki bilgilerini babasından alan Hasan Ağa, genç yaşta Enderûn-ı Hümâyun’da kilâr-ı hâssaya kabul edildi. Enderun’daki tahsili sırasında mûsiki alanında kendini yetiştirdi. III. Ahmed devrinde (1703-1730) serhânende oldu. Bu arada Halvetî-Şâbânî şeyhi Mehmed Nasûhî’ye intisap etti. 1715’te Enderun’dan emekli edilen Hasan Ağa vefatında Edirnekapı dışındaki kabristana defnedildi. Ölüm tarihini Ayvansarâyî, Müstakimzâde, Râmiz ve Mehmed Esad Efendi 1141 (1729) olarak verirlerse de Başbakanlık Arşivi’ndeki bir kayıttan 11 Zilkade 1136 (1 Ağustos 1724) tarihinde vefat ettiği anlaşılmaktadır (Işıközlü, II [1973], s. 522-523). Hasan Ağa, sarayda uzun süre Ebûbekir Ağa’nın idaresindeki fasıl heyetinde serhânende olarak bulunmuştur. Seyyid Vehbî Surnâme ’sinde, III. Ahmed’in şehzadelerinin 1720 yılında Okmeydanı’nda yapılan sünnet düğününü anlatırken serhânende Burnaz Hasan Çelebi’nin idaresinde seksen yüz hânende ve sâzendeden oluşan büyük bir heyetin fasıl icrasından söz eder. Aynı zamanda iyi bir tamburî olan Hasan Ağa, dinî ve din dışı eserleriyle bestekârlık sahasındaki kudretini ortaya koymuş, devrinde bestelerinin çokluğuyla diğer sanatkârlar arasında seçkin bir yer elde etmiştir. Ebûishakzâde Esad Efendi onun 200’ün üzerinde eser bestelediğini söyler. El yazması güfte mecmualarında yapılacak bir araştırma ile bu sayının 300’ün üzerine çıkması muhtemeldir. Hasan Ağa daha çok hece vezniyle yazılmış manzumeleri, özellikle Nedîm ve Mahtûmî’nin şiirleriyle Hasan Sezâî, Seyyid Seyfullah ve Yûnus Emre’nin ilâhilerini bestelemiştir. Yılmaz Öztuna onun durak, ilâhi, beste, semâi, şarkı formlarında toplam on sekiz eserinin zamanımıza ulaştığını kaydeder. Bunlar arasında, “Küşâde sînesi bilmem ki sehâsı mı var?” mısraıyla başlayan nişâburek bestesiyle, “Câme-i sürh ile sanma la‘l-gûn olmuş gelir” mısraıyla başlayan aynı makamdaki semâisi en tanınmış eserlerindendir. Hulûs ve Hasan mahlasları ile şiirler yazan ve bu şiirlerinde aruz ve hece vezinlerini başarıyla kullanan Hasan Ağa na‘tları ile de ünlüdür. Bazı şiirleri kendisi ve başka bestekârlar tarafından bestelenmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 285-286 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-aga-enfi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-aga-enfi, https://islamansiklopedisi.org.tr/hasan-aga-enfi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hasan-aga-enfi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hasan-aga-enfi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-aga-enfi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1136,
+    "start_ce": 1724,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-aga-enfi, URL: https://islamansiklopedisi.org.tr/hasan-aga-enfi || DİA death place: Enderun || DİA death-date string: (ö. 1136/1724) || DİA categories: sünnet > rivayet || Chunk count: 1"
+}

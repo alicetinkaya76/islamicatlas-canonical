@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00002971",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HACCÂC el-HİMYERÎ",
+      "ar": "الحجّاج الحميري"
+    },
+    "originalScript": {
+      "ar": "الحجّاج الحميري"
+    },
+    "altLabel": {
+      "tr": [
+        "Haccâc b. Bâb el-Himyerî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında kaynaklarda fazla bilgi yoktur. Abdullah b. Zübeyr ile Emevîler arasında başlayan hilâfet mücadelesinde Mekke’de halifeliğini ilân eden Abdullah’a biat etmiş ve onun safında yer almıştır. Ahvaz’da Hâricîliğin propagandasını yapan Nâfi‘ b. Ezrak kendisine biat etmeyenlere karşı zalimce davranıyor ve çocuklarını öldürüyordu; biat edenlerden de haraç alıyordu. Nâfi‘, Hâricîliği Sevâd’ın her tarafına yaymaya çalıştı. Ancak onun faaliyetlerinden endişe duyan halk Ahnef b. Kays’a başvurarak Hâricîler’den şikâyetçi oldu. Ahnef’in isteği üzerine Abdullah b. Zübeyr’in Basra valisi Abdullah b. Hâris el-Hâşimî, Müslim b. Ubeys’i Hâricîler’le savaşa memur etti. Hâricîler’in üzerine yürüyen Müslim’in ordusunda sağ kanat kumandanlığına Haccâc el-Himyerî getirildi. Taraflar Dûlâb’da şiddetli bir savaşa giriştiler (65/685). Müslim b. Ubeys ile Hâricî lideri Nâfi‘ b. Ezrak savaşın başında öldürüldü. İbnü’l-Esîr, Müslim’in ölümünden sonra Basralı kuvvetlerin başına Haccâc el-Himyerî’nin geçtiğini söyler. Müberred ise Rebî‘ el-Eczem’in kumandayı ele aldığını ve yirmi gün kadar savaştıktan sonra onun da öldüğünü, daha sonra da Haccâc’ın Basralılar tarafından zorla kumandanlığa getirildiğini kaydeder. Haccâc el-Himyerî bu savaşta Hâricîler tarafından öldürülmüştür. Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 426 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:haccac-el-himyeri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=haccac-el-himyeri, https://islamansiklopedisi.org.tr/haccac-el-himyeri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:haccac-el-himyeri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/haccac-el-himyeri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:2549",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=2549, heading_ar=الحجاج الحميري",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:08Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:08Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=haccac-el-himyeri (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[2549]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=2549 (heading_ar=الحجاج الحميري) via Track A (DİA→Alam xref bridge). dt=Cesur kişi, Abdullâh b. ez-Zübeyr'in ashabından."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Himyerî"
+  ],
+  "death_temporal": {
+    "start_ah": 65,
+    "start_ce": 685,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=haccac-el-himyeri, URL: https://islamansiklopedisi.org.tr/haccac-el-himyeri || El-Aʿlām (Ziriklī) cross-reference: alam_id=[2549] || DİA death-date string: (ö. 65/685) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=2549, heading_ar=الحجاج الحميري, dt=Cesur kişi, Abdullâh b. ez-Zübeyr'in ashabından."
+}

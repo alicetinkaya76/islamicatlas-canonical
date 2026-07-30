@@ -1,0 +1,58 @@
+{
+  "@id": "iac:person-00000574",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH-ı ŞETTÂRÎ",
+      "ar": "عبد الله شطّارى"
+    },
+    "originalScript": {
+      "ar": "عبد الله شطّارى"
+    },
+    "description": {
+      "tr": "Hakkındaki bilgiler daha çok Gulâm Server Lâhûrî’nin Ḫazînetü’l-aṣfiyâʾ ına dayanmaktadır. Hemedâniyye tarikatının Ali el-Hemedânî’den, Kādiriyye tarikatını Şeyh Abdülvehhâb’dan aldı. Ḫazînetü’l-aṣfiyâʾ a göre Şehâbeddin es-Sühreverdî’nin soyundan gelen Abdullah, Tayfûriyye tarikatı şeyhlerinden Muhammed Ârif’e intisap etti. Şeyhi ona Şettârî (veya Şettâr) lakabını verdi; hırka giydirerek tarikatı yayması için Hindistan’a gönderdi. Abdullah-ı Şettârî önce Hindistan’ın Bankipûr şehrine, sonra Kanpûr’a gitti ve orada büyük bir üne kavuştu. Bir süre sonra Câlûh’a geldi; Câlûh hükümdarının başşehir Mend’de kendisine tahsis ettiği bir yere yerleşerek tarikatını yaymaya başladı. Nüzhetü’l-ḫavâṭır müellifinin Gülzâr-ı Ebrâr ’dan naklettiğine göre 832’de (1428-29) Mend’de vefat etti. Değişik şekillerde kaydedilen tarikat silsilelerinin hepsi Bâyezîd-i Bistâmî’ye ulaşır. Abdullah-ı Şettârî’nin meşrebi, tasavvufta üç genel temayülü ifade eden tarîk-i ebrâr, tarîk-i ahyâr, tarîk-i şettâr dan sonuncusudur. Bu yol aşk, vecd ve cezbeyi esas alır. Kendisine “pîr-i tarîkat”, “sâhib-i tarîkat” denilmekle birlikte Şettâriyye tarikatı daha önce de mevcuttu. Nitekim bazı kaynaklarda şeyhi Muhammed Ârif’e Şettârî lakabı verilmektedir. Kendisinden önce genel bir tasavvufî tavır ifade eden Şettâriyye, Abdullah-ı Şettârî tarafından özel bir tarikat olarak kurulmuş olmalıdır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 137 numaralı sayfada \"ABDULLAH-I ŞÜTTÂRÎ\" başlığıyla yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız. Bu madde en son 05.07.2017 tarihinde güncellenmiştir."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-i-settari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-i-settari, https://islamansiklopedisi.org.tr/abdullah-i-settari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-05-04T15:32:39Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-i-settari (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 832,
+    "start_ce": 1428,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-i-settari, URL: https://islamansiklopedisi.org.tr/abdullah-i-settari || DİA death place: Mend || DİA death-date string: (ö. 832/1428-29) || DİA categories: tarikat > tasavvuf || Chunk count: 1"
+}

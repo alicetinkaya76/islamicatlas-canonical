@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00002496",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Emîr Giyâseddin",
+      "ar": "أمير غياث الدين"
+    },
+    "originalScript": {
+      "ar": "أمير غياث الدين"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Yakīn Emîr Gıyâsüddîn Muhammed b. Hüseyn b. Muhammed Hüseynî Esterâbâdî"
+      ]
+    },
+    "description": {
+      "tr": "İran’ın kuzeydoğusundaki Gürgân bölgesinde bulunan Esterâbâd şehrinde muhtemelen 790-799 (1388-1396) yılları arasında doğdu. Annesi, Hurûfîliğin kurucusu Fazlullah-ı Hurûfî’nin başhalifesi Ali el-A‘lâ’nın kız kardeşidir. Babası Hüseyin b. Muhammed hakkında ise kaynaklarda herhangi bir bilgi yoktur. Emîr Gıyâseddin, mensup olduğu Hurûfî fırkasının fikirlerini yaymak maksadıyla Hurûfîliğin merkezi Tebriz’den ayrılarak birçok yeri ziyaret etti. Fazlullah-ı Hurûfî’nin torunu Emîr Nûrullah ile birlikte gittiği Bitlis’te diğer Hurûfî liderleriyle tanışarak görüş alışverişinde bulundu. Hurûfîler’in 13 Rebîülâhir 830 (11 Şubat 1427) tarihinde Herat’ta Timur’un oğlu Şâhruh Mirza’ya karşı düzenledikleri suikastla ilgili görülerek Emîr Nûrullah ile birlikte tutuklandı. Uzun süren mahkeme sonunda haklarında kesin bir hükme varılamadı. Emîr Gıyâseddin, beş yıl sonra Emîr Nûrullah ile birlikte tutuklu bulundukları Süleymânî Kalesi’nden kaçtı; Hurûfîliğin önde gelen şahsiyetlerinin sığındığı Hürmüz adasına geçti. Bir süre sonra buradan ayrılarak İran’ın Şîraz bölgesine, ardından da Bağdat’a gitti. 852’den (1449) sonraki bir tarihte vefat etti. Emîr Gıyâseddin’in, Hurûfîliği yaşatmak ve fikirlerini kendisinden sonra gelenlere aktarabilmek amacıyla kaleme aldığı İstivânâme adlı Farsça eseri Hurûfîlik tarihinin ana kaynaklarındandır. Fazlullah-ı Hurûfî’nin hayatı, münasebette bulunduğu kişiler, halifeleri, gittiği yerler ve öldürülmesi gibi konularda ayrıntılı bilgi veren bu eserin bir nüshası Millet Kütüphanesi’ndedir (Ali Emîrî, Farsça, nr. 269). Irène Mélikoff’un, Fazlullah’ın başhalifesi Ali el-A‘lâ ile Emîr Gıyâseddin’i aynı kişi olarak göstermesi ( Uyur İdik Uyardılar , s. 192) ve İstivânâme ’yi Ali el-A‘lâ’ya mal etmesi doğru değildir. Emîr Gıyâseddin’in, Fazlullah’ın Hasan adlı bir halifesine gönderdiği ve Şâhruh’a yapılan suikastı, tutuklanmasını, sorguya çekilmesini ve konuyla ilgili diğer olayları anlattığı, Millet Kütüphanesi’nde bulunan (Ali Emîrî, Farsça, nr. 825) 16 Cemâziyelevvel 836 (8 Ocak 1433) tarihli mektubu Abdülbâki Gölpınarlı tarafından yayımlanmıştır ( ŞM , sy. 1, s. 37-57). Işkurt Dede diye anılan Şeyh Muhammed Ṣalâtnâme adlı eserinde (vr. 50 a ) Emîr Gıyâseddin’in Türâbnâme adlı bir risâlesi olduğunu söylüyorsa da eser günümüze ulaşmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 130-131 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:emir-giyaseddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=emir-giyaseddin, https://islamansiklopedisi.org.tr/emir-giyaseddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:01Z",
+    "modified": "2026-05-04T15:34:01Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=emir-giyaseddin (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 852,
+    "start_ce": 1449,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=emir-giyaseddin, URL: https://islamansiklopedisi.org.tr/emir-giyaseddin || DİA death place: 852 || DİA death-date string: (ö. 852/1449’dan sonra) || Chunk count: 1"
+}

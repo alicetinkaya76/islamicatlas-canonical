@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00004181",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-FELEKÎ",
+      "ar": "ابن الفلكي"
+    },
+    "originalScript": {
+      "ar": "ابن الفلكي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Fazl Alî b. el-Hüseyn b. Ahmed el-Hemedânî el-Felekî"
+      ]
+    },
+    "description": {
+      "tr": "Muhtemelen Hemedan’da doğdu. Astronomi ve matematik âlimi olan dedesi Ebû Bekir Ahmed b. Hasan el-Felekî’ye nisbetle İbnü’l-Felekî diye anıldı. Tahsiline Hemedan’da başladı. Burada ve öğrenim için gittiği Irak ve Horasan bölgelerinde Ebû Saîd es-Sîrâfî, İbn Rezkūye (İbn Rizkaveyh), İbn Bişrân diye tanınan Ebü’l-Hüseyin Ali b. Muhammed el-Bağdâdî ve Kādılkudât Ebû Bekir el-Hîrî gibi âlimlerden ders aldı. Kendisinden de Ahmed b. Muhammed el-Meydânî ile diğer bazı şahsiyetler rivayette bulundu. Hâce Abdullah-ı Herevî, İbnü’l-Felekî’nin gayretli bir sûfî olduğunu ve hâfızası ondan daha güçlü bir kimse görmediğini söylemiştir. Bazı kimseler ilminden faydalanılmadığı gerekçesiyle onu eleştirmişse de Zehebî hadis rivayet etmeye fırsat bulamadan genç yaşta vefat ettiğini kaydeder. Titiz bir muhaddis olduğu bildirilen İbnü’l-Felekî Şâban 427’de (Haziran 1036) Nîşâbur’da vefat etti. Çeşitli eserler yazdığı belirtilen İbnü’l-Felekî’nin (İbnü’s-Salâh, II, 611) bu çalışmalarından ikisinin adı zikredilmiş olup bunlardan Müntehe’l-kemâl fî maʿrifeti’r-ricâl ’in 1000 cüz hacminde olduğu söylenmiş, Zehebî bu eseri el-Müntehâ fî maʿrifeti’r-ricâl ( Aʿlâmü’n-nübelâʾ , XVII, 503) ve el-Müntehâ fi’l-kemâl fî maʿrifeti’r-ricâl ( el-ʿİber , II, 256) adlarıyla kaydetmiştir. Onun diğer eseri ise Maʿrifetü elḳābi’l-muḥaddis̱în adını taşımaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 44 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-feleki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-feleki, https://islamansiklopedisi.org.tr/ibnul-feleki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:7075",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=7075, heading_ar=ابن الفلكي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:25Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:25Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-feleki (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[7075]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=7075 (heading_ar=ابن الفلكي) via Track A (DİA→Alam xref bridge). dt=Hadis hâfızlarından"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hemedânî; Felekî"
+  ],
+  "death_temporal": {
+    "start_ah": 427,
+    "start_ce": 1036,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-feleki, URL: https://islamansiklopedisi.org.tr/ibnul-feleki || El-Aʿlām (Ziriklī) cross-reference: alam_id=[7075] || DİA birth place: Hemedan || DİA death place: Nîşâbur || DİA death-date string: (ö. 427/1036) || DİA categories: rivayet > hadis > astronomi || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=7075, heading_ar=ابن الفلكي, dt=Hadis hâfızlarından",
+  "active_in_places": [
+    "iac:place-00012747"
+  ],
+  "teachers": [
+    "iac:person-00007056"
+  ],
+  "students": [
+    "iac:person-00005508"
+  ]
+}

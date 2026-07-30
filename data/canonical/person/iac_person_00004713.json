@@ -1,0 +1,118 @@
+{
+  "@id": "iac:person-00004713",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ka‘nebî",
+      "ar": "القعنبي"
+    },
+    "originalScript": {
+      "ar": "القعنبي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdirrahmân Abdullāh b. Mesleme b. Ka‘neb el-Hârisî el-Ka‘nebî"
+      ]
+    },
+    "description": {
+      "tr": "130 (747) yılından sonra doğdu. Dedesine nisbetle Ka‘nebî diye meşhur oldu. Aslen Medineli olmakla birlikte Basra’da, daha sonra Mekke’de yaşadı. Babası Mesleme, dayısı Abdurrahman b. Mukātil el-Kuşeyrî, kardeşleri İbrâhim ve İsmâil de muhaddisti. Ka‘nebî’nin önde gelen hocaları arasında, kendisine otuz yıldan fazla talebelik ettiği Mâlik b. Enes başta olmak üzere Şu‘be b. Haccâc, İbn Ebû Zi’b, Mahreme b. Bükeyr, Eflah b. Humeyd, Seleme b. Verdân, Hammâd b. Seleme gibi âlimler yer almaktadır. Kardeşi İbrâhim’le birlikte babası Mesleme’den de hadis rivayet etmiştir. Ebû Hâtim er-Râzî, Ebû Zür‘a er-Râzî, Buhârî, Müslim, Ebû Dâvûd, Abd b. Humeyd, Osman b. Saîd ed-Dârimî ve diğer birçok âlim kendisinden hadis rivayetinde bulunmuştur. Ka‘nebî Muharrem veya Safer 221’de (Ocak veya Şubat 836) Mekke’de vefat etti. Bu tarih 220 olarak da zikredilmiştir. Güvenilir bir muhaddis olan Ka‘nebî hocası İmam Mâlik tarafından övülmüş, Ebû Hâtim er-Râzî onun için “sika, hüccet”, Ebü’l-Hasan el-İclî “sika, sâlih” terimlerini kullanmıştır. el-Muvaṭṭaʾ da yer alan bütün hadisleri Mâlik’ten teker teker semâ yoluyla dinleyebileceği halde bu eserin ilk yarısını Mâlik Ka‘nebî’ye, ikinci yarısını Ka‘nebî Mâlik’e okumuştur. Çünkü Mâlik, kıraat yoluyla hadis rivayet etmeyi semâ usulüyle rivayetten daha üstün görüyordu (Hatîb el-Bağdâdî, s. 271-272). el-Muvaṭṭaʾ ın Ka‘nebî’den gelen rivayeti Abdülhafîz Mansûr (Tunus 1396; Küveyt 1392/1972) ve Abdülmecîd Türkî (Beyrut 1994, 1999, Süveyd b. Saîd el-Hadesânî rivayetiyle birlikte) tarafından neşredilmiştir. Ka‘nebî’nin rivayetleri, İbn Mâce’nin es-Sünen ’i hariç Kütüb-i Sitte başta olmak üzere birçok kaynakta yer almış olup yalnız Ṣaḥîḥ-i Buḫârî ’de 123, Ṣaḥîḥ-i Müslim ’de ise yetmiş rivayeti bulunmaktadır (İbn Hacer, VI, 32-33). Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 305-306 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kanebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kanebi, https://islamansiklopedisi.org.tr/kanebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:kanebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/kanebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:31Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:31Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kanebi (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hârisî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 130,
+    "start_ce": 747,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 221,
+    "start_ce": 836,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kanebi, URL: https://islamansiklopedisi.org.tr/kanebi || DİA death place: Mekke || DİA death-date string: (ö. 221/836) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003141",
+    "iac:person-00003768",
+    "iac:person-00005206",
+    "iac:person-00007106",
+    "iac:person-00007146",
+    "iac:person-00007149"
+  ],
+  "students": [
+    "iac:person-00000405",
+    "iac:person-00001402",
+    "iac:person-00001599",
+    "iac:person-00001732",
+    "iac:person-00001936",
+    "iac:person-00001947",
+    "iac:person-00002157",
+    "iac:person-00002179",
+    "iac:person-00002313",
+    "iac:person-00002607",
+    "iac:person-00003140",
+    "iac:person-00003304",
+    "iac:person-00005861"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "@id": "iac:person-00000623",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜRRAHÎM-i RÛMÎ",
+      "ar": "عبد الرحيم رومى"
+    },
+    "originalScript": {
+      "ar": "عبد الرحيم رومى"
+    },
+    "description": {
+      "tr": "Merzifon’da doğdu. Sarı Dânişmend lakabıyla tanınan bir zatın oğludur. İlk tahsilini memleketinde yaptıktan sonra Mısır’a gitti. Orada tanıştığı Sühreverdiyye tarikatının Zeyniyye kolu kurucusu Zeynüddin el-Hâfî’ye (ö. 838/1434) intisap ederek sülûk ünü tamamladı. Daha sonra şeyhiyle birlikte Horasan’a gitti ve orada birkaç yıl kaldı. “Bir aşk kütüğü yaktık, diyâr-ı Rûm’a attık” diyen Hâfî’nin emriyle Anadolu’ya dönerek doğum yeri olan Merzifon’a yerleşti. Ölümüne kadar burada irşadla meşgul oldu. Şiirlerinde Rûmî mahlasını kullanan ve, “Tövbe yâ rabbi hatâ râhına gittiklerime / Bilip ettiklerime bilmeyip ettiklerime” beytiyle şöhret kazanan Abdürrahîm-i Rûmî, muhtemelen 850 (1446) yılında vefat etmiştir. Zeynüddin el-Hâfî’nin Abdürrahîm-i Rûmî’ye verdiği 832 tarihli icâzetnâmenin metni Nefehât Tercümesi ’nde yer almaktadır. Kendisinden bahseden kaynaklarda İrşâdü’l-enâm , Vesâyâ , Dîvançe-i İlâhiyyât ve Işknâme adlı eserleri olduğu kaydedilmekte ise de bunlardan sadece Işknâme ’si (İÜ Ktp., TY, nr. 1359) günümüze kadar gelmiştir. Hakkında Berin Taşan tarafından müstakil bir çalışma yapılmıştır (İzmir 1975). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 293 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahim-i-rumi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahim-i-rumi, https://islamansiklopedisi.org.tr/abdurrahim-i-rumi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahim-i-rumi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 850,
+    "start_ce": 1446,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahim-i-rumi, URL: https://islamansiklopedisi.org.tr/abdurrahim-i-rumi || DİA birth place: Merzifon || DİA death-date string: (ö. 850/1446 [?]) || DİA categories: tarikat || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00004180"
+  ]
+}

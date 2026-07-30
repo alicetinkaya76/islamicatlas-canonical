@@ -1,0 +1,118 @@
+{
+  "@id": "iac:person-00003870",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Hubeyş",
+      "ar": "ابن حبيش"
+    },
+    "originalScript": {
+      "ar": "ابن حبيش"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Kāsım Abdurrahmân b. Muhammed b. Abdillâh (Ubeydillâh) el-Ensârî el-Endelüsî"
+      ]
+    },
+    "description": {
+      "tr": "504’te (1110-11) Meriye’de (Almeria) doğdu. Dayısı Hubeyş’e nisbetle İbn Hubeyş diye tanındı. Ayrıca Hatîb unvanıyla da anılır. Devrinin meşhur âlimlerinden Ruşâtî, İbn Vaddâh, Ali b. İbrâhim el-Ensârî’den kıraat, hadis ve fıkıh okudu. Daha sonra tahsil amacıyla Kurtuba’ya (Córdoba) giderek Yûnus b. Muhammed b. Mugīs, Ca‘fer b. Muhammed el-Mekkî, Muhammed b. Asbağ, Ebû Bekir İbnü’l-Arabî ve Muhammed İbn Ebû Zeyd’den ders aldı. Kendisinden kıraat, hadis, dil ve edebiyat alanlarında Ahmed b. Muhammed et-Tarsûsî, Ebû Süleyman İbn Havtullah, Abdullah b. Hasan el-Mâlekī, İbn Dihye el-Kelbî, Kelâî ve Ali b. Yûsuf b. Şerîk gibi âlimler istifade etti. Hıristiyanlar 542’de (1147) Meriye’yi ele geçirince Mürsiye’ye (Murcia) giderek Cezîretüşşukar’a yerleşti ve orada Muvahhidler Devleti hükümdarı Yûsuf b. Abdülmü’min tarafından yaklaşık 556 (1161) yılından itibaren kadılık ve hatiplik görevine tayin edildi. On iki yıl bu görevde kaldıktan sonra Mürsiye hatipliğine, 575’te (1179) Mürsiye kadılığına getirildi. Önce hükümdar, sonra da onun oğlu ile yakın ilişki içerisinde olması sebebiyle değerli eserlerin bulunduğu kütüphanelerden faydalanma imkânı bulmuş ve bu husus ilmî kişiliğinin gelişmesinde etkili olmuştur. İbn Hubeyş 14 Safer 584’te (14 Nisan 1188) Mürsiye’de vefat etti. Eserleri. İbn Hubeyş’in günümüze ulaşan tek eseri Kitâbü’l-Ġazavât (Meġāzî) adını taşımaktadır. Tam adı el-Ġazavâtü’ḍ-ḍâminetü’l-kâmile ve’l-fütûḥu’l-câmiʿatü’l-ḥâfiletü’l-kâʾine fî eyyâmi’l-ḫulefâʾi’l-üveli’s̱-s̱elâs̱e: Ebî Bekir eṣ-Ṣıddîḳ ve Ebî Ḥafṣ ʿÖmer el-Fârûḳ ve Ebî ʿAmr Ẕinnûreyn ʿOs̱mân olan eser Yûsuf b. Abdülmü’min’in isteği üzerine kaleme alınmıştır. 583’te (1187) tamamlanan eserde ilk üç halife dönemindeki İslâmî fetihler ele alınmış, başta Seyf b. Ömer’in zamanımıza kadar gelmeyen Kitâbü’r-Ridde ve’l-fütûḥ ’u ile Vâkıdî’nin Kitâbü’r-Ridde adlı eserleri olmak üzere çeşitli kaynaklardan faydalanılarak ridde savaşları anlatılmış, ardından Muhammed b. Abdullah el-Ezdî’nin Fütûḥu’ş-Şâm ’ı gibi kaynaklara dayanılarak Suriye’deki fetihler konu edilmiştir. Daha sonra Mısır ve Kuzey Afrika’nın fethiyle ilgili rivayetler, müslümanların denizcilik alanındaki faaliyetleri ve Zâtüssavârî Savaşı üzerinde durulmuştur. Kitabın ikinci yarısı Irak fetihlerine ayrılmış, ardından diğer Sâsânî bölgelerinin fethi anlatılmıştır. Eser Abdullah Guneym (I-IV, Kahire 1404-1408/1983-1987) ve Süheyl Zekkâr (I-II, Beyrut 1412/1992) tarafından yayımlanmıştır. Kaynaklarda İbn Hubeyş’in el-Elḳāb adında bir risâlesi daha olduğu kaydedilmektedir (İbnü’l-Ebbâr, II, 573). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 77 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-hubeys",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-hubeys, https://islamansiklopedisi.org.tr/ibn-hubeys",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-hubeys",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-hubeys",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:20Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:20Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:20Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-hubeys (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-hubeys)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî; Endelüsî"
+  ],
+  "death_temporal": {
+    "start_ah": 584,
+    "start_ce": 1188,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-hubeys, URL: https://islamansiklopedisi.org.tr/ibn-hubeys || DİA death place: Mürsiye || DİA death-date string: (ö. 584/1188) || DİA categories: hadis > fıkıh > rivayet || Chunk count: 1",
+  "death_place": "iac:place-00014767",
+  "active_in_places": [
+    "iac:place-00014767"
+  ],
+  "teachers": [
+    "iac:person-00003767",
+    "iac:person-00004067",
+    "iac:person-00004134",
+    "iac:person-00006473"
+  ],
+  "students": [
+    "iac:person-00003728",
+    "iac:person-00003777",
+    "iac:person-00003853",
+    "iac:person-00003912",
+    "iac:person-00004838"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00000904",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AKYOL, Mehmet Hulûsi"
+    },
+    "description": {
+      "tr": "Yozgat’ta doğdu. Babası Hacı Bekir Ağa, annesi Mevlûde Hanım’dır. İlk öğreniminden sonra Yozgat İ‘dâdî-i Mülkîsi’nden pekiyi derece ile mezun oldu (1904). Daha sonra Kayseri’ye giderek Hamurculu Osman Hulûsi Efendi’nin medresesinde Arapça ve dinî ilimleri tahsil ederek icâzet aldı. Bilgisini ve görgüsünü artırmak maksadıyla İstanbul’a gitti. 1912 yılında yapılan ruûs imtihanında başarı göstererek müderris unvanını aldı ve kaydıhayat şartıyla dersiâmlık maaşına bağlandı. Üç yıl kadar Beyazıt Camii müderrisliği yaptı. Medresetü’l-kudât üçüncü sınıf imtihanlarını bitirdikten sonra, öğrencilerin askere alındığı I. Dünya Savaşı yıllarında tahsilini terkederek askerlik görevini yaptı. 1920 yılında Yozgat müftülüğüne tayin edildi. Bu yıllarda Yozgat’ta Medrese-i İlmiyye’de müderrislik yaptı. Ayrıca Dârülhilâfe Medresesi’nde müderrislik ve müdür vekilliği görevlerinde bulundu. İstiklâl Savaşı’na Yozgat’tan katıldı ve burada kurulan Müdâfaa-i Hukuk Cemiyeti’ne başkanlık etti. Genç bir müftü olarak gösterdiği gayret ve faaliyetleri sonucunda, bölgede üstün hâkimiyeti olan ve İstanbul hükümetine bağlılığı ile tanınan Çapanoğulları ailesiyle arası açıldı. İlk Büyük Millet Meclisi’ne Yozgat mebusu olarak katıldı. Mebusluk ile başka bir memuriyetin birleşemeyeceğine dair çıkarılan karar üzerine 14 Mart 1921 tarihinde mebusluktan istifa ederek tekrar Yozgat müftülüğüne döndü. Bu görevde iken medreselerdeki müderrisliğinden başka özel dersler de verdi. Hilâliahmer, Tenvîr u İrşâd, Mecrûh u Guzâta Yardım gibi hayır cemiyetlerinde çalıştı; Emvâl-i Metrûke Komisyonu âzalığı ve Hey’et-i Teftîşiyye reisliği yaptı. 15 Haziran 1950 tarihinden itibaren Diyanet İşleri Başkanlığı Müşavere ve Dinî Eserleri İnceleme Kurulu üye yardımcılığı ve üyeliği görevlerinde bulundu. Bu görevine devam ederken 12 Ocak 1955 tarihinde geçirdiği bir trafik kazası sonucu iki ayağından sakat kaldı ve Haziran 1959’da emekli oldu. Mehmet Hulûsi Efendi ömrü boyunca halkı irşad ile meşgul olmuş, İstanbul ve Yozgat’taki müderrisliği sırasında birçok talebe yetiştirerek icâzetler vermiştir. İleri görüşü, ilmî dirayeti ve fazileti herkes tarafından kabul edilerek “Büyük Müftü Efendi” diye şöhret bulmuştur. Müşavere ve Dinî Eserleri İnceleme Kurulu üyesi iken, Diyanet İşleri Başkanlığı’nca kendisine Yakovas’ın İslâmiyet’e karşı tecavüzkâr neşriyatına cevap mahiyetinde bir eser yazma görevi verilmişse de daha sonra böyle bir eserin neşrinden vazgeçilmesi üzerine bu çalışması yarım kalmıştır. Mehmet Hulûsi Akyol 22 Kasım 1964 tarihinde Yozgat’ta vefat etmiş ve orada defnedilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 303-304 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:akyol-mehmet-hulusi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=akyol-mehmet-hulusi, https://islamansiklopedisi.org.tr/akyol-mehmet-hulusi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=akyol-mehmet-hulusi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1888,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=akyol-mehmet-hulusi, URL: https://islamansiklopedisi.org.tr/akyol-mehmet-hulusi || DİA birth place: Yozgat || DİA death place: Yozgat || DİA death-date string: (1888-1964) || DİA categories: astronomi || Chunk count: 1",
+  "students": [
+    "iac:person-00005355"
+  ]
+}

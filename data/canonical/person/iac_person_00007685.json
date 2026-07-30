@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00007685",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Yanyali Bedreddin Mehmed"
+    },
+    "description": {
+      "tr": "Hayatı hakkında kaynaklarda bilgi yoktur. Yanyalı Esad Efendi’nin oğlu olup Bedreddin lakabı Bedrî şeklinde de kaydedilir. Medrese tahsilinin ardından mülâzemetle ilmiyeye intisap ettiği anlaşılmakta ( Sicill-i Osmânî , I, 332), 1146’da (1733) babasından üç yıl sonra vefat ettiği bilinmektedir ( a.g.e. , a.y.). Babası gibi aklî ilimlerle uğraşan Bedreddin Efendi daha çok matematikle ilgilenmiştir. Eserleri. Bursalı Mehmed Tâhir’in adlarını verdiği altı eserinden üçünün nüshaları bilinmektedir. 1. Şerḥu baʿżi’l-maḳālâti’l-Öḳlîdisiyye . Bedreddin Efendi şerhin mukaddimesinde bütün açıları üçe, daireleri yediye, yayları altıya böldüğünü, dönemine kadar çözülemeyen birçok geometri problemini çözdüğünü söyler. Geometrik çizimler şerhin kenarlarında verilmiştir. Kendi konusunda önemli bir çalışma olan eserin bazı nüshaları mevcuttur (Beyazıt Devlet Ktp., nr. 9787 [müellif hattı]; Askerî Müze, nr. 3028; Süleymaniye Ktp., Esad Efendi, nr. 2010). 2. Tes̱lîs̱ü’z-zâviye ve tesbîʿu’d-dâʾire (Dârü’l-kütübi’l-Mısriyye, Mustafa Fâzıl, Riyâza, nr. 41/7, vr. 65 b -66 b ). 3. ʿAmelü’l-müsebbaʿ ve ġayrihî min ẕevâti’l-eḍlâʿi’l-kes̱îre fi’d-dâʾire (Dârü’l-kütübi’l-Mısriyye, Mustafa Fâzıl, Riyâza, nr. 41/8, vr. 67 b -68 b ). Günümüze ulaşmayan diğer eserleri de şunlardır: Reyḥânetü’r-rûḥ fî resmi’s-sâʿât fî maʿrifeti’l-evḳāt , Taḥrîrü’l-Menâẓıri’l-Öḳlîdisî , Şerḥu Ḫulâṣati’l-ḥisâb ( Osmanlı Müellifleri , III, 257). Bu madde TDV İslâm Ansiklopedisi’nin 2013 yılında İstanbul’da basılan 43. cildinde, 321-322 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "mathematician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:yanyali-bedreddin-mehmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=yanyali-bedreddin-mehmed, https://islamansiklopedisi.org.tr/yanyali-bedreddin-mehmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:yanyali-bedreddin-mehmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=yanyali-bedreddin-mehmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:07Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:07Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=yanyali-bedreddin-mehmed (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=yanyali-bedreddin-mehmed)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1146,
+    "start_ce": 1733,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=yanyali-bedreddin-mehmed, URL: https://islamansiklopedisi.org.tr/yanyali-bedreddin-mehmed || DİA death place: 1146 || DİA death-date string: (ö. 1146/1733) || DİA categories: matematik || Chunk count: 1",
+  "teachers": [
+    "iac:person-00007686"
+  ]
+}

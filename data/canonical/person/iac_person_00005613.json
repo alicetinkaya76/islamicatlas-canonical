@@ -1,0 +1,70 @@
+{
+ "@id": "iac:person-00005613",
+ "@type": [
+  "iac:Person",
+  "iac:Poet"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "MUÂZ b. MÜSLİM el-HERRÂ",
+   "ar": "معاذ بن مسلم الهرّاء"
+  },
+  "originalScript": {
+   "ar": "معاذ بن مسلم الهرّاء"
+  },
+  "altLabel": {
+   "tr": [
+    "Ebû Müslim (Ebû Alî) Muâz b. Müslim el-Herrâ’ el-Kûfî"
+   ]
+  },
+  "description": {
+   "tr": "Abdülmelik b. Mervân devrinde (685-705) Kûfe’de doğdu. Kûfe dil mektebinin birinci tabakasına mensup olup Kûfe nahvinin kurucusu sayılan Ebû Ca‘fer er-Ruâsî’nin amcasıdır. Herat yapımı elbise ticaretiyle meşgul olduğundan “Herrâ” lakabıyla anılmıştır. Muâz ilk Kûfeli dilciler gibi Basra’ya gitti ve buranın önde gelen âlimlerinin derslerine devam etti; ardından Kûfe’ye döndü. Yeğeni Ruâsî ile birlikte uzun bir süre burada ders verdi. Kûfe dil mektebinin en tanınmış iki dilcisi olan Ali b. Hamza el-Kisâî ile Yahyâ b. Ziyâd el-Ferrâ onun öğrencilerindendir. Sarf ilmiyle çok meşgul olan Muâz özellikle kelimelerin kalıpları üzerinde çağdaşlarıyla tartışmalar yapmıştır. Bundan dolayı onu sarfın kurucusu sayanlar olmuş, Şiîliğe temayülü sebebiyle bilhassa Şiî çevreleri bu görüş üzerinde ısrar etmiştir. Ancak son dönemlerde yapılan bazı çalışmalarda bunun doğru olmadığı ileri sürülmüştür. Sarf ilminin -sistematik bir şekilde olmasa da- daha önce Basra’da Sîbeveyhi’nin el-Kitâb ’ında nahiv içinde toplanmış olması, ayrıca sarfa dair eserlerde Muâz b. Müslim el-Herrâ’ya nisbet edilmiş önemli bir görüşünün bulunmaması onun sarf ilminin kurucusu olduğu yolundaki iddiaları zayıflatmaktadır. Bu ilmin kurucusu sayılmasa da Muâz’ın nahivden ziyade sarf ilminde uzman olduğu ve bu ilmin gelişmesinde önemli hizmetler yaptığı bir gerçektir. Muâz’a ait şiirlerin bir kısmı zamanımıza ulaşmıştır. Ca‘fer es-Sâdık’tan hadis rivayetinde bulunmuşsa da bu hususta güvenilir olmadığı ifade edilmiştir. Nahiv ilmine dair yazdığı söylenen eserlerin hiçbiri günümüze kadar gelmemiştir. Muammerûn arasında yer alan Muâz ömrünün sonlarına doğru gittiği Bağdat’ta vefat etti. Onun uzun ömrü şiirlere konu olmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 30. cildinde, 338-339 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+  }
+ },
+ "profession": [
+  "poet"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "dia:muaz-b-muslim-el-herra",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA, slug=muaz-b-muslim-el-herra, https://islamansiklopedisi.org.tr/muaz-b-muslim-el-herra",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_dia",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:34:42Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:34:42Z",
+  "modified": "2026-05-04T15:34:42Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:34:42Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from DİA slug=muaz-b-muslim-el-herra (1 chunks) by dia adapter (Hafta 4)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (5613-19077) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00019077 lehine yumuşak-silindi. Gerekçe: Muâz b. Müslim el-Herrâ'nın lakabı ve Kûfe bağlantısı el-A'lâm'ın Kûfe koordinatlarıyla, 803 ölüm yılıyla örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00019077"
+ },
+ "death_temporal": {
+  "start_ah": 187,
+  "start_ce": 803,
+  "approximation": "exact"
+ },
+ "note": "DİA cross-reference: slug=muaz-b-muslim-el-herra, URL: https://islamansiklopedisi.org.tr/muaz-b-muslim-el-herra || DİA birth place: Kûfe || DİA death place: Bağdat || DİA death-date string: (ö. 187/803) || DİA categories: nahiv > hadis > rivayet || Chunk count: 1"
+}

@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00003618",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN ABDÛS el-KAYREVÂNÎ",
+      "ar": "ابن عبدوس القيرواني"
+    },
+    "originalScript": {
+      "ar": "ابن عبدوس القيرواني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. İbrâhîm b. Abdûs el-Kayrevânî el-Mağribî"
+      ]
+    },
+    "description": {
+      "tr": "202 (817-18) yılında Kayrevan’da doğdu. Aslen Arap olmayıp Kureyş’in mevâlîsindendir. İbn Sahnûn, Ebû Abdullah İbn Abdülhakem ve İbnü’l-Mevvâz ile birlikte aynı dönemde yaşayan Muhammed adlı meşhur dört Mâlikî âliminden biridir. Başta Sahnûn olmak üzere çeşitli âlimlerden fıkıh öğrendi. İlmî ehliyeti ve yaşayışı bakımından çok benzediği hocası Sahnûn’un kadılığı sırasında bir müddet zabıt kâtipliği de yaptı. Ehl-i Medîne’nin fıkhını çok iyi bilen ve sika bir râvi olarak kabul edilen İbn Abdûs ile, birlikte yetiştiği İbn Sahnûn’a Muhammediyye ve Abdûsiyye adlarında birer ekol izâfe edilmektedir. Bu iki ekolün mensupları arasında özellikle itikadî yönden ciddi ihtilâflar bulunduğu anlaşılmaktadır. Mümin olup olmadığı yolundaki bir soruya, “İnşallah müminim, hâlihazırda müminim, ancak Allah ruhumu hangi hal üzere kabzeder bilemem” şeklinde cevap veren İbn Abdûs, İbn Sahnûn’un taraftarlarınca kendi imanından şüphe etmekle suçlanmış ve onun bu görüşünü paylaşanlar Şükûkiyye diye adlandırılmıştır. Zühd ve takvâ sahibi bir âlim olan İbn Abdûs’un evindeki ders halkasında yedi yıl talebe okuttuğu ve bu süre zarfında sadece cuma namazları için dışarı çıktığı rivayet edilmektedir. Talebeleri arasında Kadı Hammâs b. Mervân el-Hemedânî el-Kayrevânî, Ebû Ca‘fer Ahmed b. Nasr el-Hevvârî, Ebû Muhammed Saîd b. Hakemûn gibi âlimler vardır. 260 (874) yılında vefat eden İbn Abdûs’un ölüm tarihi olarak Şîrâzî 261, Safedî 280 (893) yılını verirse de doğru değildir. Kaynaklarda İbn Abdûs’a el-Mecmûʿa (Mâlikî fıkhına dair muteber bir eser olup tamamlanmamıştır), Şerḥu’l-Müdevvene ( el-Müdevvenetü’l-kübrâ ’nın belli bölümlerinin şerhedildiği dört cüzlük bir eser), Kitâbü’t-Tefâsîr (çeşitli fıkıh konularının ilmî temellerinin açıklandığı bir eser), Mecâlisü Mâlik (son üç eserin el-Mecmûʿa ’nın birer bölümü olduğu da söylenmektedir), Kitâbü’l-Veraʿ ve Feżâʾilü aṣḥâbi Mâlik adlı eserler nisbet edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 268-269 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-abdus-el-kayrevani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-abdus-el-kayrevani, https://islamansiklopedisi.org.tr/ibn-abdus-el-kayrevani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:16Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-abdus-el-kayrevani (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:00Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kayrevânî; Mağribî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 202,
+    "start_ce": 817,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 260,
+    "start_ce": 874,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-abdus-el-kayrevani, URL: https://islamansiklopedisi.org.tr/ibn-abdus-el-kayrevani || DİA birth place: Kayrevan || DİA death-date string: (ö. 260/874) || DİA categories: fıkıh > rivayet || Chunk count: 1",
+  "birth_place": "iac:place-00013399",
+  "teachers": [
+    "iac:person-00006598"
+  ]
+}

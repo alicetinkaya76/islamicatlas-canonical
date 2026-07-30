@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00005624",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MÜCEMMİ‘ b. CÂRİYE",
+      "ar": "مجمّع بن جارية"
+    },
+    "originalScript": {
+      "ar": "مجمّع بن جارية"
+    },
+    "altLabel": {
+      "tr": [
+        "Mücemmi‘ b. Câriye b. Âmir el-Evsî el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "Evs kabilesine bağlı Amr b. Avf oğullarındandır. Babası, münafıkların ileri gelenlerinden ve Mescid-i Dırâr’ın kurucularından Câriye b. Âmir el-Evsî’dir. Mücemmi‘, Hz. Peygamber’in Medine’ye hicretinden sonra henüz çocukluk çağında iken İslâm’a girdi. Hudeybiye seferine katıldı ve Bey‘atürrıdvân’da bulundu. Hayber Gazvesi’ne iştirak etti. Mescid-i Dırâr’ın yıkılışı esnasında buranın imamlık görevini yürüttüğü için kendisinin de münafık olduğu ileri sürüldü, ancak münafıkların bu mescidi açma konusundaki asıl amaçlarını bilmediğine dair yemin edince ithamdan kurtuldu. İyi bir hâfız olan Mücemmi‘ b. Câriye, Kur’an metnini derleyen Medineli altı sahâbîden biridir. Resûlullah’ın vefatından kısa bir süre önce birkaç sûre dışında Kur’an’ın tamamını bir araya toplamış ve bir nüsha meydana getirmişti. Hz. Peygamber’den sonraki dönemlerde daha çok Kur’an eğitim ve öğretimiyle meşgul oldu. Hz. Ömer’in hilâfeti yıllarında Kubalılar mescidlerinde imam olmasını istediklerinde Mescid-i Dırâr’da imamlık yapması yüzünden halife önce müsaade etmediyse de daha sonra izin verdi. Mücemmi‘in Hz. Ömer tarafından Kur’an öğretmek için Kûfe’ye gönderildiği ve orada Abdullah b. Mes‘ûd’un kendisinden ders aldığı rivayet edilmektedir. Mücemmi‘ 60 (680) yılı civarında Medine’de vefat etti. Hz. Peygamber’den on hadis rivayet eden Mücemmi‘den oğlu Ya‘kūb b. Mücemmi‘, kardeşinin oğlu Abdurrahman b. Yezîd b. Câriye, İkrime b. Seleme b. Rebîa ve Ebü’t-Tufeyl Âmir b. Vâsile nakilde bulunmuştur. Rivayetleri Ahmed b. Hanbel’in el-Müsned ’i, Ebû Dâvûd, Tirmizî ve İbn Mâce’nin es-Sünen ’lerinde yer almaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 445-446 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mucemmi-b-cariye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mucemmi-b-cariye, https://islamansiklopedisi.org.tr/mucemmi-b-cariye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:42Z",
+    "modified": "2026-05-04T15:34:42Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mucemmi-b-cariye (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 60,
+    "start_ce": 680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mucemmi-b-cariye, URL: https://islamansiklopedisi.org.tr/mucemmi-b-cariye || DİA death place: Medine || DİA death-date string: (ö. 60/680 [?]) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

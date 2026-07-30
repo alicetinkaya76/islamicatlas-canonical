@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00007983",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HASAN b. SÂLİH",
+      "ar": "الحسن بن صالح"
+    },
+    "originalScript": {
+      "ar": "الحسن بن صالح"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh el-Hasen b. Sâlih b. Hay el-Kûfî el-Hemedânî"
+      ]
+    },
+    "description": {
+      "tr": "Zeydiyye’nin kollarından ve Kesîrünnevâ el-Ebter’e (ö. 169/785-86) nisbetle Bütriyye veya Ebteriyye diye de tanınan Sâlihiyye’nin kurucusu, fakih ve muhaddis."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-b-salih",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-b-salih, https://islamansiklopedisi.org.tr/hasan-b-salih",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:11Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-b-salih (0 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 168,
+    "start_ce": 784,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-b-salih, URL: https://islamansiklopedisi.org.tr/hasan-b-salih",
+  "students": [
+    "iac:person-00007643"
+  ]
+}

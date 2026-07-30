@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00003262",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HASAN-ı RÛMLÛ",
+      "ar": "حسن روملو"
+    },
+    "originalScript": {
+      "ar": "حسن روملو"
+    },
+    "altLabel": {
+      "tr": [
+        "Aḥsenü’t-tevârîḫ adlı umumi tarihin müellifi, âlim."
+      ]
+    },
+    "description": {
+      "tr": "937 (1530-31) yılında Kum şehrinde doğdu. Şah Tahmasb’ın yakın adamlarından ve Rumlu Türkmen oymağı reislerinden Emîr Sultan Rûmlû’nun torunudur. Kendi ifadesine göre Kazvin ve civarı tiyûl olarak Tahmasb tarafından dedesine verilmişti. Eserinde dedesi hakkında biraz bilgi verirse de babasından hiç bahsetmez. Hasan-ı Rûmlû saray çevresinde yetişti ve ölünceye kadar sarayda kaldı. Bu arada küçük yaştan itibaren Şah Tahmasb’ın yanında birçok sefere katıldı. Safevî ordusunda kurçi (korucu) sınıfı içinde görev yaptı. Rûmlû, Şah II. İsmâil ve Muhammed Hudâbende dönemlerinde de sarayda bulunmuştur. Bazı araştırmacıların on iki, bazılarının on cilt olduğunu ileri sürdükleri Aḥsenü’t-tevârîḫ ’in sadece son iki cildi günümüze ulaşmıştır. Türkiye, İran, Hindistan, Rusya ve Avrupa kütüphanelerinde yazma nüshaları bulunan eserin Gîlân, Mâzenderan ve Taliş’e ait kısmı B. Dorn tarafından 1858’de yayımlanmıştır (bk. bibl.). Farsça olarak kaleme alınmış bulunan Aḥsenü’t-tevârîḫ , devrine göre sade bir dille yazılmış olup yer yer şiirlerle süslenmiştir. Mevcut ciltlerinden ilki daha önce yazılmış eserlere, özellikle Abdürrezzâk es-Semerkandî’nin, Hândmîr’in, Ebû Bekr-i Tihrânî’nin, İdrîs-i Bitlisî’nin ve Kadı Ahmed Kazvînî’nin tarihlerine dayanmaktadır. Hasan-ı Rûmlû’nun yaşadığı devrin olaylarını anlattığı son cilt ise kendi gözlemlerini içine almaktadır. Eserin en önemli özelliklerinden biri, Safevî Devleti ve o dönem İran toplum yapısı hakkında orijinal bilgiler vermesidir. Lala, sadr, daruga, vekil, kurçi, kurçibaşı, negebci vb. terimlerle ilgili olarak eserde ayrıntılı bilgi bulunmaktadır. Ayrıca Safevî Devleti’nin kurulması ve gelişmesinde rol oynamış Türk oymak ve aşiretleri hakkında da geniş bilgi veren eser, 1405-1577 yılları Osmanlı-İran münasebetleri için birinci elden kaynak durumundadır. Başta İskender Bey Münşî olmak üzere daha sonra Safevî tarihlerine dair eser yazan birçok tarihçi Aḥsenü’t-tevârîḫ ’i kaynak olarak kullanmıştır (ayrıca bk. AHSENÜ’t-TEVÂRÎH ). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 346-347 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-i-rumlu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-i-rumlu, https://islamansiklopedisi.org.tr/hasan-i-rumlu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:13Z",
+    "modified": "2026-05-04T15:34:13Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-i-rumlu (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 937,
+    "start_ce": 1530,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 985,
+    "start_ce": 1577,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-i-rumlu, URL: https://islamansiklopedisi.org.tr/hasan-i-rumlu || DİA birth place: Kum || DİA death-date string: (ö. 985/1577) || Chunk count: 1"
+}

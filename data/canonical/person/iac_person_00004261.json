@@ -1,0 +1,65 @@
+{
+  "@id": "iac:person-00004261",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-MÜDEBBİR, Ebû İshak",
+      "ar": "أبو إسحاق ابن المدبّر"
+    },
+    "originalScript": {
+      "ar": "أبو إسحاق ابن المدبّر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû İshâk (Ebû Yüsr) İbrâhîm b. Muhammed b. Ubeydillâh b. el-Müdebbir"
+      ]
+    },
+    "description": {
+      "tr": "Sâmerrâ’da doğdu. Öğrenimini burada tamamladı. Bir süre sonra kâtip ve münşî olarak tayin edildi. Görevini ciddiyet ve titizlikle yapması Halife Mütevekkil-Alellah’ın dikkatini çekti. Halifenin ona değer verip kendilerine tercih etmesi başta Vezir Ebü’l-Hasan İbn Hâkān olmak üzere devlet adamlarının kıskançlığına yol açtı. Bu sebeple halifenin gözünden düşürülmeye çalışıldı. Sonunda vezirin tahrik ve teşvikiyle kardeşi Ebü’l-Hasan Ahmed İbnü’l-Müdebbir’le birlikte tutuklanarak hapse atıldı. Yaklaşık bir yıl sonra serbest bırakılınca Ahvaz’ın harâc âmilliğine tayin edildi. Kötü şartlarda çalıştırıldıkları için isyan etmiş olan Zencîler (Zenc) Ahvaz’a girdiklerinde onların eline esir düştü ve bütün servetine el konuldu (12 Ramazan 256 / 13 Ağustos 870). Ertesi yıl hapsedildiği yerden kurtulmayı başardı. 269’da (882) Halife Mu‘temid-Alellah tarafından vezir tayin edildiyse de bir süre sonra görevinden alındı. Halife Mu‘tazıd-Billâh döneminde Bağdat’ta Dîvânü’d-diyâ‘ın başına getirildi. Ardından Sâmerrâ’dan ayrılıp Mısır’a gitti. 16 veya 17 Şevval 279’da (9 veya 10 Ocak 893) orada öldü. İbnü’l-Müdebbir’in kaleme aldığı er-Risâletü’l-ʿaẕrâ fî mevâzîni’l-belâġa ve edevâti’l-kitâbe adlı risâle Muhammed Ali ( Resâʾilü’l-büleġā içinde, Kahire 1326, 1330, s. 176-193), Zekî Mübârek ( Étude sur la “Lettre vierge” d’Ibn al-Mudabbir , Paris 1931, Kahire 1350/1931) ve Ahmed Zekî Safvet ( Cemheretü resâʾili’l-ʿArab fî ʿuṣûri’l-ʿArabiyyeti’z-zâhire içinde, Kahire 1962, IV, 176-211) tarafından yayımlanmış, daha sonra da ofset baskısı yapılmıştır. İbnü’l-Müdebbir bu risâlesinde kitâbet teknikleri ve kuralları, kâtibin kendisini yetiştirirken hangi kaynaklardan faydalanması gerektiği, kâtipte bulunması icap eden ahlâkî ve fizikî özellikler, yazı aletlerinin onarımı ve kullanımıyla kâğıtlar hakkında bilgi vermektedir. Aynı zamanda iyi bir şair olan İbnü’l-Müdebbir’in şiirleri Kitâbü’l-Eġānî ve Muʿcemü’l-üdebâʾ gibi kitaplarda yer almaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 149 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-mudebbir-ebu-ishak",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-mudebbir-ebu-ishak, https://islamansiklopedisi.org.tr/ibnul-mudebbir-ebu-ishak",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:26Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:26Z",
+    "modified": "2026-05-04T15:34:26Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:26Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-mudebbir-ebu-ishak (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 279,
+    "start_ce": 893,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-mudebbir-ebu-ishak, URL: https://islamansiklopedisi.org.tr/ibnul-mudebbir-ebu-ishak || DİA birth place: Sâmerrâ || DİA death-date string: (ö. 279/893) || Chunk count: 1"
+}

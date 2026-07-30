@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00002622",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EVS b. HACER",
+      "ar": "أوس بن حجر"
+    },
+    "originalScript": {
+      "ar": "أوس بن حجر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Şüreyh Evs b. Hacer b. Attâb et-Temîmî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Bahreynli olup milâdî 530 yılında doğdu. Câhiliye devrinin en büyük şairlerinden sayılır. Hayatının düzensiz olması ve Necid, Irak, Hîre gibi bölgeler arasında çokça seyahat etmesi sebebiyle gezici şair (şair cevvâl) diye tanınmıştır. Çağdaşı olan Arap Meliki Amr b. Hind’in yanında daha çok Hîre’de oturmuş ve Halîme Savaşı’nda (554) Gassânîler tarafından babası Hacer’le birlikte öldürülen Münzir b. Mâüssemâ’ın intikamını alması için oğlu Amr’ı hamâsî şiirleriyle teşvik etmiştir. Evs’in daha sonra yetişen birçok şaire ilham kaynağı olan şiirlerinin hamâsî olanlarında düşmana karşı daima uyanık, savaşa her an hazır ve düşmanın gözünü korkutacak şekilde güçlü olmanın gereği vurgulanır. Akıl ve mantığın hâkim olduğu şiirlerinde şair kuşlar, hayvanlar, av ve silâh tasvirleriyle şöhret bulmuştur. Ayrıca özellikle ahlâka dair şiirlerinde, methiye ve mersiyelerinde çok başarılıdır. İbn Sellâm el-Cumahî Evs’i ikinci tabakanın başında, Ebû Ubeyde et-Teymî ise üçüncü tabakada zikreder ve onu Nâbiga el-Ca‘dî ve Hutay’e ile bir tutar (Ebû Ferec el-İsfahânî, XI, 73). İbn Kuteybe ise Evs’in Mudar kabilesinin seçkin şairi olduğunu, ancak Nâbiga ez-Zübyânî ve Züheyr’in onu geride bıraktığını söyler. Asmaî, Evs’in kendisine iyilikte bulunan Fedâle b. Kelede’nin ölümü üzerine söylediği mersiyelerden birinin başlangıç beytinden daha güzel bir başlangıç beyti duymadığını ifade etmiştir. Meşhur şairlerden Züheyr b. Ebû Sülmâ’nın annesiyle de evlenmiş olan Evs b. Hacer’in Züheyr b. Ebû Sülmâ tarafından rivayet edilen bir divanı mevcuttur. 1892’de ilk defa Rodolf Gayer tarafından derlenerek Almanca’ya tercüme edilen bu divanın (Sezgin, II, 172) iki rivayetinden biri Asmaî’ye, ikincisi Ebû Ubeyde et-Teymî’ye aittir. Muhammed Yûsuf Necm’in şerh ve tahkikiyle yayımlanan divanın (Beyrut 1960) sadece kafiyeleri ve bazı beyitleri açıklanmıştır. Bu arada divanın indeksi yapılmadığı gibi şair hakkında da bilgi verilmemiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 542 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:evs-b-hacer",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=evs-b-hacer, https://islamansiklopedisi.org.tr/evs-b-hacer",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:03Z",
+    "modified": "2026-05-04T15:34:03Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=evs-b-hacer (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Temîmî"
+  ],
+  "death_temporal": {
+    "start_ce": 620,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=evs-b-hacer, URL: https://islamansiklopedisi.org.tr/evs-b-hacer || DİA death-date string: (ö. 620) || DİA categories: rivayet || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00007702"
+  ]
+}

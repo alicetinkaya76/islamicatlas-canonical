@@ -1,0 +1,82 @@
+{
+  "@id": "iac:person-00003266",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hasan Kenzî",
+      "ar": "حسن كنزى"
+    },
+    "originalScript": {
+      "ar": "حسن كنزى"
+    },
+    "description": {
+      "tr": "Kaynakların çoğu Ayaş’ta doğduğunda birleşir. Ancak Safâyî onun Alâiye’de (Alanya) dünyaya geldiğini söyler. Uzun yıllar Manisa’da yaşadığı için Manisalı Hasan Kenzî Efendi diye tanınmıştır; ayrıca Kenzî-i Rûmî diye de bilinir. Hasan Kenzî, ilk tahsilinden sonra İstanbul’a giderek Kocamustafapaşa Sünbülî Âsitânesi şeyhi Mehmed Alâeddin Efendi’ye intisap etti. Sülûkünü tamamlayınca şeyhi tarafından irşadda bulunmak üzere Manisa’ya gönderildi. Ulucami, Hafsa Sultan ve Ali Bey camilerinde yaptığı vaazları ve sohbetleriyle tanındı. Şehrin dışında yaptırdığı tekkesi bir müddet sonra eşkıya tarafından yıkıldığı için 1110 (1698) yılında Aynî Ali Sultan Türbesi’nin yakınında tekkesini yeniden inşa ettirdi. Bir süre de Aynî Ali Zâviyesi’nde zâviyedâr olarak hizmet gören Hasan Kenzî vefatında kendi tekkesinin hazîresine defnedildi. Yerine oğlu Alâeddin Efendi geçti. Hasan Efendi’nin yaptırdığı cami ve tekkenin XIX. yüzyıl sonlarına kadar varlığını sürdürdüğü Manisa şer‘iyye sicillerinden anlaşılmaktaysa da türbesinin de dahil olduğu bu külliyeden günümüzde hiçbir iz kalmamıştır. Sadece o civardaki bir caddeye Kenzî adı verilmiştir. Şair ve bestekâr olarak da ün yapan Hasan Efendi’nin Kenzî mahlasıyla ve hece vezninde yazdığı şiirlerine yazma şiir mecmualarında rastlanmaktadır (meselâ bk. Mecmûa , Millet Ktp., Ali Emîrî Efendi, Şer‘iyye, nr. 637, vr. 48 a ; Müstakimzâde Süleyman Sâdeddin, Mecmûa-i İlâhiyyât , Süleymaniye Ktp., Esad Efendi, nr. 3397, vr. 1 b ). Kendi ilâhilerinin birçoğunu, ayrıca Yûnus Emre’nin ve diğer bazı mutasavvıf şairlerin şiirlerini bestelemiş, bunlardan, “Aldın mı safâ ile musaffâ haberin sen” mısraı ile başlayan bir ilâhisi notasıyla birlikte yayımlanmıştır (Şengel, III, 127). Güftesi Hasan Kenzî’ye ait olan ilâhiler uzun yıllar Halvetî dergâhlarında okunmuştur. Kaynaklarda bir divanının bulunduğu kaydediliyorsa da eser bugüne kadar ele geçmemiştir. Sadettin Nüzhet Ergun çeşitli mecmualardan topladığı bestelenmiş yedi şiirini yayımlamıştır ( Antoloji , I, 291-293). Aynı müellif, İstanbul Üniversitesi Türkiyat Araştırmaları Enstitüsü Kütüphanesi Hüseyin Sadettin Arel yazmaları arasında Kenzî’nin mûsiki nazariyatıyla ilgili küçük bir risâlesinin bulunduğunu kaydetmişse de adı geçen kütüphane koleksiyonunda böyle bir esere rastlanmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 329-330 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-kenzi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-kenzi, https://islamansiklopedisi.org.tr/hasan-kenzi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hasan-kenzi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hasan-kenzi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:13Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-kenzi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1126,
+    "start_ce": 1714,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-kenzi, URL: https://islamansiklopedisi.org.tr/hasan-kenzi || DİA birth place: Ayaş || DİA death-date string: (ö. 1126/1714) || DİA categories: şiir || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00018889"
+  ]
+}

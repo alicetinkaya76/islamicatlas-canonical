@@ -1,0 +1,112 @@
+{
+  "@id": "iac:person-00001942",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DÂVÛD b. ALİ",
+      "ar": "داود بن علي"
+    },
+    "originalScript": {
+      "ar": "داود بن علي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Süleymân Dâvûd b. Alî b. Abdillâh b. Abbâs b. Abdilmuttalib el-Hâşimî"
+      ]
+    },
+    "description": {
+      "tr": "81’de (700) Hicaz’da doğdu. Tâbiînden olan babası, Emevî Halifesi Abdülmelik b. Mervân devrinde Hicaz’dan Dımaşk’a gitmiş ve 95’te (713-14) Halife Velîd b. Abdülmelik tarafından buradan ailesiyle birlikte Suriye hac yolu üzerinde bulunan Humeyme’ye sürgün edilmiştir. Dâvûd b. Ali burada tam bir bedevî gibi cesur, atılgan, intikam almaktan zevk duyan ve fasih konuşan bir kişi olarak yetiştirildi. Yeğeni İbrâhim b. Muhammed’in son Emevî halifesi Mervân b. Muhammed tarafından tutuklanması ve ölümünden sonra Abbâsî ailesinin diğer fertleriyle birlikte o da Kûfe’ye göç etti. Dâvûd b. Ali, Abbâsî ihtilâl hareketinin başarıya ulaşması üzerine yeğeni Ebü’l-Abbâs es-Seffâh’a Kûfe Camii’nde biat edilmesinde önemli rol oynadı. Biat merasiminden sonra da Kûfe valisi tayin edildi. Ardından hac emirliği uhdesinde kalmak üzere Hicaz, Yemen ve Yemâme valiliğine getirildi. Rebîülevvel 133’te (Ekim-Kasım 750) Medine’de vefat etti. Devrinin önde gelen hatiplerinden biri olan Dâvûd b. Ali babasından hadis rivayet etmiştir. Ondan da Kādî Şüreyh, Evzâî, İbn Ebû Leylâ, İbn Cüreyc rivayette bulunmuşlardır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 26 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:davud-b-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=davud-b-ali, https://islamansiklopedisi.org.tr/davud-b-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:davud-b-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/davud-b-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:3459",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3459, heading_ar=داود بن علي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:51Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=davud-b-ali (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3459]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:48Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3459 (heading_ar=داود بن علي) via Track A (DİA→Alam xref bridge). dt=Emir, Benî Hâşim'dendir"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hâşimî"
+  ],
+  "death_temporal": {
+    "start_ah": 133,
+    "start_ce": 750,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=davud-b-ali, URL: https://islamansiklopedisi.org.tr/davud-b-ali || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3459] || DİA birth place: Hicaz || DİA death place: Medine || DİA death-date string: (ö. 133/750) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3459, heading_ar=داود بن علي, dt=Emir, Benî Hâşim'dendir",
+  "birth_place": "iac:place-00003525",
+  "students": [
+    "iac:person-00003751"
+  ]
+}

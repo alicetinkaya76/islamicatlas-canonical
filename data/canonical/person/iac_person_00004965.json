@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00004965",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KORKUT, Besim"
+    },
+    "description": {
+      "tr": "Travnik’te (Bosna) doğdu. Korkut ailesinden Ahmed Münib Efendi’nin oğludur. İlk öğreniminden sonra Travnik Rüşdiyesi, Saraybosna’daki Okružna Medresesi ve Kadılık Yüksek Okulu’ndan mezun oldu (1925). Yüksek öğrenimini Ezher Üniversitesi’nde tamamladı. 1931’de memleketine dönünce liselerde din dersi öğretmenliği yaptı. 1940-1944 yıllarında Saraybosna’daki Yüksek İslâmî-İlâhiyat Okulu’nda İslâm tarihi öğretim görevlisi olarak çalıştı. 1945’te Saraybosna’daki Diyanet İşleri Başkanlığı’na üye seçildi, bir taraftan da lise öğretmenliğine devam etti. 1947-1950 yılları arasında Bosna-Hersek Halk Hükümeti’nin Millî Eğitim Bakanlığı ile Yüksek Öğrenim ve İlmî Müesseseler Komitesi’nde çalıştı. Araştırmacı olarak görev yaptığı Saraybosna Şarkiyat Enstitüsü’nden “ilmî danışman” unvanıyla emekliye ayrıldı (1967). Daha sonra Saraybosna Üniversitesi Felsefe Fakültesi Doğu Dilleri Bölümü’nde sözleşmeli hoca olarak Arapça dersleri okuttu. 30 Kasım 1975’te Saraybosna’da vefat etti. Arapça ve Almanca bilen Besim Korkut daha çok Arapça’dan Boşnakça’ya yaptığı çevirilerle tanınmış, makalelerinde çeşitli ilmî konuların yanı sıra Arapça ve İslâmî ilimler alanında yayımlanmış klasik eserlerin ve dergilerin tanıtımına önem vermiştir. Eserleri. 1. Istorija Islama (Sarajevo 1935). İlkokulların yedinci sınıfları için kaleme alınan İslâm tarihi ders kitabıdır. 2. Kratak Pregled Povijesti Islama (Sarajevo 1935). Muhtasar bir İslâm tarihidir. 3. Gramatika Arapskog Jezika za I i II Razred Klasičnih Gimnazija (Sarajevo 1952). Liselerin bir ve ikinci sınıfları için hazırlanmış Arapça gramer kitabıdır. Eserin üç ve dördüncü sınıflar için hazırlanan II. cildi basılmamıştır. 4. Kelila i Dimna (Sarajevo 1953). Korkut ayrıca on beş kadar binbir gece hikâyesini tercüme etmiş, bu hikâyeler kitap halinde de yayımlanmıştır (Beograd 1953-1959; Sarajevo 1955, 1960). 5. Arapski Dokumenti u Državnom Arhivu u Dubrovniku-Al-Wathâiqu l-‘arabiyyatu fî Dâri l-mahfûzâti bi Madînati Dubrovnik (Dubrovnik Devlet Arşivi’ndeki Arapça belgeler [I, Sarajevo 1960; II, Sarajevo 1961; III, Sarajevo 1969]). 6. Kur’an s Prevodom (Sarajevo 1977, 1979, 1984). Kur’ân-ı Kerîm’in Boşnakça’ya ilk çevirisi sayılmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 2002 yılında Ankara’da basılan 26. cildinde, 204 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:korkut-besim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=korkut-besim, https://islamansiklopedisi.org.tr/korkut-besim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:korkut-besim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=korkut-besim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:34Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=korkut-besim (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=korkut-besim)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1904,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=korkut-besim, URL: https://islamansiklopedisi.org.tr/korkut-besim || DİA death place: Saraybosna || DİA death-date string: (1904-1975) || DİA categories: felsefe || Chunk count: 1"
+}

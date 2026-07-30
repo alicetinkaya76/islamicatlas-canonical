@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00016886",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Nuayr",
+      "tr": "Nuayr",
+      "ar": "نعير"
+    },
+    "originalScript": {
+      "ar": "نعير"
+    },
+    "description": {
+      "tr": "Şam'da Âl-i Fazl emiri",
+      "en": "Emir of Āl-i Fadl in Syria"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad b. Hayyār b. Mihnā b. ʿĪsā b. Mihnā b. Māniʿ b. Hadītha, Shams al-Dīn, known as Nuayr"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Hayyâr b. Mehnâ b. İsâ b. Mehnâ b. Mâni' b. Hadîse, Şemsü'd-Dîn, el-Ma'rûf bi-Nuayr"
+      ],
+      "ar": [
+        "محمد بن حيار بن مهنا بن عيسى بن مهنا بن مانع بن حديثة، شمس الدين،المعروف ب نعير"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:9777",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9777",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:57Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=9777 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:9777."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 808,
+    "start_ce": 1406,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9777, heading_ar=نعير || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 33.51, 36.29"
+}

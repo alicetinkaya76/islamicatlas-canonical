@@ -1,0 +1,62 @@
+{
+  "@id": "iac:person-00000561",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH EFENDİ, Bezirgânzâde"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Bezzâzistan (Bedesten) esnafındandır. Babası da ticaretle uğraştığı için Bezirgânzâde lakabıyla tanınır. Ayrıca, zengin ve meşhur bir hanımın oğlu olduğundan dolayı Hanımzâde Abdullah diye de bilinir. Aklâm-ı sitte yi devrin meşhur hattatı Hoca Mehmed Râsim Efendi’den öğrendi. Kısa zamanda icâzet aldı. Süratli yazı yazmasıyla şöhret buldu. Daha yirmi yaşına gelmeden vebaya yakalanarak öldü. Çok sayıda mushaf-ı şerif, şifâ-i şerif ve bir adet Beyzâvî tefsiri istinsah etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 97-98 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-efendi-bezirganzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-efendi-bezirganzade, https://islamansiklopedisi.org.tr/abdullah-efendi-bezirganzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-05-04T15:39:38Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-efendi-bezirganzade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1151,
+    "start_ce": 1738,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-efendi-bezirganzade, URL: https://islamansiklopedisi.org.tr/abdullah-efendi-bezirganzade || DİA birth place: İstanbul || DİA death-date string: (ö. 1151/1738-39) || DİA categories: tefsir || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

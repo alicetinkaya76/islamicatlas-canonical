@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00001043",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMR b. HAMIK",
+      "ar": "عمرو بن الحمق"
+    },
+    "originalScript": {
+      "ar": "عمرو بن الحمق"
+    },
+    "altLabel": {
+      "tr": [
+        "Amr b. el-Hamık b. Kâhil (Kâhin) el-Huzâî"
+      ]
+    },
+    "description": {
+      "tr": "Hudeybiye Antlaşması’ndan sonra Medine’ye giderek müslüman oldu; Hz. Peygamber’in sohbetlerine katıldı ve ondan hadis rivayet etti. Bu hadislerden dördü el-Müsned ’de yer almıştır (V, 223-224). Hz. Peygamber’in vefatından sonra Şam, Kûfe ve Mısır’ı dolaştı. Hz. Osman’ın şehid edildiği hadisede elebaşı olarak yer aldığı için halifenin evini kuşatanlara “Amr b. Hamık’ın askerleri” denmiştir. Kuşatmadan sonra eve giren ve halifeyi şehid eden dört kişiden biridir. Kendi ifadesine göre elindeki kesici aletle halifeye dokuz defa vurmuş, bu darbelerden üçünü Allah rızası için, geri kalanını da ona duyduğu kin ve öfke sebebiyle indirmiştir. Daha sonra Hz. Ali’nin taraftarları arasında yer alarak Cemel, Sıffîn, Nehrevan savaşlarına katıldı. Muâviye döneminde Hz. Osman’ın öldürülmesiyle ilgili olarak takibata uğradığı için Musul’a kaçtı. Ölümüyle ilgili olarak, dağda saklandığı mağarada bir yılanın sokmasıyla zehirlendiği veya bu mağarada yakalanıp Muâviye’ye getirildiği ve Hz. Osman’a kısas olarak vurulan darbeler sırasında öldüğü yahut yakalanıp götürülürken yarı yolda korkudan can verdiği ve başının kesilerek Muâviye’ye gönderildiği şeklinde çeşitli rivayetler zikredilmektedir. Diğer bir rivayete göre ise onu Muâviye’nin Musul âmili olan yeğeni Abdurrahman b. Ümmü’l-Hakem katletmiştir. Bazı kaynaklarda 50 (670) yılında öldüğü de kaydedilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 84 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amr-b-hamik",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amr-b-hamik, https://islamansiklopedisi.org.tr/amr-b-hamik",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amr-b-hamik",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amr-b-hamik",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:7826",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=7826, heading_ar=عمرو بن الحمق",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amr-b-hamik (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[7826]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=7826 (heading_ar=عمرو بن الحمق) via Track A (DİA→Alam xref bridge). dt=Sahâbî, Osmân'ın katillerinden"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Huzâî"
+  ],
+  "death_temporal": {
+    "start_ah": 51,
+    "start_ce": 671,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amr-b-hamik, URL: https://islamansiklopedisi.org.tr/amr-b-hamik || El-Aʿlām (Ziriklī) cross-reference: alam_id=[7826] || DİA death-date string: (ö. 51/671) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=7826, heading_ar=عمرو بن الحمق, dt=Sahâbî, Osmân'ın katillerinden"
+}

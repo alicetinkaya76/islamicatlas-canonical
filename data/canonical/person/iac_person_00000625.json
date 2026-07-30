@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00000625",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdürrahim Künhî Dede"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Babası Yenikapı Mevlevîhânesi şeyhlerinden Kütahyalı Seyyid Ebûbekir Dede, annesi Galata Mevlevîhânesi şeyhlerinden Kutbünnâyî Osman Dede’nin kızı Saîde Hanım’dır. Sicill-i Osmânî ’de babasının Ali Dede olarak gösterilmesi yanlıştır. Üç erkek kardeşin en küçüğü olan Abdürrahim, Yenikapı Mevlevîhânesi’nde bilhassa büyük ağabeyi Şeyh Ali Nutkî Dede’nin himayesinde tasavvuf, edebiyat ve mûsiki bilgileri alarak yetişti. Bir müddet sonra da bu mevlevîhânenin kudümzenbaşılığına getirildi. Devrin hükümdarı III. Selim onu saraya almak istemiş, ancak ağabeyi Ali Nutkî Dede’nin bir “nazar”ı ile cezbeye kapıldığından bu mümkün olmamış ve bu hali ağabeyinin ölümüne (1804) kadar devam etmiştir. Ali Nutkî Dede’nin vefatından sonra altı ay kadar şeyhlik yaptığı rivayet edilmektedir. Kudümzenbaşılık vazifesi devam ederken diğer ağabeyi Abdülbâki Nâsır Dede’nin oğlu Şeyh Receb Hüsnü Dede’nin Ramazan 1245’te (1830) ölümü üzerine, Mehmed Said Hemdem Çelebi tarafından Yenikapı Mevlevîhânesi’ne şeyh tayin edildi. Ölümüne kadar bu görevde kaldı. Vefatında aynı mevlevîhânenin hazîresine gömüldü. Tabii bir ses güzelliğine sahip olan Abdürrahim Dede, bestelediği dinî ve din dışı eserler ve yetiştirdiği talebelerle zamanın mûsikişinasları arasında önemli bir yer almıştır. Eserleri içinde en önemlisi, daha yirmi bir yaşında iken, içerisinde başka makam geçkilerine yer vermeden bestelediği hicaz Mevlevî âyinidir. Nühüft âyini ise unutulmuştur. Anberefşan adıyla yeni bir makam icat etmiş ve bu makamda bestelediği bir peşrev ile bir saz semâisi zamanımıza ulaşmıştır. Bu üç eseri dışında günümüze kadar gelebilen başka eseri yoktur. Yetiştirdiği talebeler arasında Galata Mevlevîhânesi kudümzenbaşısı Derviş Mehmed ve Musâhib Seyyid Ahmed Ağa (Vardakosta) en meşhurlarıdır. Aynı zamanda şair olan Abdürrahim Dede, Künhî mahlasını kullandığı şiirlerinde daha çok tasavvufî konulara yer vermiştir. Çeşitli mecmualarda yer alan şiirleri bir divan halinde toplanmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 292 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahim-kunhi-dede",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahim-kunhi-dede, https://islamansiklopedisi.org.tr/abdurrahim-kunhi-dede",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahim-kunhi-dede (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1769,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdurrahim-kunhi-dede, URL: https://islamansiklopedisi.org.tr/abdurrahim-kunhi-dede || DİA birth place: İstanbul || DİA death-date string: (1769-1831) || DİA categories: tasavvuf > rivayet || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00000744"
+  ]
+}

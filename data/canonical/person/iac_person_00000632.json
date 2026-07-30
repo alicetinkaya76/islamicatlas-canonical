@@ -1,0 +1,101 @@
+{
+  "@id": "iac:person-00000632",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. EBÛ BEKİR",
+      "ar": "عبد الرحمن بن أبي بكر"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن أبي بكر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdurrahmân b. Ebî Bekr es-Sıddîk b. Ebî Kuhâfe el-Kureşî et-Teymî"
+      ]
+    },
+    "description": {
+      "tr": "Annesi Ümmü Rûmân’dır. İslâmiyet’in ilk yıllarında müşrikler arasında yer aldı; Bedir ve Uhud savaşlarında onların safında bulundu. Hudeybiye Antlaşması sırasında veya daha yaygın bir rivayete göre Mekke’nin fethinden önce müslüman oldu. Asıl adı Abdülkâ‘be olup bu isim Hz. Peygamber tarafından Abdurrahman’a çevrildi. Hayber Gazvesi’ne ve daha sonraki savaşlara katıldı. Vedâ haccında Resûlullah tarafından Hz. Âişe’ye umre yaptırmakla görevlendirildi. Peygamber’in hastalığı sırasında da yanından hiç ayrılmayarak hizmetinde bulundu. Ok atmadaki mahareti ve cesareti ile tanınan Abdurrahman, babasının halifeliği dönemindeki irtidad olaylarında Hâlid b. Velîd’in kumandasında, özellikle Benî Hanîfe kabilesine karşı yapılan savaşlarda büyük yararlıklar gösterdi. Hz. Ömer zamanında da Suriye’deki fetihlere katıldı. Cemel Vak‘ası’nda Âişe’nin safında yer aldı ve Ali’yi destekleyen Mısır valisi kardeşi Muhammed’in üzerine yürüdü. Kardeşinin Muâviye b. Hudeyc tarafından öldürülmesine müdahale etmedi. Muâviye b. Ebû Süfyân’ın, oğlu Yezîd’i veliaht tayin etmesine Hz. Hüseyin, Abdullah b. Zübeyr ve Abdullah b. Ömer’le birlikte karşı çıktı ve ona biat etmedi. Daha sonra Muâviye’nin, biat etmesi için gönderdiği 100.000 dirhemi de reddederek Mekke’ye döndü. Kureyş’in en iyi ok atanlarından biri olan Abdurrahman, Mekke’ye 6 mil uzaklıkta bulunan Hubşî’de vefat etti. Cenazesi Mekke’ye getirilip orada defnedildi. Abdurrahman’dan sekiz kadar hadis rivayet edilmiş olup bunlardan üçü Buhârî ile Müslim’in Ṣaḥîḥ ’lerinde, geri kalanlar ise Kütüb-i Sitte ’nin diğer eserlerinde yer almıştır. Rivayetlerini Ahmed b. Hanbel’in el-Müsned ’inde (I, 197-199) bir arada görmek mümkündür. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 159 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-ebu-bekir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-ebu-bekir, https://islamansiklopedisi.org.tr/abdurrahman-b-ebu-bekir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdurrahman-b-ebu-bekir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdurrahman-b-ebu-bekir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-ebu-bekir (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.97): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Teymî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 53,
+    "start_ce": 673,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-ebu-bekir, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-ebu-bekir || DİA death place: Hubşî || DİA death-date string: (ö. 53/673) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "death_place": "iac:place-00003493",
+  "active_in_places": [
+    "iac:place-00003493"
+  ]
+}

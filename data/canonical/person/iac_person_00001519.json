@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00001519",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bezzî",
+      "ar": "البزّي"
+    },
+    "originalScript": {
+      "ar": "البزّي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Ahmed b. Muhammed b. Abdillâh el-Bezzî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Fârisli (veya Hemedanlı) olup 170’te (786) Mekke’de doğdu. Dedelerinden Ebû Bezze’ye nisbetle Bezzî diye şöhret buldu. Kıraat ilmini babasından ve Abdullah b. Ziyâd, İkrime b. Süleyman, Vehb b. Vâzıh gibi devrinin tanınmış kıraat âlimlerinden öğrendi. İbn Kesîr kıraatini İkrime-Şibl b. Abbâd ve İsmâil b. Abdullah el-Kıst-İbn Kesîr isnadıyla aldı. Tanınmış kıraat âlimlerinden İshak b. Muhammed el-Huzâî, Hasan b. Hubâb, Ahmed b. Ferah, Ebû Abdurrahman Abdullah b. Ali, Ebû Rebîa b. İshak, Muhammed b. Hârûn, İbn Kesîr kıraatinin diğer râvisi Kunbül ve daha başkaları bu ilmi kendisinden tahsil ettiler. Süfyân b. Uyeyne, Müemmel b. İsmâil ve Mâlik b. Süayr gibi hocalardan hadis öğrendi. Hasan b. Hubâb, Mudar b. Muhammed el-Esedî gibi isimler de ondan hadis rivayet etti. Buhârî et-Târîḫu’l-kebîr ’inde kendisinden rivayette bulundu. Bezzî Mekke’de vefat etti. Kıraat ilminde büyük bir otorite olduğu hususunda görüş birliği bulunmakla beraber hadis konusundaki rivayetleri ihtiyatla karşılanmış, muttasıl olmayan rivayetleri muttasılmış gibi rivayet etmekle suçlanmıştır. Ebû Hâtim ve Ukaylî onun rivayetlerinin “münker” ve “zayıf” olduğunu söylemişlerdir. Duhâ sûresi ve daha sonraki sûrelerin sonunda tekbir getirilmesi âdeti Bezzî ile başlamıştır. Bezzî böyle bir uygulamanın mevcut olduğunu müselsel bir senedle Hz. Peygamber’e dayandırmış ve Hâkim bu rivayeti el-Müstedrek ’ine almışsa da (III, 304) hadisi sadece onun nakletmiş olması, ayrıca hadis rivayetinde kendisine güvenilmemesi sebebiyle bu rivayeti kabul görmemiştir. Ancak bu uygulama kurrâ arasında bir sünnetin yerine getirilmesi anlayışıyla yaygınlaşmış ve günümüze kadar devam etmiştir. Mescid-i Harâm’da kırk yıl müezzinlik yapan Bezzî’nin, kıraat ilmini bizzat İbn Kesîr’den öğrenmediği halde, gerek İbn Mücâhid’in (ö. 324/936) Kitâbü’s-Sebʿa ’sından sonra aynı asırda telif edilen kıraat kitaplarında (meselâ bk. İbn Galbûn, vr. 2 a -11 b ), gerekse daha sonra kırâat-i seb‘a imamlarının râvi sayısını iki ile sınırlayarak yazılan kaynaklarda (meselâ bk. Mekkî b. Ebû Tâlib, s. 175-194) İbn Kesîr kıraatinin iki râvisinden biri olarak tercih edilmesinin sebebi, herhalde genel olarak bu ilimdeki otoritesiyle İbn Kesîr kıraatini icra etmedeki üstün başarısı ve buna bağlı olarak -Ebû Amr ed-Dânî’nin de belirttiği gibi ( et-Teysîr , s. 3)- rivayetinin güvenle ve yaygın bir şekilde okunması olsa gerektir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 114-115 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bezzi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bezzi, https://islamansiklopedisi.org.tr/bezzi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bezzi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bezzi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:43Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bezzi (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bezzî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 250,
+    "start_ce": 864,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bezzi, URL: https://islamansiklopedisi.org.tr/bezzi || DİA birth place: Mekke || DİA death place: Mekke || DİA death-date string: (ö. 250/864) || DİA categories: rivayet > hadis > sünnet || Chunk count: 1",
+  "students": [
+    "iac:person-00001782"
+  ]
+}

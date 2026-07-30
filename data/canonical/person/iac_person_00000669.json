@@ -1,0 +1,84 @@
+{
+  "@id": "iac:person-00000669",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdurrahman Tâc",
+      "ar": "عبد الرحمن تاج"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن تاج"
+    },
+    "description": {
+      "tr": "Mısır’ın Asyût vilâyetinde doğdu. Hâfızlığını orada tamamladı ve temel öğrenimini de Asyût’ta yaptıktan sonra ailesinin İskenderiye’ye yerleşmesi üzerine İskenderiye Din Enstitüsü’ne (Ma‘hedü’l-İskenderiyyeti’d-dînî) girdi (1910). Ezher Üniversitesi Şeriat Fakültesi’ni 1926’da bitirdi. Bir süre Asyût ve Kahire din enstitülerinde öğretmenlik yaptı. 1933’te Şeriat Fakültesi’ne hoca oldu; iki yıl sonra da bu görev uhdesinde kalmak üzere Fetva Kurulu (Lecnetü’l-fetvâ) Hanefî mezhebi üyeliğine getirildi. 1936’da Ezher tarafından Sorbon Üniversitesi’ne gönderildi; orada hazırladığı “Bâbîlik ve İslâm” konulu tezi ile felsefe ve dinler tarihi doktoru unvanını aldı (1942). Paris dönüşü yine Ezher’deki hocalığa ve Fetva Kurulu üyeliği görevine devam etti; bunu çeşitli idarî görevler takip etti. Abdurrahman Tâc aynı zamanda ilmî araştırmalardan da geri durmuyordu. Bu arada hazırladığı “es-Siyâsetü’ş-şer‘iyye” adlı teziyle Cemâatü kibâri’l-ulemâ üyeliğine hak kazandı (1951). Bir süre Aynişems Üniversitesi Hukuk Fakültesi öğretim üyeliği ve Anayasa Komisyonu üyeliği yaptıktan sonra Ezher şeyhliğine tayin edildi (1954). Ezher’e eğitim ve yönetimle ilgili yeni düzenlemeler getirdi. Mısır dışından gelen öğrenciler için yurtlar yaptırdı. 1958’de Mısır ve Suriye’nin birleşmesiyle Birleşik Arap Cumhuriyeti kurulunca bakan olarak hükümette görev aldı. 1963’te Arap Dil Akademisi (Mecmau’l-lugati’l-Arabiyye) ve daha sonra Ezher İslâmî Araştırmalar Akademisi (Mecmau’l-buhûsi’l-İslâmiyye) üyeliğine getirildi. 12 Nisan 1975’te vefat etti. Eserleri. el-Aḥvâlü’ş-şaḫṣiyye fi’ş-şerîʿati’l-İslâmiyye (Kahire 1955); es-Siyâsetü’ş-şerʿiyye ; Ḥükmü’r-ribâ fi’ş-şerîʿati’l-İslâmiyye ; Şerikâtü’t-teʾmîn min vicheti naẓari’ş-şerîʿati’l-İslâmiyye . Son iki eser Mecmau’l-buhûsi’l-İslâmiyye’nin yedinci yıllık kongresine sunduğu bildirilerdir (diğer eserleri ve araştırmaları için bk. Ali Abdülazîm, Meşyeḫatü’l-Ezher , II, 165-177). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 175 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-tac",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-tac, https://islamansiklopedisi.org.tr/abdurrahman-tac",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:abdurrahman-tac",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=abdurrahman-tac",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:44Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-tac (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=abdurrahman-tac)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ce": 1896,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-tac, URL: https://islamansiklopedisi.org.tr/abdurrahman-tac || DİA death place: 1975 || DİA death-date string: (1896-1975) || DİA categories: fetva > felsefe > mezhep || Chunk count: 1",
+  "students": [
+    "iac:person-00002278"
+  ]
+}

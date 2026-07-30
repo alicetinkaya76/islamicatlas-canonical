@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00002061",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DIRÂR b. HATTÂB",
+      "ar": "ضرار بن الخطّاب"
+    },
+    "originalScript": {
+      "ar": "ضرار بن الخطّاب"
+    },
+    "altLabel": {
+      "tr": [
+        "Dırâr b. Hattâb b. Mirdâs el-Kureşî"
+      ]
+    },
+    "description": {
+      "tr": "Babası Hattâb, Kureyş kabilesinin bir kolu olan Benî Fihr’in reisiydi. Kendisi de Kureyş’in en iyi şairi ve cengâveri sayılırdı. İslâmiyet’ten önce meydana gelen Ficâr Savaşı’nda Benî Fihr’in bayraktarlığını yapmıştı. Uhud, Hendek gibi muharebelerde müslümanlara karşı savaştı. Hendek Gazvesi’nde müslümanlar tarafından açılan hendeğin üzerinden atıyla atlayıp geçen dört kişiden biri de o idi. Mekke fethinde müslüman oldu. Hâlid b. Velîd’in kardeşi Hişâm b. Velîd Devs kabilesinden birini öldürmüş, Dırâr bu kabileye gittiğinde Devsliler ona hücum ederek öldürülen adamın intikamını almak istemişlerdi. Zor durumda kalan Dırâr, Ümmü Cemîl adlı bir kadının evine sığınarak hayatını kurtarabilmişti. Bu olay üzerine “Ümmü Cemîl’den bile vefalı” sözüyle şöhrete kavuşan kadın, hayatını kurtardığı Dırâr b. Hattâb’ın Hz. Ömer’in (Ömer b. Hattâb) kardeşi olduğunu zannederek Medine’ye gitmişti. Hz. Ömer, “Ben onun sadece din kardeşiyim. Kendisi gazidir. Onu nasıl himaye ettiğini biliyoruz” diyerek Ümmü Cemîl’e yardımda bulunmuştu. Kureyş’in en iyi şairi sayılan Dırâr’ın şiirlerinden 100 kadar beyit, çoğu İbn Hişâm’ın es-Sîre ’sinde olmak üzere günümüze kadar gelmiştir. Hz. Ömer devrinde Hassân b. Sâbit’le karşılıklı şiir söyledikleri ve Hz. Ömer’in onun şiirlerinden hoşlandığı rivayet edilmektedir. Şairliği yanında nüktedan bir kişiliğe sahip olduğu da anlaşılmaktadır. İslâmiyet’i kabul etmeden önce müslümanlarla yaptıkları savaşlardan bahisle Hz. Ebû Bekir’e “Biz Kureyş’e sizden faydalı olduk, çünkü biz onları cennete gönderdik, siz ise cehenneme” dediği bilinmektedir. Hadis rivayet edip etmediği kesin olarak bilinmeyen Dırâr’ın Yemâme’de şehid düştüğü kabul edilmektedir. Ancak bu görüşü benimsemeyen Hatîb el-Bağdâdî onun Medâin fethine katıldığını ve Dımaşk’ta yaşadığını söylemekte, fakat ne zaman öldüğünü zikretmemektedir. İbnü’l-Esîr ise bir taraftan 12’de (633) şehid olduğunu söylerken diğer taraftan 18 (639) yılına kadar çeşitli Irak şehirlerinin fethinde bulunduğunu kaydetmek suretiyle çelişkiye düşmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 276 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dirar-b-hattab",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dirar-b-hattab, https://islamansiklopedisi.org.tr/dirar-b-hattab",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:4663",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=4663, heading_ar=ضرار بن الخطاب",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:53Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dirar-b-hattab (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4663]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=4663 (heading_ar=ضرار بن الخطاب) via Track A (DİA→Alam xref bridge). dt=Süvari şair, sahâbî"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî"
+  ],
+  "death_temporal": {
+    "start_ah": 12,
+    "start_ce": 633,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dirar-b-hattab, URL: https://islamansiklopedisi.org.tr/dirar-b-hattab || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4663] || DİA death-date string: (ö. 12/633 [?]) || DİA categories: rivayet > hadis > şiir || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=4663, heading_ar=ضرار بن الخطاب, dt=Süvari şair, sahâbî"
+}

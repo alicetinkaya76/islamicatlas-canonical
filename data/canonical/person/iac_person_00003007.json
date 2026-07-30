@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00003007",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂDİ BEY, Yeniköylü"
+    },
+    "description": {
+      "tr": "İstanbul Boğaziçi’nde Yeniköy semtinde doğdu. Babası Tarabya Camii imam-hatiplerinden Hâşim Efendi’dir. İlk ve orta öğreniminin ardından Muhâcirîn Komisyonu reisi Ali Rızâ Paşa’nın tavsiyesiyle Reji İdaresi’nde memuriyete başladı. Burada bey‘iyye müfettişliğine kadar yükseldi. Yazın Yeniköy’de, kışın Üsküdar Ahmediye’de oturan Hâdi Bey, yakalandığı şeker hastalığından kurtulamayarak Mayıs 1336’da (1920) vefat etti ve Karacaahmet Mezarlığı’nda babasının yanına defnedildi. Hâdi Bey’le ilgili neşriyatta(meselâ bk. Özalp, II, 25; BTMA , I, 316) ölüm tarihinin Mayıs 1917 olarak verilmesi, Sadettin Nüzhet Ergun’un tarih tesbitinde yapmış olduğu bir hatadan kaynaklanmaktadır. Zira Ergun, 1336 tarihinin karşılığı olarak 1917 yılını göstermiş ( Antoloji , II, 644) ve bu yanlış daha sonraki müellifler tarafından da tekrarlanmıştır. Hâdi Bey mûsikişinas Hacı Fâiz Bey’in küçük kardeşidir. Zamanın tanınmış mûsikişinasları arasında yer alan ve iyi bir ûdî olan Hâdi Bey, dinî ve din dışı sahada bestelediği eserler yanında mahfûzatı, hânendeliği ve hocalığı ile de tanınmıştır. Mûsikideki hocası Yeniköylü Hasan Sırrı Efendi’den binlerce eser öğrenmiştir. Parlak ve güzel sesli bir hânende olan ve eserleri doğru okumakla şöhret bulan Hâdi Bey’in okuyuş tavrı, mûsikişinasların hâfızalarından uzun süre silinmeyen bir icra tarzı olarak anılagelmiştir. Bilhassa durak okumakla şöhret kazanmıştı. Yetiştirdiği birçok talebe arasında en meşhuru, kendisinden muhtelif durak, ilâhi, semâi ve şarkıyı tavırları ile beraber meşketmiş olan Mehmet Fehmi Tokay’dır. Bilhassa kuûdî zikirler için çeşitli ilâhiler, ayrıca din dışı formda eserler bestelemiş, ancak bunların büyük kısmı unutulmuştur. Güftesi Seyyid Nizamoğlu’na ait, “Bu aşk bir bahr-i ummândır” mısraı ile başlayan nihâvend ilâhisiyle, “Derdmendim ey civan dermâna geldim ağlarım” mısraı ile başlayan muhayyer şarkısı en tanınmış bestelerindendir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 9-10 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hadi-bey-yenikoylu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hadi-bey-yenikoylu, https://islamansiklopedisi.org.tr/hadi-bey-yenikoylu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hadi-bey-yenikoylu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hadi-bey-yenikoylu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:08Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:08Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hadi-bey-yenikoylu (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1920,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=hadi-bey-yenikoylu, URL: https://islamansiklopedisi.org.tr/hadi-bey-yenikoylu || DİA death place: 1336 || DİA death-date string: (ö. 1920) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003282"
+  ],
+  "students": [
+    "iac:person-00007364"
+  ]
+}

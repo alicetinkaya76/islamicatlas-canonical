@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00000367",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABÂPÛŞ-i VELÎ"
+    },
+    "description": {
+      "tr": "Germiyan şehzadelerinden Hızır Paşa’nın oğludur. Balı Mehmed Çelebi ve Balı Sultan olarak da tanınır. Dedesi Süleyman Şah, Sultan Veled’in kızı Mutahhara Sultan’la evli olduğundan soyu Mevlânâ Celâleddîn-i Rûmî’ye kadar ulaşır. Mevlevî dervişlerinden olan babası kendisine saltanat elbisesi yerine tarikat abası giydirdiği için “Abâpûş-i Velî” lakabıyla anıldı. Hayatının büyük bir kısmını Afyonkarahisar dağında yaptırdığı zâviyede geçirdi. Şehre çok az inen Balı Sultan, bu zâviyedeki sohbetleriyle dervişlerinin mânevî hayatına ışık tuttu. Abâpûş-i Velî’nin Mevlevîlik tarihi açısından esas önemi, Dîvâne Mehmed Çelebi’nin babası olması ve oğlunu sağlığında postnişin tayin etmesidir. Böylece Afyonkarahisar dergâhı, Konya’dan sonra tarikatın ikinci önemli merkezi olmuştur. Dîvâne Mehmed Çelebi’ye “ikinci pîr”, hatta Mevlânâ’nın yeniden zuhuru olarak bakılmıştır. Abâpûş-i Velî’nin kabri Afyonkarahisar Mevlevî Dergâhı’ndadır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 10 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abapus-i-veli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abapus-i-veli, https://islamansiklopedisi.org.tr/abapus-i-veli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abapus-i-veli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abapus-i-veli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abapus-i-veli (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 890,
+    "start_ce": 1485,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abapus-i-veli, URL: https://islamansiklopedisi.org.tr/abapus-i-veli || DİA death-date string: (ö. 890/1485) || DİA categories: tarikat || Chunk count: 1"
+}

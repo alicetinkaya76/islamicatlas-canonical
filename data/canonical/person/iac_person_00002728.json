@@ -1,0 +1,62 @@
+{
+  "@id": "iac:person-00002728",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FERÎD, Hâce Gulâm",
+      "ar": "خواجه غلام فريد"
+    },
+    "originalScript": {
+      "ar": "خواجه غلام فريد"
+    },
+    "description": {
+      "tr": "30 Zilhicce 1261’de (30 Aralık 1845) Pakistan’da, babası Hâce Hudâbahş’ın Sihler’in saldırıları sırasında gittiği Sind (İndus) nehrinin doğu kıyısındaki Çaçrân’da doğdu. Hz. Ömer’in soyundan olduğu rivayet edilen büyük dedesi Mâlik b. Yahyâ Arabistan’dan gelip Sind bölgesinde yerleşmişti. Ferîd annesini ve babasını çok küçük yaşta kaybetti. Çiştiyye tarikatına mensup tanınmış bir âlim ve sûfî olan ağabeyi Hâce Gulâm Fahreddin’in yanında yetişti. Kısa bir müddet sonra kendisiyle birlikte medresede ders vermeye başladı. Ağabeyi ölünce de (1288/1871) onun yerine geçti. On sekiz yıl Rûhî sahrasında zühd ve riyâzet hayatı yaşadı ve daha sonra hacca gitti. 2 Rebîülevvel 1319’da (19 Haziran 1901) vefat etti. Çiştiyye tarikatına mensup olan Ferîd şeriata bağlı, İslâm dışı âdet ve davranışlara şiddetle karşı çıkan bir sûfîdir. Çiştiyye tarikatında da rağbet gören semâ konusunda çok titiz davranmış, kadınların ve tarikata mensup olmayanların semâa katılmasını kesinlikle yasaklamıştır. Ferîd sohbetlerinde bile âdeta vezinli ve kafiyeli konuşacak kadar büyük bir şiir yeteneğine sahipti. Kendisinden önce Farsça, Urduca, Pencâbî, Sirâikî dillerinde şiir söyleyen şairlerin eserlerini çok iyi incelemiş, Hintçe, Urduca ve Farsça gazellerin incelik ve zenginliğinden faydalanarak Râfî adını verdiği bir edebiyat türüne yeni bir ruh, şekil ve üslûp kazandırmıştır. Muhyiddin İbnü’l-Arabî’nin vahdet-i vücûd nazariyesini benimseyen ve onun etkisiyle aşkı mutlak gerçek olarak kabul eden Ferîd’in şiirlerinde aşk konusu önemli bir yer tutar. Klasik Hint mûsikisinin yanı sıra mahallî mûsikiyi de çok iyi bilen Ferîd şiirlerini bestelenmeye uygun bir tarzda söylemiş, İran, Hint, Urdu ve Sanskrit şiirinden de faydalanmıştır. Nitekim eserlerinde Farsça, Urduca ve Sanskritçe şiirlere de rastlanır. Divanı dışında Ferîd’in başlıca eserleri Risâle-i Fevâʾid-i Ferîdiyye , Mekâtib-i Mecâlis , Menâḳıb-ı Ferîd ve İrşâdât-ı Ferîdî ’dir. Bunların son üçü müridleri tarafından derlenip yayımlanmıştır ( UDMİ , XV, 335). Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 392 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ferid-hace-gulam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ferid-hace-gulam, https://islamansiklopedisi.org.tr/ferid-hace-gulam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-05-04T15:34:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ferid-hace-gulam (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ce": 1845,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ferid-hace-gulam, URL: https://islamansiklopedisi.org.tr/ferid-hace-gulam || DİA birth place: Çaçrân || DİA death place: 1319 || DİA death-date string: (1845-1901) || DİA categories: tarikat > şiir > rivayet || Chunk count: 1"
+}

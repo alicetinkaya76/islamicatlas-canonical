@@ -1,0 +1,108 @@
+{
+  "@id": "iac:person-00002443",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "el-HÂC HAMMÛDE",
+      "ar": "الحاج حمّودة"
+    },
+    "originalScript": {
+      "ar": "الحاج حمّودة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Hammûde b. Abdilazîz et-Tûnisî"
+      ]
+    },
+    "description": {
+      "tr": "İbn Abdülazîz diye tanınan el-Hâc Hammûde’nin hayatı hakkında fazla bilgi yoktur. Tunus’ta doğduğu, Zeytûne Medresesi’nde babasından, ayrıca Hanefî müftüsü Muhammed b. Hüseyin Bayram, Mâlikî müftüsü Muhammed el-Mâkûdî, Kāsım el-Mahcûb ve Şeyh Muhammed gibi âlimlerden ders okuyarak yetiştiği, daha sonra kendisinin de aynı medresede ders verdiği bilinmektedir. 10 Temmuz 1705’te iktidarı ele geçirip Tunus beyi olan Hüseyin b. Ali et-Türkî’nin oğlu Ali Bey (Paşa) zamanında (1759-1782) inşâ divanı reisi (vezir) olarak görev yaptı ve onun takdirini kazandı. Cezayir ve Kostantîne şehirlerine elçi olarak gönderildi. 1768’de hacca giden ve oradaki ulemâ ile görüşme fırsatı bulan el-Hâc Hammûde, Ali Bey’in oğlu ve halefi, aynı zamanda kendi öğrencisi olan Hammûde Paşa devrinde de (1782-1814) görevini sürdürdü. el-Hâc Hammûde, kelâm ve fıkıh gibi dinî ilimler yanında şiir ve edebiyatta da temayüz etmiş bir âlimdir. Eserleri. el-Hâc Hammûde’nin en önemli eseri olan el-Kitâbü’l-Bâşî (et-Târîḫu’l-bâşî) 1190’da (1776-77) tamamlanmış olup Hafsîler, Dayılar, Murâdîler ve Hüseynîler’in tarihini ihtiva etmektedir. Özellikle Hüseyin b. Ali devrinin ayrıntılı olarak ele alındığı kitapta siyasî tarih yanında edebî, fikrî, iktisadî, içtimaî ve kültürel gelişmelere de yer verilmiştir. Müellif, önceki dönemlerin tarihini yazarken İbn Haldûn, Vezir Serrâc, İbn Ebû Dînâr ve diğer bazı müelliflerin eserlerini kaynak olarak kullanmıştır. Kitabın, Oruç Reis ve Barbaros Hayreddin Paşa’nın savaşları hakkındaki bölümü Houdas tarafından yayımlanmıştır ( Chrestomatie maghrébine , Paris 1891, s. 14-96). Muhammed Mâdûr’un neşrettiği el-Kitâbü’l-Bâşî ’nin (Tunus 1390/1970), Fransızlar’ın 1770’teki Tunus seferiyle ilgili bölümü Rousseau (Algiers 1849), Murad Bey’in 1112’de (1700) Cezayir ve Kostantîne’ye yaptığı seferle ilgili kısmı da J. A. Cherbonneau tarafından Fransızca’ya tercüme edilmiştir ( JA [Temmuz 1851], s. 36-55). el-Hâc Hammûde kelâmla ilgili olarak el-Ecvibetü’t-tevḥîdiyye ’den başka Risâle fî baʿżi’l-meşâyiḫ ve Risâle fi’l-ḳıble adlı eserleri de kaleme almış ve Ebû Abdullah es-Senûsî’nin el-ʿAḳīdetü’l-vüsṭâ (es-Senûsiyyetü’l-vüsṭâ) adlı eserine hâşiye yazmıştır (Ahmed Abdüsselâm, s. 291). Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 417 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "poet",
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:el-hac-hammude",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=el-hac-hammude, https://islamansiklopedisi.org.tr/el-hac-hammude",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:el-hac-hammude",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=el-hac-hammude",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:00Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:00Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:00Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=el-hac-hammude (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=el-hac-hammude)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Tûnisî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 1202,
+    "start_ce": 1788,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=el-hac-hammude, URL: https://islamansiklopedisi.org.tr/el-hac-hammude || DİA birth place: Tunus || DİA death-date string: (ö. 1202/1788) || DİA categories: kelâm > fıkıh > şiir || Chunk count: 1",
+  "birth_place": "iac:place-00013766",
+  "teachers": [
+    "iac:person-00005701"
+  ],
+  "students": [
+    "iac:person-00003146",
+    "iac:person-00005702"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "@id": "iac:person-00001715",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CASIRI, Michael"
+    },
+    "description": {
+      "tr": "Çeşitli kültürlerin kaynaştığı ve yoğun olduğu Lübnan’ın Trablusşam şehrinde doğdu. İlk gençlik yıllarında Katolik misyonerlerin tesiri altında kaldı ve daha sonra onlar tarafından Roma’ya götürüldü. Burada Collegio dei Maroniti’de tahsil görerek Latince ile birlikte Şark dilleri üzerindeki bilgisini ilerletti ve bu alanda başarı kazandı. O sıralarda, kendisi gibi Lübnanlı bir Mârûnî din adamı olan ve İtalya’da çalışmalarını sürdüren Assemani ile tanıştı; devrin ileri gelen kültür ve ilim adamları ile temaslarını arttırdı. 1748 yılında İspanya’da Escurial Sarayı’nda bulunan Arapça yazma eserlerin katalogunu hazırlamakla görevlendirildi; 1763’te de bu ünlü saray-manastırın kütüphane müdürlüğüne getirildi ve ölünceye kadar bu görevde kaldı. Casiri, İspanya Kralı II. Felipe’nin (1556-1598) Madrid yakınlarındaki San Lorenzo del Escurial’de yaptırdığı bu sarayın yine onun döneminde kurulmasına başlanan kütüphanesinde ömrünü geçirmiş ve bir asır önce büyük bir yangında çoğu yanmış olan Arapça yazmalardan geriye kalan 1851 tanesini, 1760-1770 yıllarında Madrid’de basılan ve iki cilt tutan Bibliotheca Arabico-Hispana Escurialensis adlı katalogunda tarif ve tahlil ederek alıntı yaptığı seçme parçalarla ilim âlemine tanıtmıştır. Birinci ciltte filoloji, lugat, edebiyat, siyaset, tıp, matematik ve ilâhiyat, ikinci ciltte coğrafya ve tarih konuları üzerinde kaleme alınmış eserler yer alır. Bu katalog, İspanya’daki Arap-İslâm medeniyeti üzerine XIX. yüzyılda meydana getirilen bütün çalışmaların âdeta çekirdeğini oluşturur. Casiri’nin özellikle alıntılar yaparak haklarında geniş bilgi verdiği yazmalar bu alanda yapılan ilmî çalışmalara ışık tutmuş ve hızlanmalarına yol açmıştır. Eserin yayımlanmasından bir asır sonra şarkiyatçı Hartwig Derenbourg (ö. 1908) geniş ölçüde bu çalışmadan faydalanmak suretiyle Escurial’deki yazmaları tekrar ele almış ve daha sistemli biçimde hazırladığı, fakat bitiremediği katalogunu Les manuscrits arabes de l’Escurial adıyla yayımlamıştır (Paris 1884). Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 160-161 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:casiri-michael",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=casiri-michael, https://islamansiklopedisi.org.tr/casiri-michael",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-05-04T15:33:47Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=casiri-michael (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1710,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=casiri-michael, URL: https://islamansiklopedisi.org.tr/casiri-michael || DİA birth place: Trablusşam || DİA death-date string: (1710-1791) || DİA categories: tıp > matematik || Chunk count: 1"
+}

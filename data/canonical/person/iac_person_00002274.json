@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00002274",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ ŞÜCÂ‘ el-İSFAHÂNÎ",
+      "ar": "أبو شجاع الإصفهاني"
+    },
+    "originalScript": {
+      "ar": "أبو شجاع الإصفهاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ahmed b Hüseyn (Hasen) b. Ahmed el-Abbâdânî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen İsfahanlı olup 434 (1042-43) yılında Basra’da doğdu. Tahsil hayatıyla ilgili herhangi bir bilgi yoktur. Basra’da kırk yılı aşkın bir süre Şâfiî fıkhı okuttu. Bazı kaynaklarda kendisine atfedilen “el-Kādî” unvanına bakılırsa bir süre kadılık yaptığı anlaşılmaktadır. Bir rivayete göre 500 (1107) yılında hayatta olan Ebû Şücâ’ın ne zaman vefat ettiği kesin olarak bilinmemektedir. Bazı yeni kaynaklarda 533-593 (1139-1197) yılları arasında yaşadığı (Serkîs, I, 318) veya 593’te (1197) öldüğü ( Brockelmann, GAL Suppl. , I, 676; Kehhâle, I, 199) kaydedilmekteyse de bu bilgiler, Ebû Şücâ’ın kendi ifadesine dayanarak Sübkî tarafından doğum tarihi olarak verilen ( Ṭabaḳāt , VI, 15) 434 (1042-43) yılı ile uyuşmamaktadır. Eserleri. 1. el-Muhtasar . et-Taḳrîb fi’l-fıḳh , Ġāyetü’l-iḫtiṣâr veya el-Ġāye fi’l-iḫtiṣâr adlarıyla da bilinen eser Şâfiî fıkhını özetleyen küçük bir risâledir. Şâfiî fıkıh literatürünün mûteber temel kaynaklarından biri olan esere pek çok şerh ve hâşiye yazılmıştır. Takıyyüddin İbn Dakīkul‘îd, Takıyyüddin el-Hısnî, İbn Kāsım el-Gazzî, Hatîb eş-Şirbînî, İbn Kāsım el-Abbâdî gibi meşhur âlimlerin şerhleriyle İbn Kāsım el-Gazzî’nin şerhine Bâcûrî’nin, Hatîb eş-Şirbînî’nin şerhine de Büceyrimî’nin yazdığı hâşiyeler en önemlileridir. Ayrıca gerek metni gerekse bazı şerh ve hâşiyeleri çeşitli Batı dillerine de tercüme edilen eser defalarca basılmıştır (bk. Brockelmann, GAL , I, 492-493; Suppl. , I, 676-677). 2. Şerḥu’l-İḳnâʿ . Mâverdî’ye ait muhtasar bir fıkıh eseri olan el-İḳnâʿ ın şerhidir. Mevcut kaynaklarda her ikisinin de günümüze gelip gelmediğine dair bilgiye rastlanmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 235-236 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-suca-el-isfahani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-suca-el-isfahani, https://islamansiklopedisi.org.tr/ebu-suca-el-isfahani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ebu-suca-el-isfahani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ebu-suca-el-isfahani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:57Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-suca-el-isfahani (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ebu-suca-el-isfahani)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Abbâdânî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 434,
+    "start_ce": 1042,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 500,
+    "start_ce": 1107,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-suca-el-isfahani, URL: https://islamansiklopedisi.org.tr/ebu-suca-el-isfahani || DİA birth place: Basra || DİA death place: Basra || DİA death-date string: (ö. 500/1107’den sonra) || DİA categories: fıkıh > rivayet || Chunk count: 1"
+}

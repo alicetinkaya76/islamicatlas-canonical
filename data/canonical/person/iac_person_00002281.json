@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00002281",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Tâlib Han",
+      "ar": "أبو طالب خان"
+    },
+    "originalScript": {
+      "ar": "أبو طالب خان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Tâlib b. Hâcî Muhammed Beg-i Tebrîzî-i İsfahânî"
+      ]
+    },
+    "description": {
+      "tr": "1166’da (1752-53) Leknev’de doğdu. Aslen Tebrizli olan babası Hacı Muhammed Beg (ö. 1180/1766), Kaçarlar’dan Nâdir Şah zamanında İsfahan’dan Leknev’e göç etmiş bir Âzerî Türkü’dür. Ebû Tâlib çocukluk yıllarını Mürşidâbâd’da Bengal vali yardımcısı Muzaffer Ceng’in sarayında geçirdi. Avaz’da (Oudh) Âsafüddevle’nin tahta çıkmasından sonra (1189/1775) Leknev’e döndü. Avaz nâibi Muhtârüddevle tarafından maliye memurluğuna tayin edildi. Bir süre Leknev’deki İngiliz temsilciliğinde çalıştıktan sonra 1202’de (1787) Kalküta’ya gitti. Burada Hâfız-ı Şîrâzî’nin divanını yayımladı (1791). 1798’de Doğu Hindistan Şirketi Bengal ordusu kumandanı D. Richardson ile beş yıl süren Avrupa seyahatine çıktı. Seyahat sonrası yerleştiği Leknev’de öldü. Eserleri. Kitaplarını Farsça yazan Ebû Tâlib Han’ın başlıca eserleri şunlardır: 1. Ḫulâṣatü’l-efkâr . Müellifin yirmi beş yıl boyunca malzemesini topladığı eser, 494 İranlı şairin biyografisini ihtiva eden bir tezkiredir. Tezkire yazımında uyulması gereken kurallar hakkında bir mukaddime ile başlayan eser, şairlerin alfabetik ve kronolojik sıra ile anlatıldığı yirmi sekiz bölüme (hadîka) ayrılmıştır. Eserin sonunda 160 şairin sadece isimlerini ve şiirlerinden birkaç beyti ihtiva eden bir zeyille müellifin çağdaşı yirmi üç şairin yer aldığı bir hâtime bulunmaktadır. Müellif bu tezkiresini kaleme alırken Ali Kulı Hân-ı Vâlih’in Riyâżü’ş-şuʿarâʾ , Mîr Şemseddin Dihlevî’nin Ḫulâṣatü’l-bedîʿ adlı eserlerinden geniş ölçüde faydalanmıştır. Eserin müellif nüshasından istinsah edilen ve müellif tarafından gözden geçirilen bir nüshası Indian Office Kütüphanesi’nde (nr. 696) bulunmaktadır (diğer nüshaları için bk. Storey, I/2, s. 878). 2. Lübbü’s-siyer ü Cihânnümâ . 1208’de (1793-94) yazılmış muhtasar bir İslâm tarihi olan eser Âsafüddevle’ye ithaf edilmiştir (yazma nüshaları için bk. Storey, I/1, s. 145). 3. Mesîr-i Ṭâlibî fî Bilâd-i Efrencî . Müellifin Avrupa seyahati sırasında tuttuğu notlardan ve hâtıralarından meydana gelen eseri oğlu Mirza Hüseyin Ali yayımlamıştır (Kalküta 1229/1812). D. MacFarlane tarafından muhtasar olarak da neşredilen eseri (Kalküta 1827, 1836), C. Stewart The Travels in Europe and Asia adıyla İngilizce’ye tercüme etmiştir (London 1810, 1814). Mesîr-i Ṭâlibî ’nin iki Fransızca tercümesinden ilkini G. Jansen Farsça aslıyla İngilizce tercümesini karşılaştırarak yapmış (Paris 1811), ikincisini de Ch. Malu İngilizce’sinden çevirmiştir (Paris 1819). Eserin Almanca çevirisi ise Fransızca tercümesinden yapılmıştır (Vienna 1813). 4. Tafzîḥu’l-ġāfilîn . Âsafüddevle dönemini (1775-1797) anlatan ve İngiliz yönetimini savunan eser, W. Holey tarafından History of Asaf-al-Dawla adıyla İngilizce’ye tercüme edilmiştir (Allahâbâd 1888). 5. Miʿrâcü’t-tevḥîd . Astronomiyle ilgili bir risâledir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 238-239 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-talib-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-talib-han, https://islamansiklopedisi.org.tr/ebu-talib-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ebu-talib-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ebu-talib-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:57Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-talib-han (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ebu-talib-han)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1220,
+    "start_ce": 1805,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-talib-han, URL: https://islamansiklopedisi.org.tr/ebu-talib-han || DİA birth place: Leknev || DİA death-date string: (ö. 1220/1805) || DİA categories: astronomi || Chunk count: 1"
+}

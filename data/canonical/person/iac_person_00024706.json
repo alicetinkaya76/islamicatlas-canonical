@@ -1,0 +1,111 @@
+{
+ "@id": "iac:person-00024706",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "Bayhaqi",
+   "en": "al-Bayhaqi",
+   "ar": "البيهقي"
+  },
+  "description": {
+   "en": "Al-Bayhaqi is the author of al-Sunan al-Kubra, a massive hadith compilation, and one of the greatest hadith authorities of the Shafii school. His work brings together over twenty thousand narrations organized by jurisprudential topics. He was a student of al-Hakim al-Naysaburi. His Dalail al-Nubuwwa is one of the most comprehensive sources on the Prophet's life. He is considered among the last great representatives of the Nishapuri hadith school.",
+   "tr": "Beyhakî, es-Sünenü'l-Kübrâ adlı dev hadis külliyatının müellifi olup Şâfiî mezhebinin en büyük hadis otoritelerinden biridir. Eserinde yirmi binden fazla rivayet bir araya getirerek fıkıh bablarına göre tasnif etmiştir. Hâkim en-Nîsâbûrî'nin talebesidir. Delâilü'n-Nübüvve adlı eseri Hz. Peygamber'in hayatına dair en kapsamlı kaynaklardan biridir. Nîşâbûr hadis ekolünün son büyük temsilcilerinden kabul edilir.",
+   "ar": "البيهقي صاحب السنن الكبرى وهو من أعظم أئمة الحديث في المذهب الشافعي."
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "openiti:0458Bayhaqi",
+    "source_type": "digital_corpus",
+    "page_or_locator": "OpenITI corpus_authors.json id=0458Bayhaqi",
+    "extraction_method": "structured_json",
+    "edition_or_version": "OpenITI corpus snapshot 2024-2026"
+   },
+   {
+    "source_id": "scholars:145",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=145",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "openiti-author-resolve",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T21:23:43Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T21:23:43Z",
+  "modified": "2026-07-12T14:48:04Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T21:23:43Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Placeholder person minted by openiti-author-resolve Tier 4 (no T1/T2 match in canonical person index). Pending biographic enrichment in Hafta 6 (DİA chunk re-extraction + cross-source alignment). Authored works will be back-populated by integrity_pass_A_bidirectional after openiti-works adapter."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['prefLabel.en', 'prefLabel.ar', 'description.en', 'description.tr', 'description.ar', 'kunya', 'nisba']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1508-8542-24706) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001508 lehine yumuşak-silindi. Gerekçe: Üç kayıt da 458/1066'da ölen meşhur muhaddis-fakih Ahmed b. Hüseyin el-Beyhakī'yi (البيهقي) gösterir; ad, nisbe ve ölüm yılı tam örtüşür, üç kaynak yalnızca aynı kişiyi farklı ayrıntı düzeyinde kaydetmiştir."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001508"
+ },
+ "note": "Tier-4 placeholder from OpenITI author_id=0458Bayhaqi. Biographic content sparse pending Hafta 6 enrichment.",
+ "death_temporal": {
+  "start_ce": 1066,
+  "start_ah": 458,
+  "approximation": "circa"
+ },
+ "authored_works": [
+  "iac:work-00000265",
+  "iac:work-00000487",
+  "iac:work-00000541",
+  "iac:work-00000549",
+  "iac:work-00000753",
+  "iac:work-00001205",
+  "iac:work-00001431",
+  "iac:work-00001705",
+  "iac:work-00001871",
+  "iac:work-00001911",
+  "iac:work-00002878",
+  "iac:work-00003481",
+  "iac:work-00003482",
+  "iac:work-00003487",
+  "iac:work-00003514",
+  "iac:work-00003708",
+  "iac:work-00003793",
+  "iac:work-00003821",
+  "iac:work-00004327",
+  "iac:work-00005101",
+  "iac:work-00005915",
+  "iac:work-00006618",
+  "iac:work-00007966",
+  "iac:work-00008574",
+  "iac:work-00008685",
+  "iac:work-00008743"
+ ],
+ "kunya": "Ebû Bekir",
+ "nisba": [
+  "Beyhakî",
+  "Horasânî"
+ ]
+}

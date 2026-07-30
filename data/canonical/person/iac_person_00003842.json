@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00003842",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN HAMMÂD es-SANHÂCÎ",
+      "ar": "ابن حمّاد الصنهاجي"
+    },
+    "originalScript": {
+      "ar": "ابن حمّاد الصنهاجي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Alî b. Hammâd (Hamâdu) b. Îsâ b. Ebî Bekr es-Sanhâcî"
+      ]
+    },
+    "description": {
+      "tr": "Mağrib-i Evsat’ta yer alan Hamza köyünde doğdu. Benî Sanhâce’ye mensup olup İbn Hamâdu diye de bilinir. Tahsil hayatına Kal‘atü Benî Hammâd’da başladı ve Bicâye’de devam etti. Bicâye’de bulunduğu sırada Ebü’l-Hasan Ali b. Muhammed et-Temîmî el-Muammerî, İbnü’l-Harrât, Muhammed b. Ali b. Mahlûf el-Cezâirî gibi âlimlerden ders aldı ve mutasavvıf Sîdî Bû Medyen’in sohbetlerine katıldı. 613-616 (1216-1219) yılları arasında Endülüs’ün Cezîretülhadrâ (Algeciras) ve Mağrib’in Selâ, Azemmûr şehirlerinde kadılık yaptıktan sonra kendini eserler yazmaya verdi. 628 (1231) yılında vefat eden İbn Hammâd’ın ölüm tarihi 627 (1230) olarak da kaydedilir (Safedî, IV, 157). Eserleri. 1. Kitâbü’n-Nübeẕi’l-muḥtâce fî aḫbâri mülûki Ṣanhâce bi-İfrîḳıyye ve Bicâye . Müellif, en önemli çalışması olan bu eserinde Sanhâce emîrleri hakkındaki rivayetleri toplamıştır; ancak 617’de (1220) yazılan kitabın bugün sadece Fâtımîler’i anlatan kısmı mevcuttur. Müellif, bu bölüme Fâtımîler’in soyları hakkındaki ihtilâftan söz ederek başlar ve Ubeydullah el-Mehdî’den (909-934) Âdıd-Lidînillah’a (1160-1171) kadar bütün Fâtımî halifelerinin biyografilerini verir. Eserin Ubeydullah el-Mehdî ile ilgili kısmının Jacques Auguste Cherbonneau tarafından yapılan Fransızca tercümesi ( JA , V [1855], s. 529-547) ve Arapça metni ( RAfr. , XII [1868], s. 464-477) yayımlanmıştır. Eser daha sonra M. Vonderheyden tarafından Arapça metni ve Fransızca tercümesiyle birlikte ( Histoire des rois ʿObaïdites , Alger-Paris 1927), son olarak da Tihâmî Nakra ve Abdülhalîm Uveys tarafından bir mukaddime ile beraber Aḫbâru mülûki Benî ʿUbeyd ve sîretühüm adıyla neşredilmiştir (Riyad-Kahire 1401/1981; Tunus 1987). İbn Hammâd’ın bu eserinden İbn Haldûn, Abdullah b. Ahmed et-Ticânî ve İbnü’l-Ebbâr gibi müellifler nakillerde bulunmuşlardır; Ticânî nakillerinde onun bazı beyitlerine de yer vermiştir ( Riḥle , s. 116-117). 2. Târîḫu mülûki’l-İbâżıyye . Vonderheyden tarafından neşredilen eserin (Cezayir 1340/1927) Hâricî lideri Ebû Yezîd en-Nükkârî’ye dair kısmını Cherbonneau Fransızca’ya çevirmiştir ( JA , XX [1852], s. 470-510). İbn Hammâd’ın bunlardan başka el-İʿlâm bi-Fevâʾidi’l-aḥkâm li-ʿAbdilḥaḳ el-İşbîlî ve Şerḥu Maḳṣûreti İbn Düreyd adlarını taşıyan iki kitapla çalışmalarından ve hocalarından bahsettiği bir risâle yazdığı belirtilmektedir ( Aḫbâru mülûki Benî ʿUbeyd , neşredenlerin girişi, s. 6-7; DMBİ , III, 362). İbnü’l-Ebbâr onun şiirlerini topladığı bir divanının olduğunu söyler ( et-Tekmile , II, 628). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 26 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "poet",
+    "judge"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-hammad-es-sanhaci",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-hammad-es-sanhaci, https://islamansiklopedisi.org.tr/ibn-hammad-es-sanhaci",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-hammad-es-sanhaci",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-hammad-es-sanhaci",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:19Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:19Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-hammad-es-sanhaci (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-hammad-es-sanhaci)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sanhâcî"
+  ],
+  "birth_temporal": {
+    "start_ah": 628,
+    "start_ce": 1231,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 628,
+    "start_ce": 1231,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-hammad-es-sanhaci, URL: https://islamansiklopedisi.org.tr/ibn-hammad-es-sanhaci || DİA birth place: Hamza || DİA death-date string: (ö. 628/1231) || DİA categories: rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004206"
+  ]
+}

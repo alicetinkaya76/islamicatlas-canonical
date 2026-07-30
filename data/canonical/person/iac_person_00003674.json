@@ -1,0 +1,116 @@
+{
+  "@id": "iac:person-00003674",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN AVN, Abdullah",
+      "ar": "عبد الله بن عون"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن عون"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Avn Abdullāh b. Avn b. Ertabân el-Müzenî el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "66 (685) yılında Basra’da doğdu. 64 (683) yılında doğduğu da söylenmiştir. Dedesi Müzeyne kabilesinin mevâlîsinden olduğu için Müzenî nisbesiyle de anılır. Enes b. Mâlik’i görmüş; Saîd b. Cübeyr, İbrâhim en-Nehaî, Şa‘bî, Atâ b. Ebû Rebâh, Hasan-ı Basrî ve İbn Sîrîn gibi birçok ünlü kişiden hadis dinlemiştir. Kendisinden A‘meş, Şu‘be b. Haccâc, Süfyân es-Sevrî, Abdullah b. Mübârek, Ezher b. Sa‘d, Hüşeym b. Beşîr, Vekî‘ b. Cerrâh, Yahyâ b. Saîd el-Kattân gibi âlimler rivayette bulunmuştur. Hadis münekkitleri onu güvenilir kabul etmekte, Yahyâ b. Maîn de her konuda güvenilir olduğunu söylediği İbn Avn’ı “sebt” ve “sika” diye nitelendirmektedir. Şu‘be, eşsiz bir insan olarak tanıttığı İbn Avn’dan her gün hadis öğrenmeyi istediğini, onun tedlîs yapmaktan kurtulan iki kişiden biri olduğunu söylemekte, İbn Avn’ın şüpheli bilgisini başkasının kesin bilgisine tercih edeceğini belirterek onun ilmine olan güvenini ifade etmektedir. Süfyân es-Sevrî, Hişâm b. Hassân, Osman el-Bettî, Muâz b. Muâz, Abdullah b. Mübârek gibi âlimler de onun bir benzerini görmediklerini, Abdurrahman b. Mehdî ise Irak’ta sünneti ondan daha iyi bilenin bulunmadığını söylemiştir. Kütüb-i Sitte müelliflerinin hepsi İbn Avn’dan rivayette bulunmuştur. Hadis rivayetinde son derece titiz davranan İbn Avn, yaklaşık yetmiş yıl kaldığı Basra’da bu sahanın önemli isimlerinden Eyyûb es-Sahtiyânî ve Yûnus b. Ubeyd’e saygısından dolayı onların vefatına kadar hadis rivayet etmedi. Kıraat ve fıkıh alanlarındaki bilgisiyle de tanınan İbn Avn, Receb 151’de (Ağustos 768) Basra’da vefat etti. Bu tarih 150 ve 152 olarak da zikredilmiştir. Cenaze namazını Basra Valisi Cemîl b. Mahfûz el-Ezdî kıldırdı. Varlıklı bir kişi olması yanında ibadet ve zühdüyle de tanınan İbn Avn az konuşur, güzel giyinir, ancak gösterişten son derece sakınırdı. Çevresindekilere Kur’an okumayı, sünnete sarılmayı ve insanlara zarar vermemeyi tavsiye ederdi. Talebesi Hârice b. Mus‘ab onun faziletlerinden bahsederken yanında yirmi dört yıl kaldığını, meleklerin onun herhangi bir hatasını yazmış olacağına ihtimal vermediğini söylemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 340-341 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-avn-abdullah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-avn-abdullah, https://islamansiklopedisi.org.tr/ibn-avn-abdullah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ibn-avn-abdullah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ibn-avn-abdullah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:17Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-avn-abdullah (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.97): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Müzenî; Basrî"
+  ],
+  "birth_temporal": {
+    "start_ah": 66,
+    "start_ce": 685,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 151,
+    "start_ce": 768,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-avn-abdullah, URL: https://islamansiklopedisi.org.tr/ibn-avn-abdullah || DİA birth place: Basra || DİA death place: Basra || DİA death-date string: (ö. 151/768) || DİA categories: hadis > rivayet > sünnet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001162",
+    "iac:person-00003260",
+    "iac:person-00004035",
+    "iac:person-00005969",
+    "iac:person-00006063",
+    "iac:person-00006501",
+    "iac:person-00006607"
+  ],
+  "students": [
+    "iac:person-00000524",
+    "iac:person-00000552",
+    "iac:person-00000612",
+    "iac:person-00001019",
+    "iac:person-00002634",
+    "iac:person-00003576",
+    "iac:person-00004060",
+    "iac:person-00006367",
+    "iac:person-00007106",
+    "iac:person-00007122",
+    "iac:person-00007290",
+    "iac:person-00007584",
+    "iac:person-00007656"
+  ]
+}

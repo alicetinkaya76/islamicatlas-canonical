@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00004549",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İskilibî"
+    },
+    "description": {
+      "tr": "İskilip’te doğdu. Adı Yûsuf, babasının adı Osman olup ayrıca Halîmî nisbesiyle anılmıştır. İstanbul’a yerleşerek Süleymaniye ve Fâtih camilerinde vâiz ve dersiâm olarak görev yaptığı, Cemâziyelevvel 1199’da (Mart 1785) vefat ettiği ve Topkapı’da medfun bulunduğu dışında hayatı hakkında bilgi yoktur. Eserlerinin incelenmesinden Arap dili, mantık, tefsir ve hadis başta olmak üzere aklî ve naklî ilimlerde iyi yetişmiş bir âlim olduğu anlaşılan İskilibî, bir müfessir olarak âyetleri yorumlarken sadece nakle dayanmakla kalmamış, o dönemde hâkim olan ilmî ve felsefî birikimden faydalanmış, aklî ve naklî ilimleri birlikte ele almıştır. Eserleri. 1. el-Mevhibetü’l-ilâhiyye ve’l-ʿaṭıyyetü’s-sübḥâniyye . Müellifin en hacimli eseri olup Zilzâl sûresinden Nâs sûresine kadar olan on beş kısa sûrenin geniş tefsiridir. Pek çok rivayetin yanı sıra yer yer dil, mantık, kelâm ve tasavvufla ilgili tartışmaları da ihtiva eden eserin bir nüshası Râgıb Paşa Kütüphanesi’nde kayıtlıdır (nr. 198). 2. Netâʾicü’l-efkâr ve ẓevâhirü’l-ezhâr . Birçok muteber eserin incelenmesi suretiyle telif edildiği için bu adın verildiği belirtilen (vr. 97 b ) çalışma Bakara sûresinin 284. âyetinin tefsirine dairdir. Âyetle ilgili olarak Beyzâvî’nin Envârü’t-tenzîl ’inden yapılan iktibasla başlayan risâlede müellifin dille ve özellikle insan nefsiyle ilgili felsefî birikiminin değerlendirildiği görülmektedir. Eserin Süleymaniye (Esad Efendi, nr. 3667, vr. 95-104) ve Köprülü (Mehmed Âsım, nr. 279) kütüphanelerinde iki nüshası mevcut olup Köprülü nüshasındaki adı Neticetü’l-fiker şeklindedir. 3. Lisânü’l-mantık fî maârifi’n-nutk . Müellif bu çalışmasında Esîrüddin el-Ebherî’nin mantığa dair Îsâġūcî adlı eserini şerhederek Türkçe’ye çevirmiştir. Eserin Köprülü Kütüphanesi’nde (Mehmed Âsım, nr. 279, vr. 7-21) ve Millî Kütüphane’de (Mikrofilm Arşivi [A], nr. 1629/1) nüshaları bulunmaktadır. 4. Tuhfetü’l-ihvân . Sarfla ilgili Türkçe bir eserdir (Köprülü Ktp., Mehmed Âsım, nr. 279, vr. 24-38). 5. Tercemetü’l-Avâmili’l-cedîde . Birgivî’nin nahiv ilmine dair eserinin Türkçe çevirisidir (Köprülü Ktp., Mehmed Âsım, nr. 279, vr. 21-24). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 582 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:iskilibi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=iskilibi, https://islamansiklopedisi.org.tr/iskilibi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:iskilibi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=iskilibi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:29Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:29Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=iskilibi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=iskilibi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1199,
+    "start_ce": 1785,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=iskilibi, URL: https://islamansiklopedisi.org.tr/iskilibi || DİA birth place: İskilip || DİA death place: 1199 || DİA death-date string: (ö. 1199/1785) || DİA categories: tefsir > mantık > hadis || Chunk count: 1"
+}

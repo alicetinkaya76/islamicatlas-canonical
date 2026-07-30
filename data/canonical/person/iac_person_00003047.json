@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00003047",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hâherzâde",
+      "ar": "خواهرزاده"
+    },
+    "originalScript": {
+      "ar": "خواهرزاده"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Muhammed b. Hüseyn b. Muhammed el-Buhârî"
+      ]
+    },
+    "description": {
+      "tr": "Kadı Ebû Sâbit Muhammed b. Ahmed el-Buhârî’nin kız kardeşinin oğlu olduğu için “Hâherzâde” (kız kardeş oğlu) lakabıyla meşhur olmuştur. Doğum tarihi bilinmemektedir. Babasından ve dayısı Ebû Sâbit Muhammed b. Ahmed el-Buhârî’den, ayrıca Ebü’l-Fazl Mansûr b. Nasr el-Kāgızî, Ebû Nasr Ahmed b. Ali el-Hâzimî, Ebû Amr Muhammed b. Abdülazîz el-Kantârî, Ebû Saîd b. Ahmed el-İsfahânî gibi âlimlerden ders aldı. Zamanında Hanefîler’in Mâverâünnehir bölgesindeki en meşhur hukukçularından biri oldu. Bundan dolayı kendisine “devrin Nu‘mân’ı” denilmiştir. Aralarında Ebû Amr Osman b. Ali b. Muhammed el-Bîkendî, Ebü’l-Hasan Ali b. Hasan en-Nîsâbûrî ve Ömer b. Muhammed b. Lokmân en-Nesefî gibi âlimlerin bulunduğu birçok talebe yetiştirdi. Buhara’da uzun bir ömür geçirdikten sonra 25 Cemâziyelevvel 483 (26 Temmuz 1090) tarihinde vefat etti. Eserleri. 1. Şerḥu Muḫtaṣari’l-Ḳudûrî (Brockelmann, I, 183; Sezgin, I, 452). Hanefî fıkhının temel metinlerinden Kudûrî’nin el-Muḫtaṣar adlı eserinin şerhi olup Fevâʾidü’l-Ḳudûrî (Süleymaniye Ktp., Hasan Hüsnü Paşa, nr. 421), Şerḥu müşkilâti’l-Ḳudûrî (Süleymaniye Ktp., Şehid Ali Paşa, nr. 847) ve Ḥallü müşkilâti’l-Ḳudûrî (Süleymaniye Ktp., Hüsrev Paşa, nr. 92) gibi adlarla da anılmaktadır. Süleymaniye Kütüphanesi’ndeki Müşkilâtü Ḳudûrî de (Bağdatlı Vehbi Efendi, nr. 501) bu eserin muhtasarı mahiyetindedir. Öte yandan aynı kütüphanenin Nâfiz Paşa bölümünde bulunan (nr. 274) Fevâʾidü’l-Ḳudûrî ’nin üzerinde müellif olarak yine Hâherzâde lakabıyla tanınan Bedreddin Muhammed b. Mahmûd el-Kerderî’nin (ö. 651/1253) adı yazılı ise de yapılan incelemede bu eserin de Ebû Bekir Hâherzâde’ye ait olduğu anlaşılmıştır. 2. Şerḥu’l-Câmiʿi’l-kebîr . İmam Muhammed’in el-Câmiʿu’l-kebîr adlı eserinin şerhidir. Eserin II. cildi Süleymaniye Kütüphanesi’nde kayıtlı olup (Fâtih, nr. 1867) “Kitâbü’l-eymân”dan “Kitâbü’d-da‘vâ”ya kadar olan bölümleri içine alır. Hâherzâde’nin kaynaklarda adı geçen diğer eserleri de şunlardır: el-Mebsûṭ (on beş cilt olduğu belirtilmektedir), el-Muḫtaṣar , et-Tecnîs , Fetâvâ , Şerḥu Edebi’l-ḳāḍî , Kitâbü’ẕ-Ẕaḫîre , el-Îżâḥ , Şerḥu Kitâbi’l-Ḥiyel li’l-Ḫaṣṣâf . Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 135 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:haherzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=haherzade, https://islamansiklopedisi.org.tr/haherzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:haherzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=haherzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:09Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:09Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=haherzade (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=haherzade)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Buhârî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 483,
+    "start_ce": 1090,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=haherzade, URL: https://islamansiklopedisi.org.tr/haherzade || DİA death place: Buhara || DİA death-date string: (ö. 483/1090) || Chunk count: 1"
+}

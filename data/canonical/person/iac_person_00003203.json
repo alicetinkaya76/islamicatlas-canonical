@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00003203",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂRİS b. UMEYR",
+      "ar": "الحارث بن عمير"
+    },
+    "originalScript": {
+      "ar": "الحارث بن عمير"
+    },
+    "altLabel": {
+      "tr": [
+        "el-Hâris b. Umeyr el-Ezdî"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Peygamber, hicretin 7. yılında (628) komşu hükümdarları İslâm’a davet etmek üzere onlara elçilerle mektup göndermeye başlayınca 8. yılın başında (629) adı tesbit edilemeyen Busrâ emîrine yazdığı mektubu Lihboğulları’ndan Hâris b. Umeyr ile gönderdi. Hâris Mûte’ye vardığında Gassânî emîrlerinden Şürahbîl b. Amr yolunu keserek nereye gittiğini sordu; Resûlullah’ın elçisi olduğunu öğrenince boynunu vurdurdu. Resûl-i Ekrem, Hâris’in ölüm haberini duyunca çok üzüldü ve Zeyd b. Hârise kumandasında hazırlattığı 3000 kişilik bir orduyu Mûte’ye gönderdi (bk. MÛTE SAVAŞI ). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 202 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:haris-b-umeyr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=haris-b-umeyr, https://islamansiklopedisi.org.tr/haris-b-umeyr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:haris-b-umeyr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/haris-b-umeyr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=haris-b-umeyr (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 8,
+    "start_ce": 629,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=haris-b-umeyr, URL: https://islamansiklopedisi.org.tr/haris-b-umeyr || DİA death-date string: (ö. 8/629) || Chunk count: 1"
+}

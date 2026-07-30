@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000555",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. ZEYD b. SA‘LEBE",
+      "ar": "عبد الله بن زيد بن ثعلبة"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن زيد بن ثعلبة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdullāh b. Zeyd b. Sa‘lebe el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "Ensarın Hazrec koluna mensuptur. Dedesinin Sa‘lebe değil Abdürabbih olduğu da söylenmektedir. Akabe’de Hz. Peygamber’e biat etti. Bedir Savaşı’na katıldı. Diğer gazvelerde de bulundu. Hicretin birinci yılında Mescid-i Nebevî tamamlandıktan sonra müslümanların ibadete nasıl çağrılacağının müzakere edildiği günlerde Abdullah’a rüyasında ezanın sözleri bildirildi. Sabahleyin Hz. Peygamber’e giderek rüyasını anlattı. Peygamber, “Bu sâdık bir rüyadır” dedikten sonra ezanın sözlerini Bilâl’e öğretmesini emretti (bk. Müsned , IV, 42-43). Bundan dolayı “sâhibü’l-ezân” diye şöhret buldu. Kaynaklarda, Abdullah’tan rivayet edilmiş başka bir hadisin bulunmadığı kaydedilmekte ise de İbn Hacer ondan gelen altı veya yedi kadar hadisi müstakil bir cüzde toplamıştır. Bu hadisleri oğlu Muhammed, torunu Abdullah b. Muhammed, Saîd b. Müseyyeb ve Abdurrahman b. Ebû Leylâ rivayet etmiştir. Rivayetleri Kütüb-i Sitte ’de dört es-Sünen ’inde yer almıştır. Abdullah b. Zeyd, Hz. Osman devrinde altmış dört yaşlarında Medine’de vefat etti. Namazını Hz. Osman kıldırdı. Uhud Savaşı’nda şehid düştüğüne dair rivayet ise zayıf kabul edilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 144 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-zeyd-b-salebe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-zeyd-b-salebe, https://islamansiklopedisi.org.tr/abdullah-b-zeyd-b-salebe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-b-zeyd-b-salebe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-b-zeyd-b-salebe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-zeyd-b-salebe (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî"
+  ],
+  "death_temporal": {
+    "start_ah": 32,
+    "start_ce": 653,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-zeyd-b-salebe, URL: https://islamansiklopedisi.org.tr/abdullah-b-zeyd-b-salebe || DİA death place: Medine || DİA death-date string: (ö. 32/653) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

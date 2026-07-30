@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00000394",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abbas Halim Paşa"
+    },
+    "description": {
+      "tr": "Asıl adı Mehmed Abbas’tır. Kavalalı Mehmed Ali Paşa’nın dördüncü oğlu Halim Paşa’nın ikinci çocuğudur. Kahire’de doğdu. Özel hocalardan Arapça, Farsça, Fransızca ve İngilizce öğrendikten sonra ağabeyi Said Halim ile birlikte İsviçre’ye giderek yüksek tahsilini orada tamamladı. Hidiv Tevfik Paşa’nın kızı ile evlendi (1895). Uzun yıllar Avrupa’da kalarak kendisini yetiştirdikten sonra İstanbul’a döndü. Sultan II. Abdülhamid’in saltanatının son yıllarında devlet hizmetine girdi, Şûrâ-yı Devlet âzası oldu. Said Halim Paşa’nın sadâreti yıllarında bir yıl kadar Bursa valiliği yaptıktan sonra Nâfia nâzırlığına getirildi (1915). Said Halim Paşa’nın istifası ile kabinedeki görevinden ayrıldı (1917). İstanbul’un işgali sırasında İngilizler tarafından savaş kabinelerinin bazı nâzırları, fikir ve siyaset adamları ve bazı mebuslarla birlikte tutuklanarak yargılandı (1919). Mahkeme sonuçlanmadan diğer tutuklularla birlikte Malta’ya sürüldü. İki yıl sonra serbest bırakılınca İstanbul’a döndü. Bundan sonraki yıllarını İstanbul ve Mısır’da geçirdi. Kahire’de vefat etti. Şiir, edebiyat ve mûsikiden çok iyi anlayan Abbas Halim Paşa, İslâm-Türk seciye ve ahlâkının en güzel örneklerini şahsında toplamış, devrinde cömertlik ve hayır severliğiyle tanınmıştır. Birçok gencin yurt dışında okumasına yardım etmiş, ilim, fikir ve sanat adamlarını korumuştur. Çocuklarının hocası olan Mehmed Âkif ile İstanbul’da başlayan dostluğu uzun yıllar sürmüş, Âkif onun daveti ile ömrünün son yıllarını Mısır’da geçirmiştir. Âkif “el-Uksur’da” şiirini ona ithaf ettiği gibi, kendisine hitaben iki manzum tebrik ile “Arîza” isimli iki de manzume yazmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 24 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbas-halim-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbas-halim-pasa, https://islamansiklopedisi.org.tr/abbas-halim-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-07-14T13:16:09Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbas-halim-pasa (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:33Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1866,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abbas-halim-pasa, URL: https://islamansiklopedisi.org.tr/abbas-halim-pasa || DİA birth place: Kahire || DİA death place: Kahire || DİA death-date string: (1866-1934) || DİA categories: şiir || Chunk count: 1",
+  "birth_place": "iac:place-00009399",
+  "death_place": "iac:place-00009399",
+  "active_in_places": [
+    "iac:place-00009399"
+  ]
+}

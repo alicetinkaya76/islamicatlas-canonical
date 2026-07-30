@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00003461",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HOCİÇ, Vehbi"
+    },
+    "description": {
+      "tr": "7 Ocak 1913’te Sancak bölgesinde Novi Pazar’a (Yenipazar) bağlı Donja Pešter’in Čukota köyünde doğdu. İlk öğrenimini burada, lise öğrenimini Üsküp’te tamamladı. Belgrad Hukuk Fakültesi’nde bir yıl okuduktan sonra ayrılarak Saraybosna’da Kadılık Yüksek Okulu’nda öğrenimini sürdürdü. II. Dünya Savaşı sırasında 1941 yılında Saraybosna ile Novi Pazar arasındaki yollar ulaşıma kapandığından mezuniyet imtihanına giremedi; savaştan sonra kurulan yeni Yugoslavya’nın komünist yönetimi bu okulu kapatınca öğrenim hayatı sona ermiş oldu. II. Dünya Savaşı esnasında Novi Pazar’da şeriat mahkemesinde bilirkişi ve Sırbistan Diyanet İşleri sekreteri olarak çalıştı. Daha sonra Novi Pazar Belediyesi’nde, adliyede, Narodna Banka’da çeşitli görevlerde bulundu. 1 Şubat 1977’de Novi Pazar’da vefat etti. Üsküp’te öğrenci iken Doğru , Islamski Svijet ve Islamski Glas adlı dergilerde makale ve tercümeler yayımlayan Hociç yüksek öğrenimi sırasında Gajret , Narodna Pravda , Glasnik Islamske Vjerske Zajednice , II. Dünya Savaşı’ndan sonra da Takvim , Preporod ve Zemzem gibi dergilerde makaleler yazdı (Fajić, s. 92, 93). Vehbi Hociç, Novi Pazar’daki görevleri esnasında sürdürdüğü ilmî çalışmaların yanı sıra bölgedeki müslümanların problemleriyle yakından ilgilenmiş, din görevlilerine kurslar tertiplemiş, aynı yerde bir kütüphane kurarak (Muslimanska Biblioteka) bir süre yöneticiliğini yapmıştır. Eserleri. 1. Temelji Islama-Smisao i Svrha Propisa (Sarajevo 1971). İslâm dininin esaslarına dair olan bu üç ciltlik eserin yalnız I. cildi yayımlanmıştır. 2. Mevlud (Novi Pazar 1971). Hociç’in Problem dobra i Zla-Sistem Moralne Filozofije (Hayır-şer problemi - Ahlâk felsefesi sistemi), Islam i Nauka - Kulturna Historjia Islama (İslâm ve ilim - İslâm kültür tarihi), Islam-Religija za Sve i Svakoga (İslâm-Herkes için ve herkese bir din) adlı eserleri ise henüz yayımlanmamıştır. Çeşitli tercümeleri de bulunan Hociç, İtalyan şarkiyatçısı Laura Veccia Vaglieri’nin Apologia dell’islamismo (Roma 1925) adlı eserini Fransızca tercümesinden Boşnakça’ya çevirmiş, Muharem Omerdić’in özel kitaplığında bulunan tercümenin bir bölümü Nova Pravda dergisinde yayımlanmıştır (sy. 36, Sarajevo 1940; sy. 37, 39, Sarajevo 1941). Hociç, Türkçe-Arapça-Fransızca ve Türkçe-Fransızca iki sözlüğü de Boşnakça’ya tercüme etmiştir. Bu iki tercüme ve yukarıdaki üç eser müellifin Novi Pazar’daki kütüphanesinde bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 211 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hocic-vehbi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hocic-vehbi, https://islamansiklopedisi.org.tr/hocic-vehbi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:hocic-vehbi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=hocic-vehbi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:15Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hocic-vehbi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=hocic-vehbi)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1913,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=hocic-vehbi, URL: https://islamansiklopedisi.org.tr/hocic-vehbi || DİA birth place: Čukota || DİA death place: Pazar || DİA death-date string: (1913-1977) || DİA categories: felsefe || Chunk count: 1"
+}

@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00004198",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-HÂDIBE",
+      "ar": "ابن الخاضبة"
+    },
+    "originalScript": {
+      "ar": "ابن الخاضبة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Muhammed b. Ahmed b. Abdilbâkī ed-Dekkāk el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "430’lu (1038) yıllarda Bağdat’ta doğdu. Bağdatlı İsmâil Paşa onu Mâristânî nisbesiyle de zikretmektedir ( Hediyyetü’l-ʿârifîn , II, 77). Kızı Kerîme bint Ebû Bekir de muhaddisti. İlk hadis dersini 446’da (1054) Ebû Tâlib Ömer b. Muhammed b. Delv’den aldı. Tahsil için gittiği Bağdat, Kudüs ve Mekke başta Hatîb el-Bağdâdî ile Ebü’l-Hüseyin Ahmed b. Muhammed İbnü’n-Nakkūr olmak üzere Ebû Ca‘fer Muhammed b. Müslime, Ebû Zekeriyyâ Abdürrahîm b. Ahmed el-Buhârî gibi âlimlerden ders aldı. Kur’an, hadis, fıkıh, siyer ve edebiyat tahsil etti; özellikle hadisle meşgul oldu. İmam ve hâfız diye anılmakla beraber orta derecede bir muhaddis olduğu, hadis öğrenme ve öğretmede daha çok yazıya güvendiği belirtilmektedir. İbn Nâsır es-Selâmî onun zabt bakımından kuvvetli olmadığını, hadis rivayetinde gereken ciddiyeti göstermediğini ileri sürmekte, İbn Hacer ise İbnü’l-Hâdıbe gibi bir hadis hâfızı hakkındaki böyle bir iddiayı Zehebî’nin nakletmesini doğru bulmamaktadır ( Lisânü’l-Mîzân , V, 57). Genç sayılabilecek yaşta ölmesi sebebiyle fazla hadis rivayet edemediği, kendisinden Ebû Ali es-Sadefî, İbnü’l-Kayserânî ve İbnü’l-Battî diye anılan Ebü’l-Feth Muhammed b. Abdülbâkī gibi âlimlerin faydalandığı bilinmekte, kaynaklarda el-Emâlî adlı bir eseriyle bazı hadis cüzlerinden bahsedilmektedir. Hadis metinlerini hatasız okuyan, mütevazi, takvâ sahibi ve yardım sever bir kimse olarak tanınan İbnü’l-Hâdıbe 2 Rebîülevvel 489’da (29 Şubat 1096) Bağdat’ta vefat etti. 466’da (1074) Bağdat’ta meydana gelen sel baskınında onun evinin yıkıldığı, eşyalarının ve kitaplarının kaybolduğu, ailesini geçindirebilmek için kitap istinsah etmek zorunda kaldığı ve o yıl Ṣaḥîḥ-i Müslim ’i yedi defa yazdığı zikredilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 61-62 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-hadibe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-hadibe, https://islamansiklopedisi.org.tr/ibnul-hadibe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:25Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:25Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-hadibe (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "death_temporal": {
+    "start_ah": 489,
+    "start_ce": 1096,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-hadibe, URL: https://islamansiklopedisi.org.tr/ibnul-hadibe || DİA birth place: Bağdat || DİA death place: 466 || DİA death-date string: (ö. 489/1096) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003313",
+    "iac:person-00003938"
+  ]
+}

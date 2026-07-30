@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00007737",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Yümnî",
+      "ar": "يمنى"
+    },
+    "originalScript": {
+      "ar": "يمنى"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Aslen Tosyalı olup esas adı Mehmed Sâlih’tir. Babası uzun yıllar Kazasker Azmîzâde’nin hizmetinde bulunduğundan Azmîzâde Mustafası olarak anılır. Annesi Babazâde Sinânî diye şöhret bulmuş Sinâneddin Yûsuf Efendi’nin kızıdır. Her iki taraftan da âlim ve edip bir aileden gelen Yümnî Efendi’nin tek erkek kardeşi Sultan II. Mustafa devri şairlerinden Rıfkî Mehmed Efendi’dir. İlk eğitimini ailesinin yanında aldı. Babasının görevi dolayısıyla uzun süre kaldıkları Rumeli’de Hezargrad kasabasında yetişti. İstanbul’a geldikten sonra tahsilini tamamlayıp Şeyhülislâm Bahâî Mehmed Efendi’den (ö. 1064/1654) mülâzemet aldı ve kadılığa başladı. Rumeli’de Eski Zağra’ya bağlı Kili’de muvakkit iken vefat etti. Müstakimzâde Süleyman Sâdeddin Efendi şairlik yönü pek bilinmeyen Yümnî’nin şiirlerinin bulunduğunu kaydeder. Nitekim, “Mahabbet tahrîrîdir bunda hîç dürr ü güher yoktur / Çalışma yok yere ey dil sana ondan çıkar yoktur” beyti ona aittir (Şeyhî Mehmed Efendi, I, vr. 373 b ). Yümnî’nin bilinen tek eseri Tezkiretü’ş-şuarâ ’dır. Şeyhî Mehmed Efendi eserin Yümnî’nin kendi hattıyla yazılmış müsveddesini gördüğünü bildirmektedir. Müellifin tamamlamaya ömrü yetmediği tezkirenin müsveddeleri Ali Emîrî tarafından bulunmuş ve 1905’te istinsah edilerek Millet Kütüphanesi’ne konulmuştur (Ali Emîrî Efendi, Tarih, nr. 781). Bundan çoğaltılan nüshalar Millet (Ali Emîrî Efendi, Tarih, nr. 780) ve İstanbul Üniversitesi (TY, nr. 3948) kütüphanelerinde kayıtlıdır. Kafzâde Fâizî’nin (ö. 1031/1622) Zübdetü’l-eş‘âr ’ı tarzında ve onun devamı mahiyetinde olan Tezkire-i Şuarâ-yı Yümnî , Fâizî’den sonra vefat eden yirmi dokuz şairin hal tercümesini ve şiirlerinden örnekleri içerir. Bunlardan on üçü Safâyî’de, beşi Şeyhî’de, on üçü de İsmâil Belîğ’in Nuhbetü’l-âsâr ’ında yer almaktadır. Şair sayısı ve ihtiva ettiği bilgiler bakımından geniş olmayan tezkire yine de XVII. yüzyıl Türk edebiyatı tarihi için bir başvuru kaynağıdır. Eser Sadık Erdem tarafından neşredilmiştir (“Mehmed Sâlih Yümnî, Tezkire-i Şuarâ-i Yümnî”, Türk Dünyası Araştırmaları , sy. 55 [İstanbul 1988], s. 85-112). Bu madde TDV İslâm Ansiklopedisi’nin 2013 yılında İstanbul’da basılan 44. cildinde, 52 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:yumni",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=yumni, https://islamansiklopedisi.org.tr/yumni",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:yumni",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/yumni",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:08Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:08Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=yumni (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:26Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1073,
+    "start_ce": 1663,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=yumni, URL: https://islamansiklopedisi.org.tr/yumni || DİA birth place: İstanbul || DİA death place: Kili || DİA death-date string: (ö. 1073/1663) || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00000243",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Nadim",
+      "tr": "İbnü'n-Nedîm",
+      "ar": "ابن النديم"
+    },
+    "originalScript": {
+      "ar": "ابن النديم"
+    },
+    "altLabel": {
+      "en": [
+        "Abu al-Faraj Muhammad ibn Ishaq al-Nadim"
+      ],
+      "tr": [
+        "Ebü'l-Ferec Muhammed b. İshâk en-Nedîm"
+      ],
+      "ar": [
+        "أبو الفرج محمد بن إسحاق النديم"
+      ]
+    },
+    "description": {
+      "tr": "Ortaçağ dünyasının en büyük bibliyografik kataloğu el-Fihrist'in yazarı || el-Fihrist binlerce kayıp eser için birincil kaynağımızdır. || [Tarih notu] Tek yazma geleneğinde günümüze ulaşmıştır.",
+      "en": "Author of al-Fihrist, the greatest bibliographic catalogue of the medieval world || Al-Fihrist is our primary source for thousands of lost works. It catalogs 6,000+ titles across 10 chapters. || [Historiographical note] Survives in a single manuscript tradition.",
+      "ar": "مؤلف الفهرست أعظم فهرس ببليوغرافي || الفهرست مصدرنا الأساسي لآلاف المؤلفات المفقودة"
+    }
+  },
+  "profession": [
+    "historian",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0060",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0060",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:56:09Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:56:09Z",
+    "modified": "2026-05-04T14:56:09Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:56:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0060 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 932,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 998,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q1384613",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ibn al-Nadim')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0060, lecture_week=n/a. || Key works: {'title': {'en': 'al-Fihrist (The Index)', 'tr': 'el-Fihrist', 'ar': 'الفهرست'}, 'year': 987, 'field': 'bibliography', 'significance': {'en': 'Most comprehensive catalogue of Arabic books; 6,000+ titles across all fields', 'tr': 'En kapsamlı Arapça kitap kataloğu; tüm alanlarda 6.000+ başlık'}} || Modern parallel: Like Google Scholar, WorldCat, and Wikipedia combined — written by one bookseller.",
+  "authored_works": [
+    "iac:work-00000085"
+  ]
+}

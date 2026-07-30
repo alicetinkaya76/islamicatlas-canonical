@@ -1,0 +1,64 @@
+{
+  "@id": "iac:person-00000558",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdullah Bosnevî"
+    },
+    "altLabel": {
+      "tr": [
+        "Fuṣûṣü’l-ḥikem şerhiyle tanınan âlim ve mutasavvıf."
+      ]
+    },
+    "description": {
+      "tr": "992 (1584) yılında doğdu. Tahsiline doğum yeri olan Bosna’da başladı, İstanbul’da devam etti. Devrinin ilim ve kültür merkezlerinden biri olan Bursa’ya giderek orada Hasan Kabâdûz’a intisap etti. İkinci dönem Melâmîler’i olarak bilinen Bayramî Melâmîleri’nin önde gelen temsilcilerinden biri olan Abdullah Bosnevî, Şeyh Abdülmecid Halvetî’den de istifade etti. Daha sonra Mısır’a, oradan da hacca gitti. İlmî ve tasavvufî konulara hâkimiyeti sayesinde bir taraftan tasavvufî düşüncenin, öte yandan Melâmîliğin bu bölgelerde tanınıp yayılmasında etkili oldu. Hac dönüşü bir müddet Şam’da kalarak burada Muhyiddin İbnü’l-Arabî’nin kabri yanında münzevi bir hayat sürdü. Daha sonra Konya’ya geldi. Konya’da vefat etti ve Sadreddin Konevî’nin yanına defnedildi. Abdullah Bosnevî’nin tasavvufî düşünce açısından en önemli özelliği, Fuṣûṣü’l-ḥikem ’i tercüme ve şerhetmiş olmasıdır. Nitekim bu eser, kendisinin İslâm ülkelerinde Şârihu’l-Fusûs lakabıyla tanınmasına sebep olmuştur. Kâtib Çelebi başta olmak üzere birçok âlim, Fuṣûṣ şerhinden övgüyle bahseder. Tecelliyâtü arâisi’n-nusûs fî manassâti hikemi’l-Fusûs adını taşıyan bu şerh, vahdet-i vücûd düşüncesinin temel ıstılahlarını ele alarak on iki bab halinde inceler. Konuların en önemlileri şunlardır: Hatm-i velâyet, gayb-ı mutlak, a‘yân-ı sâbite, hazarât-ı hams, nübüvvet, velâyet, ilm-i zâhir, ilm-i bâtın, mahabbet, hakîkat-i Muhammediyye, mürşid-i kâmil. Abdullah Bosnevî, Kur’ân-ı Kerîm’de geçen peygamberlerle ilgili haberlerin kendi dilleriyle değil de Arapça bildirilmiş olmasını, herkesin içinde bulunduğu toplumun dilini konuşması gerektiğine bir işaret olarak değerlendirir ve Fuṣûṣ ’u bunun için Türkçe şerhettiğini söyler. Kitabın sonundaki açıklamada, tasavvufî merhalelerden geçmeyen zâviye şeyhleri ve kürsü vâizlerinin bu eseri okumamaları gerektiğini hatırlatır. Tecelliyâtü arâisi’n-nusûs Bulak (1252) ve İstanbul’da (1290) olmak üzere iki defa basılmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 87 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-bosnevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-bosnevi, https://islamansiklopedisi.org.tr/abdullah-bosnevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-05-04T15:32:39Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-bosnevi (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 992,
+    "start_ce": 1584,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1054,
+    "start_ce": 1644,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-bosnevi, URL: https://islamansiklopedisi.org.tr/abdullah-bosnevi || DİA death place: Konya || DİA death-date string: (ö. 1054/1644) || DİA categories: tasavvuf || Chunk count: 1"
+}

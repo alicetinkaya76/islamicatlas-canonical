@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00006229",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "OSMAN BEY, Hamâmîzâde"
+    },
+    "description": {
+      "tr": "Hakkında kaynaklarda yeterli bilgiye rastlanmamaktadır. Üsküdarlı nisbesiyle Hacı Osman Bey diye de anılır. Mevcut bilgilere göre Kādirî tarikatına intisap etti ve Osman Şems Efendi’nin müridi oldu. Dönemin mûsiki üstadı Hacı Fâik Bey’den ders alarak mûsiki bilgisini geliştirdi. Aynı zamanda sesinin güzelliğiyle de bilinen Osman Bey, Üsküdar’da Ahmediye Camii ile İnadiye semti arasında bulunan Gündoğumu caddesinin Pırnal sokakla birleştiği köşede yer alan ve bugün de işletilmekte olan Ağa Hamamı’nın sahiplerinden olup hamamı çalıştırdığı için Hamâmîzâde diye şöhret bulmuştur (Haskan, II, 960). Veliaht Mehmed Reşad’a (V. Mehmed) mensubiyeti dolayısıyla Halep’e sürüldü. Orada 1890’larda vefat ederek aynı şehirde defnedildi. Osman Bey çok sayıda ilâhinin yanı sıra şarkılar da bestelemiştir. İlâhi güftelerinin çoğu şeyhi Osman Şems Efendi’ye aittir. Yılmaz Öztuna onun iki şarkı (yegâh ve nihâvend makamlarında) ve altı adet ilâhisinin (ikisi hüseynî, bayatî, bestenigâr, hicaz ve rast makamlarında) listesini vermektedir ( BTMA , II, 167). Güftesi I. Ahmed’e (Bahtî) ait düyek usulündeki, “Dilhânesi pür nûr olur envâr-ı zikrullāh ile” mısraıyla başlayan hicaz ilâhisi meşhurdur. Pek çok talebe yetiştiren Osman Bey’in tanınmış talebelerinden biri Yusuf Dağseven’dir (ö. 1945). Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 33. cildinde, 461 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:osman-bey-hamamizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=osman-bey-hamamizade, https://islamansiklopedisi.org.tr/osman-bey-hamamizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:49Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=osman-bey-hamamizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1890,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=osman-bey-hamamizade, URL: https://islamansiklopedisi.org.tr/osman-bey-hamamizade || DİA death-date string: (ö. 1890 [?]) || DİA categories: tarikat || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002980"
+  ],
+  "students": [
+    "iac:person-00001905"
+  ]
+}

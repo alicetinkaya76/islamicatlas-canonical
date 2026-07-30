@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00004824",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KAZVÎNÎ, Mîr Yahyâ",
+      "ar": "مير يحيى قزوينى"
+    },
+    "originalScript": {
+      "ar": "مير يحيى قزوينى"
+    },
+    "altLabel": {
+      "tr": [
+        "Mîr Yahyâ b. Abdillatîf Hüseynî el-Kazvînî"
+      ]
+    },
+    "description": {
+      "tr": "885 (1481) yılında Kazvin’de doğdu. Kazvinli bir seyyid ailesine mensuptur. Eserlerinden iyi bir öğrenim gördüğü anlaşılan Kazvînî daha çok tarihçi olarak şöhret kazandı. Himayesine girdiği Safevî Hükümdarı Şah I. Tahmasb kendisine Yahyâ-yı Ma‘sûm unvanını verdi. Fakat onu çekemeyenler Sünnî olduğunu söyleyerek şaha şikâyet ettiler. O sırada Azerbaycan sınırında bulunan Tahmasb, Kazvînî ve ailesinin yakalanıp İsfahan’da hapsedilmesini emretti (960/1553). Azerbaycan’da bunu duyan oğlu Alâüddevle babasına kaçması için haber gönderdi; ancak kaçamayacak kadar yaşlı olan Kazvînî İsfahan’a götürüldü ve orada vefat etti. Kazvînî’nin Lübbü’t-tevârîḫ adlı eseri dört bölümden meydana gelir. Birinci bölüm Hz. Peygamber ve on iki imama, ikinci bölüm İslâm öncesi İran şahlarına, üçüncü bölüm İslâm dönemi hükümdarlarına, dördüncü bölüm de Safevîler devrine ayrılmıştır. İkinci bölüm Pîşdâdîler, Keyânîler, beylikler (mülûkü’t-tavâif) ve Sâsânîler; üçüncü bölüm Hulefâ-yi Râşidîn, Emevîler, Abbâsîler, Tâhirîler, Saffârîler, Sâmânîler, Gazneliler, Gūrîler, Büveyhîler, Selçuklular, Hârizmşahlar, Atabegler, Batı ve İran İsmâilîleri, Karahıtaylar, Cengiz’den Ebû Said Mirza Bahadır Han’a kadar Moğollar, Moğollar ve Timurlular dönemi arasındaki beylikler, Timurlular, Akkoyunlular ve Karakoyunlular, Mâverâünnehir ve Horasan Özbekleri; dördüncü bölüm müellifin dönemine kadarki Safevî tarihini içerir. Müellif kitabının sonunda, Safevî dönemini anlatan daha ayrıntılı bir eser yazmayı düşündüğünü kaydetmekteyse de bunun yazılıp yazılmadığı belli değildir. Çok sayıda yazma nüshası bulunan Lübbü’t-tevârîḫ ’in önce bazı parçaları yayımlanmış (Storey, I/1, s. 111-113), ( Asiatische Museum , Petersburg 1846, s. 670-676; Mélanges asiatiques , Petersburg 1852, I, 3-4), tamamı Seyyid Celâleddîn-i Tahrânî tarafından neşredildikten sonra (Tahran 1314 hş./1935) yeni bir basımı da yapılmıştır (Tahran 1363 hş./1984). Eseri 1621 yılında Pietro Della Valle İtalyanca’ya, 1690’da Gilberto Gaulanino ve Antonio Gollando Latince’ye çevirmiş, ikinci çeviri iki defa basılmıştır (Paris 1690; Halle 1783). Bu madde TDV İslâm Ansiklopedisi’nin 2022 yılında Ankara’da basılan 25. cildinde, 158 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kazvini-mir-yahya",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kazvini-mir-yahya, https://islamansiklopedisi.org.tr/kazvini-mir-yahya",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:kazvini-mir-yahya",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/kazvini-mir-yahya",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:32Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kazvini-mir-yahya (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kazvînî"
+  ],
+  "birth_temporal": {
+    "start_ah": 885,
+    "start_ce": 1481,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 962,
+    "start_ce": 1555,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kazvini-mir-yahya, URL: https://islamansiklopedisi.org.tr/kazvini-mir-yahya || DİA birth place: Kazvin || DİA death place: Azerbaycan || DİA death-date string: (ö. 962/1555) || Chunk count: 1",
+  "birth_place": "iac:place-00014513",
+  "death_place": "iac:place-00000371"
+}

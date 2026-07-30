@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00002719",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ferdî",
+      "ar": "فردى"
+    },
+    "originalScript": {
+      "ar": "فردى"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Asıl adı Hüseyin’dir. Arayıcızâde lakabıyla da tanınır. Safâyî Mustafa Efendi’nin, ilk zamanlarında devlet büyüklerine hizmet ettiğini kaydettiği Ferdî tahsilinden sonra çeşitli vezirlere kethüdâlık hizmetinde bulunmuştur. Daha sonra Mısır’a giderek Kahire’de mukabeleci oldu. Zamanla divan hâceleri zümresine dahil olarak sipah kâtibi ve maliye tezkireciliği yaptı. Nitekim tezkire sahibi Safâyî, Ferdî’nin maliye tezkireciliğinde kendisine selef olduğunu bildirir. II. Mustafa’nın saltanatının (1695-1703) sonlarına doğru Sadrazam Râmi Mehmed Paşa’nın meclislerine katılan şair onun iltifat ve teveccühlerine nâil olmuştur. Sâlim ve Safâyî tezkirelerinde Ferdî’nin ölüm tarihi 1121 (1709) olarak kaydedilir. Şeyhî ve İsmâil Belîğ ise bunu 1120 olarak göstermişlerdir. Şuarâ tezkirelerinde Ferdî sohbet ehli, kabiliyetli ve nazik bir şair olarak değerlendirilmiştir. Kaynaklar, özellikle lugaz söylemede ve tarih düşürmede meşhur bir sanatkâr olduğunda birleşirler. Ayrıca şiirlerinde külfetsiz bir söyleyişe sahip bulunduğu ifade edilir. Onun, “Görüp ân-ı ruhun öptüm elin ol şûh-ı fettânın / Dahi yâdımdadır billâh Ferdî çıkmaz ol ânın” beyti kendisinden bahseden kaynaklarda daima anılagelmiştir. Akranları arasında nazik tabiatlı bir şair olarak tanınan Ferdî dostları yanında da itibar sahibi idi. Ferdî’nin Şâpurnâme adındaki mesnevisiyle “Esmâü’l-bilâd” adlı kasidesi meşhur olmuştur. Sâlim Tezkiresi ’nde onun mesnevi tarzında kaleme alınmış başka eserlerinin de bulunduğu haber verilir. Hikâye-i Erdeşîr ve Şâpur adıyla da tanınan Şâpurnâme 1000 beyit civarında olup divan edebiyatının tek kahramanlı aşk hikâyeleri arasında yer almaktadır. Bu eserin İstanbul kütüphanelerinde çeşitli nüshaları mevcuttur (TSMK, Revan Köşkü, nr. 1980, vr. 1 b -39 a ; İÜ Ktp., TY, nr. 3286; Millet Ktp., Ali Emîrî, Manzum, nr. 774). Adı bazı yerlerde “Esmâü’l-büldân” olarak da geçen “Esmâü’l-bilâd”da (Süleymaniye Ktp., Hamidiye, nr. 1047) çeşitli beldeler birtakım özellikleriyle ve kısaca söz konusu edilir. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 369-370 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ferdi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ferdi, https://islamansiklopedisi.org.tr/ferdi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ferdi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ferdi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ferdi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1121,
+    "start_ce": 1709,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ferdi, URL: https://islamansiklopedisi.org.tr/ferdi || DİA birth place: İstanbul || DİA death-date string: (ö. 1121/1709) || DİA categories: şiir || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

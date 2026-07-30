@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00000794",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahmed Hâlid Efendi"
+    },
+    "description": {
+      "tr": "Ahmed Hâlid Efendi, Kazasker Yûsuf Efendi’nin oğlu ve Sultan II. Abdülhamid devri şeyhülislâmlarından Cemâleddin Efendi’nin babasıdır. İlmiye mesleğine müderrislikle girdi. Mayıs 1853’te Diyarbekir mollası, daha sonra mahreç pâyesini alarak Şubat 1861’de Şam mollası oldu. Ardından Mekke-i Mükerreme pâyesini elde etti. Ağustos 1866’da askerî kassâm lık görevine getirildi ve ilmî rütbesi İstanbul pâyesine yükseltildi. Nisan 1876’da bilfiil İstanbul kadısı oldu. Bundan sonra Anadolu kazaskerliği pâyesini kazanarak Emvâl-i Eytâm Dairesi reisliğine tayin edildi. Temmuz 1878’de Tedkīkāt-ı Şer‘iyye ve İntihâb-ı Hükkâm meclisleri reisi oldu. 13 Şevval 1299’da (28 Ağustos 1882) İstanbul’da vefat etti. Fatih’te babasının yanına defnedildi. Ahmed Hâlid Efendi’nin Mecelle ’nin altı, yedi ve sekizinci kitaplarında “kassâm-ı askerî”, dokuz-on dördüncü kitaplarında “Tedkīkāt-ı Şer‘iyye Meclisi âzası”, on beş ve on altıncı kitaplarında da “Dârülhilâfe kadısı” unvanıyla mührü vardır. Bize kadar intikal etmiş müstakil eserleri bulunmamakla beraber âlim, aynı zamanda müdebbir ve vakur bir zat olduğu kaynaklarda belirtilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 71-72 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-halid-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-halid-efendi, https://islamansiklopedisi.org.tr/ahmed-halid-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-halid-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-halid-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:54Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-halid-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1882,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ahmed-halid-efendi, URL: https://islamansiklopedisi.org.tr/ahmed-halid-efendi || DİA death place: Fatih || DİA death-date string: (ö. 1882) || Chunk count: 1"
+}

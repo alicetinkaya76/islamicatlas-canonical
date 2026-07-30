@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00004036",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Sivâr",
+      "ar": "ابن سوار"
+    },
+    "originalScript": {
+      "ar": "ابن سوار"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Tâhir Ahmed b. Alî b. Ubeydillâh"
+      ]
+    },
+    "description": {
+      "tr": "412’de (1021) Bağdat’ta doğdu. Bazı kaynaklarda künyesinin İbn Sevvâr şeklinde harekelenmesi bir zühul eseri olmalıdır (İbn Hacer, II, 699). Ebû Tâhir, Utbe b. Abdülmelik el-Osmânî, Ebû Ali eş-Şermekānî, Hasan b. Ali el-Attâr ve Ali b. Muhammed el-Hayyât gibi kıraat âlimlerinden ders aldı. Muhammed b. Abdülvâhid b. Rizme, Ebü’l-Kāsım et-Tenûhî, İbn Gaylân gibi muhaddislerden hadis dinledi; itibarlı bir kıraat ve hadis âlimi olarak Irak’ın şeyhülkurrâsı oldu. Kendisinden Ebû Ali İbn Sükkere, Muhammed b. Hadır el-Muhavvelî, Ebü’l-Kerem Mübârek b. Hasan eş-Şehrezûrî ve Ebû Muhammed Sıbtu’l-Hayyât kıraat ilmi tahsil ederken Ebû Tâhir es-Silefî, İbn Nâsır es-Selâmî, Ahmed b. Mukarreb ve iki oğlu Ebü’l-Fevâris Hibetullah ve Ebü’l-Fütûh Muhammed ile torunu Ebû Tâhir Hasan b. Hibetullah hadis alanında faydalanmıştır. Ayrıca Ebû Tâhir es-Silefî ondan el-Müstenîr adlı eserini dinlemiştir. İbn Sivâr 4 Şâban 496’da (13 Mayıs 1103) Bağdat’ta vefat etti ve Ma‘rûf-i Kerhî’nin kabrinin yanına defnedildi. İbn Sükkere, İbn Sivâr’ın kendini kıraat ve hadis okutmaya hasrettiğini söylerken sika bir Hanefî âlimi olduğunu belirtmiş, İbn Nâsır es-Selâmî de onun hakkında sika, mütkın ve sebt terimlerini kullanmıştır. Ebû Sa‘d es-Sem‘ânî, İbn Sivâr’ın sika oluşuna işaret ettikten sonra pek çok kişinin ondan Kur’an’ı hatmettiğini ve kendi hattıyla çok sayıda hadis yazdığını zikretmiştir. İbn Sivâr’ın meşhur on imamın kıraatini içine alan el-Müstenîr fi’l-ḳırâʾâti’l-ʿaşr adlı eseri İbnü’l-Cezerî’nin en-Neşr ’inin kaynakları arasında yer almakta olup Millet (Feyzullah Efendi, nr. 9, 132 varak) ve Nuruosmaniye (nr. 91, 268 varak; nr. 92, vr. 180-259; nr. 95, vr. 16-146) kütüphanelerinde nüshaları bulunmaktadır (diğer nüshaları için bk. Brockelmann, I, 722). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 359 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-sivar",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-sivar, https://islamansiklopedisi.org.tr/ibn-sivar",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:816",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=816, heading_ar=ابن سوار",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:23Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:23Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-sivar (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[816]. Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=816 (heading_ar=ابن سوار) via Track A (DİA→Alam xref bridge). dt=Kıraat âlimi, Bağdat Hanefîlerinden, yaşlılığının son döneminde görüşünü kaybett"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 496,
+    "start_ce": 1103,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-sivar, URL: https://islamansiklopedisi.org.tr/ibn-sivar || El-Aʿlām (Ziriklī) cross-reference: alam_id=[816] || DİA birth place: Bağdat || DİA death place: Bağdat || DİA death-date string: (ö. 496/1103) || DİA categories: hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=816, heading_ar=ابن سوار, dt=Kıraat âlimi, Bağdat Hanefîlerinden, yaşlılığının son döneminde görüşünü kaybetti",
+  "students": [
+    "iac:person-00007028"
+  ]
+}

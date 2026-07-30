@@ -1,0 +1,105 @@
+{
+  "@id": "iac:person-00000195",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Banu Musa",
+      "tr": "Benû Mûsâ",
+      "ar": "بنو موسى"
+    },
+    "originalScript": {
+      "ar": "بنو موسى"
+    },
+    "altLabel": {
+      "en": [
+        "Muhammad, Ahmad, and al-Hasan ibn Musa ibn Shakir"
+      ],
+      "tr": [
+        "Muhammed, Ahmed ve Hasan b. Mûsâ b. Şâkir"
+      ],
+      "ar": [
+        "محمد وأحمد والحسن بنو موسى بن شاكر"
+      ]
+    },
+    "description": {
+      "tr": "Beytü'l-Hikme'de tek aileli bir Ar-Ge laboratuvarı işleten üç kardeş — dünyanın ilk otomatik flütü dahil 100+ icat (Avrupa müzik kutularından 700 yıl önce programlanabilir müzik otomatı) || Benû Mûsâ kardeşler aynı anda mucit, matematikçi ve çeviri hamileriydi. Huneyn b. İshak'ın çeviri programını aylık 500 dinar harcayarak bizzat finanse ettiler — 9. yüzyıl biliminin girişim sermayecileri. || [Tarih notu] Hill'in 1979 çevirisinde Benû Mûsâ'nın mekanik sofistikasyonunun İskenderiyeli Heron'u aştığı gösterildi.",
+      "en": "Three brothers who ran a one-family R&D lab at the House of Wisdom — 100+ inventions including the world's first automatic flute (a programmable musical automaton, 700 years before European music boxes) || The Banu Musa brothers were simultaneously inventors, mathematicians, and translation patrons. They personally funded Hunayn ibn Ishaq's translation program, spending 500 dinars per month — making them the venture capitalists of 9th-century science. Their Kitab al-Hiyal contains the earliest known examples of automatic control systems. || [Historiographical note] Hill's 1979 translation of Kitab al-Hiyal demonstrated that the mechanical sophistication of the Banu Musa surpassed that of Hero of Alexandria. Their role as translation patrons was documented by Gutas (1998).",
+      "ar": "ثلاثة إخوة أداروا مختبرًا عائليًا في بيت الحكمة — أكثر من ١٠٠ اختراع || بنو موسى كانوا مخترعين ورياضيين ورعاة ترجمة في آن واحد. موّلوا برنامج حنين بن إسحاق بخمسمائة دينار شهريًا — رأسماليو مغامرون لعلم القرن التاسع"
+    }
+  },
+  "profession": [
+    "scholar",
+    "mathematician",
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0012",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0012, lecture_id=banu-musa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:367",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=367",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0012 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 803,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 873,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q37727438",
+      "confidence": 0.75,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Medium-confidence match for 'Banu Musa'; score=0.75 (review threshold 0.70). Manual review recommended."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0012, lecture_week=16. || Key works: {'title': {'en': 'Kitāb al-Ḥiyal (Book of Ingenious Devices)', 'tr': \"Kitâbü'l-Hiyel\", 'ar': 'كتاب الحيل'}, 'year': 850, 'field': 'engineering', 'significance': {'en': '100+ mechanical devices including automatic controls, valves, and a programmable musical automaton', 'tr': 'Otomatik kontroller, valflar ve programlanabilir müzik otomatı dahil 100+ mekanik cihaz'}}; {'title': {'en': 'Kitāb Maʿrifat Masāḥat al-Ashkāl (On the Measurement of Figures)', 'tr': 'Şekillerin Ölçülmesi Hakkında', 'ar': ' || Modern parallel: Imagine three brothers running a Silicon Valley startup, a philanthropic foundation, and a Princeton research lab — all at once, in the 9th century.",
+  "authored_works": [
+    "iac:work-00000023",
+    "iac:work-00000024"
+  ]
+}

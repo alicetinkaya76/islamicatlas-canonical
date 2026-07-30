@@ -1,0 +1,99 @@
+{
+  "@id": "iac:person-00000377",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABBÂDÎ, İbn Kāsım",
+      "ar": "ابن قاسم العبّادي"
+    },
+    "originalScript": {
+      "ar": "ابن قاسم العبّادي"
+    },
+    "altLabel": {
+      "tr": [
+        "Şihâbüddîn Ahmed b. Kāsım es-Sabbâğ el-Abbâdî el-Mısrî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında fazla bilgi yoktur. Mısır’da yetişti. Nâsırüddin Muhammed el-Lekānî, Şehâbeddin Ahmed Amîre el-Burullusî ve Kutbüddin Îsâ es-Safevî gibi devrin önde gelen âlimlerinden ilim tahsil etti. Başta Muhammed b. Dâvûd el-Makdisî olmak üzere birçok öğrenci yetiştirdi. 1586 yılında hac dönüşü Medine’de (bazı kaynaklara göre Mekke’de) vefat etti. Eserleri. Çağdaşları arasında, müstakil metinler telif etmekten ziyade devrinin geleneğine uygun olarak önemli eserler üzerine şerh ve hâşiyeler yazmakla tanınan Abbâdî’nin eserlerinin başlıcaları şunlardır: 1. el-Âyâtü’l-beyyinât . Tâceddin es-Sübkî’nin fıkıh usulüne dair Cemʿu’l-cevâmiʿ adlı eserine Celâleddin el-Mahallî’nin yaptığı şerhin hâşiyesidir. Kenarında Mahallî’nin şerhiyle birlikte dört cilt halinde basılmıştır (Bulak 1289). 2. Ḥâşiye ʿalâ Şerḥi’l-Varaḳāt . Cüveynî’nin fıkıh usulüne dair el-Varaḳāt adlı eserinin Celâleddin el-Mahallî tarafından yapılan şerhinin hâşiyesidir. Şehâbeddin el-Karâfî’nin Şerḥu Tenḳīḥi’l-fuṣûl fi’ḫtiṣâri’l-Maḥṣûl adlı eserinin kenarında neşredildi (Kahire 1307). 3. Ḥâşiye ʿalâ Şerḥi’l-Muḥtâc . Nevevî’nin Şâfiî fıkhına dair el-Minhâc adlı eserine İbn Hacer el-Heytemî tarafından Tuḥfetü’l-Muḥtâc adıyla yapılan şerhin hâşiyesi olup aynı şerhe Abdülhamîd eş-Şirvânî’nin yazdığı hâşiye ile birlikte basılmıştır (I-IV, Kahire 1282; I-VIII, Kahire 1305). 4. Ḥâşiyetü’l-Ġureri’l-behiyye . Zekeriyyâ el-Ensârî’nin, İbnü’l-Verdî’ye ait el-Behcetü’l-Verdiyye (Kazvînî’nin el-Ḥâvi’ṣ-ṣaġīr adlı Şâfiî fıkhına dair eserinin 5000 beyitlik manzum şekli) adlı eserine yaptığı şerhin hâşiyesidir. Abdurrahman eş-Şirbînî’nin aynı şerhe yazdığı hâşiye ile birlikte basılmıştır (I-V, Kahire 1315). Abbâdî’nin bu basılı eserlerinden başka, Ebû Şücâ‘ın Ġāyetü’l-iḫtiṣâr adlı fıkıh kitabına Fetḥu’l-Ġaffâr adıyla yazdığı bir şerhi ve Kâfiye , Elfiyye , Telḫîṣ , ʿİzzî ve Ḳaṭrü’n-nedâ gibi Arapça gramer kitaplarına şerh ve hâşiyeleri vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 15 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbadi-ibn-kasim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbadi-ibn-kasim, https://islamansiklopedisi.org.tr/abbadi-ibn-kasim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:abbadi-ibn-kasim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=abbadi-ibn-kasim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbadi-ibn-kasim (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:10:20Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=abbadi-ibn-kasim)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Abbâdî; Mısrî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 994,
+    "start_ce": 1586,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbadi-ibn-kasim, URL: https://islamansiklopedisi.org.tr/abbadi-ibn-kasim || DİA death place: Mekke || DİA death-date string: (ö. 994/1586) || DİA categories: fıkıh > şiir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00006395"
+  ],
+  "students": [
+    "iac:person-00005103",
+    "iac:person-00006874",
+    "iac:person-00007228",
+    "iac:person-00007448"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00013376",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "ʿAbd Allāh b. al-Ḥusayn",
+      "tr": "Abdullah b. Hüseyin",
+      "ar": "عبد الله بن الحسين"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن الحسين"
+    },
+    "description": {
+      "tr": "Şark-ı Ürdün emîri, sonra Ürdün Haşimi Krallığı'nın meliki",
+      "en": "Emir of East Jordan, then King of the Hashemite Kingdom of Jordan"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd Allāh b. al-Ḥusayn b. ʿAlī b. Muḥammad al-Ḥasanī al-Hāshimī, min Āl ʿAwn"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdullah b. Hüseyin b. Ali b. Muhammed el-Haseni el-Hâşimi, Âl-i Aun'dan"
+      ],
+      "ar": [
+        "عبد الله بن الحسين بن علي بن محمد الحسني الهاشمي، من آل عون"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:5886",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5886",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-b-huseyin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-b-huseyin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:18Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:18Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=5886 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:5886."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1370,
+    "start_ce": 1951,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5886, heading_ar=عبد الله بن الحسين || Ziriklī century_ce=20 || Ziriklī place coords (city/region of activity): 21.39, 39.86",
+  "authored_works": [
+    "iac:work-00003615"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00002415",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Edîb Sâbir",
+      "ar": "أديب صابر"
+    },
+    "originalScript": {
+      "ar": "أديب صابر"
+    },
+    "altLabel": {
+      "tr": [
+        "Şihâbüddîn b. İsmâîl Tirmizî"
+      ]
+    },
+    "description": {
+      "tr": "Horasan’ın Tirmiz şehrinde doğdu. İlk şiirlerini burada yazdı. Hayatının büyük bir bölümünü Nîşâbur’da geçirdi. Şiirlerinde Edîb ve Sâbir mahlaslarını kullandı. Horasan Valisi Mecdüddin Ebü’l-Kāsım Ali b. Ca‘fer tarafından Selçuklu Sultanı Sencer’in huzuruna çıkarıldı; bu olaydan sonra sarayda önemli mevkilere yükseldi. Sencer’i öven kasideler yazdı. Hârizmşah Atsız’la aralarındaki ihtilâfları çözümlemek için Sencer tarafından Hârizm’e elçi olarak gönderildi. Hârizm’de bulunduğu yıllarda Atsız için de kasideler yazdı. Atsız’ın Sencer’i öldürtmek için iki kişiyi görevlendirdiğini yaşlı bir kadın vasıtasıyla Sencer’e bildirdi. Sencer de suikastçıları yakalatarak öldürttü. Ancak Edîb Sâbir, olaydaki rolünü öğrenen Atsız tarafından Ceyhun ırmağında boğdurularak öldürüldü. Zebîhullah Safâ, olayın 538 (1143-44) ile 542 (1147-48) yılları arasındaki bir tarihte meydana gelmiş olabileceğini ileri sürer ( Edebiyyât , II, 644). Tezkire müellifleri Devletşah ( Teẕkire , s. 57) ile Rızâ Kulı Han Hidâyet ise ( Mecmaʿu’l-fuṣaḥâʾ , II, 821-822) Edîb’in ölüm tarihi olarak 546 (1151-52) yılını verirler. Çağdaşlarından Reşîdüddin Vatvât, Hâkānî-yi Şirvânî, Nizâmî-i Arûzî, Senâî ve Evhadüddîn-i Enverî ile dostça münasebetler kuran Edîb Sâbir, İran edebiyatının büyük şairlerinden biri sayılır. Nitekim ünlü kaside şairi Enverî bile bir şiirinde onu kendisinden daha üstün kabul etmiştir. Üslûbu daha çok Gazneli Mahmud’un saray şairlerinden Unsurî ve Ferruhî-yi Sîstânî’yi andırır. Maddî aşk, şarap, zevk ve eğlence gibi temaların yanında âhiret, dünyanın vefasızlığı ve insanın âcizliği gibi konulara da yer veren Edîb Sâbir’in özellikle aşk ve şarap konulu şiirlerinde İslâmî kurallara pek aldırış etmediği görülür. Şiirlerinde hâkim olan, insanın olayların elinde âciz kaldığı fikri, onun Cebriyye’nin tesirinde kaldığını düşündürmektedir. Arapça’yı şiir yazacak derecede iyi bilen ve bazı meşhur Arap şairlerinin şiirlerini manzum olarak Farsça’ya tercüme eden Edîb Sâbir’in 6000 beyit tutarındaki Dîvân ’ı Ali Kavim (Tahran 1334 hş./1955) ve Muhammed Ali Nesih (Tahran 1343 hş./1964) tarafından yayımlanmıştır. Ancak bunlar ilmî birer neşir değildir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 425 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:edib-sabir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=edib-sabir, https://islamansiklopedisi.org.tr/edib-sabir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:59Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:59Z",
+    "modified": "2026-05-04T15:33:59Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:59Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=edib-sabir (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 546,
+    "start_ce": 1151,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=edib-sabir, URL: https://islamansiklopedisi.org.tr/edib-sabir || DİA birth place: Tirmiz || DİA death-date string: (ö. 546/1151-52 [?]) || DİA categories: şiir || Chunk count: 1"
+}

@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00000931",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ b. EBÜ’r-RİCÂL",
+      "ar": "عليّ بن أبي الرجال"
+    },
+    "originalScript": {
+      "ar": "عليّ بن أبي الرجال"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Ebi'r-Ricâl el-Kâtib eş-Şeybânî el-Mağribî el-Kayrevânî"
+      ]
+    },
+    "description": {
+      "tr": "Batı ilim âleminde Abenragel ve Albohazen adlarıyla tanınır. Hayatı hakkında fazla bilgi yoktur. İspanya’nın Kurtuba şehrinde veya Kuzey Afrika’da doğduğu rivayet edilir. Tunus’ta yetişmiş, Kayrevan sarayında Zîrî Emîri Muiz b. Bâdîs’in hocası ve müneccimi olmuş, aynı zamanda devlet idaresinde de önemli görevler yapmıştır. Muizz’in sarayının önde gelen şairlerinden İbn Reşîḳ’i himayesine aldığı ve onun da el-ʿUmde fî meḥâsini’ş-şiʿr ve âdâbih adlı ünlü eserini kendisine ithaf ettiği bilinmektedir. Ali b. Ebü’r-Ricâl’in en önemli eseri, astrolojinin ana konuları üzerine düzenlenmiş sekiz kitaptan oluşan Kitâbü’l-Bâriʿ fî aḥkâmi’n-nücûm adlı büyük ansiklopedidir. Çeşitli kütüphanelerde birçok yazması bulunan (bk. Sezgin, VII, 187) eser, 1254 yılında Castilla-León Kralı X. Alfonso için Yehuda ben Moşe tarafından eski İspanyolca’ya ve bundan da çeşitli zamanlarda Latince, İbrânîce, eski Portekizce ve diğer bazı Batı dillerine tercüme edilmiştir. Ali b. Ebü’r-Ricâl’in bundan başka Urcûze fi’l-ḳażâye’n-nücûmiyye adlı eseri ile bu eserin Ahmed el-Kunfüz el-Kostantinî tarafından yapılan şerhinin de birçok kütüphanede yazmaları bulunmaktadır (bk. Sezgin, VII, 188). Kitâbü’l-Bâriʿ de zikrettiği üç eserinden astrometeorolojiye dair Urcûze fî delîli’r-raʿd ’ın bir tek yazması mevcut olup (Rabat D 1683) Kitâbü’r-Rumûz adlı eseriyle Ḥallü’l-ʿuḳad ve beyânü’r-raṣad adlı zîci kayıptır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 387-388 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-b-ebur-rical",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-b-ebur-rical, https://islamansiklopedisi.org.tr/ali-b-ebur-rical",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-b-ebur-rical (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Şeybânî; Mağribî; Kayrevânî"
+  ],
+  "death_temporal": {
+    "start_ah": 432,
+    "start_ce": 1040,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-b-ebur-rical, URL: https://islamansiklopedisi.org.tr/ali-b-ebur-rical || DİA birth place: Afrika || DİA death-date string: (ö. 432/1040-41 [?]) || DİA categories: rivayet > astronomi || Chunk count: 1",
+  "students": [
+    "iac:person-00005786"
+  ]
+}

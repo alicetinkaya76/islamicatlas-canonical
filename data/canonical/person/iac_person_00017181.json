@@ -1,0 +1,95 @@
+{
+ "@id": "iac:person-00017181",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Tāwūdī",
+   "tr": "et-Tâvûdî",
+   "ar": "التاودي"
+  },
+  "originalScript": {
+   "ar": "التاودي"
+  },
+  "description": {
+   "tr": "Kendi devrinin Mâlikî fıkıh âlimi ve Fes'te cemaatin şeyhi",
+   "en": "The Mālikī jurist of his time and shaykh of the community in Fez"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muhammad b. al-Ṭālib b. ʿAlī, Ibn Sūda al-Tāwūdī, al-Merī al-Fāsī"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. et-Tâlib b. Alî, İbn Sûde et-Tâvûdî, el-Merî el-Fâsî"
+   ],
+   "ar": [
+    "محمد بن الطالب بن علي، ابن سودة التاودي ، المري الفاسي"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:10104",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10104",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:37:01Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:37:01Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:37:01Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=10104 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:17Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:10104."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (4040-16628-17181) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00004040 lehine yumuşak-silindi. Gerekçe: Üçü de 1209/1795'te ölen Fas'lı hadis-fıkıh âlimi et-Tâvûdî b. Sûde el-Mürrî'ye işaret ediyor (Fes koordinatları ve ölüm yılı birebir; 16628 ile 17181 zaten aynı A'lâm maddesinin iki mint'i)."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00004040"
+ },
+ "death_temporal": {
+  "start_ah": 1209,
+  "start_ce": 1795,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10104, heading_ar=التاودي || Ziriklī century_ce=18 || Ziriklī place coords (city/region of activity): 34.03, -5.0",
+ "active_in_places": [
+  "iac:place-00009014"
+ ]
+}

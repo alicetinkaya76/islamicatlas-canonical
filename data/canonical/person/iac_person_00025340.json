@@ -1,0 +1,52 @@
+{
+  "@id": "iac:person-00025340",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Satb"
+    },
+    "description": {
+      "en": "SATB, MIrZ-Y Muhammad ‘.Ai.I, whose takhullus \nwas S.a’H!, a Persian poet, born about 1012 \n(1603) near Isfahan, hence called Isfahan!, though \nalso called Tabriz!, because his father Mirza ‘.Abd \nal-",
+      "tr": "SÂİB - takma adı Sâib olan Mîrzâ Muhammed Ali, 1012 (1603 M.) civarında İsfahan yakınında doğan Fars şairi, bu nedenle İsfahânî denir, ayrıca Tebrizî de denir."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "death_temporal": {
+    "start_ce": 1677,
+    "approximation": "exact"
+  },
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "ei1:4726",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 4, p. 71",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936), digitized/structured ei1_lite v-repo; OCR-derived — noise possible"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_ei1",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-07-10T15:42:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-07-10T15:42:10Z",
+    "modified": "2026-07-10T15:42:10Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-07-10T15:42:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization by canonicalize_person_ei1 v0.1.0 (H10 Stage 4; Tier-2 kind=new, dated)."
+      }
+    ],
+    "deprecated": false
+  }
+}

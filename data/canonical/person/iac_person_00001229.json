@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00001229",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ayşî Mehmed Efendi"
+    },
+    "description": {
+      "tr": "Tireli Mustafa Efendi’nin oğlu olan Ayşî Mehmed, ilk öğrenimini memleketinde gördükten sonra muallim Atâullah Efendi’den ders aldı. Bayındır’da Hacı Sinan Medresesi’ne müderris tayin edildi. Kısa zamanda şöhrete kavuştu. 990 (1582) yılında İstanbul’a gitti; bir medresede açık bulunan müderrislik imtihanını kazanmasına rağmen görev almayarak inzivaya çekildi ve bu süre içinde telifle meşgul oldu. Yazdığı eserlere mükâfat olarak kendisine Tire’deki İbn Melek Medresesi müderrisliği verildi. Bir ara İstanbul’a gitti ve orada vefat etti. Mezarı Edirnekapı dışındaki Emîr Buhârî Zâviyesi yakınındadır. Eserleri. Aynı zamanda şair olan Ayşî Mehmed Efendi’nin Rûḥu’ş-şürûḥ fî şerḥi’l-Maḳṣûd adlı matbu (İstanbul 1260, 1275, 1282) eserinden başka, bazılarının yazmaları mevcut olan başlıca eserleri şunlardır: Tefsîrü’l-Ḳurʾân (tamamlanmamış); el-Münaḳḳaḥâtü’l-meşrûḥa (meânî ve beyâna dair olan bu eserin Süleymaniye Kütüphanesi’nde yazmaları vardır: Lâleli, nr. 2918, 2191/I; Reîsülküttâb Mustafa Efendi, nr. 1169/18; Süleymaniye, nr. 914/3); Şerḥu Mülteḳa’l-ebḥur ; Ḥaḳāʾiḳu’l-uṣûl ; Netâʾicü’l-eẕhân fî ʿilmi’l-kelâm ; Telḫîṣü’ṭ-Ṭarîḳati’l-Muḥammediyye ( Brockelmann, GAL Suppl. , II, 656); Telḫîṣu Ravżati’l-ʿulemâʾ ( Brockelmann, GAL Suppl. , I, 361); Telḫîṣü’ṣ-Ṣıḥâḥ . Bu sonuncu eser Muḫtârü’ṣ-Ṣıḥâḥ ’tan daha faydalı olmasına rağmen meşhur olmamıştır ( Keşfü’ẓ-ẓunûn , II, 1073). Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 287 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:aysi-mehmed-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=aysi-mehmed-efendi, https://islamansiklopedisi.org.tr/aysi-mehmed-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:aysi-mehmed-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/aysi-mehmed-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:38Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=aysi-mehmed-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 990,
+    "start_ce": 1582,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1016,
+    "start_ce": 1607,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=aysi-mehmed-efendi, URL: https://islamansiklopedisi.org.tr/aysi-mehmed-efendi || DİA death place: Tire || DİA death-date string: (ö. 1016/1607) || DİA categories: tefsir > kelâm || Chunk count: 1"
+}

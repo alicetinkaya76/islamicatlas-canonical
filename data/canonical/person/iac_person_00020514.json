@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00020514",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abu'l-Lama",
+      "tr": "Ebû'l-Leme",
+      "ar": "أبو اللمع"
+    },
+    "originalScript": {
+      "ar": "أبو اللمع"
+    },
+    "description": {
+      "tr": "\"Arı Peteği\" edebî bir koleksiyondur ve \"Dağınık Sayfalar\" onun divanıdır.",
+      "en": "\"Honeycomb\" is a literary collection, and \"Scattered Pages\" is his divan."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Yusuf b. Shaddad Abu'l-Lama, Lebanese scribe."
+    },
+    "altLabel": {
+      "tr": [
+        "Yûsuf b. Şedîd Ebû'l-Leme, Lübnan kâtibi."
+      ],
+      "ar": [
+        "يوسف بن شديد أبو اللمع . كاتب لبناني. ولد في بسكنتا وهاجر إلى أميركا (1898 - 1939) وأصدر فيمونتريال  كندا مع أخت له اسمها نجلا، مجلة \" الفجر \" (1931) وتابع إصدارها بعدعودته إلى بيروت فاستمرت إلى (1941) له كتب مطبوعة، منها \" فتاة الغاب \"قصة، و \" قوة الإرادة \" مترجم عن الإنكليزية. ومما بقي مخطوطا من كتبه"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:13788",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=13788",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:46Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:46Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=13788 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:13788."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1362,
+    "start_ce": 1943,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=13788, heading_ar=أبو اللمع || Ziriklī century_ce=20",
+  "kunya": "أبو اللمع"
+}

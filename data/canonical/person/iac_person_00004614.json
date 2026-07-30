@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00004614",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İZZEDDİN EFENDİ, Eşrefzâde"
+    },
+    "description": {
+      "tr": "1083’te (1672) Bursa’da, günümüzde Baraköy de denilen ve Kestel ilçesi sınırları içerisinde bulunan Barakfakih köyünde doğdu. Asıl adı İzzeddin Ahmed olup Eşrefoğlu Rûmî soyundan Eşrefiyye tarikatı şeyhi Eşref-i Sânî Efendi’nin oğludur. İlk tahsilinin ardından Molla Ahmedzâde Mehmed Efendi’den Arapça, Malkoç Mustafa Efendi’den dinî ilimleri öğrendi. Bu arada babasına intisap ederek tarikat bilgileri edindi ve seyrüsülûkünü tamamlayarak hilâfet aldı. Bursa’da İncirli mahallesindeki Eşrefzâde Tekkesi’ne şeyh tayin edildi. 1137 (1725) yılında oğlu Abdülkadir Necib Efendi ile beraber hacca gitti. İstanbul’a yaptığı bir seyahat esnasında 13 Şâban 1153 (3 Kasım 1740) tarihinde Zeyrek’te vefat etti. Ölüm haberi I. Mahmud’a ulaşınca devlet ricâlinin cenaze namazında bulunması için hatt-ı hümâyun çıkardı. Fâtih Camii’nde kılınan cenaze namazının ardından Tophane’deki Kādirîhâne de denilen İsmâil Rûmî Âsitânesi’ne defnedildi. Vefatından sonra yerine şeyh tayin edilen oğlu Abdülkadir Necib Efendi ölümüne kadar kırk dokuz yıl bu görevini sürdürmüştür. Eşrefiyye tarikatının önde gelen şeyhleri arasında yer alan İzzeddin Efendi samimi ve coşkulu vaazlarıyla dikkati çekerdi. Onun ilâhî aşk konularını işlerken çok defa kendinden geçtiği ve hatta kendini kürsüden aşağı attığı söylenir. Vaazlarındaki samimiyeti III. Ahmed ve I. Mahmud’un dikkatini çekmiş, her iki padişah tarafından saraya davet edilerek iltifat görmüştür. İzzeddin Efendi’nin İzzî mahlası ile yazdığı ve mürettep bir divanda topladığı (Süleymaniye Ktp., Tâhir Ağa Tekkesi, nr. 398) tasavvufî manzumeleri onun şiir sanatındaki kudretini ortaya koymaktadır. Diğer taraftan bazı şeyhlerin eserlerine takrizler yazdığı ve tarih düşürmede devrin ileri gelen şairlerinden sayıldığı belirtilir. Mûsikiyle de meşgul olan İzzeddin Efendi dinî eserler bestelemiş, ancak bunlardan hiçbiri günümüze ulaşmamıştır. Oğlu Abdülkadir Necib Efendi tarafından Zübdetü’l-beyân adıyla telhis edilen Enîsü’l-cinân adlı on ciltlik Arapça tasavvufî bir tefsir yazmış (müellif nüshası için bk. Bursa Eski Yazma ve Basma Eserler Ktp., nr. 976-986), ayrıca Müşevviku’l-uşşâk adıyla bir vaaz mecmuası kaleme almıştır. Bu arada birçok talebe yetiştiren İzzeddin Efendi’nin en meşhur talebesi zâkirbaşı Kocagözzâde Mustafa Efendi’dir. Müridlerinden Tennûrîzâde Mustafa Efendi onun menkıbelerini Hediyyetü’l-fukarâ adlı bir eserde toplamıştır (Millet Ktp., Ali Emîrî Efendi, Şer‘iyye, nr. 1129; Süleymaniye Ktp., Hacı Mahmud Efendi, nr. 4640). Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 23. cildinde, 554-555 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:izzeddin-efendi-esrefzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=izzeddin-efendi-esrefzade, https://islamansiklopedisi.org.tr/izzeddin-efendi-esrefzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:izzeddin-efendi-esrefzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/izzeddin-efendi-esrefzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:30Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=izzeddin-efendi-esrefzade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1137,
+    "start_ce": 1725,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1153,
+    "start_ce": 1740,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=izzeddin-efendi-esrefzade, URL: https://islamansiklopedisi.org.tr/izzeddin-efendi-esrefzade || DİA birth place: Barakfakih || DİA death place: Tophane || DİA death-date string: (ö. 1153/1740) || DİA categories: tarikat > tasavvuf > tefsir || Chunk count: 1"
+}

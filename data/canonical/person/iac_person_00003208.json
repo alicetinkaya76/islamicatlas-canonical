@@ -1,0 +1,112 @@
+{
+  "@id": "iac:person-00003208",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂRİSÎ, Mes‘ûd b. Ahmed",
+      "ar": "مسعود بن أحمد الحارثي"
+    },
+    "originalScript": {
+      "ar": "مسعود بن أحمد الحارثي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed (Ebû Abdirrahmân) Sa‘düddîn Mes‘ûd b. Ahmed b. Mes‘ûd el-Irâkī el-Mısrî"
+      ]
+    },
+    "description": {
+      "tr": "652 (1254) yılında dünyaya geldi. Babasının doğduğu Bağdat’ın batısındaki Hârisiye köyüne nisbetle anılır. İyi bir fıkıh öğrenimi görerek devrinin Hanbelî hukukçuları arasında seçkin bir yere sahip oldu. Kahire’de Radıyyüddin İbnü’l-Burhân, Necîbüddin el-Harrânî, Abdullah b. Allâk; İskenderiye’de Osman b. Avf, İbnü’l-Furât; Dımaşk’ta Ebû Zekeriyyâ İbnü’s-Sayrafî, Ahmed b. Ebü’l-Hayr gibi muhaddislerden hadis dinledi. Kendisinden Takıyyüddin es-Sübkî, Abdülazîz b. Muhammed b. Cemâa, Yûsuf b. Abdurrahman el-Mizzî ve Birzâlî gibi âlimler hadis dinlediler. Bir süre Dımaşk’ta Nûriye Medresesi meşihatlığında bulunan Hârisî Mısır’a dönerek İbn Tolun, Hâkim, Sâlihiye ve Mansûriye camilerinde ders verdi. 709 yılı Rebîülâhirinde (Eylül 1309) Mısır kādılkudâtlığına getirildi ve ölünceye kadar bu görevde kaldı. Takıyyüddin İbn Dakīkul‘îd’in, Allah’a cihet izâfe edenlere katıldığı ve bu görüşlerin propagandasını yaptığı için Hârisî ile ilişkilerini kestiğine dair kaynaklarda yer alan bilgilerden, bazı itikadî meselelerde çağdaşlarıyla ciddi ihtilâflara düştüğü anlaşılmaktadır. 14 Zilhicce 711 (22 Nisan 1312) tarihinde Kahire’de vefat eden Hârisî Karâfe Kabristanı’na defnedildi. Eserleri. 1. Şerḥu’l-Muḳniʿ . Hanbelî hukukçusu İbn Kudâme’nin el-Muḳniʿ adlı eserinin “Âriyet” bölümünden “Vesâyâ”ya kadarki kısmının şerhidir (Brockelmann, I, 688). 2. Şerḥu Süneni Ebî Dâvûd . Ebû Dâvûd’un es-Sünen ’inin tamamlanamamış bir şerhidir. 3. Emâlî . Hadis metin ve sened tenkidiyle râvi biyografilerini ihtiva eden bir eserdir. Bütün kaynaklar Hârisî’nin sadece bu üç eserini zikrederken Bağdatlı İsmâil Paşa Şerḥu Süneni İbn Mâce ’yi de ona atfetmektedir (bk. Îżâḥu’l-meknûn , II, 28). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 204 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:harisi-mesud-b-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=harisi-mesud-b-ahmed, https://islamansiklopedisi.org.tr/harisi-mesud-b-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:harisi-mesud-b-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=harisi-mesud-b-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=harisi-mesud-b-ahmed (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=harisi-mesud-b-ahmed)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mısrî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 652,
+    "start_ce": 1254,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 711,
+    "start_ce": 1312,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=harisi-mesud-b-ahmed, URL: https://islamansiklopedisi.org.tr/harisi-mesud-b-ahmed || DİA death place: Kahire || DİA death-date string: (ö. 711/1312) || DİA categories: hadis > fıkıh || Chunk count: 1",
+  "death_place": "iac:place-00009399",
+  "teachers": [
+    "iac:person-00004149",
+    "iac:person-00004331"
+  ],
+  "students": [
+    "iac:person-00001553",
+    "iac:person-00005573",
+    "iac:person-00007112"
+  ]
+}

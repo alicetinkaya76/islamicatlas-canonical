@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00003284",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hasan Üsküdârî"
+    },
+    "description": {
+      "tr": "Hamza adlı bir zatın oğlu olup Üsküdar’da doğduğu ve burada yaşadığı için Üsküdârî nisbesiyle anılmıştır. Şeyh Hamdullah Efendi’nin kızı tarafından torunu olan Pîr Mehmed b. Şükrullah’ın akrabası ve talebesidir. Hocasından aklâm-ı sitteyi meşkedip icâzet aldıktan sonra yine Şeyh Hamdullah’ın oğlu tarafından torunu olan Derviş Mehmed b. Mustafa Dede’den hattın inceliklerini öğrendi. Hasan Üsküdârî böylece “şeyh üslûbu”nun iki koldan kendisinde toplandığı, devrinin önde gelen bir temsilcisi olarak bu yolda mushaf ve kıtalar yazdı. Üçüncü nesilden Şeyh Hamdullah şeceresine bağlanan hattatın celî sülüs hattından bazı örnekler, Üsküdar’daki Mimar Sinan yapısı Vâlide-i Atik Camii’nin çiniye nakşedilmiş mihrap sofası kuşağına ve son cemaat mahallindeki pencere alınlıklarına yazdığı istiflerle zamanımıza ulaşmıştır. Ancak kâğıda yazmış olduğu aklâm-ı sitte örneklerinden günümüze ulaşabilenler fazla değildir. Hasan Üsküdârî vefatında Karacaahmet Sultan Türbesi karşısındaki set üstüne defnedilmiştir. Muhtemelen 1915 yılında, yeni açılan yolun güzergâhında kalan kabrinin o civarda Şeyh Sofası adıyla bilinen Şeyh Hamdullah hazîresine nakli düşünülmüş, ancak bu gerçekleştirilememiştir. Ayrıca bu teşebbüs sırasında, talebesi Hâlid Erzurûmî tarafından yazılmış olan mezar kitâbesi kırılıp iki parçaya ayrılmıştır. Hasan Üsküdârî’nin bu kırık mezar kitâbesi ve beraberinde sökülmek zorunda kalınan diğer mezar taşları, 1917 yılında devrin büyük hattatlarının katıldığı bir merasimle Selimiye Kütüphanesi arkasındaki hazîreye (bugünkü Çiçekçi Camii bahçesi) taşınarak dikilmiş, fakat bu sırada da mezarları nakledilememiştir. Şeyh Hamdullah’tan günümüze ulaşan hattat silsilesinde mühim bir mevkiye sahip olan Hasan Üsküdârî’nin meşhur talebeleri arasında Hâlid Erzurûmî’den başka Muhammed el-İmâm adıyla tanınan Tokatlı İmam Mehmed Efendi de bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 358 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-uskudari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-uskudari, https://islamansiklopedisi.org.tr/hasan-uskudari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hasan-uskudari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hasan-uskudari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:13Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-uskudari (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1023,
+    "start_ce": 1614,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-uskudari, URL: https://islamansiklopedisi.org.tr/hasan-uskudari || DİA birth place: Üsküdar || DİA death-date string: (ö. 1023/1614) || Chunk count: 1"
+}

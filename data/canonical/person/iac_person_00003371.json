@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00003371",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HEBBÂR b. ESVED",
+      "ar": "هبّار بن الأسود"
+    },
+    "originalScript": {
+      "ar": "هبّار بن الأسود"
+    },
+    "description": {
+      "tr": "Hayatı hakkında fazla bilgi bulunmamakta, İslâmiyet’i kabul etmeden önce Hz. Peygamber’i ve müslümanları hicvettiği bilinmektedir. Hebbâr, kendisi gibi bazı İslâm aleyhtarlarıyla birlikte, Bedir Gazvesi’nden bir ay kadar sonra Medine’ye hicret etmekte olan Resûl-i Ekrem’in kızı Zeyneb’e yolda rastlamış, onu rahatsız ederek devesinden yere düşmesine ve karnındaki çocuğu zayi etmesine sebep olmuştu. Bunun üzerine Hz. Peygamber, görevlendirdiği askerî birliklere Hebbâr’ı ele geçirdikleri takdirde yakmalarını emretmiş, ancak daha sonra bu tür cezalandırmanın Allah’a mahsus olduğunu söyleyerek onu öldürmekle yetinmelerini istemişti. Bir türlü ele geçirilemeyen Hebbâr, Mekke’nin fethedildiği gün öldürülmeleri emredilen on kişi arasında yer aldı, fakat yine bulunamadı. Bir müddet sonra müslüman olmaya karar vererek Medine’ye dönmekte olan Resûlullah’a Mekke yakınlarındaki Ci‘râne mevkiinde yetişti. Hakkındaki öldürülme emrinden dolayı müslümanlar onun üzerine hücum ettiyse de Resûlullah onlara engel oldu. Resûl-i Ekrem’in huzurunda kelime-i şehâdet getiren Hebbâr uzun süre kaçtığını, hatta yabancı ülkelere sığınmayı düşündüğünü, fakat Resûlullah’ın kendisine kötülük edenleri bağışladığını öğrenince bundan vazgeçtiğini söyledi; hicivleriyle onu çok üzdüğünü itiraf ederek affedilmesini diledi. Hz. Peygamber onu dinledikten sonra kendisini bağışladığını ve İslâmiyet’i kabul etmekle de daha önceki günahlarının affedildiğini belirtti. Hebbâr, Hz. Peygamber’in vefatından sonra fetihler dolayısıyla Şam’a gitti. Bir müddet orada ikamet edip Hz. Ömer’in hilâfeti zamanında haccetmek amacıyla Medine’ye döndü; fakat hac günlerinde Mekke’ye yetişemediği için halifenin tavsiyesine uyarak bir yıl sonra haccetmek üzere o yıl umre yapmakla yetindi ( el-Muvaṭṭaʾ , “Ḥac”, 154). Sind’i ilk defa ele geçiren Benî Hebbâr’dan Ömer b. Abdülazîz b. Münzir (ö. 250/864 [?]) Hebbâr b. Esved’in torunlarındandır. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 17. cildinde, 148 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hebbar-b-esved",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hebbar-b-esved, https://islamansiklopedisi.org.tr/hebbar-b-esved",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:12991",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=12991, heading_ar=هبار بن الأسود",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:14Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hebbar-b-esved (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[12991]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=12991 (heading_ar=هبار بن الأسود) via Track A (DİA→Alam xref bridge). dt=Şair, Sahâbeden"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 15,
+    "start_ce": 636,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hebbar-b-esved, URL: https://islamansiklopedisi.org.tr/hebbar-b-esved || El-Aʿlām (Ziriklī) cross-reference: alam_id=[12991] || DİA death-date string: (ö. 15/636’dan sonra) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=12991, heading_ar=هبار بن الأسود, dt=Şair, Sahâbeden"
+}

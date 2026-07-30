@@ -1,0 +1,60 @@
+{
+  "@id": "iac:person-00000914",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Alâeddin Bey"
+    },
+    "description": {
+      "tr": "Adı kaynaklarda Ali ve Ali Erden şeklinde de geçmektedir. Hakkındaki bilgiler, kaynak yetersizliği ve mevcut kaynaklardaki çelişkiler yüzünden eksiktir. Ancak vakfiyesinde adı Alâeddin olarak geçer. Büyük bir ihtimalle Orhan Bey’in ana baba bir küçük kardeşidir. Babasının son zamanlarına kadar bazan Bilecik’te dedesi Şeyh Edebâli’nin, bazan da Yenişehir’de babasının yanında kaldı. Osman Gazi’nin ölümünden sonra, ahî reislerinin ittifakıyla ağabeyi Orhan’ın beyliğe geçmesi üzerine muhtemelen bir süre ordu kumandanı oldu, fakat ardından inzivaya çekildi. Bir rivayete göre ise babasının sağlığında ordu kumandanı bulunan Orhan’ın “bey”lik teklifini ve baba mirasını reddetti; sadece Bursa’nın Kete bölgesindeki Kotra (Kudra) arazisini almakla yetindi. Fakat Alâeddin Bey’in, Orhan Gazi ile Bizans İmparatoru Andronikos arasında Maltepe’de yapılan savaşta ordu kumandanı olduğu bilinmektedir. Nitekim 1333 tarihli vakfiyesinde geçen “emîr-i kebîr mücâhid fî sebîlillâh (...) avni’l-guzât ve’l-mücâhidîn” ifadesi bu keyfiyeti doğrular. Alâeddin Bey bir rivayete göre 1333 yılında Biga Kalesi’nde ölmüştür (bk. Mehmed Râşid, vr. 24 b -26 a ). Mezarı babasının Bursa’daki türbesindedir. Bursa’nın Kükürtlü semtinde bir tekkesi, Kaplıca başında da iki camii vardır. 928 (1522) tarihli Bursa evkafına ait bir tapu defterinde torunlarının adları geçmektedir. Bazı kaynaklarda, o devirde yaşamış ve hânedan mensubu olmayan bir başka Alâeddin Paşa ile karıştırılan Alâeddin’in gerek vakfiyesinde gerekse tahrir defterindeki sıfatı “bey”dir. Alâeddin Bey’in en önemli icraatı, Osmanlı Beyliği’nin idarî ve askerî yöndeki teşkilâtlanmasında gösterdiği faaliyetlerdir. Ordu kumandanlığı sırasında, Osmanlı askerini öteki Anadolu beyliklerinin askerlerinden ayırmak için askerlerin serpuşlarının rengini kırmızıdan beyaza çevirtmiş, Çandarlı Kara Halil ile birlikte ilk defa dâimî yaya ve müsellem birliklerinin kurulmasına ön ayak olmuştur. Ordunun öteki birliklerinin de teşkilâtlandırılması, hatta Osmanlılar’da divan teşkilâtının kurulması, divanda burma sarık giyilmesi ve para bastırılması Alâeddin Bey’e atfedilirse de bunlar hakkında şimdilik kesin hüküm vermek mümkün değildir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 320 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:alaeddin-bey--osman-gazi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=alaeddin-bey--osman-gazi, https://islamansiklopedisi.org.tr/alaeddin-bey--osman-gazi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:16Z",
+    "modified": "2026-05-04T15:33:16Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=alaeddin-bey--osman-gazi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 733,
+    "start_ce": 1333,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=alaeddin-bey--osman-gazi, URL: https://islamansiklopedisi.org.tr/alaeddin-bey--osman-gazi || DİA death-date string: (ö. 733/1333 [?]) || DİA categories: rivayet || Chunk count: 1"
+}

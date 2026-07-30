@@ -1,0 +1,70 @@
+{
+  "@id": "iac:person-00001474",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bergamali Kadri"
+    },
+    "altLabel": {
+      "tr": [
+        "Müyessiretü’l-ulûm adlı Türkçe dil bilgisi kitabı ile tanınan Osmanlı âlimi."
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında kendi eserinde söylediklerinden başka bilgi yoktur. Eserinden İstanbul’a gittiği, kitabını 937 (1530) yılında kaleme aldığı ve Kanûnî Sultan Süleyman’ın sadrazamı Damad İbrâhim Paşa’ya (ö. 1536) sunduğu anlaşılmaktadır. Türkler’e Türk dilini öğretmek maksadıyla kaleme alınan ve Türkçe ilk gramer kitabı olan Müyessiretü’l-ulûm Arapça’nın dil bilgisi kuralları örnek tutularak yazılmıştır. Eser iki bölümden meydana gelmektedir. Doksan dokuz sayfadan ibaret birinci bölümde Sadrazam İbrâhim Paşa hakkında yazılmış bir kaside yer alır. Arkasından kitabın yazılış tarihi ve yazılış sebebi belirtilerek önemine temas edilir ve esas konulara geçilir. Burada önce kelimenin tarifi yapılarak kelimeler isim, fiil ve harf (edat) olmak üzere üçe ayrılır. Sonra “bilmek” fiili esas alınarak Arapça sarfta olduğu gibi emsile-i muhtelife ve muttaridenin örnekleri verilir. Bu şekilde bütün fiil sîgalarının tarif ve izahları yapılır; ekleri, olumlu, olumsuz, etken ve edilgen şekilleri gösterilip her birinin ayrı ayrı çekimleri yapılır. Ayrıca bu kısımda ism-i zamân, ism-i mekân, ism-i âlet, ism-i tasgīr, ism-i mensub, ism-i tafdîl ve fi‘l-i taaccüb üzerinde durulur. Seksen üç sayfadan oluşan ikinci bölümde isimler konu edilmiştir. Burada isimlerin çeşitleri, çekimleri, sayılar, zamirler, zarflar, soru edatları, isim tamlamaları ve yapılışları, cümle tamlayıcıları, hal ve istisna şekilleri, isim cümlesi, işaret isimleri ve edatlar üzerinde durulmuştur. Bu açıklamaların ardından şair Hayâlî Bey’in bir gazeli ele alınarak gazelde geçen bütün kelimeler hem sanat yönünden hem de Türkçe gramer kaideleri açısından tahlil edilmiştir. Ayrıca daha önce açıklanmayan bazı kurallar da bu tahlil sırasında zikredilmiştir. Müyessiretü’l-ulûm bugünkü mânada ilmî bir gramer kitabı olmamakla birlikte Türkiye Türkçesi’nin (Batı Oğuzca) ana kurallarını ihtiva etmesi ve Batı Türkçesi’yle yazılmış ilk gramer kitabı olması yönünden değerli bir kaynaktır. Daha sonra Türk dilinde yazılmış kavâid kitaplarına ancak Tanzimat yıllarında rastlanmaktadır. İlk defa 1911 yılında Bursalı Mehmed Tâhir tarafından bulunan kitabın bugün elde sadece tıpkıbasımı mevcuttur (Besim Atalay, Müyessiretü’l-ulûm , tıpkıbasım, çevriyazılı metin ve dizin, TDK yayını, İstanbul 1946). 182 sayfadan ibaret olan eserin birinci bölümü Zilkade 974 (Mayıs 1567), ikinci bölümü ise 25 Rebîülevvel 976’da (17 Eylül 1568) istinsah edilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 496 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bergamali-kadri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bergamali-kadri, https://islamansiklopedisi.org.tr/bergamali-kadri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:42Z",
+    "modified": "2026-05-04T15:33:42Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bergamali-kadri (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 937,
+    "start_ce": 1530,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 937,
+    "start_ce": 1530,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bergamali-kadri, URL: https://islamansiklopedisi.org.tr/bergamali-kadri || DİA death-date string: (ö. 937/1530’dan sonra) || Chunk count: 1"
+}

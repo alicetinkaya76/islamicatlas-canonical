@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003196",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂRİS b. HİŞÂM",
+      "ar": "الحارث بن هشام"
+    },
+    "originalScript": {
+      "ar": "الحارث بن هشام"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdirrahmân el-Hâris b. Hişâm b. el-Mugīre el-Mahzûmî el-Kureşî"
+      ]
+    },
+    "description": {
+      "tr": "Ebû Cehil ile ilk müslümanlardan Seleme b. Hişâm’ın kardeşi ve Hâlid b. Velîd’in amcasının oğludur. Kureyş kabilesinin ileri gelenlerinden olup cömertliğiyle tanınmıştır. Bedir ve Uhud gazvelerine müşriklerin safında katılmış ve Bedir’de savaş meydanından kaçmıştır. Hâris b. Hişâm, Mekke’nin fethedildiği gün Hz. Ali’nin kız kardeşi Ümmü Hânî’nin evine sığındı. Ümmü Hânî, evine sığınan diğer kişilerle birlikte onu da himayesine alıp durumu Hz. Peygamber’e bildirdi. Hz. Peygamber de Ümmü Hânî’nin himayesine aldığı kişileri kendi himayesinde kabul ettiğini söyledi. Aynı gün müslüman olan Hâris b. Hişâm daha sonra Huneyn Gazvesi’ne katıldı. Resûl-i Ekrem Huneyn ganimetlerini taksim ederken onu müellefe-i kulûbdan sayarak kendisine 100 deve verdi. Hâris bu tarihten itibaren samimi bir müslüman oldu ve ashabın ileri gelenleri arasında yer aldı. İslâmiyet’i kabul ettikten sonra da Mekke’de oturdu ve ridde savaşlarına katıldı. Hz. Ebû Bekir’in halifeliği döneminde Suriye’de Bizans’a karşı yapılan sefere katılan Hâris bütün mal varlığını da bu sefere tahsis etti. Ecnâdeyn Savaşı’nda İslâm ordusunun sancağını taşıdı ve Fihl Savaşı’nda bulundu. Bir rivayete göre Yermük Savaşı’nda (15/636), daha güvenilir bir başka rivayete göre ise 18 (639) yılında Amvâs veba salgını sırasında vefat etti. Aynı zamanda iyi bir şair olan Hâris b. Hişâm’ın, Bedir Gazvesi’nden kaçması üzerine aleyhine söylenen şiirlere verdiği cevap savaştan kaçanların mazeretine en güzel örnek kabul edilir. Hâlid b. Velîd’in kız kardeşi Fâtıma ile yaptığı evlilikten kızı Ümmü Hakîm dünyaya geldi. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 197 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız. Bu madde en son 26.07.2025 tarihinde güncellenmiştir."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:haris-b-hisam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=haris-b-hisam, https://islamansiklopedisi.org.tr/haris-b-hisam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:2496",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=2496, heading_ar=الحارث بن هشام",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=haris-b-hisam (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[2496]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=2496 (heading_ar=الحارث بن هشام) via Track A (DİA→Alam xref bridge). dt=Sahâbî, Câhiliye ve İslâm dönemlerinde şerefli bir kişi idi. Kızları güzellik ve"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mahzûmî; Kureşî"
+  ],
+  "death_temporal": {
+    "start_ah": 18,
+    "start_ce": 639,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=haris-b-hisam, URL: https://islamansiklopedisi.org.tr/haris-b-hisam || El-Aʿlām (Ziriklī) cross-reference: alam_id=[2496] || DİA death-date string: (ö. 18/639 [?]) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=2496, heading_ar=الحارث بن هشام, dt=Sahâbî, Câhiliye ve İslâm dönemlerinde şerefli bir kişi idi. Kızları güzellik ve şeref açısından örn"
+}

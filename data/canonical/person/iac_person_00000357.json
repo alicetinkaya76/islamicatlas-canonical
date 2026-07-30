@@ -1,0 +1,125 @@
+{
+ "@id": "iac:person-00000357",
+ "@type": [
+  "iac:Architect",
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Sinan",
+   "tr": "Mimar Sinân",
+   "ar": "سنان"
+  },
+  "originalScript": {
+   "ar": "سنان"
+  },
+  "altLabel": {
+   "en": [
+    "Mimar Sinan Agha"
+   ],
+   "tr": [
+    "Mimar Sinân Ağa"
+   ],
+   "ar": [
+    "المعمار سنان آغا"
+   ]
+  },
+  "description": {
+   "tr": "En büyük Osmanlı mimarı; Süleymaniye ve Selimiye camileri dahil 374 yapı inşa etti || Osmanlı baş mimarı; 50 yılda 300'den fazla yapı tasarladı. Selimiye Camii kubbesinin çapı Ayasofya'yı aştı. Mühendislik matematiğini estetikle birleştiren eşsiz bir yapı ustasıdır. || [Tarih notu] Necipoğlu (2005) Sinân'ın Tezkiretü'l-Bünyân'ını derinlemesine analiz ederek, mimarın kendi eserlerini nasıl kavramsallaştırdığını ortaya koymuştur.",
+   "en": "Greatest Ottoman architect; built 374 structures including Süleymaniye and Selimiye mosques || Greatest architect in Ottoman history; his 374 structures defined Ottoman imperial style || [Historiographical note] His Selimiye dome exceeds Hagia Sophia's diameter; he studied the Byzantine structure for decades",
+   "ar": "كبير المعماريين العثمانيين؛ صمّم أكثر من ثلاثمئة منشأة في خمسين عامًا. تجاوز قطر قبة مسجد السليمية آيا صوفيا. معمار فريد جمع الرياضيات الهندسية بالجماليات. || [Historiographical note] حلّل نجيب أوغلو (2005) تذكرة البنيان لسنان بعمق كاشفًا كيف استوعب المعمار أعماله مفاهيميًا."
+  }
+ },
+ "profession": [
+  "architect",
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0183",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0183",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   },
+   {
+    "source_id": "ei1:5211",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "EI1 vol. 4, p. 18",
+    "extraction_method": "ocr",
+    "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+   },
+   {
+    "source_id": "dia-chunks:sinan",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/sinan",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-07-10T16:23:25Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0183 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T15:44:36Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (209-357-7039) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000209 lehine yumuşak-silindi. Gerekçe: Üç kayıt da 1588'de ölen Mimar Sinan'dır; DİA kaydındaki yalın 'Sinan' adı ve 'şiir' uzmanlık etiketi zayıf/gürültülü alanlar olsa da ölüm yılı ve Osmanlı bağlamı birebir örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000209"
+ },
+ "birth_temporal": {
+  "start_ce": 1489,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1588,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0183, lecture_week=n/a. || Key works: {'title': {'en': 'Süleymaniye Mosque', 'tr': 'Süleymaniye Camii'}, 'year': 1557, 'field': 'architecture', 'significance': {'en': 'Greatest Ottoman architect; built 374 structures including Süleymaniye and Selimiye mosques', 'tr': 'En büyük Osmanlı mimarı; Süleymaniye ve Selimiye camileri dahil 374 yapı inşa etti'}} || Modern parallel: Like a chief architect who designs an entire city's skyline over a 50-year career",
+ "active_in_places": [
+  "iac:place-00000735"
+ ],
+ "authored_works": [
+  "iac:work-00000216"
+ ]
+}

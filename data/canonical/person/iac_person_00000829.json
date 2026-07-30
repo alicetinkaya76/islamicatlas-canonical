@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00000829",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahmed Paşa"
+    },
+    "description": {
+      "tr": "Bağdat Valisi Eyüplü Hasan Paşa’nın oğludur. İstanbul’da doğdu. Şehrizor, Kerkük ve Basra beylerbeyiliklerinde bulundu; 1719’da vezir oldu. 1724 yılı başlarında, İran seferi ile görevlendirilen babasının ölümü üzerine Bağdat valiliğine getirildi. Bu görevle birlikte şark seraskerliğini de üstlenen Ahmed Paşa 1724’te Hemedan’ı aldı. 1726’da Afgan Şahı Eşref ile yaptığı savaşta başarı elde edemediyse de ertesi yıl yaptığı antlaşma ile Hemedan, Tebriz, Revan ve Tiflis yöresini içine alan geniş bir bölgeyi Osmanlı topraklarına kattı. Safevî Hükümdarı Şah Tahmasb zamanında bu toprakların kaybedilmesi üzerine tekrar İran seferi ile görevlendirilen Ahmed Paşa Kirmanşah ve Erdelân’ı alarak 1731’de Hemedan’a girdi. 1732’de yapılan antlaşma ile ele geçirilen yerlerin bir kısmı muhafaza edildi, bazı şehir ve bölgeler ise İran’a bırakıldı. Fakat daha sonra yeniden anlaşmazlık çıktı ve Ahmed Paşa Bağdat’ı Nâdir Şah’a karşı savunmak zorunda kaldı. 1733 yılında uhdesine Basra valiliği de verilen Ahmed Paşa ertesi yıl Halep’e, sonra da Rakka’ya gönderildi. Bu sırada Köprülüzâde Abdullah Paşa’nın ölümü üzerine tekrar şark seraskerliğine getirildi ve Nâdir Şah’la bir mütareke yaptı. 1736 yılında getirildiği ikinci Bağdat valiliği sırasında daha çok İran meseleleriyle ve âsi aşiretleri yola getirmekle meşgul oldu. İran sınırındaki Baban sancağı hâkimi Selim’e karşı yaptığı başarılı bir seferden dönerken vefat etti; Bağdat’ta İmâm-ı Âzam Türbesi civarında babasının yanına defnedildi. Ahmed Paşa toplam yirmi üç yıl Bağdat valiliği yapmış, daha sonra da bu eyalet onun kölelerinin vali tayin edilmesiyle idare edilmiş ve âdeta bir kölemen ocağı ortaya çıkmıştır. Kızı Âdile Hatun’un bu ocağın kurulmasında önemli rolü olmuş ve bu durum 1831 yılına kadar sürmüştür. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 111 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    },
+    "altLabel": {
+      "en": [
+        "AHMED PASHA"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-pasa, https://islamansiklopedisi.org.tr/ahmed-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:01Z",
+    "modified": "2026-07-12T11:30:11Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-pasa (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T11:30:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "h10_003 R3: çok-olaylı EI1 çakışması (3 makale aynı kayda) — ei1 katkıları geri alındı (reverted: ['description.en', 'altLabel.en']); olaylar collisions kuyruğunda."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1160,
+    "start_ce": 1747,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-pasa, URL: https://islamansiklopedisi.org.tr/ahmed-pasa || DİA birth place: İstanbul || DİA death place: Bağdat || DİA death-date string: (ö. 1160/1747) || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

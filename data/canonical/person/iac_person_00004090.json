@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00004090",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Zebâle",
+      "ar": "ابن زبالة"
+    },
+    "originalScript": {
+      "ar": "ابن زبالة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Muhammed b. el-Hasen b. Zebâle el-Medenî el-Mahzûmî"
+      ]
+    },
+    "description": {
+      "tr": "II. (VIII.) yüzyılda Medine’de yaşadı. İmam Mâlik b. Enes’in talebelerinden olup ondan ve Süleyman b. Bilâl, Üsâme b. Zeyd b. Eslem gibi kişilerden hadis rivayet etti. Kendisinden hadis alanlar arasında Ebû Hayseme Züheyr b. Harb, Ahmed b. Sâlih et-Taberî ve özellikle Zübeyr b. Bekkâr bulunmaktadır. İbn Zebâle cerh ve ta‘dîl âlimlerine göre zayıf bir râvidir; İbn Maîn onun sika olmadığını, hatta yalancı ve hadis hırsızı olduğunu, Buhârî de münker rivayetlerinin bulunduğunu bildirmiştir. Talebesi Ahmed b. Sâlih kendisinden çok sayıda hadis almış, fakat daha sonra onun hadis uydurduğunu öğrenince hepsinden vazgeçmiştir. Ebû Zür‘a er-Râzî ve Ebû Hâtim er-Râzî, İbn Zebâle’yi şiddetle cerhetmişler ve hadislerinin zayıflık yönünden Vâkıdî’ninkilere benzediğini söylemişlerdir. Ebû Hâtim ayrıca rivayetlerinin zayıflığına rağmen metrûk bir râvi olmadığını, Sem‘ânî ise onun sika râvilerden dinlemeden, fakat tedlîs de yapmadan hadis rivayet ettiğini söyler. İbn Zebâle’nin Kitâbü’l-Medîne ve aḫbâruhâ (Aḫbârü’l-Medîne) adlı eseri Medine hakkında yazıldığı bilinen en eski şehir tarihidir. 199 (814) yılında kaleme alınan ve günümüze ulaşmayan eserin Sehâvî’nin kaydından büyük bir cilt hacminde olduğu öğrenilmektedir ( el-İʿlân bi’t-tevbîḫ , s. 273). Semhûdî, Medine hakkında yazdığı Vefâʾü’l-vefâ adlı kitabında ondan çok miktarda iktibasta bulunmuş, Ferdinand Wüstenfeld de bunları bir araya toplayarak yayımlamıştır ( Geschichte der Stadt Medina im Auszuge aus dem arabischen des Samhudi , Göttingen 1860). İbnü’n-Nedîm, onun Kitâbü’ş-Şuʿarâʾ ve Kitâbü’l-Elḳāb adlı iki eserinin daha bulunduğunu söyler. Talebesi Zübeyr b. Bekkâr da el-Münteḫab min kitâbi Ezvâci’n-nebî adlı eserini ondan aldığı bilgilerle yazmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 458 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-zebale",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-zebale, https://islamansiklopedisi.org.tr/ibn-zebale",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:23Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:23Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-zebale (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Medenî; Mahzûmî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 199,
+    "start_ce": 814,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-zebale, URL: https://islamansiklopedisi.org.tr/ibn-zebale || DİA death-date string: (ö. 199/814’ten sonra) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005206",
+    "iac:person-00007146"
+  ],
+  "students": [
+    "iac:person-00002181",
+    "iac:person-00007889"
+  ]
+}

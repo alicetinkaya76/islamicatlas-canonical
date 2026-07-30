@@ -1,0 +1,95 @@
+{
+ "@id": "iac:person-00000322",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Dara Shikoh",
+   "tr": "Dârâ Şükûh",
+   "ar": "دارا شكوه"
+  },
+  "originalScript": {
+   "ar": "دارا شكوه"
+  },
+  "altLabel": {
+   "en": [
+    "Muhammad Dara Shikoh"
+   ],
+   "tr": [
+    "Muhammed Dârâ Şükûh"
+   ],
+   "ar": [
+    "محمد دارا شكوه"
+   ]
+  },
+  "description": {
+   "tr": "50 Upanişad'ı Farsçaya çevirdi (Sırr-ı Ekber); İslam ve Vedanta'nın felsefî sentezini denedi || İslam ve Hindu felsefe dünyalarını çeviri çalışmasıyla birleştiren Babür prensi || [Tarih notu] Evrengzib tarafından zındıklık suçlamasıyla idam edildi",
+   "en": "Translated 50 Upanishads into Persian (Sirr-i Akbar); attempted philosophical synthesis of Islam and Vedanta || Mughal prince whose translation work connected Islamic and Hindu philosophical worlds || [Historiographical note] Executed by Aurangzeb for heresy; recent scholarship rehabilitates his philosophical significance",
+   "ar": "ترجم خمسين أوبانيشاد إلى الفارسية || أمير مغولي ربط بين العالمين الفلسفيين الإسلامي والهندوسي || [Historiographical note] أعدمه أورنكزيب بتهمة الهرطقة"
+  }
+ },
+ "profession": [
+  "philosopher",
+  "translator"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0143",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0143",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-05-04T14:58:52Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0143 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (281-322-1931) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000281 lehine yumuşak-silindi. Gerekçe: Üç kayıt da Bâbürlü şehzadesi Dârâ Şükûh'a ait (ö. 1659); 281 ile 322 aynı eseri (Mecma'u'l-bahreyn) veriyor, 1931'in tasavvuf uzmanlığı da onun profiliyle uyumlu."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000281"
+ },
+ "birth_temporal": {
+  "start_ce": 1615,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1659,
+  "approximation": "exact"
+ },
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q604647",
+   "confidence": 1.0,
+   "method": "openrefine_v3",
+   "reviewed": false,
+   "note": "Auto-matched via OpenRefine recon (top result for 'Dara Shikoh')."
+  }
+ ],
+ "note": "Promoted from science_layer.json scholar id=scholar_0143, lecture_week=n/a. || Key works: {'title': {'en': 'Majma al-Bahrayn (Confluence of the Two Seas)', 'tr': \"Mecmau'l-Bahreyn\", 'ar': 'مجمع البحرين'}, 'year': 1655, 'field': 'philosophy', 'significance': {'en': 'Comparative study finding parallels between Sufi and Vedantic metaphysics', 'tr': 'Sûfî ve Vedanta metafiziği arasında paralelleri bulan karşılaştırmalı çalışma', 'ar': 'دراسة مقارنة تجد أوجه تشابه بين التصوف والفيدانتا'}} || Modern parallel: Like an early proponent of interoperability between closed systems",
+ "authored_works": [
+  "iac:work-00000181"
+ ]
+}

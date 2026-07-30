@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00002688",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FÂTIMA bint SÜLEYMAN",
+      "ar": "فاطمة بنت سليمان"
+    },
+    "originalScript": {
+      "ar": "فاطمة بنت سليمان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ümmü Abdillâh Fâtıma bint Süleyman b. Abdilkerîm el-Ensâriyye ed-Dımaşkıyye"
+      ]
+    },
+    "description": {
+      "tr": "620’de (1223) doğdu. Kıraat ve hadis âlimi olan babası onu erken yaşlarda Dımaşklı muhaddislerden Müslim b. Ahmed el-Mâzinî, Kerîme bint Abdülvehhâb ve İbn Revâha gibi tanınmış âlimlerin derslerine dinleyici olarak götürmeye başladı. Babasından, ayrıca Şam, Irak ve Hicaz bölgelerine mensup 100’den fazla muhaddisten faydalandı. Kendisine, çeşitli hadis kitaplarının râvileri olan Ebû Mansûr Muhammed b. Abdullah el-Bendenîcî (İbn Ufeyce el-Hammâmî), Feth b. Abdüsselâm, Ebü’l-Kāsım İbn Sasrâ, Ebü’l-Fazl Abdüsselâm b. Abdullah ed-Dâhirî ve Şerefünnisâ bint Ahmed b. Âbenûsî gibi muhaddisler icâzet verdi. Tanınmış fakih ve muhaddis İzzeddin b. Cemâa gibi âlimlere hocalık yaptı. Talebesi Muhammed el-Vânî ondan dinlediği kırk kadar cüzün adını zikretmektedir (Kehhâle, IV, 62-64). Hiç evlenmeyerek bütün hayatını ilme veren, servetiyle birkaç medrese ve tekke yaptıran Fâtıma bint Süleyman 12 Rebîülâhir 708’de (29 Eylül 1308) Dımaşk’ta vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 228 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:fatima-bint-suleyman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=fatima-bint-suleyman, https://islamansiklopedisi.org.tr/fatima-bint-suleyman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:fatima-bint-suleyman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/fatima-bint-suleyman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:8145",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8145, heading_ar=فاطمة بنت سليمان",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:03Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=fatima-bint-suleyman (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8145]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8145 (heading_ar=فاطمة بنت سليمان) via Track A (DİA→Alam xref bridge). dt=Hadis ilminde âlime, Dımaşkî, ilmini babasından ve diğerlerinden aldı"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 708,
+    "start_ce": 1308,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=fatima-bint-suleyman, URL: https://islamansiklopedisi.org.tr/fatima-bint-suleyman || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8145] || DİA death place: Dımaşk || DİA death-date string: (ö. 708/1308) || DİA categories: hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=8145, heading_ar=فاطمة بنت سليمان, dt=Hadis ilminde âlime, Dımaşkî, ilmini babasından ve diğerlerinden aldı"
+}

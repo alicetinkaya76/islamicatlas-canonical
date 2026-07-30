@@ -1,0 +1,104 @@
+{
+  "@id": "iac:person-00000298",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abu Hanifa al-Dinawari",
+      "tr": "Ebû Hanîfe ed-Dînevarî",
+      "ar": "أبو حنيفة الدينوري"
+    },
+    "originalScript": {
+      "ar": "أبو حنيفة الدينوري"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Hanifa Ahmad ibn Dawud al-Dinawari"
+      ],
+      "tr": [
+        "Ebû Hanîfe Ahmed b. Dâvûd ed-Dînevarî"
+      ],
+      "ar": [
+        "أبو حنيفة أحمد بن داود الدينوري"
+      ]
+    },
+    "description": {
+      "tr": "637'den fazla bitki türünü betimleyen ilk sistematik Arapça botanik ansiklopedisini yazdı — İslam botaniğinin babası || Kitâbü'n-Nebât, bitkileri çevreleri, tarımsal kullanımları ve farmakolojik özellikleriyle sınıflandırdı. || [Tarih notu] Kitâbü'n-Nebât'ın büyük kısmı yalnızca parçalar halinde günümüze ulaşmıştır.",
+      "en": "Wrote the first systematic Arabic botanical encyclopedia describing 637+ plant species — the father of Islamic botany and a pioneer of empirical plant science || His Kitab al-Nabat classified plants by their environment, agricultural use, and pharmaceutical properties — a tripartite framework that anticipated modern botanical taxonomy. || [Historiographical note] Much of the Kitab al-Nabat survives only in fragments. What remains reveals a sophisticated empirical approach that rivals any contemporary European botanical work.",
+      "ar": "كتب أول موسوعة نباتية عربية منهجية تصف أكثر من 637 نوعاً || صنّف النباتات حسب بيئتها واستخدامها الزراعي وخصائصها الصيدلانية"
+    }
+  },
+  "profession": [
+    "scholar",
+    "astronomer",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0115",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0115",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:462",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=462",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:15Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0115 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 815,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 896,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q293520",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Abu Hanifa al-Dinawari')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0115, lecture_week=n/a. || Key works: {'title': {'en': 'Kitāb al-Nabāt (Book of Plants)', 'tr': \"Kitâbü'n-Nebât (Bitkiler Kitabı)\", 'ar': 'كتاب النبات'}, 'year': 860, 'field': 'natural_sciences', 'significance': {'en': 'First systematic Arabic botanical encyclopedia — describing over 637 plant species with agricultural, pharmaceutical, and ecological observations', 'tr': \"İlk sistematik Arapça botanik ansiklopedisi — 637'den fazla bitki türünü tarım, eczacılık ve ekolojik gözlemlerle betimler\"}} || Modern parallel: Like Linnaeus — the first person to systematically classify hundreds of plant species in a single comprehensive framework.",
+  "authored_works": [
+    "iac:work-00000155"
+  ]
+}

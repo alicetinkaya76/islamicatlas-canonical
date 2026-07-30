@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00005865",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mustafa Anber Ağa"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu ve burada yaşadı. Babasının adı Mehmed’dir. Küçük yaşta saraya alınarak Enderun’da özellikle hat ve mûsikide kendini yetiştirdi. Hattaki hocası Belgradî Mehmed Efendi’den nesih ve sülüs öğrenerek icâzet aldı. Neshinin sülüsten daha ileri olduğu söylenir. Sarayda meşk hocalığı yaptı, rikâbdâr-ı şehriyârîler arasına girdi. Köprülü Mehmed Paşa’ya karşı aldığı tavır sebebiyle 1067 Cemâziyelâhirinde (Mart 1657) kapıcıbaşılıkla çerağ edildi. Devhatü’l-küttâb ’da hayatının son dönemlerinde yeniden saraya alınıp kâtip ve muallimlik görevlerinde bulunduğu kaydedilmektedir. 1095’te (1684) vefatı üzerine Himmetzâde Abdi Efendi şu tarih mısraını kaleme almıştır: “Bu dükkân içinde kalmadı nişânı Anber’in.” Sicill-i Osmânî ’de yer alan, 1067 (1657) yılını takip eden seneler içinde öldüğüne dair ifade doğru değildir. Mustafa Anber Ağa, hattatlığının yanı sıra bestekârlığı ile de dönemin mûsikişinasları arasına girmiştir. Bazı el yazması güfte mecmualarında bestelerine rastlanmaktaysa da notası günümüze ulaşan eseri bulunmamaktadır. Sadettin Nüzhet Ergun sözleri Niyâzî-i Mısrî’ye ait, “Bir kimse aceb yok mu ki bu sînemi yâram” mısraıyla başlayan eviç, “Ey bülbül-i şeydâ yine efgāna mı geldin” mısraıyla başlayan uşşak makamındaki iki ilâhisinin güftesini kaydetmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 288 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mustafa-anber-aga",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mustafa-anber-aga, https://islamansiklopedisi.org.tr/mustafa-anber-aga",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mustafa-anber-aga",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mustafa-anber-aga",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:44Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mustafa-anber-aga (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1095,
+    "start_ce": 1684,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mustafa-anber-aga, URL: https://islamansiklopedisi.org.tr/mustafa-anber-aga || DİA birth place: İstanbul || DİA death-date string: (ö. 1095/1684) || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00005324",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEHMED EFENDİ, Kalburîzâde"
+    },
+    "description": {
+      "tr": "Asıl adı Mehmed Emin’dir. Lakabından Kalburcu esnafından birinin oğlu olduğu anlaşılmaktadır. Hayatının büyük bir kısmını Bursa’da geçirdi. Burada Celvetiyye tarikatına intisap ettikten bir müddet sonra tarikatın ileri gelenleri arasında anılmaya başladı. Sesinin güzelliğiyle de dikkati çeken Mehmed Efendi bu arada İstanbul’a giderek dönemin üstatlarından mûsiki öğrendi ve pek çok eser meşk etti. Bursa’da devam ettiği İsmâil Hakkı Dergâhı’nda zâkirler arasına alındı. Tekkenin şeyhi reîsülmeşâyih Hikmetîzâde Mehmed Emin Efendi’ye damat oldu ve kırk yılı aşkın kayınpederinin sohbetlerinde ve hizmetinde bulundu. Tekkede okunan mevlidlerde tevşîhhanlara reislik yapan, aynı zamanda tıp ilmiyle de meşgul olan Mehmed Efendi, yetmiş üç - yetmiş dört yaşlarında 1237’de (1822) vefat etti (Mehmed Fahreddin, vr. 341 b ) ve adı geçen dergâhın hazîresine defnedildi. Onun vefatına tarih olarak Yılmaz Öztuna’nın 1720, Gültekin Oransay’ın ise 1765 yılını göstermesi yanlıştır. Eski kaynaklarda Kalburîzâde olarak kaydedilen aile adını Suphi Ezgi’nin Nalburîzâde şeklinde zikretmesinin sebebi anlaşılamamıştır. Rûşen Efendi’nin Mecmûa-i İlâhiyyât ’ı ile Abdülkadir Töre’nin eserinde ondan “şeyh” olarak söz edilmesi yanlıştır. Döneminin önemli zâkirlerinden biri olduğu kaydedilen Mehmed Efendi yaşadığı devirde bestekârlık yönüyle ve özellikle dinî mûsiki sahasındaki besteleriyle de tanınmıştır. Güftelerini daha çok İsmâil Hakkı Bursevî’nin şiirlerinden seçtiği bazı güfte mecmualarında rastlanan eserlerinden anlaşılmaktadır. Sadettin Nüzhet Ergun onun durak, tevşîh ve ilâhi formundaki on iki bestesinin sözlerini antolojisinde neşretmiş, bunlardan ancak üçünün notası zamanımıza ulaşmıştır. Güftesi İsmâil Hakkı Bursevî’ye ait, “Düştü cânâ âkıbet sevdâ-yı aşk” mısraıyla başlayan hümâyun ilâhisiyle güftesi Erzurumlu İbrâhim Hakkı’ya ait, “Merhabâ ey mevlid-i Peygamberî” mısraıyla başlayan rast tevşîhi günümüzde de okunan eserlerindendir. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 454 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-efendi-kalburizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-efendi-kalburizade, https://islamansiklopedisi.org.tr/mehmed-efendi-kalburizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-efendi-kalburizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-efendi-kalburizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:38Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-efendi-kalburizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1822,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=mehmed-efendi-kalburizade, URL: https://islamansiklopedisi.org.tr/mehmed-efendi-kalburizade || DİA death place: 1237 || DİA death-date string: (ö. 1822) || DİA categories: tarikat > tıp || Chunk count: 1"
+}

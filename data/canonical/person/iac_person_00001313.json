@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00001313",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bakkalzâde İsmâil Hakki"
+    },
+    "description": {
+      "tr": "Çaykara’da Ataköy’de (Şinek) doğdu. İlk öğrenimine burada müderrislik yapan babası Mehmed Efendi’nin yanında başladı. Daha sonra yörenin meşhur müderrislerinden Abbas Efendizâde Mehmed Efendi’den ders alarak İslâmî ilimler alanındaki tahsiline devam etti. 1878’de Erzurum’da Osmanlı-Rus Harbi’ne katıldı. Hocasının bu savaşta şehid düşmesi üzerine savaş sonrasında yarım kalan öğrenimini Akdoğan (Yukarı Hopşera) köyü müderrisi Hâfızzâde İsmâil Efendi’nin yanında tamamladı. Önce Tonya’nın Kumyatak köyündeki İskenderli Medresesi’nde başladığı müderrislik görevine sırasıyla Vakfıkebir’de ve Of’un Uğurlu (Çifaruksa) köyünde devam etti. Yaklaşık otuz yıl boyunca oturduğu Uğurlu’da bir medrese kurdu ve buradan yüzlerce öğrenci mezun etti. Uğurlu’da bulunduğu sırada boşalan Of müftülüğüne yörenin müderrislerince ittifakla seçildiği halde öğretim faaliyetine engel olacağı düşüncesiyle bu görevi kabul etmedi. Ruslar’ın Trabzon’u işgali sırasında yaptığı etkili vaazlarla halkı cihada çağırdı; topladığı milis kuvvetlerinin başına geçerek Rus ordusunun Baltacı deresinden geçmesine engel olmaya çalıştı. 1902’de kendi köyüne dönerek burada ve Maraşlı (Paçan) köyünde ders okutmaya devam etti. Bakkalzâde doğduğu köyde vefat etti; mezarı Şinek Camii’nin yanındaki kabristandadır. Öğrencilerinden Kamazâde Mustafa Efendi’nin verdiği bilgilere göre hayatını İslâm ilimlerini öğrenmek ve öğretmekle geçiren İsmâil Hakkı Efendi, on yedi dönem icâzet vererek 2000’e yakın öğrenci yetiştirmiştir. Hayatı, çoğu savaşlarla geçen Osmanlılar’ın son dönemine rastladığı için talebeleri ve ilmî faaliyetleri hakkında fazla bilgi mevcut değildir. Bilinen en meşhur talebeleri, Maraşlı köyü müderrislerinden İdris Efendi ile son dönem kıraat âlimlerinden Mehmet Rüştü Âşıkkutlu’dur. İsmâil Hakkı Efendi tedris faaliyeti yanında eser telif etmekle de meşgul olmuştur. Tasavvuf, belâgat ve mev‘izaya dair bazı eserler yazmış, ayrıca mantık ve kelâmla ilgili bir iki eser tercüme etmişse de özel kütüphanesinde bulunan kitaplarının hemen hemen tamamı bir yangında yok olmuştur. Kurban Risâlesi , Kırk Hadis , Manzum Of Kasidesi , Mecâlis-i Cihâdiyye , Fâtiha Mev‘izası vb. adlar taşıyan eserlerinden geriye sadece el-Kâfî fî şerḥi’l-ʿArûż adında belâgatla ilgili Arapça bir kitabı kalmıştır (İSAM Ktp., nr. 11.231). Orta boy otuz yedi varaktan ibaret olan kitap, Ebü’l-Ceyş el-Ensârî’ye ait el-Muḫtaṣar fî ʿilmi’l-ʿarûż adlı eser üzerine güzel bir üslûpla yazılmış, tatminkâr açıklamalar ihtiva eden bir şerhtir. Müellif mukaddimede eserini müderrisliğinin ilk yıllarında Kumyatak köyünde telif ettiğini kaydetmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 545 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bakkalzade-ismail-hakki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bakkalzade-ismail-hakki, https://islamansiklopedisi.org.tr/bakkalzade-ismail-hakki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bakkalzade-ismail-hakki (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1830,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=bakkalzade-ismail-hakki, URL: https://islamansiklopedisi.org.tr/bakkalzade-ismail-hakki || DİA death place: 1902 || DİA death-date string: (1830-1921) || DİA categories: belâgat > hadis > kelâm || Chunk count: 1",
+  "students": [
+    "iac:person-00001136"
+  ]
+}

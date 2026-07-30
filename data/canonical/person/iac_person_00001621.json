@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00001621",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BÜREK es-SARÎMÎ",
+      "ar": "البرك الصريمي"
+    },
+    "originalScript": {
+      "ar": "البرك الصريمي"
+    },
+    "altLabel": {
+      "tr": [
+        "el-Haccâc b. Abdillâh el-Bürek es-Sarîmî el-Hâricî"
+      ]
+    },
+    "description": {
+      "tr": "Asıl adı Haccâc’dır, fakat daha çok Bürek lakabıyla tanınır. Temîm kabilesinin Sarîm koluna mensuptur. Önceleri Hz. Ali’nin taraftarlarından olan Bürek, Hz. Ali ile Hz. Muâviye arasındaki ihtilâfın çözümünün hakemlere havale edilmesine karşı çıkarak Hz. Ali’den ayrılmış ve Hâricîler’in safına geçmiştir. Hakem Vak‘ası’na, “Hüküm ancak Allah’ındır” diyerek ilk itiraz edenin Bürek olduğu söylenmektedir (Müberred, III, 1106). Bürek, Abdurrahman b. Mülcem ve Amr b. Bekir hac münasebetiyle bulundukları Mekke’de bir toplantı yaparak doğru yoldan ayrıldıklarına inandıkları Hz. Ali, Muâviye ve Amr b. Âs’ı öldürmek suretiyle hem Nehrevan’da katledilen Hâricîler’in intikamını almaya, hem de bütün müslümanları rahata kavuşturmaya ant içtiler. Abdurrahman b. Mülcem’in Ali b. Ebû Tâlib’i, Amr b. Bekir’in Amr b. Âs’ı, Bürek’in de Muâviye b. Ebû Süfyân’ı 17 Ramazan 40 (24 Ocak 661) tarihinde sabah namazı için mescide gittikleri zaman öldürmesini kararlaştırdılar. Daha sonra da her biri Şam, Kûfe ve Mısır’a hareket ettiler. Bürek es-Sarîmî kararlaştırılan gün ve vakitte Şam Mescidi’nde zehirli kılıcıyla Muâviye’ye saldırdı, fakat onu öldüremedi. Derhal yakalanan Bürek, Ali b. Ebû Tâlib’in bir arkadaşı tarafından Kûfe’de öldürülmüş olması gerektiği haberini vererek affedilmesini istedi. Ancak Muâviye’nin emriyle orada öldürüldü. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 492 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:burek-es-sarimi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=burek-es-sarimi, https://islamansiklopedisi.org.tr/burek-es-sarimi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:burek-es-sarimi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/burek-es-sarimi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:45Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=burek-es-sarimi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sarîmî; Hâricî"
+  ],
+  "death_temporal": {
+    "start_ah": 40,
+    "start_ce": 661,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=burek-es-sarimi, URL: https://islamansiklopedisi.org.tr/burek-es-sarimi || DİA death-date string: (ö. 40/661) || Chunk count: 1"
+}

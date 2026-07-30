@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00005647",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MUGĪRE b. NEVFEL",
+      "ar": "المغيرة بن نوفل"
+    },
+    "originalScript": {
+      "ar": "المغيرة بن نوفل"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Yahyâ (Ebû Halîme) el-Mugīre b. Nevfel b. el-Hâris b. Abdilmuttalib b. Hâşim el-Kureşî"
+      ]
+    },
+    "description": {
+      "tr": "Hicretten önce Mekke’de dünyaya geldi; daha sonra Medine’de doğduğu ve Hz. Peygamber’in vefatında altı yaşında olduğu da söylenir. Resûl-i Ekrem’in amcası Hâris b. Abdülmuttalib’in torunudur. Mugīre’nin Hz. Osman zamanında Medine’de kadılık yaptığı bilinmektedir. Hz. Ali’nin safında Sıffîn Savaşı’na ve diğer muharebelere katıldı. Güçlü kuvvetli bir kişi olarak nitelendirilen Mugīre, bazı rivayetlere göre Hz. Ali Kûfe’de İbn Mülcem’in saldırısına uğradığında kadife pelerinini suikastçının üzerine atıp daha fazla hamle yapmasını engellemiş ve ardından onu yere yıkarak zehirli kılıcını elinden düşürmüştür (Müberred, III, 1119; Mes‘ûdî, II, 424; krş. DİA , XX, 220). Mugīre, Hz. Ali’nin şehâdetinden sonra Hz. Hasan’ın yanında yer aldı ve Hasan Muâviye ile savaşmak üzere harekete geçtiğinde onu Kûfe’de idareci olarak bıraktı. Mugīre b. Nevfel, Hz. Ali’nin dul eşi Ümâme bint Ebü’l-Âs ile evlendi. Hz. Ali’nin yaralı yattığı sırada, Hz. Fâtıma’nın ölümünden sonra evlendiği bu eşini kendisinin ardından Muâviye b. Ebû Süfyân’ın almak isteyeceğini düşünerek yakın akrabaları olan Mugīre’ye bizzat önerdiği veya eşine Mugīre ile evlenmesi yolunda tavsiyede bulunduğu rivayet edilmektedir. Mugīre’nin Ümâme’den Yahyâ isimli bir oğlu olmuş, ancak nesebi devam etmemiştir. Fakat Ümâme’nin bu kocasından çocuğu olmadığı da söylenir. Öte yandan Mugīre’nin, 50 (670) yılında vefat eden Ümâme dışındaki hanımlarından Ebû Süfyân b. Hâris b. Abdülmuttalib’in torunu Âmine’den Ebû Süfyân adlı bir oğlu daha olmuş, ancak ondan da soyu devam etmemiştir. Diğer eşleri ve câriyelerinden ise birçok çocuğunun olduğu bilinmektedir. Mugīre b. Nevfel kanalıyla Hz. Peygamber’den bir hadis rivayet edilmiştir; ayrıca onun mürsel olarak rivayette bulunduğu da söylenir. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 30. cildinde, 374-375 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mugire-b-nevfel",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mugire-b-nevfel, https://islamansiklopedisi.org.tr/mugire-b-nevfel",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:42Z",
+    "modified": "2026-05-04T15:34:42Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mugire-b-nevfel (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî"
+  ],
+  "death_temporal": {
+    "start_ah": 50,
+    "start_ce": 670,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mugire-b-nevfel, URL: https://islamansiklopedisi.org.tr/mugire-b-nevfel || DİA birth place: Medine || DİA death-date string: (ö. 50/670’ten sonra) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

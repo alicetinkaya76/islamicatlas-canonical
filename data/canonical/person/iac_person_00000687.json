@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00000687",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abkasî",
+      "ar": "العبقسي"
+    },
+    "originalScript": {
+      "ar": "العبقسي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Ahmed b. İbrâhîm b. Firâs el-Attâr el-Abkasî"
+      ]
+    },
+    "description": {
+      "tr": "Abdülkaysoğulları sülâlesinden geldiği için Abkasî diye anılır. Daha on yaşındayken hadis tahsiline başladı. Devrinin muhaddislerinden Ebû Ca‘fer Muhammed b. İbrâhim ed-Deybülî, Ebü’t-Türeyk Muhammed b. Hüseyin es-Sa‘dî el-Hımsî, Muhammed b. Rebî‘ b. Süleyman el-Cîzî gibi âlimlerden hadis öğrendi. Daha sonraları hocası Deybülî’nin rivayetlerini sadece Abkasî devam ettirmiştir. Kendisinden de Semmân diye meşhur olan İsmâil b. Ali, Ebû Nasr es-Siczî, Ṣaḥîḥ-i Buḫârî ’nin meşhur râvisi Ebû Zer el-Herevî, tanınmış kıraat âlimleri Ebû Amr ed-Dânî ile Mekkî b. Ebû Tâlib gibi âlimler hadis rivayet etmişlerdir. Talebelerinden Ebû Zer el-Herevî ile Ebû Nasr es-Siczî, onun güvenilir bir muhaddis olduğunu söylemektedir. Ayrıca İbn Beşküvâl de Abkasî’nin talebesi Hâtim b. Muhammed et-Tarablûsî’nin hal tercümesini yazarken Abkasî’den güvenilir bir muhaddis olarak söz etmektedir. Yaşadığı devrin meşhur bir muhaddisi olması ve özellikle Mekke’de oturması sebebiyle pek çok muhaddis uzak yerlerden gelerek kendisinden istifade etmiştir. Abkasî’yi bizzat göremeyen İbn Abdülber, ondan icâzet yoluyla hadis rivayet etmiştir. Cidde kadılığı yaptığı da rivayet edilen Abkasî, doksan üç yaşlarında Mekke’de vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 311-312 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abkasi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abkasi, https://islamansiklopedisi.org.tr/abkasi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abkasi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Abkasî"
+  ],
+  "death_temporal": {
+    "start_ah": 405,
+    "start_ce": 1014,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abkasi, URL: https://islamansiklopedisi.org.tr/abkasi || DİA death place: Mekke || DİA death-date string: (ö. 405/1014-15) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001846"
+  ],
+  "students": [
+    "iac:person-00002232",
+    "iac:person-00002307",
+    "iac:person-00003604",
+    "iac:person-00005410",
+    "iac:person-00006849"
+  ]
+}

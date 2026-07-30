@@ -1,0 +1,123 @@
+{
+  "@id": "iac:person-00002783",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Firkâh",
+      "ar": "الفركاح"
+    },
+    "originalScript": {
+      "ar": "الفركاح"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Tâcüddîn Abdurrahmân b. İbrâhîm b. Sibâ‘ el-Firkâh el-Fezârî el-Bedrî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Mısırlı olup 624 (1227) yılında doğdu. Bacaklarını aşırı derecede ayırarak yürüdüğü için “Firkâh” lakabıyla meşhur oldu. Küçük yaşlardan itibaren farklı ilim dallarında birçok meşhur âlimden ders aldı. Sirâceddin İbnü’z-Zebîdî, İbn Mâseveyh, İbnü’s-Salâh eş-Şehrezûrî ve Ali b. Muhammed es-Sehâvî gibi âlimlerden hadis; yine İbnü’s-Salâh ve İzzeddin İbn Abdüsselâm’dan fıkıh okudu. Henüz genç yaşta iken ilmî münazara, tedris ve fetva faaliyetlerinde kendini kabul ettirdi. Yaşadığı dönemde ictihad derecesine ulaşmış Şâfiî âlimlerinden biri olan Firkâh’ın çağdaşı Yahyâ b. Şeref en-Nevevî’den münazara konusunda daha üstün, fıkhî konularda ise daha az bilgi sahibi olduğu söylenmektedir. Dımaşk’ta Bâdrâiyye ve Mücâhidiyye medreselerinde müderrislik yapan Firkâh’tan başta oğlu Burhâneddin el-Fezârî (İbnü’l-Firkâh) olmak üzere Takıyyüddin İbn Teymiyye, Necmeddin İbn Sasrâ, Kemâleddin İbnü’z-Zemlekânî, Kemâleddin İbn Kādî Şühbe ve Mizzî gibi âlimler ders almış, Dımaşk ve yöresinin kadı, müderris ve âlimlerinin çoğunluğu onun derslerinden faydalanmıştır. Tâceddin el-Firkâh 5 Cemâziyelâhir 690 (5 Haziran 1291) tarihinde vefat etmiş ve Bâbüssagīr Kabristanı’na defnedilmiştir. Eserleri. 1. ed-Derekât . İmâmü’l-Haremeyn el-Cüveynî’nin fıkıh usulüne dair el-Varaḳāt adlı eserine yaptığı şerhtir (Brockelmann, I, 487). 2. el-İḳlîd li-derʾi’t-taḳlîd . Ebû İshak eş-Şîrâzî’nin et-Tenbîh ’inin yarım kalmış bir şerhidir ( a.g.e. , I, 485). Kaynaklarda Firkâh’ın, kendi zamanında meydana gelen olayları anlattığı et-Târîḫ adlı bir eser kaleme aldığı, Ebü’l-Kāsım Abdürrahim b. Muhammed el-Mevsılî’nin et-Taʿcîz fî iḫtiṣâri’l-Vecîz ’ini şerhedip İbnü’l-Cevzî’nin el-Mevżûʿâtü’l-kübrâ ’sını ihtisar ettiği, ayrıca Kitâbü’l-İşkâlât ve Keşfü’l-ḳınâʿ fî ḥalli’s-simâʿ adında müstakil eserleri bulunduğu belirtilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 135 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:firkah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=firkah, https://islamansiklopedisi.org.tr/firkah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:firkah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=firkah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:5094",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5094, heading_ar=الفركاح",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:05Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:05Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=firkah (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5094]. Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=firkah)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5094 (heading_ar=الفركاح) via Track A (DİA→Alam xref bridge). dt=Tarihçi, Şâfiî âlimlerinden, İbn Şâkir ona içtihad mertebesi ulaştığını söylemiş"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Fezârî; Bedrî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 624,
+    "start_ce": 1227,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 690,
+    "start_ce": 1291,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=firkah, URL: https://islamansiklopedisi.org.tr/firkah || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5094] || DİA death-date string: (ö. 690/1291) || DİA categories: fıkıh > hadis > fetva || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5094, heading_ar=الفركاح, dt=Tarihçi, Şâfiî âlimlerinden, İbn Şâkir ona içtihad mertebesi ulaştığını söylemiştir",
+  "teachers": [
+    "iac:person-00003623",
+    "iac:person-00004327"
+  ],
+  "students": [
+    "iac:person-00002769",
+    "iac:person-00004054"
+  ]
+}

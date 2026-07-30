@@ -1,0 +1,120 @@
+{
+ "@id": "iac:person-00000278",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ebussuud Efendi",
+   "tr": "Ebüssuûd Efendi",
+   "ar": "أبو السعود أفندي"
+  },
+  "originalScript": {
+   "ar": "أبو السعود أفندي"
+  },
+  "altLabel": {
+   "en": [
+    "Muhammad ibn Muhammad Abu al-Su'ud al-Imadi"
+   ],
+   "tr": [
+    "Muhammed b. Muhammed Ebüssuûd el-İmâdî"
+   ],
+   "ar": [
+    "محمد بن محمد أبو السعود العمادي"
+   ]
+  },
+  "description": {
+   "tr": "29 yıl şeyhülislâmlık yaparak fetvaları ile İslam hukukunu Osmanlı imparatorluk yönetimiyle uyumlu hale getirdi || Fetvaları, Hanefî mezhebinin kıtalararası bir imparatorluğun yönetim ihtiyaçlarına nasıl uyum sağladığını belirledi. || [Tarih notu] Arazi hukuku ve vergilendirme fetvaları yüzyıllar boyunca Osmanlı ekonomi politikasını şekillendirdi.",
+   "en": "As Sheikh al-Islam for 29 years, he harmonized Islamic law with Ottoman imperial governance through fatwas that became legal precedent for the entire empire || His legal opinions (fatwas) defined how the Hanafi school adapted to the governance needs of a transcontinental empire. His tafsir synthesized the rational Mu'tazili and the traditional Ash'ari approaches. || [Historiographical note] His fatwas on land law and taxation shaped Ottoman economic policy for centuries, making him as much a political economist as a jurist.",
+   "ar": "بصفته شيخ الإسلام لمدة 29 سنة، وفّق بين الشريعة الإسلامية والحكم الإمبراطوري العثماني || حددت فتاواه كيفية تكيف المذهب الحنفي مع احتياجات حكم إمبراطورية عابرة للقارات"
+  }
+ },
+ "profession": [
+  "scholar",
+  "philosopher"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0095",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0095",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   },
+   {
+    "source_id": "scholars:445",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=445",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:57:22Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:57:22Z",
+  "modified": "2026-07-12T14:48:04Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:57:22Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0095 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:32Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (278-2390-18172) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00002390 lehine yumuşak-silindi. Gerekçe: Üçü de 982/1574'te ölen Osmanlı şeyhülislâmı Ebüssuûd Efendi el-İmâdî'yi gösteriyor; künye (Ebû Suûd) birebir aynı ve el-A'lâm'ın 'şair' etiketi onun şiir/inşâ yönüyle uyumlu, çelişki değil."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00002390"
+ },
+ "birth_temporal": {
+  "start_ce": 1490,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1574,
+  "approximation": "exact"
+ },
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q4892993",
+   "confidence": 1.0,
+   "method": "openrefine_v3",
+   "reviewed": false,
+   "note": "Auto-matched via OpenRefine recon (top result for 'Ebussuud Efendi')."
+  }
+ ],
+ "note": "Promoted from science_layer.json scholar id=scholar_0095, lecture_week=n/a. || Key works: {'title': {'en': 'Irshād al-ʿAql al-Salīm', 'tr': \"İrşâdü'l-Akli's-Selîm\", 'ar': 'إرشاد العقل السليم'}, 'year': 1550, 'field': 'religious_sciences', 'significance': {'en': 'Major Quran commentary integrating rational and traditional exegesis — the standard Ottoman tafsir for centuries', 'tr': \"Aklî ve naklî tefsiri birleştiren büyük Kur'an tefsiri — yüzyıllar boyunca standart Osmanlı tefsiri\"}} || Modern parallel: Like a Chief Justice who reshapes an entire legal system to fit new political realities while maintaining constitutional continuity.",
+ "active_in_places": [
+  "iac:place-00000735"
+ ],
+ "authored_works": [
+  "iac:work-00000134"
+ ]
+}

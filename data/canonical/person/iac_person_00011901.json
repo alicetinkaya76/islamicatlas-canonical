@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00011901",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Nāṣir",
+      "tr": "İbn Nâsır",
+      "ar": "ابن ناصر"
+    },
+    "originalScript": {
+      "ar": "ابن ناصر"
+    },
+    "description": {
+      "tr": "Hadis ilmine vâkıf alim fakîh, Mağrîbî.",
+      "en": "A learned jurist with knowledge of hadith, Moroccan."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Sulaymān b. Yūsuf b. Muḥammad, Abū al-Rabīʿ Ibn Nāṣir"
+    },
+    "altLabel": {
+      "tr": [
+        "Süleymân b. Yûsuf b. Muhammed, Ebû Rebîʿ b. Nâsır"
+      ],
+      "ar": [
+        "سليمان بن يوسف بن محمد، أبو الربيع ابن ناصر"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:4249",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=4249",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:05Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:05Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=4249 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:4249."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1225,
+    "start_ce": 1810,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=4249, heading_ar=ابن ناصر || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 34.03, -5.0",
+  "authored_works": [
+    "iac:work-00000402",
+    "iac:work-00002759",
+    "iac:work-00005705",
+    "iac:work-00006303",
+    "iac:work-00007428"
+  ],
+  "kunya": "أبو الربيع"
+}

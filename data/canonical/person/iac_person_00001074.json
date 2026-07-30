@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00001074",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ANBESE b. SÜHAYM",
+      "ar": "عنبسة بن سحيم"
+    },
+    "originalScript": {
+      "ar": "عنبسة بن سحيم"
+    },
+    "altLabel": {
+      "tr": [
+        "Anbese b. Sühaym el-Kelbî"
+      ]
+    },
+    "description": {
+      "tr": "Endülüs Valisi Semh b. Mâlik el-Havlânî’nin öldürülmesi üzerine halk yeni vali tayin edilinceye kadar Abdurrahman b. Abdullah el-Gāfikī’yi vali seçti. Daha sonra İfrîkıye Valisi Yezîd b. Ebû Müslim, Anbese’yi Endülüs valiliğine tayin etti (102/720). İfrîkıye’nin yeni valisi Bişr b. Safvân da onu aynı görevde bıraktı. Anbese valiliği sırasında cihada önem verdi ve Frank topraklarına akınlar düzenledi. Carcassonne’yi bir müddet kuşattıktan sonra barış yoluyla aldı. Yapılan anlaşmaya göre Carcassonne halkı müslüman esirleri serbest bırakacak ve cizye ödeyecekti. Ayrıca müslümanların dostlarına dost, düşmanlarına da düşman olacaklardı. Anbese daha sonra Gaul bölgesindeki Septimania’yı fethetti ve Fransa içlerine kadar ilerleyerek Rhône nehrini geçti. Burgondes bölgesindeki ileri harekâtı sırasında da Lyon şehrini ele geçirdi ve dönüşte seferlerden birinde aldığı yara yüzünden öldü (Şâban 107 / Aralık 725). Valiliği dört yıl sekiz ay devam etmiştir. Anbese cesur ve kabiliyetli bir kumandan, iyi bir idareciydi. Bâce papazı İsidore, onun bu fetihleri zor ve şiddet kullanarak değil büyük bir ustalıkla gerçekleştirdiğini söyler. Müsteşrik Reinaud da Anbese’nin bu politikası sebebiyle Gaul topraklarından alınan haracın kat kat arttığını ifade eder. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 194-195 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:anbese-b-suhaym",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=anbese-b-suhaym, https://islamansiklopedisi.org.tr/anbese-b-suhaym",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:anbese-b-suhaym",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/anbese-b-suhaym",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:7924",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=7924, heading_ar=عنبسة بن سحيم",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=anbese-b-suhaym (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[7924]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=7924 (heading_ar=عنبسة بن سحيم) via Track A (DİA→Alam xref bridge). dt=Fâtih, cesur gazîlerden"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kelbî"
+  ],
+  "death_temporal": {
+    "start_ah": 107,
+    "start_ce": 725,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=anbese-b-suhaym, URL: https://islamansiklopedisi.org.tr/anbese-b-suhaym || El-Aʿlām (Ziriklī) cross-reference: alam_id=[7924] || DİA death-date string: (ö. 107/725) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=7924, heading_ar=عنبسة بن سحيم, dt=Fâtih, cesur gazîlerden"
+}

@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00002343",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÜ’l-FEREC el-HATÎB",
+      "ar": "أبو الفرج الخطيب"
+    },
+    "originalScript": {
+      "ar": "أبو الفرج الخطيب"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Ferec Hibetullāh Muhammed b. Abdilkādir b. Sâlih el-Hatîb ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "1244 (1828) yılında Şam’da doğdu. Tahsil hayatına muhitindeki bazı âlimlerden ve daha çok babasından ders alarak başladı. Kaynaklarda Hicaz ve Mısır âlimlerinden de faydalandığı ve bunlardan icâzetler aldığı belirtilmektedir. Henüz babası hayatta iken okutmaya başladığı derslerini onun vefatından sonra da Nûriyye Medresesi’nde ve Emeviyye Camii’nde sürdürdü. Bu derslerden pek çok talebe istifade etti. Devlet adamları ve halk kendisine derin saygı duyar, dinî sorularının halli için ona başvururlardı. Fıkıhta Şâfiî mezhebine mensup olmakla birlikte fetva için gelenlere Hanbelî fakihlerinin görüşleriyle de cevap verirdi. Ebü’l-Ferec Safer 1311’de (Ağustos 1893) Şam’da vefat etti ve Dahdâh Kabristanı’na defnedildi. Eserleri. Henüz hiçbiri neşredilmeyen ve vârislerine intikal eden özel kütüphanesinde bulunan eserlerinin bazıları şunlardır: et-Tenzîl ve esrârü’t-teʾvîl (en önemli eseri olup otuz ciltlik bir tefsirdir); el-Füyûżâtü’l-ḥisân fî neṣâʾiḥi’l-vildân (dört ciltlik bu eserin bir fıkıh ve ahlâk kitabı olduğu anlaşılmaktadır); Risâle fî vaʿîdi ḥırmâni’l-veres̱eti’ḍ-ḍıʿâf ( Refʿu’l-ʿadl ve’l-insâf bi-ḥırmâni’l-veres̱eti’ḍ-ḍıʿâf ); Muḫtaṣaru Müsnedi’l-İmâm Aḥmed ; Muḫtaṣaru Târîḫi İbn ʿAsâkir ; Risâle fî fażli ziyârâti Dımaşḳ ; Ḥâşiye ʿalâ Ḳaṭri’n-nedâ . Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 315-316 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebul-ferec-el-hatib",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebul-ferec-el-hatib, https://islamansiklopedisi.org.tr/ebul-ferec-el-hatib",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ebul-ferec-el-hatib",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ebul-ferec-el-hatib",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:58Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebul-ferec-el-hatib (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ebul-ferec-el-hatib)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 1244,
+    "start_ce": 1828,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1311,
+    "start_ce": 1893,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebul-ferec-el-hatib, URL: https://islamansiklopedisi.org.tr/ebul-ferec-el-hatib || DİA birth place: Şam || DİA death place: Şam || DİA death-date string: (ö. 1311/1893) || DİA categories: fıkıh > tefsir > fetva || Chunk count: 1"
+}

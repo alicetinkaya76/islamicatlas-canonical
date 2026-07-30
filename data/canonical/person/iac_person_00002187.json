@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00002187",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ HIRÂŞ el-HÜZELÎ",
+      "ar": "أبو خراش الهذلي"
+    },
+    "originalScript": {
+      "ar": "أبو خراش الهذلي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Hırâş Huveylid b. Mürre el-Hüzelî"
+      ],
+      "ar": [
+        "أبوخراش الهذلي"
+      ]
+    },
+    "description": {
+      "tr": "Muhadramûn şairlerden olup ileri yaşlarda İslâmiyet’i kabul etmiştir. Hz. Peygamber’le görüşüp görüşmediği bilinmemektedir. Çok iyi bir savaşçı ve süratli bir koşucu olduğu, kendisi gibi şair olan diğer dokuz kardeşinin de aynı meziyetlere sahip bulunduğu nakledilmektedir. Bir Mekke dönüşünde kendisine pusu kuran Benî Dîl kabilesinin adamlarından hızlı koşması sayesinde kurtulmuştur. Ebû Hırâş, şiirlerinde de görüldüğü gibi, şerefiyle ölmeyi zilletle yaşamaya tercih eden bir mizaca sahipti. Ömrünün sonlarında zâhidâne bir hayatı benimseyerek inzivaya çekildi. Aile fertlerini ve kardeşlerini kaybettiği bu dönemde oğlu Hırâş’ın kendisinden izin almadan savaşa katılması üzerine Hz. Ömer’e başvurmuş, halife onun oğlunu geri çağırdığı gibi ebeveynlerinin izni olmadan çocukların savaşa gitmesini de yasaklamıştır. Yardım severliği ve cömertliğiyle de tanınan Ebû Hırâş’ın, kabilesine mensup bazı kişiler tarafından esir alınan kimseleri kurtardığı ve hacdan dönen Yemenli bir kafileyi evinde misafir ederken hayatından olduğu bilinmektedir. Rivayete göre, misafirlere yemek hazırlamak için evde su kalmadığını görünce kendisinin yaşlı olduğunu söyleyerek misafirlerden su getirmelerini istemiş, onların kabul etmemesi üzerine gece karanlığında suya gitmiş, dönüşte bir yılan tarafından sokularak zehirlendiği halde bu durumu misafirlere hissettirmemiş ve o gece vefat etmiştir. Hz. Ömer durumu öğrenince, “Eğer misafir kabul etmek sünnet olmasaydı hiçbir Yemenli’nin misafir edilmemesini emrederdim” diyerek üzüntüsünü ifade etmiş, daha sonra Yemen’deki valisine yazdığı mektupta Ebû Hırâş’ın evinde misafir olan kişilerden onun diyetini almasını emretmiştir. Ebû Hırâş el-Hüzelî, daha çok methiye ve mersiye yazan bir şair olarak tanınır. Kaynaklarda şiirlerine örnek olarak, Hâlid b. Velîd’in yıktığı Uzzâ adlı putun bekçisi olan Dübeyye es-Sülemî ile müslümanların Huneyn’de esir aldıkları müşrikler arasında bulunan Züheyr b. Acve için yazdığı mersiyeler zikredilir. Ayrıca Hz. Peygamber’in üstün vasıflarını dile getirdiği çok güzel bir şiirinden söz edilmektedir. Divanı J. Hell tarafından Neue Hudailiten-Diwane adıyla iki cilt halinde neşredilmiştir (Leipzig 1933). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 158-159 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-hiras-el-huzeli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-hiras-el-huzeli, https://islamansiklopedisi.org.tr/ebu-hiras-el-huzeli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-hiras-el-huzeli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-hiras-el-huzeli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:3421",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3421, heading_ar=أبوخراش الهذلي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:55Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-hiras-el-huzeli (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3421]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3421 (heading_ar=أبوخراش الهذلي) via Track A (DİA→Alam xref bridge). dt=Müshârık şair ve ünlü cengâver fâris."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hüzelî"
+  ],
+  "death_temporal": {
+    "start_ah": 15,
+    "start_ce": 636,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-hiras-el-huzeli, URL: https://islamansiklopedisi.org.tr/ebu-hiras-el-huzeli || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3421] || DİA death-date string: (ö. 15/636) || DİA categories: sünnet > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3421, heading_ar=أبوخراش الهذلي, dt=Müshârık şair ve ünlü cengâver fâris."
+}

@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00014343",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Muʿtaḍḍid al-Muʾminī",
+      "tr": "Muʿtazıd el-Müʾminî",
+      "ar": "المعتضد المؤمني"
+    },
+    "originalScript": {
+      "ar": "المعتضد المؤمني"
+    },
+    "description": {
+      "tr": "Murâbitlar (Benî Abdülmüʾmin) halifelerinden, Marakeş'te.",
+      "en": "One of the Almohad caliphs (Banū ʿAbd al-Muʾmin) in Marrakesh."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAlī (al-Muʿtaḍḍid bi-Allāh) b. Idrīs al-Māmūn b. Yaʿqūb al-Manṣūr, Abū al-Ḥasan al-Saʿīd"
+    },
+    "altLabel": {
+      "tr": [
+        "Ali (Muʿtazıd Billah) b. İdris el-Mâmûn b. Yaʿkûb el-Mansûr, Ebûl-Hasan es-Seʿîd"
+      ],
+      "ar": [
+        "علي (المعتضد بالله) بن إدريس المأمون بن يعقوب المنصور، أبو الحسنالسعيد"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:6983",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6983",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:30Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=6983 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:6983."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 464,
+    "start_ce": 1248,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6983, heading_ar=المعتضد المؤمني || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 31.63, -8.0",
+  "kunya": "أبو الحسن"
+}

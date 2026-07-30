@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00001974",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Delâl",
+      "ar": "الدلال"
+    },
+    "originalScript": {
+      "ar": "الدلال"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Zeyd Nâkıd ed-Delâl"
+      ]
+    },
+    "description": {
+      "tr": "70 (690) yılında Medine’de doğdu. Âişe bint Saîd b. Âs’ın âzatlısıdır. Benî Zeyd’in âzatlısı olduğu da rivayet edilmiştir. “Delâl” (işve, naz, cilve) adı kendisine inceliği ve zarafeti sebebiyle verilmiş olmalıdır. Mûsikideki hocası meşhur hânende ve bestekâr Tuveys’tir (ö. 92/710-11). Hişâm b. Meriye’nin nakline göre Delâl, Emevîler devrinin ünlü şairi Cerîr b. Atıyye’den öğrendiği iki makamı güzel ve müessir bir şekilde icra ederdi. İbn Süreyc Ubeydullah ve Nevmetü’d-Duhâ gibi zamanın meşhur mûsikişinaslarıyla aynı devirde yaşadı ve kısa zamanda ünlü hânendeler arasına girdi. Daha çok def eşliğinde dinleyicileri âdeta büyüleyen tarzda eserler okumasıyla tanınmıştır. Bazı kaynaklar, kadınlarla beraber oturup sohbet etmekten ve onlarla yakınlık kurmaktan hoşlanan Delâl’in, daha sonra onların hallerini erkeklere anlattığı için Halife Süleyman b. Abdülmelik’in emriyle Medine Valisi Amr b. Hazm el-Ensârî tarafından hadım edildiğini rivayet eder. Diğer bazı kaynaklar ise Abdülmelik’in onu himaye ettiğinden ve sarayında bir müddet ağırladıktan sonra ikramlarla geri gönderdiğinden bahseder. İçki içmediği halde bir mecliste içtiği bal şerbetine gizlice içki karıştırılması sonucunda hoşa gitmeyecek hareketler yapması üzerine bir daha şarkı söylememeye ve içki meclisinde bulunmamaya yemin ettiği nakledilir. Hayatının bundan sonraki dönemini Medine eşrafı ile sohbet ederek geçirdi ve orada vefat etti. Güzel sesi, renkli kişiliği ve nüktedanlığı ile tanınan Delâl’in hânendeliği yanında bestekârlığı üzerinde de önemle durulmaktadır. Daha çok çağdaşı olan şairlerin şiirlerini bestelemiştir. Nâbiga ez-Zübyânî, Ma‘bed b. Vehb, Mugīre b. Amr, Osman, Mecnûn, Cemîl, İbn Muhriz, İbn Kays er-Rukayyât, Ömer b. Ebû Rebîa adlı şairlerin şiirlerine yaptığı besteler bunlardan bazılarıdır. İsfahânî, el-Eġānî adlı eserinde onun bestelediği otuz eserin güftesini kaydetmektedir. Üstat Tuveys ile talebeleri İbn Süreyc ve Delâl yaptıkları yeniliklerle devrin mûsikisine büyük itibar kazandırmış, İslâm mûsiki tarihinde üç seçkin şahsiyet olarak yerlerini almışlardır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 118 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:delal",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=delal, https://islamansiklopedisi.org.tr/delal",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:delal",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/delal",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:51Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=delal (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 70,
+    "start_ce": 690,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 145,
+    "start_ce": 762,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=delal, URL: https://islamansiklopedisi.org.tr/delal || DİA birth place: Medine || DİA death-date string: (ö. 145/762) || DİA categories: rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00007425"
+  ]
+}

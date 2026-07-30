@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00007216",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Sûzenî",
+      "ar": "سوزنى"
+    },
+    "originalScript": {
+      "ar": "سوزنى"
+    },
+    "altLabel": {
+      "tr": [
+        "Şemsüddîn Tâcü’ş-şuarâ Muhammed b. Alî Hakîm Sûzenî-yi Semerkandî"
+      ]
+    },
+    "description": {
+      "tr": "Semerkant yakınlarındaki Nesef’te (Nahşeb) veya bazı kaynaklara göre Semerkant’ın Kelâş köyünde doğdu. Hayatı hakkında fazla bilgi yoktur. Bazı kaynaklarda kendisinden “emlahu’ş-şuarâ”, Fahreddin Ebû Bekr-i Sûzenî diye söz edilmekte, şiirlerinde adını Ebû Bekir, Muhammed ve Ömer şeklinde de andığı görülmektedir. Selmân-ı Fârisî’nin soyundan geldiğini ileri süren Sûzenî bazı şiirlerinde “Selmânî” mahlasını kullanmıştır. Gençliğinin ilk yıllarında öğrenimini sürdürmek için Buhara’ya gitti, orada iğnecilik sanatını öğrendi. Muhtemelen “Sûzenî” mahlasını bu sebeple almıştır. “Mes‘ûdî” mahlasıyla şiir yazan babasından bu yeteneğini aldığı ve şair olmasında babasının etkili olduğu anlaşılmaktadır. Buhara’dan başka Semerkant’ta eğitim gören ve hayatının büyük kısmı burada geçen Sûzenî, şiirlerinde ilk hâmileri olan Karahanlı Hükümdarı Arslan Han ve Kılıç Tamgaç Han’ı, ayrıca Buhara’nın önde gelen ulemâ ve yöneticilerinden olan Burhân ailesinden bazı kimseleri, Sultan Sencer’i ve başkalarını methetti. Hayatının son yıllarını yoksulluk içinde geçiren ve bu durumunu şiirlerine de yansıtan Sûzenî 569 (1173) yılında seksen yaşlarında vefat etti. 562’de (1166-67) öldüğü de kaydedilir. Şiirlerinden Arapça’yı ileri düzeyde bildiği ve Türkçe’sinin de iyi olduğu anlaşılan Sûzenî Fars şiirinde Türkçe kelimeler kullanan şairler arasında bulunmaktadır. Şiirlerinde yer verdiği konular arasında Hıristiyanlık ve Mani inancı hakkındaki bilgiler de bu alanlardaki birikimini göstermektedir. Daha çok bir hiciv ve eleştiri şairi olarak tanınan Sûzenî hiciv ve alay dalında özgün kavramlar ve mazmunlar türetmiş, duygularını dile getirmek için en ince ve zor anlamlı kelime ve kavramları, sert ve kırıcı ifadeleri kullanmaktan kaçınmamıştır. Am‘ak-ı Buhârî, Senâî, Evhadüddîn-i Enverî, Muizzî, Edîb Sâbir, Reşîdüddin Vatvât gibi çağdaşı meşhur şairleri hicvetmekten geri durmamış, hayatının sonlarına doğru diğer birçok şair gibi hiciv ve eleştiriden el çekmiş, bu kırıcı tutumundan pişman olduğunu şiirlerinde dile getirmiştir. Devrinde önemli bir şair kabul edilen Sûzenî’nin şiirlerinin çoğu kaside türündedir. Özellikle bazı hükümdarlar, emîrler ve vezirleri methettiği şiirleri güçlü, akıcı ve sadedir. Musammatları ve rubâîleri gazelleri gibi güçlü ve derin değildir. Sûzenî daha çok Unsurî ve Ferruhî-yi Sîstânî gibi ünlülerin tarzını takip etmiş, ancak şiir kalitesinde onların seviyesine ulaşamamıştır. Şairin kaside, musammat, gazel, kıta ve rubâîlerden oluşan ve çok sayıda yazma nüshası bulunan divanının Nâsırüddin Şah Hüseynî tarafından tenkitli metni yayımlanmıştır (Tahran 1338 hş.). Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 38. cildinde, 3-4 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:suzeni",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=suzeni, https://islamansiklopedisi.org.tr/suzeni",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:suzeni",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/suzeni",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:00Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:00Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:00Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=suzeni (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 569,
+    "start_ce": 1173,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=suzeni, URL: https://islamansiklopedisi.org.tr/suzeni || DİA birth place: Kelâş || DİA death-date string: (ö. 569/1173) || DİA categories: şiir || Chunk count: 1"
+}

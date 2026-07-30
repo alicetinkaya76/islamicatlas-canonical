@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00001073",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Anberî",
+      "ar": "العنبري"
+    },
+    "originalScript": {
+      "ar": "العنبري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû İshâk İbrâhîm b. İsmâîl el-Anberî"
+      ]
+    },
+    "description": {
+      "tr": "Hadis tahsili için çeşitli ilim merkezlerine seyahatler yaptı. İshak b. Râhûye, Ahmed b. Hanbel ve Ali b. Hucr gibi hocalardan hadis okudu. Muhitinin sayılır muhaddisi oldu. Tûs’un meşhur âlim ve zâhidi Muhammed b. Eslem’den sonra, sohbetlerinden en çok faydalanan talebesi olması sebebiyle onun yerini aldı. Birçok hadis talebesine rivayette bulundu. Talebelerinden biri olan Ebü’n-Nadr el-Fakīh, onun günümüze intikal etmediği anlaşılan Müsned ’i için, “Onu kendi el yazımla 290 (veya 210 küsur) cüz halinde yazdım” der ( Zehebî, Aʿlâmü’n-nübelâʾ , XIII, 377). Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 194 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:anberi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=anberi, https://islamansiklopedisi.org.tr/anberi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:10856",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=10856, heading_ar=العنبري",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=anberi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4292, 10856]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=10856 (heading_ar=العنبري) via Track A (DİA→Alam xref bridge). dt=Zarif edib, güzel şiiri olan"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Anberî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 285,
+    "start_ce": 898,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=anberi, URL: https://islamansiklopedisi.org.tr/anberi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4292, 10856] || DİA death-date string: (ö. 285/898 [?]) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=10856, heading_ar=العنبري, dt=Zarif edib, güzel şiiri olan",
+  "active_in_places": [
+    "iac:place-00001954",
+    "iac:place-00002027"
+  ],
+  "teachers": [
+    "iac:person-00000753",
+    "iac:person-00000932",
+    "iac:person-00003986",
+    "iac:person-00005677"
+  ]
+}

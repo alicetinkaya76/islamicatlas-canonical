@@ -1,0 +1,109 @@
+{
+  "@id": "iac:person-00002286",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ TÜRÂB en-NAHŞEBÎ",
+      "ar": "أبو تراب النخشبي"
+    },
+    "originalScript": {
+      "ar": "أبو تراب النخشبي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Türâb Asker b. Husayn en-Nahşebî"
+      ]
+    },
+    "description": {
+      "tr": "Nahşeb’de (Nesef) doğdu. Tahsil hayatına burada hadis ve fıkıh dersleri alarak başladı, Şâfiî fıkhındaki bilgisini ilerletti. Daha sonra kendisini zühd ve ibadete verdi. Mekke, Basra, Şam gibi merkezleri dolaştı; bu yolculukları sırasında çileli bir hayat yaşadı. Zühd ve tasavvufa yönelişinin sebebi hakkında bilgi vermeyen kaynaklar onun Hâtim el-Esam gibi ünlü sûfîlerin sohbetinde bulunduğunu ve Bâyezîd-i Bistâmî ile görüştüğünü kaydederler. İbnü’l-Cellâ 600’den fazla zâhid ve sûfî ile tanıştığını, bunların içinde Ebû Türâb gibisini görmediğini söyler (bk. Kuşeyrî, s. 135). Ebû Türâb’ın çevresinde seçkin zâhidler ve âbidler toplanmıştı. İbnü’l-Cellâ, Hakîm et-Tirmizî, Ali b. Sehl, Yûsuf b. Hüseyin er-Râzî, Şah b. Şücâ‘-ı Kirmânî, Ebû Hamza el-Horasânî, Ebû Hamza el-Bağdâdî, Ahmed b. Hadraveyh ve Hamdûn el-Kassâr onun sohbetinde bulunarak kendisinden faydalanan tanınmış sûfîler arasında sayılabilir. Hamdûn el-Kassâr gibi Melâmetîliğin kurucusu sayılan bir sûfî ile Ahmed b. Hadraveyh gibi fütüvvet yönü güçlü sûfîlere tesir etmiş olması, kendisinin de bu temayüllere sahip olduğunu göstermektedir. Yamalı hırka giyip tekkede oturmayı ve halkın dinlemesi için yüksek sesle Kur’an okumayı bir çeşit dilencilik saydığını belirten bir sözünü nakleden Kuşeyrî, onun fütüvvetle ilgili bazı menkıbelerini kaydeder ( er-Risâle , s. 473-479). Ebû Türâb 245 (859) yılında bir yolculuk sırasında çölde vefat etmiş ve vücudu yırtıcı hayvanlar tarafından parçalanmıştır. Ancak cesedinin uzun süre hiç bozulmadan kaldığına dair klasik kaynaklarda çeşitli menkıbeler de anlatılır. Ebû Türâb’ın, hadis rivayet etmiş bir sûfî olduğu halde hadisin senedi konusundaki tenkitleri gıybet saydığı nakledilmektedir ( Ṭabaḳātü’l-Ḥanâbile , I, 249). Diğer Horasan zâhidleri gibi tevekkül ve kaderi tasavvufun temeli sayan Nahşebî’ye göre sûfîyi hiçbir şey bulandırmaz, aksine her şey onunla duru hale gelir (Kuşeyrî, s. 555, 608). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 243-244 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-turab-en-nahsebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-turab-en-nahsebi, https://islamansiklopedisi.org.tr/ebu-turab-en-nahsebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-turab-en-nahsebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-turab-en-nahsebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:6811",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6811, heading_ar=أبو تراب النخشبي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:57Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-turab-en-nahsebi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6811]. Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6811 (heading_ar=أبو تراب النخشبي) via Track A (DİA→Alam xref bridge). dt=Zamanının şeyhü; zühd ve tasavvufta (otorite)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Nahşebî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 245,
+    "start_ce": 859,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-turab-en-nahsebi, URL: https://islamansiklopedisi.org.tr/ebu-turab-en-nahsebi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6811] || DİA death-date string: (ö. 245/859) || DİA categories: hadis > tasavvuf > fıkıh || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6811, heading_ar=أبو تراب النخشبي, dt=Zamanının şeyhü; zühd ve tasavvufta (otorite).",
+  "students": [
+    "iac:person-00000752",
+    "iac:person-00003067",
+    "iac:person-00003125"
+  ]
+}

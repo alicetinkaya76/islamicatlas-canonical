@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00025712",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Muhammed Hamidullah",
+      "en": "Muhammad Hamidullah",
+      "ar": "محمد حميد الله"
+    },
+    "description": {
+      "tr": "Muhammed Hamidullah, yirminci yüzyılın en önemli İslam hukuk tarihi ve siyer uzmanlarından biridir. Haydarâbâd'da doğmuş, Hindistan'ın bağımsızlığından sonra Fransa'ya yerleşerek Paris'te altmış yılı aşkın süre yaşamıştır. İslam Peygamberi adlı siyer eseri dünya çapında geniş bir okur kitlesine ulaşmıştır. İslam'ın ilk yazılı anayasası olan Medine Vesikası üzerine öncü çalışmalar yapmıştır. el-Vesâiku's-Siyâsiyye adlı eseri diplomatik belgeler külliyatıdır.",
+      "en": "Muhammad Hamidullah was one of the twentieth century's most important experts on Islamic legal history and prophetic biography. Born in Hyderabad, he settled in France after India's independence and lived in Paris for over sixty years. His biography of the Prophet reached a worldwide readership. He conducted pioneering studies on the Constitution of Medina, Islam's first written constitution. His al-Wathaiq al-Siyasiyya is a corpus of diplomatic documents.",
+      "ar": "محمد حميد الله من أهم متخصصي تاريخ الفقه الإسلامي والسيرة في القرن العشرين. ولد في حيدر آباد وبعد استقلال الهند انتقل إلى فرنسا وعاش في باريس أكثر من ستين عاما. كتابه الرسول الإسلامي وصل إلى جمهور واسع عالميا. أجرى دراسات رائدة حول وثيقة المدينة التي تعد أول دستور مكتوب في الإسلام. كتابه الوثائق السياسية مجموعة وثائق دبلوماسية."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "scholars:233",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=233",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas.org v1 scholars layer (scholars.csv + scholar_identity.js v4.8.x; DİA-sourced bilingual cards)"
+      },
+      {
+        "source_id": "alatli:R-571",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_scholars",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-07-12T14:48:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-07-12T14:48:04Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization by canonicalize_person_scholars v0.1.0 (H10 Stage 3; Tier-2 kind=new)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-2 conf 1.0): ['authority_xref', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Haydarâbâdî",
+    "Hindî"
+  ],
+  "birth_temporal": {
+    "start_ce": 1908,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 2002,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q981811",
+      "confidence": 1.0,
+      "method": "imported_from_source",
+      "reviewed": false,
+      "note": "Alatlı (Tarihe Yön Veren Metinler): Tier-2 ad+ölüm eşleşmesi; QID Wikidata tarih-teyitli."
+    }
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

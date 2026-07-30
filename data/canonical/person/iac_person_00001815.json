@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00001815",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ceyhânî",
+      "ar": "الجيهاني"
+    },
+    "originalScript": {
+      "ar": "الجيهاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Ahmed"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı ve yazdığı eserler hakkında fazla bilgi bulunmadığı gibi bilinen hususlarda da kesinlik yoktur. Ceyhânî, Sâmânî Hükümdarı Nasr b. Ahmed’in (913-943) hizmetine girip veziri oldu. O sıralarda bölgeden geçen İbn Fadlân, Şeyhülâmid unvanını taşıyan Ceyhânî adlı bir vezirin Sâmânî hükümdarı ile tanışmasını sağladığını ve kendisini misafir ettiğini bildirmektedir. Mes‘ûdî ise 947’de yazdığı Mürûcü’ẕ-ẕeheb ’de, Ceyhânî’nin IV. (X.) yüzyılın başlarında yazdığı yedi ciltten oluşan Kitâbü’l-Mesâlik ve’l-memâlik adlı ünlü eserinden bahsetmediği halde daha sonra kaleme aldığı et-Tenbîh ve’l-işrâf ’ta (s. 75) bu kitabın muhtevası hakkında bilgi vermiştir. Kaynaklara göre Ceyhânî felsefe, astronomi gibi ilimlerde yetenek ve geniş bilgi sahibi bir kimseydi. Özellikle coğrafî konulara olan ilgisi ve gayreti onu bu alanda kitap yazmaya yöneltti. Bulunduğu yüksek mevkiden de istifade ederek bölgeye uğrayan değişik ülkelere mensup seyyah ve yabancılardan dünyanın çeşitli yerleri hakkında bilgiler topladı. Makdisî’ye göre Ceyhânî, günümüze ulaşmamış olan meşhur kitabını bu şekilde telif etmiştir. Makdisî, Ceyhânî’nin kendi ülkesinde yaşayan yabancıları toplayıp onlara memleketlerinin gelir kaynaklarını, yollarını ve bu bölgelerin genişliklerini sorup haklarında bilgi aldığını anlatır. Bu şekilde Ceyhânî’nin, ele geçirmeyi planladıkları yerlere yapılacak harekâtı kolaylaştırmayı amaçladığı da düşünülebilir. O da kendinden önceki coğrafyacılar gibi dünyayı yedi iklim bölgesine ayırarak incelemiştir. Eserini telif ederken birinci elden kaynaklardan bilgi toplayan Ceyhânî, ayrıca İbn Hurdâzbih’in yazdığı Kitâbü’l-Mesâlik ve’l-memâlik ’ten de geniş ölçüde faydalanmıştır. Daha sonraki Arap coğrafyacıları da ondan istifade etmişlerdir. Sâmânîler devrinde vezirlik yapan ve Ceyhânî nisbesini taşıyan üç ayrı kişinin bulunması ve kaynaklardaki bilgilerin yetersizliği, araştırmacıları bunlardan hangisinin Kitâbü’l-Mesâlik ’in yazarı olduğu konusunda şüpheye düşürmüştür. Bazı araştırmacılar müellif olarak, Sâmânî Hükümdarı Nasr b. Ahmed’in veziri ve nâibi olan Ebû Abdullah Muhammed b. Ahmed el-Ceyhânî’yi kabul ederken bazıları da Kitâbü’l-Mesâlik ve’l-memâlik ’in Ebû Abdullah Muhammed b. Ahmed ile oğlu Ebû Ali Muhammed b. Muhammed ve torunu Ebû Abdullah Ahmed b. Muhammed’in ortak eseri olabileceğini, ancak kesin bir hükme varmanın mümkün olmadığını ifade ederler. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 467-468 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ceyhani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ceyhani, https://islamansiklopedisi.org.tr/ceyhani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:48Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:48Z",
+    "modified": "2026-05-04T15:33:48Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:48Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ceyhani (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 330,
+    "start_ce": 942,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ceyhani, URL: https://islamansiklopedisi.org.tr/ceyhani || DİA death-date string: (ö. 330/942) || DİA categories: felsefe > astronomi || Chunk count: 1"
+}

@@ -1,0 +1,65 @@
+{
+  "@id": "iac:person-00000609",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdülvâsi Çelebi"
+    },
+    "altLabel": {
+      "tr": [
+        "Halilnâme adlı tek mesnevisiyle bilinen şair."
+      ]
+    },
+    "description": {
+      "tr": "Kaynaklarda adından ve eserinden bahsedilmeyen şairin hayatı ve şahsiyeti hakkında hemen hemen hiçbir bilgi yoktur. İlk defa Vasfi Mahir Kocatürk Halilnâme adlı mesnevisini tanıtarak yakın zamanlara kadar bilinmeyen bu eseri ve müellifini ilim âlemine takdim etmiştir. Abdülvâsi Çelebi’nin şahsiyeti hakkında eserinin “sebeb-i te’lîf” kısmından, çok sınırlı da olsa bazı bilgiler elde edilmektedir. Buna göre Çelebi Sultan Mehmed zamanında (1413-1421) yaşamış olan müellif, onun vezirlerinden Bayezid Paşa tarafından himaye edilmiştir. Kadıoğlu lakabıyla anılmasına bakarak babasının kadı veya ulemâdan olduğunu söylemek mümkündür. Abdülvâsi, Halilnâme ’nin “Der Medh ü Sebeb-i Nazm-ı Kitâb” bölümünde eseri nasıl ve niçin yazdığını açıklar. Çelebi Sultan Mehmed, şair Ahmedî’den (ö. 815/1412-13) Farsça Vîs ü Râmîn ’i tercüme etmesini istemiş, onun kısa bir müddet sonra ölümü üzerine de tercümeyi Abdülvâsi Çelebi’ye havale etmiştir. Fakat şair eseri beğenmeyerek bir peygamber kıssası nazmetmeyi daha uygun gördüğünden, İbrâhim Halîlullah’ın hayat hikâyesini anlatan bu mesneviyi kaleme almıştır. Eser kaynaklarda Halilnâme , İbrâhîm ü Sâra ve Dâsitân-ı İbrâhim Nebî adlarıyla anılmıştır. Halilnâme adı bilinen nüshalarda görülmemekle birlikte mesnevi daha çok bu isimle tanınmıştır. Eserin sonunda “Mi‘racnâme-i Seyyidü’l-beşer” başlığı altında yer alan ve hem bu sebeple, hem de konu farkından dolayı bazı araştırıcılar tarafından müstakil bir mesnevi kabul edilen mi‘râciyeyi Abdülvâsi Çelebi’nin ikinci eseri kabul etmek yanlış olmaz. Nitekim Halilnâme ’yi ilk tanıtan Vasfi Mahir bu durumu belirtmiş, Metin Akar da bunu müstakil bir eser sayarak “müstakil manzum mi‘racnâmeler” arasında incelemiştir. Halilnâme ’nin bilinen üç nüshası vardır. Kahire nüshası olarak tanınan yazma, bugün Dârü’l-kütübi’l-Mısriyye adını almış olan Kütübhâne-i Hidîviyye’de (Edeb Türkî M. 82) bulunmaktadır. 857’de (1453) istinsah edilmiş olan bu nüsha 136 varaktır ve bilinen en eski nüshadır. Muallim Cevdet nüshası, Atatürk Kitaplığı’nda (K. 214, eski Belediye Kütüphanesi) kayıtlıdır. Afyon nüshası olarak bilinen yazma ise Gedik Ahmed Paşa Kütüphanesi’ndedir (nr. 34). Dil incelemeleri bakımından önemli olan eser üzerinde Ayhan Gültaş 1985 yılında bir doktora çalışması yapmıştır. Metin Akar ise Türk Edebiyatında Manzum Mi‘râc-nâmeler adlı doktora çalışmasında (Ankara 1987), Halilnâme ’nin sonunda yer alan ve 817’de (1414) tamamlanan “Mi‘racnâme-i Seyyidü’l-Beşer Hazret-i Resûlullah Aleyhi Efdalü’s-salavât” adlı 567 beyitlik mi‘râciye bölümünü neşretmiştir (s. 325-383). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 283-284 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulvasi-celebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulvasi-celebi, https://islamansiklopedisi.org.tr/abdulvasi-celebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-05-04T15:32:40Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulvasi-celebi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 817,
+    "start_ce": 1414,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdulvasi-celebi, URL: https://islamansiklopedisi.org.tr/abdulvasi-celebi || DİA death-date string: (ö. 817/1414-15’ten sonra) || DİA categories: şiir || Chunk count: 1"
+}

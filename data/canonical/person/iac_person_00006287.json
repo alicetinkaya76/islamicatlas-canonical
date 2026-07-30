@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00006287",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Peşteli Hisâlî"
+    },
+    "description": {
+      "tr": "Asıl adı Hüseyin olup kaynaklarda Budinli Hisâlî olarak da geçer. Hayatına dair çok az bilgi vardır. III. Mehmed, I. Ahmed, I. Mustafa, II. Osman, IV. Murad, Sultan İbrâhim ve IV. Mehmed dönemlerinde yaşadığı, Bağdat’a gittiği, Eğri savaşına katıldığı ve Zevil şehrinde defterdarlık yaptığı şiirlerinden anlaşılmaktadır. Hisâlî, şairin divanının sonunda yer alan (Millet Ktp., Ali Emîrî Efendi, Manzum, nr. 130, vr. 92) Budinli Hamdi Çelebi’nin manzumesinde belirtildiğine göre 1062 (1652) yılında Peşte’de vefat etmiştir. Divanındaki şiirlerle Metâliu’n-nezâir ’deki matla‘larından hareketle onun mütevekkil, kanaatkâr, mütevazi bir insan olduğu söylenebilir. Hisâlî’nin, kabri Peşte’de bulunan Gülbaba için yazdığı bir gazelden ve Metâliu’n-nezâir ’indeki “Gülbaba” redifli matla‘ beyitlerinden yola çıkılarak Bektaşî olma ihtimali üzerinde durulursa da bunu ispatlayacak başka bilgi yoktur. Şairin, tahayyülde ve mesel söylemede çağdaşları Emrî ve Hayâlî’yi kıskandıracak güzellikte manzumelerinin ve öğüt veren beyitlerinin bulunduğu Huşûî’nin bir şiirinden anlaşılmaktadır. Eserleri. 1. Metâliu’n-nezâir . Hisâlî bu eserinde, XIII. yüzyıldan XVII. yüzyılın ilk yarısına kadar Anadolu ve Orta Asya sahasından pek çok şairin nazîrelerine ait matla‘ beyitlerini bir araya getirmiştir. Eserin, şairin kendisine ait matla‘ beyti sayısının çok fazla olduğu iki nüshası Nuruosmaniye (nr. 4252, 4253) ve Millet (Manzum, nr. 679-680) kütüphanelerindedir. 2. Letâifü’l-hayâl . Nef‘î, Örfî-i Şîrâzî, Hayretî, Mevlânâ Celâleddîn-i Rûmî, Abdurrahman-ı Câmî, Feyzî-i Hindî gibi şairlere ait Farsça nazîrelerin matla‘ beyitlerinin derlendiği eserin bir nüshası Süleymaniye Kütüphanesi’nde kayıtlıdır (Lala İsmâil, nr. 575). 3. Divan . Millet Kütüphanesi’yle (Manzum, nr. 130) Edirne İl Halk Kütüphanesi’nde (nr. 2119) iki nüshası bulunan divanda 500 kadar gazel, bir kaside, otuz altı Farsça, on Türkçe beyit mevcuttur. Divanın Millet Kütüphanesi’nde kayıtlı nüshasında yer alan bir gazelinde Hisâlî mevcut divanın dokuzuncu divanı olduğunu belirterek şükrediyor ve onuncu divanını yazmasının nasip kılınması için dua ediyorsa da diğer divanları henüz ele geçmemiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 254 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:pesteli-hisali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=pesteli-hisali, https://islamansiklopedisi.org.tr/pesteli-hisali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:pesteli-hisali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=pesteli-hisali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:49Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=pesteli-hisali (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=pesteli-hisali)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1062,
+    "start_ce": 1652,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1062,
+    "start_ce": 1652,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=pesteli-hisali, URL: https://islamansiklopedisi.org.tr/pesteli-hisali || DİA death place: Peşte || DİA death-date string: (ö. 1062/1652) || DİA categories: şiir || Chunk count: 1"
+}

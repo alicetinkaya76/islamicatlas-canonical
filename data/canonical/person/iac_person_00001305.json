@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00001305",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bakarî",
+      "ar": "البقري"
+    },
+    "originalScript": {
+      "ar": "البقري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-İkrâm Şemsüddîn Muhammed b. Kāsım b. İsmâîl el-Bakarî"
+      ]
+    },
+    "description": {
+      "tr": "Mısır’ın Dârülbakar köyünde doğdu. Tahsilini Kahire’de yaptı. Kıraatte Abdurrahman el-Yemenî, hadiste Bâbilî, Nûreddin el-Halebî ve Burhâneddin el-Lekānî, fıkıhta Mezzâhî, tarikat ve tasavvufta amcası Mûsâ b. İsmâil el-Bakarî gibi zamanın ileri gelen âlimlerinden faydalandı. Şâfiî fıkhı üzerinde derinleşti. Bununla beraber esas ihtisas alanının Kur’an ilimleri ve kıraat olduğu eserlerinden anlaşılmaktadır. Bilhassa kıraat konusunda kendisinden pek çok kişi istifade etmiştir. Eserleri. 1. el-Ḳavâʿidü’l-muḳarrere fi’l-fevâʾidi’l-muḥarrere . Kıraat imamlarının okuyuş özellikleri ve kaideleri hakkındadır. 2. Ġunyetü’ṭ-ṭâlibîn ve münyetü’r-râġıbîn . Tecvidle ilgili olup Muḳaddimetü’l-Baḳarî diye de bilinir. 3. Ḥâşiye ʿalâ risâle fi’t-tecvîd ve’r-resm ve meḫârici’l-ḥurûf . Tecvid hakkında kaleme aldığı bir risâle üzerine yazdığı hâşiyedir. 4. el-ʿUmdetü’s-seniyye . Sâkin nûn, tenvin, med ve kasır gibi tecvid kaideleri hakkındadır. 5. Fetḥu’l-kebîri’l-müteʿâl . Âyetlerdeki bazı müşkilleri açıklamaktadır. Ayrıca Fevâʾid fi’l-vaḳf ve’l-ibtidâʾ , Risâle fî tecvîdi’l-Ḳurʾâni’l-Kerîm , Şerḥu Muḳaddimeti’l-Ecrûmiyye adlı eserleriyle bir kasidesi bulunmaktadır ( Şerḥu Muḳaddimeti’l-Ecrûmiyye ve Fetḥu’l-kebîri’l-müteʿâl dışındaki eserlerinin yazma nüshaları için bk. Brockelmann, GAL , II, 429; Suppl. , II, 454; Fihrisü maḫṭûṭâti Dâri’l-kütübi’ẓ-Ẓâhiriyye , I, 224-225, 436-439; el-Fihrisü’ş-şâmil , II, 427-433). Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 529 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bakari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bakari, https://islamansiklopedisi.org.tr/bakari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:bakari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=bakari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:10880",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=10880, heading_ar=البقري",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:39Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bakari (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[10880]. Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=bakari)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=10880 (heading_ar=البقري) via Track A (DİA→Alam xref bridge). dt=Farzılar müdellisi Şâfiî Mısırlı kâri"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bakarî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 1111,
+    "start_ce": 1699,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bakari, URL: https://islamansiklopedisi.org.tr/bakari || El-Aʿlām (Ziriklī) cross-reference: alam_id=[10880] || DİA birth place: Dârülbakar || DİA death-date string: (ö. 1111/1699) || DİA categories: fıkıh > hadis > tasavvuf || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=10880, heading_ar=البقري, dt=Farzılar müdellisi Şâfiî Mısırlı kâri"
+}

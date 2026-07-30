@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00003876",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN İDRÎS, İdrîs b. Muhammed",
+      "ar": "ابن إدريس ، إدريس بن محمد"
+    },
+    "originalScript": {
+      "ar": "ابن إدريس ، إدريس بن محمد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Alâ’ İdrîs b. Muhammed b. İdrîs b. Muhammed el-Ezemmûrî el-Fâsî"
+      ]
+    },
+    "description": {
+      "tr": "Merakeş’te doğdu. Filâlî Veziri Ebû Abdullah Muhammed b. İdrîs’in oğludur. Babasının yanında ciddi bir edebiyat tahsili gören İbn İdrîs meslek hayatına babası gibi kitap istinsahıyla başladı. Aralarında Ṣaḥîḥ-i Buḫârî ’nin de bulunduğu birçok eseri istinsah edip satarak epeyce bir servet edindi. Bu işi vasıtasıyla bir taraftan da ilmî açıdan kendini yetiştirmeye çalıştı. Babasının ölümünden sonra Filâlî Sultanı Abdurrahman tarafından saray kâtipliğine tayin edildi (1264/1848). Daha sonra IV. Muhammed tarafından dış ilişkilerden sorumlu vezirliğe getirildi. Ekim 1859’da Fas-Cezayir sınırında Fransız askerleriyle yerli kabileler arasında çıkan meseleleri III. Napolyon ile görüşmek üzere sultanın özel sefiri olarak Fransa’ya gitti. Temmuz-Ağustos 1860’ta altı hafta Paris’te kaldı. Yine aynı yıl, İspanya-Fas savaşından sonra İspanya hükümeti nezdinde savaş tazminatının indirilmesini görüşmek üzere görevlendirildi. Yeni fikirler ve izlenimlerle ülkesine dönen İbn İdrîs, Avrupa’da meydana gelen teknik ve askerî konulardaki gelişmeler hakkında yetkililere bilgi sundu. Sultan Mevlây I. Hasan zamanında rütbesi düşürülerek kâtip tayin edilen İbn İdrîs 14 Cemâziyelâhir 1296’da (5 Haziran 1879) Rabat’ta vebadan öldü. İbn İdrîs, Fransa’ya yaptığı seyahati anlatan Tuḥfetü’l-meliki’l-ʿazîz bi-memleketi Bârîz (Fas 1327) adlı eseriyle tanınır. Aynı zamanda şair olan İbn İdrîs şiirlerini bir divanda toplamış, resmî ve özel mektuplarını derleyerek bir mecmua tertip etmiştir. Ayrıca Kādirî şeriflerine dair et-Taḳyîd adlı bir risâlesi bulunmaktadır (Ahmed el-Ammârî, I, 259). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 88 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler",
+    "vizier"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-idris-idris-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-idris-idris-b-muhammed, https://islamansiklopedisi.org.tr/ibn-idris-idris-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ibn-idris-idris-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ibn-idris-idris-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:20Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:20Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:20Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-idris-idris-b-muhammed (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.98): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ezemmûrî"
+  ],
+  "death_temporal": {
+    "start_ah": 1296,
+    "start_ce": 1879,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-idris-idris-b-muhammed, URL: https://islamansiklopedisi.org.tr/ibn-idris-idris-b-muhammed || DİA birth place: Merakeş || DİA death-date string: (ö. 1296/1879) || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00016806"
+  ]
+}

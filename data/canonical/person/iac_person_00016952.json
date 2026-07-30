@@ -1,0 +1,99 @@
+{
+ "@id": "iac:person-00016952",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn Rāfiʿ al-Salamī",
+   "tr": "İbn Râfi es-Selâmî",
+   "ar": "ابن رافع السلامي"
+  },
+  "originalScript": {
+   "ar": "ابن رافع السلامي"
+  },
+  "description": {
+   "tr": "Tarihçi, fıkıh âlimi, hadis hâfızlarından",
+   "en": "Historian, jurist, among the hadith memorizers"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muhammad b. Rāfiʿ b. Hijrs b. Muhammad al-Salamī al-ʿUmaydī, Abū al-Maʿālī, Taqī al-Dīn"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. Râfi b. Hicrs b. Muhammed es-Selâmî el-Umeydi, Ebû el-Meâlî, Takiyyüddîn"
+   ],
+   "ar": [
+    "محمد بن رافع بن هجرس بن محمد السلامي العميدي، أبو المعالي، تقي الدين"
+   ]
+  }
+ },
+ "profession": [
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:9850",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9850",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:58Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:58Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=9850 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:35Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:9850."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3984-16952) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003984 lehine yumuşak-silindi. Gerekçe: \"es-Selâmî\" nisbesi, tarihçi rolü, Kahire bağlantısı ve birebir 1372 ölüm yılı Takıyyüddin İbn Râfi' es-Sellâmî'yi tek kişi olarak gösteriyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003984"
+ },
+ "death_temporal": {
+  "start_ah": 774,
+  "start_ce": 1372,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9850, heading_ar=ابن رافع السلامي || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+ "active_in_places": [
+  "iac:place-00011312"
+ ],
+ "authored_works": [
+  "iac:work-00003415",
+  "iac:work-00007584"
+ ],
+ "kunya": "أبو المعالي"
+}

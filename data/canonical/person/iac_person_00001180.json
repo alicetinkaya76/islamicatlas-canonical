@@ -1,0 +1,65 @@
+{
+  "@id": "iac:person-00001180",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Âtif Mehmed Bey"
+    },
+    "description": {
+      "tr": "Ulemâdan olan büyük dedesi Kuyucaklı Abdurrahman Efendi’ye nisbetle Kuyucaklızâde diye tanınmıştır. Dedesi İstanbul Kadısı Mehmed Âtıf Efendi, babası Mısır mollası Abdurrahman Nâfiz Efendi, annesi de Sadrazam Çelebi Mustafa Paşa ve Şeyhülislâm Feyzullah Efendi’nin ahfadından Şerife Libâbe Hanım’dır. İstanbul’da doğdu. Gerek baba gerekse anne tarafından birçok âlimin yetiştiği bir aileye mensup olan Âtıf Bey, Bezmiâlem Vâlide Sultan Rüşdiyesi’nde okudu. Zekâ ve kabiliyetiyle dikkatleri çekti. Menlikli Hoca Ahmed Efendi’den Arapça öğrenerek icâzet aldı. Ardından gittiği Mısır’da meşhur âlim Şeyh İbrâhim es-Sekkā’dan (ö. 1881) tefsir ve hadis tahsil etti. Daha sonra İstanbul’a döndü. Sahn-ı Semân ve Dârülhadis dahil olmak üzere birçok medresede müderrislik yaptı. Bilâd-ı hamse, Haremeyn ve İstanbul pâyelerini elde etti. Meclis-i Tedkīkāt-ı Şer‘iyye âzalığı, Mekteb-i Nüvvâb Müdürlüğü askerî kassâmlığı, İ‘lâmât-ı Şer‘iyye mümeyyizliği, Evkaf müfettişliği ve on yıl Evkāf-ı Hümâyun meclis başkanlığı yaptı. Doğum yeri olan İstanbul’da vefat etti ve Süleymaniye Camii hazîresine defnedildi. İlmi, zekâsı ve ahlâkıyla herkesin takdirini kazanan Âtıf Mehmed Bey, özellikle Hanefî fıkhındaki ihtisası yanında kıraat ilmine, Arap ve Fars edebiyatlarına da vâkıftı. Bazı gazelleri, tarih manzumeleri ve kasideleri de vardır. En önemli eseri Mecelle ’ye yaptığı şerhtir. Mecelle ’yi baştan “Kitâbü’ş-Şirket”in sonlarına kadar şerhettiği bu eseri Fetvahâne’de incelenerek takdirle kabul edilmiş ve ilki 1311 (1893) yılında olmak üzere İstanbul’da defalarca basılmıştır (bk. Özege, III, 1043-1044). “Kitâbü’ş-Şirket”in son kısımları Âtıf Bey’in talebelerinden Bekir Sâmi Efendi tarafından tamamlanmıştır. Diğer eserleri ise Arâzî Kānunnâme-i Hümâyunu Şerhi (İstanbul 1319, 1330) ile ilim tahsil ettiği hocaların silsilesine dair el-İmdâd bi-ma‘rifeti uluvvi’l-isnâd adlı risâlesidir (İstanbul 1310, 27 sayfa). Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 61 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:atif-mehmed-bey",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=atif-mehmed-bey, https://islamansiklopedisi.org.tr/atif-mehmed-bey",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-05-04T15:39:43Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=atif-mehmed-bey (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ce": 1850,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=atif-mehmed-bey, URL: https://islamansiklopedisi.org.tr/atif-mehmed-bey || DİA birth place: İstanbul || DİA death place: İstanbul || DİA death-date string: (1850-1898) || DİA categories: hadis > tefsir > isnâd || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "death_place": "iac:place-00000735"
+}

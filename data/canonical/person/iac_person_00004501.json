@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00004501",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÎSÂ b. ÖMER es-SEKAFÎ",
+      "ar": "عيسى بن عمر الثقفي"
+    },
+    "originalScript": {
+      "ar": "عيسى بن عمر الثقفي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ömer Îsâ b. Ömer b. Abdillâh es-Sekafî el-Basrî en-Nahvî"
+      ]
+    },
+    "description": {
+      "tr": "Muhtemelen Basra’da doğdu. Hâlid b. Velîd’in âzatlı kölesidir. Basra’da Sakīf kabilesi içinde yaşadığı için Sekafî nisbesiyle anılır. Abdullah b. Ebû İshak, İbn Kesîr ve İbn Muhaysın’dan kıraat okudu. Hasan-ı Basrî, Accâc b. Rü’be’den hadis rivayet etti. Basra nahiv mektebinin kurucularından Ebû Amr b. Alâ’yı bazı kaynaklar hocaları, diğer bazıları da talebeleri arasında sayar. Ensâb ve ahbâr konularında da bilgi sahibi olan Îsâ b. Ömer’in fasih Arapça ile konuştuğu, işlek olmayan unutulmuş (garîb) kelimelere fazlaca yer verdiği, bu yüzden sözlerinin anlaşılmadığı kaydedilir. Biyografisini veren bazı kaynaklarda onun bu sunî üslûbu ve kullandığı garîb kelimelerle ilgili örnekler zikredilir. Ahmed b. Mûsâ el-Lü’lüî, Hârûn b. Mûsâ en-Nahvî, Sehl b. Yûsuf, Ubeyd b. Akīl en-Nahvî gibi şahsiyetler ondan kıraat rivayet ederken Hammâd b. Seleme, Halîl b. Ahmed, Halef el-Ahmer, Kutrub, Ebû Ubeyde et-Teymî ve Asmaî gibi dil âlimleri talebeleri arasında yer almış, Sîvebeyhi onunla uzun süre beraber olmuş ve kendisinden çok faydalanmıştır. Îsâ b. Ömer’in çoğunluğun kullandığı dili esas alarak ilk nahiv kitabını yazdığı, bu eserinde o zamana kadar yapılmış çalışmaları tertip, tasnif ve ıslah ettiği, çoğunluğun kullanışı dışında kalan kullanışları “lugat” olarak adlandırdığı kaydedilir. Sîbeveyhi gibi âlimler çalışmalarında onun bu metodunu esas almışlardır. Nahiv ilmine dair yetmiş küsur eser yazdığı rivayet edilen Îsâ b. Ömer’in kaynaklarda sadece el-Câmiʿ ve el-İkmâl (el-Mükmil) adlı iki kitabının ismi geçmekte olup talebesi Halîl bu iki eseri bir beytinde övmüştür. Bazı kaynaklarda Sîbeveyhi’nin el-İkmâl ’e ilâveler yapmak suretiyle eseri genişleterek kendisine nisbet ettiği ileri sürülmüşse de Sabâh Abbas es-Sâlim bunun doğru olmadığını söylemektedir ( ʿÎsâ b. ʿÖmer es̱-S̱eḳafî , s. 50-57). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 485 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:isa-b-omer-es-sekafi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=isa-b-omer-es-sekafi, https://islamansiklopedisi.org.tr/isa-b-omer-es-sekafi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:isa-b-omer-es-sekafi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/isa-b-omer-es-sekafi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:29Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:29Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=isa-b-omer-es-sekafi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sekafî; Basrî; Nahvî"
+  ],
+  "death_temporal": {
+    "start_ah": 149,
+    "start_ce": 766,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=isa-b-omer-es-sekafi, URL: https://islamansiklopedisi.org.tr/isa-b-omer-es-sekafi || DİA birth place: Basra || DİA death-date string: (ö. 149/766) || DİA categories: nahiv > rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000733"
+  ],
+  "students": [
+    "iac:person-00001156",
+    "iac:person-00005216",
+    "iac:person-00007005"
+  ]
+}

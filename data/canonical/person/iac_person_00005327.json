@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00005327",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEHMED EFENDİ, Küçük Müezzin"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Sadettin Nüzhet Ergun kendisinden İstanbullu Mehmed olarak söz eder. Küçük yaşta saraya alındı ve Enderun’da yetişti. Burada sesinin güzelliğiyle dikkati çekerek Enderûn-ı Hümâyun müezzinleri arasına girdi. Sonraları padişah huzurunda icra edilen küme fasıllarının hânendeleri içerisinde yer aldı. II. Mustafa’nın tahta geçmesi üzerine (1695) önce musâhib-i şehriyârî oldu, ardından Anadolu muhasebeciliğine tayin edildi (1107/1695). Mehmed Efendi’nin II. Mustafa ile beraber Edirne sarayında bulunduğu bir sırada Sadrazam Amcazâde Hüseyin Paşa’nın kendisini padişaha şikâyet etmesi yüzünden saraydan uzaklaştırıldı. Anadolu muhasebeciliğinden de azledilen Mehmed Efendi İstanbul’a gönderildi ve evinde ikamete mecbur edildi. Bundan sonraki hayatını da mûsiki toplantılarının saygın bir kişisi olarak devam ettirdi ve Edirne’de vefat etti. Rindmeşrep ve hoşsohbet bir kişi olarak İstanbul’da ve Edirne’de tanınan Mehmed Efendi II. Mustafa devrinde (1695-1703) şöhret kazanmıştır. Dönemin şairlerinden Arpaeminizâde Mustafa Sâmi Efendi onun vefatı münasebetiyle yazdığı tarihte Mehmed Efendi’nin özelliklerini sanatkârane bir dille ifade etmiştir. Parlak sesi ve ustaca okuyuşuyla döneminin üslûp sahibi bir hânendesi olarak tanınan Mehmed Efendi, Enderun’da aldığı ilk mûsiki bilgilerini devrinin diğer mûsiki üstatlarının dersleriyle pekiştirerek kendini yetiştirmiş, nazarî mûsiki bilgisinin çok kuvvetli olmamasına rağmen zamanın bestekârları arasında yer edinmiştir. Dimitrie Cantemir, dönemin ünlü mûsikişinaslarından Kasımpaşalı Koca Osman’ın talebelerinden bahsederken hânendeler arasında Mehmed Efendi’yi de sayar. Râşid, Târih ’inde ondan mûsiki ilminde ikinci hoca (hâce-i sânî) ve büyük kâr üstadı olarak söz eder. Mehmed Efendi, birtakım dinî eserler de bestelemesine rağmen daha çok din dışı sahadaki eserleriyle bilinmektedir. Ebûishakzâde Esad Efendi Atrabü’l-âsâr ’ında onun on beş civarında bestesi olduğunu kaydeder. El yazması güfte mecmualarında bazı eserlerine rastlanmaktaysa da Yılmaz Öztuna onun beste ve semâi formunda sadece üç eserinin zamanımıza ulaştığını söyler. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 456 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-efendi-kucuk-muezzin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-efendi-kucuk-muezzin, https://islamansiklopedisi.org.tr/mehmed-efendi-kucuk-muezzin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-efendi-kucuk-muezzin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-efendi-kucuk-muezzin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:38Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-efendi-kucuk-muezzin (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1129,
+    "start_ce": 1717,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-efendi-kucuk-muezzin, URL: https://islamansiklopedisi.org.tr/mehmed-efendi-kucuk-muezzin || DİA birth place: İstanbul || DİA death place: Edirne || DİA death-date string: (ö. 1129/1717) || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "active_in_places": [
+    "iac:place-00015998"
+  ],
+  "students": [
+    "iac:person-00005343"
+  ]
+}

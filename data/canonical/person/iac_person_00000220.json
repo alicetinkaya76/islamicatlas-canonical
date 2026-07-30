@@ -1,0 +1,118 @@
+{
+  "@id": "iac:person-00000220",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Baytar",
+      "tr": "İbnü'l-Beytâr",
+      "ar": "ابن البيطار"
+    },
+    "originalScript": {
+      "ar": "ابن البيطار"
+    },
+    "altLabel": {
+      "en": [
+        "Diya al-Din Abu Muhammad Abdullah ibn Ahmad ibn al-Baytar"
+      ],
+      "tr": [
+        "Ziyâeddin Ebû Muhammed Abdullah b. Ahmed İbnü'l-Beytâr"
+      ],
+      "ar": [
+        "ضياء الدين أبو محمد عبد الله بن أحمد ابن البيطار"
+      ]
+    },
+    "description": {
+      "tr": "Ortaçağ dünyasının en büyük botanikçi ve farmakoloğu — 1.400 tıbbi bitkiyi katalogladı (bilime 300 tamamen yeni), ilk sistematik parazitolog || İbnü'l-Beytâr, Mâleka'dan Kuzey Afrika üzerinden Mısır ve Levant'a seyahat ederek bitki örnekleri topladı. || [Tarih notu] Leclerc'in 1877-83 Fransızca çevirisi İbnü'l-Beytâr'ı ortaçağın en büyük farmakoloğu olarak belirledi.",
+      "en": "Greatest botanist and pharmacologist of the medieval world — catalogued 1,400 medicinal plants (300 entirely new to science), the first systematic parasitologist || Ibn al-Baytar traveled from Málaga through North Africa to Egypt and the Levant, collecting plant specimens and documenting their medicinal properties. His Jami catalogued 1,400 plants with their uses in Arabic, Berber, Greek, Latin, Persian and Romance languages — 300 were entirely new to pharmacological literature. || [Historiographical note] Leclerc's 1877-83 French translation established Ibn al-Baytar as the greatest medieval pharmacologist. Meyerhof (1933) documented the 300 original plant descriptions.",
+      "ar": "أعظم عالم نبات وصيدلة في العالم الوسيط — فهرس ١,٤٠٠ نبتة طبية || سافر ابن البيطار من مالقة عبر شمال أفريقيا إلى مصر والشام جامعًا العينات النباتية. فهرس ١,٤٠٠ نبتة بستّ لغات — ٣٠٠ منها جديدة كليًا على الأدب الصيدلاني"
+    }
+  },
+  "profession": [
+    "physician",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0037",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0037, lecture_id=endulus-bilim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:292",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=292",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:33Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0037 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1197,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1248,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q335145",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ibn al-Baytar')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0037, lecture_week=3. || Key works: {'title': {'en': 'Kitāb al-Jāmiʿ li-Mufradāt al-Adwiya wa-l-Aghdhiya', 'tr': \"Kitâbü'l-Câmi li-Müfredâti'l-Edviye ve'l-Ağziye\", 'ar': 'كتاب الجامع لمفردات الأدوية والأغذية'}, 'year': 1240, 'field': 'medicine', 'significance': {'en': 'Greatest medieval pharmacological encyclopedia — 1,400 plants, 300 new to science', 'tr': 'Ortaçağın en büyük farmakoloji ansiklopedisi — 1.400 bitki, bilime 300 yenisi'}} || Modern parallel: Imagine walking from Spain to Egypt collecting every plant along the way, then writing the world's most comprehensive drug encyclopedia — in six languages.",
+  "active_in_places": [
+    "iac:place-00009399"
+  ],
+  "authored_works": [
+    "iac:work-00000058"
+  ],
+  "kunya": "Ebû Muhammed",
+  "nisba": [
+    "Endelüsî",
+    "Mâlakî"
+  ]
+}

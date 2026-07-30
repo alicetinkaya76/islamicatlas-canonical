@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00003483",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HUCR b. YEZÎD",
+      "ar": "حجر بن يزيد"
+    },
+    "originalScript": {
+      "ar": "حجر بن يزيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Hucr b. Yezîd b. Seleme el-Kindî"
+      ]
+    },
+    "description": {
+      "tr": "Güney Arabistan’da bulunan Kinde kabilesinin önemli şahsiyetlerinden biridir. Aynı soydan gelen ve “Hucrü’l-hayr” diye bilinen Hucr b. Adî ile karıştırılmaması için yaptığı kötülüklerle tanındığından kabilesi arasında kendisine “Hucrü’ş-şer” denilmiş ve daha çok bu unvanla tanınmıştır. Bin kişiye sözü geçen kimselere verilen “cerrâr” unvanına sahip olan Hucr Yemenli cerrârlar arasında zikredilmektedir (İbn Habîb, s. 251-252). Kabilesini temsil eden bir heyetle birlikte 9 (630) yılında Medine’ye gelmiş ve Resûl-i Ekrem’in huzurunda müslüman olmuştur. Cemel Vak‘ası’nda Hz. Ali’nin kumandanları arasında yer alan Hucr Sıffîn Savaşı’nda da yine onun tarafını tutmuş ve tahkîm hadisesinde protokolde Hz. Ali tarafını temsilen bulunmuştur. Ancak daha sonra Ümeyyeoğulları’na yaklaşan Hucr b. Yezîd’i Muâviye İrmîniye valiliğine tayin etmiştir. Hucr’ün 50 (670) veya 51 (671) yılı civarında vefat ettiği belirtilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 278 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hucr-b-yezid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hucr-b-yezid, https://islamansiklopedisi.org.tr/hucr-b-yezid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:15Z",
+    "modified": "2026-05-04T15:34:15Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hucr-b-yezid (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kindî"
+  ],
+  "death_temporal": {
+    "start_ah": 50,
+    "start_ce": 670,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hucr-b-yezid, URL: https://islamansiklopedisi.org.tr/hucr-b-yezid || DİA death-date string: (ö. 50/670 [?]) || DİA categories: hadis || Chunk count: 1"
+}

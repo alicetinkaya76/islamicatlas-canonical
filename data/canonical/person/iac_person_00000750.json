@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00000750",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED b. EBÜ’l-HAVÂRÎ",
+      "ar": "أحمد بن أبي الحواري"
+    },
+    "originalScript": {
+      "ar": "أحمد بن أبي الحواري"
+    },
+    "description": {
+      "tr": "Babasının adı Abdullah, dedesinin adı Meymûn olup aslen Kûfelidir. 164’te (780-81) doğdu. Şam’da yaşadı. Uzun yıllar ilim tahsiliyle meşgul oldu. Ebû Abdullah Saîd en-Nibâcî, Ebû Bekir b. Ayyâş ve Ahmed b. Âsım el-Antâkî ile görüştü. Ebû Süleyman ed-Dârânî’nin müridi oldu. Süfyân b. Uyeyne ve Bişr b. Serî’nin sohbetlerine katıldı. Cüneyd-i Bağdâdî’nin takdirini kazandı. Hâris el-Muhâsibî’nin de yakın dostu olan Ahmed b. Ebü’l-Havârî’nin zühd devri tasavvufunun hemen bütün konularına dair sözleri vardır. Tasavvufî konuları tahlilî bir görüş ve ilginç ifadelerle sunması en önemli özelliğidir. Hanımı Râbiatü’ş-Şâmiyye de tabakat kitaplarında adı geçen bir zâhidedir. Otuz yıl kadar ilimle meşgul olduktan sonra, rabbine ulaştığını ve bu yolda bir vasıta olarak gördüğü kitaplarına artık ihtiyacı kalmadığını söyleyerek onları denize atması, tasavvuf tarihi bakımından önemli bir hadise olup başta İbnü’l-Cevzî olmak üzere bazı âlimler tarafından tenkit edilmiştir. Abbâsî Halifesi Me’mûn döneminde çağdaşı bazı âlimler gibi halku’l-Kur’ân meselesinden dolayı sorguya çekildi ve Ahmed b. Hanbel ile birlikte bir ara hapse de atıldı. Ahmed b. Hanbel ile sohbetlerde bulunan ve hadis ilminde güvenilir bir râvi olan Ahmed b. Ebü’l-Havârî’nin rivayet ettiği hadislerden kırk kadarı Ḥilyetü’l-evliyâʾ da yer almıştır. Yahyâ b. Maîn, İbn Ebû Hâtim, Zehebî gibi hadis münekkitleri kendisini övgüyle anarlar. Ebû Dâvûd, İbn Mâce, Ebû Zür‘a ed-Dımaşkī ve Ebû Zür‘a er-Râzî ondan hadis rivayet etmişlerdir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 58 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-b-ebul-havari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-b-ebul-havari, https://islamansiklopedisi.org.tr/ahmed-b-ebul-havari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-b-ebul-havari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-b-ebul-havari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-b-ebul-havari (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 246,
+    "start_ce": 860,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-b-ebul-havari, URL: https://islamansiklopedisi.org.tr/ahmed-b-ebul-havari || DİA death-date string: (ö. 246/860) || DİA categories: hadis > tasavvuf > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003637"
+  ],
+  "students": [
+    "iac:person-00004139"
+  ]
+}

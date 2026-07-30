@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00000886",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AKĪL b. EBÛ TÂLİB",
+      "ar": "عقيل بن ابي طالب"
+    },
+    "originalScript": {
+      "ar": "عقيل بن ابي طالب"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Yezîd Akīl b. Ebî Tâlib b. Abdilmuttalib el-Hâşimî el-Kureşî"
+      ],
+      "ar": [
+        "عقيل بن أبي طالب"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Ali’den yirmi yaş büyüktür. Milâdî 580’de doğdu. Ensâb ve tarih bilgisiyle Câhiliye devrinde Kureyş kabilesi arasında önemli bir yeri olup anlaşmazlıklarda hakemliğine başvurulan dört kişiden biri idi. Bedir Gazvesi’nde Mekkeli müşrikler safında savaştı ve müslümanlara esir düştü. Amcası Abbas b. Abdülmuttalib tarafından verilen 4000 dirhem fidye ile esaretten kurtuldu. Müslüman olduğu tarih hakkında ihtilâf vardır. Bazılarına göre Hudeybiye Antlaşması’ndan önce, bazılarına göre hemen sonra, bir kısmına göre ise Mekke’nin fethinden önce 630 yılı başlarında müslüman olmuş ve Medine’ye gitmiştir. Kardeşi Ca‘fer ile Mûte Seferi’ne katıldı. Yakalandığı bir hastalık sebebiyle daha sonraki savaşlarda bulunamadı. Ancak Huneyn Gazvesi’ne iştirak ettiği ve herkesin dağıldığı sırada Hz. Peygamber’in yanından ayrılmadığı da rivayet edilir. Hz. Ömer devrinde divan ın düzenlenmesinde görevlendirildi. Hz. Ali’nin halifeliği sırasında ödemek mecburiyetinde olduğu büyük bir borç meselesinde ondan beklediği yardımı göremeyince, kendisine gerekli yardımı sağlayan Muâviye’ye katıldı ve Sıffîn’de kardeşine karşı savaştı. Belâgatı ve hazırcevaplığı ile de meşhur olan Akīl, Muâviye döneminde veya Yezîd’in halifeliğinin ilk günlerinde vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 264 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:akil-b-ebu-talib",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=akil-b-ebu-talib, https://islamansiklopedisi.org.tr/akil-b-ebu-talib",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:akil-b-ebu-talib",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/akil-b-ebu-talib",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:6867",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6867, heading_ar=عقيل بن أبي طالب",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=akil-b-ebu-talib (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6867]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6867 (heading_ar=عقيل بن أبي طالب) via Track A (DİA→Alam xref bridge). dt=Kureyş'in günlerini, meritlerini, kusurlarını ve soylarını en iyi bilen kişi"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hâşimî; Kureşî"
+  ],
+  "death_temporal": {
+    "start_ah": 60,
+    "start_ce": 680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=akil-b-ebu-talib, URL: https://islamansiklopedisi.org.tr/akil-b-ebu-talib || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6867] || DİA birth place: 580 || DİA death place: Sıffîn || DİA death-date string: (ö. 60/680) || DİA categories: belâgat > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6867, heading_ar=عقيل بن أبي طالب, dt=Kureyş'in günlerini, meritlerini, kusurlarını ve soylarını en iyi bilen kişi"
+}

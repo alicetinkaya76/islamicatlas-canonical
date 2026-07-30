@@ -1,0 +1,65 @@
+{
+  "@id": "iac:person-00001716",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CASKEL, Werner"
+    },
+    "description": {
+      "tr": "5 Mart 1896 tarihinde Danzig şehrinde doğdu. 1914’te Tübingen Üniversitesi’nde ilâhiyat ve Farsça okumaya başladı. Aynı yılın sonlarına doğru Berlin’e gidip tahsiline orada devam etti ve meşhur Delitzsch’ten Kur’an üzerine dersler aldı. I. Dünya Savaşı’nda Anadolu, Filistin, Suriye ve Mezopotamya’daki askerî hizmetleri sırasında Türkçe öğrendi. Savaşın ardından Berlin’de öğrenimine devam etti. Daha sonra Leipzig’e gidip özellikle A. Fischer ve R. Hartmann’ın rehberliğinde Arabiyat ve İslâmiyat konularında araştırmalar yaptı. 1924 Temmuzunda dinler tarihi sahasında hazırladığı tezle doktor oldu. Aynı yıl, daha önce hizmetine girdiği Alman diplomat ve arkeologu Max Freiherr von Oppenheim’ın araştırma seferlerinin neticelerini ilmî bakımdan değerlendirmeye başladı. 1928 yılında Berlin Üniversitesi’nde doçent oldu ve 1930’da Greifswald Üniversitesi’nde doçent kadrosuna tayin edildi. Ancak 1933 yılında Naziler’in iktidara gelmesiyle profesörlüğe yükselmesi imkânsızlaştığı gibi 1938’de doçentlikten de azledildi. II. Dünya Savaşı sırasında Von Oppenheim Vakfı’nda çalıştı. Daha sonra savaşta dağılan ve büyük kısmı tahrip edilen vakfın mal varlığı onun şahsî çabasıyla toparlanarak Köln’de yeni kurulan vakfa dahil edildi. 1946’da Berlin Humboldt Üniversitesi’nde profesör oldu. 1948’de Köln Üniversitesi’nde yeni kurulan Şark Filolojisi Kürsüsü’ne getirildi. 1964’te emekliye ayrıldı, 28 Ocak 1970 tarihinde öldü. Caskel, ünlü Arabiyatçı August Fischer’in talebesi olarak onun ekolünü devam ettirmiştir. Kendisinin 70. doğum yıl dönümünde (1966) çıkarılan armağanda ( Festschrift Werner Caskel zum siebzigsten Geburtstag 5 März 1966 , nşr. Erwin Gräf, Leiden 1968) “Erinnerungen” başlığıyla yazdığı hâtıratında Alman şarkiyatçılığının 1939’a kadarki tarihçesi yer alır. Eserlerinin başlıcaları Das Schicksal in der altarabischen Poesie (doktora tezi, Leipzig 1926) ve Aijâm al-ʿArab (doçentlik tezi, Islamica , IV [1931], s. 1-99) ile iki ciltlik Ğamharat an-nasab: Das genealogische Werk des Hišām Ibn Muḥammad al-Kalbī ’dir (Leiden 1966; bu eseri G. Strenziok ile birlikte neşretmiştir). Son eserde Caskel, kendisine ait olan “İslâm’dan önceki Arabistan tarihi destanlardan ibarettir” hipotezine göre tarihî gerçekleri ortaya koyarken eski Arap şiirinden hareket edip şiiri tarihî kaynak olarak değerlendirir. Ayrıca Von Oppenheim’ın araştırmalarını bir araya toplayan dört ciltlik büyük eserin ( Die Beduinen , I-III, Leipzig 1939-1952; IV, Wiesbaden 1968) I ve II. ciltlerini Bräunlich’le birlikte, III ve IV. ciltlerini ise tek başına derlemiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 162 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:caskel-werner",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=caskel-werner, https://islamansiklopedisi.org.tr/caskel-werner",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=caskel-werner (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1896,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=caskel-werner, URL: https://islamansiklopedisi.org.tr/caskel-werner || DİA birth place: Danzig || DİA death-date string: (1896-1970) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002790",
+    "iac:person-00003219",
+    "iac:person-00006938"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00001294",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bâhisetülbâdiye",
+      "ar": "باحثة البادية"
+    },
+    "originalScript": {
+      "ar": "باحثة البادية"
+    },
+    "altLabel": {
+      "tr": [
+        "Melek bint Hifnî Nâsıf"
+      ]
+    },
+    "description": {
+      "tr": "Kahire’de doğdu. Devrinin tanınmış âlim ve ediplerinden Hifnî Nâsıf’ın kızıdır. Resmî bir okuldan mezun olan ilk müslüman hanım sıfatıyla yüksek öğrenimini kız öğretmen okulunda tamamladı (1905). İngilizce ve Fransızca öğrendi. Bir taraftan Kahire Emîriye kız okullarında öğretmenlik yaparken diğer taraftan da kadın hakları savunucusu olarak günlük gazetelere yazılar yazmaya başladı. Abdüssettâr el-Bâsil ile evlendikten sonra öğretmenlikten ayrıldı. Ülke kadınlarının uyanması ve kadın haklarının korunması için yazılar yazdı, konferanslar verdi ve bu konuda gayret gösteren ilk Mısırlı müslüman kadın olarak dikkatleri üzerinde topladı. Muhammed Abduh’un, Kāsım Emîn ve babasının fikirlerinden faydalandı. Kadınların sosyal hayata girmelerini, bilhassa Mısırlı zengin hanımların ev işleri ve çocuklarının terbiyesiyle bizzat meşgul olup bu işleri hizmetçilere bırakmamaları gerektiğini yazı ve konferanslarında işledi. İslâmî değerlere son derece bağlı olan ve kadının örtünmesi gerektiğini savunan Bâdiye ileri sürdüğü görüşlerin canlı bir örneği olmaya çalıştı. Bu dönemde yazdığı yazılarda “Bâhisetülbâdiye” imzasını kullandığı için daha sonra bu ad kendisinin lakabı oldu. Kadınları eğitmek, onlara sosyal ve ekonomik konularda birtakım bilgiler vermek için gazetelere yazdığı yazılar yanında “İttihâdü’n-nisâ et-tehzîbî” adlı bir de dernek kurdu. Trablusgarp felâketzedeleri için bağış topladı. I. Dünya Savaşı münasebetiyle evinde hemşire yetiştirmek üzere bir okul kurdu. Tutulduğu İspanyol hummasından kurtulamayarak genç yaşta Kahire’de öldü. İmam Şâfiî’deki aile mezarlığına gömüldü. Eserleri. 1. en-Nisâʾiyyât . el-Cerîde adlı günlük gazetede yayımladığı örtünme, kız çocuklarının eğitimi, taaddüd-i zevcât gibi konulara dair yazılarını iki cilt halinde yayımlamayı düşündüyse de eserin ancak I. cildini yayımlayabilmiştir (Kahire 1328). 2. Ḥuḳūḳu’n-nisâʾ . Kadın haklarına dair olan bu eseri âni ölümü sebebiyle yarım kalmıştır. Bunlardan başka 1911’de Mısır’da yapılan bir kongreye sunduğu ve kadının durumunun düzeltilmesiyle ilgili on maddelik bir programdan oluşan basılmamış bir tebliği bulunmaktadır. Mısırlı hanım yazarlardan Mari Ziyâde (Mey) onun biyografisine dair Bâḥis̱etü’l-bâdiye adlı bir eser yazmıştır (Kahire 1920). Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 488 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bahisetulbadiye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bahisetulbadiye, https://islamansiklopedisi.org.tr/bahisetulbadiye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:bahisetulbadiye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=bahisetulbadiye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:39Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bahisetulbadiye (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=bahisetulbadiye)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ce": 1886,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=bahisetulbadiye, URL: https://islamansiklopedisi.org.tr/bahisetulbadiye || DİA birth place: Kahire || DİA death-date string: (1886-1918) || Chunk count: 1",
+  "birth_place": "iac:place-00009399"
+}

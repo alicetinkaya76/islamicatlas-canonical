@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00005326",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEHMED EFENDİ, Küçük İmam"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu ve orada yaşadı. Hayatıyla ilgili bilgilerin çoğunun elde edildiği Atrabü’l-âsâr ’ın iki nüshasında (bk. bibl.) ismi Ahmed olarak kaydedilmiştir. Küçük yaşta sesinin güzelliğiyle dikkat çekince devrin üstatlarından ders almak suretiyle kendini yetiştirip döneminin önemli hânendeleri arasında yer aldı. Evliya Çelebi, Seyahatnâme ’sinde “nevzuhur hânendeler” başlığı altında o yılların yeni hânendelerini sayarken ondan Küçük İmam Çelebi olarak söz etmektedir. Eminönü’ndeki Yeni Vâlide Camii’nde (Yenicami) na‘thanlık yaptığı için “Vâlide Camii na‘thanı” olarak da anılmaktaydı. Ancak Hâfız Post’un Mecmûa ’sındaki kayıtta (vr. 135 b ) “Mahmudpaşa hatibi” unvanıyla zikredilmektedir. Çağdaşı Buhûrîzâde Mustafa Itrî Efendi ve Hezargradlı Behçetî’nin tarih manzumesinden sanatkârın 1085’te (1674) vefat ettiği anlaşılmaktadır; Yılmaz Öztuna ise kaynak vermeden ölüm tarihini 7 Mart 1675 olarak gösterir. Mehmed Efendi hânendeliğinin yanı sıra özellikle bestekârlığıyla tanınmıştır. Atrabü’l-âsâr ’da okuyuşunun gayet zarif ve dinleyenleri vecde getiren bir güzellikte olduğu, mûsiki nazariyatına vukufu dolayısıyla eserlerinde çoğunlukla pek işitilmemiş nağmelere yer verdiği, bu sebeple kendisine “imâm-ı fen” (mûsiki ilminin önderi) unvanının lâyık görüldüğü kaydedilmektedir. Atrabü’l-âsâr ’da kaydedildiğine göre Mehmed Efendi’nin kâr, beste, semâi, şarkı ve ilâhi gibi formlarda 500’ün üzerinde bestesi vardır. Yazma güfte mecmualarında pek çok eserine rastlanmaktaysa da Yılmaz Öztuna onun kâr, beste ve ilâhi formlarında beş bestesinin zamanımıza ulaştığını belirtmektedir. Bunlar arasında, “Tâ bekey sûz-i gamınla dertli sînem dağlayım” mısraıyla başlayan hicaz bestesiyle, “Sînede her gamze-i şemşîrden bir yâre var” mısraıyla başlayan bayatî bestesi günümüzde de okunan eserlerindendir. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 455 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-efendi-kucuk-imam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-efendi-kucuk-imam, https://islamansiklopedisi.org.tr/mehmed-efendi-kucuk-imam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-efendi-kucuk-imam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-efendi-kucuk-imam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:38Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-efendi-kucuk-imam (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1085,
+    "start_ce": 1674,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-efendi-kucuk-imam, URL: https://islamansiklopedisi.org.tr/mehmed-efendi-kucuk-imam || DİA birth place: İstanbul || DİA death place: 1085 || DİA death-date string: (ö. 1085/1674) || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

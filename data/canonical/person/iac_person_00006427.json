@@ -1,0 +1,60 @@
+{
+  "@id": "iac:person-00006427",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Rifat Süleyman Efendi"
+    },
+    "description": {
+      "tr": "İstanbul Üsküdar’da doğdu. Adı Süleyman, mahlası Rifat’tır. Üsküdarlı diye de tanınır. On yedi yaşında hıfzını tamamlayıp dinî ilimlerde öğrenim gördükten sonra kadılık makamına kadar yükseldi. Bu sebeple Kadı veya Molla olarak da anılır. III. Ahmed devrinin mûsikişinasları arasında önemli bir yeri olan ve özellikle sesinin güzelliğiyle bilinen Rifat Süleyman Efendi ayrıca bestelediği eserlerle meşhur olmuş, daha çok din dışı besteleriyle tanınmıştır. Esad Efendi onun beste, semâi ve şarkı formunda yirmi kadar bestesinin bulunduğunu kaydetmiş ( Atrabü’l-âsâr , vr. 14 a ), Sadettin Nüzhet Ergun ise Rifat Süleyman Efendi’yi dinî eser bestekârları arasında saydıktan sonra râhatülervah makamındaki durağı ile eviç makamındaki ilâhisinin güftesini vermiştir ( Türk Musikisi Antolojisi , I, 125, 322, 323; ayrıca bk. Müstakimzâde, vr. 107 b ). Rifat Süleyman Efendi’nin vefat tarihi hakkında bilgi bulunmamakla birlikte Mehmet Suphi Ezgi, 1139 (1726) tarihli bir fasıl mecmuasında isminin geçmesi dolayısıyla onun bu tarihte hayatta olması gerektiğini belirtmiştir ( Nazarî-Amelî Türk Musikisi , I, 87). Bestelerinden bazılarının güftesi kendisine ait olan Rifat Süleyman Efendi’nin günümüze on bir bestesinin ulaştığı bildirilmektedir. Bunların altısı beste, diğerleri semâi formundadır ( BTMA , II, 235). Suphi Ezgi onun kürdî, segâh ve uşşak makamlarındaki besteleriyle bûselik aşiran yürük semâisinin notalarını vermiştir ( Nazarî-Amelî Türk Musikisi , I, 86-87, 90-92, 175-176; IV, 66-68). Bu madde TDV İslâm Ansiklopedisi’nin 2008 yılında İstanbul’da basılan 35. cildinde, 106 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:rifat-suleyman-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=rifat-suleyman-efendi, https://islamansiklopedisi.org.tr/rifat-suleyman-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:51Z",
+    "modified": "2026-05-04T15:34:51Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=rifat-suleyman-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1139,
+    "start_ce": 1726,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=rifat-suleyman-efendi, URL: https://islamansiklopedisi.org.tr/rifat-suleyman-efendi || DİA birth place: Üsküdar || DİA death-date string: (ö. 1139/1726’dan sonra) || Chunk count: 1"
+}

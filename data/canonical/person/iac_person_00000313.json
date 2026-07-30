@@ -1,0 +1,110 @@
+{
+  "@id": "iac:person-00000313",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ahmad Baba al-Timbukti",
+      "tr": "Ahmed Bâbâ et-Tinbuktî",
+      "ar": "أحمد بابا التنبكتي"
+    },
+    "originalScript": {
+      "ar": "أحمد بابا التنبكتي"
+    },
+    "altLabel": {
+      "en": [
+        "Ahmad Baba ibn Ahmad ibn al-Hajj Ahmad al-Timbukti"
+      ],
+      "tr": [
+        "Ahmed Bâbâ b. Ahmed b. el-Hâc Ahmed et-Tinbuktî"
+      ],
+      "ar": [
+        "أحمد بابا بن أحمد بن الحاج أحمد التنبكتي"
+      ]
+    },
+    "description": {
+      "tr": "Timbuktu'nun en büyük âlimi — biyografik sözlükleri Batı Afrika İslam entelektüel tarihi için birincil kaynaktır, hukuk, gramer ve teoloji üzerine 40'tan fazla eser yazdı || Sa'dî hanedanı 1591'de Timbuktu'yu işgal ettiğinde Ahmed Bâbâ Marrâkeş'e sürgün edildi. || [Tarih notu] Timbuktu'daki Ahmed Baba Enstitüsü'nün adını taşır — 700.000'den fazla metni barındıran ünlü Timbuktu yazmalarının evi.",
+      "en": "The greatest scholar of Timbuktu — his biographical dictionaries are the primary source for West African Islamic intellectual history, and he authored over 40 works on law, grammar, and theology || When the Saadian dynasty invaded Timbuktu in 1591, Ahmad Baba was deported to Marrakech. Even in exile, his reputation was such that scholars across Morocco sought his teachings. || [Historiographical note] He is the namesake of the Ahmed Baba Institute in Timbuktu, which houses the famous Timbuktu manuscripts — over 700,000 texts.",
+      "ar": "أعظم علماء تمبكتو — قواميسه التراجمية المصدر الأساسي للتاريخ الفكري لغرب أفريقيا || عندما غزت الدولة السعدية تمبكتو عام 1591، نُفي أحمد بابا إلى مراكش"
+    }
+  },
+  "profession": [
+    "scholar",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0130",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0130",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:209",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=209",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:52Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0130 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1556,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1627,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0130, lecture_week=n/a. || Key works: {'title': {'en': 'Nayl al-Ibtihāj bi-Taṭrīz al-Dībāj', 'tr': \"Neylü'l-İbtihâc bi-Tatrîzi'd-Dîbâc\", 'ar': 'نيل الابتهاج بتطريز الديباج'}, 'year': 1596, 'field': 'bibliography', 'significance': {'en': 'Biographical dictionary of Maliki scholars — the most important source for West African intellectual history', 'tr': 'Mâlikî âlimlerinin biyografik sözlüğü — Batı Afrika entelektüel tarihi için en önemli kaynak'}}; {'title': {'en': 'Kifāyat al-Muḥtāj li-Maʿrifat man laysa fī al-Dībāj', 'tr': \"Kifâye || Modern parallel: Like a great professor deported during a foreign invasion who becomes even more famous in exile — and whose library becomes a national treasure.",
+  "active_in_places": [
+    "iac:place-00011062"
+  ],
+  "authored_works": [
+    "iac:work-00000171",
+    "iac:work-00000172",
+    "iac:work-00001780"
+  ],
+  "kunya": "Ebü'l-Abbâs",
+  "nisba": [
+    "Tinbuktî",
+    "Sanhâcî"
+  ]
+}

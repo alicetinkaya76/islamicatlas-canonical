@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00004726",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Kara Şemsi"
+    },
+    "description": {
+      "tr": "1829 Martında Konya’da doğdu. Asıl adı Süleyman olup Kara Abdal ismiyle de tanınmaktadır. Konya’da arazi sahibi Âşık Osman’ın oğludur. İlk tahsilini bu şehirde yaptı. On beş-on altı yaşlarında iken Şems-i Tebrîzî Dergâhı’na intisap etti. Türbedar Seyyid Emîrşah Kaygusuz Abdal Dede’nin yardımıyla çeşitli dinî eserler okuduktan sonra Abdal Mehmed Sûdî’ye intisap ederek Mevlânâ Dergâhı’nın matbahında çilesini ve seyrüsülûkünü tamamladı (1844). Kendisinden inâbe aldığı Kaygusuz Dede ona Şems-i Tebrîzî’ye izâfeten “Şemsî” mahlasını verdi. Kaygusuz Dede’nin tâlimatı üzerine Afyonkarahisar Mevlevîhânesi’ne giderek orada dört yıl kadar ilim tahsiliyle meşgul oldu. Bursa ve İstanbul’daki dergâhları ve meşâyihi ziyaret ettikten sonra tekrar Konya’ya döndü (1856). 1857’de evlendi ve bu evlilikten sırasıyla Mehmed Şemseddin, Hasan Hüsnü ve Hüseyin Ârif adlarında üç oğlu dünyaya geldi. 1870 yılında Horasânî Ali Dede’nin vefatı üzerine meşihatla Aydın Güzelhisarı’nda onun dergâhına gönderildi. Orada irşadla meşgul olurken Girit’teki Hanya Mevlevîleri’nden gelen davet üzerine 1872’de Hanya’ya gitti ve ailesiyle oraya yerleşti. 5 Temmuz 1880’de açılan Hanya Mevlevîhânesi’nin inşasında büyük hizmetleri oldu. 23 Zilhicce 1303’te (22 Eylül 1886) Hanya’da vefat etti ve mevlevîhânenin hazîresine defnedildi. 1924 nüfus mübadelesinde dergâhın bazı eşyası ve hazîrede yatan diğer şeyhlerin naaşlarıyla beraber Kara Şemsi’nin naaşı da önce İzmir Mevlevîhânesi hazîresine, onun yıkılması üzerine Balçova Mezarlığı’na nakledildi (Kara Şemsi ve oğullarının Hanya Mevlevîhânesi’ne hizmetleri için bk. HANYA MEVLEVÎHÂNESİ ). Dinî ve tasavvufî manzumeler yazan, Nûrî, Şemsî, Sem‘î, Niyâzî, Abdal mahlaslarını kullanan Kara Şemsi’nin Türkçe ve Farsça manzumelerinin bulunduğu divanı oğlu Hüseyin Ârif tarafından Tuhfetü’l-Mesnevî alâ hubbi’l-Haydarî ve Dîvânçe-i Kara Şemsî adıyla, başında Girit vilâyeti mutasarrıfı İbrâhim Şerif Efendi’nin bir takriziyle birlikte yayımlanmıştır (İstanbul 1305). Divanının baştan on altı sayfalık kısmında Farsça manzumeler, geri kalan kısımda ise kırk altısı gazel olmak üzere toplam seksen dört manzume bulunmaktadır. Farsça kısımdaki münâcât, na‘t, methiye ve mersiyelerle Türkçe kısımdaki kaside, tarih, murabba, şarkı ve gazel türünde manzumelerin toplam beyit sayısı 1040’tır. Divanın başında ayrıca müellif hakkında bilgi vardır. Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 366 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kara-semsi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kara-semsi, https://islamansiklopedisi.org.tr/kara-semsi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:31Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:31Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kara-semsi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1829,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=kara-semsi, URL: https://islamansiklopedisi.org.tr/kara-semsi || DİA birth place: Konya || DİA death place: Hanya || DİA death-date string: (1829-1886) || DİA categories: şiir > tasavvuf || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00018165"
+  ]
+}

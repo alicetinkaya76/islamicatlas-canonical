@@ -1,0 +1,66 @@
+{
+ "@id": "iac:person-00021303",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "Tabari"
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "openiti:0310Tabari",
+    "source_type": "digital_corpus",
+    "page_or_locator": "OpenITI corpus_authors.json id=0310Tabari",
+    "extraction_method": "structured_json",
+    "edition_or_version": "OpenITI corpus snapshot 2024-2026"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "openiti-author-resolve",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T21:23:43Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T21:23:43Z",
+  "modified": "2026-05-04T21:23:43Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T21:23:43Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Placeholder person minted by openiti-author-resolve Tier 4 (no T1/T2 match in canonical person index). Pending biographic enrichment in Hafta 6 (DİA chunk re-extraction + cross-source alignment). Authored works will be back-populated by integrity_pass_A_bidirectional after openiti-works adapter."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (213-7225-16663-21303) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00007225 lehine yumuşak-silindi. Gerekçe: Dördü de Muhammed b. Cerîr et-Taberî'dir (ö. 922/923, Âmül-Taberistan); 16663'teki 'ruler' rolü etiketleme hatasıdır, nesep 'İbn Cerîr' aynı şahsı işaret eder."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00007225"
+ },
+ "note": "Tier-4 placeholder from OpenITI author_id=0310Tabari. Biographic content sparse pending Hafta 6 enrichment.",
+ "death_temporal": {
+  "start_ce": 922,
+  "start_ah": 310,
+  "approximation": "circa"
+ },
+ "authored_works": [
+  "iac:work-00000259",
+  "iac:work-00000338",
+  "iac:work-00000977",
+  "iac:work-00003661",
+  "iac:work-00003833",
+  "iac:work-00006832",
+  "iac:work-00008516"
+ ]
+}

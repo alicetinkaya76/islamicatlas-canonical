@@ -1,0 +1,106 @@
+{
+  "@id": "iac:person-00003506",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HUMEYD et-TAVÎL",
+      "ar": "حميد الطويل"
+    },
+    "originalScript": {
+      "ar": "حميد الطويل"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ubeyde (Ebû Ubeyd) Humeyd b. Ebî Humeyd Tîrûye el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "68 (687) yılında doğdu. Muhaddis Hammâd b. Seleme’nin dayısıdır. Babasının adının Abdurrahman, Dâvûd, Dâver, Mahled, Mihrân, Semîr, Tarhân, Tîr (Teyr), Tîrûye (Tîreveyh), Zâdeveyh (Zâzeveyh) olduğuna dair çeşitli rivayetler bulunmakla beraber Tîrûye olması ihtimali daha kuvvetlidir. Humeyd, Huzâa kabilesinden Talhatü’t-Talahât olarak da bilinen Sicistan Valisi Talha b. Abdullah b. Halef’in âzatlısı olduğu için Huzâî nisbesiyle de anılır. Kısa boyuna rağmen elleri uzun olduğundan Tavîl lakabı ile tanınmıştır. Kendisinden daha kısa boylu olan ve Humeyd es-Sagīr diye anılan komşusundan ayırt edilmesi için ona Tavîl lakabının verildiği de kaydedilir. Humeyd Enes b. Mâlik, Hasan-ı Basrî, Recâ b. Hayve, Sâbit el-Bünânî ve Nâfi‘ gibi sahâbî ve tâbiîlerden hadis dinlemiş, kendisinden de Hüşeym b. Beşîr, Süfyân es-Sevrî, Şu‘be b. Haccâc, yeğeni Hammâd b. Seleme, Mâlik b. Enes, Süfyân b. Uyeyne gibi âlimler hadis rivayet etmişlerdir. Rivayetleri Kütüb-i Sitte ’de yer alan ve güvenilir bir râvi kabul edilen Humeyd, Enes b. Mâlik’ten olan bir kısım rivayetlerinde tedlîs yaptığı gerekçesiyle tenkit edilmişse de bu tür rivayetlerinde düşürdüğü râvinin hocası Sâbit el-Bünânî gibi sika bir râvi olması sebebiyle bu durum onun güvenilirliğini etkilememiş olmalıdır. Basra’da insanlar arasındaki anlaşmazlıkları giderip onları barıştırdığından “muslihu ehli’l-Basra” diye tanınan Humeyd Cemâziyelevvel 143’te (Eylül 760) namaz kılarken vefat etti. Bu tarih 140 (757) ve 142 (759) olarak da zikredilmiştir. Humeyd et-Tavîl’in Enes b. Mâlik’ten olan rivayetlerini ihtiva eden Ṣaḥîfetü Ḥumeyd eṭ-Ṭavîl ʿan Enes adlı cüz Süleymaniye Kütüphanesi’nde bulunmaktadır (Şehid Ali Paşa, nr. 539, vr. 122 b -134 a ). Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 356-357 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:humeyd-et-tavil",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=humeyd-et-tavil, https://islamansiklopedisi.org.tr/humeyd-et-tavil",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:15Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=humeyd-et-tavil (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Basrî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 68,
+    "start_ce": 687,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 143,
+    "start_ce": 760,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=humeyd-et-tavil, URL: https://islamansiklopedisi.org.tr/humeyd-et-tavil || DİA death place: 143 || DİA death-date string: (ö. 143/760) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002515",
+    "iac:person-00003260",
+    "iac:person-00003753",
+    "iac:person-00005969",
+    "iac:person-00006512",
+    "iac:person-00006659",
+    "iac:person-00007655"
+  ],
+  "students": [
+    "iac:person-00000612",
+    "iac:person-00001560",
+    "iac:person-00001984",
+    "iac:person-00003576",
+    "iac:person-00004060",
+    "iac:person-00004557",
+    "iac:person-00005206",
+    "iac:person-00007106",
+    "iac:person-00007121",
+    "iac:person-00007122",
+    "iac:person-00007146",
+    "iac:person-00007715",
+    "iac:person-00007717",
+    "iac:person-00007895"
+  ]
+}

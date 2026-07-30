@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00000692",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Açikbaş Mahmud Efendi"
+    },
+    "description": {
+      "tr": "Âmid’de (Diyarbakır) doğdu. Ahî Mahmud Efendi’nin oğlu, Nakşibendî şeyhlerinden Rûmiyye şeyhi diye meşhur Mahmud Efendi’nin yeğeni ve mürididir. İlim tahsili için Mısır’a gitti, sonra Bursa’ya gelip yerleşti. Bursa’da Ulucami ve Dâye Hatun camilerinde vaazlar verdi, talebe okuttu. Bilinmeyen bazı sebepler yüzünden halkın şikâyeti üzerine Bursa’dan sürgün edildi. 15 Rebîülâhir 1077’de (15 Ekim 1666) vefat etti ve Dâye Hatun Camii hazîresine defnedildi. Resmî mahlasıyla Türkçe, Arapça ve Farsça şiirleri, Türkçe Güzîde adlı tecvide dair bir risâlesi ve Risâle-i Nûrbahşiyye adlı tasavvufî bir eseri vardır. Ayrıca Seyyid Mahmûd-ı Hemedânî’nin Evrâd-ı Fetḥiyye adlı Farsça eserini şerh ve tercüme ettiği kaynaklarda belirtilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 332 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:acikbas-mahmud-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=acikbas-mahmud-efendi, https://islamansiklopedisi.org.tr/acikbas-mahmud-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:acikbas-mahmud-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/acikbas-mahmud-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=acikbas-mahmud-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1077,
+    "start_ce": 1666,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=acikbas-mahmud-efendi, URL: https://islamansiklopedisi.org.tr/acikbas-mahmud-efendi || DİA death place: 1077 || DİA death-date string: (ö. 1077/1666) || DİA categories: tasavvuf || Chunk count: 1"
+}

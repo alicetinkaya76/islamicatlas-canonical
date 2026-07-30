@@ -1,0 +1,105 @@
+{
+  "@id": "iac:person-00003213",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HARMELE b. YAHYÂ",
+      "ar": "حرملة بن يحيى"
+    },
+    "originalScript": {
+      "ar": "حرملة بن يحيى"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Hafs (Ebû Abdillâh) Harmele b. Yahyâ b. Abdillâh et-Tücîbî"
+      ]
+    },
+    "description": {
+      "tr": "166 (783) yılında doğdu. Mısır’a yerleşen Yemen asıllı Tücîb kabilesine mensuptur. İmam Şâfiî’den Mısır’da kaldığı beş yıllık süre boyunca ders aldı. Ayrıca İmam Mâlik’in talebesi İbn Vehb, Eyyûb b. Süveyd er-Remlî ve Bişr b. Bekir et-Tinnîsî gibi âlimlerden hadis rivayet etti. Evinde bir yıldan fazla misafir kalan İbn Vehb’den, bazı garip haberlerle birlikte 100.000’in üzerinde hadis rivayet ettiği kaydedilir. Harmele’den Müslim b. Haccâc, İbn Mâce, İbn Vaddâh, Nesâî, Ebû Hâtim er-Râzî, İbn Kuteybe, Bakī b. Mahled, Ebû Zür‘a er-Râzî, Hasan b. Süfyân, Ahmed b. Mansûr er-Remâdî rivayette bulundular. Şâfiî mezhebi müctehid tabakalarından ashâbü’l-vücûh içinde yer alan Harmele meseleleri Şâfiî’nin usulüne göre halleder, ancak farklı ictihadlarda bulunduğu da olurdu. Hadis ve fıkıh ilimlerindeki şöhretine rağmen Şâfiî’den rivayette Müzenî ve Rebî‘ b. Süleyman el-Murâdî’nin derecesine ulaşamamış, mütekaddim Şâfiî ulemâsı, bu iki imamın rivayetlerine Harmele ve Rebî‘ b. Süleyman el-Cîzî’ninkilerden daha çok itibar etmiştir. Ebû İshak eş-Şîrâzî’nin el-Müheẕẕeb ’i, Gazzâlî’nin el-Vasîṭ ’i, Abdülkerîm b. Muhammed er-Râfiî’nin eş-Şerḥu’l-kebîr ’i ve Yahyâ b. Şeref en-Nevevî’nin Ravżatü’ṭ-ṭâlibîn ’i gibi Şâfiî mezhebinin temel fıkıh kaynaklarında adı sıkça geçen Harmele’yi bazı hadis tenkitçileri zayıf bulurken bazıları da sika kabul etmiştir. Meselâ Ebû Hâtim er-Râzî, “Onun hadisleri yazılır ancak delil olmaz”; İbn Adî, “Harmele’nin hadislerini derinlemesine inceledim, fakat onun yüzünden zayıf sayılanını görmedim”; İbn Maîn, “Harmele, İbn Vehb’i en iyi bilen kişidir” demekte; İbn Hibbân ile Ukaylî de onun güvenilir bir muhaddis olduğunu söylemektedir. 243 yılı Şevvalinde (Şubat 858) Mısır’da vefat eden Harmele’nin Şâfiî fıkhına dair el-Muḫtaṣar ve el-Mebsûṭ adlı iki eser kaleme aldığı kaynaklarda zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 232 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:harmele-b-yahya",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=harmele-b-yahya, https://islamansiklopedisi.org.tr/harmele-b-yahya",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:harmele-b-yahya",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/harmele-b-yahya",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=harmele-b-yahya (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Tücîbî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 166,
+    "start_ce": 783,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 243,
+    "start_ce": 858,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=harmele-b-yahya, URL: https://islamansiklopedisi.org.tr/harmele-b-yahya || DİA death-date string: (ö. 243/858) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004072",
+    "iac:person-00006568"
+  ],
+  "students": [
+    "iac:person-00003235",
+    "iac:person-00004067",
+    "iac:person-00004919",
+    "iac:person-00005861"
+  ]
+}

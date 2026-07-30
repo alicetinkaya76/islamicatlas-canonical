@@ -1,0 +1,102 @@
+{
+ "@id": "iac:person-00012765",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn ʿAbd al-Ḥakam",
+   "tr": "İbn Abdilhâkem",
+   "ar": "ابن عبد الحكم"
+  },
+  "originalScript": {
+   "ar": "ابن عبد الحكم"
+  },
+  "description": {
+   "tr": "Tarihçi, hadis ilmiyle meşhurlardan biridir.",
+   "en": "Historian, one of the renowned scholars of hadith."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAbd al-Raḥmān b. ʿAbd Allāh b. ʿAbd al-Ḥakam, Abū al-Qāsim"
+  },
+  "altLabel": {
+   "tr": [
+    "Abdurrahman b. Abdillah b. Abdilhâkem, Ebû Kâsım"
+   ],
+   "ar": [
+    "عبد الرحمن بن عبد الله بن عبد الحكم، أبو القاسم"
+   ]
+  }
+ },
+ "profession": [
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:5205",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5205",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:ibn-abdulhakem-ebul-kasim",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/ibn-abdulhakem-ebul-kasim",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:12Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:12Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:12Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=5205 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.99): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:5205."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3611-12765) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003611 lehine yumuşak-silindi. Gerekçe: Fütûhu Mısr müellifi Ebü'l-Kāsım İbn Abdülhakem'e (ö. 257/870-71) uyan tek kayıt çifti; isim, künye, tarihçi rolü ve yüzyıl (9.) tam örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003611"
+ },
+ "death_temporal": {
+  "start_ah": 257,
+  "start_ce": 871,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5205, heading_ar=ابن عبد الحكم || Ziriklī century_ce=9",
+ "authored_works": [
+  "iac:work-00002152"
+ ],
+ "kunya": "أبو القاسم"
+}

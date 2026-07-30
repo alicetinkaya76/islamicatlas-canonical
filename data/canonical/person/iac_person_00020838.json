@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00020838",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Kāmil I"
+    },
+    "description": {
+      "tr": "Sikke bastı (o); Kudüs'ü İmparator Friedrich II'ye verdi (626/1229); Haçlılarla barış"
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:30:ruler:8",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-030, ruler #9",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:10:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:10:04Z",
+    "modified": "2026-07-12T14:15:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:10:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Promoted from inline rulers[8] of iac:dynasty-00000030 (The Ayyūbids) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[8].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:15:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "h11_001 QID karantinası: wikidata:Q2669418 kayıttan çıkarıldı (denetim MISMATCH, sim=52, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+      }
+    ],
+    "deprecated": false
+  },
+  "affiliated_dynasties": [
+    "iac:dynasty-00000030"
+  ],
+  "laqab": [
+    "al-Malik al-Kāmil / Sultān"
+  ],
+  "floruit_temporal": {
+    "start_ce": 1218,
+    "end_ce": 1238,
+    "start_ah": 615,
+    "end_ah": 635,
+    "approximation": "floruit"
+  },
+  "death_temporal": {
+    "start_ce": 1238,
+    "approximation": "circa",
+    "start_ah": 635,
+    "note": "Inferred from Bosworth reign_end (often ≈ year of death)."
+  },
+  "note": "Bosworth relation note: oğlu || Bosworth death code: o || Promoted from iac:dynasty-00000030 rulers[8] (Bosworth NID-030)."
+}

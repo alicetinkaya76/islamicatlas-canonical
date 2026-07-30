@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00004110",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’d-DEBBÂĞ, Ebü’l-Kāsım",
+      "ar": "أبو القاسم ابن الدبّاغ"
+    },
+    "originalScript": {
+      "ar": "أبو القاسم ابن الدبّاغ"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Kāsım Halef b. el-Kasım b. Sehl (Sehlûn) el-Ezdî el-Endelüsî"
+      ]
+    },
+    "description": {
+      "tr": "325’te (937) Kurtuba’da doğdu. Babasının tabaklıkla uğraşması sebebiyle İbnü’d-Debbâğ diye anıldı. İlk öğrenimini memleketinde yaptıktan sonra 345’te (956) tahsil için seyahate çıktı. On beş yıl kadar süren bu yolculuğu sırasında Mısır, Şam ve Hicaz bölgelerini dolaşarak pek çok âlimden istifade etti. Muhammed b. Yûsuf el-Kindî, İbnü’s-Seken, Hamza el-Kinânî, İbn Eşte ve Âcurrî, İbnü’d-Debbâğ’ın sayıları 300’ü bulduğu söylenen hocalarından bazılarıdır. Hadis ilimleri yanında kıraatle de meşgul olan İbnü’d-Debbâğ, Kitâbü’s-Sebʿa ’nın müellifi İbn Mücâhid’in talebesi Ebû Bekir Ahmed b. Sâlih el-Bağdâdî’den kıraat okudu. Memleketine döndükten sonra Kurtuba’da hadis okutmaya başlayan İbnü’d-Debbâğ’ın talebeleri arasında kendisinden çok miktarda hadis yazan İbn Abdülber en-Nemerî ile Ebû Amr ed-Dânî ve İbnü’l-Faradî zikredilebilir. Güvenilir bir hadis hâfızı olan, ricâl ve hadislerde görülebilecek illetler konusunda uzman kabul edilen İbnü’d-Debbâğ 17 Rebîülâhir 393’te (23 Şubat 1003) vefat etti; İbn Tağrîberdî ise onu 395 (1005) yılı vefeyâtı içinde zikretmiştir. İbnü’d-Debbâğ’ın kaynaklarda adı geçen eserleri şunlardır: Müsnedü ḥadîs̱i (eḥâdîs̱i) Mâlik b. Enes ; Müsnedü ḥadîs̱i Şuʿbe b. el-Ḥaccâc , Esmâʾü’l-maʿrûfîn bi’l-künâ mine’ṣ-ṣaḥâbe ve’t-tâbiʿîn ve sâʾiri’l-muḥaddis̱în , Kitâbü’l-Ḫâʾifîn ; Aḳżıyetü (Ḳażâyâ) Şüreyḥ , Zühdü Bişr b. el-Ḥâris̱ , Kitâbü’z-Zühd . Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 8 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnud-debbag-ebul-kasim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnud-debbag-ebul-kasim, https://islamansiklopedisi.org.tr/ibnud-debbag-ebul-kasim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:24Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:24Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:24Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnud-debbag-ebul-kasim (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Endelüsî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 393,
+    "start_ce": 1003,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnud-debbag-ebul-kasim, URL: https://islamansiklopedisi.org.tr/ibnud-debbag-ebul-kasim || DİA birth place: Kurtuba || DİA death place: 393 || DİA death-date string: (ö. 393/1003) || DİA categories: hadis || Chunk count: 1",
+  "birth_place": "iac:place-00014474",
+  "teachers": [
+    "iac:person-00000695",
+    "iac:person-00003151",
+    "iac:person-00003789",
+    "iac:person-00003999",
+    "iac:person-00004336",
+    "iac:person-00004922"
+  ],
+  "students": [
+    "iac:person-00001928",
+    "iac:person-00003604",
+    "iac:person-00004178"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00000191",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Al-Jazari",
+      "tr": "Cezerî",
+      "ar": "الجزري"
+    },
+    "originalScript": {
+      "ar": "الجزري"
+    },
+    "altLabel": {
+      "en": [
+        "Badi al-Zaman Abu al-Izz ibn Ismail al-Jazari"
+      ],
+      "tr": [
+        "Bedîüzzaman Ebü'l-İz İsmâil b. er-Rezzâz el-Cezerî"
+      ],
+      "ar": [
+        "بديع الزمان أبو العز إسماعيل بن الرزاز الجزري"
+      ]
+    },
+    "description": {
+      "tr": "Robotiğin babası — ilk programlanabilir otomatı (mekanik müzisyenli tekne) tasarladı ve bugün her araba motoruna güç veren krank milini icat etti || Cezerî'nin Kitâbü'l-Hiyel eseri, İslam mekanik mühendisliğinin zirvesini temsil eder. Fil Saati, Hint, Çin, Yunan, Mısır ve Arap su saati geleneklerini kasıtlı bir medeniyet sentezi olarak tek bir mekanizmada birleştirdi. || [Tarih notu] Donald Hill'in 1974 çevirisi ve kritik edisyonu Cezerî'nin mühendislik sofistikasyonunu Batı akademisine tanıttı. Önceki Batı teknoloji tarihleri İslam mekanik mühendisliğini neredeyse tamamen ihmal etmişti.",
+      "en": "Father of robotics — designed the first programmable automaton (a musical boat with mechanical musicians) and invented the crankshaft, a mechanism that powers every car engine today || Jazari's Book of Ingenious Mechanical Devices represents the pinnacle of Islamic mechanical engineering. His Elephant Clock synthesized Indian, Chinese, Greek, Egyptian, and Arab water-clock traditions into a single mechanism — a deliberate statement of civilizational synthesis. His use of segmental gears, camshafts, and programmable cams predates European equivalents by centuries. || [Historiographical note] Donald Hill's 1974 translation and critical edition revealed Jazari's engineering sophistication to Western scholarship. The 2017 Istanbul exhibition drew unprecedented public attention. Earlier Western histories of technology (e.g., Singer 1954) almost entirely omitted Islamic mechanical engineering.",
+      "ar": "أبو الروبوتات — صمّم أول إنسان آلي قابل للبرمجة واخترع عمود المرفق || كتاب الحيل للجزري يمثل ذروة الهندسة الميكانيكية الإسلامية. ساعة الفيل جمعت تقاليد ست حضارات. استخدامه للتروس القطعية والكامات والأذرع المبرمجة سبق أوروبا بقرون"
+    }
+  },
+  "profession": [
+    "scholar",
+    "mathematician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0008",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0008, lecture_id=jazari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:15",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=15",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-12T14:15:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0008 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:15:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "h11_001 QID karantinası: wikidata:Q455100 kayıttan çıkarıldı (denetim MISMATCH, sim=29, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1136,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1206,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0008, lecture_week=14. || Key works: {'title': {'en': 'Al-Jāmiʿ bayn al-ʿIlm wa-l-ʿAmal al-Nāfiʿ fī Ṣināʿat al-Ḥiyal', 'tr': \"el-Câmi beyne'l-İlm ve'l-Amel en-Nâfi fî Sınâati'l-Hiyel\", 'ar': 'الجامع بين العلم والعمل النافع في صناعة الحيل'}, 'year': 1206, 'field': 'engineering', 'significance': {'en': '50+ mechanical devices with detailed engineering drawings — includes the first programmable automaton and crankshaft mechanism', 'tr': 'Ayrıntılı mühendislik çizimleriyle 50+ mekanik cihaz — ilk programlanabilir otomat ve krank mili m || Modern parallel: Imagine combining the creativity of a Pixar animator with the precision of a Tesla engineer — then imagine doing it 800 years before electricity existed.",
+  "authored_works": [
+    "iac:work-00000017"
+  ],
+  "kunya": "Ebü'l-İzz",
+  "nisba": [
+    "Cezerî (Cizre)"
+  ],
+  "laqab": [
+    "Bedîüzzamân (Zamanın Harikası)"
+  ]
+}

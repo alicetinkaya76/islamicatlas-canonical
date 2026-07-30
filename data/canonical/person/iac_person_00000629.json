@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00000629",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. ÂİZ",
+      "ar": "عبد الرحمن بن عائذ"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن عائذ"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Abdurrahmân b. Âiz el-Ezdî es-Sümâlî"
+      ]
+    },
+    "description": {
+      "tr": "Kaynaklarda Kindî, Hımsî, Yahsubî, Sümâlî (Sümânî) nisbeleriyle yer alan Abdurrahman, bazı biyografi müelliflerince sahâbî sayılmışsa da sahâbî değil, tâbiî neslinin büyük âlimlerindendir. Güvenilir bir râvi olarak bilinmektedir. Hz. Ömer, Ali, Muâz b. Cebel, Ebû Zer, Abdullah b. Amr b. Âs, İrbâd b. Sâriye başta olmak üzere birçok sahâbîden hadis rivayet etti. Şamlılar’ın genellikle yaptığı gibi, Hz. Peygamber ve bazı sahâbîlerden bizzat hadis almış gibi mürsel rivayetlerde bulundu. Kendisinden de Mahfûz b. Alkame, Simâk b. Harb, Safvân b. Amr, Yahyâ b. Câbir ve diğer bazı kişiler rivayette bulunmuşlardır. Haccâc’a karşı savaşan İbnü’l-Eş‘as kumandasındaki orduya katıldı (702) ve Cemâcim çatışmasında esir düştü. Daha sonra Haccâc’ın huzuruna çıkarılmış, Haccâc ona geceyi nasıl geçirdiğini sormuş, o da, “Allah’ın da, şeytanın da, kendimin de istemediği şekilde geçirdim” demiş, Haccâc, “Bu ne biçim söz?” diye onu azarlayınca, “Evet, Allah geceyi ibadetle ihya etmemi isterdi, ben yapamadım; şeytan fâsık ve dinsiz olarak gecelememi arzu ederdi, onu da yapamadım; ben ise hür ve evimde çoluk çocuğumla beraber olmayı isterdim, bu da olmadı” tarzında cevap vermiştir. Bunun üzerine Haccâc kendisini serbest bırakmıştır. Nesâî’nin güvenilir kabul ettiği Abdurrahman b. Âiz’in rivayetleri dört meşhur sünende yer almıştır. Nerede ve ne zaman vefat ettiği kesin olarak bilinmemektedir. Abdurrahman’dan geriye birçok kitap kalmıştır. Humuslular onun kitaplarında ahkâma dair bir hadis bulunca, kendisine olan saygı ve güvenlerinden dolayı, o hadisi mescidin kapısına asar ve gereğini yerine getirmeye çalışırlardı. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 156-157 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-aiz",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-aiz, https://islamansiklopedisi.org.tr/abdurrahman-b-aiz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-aiz (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sümâlî"
+  ],
+  "death_temporal": {
+    "start_ah": 83,
+    "start_ce": 702,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-aiz, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-aiz || DİA death-date string: (ö. 83/702’den sonra) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000489",
+    "iac:person-00000990",
+    "iac:person-00002305",
+    "iac:person-00005611",
+    "iac:person-00006207"
+  ],
+  "students": [
+    "iac:person-00007030"
+  ]
+}

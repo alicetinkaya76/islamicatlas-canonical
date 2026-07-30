@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00000928",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ b. AHMED el-İMRÂNÎ",
+      "ar": "عليّ بن أحمد العمراني"
+    },
+    "originalScript": {
+      "ar": "عليّ بن أحمد العمراني"
+    },
+    "altLabel": {
+      "tr": [
+        "Alî b. Ahmed el-İmrânî el-Mevsılî"
+      ]
+    },
+    "description": {
+      "tr": "Doğum yeri ve yılı bilinmemekle beraber Mevsılî nisbesinden Musul’da doğmuş olabileceği tahmin edilmektedir. Kaynaklarda, fazilet ve ilim sahibi bir insan olarak şöhret yaptığı, insanların kendisinden ilim öğrenmek ve zenginliğiyle ünlü kütüphanesinden faydalanmak için uzak beldelerden Musul’a geldikleri kayıtlıdır. Eserleri aritmetik, geometri ve astroloji üzerinedir. Bunlar arasında, Mısırlı matematikçi Ebû Kâmil’in Kitâbü’l-Cebr ve’l-muḳābele adlı eserine yaptığı şerh ile uğurlu günlerin nasıl seçileceğine dair kaleme aldığı Kitâbü’l-İḫtiyârât adlı astrolojik çalışması en tanınmış olanlarıdır. el-İḫtiyârât , 1134 yılında Barselona’da Abraham Judaeus tarafından De electionibus adıyla Latince’ye tercüme edilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 381 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "mathematician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-b-ahmed-el-imrani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-b-ahmed-el-imrani, https://islamansiklopedisi.org.tr/ali-b-ahmed-el-imrani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-14T13:16:09Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-b-ahmed-el-imrani (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "İmrânî; Mevsılî"
+  ],
+  "death_temporal": {
+    "start_ah": 344,
+    "start_ce": 955,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-b-ahmed-el-imrani, URL: https://islamansiklopedisi.org.tr/ali-b-ahmed-el-imrani || DİA death-date string: (ö. 344/955-56) || DİA categories: matematik || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00011725"
+  ]
+}

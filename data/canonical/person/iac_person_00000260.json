@@ -1,0 +1,148 @@
+{
+ "@id": "iac:person-00000260",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Zamakhshari",
+   "tr": "Zemahşerî",
+   "ar": "الزمخشري"
+  },
+  "originalScript": {
+   "ar": "الزمخشري"
+  },
+  "altLabel": {
+   "en": [
+    "Abū al-Qāsim Maḥmūd ibn ʿUmar al-Zamakhsharī"
+   ],
+   "tr": [
+    "Ebü'l-Kāsım Mahmûd b. Ömer ez-Zemahşerî"
+   ],
+   "ar": [
+    "أبو القاسم محمود بن عمر الزمخشري"
+   ]
+  },
+  "description": {
+   "tr": "İslâm tarihinin en etkili dil-belâgat merkezli Kur'ân tefsiri el-Keşşâf'ı yazdı || Mu'tezilî olmasına rağmen Keşşâf dilbilimsel açıdan o kadar üstündü ki Sünnî âlimler bile onu görmezden gelemedi. || [Tarih notu] Kâbe yakınında uzun süre kaldığı için 'Cârullâh' (Allah'ın komşusu) lakabıyla anılır; Mu'tezilî görüşleri eserlerini tartışmalı ama vazgeçilmez kıldı.",
+   "en": "Wrote al-Kashshaf, the most influential rhetorical-linguistic Qur'anic commentary in Islamic history || Despite being Mu'tazili in theology, al-Zamakhshari's Kashshaf was so linguistically superior that even Sunni scholars could not ignore it, producing dozens of corrections. || [Historiographical note] Known as 'Jar Allah' (Neighbor of God) for his extended stay near the Kaaba; his Mu'tazili views made his works controversial yet indispensable.",
+   "ar": "كتب الكشاف أشهر تفسير بلاغي لغوي للقرآن || رغم اعتزاليته، لم يستطع علماء السنة تجاهل تفسيره لتفوقه اللغوي"
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0077",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0077",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   },
+   {
+    "source_id": "dia-chunks:zemahseri",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/zemahseri",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   },
+   {
+    "source_id": "scholars:448",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=448",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:56:41Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:56:41Z",
+  "modified": "2026-07-12T14:48:04Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:56:41Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0077 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:32Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (260-7814) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00007814 lehine yumuşak-silindi. Gerekçe: İki kayıt da el-Keşşâf müellifi Cârullah ez-Zemahşerî'dir (ö. 538/1144); Arapça ad, ölüm yılı ve Zemahşer doğum yeri uyuşur, 'poet' etiketi onun edebî yönüne ait kaba bir rol atamasıdır."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00007814"
+ },
+ "birth_temporal": {
+  "start_ce": 1075,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1144,
+  "approximation": "exact"
+ },
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q482451",
+   "confidence": 1.0,
+   "method": "openrefine_v3",
+   "reviewed": false,
+   "note": "Auto-matched via OpenRefine recon (top result for 'Zamakhshari')."
+  }
+ ],
+ "note": "Promoted from science_layer.json scholar id=scholar_0077, lecture_week=n/a. || Key works: {'title': {'en': 'al-Kashshaf', 'tr': 'el-Keşşâf', 'ar': 'الكشاف'}, 'year': 1134, 'field': 'religious_sciences', 'significance': {'en': \"Rhetorical-linguistic Qur'anic commentary that set the standard for Arabic rhetoric\", 'tr': \"Arap retoriğinin standartlarını belirleyen dil-belâgat merkezli Kur'ân tefsiri\"}}; {'title': {'en': 'al-Mufassal', 'tr': 'el-Mufassal', 'ar': 'المفصل'}, 'year': 1120, 'field': 'linguistics', 'significance': {'en': 'Comprehensive Arabic grammar reference', 'tr': 'Kapsaml || Modern parallel: Like a brilliant but controversial scholar whose textbook is too good to not use, despite ideological objections.",
+ "active_in_places": [
+  "iac:place-00004462",
+  "iac:place-00011505"
+ ],
+ "authored_works": [
+  "iac:work-00000108",
+  "iac:work-00000109",
+  "iac:work-00000524",
+  "iac:work-00000728",
+  "iac:work-00000806",
+  "iac:work-00001040",
+  "iac:work-00002125",
+  "iac:work-00002497",
+  "iac:work-00003857",
+  "iac:work-00004325",
+  "iac:work-00006140",
+  "iac:work-00006206",
+  "iac:work-00007533",
+  "iac:work-00007611",
+  "iac:work-00008520"
+ ]
+}

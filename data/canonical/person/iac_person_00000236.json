@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00000236",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Masha'allah ibn Athari",
+      "tr": "Mâşâallah b. Eserî",
+      "ar": "ماشاء الله بن أثري"
+    },
+    "originalScript": {
+      "ar": "ماشاء الله بن أثري"
+    },
+    "altLabel": {
+      "en": [
+        "Masha'allah ibn Athari al-Basri",
+        "MASHA"
+      ],
+      "tr": [
+        "Mâşâallah b. Eserî el-Basrî"
+      ],
+      "ar": [
+        "ماشاء الله بن أثري البصري"
+      ]
+    },
+    "description": {
+      "tr": "Bağdat'ın kuruluşu için astrolojik tarih seçimine yardım eden Yahudi asıllı astronom || Mâşâallah erken İslam biliminin çoğulcu yapısını temsil eder. || [Tarih notu] Eserleri esas olarak Latince çeviriler yoluyla günümüze ulaşmıştır.",
+      "en": "Jewish-origin astronomer who helped select the astrological date for the founding of Baghdad (762); major transmitter of Sassanid astronomical knowledge || Masha'allah represents the pluralistic nature of early Islamic science — a Jewish scholar at the heart of the Abbasid court. || [Historiographical note] His works survive primarily through Latin translations; Arabic originals are largely lost.",
+      "ar": "عالم فلك يهودي ساعد في تحديد تاريخ تأسيس بغداد || يمثل ماشاء الله التعددية في العلم الإسلامي المبكر"
+    }
+  },
+  "profession": [
+    "astronomer",
+    "mathematician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0053",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0053",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "ei1:7099",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 3, p. 33",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:56Z",
+    "modified": "2026-07-10T15:44:36Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0053 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled ['altLabel.en']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 740,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 815,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q945425",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for \"Masha'allah ibn Athari\")."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0053, lecture_week=n/a. || Key works: {'title': {'en': 'Kitāb al-Maḥāll', 'tr': \"Kitâbü'l-Mehâl\", 'ar': 'كتاب المحال'}, 'year': 800, 'field': 'astronomy', 'significance': {'en': 'Applied astronomical cycles to predict commodity prices — early econometrics', 'tr': 'Astronomik döngüleri emtia fiyatlarını tahmin etmek için uyguladı'}} || Modern parallel: Like an immigrant scientist whose expertise helped build a new capital city.",
+  "authored_works": [
+    "iac:work-00000078"
+  ]
+}

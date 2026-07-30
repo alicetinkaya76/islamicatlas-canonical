@@ -1,0 +1,111 @@
+{
+  "@id": "iac:person-00003315",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HATÎB el-ÜMEVÎ",
+      "ar": "الخطيب الأموي"
+    },
+    "originalScript": {
+      "ar": "الخطيب الأموي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Alî el-Hasen b. Alî b. Halef el-Hatîb el-Endelüsî el-Ümevî el-Kurtubî"
+      ]
+    },
+    "description": {
+      "tr": "514 (1120) yılında Kurtuba’da (Córdoba) doğdu. Ebü’l-Kāsım İbn Rızâ, Muhammed b. Ca‘fer b. Sâf, Abdürrahîm el-Haccârî ve Ebû Bekir Ayyâş b. Ferec’den kıraat ilmi, Ebü’l-Hasan Yûnus b. Mugīs, Ebû Bekir İbnü’l-Arabî ve İbn Meserret’ten hadis okudu. İbn Ebü’l-Hisâl ve Ebû Bekir b. Semhûn’dan Arap dili ve edebiyatı tahsil etti. Ebû Bekir b. Hulûf ve Ebû Abdullah el-Bağdâdî’den rivayette bulundu; İbn Rüşd de kendi rivayet ve teliflerini rivayet edip okutabilmesi için ona icâzet verdi. Uzun müddet İşbîliye (Sevilla) Kadısı Ebû Hafs b. Ömer ile birlikte bulundu. İşbîliye’de hatiplik yaptığı için “Hatîb”, edebiyata olan eğilim ve yeteneğinden dolayı da “Edîb” lakabıyla tanındı. İbnü’l-Ebbâr, Ümevî’nin 602 (1205) yılında İşbîliye’de öldüğünü bildirmektedir (et-Tekmile, I, 20). Eserleri. İbnü’l-Ebbâr, Hatîb el-Ümevî’nin kendi eserlerini ve bazı hocalarının adlarını yazdığı bir belgeyi gördüğünü belirtir ve şu eserleri kaydeder ( a.g.e. , I, 20): 1. Ravżatü’l-ezhâr . Edebî ilimlere dair olup Vatikan (V, 1164), British Museum (Or. 6347) ve Rabat (nr. 679d) kütüphanelerinde kayıtlı birer nüshası vardır (Brockelmann, I, 596; Ziriklî, II, 203). 2. Kitâb fi’l-envâʾ . Halk astronomisiyle ilgili olan bu eserin 800’de (1397-98) istinsah edilmiş otuz sekiz varaklık tek nüshası Escurial Library’de kayıtlı olup (Ar. 941) Endülüs’te kıble tayiniyle ilgili bir bölümü David A. King tarafından neşredilmiştir ( Islamic Astronomical Instruments , s. 367, not 22, 370, 389). “Kıt‘a min Kitâb fi’l-envâ’” başlıklı bu parçaya göre, Kuzey kutbunu sol omuzu arkasına aldıktan sonra güneye yönelen kimsenin karşısındaki yer kıbledir. 3. el-Lüʾlüʾü’l-manẓûm fî maʿrifeti’l-evḳāt bi’n-nücûm . Yıldızlar vasıtasıyla vakit tayini konusundaki bu eserin herhangi bir nüshasına rastlanmamıştır. Kitabın adı Ġāyetü’n-Nihâye (I, 223) ve Muʿcemü’l-müʾellifîn ’de (III, 253) el-Lüʾlüʾü’l-manẓûm fî maʿrifeti’l-evḳāt ve’n-nücûm olarak geçmektedir. Suter, bu kitabın Kitâb fi’l-envâʾ ile aynı eser olabileceğini söyler ( Die Mathematiker , s. 130-131). Hatîb el-Ümevî’nin, günümüze ulaşıp ulaşmadığı bilinmeyen Ravżatü’l-ḥaḳīḳa fî bedʾi’l-ḫalîḳa ve Tehâfütü’ş-şuʿarâʾ adlı iki eseri daha olduğu belirtilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 461 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hatib-el-umevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hatib-el-umevi, https://islamansiklopedisi.org.tr/hatib-el-umevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:hatib-el-umevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=hatib-el-umevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:2766",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=2766, heading_ar=الخطيب الأموي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:13Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hatib-el-umevi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[2766]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=hatib-el-umevi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=2766 (heading_ar=الخطيب الأموي) via Track A (DİA→Alam xref bridge). dt=Edib, felekten ülü kişi"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Endelüsî; Ümevî; Kurtubî"
+  ],
+  "birth_temporal": {
+    "start_ah": 514,
+    "start_ce": 1120,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 602,
+    "start_ce": 1205,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hatib-el-umevi, URL: https://islamansiklopedisi.org.tr/hatib-el-umevi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[2766] || DİA death-date string: (ö. 602/1205) || DİA categories: rivayet > astronomi > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=2766, heading_ar=الخطيب الأموي, dt=Edib, felekten ülü kişi",
+  "active_in_places": [
+    "iac:place-00000665",
+    "iac:place-00009538"
+  ]
+}

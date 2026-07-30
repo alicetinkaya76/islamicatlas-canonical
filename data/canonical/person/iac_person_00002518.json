@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00002518",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Enîs Mevlevî"
+    },
+    "description": {
+      "tr": "Edirne’de doğdu. Asıl adı Abdullah’tır. Medrese tahsilini tamamladıktan sonra Edirne Mevlevîhânesi şeyhi Enîs Receb Dede’ye intisap etti ve ona mensubiyeti sebebiyle Enîs Mevlevî diye tanındı. Enîs Receb Dede’den hilâfet aldıktan sonra Mısır’a giderek Kahire Mevlevîhânesi’ne şeyh oldu. Hat sanatını Mısır’ın tanınmış hattatlarından Muhammed Nûrî el-Mısrî’den öğrendi. Bu arada hac vazifesini yerine getirdi. Sülüs ve nesih yazılarındaki başarısı sebebiyle zamanının önde gelen hattatları arasına giren Enîs Mevlevî, irşad görevinin yanı sıra çeşitli ülkelerden gelen müslüman talebelere hat sanatını öğreterek Osmanlı hat üslûbunun diğer İslâm ülkelerinde yayılmasına hizmet etti. Şeyh Ahmed, Şeyh Mustafa Dede b. Muhammed, Mîr İskender b. Ebû Bekir Paşa, Mîr Süleyman Ebû Bekir gibi meşhur hattatlar onun talebeleridir. Vefatında Kahire Mevlevîhânesi’ne defnedilen Enîs Mevlevî için Müstakimzâde, “Yazar bâbâ-yı kalem levh-i kabre târîhin / Enîs Dedem ede bâkīde hüsn ü hattı celîs” ta‘miyeli beytini tarih düşürmüştür. Suyolcuzâde Mehmed Necîb, III. Ahmed ve I. Mahmud dönemlerinde Enîs Mevlevî ile görüştüğünü, onun pek çok mushaf-ı şerif ve kıta yazdığını kaydeder. 1138 (1725) yılında yazdığı bir Delâʾilü’l-ḫayrât nüshasının eline geçtiğini söyleyen Ahmed Bâdî Efendi de Enîs Mevlevî’nin çok sayıda eser istinsah ettiğini bildirir. Türk ve İslâm Eserleri Müzesi’ndeki (nr. 398) 1155 (1742) tarihli bir mushafı ile Kubbealtı Kültür ve Sanat Vakfı Ekrem Hakkı Ayverdi Hat Koleksiyonu (nr. I/17) ve Topkapı Sarayı Müzesi Kütüphanesi’nde (Hazine, nr. 2299/12) bulunan iki sülüs-nesih kıtası, onun hat sanatında ulaştığı seviyeyi gösteren önemli örneklerdir. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 241 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:enis-mevlevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=enis-mevlevi, https://islamansiklopedisi.org.tr/enis-mevlevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:enis-mevlevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/enis-mevlevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:01Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=enis-mevlevi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1159,
+    "start_ce": 1746,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=enis-mevlevi, URL: https://islamansiklopedisi.org.tr/enis-mevlevi || DİA birth place: Edirne || DİA death-date string: (ö. 1159/1746) || Chunk count: 1"
+}

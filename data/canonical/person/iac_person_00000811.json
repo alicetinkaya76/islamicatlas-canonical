@@ -1,0 +1,57 @@
+{
+  "@id": "iac:person-00000811",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED İZZET el-A‘ZAMÎ",
+      "ar": "أحمد عزت الأعظمي"
+    },
+    "originalScript": {
+      "ar": "أحمد عزت الأعظمي"
+    },
+    "description": {
+      "tr": "Bağdat’ta doğdu. İlk ve orta öğrenimini orada yaptı. Yüksek öğrenimini İstanbul’da tamamladı. Mekteb-i Hukuk’taki öğrenciliği sırasında, 1909’da kurulup 1915’te kapatılan el-Münteda’l-edebî adlı cemiyetin faal üyeleri arasında yer aldı. Osmanlı Devleti’nin çeşitli eyaletlerinden yüksek öğrenim için İstanbul’a gelen Arap öğrencilere eğitim ve kültür hizmetleri sunmak gayesiyle Beyrutlu Abdülkerîm el-Halîl’in başkanlığında kurulan bu cemiyet, daha çok siyasî faaliyetlerde bulunuyordu. Ahmed İzzet burada fiilen çalıştı ve cemiyetin yayımladığı el-Münteda’l-edebî adlı derginin müdürlük ve yazarlığını yaptı. Ayrıca, Mısır’da basılıp gizlice İstanbul’a gönderilen ve Arap gençlerini Türkler’e karşı tahrik eden beyannâmeleri de kendi çıkardığı Lisânü’l-ʿArab dergisi ile birlikte gizlice dağıttı. Arap milliyetçiliğini teşvik eden konferanslar düzenledi ve Reşîd Rızâ gibi bazı kimselerin bu konferanslarda konuşmalarını sağladı. Hama mebusu olarak Meclis-i Meb‘ûsan’da bulunan ve Arap bağımsızlık hareketinin önde gelen liderlerinden olan Abdülhamîd ez-Zehrâvî’nin yardım ve teşvikleriyle hareket eden Ahmed İzzet, 1914’te I. Dünya Savaşı çıkınca tevkif edildi. Daha sonra Bağdat’a yerleşti, orada da el-Maʿraż adlı bir dergi yayımladı. İki defa Irak Millet Meclisi’ne seçildi. Bağdat’ta öldü. Osmanlı Devleti’ne karşı başlatılan Arap milliyetçilik hareketlerini, bu amaçla kurulan cemiyetleri ve bunların faaliyetlerini el-Ḳażıyyetü’l-ʿArabiyye esbâbühâ ve teṭavvürühâ ve netâʾicühâ (Bağdat 1932, I-VI) adlı eserinde geniş ve ayrıntılı olarak anlatan Ahmed İzzet’in Faṣlü’l-ḳażâʾ fi’l-farḳ beyne’ḍ-ḍâd ve’ẓ-ẓâʾ adlı basılmış bir eseri daha vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 95-96 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-izzet-el-azami",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-izzet-el-azami, https://islamansiklopedisi.org.tr/ahmed-izzet-el-azami",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:01Z",
+    "modified": "2026-05-04T15:33:01Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-izzet-el-azami (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1880,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ahmed-izzet-el-azami, URL: https://islamansiklopedisi.org.tr/ahmed-izzet-el-azami || DİA birth place: Bağdat || DİA death-date string: (1880-1936) || Chunk count: 1"
+}

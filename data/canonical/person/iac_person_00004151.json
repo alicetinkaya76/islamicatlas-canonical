@@ -1,0 +1,111 @@
+{
+  "@id": "iac:person-00004151",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-CEBBÂB",
+      "ar": "ابن الجبّاب"
+    },
+    "originalScript": {
+      "ar": "ابن الجبّاب"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ömer (Amr) Ahmed b. Hâlid b. Yezîd b. el-Cebbâb el-Kurtubî"
+      ]
+    },
+    "description": {
+      "tr": "246’da (860) Ceyyân’da (Jaén) doğdu. Bu şehre nisbetle Ceyyânî diye anılmış, Mağrib Arapçası’nda “hazır elbise veya cübbe satan kimse” anlamında Cebbâb lakabını taşıyan babasına izâfetle İbnü’l-Cebbâb diye meşhur olmuştur. Sem‘ânî ve İbnü’l-Esîr Cebbâb kelimesini yanlış olarak Cibâb şeklinde okumuşlardır. Daha sonra Kurtuba’ya yerleşen İbnü’l-Cebbâb küçük yaşta tahsile başladı; İmam Şâfiî’nin fıkhî görüşlerini ilk defa Endülüs’te tanıtan Kāsım b. Muhammed el-Beyyânî vasıtasıyla bilhassa Mâlikî fıkhına ve hadis ilmine vâkıf oldu. Bakī b. Mahled, İbn Vaddâh Muhammed b. Abdüsselâm el-Huşenî onun Endülüs’teki hocalarından bazılarıdır. Endülüs’te tahsilini tamamladıktan sonra haccetmek ve hadis öğrenmek için Mekke’ye gitti; burada Ali b. Abdülazîz el-Begavî, Muhammed b. Ali es-Sâiğ ve Ebû Bekir Ahmed b. Amr el-Mekkî’den hadis dinledi. Ardından Yemen’e geçerek Abdürrezzâk’ın eserlerinin râvisi İshak b. İbrâhim ed-Deberî ve Ubeydullah b. Muhammed el-Kişverî gibi âlimlerden hadis öğrenimini sürdürdü. Tahsil amacıyla Girit, Kuzey Afrika ve Mısır’a da gittiği, Mısır’da Allâf diye anılan Ebû Zekeriyyâ Yahyâ b. Eyyûb’dan hadis dinlediği nakledilmektedir (İbn Ferhûn, s. 34). Endülüs’e döndükten sonra burada öğretimle meşgul olduğu anlaşılan İbnü’l-Cebbâb’ın talebeleri arasında başta oğlu Muhammed olmak üzere hadis hâfızı Ebû Muhammed Abdullah b. Muhammed b. Ali el-Bâcî, Muhammed b. Muhammed b. Ebû Düleym ve İbnü’l-Medînî diye tanınan Muhammed b. Hazm et-Tenûhî gibi şahsiyetler bulunmaktadır. İbnü’l-Cebbâb 15 Cemâziyelâhir 322’de (2 Haziran 934) Kurtuba’da vefat etti. İbn Hazm, İbnü’l-Cebbâb’ın gafletinin fazla olduğunu söylerken (İbn Hacer, I, 147) İbn Abdülber ve Kādî İyâz onun hadis yanında Mâlikî fıkhında da önde gelen bir âlim olduğunu belirtirler. Kaynaklarda İbnü’l-Cebbâb’ın Müsnedü Mâlik b. Enes , Kitâbü’l-Îmân , Kitâbü’ṣ-Ṣalât , Kitâbü Ḳıṣaṣi’l-enbiyâʾ , Kitâbü Feżâʾili’l-vuḍûʾ , Kitâbü Ḥamdillâh ve ḫavfih adlı eserleri zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 537-538 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-cebbab",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-cebbab, https://islamansiklopedisi.org.tr/ibnul-cebbab",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:24Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:24Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:24Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-cebbab (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "deprecate",
+        "note": "h22_003 kişi-dublet birleştirme: aynı normalize Arapça ad 'ابن الجباب' + aynı ölüm (322 AH / 934 CE) + ayrık kaynaklar; iac:person-00008565 lehine emekli. PID korunur, geri alınabilir (h22_003 --restore).",
+        "changed_at": "2026-07-20T14:37:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854"
+      }
+    ],
+    "deprecated": true,
+    "deprecated_in_favor_of": "iac:person-00008565"
+  },
+  "nisba": [
+    "Kurtubî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 322,
+    "start_ce": 934,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-cebbab, URL: https://islamansiklopedisi.org.tr/ibnul-cebbab || DİA death place: Kurtuba || DİA death-date string: (ö. 322/934) || DİA categories: hadis || Chunk count: 1",
+  "death_place": "iac:place-00014474",
+  "active_in_places": [
+    "iac:place-00014474"
+  ],
+  "teachers": [
+    "iac:person-00001307",
+    "iac:person-00001402",
+    "iac:person-00001512",
+    "iac:person-00003539",
+    "iac:person-00004067"
+  ],
+  "students": [
+    "iac:person-00000935"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "@id": "iac:person-00001971",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Degūlî",
+      "ar": "الدغولي"
+    },
+    "originalScript": {
+      "ar": "الدغولي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Abbâs Muhammed b. Abdirrahmân b. Sâbûr ed-Degūlî"
+      ]
+    },
+    "description": {
+      "tr": "Horasan’ın Serahs şehrinden olan Degūlî birçok muhaddis yetiştiren tanınmış bir aileye mensuptur. Bu ailenin, ya Degūl adlı bir şahsın veya Serahs’ta yapılan “degūl” adlı ekmeği imal eden bir fırıncının soyundan geldiği için Degūlî nisbesiyle anıldığı sanılmaktadır. Degūlî Horasan, Irak ve Hicaz’da birçok âlimden hadis, fıkıh ve dil ilimleri tahsil ederek Horasan âlimlerinin şeyhi unvanını almıştır. Muhammed b. Yahyâ ez-Zühlî, Abdurrahman b. Bişr, Ebû Zür‘a er-Râzî, Sa‘dân b. Nasr, Müslim b. Haccâc onun hocalarından bazılarıdır. Kendisinden ilim tahsil edenler arasında Ebû Ali en-Nîsâbûrî, Ebû Hâtim b. Hibbân, İbn Adî, Cevzakī gibi âlimler bulunmaktadır. İbn Adî Buhara’ya giderken Serahs’a uğrayıp Degūlî ile tanışmış ve o çevrede Degūlî gibi bir âlim görmediklerini belirtenlere, kendisinin de seyahatleri boyunca böyle birini tanımadığını söylemiştir. İbn Huzeyme de buna benzer bir ifade ile onu takdir etmiştir. Kendisinden rivayet edildiğine göre Degūlî dört kitabı yanından hiç ayırmazdı. Bunlar Kitâbü’l-Müzenî , Kitâbü’l-ʿAyn , Târîḫu’l-Buḫârî ve Kelîle ve Dimne ’dir. Torunu Muhammed b. Abdurrahman’ın (ö. 365/976) dedesinin adıyla anılan bir muhaddis olduğu ve Serahs’ta hadis okuttuğu bilinmektedir. Muhtelif kaynaklarda Degūlî’nin çeşitli eserler yazdığı söylenmekte ve bunlardan el-Müsned , el-Âdâb , Muʿcemü’ṣ-ṣaḥâbe ve Feżâʾilü’ṣ-ṣaḥâbe ’nin adı zikredilmekte ise de bu kitapların günümüze kadar gelip gelmediği bilinmemektedir. Bir Şâfiî fakihi olan Degūlî’nin fıkıh ve çok iyi bildiği lugat sahalarında kitap yazıp yazmadığı hakkında da bilgi yoktur. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 105 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:deguli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=deguli, https://islamansiklopedisi.org.tr/deguli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:deguli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/deguli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:10210",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=10210, heading_ar=الدغولي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:51Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=deguli (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[10210]. Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=10210 (heading_ar=الدغولي) via Track A (DİA→Alam xref bridge). dt=Hadis hıfızlarından."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Degūlî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 325,
+    "start_ce": 937,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=deguli, URL: https://islamansiklopedisi.org.tr/deguli || El-Aʿlām (Ziriklī) cross-reference: alam_id=[10210] || DİA death-date string: (ö. 325/937) || DİA categories: fıkıh > hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=10210, heading_ar=الدغولي, dt=Hadis hıfızlarından.",
+  "teachers": [
+    "iac:person-00000631",
+    "iac:person-00001635",
+    "iac:person-00002313",
+    "iac:person-00003875",
+    "iac:person-00005861",
+    "iac:person-00007896"
+  ],
+  "students": [
+    "iac:person-00001814",
+    "iac:person-00002126",
+    "iac:person-00003631",
+    "iac:person-00003858"
+  ]
+}

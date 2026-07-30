@@ -1,0 +1,82 @@
+{
+  "@id": "iac:person-00001391",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BEDÎ‘ el-USTURLÂBÎ",
+      "ar": "البديع الاسطرلابي"
+    },
+    "originalScript": {
+      "ar": "البديع الاسطرلابي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Kāsım Bedîüzzamân Hibetullāh b. el-Hüseyn b. Ahmed el-Usturlâbî"
+      ]
+    },
+    "description": {
+      "tr": "Astronomi aletleri, özellikle usturlap hakkındaki geniş bilgisi ve bunların imal ve ikmalinde gösterdiği başarılardan dolayı Bedîüzzaman el-Usturlâbî unvanıyla şöhret kazanmıştır. Hayatı ve öğrenimine dair bilgi yoktur. XII. yüzyılın ilk çeyreğinde İsfahan’da bulunduğu ve Emînüddevle İbnü’t-Tilmîz ile dostane münasebetler kurduğu, sonraları Bağdat’a gidip Halife Müsterşid-Billâh’ın emrinde ilmî çalışmalar yaparak büyük bir servete kavuştuğu bilinmektedir. Uzun süre kaldığı bu ilim ve kültür merkezlerine nisbetle bazı klasik kaynaklar onu el-İsfahânî ve el-Bağdâdî nisbeleriyle de anarlar. Ebü’l-Fidâ’dan, 524 (1130) yılında Bağdat’ta Selçuklu sultanının sarayında yapılan astronomik rasatların onun idaresinde gerçekleştirildiği öğrenilmektedir. Bedî‘ el-Usturlâbî, daha önce Hâmid b. Hıdır el-Hucendî tarafından tek bir enlemi ölçmek için yapılmış olan rasat aletleri üzerinde çalışarak onları geliştirmiş ve bu çalışmalar sonunda bir aletle birkaç enlemi ölçmek imkân dahiline girmiştir. Hakkındaki bilgi eksikliğine karşılık müslüman tarihçilerin ve biyografi müelliflerinin onu aşırı derecede övmeleri gerçek değerini tayinde yanıltıcı olmaktadır. Müelliflerin bu tavırlarının sebebi, kendilerinin III-V. (IX-XI.) yüzyıl matematikçi ve astronomlarını tam anlamıyla takdir edebilecek seviyede matematik ve astronomi bilgisinden yoksun bulunmaları kadar XII. yüzyılda onun seviyesindeki bilginlerin azlığından da kaynaklanmış olabilir. Nitekim İbn Hallikân, Bedî‘ el-Usturlâbî öldüğü zaman onun yerini doldurabilecek bir kimsenin bulunmadığını söylemektedir ( Vefeyât , VI, 50). Eserleri. 1. el-Muʿribü’l-Maḥmûdî . Astronomik cetvellerle ilgili olan bu eseri Sultan Mahmûd b. Muhammed Tapar’a (1118-1131) ithaf etmiştir (İbn Ebû Usaybia, s. 380). 2. Dürretü’t-tâc min şiʿri İbn Ḥaccâc . Eser Ebû Abdullah Hüseyin b. Haccâc’ın (ö. 391/1001) on ciltlik divanının ihtisarından ibarettir. Bedî‘ el-Usturlâbî divandan seçtiği şiirleri konularına göre 141 bab halinde tasnif ve tertip etmiştir (geniş bilgi için bk. Sezgin, II, 594). İbn Ebû Usaybia ve İbn Hallikân’ın eserlerinde Bedî‘ el-Usturlâbî’nin çeşitli şiirlerine yer verilmiştir. Bu örneklerden onun astronomi ve matematik kadar şiirde de başarılı olduğu anlaşılmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 322 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "mathematician",
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bedi-el-usturlabi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bedi-el-usturlabi, https://islamansiklopedisi.org.tr/bedi-el-usturlabi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:bedi-el-usturlabi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=bedi-el-usturlabi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:41Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bedi-el-usturlabi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=bedi-el-usturlabi)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Usturlâbî"
+  ],
+  "death_temporal": {
+    "start_ah": 534,
+    "start_ce": 1139,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bedi-el-usturlabi, URL: https://islamansiklopedisi.org.tr/bedi-el-usturlabi || DİA death-date string: (ö. 534/1139-40) || DİA categories: astronomi > matematik || Chunk count: 1"
+}

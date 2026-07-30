@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00000395",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abbas Hilmi I",
+      "ar": "عبّاس حلمي"
+    },
+    "originalScript": {
+      "ar": "عبّاس حلمي"
+    },
+    "description": {
+      "tr": "Kavalalı Mehmed Ali Paşa’nın torunu ve Ahmed Tosun Paşa’nın oğludur. Amcası İbrâhim Paşa’nın 1848’de ölümünden sonra Mısır valisi oldu. Valiliğinin ilk yıllarında, Avrupa’nın tesiriyle yapılmaya başlanan reformlara karşı çıktı ve özellikle Mehmed Ali Paşa zamanında Batı’dan örnek alınarak açılan bazı müesseseleri kapattı. Bunun tabii bir sonucu olarak okullarda görevli pek çok yabancı danışman ve hocayı görevlerinden aldı. Bu uygulamaları yanında, bazı Arap mütefekkirlerine büyük ilgi gösterdi; hatta devrinin tanınmış âlimi Tahtâvî’yi bir mektep açması için 1850’de Hartum’a gönderdi. Devlet harcamalarında masrafları büyük ölçüde kısarak vergilerde indirim yaptığından halkın iktisadî durumunda gözle görülür bir düzelme oldu. Mısır’daki Lübnanlı ve Suriyeli tüccarların durumu oldukça iyi bir seviyeye geldi. Valiliği sırasında İngiltere’ye karşı dostça bir politika takip etti ve Tanzimat’ın Mısır’da uygulanması konusunda Osmanlı Devleti’ne karşı yaptığı mücadelede İngilizler’in desteğini sağladı. İngiltere ise bu destek karşılığında 18 Haziran 1851’de Nil ile Süveyş arasında demiryolu inşa etme imtiyazını aldı. Böylece, Hindistan’a kısa yoldan ulaşmak için önemli bir adım atmış oldu. Abbas Hilmi, kendisinden önceki dönemlerde görev yapmış olan bazı devlet adamlarına ve dedesi Mehmed Ali Paşa hânedanına mensup kimselere karşı iyi davranmadığından, Mısır ümerâsı tarafından sık sık Osmanlı hükümetine şikâyet edildi. Tanzimat’ın Mısır’da uygulanması konusunda Osmanlı Devleti ile ortaya çıkan meseleleri çözmek için Fuad Efendi (Paşa) Mısır’a gönderildi. Fuad Efendi bu hususta bazı düzenlemeler yaptı ve şikâyet konusu meseleleri hallettikten sonra, Abbas Hilmi’nin gayretlerinden memnun olarak İstanbul’a döndü. Bundan sonra Osmanlı Devleti’ne sadık kalan Abbas Hilmi, henüz genç yaşta iken Benhâ’da ansızın öldü (19 Şevval 1270 / 15 Temmuz 1854). Oldukça vehimli bir karaktere sahip olan Abbas Hilmi’nin ölüm sebebi tam olarak aydınlığa kavuşmamıştır. Ölümünden sonra yerine amcası Said Paşa geçti. İbrâhim İlhâmî adındaki oğlu ise Sultan Abdülmecid’in kızı Münîre Sultan ile evlenerek padişaha damat olmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 25 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbas-hilmi-i",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbas-hilmi-i, https://islamansiklopedisi.org.tr/abbas-hilmi-i",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-05-04T15:32:37Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbas-hilmi-i (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:33Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1813,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abbas-hilmi-i, URL: https://islamansiklopedisi.org.tr/abbas-hilmi-i || DİA death-date string: (1813-1854) || Chunk count: 1"
+}

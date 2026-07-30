@@ -1,0 +1,122 @@
+{
+  "@id": "iac:person-00004069",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Vâre",
+      "ar": "ابن وارة"
+    },
+    "originalScript": {
+      "ar": "ابن وارة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Müslim b. Osmân b. Vâre er-Râzî"
+      ]
+    },
+    "description": {
+      "tr": "190 (805-806) yılı civarında Rey’de doğdu; büyük dedesine nisbetle İbn Vâre diye anıldı. Tahsil için yaptığı uzun yolculukları sırasında Ebû Âsım en-Nebîl, Muhammed b. Yûsuf el-Firyâbî, Ebû Nuaym Fazl b. Dükeyn, Kabîsa b. Ukbe, Ubeydullah b. Mûsâ el-Absî, Ebû Müshir, İbn Ziyâd en-Nîsâbûrî, İbn Ebü’l-Cârûd, Ârim el-Basrî gibi hocalardan hadis öğrendi. Kendisinden yaşça büyük olan Zühlî ile Ali b. Medînî, Ebû Avâne el-İsferâyînî, Ebû Zür‘a er-Râzî, Ebû Hâtim er-Râzî, İbn Ebû Hâtim, Nesâî, İbn Ebû Dâvûd, Hüseyin b. İsmâil el-Mehâmilî ve el-Câmiʿu’ṣ-ṣaḥîḥ ’inde yer vermemesine rağmen Buhârî ondan rivayette bulunan talebeleridir. İbn Vâre’nin Süfyân b. Uyeyne ve Yahyâ b. Saîd el-Kattân’dan hadis dinlediği ileri sürülmüş, ancak bunun doğru olmadığı belirtilmiştir ( Zehebî, Aʿlâmü’n-nübelâʾ , XIII, 31). İbn Vâre Ramazan 270’te (Mart 884) Rey’de vefat etti. Bazı kaynaklarda onun 265’te (878-79) öldüğü söylenmekteyse de Zehebî bunun doğru olmadığını kaydetmiştir ( a.g.e. , XIII, 31). Hadis otoritelerinin güçlü bir hâfızaya sahip olduğunu bildirdikleri İbn Vâre’yi Nesâî ve İbn Ebû Hâtim güvenilir olarak tanıtmakta, Ebû Ca‘fer et-Tahâvî de onun hadis ilmini iyi bildiğini söylemektedir. Ebû Zür‘a’nın, yanına geldiğinde kalkıp İbn Vâre’yi kendi yerine oturtması ona verdiği değeri göstermesi bakımından önemlidir (Hatîb, III, 259). Kibirli olduğu zikredilen İbn Vâre kendini “ebü’l-hadîs, ümmü’l-hadîs, zü’r-rıhleteyn” gibi sıfatlarla tanıtırdı. Bu huyu sebebiyle Süleyman b. Dâvûd eş-Şâzekûnî ve Ebû Küreyb el-Hemdânî gibi âlimler ona hadis rivayet etmemişlerdir. Çevresindeki insanlar kendisinden hadis dinlemek istedikleri halde zaman zaman rivayete ara vermesinin de bu kişiliğinden kaynaklandığı anlaşılmaktadır. Sâlih b. Ahmed b. Hanbel’in Sîretü İmâm Aḥmed b. Ḥanbel adlı eserini rivayet eden İbn Vâre’nin (Sezgin, I, 503) pek çok eseri bulunduğu belirtilmekteyse de ( Hediyyetü’l-ʿârifîn , II, 18; Kehhâle, XII, 21) bunlardan hiçbirinin adı zikredilmemekte ve günümüze ulaşıp ulaşmadıkları bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 438 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-vare",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-vare, https://islamansiklopedisi.org.tr/ibn-vare",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:23Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:23Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-vare (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 190,
+    "start_ce": 805,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 270,
+    "start_ce": 884,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-vare, URL: https://islamansiklopedisi.org.tr/ibn-vare || DİA birth place: Rey || DİA death place: Rey || DİA death-date string: (ö. 270/884) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "birth_place": "iac:place-00015119",
+  "death_place": "iac:place-00015119",
+  "active_in_places": [
+    "iac:place-00015119"
+  ],
+  "teachers": [
+    "iac:person-00001105",
+    "iac:person-00002136",
+    "iac:person-00002227",
+    "iac:person-00002235",
+    "iac:person-00002789",
+    "iac:person-00004102",
+    "iac:person-00004651"
+  ],
+  "students": [
+    "iac:person-00000760",
+    "iac:person-00000935",
+    "iac:person-00001490",
+    "iac:person-00001599",
+    "iac:person-00002137",
+    "iac:person-00002179",
+    "iac:person-00002313",
+    "iac:person-00003742",
+    "iac:person-00003746",
+    "iac:person-00005297",
+    "iac:person-00005861",
+    "iac:person-00006074",
+    "iac:person-00006481",
+    "iac:person-00007896"
+  ]
+}

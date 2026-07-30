@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00002314",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebûbekir Ağa"
+    },
+    "description": {
+      "tr": "Eyüp Sultan semtinde doğduğu için Eyyûbî lakabı ile tanınan bestekâr hayatını İstanbul’da geçirmiştir. Kaynaklarda doğum tarihi ve çocukluğu ile ilgili bir kayıt yoksa da genç yaşta Enderun’a alındığı bilinmektedir. Güzel sesi ve mûsikiye olan kabiliyetiyle kısa zamanda meşkhânede mûsiki öğrenmeye başlayarak temel bilgileri edindi. Kiler ağaları arasına girip çavuş unvanını aldıktan sonra da mûsiki sahasında çalışmalarını sürdürüp kendini iyice yetiştirdi. Saray fasıl heyeti reisi olarak serhânendelik ve Enderun’da mûsiki hocalığı görevlerinde bulundu. Hacca gidip geldikten sonra vefat etti ve Çarşıkapı’daki Sinan Paşa Medresesi hazîresine defnedildi. Mezar kitâbesinde seyyid olduğu belirtilen Ebûbekir Ağa’nın şöhretinin parlak zamanları III. Ahmed (1703-1730) ve I. Mahmud (1730-1754) devirleri olmuş ve sarayda bu iki padişahla devrin ileri gelenlerinden yakın ilgi görmüştür. Hânendeliğinin yanı sıra yaptığı bestelerle de Lâle Devri’nin önemli mûsikişinasları arasında haklı bir ün kazanmıştır. Ebûishakzâde Esad Efendi Atrabü’l-âsâr ’da, onun bir nazariyat kitabı olan Edvâr ’ından ve 150 civarında bestesinden bahsetmekteyse de bugüne kadar adı geçen eserin herhangi bir nüshasına rastlanmamıştır. Ancak kendi tertiplediği ve içerisinde yapmış olduğu bestelerin güftelerine de yer verdiği mecmuasının müellif nüshası İstanbul Üniversitesi Kütüphanesi’nde bulunmaktadır (TY, nr. 5658). Gerek bu mecmuada gerekse başka yazma güfte mecmualarında “Bekir Çavuş”, “Eyyûbî Bekir Ağa” gibi başlıklar altında birçok eserine rastlanan bestekârın bazı şiirler de kaleme aldığı söylenmektedir. Peşrev, saz semâisi, kâr, beste, semâi ve şarkı formundaki bu bestelerinden ancak kırk dokuzunun notası günümüze ulaşabilmiştir. Kaybolan eserleri arasında Kara İsmâil Ağa, İbrâhim Çavuş, Ahmed Çavuş, Hekimoğlu Ali Paşa ve Tab‘î Mustafa Efendi ile beraberce besteledikleri altmış beş mısralık bûselik-aşiran makamındaki kârı önemli eserlerindendir. Coşkulu bir üslûbun hâkim olduğu bestelerinde, bol ve orijinal melodilerle süslenmiş sağlam bir ses örgüsü dikkati çekmektedir. “Bir âfet-i meh-peyker ile nüktelerim var” mısraı ile başlayan darbeyn usulündeki mâhur bestesi onun şaheseri olarak kabul edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 275 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebubekir-aga",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebubekir-aga, https://islamansiklopedisi.org.tr/ebubekir-aga",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebubekir-aga",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebubekir-aga",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:57Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebubekir-aga (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1172,
+    "start_ce": 1759,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebubekir-aga, URL: https://islamansiklopedisi.org.tr/ebubekir-aga || DİA death place: Çarşıkapı || DİA death-date string: (ö. 1172/1759) || Chunk count: 1"
+}

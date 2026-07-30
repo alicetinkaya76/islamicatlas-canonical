@@ -1,0 +1,121 @@
+{
+  "@id": "iac:person-00001737",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CELÂL el-BEKRÎ",
+      "ar": "جلال البكري"
+    },
+    "originalScript": {
+      "ar": "جلال البكري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Bekā’ Celâlüddîn Muhammed b. Abdirrahmân b. Ahmed el-Bekrî es-Sıddîkī"
+      ]
+    },
+    "description": {
+      "tr": "2 Safer 807’de (10 Ağustos 1404) Behnesâ yakınlarında Nil’in batı kıyısında bulunan Dehrût’ta doğdu. Soyu Hz. Ebû Bekir’e ulaşan Bekrî ailesine mensuptur. Meşhur mutasavvıf ve âlim Ebü’l-Hasan el-Bekrî’nin babası, Şâzeliyye tarikatının Bekriyye kolunun kurucusu Ebü’l-Mekârim el-Bekrî’nin dedesidir. İlk öğrenimini Dehrût’ta yaptı. Fıkıh dersi aldığı dedesinin ölümü üzerine Kahire’ye giderek oraya yerleşti. Kahire’de Takıyyüddin b. Abdülbârî, Şemseddin Sıbt İbnü’l-Lebbân, Zeynüddin el-Kumnî, Muhammed b. Abdüddâim el-Birmâvî, Alemüddin el-Bulkīnî, Celâleddin el-Bulkīnî, Ebü’l-Feth İbnü’l-Kâyâtî ve Veliyyüddin İbnü’l-Irâkī gibi hocalardan fıkıh, usûl-i fıkıh ve hadis okudu. 863’te (1459) İskenderiye kadılığına tayin edildi. Daha sonra uzun yıllar Kahire’de kadı nâibliği yaptı, bu arada talebe okuttu. 875’te (1470-71) nâiblikten ayrıldı. Kâyâtî’nin ölümünden sonra Baybars Medresesi şeyhliğine getirildi. İki defa hacca giderek bir müddet orada mücâvir kaldı. 891 Rebîülâhirinde (Nisan 1486) Kahire’de vefat etti. Zamanında Şâfiî fıkhını en iyi bilen hukukçulardan biri olarak tanınan ve ömrünün büyük bir kısmını talebe okutmak ve fetva vermekle geçiren Celâl el-Bekrî, Şâfiî fıkhına dair çeşitli şerh ve hâşiyeler kaleme aldı. Kaynaklarda adı geçen eserlerinin başlıcaları şunlardır: Şerḥu Tenḳīḥi’l-Lübâb (hocası Veliyyüddin İbnü’l-Irâkī’nin Tenḳīḥu’l-Lübâb adlı eserinin şerhidir); el-Fetḥu’l-ʿazîzî ( Muḫtaṣarü’t-Tebrîzî ’nin şerhidir); Nüket (Ḥâşiye) ʿalâ Minhâci’ṭ-ṭâlibîn ; Behcetü’r-râġıbîn bi-ḥavâşî Ravżati’ṭ-ṭâlibîn (son iki kitap Yahyâ b. Şeref en-Nevevî’nin eserleri üzerine yazılmıştır). Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 241 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:celal-el-bekri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=celal-el-bekri, https://islamansiklopedisi.org.tr/celal-el-bekri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:10234",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=10234, heading_ar=الجلال البكري",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=celal-el-bekri (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[10234]. Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=10234 (heading_ar=الجلال البكري) via Track A (DİA→Alam xref bridge). dt=Mısırlı fıkıhçı."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bekrî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 891,
+    "start_ce": 1486,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=celal-el-bekri, URL: https://islamansiklopedisi.org.tr/celal-el-bekri || El-Aʿlām (Ziriklī) cross-reference: alam_id=[10234] || DİA birth place: Dehrût || DİA death place: Kahire || DİA death-date string: (ö. 891/1486) || DİA categories: fıkıh > hadis > fetva || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=10234, heading_ar=الجلال البكري, dt=Mısırlı fıkıhçı.",
+  "death_place": "iac:place-00009399",
+  "authored_works": [
+    "iac:work-00004534"
+  ],
+  "active_in_places": [
+    "iac:place-00009399"
+  ],
+  "teachers": [
+    "iac:person-00001551",
+    "iac:person-00004226"
+  ],
+  "students": [
+    "iac:person-00000404",
+    "iac:person-00002374",
+    "iac:person-00003622",
+    "iac:person-00004782"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "@id": "iac:person-00006031",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "NEBİLOĞLU, İsmail Hakkı"
+    },
+    "description": {
+      "tr": "İstanbul’da Teşvikiye’de dünyaya geldi. Doğum yılını kendisi 1895 olarak verirse de (Kalaycıoğlu, s. 512) onunla ilgili yayınların büyük kısmında 1893 diye geçmektedir. Mehmet Nebil Bey ile Fatma Melek Hanım’ın oğludur. Kabataş İdâdîsi’ndeki öğreniminin ardından Mekteb-i Hukuk’tan mezun oldu. I. Dünya Savaşı’nda yedek subay olarak Kafkas ve Çanakkale cephelerinde bölük komutanlığı görevinde bulundu. Keşan’da iken bir gece düşman topçu ateşi sonucu görme yeteneğini kaybetmesi üzerine mâlûl gazi olarak emekliye ayrıldı. Bir müddet çeşitli okullarda öğretmenlik yaptı. Ardından kendini tamamen mûsiki çalışmalarına verdi. 20 Şubat 1965 tarihinde Yıldız’daki evinde vefat etti ve ertesi gün Karacaahmet Mezarlığı’na defnedildi. Mûsiki bilgilerini küçük yaşlarda annesinden ud öğrenerek almaya başlayan İsmâil Hakkı Bey, Ûdî Âfet’ten üç defa aldığı ud dersi dışında herhangi bir hocası olmamasına rağmen şahsî çalışmalarıyla kendini yetiştirdi. Tanbûrî Cemil Bey, Bestenigâr Ziyâ Bey, Giriftzen Âsım Bey, Lavtacı (Muzıkalı) Lutfi Bey, Danbeni Rızâ Bey ve Muallim İsmâil Hakkı Bey gibi mûsikişinasların çevresinde bulunarak onlardan istifade etti. Sesinin güzelliğiyle tanınan ve 1920’de Muallim İsmâil Hakkı Bey’in kurduğu İstanbul Opereti Topluluğu’nda sahne sanatkârı olarak rol alan İsmâil Hakkı Bey’in kendi ifadesine göre ilk bestesi, “Sîne-i gül-rengine hep hâleden şal gerseler” mısraıyla başlayan sûzinak şarkısıdır. 500’ün üzerinde eser bestelemiş, ancak büyük kısmının güftesi de kendisine ait olan bu eserlerin çoğunun notasının bulunmadığını son yıllarında söylemiştir. Yılmaz Öztuna Büyük Türk Mûsikîsi Ansiklopedisi ’nde onun eserlerinden tesbit ettiği kırk dört şarkının listesini vermiştir. Türkiye Radyo ve Televizyon Kurumu repertuvarında ise bunlardan ancak on beşi kayıtlıdır. Rahmi Kalaycıoğlu, Türk Musikisi Bestekârları Külliyatı ’nda on dört şarkısının notasını yayımlamıştır. Bunlar arasında, “Doldur ey sâkî bu cem bezminde bir gün mey biter” mısraıyla başlayan yegâh ve, “Beklerim her gün bu sâhillerde mahzun böyle ben” mısraıyla başlayan hüzzam eseri günümüzün sevilen şarkıları arasındadır. Bu madde TDV İslâm Ansiklopedisi’nin 2006 yılında İstanbul’da basılan 32. cildinde, 473-474 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:nebiloglu-ismail-hakki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=nebiloglu-ismail-hakki, https://islamansiklopedisi.org.tr/nebiloglu-ismail-hakki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:46Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:46Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=nebiloglu-ismail-hakki (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1895,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=nebiloglu-ismail-hakki, URL: https://islamansiklopedisi.org.tr/nebiloglu-ismail-hakki || DİA birth place: Teşvikiye || DİA death place: Yıldız || DİA death-date string: (1895-1965) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001145",
+    "iac:person-00001773",
+    "iac:person-00004569"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00004582",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İSMÂİL ZÜHDÜ, Eski"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Aynı adı taşıyan daha sonraki meslektaşından ayırt edilmek için “Birinci”, “Eski” lakaplarıyla yahut Zühdü İsmâil Ağa olarak anılmıştır. Babası Hasan Efendi’dir. Eminönü Zindankapısı’nda ayakkabıcılıkla uğraşırken hat sanatına ilgi duydu. Yedikuleli Hâşimîzâde Seyyid Abdullah Efendi’den sülüs ve nesih yazılarını meşke başladı. Ancak Yedikule’nin iş yerine uzaklığı sebebiyle Sultanhamam Marpuççular semtindeki Alacamescid (Çelebioğlu Mescidi) imamı Anbarîzâde İkinci Derviş Ali’nin hat derslerine devam etti. İcâzet almaya hak kazandığı sırada Derviş Ali vefat edince Eğrikapılı Mehmed Râsim’in de bulunduğu toplantıda Suyolcuzâde Mehmed Necib Efendi kendisine icâzet verdi. Şeyh Hamdullah ve Hâfız Osman’ın eserlerine bakarak taklit melekesini geliştiren İsmâil Zühdü devrin önde gelen hattatları arasında yer aldı. Hayatı çeşitli hastalıklarla geçtiğinden yazılarını umumiyetle yatar durumda iken yazdı. Vefatında Karacaahmet Miskinler Tekkesi yakınında hocası Derviş Ali’nin kabrinin yanına gömüldü. Mezar taşı kitâbesini öğrencilerinden Kâtibzâde Mustafa Efendi yazdı. Ancak kabrinin yeri bugün belli değildir. Şeyhülislâm Küçükçelebizâde İsmâil Âsım Efendi vefatına, “Ola hattât İsmâil Zühdî’ye cinân menzil” mısraıyla tarih düşürmüştür. İsmâil Zühdü kısa hayatı içinde kitap, murakka‘ ve kıta nevinden eserler vermiştir. İstanbul Türk ve İslâm Eserleri Müzesi’nde (nr. 2433) muhafaza edilen 1140 (1728) tarihli ve on altı kıtalı sülüs, nesih meşk murakkaı, onun hat sanatında eriştiği seviyeyi gösteren güzel bir örnektir. Bunun yanında, III. Ahmed devrinde İstanbul surlarının tamiri esnasında Ahırkapı’nın üstündeki 1140 tarihli celî sülüs tamir kitâbesinin İsmâil Zühdü tarafından yazıldığı imzasından anlaşılmaktadır: “Asr-ı Sultân Ahmed-i vâlâ-cenâb / Hısn-ı İstanbul’u âbâd eyledi.” İsmâil Zühdü’nün Kâtibzâde’den başka talebeleri arasında Çömez Ömer, İbrâhim Rodosî ve aynı zamanda ebru üstadı olan Ayasofya hatibi Mehmed efendiler ünlü hattatlardandır. Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 23. cildinde, 124-125 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ismail-zuhdu-eski",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ismail-zuhdu-eski, https://islamansiklopedisi.org.tr/ismail-zuhdu-eski",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ismail-zuhdu-eski",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ismail-zuhdu-eski",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:30Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ismail-zuhdu-eski (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1144,
+    "start_ce": 1731,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ismail-zuhdu-eski, URL: https://islamansiklopedisi.org.tr/ismail-zuhdu-eski || DİA birth place: İstanbul || DİA death-date string: (ö. 1144/1731) || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00003317"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00002613",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ETHÉ, Hermann"
+    },
+    "description": {
+      "tr": "13 Şubat 1844 tarihinde Almanya’nın Stralsund şehrinde doğdu. Orta öğrenimini buradaki lisede, yüksek öğrenimini ve doktora çalışmalarını Greifswald ve Leipzig üniversitelerinde yaptı. 1867’den itibaren Münih Üniversitesi’nde Doğu dilleri okuturken 1872 yılında Oxford’a davet edilerek, daha önce C. H. Sachau tarafından başlatılan Bodleian Kütüphanesi’ndeki Farsça, Türkçe, Hintçe ve Peştuca yazmaların katalogunu hazırlama çalışmalarını yürütmek ve ayrıca Arapça yazmaların bir ek katalogunu hazırlamakla görevlendirildi; aynı yıl bu katalog çalışmalarına India Office Kütüphanesi’ndeki Farsça yazmalar da eklendi. 1875-1915 yılları arasında University College of Aberystwyth’de Almanca ve Doğu dilleri profesörlüğü yaptı; 1887-1889 yıllarında da Oxford Üniversitesi’nin Doğu Araştırmaları Okulu’nda misafir profesör olarak bulundu. Eserleri. Özellikle Arapça, Farsça ve Türkçe yazmalar üzerine yaptığı yayınlarla tanınan Ethé’nin en önemli çalışmaları şunlardır: Zakarija ben Muhammed ben Mahmûd El-Kazwîni’s Kosmographie (Leipzig 1868); Das Schlafgemach der Phantasie von Fettâḥi aus Nîśâbûr (Leipzig 1865, 1868, Fettâhî’nin Şebistân-ı Ḫayâl adlı eserinin birinci faslının tercüme ve neşri); Die Fahrten des Sajjid Batthâl (Leipzig 1871, Battalnâme ’ye dair ilk ilmî çalışma); Essays und Studien (Berlin 1872); Die höfische und romantische Poesie der Perser (1887); Die mystische, didaktische und lyrische Poesie und das spätere Schriftthum der Perser (Hamburg 1888); Catalogue of the Persian, Turkish, Hindûstânî and Pushtû Manuscripts in the Bodleian Library (I-II, Oxford 1889-1930); Catalogue of the Persian Manuscripts in the Library of the India Office (I, Oxford 1903; II, 1937; London 1980); Yûsuf and Zalîkhâ by Firdausî of Ṭûs (Oxford 1908, Firdevsî’nin Yûsuf u Züleyḫâ adlı eserinin tenkitli neşri); Catalogue of Oriental Manuscripts, Persian, Arabic and Hindustani (Aberystwyth 1916, Aberystwyth’deki The National Library of Wales’de bulunan küçük bir koleksiyonun katalogu). Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 488 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ethe-hermann",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ethe-hermann, https://islamansiklopedisi.org.tr/ethe-hermann",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ethe-hermann",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ethe-hermann",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:02Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ethe-hermann (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ethe-hermann)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1844,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ethe-hermann, URL: https://islamansiklopedisi.org.tr/ethe-hermann || DİA birth place: Stralsund || DİA death-date string: (1844-1917) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002794"
+  ]
+}

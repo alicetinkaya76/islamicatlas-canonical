@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00000620",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜRRAHİM EFENDİ, Menteşzâde"
+    },
+    "description": {
+      "tr": "Bursa mahkemesi kâtibi Kurt Mehmed Efendi’nin oğlu ve Menteşzâde Mehmed Efendi’nin damadıdır. Bursa’da doğdu, buradaki tahsilinden sonra İstanbul’a gitti. Minkārîzâde Yahyâ Efendi’ye intisap ederek ondan mülâzım oldu. Önce Tûtî Latif, Ümm-i Veled, Canbaziye, Süleyman Subaşı, Hatice Sultan, daha sonra Sahn-ı Semân, Zal Paşa, Mihrimah Sultan, Eyüp Sultan medreselerinde müderrislik yaptı. Ardından kadılık mesleğine geçerek Yenişehir ve Edirne kadısı oldu. Bir süre sonra azledilerek on yıl kadar kendisine görev verilmedi. Nihayet kısa bir müddet Üsküdar ve Mısır kadılığı yaptıktan sonra 1705’te İstanbul kadılığı pâyesini aldı; 1708’de de Anadolu kazaskerliğine getirildi. 1711, 1713 ve 1715’te üç defa Rumeli kazaskeri oldu. Son kazaskerliği sırasında, 26 Haziran 1715’te şeyhülislâmlığa tayin edildi. On yedi ay kadar bu görevde kaldıktan sonra hastalandı ve 4 Aralık 1716’da vefat etti. Edirne’de Zehrimâr Mescidi avlusuna defnedildi. İyi bir fıkıh âlimi olan Abdürrahim Efendi’nin fetvaları, Fetâvâ-yı Abdürrahîm adıyla iki cilt halinde yayımlanmıştır (İstanbul 1243). Güzel tasnif edilmiş olan ve şer‘î-örfî uygulamaya ait pek çok fetvayı ihtiva eden eser, Osmanlı dönemi fetva mecmualarının önemlilerinden biri kabul edilmektedir. Özel kütüphanesini Fâtih Camii’ne vakfeden Abdürrahim Efendi’nin ayrıca Cerîdetü’l-ferâʾiż ve Taʿlîḳāt ʿale’l-Beyżâvî adlı iki eseri daha vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 289-290 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahim-efendi-menteszade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahim-efendi-menteszade, https://islamansiklopedisi.org.tr/abdurrahim-efendi-menteszade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdurrahim-efendi-menteszade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdurrahim-efendi-menteszade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahim-efendi-menteszade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1128,
+    "start_ce": 1716,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahim-efendi-menteszade, URL: https://islamansiklopedisi.org.tr/abdurrahim-efendi-menteszade || DİA birth place: Bursa || DİA death place: Edirne || DİA death-date string: (ö. 1128/1716) || DİA categories: fetva > fıkıh || Chunk count: 1",
+  "birth_place": "iac:place-00015103",
+  "teachers": [
+    "iac:person-00005536"
+  ]
+}

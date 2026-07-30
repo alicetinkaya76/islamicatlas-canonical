@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00002185",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ HÂZİM el-ABDÛYÎ",
+      "ar": "أبو حازم العبدويي"
+    },
+    "originalScript": {
+      "ar": "أبو حازم العبدويي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Hâzim Ömer b. Ahmed b. İbrâhîm el-Abdûyî"
+      ]
+    },
+    "description": {
+      "tr": "340 (951) yılından sonra doğdu. Tâbiînin yedi meşhur fakihinden Ubeydullah b. Abdullah b. Utbe b. Mes‘ûd’un torunlarındandır. Hüzelî, Mes‘ûdî ve Nîsâbûrî nisbeleriyle, topal olduğu için de A‘rec lakabıyla anılır. Babası Ebü’l-Hasan Ahmed b. İbrâhim, Hâkim en-Nîsâbûrî gibi hadis âlimlerinin kendisinden rivayette bulunduğu bir muhaddisti. Ebû Hâzim hadis tahsiline babasından ve Nîşâburlu âlimlerden başladı. İbn Nüceyd, Ebû Bekir Ahmed el-İsmâîlî, Hâkim el-Kebîr ve Gıtrîfî gibi âlimlerden hadis rivayet etti. Hadis tahsili için Herat ve Bağdat’a gitti. İbn Ebü’l-Fevâris, Hatîb el-Bağdâdî ve Ebû Sâlih el-Müezzin gibi muhaddisler talebeleri arasında yer almıştır. Devrinin muhaddislerinden pek çok hadis derleyen Ebû Hâzim el-Abdûyî bu sahadaki geniş bilgisiyle tanınan bir hadis hâfızı oldu. Her birinden 1000 cüz olmak üzere on hocasından toplam 10.000 cüz yazdığını söylerdi. Kendisi henüz küçük bir çocukken babasının yanında hadis meclislerine devam ettiği Ebü’l-Abbas es-Sıbgī (ö. 354/965) ile Hâmid er-Reffâ (ö. 356/967) onun en yaşlı hocalarıydı. Fakat Abdûyî kendilerini çok küçük yaşta dinlediği için onlardan hadis rivayet etmeyi uygun görmedi. Hatîb el-Bağdâdî, güvenilir ve hadis ilmini iyi bilir bir kişi olduğunu söylediği hocası Ebû Hâzim el-Abdûyî ile Ebû Nuaym el-İsfahânî’den başka hadis hâfızı görmediğini kaydeder. Ebû Hâzim el-Abdûyî 417 yılının ramazan bayramında (15 Kasım 1026) Nîşâbur’da vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 157-158 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-hazim-el-abduyi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-hazim-el-abduyi, https://islamansiklopedisi.org.tr/ebu-hazim-el-abduyi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-hazim-el-abduyi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-hazim-el-abduyi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:55Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-hazim-el-abduyi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Abdûyî"
+  ],
+  "birth_temporal": {
+    "start_ah": 340,
+    "start_ce": 951,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 417,
+    "start_ce": 1026,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-hazim-el-abduyi, URL: https://islamansiklopedisi.org.tr/ebu-hazim-el-abduyi || DİA death place: Nîşâbur || DİA death-date string: (ö. 417/1026) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "students": [
+    "iac:person-00001508"
+  ]
+}

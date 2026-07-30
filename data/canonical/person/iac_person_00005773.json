@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00005773",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MUHYÎ-yi LÂRÎ",
+      "ar": "محيى لارى"
+    },
+    "originalScript": {
+      "ar": "محيى لارى"
+    },
+    "altLabel": {
+      "tr": [
+        "Manzum hac seyahatnâmesi niteliğindeki Fütûḥu’l-Ḥaremeyn adlı eseriyle tanınan İranlı şair."
+      ]
+    },
+    "description": {
+      "tr": "Hayatına dair fazla bilgi yoktur. Nisbesinden Basra körfezindeki Lâr adasından olduğu anlaşılmaktadır ve muhtemelen burada doğmuştur. Gençliğinde Şîraz’a giderek Celâleddin ed-Devvânî’nin öğrencisi oldu. Bazı kaynaklarda Devvânî’nin ondan ders aldığı belirtiliyorsa da (Sehâvî, VII, 133) bunun aksi söz konusu olmalıdır. Felsefe bilgisini İbnü’l-Fârız’ın et-Tâʾiyyetü’l-kübrâ adlı kasidesine yaptığı şerhte gösterdiği kaydedilir. Lârî’nin bilinen tek eseri olan Fütûḥu’l-Ḥaremeyn , Mekke ve Medine şehirlerinin tasviriyle hac menâsikini ihtiva eden bir mesnevidir. Şair, Farsça manzum hac seyahatnâmelerinin en önemlilerinden sayılan bu eserini hac yolculuğu dönüşünde 911 (1506) yılında yazmış ve Gucerât Sultanı II. Muzaffer Şah’a sunmuştur. Yaklaşık 1100 beyitten meydana gelen mesnevi bazı nüshalarında yanlışlıkla Abdurrahman-ı Câmî’ye, bazılarında Abdülkādir-i Geylânî’ye nisbet edilmektedir. Eyüp Sabri Paşa da Mir’âtü’l-Haremeyn ’inin kaynakları arasında bulunan eseri Câmî’ye izâfe etmiştir. Mes̱nevî ’nin birçok nüshası mukaddes yerleri gösteren şekillerle süslenmiştir. Fütûḥu’l-Ḥaremeyn önce Abdülkādir-i Geylânî’nin eseri olarak Hindistan’da birkaç defa basılmış (Leknev 1875, 1893; Delhi 1875), daha sonra Lârî’ye nisbetle yayımlanmıştır (nşr. Ali Muhaddis, Tahran 1366; nşr. Resûl Ca‘feriyân, Kum 1373). Resûl Ca‘feriyân, yazdığı girişte eserin edebî ve dinî açıdan önemini ortaya koymuştur. Fütûḥu’l-Ḥaremeyn Muhyî-yi Gülşenî tarafından Hedyü’l-Haremeyn adıyla manzum olarak Türkçe’ye tercüme edilmiştir (Hidîviyye Ktp., nr. 7128, vr. 24 b -47 a ). Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 81 numaralı sayfada \"MUHYÎ-i LÂRÎ\" başlığıyla yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız. Bu madde en son 28.07.2019 tarihinde güncellenmiştir."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:muhyi-yi-lari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=muhyi-yi-lari, https://islamansiklopedisi.org.tr/muhyi-yi-lari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:43Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=muhyi-yi-lari (1 chunks) by dia adapter (Hafta 4). Madhab: Ca'ferî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Ca'ferî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 933,
+    "start_ce": 1526,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=muhyi-yi-lari, URL: https://islamansiklopedisi.org.tr/muhyi-yi-lari || DİA death-date string: (ö. 933/1526-27) || DİA categories: şiir > felsefe || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002026"
+  ]
+}

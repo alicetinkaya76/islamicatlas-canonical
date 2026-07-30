@@ -1,0 +1,122 @@
+{
+  "@id": "iac:person-00004513",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İSFAHÂNÎ, Muhammed b. Mahmûd",
+      "ar": "محمد بن محمود الإصفهاني"
+    },
+    "originalScript": {
+      "ar": "محمد بن محمود الإصفهاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Şemsüddîn Muhammed b. Mahmûd b. Muhammed el-İsfahânî"
+      ]
+    },
+    "description": {
+      "tr": "616’da (1219) babasının saltanat nâibi olduğu İsfahan’da doğdu ve burada öğrenim gördü. Moğollar’ın İsfahan’ı işgal etmesi üzerine Bağdat’a gitti. Sirâceddin el-Hiraklî’den fıkıh ve Tâceddin el-Urmevî’den diğer dinî ilimleri okudu. Bir ara Anadolu’ya geçerek Esîrüddin el-Ebherî’den felsefe ve mantık dersleri aldı. Ardından Halep’e gitti ve Tuğrul b. Abdullah el-Muhsinî’den hadis okudu. 650 (1252) yılından sonra Dımaşk’ta çeşitli âlimlerle ilmî münazaralarda bulundu. Öğrenimini tamamlayarak Mısır’a giden ve sırayla Menbic, Kūs ve Kerek’te kadılık yapan İsfahânî daha sonra Kahire’ye yerleşti; Meşhed-i Hüseyin ve Sâhibiyye Medresesi’nde ders verdi. Meşhed-i Şâfiî’de muîd olarak görev yaparken kendisi gibi Kūs’tan Kahire’ye gelen İbn Dakīkul‘îd’in buraya müderris tayin edilmesi üzerine hocalık görevinden ayrıldı. Kaynaklardaki çeşitli bilgilerden İsfahânî ile İbn Dakīkul‘îd arasında bir geçimsizliğin bulunduğu anlaşılmaktadır (Sübkî, VIII, 101; İbn Kādî Şühbe, II, 200). Kelâm, usul, mantık, cedel, sarf, nahiv, şiir ve Arap edebiyatı hakkında derin bilgi sahibi olan İsfahânî’nin fıkıh ve hadiste yeterli olmadığını ileri sürenler varsa da (Safedî, V, 12; Süyûtî, Buġyetü’l-vuʿât , I, 240) dönemindeki pek çok âlim, onun bilhassa usûl-i fıkıhta üstün bir mevkiye sahip bulunduğunu belirtmektedir (İbn Kādî Şühbe, II, 201). İsfahânî, 20 Receb 688 (9 Ağustos 1289) tarihinde Kahire’de vefat etti ve Karâfe Kabristanı’na gömüldü. İbn Kesîr 672 (1273), Süyûtî ise 678 (1279) yılında öldüğünü kaydetmektedir. Eserleri. 1. el-Kâşif ʿani’l-Maḥṣûl fî ʿilmi’l-uṣûl . Fahreddin er-Râzî’nin el-Maḥṣûl adlı eserinin şerhi olup İsfahânî’nin ölümü üzerine “Kitâbü’l-Ḳıyâs” bölümünde kalmıştır (Süleymaniye Ktp., Hamidiye, nr. 430; Köprülü Ktp., Fâzıl Ahmed Paşa, nr. 498). Gazzâlî’nin el-Müstaṣfâ ’sının girişinde bulunan mantıkla ilgili kısmı özetleyerek şerhinin mukaddimesine koyan İsfahânî, el-Maḥṣûl ’ün çeşitli şerh ve muhtasarlarından yararlanmıştır. En önemli kaynakları arasında Sirâceddin el-Urmevî’nin el-Ḥâṣıl ’ı ile Şehâbeddin el-Karâfî’nin Nefâʾisü’l-uṣûl fî şerḥi’l-Maḥṣûl ’ü yer almaktadır. 2. el-Ḳavâʿidü’l-külliyye . Usûlü’d-dîn, fıkıh, usûl-i fıkıh, hilâf ve mantıkla ilgili genel kurallardan bahseden eser beş bölümden (fen) meydana gelmektedir (Süleymaniye Ktp., Âşir Efendi, nr. 471; Cârullah Efendi, nr. 827). Bundan başka, müellifin mantık hakkında Ġāyetü’l-maṭlab adlı bir eserinin daha bulunduğu belirtilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 510-511 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:isfahani-muhammed-b-mahmud",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=isfahani-muhammed-b-mahmud, https://islamansiklopedisi.org.tr/isfahani-muhammed-b-mahmud",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:isfahani-muhammed-b-mahmud",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=isfahani-muhammed-b-mahmud",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:29Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:29Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=isfahani-muhammed-b-mahmud (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=isfahani-muhammed-b-mahmud)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "İsfahânî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 650,
+    "start_ce": 1252,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 688,
+    "start_ce": 1289,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=isfahani-muhammed-b-mahmud, URL: https://islamansiklopedisi.org.tr/isfahani-muhammed-b-mahmud || DİA birth place: İsfahan || DİA death place: Kahire || DİA death-date string: (ö. 688/1289) || DİA categories: fıkıh > mantık > hadis || Chunk count: 1",
+  "death_place": "iac:place-00009399",
+  "active_in_places": [
+    "iac:place-00009399"
+  ],
+  "teachers": [
+    "iac:person-00002113",
+    "iac:person-00007519"
+  ],
+  "students": [
+    "iac:person-00001608",
+    "iac:person-00003670",
+    "iac:person-00003793"
+  ]
+}

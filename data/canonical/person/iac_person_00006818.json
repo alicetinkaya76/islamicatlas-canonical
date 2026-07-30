@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00006818",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "SELİM, Muhammed Kulî",
+      "ar": "محمّد قلى سليم"
+    },
+    "originalScript": {
+      "ar": "محمّد قلى سليم"
+    },
+    "altLabel": {
+      "tr": [
+        "Mîrzâ Muhammed Kulî Big Selîm-i Tahrânî"
+      ]
+    },
+    "description": {
+      "tr": "Muhtemelen Tahran’da doğdu. Türk asıllı Şamlu aşiretine mensup olup “Selim” mahlasıdır. Düzenli bir medrese eğitimi almadığı, Lâhîcân’a gittiği ve ilk şiirlerini orada yazdığı bilinmektedir. Lâhîcân Valisi Mirza Abdullah Han’ın hizmetinde bulundu. Bu sırada şehri vasfeden bir mesnevi kaleme aldı. Ardından Gîlân’a ve İsfahan’a gitti. Safevî Şahı I. Abbas’ın son dönemiyle Şah I. Safî’nin hükümdarlığının başlarında İsfahan’da bulundu. Her ikisine de methiyeler sundu. Ancak Safevî sarayında gereken ilgiyi göremeyince Şîraz’a geçti. Orada şair Ebü’l-Hasan Hüseynî-i Ferâhânî’nin aracılığıyla Fars Valisi İmam Kulî Han’ın hizmetinde bulundu. Burada da ilgi görmeyince Hindistan’a yöneldi ve 1041 (1632) yılında Gucerât’a ulaştı. Şah Cihan’ın şair Kelîm-i Kâşânî’den Selim hakkındaki görüşünü sorduğu, onun da Lâhîcân’la ilgili bir şiirinin adını değiştirip Keşmir’e uyarladığını ve iyi bir şair olmadığını belirttiği, bunu duyan Selim’in artık saraya gidemediği söylenir. Ardından Selim, ölünceye kadar Dekken’de şiirlerinde bolca övdüğü İslâm Han diye bilinen Vezir Mîr Abdüsselâm Meşhedî’nin hizmetine girdi, onun Agra ve Lahor seferlerinde bulundu. Son yıllarında Keşmir’de inzivaya çekildi ve 14 Şevval 1057’de (12 Kasım 1647) burada vefat etti. Eserleri. 1. Dîvân . Kaside, gazel, kıta, rubâî ve mesnevi tarzında 9000 beyitten meydana gelen eser Rahîm Rızâ (Tahran 1349 hş.) ve Muhammed Kahraman (Tahran 1385 hş.) tarafından neşredilmiştir. Şiirleri sade ve avam üslûbuna yakın bir tarzda yazılmıştır. 2. Ḫâtimnâme (Ḫâtmiyye) . Seksen sekiz beyitlik bu şiir Melik Nigâhdârî Kütüphanesi’nde bulunmaktadır (nr. 5604). 3. Ḳażâʾ ve Ḳader . Felsefî bir mesnevidir (nşr. Pertev Beyzâyî, Tahran 1341 hş.). 4. Vaṣf-ı Bahâr . Kısa bir mesnevi olup bir nüshası İslâmâbâd Gencbahş Kütüphanesi’nde kayıtlıdır (nr. 892). 5. Vaṣf-ı Keşmîr (Gencbahş Ktp., nr. 4077). 6. Vaṣf-ı Lâhîcân (Melik Nigâhdârî Ktp., nr. 22/3844). 7. Sâdedil (Ḫımârnâme) . Nizâmî-i Gencevî’nin Heft Peyker ’ine karşılık yazılmış bir mesnevi olup Yıldırım Bayezid’in hayatını ve İran hükümdarıyla aralarında geçenleri konu edinir (Gencbahş Ktp., nr. 9752). 8. Mes̱nevî-yi Selîm . Nizâmî-i Gencevî’nin Maḫzenü’l-esrâr ’ına karşılık yazılmıştır (Gencbahş Ktp., nr. 4024). Bütün bu eserleri Külliyyât-ı Selîm-i Tahrânî ’de mevcuttur (Gencbahş Ktp., nr. 4024). Bu madde TDV İslâm Ansiklopedisi’nin 2009 yılında İstanbul’da basılan 36. cildinde, 426-427 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:selim-muhammed-kuli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=selim-muhammed-kuli, https://islamansiklopedisi.org.tr/selim-muhammed-kuli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:selim-muhammed-kuli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=selim-muhammed-kuli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:55Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=selim-muhammed-kuli (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=selim-muhammed-kuli)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1057,
+    "start_ce": 1647,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=selim-muhammed-kuli, URL: https://islamansiklopedisi.org.tr/selim-muhammed-kuli || DİA birth place: Tahran || DİA death place: 1057 || DİA death-date string: (ö. 1057/1647) || DİA categories: şiir || Chunk count: 1",
+  "birth_place": "iac:place-00007880",
+  "active_in_places": [
+    "iac:place-00015108"
+  ]
+}

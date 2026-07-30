@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00006075",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "NEŞÂT-ı İSFAHÂNÎ",
+      "ar": "نشاط إصفهاني"
+    },
+    "originalScript": {
+      "ar": "نشاط إصفهاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Mîrzâ Abdülvehhâb Neşât Mu‘temedüddevle İsfahânî"
+      ]
+    },
+    "description": {
+      "tr": "1175 (1761) yılında İsfahan’da doğdu. Aslen Fars bölgesinin Cehrum şehrinden olup büyük babası Abdülvehhâb İsfahan’da valilik yapmıştı. İyi bir eğitim alan Neşât Arapça ve Türkçe öğrendi. Ayrıca nesta‘lik ve şikestede kendini kabul ettirdi. Şiir söylemeye başladıktan sonra İsfahan’da ortaya çıkan “bâzgeşt-i edebî” (edebiyatta geri dönüş) akımının savunucularından biri oldu. Evini bu akımın mensuplarına açarak geleneksel tarzda şiirlerin söylendiği ve tartışmaların yapıldığı bir edebiyat mahfili haline getirdi. Ailesinden kalan zengin mirası bu yolda harcayıp geçimini ancak yazdığı methiyelerle sağlayacak duruma geldi. 1803’te Tahran’a giderek Feth Ali Şah’ın sarayında debîr olarak göreve başladı. Bu sırada “Mu‘temedü’d-devle” lakabını aldı ve Dîvânü’r-resâil’in başına getirildi. Devlet fermanlarını, şahın mektuplarını, akidnâmeleri ve hânedanla ilgili birçok yazışmayı kaleme aldı. Saraya bu yakınlığı devlet işlerinde daha aktif görevlere gelmesini sağladı. 1818 yılında I. Napolyon ile görüşmek üzere Paris’e gönderilen heyetin içinde yer aldı. Daha sonra Bâhârz ve Gūrîler isyanını bastırmakla görevlendirildi. 1822’de Afgan isyanını bastırma görevini de başarıyla yerine getirdi. Şiire düşkün olan Feth Ali Şah’ın edebî meclislerinin vazgeçilmez şairlerinden olan Neşât ömrünün sonuna kadar Tahran’da yaşadı ve 5 Zilhicce 1244’te (8 Haziran 1829) burada vefat etti. Neşât’ın eserlerinin tamamı Gencîne-i Neşâṭ adı altında 1266’da (1850) ve Nâsırüddin Şah’ın emriyle 1281’de (1864) Tahran’da yayımlanmış, ayrıca Hüseyin Nehâî tarafından neşredilmiştir (Tahran 1337 hş.). Eser dîbâceler, hutbeler, vakıfnâmeler, akidnâmeler; kasideler, kıtalar; Feth Ali Şah’ın mektup ve fermanları; kendisinin şaha ve şehzadelere yazdığı mektuplar; diğer şiirleri, edebî kıta ve ahlâkî hikâyelerden oluşmaktadır. Şiirdeki üslûbu sade ve akıcı görünse de zaman zaman kullandığı Arapça cümleler, yer verdiği edebî sanatlar, alışılmamış terkipler ve kafiye tekrarlarıyla dolu manzumeler yazmaktan kendini alamamış, kasidede Sabâ-yı Kâşânî’yi, felsefî ve tasavvufî yönü ağır basan gazellerinde Hâfız-ı Şîrâzî’yi taklit etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 33. cildinde, 17-18 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:nesat-i-isfahani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=nesat-i-isfahani, https://islamansiklopedisi.org.tr/nesat-i-isfahani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:nesat-i-isfahani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/nesat-i-isfahani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:47Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=nesat-i-isfahani (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.99): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1175,
+    "start_ce": 1761,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1244,
+    "start_ce": 1829,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=nesat-i-isfahani, URL: https://islamansiklopedisi.org.tr/nesat-i-isfahani || DİA birth place: İsfahan || DİA death place: 1244 || DİA death-date string: (ö. 1244/1829) || DİA categories: tasavvuf > şiir || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00007880"
+  ]
+}

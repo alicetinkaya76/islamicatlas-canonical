@@ -1,0 +1,82 @@
+{
+  "@id": "iac:person-00003121",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HAMDÂN es-SÜLEMÎ",
+      "ar": "حمدان السلمي"
+    },
+    "originalScript": {
+      "ar": "حمدان السلمي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Ahmed b. Yûsuf b. Hâlid es-Sülemî"
+      ]
+    },
+    "description": {
+      "tr": "182’de (798) doğdu. Nîşâburlu olup baba tarafından Ezd, anne tarafından Süleym kabilesine mensuptur. İsminin farklı şekilde telaffuz edilmesiyle ortaya çıkan Hamdân lakabı ve Sülemî nisbesiyle tanınır. Âlî isnadlı hadis cüzüyle bilinen meşhur mutasavvıf İbn Nüceyd (ö. 366/976) onun torunudur. Hamdân öğrenimine Nîşâbur’da başladı. Daha sonra tahsil için Bağdat, Kûfe, Basra, Hicaz, Yemen, Şam, Horasan, el-Cezîre gibi ilim merkezlerini dolaştı. Abdürrezzâk es-San‘ânî, Muhammed b. Yûsuf el-Firyâbî, Ubeydullah b. Mûsâ el-Absî, Ebû Müshir, Yahyâ b. Yahyâ en-Nîsâbûrî gibi âlimlerden hadis öğrendi ve Horasan’ın tanınmış muhaddislerinden biri oldu. Kendisinden de Buhârî ( el-Câmiʿu’ṣ-ṣaḥîḥ ’in dışındaki eserlerinde), Müslim, Ebû Dâvûd, Nesâî ve İbn Mâce gibi muhaddisler hadis rivayet ettiler. Müslim ve Dârekutnî tarafından sika kabul edilen ve hocası Abdürrezzâk es-San‘ânî’den Ṣaḥîfetü Hemmâm b. Münebbih ’i rivayet etmek suretiyle eserin günümüze ulaşmasını sağlayan Hamdân es-Sülemî’nin rivayetleri Ebû Dâvûd, Nesâî ve İbn Mâce’nin es-Sünen ’lerinde yer almaktadır. Bazı kaynaklarda Hamdân es-Sülemî’nin bir kısım hadisleri ihtiva eden bir cüzünün bulunduğu belirtilmekteyse de (Kehhâle, II, 210) bu cüzün günümüze ulaşıp ulaşmadığı bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 445 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hamdan-es-sulemi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hamdan-es-sulemi, https://islamansiklopedisi.org.tr/hamdan-es-sulemi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:11Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hamdan-es-sulemi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sülemî"
+  ],
+  "death_temporal": {
+    "start_ah": 264,
+    "start_ce": 878,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hamdan-es-sulemi, URL: https://islamansiklopedisi.org.tr/hamdan-es-sulemi || DİA death-date string: (ö. 264/878) || DİA categories: hadis > rivayet > isnâd || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000676",
+    "iac:person-00002227",
+    "iac:person-00002789",
+    "iac:person-00007660"
+  ],
+  "students": [
+    "iac:person-00004328"
+  ]
+}

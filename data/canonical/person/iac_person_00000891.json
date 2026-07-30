@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00000891",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AKLÎ ALİ, Tablîzâde"
+    },
+    "description": {
+      "tr": "Bursa’da doğdu ve orada yaşadı. İyi bir tahsil gördü. Halvetiyye’den Debbağzâde Tekkesi şeyhi Debbağ Yûnuszâde Mustafa Efendi’ye intisap etti. Burada Yahyâ Efendi (Mühtedî) ve diğer mûsikişinaslardan dinî eserler meşkederek kendisini yetiştirdi. Güzel sesi ve zikre hâkimiyeti ile kısa zamanda dikkati çekerek bu tekkenin zâkirbaşılığına getirildi. Sürmeli İsmâil Efendi’nin vefatı üzerine, Şeyh Seyyid Mehmed Emîr Enârî’nin müsaadesiyle 1701’de Fenârî Ahmed Paşa Zâviyesi şeyhliğine tayin edildi. Bu vazifede iken 17 Şâban 1116’da (15 Aralık 1704) vefat etti. Adı geçen zâviyenin yakınındaki Yeniyer Mezarlığı’na defnedildi. Tasavvuf yanında edebiyat ve mûsiki ile de meşgul olan Aklî Ali Efendi, daha çok şiirleri ve tarih manzumeleri ile tanınmış, ancak şiirlerini topladığı bir divanına rastlanmamıştır. Onun şöhretli bir neyzen olduğu ve 1000’den fazla beste yaptığı söylenmekte ise de zamanımıza ulaşan herhangi bir eseri bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 280 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:akli-ali-tablizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=akli-ali-tablizade, https://islamansiklopedisi.org.tr/akli-ali-tablizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:akli-ali-tablizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/akli-ali-tablizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=akli-ali-tablizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1116,
+    "start_ce": 1704,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=akli-ali-tablizade, URL: https://islamansiklopedisi.org.tr/akli-ali-tablizade || DİA birth place: Bursa || DİA death place: 1116 || DİA death-date string: (ö. 1116/1704) || DİA categories: tasavvuf || Chunk count: 1",
+  "birth_place": "iac:place-00015103"
+}

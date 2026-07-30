@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00008078",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "TAKĪ-i KÂŞÎ",
+      "ar": "تقئ كاشى"
+    },
+    "originalScript": {
+      "ar": "تقئ كاشى"
+    },
+    "altLabel": {
+      "tr": [
+        "Mîr Takıyyüddîn Muhammed b. Şerefiddîn Alî Hüseynî-i Kâşânî (Kâşî) Ḫulâṣatü’l-eşʿâr adlı Farsça tezkiresiyle tanınan müellif."
+      ]
+    },
+    "description": {
+      "tr": "Ḫulâṣatü’l-eşʿâradlı Farsça tezkiresiyle tanınan müellif."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:taki-i-kasi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=taki-i-kasi, https://islamansiklopedisi.org.tr/taki-i-kasi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:12Z",
+    "modified": "2026-05-04T15:35:12Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=taki-i-kasi (0 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1016,
+    "start_ce": 1607,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=taki-i-kasi, URL: https://islamansiklopedisi.org.tr/taki-i-kasi"
+}

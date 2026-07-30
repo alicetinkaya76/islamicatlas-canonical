@@ -1,0 +1,117 @@
+{
+  "@id": "iac:person-00001541",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BİLÂL b. HÂRİS",
+      "ar": "بلال بن الحارث"
+    },
+    "originalScript": {
+      "ar": "بلال بن الحارث"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdirrahmân Bilâl b. Hâris b. Usm b. Saîd el-Müzenî"
+      ]
+    },
+    "description": {
+      "tr": "Hicretin beşinci yılında Müzeyne elçileriyle birlikte Hz. Peygamber’e gelen Bilâl, Medine ile Mekke arasındaki el-Eş‘ar’da ikamet etmekteydi. Hz. Peygamber kendisine sel sularının yarıp genişlettiği su yatağını (Akīku’l-Medîne) iktâ etti ve onu savaşlarda kullanılan atlarla develerin yaylağı olan Müzeyne kabilesinin sınırları içindeki Nakī‘ adlı otlağı korumakla görevlendirdi. İyi bir binici olan Bilâl, Nakī‘de yapılan bir yarışmada Hz. Peygamber’in devesini koşturdu ve yarışı kazandı. Dûmetülcendel Seferi’ne katıldı. Hz. Peygamber onu, Mekke fethi öncesinde ramazan ayında Medine’ye gelmelerini temin etmek üzere Müzeyne kabilesine haberci olarak gönderdi. Mekke fethine 1000 kişilik bir kuvvetle katılan Müzeyneliler’in üç sancaktarından biri Bilâl idi. Daha sonraları Kādisiye (636) ve İfrîkıye savaşlarına da (647-648) katıldı ve yine Müzeyne kabilesinin sancaktarlığını yaptı. Son yıllarını Basra’da geçiren Bilâl seksen yaşlarındayken vefat etti. Kendisinden oğlu Hâris ile Alkame b. Vakkās hadis rivayet etmişlerdir. Rivayetleri Ahmed b. Hanbel’in el-Müsned ’i ile (III, 469) İbn Huzeyme ve İbn Hibbân’ın sahihlerinde ve bazı sünen kitaplarında yer almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 153 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bilal-b-haris",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bilal-b-haris, https://islamansiklopedisi.org.tr/bilal-b-haris",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bilal-b-haris",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bilal-b-haris",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:2048",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=2048, heading_ar=بلال بن الحارث",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:44Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bilal-b-haris (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[2048]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:24Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=2048 (heading_ar=بلال بن الحارث) via Track A (DİA→Alam xref bridge). dt=Sahâbî, cesur, Medîne bâdiyesinin halkından"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Müzenî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 60,
+    "start_ce": 680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bilal-b-haris, URL: https://islamansiklopedisi.org.tr/bilal-b-haris || El-Aʿlām (Ziriklī) cross-reference: alam_id=[2048] || DİA death place: Basra || DİA death-date string: (ö. 60/680) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=2048, heading_ar=بلال بن الحارث, dt=Sahâbî, cesur, Medîne bâdiyesinin halkından",
+  "active_in_places": [
+    "iac:place-00001310"
+  ],
+  "students": [
+    "iac:person-00000996"
+  ]
+}

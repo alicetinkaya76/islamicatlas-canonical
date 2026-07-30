@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00000440",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜLGAFÛR-i LÂRÎ",
+      "ar": "عبد الغفور لارى"
+    },
+    "originalScript": {
+      "ar": "عبد الغفور لارى"
+    },
+    "altLabel": {
+      "tr": [
+        "Radıyyüddîn Abdülgafûr-i Lârî"
+      ]
+    },
+    "description": {
+      "tr": "İran’ın Fars eyaletindeki Lâr kasabasında doğdu. Doğum tarihi belli değildir. Hayatı hakkında kaynaklarda fazla bilgi yoktur. 5 Şâban 912 (21 Aralık 1506) Pazar günü Herat’ta ölmüş ve şeyhi Câmî’nin kabri civarına defnedilmiştir. Reşeḥât müellifi Fahreddin Safî (ö. 939/1532-33), Abdülgafûr-i Lârî’nin çağdaşı ve müridlerinden biri olmasına rağmen hakkında tatmin edici bilgi vermemiş, daha ziyade mânevî yönü ve özellikle kerametleri üzerinde durmuştur. Abdülgafûr’un ashaptan Sa‘d b. Ubâde’nin soyundan geldiğine dair bir rivayeti de nakleden Kâşifî, onun aklî ve naklî ilimlerde devrinin üstadı sayıldığını, Abdurrahman-ı Câmî’nin eserlerinin çoğunu bizzat kendisinden okuduğunu ve Şerḥ-i Fuṣûṣü’l-ḥikem adlı kitabının mukabelesini kendisiyle birlikte yapıp 896’da (1491) tamamladıklarını bildirir. Lârî’nin Nefeḥât ’a ayrıca bir tekmile yazdığını söyleyen Kâşifî, onun büyük bir şahsiyet olduğunu ve şeyhi Abdurrahman-ı Câmî gibi vahdet-i vücûd nazariyesini benimsediğini ifade eder. Eserleri. Tekmile-i Nefeḥâtü’l-üns (el-İḫtiṣâr ve’ẕ-ẕeyl ʿalâ Nefeḥâti’l-üns) . Eserin Üsküdar Hacı Selim Ağa Kütüphanesi’nde (nr. 571) bulunan nüshası 172 varaktır. Baş tarafında yirmi varaklık bir bölüm, Ebû Abdurrahman es-Sülemî ve görüşlerine ayrılmıştır. Geri kalan kısımda ise Ebû Hâşim es-Sûfî’den başlayarak 200 kadar sûfînin biyografisi yer almaktadır. Abdülgafûr-i Lârî Mirḳātü’l-edvâr fi’t-târîḫ , Tercemetü’l-Uṣûli’l-ʿaşere ve şerḥuhû , Ḥavâşî-yi Ġafûriyye (yazma nüshaları için bk. Ahmed-i Münzevî, Fihrist , II/1, s. 1082) adlı eserlerini Farsça, Ḥâşiye ʿalâ şerḥi’l-Câmî li’l-Kâfiye (İstanbul 1253, 1272, 1322) adlı eserini de Arapça olarak kaleme almıştır. Mirḳātü’l-edvâr fi’t-târîḫ ile Ḥâşiye ʿalâ şerḥi’l-Câmî li’l-Kâfiye adlı eserler Molla Muslihuddîn-i Lârî’ye de (ö. 979/1572) nisbet edilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 204-205 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulgafur-i-lari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulgafur-i-lari, https://islamansiklopedisi.org.tr/abdulgafur-i-lari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:abdulgafur-i-lari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=abdulgafur-i-lari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:38Z",
+    "modified": "2026-05-17T04:10:20Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulgafur-i-lari (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:10:20Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=abdulgafur-i-lari)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 912,
+    "start_ce": 1506,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdulgafur-i-lari, URL: https://islamansiklopedisi.org.tr/abdulgafur-i-lari || DİA birth place: Lâr || DİA death-date string: (ö. 912/1506) || DİA categories: rivayet || Chunk count: 1"
+}

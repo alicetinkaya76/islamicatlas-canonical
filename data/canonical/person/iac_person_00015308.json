@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00015308",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ghāzī ibn Mawdūd",
+      "tr": "Gâzî b. Mevdûd",
+      "ar": "غازي بن مودود"
+    },
+    "originalScript": {
+      "ar": "غازي بن مودود"
+    },
+    "description": {
+      "tr": "Musul ve Cezire'nin sahibi",
+      "en": "Master of Mosul and al-Jazīra",
+      "ar": "غازي، سيف الدين، ابن قطب الدين مودود."
+    },
+    "altLabel": {
+      "en": [
+        "GHAZI"
+      ],
+      "tr": [
+        "Gâzî b. Mevdûd b. Zengî, Seyfüddîn"
+      ],
+      "ar": [
+        "غازي بن مودود بن زنكي، سيف الدين"
+      ]
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ghāzī ibn Mawdūd ibn Zengī, Sayf al-Dīn"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:8056",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=8056",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "ei1:1559",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 2, p. 33",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:40Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=8056 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 0.96): gap-filled ['description.ar', 'altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:8056."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 576,
+    "start_ce": 1180,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=8056, heading_ar=غازي بن مودود || Ziriklī century_ce=12 || Ziriklī place coords (city/region of activity): 36.34, 43.12"
+}

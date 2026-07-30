@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00001212",
+  "@type": [
+    "iac:Architect",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ayas Ağa"
+    },
+    "description": {
+      "tr": "Babasının adı Abdullah olan Ayas Ağa’nın doğum tarihi ve yeri bilinmemektedir. Fâtih Sultan Mehmed dönemi mimari faaliyetlerinde görev almış, büyük bir ihtimalle aynı dönemin meşhur mimarlarından Atik (Âzatlı) Sinan ile birlikte İstanbul’daki Fâtih Külliyesi’nin (1463-1471) yapımında çalışmıştır. II. Bayezid döneminin başlarında hayatta olan Ayas Ağa’nın hangi yapılarda doğrudan görev aldığı kesinlikle bilinmemekte, fakat 892 (1487) tarihli mezar taşı kitâbesinde “üstat” unvanıyla anılmasından, mesleğinde önde gelen bir şahsiyet olduğu anlaşılmakta ve yaşadığı dönemin belli başlı yapılarının pek çoğunda çalıştığı tahmin edilmektedir. Yapımını üstlendiği eserlerin adlarının da tam olarak bilinmemesine karşılık, 879 (1474-75) tarihli bir vakfiyeden, kendi adına biri Afyon’da olmak üzere iki cami ve bir mektep yaptığı ve bu hayrata mallarını bağışladığı öğrenilmektedir. İstanbul Şehzadebaşı’nda Mimar Ayas Mescidi (Saraçhanebaşı Mescidi) ve Mimar Ayas Mektebi olarak tanınan iki yapı, mimarın mezarıyla birlikte 1957 yılında yol açmak için ortadan kaldırılmıştır. Afyon’daki camisinin yıkılış tarihi ise bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 201 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "architect"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ayas-aga",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ayas-aga, https://islamansiklopedisi.org.tr/ayas-aga",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ayas-aga",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ayas-aga",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ayas-aga (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 892,
+    "start_ce": 1487,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ayas-aga, URL: https://islamansiklopedisi.org.tr/ayas-aga || DİA death-date string: (ö. 892/1487) || Chunk count: 1"
+}

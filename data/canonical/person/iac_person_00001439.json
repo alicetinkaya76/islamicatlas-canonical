@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00001439",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BELHÎ, Ebû Ali",
+      "ar": "أبو علي البلخي"
+    },
+    "originalScript": {
+      "ar": "أبو علي البلخي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Alî Abdullāh b. Muhammed b. Alî el-Belhî"
+      ]
+    },
+    "description": {
+      "tr": "Ebû Ali el-Belhî diye meşhurdur. İbrâhim b. Yûsuf, Kuteybe b. Saîd, Hediyye b. Abdülvehhâb, Ali b. Hucr gibi Belh ve Merv bölgesi muhaddislerinden hadis tahsil etti. Kendi bölgesinde ilmini yaydıktan sonra ileri yaşlarında Nîşâbur’a geçti, oradan da Bağdat’a gitti. İbn Kāni‘, Ebû Bekir eş-Şâfiî ve Ciâbî gibi muhaddisler ondan hadis rivayet ettiler. Zehebî’nin belirttiğine göre ( Teẕkiretü’l-ḥuffâẓ , II, 690), senedinde Ebû Ali el-Belhî’nin de bulunduğu hadisler İbn Kāni‘in Muʿcem ’inde ve Temmâm b. Muhammed er-Râzî’nin Fevâʾid ’inde yer almıştır (bk. Sezgin, I, 188, 220). Hatîb el-Bağdâdî tarafından övülen Ebû Ali el-Belhî, İslâm dünyasını ve özellikle Bağdat hilâfet merkezini tehdit altında tutan Şiî İsmâiliyye mezhebinin siyasî temsilcileri durumundaki Karmatîler tarafından 295 (908) yılı sonlarında Belh’te şehid edildi. Bu tarih 294 olarak da zikredilmektedir. Telif ettiği Kitâbü’l-ʿİlel ve Kitâbü’t-Târîḫ adlı iki eseri hakkında bilgi bulunmamaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 412 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:belhi-ebu-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=belhi-ebu-ali, https://islamansiklopedisi.org.tr/belhi-ebu-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:belhi-ebu-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/belhi-ebu-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:42Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=belhi-ebu-ali (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Belhî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 295,
+    "start_ce": 908,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=belhi-ebu-ali, URL: https://islamansiklopedisi.org.tr/belhi-ebu-ali || DİA death-date string: (ö. 295/908) || DİA categories: hadis > rivayet > mezhep || Chunk count: 1"
+}

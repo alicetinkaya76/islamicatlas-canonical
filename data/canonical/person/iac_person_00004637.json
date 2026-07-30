@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00004637",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KÂ‘B b. ADÎ",
+      "ar": "كعب بن عديّ"
+    },
+    "originalScript": {
+      "ar": "كعب بن عديّ"
+    },
+    "altLabel": {
+      "tr": [
+        "Kâ‘b b. Adî b. Hanzale et-Tenûhî"
+      ]
+    },
+    "description": {
+      "tr": "Hîre’de doğduğu tahmin edilmektedir. Hîre civarında yaşayan Tenûh kabilesinin müttefiki olup Yemen asıllı Tücîb kabilesinin İbâd koluna mensubiyeti sebebiyle İbâdî nisbesiyle de anılır. Onun Câhiliye döneminde Hz. Ömer’le birlikte kumaş ticareti yaptığı, bu münasebetle İskenderiye’ye çeşitli seyahatleri olduğu kaydedilmektedir. Kâ‘b, Hz. Peygamber hakkında araştırma yapmakla görevli Hîreli dört kişilik bir heyetle birlikte Resûlullah’ın vefatından kısa bir süre önce (11/632) Medine’ye gitti ve bir müddet sonra müslüman oldu. Hîre’ye dönüşünün ardından Resûl-i Ekrem’in vefat ettiği duyulunca irtidad eden yakınlarının tesiriyle kısa bir süre tereddüt geçirdiyse de daha sonra kendini toparladı; Medine’ye giderek Hz. Ebû Bekir’e biat etti ve buraya yerleşti. Müseylimetülkezzâb’a karşı yapılan Yemâme Savaşı’na katıldı. Hz. Ebû Bekir tarafından İskenderiye’de ikamet eden Mısır Mukavkısı Cüreyc b. Mînâ’ya elçi olarak gönderildi. Diplomatik alanda başarılı olduğu anlaşılan ve Mısır’a yaptığı ticarî seyahatler sebebiyle orayı iyi bilen Kâ‘b’ı Hz. Ömer de aynı görevle Mukavkıs’a yolladı (15/636). Başarılı hizmetlerinden dolayı Hz. Ömer’in oluşturduğu divana kayıtlı ücretliler arasına girdi. Mısır’ın fethine katılan ve fetihten sonra oraya yerleşen Kâ‘b muhtemelen 25 (646) yılı civarında Mısır’da vefat etti. Kaynaklarda Alkame adında bir oğlundan bahsedilmektedir. Kâ‘b b. Adî’nin bir râvisi ve bir rivayeti olduğu zikredilmiş olup ( İbn Abdülber, el-İstîʿâb , III, 1322) Zehebî, Hz. Peygamber devrinde İslâm’a girmediğine dair bazı rivayetlere dayanarak onun tâbiîn neslinden veya muhadramûndan sayılması gerektiğini söylemiş, İbn Hacer ise sahâbeden olduğunu belirten rivayetleri daha isabetli bularak kendisini sahâbîler arasında zikretmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 1 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kab-b-adi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kab-b-adi, https://islamansiklopedisi.org.tr/kab-b-adi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:30Z",
+    "modified": "2026-05-04T15:34:30Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kab-b-adi (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Tenûhî"
+  ],
+  "death_temporal": {
+    "start_ah": 25,
+    "start_ce": 646,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kab-b-adi, URL: https://islamansiklopedisi.org.tr/kab-b-adi || DİA birth place: Hîre || DİA death place: Mısır || DİA death-date string: (ö. 25/646 [?]) || DİA categories: rivayet || Chunk count: 1"
+}

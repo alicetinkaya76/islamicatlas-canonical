@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00006319",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "PÛR-i BAHÂ-yi CÂMÎ",
+      "ar": "پور بهاى جامى"
+    },
+    "originalScript": {
+      "ar": "پور بهاى جامى"
+    },
+    "altLabel": {
+      "tr": [
+        "Melikü’ş-şuarâ Tâcüddîn b. Bahâiddîn-i Câmî"
+      ]
+    },
+    "description": {
+      "tr": "VII. (XIII.) yüzyılın ilk yarısında İran’ın Horasan bölgesindeki Câm şehrinde doğdu. Bir ulemâ ailesine mensuptur. Adı Tâceddin olup babasına nisbetle şiirlerinde “Pûr-i Bahâ” (Bahâ’nın oğlu) veya “Bahâ” mahlasını kullanmıştır. Hayatının ilk dönemlerini Horasan’da geçirdi. İlhanlı Hükümdarı Abaka Han döneminde (1265-1282) başta Abaka Han, Horasan Valisi Hâce İzzeddin Tâhir Feryûmedî, oğlu Vecîhüddin Zengî ve diğer devlet ricâli hakkında yazdığı methiyelerle tanındı. 667 (1268-69) yılında meydana gelen depremde yıkılan Nîşâbur’u yeniden inşa ettirmesi dolayısıyla Abaka Han için kaleme aldığı methiyeler bunlar arasında özellikle dikkat çekmektedir. 683’te (1284) hâmisi Vecîhüddin Zengî ile birlikte Tebriz’e giden Pûr-i Bahâ daha sonraki yıllarda Bağdat ve İsfahan’a geçerek bir süre bu şehirlerde ikamet etti. Gittiği yerlerde tanıştığı tarihçi Cüveynî, filozof Nasîrüddîn-i Tûsî gibi kişiler için şiirler yazdı. Pûr-i Bahâ’nın ölüm tarihi konusunda kaynaklarda bilgi yoktur. Mevlânâ Rükneddîn-i Kubâî ve Saîd-i Herevî’yi şiirde üstat olarak kabul eden Pûr-i Bahâ’nın divanı günümüze ulaşmamıştır. Mecmua, tezkire ve tarih kitaplarında birçok şiiri yer almaktadır. 1028 (1619) yılında Haydarâbâd Kutubşâhîleri için istinsah edilen bir mecmuada Pûr-i Bahâ’ya ait otuz dokuz kaside, on iki mukattaât, bir terkibibend, 27 Receb 667’de (1 Nisan 1269) tamamlanmış Kârnâme-i Evḳāf-ı Ḫıvaf adlı bir mesnevi, iki gazel ve yetmiş yedi rubâî bulunmaktadır. Adı geçen mesnevi Birgitt Hoffman tarafından Almanca’ya tercümesiyle birlikte neşredilmiştir (“Von falschen Asketen und unfrommen Stiftungen”, Proceedings of the First European Conference of Iranian Studies Held in Turin, September 7 th -11 th , 1987 by the Societas Iranologica Europaea [ed. G. Gnoli – A. Panaino], Rome 1990, s. 409-485). Moğollar’la ilgili bir kasidesini Minorsky İngilizce’ye çevirerek yayımlamıştır ( Iranica , s. 274-291). Hiciv ve hezl şairi olarak tanınan Pûr-i Bahâ’nın şiirlerinin en belirgin özelliği aynı şiir içinde hem övgü hem hiciv beyitlerinin yer almasıdır. Şiirlerinde müşkil ve az kullanılan kelimelerin yanı sıra idarî ve malî terimlere, Moğolca ve doğu Türk lehçesinden kelimelere de yer vermiş, bu durum şiirlerinin anlaşılmasını zorlaştırmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 362 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:pur-i-baha-yi-cami",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=pur-i-baha-yi-cami, https://islamansiklopedisi.org.tr/pur-i-baha-yi-cami",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:49Z",
+    "modified": "2026-05-04T15:40:18Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=pur-i-baha-yi-cami (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 667,
+    "start_ce": 1268,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=pur-i-baha-yi-cami, URL: https://islamansiklopedisi.org.tr/pur-i-baha-yi-cami || DİA birth place: Câm || DİA death-date string: (VII./XIII. yüzyıl) || DİA categories: şiir || Chunk count: 1",
+  "birth_place": "iac:place-00005932"
+}

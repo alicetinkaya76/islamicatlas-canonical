@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003289",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂŞİM b. UTBE",
+      "ar": "هاشم بن عتبة"
+    },
+    "originalScript": {
+      "ar": "هاشم بن عتبة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ömer Hâşim b. Utbe b. Ebî Vakkās ez-Zührî"
+      ]
+    },
+    "description": {
+      "tr": "Mekke’nin fethedildiği gün kardeşi Nâfi‘ ile beraber müslüman oldu. Uhud Gazvesi’nde Resûl-i Ekrem’in dişini kıran babası Utbe Mekke fethinden önce İslâmiyet’i kabul etmeden öldü. Hâşim, Yermük Savaşı’na atlı bir birliğin kumandanı olarak katıldı ve bu savaşta bir gözünü kaybettiği için “A‘ver” lakabıyla anıldı. Şam’ın fethinden sonra orada ikamet etti. Hz. Ömer onu Şamlılar’dan oluşan bir kıtanın başında Irak’a gönderdi. Amcası Sa‘d b. Ebû Vakkās’ın emrinde Kādisiye Savaşı’na katılarak ordunun sol kanadına kumanda etti. Bu savaştan sonra barış yolu ile Hulvân’ı, emrindeki 12.000 kişilik bir kuvvetle seksen gün süren bir kuşatmadan sonra da Celûlâ’yı fethetti. Hz. Osman zamanında tek başına şevval hilâlini görerek iftar ettiği için cezalandırıldığı rivayet edilir. Hz. Ali ile Muâviye arasındaki mücadelede Ali’nin yanında yer aldı. Cemel Vak‘ası’ndan önce Hz. Ali onu, oğlu Hasan ve Ammâr b. Yâsir ile birlikte taraftar toplamak ve muhtemel bir çatışmaya hazırlanmak için Kûfe’ye gönderdi. Savaş oyunlarını iyi bilen, düşmanlarına karşı seri hareketleri ve hızlı darbeleri sebebiyle “Mirkāl” lakabıyla anılan Hâşim, Sıffîn Savaşı’nda Basralılar’dan oluşan kuvvetlerin başında ordunun bayrağını taşıması Muâviye ile Amr b. Âs’ı korkuya düşürdü. Ancak Sıffîn’deki muharebelerin birinde bütün gün çarpıştıktan sonra akşam karanlığında Hâris b. Münzir tarafından öldürüldü. Ölmeden önce bir ayağını kaybettiği zikredilmiştir (Fâsî, VII, 360). Şamlılar’ı sevindiren bu ölüm Hz. Ali’nin ve Irak ordusunun derin üzüntüsüne sebep oldu. Başta Hz. Ali olmak üzere Hâşim’in oğlu Abdullah ve Ebü’t-Tufeyl Âmir b. Vâsile onun hakkındaki teessürlerini mersiyeleriyle dile getirdiler. Muhammed Rızâ el-Hakîm Hâşim el-Mirḳāl adlı bir eser kaleme almıştır (Necef 1370/1951). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 410 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasim-b-utbe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasim-b-utbe, https://islamansiklopedisi.org.tr/hasim-b-utbe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hasim-b-utbe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hasim-b-utbe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:13Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasim-b-utbe (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Zührî"
+  ],
+  "death_temporal": {
+    "start_ah": 37,
+    "start_ce": 657,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasim-b-utbe, URL: https://islamansiklopedisi.org.tr/hasim-b-utbe || DİA death-date string: (ö. 37/657) || DİA categories: rivayet || Chunk count: 1"
+}

@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00003553",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hüseyin Hablî"
+    },
+    "description": {
+      "tr": "Anadolu’da Akçakavak kasabasında doğdu (günümüzde biri Bilecik Gölpazarı, diğeri Kırıkkale Balışeyh ilçesine bağlı iki Akçakavak köyü vardır). Babasının adı Ramazan’dır. Hüseyin Efendi İstanbul’a geldiğinde önce Galata-Kulekapı’da mum fitilciliğiyle uğraşmış, ardından Eminönü-Zindankapı’da ipçilik yapmıştır. Bu sebeple halk arasında İpçi (Hablî) Efendi adıyla tanınmış, eserlerinde de Hüseynü’l-Hablî veya Hüseyin b. Ramazan imzasını kullanmıştır. Anbârîzâde İmam Derviş Ali’den (İkinci) aklâm-ı sitteyi öğrenip 1120’de (1708) icâzet aldığı gibi daha sonra hocasına damat olmuştur. Müstakimzâde’nin anlattığına göre güreşe meraklı olan Hüseyin Hablî, bir defasında Yenikapı Mevlevîhânesi yakınındaki meydanda devrin meşhur pehlivanı Çuhadar Velî ile güreşmiş ve onu yenmişti. Bu sporun meraklılarından olan Hâfız Osman da seyrettiği bu müsabakayı talebesi Anbârîzâde Derviş Ali’ye anlatırken Hüseyin Hablî’nin ondan hat öğrendiğini duyunca kendisiyle görüşmek istediğini söylemiştir. Buna rağmen Hüseyin Hablî Hâfız Osman’la tanışamamıştır. Bu hadiseden anlaşıldığına göre 1120’de (1708) icâzet alan Hablî’nin hat sanatını öğrenme müddeti on yıldan daha fazla sürmüştür, çünkü Hâfız Osman 1110’da (1698) vefat etmiştir. Bu sebeple Kebecizâde Mehmed Vasfî’nin düzenlediği hattat silsilenâmesinde yer alan, “Kırk dört yaşında yazıya başlamış ve kırk beş yaşında icâzet almıştır” ifadesini kabul etmeye imkân yoktur. Hüseyin Efendi, Beyazıt’taki Eski Saray’da meşk muallimi olarak vazifeliyken 1145’te (1732) “kâtib-i sarây-ı sultânî” sıfatıyla Topkapı Sarayı’nın hat hocalığına ve Eminönü’ndeki Yeni Vâlide Camii’nin ikinci imamlığına getirilmiş, ayrıca Ayasofya mektebinde de hat muallimliği yapmıştır. Birçok mushaf, en‘âm, delail, evrâd, kıta, murakka‘ (TİEM, nr. 2472, 1149/1736) yazan Hüseyin Hablî 1157 yılı Şâbanının ilk günlerinde (1744 Eylül ortaları) vefat ederek Karacaahmet Mezarlığı’na defnedilmiştir, kabri bugün yok olmuştur. Hâfız Osman’dan bu yana süregelen hattatlar silsilesinde muteber mevkii ve çok sayıda talebesi bulunan Hüseyin Hablî’nin yetiştirdiği mühim isimler şunlardır: Yahyâ Fahreddin (İmam Sarı Yahyâ), Mehmed Hamdi (Karalamacı), Yamakzâde Sâlih, Derviş Ali (Üçüncü) ve İbrâhim Afîf. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 547-548 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:huseyin-habli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=huseyin-habli, https://islamansiklopedisi.org.tr/huseyin-habli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:huseyin-habli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/huseyin-habli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:16Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=huseyin-habli (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1157,
+    "start_ce": 1744,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=huseyin-habli, URL: https://islamansiklopedisi.org.tr/huseyin-habli || DİA birth place: Akçakavak || DİA death place: 1110 || DİA death-date string: (ö. 1157/1744) || DİA categories: hadis || Chunk count: 1"
+}

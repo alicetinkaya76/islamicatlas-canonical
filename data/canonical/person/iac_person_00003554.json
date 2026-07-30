@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00003554",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hüseyin Hâlid Bey"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Makām-ı Seraskerî Muhâsebat Dairesi mümeyyizlerinden Hâfız Said Bey’in oğludur. Küçük yaşta Enderun’a alındı. Mûsiki kabiliyetiyle dikkati çekerek kısa zamanda Muzıka-yi Hümâyun’a geçti. Temel mûsiki bilgilerini buradan edindiği anlaşılmaktadır. Bir müddet sonra müezzin-i şehriyârîler arasında yer alan Hâlid Bey bu vazifesinde sermüezzinliğe kadar yükseldi. Sermüezzinlik görevine hangi padişah zamanında getirildiğine dair bilgi mevcut değilse de bunun II. Abdülhamid döneminde olması kuvvetle muhtemeldir. Bu görevinden kolağası rütbesinde iken emekliye ayrılan Hâlid Bey Üsküdar’da Nuhkuyusu’ndaki evinde vefat etti ve Karacaahmet Mezarlığı’nın Selimiye Tekkesi karşısındaki bölümüne defnedildi. Ağabeyi Kemânî Ali Haydar Bey, eserlerinde Türk mûsikisi makam ve usullerini kullanmasıyla tanınan ilk operet bestekârlarındandır. Saraydaki görevinden dolayı Müezzin Hâlid ve Müezzinbaşı Hâlid Bey olarak da anılan Hüseyin Hâlid, bestekârlığının yanı sıra iyi bir kanun icracısı ve mûsiki hocası olarak da bilinmektedir. Dinî ve din dışı sahada bestelediği eserlerden tevşîh, ilâhi, saz semâisi ve şarkı formlarındaki on altısı günümüze ulaşmış olup bunlar arasında güftesi Aziz Mahmud Hüdâyî’ye ait, “Sadr-ı cem‘i’l-mürselîn sensin yâ Resûlellah” mısraı ile başlayan dügâh tevşîhi en meşhurlarındandır. Talebeleri arasında Bulgurlulu Hâfız Hüsnü ile kendisinden kanun dersi alan Abdülkadir Töre özellikle zikredilmesi gereken sanatkârlardır. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 548 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:huseyin-halid-bey",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=huseyin-halid-bey, https://islamansiklopedisi.org.tr/huseyin-halid-bey",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:16Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=huseyin-halid-bey (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:59Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1853,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=huseyin-halid-bey, URL: https://islamansiklopedisi.org.tr/huseyin-halid-bey || DİA birth place: İstanbul || DİA death place: Üsküdar || DİA death-date string: (1853-1920) || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "authored_works": [
+    "iac:work-00006307"
+  ],
+  "students": [
+    "iac:person-00007374"
+  ]
+}

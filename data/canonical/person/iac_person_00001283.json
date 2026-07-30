@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00001283",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bahâeddin Efendi"
+    },
+    "description": {
+      "tr": "Konya’ya bağlı Bozkır’ın Karacahisar köyünde doğdu. Memiş Efendi diye tanınan Şeyh Muhammed Kudsî’nin büyük oğludur. Diğer yedi kardeşi gibi ilk dinî bilgileri babasından aldı. Kardeşlerinin eğitim ve öğretimleriyle de bizzat ilgilendi. Bir süre Bozkır’ın Hoca köyünde kaldıktan sonra 1862’de Konya’ya gitti. Konya Valisi Bekir Sâmi Paşa tarafından yaptırılan (1849) ve Paşa Dairesi diye de bilinen Bekir Sâmi Medresesi’ne müderris oldu. 22 Cemâziyelevvel 1324’te (14 Temmuz 1906) Konya’da vefat etti ve Konya’nın güneyindeki Hacı Abdülfettah Çavuş Mezarlığı’na defnedildi. Halen burada dört sütun üzerinde ve dört yanı açık mütevazi bir türbesi bulunmaktadır. Eşi, ortanca oğlu ve ailesinin diğer fertlerinin kabirleri de buradadır. Kardeşlerinden Şeyh Hâlid 1883’te Karaman’a gidip yerleşmiş, 1909’da orada vefat edince Ketâne (Ketenci) Camii hazîresine defnedilmiştir. Bahâeddin Efendi Nakşibendiyye’nin Hâlidiyye koluna bağlı bir şeyh olan babası Memiş Efendi’ye intisap etmişti. Onun ölümünden sonra halifesi olarak irşad görevini yürüttü. Babası gibi kendisi de ılımlı ve geleneklere sıkı sıkıya bağlı, şer‘î ölçülere son derece saygılı bir tasavvuf anlayışını benimsedi. Şeriatı kabuk, hakikati (tasavvufu) öz sayan anlayışa şiddetle karşı çıkarak öz ile kabuğun ayrı şeyler, şeriat ve hakikatin ise aynı olduğunu savundu. Eserleri. 1. Bâʿis̱ü’l-maġfire fî beyâni aḳvâli’l-vaḥde . Bahâeddin Efendi bu Arapça eserini, babası Memiş Efendi’nin vahdet-i vücûd inancına sahip olduğunu iddia eden bir şahsın mektubuna cevap ve reddiye olmak üzere kaleme almıştır. Dört bölüm ve bir sonuç kısmından meydana gelen eserde fırkaların ortaya çıkışı, bazı tasavvuf terimleri, eşyanın hakikati, muhkem-müteşâbih naslar, şer‘î deliller ele alınmış ve vahdet-i vücûd inancının Ehl-i sünnet’te yeri olmadığı gösterilmeye çalışılmıştır. Eserin Konya Yûsuf Ağa Kütüphanesi’nde beş nüshası bulunmaktadır (nr. 9893, 9896, 9898, 9926, 9938). 2. Îḳāẓü’n-nâʾimîn ve tenbîhü’l-ġāfilîn . Zikrin faziletine dair olan bu Arapça risâle birinci risâle ile birlikte ciltlenmiş halde bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 458 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bahaeddin-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bahaeddin-efendi, https://islamansiklopedisi.org.tr/bahaeddin-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:bahaeddin-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=bahaeddin-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:38Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bahaeddin-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=bahaeddin-efendi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1831,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=bahaeddin-efendi, URL: https://islamansiklopedisi.org.tr/bahaeddin-efendi || DİA birth place: Karacahisar || DİA death place: Konya || DİA death-date string: (1831-1906) || DİA categories: tasavvuf > sünnet || Chunk count: 1",
+  "students": [
+    "iac:person-00002653"
+  ]
+}

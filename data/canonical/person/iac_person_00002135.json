@@ -1,0 +1,116 @@
+{
+  "@id": "iac:person-00002135",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Arûbe",
+      "ar": "أبو عروبة"
+    },
+    "originalScript": {
+      "ar": "أبو عروبة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Arûbe Hüseyn b. Muhammed b. Mevdûd el-Harrânî"
+      ]
+    },
+    "description": {
+      "tr": "222 (837) yılı civarında Harran’da doğdu. Sülemî ve Cezerî nisbeleriyle de anılır. 236’da (850-51) hadis tahsiline başladı. Cezîre, Dımaşk ve Irak gibi yerleri dolaşarak devrinin muhaddislerinden faydalandı. Kendisinden İbn Hibbân , İbn Adî , İbnü’s-Sünnî , Ebü’ş-Şeyh , Hâkim el-Kebîr , İbnü’s-Seken ve İbnü’l-Muzaffer gibi tanınmış muhaddisler rivayette bulundular. İbn Adî, Ebû Arûbe’nin hadisleri ve muhaddisleri iyi bildiğini, Harranlılar’ın müftüsü olduğunu söylemekte, Hâkim el-Kebîr de onu gördüğü muhaddislerin en güveniliri, hâfızası en iyi olanlarından biri, hadisten başka fıkıh ve kelâmı da iyi bilen bir âlim olarak tanıtmaktadır. İbn Asâkir onun ileri derecede bir Şiî olduğunu ve Emevîler ’in aleyhinde bulunduğunu söylüyorsa da Zehebî bu iddianın haksız ve isabetsiz olduğunu belirtmektedir. Ancak Zehebî’ye dayanarak Ebû Arûbe’yi Emevî taraftarı olarak gösteren F. Rosenthal’in de Zehebî’ye ait metni yanlış anladığı görülmektedir. Ebû Arûbe el-Harrânî Zilhicce 318 (Ocak 931) tarihinde doksan altı yaşında vefat etti. Eserleri. 1. eṭ-Ṭabaḳāt . Ashâb-ı kirâma dair olan bu eserden Münteḳā Ṭabaḳāti Ebî ʿArûbe adıyla yapılan muhtasarın ikinci cüzünden on iki varaklık bir kısım Dârü’l-kütübi’z-Zâhiriyye ’de bulunmaktadır (Umumi, nr. 4553). Bazı kaynaklarda et-Târîḫ adıyla geçen kitabının bu eser olduğu sanılmaktadır. 2. el-Ems̱âlü’s-sâʾire ʿan Resûlillâh . Hadislerde geçen mesellere (emsâlü’l-hadîs) dair bir eserdir. Muhammed b. Ca‘fer el-Kettânî eserin adını el-Ems̱âl ve’l-evâʾil şeklinde kaydetmektedir. Yazma bir nüshası Topkapı Sarayı Müzesi Kütüphanesi ’nde mevcuttur (Koğuşlar, nr. 1096/21, vr. 212 b -214 a ). 3. Ḥadîs̱ü’l-Cezeriyyîn . Baş tarafından iki varağı eksik olan bir nüshası Dârü’l-kütübi’z-Zâhiriyye’de kayıtlıdır (Mecmua, nr. 110, vr. 35 a -52 b ). 4. Ḥadîs̱ . Bir nüshası Dârü’l-kütübi’z-Zâhiriyye’de bulunmaktadır (Mecmua, nr. 94, vr. 96 a -105 a ). Ebû Arûbe’nin el-Evâʾil , el-Emâlî ve Cezîreli âlimlerin biyografilerine dair Târîḫu’l-Cezîre ( Târîḫu’l-Cezîreteyn ) adlı eserleri de kaynaklarda zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 99 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-arube",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-arube, https://islamansiklopedisi.org.tr/ebu-arube",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ebu-arube",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ebu-arube",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:3038",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3038, heading_ar=أبو عروبة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:54Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-arube (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3038]. Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ebu-arube)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3038 (heading_ar=أبو عروبة) via Track A (DİA→Alam xref bridge). dt=Harran'ın muhaddisi ve müftüsü."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Harrânî"
+  ],
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 222,
+    "start_ce": 837,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 318,
+    "start_ce": 931,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-arube, URL: https://islamansiklopedisi.org.tr/ebu-arube || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3038] || DİA birth place: Harran || DİA death-date string: (ö. 318/931) || DİA categories: hadis > fıkıh > kelâm || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3038, heading_ar=أبو عروبة, dt=Harran'ın muhaddisi ve müftüsü.",
+  "students": [
+    "iac:person-00003858",
+    "iac:person-00004286",
+    "iac:person-00004336",
+    "iac:person-00004354",
+    "iac:person-00004675"
+  ]
+}

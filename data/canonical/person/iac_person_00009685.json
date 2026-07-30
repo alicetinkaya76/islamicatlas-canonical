@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00009685",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Amīn Nāṣir al-Dīn",
+      "tr": "Emîn Nâsıreddîn",
+      "ar": "أمين ناصر الدين"
+    },
+    "originalScript": {
+      "ar": "أمين ناصر الدين"
+    },
+    "description": {
+      "tr": "Başarılı şair, dilci, kitâb yazarlarından edîblerden.",
+      "en": "Accomplished poet, linguist, among the literati of writers."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Amīn b. ʿAlī Nāṣir al-Dīn"
+    },
+    "altLabel": {
+      "tr": [
+        "Emîn b. Alî Nâsıreddîn"
+      ],
+      "ar": [
+        "أمين بن علي ناصر الدين"
+      ]
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:1782",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1782",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:45Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=1782 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:1782."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1373,
+    "start_ce": 1953,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1782, heading_ar=أمين ناصر الدين || Ziriklī century_ce=20",
+  "authored_works": [
+    "iac:work-00000540",
+    "iac:work-00001143",
+    "iac:work-00001215",
+    "iac:work-00002181",
+    "iac:work-00002638",
+    "iac:work-00003320",
+    "iac:work-00003629",
+    "iac:work-00004573",
+    "iac:work-00004623",
+    "iac:work-00004710",
+    "iac:work-00005059",
+    "iac:work-00005919",
+    "iac:work-00006148",
+    "iac:work-00006286"
+  ]
+}

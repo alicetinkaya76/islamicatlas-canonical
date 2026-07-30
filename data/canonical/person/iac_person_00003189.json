@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00003189",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂRİCE b. ZEYD",
+      "ar": "خارجة بن زيد"
+    },
+    "originalScript": {
+      "ar": "خارجة بن زيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Zeyd Hârice b. Zeyd b. Sâbit el-Ensârî en-Neccârî"
+      ]
+    },
+    "description": {
+      "tr": "30 (650-51) yılında dünyaya geldi; 29’da doğduğu da rivayet edilmektedir. Ensardan ve Benî Neccâr kabilesinden meşhur sahâbî Zeyd b. Sâbit’in oğludur. Medine’de “fukahâ-yi seb‘a” diye şöhret bulan yedi fakihten ve Ömer b. Abdülazîz’in Medine valiliği sırasında (706-712) danışma kuruluna seçtiği on âlimden biri olan Hârice’nin ferâiz ilmi ve divan kâtipliği sahalarında uzman olduğu kaydedilir. Ayrıca hadis rivayetiyle de ünlü olup sika râviler arasında sayılmaktadır. Çeşitli kaynaklarda çok sayıda hadis rivayet ettiğinin belirtilmesine karşılık Zehebî, rivayetinin azlığı gerekçesiyle Hârice’nin biyografisini vermeye gerek görmediğini söylemektedir ( Teẕkiretü’l-ḥuffâẓ , I, 91). Başta babası ve annesi Ümmü Sa‘d (Cemîle bint Sa‘d b. Rebî‘ el-Ensârî) olmak üzere amcası Yezîd b. Sâbit ile Üsâme b. Zeyd, Ümmü’l-Alâ el-Ensâriyye ve Sehl b. Sa‘d gibi sahâbîlerden hadis rivayet etmiştir. Ancak Buhârî, amcasının Ebû Bekir döneminde şehid edildiğine dair rivayetin doğru olması halinde ondan naklettiği rivayetlerin mürsel sayılması gerektiğini söylemektedir ( et-Târîḫu’ṣ-ṣaġīr , I, 42). Kendisinden rivayette bulunanlar arasında oğlu Süleyman, kardeşinin oğlu Saîd b. Süleyman, Ebû Bekir b. Hazm, Kays b. Sa‘d, İbn Şihâb ez-Zührî ve fıkıhta talebesi olan Ebü’z-Zinâd yer almaktadır. İbn Asâkir’in tarih belirtmeksizin Hârice’nin Dımaşk’a gidip orada ikamet ettiğine ve Ebü’l-Hüseyin er-Râzî tarafından Dımaşklı hocaları arasında sayıldığına dair verdiği bilgiye bakılırsa orada ders verecek kadar uzun bir süre kaldığı söylenebilir. 100 (718-19) yılında vefat eden Hârice’nin ölüm tarihi 99 olarak da kaydedilmektedir. Cenaze namazını Medine Valisi Ebû Bekir b. Hazm kıldırmış, ölüm haberini duyan Ömer b. Abdülazîz, “Allah’a yemin ederim ki onun ölümü İslâm’da bir boşluk meydana getirmiştir” diyerek üzüntüsünü ifade etmiştir. Hârice b. Zeyd, Ömer b. Abdülazîz’in kaynak yetersizliği dolayısıyla sadece ona bağlattığı özel tahsisatı kendi durumundaki diğer kişilere de verilmesi halinde kabul edebileceğini söyleyip geri çevirecek kadar takvâ sahibi bir kimse idi. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 168 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:harice-b-zeyd",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=harice-b-zeyd, https://islamansiklopedisi.org.tr/harice-b-zeyd",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:3256",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3256, heading_ar=خارجة بن زيد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:11Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=harice-b-zeyd (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3256]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3256 (heading_ar=خارجة بن زيد) via Track A (DİA→Alam xref bridge). dt=Medine'deki yedi fıkıhcıdan biridir"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî; Neccârî"
+  ],
+  "birth_temporal": {
+    "start_ah": 30,
+    "start_ce": 650,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 100,
+    "start_ce": 718,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=harice-b-zeyd, URL: https://islamansiklopedisi.org.tr/harice-b-zeyd || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3256] || DİA birth place: 29 || DİA death-date string: (ö. 100/718-19) || DİA categories: rivayet > hadis > fıkıh || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3256, heading_ar=خارجة بن زيد, dt=Medine'deki yedi fıkıhcıdan biridir",
+  "students": [
+    "iac:person-00002394"
+  ]
+}

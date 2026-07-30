@@ -1,0 +1,185 @@
+{
+  "@id": "iac:person-00000224",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Al-Farabi",
+      "tr": "Fârâbî",
+      "ar": "الفارابي"
+    },
+    "originalScript": {
+      "ar": "الفارابي"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Nasr Muhammad ibn Muhammad al-Farabi"
+      ],
+      "tr": [
+        "Ebû Nasr Muhammed b. Muhammed el-Fârâbî",
+        "el-Fârâbî"
+      ],
+      "ar": [
+        "أبو نصر محمد بن محمد الفارابي"
+      ]
+    },
+    "description": {
+      "tr": "'İkinci Muallim' (Aristoteles'ten sonra) — Platon ve Aristoteles'i İbn Sînâ ve İbn Rüşd'ün üzerine inşa ettiği İslami felsefi çerçevede sentezledi. Ayrıca ortaçağın en önemli müzik teorisi risalesini yazdı || Fârâbî, 500 yıl boyunca İslam felsefesini belirleyen felsefi terminoloji ve metodolojiyi yarattı. || [Tarih notu] Walzer'in 1985 kritik edisyonu Fârâbî'nin özgünlüğünü yeniden kurdu.",
+      "en": "The 'Second Teacher' (after Aristotle) — synthesized Plato and Aristotle into an Islamic philosophical framework that Ibn Sina and Ibn Rushd built upon. Also wrote the most important medieval treatise on music theory || Farabi created the philosophical vocabulary and methodology that defined Islamic philosophy for 500 years. His emanationist cosmology harmonized Aristotelian logic with Islamic monotheism. Ibn Sina called him the greatest philosopher after Aristotle — hence 'Second Teacher.' || [Historiographical note] Walzer's 1985 critical edition of al-Madina al-Fadila reestablished Farabi's originality. Mahdi (2001) demonstrated his political philosophy was more than Platonic imitation.",
+      "ar": "المعلم الثاني (بعد أرسطو) — جمع بين أفلاطون وأرسطو في إطار فلسفي إسلامي بنى عليه ابن سينا وابن رشد. وكتب أهم رسالة في نظرية الموسيقى || أنشأ الفارابي المصطلحات والمنهجية الفلسفية التي حددت الفلسفة الإسلامية لخمسة قرون. وفّق بين المنطق الأرسطي والتوحيد الإسلامي من خلال نظرية الفيض"
+    }
+  },
+  "profession": [
+    "philosopher",
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0041",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0041, lecture_id=bayt-al-hikma",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:20",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=20",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E0026",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:33Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0041 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T20:17:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholar_links teacher edge (H10 S13): teachers += iac:person-00000192."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T20:17:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholar_links teacher edge (H10 S13): students += iac:person-00000188."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T11:30:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "h10_003 R3: çok-olaylı EI1 çakışması (2 makale aynı kayda) — ei1 katkıları geri alındı (reverted: []); olaylar collisions kuyruğunda."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T09:12:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment: 1 eşleşme-olayı (Tier-2 conf [1.0]; kanıt {'ei1_id': [1377]})."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-1 conf 1.0): ['altLabel.tr', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 872,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 950,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q160460",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Farabi')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0041, lecture_week=5. || Key works: {'title': {'en': 'Kitāb al-Mūsīqā al-Kabīr', 'tr': \"Kitâbü'l-Mûsîka'l-Kebîr\", 'ar': 'كتاب الموسيقى الكبير'}, 'year': 935, 'field': 'music', 'significance': {'en': 'Most important medieval treatise on music theory — influenced both Islamic and European musical traditions', 'tr': 'Ortaçağın en önemli müzik teorisi risalesi'}}; {'title': {'en': 'Ārāʾ Ahl al-Madīna al-Fāḍila (The Virtuous City)', 'tr': \"Ârâu Ehli'l-Medîneti'l-Fâzıla\", 'ar': 'آراء أهل المدينة الفاضلة'}, 'year': 940, 'field': 'philoso || Modern parallel: Imagine being so good at explaining Aristotle that everyone calls you 'Second Aristotle' — and then also writing the definitive textbook on music theory as a side project.",
+  "active_in_places": [
+    "iac:place-00004883"
+  ],
+  "authored_works": [
+    "iac:work-00000063",
+    "iac:work-00000064",
+    "iac:work-00003477",
+    "iac:work-00004244",
+    "iac:work-00005484",
+    "iac:work-00005856",
+    "iac:work-00006270",
+    "iac:work-00007214",
+    "iac:work-00007973",
+    "iac:work-00008116",
+    "iac:work-00008349",
+    "iac:work-00008881",
+    "iac:work-00009259"
+  ],
+  "kunya": "Ebû Nasr",
+  "nisba": [
+    "Fârâbî",
+    "Türkî"
+  ],
+  "laqab": [
+    "el-Muallimü's-Sânî (İkinci Muallim)"
+  ],
+  "teachers": [
+    "iac:person-00000192"
+  ],
+  "students": [
+    "iac:person-00000188"
+  ],
+  "derived_from_layers": [
+    "ei1",
+    "alatli"
+  ]
+}

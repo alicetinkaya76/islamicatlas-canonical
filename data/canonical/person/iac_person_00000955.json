@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00000955",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ el-EKBER",
+      "ar": "عليّ الأكبر"
+    },
+    "originalScript": {
+      "ar": "عليّ الأكبر"
+    },
+    "altLabel": {
+      "tr": [
+        "Alî b. Hüseyn b. Alî b. Ebî Tâlib"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Hüseyin’in diğer oğlu Zeynelâbidîn’in de asıl adı Ali olduğundan, İslâm kültür tarihinde bu iki kardeşin büyüğü Ali el-Ekber, küçüğü de Ali el-Asgar diye şöhret bulmuştur. Ali el-Ekber’in hayatı hakkında menkıbevî rivayetler dışında yeterli tarihî bilgiler bulunmamaktadır. Annesi, sahâbeden Urve b. Mes‘ûd’un torunu Leylâ bint Mürre’dir. Medine’de doğup büyüdüğü bilinmekle birlikte doğum tarihi belli değildir. Kerbelâ Vak‘ası esnasında on sekiz veya on dokuz yaşında olduğu ileri sürülmekteyse de o sırada yirmi beşinde bulunduğu yolundaki rivayet daha doğrudur; çünkü Kerbelâ faciasından kurtulan kardeşi Zeynelâbidîn Ali el-Asgar’ın o zaman yirmi üç veya yirmi dört yaşında olduğu bilinmektedir (bk. İbn Sa‘d, V, 221). Kaynaklara göre Ali el-Ekber, Kerbelâ’da Tâliboğulları arasında savaş alanına ilk çıkan ve Hz. Hüseyin’in ailesinden ilk şehid edilen kişidir (bk. Dîneverî, s. 254; Taberî, V, 446; İbnü’l-Esîr, IV, 74; Şeyh Müfîd, s. 238 vd.). Kerbelâ’da, “Ben Hüseyin b. Ali’nin oğluyum. Kâbe’nin rabbine yemin ederim ki Hz. Peygamber’e en yakın olan biziz. Evlâtlığın oğlu (Ubeydullah b. Ziyâd) bize hükmedemez!” (Taberî, V, s. 446) diyerek çıktığı on kadar mübârezede yiğitçe dövüştü ve her seferinde karşı taraftan iki üç kişiyi öldürdü. Susuzluktan güçsüz düştüğü bir sırada Mürre b. Münkız tarafından sırtına mızrak saplanarak şehid edildi (10 Muharrem 61 / 10 Ekim 680). Savaştan sonra başı, diğer Kerbelâ şehidleriyle birlikte önce Ubeydullah b. Ziyâd’a, sonra Şam’a Yezîd b. Muâviye’ye gönderildi. Oğlunun vefatına son derece üzülen Hz. Hüseyin, “Yavrum, senden sonra dünyam yıkılmıştır!” diyerek göz yaşları dökmüştür. Ali el-Ekber’in naaşı babasının Kerbelâ’daki türbesinin ana kubbesi altına defnedilmiştir. Ali el-Ekber, Abbâsîler’in son devirlerinden bugüne kadar, özellikle muharrem âyinleri sırasında bütün İran ve doğu bölgelerinde kazandığı menkıbevî şahsiyetiyle anılır ve Kerbelâ’daki kahramanlıkları hakkında pek çok hikâyeler anlatılır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 390 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-el-ekber",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-el-ekber, https://islamansiklopedisi.org.tr/ali-el-ekber",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-05-04T15:33:17Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-el-ekber (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 61,
+    "start_ce": 680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-el-ekber, URL: https://islamansiklopedisi.org.tr/ali-el-ekber || DİA death-date string: (ö. 61/680) || DİA categories: rivayet || Chunk count: 1"
+}

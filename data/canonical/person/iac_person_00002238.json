@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00002238",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ ÖMER el-KĀDÎ",
+      "ar": "أبو عمر القاضي"
+    },
+    "originalScript": {
+      "ar": "أبو عمر القاضي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ömer Muhammed b. Yûsuf b. Ya‘kūb el-Ezdî el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "9 Receb 243’te (1 Kasım 857) Basra’da doğdu. Tanınmış muhaddis ve fakih Hammâd b. Zeyd’in torunlarındandır. Kaynaklarda yalnız Ebû Ömer künyesiyle zikredilir. Muhammed b. Velîd el-Büsrî, Muhammed b. İshak es-Sâgānî, Hasan b. Ebü’r-Rebî‘ el-Cürcânî, Zeyd b. Ahzem ve es-Sünen müellifi olan babası Yûsuf b. Ya‘kūb el-Kādî’den hadis okudu. Dârekutnî, Kādî Ebû Bekir el-Ebherî, Ebû Bekir İbnü’l-Mukrî el-İsfahânî, Ebü’l-Kāsım b. Habâbe, Îsâ b. Vezîr gibi tanınmış birçok âlim kendisinden hadis dinledi. Halîfe Mu‘tazıd-Billâh zamanında 284’te (897) Medînetülmansûr, Muktedir-Billâh zamanında da Ebû Hâzim el-Kādî’nin ölümü üzerine 292’de (905) Kerh kadılığına tayin edildi. 296 (908-909) yılında bu görevinden alındı. 301’de (913-14) vezir olan Ebü’l-Hasan Ali b. Îsâ’nın halifeyi ikna etmesi üzerine eski görevine iade edildi. Şam bölgesi, Haremeyn, Yemen ve Sevâd bölgesinin bazı kısımlarında da kadılık yaptıktan sonra 317’de (929) kādılkudât oldu. 23 (veya 25) Ramazan 320’de (27 veya 29 Eylül 932) Bağdat’ta vefat etti. Kaynaklarda bir müsnedi olduğu kaydedilen Ebû Ömer, daha çok talebelerine verdiği dersler ve fetvaları ile şöhret bulmuştur. Hadis rivayetinde ve hükümlerinde hataya düşmediği nakledilmektedir. Bazı kaynaklarda Hallâc-ı Mansûr’un öldürülmesine dair fetvanın Ebû Ömer el-Kādî tarafından verildiği belirtilmekte (İbn Kesîr, XI, 172; EI 2 [İng.] , III, 101; Suppl. , s. 385), ancak Ebü’l-Hasan en-Nübâhî bu fetvanın Ebû Ömer’in amcasının oğluna ait olduğunu kaydetmektedir ( Târîḫu ḳuḍâti’l-Endelüs , s. 36). Ebû Ömer bilgi, cömertlik ve sabır konusunda darbımesel olmuştur. Araplar arasında, güzel hasletlere sahip birinden bahsedilirken söylenen, “Sanki o Ebû Ömer el-Kādî’dir” sözü onun zekâ ve bilgisine, şiddetli öfkeye kapılan bir kişinin, “Ebû Ömer el-Kādî olsam yine sabredemezdim” demesi de onun sabrına delâlet etmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 211 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-omer-el-kadi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-omer-el-kadi, https://islamansiklopedisi.org.tr/ebu-omer-el-kadi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-omer-el-kadi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-omer-el-kadi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-omer-el-kadi (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.96): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 320,
+    "start_ce": 932,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-omer-el-kadi, URL: https://islamansiklopedisi.org.tr/ebu-omer-el-kadi || DİA birth place: Basra || DİA death place: Bağdat || DİA death-date string: (ö. 320/932) || DİA categories: hadis > fetva > rivayet || Chunk count: 1",
+  "students": [
+    "iac:person-00001934",
+    "iac:person-00002111",
+    "iac:person-00004266"
+  ]
+}

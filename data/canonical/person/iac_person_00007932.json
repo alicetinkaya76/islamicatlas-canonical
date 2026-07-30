@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00007932",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CURCÎS b. CİBRÂÎL",
+      "ar": "جرجيس بن جبرائيل"
+    },
+    "originalScript": {
+      "ar": "جرجيس بن جبرائيل"
+    },
+    "description": {
+      "tr": "Buhtîşû‘ hekim ailesinin tanınmış hekimlerinden biri."
+    },
+    "altLabel": {
+      "ar": [
+        "جورجس"
+      ]
+    }
+  },
+  "profession": [
+    "physician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:curcis-b-cibrail",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=curcis-b-cibrail, https://islamansiklopedisi.org.tr/curcis-b-cibrail",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:2424",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=2424, heading_ar=جورجس",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:10Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=curcis-b-cibrail (0 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[2424]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=2424 (heading_ar=جورجس) via Track A (DİA→Alam xref bridge). dt=Tabîb, Süryanî asıllı. Cundişâpur'da tabîblerin reîsi idi. Abbâsî halifesi el-Ma"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 152,
+    "start_ce": 769,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=curcis-b-cibrail, URL: https://islamansiklopedisi.org.tr/curcis-b-cibrail || El-Aʿlām (Ziriklī) cross-reference: alam_id=[2424] || El-Aʿlām (Track A) augmentation: alam_id=2424, heading_ar=جورجس, dt=Tabîb, Süryanî asıllı. Cundişâpur'da tabîblerin reîsi idi. Abbâsî halifesi el-Mansûr hastalandığında"
+}

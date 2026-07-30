@@ -1,0 +1,98 @@
+{
+  "@id": "iac:person-00001775",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CEMÎL el-AZM",
+      "ar": "جميل العظم"
+    },
+    "originalScript": {
+      "ar": "جميل العظم"
+    },
+    "altLabel": {
+      "tr": [
+        "Cemîl b. Mustafâ el-Azm"
+      ]
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Ailesi aslen Konyalıdır. IV. Murad zamanında (1623-1640) Suriye’ye yerleşen ailenin bilinen ilk atası Kemik (Azm) Hüseyin’e nisbetle bu aileye mensup olanlar “el-Azm” lakabını kullanmışlardır (bk. AZMZÂDELER ). Beş yaşında iken babasını kaybetti. Bunun üzerine ailesiyle birlikte Şam’a taşındı ve orada okudu. Arapça’nın yanı sıra Türkçe ve Farsça öğrendi. Şam, Adana, İstanbul ve Beyrut’ta çeşitli resmî görevlerde bulundu. 1912’de aylık el-Beṣâʾir dergisini çıkardı. Dergi on bir sayı devam etmiştir. İstanbul’da yayımlanan el-Maʿlûmâtü’l-ʿArabiyye adlı gazetenin bir süre nâşirliğini yaptı. el-Mecmau’l-ilmiyyü’l-Arabî bi-Dımaşk’a üye seçildi. Çeşitli dergi ve gazetelerde makale ve şiirler yazdı. 15 Kasım 1933’te Şam’da öldü. İyi bir hattat olan Cemîl el-Azm yazma eserlere çok meraklıydı. Aynı zamanda bunların ticaretini de yapıyordu. Eserleri. Cemîl el-Azm’in yarım kalmış çeşitli edebî çalışmaları dışındaki önemli eserleri şunlardır: 1. ʿUḳūdü’l-cevher fî terâcimi men lehüm ḫamsûne taṣnîfen fe-miʾe fe-eks̱er . Müslüman ve antik Yunan bilginlerinden kırk âlimin biyografisini ve alfabetik olarak eserlerini ihtiva eden iki ciltten ibaret bu kitabın I. cildi Beyrut’ta basılmıştır (1326). Daha hacimli olan II. cildi ise henüz yayımlanmamıştır. 2. Tercemetü ʿOs̱mân Bâşâ el-Ġāzî (İstanbul 1315). Gazi Osman Paşa hakkında bir monografidir. 3. es-Sırrü’l-maṣûn ẕeylü Keşfi’ẓ-ẓunûn . Müellif bu esere el-İsfâr ʿani’l-ʿulûm ve’l-esfâr adıyla yazdığı 1000 sayfalık mukaddimede muhtelif ilimler, ünlü yazarlar ve eserleri hakkında bilgi vermiştir. Mukaddimeyi el-Beṣâʾir ’in 7 ve 8. sayılarında yayımlamaya başlamış, fakat derginin kapanması üzerine devamı neşredilmemiştir. 4. Tefrîcü’ş-şidde fî taşṭîri’l-Bürde (İstanbul 1313). Bûsîrî’nin tanınmış Ḳaṣîdetü’l-bürde ’sinin şerhidir. 5. el-Mâżî ve’l-ḥâl . Kānûn-ı Esâsî’nin ilânından sonra Osmanlı idaresindeki halklara dair yazdığı bir risâledir (1326). Cemîl el-Azm şu eserleri de neşre hazırlamıştır: Taḥbîrü’l-müveşşîn fi’t-taʿbîr bi’s-sîn ve’ş-şîn . Fîrûzâbâdî’nin dil ile ilgili bu eserinin bir kısmını el-Beṣâʾir ’de yayımlamış, daha sonra tamamını kitap halinde neşretmiştir. Ḫalḳu’l-insân . Ebü’l-Hasan Saîd b. Hibetullah’ın (ö. 495/1101) tıbba dair olan bu eserinin bir kısmını el-Beṣâʾir ’de yayımladıktan sonra tamamını kitap halinde neşretmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 325-326 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cemil-el-azm",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cemil-el-azm, https://islamansiklopedisi.org.tr/cemil-el-azm",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:cemil-el-azm",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=cemil-el-azm",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:2379",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=2379, heading_ar=جميل العظم",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cemil-el-azm (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[2379]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=cemil-el-azm)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=2379 (heading_ar=جميل العظم) via Track A (DİA→Alam xref bridge). dt=Dımaşk edîbi, Arap İlmi Toplantısı üyeleri arasından"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1873,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=cemil-el-azm, URL: https://islamansiklopedisi.org.tr/cemil-el-azm || El-Aʿlām (Ziriklī) cross-reference: alam_id=[2379] || DİA birth place: İstanbul || DİA death-date string: (1873-1933) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=2379, heading_ar=جميل العظم, dt=Dımaşk edîbi, Arap İlmi Toplantısı üyeleri arasından",
+  "birth_place": "iac:place-00000735"
+}

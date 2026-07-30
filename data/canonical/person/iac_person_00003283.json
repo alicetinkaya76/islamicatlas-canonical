@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00003283",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HASAN ÜSKÜDÂRÎ, Sânî"
+    },
+    "description": {
+      "tr": "Üsküdar’da doğduğu için bu lakapla anılan Hasan Efendi’nin babasının adı Nûman’dır. Eski Hasan Üsküdârî’den “Sânî” (ikinci) sıfatıyla ayırt edilir. Sülüs-nesih yazılarını Hâfız Osman’ın orta yaşlarında bulunduğu yıllarda kendisinden meşketmiş, icâzet aldıktan sonra Beyazıt’taki Sarây-ı Atîk (Eski Saray) mensubu gençlere hat muallimi tayin edilmiştir. Ancak burada yetiştirdiği talebeler içinde meşhur bir hattat yoktur. Eski Saray dışında kendisinden meşketmiş bulunan Giritli Ali ve Üsküdarlı Hammalzâde Ömer efendilerin eserleri de zamanımıza kadar gelmiştir. Hasan Üsküdârî’nin günümüze ulaşan eserleri arasında 1106 yılının Rebîülâhir (Kasım-Aralık 1694) ve Zilkade (Haziran-Temmuz 1695) aylarında tamamladığı, özel bir koleksiyonda korunan iki mushafı mevcuttur. Bunlardaki hat mükemmeliyeti, onun IV. Mehmed devri (1648-1687) sonlarında mesleğini kazanmış olduğunu akla getirmekte ve Eski Saray’daki hocalığının yanı sıra altı-yedi ay zarfında bir mushafı bitirebildiği anlaşılmaktadır. Hasan Üsküdârî’nin nesih hatla yazdığı tezhipli ve ciltli, Nûreddin Ali b. Ahmed el-Ensârî’ye ait Kitâbü Nefeḥâti’l-ʿabîri’s-sârî adlı eseri de (TSMK, III. Ahmed, nr. 567) onun hat sanatındaki gücünü göstermektedir. Üsküdârî’nin medfun olduğu kabristan belirlenememiştir. Merâkıd-ı Mu‘tebere-i Üsküdâr isimli kaynakta adı geçmediğine göre onun, Karacaahmet Mezarlığı dışında bir kabristana defnedildiği veya buradaki kabir kitâbesinin çok eski yıllarda kaybolduğu tahmin edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan (gözden geçirilmiş 2. basım) EK-1. cildinde, 538-539 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-uskudari-sani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-uskudari-sani, https://islamansiklopedisi.org.tr/hasan-uskudari-sani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hasan-uskudari-sani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hasan-uskudari-sani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:13Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-uskudari-sani (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1145,
+    "start_ce": 1732,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-uskudari-sani, URL: https://islamansiklopedisi.org.tr/hasan-uskudari-sani || DİA birth place: Üsküdar || DİA death place: Mu || DİA death-date string: (ö. 1145/1732) || Chunk count: 1"
+}

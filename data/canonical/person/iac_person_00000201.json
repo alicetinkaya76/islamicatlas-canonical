@@ -1,0 +1,139 @@
+{
+  "@id": "iac:person-00000201",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Al-Battani",
+      "tr": "Battânî",
+      "ar": "البتاني"
+    },
+    "originalScript": {
+      "ar": "البتاني"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Abdullah Muhammad ibn Jabir ibn Sinan al-Battani"
+      ],
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Câbir b. Sinân el-Battânî",
+        "el-Battânî"
+      ],
+      "ar": [
+        "أبو عبد الله محمد بن جابر بن سنان البتاني"
+      ]
+    },
+    "description": {
+      "tr": "'Arapların Batlamyus'u' — yıl uzunluğunu modern değerin 2 dakikası içinde düzeltti, trigonometrik yöntemleri tanıttı ve ekinoksların presesyonunu ölçtü || Battânî'nin Rakka'daki 42 yıllık gözlem programı ortaçağ dünyasının en uzun sistematik astronomik kampanyasıydı. Batlamyus'un geometrik kiriş yöntemlerini sinüs ve tanjant fonksiyonlarıyla değiştirdi. Kopernik, De Revolutionibus'da Battânî'yi 23 kez alıntıladı. || [Tarih notu] Nallino'nun kritik edisyonu (1899-1907) hâlâ standarttır. Battânî, Kopernik tarafından adıyla anılan birkaç İslam astronomlarından biriydi.",
+      "en": "The 'Ptolemy of the Arabs' — corrected the length of the year to within 2 minutes of the modern value, introduced trigonometric methods (replacing Ptolemy's geometric chord tables), and measured the precession of the equinoxes || Battani's 42-year observation program at Raqqa was the longest systematic astronomical campaign of the medieval world. He replaced Ptolemy's geometric chord methods with sine and tangent functions, making astronomical calculation vastly more efficient. Copernicus cited Battani 23 times in De Revolutionibus. || [Historiographical note] Nallino's critical edition (1899-1907) of the Zij remains the standard. Battani was one of the few Islamic astronomers acknowledged by Copernicus by name, demonstrating direct transmission via the Toledo translation school.",
+      "ar": "بطليموس العرب — صحّح طول السنة بدقة دقيقتين عن القيمة الحديثة || برنامج البتاني الرصدي (٤٢ عامًا) في الرقة كان الأطول في العالم الوسيط. استبدل أساليب الأوتار ببدوال الجيب والظل. استشهد كوبرنيكوس بالبتاني ٢٣ مرة"
+    }
+  },
+  "profession": [
+    "astronomer",
+    "mathematician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0018",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0018, lecture_id=astronomy",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "ei1:1141",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 1, p. 48",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      },
+      {
+        "source_id": "scholars:214",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=214",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E0195",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0018 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-1 conf 1.0): ['altLabel.tr', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 858,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 929,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q11079",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Battani')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0018, lecture_week=11. || Key works: {'title': {'en': 'Kitāb al-Zīj al-Ṣābiʾ (Sabian Tables)', 'tr': \"Kitâbü'z-Zîci's-Sâbiî\", 'ar': 'كتاب الزيج الصابئ'}, 'year': 900, 'field': 'astronomy', 'significance': {'en': \"Corrected Ptolemy's astronomical tables with 42 years of original observations — introduced trigonometric methods to astronomy\", 'tr': \"Batlamyus'un astronomik tablolarını 42 yıllık özgün gözlemlerle düzeltti — trigonometrik yöntemleri astronomiye tanıttı\"}} || Modern parallel: Imagine staring at the sky every night for 42 years, taking notes by hand, and producing data so accurate that the next breakthrough — Copernicus — wouldn't come for 600 years.",
+  "authored_works": [
+    "iac:work-00000030"
+  ],
+  "kunya": "Ebû Abdullah",
+  "nisba": [
+    "Battânî",
+    "Harrânî"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

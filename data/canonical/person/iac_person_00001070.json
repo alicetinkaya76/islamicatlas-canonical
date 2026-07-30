@@ -1,0 +1,58 @@
+{
+  "@id": "iac:person-00001070",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Amrî",
+      "ar": "عمروى"
+    },
+    "originalScript": {
+      "ar": "عمروى"
+    },
+    "description": {
+      "tr": "Asıl adı Amr’dır. Fâtih Sultan Mehmed ve II. Bayezid devirlerinde müderrislik, kazaskerlik ve şeyhülislâmlık görevlerinde bulunmuş olan Abdülkerim Efendi’nin âzatlı kölesi ve evlâtlığıdır. Abdülkerim Efendi onun tahsil ve terbiyesiyle bizzat meşgul olmuş, iyi bir şekilde yetişmesini sağlamıştır. Amrî tahsilini bitirince bir müddet mülâzımlık yapmış, sonra kadılık mesleğine intisap ederek Serfiçe kadılığına tayin edilmiştir. Ders arkadaşı İshak Çelebi’ye yazdığı bir mektuptan, Amrî’nin, kazancının bolluğu ve rahatlığı dolayısıyla kadılıkta karar kıldığı anlaşılmaktadır. Serfiçe’den sonra nerelerde görev yaptığı bilinmemekle beraber son olarak Vize kadılığına tayin edildiği ve çok geçmeden 930 (1523-24) sıralarında vefat ettiği kaynaklarda zikredilmektedir. Amrî kaynaklarda şakacı, nüktedan, hoşsohbet, iyi huylu, sevimli ve güzel ahlâklı bir insan olarak tanıtılmaktadır. Kadılık yaptığı yerlerde halkın güvenini ve sevgisini kazanmıştı. İyi insanlarla güzel şeyler söyleşip onları dinlemekten zevk alırdı. Hemen hemen hepsi âşıklık hallerini ve aşk duygularını terennüm eden şiirleri onun bu hassas mizacının mahsulüdür. Ele geçen şiirleriyle tertip edilmiş bulunan divanındaki gazellerinin üçte birinden fazlası kısa vezinlerle yazılmıştır. Bu husus, onun az sözle çok şey ifade etmeye müsait zeki ve nüktedan karakterinin bir tezahürü olarak gösterilebilir. Şiirleri o zamana kadar pek az kullanılmış olan redif ve kafiyeleri ihtiva etmektedir. Bu şiirler, sanat göstermek kaygısıyla zekâyı zorlayarak yazılmadıkları daha ilk okuyuşta belli olan, edası tabii, akıcı, anlaşılması kolay şiirlerdir. Az yazmış olması da titiz bir şair olduğunun ayrı bir delilidir. Diğer taraftan, divanında yalnız Kanûnî Sultan Süleyman’ın vezîriâzamı İbrâhim Paşa’ya sunulan bir kaside bulunması, Amrî’nin yüksek mevkilere ulaşmaya hırslı olmadığını, bu yüzden de devrin ileri gelenlerine yerli yersiz methiyeler yazmadığını gösterir. Zamanının edebiyat muhitinde oldukça tanınan ve takdir edilen bir şair olmasına rağmen yazmaktan çok, zekâsını ve kabiliyetlerini sohbetlerde cinaslı, nükteli sözler üreterek çevresini hayran etmeye harcadığı anlaşılıyor. Nitekim kaynaklarda divanından başka herhangi bir eseri bulunduğunu gösteren bir işaret yoktur. Basılmış olan divanında 143 gazel bulunmaktadır. Bu bakımdan ona divançe demek daha uygun olur. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 96-97 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amri, https://islamansiklopedisi.org.tr/amri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-05-04T15:33:35Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amri (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 930,
+    "start_ce": 1523,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amri, URL: https://islamansiklopedisi.org.tr/amri || DİA death place: Serfiçe || DİA death-date string: (ö. 930/1523-24 [?]) || DİA categories: şiir || Chunk count: 1"
+}

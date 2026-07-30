@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00004848",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KEMÂL-i HUCENDÎ",
+      "ar": "كمال خجندى"
+    },
+    "originalScript": {
+      "ar": "كمال خجندى"
+    },
+    "description": {
+      "tr": "Mâverâünnehir bölgesinde bulunan Hucend’de doğdu. Ailesi ve öğrenim durumu hakkında bilgi yoktur. Tanınmış bir şeyh olmasına rağmen hangi tarikata mensup olduğu dahi bilinmemektedir. Genç yaşta hacca gitti. Hac dönüşü uğradığı Tebriz’de yerleşmeye karar verdi. Zamanla etrafında birçok mürid ve talebe toplandı. Sultan Toktamış Han Tebriz’e hâkim olunca (787/1385) şehrin diğer âlimleriyle birlikte başşehir Saray’a götürülen Kemâl-i Hucendî burada sûfî Abdullah-ı Şâşî ile görüştü ve yeni müridler edindi. Dört yıl sonra tekrar Tebriz’e döndü. Celâyirli sultanları ile iyi münasebetler içinde olmaya özen gösteren Kemâl-i Hucendî’ye bu sülâleden Sultan Hüseyin b. Üveys bir tekke yaptırdı, giderlerini karşılamak üzere bir miktar vakıf tahsis etti. Hucendî, Timurlular devrinde Timur’un oğlu ve Azerbaycan Valisi Mîrân Şah Mirza’nın teveccühünü kazandı ve ihsanına nâil oldu. 803 (1401) yılında vefat edince tekkesinin bulunduğu Ferahbahş mahallesine defnedilen Kemâl-i Hucendî’nin kabri zamanla bir ziyaretgâh haline geldi. Onun 792 (1390) yılında öldüğü şeklinde bir rivayet bulunmaktaysa da bu doğru değildir. Gazel vadisinde Sa‘dî-i Şîrâzî ve Hümâm-ı Tebrîzî’yi taklit eden Kemâl-i Hucendî’nin çağdaşları Hâfız-ı Şîrâzî, Sirâceddîn-i Bisâtî-i Semerkandî ve Molla Muhammed Mağribî ile dostluk kurduğu, Hâfız’ın şiirlerini övdüğü, onun da Hucendî’nin şiirlerini beğendiği kaydedilmektedir. Genellikle aşk ve tasavvufa dair gazellerinde “Kemâl” mahlasını kullanan Hucendî bu nazım şeklinde üstün başarı sağlamıştır. Bununla birlikte şiirlerinde tekellüfe yer verdiği de olmuştur. Gazelde emsalsiz olduğunu söylemesine rağmen Hâfız, Sa‘dî ve Mevlânâ Celâleddîn-i Rûmî seviyesine çıkamamıştır. Ancak bu nazım şeklinde Irak üslûbunun Azerbaycan kolunu teşkil eden şairlerin başında gelir ve bu üslûpla Hint üslûbu arasında köprü vazifesi gören şairler arasında yer alır. Kemâl-i Hucendî’nin yaklaşık sekiz bin beyit ihtiva eden divanı genellikle gazel, kıta ve rubâîlerinden oluşur. Divanının minyatürlerle süslü bir nüshası Viyana Millî Kütüphanesi’ndedir. Eserin Türkiye’de ve özellikle İstanbul kütüphanelerinde de (Süleymaniye Ktp., Ayasofya, nr. 3962-3963) birçok nüshası bulunmaktadır. Divan iki defa Tebriz’de (1332 hş., 1337 hş.), son olarak da Îrec Gül-i Surhî tarafından Tahran’da (1374 hş.) neşredilmiştir. Letâfetnāme adlı Türkçe bir şiiri de Tourkhan Gandjei tarafından yayımlanmıştır (bk. bibl.). Bu madde TDV İslâm Ansiklopedisi’nin 2022 yılında Ankara’da basılan 25. cildinde, 226 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kemal-i-hucendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kemal-i-hucendi, https://islamansiklopedisi.org.tr/kemal-i-hucendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:kemal-i-hucendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/kemal-i-hucendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:33Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kemal-i-hucendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 803,
+    "start_ce": 1401,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kemal-i-hucendi, URL: https://islamansiklopedisi.org.tr/kemal-i-hucendi || DİA birth place: Hucend || DİA death-date string: (ö. 803/1401) || DİA categories: şiir > tasavvuf > rivayet || Chunk count: 1"
+}

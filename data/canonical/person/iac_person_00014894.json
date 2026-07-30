@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00014894",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Basrawī",
+      "tr": "Basravî",
+      "ar": "البصروي"
+    },
+    "originalScript": {
+      "ar": "البصروي"
+    },
+    "description": {
+      "tr": "Şâfiî fıkıh âlimi, nahiv âlimi. \"Şerhu Cem'u'l-Cevâmi' li't-Tâc es-Sübkî\" (yazması) — Westcott 3157'",
+      "en": "Shāfiʿī jurist and grammarian. \"Sharḥ Jamʿ al-Jawāmiʿ li-l-Tāj al-Subkī\" (manuscript) — with a copy"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAlāʾ al-Dīn ʿAlī b. Yūsuf b. ʿAlī b. Aḥmad al-Dimashqī al-ʿĀtikī al-Basrawī"
+    },
+    "altLabel": {
+      "tr": [
+        "Alâ' addîn Alî b. Yûsuf b. Alî b. Ahmed ed-Dımaşkî el-Âtikî el-Basravî"
+      ],
+      "ar": [
+        "علي بن يوسف بن علي بن أحمد، علاء الدين الدمشقي العاتكي الشهير ب البصروي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:7587",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7587",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:36Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=7587 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:7587."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 905,
+    "start_ce": 1500,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7587, heading_ar=البصروي || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 33.51, 36.28",
+  "authored_works": [
+    "iac:work-00004265"
+  ]
+}

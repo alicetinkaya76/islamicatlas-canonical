@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00004792",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KÂTİBÎ, Şemseddin",
+      "ar": "شمس الدين كاتبى"
+    },
+    "originalScript": {
+      "ar": "شمس الدين كاتبى"
+    },
+    "altLabel": {
+      "tr": [
+        "Şemsüddîn Muhammed b. Abdillâh"
+      ]
+    },
+    "description": {
+      "tr": "Nîşâbur yakınlarında Turukverâviş’te doğdu. Öğrenim için gittiği Nîşâbur’da döneminin tanınmış şair ve sanatkârlarından Sîmî-i Nîşâbûrî’den istifade etti. Özellikle hat sanatında temayüz etti. Daha sonra Herat’a gidip Timurlular’dan Gıyâseddin Baysungur’un hizmetine girdi; onun için kasideler yazdı. Esterâbâd, Mâzenderan ve Gîlân’ı dolaşarak Şirvan’a geldi. Şirvanşahlar’dan Menûçihr ve Derbendli Şeyh İbrâhim adına kasideler yazarak karşılığında bol miktarda mükâfat aldı. Bir süre sonra Tebriz’e gidip Karakoyunlular’dan İskender b. Kara Yûsuf’un hizmetinde bulundu. Ancak hakkında kaleme aldığı kasidelerden bir karşılık görmeyince Tebriz’i terkedip İsfahan’a gitti. Burada zamanının tanınmış âlim ve sûfîlerinden Sâyinüddin Türke’ye intisap eden Kâtibî şeyhinin tavsiyesiyle methiye yazmaktan vazgeçip inzivaya çekildi. 838 (1434) veya 839 (1435) yılında bir veba salgınında Esterâbâd’da öldü. Hat sanatıyla meşgul olduğundan dolayı Kâtibî mahlasını kullanan şair, Timurlular dönemi İran şiirinin belli başlı özelliklerinden biri olan sanatlı dille şiir yazma tarzının önde gelen temsilcilerindendir. Onun bu üslûbu bazı İranlı şairlerle Bursalı Ahmed Paşa gibi Türk şairleri tarafından da benimsenmiştir. Şiirlerinin çoğunda Nizâmî, Kemâleddîn-i İsfahânî ve Selmân-ı Sâvecî gibi şairlerin etkisi görülür. Bu durum kaside ve mesnevilerinde daha belirgindir. Eserleri. Kâtibî’nin birçok nüshası bulunan külliyatı divanı ile Ḫamse ’sinden oluşmakta olup henüz yayımlanmamıştır (nüshaları için bk. Münzevî, III, 1890-1891). Kaside, gazel, kıta ve rubâîlerinden meydana gelen divanı yaklaşık 10.000 beyit ihtiva etmektedir. Ḫamse ’sinde yer alan mesneviler ise şunlardır: 1. Gülşen-i Ebrâr . Nizâmî’nin Maḫzenü’l-esrâr ’ına nazîre şeklinde yazılmış dinî-ahlâkî düşünce ve öğütleri içeren küçük bir mesnevidir. 2. Mecmaʿu’l-baḥreyn . Karışık olarak iki bahirde (remel ve münserih) kaleme alındığı için Kâtibî bu mesneviyi böyle adlandırmıştır. Nâẓır u Menẓûr diye de isimlendirilir. 3. Kitâb-ı Deh Bâb . Kâtibî’nin oğlu için yazdığı öğüt ve hikâyeleri içeren bir mesnevidir. 4. Kitâb-ı Sînâme . Otuz tasavvufî aşk mektubundan meydana gelen eser Muḥibb ü Maḥbûb olarak da adlandırılır. 5. Kitâb-ı Dilrubây . Yemen padişahı Kubâd ile vezirinden bahseden temsilî bir mesnevisidir. Kâtibî’nin Behrâm u Gülendâm veya Behrâmnâme adlı bir eseri daha bulunmaktadır (Kütübhâne-i Meclis-i Şûrâ-yı Millî, nr. 2617). Bu madde TDV İslâm Ansiklopedisi’nin 2022 yılında Ankara’da basılan 25. cildinde, 42 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:katibi-semseddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=katibi-semseddin, https://islamansiklopedisi.org.tr/katibi-semseddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:katibi-semseddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=katibi-semseddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:32Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=katibi-semseddin (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=katibi-semseddin)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 839,
+    "start_ce": 1435,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=katibi-semseddin, URL: https://islamansiklopedisi.org.tr/katibi-semseddin || DİA birth place: Turukverâviş || DİA death-date string: (ö. 839/1435 [?]) || DİA categories: şiir > tasavvuf || Chunk count: 1"
+}

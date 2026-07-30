@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00000835",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED RİFAT EFENDİ, Yağlıkçızâde"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Daha çok Yağlıkçızâde adıyla tanınan Şâbanzâde ailesinden Ispartalı Mehmed Emin Efendi’nin oğludur. Küçük yaşta maliyeye girdi, burada yetişti ve sırasıyla Bahriye muhasebeciliği, İdâre-i Bahriyye reisliği, Girit defterdarlığı, İzmir Rüsûmat müdürlüğü, Islahat Komisyonu üyeliği, Eshâm-ı Fevkalâde müdürlüğü, Selânik defterdarlığı gibi memuriyetlerde bulunduktan sonra Muhâsebât-ı Atîka muhasebeciliğinden emekli oldu. 1895 yılı başlarında vefat etti. Kabri Fatih’te Emîr Buhârî Tekkesi’ndedir. Devlet hizmetlerinin yanı sıra ilmî çalışmalar yapan ve kaynaklarda ressam olduğu kaydedilen Ahmed Rifat Efendi, tarihe ve ahlâka dair bazı eserler kaleme almış, fakat daha çok Lugat-ı Târihiyye ve Coğrafiyye adlı kitabı ile tanınmıştır. Bu eser, aslında meşhur şahıslar ve müelliflerin biyografileri, önemli olaylar, tarih boyunca kurulmuş devletler, milletler ve belli başlı şehirlerin tarihî coğrafyaları hakkında alfabetik maddeler halinde bilgiler verdiğinden dolayı kapsamlı bir tarih ve coğrafya sözlüğü sayılırsa da, öteki ilim ve fenlere dair pek çok bilgiyi de ihtiva etmesi bakımından genel bir ansiklopedi niteliği taşımaktadır. Lugat-ı Târihiyye ve Coğrafiyye , Osmanlılar’da XIX. yüzyılda hazırlanmasına ferdî olarak teşebbüs edilip tamamlanabilmiş ansiklopedi çalışmalarının iyi bir örneği kabul edilebilir. Bazı yanlış ve eksikliklerine rağmen, günümüzde bile müracaat kitabı olma özelliğini koruyan eser, ilk iki cildi 1299, son beş cildi ise 1300 tarihinde olmak üzere, yedi cilt halinde İstanbul’da basılmıştır. Ahmed Rifat Efendi’nin diğer eserleri şunlardır: 1. Nakdü’t-tevârîh . Yaratılıştan 1878 yılına kadar gelen bir genel tarihtir. Kronolojik olarak özet bilgiler veren bir el kitabı olup kaynak eser niteliğini taşımamaktadır (İstanbul 1296). 2. Tasvîr-i Ahlâk . Alfabetik bir ahlâkî terimler sözlüğüdür (İstanbul 1305). Eser, aynı zamanda Latin harfleriyle de neşredilmiştir (İstanbul 1975). 3. Bergüzâr . Kınalızâde’nin Ahlâk-ı Alâî ’sinden özetlediği bir kitaptır (Hanya 1291). Bu eser Bergüzâr-ı Ahlâk adıyla iki kere daha basılmıştır (İstanbul 1315, 1318). Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 130-131 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-rifat-efendi-yaglikcizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-rifat-efendi-yaglikcizade, https://islamansiklopedisi.org.tr/ahmed-rifat-efendi-yaglikcizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-rifat-efendi-yaglikcizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-rifat-efendi-yaglikcizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:03Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-rifat-efendi-yaglikcizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1895,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ahmed-rifat-efendi-yaglikcizade, URL: https://islamansiklopedisi.org.tr/ahmed-rifat-efendi-yaglikcizade || DİA birth place: İstanbul || DİA death place: Fatih || DİA death-date string: (ö. 1895) || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

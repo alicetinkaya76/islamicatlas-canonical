@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00018173",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Badr al-Dīn al-Ghāzī",
+      "tr": "Bedreddin el-Ğâzî",
+      "ar": "بدر الدين الغزي"
+    },
+    "originalScript": {
+      "ar": "بدر الدين الغزي"
+    },
+    "description": {
+      "tr": "Şâfiî fıkıh âlimi, usûl, tefsir ve hadis ilimlerinde alim",
+      "en": "Shāfiʿī jurist, scholar in jurisprudential principles, exegesis, and hadith"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad b. Muhammad b. Muhammad al-Ghāzī al-ʿĀmirī al-Dimashqī, Abū al-Barakāt, Badr al-Dīn Ibn Radī al-Dīn"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Muhammed b. Muhammed el-Ğâzî el-Âmerî ed-Dımaşkî, Ebü'l-Bereket, Bedreddin İbn Radî'uddîn"
+      ],
+      "ar": [
+        "محمد بن محمد بن محمد الغزي العامري الدمشقي، أبو البركات، بدر الدين ابنرضي الدين"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:11220",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11220",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:15Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=11220 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:11220."
+      },
+      {
+        "change_type": "deprecate",
+        "note": "h22_003 kişi-dublet birleştirme: aynı normalize Arapça ad 'بدر الدين الغزي' + aynı ölüm (984 AH / 1577 CE) + ayrık kaynaklar; iac:person-00002862 lehine emekli. PID korunur, geri alınabilir (h22_003 --restore).",
+        "changed_at": "2026-07-20T14:37:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854"
+      }
+    ],
+    "deprecated": true,
+    "deprecated_in_favor_of": "iac:person-00002862"
+  },
+  "death_temporal": {
+    "start_ah": 984,
+    "start_ce": 1577,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11220, heading_ar=بدر الدين الغزي || Ziriklī century_ce=16 || Ziriklī place coords (city/region of activity): 33.51, 36.28",
+  "authored_works": [
+    "iac:work-00003118",
+    "iac:work-00007225",
+    "iac:work-00007668",
+    "iac:work-00008218"
+  ],
+  "kunya": "أبو البركات"
+}

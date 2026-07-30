@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00002551",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ERKAM b. EBÜ’l-ERKAM",
+      "ar": "الأرقم بن أبي الأرقم"
+    },
+    "originalScript": {
+      "ar": "الأرقم بن أبي الأرقم"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh el-Erkam b. Ebi’l-Erkam Abdimenâf b. Esed el-Kureşî"
+      ]
+    },
+    "description": {
+      "tr": "Milâdî 594 yılı civarında doğduğu anlaşılmaktadır. Mekke’nin nüfuzlu ve zengin ailelerinden Benî Mahzûm’a mensup olan Erkam’ın İslâmiyet’i kabul etmeden önceki hayatı hakkında bilgi yoktur. Hilfü’l-fudûl ’e katıldığına dair rivayetler ise sağlam değildir. Babası Abdümenâf’ın da müslüman olduğu ve Hz. Ebû Bekir’le aynı gün vefat ettiği söylenmektedir. Kureyş’in Benî Sehm kolundan olan annesi Tümâdır (Ümeyme) bint Hizyem (Abdülhâris) İslâm’a ilk giren kadın sahâbîlerdendi. On yedi on sekiz yaşlarında İslâmiyet’i kabul eden Erkam’ın ilk müslümanlar arasında yedinci veya on ikinci sırayı aldığı belirtilmektedir. Hz. Peygamber’e sadakatle bağlanarak evini onun emrine verdi. Resûl-i Ekrem, İslâm tarihinde Dârülerkam diye anılacak olan bu evi tebliğ faaliyeti için çok elverişli bularak merkez haline getirdi. Medine’ye ilk hicret edenler arasında yer alan Erkam ile Ebû Talha Zeyd b. Sehl el-Ensârî arasında kardeşlik bağı ( muâhât ) kuruldu ve burada kendisine bir ev verildi. Bedir, Uhud, Hendek gibi önemli gazvelerin hepsine katıldı. Bedir Gazvesi’nde Mekkeliler’den ganimet olarak alınan ve “merzübân” diye anılan kılıcı Hz. Peygamber ona verdi. Okuma yazma bildiği için Hz. Peygamber’in vahiy kâtipleri arasında yer alan Erkam Resûl-i Ekrem tarafından zekât memurluğuna tayin edildi. Erkam Medine’de vefat etti ve cenaze namazını vasiyeti üzerine Sa‘d b. Ebû Vakkās kıldırdı. 53’te (673) öldüğü de rivayet edilmektedir. Onun Ahmed b. Hanbel’in el-Müsned ’inde bir hadisi bulunmaktadır. Zühreoğulları’na mensup aynı adı taşıyan bir başka sahâbî daha vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 305 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:erkam-b-ebul-erkam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=erkam-b-ebul-erkam, https://islamansiklopedisi.org.tr/erkam-b-ebul-erkam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:erkam-b-ebul-erkam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/erkam-b-ebul-erkam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:02Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=erkam-b-ebul-erkam (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 55,
+    "start_ce": 675,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=erkam-b-ebul-erkam, URL: https://islamansiklopedisi.org.tr/erkam-b-ebul-erkam || DİA death place: Medine || DİA death-date string: (ö. 55/675) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

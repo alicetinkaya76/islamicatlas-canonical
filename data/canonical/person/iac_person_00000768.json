@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00000768",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahmed Celâleddin Dede"
+    },
+    "description": {
+      "tr": "Gelibolu’da doğdu. Gelibolu Mevlevîhânesi şeyhi Hüseyin Azmi Dede’nin oğludur. 1870’te babası Mısır Mevlevîhânesi’ne tayin edilince onunla birlikte Mısır’a gitti. Orada bir yandan Câmiu’l-Ezher’e devam ederken bir yandan da bazı hocalardan özel dersler aldı; dergâhta da edebiyat ve mûsiki bilgisini ilerletti. Bu arada klasik mûsiki ile Mevlevî âyin ve na‘tlarını, ayrıca Mısır hidivinin kölesi neyzen Mehmed Subhi Bey’den ney üflemesini öğrendi. Manastırlı Nâilî Efendi’den Farsça dersleri aldı. 1873’te yirmi yaşlarında çileye girdi. Çilesini tamamladıktan sonra bir süre Kahire Mevlevîhânesi’nde kudümzenbaşılık ve neyzenbaşılık yaptı; devrin seçkin neyzenleri arasına katıldı. 1893’te babasının ölümü üzerine İstanbul’a geldi. Üsküdar’daki evinde uzunca bir süre münzevi bir hayat yaşadı. 1908 yılında önce vekâleten, daha sonra asaleten Üsküdar Mevlevîhânesi’ne şeyh ve mesnevîhan oldu. 1910’da Atâullah Efendi’nin vefatı ile Galata Mevlevîhânesi şeyhliğine ve mesnevîhanlığına getirildi. Tekkelerin kapatılmasına kadar (30 Kasım 1925) bu görevi yürüttü. Soyadı kanunundan sonra Baykara soyadını alan Ahmed Celâleddin Dede’nin kabri Karacaahmet Mezarlığı’nda Miskinler Tekkesi’nin arkasındadır. Mesnevîhan olarak uzun müddet Mes̱nevî okutan, derin bir tasavvuf bilgisi yanında geniş mûsiki bilgisine de sahip olan Ahmed Celâleddin Dede na‘thanlık da yapmıştır. Kaynaklarda, Hamparsum ve Batı notalarını da çok iyi bildiği ve kıymetli bir nota koleksiyonuna sahip bulunduğu da belirtilmektedir. Genç yaştan itibaren şiir ve edebiyatla da meşgul olmuş, ancak bir divançe doldurabilecek sayıdaki şiirlerini ise bir araya getirmemiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 53 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-celaleddin-dede",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-celaleddin-dede, https://islamansiklopedisi.org.tr/ahmed-celaleddin-dede",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:52Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-celaleddin-dede (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1853,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ahmed-celaleddin-dede, URL: https://islamansiklopedisi.org.tr/ahmed-celaleddin-dede || DİA birth place: Gelibolu || DİA death-date string: (1853-1946) || DİA categories: tasavvuf > şiir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005379"
+  ],
+  "students": [
+    "iac:person-00001693",
+    "iac:person-00007684",
+    "iac:person-00007693"
+  ]
+}

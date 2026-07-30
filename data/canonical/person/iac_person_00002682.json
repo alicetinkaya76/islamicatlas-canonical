@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00002682",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FÂTIMA bint ESED",
+      "ar": "فاطمة بنت أسد"
+    },
+    "originalScript": {
+      "ar": "فاطمة بنت أسد"
+    },
+    "altLabel": {
+      "tr": [
+        "Fâtıma bint Esed b. Hâşim b. Abdimenâf el-Kureşiyye el-Hâşimiyye"
+      ]
+    },
+    "description": {
+      "tr": "Kocası Ebû Tâlib amcasının oğludur. Annesi, Âmir b. Lüey oğullarından Hubey bint Herem b. Revâha el-Kureşiyye’dir. Ebû Tâlib’den Tâlib, Akīl, Ca‘fer ve Ali adında dört oğlu; Ümmü Hânî, Cümâne adında iki kızı, bazı siyer âlimlerine göre ise Reyta ve Esmâ ile birlikte dört kızı dünyaya gelmiştir. Hz. Peygamber, dedesinin ölümünden sonra amcası Ebû Tâlib tarafından himaye edilince Fâtıma ona sekiz yaşından itibaren annelik yaptı. Resûl-i Ekrem’in belirttiğine göre kendi çocuklarından önce onu doyurup gözetirdi. Bununla beraber Resûl-i Ekrem’e peygamberlik geldiği zaman hemen müslüman olmadı. Hatta oğlu Ali’nin Mekke’nin Ciyâd mahallesinde Hz. Peygamber’le birlikte namaz kıldığını duyunca telâşlandı ve kocasına oğlunun bu davranışını uygun görüp görmediğini sordu. Ebû Tâlib de bunu normal karşıladığını, amcasının oğluna arka çıkmasının ve ona yardımcı olmasının herkesten çok Ali’ye düştüğünü söyledi. Ebû Tâlib’in ölümünden hemen sonra ve hicretten yaklaşık iki yıl önce Fâtıma’nın İslâmiyet’i kabul ettiği ve Medine’ye ilk hicret eden kadın sahâbîlerden olduğu tahmin edilmektedir. Oğlu Ali Resûlullah’ın kızı Fâtıma ile evlenince geliniyle aynı evde yaşamaya başladı. Hz. Peygamber yengesinin iyiliklerini hiç unutmaz, onu Medine’deki evinde ziyaret eder ve zaman zaman orada öğle uykusuna yatardı (İbn Sa‘d, VIII, 222). Resûl-i Ekrem’in “annemden sonra annem” dediği Fâtıma bint Esed hicretin ilk yıllarında, bazı tarihçilere göre dördüncü yılda (Köksal, İslâm Tarihi [Medine], IV, 135) Medine’de vefat etti. Onun ölümüne üzülen Hz. Peygamber sırtındaki gömleği çıkarıp ona kefen yaptı, cenaze namazını kıldırdı ve cenazesinin üzerine yetmiş tekbir aldı. Kabrinin kazılmasıyla da bizzat ilgilendi. Fâtıma bint Esed, Hâşimoğulları soyundan ilk erkek çocuğu dünyaya getiren Hâşimî ve bu soydan gelen ilk halifenin annesi olmakla meşhurdur (Zübeyrî, s. 40). Bu soydan gelen diğer halifelerin anneleri, Hz. Hasan’ın annesi Hz. Fâtıma ile Hârûnürreşîd’in hanımı ve Halife Emîn’in annesi Zübeyde’dir (İbnü’l-Esîr, VII, 217). Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 225 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:fatima-bint-esed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=fatima-bint-esed, https://islamansiklopedisi.org.tr/fatima-bint-esed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:8136",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8136, heading_ar=فاطمة بنت أسد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:03Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=fatima-bint-esed (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8136]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8136 (heading_ar=فاطمة بنت أسد) via Track A (DİA→Alam xref bridge). dt=İlk Hâşimiyye kadın ki bir halifenin anasıdır."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 4,
+    "start_ce": 625,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=fatima-bint-esed, URL: https://islamansiklopedisi.org.tr/fatima-bint-esed || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8136] || DİA death place: Medine || DİA death-date string: (ö. 4/625-26 [?]) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=8136, heading_ar=فاطمة بنت أسد, dt=İlk Hâşimiyye kadın ki bir halifenin anasıdır."
+}

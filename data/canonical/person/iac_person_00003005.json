@@ -1,0 +1,87 @@
+{
+ "@id": "iac:person-00003005",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "HADDÂD, Ebû Bekir",
+   "ar": "أبو بكر الحدّاد"
+  },
+  "originalScript": {
+   "ar": "أبو بكر الحدّاد"
+  },
+  "altLabel": {
+   "tr": [
+    "Radıyyüddîn Ebû Bekr b. Alî b. Muhammed el-Haddâd"
+   ]
+  },
+  "description": {
+   "tr": "Yemen’de Zebîd’in bir köyü olan Abbâdiye’de doğdu. Haddâdî nisbesiyle de anılır. Babasından, ayrıca Ali b. Nûh, Ali b. Ömer el-Alevî ve Ebû Bekir b. Ali el-Hâmilî’den ders okudu. Kendisi de Zebîd’de birçok ilim adamı yetiştirdi. el-ʿAḳīḳu’l-Yemânî ’nin müellifi Abdullah b. Ali ed-Damedî, Yemenli âlimlerden Hanefî mezhebine dair en çok eser veren kişinin Haddâd olduğunu söyler. Şevkânî de onun eserlerinin yirmi cildi bulduğunu kaydeder. Haddâd 6 Cemâziyelevvel 800’de (25 Ocak 1398) Zebîd’de vefat etti ve orada defnedildi. Eserleri. 1. es-Sirâcü’l-vehhâc . Kudûrî’nin el-Muḫtaṣar ’ına yaptığı şerh olup sekiz cilttir (yazma nüshaları için bk. Brockelmann, GAL , I, 183; Sezgin, I, 454). Kâtib Çelebi, Birgivî’nin bu kitabı muteber olmayan eserlerden saydığını söyler ( Keşfü’ẓ-ẓunûn , II, 1631). Ahmed b. Muhammed b. İkbâl, eserdeki tekrarları çıkararak meydana getirdiği kitaba el-Baḥrü’z-zâḫir adını vermiştir ( a.g.e. , II, 1631). 2. el-Cevheretü’n-neyyire . es-Sirâcü’l-vehhâc ’ın muhtasarı olup iki cilt halinde yayımlanmıştır (İstanbul 1301, 1306, 1314, 1316, 1321 (1323); Kahire 1322; Delhi 1327; Lahor 1328). 3. Sirâcü’ẓ-ẓalâm ve bedrü’t-tamâm . Müellifin hocalarından Hâmilî’nin fıkha dair Dürrü’l-mühtedî ve ẕuḫrü’l-muḳtedî adlı manzumesinin şerhidir (Süleymaniye Ktp., İzmir, nr. 195, Lâleli, nr. 1051; ayrıca bk. Brockelmann, GAL Suppl. , I, 646). 4. en-Nûrü’l-müstenîr . Necmeddin en-Nesefî’nin hilâf konusundaki Manẓûmetü’n-Nesefiyye ’sinin şerhidir ( a.g.e. , I, 761). 5. Keşfü’t-tenzîl fî taḥḳīḳi’l-mebâḥis̱ ve’t-teʾvîl . Kur’ân-ı Kerîm’in bir tefsiridir (Süleymaniye Ktp., Ayasofya, nr. 190, Fâtih, nr. 396, 397, Esad Efendi, nr. 150, Lâleli, nr. 154, Süleymaniye, nr. 125, Musallâ Medresesi, nr. 1910/11, Çorlulu Ali Paşa, nr. 29; ayrıca bk. Brockelmann, GAL , II, 241; Suppl. , II, 250, 985). Şevkânî, bu eserin kendi çağında Tefsîrü’l-Ḥaddâd diye meşhur olduğunu yazmaktadır. 6. Şerḥu Kitâbi’n-Nafaḳāt (Süleymaniye Ktp., Esad Efendi, nr. 3729/29). 7. Şerḥu Ḳaydi’l-evâbid fi’l-luġa . İsmâil b. İbrâhim er-Rabaî’nin kasidesinin şerhidir ( Keşfü’ẓ-ẓunûn , II, 1367). 8. er-Raḥîḳu’l-maḫtûm . Fıkha dair Ḳaydü’l-evâbid adlı eserin şerhidir ( a.g.e. , II, 1367). Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 553 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "dia:haddad-ebu-bekir",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA, slug=haddad-ebu-bekir, https://islamansiklopedisi.org.tr/haddad-ebu-bekir",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+   },
+   {
+    "source_id": "dia-chunks-v8:haddad-ebu-bekir",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA chunks (per-slug aggregated), slug=haddad-ebu-bekir",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_dia",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:34:08Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:34:08Z",
+  "modified": "2026-05-17T07:06:22Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:34:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from DİA slug=haddad-ebu-bekir (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-17T07:06:22Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0",
+    "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=haddad-ebu-bekir)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3005-9898) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00009898 lehine yumuşak-silindi. Gerekçe: Yemenli Hanefî fakihi Ebû Bekir el-Haddâd ile A‘lâm'ın \"el-Haddâd\" kaydı nisbe, yıl (1397/1398) ve Zebîd koordinatında örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00009898"
+ },
+ "laqab": [
+  "Hanefî (mezhep)"
+ ],
+ "death_temporal": {
+  "start_ah": 800,
+  "start_ce": 1398,
+  "approximation": "exact"
+ },
+ "note": "DİA cross-reference: slug=haddad-ebu-bekir, URL: https://islamansiklopedisi.org.tr/haddad-ebu-bekir || DİA birth place: Abbâdiye || DİA death place: Zebîd || DİA death-date string: (ö. 800/1398) || DİA categories: tefsir > mezhep || Chunk count: 1"
+}

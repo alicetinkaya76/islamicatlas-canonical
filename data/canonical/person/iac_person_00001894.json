@@ -1,0 +1,98 @@
+{
+  "@id": "iac:person-00001894",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CÛZCÂNÎ, Ebû Süleyman",
+      "ar": "أبو سليمان الجوزجاني"
+    },
+    "originalScript": {
+      "ar": "أبو سليمان الجوزجاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Süleymân Mûsâ b. Süleymân el-Cûzcânî el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "Belh’in Cûzcân bölgesinden olup Bağdat’ta yetişti. Ebû Yûsuf ve Muhammed b. Hasan eş-Şeybânî’nin talebesi, Muallâ b. Mansûr’un ders arkadaşı idi. Hanefî mezhebinin temel kitaplarını bu hocalarından rivayet etti. Nitekim Şeybânî’nin el-Aṣl ( el-Mebsûṭ ) adlı eserinin nüshaları içinde en güvenilir olanı Cûzcânî’nin rivayet ettiği nüshadır. Bu hocalarından başka Abdullah b. Mübârek ve Amr b. Cümey‘den hadis rivayet eden Cûzcânî’den Ebû Hâtim er-Râzî, Kadı Ahmed b. Muhammed el-Birtî, Bişr b. Mûsâ el-Esedî ve Abdullah b. Hasan el-Hâşimî gibi âlimler rivayette bulunmuşlardır. Halife Me’mûn’un kadılık teklifini, sinirli bir kişi olduğunu ve bundan dolayı kadılık yapmasının uygun olmayacağını ileri sürerek kabul etmedi. Cûzcânî takvâ sahibi, re’y yönü kuvvetli bir fakihti. Ebû Hâtim er-Râzî onun hakkında “sadûk” ifadesini kullanır. Kur’an’ın mahlûk olduğu görüşüne karşı çıkmış, hatta bu görüşü benimseyenleri tekfir etmiştir. 200’de (816) veya daha sonraki bir tarihte vefat etti. Eserleri. İbnü’n-Nedîm Cûzcânî’nin eseri bulunmadığını, sadece Muhammed b. Hasan eş-Şeybânî’nin kitaplarını rivayet ettiğini belirtirken diğer kaynaklarda es-Siyerü’ṣ-ṣaġīr , Kitâbü’ṣ-Ṣalât , Kitâbü’r-Rehn ve Nevâdirü’l-fetâvâ adlı eserleri yazdığı kaydedilir. Serahsî el-Uṣûl ’ünde Cûzcânî’nin Nevâdirü’l-fetâvâ ’sından bahseder (I, 34). Taberî de İḫtilâfü’l-fuḳahâʾ da (meselâ bk. s. 25, 27, 33, 40, 44) Hanefîler’in görüşünü verirken çok defa bunu Cûzcânî’nin Muhammed eş-Şeybânî’den naklettiğine işaret eder ki bu nakilleri muhtemelen Nevâdirü’l-fetâvâ ’dan yapmıştır (yazma nüshası için bk. Sezgin, I, 433). Kâtib Çelebi ona Kitâbü’l-Ḥiyel adlı bir eser isnat etmekteyse de ( Keşfü’ẓ-ẓunûn , II, 1415) Cûzcânî’nin, aynı adlı bir kitabın Şeybânî tarafından yazıldığı hususuna itiraz ederken ileri sürdüğü gerekçeler (bk. Serahsî, el-Mebsûṭ , XXX, 209) dikkate alındığında kendisinin böyle bir eser yazmış olması şüpheli görünmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 98 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cuzcani-ebu-suleyman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cuzcani-ebu-suleyman, https://islamansiklopedisi.org.tr/cuzcani-ebu-suleyman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:cuzcani-ebu-suleyman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=cuzcani-ebu-suleyman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:49Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cuzcani-ebu-suleyman (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=cuzcani-ebu-suleyman)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cûzcânî; Bağdâdî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 200,
+    "start_ce": 816,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cuzcani-ebu-suleyman, URL: https://islamansiklopedisi.org.tr/cuzcani-ebu-suleyman || DİA death place: 200 || DİA death-date string: (ö. 200/816 [?]) || DİA categories: rivayet > hadis > mezhep || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000524",
+    "iac:person-00002303",
+    "iac:person-00006936"
+  ],
+  "students": [
+    "iac:person-00001892"
+  ]
+}

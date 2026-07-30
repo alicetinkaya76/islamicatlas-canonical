@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00000285",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Shams al-Din al-Samarqandi",
+      "tr": "Şemseddîn es-Semerkandî",
+      "ar": "شمس الدين السمرقندي"
+    },
+    "originalScript": {
+      "ar": "شمس الدين السمرقندي"
+    },
+    "altLabel": {
+      "en": [
+        "Shams al-Din Muhammad ibn Ashraf al-Husayni al-Samarqandi"
+      ],
+      "tr": [
+        "Şemseddîn Muhammed b. Eşref el-Hüseynî es-Semerkandî"
+      ],
+      "ar": [
+        "شمس الدين محمد بن أشرف الحسيني السمرقندي"
+      ]
+    },
+    "description": {
+      "tr": "Geometri ders kitabı Eşkâlü't-Te'sîs dört yüzyıl boyunca İslam eğitiminde standart Öklid geometrisi referansı oldu || Mantık risalesi Kıstâsü'l-Efkâr ve geometri ders kitabı birlikte yüzyıllar boyunca İslam dünyasındaki matematik ve mantık müfredatını şekillendirdi. || [Tarih notu] İslam entelektüel tarihinin en etkili ders kitabı yazarlarından biri, ancak uzman çevreleri dışında nadiren tartışılır.",
+      "en": "His geometry textbook Ashkal al-Ta'sis became the standard Euclidean geometry reference in Islamic education for four centuries — with commentaries by Qadi Zada and others || His logic treatise Qistas al-Afkar and geometry textbook together shaped the mathematical and logical curriculum across the Islamic world for centuries. || [Historiographical note] One of the most influential textbook authors in Islamic intellectual history, yet rarely discussed outside specialist circles.",
+      "ar": "أصبح كتابه أشكال التأسيس المرجع القياسي لهندسة إقليدس في التعليم الإسلامي لأربعة قرون || شكّل كتابه في المنطق وكتابه في الهندسة معاً منهج الرياضيات والمنطق عبر العالم الإسلامي"
+    }
+  },
+  "profession": [
+    "mathematician",
+    "philosopher",
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0102",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0102",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:57:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:57:43Z",
+    "modified": "2026-05-04T14:57:43Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:57:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0102 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1250,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1322,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q2031579",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Shams al-Din al-Samarqandi')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0102, lecture_week=n/a. || Key works: {'title': {'en': 'Ashkāl al-Taʾsīs', 'tr': \"Eşkâlü't-Te'sîs\", 'ar': 'أشكال التأسيس'}, 'year': 1276, 'field': 'mathematics', 'significance': {'en': 'Geometry textbook that became the standard reference for Euclidean geometry in Islamic madrasas for 400 years', 'tr': '400 yıl boyunca İslam medreselerinde Öklid geometrisi için standart referans haline gelen geometri ders kitabı'}} || Modern parallel: Like a professor whose textbook becomes the standard in every university for centuries — shaping how generations think about geometry.",
+  "authored_works": [
+    "iac:work-00000142",
+    "iac:work-00000226"
+  ]
+}

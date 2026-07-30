@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00001766",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CEMÂLEDDÎN-i İSFAHÂNÎ",
+      "ar": "جمال الدين اصفهاني"
+    },
+    "originalScript": {
+      "ar": "جمال الدين اصفهاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Abdirrezzâk-ı İsfahânî"
+      ]
+    },
+    "description": {
+      "tr": "Bazı tezkirelerde adı yanlış olarak Abdürrezzâk diye geçer. Eserlerindeki kayıtlardan kuyumcu ve ressam (nakkaş) olduğu anlaşılmaktadır. Bu ikinci mesleğinden dolayı kendisine Cemâl-i Nakkāş da denilmiştir. Öğrenim durumu hakkında kaynaklarda yeterli bilgi bulunmamakla birlikte eserlerinden iyi bir din ve edebiyat öğrenimi gördüğü belli olmaktadır. Hayatının büyük bir kısmını İsfahan’da geçirdi. Genç yaşta şiir yazmaya başladı ve özellikle kasideleriyle ün yaptı. Kasideleri edebî bakımdan olduğu kadar tarihî yönden de değer taşımaktadır. Cemâleddin, Selçuklular’dan Arslan b. Tuğrul ile oğlu II. Tuğrul, İldenizoğulları’ndan Muhammed Cihan Pehlivan ve İsfahan’da Saîdoğulları’ndan Rükneddin Saîd, Kıvâmüddin Saîd, Sadreddin b. Kıvâmüddin Saîd ile Hucendoğulları’ndan Sadreddîn-i Hucendî ve Cemâleddîn-i Hucendî hakkında kasideler yazmıştır. Çağdaşları Hâkānî-i Şirvânî, Evhadüddîn-i Enverî, Reşîdüddin Vatvât ve Zahîr-i Fâryâbî gibi ünlü şairler hakkında da şiirleri bulunmaktadır. Cemâleddîn-i İsfahânî özellikle kaside alanında Hâkānî ve Enverî’yi örnek almış, ancak onların seviyesine erişememiştir. Şiirlerinde Senâî gibi zühd ve takvâya yer vermekle birlikte bunlara felsefî ve tasavvufî bir değer katamamış, bu alanda da Senâî’ye ulaşamamıştır. Buna karşılık gazel, tercî ve terkibibend, kıta ve rubâî türlerinde oldukça başarılıdır. Nitekim VII. (XIII.) yüzyılda gazel türünün en ünlü simalarından olan Sa‘dî-yi Şîrâzî bu hususta onun tesiri altında kalmıştır. Cemâleddin’in divanı birçok defa basılmıştır (Tahran 1316 hş., 1320 hş., 1340 hş., ts.; Bombay 1341). Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 311 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cemaleddin-i-isfahani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cemaleddin-i-isfahani, https://islamansiklopedisi.org.tr/cemaleddin-i-isfahani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-05-04T15:33:47Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cemaleddin-i-isfahani (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 588,
+    "start_ce": 1192,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cemaleddin-i-isfahani, URL: https://islamansiklopedisi.org.tr/cemaleddin-i-isfahani || DİA death-date string: (ö. 588/1192) || DİA categories: şiir > tasavvuf || Chunk count: 1"
+}

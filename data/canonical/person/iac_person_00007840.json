@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00007840",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ZEYD b. HATTÂB",
+      "ar": "زيد بن الخطّاب"
+    },
+    "originalScript": {
+      "ar": "زيد بن الخطّاب"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdirrahmân Zeyd b. el-Hattâb b. Nüfeyl el-Kureşî el-Adevî"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Ömer’in baba bir kardeşi olup annesi Benî Esed kabilesinden Esmâ bint Vehb’dir. Zeyd, Ömer’den büyüktür ve İslâm’ı da ondan önce kabul etmiştir. Medine’ye ilk hicret edenler arasında yer aldı; Resûl-i Ekrem kendisini ensardan Ma‘n b. Adî el-Aclânî ile kardeş ilân etti. Bedir, Uhud, Hendek gazveleriyle diğer bütün savaşlara katıldı; Hudeybiye’de yapılan Bey‘atürrıdvân’da bulundu. Çok uzun boylu ve cesur bir kişi olan Zeyd, Uhud Gazvesi’nde Ömer’in ısrarla verdiği zırhı önce giydi, ardından, “Senin arzu ettiğin şehidliği ben de istiyorum” diyerek zırhı çıkardı ve onun gibi zırhsız savaştı (İbn Sa‘d, III, 378). Hz. Ebû Bekir devrinde irtidad eden Müseylime üzerine Hâlid b. Velîd kumandasında gönderilen ordu içinde Yemâme Savaşı’na katıldı. Çarpışmalarda gösterdiği büyük gayret savaşın seyrini değiştirdi. Müseylime’nin yakınına kadar giderek en yakın adamı olan Reccâl’i öldürdü. Reccâl daha önce müslüman olup hicret etmiş, ardından irtidad ederek Müseylime’nin yanına gitmiş, Resûl-i Ekrem’in, “Peygamberlikte Müseylime bana ortaktır” dediği şeklinde yalanlar uydurmuş ve insanları Müseylime’nin çevresinde toplamaya çalışmıştır. Yemâme’de İslâm sancağını taşıyan Zeyd, müslüman ordusunun bozulmaya yüz tutup savaş meydanını terketmeye başladığını görünce düşman saflarına daldı ve şehid oluncaya kadar çarpıştı (Rebîülevvel 12 / Mayıs-Haziran 633). Onun şehâdetine çok üzülen Hz. Ömer sonraları, “Sabâ rüzgârı her estikçe Zeyd’in kokusunu alıyorum” diyerek ona olan hasretini dile getirir, “Allah kardeşim Zeyd’e rahmet etsin; o iki güzellikte de beni geçti; hem benden önce müslüman oldu hem de benden önce şehid düştü” derdi (Zehebî, I, 298). Buhârî ve Müslim’in el-Câmiʿu’ṣ-ṣaḥîḥ ’lerinde Zeyd’den, yeğeni Abdullah b. Ömer tarikiyle evlerde yaşayan zararsız yılanların öldürülmesini meneden bir hadis nakledilmiştir (Buhârî, “Bedʾü’l-ḫalḳ”, 14; Müslim, “Selâm”, 128-130). Ahmed b. Hanbel el-Müsned ’ine Abdurrahman b. Zeyd’in babasından rivayet ettiği, kölelerin hukukuna özen gösterilmesini tavsiye eden bir hadis almıştır (IV, 36). Zeyd’in kızı Esmâ’nın da temel hadis kaynaklarında rivayetleri vardır. Muhadram sahâbî ve şair Mütemmim b. Nüveyre, Hz. Ömer ve Zeyd hakkında mersiyeler yazmıştır. Zeyd’in XVIII. yüzyılın ortalarına kadar ayakta duran türbesi hac kafileleri tarafından ziyaret edilirdi."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:zeyd-b-hattab",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=zeyd-b-hattab, https://islamansiklopedisi.org.tr/zeyd-b-hattab",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:zeyd-b-hattab",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/zeyd-b-hattab",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:3776",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3776, heading_ar=زيد بن الخطاب",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:09Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:09Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=zeyd-b-hattab (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3776]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3776 (heading_ar=زيد بن الخطاب) via Track A (DİA→Alam xref bridge). dt=Sahabe, Cahiliye ve İslam'da Arap erbainin en cesarelilerinden biri"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Adevî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 12,
+    "start_ce": 633,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=zeyd-b-hattab, URL: https://islamansiklopedisi.org.tr/zeyd-b-hattab || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3776] || DİA death-date string: (ö. 12/633) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3776, heading_ar=زيد بن الخطاب, dt=Sahabe, Cahiliye ve İslam'da Arap erbainin en cesarelilerinden biri"
+}

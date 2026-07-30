@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00001053",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMR b. MÜRRE",
+      "ar": "عمرو بن مرة"
+    },
+    "originalScript": {
+      "ar": "عمرو بن مرة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Amr b. Mürre b. Abdillâh el-Murâdî el-Cemelî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında fazla bilgi yoktur. Abdullah b. Ebû Evfâ, Ebû Vâil, Saîd b. Müseyyeb, Saîd b. Cübeyr gibi muhaddislerden hadis öğrendi. Kendisinden de Ebû İshak es-Sebîî, A‘meş, Şu‘be b. Haccâc, Süfyân es-Sevrî gibi hadis hâfızları rivayette bulundular. İbn Abbas’tan mürsel olarak hadis rivayet eden Amr b. Mürre’nin güvenilir bir râvi olduğu hususunda münekkitler ittifak halindedir. Bazı kaynaklarda 118’de (736) vefat ettiği de ileri sürülmektedir. Talebesi meşhur muhaddis Şu‘be, Amr b. Mürre’nin çok hadis bildiğini, rivayetlerinde tedlîs yapmayan nâdir şahsiyetlerden biri olduğunu, âmâ olduğu için onu mescide bizzat kendisinin götürdüğünü ve derin bir huşû içinde namaz kılan hocasının, onu görenlere, ibadeti kabul edilene kadar Allah’ın huzurundan ayrılmayacakmış intibaını verdiğini söylemektedir. Talebelerinden Mis‘ar b. Kidâm, son derece güvenilir biri diye övdüğü ve çok sevdiğini söylediği hocası Amr gibi bir fazilet timsalinin benzerine Kûfe’de rastlamadığını ifade etmektedir. Meşhur muhaddis Abdurrahman b. Mehdî, o devirde Kûfe’de rivayetleri şüpheyle karşılanamayacak dört büyük hadis hâfızı bulunduğunu, Amr b. Mürre’nin de bunlardan biri olduğunu kaydeder. Mürciî görüşü tasvip ettiği de söylenen Amr’ın benimsediği ircâ , günahların mümine zarar vermeyeceğini iddia edenlerin görüşü değil, Selef âlimlerinin kabul ettiği mânada, günahkâr müslümanların cennete mi yoksa cehenneme mi gideceğini Allah’a havale etmek şeklindeki ircâ anlayışı olmalıdır. Zira gençliğinde yabancı bir kadına hayranlıkla baktığı için hâlâ ıstırap çektiğini, gözlerini kaybetmesinin bu günaha kefâret olmasını ümit ettiğini söyleyen bir zâhidin Mürcie mezhebini benimsemesi uzak bir ihtimaldir. Rivayetleri Kütüb-i Sitte ’de yer alan Amr b. Mürre’nin meşhur sözlerinden biri şöyledir: “Âhireti kazanmaya çalışanlar dünyayı, dünya menfaatleri peşinde koşanlar âhireti kaybederler. Ebedî olanı elde etmek için fâni olanı gözden çıkarmaya bakın.” Ebü’l-Kāsım el-Begavî’nin (ö. 317/929), Amr ile talebesi Şu‘be b. Haccâc’ı konu alan Ḥikâyâtü Şuʿbe ve ʿAmr b. Mürre adlı bir risâlesi Zâhiriyye Kütüphanesi’nde (Mecmua, nr. 21, vr. 16-21) bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 89-90 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amr-b-murre",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amr-b-murre, https://islamansiklopedisi.org.tr/amr-b-murre",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amr-b-murre (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Murâdî; Cemelî"
+  ],
+  "death_temporal": {
+    "start_ah": 116,
+    "start_ce": 734,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amr-b-murre, URL: https://islamansiklopedisi.org.tr/amr-b-murre || DİA death place: 118 || DİA death-date string: (ö. 116/734 [?]) || DİA categories: hadis > rivayet > mezhep || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000503",
+    "iac:person-00001052",
+    "iac:person-00006610",
+    "iac:person-00006629"
+  ],
+  "students": [
+    "iac:person-00001019",
+    "iac:person-00002195",
+    "iac:person-00005561",
+    "iac:person-00007106",
+    "iac:person-00007122"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "@id": "iac:person-00003140",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HAMMÂD b. İSHAK",
+      "ar": "حمّاد بن إسحاق"
+    },
+    "originalScript": {
+      "ar": "حمّاد بن إسحاق"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû İsmâîl Hammâd b. İshâk b. İsmâîl el-Ezdî el-Bağdâdî el-Mâlikî"
+      ]
+    },
+    "description": {
+      "tr": "199’da (815) Basra’da doğdu. Hammâd b. Zeyd b. Dirhem’in (ö. 179/795) soyundan olup Irak’ta Mâlikî mezhebinin yayılmasında önemli hizmeti geçen tanınmış bir aileye mensuptur. Ebü’l-Abbas İbnü’l-Muazzel’den fıkıh tahsil etti. Eserlerinden en çok faydalandığı âlim Ya‘kūb b. Şeybe’dir. Hadis ilminde sika kabul edilen Hammâd’ın bu sahadaki hocaları arasında Müslim b. İbrâhim el-Ferâhîdî, Ka‘nebî, İsmâil b. Ebû Üveys, Ebû Mus‘ab ez-Zührî ve Ebû Muhammed el-Hakemî sayılabilir. Oğlu İbrâhim, Kādî Hüseyin b. İsmâil el-Mehâmilî, Ebû Bekir Muhammed b. Ca‘fer el-Harâitî gibi muhaddisler onun talebeleri arasında yer alır. Abbâsî halifeleri yanında müstesna bir yeri olan Hammâd, Halife Mühtedî-Billâh döneminde (869-870) Bağdat kadılığı yaptı. Ekseriya fukaha ile birlikte Halife Mühtedî-Billâh’ın huzurunda bulunurdu. Ancak Mütevekkil-Alellah’ın Mekke’deki oğlu Ebû Ahmed el-Muvaffak ile olan yazışması sebebiyle halife onu kırbaçlattırdı ve bir katır üzerinde Sâmerrâ’da dolaştırıp teşhir ettikten sonra Ahvaz’a sürgüne gönderdi (255/869). Hammâd 3 Receb 267 (7 Şubat 881) tarihinde Sûs’ta vefat etti. Hammâd’ın günümüze ulaşan ve tek yazma nüshası Dârü’l-kütübi’z-Zâhiriyye’de bulunan (Mecmua, nr. 54, vr. 62-100) Teriketü’n-nebî adlı eseri Ekrem Ziyâ el-Ömerî tarafından yayımlanmıştır (Beyrut 1404/1984). Eserde Hz. Peygamber’in yiyecek ve içecekleri, sahip olduğu hayvanlar, silâhları, elbisesi, ev eşyası ve hizmetçileri hakkında bilgi verilmektedir. Hammâd’ın ayrıca el-Mühâdene ve Kitâbü’r-Red ʿale’ş-Şâfiʿî adlı iki önemli kitaptan başka diğer bazı eserler de yazdığı kaynaklarda zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 486 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hammad-b-ishak",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hammad-b-ishak, https://islamansiklopedisi.org.tr/hammad-b-ishak",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hammad-b-ishak",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hammad-b-ishak",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:3143",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3143, heading_ar=حماد بن إسحاق",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:11Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hammad-b-ishak (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3143]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3143 (heading_ar=حماد بن إسحاق) via Track A (DİA→Alam xref bridge). dt=Irak fıkıhçısı, Mâlik mezhebinin yayılmasına vesile olan kimselerden."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî; Mâlikî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 267,
+    "start_ce": 881,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hammad-b-ishak, URL: https://islamansiklopedisi.org.tr/hammad-b-ishak || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3143] || DİA birth place: Basra || DİA death place: Sûs || DİA death-date string: (ö. 267/881) || DİA categories: fıkıh > hadis > mezhep || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3143, heading_ar=حماد بن إسحاق, dt=Irak fıkıhçısı, Mâlik mezhebinin yayılmasına vesile olan kimselerden.",
+  "authored_works": [
+    "iac:work-00006516"
+  ],
+  "teachers": [
+    "iac:person-00003178",
+    "iac:person-00004559",
+    "iac:person-00004713"
+  ]
+}

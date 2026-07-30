@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00002356",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÜ’l-HASAN es-SÂİĞ",
+      "ar": "أبو الحسن الصائغ"
+    },
+    "originalScript": {
+      "ar": "أبو الحسن الصائغ"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Muhammed b. Sehl es-Sâiğ ed-Dîneverî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Aslen Dîneverli olup hayatının belli bir döneminden sonra Mısır’a giderek oraya yerleşti. Ebû Ca‘fer es-Saydelânî’nin sohbetinde bulundu. Ebû Osman el-Mağribî, Ebû Bekir ed-Dükkī ve Ebü’l-Hasan el-Karâfî gibi tanınmış sûfîlerin üstadı oldu. Müridlerinden Ebü’l-Hasan el-Mağribî onu şeyhlerin en heybetlisi olarak tanıtır. 330 (941) veya 331’de (942) Mısır’da vefat etti. Sülemî, Ebü’l-Hasan’ın sûfîlikten çok zühd ve takvâyı esas aldığını söyler. Ona göre dünya kaygılarından kurtulmanın yolu âhiret kaygısı taşımaktır. İnsan nefsinin arzularına karşı çok dikkatli olmalıdır; zira nefsini sevme kendini mahvetmeye sebep olur. Mürid dünyayı iki kere terketmelidir. Önce dünya nimetlerinden ve zevklerinden yüz çevirmeli, bunun sonucunda dünyayı terkeden kişi olarak tanınıp bu yüzden saygı görmeye başlayınca halini gizleyerek dünyaya yönelmeli ve dünya ehli arasına girmelidir. Çünkü dünyayı terkeden biri olarak tanınmak dünyaya yönelmekten daha büyük günahtır. Hakkın dostlarından dert ve belâ eksik olmaz. Sevenler sevgililerine duydukları özlem ateşi içinde cennetliklerin cennette aldıkları zevkten daha fazla haz alırlar. Mârifet daima Allah’ın lutfunu görmektir. Ona göre sûfînin zaman zaman yaşadığı haller şimşek parıltısı gibi geçicidir. Mârifet sahibi sûfî her şeyde iyiliği görmeli, kendisine verilen nimetlerin şükrünü eda etmekten âciz olduğunu idrak etmeli, kendini kudret ve kuvvet sahibi görmekten kaçınmalıdır. Ebü’l-Hasan es-Sâiğ tevhid konusunda görünmeyeni (Allah) görünene (âlem) kıyas etmenin yanlış olduğu kanaatindedir. Çünkü görünen yani eşi ve benzeri bulunan bir şey, sıfatları görülmeyen ve eşsiz olan bir varlığa benzetilemez. Ebü’l-Hasan’ın, “Mürid kimdir ve özellikleri nelerdir?” sorusuna cevap olarak Tevbe sûresinin, “Yeryüzü genişliğine rağmen onlara dar gelmiş, vicdanları kendilerini sıktıkça sıkmıştı. Nihayet Allah’ın azabından yine O’na sığınmaktan başka çare olmadığını anlamışlardı” meâlindeki 118. âyetini okuduğu nakledilir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 323 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebul-hasan-es-saig",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebul-hasan-es-saig, https://islamansiklopedisi.org.tr/ebul-hasan-es-saig",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:58Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebul-hasan-es-saig (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Dîneverî"
+  ],
+  "death_temporal": {
+    "start_ah": 330,
+    "start_ce": 941,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebul-hasan-es-saig, URL: https://islamansiklopedisi.org.tr/ebul-hasan-es-saig || DİA death place: Mısır || DİA death-date string: (ö. 330/941 [?]) || DİA categories: kıyas > astronomi || Chunk count: 1",
+  "students": [
+    "iac:person-00006376"
+  ]
+}

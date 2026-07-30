@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00004732",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KARABEG, Mustafa Sıdkı"
+    },
+    "description": {
+      "tr": "Hersek vilâyetinin (Hercegovina) başşehri Mostar’da doğdu. Babası, Mostar’da Karabeg ailesine mensup Hacı Ahmed Efendi, dedesi İbrâhim Efendi’dir. İlk ve orta öğrenimini Mostar’da tamamladı. 1851’de öğrenim için İstanbul’a gitti. Burada ders gördüğü hocaları arasında Sultan Abdülaziz dönemi şeyhülislâmlarından olan Amasyalı Mevlâ Halil de bulunuyordu. 1855 yılına kadar İslâmî ilimlerdeki tahsilini tamamladı ve aynı yıl memleketine döndü. Bu dönemde, İstanbul’da bulunan hemşerisi Yûsuf Efendi Alajbegović’in tavsiyesiyle henüz yirmi beş yaşında iken Mostar müftülüğü görevine tayin edildi (1857). Müftülük göreviyle beraber Mostar’daki Karagöz Bey Medresesi’nde başmüderrislik yaptı. Bu arada tefsir, hadis, hikmet-i teşrî‘, mantık, kelâm, İslâm hukuku ve Arap dili ve edebiyatı gibi dersler verdi. 1876’da I. Meclis-i Meb‘ûsan’da Bosna-Hersek milletvekili oldu. Bosna-Hersek bölgesi Batı devletleri tarafından Avusturya-Macaristan Krallığı himayesine verilince yeni işgal güçlerine karşı gelip gelmeme konusunda Mostar halkı arasında başlayan tartışmada Mustafa Sıdkı bunlara karşı gelinmemesi görüşünü benimsemişti. Bu münasebetle yaptığı konuşmada Bosna-Hersek bölgesinin Osmanlı himayesinde iken bile Karadağ çeteleri karşısında çaresiz kaldığını, Avusturya gibi güçlü bir devletin himayesine verildikten sonra halkın bu devletin güçlü askerine karşı koyamayacağını belirtmişti (Bračković, s. 61). Ancak Mostar’daki bazı hocalar buna karşı çıkıp savaşın farz olduğunu söyleyerek halkı teşvik ettiler. Bunun üzerine toplanan kalabalık devlet dairelerine hücum edip 2 Ağustos 1878’de Mostar müftüsü Mustafa Sıdkı Karabeg’i, Mostar kaymakamı Murad Beg’i, Mostar kadısını, Mostar mutasarrıfı Mustafa Paşa’yı ve damadını Suhodolina’da katletti. Onun öğrencisi ve zamanında Mostar müftüsü olan Hacı Abdullah Efendi Ridžanović’in, hocası Karabeg’in tercüme-i hâlini ihtiva eden Arapça yazılmış bir eserinin mevcut olduğu zikredilmektedir (bu eserin günümüzde Hasan Nametak’ın özel kitaplığında bulunduğu söylenmektedir; bk. Hasandedić, Mustafa Sidki ef. Karabeg , s. 4). Karabeg, İslâm hukuku alanında Hidâdü’n-nuṣûl adlı bir eser yazmıştır. Molla Hüsrev’in Mirʾâtü’l-uṣûl ’ünün bir hâşiyesi mahiyetinde olan eserin mukaddimesi öğrencisi Ahmed Efendi Dizdar tarafından kaleme alınmıştır. 1292 (1875) yılında yazılan mukaddimeden anlaşıldığına göre tamamlanmayıp “Hakikat ve Mecaz” bahsinde kalan eser yayımlanmıştır (nşr. Državna Štamparija, Sarajevo 1316/1898). Müellifin ayrıca bir mevzû hadis hakkında yazdığı küçük bir risâlesi de zikredilmektedir (risâlenin yazma nüshası için bk. Orijentalna Zbirka Arhiva Hercegovine , yazma nr. 340/1, demirbaş nr. 726). Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 372 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:karabeg-mustafa-sidki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=karabeg-mustafa-sidki, https://islamansiklopedisi.org.tr/karabeg-mustafa-sidki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:31Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:31Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=karabeg-mustafa-sidki (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1832,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=karabeg-mustafa-sidki, URL: https://islamansiklopedisi.org.tr/karabeg-mustafa-sidki || DİA birth place: Mostar || DİA death-date string: (1832-1878) || DİA categories: hadis > tefsir > kelâm || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004724"
+  ]
+}

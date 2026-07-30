@@ -1,0 +1,87 @@
+{
+  "@id": "iac:person-00007498",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ümmü Rûmân",
+      "ar": "أمّ رومان"
+    },
+    "originalScript": {
+      "ar": "أمّ رومان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ümmü Rûmân Zeyneb bint Âmir b. Uveymir b. Abdişems el-Kinâniyye"
+      ]
+    },
+    "description": {
+      "tr": "Künyesiyle tanındığı için Zeyneb olduğu rivayet edilen adı unutulmuştur. Hz. Ebû Bekir’in hanımı ve Hz. Âişe’nin annesidir. Hz. Ebû Bekir ile evlenmeden önce Abdullah b. Hâris b. Sahbere el-Ezdî ile evliydi. İslâmiyet’ten önce kocasıyla birlikte Yemen’deki Serat’tan Mekke’ye geldiler ve Hz. Ebû Bekir ile sözleşme yaparak onun himayesinde Mekke’de yaşamaya başladılar. Bu evliliğinden daha sonraları İslâmiyet’i kabul edecek olan Tufeyl adlı oğlu dünyaya geldi. Kocası vefat edince Hz. Ebû Bekir ile evlendi ve ilk müslümanlar arasında yer aldı. Resûlullah’a biat eden kadınlardan olan Ümmü Rûmân’ın Hz. Ebû Bekir ile evliliğinden Abdurrahman ve Âişe adlı çocukları doğdu. Hz. Ebû Bekir, Resûl-i Ekrem ile birlikte hicret ettiği için daha sonra Zeyd b. Hârise ile Hz. Peygamber’in âzatlısı Ebû Râfi‘i Mekke’ye gönderip Ümmü Rûmân ile Âişe’yi Medine’ye getirtti (622). Hz. Âişe’nin İfk Hadisesi dolayısıyla aşırı derecede sarsıldığı günlerde Ümmü Rûmân kızına öncelikle sağlığını düşünmesi gerektiğini söyledi; kendisi gibi güzel, kocası tarafından çok sevilen, üstelik birçok ortağı bulunan bir kadının kıskanılmasının ve hakkında dedikodu yapılmasının tabii olduğunu söyleyerek onu teselli etti (Buhârî, “Tefsîr”, 24/11). Ümmü Rûmân’ın ne zaman vefat ettiği kesin şekilde bilinmemektedir. Onun 4 (626) veya 5 (627) yılında, İbn Sa‘d’ın belirttiğine göre Zilhicce 6’da (Nisan 628) öldüğü, Resûlullah’ın defin sırasında kabrine inerek dua ettikten sonra, “Allahım! Ümmü Rûmân’ın senin ve peygamberinin uğrunda neler çektiğini en iyi sen bilirsin” dediği (İbn Abdülber, IV, 490), sahâbîlere cenazesini göstererek, “Cennet hûrilerinden birini görmek isteyen Ümmü Rûmân’a baksın” ( eṭ-Ṭabaḳāt , VIII, 277) buyurduğu rivayet edilmiştir. Ümmü Rûmân’ın 6 yılından (628), hatta Resûl-i Ekrem’in vefatından sonra yaşadığını söyleyenler de vardır ( İbn Hacer, el-İṣâbe , VIII, 209). Onun Hz. Peygamber’den bir hadis rivayet ettiği bilinmekte, tâbiînden Mesrûk b. Ecda‘ın ondan naklettiği rivayetinin ise mürsel olduğu belirtilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2012 yılında İstanbul’da basılan 42. cildinde, 328 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ummu-ruman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ummu-ruman, https://islamansiklopedisi.org.tr/ummu-ruman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:3666",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3666, heading_ar=أم رومان",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:04Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ummu-ruman (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3666]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3666 (heading_ar=أم رومان) via Track A (DİA→Alam xref bridge). dt=Sahâbî kadın, Ebû Bekir es-Sıddîk'in eşi ve Âişe'nin annesi"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 6,
+    "start_ce": 628,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ummu-ruman, URL: https://islamansiklopedisi.org.tr/ummu-ruman || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3666] || DİA death-date string: (ö. 6/628 [?]) || DİA categories: rivayet > hadis > tefsir || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3666, heading_ar=أم رومان, dt=Sahâbî kadın, Ebû Bekir es-Sıddîk'in eşi ve Âişe'nin annesi",
+  "students": [
+    "iac:person-00005474"
+  ]
+}

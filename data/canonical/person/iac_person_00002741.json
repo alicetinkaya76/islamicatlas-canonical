@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00002741",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Fetâ",
+      "ar": "الفتى"
+    },
+    "originalScript": {
+      "ar": "الفتى"
+    },
+    "altLabel": {
+      "tr": [
+        "Sirâcüddîn (Takıyyüddîn) Ebû Hafs Ömer b. Muhammed b. Ubeyd ez-Zebîdî el-Yemenî"
+      ]
+    },
+    "description": {
+      "tr": "801’de (1398-99) Zebîd’de doğdu ve orada yetişti. Aslında babasına ait olan Fetâ lakabı ile şöhret buldu. Muhammed b. Sâlih, Mûsâ b. Muhammed ed-Dicâî ve İsmâil b. Ebû Bekir el-Mukrî’den fıkıh okudu. Uzun süre yanında kaldığı İbnü’l-Mukrî’den ayrılarak Zebîd’in doğusundaki köylere gitti. Burada fıkıh âlimi bir kadınla evlenerek bir müddet ders verdi ve eser telifiyle meşgul oldu. Tâhirîler hânedanının kurucusu Ali b. Tâhir Yemen’i ele geçirdiğinde bölge fakihleriyle ilgilenerek onları vakıflara ait binalara yerleştirmişti. Bu arada Fetâ ile de tanışarak ona ikramda bulundu, vakıflardan kendisine ve ailesine maaş bağladı. Zebîd Nizâmiye Medresesi’ne müderris tayin edilen Fetâ’ya ayrıca vakıflar idaresi de tevdi edildi. Ali b. Tâhir’in vefatına kadar (883/1478) bu görevi sürdüren, ancak yeni emîr Abdülvehhâb b. Dâvûd tarafından azledilen Fetâ bundan sonra kendini telif, öğretim ve fetva işlerine verdi. Daha sonra Abdülvehhâb tarafından kendi inşa ettirdiği medreseye tayin edildiyse de bu görevde fazla kalamadı ve Safer 887’de (Nisan 1482) vefat etti. Eserleri. 1. Muḫtaṣaru Mühimmâti’l-Mühimmât . Cemâleddin el-İsnevî’nin fıkha dair el-Mühimmât ’ı üzerine Zeynüddin el-Irâkī’nin yaptığı Mühimmâtü’l-Mühimmât adlı istidrâkin muhtasarıdır. 2. el-İbrîz fî taṣḥîḥi’l-Vecîz . Gazzâlî’nin meşhur eseri el-Vecîz ’in muhtasarıdır (bu iki eserin yazma nüshaları için bk. Brockelmann, I, 753; II, 255). Fetâ’nın kaynaklarda adı geçen diğer eserleri de şunlardır: 1. el-İlhâm limâ fi’r-Ravżi mine’l-evhâm . Hocası İbnü’l-Mukrî’nin Nevevî’nin Ravżatü’ṭ-ṭâlibîn ’ine yaptığı Ravżü’ṭ-ṭâlib adlı muhtasarın şerhidir. 2. Envârü’l-Envâr . Cemâleddin el-Erdebîlî’nin el-Envâr li-ʿameli’l-ebrâr adlı eseri üzerine yapılan ziyadeleri bir araya getirmek suretiyle hazırladığı bir kitaptır. 3. Cevâhirü’l-Cevâhir . Gazzâlî’nin, Şâfiî mezhebinin beş temel eserinden biri olan el-Vasîṭ ’ine Necmeddin el-Kamûlî’nin yaptığı el-Baḥrü’l-muḥîṭ adlı şerhin yine Kamûlî’nin hazırladığı Cevâhirü’l-Baḥr adlı muhtasar üzerine Fetâ tarafından yapılan bir telhistir. 4. Taḳrîbü’l-muḥtâc . İbnü’l-Mülakkın’ın Nevevî’nin Minhâcü’ṭ-ṭâlibîn ’ine yaptığı ʿUmdetü’l-muḥtâc adlı şerhin üzerine yazılan ziyadelerin derlenmesi suretiyle hazırlanmıştır. 5. eṣ-Ṣıfâde fî zevâʾidi’l-ʿUcâle . Bu eser de yine İbnü’l-Mülakkın’ın Nevevî’nin Minhâcü’ṭ-ṭâlibîn ’ine yaptığı el-ʿUcâle adlı şerhin üzerine yazılan ziyadelerin bir araya getirilmesi suretiyle hazırlanmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 437 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:feta",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=feta, https://islamansiklopedisi.org.tr/feta",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:feta",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=feta",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=feta (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=feta)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Zebîdî; Yemenî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 887,
+    "start_ce": 1482,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=feta, URL: https://islamansiklopedisi.org.tr/feta || DİA birth place: Zebîd || DİA death place: 887 || DİA death-date string: (ö. 887/1482) || DİA categories: fıkıh > fetva > mezhep || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004267"
+  ]
+}

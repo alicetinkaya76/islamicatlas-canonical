@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00003200",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂRİS b. NEVFEL",
+      "ar": "الحارث  بن نوفل"
+    },
+    "originalScript": {
+      "ar": "الحارث  بن نوفل"
+    },
+    "altLabel": {
+      "tr": [
+        "el-Hâris b. Nevfel b. el-Hâris b. Abdilmuttalib el-Hâşimî el-Kureşî"
+      ],
+      "ar": [
+        "الحارث بن نوفل"
+      ]
+    },
+    "description": {
+      "tr": "Tâbiînden olduğu da söylenmektedir. Babası ile beraber Bedir Gazvesi’nden hemen sonra veya Hendek Gazvesi esnasında müslüman oldu ve Medine’ye hicret etti. Bedir Gazvesi’ne müşrik olarak katıldığına ve esir edildiğine dair rivayet zayıftır. Hz. Peygamber Hâris’i önce Mekke’de zekât tahsildarlığına, ardından Cidde valiliğine tayin etti. Bundan dolayı Huneyn Gazvesi’ne katılamadı. Hz. Ebû Bekir halife olunca onu bu vazifeden azletti. Bazı kaynaklarda Hz. Ömer tarafından Mekke valiliğine getirildiği, Hz. Osman zamanında bir süre daha bu görevde kaldığı, daha sonra Basra valiliğine tayin edildiği, Hz. Osman’ın hilâfetinde Tâif’te de valilik yaptığı rivayet edilmektedir. Abdullah b. Âmir b. Küreyz’in Basra valiliği sırasında orada ikamet etti. Resûl-i Ekrem’e benzeyenlerden biri sayılan Hâris’in Hz. Peygamber’den ve Hz. Âişe’den birer rivayeti mevcut olup bunlar Ebû Dâvûd ve Nesâî’nin sünenleriyle Ahmed b. Hanbel’in el-Müsned ’inde yer almaktadır. Kendisinden oğlu Abdullah, torunu Hâris b. Abdullah ve Ebû Miclez rivayette bulunmuşlardır. Hâris 35 (655) yılında Basra’da yetmiş yaşlarında vefat etmiştir. Bazı kaynaklarda ise Muâviye’nin hilâfetine (661-680) yetiştiği belirtilmektedir. Hâris b. Nevfel, Ebû Süfyân’ın kızı Hind ile evliydi. Abdullah, Muhammed el-Ekber, Rebîa, Abdurrahman, Remle, Ümmü’z-Zübeyr ve Zarîbe adlı çocukları bu hanımdan doğdular. Diğer çocukları Utbe, Muhammed el-Asgar, Hâris ve Reyta’nın anneleri Ümmü Amr binti’l-Muttalib, Sa‘d’ın annesi ise bir câriyedir. Ümmü’z-Zübeyr’in annesinin Safiyye bint Amr b. Ümeyye olduğu da rivayet edilmektedir. Bir diğer karısı Ebû Leheb’in kızı Dürre’den de Ukbe, Velîd ve Ebû Müslim adlı çocukları olduğu kaydedilmekte, bazı kaynaklarda Dürre’nin bu çocuklarının Hâris b. Nevfel’den değil, Bedir’de kâfir olarak öldürülen kocası Hâris b. Âmir’den olduğu belirtilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 200 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:haris-b-nevfel",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=haris-b-nevfel, https://islamansiklopedisi.org.tr/haris-b-nevfel",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:2494",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=2494, heading_ar=الحارث بن نوفل",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=haris-b-nevfel (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[2494]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=2494 (heading_ar=الحارث بن نوفل) via Track A (DİA→Alam xref bridge). dt=Sahâbî, valilik yapanlardan."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hâşimî; Kureşî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 35,
+    "start_ce": 655,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=haris-b-nevfel, URL: https://islamansiklopedisi.org.tr/haris-b-nevfel || El-Aʿlām (Ziriklī) cross-reference: alam_id=[2494] || DİA death place: Basra || DİA death-date string: (ö. 35/655 [?]) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=2494, heading_ar=الحارث بن نوفل, dt=Sahâbî, valilik yapanlardan."
+}

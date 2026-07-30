@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00002086",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DÛLÂBÎ, Muhammed b. Sabbâh",
+      "ar": "محمد بن الصبّاح الدولابي"
+    },
+    "originalScript": {
+      "ar": "محمد بن الصبّاح الدولابي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ca‘fer Muhammed b. es-Sabbâh ed-Dûlâbî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Heratlı olup 151’de (768) Rey yakınlarındaki Dûlâb (Devlâb) kasabasında doğdu ve buraya nisbetle Dûlâbî diye tanındı. Bazı kaynaklarda Bezzâr diye geçerse de bez imalât ve ticareti yaptığı için Bezzâz lakabıyla, Müzeyneliler’in mevlâ sı olduğundan Müzenî, Bağdat’a yerleşip orada ikâmet ettiği için Bağdâdî nisbeleriyle de anılır. Dûlâbî, hadislerini çok iyi bildiği Hüşeym b. Beşîr’den başka Abdullah b. Mübârek, Cerîr b. Abdülhamîd, Süfyân b. Uyeyne, Yezîd b. Hârûn gibi muhaddislerden hadis rivayet etmiştir. Kendisinden de Ahmed b. Hanbel, Yahyâ b. Maîn, Buhârî, Müslim, Ebû Dâvûd, Ebû Hâtim er-Râzî, Ebû Zür‘a er-Râzî, Ebû Zür‘a ed-Dımaşkī gibi meşhur âlimler rivayette bulunmuşlardır. Ahmed b. Hanbel, Yahyâ b. Maîn, Ebû Hâtim er-Râzî ve İbn Hibbân gibi hadis otoriteleri Dûlâbî’nin sika bir râvi olduğunu belirtirler. Bablara göre tasnif edildiği söylenen küçük es-Sünen ’inin günümüze gelip gelmediği bilinmemekte ve hakkında fazla bilgi bulunmamaktadır. Rivayetleri Ahmed b. Hanbel’in el-Müsned ’i ile Buhârî ve Müslim’in el-Câmiʿu’ṣ-ṣaḥîḥ ’lerinde ve Ebû Dâvûd’un es-Sünen ’inde yer almaktadır. Kütüb-i Sitte ’nin diğer müellifleri de hocaları vasıtasıyla ondan aldıkları hadislere kitaplarında yer vermişlerdir. Dûlâbî, ömrünün büyük bir kısmını geçirdiği Bağdat’ta (Kerh yakasında) Muharrem 227’de (Kasım 841) vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 552 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dulabi-muhammed-b-sabah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dulabi-muhammed-b-sabah, https://islamansiklopedisi.org.tr/dulabi-muhammed-b-sabah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:dulabi-muhammed-b-sabah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/dulabi-muhammed-b-sabah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:53Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dulabi-muhammed-b-sabah (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Dûlâbî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 227,
+    "start_ce": 841,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dulabi-muhammed-b-sabah, URL: https://islamansiklopedisi.org.tr/dulabi-muhammed-b-sabah || DİA death place: 227 || DİA death-date string: (ö. 227/841) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000524",
+    "iac:person-00001788",
+    "iac:person-00004557",
+    "iac:person-00007121",
+    "iac:person-00007715"
+  ]
+}

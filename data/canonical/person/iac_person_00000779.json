@@ -1,0 +1,84 @@
+{
+  "@id": "iac:person-00000779",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED EFENDİ, Şikârîzâde"
+    },
+    "description": {
+      "tr": "Türk mûsikisinde Şikârîzâde lakabıyla tanınır. Hayatı hakkında fazla bilgi bulunmamaktadır. İstanbul’da doğdu ve orada yaşadı. İlk yılları, yetişmesi ve tahsili ile ilgili herhangi bir kayıt da yoktur. Gençlik yıllarında Sünbüliyye tarikatına intisap etti. Koca Mustafa Paşa Hankahı şeyhi Seyyid Mehmed Hâşim Efendi’den hilâfet aldı; uzun yıllar bu tekkenin zâkirbaşılığını yaptı. Bu vazifedeyken, 1791 yılında Medine kadısı olan Mehmed Atâullah Efendi ile birlikte Medine’ye gitti. Haccını ifa ettikten sonra bir yıl kadar orada kaldı. Döndükten bir müddet sonra, eski tekkesinde zâkirbaşılığını sürdürürken ayrıca Yedikule civarındaki Hacı Evhadüddin Tekkesi şeyhliğine tayin edildi. Bu iki görevi hayatının sonuna kadar devam ettirdi. 27 Haziran 1831’de vefat etti. Mezarı Koca Mustafa Paşa Hankahı hazîresindedir. Uzun süre şeyhlik vazifesinde bulunan Ahmed Efendi, daha çok devrinin önde gelen zâkirbaşılarından biri olarak tanınmıştır. Bu sebeple mûsiki ile de uğraşmış ve bilhassa dinî sahadaki besteleriyle meşhur olmuştur. Çeşitli el yazması güfte mecmualarında pek çok eserine rastlanıyorsa da bunlardan ancak dokuz tanesi zamanımıza ulaşmıştır. Ahmed Efendi hac dönüşü Der Beyân-ı Ahvâl-i Medîne-i Münevvere adlı küçük bir eser kaleme almıştır. İki yazma nüshası Millet Kütüphanesi’nde bulunmaktadır (Ali Emîrî Efendi, T, nr. 305; Şer‘iyye, nr. 722). Medine’de bulunduğu sıradaki şehir hayatını hâtırat üslûbuyla kaleme aldığı bu eser, Tayyibetü’l-ezkâr (İstanbul 1271, 1316) ve Tayyibetü’l-ezkâr fî Medîneti’l-envâr (Kazan 1283) adlarıyla basılmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 61-62 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-efendi-sikarizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-efendi-sikarizade, https://islamansiklopedisi.org.tr/ahmed-efendi-sikarizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-efendi-sikarizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-efendi-sikarizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:52Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-efendi-sikarizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1831,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ahmed-efendi-sikarizade, URL: https://islamansiklopedisi.org.tr/ahmed-efendi-sikarizade || DİA birth place: İstanbul || DİA death place: 1831 || DİA death-date string: (ö. 1831) || DİA categories: tarikat || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00005387"
+  ]
+}

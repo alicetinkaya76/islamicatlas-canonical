@@ -1,0 +1,112 @@
+{
+ "@id": "iac:person-00000385",
+ "@type": [
+  "iac:Person",
+  "iac:Poet"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "ABBAS b. FİRNÂS",
+   "ar": "عبّاس بن فرناس"
+  },
+  "originalScript": {
+   "ar": "عبّاس بن فرناس"
+  },
+  "altLabel": {
+   "tr": [
+    "Ebü'l-Kāsım Abbâs b. Firnâs b. Verdûs",
+    "Abbâs b. Fernâs"
+   ],
+   "ar": [
+    "عباس بن فرناس، أبو القاسم"
+   ]
+  },
+  "description": {
+   "tr": "Endülüs’ün Ronda bölgesindeki Tâkerunâ’nın (Takoronna) köylerinden birinde doğdu. Hayatı hakkında, Berberî asıllı âzatlı bir köle olduğu dışında fazla bilgi yoktur. Çok defa şair Abbas b. Nâsih (ö. 240/854) ile karıştırılır. Kurtuba’da büyüdü ve orada tahsil gördü. Daha gençliğinde felsefe, kimya, astronomi ve edebiyat alanında adını duyurdu. Yaptığı ilmî ve edebî çalışmalar sayesinde Kurtuba’da I. Hakem’in sarayına girdi ve II. Abdurrahman ile I. Muhammed dönemlerinde de mevkiini korudu. Meraklı ve araştırıcı bir karaktere sahip olan Abbas b. Firnâs, uzayı temsil eden bir gök küresi kurdu ve sonraları Avrupa’da astronominin gelişmesinde tesiri olan Sindhind tablolarının çizimlerini yaptı. Bir ara uçmayı denediyse de yaptığı uçuş takımında kuyruk kısmı bulunmadığı için inişi çok sert oldu ve ölümden zor kurtuldu. Abbas b. Firnâs, bu deneme dolayısıyla havacılığın öncülerinden sayılmaktadır. Kuvarstan kristal yapmayı ve kristal kesimini batı İslâm âlemine tanıttı ve ayrıca kimya ile ilgilendi. I. Muhammed’e takdim etmek üzere, daha önce benzeri görülmemiş menkāne (mîkāte) adı verilen bir de saat imal etti. Yaptığı birçok keşifle ve Doğu ilimlerini Batı’da yayma çabalarıyla çağdaşlarının dikkatini çeken Abbas b. Firnâs’a I. Hakem, “Hakîmü’l-Endelüs” unvanını vermiştir. Abbas b. Firnâs, Halîl b. Ahmed’in Kitâbü’l-ʿArûż ’unu en iyi anlayan ve açıklayan ilk Endülüslüdür. Mûsiki ile de ilgilenmiştir. Kendisini çekemeyenler tarafından sihirbazlık ve zındıklıkla suçlandığı da rivayet edilmektedir. İbn Hayyân’ın el-Muḳtebes adlı kitabında örneklerini verdiği bazı şiirlerinin dışında hiçbir eseri günümüze ulaşmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 24 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+   "en": "Andalusian inventor"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "al-ʿAbbās b. Firnās"
+  }
+ },
+ "profession": [
+  "philosopher",
+  "poet",
+  "astronomer"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "dia:abbas-b-firnas",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA, slug=abbas-b-firnas, https://islamansiklopedisi.org.tr/abbas-b-firnas",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+   },
+   {
+    "source_id": "el-alam:4927",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=4927, heading_ar=عباس بن فرناس",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_dia",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:32:37Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:32:37Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:32:37Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from DİA slug=abbas-b-firnas (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4927]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:32:47Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "El-Aʿlām augmentation: linked alam_id=4927 (heading_ar=عباس بن فرناس) via Track A (DİA→Alam xref bridge). dt=Endülüs mütehayyiri"
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:22Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+kunya+translit from alam_detail.json el-alam:4927."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (228-326-385) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000228 lehine yumuşak-silindi. Gerekçe: Üç kayıt da aynı Arapça adı (عباس بن فرناس), aynı ölüm yılını (274/887) ve aynı uçuş denemesi anlatısını taşıyan Kurtubalı Abbâs b. Firnâs'a aittir."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000228"
+ },
+ "death_temporal": {
+  "start_ah": 274,
+  "start_ce": 887,
+  "approximation": "exact"
+ },
+ "note": "DİA cross-reference: slug=abbas-b-firnas, URL: https://islamansiklopedisi.org.tr/abbas-b-firnas || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4927] || DİA death-date string: (ö. 274/887) || DİA categories: astronomi > felsefe > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=4927, heading_ar=عباس بن فرناس, dt=Endülüs mütehayyiri",
+ "active_in_places": [
+  "iac:place-00009538"
+ ],
+ "kunya": "أبو القاسم"
+}

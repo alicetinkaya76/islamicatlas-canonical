@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00005783",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Muînüddin İmrânî",
+      "ar": "معين الدين عمراني"
+    },
+    "originalScript": {
+      "ar": "معين الدين عمراني"
+    },
+    "altLabel": {
+      "tr": [
+        "Muînüddîn İmrânî Dihlevî"
+      ]
+    },
+    "description": {
+      "tr": "Delhi’de doğdu ve tahsilini burada tamamladı. VIII. (XIV.) yüzyılda Hindistan’da yetişen âlimlerin en meşhuru sayılır. Kuvvetli bir muhakeme yeteneğine sahip bulunması yanında mantık, kelâm, fıkıh, usûl-i fıkıh, belâgat gibi ilimlerde yetişmiş bir âlimdi (Abdülhay el-Hasenî, II, 161). Zamanını öğrenci yetiştirmek ve çevresindeki insanlara faydalı olmakla geçirdi. Kendi döneminde Hindistan’da yetişen âlimlerin büyük çoğunluğu onun öğrencisi olduğundan Abdülhak b. Seyfeddin ed-Dihlevî kendisinden “üstâd-ı şehr” diye söz eder ( Aḫbârü’l-aḫyâr , s. 313). Önceleri Çiştiyye tarikatının şeyhlerine ve özellikle çağdaşı olan Çırâğ-ı Dehlî’ye karşı olumsuz duygular taşımasına rağmen daha sonra zühd ve takvâsına şahit oldu; hastalandığında kendisini Çırâğ-ı Dehlî’ye götüren ve şeyhin duasıyla iyileşmesine vesile olan öğrencisi Muhammed b. Ahmed Hâcegî’nin tesiriyle Çiştiyye’ye intisap etti ( a.g.e. , s. 312). Gulâm Muînüddin Abdullah’ın belirttiğine göre bir süre sonra Çırâğ-ı Dehlî’den hilâfet aldı. Muînüddin İmrânî, Sultan Muhammed b. Tuğluk’un iltifatına mazhar oldu. Daima sultanla beraber olup onun dinî konularda danışmanlığını yapan dört fakihten biridir (Yahyâ b. Ahmed Sirhindî, s. 115). Sultan kendisini, devrinin en büyük âlimlerinden olan Adudüddin el-Îcî’yi Delhi’ye davet edip oraya yerleşmesini sağlamak için Şîraz’a gönderdi. Ancak Adudüddin el-Îcî’nin Şîraz’dan ayrılmasını istemeyen Sultan Ebû İshak eş-Şîrâzî, onun gitmesine müsaade etmediği gibi İmrânî’ye birçok ihsanda bulunarak Şîraz’da kalmasını temin etti. Hayatının geri kalan kısmını burada geçiren İmrânî öğretim faaliyetleriyle meşgul oldu ve çok sayıda öğrenci yetiştirdi. Muhammed İshak Battî ve Şeyh Muhammed İkrâm onun Şîraz’dan Delhi’ye döndüğünü ve burada vefat ettiğini belirtmektedir ( Fuḳahâ-yi Hind , I, 305; Âb-ı Kevs̱er , s. 424). İmrânî’nin ölüm tarihi bilinmemektedir. Aḫbârü’l-aḫyâr ’ın nâşiri doğum tarihini 683 (1284) diye gösterirken ölüm tarihi olarak da kaynak belirtmeden 792 (1390) yılını vermektedir (s. 313). Eserleri. Çoğu Hanefî fıkhının önemli eserlerine ve medresede okutulan kitaplara hâşiye ve şerh niteliği taşıyan çalışmaları arasında Sa‘deddin et-Teftâzânî’nin et-Telvîḥ ’i, Ebü’l-Berekât en-Nesefî’nin Hanefî fıkhına dair Kenzü’d-deḳāʾiḳ ’ı ve fıkıh usulüne dair Menârü’l-envâr ’ı, Ahsîkesî’nin fıkıh usulüne dair el-Münteḫab fî uṣûli’l-meẕheb ’ine yazdığı hâşiyelerle Ebû Ya‘kūb es-Sekkâkî’nin Miftâḥu’l-ʿulûm ve Hatîb el-Kazvînî’nin Telḫîṣü’l-Miftâḥ ’ı üzerine yazdığı şerhler anılabilir (eserlerinin yazma nüshaları için bk. Zubaid Ahmad, s. 311-312, 452-453). Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 89-90 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:muinuddin-imrani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=muinuddin-imrani, https://islamansiklopedisi.org.tr/muinuddin-imrani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:muinuddin-imrani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=muinuddin-imrani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:43Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=muinuddin-imrani (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=muinuddin-imrani)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 792,
+    "start_ce": 1390,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=muinuddin-imrani, URL: https://islamansiklopedisi.org.tr/muinuddin-imrani || DİA birth place: Delhi || DİA death place: Şîraz || DİA death-date string: (ö. 792/1390 [?]) || DİA categories: fıkıh > kelâm > mantık || Chunk count: 1"
+}

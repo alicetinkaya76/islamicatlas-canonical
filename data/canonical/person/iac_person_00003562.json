@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00003562",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hüseyin Nizamşah",
+      "ar": "حسين نظام شاه"
+    },
+    "originalScript": {
+      "ar": "حسين نظام شاه"
+    },
+    "description": {
+      "tr": "Kuzey Dekken bölgesinde 748 (1347) yılında kurulan Behmenîler Devleti’nin 934’te (1527) yıkılmasından sonra ortaya çıkan beş sultanlıktan (Âdilşâhîler, Berîdşâhîler, İmâdşâhîler, Kutubşâhîler) biri olan ve Ahmednagar’da I. Ahmed Nizamşah Bahrî tarafından kurulan Nizamşâhîler Devleti’nin ikinci hükümdarı I. Burhan Nizamşah’ın en büyük oğludur. 1554 yılında “el-müeyyed min indillâh” lakabıyla tahta geçti. Bazı kaynaklarda Şiî temayüllü olduğu yazılıdır. Saltanatının ilk yıllarında önce kendisine rakip çıkan kardeşi Abdülkadir’in isyanını bastırdı. Daha sonra diğer kardeşleri Mîrân Şah Haydar ve Mîrân Şah Ali ile mücadele etti. Taht iddiasında bulunan kardeşlerin Bîcâpûr’a sığınmasıyla bu defa Nizamşâhîler’le Âdilşâhîler arasında aralıklarla savaşlar meydana geldi. Bu savaşlar sırasında Âdilşâhîler safında yer alan Hindu Vicayanagar racalığının Dekken’deki müslüman varlığını tehdit etmeye başlaması üzerine Gûlkünde, Âdilşâhî ve Bîdârlı sultanlıkları Nizamşâhîler ile ittifak yaptılar. Hüseyin Nizamşah’ın da içinde bulunduğu müttefik ordu, Raca Râm Ray’ın idaresindeki Vicayanagar ordusu ile savaşmak üzere Talikota’ya (Rakasa-Tangadi) geldi ve yapılan savaşta 32.000 atlı, 300.000 yaya ve 1500 kadar filin bulunduğu kalabalık Hindu kuvvetleri bozguna uğradı (5 Ocak 1565). Raca Râm Ray yakalanarak öldürüldü. Müttefiklerin ordusu racalığa girdi ve beş ay boyunca bölge yağma edildi. Bu savaş Hindistan’ın güney kısmının kaderinde önemli rol oynadı. Hüseyin Nizamşah bu savaşın ardından ülkesine döndü, fakat kısa bir süre sonra vefat etti (7 Zilkade 972 / 6 Haziran 1565). Nizamşâhîler’in büyük hükümdarlarından biri kabul edilen Hüseyin Nizamşah âdil ve cesur bir idareci olarak tanınır. Ancak sonu gelmeyen karışıklıklarla uğraşmak zorunda kaldığı için Ahmednagar’da kalıcı bir istikrar sağlanamamıştır. Bununla birlikte Talikota Savaşı’ndan sonra Ahmednagar sarayı şair ve sanatkârların toplandığı bir merkez haline gelmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 3 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:huseyin-nizamsah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=huseyin-nizamsah, https://islamansiklopedisi.org.tr/huseyin-nizamsah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:huseyin-nizamsah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/huseyin-nizamsah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:16Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=huseyin-nizamsah (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 748,
+    "start_ce": 1347,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 972,
+    "start_ce": 1565,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=huseyin-nizamsah, URL: https://islamansiklopedisi.org.tr/huseyin-nizamsah || DİA death-date string: (ö. 972/1565) || Chunk count: 1"
+}

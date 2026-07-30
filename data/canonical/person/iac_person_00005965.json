@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00005965",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "NÂCİYE b. CÜNDEB",
+      "ar": "ناجية بن جندب"
+    },
+    "originalScript": {
+      "ar": "ناجية بن جندب"
+    },
+    "altLabel": {
+      "tr": [
+        "Nâciye b. Cündeb b. Umeyr el-Eslemî"
+      ]
+    },
+    "description": {
+      "tr": "Medine’de ikamet eden Eslemoğulları kabilesine mensuptur. Asıl adı Zekvân iken Mekkeli müşriklerin hazırladığı bir tuzaktan kurtulduğu için Resûl-i Ekrem adını “Nâciye” (kurtulmuş) olarak değiştirdi. Hicretten sonra İslâm’a girdi. Deve bakımı ve sürücülüğü konusunda tecrübeli olduğundan Hz. Peygamber onu develerinin bakımı ile görevlendirdi. Özellikle hac ve umre için ayırdığı kurbanlıkların yönetimini ona verdi. 7 (629) yılında Umretü’l-kazâ için yola çıkarken Zülcedr mevkiindeki otlakta bulunan altmış kurbanlık deveyi Mekke’ye götürmesini emretti. 9 (631) yılında Hz. Ebû Bekir’in emîr olarak görevlendirildiği hac yolculuğu sırasında da kurbanlık yirmi devenin bakımı ve sürücülüğü işini Nâciye yaptı. Vedâ haccında Resûl-i Ekrem’in 100 civarındaki kurbanlık devesini Mekke’ye götürmesi işi Nâciye b. Cündeb başkanlığında bir grup gence verildi. Nâciye b. Cündeb Hudeybiye’de bulundu ve Bey‘atürrıdvân’a katıldı. Burada su sıkıntısının baş gösterdiği, Hz. Peygamber’in bir mûcizesiyle bu sıkıntının giderildiği, suyu dağıtma işinde onun da görev aldığı rivayet edilmiştir. Hayber Gazvesi’nde, Hudeybiye’de, Mekke’nin fethinde ve Vedâ haccında da bulunan Nâciye b. Cündeb’in Hz. Peygamber’den bir hadis naklettiği, kendisinden de Urve b. Zübeyr b. Avvâm, Abdullah b. Amr el-Eslemî ve Meczee b. Zâhir el-Eslemî’nin rivayette bulunduğu bilinmektedir. Nâciye aynı zamanda karşılaştığı olaylar hakkında anında şiirler söyleyebilen bir şair olarak tanınmaktadır. Muhtemelen yaşlılığı sebebiyle Hulefâ-yi Râşidîn döneminde kendisine aktif bir görev verilmeyen Nâciye b. Cündeb’in Muâviye b. Ebû Süfyân’ın hilâfeti yıllarında (661-680) Medine’de vefat ettiği tahmin edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2006 yılında İstanbul’da basılan 32. cildinde, 274-275 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:naciye-b-cundeb",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=naciye-b-cundeb, https://islamansiklopedisi.org.tr/naciye-b-cundeb",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:45Z",
+    "modified": "2026-05-04T15:34:45Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=naciye-b-cundeb (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Eslemî"
+  ],
+  "death_temporal": {
+    "start_ah": 60,
+    "start_ce": 680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=naciye-b-cundeb, URL: https://islamansiklopedisi.org.tr/naciye-b-cundeb || DİA death place: Medine || DİA death-date string: (ö. 60/680 [?]) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

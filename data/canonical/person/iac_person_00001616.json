@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00001616",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BÛNÎ, Ahmed b. Kāsım",
+      "ar": "أحمد بن قاسم البوني"
+    },
+    "originalScript": {
+      "ar": "أحمد بن قاسم البوني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Abbâs Ahmed b. Kāsım b. Muhammed Sâsî et-Temîmî el-Bûnî"
+      ]
+    },
+    "description": {
+      "tr": "1063’te (1653) Cezayir’in doğusundaki Bûne (Annâbe) kasabasında doğdu. Hakkında pek az bilgi vardır. İlk tahsilini tanınmış bir hadis âlimi olan babasından yaptı. Daha sonra Kuzey Afrika’nın muhtelif şehirlerini, Mısır’ı ve daha başka yerleri dolaşarak devrin meşhur âlimlerinden kıraat, tefsir, hadis ve Mâlikî fıkhı okudu. Tahsil hayatını bitirdikten sonra Bûne’de yerleşerek hadis rivayeti ve kitap telifiyle meşgul oldu ve orada vefat etti. Oğulları Muhammed ve Ahmed de dönemlerinin tanınmış ilim adamlarındandır. Eserleri. Bûnî’nin çoğu hadis ilimlerine dair manzum ve mensur, büyüklü küçüklü 100’den fazla eseri vardır. Bunları et-Taʿrîf bimâ li’l-faḳīri mine’t-tevâlîf adlı kitabında zikretmiştir. Âdil Nüveyhiz Muʿcemü aʿlâmi’l-Cezâʾir adlı kitabında Bûnî’nin eserlerinden kırk dört tanesinin adını verir. Buna göre belli başlı eserleri şunlardır: 1. Naẓmü’l-ḫaṣâʾiṣi’n-nebeviyye . Süyûtî’nin el-Ḫaṣâʾiṣü’l-kübrâ adlı eserinin manzum hale getirilmiş şeklidir. 2. Naẓmü’ş-Şemâʾil . Tirmizî’nin eş-Şemâʾil ’inin manzum şeklidir. 3. ed-Dürretü’l-meknûne (maṣûne) fî ʿulemâʾi ve ṣuleḥaʾi Bûne . Bûne âlim ve zâhidlerinin hal tercümelerine dair yine manzum olarak yazdığı bir eserdir. Diğer eserlerinden bir kısmı da şunlardır: Fetḥu’l-bârî fî şerḥi ġarîbi’l-Buḫârî , es̱-S̱imârü’l-muḫtaṣıre fî menâḳıbi’l-ʿaşere , ed-Dürer naẓmü Nuḫbeti’l-fiker , Naẓmü ʿAḳāʾidi’n-Nesefî , en-Nûrü’ḍ-ḍâvî ʿalâ ʿAḳīdeti’ṭ-Ṭaḥâvî , Fetḥu’l-muʿîn bi-ẕikri meşâhîri’n-nüḥâti ve’l-luġaviyyîn . Şiirlerini topladığı bir de divanının bulunduğu kaynaklarda zikredilir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 417 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:buni-ahmed-b-kasim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=buni-ahmed-b-kasim, https://islamansiklopedisi.org.tr/buni-ahmed-b-kasim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:buni-ahmed-b-kasim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=buni-ahmed-b-kasim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:45Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=buni-ahmed-b-kasim (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=buni-ahmed-b-kasim)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Temîmî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 1139,
+    "start_ce": 1726,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=buni-ahmed-b-kasim, URL: https://islamansiklopedisi.org.tr/buni-ahmed-b-kasim || DİA death place: Bûne || DİA death-date string: (ö. 1139/1726) || DİA categories: hadis > şiir > tefsir || Chunk count: 1"
+}

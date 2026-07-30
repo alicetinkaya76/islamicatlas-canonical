@@ -1,0 +1,64 @@
+{
+  "@id": "iac:person-00000725",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂGEHÎ, Muhammed Rızâ"
+    },
+    "description": {
+      "tr": "Hîve yakınlarında Kiyat’ta doğdu. Türkistan’ın büyük şair ve âlimlerinden olan amcası Şîr Muhammed Mûnis’in yanında yetişti. 1829’da onun ölümü üzerine Hîve Hanlığı’nda yüksek bir memuriyet olan mîrâblığa (sulama nâzırlığı) getirildi. 1839’da, Hîve Hanı Allahkulı Han’ın emriyle, amcasının yarıda bıraktığı Hîve tarihini tamamlamakla görevlendirildi. 1851’de hastalığı yüzünden mîrâblıktan ayrıldı ve bundan sonraki hayatını eser telifiyle geçirdi. Hîve Hanlığı’nın 1872’de Rus işgaline uğradığı döneme kadar bizzat şahit olduğu olayları yazan Âgehî, aynı zamanda resmî vesikalardan, raporlardan da faydalanmış ve değerli bir külliyat ortaya koymuştur. Âgehî’nin Hîve hanları tarihiyle ilgili altı eseri vardır: 1. Riyâzü’d-devle . Allahkulı Han devri (1825-1842) tarihi olup Rahim Kulı Sultan döneminin ilk iki yılını da içine alır. 2. Zübdetü’t-tevârîh . Rahim Kulı Han’ın şehzadelik ve hanlık zamanından bahseder (1843-1846). 3. Câmiu’l-vukūâti’s-sultânî . Muhammed Emîn Han (1846-1855), Abdullah Han (1855) ve Kutluğ Murad Han (1855-1856) devirlerini anlatır. 4. Gülşen-i Devlet . Seyyid Muhammed Han tarihidir (1856-1864). 5. Şâhid-i İkbâl . II. Seyyid Muhammed Rahîm Han’ın saltanatının ilk sekiz yılını ihtiva eder (1864-1872). 6. Firdevsü’l-ikbâl . Amcası Mûnis’in başlayıp Âgehî’nin tamamladığı bu eserin Leningrad’da bulunan ve biri müellif nüshası olan iki yazması, karşılaştırmalı olarak, Mûnis ve Âgehî’nin biyografileri, nüshaların özellikleri, kaynakları ve telif safhalarını ihtiva eden bir girişle birlikte, Yuri Bregel tarafından neşredilmiştir (Shir Muhammad Mirab Munis – Muhammad Rıza Mirab Agahi, Firdaws al-iqbāl: History of Khorezm , Leiden 1988). Tamamı Leningrad Şarkiyat Enstitüsü Kütüphanesi’nde bulunan bu eserlerden Riyâzü’d-devle ve Zübdetü’t-tevârîh ’in ayrıca İstanbul Üniversitesi Kütüphanesi’nde (TY, nr. 82) birer nüshası bulunmaktadır. Genellikle Türkçe yazdığı gazel, kaside, mesnevi tarzındaki manzumelerini bir divanda toplayan Âgehî, bunun yanı sıra Ravżatü’ṣ-ṣafâ , Târîḫ-i Cihângüşâ-yı Nâdirî , Gülistân , Dürre-i Nâdirî , Yûsuf u Züleyḫâ , Zübdetü’l-ḥikâyât ve Ḳābûsnâme gibi birçok Farsça eseri de Çağatay Türkçesi’ne kazandırmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 449 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:agehi-muhammed-riza",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=agehi-muhammed-riza, https://islamansiklopedisi.org.tr/agehi-muhammed-riza",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=agehi-muhammed-riza (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1809,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=agehi-muhammed-riza, URL: https://islamansiklopedisi.org.tr/agehi-muhammed-riza || DİA birth place: Kiyat || DİA death-date string: (1809-1874) || DİA categories: şiir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005810"
+  ]
+}

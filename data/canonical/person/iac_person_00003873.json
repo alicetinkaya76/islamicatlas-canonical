@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00003873",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Hürrem",
+      "ar": "ابن خرّم"
+    },
+    "originalScript": {
+      "ar": "ابن خرّم"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Alî el-Hüseyn b. İdrîs b. el-Mübârek el-Ensârî el-Herevî"
+      ]
+    },
+    "description": {
+      "tr": "Horasan’ın Herat şehrinde doğdu. Hürrem lakabıyla anılan babasına veya dedesine (İbnü’l-Esîr, I, 437) nisbetle İbn Hürrem diye tanındı. İlk tahsilini memleketinde yaptıktan sonra Irak, Şam ve Hicaz’a ilmî seyahatlerde bulundu; uzun süren bu seyahatleri dolayısıyla kendisine “rahhâl” (gezginci) lakabı verildi. Dımaşk’ta Hişâm b. Ammâr, Bağdat’ta Osman b. Ebû Şeybe, Saîd b. Mansûr gibi muhaddisleri dinledi; İbn Ebû Şeybe ile Muhammed b. Abdullah b. Ammâr el-Mevsılî’nin tarihlerini bizzat müelliflerinden rivayet etti. Kendisinden Ebû Bekir Muhammed b. Hasan en-Nakkāş yanında İbn Hibbân, Muhammed b. İbrâhim el-Bûşencî gibi muhaddisler rivayette bulundular. Hadis hâfızı ve ricâl âlimi olan İbn Hürrem’in hadis alanındaki çalışmaları, gayreti ve anlayışı övgüye değer bulunmuş, sika bir âlim olduğu belirtilmiştir. İbn Ebû Hâtim’in, onun Hâlid b. Heyyâc’dan rivayet ettiği hadislerden derlediği bir cüzde bazı asılsız rivayetler tesbit etmesi, bu kusurun İbn Hürrem’den mi yoksa Hâlid b. Heyyâc’dan mı kaynaklandığını bilemediğini kaydetmesine rağmen ( el-Cerḥ ve’t-taʿdîl , III, 47), bazılarınca İbn Hürrem’in güvenilirliği hakkında şüphe uyandıracak bir husus kabul edilmişse de İbn Asâkir ve Zehebî, bu kusurun babasından münker rivayetlerde bulunan Hâlid b. Heyyâc’a ait olduğunu belirtmişlerdir. Dârekutnî, İbn Mâkûlâ ve İbn Nâsırüddin de İbn Hürrem’in güvenilir olduğu görüşündedir. İbn Hibbân eṣ-Ṣaḥîḥ ’inde kendisinden bir hadis rivayet etmiş, Ebü’l-Velîd el-Bâcî ise hakkında bir tâdil lafzı olan “lâ be’se bih” terimini kullanmıştır. İbn Hürrem, doksan yaşının üstünde olduğu halde 301 (913) yılının başında Herat’ta vefat etti. İbn Hacer’in 351’de (962) öldüğünü söylemesi ( Lisânü’l-Mîzân , II, 273) bir zühul eseri olmalıdır. Kaynaklarda İbn Hürrem’in et-Târîḫu’l-kebîr adıyla bir eser kaleme aldığı belirtilmişse de Buhârî’nin et-Târîḫu’l-kebîr ’i tarzında alfabetik olarak tertip edildiği, pek çok hadis ve haberi ihtiva ettiği kaydedilen bu eser günümüze ulaşmamıştır. Kaynaklarda onun başka eserlerinin bulunduğu da zikredilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 84-85 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-hurrem",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-hurrem, https://islamansiklopedisi.org.tr/ibn-hurrem",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:20Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:20Z",
+    "modified": "2026-05-04T15:34:20Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:20Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-hurrem (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî; Herevî"
+  ],
+  "death_temporal": {
+    "start_ah": 301,
+    "start_ce": 913,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-hurrem, URL: https://islamansiklopedisi.org.tr/ibn-hurrem || DİA birth place: Herat || DİA death place: Herat || DİA death-date string: (ö. 301/913) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

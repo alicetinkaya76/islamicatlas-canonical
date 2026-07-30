@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00006196",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÖMER EFENDİ, Nasuhpaşazâde"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Babası Sadrazam Dramalı Nasuh Paşa olup annesi Mîr Şerif’in kızıdır. Nasuh Paşa, I. Ahmed’in kızı Ayşe Sultan’la evlendiyse de bu evlilikten çocukları olmadı ve boşandılar. Enderun’da öğrenim gördü ve sarayda mâbeyinci oldu. 1064 (1653) yılında görevli olarak Şam’a gitmesinin ardından Dîvân-ı Hümâyun hâcegânlığına ve daha sonra Ordu-yı Hümâyun nişancılığına getirildi. Bu görevde iken Sadrazam Köprülüzâde Fâzıl Ahmed Paşa’nın Uyvar ve Girit seferlerine katıldı; Girit seferinde vefat etti (1076/1666). Ömer Efendi’nin ölüm tarihi için kaynaklarda 1068 (1658) yılı da verilmektedir. Ancak 1068 tarihi, vefatı için kaleme alınan, “Yazdı yek mushaf-ı ömre ketebe âh meded” (1076) mısraında “yek” kelimesinin “bin” şeklinde yanlış okunmasından ortaya çıkmış olmalıdır. Ayrıca Vekāyiu’l-fuzalâ ile (III, 683) Sicill-i Osmânî ’de (III, 587) 1086 (1675) tarihi, diğer bazı kaynaklarda farklı tarihler zikredilmektedir (Rado, s. 99). Girit seferinin tarihiyle vefatına düşürülen tarihin aynı olması göz önüne alındığında 1076’nın (1666) en doğru tarih olduğu söylenebilir. Tophâneli Mahmud Nûri’den sülüs ve nesih hatlarını meşkederek icâzet alan Ömer Efendi sarayda beratlardaki tuğraları çekerdi. Onun Şam’a gittiğinde hac emîri Defterdarzâde Mehmed Paşa için yazdığı En‘âm sûresi karşılığında hediyelerle taltif edildiği anlatılır. Dönemin tanınmış bestekâr ve hânendelerinden olduğu belirtilen Ömer Efendi mûsiki nazariyatı konusunda da söz sahibiydi. Esad Efendi onun yirmi iki bestesinden söz ediyorsa da bu eserlerden hiçbiri günümüze ulaşmamıştır (Safâyî, s. 390; Özalp, I, 372). Şiirlerinde “Ömrî” mahlasını kullanmış, ancak zamanımıza çok az şiiri intikal etmiştir. Zarif ve nüktedan kişiliğinin yanı sıra misafirperverliğiyle de tanınan Ömer Efendi’nin konağı dönemin ileri gelen şahsiyetlerinin toplandığı bir yerdi. Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 59 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:omer-efendi-nasuhpasazade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=omer-efendi-nasuhpasazade, https://islamansiklopedisi.org.tr/omer-efendi-nasuhpasazade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:omer-efendi-nasuhpasazade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/omer-efendi-nasuhpasazade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:48Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:48Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:48Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=omer-efendi-nasuhpasazade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1064,
+    "start_ce": 1653,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1076,
+    "start_ce": 1666,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=omer-efendi-nasuhpasazade, URL: https://islamansiklopedisi.org.tr/omer-efendi-nasuhpasazade || DİA birth place: İstanbul || DİA death-date string: (ö. 1076/1666) || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "teachers": [
+    "iac:person-00005177"
+  ]
+}

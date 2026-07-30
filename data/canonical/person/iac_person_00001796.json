@@ -1,0 +1,104 @@
+{
+  "@id": "iac:person-00001796",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Cerrâî",
+      "ar": "الجراعي"
+    },
+    "originalScript": {
+      "ar": "الجراعي"
+    },
+    "altLabel": {
+      "tr": [
+        "Takıyyüddîn Ebû Bekr b. Zeyd b. Ebî Bekr el-Hasenî el-Cerrâî ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "Şeyh Ahmed el-Bedevî’nin soyundandır. Yaklaşık 825 (1422) yılında Filistin’de Nablus şehrinin bugün yıkılmış olan kasabalarından Cerrâa’da doğdu. Bu isim bazı kaynaklarda Cirâ şeklinde geçtiği için nisbesi Cirâî şeklinde de kaydedilmektedir. Cerrâî, Yahyâ el-Abdûsî’den Kur’an, Arapça tefsir, fıkıh ve fıkıh usulü okudu. 842’de (1438) Dımaşk’a gitti, orada Takıyyüddin b. Kandes’ten meânî ve beyân ilimlerini tahsil etti, fıkıh ve usûl-i fıkıhtan icâzet aldı. Bu arada Şeyh Abdurrahman b. Süleyman ve Şemseddin eş-Şeylî’den ders aldı. Daha sonra Dımaşk’ta Hanbelî mezhebinin seçkin şahsiyetlerinden biri olarak ders ve fetva vermeye başladı, kadılık yaptı. Cerrâî ile ilgili olarak bilgi veren Sehâvî, onunla aynı yaşta olduğunu, Dımaşk’a gittiğinde kendisine arkadaşlık ettiğini kaydeder. 861 (1457) yılında Kahire’ye giden Cerrâî, orada Seyyid en-Nessâbe, Alemüddin el-Bulkīnî, Celâleddin el-Mahallî, Ümmü Hânî el-Hevrîniyye, Takıyyüddin el-Hısnî ve İbnü’l-Hümâm’ın sohbet ve derslerinde bulundu. Kendisinden de pek çok kimse ders aldı. Birkaç defa hacca giden Cerrâî, 875’teki (1470) haccı sırasında mücâvir olarak kaldı ve Necmeddin İbn Fehd’den Ahmed b. Hanbel’in el-Müsned ’inin tamamını okudu, kendisi de öğrencilerine okuttu. 11 Receb 883 (8 Ekim 1478) tarihinde Dımaşk’ta vefat etti. Şiirle de uğraşan Cerrâî’nin çeşitli kasideleri yanında bazı manzum risâleleri de bulunmaktadır. Eserleri. 1. Tuḥfetü’r-râkiʿ ve’s-sâcid fî aḥkâmi’l-mesâcid . Mescidlerle ilgili hükümler, Mescid-i Harâm, Mescid-i Nebevî ve Mescid-i Aksâ’nın tarihçeleri, faziletleri ve bunlarla ilgili dinî hükümlere dair bir eserdir. Dört mezhebin görüşlerine yer veren eser, mukaddimeden sonra dört bölüm (kitâb) ve yetmiş beş babdan oluşmaktadır (yazma nüshası için bk. Selâhaddin el-Müneccid, s. 257). 2. Kitâbü’l-Evâʾil . Kaynaklarda adı geçmeyen bu eserin müellif hattı bir nüshası Berlin Kraliyet Kütüphanesi’nde bulunmaktadır (nr. 9368). Kütüphanenin fihristini düzenleyen Ahlwardt, müellifin adını yanlışlıkla Huzâî diye göstermiştir ( a.g.e. , s. 257). Cerrâî’nin bunlardan başka kaynaklarda adları geçen diğer eserleri de şunlardır: Ġāyetü’l-maṭlab fî maʿrifeti’l-meẕheb (muhtasar bir fıkıh kitabıdır), Ḥilyetü’ṭ-ṭırâz fî ḥalli’l-elġāz , Muḫtaṣaru Kitâbi Aḥkâmi’n-nisâʾ (Ebü’l-Ferec İbnü’l-Cevzî’nin Aḥkâmü’n-nisâʾ adlı eserinin muhtasarıdır), Şerḥu Uṣûli İbni’l-Laḥḥâm , et-Terşîḥ fî beyâni mesâʾili’t-tercîḥ , Taṣḥîḥu’l-ḫilâfi’l-muṭlaḳ , Nefâʾisü’d-dürer fî muvâfaḳāti ʿÖmer. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 425-426 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cerrai",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cerrai, https://islamansiklopedisi.org.tr/cerrai",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:cerrai",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=cerrai",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:48Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:48Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:48Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cerrai (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=cerrai)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hasenî; Cerrâî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 825,
+    "start_ce": 1422,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 883,
+    "start_ce": 1478,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cerrai, URL: https://islamansiklopedisi.org.tr/cerrai || DİA birth place: Cerrâa || DİA death place: Dımaşk || DİA death-date string: (ö. 883/1478) || DİA categories: fıkıh > mezhep > tefsir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003797",
+    "iac:person-00003957",
+    "iac:person-00004221",
+    "iac:person-00005150"
+  ],
+  "students": [
+    "iac:person-00004258"
+  ]
+}

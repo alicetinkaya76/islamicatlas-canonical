@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000954",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ el-A‘LÂ",
+      "ar": "عليّ الأعلى"
+    },
+    "originalScript": {
+      "ar": "عليّ الأعلى"
+    },
+    "altLabel": {
+      "tr": [
+        "Şeyh Ebü’l-Hasen Alî el-A‘lâ el-İsfahânî"
+      ]
+    },
+    "description": {
+      "tr": "Halîfetullah Ali el-A‘lâ ismiyle şöhret bulan Ebü’l-Hasan-ı İsfahânî’nin, kendisini yüceltmek için, Kur’ân-ı Kerîm’de geçen (bk. el-Bakara 2/255; el-Hac 22/62; Lokmân 31/30; Sebe’ 34/23) el-aliyyü’l-azîm ( العلي العظيم ) ve el-aliyyü’l-kebîr ( العلي الكبير ) ibarelerinden faydalanarak Ali adına, “en yüce” anlamına gelen el-a‘lâ ( الأعلى ) sıfatını eklediği anlaşılmaktadır. Emîr Seyyid Ali ismiyle de anılmaktadır. Çok genç yaşta Fazlullah-ı Hurûfî’ye intisap etti. Fazlullah’ın katli ve Hurûfîliğin İran’da Timurlular döneminde sıkı bir takibata uğramasından sonra Suriye’ye kaçarak Şam üzerinden Anadolu’ya geçti. Anadolu’da, mensubu bulunduğu Hurûfîlik fırkasının inancını yaymak maksadıyla, Fazlullah-ı Hurûfî’nin Câvidânnâme ’sini esas alarak Tevḥîdnâme ve Ḳıyâmetnâme adlı iki manzum eser telif etti. Kardeşiyle beraber Anadolu’da çeşitli yerlere seyahatler yaparak Hurûfî inançlarını yaymaya çalıştı. Anadolu’da bulunduğu yıllarda bir süre kaldığı Hacı Bektaş Tekkesi’nde tekke mensuplarına Câvidânnâme ’yi ve Hurûfî inancını “Hacı Bektâş-ı Velî tariki” olarak tanıttı. Hatta Câvidânnâme ’de yer alan ve ilâhî emirleri Hurûfîlik inancına uygun bir şekilde yorumlayan bölümleri dervişlere sır olarak öğretti ve bunları gizli tutmalarını istedi. Uzun süre Anadolu’da kaldıktan sonra İran’a dönen Ali el-A‘lâ, Nahcıvan yakınlarında Alıncak’ta öldü ve Fazlullah-ı Hurûfî’nin yanına defnedildi. Eserleri. Ali el-A‘lâ’nın Farsça olarak kaleme aldığı eserlerinin tamamının ana kaynağı, Fazlullah-ı Hurûfî’nin kurduğu ve bir sistem haline getirdiği Hurûfîliğin “kutsal kitabı” kabul edilen Câvidânnâme ’dir. Çeşitli kütüphanelerde yazmalar halinde ve hepsi manzum olan bu eserler şunlardır: 1. Tevḥîdnâme . Şîrazlı Alişah adlı bir gencin isteği üzerine kaleme alınan bu eser, Câvidânnâme ’den mülhem olmakla birlikte, müellifi ve Hurûfîlik inancı hakkında başka bilgiler de ihtiva etmektedir. 2. Fırâḳnâme . Fazlullah-ı Hurûfî’nin kızı için yazılmış bir mersiyedir. Eserde sözü edilen Mahdum Zâde, Hurûfîler’den Emîr Nûrullah’ın annesi, Fazlullah’ın da kızıdır. 3. Mers̱iye-i Birâder . Ali el-A‘lâ’nın kardeşinin öldürülmesi veya ölmesi üzerine yazılmıştır. 4. Mers̱iye-i Seyyid Kemâleddîn Ḥüseyin . Hurûfî ileri gelenlerinden Seyyid Kemâleddin Hüseyin’in öldürülmesi dolayısıyla yazılan bu mersiyede maktulün nerede ve kimin fetvasıyla öldürüldüğü anlatılmaktadır. 5. Ḳıyâmetnâme . Fazlullah-ı Hurûfî’nin öldürülmesini anlatan bu eserde, aynı zamanda Bektaşîliğin Hurûfîlik üzerindeki etkisini gösteren “gülbank” de bulunmaktadır. 6. Mes̱nevî . Muhtemelen Ḳıyâmetnâme ’nin devamı mahiyetinde bir eserdir (henüz yayımlanmamış bu eserlerin yazma nüshaları için bk. Gölpınarlı, s. 133-138; Dihhudâ, “Ḥurûfiyyân” md.). Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 381 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-el-ala",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-el-ala, https://islamansiklopedisi.org.tr/ali-el-ala",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ali-el-ala",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ali-el-ala",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-el-ala (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ali-el-ala)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "İsfahânî"
+  ],
+  "death_temporal": {
+    "start_ah": 822,
+    "start_ce": 1419,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-el-ala, URL: https://islamansiklopedisi.org.tr/ali-el-ala || DİA death place: Alıncak || DİA death-date string: (ö. 822/1419) || DİA categories: şiir > fetva || Chunk count: 1"
+}

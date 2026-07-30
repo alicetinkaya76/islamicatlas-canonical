@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00000827",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED PAŞA, Küçük"
+    },
+    "description": {
+      "tr": "Doğum tarihi belli değildir. Asker olarak yetişti ve mesleğinde hızla yükseldi. IV. Murad zamanında devletin yeniden toparlanmasında ve ülke içinde asayişin sağlanmasında önemli rol oynadı. 1623’te Hâfız Ahmed Paşa kumandasında yapılan İran seferinde öncü kumandanlığı yaptı. 1627’de Sivas, 1629’da Şam, ertesi yıl da Anadolu beylerbeyiliğine getirildi ve bu eyalette baş gösteren İlyas Paşa ayaklanmasını bastırmakla görevlendirildi. 1632 yılında âsiyi yakalayıp İstanbul’a gönderdi. Aynı yıl Dürzî ayaklanmalarını bastırmak için tekrar Şam valiliğine tayin edildi. Yıllardır devletin başına belâ olan ve müstakil bir devlet kurmak isteyen Ma‘noğlu Fahreddin’in isyanına son verdi. Böylece Lübnan’da asayişi sağladı. Bu çok önemli hizmetlerine mükâfat olarak üç tuğlu vezirliğe yükseltildi ve IV. Murad Fahreddin’in mallarının tamamını kendisine bağışladı. 1635’te Erzurum beylerbeyi oldu ve IV. Murad’ın Revan seferine katıldı. Padişah tarafından, bir süreden beri İran’ın tehdidi altında bulunan Musul’un müdafaası ile görevlendirildi. Ancak bu vazifede fazla kalamadı, İranlılar’la yapılan savaşta Erdelân’da şehid oldu. Kısa boylu ve küçük yapılı olduğu için “küçük” sıfatıyla anılan Ahmed Paşa, elde ettiği serveti Haremeyn hizmetinde ve Şam’ın güneyinde hac yolu üzerinde yaptırdığı tekkede kullanılmak üzere kurduğu vakfa tahsis etmiştir. Bugün Assâlî Camii adıyla bilinen bu tekke, XVII. yüzyılda Şam’da yaptırılmış dikkate değer sanat eserleri arasında yer almaktadır. Ahmed Paşa’nın mezarı da bu tekkenin hazîresindedir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 113-114 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-pasa-kucuk",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-pasa-kucuk, https://islamansiklopedisi.org.tr/ahmed-pasa-kucuk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-pasa-kucuk",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-pasa-kucuk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:01Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-pasa-kucuk (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1046,
+    "start_ce": 1636,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-pasa-kucuk, URL: https://islamansiklopedisi.org.tr/ahmed-pasa-kucuk || DİA death-date string: (ö. 1046/1636) || Chunk count: 1"
+}

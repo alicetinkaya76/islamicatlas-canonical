@@ -1,0 +1,119 @@
+{
+ "@id": "iac:person-00014542",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Abū al-Ḥasan al-Jurjānī",
+   "tr": "Ebû'l-Hasan el-Cürcânî",
+   "ar": "أبو الحسن الجرجاني"
+  },
+  "originalScript": {
+   "ar": "أبو الحسن الجرجاني"
+  },
+  "description": {
+   "tr": "Edebiyat ilminde âlim olan bir kâdı",
+   "en": "A judge from the scholars of literature"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAlī b. ʿAbd al-ʿAzīz b. al-Ḥasan al-Jurjānī, Abū al-Ḥasan"
+  },
+  "altLabel": {
+   "tr": [
+    "Alî b. Abdülazîz b. el-Hasan el-Cürcânî, Ebû'l-Hasan",
+    "el-Cürcânî"
+   ],
+   "ar": [
+    "علي بن عبد العزيز بن الحسن الجرجاني، أبو الحسن"
+   ]
+  }
+ },
+ "profession": [
+  "scholar",
+  "judge"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:7206",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7206",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "alatli:E1010",
+    "source_type": "secondary_scholarly",
+    "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:32Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:32Z",
+  "modified": "2026-07-24T05:45:29Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:32Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=7206 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:47Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7206."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-24T05:45:29Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alatli augment (H25, Tier-2 conf 0.99): ['altLabel.tr', 'derived_from_layers']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1881-14542) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001881 lehine yumuşak-silindi. Gerekçe: Künye (Ebü'l-Hasan) + nisbe (el-Cürcânî) + Gürgân bağlamı + 1001/1002 yılı kadı ve edip Ali b. Abdülazîz el-Cürcânî'de örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001881"
+ },
+ "death_temporal": {
+  "start_ah": 392,
+  "start_ce": 1002,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7206, heading_ar=أبو الحسن الجرجاني || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 36.84, 54.44",
+ "active_in_places": [
+  "iac:place-00003033",
+  "iac:place-00012317"
+ ],
+ "authored_works": [
+  "iac:work-00003418"
+ ],
+ "kunya": "أبو الحسن",
+ "derived_from_layers": [
+  "alatli"
+ ]
+}

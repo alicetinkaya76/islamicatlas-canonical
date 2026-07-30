@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00005245",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MARÇAIS, Georges"
+    },
+    "description": {
+      "tr": "Rennes’de doğdu; Breton asıllıdır. Yüksek öğrenimini Paris Güzel Sanatlar Enstitüsü’nde tamamladı. Doktorasını yaptıktan sonra 1919’da Cezayir Üniversitesi Edebiyat Fakültesi İslâm Eserleri Kürsüsü’ne öğretim üyesi olarak tayin edildi ve bu görevini 1944 yılına kadar yürüttü. 1931’de ayrıca üniversiteye bağlı Doğu Araştırmaları Enstitüsü’nün müdürlüğüne getirildi. Yazarlar ve Edebiyatçılar Birliği ile Fransız Enstitüsü Güzel Sanatlar Akademisi’ne üye seçildi. Yetiştirdiği öğrencileri ve meslektaşları, onun 80. yaş günü için I. cildi kendi makalelerinden oluşturulan iki ciltlik bir armağan kitabı yayımladılar (bk. bibl.). 20 Mayıs 1962 tarihinde öldü. Mütevazi, cömert ve çalışkan kişiliğiyle tanınmıştır. Georges Marçais, Batı İslâm medeniyeti uzmanıydı. Kuzey Afrika’daki müslüman millet ve devletlerinin tarihî, politik, sosyal, ekonomik ve kültürel yapıları üzerine çalışmış, bu konularla ilgili birçok kitap ve makale yazmıştır. Bu çalışmalarında Marçais özellikle Kuzey Afrika’nın mimarisini, küçük el sanatlarını, dokuma, giyim, hat, süsleme, halıcılık ve minyatürcülüğünü mahallî nitelikleri ve yöresel özellikleriyle ele alıp tanıtmış, böylece Batı İslâm medeniyetine ait öz değerlerin ortaya çıkarılmasına önemli katkılarda bulunmuştur. Eserleri. 1. Les monuments arabes de Tlemcen (Paris 1903). Tilimsân’daki Arap mimarisi üzerine ağabeyi William Marçais’in de yardımıyla hazırladığı ilk kitabıdır. 2. La mosquée de Walid à Damas (1906). Şam’da Emevî Halifesi Velîd b. Abdülmelik tarafından yaptırılan Emeviyye Camii hakkındadır. 3. Les arabes en Berbérie du XI e au XIV e siècle (Constantin-Paris 1913). XI-XIV. yüzyıllar arasında Berberî bölgesinde yaşayan Araplar’ı incelediği doktora tezidir. 4. Manuel d’art musulman: l’Architecture (I-II, Paris 1926-1927). Kuzey Afrika küçük el sanatlarını ve mimarisini ayrıntılı biçimde inceleyen önemli bir kaynaktır. Eser daha sonra gözden geçirilerek genişletilmiş ve L’architecture musulmane d’occident adıyla yeniden basılmıştır (Paris 1954). 5. Le costume musulman d’Alger (Paris 1930). Cezayir müslümanlarının giyim tarzı hakkındadır. 6. La Berbérie musulmane et l’Orient au moyen âge (Paris 1946). Doktora tezinde incelediği konulardan birçoğunu yeniden ele alıp değerlendirdiği ve Ortaçağ Kuzey Afrikası ile Doğu İslâm dünyasını mukayese ettiği bir çalışmadır. 7. Algérie médiévale. Monuments et paysages historiques (Paris 1957). Ortaçağ Cezayiri’nin tarihî görünümü ve âbideleri hakkındadır. 8. Les bijoux musulmans de l’Afrique du nord (Alger 1958). Kuzey Afrika kuyumculuğu ve takılarıyla ilgilidir. 9. Villes et campagnes d’Algérie, album (Paris 1958). Cezayir’in kırsal kesimlerini fotoğraflarla tanıtan bir albümdür. 10. La miniature musulmane (Alger 1960). 11. L’art musulman (Paris 1962). Kuzey Afrika ağırlıklı olarak genel anlamda İslâm sanatını inceler (1955’e kadar basılan eserlerinin tam listesi için bk. Mélanges d’histoire , I [1957], s. 257-260; 1955’ten sonraki eserlerini kapsayan ek liste için bk. Brunschvig, XI/1 [1964], s. 3-4). Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 43 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:marcais-georges",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=marcais-georges, https://islamansiklopedisi.org.tr/marcais-georges",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:marcais-georges",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=marcais-georges",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:37Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=marcais-georges (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=marcais-georges)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1876,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=marcais-georges, URL: https://islamansiklopedisi.org.tr/marcais-georges || DİA birth place: Rennes || DİA death-date string: (1876-1962) || Chunk count: 1"
+}

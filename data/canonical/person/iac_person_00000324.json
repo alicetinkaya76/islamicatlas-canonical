@@ -1,0 +1,120 @@
+{
+ "@id": "iac:person-00000324",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn Khaldun",
+   "tr": "İbn Haldûn",
+   "ar": "ابن خلدون"
+  },
+  "originalScript": {
+   "ar": "ابن خلدون"
+  },
+  "altLabel": {
+   "en": [
+    "Abd al-Rahman ibn Muhammad ibn Khaldun"
+   ],
+   "tr": [
+    "Abdurrahman b. Muhammed b. Haldûn"
+   ],
+   "ar": [
+    "عبد الرحمن بن محمد بن خلدون"
+   ]
+  },
+  "description": {
+   "tr": "Umran ilmini kurdu; ilk sistematik sosyal bilimci || Geç ortaçağ Mağrib'inin tarih yazımını bilime dönüştüren dev düşünürü || [Tarih notu] Toynbee Mukaddime'yi türünün en büyük eseri olarak niteledi",
+   "en": "Founded the science of civilization (ilm al-umran); first systematic social scientist || Towering intellect of the late medieval Maghrib who transformed historiography into science || [Historiographical note] Toynbee called the Muqaddimah the greatest work of its kind; now standard in sociology curricula",
+   "ar": "أسس علم العمران || عقل شامخ في المغرب في أواخر العصور الوسطى || [Historiographical note] وصف توينبي المقدمة بأنها أعظم عمل من نوعه"
+  }
+ },
+ "profession": [
+  "scholar",
+  "historian",
+  "philosopher"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0145",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0145",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   },
+   {
+    "source_id": "scholars:18",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=18",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-07-10T14:25:01Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0145 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T14:25:01Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (193-324-3827) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000193 lehine yumuşak-silindi. Gerekçe: Üç kayıt da Mukaddime müellifi Tunuslu İbn Haldûn'dur (ö. 1406); ad, Arapça ad ve ölüm yılı birebir aynı, 3827'deki 'ruler' rolü onun idarî görevlerinden gelen etiket gürültüsüdür."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000193"
+ },
+ "birth_temporal": {
+  "start_ce": 1332,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1406,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0145, lecture_week=n/a. || Key works: {'title': {'en': 'Muqaddimah', 'tr': 'Mukaddime', 'ar': 'المقدمة'}, 'year': 1377, 'field': 'social_sciences', 'significance': {'en': 'Founded sociology, historiography as science; theory of asabiyya and cyclical civilizations', 'tr': 'Sosyoloji ve tarih bilimini kurdu; asabiyet ve döngüsel medeniyet teorisi'}} || Modern parallel: Like inventing data-driven social science before data existed — pattern recognition on civilizations",
+ "birth_place": "iac:place-00002703",
+ "active_in_places": [
+  "iac:place-00009399"
+ ],
+ "authored_works": [
+  "iac:work-00000183",
+  "iac:work-00000369",
+  "iac:work-00002010",
+  "iac:work-00004453"
+ ],
+ "kunya": "Ebû Zeyd",
+ "nisba": [
+  "Hadramî",
+  "Sevillî → Tûnusî → Mısrî"
+ ]
+}

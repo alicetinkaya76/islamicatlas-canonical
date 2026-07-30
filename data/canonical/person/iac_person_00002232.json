@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00002232",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ NASR es-SİCZÎ",
+      "ar": "أبو نصر السجزي"
+    },
+    "originalScript": {
+      "ar": "أبو نصر السجزي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Nasr Ubeydullāh b. Saîd b. Hâtim es-Siczî"
+      ]
+    },
+    "description": {
+      "tr": "Sicistan’ın Vâil köyünden olduğu için es-Siczî ve el-Vâilî, Bekir b. Vâil kabilesine nisbetle de el-Bekrî nisbeleriyle anılmaktadır. es-Siczî nisbesinin yanlışlıkla eş-Şecerî diye yazıldığı da görülmektedir. Fıkıh ilmini Hanefî fakihi olan babasından öğrendi. 400 (1009) yılı civarında hadis tahsiline başladı. Bu maksatla Hicaz, Şam, Irak ve Horasan’a seyahatler yaptı. Hâkim en-Nîsâbûrî, Abkasî, Ebû Abdurrahman es-Sülemî gibi âlimlerden faydalandı. Kendisine de kıraat âlimi Ebû Ma‘şer et-Taberî, Ebû İshak el-Habbâl, Sehl b. Bişr el-İsferâyînî ve Ca‘fer b. Ahmed es-Serrâc gibi âlimler talebelik ettiler. Önceleri Mısır’a, daha sonra Mekke’ye yerleşti. Talebesi muhaddis Habbâl’den, güçlü hâfızasıyla ünlü hadis hâfızı Muhammed b. Abdullah es-Sûrî ile (ö. 441/1049) onu mukayese etmesini istediler. Habbâl, hocasının ezberinin Sûrî gibi elli muhaddisten daha güçlü olduğunu söyledi. Hadislerin rivayet şekilleri ve râvilerin halleri konusunda derin bilgiye sahip olan es-Siczî, yaptığı önemli tartışmalarda Selef görüşünü savunurdu. Ebû Nasr, geçim sıkıntısı çekmesine rağmen ilim tahsilinden elde edeceği sevabı kaybetmemek için dünyevî menfaatlerden uzak durdu. Habbâl’in, bizzat yanında bulunduğunu belirterek naklettiğine göre bir gün bir kadın Ebû Nasr’ın evine gelerek kendisine bin dinar vermek istedi. Sonra da evlilikte gözü olmamakla beraber sadece ona hizmet edebilmek için kendisini zevceliğe kabul etmesini teklif etti. Dünyalık için evlenmenin ilimden beklediği sevabı azaltacağını düşünen Ebû Nasr, parayı kabul etmediği gibi kadının evlenme teklifini de reddetti. Ebû Nasr es-Siczî Muharrem 444’te (Mayıs 1052) Mekke’de vefat etti. Kaynaklarda onun muhtelif eserleri bulunduğu söylenmekteyse de bunlardan sadece el-İbânetü’l-kübrâ ’nın adı zikredilmektedir. Kur’ân-ı Kerîm’in mahlûk olmadığını ispat etmek için kaleme aldığı bu hacimli eserin onun hadis ilmindeki otoritesini gösterdiği kabul edilmekte, fakat eserin günümüze gelip gelmediği bilinmemektedir. Bağdatlı İsmâil Paşa, Ali el-Kārî’den naklen onun tarihe dair bir eseri olduğunu kaydeder. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 200 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-nasr-es-siczi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-nasr-es-siczi, https://islamansiklopedisi.org.tr/ebu-nasr-es-siczi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-nasr-es-siczi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-nasr-es-siczi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-nasr-es-siczi (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Siczî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 400,
+    "start_ce": 1009,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 444,
+    "start_ce": 1052,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-nasr-es-siczi, URL: https://islamansiklopedisi.org.tr/ebu-nasr-es-siczi || DİA death place: Mekke || DİA death-date string: (ö. 444/1052) || DİA categories: hadis > fıkıh > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000687",
+    "iac:person-00005214"
+  ],
+  "students": [
+    "iac:person-00002298",
+    "iac:person-00002956"
+  ]
+}

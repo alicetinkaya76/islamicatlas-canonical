@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00006929",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Şevket Ali",
+      "ar": "شوكت على"
+    },
+    "originalScript": {
+      "ar": "شوكت على"
+    },
+    "description": {
+      "tr": "Günümüzde Uttar Pradeş eyaletine bağlı olan Râmpûr’da doğdu. Çocuk yaşta iken babası Abdülali Han vefat edince kardeşleri Muhammed Ali ve Zülfikar Ali ile beraber annesi tarafından yetiştirildi. İlk eğitimini Bireli’de (Bereyli, Bareilly) aldıktan sonra Mohammadan Anglo-Oriental College’da (Aligarh Muslim University) öğrenimini tamamladı. 1896-1913 yılları arasında Kudh ve Agra’da kamu hizmetinde çalıştı. 1911’den itibaren kardeşiyle birlikte Kalküta’da dönemin en etkili müslüman siyasî gazetelerinden olan İngilizce Comrade ve 1913’te Delhi’de Urduca Hamdard (Hemderd) gazetelerini çıkardı. Böylece Hindistan’da Osmanlı Devleti ve hilâfeti lehindeki faaliyetleriyle ön plana çıkan isimlerden biri oldu. Çeşitli gazete ve dergilerdeki yazıları yanında Hindistan’da Osmanlılar için yardım toplanmasına ve Balkan savaşlarında doktorlardan oluşan bir heyetin Türkiye’ye gönderilmesine öncülük yaptı. Osmanlılar’ın yanında savaşmak üzere gönüllüler toplama girişimi İngilizler tarafından önlendi. I. Dünya Savaşı’nda İslâm’ın mukaddes beldelerinin korunması amacıyla faaliyete geçen Encümen-i Huddâm-ı Kâ‘be’nin kurucuları arasında yer aldı ve genel sekreterliğiyle icra kurulu başkanlığı yaptı. Aynı savaşta İngilizler’in bütün tedbirlerine rağmen Osmanlılar’ı destekledi, müslüman din adamlarına İngilizler lehine fetva vermesi yolunda yapılan baskılara karşı çıktı. 1919’da yıkıcı faaliyetlerde bulunduğu iddiasıyla İngilizler tarafından hapsedildi. Savaşın ardından hilâfet hukukunu korumak ve Osmanlı Devleti’ni desteklemek için oluşturulan Hindistan Hilâfet Hareketi’nin önderleri arasında yer aldı ve ilk hilâfet konferansının başkanlığına seçildi. Hindistan’daki pasif direniş hareketini ve Mahatma Gandi’yi desteklediğinden tekrar tutuklandı ve 1921-1923 yılları arasında hapis yattı. Daha sonra bağımsız Hindistan’daki Hindu-müslüman ilişkileri hususunda Gandi ve Hindistan Kongre Partisi ile görüş ayrılığına düştü. 1928 Nehru raporuna itiraz ederek müslümanlar için ayrı seçim sistemi önerdi. Hindistan’ın geleceğiyle ilgili I ve II. Londra toplantılarına müslümanlar adına katıldı. 1931’de Dünya Müslümanları Kongresi’ni toplamak amacıyla Kudüs’e gitti. 1936’da Hindistan Müslümanları Birliği’nde yer aldı ve Muhammed Ali Cinnah ile birlikte hareket etti. 1934-1938 yıllarında Hindistan Müslümanları Birliği merkez idare heyetinde bulundu. Hindistan’ın bağımsızlığı için destek aramak üzere Arap ülkeleri, Avrupa ve Amerika Birleşik Devletleri’nde görüşmeler yaptı, konferanslar verdi. 26 Kasım 1938’de Delhi’de vefat eden Şevket Ali, Pakistan fikrinin ilk savunucularından biri olarak modern Hindistan’ın en etkili siyasî simaları arasında seçkin bir yere sahiptir. Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 30 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:sevket-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=sevket-ali, https://islamansiklopedisi.org.tr/sevket-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:56Z",
+    "modified": "2026-05-04T15:34:56Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=sevket-ali (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1873,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=sevket-ali, URL: https://islamansiklopedisi.org.tr/sevket-ali || DİA birth place: Râmpûr || DİA death-date string: (1873-1938) || DİA categories: fetva || Chunk count: 1"
+}

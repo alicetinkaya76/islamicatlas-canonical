@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00001402",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BEGAVÎ, Ali b. Abdülazîz",
+      "ar": "علي بن عبد العزيز البغوي"
+    },
+    "originalScript": {
+      "ar": "علي بن عبد العزيز البغوي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Abdilazîz b. el-Merzübân el-Begavî"
+      ]
+    },
+    "description": {
+      "tr": "Horasan’da Merverrûz ile Herat arasında bulunan Bağşûr (Bağ) kasabasında doğduğu ve buraya nisbet edildiği anlaşılan Begavî, daha sonra Mekke’ye yerleşti ve ölümüne kadar burada yaşadı. Affân b. Müslim, Ebû Ubeyd Kāsım b. Sellâm, Ka‘nebî ve Ali b. Ca‘d gibi şeyhlerden hadis dersi aldı. Ayrıca Ebû Ubeyd’den kıraat ilmini öğrendi. Kendisinden yeğeni Ebü’l-Kāsım el-Begavî, Da‘lec b. Ahmed, Taberânî ve tahsil için Mekke’ye gelen birçok hadisçi rivayette bulundu. Begavî doksan yaşını geçmiş olduğu halde Mekke’de vefat etti. İbn Ebû Hâtim ondan sadûk , Dârekutnî ise sika diye söz ederken başta es-Sünen sahibi Nesâî olmak üzere diğer bazı âlimler, ücret almadan hadis okutmadığı için onu kınamış ve kendisinden rivayette bulunmamışlardır. Begavî ise mücâvir olması (aslen Mekkeli olmaması) ve sadece ilimle meşgul bulunması sebebiyle herhangi bir kazancı olmadığı için ücret aldığını söyleyerek kendisini savunmuştur. Ebû Ubeyd Kāsım b. Sellâm’ın Ġarîbü’l-ḥadîs̱ , Kitâbü’l-Ḥayż ve Kitâbü’ṭ-Ṭahûr adlı eserlerini rivayet eden Begavî, nüshası bize kadar ulaşmamış olan büyük bir müsned de meydana getirmiştir. Bu eseri kendisinden Ebû Ali Hâmid b. Muhammed en-Nerevî rivayet etmiştir. Begavî’nin, hocası Ebû Ubeyd’den naklettiği hadisleri ihtiva eden bir de hadis cüzü bulunmaktadır (Zâhiriyye Ktp., nr. 98/7, vr. 92 a -97 a ). Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 339 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:begavi-ali-b-abdulaziz",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=begavi-ali-b-abdulaziz, https://islamansiklopedisi.org.tr/begavi-ali-b-abdulaziz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:41Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=begavi-ali-b-abdulaziz (1 chunks) by dia adapter (Hafta 4). Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Begavî"
+  ],
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 286,
+    "start_ce": 899,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=begavi-ali-b-abdulaziz, URL: https://islamansiklopedisi.org.tr/begavi-ali-b-abdulaziz || DİA death place: Mekke || DİA death-date string: (ö. 286/899) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000714",
+    "iac:person-00000929",
+    "iac:person-00002290",
+    "iac:person-00004713"
+  ],
+  "students": [
+    "iac:person-00001915",
+    "iac:person-00004151",
+    "iac:person-00007222",
+    "iac:person-00007454"
+  ]
+}

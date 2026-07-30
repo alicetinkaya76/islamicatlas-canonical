@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00000939",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ b. MÜSHİR",
+      "ar": "عليّ بن مسهر"
+    },
+    "originalScript": {
+      "ar": "عليّ بن مسهر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Müshir el-Kureşî el-Kûfî"
+      ]
+    },
+    "description": {
+      "tr": "120 (738) yılı dolaylarında doğdu. Yahyâ b. Saîd el-Ensârî, Hişâm b. Urve, Âsım el-Ahvel, A‘meş ve Ebû Mâlik el-Eşcaî gibi birçok üstattan hadis dinledi. Kendisinden de Hâlid b. Mahled, Serî es-Sakatî, Ebû Bekir b. Ebû Şeybe, Ali b. Hucr, Osman b. Ebû Şeybe gibi meşhur âlimler hadis rivayet ettiler. Rivayet ettiği hadisler Kütüb-i Sitte ’de mevcuttur. 166 (783) yılında tayin edilip 174’te (790) azledildiği Musul kadılığı göreviyle meşhur oldu. Tarihi belli olmamakla beraber bir ara İrmîniye kadılığı da yaptı. Bu görevde iken gözlerinden rahatsızlandı; kendisinden önceki kadının teşvikiyle onu tedavi eden tabip gözlerini kör etti. Daha sonra Kûfe’ye döndü. Bilhassa Kûfeliler’den çok hadis rivayet etmiştir. Âmâ iken ezberden rivayet ettiği hadisler bazı hadisçiler tarafından ihtiyatla karşılanmıştır. Abdullah b. Nümeyr onun bütün kitaplarını toprağa gömdüğünü, daha sonra zaman zaman kendisini ziyarete gelerek muhtelif râviler hakkında bilgi aldığını söylemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 422 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-b-mushir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-b-mushir, https://islamansiklopedisi.org.tr/ali-b-mushir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ali-b-mushir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ali-b-mushir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-b-mushir (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî"
+  ],
+  "birth_temporal": {
+    "start_ah": 120,
+    "start_ce": 738,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 189,
+    "start_ce": 805,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-b-mushir, URL: https://islamansiklopedisi.org.tr/ali-b-mushir || DİA death-date string: (ö. 189/805) || DİA categories: hadis > rivayet > tıp || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001148",
+    "iac:person-00003438",
+    "iac:person-00007655"
+  ],
+  "students": [
+    "iac:person-00000932",
+    "iac:person-00003758",
+    "iac:person-00003760",
+    "iac:person-00006895"
+  ]
+}

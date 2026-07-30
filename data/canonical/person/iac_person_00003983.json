@@ -1,0 +1,101 @@
+{
+  "@id": "iac:person-00003983",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Nümeyr",
+      "ar": "ابن نمير"
+    },
+    "originalScript": {
+      "ar": "ابن نمير"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdirrahmân Muhammed b. Abdillâh b. Nümeyr el-Hemdânî el-Kûfî"
+      ]
+    },
+    "description": {
+      "tr": "160 (777) yılı civarında Kûfe’de doğdu. Aslen Yemenli olup Kûfe’ye yerleşen Hemdân kabilesinin Hârif koluna mensuptur. Babası Abdullah b. Nümeyr, çoğu Ṣaḥîḥ-i Müslim ’de olmak üzere 578 rivayeti Kütüb-i Sitte ’de yer alan tanınmış bir hadis hâfızıdır. İbn Nümeyr ilim tahsiline babasından hadis öğrenerek başladı; Muhammed b. Bişr, Süfyân b. Uyeyne, İsmâil b. Uleyye, Vekî‘ b. Cerrâh, Muhammed b. Fudayl, Mervân b. Muâviye gibi şahsiyetlerden hadis öğrendi. Muhammed b. Yahyâ ez-Zühlî, Ebû Hâtim er-Râzî, Ebû Zür‘a er-Râzî, Ya‘kūb b. Şeybe, Ya‘kūb el-Fesevî, Bakī b. Mahled, Abdullah b. Ahmed b. Hanbel ve Ebû Ya‘lâ el-Mevsılî kendisinden hadis konusunda faydalanan belli başlı talebeleridir. Buhârî ve Müslim Ṣaḥîḥ ’lerinde, Ebû Dâvûd ve İbn Mâce sünenlerinde doğrudan, Tirmizî ve Nesâî ise Buhârî aracılığıyla ondan rivayette bulundular. Ṣaḥîḥ-i Buḫârî ’de yirmi iki, Ṣaḥîḥ-i Müslim ’de 573 rivayeti yer alır. Ebû Hâtim er-Râzî, Ebü’l-Hasan el-İclî, Ebû Dâvûd ve Nesâî gibi hadis münekkitlerinin sika olarak nitelendirdiği ve hadislerinin delil olarak kullanılabileceğini belirttiği İbn Nümeyr’i İbn Ebû Hâtim cerh ve ta‘dîl konusunda otorite kabul etmiş, cerh ve ta‘dîl ile ilelü’l-hadîse dair bazı görüşlerine el-Cerḥ ve’t-taʿdîl adlı eserinde yer vermiştir. Ahmed b. Hanbel de İbn Nümeyr’den övgüyle bahsetmiş, Yahyâ b. Maîn ve Ahmed b. Hanbel Kûfeli râvilerle ilgili değerlendirmelerde onun görüşlerini esas almışlardır. İbn Nümeyr Şâban veya Ramazan 234’te (Mart veya Nisan 849) Kûfe’de vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 237 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-numeyr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-numeyr, https://islamansiklopedisi.org.tr/ibn-numeyr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:22Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:22Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-numeyr (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hemdânî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 160,
+    "start_ce": 777,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 234,
+    "start_ce": 849,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-numeyr, URL: https://islamansiklopedisi.org.tr/ibn-numeyr || DİA birth place: Kûfe || DİA death place: Kûfe || DİA death-date string: (ö. 234/849) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004060",
+    "iac:person-00005679",
+    "iac:person-00006367",
+    "iac:person-00007121",
+    "iac:person-00007584"
+  ],
+  "students": [
+    "iac:person-00000484",
+    "iac:person-00001307",
+    "iac:person-00002179",
+    "iac:person-00002299",
+    "iac:person-00002313",
+    "iac:person-00002740",
+    "iac:person-00004030",
+    "iac:person-00004139",
+    "iac:person-00004182",
+    "iac:person-00005861",
+    "iac:person-00007896"
+  ]
+}

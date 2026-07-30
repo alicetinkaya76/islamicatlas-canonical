@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00015506",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Filīks Fāris",
+      "tr": "Felîks Fâris",
+      "ar": "فليكس فارس"
+    },
+    "originalScript": {
+      "ar": "فليكس فارس"
+    },
+    "description": {
+      "tr": "Katib, hatiplerin sayısından",
+      "en": "A scribe, one of the orators"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Filīks b. Ḥabīb b. Fāris Antūn"
+    },
+    "altLabel": {
+      "tr": [
+        "Felîks b. Habîb b. Fâris Antûn"
+      ],
+      "ar": [
+        "فليكس بن حبيب بن فارس أنطون"
+      ]
+    }
+  },
+  "profession": [
+    "scribe"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:8274",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=8274",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:42Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=8274 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:8274."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1358,
+    "start_ce": 1939,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=8274, heading_ar=فليكس فارس || Ziriklī century_ce=20",
+  "authored_works": [
+    "iac:work-00002799",
+    "iac:work-00003198",
+    "iac:work-00005727",
+    "iac:work-00007142"
+  ]
+}

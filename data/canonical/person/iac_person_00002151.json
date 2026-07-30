@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00002151",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ BÜRDE, Büreyd b. Abdullah",
+      "ar": "أبو بردة بريد بن عبد الله"
+    },
+    "originalScript": {
+      "ar": "أبو بردة بريد بن عبد الله"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bürde Büreyd b. Abdillâh b. Ebî Bürde Âmir b. Ebî Mûsâ el-Eş‘arî el-Kûfî"
+      ]
+    },
+    "description": {
+      "tr": "Dedesi Ebû Bürde el-Eş‘arî Kûfe kadısıydı. Büyük dedesi ise meşhur sahâbî Ebû Mûsâ el-Eş‘arî ’dir. Babası Abdullah b. Ebû Bürde, dedesi Ebû Bürde Âmir b. Ebû Mûsâ el-Eş‘arî’den hadis rivayet etmiştir. Ebû Bürde Kûfe’de yetişti. Dedesinden başka Hasan-ı Basrî ve Atâ b. Ebû Rebâh gibi tâbiîlerden hadis öğrendi. Kendisinden de Süfyân es-Sevrî , Abdullah b. Mübârek , Süfyân b. Uyeyne , Ebû Üsâme Hammâd b. Üsâme, Ebû Nuaym Fazl b. Dükeyn vb. muhaddisler rivayette bulundular. Kendisinden en fazla rivayette bulunan öğrencisi Ebû Üsâme’dir. Hadis münekkitlerinden Yahyâ b. Maîn ve Ebü’l-Hasan el-İclî, İbn Adî gibi âlimler onun güvenilir bir muhaddis olduğunu söylemektedirler. Ancak Ahmed b. Hanbel , Ebû Hâtim er-Râzî ve Nesâî rivayetlerine önem vermemekte, özellikle tek başına rivayet ettiği hadisler kabul görmemektedir. Kütüb-i Sitte müellifleri ise onu sadûk bir râvi kabul ederek rivayetlerine eserlerinde yer vermişlerdir. Ebû Bürde’nin vefat tarihi kesin olarak bilinmemekte, 140 (757) yılı civarında vefat ettiği sanılmaktadır. Ebû Bürde’nin dedesinden, onun da babası Ebû Mûsâ el-Eş‘arî’den rivayet ettiği Müsnedü Büreyd , bir çeşit kırk hadis olup Dârekutnî tarafından tertip edilen bir cüzü Süleymaniye Kütüphanesi ’nde Kitâbü’l-Erbaʿîn ve ġayruh adlı bir mecmua içinde bulunmaktadır (Şehid Ali Paşa, nr. 541, vr. 136 a -174 b ). Kırk ayrı konuya ayrılmış olan eserde bazan bir hadisin -metinleri de az çok farklılık arzeden- ondan fazla rivayeti zikredilmektedir. Tamamı sahih rivayetlerden meydana gelen Müsnedü Büreyd ’deki otuz yedi hadisin hem Ṣaḥîḥ-i Buḫârî ’de hem de Ṣaḥîḥ-i Müslim ’de yer alması onun muteber bir metin olduğunu göstermektedir. Eser İsmail Babacan tarafından Marmara Üniversitesi Sosyal Bilimler Enstitüsü’nde yüksek lisans tezi olarak incelenmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 115 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-burde-bureyd-b-abdullah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-burde-bureyd-b-abdullah, https://islamansiklopedisi.org.tr/ebu-burde-bureyd-b-abdullah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:54Z",
+    "modified": "2026-05-04T15:33:54Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-burde-bureyd-b-abdullah (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanbelî (mezhep)",
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 140,
+    "start_ce": 757,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-burde-bureyd-b-abdullah, URL: https://islamansiklopedisi.org.tr/ebu-burde-bureyd-b-abdullah || DİA death-date string: (ö. 140/757 [?]) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

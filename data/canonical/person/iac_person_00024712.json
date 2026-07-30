@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00024712",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HadiIlaHaqqYahya"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "openiti:0298HadiIlaHaqqYahya",
+        "source_type": "digital_corpus",
+        "page_or_locator": "OpenITI corpus_authors.json id=0298HadiIlaHaqqYahya",
+        "extraction_method": "structured_json",
+        "edition_or_version": "OpenITI corpus snapshot 2024-2026"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "openiti-author-resolve",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T21:23:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T21:23:45Z",
+    "modified": "2026-05-04T21:23:45Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T21:23:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Placeholder person minted by openiti-author-resolve Tier 4 (no T1/T2 match in canonical person index). Pending biographic enrichment in Hafta 6 (DİA chunk re-extraction + cross-source alignment). Authored works will be back-populated by integrity_pass_A_bidirectional after openiti-works adapter."
+      }
+    ],
+    "deprecated": false
+  },
+  "note": "Tier-4 placeholder from OpenITI author_id=0298HadiIlaHaqqYahya. Biographic content sparse pending Hafta 6 enrichment.",
+  "death_temporal": {
+    "start_ce": 911,
+    "start_ah": 298,
+    "approximation": "circa"
+  },
+  "authored_works": [
+    "iac:work-00001361",
+    "iac:work-00004180",
+    "iac:work-00005248",
+    "iac:work-00005746",
+    "iac:work-00006032",
+    "iac:work-00006396",
+    "iac:work-00006484",
+    "iac:work-00006915",
+    "iac:work-00007084",
+    "iac:work-00007102",
+    "iac:work-00007126",
+    "iac:work-00007418",
+    "iac:work-00007655",
+    "iac:work-00007735",
+    "iac:work-00007794",
+    "iac:work-00007877",
+    "iac:work-00008058",
+    "iac:work-00008412",
+    "iac:work-00008706",
+    "iac:work-00008710",
+    "iac:work-00008767",
+    "iac:work-00008776",
+    "iac:work-00008861",
+    "iac:work-00008868",
+    "iac:work-00008921",
+    "iac:work-00008922",
+    "iac:work-00008937",
+    "iac:work-00008958",
+    "iac:work-00008986",
+    "iac:work-00008997",
+    "iac:work-00009016",
+    "iac:work-00009029",
+    "iac:work-00009118",
+    "iac:work-00009147",
+    "iac:work-00009176",
+    "iac:work-00009184",
+    "iac:work-00009188",
+    "iac:work-00009204",
+    "iac:work-00009211",
+    "iac:work-00009219",
+    "iac:work-00009249",
+    "iac:work-00009284",
+    "iac:work-00009291"
+  ]
+}

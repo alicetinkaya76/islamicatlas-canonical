@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00005879",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MUSTAFA EFENDİ, Karaoğlan"
+    },
+    "description": {
+      "tr": "Bursa’da Eski adlı bir kasabanın Kamça köyünde doğdu. Hayatı hakkında yeterli bilgi yoktur. Bursa’ya giderek öğrenimini tamamladı. Bursa Ulucamii’nde Karakız lakaplı muvakkit ve müezzinden mûsiki dersleri aldı. 1080 (1669) yılında onun yerine geçti. 1098’de (1687) aynı camide müezzinbaşı oldu. Zamanının meşhur mevlidhanlarından olan Osman Efendi’den besteli mevlidi meşketti. Bir süre Niyâzî-i Mısrî’nin hizmetinde bulundu. Daha sonra gördüğü bir rüya üzerine ona intisap ederek kısa sürede sülûkünü tamamladı. Niyâzî-i Mısrî’nin yirmi üçüncü halifesidir (Mustafa Lutfi, s. 122-124). Şeyhinin tekkesinde zâkirbaşılık yaptı. Niyâzî-i Mısrî Limni’ye sürgüne gönderilince uzun müddet ona vekâlet etti. Vefatında vasiyeti üzerine Pınarbaşı’nda Mevlidci Osman Efendi’nin yakınına defnedildi. Bursalı Bâkî, “Eylesün rûhuna dâim rahmet” mısraını ölümü için tarih düşürmüştür. Sadettin Nüzhet Ergun, çok sayıdaki bestelerinden bugüne ulaşan bayatî ve uşşak makamlarındaki iki ilâhisinin güftesini vermektedir ( Türk Musikisi Antolojisi , I, 300-301). Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 299 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mustafa-efendi-karaoglan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mustafa-efendi-karaoglan, https://islamansiklopedisi.org.tr/mustafa-efendi-karaoglan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mustafa-efendi-karaoglan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mustafa-efendi-karaoglan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:44Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mustafa-efendi-karaoglan (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1080,
+    "start_ce": 1669,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1129,
+    "start_ce": 1717,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mustafa-efendi-karaoglan, URL: https://islamansiklopedisi.org.tr/mustafa-efendi-karaoglan || DİA birth place: Kamça || DİA death-date string: (ö. 1129/1717) || Chunk count: 1"
+}

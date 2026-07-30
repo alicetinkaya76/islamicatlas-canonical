@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00001756",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CEMAL EFENDİ, Aksaraylı"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu ve orada yaşadı. Doğum tarihi hakkında kesin bilgi yoksa da Vakıflar Genel Müdürlüğü Arşivi’ndeki bir belgede görülen 1297 (1880) kaydını onun doğum yılı olarak kabul etmek mümkündür. Babası, Üsküdar’daki Atik Vâlide Sultan Camii müezzini iken bir sabah ezanını Yıldız Sarayı’ndan dinleyen Pertevniyal Vâlide Sultan’ın isteği üzerine irâde-i seniyye ile Aksaray Vâlide Camii başmüezzinliğine tayin edilen “Nalıncı Hâfız”dır. Cemal Efendi adliyede mubassır iken babasının vefat ettiği gün okuduğu bir ezandan sonra cemaatin isteği üzerine Vâlide Camii başmüezzinliğine getirildi. Son zamanlarındaki rahatsızlığı sebebiyle görevinden ayrılıncaya kadar bu camide müezzinlik vazifesini sürdürdü. Devrin ünlü hâfızlarından biri olarak soyadı kanunundan sonra Gürses soyadını aldıysa da “Hâfız Cemal” olarak şöhret buldu. 11 Mayıs 1946’da İstanbul’da vefat etti. Tabii bir ses güzelliğine sahip olan, zamanın önde gelen mevlidhan ve na‘thanlarından Hâfız Cemal Efendi, asıl şöhretini tiz perdelerden okuduğu ezanlarla yapmıştır. Arkadaşlarından tarihçi ve mûsikişinas Ali Rıza Sağman, Meşhur Hafız Sâmi Merhum adlı eserinde ondan bahsederken, “Yalnız ezan okumak için yaratılmış, ezanda bir Bilâl-i Sânî idi. Mevlid nasıl ki Sâmi’de (Hâfız Sâmi) en ulvî sesini kaybetmiş ise ezan okumak da Hâfız Cemal ile gitmiştir. Cemal ezan okumaya başlayınca bütün muhit vecd içinde titrerdi. Ezan bitinceye kadar evler, yollar, meydan mutlak bir sükût içinde kalırdı” demektedir. Süleymaniye Camii müezzinleriyle karşılıklı olarak okuduğu sabah ezanları da meşhurdur. Millî Mücadele’yi takiben “Şehitlikleri İmar Cemiyeti” tarafından Anafartalar’da Çanakkale şehidleri için mevlid okumak üzere davet edilen heyette yer alan Hâfız Cemal’in Gelibolu önlerinde vapurdan okuduğu sabah ezanı, hâfızalarda derin iz bırakan bir okuyuş olarak kaynaklara geçmiştir. Yurt içinden ve yurt dışından gelip onun ezan ve salâsını dinlemek için minare dibinde bekleşenlerin bulunduğu da şifahî rivayetler arasındadır. Cemal Efendi’nin ezan okuma tavrı, bu camide kendinden sonra gelen müezzinler tarafından uzun müddet devam ettirilmişse de günümüze kadar ulaşmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 301-302 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cemal-efendi-aksarayli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cemal-efendi-aksarayli, https://islamansiklopedisi.org.tr/cemal-efendi-aksarayli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:cemal-efendi-aksarayli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/cemal-efendi-aksarayli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cemal-efendi-aksarayli (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1946,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=cemal-efendi-aksarayli, URL: https://islamansiklopedisi.org.tr/cemal-efendi-aksarayli || DİA birth place: İstanbul || DİA death place: İstanbul || DİA death-date string: (ö. 1946) || DİA categories: rivayet || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "death_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00006579"
+  ]
+}

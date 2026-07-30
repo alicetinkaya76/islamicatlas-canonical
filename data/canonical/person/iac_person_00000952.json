@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00000952",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ EFENDİ, Çırçırlı"
+    },
+    "description": {
+      "tr": "Fatih’in Çırçır (Haydar) semtinde doğdu. Çırçırlı veya Haydarlı lakabıyla tanınır. Hat sanatını Şefik Bey’den öğrendi. Maliye Nezâreti’ne bağlı bir dairede çalıştı. Derviş mizaçlı, sakin bir zattı. Bir müddet Üsküdar’da oturdu. Bekâr olduğundan hayatının sonlarına doğru Aksaray’daki Şâbâniyye tarikatına mensup Necib Efendi’nin dergâhına yerleşti. Şevval 1324’te (Kasım 1906) burada vefat etti. Kabri Karacaahmet Mezarlığı’ndadır. Kitâbesi Ferid Bey tarafından yazıldığı halde yaptırılamamıştır. Sülüs, nesih ve bilhassa celî sülüste üstat idi. Yazı taklidinde ve yazıları tahrir şeklinde çizmekte çok başarılı idi. Taşa hakkedilmiş mühim bir yazısı olan أدّ فرائض الله تكن مطيعًا (Allah’ın farz olan emirlerini yerine getir ki, itaat etmiş olasın) hadisi, Saraçhane Camii’nde iken daha sonra Vakıflar Yazı Müzesi’ne kaldırılmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 389 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-efendi-circirli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-efendi-circirli, https://islamansiklopedisi.org.tr/ali-efendi-circirli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ali-efendi-circirli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ali-efendi-circirli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-efendi-circirli (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1906,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ali-efendi-circirli, URL: https://islamansiklopedisi.org.tr/ali-efendi-circirli || DİA death place: 1324 || DİA death-date string: (ö. 1906) || DİA categories: hadis > tarikat || Chunk count: 1"
+}

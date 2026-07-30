@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00005388",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mehmed Sâlih Efendi"
+    },
+    "description": {
+      "tr": "Babası, Galata ve Mısır kadılıklarından mâzul Kırımlı Abdullah Efendizâde Yahyâ Efendi’dir. Anne tarafından Kasımpaşa’da medfun Uşşâkıyye tarikatının kurucusu Hüsâmeddin Uşşâkī soyundan gelmektedir. Tahsilini tamamlayınca Şeyhülislâm Yenişehirli Abdullah Efendi’ye intisap ederek onun damadı oldu. Mehmed Sâlih Efendi birkaç yıl Haremeyn müfettişliğinde çalıştıktan sonra Galata kadılığına, oradan da mahreç pâyesiyle Halep kadılığına tayin edildi. Muharrem 1148’de (Haziran 1735) Şam kadılığına, 1153’te (1740) Medine kadılığına getirildi; 27 Cemâziyelâhir 1159’da (17 Temmuz 1746) İstanbul kadısı oldu. Şâban 1160’ta (Ağustos 1747) İstanbul kadılığından alındı. Zilkade 1163’te (Ekim 1750) ikinci defa İstanbul kadılığına getirildi; bir ay sonra Anadolu kazaskerliği pâyesini almakla birlikte İstanbul kadılığında bırakıldı ve yaklaşık bir yıl daha bu vazifeyi yürüttü. 7 Şâban 1167’de (30 Mayıs 1754) Anadolu kazaskeri olan ve 10 Şâban 1168 (22 Mayıs 1755) tarihine kadar bu görevini sürdüren Mehmed Sâlih Efendi Rebîülevvel 1171’de (Kasım 1757) Rumeli kazaskeri oldu. 16 Cemâziyelevvel 1171’de (26 Ocak 1758) Damadzâde Feyzullah Efendi’nin azliyle onun yerine şeyhülislâmlığa getirildi. Şeyhülislâmlığı yaklaşık bir buçuk yıl sürdü. 5 Zilkade 1172’de (30 Haziran 1759) Sultan III. Mustafa tarafından azledilerek yerine Çelebizâde İsmâil Âsım Efendi tayin edildi. Şeyhülislâmlıktan azlinden sonra Kanlıca’daki sahilhânesinde ikamet eden Mehmed Sâlih Efendi 1 Şevval 1175 (25 Nisan 1762) tarihinde ramazan bayramı gecesi vefat etti. Mezarı Kanlıca’da, fetvahânesinin karşısında bulunan Râziye Hatun Damadı Kazasker Mehmed Efendi Medresesi dahilindedir. Kaynaklarda yumuşak huylu, iyi ahlâklı, vakar sahibi ve nüktedan bir kişi olduğu, tasavvufa intisabının bulunduğu kaydedilir. Oğullarından Abdullah Efendi Üsküdar kadılığına, Ahmed Esad Efendi şeyhülislâmlık makamına kadar yükselmiştir. Herhangi bir eseri olduğuna dair kayda rastlanmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 526 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-salih-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-salih-efendi, https://islamansiklopedisi.org.tr/mehmed-salih-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-salih-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-salih-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:39Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-salih-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1175,
+    "start_ce": 1762,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-salih-efendi, URL: https://islamansiklopedisi.org.tr/mehmed-salih-efendi || DİA death place: Kanlıca || DİA death-date string: (ö. 1175/1762) || DİA categories: tasavvuf > fetva > tarikat || Chunk count: 1"
+}

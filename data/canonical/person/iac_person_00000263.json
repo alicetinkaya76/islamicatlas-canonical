@@ -1,0 +1,132 @@
+{
+  "@id": "iac:person-00000263",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abd al-Latif al-Baghdadi",
+      "tr": "Abdüllatîf el-Bağdâdî",
+      "ar": "عبد اللطيف البغدادي"
+    },
+    "originalScript": {
+      "ar": "عبد اللطيف البغدادي"
+    },
+    "altLabel": {
+      "en": [
+        "Muwaffaq al-Dīn Abū Muḥammad ʿAbd al-Laṭīf ibn Yūsuf al-Baghdādī",
+        "ABD al-LATIF"
+      ],
+      "tr": [
+        "Muvaffakuddîn Ebû Muhammed Abdüllatîf b. Yûsuf el-Bağdâdî"
+      ],
+      "ar": [
+        "موفق الدين أبو محمد عبد اللطيف بن يوسف البغدادي"
+      ]
+    },
+    "description": {
+      "tr": "1200 Mısır kıtlığında insan kemiklerini ampirik gözlemle inceleyerek Galen'in anatomik hatalarını düzeltti || Bağdâdî, tıpta metin otoritesi yerine ampirik gözlemi savunarak yüzyıllık Galen dogmasına meydan okumak için gerçek insan kalıntılarını inceledi. || [Tarih notu] Galen'in çene kemiği tanımını ampirik olarak düzeltmesi (iki değil tek kemik) modern kanıta dayalı tıbbı önceler.",
+      "en": "Corrected Galen's anatomical errors through empirical observation of human bones during the 1200 Egyptian famine || al-Baghdadi championed empirical observation over textual authority in medicine, examining actual human remains to challenge centuries of Galenic dogma. || [Historiographical note] His empirical correction of Galen's mandible description (one bone, not two) anticipates modern evidence-based medicine.",
+      "ar": "صحّح أخطاء جالينوس التشريحية من خلال الملاحظة التجريبية || دافع عن الملاحظة التجريبية في الطب مقابل السلطة النصية"
+    }
+  },
+  "profession": [
+    "physician",
+    "philosopher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0080",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0080",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "ei1:75",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 1, p. 74",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      },
+      {
+        "source_id": "dia-chunks:abdullatif-el-bagdadi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullatif-el-bagdadi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:56:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:56:47Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:56:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0080 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled ['altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1162,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1231,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q307277",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Abd al-Latif al-Baghdadi')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0080, lecture_week=n/a. || Key works: {'title': {'en': \"al-Ifada wa'l-I'tibar\", 'tr': \"el-İfâde ve'l-İ'tibâr\", 'ar': 'الإفادة والاعتبار'}, 'year': 1206, 'field': 'medicine', 'significance': {'en': \"Empirical observations correcting Galen's anatomy based on famine victims\", 'tr': 'Kıtlık kurbanlarına dayanarak Galen anatomisini düzelten ampirik gözlemler'}} || Modern parallel: Like a medical researcher who challenges textbook dogma through hands-on clinical evidence.",
+  "active_in_places": [
+    "iac:place-00004883",
+    "iac:place-00009399"
+  ],
+  "authored_works": [
+    "iac:work-00000113",
+    "iac:work-00002140",
+    "iac:work-00002946",
+    "iac:work-00003352",
+    "iac:work-00005861"
+  ]
+}

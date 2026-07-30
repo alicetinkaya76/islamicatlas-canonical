@@ -1,0 +1,121 @@
+{
+ "@id": "iac:person-00000318",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Fakhruddin al-Razi",
+   "tr": "Fahreddin er-Râzî",
+   "ar": "فخر الدين الرازي"
+  },
+  "originalScript": {
+   "ar": "فخر الدين الرازي"
+  },
+  "altLabel": {
+   "en": [
+    "Abu Abdallah Muhammad ibn Umar ibn al-Husayn al-Razi"
+   ],
+   "tr": [
+    "Ebû Abdullah Muhammed b. Ömer b. Hüseyin er-Râzî"
+   ],
+   "ar": [
+    "أبو عبد الله محمد بن عمر بن الحسين الرازي"
+   ]
+  },
+  "description": {
+   "tr": "En kapsamlı felsefî Kur'an tefsirini yazdı; İbn Sînâ felsefesini Eş'arî kelamıyla bütünleştirdi || Selçuklu-Hârizmşah döneminin dev polimati || [Tarih notu] Tefsiri en çok başvurulan eserlerden biri olmaya devam eder",
+   "en": "Created the most comprehensive philosophical Quran commentary; integrated Avicennian philosophy with Ash'ari theology || Towering polymath of the Seljuk-Khwarezmian era who fought against both Mu'tazili and Ismaili theology || [Historiographical note] His Tafsir remains one of the most consulted works; modern scholars debate his relationship with philosophy",
+   "ar": "كتب أشمل تفسير فلسفي للقرآن || عالم موسوعي بارز في العصر السلجوقي-الخوارزمي || [Historiographical note] يظل تفسيره من أكثر الأعمال مراجعة"
+  }
+ },
+ "profession": [
+  "philosopher",
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0136",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0136",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   },
+   {
+    "source_id": "alatli:E0342",
+    "source_type": "secondary_scholarly",
+    "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-07-24T05:45:29Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0136 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-24T05:45:29Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alatli augment (H25, Tier-1 conf 1.0): ['derived_from_layers']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (282-318-2647) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000282 lehine yumuşak-silindi. Gerekçe: Üçü de Fahreddin er-Râzî'dir (ö. 606/1210, Rey doğumlu); Mefâtîhu'l-gayb ile kelâm-tefsir-felsefe uzmanlığı birebir örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000282"
+ },
+ "birth_temporal": {
+  "start_ce": 1149,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1210,
+  "approximation": "exact"
+ },
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q333703",
+   "confidence": 1.0,
+   "method": "openrefine_v3",
+   "reviewed": false,
+   "note": "Auto-matched via OpenRefine recon (top result for 'Fakhruddin al-Razi')."
+  }
+ ],
+ "note": "Promoted from science_layer.json scholar id=scholar_0136, lecture_week=n/a. || Key works: {'title': {'en': 'Mafātīḥ al-Ghayb (Keys to the Unseen)', 'tr': \"Mefâtîhu'l-Gayb\", 'ar': 'مفاتيح الغيب'}, 'year': 1200, 'field': 'religious_sciences', 'significance': {'en': 'Encyclopedic Quran commentary integrating philosophy, science, and theology', 'tr': \"Felsefe, bilim ve teolojiyi bütünleştiren ansiklopedik Kur'an tefsiri\", 'ar': 'تفسير قرآني موسوعي يدمج الفلسفة والعلم واللاهوت'}} || Modern parallel: Like an interdisciplinary research institute in one person — physics, theology, philosophy, medicine",
+ "birth_place": "iac:place-00015119",
+ "authored_works": [
+  "iac:work-00000177"
+ ],
+ "derived_from_layers": [
+  "alatli"
+ ]
+}

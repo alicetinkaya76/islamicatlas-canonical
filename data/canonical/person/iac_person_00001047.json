@@ -1,0 +1,98 @@
+{
+  "@id": "iac:person-00001047",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMR b. KAYS el-MÜLÂÎ",
+      "ar": "عمرو بن قيس الملائي"
+    },
+    "originalScript": {
+      "ar": "عمرو بن قيس الملائي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Amr b. Kays el-Mülâî"
+      ]
+    },
+    "description": {
+      "tr": "Kûfe’nin beş büyüğünden biri olarak tanınır. Hayatı hakkında yeterli bilgi yoktur. Dokumacılık yaptığı için Bezzâz, çarşaf sattığı için de Mülâî lakabı ile meşhur oldu. Süfyân es-Sevrî’yi yetiştirdi. Hayatını zikir, ilim, ibadet ve mezarlıklarda ağlamakla geçirdiği rivayet edilir. Vefat yeri hakkında kaynaklarda farklı bilgiler (İran, Şam, Sicistan, Kûfe, Bağdat) bulunmaktadır. “Nefsinle meşgul olduğunda insanları, insanlarla meşgul olduğunda da nefsini unutursun” diyen Amr’ın abdal lardan olduğu söylenir. Ebû İshak es-Sebîî, Semmâk b. Harb, Atıyye el-Avfî, Atâ b. Ebû Rebâh ve İkrime gibi tâbiîlerden rivayette bulunmuş, Bağdat’a gittiğinde Ahmed b. Hanbel ile görüşerek güvenini kazanmıştır. Süfyân es-Sevrî, Ebû Hâlid el-Ahmer ve Muhâribî kendisinden hadis rivayet etmiş, sayıları fazla olmayan bu hadisler Ṣaḥîḥ-i Müslim ile dört meşhur es-Sünen ’de yer almıştır. Buhârî ise onun rivayetlerine el-Edebü’l-müfred ’inde yer vermiştir. Yahyâ b. Maîn, Ahmed b. Hanbel, Ebû Hâtim er-Râzî ve Nesâî güvenilir bir râvi olduğunu söylemişlerdir. Zâhid ve muhaddis vasfının yanında kāri olarak da tanınmıştır. Kıraatteki hocalarından biri Âsım b. Behdele’dir. Süfyân es-Sevrî ona büyük değer verir, adını hürmetle anar, Kur’an okumayı ve dinî bilgileri ondan öğrendiğini söylerdi. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 85 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amr-b-kays-el-mulai",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amr-b-kays-el-mulai, https://islamansiklopedisi.org.tr/amr-b-kays-el-mulai",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amr-b-kays-el-mulai",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amr-b-kays-el-mulai",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amr-b-kays-el-mulai (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mülâî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 146,
+    "start_ce": 763,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amr-b-kays-el-mulai, URL: https://islamansiklopedisi.org.tr/amr-b-kays-el-mulai || DİA death-date string: (ö. 146/763) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001141"
+  ],
+  "students": [
+    "iac:person-00007122"
+  ]
+}

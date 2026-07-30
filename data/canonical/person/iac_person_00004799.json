@@ -1,0 +1,109 @@
+{
+  "@id": "iac:person-00004799",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Kavârîrî",
+      "ar": "القواريري"
+    },
+    "originalScript": {
+      "ar": "القواريري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Saîd Ubeydullah b. Ömer b. Meysere el-Kavârîrî"
+      ]
+    },
+    "description": {
+      "tr": "151 (768) veya 152’de (769) Basra’da doğdu. “Kavârîrî” nisbesiyle anılması cam ve şişe imalâtı veya ticareti yapmasıyla ilgili olup Benî Cüşem’in âzatlısı olduğu için Cüşemî nisbesiyle de zikredilmiştir. Ebû Avâne el-Vâsıtî, Hammâd b. Zeyd, Yezîd b. Zürey‘, Hüşeym b. Beşîr, Derâverdî ve Süfyân b. Uyeyne gibi muhaddislerden rivayette bulundu. Buhârî, Müslim, Ebû Zür‘a er-Râzî, Bakī b. Mahled, Ebû Dâvûd es-Sicistânî, Ebû Hâtim er-Râzî gibi âlimler de onun talebeleri arasında yer aldı. İbn Sa‘d, Yahyâ b. Maîn ve Ahmed b. Hanbel kendisinden hadis yazdı. Bağdat’ta yaşayan Kavârîrî’nin rivayet ettiği hadislerden biri (İbn Hacer’e göre ise beşi) Ṣaḥîḥ-i Buḫârî ’de, kırkı Ṣaḥîḥ-i Müslim ’de, kırk yedisi Sünenü Ebî Dâvûd ’da, altısı da Sünenü’n-Nesâʾî ’de yer almıştır. İbn Sa‘d, Yahyâ b. Maîn, Ebü’l-Hasan el-İclî, Sâlih Cezere, Nesâî ve İbn Kāni‘ onu “sika” olarak nitelendirmiş, Ebû Hâtim er-Râzî ile bir başka değerlendirmesinde Yahyâ b. Maîn ve Sâlih Cezere “sadûk” olduğunu söylemişlerdir. Kavârîrî’nin Bağdat ve Basra’nın en tanınmış muhaddisi olduğu, bu iki şehirde rivayet edilen hadisleri en iyi onun bildiği ileri sürülmüş, rivayetleri arasında âlî isnadla gelenlerin bulunduğu belirtilmiş, Sa‘leb kendisinden yüz bin hadis işittiğini söylemiştir. Kavârîrî 12 veya 13 Zilhicce 235’te (27 veya 28 Haziran 850) Bağdat’ta vefat etti, Askerülmehdî’de (Rusâfe) defnedildi. Bu madde TDV İslâm Ansiklopedisi’nin 2022 yılında Ankara’da basılan 25. cildinde, 65-66 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kavariri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kavariri, https://islamansiklopedisi.org.tr/kavariri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:kavariri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/kavariri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:32Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kavariri (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kavârîrî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 235,
+    "start_ce": 850,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kavariri, URL: https://islamansiklopedisi.org.tr/kavariri || DİA birth place: Basra || DİA death place: Askerülmehdî || DİA death-date string: (ö. 235/850) || DİA categories: hadis > rivayet > isnâd || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001984",
+    "iac:person-00002138",
+    "iac:person-00003142",
+    "iac:person-00003576",
+    "iac:person-00007121",
+    "iac:person-00007717"
+  ],
+  "students": [
+    "iac:person-00000753",
+    "iac:person-00001307",
+    "iac:person-00001599",
+    "iac:person-00002157",
+    "iac:person-00002179",
+    "iac:person-00002313",
+    "iac:person-00004000",
+    "iac:person-00005861",
+    "iac:person-00007652"
+  ]
+}

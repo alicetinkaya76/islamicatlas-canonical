@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00002206",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Kureyş",
+      "ar": "أبو قريش"
+    },
+    "originalScript": {
+      "ar": "أبو قريش"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Kureyş Muhammed b. Cum‘a b. Halef el-Esam el-Kuhistânî"
+      ]
+    },
+    "description": {
+      "tr": "220 (835) yılı civarında Kuhistan’da doğdu. Tahsilini Rey, Kûfe, Basra, Hicaz ve Vâsıt’ta devrin ünlü hadis âlimlerinden olan Muhammed b. Humeyd er-Râzî, Ahmed b. Menî‘, Ebû Küreyb Muhammed b. Alâ ve Muhammed b. Müsennâ’nın yanında yaptı. Bir süre Bağdat’ta ders verdi. Daha sonra Kuhistan’a yerleşerek burada hadis okutmaya devam etti, rivayetleri Horasan bölgesinde yaygınlaştı. İbn Mahled el-Attâr, Ebû Hâmid İbnü’ş-Şarkī, Ebû Bekir eş-Şâfiî ve Ebû Ali en-Nîsâbûrî gibi tanınmış muhaddisler ondan hadis rivayet ettiler. Hâfızası güçlü, güvenilir bir hadis hâfızı olduğu kabul edilen Ebû Kureyş, biri müsned diğeri musannef türünden olmak üzere iki eser yazmış, ayrıca Mâlik b. Enes, Süfyân es-Sevrî, Şu‘be b. Haccâc ve Yahyâ b. Saîd gibi imamların hadislerini de bir kitapta toplamışsa da bu eserlerin günümüze ulaşıp ulaşmadığı bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 178 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-kureys",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-kureys, https://islamansiklopedisi.org.tr/ebu-kureys",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-kureys",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-kureys",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:55Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-kureys (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kuhistânî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 220,
+    "start_ce": 835,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 313,
+    "start_ce": 925,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-kureys, URL: https://islamansiklopedisi.org.tr/ebu-kureys || DİA birth place: Kuhistan || DİA death-date string: (ö. 313/925) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

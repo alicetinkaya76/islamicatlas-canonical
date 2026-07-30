@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00005336",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEHMED EMİN EFENDİ, Kazasker"
+    },
+    "description": {
+      "tr": "1140 Şâbanı ortalarında (Mart 1728 sonları) İstanbul’da doğdu (Cevdet, II, 180). Dîvân-ı Hümâyun çavuşlarından bir zatın oğlu olduğundan Çavuşzâde diye de anılır ( Sicill-i Osmânî , I, 412). Sesinin güzelliğiyle III. Osman’ın dikkatini çekmesi üzerine Safer 1170’te (Kasım 1756) saraya ikinci imâm-ı sultânî tayin edilerek müderrislik pâyesi verildi. 1171 yılı ortalarında (1758 başları) önce vekâleten, bir yıl sonra da asaleten birinci imam oldu (Cevdet, II, 180). Mehmed Emin Efendi, Zilkade 1184’te (Şubat-Mart 1771) Selânik kadılığına tayin edildi. 1188’de (1774) Edirne, arkasından Mekke pâyelerini, Cemâziyelevvel 1189’da (Temmuz 1775) İstanbul pâyesini aldıktan sonra aynı yılın şâbanında (ekim) Anadolu pâyesine yükseltildi. 1 Zilhicce 1191’de (31 Aralık 1777) Anadolu kazaskeri oldu. Mehmed Süreyyâ bu göreve Cemâziyelevvel 1191’de (Haziran 1777) getirildiğini belirtmektedir ( Sicill-i Osmânî , I, 412). Şâban 1194’te (Ağustos 1780) padişah başimamlığından ayrıldı. Mehmed Emin Efendi, Rumeli kazaskerliğine yükseltileceği sırada felç geçirdi ve 17 Zilkade 1196 (24 Ekim 1782) tarihinde vefat etti; bugün İstanbul’un Kadıköy ilçesinde yer alan Rasimpaşa mahallesindeki Ayrılık Çeşmesi Mezarlığı’na defnedildi. Mehmet Suphi Ezgi, Nazarî-Amelî Türk Musikisi adlı eserinde Mehmed Emin Efendi’nin hayatı hakkında bilgi verirken onunla Şeyhülislâm Sâlihefendizâde Mehmed Emin Efendi’yi (ö. 1191/1777) karıştırmıştır. Bestelediği dinî eserlerle dönemin mûsikişinasları arasında yer alan Mehmed Emin Efendi’nin günümüze sadece ırak makamında bir durağı ulaşmıştır. Suphi Ezgi, onun mûsikideki kudretine bu eserin şahit olduğunu söylemektedir (IV, 113-115; ırak makamındaki durağın notası da aynı sayfalarda yer almaktadır; durağın notası için ayrıca bk. a.mlf., Türk Musikisi Klasiklerinden Temcit - Na’t - Salat - Durak , s. 41-42). Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 462-463 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-emin-efendi-kazasker",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-emin-efendi-kazasker, https://islamansiklopedisi.org.tr/mehmed-emin-efendi-kazasker",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-emin-efendi-kazasker",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-emin-efendi-kazasker",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:38Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-emin-efendi-kazasker (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1196,
+    "start_ce": 1782,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-emin-efendi-kazasker, URL: https://islamansiklopedisi.org.tr/mehmed-emin-efendi-kazasker || DİA birth place: İstanbul || DİA death place: 1194 || DİA death-date string: (ö. 1196/1782) || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

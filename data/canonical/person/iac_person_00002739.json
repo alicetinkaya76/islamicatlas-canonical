@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00002739",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FERVE b. MÜSEYK",
+      "ar": "فروة بن مسيك"
+    },
+    "originalScript": {
+      "ar": "فروة بن مسيك"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Sebre Ferve b. Müseyk (Müseyke) b. el-Hâris el-Murâdî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Yemenli olup Murâd kabilesinin reisidir. Bu kabilenin Gutayf koluna mensup olduğu için Gutayfî nisbesiyle de anılır. Bedir Gazvesi esnasında Murâdlılar’la Hemdânlılar arasında meydana gelen ve “Rezm (Redm) günü” diye anılan savaşta bağlı bulundukları Kinde kralları kendilerine yardım etmediği için kabilesi çok ağır kayıplar verdi. Bundan dolayı Ferve 10 (631) yılında Kinde melikleriyle ilgisini keserek kabilesi adına Medine’ye gitti ve Hz. Peygamber’le görüşerek ona biat etti. Medine’de kaldığı süre zarfında Sa‘d b. Ubâde’nin misafiri olan Ferve hem ondan hem de Resûlullah’tan Kur’an’ı ve İslâm esaslarını öğrendi. Kavminden müslüman olanlarla birlikte İslâmiyet’i henüz kabul etmeyenlere karşı savaşmak için Hz. Peygamber’den izin aldıysa da Medine’den ayrıldıktan sonra Resûl-i Ekrem arkasından haberci göndererek Ferve’yi huzuruna getirtti; ona kavmini İslâm’a davet etmesini ve kendisinden bir tâlimat alıncaya kadar müslüman olmayanlara karşı herhangi bir harekette bulunmamasını tembih etti (Tirmizî, “Tefsîrü’l-Ḳurʾân”, 35/1). Hz. Peygamber daha sonra Ferve’ye 12 ukıyye gümüş, iyi cins bir deve ve Uman kumaşından bir elbise hediye etmiştir. Ferve b. Müseyk’i Murâd, Zübeyd ve Mezhic kabilelerine vali tayin eden Resûl-i Ekrem, bölgesindeki müslümanların zekâtını toplamaya yetkili olduğuna dair kendisine bir mektup verdi. Hâlid b. Saîd b. Âs’ı da sadaka ve zekâtları tahsile memur olarak onunla beraber gönderdi. Hâlid Resûl-i Ekrem’in vefatına kadar bu görevde kaldı. Hz. Ömer devrinde (634-644) Kûfe’ye yerleşen ve zekât memuru olarak Mezhic’e gönderilen Ferve’nin ne zaman vefat ettiği bilinmemektedir. Onun aynı zamanda şair olduğu söylenmekte ve Hz. Peygamber’den bazı hadisler rivayet ettiği bilinmektedir (bk. Wensinck, VIII, 221). Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 415 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ferve-b-museyk",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ferve-b-museyk, https://islamansiklopedisi.org.tr/ferve-b-museyk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-05-04T15:34:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ferve-b-museyk (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Murâdî"
+  ],
+  "birth_temporal": {
+    "start_ah": 10,
+    "start_ce": 631,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ferve-b-museyk, URL: https://islamansiklopedisi.org.tr/ferve-b-museyk || DİA categories: hadis > tefsir > rivayet || Chunk count: 1"
+}

@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00001084",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Arapzâde Atâullah Efendi"
+    },
+    "description": {
+      "tr": "1132 (1720) yılında doğdu. III. Ahmed devrinde uzun süre padişah imamlığı, şehzadeler hocalığı ve Rumeli kazaskerliği görevlerinde bulunan Arapzâde Abdurrahman Bâhir Efendi’nin oğludur. Medrese tahsilini tamamladıktan sonra on sekiz yaşında müderris oldu. On yedi yıl Ahî Çelebi, Üsküdar, Güzelhisar, Aydın, Gelibolu ve Tırnova nâibliklerinde bulundu. 1170’te (1756-57) Halep kadılığına tayin edildi; kısa bir mâzuliyetten sonra Edirne kadılığı pâyesini aldı. Daha sonra 1769-1779 yılları arasında Mekke ve İstanbul kadılıklarında bulundu. 1781’de Anadolu kazaskeri oldu. Ardından, önce Rumeli kazaskerliği pâyesini aldı, sonra da fiilen Rumeli kazaskerliğine getirildi. Atâullah Efendi, 14 Şâban 1199’da (22 Haziran 1785) İvaz Paşazâde İbrâhim Beyefendi’nin yerine şeyhülislâm tayin edildi. Şeyhülislâmlık makamında ancak iki ay kadar kalabildi. Kısa bir süre sonra yakalandığı hastalıktan kurtulamayarak 16 Şevval 1199’da (22 Ağustos 1785) vefat etti. Sedefçiler’de (Çarşıkapı) Sinan Paşa Medresesi hazîresine babasının yanına defnedildi. Bu aileden birçok kişinin mezar taşı bulunduğu halde Atâullah Efendi’nin mezar taşı kaybolmuştur. Kaynakların mütevazi, halim selim ve insaflı biri olarak bahsettikleri Atâullah Efendi’nin herhangi bir eseri bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 331 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:arapzade-ataullah-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=arapzade-ataullah-efendi, https://islamansiklopedisi.org.tr/arapzade-ataullah-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:arapzade-ataullah-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/arapzade-ataullah-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=arapzade-ataullah-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1132,
+    "start_ce": 1720,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1199,
+    "start_ce": 1785,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=arapzade-ataullah-efendi, URL: https://islamansiklopedisi.org.tr/arapzade-ataullah-efendi || DİA death place: Sedefçiler || DİA death-date string: (ö. 1199/1785) || Chunk count: 1"
+}

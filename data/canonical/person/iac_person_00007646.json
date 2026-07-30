@@ -1,0 +1,117 @@
+{
+  "@id": "iac:person-00007646",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "YAHYÂ b. EBÛ KESÎR",
+      "ar": "يحيى بن أبي كثير"
+    },
+    "originalScript": {
+      "ar": "يحيى بن أبي كثير"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Nasr Yahyâ b. Ebî Kesîr Sâlih et-Tâî el-Yemâmî"
+      ]
+    },
+    "description": {
+      "tr": "Madde güncellenmektedir."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:yahya-b-ebu-kesir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=yahya-b-ebu-kesir, https://islamansiklopedisi.org.tr/yahya-b-ebu-kesir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:yahya-b-ebu-kesir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/yahya-b-ebu-kesir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:13380",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=13380, heading_ar=يحيى بن أبي كثير",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:06Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=yahya-b-ebu-kesir (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[13380]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=13380 (heading_ar=يحيى بن أبي كثير) via Track A (DİA→Alam xref bridge). dt=Kendi zamanında Yemâme bölgesinin âlimleri arasında tanınmış"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Yemâmî"
+  ],
+  "death_temporal": {
+    "start_ah": 129,
+    "start_ce": 747,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=yahya-b-ebu-kesir, URL: https://islamansiklopedisi.org.tr/yahya-b-ebu-kesir || El-Aʿlām (Ziriklī) cross-reference: alam_id=[13380] || DİA death-date string: (ö. 129/747) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=13380, heading_ar=يحيى بن أبي كثير, dt=Kendi zamanında Yemâme bölgesinin âlimleri arasında tanınmış",
+  "active_in_places": [
+    "iac:place-00001954",
+    "iac:place-00012909"
+  ],
+  "students": [
+    "iac:person-00002624",
+    "iac:person-00003439",
+    "iac:person-00005217"
+  ]
+}

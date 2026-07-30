@@ -1,0 +1,58 @@
+{
+  "@id": "iac:person-00001100",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂRİF-i RÎVGERÎ",
+      "ar": "عارف ريوكرى"
+    },
+    "originalScript": {
+      "ar": "عارف ريوكرى"
+    },
+    "description": {
+      "tr": "Gucdüvân ve Buhara yakınlarında bulunan (günümüzde Şâfirkan şehrine bağlı) Rîvger köyünde doğdu ve burada öldü. Hâcegân tarikatının kurucusu kabul edilen Abdülhâliḳ-ı Gucdüvânî ’nin dört büyük halifesinden biri, Mahmûd-ı Fağnevî ’nin de şeyhidir. Nakşibendiyye tarikatının kurucusu Bahâeddin Nakşibend ’in tarikat silsilesi Rîvgerî vasıtası ile Gucdüvânî’ye ulaşır. Bu açıdan Ârif-i Rîvgerî’nin Nakşibendiyye tarikatı tarihinde önemli bir yeri vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 369 numaralı sayfada \"ÂRİF-i RÎVEGÎRÎ\" başlığıyla yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız. Bu madde en son 16.04.2019 tarihinde güncellenmiştir."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:arif-i-rivgeri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=arif-i-rivgeri, https://islamansiklopedisi.org.tr/arif-i-rivgeri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-05-04T15:33:35Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=arif-i-rivgeri (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 634,
+    "start_ce": 1236,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=arif-i-rivgeri, URL: https://islamansiklopedisi.org.tr/arif-i-rivgeri || DİA birth place: Rîvger || DİA death-date string: (ö. 634/1236-37) || DİA categories: tarikat || Chunk count: 1"
+}

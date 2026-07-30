@@ -1,0 +1,105 @@
+{
+  "@id": "iac:person-00000962",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ et-TABERÎ",
+      "ar": "عليّ الطبري"
+    },
+    "originalScript": {
+      "ar": "عليّ الطبري"
+    },
+    "altLabel": {
+      "tr": [
+        "Alî b. Abdilkādir b. Muhammed el-Hüseynî el-Mekkî et-Taberî"
+      ]
+    },
+    "description": {
+      "tr": "Mekke’de doğdu. Küçük yaşta hâfız oldu; başta babası olmak üzere zamanının Mekke’deki en meşhur âlimlerinden dinî ilimlerle Arap dili ve edebiyatı sahalarında dersler aldı. Aile geleneğini devam ettirerek ölümüne kadar Mekke’de ders verip talebe yetiştirdi. Mekke’de öldü ve Cennetü’l-muallâ’daki aile kabristanına defnedildi. Ali b. Abdülkādir’in Kâbe ve Mekke tarihine dair kitapları yanında şiirlerini topladığı bir de divanı vardır. Henüz basılmamış olan eserleri şunlardır: el-Ercü’l-miskî ve’t-târîḫu’l-Mekkî fî aḫbâri’l-Ḥarem ve’l-Kâʿbe ve terâcimi’l-mülûk ve’l-ḫulefâʾ ; el-Aḳvâlü’l-muʿallime fî vuḳūʿi’l-Kâʿbeti’l-muʿaẓẓama ; Tuḥfetü’l-kirâm bi-aḫbâri ʿimâreti’s-saḳf ve’l-bâb mine’l-Beyti’l-ḥarâm ; el-Cevâhirü’l-munaẓẓama bi-fażîleti’l-Kâʿbeti’l-muʿaẓẓama ; Risâle fî beyâni’l-ʿimâreti’l-vâḳıʿati baʿde suḳūṭi’l-Kâʿbe ; Şennü’l-ġāre ʿalâ mâniʿi naṣbi’s-sitâre li’l-Kâʿbe ; Şerḥu’ṣ-ṣudûr ve tenvîrü’l-ḳulûb fi’l-aʿmâli’l-mükeffire li’l-müteʾaḫḫiri ve’l-müteḳaddimi mine’ẕ-ẕünûb (divan) ve San‘a’daki el-Câmiu’l-kebîr’de Mütevekkiliyye Kütüphanesi’nde bulunan Fevâʾidü’n-neyl bi-feżâʾili’l-ḫayl . Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 454 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-et-taberi--tarihci",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-et-taberi--tarihci, https://islamansiklopedisi.org.tr/ali-et-taberi--tarihci",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ali-et-taberi--tarihci",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ali-et-taberi--tarihci",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:7214",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=7214, heading_ar=علي الطبري",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-et-taberi--tarihci (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[7214]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=7214 (heading_ar=علي الطبري) via Track A (DİA→Alam xref bridge). dt=Mekke'nin tarihçisi ve seçkin kimliklerinden biri"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hüseynî; Mekkî; Taberî"
+  ],
+  "death_temporal": {
+    "start_ah": 1070,
+    "start_ce": 1660,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-et-taberi--tarihci, URL: https://islamansiklopedisi.org.tr/ali-et-taberi--tarihci || El-Aʿlām (Ziriklī) cross-reference: alam_id=[7214] || DİA birth place: Mekke || DİA death place: Cennetü'l-muallâ || DİA death-date string: (ö. 1070/1660) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=7214, heading_ar=علي الطبري, dt=Mekke'nin tarihçisi ve seçkin kimliklerinden biri",
+  "active_in_places": [
+    "iac:place-00007861"
+  ]
+}

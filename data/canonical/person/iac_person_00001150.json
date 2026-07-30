@@ -1,0 +1,64 @@
+{
+  "@id": "iac:person-00001150",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Âşir Efendi"
+    },
+    "altLabel": {
+      "tr": [
+        "Reiszâde Mustafa Âşir Efendi"
+      ]
+    },
+    "description": {
+      "tr": "5 Ağustos 1729’da doğdu. Reîsülküttâb Tavukçubaşı Damadı Mustafa Efendi ’nin oğludur. Tahsilini devrin tanınmış âlimlerinin yanında tamamladıktan sonra 1744 yılında ruûs imtihanını kazanarak çeşitli yerlerde müderrislik yaptı. Daha sonra kadılık mesleğine geçti; 1768’de Yenişehr-i Fenâr (Larissa), 1777’de Bursa, 1781’de Mekke, 1786’da İstanbul kadılıklarında bulundu. Anadolu ve Rumeli kazaskerliklerinin önce pâye lerini aldı, ardından bilfiil 1788’de Anadolu, 1789’da da Rumeli kazaskeri oldu. Ancak bir süre sonra azledildi. Şeyhülislâm Hamîdîzâde Mustafa Efendi zamanında herhangi bir sebep gösterilmeksizin Kastamonu’da ikamete mecbur edildi. Hamîdîzâde’nin şeyhülislâmlıktan ayrılması üzerine 1791’de tekrar İstanbul’a döndü. 1793’te ikinci defa Rumeli kazaskerliğine getirildi. Bu görevde bir yıl kadar kaldı, 30 Ağustos 1798’de şeyhülislâm oldu. III. Selim, Âşir Efendi’ye hitaben çıkardığı hatt-ı hümâyunda (Cevdet, VII, 303-304), kendisinden önce şeyhülislâm olan Dürrîzâde Mehmed Ârif Efendi’nin görevini ihmal etmesi yüzünden azledildiğini, duyduğu güven sebebiyle bu görevi kendisine verdiğini belirtiyor ve ilmiye mesleğinde bir süreden beri görülen bozukluğu gidermek için çalışmasını istiyordu. Bundan dolayı onun şeyhülislâmlığı döneminde bu yolda bazı çalışmalar yapılmıştır. 11 Temmuz 1800’de şeyhülislâmlıktan azledildikten sonra Bursa’ya gönderildiyse de kısa zaman sonra tekrar İstanbul’a döndü; 29 Kasım 1804’te vefat etti. Cenazesi önce Eminönü civarındaki Bahçekapı’da kendi adıyla anılan kütüphanenin hazîresine defnedilmiş, daha sonra Molla Gürânî Mezarlığı’na nakledilmiştir. Bilgisi, dürüstlüğü, hayır ve hasenata düşkünlüğü ile takdir edilen Âşir Efendi aynı zamanda iyi bir hattattı. Bahçekapı’da bugün kendi adıyla anılan caddede bulunan konağının bahçesinde bir kütüphane ve dârülkurrâ kurmuş, buraya görevliler tayin ederek bazı gelirler tahsis etmiştir. Ayrıca Kastamonu’da bulunduğu sırada orada da hayır eserleri yaptırmıştır. Günümüzde Süleymaniye Kütüphanesi’nin bir bölümünü oluşturan kütüphanesinde bizzat kendisinin istinsah ettiği bazı yazmalar da bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 8 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:asir-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=asir-efendi, https://islamansiklopedisi.org.tr/asir-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-05-04T15:33:36Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=asir-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1729,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=asir-efendi, URL: https://islamansiklopedisi.org.tr/asir-efendi || DİA birth place: 1729 || DİA death place: 1804 || DİA death-date string: (1729-1804) || Chunk count: 1"
+}

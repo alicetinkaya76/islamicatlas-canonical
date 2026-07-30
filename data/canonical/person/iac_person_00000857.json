@@ -1,0 +1,58 @@
+{
+  "@id": "iac:person-00000857",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahmedü Lobbo"
+    },
+    "altLabel": {
+      "tr": [
+        "Şeyh Ahmed (Şehu Hamedü)"
+      ]
+    },
+    "description": {
+      "tr": "Mâsînâ’ya bağlı Malangal veya Mareval yerlilerindendir. Lobbo adını annesinden aldı. Doğum yeri ve tarihi ile ilk dönemleri hakkında bilgi edinilemeyen Ahmedü Lobbo, Kādiriyye şeyhi Sîdî Muhammed’in (ö. 1826) müridi olup meşhur İslâm mücahidi Osman b. Fûdî’nin (Osman dan Fodyo) 1800 civarında İslâmiyet’i yaymak için giriştiği başarılı seferlerine katıldı ve Cenne yakınındaki bir mezraaya yerleşti. Ancak onun faaliyetlerinden rahatsız olan Faslılar Ahmedü Lobbo’yu oradan uzaklaştırdılar. Bunun üzerine annesinin doğum yeri olan Sebera’ya giden Ahmedü Lobbo’nun çevresine bir hayli talebe toplandı. Talebeleriyle Dyallo hânedanı arasında meydana gelen bir olay Ahmedü Lobbo’yu isyana sevketti. İsyanı bastırmak üzere gönderilen Bambara ordusu mağlûp edilerek Dyallo hânedanının hâkimiyetine son verildi (1810). Bunun üzerine yöredeki Fûlânîler Ahmedü Lobbo’ya itaat ettiler. Dokuz hafta süren bir kuşatmadan sonra Cenne ele geçirildi. Ahmedü Lobbo bundan sonra Kunariler’in lideri Muhammed Geladjo’yu yendi ve Bani nehri kıyısında Hamdullahi (Hamdallay) adı verilen yeni bir başşehir kurdu (1815). Daha sonra Îsâ Ber ile Tinbüktü’yü ele geçirdi ve hâkimiyetini ülkenin doğu ve güneydoğusu istikametinde genişletti. “Emîrü’l-mü’minîn” unvanını alan ve on ikinci imam olduğunu iddia eden Ahmedü Lobbo, İslâmiyet’i yaymak için büyük gayret sarfetti ve devleti İslâm esaslarına göre yönetmeye çalıştı, bu maksatla bazı reformlar gerçekleştirdi. Başarılı ve âdil bir yönetici olan Ahmedü Lobbo ölünce yerine oğlu II. Ahmedü (Hamedü) geçti. 1852’de onun yerini oğlu III. Ahmedü aldı. Büyük Tekrûr fâtihi el-Hâc Ömer Tâl 1862’de Hamdullahi’yi zaptetti. III. Ahmedü Tinbüktü’ye doğru kaçtıysa da yakalandı ve el-Hâc Ömer’in emriyle idam edildi. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 173 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmedu-lobbo",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmedu-lobbo, https://islamansiklopedisi.org.tr/ahmedu-lobbo",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:08Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:08Z",
+    "modified": "2026-05-04T15:33:08Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmedu-lobbo (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1844,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ahmedu-lobbo, URL: https://islamansiklopedisi.org.tr/ahmedu-lobbo || DİA death-date string: (ö. 1844) || Chunk count: 1"
+}

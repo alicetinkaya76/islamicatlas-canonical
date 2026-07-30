@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00000648",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. UDEYS",
+      "ar": "عبد الرحمن بن عديس"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن عديس"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdurrahmân b. Udeys b. Amr el-Belevî"
+      ]
+    },
+    "description": {
+      "tr": "Mısır fethine katıldı ve oraya yerleşti. Hz. Osman’ı azletmek için Mısır’dan Medine’ye doğru yola çıkan dört askerî birlikten birinin kumandanı idi. Bu ayaklanmayı haber alan Osman, aralarında Hz. Ali ve Muhammed b. Mesleme’nin de bulunduğu otuz (veya elli) kişilik bir heyeti, âsileri yatıştırmak üzere Medine dışında konakladıkları yere gönderdi. Heyet, beğenilmeyen bazı uygulamaların düzeltileceğine dair halife adına söz vererek orduyu geri dönmeye razı etti. Ancak, Büveyb mevkiine geldikleri zaman halifenin kölesini, Mısır valisine hitaben yazılmış bir mektupla yakaladılar. Mektupta Abdurrahman b. Udeys ve arkadaşlarına, Mısır’a döndüklerinde yüzer değnek vurulması, saç ve sakallarının kesilmesi ve yeni bir emre kadar uzun süre hapsedilmeleri emrediliyordu. Bunun üzerine ordu geri döndü ve Medine’ye vardı. Orada bizzat Hz. Osman’la durumu müzakere ettiler. Halife her ne kadar mektuptan haberdar olmadığını söylediyse de Abdurrahman ve arkadaşları inanmadılar; diğer yerlerden gelen âsilerle birlikte halifeyi kırk dokuz gün muhasara altında tuttular, sonunda da şehid ettiler. Abdurrahman b. Udeys, Hz. Osman’ın şehid edilmesinden sonra Mısır’a dönerken diğer isyancı arkadaşlarıyla birlikte Muâviye’nin adamları tarafından yakalanıp Filistin’de hapsedildi. İsyancılar bir ara hapishaneden kaçmayı başardılarsa da Filistin valisinin elinden kurtulamadılar. Abdurrahman kendisini yakalayan kişiye, “Yazıklar olsun sana! Allah’tan kork ve kanıma girme; ben ağaç altında Hz. Peygamber’e biat etmiş bir sahâbîyim!” dediyse de bu sözleri adama tesir etmedi ve “Halil dağında çok ağaç var” diyerek Abdurrahman’ı öldürdü. Mısır’da bulunan tâbiîlerden Ebü’l-Husayn el-Hacrî, Abdurrahman b. Şimâse ve Ebû Sevr el-Fehmî gibi muhaddisler kendisinden rivayette bulunmuşlardır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 176 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-udeys",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-udeys, https://islamansiklopedisi.org.tr/abdurrahman-b-udeys",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-udeys (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Belevî"
+  ],
+  "death_temporal": {
+    "start_ah": 36,
+    "start_ce": 656,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-udeys, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-udeys || DİA death-date string: (ö. 36/656-57) || DİA categories: rivayet || Chunk count: 1",
+  "students": [
+    "iac:person-00003001"
+  ]
+}

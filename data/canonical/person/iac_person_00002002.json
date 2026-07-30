@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00002002",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DERVİŞ ALİ, Üçüncü"
+    },
+    "description": {
+      "tr": "Kendisinden önce yaşayan ve aynı adı taşıyan iki hattattan ayırt edilmek için “Üçüncü” veya “Sâlis” lakabıyla anılır. Doğu bölgesinden İstanbul’a gelerek Sinan Paşa Medresesi’ne yerleşti; sülüs-nesih yazılarını Hüseyin Hablî’den meşkederek icâzet aldı. Hocasının vefat yılı olan 1157’den (1744) en az yirmi yıl kadar önce doğduğu tahmin edilebilir. Kalenderhâne Camii’nin hatipliğini de yapan Derviş Ali, Receb 1200’de (Mayıs 1786) evinde asılı olarak bulunmuştur; gömüldüğü yer belli değildir. Halen İstanbul’da Deniz Müzesi’nde bulunan ve nereden geldiği tesbit edilemeyen Derviş Ali adlı hattata ait kabir kitâbesinde (Envanter nr. 979) ölüm tarihi 1192 (1778) olarak verilmektedir. Bu kitâbede yazılı olan tarih mi yanlıştır, yoksa adı geçen Derviş Ali kaynaklarda yer almayan bir dördüncü Derviş Ali midir, bu hususta kesin sonuca varmak eldeki bilgilerle mümkün olmamaktadır. Derviş Ali, Hüseyin Hablî-İmam Derviş Ali üzerinden Hâfız Osman’a varan yazı üslûbunu bütün asâletiyle devam ettiren, ancak kıymeti derecesinde tanınmayan hattatlardandır; yazısı da nâdirdir. Mustafa Râkım gibi bir üstada yetişme çağlarında bir müddet hocalık ettiği bilinmektedir (Râkım’ın bir hat icâzetnâmesinde bunu belirtişi hakkında bk. A. Süheyl Ünver, Türk Yazı Çeşitleri , s. 31’deki fotoğraf). Esasen Râkım’ın sanat hayatındaki bir devrinin nesih yazıları Derviş Ali hattına benzerlik gösterir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 192-193 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dervis-ali-ucuncu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dervis-ali-ucuncu, https://islamansiklopedisi.org.tr/dervis-ali-ucuncu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:dervis-ali-ucuncu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/dervis-ali-ucuncu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dervis-ali-ucuncu (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1200,
+    "start_ce": 1786,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dervis-ali-ucuncu, URL: https://islamansiklopedisi.org.tr/dervis-ali-ucuncu || DİA death-date string: (ö. 1200/1786) || Chunk count: 1"
+}

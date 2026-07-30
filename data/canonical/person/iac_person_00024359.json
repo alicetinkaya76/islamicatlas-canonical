@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00024359",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "IbnKathir"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "openiti:0774IbnKathir",
+        "source_type": "digital_corpus",
+        "page_or_locator": "OpenITI corpus_authors.json id=0774IbnKathir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "OpenITI corpus snapshot 2024-2026"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "openiti-author-resolve",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T21:23:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T21:23:43Z",
+    "modified": "2026-05-04T21:23:43Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T21:23:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Placeholder person minted by openiti-author-resolve Tier 4 (no T1/T2 match in canonical person index). Pending biographic enrichment in Hafta 6 (DİA chunk re-extraction + cross-source alignment). Authored works will be back-populated by integrity_pass_A_bidirectional after openiti-works adapter."
+      }
+    ],
+    "deprecated": false
+  },
+  "note": "Tier-4 placeholder from OpenITI author_id=0774IbnKathir. Biographic content sparse pending Hafta 6 enrichment.",
+  "death_temporal": {
+    "start_ce": 1373,
+    "start_ah": 774,
+    "approximation": "circa"
+  },
+  "authored_works": [
+    "iac:work-00000290",
+    "iac:work-00000342",
+    "iac:work-00000456",
+    "iac:work-00001281",
+    "iac:work-00001525",
+    "iac:work-00001615",
+    "iac:work-00001721",
+    "iac:work-00002381",
+    "iac:work-00002396",
+    "iac:work-00003920",
+    "iac:work-00004413",
+    "iac:work-00004626",
+    "iac:work-00004941",
+    "iac:work-00007065",
+    "iac:work-00008146",
+    "iac:work-00008737"
+  ]
+}

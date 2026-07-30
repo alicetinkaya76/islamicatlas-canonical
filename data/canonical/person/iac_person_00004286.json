@@ -1,0 +1,114 @@
+{
+  "@id": "iac:person-00004286",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-MUZAFFER",
+      "ar": "ابن المظفّر"
+    },
+    "originalScript": {
+      "ar": "ابن المظفّر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hüseyn Muhammed b. el-Muzaffer b. Mûsâ el-Bezzâz el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "Muharrem 286’da (Ocak 899) Bağdat’ta doğdu. Aslen Sâmerrâlı olup babası Sâmerrâ’dan Bağdat’a gidip yerleşmiştir. Sahâbî Seleme b. Ekva‘ın soyundan geldiği söylenmekle beraber kendisi hem bu konuda hem de Arap olup olmadığı hususunda kesin bilgiye sahip bulunmadığını belirtmiştir. Hatîb el-Bağdâdî, İbnü’l-Muzaffer’in soyunun Seleme’ye dayandığına dair bilgiyi sadece Abdülvâhid b. Ali b. Berhân’ın verdiğini söyleyerek bunu şüpheyle karşılamıştır ( Târîḫu Baġdâd , III, 262). İbnü’l-Muzaffer 300 (912) yılı başından itibaren hadis öğrenimine başladı. Harran, Dımaşk, Mısır, el-Cezîre, Halep, Humus, Vâsıt, Kûfe ve Rakka’ya giderek Kāsım b. Zekeriyyâ el-Mutarriz, İbn Cerîr et-Taberî, İbnü’l-Bâgandî, Ebü’l-Kāsım el-Begavî, İbn Ebû Dâvûd, Tahâvî ve Ebû Arûbe gibi âlimlerden hadis öğrendi. Kendisinden Dârekutnî, İbn Şâhin, Berkānî, İbn Ebü’l-Fevâris, Mâlînî, Ebû Nuaym el-İsfahânî ve Muhammed b. Hüseyin es-Sülemî hadis rivayet etti. İbnü’l-Muzaffer sika, me’mûn gibi vasıflarla anılmış olup ondan binlerce hadis yazan Dârekutnî’nin kendisine büyük saygı gösterdiği, Şîa’ya meyilli olup olmadığı yolundaki bir soruya onlara sempatisi bulunduğunu, ancak bunun güvenilirliğine zarar verecek nitelikte sayılmadığını belirttiği kaydedilmektedir. İbnü’l-Muzaffer Cemâziyelevvel 379’da (Ağustos 989) Bağdat’ta vefat etti. Eserleri. 1. el-Fevâʾid (Dârü’l-kütübi’z-Zâhiriyye, Hadis, nr. 357, vr. 96-100; Mecmua, nr. 80, vr. 83-87). 2. el-Fevâʾidü’l-münteḳātü’l-ġarâʾibü’l-ḥisân (Dârü’l-kütübi’z-Zâhiriyye, Mecmua, nr. 117, vr. 214-223). 3. el-Cüzʾ fîhi mine’l-fevâʾidi’l-münteḳāt ʿani’ş-şüyûḫi’l-ʿavâlî (Dârü’l-kütübi’z-Zâhiriyye, Mecmua, nr. 10-11). 4. Ḥadîs̱ (Dârü’l-kütübi’z-Zâhiriyye, Mecmua, nr. 56, vr. 244 a -262 a ). 5. Ġarâʾibü ḥadîs̱i’l-İmâm Ebî ʿAbdillâh Mâlik b. Enes (Dârü’l-kütübi’z-Zâhiriyye, Hadis, nr. 279, vr. 63-77). 6. Ġarâʾibü ḥadîs̱i Şuʿbe b. el-Ḥaccâc . Abdullah b. Abdülazîz el-Gusn tarafından yüksek lisans tezi olarak neşre hazırlanmıştır (1404, Câmiatü’l-İmâm Muhammed b. Suûd el-İslâmiyye külliyyetü usûli’d-dîn). 7. Münteḳā min ḥadîs̱i Hişâm b. ʿAmmâr (Dârü’l-kütübi’z-Zâhiriyye, Mecmua, nr. 63, vr. 153-164). Onun ayrıca Feżâʾilü İbn ʿAbbâs adlı bir eseri bulunduğu kaydedilmektedir ( İbn Hacer, Lisânü’l-Mîzân , V, 383). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 148 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-muzaffer",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-muzaffer, https://islamansiklopedisi.org.tr/ibnul-muzaffer",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibnul-muzaffer",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibnul-muzaffer",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:27Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:27Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-muzaffer (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibnul-muzaffer)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 300,
+    "start_ce": 912,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 379,
+    "start_ce": 989,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-muzaffer, URL: https://islamansiklopedisi.org.tr/ibnul-muzaffer || DİA birth place: Bağdat || DİA death place: Bağdat || DİA death-date string: (ö. 379/989) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001403",
+    "iac:person-00002135",
+    "iac:person-00003742",
+    "iac:person-00004102",
+    "iac:person-00004139",
+    "iac:person-00007225",
+    "iac:person-00007239"
+  ],
+  "students": [
+    "iac:person-00001478",
+    "iac:person-00001934",
+    "iac:person-00002234",
+    "iac:person-00003775",
+    "iac:person-00004005",
+    "iac:person-00004255",
+    "iac:person-00005214",
+    "iac:person-00007143"
+  ]
+}

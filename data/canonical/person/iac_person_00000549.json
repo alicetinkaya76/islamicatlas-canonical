@@ -1,0 +1,126 @@
+{
+  "@id": "iac:person-00000549",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. UTBE",
+      "ar": "عبد الله بن عتبة"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن عتبة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ubeydillâh Abdullāh b. Utbe b. Mes‘ûd el-Hüzelî el-Medenî el-Kûfî",
+        "Abdullah b. ez-Zubeyr b. el-Avvâm el-Kuşeyrî el-Esedî, Ebû Bekr"
+      ],
+      "ar": [
+        "عبد الله بن الزبير",
+        "عبد الله بن الزبير بن العوام القرشي الأسدي، أبو بكر"
+      ]
+    },
+    "description": {
+      "tr": "Meşhur sahâbî Abdullah b. Mes‘ûd’un yeğenidir. Hz. Peygamber’in vefatı sırasında henüz küçüktü. Doğum tarihi kesin olarak bilinmemektedir. Hz. Ömer’in halifeliği zamanında Medine’de çarşı ve pazarın kontrolüyle görevlendirildi. 66 (685) yılında Kûfe’de isyan çıkararak şehirde idareyi ele geçiren Muhtâr es-Sekafî tarafından Şüreyh’in yerine kadı tayin edildi, fakat kısa bir süre sonra hastalığı sebebiyle görevden alındı. Mus‘ab b. Zübeyr’in valiliği sırasında da iki yıl (686-687) Kûfe kadılığı yapan Abdullah b. Utbe 74 (veya 73) yılında orada vefat etti. Bazı âlimlerin tâbiînden saydıkları Abdullah b. Utbe, Kûfe’nin önde gelen âlimlerindendi. Kendisinden birçok hadis ve fetva nakledilmiştir. Hadis rivayetinde sika olduğu hususunda ittifak vardır. Resûlullah’tan doğrudan hadis rivayeti bulunmayan Abdullah b. Utbe, daha çok amcası İbn Mes‘ûd, Hz. Ömer, Ammâr ve Ebû Hüreyre’den rivayette bulunmuş, kendisinden de Medine’nin meşhur yedi fakihinden ( fukahâ-yi seb‘a ) biri olan oğlu Ubeydullah, Âmir eş-Şa‘bî, Muhammed b. Abdurrahman b. Avf, Ebû İshak es-Sebîî ve Muhammed b. Sîrîn hadis rivayet etmişlerdir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 139 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "The knight of Quraysh in his time, and the first child born in Medina after the Hijra"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd Allāh b. al-Zubayr b. al-ʿAwwām al-Qurayshī al-Asadī, Abū Bakr"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-utbe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-utbe, https://islamansiklopedisi.org.tr/abdullah-b-utbe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:5916",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5916, heading_ar=عبد الله بن الزبير",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-b-utbe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-b-utbe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-utbe (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5916]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5916 (heading_ar=عبد الله بن الزبير) via Track A (DİA→Alam xref bridge). dt=Zamanının Kureyş atlısı, Hicra sonrası Medine'de doğan ilk çocuk"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+kunya+translit from alam_detail.json el-alam:5916."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hüzelî; Medenî"
+  ],
+  "birth_temporal": {
+    "start_ah": 66,
+    "start_ce": 685,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 74,
+    "start_ce": 693,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-utbe, URL: https://islamansiklopedisi.org.tr/abdullah-b-utbe || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5916] || DİA death-date string: (ö. 74/693) || DİA categories: hadis > rivayet > fetva || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5916, heading_ar=عبد الله بن الزبير, dt=Zamanının Kureyş atlısı, Hicra sonrası Medine'de doğan ilk çocuk",
+  "kunya": "أبو بكر",
+  "students": [
+    "iac:person-00006501"
+  ]
+}

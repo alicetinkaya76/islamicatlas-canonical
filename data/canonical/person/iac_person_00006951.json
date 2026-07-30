@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00006951",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "SEYFÜDDEVLE, Abdüssamed Han",
+      "ar": "سيف الدولة عبد الصمد خان"
+    },
+    "originalScript": {
+      "ar": "سيف الدولة عبد الصمد خان"
+    },
+    "description": {
+      "tr": "Asıl adı Hâce Abdürrahîm b. Abdülkerîm olup Abdüssamed Han adıyla tanınır. Aslen Semerkantlı olup nesebi Nakşibendî meşâyihinden Hâce Ubeydullah Ahrâr’a dayanır. Seyfüddevle ve Delîr Ceng unvanları Bâbürlü Devleti’ne hizmetlerinden dolayı verilmiştir. Bâbürlü Hükümdarı Evrengzîb’in hükümdarlığı döneminde (1658-1707) ailesinin bir seyahat için bulunduğu Agra’da doğdu. İki yaşında iken ailesi Semerkant’a döndü. İlk eğitimini burada alan Seyfüddevle genç yaşta Canoğulları’ndan Sübhan Kulı Han’ın (1682-1702) maiyetine girdi ve şeyhülislâm rütbesine ulaştı. Daha sonra Hindistan’a gitti ve Bâbürlü idaresinde Evrengzîb’in kumandanlarından İran asıllı (İranî) Zülfikar Han’ın himayesine mazhar olup onun maiyetinde mansabdâr oldu. Yine Evrengzîb’in kumandanlarından Türk asıllı (Turanî) Muhammed Emin Han’ın kardeşiyle evlenmesinin ardından mansabı arttı ve bir müddet Dekken ve civarında bulunduktan sonra 1125’te (1713) Sultan Ferruhsiyer zamanında Lahor valisi tayin edildi. 1127’de (1715) Seyfüddevle’ye ilâveten Delîr Ceng unvanıyla taltif edildi. Ferruhsiyer tarafından o sırada Pencap’ta isyan eden Sih lideri Guru Banda’nın isyanını bastırmakla görevlendirildi. Seyfüddevle’nin oğlu Zekeriyyâ Han da babasına yardım için Cammû’ya gönderildi. Seyfüddevle, 20.000 kişiyi aşkın bir kuvvetle Guru Banda’yı sekiz ay muhasara ettikten sonra bozguna uğrattı (1127/1715). Böylece Sih tehdidini önleyerek Pencap bölgesinde asayiş ve huzuru temin etti. Aynı şekilde Afgan Hüseyin Han Kasûrî’nin çıkardığı isyanı da bastırdı. 1137’de (1724) Mültan valisi tayin edilince oğlu Lahor valiliğine getirildi. 28 Rebîülevvel 1150’de (26 Temmuz 1737) vefat eden Seyfüddevle Lahor’a defnedildi. Bâbürlü kaynaklarında zeki ve kabiliyetli bir devlet adamı, âlim ve sanatkârları himaye eden cömert bir idareci olarak zikredilir. Dindar bir devlet adamı olup gayri müslimlere de hoşgörülü davranırdı. Nâsırüddin Muhammed Şah zamanında Nizâmülmülk Âsafcâh’ın yeniden cizye koymasına karşı çıkmıştı. Bu madde TDV İslâm Ansiklopedisi’nin 2009 yılında İstanbul’da basılan 37. cildinde, 35 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:seyfuddevle-abdussamed-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=seyfuddevle-abdussamed-han, https://islamansiklopedisi.org.tr/seyfuddevle-abdussamed-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:seyfuddevle-abdussamed-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/seyfuddevle-abdussamed-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:56Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=seyfuddevle-abdussamed-han (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1150,
+    "start_ce": 1737,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=seyfuddevle-abdussamed-han, URL: https://islamansiklopedisi.org.tr/seyfuddevle-abdussamed-han || DİA birth place: Agra || DİA death place: 1150 || DİA death-date string: (ö. 1150/1737) || Chunk count: 1"
+}

@@ -1,0 +1,65 @@
+{
+  "@id": "iac:person-00007035",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Sinan Bey"
+    },
+    "description": {
+      "tr": "Hayatı hakkında çok az şey bilinmektedir; Nakkaş lakabıyla tanınır. Gelibolulu Mustafa Âlî Efendi 994 (1586) yılında yazdığı Menâkıb-ı Hünerverân adlı eserinde Sultan Mehmed Han dönemi musavvirlerinden Sinan Bey’in Venedik’te nakkaşların en üstünü Damyan’ın öğrencisi Pavli’nin (Mastori Paoli) yanında yetiştiğini ve onun şakirdinin de “şebîh” çizmede (portre yapmada) zamanın nakkaşlarının en iyisi Şiblîzâde Ahmed Çelebi (bk. BURSALI AHMED ) olduğunu söyler (s. 68). Sinan Bey’in, Bursa Türk ve İslâm Eserleri Müzesi avlusunda sergilenen ve Bursa’nın bugün mevcut olmayan, birçok âlim, mutasavvıf, edip, şair ve sanatkârın medfun bulunduğu ünlü Deveciler Kabristanı’ndan getirilen mezar taşının (Envanter nr. 46) bir yüzünde güzel istifli sülüs hatla “sâhibü’l-kabr el-merhûm el-mağfûr es-saîd eş-şehîd nakkāş-ı Sultan Mehmed Sinân Bey b. Sââtî”, diğer yüzünde “sâhibü’l-kabr nakkāş Sinân” ibaresi yazılıdır (Koyunluoğlu, rs. 146; Uzunçarşılı, II, 610-611). Mustafa Âlî Efendi tarafından Bursalı Ahmed’in portre ressamlığında üstat olduğunun söylenmesi hocası Sinan Bey’in de portre üstadı olabileceği düşüncesini akla getirmiş ve Topkapı Sarayı Müzesi Kütüphanesi’nde muhafaza edilen bir murakka‘ içindeki, gül koklayan bağdaş kurmuş Fâtih Sultan Mehmed portresi (Hazine, nr. 2153, vr. 10 a ), üzerinde imza bulunmamasına rağmen murakkaın ilk incelenişinden beri Sinan Bey’e atfedilmiştir. Ancak son yıllarda bu portreyi Bursalı Ahmed’e atfetmenin daha doğru olacağı görüşü ağırlık kazanmıştır (Raby, s. 69-72, 89). Aynı şekilde murakka‘ içindeki yine imzasız diğer bir Fâtih Sultan Mehmed portresinin de (Hazine, nr. 2153, vr. 145 b ) İtalyan ressamı Costanzo da Ferrara’nın yaptığı bir bronz madalyadaki Fâtih’in portresine benzemesinden dolayı sanıldığı gibi ona değil, onun bir eskizinden yararlanan ve 885 (1480) yılında Fâtih Sultan Mehmed’in yolladığı elçiyle Venedik’e gönderilen Sinan Bey’e ait olduğu ileri sürülmüştür ( a.g.e. , s. 70, 89-90). Bu madde TDV İslâm Ansiklopedisi’nin 2009 yılında İstanbul’da basılan 37. cildinde, 228 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:sinan-bey",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=sinan-bey, https://islamansiklopedisi.org.tr/sinan-bey",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:57Z",
+    "modified": "2026-05-04T15:34:57Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=sinan-bey (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 994,
+    "start_ce": 1586,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 885,
+    "start_ce": 1480,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=sinan-bey, URL: https://islamansiklopedisi.org.tr/sinan-bey || DİA death-date string: (ö. 885/1480’den sonra) || Chunk count: 1"
+}

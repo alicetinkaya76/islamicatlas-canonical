@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00006158",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "NU‘MÂN b. KAVKAL",
+      "ar": "النعمان بن قوقل"
+    },
+    "originalScript": {
+      "ar": "النعمان بن قوقل"
+    },
+    "altLabel": {
+      "tr": [
+        "en-Nu‘mân b. Kavkal (Sa‘lebe) b. Esrem el-Hazrecî el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "Medine’nin iki büyük kabilesinden biri olan Hazrec’in Amr b. Avf oğulları kolundandır. Babasının adı Sa‘lebe olmakla birlikte tanınmış bir kişi olan büyük dedesi Sa‘lebe b. Ganm halk arasında Kavkal lakabıyla bilindiği için bu lakap babası için de kullanılmış, bundan dolayı Nu‘mân İbn Kavkal diye meşhur olmuş, Amr b. Avf oğullarına da “Kavâkıle” denmiştir. Nu‘mân, Resûl-i Ekrem’in Medine’ye hicretinden hemen sonra hayli ilerlemiş bir yaşta İslâm’a girdi. Daha önce geçirdiği bir kaza veya savaşta aldığı bir darbe yüzünden ayağından sakatlanmasına rağmen Bedir Gazvesi’nde bulundu. Ardından Uhud Gazvesi’ne katıldı ve savaştan önce Hz. Peygamber’in yanına giderek şehid olmayı ve güneş batmadan önce aksak ayağıyla yemyeşil cennet bahçesinde dolaşmayı arzuladığını söyledi. Bütün gücünü ortaya koyduğu bu savaşta müşriklerden Safvân b. Ümeyye ile giriştiği mücadele sonunda şehid düştü. Resûl-i Ekrem, savaştan hemen sonra yaptığı açıklamada onu ayağında hiçbir aksaklık olmadığı halde yemyeşil cennet bahçelerinde dolaşırken gördüğünü haber verdi. Nu‘mân’dan Câbir b. Abdullah el-Ensârî ve mürsel olarak da Ebû Sâlih es-Semmân rivayette bulunmuştur. Bir kısım kaynaklarda Nu‘mân b. Kavkal ile yine Kavkaloğulları’ndan olan Nu‘mân b. Mâlik b. Sa‘lebe el-Hazrecî birbirine karıştırılmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 33. cildinde, 236-237 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:numan-b-kavkal",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=numan-b-kavkal, https://islamansiklopedisi.org.tr/numan-b-kavkal",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:numan-b-kavkal",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/numan-b-kavkal",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:48Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:48Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:48Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=numan-b-kavkal (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hazrecî; Ensârî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 3,
+    "start_ce": 625,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=numan-b-kavkal, URL: https://islamansiklopedisi.org.tr/numan-b-kavkal || DİA death-date string: (ö. 3/625) || DİA categories: rivayet || Chunk count: 1"
+}

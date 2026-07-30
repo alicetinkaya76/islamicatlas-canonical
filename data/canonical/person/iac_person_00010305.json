@@ -1,0 +1,125 @@
+{
+ "@id": "iac:person-00010305",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Ḥārith al-Muḥāsibī",
+   "tr": "Hâris el-Muhâsibî",
+   "ar": "الحارث المحاسبي"
+  },
+  "originalScript": {
+   "ar": "الحارث المحاسبي"
+  },
+  "description": {
+   "tr": "Tasavvufun önemli şahsiyetleri arasından.",
+   "en": "One of the most prominent figures in Sufism.",
+   "ar": "أول منهجيي التصوف السني الكبار ومؤسس تقليد محاسبة النفس والمراقبة الباطنية. كتابه الرعاية لحقوق الله نص أساسي في التصوف الأخلاقي. تأثر به الإمام الغزالي تأثرا عميقا."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "al-Ḥārith b. Asad al-Muḥāsibī, Abū ʿAbdullāh"
+  },
+  "altLabel": {
+   "tr": [
+    "Hâris b. Esed el-Muhâsibî, Ebû Abdullâh"
+   ],
+   "ar": [
+    "الحارث بن أسد المحاسبي، أبو عبد الله"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:2462",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=2462",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "scholars:277",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=277",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:50Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:50Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:50Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=2462 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:31Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['description.ar', 'kunya', 'nisba']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:2462."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (5754-10305) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00005754 lehine yumuşak-silindi. Gerekçe: 243/857'de ölen Basralı sûfî Hâris b. Esed el-Muhâsibî her iki kayıtta da aynıdır; ikinci kayıttaki koordinat Basra'yı gösteriyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00005754"
+ },
+ "death_temporal": {
+  "start_ah": 243,
+  "start_ce": 857,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=2462, heading_ar=الحارث المحاسبي || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 30.51, 47.78",
+ "active_in_places": [
+  "iac:place-00001954"
+ ],
+ "authored_works": [
+  "iac:work-00001920",
+  "iac:work-00002595",
+  "iac:work-00004855",
+  "iac:work-00005499",
+  "iac:work-00006551",
+  "iac:work-00006664",
+  "iac:work-00007867",
+  "iac:work-00008097"
+ ],
+ "kunya": "Ebû Abdullah",
+ "nisba": [
+  "Muhâsibî",
+  "Basrî → Bağdâdî"
+ ]
+}

@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00000878",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Akbiyik Sultan"
+    },
+    "description": {
+      "tr": "Asıl adının Ahmed Şemseddin veya Abdullah olduğu rivayet edilir. Kaynaklarda genellikle keşf ve keramet sahibi bir meczup olarak tanıtılır ve şeyhi Hacı Bayrâm-ı Velî ile ilgili bazı menkıbeleri nakledilir. Bayramiyye’nin Celvetiyye kolu silsilesinde yer alan Akbıyık’a II. Murad, Cemâziyelevvel 841 (Kasım 1437) tarihli temliknâme ile Bursa-Yenişehir yakınlarındaki Austos köyünü bağışladı. Varna Seferi’ne (1444) ve İstanbul’un fethine katıldı. Fetihten sonra Ayasofya civarında adına bir cami yapıldı ve bu semte onun adı verildi. Meczup tavrına rağmen Çandarlı Halil Paşa gibi devlet adamları ve Molla Yegân gibi âlimlerle sohbetlerde bulundu. Mecmualarda Şems-i Hudâ mahlasıyla bazı şiirlerine de rastlanmaktadır. Malının hesabını bilemeyecek kadar zengin olan Akbıyık’ın, servetini Allah yolunda harcamak maksadıyla Bursa Ulucamii civarında yaptırdığı külliyeden günümüze sadece medfun bulunduğu türbe ulaşabilmiş, imaret ve tekkeden eser kalmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 223 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:akbiyik-sultan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=akbiyik-sultan, https://islamansiklopedisi.org.tr/akbiyik-sultan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:akbiyik-sultan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/akbiyik-sultan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=akbiyik-sultan (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 860,
+    "start_ce": 1456,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=akbiyik-sultan, URL: https://islamansiklopedisi.org.tr/akbiyik-sultan || DİA death-date string: (ö. 860/1456) || DİA categories: rivayet > matematik || Chunk count: 1"
+}

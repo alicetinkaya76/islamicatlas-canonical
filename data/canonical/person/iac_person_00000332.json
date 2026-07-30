@@ -1,0 +1,95 @@
+{
+ "@id": "iac:person-00000332",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Jabir ibn Hayyan",
+   "tr": "Câbir b. Hayyân",
+   "ar": "جابر بن حيان"
+  },
+  "originalScript": {
+   "ar": "جابر بن حيان"
+  },
+  "altLabel": {
+   "en": [
+    "Abu Musa Jabir ibn Hayyan"
+   ],
+   "tr": [
+    "Ebû Mûsâ Câbir b. Hayyân"
+   ],
+   "ar": [
+    "أبو موسى جابر بن حيان"
+   ]
+  },
+  "description": {
+   "tr": "Kimyanın babası; sistematik deneyciliği, damıtmayı tanıttı ve mineral asitleri keşfetti || Simyayı mistik spekülasyondan sistematik deneysel bilime dönüştürdü || [Tarih notu] Câbir külliyatı birden fazla müellife ait olabilir",
+   "en": "Father of chemistry; introduced systematic experimentation, distillation, and discovered mineral acids || Transformed alchemy from mystical speculation into systematic experimental science || [Historiographical note] The Jabirian corpus may be by multiple authors; debate continues on attribution of specific works",
+   "ar": "أبو الكيمياء || حوّل الكيمياء من التأمل الصوفي إلى العلم التجريبي || [Historiographical note] قد يكون المجموع الجابري لعدة مؤلفين"
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0153",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0153",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-05-04T14:58:52Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0153 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (190-332-1655) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000190 lehine yumuşak-silindi. Gerekçe: Üç kayıt da aynı ad-nesep (Câbir b. Hayyân / جابر بن حيان), aynı ölüm yılı (815) ve aynı simya-felsefe profiline sahip tek şahıstır."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000190"
+ },
+ "birth_temporal": {
+  "start_ce": 721,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 815,
+  "approximation": "exact"
+ },
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q167852",
+   "confidence": 1.0,
+   "method": "openrefine_v3",
+   "reviewed": false,
+   "note": "Auto-matched via OpenRefine recon (top result for 'Jabir ibn Hayyan')."
+  }
+ ],
+ "note": "Promoted from science_layer.json scholar id=scholar_0153, lecture_week=n/a. || Key works: {'title': {'en': 'Kitab al-Kimya', 'tr': \"Kitâbü'l-Kîmyâ\", 'ar': 'كتاب الكيمياء'}, 'year': 790, 'field': 'chemistry', 'significance': {'en': 'Foundational text of Islamic alchemy; introduced distillation, crystallization, and acid synthesis', 'tr': 'İslam simyasının temel metni; damıtma, kristalleştirme ve asit sentezini tanıttı'}} || Modern parallel: Like founding a research lab and publication culture — methodical documentation of experiments",
+ "authored_works": [
+  "iac:work-00000191"
+ ]
+}

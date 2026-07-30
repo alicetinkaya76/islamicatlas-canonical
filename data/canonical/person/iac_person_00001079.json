@@ -1,0 +1,102 @@
+{
+  "@id": "iac:person-00001079",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ANTÂKÎ, Ali b. Muhammed",
+      "ar": "علي بن محمّد الأنطاكي"
+    },
+    "originalScript": {
+      "ar": "علي بن محمّد الأنطاكي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Muhammed b. İsmâîl el-Antâkî et-Temîmî"
+      ]
+    },
+    "description": {
+      "tr": "299’da (911-12) Antakya’da doğdu. Burada İbrâhim b. Abdürrezzâk’tan arz ve semâ yoluyla kıraat öğrendi. 950’de annesiyle birlikte hacca gitti. Hac dönüşü Şam’da hocasının vefatını öğrenince Antakya’ya dönmekten vazgeçip Kahire’ye gitmeye karar verdi ve oraya yerleşti. Uzun süre Kahire’de kıraat okuttu. Endülüs Hükümdarı Müstansır-Billâh’ın ricası üzerine Endülüs’e giderek (963) Kurtuba’ya yerleşti ve 29 Rebîülevvel 377 (29 Temmuz 987) tarihinde orada vefat etti. Kıraat ilminde Endülüs’ün önde gelen âlimlerinden biri olan Antâkî, Şâfiî fıkhında ve hesap ta da bilgi sahibiydi. Otuz yıl kadar derslerine devam ettiği hocası İbrâhim b. Abdürrezzâk’tan başka Muhammed b. Nadr b. Ahrem, Ahmed b. Muhammed b. Haşîş, Muhammed b. Ca‘fer el-Bağdâdî, Ahmed b. Sâlih el-Bağdâdî’den ders almıştır. Kendisinden kıraat ilminde faydalananlar arasında meşhur Endülüslü tarihçi İbnü’l-Faradî, Ebü’l-Ferec el-Heysem b. Ahmed es-Sabbâğ, İbrâhim b. Mübeşşir, Utbe b. Abdülmelik, Ubeydullah b. Seleme b. Hazm gibi âlimler bulunmaktadır. Bunlardan Ubeydullah b. Seleme’nin meşhur kıraat âlimi Ebû Amr ed-Dânî’nin hocası olduğu dikkate alınırsa, Antâkî’nin Dânî’nin kaynakları arasında birinci sırada yer aldığı anlaşılır. Yedi kıraat imamından biri olan Nâfi‘in râvisi Verş’in kıraatini el-Uṣûl fî ḳırâʾati Verş adlı eserinde tesbit eden Antâkî’nin Risâle fi’l-vaḳf (Tunus Zeytûne Ktp., I/167) adlı bir başka eseri de vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 227 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:antaki-ali-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=antaki-ali-b-muhammed, https://islamansiklopedisi.org.tr/antaki-ali-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:antaki-ali-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/antaki-ali-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=antaki-ali-b-muhammed (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Antâkî; Temîmî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 377,
+    "start_ce": 987,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=antaki-ali-b-muhammed, URL: https://islamansiklopedisi.org.tr/antaki-ali-b-muhammed || DİA birth place: Antakya || DİA death place: Kahire || DİA death-date string: (ö. 377/987) || Chunk count: 1",
+  "birth_place": "iac:place-00001070",
+  "death_place": "iac:place-00009399",
+  "students": [
+    "iac:person-00003806"
+  ]
+}

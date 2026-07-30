@@ -1,0 +1,151 @@
+{
+  "@id": "iac:person-00000203",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Al-Ghazali",
+      "tr": "Gazzâlî",
+      "ar": "الغزالي"
+    },
+    "originalScript": {
+      "ar": "الغزالي"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Hamid Muhammad ibn Muhammad al-Ghazali"
+      ],
+      "tr": [
+        "Ebû Hâmid Muhammed b. Muhammed el-Gazzâlî",
+        "el-Gazzâlî"
+      ],
+      "ar": [
+        "أبو حامد محمد بن محمد الغزالي"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Muhammed'den sonra en etkili İslam düşünürü — hukuk, teoloji ve tasavvufu birleşik bir çerçevede sentezlerken, felsefi eleştirisi İslam ve Avrupa düşüncesinin seyrini yeniden şekillendirdi || Gazzâlî benzersiz bir konum işgal eder: İslam tarihinde felsefenin en büyük felsefi eleştirmeni. Tehâfüt, Fârâbî ve İbn Sînâ'nın 20 spesifik önermesini kendi Aristotelesçi mantıklarını karşılarında kullanarak saldırdı. || [Tarih notu] Gazzâlî'nin 'İslam felsefesini öldürdüğü' eski anlatısı (Renan 1852), Frank (1992), Griffel (2009) ve diğerleri tarafından sistematik olarak çürütüldü.",
+      "en": "The most influential Islamic thinker after Muhammad — synthesized law, theology, and mysticism into a unified framework, while his philosophical critique reshaped the course of Islamic and European thought || Ghazali occupies a unique position: the greatest philosophical critic of philosophy in Islamic history. His Tahafut attacked 20 specific propositions of Farabi and Ibn Sina, using their own Aristotelian logic against them. Paradoxically, this critique preserved philosophy by forcing its engagement with theology. His spiritual crisis and subsequent wandering (1095-1105) produced the Ihya, which unified outward legal observance with inward spiritual transformation. || [Historiographical note] The old narrative that Ghazali 'killed Islamic philosophy' (Renan 1852) has been systematically dismantled by Frank (1992), Griffel (2009), and others who show that post-Ghazali Islamic philosophy actually flourished in new directions. Ghazali's influence on David Hume's causality critique (via Averroes chain) is an active area of research.",
+      "ar": "أكثر المفكرين الإسلاميين تأثيرًا بعد النبي محمد ﷺ || الغزالي يحتل مكانة فريدة: أعظم ناقد فلسفي للفلسفة في تاريخ الإسلام. هاجم ٢٠ قضية للفارابي وابن سينا مستخدمًا منطقهما الأرسطي ضدهما"
+    }
+  },
+  "profession": [
+    "philosopher",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0020",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0020, lecture_id=gazali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:7",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=7",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E0002",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0020 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholar_links teacher edge (H10 S13): teachers += iac:person-00001886."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-2 conf 1.0): ['altLabel.tr', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1058,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1111,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q320324",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ghazali')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0020, lecture_week=5. || Key works: {'title': {'en': 'Iḥyāʾ ʿUlūm al-Dīn (Revival of the Religious Sciences)', 'tr': \"İhyâu Ulûmi'd-Dîn\", 'ar': 'إحياء علوم الدين'}, 'year': 1106, 'field': 'religious_sciences', 'significance': {'en': 'Monumental synthesis of Islamic law, theology, ethics, and Sufi spirituality — considered the most important Islamic book after the Quran by many scholars', 'tr': \"İslam hukuku, teolojisi, ahlakı ve tasavvuf maneviyatının anıtsal sentezi — birçok alim tarafından Kur'an'dan sonra en önemli İslami eser || Modern parallel: Imagine a Harvard professor at the peak of fame having a public breakdown, abandoning everything, wandering alone for 10 years — then returning with a book that reshapes an entire civilization's intellectual and spiritual life.",
+  "active_in_places": [
+    "iac:place-00004883",
+    "iac:place-00008019"
+  ],
+  "authored_works": [
+    "iac:work-00000033",
+    "iac:work-00000034"
+  ],
+  "kunya": "Ebû Hâmid",
+  "nisba": [
+    "Tûsî",
+    "Gazâlî"
+  ],
+  "laqab": [
+    "Hüccetü'l-İslâm (İslam'ın Delili)"
+  ],
+  "teachers": [
+    "iac:person-00001886"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

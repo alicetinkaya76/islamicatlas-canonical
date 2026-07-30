@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00001731",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CEHCÂH el-GIFÂRÎ",
+      "ar": "جهجاه الغفاري"
+    },
+    "originalScript": {
+      "ar": "جهجاه الغفاري"
+    },
+    "altLabel": {
+      "tr": [
+        "Cehcâh b. Saîd el-Gıfârî"
+      ]
+    },
+    "description": {
+      "tr": "Mekke ile Medine arasında bulunan Gıfâr kabilesindendir. Babasının adının Kays veya Mes‘ûd olduğu da söylenmektedir. Cehcâh kabilesinden bazı kimselerle Hz. Peygamber’e gelerek müslüman oldu. Bey‘atürrıdvân ’da bulundu ve Benî Mustaliḳ kabilesiyle yapılan Müreysî‘ Gazvesi’ne (Şâban 5 / Ocak 627) katıldı. Vâkıdî’nin rivayetine göre muhacirlerin fakirlerinden olduğu için bu sırada ücretli olarak Hz. Ömer’in hizmetini görüyor ve onun atını çekiyordu. Muharebe müslümanların zaferiyle sonuçlandıktan sonra Müreysî‘ Kuyusu başında su almak üzere bir kalabalık toplanmıştı. Bu sırada Cehcâh ile ensardan Cüheyneli Sinân b. Vebere arasında su yüzünden kavga çıktı ve Cehcâh Sinan’a birkaç tekme attı. Bunun üzerine Sinân b. Vebere, “Yetişin ey ensar!” diye bağırdı; Cehcâh da, “Yetişin ey muhacirler!” diye seslendi. Hz. Peygamber’i çok üzen bu kavga, orada bulunan ve aynı zamanda Sinân b. Vebere’nin dostu olan Abdullah b. Übeyy’in muhacirlere karşı beslediği kin ve öfkeyi açığa vurmasına ve Medine’ye döndüklerinde müslümanları oradan çıkaracaklarına dair Münâfikūn sûresinin 8. âyetinde, “Eğer bu savaştan Medine’ye dönersek andolsun ki şerefli kimseler alçakları oradan çıkaracaktır” şeklinde ifade edilen sözleri söylemesine sebep olmuştur. Tabakat kitaplarında anlatıldığına göre Cehcâh bir gün Hz. Osman minberde hutbe okurken bilinmeyen bir sebeple dayandığı bastonu alıp sağ dizinde kırmış, kırılan bastonun kıymığı dizine batmış ve bundan sonra kemik erimesi hastalığına tutularak Hz. Osman’ın şehid edilmesinden birkaç ay sonra vefat etmiştir. Atâ b. Yesâr ve Süleyman b. Yesâr ile İbn Ömer’in âzatlısı Nâfi‘in kendisinden hadis rivayet ettiği söyleniyorsa da Buhârî bunun doğru olmadığını kaydetmektedir. Tirmizî onun Hz. Peygamber’den rivayeti bulunduğunu söylemektedir (“Eṭʿime”, 20). Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 224 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cehcah-el-gifari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cehcah-el-gifari, https://islamansiklopedisi.org.tr/cehcah-el-gifari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:cehcah-el-gifari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/cehcah-el-gifari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cehcah-el-gifari (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Gıfârî"
+  ],
+  "death_temporal": {
+    "start_ah": 36,
+    "start_ce": 657,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cehcah-el-gifari, URL: https://islamansiklopedisi.org.tr/cehcah-el-gifari || DİA death-date string: (ö. 36/657) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

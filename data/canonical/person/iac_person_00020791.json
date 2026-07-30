@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00020791",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Khumārawayh"
+    },
+    "description": {
+      "tr": "30 yıllık yetki belgesi; lüks yaşam; hazineyi tüketti"
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:25:ruler:1",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-025, ruler #2",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:08:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:08:42Z",
+    "modified": "2026-05-04T15:08:42Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:08:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Promoted from inline rulers[1] of iac:dynasty-00000025 (The Tūlūnids) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[1].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "affiliated_dynasties": [
+    "iac:dynasty-00000025"
+  ],
+  "laqab": [
+    "Amīr"
+  ],
+  "floruit_temporal": {
+    "start_ce": 884,
+    "end_ce": 896,
+    "start_ah": 270,
+    "end_ah": 282,
+    "approximation": "floruit"
+  },
+  "death_temporal": {
+    "start_ce": 896,
+    "approximation": "circa",
+    "start_ah": 282,
+    "note": "Inferred from Bosworth reign_end (often ≈ year of death)."
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q1039329",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Khumārawayh')."
+    }
+  ],
+  "note": "Bosworth relation note: oğlu || Promoted from iac:dynasty-00000025 rulers[1] (Bosworth NID-025)."
+}

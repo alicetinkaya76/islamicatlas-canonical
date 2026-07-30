@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00007765",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "YÛSUF PAŞA, Neyzen"
+    },
+    "description": {
+      "tr": "İstanbul’da Beşiktaş Mevlevîhânesi’nde doğdu. Babası adı geçen mevlevîhânenin şeyhi Mehmed Said Dede’dir. Bu dergâhtaki tarikat çevresinde yetişti. Genç yaşta çile çıkarıp “dede” unvanını aldı ve Beşiktaş Mevlevîhânesi neyzenbaşılığına getirildi. On dokuz yaşında iken neyzen sıfatıyla Muzıka-yi Hümâyun’a katıldı. Büyük takdir ve ilgisini gördüğü Sultan Abdülmecid’e musâhip ve mâbeyinci oldu. Babasının vefatı üzerine Beşiktaş Dergâhı’nın şeyhliğine tayin edilmek istendiyse de Muzıka-yi Hümâyun’daki görevinden dolayı Sultan Abdülmecid saraydan ayrılmasını uygun görmedi. Dergâh postnişinliği de Hasan Nazif Dede’ye verildi. 1863’te Sultan Abdülaziz’in Mısır seyahatinde mâbeyinci olarak heyette yer alan Miralay Yûsuf Bey 22 Ağustos 1864 tarihinde mirlivâlıkla, Ordu-yı Hümâyun muzıkalarında yapılması düşünülen yenilikler çerçevesinde askerî mektebin kuruluş çalışmalarıyla görevlendirilerek Muzıka-yi Hümâyun nâzırlığına, iki ay sonra da üçüncü mâbeyinciliğe getirildi. Ardından ferik rütbesine yükseltilip 25 Temmuz 1865’te emekliye ayrıldı. Kaynaklarda bundan sonraki hayatıyla ilgili bilgi yoktur. Vefatında Bahariye Mevlevîhânesi türbesine defnedildi. Dönemin ünlü neyzenlerinden Sâlih Dede Efendi onun üvey amcasıdır. Muzıkalı Celâl diye tanınan oğlu Mehmed Celâleddin (İyison) Üsküdar Mûsiki Cemiyeti’nin kurucuları arasında yer almış ve 1931 yılına kadar burada hocalık yapmıştır. Meşhur keman üstadı ve bestekâr Reşad Erer, Yûsuf Paşa’nın kızından torunudur. Yûsuf Paşa kendi döneminin en önemli neyzenlerindendir. Bestelediği saz eserleriyle de bu formun önde gelen bestekârları arasında yer almış, ney virtüozu olan babası ile başladığı ney çalışmalarını devam ettirerek kendini yetiştirmiştir. Sultan Abdülaziz’e ney hocalığı yapmış, Bahariye Mevlevîhânesi şeyhi Hüseyin Fahreddin Dede ve Üsküdar Mevlevîhânesi neyzenbaşısı Osman Dede gibi değerli neyzenler yetiştirmiştir. Günümüze ulaşan peşrev ve saz semâilerinden ibaret yirmi yedi saz eseriyle on dokuz şarkısının listesini Yılmaz Öztuna yayımlamıştır (bk. bibl.). Bunlardan segâh peşrevi bu formun halen çok kullanılan eserlerindendir. Neveser peşreviyle hümâyun, nihâvend ve hicaz saz semâileri de Türk mûsikisi repertuvarının en seçkin örnekleri arasında sayılmaktadır. Peşrevlerinde Mevlevî âyinlerinde çalınabilmeleri için devr-i kebîr usulünü tercih etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2013 yılında İstanbul’da basılan 44. cildinde, 25-26 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:yusuf-pasa-neyzen",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=yusuf-pasa-neyzen, https://islamansiklopedisi.org.tr/yusuf-pasa-neyzen",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:08Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:08Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=yusuf-pasa-neyzen (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1821,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=yusuf-pasa-neyzen, URL: https://islamansiklopedisi.org.tr/yusuf-pasa-neyzen || DİA death place: 1865 || DİA death-date string: (1821-1884) || DİA categories: tarikat || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005384"
+  ],
+  "students": [
+    "iac:person-00000430",
+    "iac:person-00001145",
+    "iac:person-00003552"
+  ]
+}

@@ -56,6 +56,8 @@ MERGED = REPO / "data" / "_state" / "h22_person_dup_merge.json"
 JUDGE = REPO / "data" / "_state" / "person_cluster_judgments.json"
 POOL = REPO / "web" / "public" / "books" / "ulema_pool.json"
 OUT = REPO / "web" / "public" / "view-data" / "person_clusters.json"
+REDIR = REPO / "web" / "public" / "view-data" / "person_redirects.json"
+MERGE_LEDGER = REPO / "data" / "_state" / "h49_cluster_merge.json"
 
 
 def _num(pid):
@@ -188,6 +190,26 @@ def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")) + "\n",
                    encoding="utf-8")
+
+    # ── ATIF İSTİKRARI (H49) ────────────────────────────────────────────────
+    # Birleştirmede kaybeden pid YAŞAMAYA DEVAM EDER, ama havuz dosyasında
+    # görünmez. Dolayısıyla eski bir bağ (ör. kitap manifestindeki author.pid,
+    # ya da dışarıda paylaşılmış bir #scholars?pid= linki) BOŞ EKRANA düşerdi.
+    # ÖLÇÜLDÜ: birleştirmeden hemen sonra 17 kitabın 5'inin müellif bağı koptu.
+    # Yönlendirme haritası bunu kapatır: tüketici eski pid'i kazanana çevirir.
+    redir = {}
+    if MERGE_LEDGER.is_file():
+        for m in json.loads(MERGE_LEDGER.read_text(encoding="utf-8"))["merges"]:
+            for kayb in m["kaybedenler"]:
+                redir[str(_num(kayb))] = _num(m["kazanan"])
+    REDIR.write_text(json.dumps({
+        "_doc": ("Yumuşak-silinen pid → kazanan pid. Eski bağlar (kitap müellifi, "
+                 "paylaşılmış derin linkler) kırılmasın diye; kaybeden pid canonical'da "
+                 "YAŞIYOR, yalnız havuzda görünmüyor. Üretici: build_person_clusters.py"),
+        "counts": {"yonlendirme": len(redir)},
+        "redirects": {k: redir[k] for k in sorted(redir, key=int)},
+    }, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    print(f"yazıldı: {REDIR.relative_to(REPO).as_posix()} | yönlendirme: {len(redir)}")
     print(f"yazıldı: {OUT.relative_to(REPO).as_posix()} | {OUT.stat().st_size // 1024} KB")
     print(f"  küme            : {len(kume)}  ({dagilim})")
     print(f"  küme içi kayıt  : {len(out)}")

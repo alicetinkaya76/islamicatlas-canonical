@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00000398",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abbas II",
+      "ar": "عبّاس"
+    },
+    "originalScript": {
+      "ar": "عبّاس"
+    },
+    "description": {
+      "tr": "I. Abbas’ın torunu olan Şah Safî’nin oğludur. 18 Cemâziyelâhir 1043’te (20 Aralık 1633) Kazvin’de doğdu. Babasının Kâşân şehrinde vefat etmesi üzerine on yaşında iken Safevî tahtına çıkarıldı (12 Mayıs 1642). Yirmi beş yıl kadar süren hükümdarlığı sırasında memleket içinde kayda değer bir hadise olmamış, komşu devletlerle olan münasebetler de genellikle dostça sürdürülmüştür. Ancak Şah Safî’nin hükümdarlığının son yıllarında, Kandehar valisinin şehri Hindistan Hükümdarı Şah Cihan’a teslim etmesiyle Hindistan’la olan dostluk bozulmuş, bizzat Abbas’ın katıldığı sefer sonunda Kandehar geri alınmıştı (1648). Abbas, iç karışıklıklar yüzünden hükümdarlığını kaybeden ve yardım istemek için İsfahan’a gelen Özbek Hanı Muhammed Nâdir’e yardım ederek hükümdarlığını devam ettirmesini sağladı. Ruslar’la olan münasebeti ise, Gürcü prenslerinden Tahmûras’ın Safevîler’in Tiflis Valisi Rüstem Han’la yaptığı savaşı kaybedip Rus çarına iltica etmesiyle bozuldu (1644). Bununla beraber Abbas, barışın bozulmamasına âzami dikkat gösterdi. Nitekim Şirvan Beylerbeyi Hüsrev Han kumandasındaki Safevî kuvvetlerinin Derbend yakınlarındaki hisarları yıkmasına müsaade ederken Terek boylarındaki hisarların yıkılmasına izin vermedi. Öte yandan, Osmanlılar’la münasebetlerini de dostane bir şekilde devam ettirdi. Hatta Osmanlılar’ın Basra Valisi Hüseyin Paşa’nın şehri teslim teklifi, barışın devamını arzu eden Abbas tarafından kabul edilmedi ve iki devlet arasındaki iyi münasebetler 1639’da imzalanan Kasrışîrin Antlaşması’na uygun olarak devam etti. Abbas 26 Rebîülâhir 1077’de (26 Ekim 1666) Damgan’da öldü ve Kum kasabasına gömüldü. II. Abbas’ın saltanat yıllarında İran’da, başta ipek ticareti olmak üzere ticarî faaliyetler gelişmiş, I. Abbas dönemi kadar olmamakla birlikte, inşa edilen saray, köşk, kasır ve köprülerle memleketin imarına çalışılmıştır. II. Abbas hemen hiçbir sahada temayüz etmemiş, vaktini avcılık ve eğlence ile geçirmiştir. Dinî konularda genellikle müsamahakâr davranmış, bilhassa Katolik mezhebi mensuplarına geniş hürriyet vermiştir. Aşırı derecede içkiye düşkün bir hükümdar olarak tanınır. Resme ve şiire ilgi duyduğu, hatta şiir yazdığı rivayet edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 19-20 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "'ABBAS II, son of Sam Mirza (Shah .Safi) \nand great-grandson of \".Abbas I, was born in 1043 \n(1633), died in 1077 (1666) at Damaghan, and \nwas buried at Kumm.",
+      "ar": "عباس الثاني، ابن سام ميرزا (الشاه صفي) وحفيد عباس الأول الأكبر، ولد سنة 1043 (1633م)، توفي سنة 1077 (1666م) في دامغان، ودفن في قم."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbas-ii",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbas-ii, https://islamansiklopedisi.org.tr/abbas-ii",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "ei1:19",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 1, p. 68",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      },
+      {
+        "source_id": "dia-chunks:abbas-ii",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abbas-ii",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:38Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbas-ii (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled ['description.en', 'description.ar']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1077,
+    "start_ce": 1666,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbas-ii, URL: https://islamansiklopedisi.org.tr/abbas-ii || DİA birth place: Kazvin || DİA death-date string: (ö. 1077/1666) || DİA categories: hadis > rivayet > mezhep || Chunk count: 1",
+  "birth_place": "iac:place-00014513"
+}

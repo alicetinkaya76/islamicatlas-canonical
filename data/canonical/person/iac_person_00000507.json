@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00000507",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. EBÛ ÜMEYYE",
+      "ar": "عبد الله بن أبي أميّة"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن أبي أميّة"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdullāh b. Ebî Ümeyye b. el-Mugīre el-Mahzûmî"
+      ]
+    },
+    "description": {
+      "tr": "İslâmiyet’in ilk dönemlerinde Müslümanlığın azılı düşmanlarından olan Abdullah, Peygamber’in amcası Ebû Tâlib’e giderek yeğenini İslâm davetinden vazgeçirmesini veya onu himaye etmemesini isteyen heyette bulundu. Hz. Peygamber’i vazgeçirmek için yapılan bir başka toplantıda, Kur’ân-ı Kerîm’de de işaret edildiği gibi (bk. el-İsrâ 17/93), Peygamber’in gökyüzüne çıkıp oradan, okuyacakları bir kitap getirmedikçe kendisine inanmayacağını söyleyenler arasında yer aldı. Müslüman muhacirleri geri istemek üzere Habeşistan’a elçi olarak gittiği de rivayet edilen Abdullah, Peygamber’in, ölüm döşeğinde bulunan Ebû Tâlib’e iman telkin etmesine karşı çıktı ve ona dininden dönmemesi için baskı yaptı. Uhud Savaşı sırasında Medine’de bulunan Abdullah, doğruca Tâif’e gitti ve oradan Mekkeliler’e savaş hakkında bilgiler gönderdi. Abdullah İslâm düşmanlığını Mekke fethine kadar devam ettirdi, ancak fetih öncesinde Ebû Süfyân ile birlikte Medine’ye gitmeye karar verdi. Yolda İslâm ordusuyla karşılaştılar; Ümmü Seleme’nin ricası üzerine Peygamber tarafından kabul edilerek müslüman oldular. Abdullah Mekke’nin fethine ve Huneyn Gazvesi’ne katıldı. Bu savaşta azılı İslâm düşmanı ve Sakīf kabilesinin reisi olan Osman b. Abdullah’ı öldürdü. Tâif Muhasarası’nda şehid düştü. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 97 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-ebu-umeyye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-ebu-umeyye, https://islamansiklopedisi.org.tr/abdullah-b-ebu-umeyye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-05-04T15:32:39Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-ebu-umeyye (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mahzûmî"
+  ],
+  "death_temporal": {
+    "start_ah": 8,
+    "start_ce": 629,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-ebu-umeyye, URL: https://islamansiklopedisi.org.tr/abdullah-b-ebu-umeyye || DİA death-date string: (ö. 8/629-30) || DİA categories: rivayet || Chunk count: 1"
+}

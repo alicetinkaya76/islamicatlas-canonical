@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00001065",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMR b. UTBE",
+      "ar": "عمرو بن عتبة"
+    },
+    "originalScript": {
+      "ar": "عمرو بن عتبة"
+    },
+    "altLabel": {
+      "tr": [
+        "Amr b. Utbe b. Ferkad es-Sülemî"
+      ]
+    },
+    "description": {
+      "tr": "Kûfe’de doğdu. Babası, 17 (638) yılında Kûfe’ye yerleşen sayılı Arap zenginlerinden olup Hz. Ömer devrinde birçok sefere katılmış, Tikrît, Şehrizor ve Samgan gibi bazı şehirlerin fethinde kumandan olarak görev almış, Azerbaycan ve Musul valiliği yapmıştır. Varlıklı bir aile muhiti içinde doğup büyüyen Amr’ın muhadramûn dan olduğu anlaşılmaktadır. Onun zühd yolunu seçmesi babası Utbe’nin hoşuna gitmedi. Amr, muhadramûndan olan yakın dostu Mi‘zad ( معضد ) b. Yezîd el-İclî ile birlikte Kûfe yakınlarında bir mescid yaptırdı. Bu olay tasavvuf tarihinde “halvette ibadet” fikrinin ve tekke düşüncesinin ilk örneği sayılabilir. Mescidin inşasından sonra Amr ve Mi‘zad’ı tenkit edenler de çıkmıştır. Nitekim Abdullah b. Mes‘ûd’un kendilerini ziyaret ederek, “Helâk mescidini yıkmaya geldim” dediği rivayet edilir. Amr, Allah’tan üç şey istediğini, bunlardan ikisine kavuştuğunu söylerdi. Elde ettikleri, dünyanın hiçbir varlığına değer vermeyen mükemmel bir zühd hayatı ile namaz kılmaya elverişli güç ve kuvvetti. Üçüncü arzusu ise şehid olmaktı. Nitekim, kendisi gibi zühd yolunu seçen arkadaşları Alkame el-Kûfî, Mi‘zad el-İclî ve Yezîd b. Muâviye en-Nehaî ( النخعي ) ile birlikte babası Utbe’nin kumandasında katıldığı bir gazâda şehid oldu. Sûfîlerin, “Halka hizmet, hakka hizmettir” şeklindeki görüşlerinin temelini Amr’ın “sohbet” ve “dostluk” anlayışında bulmak mümkündür. O, dostluk için hizmeti şart koşar, arkadaşlarının her türlü hizmetini görür, hayvanlarını otlatır, tımar ederdi. Amr, rivayetleri çok fazla olmamakla birlikte güvenilir bir hadis râvisi sayılır. Abdullah b. Mes‘ûd ile Sübey‘a el-Eslemiyye’den kitâbet yoluyla hadis almış, Şa‘bî ve daha başka muhaddisler ondan rivayette bulunmuşlardır. Bazı kaynaklar onun az hadis rivayet etmesini ibadetle fazla meşgul olmasıyla açıklar. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 94 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amr-b-utbe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amr-b-utbe, https://islamansiklopedisi.org.tr/amr-b-utbe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-05-04T15:33:35Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amr-b-utbe (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sülemî"
+  ],
+  "birth_temporal": {
+    "start_ah": 17,
+    "start_ce": 638,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 22,
+    "start_ce": 643,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amr-b-utbe, URL: https://islamansiklopedisi.org.tr/amr-b-utbe || DİA birth place: Kûfe || DİA death-date string: (ö. 22/643 [?]) || DİA categories: rivayet > hadis > tasavvuf || Chunk count: 1"
+}

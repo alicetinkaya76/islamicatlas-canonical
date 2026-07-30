@@ -1,0 +1,121 @@
+{
+  "@id": "iac:person-00003041",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HAFS b. GIYÂS",
+      "ar": "حفص بن غياث"
+    },
+    "originalScript": {
+      "ar": "حفص بن غياث"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ömer Hafs b. Gıyâs b. Talk en-Nehaî el-Ezdî"
+      ]
+    },
+    "description": {
+      "tr": "117 (735) yılında Kûfe’de doğdu ve orada yetişti. Yahyâ b. Saîd el-Ensârî, Süfyân es-Sevrî, Hişâm b. Urve, Süleyman el-A‘meş, İbn Cüreyc, Ebû İshak eş-Şeybânî ve dedesi Talk başta olmak üzere birçok âlimden hadis; Ebû Hanîfe, Ebû Yûsuf ve Süfyân es-Sevrî gibi âlimlerden fıkıh okudu. Oğlu Ömer b. Hafs ile Yahyâ b. Saîd el-Kattân, Ahmed b. Hanbel, İshak b. Râhûye, Yahyâ b. Maîn, Ali b. Medînî ve Ebû Hayseme Züheyr b. Harb ondan hadis dinleyenler arasındadır. Hafs, hadis münekkitlerince sika kabul edilmekle birlikte tedlîs te bulunmakla da itham edilmiş, ömrünün sonlarına doğru hâfızasının zayıfladığı ve bu dönemde rivayet ettiği hadislerin ihtiyatla karşılanması gerektiği belirtilmiştir. İmâmiyye mezhebi mensupları onu muteber hadis râvilerinden kabul etmişlerdir. Kendisinden 3000 veya 4000 civarında hadis rivayet edilen Hafs’ın 170 hadis ihtiva eden bir cüzünün bulunduğu kaydedilir. Hârûnürreşîd zamanında 177’de (793) Bağdat’ın doğu kesiminde iki yıl ve Kûfe’de on üç yıl kadılık yaptı. Bu görevi geçim sıkıntısı sebebiyle kabul ettiği rivayet edilir. Hafs verdiği hükümlerde baskı ve tesir altında kalmazdı. Hârûnürreşîd’in hanımı Zübeyde’nin vekilinin taraf olduğu bir davada duruşma sırasında halifeden gelen mektubu kabul etmeyerek davayı onun aleyhine sonuçlandırması ve mektubu daha sonra alıp okuması üzerine halife tarafından 30.000 dirhemle mükâfatlandırılmıştı. Ancak Zübeyde Hafs’ın görevinden azledilmesi için ısrar edince Hârûnürreşîd onu Bağdat kadılığından alıp Kûfe’ye tayin etmek zorunda kaldı. Cömert bir zat olan Hafs aldığı 300 dirhem maaşı iki arkadaşıyla paylaşırdı. Vefatında 900 dirhem borç bıraktığı nakledilir. Hafs b. Gıyâs’ın 195 veya 196 yılında öldüğüne dair bazı kayıtlar varsa da kuvvetli rivayete göre 194’te (810) Kûfe’de vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 118 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hafs-b-giyas",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hafs-b-giyas, https://islamansiklopedisi.org.tr/hafs-b-giyas",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hafs-b-giyas",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hafs-b-giyas",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:3108",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3108, heading_ar=حفص بن غياث",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:09Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:09Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hafs-b-giyas (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3108]. Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3108 (heading_ar=حفص بن غياث) via Track A (DİA→Alam xref bridge). dt=Kadı, Kûfe halkındandır."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Nehaî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 117,
+    "start_ce": 735,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 194,
+    "start_ce": 810,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hafs-b-giyas, URL: https://islamansiklopedisi.org.tr/hafs-b-giyas || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3108] || DİA birth place: Kûfe || DİA death place: Kûfe || DİA death-date string: (ö. 194/810) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3108, heading_ar=حفص بن غياث, dt=Kadı, Kûfe halkındandır.",
+  "teachers": [
+    "iac:person-00002172",
+    "iac:person-00002303",
+    "iac:person-00007122",
+    "iac:person-00007655"
+  ],
+  "students": [
+    "iac:person-00000753",
+    "iac:person-00007648",
+    "iac:person-00007652",
+    "iac:person-00007656"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00004447",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İKRİME b. EBÛ CEHİL",
+      "ar": "عكرمة بن أبي جهل"
+    },
+    "originalScript": {
+      "ar": "عكرمة بن أبي جهل"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Osmân İkrime b. Ebî Cehl Amr b. Hişâm b. el-Mugīre el-Mahzûmî el-Kureşî"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Muhammed’in ve İslâm’ın azılı düşmanlarından biri olan Ebû Cehil’in oğludur. Başlangıçta babası gibi Müslümanlığın en katı muhaliflerinden olduğu için İslâm karşıtı hareketlerin hemen hepsinde faal rol aldı. Hicretin 1. (622) yılında Seniyyetülmerre’nin aşağısındaki Ahyâ suyunun yanında müslümanlara karşı toplanan Kureyşliler’in başında bulundu; ancak bu olayda savaş olmadı. Bedir Gazvesi’ne iştirak etti ve bu savaşta babasını öldürenlerden biri olan Muâz b. Amr b. Cemûh’un elini bir kılıç darbesiyle kopardı. Babasının öldürülmesinden sonra Mahzûmoğulları’nın reisi oldu. Uhud Gazvesi’ne eşi Ümmü Hakîm’le birlikte katıldı ve süvarilerin sol kanadının kumandanlığını yaptı. Arkadaşlarıyla birlikte kurduğu çeteyle Mekke’nin fethinde Hâlid b. Velîd kumandasındaki müslümanları ok yağmuruna tutarak kan dökülmesine sebep oldu. Mekke fethedilince bütün Mekkeliler bağışlandığı halde İkrime ile bazı İslâm düşmanlarının görüldükleri yerde öldürülmeye mahkûm edilmeleri sebebiyle Yemen’e kaçtıysa da fetih günü İslâmiyet’i kabul eden eşinin isteği üzerine bağışlandı ve Mekke’ye dönüp müslüman oldu. Onun dönüşüne sevinen Hz. Peygamber, “Süvari muhacir, hoş geldin!” diyerek kendisini kucakladı (Tirmizî, “İstiʾẕân”, 34). İkrime Medine’ye giderek İslâmî faaliyetlere katıldı. Resûl-i Ekrem 11 (632) yılında onu Benî Hevâzin’in zekâtını toplamakla görevlendirdi. Hz. Ebû Bekir’in halifeliği döneminde irtidad eden Araplar’a karşı açılan savaşlarda bir askerî birliğin başında Müseylime üzerine, ardından Uman, Mehre ve Debâ mürtedleriyle savaşmaya gönderildi. Daha sonra Şam bölgesinin fethinde bulundu. İkrime, Suriye ve Filistin’in fethi sırasında Bizanslılar’la yapılan Ecnâdeyn Savaşı’nda (13/634) veya aynı yıl Mercüssuffer Muharebesi’nde şehid oldu. Onun 14’te (635) Dımaşk’ın fethinde veya 15’te (636) Yermük Savaşı’nda şehid düştüğü, vücudunda yetmişten fazla ok ve kılıç yarası bulunduğu, yahut 18’de (639) Amvâs’ta vebadan öldüğü de zikredilmiştir. İyi bir binici ve kumandan olan İkrime’nin yukarıda anılan, Tirmizî’nin es-Sünen ’inde yer alan senedi münkatı‘ bir rivayeti bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 42-43 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ikrime-b-ebu-cehil",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ikrime-b-ebu-cehil, https://islamansiklopedisi.org.tr/ikrime-b-ebu-cehil",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:28Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:28Z",
+    "modified": "2026-05-04T15:34:28Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:28Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ikrime-b-ebu-cehil (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "deprecate",
+        "note": "h22_003 kişi-dublet birleştirme: aynı normalize Arapça ad 'عكرمه بن ابي جهل' + aynı ölüm (13 AH / 634 CE) + ayrık kaynaklar; iac:person-00014254 lehine emekli. PID korunur, geri alınabilir (h22_003 --restore).",
+        "changed_at": "2026-07-20T14:37:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854"
+      }
+    ],
+    "deprecated": true,
+    "deprecated_in_favor_of": "iac:person-00014254"
+  },
+  "nisba": [
+    "Mahzûmî; Kureşî"
+  ],
+  "death_temporal": {
+    "start_ah": 13,
+    "start_ce": 634,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ikrime-b-ebu-cehil, URL: https://islamansiklopedisi.org.tr/ikrime-b-ebu-cehil || DİA death-date string: (ö. 13/634) || DİA categories: rivayet || Chunk count: 1"
+}

@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00003038",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hâfiz Teniş",
+      "ar": "حافظ تنش"
+    },
+    "originalScript": {
+      "ar": "حافظ تنش"
+    },
+    "description": {
+      "tr": "Babası Mîr Muhammed Buhârî, âlimlere yakınlığıyla tanınan Ubeydullah Han’ın dostlarındandı. Hâfız Teniş kendisinin bildirdiğine göre, II. Abdullah Han’ın Mâverâünnehir bölgesinde hâkimiyet kurduğu ve Buhara’yı başşehir yaptığı tarihte (964/1557) eserini yazmaya başladığı zaman otuz altı yaşında idi. Ancak uzun bir süre Hâfız Teniş’in bununla Abdullah Han’ın tahta çıkış tarihi olan 991’i (1583) kastettiği ve buna dayanılarak doğum tarihinin de 956 (1549) olması gerektiği zannedilmiştir. Halbuki Hâfız Teniş bir kasidesinde II. Abdullah’ın babası İskender Han’ın tahta çıkışından da (968/1560) bahsetmektedir. Bu bilgilere göre doğum tarihi 1520-1530 yılları arasında olmalıdır. Abdullah Han 1583’te Özbekler’in “büyük han”ı ilân edildikten sonra Hâfız Teniş, Emîr Kul-Baba Kökaltaş tarafından saraya alındı. Sarayın resmî tarihçisi olarak hanın birçok seferine katıldı; böylece olayları bizzat görerek yazma imkânını elde etti. Tarih kitabını yeni bir plana göre tekrar yazdı. Sarayda bundan başka görevi olup olmadığı belli olmayan Hâfız Teniş’in ölüm tarihi de bilinmemektedir. Muhtemelen Abdullah Han’ın (ö. 1006/1598) hükümdarlığının son birkaç yılına ve oğlu Abdülmü’min’in birkaç aylık hanlığı dönemine ulaşmıştır. Hâfız Teniş’in 1560 veya 1570’lerde Farsça olarak yazmaya başladığı Abdullah Han ve faaliyetlerini konu alan tarihi bu dönem hakkında bilgi veren en önemli eserlerden biridir. 992’de (1584) Şerefnâme-i Şâhî adıyla yeniden ele alınıp yazılan eser, Orta Asya tarihçiliğinde ve modern ilmî literatürde ʿAbdullāhnâme olarak da bilinmektedir. II. Abdullah Han’ın doğumundan itibaren 1588’e kadarki hayatından bahseden eser bir mukaddime, iki bölüm (makāle) ve bir hâtimeden meydana gelir. Mukaddime, ataları ve şeyhi Hâce M. Cûybârî’nin sözleri hakkındadır. Birinci bölüm Abdullah Han’ın doğumundan tahta çıkış tarihine kadar (991/1583) geçen olayları ikinci bölüm tahta çıkışından sonraki hadiseleri anlatmaktadır. Hâtimede hanın vasıfları, çağdaşı olan şeyh, âlim, şair ve münşîler, ayrıca vezirleri, emîrleri ve yaptırdığı eserler üzerinde durulmaktadır. Şerefnâme-i Şâhî ’deki bilgiler müellifin şahsî gözlemleriyle resmî evraka ve diğer bazı kişilerin raporlarına dayanmaktadır. Eser süslü ve secili bir nesirle yazılmış, konu arasında hem Nahlî mahlasıyla kendisinin hem de başka şairlerin şiirlerine yer verilmiştir. Çeşitli kütüphanelerde birçok yazma nüshası bulunan Şerefnâme-i Şâhî (British Museum, nr. 3497; diğer nüshaları için bk. Storey, I/1, s. 375) henüz tam olarak neşredilmemiştir. B. Ahmedov ilk bölümünü Özbek Türkçesi’ne çevirmiş ve eser üzerine K. Münirov’la birlikte yaptığı çalışmayı Ḥâfıẓ Teniş Buḫârî adıyla yayımlamıştır (Taşkent 1963). Yine birinci bölüm giriş, hâşiye ve indeksle birlikte M. A. Salahetinovoy tarafından Kniga Shakhskoi Slavy adıyla Rusça’ya tercüme edilmiştir (Moscow 1983). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 107 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "poet",
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hafiz-tenis",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hafiz-tenis, https://islamansiklopedisi.org.tr/hafiz-tenis",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:09Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:09Z",
+    "modified": "2026-05-04T15:34:09Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hafiz-tenis (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1006,
+    "start_ce": 1598,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hafiz-tenis, URL: https://islamansiklopedisi.org.tr/hafiz-tenis || DİA death-date string: (ö. 1006/1598’den sonra) || DİA categories: hadis || Chunk count: 1"
+}

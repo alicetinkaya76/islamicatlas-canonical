@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00000735",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂHÎ, Benli Hasan"
+    },
+    "description": {
+      "tr": "Niğbolu’da Tirsinik’te doğdu. Seydi Hoca ile Melek Kadın’ın oğludur. Asıl adı Hasan olup daha çok Benli Hasan lakabıyla tanınmıştır. Sessiz tabiatı yüzünden Dilsiz Dânişmend olarak da anılmıştır. Zengin bir tüccar olan babasının ölümü üzerine onun yolunu tutarak ticarete başladıysa da annesinin yeniden evlenmesine gücendi ve vatanını terkedip İstanbul’a gitti. İleri bir yaşta olmasına rağmen tahsile başladı, kırk yaşlarında Kara Bâlî’den mülâzım oldu. Bu arada şiir ve nesirleriyle adını duyurmaya başladı. Rivayete göre, Yavuz Sultan Selim şiirlerini görüp beğenince kendisiyle ilgilenilmesini istedi. Bunun üzerine Kazasker Kemalpaşazâde Bursa’daki Bayezid Paşa Medresesi müderrisliğine tayinini teklif etti. Ancak Âhî, çevresinin telkinlerine kapılarak bu vazifeyi küçümsedi ve kabul etmedi. İlgisinin kötüye kullanılmasına kızan padişah, ona yeni bir görev verilmesini istemedi. Uzunca bir süre sonra Karaferye Medresesi’ne müderris tayin edildi. Bu sırada Manastır’da, şair Hâverî’nin kız kardeşiyle evlendi ve çok geçmeden Karaferye’de öldü. Âhî’nin hayatında görülen düzensizlikler eserlerine de yansımıştır. İlk eseri, Hüsrev ü Şîrîn adıyla anılan Hikâyet-i Şîrîn ü Pervîz ve Rivâyet-i Gülgûn u Şebdîz mesnevisidir. Ancak Âhî’nin böyle bir eser yazmaya başladığını duyan Nakşî şeyhi Mahmud Efendi, Hüsrev’in ateşe tapan ve Hz. Peygamber’in mektubunu yırtan bir hükümdar olması sebebiyle övülmesinin câiz olmayacağını öne sürerek şairi uyardı ve onu eseri tamamlamaktan vazgeçirdi. Daha sonra Karaferye’de müderrisken Fenârîzâde Muhyiddin Mehmed Şah Çelebi’nin teşvikiyle, Anadolu sahasında türünün en güzel örneği olarak kabul edilen Hüsn ü Dil mesnevisine başladı. Fakat bu eserini de tamamlayamadan öldü. Kaynaklar, Âhî’yi devrinin iyi şairleri arasında kabul ederler. Özellikle Fettâh-ı Nîşâbûrî’nin (ö. 853/1449) aynı addaki eserinin tercümesi olan Hüsn ü Dil , Âlî’nin bildirdiğine göre Lâmiî’nin eserine üstün tutulmuştur. Âhî, daha çok mesnevi şairi olarak tanınmış ve mesnevileri diğer şiirlerine tercih edilmiştir. Yakın dostu olan Bursalı şair Celîlî ile birlikte döneminin en ünlü harâbâtî şiirler nâzımıdır. Arkadaşları arasında Vasfî, Revânî, Mesîhî, Şem‘î, Zâtî ve Celîlî gibi devrin ünlü şairlerini saymak mümkündür. Eksik bir nüshası İstanbul Üniversitesi Kütüphanesi’nde (TY, nr. 1942/2) bulunan divanı henüz yayımlanmamıştır. Hüsn ü Dil ise Çaylak Tevfik tarafından neşredilmiştir (İstanbul 1287). Latîfî’nin, Şeyhî’ye nazîre olarak yazıldığını ve bazı bölümlerinin şair tarafından daha sonra kaleme alınan Hüsn ü Dil ’de kullanıldığını söylediği Hüsrev ü Şîrîn ’in bugün bilinen herhangi bir nüshası yoktur. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 527 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "AHI, Turkish poet, whose real name seems to \nhave been Benii Hasan („Hasan with the mole“).",
+      "ar": "آهي، شاعر تركي، يبدو أن اسمه الحقيقي كان بنلي حسن ('حسن ذو الشامة')."
+    },
+    "altLabel": {
+      "en": [
+        "AHI"
+      ]
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahi-benli-hasan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahi-benli-hasan, https://islamansiklopedisi.org.tr/ahi-benli-hasan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "ei1:286",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 1, p. 39",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      },
+      {
+        "source_id": "dia-chunks:ahi-benli-hasan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahi-benli-hasan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:47Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahi-benli-hasan (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled ['description.en', 'description.ar', 'altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 923,
+    "start_ce": 1517,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahi-benli-hasan, URL: https://islamansiklopedisi.org.tr/ahi-benli-hasan || DİA birth place: Tirsinik || DİA death-date string: (ö. 923/1517) || DİA categories: rivayet > şiir || Chunk count: 1"
+}

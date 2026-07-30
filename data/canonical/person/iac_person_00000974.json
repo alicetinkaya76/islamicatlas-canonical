@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00000974",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ali Nutkî Dede"
+    },
+    "description": {
+      "tr": "5 Muharrem 1176’da (27 Temmuz 1762) İstanbul’da Yenikapı Mevlevîhânesi civarında bir evde doğdu. Babası, adı geçen mevlevîhânenin şeyhlerinden Kütahyalı Seyyid Ebûbekir Dede, annesi ise Galata Mevlevîhânesi şeyhlerinden Kutbünnâyî Osman Dede’nin kızı Saîde Hanım’dır. Doğumundan bir müddet sonra, amcası Ömer Dede’nin oğlu semâzenbaşı Sahih Ahmed Dede’nin (ö. 1813) himayesine verildi. Daha on dört yaşlarında iken bilhassa dinî bilgilerde yetişmiş bir kişi olarak kendini göstermeye başladı. Babasının 3 Receb 1189’da (30 Ağustos 1775) vefatı üzerine Yenikapı Mevlevîhânesi’ne şeyh tayin edilerek kendisine Çelebi Ebûbekir Efendi tarafından destar giydirildi. Otuz sene şeyhlik makamında bulunduktan sonra Cemâziyelevvel 1219’da (Ağustos 1804) dergâhtaki odasında vefat etti ve aynı dergâhın hazîresine defnedildi. Defter-i Dervîşân ’da Afîfe adında bir kızının olduğu kaydedilmektedir. Derin ilmi, mütevazi kişiliği ile herkesin hürmetini kazanarak devrinin belli başlı şeyhleri arasında yer alan Ali Nutkî Dede ayrıca edebiyat ve mûsiki ile de meşgul olmuştur. Çeşitli kaynaklarda, önceleri babasının verdiği Memiş, daha sonra da Nutkî mahlasını kullanarak yazdığı manzumelere rastlanmaktadır. Şeyhliği sırasında dergâha intisap eden, mukabele ye giren ve çilelerini dolduran dervişler ile Yenikapı Mevlevîhânesi hakkında çeşitli bilgilerin yer aldığı Defter-i Dervîşân adıyla bilinen bir esere başlamıştı. Ancak vefatı üzerine yarım kalan bu eser, kardeşi Şeyh Abdülbâki Nâsır Dede tarafından tamamlanmıştır (Süleymaniye Ktp., Nâfiz Paşa, nr. 1194). Ali Nutkî Dede’nin edebiyat ve mûsiki alanında ün yapmış birçok kişinin yetişmesinde de büyük emeği geçmiştir. Bunlar arasında, Konya’da başladığı çilesini İstanbul’da Ali Nutkî Dede’nin yanında tamamlayan Şeyh Galib ile haftanın belirli günleri bu dergâha devam eden Hamâmîzâde İsmâil Dede, bilhassa zikredilmelidir. Ali Nutkî Dede’nin bestelediği ve ölümünden bir ay kadar önce dergâhta okunan “Şevkutarab Mevlevî Âyini”ni, talebesi olmasına rağmen İsmâil Dede’ye ithaf etmesi, aralarındaki samimiyetin bir neticesidir. Ali Nutkî Dede’den zamanımıza ulaşan tek eser olan bu Mevlevî âyininin Türkiye’de ayrı zamanlarda yapılan iki nota neşrinde İsmâil Dede’nin eserleri arasında gösterilmesinin sebebi anlaşılamamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 423-424 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-nutki-dede",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-nutki-dede, https://islamansiklopedisi.org.tr/ali-nutki-dede",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:33Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-nutki-dede (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1762,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ali-nutki-dede, URL: https://islamansiklopedisi.org.tr/ali-nutki-dede || DİA death place: 1219 || DİA death-date string: (1762-1804) || Chunk count: 1",
+  "students": [
+    "iac:person-00004564"
+  ]
+}

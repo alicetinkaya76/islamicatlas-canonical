@@ -1,0 +1,62 @@
+{
+  "@id": "iac:person-00007942",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ BEKR-i TİHRÂNÎ",
+      "ar": "أبو بكر تهرانى"
+    },
+    "originalScript": {
+      "ar": "أبو بكر تهرانى"
+    },
+    "altLabel": {
+      "tr": [
+        "Akkoyunlular tarihine dair yazdığı Kitâb-ı Diyarbekriyye adlı eseriyle tanınan münşî ve tarihçi."
+      ]
+    },
+    "description": {
+      "tr": "Akkoyunlular tarihine dair yazdığıKitâb-ı Diyarbekriyyeadlı eseriyle tanınan münşî ve tarihçi."
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-bekr-i-tihrani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-bekr-i-tihrani, https://islamansiklopedisi.org.tr/ebu-bekr-i-tihrani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:10Z",
+    "modified": "2026-05-04T15:35:10Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-bekr-i-tihrani (0 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 882,
+    "start_ce": 1477,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-bekr-i-tihrani, URL: https://islamansiklopedisi.org.tr/ebu-bekr-i-tihrani"
+}

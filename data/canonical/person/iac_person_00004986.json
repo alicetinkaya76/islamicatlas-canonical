@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00004986",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KÜÇÜKU, Muhammed"
+    },
+    "description": {
+      "tr": "Arnavutluk’un güneyinde Yanya vilâyetinin Çamıriya (Çamëri) bölgesinde bulunan Konispol köyünde doğdu. Adı Arnavutça kaynaklarda Muhamet Çami olarak da geçer. İlk dinî bilgileri köyünde aldıktan sonra amcasının teşvikiyle Kahire’ye gitti. Ezher’de on bir yıl süren öğreniminin ardından Konispol’a döndü. Buradaki camilerde din görevlisi olarak çalıştı ve halk arasında saygın bir din âlimi olarak tanındı. 1844’te Konispol’da vefat etti. Rubâî şeklinde kaleme aldığı şiirleri ve yaptığı çevirilerden Arnavutça yanında Türkçe ve Arapça’ya da vâkıf olduğu anlaşılmaktadır. Küçüku’nun, bir yandan Arnavut edebiyatında İslâmî unsurları ve terminolojiyi, öte yandan Türkçe kelime hazinesinin geniş olduğu Konispol bölgesi halk dilini kullanması dikkat çekmektedir. Ayrıca Arap harfleriyle Arnavutça kaleme aldığı eserleriyle Arnavut kültürüne Osmanlı alfabesinin yerleşmesi ve halk edebiyatında rubâî türünün yaygınlaşması hususunda önemli rol oynamıştır. Arnavut halk diline ve edebiyatına yaptığı katkılarla Arnavut millî şairi sayılan Naîm Fraşiri’ye öncülük yaptığı ve Naîm’in onun şiirlerinin etkisi altında kaldığı belirtilmektedir. Eserleri. 1. Erveheja (Bükreş 1888). 428 beyitten oluşan bu manzum hikâyede işlenen konu, Ravza adıyla meşhur anonim manzum bir Türkçe hikâyeden alınmıştır. Bir nüshası Jani Vreto tarafından Yanya vilâyetine bağlı Ergiri’de (Gjirokastër) bulunarak yayımlanmıştır. Kosovalı çağdaş Arnavut edebiyatçısı Ahmet Qirezi eseri tiyatroya adapte etmiştir. 2. Jusufi dhe Zelihaja . 1215 beyitten meydana gelen bu manzum aşk hikâyesi, konusunda Arnavut edebiyatında ilk çalışma sayılır. Müellifin, büyük bir ihtimalle Taşlıcalı Yahyâ Bey’in aynı adlı mesnevisinden hareketle kaleme aldığı eser (Hasan Kaleši, XVI-XVII [1970], s. 61) henüz yayımlanmamıştır. 3. Gurbetlinjtë . 100 mısradan oluşan ve gurbetçilerin hayatından bahseden dörtlük halindeki bu şiir de henüz neşredilmemiştir. 4. Zaptimi i Misolongjit . 300 beyitten meydana gelen ve henüz yayımlanmayan bu eser, 1822’de Yunanistan’daki Misolongi’nin Türkler tarafından fethini konu edinmektedir. 5. Bekriu . Dinî motiflerle süslenen bu manzum eser içki içenler hakkında mev‘iza mahiyetinde kaleme alınmıştır. 6. Kasîdetü’l-bürde . Bûsîrî’nin Ḳaṣîdetü’l-bürde ’sinin Arnavutça’ya tercümesi olup Arap edebiyatından Arnavutça’ya yapılan ilk çeviri olması bakımından önem taşır. Küçüku’nun Türkçe’den de bazı çeviriler yaptığı kaynaklarda zikredilmekle birlikte hangi eserleri tercüme ettiği bilinmemektedir (Osman Myderrizi, sy. 1 [1951], s. 72-82). Bu madde TDV İslâm Ansiklopedisi’nin 2002 yılında Ankara’da basılan 26. cildinde, 532 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kucuku-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kucuku-muhammed, https://islamansiklopedisi.org.tr/kucuku-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:kucuku-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=kucuku-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:34Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kucuku-muhammed (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=kucuku-muhammed)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1784,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=kucuku-muhammed, URL: https://islamansiklopedisi.org.tr/kucuku-muhammed || DİA birth place: Konispol || DİA death place: Konispol || DİA death-date string: (1784-1844) || DİA categories: şiir || Chunk count: 1"
+}

@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00001864",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CÛDÎ EFENDİ, Muallim"
+    },
+    "description": {
+      "tr": "Kasım 1850’de Merzifon’da doğdu. Trabzonlu Cûdî Efendi’yle karıştırılmamak için “Merzifonlu” olarak da anılır. Asıl adı İbrâhim Cûdî’dir. Babası Hüseyin Efendi’yi iki yaşlarında iken kaybedince annesiyle birlikte dedesinin evine yerleşti. Annesinin ikinci evliliğinden sonra teyzesinin yanında kaldı. Mahalle mektebini bitirdikten sonra rüşdiyeye gitti, ayrıca medrese derslerini takip etti. Bir süre hıfza çalıştı, hat dersi aldı. Tahsilini tamamlamak üzere gittiği İstanbul’da (1876) müsabaka imtihanını kazanarak Beşiktaş Askerî Rüşdiyesi’nde Türkçe muallimi olarak göreve başladı. Selânik’te Terakkî adlı özel bir okulda, İ‘dâdî-i Mülkiyye’de ve Selânik Askerî Rüşdiyesi’nde Türkçe ve Arapça muallimliği yaptı. II. Meşrutiyet’ten sonra açılan Meclis-i Meb‘ûsan’a Amasya mebusu seçilince İstanbul’a döndü. Rûmî 1328’de (1912-13) Gelenbevî İdâdîsi’ne edebiyat, Mercan İdâdîsi’ne Türkçe hocası oldu. Bu mekteplerdeki görevlerinin yanı sıra Gelenbevî Sultânîsi’nde edebiyat ve felsefe dersleri okuttu. 1915’te Bezmiâlem Vâlide İnâs Sultânîsi edebiyat muallimliğine tayin edildi. 1917’de Isparta mebusu olunca iki görevi birlikte sürdürdü. Eylül 1921’de emekli oldu. 17 Eylül 1931’de öldü. Mezarı Kadıköy’deki aile kabristanındadır. Uzun yıllar Türkçe, edebiyat, Arapça ve felsefe hocalığı yaptığı için “muallim” unvanı ile anılan İbrâhim Cûdî, ilk modern Türk hikâyecilerinden Nâbizâde Nâzım başta olmak üzere birçok öğrenci yetiştirmiştir. Muallim Nâci ile Selânikli Tevfik’in çıkardıkları Teâvün-i Aklâm mecmuasında kırka yakın, Peyâm-ı Sabah ’ın edebî ilâvesi Peyâm-ı Edebî ’de de on kadar şiiri yayımlanan Cûdî’nin Muasır Şairlerimiz , Son Asır Türk Şairleri ve Merzifon Şairleri ’nde şiirlerinden örnekler bulunmaktadır. Muallim Nâci ve Yenişehirli Avni’nin tesiri altında kalan Muallim Cûdî’nin bir divan teşkil edecek sayıda yayımlanmamış şiirlerinin bulunduğu defterin dostu Merzifonlu Sıdkı Hoca’da olduğu söylenmekteyse de bu zatın vefatından sonra kitapları satıldığından defter hakkında bilgi edinilememiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 80 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cudi-efendi-muallim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cudi-efendi-muallim, https://islamansiklopedisi.org.tr/cudi-efendi-muallim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:49Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cudi-efendi-muallim (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1850,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=cudi-efendi-muallim, URL: https://islamansiklopedisi.org.tr/cudi-efendi-muallim || DİA birth place: Merzifon || DİA death-date string: (1850-1931) || DİA categories: felsefe || Chunk count: 1",
+  "students": [
+    "iac:person-00005959"
+  ]
+}

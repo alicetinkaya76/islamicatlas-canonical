@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00011111",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ghars al-Dīn Ibn al-Niqāb",
+      "tr": "Garsu'd-Dîn İbn en-Nîkâbî",
+      "ar": "غرس الدين ابن النقيب"
+    },
+    "originalScript": {
+      "ar": "غرس الدين ابن النقيب"
+    },
+    "description": {
+      "tr": "Tabip, hesap ve astronomi bilgini, geometri ve müsikiye vâkıf",
+      "en": "A physician, scholar of arithmetic and astronomy, knowledgeable in geometry and music"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Khalīl b. Ahmad b. Khalīl, Ghars al-Dīn"
+    },
+    "altLabel": {
+      "tr": [
+        "Halîl b. Ahmed b. Halîl, Garsu'd-Dîn"
+      ],
+      "ar": [
+        "خليل بن أحمد بن خليل، غرس الدين المعروف بابن النقيب"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:3368",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=3368",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:58Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=3368 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:3368."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 971,
+    "start_ce": 1563,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=3368, heading_ar=غرس الدين ابن النقيب || Ziriklī century_ce=16 || Ziriklī place coords (city/region of activity): 36.2, 37.13",
+  "active_in_places": [
+    "iac:place-00003866",
+    "iac:place-00009626"
+  ]
+}

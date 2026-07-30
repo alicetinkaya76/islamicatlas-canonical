@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00005670",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MUHAMMED b. ACLÂN",
+      "ar": "محمّد بن عجلان"
+    },
+    "originalScript": {
+      "ar": "محمّد بن عجلان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Aclân el-Kureşî el-Medenî"
+      ]
+    },
+    "description": {
+      "tr": "Abdülmelik b. Mervân’ın hilâfeti yıllarında (685-705) doğduğu belirtilmiştir ( Zehebî, Aʿlâmü’n-nübelâʾ , VI, 317). Kureyş’ten Velîd b. Utbe’nin kızı Fâtıma’nın âzatlısıdır. Medine’de yaşamakla birlikte Mısır’a gidip İskenderiye’de evlendiğine (Mizzî, XXVI, 107), Yahyâ el-Kattân’ın Kûfe’de onu gördüğüne dair bilgilerden ( Zehebî, Aʿlâmü’n-nübelâʾ , VI, 321) bazı seyahatler yaptığı anlaşılmaktadır. en-Nefsüzzekiyye Muhammed b. Abdullah el-Mehdî’nin Medine’de Abbâsîler’e karşı başlattığı harekât içinde yer alan Muhammed b. Aclân, Ca‘fer b. Süleyman el-Hâşimî Medine valisi olunca yakalanıp valinin huzuruna getirildi. Ca‘fer b. Süleyman onun elinin kesilmesini veya başka bir şekilde cezalandırılmasını emretti, ancak şehrin ileri gelenlerinin arzusu üzerine serbest bırakıldı. Muhammed b. Aclân 148 (765) yılında Medine’de vefat etmiş olup bu tarih 147 ve 149 olarak da kaydedilmiştir. Muhammed b. Aclân babasından ve Enes b. Mâlik, Ebân b. Sâlih, Âsım b. Ömer b. Katâde, İyâs b. Muâviye, Bükeyr b. Abdullah b. el-Eşec, Sevr b. Zeyd ed-Dîlî gibi âlimlerden hadis rivayet etmiş; kendisinden oğlu Abdullah, İbrâhim b. Ebû Able el-Makdisî, Esbât b. Muhammed el-Kureşî, Bişr b. Mufaddal, Bişr b. Mansûr, Hayve b. Şüreyh ve diğerleri rivayette bulunmuştur. Mescid-i Nebevî’de bir ders halkası oluşturan Muhammed b. Aclân çok hadis rivayet etmesi, fıkıh bilgisi ve fetvaları ile dikkati çekmiş, ibadete düşkünlüğü ve güzel ahlâkıyla tanınmıştır. Yahyâ b. Maîn, Ahmed b. Hanbel, Ebû Hâtim er-Râzî, Ebü’l-Hasan el-İclî, Nesâî ve Ya‘kūb b. Şeybe gibi âlimler onu sika kabul etmiş, fakat bazı hadisçiler hâfızasının zayıflığından söz etmiştir. Zehebî, hadislerinin sahih niteliğinde değilse de hasen derecesinden daha aşağı olmadığını söylerken ( Aʿlâmü’n-nübelâʾ , VI, 322) muhtemelen onun hâfızasıyla ilgili bu durumu dikkate almıştır. Naklettiği hadislerin Ṣaḥîḥayn ’da ancak şâhid olarak yer alması da bu yönüyle ilgili olmalıdır. Diğer dört Sünen müellifinin eserlerinde rivayetlerine yer verdiği Muhammed b. Aclân’dan nakledilen bir hadisle ilgili bir soru üzerine İmam Mâlik’in söylediği, “İbn Aclân bu tür şeyleri bilmezdi ve âlim değildi” sözünü de bu çerçevede değerlendirmek mümkündür ( a.g.e. , VI, 320; VIII, 104). Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 30. cildinde, 492-493 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:muhammed-b-aclan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=muhammed-b-aclan, https://islamansiklopedisi.org.tr/muhammed-b-aclan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:muhammed-b-aclan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/muhammed-b-aclan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:42Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=muhammed-b-aclan (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Medenî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 148,
+    "start_ce": 765,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=muhammed-b-aclan, URL: https://islamansiklopedisi.org.tr/muhammed-b-aclan || DİA death place: Medine || DİA death-date string: (ö. 148/765) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001143",
+    "iac:person-00002515",
+    "iac:person-00004604"
+  ],
+  "students": [
+    "iac:person-00001558",
+    "iac:person-00001560",
+    "iac:person-00003360",
+    "iac:person-00007559"
+  ]
+}

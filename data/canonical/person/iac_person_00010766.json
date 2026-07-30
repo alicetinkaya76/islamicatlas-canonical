@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00010766",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Mamlūk",
+      "tr": "el-Memluv",
+      "ar": "المملوك"
+    },
+    "originalScript": {
+      "ar": "المملوك"
+    },
+    "description": {
+      "tr": "Fadıl, nazımı var.",
+      "en": "A learned man who had poetry.",
+      "ar": "مملوك (ع.، جمع مماليك ومماليك)، اسم مفعول من ملك 'أن يملك'، كان السلاطين يُختارون من قبل المماليك من بين أحفاد السلطان."
+    },
+    "altLabel": {
+      "en": [
+        "MAMLUK"
+      ],
+      "tr": [
+        "Hüseyin b. Abdullah, meşhur el-Memluv"
+      ],
+      "ar": [
+        "حسين بن عبد الله، المعروف ب المملوك"
+      ]
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ḥusayn b. ʿAbd Allāh, known as al-Mamlūk"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:2974",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=2974",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "ei1:3455",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 3, p. 16",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:54Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=2974 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled ['description.ar', 'altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:2974."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1034,
+    "start_ce": 1625,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=2974, heading_ar=المملوك || Ziriklī century_ce=17"
+}

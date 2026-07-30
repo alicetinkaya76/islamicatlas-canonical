@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00003714",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Cemmâz",
+      "ar": "ابن جمّاز"
+    },
+    "originalScript": {
+      "ar": "ابن جمّاز"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’r-Rebî‘ Süleymân b. Müslim b. Cemmâz ez-Zührî"
+      ]
+    },
+    "description": {
+      "tr": "Benî Zühre’nin mevlâsıdır. Ebû Ca‘fer el-Kārî, Şeybe b. Nisâh ve kırâat-i seb‘a imamlarından Nâfi‘ b. Abdurrahman’dan kıraat okudu. Kendisinden Ebû İshak İsmâil b. Ca‘fer el-Medenî ve Kuteybe b. Mihrân kıraat tahsil ederken Ebû İshak İsmâil b. Ca‘fer el-Medenî, Velîd b. Müslim ve Ebû Hümâm Salt b. Muhammed el-Hârekî rivayette bulundular. Talebelerinden Kuteybe b. Mihrân’ın naklettiğine göre İbn Cemmâz halka ve öğrencilerine Nâfi‘in kıraatini okuttuğunu, ancak kendisinin Ebû Ca‘fer’in kıraatini tercih ettiğini söylemiştir (İbn Mihrân en-Nîsâbûrî, s. 10-11; Enderâbî, s. 47-48). Zehebî de Nâfi‘in İbn Cemmâz’a büyük değer verdiğini belirtmiştir ( Maʿrifetü’l-ḳurrâʾ , I, 293). Ebû Ca‘fer’in kıraatiyle ilgili olarak V. (XI.) yüzyılın ortalarına kadar telif edilen kıraat kitaplarında yer almayan İbn Cemmâz’ın rivayetleri bu asrın ikinci yarısından itibaren Hüzelî’nin el-Kâmil ’i, İbn Sivâr el-Bağdâdî’nin el-Müstenîr ’i gibi eserlerde bir araya getirilmiştir. Daha sonraki dönemlerde kırâat-i aşereye dair yazılan kitaplar içinde İbn Cemmâz’ın rivayetine yer vermeyenler bulunmakla birlikte (meselâ Ebü’l-Alâ el-Hemedânî’nin Ġāyetü’l-iḫtiṣâr ’ı gibi), Ebû Ca‘fer’in râvileri iki ile sınırlanırken bunlardan biri olarak genellikle İbn Cemmâz tercih edilmiş, günümüze kadar kırâat-i aşerenin öğretiminde de bu tercihe uyulmuş ve bu suretle kıraat rivayeti yayılma imkânı bulmuştur. İbn Cemmâz’ın Kur’an tahsilindeki yerini önemli kılan hususlardan biri, hiç şüphesiz onun Medineliler’in mushafları ile Hz. Osman’ın mushafı arasındaki farkları belirleyip rivayet edenlerden biri olmasıdır (İbn Ebû Dâvûd, s. 37, 41-42). Zira Kur’an nüshalarının metinleri arasında görülen ve İbn Cemmâz’ın tesbitine göre sayısı on ikiyi bulan bu farklılıklar, Kur’an tarihinin en önemli konularından birini oluştururken kıraat ihtilâfları olarak bu ilme dair eserlerde de yer almıştır (bk. KIRAAT ; MUSHAF ). Hangi tarihte vefat ettiği kesin olarak bilinmeyen İbn Cemmâz’ın ölümüyle ilgili olarak Zehebî, “Herhalde Nâfi‘den önce veya onunla aynı tarihte” (169/785) ifadesini kullanırken İbnü’l-Cezerî 170’ten (786) sonra vefat ettiğini belirtmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 395-396 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-cemmaz",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-cemmaz, https://islamansiklopedisi.org.tr/ibn-cemmaz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:18Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:18Z",
+    "modified": "2026-05-04T15:34:18Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-cemmaz (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Zührî"
+  ],
+  "death_temporal": {
+    "start_ah": 170,
+    "start_ce": 786,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-cemmaz, URL: https://islamansiklopedisi.org.tr/ibn-cemmaz || DİA death place: 170 || DİA death-date string: (ö. 170/786’dan sonra) || DİA categories: rivayet || Chunk count: 1"
+}

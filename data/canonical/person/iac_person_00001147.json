@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00001147",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂSIM EFENDİ, Mekkîzâde"
+    },
+    "description": {
+      "tr": "I. Abdülhamid ve III. Selim devri şeyhülislâmlarından olan Mekkî Mehmed Efendi’nin oğludur. İstanbul’da doğdu, tahsilini özel olarak tamamladıktan sonra 1785’te genç yaşta hâriç derecesiyle (bk. MEDRESE ) ilmiye mesleğine girdi. 1797’de Galata kadısı, 1809’da İstanbul kadısı, 1812’de Rumeli kazaskeri ve 27 Ocak 1818’de şeyhülislâm oldu. Ancak padişaha yakınlığıyla tanınan Hâlet Efendi’nin isteklerine karşı, ileride çıkabilecek mahzurları hissederek çekingen davrandığı için 3 Eylül 1819’da azledildi. 25 Eylül 1823’te ikinci defa şeyhülislâmlığa getirildi. Fakat Yeniçeri Ocağı’nı kaldırmaya karar veren II. Mahmud, meşihat makamında daha sert ve kararlı birinin bulunmasını istediğinden, aslında takdir ettiği ancak ocağa yakınlığını bildiği Mustafa Âsım Efendi’yi görevinden azletmek zorunda kaldı (26 Kasım 1825). Âsım Efendi, sekiz yıllık bir aradan sonra 8 Şubat 1833’te üçüncü defa şeyhülislâm oldu. Sultan Abdülmecid tahta çıktığında onu görevinde bıraktı ve bu üçüncü şeyhülislâmlığı 19 Kasım 1846 tarihinde vefatına kadar devam etti. Ölünce Fatih’te babasının yanına defnedildi. Âsım Efendi ileri görüşlü bir devlet adamı olup siyasî olayları yakından takip ederdi. On üç yıl süren üçüncü şeyhülislâmlığı sırasında yenilikleri benimsemiş, hem Tanzimatçılar’la hem de Tanzimat’a muhalif olanlarla iyi geçinmiştir. Ölümünden sonra yerine Ârif Hikmet Beyefendi’nin tayini münasebetiyle Sultan Abdülmecid tarafından çıkarılan fermanda onun ahlâk ve iffet sahibi şahsiyetinden takdirle bahsedilmiştir. Çok tutumlu olan Âsım Efendi geride büyük bir servet bırakmış, evlâdı olmadığından vasiyeti üzerine bu servet Ayasofya Camii’nin tamirine harcanmıştır. II. Mahmud ve Sultan Abdülmecid zamanlarındaki şeyhülislâmlığı toplam on yedi yıl altı ay kadardır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 478 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:asim-efendi-mekkizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=asim-efendi-mekkizade, https://islamansiklopedisi.org.tr/asim-efendi-mekkizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:asim-efendi-mekkizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/asim-efendi-mekkizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=asim-efendi-mekkizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1262,
+    "start_ce": 1846,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=asim-efendi-mekkizade, URL: https://islamansiklopedisi.org.tr/asim-efendi-mekkizade || DİA birth place: İstanbul || DİA death place: Fatih || DİA death-date string: (ö. 1262/1846) || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

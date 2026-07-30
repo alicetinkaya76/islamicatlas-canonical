@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00000408",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÂN el-MERVEZÎ",
+      "ar": "عبدان المروزي"
+    },
+    "originalScript": {
+      "ar": "عبدان المروزي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdullāh b. Muhammed b. Îsâ el-Mervezî"
+      ]
+    },
+    "description": {
+      "tr": "Abdân diye şöhret bulduğu için birçok kaynakta Abdân b. Muhammed olarak zikredilen Abdullah, 220’de (835) Merv’de doğdu. Horasan bölgesi muhaddislerinden hadis tahsil ettikten sonra Irak ve Hicaz’a gitti; orada da Kuteybe b. Saîd, Ali b. Hucr, Ebû Küreyb gibi âlimlerden hadis okudu. Hicaz’dan Mısır’a geçerek İmam Şâfiî’nin talebelerinden Şâfiî fıkhını öğrendi ve daha sonra memleketine döndü. Muhaddis ve fakih Ahmed b. Seyyâr’dan (ö. 268/881) sonra Horasan bölgesinde Şâfiî mezhebini yayan ikinci kişi oldu. İbn Seyyâr’ın ölümünü takip eden yıllarda Şâfiîler’in çeşitli konularda karşılaştıkları meseleler için başvurdukları yegâne âlim o idi. Yahyâ b. Muhammed el-Anberî, Ebû Ahmed el-Assâl ve Ebü’l-Kāsım et-Taberî gibi devrin tanınmış âlimleri onun talebesi olmuştur. Merv’de vefat etti. Yüz cüzden meydana gelen Kitâbü’l-Maʿrife adlı eseri, ashabın hayatını ve rivayetlerini tanıtan temel kaynaklardandır. İbn Hacer’in el-İṣâbe ’de sık sık atıfta bulunduğu bu eser günümüze ulaşmamıştır. Kaynaklarda Abdân’ın Kitâbü’l-Muvaṭṭaʾ adlı başka bir eseri de zikredilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 67 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdan-el-mervezi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdan-el-mervezi, https://islamansiklopedisi.org.tr/abdan-el-mervezi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:38Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdan-el-mervezi (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mervezî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 293,
+    "start_ce": 906,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdan-el-mervezi, URL: https://islamansiklopedisi.org.tr/abdan-el-mervezi || DİA birth place: Merv || DİA death place: Merv || DİA death-date string: (ö. 293/906) || DİA categories: hadis > rivayet > mezhep || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00003525"
+  ],
+  "teachers": [
+    "iac:person-00000932",
+    "iac:person-00005063"
+  ],
+  "students": [
+    "iac:person-00001157"
+  ]
+}

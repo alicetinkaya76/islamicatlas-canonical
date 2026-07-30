@@ -1,0 +1,102 @@
+{
+  "@id": "iac:person-00003437",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HİŞÂM b. UBEYDULLAH",
+      "ar": "هشام بن عبيد الله"
+    },
+    "originalScript": {
+      "ar": "هشام بن عبيد الله"
+    },
+    "altLabel": {
+      "tr": [
+        "Hişâm b. Ubeydillâh er-Râzî"
+      ]
+    },
+    "description": {
+      "tr": "Babasının adı bazı kaynaklarda Abdullah şeklinde geçmektedir. Sem‘ânî, Hişâm’ı ehl-i bid‘atın karşıtı olarak Sünnî nisbesiyle anılanlar arasında saydığı gibi Rey köylerinden Sinn’e nisbetle Sinnî diye anıldığını da belirtir. Yâkūt el-Hamevî ve İbnü’l-Esîr ise yalnız Sinn’e nisbetini kaydetmişlerdir. Hişâm, fıkhı Ebû Hanîfe’nin talebeleri Ebû Yûsuf ve Muhammed b. Hasan eş-Şeybânî’den öğrendi. Şeybânî’nin onun Rey’deki evinde vefat etmiş olması talebesiyle olan yakınlık derecesini göstermektedir. Birçok âlimden ders aldığını ve ilim uğrunda 700.000 dirhem harcadığını söyleyen Hişâm re’y taraftarı olmasına rağmen hadis rivayetiyle de meşhurdur. İbn Ebû Zi’b, Mâlik b. Enes, Hammâd b. Zeyd, Ebû Avâne, Leys b. Sa‘d, İbn Lehîa gibi âlimlerden hadis rivayet etmiş; kendisinden Ebû Hâtim Muhammed b. İdrîs er-Râzî, Ahmed b. Furât, Bakıyye b. Velîd, Muhammed b. Saîd el-Attâr, Hasan b. Arafe ve başkaları rivayette bulunmuştur. Hişâm’ı Ebû Hâtim “sadûk”, İbn Hibbân ve Ebû İshak eş-Şîrâzî “leyyin” olarak vasıflandırmışlardır. Bir rivayete göre de İbn Hibbân onu “sika” olarak kabul etmiş, bazı hadisleri ise mevzû görülerek terkedilmiştir. Hişâm b. Ubeydullah’ın en-Nevâdir ve Ṣılâtü’l-es̱er adlı kitapları kaynaklarda zikredilmektedir. Bunlardan ilki Serahsî’nin el-Mebsûṭ ’unun kaynaklarındandır (meselâ bk. el-Mebsûṭ , II, 163, 193; III, 16). İmam Muhammed’e ait el-Câmiʿu’l-kebîr ’in Haydarâbâd neşrinde (1356) Hişâm b. Ubeydullah’ın en-Nevâdir ’inden yapılan ilâvelere de yer verilmiştir ( DİA , VII, 110). Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 155 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hisam-b-ubeydullah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hisam-b-ubeydullah, https://islamansiklopedisi.org.tr/hisam-b-ubeydullah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hisam-b-ubeydullah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hisam-b-ubeydullah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:15Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hisam-b-ubeydullah (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:59Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.95): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 221,
+    "start_ce": 836,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hisam-b-ubeydullah, URL: https://islamansiklopedisi.org.tr/hisam-b-ubeydullah || DİA death place: Rey || DİA death-date string: (ö. 221/836) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "death_place": "iac:place-00015119",
+  "teachers": [
+    "iac:person-00002303",
+    "iac:person-00003768",
+    "iac:person-00006936"
+  ]
+}

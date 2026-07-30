@@ -1,0 +1,130 @@
+{
+  "@id": "iac:person-00001491",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Berzencî",
+      "ar": "البرزنجي"
+    },
+    "originalScript": {
+      "ar": "البرزنجي"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Abdirresûl b. Abdisseyyid el-Hasenî el-Berzencî eş-Şehrezûrî"
+      ]
+    },
+    "description": {
+      "tr": "Berzenc asıllı olup 12 Rebîülevvel 1040 (19 Ekim 1630) tarihinde Şehrezûr’da doğdu. Hz. Hasan’ın soyundandır. İlk tahsilini babasından ve Molla Muhammed Şerîf el-Kûrânî’den yaptı. Hemedan, Bağdat, Şam, Mardin, İstanbul, Halep ve Mısır’ı dolaşarak Muhammed b. Hasan el-Kevâkibî, Ali eş-Şebrâmellisî ve Mezzâhî gibi meşhur âlimlerden ders aldı. Daha sonra yerleştiği Medine’de İbrâhim b. Hasan el-Kûrânî’den de faydalanan Berzencî, Kuşâşî vasıtasıyla da tasavvufa yöneldi. Bir yandan Ravza-i Mutahhara’da ders verirken bir yandan da telifle meşgul oldu. Muharrem 1103 başlarında (Eylül 1691) Medine’de vefat etti. Eserleri. Kelâm, tasavvuf, tefsir, hadis, fıkıh, Arap dili ve edebiyatı gibi çeşitli ilim dallarında doksana yakın kitap ve risâle telif etmiş olan Berzencî’nin belli başlı eserleri şunlardır: 1. el-İşâʿa li-eşrâṭi’s-sâʿa . Kıyamet alâmetlerine dair olup Muhammed Bedreddin en-Na‘sânî tarafından neşredilmiştir (Kahire 1325, 1393). 2. Ḳaḍhu’z-zend ve ḳıḍhu’r-rend fî reddi ḍalâleti (cehâleti) ehli Sirhind . Sûfîlerle ilgili olan bu esere Ali b. Abdülahad es-Sirhindî es-Sikenderpûrî tarafından el-Kelâmü’l-müncî (Delhi 1312) adıyla bir reddiye yazılmıştır (bk. Brockelmann, GAL Suppl. , II, 530). 3. Enhârü’s-selsebîl . Beyzâvî’nin Envârü’t-tenzîl ve esrârü’t-teʾvîl ’inin şerhidir. 4. en-Nâşiretü’n-nâcire bi’r-reddi ʿale’l-fırḳati’l-fâcire . 5. Buġyetü’ṭ-ṭâlib li-îmâni Ebî Ṭâlib . 6. İlhâmü’ṣ-ṣavâb li-üli’l-elbâb . 7. Sedâdü’l-ʿilm ve sidâdü’d-dîn fî is̱bâti’n-necât ve’d-derecât li’l-vâlideyn . 8. Sevâʾü’s-sebîl ilâ iʿrâbi ḥasbünallāh ve niʿme’l-vekîl . 9. el-İsʿâd ve’l-isʿâf mimmen ḥaḍara fetḥa Belġrad (bu eserlerin yazma nüshaları için bk. Brockelmann, GAL , II, 511; Suppl. , II, 529-530). Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 525-526 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:berzenci",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=berzenci, https://islamansiklopedisi.org.tr/berzenci",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:berzenci",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=berzenci",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:10272",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=10272, heading_ar=البرزنجي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:43Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=berzenci (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[416, 10272]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=berzenci)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=10272 (heading_ar=البرزنجي) via Track A (DİA→Alam xref bridge). dt=Faziletli bir âlim, tefsir ve edebiyat ilminde bilgili"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hasenî; Berzencî; Şehrezûrî"
+  ],
+  "death_temporal": {
+    "start_ah": 1103,
+    "start_ce": 1691,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=berzenci, URL: https://islamansiklopedisi.org.tr/berzenci || El-Aʿlām (Ziriklī) cross-reference: alam_id=[416, 10272] || DİA birth place: Şehrezûr || DİA death place: Medine || DİA death-date string: (ö. 1103/1691) || DİA categories: kelâm > tasavvuf > fıkıh || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=10272, heading_ar=البرزنجي, dt=Faziletli bir âlim, tefsir ve edebiyat ilminde bilgili",
+  "active_in_places": [
+    "iac:place-00012747"
+  ],
+  "birth_place": "iac:place-00014325",
+  "teachers": [
+    "iac:person-00004894",
+    "iac:person-00005018",
+    "iac:person-00006745"
+  ],
+  "students": [
+    "iac:person-00004888",
+    "iac:person-00006770",
+    "iac:person-00007043",
+    "iac:person-00007447"
+  ]
+}

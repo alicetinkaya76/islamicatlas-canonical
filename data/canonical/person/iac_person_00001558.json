@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00001558",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BİŞR b. MANSÛR",
+      "ar": "بشر بن منصور"
+    },
+    "originalScript": {
+      "ar": "بشر بن منصور"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Bişr b. Mansûr es-Selîmî"
+      ]
+    },
+    "description": {
+      "tr": "Sem‘ânî ve İbnü’l-Esîr onu Ezd’in kollarından Benî Süleym’e nisbetle Süleymî diye anarken Zehebî ve İbn Hacer Bağdat yakınlarında bir yer olan Selîm’e nisbetle Selîmî nisbesini tercih etmişlerdir. Ayrıca Basrî ve Ezdî nisbeleriyle de tanınır. Eyyûb es-Sahtiyânî, Süfyân es-Sevrî, İbn Cüreyc ve Âsım el-Ahvel gibi râvilerden hadis rivayet etti. Kendisinden de oğlu İsmâil, Bişr el-Hâfî, Abdurrahman b. Mehdî, Süleyman b. Harb, Ali b. Medînî ve Fudayl b. İyâz’ın da dahil olduğu otuzdan fazla râvi hadis nakletti. Ahmed b. Hanbel başta olmak üzere muhaddisler tarafından güvenilir bir râvi kabul edilen Bişr b. Mansûr’un rivayetleri Ṣaḥîḥ-i Müslim , Ebû Dâvûd ve Nesâî’nin es-Sünen ’leri, Ebû Nuaym’ın Ḥilye ’si gibi çeşitli kaynaklarda yer almıştır. Kaynaklar’da Bişr’in günde beş yüz rek‘at namaz kıldığı, dönemindeki âbid ve zâhidlerin en faziletlisi olduğu, önceden hazırladığı kabrinin başında Kur’ân-ı Kerîm’i hatmettiği ve Kur’an’ın üçte birini her gün kendine vird edindiği rivayet edilir. Abdurrahman b. Mehdî, Ali b. Medînî gibi meşhur muhaddisler Allah korkusu ve gönül zenginliği hususunda Bişr b. Mansûr’un bir benzerini görmediklerini belirtirler. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 222 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bisr-b-mansur",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bisr-b-mansur, https://islamansiklopedisi.org.tr/bisr-b-mansur",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bisr-b-mansur",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bisr-b-mansur",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:44Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bisr-b-mansur (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Selîmî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 180,
+    "start_ce": 796,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bisr-b-mansur, URL: https://islamansiklopedisi.org.tr/bisr-b-mansur || DİA death-date string: (ö. 180/796) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005670"
+  ],
+  "students": [
+    "iac:person-00007148"
+  ]
+}

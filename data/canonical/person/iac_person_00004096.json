@@ -1,0 +1,105 @@
+{
+  "@id": "iac:person-00004096",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Zerb",
+      "ar": "ابن زرب"
+    },
+    "originalScript": {
+      "ar": "ابن زرب"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Muhammed b. Yebkā b. Zerb el-Kurtubî"
+      ]
+    },
+    "description": {
+      "tr": "8 Ramazan 317 (15 Ekim 929) tarihinde doğdu. Ebû Muhammed Kāsım b. Asbağ el-Beyyânî ve Muhammed b. Abdullah b. Ebû Düleym’den hadis dinledi. Ebû Bekir Muhammed b. Ahmed el-Lü’lüî ve Ebû İbrâhim İshak b. İbrâhim b. Meserre et-Tücîbî’den fıkıh okudu. Tahsil için seyahat yapmadığı gibi hadis rivayetiyle de meşgul olmadı. Özellikle re’y konusundaki ka-biliyetiyle tanındı ve devrinde Mâlikî fıkhının otoritesi haline geldi. Ebû Bekir Muhammed b. İshak b. Süleym’in kadılığı döneminde çeşitli kazâî meselelerin halli hususunda görüşlerine başvurulurdu. Muhammed b. İshak’ın vefatından sonra II. Hişâm’ın hilâfeti döneminde Kurtuba (Córdoba) kādılcemâası oldu (25 Cemâziyelâhir 367 / 7 Şubat 978) ve bu görevini ölümüne kadar sürdürdü. Daha önce ticaretle meşgul olan İbn Zerb, kadılığa tayininden sonra Kurtuba ileri gelenlerini toplayarak mal varlığını ibraz etti. Kadılığı süresince verdiği âdil hükümlerle hem idarecilerin hem halkın sevgi ve saygısını kazandı. İbn Zerb, İbn Meserre’nin sözde Empedokles felsefesi, Yeni Eflâtunculuk, Mu‘tezile ve Bâtınîlik izleri taşıdığı söylenen akîdesini benimseyenlerin belirlenmesi ve bunların tövbe ettirilmesi hususunu ısrarla takip etti. Onun tâbilerinden olduğu tesbit edilenler huzuruna getirilerek tövbe ettirildiği gibi ona ait kitaplar da toplatılarak yaktırıldı (350/961). Fıkıhtan başka matematik, Arap dili ve edebiyatı sahalarında da yetişen İbn Zerb üstün bir hitabet kabiliyetine sahipti. Cuma, bayram ve yağmur duası hutbelerini farklı üslûplarla irat ettiği kaydedilir. Resmî görevi yanında telif ve öğretim faaliyetleriyle de meşgul oldu ve aralarında İbnü’l-Hazzâ, Ebü’l-Velîd İbnü’s-Saffâr, Ebü’l-Abbas İbn Zekvân’ın da bulunduğu birçok talebe yetiştirdi. Zühd ve takvâ sahibi bir âlim olan İbn Zerb 12 Ramazan 381 (22 Kasım 991) tarihinde vefat etti ve Kureyş Kabristanı’na defnedildi. İbn Zerb’in Mâlikî fıkhına dair el-Ḫiṣâl adlı eserinin bir nüshası Madrid’de Bibliotecea National’de bulunmaktadır (Robles, nr. 38). er-Red ʿalâ İbn Meserre adlı eserinin ise günümüze ulaşıp ulaşmadığı bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 463 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-zerb",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-zerb, https://islamansiklopedisi.org.tr/ibn-zerb",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:11587",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=11587, heading_ar=ابن زرب",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:24Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:24Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:24Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-zerb (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[11587]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=11587 (heading_ar=ابن زرب) via Track A (DİA→Alam xref bridge). dt=Endülüs'ün büyük kadılarından ve minber hatiplerinden."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kurtubî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)",
+    "Mu'tezilî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 381,
+    "start_ce": 991,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-zerb, URL: https://islamansiklopedisi.org.tr/ibn-zerb || El-Aʿlām (Ziriklī) cross-reference: alam_id=[11587] || DİA death-date string: (ö. 381/991) || DİA categories: fıkıh > hadis > felsefe || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=11587, heading_ar=ابن زرب, dt=Endülüs'ün büyük kadılarından ve minber hatiplerinden.",
+  "active_in_places": [
+    "iac:place-00009538"
+  ],
+  "students": [
+    "iac:person-00004216",
+    "iac:person-00004322"
+  ]
+}

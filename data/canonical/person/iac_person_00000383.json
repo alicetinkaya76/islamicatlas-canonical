@@ -1,0 +1,58 @@
+{
+  "@id": "iac:person-00000383",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABBAS b. AMR el-GANEVÎ",
+      "ar": "عبّاس بن عمرو الغنوي"
+    },
+    "originalScript": {
+      "ar": "عبّاس بن عمرو الغنوي"
+    },
+    "description": {
+      "tr": "Rakka’da doğdu. Kumandanlığa tayin edilinceye kadar geçen hayatı hakkında bilgi yoktur. Resmî ilk görevi muhtemelen Fars valiliğidir. Ancak buraya ne zaman tayin edildiği de kesin olarak bilinmemektedir. Hicrî III. asrın sonlarına doğru Bahreyn bölgesindeki Karmatîler’in gittikçe kuvvetlenerek Hicr ile Basra’yı tehdide başlamaları üzerine, Halife Mu‘tazıd-Billâh tarafından Fars valiliğinden alınarak Yemâme ve Bahreyn valiliğine getirildi (900). Karmatîler’in ilerlemesine engel olmak amacıyla 10.000 kişilik bir ordu ile üzerlerine yürüdü. Ordudaki bedevîlerle gönüllülerin ordugâhı terketmeleri üzerine, Ebû Saîd el-Cennâbî kumandasındaki Karmatî ordusu karşısında büyük bir yenilgiye uğradı. Kendisiyle birlikte 700’e yakın asker esir edildi. Bir müddet sonra savaşı ve savaşın sonuçlarını halifeye anlatması için serbest bırakıldı. Bağdat’a sağ olarak dönmesi sevinçle karşılandı ve halife tarafından kendisine hil‘at giydirildi. Mu‘tazıd-Billâh’ın ölümü ve yerine Müktefî-Billâh’ın geçmesi üzerine meydana gelen olaylar sırasında başkumandan Bedr’in çevresinde toplanan kumandanlar arasında o da vardı. Fakat yeni halifenin isteği üzerine ondan ayrıldı. Bir süre sonra Kum ve Kâşân valiliğine tayin edildi. 296’da (908-909) bu görevden azledildi. Son olarak Diyârımudar valiliği yaptı. Hayatının son yıllarını, doğduğu şehir olan Rakka’da geçirdi ve burada öldü. Bugün Nusaybin ile Sincar arasında Kasrülabbas adıyla anılan yer, ona nisbetle bu adı taşımaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 22 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbas-b-amr-el-ganevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbas-b-amr-el-ganevi, https://islamansiklopedisi.org.tr/abbas-b-amr-el-ganevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-05-04T15:32:37Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbas-b-amr-el-ganevi (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 305,
+    "start_ce": 917,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbas-b-amr-el-ganevi, URL: https://islamansiklopedisi.org.tr/abbas-b-amr-el-ganevi || DİA birth place: Rakka || DİA death-date string: (ö. 305/917-18) || Chunk count: 1"
+}

@@ -1,0 +1,115 @@
+{
+  "@id": "iac:person-00001468",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Berdîcî",
+      "ar": "البرديجي"
+    },
+    "originalScript": {
+      "ar": "البرديجي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Ahmed b. Hârûn b. Ravh el-Berdîcî"
+      ]
+    },
+    "description": {
+      "tr": "Berzaî ( البرذعي ) ve Berdaî ( البردعي ) diye de bilinir. Azerbaycan’daki küçük yerleşim merkezlerinden biri olan Berdîc’den Bağdat’a gitti ve oraya yerleşti. Ebû Saîd el-Eşec, Hârûn b. İshak, Rebî‘ b. Süleyman, ayrıca Şam, Haremeyn, Acem, Mısır, Irak ve Cezîre’deki âlimlerden ilim tahsil etti ve rivayette bulundu. Kendisinden de Ebû Ali b. Savvâf, Ebû Bekir eş-Şâfiî, Ebü’l-Kāsım et-Taberânî, Ali b. Lü’lü’ el-Verrâk ve daha birçokları hadis rivayet etti. Yaklaşık yetmiş yaşlarında iken Bağdat’ta vefat etti. Hadis ilminde sika, me’mûn ve hâfız olarak değerlendirilen Berdîcî’nin şu iki eseri günümüze ulaşmıştır. 1. Ṭabaḳātü’l-esmâʾi’l-müfrede mine’ṣ-ṣaḥâbe ve’t-tâbiʿîn ve aṣḥâbi’l-ḥadîs̱ (Dımaşk 1987). 2. Cüzʾ fî men revâ ʿani’n-nebiyyi... mine’ṣ-ṣaḥâbe fi’l-kebâʾir (Zâhiriyye Ktp., Mecmua, nr. 81/1, vr. 1 a -5 a ). Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 485 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:berdici",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=berdici, https://islamansiklopedisi.org.tr/berdici",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:berdici",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/berdici",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:1324",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=1324, heading_ar=البرديجي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:42Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=berdici (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[1324]. Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=1324 (heading_ar=البرديجي) via Track A (DİA→Alam xref bridge). dt="
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Berdîcî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 301,
+    "start_ce": 914,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=berdici, URL: https://islamansiklopedisi.org.tr/berdici || El-Aʿlām (Ziriklī) cross-reference: alam_id=[1324] || DİA death place: Bağdat || DİA death-date string: (ö. 301/914) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=1324, heading_ar=البرديجي, dt=",
+  "authored_works": [
+    "iac:work-00006534",
+    "iac:work-00007622"
+  ],
+  "teachers": [
+    "iac:person-00002582"
+  ],
+  "students": [
+    "iac:person-00002146",
+    "iac:person-00007222"
+  ]
+}

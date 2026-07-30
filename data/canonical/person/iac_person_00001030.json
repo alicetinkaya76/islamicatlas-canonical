@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00001030",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂMİR b. SİNÂN",
+      "ar": "عامر بن سنان"
+    },
+    "originalScript": {
+      "ar": "عامر بن سنان"
+    },
+    "altLabel": {
+      "tr": [
+        "Âmir b. Sinân b. Abdillâh el-Eslemî"
+      ]
+    },
+    "description": {
+      "tr": "İbnü’l-Ekva‘ diye de tanınır. Hayatı hakkında fazla bilgi yoktur. Hz. Peygamber ile birlikte Hayber Savaşı’na katılmış, okuduğu şiirlerle develeri hızlandırmış, mücahidleri coşturmuştur. Hatta onun şiir okumasını bizzat Peygamber’in istediği de rivayet edilmektedir. Buhârî (“Meġāzî”, 38) ve Müslim’de (“Cihâd”, 123, 124, 132) yer alan bu şiirin Türkçe’si şöyledir: “Allahım! Sen bize doğru yolu göstermeseydin biz hidayete eremezdik. Ne zekât verir ne namaz kılardık. Hayatımız senin rızan için feda olsun! Bizi geçmiş günahlarımızdan arındır, gönüllerimize huzur doldur! Düşmanla karşılaştığımızda bize sebat ver! Hakka ve savaşa çağrıldığımızda hemen geldik.” Resûl-i Ekrem Âmir’in okuduğu bu şiiri pek beğenmiş ve “Allah rahmet etsin” diyerek kendisine dua etmiştir. Ancak Peygamber’in bu şekildeki duası ölüme işaret sayıldığından Hz. Ömer, “Yâ Resûlellah, keşke bu duayı geciktirseydin de kendisinden daha çok faydalanmamıza imkân sağlasaydın!” demiştir. Gerçekten Âmir, Hayber’in meşhur savaşçısı Merhab ile çarpışırken kendi kılıcıyla yaralanmış ve şehid olmuştur. Bazı sahâbîler, özellikle Üseyd b. Hudayr onun kendi silâhıyla yaralanması sonucu ölmesini intihar olarak yorumlamış ve amellerinin boşa gittiğini söyleyerek cenaze namazını kılmak istememiştir. Ancak durum Hz. Peygamber’e anlatılınca o şöyle buyurmuştur: “Böyle söyleyenler hata etmiştir. Âmir, biri Allah yolunda savaştığı, diğeri de savaşta büyük gayret gösterdiği için iki kat sevap kazanmıştır. Yeryüzünde onun gibisi az bulunur.” Âmir cenaze namazı kılındıktan sonra Recî‘deki bir mağaraya Mahmûd b. Mesleme ile birlikte defnedilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 67 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amir-b-sinan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amir-b-sinan, https://islamansiklopedisi.org.tr/amir-b-sinan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amir-b-sinan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amir-b-sinan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amir-b-sinan (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Eslemî"
+  ],
+  "death_temporal": {
+    "start_ah": 7,
+    "start_ce": 628,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amir-b-sinan, URL: https://islamansiklopedisi.org.tr/amir-b-sinan || DİA death-date string: (ö. 7/628) || DİA categories: rivayet > şiir || Chunk count: 1"
+}

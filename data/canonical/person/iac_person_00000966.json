@@ -1,0 +1,84 @@
+{
+  "@id": "iac:person-00000966",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ali İbrâhim Han",
+      "ar": "على ابراهيم خان"
+    },
+    "originalScript": {
+      "ar": "على ابراهيم خان"
+    },
+    "description": {
+      "tr": "1126’da (1714) Patna’da doğdu. Çocukluk ve gençlik yıllarını Şeyhpura’da geçirdi. 1748 yılında Azîmâbâd’a gitti. Bölgenin hâkimi Ali Verdî Han tarafından özellikle İran asıllı pek çok şairin toplandığı Mürşidâbâd’daki sarayına davet edildi. Burada üstün edebî kabiliyetiyle herkesin takdirini kazandı. Şiirlerinde Halil veya Halîl-i Azîmâbâdî mahlasını kullandı. “Nevvâb”, “emînü’d-devle”, “azîzü’l-mülk”, “bahâdır”, “nasîr-i ceng” unvanlarını aldı. 1760’ta Bengal, Bihâr ve Orissa nevvâb lığına tayin edilen Mîr Kāsım Han’ın ordu mütevelliliğine getirildi. Daha sonra Mîr Kāsım’ın en güvenilir müşaviri oldu. Ancak Mîr Kāsım’ın birkaç mağlûbiyetten sonra başkalarına sığınması üzerine ondan ayrıldı. 1770’te Bengal valiliğine getirilen Mübâreküddevle’nin nâibliğine tayin edildi. Kabiliyetinin farkına varan İngilizler ve onların Hintli iş birlikçilerince sivil idarede görevlendirildi. 1781’de Benâres’teki Yüksek Adalet Divanı başkanlığına ve geçici olarak aynı bölgedeki İngiliz umumi valiliğinin en yetkili müşavirliğine tayin edildi. 1208 (1793-94) yılında aynı şehirde öldü. Eserleri. 1. Gülzâr-ı İbrâhîm. 1770’te yazmaya başlayıp 1784’te tamamladığı eser bir Urdu şairleri tezkiresidir. 1798’de Gülşen-i Hind adıyla Farsça’dan Urduca’ya tercüme edilmiş ve bu tercüme 1934’te Aligarh’da basılmıştır (Farsça yazmaları için bk. Storey, I/2, s. 877). 2. Ḫulâṣatü’l-kelâm . 1784’te yazdığı bu eserde yetmiş sekiz Farsça mesnevi şairi hakkında bilgi vermiş ve eserlerinden iktibaslar yapmıştır (yazmaları için bk. Storey, I/2, s. 877). 3. Ṣuḥuf-i İbrâhîm . 1790’da Benâres’te tamamlanan eser, o tarihe kadar yazılmış en geniş Farsça şuarâ tezkiresi olup 3278 şairin biyografisini ihtiva eder. Eserin tek yazma nüshası Berlin Staatsbibliothek’tedir (bk. Pertsch, s. 627 [nr. 663]). 4. Aḥvâl-i Ceng-i Marhaṭṭa . Târîḫ-i İbrâhîm Ḫân veya Veḳāyiʿ-i Ceng-i Marhaṭṭa adlarıyla da anılan bu eser, çökmekte olan Hint-Türk İmparatorluğu’na hükmetmek isteyen Marhattalar’ın 1757-1784 yılları arasındaki mücadelelerini anlatır. 1787’de Benâres’te yazılan eser, 1795’te Tevârîḫ-i Marhaṭṭa ve Aḥmed Şâh Abdâlî adıyla Urduca’ya tercüme edilmiş, bu tercüme aynı yıl basılmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 399-400 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "poet",
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-ibrahim-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-ibrahim-han, https://islamansiklopedisi.org.tr/ali-ibrahim-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ali-ibrahim-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ali-ibrahim-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-ibrahim-han (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ali-ibrahim-han)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1208,
+    "start_ce": 1793,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-ibrahim-han, URL: https://islamansiklopedisi.org.tr/ali-ibrahim-han || DİA birth place: Patna || DİA death-date string: (ö. 1208/1793-94) || DİA categories: kelâm || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00005924"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@id": "iac:person-00001059",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMR b. ŞE’S",
+      "ar": "عمرو بن شأس"
+    },
+    "originalScript": {
+      "ar": "عمرو بن شأس"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Irâr (عرار) Amr b. Şe’s b. Ubeyd el-Esedî"
+      ],
+      "ar": [
+        "عمرو بن شاس"
+      ]
+    },
+    "description": {
+      "tr": "Kabiliyetli bir şair olup cesareti ve yiğitliğiyle meşhurdur. İslâmiyet’in ortaya çıktığı sıralarda yaşı hayli ilerlemişti. Hudeybiye Antlaşması’nda bulundu. Hz. Ali ile birlikte Yemen’e gitti. Yolculuk esnasında Hz. Ali’nin kendine eziyet ettiğini Yemen dönüşü Mescid-i Nebevî’de söyledi. Onun bu şikâyeti Hz. Peygamber’in kulağına gitti. Amr’ı haklı bulmayan Hz. Peygamber daha sonra onu yanına çağırıp, “Bana eziyet ettin; zira Ali’ye eziyet eden bana eziyet etmiştir” ( Müsned , III, 483) dedi. Kādisiye Savaşı’na katılarak bu savaşla ilgili bir de şiir söyledi. Amr’ın bilhassa hanımı Ümmü Hasan ve siyahî bir câriyeden olan oğlu Irâr hakkında güzel şiirleri bulunmaktadır. Bazı şiirleri sonraları şarkı olarak da bestelenen Amr’ın yirmi iki beyti Lisânü’l-ʿArab ’da örnek (şâhid) olarak kullanılmıştır. Gerek Câhiliye döneminde gerekse müslüman olduktan sonra çok şiir yazmasına ve neslinin en çok yazanı olarak bilinmesine rağmen (bk. Cumahî, I, 196) şiirlerini ihtiva eden divanı günümüze ulaşmamıştır. Ancak dokuz kasidesi ile bazı şiirleri muhtelif edebî eser ve antolojilerde yer almıştır (bk. Sezgin, II, 228). Ayrıca Yahyâ el-Cübûrî de Amr’ın şiirlerini derleyerek Şiʿru ʿAmr b. Şeʾs adıyla neşretmiştir (Necef 1976). Amr’dan sadece yukarıda sözü edilen hadis nakledilmiş, Ahmed b. Hanbel’den başka Buhârî (bk. et-Târîḫu’l-kebîr , VI, 306-307), İbn Hibbân ve İbn Mende de bu hadisi rivayet etmişlerdir. Amr b. Şe’s el-Eslemî adında bir başka sahâbînin bulunduğunu söyleyen Merzübânî’nin bu rivayeti diğer biyografi müelliflerince benimsenmemiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 91-92 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amr-b-ses",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amr-b-ses, https://islamansiklopedisi.org.tr/amr-b-ses",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amr-b-ses",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amr-b-ses",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:7842",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=7842, heading_ar=عمرو بن شاس",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amr-b-ses (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[7842]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=7842 (heading_ar=عمرو بن شاس) via Track A (DİA→Alam xref bridge). dt=Cahiliye ve İslâm başlarında yaşayan şair"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Esedî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 20,
+    "start_ce": 641,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amr-b-ses, URL: https://islamansiklopedisi.org.tr/amr-b-ses || El-Aʿlām (Ziriklī) cross-reference: alam_id=[7842] || DİA death-date string: (ö. 20/641) || DİA categories: hadis > rivayet > şiir || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=7842, heading_ar=عمرو بن شاس, dt=Cahiliye ve İslâm başlarında yaşayan şair"
+}

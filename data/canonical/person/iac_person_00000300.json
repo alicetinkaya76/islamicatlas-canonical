@@ -1,0 +1,121 @@
+{
+  "@id": "iac:person-00000300",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Jubayr",
+      "tr": "İbn Cübeyr",
+      "ar": "ابن جبير"
+    },
+    "originalScript": {
+      "ar": "ابن جبير"
+    },
+    "altLabel": {
+      "en": [
+        "Muhammad ibn Ahmad ibn Jubayr al-Kinani"
+      ],
+      "tr": [
+        "Muhammed b. Ahmed İbn Cübeyr el-Kinânî"
+      ],
+      "ar": [
+        "محمد بن أحمد ابن جبير الكناني"
+      ]
+    },
+    "description": {
+      "tr": "Rihlesi, Haçlı dönemi Akdeniz'inin en iyi birinci şahıs anlatımıdır || Masa başı coğrafyacılarından farklı olarak İbn Cübeyr doğrudan deneyimden yazdı. || [Tarih notu] 1185 Suriye depreminin anlatımı ve Norman Sicilya'sının Arap-Hristiyan kültürü betimlemesi benzersiz biçimde değerlidir.",
+      "en": "His Rihla is the finest first-person account of the Crusader-era Mediterranean — revealing daily life, trade, and interfaith interactions in 12th-century Egypt, Syria, and Sicily || Unlike armchair geographers, Ibn Jubayr wrote from direct experience. His observations of Crusader-Muslim coexistence in the Levant challenge simplistic narratives of perpetual conflict. || [Historiographical note] His account of the 1185 earthquake in Syria and his description of Norman Sicily's Arab-Christian culture are uniquely valuable.",
+      "ar": "رحلته أدق شهادة شخصية عن البحر المتوسط في عصر الصليبيين || على عكس الجغرافيين النظريين، كتب ابن جبير من تجربة مباشرة"
+    }
+  },
+  "profession": [
+    "geographer",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0117",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0117",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "dia-chunks:ibn-cubeyr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ibn-cubeyr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "scholars:74",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=74",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:20Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:20Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:20Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0117 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1145,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1217,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q367319",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ibn Jubayr')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0117, lecture_week=n/a. || Key works: {'title': {'en': 'Riḥla (Travels)', 'tr': 'Rihle (Seyahatnâme)', 'ar': 'رحلة ابن جبير'}, 'year': 1185, 'field': 'geography', 'significance': {'en': 'Vivid travel account through Crusader-era Mediterranean — the finest first-person source for daily life in 12th-century Egypt, the Levant, and Sicily', 'tr': \"Haçlı dönemi Akdeniz'i boyunca canlı seyahat anlatımı — 12. yüzyıl Mısır, Levant ve Sicilya'sında günlük yaşam için en iyi birinci şahıs kaynak\"}} || Modern parallel: Like a travel writer whose journal becomes the primary source for understanding an entire era's daily life and cross-cultural encounters.",
+  "authored_works": [
+    "iac:work-00000157"
+  ],
+  "kunya": "Ebü'l-Hüseyin",
+  "nisba": [
+    "Kinânî",
+    "Endelüsî"
+  ]
+}

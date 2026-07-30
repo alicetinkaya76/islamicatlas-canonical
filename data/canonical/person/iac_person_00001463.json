@@ -1,0 +1,65 @@
+{
+  "@id": "iac:person-00001463",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BERÂ b. MA‘RÛR",
+      "ar": "البراء بن معرور"
+    },
+    "originalScript": {
+      "ar": "البراء بن معرور"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bişr el-Berâ’ b. Ma‘rûr b. Sahr el-Hazrecî"
+      ]
+    },
+    "description": {
+      "tr": "Medine’deki Hazrec kabilesinin Selime koluna mensuptur. Annesi Rebâb bint Nu‘man, Evs kabilesinin reisi ve büyük sahâbî Sa‘d b. Muâz’ın halasıdır. 622 yılının hac mevsiminde Hz. Peygamber’i Medine’ye davet etmek üzere gizlice Mekke’ye gelen heyetin arasında Berâ da vardı. Geceleyin Akabe’de yapılan görüşmede Hz. Peygamber onlardan, kendisini tıpkı aile fertlerini himaye ettikleri gibi korumak üzere söz isteyip kendilerini biata çağırdığı zaman bu şartları seve seve kabul ettiğini heyecanla belirterek ilk biat eden o oldu. Medineli müslümanları temsil etmek üzere orada seçilen on iki nakib arasında yer aldı. Müslümanların Kudüs’e doğru namaz kıldığı günlerde, Kâbe varken bir başka yöne doğru namaz kılmayı içine sindiremedi ve Kâbe’ye yönelerek namaz kılmaya başladı. Ancak müslümanların itirazı üzerine durumu Hz. Peygamber’e arzetti. Kendisine bir müddet daha bu uygulamaya devam etmesi emredilince tekrar Kudüs’e yönelerek namaz kıldı. Hz. Peygamber’in hicretinden bir ay önce vefat edeceğini hissedip naaşının Mekke’ye dönük olarak defnedilmesini vasiyet etti. Bir diğer vasiyeti de mallarının üçe taksim edilerek birinin Hz. Peygamber’e verilmesi, birinin Allah yolunda harcanması, birinin de çocuklarına bırakılması idi. Berâ Resûlullah’ın Medine’ye varmasından bir ay önce vefat etti. Hz. Peygamber Medine’ye hicret edip de Berâ’ın vefatını öğrenince kabrine gidip cenaze namazını kıldı ve ona dua etti. Kendisine verilmesini vasiyet ettiği malları da Berâ’ın vârislerine iade etti. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 470 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bera-b-marur",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bera-b-marur, https://islamansiklopedisi.org.tr/bera-b-marur",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:42Z",
+    "modified": "2026-05-04T15:33:42Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bera-b-marur (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hazrecî"
+  ],
+  "death_temporal": {
+    "start_ce": 622,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=bera-b-marur, URL: https://islamansiklopedisi.org.tr/bera-b-marur || DİA death-date string: (ö. 622) || Chunk count: 1"
+}

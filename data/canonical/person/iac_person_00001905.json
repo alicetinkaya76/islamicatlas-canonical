@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00001905",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DAĞSEVEN, Yusuf"
+    },
+    "description": {
+      "tr": "İstanbul Üsküdar’da doğdu. Mutasarrıf Hacı Ali Bey’in oğludur. İlk öğrenimini Doğancılar’daki Fıstıklı Mektebi’nde yaptı. Paşakapısı Rüşdiyesi’ni bitirdikten sonra Edirne İdâdî’sine devam etti. Üçüncü sınıfta iken Müşir Ârif Paşa’nın delâletiyle saraya alındı. Sarayda okuduğu bir ezanı dinleyen Sultan II. Abdülhamid’in takdirini kazanarak müezzinliğe ayrıldı. Bilhassa sesinin güzelliğiyle dikkati çekti ve Muzıka-yi Hümâyun’a girdi. Burada yüzbaşı rütbesine kadar yükseldi. Hayatının son yılları hakkında herhangi bir bilgi elde edilememiştir. Üsküdar’da vefat etti. Muzıkalı Yusuf Bey olarak da tanınan Yusuf Dağseven, devrinde bilhassa hânendeliğiyle şöhret kazanmış mûsikişinaslardandır. İlk mûsiki derslerini hünkâr başmüezzini Miralay Eyyûbî Bahâeddin Bey’den almış, neyzen Hamâmîzâde Osman Bey’den de özellikle dinî eserler meşketmiştir. Mûsikideki temel bilgileri Muzıka-yi Hümâyun’da edindiği ve daha sonra kendisini bu sahada yetiştirdiği anlaşılmaktadır. Hânendeliğinin yanı sıra bestekârlığı ile de bilinen Dağseven bazı şarkı ve ilâhiler bestelemiştir. Zamanımıza bunlardan ancak iki ilâhisi ulaşmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 407-408 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dagseven-yusuf",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dagseven-yusuf, https://islamansiklopedisi.org.tr/dagseven-yusuf",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:50Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dagseven-yusuf (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1871,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=dagseven-yusuf, URL: https://islamansiklopedisi.org.tr/dagseven-yusuf || DİA birth place: Üsküdar || DİA death place: Üsküdar || DİA death-date string: (1871-1945) || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00019778"
+  ],
+  "teachers": [
+    "iac:person-00006229"
+  ]
+}

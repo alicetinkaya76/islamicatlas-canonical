@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00009032",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Rifāʿa",
+      "tr": "İbn er-Rifâe",
+      "ar": "ابن الرفعة"
+    },
+    "originalScript": {
+      "ar": "ابن الرفعة"
+    },
+    "description": {
+      "tr": "Şâfiî fakîhi, Mısır'ın faziletli âlimlerindedir.",
+      "en": "Shāfiʿī jurist, among the distinguished scholars of Egypt."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ahmad b. Muhammad b. ʿAlī al-Ansārī, Abū al-ʿAbbās, Najm al-Dīn Ibn al-Rifāʿa"
+    },
+    "altLabel": {
+      "tr": [
+        "Ahmet b. Muhammed b. Ali el-Ensârî, Ebû'l-Abbâs, Necm ed-Dîn İbn er-Rifâe"
+      ],
+      "ar": [
+        "أحمد بن محمد بن علي الأنصاري، أبو العباس، نجم الدين، المعروف ب ابن الرفعة"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:1078",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1078",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:39Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=1078 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1078."
+      },
+      {
+        "change_type": "deprecate",
+        "note": "h22_003 kişi-dublet birleştirme: aynı normalize Arapça ad 'ابن الرفعه' + aynı ölüm (710 AH / 1310 CE) + ayrık kaynaklar; iac:person-00004312 lehine emekli. PID korunur, geri alınabilir (h22_003 --restore).",
+        "changed_at": "2026-07-20T14:37:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854"
+      }
+    ],
+    "deprecated": true,
+    "deprecated_in_favor_of": "iac:person-00004312"
+  },
+  "death_temporal": {
+    "start_ah": 710,
+    "start_ce": 1310,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1078, heading_ar=ابن الرفعة || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+  "kunya": "أبو العباس"
+}

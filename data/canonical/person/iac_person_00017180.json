@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00017180",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Shaykh al-Rabwa",
+      "tr": "Şeyh er-Rebve",
+      "ar": "شيخ الربوة"
+    },
+    "originalScript": {
+      "ar": "شيخ الربوة"
+    },
+    "description": {
+      "tr": "(Nuhbe-i Dehr fî ʿAcâibi'l-Berr ve'l-Bahr) ve (ed-Durr el-Melteket min ʿIlmi Felâheti'r-Rûm ve'n-Neb",
+      "en": "Author of (Nukhbat al-Dahr fī ʿAjāʾib al-Barr wa-l-Bahr) and (al-Durr al-Multaqaṭ min ʿIlm Felāḥat a"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad b. Abī Ṭālib al-Anṣārī, Shams al-Dīn"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Ebî Tâlib el-Ansârî, Şemsüddîn"
+      ],
+      "ar": [
+        "محمد بن أبي طالب الأنصاري، شمس الدين"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:10103",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10103",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:01Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=10103 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:10103."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 727,
+    "start_ce": 1327,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10103, heading_ar=شيخ الربوة || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 33.51, 36.28",
+  "active_in_places": [
+    "iac:place-00007581"
+  ]
+}

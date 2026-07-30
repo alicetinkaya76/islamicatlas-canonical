@@ -1,0 +1,109 @@
+{
+  "@id": "iac:person-00002112",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBHERÎ, Emînüddin",
+      "ar": "أمين الدين الأبهري"
+    },
+    "originalScript": {
+      "ar": "أمين الدين الأبهري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Saîd Emînüddîn Abdurrahmân b. Ebû Hafs Ömer es-Sivâsî el-Ebherî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Büyük bir ihtimalle 685 (1286) yılında Sivas’ta doğdu. Ünlü mantık, felsefe ve astronomi bilgini Esîrüddin el-Ebherî ’nin torunudur ve muhtemelen bundan dolayı Sivâsî’den çok Ebherî nisbesiyle anılmaktadır. İlk tahsilini Sivas’ta yaptıktan sonra birçok Selçuklu medrese öğrencisi gibi o da Suriye’ye gidip orada okumuş, Dımaşk, Hama ve Halep’te bulunmuştur. Aynı zamanda ünlü bir tarih ve coğrafya bilgini olan Hama Meliki Ebü’l-Fidâ kendisine büyük değer vermiş ve himayesine alarak maaş bağlatmıştı. Ebherî’nin, melikin ölümü ve kendisinin de Hamalılar tarafından dine karşı lâubaliliğinden ötürü zındıklıkla suçlanması üzerine Halep’e gittiği ve orada bir yandan talebe okuturken bir yandan da tabip olarak görevlendirildiği bîmâristan da hastaları tedavi ettiği, ayrıca Şâfiî fıkhında otorite sayıldığı için dârüladlde davalara baktığı bilinmektedir; Dımaşk’ta bulunduğu dönem hakkında ise herhangi bir bilgi yoktur. Halep’e geldiğinin ertesi yılı kırk sekiz yaşında iken vefat etti. Daha ziyade tıp , aritmetik, geometri ve astronomi alanlarında üne kavuşmuş olan Ebherî’nin astronomik gözlem aletlerinin yapımında da usta olduğu anlaşılmaktadır. İbn Hacer’in kaydettiğine göre devrin önde gelen âlimlerinden Adudüddin el-Îcî ile çeşitli konularda tartışmaları olmuştur. Eserleri. 1. Fuṣûl kâfiye fî ḥisâbi’t-taḫt ve’l-mîl . Matematik alanındaki bu eser on fasıl halinde tertip edilmiştir. 2. Levâmiʿu’l-vesâʾil fî meṭâliʿi’r-resâʾil . Astronomideki gözlem aletlerini konu alan eser bir mukaddime, dört makale ve bir hâtimeden oluşmaktadır (bu iki eserin yazma nüshaları için bk. Brockelmann, I, 625; II, 273). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 75 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "physician",
+    "mathematician",
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebheri-eminuddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebheri-eminuddin, https://islamansiklopedisi.org.tr/ebheri-eminuddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ebheri-eminuddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ebheri-eminuddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:54Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebheri-eminuddin (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ebheri-eminuddin)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sivâsî; Ebherî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 685,
+    "start_ce": 1286,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 733,
+    "start_ce": 1333,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebheri-eminuddin, URL: https://islamansiklopedisi.org.tr/ebheri-eminuddin || DİA birth place: Sivas || DİA death place: Dımaşk || DİA death-date string: (ö. 733/1333) || DİA categories: astronomi > tıp > felsefe || Chunk count: 1",
+  "birth_place": "iac:place-00015096",
+  "students": [
+    "iac:person-00002348"
+  ]
+}

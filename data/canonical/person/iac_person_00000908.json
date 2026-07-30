@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000908",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALÂ b. VEHB",
+      "ar": "العلاء بن وهب"
+    },
+    "originalScript": {
+      "ar": "العلاء بن وهب"
+    },
+    "altLabel": {
+      "tr": [
+        "el-Alâ’ b. Vehb b. Muhammed el-Kureşî el-Âmirî"
+      ]
+    },
+    "description": {
+      "tr": "Kureyş kabilesinin Âmir b. Lüey koluna mensuptur. Mekke’nin fethinden sonra müslüman oldu ve Hz. Ömer zamanında Sâsânîler ile yapılan Kādisiye Savaşı’na katıldı. Hz. Osman döneminde bir ara Kûfe valiliği yapan Sa‘d b. Ebû Vakkās, onu vilâyet sınırları içinde kalan Mâh ve Hemedan yöresinin idaresine memur etti. Bölge halkının çıkardığı bir isyanı bastırarak onları itaat altına aldı. İyi bir idareci olduğu anlaşılınca Hz. Osman tarafından Cezîre valiliğine tayin edildi. Yaklaşık 32 (652-53) yılına kadar bu görevde kaldı. Bir süre de Rakka’da idarecilik yaptıktan sonra burada vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 311 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ala-b-vehb",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ala-b-vehb, https://islamansiklopedisi.org.tr/ala-b-vehb",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:6888",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6888, heading_ar=العلاء بن وهب",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ala-b-vehb (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6888]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6888 (heading_ar=العلاء بن وهب) via Track A (DİA→Alam xref bridge). dt=Emir, sahâbî, Fetih günü İslâm'a girdi."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Âmirî"
+  ],
+  "death_temporal": {
+    "start_ah": 35,
+    "start_ce": 655,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ala-b-vehb, URL: https://islamansiklopedisi.org.tr/ala-b-vehb || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6888] || DİA death place: Rakka || DİA death-date string: (ö. 35/655-56) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6888, heading_ar=العلاء بن وهب, dt=Emir, sahâbî, Fetih günü İslâm'a girdi."
+}

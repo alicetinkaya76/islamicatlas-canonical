@@ -1,0 +1,99 @@
+{
+ "@id": "iac:person-00011830",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Abū al-Walīd al-Bājī",
+   "tr": "Ebû'l-Velîd el-Bâcî",
+   "ar": "أبو الوليد الباجي"
+  },
+  "originalScript": {
+   "ar": "أبو الوليد الباجي"
+  },
+  "description": {
+   "tr": "Büyük Mâlikî fakîhi, hadis âlimleri arasından",
+   "en": "A great Malikite jurist, from the hadith scholars"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Sulaymān b. Khalaf b. Saʿd al-Tajībī al-Qurṭubī, Abū al-Walīd al-Bājī"
+  },
+  "altLabel": {
+   "tr": [
+    "Süleymân b. Hâlef b. Sa'd et-Tüceybî el-Kurtubî, Ebû'l-Velîd el-Bâcî"
+   ],
+   "ar": [
+    "سليمان بن خلف بن سعد التجيبي القرطبي، أبو الوليد الباجي"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:4173",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=4173",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:04Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:04Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=4173 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 4 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:4173."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1268-11830) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001268 lehine yumuşak-silindi. Gerekçe: Ebü'l-Velîd el-Bâcî'nin künyesi, Bâce (Béja) nisbesi ve birebir aynı ölüm yılı (1081) tek kişiyi gösteriyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001268"
+ },
+ "death_temporal": {
+  "start_ah": 474,
+  "start_ce": 1081,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=4173, heading_ar=أبو الوليد الباجي || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 36.73, 9.18",
+ "active_in_places": [
+  "iac:place-00001295",
+  "iac:place-00003525",
+  "iac:place-00009538",
+  "iac:place-00011197"
+ ],
+ "kunya": "أبو الوليد"
+}

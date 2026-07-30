@@ -1,0 +1,98 @@
+{
+ "@id": "iac:person-00017452",
+ "@type": [
+  "iac:Person",
+  "iac:Ruler"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Mahdī Ibn Tūmart",
+   "tr": "Mehdî İbn Tümer",
+   "ar": "المهدي ابن تومرت"
+  },
+  "originalScript": {
+   "ar": "المهدي ابن تومرت"
+  },
+  "description": {
+   "tr": "Magreb kralı Abdülmümin b. Ali'nin sultanı için dava sahibi ve Muvahhidî devletinin temelleri koyucu",
+   "en": "Supporter of the claim of ʿAbd al-Muʾmin b. ʿAlī, king of the Maghreb, and founder of the Muwahhid s"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muḥammad b. ʿAbdallāh b. Tūmart al-Masmuddī al-Barbarī, Abū ʿAbdallāh, al-Mahdī, called Mahdī of the Muwahhids"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. Abdullâh b. Tümer el-Masmuddî el-Berberî, Ebû Abdullâh, el-Mehdî, Muvahhidîn'in Mehdîsi denilen"
+   ],
+   "ar": [
+    "محمد بن عبد الله بن تومرت المصمودي البربري، أبو عبد الله، المتلقببالمهدي، ويقال له مهدي الموحدين"
+   ]
+  }
+ },
+ "profession": [
+  "ruler"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:10408",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10408",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:37:05Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:37:05Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:37:05Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=10408 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:24Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 3 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:10408."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (4057-17452-20723) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00020723 lehine yumuşak-silindi. Gerekçe: Üç kayıt da 524/1130'da ölen Muvahhidler'in kurucusu Mehdî Muhammed b. Tûmert'i gösteriyor; \"scholar\" ve \"ruler\" rolleri onun hem fakih hem mehdî-hükümdar kimliğinin iki yüzüdür."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00020723"
+ },
+ "death_temporal": {
+  "start_ah": 524,
+  "start_ce": 1130,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10408, heading_ar=المهدي ابن تومرت || Ziriklī century_ce=12 || Ziriklī place coords (city/region of activity): 21.39, 39.86",
+ "active_in_places": [
+  "iac:place-00001474",
+  "iac:place-00011287",
+  "iac:place-00011505"
+ ],
+ "kunya": "أبو عبد الله"
+}

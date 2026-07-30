@@ -1,0 +1,129 @@
+{
+  "@id": "iac:person-00003775",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN EBÜ’l-FEVÂRİS",
+      "ar": "ابن أبي الفوارس"
+    },
+    "originalScript": {
+      "ar": "ابن أبي الفوارس"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Feth Muhammed b. Ahmed b. Muhammed el-Bağdâdî"
+      ],
+      "ar": [
+        "أبو الفوارس"
+      ]
+    },
+    "description": {
+      "tr": "21 Şevval 338’de (13 Nisan 950) doğdu. Büyük dedesi Ebü’l-Fevâris Sehl’e nisbetle İbn Ebü’l-Fevâris diye tanındı. Sekiz yaşında hadis öğrenmeye başlayan İbn Ebü’l-Fevâris ilk derslerini Ebû Bekir en-Neccâd’dan aldı. Daha sonra Basra’ya, oradan İran’a ve Horasan’a gitti. Muhammed b. Hasan en-Nakkāş, Ebû Bekir eş-Şâfiî, Ebû Ali İbnü’s-Savvâf, Ahmed b. Fazl b. Huzeyme, Ca‘fer el-Huldî ve Da‘lec b. Ahmed başta olmak üzere birçok âlimden hadis rivayet etti. Kendisinden de Mâlînî, Berkānî, Lâlekâî, Ebû Ya‘lâ el-Ferrâ, Ebü’l-Hüseyin İbnü’l-Mühtedî-Billâh ve İbnü’l-Bennâ el-Bağdâdî hadis tahsil etti. Bağdat’ta Rusâfe Camii’nde hadis imlâ ederken Hatîb el-Bağdâdî de kendisinden faydalandı ve onun bazı rivayetlerini huzurunda okudu. Hocalarından derlediği seçme hadisleri rivayet etmesiyle tanınan İbn Ebü’l-Fevâris 16 Zilkade 412 (21 Şubat 1022) tarihinde vefat etti ve Bâbü Harb Mezarlığı’nda Ahmed b. Hanbel’in mezarının yakınına defnedildi. Hatîb el-Bağdâdî İbn Ebü’l-Fevâris’i kültürlü, hâfızası kuvvetli, dürüst ve sika bir muhaddis olarak nitelendirmiş, dindar ve faziletli bir kimse olduğunu belirtmiştir. İbn Ebü’l-Fevâris’in çok miktarda hadis yazdığı ve bunları muhtelif kitaplarda topladığı belirtilmekteyse de Ebû Tâhir Muhallis Muhammed b. Abdurrahman’ın (ö. 393/1003) rivayetlerinden seçmeler yaptığı el-Fevâʾidü’l-münteḳātü’l-ʿavâlî adlı eseriyle (Dârü’l-kütübi’z-Zâhiriyye, Mecmua, nr. 2, vr. 84 a -89 b , nr. 21/4, vr. 137 a -258 b , nr. 46, vr. 243 a -262 a , nr. 72/5 [kısım 6], nr. 97, vr. 140 a -251 a ) çeşitli hadisleri ihtiva eden bir cüzü (Dârü’l-kütübi’z-Zâhiriyye, Mecmua, nr. 110/2) dışında bunlar hakkında bilgi yoktur (Sezgin, I, 226). Müellifin yine İbn Ebü’l-Fevâris diye anılan ve sâlih bir kişi olduğu belirtilen kardeşi Ali’nin de hadis tahsil ettiği, ancak herhangi bir rivayette bulunmadan vefat ettiği zikredilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 463 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-ebul-fevaris",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-ebul-fevaris, https://islamansiklopedisi.org.tr/ibn-ebul-fevaris",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:1353",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=1353, heading_ar=أبو الفوارس",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:18Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:18Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-ebul-fevaris (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[1353]. Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=1353 (heading_ar=أبو الفوارس) via Track A (DİA→Alam xref bridge). dt=İsmâiliyye davetçilerinden"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 412,
+    "start_ce": 1022,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-ebul-fevaris, URL: https://islamansiklopedisi.org.tr/ibn-ebul-fevaris || El-Aʿlām (Ziriklī) cross-reference: alam_id=[1353] || DİA death-date string: (ö. 412/1022) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=1353, heading_ar=أبو الفوارس, dt=İsmâiliyye davetçilerinden",
+  "active_in_places": [
+    "iac:place-00007893",
+    "iac:place-00011312",
+    "iac:place-00004180"
+  ],
+  "teachers": [
+    "iac:person-00001672",
+    "iac:person-00001915",
+    "iac:person-00002146",
+    "iac:person-00003689",
+    "iac:person-00004286",
+    "iac:person-00005982",
+    "iac:person-00006037"
+  ],
+  "students": [
+    "iac:person-00001478",
+    "iac:person-00002192",
+    "iac:person-00002298",
+    "iac:person-00004145",
+    "iac:person-00005079",
+    "iac:person-00005214"
+  ]
+}

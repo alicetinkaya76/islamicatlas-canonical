@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00001902",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DAĞFEL b. HANZALE",
+      "ar": "دغفل بن خنظلة"
+    },
+    "originalScript": {
+      "ar": "دغفل بن خنظلة"
+    },
+    "altLabel": {
+      "tr": [
+        "Dağfel b. Hanzale b. Zeyd es-Sedûsî eş-Şeybânî ez-Zühlî"
+      ]
+    },
+    "description": {
+      "tr": "Asıl adının Hacer, lakabının Dağfel olduğu da söylenmektedir. Hayatı hakkında fazla bilgi yoktur. Mevcut bilgilerin de daha çok onun sahâbî olup olmadığı hususunda yoğunlaştığı görülmektedir. Buhârî, Ahmed b. Hanbel, Tirmizî gibi muhaddisler Dağfel’in sahâbî olmadığını ve Hz. Peygamber’den hadis rivayet etmediğini belirtmekte, Berdîcî ile İbn Hibbân ise onun sahâbî olduğunda şüphe etmemektedirler. Halîfe b. Hayyât, Dağfel’i Basralı tâbiîn arasında zikreder. Ancak hayatı hakkındaki bilgilerin sahâbe tabakatına dair eserlerde yer almasından, müelliflerin onun sahâbî olduğunu kabul ettikleri anlaşılmaktadır. Dağfel’in ensâb konusunda ileri derecede bilgiye sahip olduğu söylenebilir. İbn Sîrîn onun âlim olduğunu, ancak nesep konusundaki bilgisinin daha ağır bastığını söylemekte, aynı hususu İbn Sa‘d da ifade etmektedir. Emevî Halifesi Muâviye b. Ebû Süfyân bu bilgisi dolayısıyla onu oğlu Yezîd’e hoca tayin etmiştir. Dağfel b. Hanzale, Hâricîler’le yapılan Devlâb (Dûlâb) Savaşı’nda ölmüştür. Eserleri. 1. es-Sîre ʿan Daġfel eş-Şeybânî . Geçmiş milletler ve hükümdarların kıssalarını anlatarak başta hükümdarlar olmak üzere devlet adamlarının bunlardan ibret almalarını, böylece ülkelerini hak ve adaletten ayrılmadan idare etmelerini sağlamak için yapılan tavsiye ve nasihatleri ihtiva eden siyâsetnâme (siyerü’l-mülûk) türünde bir eserdir. Dağfel’e aidiyeti tartışmalı olan bu eserin 549 (1154) yılında istinsah edilen birinci cüzünün bir nüshası, baştan iki sayfası eksik ve çok yıpranmış halde Milano Ambrosiana Kütüphanesi’nde bulunmaktadır (G3, vr. 1 b -64 a ). 2. Kitâbü’t-Teẓâfür ve’t-tenâṣur . Muâviye’nin huzurunda yapılan yedi sohbeti ihtiva etmektedir. Bu eserden yapılan bir iktibas, içinde on yedi risâlenin yer aldığı et-Tuḥfetü’l-behiyye ’nin Kelimât muḫtâre adlı üçüncü risâlesinde yer almaktadır (İstanbul 1302, s. 38). Dağfel’in ayrıca günümüze ulaşmayan et-Teşcîr adında bir eseri daha bulunduğu belirtilmektedir (Sezgin, I, 264). Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 403-404 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dagfel-b-hanzale",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dagfel-b-hanzale, https://islamansiklopedisi.org.tr/dagfel-b-hanzale",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:dagfel-b-hanzale",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=dagfel-b-hanzale",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:50Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dagfel-b-hanzale (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=dagfel-b-hanzale)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sedûsî; Şeybânî; Zühlî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 65,
+    "start_ce": 685,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dagfel-b-hanzale, URL: https://islamansiklopedisi.org.tr/dagfel-b-hanzale || DİA death-date string: (ö. 65/685) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "students": [
+    "iac:person-00007718"
+  ]
+}

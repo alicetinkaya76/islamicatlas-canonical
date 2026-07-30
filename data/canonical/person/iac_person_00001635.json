@@ -1,0 +1,109 @@
+{
+  "@id": "iac:person-00001635",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BÛŞENCÎ, Muhammed b. İbrâhim",
+      "ar": "محمد بن ابراهيم البوشنجي"
+    },
+    "originalScript": {
+      "ar": "محمد بن ابراهيم البوشنجي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. İbrâhîm b. Saîd el-Bûşencî"
+      ]
+    },
+    "description": {
+      "tr": "204 (819) yılında doğdu. İlk tahsiline Herat yakınlarındaki Bûşenc kasabasında Kur’ân-ı Kerîm’i ezberleyerek başladı. Daha sonra hadis öğrenmek için Kûfe, Bağdat, Basra, Dımaşk, Hicaz ve Mısır’da yıllarca kalarak zamanının ileri gelen âlimlerinden hadis ve fıkıh okudu. Ahmed b. Hanbel, Yahyâ b. Bükeyr, Müsedded b. Müserhed, İsmâil b. Ebû Üveys, Saîd b. Mansûr gibi âlimlerden rivayette bulundu. Dâvûd ez-Zâhirî Bûşencî’yi tanıdığı zaman son derece takdir etmiş ve yanındaki öğrencilerine onu kendisinden istifade edilen, fakat kendisi kimseden faydalanma ihtiyacında olmayan bir âlim diye takdim etmiştir. Tahsilini tamamladıktan sonra yurduna dönen Bûşencî, Horasan’ın en önemli ilim merkezleri olan Nîşâbur, Merv ve Semerkant’ta, bir süre de Buhara’da hadis okuttu. Kendisinden hadis rivayet edenlerden Muhammed b. İshak es-Sâgānî, İbn Huzeyme, Büştî, Da‘lec b. Ahmed, Ebü’l-Abbas ed-Degūlî, İbn Nüceyd zikredilebilir. Yaşça büyük, hadis ilminde de ondan daha üstün olan Buhârî el-Câmiʿu’ṣ-ṣaḥîḥ ’inde Bûşencî’den bir hadis rivayet etmiştir (“Tefsîr”, 5/165). Rivayet ettiği hadisleri ezbere bilmesiyle de tanınan Bûşencî’nin hadislerdeki nâdir (garîb) kelimeleri ve anlaşılması güç yerleri açıklamakta büyük mahareti vardı. Geniş bir fıkıh kültürüne sahipti. Maddî bakımdan hayli cömert olmakla beraber ilmini esirger, her müracaat edeni talebeliğe kabul etmezdi. Devrindeki âlimlerin takdirini kazanmış sika bir muhaddis olan Bûşencî’nin rivayetleri güvenilir hadis kaynaklarında mevcuttur. Her ne kadar onun bazı eserleri telif ettiği söylenirse de fıkha dair olduğu anlaşılan Kitâbü’l-Meṭâʿim (bk. Abbâdî, s. 47) adlı eserinden başka hiçbir kitabına kaynaklarda rastlanmaz. Ṭabaḳātü’l-Ḥanâbile ’de Bûşencî’nin Hanbelî olduğu kaydedilmekle beraber Zehebî ve Safedî onun Mâlikî olduğunu söylemekte, İbn Hacer ise Şâfiîliğinin şüphe götürmediğini ifade etmektedir. Bûşencî Nîşâbur’da vefat etmiş, cenaze namazını talebesi meşhur muhaddis İbn Huzeyme kıldırmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 476 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:busenci-muhammed-b-ibrahim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=busenci-muhammed-b-ibrahim, https://islamansiklopedisi.org.tr/busenci-muhammed-b-ibrahim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:busenci-muhammed-b-ibrahim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/busenci-muhammed-b-ibrahim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:45Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=busenci-muhammed-b-ibrahim (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bûşencî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 204,
+    "start_ce": 819,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 291,
+    "start_ce": 904,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=busenci-muhammed-b-ibrahim, URL: https://islamansiklopedisi.org.tr/busenci-muhammed-b-ibrahim || DİA death place: Nîşâbur || DİA death-date string: (ö. 291/904) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000753",
+    "iac:person-00004559",
+    "iac:person-00005853",
+    "iac:person-00006609"
+  ],
+  "students": [
+    "iac:person-00001915",
+    "iac:person-00001971",
+    "iac:person-00003875",
+    "iac:person-00003979"
+  ]
+}

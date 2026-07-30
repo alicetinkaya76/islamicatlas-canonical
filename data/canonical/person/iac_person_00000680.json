@@ -1,0 +1,61 @@
+{
+  "@id": "iac:person-00000680",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜSSELÂM EFENDİ, Mardînî"
+    },
+    "description": {
+      "tr": "Mardin’de doğdu. Babası Seyyid Ömer Efendi’dir. Tahsilini Mardin, Diyarbekir, Halep, Şam, Mısır ve İstanbul’da tamamladı. Daha sonra Mardin’e dönerek müftülük yaptı, ayrıca öğretimle de meşgul oldu. Hayatı hakkında fazla bilgi bulunmayan ve Mâridînî diye de anılan Abdüsselâm Efendi vefatında Tekke mahallesindeki İbrâhim Bey hazîresine defnedildi. Abdüsselâm Efendi’nin henüz basılmamış olan on beş kadar eseri vardır. Bir kısmı risâle hacminde olan eserlerinin başlıcaları şunlardır: 1. Ümmü’l-ʿiber fî ẕikri men meżâ ve mer . Mardin, Diyarbekir ve yöresiyle Kürt kabilelerinin ahlâk ve yaşayışından, bilhassa Yezîdîler’in durumundan bahseden eser, mahallî tarih açısından büyük bir önem taşımaktadır. Eserin bir nüshası İstanbul Üniversitesi Kütüphanesi’nde (AY, nr. 44) bulunmaktadır. 2. Fâtiha Tefsiri . Tamamen noktasız harflerle yazdığı bu sanatkârane eserini Bağdat Valisi Ali Rızâ Paşa’ya takdim etmiştir. 3. el-Ḳīrâṭıyye . Ferâize dair biri küçük, diğeri büyük iki eserdir. 4. Esmâʾü ricâli’l-ḥadîs̱ . Hadis râvilerinin hal tercümeleriyle ilgili bir kitaptır. Bunlardan başka edebiyat ve mantık ilimlerine dair çalışmaları da vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 300-301 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdusselam-efendi-mardini",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdusselam-efendi-mardini, https://islamansiklopedisi.org.tr/abdusselam-efendi-mardini",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:44Z",
+    "modified": "2026-05-04T15:39:39Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdusselam-efendi-mardini (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1786,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdusselam-efendi-mardini, URL: https://islamansiklopedisi.org.tr/abdusselam-efendi-mardini || DİA birth place: Mardin || DİA death place: İstanbul || DİA death-date string: (1786-1843) || DİA categories: hadis > tefsir > mantık || Chunk count: 1",
+  "death_place": "iac:place-00000735"
+}

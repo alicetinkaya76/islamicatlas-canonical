@@ -1,0 +1,111 @@
+{
+ "@id": "iac:person-00000350",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Al-Mas'udi",
+   "tr": "Mes'ûdî",
+   "ar": "المسعودي"
+  },
+  "originalScript": {
+   "ar": "المسعودي"
+  },
+  "altLabel": {
+   "en": [
+    "Abu al-Hasan Ali ibn al-Husayn al-Mas'udi"
+   ],
+   "tr": [
+    "Ebü'l-Hasan Ali b. Hüseyin el-Mes'ûdî"
+   ],
+   "ar": [
+    "أبو الحسن علي بن الحسين المسعودي"
+   ]
+  },
+  "description": {
+   "tr": "Coğrafya, bilim ve antropolojiyi bütünleştiren ansiklopedik dünya tarihi; \"Arapların Herodotos\"u || Bağdatlı tarihçi ve coğrafyacı; Mürûcü'z-Zeheb (Altın Çayırlar) ansiklopedik eseriyle İslam tarih yazıcılığının Herodotos'u sayılır. Doğa tarihi, etnografya ve coğrafyayı sentezledi. || [Tarih notu] Ahmad, Mes'ûdî'nin yöntemsel yenilikçiliğini — doğrudan gözlem, karşılaştırmalı analiz — vurgulamıştır. Pellat'ın Fransızca çevirisi temel referanstır.",
+   "en": "Encyclopedic world history integrating geography, science, and anthropology; called \"Herodotus of the Arabs\" || Called the \"Herodotus of the Arabs\"; traveled from Spain to India and China gathering knowledge || [Historiographical note] First historian to integrate natural science, geography, and anthropology into historical narrative",
+   "ar": "مؤرخ وجغرافي بغدادي؛ يُعدّ هيرودوتس التأريخ الإسلامي بموسوعته مروج الذهب. جمع التاريخ الطبيعي والإثنوغرافيا والجغرافيا في تركيب واحد. || [Historiographical note] أبرز أحمد الابتكار المنهجي للمسعودي — الملاحظة المباشرة والتحليل المقارن. وتُعدّ ترجمة بيلاّ الفرنسية المرجع الأساسي."
+  }
+ },
+ "profession": [
+  "historian",
+  "geographer",
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0176",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0176",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   },
+   {
+    "source_id": "scholars:353",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=353",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-07-12T14:48:04Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0176 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (212-350-5485-14419) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000212 lehine yumuşak-silindi. Gerekçe: Dördü de Mürûcü'z-zeheb müellifi Ali b. Hüseyin el-Mes'ûdî'dir (ö. 956/957, Bağdat)."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000212"
+ },
+ "birth_temporal": {
+  "start_ce": 896,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 956,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0176, lecture_week=n/a. || Key works: {'title': {'en': 'Muruj al-Dhahab (Meadows of Gold)', 'tr': \"Mürûcü'z-Zeheb\"}, 'year': 947, 'field': 'history', 'significance': {'en': 'Encyclopedic world history integrating geography, science, and anthropology; called \"Herodotus of the Arabs\"', 'tr': 'Coğrafya, bilim ve antropolojiyi bütünleştiren ansiklopedik dünya tarihi; \"Arapların Herodotos\"u'}} || Modern parallel: Like a data journalist who travels the world and builds the definitive cross-referenced database",
+ "active_in_places": [
+  "iac:place-00009399"
+ ],
+ "authored_works": [
+  "iac:work-00000209"
+ ]
+}

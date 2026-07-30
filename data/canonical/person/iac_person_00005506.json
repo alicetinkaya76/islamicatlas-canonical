@@ -1,0 +1,100 @@
+{
+  "@id": "iac:person-00005506",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mevvâk",
+      "ar": "الموّاق"
+    },
+    "originalScript": {
+      "ar": "الموّاق"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Yûsuf b. Ebi’l-Kāsım el-Mevvâk el-Abderî el-Gırnâtî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatına dair fazla bilgi yoktur. Ebû Yahyâ İbn Âsım, Ebü’l-Kāsım İbn Sirâc, Ebû Abdullah el-Mintûrî ve Muhammed b. Yûsuf es-Sannâ’dan öğrenim gördü ve devrinin tanınmış âlimlerinden biri oldu. Gırnata’da (Granada) müftülük ve hatiplik görevlerinde bulundu. Talebeleri arasında Ahmed b. Muhammed ed-Dükūn es-Sanhâcî, Zekkāk, Ebü’l-Ferec Abdullah b. Ahmed el-Gırnâtî, Muhammed b. Ahmed es-Sülemî el-Ci‘dâlle ve Ahmed b. Dâvûd’un adları anılmaktadır. Mevvâk, Gırnata’nın hıristiyanların eline düştüğü 897 yılı Şâbanında (Haziran 1492) ileri bir yaşta vefat etti. Eserleri. 1. et-Tâc ve’l-iklîl ʿalâ (bi-şerḥi) Muḫtaṣarı Ḫalîl . Halîl b. İshak el-Cündî’nin Mâlikî fıkhının temel metinlerinden olan el-Muḫtaṣar ’ına yazılmış en yaygın şerhlerden biridir; Hattâb’ın Mevâhibü’l-celîl adlı şerhiyle birlikte basılmıştır (Kahire 1328-1329, 1331). Müellif el-Muḫtaṣar ’ın diğer şerhlerinde görülmeyen bir metot izlemiş, asıl metnin ibaresini verdikten sonra izahına geçmeyerek zikredilen görüşe uygun veya aykırı diğer görüşleri kaynaklardan olduğu gibi nakletmiş, bazan da sonunda kendi itirazlarına yer vermiştir. Bedreddin el-Karâfî kimseye atıfta bulunulmayan ifadelerin de müellife ait olabileceğini belirtir. Ahmed Bâbâ et-Tinbüktî, İbn Gāzî el-Miknâsî’nin el-Muḫtaṣar ’a yazdığı şerhte önemli ölçüde Mevvâk’ın eserine dayandığını ve onun anlaşılması zor yerlerini açıkladığını söyler. Muhtasar geleneğinin ortaya çıkmasından önceki Mâlikî kaynaklarına dönülmesini teşvik eden Fas Sultanı Mevlây Muhammed’in (ö. 1240/1824-25) medrese öğretiminde esas alınacak metinleri belirleyen ve Halîl b. İshak’ın el-Muḫtaṣar ’ının ancak bir şerhle birlikte okunmasına müsaade eden fermanında andığı beş şerhten biri de et-Tâc ve’l-İklîl ’di ( Ṭabaḳu’l-erṭâb , neşredenin girişi, s. 57). Mevvâk’ın eserinde lafız tahlillerinden çok mezhebin temel kaynaklarından nakillerde bulunması bu tercihte etkili olmuş görünmektedir. Mevvâk el-Muḫtaṣar ’a ayrıca bundan daha küçük bir şerh yazmıştır. 2. Sünenü’l-mühtedîn fî (ilâ) maḳāmâti’d-dîn (Fas 1314). Fâtır sûresinin 32. âyetinin tefsiri olup müellifin fıkıh, fıkıh usulü, tasavvuf ve diğer konulardaki geniş bilgisini yansıtmaktadır. 3. Fihrist . Ahmed Bâbâ et-Tinbüktî talebesi Ahmed ed-Dükūn’un ondan bu eseri rivayet ettiğini kaydeder ( Neylü’l-ibtihâc , I, 136). 4. el-Furûḳ (Ebû Ca‘fer Ahmed b. Ali el-Belevî, s. 190). Ahmed b. Yahyâ el-Venşerîsî Kuzey Afrika ve Endülüs Mâlikî ulemâsının fetvalarını derlediği el-Miʿyârü’l-muʿrib adlı eserinde Mevvâk’ın da birçok fetvasına yer vermiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2004 yılında Ankara’da basılan 29. cildinde, 492 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mevvak",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mevvak, https://islamansiklopedisi.org.tr/mevvak",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:mevvak",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=mevvak",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mevvak (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=mevvak)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Abderî; Gırnâtî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 897,
+    "start_ce": 1492,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mevvak, URL: https://islamansiklopedisi.org.tr/mevvak || DİA death-date string: (ö. 897/1492) || DİA categories: fıkıh > fetva > tefsir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003660",
+    "iac:person-00004034",
+    "iac:person-00005198",
+    "iac:person-00005538"
+  ],
+  "students": [
+    "iac:person-00004175",
+    "iac:person-00007812"
+  ]
+}

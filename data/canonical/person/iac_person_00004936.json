@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00004936",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Kivâmî",
+      "ar": "قوامى"
+    },
+    "originalScript": {
+      "ar": "قوامى"
+    },
+    "altLabel": {
+      "tr": [
+        "Fetihnâme-i Sultan Mehmed adlı eseriyle tanınan XV. yüzyılda yaşamış müellif."
+      ]
+    },
+    "description": {
+      "tr": "Kaynaklarda birkaç şaire ait olduğu belirtilen Kıvâmî mahlasını kullananların en eskisi ve en meşhuru, hayatı hakkında yeterli bilgi bulunmayan ve Fetihnâme-i Sultan Mehmed ’in yazarı olan Kıvâmî’dir. Franz Babinger, Kıvâmî ve Fetihnâme ile ilgili bir önsözle birlikte 1955 yılında tıpkıbasımını yayımladığı bu eseri o döneme ait yeni bir kaynak diye sunmaktadır (neşredenin girişi, s. VIII). Burada Kıvâmî hakkında verilen bilgiler onu tanıtacak kadar açık değildir. Fetihnâme ’de Kıvâmî mahlası üç yerde geçmekte (s. 76/2, 289/12, 317/10) ve eserin 895 (1490) yılında tamamlandığı belirtilmektedir (s. 319). Kıvâmî’nin kimliğiyle ilgili tesbit çalışmasında F. Babinger, 1478-1511 yıllarında hayatta olduğu bilinen Defterdar Kıvâmüddin Kasım Efendi’yi eserin müellifi olarak kabul etmiştir ( a.g.e. , neşredenin girişi, s. VI). Sehî Bey Tezkire ’sinde Kıvâmî için, “Geliboluludur; şiiri latif, kendisi zarif, gönül ehli, gazelleri çok, her çeşit nazma kadir kimsedir” dedikten sonra şiirlerinden iki beyti örnek vermiştir (s. 208-209). Riyâzî de Gelibolulu olduğunu belirttiği bu şairden tezkiresine bir beyit almıştır ( Riyâzü’ş-Şuarâ , vr. 124 b ). Mehmed Süreyyâ ise, I. Ahmed döneminin (1603-1617) sonlarında vefat etmiş Gelibolulu bir başka Kıvâmî’den söz etmektedir. Fâtih Sultan Mehmed’in seferlerine katıldığı ve âlim bir şahsiyet olduğu kendi eserinden öğrenilen Kıvâmî’nin Fâtih için bir fetihnâme yazma arzusunu II. Bayezid’e söylediği, yazdığı birkaç bölümü ona okuduğu ve çalışmasını tamamlaması için emir aldığı anlaşılmaktadır. Kitabın yirmi beş bölümü Fâtih dönemine, geri kalan üç bölüm II. Bayezid’in ilk yıllarına aittir ( a.g.e. , neşredenin girişi, s. V). Eserde tahmîd, münâcât, na‘t ve Fâtih Sultan Mehmed’in methine dair bir kasideden sonra İstanbul’un fethinin anlatımına geçilmiştir. Nazım-nesir karışık olan kitabın aruzla yazılmış 108 manzumelik kısmı edebî değer bakımından daha üstündür. Fetihnâme ’nin kaynaklarını “Tevârîh-i Âl-i Osmân”lar oluşturmuş ve eser Tursun Bey’in kitabına kaynaklık etmiştir. Fetihnâme ’nin tek yazma nüshası Berlin Staatsbibliothek’te bulunmaktadır (MS, Or., nr. 4 o 1975). Bu yazma üzerinde Sait Gökçe 1954 yılında Münih Üniversitesi’nde bir doktora çalışması yapmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2022 yılında Ankara’da basılan 25. cildinde, 506 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kivami",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kivami, https://islamansiklopedisi.org.tr/kivami",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:34Z",
+    "modified": "2026-05-04T15:34:34Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kivami (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 895,
+    "start_ce": 1490,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kivami, URL: https://islamansiklopedisi.org.tr/kivami || Chunk count: 1"
+}

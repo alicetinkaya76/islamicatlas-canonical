@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00002076",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Duhânî Şerif Çelebi"
+    },
+    "description": {
+      "tr": "Bursa’da doğdu ve gençlik yıllarını burada geçirdi. Öğrenimi ve yetişmesi hakkında kaynaklarda yeterli bilgi yoktur. Bursa’da Özbek Çarşısı’nda tütüncülük yaptığı için “Duhânî” lakabı ile şöhret bulmuştur. Zamanın üstatlarından dinî ve din dışı eserler meşkederek kendisini yetiştirdi. Repertuvarının zenginliği ve sesinin güzelliğinden dolayı mûsiki toplantılarının aranılan kişisi oldu. 1801’de Bursa’da meydana gelen büyük yangında dükkânı yanınca İstanbul’a gitti. Üsküdar’da Aziz Mahmud Hüdâyî Hankahı yakınlarında bir ev satın aldı; Kapalı Çarşı’daki Cevâhir Bedesteni’nde ticaretle uğraşmaya başladı. Bu sırada Celvetiyye tarikatına intisap etti ve Aziz Mahmud Hüdâyî Hankahı’nda uzun seneler zâkirlik yaptı. Ziyaret için gittiği Bursa’da 23 Rebîülevvel 1247 (1 Eylül 1831) tarihinde vefat edince orada Üftâde Türbesi yanındaki hazîreye gömüldü. Devrinin tanınmış zâkir ve mevlidhanları arasında yer alan Şerif Çelebi, aynı zamanda bestelediği eserler ve yetiştirdiği talebelerle de şöhret bulmuştur. Özellikle dinî sahada bestelediği na‘t, durak ve ilâhilerine el yazması güfte mecmualarında rastlanmaktadır; bu eserler arasında bilhassa Bursalı İsmâil Hakkı’ya ait güftelerin çokluğu dikkati çekmektedir. Fakat bu dinî eserlerden ancak iki ilâhisinin notası tesbit edilebilmiştir. Yetiştirdiği talebeler arasında, sonradan Aziz Mahmud Hüdâyî Hankahı’nda kırk dokuz yıl şeyhlik yapan Mehmed Rûşen Efendi (ö. 1891) en tanınmış olanıdır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 548-549 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:duhani-serif-celebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=duhani-serif-celebi, https://islamansiklopedisi.org.tr/duhani-serif-celebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:duhani-serif-celebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/duhani-serif-celebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:53Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=duhani-serif-celebi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1831,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=duhani-serif-celebi, URL: https://islamansiklopedisi.org.tr/duhani-serif-celebi || DİA birth place: Bursa || DİA death-date string: (ö. 1831) || DİA categories: tarikat || Chunk count: 1",
+  "birth_place": "iac:place-00015103",
+  "students": [
+    "iac:person-00005379"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00001879",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CÜNEYD-i ŞÎRÂZÎ",
+      "ar": "جنيد شيرازى"
+    },
+    "originalScript": {
+      "ar": "جنيد شيرازى"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Kāsım Muînüddîn Cüneyd b. Mahmûd-ı Şîrâzî"
+      ]
+    },
+    "description": {
+      "tr": "Soyunun Hz. Ömer vasıtasıyla Kureyş kabilesinin kollarından Benî Adî b. Kâ‘b’a ulaştığı rivayet edilir. Şîraz’ın birçok bilgin ve vâiz yetiştiren tanınmış bir ailesine mensuptur. Kendisinin de “şeyhülislâm” unvanını taşımasından iyi bir öğrenim gördüğü anlaşılmaktadır. Şîraz’daki Câmi-i Atîk’te vâizlik yapan ve bir İsfahan yolculuğu dışında Şîraz’dan hiç ayrılmayan Cüneyd’in ölüm tarihi kesin olarak bilinmemektedir. Mensur eserini 791’de (1389) tamamladığına göre bu tarihten sonra, büyük bir ihtimalle de 801’de (1399) vefat etmiştir. Cüneyd-i Şîrâzî’nin Îsâ ve Rükneddin Yahyâ adında iki oğlu olmuştur. Bunlardan ilki, babasının tek mensur eseri olan Arapça Şeddü’l-izâr ’ı Mültemisü’l-aḥibbâʾ ḫâliṣan mine’r-riyâʾ adıyla Farsça’ya çevirmiştir (Şîraz 1364/1986). Bu tercüme daha çok Teẕkire-i Hezâr Mezâr veya Hezâr u Yek Mezâr adlarıyla tanınır. Diğer oğlu Rükneddin Yahyâ da Ebü’l-Hasan ed-Deylemî’nin Sîretü Ebî ʿAbdillâh adlı Arapça eserini Farsça’ya tercüme etmiştir (nşr. Annemarie Schimmel, Ankara 1955). Eserleri. 1. Dîvân . Cüneyd-i Şîrâzî’nin tasavvufî nitelikteki kaside ve gazellerini ihtiva eden ve 1050 beyitten meydana gelen divanındaki şiirler üslûp ve şekil bakımından Hâfız-ı Şîrâzî’nin şiirlerine benzer. Eser Saîd-i Nefîsî tarafından yayımlanmıştır (Tahran 1325 hş.). 2. Şeddü’l-izâr . Tam adı Şeddü’l-izâr fî ḥaṭṭi’l-evzâr ʿan züvvâri’l-mezâr olan eser, Şîraz’da medfun 315 ünlü kişinin hal tercümelerini ihtiva eder. Şîraz’daki mezarların yerlerini gösteren bir kılavuz niteliğini taşıyan kitap, haftanın yedi günü göz önünde tutularak yedi bölüme ayrılmış ve hangi gün hangi mezarlığın ziyaret edilmesi gerektiği belirtilmiştir. Buna göre haftanın ilk günü, Şeyhülkebîr unvanını taşıyan Ebû Abdullah İbn Hafîf’in, ikinci günü ise, Şeyh Bâhilî’nin mezarları, üçüncü gün Dârüsselm, dördüncü gün Ümmü Külsûm ve Şîrûye, beşinci gün Bâğ-ı Nev, altıncı gün Câmi-i Atîk ve yedinci gün Musallâ mezarlıkları ziyaret edilir. Eser Mirza Muhammed Kazvînî ve Abbas İkbâl-i Âştiyânî tarafından geniş açıklama ve notlarla birlikte yayımlanmıştır (Tahran 1328 hş.). Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 125 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cuneyd-i-sirazi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cuneyd-i-sirazi, https://islamansiklopedisi.org.tr/cuneyd-i-sirazi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:cuneyd-i-sirazi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=cuneyd-i-sirazi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:49Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cuneyd-i-sirazi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=cuneyd-i-sirazi)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 801,
+    "start_ce": 1399,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cuneyd-i-sirazi, URL: https://islamansiklopedisi.org.tr/cuneyd-i-sirazi || DİA death place: 801 || DİA death-date string: (ö. 801/1399 [?]) || DİA categories: tasavvuf > rivayet || Chunk count: 1"
+}

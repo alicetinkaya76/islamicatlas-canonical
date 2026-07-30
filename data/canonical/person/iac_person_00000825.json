@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00000825",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED PAŞA, Hain"
+    },
+    "description": {
+      "tr": "I. Selim zamanında iç oğlanı olarak saraya alındı; önce mîrâhûr -ı evvel oldu. 1516-1517’de Memlükler’e karşı yapılan savaşlara katıldı; 1519’da Rumeli beylerbeyiliğine yükseldi. Kanûnî Sultan Süleyman’la Belgrad Seferi’ne katıldı ve Böğürdelen’in alınmasında (8 Temmuz 1521) önemli rol oynadı. Belgrad kuşatmasındaki hizmetlerine mükâfat olarak kendisine vezirlik verildi. Rodos Seferi’ne önce üçüncü vezir olarak katıldı, çok geçmeden de padişahın emriyle bu seferin serdarlığına getirildi. Rumca bildiği için Saint Jean şövalyeleri ile Rodos Kalesi’nin teslim şartlarını bizzat görüştüğü nakledilir. Haris bir kimse olan Ahmed Paşa’nın asıl emeli vezîriâzam olmaktı. Nitekim Pîrî Mehmed Paşa’nın görevden alınmasında rolü oldu. Fakat teamüle aykırı olarak bu makama Has Odabaşı İbrâhim’in getirilmesiyle büyük bir hayal kırıklığına uğradı ve Mısır valiliğine tayinini istedi (19 Ağustos 1523). O sırada Mısır büyük bir karışıklık içindeydi. Ahmed Paşa gayri memnunları yatıştırdı ve Yavuz Sultan Selim zamanında Mısır beylerbeyiliğine getirilen Hayır Bey’in ölümünden sonra büyük bir anarşi içinde bulunan bedevî reislerin aralarını bularak ileriye dönük emellerini gerçekleştirmek amacıyla çevresini güçlendirdi. Onun ihanet hazırlıkları içinde olduğunu haber alan Vezîriâzam Makbul İbrâhim Paşa, padişaha tesir ederek Kara Mûsâ’nın Mısır valisi olmasını sağladı. Kara Mûsâ aynı zamanda Ahmed Paşa’yı öldürmekle de görevlendirilmişti. Bunu öğrenen Ahmed Paşa, “el-Melikü’l-mansûr Sultan Ahmed” unvanını alarak bağımsızlığını ilâna karar verdi (Ocak 1524). Önce Kara Mûsâ’yı öldürttü, sonra Kahire Kalesi’ndeki yeniçerileri imha ederek kaleyi ele geçirdi; hatta hıristiyan kuvvetlerle birleşmekten bile çekinmedi. Kanûnî Sultan Süleyman Mısır meselesini kökünden halletmek üzere Ayas Paşa kumandasında bir ordu gönderdi. Ayrıca Ahmed Paşa’nın birlikleri de ona karşı gizlice ayaklanmaya kışkırtıldı. Sonunda, kumandanlarından biri olan ve kendisine vezir seçtiği Kadızâde Mehmed Bey, onu hamamda yıkanırken öldürmeye teşebbüs etti. Ancak Ahmed Paşa yaralı olarak Benî Bekr aşiretine sığındı ise de onlar tarafından yakalanıp kafası kesildi. Sultan sıfatını kullanıp adına para bastırma ve hutbe okutma cüretini gösteren Ahmed Paşa, Osmanlı tarihlerinde “hain” sıfatıyla anılmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 113 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-pasa-hain",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-pasa-hain, https://islamansiklopedisi.org.tr/ahmed-pasa-hain",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-pasa-hain",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-pasa-hain",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:01Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-pasa-hain (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 930,
+    "start_ce": 1524,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-pasa-hain, URL: https://islamansiklopedisi.org.tr/ahmed-pasa-hain || DİA death-date string: (ö. 930/1524) || Chunk count: 1"
+}

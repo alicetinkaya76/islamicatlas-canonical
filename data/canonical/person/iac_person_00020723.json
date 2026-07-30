@@ -1,0 +1,104 @@
+{
+  "@id": "iac:person-00020723",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "İbn Tūmart",
+      "ar": "محمد بن تومرت"
+    },
+    "description": {
+      "tr": "Kurucusu; Mehdî ilan edildi (515/1121); 524/1130'da öldü",
+      "en": "Muhammad ibn Tumart was the intellectual and political founder of the Almohad state that ruled North Africa and al-Andalus. Coming from a Berber tribe in the Atlas Mountains, he was influenced by Imam al-Ghazali's works in the East and developed a reformist theological vision emphasizing divine unity. He proclaimed himself Mahdi and launched a movement against the Almoravids. His mosque in Tinmal served as the movement's center. His successor Abd al-Mumin established and expanded the state.",
+      "ar": "محمد بن تومرت هو المؤسس الفكري والسياسي لدولة الموحدين التي حكمت شمال افريقيا والاندلس. خرج من قبيلة بربرية في جبال الاطلس وتأثر بمؤلفات الامام الغزالي في المشرق فطور فهما اصلاحيا للكلام يركز على التوحيد. اعلن نفسه مهديا وبدأ الحركة ضد المرابطين. صار مسجد تنمل مركزا لحركته. جاء من بعده عبد المؤمن فأسس الدولة ووسعهاوضع ابن تومرت أسس العقيدة الموحدية التي جمعت بين الفكر الأشعري والإصلاح الاجتماعي، ونظم حركته وفق هيكل قبلي محكم يضمن الولاء والانضباط. رغم وفاته قبل تحقيق النصر النهائي على المرابطين، إلا أن أفكاره وتنظيمه السياسي مهدا الطريق لقيام إمبراطورية الموحدين العظيمة."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:15:ruler:0",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-015, ruler #1",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+      },
+      {
+        "source_id": "scholars:167",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=167",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:06:59Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:06:59Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:06:59Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Promoted from inline rulers[0] of iac:dynasty-00000015 (The Almohads or al-Muwahhidūn) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[0].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['prefLabel.ar', 'description.en', 'description.ar', 'kunya', 'nisba']."
+      }
+    ],
+    "deprecated": false
+  },
+  "affiliated_dynasties": [
+    "iac:dynasty-00000015"
+  ],
+  "laqab": [
+    "Mehdî"
+  ],
+  "floruit_temporal": {
+    "end_ce": 1130,
+    "end_ah": 524,
+    "start_ce": 1130,
+    "approximation": "before",
+    "note": "Bosworth ruler with only reign_end_* fields; start_ce promoted from end_ce."
+  },
+  "death_temporal": {
+    "start_ce": 1130,
+    "start_ah": 524,
+    "approximation": "exact",
+    "note": "Bosworth death code: d. 524/1130"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q455925",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'İbn Tūmart')."
+    }
+  ],
+  "note": "Bosworth relation note: — || Bosworth death code: d. 524/1130 || Promoted from iac:dynasty-00000015 rulers[0] (Bosworth NID-015).",
+  "authored_works": [
+    "iac:work-00002248",
+    "iac:work-00008431"
+  ],
+  "kunya": "Ebû Abdullah",
+  "nisba": [
+    "Sûsî",
+    "Berberî"
+  ]
+}

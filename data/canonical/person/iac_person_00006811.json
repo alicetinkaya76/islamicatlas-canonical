@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00006811",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "SELEME b. HİŞÂM",
+      "ar": "سلمة بن هشام"
+    },
+    "originalScript": {
+      "ar": "سلمة بن هشام"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Hâşim Seleme b. Hişâm b. el-Mugīre el-Mahzûmî el-Kureşî"
+      ]
+    },
+    "description": {
+      "tr": "Kureyş’in en itibarlı kollarından Benî Mahzûm’a mensuptur. Ebû Cehil’in ve Mekke’nin fethi esnasında müslüman olan Hâris b. Hişâm’ın kardeşi, Hâlid b. Velîd’in amcasının oğludur. Annesi şair sahâbîlerden ve ilk müslümanlardan Dubâa bint Âmir’dir. Mekke döneminde İslâmiyet’i kabul eden Seleme ilk müslümanların pek çoğu gibi müşriklerden işkence gördü ve Habeşistan’a hicret etmek zorunda kaldı. İleri gelen müşriklerden bir kısmının müslüman olduğuna dair yayılan asılsız haberler üzerine bir grup arkadaşıyla birlikte Mekke’ye döndü. Medine’ye hicret etmek istediğinde kendisine izin verilmediği gibi Ebû Cehil tarafından hapsedildi, aç ve susuz bırakıldı (İbn Sa‘d, IV, 130-131). Hz. Peygamber, Medine’ye hicret ettikten sonra Mekke’de kalan Seleme ve onun durumundaki diğer müslümanlar için çok üzüldü ve uzun süre sabah namazlarında rükûdan kalktıktan sonra kunut yaparak, “Allahım! Velîd b. Velîd, Seleme b. Hişâm, Ayyâş b. Ebû Rebîa ve Mekke’deki diğer güçsüzleri kâfirlerin elinden kurtar” diye dua etti (Buhârî, “Eẕân”, 128, “Cihâd”, 98, “Daʿavât”, 58; Müslim, “Mesâcid”, 294-295). Bir müddet sonra Velîd b. Velîd hapisten kurtulup Medine’ye gitti. Resûl-i Ekrem, Ayyâş ile Seleme’nin işkence altında olduklarını öğrenince onu tekrar Mekke’ye göndererek birlikte kaçmalarını emretti. Müslümanlar Umretü’l-kazâ’dan dönerken Seleme ve arkadaşları da Mekke’den kaçarak onlara yetişti. Müşrikler, Hâlid b. Velîd kumandasında bir grup Mekkeli’yi onları yakalamakla görevlendirdiyse de takipten bir netice alınamadı, iade edilmeleri için yapılan çalışmalar da sonuçsuz kaldı ( DİA , IV, 296). Medine’ye geldikten sonra Hz. Peygamber’in yakın çevresinde yer alan Seleme onun hizmetinde bulundu ve kendisiyle birlikte savaşlara katıldı. Mûte Savaşı’nda mücahidler geri çekilmek zorunda kaldıklarından Medine’ye dönünce bazı kimseler onlar hakkında “fürrâr” (savaştan kaçanlar) ifadesini kullandılar. Bu sözden rahatsız olan Seleme bir müddet insanların arasına ve mescide namaz kılmaya çıkmadı. Bunun üzerine Resûlullah, Seleme ve arkadaşlarının savaştan kaçanlar değil yeni bir saldırı için geri çekilenler (kürrâr) olduklarını belirtti ve Seleme’nin evden çıkmasını istedi (Vâkıdî, II, 764-765; İbnü’l-Esîr, II, 284). Seleme, Hz. Ebû Bekir’in hilâfeti döneminde Suriye tarafına gerçekleştirilen seferlere katıldı. Hz. Ömer halife olduktan kısa bir süre sonra 14 (635) yılında Bizanslılar’la yapılan Mercüssuffer Savaşı’nda şehid düştü (İbn Sa‘d, IV, 131). 13 yılında Ecnâdeyn Savaşı’nda şehid olduğu da zikredilmiştir (İbn Abdülber, II, 643). Bu madde TDV İslâm Ansiklopedisi’nin 2009 yılında İstanbul’da basılan 36. cildinde, 406-407 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:seleme-b-hisam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=seleme-b-hisam, https://islamansiklopedisi.org.tr/seleme-b-hisam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:seleme-b-hisam",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/seleme-b-hisam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:4110",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=4110, heading_ar=سلمة بن هشام",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:55Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=seleme-b-hisam (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4110]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=4110 (heading_ar=سلمة بن هشام) via Track A (DİA→Alam xref bridge). dt=Sahâbî, seâbıkûndan"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mahzûmî; Kureşî"
+  ],
+  "death_temporal": {
+    "start_ah": 14,
+    "start_ce": 635,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=seleme-b-hisam, URL: https://islamansiklopedisi.org.tr/seleme-b-hisam || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4110] || DİA death-date string: (ö. 14/635) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=4110, heading_ar=سلمة بن هشام, dt=Sahâbî, seâbıkûndan"
+}

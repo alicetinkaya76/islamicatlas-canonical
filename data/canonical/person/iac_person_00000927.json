@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00000927",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ b. ABDULLAH b. ABBAS",
+      "ar": "عليّ بن عبد الله بن العبّاس"
+    },
+    "originalScript": {
+      "ar": "عليّ بن عبد الله بن العبّاس"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Alî b. Abdillâh b. el-Abbâs b. Abdilmuttalib es-Seccâd el-Hâşimî"
+      ]
+    },
+    "description": {
+      "tr": "Abdullah b. Abbas’ın en küçük oğludur. Hz. Ali’nin şehid edildiği gün (17 Ramazan 40 / 24 Ocak 661) dünyaya geldiği için babası tarafından kendisine Ali adı ve Ebü’l-Hasan künyesi verildi. Halife Abdülmelik b. Mervân, Hz. Ali’nin hem adını hem künyesini taşımasını hazmedemediğini söyleyerek onun künyesini Ebû Muhammed olarak değiştirdi. Annesi, Kinde hükümdar ailesinden Zür‘a bint Mişrah’tır. Ali b. Abdullah Hz. Peygamber’in ailesinden seçkin bir sima olduğu için büyük bir itibara sahipti. Sikāye ve rifâde vazifelerini babasından sonra o yürüttü. Harre Savaşı’nda Yezîd’in halifeliğini kabul etmeyerek Abdullah b. Hanzale’ye biat eden Medine halkı ile Emevîler’e karşı savaştı. Savaştan sonra Suriye ordusunun kumandanı Müslim b. Ukbe el-Mürrî’nin huzuruna çıkarılarak Yezîd’e biat etmesi istendi, fakat biat etmedi. Buna rağmen kötü muameleye mâruz kalmadı. Emevî Halifesi Abdülmelik devrinde Dımaşk’a gitti ve halife tarafından iyi karşılandı. Ancak Halife Velîd onu 95 (713-14) yılında Dımaşk’tan uzaklaştırdı. Ali b. Abdullah Suriye hac yolu üzerindeki Humeyme’ye yerleşti ve orada öldü. Abbâsî halifelerinin atası olan Ali b. Abdullah’ın oğlu Muhammed, Abbâsî hareketini bu şehirde başlatmıştır. Ali b. Abdullah babası gibi çok dindardı. Hemen bütün kaynaklarda günde bin rekât namaz kıldığı, bu sebeple de çok secde eden ve secde ettiği uzuvları nasır tutan kimse anlamında “es-seccâd” ve “zü’s-sefinât” lakabı ile meşhur olduğu kaydedilir. Faziletli ve kültürlü bir kimse idi. Simasının fevkalâde güzelliği ile de tanınırdı. Yirmi kadar oğlu ve birkaç kızı olmuştur. Babası Abdullah b. Abbas’tan başka Ebû Hüreyre, Ebû Saîd el-Hudrî, Abdullah b. Ömer gibi sahâbîlerden hadis rivayet etmiştir. Rivayetleri fazla olmamakla beraber Ṣaḥîḥ-i Buḫârî dışındaki diğer muteber hadis kitaplarında yer almıştır. Kendisinden de beş oğlu, ayrıca İbn Şihâb ez-Zührî, Mansûr b. Mu‘temir, Medine kadısı Sa‘d b. İbrâhim ve başkaları rivayette bulunmuşlardır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 380 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-b-abdullah-b-abbas",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-b-abdullah-b-abbas, https://islamansiklopedisi.org.tr/ali-b-abdullah-b-abbas",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-b-abdullah-b-abbas (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hâşimî"
+  ],
+  "death_temporal": {
+    "start_ah": 118,
+    "start_ce": 736,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-b-abdullah-b-abbas, URL: https://islamansiklopedisi.org.tr/ali-b-abdullah-b-abbas || DİA death-date string: (ö. 118/736) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000533",
+    "iac:person-00002188",
+    "iac:person-00002258"
+  ],
+  "students": [
+    "iac:person-00007897"
+  ]
+}

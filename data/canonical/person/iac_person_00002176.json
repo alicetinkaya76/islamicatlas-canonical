@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00002176",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ HASME el-ENSÂRÎ",
+      "ar": "أبو حثمة الأنصاري"
+    },
+    "originalScript": {
+      "ar": "أبو حثمة الأنصاري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Hasme Abdullāh (Âmir) b. Sâide b. Âmir el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "Medine’de yaşayan Evs kabilesinin Benî Hârise koluna mensup olup künyesiyle tanınmaktadır. Hz. Peygamber vefat ettiği zaman henüz yedi sekiz yaşlarında bir sahâbî olan oğlu da Sehl b. Ebû Hasme diye anılır. Bazı kaynaklarda adının Ebû Hayseme diye zikredilmesi (İbn İshak, s. 304; İbn Hişâm, III, 65) doğru değildir. Uhud Gazvesi öncesinde Hz. Peygamber, kendilerini Uhud’a kestirme yoldan ve düşmanla karşılaşmadan kimin götürebileceğini soruşturdu. Bu göreve talip olan Ebû Hasme İslâm askerlerini Hâriseoğulları’nın arazisinden geçirerek Uhud’a götürdü. İbn Ebû Hâtim’in bu kılavuzluk görevini Ebû Hasme’nin oğlu Sehl’in yaptığını ileri sürmesi, Sehl’in o sırada henüz çocuk yaşta olması sebebiyle doğru bulunmamıştır. Ebû Hasme Uhud’dan sonraki gazvelere de katılmış, Hayber’in fethinde süvari olması sebebiyle kendisine iki hisse verilmiştir. Hz. Peygamber, Ebû Hasme’nin mahsullerin miktarını takdir konusundaki yeteneğinden faydalanmış ve onu Hayber’e zekât takdiri için göndermiştir. Bir sahâbî onu, kendisine çok zekât takdir ettiği iddiasıyla Resûlullah’a şikâyet etmiş, ancak Ebû Hasme’nin bu sahâbîye geçimine yetecek ve hatta fakirlere dağıtacak kadar mahsul bıraktığını söylemesi üzerine Resûlullah kendisini haklı görmüştür (Dârekutnî, II, 135). Onun bu görevi ilk üç halife döneminde de devam etmiştir. Ebû Hasme’nin, Muâviye devrinin ilk (41/661) veya son yıllarında (60/680) vefat ettiği söylenmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 145 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-hasme-el-ensari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-hasme-el-ensari, https://islamansiklopedisi.org.tr/ebu-hasme-el-ensari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:55Z",
+    "modified": "2026-05-04T15:33:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-hasme-el-ensari (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî"
+  ],
+  "death_temporal": {
+    "start_ah": 41,
+    "start_ce": 661,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-hasme-el-ensari, URL: https://islamansiklopedisi.org.tr/ebu-hasme-el-ensari || DİA death-date string: (ö. 41/661 [?]) || Chunk count: 1"
+}

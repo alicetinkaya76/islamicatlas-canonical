@@ -1,0 +1,101 @@
+{
+  "@id": "iac:person-00003935",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Mencûye",
+      "ar": "ابن منجويه"
+    },
+    "originalScript": {
+      "ar": "ابن منجويه"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Ahmed b. Alî b. Muhammed el-Yezdî el-İsfahânî"
+      ]
+    },
+    "description": {
+      "tr": "347’de (958) İsfahan’da doğdu. Büyük dedesi Mencûye’ye nisbetle İbn Mencûye diye tanındı. Bazı kaynaklarda İbn Fencûye diye de anılmaktadır (Abdülgāfir el-Fârisî, s. 105). Gençliğinde ticaret maksadıyla Nîşâbur’a gitti. Hemşerilerinin istifadesine sunmak üzere orada bazı muhaddislerden emâlîler yazdı. İsfahan’a döndükten sonra hadise ilgi duydu ve hadis tahsiline başladı. Daha sonra Buhara, Semerkant, Herat, Rey, Nîşâbur ve Cürcân’a seyahatler yaptı; İbn Nüceyd, Ebû Bekir el-İsmâilî, Hâkim el-Kebîr, İbnü’l-Mukrî el-İsfahânî ve Ebû Abdullah İbn Mende gibi muhaddislerden hadis öğrendi. Tahsilini tamamladıktan sonra Nîşâbur’a yerleşti ve hadis dersleri vermeye başladı. Hâce Abdullah-ı Herevî, Ebü’l-Kāsım İbn Mende, Târîḫu Merv müellifi Ebû Sâlih el-Müezzin, Ahmed b. Hüseyin el-Beyhakī, Ebû Nasr el-Haddâdî ve Hatîb el-Bağdâdî kendisinden hadis rivayet ettiler. Nîşâburlu hadis hâfızı Ebû Hâzim el-Abdûyî’nin ölümünden sonra Ebû Sa‘d ez-Zâhid Medresesi’nde yıllarca hadis imlâ etti ve muhtelif eserleri okuttu. Güçlü bir hâfızaya sahip, sika ve sadûk bir râvi olduğu ve zâhidâne bir hayat yaşadığı belirtilen İbn Mencûye 5 Muharrem 428’de (29 Ekim 1036) Nîşâbur’da vefat etti. Eserleri. Ricâlü Ṣaḥîḥi Müslim (Esmâʾü ricâli’l-Müslim, Esmâʾü ricâli Ṣaḥîḥi Müslim) . Ṣaḥîḥ-i Müslim ’de yer alan râvilerin alfabetik olarak sıralanıp kısaca tanıtıldığı ve rivayetlerinin Ṣaḥîḥ-i Müslim ’in hangi kitabında yer aldığının belirtildiği eser Abdullah el-Leysî’nin tahkikiyle yayımlanmıştır (I-II, Beyrut 1407/1987). İbnü’l-Kayserânî, İbn Mencûye’nin bu kitabı ile Ahmed b. Muhammed el-Kelâbâzî’nin Ricâlü Ṣaḥîḥi’l-Buḫârî diye meşhur olan el-Hidâye ve’l-irşâd fî maʿrifeti ehli’s̱-s̱ika ve’s-sedâd adlı eserinde yer alan râviler hakkındaki bilgileri bir araya getirdiği çalışmasına el-Cemʿ beyne kitâbey Ebî Naṣr el-Kelâbâẕî ve Ebî Bekr el-İṣfahânî fî ricâli’l-Buḫârî ve Müslim adını vermiştir (I-II, Haydarâbâd 1323; I-II, Beyrut 1405/1985). İbn Mencûye’nin ayrıca Buhârî, Müslim ve Tirmizî’nin el-Câmiʿu’ṣ-ṣaḥîḥ ’leriyle Ebû Dâvûd’un es-Sünen ’i üzerine müstahrec türü eserler telif ettiği kaynaklarda zikredilmiş olup Ebû Dâvûd’un eseri üzerine yaptığı çalışmanın Kitâbü’s-Sünne veya es-Sünen adını taşıdığı belirtilmekte, Ebü’l-Kāsım İbn Mende bu eseri İbn Mencûye’den okuduğunu söylemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 176-177 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-mencuye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-mencuye, https://islamansiklopedisi.org.tr/ibn-mencuye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-mencuye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-mencuye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:21Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:21Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-mencuye (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-mencuye)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Yezdî; İsfahânî"
+  ],
+  "death_temporal": {
+    "start_ah": 428,
+    "start_ce": 1036,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-mencuye, URL: https://islamansiklopedisi.org.tr/ibn-mencuye || DİA birth place: İsfahan || DİA death place: Nîşâbur || DİA death-date string: (ö. 428/1036) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003063",
+    "iac:person-00003936",
+    "iac:person-00003979",
+    "iac:person-00004266",
+    "iac:person-00004584"
+  ],
+  "students": [
+    "iac:person-00001508",
+    "iac:person-00003006",
+    "iac:person-00003313",
+    "iac:person-00003385",
+    "iac:person-00003938"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "@id": "iac:person-00000216",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Nizam al-Mulk",
+      "tr": "Nizâmülmülk",
+      "ar": "نظام الملك"
+    },
+    "originalScript": {
+      "ar": "نظام الملك"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Ali al-Hasan ibn Ali al-Tusi"
+      ],
+      "tr": [
+        "Ebû Alî el-Hasen b. Alî et-Tûsî"
+      ],
+      "ar": [
+        "أبو علي الحسن بن علي الطوسي"
+      ]
+    },
+    "description": {
+      "tr": "Nizâmiye medrese ağını kurdu — İslam dünyasının ilk sistematik yüksek öğretim kurumları zinciri, Avrupa üniversitesinin modeli. 30 yıl iki sultana vezirlik yaparak Selçuklu devletini dönüştürdü || Birçok tarihçi Nizâmülmülk'ü 'İslam tarihinin en önemli devlet adamı' olarak adlandırır. || [Tarih notu] Lambton'un 1984 bölümü ve Darke'ın 1960 Siyâsetnâme çevirisi standart referanslardır.",
+      "en": "Created the Nizamiyya madrasa network — the first systematically organized chain of higher education institutions in the Islamic world, model for the European university. Served as vizier for 30 years across two sultans, transforming the Seljuk state || Many historians call Nizam al-Mulk 'the most important statesman in Islamic history.' His Nizamiyya network was a deliberate Sunni intellectual counter-offensive against Fatimid Ismaili proselytism via al-Azhar. The Baghdad Nizamiyya housed 3,000 students at its peak under Ghazali. His iqta land-grant system influenced the Ottoman timar. Assassinated by a Hasan-i Sabbah fidai on Oct 14, 1092. || [Historiographical note] Lambton's 1984 chapter in Cambridge History of Iran and Darke's 1960 translation of the Siyasatnama remain standard references. The legendary (but apocryphal) schoolmate story linking Nizam, Khayyam, and Hasan-i Sabbah has been debunked — Nizam was 32 years older than Sabbah.",
+      "ar": "أسّس شبكة المدارس النظامية — أول سلسلة منظمة للتعليم العالي في العالم الإسلامي || يسميه كثير من المؤرخين 'أهم رجل دولة في التاريخ الإسلامي.' شبكة النظامية كانت هجومًا فكريًا سنيًا مضادًا للدعاية الإسماعيلية الفاطمية"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0033",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0033, lecture_id=nizamulmulk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "alatli:E0003",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0033 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-1 conf 1.0): ['derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1018,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1092,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q298427",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Nizam al-Mulk')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0033, lecture_week=3. || Key works: {'title': {'en': 'Siyāsatnāma (Book of Government)', 'tr': 'Siyâsetnâme', 'ar': 'سياست نامه'}, 'year': 1091, 'field': 'political_science', 'significance': {'en': \"50-chapter treatise on statecraft in the Persian 'Mirrors for Princes' tradition — blueprint for Seljuk and later Islamic governance\", 'tr': \"Fars 'Hükümdarlara Nasihat' geleneğinde 50 bölümlük devlet yönetimi risalesi\"}} || Modern parallel: Imagine a single person building Harvard, Yale, Princeton, and Oxford — all at once, while simultaneously running the Defense Department, reforming the tax code, and writing the definitive book on governance. Then getting assassinated by a dagger-wielding fanatic.",
+  "active_in_places": [
+    "iac:place-00015118"
+  ],
+  "authored_works": [
+    "iac:work-00000054",
+    "iac:work-00002516",
+    "iac:work-00003117",
+    "iac:work-00008670"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

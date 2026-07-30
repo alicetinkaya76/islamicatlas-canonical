@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00001387",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BEDAHŞÎ, Şeyh Muhammed",
+      "ar": "شيخ محمد بدخشى"
+    },
+    "originalScript": {
+      "ar": "شيخ محمد بدخشى"
+    },
+    "description": {
+      "tr": "Bedahşan’da doğdu. Şam’a ne zaman geldiği bilinmemektedir. Mürşidi, Hâce Ubeydullah Ahrâr’ın halifelerinden Mollazâde Muhammed Abdullah Otrârî’dir. Ahrâr’dan icâzet alıp hacca gittikten sonra bir müddet Halep’te kalan ve daha sonra Şam’a yerleşen Mollazâde’nin yaşı Bedahşî kendisine intisap ettiği zaman sekseni bulmuştu. Mollazâde vefat edince Bedahşî onun yegâne halifesi olarak irşad faaliyetine başladı. Gençliğinde amcasının yanında Kur’ân-ı Kerîm’i Âdiyât sûresine kadar okuduğu, zâhirî ilimleri tahsil etmediği, her şeyi keşf yoluyla öğrendiği rivayet edilmektedir. Müridlerine okumamayı tavsiye eden Bedahşî’nin ilimle uğraşmanın faydalı olup olmadığı konusunda Ahrâr’ın halifelerinden Molla İsmâil Şirvânî ile tartışmalarda bulunduğu da kaydedilmektedir. Yavuz Sultan Selim Bedahşî’yi Şam’da Emeviyye Camii bitişiğindeki tekkesinde iki defa ziyaret etmiş, ilk görüşmelerinde şeyh Yavuz’la hiç konuşmamış, ikinci görüşmelerinde ise, “Sen dahi bencileyin Hak Teâlâ’nın bir kulusun. Benim yüküm yok, senin var. Sakın bu halkın yükünü yabanda komayasın” diye nasihatte bulunmuştu. Hoca Sâdeddin’in, babası Hasan Can’dan naklettiğine göre Yavuz Mısır’da iken rüyasında Bedahşî’yi sefer kıyafetiyle görmüş, Hasan Can da bunu şeyhin ölümüne işaret olarak yorumlamıştı. Konu araştırıldığında şeyhin ölümüyle sultanın rüyasının aynı geceye rastladığı anlaşılmıştır. Bedahşî’nin 922 (1516) yılının sonunda veya 923 (1517) yılının ilk aylarında öldüğü ve İbnü’l-Arabî’nin kabri yanına defnedildiği rivayet edilmektedir. Halife bırakıp bırakmadığı konusunda bilgi yoktur. Ancak onun devrinde Nakşibendiyye’nin Şam’da pek yaygın olmadığı bilinmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 293 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bedahsi-seyh-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bedahsi-seyh-muhammed, https://islamansiklopedisi.org.tr/bedahsi-seyh-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bedahsi-seyh-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bedahsi-seyh-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:41Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bedahsi-seyh-muhammed (1 chunks) by dia adapter (Hafta 4). Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 923,
+    "start_ce": 1517,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bedahsi-seyh-muhammed, URL: https://islamansiklopedisi.org.tr/bedahsi-seyh-muhammed || DİA birth place: Bedahşan || DİA death-date string: (ö. 923/1517) || DİA categories: rivayet || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00004286"
+  ]
+}

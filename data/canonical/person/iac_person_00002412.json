@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00002412",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EDÎB-i NÎŞÂBÛRÎ, Şeyh Abdülcevâd",
+      "ar": "شيخ عبد الجواد أديب نيشابورى"
+    },
+    "originalScript": {
+      "ar": "شيخ عبد الجواد أديب نيشابورى"
+    },
+    "description": {
+      "tr": "Nîşâbur’da doğdu. Asıl adı Abdülcevâd olup Molla Abbâs-i Şîrâzî adlı bir çiftçinin oğludur. Dört yaşında iken yakalandığı çiçek hastalığından sonra bir gözünü kaybetti, diğerinin de görme gücü azaldı. Ancak bu durum ondaki öğrenme tutkusuna engel olamadı. Nîşâbur’da başladığı öğrenimini on altı yaşlarında tamamladı. İran ve Arap dili ve edebiyatlarının yanı sıra felsefe, mantık, kelâm, tıp, astronomi okudu. 1880’de Meşhed’e giderek Hayrâthan Medresesi’ne yerleşti. Bir süre Fâzılhan Medresesi’nde kaldı. Bu medresede kendini yetiştirdikten sonra ders vermeye başladı. Ardından ömrünün otuz yılını geçirdiği Nevvâb Medresesi’ne taşındı. Hayatının yaklaşık kırk yılını, aralarında Mevlânâ ile ilgili araştırmalarıyla tanınan Bedîüzzaman Fürûzanfer, şair ve yazar Îrec Mirza’nın da bulunduğu âlimleri yetiştirmekle geçirdi. Îrec Mirza’nın vefatı üzerine (1924) üzüntüsünden hastalandı; kısa bir süre sonra Meşhed’de öldü (24 Mayıs 1926) ve Horasan’da İmam Rızâ Türbesi’nin bulunduğu mezarlığa defnedildi. Edîb-i Nîşâbûrî hiç methiye yazmadığı halde İran’daki Meşrutiyet yönetimini öven iki kaside kaleme almıştır. Bu kasidelerde bir yandan Meşrutiyet’i överken öte yandan yöneticilere bazı tavsiyelerde bulunmuş, özellikle Rus ve İngilizler’in İran’ı iki nüfuz bölgesine ayırmalarını eleştirerek milleti kendi benliğine dönmeye çağırmıştır. Önceleri Kāânî-i Şîrâzî’nin (ö. 1854) etkisi altında binlerce beyit söyleyen Edîb-i Nîşâbûrî daha sonra Ferruhî-yi Sîstânî (ö. 429/1037-38), Menûçihrî-yi Dâmegānî (V./XI. yüzyıl) ve Firdevsî (ö. 411/1020 [?]) gibi eski şairleri taklit etmeye başlayınca önceki şiirlerini imha etmiştir. Kaside, kıta ve rubâîlerden oluşan 5000 beyitlik divanı Leʾâlî-i Meknûn adıyla taş basması olarak Meşhed’de yayımlanmıştır (1333 hş./1954). Muʿallaḳāt-ı Sebʿa ’nın bir bölümüne yazdığı şerh ile Arap şairlerinden Ebû Temmâm’ın (ö. 231/845-46) el-Ḥamâse ’sinin Hatîb et-Tebrîzî (ö. 502/1109) tarafından yapılan şerhine yazdığı hâşiyenin elde mevcut olup olmadığı bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 424 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:edib-i-nisaburi-seyh-abdulcevad",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=edib-i-nisaburi-seyh-abdulcevad, https://islamansiklopedisi.org.tr/edib-i-nisaburi-seyh-abdulcevad",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:59Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:59Z",
+    "modified": "2026-05-04T15:39:52Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:59Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=edib-i-nisaburi-seyh-abdulcevad (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1865,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=edib-i-nisaburi-seyh-abdulcevad, URL: https://islamansiklopedisi.org.tr/edib-i-nisaburi-seyh-abdulcevad || DİA birth place: Nîşâbur || DİA death place: Horasan || DİA death-date string: (1865-1926) || DİA categories: kelâm > felsefe > mantık || Chunk count: 1",
+  "death_place": "iac:place-00004180"
+}

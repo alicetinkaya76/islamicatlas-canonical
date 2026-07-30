@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00000621",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Ruler",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdürrahim Han"
+    },
+    "altLabel": {
+      "tr": [
+        "Hân-ı Hânân Mirza Abdürrahîm Han"
+      ]
+    },
+    "description": {
+      "tr": "1556’da Lahor’da doğdu. Karakoyunlular’ın önemli oymaklarından Baharlu Türkmenleri’ne mensuptur. Babası Bayram Han, Han Baba lakabıyla meşhurdu. Bayram Han, Gucerât’ın Patan şehrinde bir Afganlı tarafından öldürülünce, 1562’de Celâleddin Ekber’in sarayına götürüldü ve orada yetişti. Celâleddin Ekber’in himayesinde uzun süre Gucerât’ta bulunan Abdürrahim, Sarnâl Meydan Savaşı’nda kumandası altındaki Bâbürlü merkez kuvvetleriyle âsi Baykara Mirza’yı mağlûp etti. 1576’da Vezir Han Herevî’nin gözetiminde “mîr-i arzlık”la Gucerât valiliğine tayin edildi. Bir müddet Şehzade Selim’in atalığını yaptı; bu arada Gucerât Sultanı III. Muzaffer’in yola getirilmesinde gayretleri görüldü. Sarkiç ve Nâdôt zaferlerinden sonra da babası gibi “hân-ı hânân”lığa yükseltildi. 1588’de Kanpûr, 1591’de Mültan valiliklerinde bulundu ve Sind’in Argunlu hâkimi Canibeg meselesinin halledilmesinde önemli rol oynadı. Cihangir devrinde (1605-1627) Şehzade Hürrem ile birlikte Dekken’de kalan Abdürrahim, Delhi’ye döndükten bir müddet sonra vefat etti. Delhi’de Emîr Hüsrev-i Dihlevî’nin şeyhi Nizâmeddin Evliyâ’nın türbesi yanına defnedildi. Zeki, kabiliyetli bir kumandan ve devlet adamı olan Abdürrahim, aynı zamanda iyi bir eğitim görmüştü. Babası gibi geniş bir kültüre sahip olup Arapça, Farsça ve Hintçe’yi çok güzel konuşur, yazar ve bu dillerin birinden diğerine tercüme yapabilirdi. Kaynaklarda Batı dillerine de âşina olduğu kaydedilmektedir. Şiirlerinde Rahîm mahlasını kullanmıştır. Celâleddin Ekber’in emri ve arzusu üzerine, Bâbür’ün Türkçe hâtıratını Vâḳıʿât-ı Bâbürî adıyla Farsça’ya çevirmiştir. Sünnî olmakla birlikte Şiîler’e ve ayrıca sûfîlere karşı oldukça yumuşak bir siyaset takip etti. Son derece cömert olup âlim, sanatkâr ve şairleri korumuş, sarayı âdeta bunların akınına uğramıştır. Ṭabaḳāt-ı Ekberî ’nin yazarı Nizâmeddin Ahmed Herevî’yi himaye etmiş ve ona bahşı lık görevini vermiştir. Abdülbâkī Nihâvendî de Meʾâs̱ir-i Raḥîmî ’sini onun adına kaleme almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 290 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "ruler",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahim-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahim-han, https://islamansiklopedisi.org.tr/abdurrahim-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdurrahim-han",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdurrahim-han",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahim-han (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1627,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdurrahim-han, URL: https://islamansiklopedisi.org.tr/abdurrahim-han || DİA birth place: Lahor || DİA death place: Delhi || DİA death-date string: (ö. 1627) || Chunk count: 1",
+  "birth_place": "iac:place-00010694"
+}

@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00002294",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Üseyd",
+      "ar": "أبو أسيد"
+    },
+    "originalScript": {
+      "ar": "أبو أسيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Üseyd Mâlik b. Rebîa b. Amr el-Beden es-Sâidî"
+      ]
+    },
+    "description": {
+      "tr": "Medineli olup Hazrec kabilesine mensuptur. Başta Bedir olmak üzere bütün gazvelere katıldı. Mekke fethinde Benî Sâide’nin sancaktarlığını yaptı. Ebû Üseyd’in Hz. Peygamber’den rivayet ettiği hadislerden yirmi sekizi Bakī b. Mahled’in el-Müsned ’inde ( Zehebî, Aʿlâmü’n-nübelâʾ , II, 539), on dördü Ahmed b. Hanbel’in el-Müsned ’inde bulunmaktadır (III, 496-498). Kendisinden oğulları Münzir, Hamza ve Zübeyr ile ashaptan Enes b. Mâlik, Sehl b. Sa‘d, tâbiînden Ebû Seleme b. Abdurrahman, Abbas b. Sehl b. Sa‘d ve Abdülmelik b. Saîd b. Süveyd gibi muhaddisler rivayette bulundular. Hz. Osman’ın şehid edilmesinden (36/656) bir süre önce gözlerini kaybetti. Bu sebeple müslümanlar arasındaki kargaşayı kendisine göstermediği için Allah’a hamdederdi. Ebû Üseyd’in 40 (660-61) yılında vefat ettiği söylenmekte, Zehebî de bu görüşü benimsemektedir. Ancak onun 30 (650-51), 60 (679-80) veya 65 (684-85) yılında yetmiş beş, yetmiş sekiz veya seksen yaşında vefat ettiği de ileri sürülmektedir. 60 yılında öldüğü doğru ise ehl-i Bedir’den en son vefat eden odur. Ebû Üseyd’in boyu çok kısa, gür saçı ile sakalı bembeyazdı. Bıyığını iyice kısalttığı, parmağına altın yüzük taktığı ve bu yüzüğün vefatı sırasında parmağından çıkarıldığı rivayet edilmiştir (İbn Sa‘d, III, 558). Bedir Gazvesi’nden bahsederken, “Eğer görebilseydim (gözlerim açılıp şu anda sizinle Bedir’de olsaydık) yardıma gelen meleklerin ortaya çıktığı vadiyi size gösterirdim” derdi. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 251 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-useyd",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-useyd, https://islamansiklopedisi.org.tr/ebu-useyd",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:57Z",
+    "modified": "2026-05-04T15:33:57Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-useyd (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sâidî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 40,
+    "start_ce": 660,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-useyd, URL: https://islamansiklopedisi.org.tr/ebu-useyd || DİA death-date string: (ö. 40/660-61 [?]) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

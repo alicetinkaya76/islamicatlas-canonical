@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00001473",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Bergamali İbrâhim"
+    },
+    "description": {
+      "tr": "Babası, Halvetiyye tarikatının Sünbüliyye kolunun kurucusu Sünbül Sinan’ın (ö. 936/1529) halifelerinden Kara Mustafa Efendi’dir. Bergamalı İbrâhim bundan dolayı “Şeyhzâde” lakabıyla anılır. Memleketi olan Bergama’daki tahsil hayatından sonra çeşitli medreselerde müderrislik yaptı; bir müddet Bursa kadılığı görevinde de bulundu. 1004 (1595-96) yılında İstanbul (Çarşıkapı) Sinan Paşa Dârülhadisi’ne (binası halen İşletme Enstitüsü olarak kullanılmaktadır) müderris tayin edildi ve Zilhicce 1014 (Nisan 1606) tarihinde vefatına kadar bu görevde kaldı. Eserleri. İbrâhim Efendi’nin özellikle hadis, tefsir ve kelâm ilimleriyle meşgul olduğu bilinmektedir. Bu ilimlerle ilgili pek çok risâlesinin ve bazı eserlere yaptığı şerh ve ta‘lîkātının bulunduğu kaynaklarda zikredilmektedir. Müellifin basılmış herhangi bir eserine rastlanmamıştır. Kütüphanelerimizde nüshası tesbit edilebilen eserleri ise şunlardır: 1. Envârü’l-bevâriḳ fî tertîbi Şerḥi’l-Meşâriḳ . Muhaddis Radıyyüddin es-Sâgānî’nin Meşâriḳu’l-envâri’n-nebeviyye adlı eserine İbn Melek tarafından yapılan Meşâriḳu’l-ezhâr fî şerḥi Meşâriḳı’l-envâr adlı şerhin yeni bir usul ile tertip edilmiş şeklidir. Bergamalı İbrâhim eserin mukaddimesinde, bu kaynağa müracaat edenlerin istifadesini kolaylaştırmak amacıyla, onu Meṣâbîḥu’s-sünne tarzında her babın hadislerini “sıhâh” ve “hısân” diye ikiye ayırarak yeniden düzenlediğini kaydeder. Eserin tam bir nüshası Süleymaniye Kütüphanesi’nde (Süleymaniye, nr. 279) bulunmaktadır. Aynı eserin Merâfiḳu’l-aḫyâr fî tertîbi Meşâriḳı’l-envâr adıyla (Süleymaniye Ktp., Fâtih, nr. 1144) bir nüshası daha mevcuttur (aynı adlı eksik bir nüsha için bk. Süleymaniye Ktp., Lâleli, nr. 3711, vr. 91 b -95 a ). 2. Mecmaʿu’l-ʿaḳāʾid . Müellifin değişik akaid risâle ve manzumelerinden faydalanarak derlediğini belirttiği bu risâlesi, daha sonra kendisi tarafından Naẓmü’l-ferâʾid fî silki Mecmaʿi’l-ʿaḳāʾid adıyla şerhedilmiştir (Süleymaniye Ktp., Ayasofya, nr. 1388, vr. 101 a -105 a ). 3. Risâle fî mevżûʿâti’l-eḥâdîs̱ . Mevzû hadisler konusunda kaleme alınmış küçük bir risâledir (Süleymaniye Ktp., Hacı Mahmud Efendi, nr. 1934/2, vr. 6 b -13 b ). Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 495-496 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bergamali-ibrahim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bergamali-ibrahim, https://islamansiklopedisi.org.tr/bergamali-ibrahim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:bergamali-ibrahim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=bergamali-ibrahim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:42Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:42Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:42Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bergamali-ibrahim (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=bergamali-ibrahim)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1004,
+    "start_ce": 1595,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1014,
+    "start_ce": 1606,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bergamali-ibrahim, URL: https://islamansiklopedisi.org.tr/bergamali-ibrahim || DİA death-date string: (ö. 1014/1606) || DİA categories: hadis > tefsir > kelâm || Chunk count: 1"
+}

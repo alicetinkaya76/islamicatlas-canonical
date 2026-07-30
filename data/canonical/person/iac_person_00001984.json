@@ -1,0 +1,121 @@
+{
+  "@id": "iac:person-00001984",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Derâverdî",
+      "ar": "الدراوردي"
+    },
+    "originalScript": {
+      "ar": "الدراوردي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdülazîz b. Muhammed b. Ubeyd ed-Derâverdî"
+      ]
+    },
+    "description": {
+      "tr": "Derâverdî’nin nisbesi hakkında farklı rivayetler ileri sürülmüş, Derâverd’in Horasan’a bağlı bir köy olduğu veya İran’daki Derâbcird köyünün yanlış telaffuzu sebebiyle kelimenin bu şekli aldığı söylenmiştir. Aslen İsfahanlı olan Derâverdî’nin, kendisini ziyarete gelenlere Farsça olarak “ender-âver” (içeri gir) dediği için Medineliler’in kendisine bu lakabı verdikleri de zikredilmektedir. İbn Sa‘d’ın kesin bir dille ifade ettiğine göre Medine’de doğup büyüyen Derâverdî hadis ve diğer ilimleri burada tahsil etmiş, vefat edinceye kadar da buradan ayrılmamıştır. İbn Hibbân onun Medine’nin tanınmış fakihlerinden olduğunu belirtmektedir. Derâverdî’nin hadis aldığı muhaddisler arasında Zeyd b. Eslem, Hişâm b. Urve, Humeyd et-Tavîl, Süheyl b. Ebû Sâlih, Şerîk b. Ebû Nemir, Ca‘fer es-Sâdık bulunmaktadır. Kendisinden de daha yaşlı olmalarına rağmen Şu‘be b. Haccâc ile Süfyân es-Sevrî, ayrıca İshak b. Râhûye, Vekî‘ b. Cerrâh, Saîd b. Mansûr gibi meşhur âlimler hadis rivayet etmişlerdir. Ebû Zür‘a, Derâverdî’nin hâfızası zayıf olduğu için ezberinden hadis rivayet ettiğinde yanıldığını ileri sürmüştür. Ahmed b. Hanbel de onun çok hadis topladığını, kendi kitabından yaptığı rivayetler sahih olmakla beraber başkalarının kitaplarından yaptığı nakillere güvenilemeyeceğini söylemiştir. Ebû Hâtim ise rivayetlerinin delil olarak kullanılamayacağını ileri sürmüştür. Derâverdî’nin Mugīre b. Abdurrahman’a rivayetlerini okurken çok telaffuz hatası yaptığı, onun da kendisine hadis tahsilinden önce dilini düzeltmesini tavsiye ettiği haber verilmektedir. İmam Mâlik, Ali b. Medînî ve Yahyâ b. Maîn gibi cerh ve ta‘dîl âlimleri Derâverdî’nin sika bir râvi olduğunu söylemektedirler. Hatta Ma‘n b. Îsâ ona “hadiste emîrü’l-mü’minîn” denebileceğini belirtmektedir. Zehebî ise rivayet ettiği hadislerin en az hasen derecesinde olduğu görüşündedir. Derâverdî’nin rivayetleri Kütüb-i Sitte ’de yer almış, ancak Buhârî senedde Derâverdî’nin yanında bir başka râviye daha yer vererek onu teyit etmek ihtiyacını duymuştur. Vefat tarihi hakkında farklı rivayetler bulunmakla beraber doğru olanı 187 (803) yılıdır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 162 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:deraverdi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=deraverdi, https://islamansiklopedisi.org.tr/deraverdi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:deraverdi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/deraverdi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:5551",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5551, heading_ar=الدراوردي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=deraverdi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5551]. Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5551 (heading_ar=الدراوردي) via Track A (DİA→Alam xref bridge). dt=Muhaddis"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Derâverdî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 187,
+    "start_ce": 803,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=deraverdi, URL: https://islamansiklopedisi.org.tr/deraverdi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5551] || DİA death-date string: (ö. 187/803) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5551, heading_ar=الدراوردي, dt=Muhaddis",
+  "teachers": [
+    "iac:person-00001673",
+    "iac:person-00003438",
+    "iac:person-00003506",
+    "iac:person-00005667",
+    "iac:person-00007838"
+  ],
+  "students": [
+    "iac:person-00001127",
+    "iac:person-00002226",
+    "iac:person-00003507",
+    "iac:person-00003754",
+    "iac:person-00004799",
+    "iac:person-00006568",
+    "iac:person-00007648",
+    "iac:person-00007657"
+  ]
+}

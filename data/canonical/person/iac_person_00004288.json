@@ -1,0 +1,112 @@
+{
+  "@id": "iac:person-00004288",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-VECÎH",
+      "ar": "ابن الوجيه"
+    },
+    "originalScript": {
+      "ar": "ابن الوجيه"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Necmüddîn (Tâcüddîn) Abdullāh b. Abdilmü’min b. el-Vecîh el-Vâsıtî"
+      ]
+    },
+    "description": {
+      "tr": "671 (1272) yılı başlarında Vâsıt’ta doğdu. Burada Ebü’l-Abbas Ahmed b. Gazâl, Ebû Abdullah Muhammed b. Gazâl ve Ali b. Abdülkerîm Hureym’den kıraat dersleri aldı. Basra’da İbnü’l-Muallim İsmâil b. Osman’dan nahiv okudu. Birbirlerinden faydalandıkları Zehebî’nin teşvikiyle Kahire’ye gitti; orada Takıyyüddin Muhammed b. Ahmed es-Sâiğ’den çeşitli kıraat kitaplarının muhtevaları çerçevesinde on yedi günde bir hatim indirdi. Kahire’de ayrıca Ebü’l-Hasan Ali b. Ömer el-Vânî ve Ebü’n-Nûm Yûnus b. İbrâhim el-Kinânî’den hadis aldı. Beledülhalîl’de (Filistin) Ca‘berî’nin derslerine devam etti; Irak bölgesinin kıraat alanında otoritesi konumuna ulaştı. Ticaretle de meşgul olduğu için Basra, Bahreyn, Hürmüz, Cezîretülkays gibi birçok merkeze seyahat imkânı bulan İbnü’l-Vecîh uğradığı yerlerde kıraat dersleri verdi. Ebü’l-Hasan Ali b. Ahmed ed-Dûrî, Ebü’l-Abbas Ahmed b. Receb el-Bağdâdî, Ebü’l-Abbas Ahmed b. Muhammed (Sıbtu’s-Sel‘ûs), Ebü’l-Abbas Ahmed b. Muhammed es-Sebtî, Ebû Muhammed Hasan b. Muhammed en-Nablusî, İbnü’l-Cündî onun talebelerinden bazılarıdır. İbn Râfi‘, eserlerini rivayet konusunda İbnü’l-Vecîh’in kendisine icâzet verdiğini belirtir (Takıyyüddin el-Fâsî, s. 70). Güzel ahlâkı, dindar kişiliğiyle tanınan İbnü’l-Vecîh, Şevval veya Zilkade 740’ta (Nisan veya Mayıs 1340) Bağdat’ta vefat etti ve Şûnîziyye Kabristanı’na defnedildi. Eserleri. 1. el-Kenz fi’l-ḳırâʾâti’l-ʿaşr . Henâ el-Hımsî, Dârü’l-kütübi’z-Zâhiriyye nüshasını (nr. 316, vr. 91-270) esas alarak kitabı yayımlamıştır (Beyrut 1419/1998; diğer nüshaları için bk. Süleymaniye Ktp., Hacı Mahmud Efendi, nr. 412; Konya Yûsuf Ağa Ktp., nr. 6952; el-Fihrisü’ş-şâmil , I, 276-277). 2. el-Kifâye . Bir önceki eserin eş-Şâṭıbiyye tarzında manzum hale getirilmiş şekli olup 1273 beyitten oluşmaktadır. 3. Ravżatü’l-eẓhâr fî ḳırâʾâti’l-ʿaşere eʾimmeti’l-emṣâr . Ebû Amr ed-Dânî’nin el-İdġāmü’l-kebîr ’i ile Muhammed b. Hüseyin el-Kalânisî’nin el-İrşâd ’ı esas alınarak yazılan on kıraate dair 1153 beyitlik bir eserdir. 4. Tuḥfetü’l-iḫvân fî rivâyeti Ḥafṣ b. Süleymân ( a.g.e. , I, 276). 5. el-Lümʿatü’l-celiyye . Nahiv ilmine giriş niteliğindedir. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 236-237 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-vecih",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-vecih, https://islamansiklopedisi.org.tr/ibnul-vecih",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibnul-vecih",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibnul-vecih",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:6004",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6004, heading_ar=ابن الوجيه",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:27Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:27Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-vecih (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6004]. Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibnul-vecih)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6004 (heading_ar=ابن الوجيه) via Track A (DİA→Alam xref bridge). dt=Kâri, âlimlerden seyyah"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Vâsıtî"
+  ],
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 671,
+    "start_ce": 1272,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 740,
+    "start_ce": 1340,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-vecih, URL: https://islamansiklopedisi.org.tr/ibnul-vecih || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6004] || DİA birth place: Vâsıt || DİA death place: Bağdat || DİA death-date string: (ö. 740/1340) || DİA categories: nahiv > rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6004, heading_ar=ابن الوجيه, dt=Kâri, âlimlerden seyyah",
+  "active_in_places": [
+    "iac:place-00012366"
+  ]
+}

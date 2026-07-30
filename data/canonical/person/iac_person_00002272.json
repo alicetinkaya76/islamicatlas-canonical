@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00002272",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ SELEME el-MAHZÛMÎ",
+      "ar": "أبو سلمة المخزومي"
+    },
+    "originalScript": {
+      "ar": "أبو سلمة المخزومي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Seleme Abdullāh b. Abdilesed b. Hilâl el-Kureşî el-Mahzûmî"
+      ]
+    },
+    "description": {
+      "tr": "Ebû Leheb’in câriyesi Süveybe’den süt emdiklerinden Hz. Peygamber’in sütkardeşi de olan halası Berre  bint Abdülmuttalib’in oğludur. Hz. Ebû Bekir vasıtasıyla İslâm’a giren Ebû Seleme on birinci, hanımı Ümmü Seleme ise on ikinci Müslümandır. Hanımı ile birlikte Habeşistan’a hicret eden Ebû Seleme, daha sonra da Akabe biatlarından bir yıl evvel tek başına Medine’ye hicret etti ve Kureyş kabilesinden Medine’ye ilk hicret eden kişi oldu. Mekke’den çıkışı engellendiği için onunla birlikte hareket edemeyen Ümmü Seleme ise yaklaşık bir yıl sonra küçük yaştaki oğlu Seleme ile birlikte hicret etti. Hz. Peygamber’in Bedir Gazvesi’nden önce düzenlenen Uşeyre Gazvesi’ne çıkarken Medine’de yerine vekil bıraktığı Ebû Seleme, Bedir ve Uhud gazvelerine katıldı ve Uhud Gazvesi’nde yaralandı. Bir ay kadar tedavi gördükten sonra Benî Esed üzerine sevkedilen 150 kişilik Katan Seriyyesi’ne kumanda etti (Muharrem 4 / Haziran 625). Medine’ye döndüğü zaman Uhud’da aldığı yaranın nüksetmesi sonucu vefat etti, gözlerini Hz. Peygamber kapattı. Ebû Seleme ölmeden önce eşinden, kendisinden sonra kimseyle evlenmemesini istediyse de daha sonra bu görüşünden vazgeçerek ona mutlaka evlenmesini öğütledi, ayrıca kendisinden daha hayırlı biriyle evlenmesi için dua etti. Kocasının vefatı üzerine Ümmü Seleme günlerce ağladı ve Resûl-i Ekrem’e ne yapması gerektiğini sordu, o da kocasından daha hayırlı birini eş olarak kendisine nasip etmesi için Allah’a dua etmesini söyledi. Ümmü Seleme’ye önce Hz. Ebû Bekir, ardından Hz. Ömer evlenme teklif etti, fakat o bu teklifleri kabul etmedi. Daha sonra Hz. Peygamber’den gelen teklifi kabul etti ve onunla evlendi. Ebû Seleme’den rivayet edilen iki hadis Ahmed b. Hanbel’in el-Müsned ’inde yer almaktadır (IV, 278). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 229 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız. Bu madde en son 03.09.2020 tarihinde güncellenmiştir."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-seleme-el-mahzumi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-seleme-el-mahzumi, https://islamansiklopedisi.org.tr/ebu-seleme-el-mahzumi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-seleme-el-mahzumi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-seleme-el-mahzumi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:57Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-seleme-el-mahzumi (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Mahzûmî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 4,
+    "start_ce": 625,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-seleme-el-mahzumi, URL: https://islamansiklopedisi.org.tr/ebu-seleme-el-mahzumi || DİA death place: Uhud || DİA death-date string: (ö. 4/625) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "death_place": "iac:place-00000274"
+}

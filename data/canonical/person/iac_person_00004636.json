@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00004636",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KĀÂNÎ-i ŞÎRÂZÎ",
+      "ar": "قاآنئ شيرازى"
+    },
+    "originalScript": {
+      "ar": "قاآنئ شيرازى"
+    },
+    "altLabel": {
+      "tr": [
+        "Mîrzâ Habîbullah b. Mîrzâ Muhammed Alî-yi Gülşen"
+      ]
+    },
+    "description": {
+      "tr": "2 Şâban 1223’te (23 Eylül 1808) Şîraz’da doğdu. Gülşen mahlasını kullanan şair Mirza Muhammed Ali’nin oğludur. Babasını on bir yaşında iken kaybetti. Şîraz’da başladığı öğrenimini İsfahan’da tamamladı. Erken yaşta şiir denemesi yapan ve Habîb mahlasını alan Kāânî, Horasan Valisi Şücâüssaltana’nın dikkatini çekerek himayesine mazhar oldu. Vali, oğlu Oktay Kāân’ı metheden şiirlerinden dolayı ona Kāânî mahlasını verdi. Bir süre Şücâüssaltana’nın yanında kalan Kāânî sırasıyla Yezd, Kirman, Gîlân, Mâzenderan ve Azerbaycan’a seyahat etti. Bu seyahatlerinde birçok âlim ve şairle tanışıp onlardan faydalandı. Daha sonra Tahran’a giderek Kaçar hânedanından Feth Ali Şah’la tanıştı ve onun teveccühünü kazandı. Feth Ali kendisine “müctehidü’ş-şuarâ” lakabını verdi. Onun ölümünün ardından yerine geçen Muhammed Şah tarafından Hz. Peygamber’in şairi Hassân’a benzetildiği için Hassânü’l-Acem olarak adlandırıldı. Nâsırüddin Şah, Kāânî’yi sarayın resmî şairi yaptı ve melikü’ş-şuarâ mertebesine yükseltti. Nâsırüddin Şah’ın tahta çıkışından bir süre önce Tahran’a yerleşen Kāânî’nin sağlığı içki ve uyuşturucu madde yüzünden bozuldu; 4 Şâban 1270 (2 Mayıs 1854) tarihinde Tahran’da öldü. Şiirlerinde mânadan çok âhenge ve şekle önem veren Kāânî bir Batı dilini (Fransızca) bilen ilk İranlı şairdir. Ancak bunun şiirlerine herhangi bir etkisi olmamıştır. Ayrıca Arapça ve Türkçe de biliyordu. Şekil ve âhenk bakımından kusursuz olan şiirlerinde toplum hayatının bazı meselelerine de temas etmiştir. Kaçar döneminin birçok şairi gibi kaside, musammat, gazel ve terkibibend türünde şiirler söylemiş, ayrıca hicivleri ve hezl şiirleriyle de dikkat çekmiştir. Kāânî’nin büyük bir bölümü kasidelerden oluşan yaklaşık 23.000 beyitlik divanı ilk defa Perîşân adlı eseriyle birlikte Külliyyât ismiyle basılmış (Bombay 1277), bunu Tahran’da yapılan çeşitli baskıları takip etmiştir. Şairin, Kaçar Hükümdarı Muhammed Şah adına Receb 1252 (Ekim 1836) tarihinde tamamladığı ve Sa‘dî-yi Şîrâzî’nin Gülistân ’ını taklit etmek suretiyle yazdığı Perîşân adlı mensur eseri 113 hikâye ve otuz üç öğütten meydana gelmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 1 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kaani-i-sirazi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kaani-i-sirazi, https://islamansiklopedisi.org.tr/kaani-i-sirazi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:30Z",
+    "modified": "2026-05-04T15:34:30Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kaani-i-sirazi (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1270,
+    "start_ce": 1854,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kaani-i-sirazi, URL: https://islamansiklopedisi.org.tr/kaani-i-sirazi || DİA birth place: Şîraz || DİA death-date string: (ö. 1270/1854) || DİA categories: şiir || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00001202",
+    "iac:work-00009079"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00007187",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ŞÜRAHBÎL b. SIMT",
+      "ar": "شرحبيل بن السمط"
+    },
+    "originalScript": {
+      "ar": "شرحبيل بن السمط"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Yezîd (Ebü’s-Sımt) Şürahbîl b. es-Sımt b. el-Esved el-Kindî eş-Şâmî"
+      ]
+    },
+    "description": {
+      "tr": "Hem Câhiliye hem İslâm döneminde yaşadığı bilinmekle birlikte sahâbîliği konusunda ihtilâf edilmiştir. Buhârî onun sahâbî olduğunu belirtirken İbnü’s-Seken ve İbnü’l-Esîr bunun kesin sayılmadığını belirtmiştir. Bazı kaynaklarda İbn Sa‘d’a dayanılarak Şürahbîl’in Hz. Peygamber’i ziyarete geldiği ve bu ziyaret esnasında müslüman olduğu kaydedilmekteyse de İbn Sa‘d’ın onu Şamlı tâbiîlerin ilk tabakasında zikretmesinden dolayı bu bilgiye güvenilmeyeceği anlaşılmaktadır. İbn Hibbân’ın Şürahbîl’i eserinde hem sahâbe hem tâbiîn bölümünde kaydetmesi onun da bu hususta kesin bir kanaate varamadığını göstermektedir. Şürahbîl’in irtidad hareketlerini bastırmaya yönelik askerî faaliyetlerde bizzat çarpıştığı, Yermük ve Kādisiye savaşlarına katıldığı, hatta Yermük’te babasıyla birlikte savaştığı (İbn Hacer, el-İṣâbe , III, 264) ve Kādisiye Savaşı’nın önde gelen kumandanlarından biri olduğu belirtilmektedir. Gerek Humus’un fethinde gerekse fetihten sonraki uygulamalarda bir kumandan sıfatıyla aktif rol oynadı. Humus’un boşaltılmış evlerini müslümanlara taksim etti. Sıffîn Savaşı’nda Muâviye tarafında yer aldı. Pek çok muharebede kumandanlık yaptı ve yirmi yıl kadar Muâviye’nin Humus valiliği görevini yürüttü. Şürahbîl’in Humus’ta veya Sıffîn’de öldüğü, cenaze namazını sahâbî Habîb b. Mesleme’nin kıldırdığı belirtilmekte, ölümü hakkında 36 (656), 40 (660) ve 42 (662) gibi üç farklı tarih verilmektedir. Şürahbîl b. Sımt, doğrudan Hz. Peygamber’den, ayrıca Selmân-ı Fârisî, Ubâde b. Sâmit, Ömer b. Hattâb, Amr b. Abese, Kâ‘b b. Mürre gibi sahâbîlerden hadis rivayet etmiş; kendisinden Cübeyr b. Nüfeyr, Amr b. Esved, Kesîr b. Mürre, Sâlim b. Ebü’l-Ca‘d, Mekhûl b. Ebû Müslim gibi tâbiîler rivayette bulunmuştur. Şürahbîl’in gerek sened zincirinde yer aldığı gerekse metninde isminin geçtiği rivayetler Kütüb-i Sitte ile diğer hadis kitaplarında kayıtlıdır. Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 269 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:surahbil-b-simt",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=surahbil-b-simt, https://islamansiklopedisi.org.tr/surahbil-b-simt",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:59Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:59Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:59Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=surahbil-b-simt (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kindî"
+  ],
+  "death_temporal": {
+    "start_ah": 40,
+    "start_ce": 660,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=surahbil-b-simt, URL: https://islamansiklopedisi.org.tr/surahbil-b-simt || DİA death-date string: (ö. 40/660 [?]) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00006207",
+    "iac:person-00006822",
+    "iac:person-00007429"
+  ],
+  "students": [
+    "iac:person-00005408"
+  ]
+}

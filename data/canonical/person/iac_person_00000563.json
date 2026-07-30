@@ -1,0 +1,87 @@
+{
+  "@id": "iac:person-00000563",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH EFENDİ, Hâşimîzâde"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Babası İmrahor Camii imamı Seyyid Hasan Hâşimî’dir. Anne ve baba tarafından nesebi Hz. Peygamber’e kadar varır. Hâfızlığını ve tahsilini bitirdikten sonra, babasının görev yaptığı camiye imam oldu ve bu vazifeyi ömrünün sonuna kadar sürdürdü. Abdullah Efendi aynı zamanda Halvetiyye tarikatı şeyhlerinden Seyyid Hüseyin Efendi’ye intisap etmişti. Hat derslerini önce babasından, daha sonra meşhur hattat Hâfız Osman’dan meşkederek aklâm-ı sitte de mükemmel bir seviyeye erişti ve kırk ay gibi kısa bir zamanda icâzet aldı (1098/1686-87). Süratli yazı yazmasıyla meşhurdu. Kaynakların bildirdiğine göre altmış üç yaşlarında vefat etmiş ve Eyüp’te Şah Sultan Camii karşısındaki mezarlığa, ebeveyninin yanına defnedilmiştir. Abdullah Efendi, birçok defa III. Ahmed’in ihsan ve iltifatına mazhar oldu. Bu sebeple Sakazâde Mustafa Efendi’den boşalan Sarây-ı Cedîd hat hocalığına tayin edildi. Eserleri arasında, ekserisi Ruganî Ali Üsküdârî tarafından tezhip edilen yirmi dört mushaf-ı şerif, padişah için istinsah ettiği Osmanzâde Ahmed Tâib’in Meşârik-i Şerif Tercümesi , bin kadar en‘âm, evrâd, kıta ve hilye-i şerif bulunmaktadır. Bu eserlerin çoğu Nuruosmaniye Kütüphanesi’ne vakfedilmiştir. Eğrikapılı Mehmed Râsim başta olmak üzere birçok hattat yetiştiren Abdullah Efendi, Türk hat sanatına uzun yıllar önemli hizmetlerde bulunmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 98-99 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-efendi-hasimizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-efendi-hasimizade, https://islamansiklopedisi.org.tr/abdullah-efendi-hasimizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-efendi-hasimizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-efendi-hasimizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-efendi-hasimizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1144,
+    "start_ce": 1731,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-efendi-hasimizade, URL: https://islamansiklopedisi.org.tr/abdullah-efendi-hasimizade || DİA birth place: İstanbul || DİA death place: Osman || DİA death-date string: (ö. 1144/1731) || DİA categories: tarikat || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00000892",
+    "iac:person-00005343"
+  ]
+}

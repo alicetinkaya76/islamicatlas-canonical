@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00000613",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜLVEHHÂB EFENDİ, Yâsincizâde"
+    },
+    "description": {
+      "tr": "Seyyid Osman Efendi’nin oğludur. Dedesi Seyyid Mustafa Efendi’nin Ayasofya Camii’nde “yâsînhan” olmasından dolayı Yâsincizâde lakabıyla şöhret buldu. Gençliğinde Enderûn-ı Hümâyun’a intisap ederek Gelenbevî İsmâil Efendi’den aklî ve naklî ilimleri okudu. Ocak 1786’da müderrislik ruûs unu kazanarak öğretim hayatına başladı. Bayezid ve Yenicami medreselerindeki dersleriyle meşhur oldu. Bu dönemde pek çok talebe yetiştirdi. Çeşitli medreselerde müderrislik yaptıktan sonra kadılık mesleğine geçti. Önce Selânik kadısı oldu; sonra bilâd-ı erbaa kadılığı pâyesini elde etti. 1811’de elçilikle İran’a gitti; oradaki görevini liyakatle yapması sebebiyle II. Mahmud’un takdirini kazanarak kendisine önce Mekke, daha sonra İstanbul kadılığı pâyesi verildi. Kısa aralıklarla Anadolu kazaskerliği (1816) ve nakîbüleşraflık (1818) görevlerine tayin edildi; ardından Rumeli kazaskerliği pâyesini aldı. Osmanlı Devleti’nin içeride ve dışarıda karşılaştığı sıkıntılar ve özellikle isyan hareketleri üzerine toplanan meşveret meclisinde isabetli görüşleriyle padişahın dikkatini çekti ve 28 Mart 1821’de Çerkez Halil Efendi’nin yerine şeyhülislâmlığa tayin edildi. Bir buçuk yıldan fazla süren meşihatından sonra 10 Kasım 1822’de azledilerek dokuz ay kadar İzmit’te ikamete mecbur tutuldu. 6 Mart 1828’de, Mehmed Tâhir Efendi’nin yerine ikinci defa şeyhülislâmlığa getirildi. Beş yıla yakın bir süre bu makamda kaldıktan sonra yaşlılığı sebebiyle 8 Şubat 1833’te görevinden ayrıldı. Aynı yılın ramazanında Kadir gecesi vefat etti; Topkapı dışında babasının yanına defnedildi. Abdülvehhâb Efendi, şeyhülislâmlığı sırasında ilim erbabıyla devletin hak ve menfaatlerini koruyan bir kişi olarak tanınır. Hulâsatü’l-burhân fî itâati’s-sultân adında hadise dair bir risâlesi vardır (İstanbul 1247). Ayrıca hadis usulü ve kelâm ilmine dair çalışmaları bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 285-286 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulvehhab-efendi-yasincizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulvehhab-efendi-yasincizade, https://islamansiklopedisi.org.tr/abdulvehhab-efendi-yasincizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulvehhab-efendi-yasincizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1758,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdulvehhab-efendi-yasincizade, URL: https://islamansiklopedisi.org.tr/abdulvehhab-efendi-yasincizade || DİA death place: 1833 || DİA death-date string: (1758-1833) || DİA categories: hadis > kelâm || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00001184"
+  ],
+  "teachers": [
+    "iac:person-00002868"
+  ],
+  "students": [
+    "iac:person-00006336"
+  ]
+}

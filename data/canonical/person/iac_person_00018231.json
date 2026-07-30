@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00018231",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Muḥammad Birm",
+      "tr": "Muhammed Birm",
+      "ar": "محمد بيرم"
+    },
+    "originalScript": {
+      "ar": "محمد بيرم"
+    },
+    "description": {
+      "tr": "Tunus'ta Şeyhülislam unvanını ilk alan kişi.",
+      "en": "The first to be given the title of Shaykh al-Islām in Tunisia."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muḥammad (Birm al-Rābiʿ) b. Muḥammad Birm al-Thālith (d. 1259 h.) b. Muḥammad Birm al-Thānī (d. 1247 h.) b. Muḥammad Birm al-Awwal (d. 1240 h.)"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed (Birm er-Râbi') b. Muhammed Birm es-Sâlis (v. 1259 h.) b. Muhammed Birm es-Sânî (v. 1247 h.) b. Muhammed Birm el-Evvel (v. 1240 h.)"
+      ],
+      "ar": [
+        "محمد (بيرم الرابع) ابن محمد بيرم الثالث المتوفى سنة 1259 ه ابن محمد بيرم الثاني المتوفى سنة 1247 ابنمحمد بيرم الأول المتوفى سنة 1240"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:11283",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11283",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:15Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=11283 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:11283."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1278,
+    "start_ce": 1861,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11283, heading_ar=محمد بيرم || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 36.81, 10.17"
+}

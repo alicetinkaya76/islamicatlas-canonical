@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00002222",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ MİSHAL el-A‘RÂBÎ",
+      "ar": "أبو مسحل الأعرابي"
+    },
+    "originalScript": {
+      "ar": "أبو مسحل الأعرابي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdülvehhâb (Abdullāh) b. Harîş Ebû Mishal el-Hemedânî el-A‘râbî"
+      ]
+    },
+    "description": {
+      "tr": "Babasının asıl adı Ahmed olup Harîş onun lakabıdır. Kendisi de Ebû Mishal lakabıyla meşhur olmuştur. Hayatı hakkında fazla bilgi bulunmamakta, 170 (786) yılı civarında doğduğu tahmin edilmektedir. Necid’de yaşayan Benî Rebîa’ya mensup bir bedevîdir. Hemedânî nisbesini sonraları Hemedan’a yerleşmesi sebebiyle aldığı sanılan Ebû Mishal’in Bağdat’a Halife Me’mûn’un (813-833) veziri Hasan b. Sehl’e elçi olarak gittiği bilinmektedir. Kendisinden lugat, nahiv ve Kur’an ilimlerini okuduğu Ali b. Hamza el-Kisâî’den daha çok kıraate dair rivayette bulunmuş, Ali b. Mübârek el-Ahmer’den de nahivde şâhid olarak kullanılan 40.000 beyit rivayet etmiştir. Ebü’l-Abbas Sa‘leb, İshak b. Ziyâd el-A‘râbî, Ebû Abdurrahman Ahmed b. Sehl ve kıraat âlimi Muhammed b. Yahyâ el-Kisâî kendisinden rivayette bulunmuşlardır. Kaynaklarda Ebû Mishal’in Kur’ân-ı Kerîm’i, onun vücûh ve i‘rabını iyi bildiği, Kûfe okulunun önde gelen kıraatçileri arasında sayıldığı kaydedilmektedir. Ebû Bekir el-Enbârî’nin dediğine göre meşhur dil âlimi Sa‘leb, çağdaşı Ebû Mishal’in Ali b. Mübârek el-Ahmer’den rivayet ettiği beyitleri kendisinden dinleyerek rivayet etmediğine çok pişman olduğunu söylemiştir. Ebû Mishal nahiv ve lugatla da meşgul olmuş, ayrıca talebelerine kıraat dersleri vermiştir. Bazı kaynaklarda muhtelif beyitleri zikredilen Ebû Mishal’in nerede ve ne zaman öldüğü kesin olarak bilinmemekte, III. (IX.) yüzyılın ortalarına doğru vefat ettiği tahmin edilmektedir. Eserleri. Câhiliye devriyle İslâm’ın ilk yıllarına ait bedevîlerin çok zengin lugat malzemesini ihtiva eden Kitâbü’n-Nevâdir adlı eseri İzzet Hasan tarafından iki cilt halinde yayımlanmıştır (Dımaşk 1380-81/1961). Ebû Mishal’e nisbet edilen Kitâbü’l-Ġarîb ’in ise günümüze gelip gelmediği bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 189 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-mishal-el-arabi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-mishal-el-arabi, https://islamansiklopedisi.org.tr/ebu-mishal-el-arabi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ebu-mishal-el-arabi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ebu-mishal-el-arabi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-mishal-el-arabi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ebu-mishal-el-arabi)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hemedânî"
+  ],
+  "birth_temporal": {
+    "start_ah": 170,
+    "start_ce": 786,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-mishal-el-arabi, URL: https://islamansiklopedisi.org.tr/ebu-mishal-el-arabi || DİA death-date string: (ö. III./IX. yüzyılın ortaları [?]) || DİA categories: rivayet > nahiv || Chunk count: 1"
+}

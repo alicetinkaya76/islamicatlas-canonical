@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00000731",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHFEŞ ed-DIMAŞKĪ",
+      "ar": "الأخفش الدمشقي"
+    },
+    "originalScript": {
+      "ar": "الأخفش الدمشقي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Hârûn b. Mûsâ b. Şerîk et-Tağlibî ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "201 (816) yılında doğdu. Kıraati arz ve semâ yoluyla Abdullah b. Zekvân ve Hişâm b. Ammâr’dan öğrendi. Ebû Müshir el-Gassânî ile Sellâm b. Süleyman el-Medâinî’den hadis rivayet etti. Şam’da yaşadı ve uzun süre Bâbülcâbiye’de “şeyhülkurrâ” unvanı ile kıraat öğretti. Bundan dolayı Ahfeşü Bâbilcâbiye diye anıldı. Arap dili ve edebiyatında özellikle kırâat-i seb‘a ve garîbü’l-Kur’ân konularında derin bilgi sahibiydi. Kıraat imamı İbn Âmir’in râvisi İbn Zekvân tarikinin en önde gelen mümessillerinden biri olup Şam’da ahfeş lakabıyla anılanların da sonuncusudur. Kendisinden kıraat öğrenen ve rivayette bulunanlar arasında, başta Muhammed b. Nusayr b. Ca‘fer b. Ebû Hamza olmak üzere, İbrâhim b. Abdürrezzâk, İbn Şenebûz, Muhammed b. Nasr el-Ahrem, Ebü’l-Hasan b. Esrem, Ebû Bekir b. Futays, Ebü’l-Kāsım et-Taberânî, İbnü’n-Nâsıh, İbn Zekvân el-Ba‘lebekkî ve Ebû Bekir en-Nakkāş gibi âlimler anılabilir. Kaynaklarda kıraat ve Arap dili konularında eserleri olduğu kaydedilmekte ise de bugüne kadar bunlara rastlamak mümkün olmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 525 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahfes-ed-dimaski",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahfes-ed-dimaski, https://islamansiklopedisi.org.tr/ahfes-ed-dimaski",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahfes-ed-dimaski",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahfes-ed-dimaski",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahfes-ed-dimaski (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.95): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Tağlibî"
+  ],
+  "birth_temporal": {
+    "start_ah": 201,
+    "start_ce": 816,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 292,
+    "start_ce": 904,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahfes-ed-dimaski, URL: https://islamansiklopedisi.org.tr/ahfes-ed-dimaski || DİA death-date string: (ö. 292/904) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003432"
+  ]
+}

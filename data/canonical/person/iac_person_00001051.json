@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00001051",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMR b. MERZÛK",
+      "ar": "عمرو بن مرزوق"
+    },
+    "originalScript": {
+      "ar": "عمرو بن مرزوق"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Osmân Amr b. Merzûk el-Bâhilî el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında fazla bilgi yoktur. 130’lu (747) yıllarda doğdu. Şu‘be b. Haccâc ve Hammâd b. Seleme gibi muhaddislerden hadis öğrendi. Kendisinden de Buhârî, Ebû Dâvûd, Ebû Zür‘a, Ebû Hâtim er-Râzî gibi meşhur muhaddisler hadis rivayet ettiler. Yahyâ b. Saîd el-Kattân, Ali b. Medînî gibi münekkitler Amr’ın pek güvenilir olmadığını, Dârekutnî ve Hâkim de onun çok yanıldığını söylemekle beraber diğer hadis otoriteleri Amr’ı övmüşlerdir. İbnü’l-Medînî’nin Amr b. Merzûk’u “gevşek” bulduğu Ahmed b. Hanbel’e söylendiği zaman o hayret etmiş ve Amr’ın makbul (sâlih) bir râvi olduğunu söylemiştir. Hatta İbn Hanbel, Basra’ya hadis tahsili için giden oğlu Sâlih’e Amr’ın hadislerini niçin yazmadığını sormuş, onun, “Yazmamı istemediler” demesi üzerine de Affân b. Müslim’in Amr’ı beğendiğini söylemiş, Affân’ın takdir ettiği bir kişi hakkında kimsenin bir şey diyemeyeceğini belirterek Amr b. Merzûk’a olan güvenini dile getirmiştir. Yahyâ b. Maîn de ehl-i Kur’ân ve faziletli bir insan olarak nitelendirdiği Amr’ın güvenilir bir muhaddis olduğunu söylemiştir. Süleyman b. Harb’e göre onu tenkit edenler, kendilerinde olmayan hadisleri rivayet ettiği için kıskançlıkları sebebiyle böyle davranmışlardır. Buhârî’nin, el-Câmiʿu’ṣ-ṣaḥîḥ ’inde iki yerde (“Diyât”, 2, “Feżâʾilü aṣḥâbi’n-nebî”, 30) “haddesenâ Amr” diyerek ondan hadis rivayet etmesi, Ebû Dâvûd’un ise onun birçok rivayetini es-Sünen ’ine alması, Amr’ın hadisteki yerini göstermektedir. Burada şunu belirtmek gerekir ki Buhârî, Amr b. Merzûk hakkındaki tenkitleri dikkate alarak, belirtilen iki yerde de, hadisleri kendilerinden aldığı güvenilir bir başka hocasının daha adını verme ihtiyacını duymuştur. Şu‘be b. Haccâc’ın rivayetlerini en iyi Amr’ın bildiği, Basra’da onun meclislerinden daha büyük bir hadis meclisi kurulmadığı, bu meclislerde 10.000 hadis tâlibinin yer aldığı ifade edilmektedir. Amr b. Merzûk’un çok hayır yapması yanında önemli bir özelliği de bilhassa deniz savaşlarına katılmasıydı. Bu sebeple kitaplarını çok defa Ebû Dâvûd et-Tayâlisî’ye bırakırdı. Saçını, sakalını kına ile boyar, hadis rivayetinden artakalan zamanını ibadetle geçirirdi. Safer 224’te (Ocak 839) Basra’da vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 88-89 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amr-b-merzuk",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amr-b-merzuk, https://islamansiklopedisi.org.tr/amr-b-merzuk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amr-b-merzuk",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amr-b-merzuk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amr-b-merzuk (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bâhilî; Basrî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 224,
+    "start_ce": 839,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amr-b-merzuk, URL: https://islamansiklopedisi.org.tr/amr-b-merzuk || DİA death place: Basra || DİA death-date string: (ö. 224/839) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003141",
+    "iac:person-00007106"
+  ],
+  "students": [
+    "iac:person-00001599",
+    "iac:person-00001947",
+    "iac:person-00002157",
+    "iac:person-00002179",
+    "iac:person-00002313",
+    "iac:person-00003186",
+    "iac:person-00007757"
+  ]
+}

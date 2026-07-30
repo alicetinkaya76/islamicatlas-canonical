@@ -1,0 +1,72 @@
+{
+ "@id": "iac:person-00002639",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "EZRAKĪ, Ebü’l-Velîd",
+   "ar": "أبو الوليد الأزرقي"
+  },
+  "originalScript": {
+   "ar": "أبو الوليد الأزرقي"
+  },
+  "altLabel": {
+   "tr": [
+    "Ebü’l-Velîd Muhammed b. Abdillâh b. Ahmed b. Muhammed el-Ezrakī Aḫbâru Mekke adlı eseriyle meşhur olan tarihçi."
+   ]
+  },
+  "description": {
+   "tr": "Mekke’de doğdu. Dedelerinden Ezrak’a nisbetle Ezrakī diye meşhur olmuştur. Ailesinin menşei hakkında değişik görüşler vardır. Kendisi aslen Gassânîler’e mensup olduğunu söylediği gibi ( Aḫbâru Mekke , s. 31) Takıyyüddin el-Fâsî ile ( el-ʿİḳdü’s̱-s̱emîn , II, 49) İbnü’n-Nedîm de ( el-Fihrist , s. 124) onu teyit ederler. İbn Sa‘d ise dedesi Ezrak’ın Hâris b. Kelede es-Sekafî’nin Rum asıllı kölesi olduğunu, Yâsir’den sonra Ammâr’ın annesi Sümeyye ile evlendiğini, Tâif Muhasarası sırasında Ebû Bekre ile birlikte Hz. Peygamber’in yanına geldiğini ve âzat edildikten sonra Mekke’de yerleştiğini, çocuklarının Ümeyye oğullarına mensup kızlarla evlenerek nüfuz kazandıklarını, önceleri kendilerinin Kuzey Arapları’ndan Benî Tağlib ve Benî İkeb’e mensup olduklarını söyledikleri halde daha sonraki yıllarda Gassânîler’den Ebû Şemir’in soyundan geldiklerini iddia ettiklerini bildirir ( eṭ-Ṭabaḳāt , III, 247). Fück makalesinde bu konudaki rivayetleri ayrıntılı olarak ele almaktadır (bk. bibl.). Ezrakī, başta dedesi Ebü’l-Velîd Ahmed b. Muhammed olmak üzere İbrâhim b. Muhammed ve Muhammed b. Yahyâ’dan rivayetlerde bulundu. İshak b. Ahmed el-Huzâî ile İbrâhim b. Abdüssamed el-Hâşimî gibi bazı kişiler de ondan haber nakletmişlerdir. Ezrakī’nin vefat tarihi kesin olarak belli değildir. Fâsî, onun Abbâsî Halifesi Müntasır-Billâh devrinde (861-862) hayatta olduğunu kaydeder, ancak ölümüyle ilgili kesin bir tarih vermez. Kâtib Çelebi 223’te (838) öldüğünü söyler. Fuat Sezgin’e göre ise 250’de (864) vefat etmiştir. Ezrakī şöhretini Aḫbâru Mekke ve mâ câʾe fîhâ mine’l-âs̱âr adlı eserine borçludur. Daha çok dedesi Ahmed b. Muhammed’in rivayetlerine dayanan Aḫbâru Mekke , siyasî ve sosyal bir tarih olmaktan çok şehrin yerleşim planı ve topografik yapısı, özellikle Kâbe ve hac menâsikine ait yerler hakkında geniş bilgi veren bir eserdir (bk. AHBÂRU MEKKE ). Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 68-69 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+  }
+ },
+ "profession": [
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "dia:ezraki-ebul-velid",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA, slug=ezraki-ebul-velid, https://islamansiklopedisi.org.tr/ezraki-ebul-velid",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_dia",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:34:03Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:34:03Z",
+  "modified": "2026-05-04T15:34:03Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:34:03Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from DİA slug=ezraki-ebul-velid (1 chunks) by dia adapter (Hafta 4)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (2639-17407) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00017407 lehine yumuşak-silindi. Gerekçe: Mekke tarihçisi Ebü'l-Velîd el-Ezrakī ile A‘lâm'ın \"el-Ezrakī\" kaydı meslek (tarihçi), yıl (864/865) ve Mekke koordinatında birebir örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00017407"
+ },
+ "death_temporal": {
+  "start_ah": 250,
+  "start_ce": 864,
+  "approximation": "exact"
+ },
+ "note": "DİA cross-reference: slug=ezraki-ebul-velid, URL: https://islamansiklopedisi.org.tr/ezraki-ebul-velid || DİA birth place: Mekke || DİA death place: 250 || DİA death-date string: (ö. 250/864 [?]) || DİA categories: rivayet || Chunk count: 1",
+ "authored_works": [
+  "iac:work-00001848"
+ ]
+}

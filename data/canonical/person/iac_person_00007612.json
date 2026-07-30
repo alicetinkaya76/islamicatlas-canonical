@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00007612",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Vidâdî",
+      "ar": "ودادى"
+    },
+    "originalScript": {
+      "ar": "ودادى"
+    },
+    "description": {
+      "tr": "Azerbaycan’ın Şamhor (Şemkir) kentinde doğdu. Adı Veli, mahlası “Heste Vidâdî”, babasının adı Mehmed’dir. Hayatıyla ilgili mâlûmatın çoğu halk arasından derlemelere, yazıya intikal eden söylentilere ve şiirlerinden elde edilen bilgilere dayanır. Çocukluk yaşlarından itibaren medrese eğitimi gördü. 1725’te bölgedeki siyasî karışıklıklar sırasında babasının eşkıyalar tarafından öldürülmesi üzerine annesiyle birlikte Kazak’ın Şıhlı köyüne yerleşti. Bir süre Ahmed Ağa adlı bir kişinin kâtibi oldu, aynı zamanda medresede hocalık yaptı. 1749’da Ahmed Ağa öldürülünce maddî sıkıntı içine düştü. 1756’da dostu Molla Penâh Vâkıf’la birlikte Karabağ’ın Gülistan hanlığına göç ettiyse de birkaç yıl sonra tekrar Şıhlı’ya döndü. İki oğlu Vâkıf’ın iki kızıyla evlendiğinden onunla ilişkilerini bazan mektuplaşarak, bazan müşâare yoluyla devam ettirdi. Şıhlı’da bir yandan medresede ders verirken bir yandan da çiftçilikle geçimini sağlamaya çalıştı. Hayatının son yıllarında görme duyusunu yitirdi. Şıhlı’da öldü. Azerbaycan edebiyatında klasik şiirle halk şiiri geleneklerinin iç içe geçmesi, aruz yanında hece vezninin de kullanılması özelliği Vidâdî’nin şiirlerinde de görülür. Koşmalarında klasik şiirin ifadelerine, mazmunlarına yer verse de bu tür şiirleri daha çok halk şiirine, âşık şiiri geleneklerine bağlıdır. Klasik tarzdaki gazellerinde Fuzûlî’nin etkisi altında kalmıştır. Gençliğinde yazdığı şiirlerde iyimserlik, hayattan zevk alma, coşkun sevgi dikkati çeker. Olgunluk yaşlarından itibaren Azerbaycan hanlarının birbiriyle savaşması, oğlunun kaza eseri kendi tüfeğinden çıkan kurşunla ölmesi, Vâkıf’ın ve dostu Şeki Hanı Hüseyin Müştak’ın haksız yere katledilmesi gibi üzücü olaylar sebebiyle bu duygular yerini kötümserliğe ve zamandan şikâyete bırakmıştır. Nitekim Müştak’ın katli dolayısıyla 1780’de kaleme aldığı “Musîbetnâme” adlı muhammesi dönemin içtimaî ve siyasî hayatını acı bir dille eleştirir. Vidâdî’nin şiirleri, Vâkıf ve çağdaşlarından Akkızoğlu Piri ile müşâareleri halk arasında yaygındır. Şiirlerinin büyük bir kısmı ve bilhassa “Turnalar” âşıkların çalıp söylediği eserler arasında yer alır. Sade bir dille yazdığı canlı ve etkileyici şiirleri, sanatkârane ifadeler bakımından zengindir. Vidâdî’nin üstün eğitimi ve sağlam dinî bilgileri şiirlerine yansımış, dönemindeki haksızlıklara ve adaletsizliklere sessiz kalmamıştır. Şiirleri Hamit Araslı tarafından neşredilmiş (bk. bibl.) olup hakkındaki araştırmalar arasında Araz Dadaşzade’nin Molla Veli Vidadi adlı eserinin (Bakü 1987) özel bir yeri vardır. Bu madde TDV İslâm Ansiklopedisi’nin 2013 yılında İstanbul’da basılan 43. cildinde, 102-103 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:vidadi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=vidadi, https://islamansiklopedisi.org.tr/vidadi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:06Z",
+    "modified": "2026-05-04T15:35:06Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=vidadi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1709,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=vidadi, URL: https://islamansiklopedisi.org.tr/vidadi || DİA death-date string: (1709-1809) || Chunk count: 1"
+}

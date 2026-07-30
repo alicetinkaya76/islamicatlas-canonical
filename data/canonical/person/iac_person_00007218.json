@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00007218",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Sûzî",
+      "ar": "سوزى"
+    },
+    "originalScript": {
+      "ar": "سوزى"
+    },
+    "description": {
+      "tr": "Sivas’ta doğdu. Adı Ahmed’dir. Halvetiyye tarikatının Şemsiyye kolunun kurucusu Şemseddin Sivâsî’nin (ö. 1006/1597) torunlarındandır. İlmî ve tasavvufî bir çevrede iyi bir eğitim alarak yetişti. Dinî bilgileri Hâdimî’den, tasavvufla ilgili bilgileri Şeyh Abdülmecid Efendi’den öğrendi. 1198’de (1784) hacca gitti. Sivas’a dönüşünden sonra Şemsî Dergâhı’nda postnişin oldu. Sûzî 1246 (1830) yılında Sivas’ta vefat etti ve Sivas Meydan Camii’ndeki Şemseddin Sivâsî Türbesi’ne defnedildi. Yusuf Akyurt’un Sivas Şehri (Resimli Türk Abideleri) adlı eserinde (XVII, şekil 53) mevcut Kara Şemseddin Sivâsî Türbesi krokisine göre 18 numaralı mezar Sûzî Ahmed Efendi’ye aittir. Divanında yer alan, Halvetiyye tarikatı silsilesini anlattığı bir manzumede (s. 22) kendisinin Şemseddin Sivâsî’den sonra yedinci şeyh olduğunu ve Şeyh Abdülmecid Efendi’den el aldığını belirtmektedir. “Sûzî” mahlasını kullanan şairin şiirlerinde pek başarılı olduğu söylenemez. Nitekim kendisi de divanın sonunda yer alan uzunca bir manzumesinde, “Gerçi nâmevzun mühmel çokdurur bunda kelâm” mısraı ile şiirlerinin sanat değerinin fazla olmadığını ifade etmiş, İbnülemin Mahmud Kemal de, “Kişi noksânını bilmek gibi irfân olmaz” sözüyle bu kanaate iştirakini belirtmiştir. Manzumelerinden bir kısmı ilâhi olarak bestelenmiştir. Eserleri. 1. Divan . Müstezad nazım şekliyle yazılmış iki, kaside şeklinde bir münâcât ve iki na‘tla başlayan divanda daha sonra tasavvufî şiirler yer almaktadır. 192 sayfadan ibaret divan Şemseddin Sivâsî’nin mevlidinden seçilmiş bölümlerin de ilâvesiyle Mehmed Eşref Efendi tarafından bastırılmıştır (bk. bibl.). Çeşitli yazma nüshaları bulunan eser üzerinde (Kaplan, I/1 [1994], s. 42) Ayşe Ulusoy Suzi Divanı (Tenkitli Neşir) (2004, Cumhuriyet Üniversitesi Sosyal Bilimler Enstitüsü) ve Metin Ceylan (1999, Afyon Kocatepe Üniversitesi Sosyal Bilimler Enstitüsü) yüksek lisans çalışması yapmışlardır. 2. Sülûknâme . Tarîkatnâme adıyla da bilinen eserde sülûk ve tarikat âdâbından bahsedilmektedir. Mensur olup içinde yer yer manzum kısımlar da bulunan eserin Süleymaniye Kütüphanesi’nde üç nüshası tesbit edilmiştir (Osman Huldi Öztürkler, nr. 63/14; Hacı Mahmud Efendi, nr. 3131/2; Mihrişah Sultan, nr. 198/1). 3. Pendnâme . Tasavvufî nasihatlerden ibaret olan doksan altı beyitlik mesnevide zâhir ve bâtın ilminden, mücâhededen, kötü huylardan arınmaktan vb. hususlardan bahsedilmektedir. Eserin Süleymaniye Kütüphanesi’nde iki yazması mevcuttur (Osman Huldi Öztürkler, nr. 63/7; Mihrişah Sultan, nr. 198/2). Manzumenin tenkitli neşrini bir makale halinde yayımlayan Mahmut Kaplan (bk. bibl.) matbu bir nüshası daha olduğunu bildirmektedir. Eser ayrıca Alim Yıldız tarafından yayımlanmıştır (bk. bibl.). Kaynaklarda Sûzî’nin Kasîde-i Bür’e Tercümesi adlı bir eserinden daha bahsedilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 38. cildinde, 4 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:suzi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=suzi, https://islamansiklopedisi.org.tr/suzi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:suzi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=suzi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:00Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:00Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:00Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=suzi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=suzi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1246,
+    "start_ce": 1830,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1765,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=suzi, URL: https://islamansiklopedisi.org.tr/suzi || DİA birth place: Sivas || DİA death place: Sivas || DİA death-date string: (1765-1830) || DİA categories: tasavvuf > tarikat > şiir || Chunk count: 1",
+  "birth_place": "iac:place-00015096",
+  "death_place": "iac:place-00015096",
+  "active_in_places": [
+    "iac:place-00015096"
+  ]
+}

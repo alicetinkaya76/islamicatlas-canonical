@@ -1,0 +1,59 @@
+{
+  "@id": "iac:person-00002411",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EDÎB-i NÎŞÂBÛRÎ, Muhammed Takī",
+      "ar": "محمد تقي أديب نيشابورى"
+    },
+    "originalScript": {
+      "ar": "محمد تقي أديب نيشابورى"
+    },
+    "description": {
+      "tr": "Nîşâbur’un güneyinde Hayrâbâd köyünde doğdu. Kendisinden önce yaşayan ve Edîb-i Nîşâbûrî diye meşhur olan Şeyh Abdülcevâd’dan ayırt edilmek için “Edîb-i Sânî” diye anılır. Afganistan’da kabile reisliği yapan ailesi daha sonra İran’a gelip yerleşmişti. Edîb-i Nîşâbûrî okuma yazmayı terzilik yapan babası Mirza Esedullah’tan öğrendi. On sekiz yaşına kadar babasının yanında çalıştı. Daha sonra babası onu Meşhed’e gönderdi, ancak hocasını beğenmediği için Nîşâbur’a döndü. Bir süre tanınmış bir âlim olan dayısı Şeyh Muhammed Kedkenî’den ders aldıktan sonra Abdülcevâd Edîb-i Nîşâbûrî, Âgā Büzürg Hekîm Şehîdî ve Şeyh Esedullah-ı Yezdî gibi âlimlerin derslerine devam etti. İran ve Arap dili ve edebiyatları, mantık, felsefe, dinî ilimler, astronomi ve eski tıp alanlarında bilgi sahibi oldu. Öğrenimini tamamladıktan sonra Meşhed’de, evinde ve evinin dışında yedi ayrı medresede ders veren Edîb-i Nîşâbûrî öğrencilerinden aldığı az bir ücretle geçimini sağladı. Kendisine ancak ömrünün sonlarına doğru Âsitân-ı Kuds vakıflarından maaş bağlandı. 11 Aralık 1976’da öldü. Eserlerinden çok hocalığı ile tanınan Edîb-i Nîşâbûrî birçok müderris, vâiz, yazar, araştırmacı, üniversite profesörünün yetişmesini sağlamıştır. Öğrencileri tarafından derlenen Risâle-i Kâfiye ve bu kitaba ek olarak yazılmış Gevhernâme , Ṭarîḳatnâme , Târîḫ-i Edebiyyât-ı ʿArab , Târîḫ-i Edebiyyât-ı Îrân , Tâbiş-i Cân u Bîniş-i Revân , Ârâyiş-i Süḫan adlı eserleriyle divanı henüz basılmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 423-424 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:edib-i-nisaburi-muhammed-taki",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=edib-i-nisaburi-muhammed-taki, https://islamansiklopedisi.org.tr/edib-i-nisaburi-muhammed-taki",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:59Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:59Z",
+    "modified": "2026-05-04T15:33:59Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:59Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=edib-i-nisaburi-muhammed-taki (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1897,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=edib-i-nisaburi-muhammed-taki, URL: https://islamansiklopedisi.org.tr/edib-i-nisaburi-muhammed-taki || DİA birth place: Hayrâbâd || DİA death-date string: (1897-1976) || DİA categories: felsefe > mantık > tıp || Chunk count: 1"
+}

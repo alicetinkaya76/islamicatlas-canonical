@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00004491",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İRBÂD b. SÂRİYE",
+      "ar": "العرباض بن سارية"
+    },
+    "originalScript": {
+      "ar": "العرباض بن سارية"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Necîh el-İrbâd b. Sâriye es-Sülemî"
+      ]
+    },
+    "description": {
+      "tr": "Süleym kabilesine mensup olup aynı kabileden altı kişiyle birlikte Resûl-i Ekrem’e gelerek biat ettiği rivayet edilmiştir (Heysemî, VIII, 51-52). Hemşerisi Amr b. Abese’nin ve onun kendilerini dördüncü müslüman olarak gösterdikleri ileri sürülmüşse de Zehebî, İrbâd’ın böyle bir iddiada bulunduğuna dair rivayetin sahih olmadığını belirtmiştir ( Aʿlâmü’n-nübelâʾ , III, 421). Amr b. Abese gibi ilk müslümanlardan biri olması halinde İrbâd’ın da Mekke’ye gelip Hz. Peygamber’le görüşmüş olması, o sırada Resûl-i Ekrem’in çevresinde yeteri kadar müslüman bulunmadığı için güvenlik sebebiyle ve onun tavsiyesi üzerine kabilesine geri dönmesi mümkündür (bk. AMR b. ABESE ). İrbâd fakir olduğundan ehl-i Suffe arasında yaşadı. Tebük Gazvesi’ne katılmak için binek hayvanı bulamayan altı yoksul sahâbî ile birlikte o da Resûl-i Ekrem’den yardım istedi. Resûlullah binek temin edemediğini söyleyince üzülerek ağlayan, bu sebeple “bekkâîn” diye anılan bu yedi kişi hakkında âyet nâzil oldu (et-Tevbe 9/92). İrbâd, Hz. Peygamber’in vefatından sonra Humus’a yerleşerek zâhidâne bir hayat sürdü ve 75’te (694) vefat etti. Bu tarihten önce Abdullah b. Zübeyr b. Avvâm’ın Emevîler’le mücadele ettiği yıllarda öldüğü de söylenmiştir. İrbâd, Resûl-i Ekrem’den ve Ebû Ubeyde b. Cerrâh’tan rivayette bulunmuş, kızı Ümmü Habîbe, sahâbeden Ebû Ümâme el-Bâhilî, muhadramûndan Cübeyr b. Nüfeyr, tâbiînden Abdurrahman b. Amr es-Sülemî, Abdullah b. Ebû Bilâl, Ebû Rühm es-Semâî, Habîb b. Ubeyd ve diğerleri de ondan hadis nakletmiş, rivayetleri Kütüb-i Sitte ’nin dört süneninde yer almıştır. Abdullah Muhammed Şüfey‘, Dirâsetü merviyyâti’ṣ-ṣaḥâbe: Sehl b. ʿAbdillâh es-Sâʿidî ve’l-ʿİrbâḍ b. Sâriye ve S̱evbân mevlâ Resûlillâh ṣallallāhü ʿaleyhi ve sellem fî Müsnedi’l-İmâm Aḥmed b. Ḥanbel adlı yüksek lisans tezinde (1404, Câmiatü Ümmi’l-kurâ Külliyyetü’ş-şerîati’l-İslâmiyye) onun rivayetlerini de incelemiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 438 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:irbad-b-sariye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=irbad-b-sariye, https://islamansiklopedisi.org.tr/irbad-b-sariye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:irbad-b-sariye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/irbad-b-sariye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:29Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:29Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=irbad-b-sariye (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sülemî"
+  ],
+  "death_temporal": {
+    "start_ah": 75,
+    "start_ce": 694,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=irbad-b-sariye, URL: https://islamansiklopedisi.org.tr/irbad-b-sariye || DİA death place: 75 || DİA death-date string: (ö. 75/694) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00000801",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahmed Hulûsi Efendi"
+    },
+    "description": {
+      "tr": "Amasyalıdır. Şirvânî İsmâil Efendi’nin oğlu, Sadrazam Şirvânîzâde Rüşdü Paşa’nın kardeşidir. Tahsilini Amasya ve İstanbul’da yaptı. Önce müderris, Mayıs 1867’de de Galata mollası oldu; aynı yılın aralık ayında Mekke-i Mükerreme ve daha sonra da İstanbul pâyelerini aldı. Kendisine 1874’te fiilen İstanbul kadılığı, ardından Anadolu kazaskerliği pâyesi verildi. 1877-78 Osmanlı-Rus Savaşı (Doksanüç Harbi) sırasında Afganistan’ın Rusya’ya taarruz ederek Osmanlı Devleti’ne yardımda bulunmasını ve aynı zamanda İngiltere ile diplomatik münasebetlere girişmesini temin için 1877’de fevkalâde sefir olarak Sultan II. Abdülhamid tarafından Afganistan’a, Emîr Şîr Ali Han nezdine gönderildi. Ahmed Hulûsi Efendi, beraberinde Haremeyn pâyesine sahip sır kâtibi Mektûbîzâde Ahmed Bahâî Efendi ve daha bazı kişiler olduğu halde, Hindistan yolu ile Kâbil’e hareket etti. Ağustos ayında Kâbil’e varabildi ve bir hayli zorluklardan sonra Şîr Ali Han tarafından kabul edildi. Ancak bu elçilik görevinden istenilen sonuç alınamadı ve heyet II. Abdülhamid’in mektup ve hediyelerini Şîr Ali Han’a verdikten sonra geri döndü. Ahmed Hulûsi Efendi, dönüşte Diyarbekir nâibliğine tayin edildi (1878); iki yıl sonra da Amasya’da ikamete mecbur tutuldu. 15 Cemâziyelevvel 1306’da (17 Ocak 1889) orada vefat etti. Mecelle ’nin birden beşe kadar olan kitaplarında “Dîvân-ı Ahkâm-ı Adliyye âzası” unvanı ile mührü vardır. Altı, yedi ve sekizinci kitapların hazırlanmasına katılmamıştır. Dokuzuncu kitapta aynı unvan, onuncu kitapta “Şûrâ-yı Askerî müftüsü”, on birinci kitapta “Dârülhilâfe kadısı” unvanı altında, on ikinci kitapta unvansız, on üçüncü ile on dördüncü kitaplarda da “Meclis-i Tedkīkāt-ı Şer‘iyye ve Meclis-i İntihâb-ı Hükkâm reisi” unvanı altında mührü vardır. Mecelle Cemiyeti’nin diğer bazı âzaları gibi Ahmed Hulûsi Efendi’nin de müstakil eserleri yoktur. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 90 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-hulusi-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-hulusi-efendi, https://islamansiklopedisi.org.tr/ahmed-hulusi-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-hulusi-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-hulusi-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:56Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-hulusi-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1306,
+    "start_ce": 1889,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-hulusi-efendi, URL: https://islamansiklopedisi.org.tr/ahmed-hulusi-efendi || DİA death place: 1306 || DİA death-date string: (ö. 1306/1889) || Chunk count: 1"
+}

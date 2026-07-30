@@ -1,0 +1,65 @@
+{
+  "@id": "iac:person-00000500",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. CÜD‘ÂN",
+      "ar": "عبد الله بن جدعان"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن جدعان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Zübeyr Abdullāh b. Cüd‘ân b. Amr el-Kureşî"
+      ]
+    },
+    "description": {
+      "tr": "Teym b. Mürre kabilesine mensup olup Hz. Ebû Bekir’in babasının amcazadesidir. Babası Cüd‘ân b. Amr, annesi Su‘dâ bint Uveyc b. Sa‘d’dır. Gençliğinde başına buyruk biri idi; çeşitli cinayetler işlediği için babasını ve kabilesini kendi adına devamlı diyet ödemek mecburiyetinde bırakıyordu. Sonunda kabilesiyle birlikte babası da oğlunu reddetti ve artık onu himaye etmeyeceğini, diyet borçlarını da ödemeyeceğini ilân etti. Daha sonra kervanlarla ticaret yapmaya başladı; esir ve köle ticaretiyle de meşgul olarak büyük bir servete kavuştu. Ficar savaşlarında kendi hesabına yüz askeri teçhiz ederek aynı zamanda Kureyş kabilesinin kumandanlığını yaptı. Yaşlandıkça cömertliği artıyor, birçok köle ve câriyeyi âzat edip yardımda bulunuyordu. Meşhur sahâbî Suheyb-i Rûmî de onun kölelerindendi. Abdullah b. Cüd‘ân’ı Câhiliye döneminde büyük bir şöhrete ulaştıran hadise, Hilfü’l-fudûl ’dür. Zulme uğrayanların haklarını zalimlerden alıncaya kadar mücadele etmek üzere yemin edenlerin katıldığı ve Hz. Peygamber’in de hazır bulunduğu bu antlaşmayı, Abdullah b. Cüd‘ân ile Zübeyr b. Abdülmuttalib düzenledi. Hilfü’l-fudûl ile büyük bir itibar kazanan Abdullah, yalnız Mekkeliler’i değil, Arap yarımadasının muhtelif yerlerinden hac, umre veya ticaret maksadıyla Mekke’ye gelenleri de himayesine alır, onların silâh ve eşyalarını muhafaza ederdi. Ayrıca onun herkese açık sofrası, bol ikramları ve hediye dağıtması gibi üstün hasletleri, başta Ümeyye b. Ebü’s-Salt olmak üzere, bazı şairlerin kasidelerine konu teşkil etmiş ve bu durum Mekkeliler arasında da itibar kazanmasına yol açmıştır. Hz. Âişe, onun sahip olduğu bu hasletlerin âhirette kendisine bir fayda sağlayıp sağlamayacağını Hz. Peygamber’e sormuş, Peygamber de, “Hayır, çünkü o bir defa olsun, ‘Rabbim, kıyamet gününde günahlarımı affet!’ dememiştir” şeklinde cevap vermişti. Abdullah b. Cüd‘ân’ın nübüvvetten on yıl kadar önce öldüğü tahmin edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 93-94 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-cudan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-cudan, https://islamansiklopedisi.org.tr/abdullah-b-cudan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-05-04T15:32:39Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-cudan (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî"
+  ],
+  "death_temporal": {
+    "start_ce": 600,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-cudan, URL: https://islamansiklopedisi.org.tr/abdullah-b-cudan || DİA death-date string: (ö. 600 [?]) || DİA categories: hadis > matematik || Chunk count: 1"
+}

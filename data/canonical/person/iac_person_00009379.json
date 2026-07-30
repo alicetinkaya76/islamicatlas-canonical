@@ -1,0 +1,97 @@
+{
+ "@id": "iac:person-00009379",
+ "@type": [
+  "iac:Person",
+  "iac:Ruler"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn Munqidh",
+   "tr": "İbn Munkit",
+   "ar": "ابن منقذ"
+  },
+  "originalScript": {
+   "ar": "ابن منقذ"
+  },
+  "description": {
+   "tr": "Emîr, Şîzir kalesi sahibi Benî Munkit'in enbileri arasında yer alan (Hama yakınında, Haçlılar tarafı",
+   "en": "Emir, among the greatest of Banū Munqidh who possessed the fortress of Shīzar (near Hamah, called Si"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Usāma b. Murshid b. ʿAlī b. Muqlid b. Nasr b. Munqidh al-Kinānī al-Kalbī al-Shīzrī, Abū al-Muzaffar, Muʾayyad al-Dawla"
+  },
+  "altLabel": {
+   "tr": [
+    "Üsâme b. Murşid b. Ali b. Muklid b. Nasr b. Munkit el-Kinânî el-Kelbî eş-Şîzrî, Ebû'l-Muzaffer, Mueyyed ed-Devle"
+   ],
+   "ar": [
+    "أسامة بن مرشد بن علي بن مقلد بن نصر بن منقذ الكناني الكلبي الشيزري،أبو المظفر، مؤيد الدولة"
+   ]
+  }
+ },
+ "profession": [
+  "ruler"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:1448",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1448",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:42Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:42Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:42Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=1448 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:07Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1448."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3963-9379) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003963 lehine yumuşak-silindi. Gerekçe: Ölüm yılı birebir 1188, Şeyzer doğum yeri ve Dımaşk koordinatı, Şeyzer'li emîr-edip Üsâme b. Münkiz'in hayat hikâyesiyle tam örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003963"
+ },
+ "death_temporal": {
+  "start_ah": 584,
+  "start_ce": 1188,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1448, heading_ar=ابن منقذ || Ziriklī century_ce=12 || Ziriklī place coords (city/region of activity): 33.51, 36.28",
+ "active_in_places": [
+  "iac:place-00007415",
+  "iac:place-00011312"
+ ],
+ "kunya": "أبو المظفر"
+}

@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00001188",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ATIYYE b. SAÎD",
+      "ar": "عطيّة بن سعيد"
+    },
+    "originalScript": {
+      "ar": "عطيّة بن سعيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Atıyye b. Saîd b. Abdillâh el-Endelüsî"
+      ]
+    },
+    "description": {
+      "tr": "Tunus şehirlerinden Kafsa’ya nisbetle Kafsî diye de anılır. İlim tahsili için uzun seyahatler yaparak Şam, Irak, Mısır, Horasan ve Buhara gibi belli başlı ilim merkezlerini dolaştı. Endülüs muhaddisi İbnü’l-Bâcî, Horasan fakihi ve muhaddisi Zâhir b. Ahmed’den hadis okudu. Endülüs’te Ebü’l-Hasan Ali b. Hasan b. Ali el-Antâkî’den, Mısır’da da Ebû Ahmed Abdullah b. Hüseyin es-Sâmirî’den ilm-i kırâati öğrendi. Bu seyahatler sırasında istinsah ederek veya satın alarak biriktirdiği kitapların ancak develerle taşınabilecek kadar çok olduğu rivayet edilir. Gittiği yerlerde halkın takdir ve hayranlığını kazanan Atıyye’ye meşhur sûfî Ebû Abdurrahman es-Sülemî’nin bazı müridlerinin intisap ettiği ve bu yüzden Sülemî’nin onu kıskandığı söylenir. Firebrî’nin talebesi İsmâil b. Muhammed b. Hâcib’den bizzat dinlediği Ṣaḥîḥ-i Buḫârî ’yi Mekke’de rivayet ederken râviler hakkında verdiği geniş bilgiler, talebelerini derin ilmine hayran bırakmıştır. Sika bir hadis hâfızı olan Atıyye b. Saîd’in muhtelif eserleri olduğu kaydedilmekte ve semâ hakkındaki kitabında semâı câiz gördüğü için Kuzey Afrikalılar’ca tasvip edilmediği belirtilmektedir. Hz. Peygamber’in miğfer giydiğine dair hadisin tarik lerini bir araya getirdiği birkaç cüzlük bir eserinden de söz edilmektedir. 407’de (1016) Mekke’de vefat eden Atıyye’nin 403, 408 ve 409’da öldüğüne dair de rivayetler vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 63-64 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:atiyye-b-said",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=atiyye-b-said, https://islamansiklopedisi.org.tr/atiyye-b-said",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:atiyye-b-said",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/atiyye-b-said",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=atiyye-b-said (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Endelüsî"
+  ],
+  "death_temporal": {
+    "start_ah": 407,
+    "start_ce": 1016,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=atiyye-b-said, URL: https://islamansiklopedisi.org.tr/atiyye-b-said || DİA death-date string: (ö. 407/1016) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

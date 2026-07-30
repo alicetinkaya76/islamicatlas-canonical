@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00000641",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. HUCEYRE",
+      "ar": "عبد الرحمن بن حجيرة"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن حجيرة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Abdurrahmân b. Huceyre el-Havlânî el-Mısrî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında fazla bilgi yoktur. Emevîler zamanında Mısır Valisi Abdülazîz b. Mervân tarafından kadı tayin edildi. Ayrıca hazineyi yönetme, vaaz ve irşad işlerini de üstlenen İbn Huceyre’nin bu görevler karşılığında yılda 1000 dinar maaş aldığı bilinmektedir. Vefatının 80 veya 83 yıllarında olduğuna dair iki ayrı rivayet vardır. Nesâî, Dârekutnî ve İbn Hibbân gibi hadis münekkitlerinin sika kabul ettiği İbn Huceyre, derin bir fıkıh bilgisine de sahipti. Nitekim İbn Abbas’ın, kendisinden fetva isteyen birine, “Aranızda İbn Huceyre varken bana mı soruyorsun?” diye çıkıştığı nakledilir. İbn Huceyre, sahâbîlerden Ebû Zer, İbn Mes‘ûd, Ebû Hüreyre, Ukbe b. Âmir ve Abdullah b. Amr b. Âs’tan hadis rivayet etmiştir. Kendisinden de oğlu Abdullah, Hâris b. Yezîd el-Hadramî, Abdullah b. Sa‘lebe el-Hadramî ve başkaları rivayette bulunmuşlardır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 167 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-huceyre",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-huceyre, https://islamansiklopedisi.org.tr/abdurrahman-b-huceyre",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-05-04T15:32:40Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-huceyre (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Havlânî; Mısrî"
+  ],
+  "death_temporal": {
+    "start_ah": 83,
+    "start_ce": 702,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-huceyre, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-huceyre || DİA death-date string: (ö. 83/702 [?]) || DİA categories: rivayet > hadis > fıkıh || Chunk count: 1"
+}

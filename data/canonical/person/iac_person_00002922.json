@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00002922",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Gulâm Hasan",
+      "ar": "غلام حسن"
+    },
+    "originalScript": {
+      "ar": "غلام حسن"
+    },
+    "description": {
+      "tr": "Delhi’de doğdu. Doğum tarihini bazı kaynaklar 1140 (1728), bazıları 1150 (1737) veya 1154 (1741) olarak kaydeder. Babası Mîr Gulâm Hüseyin Dâhik, özellikle hiciv ve latifeleriyle tanınmış bir şairdi. Dedesi Mîr İmâmî, Bâbürlü hükümdarlarından I. Şah Cihan döneminde (1628-1657) Herat’tan gelip Delhi’ye yerleşmişti. Öğrenimini ailesinin yanında tamamlayan Gulâm Hasan, 1739’da Delhi’de çıkan karışıklıktan dolayı babası ile birlikte Eved (Avad/Oudh) Devleti’nin başşehri Feyzâbâd’a gitti. Burada Nevvâb Âsafüddevle’nin hizmetine girdi. Âsafüddevle 1775’te başşehri Leknev’e naklettikten sonra Gulâm Hasan da oraya yerleşti. Leknev’de Sâlâr Ceng ile oğlu Nevâziş Han ve Cevâhir Ali Han gibi ileri gelen devlet adamlarıyla tanıştı. Kaside ve mesnevilerini ithaf ettiği bu kişiler tarafından himaye edilen Gulâm Hasan Leknev’de vefat etti. Önce Farsça, daha sonra Urduca yazdığı şiirlerinden bilhassa Farsça olanlarında başarılı bir sanatkâr olduğu herkesçe kabul edilmiştir. Urduca şiirlerinde Mîr Ziyâ, Mirza Sevdâ-i Dihlevî, Sûz ve Hâce Mîr Derd gibi şairlerin etkisi görülür. Eserleri . Gulâm Hasan’ın başlıca eserleri şunlardır: 1. Siḥrü’l-beyân . Bir kaside ile birlikte Âsafüddevle’ye takdim ettiği Urduca bir mesnevi olup Delhi şiir akımının en güzel örneğini oluşturur. Eski bir Hint halk hikâyesini konu alan ve Urdu şiirinin de en mükemmel eseri olarak kabul edilen Siḥrü’l-beyân ’ın Urdu edebiyatı üzerinde büyük etkisi olmuştur. Eser, Sâlim Abdullah (Karaçi 1955) ve Vahîd Kureyşî (Lahor 1966) tarafından neşredilmiştir. Mîr Bahadır Ali Hüseynî’nin nesre çevirdiği Siḥrü’l-beyân ’ı Aram, Ronak Banarsi, Fâhir Muhammed Tâig, Zarîf ve Abdullah Fetihpûrî tiyatro eseri haline getirmişlerdir. Eser Bowdler Bell, M. H. Court ve diğer bazı kişiler tarafından İngilizce’ye çevrilmiştir. 2. Teẕkire-i Şuʿarâ-yı Urdû (Aligarh 1922). Müellifin Farsça tek mensur eseri olup Urduca şiir yazan 300 şairin hal tercümesini ihtiva eder. Eski, orta ve çağdaş dönem şairlerine göre üç bölüme ayrılmıştır. Şairlerin alfabetik sıra ile kaydedildiği eserin dili ağır olmakla birlikte şairler ve şiirleri hakkında isabetli değerlendirmeler yapmıştır. 3. Mes̱neviyyât . Müellifin kendi mesnevilerinden oluşan Urduca bir mecmua olup bu mesnevilerin başlıcaları şunlardır. Naḳl-i Zen-i Fâḥişe , Şâdî-i Âṣafüddevle , Tehniyet-i ʿÎd , Vaṣf-ı Ḳaṣr-i Cevâhir , Ḫân-ı Niʿmet , Rumûzü’l-ʿârifîn ve Gülzâr-ı İrem . Bunlardan Rumûzü’l-ʿârifîn , Mevlânâ Celâleddîn-i Rûmî’nin Mes̱nevî ’si örnek alınarak yazılmıştır. Gülzâr-ı İrem tarihle ilgili bir eser niteliğindedir. Vaṣf-ı Ḳaṣr-i Cevâhir ise Cevâhir Ali Han’ın methine dairdir. Şairin bu mesnevileri Mes̱neviyyât-ı Mîr Ḥasan adıyla Abdülbârî Âsî tarafından yayımlanmış (Leknev 1945), daha sonra Vahîd Kureyşî tarafından eserin yeni baskısı yapılmıştır (Lahor 1966). Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 185 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:gulam-hasan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=gulam-hasan, https://islamansiklopedisi.org.tr/gulam-hasan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:gulam-hasan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=gulam-hasan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:07Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:07Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=gulam-hasan (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=gulam-hasan)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1201,
+    "start_ce": 1786,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=gulam-hasan, URL: https://islamansiklopedisi.org.tr/gulam-hasan || DİA birth place: Delhi || DİA death place: Leknev || DİA death-date string: (ö. 1201/1786) || DİA categories: şiir || Chunk count: 1"
+}

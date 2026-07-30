@@ -1,0 +1,128 @@
+{
+  "@id": "iac:person-00000732",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHFEŞ el-ASGAR",
+      "ar": "الأخفش الأصغر"
+    },
+    "originalScript": {
+      "ar": "الأخفش الأصغر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Süleymân b. el-Fazl el-Ahfeş el-Asgar",
+        "Ali b. Süleyman b. el-Fadl"
+      ],
+      "ar": [
+        "الاخفش الصغر",
+        "علي بن سليمان بن الفضل، أبو المحاسن، المعروف بالأخفش الأصغر"
+      ]
+    },
+    "description": {
+      "tr": "849’da Bağdat’ta doğdu. Sa‘leb, Müberred, Fazl el-Yezîdî ve Ebü’l-Aynâ’dan ders aldı. 900 yılında geldiği Mısır’dan 912’de ayrılarak Halep’e gitti, daha sonra Bağdat’a geçti ve 315 (927) yılı Şâban veya Zilkade ayında, bir rivayete göre de 316 (928) yılında orada vefat etti. Ölümü hakkında şöyle bir rivayet zikredilir: Ahfeş, devrin meşhur şair ve edibi İbn Mukle’ye giderek yoksulluk içinde bulunduğunu belirtir ve kendisine yardım etmesi için vezir Ebü’l-Hasan Ali b. Îsâ ile konuşmasını rica eder. Bunun üzerine İbn Mukle vezir ile görüşerek fakihlere yapıldığı gibi Ahfeş’e de yardım edilmesini ister. Fakat vezir kalabalık bir topluluğun önünde İbn Mukle’ye hakaret ederek onu kovar. Durumu öğrenen Ahfeş âni bir kalp krizi ile ölür. Talebesi Merzübânî’nin ifadesine göre Ahfeş, gerek rivayet gerekse nahiv ilmi konusunda pek bilgili olmadığı gibi şair de değildi. Kendisine nahiv meseleleriyle ilgili bir soru sorulduğu zaman canı sıkılır, hatta ısrarla bir şey soranı yanından kovardı. İbnü’r-Rûmî’nin onun hakkındaki hicviyeleri meşhurdur. Fakat mizahtan hoşlanan Ahfeş kendisi hakkındaki bu hicivleri kaydeder ve ezberlemeye çalışırdı. Onu kızdıramadığını gören İbnü’r-Rûmî’nin sonunda Ahfeş’i hicvetmekten vazgeçtiği rivayet edilir. Sîbeveyhi’nin ünlü el-Kitâb ’ını şerheden Ahfeş’in Kitâbü’l-Envâʿ , Kitâbü’l-Vâḥid ve’l-cemʿ , Kitâbü’t-Tes̱niye ve’l-cemʿ , Kitâbü’n-Nevâdir , Kitâbü’l-Cerâd , Kitâbü’l-Mesâʿiyye , Taʿlîḳāt ʿalâ Kitâbi’n-Nebât li’l-Asmaʿî , Dârâtü’l-ʿArab , Kitâbü’l-Emâlî ve el-Müheẕẕeb gibi eserlerinin adlarına kaynaklarda rastlanmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 525 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "A grammarian, among the scholars"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAlī b. Sulaymān b. al-Faḍl"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahfes-el-asgar",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahfes-el-asgar, https://islamansiklopedisi.org.tr/ahfes-el-asgar",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:7157",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=7157, heading_ar=الاخفش الصغر",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahfes-el-asgar (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[7157]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=7157 (heading_ar=الاخفش الصغر) via Track A (DİA→Alam xref bridge). dt=Nahvî, ilim adamlarından"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+kunya+translit from alam_detail.json el-alam:7157."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 315,
+    "start_ce": 927,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 316,
+    "start_ce": 928,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahfes-el-asgar, URL: https://islamansiklopedisi.org.tr/ahfes-el-asgar || El-Aʿlām (Ziriklī) cross-reference: alam_id=[7157] || DİA birth place: Bağdat || DİA death place: 912 || DİA death-date string: (ö. 316/928 [?]) || DİA categories: rivayet > nahiv || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=7157, heading_ar=الاخفش الصغر, dt=Nahvî, ilim adamlarından",
+  "active_in_places": [
+    "iac:place-00002027",
+    "iac:place-00011312"
+  ],
+  "authored_works": [
+    "iac:work-00003242"
+  ],
+  "kunya": "أبو المحاسن",
+  "teachers": [
+    "iac:person-00002331",
+    "iac:person-00006639"
+  ],
+  "students": [
+    "iac:person-00001020",
+    "iac:person-00005462"
+  ]
+}

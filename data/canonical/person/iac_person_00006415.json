@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00006415",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "RIBERA y TARRAGO, Julián"
+    },
+    "description": {
+      "tr": "Valencia’da doğdu. 1882’den itibaren Francisco Codera y Zaidin’in gözde öğrencisi ve daha sonra asistanı oldu. 1887-1905 yılları arasında Zaragoza (Sarakusta) Üniversitesi’nde Arapça öğretim üyeliği yaptı. Ardından İslâm ve Yahudilik tarihi dersleri vermek üzere Madrid Üniversitesi’nde görev aldı. 1913’te aynı üniversitede Arap-İspanyol Edebiyatı Kürsüsü başkanlığını üstlendi ve bunu emekliye ayrıldığı 1927 yılına kadar yürüttü. Endülüs tarihinin siyasî hayat, hukuk, müzik, dil, şiir, eğitim ve kurumlar gibi farklı alanlarıyla ilgilenen nâdir araştırmacılardan biri olan Ribera, İspanyol Kraliyet Akademisi’ne ve Kraliyet Tarih Akademisi’ne üye idi. Eserleri. 1. La Enseña entre los musulmanes españoles (Zaragoza 1893). Endülüs’teki eğitimi, eğitim kurumlarını ve bunların faaliyetlerini ele almaktadır. 2. Bibliófilos y bibliotecas en la España musulmana (1895). Endülüs’te kitap sevgisi ve kütüphaneler hakkındadır. 3. Orígenes del justicia de Aragón (Zaragoza 1897). Aragon’da adaletin ve adlî kurumların kökeninin incelendiği çalışmada Endülüs’teki İslâm hukuku ve kurumlarından kaynaklanan tesirler de gün ışığına çıkarılmaktadır. 4. Música de las Cantigas (1922). Endülüs şarkı mûsikisi üzerinedir. 5. De historia arábigo-valenciana (Valencia 1925). Valencia şehrinin İslâmî dönem (Belensiye) tarihine dair bir çalışmadır. 6. El Cancionero de Abencuzman (Madrid 1928). Lirik şiirler ve şarkı sözleri mecmuasıdır. 7. Disertaciones y opúsculos (I-II, Tetuan 1952). Eserde Ribera’nın çeşitli makaleleri ve kitaplarından bazı bölümler bir araya getirilmiştir. 8. La música árabe y su influencia en la española (Valencia 2000). Arap müziği ve bunun İspanyol müziğine etkileri hakkındadır. 9. Los ladrillos moros de Xara (Alicante 2005). Endülüs’ün Xara bölgesindeki müslümanların tuğla yapım tekniklerini ve tuğla çeşitlerini konu edinir. Ribera ayrıca İbnü’l-Kūtıyye’nin Târîḫu iftitâḥi’l-Endelüs ’ünü İspanyolca’ya çevirerek Historia de la conquista de España de Abenalcotia el Cordobes (Madrid 1926), hocası Codera ile birlikte İbn Hayr el-İşbîlî’nin Fehrese ’sini Index Librorum (I-II, Saragossa 1894-1895) ve Muhammed b. Hâris el-Huşenî’nin Ḳuḍâtü Ḳurṭuba ’sını İspanyolca tercümesiyle birlikte Historia de los jueces de Córdoba por Aljoxaní (Madrid 1914) adıyla neşretmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2008 yılında İstanbul’da basılan 35. cildinde, 79 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ribera-y-tarrago-julian",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ribera-y-tarrago-julian, https://islamansiklopedisi.org.tr/ribera-y-tarrago-julian",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ribera-y-tarrago-julian",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ribera-y-tarrago-julian",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:51Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ribera-y-tarrago-julian (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ribera-y-tarrago-julian)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1857,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ribera-y-tarrago-julian, URL: https://islamansiklopedisi.org.tr/ribera-y-tarrago-julian || DİA birth place: Valencia || DİA death-date string: (1857-1934) || DİA categories: şiir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001849"
+  ],
+  "students": [
+    "iac:person-00001149",
+    "iac:person-00002901"
+  ]
+}

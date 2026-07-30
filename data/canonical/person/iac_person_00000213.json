@@ -1,0 +1,113 @@
+{
+ "@id": "iac:person-00000213",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Al-Tabari",
+   "tr": "Taberî",
+   "ar": "الطبري"
+  },
+  "originalScript": {
+   "ar": "الطبري"
+  },
+  "altLabel": {
+   "en": [
+    "Muhammad ibn Jarir al-Tabari"
+   ],
+   "tr": [
+    "Muhammed b. Cerîr et-Taberî"
+   ],
+   "ar": [
+    "محمد بن جرير الطبري"
+   ]
+  },
+  "description": {
+   "tr": "Kesin Kur'an tefsirini VE 40 ciltlik dünya tarihini yazdı — 40 yıl boyunca günde 40 sayfa ürettiği rivayet edilir || Taberî'nin entelektüel dürüstlüğü dikkat çekiciydi — çelişkili rivayetleri editoryal yargı olmadan dahil etti. || [Tarih notu] SUNY'nin 40 ciltlik İngilizce çevirisi Taberî'nin vazgeçilmezliğini doğruladı.",
+   "en": "Wrote the definitive Quran commentary AND a 40-volume world history — reportedly producing 40 pages per day for 40 years. His intellectual honesty set the standard for Islamic scholarship || Tabari's intellectual honesty was remarkable — he included contradictory accounts without editorial judgment, letting sources speak for themselves. His tafsir remains the standard reference for all subsequent Quran commentaries. Hugh Kennedy calls his history 'one of the great monuments of world history.' || [Historiographical note] SUNY's 40-volume English translation (completed after 20+ years) confirmed Tabari's indispensability. His citation of the 'Satanic Verses' incident became central to the Salman Rushdie controversy.",
+   "ar": "كتب التفسير الأشمل للقرآن وتاريخًا عالميًا في ٤٠ مجلدًا || أمانة الطبري الفكرية مميزة — أدرج روايات متناقضة دون حكم. تفسيره لا يزال المرجع المعياري. يصفه هيو كينيدي بأنه 'من الآثار العظيمة للتاريخ العالمي'"
+  }
+ },
+ "profession": [
+  "scholar",
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0030",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0030, lecture_id=tafsir",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   },
+   {
+    "source_id": "scholars:34",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=34",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:55:32Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:55:32Z",
+  "modified": "2026-07-12T14:15:21Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:55:32Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0030 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T14:25:01Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:15:21Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "h11_001 QID karantinası: wikidata:Q316324 kayıttan çıkarıldı (denetim MISMATCH, sim=36, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (213-7225-16663-21303) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00007225 lehine yumuşak-silindi. Gerekçe: Dördü de Muhammed b. Cerîr et-Taberî'dir (ö. 922/923, Âmül-Taberistan); 16663'teki 'ruler' rolü etiketleme hatasıdır, nesep 'İbn Cerîr' aynı şahsı işaret eder."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00007225"
+ },
+ "birth_temporal": {
+  "start_ce": 839,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 923,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0030, lecture_week=7. || Key works: {'title': {'en': 'Jāmiʿ al-Bayān ʿan Taʾwīl Āy al-Qurʾān (Tafsir al-Tabari)', 'tr': \"Câmiu'l-Beyân\", 'ar': 'جامع البيان عن تأويل آي القرآن'}, 'year': 903, 'field': 'religious_sciences', 'significance': {'en': 'The definitive Quran commentary — standard reference for 1,100+ years', 'tr': \"Kesin Kur'an tefsiri — 1.100+ yıldır standart referans\"}}; {'title': {'en': 'Tārīkh al-Rusul wa-l-Mulūk (History of Prophets and Kings)', 'tr': \"Târîhu'r-Rusül ve'l-Mülûk\", 'ar': 'تاريخ الرسل والملوك'}, 'year': || Modern parallel: Imagine writing both the Oxford Bible Commentary and the Encyclopedia Britannica's world history — by hand, alone, producing 40 pages a day for 40 years.",
+ "authored_works": [
+  "iac:work-00000049",
+  "iac:work-00000050"
+ ],
+ "kunya": "Ebû Ca'fer",
+ "nisba": [
+  "Taberî",
+  "Âmülî"
+ ]
+}

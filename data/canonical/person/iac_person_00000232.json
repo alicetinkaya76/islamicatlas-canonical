@@ -1,0 +1,108 @@
+{
+  "@id": "iac:person-00000232",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibrahim Müteferrika",
+      "tr": "İbrâhim Müteferrika",
+      "ar": "إبراهيم متفرقة"
+    },
+    "originalScript": {
+      "ar": "إبراهيم متفرقة"
+    },
+    "description": {
+      "tr": "1729'da ilk Osmanlı Türkçe matbaasını kuran Macar mühtedisi — kapanmadan önce 23 ciltte 17 eser (~12.700 kopya). Kâtip Çelebi'nin Cihannümâ'sını bastı ve hattat loncalarının muhalefetiyle karşılaştı || Kaynak materyali '23 ciltte 17 eser, ~12.700 kopya' ve 'hattat loncalarının muhalefeti' bilgisini verir. || [Tarih notu] Berkes (1962) Müteferrika'yı Osmanlı reform hareketleri bağlamına oturttu.",
+      "en": "Hungarian convert who established the first Ottoman Turkish printing press in 1729 — producing 17 works in 23 volumes (~12,700 copies) before closure. Source material emphasizes he printed Katip Çelebi's Cihannüma and faced resistance from scribe guilds || Source material states '17 works in 23 volumes, ~12,700 copies' and notes 'scribe guilds' opposition' as a factor in the press's eventual closure. Müteferrika also wrote an important treatise on military reform. His press was the first to print in Ottoman Turkish — though Jewish and Christian presses had operated earlier. || [Historiographical note] Berkes (1962) contextualized Müteferrika within Ottoman reform movements. The 275-year gap between Gutenberg (1455) and the Ottoman press (1729) remains one of the most discussed questions in Ottoman cultural history.",
+      "ar": "مهتدٍ مجري أسّس أول مطبعة تركية عثمانية عام ١٧٢٩ — أنتج ١٧ عملاً في ٢٣ مجلدًا قبل إغلاقها || يذكر المصدر '١٧ عملاً في ٢٣ مجلدًا' ويشير إلى 'معارضة نقابات الخطّاطين' كعامل في إغلاق المطبعة"
+    },
+    "altLabel": {
+      "tr": [
+        "İbrahim Müteferrika"
+      ]
+    }
+  },
+  "profession": [
+    "geographer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0049",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0049, lecture_id=osmanli-bilim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "alatli:R-587",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:48Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:48Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:48Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0049 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-1 conf 1.0): ['altLabel.tr', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1674,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1745,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q561445",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ibrahim Müteferrika')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0049, lecture_week=8. || Key works: {'title': {'en': 'First Ottoman Turkish printed book (1729)', 'tr': 'İlk Osmanlı Türkçe matbu kitap (1729)', 'ar': 'أول كتاب مطبوع بالتركية العثمانية (١٧٢٩)'}, 'year': 1729, 'field': 'printing', 'significance': {'en': 'Established first Ottoman-Turkish printing press — 17 works in 23 volumes, ~12,700 copies before closure', 'tr': 'İlk Osmanlı-Türkçe matbaasını kurdu — kapanmadan önce 23 ciltte 17 eser, ~12.700 kopya'}} || Modern parallel: A Hungarian immigrant who introduced the internet to the Ottoman Empire — except it was the printing press, and it took 275 years to arrive after its European invention.",
+  "active_in_places": [
+    "iac:place-00000735"
+  ],
+  "authored_works": [
+    "iac:work-00000074"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

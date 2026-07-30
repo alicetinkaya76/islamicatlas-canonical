@@ -1,0 +1,89 @@
+{
+ "@id": "iac:person-00016337",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Jalāl al-Dīn al-Maḥallī",
+   "tr": "Celâlüddin el-Mahallî",
+   "ar": "جلال الدين المحلي"
+  },
+  "originalScript": {
+   "ar": "جلال الدين المحلي"
+  },
+  "description": {
+   "tr": "Usûlcü, müfessir",
+   "en": "Jurist of principles and Qur'anic exegete"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muhammad b. Ahmad b. Muhammad b. Ibrāhīm al-Maḥallī al-Shāfi'ī"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. Ahmed b. Muhammed b. İbrâhîm el-Mahallî eş-Şâfiî"
+   ],
+   "ar": [
+    "محمد بن أحمد بن محمد بن إبراهيم المحلي الشافعي"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:9187",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9187",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:51Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:51Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:51Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=9187 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:9187."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (5150-16337) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00005150 lehine yumuşak-silindi. Gerekçe: Celâleddin el-Mahallî (ö. 864/1459) Kahireli müfessir-fakihtir; her iki kayıtta yıl, nisbe ve Kahire yeri örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00005150"
+ },
+ "death_temporal": {
+  "start_ah": 864,
+  "start_ce": 1459,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9187, heading_ar=جلال الدين المحلي || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+ "authored_works": [
+  "iac:work-00000777",
+  "iac:work-00007588"
+ ]
+}

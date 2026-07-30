@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00000615",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdülvehhâb Hallâf",
+      "ar": "عبد الوهّاب خلّاف"
+    },
+    "originalScript": {
+      "ar": "عبد الوهّاب خلّاف"
+    },
+    "description": {
+      "tr": "1888’de Kefrüzzeyyât’ta doğdu. Babasının adı Abdülvâhid’dir. 1915’te Ezher Üniversitesi’ne bağlı Medresetü’l-kazâi’ş-şer‘î’yi bitirdi. Bir süre bu medresede müderris olarak çalıştıktan sonra hâkimlik, adliye müfettişliği ve mescidler müdürlüğü yaptı. 1936’da Kahire Üniversitesi Hukuk Fakültesi öğretim üyeliğine tayin edildi ve emekli oluncaya kadar bu görevini sürdürdü. Emekli olduktan sonra da fakültenin daveti üzerine yüksek lisans bölümünde ders vermeye devam etti. Aynı zamanda Arap Dil Akademisi’nin (Mecmau’l-lugati’l-Arabiyye) üyesi idi. Muhammed Abduh’un açtığı düşünce çığırının samimi bir taraftarı olarak taklide ve bid‘atlara karşı çıkan Hallâf, öğretim üyeliği yaptığı kurumlarda verdiği derslerle aynı düşünceleri paylaşan birçok hukukçunun yetişmesine katkıda bulunmuştur. Eserleri basılmış olup belli başlıları şunlardır: 1. ʿİlmü uṣûli’l-fıḳh . İlk baskısı 1942’de Kahire’de yapılan eser daha sonra birçok defa basılmış olup Hüseyin Atay tarafından giriş bölümü ve bazı notlar eklenerek İslâm Hukuk Felsefesi: İlmü usûli’l-fıkh adıyla Türkçe’ye tercüme edilmiştir (Ankara 1973, 1985). 2. Ḫulâṣatü târîḫi’t-teşrîʿi’l-İslâmî . 1968’de Küveyt’te sekizinci baskısı yapılan eseri, Talat Koçyiğit İslâm Teşrii Tarihi adıyla Türkçe’ye çevirmiştir (Ankara 1970). Eser ʿİlmü uṣûli’l-fıḳh ’ın bazı baskılarının son kısmında da yer almaktadır. 3. es-Siyâsetü’ş-şerʿiyye (Kahire 1397/1977). Ezher Üniversitesi’nde okuttuğu ders notlarıdır. İslâm devletinin siyasî, hukukî ve malî yapısından, fertlerin hak ve hürriyetlerinden bahseder. 4. Aḥkâmü’l-vaḳf (Kahire 1942). 5. el-Aḥvâlü’ş-şaḫṣiyye . 6. Ahkâmü’l-mevârîs̱ . 7. Meṣâdirü’t-teşrîʿi’l-İslâmî fîmâ lâ naṣṣa fîh (Kahire 1955). 8. el-İctihâd ve’t-taḳlîd . 9. Nûr mine’l-Ḳurʾâni’l-Kerîm (Kahire 1948). 10. Nûrun ʿalâ nûr (Kahire 1952). 11. el-İctihâd bi’r-reʾy (Kahire 1950). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 286 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdulvehhab-hallaf",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdulvehhab-hallaf, https://islamansiklopedisi.org.tr/abdulvehhab-hallaf",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdulvehhab-hallaf (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1888,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdulvehhab-hallaf, URL: https://islamansiklopedisi.org.tr/abdulvehhab-hallaf || DİA birth place: Kefrüzzeyyât || DİA death-date string: (1888-1956) || DİA categories: felsefe || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000808"
+  ]
+}

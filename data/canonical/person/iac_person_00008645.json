@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00008645",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ben Sūda",
+      "tr": "Ben Sûde",
+      "ar": "بن سودة"
+    },
+    "originalScript": {
+      "ar": "بن سودة"
+    },
+    "description": {
+      "tr": "Mağrıbî kadı.",
+      "en": "Moroccan judge."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ahmad b. al-Tālib b. Muhammad, Abū al-ʿAbbās, known like his ancestors as Ben Sūda al-Merī"
+    },
+    "altLabel": {
+      "tr": [
+        "Ahmmed b. et-Tâlib b. Muhammed, Ebû el-Abbâs, Ataları gibi Ben Sûde el-Merî olarak tanınmış"
+      ],
+      "ar": [
+        "أحمد بن الطالب بن محمد، أبو العباس، المعروف كأسلافه با بن سودة المري"
+      ]
+    }
+  },
+  "profession": [
+    "judge"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:618",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=618",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:35Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=618 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:618."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1321,
+    "start_ce": 1903,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=618, heading_ar=بن سودة || Ziriklī century_ce=20 || Ziriklī place coords (city/region of activity): 34.03, -5.0",
+  "active_in_places": [
+    "iac:place-00009014"
+  ],
+  "kunya": "أبو العباس"
+}

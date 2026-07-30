@@ -1,0 +1,82 @@
+{
+  "@id": "iac:person-00002711",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Fenâî Ali Efendi"
+    },
+    "description": {
+      "tr": "Kütahya’da doğdu. Asıl adı Ali, mahlası Fenâî’dir. Ailesi ve tahsil durumu hakkında yeterli bilgi yoktur. Ailesinin seyyid olduğu söylenir. İstanbul’a gidip Celvetiyye şeyhi Selâmi Ali Efendi’ye intisap etti. İcâzet aldıktan sonra gittiği Manisa’da bir cami ve tekke yaptırarak irşad faaliyetine başladı. Mürşidi Selâmi Ali Efendi’nin vefatı üzerine (1104/1692) İstanbul’a döndü ve şeyhinin Üsküdar Selâmsız’daki tekkesinde postnişin oldu. Dervişleriyle beraber Baltacı Mehmed Paşa’nın Prut Seferi’ne “ordu şeyhi” olarak katıldı (1123/1711). 1126’da (1714) Selâmsız’daki tekkeyi başka bir şeyhe bırakarak Üsküdar Pazarbaşı semtinde inşa ettirdiği ve kendi adıyla bilinen tekkeye taşındı. Burada otuz iki yıl irşadda bulunduktan sonra vefat etti. Tekkenin yanında bulunan türbesindeki tarih manzumesi bir süre Edirne kadılığında da bulunan Kilisli Hüseyin Efendi’ye aittir. Hüseyin Efendi onun vefatına, “Kıldı es-Seyyid Fenâyî dâr-ı firdevsi makām” mısraı ile tarih düşürmüştür (Ayvansarâyî, II, 222). Fenâî’nin Prut Seferi esnasında taşıdığı bayrak sandukasının üzerine örtülmüş ve kendisine verilen sancak da baş ucuna dikilmiştir. Fenâî Ali Efendi, Celvetiyye tarikatı usulünde ictihadda bulunarak Celvetî tacının terklerinin sayısını besmelenin harflerinin sayısına yani on dokuza çıkarmıştır. Tacın tepe kısmı turuncu, diğer tarafları yeşildir. Fenâî Ali Efendi’ye Celvetiyye’nin bir kolu olan Fenâiyye adlı bir tarikat nisbet edilmişse de bu kol müstakil bir tarikat haline dönüşememiştir. Fenâî mahlası ile şiir yazan Ali Efendi’nin mürettep bir divanı olduğu söylenmekteyse de (Güner, s. 141) eski kaynaklarda böyle bir bilgiye rastlanmamaktadır. Hüseyin Vassâf’ın Sefîne ’sinde yer alan bir ilâhisiyle (III, 65) Osmanlı Müellifleri ’ndeki bir beytine (I, 83) bakarak onun şairliği üzerinde bir hüküm vermek güç olmakla birlikte bu ilâhilerin ondaki dinî hissiyatın samimi ifadeleri olduğu söylenebilir. Ali Efendi’nin vefatından sonra halifesi Abdullah Rıfkı Efendi (ö. 1184/1770) ve Rıfkı Efendi’nin oğlu Mehmed Nazif Efendi (ö. 1207/1792), Mehmed Şâkir Efendi (ö. 1225/1810), Mehmed Efendi (ö. 1261/1845), Mehmed Şâkir Efendi (ö. 1302/1884), İhsan Efendi ve son olarak da Mehmed Şâkir Efendi (ö. 1951) postnişin olmuşlardır. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 335-336 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:fenai-ali-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=fenai-ali-efendi, https://islamansiklopedisi.org.tr/fenai-ali-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:fenai-ali-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/fenai-ali-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:04Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=fenai-ali-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1158,
+    "start_ce": 1745,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=fenai-ali-efendi, URL: https://islamansiklopedisi.org.tr/fenai-ali-efendi || DİA birth place: Kütahya || DİA death place: Selâmsız || DİA death-date string: (ö. 1158/1745) || DİA categories: tarikat > şiir || Chunk count: 1",
+  "birth_place": "iac:place-00015101"
+}

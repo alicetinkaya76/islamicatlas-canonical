@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00004334",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’s-SEDÎD, Fahreddin",
+      "ar": "فخر الدين ابن السديد"
+    },
+    "originalScript": {
+      "ar": "فخر الدين ابن السديد"
+    },
+    "altLabel": {
+      "tr": [
+        "Fahrüddîn Mâcid (Abdullāh) b. Ebi’l-Fezâil Sedîdiddîn b. Senâilmülk el-Kıbtî"
+      ]
+    },
+    "description": {
+      "tr": "İbnü’l-Müzevvik diye de bilinir. Divan kâtipliklerinde hizmet gören bir Kıptî ailesindendir. İlk devlet hizmetine kâtip Sa‘deddin İbn Gurâb’ın yanında başladı. Sultan el-Melikü’n-Nâsır Ferec zamanında (1399-1412) yükselerek “nâzırü’l-ceyş” ve bir süre için İbn Gurâb’ın yerine sır kâtipliği görevlerinde bulundu. Sultan el-Melikü’l-Mansûr Abdülazîz b. Berkūk’un kısa saltanatında da nâzırü’l-ceyş görevini sürdürdü. 809’da (1406) Ferec’in ikinci saltanatı döneminde İbn Gurâb’ın ölümüyle boşalan sır kâtipliğine getirildiyse de bir müddet sonra azledildi. 815 (1412) yılında nâzırü’l-ıstabl (mîrâhur) ve tekrar sır kâtibi olarak tayin edildi. 10 Safer 815’te (22 Mayıs 1412) tutuklandı. Bu arada Ferec’in ölümüyle boşalan saltanat makamına Halife Müstaîn-Billâh’ın getirilmesinde önemli rol oynadı. el-Melikü’l-Müeyyed Şeyh el-Mahmûdî’nin hükümdarlığı döneminde ise (1412-1421) herhangi bir resmî görev alamadı ve günden güne itibarını kaybetti. el-Melikü’l-Eşref Barsbay zamanında (1422-1438) Cânibek es-Sûfî taraftarı olmak ve onun yerini gizlemekle suçlanarak sürgün cezasına çarptırılıp Kahire’den uzaklaştırıldı. Bundan sonra hayatının sonuna kadar endişe içinde yaşadı; 12 Receb 833’te (6 Nisan 1430) vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 201-202 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnus-sedid-fahreddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnus-sedid-fahreddin, https://islamansiklopedisi.org.tr/ibnus-sedid-fahreddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:27Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:27Z",
+    "modified": "2026-05-04T15:34:27Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnus-sedid-fahreddin (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kıbtî"
+  ],
+  "birth_temporal": {
+    "start_ah": 815,
+    "start_ce": 1412,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 833,
+    "start_ce": 1430,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnus-sedid-fahreddin, URL: https://islamansiklopedisi.org.tr/ibnus-sedid-fahreddin || DİA death place: 833 || DİA death-date string: (ö. 833/1430) || Chunk count: 1"
+}

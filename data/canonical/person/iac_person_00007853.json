@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00007853",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ZEYNEB bint HÂRİS",
+      "ar": "زينب بنت الحارث"
+    },
+    "originalScript": {
+      "ar": "زينب بنت الحارث"
+    },
+    "altLabel": {
+      "tr": [
+        "Zeyneb bint el-Hâris b. Selâm el-Yehûdiyye"
+      ]
+    },
+    "description": {
+      "tr": "Hayber Gazvesi’nde (7/628) öldürülen Merhab’ın yeğenidir. Babası Hâris, amcası ve Benî Nadîr’e mensup olan kocası Sellâm b. Mişkem de bu gazvede öldürülenler arasındaydı. Hayber’in fethedilmesi üzerine yahudiler Hz. Peygamber’i zehirlemeye karar vermişlerdi (Vâkıdî, II, 677). Bu karar doğrultusunda Zeyneb, Resûl-i Ekrem’in yanına kızartılıp üzerine zehir sürülmüş bir koyun götürdü; koyunun kol ve kürek kemikleri etlerine daha fazla zehir sürdü. Resûlullah, Hayber’de akşam namazından sonra ashabıyla birlikte yemeğe oturdu ve yemekte kol bölgesinden bir parça eti ağzına aldı; ancak zehirli olduğunu anlayarak lokmayı yutmadan çıkardı ve çevresindekilere de etten yememelerini söyledi. Ashaptan Bişr b. Berâ el-Ensârî bu sırada ağzına aldığı lokmayı çiğneyip yutmuş olduğundan zehirlenip hemen orada öldü. Bişr’in bir yıl sonra öldüğüne dair rivayetler de vardır. Bu yemek esnasında birden çok sahâbînin zehirlenerek öldüğü de nakledilir. Hz. Peygamber tarafından sorguya çekilen Zeyneb babası, kardeşi, amcası ve kocasının bu savaşta öldürüldüğünden kendisini öldürmek istediğini, eğer peygamberse zaten suikastın kendisine vahiyle haber verileceğini, eğer sadece bir melikse bu durumda insanların ondan kurtulmuş olacağını düşündüğünü anlattı. Resûl-i Ekrem’in Zeyneb’i affedip serbest bıraktığı, onun da Müslümanlığı kabul ettiği rivayet edilir. Bişr b. Berâ’nın ölümünden dolayı onun kısasen öldürüldüğü de söylenir. Resûlullah, Hayber’in fethinden sonraki üç yıl boyunca zaman zaman bu zehrin etkisini vücudunda hissettiğini ifade etmiş, özellikle vefatından önceki hastalığı sırasında Hayber’de ağzına aldığı zehirli lokmanın tesiriyle şah damarında şiddetli bir ağrı duyduğunu söylemiş, hatta onun bu zehir yüzünden şehid olarak öldüğü de ileri sürülmüştür. Bu madde TDV İslâm Ansiklopedisi’nin 2013 yılında İstanbul’da basılan 44. cildinde, 360 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:zeyneb-bint-haris",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=zeyneb-bint-haris, https://islamansiklopedisi.org.tr/zeyneb-bint-haris",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:09Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:09Z",
+    "modified": "2026-05-04T15:35:09Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=zeyneb-bint-haris (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 7,
+    "start_ce": 628,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=zeyneb-bint-haris, URL: https://islamansiklopedisi.org.tr/zeyneb-bint-haris || DİA death-date string: (ö. 7/628’den sonra) || DİA categories: rivayet || Chunk count: 1"
+}

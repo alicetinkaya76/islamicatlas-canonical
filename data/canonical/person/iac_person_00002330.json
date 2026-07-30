@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00002330",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÜ’l-A‘VER",
+      "ar": "أبو الأعور"
+    },
+    "originalScript": {
+      "ar": "أبو الأعور"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-A‘ver Amr b. Süfyân b. Abdişşems es-Sülemî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatının ilk dönemi hakkında fazla bilgi yoktur. Babası Uhud Savaşı’nda Kureyşliler’in safında yer alan bir müşrik, annesi ise bir hıristiyandı. Ebü’l-A‘ver Hendek Gazvesi’nde Süleym kabilesi askerlerinin başında bulunuyordu. Onun bu savaştan sonra müslüman olduğu rivayet edilmektedir. Suriye’ye gönderilen İslâm ordusunda yer aldı ve gözünün birini kaybedince “Ebü’l-A‘ver” lakabıyla meşhur oldu. Bilhassa Yermük Savaşı’nda ve Suriye bölgesindeki diğer seferlerde önemli görevler üstlendi. Başkumandan Ebû Ubeyde b. Cerrâh’ın görev verdiği on kumandandan biri de o idi. 23 (643-44) yılında Bizans’a karşı düzenlenen seferde bir birliğe kumanda etti ve Ammûriye’ye kadar ilerledi. Daha sonra Ürdün’deki Taberiye’yi fethetti ve ilk Kıbrıs seferine katıldı. Bir müddet sonra da Muâviye’ye bağlı olarak Ürdün’ün idaresine memur edildi, bölgenin vergi işlerini düzenledi. Ebü’l-A‘ver’in bu görevi Hz. Osman’ın şehid edilmesine kadar devam etti. Bu tarihten sonra da Muâviye’nin en yakın adamları arasında yer aldı. Özellikle Sıffîn Savaşı’ndaki faaliyetleri ve Hakem Vak‘ası’nda Muâviye lehine yaptığı şahitlik sebebiyle Hz. Ali’nin buğzettiği üç dört kişiden biri oldu. Ebü’l-A‘ver, Amr b. Âs’ın Muâviye adına Mısır’ı ele geçirmek için çıktığı sefere de katıldı (38/658). Askerî kabiliyeti ve idarecilik vasıflarıyla tanınan Ebü’l-A‘ver, hayatının en verimli yıllarını Muâviye’ye yardım için harcamış ve Muâviye devrinin sonlarına doğru aktif siyasî hayattan çekilmiştir. Sahâbîlerin hayatına dair kaynaklarda yer almakla beraber Ebü’l-A‘ver’in sahâbîliği kesin değildir. Rivayet ettiği pek az hadis de mürsel sayılmaktadır. Kendisinden Kays b. Ebû Hâzim, Ebû Abdurrahman el-Hubulî ve Amr el-Bikâlî hadis nakletmişlerdir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 295 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebul-aver",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebul-aver, https://islamansiklopedisi.org.tr/ebul-aver",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:58Z",
+    "modified": "2026-05-04T15:33:58Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebul-aver (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sülemî"
+  ],
+  "birth_temporal": {
+    "start_ah": 23,
+    "start_ce": 643,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 65,
+    "start_ce": 685,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebul-aver, URL: https://islamansiklopedisi.org.tr/ebul-aver || DİA death-date string: (ö. 65/685 [?]) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00001025",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂMİR b. ABDULLAH",
+      "ar": "عامر بن عبد الله"
+    },
+    "originalScript": {
+      "ar": "عامر بن عبد الله"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Amr Âmir b. Abdillâh b. Abdilkays et-Temîmî el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "Sahâbî olduğuna dair rivayetler bulunmakla birlikte genellikle tâbiînden kabul edilir. Bazı kaynaklarda Ebû Abdullah künyesiyle ve Âmir b. Abdülkays adıyla geçmektedir. Benî Temîm’in bir kolu olan Benî Anber’e mensup olduğu için de Anberî nisbesiyle anılmaktadır. Hz. Osman, Abdullah b. Mes‘ud gibi sahâbîleri görmüştür. Hz. Ömer ve Selmân-ı Fârisî’den hadis rivayet etmiş, Hasan-ı Basrî ve Muhammed b. Sîrîn de kendisinden rivayette bulunmuşlardır. Hz. Ömer devrinde Medâin ve Tüster’in fethine katıldı ve daha sonra Basra’ya yerleşti. Burada şehrin valisi Ebû Mûsâ el-Eş‘arî’den kıraat dersleri aldı. Zamanının büyük bir bölümünü Kur’ân-ı Kerîm ve kıraat öğretmeye ayırırdı. Savaşa gittiği zamanlar, üç konuda anlaştığı kimselerle arkadaşlık yapardı. Buna göre, sefer boyunca arkadaşlarına sadece kendisi hizmet edecek, müezzinliği o yapacak ve elinden geldiğince arkadaşlarına bizzat ikramda bulunacaktı. Yaşayış tarzıyla bazı kimselerin dikkatini çeken Âmir, et ve yağ yemediği, evlenmediği, insanlardan kaçtığı ve kendisini Hz. İbrâhim seviyesinde gördüğü ileri sürülerek Hz. Osman’a şikâyet edildi. Bunun üzerine sorguya çekilerek halifenin emriyle Dımaşk’a sürüldü ve Muâviye b. Ebû Süfyân devrinde orada öldü. Halbuki ibadete aşırı düşkünlüğü sebebiyle evlenmemiş olması dışındaki iddialar asılsızdı. Kudüs’te öldüğü de rivayet edilmektedir. Ölümüne sebep olan hastalığa yakalandığında ağladığını görenler, “Ölümden mi korkuyorsun?” diye sorduklarında, “Ben ölümden korktuğum veya dünyayı sevdiğim için değil, sıcak yaz günlerinde oruç tutmanın ve uzun kış gecelerinde namaz kılmanın sevabından mahrum kalacağım için ağlıyorum. Çünkü dünya keder ve üzüntü, âhiret ise ceza ve mükâfat yeridir” cevabını vermiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 65 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amir-b-abdullah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amir-b-abdullah, https://islamansiklopedisi.org.tr/amir-b-abdullah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amir-b-abdullah (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Temîmî; Basrî"
+  ],
+  "laqab": [
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 55,
+    "start_ce": 675,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amir-b-abdullah, URL: https://islamansiklopedisi.org.tr/amir-b-abdullah || DİA death-date string: (ö. 55/675) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002224",
+    "iac:person-00006822"
+  ],
+  "students": [
+    "iac:person-00003260",
+    "iac:person-00004035",
+    "iac:person-00007887"
+  ]
+}

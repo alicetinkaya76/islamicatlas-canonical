@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003083",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂLİD b. BÜKEYR",
+      "ar": "خالد بن البكير"
+    },
+    "originalScript": {
+      "ar": "خالد بن البكير"
+    },
+    "altLabel": {
+      "tr": [
+        "Hâlid b. el-Bükeyr b. Abdiyâlîl el-Leysî el-Kinânî"
+      ]
+    },
+    "description": {
+      "tr": "Mekke’de doğdu. Bazı kaynaklar babasının adını Ebü’l-Bükeyr olarak kaydetmektedir. Câhiliye döneminde dedesi Abdüyâlîl’in, Hz. Ömer’in dedesi Nüfeyl b. Abdüluzzâ el-Adevî ile yaptığı barış sebebiyle Adevî nisbesiyle de anılır. Kardeşleri Âkıl b. Bükeyr, Bedir, Uhud ve Hendek gazvelerinde bulunup Yemâme’de şehid düşen Âmir ve Mısır’ın fethinde bulunan İyâs ile birlikte Dârülerkam’da Hz. Peygamber’e biat ederek müslüman oldular. Ailece Medine’ye hicret eden ilk muhacirler arasında yer alıp ensardan Ebû Lübâbe Rifâa b. Abdülmünzir’in evinde ikamet ettiler. Hz. Peygamber, Hâlid ile ensardan Zeyd b. Desine arasında kardeşlik bağı ( muâhât ) kurdu. Hâlid b. Bükeyr, hicretten on yedi ay sonra (Receb 2 / Ocak 624) Bedir Gazvesi öncesinde, Kureyşli müşriklerin kervanlarını gözetlemek amacıyla Resûl-i Ekrem’in Abdullah b. Cahş kumandasında Nahle’ye gönderdiği Batn-ı Nahle Seriyyesi’nde bulundu. Bedir ve Uhud savaşlarına katıldıktan sonra hicretin otuz altıncı ayında (Safer 4 / Temmuz 625) Adal ve Kāre kabilelerinin isteği üzerine onlara dini öğretmek için Hz. Peygamber tarafından gönderilen sahâbîler arasında yer aldı. Ancak bu sahâbîler, Hüzeyl kabilesinin topraklarında bulunan Recî‘ kuyusuna vardıklarında Hüzeyl, Adal ve Kāre kabilelerine mensup bir grubun hücumuna uğradılar. Çarpışmalar sırasında Âsım b. Sâbit, Mersed b. Ebû Mersed ve Muattib b. Ubeyd gibi arkadaşlarıyla birlikte Hâlid de henüz otuz dört yaşında iken şehid düştü (bk. RECÎ‘ VAK‘ASI ). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 285-286 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:halid-b-bukeyr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=halid-b-bukeyr, https://islamansiklopedisi.org.tr/halid-b-bukeyr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:halid-b-bukeyr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/halid-b-bukeyr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:10Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=halid-b-bukeyr (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Leysî; Kinânî"
+  ],
+  "death_temporal": {
+    "start_ah": 4,
+    "start_ce": 625,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=halid-b-bukeyr, URL: https://islamansiklopedisi.org.tr/halid-b-bukeyr || DİA birth place: Mekke || DİA death-date string: (ö. 4/625) || Chunk count: 1"
+}

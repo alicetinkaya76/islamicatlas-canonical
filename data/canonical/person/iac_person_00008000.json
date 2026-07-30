@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00008000",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Hûd",
+      "ar": "ابن هود"
+    },
+    "originalScript": {
+      "ar": "ابن هود"
+    },
+    "description": {
+      "tr": "Endülüs’ün Aragon bölgesinde hüküm süren Hûdîler’in kurucusu.",
+      "en": "HUD, the prophet who, according to the \nKurban, appeared among the ‘’Ad [q.",
+      "ar": "هود، النبي الذي أُرسل إلى قوم عاد حسب القرآن."
+    },
+    "altLabel": {
+      "en": [
+        "HUD"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-hud",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-hud, https://islamansiklopedisi.org.tr/ibn-hud",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "ei1:1911",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 2, p. 13",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      },
+      {
+        "source_id": "el-alam:11675",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=11675, heading_ar=ابن هود",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:11Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-hud (0 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[11574, 11675]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled ['description.en', 'description.ar', 'altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=11675 (heading_ar=ابن هود) via Track A (DİA→Alam xref bridge). dt=Bu büyük devletin son büyük meliki"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 438,
+    "start_ce": 1046,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-hud, URL: https://islamansiklopedisi.org.tr/ibn-hud || El-Aʿlām (Ziriklī) cross-reference: alam_id=[11574, 11675] || El-Aʿlām (Track A) augmentation: alam_id=11675, heading_ar=ابن هود, dt=Bu büyük devletin son büyük meliki",
+  "active_in_places": [
+    "iac:place-00006524"
+  ]
+}

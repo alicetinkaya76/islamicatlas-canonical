@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00002190",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Huzeyfe",
+      "ar": "أبو حذيفة"
+    },
+    "originalScript": {
+      "ar": "أبو حذيفة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Huzeyfe Mihşem b. Utbe b. Rebîa"
+      ]
+    },
+    "description": {
+      "tr": "Künyesiyle tanındığı için adı kesin olarak bilinmemekle birlikte kaynakların çoğunda Mihşem, bir kısmında da Hâşim ve Hüşeym şeklinde geçmektedir. Babası Utbe b. Rebîa müşriklerin ileri gelenlerindendi. Kırk dördüncü müslüman olduğu rivayet edilen Ebû Huzeyfe, İslâm’ın ilk yıllarında okuma yazma bilen on yedi sahâbîden biriydi. Hz. Peygamber’e istihâze konusunu sormasıyla meşhur olan Sehle bint Süheyl ile evlendi ve Habeşistan’a yapılan her iki hicrete de onunla birlikte katıldı. Hz. Osman’a baş kaldıranlardan biri olan oğlu Muhammed Habeşistan’da dünyaya geldi. Ebû Huzeyfe Habeşistan’dan Mekke’ye döndü ve Medine’ye hicrete kadar Hz. Peygamber’in yanından ayrılmadı. Medine’ye hicret edince âzatlısı Sâlim’le birlikte Abbâd b. Bişr’in evine misafir olduğu için Hz. Peygamber onunla Abbâd arasında kardeşlik bağı ( muâhât ) kurdu. Abdullah b. Cahş kumandasında yapılan Batn-ı Nahle Seriyyesi’nde bulunan Ebû Huzeyfe Bedir, Uhud ve Hendek başta olmak üzere bütün gazvelere katıldı. Babası Utbe’yi çok seviyor ve bir gün müslüman olacağını ümit ediyordu. Onu Bedir Gazvesi’nde düşman saflarında görünce çok üzüldü ve kendisini mübarezeye davet etti. Ancak Hz. Peygamber buna engel oldu. Savaş bittikten sonra Resûlullah’ın, “Rabbimin sizin için vaad ettiği şeyin gerçek olduğunu şimdi gördünüz mü?” diyerek Bedir Kuyusu’na attırdığı müşriklerin cesetleri arasında Utbe’ninki de vardı. Uhud Gazvesi’nde Hz. Hamza’ya yaptıklarıyla tanınan kız kardeşi Hind, Bedir’de babasına karşı takındığı tavır sebebiyle Ebû Huzeyfe’yi bir şiirle hicvetti. İlk müslümanlardan olan Sâlim, Ebû Huzeyfe’nin kölesi olup ona nisbetle Sâlim Mevlâ Ebû Huzeyfe diye anılır. Ebû Huzeyfe Sâlim’i âzat ettikten sonra evlât edindi ve kendisini yeğeni Fâtıma bint Velîd ile evlendirdi. Evlâtlıkların babalarına nisbet edilmesini emreden âyet (el-Ahzâb 33/5) nâzil olduktan sonra da Ebû Huzeyfe Sâlim’i yanından ayırmadı. Ancak ergenlik çağına geldiğinde evlerine teklifsizce girip çıkmasının sakıncalı olabileceğini düşünen Sehle bint Süheyl durumu Hz. Peygamber’e sormuş, o da aralarında süt mahremliği meydana gelmesi için Sâlim’i emzirmesini tavsiye etmişti. Resûlullah’ın verdiği bu ruhsatın sadece bu olaya mahsus olduğu kabul edilmektedir. Ebû Huzeyfe elli dört yaşlarında iken Yemâme Savaşı’nda âzatlısı Sâlim ile birlikte şehid oldu. Adı çeşitli hadislerde geçmekle birlikte kendisinden sahih isnadlarla hadis rivayet edilmemiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 159 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-huzeyfe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-huzeyfe, https://islamansiklopedisi.org.tr/ebu-huzeyfe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-huzeyfe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-huzeyfe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:55Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-huzeyfe (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 12,
+    "start_ce": 633,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-huzeyfe, URL: https://islamansiklopedisi.org.tr/ebu-huzeyfe || DİA birth place: Habeşistan || DİA death-date string: (ö. 12/633) || DİA categories: hadis > rivayet > isnâd || Chunk count: 1"
+}

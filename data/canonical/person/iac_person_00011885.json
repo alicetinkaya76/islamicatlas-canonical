@@ -1,0 +1,128 @@
+{
+ "@id": "iac:person-00011885",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Sulaymān al-Aʿmash",
+   "tr": "Süleymân el-A'meş",
+   "ar": "سليمان الأعمش"
+  },
+  "originalScript": {
+   "ar": "سليمان الأعمش"
+  },
+  "description": {
+   "tr": "Tâbiî, ünlü.",
+   "en": "A Tābiʿī, renowned.",
+   "ar": "من أبرز محدثي الكوفة. الحافظ الكبير الذي روى عن إبراهيم النخعي وأبي وائل. أكثر الرواة الكوفيين استعمالا عند البخاري ومسلم."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Sulaymān b. Mihrān al-Asadī, Abū Muḥammad, al-Aʿmash"
+  },
+  "altLabel": {
+   "tr": [
+    "Süleymân b. Mihrân el-Esedî, Ebû Muhammed, el-Â'meş"
+   ],
+   "ar": [
+    "سليمان بن مهران الأسدي بالولاء، أبو محمد، الملقب بالاعمش"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:4232",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=4232",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:ames",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/ames",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   },
+   {
+    "source_id": "scholars:317",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=317",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:04Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:04Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=4232 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:30Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['description.ar']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:4232."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1019-11885) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001019 lehine yumuşak-silindi. Gerekçe: el-A‘meş lakabı, 148/765 ölüm yılı ve Kûfe hadis çevresi Süleymân b. Mihrân el-A‘meş'te birleşiyor; ilk kayıt lakabı, ikincisi isim+lakabı veriyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001019"
+ },
+ "death_temporal": {
+  "start_ah": 148,
+  "start_ce": 765,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=4232, heading_ar=سليمان الأعمش || Ziriklī century_ce=8 || Ziriklī place coords (city/region of activity): 32.03, 44.4",
+ "active_in_places": [
+  "iac:place-00010482"
+ ],
+ "authored_works": [
+  "iac:work-00000791"
+ ],
+ "kunya": "أبو محمد"
+}

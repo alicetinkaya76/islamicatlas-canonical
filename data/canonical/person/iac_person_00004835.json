@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00004835",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KELÂBÂZÎ, Ahmed b. Muhammed",
+      "ar": "أحمد بن محمد الكلاباذي"
+    },
+    "originalScript": {
+      "ar": "أحمد بن محمد الكلاباذي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Nasr Ahmed b. Muhammed b. el-Hüseyn el-Buhârî el-Kelâbâzî"
+      ]
+    },
+    "description": {
+      "tr": "323’te (935) Buhâra’nın bir semti olan Kelâbâz’da doğdu. Mâverâünnehir, Horasan ve Bağdat gibi ilim merkezlerini dolaşarak âlimlerden ders aldı. Hocaları arasında Heysem b. Küleyb eş-Şâşî, Ebû Ca‘fer Muhammed b. Muhammed el-Cemmâl, Ebû Ya‘lâ Abdülmü’min b. Halef gibi muhaddisler bulunmaktadır. Dârekutnî, Hâkim en-Nîsâbûrî ve Ca‘fer b. Muhammed el-Müstağfirî gibi âlimler de onun talebeleri arasında yer almıştır. Kelâbâzî Cemâziyelâhir 398’de (Şubat 1008) vefat etti. Bu tarih 378 (988) olarak da zikredilmiştir. Buhârî rivayetleri hakkındaki geniş bilgisiyle tanınan ve güvenilir bir muhaddis olduğunda ihtilâf bulunmayan Kelâbâzî için Hatîb el-Bağdâdî sika ve hâfız, Hâkim en-Nîsâbûrî sebt ve mütkın terimlerini kullanmışlardır. Ayrıca öğrencisi Ca‘fer b. Muhammed el-Müstağfirî onun devrinde Mâverâünnehir’de en çok hadis bilen kimse olduğunu, Hâkim en-Nîsâbûrî de Mâverâünnehir’de benzeri bulunmadığını söylemiştir. Kelâbâzî’nin Ricâlü Ṣaḥîḥi’l-Buḫârî: el-Hidâye ve’l-irşâd fî maʿrifeti ehli’s̱-s̱iḳa ve’s-sedâd elleẕîne aḫrece lehümü’l-Buḫârî fî Câmiʿih adlı eseri, Buhârî’nin 1525 râvisini alfabetik olarak ve kısa notlarla tanıtmakta olup Abdullah el-Leysî tarafından neşredilmiştir (Beyrut 1407/1987). Kitabı Abdullah b. Abdurrahman el-Cüzey 562’de (1167) tehzip etmiştir. İbnü’l-Kayserânî, Ṣaḥîḥayn râvileri hakkında telif ettiği çalışmasında Buhârî’nin râvileriyle ilgili olarak Kelâbâzî’nin eserini esas almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2022 yılında Ankara’da basılan 25. cildinde, 191 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kelabazi-ahmed-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kelabazi-ahmed-b-muhammed, https://islamansiklopedisi.org.tr/kelabazi-ahmed-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:kelabazi-ahmed-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/kelabazi-ahmed-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:33Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kelabazi-ahmed-b-muhammed (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Buhârî; Kelâbâzî"
+  ],
+  "death_temporal": {
+    "start_ah": 398,
+    "start_ce": 1008,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kelabazi-ahmed-b-muhammed, URL: https://islamansiklopedisi.org.tr/kelabazi-ahmed-b-muhammed || DİA birth place: Kelâbâz || DİA death place: 398 || DİA death-date string: (ö. 398/1008) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00006703"
+  ],
+  "students": [
+    "iac:person-00005907"
+  ]
+}

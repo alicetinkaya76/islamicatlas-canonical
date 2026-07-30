@@ -1,0 +1,88 @@
+{
+ "@id": "iac:person-00008183",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Zuhrī",
+   "tr": "Ez-Zuhrî",
+   "ar": "الزهري"
+  },
+  "originalScript": {
+   "ar": "الزهري"
+  },
+  "description": {
+   "tr": "Müzisyen, hadis ilminde güvenilir âlimlerden, Medine-i Münevvere halkından.",
+   "en": "Musician and one of the reliable scholars of hadith, from the people of Medina."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Ibrahim b. Sa'd b. Ibrahim b. 'Abd al-Rahmān b. 'Avf, Abū Ishāq al-Zuhrī"
+  },
+  "altLabel": {
+   "tr": [
+    "İbrahim b. Sa'd b. İbrahim b. Abdurrahman b. Avf, Ebû İshak ez-Zuhrî"
+   ],
+   "ar": [
+    "إبراهيم بن سعد بن إبراهيم بن عبد الرحمن بن عوف، أبو إسحاق الزهري"
+   ]
+  }
+ },
+ "profession": [
+  "musician"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:95",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=95",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:30Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:30Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:30Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=95 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:95."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (4384-8183) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00004384 lehine yumuşak-silindi. Gerekçe: ez-Zührî nisbesi İbrâhim b. Sa'd b. İbrâhim b. Abdurrahman b. Avf ez-Zührî'nin adının parçasıdır; 183/799-800 ölümü ve Medine yeri birebir uyuşur, \"musician\" rolü ise onun semâ/gınâ tartışmasıyla anılmasından türemiş görünüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00004384"
+ },
+ "death_temporal": {
+  "start_ah": 184,
+  "start_ce": 800,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=95, heading_ar=الزهري || Ziriklī century_ce=8 || Ziriklī place coords (city/region of activity): 24.47, 39.6",
+ "authored_works": [
+  "iac:work-00007619"
+ ],
+ "kunya": "أبو إسحاق"
+}

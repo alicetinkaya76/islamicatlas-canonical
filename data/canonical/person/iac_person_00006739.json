@@ -1,0 +1,69 @@
+{
+  "@id": "iac:person-00006739",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Şebânkâreî",
+      "ar": "شبانكاره‌اى"
+    },
+    "originalScript": {
+      "ar": "شبانكاره‌اى"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Alî b. Muhammed Şebânkâreî"
+      ]
+    },
+    "description": {
+      "tr": "Tahminen 697 (1298) yılında Fars bölgesinin Şebânkâre şehrinde doğdu. Şairliğinin yanı sıra Farsça Mecmaʿu’l-ensâb fi’t-tevârîḫ adlı eseriyle tanınmaktadır. Şiirlerinde övdüğü İlhanlı Hükümdarı Ebû Said Bahadır Han’ın veziri Gıyâseddin Muhammed b. Reşîdüddin Fazlullah’a ithaf ettiği eserini 733 (1332-33) yılında yazdı, ancak vezirin evinin 736’da (1336) yıkılması yüzünden eser kayboldu. Bunun üzerine Şebânkâreî yeniden telife başladığı eseri Cemâziyelevvel 738’de (Aralık 1337) tamamladı. Bu nüsha ile Moğollar’a mensup Çobanlar (Süldüzler) ailesinden Pîr Hüseyin’e sunduğu 743 (1343) tarihli versiyonun nüshaları günümüze ulaşmıştır. Şebânkâreî’nin ölüm tarihine dair bilgi yoksa da Bosworth 759 (1358) yılı dolaylarında vefat ettiğini kaydetmektedir ( EI 2 [İng.] , IX, 158). Bazı kaynaklarda Câmiʿu’l-ensâb ve Baḥrü’l-ensâb adıyla da anılan Mecmaʿu’l-ensâb fi’t-tevârîḫ bir genel tarih olup insanlığın, yıldızların ve tabiatın yaratılış hikâyeleriyle başlar. Eserde İslâm öncesi İran hükümdarları tarihi anlatıldıktan sonra İskender ile eski Yemen ve Irak krallarının ardından İslâmî dönemde özellikle müellifin memleketi Kirman, Hürmüz ve Yezd bölgelerinin yöneticileriyle ilgili önemli bilgiler verilir. Mecmaʿu’l-ensâb , Alp Tegin ile başlayan ve Hüsrev Şah’ın Alâeddin Gūrî tarafından ortadan kaldırılmasına kadar gelen Gazneliler tarihi hakkında ayrıntılı ve orijinal bilgiler içermesi, Gazneliler’in kurucusu Sebük Tegin’in kendi hayatının ilk dönemlerini anlattığı ve oğlu Mahmud’a öğütler verdiği Pendnâme ’nin metnini ihtiva eden tek eser olması bakımından büyük önem taşır. Şebânkâreî, Sebük Tegin’in Zâbülistan’da Türkler arasındaki iktâ sisteminin düzenlenmesini anlattığı bölümde özgün açıklamalara yer verir. Eser, aynı zamanda güney Fars bölgesindeki (Şebânkâre) mahallî hânedanlar hakkında bilgi içeren ilk tarih kitabıdır. Şebânkâreî’nin ölümünden sonra Gıyâseddin b. Ali Feryûmedî, esere Horasan bölgesinin VIII. (XIV.) yüzyıldaki mahallî hânedanları hakkında bir zeyil eklemiştir. Mecmaʿu’l-ensâb Feryûmedî’nin zeyliyle birlikte Âgā Mîr Hâşim-i Muhaddis tarafından neşredilmiştir (Tahran 1363 hş./1984). Eserde yer alan Pendnâme önce M. Nazım tarafından Paris nüshası (Bibliothèque Nationale, Supplément Persan, nr. 1278) esas alınarak İngilizce tercümesiyle birlikte yayımlanmış, daha sonra Erdoğan Merçil, Süleymaniye Kütüphanesi nüshasına (Yenicami, nr. 909) dayanarak eseri Türkçe tercümesiyle beraber neşretmiştir (bk. bibl.). Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 38. cildinde, 390-391 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:sebankarei",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=sebankarei, https://islamansiklopedisi.org.tr/sebankarei",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:54Z",
+    "modified": "2026-05-04T15:34:54Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=sebankarei (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 697,
+    "start_ce": 1298,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 759,
+    "start_ce": 1358,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=sebankarei, URL: https://islamansiklopedisi.org.tr/sebankarei || DİA birth place: Şebânkâre || DİA death place: 738 || DİA death-date string: (ö. 759/1358 [?]) || Chunk count: 1"
+}

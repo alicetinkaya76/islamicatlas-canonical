@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00014887",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Qifṭī",
+      "tr": "el-Kiftî",
+      "ar": "القفطي"
+    },
+    "originalScript": {
+      "ar": "القفطي"
+    },
+    "description": {
+      "tr": "Vezir, tarihçi, kâtiplerden",
+      "en": "A vizier, historian, among the scribes"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAlī ibn Yūsuf ibn Ibrāhīm al-Shaybānī al-Qifṭī, Abū al-Ḥasan Jamāl al-Dīn"
+    },
+    "altLabel": {
+      "tr": [
+        "Alî b. Yûsuf b. İbrâhîm eş-Şeybânî el-Kiftî, Ebül-Hasan Cemâlüddîn"
+      ],
+      "ar": [
+        "علي بن يوسف بن إبراهيم الشيباني القفطي ، أبو الحسن، جمال الدين"
+      ]
+    }
+  },
+  "profession": [
+    "vizier",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:7580",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7580",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:36Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=7580 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7580."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 646,
+    "start_ce": 1248,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7580, heading_ar=القفطي || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 36.2, 37.13",
+  "active_in_places": [
+    "iac:place-00003866",
+    "iac:place-00009814"
+  ],
+  "authored_works": [
+    "iac:work-00001462",
+    "iac:work-00002250",
+    "iac:work-00002448",
+    "iac:work-00003567"
+  ],
+  "kunya": "أبو الحسن"
+}

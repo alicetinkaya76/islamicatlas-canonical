@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00006378",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "REBÎ‘ b. YÛNUS",
+      "ar": "الربيع بن يونس"
+    },
+    "originalScript": {
+      "ar": "الربيع بن يونس"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Fazl er-Rebî‘ b. Yûnus b. Muhammed b. Abdillâh b. Ebî Ferve"
+      ]
+    },
+    "description": {
+      "tr": "112 (730) yılında Medine’de doğdu. Dedelerinden Ebû Ferve (Keysân), Hz. Osman’ın veya onun âzatlı kölelerinden Hâris el-Haffâr’ın âzatlısı idi. Bu sebeple İbn Ebû Ferve diye de anılır. Ziyâd b. Abdullah el-Hârisî tarafından köle olarak satın alınıp büyütüldükten sonra ilk Abbâsî halifesi Ebü’l-Abbas es-Seffâh’a takdim edilen Rebî‘, Halife Ebû Ca‘fer el-Mansûr döneminde Abbâsî sarayında büyük bir nüfuza sahip oldu ve halife tarafından hâciblik makamına getirildi. Mansûr’un bundan amacı Horasanlılar’ın devlet içindeki etkilerini azaltmak, Ebû Müslim-i Horasânî’nin adamlarını bertaraf etmek ve Arap asıllı olanları iş başına getirmekti. Mansûr’un güvenini kazanan ve hâciblik görevini başarı ile yürüten Rebî‘ bir müddet sonra Ebû Eyyûb el-Mûriyânî’nin yerine vezir tayin edildi (153/770). Halife Mansûr, Bağdat’ı kurarken şehri dört büyük mahalleye ayırıp bu mahallelerden birini Rebî‘e iktâ etti. Bu sebeple burası Katîatürrebî‘ adıyla bilinir. Mansûr hac için gittiği Mekke’de vefat ettiğinde (158/775) Rebî‘ onun yanındaydı. Bu sırada hilâfetle ilgili doğabilecek sıkıntıların önüne geçmek için Mansûr’un oğlu Muhammed el-Mehdî adına biat aldı. Bir müddet sonra Halife Mehdî-Billâh, Rebî‘i vezirlikten azledip hâcib olarak görevlendirdi ve yerine Ebû Ubeydullah Muâviye b. Ubeydullah el-Eş‘arî’yi tayin etti (159/775-76). Rebî‘ de yeni vezirin oğlu hakkındaki zındıklık ithamından dolayı onun azledilmesinde (163/779-80) etkin bir rol oynadı. Ancak çok arzu etmesine rağmen vezâret makamına tekrar kavuşamadı. Mehdî-Billâh’ın Mâsebezân’da vefatı üzerine (169/785) o sırada Cürcân’da bulunan Mûsâ el-Hâdî adına Bağdat’ta biat aldı. Mûsâ el-Hâdî döneminde vezir tayin edilen Rebî‘ bir süre sonra azledilerek Dîvânü’l-ezimme kâtipliğine getirildi. Bu görevi sırasında ansızın hastalandı ve yedi gün sonra vefat etti (169/785 veya 170/786). Onun Mûsâ el-Hâdî tarafından zehirletildiğine dair rivayetler bulunmaktadır. Oğlu Fazl da Abbâsî vezirlerindendir. Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 497-498 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:rebi-b-yunus",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=rebi-b-yunus, https://islamansiklopedisi.org.tr/rebi-b-yunus",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:50Z",
+    "modified": "2026-05-04T15:34:50Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=rebi-b-yunus (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Eş'arî (akîde)"
+  ],
+  "birth_temporal": {
+    "start_ah": 112,
+    "start_ce": 730,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 169,
+    "start_ce": 785,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=rebi-b-yunus, URL: https://islamansiklopedisi.org.tr/rebi-b-yunus || DİA birth place: Medine || DİA death place: Bağdat || DİA death-date string: (ö. 169/785 [?]) || DİA categories: rivayet || Chunk count: 1"
+}

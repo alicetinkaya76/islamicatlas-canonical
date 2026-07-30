@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00002265",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ SÂLİH es-SEMMÂN",
+      "ar": "أبو صالح السمان"
+    },
+    "originalScript": {
+      "ar": "أبو صالح السمان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Sâlih Zekvân b. Abdillâh et-Teymî"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Ömer devrinde (634-644) doğdu. Gatafânoğulları’ndan Cüveyriye bint Ahmes’in (Hâris) mevlâ sı idi. Kûfe’ye zeytinyağı ve tereyağı götürüp sattığı için “Zeyyât” ve “Semmân” lakaplarıyla anıldı. Sa‘d b. Ebû Vakkās, Âişe, Ebû Hüreyre, Abdullah b. Abbas, Ebû Saîd el-Hudrî, Abdullah b. Ömer gibi sahâbîlerden hadis öğrendi. Ebû Hüreyre’ye daha çok talebelik etmesi sebebiyle ondan hadis rivayet edenlerin doğru mu yalan mı söylediklerini iyi bilirdi. Kendisinden oğulları Süheyl, Sâlih ve Abdullah ile A‘meş, Abdullah b. Dînâr, Zührî ve Yahyâ b. Saîd el-Ensârî gibi muhaddisler rivayette bulundular. Medine’nin ileri gelen âlimlerinden biri olan ve rivayetlerine Kütüb-i Sitte ’de yer verilen Ebû Sâlih’i Ahmed b. Hanbel, Yahyâ b. Maîn, Ebû Zür‘a er-Râzî ve Ebû Hâtim er-Râzî gibi hadis otoriteleri sika olarak değerlendirmişlerdir. Ebû Sâlih es-Semmân Medine’de vefat etti. Hz. Osman’ın isyancılar tarafından şehid edilmesiyle ilgili olayların içinde bulunan Ebû Sâlih, bu olaylardan ve Hz. Osman’dan her söz edilişinde yüksek sesle ağlardı. Kendisinden 1000 hadis dinleyen A‘meş, hocasının çok hassas bir yapıya sahip olduğunu, müezzinlik yaptığı camide bir gün imamın gecikmesi üzerine mihraba geçtiğini, fakat duygulanıp ağladığı için namazı güçlükle tamamlayabildiğini anlatır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 226 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-salih-es-semman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-salih-es-semman, https://islamansiklopedisi.org.tr/ebu-salih-es-semman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-salih-es-semman (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Teymî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 101,
+    "start_ce": 719,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-salih-es-semman, URL: https://islamansiklopedisi.org.tr/ebu-salih-es-semman || DİA death place: Medine || DİA death-date string: (ö. 101/719-20) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00006607"
+  ]
+}

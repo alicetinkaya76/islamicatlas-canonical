@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00004264",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-MUGALLİS",
+      "ar": "ابن المغلّس"
+    },
+    "originalScript": {
+      "ar": "ابن المغلّس"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Abdullāh b. Ahmed b. Muhammed b. el-Mugallis el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "Bağdat’ta yetişti ve orada yaşadı. Zâhirî mezhebinin kurucusu Dâvûd ez-Zâhirî’nin oğlu İbn Ebû Dâvûd’dan fıkıh öğrendi. Dedesi Muhammed’den, Ali b. Dâvûd el-Kantarî, Ebû Kılâbe er-Rekāşî, Ca‘fer b. Muhammed b. Şâkir es-Sâiğ, İsmâil b. İshak el-Cehdamî, Abdullah b. Ahmed b. Hanbel, Hasan b. Ali el-Ma‘merî gibi âlimlerden hadis dinledi. Yetiştirdiği öğrenciler ve kendisinden rivayette bulunanlar arasında Ebü’l-Hasan Haydere b. Ömer ez-Zendeverdî, Ali b. Hâlid el-Basrî, Ebü’l-Mufaddal eş-Şeybânî, Ali b. Muhammed el-Bağdâdî gibi isimler yer alır. İlim ve fazilet sahibi, güvenilir bir âlim olarak tanınan İbnü’l-Mugallis, 4 Cemâziyelâhir 324 (29 Nisan 936) tarihinde altmış yaşlarında iken Bağdat’ta vefat etti. İbnü’l-Gazzî ölüm yılını 323 olarak vermektedir. Kaynaklar, İbnü’l-Mugallis’in kendi döneminde Zâhirî mezhebinin en büyük otoritesi kabul edildiğini, bu mezhebin gelişmesinde ve yayılmasında önemli rolü olduğunu bildirmekte, ayrıca mezhebin Bağdat’ta yayılmasının, ölümünden sonra ders halkasının başına geçen öğrencisi Haydere vasıtasıyla gerçekleştiği kaydedilmektedir. Zâhirî mezhebi doğrultusunda birçok kitap telif ettiği, ancak fıkıh sahasında yazdıklarının kaybolduğu bildirilen İbnü’l-Mugallis’in kaynaklarda adı geçen eserleri şunlardır: Aḥkâmü’l-Ḳurʾân ; Kitâbü’ṭ-Ṭalâḳ ; Kitâbü’l-Velâʾ ; el-Muvażżaḥ fi’l-fıḳh (Müzenî’nin el-Muḫtaṣar ’ına reddiye olarak yazılmıştır); el-Mübhic (İbnü’n-Nedîm ve Dâvûdî’nin el-Münciḥ adıyla zikrettikleri eser bu kitap olmalıdır); el-Ḳāmiʿ li’l-müteḥâmili’ṭ-ṭâmiʿ (Dâvûd ez-Zâhirî’den ders almakla birlikte usul ve fürûa ilişkin bazı meselelerde ona muhalefet eden Ebû Bekir Muhammed b. İshak el-Kāsânî’ye reddiye olarak kaleme alınmıştır, Şîrâzî, s. 176); ed-Dâmiġ (müellif bu eserini kendisine muhalefet edenlere karşı yazmıştır, Zehebî, Aʿlâmü’n-nübelâʾ , XV, 77); el-Müfṣıḥ . İbnü’n-Nedîm, Ali b. Abdülazîz b. Muhammed ed-Dûlâbî’nin, er-Red ʿalâ İbni’l-Muġallis adıyla bir kitap yazdığını bildirmektedir ( el-Fihrist , s. 292). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 129-130 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-mugallis",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-mugallis, https://islamansiklopedisi.org.tr/ibnul-mugallis",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ibnul-mugallis",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ibnul-mugallis",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:26Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:26Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:26Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-mugallis (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.96): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 324,
+    "start_ce": 936,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-mugallis, URL: https://islamansiklopedisi.org.tr/ibnul-mugallis || DİA death place: Bağdat || DİA death-date string: (ö. 324/936) || DİA categories: mezhep > fıkıh > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000484",
+    "iac:person-00001732",
+    "iac:person-00002203",
+    "iac:person-00003725"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00003531",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hüsâmeddin Hüseyin Şah"
+    },
+    "description": {
+      "tr": "Hüsâmeddin Halîfe olarak da tanınır. Aslen Amasyalıdır. Topkapı Sarayı Müzesi Kütüphanesi’nde kayıtlı (Emanet Hazinesi, nr. 355) en‘âm-ı şerif ketebesinde babasının adı Abdullah olarak geçmektedir. Hüseyin Şah, Sabancı koleksiyonunda mevcut kendi yazdığı bir dua mecmuasının ketebesinde Şeyh Hamdullah’ın kölelerinden olduğunu belirtmiştir. Ancak Hüseyin Hüsâmeddin, Koca Mustafa Paşa’nın vakfiye defterindeki bir kayda dayanarak babasının Kemalpaşazâde Halil Bey’in oğlu olduğunu ileri sürmektedir ( Amasya Târihi , IX, 23). Hüsâmeddin Hüseyin aklâm-ı sitteyi Amasya’da Şeyh Hamdullah’tan öğrenerek icâzet aldı. Hocasına olan bağlılığı ve kabiliyeti sayesinde onun yakınlığını kazanarak gözde talebeleri arasına girdi. Hocasının oğlu Mustafa ile beraber büyüdü ve bu sebeple hocasından daha çok istifade etme imkânı buldu. Aklâm-ı sittede zamanının güçlü bir hattatı idi. Mevcut örneklerden nesih hattını hocası kadar güzel yazdığı anlaşılmaktadır. II. Bayezid’in tahta geçmesinden (1481) sonra Şeyh Hamdullah’la beraber İstanbul’a giden Hüsâmeddin Şah 898’de (1492-93) Dîvân-ı Hümâyun, 911’de (1505) Hazîne-i Âmire kâtipliğine tayin edildi. I. Selim’in tahta geçmesi üzerine (1512) hocası ile birlikte Alemdağı’nda inzivaya çekildi. Emekli olduktan sonra Üsküdar’da ikamet etti. Hüsâmeddin Şah’ın ölüm tarihiyle ilgili farklı rivayetler vardır. Hüseyin Hüsâmeddin, şer‘î sicillerde gördüğü bir kayda dayanarak 949’da (1542) vefat ettiğini ileri sürmektedir; ancak hattatın yazdığı bir en‘âm-ı şerif ketebesinden onun 965 (1557-58) yılında hayatta olduğu anlaşılmaktadır. Müstakimzâde Tuhfe ’de 1000 (1591-92) yılına kadar ömür sürdüğünü kaydetmişse de bu uzak bir ihtimaldir. Hüsâmeddin Şah’ın Şeyh Hamdullah’ın yanına defnedildiği bilinmekle beraber bugün kabrinin yerini tesbit etmek mümkün değildir. Şeyh Hamdullah üslûbunda pek çok eser vererek talebe yetiştirmiş olan Hüsâmeddin Şah bu mektebin gelişmesinde önemli rol oynamıştır. Fakat onun İstanbul kütüphanelerinde sadece iki eseri tesbit edilebilmiştir. Bunlardan biri, Topkapı Sarayı Müzesi Kütüphanesi’nde kayıtlı (Emanet Hazinesi, nr. 355) 12,3 × 18,6 cm. ebadında, 965 (1557-58) tarihli, nesih hattıyla yazılmış, her sayfasında on bir satır bulunan, serlevha ve durakları tezhipli yirmi bir varaklık en‘âm-ı şeriftir. Türk ve İslâm Eserleri Müzesi’nde kayıtlı (nr. 2431) murakka‘ içinde ise nesih kıtaları vardır. Ayrıca Sabancı koleksiyonunda serlevhası tezhipli, ketebeli, tarihsiz, her sayfada sekiz satır bulunan nesih hattıyla yazılmış bir dua mecmuası mevcuttur. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 513-514 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:husameddin-huseyin-sah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=husameddin-huseyin-sah, https://islamansiklopedisi.org.tr/husameddin-huseyin-sah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:16Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=husameddin-huseyin-sah (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 965,
+    "start_ce": 1557,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=husameddin-huseyin-sah, URL: https://islamansiklopedisi.org.tr/husameddin-huseyin-sah || DİA death place: 949 || DİA death-date string: (ö. 965/1557’den sonra) || DİA categories: rivayet || Chunk count: 1",
+  "authored_works": [
+    "iac:work-00001369"
+  ],
+  "active_in_places": [
+    "iac:place-00019778"
+  ],
+  "teachers": [
+    "iac:person-00003122"
+  ]
+}

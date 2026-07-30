@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00001896",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Cûzekānî",
+      "ar": "الجوزقاني"
+    },
+    "originalScript": {
+      "ar": "الجوزقاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Hüseyn b. İbrâhîm b. Hüseyn el-Hemedânî el-Cûzekānî"
+      ]
+    },
+    "description": {
+      "tr": "Hemedân’da bir yerleşim merkezi veya bir kabilenin adı olan Cûzkān’a nisbetle Cûzekānî, Cevrekānî, Cûrekānî, Cûrkānî ve Cûzekī gibi farklı nisbelerle anılmaktadır. İbnü’l-Kayserânî, Ebû Zekeriyyâ İbn Mende, Abdülhâliḳ b. Ahmed el-Yûsufî ve A‘meş diye tanınan Hamd b. Nasr el-Hemedânî gibi hocalardan hadis almıştır. Abdürrezzâk el-Cîlî ve kendisinden kitâbet usulüyle hadis yazmış olan kız kardeşinin oğlu Necîb b. Gānim et-Tayyân başlıca talebelerindendir. Bağdat’a gidip orada hadis rivayet etmiştir. 16 Receb 543’te (30 Kasım 1148) seferde bulunduğu sırada vefat eden Cûzekānî’nin nerede öldüğü bilinmemektedir. Cûzekānî’nin hadise dair birçok eser yazdığı kaydedilmektedir; bunların en meşhuru uydurma hadisleri senedleriyle birlikte ihtiva eden el-Ebâṭîl adlı kitabıdır. Eser el-Mevżûʿât mine’l-eḥâdîs̱i’l-merfûʿât adıyla da anılmaktadır. Kitabın ismini Brockelmann el-Eḥâdîs̱ü’l-ebâṭîl ve’l-menâkîr ve’ṣ-ṣıḥâḥ ve’l-meşâhîr olarak tesbit etmiştir. Eseri inceleyen Zehebî, müellifin birçok rivayeti sahih sünnete aykırı olması sebebiyle uydurma olarak nitelendirdiğini söylemekte ve çeşitli hatalarını tesbit ettiğini belirtmektedir ( Teẕkiretü’l-ḥuffâẓ , IV, 1308). Bazı muhaddisler de onun sahih sünnete aykırı oldukları gerekçesiyle birçok rivayeti uydurma diye nitelendirmesini doğru bulmamakta, cem‘ ve te’lîf metoduyla hadisleri bağdaştırma imkânı varken bu yola gitmeyi uygun görmemektedirler. Ebü’l-Ferec İbnü’l-Cevzî el-Mevżûʿâtü’l-kübrâ ’nın telifinde Cûzekānî’nin bu eserini esas almıştır. el-Ebâṭîl Abdurrahman b. Abdülcebbâr el-Feryevâî’nin tahkikiyle Hindistan’da basılmıştır (1983). Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 99 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cuzekani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cuzekani, https://islamansiklopedisi.org.tr/cuzekani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:cuzekani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/cuzekani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:50Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cuzekani (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hemedânî; Cûzekānî"
+  ],
+  "death_temporal": {
+    "start_ah": 543,
+    "start_ce": 1148,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cuzekani, URL: https://islamansiklopedisi.org.tr/cuzekani || DİA death-date string: (ö. 543/1148) || DİA categories: hadis > rivayet > sünnet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003937"
+  ]
+}

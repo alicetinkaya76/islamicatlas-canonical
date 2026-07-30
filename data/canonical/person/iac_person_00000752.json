@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00000752",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED b. HADRAVEYH",
+      "ar": "أحمد بن حضرويه"
+    },
+    "originalScript": {
+      "ar": "أحمد بن حضرويه"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Hâmid Ahmed b. Hadraveyh el-Belhî"
+      ]
+    },
+    "description": {
+      "tr": "Dinî ilimleri öğrendikten sonra tasavvufa yöneldi. Hâtim el-Esam ve Ebû Türâb en-Nahşebî’den istifade etti. Bâyezîd-i Bistâmî ve Ebû Hafs el-Haddâd ile görüştü. Sohbetine katılanlar arasında, “müeddibü’l-evliyâ” unvanını alan Ebû Bekir el-Verrâk ile Ebü’l-Hüseyin en-Nûrî ve Muhammed b. Fazl el-Belhî’yi saymak gerekir. Ahmed b. Hadraveyh fakirlikteki izzetin ve dervişlikteki şerefin gizli tutulmasını ister ve diğer ilk devir Melâmetîler’i gibi, gönül dünyasının sırlarını açığa vurmama konusu üzerinde önemle durur. Ebû Hafs onun için, “Ahmed’den daha büyük bir himmete, daha doğru bir hale sahip bir başkasını görmedim” derken Bâyezîd-i Bistâmî, “Üstadımız Ahmed’dir” demişti. Ahmed b. Hadraveyh’in “Horasan’ın güneşi ve fütüvvet ehlinin yöneticisi” olduğunu söyleyen Hücvîrî onun melâmet yolunu tuttuğunu söyler. Zevcesi Fâtıma’nın (ö. 223/838) da en derin tasavvufî konuları Bâyezîd-i Bistâmî ile tartışabilecek kadar bu hayatın içinde olduğu rivayet edilir. Hücvîrî, Ahmed b. Hadraveyh’in er-Riʿâye bi-ḥuḳūḳıllâh adlı bir eseri olduğunu kaydeder. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 71 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-b-hadraveyh",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-b-hadraveyh, https://islamansiklopedisi.org.tr/ahmed-b-hadraveyh",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-b-hadraveyh",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-b-hadraveyh",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-b-hadraveyh (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Belhî"
+  ],
+  "death_temporal": {
+    "start_ah": 240,
+    "start_ce": 854,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-b-hadraveyh, URL: https://islamansiklopedisi.org.tr/ahmed-b-hadraveyh || DİA death-date string: (ö. 240/854) || DİA categories: tasavvuf > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002286"
+  ],
+  "students": [
+    "iac:person-00007600"
+  ]
+}

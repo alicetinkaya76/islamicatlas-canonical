@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00004506",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÎSÂ EFENDİ, Sütçüzâde"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu ve burada yaşadı. Devrin üstatlarından iyi bir mûsiki öğrenimi gördü. Bilhassa sesinin güzelliğiyle tanınan Îsâ Efendi’nin hânendelikteki başarısında icracılığının da payı büyüktür. Çalışmalarından onun mûsikinin bütün inceliklerine vâkıf olduğu anlaşılır. Şöhretinin en parlak zamanı I. Ahmed dönemidir (1603-1617). Îsâ Efendi’nin ölüm tarihi konusunda kaynaklarda farklı bilgiler verilmektedir. Dönemine daha yakın olan İbrâhim Cevrî’nin (ö. 1065/1654) divanında yer alan Sütçüzâde’nin vefatına dair tarih kıtasındaki mısraın 1037 (1628) yılını vermesine karşılık Ebûishakzâde Esad Efendi ve Müstakimzâde gibi bazı kaynaklarda onun 1047 (1637) yılında öldüğü kaydedilmiştir. Oğlu Abdüllatif Efendi de (ö. 1099/1688) zamanın tanınmış şair ve mûsikişinaslarındandır. Îsâ Efendi, hânendeliğinin yanı sıra bestekârlığı ile de devrinin önemli mûsikişinasları arasında yer almıştır. Esad Efendi Atrabü’l-âsâr ’da onun elli kadar eser bestelediğinden söz eder. El yazması güfte mecmualarında dinî ve din dışı sahadaki bazı eserlerine rastlanmaktaysa da Yılmaz Öztuna, Îsâ Efendi’nin bir saz eseriyle bir sözlü eserinin zamanımıza ulaştığından bahsetmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 481-482 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:isa-efendi-sutcuzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=isa-efendi-sutcuzade, https://islamansiklopedisi.org.tr/isa-efendi-sutcuzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:isa-efendi-sutcuzade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/isa-efendi-sutcuzade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:29Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:29Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=isa-efendi-sutcuzade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1037,
+    "start_ce": 1628,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=isa-efendi-sutcuzade, URL: https://islamansiklopedisi.org.tr/isa-efendi-sutcuzade || DİA birth place: İstanbul || DİA death-date string: (ö. 1037/1628) || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

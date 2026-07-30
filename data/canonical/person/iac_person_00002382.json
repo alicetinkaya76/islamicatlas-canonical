@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00002382",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÜ’n-NADR et-TÛSÎ",
+      "ar": "أبو النضر الطوسي"
+    },
+    "originalScript": {
+      "ar": "أبو النضر الطوسي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’n-Nadr Muhammed b. Muhammed b. Yûsuf et-Tûsî"
+      ]
+    },
+    "description": {
+      "tr": "250 (864) yılı civarında doğdu. Aslen Taberânlıdır; Tûs’ta yaşayıp orada öldüğü için Tûsî nisbesiyle anılmıştır. Irak, Suriye, Mısır ve Hicaz gibi pek çok ilim ve kültür beldesini dolaşarak devrin tanınmış muhaddislerinden Osman b. Saîd ed-Dârimî, Hâris b. Ebû Üsâme el-Bağdâdî, Cehdamî, Ahmed b. Seleme en-Nîsâbûrî, Ebû Ali el-Kabbânî ve bilhassa Muhammed b. Nasr el-Mervezî’den faydalandı. Güvenilir bir muhaddis olarak kabul edilen Ebü’n-Nadr, sahip olduğu geniş hadis kültürüyle çalışmalarını Ṣaḥîḥ-i Müslim üzerinde yoğunlaştırmıştır. Müstahrec türünden olan ve günümüze ulaşıp ulaşmadığı bilinmeyen kitabını talebelerinden Hâkim en-Nîsâbûrî rivayet etmiştir. Hadis alanındaki hizmetlerinin ve Tûs kadılığının yanı sıra öncelikle Şâfiî mezhebini Horasan bölgesinde canlı tutmaya çalışmış ve orada ilmine başvurulan bir kişi olmuştur. Doksan yılı aşan ömrünün yaklaşık üçte ikisini fetva vererek ve hadis çalışmaları ile değerlendirdiği anlaşılmaktadır. Fetvalarından hiçbirinin tenkit edilmemiş olması, geniş ve sağlam bir fıkıh kültürüne sahip olduğunu göstermektedir. Bu kadar fetvanın yanı sıra hadis ilmine dair eserlerini kaleme almak için yeterli zamanı nasıl bulduğu sorulduğunda gecenin üçte birini kitap yazmakla, üçte birini Kur’an okumakla, üçte birini de uyumakla geçirdiğini söylemiştir. Onun en belirgin özelliği zühd ve takvâ sahibi olmasıdır. Yıllarca nâfile oruç tutmuş, kendi yiyeceğinden fazlasını yoksullara dağıtmış ve insanları iyiliğe yöneltip kötülüklerden sakındırmaya gayret etmiştir. Ebü’n-Nadr et-Tûsî 13 Şâban 344 (2 Aralık 955) tarihinde Tûs’ta vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 338 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebun-nadr-et-tusi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebun-nadr-et-tusi, https://islamansiklopedisi.org.tr/ebun-nadr-et-tusi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebun-nadr-et-tusi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebun-nadr-et-tusi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:59Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:59Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:59Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebun-nadr-et-tusi (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 250,
+    "start_ce": 864,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 344,
+    "start_ce": 955,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebun-nadr-et-tusi, URL: https://islamansiklopedisi.org.tr/ebun-nadr-et-tusi || DİA death place: Tûs || DİA death-date string: (ö. 344/955) || DİA categories: hadis > fetva > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001936"
+  ]
+}

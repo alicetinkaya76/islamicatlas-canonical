@@ -1,0 +1,119 @@
+{
+  "@id": "iac:person-00003330",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HAVLÂNÎ, Ebû Bekir",
+      "ar": "أبو بكر الخولاني"
+    },
+    "originalScript": {
+      "ar": "أبو بكر الخولاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekir Ahmed b. Abdirrahmân b. Abdillâh el-Havlânî el-Kayrevânî"
+      ]
+    },
+    "description": {
+      "tr": "Kayrevan’da doğdu. Kuzey Afrika’da bulunan Arap kökenli Havlân kabilesine mensuptur. 377 (987) yılında tahsil için Mısır’a gitti. İbn Ebû Zeyd, Ebü’l-Hasan el-Kābisî, İbn Ahî Hişâm, Ebû Muhammed b. Hâlid es-Sûsî, Ebû Bekir Muhammed en-Naâlî, Ebü’l-Kāsım Abdurrahman el-Cevherî, Ebû Yahyâ b. Eşec ve Ebû Ömer el-Bâcî gibi İfrîkıye, Mısır ve Endülüslü âlimlerden ders aldı. İbnü’l-Mevvâz’ın Mâlikî fıkhına dair eseri el-Mevvâziyye ’yi ezbere bilen Havlânî, yine mezhebin klasiklerinden olup derslerinde okuttuğu el-Müdevvenetü’l-kübrâ ’nın bütün inceliklerine vâkıftı. Hayatını eğitim ve öğretime vakfeden Havlânî’nin yetiştirdiği 100’ü aşkın öğrenci arasında Ebü’l-Kāsım İbn Muhriz, Ebû Hafs el-Attâr, Ebû Hafs Ömer b. Taybûn, Ebü’t-Tayyib Abdülmün‘im b. Muhammed el-Kindî, Ebû İshak et-Tûnisî, Ebû Bekir b. Muhammed el-Mâlikî, Ebü’l-Kāsım es-Süyûrî, Ebû Ca‘fer Ahmed es-Sadefî, Ebû Abdullah Muhammed b. Ahmed el-Bâcî gibi Afrika, Endülüs ve Sicilyalı âlimler bulunmaktadır. Yaşadığı dönemde Ebû İmrân el-Fâsî ile birlikte Kayrevan’da Mâlikî mezhebinin en önemli şahsiyeti olan Havlânî ayrıca edebiyat ve nahivle de meşgul oldu. Zîrî Sultanı Muiz b. Bâdîs’in her iki âlimi zaman zaman huzuruna davet ederek ilmî münazaralarda bulunduğu, bazan da siyasî tartışmalar yaptığı rivayet edilmekte, Havlânî’nin sultanın hoşuna gitmeyeceğini bildiği halde doğruları söylemekten çekinmediği kaydedilmektedir. Kaynaklarda eser verdiğine dair herhangi bir bilgiye rastlanmayan Havlânî 27 Şevval 432 (30 Haziran 1041) tarihinde Kayrevan’da vefat etti ve Bâbü Tûnis Mezarlığı’na defnedildi. Ölümünden sonra Hâretü’l-Garânita mahallesinde şehir surlarına yakın bir yere onun adını taşıyan bir cami inşa edilmiş, kabri de ziyaretgâh haline gelmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 537-538 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:havlani-ebu-bekir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=havlani-ebu-bekir, https://islamansiklopedisi.org.tr/havlani-ebu-bekir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:havlani-ebu-bekir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/havlani-ebu-bekir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:13Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=havlani-ebu-bekir (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Havlânî; Kayrevânî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 377,
+    "start_ce": 987,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 432,
+    "start_ce": 1041,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=havlani-ebu-bekir, URL: https://islamansiklopedisi.org.tr/havlani-ebu-bekir || DİA birth place: Kayrevan || DİA death place: Kayrevan || DİA death-date string: (ö. 432/1041) || DİA categories: mezhep > nahiv > rivayet || Chunk count: 1",
+  "birth_place": "iac:place-00013399",
+  "death_place": "iac:place-00013399",
+  "active_in_places": [
+    "iac:place-00013399"
+  ],
+  "teachers": [
+    "iac:person-00003767",
+    "iac:person-00003806",
+    "iac:person-00004653"
+  ]
+}

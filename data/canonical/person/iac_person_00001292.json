@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00001292",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BÂHİLÎ, Abdurrahman b. Rebîa",
+      "ar": "عبد الرحمن بن ربيعة الباهلي"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن ربيعة الباهلي"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdurrahmân b. Rebîa b. Yezîd el-Bâhilî"
+      ]
+    },
+    "description": {
+      "tr": "Kılıcının adından dolayı “Zü’n-nûr” lakabıyla anılır. İbn Abdülber, onun Hz. Peygamber’in zamanına yetişmekle beraber hiçbir hadis duyup nakletmediğini kaydederek sahâbîliğine şüpheyle bakarsa da İbn Hacer, sahâbî olmayanların fetihlerde kumandan tayin edilmediklerine dikkat çekerek onun sahâbî olduğunda şüphe bulunmadığını söyler. Herhalde Bâhilî, İslâmiyet’i geç kabul etmesi ve Hz. Peygamber’in savaşlarına katılamaması sebebiyle ashap arasında fazla tanınmamıştı. O daha ziyade Hz. Ömer devrinden itibaren şöhret bulmuştur. Hz. Ömer Bâhilî’yi Sa‘d b. Ebû Vakkās kumandasında İran’a gönderdiği (14/635) orduya kadı tayin etmiş, ayrıca savaş sonunda elde edilecek ganimetlerin muhafazası ve taksimiyle de görevlendirmişti. Onun bu görevlerinin yanı sıra Kādisiye Savaşı’nda bir birliğe kumanda ettiği ve ileri gelen düşman kumandanlarından birini öldürdüğü bilinmektedir. Hz. Ömer tarafından Hazar denizi kıyısında bir liman şehri olan Derbend’in (Bâbülebvâb) fethiyle görevlendirilen Sürâka b. Amr’ın öncü birliklerine kumandanlık etti. Sürâka’nın ölümünden sonra da vali ve başkumandan tayin edilerek Hazar Türkleri’yle muharebeye memur edildi (22/642). Hz. Osman devrinde de aynı göreve devam eden Bâhilî, Belencer çevresinde birçok muharebe ve fetihlerde bulundu. Hz. Osman’ın halifeliğinin sekizinci yılında Hazarlar’la yaptığı bir savaş sırasında şehid düştü. Hz. Ömer devrinde Kûfe kadısı olan kardeşi Selmân b. Rebîa’nın onun şahadetine rağmen savaşa devam ettiği ve Derbend’i fethettiği rivayet edilmektedir. Cesareti ve daima muzaffer olması sebebiyle Bâhilî’nin bir velî olduğuna inanan Türkler onun kabrini itina ile korumuşlar, kuraklık yıllarında ve diğer sıkıntılı zamanlarında mânevî gücünden medet ummuşlardır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 483-484 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bahili-abdurrahman-b-rebia",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bahili-abdurrahman-b-rebia, https://islamansiklopedisi.org.tr/bahili-abdurrahman-b-rebia",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bahili-abdurrahman-b-rebia",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bahili-abdurrahman-b-rebia",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:39Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bahili-abdurrahman-b-rebia (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bâhilî"
+  ],
+  "death_temporal": {
+    "start_ah": 32,
+    "start_ce": 652,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bahili-abdurrahman-b-rebia, URL: https://islamansiklopedisi.org.tr/bahili-abdurrahman-b-rebia || DİA death-date string: (ö. 32/652) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

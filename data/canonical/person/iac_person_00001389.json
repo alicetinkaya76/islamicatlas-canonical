@@ -1,0 +1,87 @@
+{
+  "@id": "iac:person-00001389",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BEDÂÛNÎ, Nur Muhammed",
+      "ar": "نور محمد بداؤنى"
+    },
+    "originalScript": {
+      "ar": "نور محمد بداؤنى"
+    },
+    "altLabel": {
+      "tr": [
+        "Seyyid Nûr Muhammed Bedâûnî"
+      ]
+    },
+    "description": {
+      "tr": "Nakşibendî silsilesinde ve bütün Nakşî kaynaklarda yer almakla birlikte hayatı hakkında yeterli bilgi yoktur. Nakşibendiyye tarikatının Müceddidiyye kolunun kurucusu İmâm-ı Rabbânî’nin torunlarından Şeyh Seyfeddin Sirhindî’nin (ö. 1096/1685) halifesidir. Şeyhinin ölümünden sonra Abdülhak Muhaddis ed-Dihlevî’nin oğlu Hâfız Muhammed Muhsin’in sohbetlerine devam etti. Kaynaklarda zâhir ve bâtın ilimlerini bilen, zühd ve takvâ sahibi bir sûfî olarak tanıtılan Bedâûnî’nin Hz. Peygamber’in sünnetine titizlikle uyduğu, sürekli hadis, sîret ve şemâil kitapları okuduğu bildirilmektedir. 11 Zilkade 1135’te (13 Ağustos 1723) Delhi’de vefat etti. Seyfeddin Sirhindî’nin müridlerinden Nevvâb Mükerrem Han’ın Nizâmeddin Evliyâ Türbesi civarında bulunan bağına defnedildi. En önemli halifesi olan Mazhar Cân-ı Cânân daha sonra buraya bir türbe yaptırdı. Bilmeyerek dahi olsa sünnete aykırı bir davranışta bulunduğu zaman günlerce tesiri altında kalan Bedâûnî on beş yıl istiğrak halinde kalmış, sadece namaz vakitlerinde sahv haline dönmüştü. Kendisine yapılan bağışları kabul etmemesi, okumak için dünya ehli bir kimseden ödünç olarak aldığı kitabı gafletlerinin karanlığı sarmıştır diye okumadan önce üç gün bekletmesi, yediklerinin helâl olduğundan emin olmak için ekmeğini kendi eliyle pişirmesi, Bedâûnî’nin dünya ehline duyduğu güvensizlik kadar zühd ve takvâ konusundaki titizliğini gösteren örneklerdir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 296 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bedauni-nur-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bedauni-nur-muhammed, https://islamansiklopedisi.org.tr/bedauni-nur-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:bedauni-nur-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/bedauni-nur-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:41Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bedauni-nur-muhammed (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1135,
+    "start_ce": 1723,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bedauni-nur-muhammed, URL: https://islamansiklopedisi.org.tr/bedauni-nur-muhammed || DİA death place: Delhi || DİA death-date string: (ö. 1135/1723) || DİA categories: sünnet > hadis > tarikat || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00015941"
+  ]
+}

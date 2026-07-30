@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00001031",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂMİR b. TUFEYL",
+      "ar": "عامر بن الطفيل"
+    },
+    "originalScript": {
+      "ar": "عامر بن الطفيل"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Alî Âmir b. Tufeyl b. Mâlik el-Ca‘ferî el-Âmirî"
+      ]
+    },
+    "description": {
+      "tr": "Âmir b. Sa‘saa kabilesinin Ca‘fer b. Kilâb boyuna mensuptur. Necid bölgesinde 553 yılında doğdu. Gençlik yıllarından itibaren katıldığı savaşlarda cesaret ve yiğitliğiyle tanındı. Benî Âmir b. Sa‘saa kabilesinin reisi olan amcası Ebû Berâ Medine’ye giderek Hz. Peygamber’den, İslâmiyet’i öğretmek üzere ashaptan bazılarını kabilesine göndermesini istedi. Hz. Peygamber Necid halkının irşad heyetine bir zarar vermesinden endişe ettiğini söyleyince Ebû Berâ onları himaye edeceğine söz verdi. Bunun üzerine görevlendirilen tebliğ ve irşad heyeti, Bi’rimaûne’de Süleymoğulları tarafından desteklenen Âmir b. Tufeyl’in düzenlediği bir baskın sonunda haince öldürüldü (4/625). Âmir b. Tufeyl’in, yerde yatan şehidlerden Âmir b. Füheyre’yi göstererek onun öldükten sonra gökyüzüne doğru yükseldiğini, daha sonra yere indiğini söylediği rivayet edilir (bk. Buhârî, “Meġāzî”, 28). Âmir buna rağmen İslâmiyet’i kabul etmedi. Ebû Berâ’nın oğlu Rebîa, babasının himaye edeceğine söz vermesine rağmen heyetteki müslümanları şehid eden Âmir b. Tufeyl’i öldürmek istediyse de buna muvaffak olamadı. Âmir b. Tufeyl amcası Ebû Berâ’nın ölümü üzerine kabilenin reisi oldu (4/625). Tebük Seferi’nden sonra Medine’ye gelen Benî Âmir b. Sa‘saa heyeti arasında o da vardı. Hz. Peygamber müslüman olmasını teklif edince Âmir, “Müslüman olursam bana ne vereceksin?” diye sordu. Hz. Peygamber, “Müslümanların faydalandıklarından sen de faydalanacak, onların mükellef tutuldukları şeylerden sen de sorumlu olacaksın” dedi. Bunun üzerine Âmir, müslüman olması karşılığında iktidara ortak olmayı veya ondan sonra idarenin kendisine intikalini, kabul edilmemesi halinde ise hücuma geçeceğini söyleyerek Resûlullah’ı tehdit etti. Esasen Medine’ye gelmekteki asıl maksadı da Hz. Peygamber’e suikastta bulunmaktı. Bunu başaramayınca kin ve öfkeyle oradan ayrıldı ve yolda boynunda çıkan bir çıban yüzünden öldü. Bir savaş sırasında gözlerinden birini kaybeden Âmir b. Tufeyl, cesareti yanında cömertliği ve şairliğiyle de meşhurdur. Şiirlerinden bir kısmı toplanarak bir divan halinde yayımlanmıştır: The Dīwāns of ʿAbīd Ibn al-Abraṣ and ʿĀmir Ibn aṭ-Ṭufail of ʿĀmir Ibn Ṣaʿṣaʿah (nşr. ve trc. C. J. Lyall), Leyden-London 1913; Dîvânü ʿÂmir b. eṭ-Ṭufeyl (nşr. Kerem el-Bustânî), Beyrut 1959, 1963. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 68 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amir-b-tufeyl",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amir-b-tufeyl, https://islamansiklopedisi.org.tr/amir-b-tufeyl",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amir-b-tufeyl",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amir-b-tufeyl",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:4858",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=4858, heading_ar=عامر بن الطفيل",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amir-b-tufeyl (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4858]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=4858 (heading_ar=عامر بن الطفيل) via Track A (DİA→Alam xref bridge). dt=Kaumunun şamutu, Cahiliye döneminde Arapların ateşli yiğitlerinden, şairlerinden"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Âmirî"
+  ],
+  "death_temporal": {
+    "start_ah": 11,
+    "start_ce": 632,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amir-b-tufeyl, URL: https://islamansiklopedisi.org.tr/amir-b-tufeyl || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4858] || DİA death-date string: (ö. 11/632) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=4858, heading_ar=عامر بن الطفيل, dt=Kaumunun şamutu, Cahiliye döneminde Arapların ateşli yiğitlerinden, şairlerinden ve reislerinden bir"
+}

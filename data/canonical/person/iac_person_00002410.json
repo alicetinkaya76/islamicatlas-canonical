@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00002410",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Edib Harâbî"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Asıl adı Ahmed Edib’dir. Şiirlerinde bazan Harâbî, bazan Edib mahlasını kullanmıştır. Çanakkale ve Preveze’de memurluk, Bahriye’de uzun yıllar gemi kâtipliği yaptı. On yedi yaşlarında Merdivenköy Şahkulu Dergâhı şeyhi Mehmed Ali Hilmi Dedebaba’ya mürid oldu. Ancak herhangi bir kimseden icâzetnâme almadan babalık yapmaya kalkıştığı için İstanbul Bektaşîleri arasında pek sevilmez, hatta Bektaşî tekkelerine kabul edilmezdi. Daha çok Bektaşî olmayan rindmeşrep kişilerle ve şairlerle düşüp kalkar, evinde âyinler düzenlediği söylenirdi. Hatta Rıza Tevfik bile başlangıçta ondan el almıştı. Edib Harâbî’nin, “Kâf u nûn hitâbı izhâr olmadan / Biz bu kâinatın ibtidâsıyız” matla‘lı meşhur nefesi bütün Bektaşîler tarafından ezbere bilinir ve dergâhlarda okunurdu. Edib Harâbî velûd bir şairdir. Kendisini yakından tanıyanlar, zaman zaman irticâlen dahi kolaylıkla şiir söyleyebildiğini belirtirler. Aruz ve hece vezinlerini son derece rahat kullanan Edib Harâbî’nin şiirleri devrinde büyük bir ilgi görmüştür. Özellikle Bektaşî düşüncesini yansıttığı ve sade bir dille kaleme aldığı şiirlerinde hiciv unsuru ağır basmaktadır. Sadettin Nüzhet Ergun ondaki Melâmîlik etkisi üzerinde de durur. Şiirlerinin bir kısmı Saâdet ve Yeni Mecmua gibi devrin gazete ve dergilerinde de yayımlanan Edib Harâbî, Nâmık Kemal’in bazı şiirlerini tahmis etmiş, ayrıca Servet-i Fünûncular’ı alaya alan bazı manzumeler de yazmıştır. Nefes, koşma, kalenderî, mersiye ve gazellerle bazı önemli olaylara düşürdüğü tarihlerden oluşan oldukça hacimli divanının kendi el yazısı ile olan nüshası Süleymaniye Kütüphanesi’nde bulunmaktadır (İhsan Mahvî Balkır, nr. 98). Divanın iki defterden ibaret diğer bir nüshası ise İstanbul Belediyesi Atatürk Kitaplığı’ndadır (K. 541). Sadettin Nüzhet Ergun Bektaşî Şairleri ’nde hece ve aruzla elli bir şiirini neşretmiş (s. 82-115), divanından seçmeler ise Hüseyin Hüsnü Erdikut’un Edib Harâbî’nin Divanı (İzmir 1950) ile Sefer Aytekin’in derlediği Harâbî, Hayatı ve Deyişleri (Ankara 1959) adlı kitaplarda yayımlanmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 422 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:edib-harabi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=edib-harabi, https://islamansiklopedisi.org.tr/edib-harabi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:59Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:59Z",
+    "modified": "2026-05-04T15:39:52Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:59Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=edib-harabi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1853,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=edib-harabi, URL: https://islamansiklopedisi.org.tr/edib-harabi || DİA birth place: İstanbul || DİA death-date string: (1853-1916) || DİA categories: şiir || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

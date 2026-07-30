@@ -1,0 +1,118 @@
+{
+ "@id": "iac:person-00000248",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Jamshid al-Kashi",
+   "tr": "Gıyâseddîn Cemşîd el-Kâşî",
+   "ar": "جمشيد الكاشي"
+  },
+  "originalScript": {
+   "ar": "جمشيد الكاشي"
+  },
+  "altLabel": {
+   "en": [
+    "Ghiyath al-Din Jamshid ibn Mas'ud al-Kashi"
+   ],
+   "tr": [
+    "Gıyâseddîn Cemşîd b. Mes'ûd el-Kâşî"
+   ],
+   "ar": [
+    "غياث الدين جمشيد بن مسعود الكاشي"
+   ]
+  },
+  "description": {
+   "tr": "π'yi 16 ondalık basamağa hesapladı; ondalık kesirlerin öncüsü || Semerkand rasathanesinin matematik dahisi. || [Tarih notu] Semerkand'dan babasına mektupları rasathane yaşamına nadir bakışlar sunar.",
+   "en": "Calculated π to 16 decimal places (world record for 180 years); pioneered decimal fractions || Mathematical genius of Samarkand observatory. His π calculation wasn't surpassed until Viète in 1593. || [Historiographical note] His letters to his father from Samarkand provide rare personal glimpses into observatory life.",
+   "ar": "حسب π إلى 16 خانة عشرية || العبقرية الرياضية لمرصد سمرقند"
+  }
+ },
+ "profession": [
+  "mathematician",
+  "astronomer"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0065",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0065",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   },
+   {
+    "source_id": "scholars:363",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=363",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:56:19Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:56:19Z",
+  "modified": "2026-07-12T14:48:04Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:56:19Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0065 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:32Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (248-353-4765-10225) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000353 lehine yumuşak-silindi. Gerekçe: Dördü de Gıyâseddin Cemşîd b. Mes'ûd el-Kâşî'nin (ö. 1429) farklı ad biçimleridir; Kâşân doğum yeri ile 10225'in koordinatı (33.98/51.41 = Kâşân) ve astronomi-matematik uzmanlığı örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000353"
+ },
+ "birth_temporal": {
+  "start_ce": 1380,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1429,
+  "approximation": "exact"
+ },
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q115466",
+   "confidence": 1.0,
+   "method": "openrefine_v3",
+   "reviewed": false,
+   "note": "Auto-matched via OpenRefine recon (top result for 'Jamshid al-Kashi')."
+  }
+ ],
+ "note": "Promoted from science_layer.json scholar id=scholar_0065, lecture_week=n/a. || Key works: {'title': {'en': 'Risāla al-Muḥīṭiyya', 'tr': \"Risâletü'l-Muhîtiyye\", 'ar': 'رسالة المحيطية'}, 'year': 1424, 'field': 'mathematics', 'significance': {'en': 'Calculated π to 16 decimal places — world record for 180 years', 'tr': \"π'yi 16 ondalık basamağa hesapladı — 180 yıl dünya rekoru\"}}; {'title': {'en': 'Miftāḥ al-Ḥisāb', 'tr': \"Miftâhu'l-Hisâb\", 'ar': 'مفتاح الحساب'}, 'year': 1427, 'field': 'mathematics', 'significance': {'en': 'First systematic use of decimal fractions', 'tr': 'Ondalık kesi || Modern parallel: Like computing a billion digits of π — except he did it by hand.",
+ "birth_place": "iac:place-00010083",
+ "authored_works": [
+  "iac:work-00000090",
+  "iac:work-00000091"
+ ]
+}

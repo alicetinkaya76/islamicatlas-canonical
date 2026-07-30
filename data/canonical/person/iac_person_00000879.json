@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00000879",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Akça Koca"
+    },
+    "description": {
+      "tr": "Osman Gazi’nin silâh arkadaşlarındandır. Torunu Gebze kadısı Fazlullah’ın Rebîülevvel 838 (Ekim 1434) tarihli vakfiyesine göre babasının adı Abdülmelik b. Abdülfettâh’tır (TSMA, nr. E. 7084). Ailesi muhtemelen Anadolu Selçukluları döneminde uç bölgelere yerleştirilmiş bir Türkmen boyuna mensuptur. Akça Koca’nın da aşiret beyi olduğu ve Ertuğrul Gazi’ye bağlı bulunduğu sanılmaktadır. Osman Gazi tarafından Orhan Gazi’nin emrinde Konuralp, Gazi Rahman ve Köse Mihal gibi meşhur beylerle Sakarya ve İzmit yöresine akınlar yapmakla görevlendirildi. Bu bölgedeki bazı kaleleri ele geçirdi ve Sapanca gölünün batı tarafındaki bir hisarı kendisine karargâh yaparak İzmit bölgesine akınlarda bulundu. 1326’ya doğru Kandıra’yı ve civarını zaptetti; ayrıca Konuralp ve Gazi Abdurrahman ile birlikte Kartal civarındaki Aydos’u, ardından da kuzeyindeki Samandıra hisarını aldı. Bunun üzerine Samandıra bölgesi kendisine mülk olarak verildi. Buradan, birkaç yıl daha İzmit-Üsküdar arasındaki yerlere akınlarda bulunan Akça Koca, İzmit’in fethinden az önce, 1328’de Kandıra yakınlarındaki bir tepede öldü ve buraya gömüldü. Ölümünden sonra adamları Karamürsel’in yanında toplandı; uç beyliği yaptığı bölge ise önemi dolayısıyla Şehzade Murad’a verildi. Fetihlerde bulunduğu İzmit ve çevresine sonradan onun adına nisbetle Koca-ili denildi. Ayrıca bugün Bolu iline bağlı Akça Koca ilçesi de onun adını taşır. Hacı İlyas adlı bir oğlunun bulunduğu, torunu Fazlullah’ın önce kadı, sonra da vezir olarak Osmanlı siyasetinde önemli rol oynadığı bilinmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 224 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:akca-koca",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=akca-koca, https://islamansiklopedisi.org.tr/akca-koca",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:akca-koca",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/akca-koca",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:14Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=akca-koca (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 728,
+    "start_ce": 1328,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=akca-koca, URL: https://islamansiklopedisi.org.tr/akca-koca || DİA death-date string: (ö. 728/1328) || Chunk count: 1"
+}

@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00001128",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ASCHBACH, Joseph Ritter von"
+    },
+    "description": {
+      "tr": "29 Nisan 1801’de Almanya’nın Frankfurt şehri yakınlarındaki Höchst am Main’de doğdu. Heidelberg’de başladığı yüksek tahsilinin ilk yıllarında felsefe ve ilâhiyat, daha sonra da tarih öğrenimi gördü. 1842’de Bonn Üniversitesi’ne tarih profesörü olarak tayin edildi. 1849’da Viyana Üniversitesi’ne çağrıldı. 1853’te bu üniversitede tarih bölümü başkanlığını da üstlendi ve 1872’ye kadar bu görevine devam etti. 25 Nisan 1882’de Viyana’da öldü. Eserleri. Araştırmalarında ana kaynaklara inme hususunda son derece titiz davranan Aschbach, çalışmalarını daha ziyade Endülüs ve Roma tarihi üzerine yoğunlaştırdı. 1. Geschichte der Ommaijaden in Spanien (I-II, Frankfurt am Main 1829-1830; Vienna 1860). Endülüs tarihiyle ilgili olarak yazdığı bu eserinde Endülüs’ün İslâm hâkimiyeti altındaki siyasî ve kültürel tarihini, bu arada hıristiyan İspanyol krallıklarının ortaya çıkışını ve Endülüs müslümanlarıyla olan ilişkilerini ele almaktadır. 2. Geschichte Spaniens und Portugals zur Zeit der Herrschaft der Almoraviden und Almohaden (I-II, Frankfurt am Main 1833-1837). Endülüs tarihine dair bir diğer eseridir. Eserin I. cildinde Murâbıtlar Devleti’nin kuruluşu, Endülüs’ün Murâbıtlar’ın hâkimiyeti altına girişi, Murâbıtlar’la hıristiyan İspanyol krallıkları arasındaki mücadeleler, Portekiz Krallığı’nın ortaya çıkışı anlatılmakta, II. cildinde ise Muvahhidler Devleti’nin kuruluşu, Muvahhidler’in Endülüs’e geçişleri, hıristiyanlara karşı yürüttükleri cihad faaliyetleri ve hıristiyanların “reconquista” (Endülüs’ü müslümanlardan geri alma) hareketinin seyri gibi konulara yer verilmektedir. Bu eser, Mısırlı araştırmacı Muhammed Abdullah İnân tarafından Târîḫu’l-Endelüs fî ʿahdi’l-Murâbıṭîn ve’l-Muvaḥḥidîn adıyla Arapça’ya tercüme edilmiştir (Kahire 1958). 3. Geschichte der Westgoten (1827). Aschbach’ın ilk defa birinci derecede kaynaklara inerek Vizigotlar’ın tarihini gün ışığına çıkarmaya çalıştığı ve bunda da büyük ölçüde başarıya ulaştığı bu eserinin son kısmında Endülüs tarihiyle ilgili olarak Vizigotlar Devleti’nin müslüman fâtihler tarafından yıkılması ve İspanya’nın İslâm hâkimiyetine geçmesi konusunu işlemektedir. Onun ayrıca Roma tarihi üzerine yazılmış eserleri de vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 463 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız. Bu madde en son 19.09.2024 tarihinde güncellenmiştir."
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:aschbach-joseph-ritter-von",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=aschbach-joseph-ritter-von, https://islamansiklopedisi.org.tr/aschbach-joseph-ritter-von",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:aschbach-joseph-ritter-von",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=aschbach-joseph-ritter-von",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=aschbach-joseph-ritter-von (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=aschbach-joseph-ritter-von)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1801,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=aschbach-joseph-ritter-von, URL: https://islamansiklopedisi.org.tr/aschbach-joseph-ritter-von || DİA birth place: Main || DİA death-date string: (1801-1882) || DİA categories: felsefe || Chunk count: 1"
+}

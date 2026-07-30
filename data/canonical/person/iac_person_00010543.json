@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00010543",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Ḥāfiẓ",
+      "tr": "İbn el-Hâfız",
+      "ar": "ابن الحافظ"
+    },
+    "originalScript": {
+      "ar": "ابن الحافظ"
+    },
+    "description": {
+      "tr": "Emîr. Babası el-Hâfız (Mısır sahibi) tarafından 526 sene(sinde) vezir tayin edilmiş, ona veliahd gör",
+      "en": "An emir. His father al-Ḥāfiẓ (the ruler of Egypt) appointed him as vizier in the year 526 AH and had"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "al-Ḥasan b. al-Ḥāfiẓ li-Dīn Allāh ʿAbd al-Majīd b. Muḥammad b. al-Mustanṣir bi-Allāh, al-ʿUbaydī al-Fāṭimī"
+    },
+    "altLabel": {
+      "tr": [
+        "Hasan b. el-Hâfız Liddîn-illâh Abdilmecîd b. Muhammed b. el-Müstanser billâh, el-Ubeydi'l-Fâtımî"
+      ],
+      "ar": [
+        "حسن بن الحافظ لدين الله عبد المجيد بن محمد بن المستنصر بالله، العبيديالفاطمي"
+      ]
+    }
+  },
+  "profession": [
+    "ruler",
+    "vizier"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:2730",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=2730",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:52Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=2730 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:2730."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 529,
+    "start_ce": 1135,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=2730, heading_ar=ابن الحافظ || Ziriklī century_ce=12 || Ziriklī place coords (city/region of activity): 30.04, 31.24"
+}

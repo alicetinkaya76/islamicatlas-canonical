@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00001991",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DERMENGHEM, Émile"
+    },
+    "description": {
+      "tr": "Hz. Peygamber’in hayatını yazan Batılı ilim adamlarının en iyi niyetlilerinden biri olarak kabul edilir. Uzun müddet Kuzey Afrika’da bulunmuş, bir süre de Cezayir Kütüphanesi’nin müdürlüğünü yapmıştır. Eserleri. Dermenghem’in önemli eserlerinden bazıları şunlardır: 1. La Vie de Mahomet (Paris 1929, 1950, 1979). En tanınmış eseridir. Arap âleminde, Muhammed Hüseyin Heykel’in es-Siyâse gazetesinin ilâvelerindeki tenkit ve yorumlarından sonra dikkatleri çeken kitap, Reşat Nuri Güntekin tarafından Muhammed’in Hayatı ismiyle Türkçe’ye (İstanbul 1930), Âdil Züaytir tarafından Ḥayâtu Muḥammed adıyla Arapça’ya (Kahire 1945, 1949) çevrilmiştir. Erken devir İslâmî rivayetlerin yanında en son araştırmalardan da faydalanarak eserini yazdığını belirten Dermenghem, İslâmiyet ve Hıristiyanlığı ele aldığı IX. bölümde her iki din arasında Âdem, İblîs, geçmiş peygamberler, melekler, mesîh, deccâl, dirilme, âhiret, hesap, ceza ve mükâfat gibi konularda yakın benzerlikler bulunduğuna dikkat çekerek İslâm’ın Hıristiyanlık’tan alınmış olduğunu iddia etmiş, insaf sahibi şarkiyatçılardan biri sayılmakla birlikte o da birçok Batılı müellifin saplandığı hataya düşmüştür. Hz. Peygamber’in, çevresinde bulunan hıristiyanlarla görüştüğünü, onların fikir ve bilgilerinden faydalandığını ileri süren yazar, İslâmiyet’teki Allah kavramı ve akîdesinin muhtemelen Suriye yahut Mekke hıristiyanlarından alındığını söylemekte, her fırsatta Hıristiyanlığın İslâm’dan üstün olduğunu ve çeşitli yönlerden onu etkilediğini ispatlamaya çalışmaktadır. Diğer taraftan İslâmiyet’in, Hz. Îsâ’nın çarmıha gerilmediği yolundaki görüşünü de (bk. en-Nisâ 4/157) Hıristiyanlığa uymadığı için hoş karşılamamakta ve konu ile ilgili âyetlerin eksik olabileceği ihtimalini dahi söz konusu etmekten çekinmemektedir. 2. Vies des saints musulmans (Paris 1942, 1981). Müslüman velîlerinin biyografileriyle ilgili olan kitapta İbrâhim b. Edhem, Fudayl b. İyâz, Bişr el-Hâfî, Serî es-Sakatî, Yahyâ b. Muâz er-Râzî, Bâyezîd-i Bistâmî, Ebû Bekir Şiblî gibi şahsiyetlerin yanı sıra daha sonraki devirlerde Kuzey Afrika’da yetişen Sîdî Bû Medyen, Sîdî Ebü’l-Abbas ve Hirrâlî gibi velîlerin hayatından bahsedilmektedir. 3. Mahomet et la tradition islamique (Paris 1955, 1975). Hz. Peygamber’in hayatı, faaliyetleri, İslâm geleneği, savaşlar, fetihler, ibadetler ve mezhepler gibi konuların işlendiği eser J. M. Watt tarafından Muhammad and the Islamic Tradition adıyla İngilizce’ye çevrilmiştir (New York-London 1958). 4. Contes fassis, Nouveaux contes fassis (Paris 1926, 1928, 1983). Muhammed el-Fâsî ile birlikte yazdığı bu kitaplarda Fas’ta yaygın olan hikâyeler konu edilmektedir. 5. Le Culte des saints dans l’Islam Maghrebin (Paris 1954, 1982). Kuzey Afrika’da müslüman velîlere gösterilen saygı anlatılmaktadır. 6. Contes kabyles (Paris 1945). Fas’ta Kabîliye bölgesine ait hikâyeleri ihtiva eder. 7. Les Plus beaux textes arabes (Paris 1951, 1980; eserlerinin geniş bir listesi için bk. Akīkī, I, 297-298). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 180 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dermenghem-emile",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dermenghem-emile, https://islamansiklopedisi.org.tr/dermenghem-emile",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:dermenghem-emile",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=dermenghem-emile",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dermenghem-emile (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=dermenghem-emile)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1892,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=dermenghem-emile, URL: https://islamansiklopedisi.org.tr/dermenghem-emile || DİA death-date string: (1892-1971) || DİA categories: rivayet > mezhep || Chunk count: 1"
+}

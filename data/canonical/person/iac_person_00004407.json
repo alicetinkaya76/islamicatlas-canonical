@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00004407",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbrâhim Mülhemî"
+    },
+    "description": {
+      "tr": "Erzurum’da doğdu. Medrese tahsilinden ve mülâzemetten sonra müderris oldu, meslek hayatını hep İstanbul’da geçirdi. Onun 1039’da (1629) hâriç pâyesiyle Başçı İbrâhim Medresesi’ne tayini bilinen ilk müderrisliğidir. Bir yıl sonra Hüsrev Kethüdâ, 1049’da (1639) Dâvud Paşa, iki yıl sonra Rum Mehmed Paşa, 1053’te (1643) Kılıç Ali Paşa, 1055’te (1645) Kadırga Limanı’ndaki Mehmed Paşa, bir yıl sonra Şeyhülislâm Zekeriyyâ Efendi, 1057’de (1647) Sahn, ertesi yıl Zal Paşa Sultânî ve 1060’ta (1650) Kara Mustafa Paşa medreselerine tayin edildi. 17 Şevval 1060’ta (13 Ekim 1650) vefat etti. Çağdaşları arasında hem şiirde mahlası olan Mülhemî (Mülhimî) hem de Canbolatzâde hocası diye tanınmıştı. Bu ikinci lakabı, muhtemelen sarayda yetiştikten sonra I. Ahmed’in kızı Ayşe Sultan’la evlenen Canbolatzâde Mustafa Paşa ile aralarındaki bir münasebetten gelmektedir. Ayrıca doğduğu yere nisbetle kaynaklarda Erzurûmî şeklinde de zikredilmiştir. Mülhemî’nin birkaç ilmî risâle yazdığı ve özellikle matematikçi olarak şöhret kazandığı, Arapça, Farsça ve Türkçe şiirleri bulunduğu belirtilmektedir. Eserleri. Mülhemî’nin kaynaklarda biri Târîh-i Mülûk-i Rûm ve Efrenc , diğeri Şehinşâhnâme adlı iki büyük eseri zikredilmekteyse de bugün sadece Şehinşâhnâme ’sine rastlanmaktadır. Mesnevi tarzında kaleme alınan bu eser IV. Murad’ın emriyle yazılmıştır. IV. Murad’ın doğumundan başlayarak 1048’de (1638) Bağdat seferinden dönüşüne kadar cereyan eden önemli siyasî ve askerî olayları içine alır. Mütekārib vezninde yazılan, başlangıç kısmı ile metnin içindeki başlıkları Farsça, asıl metni Türkçe olan eser, XVI. yüzyılın ikinci yarısında ortaya çıkan Osmanlı şehnâme tarzının geç bir örneği sayılabilir. Topkapı Sarayı Müzesi Kütüphanesi’ndeki minyatürsüz nüshada (Revan Köşkü, nr. 1418) bulunan bir nottan anlaşıldığına göre Şehinşâhnâme Mülhemî’nin tasarladığı tarihinin yalnız I. cildidir. IV. Murad’ın kısa bir süre sonra ölümü üzerine II. cilt yazılamamıştır. Mülhemî’nin Şehinşâhnâme ’yi yazma görevini hangi tarihte aldığı bilinmemektedir. Ancak IV. Murad, 1044 (1635) Revan seferine vak‘anüvis olarak götürdüğü Mehmed Nergisî’nin Şevval 1044’te (Mart 1635) seferin başlarında herhangi bir şey yazamadan ölümü üzerine, Canbolatzâde Mustafa Paşa vasıtasıyla buna benzeyen bir resmî tarihçilik görevinin Mülhemî’ye verildiği düşünülebilir. Nitekim 1040’taki (1630) Hüsrev Kethüdâ Medresesi’ne tayiniyle 1049’da (1639) Dâvud Paşa Medresesi’ne geçmesi arasında oldukça uzun bir zamanın bulunması, bu arada padişahın emriyle Revan ve Bağdat seferlerine katıldığını göstermektedir. Uşşâkīzâde, Şeyhî Mehmed Efendi ve Naîmâ gibi XVIII. yüzyıl kaynaklarında Mülhemî’nin Şehinşâhnâme ’sinin adı geçmez. Müellifin Fetihnâme-i Karaboğdan adını taşıyan bir eserinden Osmanlı Müellifleri ’nde bahsedilmekteyse de (III, 12-13) bu hususta herhangi bir bilgiye rastlanmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 323-324 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibrahim-mulhemi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibrahim-mulhemi, https://islamansiklopedisi.org.tr/ibrahim-mulhemi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibrahim-mulhemi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibrahim-mulhemi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:28Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:28Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:28Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibrahim-mulhemi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibrahim-mulhemi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1060,
+    "start_ce": 1650,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibrahim-mulhemi, URL: https://islamansiklopedisi.org.tr/ibrahim-mulhemi || DİA birth place: Erzurum || DİA death place: 1060 || DİA death-date string: (ö. 1060/1650) || DİA categories: matematik || Chunk count: 1"
+}

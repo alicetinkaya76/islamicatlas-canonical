@@ -1,0 +1,98 @@
+{
+  "@id": "iac:person-00003690",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN BATTÂL el-BATALYEVSÎ",
+      "ar": "ابن بطّال البطليوسي"
+    },
+    "originalScript": {
+      "ar": "ابن بطّال البطليوسي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Eyyûb Süleymân b. Muhammed b. Battâl el-Batalyevsî"
+      ]
+    },
+    "description": {
+      "tr": "Endülüs şehirlerinden Batalyevs’te (Badajoz) doğdu. Kurtuba’da (Córdoba) öğrenim gördükten sonra İlbîre’ye (Elvira) yerleşti. Güçlü bir şair olup şiirlerinde “Yâ ayn cûdî” hitabını çok kullandığı için Ayn Cûdî ve muhtemelen Câhiliye şairi Mütelemmis’e benzetilmesi sebebiyle de Mütelemmis lakaplarıyla tanındı. İbnü’l-Kettânî Kitâbü’t-Teşbîhât adlı eserinde şiirlerinden çeşitli örnekler vermiştir (bk. bibl.). İbn Ebû Zemenîn ile arkadaş olan İbn Battâl’in talebeleri arasında İbn Abdülber en-Nemerî, İbnü’l-Hazzâ, İbnü’l-Hassâr ve Hakem b. Muhammed b. Ebû Rebî‘ el-Eyserî gibi âlimler vardır. İbn Battâl İlbîre’de vefat etti. Kaynaklarda, İbn Battâl’in, müftü ve kadılar için önemli bir müracaat kaynağı olduğu belirtilen el-Muḳniʿ fî uṣûli’l-aḥkâm ile Âdâbü’ṣ-ṣavm , el-Mûḳıẓ (zühdle ilgilidir), Edebü’l-hümûm ( Edebü’l-mehmûm ), ed-Delîl ilâ ṭâʿati’l-celîl adlı eserlerinin bulunduğu kaydedilir. Makkarî, hadisçi İbn Battâl el-Kurtubî’nin Şerḥu’l-Câmiʿi’ṣ-ṣaḥîḥ ’ini yanlışlıkla İbn Battâl el-Batalyevsî’ye nisbet etmiştir ( Nefḥu’ṭ-ṭîb , III, 451). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 360 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-battal-el-batalyevsi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-battal-el-batalyevsi, https://islamansiklopedisi.org.tr/ibn-battal-el-batalyevsi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:17Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-battal-el-batalyevsi (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:00Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Batalyevsî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 402,
+    "start_ce": 1011,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-battal-el-batalyevsi, URL: https://islamansiklopedisi.org.tr/ibn-battal-el-batalyevsi || DİA death place: İlbîre || DİA death-date string: (ö. 402/1011-12) || DİA categories: hadis || Chunk count: 1",
+  "death_place": "iac:place-00000932",
+  "active_in_places": [
+    "iac:place-00000932"
+  ],
+  "students": [
+    "iac:person-00003604",
+    "iac:person-00004216"
+  ]
+}

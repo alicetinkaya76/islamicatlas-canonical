@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00004642",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KÂ‘B b. UCRE",
+      "ar": "كعب بن عجرة"
+    },
+    "originalScript": {
+      "ar": "كعب بن عجرة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed (Ebû İshâk, Ebû Abdillâh) Kâ‘b b. Ucre b. Ümeyye el-Ensârî es-Sâlimî"
+      ]
+    },
+    "description": {
+      "tr": "Hazrec kabilesine hilf yoluyla mensup olan Belî b. Amr soyundandır. İslâmiyet’i kabul etmeden önce evinde put bulunduruyordu. Müslüman olması için yapılan davetleri geri çevirmiştir. İslâmiyet’i kabul eden dostu Ubâde b. Sâmit bir gün Kâ‘b evde yokken gidip putunu kırdı. Durumu öğrenen Kâ‘b, büyük bir öfkeyle Ubâde’yi aramaya çıktıysa da bir müddet sonra sakinleşti ve Ubâde b. Sâmit’le karşılaştığında ona müslüman olduğunu açıkladı. Bey‘atürrıdvân’a, bazı savaşlara ve Vedâ haccına katılan Kâ‘b, hayatının ileriki yıllarında Kûfe ve Basra’da hadis rivayetiyle meşgul oldu. Bilâl-i Habeşî ve Hz. Ömer’den hadis rivayet etti. Kendisinden oğulları, Abdullah b. Ömer, Abdullah b. Abbas, Câbir b. Abdullah, Abdurrahman b. Ebû Leylâ, İbn Sîrîn ve diğerleri rivayette bulundu. Hz. Peygamber’den kırk yedi hadis nakletmiş, rivayetleri Kütüb-i Sitte ’de yer almıştır. Ahmed b. Hanbel’in el-Müsned ’inde de otuz iki hadisi mevcuttur. Kâ‘b’ın naklettiğine göre, Hudeybiye seferi esnasında ihramda iken kulak memelerine kadar uzayan saçlarının bitlendiğini gören Hz. Peygamber onun bu durumuyla ilgilenmiş, saçlarını tıraş etmesini, fidye olarak da üç gün oruç tutmasını veya altı fakiri doyurmasını yahut bir kurban kesmesini emretmiş, bunun üzerine şu âyet nâzil olmuştur: “Başladığınız hac ve umreyi Allah için tamamlayın. Alıkonulursanız kolayınıza gelen bir kurban kesin. Kurban yerine ulaşıncaya kadar başlarınızı tıraş etmeyin. İçinizde hasta olan veya başından bir rahatsızlığı bulunan varsa onun fidye olarak oruç tutması veya sadaka vermesi ya da kurban kesmesi gerekir” (el-Bakara 2/196; bk. el-Muvaṭṭaʾ , “Ḥac”, 238; Müsned , IV, 241-243; Buhârî, “Ṭıb”, 16, “Keffârât”, 1; Müslim, “Ḥac”, 80, 84; Tirmizî, “Ḥac”, 105, “Tefsîr”, 2/21). Hz. Peygamber’in vefatından sonra Kûfe’ye yerleşen ve ömrünün sonlarına doğru tekrar Medine’ye dönen Kâ‘b 52 (672) yılında burada vefat etti. Onun 51 ve 53 yıllarında öldüğü de zikredilmiş; İshak, Muhammed, Abdullah ve Rebîa isminde dört çocuğu olduğu kaydedilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 6-7 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kab-b-ucre",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kab-b-ucre, https://islamansiklopedisi.org.tr/kab-b-ucre",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:kab-b-ucre",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/kab-b-ucre",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:30Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kab-b-ucre (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî; Sâlimî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 52,
+    "start_ce": 672,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kab-b-ucre, URL: https://islamansiklopedisi.org.tr/kab-b-ucre || DİA death-date string: (ö. 52/672) || DİA categories: hadis > rivayet > tefsir || Chunk count: 1"
+}

@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00003992",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN REZÎN el-İSFAHÂNÎ",
+      "ar": "ابن رزين الإصفهاني"
+    },
+    "originalScript": {
+      "ar": "ابن رزين الإصفهاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Îsâ b. İbrâhîm b. Rezîn el-İsfahânî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Aslen İsfahanlı olup Rey’de doğdu. Babasına nisbetle İbn Îsâ, ikinci ceddi Rezîn’e nisbetle İbn Rezîn künyeleriyle ve Teymî nisbesiyle anıldı. Temel öğrenimini tamamladıktan sonra kıraat ilmine yöneldi. Meşhur yedi kıraat imamından Hamza b. Habîb’in önde gelen talebesi Süleym b. Îsâ’dan ve onun kıraatinin meşhur iki râvisi Hallâd b. Hâlid ile Halef b. Hişâm’dan ve Nusayr b. Yûsuf er-Râzî gibi âlimlerden kıraat dersleri aldı. Ayrıca Hamza’nın talebesi Hasan b. Atıyye el-Kûfî’den de bir hatim indirdi. Kıraatleri önemli kaynaklarından alarak bu konuda çeşitli rivayetler arasından tercihler yapabilen İbn Rezîn devrinin önde gelen kıraat otoritelerinden sayıldı; nahiv konusunda da dönemin imamları arasında yerini aldı. Ebû Nuaym Fazl b. Dükeyn, Kabîsa b. Ukbe, İshak b. Süleyman, Amr b. Ebû Seleme, Ubeydullah b. Mûsâ ve Abdurrahman ed-Deştekî gibi isimlerden hadis rivayet etti. Fazl b. Şâzân, Muhammed b. Abdürrahîm el-İsfahânî, Ca‘fer b. Abdullah b. Sabbâh, Ebû Sehl Hamdân b. Merzübân ve daha birçok şahsiyet kıraat konusunda ondan faydalandı. Ebû Zür‘a er-Râzî İbn Rezîn hakkında, “Kıraatler konusunda ondan daha üstününü görmedim” derken Ebû Hâtim er-Râzî de hadiste onu sadûk olarak nitelendirmiştir. İbn Rezîn 253’te (867) vefat etti. Ölüm tarihi 240 (854), 241 ve 242 olarak da zikredilmiştir. Kaynaklarda el-Câmiʿ fi’l-ḳırâʾât , Kitâb fi’l-ʿaded , Kitâb fî cevâzi ḳırâʾati’l-Ḳurʾân ʿalâ ṭarîḳı’l-muḫâṭaba , Kitâb fi’r-resm adlı eserleri yazdığı belirtilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 249 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-rezin-el-isfahani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-rezin-el-isfahani, https://islamansiklopedisi.org.tr/ibn-rezin-el-isfahani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:22Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:22Z",
+    "modified": "2026-05-04T15:40:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-rezin-el-isfahani (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "İsfahânî"
+  ],
+  "death_temporal": {
+    "start_ah": 253,
+    "start_ce": 867,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-rezin-el-isfahani, URL: https://islamansiklopedisi.org.tr/ibn-rezin-el-isfahani || DİA birth place: Rey || DİA death place: 253 || DİA death-date string: (ö. 253/867 [?]) || DİA categories: hadis > rivayet > nahiv || Chunk count: 1",
+  "birth_place": "iac:place-00015119"
+}

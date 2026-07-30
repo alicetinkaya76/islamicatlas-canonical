@@ -1,0 +1,135 @@
+{
+  "@id": "iac:person-00000240",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abu al-Wafa al-Buzjani",
+      "tr": "Ebü'l-Vefâ el-Bûzcânî",
+      "ar": "أبو الوفاء البوزجاني"
+    },
+    "originalScript": {
+      "ar": "أبو الوفاء البوزجاني"
+    },
+    "altLabel": {
+      "en": [
+        "Muhammad ibn Muhammad ibn Yahya Abu al-Wafa al-Buzjani"
+      ],
+      "tr": [
+        "Muhammed b. Muhammed b. Yahyâ Ebü'l-Vefâ el-Bûzcânî"
+      ],
+      "ar": [
+        "محمد بن محمد بن يحيى أبو الوفاء البوزجاني"
+      ]
+    },
+    "description": {
+      "tr": "Küresel trigonometrinin öncüsü, tanjant ve sekant fonksiyonlarını sistematize etti || Bûzcânî'nin sinüs tabloları çağının en doğrusuydu. || [Tarih notu] Eski Avrupa kaynaklarında sıklıkla karıştırılır.",
+      "en": "Pioneered spherical trigonometry, established tangent and secant functions, sine tables accurate to 8 decimal places || Al-Buzjani's sine tables were the most accurate of their era. His work completed the six standard trigonometric functions still used today. || [Historiographical note] Often confused with Abu al-Wafa of Khorasan in older European scholarship.",
+      "ar": "رائد علم المثلثات الكروية || كانت جداول جيب البوزجاني أدق جداول عصره"
+    }
+  },
+  "profession": [
+    "mathematician",
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0057",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0057",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:216",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=216",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E0936",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:56:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:56:01Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:56:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0057 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-1 conf 1.0): ['derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 940,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 998,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q298439",
+      "confidence": 0.93,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Abu al-Wafa al-Buzjani')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0057, lecture_week=n/a. || Key works: {'title': {'en': 'Kitāb fī mā Yaḥtāju ilayhi al-Ṣunnāʿ', 'tr': 'Zanaatkârların İhtiyaç Duyduğu Geometrik İşlemler', 'ar': 'كتاب فيما يحتاج إليه الصنّاع'}, 'year': 970, 'field': 'mathematics', 'significance': {'en': 'Practical geometry for artisans; introduced tangent function into systematic use', 'tr': 'Zanaatkârlar için uygulamalı geometri; tanjant fonksiyonunu sistematik kullanıma soktu'}} || Modern parallel: Like the mathematician who perfected calculus notation — his standardization became universal.",
+  "active_in_places": [
+    "iac:place-00002228",
+    "iac:place-00008279"
+  ],
+  "authored_works": [
+    "iac:work-00000082",
+    "iac:work-00004293"
+  ],
+  "kunya": "Ebü'l-Vefâ",
+  "nisba": [
+    "Bûzcânî"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

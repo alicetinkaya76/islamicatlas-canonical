@@ -1,0 +1,122 @@
+{
+  "@id": "iac:person-00000684",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABÎDE es-SELMÂNÎ",
+      "ar": "عبيدة السلماني"
+    },
+    "originalScript": {
+      "ar": "عبيدة السلماني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Amr (Ebû Müslim) Abîde b. Amr (b. Kays b. Amr) es-Selmânî el-Murâdî el-Kûfî",
+        "Ubeyde b. Amr (veya Kays) es-Selmânî el-Müradî"
+      ],
+      "ar": [
+        "عبيدة بن عمرو (أو قيس) السلماني المرادي"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Yemenli olup Murad kabilesinin Selman boyuna nisbetle Selmânî diye anılır. Doğum tarihi belli değildir. İslâmiyet’e girmeden önce de kabilesi arasında önemli bir yere sahipti ve kabilesinin arîf i idi. Hz. Peygamber’in vefatından iki yıl önce, Mekke fethi sıralarında müslüman oldu; fakat Hz. Peygamber’le görüşemedi. Hz. Ömer zamanında Medine’ye göç etti; daha sonra da Kûfe’ye giderek oraya yerleşti. Pek çok savaşa katılan ve Hz. Ali’nin Hâricîler’le yaptığı savaşta da bulunan Abîde, sahâbîlerin birçoğuyla görüşmüş, Hz. Ömer, Ali, Abdullah b. Mes‘ûd ve Abdullah b. Zübeyr’den hadis rivayet etmiştir. Kendisinden de başta Muhammed b. Sîrîn olmak üzere Şa‘bî, İbrâhim en-Nehaî ve Ebû İshak es-Sebîî gibi devrin önde gelen âlimleri rivayette bulunmuşlardır. Hadis münekkitlerince güvenilir ve rivayetleri en sahih isnadlardan sayılan Abîde es-Selmânî’nin fıkıh ve kıraatte hocası Abdullah b. Mes‘ûd’dur. Kendisi de Kûfe’nin meşhur dört fakihinin (Abîde, Hâris, Alkame ve Şüreyh) bazılarına göre en üstünü sayılırdı. Kaynaklar Şüreyh’in, içinden çıkamadığı meselelerde ona danışarak hüküm verdiğini kaydeder. Abîde’nin hicrî 73 veya 74 yılında öldüğüne dair farklı rivayetler varsa da en kuvvetli rivayete göre 72 (691) yılında vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 309-310 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "Tābiʿ"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ubaydah ibn ʿAmr (or Qays) al-Salmānī al-Murādī"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abide-es-selmani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abide-es-selmani, https://islamansiklopedisi.org.tr/abide-es-selmani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:6604",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6604, heading_ar=عبيدة السلماني",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:abide-es-selmani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abide-es-selmani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:44Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abide-es-selmani (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6604]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6604 (heading_ar=عبيدة السلماني) via Track A (DİA→Alam xref bridge). dt=Tâbiî"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+translit from alam_detail.json el-alam:6604."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Selmânî; Murâdî"
+  ],
+  "death_temporal": {
+    "start_ah": 72,
+    "start_ce": 691,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abide-es-selmani, URL: https://islamansiklopedisi.org.tr/abide-es-selmani || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6604] || DİA death-date string: (ö. 72/691) || DİA categories: rivayet > hadis > fıkıh || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6604, heading_ar=عبيدة السلماني, dt=Tâbiî",
+  "teachers": [
+    "iac:person-00000522"
+  ],
+  "students": [
+    "iac:person-00006501"
+  ]
+}

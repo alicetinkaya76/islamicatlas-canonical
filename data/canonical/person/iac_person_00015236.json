@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00015236",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Zar'a",
+      "tr": "İbn Zar'a",
+      "ar": "ابن زرعة"
+    },
+    "originalScript": {
+      "ar": "ابن زرعة"
+    },
+    "description": {
+      "tr": "Felsefe ve mantık âlimi, Irak Hıristiyanlarından",
+      "en": "Scholar of philosophy and logic, from the Christians of Iraq"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿĪsā b. Isḥāq b. Zarʿa b. Marqus al-Baghdādī, Abū ʿAlī"
+    },
+    "altLabel": {
+      "tr": [
+        "İsâ b. İshâk b. Zar'a b. Markus el-Bağdâdî, Ebû Alî"
+      ],
+      "ar": [
+        "عيسى بن إسحاق بن زرعة بن مرقس البغدادي، أبو علي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:7976",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7976",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:39Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=7976 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7976."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 448,
+    "start_ce": 1056,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7976, heading_ar=ابن زرعة || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
+  "kunya": "أبو علي"
+}

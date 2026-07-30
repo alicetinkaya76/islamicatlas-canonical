@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00005567",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MİSTAH b. ÜSÂSE",
+      "ar": "مسطح بن اثاثة"
+    },
+    "originalScript": {
+      "ar": "مسطح بن اثاثة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abbâd (Ebû Abdillâh) Mistah b. Üsâse b. Abbâd el-Kureşî"
+      ],
+      "ar": [
+        "مسطح بن أثاثة"
+      ]
+    },
+    "description": {
+      "tr": "Muhtemelen milâdî 598’de doğdu. Asıl adı Avf olup Mistah lakabıdır. Babası o daha küçükken öldüğünden yetim olarak büyüdü. Ümmü Mistah olarak tanınan ve asıl adının Selmâ (Sülmâ) olduğu belirtilen annesi Hz. Ebû Bekir’in teyzesinin kızıdır. Annesi ve kız kardeşi Hind ile birlikte erken dönemlerde müslüman oldu ve Medine’ye ilk hicret edenler arasında yer aldı. Hz. Peygamber onu Zeyd b. Müzeyyen el-Ensârî ile kardeş yaptı. Bedir ashabından olup Resûlullah’ın katıldığı bütün gazvelerde bulunan ve cesur bir kişi olarak bilinen Mistah, Ubeyde b. Hâris’in kumanda ettiği Râbiğ Seriyyesi’nde (Şevval 1 / Nisan 623) sancaktarlık görevini üstlendi. Müreysî‘ Gazvesi’nden sonra meydana gelen İfk Hadisesi’nin yayılmasına adı karıştı ve iffetli bir kadına zina isnadında bulunma fiilini işlediği sabit görüldüğü için Resûl-i Ekrem tarafından diğer suç ortaklarıyla birlikte kendisine had uygulandı. Bu olay annesini çok üzdüğü gibi akrabalık ilişkisi ve fakirliği sebebiyle kendisini koruyan Hz. Ebû Bekir de artık Mistah’a yardımda bulunmayacağına dair yemin etti. Ancak, “İçinizden faziletli ve servet sahibi kimseler akrabaya, yoksullara, Allah yolunda göç edenlere mallarından vermeyeceklerine yemin etmesinler; bağışlasınlar, feragat göstersinler. Allah’ın sizi bağışlamasını arzulamaz mısınız? Allah çok bağışlayandır, çok merhametlidir” meâlindeki âyetin (en-Nûr 24/22) nâzil olması üzerine Hz. Ebû Bekir bu kararından vazgeçerek yardımlarına devam edeceğini açıkladı (Tirmizî, “Tefsîr”, 25). Mistah’ın daha sonra gözlerini kaybetmesini bu iftira olayı sebebiyle dünyada iken uğradığı bir musibet olarak değerlendirenler olmuştur. Mistah 34 (654) yılında Medine’de vefat etti. Bazı kaynaklarda Hz. Ali’nin hilâfeti dönemine kadar yaşadığı, Sıffîn Savaşı’na katıldığı ve aynı yıl (37/657) öldüğü de zikredilmiştir (İbnü’l-Esîr, IV, 308-309; İbn Hacer, VI, 93). Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 30. cildinde, 188 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mistah-b-usase",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mistah-b-usase, https://islamansiklopedisi.org.tr/mistah-b-usase",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mistah-b-usase",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mistah-b-usase",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:11974",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=11974, heading_ar=مسطح بن أثاثة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:41Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mistah-b-usase (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[11974]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=11974 (heading_ar=مسطح بن أثاثة) via Track A (DİA→Alam xref bridge). dt=Sahâbî"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî"
+  ],
+  "death_temporal": {
+    "start_ah": 34,
+    "start_ce": 654,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mistah-b-usase, URL: https://islamansiklopedisi.org.tr/mistah-b-usase || El-Aʿlām (Ziriklī) cross-reference: alam_id=[11974] || DİA birth place: 598 || DİA death place: Medine || DİA death-date string: (ö. 34/654) || DİA categories: hadis > tefsir > isnâd || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=11974, heading_ar=مسطح بن أثاثة, dt=Sahâbî"
+}

@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00007805",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ZEKERİYA, Necati"
+    },
+    "description": {
+      "tr": "Üsküp’te doğdu, ilk ve orta öğrenimini burada tamamladı; Arap Hoca adlı bir kişiden özel ders aldı. Bir süre öğretmenlik kurslarına devam etti, ardından Üsküp İrfan Okulu’nda öğretmenliğe başladı. II. Dünya Savaşı’ndan sonra Yugoslavya’da kurulan sosyalist yönetimin yayımına izin verdiği Pioner adlı Türkçe çocuk dergisinin başına geçti. Üsküp’te çıkan Sevinç ve Tomurcuk adlı çocuk dergilerini yirmi yıl kadar yönetti. Ardından 1944’ten beri yayımlanmakta olan Birlik gazetesinin başyazarı oldu (1969). Sesler adlı toplum-sanat dergisinin çıkarılmasında ve Birlik adlı yayın teşkilâtı aracılığıyla Türkçe çocuk kitaplarının neşrinde büyük çaba harcadı. 1973’te bazı politik sebepler yüzünden görevinden alındı. 1975’te Priştine’de yayımlanan Tan gazetesine geçti; 1979’da yine burada çıkarılan Kuş adlı çocuk dergisini yönetti. 10 Haziran 1988’de tedavi gördüğü Novi Sad’da vefat etti. Şiir, hikâye, deneme gibi türlerde eser veren, eserleri çeşitli dillere çevrilen Necati Zekeriya, Yugoslavya’da sosyalist yönetimin her toplumun kendi ana dilinde, fakat sistemin beklentileri doğrultusunda yeni bir edebiyat oluşturma gayreti çerçevesinde var edilmeye çalışılan Türk yazarları arasında Türkçe’yi doğru ve güzel kullanan az sayıdaki yazardan biridir. Türkçe’den Sırpça ve Boşnakça’ya Makedon diline çeviriler yapmak suretiyle Türk edebiyatını Yugoslavya’da, bu dillerden Türkçe’ye yaptığı çevirilerle de Yugoslav edebiyatını Türkiye’de tanıtarak iki ülke arasında bir tür kültür elçiliği yapmıştır. 1949’da Üsküp’te yayımlanan Makedonya Genç Türk Yazarlarının Eserleri adlı antolojide onun şiirlerine de yer verilmiş, 1950’de Makedonya Halk Cumhuriyeti hükümetinin edebiyat ödülünü kazanan ilk Türk yazarı olmuştur. Eserleri. Şiir: Şiirler (1950), Okul Çanı (1952), Silahşör Tavşan (1953), Nerde Olsam (1953), Gelincik (1954), Kırmızı Küpeler (1958), Ninniler (1964), Sevgi (1965), Damlalar (1967), Yeşil Nerde (1975), Lorka Soyutlaması (1977), Ağaçlar Dile Gelse (1985), Harfler Ne Yer (1988), Çayhane Şiirleri (1989). Hikâye: Bizim Sokağın Çocukları (1961), Yeni Sokağın Çocukları (1967), Eski Sokağın Çocukları (1967), Güzel Nedir Çirkin Nedir (1968), Bizim Sokağın Romeo ve Jüliyeti (1978), Eskiler Alırım Yeniler Satarım (1981). Antoloji: Makedon Hikâyeleri Antolojisi (1969), On Makedon Ozanı (1971), Çağdaş Yugoslav Hikâyeleri Antolojisi (1975), Uçun Kuşlar Uçun (çocuk hikâyeleri antolojisi, 1978), Makedon Şiiri Antolojisi (1979). Bu madde TDV İslâm Ansiklopedisi’nin 2013 yılında İstanbul’da basılan 44. cildinde, 209-210 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:zekeriya-necati",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=zekeriya-necati, https://islamansiklopedisi.org.tr/zekeriya-necati",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:zekeriya-necati",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=zekeriya-necati",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:09Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:09Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=zekeriya-necati (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=zekeriya-necati)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1928,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=zekeriya-necati, URL: https://islamansiklopedisi.org.tr/zekeriya-necati || DİA birth place: Üsküp || DİA death place: Sad || DİA death-date string: (1928-1988) || DİA categories: şiir || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00007442"
+  ]
+}

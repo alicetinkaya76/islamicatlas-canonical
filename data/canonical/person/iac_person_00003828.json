@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00003828",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Halef",
+      "ar": "ابن خلف"
+    },
+    "originalScript": {
+      "ar": "ابن خلف"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Halef b. Abdilvehhâb el-Kâtib"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yaptığı görev dışında bilgi yoktur. Doğum ve ölüm tarihleri tesbit edilememekte, ancak 437’de (1046) Mevâddü’l-beyân adıyla tanınan kitabının yazımını sürdürdüğü bilinmektedir (s. 396). Habbâl el-Mısrî’nin Vefeyâtü ḳavm mine’l-Mıṣriyyîn ve nefer sivâhüm ’ünde (bk. bibl.) Şevval 455’te (Ekim 1063) öldüğünü söylediği Ebü’l-Hasan Ali b. Halef ez-Zeyyât adlı kişinin İbn Halef olması muhtemeldir. Mevâddü’l-beyân , Dîvân-ı İnşâ’da görev yapan kâtipler için yazılmış bir el kitabıdır; ancak çeşitli bölümlerinde edebî nazariyeler üzerinde önemle durulduğu görülmektedir. Müellif özellikle dördüncü ve beşinci bölümlerde İbnü’l-Mu‘tez (ö. 296/908) ve Kudâme b. Ca‘fer’in (ö. 337/948 [?]) başlattığı terminoloji geleneğini tahlil eder ve onların kullandığı teknik terimler hakkında bilgi verip sık sık nakillerde bulunur; ancak yaptığı tahlillerin pek orijinal olduğu söylenemez. Diğer bölümlerde İbnü’l-Mu‘tez ve Kudâme’den başka Ebû Ali el-Fârisî, Ali b. Îsâ er-Rummânî, Ebû Ali Muhammed b. Hasan el-Hâtimî’den alıntılar yapar. Terimler ve tarifler hakkında en sık başvurduğu kaynak ise İbnü’l-Mu‘tezz’in Kitâbü’l-Bedîʿ adlı eseridir. Mevâddü’l-beyân Dîvân-ı İnşâ’daki kâtiplerin sahip olmaları gereken bilgileri, yazışmalarda uymaları zorunlu esas ve gelenekleri ihtiva etmesi ve ayrıca o dönemin sosyopolitik hayatı hakkında sağlıklı bilgiler vermesi açısından Fâtımî tarihi için birinci elden bir kaynaktır; nitekim Kalkaşendî Ṣubḥu’l-aʿşâ ve Ḍavʾü’ṣ-ṣubḥ ’ta sık sık ona atıflarda bulunur. On bölümden oluştuğu anlaşılan Mevâddü’l-beyân ’ın sadece eksik bir nüshası günümüze ulaşmıştır. Süleymaniye Kütüphanesi’nde (Fâtih, nr. 4128) muhafaza edilen yazmanın sekizinci bölümünün bir kısmı ile dokuz ve onuncu bölümleri kayıptır. Keşfü’ẓ-ẓunûn ’da adı yanlış olarak Mevâridü’l-beyân şeklinde verilen eseri (II, 1888) ilim âlemine etraflıca tanıtan ve müellifi hakkında ilk araştırmayı yapan Abdülhamîd Sâlih’tir ( Arabica , XX/2 [1973], s. 192-200). Daha sonra Hüseyin Abdüllatîf kitabın tamamını (Tripoli 1982), Hâtim Sâlih ed-Dâmin de belâgatla ilgili ikinci ve üçüncü bölümlerini ( el-Mevrid , XVII/2 [1988], s. 131-157; XVII/3 [1988], s. 120-152) yayımlamıştır. Fuat Sezgin de eserin bir tıpkıbasımını yapmıştır (Frankfurt 1986). İbn Halef eserinde Âletü(Âlâtü)’l-Küttâb adıyla bir kitap yazdığını (s. 326) ve Kitâbü’l-Ḫarâc adlı bir başkasını da yazmak istediğini (s. 31) söylemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 14 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-halef",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-halef, https://islamansiklopedisi.org.tr/ibn-halef",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:9123",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=9123, heading_ar=ابن خلف",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:19Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:19Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-halef (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[9123]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=9123 (heading_ar=ابن خلف) via Track A (DİA→Alam xref bridge). dt=Fazilet sahibi"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 437,
+    "start_ce": 1046,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-halef, URL: https://islamansiklopedisi.org.tr/ibn-halef || El-Aʿlām (Ziriklī) cross-reference: alam_id=[9123] || DİA death-date string: (ö. 437/1046’dan sonra) || DİA categories: belâgat || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=9123, heading_ar=ابن خلف, dt=Fazilet sahibi"
+}

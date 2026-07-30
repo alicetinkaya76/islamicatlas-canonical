@@ -1,0 +1,111 @@
+{
+  "@id": "iac:person-00001600",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BUHÂRÎ, Tâhir b. Ahmed",
+      "ar": "طاهر بن أحمد البخاري"
+    },
+    "originalScript": {
+      "ar": "طاهر بن أحمد البخاري"
+    },
+    "altLabel": {
+      "tr": [
+        "İftihârüddîn Tâhir b. Ahmed b. Abdirreşîd el-Buhârî"
+      ]
+    },
+    "description": {
+      "tr": "482’de (1090) Buhara’da doğdu. Hayatı hakkında kaynaklarda yeterli bilgi yoktur. Babası Kıvâmüddin Ahmed, dayısı Zahîrüddin Hasan b. Ali el-Mergīnânî’den, Hammâd b. İbrâhim es-Saffâr ve Kādîhan’dan fıkıh okudu. Derin bilgisiyle Mâverâünnehir Hanefî ulemâsı arasında temayüz eden ve İbn Kemal’in fıkıh âlimlerinin dereceleriyle ilgili tasnifine göre mezhep imamından rivayet bulunmayan konularda ictihad yapabilen âlimlerden (meselede müctehid) sayılan Buhârî, Cemâziyelevvel 542’de (Ekim-Kasım 1147) Serahs’ta vefat etti ve Buhara’ya götürülerek orada defnedildi. Eserleri. Ḫizânetü’l-fetâvâ . Bazı kaynaklarda Ḫizânetü’l-vâḳıʿât veya el-Vâḳıʿât adıyla zikredilen eser de bu olmalıdır. Delhi (1318) ve Kahire’de (1327-1328) yedi cilt halinde basılmıştır. Kaynaklarda en-Nisâb adıyla bir başka eseri de zikredilen Buhârî’nin bu eserlerini ihtisar ederek telif ettiği Ḫulâṣatü’l-fetâvâ adlı kitabı da Leknev’de basılmıştır (taşbaskı, ts.). Ḫulâṣatü’l-fetâvâ ’nın Süleymaniye Kütüphanesi’nde kırk civarında yazma nüshası bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 376 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:buhari-tahir-b-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=buhari-tahir-b-ahmed, https://islamansiklopedisi.org.tr/buhari-tahir-b-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:buhari-tahir-b-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=buhari-tahir-b-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:45Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=buhari-tahir-b-ahmed (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=buhari-tahir-b-ahmed)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Buhârî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 542,
+    "start_ce": 1147,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=buhari-tahir-b-ahmed, URL: https://islamansiklopedisi.org.tr/buhari-tahir-b-ahmed || DİA birth place: Buhara || DİA death place: Serahs || DİA death-date string: (ö. 542/1147) || DİA categories: fıkıh > rivayet > mezhep || Chunk count: 1",
+  "death_place": "iac:place-00014213",
+  "active_in_places": [
+    "iac:place-00014213"
+  ],
+  "teachers": [
+    "iac:person-00004664"
+  ]
+}

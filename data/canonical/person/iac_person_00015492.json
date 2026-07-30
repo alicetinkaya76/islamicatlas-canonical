@@ -1,0 +1,101 @@
+{
+ "@id": "iac:person-00015492",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Rashīd al-Dīn",
+   "tr": "Reşîdüddîn",
+   "ar": "رشيد الدولة"
+  },
+  "originalScript": {
+   "ar": "رشيد الدولة"
+  },
+  "description": {
+   "tr": "Vezir, felsefe, tıp ve tarih ile uğraşan kimse",
+   "en": "A vizier who engaged in philosophy, medicine, and history"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Fadl Allāh (Rashīd al-Dīn) b. Abī al-Khair (ʿImād al-Dīn) b. ʿAlī (Muwaffaq al-Dīn) Abū al-Faḍl al-Hamdhānī"
+  },
+  "altLabel": {
+   "tr": [
+    "Fazlullah (Reşîdüddîn) b. Ebi'l-Hayr (İmâdüddîn) b. Ali (Muvaffakuddîn) Ebû'l-Fazl el-Hemedânî"
+   ],
+   "ar": [
+    "فضل الله ( رشيد الدولة ، أو رشيد الدين) ابن أبي الخير (عماد الدولة) ابن علي (موفق الدولة) أبوالفضل الهمذاني"
+   ]
+  }
+ },
+ "profession": [
+  "vizier"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:8258",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=8258",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:42Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:42Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:42Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=8258 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:47Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:8258."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (6404-15492) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00006404 lehine yumuşak-silindi. Gerekçe: Reşîdüddin Fazlullāh vezirlikten önce 'Reşîdüddevle' diye anılırdı; vezir rolü, Hemedan koordinatı ve 14. yüzyıl idamı (718 h.) aynı kişiyi gösterir."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00006404"
+ },
+ "death_temporal": {
+  "start_ah": 716,
+  "start_ce": 1316,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=8258, heading_ar=رشيد الدولة || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 34.8, 48.51",
+ "active_in_places": [
+  "iac:place-00012747"
+ ],
+ "authored_works": [
+  "iac:work-00001356",
+  "iac:work-00002232",
+  "iac:work-00002868",
+  "iac:work-00002890"
+ ],
+ "kunya": "أبو الفضل"
+}

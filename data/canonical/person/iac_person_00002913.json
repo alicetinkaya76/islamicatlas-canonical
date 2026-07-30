@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00002913",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "GRØNBECH, Vilhelm Peter"
+    },
+    "description": {
+      "tr": "Kopenhag Üniversitesi’nde okumuş, Vilhelm Thomsen’in genel dil bilimi derslerini takip etmiştir. Başlangıçta aynı üniversitede İngiliz dili ve edebiyatı doçentliği yapmış (1908-1911), daha sonra dinler tarihi dersleri vererek Primitive Religion (1915), Nordiske Myter og Sagn (1929), Hellenismen (I-II, 1939), Paulus (1940), Hellas, Kultur og religion (I-III, 1942-1945) ve Buddha (1952) gibi eserleri yazmıştır. Grønbech Türkoloji alanında, henüz doçent olmadan önce kaleme aldığı Forstudier til tyrkisk Lydhistorie (København 1902) adlı eseriyle ün kazanmıştır. 1903’te Keleti Szemle dergisinde Almanca özeti yayımlanan (IV, 114-125, 229-240) bu kitap Türk fonetiği üzerine yapılmış değerli bir çalışmadır. Yazar Türk diyalektleri arasında özellikle Çuvaşça ve Yakutça’nın tanıklığına büyük ağırlık vermiş ve bilim çevrelerinde verimli tartışmalara yol açan yeni gözlemler ortaya koymuştur. Holger Pedersen, bu eser dolayısıyla bir makale yayımlayarak Grønbech’in görüşlerini değerlendirmiştir (“Türkische Lautgesetze”, ZDMG , LVII [1903], s. 535-561). Kitap bugüne kadar değerini yitirmemiş ve 1979’da John R. Krueger tarafından Preliminary Studies in Turkic Historical Phonology adıyla İngilizce’ye çevrilmiştir (Indiana University Uralic and Altaic Series, nr. 135). Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 164-165 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:gronbech-vilhelm-peter",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=gronbech-vilhelm-peter, https://islamansiklopedisi.org.tr/gronbech-vilhelm-peter",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:06Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=gronbech-vilhelm-peter (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1873,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=gronbech-vilhelm-peter, URL: https://islamansiklopedisi.org.tr/gronbech-vilhelm-peter || DİA death-date string: (1873-1948) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00007333"
+  ]
+}

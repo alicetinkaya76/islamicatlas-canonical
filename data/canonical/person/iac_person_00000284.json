@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00000284",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ali-Shir Nava'i",
+      "tr": "Ali Şîr Nevâî",
+      "ar": "علي شير نوائي"
+    },
+    "originalScript": {
+      "ar": "علي شير نوائي"
+    },
+    "altLabel": {
+      "en": [
+        "Mir Ali-Shir Nava'i"
+      ],
+      "tr": [
+        "Mîr Ali Şîr Nevâî"
+      ],
+      "ar": [
+        "مير علي شير نوائي"
+      ]
+    },
+    "description": {
+      "tr": "Kendi başyapıtlarıyla Çağatay Türkçesinin Farsçaya eşit bir edebî dil olabileceğini kanıtladı — Türk edebî bilincinin kurucusu || Nevâî'nin başarısı hem edebî hem dilbilimseldir: Muhâkeme ile Türkçenin belirli alanlarda Farsçadan daha büyük ifade kapasitesine sahip olduğunu sistematik olarak gösterdi. || [Tarih notu] Türkiye'den Özbekistan'a, Sincan'a kadar tüm Türk halkları tarafından Türk edebî dilinin babası olarak saygı görür.",
+      "en": "Proved that Chagatai Turkish could serve as a literary language equal to Persian through his own masterworks — the founder of Turkic literary consciousness || Nava'i's achievement was both literary and linguistic: he systematically demonstrated through Muhakama that Turkish had greater expressive capacity than Persian in specific registers. || [Historiographical note] Revered across all Turkic peoples — from Turkey to Uzbekistan to Xinjiang — as the father of Turkic literary language.",
+      "ar": "أثبت أن التركية الجغتائية يمكن أن تكون لغة أدبية مساوية للفارسية || كان إنجاز النوائي أدبياً ولغوياً في آن واحد"
+    }
+  },
+  "profession": [
+    "poet",
+    "philosopher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0101",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0101",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:26",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=26",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:57:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:57:40Z",
+    "modified": "2026-07-10T14:25:01Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:57:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0101 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1441,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1501,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q503340",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for \"Ali-Shir Nava'i\")."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0101, lecture_week=n/a. || Key works: {'title': {'en': 'Muḥākamat al-Lughatayn', 'tr': \"Muhâkemetü'l-Lugateyn\", 'ar': 'محاكمة اللغتين'}, 'year': 1499, 'field': 'linguistics', 'significance': {'en': 'Systematic comparative study of Turkish vs. Persian, arguing for Turkic literary superiority — the founding text of Turkic literary consciousness', 'tr': \"Türkçe ile Farsça'nın sistematik karşılaştırmalı çalışması — Türk edebî bilincinin kurucu metni\"}} || Modern parallel: Like Dante proving Italian could rival Latin, Nava'i proved Turkish could rival Persian — and changed a civilization's linguistic self-understanding.",
+  "authored_works": [
+    "iac:work-00000141"
+  ],
+  "kunya": "Mîr Ali Şîr",
+  "nisba": [
+    "Herevî"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@id": "iac:person-00000085",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Hishām I"
+    },
+    "description": {
+      "tr": "Sikke bastı (o)",
+      "en": "^ HISHAM I, Abu ’l-WalId al-Radi or AL- \n'’Adil, son of ’Abd al-Rahman I [q.",
+      "ar": "هشام الأول، أبو الوليد الراضي أو العادل، ابن عبد الرحمن الأول."
+    },
+    "altLabel": {
+      "en": [
+        "HISHAM I"
+      ]
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:4:ruler:1",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-004, ruler #2",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+      },
+      {
+        "source_id": "ei1:1889",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 2, p. 16",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:01:46Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:01:46Z",
+    "modified": "2026-07-10T15:44:36Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:01:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Promoted from inline rulers[1] of iac:dynasty-00000004 (The Spanish Umayyads) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[1].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled ['description.en', 'description.ar', 'altLabel.en']."
+      }
+    ],
+    "deprecated": false
+  },
+  "affiliated_dynasties": [
+    "iac:dynasty-00000004"
+  ],
+  "laqab": [
+    "Amīr"
+  ],
+  "floruit_temporal": {
+    "start_ce": 788,
+    "end_ce": 796,
+    "start_ah": 172,
+    "end_ah": 180,
+    "approximation": "floruit"
+  },
+  "death_temporal": {
+    "start_ce": 796,
+    "approximation": "circa",
+    "start_ah": 180,
+    "note": "Inferred from Bosworth reign_end (often ≈ year of death)."
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q348593",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Hishām I')."
+    }
+  ],
+  "note": "Bosworth relation note: oğlu || Bosworth death code: o || Promoted from iac:dynasty-00000004 rulers[1] (Bosworth NID-004)."
+}

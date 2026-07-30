@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00000674",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person",
+    "iac:Poet",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜRREŞÎD-i DEYLEMÎ",
+      "ar": "عبد الرشيد ديلمى"
+    },
+    "originalScript": {
+      "ar": "عبد الرشيد ديلمى"
+    },
+    "description": {
+      "tr": "Kazvin’de doğdu. Hasenî seyyidlerden bir aileye mensuptur. Yazıyı, dayısı meşhur nesta‘lik hattatı İmâd-i Hasenî’den öğrendi. Bundan dolayı gençliği İsfahan’da geçti. Dayısının öldürülmesi üzerine ailesinin bir kısmı Anadolu’ya, bir kısmı Hindistan’a göç etti. Abdürreşîd-i Deylemî de Hindistan’a kaçarak Şah Cihan’a sığındı. Önce sarayda hususi kâtipliğe getirildi. Daha sonra saray kütüphanesinde hâfız-ı kütüb olarak çalıştı ve hükümdarın özel hattatlığını yaptı. Şah Cihan’ın oğlu Dârâ Şükûh’a ve Evrengzîb’in kızı Zîbünnisâ’ya hat dersleri verdi. Şah Cihan’ın sarayında yirmi üç yıl hizmet etti (1623-1646). Abdürreşîd Agra’da öldü. Talebesi Zîbünnisâ onun için bir mersiye yazarak ölümüne tarih düşürmüştür. İran’da Abdürreşîd ve Reşîdâ, Hindistan’da ise Âgā Reşîd ve Âgā unvanlarıyla tanınmış, şöhreti İran’dan çok Hindistan’da yayılmıştır. Dayısı İmâd’ın üslûbunu benimsemiştir. Gulâm Muhammed, tezkiresinde Hindistan’da onun tavrının benimsendiğini ve on beş talebesi olduğunu yazmaktadır. Bunlar arasında, Şah Cihan’ın oğlu ve Evrengzîb’in kızı dışında Hindistan’da tanınmış olanları Muhammed Eşref Hâce-serâ, Saîdâ-yı Eşref, Abdurrahman-ı Fermannüvîs ve Mîr Hâce’dir. Sipihr, tezkiresinde diğer yazı çeşitlerini de yazdığını söyler; ancak bu hususta geniş bir araştırma yapan Mehdî Beyânî, onun nesta‘likten başka yazısına rastlanmadığını bildirir. İmzalarını Abdürreşîd, Abdürreşîd-i Deylemî, Reşîdâ, Abdürreşîd eş-Şerîf el-Hasenî şeklinde atmıştır. İstinsah ettiği kitapların en güzelleri, Hâce Abdullah-ı Ensârî’nin Maḳālât ’ı (Tahran, Kitaphâne-i Saltanatî) ile Mevlânâ’nın Mes̱nevî ’sidir (Tahran, Âgā-yı Doktor Mehdevî Kütüphanesi). Tahran, Delhi, Leningrad, Kâbil ve Oxford kütüphanelerinden başka İstanbul Üniversitesi Kütüphanesi ile Türk ve İslâm Eserleri Müzesi’nde de yazıları vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 294-295 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "ruler",
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurresid-i-deylemi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurresid-i-deylemi, https://islamansiklopedisi.org.tr/abdurresid-i-deylemi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdurresid-i-deylemi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdurresid-i-deylemi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:44Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurresid-i-deylemi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1081,
+    "start_ce": 1670,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurresid-i-deylemi, URL: https://islamansiklopedisi.org.tr/abdurresid-i-deylemi || DİA birth place: Kazvin || DİA death-date string: (ö. 1081/1670) || Chunk count: 1",
+  "birth_place": "iac:place-00014513",
+  "students": [
+    "iac:person-00001931"
+  ]
+}

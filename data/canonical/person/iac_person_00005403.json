@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00005403",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mehmed Zaîfî Efendi"
+    },
+    "description": {
+      "tr": "İstanbul’da Beykoz’a bağlı Akbaba’da doğdu. Akbaba imamı Hâfız Mustafa Efendi’nin oğludur. Suyolcuzâde, Mehmed Zaîfî Efendi’yi Mehmed Tulûî Efendi ile karıştırdığından onun Mudurnulu olduğunu kaydetmektedir ( Devhatü’l-küttâb , s. 77). Mehmed Efendi genç yaşta hâfız oldu ve babasından mûsiki eğitimi gördü. Bu arada hat sanatına ilgi duyarak Kanlıcalı Mustafa Efendi’nin derslerine katıldı, ondan sülüs ve nesih hatlarında icâzet aldı. Babasının vefatı üzerine aynı camiye imam oldu. Bundan dolayı Akbaba İmamı lakabıyla da anıldı. İstanbul’da Âbid Çelebi Mescidi’nde imamlık ve yakınındaki mektepte muallimlik yapan Mehmed Zaîfî Efendi, daha sonra Bursa’daki Celvetî şeyhlerinden Üftâdezâde İbrâhim Sâdık Efendi’ye intisap etti. Bir müddet şeyhinin tekkesinde kalarak onun sohbetlerinden faydalandı ve kendisinden hilâfet aldı. III. Ahmed’in cülûsundan (22 Ağustos 1703) birkaç hafta sonra vefat etti ve Akbaba’da defnedildi. Mehmed Efendi’nin talebeleri arasında, çocukluğunda sülüs ve nesih hattını öğrettiği Müstakimzâde Süleyman Sâdeddin Efendi’nin babası da bulunmaktadır. Zaîfî mahlasıyla şiirler yazmış, sesinin güzelliği ve Kur’an okuyuşundaki hassasiyetiyle tanınmıştır. El yazması güfte mecmualarında pek çok dinî eserine rastlanmaktaysa da günümüze çok az eseri ulaşmıştır. Sadettin Nüzhet Ergun antolojisinde otuz üç eserinin güftesini yayımlamış, bunlardan sözleri Niyâzî-i Mısrî’ye ait, “Habs için geldi gelip ıtlâk ile ferman bana” ve sözleri Îsâ Mahvî’ye ait, “Sivâ efkârının cündü gönül mülkün harâb etti” mısralarıyla başlayan iki segâh ilâhisi zamanımıza kadar gelmiştir. Mehmet Suphi Ezgi’nin Mehmed Tulûî Efendi ile Mehmed Zaîfî Efendi’nin eserlerini birbirine karıştırdığı anlaşılmaktadır. Mehmed Zaîfî Efendi ayrıca küçük bir mûsiki risâlesi kaleme almıştır. Cahit Öztelli’nin özel kütüphanesindeki el yazması bir güfte mecmuasının içinde yer alan, mûsikinin özellikleri, makamlar ve mûsiki öğrencilerine öğütler başlığı altında özetlenebilecek bu mecmuayı Cahit Öztelli bir makale ile tanıtmıştır (bk. bibl.). Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 541 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-zaifi-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-zaifi-efendi, https://islamansiklopedisi.org.tr/mehmed-zaifi-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-zaifi-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-zaifi-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-zaifi-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1115,
+    "start_ce": 1703,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-zaifi-efendi, URL: https://islamansiklopedisi.org.tr/mehmed-zaifi-efendi || DİA birth place: Akbaba || DİA death place: Akbaba || DİA death-date string: (ö. 1115/1703) || Chunk count: 1",
+  "students": [
+    "iac:person-00007551"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "@id": "iac:person-00004279",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-MÜSENNÂ",
+      "ar": "ابن المثنّى"
+    },
+    "originalScript": {
+      "ar": "ابن المثنّى"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Mûsâ Muhammed b. el-Müsennâ b. Ubeyd el-Anezî"
+      ]
+    },
+    "description": {
+      "tr": "167’de (783-84) Basra’da doğdu. Bir ara felç geçirdiği için “Zemîn” lakabıyla anıldı. Basra ve Bağdat’ta Mu‘temir b. Süleyman, Muhammed b. Ca‘fer Gunder, Velîd b. Müslim, Hâlid b. Hâris, Muâz b. Muâz, Süfyân b. Uyeyne, Yahyâ b. Saîd el-Kattân, Abdurrahman b. Mehdî gibi muhaddislerden hadis rivayet etti. Kendisinden Kütüb-i Sitte imamları, Ebû Zür‘a er-Râzî, Bakī b. Mahled, Ebû Hâtim er-Râzî, İbn Ebü’d-Dünyâ, Ca‘fer b. Muhammed el-Firyâbî, Ebû Ya‘lâ el-Mevsılî, İbn Huzeyme ve diğerleri rivayette bulundular. İbnü’l-Müsennâ için Yahyâ b. Maîn sika, Zühlî hüccet, Ebû Hâtim er-Râzî ve Sâlih Cezere sadûk, Ebû Arûbe sebt terimlerini kullanmış; Hatîb el-Bağdâdî’nin de onu sika, hâfız ve sebt diye övdüğü, diğer bir rivayete göre ise sadûk dediği belirtilmiştir. İbnü’l-Müsennâ’nın bazı âlimlerce bu kadar güvenilir bulunmayıp ta‘dîlin bir alt mertebesine indirilmesinde, namazda sütre kullanılmasıyla ilgili bir hadiste geçen, “Hz. Peygamber, önünde mızrak (aneze) olduğu halde bize öğle ve ikindi namazını kıldırdı” (Buhârî, “Ṣalât”, 17; Müslim, “Ṣalât”, 250) cümlesindeki “aneze”den hareketle, “Biz şerefli bir kabileyiz, Peygamber bize doğru yönelerek namaz kıldı” şeklinde nükte yapmasının tesiri olduğu söylenmektedir. Nesâî, onu “lâ be’se bih” diye nitelendirmekle beraber hadisleri topladığı kitabında değişiklikler yaptığını söylemiş, İbn Hibbân kitabından okuyarak hadis rivayet ettiğini, bazı güvenilmez râvilerden rivayette bulunduğunu ve adının uydurma hadislerin isnadında yer aldığını belirtmiştir. Ancak bu eleştiriler onun güvenilirliğini zedeleyecek kadar önemli sayılmadığından râvilerin tenkidinde görüşlerine başvurulmasına engel teşkil etmemiştir. İbnü’l-Müsennâ’nın çok sayıda kitap yazdığı kaydedilmekle beraber kaynaklarda bunların adları belirtilmemiş, 114’ü Ṣaḥîḥ-i Buḫârî ’de, 837’si Ṣaḥîḥ-i Müslim ’de olmak üzere Kütüb-i Sitte ’de rivayetleri yer almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 160 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-musenna",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-musenna, https://islamansiklopedisi.org.tr/ibnul-musenna",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:11042",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=11042, heading_ar=ابن المثنى",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:26Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:26Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:26Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-musenna (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[11042]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=11042 (heading_ar=ابن المثنى) via Track A (DİA→Alam xref bridge). dt=Hadis âlimi, hafızlardan, Bendar'ın akranlarından"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Anezî"
+  ],
+  "death_temporal": {
+    "start_ah": 252,
+    "start_ce": 866,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-musenna, URL: https://islamansiklopedisi.org.tr/ibnul-musenna || El-Aʿlām (Ziriklī) cross-reference: alam_id=[11042] || DİA birth place: Basra || DİA death-date string: (ö. 252/866) || DİA categories: rivayet > hadis > isnâd || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=11042, heading_ar=ابن المثنى, dt=Hadis âlimi, hafızlardan, Bendar'ın akranlarından",
+  "active_in_places": [
+    "iac:place-00001954"
+  ],
+  "teachers": [
+    "iac:person-00000643",
+    "iac:person-00002940",
+    "iac:person-00005935",
+    "iac:person-00007121",
+    "iac:person-00007587",
+    "iac:person-00007656"
+  ],
+  "students": [
+    "iac:person-00001307",
+    "iac:person-00002085",
+    "iac:person-00002179",
+    "iac:person-00002186",
+    "iac:person-00002299",
+    "iac:person-00002313",
+    "iac:person-00002788",
+    "iac:person-00003771",
+    "iac:person-00003875",
+    "iac:person-00005861",
+    "iac:person-00007225",
+    "iac:person-00007357"
+  ]
+}

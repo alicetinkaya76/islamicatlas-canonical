@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00001058",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMR b. SELİME",
+      "ar": "عمرو بن سلمة"
+    },
+    "originalScript": {
+      "ar": "عمرو بن سلمة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Yezîd (Ebû Büreyd) Amr b. Selime b. Kays el-Cermî"
+      ]
+    },
+    "description": {
+      "tr": "Mensubu bulunduğu Yemen’deki Cerm kabilesi, kervan yolu üzerinde bir yörede yerleşmişti. Kabile halkı Mekke’nin fethine kadar müslüman olmamasına rağmen gelip geçen kervanlardan Hz. Muhammed ile ilgili haberleri ve gelişmeleri dikkatle takip ediyordu. O sıralarda, küçük yaşına rağmen Amr b. Selime İslâmiyet’e büyük bir ilgi duymuş, kabilesini ziyaret eden müslümanlardan öğrendiği birçok Kur’an âyetini ezberlemişti. Mekke’nin fethinden sonra Cerm kabilesi İslâmiyet’i kabul etmek üzere Hz. Peygamber’e bir heyet gönderdi. Amr b. Selime’nin Ṣaḥîḥ-i Buḫârî ’deki rivayetine göre bu heyette Amr’ın babası Selime de bulunuyordu. Hz. Peygamber onlara namaz hakkında gerekli bilgileri verdikten sonra içlerinde Kur’an’ı en iyi bilen kimseyi imam yapmalarını söyledi. Kabilede Kur’an’ı en iyi bilen Amr olduğu için, o sıralarda altı veya yedi (bk. Buhârî, “Meġāzî”, 53), bir rivayete göre yedi veya sekiz (Ebû Dâvûd, “Ṣalât”, 60) yaşlarında bulunmasına rağmen imamlığa geçirildi. Hayatı boyunca kendi kabilesinde imamlık görevine devam ettiği ve cenazeleri yıkadığı kendi ifadesinden anlaşılmaktadır. Hz. Peygamber’e ilk gönderilen heyette onun da bulunduğuna dair rivayetler pek sağlam değildir. İbn Hacer’in de dediği gibi Amr’ın bir başka heyetle, daha sonraki bir tarihte Hz. Peygamber’e gitmiş olması muhtemeldir. Bununla beraber sahâbî olduğu konusunda şüphe yoktur. Hz. Ömer zamanında Basra’ya yerleştiği bilinmektedir. Kendisinden Ebû Kılâbe el-Cermî, Âsım el-Ahvel, Eyyûb es-Sahtiyânî vb. tâbiîler hadis rivayet etmişlerdir. Rivayetleri Buhârî’nin el-Câmiʿu’ṣ-ṣaḥîḥ ’inde, Ebû Dâvûd ve Nesâî’nin es-Sünen ’lerinde yer almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 91 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amr-b-selime",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amr-b-selime, https://islamansiklopedisi.org.tr/amr-b-selime",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amr-b-selime",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amr-b-selime",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amr-b-selime (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cermî"
+  ],
+  "death_temporal": {
+    "start_ah": 85,
+    "start_ce": 704,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amr-b-selime, URL: https://islamansiklopedisi.org.tr/amr-b-selime || DİA death-date string: (ö. 85/704) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00001148",
+    "iac:person-00002202",
+    "iac:person-00002627"
+  ]
+}

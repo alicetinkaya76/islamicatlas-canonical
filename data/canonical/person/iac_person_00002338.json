@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00002338",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÜ’l-CEVZÂ",
+      "ar": "أبو الجوزاء"
+    },
+    "originalScript": {
+      "ar": "أبو الجوزاء"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Cevzâ’ Evs b. Abdillâh (Hâlid) er-Rabaî"
+      ]
+    },
+    "description": {
+      "tr": "Ezd kabilesinin kollarından Rebîa’ya mensup olup hayatı hakkında fazla bilgi yoktur. Hz. Âişe, Abdullah b. Abbas, Ebû Hüreyre, Abdullah b. Amr b. Âs ve Safvân b. Assâl el-Murâdî’den hadis rivayet etmiştir. Buhârî’nin senedini zayıf gördüğü bir habere göre Ebü’l-Cevzâ Hz. Âişe ve İbn Abbas’a on iki yıl komşuluk ettiğini, Kur’ân-ı Kerîm’deki her âyet hakkında İbn Abbas’tan bilgi edindiğini belirtmekte, öğrenmek istediği konuları bir adamı vasıtasıyla her zaman Hz. Âişe’den sorup öğrendiğini söylemektedir. Kendisinden Katâde b. Diâme, Büdeyl b. Meysere, Amr b. Mâlik en-Nükrî ve Ebü’l-Eşheb el-Utâridî gibi muhaddisler rivayette bulunmuş, Ebû Zür‘a er-Râzî ile Ebû Hâtim er-Râzî onun sika bir râvi olduğunu belirtmişlerdir. Rivayetlerinin Kütüb-i Sitte ’de yer alması da bunu göstermektedir. İbadete düşkünlüğü ve zâhidâne hayatıyla tanınan Ebü’l-Cevzâ’nın temizlik konusunda çok titiz olduğu, helâya giderken ayrı bir elbise giydiği, namazı başka bir elbiseyle kıldığı rivayet edilir. Hiçbir şeye lânet etmez, lânet edilen şeyleri de yemezdi. Bu sebeple hizmetçisine ekmeği veya yemeği yaktığı zaman lânet etmemesi için ayda 2-3 dirhem fazla verirdi. Hayatı boyunca kimseyle çekişmediğini, kimseyi rahatsız etmediğini söylerdi. Nefsinin arzularına ve hoş şeylere düşkün olanları hiç sevmezdi. Domuzlarla bir arada olmayı bu gibilerle beraber bulunmaya tercih ettiğini söylediği nakledilir. Halifeliğini ilân eden Abdullah b. Zübeyr’in Kûfe valisi Abdurrahman b. Muhammed İbnü’l-Eş‘as’ın yanında Emevî valisi Haccâc’a karşı çarpışırken 82 (701) yılında Deyrülcemâcim’de öldü. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 309 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebul-cevza",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebul-cevza, https://islamansiklopedisi.org.tr/ebul-cevza",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebul-cevza",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebul-cevza",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:58Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebul-cevza (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 82,
+    "start_ce": 701,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebul-cevza, URL: https://islamansiklopedisi.org.tr/ebul-cevza || DİA death-date string: (ö. 82/701) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

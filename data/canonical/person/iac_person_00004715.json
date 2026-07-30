@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00004715",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KĀNİÎ-i TÛSÎ",
+      "ar": "قانعئ طوسى"
+    },
+    "originalScript": {
+      "ar": "قانعئ طوسى"
+    },
+    "altLabel": {
+      "tr": [
+        "Emîr Bahâüddîn Ahmed b. Mahmûd-i Tûsî"
+      ]
+    },
+    "description": {
+      "tr": "Nisbesinden Horasan bölgesindeki Tûs şehrinden olduğu anlaşılmaktadır. Manzum hale getirdiği Kelîle ve Dimne ’de Horasan’da müreffeh bir hayat sürdüğünü, şairlikte kendi ayarında bir kimse bulunmadığını ve hükümdarlar tarafından aranan bir şair olduğunu ifade eden Kāniî, Moğol istilâsı sırasında ülkesini terketmek zorunda kaldı. Hindistan, Aden, San‘a, Yemen, Medine, Mekke ve Bağdat’ı dolaştıktan sonra Anadolu’ya geldi. Konya’da Selçuklu Hükümdarı I. Alâeddin Keykubad’ın hizmetine girdi. Selçuklu hükümdarları II. Gıyâseddin Keyhusrev, II. İzzeddin Keykâvus ve IV. Kılıcarslan dönemlerinde saray şairi olan Kāniî’ye “melikü’ş-şuarâ” ve “emîr” unvanları verildi. Eflâkî, Kāniî’nin İranlı mutasavvıf şair Senâî’nin aleyhinde konuştuğu için Mevlânâ Celâleddîn-i Rûmî tarafından uyarıldığını, bu olayın ardından onun müridi olduğunu, Hâkānî-yi Şirvânî ayarında bir şair olarak tanındığından “Hâkānî-i zaman” olarak adlandırıldığını kaydeder ( Menâḳıbü’l-ʿârifîn , I, 221, 322, 595). Mevlâna öldüğünde (1273) ona mersiye yazdığına göre bu tarihten sonra vefat etmiş olmalıdır. Eserleri. 1. Selcûḳnâme . Alâeddin Keykubad ve Gıyâseddin Keyhusrev dönemlerini anlatan şehnâme mahiyetindeki eserden bazı parçaları İbn Bîbî el-Evâmirü’l-ʿAlâʾiyye fi’l-umûri’l-ʿAlâʾiyye adlı eserinde nakletmiştir. 2. Kelîle ve Dimne . VI. yüzyılda yaşayan Nasrullah-ı Şîrâzî’nin Kelîle ve Dimne tercümesinin Farsça manzum hale getirilmiş şeklidir. 658’de (1260) II. İzzeddin Keykâvus adına yazılmış olup 4500 beyit ihtiva eder. Tek nüshası British Museum’da bulunmaktadır (nr. 7766). Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 307 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kanii-i-tusi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kanii-i-tusi, https://islamansiklopedisi.org.tr/kanii-i-tusi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:kanii-i-tusi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=kanii-i-tusi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:31Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:31Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kanii-i-tusi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=kanii-i-tusi)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 672,
+    "start_ce": 1273,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kanii-i-tusi, URL: https://islamansiklopedisi.org.tr/kanii-i-tusi || DİA death-date string: (ö. 672/1273’ten sonra) || DİA categories: şiir || Chunk count: 1"
+}

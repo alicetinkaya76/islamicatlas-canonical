@@ -1,0 +1,127 @@
+{
+  "@id": "iac:person-00001234",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ayyâşî",
+      "ar": "العيّاشي"
+    },
+    "originalScript": {
+      "ar": "العيّاشي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Sâlim Abdullāh b. Muhammed b. Ebî Bekr es-Sicilmâsî el-Ayyâşî"
+      ],
+      "ar": [
+        "العيثاوي"
+      ]
+    },
+    "description": {
+      "tr": "1037’de (1628) Fas’ta doğdu. Sicilmâse havzasının Büyük Sahrâ sınırı bölgesinde yaşayan Ayt Ayyâş (Ayyâşoğulları) adlı bir Berberî kabilesine mensuptur. Önce babasından ve kardeşinden, sonra da Ebû Zeyd İbnü’l-Kādî ve Abdülkādir el-Fâsî gibi memleketinin tanınmış âlimlerinden ilim tahsil etti. Daha sonra Mısır’a giderek orada Ali el-Üchûrî, Şehâbeddin el-Hafâcî, Abdülkādir el-Mahallî’nin derslerine devam etti. Mekke ve Medine’yi üç defa ziyaret etti. er-Riḥletü’l-ʿAyyâşiyye adlı eserini son olarak Medine’de bulunduğu sırada yazdı. Ayrıca burada hadis dersleri verdi. Ebû İshak İbrâhim eş-Şehrezûrî’ye intisap etti. Elli üç yaşında 10 Zilkade 1090’da (13 Aralık 1679) vebadan öldü. Eserleri. 1. er-Riḥletü’l-ʿAyyâşiyye (I-II, Fas 1306, 1318; Rabat 1977). Asıl adı Mâʾü’l-mevâʾid olan eser Fas ile Mekke arasındaki kervan yolunu, o bölgede yaşayan halkın örf ve âdetlerini, âlim ve sûfîlerini anlatır. Eser ayrıca Muḳteṭafât min Riḥleti’l-ʿAyyâşî adıyla kısaltılarak neşredilmiştir (Riyad 1984). 2. Tenbîhü’l-himemi’l-ʿaliyye ʿale’z-zühd fi’d-dünya’l-fâniyye . 3. el-Ḥükm bi’l-ʿadl ve’l-inṣâfi’d-dâfiʿ . 4. en-Nûrü’l-bâsim fî cümleti min kelâmi Ebî Sâlim . Oğlu Hamza tarafından derlenen şiirleri. 5. İḳtifâʾü’l-es̱er baʿde ẕehâbi ehli’l-es̱er . 6. İtḥâfü’l-aḫillâʾ bi-esânîdi’l-ecillâʾ . Hocalarının ve bazı âlimlerin biyografilerini ihtiva eden son iki kitabın aynı eser olduğu söylenmektedir. Ayrıca bey‘ hakkında daha sonra şerhettiği fıkha dair manzum bir risâlesi de vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 297 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ayyasi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ayyasi, https://islamansiklopedisi.org.tr/ayyasi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ayyasi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ayyasi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:13926",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=13926, heading_ar=العيثاوي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:38Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ayyasi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[13926, 6194]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ayyasi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=13926 (heading_ar=العيثاوي) via Track A (DİA→Alam xref bridge). dt=Fıkıh âlimi, Dımaşk'ta doğup ve öldü."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sicilmâsî; Ayyâşî"
+  ],
+  "death_temporal": {
+    "start_ah": 1090,
+    "start_ce": 1679,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ayyasi, URL: https://islamansiklopedisi.org.tr/ayyasi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[13926, 6194] || DİA birth place: Fas || DİA death-date string: (ö. 1090/1679) || DİA categories: hadis > kelâm > şiir || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=13926, heading_ar=العيثاوي, dt=Fıkıh âlimi, Dımaşk'ta doğup ve öldü.",
+  "active_in_places": [
+    "iac:place-00009014"
+  ],
+  "teachers": [
+    "iac:person-00002676",
+    "iac:person-00003183",
+    "iac:person-00003971",
+    "iac:person-00005102",
+    "iac:person-00005517",
+    "iac:person-00006393",
+    "iac:person-00006745",
+    "iac:person-00007448",
+    "iac:person-00007747"
+  ]
+}

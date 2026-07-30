@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00004478",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İMRUÜLKAYS b. ÂBİS",
+      "ar": "إمرؤ القيس بن عابس"
+    },
+    "originalScript": {
+      "ar": "إمرؤ القيس بن عابس"
+    },
+    "altLabel": {
+      "tr": [
+        "İmruülkays b. Âbis (Ânis) b. el-Münzir el-Kindî"
+      ]
+    },
+    "description": {
+      "tr": "Hadramut bölgesindeki Terîm’de hıristiyan bir ailenin çocuğu olarak doğdu. Kinde kabilesinin Benî Temlik koluna mensuptur. Asıl adının Handec olduğu da söylenmiştir (Zehebî, I, 28). İyi bir binici olan İmruülkays’ın bir şiirinden onun Temlik adlı bir kadınla evlendiği anlaşılmaktadır (Hasan es-Sendûbî, s. 346). Muhtemelen 10. yılda (631) kabilesinden bir heyetle birlikte Hz. Peygamber’e gelerek müslüman olmuş ve geri dönmüştür. Hz. Ebû Bekir devrinde meydana gelen ridde olaylarında halifeye yardımcı olan İmruülkays isyan eden amcasının oğlu Eş‘as b. Kays’a karşı cephe almış ve yazdığı bir şiirle durumu halifeye bildirmiştir (İbn Habîb, s. 186). Âsilerin toplandığı Hadramut yakınlarındaki Nüceyr Kalesi’nin fethine katılarak yararlıklar göstermiş, düşman safları arasında bulunan bir amcasını da bizzat kendisi öldürmüştür. Rebîa b. Aydân el-Hadramî ile aralarında çıkan bir arazi ihtilâfında Resûl-i Ekrem’in hakemliğine müracaat edilmiş, Rebîa’nın yalan yere yemin edeceği anlaşılınca Resûlullah’ın bu durumda iken feragat edenin cenneti kazanacağını müjdelemesi üzerine haklı olduğu halde araziyi Rebîa’ya bırakmıştı (İbn Abdülber, I, 104). İmruülkays, Yermük Savaşı’na (15/636) ve daha sonraki savaşlara da katıldı; bir müddet Şam bölgesinde Beysân’da kaldı. Hz. Ömer devrinde Amvâs’ta veba salgını çıkınca (18/639 veya 17/638) kabilesine döndü. Ömrünün son yıllarına doğru Kûfe’ye gitti ve orada vefat etti. Önemli bir muhadram şairi olan İmruülkays’ın şiirlerinden çok azı günümüze kadar gelebilmiş, bazı beyitleri akrabası olan İmruülkays b. Hucr’e nisbet edilmiştir. Pek çok eserde dağınık halde bulunan şiirlerinden seksen beyit kadarını Luvîs Şeyho bir araya getirmiş, daha sonra Arap edebiyatında İmruülkays adını taşıyanlarla ilgili çalışmasında Hasan es-Sendûbî bu sayıyı 100’e yaklaştırmıştır. İbn Manzûr’un Lisânü’l-ʿArab ’da on iki beytini örnek (şâhid) olarak kullandığı İmruülkays (Yâsîn el-Eyyûbî, s. 66) şiirlerinde genellikle ridde olaylarını, karısı Temlik’i ve Hz. Osman zamanında ilgi duyduğu bir kadını konu edinmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 237 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:imruulkays-b-abis",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=imruulkays-b-abis, https://islamansiklopedisi.org.tr/imruulkays-b-abis",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:imruulkays-b-abis",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/imruulkays-b-abis",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:29Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:29Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=imruulkays-b-abis (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kindî"
+  ],
+  "death_temporal": {
+    "start_ah": 25,
+    "start_ce": 645,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=imruulkays-b-abis, URL: https://islamansiklopedisi.org.tr/imruulkays-b-abis || DİA death place: Amvâs || DİA death-date string: (ö. 25/645) || Chunk count: 1",
+  "death_place": "iac:place-00008595"
+}

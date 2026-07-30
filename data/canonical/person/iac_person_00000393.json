@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00000393",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABBAS er-RESÛLÎ",
+      "ar": "عبّاس الرسولي"
+    },
+    "originalScript": {
+      "ar": "عبّاس الرسولي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû İsmâîl Abbâs b. Alî b. Dâvûd er-Resûlî el-Gassânî el-Yemânî"
+      ]
+    },
+    "description": {
+      "tr": "“el-Melikü’l-efdal” ve “Dırgāmüddin” lakaplarıyla da meşhur olan Abbas er-Resûlî, babası Sultan Mücâhid Ali’nin 764 (1363) yılında vefat etmesi üzerine Resûlî emîri oldu. İktidarını Zebîd ve Taiz şehirlerinde sürdüren Abbas, emirliği süresince Yemen’de ortaya çıkan isyanlar ve bilhassa Zeydîler’in kendi yönetimindeki topraklara yaptığı saldırılarla uğraşmak zorunda kaldı. Zebîd şehrinin hendek ve surlarını tamir ettirerek burayı tahkim etti. Birisi Taiz’de, diğeri Mekke’de olmak üzere iki medrese ve ayrıca yetim çocukların tahsiline imkân sağlayacak vakıflar kurdu. Abbas er-Resûlî, 778 yılı Şâban ayı sonunda (Ocak 1377) Zebîd’de vefat etti. Taiz’de kurduğu medreseye defnedildi. Kendisinden sonra büyük oğlu Eşref İsmâil emîr oldu. Devlet idaresi yanında fıkıh, dil, edebiyat, ensâb ve tarih ilimleriyle de yakından meşgul olan Abbas er-Resûlî’nin kaynaklarda adı geçen belli başlı eserleri şunlardır: el-ʿAṭâye’s-seniyye fî ṭabaḳātı fuḳahâʾi’l-Yemen ve aʿyânihâ , Buġyetü zevi’l-himem fî maʿrifeti ensâbi’l-ʿArab ve’l-ʿAcem , Nüzhetü’l-ʿuyûn fî maʿrifeti’ṭ-ṭavâʾif ve’l-mülûk , el-Lümʿatü’l-kâfiye fi’l-edviyeti’ş-şâfiye fi’ṭ-ṭıb . Abbas er-Resûlî, ayrıca İbn Hallikân’ın Vefeyâtü’l-aʿyân ’ını Nüzhetü’l-ebṣâr fi’ḫtiṣâri kenzi’l-aḫbâr adıyla kısaltmıştır. Buġyetü’l-fellâḥîn fi’l-eşcâri’l-müs̱mire ve’r-reyâḥîn adlı ziraata dair eseri dolayısıyla bilim tarihçileri onunla yakından ilgilenmişlerdir. On yedi bölümden oluşan bu eserinde müellif toprak, su, arazinin ıslahı, mevsimler, tohumlar, sebze ve meyvelerin çeşitleri ve belli başlı özellikleri ile mahsulün haşerattan korunması gibi konular üzerinde durmuştur. Abbas er-Resûlî bu eserini telif ederken Yunan ve Nabatî kültürlerine ait kaynaklardan, ayrıca büyük dedesi Emîr el-Eşref Ömer b. Yûsuf’un aynı konudaki Milḥu’l-melâḥa fî maʿrifeti’l-filâḥa adlı eserinden faydalanmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 28 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbas-er-resuli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbas-er-resuli, https://islamansiklopedisi.org.tr/abbas-er-resuli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abbas-er-resuli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abbas-er-resuli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbas-er-resuli (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Gassânî; Yemânî"
+  ],
+  "birth_temporal": {
+    "start_ah": 764,
+    "start_ce": 1363,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 778,
+    "start_ce": 1377,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbas-er-resuli, URL: https://islamansiklopedisi.org.tr/abbas-er-resuli || DİA death place: Taiz || DİA death-date string: (ö. 778/1377) || DİA categories: fıkıh || Chunk count: 1"
+}

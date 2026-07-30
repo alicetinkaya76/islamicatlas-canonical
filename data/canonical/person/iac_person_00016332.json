@@ -1,0 +1,97 @@
+{
+ "@id": "iac:person-00016332",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Hafīd Ibn Marzūq",
+   "tr": "el-Hafîd İbn Merzûk",
+   "ar": "الحفيد ابن مرزوق"
+  },
+  "originalScript": {
+   "ar": "الحفيد ابن مرزوق"
+  },
+  "description": {
+   "tr": "Fıkıh, usûl, hadis ve edeb ilimlerinde âlim",
+   "en": "Scholar of jurisprudence, principles of jurisprudence, hadith, and letters"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muhammad b. Ahmad b. Muhammad Ibn Marzūq al-'Ajīsī al-Tilmisānī Abū 'Abd Allāh al-Hafīd"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. Ahmed b. Muhammed İbn Merzûk el-Acîsî et-Tilmesânî Ebû Abdillâh el-Hafîd"
+   ],
+   "ar": [
+    "محمد بن أحمد بن محمد، ابن مرزوق العجيسي التلمساني، أبو عبد الله،المعروف بالحفيد، أو حفيد ابن مرزوق"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:9180",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9180",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:51Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:51Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:51Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=9180 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:45Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:9180."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3944-16332) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003944 lehine yumuşak-silindi. Gerekçe: \"el-Hafîd\" lakabı iki kayıtta da açıkça yer alıyor ve 1438/1439 yılı torun İbn Merzûk el-Hafîd'i dedesi el-Hatîb'ten kesin biçimde ayırıyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003944"
+ },
+ "death_temporal": {
+  "start_ah": 842,
+  "start_ce": 1438,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9180, heading_ar=الحفيد ابن مرزوق || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 22.0, 40.0",
+ "active_in_places": [
+  "iac:place-00002614",
+  "iac:place-00003525"
+ ],
+ "kunya": "أبو عبد الله"
+}

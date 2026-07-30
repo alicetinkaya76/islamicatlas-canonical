@@ -1,0 +1,102 @@
+{
+  "@id": "iac:person-00001782",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CENEDÎ, Mufaddal b. Muhammed",
+      "ar": "المفضل بن محمد الجندي"
+    },
+    "originalScript": {
+      "ar": "المفضل بن محمد الجندي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Saîd el-Mufaddal b. Muhammed b. İbrâhîm eş-Şa‘bî el-Cenedî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Aslen Yemen’in Cened şehrine mensup olduğu için Cenedî nisbesiyle anılır. Muhtemelen Mekke’de doğdu ve orada öldü. Mekke’de pek çok kişiye hadis okuttu. Seleme b. Şebîb gibi muhaddislerden hadis rivayet etti ve Bezzî’den kıraat ilmi tahsil etti. Kendisinden de İbn Mücâhid, Abdülvâhid b. Ebû Hâşim gibi kıraat âlimleri, Ukaylî, İbn Hibbân, Taberânî, İbnü’l-Mukrî el-İsfahânî vb. meşhur muhaddisler rivayette bulunmuşlardır. Cenedî’nin bilinen eserleri şunlardır: 1. Feżâʾilü’l-Medîne (Zâhiriyye Ktp., Mecmua, nr. 71/6, vr. 62 a -69 b ). 2. Feżâʾilü Mekke . Takıyyüddin el-Fâsî (ö. 832/1429), Şifâʾü’l-ġarâm bi-aḫbâri’l-Beledi’l-ḥarâm adlı eserinde (I, 201, 293) Cenedî’nin zamanımıza intikal etmeyen bu kitabından nakillerde bulunur. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 362 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cenedi-mufaddal-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cenedi-mufaddal-b-muhammed, https://islamansiklopedisi.org.tr/cenedi-mufaddal-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:cenedi-mufaddal-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/cenedi-mufaddal-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cenedi-mufaddal-b-muhammed (1 chunks) by dia adapter (Hafta 4). Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cenedî"
+  ],
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 308,
+    "start_ce": 920,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cenedi-mufaddal-b-muhammed, URL: https://islamansiklopedisi.org.tr/cenedi-mufaddal-b-muhammed || DİA birth place: Mekke || DİA death-date string: (ö. 308/920) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001519"
+  ],
+  "students": [
+    "iac:person-00003065",
+    "iac:person-00003858",
+    "iac:person-00003954",
+    "iac:person-00004266",
+    "iac:person-00007222",
+    "iac:person-00007454"
+  ]
+}

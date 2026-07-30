@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00000379",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abbas",
+      "ar": "عبّاس"
+    },
+    "originalScript": {
+      "ar": "عبّاس"
+    },
+    "description": {
+      "tr": "Büyük Selçuklu Sultanı Sencer’in nedimlerinden Emîr Cevher’in kölesidir. Bâtınîler tarafından öldürülen Emîr Cevher’in yerine Rey valisi oldu. Efendisinin intikamını almak üzere Bâtınîler’e karşı harekete geçti ve büyük bir katliam yaptı. Bu hadise ona şan ve şöhret kazandırdığı gibi, Selçuklular’ın nüfuz sahibi kuvvetli emîrleri arasına girmesini de sağladı. Selçuklu Sultanı Sencer’in Rey şehrini yeğeni Sultan Mesud’a bırakması üzerine, bu haberi tebliğ için kalabalık bir maiyetle Bağdat’a gitti (1142). Daha sonra şehri teslim almak üzere yola çıkan Sultan Mesud ile birlikte Rey’e döndü ve bu arada valiliğini de muhafaza etti. Ancak bir müddet sonra Sultan Mesud’a muhalif gruba katıldı ve 1145’te yanında Emîr Boz-aba ve bazı Selçuklu şehzadeleri olduğu halde, görünüşte sultana bağlılıklarını bildirmek, gerçekte ise saltanatı onun elinden almak üzere İsfahan’a hareket etti. Onların asıl maksadını anlayan Sultan Mesud, Bağdat’a çekilmek mecburiyetinde kaldı. Bu arada Abbas ile Boz-aba Hemedan’a kadar gelmişler, burada kendilerine Emîr Kutlu-aba da katılmıştı. Fakat Emîr Çavlı ile buluşan Sultan Mesud isyancıları geri çevirmeyi başardı. Bundan sonra Emîr Abbas ile Sultan Mesud’un arası düzelir gibi oldu; hatta Emîr Abbas, sultan ile birlikte 1146’da Bağdat’a kadar gitti. Ancak, kuvvetli emîrlerin nüfuzunu kırmak isteyen ve bu maksatla Emîr Abdurrahman b. Togayürek’i ortadan kaldıran Sultan Mesud, bir müddet sonra onu da Bağdat’ta öldürttü (17 Zilkade 541 / 20 Nisan 1147). Cesedi kızı tarafından Rey’e götürülerek orada defnedildi. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 17 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "'ABBAS HI, .^afawl prince, was boin in \n1145 (1732) and died at Ispahan in 1149 (l 73 ^)- \nHe was placed on the throne by Nadir Shah \nafter the conqueror had dethroned Tahmasp by \nstratagem and had ex",
+      "ar": "عباس الثالث، الأمير الصفوي، ولد سنة 1145 (1732م) وتوفي في إصفهان سنة 1149 (1736م). نصبه نادر شاه على العرش بعد أن خلع تهماسب بالمكيدة."
+    },
+    "altLabel": {
+      "en": [
+        "ABBAS HI"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbas--selcuklu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbas--selcuklu, https://islamansiklopedisi.org.tr/abbas--selcuklu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "ei1:20",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 1, p. 45",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      },
+      {
+        "source_id": "dia-chunks:abbas--selcuklu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abbas--selcuklu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbas--selcuklu (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 0.99): gap-filled ['description.en', 'description.ar', 'altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 541,
+    "start_ce": 1147,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbas--selcuklu, URL: https://islamansiklopedisi.org.tr/abbas--selcuklu || DİA death place: Bağdat || DİA death-date string: (ö. 541/1147) || DİA categories: hadis || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00015119"
+  ]
+}

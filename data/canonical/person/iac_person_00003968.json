@@ -1,0 +1,120 @@
+{
+  "@id": "iac:person-00003968",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Nâciye",
+      "ar": "ابن ناجية"
+    },
+    "originalScript": {
+      "ar": "ابن ناجية"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdullāh b. Muhammed b. Nâciye el-Berberî el-Bağdâdî"
+      ]
+    },
+    "description": {
+      "tr": "210’da (825) doğdu (Kehhâle, VI, 142). Aslen Mağrib’de Berber (Bilâdülberber) bölgesinden olup daha sonra Bağdat’a yerleştiği anlaşılmaktadır. Ebû Bekir b. Ebû Şeybe, Süveyd b. Saîd, İsmâil b. Mûsâ el-Fezârî, Abdüla‘lâ b. Hammâd en-Nersî, Abdullah b. Muâviye el-Cumahî ve Bündâr diye tanınan Muhammed b. Beşşâr’dan hadis rivayet etti. Kendisinden kıraat âlimi Ebü’l-Kāsım İbnü’n-Nehhâs, Taberânî, Ebû Bekir İbnü’l-Enbârî, Ebû Bekir eş-Şâfiî, İbnü’l-Ciâbî ve Ebû Hafs İbnü’z-Zeyyât gibi âlimler rivayette bulundular. Hatîb el-Bağdâdî, İbn Nâciye’yi “sika” ve “sebt” terimleriyle değerlendirmiş, Zehebî de onun için “hüccet” terimini kullanmıştır. Çok hadis rivayet eden âlimlerden olduğu belirtilen İbn Nâciye 1 Ramazan 301’de (31 Mart 914) Bağdat’ta vefat etti. İbn Abdülber en-Nemerî, İbn Nâciye’nin 132 cüzden meydana gelen el-Müsned adlı eserini İbn Nemerî’nin gördüğünü belirtmekte, ancak eserin günümüze ulaşıp ulaşmadığına dair bilgi bulunmamaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 224 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-naciye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-naciye, https://islamansiklopedisi.org.tr/ibn-naciye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:6124",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6124, heading_ar=ابن ناجية",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:21Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:21Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-naciye (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6124]. Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6124 (heading_ar=ابن ناجية) via Track A (DİA→Alam xref bridge). dt=Hadis hıfızlarından"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Berberî; Bağdâdî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 301,
+    "start_ce": 914,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-naciye, URL: https://islamansiklopedisi.org.tr/ibn-naciye || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6124] || DİA death place: Bağdat || DİA death-date string: (ö. 301/914) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6124, heading_ar=ابن ناجية, dt=Hadis hıfızlarından",
+  "active_in_places": [
+    "iac:place-00002027"
+  ],
+  "teachers": [
+    "iac:person-00001613",
+    "iac:person-00003758",
+    "iac:person-00004307"
+  ],
+  "students": [
+    "iac:person-00000695",
+    "iac:person-00002146",
+    "iac:person-00002928",
+    "iac:person-00004162",
+    "iac:person-00004169",
+    "iac:person-00004584",
+    "iac:person-00007222"
+  ]
+}

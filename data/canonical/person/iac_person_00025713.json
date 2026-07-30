@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00025713",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Nasr Hâmid Ebû Zeyd",
+      "en": "Nasr Hamid Abu Zayd",
+      "ar": "نصر حامد أبو زيد"
+    },
+    "description": {
+      "tr": "Nasr Hâmid Ebû Zeyd, Kur'ân'ın hermenötik bir yaklaşımla yorumlanmasını savunan Mısırlı düşünürdür. Kur'ân metnini tarihsel bağlamında anlamaya çalışan metodolojisi geleneksel çevrelerden sert tepki almış, 1995'te Mısır'da mürted ilan edilerek eşinden zorla boşatılmıştır. Hollanda'ya sürgüne giderek Leiden Üniversitesi'nde çalışmıştır. Mefhûmu'n-Nass ve en-Nass ve's-Sulta ve'l-Hakīka adlı eserleri modern Kur'ân hermenötiğinin temel referanslarındandır.",
+      "en": "Nasr Hamid Abu Zayd was an Egyptian thinker who advocated a hermeneutic approach to Quranic interpretation. His methodology of understanding the Quranic text in its historical context drew harsh reaction from traditional circles; in 1995 he was declared an apostate in Egypt and forcibly divorced from his wife. He went into exile in the Netherlands and worked at Leiden University. His Mafhum al-Nass and al-Nass wa al-Sulta wa al-Haqiqa are foundational references in modern Quranic hermeneutics.",
+      "ar": "نصر حامد أبو زيد المفكر المصري الذي دعا لتفسير القرآن بمنهج تأويلي. منهجيته في فهم النص القرآني ضمن سياقه التاريخي لاقت ردود فعل عنيفة من الأوساط التقليدية فأعلن مرتدا في مصر عام 1995 وطلق من زوجته قسرا. ذهب منفيا إلى هولندا وعمل في جامعة ليدن. كتاباه مفهوم النص والنص والسلطة والحقيقة من المراجع الأساسية للتأويل القرآني المعاصر."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "scholars:238",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=238",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas.org v1 scholars layer (scholars.csv + scholar_identity.js v4.8.x; DİA-sourced bilingual cards)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_scholars",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-07-12T14:48:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-07-12T14:48:04Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization by canonicalize_person_scholars v0.1.0 (H10 Stage 3; Tier-2 kind=new)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mısrî"
+  ],
+  "birth_temporal": {
+    "start_ce": 1943,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 2010,
+    "approximation": "exact"
+  }
+}

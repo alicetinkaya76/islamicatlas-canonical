@@ -1,0 +1,104 @@
+{
+  "@id": "iac:person-00000296",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Fadlan",
+      "tr": "İbn Fadlân",
+      "ar": "ابن فضلان"
+    },
+    "originalScript": {
+      "ar": "ابن فضلان"
+    },
+    "altLabel": {
+      "en": [
+        "Ahmad ibn Fadlan ibn al-Abbas"
+      ],
+      "tr": [
+        "Ahmed b. Fadlân b. Abbâs"
+      ],
+      "ar": [
+        "أحمد بن فضلان بن العباس"
+      ]
+    },
+    "description": {
+      "tr": "Viking Rusları ve Volga bölgesinin Türk halklarının en ayrıntılı görgü tanığı anlatımını sağladı || İdil Bulgarlarına Abbâsî elçisi olarak gönderildi, gördüğü her şeyi antropolojik hassasiyetle kaydetti. || [Tarih notu] Rus gemi cenazesi anlatımı, Arap seyahat edebiyatının en ünlü pasajıdır.",
+      "en": "Provided the most detailed eyewitness account of the Viking Rus and Turkic peoples of the Volga region — an unmatched ethnographic source for 10th-century Eurasian steppe societies || Sent as an Abbasid ambassador to the Volga Bulgars, Ibn Fadlan recorded everything he saw with anthropological precision: from Viking ship cremations to Turkic shamanic rituals. || [Historiographical note] His account of the Rus ship burial is the most famous passage in Arabic travel literature. It inspired Michael Crichton's novel 'Eaters of the Dead' (The 13th Warrior).",
+      "ar": "قدم أدق شهادة عيان عن الروس الفايكنغ والشعوب التركية في منطقة الفولغا || أُرسل سفيراً عباسياً إلى بلغار الفولغا وسجل كل ما رآه بدقة أنثروبولوجية"
+    }
+  },
+  "profession": [
+    "geographer",
+    "historian",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0113",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0113",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:355",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=355",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:09Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:09Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0113 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 879,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 960,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q200947",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ibn Fadlan')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0113, lecture_week=n/a. || Key works: {'title': {'en': 'Risāla (Account of the Volga Mission)', 'tr': 'Risâle (İdil Seyahatnâmesi)', 'ar': 'رسالة ابن فضلان'}, 'year': 922, 'field': 'geography', 'significance': {'en': 'Most detailed contemporary account of the Viking Rus, their customs, ship burials, and social organization', 'tr': 'Viking Ruslarının, geleneklerinin, gemi cenazelerinin ve toplumsal örgütlenmelerinin en ayrıntılı çağdaş anlatımı'}} || Modern parallel: Like a diplomat who also happens to be a first-rate anthropologist — producing the definitive field report on a vanished civilization.",
+  "authored_works": [
+    "iac:work-00000153"
+  ]
+}

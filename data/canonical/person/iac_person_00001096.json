@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00001096",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂRİF BEY, Çarşambalı"
+    },
+    "description": {
+      "tr": "Hacı Ârif Bey veya Fatih’in Çarşamba semtinde oturduğu için de Çarşambalı lakabıyla şöhret bulmuştur. Doğum tarihi kesin olarak bilinmemektedir. Sülüs-nesih yazılarıyla tuğrayı Mustafa Râkım’ın çırağı Hâşim Efendi’den, ta‘liki ise Sâmi Efendi ile beraber Kıbrısîzâde İsmâil Hakkı Efendi’den öğrendi. Bir müddet sonra hocasını bırakıp Ali Haydar Bey’den ders almaya başladı. Aynı zamanda Mektûbî-i Mâliye Mukabeleciliği’nde çalışıyordu. Hayatının en verimli çağında vefat etti. Mezarı Eyüp yolu üzerindeki Yâvedûd Kabristanı’ndadır. Daha çok celî yazıda maharet sahibi olan Hacı Ârif Bey ile hattat Sâmi Efendi arasında talebelik devresinde başlayan ve uzun süre devam eden dostluk, birbirlerinin yazı hatalarını tashih ederek sanatlarında ilerlemelerine de vesile olmuştur. Celî sülüs istif tertibinde pek mahir olan Hacı Ârif Bey, “hatt-ı müsennâ” denilen aynalı yazı da da şaheserler meydana getirdi. İstanbul’un Gedik Paşa, Aksaray Vâlide, Üsküdar Selimiye, Rum Mehmed Paşa gibi çeşitli camilerinde kitâbe ve levhaları mevcuttur. Celî sülüs ve celî ta‘lik yazılarını, gördüğü eski hat örneklerinin hangi hattata ait olduğunu tayin edecek derecede iyi bilen ve bu sanatın inceliklerine vâkıf bulunan Hacı Ârif Bey’in mütevazi, nüktedan ve hoşsohbet bir şahsiyeti olduğu rivayet edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 363 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:arif-bey-carsambali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=arif-bey-carsambali, https://islamansiklopedisi.org.tr/arif-bey-carsambali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:arif-bey-carsambali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/arif-bey-carsambali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=arif-bey-carsambali (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1892,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=arif-bey-carsambali, URL: https://islamansiklopedisi.org.tr/arif-bey-carsambali || DİA death place: Bey || DİA death-date string: (ö. 1892) || DİA categories: rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000964",
+    "iac:person-00003293"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "@id": "iac:person-00000193",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Khaldun",
+      "tr": "İbn Haldûn",
+      "ar": "ابن خلدون"
+    },
+    "originalScript": {
+      "ar": "ابن خلدون"
+    },
+    "altLabel": {
+      "en": [
+        "Wali al-Din Abu Zayd Abd al-Rahman ibn Muhammad ibn Khaldun"
+      ],
+      "tr": [
+        "Veliyyüddin Ebû Zeyd Abdurrahman b. Muhammed İbn Haldûn"
+      ],
+      "ar": [
+        "ولي الدين أبو زيد عبد الرحمن بن محمد ابن خلدون"
+      ]
+    },
+    "description": {
+      "tr": "Sosyoloji ve tarih bilimini Auguste Comte'tan 500 yıl önce kurdu. Asabiyet (grup dayanışması) yoluyla medeniyetlerin yükseliş ve çöküşüne dair döngüsel teorisi, sosyal bilimlerin en güçlü çerçevelerinden biri olmaya devam ediyor || Mukaddime, modern öncesi düşüncede benzersizdir: tarih, iktisat ve siyasete ampirik analiz uygularken doğaüstü nedenselliği açıkça reddeder. Asabiyet teorisi, göçebe grupların zorlukla dayanışma oluşturup yerleşik medeniyetleri fethedip sonra lüksle dayanışmayı kaybetmesini — ~4 kuşak döngüleriyle — anlatır. || [Tarih notu] Franz Rosenthal'ın anıtsal 1958 Mukaddime çevirisi İbn Haldûn'u Batı sosyal biliminin ana akımına taşıdı. 'Asabiyet' kavramı son zamanlarda kliyo-dinamikler (Peter Turchin, 2006) tarafından benimsendi.",
+      "en": "Founded sociology and historical science 500 years before Auguste Comte. His cyclical theory of civilizational rise and fall through asabiyyah (group cohesion) remains one of the most powerful frameworks in social science || The Muqaddimah is unique in pre-modern thought: it applies empirical analysis to history, economics, and politics while explicitly rejecting supernatural causation. His theory of asabiyyah (group solidarity) describes how nomadic groups forge cohesion through hardship, conquer settled civilizations, then lose solidarity through luxury — repeating in ~4-generation cycles. He anticipated concepts later attributed to Vico, Montesquieu, Marx, and Toynbee. || [Historiographical note] Franz Rosenthal's monumental 1958 translation of the Muqaddimah brought Ibn Khaldun into mainstream Western social science. Lacoste (1966) and Mahdi (1957) established the philosophical depth of his thought. The 'asabiyyah' concept has recently been adopted by cliodynamics (Peter Turchin, 2006).",
+      "ar": "أسّس علم الاجتماع قبل أوغست كونت بخمسة قرون. نظريته الدورية في صعود الحضارات وسقوطها عبر العصبية لا تزال من أقوى الأطر في العلوم الاجتماعية || المقدمة فريدة في الفكر ما قبل الحديث: تطبّق التحليل التجريبي على التاريخ والاقتصاد والسياسة مع رفض صريح للسببية الغيبية. نظرية العصبية تصف دورات بأربعة أجيال"
+    }
+  },
+  "profession": [
+    "scholar",
+    "philosopher",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0010",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0010, lecture_id=ibn-khaldun",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:389",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=389",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E0017",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0010 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:15:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "h11_001 QID karantinası: wikidata:Q42797 kayıttan çıkarıldı (denetim MISMATCH, sim=53, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-2 conf 1.0): ['authority_xref', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1332,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1406,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0010, lecture_week=23. || Key works: {'title': {'en': 'Al-Muqaddimah', 'tr': 'Mukaddime', 'ar': 'المقدمة'}, 'year': 1377, 'field': 'social_sciences', 'significance': {'en': 'Founded sociology, historiography, and economics as systematic disciplines — described civilizational rise and fall in cyclical terms', 'tr': 'Sosyoloji, tarihyazımı ve iktisadı sistematik disiplinler olarak kurdu — medeniyetlerin yükseliş ve çöküşünü döngüsel terimlerle anlattı'}} || Modern parallel: Imagine someone writing both Marx's Capital and Toynbee's A Study of History — in a castle, in four months, in the 14th century. That's the Muqaddimah.",
+  "birth_place": "iac:place-00002703",
+  "active_in_places": [
+    "iac:place-00002703",
+    "iac:place-00009192",
+    "iac:place-00009399"
+  ],
+  "authored_works": [
+    "iac:work-00000020"
+  ],
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q9294",
+      "confidence": 1.0,
+      "method": "imported_from_source",
+      "reviewed": false,
+      "note": "Alatlı (Tarihe Yön Veren Metinler): Tier-2 ad+ölüm eşleşmesi; QID Wikidata tarih-teyitli."
+    }
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

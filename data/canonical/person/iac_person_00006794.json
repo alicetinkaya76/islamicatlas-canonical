@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00006794",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Şekerzâde Seyyid Mehmed"
+    },
+    "description": {
+      "tr": "Manisalıdır. Babası Abdurrahman Efendi, Manisa’da şeker satıcılığı yaptığından “Şekercizâde” lakabıyla tanınmış, ancak eserlerinde “Şekerzâde” imzasını kullanmıştır. İlim tahsili için gittiği İstanbul’da önce İbrâhim Kırîmî’den, daha sonra Yedikuleli Seyyid Abdullah’tan sülüs ve nesih yazılarını meşkederek icâzet aldı. Bu sahada geçmiş üstatların yazılarından faydalanıp emsallerinden daha üstün bir seviyeye ulaştı. Lakabı gibi yazıları da sevimli bir çocuğun aydınlık yüzüne benzer. Ayasofya yakınında oturan ve isteyenlere hat dersi veren Şekerzâde hayatı boyunca pek çok hattat yetiştirerek Türk hat sanatına büyük hizmet etti. Vefatında Karacaahmet Mezarlığı’nda Şeyh Hamdullah Efendi’nin kabrinin yakınına defnedildi. Sanat çevrelerinde büyük takdir gören Şekerzâde’nin mushaf, murakka‘ ve kıta olarak çok başarılı eserleri vardır. Bir üstadın yazı tarzını kullanmada mahir olan Şekerzâde, padişah musâhiplerinden Çavuş Ahmed Efendi vasıtasıyla ve III. Ahmed’in emriyle Medine’ye gidip Şeyh Hamdullah’ın Ravza-i Mutahhara’ya vakfedilmiş olan mushafını takliden bir mushaf yazmakla görevlendirilmiş, hac vazifesini yerine getirdikten sonra Medine’de bir yıl kalarak bir mushafla bir delâilü’l-hayrât yazmıştır. İstanbul’a dönüşünde mushafın tezhip ve cildini yaptırdıktan sonra yeni padişah olan I. Mahmud’a arzetmiştir. Bundan çok memnun kalan padişah mushafı kütüphanesine koymuş, bir mushaf daha yazmasını emretmiştir. Şekerzâde kısa zamanda bir mushaf daha yazarak padişahın ihsanına nâil olmuş, kendisine ibtidâ-i hâric rütbesiyle 1143 (1730) yılı ortalarında İstanbul ruûsu ve Topkapı Sarayı’nda Bostâniyân-ı Hâssa Ocağı’na hat hocalığı görevi verilmiştir. Medine’de yazdığı mushaf Süleymaniye Kütüphanesi’nde muhafaza edilmektedir (Yenicami, nr. K 3). Bu mushaf, Sultan Abdülaziz devrinde 1874’te devlet ileri gelenlerine hediye edilmek üzere Maarif Nezâreti tarafından âharlı kâğıda yetmiş adet basılmıştır. Aslından ayırt edilemeyecek kadar güzel basılan mushaf Osmanlılar’da resmen bastırılan ilk Kur’an’dır."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:sekerzade-seyyid-mehmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=sekerzade-seyyid-mehmed, https://islamansiklopedisi.org.tr/sekerzade-seyyid-mehmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:sekerzade-seyyid-mehmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/sekerzade-seyyid-mehmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:55Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:55Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=sekerzade-seyyid-mehmed (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1166,
+    "start_ce": 1753,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=sekerzade-seyyid-mehmed, URL: https://islamansiklopedisi.org.tr/sekerzade-seyyid-mehmed || DİA death-date string: (ö. 1166/1753) || Chunk count: 1"
+}

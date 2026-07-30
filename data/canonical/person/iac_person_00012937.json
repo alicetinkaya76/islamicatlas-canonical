@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00012937",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn al-Khayyāṭ",
+      "tr": "İbn el-Hayyât",
+      "ar": "ابن الخياط"
+    },
+    "originalScript": {
+      "ar": "ابن الخياط"
+    },
+    "description": {
+      "tr": "Bağdat'ta Mu'tezile şeyhlerinden.",
+      "en": "Chief of the Muʿtazilites in Baghdad."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd al-Rahīm b. Muḥammad b. ʿUthmān, Abū al-Ḥusayn Ibn al-Khayyāṭ"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdurrahîm b. Muhammed b. Osman, Ebû'l-Hüseyin İbn el-Hayyât",
+        "el-Hayyât"
+      ],
+      "ar": [
+        "عبد الرحيم بن محمد بن عثمان، أبو الحسين ابن الخياط"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:5395",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5395",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "alatli:E0863",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:14Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=5395 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:5395."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-2 conf 0.99): ['altLabel.tr', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 300,
+    "start_ce": 912,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5395, heading_ar=ابن الخياط || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 33.31, 44.37",
+  "kunya": "Ebû'l-Hüseyin",
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00001740",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CELÂLEDDİN AĞA, Mehmed"
+    },
+    "description": {
+      "tr": "Yeniçeri Ocağı’ndan yetişti. Saksoncubaşı, zağarcıbaşı, 1825’te kul kethüdâsı ve aynı yıl içinde yeniçeri ağası oldu. Yeniçeri Ocağı’nın iyice bozulduğu ve mutlaka ortadan kaldırılması gerektiği hususunda devrin padişahı II. Mahmud’la aynı fikirdeydi. Ocağın ilgası hazırlıkları gizlice onun zamanında da devam etti. Özellikle ocaktan yana olan zâbitler yavaş yavaş görevlerinden uzaklaştırıldı. Celâleddin Ağa, Nizâm-ı Cedîd tarzında teşkili kararlaştırılan, fakat neferleri Yeniçeri Ocağı bölüklerinden seçilen Eşkinci Ocağı’nın kurulmasıyla bizzat ilgilendi. 15 Haziran 1826 tarihinde başlayan son yeniçeri ayaklanması sırasında öldürüleceği korkusuyla Süleymaniye Camii civarında bir evde saklanmak zorunda kaldı. Gerçekten de bazı zorbalar ağayı öldürmek için gece yarısı bu eve baskın yapmışlarsa da o sırada kendisinin abdesthanede bulunması hayatını kurtardı (Cevdet, XII, 154). Yeniçeri Ocağı’nın lağvedilmesinden sonra kendisine teklif edilen vezirlik ve seraskerlik görevini zamanın kritik olmasından dolayı kabul etmedi. Büyük mîrâhurluk pâyesiyle dergâh-ı âlî kapıcıbaşılığı, daha sonra başbâki kulluğu ve Gemlik kereste nâzırlığı görevlerinde bulundu. 1834’te emekliye ayrıldı; uzun bir emeklilik hayatından sonra İstanbul’da öldü. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 246 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:celaleddin-aga-mehmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=celaleddin-aga-mehmed, https://islamansiklopedisi.org.tr/celaleddin-aga-mehmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:celaleddin-aga-mehmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/celaleddin-aga-mehmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=celaleddin-aga-mehmed (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1863,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=celaleddin-aga-mehmed, URL: https://islamansiklopedisi.org.tr/celaleddin-aga-mehmed || DİA death-date string: (ö. 1863) || Chunk count: 1"
+}

@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00001871",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CÜNÂDE b. EBÛ ÜMEYYE",
+      "ar": "جنادة بن أبي أمية"
+    },
+    "originalScript": {
+      "ar": "جنادة بن أبي أمية"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Cünâde b. Ebî Ümeyye el-Ezdî ez-Zehrânî"
+      ]
+    },
+    "description": {
+      "tr": "Ezd kabilesinin Zehrân koluna mensup olan Cünâde’nin babası Ebû Ümeyye de sahâbî idi; adı bazı kaynaklarda Mâlik, bazılarında da Kebîr şeklinde geçmektedir. Cünâde’nin, yine sahâbî olan Cünâde b. Mâlik el-Ezdî ve 67 (686) yılında vefat eden tâbiî Cünâde b. Ebû Ümeyye Kebîr ed-Devsî ile karıştırıldığı anlaşılmaktadır. Cünâde Hz. Peygamber’den ve Hz. Ömer, Hz. Ali, Muâz b. Cebel, Ebü’d-Derdâ, Ubâde b. Sâmit ve Büsr b. Ebû Ertât’tan hadis rivayet etmiştir. Kendisinden de oğlu Süleyman ile Mücâhid b. Cebr, Recâ b. Hayve, Abdurrahman es-Sunâbihî gibi âlimler rivayette bulunmuşlardır. Hz. Osman döneminde orduya katılan ve Muâviye’nin maiyetinde donanma kumandanlığını yürüten Cünâde, özellikle Muâviye döneminde her yıl Akdeniz ve Ege’de deniz seferlerine çıkmış, 53 (673) yılında Rodos’u fethetmiş, Girit’i de kısmen almış ve kaynaklarda Ervâd adası diye zikredilen Kapıdağ yarımadasında müslümanların o dönemlerde deniz üssü olarak kullandıkları yeri ele geçirmiştir (54/674). Herhalde bu başarılarından dolayı Muâviye Cünâde’nin nesebini kendi şeceresiyle birleştirerek onu bir nevi kardeş ilân etmek istemiş, fakat Cünâde bunu kabul etmemiştir. Cünâde b. Ebû Ümeyye 80 (699) yılında Şam’da vefat etmiştir. 75, 77 ve 86 yıllarında vefat ettiği de rivayet edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 116 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cunade-b-ebu-umeyye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cunade-b-ebu-umeyye, https://islamansiklopedisi.org.tr/cunade-b-ebu-umeyye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:cunade-b-ebu-umeyye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/cunade-b-ebu-umeyye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:49Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cunade-b-ebu-umeyye (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Zehrânî"
+  ],
+  "birth_temporal": {
+    "start_ah": 67,
+    "start_ce": 686,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 80,
+    "start_ce": 699,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cunade-b-ebu-umeyye, URL: https://islamansiklopedisi.org.tr/cunade-b-ebu-umeyye || DİA death place: Şam || DİA death-date string: (ö. 80/699) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00005618"
+  ]
+}

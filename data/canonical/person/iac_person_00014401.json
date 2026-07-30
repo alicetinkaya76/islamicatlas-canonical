@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00014401",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Fakhr al-Mulk",
+      "tr": "Fahru'l-Mülk",
+      "ar": "فخر الملك"
+    },
+    "originalScript": {
+      "ar": "فخر الملك"
+    },
+    "description": {
+      "tr": "Vezir; babası Tûs'un asılındandır",
+      "en": "A vizier; his father's origin was from Tūs"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAlī b. al-Hasan b. ʿAlī b. Isḥāq, Abū al-Muẓaffar Fakhr al-Mulk b. Niẓām al-Mulk"
+    },
+    "altLabel": {
+      "tr": [
+        "Alî b. Hasan b. Alî b. İshâk, Ebü'l-Muzaffer Fahru'l-Mülk b. Nizâmu'l-Mülk"
+      ],
+      "ar": [
+        "علي بن الحسن بن علي بن إسحاق، أبو المظفر فخر الملك ابن نظام الملك"
+      ]
+    }
+  },
+  "profession": [
+    "vizier"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:7049",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7049",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:fahrulmulk-ali-b-nizamulmulk",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/fahrulmulk-ali-b-nizamulmulk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:30Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=7049 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7049."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 500,
+    "start_ce": 1106,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7049, heading_ar=فخر الملك || Ziriklī century_ce=12 || Ziriklī place coords (city/region of activity): 36.44, 59.33",
+  "kunya": "أبو المظفر"
+}

@@ -1,0 +1,100 @@
+{
+  "@id": "iac:person-00007077",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Siyâlkûtî",
+      "ar": "السيالكوتي"
+    },
+    "originalScript": {
+      "ar": "السيالكوتي"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdülhakîm b. Şemsiddîn Muhammed es-Siyâlkûtî"
+      ]
+    },
+    "description": {
+      "tr": "Madde güncellenmektedir."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:siyalkuti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=siyalkuti, https://islamansiklopedisi.org.tr/siyalkuti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:siyalkuti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/siyalkuti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:5042",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5042, heading_ar=السيالكوتي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:57Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=siyalkuti (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5042]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5042 (heading_ar=السيالكوتي) via Track A (DİA→Alam xref bridge). dt=Fazıl, Lahore'ye tâbi Siâlkot halkından"
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:35Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Siyâlkûtî"
+  ],
+  "death_temporal": {
+    "start_ah": 1067,
+    "start_ce": 1657,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=siyalkuti, URL: https://islamansiklopedisi.org.tr/siyalkuti || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5042] || DİA death-date string: (ö. 1067/1657) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5042, heading_ar=السيالكوتي, dt=Fazıl, Lahore'ye tâbi Siâlkot halkından"
+}

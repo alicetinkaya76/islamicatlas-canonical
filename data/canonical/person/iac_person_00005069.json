@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00005069",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Kuveyrî",
+      "ar": "القويري"
+    },
+    "originalScript": {
+      "ar": "القويري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû İshâk İbrâhîm el-Kuveyrî"
+      ]
+    },
+    "description": {
+      "tr": "Mes‘ûdî’nin felsefe öğretiminin İslâm dünyasına intikaliyle ilgili verdiği bilgiden, Abbâsî Halifesi Mu‘tazıd-Billâh zamanında (892-902) yaşadığı ve bu dönemin önde gelen felsefe üstatlarından biri olduğu anlaşılmaktadır ( et-Tenbîh , s. 122). Yine aynı kaynaktan, devrin diğer bir mantıkçısı ve Fârâbî’nin mantık hocası olan Yuhannâ b. Haylân’ın çağdaşı olduğu öğrenilen Kuveyrî mantıkçı Ebû Bişr Mettâ b. Yûnus’un da hocasıdır. İbnü’n-Nedîm onu başlıca felsefe literatürünü Arap diline aktaranlar arasında zikreder; ayrıca Aristo’ya ait Peri Hermeneias , Birinci Analitikler ve Sofistika ’yı yorumlayanlardan olduğunu belirtir ( el-Fihrist , s. 305-309, 310). Ebû Hayyân et-Tevhîdî’nin, Ya‘kūb b. İshak el-Kindî’nin öğrencisi İbnü’t-Tayyib es-Serahsî’den naklen bildirdiğine göre Abbâsî Devleti’nin kâtiplerinden İbn Sevâbe, yakın dostu Ebû Ubeyde’nin tavsiyesi üzerine Öklid geometrisine vukufu ile tanınan Kuveyrî’den ders almak istemiş, ancak Kuveyrî’nin kendisine geometri öğretme bahanesiyle itikadını bozmaya kalkıştığını farkedince onu yanından uzaklaştırmıştır ( Aḫlâḳu’l-vezîreyn , s. 235-241). İfadelerinin muğlak olması ve bol miktarda yabancı kelime kullanması yüzünden kitaplarının ilgi görmediği belirtilen Kuveyrî’nin kaynaklarda adı geçen eserleri şunlardır: Kitâbü Tefsîri Ḳāṭîġūriyâs , Kitâbü Bariyermîniyâs , Kitâbü Analûṭîḳā el-ûlâ , Kitâbü Anâlûṭîḳā es̱-s̱âniye . Bu madde TDV İslâm Ansiklopedisi’nin 2002 yılında Ankara’da basılan 26. cildinde, 504 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kuveyri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kuveyri, https://islamansiklopedisi.org.tr/kuveyri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:35Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kuveyri (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kuveyrî"
+  ],
+  "death_temporal": {
+    "start_ah": 328,
+    "start_ce": 940,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kuveyri, URL: https://islamansiklopedisi.org.tr/kuveyri || DİA death-date string: (ö. 328/940’tan sonra) || DİA categories: felsefe > mantık > tefsir || Chunk count: 1",
+  "students": [
+    "iac:person-00005486"
+  ]
+}

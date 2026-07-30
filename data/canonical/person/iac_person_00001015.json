@@ -1,0 +1,71 @@
+{
+  "@id": "iac:person-00001015",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Alvarli Muhammed Lutfi Efendi"
+    },
+    "description": {
+      "tr": "Erzurum’un Hasankale (Pasinler) ilçesinin Kındığı köyünde doğdu. Babası Hoca Hüseyin Efendi’den tahsil gördü. Babasından icâzet aldıktan sonra Erzurum’da tanınmış bazı âlimlerin derslerini takip etti. 1891 yılında Hasankale’nin Sivaslı Camii’ne imam tayin edildi. Aynı yıl babasıyla birlikte Bitlis’e giderek Nakşibendî şeyhi Muhammed Pîr-i Küfrevî’ye intisap etti. Riyâzetini tamamladıktan sonra Pîr-i Küfrevî’nin halifesi olarak Hasankale’ye döndü. Bir süre buradaki görevine devam etti, daha sonra Erzurum’un Dinarkum köyüne giderek imamlık yaptı. 12 Şubat 1916’da Ruslar’ın Erzurum çevresini işgale başlaması üzerine babasıyla birlikte Erzurum’a geldi. Rus istilâsı süresince Tercan’ın Yavi köyünde imamlık yaptı. Ruslar’ın çekilmeye başlamaları ve Ermeniler’in katliama girişmeleri üzerine Yavi ve komşu köylerden topladığı altmış kişilik bir müfrezeyle Ermeniler’e karşı koydu. Oyuklu köyü yakınlarında Ruslar’a ait büyük bir silâh deposunu ele geçirdi. Daha sonra Haydari Boğazı’ndaki Zergide köyünde Türk ordusuna katıldı ve ordu ile birlikte Erzurum’a girdi (12 Mart 1918). Aynı gün babası şehid düştü. Erzurum’un kurtuluşundan sonra tekrar Hasankale’ye döndü. Kendisine teklif edilen Hasankale müftülüğü görevini kabul etmeyerek Hasankale’ye bağlı Alvar köyü halkının isteği üzerine oraya yerleşti. Halk arasında “Alvar imamı” ve “Efe hazretleri” unvanıyla tanındı. Bir Nakşibendî-Hâlidî şeyhi olarak 1939’a kadar bu köyde, bu tarihten sonra da Erzurum’da bölge halkını irşad ile meşgul oldu. 12 Mart 1956’da vefat etti. Cenazesi Alvar köyüne götürülerek oraya defnedildi. Arapça, Farsça ve Türkçe şiirler yazan Alvarlı Muhammed Lutfi Efendi’nin şiirleri ölümünden sonra oğlu Seyfeddin Mazlumoğlu tarafından derlenerek Hulâsatü’l-hakāyık adıyla yayımlanmıştır (İstanbul 1974). Bu divanda çeşitli nazım şekilleriyle söylenen 700’ü aşkın şiir mevcuttur. Hece vezni ve oldukça sade bir Türkçe’nin kullanıldığı bu şiirlerden bazıları da bestelenmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 552 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:alvarli-muhammed-lutfi-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=alvarli-muhammed-lutfi-efendi, https://islamansiklopedisi.org.tr/alvarli-muhammed-lutfi-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=alvarli-muhammed-lutfi-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1868,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=alvarli-muhammed-lutfi-efendi, URL: https://islamansiklopedisi.org.tr/alvarli-muhammed-lutfi-efendi || DİA birth place: Kındığı || DİA death place: 1956 || DİA death-date string: (1868-1956) || DİA categories: şiir || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00019111"
+  ]
+}

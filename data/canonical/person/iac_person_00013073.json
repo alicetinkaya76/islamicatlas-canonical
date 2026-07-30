@@ -1,0 +1,95 @@
+{
+ "@id": "iac:person-00013073",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn Fuhad",
+   "tr": "İbn Fuhad",
+   "ar": "ابن فهد"
+  },
+  "originalScript": {
+   "ar": "ابن فهد"
+  },
+  "description": {
+   "tr": "Tarihçi, hadis âlimi",
+   "en": "Historian and hadith scholar"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAbd al-ʿAzīz b. ʿUmar b. Muḥammad, famous as Ibn Fuhad, Abū al-Khayr and Abū Fāris, ʿIzz al-Dīn al-Hāshimī, from the descendants of Muḥammad Ibn al-Hanafiyyah"
+  },
+  "altLabel": {
+   "tr": [
+    "Abdulaziz b. Ömer b. Muhammed, İbn Fuhad meşhuru, Ebul-Hayr ve Ebû Fâris, İzzüddîn el-Hâşimî, Muhammed İbn el-Hanefiyye'nin soyundan"
+   ],
+   "ar": [
+    "عبد العزيز بن عمر بن محمد، الشهير كأبيه وسلفه بابن فهد، أبو الخير وأبوفارس، عز الدين الهاشمي، من سلالة محمد ابن الحنفية"
+   ]
+  }
+ },
+ "profession": [
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:5545",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5545",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:15Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:15Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:15Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=5545 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:38Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:5545."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3795-13073) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003795 lehine yumuşak-silindi. Gerekçe: Mekke koordinatı (21.39, 39.86), tarihçi rolü ve 1515/1516 yılı, Mekkeli tarihçi İzzeddin İbn Fehd ile birebir uyuşuyor; \"İbn Fuhad\" sadece harfleme farkı."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003795"
+ },
+ "death_temporal": {
+  "start_ah": 920,
+  "start_ce": 1515,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5545, heading_ar=ابن فهد || Ziriklī century_ce=16 || Ziriklī place coords (city/region of activity): 21.39, 39.86",
+ "active_in_places": [
+  "iac:place-00011505"
+ ],
+ "kunya": "أبو الخير"
+}

@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00004821",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KAZVÎNÎ, Alâüddevle",
+      "ar": "علاء الدولة القزويني"
+    },
+    "originalScript": {
+      "ar": "علاء الدولة القزويني"
+    },
+    "altLabel": {
+      "tr": [
+        "Mîr Alâüddevle b. Mîr Yahyâ b. Abdillatîf el-Kazvînî"
+      ]
+    },
+    "description": {
+      "tr": "Kazvin’de doğdu. Mîr Alâüddevle olarak da tanınır. Lübbü’t-tevârîḫ müellifi Mîr Yahyâ Kazvînî’nin oğludur. Şah I. Tahmasb, babası ve ailesinin hapsedilmesi için ferman çıkardığında Azerbaycan’da bulunan Kazvînî kardeşi Abdüllatîf’le beraber Gîlân’a kaçtı. Daha sonra Hindistan’a gidip Bâbürlü Hükümdarı Ekber Şah’ın sarayına intisap etti. Ekber Şah’a hocalık yapan Kazvînî’nin vefat tarihi bilinmemektedir. 998 (1590) yılına kadar yaşamış olan şairlerden bahsetmesi onun bu tarihten sonra öldüğünü gösterir. Kazvînî’nin bilinen tek eseri olan Nefâʾisü’l-meʾâs̱ir üç bölümden meydana gelir. Müellif, birinci bölümde tezkirenin yazılış sebebiyle eski şiiri yeni şiire tercih edişinin sebepleri üzerinde durmuş, ikinci bölümde şairlerin hal tercümeleriyle çağdaşlarının şiirlerinden örneklere, üçüncü bölümde Bâbür’ün hayatına ve sanat severliğine yer vermiş, ardından Hümâyun dönemi ve Ekber Şah’ın hayatı, fetihleri ve icraatını anlatmıştır. Ayrıca diğer tezkirelerden farklı olarak sözünü ettiği şairin bulunduğu şehrin coğrafî durumu ve tarihi hakkında bilgi vermiştir. Tezkirenin yazımı sırasında başta Zekeriyyâ el-Kazvînî’nin Âs̱ârü’l-bilâd ’ı olmak üzere Bâbürnâme , Mirza Haydar’ın Târîḫ-i Reşîdî ’si, Ziyâeddin Berenî’nin Târîḫ-i Fîrûz Şâhî ’si, Devletşah’ın Teẕkiretü’ş-şuʿarâʾ sı, Ali Şîr Nevâî’nin Mecâlisü’n-nefâis ’i ve Hamdullah el-Müstevfî’nin Târîḫ-i Güzîde ’si gibi eserlerden faydalanılmıştır. Nefâʾisü’l-meʾâs̱ir ’de yer alan sadece Ekber Şah dönemine ait 166 şairin hal tercümesini Abdülkādir el-Bedâûnî Münteḫabü’t-tevârîḫ adlı eserinde iktibas etmiştir (Leknev 1863; Kalküta 1864-1869). Nefâʾisü’l-meʾâs̱ir , Bedâûnî’nin eserinin İngilizce çevirisinin III. cildini oluşturmaktadır (Kalküta 1925; Delhi 1986). Ayrıca Âyîn-i Ekberî , Meʾâs̱irü’l-ümerâʾ ve Mirʾât-ı Cihânnümâ adlı eserlerde de tezkireden nakiller yapılmıştır. Eserin bir nüshası Aligarh Üniversitesi Kütüphanesi’nde bulunmaktadır (nr. 625). Kaynaklarda Kâmî mahlasını kullandığı belirtilen Kazvînî, tezkiresinde hattatlığa dair Ṣaḥîfetü’l-erḥâm adlı bir eseriyle şiir sanatlarına dair bir risâlesi olduğunu kaydetmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2022 yılında Ankara’da basılan 25. cildinde, 155-156 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kazvini-alauddevle",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kazvini-alauddevle, https://islamansiklopedisi.org.tr/kazvini-alauddevle",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:32Z",
+    "modified": "2026-05-04T15:40:08Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kazvini-alauddevle (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kazvînî"
+  ],
+  "death_temporal": {
+    "start_ah": 998,
+    "start_ce": 1590,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kazvini-alauddevle, URL: https://islamansiklopedisi.org.tr/kazvini-alauddevle || DİA birth place: Kazvin || DİA death-date string: (ö. 998/1590’dan sonra) || DİA categories: şiir || Chunk count: 1",
+  "birth_place": "iac:place-00014513"
+}

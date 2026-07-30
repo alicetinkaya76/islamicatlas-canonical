@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00002219",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ MES‘ÛD el-BEDRÎ",
+      "ar": "أبو مسعود البدري"
+    },
+    "originalScript": {
+      "ar": "أبو مسعود البدري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Mes‘ûd Ukbe b. Amr b. Sa‘lebe el-Bedrî"
+      ]
+    },
+    "description": {
+      "tr": "Kaynaklarda Câbir b. Abdullah’ın akranı olduğu belirtildiğine göre hicretten on beş yıl kadar önce (606 civarında) doğduğu ve Hazrec kabilesinin Neccâroğulları soyundan oluşu dikkate alınarak Medine’de dünyaya geldiği tahmin edilebilir. Daha çok künyesiyle tanınmış olup Bedrî nisbesini Bedir Gazvesi’ne katıldığı için mi, yoksa Bedir’de oturduğu için mi aldığı konusu ihtilâflıdır. Buhârî başta olmak üzere muhaddisler Ebû Mes‘ûd’un Bedir Gazvesi’nde bulunduğunu kaydederler. Vâkıdî ve diğer siyer âlimlerinin çoğu ise onun bu gazveye katılmadığını kesin bir ifade ile belirtirler. Bu ihtilâfın, onun Bedir Gazvesi’nde geri hizmetlerde görev yapmasından kaynaklandığı söylenebilir. Nitekim savaş başlamadan önce Bedir kuyularından su temin ettiğini rivayet edenler vardır. Nübüvvetin 13. yılında (622) yapılan İkinci Akabe Biatı’nda bulundu. Uhud Gazvesi’ne ve daha sonraki gazvelere de katıldı. Hz. Peygamber’in vefatından sonra Kûfe’ye yerleşen Ebû Mes‘ûd’u Hz. Ali Sıffîn’e giderken Kûfe’de yerine vekil bıraktı. Müslümanlar arasında barış yapılmasını istediğinden bu savaşta iki gruptan hiçbirinin galip gelmemesini arzu ettiği için olmalı ki bir müddet sonra bu görevden azledildi ve Medine’ye döndü. 41 (661) veya 42 (662) yılında burada vefat etti. 39’da (659), 40’ta (660), hatta Muâviye devrinin (661-680) sonlarında öldüğü de rivayet edilmektedir. Âlim sahâbîlerden olan Ebû Mes‘ûd el-Bedrî 102 hadis rivayet etmiş olup bunlardan dokuzu hem Buhârî hem Müslim’de, ayrıca biri yalnız Buhârî’de, yedisi de yalnız Müslim’de bulunmaktadır. Kendisinden oğlu Beşîr ve Alkame b. Kays, Ebû Vâil, Kays b. Ebû Hâzim, Abdurrahman b. Yezîd, Şa‘bî gibi tâbiîn muhaddisleri rivayette bulunmuşlardır. Ebû Mes‘ûd kendilerine öğüt vermesini isteyenlere, “Cemaate sarılmanızı tavsiye ederim, zira yüce Allah bu ümmeti yanlışta birleştirmeyecektir” derdi. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 187 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-mesud-el-bedri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-mesud-el-bedri, https://islamansiklopedisi.org.tr/ebu-mesud-el-bedri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-mesud-el-bedri (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bedrî"
+  ],
+  "death_temporal": {
+    "start_ah": 42,
+    "start_ce": 662,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-mesud-el-bedri, URL: https://islamansiklopedisi.org.tr/ebu-mesud-el-bedri || DİA death place: Kûfe || DİA death-date string: (ö. 42/662 [?]) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00006416",
+    "iac:person-00006501"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00002821",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "GĀLİB b. SA‘SAA",
+      "ar": "غالب بن صعصعة"
+    },
+    "originalScript": {
+      "ar": "غالب بن صعصعة"
+    },
+    "altLabel": {
+      "tr": [
+        "Gālib b. Sa‘saa b. Nâciye et-Temîmî ed-Dârî"
+      ]
+    },
+    "description": {
+      "tr": "Temîm kabilesinin Mücâşi‘ kolunun ileri gelenlerinden ve Câhiliye devrinin ünlü cömertlerindendi. Muhadramûn dan olan Gālib b. Sa‘saa’nın cömertlik yarışında daima ön saflarda yer aldığı ve isimlerini bile sormadan insanlara bol hediyeler verdiği rivayet edilir. Hz. Ömer’in hilâfeti sırasında Medine’ye geldi. Hz. Osman zamanında meşhur şair Sühaym b. Vesîl ile girdiği cömertlik yarışında kendisinin daha cömert olduğunu göstermek için Câhiliye geleneğine uyarak bir deveyi ayaklarını kesmek suretiyle öldürüp insanlara ikram etti. Bunu duyan Hz. Ali, Allah için kesilmeyen hayvanların etinden yenilmesinin doğru olmadığını söyledi. Diğer taraftan Gālib Cemel Vak‘ası’ndan sonra oğlu Ferezdak’ı Hz. Ali’ye götürdü, halife de oğluna Kur’ân-ı Kerîm öğretmesini tavsiye etti ve övünmekten de vazgeçmesini istedi. Gālib Muâviye devrinin (661-680) ilk yıllarında öldü ve Kâzıme’de defnedildi. Gālib b. Sa‘saa’nın sağlığında ona gelen fakir kimselerin ölümünden sonra oğlu Ferezdak’ı ziyaret ederek ihtiyaçlarını bildirdikleri ve babasının mürüvvetini anlatıp kendisinden yardım istedikleri anlaşılmaktadır. Rivayete göre, Ziyâd b. Ebîh’in Basra valiliği sırasında bir gün sattığı develerin parasını keselere yerleştiren Ferezdak’a bir adamın, “Baban Gālib sağ olsaydı böyle yapmazdı” demesi üzerine Ferezdak paraların hepsini etrafındaki insanlara dağıtmıştır. Gālib’in kabri yardım dileyenlerin ziyaretgâhı olmuştur. Bundan dolayı Ferezdak şiirlerinde babasından sık sık “sâhibü’l-cedes” ve “zü’l-kabr” (mezarı ziyaretgâh olan kimse) diye bahseder. Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 332 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:galib-b-sasaa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=galib-b-sasaa, https://islamansiklopedisi.org.tr/galib-b-sasaa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:8060",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8060, heading_ar=غالب بن صعصعة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:05Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:05Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=galib-b-sasaa (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8060]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8060 (heading_ar=غالب بن صعصعة) via Track A (DİA→Alam xref bridge). dt=Cömerdin gözü, Temîm'in ileri gelenlerinden"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Temîmî"
+  ],
+  "death_temporal": {
+    "start_ah": 41,
+    "start_ce": 661,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=galib-b-sasaa, URL: https://islamansiklopedisi.org.tr/galib-b-sasaa || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8060] || DİA death place: Kâzıme || DİA death-date string: (ö. 41/661’den sonra) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=8060, heading_ar=غالب بن صعصعة, dt=Cömerdin gözü, Temîm'in ileri gelenlerinden",
+  "death_place": "iac:place-00011471"
+}

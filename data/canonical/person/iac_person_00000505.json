@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000505",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. EBÛ REBÎA",
+      "ar": "عبد الله بن أبي ربيعة"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن أبي ربيعة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdirrahmân Abdullāh b. Ebî Rebî‘a b. el-Mugīre el-Mahzûmî"
+      ]
+    },
+    "description": {
+      "tr": "Meşhur Arap şairi Ömer b. Ebû Rebîa’nın babası olan Abdullah, Câhiliye döneminde baharat ticaretiyle büyük servet kazanmış Kureyşli bir tâcirdir. Bu dönemde elçi olarak gönderilen heyetler arasında yer almıştır. Müslüman muhacirleri geri istemek üzere Kureyş tarafından Habeşistan’a gönderilen heyet içinde, ayrıca Bedir Savaşı’nda esir düşen Mahzûm kabilesi mensuplarının fidyelerini ödemek için Medine’ye giden heyette bulundu. Uhud Savaşı’nda yüz müşrik okçusuna kumanda etti. Mekke fethinde Hz. Ali’nin kız kardeşi Ümmü Hânî’nin himayesini temin ederek canını kurtardı. Abdullah, Mekke’nin fethedildiği gün müslüman oldu. Hz. Peygamber Huneyn Savaşı’na giderken ondan 30.000 (veya 40.000) dirhem borç aldı. Huneyn dönüşü borcunu ödeyerek kendisine ve ailesine dua etti. Bahîr (veya Büceyr) olan asıl adını Abdullah’a çevirdi. Daha sonra onu Yemen’in Cened vilâyetine vali tayin etti. Hz. Ömer San‘a’yı da onun nüfuz bölgesine kattı. Halife Osman’a karşı gerçekleştirilen muhasarayı kaldırmak maksadıyla yola çıktıysa da Mekke yakınlarında bindiği deveden düşerek öldü. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 96-97 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-ebu-rebia",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-ebu-rebia, https://islamansiklopedisi.org.tr/abdullah-b-ebu-rebia",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-b-ebu-rebia",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-b-ebu-rebia",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-ebu-rebia (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.96): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mahzûmî"
+  ],
+  "death_temporal": {
+    "start_ah": 35,
+    "start_ce": 656,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-ebu-rebia, URL: https://islamansiklopedisi.org.tr/abdullah-b-ebu-rebia || DİA death-date string: (ö. 35/656) || Chunk count: 1"
+}

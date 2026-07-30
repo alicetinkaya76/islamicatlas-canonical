@@ -1,0 +1,53 @@
+{
+  "@id": "iac:person-00002910",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "GRIFFINI, Eugenio"
+    },
+    "description": {
+      "tr": "Milano’da doğdu. Esas tahsilini hukuk alanında yaptı. Gazeteci olarak ülke içinde ve dışında çıktığı gezilerde Arapça’ya merak sardı ve bu dili Napoli’deki Istituto Orientale’de öğrendi; arkasından Yemen, Tunus, Trablusgarp ve Mısır’a gitti. Yemen’de bulunduğu sırada Caprotti adlı bir tüccarın topladığı yazmaları satın alarak üzerlerinde çalıştıktan sonra bir kısmını doğduğu şehrin Ambrosiana diye tanınan tarihî kütüphanesine, bir kısmını da Vatikan Kütüphanesi’ne bağışladı. Milano’daki çalışmaları sırasında ünlü Türkolog Ettore Rossi ile geliştirdiği dostluk Doğu ile ilmî bağlantı kurmasına yardımcı oldu. Dolaştığı yerlerde mahallî gelenekleri inceleyerek haklarında yazılar yayımladı ve birçoğunu benimseyip uyguladığı için “bey” lakabıyla tanındı. Milano’daki Istituto di Scienze e Lettere ile Floransa’da kısa bir süre faaliyet gösteren Istituto di Studi Superiori’de Arapça dersleri verdi. Rivista degli Studi Orientali (Roma) adlı şarkiyat dergisinin III. cildinden VIII. cildine (1910-1920) kadar yer alan makalelerinde, 1907 yılında Ambrosiana’ya bağışladığı 475 yazma eseri ilim âlemine tanıttı; 1200 tanesini de Zeitschrift der Deutschen Morgenländischen Gesellschaft ’ta tanıtmayı planladı, fakat bunun ancak 180’ini gerçekleştirebildi. Ayrıca yazmalar arasındaki Sicilya tarihiyle ilgili olanları katalogladı ve adanın İslâmî dönemi hakkında Michele Amari’nin başlattığı çalışmalara uzun bir zeyil ekledi (“Nuovi testi arabo-siculi”, Centenario di Michele Amari , Palermo 1910, I, 364-448). Asıl alanı hukuk olduğu için topladığı yazmalar arasındaki İslâm hukuku eserlerine özel bir ilgi gösterdi. Zeyd b. Ali’nin Mecmûʿu’l-fıḳh ’ını yayımladı ( Corpus iuris di Zaid Ibn ʿAlī , Milano 1919). Zeydîler için değerli bir kaynak olan bu eser Avrupa’daki İslâm hukuku araştırmalarında önemli bir yere sahiptir. Griffini ayrıca Ahtal’ın Dîvân ’ını (Beyrut 1907) ve bazı Arap şairlerine ait kasideleri de neşretmiştir. Griffini 1920’de Kahire’deki Dârü’l-kütübi’l-Mısriyye’de görevlendirildi ve 1925’te ölünceye kadar bu şehirde kaldı. Aşırı milliyetçi düşüncelere sahip olduğundan Libya’da konuşulan Arapça üzerine yazdığı dil bilgisi kitabındaki ( et-Tuḥfetü’l-lûbiyye fi’l-luġati’l-ʿâmmiyeti’ṭ-Ṭarâblusiyye [Milano 1913]) ön yargıları dolayısıyla Carlo Alfonso Nallino tarafından sert bir dille eleştirilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 162 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:griffini-eugenio",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=griffini-eugenio, https://islamansiklopedisi.org.tr/griffini-eugenio",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:06Z",
+    "modified": "2026-05-04T15:34:06Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=griffini-eugenio (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1878,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=griffini-eugenio, URL: https://islamansiklopedisi.org.tr/griffini-eugenio || DİA birth place: Milano || DİA death-date string: (1878-1925) || Chunk count: 1"
+}

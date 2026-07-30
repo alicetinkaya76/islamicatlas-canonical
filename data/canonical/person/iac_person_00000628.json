@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00000628",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdurrahman Abdi Paşa"
+    },
+    "description": {
+      "tr": "Yeniçeri Ocağı’nda yetişti ve 1668’de yeniçeri ağası oldu. Köprülüzâde Fâzıl Ahmed Paşa’nın yanında Lehistan ve Girit seferlerine katıldı; özellikle Kandiye’nin fethinde önemli hizmetlerde bulundu. 1674’te Bağdat, iki yıl sonra Mısır, 1681’de de Bosna valisi oldu. Daha sonra sırasıyla Kamaniçe muhafızlığı, Budin valiliği ve Macaristan serdarlığına getirildi. Bir ara Halep valiliği de yapan Abdi Paşa, 1685’te ikinci defa Budin beylerbeyiliğine tayin edildi. Ertesi yıl 90.000 kişilik Haçlı kuvvetlerinin Budin’i kuşatması üzerine, emrindeki 16.000 kadar Türk askeriyle şehri iki buçuk ay savundu. Düşman ordusunun tepeleri tutması yüzünden dışarıdan yeterli yardım alınamadı ve Budin düşman eline geçti. Seksen yaşlarında bulunan Abdi Paşa da bizzat katıldığı bu çarpışmalar sırasında şehid düştü. Onun şehid olduğu yere daha sonra Macarlar tarafından Türkçe ve Macarca bir kitâbe konulmuştur. Bu yenilgiyle, yüz elli yıldan beri Türk şehri olan Budin kesin olarak Osmanlı hâkimiyetinden çıkmış, ardından Macaristan’ın öteki bölgeleri de birer birer kaybedilmiştir. Bağdat valiliği sırasında Ma‘rûf-i Kerhî’nin türbesini tamir ettiren Abdi Paşa, kaynaklarda cömert, cesur ve rindmeşrep bir kimse olarak vasıflandırılır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 156 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-abdi-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-abdi-pasa, https://islamansiklopedisi.org.tr/abdurrahman-abdi-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdurrahman-abdi-pasa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdurrahman-abdi-pasa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-abdi-pasa (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1098,
+    "start_ce": 1686,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-abdi-pasa, URL: https://islamansiklopedisi.org.tr/abdurrahman-abdi-pasa || DİA death-date string: (ö. 1098/1686) || Chunk count: 1"
+}

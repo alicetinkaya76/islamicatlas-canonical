@@ -1,0 +1,139 @@
+{
+  "@id": "iac:person-00000192",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Al-Kindi",
+      "tr": "Kindî",
+      "ar": "الكندي"
+    },
+    "originalScript": {
+      "ar": "الكندي"
+    },
+    "altLabel": {
+      "en": [
+        "Abu Yusuf Yaqub ibn Ishaq al-Kindi"
+      ],
+      "tr": [
+        "Ebû Yûsuf Ya'kūb b. İshâk el-Kindî",
+        "el-Kindî"
+      ],
+      "ar": [
+        "أبو يوسف يعقوب بن إسحاق الكندي"
+      ]
+    },
+    "description": {
+      "tr": "'Arap Filozofu' — Yunan felsefesini Arapçada ilk sistematize eden, ve şifre kırmak için frekans analizini icat eden (modern kriptografinin temeli) || Kindî, Arapça'da sistematik olarak yazan ilk filozof olarak merkezi bir konuma sahiptir. Yeni-Platoncu sudûr teorisini İslam monoteizmine uyarladı ve Fârâbî, İbn Sînâ ve İbn Rüşd'ün rafine edeceği felsefi terminolojiyi kurdu. || [Tarih notu] Adamson'ın Al-Kindi (2007) eseri, onu küçük bir geçiş figüründen büyük bir özgün düşünüre yeniden konumlandırdı.",
+      "en": "The 'Philosopher of the Arabs' — first to systematize Greek philosophy in Arabic, and inventor of frequency analysis for breaking ciphers (the foundation of modern cryptography) || Kindi occupies a pivotal position as the first philosopher to write systematically in Arabic. He adapted Neoplatonic emanation theory to Islamic monotheism and established the philosophical vocabulary that Farabi, Ibn Sina, and Ibn Rushd would refine. His cryptanalysis treatise is the earliest known work to use letter-frequency analysis. || [Historiographical note] Adamson's Al-Kindi (2007) repositioned him from a minor transitional figure to a major original thinker. The cryptanalysis work, published by Mrayati et al. (2002), demonstrated Kindi's mathematical sophistication was previously underestimated.",
+      "ar": "فيلسوف العرب — أول من نظّم الفلسفة اليونانية بالعربية، ومخترع تحليل التكرار لكسر الشفرات || الكندي أول فيلسوف كتب منهجيًا بالعربية. كيّف نظرية الفيض الأفلاطونية المحدثة مع التوحيد الإسلامي ووضع المصطلحات الفلسفية التي طوّرها الفارابي وابن سينا وابن رشد"
+    }
+  },
+  "profession": [
+    "philosopher",
+    "mathematician",
+    "physician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0009",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0009, lecture_id=bayt-al-hikma",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:19",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=19",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E0005",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0009 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T20:17:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholar_links teacher edge (H10 S13): students += iac:person-00000224."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-1 conf 1.0): ['altLabel.tr', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 801,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 873,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q179759",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Kindi')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0009, lecture_week=5. || Key works: {'title': {'en': 'On First Philosophy', 'tr': 'İlk Felsefe Üzerine', 'ar': 'في الفلسفة الأولى'}, 'year': 850, 'field': 'philosophy', 'significance': {'en': 'First systematic attempt to harmonize Greek philosophy with Islamic revelation', 'tr': 'Yunan felsefesini İslami vahiyle uyumlu hale getirmeye yönelik ilk sistematik girişim'}}; {'title': {'en': 'Risāla fī Istikhraj al-Muʿammā', 'tr': 'Şifre Çözme Risalesi', 'ar': 'رسالة في استخراج المعمّى'}, 'year': 850, 'field': 'mathematics', 'significanc || Modern parallel: The first person to successfully run both philosophy and the NSA — translating Aristotle by day and cracking enemy codes by night.",
+  "authored_works": [
+    "iac:work-00000018",
+    "iac:work-00000019"
+  ],
+  "kunya": "Ebû Yûsuf",
+  "nisba": [
+    "Kindî"
+  ],
+  "laqab": [
+    "Feylesûfü'l-Arab (Arap Filozofu)"
+  ],
+  "students": [
+    "iac:person-00000224"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

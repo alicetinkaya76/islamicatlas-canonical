@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00000682",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDÜSSETTÂR EFENDİ, Kırımlı"
+    },
+    "description": {
+      "tr": "Doğum tarihi ve tahsil hayatı hakkında bilgi yoktur. İstanbul Hukuk Mektebi’nde uzun yıllar fıkıh dersleri okuttu. Temyiz mahkemesi üyesi iken Mekke-i Mükerreme mollası unvanını aldı (1887). Aynı yıl hac için Mekke’ye gitti, kısa bir müddet sonra da Tâif’te vefat etti (5 Eylül 1887) ve oraya defnedildi. Abdüssettâr Efendi’nin Mecelle ’nin on dört, on beş ve on altıncı kitaplarında, “i‘lâmat mümeyyizi muavini” unvanı ile mührü vardır. Mecelle Cemiyeti reisi Ahmed Cevdet Paşa’nın en çok takdir ettiği âlimlerden biridir. Hatta Cevdet Paşa, Suriye valisi iken tanıdığı ve fikirlerine, İslâmî ilimlerdeki dirayetine çok saygı duyduğu Şam müftüsü Mahmûd Hamza Efendi’den açıklamasını istediği bazı fıkhî meselelerin müzakeresine Abdüssettâr Efendi’yi de dahil ederek ikisi arasında mektuplaşmak suretiyle cereyan eden ilmî tartışmaları bir mecmuada toplamıştır (bk. Cevdet Paşa’nın Evrâkı , İstanbul Belediyesi Atatürk Kitaplığı, nr. 32). Mahmûd Hamza Efendi de Abdüssettâr Efendi’nin Tenbîhü’r-ruḳūd ʿalâ enne’l-imżâʾe mine’l-ḳażâʾ fi’l-ḳıṣâṣ ve’l-ḥudûd (bk. Cevdet Paşa’nın Evrâkı ) adlı risâlesine Tenbîhü’l-ḫavâṣ ʿalâ enne’l-imżâʾe fi’l-ḥudûd lâ fi’l-ḳıṣâṣ adıyla bir reddiye yazmış ve bu risâle 1303 yılında Şam’da neşredilmiştir. Abdüssettâr Efendi’nin basılmış eserleri şunlardır: Teşrîhu Kavâidi’l-külliyye fi’l-ahkâmi’l-fer‘iyyeti’l-ameliyye . Abdüssettâr Efendi’nin yarım kalan Mecelle şerhidir. Kitabın birinci cüzü bu adla (İstanbul 1295, 1297, 1301), ikinci cüzü Mecelle Şerhi: Teşrîh adıyla (İstanbul 1296-1299) yayımlanmıştır. İkinci cüz üç kitaptan oluşmaktadır: Birinci kitap “Büyû‘” (İstanbul 1296), ikinci kitap “İcâre” (İstanbul 1297, 1298), üçüncü kitap “Kefâle” (İstanbul 1299) adını taşımaktadır. Ayrıca Medhal-i Fıkh (İstanbul 1299) adlı bir eseri daha vardır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 304 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdussettar-efendi-kirimli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdussettar-efendi-kirimli, https://islamansiklopedisi.org.tr/abdussettar-efendi-kirimli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdussettar-efendi-kirimli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdussettar-efendi-kirimli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:44Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdussettar-efendi-kirimli (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1887,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdussettar-efendi-kirimli, URL: https://islamansiklopedisi.org.tr/abdussettar-efendi-kirimli || DİA death place: Tâif || DİA death-date string: (ö. 1887) || DİA categories: fıkıh || Chunk count: 1"
+}

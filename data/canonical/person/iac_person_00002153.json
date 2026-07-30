@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00002153",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ CA‘FER en-NÜFEYLÎ",
+      "ar": "أبو جعفر النفيلي"
+    },
+    "originalScript": {
+      "ar": "أبو جعفر النفيلي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ca‘fer Abdullāh b. Muhammed b. Alî en-Nüfeylî"
+      ]
+    },
+    "description": {
+      "tr": "Kudâî ve Harrânî nisbeleriyle de anılır; hayatı hakkında fazla bilgi yoktur. Züheyr b. Muâviye , Mâlik b. Enes , Abdullah b. Mübârek , Hüşeym b. Beşîr ve Süfyân b. Uyeyne gibi âlimlerden hadis rivayet etti. Kendisinden de Yahyâ b. Maîn , Ahmed b. Hanbel , Ebû Dâvûd es-Sicistânî , Ebû Zür‘a er-Râzî , Ebû Hâtim er-Râzî, Zühlî ve daha başka muhaddisler rivayette bulundular. Rivayetleri Ṣaḥîḥ-i Müslim dışında Kütüb-i Sitte ’de yer alan Ebû Ca‘fer en-Nüfeylî’nin değerli bir muhaddis olduğunu birçok hadis otoritesi kabul etmiştir. Ahmed b. Hanbel, onun hâfıza gücünü anlatmak için kendisini elinde kitapla rivayet ederken hiç görmediğini söylemiş, Nüfeylî’den pek çok hadis rivayet etmekle bilinen Ebû Dâvûd ise hâfızası ondan daha güçlü birine rastlamadığını belirtmiştir. Hadis hâfızı unvanını kolay kolay kimseye vermeyen Şâzekûnî’nin bu unvanı sadece ona lâyık gördüğü bilinmektedir. Tanınmış muhaddis İbn Vâre , Nüfeylî’yi dinin direkleri olarak gösterdiği devrinin dört âlimi arasında saymış, Ebû Hâtim er-Râzî ve Dârekutnî de onun sika ve rivayetleri delil olarak kullanılan bir kimse olduğunu ifade etmişlerdir. Ebû Ca‘fer en-Nüfeylî, doksan yaşının üzerinde iken Rebîülâhir 234’te (Kasım 848) vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 117 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-cafer-en-nufeyli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-cafer-en-nufeyli, https://islamansiklopedisi.org.tr/ebu-cafer-en-nufeyli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-cafer-en-nufeyli",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-cafer-en-nufeyli",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:54Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-cafer-en-nufeyli (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Nüfeylî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 234,
+    "start_ce": 848,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-cafer-en-nufeyli, URL: https://islamansiklopedisi.org.tr/ebu-cafer-en-nufeyli || DİA death place: 234 || DİA death-date string: (ö. 234/848) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00002157",
+    "iac:person-00002788",
+    "iac:person-00007896"
+  ]
+}

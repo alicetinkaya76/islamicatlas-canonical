@@ -1,0 +1,88 @@
+{
+  "@id": "iac:person-00011653",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Bū Saʿīdī",
+      "tr": "Bûsaîdî",
+      "ar": "البوسعيدي"
+    },
+    "originalScript": {
+      "ar": "البوسعيدي"
+    },
+    "description": {
+      "tr": "Maskat'ta doğdu ve Hindistan'ın Bombay şehrindeki İngiliz okulunda eğitim gördü. Arapçayı öğrenmek i",
+      "en": "Born in Muscat and educated at an English school in the city of Bombay (India). He spent a year in B"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Saʿīd b. Taymūr al-Bū Saʿīdī"
+    },
+    "altLabel": {
+      "tr": [
+        "Saîd b. Teymûr el-Bûsaîdî"
+      ],
+      "ar": [
+        "سعيد بن تيمور البوسعيدي ، سلطان مسقط وعمان"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:3976",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=3976",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:02Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=3976 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:3976."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1392,
+    "start_ce": 1972,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=3976, heading_ar=البوسعيدي || Ziriklī century_ce=20 || Ziriklī place coords (city/region of activity): 23.59, 58.38",
+  "active_in_places": [
+    "iac:place-00011245"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "@id": "iac:person-00005312",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEHMED BEY, Kanûnî"
+    },
+    "description": {
+      "tr": "İstanbul’un Beykoz semtinde doğdu; bu münasebetle Beykozlu Mehmed Bey diye de tanınır; asıl adı Mehmed Sâlih’tir. İlk ve orta öğreniminin ardından alındığı Enderun’da mûsikiye olan kabiliyetiyle dikkati çekerek bu sahaya yönlendirildi ve mûsikiye dair temel bilgileri edinmesinden sonra Muzıka-yi Hümâyun’a ayrıldı. Burada kanun hocalığı ve icracılığı ile kolağası rütbesine kadar yükseldi ve bir süre Enderun İncesaz Heyeti şefliğinde bulundu. II. Meşrutiyet’in ilânından (1908) sonra emekli oldu. Emekliliğinin ardından geçim sıkıntısına düştüğü için Erenköy’deki evini satarak ticaret hayatına atıldı ve Adana’ya yerleşti; fakat neticede iflâs ederek tekrar İstanbul’a döndü. Hayatının bundan sonraki kısmını tasavvuf ve mûsikiyle ilgilenerek geçirdi. 21 Mart 1927 tarihinde Edirnekapı’da bir öğrencisinin evinde vefat etti ve Edirnekapı Mezarlığı’nda Çerkez Hasan’ın arka tarafında defnedildi. Mehmed Bey, gerek dinî ve din dışı sahalarda yaptığı besteleriyle gerekse virtüozluk seviyesindeki kanun icracılığıyla devrinin önde gelen sanatkârları arasına girmiştir. Mûsikideki ilk bilgilerini Enderun’da Suyolcu Latif Ağa ile Hacı Ârif Bey’den, kanun derslerini de yine burada Kanûnî Edhem Bey’den alan Mehmed Bey aynı zamanda iyi bir ud icracısı ve dinlediği eserleri anında notaya alacak derecede iyi bir notist idi; İstanbul’un en seçkin mûsikişinaslarının toplandığı bir sanat mahfili durumunda olan Erenköy’deki evinde mûsiki meclisleri tertip eder, isteyenlere ud ve kanun dersleri verirdi. Yetiştirdiği talebeleri arasında Ahmed Mükerrem Akıncı ve oğlu Yektâ Akıncı özellikle zikredilmelidir. Arapça ve Farsça’yı çok iyi bilmesiyle de tanınan Mehmed Bey na‘t, mersiye, ilâhi, saz eseri, peşrev ve şarkı gibi çeşitli formlarda pek çok eser bestelemiş, ancak aralarından sadece yirmi ikisi günümüze ulaşabilmiştir. Bunlar on yedi peşrev ve saz semâisi ile dört şarkı ve bir sirtodan ibarettir (listesi için bk. Öztuna, II, 37). Dinî bestelerinin güftelerini daha çok Yûnus Emre, Niyâzî-i Mısrî, Hacı Maksud Efendi ve Âşık Vasfî’den seçtiği bilinmektedir. Mütevazi ve nazik kişiliğiyle tanınan Mehmed Efendi’nin tasavvufî yönü de vardı. Rifâî şeyhi Ahmed Sâfî Efendi’den aldığı melâmet neşvesiyle son dönem Melâmîler’inden Seyyid Muhammed Nûrü’l-Arabî’nin oğlu Şerif Efendi’ye devam etmiş ve ondan icâzet alarak bu sahada pek çok kişi yetiştirmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 444-445 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-bey-kanuni",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-bey-kanuni, https://islamansiklopedisi.org.tr/mehmed-bey-kanuni",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:38Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-bey-kanuni (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1859,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=mehmed-bey-kanuni, URL: https://islamansiklopedisi.org.tr/mehmed-bey-kanuni || DİA death place: Edirnekapı || DİA death-date string: (1859-1927) || DİA categories: tasavvuf || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002977"
+  ]
+}

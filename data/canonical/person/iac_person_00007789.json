@@ -1,0 +1,70 @@
+{
+  "@id": "iac:person-00007789",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ZARÎFÎ, Rusçuklu"
+    },
+    "description": {
+      "tr": "Rusçuk’ta doğdu. Kaynaklarda Zarîfî Şeyh Ömer, Ömer Zarîfî, Zarîfî Baba, Ömer Baba, Ahmed Zarîfî Baba, Ahmed Baba gibi isim ve unvanlarla anılır. Sa‘diyye tarikatına intisap ederek zamanla bu tarikatın tanınmış şeyhlerinden biri oldu. Rusçuk’ta vefat etti ve Tombul Camii hazîresine defnedildi. Kaynaklarda, hat sanatında da mahir olan Zarîfî’nin birkaç mushaf yazdığı belirtilmektedir. Eserleri. 1. Divan . Günümüze tam olarak ulaşan tek nüshası İstanbul Üniversitesi Kütüphanesi’nde kayıtlı olup (TY, nr. 3863/1) 199 varaktır. Divanda üç tevhid, iki münâcât, üç na‘t, bir mi‘râciyye, birer nebî, çâryâr ve on iki imam methiyesi, iki Kerbelâ mersiyesi, Seyyid Sa‘deddin el-Cebâvî methiyesi, on üç mutasavvıfane kaside, 530 gazel ve ilâhi yer almaktadır. İlâhilerin bir kısmı dörtlükler halinde yazılmış, bazılarında aruz, bazılarında hece vezni kullanılmıştır. Manzumelerin büyük çoğunluğu tasavvufî mahiyettedir. Bunların arasında Yûnus Emre, Şeyh Sa‘deddin el-Cebâvî, Muhyiddin İbnü’l-Arabî, Mevlânâ Celâleddîn-i Rûmî, Şeyh Nakşibend, Timur Baba gibi mutasavvıfların methinde şiirler de vardır. Antalya Elmalı İlçe Halk Kütüphanesi’nde kayıtlı (nr. 2971/1) 22 varaklık bir diğer nüshada bazı gazeller bulunmaktadır. 2. Pendnâme ( Nasîhatnâme ). Zarîfî’ye asıl şöhretini kazandıran ve kırka yakın nüshası bilinen eserin muhtelif baskıları yapılmıştır (İstanbul 1271, 1289 [taşbasma], 1317, 1327). Kaynaklarda 1300 beyit civarında olduğu belirtilen Pendnâme ’nin Mehmet Arslan tarafından hazırlanan yeni yayımı (Sivas 1994) 1071 beyit içerir. Ferîdüddin Attâr’a nisbet edilen Pendnâme örnek alınarak meydana getirilen eser “fâilâtün fâilâtün fâilün” vezniyle yazılmıştır. Müellif, incelik ve hoşgörü çerçevesinde dinî, ahlâkî öğütlerini, insan ilişkilerini ve kişinin Allah’a karşı sorumluluğunu ön plana çıkararak 135 başlık altında anlatmaktadır. Eserde komşu haklarına, emanete hıyanet etmeye, yetimi kollamaya, konuşma âdâbına, âşık ve mâşuk haline, sır tutmaya, hediye âdâbına, sofra âdâbına, az yemenin ve uyumanın faziletine, yol arkadaşını seçmeye, sır saklamaya, feleğin vefasızlığına, misafir hukuku vb.ne dair öğütler verilmektedir. 3. Tasavvufnâme . Aruzun “mefâîlün mefâîlün feûlün” kalıbıyla yazılmış 103 beyitlik bu risâle, yazma ve matbu birçok pendnâme nüshasının sonunda yer aldığı gibi müstakil yazmalar halinde de mevcuttur. Tasavvufî öğütlerin yanı sıra yirmi üç beyitte tasavvufun ve tasavvuf ehlinin tarifleri yapılmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 2013 yılında İstanbul’da basılan 44. cildinde, 135 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:zarifi-ruscuklu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=zarifi-ruscuklu, https://islamansiklopedisi.org.tr/zarifi-ruscuklu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:zarifi-ruscuklu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=zarifi-ruscuklu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:08Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:08Z",
+    "modified": "2026-05-17T07:06:22Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:08Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=zarifi-ruscuklu (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=zarifi-ruscuklu)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1210,
+    "start_ce": 1795,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=zarifi-ruscuklu, URL: https://islamansiklopedisi.org.tr/zarifi-ruscuklu || DİA birth place: Rusçuk || DİA death place: Rusçuk || DİA death-date string: (ö. 1210/1795) || DİA categories: tasavvuf > tarikat > şiir || Chunk count: 1"
+}

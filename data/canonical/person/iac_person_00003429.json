@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00003429",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hisâfî",
+      "ar": "الحصافي"
+    },
+    "originalScript": {
+      "ar": "الحصافي"
+    },
+    "altLabel": {
+      "tr": [
+        "Haseneyn b. Hüseyn b. Haseneyn el-Hisâfî"
+      ]
+    },
+    "description": {
+      "tr": "Mısır’ın Kalyûbiye vilâyetine bağlı Hisâfe köyünde doğdu. İlk tahsilini köyünde tamamlayıp Kur’an’ı ezberledikten sonra Kahire’ye gitti ve Ezher’de öğrenim gördü. 1872 yılında hac için gittiği Mekke’de Şâzeliyye şeyhi Muhammed b. Muhammed el-Fâsî’ye intisap etti. Seyrüsülûkünü tamamlayıp icâzet aldı. Mısır’a döndüğünde Şarkıye vilâyetine bağlı Zekāzîk şehri ve çevresinde irşad faaliyetlerine başladı. Ayrıca Ticâniyye ve Halvetiyye gibi diğer tarikatlardan da icâzet alan Hisâfî kısa zamanda bölgede çok sayıda mürid edindi. Ancak bu faaliyetleri mahallî idareciler tarafından engellenmeye çalışıldı. 1884 yılı başlarında nakîbü’l-eşraf Abdülbâkī el-Bekrî, Hisâfî’ye mensup dervişlerin mevlid törenlerine katılmalarını ve camilerde zikir yapmalarını yasakladı. Bölge valisi de bu yönde bir karar aldı. Hisâfî ve halifelerinin müridlerin yoğun olarak yaşadığı köylere girmelerinin yasaklanması istendi. Şarkıye valisinin kısa bir müddet sonra Hisâfî ve mensuplarına uygulanan yasakları kaldırmasına rağmen Abdülbâkī el-Bekrî ve taraftarları Hisâfî’ye karşı çıkmaya devam ettiler. Bunun üzerine Hisâfî durumu Mısır Hidivi Tevfik Paşa’ya bildirdi. Hidivin meseleyi havale ettiği Mısır müftüsü ve Ezher şeyhi Muhammed Mehdî el-Abbâsî tarafların anlaşmasını sağladı; Hisâfî ve mensupları üzerinde herhangi bir otoritenin baskı kurmasını önleyen bir bildiri yayımlandı. Bundan sonra Hisâfî irşad faaliyetlerini bir tarikat kurucusu hüviyetiyle sürdürdü. 1910 yılında ölümü üzerine tarikat oğlu ve halifesi Muhammed Abdülvehhâb (ö. 1949) tarafından devam ettirildi. Demenhûr’da defnedilen Hisâfî’nin türbesi bugün bir ziyaret yeridir. es-Sebîlü’l-vâḍıḥ (Kahire 1951), el-Beşâʾir ve’l-ebṣâr ve Şerḥu’l-aḥzâbi’ş-Şâẕelî adlı üç eseri bulunan Hisâfî kelâm ilmiyle de meşgul olmuştur (Zekî M. Mücâhid, II, 558). Müridlerinden Ali el-Ca‘ferâvî, onun hayatı, menkıbeleri ve tasavvufî görüşleri hakkında el-Menhelü’ṣ-ṣâfî fî menâḳıbi’s-Seyyid Ḥaseneyn el-Ḥiṣâfî adlı bir eser yazmıştır (Kahire 1330). Hisâfî’nin Mahmûdiye şehrindeki halifesi Ahmed Sükkerî’nin İslâm ahlâkını yaymak ve şehirdeki hıristiyan misyonerlerin faaliyetlerine engel olmak amacıyla kurduğu el-Cem‘iyyetü’l-Hisâfiyyetü’l-hayriyye daha sonra İhvân-ı Müslimîn teşkilâtının nüvesini teşkil etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 125 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hisafi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hisafi, https://islamansiklopedisi.org.tr/hisafi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:15Z",
+    "modified": "2026-07-14T13:16:09Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hisafi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hisâfî"
+  ],
+  "death_temporal": {
+    "start_ce": 1848,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=hisafi, URL: https://islamansiklopedisi.org.tr/hisafi || DİA birth place: Hisâfe || DİA death-date string: (1848-1910) || DİA categories: tarikat > kelâm > tasavvuf || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00000547"
+  ]
+}

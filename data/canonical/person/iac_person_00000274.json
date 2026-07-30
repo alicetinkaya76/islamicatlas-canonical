@@ -1,0 +1,109 @@
+{
+  "@id": "iac:person-00000274",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibrahim Hakki Erzurumi",
+      "tr": "İbrâhîm Hakkı Erzurumî",
+      "ar": "إبراهيم حقي الأرضرومي"
+    },
+    "originalScript": {
+      "ar": "إبراهيم حقي الأرضرومي"
+    },
+    "altLabel": {
+      "en": [
+        "Ibrahim Hakki ibn Osman Erzurumi"
+      ],
+      "tr": [
+        "İbrâhîm Hakkı b. Osmân Erzurumî",
+        "Erzurumlu İbrahim Hakkı"
+      ],
+      "ar": [
+        "إبراهيم حقي بن عثمان الأرضرومي"
+      ]
+    },
+    "description": {
+      "tr": "Mârifetnâme'si rasyonel bilimler ile tasavvufu sentezleyen benzersiz bir Osmanlı ansiklopedisidir || Osmanlı çevresinde yazarak hem Avrupa bilimsel gelişmelerine hem Doğu tasavvuf geleneğine erişti. || [Tarih notu] Mârifetnâme, Avrupa kaynaklarından alınmış anatomi çizimlerini içerir.",
+      "en": "His Marifetname is a unique Ottoman synthesis of rational sciences and Sufi mysticism — an encyclopaedia attempting to unify empirical observation with spiritual cosmology || Writing in the Ottoman periphery, he accessed both European scientific developments and the Eastern Sufi tradition, producing a synthesis impossible in either centre alone. || [Historiographical note] Marifetname includes anatomical diagrams likely derived from European sources, showing the late Ottoman openness to Western science within a Sufi framework.",
+      "ar": "معرفتنامته تركيب عثماني فريد بين العلوم العقلية والتصوف || كتب في الأطراف العثمانية فجمع بين التطورات العلمية الأوروبية والتقليد الصوفي الشرقي"
+    }
+  },
+  "profession": [
+    "scholar",
+    "astronomer",
+    "philosopher",
+    "physician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0091",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0091",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "alatli:E0585",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:57:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:57:11Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:57:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0091 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-1 conf 1.0): ['altLabel.tr', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1703,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1780,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q2729985",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ibrahim Hakki Erzurumi')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0091, lecture_week=n/a. || Key works: {'title': {'en': 'Maʿrifatnāma', 'tr': 'Mârifetnâme', 'ar': 'معرفتنامه'}, 'year': 1756, 'field': 'natural_sciences', 'significance': {'en': 'Ottoman encyclopaedia synthesizing astronomy, anatomy, mathematics, music theory, ethics, and Sufi cosmology', 'tr': 'Astronomi, anatomi, matematik, müzik teorisi, ahlak ve tasavvuf kozmolojisini sentezleyen Osmanlı ansiklopedisi'}} || Modern parallel: Like a Renaissance polymath who writes a universal encyclopaedia from a provincial town, connecting global knowledge to local wisdom.",
+  "authored_works": [
+    "iac:work-00000129"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

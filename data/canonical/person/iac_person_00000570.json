@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00000570",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdullah Eyyûbî"
+    },
+    "description": {
+      "tr": "İstanbul’un Eyüp semtinde doğdu ve orada yetişti. Babası Mehmed Sâlih Efendi’dir. Sarf ve nahiv ilimlerini devrinin meşhur âlimlerinden, tefsir ve hadis ilimlerini de Şeyhülislâm Hamîdîzâde Mustafa Efendi’den tahsil ederek icâzet aldı. Bir ara Gelenbevî İsmâil Efendi’nin derslerine de devam etti ve ondan Kirmastî’nin usûl-i fıkha dair el-Vecîz adlı eserini okudu. İbrâhim Efendi ve Sâlih Efendi gibi kıraat âlimlerinden kırâat-i seb‘a ve aşereyi öğrendi. Eyüp Sultan Camii başimamlığı ve Sultan Ahmed Camii vâizliği yaptı. Nakşibendî şeyhlerinden Murad Buhârî Dergâhı Şeyhi Mehmed Efendi’ye intisap eden Abdullah İstanbul’da vefat etti ve Eyüp’te Ebû Eyyûb el-Ensârî’nin ayak tarafındaki pencere kenarına defnedildi. Eserleri. Kıraat ve tefsir çalışmalarının yanı sıra şerh ve tercüme faaliyetlerinde de bulunan Abdullah’ın, sayısı yirmi dokuza varan eserlerinin önemlileri şunlardır: 1. Tefsîru Sûreti’l-Fetḥ . 2. Şerḥu Mîzâni’l-ḳurrâʾi’l-ʿaşere . 3. Îḳāẓü’l-ḳurrâʾ . 4. Levâmiʿu’l-bedr . İmam Şâtıbî’nin Kur’an âyetlerinin sayısı hakkındaki Nâẓımetü’z-zehr adlı kasidesinin şerhidir (Süleymaniye Ktp., İbrâhim Efendi, nr. 27). 5. Hediyyetü’l-huccâc . Türkçe küçük bir hac rehberidir (Süleymaniye Ktp., Tırnovalı, nr. 1844/3; Kasidecizâde Süleyman Sırrı, nr. 254). 6. Muharrem Tekmilesi . Molla Câmî’ye ait el-Kâfiye şerhine Zileli Muharrem Efendi tarafından yazılan eksik bir hâşiyenin “bedel” bahsinden itibaren aynı tarzda tekmilesi olup 1259, 1266, 1274 ve 1283 tarihlerinde İstanbul’da basılmıştır. 7. Âdâbü’l-müsâfirîn . Ebû Eyyûb el-Ensârî’nin menkıbeleri ve türbesinin ziyareti sırasında riayet edilecek hususlar hakkındadır. 8. Tezkiretü’r-rumât . Okçuluğun fazileti hakkındaki kırk hadisin tercümesidir (TSMK, Hazine, nr. 1418). Eser, Mustafa Kânî Bey’in Telhîsu resâili’r-rumât (İstanbul 1263) adlı kitabının mukaddimesinde yer almaktadır. 9. Terceme-i Âdâb-ı Tarîk-ı Nakşibendî (TSMK, Emanet Hazinesi, nr. 1275). 10. Şerḥu’l-İẓhâr (Fevâʾiḥu’l-eẕkâr) . 1282 ve 1309 tarihlerinde İstanbul’da basılmıştır. 11. Ebû Eyyûb-i Ensârî’den Mervî Hadislerin Şerhi ve Tercümesi (Süleymaniye Ktp., Hasan Hüsnü Paşa, nr. 203). Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 102-103 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-eyyubi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-eyyubi, https://islamansiklopedisi.org.tr/abdullah-eyyubi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:abdullah-eyyubi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=abdullah-eyyubi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-eyyubi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:10:20Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=abdullah-eyyubi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1836,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdullah-eyyubi, URL: https://islamansiklopedisi.org.tr/abdullah-eyyubi || DİA death place: Eyüp || DİA death-date string: (ö. 1836) || DİA categories: hadis > tefsir > nahiv || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002868",
+    "iac:person-00005878"
+  ]
+}

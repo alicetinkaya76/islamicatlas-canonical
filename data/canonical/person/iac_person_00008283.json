@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00008283",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Kīrazī",
+      "tr": "Kerizî",
+      "ar": "الكريزي"
+    },
+    "originalScript": {
+      "ar": "الكريزي"
+    },
+    "description": {
+      "tr": "Kadı fakih, Bağdat halkından, 312/924 yılında Mısır kâzâsına atanmış ve bir sene birkaç gün orada ka",
+      "en": "Judge and jurist, from the people of Baghdad, appointed to the judgeship of Egypt in 312/924 and rem"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Ibrāhīm b. Muḥammad b. ʿAbdullāh al-Qurayshī al-ʿAbshamī al-Kīrazī, Abū Muḥammad"
+    },
+    "altLabel": {
+      "tr": [
+        "İbrâhîm b. Muhammed b. Abdullâh el-Kurayşî el-Abşemî el-Kerizî, Ebû Muhammed"
+      ],
+      "ar": [
+        "إبراهيم بن محمد بن عبد الله القرشي العبشمي الكريزي ، أبو محمد"
+      ]
+    }
+  },
+  "profession": [
+    "judge"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:206",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=206",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:31Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:31Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:31Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=206 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:206."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 317,
+    "start_ce": 929,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=206, heading_ar=الكريزي || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
+  "active_in_places": [
+    "iac:place-00002027",
+    "iac:place-00003866"
+  ],
+  "kunya": "أبو محمد"
+}

@@ -1,0 +1,101 @@
+{
+  "@id": "iac:person-00001672",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CA‘FER el-HULDÎ",
+      "ar": "جعفر الخلدي"
+    },
+    "originalScript": {
+      "ar": "جعفر الخلدي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Ca‘fer b. Muhammed b. Nusayr el-Huldî el-Havvâs"
+      ]
+    },
+    "description": {
+      "tr": "252 (866) yılında Bağdat’ın Huld mahallesinde doğdu. İlk tahsilinden sonra hadis ilmiyle meşgul oldu. Geçimini temin etmek için hasırcılık yaptı. Daha sonra tasavvufa ilgi duydu. Çağdaşları Cüneyd-i Bağdâdî, Amr b. Osman el-Mekkî ve İbrâhim el-Havvâs’tan faydalandı. Hayr en-Nessâc, Ebü’l-Hüseyin en-Nûrî, Ruveym b. Ahmed, Semnûn b. Hamza, Muhib, Ebû Muhammed el-Cerîrî, Ebü’l-Kāsım en-Nîsâbûrî ile sohbet etti. Ebü’l-Hüseyin el-Alevî ile Ebü’l-Abbas en-Nihâvendî en meşhur müridleridir. Huldî’nin tasavvuf tarihi açısından dikkati çeken yönü, sûfîlerle ilgili menkıbeleri ve bu menkıbeleri ihtiva eden eserleri toplamasıdır. Nefehât Tercümesi ’nde (s. 268) verilen bilgiye göre onun konuyla ilgili 200, Hâce Abdullah-ı Herevî’ye göre ise 130 eseri vardı ve 2000 sûfînin adını bilmekteydi ( Ṭabaḳāt , s. 496). Zehebî de Huldî’nin istinsah ettiği bazı risâlelere sahip olduğunu söyler ( Aʿlâmü’n-nübelâʾ , XV, 560). Fuat Sezgin Ca‘fer el-Huldî’nin Ḥikâyâtü’l-meşâyiḫ , el-Fevâʾid ve’z-zühd ve’r-reḳāʾiḳ , Risâle fi’t-taṣavvuf ve el-Miḥne adlı dört eserini kaydeder ( GAS , I, 661). Kaynaklarda, bazı eserlerini kibir ve benlik tuzağına düşmemek için başka kimselere nisbet ettiğine dair bilgiler de vardır (Ebû Nuaym, X, 381). Attâr’ın verdiği bilgiye göre Huldî rüyasında Hz. Peygamber’i görmüş ve ona, “Tasavvuf nedir?” diye sormuş, Hz. Peygamber bu soruya, “İddiaları terk ve gönüldeki mânaları gizli tutmaktır” şeklinde cevap vermiştir. Huldî’ye göre kişiyi yetiştiren himmettir, mücâhede değildir. Fütüvveti “nefsi hakir görmek ve müslümanlara saygı duymak” şeklinde tarif eden Ca‘fer el-Huldî tevekkülü de “kalbin varlık ve yoklukta aynı hal üzere kalmasıdır” şeklinde tarif etmiştir (Hücvîrî, s. 197; Herevî, s. 496). “Dünyada dikkate değer üç mutasavvıf vardır: İşaretleriyle Ebû Bekir eş-Şiblî, tasavvufî nükteleriyle Mürtaiş, menkıbeleriyle Ca‘fer el-Huldî” (Herevî, s. 496) sözü Huldî’nin dönemindeki şöhretine işaret etmektedir. Pek çok defa hacca giden Huldî doksan üç yaşında Bağdat’ta vefat etti. Şûnîziyye Mezarlığı’nda Cüneyd ile Serî es-Sakatî’nin yanına defnedildi. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 551 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cafer-el-huldi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cafer-el-huldi, https://islamansiklopedisi.org.tr/cafer-el-huldi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:cafer-el-huldi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/cafer-el-huldi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:46Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:46Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:46Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cafer-el-huldi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Huldî"
+  ],
+  "birth_temporal": {
+    "start_ah": 252,
+    "start_ce": 866,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 348,
+    "start_ce": 959,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cafer-el-huldi, URL: https://islamansiklopedisi.org.tr/cafer-el-huldi || DİA death place: Bağdat || DİA death-date string: (ö. 348/959) || DİA categories: tasavvuf > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002361",
+    "iac:person-00003759"
+  ],
+  "students": [
+    "iac:person-00002183",
+    "iac:person-00003775",
+    "iac:person-00004011"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "@id": "iac:person-00011507",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Shahīd al-Thānī",
+      "tr": "eş-Şehîd es-Sânî",
+      "ar": "الشهيد الثاني"
+    },
+    "originalScript": {
+      "ar": "الشهيد الثاني"
+    },
+    "description": {
+      "tr": "Hadis bilgini, araştırmacı, İmâmî",
+      "en": "Hadith scholar, researcher, Imāmī"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Zayn al-Dīn b. ʿAlī b. Ahmad al-ʿĀmilī al-Jibaʿī"
+    },
+    "altLabel": {
+      "tr": [
+        "Zeynüddîn b. Alî b. Ahmed el-ʿAmilî el-Cibaʿî"
+      ],
+      "ar": [
+        "زين الدين بن علي بن أحمد العاملي الجبعي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:3809",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=3809",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:01Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=3809 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:3809."
+      },
+      {
+        "change_type": "deprecate",
+        "note": "h22_003 kişi-dublet birleştirme: aynı normalize Arapça ad 'الشهيد الثاني' + aynı ölüm (966 AH / 1559 CE) + ayrık kaynaklar; iac:person-00006780 lehine emekli. PID korunur, geri alınabilir (h22_003 --restore).",
+        "changed_at": "2026-07-20T14:37:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854"
+      }
+    ],
+    "deprecated": true,
+    "deprecated_in_favor_of": "iac:person-00006780"
+  },
+  "death_temporal": {
+    "start_ah": 966,
+    "start_ce": 1559,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=3809, heading_ar=الشهيد الثاني || Ziriklī century_ce=16 || Ziriklī place coords (city/region of activity): 33.3, 35.4",
+  "authored_works": [
+    "iac:work-00000319",
+    "iac:work-00000506",
+    "iac:work-00000681",
+    "iac:work-00001280",
+    "iac:work-00001932",
+    "iac:work-00002023",
+    "iac:work-00002104",
+    "iac:work-00002495",
+    "iac:work-00002598",
+    "iac:work-00002653",
+    "iac:work-00003955",
+    "iac:work-00004082",
+    "iac:work-00004530",
+    "iac:work-00004613",
+    "iac:work-00005427",
+    "iac:work-00006301"
+  ]
+}

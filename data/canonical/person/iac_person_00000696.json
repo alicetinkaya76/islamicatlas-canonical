@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00000696",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ADALI, Şeyh Mustafa"
+    },
+    "altLabel": {
+      "tr": [
+        "Kuşadalı Hamza oğlu Mustafa"
+      ]
+    },
+    "description": {
+      "tr": "Aydın ilinin Kuşadası kasabasından olduğu için Kuşadalı ve Adavî nisbeleriyle de tanınır. Hayatı hakkında fazla bilgi yoktur. Meşhur eseri Netâʾicü’l-efkâr ’ı yazıp bitirdiği tarih olan 27 Ramazan 1085 (25 Aralık 1674), İsmâil Paşa ile Kehhâle tarafından onun ölüm tarihi olarak gösterilmektedir. Mezarı Kuşadası’ndadır. Eserleri. 1. Netâʾicü’l-efkâr . Birgivî’nin nahve dair meşhur eseri İẓhârü’l-esrâr ’ın şerhidir. Bu şerhin İstanbul ve Kahire’de birçok defa basılması (bk. GAL Suppl. , II, 656), ayrıca birçok müellif tarafından üzerine hâşiyeler yazılması, onun özellikle Osmanlı Türkleri arasında Arap dili öğretiminde ne derece önemli rol oynadığını göstermektedir. Hâşiyelerinin en tanınmış olanları, Muhammed b. Sâlih’in Fevâʾidü’l-eẕkâr (İstanbul 1326), Mustafa b. Dede’nin Ġāyetü’l-enẓâr (İstanbul 1263) ve Mustafa b. Muhammed’in Menâfiʿu’l-aḫyâr (İstanbul 1279, 1325) adlı eserleridir. Şemseddin Sâmi, birtakım teferruatı ihtiva ettiğini söyleyerek Netâʾicü’l-efkâr ’ı okuyup okutmanın vakit kaybından başka bir şey olmadığını kaydeder. Eski Edirne müftüsü Muhammed Fevzi, eserin nahivle doğrudan ilgili olmayan kısımlarını çıkararak ibaresini basitleştirmiş ve buna Miftâḥu’l-merâm fî taʿrîfi aḥvâli’l-kelime ve’l-kelâm adını vermiştir. Eser bu yeni şekliyle 1305’te İstanbul’da basılmıştır. Ayrıca Netâʾicü’l-efkâr ’ın İstanbul kütüphanelerinde pek çok yazması bulunmaktadır. 2. Ḥâşiyetü Adalı ʿale’l-İmtiḥân . Arap grameri ile ilgili olan bu eser de Birgivî’nin İmtiḥânü’l-eẕkiyâʾ adlı kitabının hâşiyesidir (İstanbul 1260, 1270). İmtiḥânü’l-eẕkiyâʾ ise İbnü’l-Hâcib’in meşhur gramer kitabı el-Kâfiye ’nin, Kādî Beyzâvî tarafından Lübbü’l-elbâb adıyla yapılan muhtasarının şerhidir. Türk Ansiklopedisi ’nde Adalı’nın Lübbü’l-elbâb ’a da bir şerh yazdığı kaydedilmekte ise de doğru değildir. 3. el-Ḥayât fî şerḥi Şürûṭi’ṣ-ṣalât . Kemalpaşazâde’nin Şürûṭü’ṣ-ṣalât adlı eserine yazdığı bir şerhten ibarettir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 347 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:adali-seyh-mustafa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=adali-seyh-mustafa, https://islamansiklopedisi.org.tr/adali-seyh-mustafa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:adali-seyh-mustafa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=adali-seyh-mustafa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=adali-seyh-mustafa (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=adali-seyh-mustafa)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1085,
+    "start_ce": 1674,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=adali-seyh-mustafa, URL: https://islamansiklopedisi.org.tr/adali-seyh-mustafa || DİA death-date string: (ö. 1085/1674 [?]) || DİA categories: nahiv > kelâm || Chunk count: 1"
+}

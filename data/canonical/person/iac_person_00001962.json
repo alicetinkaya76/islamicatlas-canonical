@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00001962",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DEBÎR, Selâmet Ali",
+      "ar": "سلامت على دبير"
+    },
+    "originalScript": {
+      "ar": "سلامت على دبير"
+    },
+    "description": {
+      "tr": "1218’de (1803) Delhi’nin Bellimâran semtinde doğdu. Babası Mirza Gulâm Hüseyin tanınmış bir ailedendi. Selâmet Ali babası ile birlikte Leknev’e gitti. Orada iyi bir öğrenim gördü. Şehrin ünlü bilginlerinden Arap ve İran dilleri ve edebiyatları ile ilgili metinler okudu. Erken yaşta şiir yazmaya başladı. Mîr Muzaffer Hüseyin Zamîr onu şiirde yetiştirdi. Oudh (Avaz) hâkimi Vâcid Ali Şah’ın takdirini kazandı. Kısa sürede iyi bir şair olarak tanınan ve hemen hemen bütün hayatını mersiye yazmakla geçiren Debîr’in ömrünün sonlarına doğru gözleri kör oldu. 1856’da Kalküta’ya sürülen Vâcid Ali Şah gözlerini tedavi ettirmek üzere Debîr’i Kalküta’ya davet etti. O sırada Kalküta’da bulunan bir Alman göz doktorunun ameliyatı sayesinde gözleri gören Debîr Leknev’e döndü. 1858’de Kanpûr’a gitti, ertesi yıl oradan Azîmâbâd’a geçti ve 1875’te tekrar Leknev’e döndü. 30 Muharrem 1292’de (8 Mart 1875) vefat etti ve evinin avlusuna gömüldü. Çok yazması ve zorlanmadan şiir söylemesiyle diğer şairlerden ayrılan Debîr’in mersiyecilik konusunda tek rakibi Enîs’tir. Bu iki şair arasındaki rekabet okuyucuları Debîrî ve Enîsî (Debîr ve Enîs yanlıları) olarak ikiye ayırmıştır. Enîs’in üslûbunun sadeliği, beyitlerinin kolay anlaşılması ve fesahatine karşılık Debîr mazmunlarının tazeliği, belâgatı, ayrıca Arapça ve Farsça’daki derin bilgisi sayesinde Kur’an’dan, hadis ve maktel kitaplarından şiirleri için sağladığı malzeme ile kendini gösterir. Mersiye bu iki şairle Urdu edebiyatında en yüksek noktasına ulaşmıştır. Eserleri. 1. Merâs̱î (I-II, baskı yeri ve tarihi yok). 2. Defter-i Mâtem . 1857 ve onu takip eden yıllardaki karışıklıklar sırasında kaybolan bu mersiyeler daha sonra yeniden derlenmiştir (Leknev 1897). 3. Merâs̱î-yi Debîr (I-II, Avaz Ekber yayınları, ts.). 4. Merâs̱î-yi Mirzâ Debîr (III, Leknev 1875-1876). 5. Mers̱iyehâ-yi Mirzâ Debîr (Leknev 1882). 6. Rubâʿiyyât-ı Mirzâ Debîr (Leknev, ts.). 7. Ebvâbü’l-meṣâʾib (Delhi, ts.). Debîr’in tek mensur eseri, Yûsuf kıssası ile Kerbelâ şehidleri hakkındadır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 64 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:debir-selamet-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=debir-selamet-ali, https://islamansiklopedisi.org.tr/debir-selamet-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:debir-selamet-ali",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=debir-selamet-ali",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:51Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=debir-selamet-ali (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=debir-selamet-ali)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1292,
+    "start_ce": 1875,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=debir-selamet-ali, URL: https://islamansiklopedisi.org.tr/debir-selamet-ali || DİA death place: 1292 || DİA death-date string: (ö. 1292/1875) || DİA categories: şiir > hadis > belâgat || Chunk count: 1"
+}

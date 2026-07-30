@@ -1,0 +1,122 @@
+{
+  "@id": "iac:person-00000202",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Omar Khayyam",
+      "tr": "Ömer Hayyâm",
+      "ar": "عمر الخيام"
+    },
+    "originalScript": {
+      "ar": "عمر الخيام"
+    },
+    "altLabel": {
+      "en": [
+        "Ghiyath al-Din Abu al-Fath Umar ibn Ibrahim al-Khayyam"
+      ],
+      "tr": [
+        "Gıyâseddin Ebü'l-Feth Ömer b. İbrâhîm el-Hayyâm"
+      ],
+      "ar": [
+        "غياث الدين أبو الفتح عمر بن إبراهيم الخيام"
+      ]
+    },
+    "description": {
+      "tr": "Tüm 25 tip kübik denklemi geometrik olarak çözdü ve Celâlî takvimini oluşturdu — yerine geçen Gregoryen takviminden 500 yıl öncesi olmasına rağmen daha hassas || Hayyâm'ın matematiksel dehası Batı'daki alımlanmasında FitzGerald'ın Rubâiyyât çevirileriyle (1859) gölgelenir. Kendi zamanında esas olarak kübik denklemleri 25 tipe sınıflandıran ve konik kesit kesişimleriyle çözülebileceğini kanıtlayan bir matematikçi olarak tanınırdı. || [Tarih notu] Woepcke'nin 1851 cebir risalesi edisyonu, matematikçi Hayyâm'ı Avrupa akademisine tanıttı. Rubâiyyât'ların çoğunun yazarlığı tartışmalı olmaya devam ediyor (de Blois 2004).",
+      "en": "Solved all 25 types of cubic equations geometrically and created the Jalali calendar — more accurate than the Gregorian calendar that replaced it 500 years later || Khayyam's mathematical genius is overshadowed in Western reception by FitzGerald's Rubaiyat translations (1859). In his own time, he was known primarily as a mathematician who classified cubic equations into 25 types and proved they could be solved by conic-section intersections. His Jalali calendar (365.2421986 days) is accurate to within 1 second per year — the Gregorian calendar (365.2425 days) is less precise. || [Historiographical note] Woepcke's 1851 edition of the algebra treatise revealed Khayyam the mathematician to European scholarship. Rashed and Vahabzadeh (2000) provided the definitive modern analysis. The authorship of many Rubaiyat remains contested (de Blois 2004).",
+      "ar": "حلّ جميع أنواع المعادلات التكعيبية الـ٢٥ هندسيًا وأنشأ التقويم الجلالي — أدقّ من التقويم الغريغوري || عبقرية الخيام الرياضية تطغى عليها رباعيات فيتزجيرالد. صنّف المعادلات المكعبة في ٢٥ نوعًا وأثبت حلها بتقاطع المخروطيات. تقويمه الجلالي أدق من الغريغوري"
+    }
+  },
+  "profession": [
+    "mathematician",
+    "astronomer",
+    "philosopher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0019",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0019, lecture_id=omar-hayyam",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:17",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=17",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:32Z",
+    "modified": "2026-07-10T14:25:01Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0019 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T14:25:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba', 'laqab']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1048,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1131,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q35900",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Omar Khayyam')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0019, lecture_week=4. || Key works: {'title': {'en': 'Risāla fī al-Barāhīn ʿalā Masāʾil al-Jabr wa-l-Muqābala', 'tr': 'Cebir ve Mukâbele Meselelerinin İspâtları Üzerine Risâle', 'ar': 'رسالة في البراهين على مسائل الجبر والمقابلة'}, 'year': 1070, 'field': 'mathematics', 'significance': {'en': 'Systematic classification and geometric solution of all cubic equations — 500 years before Cardano', 'tr': \"Tüm kübik denklemlerin sistematik sınıflandırması ve geometrik çözümü — Cardano'dan 500 yıl önce\"}}; {'title': {'en': 'Jalali Calendar || Modern parallel: Known worldwide as a poet, but actually one of history's greatest mathematicians — like Einstein being remembered primarily for his violin playing.",
+  "birth_place": "iac:place-00012030",
+  "active_in_places": [
+    "iac:place-00015118"
+  ],
+  "authored_works": [
+    "iac:work-00000031",
+    "iac:work-00000032"
+  ],
+  "kunya": "Ebü'l-Feth",
+  "nisba": [
+    "Nîsâbûrî"
+  ],
+  "laqab": [
+    "Hayyâm (Çadırcı)"
+  ]
+}

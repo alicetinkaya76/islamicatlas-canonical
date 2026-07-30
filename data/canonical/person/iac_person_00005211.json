@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00005211",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MÂLİK-i DEYLEMÎ",
+      "ar": "مالك ديلمى"
+    },
+    "originalScript": {
+      "ar": "مالك ديلمى"
+    },
+    "description": {
+      "tr": "924 (1518) yılında Kazvin’in Filvâgûş bölgesinde Deylem köyünde meşhur bir ailenin çocuğu olarak doğdu. İlk öğrenimi sırasında babası Şehre Emîr’den sülüs, nesih yazılarını ve aklâm-ı sitteyi meşketti; kısa sürede gösterdiği başarı ve yeteneğiyle sanat çevrelerinde tanınmaya başlandı. Daha sonra nesta‘lik yazıya ilgi duydu; Rüstem Ali ve Hâfız Babacan’ın Kazvin’de bulunduğu 944 (1537) yılında nesta‘lik meşketti. Çağdaşı Mîr Ali Herevî’nin eserlerini çokça taklit ederek bu yazının inceliklerini öğrendi, yazısını ilerletti ve bu yazıda da ün kazandı. Dinî ilimler yanında mantık, matematik, nücûm ve felsefe gibi ilimleri Cemâleddin Mahmûd Şîrâzî’den tahsil etti. Sanat sever Safevî şehzadesi Sultan İbrâhim, Mâlik-i Deylemî’yi kütüphanesinde görevlendirdi, Deylemî burada eser yazdı ve öğrenci yetiştirdi. 964’te (1557) Sultan İbrâhim Meşhed’e gittiğinde Mâlik de onunla birlikte gitti ve bir buçuk yıl orada beraber bulundu. Daha sonra I. Tahmasb’ın Kazvin’de yaptırdığı sarayın kitâbelerini yazmak üzere Meşhed’den ayrıldı. Sultan İbrâhim kitâbelerin yazılmasının ardından Meşhed’e dönmesini istediyse de Şah Tahmasb izin vermedi. Mâlik-i Deylemî bundan sonraki yıllarını şahla beraber Tebriz’de ve diğer şehirlerde onun yanında geçirdi. 18 Zilhicce 969 (19 Ağustos 1562) tarihinde Kazvin’de vefat etti. Müstakimzâde ölümünü 960 (1553) olarak kaydeder. Nakşibendî tarikatına intisap eden Mâlik-i Deylemî hat sanatı dışında şiir ve mûsikiyle de uğraşmıştır. Edinburgh Üniversitesi Kütüphanesi “Kıtâat-ı Hoş-hat” adlı yazı albümünde (MS, Or., nr. 373), İstanbul Üniversitesi Kütüphanesi’nde (FY, nr. 1425) ve Paris Bibliothèque Nationale’de (Persan, nr. 129) kıtaları bulunmaktadır. Onun yetiştirdiği talebelerden Mîr İmâd-i Hasenî, İran nesta‘lik hattında yeni bir ekolün kurucusu olup bu ekolün usul ve kaideleri günümüzde de uygulanmaktadır. Muhammed Hüseyn-i Tebrîzî, Şah Muhammed Meşhedî, Kutbüddin Yezdî, Mîr Muhammed Sadreddin Kazvînî ve Îsâ da Mâlik-i Deylemî’nin öğrencilerindendir. Bu madde TDV İslâm Ansiklopedisi’nin 2019 yılında Ankara’da basılan (gözden geçirilmiş 3. basım) EK-2. cildinde, 183-184 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:malik-i-deylemi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=malik-i-deylemi, https://islamansiklopedisi.org.tr/malik-i-deylemi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:malik-i-deylemi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/malik-i-deylemi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:37Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=malik-i-deylemi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 924,
+    "start_ce": 1518,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 969,
+    "start_ce": 1562,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=malik-i-deylemi, URL: https://islamansiklopedisi.org.tr/malik-i-deylemi || DİA death place: Kazvin || DİA death-date string: (ö. 969/1562) || DİA categories: felsefe > mantık > tarikat || Chunk count: 1",
+  "death_place": "iac:place-00014513",
+  "active_in_places": [
+    "iac:place-00015176",
+    "iac:place-00014513"
+  ]
+}

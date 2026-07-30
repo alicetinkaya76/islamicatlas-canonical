@@ -1,0 +1,96 @@
+{
+ "@id": "iac:person-00000336",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Al-Jazari",
+   "tr": "Cezerî",
+   "ar": "الجزري"
+  },
+  "originalScript": {
+   "ar": "الجزري"
+  },
+  "altLabel": {
+   "en": [
+    "Badi al-Zaman Isma'il ibn al-Razzaz al-Jazari"
+   ],
+   "tr": [
+    "Bedîüzzaman İsmâil b. Rezzâz el-Cezerî"
+   ],
+   "ar": [
+    "بديع الزمان إسماعيل بن الرزاز الجزري"
+   ]
+  },
+  "description": {
+   "tr": "Robotik ve makine mühendisliğinin babası; ilk programlanabilir otomatı ve krank mili mekanizmasını tasarladı || Diyarbakır Artuklu hanedanına 25 yıl hizmet etti; 50 cihazı titizlikle resmedilmiştir || [Tarih notu] Kale saati ilk programlanabilir analog bilgisayar kabul edilir",
+   "en": "Father of robotics and mechanical engineering; designed the first programmable automaton and crankshaft mechanism || Served the Artuqid dynasty of Diyarbakir for 25 years; his 50 devices are meticulously illustrated || [Historiographical note] His \"castle clock\" is considered the first programmable analog computer",
+   "ar": "أبو الروبوتات والهندسة الميكانيكية || خدم سلالة الأرتقيين لمدة ٢٥ عاماً || [Historiographical note] تُعتبر ساعة القلعة أول حاسوب تناظري قابل للبرمجة"
+  }
+ },
+ "profession": [
+  "scholar",
+  "mathematician"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0157",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0157",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-05-04T15:39:33Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0157 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (191-336-13030) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000191 lehine yumuşak-silindi. Gerekçe: 'İbn er-Rezzâz' el-Cezerî'nin (Ebü'l-İz İsmâil b. er-Rezzâz el-Cezerî, ö. 1206) tam adının parçasıdır; üç kayıt da aynı mühendis-âlimi gösteriyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000191"
+ },
+ "birth_temporal": {
+  "start_ce": 1136,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1206,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0157, lecture_week=n/a. || Key works: {'title': {'en': \"Kitab fi Ma'rifat al-Hiyal al-Handasiyya (Book of Ingenious Devices)\", 'tr': \"Kitâb fî Ma'rifeti'l-Hiyeli'l-Hendesiyye\", 'ar': 'كتاب في معرفة الحيل الهندسية'}, 'year': 1206, 'field': 'engineering', 'significance': {'en': '50 mechanical devices including earliest programmable automaton, crankshaft, and segmental gear', 'tr': 'En erken programlanabilir otomat, krank mili ve segmental dişli dahil 50 mekanik cihaz'}} || Modern parallel: Like building autonomous systems — each device solved a specific engineering problem with elegant mechanics",
+ "active_in_places": [
+  "iac:place-00004985"
+ ],
+ "authored_works": [
+  "iac:work-00000195"
+ ]
+}

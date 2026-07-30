@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00013961",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Zujalī",
+      "tr": "Züccâlî",
+      "ar": "الزجالي"
+    },
+    "originalScript": {
+      "ar": "الزجالي"
+    },
+    "description": {
+      "tr": "Endülüs edebiyatçısı, Marakeş'te vefat etmiştir.",
+      "en": "An Andalusian man of letters who died in Marrakesh."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿUbayd Allāh b. Aḥmad b. Muḥammad Abū Yaḥyā al-Zujalī al-Qurṭubī"
+    },
+    "altLabel": {
+      "tr": [
+        "Ubeydullah b. Ahmed b. Muhammed Ebu Yahya ez-Züccâlî el-Kurtubî"
+      ],
+      "ar": [
+        "عبيد الله بن أحمد بن محمد، أبو يحيى، الزجالي القرطبي"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:6546",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6546",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:25Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:25Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=6546 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:6546."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 694,
+    "start_ce": 1295,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6546, heading_ar=الزجالي || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 31.63, -7.98",
+  "active_in_places": [
+    "iac:place-00009538",
+    "iac:place-00011062"
+  ],
+  "kunya": "أبو يحيى"
+}

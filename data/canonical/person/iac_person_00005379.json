@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00005379",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mehmed Rûşen Efendi"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Adı kaynaklarda Mehmed Rûşen Tevfikî şeklinde geçmektedir. Celvetiyye tarikatına intisap etmiş bir aileye mensuptur. Babası Üsküdar’daki Aziz Mahmud Hüdâyî Tekkesi şeyhlerinden Abdurrahman Nesîb Efendi, dedesi Şeyh Şehâbeddin Efendi, büyük dedesi Mudanyalı Şeyh Rûşen Efendi’dir. Büyük dedesi aynı tekkede şeyhlik yaptığından daha çok Büyük Rûşen Efendi olarak tanınmış, Mehmed Rûşen de İkinci Mehmed Rûşen ve Küçük Rûşen diye meşhur olmuştur. Mehmed Rûşen Efendi, dönemin önemli âlim ve mutasavvıflarından oluşan bir çevrede bulunduğundan köklü bir eğitim alarak yetişti. Babasından tasavvuf terbiyesi aldıktan sonra Kastamonu’ya gidip erbaîn çıkardı, ardından babasının vefatı üzerine Aziz Mahmud Hüdâyî Tekkesi şeyhliğine getirildi (1842). Bu arada uzun süre Meclis-i Meşâyih reisliğinde bulundu ve kırk dokuz yıl şeyhlik yaptı. Başta Sultan Abdülmecid olmak üzere zamanın padişahlarından ilgi gördü. Hankah ve türbe onun zamanında Sultan Abdülmecid tarafından yeniden yaptırıldı. Mehmed Rûşen 25 Kasım 1891’de vefat etti ve Aziz Mahmud Hüdâyî Tekkesi’nde şeyhlere mahsus türbeye defnedildi. Yerine kardeşi Mehmed Şehâbeddin Efendi postnişin oldu. Dinî ilimlere de vâkıf olan Rûşen Efendi ayrıca hattatlığı, şairliği ve mûsikişinaslığı ile tanınmıştır. Mûsikide ilk bilgileri Bursalı Duhânî Şerif’ten almış, kendisi de çok sayıda talebe yetiştirmiştir. Ahmed Celâleddin Dede ve Said Özok öğrencileri arasında tanınmış mûsikişinaslardandır. Kuvvetli bir mûsiki kulağına sahip olan ve yüzlerce eseri hâfızasında saklamakla tanınan Mehmed Rûşen Efendi, besteli mevlid ve mi‘râciyyenin bütün bahirlerini ve aralarında çeşitli kâr ve kâr-ı nâtıkların bulunduğu bazı nâdir eserleri ezbere bilirdi. Onun mâhur ve müstear makamlarındaki savtları başta olmak üzere çok sayıda bestesi olduğu bildirilmekteyse de bugüne ulaşan tek ilâhisi, “Derdimin dermânı sensin yüce sultânım meded” mısraıyla başlayan sabâ makamında ve düyek usulündeki “şevval ilâhisi”dir (Öztuna, II, 241). Kendi mecmuasında sabâ makamında üç, rast ve mâhur makamlarında birer olmak üzere beş ilâhisinin güftesini vermektedir (Sağman, s. 30-32). Eserleri. Mehmed Rûşen Efendi’nin günümüze ulaşan tek eseri Mecmûa-i İlâhiyyât adlı güfte mecmuasıdır (Hacı Selim Ağa Ktp., Hüdâî Efendi, nr. 1804). Kitapta yirmi yedi bestekârın dışında eserlerin çoğunun bestekârı zikredilmemiştir. Yirmi dokuz değişik makamda yetmiş üç şaire ait toplam 272 güftenin yer aldığı kitaptaki güftelerin kırk beşi durak, 130’u ilâhi, yetmiş dördü cumhur, on dördü meydan ilâhisi, üçü mersiye, dördü na‘t, elli üçü savt, ikisi şuğul, biri tevşîh ve ikisi tesbih formlarında bestelenmiştir (bazı güftelerin aynı zamanda birden çok formda bestelendiği bildirilmektedir). Son dönem Türk din mûsikisi repertuvarına ışık tutan önemli bir kaynak olan Mecmûa-i İlâhiyyât üzerinde Sevgi Hatice Sağman bir yüksek lisans çalışması yapmıştır (bk. bibl.). Mehmed Rûşen Efendi’nin ayrıca Fezâil-i Ramazan , Fezâil-i Muharrem , Sülûk-i Celvetiyye adlı risâlelerinin bulunduğu kaynaklarda bildirilmektedir (meselâ bk. Osmanlı Müellifleri , I, 77). Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 520-521 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-rusen-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-rusen-efendi, https://islamansiklopedisi.org.tr/mehmed-rusen-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:mehmed-rusen-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=mehmed-rusen-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-rusen-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=mehmed-rusen-efendi)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1810,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=mehmed-rusen-efendi, URL: https://islamansiklopedisi.org.tr/mehmed-rusen-efendi || DİA birth place: İstanbul || DİA death place: 1891 || DİA death-date string: (1810-1891) || DİA categories: tasavvuf > tarikat || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "teachers": [
+    "iac:person-00002076"
+  ],
+  "students": [
+    "iac:person-00000768",
+    "iac:person-00006259"
+  ]
+}

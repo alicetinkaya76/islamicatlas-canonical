@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00006259",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÖZOK, Said"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Babası, Üsküdar’da Doğancılar’daki Saffetî Paşa Tekkesi şeyhlerinden Abdürrahim Şükrü Efendi’dir. Mutasavvıf Mehmed Nasûhi Efendi’nin torunlarından olan Said Bey ilk öğreniminin ardından İstanbul Rüşdiyesi’ni bitirdi ve özel dersler alarak kendini yetiştirdi. Hocaları arasında Arapça ve dinî ilimler konusunda ders aldığı Arnavut Hoca Abdürrahim Efendi’nin ayrı bir yeri vardır. Daha sonra girdiği Harbiye Nezâreti’nde yaklaşık kırk yıl memurluk yaptı ve Askerî Levâzım Dairesi Yedinci Şube müdür muavini olarak emekliye ayrıldı. Bu arada 1881’de ağabeyi Şeyh Mesud Efendi’nin vefatı üzerine Saffetî Paşa Tekkesi’ne postnişin tayin edildi ve bu görevini 1925’te tekkelerin kapatılmasına kadar sürdürdü. İstanbul’da vefat etti ve Karacaahmet Mezarlığı’na defnedildi. Kabri şair Nâbî’nin mezarı civarında Nasûhîzâde Alâeddin Efendi’nin aile sofasındadır. Said Özok tasavvufî kişiliğinin yanı sıra güzel sesi, zikir idaresindeki dirayeti ve besteleriyle dinî mûsiki sahasında devrinin önemli mûsikişinasları arasında anılır. İlk mûsiki derslerini ağabeyi Şeyh Mesud Efendi’den aldı. Hamâmîzâde İsmâil Dede Efendi’nin talebelerinden kayınbiraderi Vâhib Efendi ve Mutafzâde Ahmed Efendi’den, ayrıca Paşa Mehmed, Hacı Fâik Bey, Hüdâyî Hankahı şeyhlerinden Mehmed Rûşen Efendi ve diğer kayınbiraderi Durakçı Hacı Nâfiz Bey’den faydalandı. Şeyh Mesud Efendi’den besteli mevlidi öğrenmiştir. Bilhassa hâfızasındaki eserlerin çokluğu ile tanınmış, uzun süre Hüdâyî ve Nasûhî dergâhlarında zâkirbaşılık yapmıştır. Durak ve ilâhi okuyuşundaki üstadane tavrın şekillendirdiği zarafet onun en önemli özelliklerindendir. Sanatkârane taksimlerinin yaşının ilerlediği dönemlerde bile büyük bir hayranlıkla dinlendiği ifade edilir. Kurrâ Ahmed Nazif Efendi gibi pek çok talebe yetiştiren Said Bey’in bestelerinin çoğu unutulmuştur. Öztuna günümüze ulaşmış iki ilâhi ve bir şarkısını kaydeder ( BTMA , II, 181-182). Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 131-132 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ozok-said",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ozok-said, https://islamansiklopedisi.org.tr/ozok-said",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:49Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ozok-said (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1855,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ozok-said, URL: https://islamansiklopedisi.org.tr/ozok-said || DİA birth place: İstanbul || DİA death place: İstanbul || DİA death-date string: (1855-1945) || DİA categories: tasavvuf || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "death_place": "iac:place-00000735",
+  "teachers": [
+    "iac:person-00000778",
+    "iac:person-00002980",
+    "iac:person-00005379",
+    "iac:person-00005972"
+  ]
+}

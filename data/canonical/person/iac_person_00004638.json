@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00004638",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "KÂ‘B b. EŞREF",
+      "ar": "كعب بن الأشرف"
+    },
+    "originalScript": {
+      "ar": "كعب بن الأشرف"
+    },
+    "description": {
+      "tr": "Baba tarafından Tay kabilesine, anne tarafından bir yahudi kabilesi olan Benî Nadîr’e mensuptur. Hem Araplar hem yahudiler tarafından sevilir ve kendisine değer verilirdi. Medine’de oturan Kâ‘b, Bedir Gazvesi sonunda müşriklerin mağlûp olduklarına ve yetmiş ölü verdiklerine dair haber Medine’ye ulaşınca bunun doğruluğuna inanmamış, “Gerçekten Muhammed bu kadar kişiyi öldürmüşse yerin altı üstünden daha hayırlıdır” diyerek tepki göstermişti. Ancak haberin doğru olduğu ortaya çıkınca tâziyede bulunmak ve Kureyş’i müslümanlar aleyhine kışkırtmak için kırk kadar adamıyla birlikte Mekke’ye giderek müslümanlara karşı savaşmak üzere Ebû Süfyân ile anlaştı. Söylediği şiirlerle Kureyşliler’in intikam duygularını tahrik etti. Hz. Peygamber’in şairi Hassân b. Sâbit de onu evinde misafir edenler hakkında o kadar etkili şiirler söyledi ki bundan sonra hiç kimse Kâ‘b’ı evinde misafir etmeye cesaret edememiştir. Medine’ye döndükten sonra şiirleriyle Resûl-i Ekrem’i ve ashabını hicveden, etkili konuşmaları ve servetiyle müşrikleri müslümanlara karşı kışkırtmaya devam eden Kâ‘b b. Eşref’in davranışlarından rahatsız olan Hz. Peygamber bu duruma son verilmesini ve kendisinin eziyetten kurtarılmasını istedi. Bunun üzerine Muhammed b. Mesleme, Kâ‘b b. Eşref’in sütkardeşi Ebû Nâile b. Selâme, Abbâd b. Bişr, Hâris b. Evs ve Ebû Abs ile bir araya gelerek Kâ’b’ı ortadan kaldırmak için plan yaptılar ve 14 Rebîülevvel 3’te (4 Eylül 624) onu öldürdüler (İbn Sa‘d, II, 31-33). Kâ‘b’ın aynı yılın Ramazan (Şubat 625) veya Şevval (Mart 625) ayında katledildiğine dair rivayetler de olmakla beraber genellikle kabul edilen görüşe göre Bedir Gazvesi’nden sonra ve Uhud’dan önce öldürülmüştür. Haşr ve Nisâ sûrelerindeki bazı âyetlerin onun davranışlarıyla ilgili olarak nâzil olduğu rivayet edilir. Kâ‘b’ın öldürüldüğünü duyan yahudiler hayatlarından endişe etmeye başladılar. Bir kısmı Resûlullah’a gidip onun suçsuz yere öldürüldüğünü söyledi. Hz. Peygamber onları Kâ‘b gibi faaliyette bulunmamaları konusunda uyardı ve müslümanlara ihanet etmemek üzere antlaşma yapmaya çağırdı; yahudiler de bu teklifi kabul etti. Resûlullah, Remle bint Hâris’in evinde yahudilerle bir araya gelerek onlarla antlaşma yaptı ve antlaşma metnini Hz. Ali’ye yazdırdı. Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 3-4 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kab-b-esref",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kab-b-esref, https://islamansiklopedisi.org.tr/kab-b-esref",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:kab-b-esref",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/kab-b-esref",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:8573",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8573, heading_ar=كعب بن الأشرف",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:30Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kab-b-esref (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8573]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8573 (heading_ar=كعب بن الأشرف) via Track A (DİA→Alam xref bridge). dt=Cahiliye şairi"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 3,
+    "start_ce": 624,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kab-b-esref, URL: https://islamansiklopedisi.org.tr/kab-b-esref || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8573] || DİA death-date string: (ö. 3/624) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=8573, heading_ar=كعب بن الأشرف, dt=Cahiliye şairi"
+}

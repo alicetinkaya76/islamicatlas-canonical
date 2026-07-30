@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000390",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABBAS b. UBÂDE",
+      "ar": "عبّاس بن عبادة"
+    },
+    "originalScript": {
+      "ar": "عبّاس بن عبادة"
+    },
+    "altLabel": {
+      "tr": [
+        "Abbâs b. Ubâde b. Nadle el-Ensârî el-Hazrecî"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Peygamber’e Birinci Akabe’de biat eden on iki Medineli’den biridir. İkinci Akabe’de de bulundu ve Hazrecliler’e hitaben bir konuşma yaparak Resûlullah’a biat etmenin, her ne pahasına olursa olsun onu düşmanlarına karşı savunmak mânasına geldiğini, bunu yapamayacaklarsa biat etmemeleri gerektiğini onlara hatırlattı. Biattan sonra Medine’ye dönmedi, Hz. Peygamber’le birlikte Mekke’de kaldı. Peygamber’den kısa bir süre önce hicret etti. Bu sebeple “Medineli muhacir” diye anıldı. Hicretten sonra muhacirlerden Osman b. Maz‘ûn ile kardeş ilân edildi. Bedir Gazvesi’ne iştirak etmeyen Abbas b. Ubâde, Uhud Gazvesi’ne katılmıştı. Bu gazvede İslâm ordusu bozguna uğradığı sırada, dağılan orduyu tesirli konuşması ile toplamaya çalıştı. Miğferini ve zırhını çıkarıp, “Eğer peygamberimize bir şey olur da biz sağ kalırsak, rabbimize karşı ileriye süreceğimiz hiçbir mazeretimiz yoktur!” diyerek düşman saflarına daldı ve sonunda şehid düştü. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 29 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbas-b-ubade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbas-b-ubade, https://islamansiklopedisi.org.tr/abbas-b-ubade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abbas-b-ubade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abbas-b-ubade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbas-b-ubade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî; Hazrecî"
+  ],
+  "death_temporal": {
+    "start_ah": 3,
+    "start_ce": 624,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbas-b-ubade, URL: https://islamansiklopedisi.org.tr/abbas-b-ubade || DİA death-date string: (ö. 3/624) || Chunk count: 1"
+}

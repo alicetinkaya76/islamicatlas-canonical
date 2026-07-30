@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00002000",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DERVİŞ ALİ, Esved"
+    },
+    "description": {
+      "tr": "Buğday tenli olmasından dolayı “Esved” lakabı ile şöhret bulmuştur. Babası Kebapçızâde Bostan Efendi’dir. Kaynaklarda hayatı hakkında fazla bilgi bulunmamakla beraber Bursa’da doğduğu ve burada yaşadığı bilinmektedir. Küçük yaşta devrin üstatlarından mûsiki dersleri almaya başladı. Henüz çocukluk çağında iken bestelediği eserlerle dikkati çekti. Bir müddet sonra, Ahmed Paşa Zâviyesi’nin bânisi Şeyh Hayreddin Efendi zamanında tekkenin zâkirbaşılığına getirildi. Bu vazifede iken genç yaşta vefat etti ve Murâdiye’de Beşikçiler Kapısı civarındaki mezarlığa defnedildi. Kuvvetli bir hâfızaya ve tabii bir ses güzelliğine sahip olan Derviş Ali, bu özellikleriyle zamanın önde gelen zâkirbaşıları arasında yer almıştır. Ayrıca bestelediği eserlerle de bestekârlık sahasındaki kudretini ortaya koymuştur. Özellikle murabba ve savtlarda gösterdiği başarı mûsikişinaslar arasında büyük takdir görmüş, ancak bu eserlerinden hiçbiri günümüze ulaşmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 192 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dervis-ali-esved",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dervis-ali-esved, https://islamansiklopedisi.org.tr/dervis-ali-esved",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:dervis-ali-esved",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/dervis-ali-esved",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dervis-ali-esved (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1023,
+    "start_ce": 1614,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dervis-ali-esved, URL: https://islamansiklopedisi.org.tr/dervis-ali-esved || DİA birth place: Bursa || DİA death place: Murâdiye || DİA death-date string: (ö. 1023/1614) || Chunk count: 1",
+  "birth_place": "iac:place-00015103"
+}

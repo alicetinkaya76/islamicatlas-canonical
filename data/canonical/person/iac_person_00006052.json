@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00006052",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Necmeddin Şah Mübârek",
+      "ar": "نجم الدين شاه مبارك"
+    },
+    "originalScript": {
+      "ar": "نجم الدين شاه مبارك"
+    },
+    "description": {
+      "tr": "1093 (1682) yılında Hindistan’ın Gevâliyâr (Gwalior) şehrinde doğdu. Muhammed Gavs Gevâliyârî Şettârî’nin torunudur. Asıl adı Necmeddin olmakla birlikte Şah Mübârek diye şöhret buldu ve şiirlerinde “Âbrû” mahlasını kullandı. 1117’de (1705) Delhi’ye göç etti ve öğrenimini burada tamamladı. Akrabası olan Sirâceddin Ali Han onun öğrencisi oldu. Bâbürlü hükümdarlarının hizmetinde bulundu; Narinol’da (Narnaul) Seyyid İvaz Ali Han’ın maiyeti arasına girdi. Hayatının büyük bir kısmı Bâbürlü Devleti’nin sıkıntı içinde olduğu ve İngiliz etkisinin güçlendiği dönemde geçti. Bir rahatsızlık sonucunda gözlerinden birini kaybetti. 24 Receb 1146’da (31 Aralık 1733) Delhi’de vefat etti ve Seyyid Hasan Resûlnümâ’nın yanına defnedildi. Gençlik yıllarını Evrengzîb devrinde ve sonrasındaki karışıklık yıllarında geçiren Şah Mübârek, edebî ürünlerini daha çok Nâsırüddin Muhammed Şah’ın hükümdarlık yıllarında (1719-1748) vermiştir. Yaşadığı dönemde toplumun çeşitli kesimlerinin zevk ve eğlenceye dalmış olması sebebiyle onun şiiri de gerek konu gerekse üslûp bakımından devrin özelliklerini yansıtmış, şiirindeki cinsiyet temayülleri çağdaş edebiyat yazarlarının dikkatini çekerek inceleme konusu yapılmıştır. Necmeddin Şah Mübârek’in şiir söylemeye başladığı sıralarda Farsça şiir geleneği yanında mahallî Bhaka tarzı da özellikle onun doğum yeri olan Gevâliyâr’da hâkimdi. Bu tarz halk arasında çok tutulduğundan Necmeddin Şah duygu ve düşüncelerini bununla ortaya koymuştur. Aslında onun şiiri büyük oranda Fars şiirinin özelliklerini barındırmakta, ancak gerek konu gerekse kullandığı kelimeler bakımından mahallî unsurları da içermekteydi. Şah Mübârek’in tercih ettiği bu yeni karma tarzı zamanla pek çok şair ve edip de benimsemiştir. İlk şiirlerini Farsça kaleme alan Şah Mübârek daha sonra Urduca yazmıştır. Onun şiirine daha çok çift mânalı kelimelerin kullanıldığı, çok renkli ve dikkat çekici konuların ele alındığı bir nazım türü olarak “îhâm” (îhâmgû) deniliyordu. Îhâm sanatı birbirinden farklı birkaç unsuru bir araya getirdiğinden çok zor olsa da Şah Mübârek bunu başarmış ve bu sanatı geliştirmiştir. Ondan sonra bölgede edebiyat dili Farsça’dan Urduca’ya kaymış ve giderek Farsça’nın yerini Urduca almaya başlamıştır. Eserleri. 1. Dîvân-ı Âbrû (haz. Muhammed Hasan, Aligarh, ts.; Delhi 1964). Şair bu eseriyle Kuzey Hindistan’ın ilk Urduca divan yazarı olarak kabul edilir (Cemîl Câlibî, II, 207). Muhammed Hasan, Hindistan’ın 1857’deki bağımsızlık savaşında telef edildiği ve nüshalarının çok nâdir olduğu söylenen divanın (Saksena, s. 50-51) Hindistan, Pakistan ve İngiltere’de mevcut yazmalarını esas alarak ikinci bir neşrini gerçekleştirmiştir (New Delhi 1990). 2. Ârâʾiş-i Maʿşûḳ . Bir mesnevidir ( a.g.e. , s. 51). Şah Mübârek’in çeşitli şiirleri ve sözleri bir araya getirilerek İntiḫâb-ı Ġazeliyyât-ı Âbrû (haz. Muhammed Zâkir, New Delhi 1991) ve İntiḫâb-ı Kelâm-ı Âbrû (haz. Zafer Ahmed Sıddîkī, Leknev 1997) adıyla yayımlanmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2006 yılında İstanbul’da basılan 32. cildinde, 507 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:necmeddin-sah-mubarek",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=necmeddin-sah-mubarek, https://islamansiklopedisi.org.tr/necmeddin-sah-mubarek",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:necmeddin-sah-mubarek",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=necmeddin-sah-mubarek",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:47Z",
+    "modified": "2026-07-14T12:58:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=necmeddin-sah-mubarek (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=necmeddin-sah-mubarek)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1093,
+    "start_ce": 1682,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1146,
+    "start_ce": 1733,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=necmeddin-sah-mubarek, URL: https://islamansiklopedisi.org.tr/necmeddin-sah-mubarek || DİA death place: Delhi || DİA death-date string: (ö. 1146/1733) || DİA categories: şiir > kelâm || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00015941"
+  ]
+}

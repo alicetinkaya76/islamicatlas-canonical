@@ -1,0 +1,98 @@
+{
+  "@id": "iac:person-00005441",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MERDÂVÎ, Yûsuf b. Muhammed",
+      "ar": "يوسف بن محمّد المرداوي"
+    },
+    "originalScript": {
+      "ar": "يوسف بن محمّد المرداوي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Mehâsin Cemâlüddîn Yûsuf b. Muhammed b. Abdillâh el-Merdâvî"
+      ]
+    },
+    "description": {
+      "tr": "Yaklaşık 700 (1301) yılında Dımaşk’ta doğdu. Ebû Bekir İbn Abdüddâim, Kādılkudât Takıyyüddin Süleyman b. Hamza, Şemseddin İbn Müsellem, Fâtıma bint Abdurrahman el-Ferrâ, Hediyye bint Asker ve Necmeddin el-Kuhfâzî gibi hocalardan hadis, fıkıh, usul ve Arap diliyle ilgili dersler aldı. Tahsilini tamamladıktan sonra el-Câmiu’l-Muzafferî’de ders okuttu ve fetva vermeye başladı. Talebeleri arasında damadı Şemseddin İbn Müflih’in adı anılmaktadır. Kadı Alâeddin İbnü’l-Müneccâ’nın Ramazan 750’de (Kasım 1349) ölümü üzerine Şam Hanbelî kadısı (kādılkudât) oldu ve bu görevini Ramazan 767 (Mayıs 1366) tarihine kadar sürdürdü. Öğrencilere karşı yumuşak, idarecilere karşı sert tavırlarıyla tanınan Merdâvî’nin giyim kuşam gibi bazı hususlarda sıra dışı davranışlar sergilediği kaydedilir. Merdâvî 8 Rebîülevvel 769’da (2 Kasım 1367) Sâlihiye’de vefat etti ve Kāsiyûn Mezarlığı’nda Muvaffakuddin İbn Kudâme’nin türbesine gömüldü. Eserleri. 1. el-Vâżıḥu’l-celî fî naḳżi ḥükmi İbn Ḳāḍi’l-Cebel el-Ḥanbelî . Merdâvî bu eserini, Hanbelî âlimi İbn Kādi’l-Cebel’in el-Münâḳale ve’l-istibdâl bi’l-evḳāf adlı eserinde belirttiği, harap olmamış vakıfların satılamayacağına dair görüşlerine reddiye olarak yazmış ve herhangi bir maslahat sebebiyle vakfın satışının câiz olacağını savunmuştur (nşr. Muhammed Süleyman el-Eşkar, Küveyt 1409/1989; Mecmûʿ fi’l-münâḳale ve’l-istibdâl bi’l-evḳāf içinde). 2. Kifâyetü’l-müstaḳniʿ fî edilleti’l-Muḳniʿ . İbn Kudâme’nin el-Muḳniʿ inin şerhi niteliğinde olan eser kaynaklarda Eḥâdîs̱ü’l-aḥkâm , Muḫtaṣaru Eḥâdîs̱i’l-aḥkâm ve el-İntiṣâr adlarıyla da anılmaktadır (nşr. Abdullah b. Muhammed b. Âyid ez-Zehrânî [yüksek lisans tezi, I-III, 1411/1990], Câmiatü Ümmi’l-kurâ Külliyyetü’ş-şerîa, Mekke). Bu madde TDV İslâm Ansiklopedisi’nin 2004 yılında Ankara’da basılan 29. cildinde, 178 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:merdavi-yusuf-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=merdavi-yusuf-b-muhammed, https://islamansiklopedisi.org.tr/merdavi-yusuf-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:merdavi-yusuf-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=merdavi-yusuf-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=merdavi-yusuf-b-muhammed (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=merdavi-yusuf-b-muhammed)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Merdâvî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 700,
+    "start_ce": 1301,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 769,
+    "start_ce": 1367,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=merdavi-yusuf-b-muhammed, URL: https://islamansiklopedisi.org.tr/merdavi-yusuf-b-muhammed || DİA birth place: Dımaşk || DİA death place: Sâlihiye || DİA death-date string: (ö. 769/1367) || DİA categories: fıkıh > hadis > fetva || Chunk count: 1",
+  "students": [
+    "iac:person-00003958"
+  ]
+}

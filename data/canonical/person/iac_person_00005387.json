@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00005387",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mehmed Şâkir Efendi"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Tophane’de Kādirî tarikatına ait Karabaş Tekkesi şeyhlerinden Hopçu Seyyid Ahmed Efendi’nin oğludur. Babasının lakabından dolayı aile Hopçuzâdeler diye tanınır. İyi bir tahsil gördü. Genç yaşta Kādirî tarikatına intisap etti. Sesinin güzelliğiyle dikkati çeken Mehmed Şâkir, bazı dergâhlarda zâkirlik yaptıktan sonra Karabaş Tekkesi zâkirbaşılığına getirildi. Babasının vefatı üzerine adı geçen tekkeye şeyh tayin edildi (1831) ve ölümüne kadar bu görevde kaldı. Hacca da giden Mehmed Şâkir Efendi 22 Receb 1276’da (14 Şubat 1860) vefat etti ve aynı tekkenin hazîresinde mihrap önüne defnedildi. Kādirî taçlı mezar taşında görülen, şair Senîh’e ait tarih beyti şöyledir: “Savt-ı hâme çârgâh olsun dem-i târîhde / Eyledi Şâkir Efendi evc-i Firdevs’i makām.” Üç oğlundan en büyüğü ve aynı zamanda tekkenin zâkirbaşısı olan Ahmed Gavsî Efendi babasının yerine postnişin olmuş, küçük oğlu Ali Rızâ Efendi de zâkirbaşılıktaki kudretiyle tanınmıştır. Mehmed Şâkir Efendi tabii ses güzelliğinin yanında bestelediği dinî ve din dışı eserlerle de tanınmıştır. Mûsikideki hocası Sünbülî şeyhi Şikârîzâde Ahmed Efendi olup ondan pek çok dinî eser meşketmiştir. Günümüzde kaybolmuş olan mevlid bestesiyle mi‘râciyyenin nevâ bahrini de bilen Mehmed Şâkir Efendi ayrıca döneminde iyi bir neyzen ve tamburî olarak şöhret bulmuştur. Çok sayıda ilâhi, peşrev ve saz semâisi bestelemişse de bunlardan çok azı zamanımıza ulaşmıştır. Sadettin Nüzhet Ergun onun on bir ilâhisinin güftesini yayımlamış ( Türk Musikisi Antolojisi , II, 554, 556-559), Öztuna ise dokuz ilâhi, dört peşrev ve üç saz semâisinden oluşan on altı eserinin listesini vermiştir ( BTMA , II, 331). Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 530 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-sakir-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-sakir-efendi, https://islamansiklopedisi.org.tr/mehmed-sakir-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-sakir-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-sakir-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:39Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-sakir-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1860,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=mehmed-sakir-efendi, URL: https://islamansiklopedisi.org.tr/mehmed-sakir-efendi || DİA birth place: İstanbul || DİA death place: 1276 || DİA death-date string: (ö. 1860) || DİA categories: tarikat || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "teachers": [
+    "iac:person-00000779"
+  ]
+}

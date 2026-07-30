@@ -1,0 +1,98 @@
+{
+  "@id": "iac:person-00001993",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DERRÂS el-FÂSÎ",
+      "ar": "درّاس الفاسي"
+    },
+    "originalScript": {
+      "ar": "درّاس الفاسي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Meymûne Derrâs b. İsmâîl el-Fâsî"
+      ]
+    },
+    "description": {
+      "tr": "Memleketi ve muhtemelen doğum yeri olan Fas şehrinde ilk tahsilini yaptıktan sonra ilim yolculuğuna çıktı. İfrîkıye’de İbnü’l-Lebbâd el-Kayrevânî’den İmam Mâlik’in el-Muvaṭṭaʾ ını okudu ve ondan hadis dinledi. Hac yolculuğu sırasında uğradığı İskenderiye’de Ali b. Abdullah b. Ebû Matar’dan İbnü’l-Mevvâz’ın el-Mevvâziyye ’sini dinleyerek Kayrevan’da rivayet etti. Büyük itibar gördüğü Kayrevan’da devrinin en büyük hadis hâfızı kabul edilerek Ebû Meymûne el-Muhaddis diye şöhret buldu. Burada kendisinden İbn Ebû Zeyd ve Kābisî gibi meşhur âlimler hadis dinlediler. İlim ve cihad için Endülüs’e giderek bir müddet sınırda ikamet etti. Bu sırada kendisinden Hasan b. Ali el-Kelbî ve Ebü’l-Ferec İbn Abdûs hadis dinlediler. Ebû Abdullah Muhammed b. Ali el-Büstî, Ömer b. Meymûn el-Kaysî ve Hammûd b. Gālib el-Hemedânî gibi âlimler de talebeleri arasında yer alır. Derrâs el-Fâsî, kendi döneminde İmam Mâlik ve mezhep ileri gelenlerinin görüşlerini en iyi bilen âlimdi. Daha önce Hanefî olan Mağrib halkı arasında Mâlikî mezhebinin yayılmasına öncülük etti. Hâdî-Roger İdrîs, akaid yönünden Eş‘arîliği benimsediğini belirttiği Derrâs’ın Mağrib’de bu görüşleri yaymaya çalıştığını söyler. Kaynaklarda eserleriyle ilgili herhangi bir kayda rastlanmayan Derrâs el-Fâsî, Zilhicce 357 (Kasım 968) tarihinde Fas şehrinde vefat etmiş, daha sonra burada adına bir cami yaptırılmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 183 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:derras-el-fasi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=derras-el-fasi, https://islamansiklopedisi.org.tr/derras-el-fasi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:derras-el-fasi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/derras-el-fasi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=derras-el-fasi (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Mâlikî (mezhep)",
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 357,
+    "start_ce": 968,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=derras-el-fasi, URL: https://islamansiklopedisi.org.tr/derras-el-fasi || DİA death place: Mağrib || DİA death-date string: (ö. 357/968) || DİA categories: hadis > mezhep > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004248"
+  ],
+  "students": [
+    "iac:person-00003228",
+    "iac:person-00003767",
+    "iac:person-00004653"
+  ]
+}

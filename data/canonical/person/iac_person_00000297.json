@@ -1,0 +1,109 @@
+{
+  "@id": "iac:person-00000297",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Muqaddasi",
+      "tr": "Makdisî",
+      "ar": "المقدسي"
+    },
+    "originalScript": {
+      "ar": "المقدسي"
+    },
+    "altLabel": {
+      "en": [
+        "Shams al-Din Abu Abdallah Muhammad ibn Ahmad al-Muqaddasi"
+      ],
+      "tr": [
+        "Şemseddîn Ebû Abdullâh Muhammed b. Ahmed el-Makdisî"
+      ],
+      "ar": [
+        "شمس الدين أبو عبد الله محمد بن أحمد المقدسي"
+      ]
+    },
+    "description": {
+      "tr": "Tamamen kişisel gezi ve gözleme dayalı İslam dünyasının en iyi coğrafik betimlemesini yazdı || Makdisî masa başı coğrafyacılığını reddetti. Betimlediği her bölgeye gitti. || [Tarih notu] Eseri fiziksel coğrafyanın yanı sıra sosyal, ekonomik ve kültürel gözlemleri de içermesiyle benzersizdir.",
+      "en": "Wrote the finest geographic description of the Islamic world based entirely on personal travel and observation — pioneering empirical methodology in geography || al-Muqaddasi rejected armchair geography. He traveled to every region he described, personally testing local products, interviewing inhabitants, and mapping routes. || [Historiographical note] His work is unique for including social, economic, and cultural observations alongside physical geography — a forerunner of human geography.",
+      "ar": "كتب أدق وصف جغرافي للعالم الإسلامي مبنياً بالكامل على السفر والملاحظة الشخصية || رفض المقدسي الجغرافيا النظرية وسافر إلى كل منطقة وصفها"
+    }
+  },
+  "profession": [
+    "geographer",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0114",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0114",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:296",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=296",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:12Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0114 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['kunya', 'nisba']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 945,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1000,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q294116",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Muqaddasi')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0114, lecture_week=n/a. || Key works: {'title': {'en': 'Aḥsan al-Taqāsīm fī Maʿrifat al-Aqālīm', 'tr': \"Ahsenü't-Tekâsîm fî Ma'rifeti'l-Ekâlîm\", 'ar': 'أحسن التقاسيم في معرفة الأقاليم'}, 'year': 985, 'field': 'geography', 'significance': {'en': 'The finest regional geography of the Islamic world — based entirely on personal observation rather than literary sources', 'tr': 'İslam dünyasının en iyi bölgesel coğrafyası — edebi kaynaklardan ziyade tamamen kişisel gözleme dayalı'}} || Modern parallel: Like a Lonely Planet writer who also happens to be a serious social scientist — combining on-the-ground travel with analytical methodology.",
+  "authored_works": [
+    "iac:work-00000154",
+    "iac:work-00001533"
+  ],
+  "kunya": "Ebû Abdullah",
+  "nisba": [
+    "Mukaddesî",
+    "Beşşârî"
+  ]
+}

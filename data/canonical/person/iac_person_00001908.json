@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00001908",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DAHHÂK b. OSMAN",
+      "ar": "الضحاك بن عثمان"
+    },
+    "originalScript": {
+      "ar": "الضحاك بن عثمان"
+    },
+    "altLabel": {
+      "tr": [
+        "Dahhâk b. Osmân b. Dahhâk b. Osmân el-Kureşî"
+      ]
+    },
+    "description": {
+      "tr": "Tâbiînden olup ilimle meşgul bir aileye mensuptur. Hayatı hakkında fazla bilgi bulunmamaktadır. Ahbâr ı, eyyâmü’l-Arab ’ı ve Arap şiirini en iyi bilen kişilerdendi. Hârûnürreşîd, Abdullah b. Mus‘ab’ı Yemen’e vali tayin ettiğinde Abdullah kendisi gidinceye kadar yerine vekil olarak Dahhâk’i gönderdi. Yemen’de bir yıl kalan Dahhâk 8 Zilhicce 180’de (11 Şubat 797) Mekke’de vefat etti. Genç yaşta ölen oğlu Muhammed b. Dahhâk ve torunu Ahmed b. Muhammed de ilim ve edebiyatla meşgul olmuşlardı. Buhârî, Dahhâk’in oğlu Muhammed’in babasından hadis rivayet ettiğini zikreder. Vâkıdî (ö. 207/823), bu aileden beş kişi ile (Ahmed b. Muhammed, Muhammed b. Dahhâk, dedesi Dahhâk b. Osman, büyük dedeleri Osman b. Dahhâk ve Dahhâk b. Osman) ilim meclislerinde bulunduğunu ve karşılıklı olarak birbirlerinden faydalandıklarını söyler. Dahhâk b. Osman dedesinden, Mâlik b. Enes’ten ve Mûsâ b. İbrâhim’den hadis rivayet etmiştir. Zübeyr b. Bekkâr, Dahhâk’in kendi hattıyla yazılmış bir kitabını gördüğünü söyler ( Cemheretü Nesebi Ḳureyş , I, 6). Dahhâk’in kaynaklarda adı zikredilmeyen bu eserinden başka kitaplar yazmış olması da muhtemeldir. Nitekim İbn Sa‘d’ın eṭ-Ṭabaḳāt ’ında ve Taberî’nin Târîḫ ’inde Vâkıdî’den yapılan bazı iktibaslarla bizzat Vâkıdî’nin Kitâbü’l-Meġāzî ’sindeki Uhud, Bedrü’l-mev‘id, Zâtürrikā‘, Müreysî‘, Hendek, Kurayza gazveleriyle ilgili birçok haber onun eserinden alınmıştır. Dahhâk’in Hz. Osman’ın şehid edilmesine dair iki ayrı rivayeti de Taberî’nin Târîḫ ’inde bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 411 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dahhak-b-osman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dahhak-b-osman, https://islamansiklopedisi.org.tr/dahhak-b-osman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:dahhak-b-osman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/dahhak-b-osman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:4658",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=4658, heading_ar=الضحاك بن عثمان",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:50Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dahhak-b-osman (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[4658]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=4658 (heading_ar=الضحاك بن عثمان) via Track A (DİA→Alam xref bridge). dt=Kureyş'in Arap haberleri, günleri ve şiirleri hakkında bilgili kişi, Medine'de"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 180,
+    "start_ce": 797,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dahhak-b-osman, URL: https://islamansiklopedisi.org.tr/dahhak-b-osman || El-Aʿlām (Ziriklī) cross-reference: alam_id=[4658] || DİA death place: Mekke || DİA death-date string: (ö. 180/797) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=4658, heading_ar=الضحاك بن عثمان, dt=Kureyş'in Arap haberleri, günleri ve şiirleri hakkında bilgili kişi, Medine'de"
+}

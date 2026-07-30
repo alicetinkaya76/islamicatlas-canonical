@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000344",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Shuhda al-Katiba",
+      "tr": "Şühde el-Kâtibe",
+      "ar": "شهدة الكاتبة"
+    },
+    "originalScript": {
+      "ar": "شهدة الكاتبة"
+    },
+    "altLabel": {
+      "en": [
+        "Shuhda bint Ahmad al-Ibari"
+      ],
+      "tr": [
+        "Şühde bt. Ahmed el-İbâri"
+      ],
+      "ar": [
+        "شهدة بنت أحمد الإباري"
+      ]
+    },
+    "description": {
+      "tr": "Fahrü'n-Nisâ (Kadınların Övüncü) olarak bilinen; Bağdat'ın en büyük kadın hattat ve hadis hocası || Bağdatlı kadın muhaddis ve hattat; 'Bağdat'ın müsnidi' lakabıyla tanınır. Yüzlerce öğrenciye hadis icâzeti verdi ve Abbâsî entelektüel hayatının merkezinde yer aldı. || [Tarih notu] Sayeed (2013) kadın muhaddislerin sistemik olarak göz ardı edildiğini göstermiştir. Şühde, İbn Asâkir'in Târîhu Dımaşk isnadlarında önemli bir halka olarak belgelenmektedir.",
+      "en": "Known as \"Fakhr al-Nisa\" (Pride of Women); greatest female calligrapher and hadith teacher of Baghdad || Called \"Pride of Women\" — held the highest hadith isnads in 12th-century Baghdad || [Historiographical note] She taught men and women equally; her calligraphy was considered the finest of her era",
+      "ar": "محدّثة وخطاطة بغدادية؛ عُرفت بلقب 'مسندة بغداد'. أجازت مئات الطلاب في الحديث وكانت في صميم الحياة الفكرية العباسية. || [Historiographical note] أثبت سعيد (2013) التجاهل المنهجي للمحدّثات. وُثّقت شهدة بوصفها حلقة مهمة في أسانيد تاريخ دمشق لابن عساكر."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0169",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0169",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:58:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:58:52Z",
+    "modified": "2026-05-04T14:58:52Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:58:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0169 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1092,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1178,
+    "approximation": "exact"
+  },
+  "note": "Promoted from science_layer.json scholar id=scholar_0169, lecture_week=n/a. || Key works: {'title': {'en': 'Hadith Majalis (Teaching Sessions)', 'tr': 'Hadis Meclisleri'}, 'year': 1150, 'field': 'religious_sciences', 'significance': {'en': 'Known as \"Fakhr al-Nisa\" (Pride of Women); greatest female calligrapher and hadith teacher of Baghdad', 'tr': \"Fahrü'n-Nisâ (Kadınların Övüncü) olarak bilinen; Bağdat'ın en büyük kadın hattat ve hadis hocası\"}} || Modern parallel: Like a senior tech lead whose code reviews are the gold standard for the entire organization",
+  "authored_works": [
+    "iac:work-00000203"
+  ]
+}

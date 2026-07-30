@@ -1,0 +1,112 @@
+{
+  "@id": "iac:person-00017173",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Jamāl al-Dīn al-Afghānī",
+      "tr": "Cemâlüddîn el-Afgânî",
+      "ar": "جمال الدين الأفغاني"
+    },
+    "originalScript": {
+      "ar": "جمال الدين الأفغاني"
+    },
+    "description": {
+      "tr": "Zamanının İslâm filozofu ve Doğu'nun günümüzdeki ihyasının omuzlarında durduğu eşsiz insanlardan bir",
+      "en": "The philosopher of Islam in his era and one of the exceptional men upon whose shoulders the present",
+      "ar": "جمال الدين الأفغاني من أبرز رواد النهضة المناهضة للاستعمار وحركة الجامعة الإسلامية في القرن التاسع عشر. نشط في مصر والهند وإيران والأراضي العثمانية داعيا لاتحاد البلدان الإسلامية ضد الاستعمار الغربي. أثر بعمق على الإصلاح الإسلامي الحديث بوصفه أستاذ محمد عبده. موطنه محل جدل فرغم ادعائه أنه من أفغانستان، يذهب آخرون إلى أنه إيراني الأصل. توفي في اسطنبول."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muḥammad b. Safdar al-Ḥusaynī, Jamāl al-Dīn"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Safdar el-Hüseynî, Cemâlüddîn"
+      ],
+      "ar": [
+        "محمد بن صفدر (2) الحسيني، جمال الدين"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:10096",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10096",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "scholars:102",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=102",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:01Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:01Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:01Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=10096 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['description.ar', 'nisba']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:10096."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1315,
+    "start_ce": 1897,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10096, heading_ar=جمال الدين الأفغاني || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 51.51, -0.13",
+  "active_in_places": [
+    "iac:place-00010060"
+  ],
+  "authored_works": [
+    "iac:work-00002304",
+    "iac:work-00005313",
+    "iac:work-00006315",
+    "iac:work-00007818"
+  ],
+  "nisba": [
+    "Afgānî / Esedâbâdî"
+  ]
+}

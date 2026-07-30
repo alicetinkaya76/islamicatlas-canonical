@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00002582",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EŞEC el-KİNDÎ",
+      "ar": "الأشجّ الكندي"
+    },
+    "originalScript": {
+      "ar": "الأشجّ الكندي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Saîd Abdullāh b. Saîd b. Husayn el-Eşecc el-Kindî"
+      ]
+    },
+    "description": {
+      "tr": "167’de (783) Kûfe’de doğdu. Küçük yaşta hadis tahsiline başlayarak Hüşeym b. Beşîr, Abdullah b. İdrîs, Ebû Bekir b. Ayyâş, Muhammed b. Fudayl gibi muhaddislerden faydalandı. Başta Buhârî olmak üzere Kütüb-i Sitte musannifleri, İbn Huzeyme, Ebû Hâtim er-Râzî, Ebû Zür‘a er-Râzî, İbn Ebû Hâtim gibi pek çok muhaddis kendisinden hadis öğrendi. Hâfızası güçlü, güvenilir bir muhaddisti. Yahyâ b. Maîn onun bazı zayıf râvilerden hadis aldığını söylemektedir. Buhârî biri el-Câmiʿu’ṣ-ṣaḥîḥ ’te, dördü el-Edebü’l-müfred ’de (nr. 369, 394, 443, 1211) olmak üzere ondan rivayet ettiği sekiz hadise çeşitli eserlerinde yer vermiştir. Müslim’in el-Câmiʿu’ṣ-ṣaḥîḥ ’inde ise yetmiş rivayeti bulunmaktadır. Eşecc’in muhtelif eserleri olduğu kaynaklarda zikredilmekte, Zehebî onun bir ciltten ibaret olan Tefsîrü’l-Ḳurʾân adlı eserini gördüğünü söylemektedir. Rivayet ettiği bazı hadisleri ihtiva eden bir risâlesi de Dârü’l-kütübi’z-Zâhiriyye’de bulunmaktadır (Mecmua, nr. 18/10, vr. 211 a -224 a ). Eşec el-Kindî Rebîülevvel 257’de (Şubat 871) Kûfe’de vefat etmiş olup daha önce öldüğüne dair rivayetler doğru değildir. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 461-462 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:esec-el-kindi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=esec-el-kindi, https://islamansiklopedisi.org.tr/esec-el-kindi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:02Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=esec-el-kindi (1 chunks) by dia adapter (Hafta 4). Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kindî"
+  ],
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 257,
+    "start_ce": 871,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=esec-el-kindi, URL: https://islamansiklopedisi.org.tr/esec-el-kindi || DİA birth place: Kûfe || DİA death place: Kûfe || DİA death-date string: (ö. 257/871) || DİA categories: hadis > rivayet > tefsir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000520",
+    "iac:person-00002142",
+    "iac:person-00003576",
+    "iac:person-00005679"
+  ],
+  "students": [
+    "iac:person-00001468",
+    "iac:person-00002179",
+    "iac:person-00002313",
+    "iac:person-00003539",
+    "iac:person-00003746",
+    "iac:person-00003875",
+    "iac:person-00004148",
+    "iac:person-00004150",
+    "iac:person-00007357"
+  ]
+}

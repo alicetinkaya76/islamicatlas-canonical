@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00004046",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Şüreyh",
+      "ar": "ابن شريح"
+    },
+    "originalScript": {
+      "ar": "ابن شريح"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Şüreyh er-Ruaynî el-İşbîlî"
+      ]
+    },
+    "description": {
+      "tr": "392’de (1002) İşbîliye’de (Sevilla) doğdu. Mısır’dan gelerek Endülüs’e yerleşen Ebü’l-Abbas Tâcüleimme Ahmed b. Ali’den kıraat dersleri aldı. Ebû Amr Osman b. Ahmed el-Kayşetâlî’den ve Muhammed b. Tayyib el-Kehhâl, Ahmed b. Muhammed b. Abdülazîz el-Yahsubî gibi hocalardan hadis dinledi. 433 (1042) yılında seyahate çıkarak Mısır’da âlî isnad sahibi Ebü’l-Abbas İbn Nefîs ile Ebû Ali Hasan b. Muhammed el-Bağdâdî’nin kıraat derslerine devam etti. İbn Nefîs’ten ayrıca hadis dinledi. Ebû Zer Abd b. Ahmed el-Herevî’den Buhârî’nin el-Câmiʿu’ṣ-ṣaḥîḥ ’ini okudu ve icâzet aldı (İbn Beşküvâl, s. 533). Mısır’dan sonra hac farîzasını yerine getirmek üzere gittiği Mekke’de bir müddet kalarak Ebü’l-Hasan Ahmed b. Muhammed el-Kantârî’nin kıraat derslerini takip etti. Mekkî b. Ebû Tâlib’le görüşerek kendisinden faydalandı ve icâzet aldı. İbn Şüreyh Endülüs’e döndükten sonra İşbîliye hatipliği görevini üstlendi; şeyhülkurrâ oldu. el-Kâfî adlı eserini yazıp okutmaya başladı. Oğlu Ebü’l-Hasan Şüreyh ile Îsâ b. Hazm, Ebü’l-Abbas İbn Ayşûn kendisinden kıraat ve hadis tahsil eden öğrencileri arasında yer alır. Başta kıraat olmak üzere sarf, nahiv, hadis ve fıkıh alanlarında saygın bir yere sahip olan ve rivayetlerinde sika kabul edilen İbn Şüreyh 4 Şevval 476’da (14 Şubat 1084) İşbîliye’de vefat etti. Eserleri. İbn Şüreyh’in günümüze ulaşan tek eseri el-Kâfî fi’l-ḳırâʾâti’s-sebʿ adını taşımaktadır. Brockelmann, yazma nüshaları Hacı Selim Ağa Kütüphanesi ile (nr. 7, vr. 58-101) Dârü’l-kütübi’l-Mısriyye’de (nr. 614) bulunan eserin Ebû Hafs Ömer b. Kāsım el-Ensârî’nin Kitâbü’l-Muḳarrer adlı kitabının kenarında neşredildiğini söylemektedir ( GAL Suppl. , I, 722). Müellifin kaynaklarda adı geçen diğer eserleri de şunlardır: et-Teẕkîr (et-Teẕkire) , İḫtiṣârü’l-Ḥücce (Ebû Ali el-Fesevî’nin el-Ḥücce fi’l-ḳırâʾâti’s-sebʿ adlı eserinin muhtasarıdır), Tebṣıratü’t-teẕkire , Nüzhetü’t-tebṣıra . Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 383 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-sureyh",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-sureyh, https://islamansiklopedisi.org.tr/ibn-sureyh",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-sureyh",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-sureyh",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:23Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:23Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-sureyh (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-sureyh)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "İşbîlî"
+  ],
+  "birth_temporal": {
+    "start_ah": 433,
+    "start_ce": 1042,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 476,
+    "start_ce": 1084,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-sureyh, URL: https://islamansiklopedisi.org.tr/ibn-sureyh || DİA death place: İşbîliye || DİA death-date string: (ö. 476/1084) || DİA categories: hadis > fıkıh > nahiv || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005410"
+  ]
+}

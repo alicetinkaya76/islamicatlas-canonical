@@ -1,0 +1,129 @@
+{
+  "@id": "iac:person-00001127",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ASBAĞ b. FEREC",
+      "ar": "أصبغ بن الفرج"
+    },
+    "originalScript": {
+      "ar": "أصبغ بن الفرج"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Asbağ b. el-Ferec b. Saîd el-Ümevî"
+      ]
+    },
+    "description": {
+      "tr": "150 (767) yılı civarında Mısır’da doğdu ve orada öldü. Memleketinin tanınmış bilginlerinden Abdurrahman b. Kāsım, daha sonraları kâtipliğini yaptığı Abdullah b. Vehb ve Eşheb el-Kaysî’den fıkıh ve hadis tahsil etti. Ayrıca Üsâme ve Abdurrahman b. Zeyd b. Eslem, Abdülazîz ed-Derâverdî, Îsâ b. Yûnus gibi büyük hadis üstatlarını dinleyerek hadis ilminde hâfız, fıkıh ilminde müctehid mertebesine ulaştı. İmam Mâlik’ten ders almak üzere Medine’ye vardığı gün onun vefat haberini aldı. Fakih, müctehid ve müftî unvanlarıyla anılan Asbağ, hadis ve fıkıh sahasında birçok âlim yetiştirdi. Hadis münekkitlerinden olan Ebû Hâtim er-Râzî ve Yahyâ b. Maîn başta olmak üzere Ahmed b. Furât, Dârimî, Abdülmelik b. Habîb, Ebû Zeyd el-Kurtubî gibi hadis ve fıkıh bilginleri de onun ilminden istifade edenlerdendir. Şâfiî âlimlerinden İsmâil el-Müzenî ile Rebî‘ b. Süleyman’a İmam Şâfiî Mısır’a gelmeden önce hocalık yapmış, Buhârî Sahih’inde kendisinden yirmi bir hadis rivayet etmiştir. Rivayetleri Ebû Dâvûd, Tirmizî ve Nesâî’de de yer almıştır. Mâlikî mezhebinin usul ve fürûu sahasında ve kıyas metodunu kullanmadaki haklı şöhreti gerek muasırları gerekse sonraki bilginler tarafından takdir edilmiştir. Halku’l-Kur’ân meselesindeki kanaatini açıklamak için Abbâsî Halifesi Mu‘tasım-Billâh tarafından sorguya çekilmek istenmesi üzerine Hilvan’a kaçmış ve bir müddet orada gizlenmiştir. Asbağ’ın eserlerinin günümüze kadar geldiği bilinmemektedir. Kaynaklardan öğrenildiğine göre onun Mâlikî mezhebi metodolojisine dair on ciltlik Kitâbü’l-Uṣûl , Tefsîru Ġarîbi’l-Muvaṭṭaʾ , Âdâbü’ṣ-ṣıyâm , Âdâbü’l-każâʾ , Kitâbü’l-Müzâraʿa , Kitâbü’r-Red ʿalâ ehli’l-ehvâʾ ve hocası İbnü’l-Kāsım’dan dinlediği rivayetlerden oluşan yirmi iki ciltlik bir külliyatı vardır (bk. İbn Ferhûn, s. 97). Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 463 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:asbag-b-ferec",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=asbag-b-ferec, https://islamansiklopedisi.org.tr/asbag-b-ferec",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:asbag-b-ferec",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/asbag-b-ferec",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:1704",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=1704, heading_ar=أصبغ بن الفرج",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=asbag-b-ferec (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[1704]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=1704 (heading_ar=أصبغ بن الفرج) via Track A (DİA→Alam xref bridge). dt=Mısır'daki büyük Mâlikî fakih âlimleri."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ümevî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 150,
+    "start_ce": 767,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 225,
+    "start_ce": 840,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=asbag-b-ferec, URL: https://islamansiklopedisi.org.tr/asbag-b-ferec || El-Aʿlām (Ziriklī) cross-reference: alam_id=[1704] || DİA birth place: Mısır || DİA death-date string: (ö. 225/840) || DİA categories: hadis > fıkıh > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=1704, heading_ar=أصبغ بن الفرج, dt=Mısır'daki büyük Mâlikî fakih âlimleri.",
+  "teachers": [
+    "iac:person-00001984",
+    "iac:person-00004072",
+    "iac:person-00004233",
+    "iac:person-00006742"
+  ],
+  "students": [
+    "iac:person-00001935",
+    "iac:person-00002179",
+    "iac:person-00003819",
+    "iac:person-00004067",
+    "iac:person-00004182",
+    "iac:person-00005954",
+    "iac:person-00006377",
+    "iac:person-00007543",
+    "iac:person-00007651",
+    "iac:person-00007652"
+  ]
+}

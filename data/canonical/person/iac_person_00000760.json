@@ -1,0 +1,97 @@
+{
+  "@id": "iac:person-00000760",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED b. SELEME",
+      "ar": "أحمد بن سلمة"
+    },
+    "originalScript": {
+      "ar": "أحمد بن سلمة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Fazl Ahmed b. Seleme b. Abdillâh el-Bezzâz (Bezzâr) en-Nîsâbûrî"
+      ]
+    },
+    "description": {
+      "tr": "İmam Müslim’in Belh ve Basra’ya yaptığı yolculuklarda ona arkadaşlık etti. Kuteybe b. Saîd, İshak b. Râhûye, Osman b. Ebû Şeybe, Ebû Küreyb, Ahmed b. Menî‘ gibi birçok meşhur âlimden hadis aldı. Devrin ünlü muhaddisi Kuteybe b. Saîd’in yanına gidip ondan hadis okumak istediği zaman, çok sevdiği oğlundan ayrılmak istemeyen babası, bu seyahatin gerekli olup olmadığı hususunu da İshak b. Râhûye ile istişare etti. İshak b. Râhûye’nin, Ahmed’in kendisinden çok şey öğrendiğini, ancak Kuteybe’nin de farklı kişilerden elde ettiği bilgileri bizzat ondan öğrenmesinin isabetli olacağını söylemesi üzerine, memleketi dışında hadis tahsil etmesi için babası ona izin verdi. Kendisinden de Ebû Zür‘a er-Râzî, İbn Vâre, Ebû Hâtim er-Râzî gibi hocaları ve Ebû Hâmid b. Şarkı, Yahyâ b. Mansûr ve diğer öğrencileri hadis rivayet etmişlerdir. Âdil ve emin olmasının yanı sıra hadiste hüccet unvanına da sahip bulunan Ahmed b. Seleme’nin Müslim’in Ṣaḥîḥ ’ine benzer bir müstahrec i olduğu bilinmektedir. Ṣaḥîḥ adı da verilen bu eser günümüze ulaşmamıştır. 232 (846-47) yılında Bağdat’ta hadis imlâ ettiğini Hatîb el-Bağdâdî kaydetmektedir. Sık sık gidip hadis okuttuğu Bağdat’ta vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 132 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-b-seleme",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-b-seleme, https://islamansiklopedisi.org.tr/ahmed-b-seleme",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-b-seleme",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-b-seleme",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:50Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-b-seleme (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Nîsâbûrî"
+  ],
+  "death_temporal": {
+    "start_ah": 286,
+    "start_ce": 899,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-b-seleme, URL: https://islamansiklopedisi.org.tr/ahmed-b-seleme || DİA death place: Bağdat || DİA death-date string: (ö. 286/899) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000756",
+    "iac:person-00002179",
+    "iac:person-00002313",
+    "iac:person-00003760",
+    "iac:person-00003986",
+    "iac:person-00004069",
+    "iac:person-00005063",
+    "iac:person-00005861"
+  ]
+}

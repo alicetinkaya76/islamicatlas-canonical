@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00003298",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HASÎRÎ, Muhammed b. İbrâhim",
+      "ar": "محمد بن إبراهيم الحصيري"
+    },
+    "originalScript": {
+      "ar": "محمد بن إبراهيم الحصيري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Muhammed b. İbrâhîm b. Enûş el-Hasîrî el-Buhârî el-Hanefî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında kaynaklarda fazla bilgi yoktur. İlim tahsili için Irak, Hicaz ve Horasan’a seyahat etti; Şemsüleimme es-Serahsî’den ders aldı. Yetiştirdiği talebeler arasında kız kardeşinin oğlu Ebû Amr Osman b. Ali el-Bîkendî ile Ebû Nasr İbn Mâkûlâ anılabilir. Hasîrî Zilkade 500 (Temmuz 1107) tarihinde Buhara’da vefat etti. Kaynaklarda adı geçen tek eseri, Hanefî mezhebinin muteber bir fürû-i fıkıh kitabı olan el-Ḥâvî fi’l-fetâvâ ’dır (Süleymaniye Ktp., Kasîdecizâde Süleyman Sırrı, nr. 264, Şehid Ali Paşa, nr. 1018, Cârullah Efendi, nr. 627). Müellif, Ebû Ahmed Muhammed b. Velîd es-Semerkandî’nin el-Câmiʿu’l-aṣġar , Ebü’l-Abbas en-Nâtıfî’nin el-Vâḳıʿât ve el-Ecnâs adlı eserleri ile kendinden önce yazılmış çeşitli fetva mecmualarından nakillerde bulunmuştur. Bundan dolayı el-Ḥâvî , eserleri günümüze ulaşmayan bazı İslâm hukukçularının görüşlerini de yansıtması bakımından önemli bir kaynaktır. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 383-384 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasiri-muhammed-b-ibrahim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasiri-muhammed-b-ibrahim, https://islamansiklopedisi.org.tr/hasiri-muhammed-b-ibrahim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hasiri-muhammed-b-ibrahim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hasiri-muhammed-b-ibrahim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:13Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:13Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:13Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasiri-muhammed-b-ibrahim (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hasîrî; Buhârî; Hanefî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 500,
+    "start_ce": 1107,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasiri-muhammed-b-ibrahim, URL: https://islamansiklopedisi.org.tr/hasiri-muhammed-b-ibrahim || DİA death place: Buhara || DİA death-date string: (ö. 500/1107) || DİA categories: fıkıh > fetva > mezhep || Chunk count: 1",
+  "teachers": [
+    "iac:person-00006887"
+  ],
+  "students": [
+    "iac:person-00003928"
+  ]
+}

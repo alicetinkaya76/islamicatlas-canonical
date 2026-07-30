@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00002244",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ RECÂ el-UTÂRİDÎ",
+      "ar": "أبو رجاء العطاردي"
+    },
+    "originalScript": {
+      "ar": "أبو رجاء العطاردي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Recâ’ İmrân b. Teym el-Utâridî"
+      ]
+    },
+    "description": {
+      "tr": "611 yılında doğdu. Adının Abdullah, babasının adının Milhân veya Abdullah olduğu da söylenir. Temîm kabilesinin Utârid koluna mensup olduğu için Utâridî ve Temîmî, ayrıca Basrî nisbeleriyle anılır. Mekke’nin fethinden sonra müslüman olmuş, Hz. Peygamber’in vefatının ardından Medine’ye gidip yerleşmiş ve rivayete göre Hz. Ebû Bekir’le görüşmüştür. Daha ziyade Hz. Ömer, Hz. Ali, İbn Abbas, İmrân b. Husayn ve Hz. Âişe gibi sahâbîlerden hadis rivayet etmiş, Ebû Mûsâ el-Eş‘arî’den Kur’ân-ı Kerîm’i öğrenip ezberlemiş, daha sonra da kendisinden yaşça küçük olan İbn Abbas’a arzetmiştir. Ebû Recâ’dan Ebü’l-Eşheb el-Utâridî arz yoluyla kıraat öğrenmiş, Eyyûb es-Sahtiyânî, Saîd b. Ebû Arûbe, Cerîr b. Hâzim, Mehdî b. Meymûn gibi muhaddisler de hadis rivayet etmiştir. Rivayetleri Kütüb-i Sitte ’de bulunmaktadır. Kırk yıl imamlık yapmış olan, Kur’ân-ı Kerîm’i çok okumasıyla bilinen Ebû Recâ, muhadramûn ve dolayısıyla tâbiîn neslinin önde gelen âlimlerinden ve güvenilir hadis râvilerinden biridir. Hasan-ı Basrî kendisine soru sormak üzere gelenleri Ebû Recâ’ya gönderirdi. Müslüman olmadan önceki yaşayışını anlatırken kumları toplayıp sütle karıştırarak put yaptıklarını, bazan beyaz bir taş dikip belli süre ona taptıklarını, yolda rastlayıp beğendikleri bir taşa ibadet ettiklerini, daha güzelini görünce eskisini bıraktıklarını söylerdi. Ayrıca yaylaklarda deve otlattığını, İslâmiyet’in yayılması üzerine Hz. Peygamber’den korkarak yerlerini terkettiklerini ve bu arada yalancı peygamber Müseylimetülkezzâb’a katıldıklarını, fakat kelime-i tevhidi kabul edenlere Resûlullah’ın hiçbir zarar vermediğini duyunca müslüman olduklarını anlatırdı. Ebû Recâ el-Utâridî’nin 105 (723-24) yılında vefat ettiğini belirtenler bulunduğu gibi bu tarihin 100 (718-19), 107 (725-26) veya 108 (726-27) olduğunu söyleyenler de vardır. Muammerûn dan sayılan Ebû Recâ’nın cenaze namazında Hasan-ı Basrî ile şair Ferezdak da hazır bulunmuşlardır. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 212 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-reca-el-utaridi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-reca-el-utaridi, https://islamansiklopedisi.org.tr/ebu-reca-el-utaridi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-reca-el-utaridi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Utâridî"
+  ],
+  "laqab": [
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 105,
+    "start_ce": 723,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-reca-el-utaridi, URL: https://islamansiklopedisi.org.tr/ebu-reca-el-utaridi || DİA death place: Peygamber || DİA death-date string: (ö. 105/723-24 [?]) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00003734"
+  ]
+}

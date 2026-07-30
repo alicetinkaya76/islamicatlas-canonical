@@ -1,0 +1,102 @@
+{
+ "@id": "iac:person-00000210",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Piri Reis",
+   "tr": "Pîrî Reis",
+   "ar": "بيري ريس"
+  },
+  "originalScript": {
+   "ar": "بيري ريس"
+  },
+  "altLabel": {
+   "en": [
+    "Muhiddin Piri ibn Hacı Mehmed"
+   ],
+   "tr": [
+    "Muhyiddin Pîrî b. Hacı Mehmed"
+   ],
+   "ar": [
+    "محيي الدين بيري بن حاجي محمد"
+   ]
+  },
+  "description": {
+   "tr": "1513 dünya haritası Amerika'ları gösteren en eski hayatta kalan haritalardan biridir — Kolomb'un kullandığı artık kayıp bir harita dahil 20+ kaynaktan çizildi || 1513 Pîrî Reis harita parçası (hayatta kalan batı üçte biri), Güney Amerika kıyısını yalnızca Avrupa kaynaklarından mümkün olmayan doğrulukla göstermesi, 20+ kaynağını açıkça belirtmesi ile dikkat çekicidir. || [Tarih notu] Harita 1929'da Topkapı Sarayı'nda yeniden keşfedildi. McIntosh (2000) Hapgood/Antarktika teorilerini çürütürken haritanın gerçek kartografik önemini doğruladı.",
+   "en": "His 1513 world map is one of the oldest surviving maps showing the Americas — drawn from 20+ sources including a now-lost map used by Columbus. The Kitab-ı Bahriye is the most comprehensive Mediterranean navigational atlas of its era || The 1513 Piri Reis map fragment (surviving western third) is remarkable for several reasons: it shows the South American coast with accuracy impossible from European sources alone, it explicitly cites its 20+ sources (including 'a map by the Genoese infidel called Colombo'), and some scholars have argued it shows Antarctic coastlines — though this is contested. The Kitab-ı Bahriye (219 maps, 1521/1526 editions) remained the standard Mediterranean pilot guide for Ottoman navigators for two centuries. || [Historiographical note] The map was rediscovered in 1929 at Topkapı Palace. Kahle (1933) first published it. McIntosh's Piri Reis Map of 1513 (2000) provided the most thorough analysis, debunking the Hapgood/Antarctic theories while confirming the map's genuine cartographic significance.",
+   "ar": "خريطته عام ١٥١٣ من أقدم الخرائط الباقية التي تُظهر الأمريكتين || خريطة بيري ريس ١٥١٣ تُظهر الساحل الأمريكي الجنوبي بدقة تفوق المصادر الأوروبية وحدها. كتاب البحرية (٢١٩ خريطة) بقي دليل الملاحة المعياري لقرنين"
+  }
+ },
+ "profession": [
+  "geographer"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0027",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0027, lecture_id=osmanli-bilim",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:55:32Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:55:32Z",
+  "modified": "2026-07-12T14:15:21Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:55:32Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0027 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:32Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:15:21Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "h11_001 QID karantinası: wikidata:Q12101 kayıttan çıkarıldı (denetim MISMATCH, sim=38, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (210-352-6303) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000352 lehine yumuşak-silindi. Gerekçe: Üç kayıt da Kitâb-ı Bahriye ve 1513 haritasıyla anılan, 960/1553'te ölen Gelibolulu Pîrî Reis'tir."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000352"
+ },
+ "birth_temporal": {
+  "start_ce": 1465,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1553,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0027, lecture_week=8. || Key works: {'title': {'en': 'Piri Reis Map', 'tr': 'Pîrî Reis Haritası', 'ar': 'خريطة بيري ريس'}, 'year': 1513, 'field': 'geography', 'significance': {'en': 'World map showing Americas with extraordinary accuracy — drawn from 20+ sources including a Columbus map now lost', 'tr': 'Olağanüstü doğrulukla Amerikaları gösteren dünya haritası — artık kayıp bir Kolomb haritası dahil 20+ kaynaktan çizildi'}}; {'title': {'en': 'Kitāb-ı Baḥriye (Book of the Sea)', 'tr': 'Kitâb-ı Bahriye', 'ar': 'كتاب البحرية'}, 'yea || Modern parallel: Imagine making the most accurate satellite image of a continent — 500 years before satellites — by combining intelligence from 20 different sources, including one the original owner lost.",
+ "active_in_places": [
+  "iac:place-00000735"
+ ],
+ "authored_works": [
+  "iac:work-00000044",
+  "iac:work-00000045"
+ ]
+}

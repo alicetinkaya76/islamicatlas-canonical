@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00005320",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MEHMED EFENDİ, Divitçizâde"
+    },
+    "description": {
+      "tr": "Üsküdar’da doğdu. Celvetî şeyhlerinden Devâtî (divitçi) Mustafa Efendi’nin oğludur. Şiirlerinde kullandığı Tâlib mahlası ve Divitçizâde lakabıyla tanınmıştır. Mehmed Efendi, seyrüsülûkünü babasının halifelerinden Fidancı Şeyh Mehmed Efendi’nin yanında tamamlayarak hilâfet aldı. Hüseyin Vassâf ise onun Aziz Mahmud Hüdâyî’nin halifelerinden Ehl-i Cennet Mehmed Fenâî Efendi’ye intisap ettiğini belirtir. Öte yandan medrese tahsilini de tamamlayan Mehmed Efendi, bir süre müderrislik yaptıktan sonra ilmiye mesleğinden ayrılarak Üsküdar’da Bülbülderesi civarında babası tarafından kurulan Şeyh Camii Tekkesi’ne (bugün Şeyh Devâtî Mustafa Efendi Camii) babasının vefatı üzerine (1070/1660) postnişin tayin edildi. Sadettin Nüzhet Ergun’un onu bu tekkenin bânisi olarak göstermesi yanlıştır. 1078 (1667) yılında Gafûrî Mahmud Efendi vefat edince Aziz Mahmud Hüdâyî Âsitânesi şeyhi olan Mehmed Efendi bu vazifesini sürdürürken Receb 1090 (Ağustos 1679) tarihinde vefat etti ve Şeyh Camii hazîresinde babasının kabrinin yanına defnedildi. Devrinin tasavvufî şahsiyetleri arasında önemli bir yeri bulunan Mehmed Efendi şiirleri ve dinî besteleriyle de bu sahalardaki kudretini ortaya koymuştur. Şiirlerinin bir divanda toplandığı kaydedilmektedir. Güftesi kendisine ait, “Yandım kül oldum aşk meydânında” mısraıyla başlayan ilâhisi, daha sonraki dönemlerde başka bestekârlar tarafından da bestelenmiştir. Güfte mecmualarında bestelediği ilâhilere rastlanmaktaysa da bunların hiçbirinin notası günümüze ulaşmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 451-452 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-efendi-divitcizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-efendi-divitcizade, https://islamansiklopedisi.org.tr/mehmed-efendi-divitcizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-efendi-divitcizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-efendi-divitcizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:38Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-efendi-divitcizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1090,
+    "start_ce": 1679,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-efendi-divitcizade, URL: https://islamansiklopedisi.org.tr/mehmed-efendi-divitcizade || DİA birth place: Üsküdar || DİA death-date string: (ö. 1090/1679) || DİA categories: tasavvuf || Chunk count: 1"
+}

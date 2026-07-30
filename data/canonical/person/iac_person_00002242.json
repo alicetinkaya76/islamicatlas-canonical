@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00002242",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ OSMAN en-NEHDÎ",
+      "ar": "أبو عثمان النهدي"
+    },
+    "originalScript": {
+      "ar": "أبو عثمان النهدي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Osmân Abdurrahmân b. Mil (Mül, Mel) b. Amr en-Nehdî"
+      ]
+    },
+    "description": {
+      "tr": "Câhiliye devrinde doğdu. Kudâa kabilesinin Nehd koluna mensuptur. Ebû Hâtim er-Râzî onun kavminin arîf i olduğunu belirtmektedir. Hz. Peygamber hayatta iken İslâmiyet’i kabul etmekle beraber kendisiyle görüşemedi. Münzevi yaşamayı sevdiği anlaşılan Ebû Osman Hz. Ebû Bekir ile de görüşemedi. Onun vefatından sonra Medine’ye göç etti. Hz. Ömer devrinden itibaren İslâm fetihlerine katılarak Yermük, Kādisiye, Celûlâ, Tüster, Nihâvend, Azerbaycan ve Köprü savaşlarında bulundu. Nihâvend Savaşı’nı kazandıklarını Hz. Ömer’e o müjdeledi. Bir ara ihtisaplık görevini üstlendi. Kerbelâ Vak‘ası’ndan sonra (61/680) Resûlullah’ın torununun şehid edildiği yerde duramayacağını söyleyerek ikamet etmekte olduğu Kûfe’den ayrıldı, Basra’ya yerleşti. Selmân-ı Fârisî ile on iki yıl arkadaşlık yaptığını söyleyen Ebû Osman en-Nehdî Hz. Ömer, Hz. Ali, Abdullah b. Mes‘ûd, Übey b. Kâ‘b, Sa‘d b. Ebû Vakkās, Ebû Hüreyre, Abdullah b. Abbas ve Üsâme b. Zeyd gibi sahâbîlerden rivayette bulundu. Bağdat’ta sahâbî Cerîr b. Abdullah’ın derslerini takip etti. Kendisinden de Katâde b. Diâme, Humeyd et-Tavîl, Süleyman b. Tarhân, Eyyûb es-Sahtiyânî vb. âlimler hadis rivayet ettiler. Rivayetleri Kütüb-i Sitte ’de yer almış, Übey b. Kâ‘b’dan rivayet ettiği hadisler Ahmed b. Hanbel’in el-Müsned ’in de topluca bir araya getirilmiştir (V, 132-133). İbn Sa‘d, Ali b. Medînî, Ebû Hâtim er-Râzî, Nesâî ve İbn Hibbân gibi hadis otoriteleri onun güvenilir bir râvi olduğunu söylemişlerdir. Muhadramûn dan ve 130 yıl yaşadığı için de muammerûn dan kabul edilen Ebû Osman en-Nehdî 100 (718-19) yılında Basra’da vefat etti. 95 (714) veya 105’te (723) öldüğü de rivayet edilmektedir. Talebelerinden Süleyman b. Tarhân onun gece gündüz ibadet ettiğini, devamlı oruç tuttuğunu, üzerine baygınlık gelinceye kadar namaz kıldığını söylemektedir. Ayrıca altmış defa hac ve umre yaptığı nakledilmektedir. Câhiliye dönemiyle ilgili, inanç tarihi bakımından önemli sayılabilecek bazı hâtıralarıyla şu sözü kaynaklarda zikredilir: “130 yıl yaşadım; bu zaman zarfında her şeyin eskiyip değiştiğini gördüm; fakat gönüldeki istek ve arzular hiçbir değişikliğe uğramadı.” Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 210 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-osman-en-nehdi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-osman-en-nehdi, https://islamansiklopedisi.org.tr/ebu-osman-en-nehdi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-osman-en-nehdi (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Nehdî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 100,
+    "start_ce": 718,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-osman-en-nehdi, URL: https://islamansiklopedisi.org.tr/ebu-osman-en-nehdi || DİA death place: Basra || DİA death-date string: (ö. 100/718-19) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00006821"
+  ],
+  "students": [
+    "iac:person-00006512",
+    "iac:person-00007151"
+  ]
+}

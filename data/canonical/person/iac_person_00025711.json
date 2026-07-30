@@ -1,0 +1,65 @@
+{
+  "@id": "iac:person-00025711",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Yûsuf el-Kardâvî",
+      "en": "Yusuf al-Qaradawi",
+      "ar": "يوسف القرضاوي"
+    },
+    "description": {
+      "tr": "Yûsuf el-Kardâvî, yirminci ve yirmi birinci yüzyıllarda İslam dünyasının en geniş kitlelere ulaşan fıkıh ve düşünce otoritelerinden biridir. el-Ezher mezunu olarak İhvân-ı Müslimîn çevresinde yetişti ancak müstakil bir ilmî çizgi geliştirdi. Fıkhu'l-Evleviyyât (öncelikler fıkhı) ve Vasatiyye (orta yol) kavramlarını sistematize etti. el-Halâl ve'l-Harâm fi'l-İslâm adlı eseri dünya çapında geniş bir okur kitlesine ulaştı. Katar'da yaşayarak televizyon ve internet aracılığıyla küresel bir etki alanı oluşturdu.",
+      "en": "Yusuf al-Qaradawi was one of the most widely recognized authorities in jurisprudence and Islamic thought during the twentieth and twenty-first centuries. An al-Azhar graduate, he was shaped in Muslim Brotherhood circles but developed an independent scholarly line. He systematized the concepts of Fiqh al-Awlawiyyat (jurisprudence of priorities) and Wasatiyya (the middle way). His al-Halal wa al-Haram fi al-Islam reached a worldwide readership. Based in Qatar, he established a global sphere of influence through television and internet media.",
+      "ar": "يوسف القرضاوي من أوسع سلطات الفقه والفكر انتشارا في العالمين الإسلاميين في القرنين العشرين والحادي والعشرين. تخرج من الأزهر ونشأ في محيط الإخوان المسلمين لكنه طور خطا علميا مستقلا. وضع منهجية لفقه الأولويات ومفهوم الوسطية. وصل كتابه الحلال والحرام في الإسلام إلى جمهور واسع عالميا. أقام في قطر وأنشأ مجال تأثير عالمي عبر التلفزيون والإنترنت."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "scholars:108",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=108",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas.org v1 scholars layer (scholars.csv + scholar_identity.js v4.8.x; DİA-sourced bilingual cards)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_scholars",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-07-12T14:48:04Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-07-12T14:48:04Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization by canonicalize_person_scholars v0.1.0 (H10 Stage 3; Tier-2 kind=new)."
+      }
+    ],
+    "deprecated": false
+  },
+  "kunya": "Ebû Muhammed",
+  "nisba": [
+    "Mısrî",
+    "Katarî"
+  ],
+  "birth_temporal": {
+    "start_ce": 1926,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 2022,
+    "approximation": "exact"
+  }
+}

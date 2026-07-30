@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00001028",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂMİR b. REBÎA",
+      "ar": "عامر بن ربيعة"
+    },
+    "originalScript": {
+      "ar": "عامر بن ربيعة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Âmir b. Rebîa b. Mâlik el-Anzî el-Adevî"
+      ]
+    },
+    "description": {
+      "tr": "Hanımıyla birlikte çok erken tarihlerde müslüman oldu. Câhiliye döneminde Hz. Ömer’in babası Hattâb tarafından evlât edinildiği için Âmir b. Hattâb el-Adevî diye anılırdı. Fakat Kur’ân-ı Kerîm evlâtlıkların kendi babalarına nisbetle çağrılmasını emredince (bk. el-Ahzâb 33/5) Âmir b. Rebîa adıyla anılmaya başlandı. Müşriklerin baskıları yüzünden hanımıyla beraber iki defa Habeşistan’a hicret etti. Hz. Peygamber’in hicret ettiğini öğrenir öğrenmez Medine’ye giderek ilk muhacirler arasında yer aldı. Resûlullah onunla Yezîd b. Münzir el-Ensârî arasında kardeşlik bağı ( muâhât ) kurdu. Âmir, Hz. Hamza ve Abdullah b. Cahş kumandasındaki seriyyelere ve Hz. Peygamber’in bütün gazvelerine katıldı. Hudeybiye’de, Hayber ve Mekke’nin fethinde ve Vedâ haccında bulundu. Câbiye’ye giderken Hz. Ömer’in bayraktarlığını yapan Âmir b. Rebîa, hac için Medine’den ayrılan Halife Osman’a da vekâlet etti. Bizzat Hz. Peygamber’den hadis naklettiği gibi Hz. Ebû Bekir ve Ömer’den de rivayetlerde bulunmuştur. Rivayet ettiği yirmi iki hadis Kütüb-i Sitte ’de ve diğer hadis kitaplarında yer almaktadır. Oğlu Abdullah ile Abdullah b. Ömer, Abdullah b. Zübeyr, Ebû Ümâme b. Sehl ve diğer bazı kişiler de kendisinden hadis rivayet etmişlerdir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 66 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amir-b-rebia",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amir-b-rebia, https://islamansiklopedisi.org.tr/amir-b-rebia",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:amir-b-rebia",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/amir-b-rebia",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amir-b-rebia (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Adevî"
+  ],
+  "death_temporal": {
+    "start_ah": 35,
+    "start_ce": 656,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amir-b-rebia, URL: https://islamansiklopedisi.org.tr/amir-b-rebia || DİA death-date string: (ö. 35/656) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

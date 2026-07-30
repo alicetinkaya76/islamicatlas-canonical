@@ -1,0 +1,73 @@
+{
+  "@id": "iac:person-00003238",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hasan Baba"
+    },
+    "description": {
+      "tr": "Baba Hasan olarak da anılır. Aslen korsanlıktan gelme olup uzun süre gemi reisliği yaptı. Ağalar iktidarını kaldırıp Dayılar devrini başlatan 1082 (1671) ihtilâline katıldı. İlk dayı Hacı Mehmed’in (el-Hâc Muhammed) damadı olup onun yanında önemli bir rol oynadı. Hacı Mehmed’in Cezayir’e karşı Fransa’nın savaş hazırlıklarından çekinerek Trablusgarp’a kaçması üzerine Hasan Baba 1092 (1681) yılı sonunda iktidarı ele alarak ikinci Cezayir dayısı oldu ve Fransa’ya karşı takınılan düşmanca tavrı o da sürdürdü. Haris, vehimli ve merhametsiz olduğundan birçok düşman kazandı. Çeşitli isyan teşebbüslerini şiddetle bastırdı. 1680’de Murad Bey oğulları arasındaki karışıklıklar sebebiyle Tunus’un iç işlerine karıştı. 1681’de Fas-Cezayir sınırındaki Tilimsân’ı kuşatan Fas Kralı Mevlây İsmâil’in ordusu ile savaştı ve onları buradan uzaklaştırdı. Hasan Baba İngiltere’yi isteklerinden vazgeçirip bu ülke ile antlaşma imzaladı. Ancak Fransa Kralı XIV. Louis barışı kabul etmedi. 1682 yılı başlarında Amiral Duquesne kumandasında Cezayir’e gönderdiği donanma 29 Temmuz 1682’de Cezayir önlerine geldi ve burayı 26 Ağustos’tan 12 Eylül’e kadar bombardıman etti. Hasan Baba bu muhasaraya karşı koydu. Cezayir donanmasının 13 Eylül’de yaptığı âni bir saldırı sonucunda Fransızlar geri çekilmek zorunda kaldılar. Hiçbir şey elde etmeden geri dönen Duquesne 1683’te tekrar geldi ve 26 Haziran’da Cezayir şehrini yeniden topa tuttu. Bu durum karşısında Hasan Baba amiralle görüşmeyi kabul etti ve esirleri bırakmaya razı oldu. Rehine olarak rakibi sayılan Mezemorta Hüseyin Paşa’yı gönderdi, hıristiyan esirler de iade edildi. Bu arada tazminat konusundaki müzakereler devam etti. Ancak Duquesne tarafından serbest bırakılan Mezemorta Hüseyin Paşa karaya çıkınca reisleri toplayarak Cenîne’yi bastı, Hasan Baba’yı öldürterek kendisini dayı ilân etti (22 Temmuz 1683). Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 289-290 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-baba",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-baba, https://islamansiklopedisi.org.tr/hasan-baba",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hasan-baba",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hasan-baba",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-baba (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1092,
+    "start_ce": 1681,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1094,
+    "start_ce": 1683,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-baba, URL: https://islamansiklopedisi.org.tr/hasan-baba || DİA death-date string: (ö. 1094/1683) || Chunk count: 1"
+}

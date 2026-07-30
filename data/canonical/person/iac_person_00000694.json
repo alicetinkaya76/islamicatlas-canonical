@@ -1,0 +1,95 @@
+{
+  "@id": "iac:person-00000694",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ACLÛNÎ, Muhammed b. Ahmed",
+      "ar": "محمّد بن أحمد العجلوني"
+    },
+    "originalScript": {
+      "ar": "محمّد بن أحمد العجلوني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Şemsüddîn Muhammed b. Ahmed b. Mûsâ el-Aclûnî"
+      ]
+    },
+    "description": {
+      "tr": "Ürdün’ün doğusundaki Aclûn’a bağlı Küfeyr köyünde doğdu. Dımaşkī ve Küfeyrî nisbeleriyle de tanınır. İlk tahsilinden sonra Dımaşk’a giderek zamanın meşhur âlimlerinden İbn Kādî Şühbe’den fıkıh ve fıkıh usulü okudu. Uzun süre Şemseddin el-Gazzî’nin derslerine devam etti; İbn İvaz ve İbn Ümeyle’den de hadis okudu ve pek çok kitabı bizzat istinsah etti. Tahsilini tamamladıktan sonra Dımaşk’taki medreselerde fıkıh, fıkıh usulü ve siyer okuttu. Aynı zamanda kadı nâibliği yaptı. Birçok defa hacca gitti; uzun süre Mekke’de mücâvir olarak kaldı. Pek çok talebe yetiştirdi, fetva vermekle meşgul oldu. Daha çok hadis, özellikle de Ṣaḥîḥ-i Buḫârî okutmakla şöhret buldu. Dımaşk’ta vefat etti. Eserleri. Kaynaklarda adı geçen belli başlı eserleri şunlardır: 1. et-Telvîḥ ilâ maʿrifeti’l-Câmiʿi’ṣ-ṣaḥîḥ . Zerkeşî, Kirmânî ve İbnü’l-Mülakkın’ın Ṣaḥîḥ-i Buḫârî şerhlerinden faydalanmak suretiyle kaleme aldığı beş (veya altı) ciltlik bir eserdir. 2. el-Kevkebü’s-sârî . Ṣaḥîḥ-i Buḫârî muhtasarıdır. 3. Zehrü’r-Ravż . Süheylî’nin er-Ravżü’l-ünüf ’üne yazdığı muhtasar şerhtir. 4. el-İḥkâm fî aḥkâmi’l-Muḥtâr . Bu eserini daha sonra kısaltarak el-Münteḫabü’l-Muḫtâr fî aḥkâmi’l-Muḥtâr adını vermiştir. 5. Muʿînü’n-nebîh ilâ (ʿalâ) maʿrifeti’t-Tenbîh . Ebû İshak eş-Şîrâzî’nin Şâfiî fıkhına dair et-Tenbîh adlı eseri üzerine yapılmış şerhtir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 328 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:acluni-muhammed-b-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=acluni-muhammed-b-ahmed, https://islamansiklopedisi.org.tr/acluni-muhammed-b-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:acluni-muhammed-b-ahmed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=acluni-muhammed-b-ahmed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=acluni-muhammed-b-ahmed (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=acluni-muhammed-b-ahmed)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Aclûnî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 831,
+    "start_ce": 1427,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=acluni-muhammed-b-ahmed, URL: https://islamansiklopedisi.org.tr/acluni-muhammed-b-ahmed || DİA birth place: Küfeyr || DİA death place: Dımaşk || DİA death-date string: (ö. 831/1427-28) || DİA categories: fıkıh > hadis > fetva || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003890"
+  ]
+}

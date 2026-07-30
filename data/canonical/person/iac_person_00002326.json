@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00002326",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÜ’l-ANBES es-SAYMERÎ",
+      "ar": "أبو العنبس الصيمري"
+    },
+    "originalScript": {
+      "ar": "أبو العنبس الصيمري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Anbes Muhammed b. İshâk b. İbrâhîm es-Saymerî"
+      ]
+    },
+    "description": {
+      "tr": "213 yılı Ramazan ayında (Kasım 828) Kûfe’de doğdu. İyi bir tahsil gördükten sonra Basra’nın bir nahiyesi olan Saymere’ye kadı tayin edildi. Bu sebeple Saymerî nisbesiyle anılır. Devrinin birçok şairini hicvetmesiyle tanındı. Şiir kabiliyeti sayesinde Abbâsî Halifesi Mütevekkil-Alellah’ın (847-861) nedimi olarak sarayda kaldı. Bu arada Mütevekkil’in müneccimliğini de yaptı. Daha sonra halife olan Mu‘temid-Alellah’ın (870-892) himayesini gördü. Mütevekkil ile Mu‘temid arasındaki dönemde onun yine sarayda kalmış olması muhtemeldir. Sarayda pek çok kişiyi hicvettiği için başta vezirler olmak üzere birçok kimse kendisinden çekinirdi. Asıl şöhretini Mütevekkil’in huzurunda Buhtürî’yi hicvetmekle sağladı. Bunun üzerine Mütevekkil kendisini 1000 dirhemle mükâfatlandırdı. Muhtemelen bu sebeple sarayla Buhtürî’nin arası açıldı. Ebü’l-Anbes Bağdat’ta öldü ve doğduğu yer olan Kûfe’de defnedildi. Ebü’l-Anbes sarayda anlattığı eğlendirici hikâyeler, ustaca taklitleri ve şiirleriyle dikkatleri üzerine çekmesini bildi. Davranışlarını halifenin fikirlerine ve duygularına göre ayarlar, bunu yaparken de çok defa açık saçık ifadeler kullanarak çeşitli tipleri tasvir ederdi. Kaynakların ifadesinden anlaşıldığına göre Saymerî bu konuda kendisini tamamen serbest kabul etmiş ve bu arada Kitâbü’l-Ḳavvâd adında bir de eser yazmıştır. Şiirlerinin pek azı günümüze kadar gelebilmiştir. Bunlar arasında Buhtürî, Ahmed b. Müdebbir, Tabbâh el-Mu‘temid hakkındaki hicviyeleri, Mütevekkil ile Mu‘temid’in veziri ve Mu‘tez-Billâh’ın kâtibi olan Hasan b. Mahled hakkındaki methiyeleri sayılabilir. Bir şiiri de hikmetli sözle ilgilidir. Charles Pellat onun edebî üslûbunda Câhiz’in tesirinin görüldüğünü söyler. Bosworth ise başkalarının çalışmalarını kendine mal etmiş olabileceğini ileri sürer. Eserleri. Ebü’l-Anbes’in ilm-i nücûm, matematik, arazi ölçümü, kelâm, edebiyat ve mûsiki sahalarında kırk altı kitap ve risâle yazdığı kaynaklarda zikredilir. Ancak bunlardan sadece ilm-i nücûma dair şu eserleri günümüze gelebilmiştir: Kitâb fi’l-ḥisâbi’n-nücûmî , Kitâbü Aṣli’l-uṣûl fî ḫavâṣṣi’n-nücûm ve aḥkâmihâ ve aḥkâmi’l-mevâlîd , Kitâbü’z-Zîc , Kitâbü Feżâʾili’z-zerḳ (bu eserlerin yazma nüshaları için bk. Sezgin, V, 262; VII, 152-153). Saymerî’nin muhtelif kaynaklarda zikredilen eserlerinden otuz kadarının mizaha dair olduğu söylenmektedir (bu eserlerin bir listesi için bk. Pellat, s. 134-136; Muhammed Bâkır Alvân, XXVI, 40-44). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 292-293 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebul-anbes-es-saymeri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebul-anbes-es-saymeri, https://islamansiklopedisi.org.tr/ebul-anbes-es-saymeri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebul-anbes-es-saymeri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebul-anbes-es-saymeri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:9327",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=9327, heading_ar=أبو العنبس الصيمري",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:58Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebul-anbes-es-saymeri (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[9327]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=9327 (heading_ar=أبو العنبس الصيمري) via Track A (DİA→Alam xref bridge). dt=Mütevekki ve Mutemedü'l-Abbâsîlerin sofra görevlisi (nediim)"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Saymerî"
+  ],
+  "death_temporal": {
+    "start_ah": 275,
+    "start_ce": 888,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebul-anbes-es-saymeri, URL: https://islamansiklopedisi.org.tr/ebul-anbes-es-saymeri || El-Aʿlām (Ziriklī) cross-reference: alam_id=[9327] || DİA birth place: Kûfe || DİA death place: Kûfe || DİA death-date string: (ö. 275/888) || DİA categories: kelâm > şiir > astronomi || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=9327, heading_ar=أبو العنبس الصيمري, dt=Mütevekki ve Mutemedü'l-Abbâsîlerin sofra görevlisi (nediim)"
+}

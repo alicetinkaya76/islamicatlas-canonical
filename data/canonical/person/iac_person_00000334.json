@@ -1,0 +1,110 @@
+{
+ "@id": "iac:person-00000334",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Al-Dinawari",
+   "tr": "Dînaverî",
+   "ar": "الدينوري"
+  },
+  "originalScript": {
+   "ar": "الدينوري"
+  },
+  "altLabel": {
+   "en": [
+    "Abu Hanifa Ahmad ibn Dawud al-Dinawari"
+   ],
+   "tr": [
+    "Ebû Hanîfe Ahmed b. Dâvûd ed-Dînaverî"
+   ],
+   "ar": [
+    "أبو حنيفة أحمد بن داود الدينوري"
+   ]
+  },
+  "description": {
+   "tr": "Arap botaniğinin babası; 637 bitkiyi büyüme evreleri, yaşam alanları ve tarımsal uygulamalarıyla tanımladı || Botanik, astronomi, matematik ve tarih üzerine yazan çok yönlü alim || [Tarih notu] 6 ciltlik Kitâbü'n-Nebât'ın sadece 3. ve 5. ciltleri günümüze ulaştı",
+   "en": "Father of Arabic botany; described 637 plants with growth phases, habitats, and agricultural applications || Polymath who wrote on botany, astronomy, mathematics, and history; his plant book is the largest pre-modern botanical work in Arabic || [Historiographical note] Only volumes 3 and 5 of his 6-volume Kitab al-Nabat survive; reconstructed from quotations",
+   "ar": "أبو النبات العربي || عالم موسوعي كتب في النبات والفلك والرياضيات والتاريخ || [Historiographical note] لم ينجُ من كتاب النبات إلا المجلدان الثالث والخامس"
+  }
+ },
+ "profession": [
+  "scholar",
+  "astronomer"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0155",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0155",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   },
+   {
+    "source_id": "scholars:412",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=412",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-07-12T14:48:04Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0155 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (298-334-2055-8575) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000298 lehine yumuşak-silindi. Gerekçe: Künye (Ebû Hanîfe) ve nisbe (ed-Dîneverî) aynı kişide toplanıyor; Kitâbü'n-Nebât, 895/896 ölüm yılı ve 8575'in Dînever koordinatı (34.75/47.42) örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000298"
+ },
+ "birth_temporal": {
+  "start_ce": 828,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 896,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0155, lecture_week=n/a. || Key works: {'title': {'en': 'Kitab al-Nabat (Book of Plants)', 'tr': \"Kitâbü'n-Nebât\", 'ar': 'كتاب النبات'}, 'year': 870, 'field': 'natural_sciences', 'significance': {'en': 'Encyclopedic botany covering 637 plants with ecological and agricultural observations', 'tr': '637 bitkiyi ekolojik ve tarımsal gözlemlerle kapsayan ansiklopedik botanik eseri'}} || Modern parallel: Like building a comprehensive biological database from field observations — pre-modern biodiversity cataloging",
+ "active_in_places": [
+  "iac:place-00015118"
+ ],
+ "authored_works": [
+  "iac:work-00000193"
+ ]
+}

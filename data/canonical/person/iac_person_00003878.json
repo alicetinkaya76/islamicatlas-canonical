@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00003878",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN İDRÎS, Muhammed",
+      "ar": "محمد بن إدريس"
+    },
+    "originalScript": {
+      "ar": "محمد بن إدريس"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. İdrîs b. Muhammed el-Ezemmûrî el-Amrâvî el-Fâsî"
+      ]
+    },
+    "description": {
+      "tr": "Fas şehrinde doğdu. Fakih olan babası takvâsı ile meşhurdu. İbn İdrîs, Kur’ân-ı Kerîm’i ezberledikten sonra Karaviyyîn’de Hamdûn İbnü’l-Hâc’dan edebiyat ve aruz dersleri aldı. Bu arada ailesine yardım etmek amacıyla kitap istinsah etmeye başladı. Bazı kitaplarını istinsah ettiği meşhur tarihçi Ebü’l-Kāsım ez-Zeyyânî ile dostluk kurarak üç yıl yanında çalıştı. Zeyyânî’nin kitaplarını istinsah etmesi tarih bilgisini arttırdı. 1229’da (1814) Ebû Abdullah Ekensûs ile tanıştı. Onunla bazı şiir münazaralarına katıldı. Sultan Mevlây Süleyman’ın da bulunduğu bir mecliste okuduğu kasidesi sultanın ilgisini çekti ve onun tarafından ödüllendirildi. 1237’de (1822) Sultan Mevlây Süleyman’ın yeğeni Abdurrahman b. Hişâm’ın birinci kâtibi olarak görevlendirildi. Aynı yıl Fas’tan ayrılıp Mevlây Süleyman’ın yanına giden heyete katıldı. Mevlây Abdurrahman Mağrib’de iktidarı ele geçirince İbn İdrîs’i vezir tayin etti. İbn İdrîs, 1246’da (1830) Fransızlar’ın Cezayir’i işgal etmesi üzerine halkı cihada teşvik eden bir kaside yazdı. Bu esnada Tilimsân ve Vehrân halkı Sultan Mevlây Abdurrahman’a biat ederek Vedâya kabilesinden askerleri yardım amacıyla gönderdi. Vedâya kabilesiyle arası iyi olmayan İbn İdrîs kabile ileri gelenleri ve hasımlarının suçlamalarına mâruz kaldı. Bunun üzerine azledildi ve mallarına el konuldu (1247/1831-32). Daha sonra sultanın rakibi Cezayir Emîri Abdülkādir’e meyletmekle suçlanarak hapsedildi. Hapiste iken ağır işkence gördü. Bu dönemde kendini ibadete veren İbn İdrîs, devrin ünlü sûfîleri Abdülkādir el-Alemî ve Şeyh Tayyib el-Kettânî ile arkadaşlık etti. 1251’de (1835) arkadaşlarının teşebbüsüyle sultanın affına mazhar olan İbn İdrîs divan kâtipliğine tayin edildi. Bir müddet sonra vezirliğe yükseltildi. 1259’da (1843) Fransızlar’ın Vücde’ye saldırması üzerine bir kaside yazarak müslümanları direnişe davet etti. 4 Muharrem 1264’te (12 Aralık 1847) Fas şehrinde vefat etti. Şiirdeki kabiliyetinin yanı sıra çok iyi bir kâtip olduğu belirtilen İbn İdrîs secili bir nesir üslûbuna sahipti. Kendisi gibi vezir ve edebiyatçı olan oğlu Ebü’l-Alâ İbn İdrîs tarafından derlenen divanının yazma nüshası Rabat’ta el-Hizânetü’l-melekiyye’de bulunmaktadır ( EI 2 [İng.] , III, 806). Kaynaklarda ayrıca makāme ve elkāb hakkında bir risâle yazdığı belirtilir. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 89 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet",
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-idris-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-idris-muhammed, https://islamansiklopedisi.org.tr/ibn-idris-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:20Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:20Z",
+    "modified": "2026-05-04T15:34:20Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:20Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-idris-muhammed (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ezemmûrî; Amrâvî"
+  ],
+  "death_temporal": {
+    "start_ah": 1264,
+    "start_ce": 1847,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-idris-muhammed, URL: https://islamansiklopedisi.org.tr/ibn-idris-muhammed || DİA birth place: Fas || DİA death place: 1264 || DİA death-date string: (ö. 1264/1847) || DİA categories: şiir || Chunk count: 1"
+}

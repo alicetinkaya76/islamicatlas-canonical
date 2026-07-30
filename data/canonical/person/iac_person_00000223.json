@@ -1,0 +1,100 @@
+{
+ "@id": "iac:person-00000223",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Evliya Çelebi",
+   "tr": "Evliyâ Çelebi",
+   "ar": "أوليا جلبي"
+  },
+  "originalScript": {
+   "ar": "أوليا جلبي"
+  },
+  "altLabel": {
+   "en": [
+    "Evliya ibn Derviş Mehmed Zılli"
+   ],
+   "tr": [
+    "Evliyâ b. Derviş Mehmed Zıllî"
+   ],
+   "ar": [
+    "أوليا بن درويش محمد ظلّي"
+   ]
+  },
+  "description": {
+   "tr": "10 ciltlik Seyâhatnâme'yi yazdı — 40+ yıl boyunca Osmanlı İmparatorluğu'nda seyahat ederek şehirleri, adetleri, yemekleri belgeledi || Kaynak materyali Seyâhatnâme'yi '10 ciltlik' ve '40+ yıllık seyahati' kapsayan olarak tanımlar. || [Tarih notu] Tam kritik edisyon hâlâ devam ediyor (Yapı Kredi). Dankoff'un kısmi İngilizce çevirileri Evliya'yı Batı akademisine tanıttı.",
+   "en": "Wrote the 10-volume Seyahatnâme — traveling for 40+ years across the Ottoman Empire and beyond, documenting cities, customs, foods, music, architecture and daily life. The richest source for Ottoman social history || Source material describes the Seyahatnâme as '10-volume' covering '40+ years of travel' and calls it 'the richest source for Ottoman social history.' Evliya's descriptions of foods, music, crafts, architecture and daily life across 3 continents make his work uniquely valuable for social historians. || [Historiographical note] The complete critical edition is still ongoing (Yapı Kredi Yayınları). Dankoff's partial English translations (2004-) introduced Evliya to Western scholarship. His reliability varies — he embellishes, but core observations are confirmed archaeologically.",
+   "ar": "كتب سياحتنامه في ١٠ مجلدات — سافر أكثر من ٤٠ عامًا || سياحتنامه ١٠ مجلدات تغطي ٤٠+ عامًا من السفر. وصفه للأطعمة والموسيقى والحرف والعمارة والحياة اليومية عبر ثلاث قارات يجعله فريدًا للمؤرخين الاجتماعيين"
+  }
+ },
+ "profession": [
+  "geographer",
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0040",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0040, lecture_id=osmanli-bilim",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:55:33Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:55:33Z",
+  "modified": "2026-07-12T14:15:21Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:55:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0040 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:32Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:15:21Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "h11_001 QID karantinası: wikidata:Q310678 kayıttan çıkarıldı (denetim MISMATCH, sim=43, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (223-351-2620) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00002620 lehine yumuşak-silindi. Gerekçe: Üç kayıt da Seyahatnâme müellifi Evliya Çelebi'dir; 1682/1684 farkı ölüm tarihinin kaynaklarda kesin olmamasından kaynaklanıyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00002620"
+ },
+ "birth_temporal": {
+  "start_ce": 1611,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1682,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0040, lecture_week=8. || Key works: {'title': {'en': 'Seyahatnâme (Book of Travels)', 'tr': 'Seyâhatnâme', 'ar': 'سياحتنامه'}, 'year': 1682, 'field': 'geography', 'significance': {'en': '10-volume travel chronicle covering the entire Ottoman world — richest source for 17th-century Ottoman social history', 'tr': 'Tüm Osmanlı dünyasını kapsayan 10 ciltlik seyahat kroniği — 17. yüzyıl Osmanlı sosyal tarihinin en zengin kaynağı'}} || Modern parallel: A 17th-century travel blogger with 40 years of content, covering everything from architecture reviews to restaurant guides to ethnographic surveys — all in 10 handwritten volumes.",
+ "birth_place": "iac:place-00000735",
+ "authored_works": [
+  "iac:work-00000062"
+ ]
+}

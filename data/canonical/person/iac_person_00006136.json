@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00006136",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "NİZÂMÎ-i ARÛZÎ",
+      "ar": "نظامئ عروضي"
+    },
+    "originalScript": {
+      "ar": "نظامئ عروضي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Ahmed b. Ömer b. Alî Semerkandî Çehâr Maḳāle müellifi ve şair."
+      ]
+    },
+    "description": {
+      "tr": "Semerkant’ta doğdu. Öğrenimini burada tamamladı. Lakabı Nizâmeddin (Necmeddin), mahlası Nizâmî’dir. Nizâmî-i Gencevî’den ayırt edilmesi için Nizâmî-i Arûzî diye anılmıştır. Hayatı hakkındaki bilgilerin hemen tamamı Çehâr Maḳāle ’ye dayanmaktadır. Buna göre 504 (1110-11) ve 506 (1112-13) yıllarında Horasan’da bulunmuş, 506’da Belh’te Ömer Hayyâm’la görüşmüş, 510’da (1116) Herat’ta kalmış, bir yıl sonra Nîşâbur’da fakir duruma düşmüş ve aynı yıl Tûs şehrinde Sultan Sencer’in emîrü’ş-şuarâsı Muizzî ile tanışıp şiirlerini kendisine takdim etmiştir; bu sebeple onun öğrencisi olarak gösterilir. 530 (1136) yılında Nîşâbur’a dönerken Ömer Hayyâm’ın türbesini ziyaret etmiştir. Çehâr Maḳāle ’nin üçüncü ve dördüncü makalesinin sonunda zikrettiği iki hikâye tıp ve astromi ilimlerinde maharetli olduğunu göstermektedir. Kırk beş yıl boyunca Gurlu Şensebânî hânedanının hizmetinde bulundu. Çehâr Maḳāle ’yi de Gurlu Hükümdarı Şemseddin Muhammed’in yeğeni Ebü’l-Hasan Hüsâmeddin Ali adına yazdı. 547’de (1152) Gurlu ordusunun Herat civarında Sultan Sencer tarafından bozguna uğratılması üzerine kaçıp saklandığını söyleyen Arûzî’nin, eserini kaleme aldığı 551-552 (1156-1157) yıllarından sonraki hayatıyla ilgili herhangi bir bilgiye rastlanmamıştır. Nizâmî-i Arûzî birkaç mesnevi yazmışsa da günümüze ulaşan yegâne eseri Çehâr Maḳāle ’dir. Saray için gerekli dört meslekle (kâtiplik, şairlik, müneccimlik ve tabiplik) ilgili dört makalede bilgi verilen eser, VI. (XII.) yüzyıldaki İran ve Orta Asya saray hayatı ve dönemin bazı şairlerine dair en eski ve en önemli kaynaklardan biridir. Birçok neşri yapılan kitabın Muhammed Muîn tarafından yeni bir baskısı gerçekleştirilmiştir (Tahran 1334 hş.). Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 33. cildinde, 182-183 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:nizami-i-aruzi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=nizami-i-aruzi, https://islamansiklopedisi.org.tr/nizami-i-aruzi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:47Z",
+    "modified": "2026-05-04T15:34:47Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=nizami-i-aruzi (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 552,
+    "start_ce": 1157,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=nizami-i-aruzi, URL: https://islamansiklopedisi.org.tr/nizami-i-aruzi || DİA birth place: Semerkant || DİA death-date string: (ö. 552/1157 [?]) || DİA categories: tıp || Chunk count: 1"
+}

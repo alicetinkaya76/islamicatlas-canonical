@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00000844",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahmed Şuayb"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Orta öğrenimini Fâtih Rüşdiyesi ile Vefa İdâdîsi’nde tamamladı. Mekteb-i Hukuk’u bitirince, daha sonra sadrazam olan Hakkı Paşa’nın muavini olarak aynı okulda idare hukuku derslerini okutmaya başladı. 1908’den sonra devletler hukuku dersleri de verdi. Bu sırada Meclis-i Maârif üyeliği, Tedrîsât-ı İbtidâiyye müdürlüğü, İstanbul Maarif müdürlüğü, son olarak da Dîvân-ı Muhâsebat müddeiumumiliği görevlerinde bulundu. Zamanında müdahale edilemeyen bir apandisit yüzünden otuz dört yaşında öldü. Son derece çalışkan ve ilgi sahası oldukça geniş bir fikir adamı olan Ahmed Şuayb, dinî ve millî meselelere herhangi bir ilgi duymayan Edebiyât-ı Cedîde topluluğunun fikrî alandaki en güçlü temsilcisidir. Onun, 1899’dan itibaren, başta XIX. yüzyıl Fransız realist ve natüralist yazarları olmak üzere, Batı düşünce ve edebiyat dünyasının bazı tanınmış şahsiyetlerinin hayat ve eserlerini tanıtan incelemeleri, devrinde ilgiyle karşılanmıştır. Edebî eserlerin ilmî metotlarla ve sağlam bir kültüre dayanarak ele alınması gerektiğine inanan ve bu konuda sosyoloji ile psikolojiden de faydalanılmasını savunan Ahmed Şuayb, yazarlık hayatı süresince sadece Batılı tenkit anlayışını Türkiye’ye getirmeye çalışmıştır. “Hayat ve Kitaplar” başlığı altında önce Servet-i Fünûn ’da yayımlayıp daha sonra kitap haline getirdiği makale serisinde Hippolyte Taine, Gustave Flaubert, Gabriel Monod, Ernest Lavisse, Niebuhr, Ranke ve Mommsen gibi Batılı yazar, fikir adamı ve tarihçiler üzerinde durur. Çeşitli ilmî ve edebî meselelerin tarihî bir olaya dayanılarak açıklandığı bu makalelerde, Batılı edebî akımların da o devir için iyice anlaşılmış ve açıklanmış olduğu kabul edilmektedir. Kendisinin de etkisi altında kaldığı Taine ve Flaubert üzerinde geniş şekilde duran yazar, daha çok, eserle çevre ve şahsiyet arasındaki münasebeti esas alan XIX. yüzyıl romantik tenkidini benimsemiş görünmektedir. Bu çerçevede, çoğu yakın arkadaşı olan Edebiyât-ı Cedîde şair ve yazarlarının içe dönük ve hissî sanat anlayışlarını da gerçeklikten uzaklaşma olarak görüp tenkit etmiştir. II. Meşrutiyet’in ilânından sonra, çeşitli davetlere rağmen politikaya karışmayarak arkadaşları Rızâ Tevfik ve Mehmed Câvid’le birlikte, Türkiye’deki pozitivist hareketin başlıca yayın organlarından biri sayılan Ulûm-i İktisâdiyye ve İçtimâiyye Mecmuası ’nı çıkaran (Ocak 1908 - Ağustos 1910 arasında 24 sayı) Ahmed Şuayb, burada “Fransa İnkılâbı”, “Rusya Tarihi”, “Avâmil-i İctimâiyye” gibi Avrupa siyasî tarihi ile ilgili dikkate değer makaleler yayımlamıştır. Eserleri. Hayat ve Kitaplar (İstanbul 1317); Hukūk-ı İdâre (I-II, İstanbul 1326-1329); Hukūk-ı İdâre , II. Sınıf (İstanbul 1327); Hukuk-ı Umûmiyye-i Düvel (İstanbul 1328). Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 138 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-suayb",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-suayb, https://islamansiklopedisi.org.tr/ahmed-suayb",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ahmed-suayb",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ahmed-suayb",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:06Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-suayb (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ahmed-suayb)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1876,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ahmed-suayb, URL: https://islamansiklopedisi.org.tr/ahmed-suayb || DİA birth place: İstanbul || DİA death-date string: (1876-1910) || DİA categories: mantık || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

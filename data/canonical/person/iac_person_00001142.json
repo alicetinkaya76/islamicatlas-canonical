@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00001142",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂSIM b. ÖMER b. HATTÂB",
+      "ar": "عاصم بن عمر بن الخطّاب"
+    },
+    "originalScript": {
+      "ar": "عاصم بن عمر بن الخطّاب"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ömer (Ebû Amr) Âsım b. Ömer b. el-Hattâb el-Kureşî el-Adevî"
+      ]
+    },
+    "description": {
+      "tr": "Annesi Medine’de Hz. Peygamber’e ilk biat eden kadın sahâbîlerden Cemîle bint Sâbit el-Ensâriyye’dir. Emevî Halifesi Ömer b. Abdülazîz’in anne tarafından dedesi olan Âsım’ın bazı kaynaklarda Hz. Peygamber’in vefatından iki yıl önce (630) doğduğu, bazılarında ise hicretin 6. yılında (628) dünyaya geldiği kaydedilmektedir. Âsım’ın ilk çocukluk yılları, Hz. Ömer’den boşandıktan sonra Abdurrahman b. Yezîd’le evlenen annesinin yanında geçti. Henüz dört (veya sekiz) yaşlarında iken, Kubâ’ya gelen Hz. Ömer onu alıp götürmek istedi. Ancak Âsım’ın anneannesi Şemûs bint Ebû Âmir buna engel olmaya çalışınca Ömer halifeye başvurdu. Her iki tarafı da dinleyen Hz. Ebû Bekir, Âsım’ın ninesine verilmesini uygun gördü; Ömer de karara uymak zorunda kaldı ( el-Muvaṭṭaʾ , “Vaṣiyyet”, 6). Âsım ilk çocukluk yıllarından sonra Hz. Ömer’in himayesinde yetişmiş ve onun tarafından evlendirilmiştir. Babasından hadis rivayet ettiği bilinen Âsım’dan iki oğlu Hafs ve Ubeydullah ile Urve b. Zübeyr rivayette bulunmuşlardır. Âsım’ın rivayet ettiği bir hadis Ahmed b. Hanbel’in el-Müsned ’inde yer almıştır (III, 478). Bütün kaynaklar Âsım b. Ömer’in uzun boylu, iri yapılı, son derece asil, cömert, hiç kimseyi incitmeyen ve kimsenin aleyhinde bulunmayan bir kişi olduğunu kaydetmektedir. Ağabeyi Abdullah b. Ömer kendisine sövüp hakaret etmeye yeltenen birine, “Ben ve kardeşim Âsım kimseye sövmeyiz” derken onun üstün ahlâkını belirtmiştir. Şairliği ve güzel konuşmasıyla da tanınırdı. Rebeze’de öldüğü zaman ondan üç yıl sonra vefat edecek olan ağabeyi Abdullah, şair Mütemmim b. Nüveyre’nin, “Âh, ölüm (Âsım’ı) aramızdan almasaydı da birlikte yaşasaydık yahut beraber ölseydik” anlamındaki bir beytini okuyarak derin üzüntüsünü dile getirmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 478-479 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:asim-b-omer-b-hattab",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=asim-b-omer-b-hattab, https://islamansiklopedisi.org.tr/asim-b-omer-b-hattab",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:asim-b-omer-b-hattab",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/asim-b-omer-b-hattab",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=asim-b-omer-b-hattab (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Adevî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 70,
+    "start_ce": 689,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=asim-b-omer-b-hattab, URL: https://islamansiklopedisi.org.tr/asim-b-omer-b-hattab || DİA death-date string: (ö. 70/689) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00007521"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "@id": "iac:person-00000704",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ADÎ b. ERTÂT",
+      "ar": "عديّ بن ارطاة"
+    },
+    "originalScript": {
+      "ar": "عديّ بن ارطاة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Vâsile Adî b. Ertât el-Fezârî ed-Dımaşkī",
+        "Adî b. Artâa el-Fezârî, Ebû Vâsile"
+      ],
+      "ar": [
+        "عدي بن أرطاة",
+        "عدي بن أرطاة الفزاري، أبو واثلة"
+      ]
+    },
+    "description": {
+      "tr": "Tâbiînden olup hadis literatüründe adı çok sık geçen Zeyd b Ertât’ın kardeşidir. Ashaptan Amr b. Abese ve Ebû Ümâme’den hadis aldı. Kendisinden de Ebû Sellâm Memtûr, Bekir b. Abdullah el-Müzenî, Urve b. Kabîsa ve Yezîd b. Ebû Meryem eş-Şâmî hadis rivayet etmişlerdir. Ömer b. Abdülazîz halife olunca (99/717), Basra Valisi Yezîd b. Mühelleb’i görevinden alıp yerine Adî b. Ertât’ı tayin etti. Adî, Ömer b. Abdülazîz’in emriyle Yezîd b. Mühelleb’i tutuklayıp Dımaşk’a gönderdi, halife de onu hapsettirdi. Ömer b. Abdülazîz’in 720 yılında ölümü üzerine hapishaneden kaçırılan Yezîd süratle Basra üzerine yürüyerek şehri kuşattı. Adî de Halife Yezîd b. Abdülmelik’in emriyle, aralarında Mufaddal, Habîb ve Mervân’ın da bulunduğu Mühellebîler’i tutuklattı ve şehrin çevresine hendek kazdırarak müdafaaya çekildi. Yezîd b. Mühelleb asıl davasının Yezîd b. Abdülmelik ile olduğunu ve onun halifeliğini tanımadığını söyleyerek Adî ile anlaşmak istedi. Adî bu teklifi kabul etmeyince para dağıtarak onun adamlarını kendi tarafına çekti. Basra’yı ele geçirip Adî’nin ileri gelen adamlarını öldürttü. Adî bizzat savaşa girdiyse de mağlûp olup hapsedildi. Bunun üzerine halife, isyanı bastırmak için kardeşi Mesleme’yi görevlendirdi. Yapılan savaşta Yezîd öldürüldü. Onun ölüm haberini alan oğlu Muâviye Vâsıt’ta, aralarında Adî b. Ertât’ın da bulunduğu otuz iki kişiyi intikam hissiyle katlettirdi. Cesur ve ileri görüşlü bir vali olan Adî b. Ertât tesirli konuşan bir hatip olarak da şöhret yapmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 379 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "Emir, from the people of Damascus."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Adi ibn Artah al-Fazari, Abu Wathila"
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:adi-b-ertat",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=adi-b-ertat, https://islamansiklopedisi.org.tr/adi-b-ertat",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:6734",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6734, heading_ar=عدي بن أرطاة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "dia-chunks:adi-b-ertat",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/adi-b-ertat",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:45Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=adi-b-ertat (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6734]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6734 (heading_ar=عدي بن أرطاة) via Track A (DİA→Alam xref bridge). dt=Emîr, Dımaşk halkından."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+kunya+translit from alam_detail.json el-alam:6734."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Fezârî"
+  ],
+  "death_temporal": {
+    "start_ah": 102,
+    "start_ce": 720,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=adi-b-ertat, URL: https://islamansiklopedisi.org.tr/adi-b-ertat || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6734] || DİA death-date string: (ö. 102/720) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6734, heading_ar=عدي بن أرطاة, dt=Emîr, Dımaşk halkından.",
+  "kunya": "أبو واثلة",
+  "teachers": [
+    "iac:person-00002293"
+  ],
+  "students": [
+    "iac:person-00001415"
+  ]
+}

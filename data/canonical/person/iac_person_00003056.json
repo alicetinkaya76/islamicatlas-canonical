@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00003056",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HAKEM b. UKKÂŞE",
+      "ar": "حكم بن عكاشة"
+    },
+    "originalScript": {
+      "ar": "حكم بن عكاشة"
+    },
+    "description": {
+      "tr": "İspanyol asıllı mühtedilerden olan (müvelledûn) Hakem b. Ukkâşe Kurtuba’da doğup büyümüştür. Endülüs Emevî Devleti’nin yıkılması üzerine Kurtuba’da kurulan Cehverîler Devleti’nin veziri İbnü’s-Sekkā’nın yardımcılığını yaptı. İbnü’s-Sekkā’nın 455’te (1063) öldürülmesinin ardından yakalanarak hapse atıldı. Ancak çok geçmeden hapisten kurtuldu ve Tuleytula’ya hükmeden Zünnûnîler’e sığındı. Hânedanın emîri Me’mûn (Yahyâ b. İsmâil), onun cesur kişiliğinden ve Kurtuba halkını tanımasından faydalanarak Abbâdîler’in elinde bulunan Kurtuba’yı zaptetmesi için şehir yakınındaki kalelerden birini kendisine iktâ etti. Hakem, civardan topladığı kişilerle kalede durumunu sağlamlaştırdıktan sonra şehir halkının bir kısmının da desteğiyle bir gece gizlice Kurtuba’ya girmeyi başardı. Abbâdîler adına şehri idare eden Sirâcüddevle Abbâd b. Muhammed’i ve kumandan İbn Martin’i öldürterek şehrin tamamına hâkim oldu. Kurtubalılar’ı da Me’mûn’a biat etmeye çağırdı. Bu sırada Belensiye’de (Valencia) bulunan Me’mûn Kurtuba’nın ele geçirildiğini haber alınca oraya hareket etti ve kalabalık bir merasim alayı eşliğinde şehre girdi (467/1075). Me’mûn kısa bir süre sonra vefat edince yerine geçen oğlu Yahyâ el-Kādir Kurtuba’nın idaresini Hakem b. Ukkâşe’ye bıraktı. Diğer taraftan Kurtubalılar’ın bir kısmı şehrin tekrar Abbâdîler’in eline geçmesini istedikleri için Abbâdî Emîri Mu‘temid-Alellah’a haber göndermişlerdi. Bunun üzerine Mu‘temid Kurtuba’yı muhasara altına aldı; mukavemet edemeyeceğini anlayan Hakem b. Ukkâşe şehirden kaçmak zorunda kaldı. Ancak çok geçmeden bir yahudi tarafından yakalanarak öldürüldü (29 Zilhicce 467 / 15 Ağustos 1075). Hakem b. Ukkâşe’nin iyi bir şair olan oğlu Harîz (Hureyz) ise Tuleytula’ya kaçmayı başardı ve Zünnûnîler’den Yahyâ el-Kādir b. Me’mûn tarafından Rabah Kalesi’ne vali tayin edildi. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 176 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hakem-b-ukkase",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hakem-b-ukkase, https://islamansiklopedisi.org.tr/hakem-b-ukkase",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hakem-b-ukkase",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hakem-b-ukkase",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:09Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:09Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hakem-b-ukkase (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 467,
+    "start_ce": 1075,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hakem-b-ukkase, URL: https://islamansiklopedisi.org.tr/hakem-b-ukkase || DİA death-date string: (ö. 467/1075) || Chunk count: 1"
+}

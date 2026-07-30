@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00006144",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "NUAYM b. ABDULLAH",
+      "ar": "نعيم بن عبد الله"
+    },
+    "originalScript": {
+      "ar": "نعيم بن عبد الله"
+    },
+    "altLabel": {
+      "tr": [
+        "Nuaym b. Abdillâh b. Esîd en-Nehhâm el-Adevî el-Kureşî"
+      ]
+    },
+    "description": {
+      "tr": "Kureyş kabilesinin Adî b. Kâ‘b koluna mensuptur. Annesi Fâhite bint Harb el-Adeviyye’dir. Nuaym’ın muhtemelen nefes darlığı yüzünden göğsünün hırıldadığı ve Hz. Peygamber’in, “Nuaym’ın göğsünün hırıltısını cennette işittim” diyerek onu cennetle müjdelediği, bu sebeple “Nehhâm” (göğsü çok hırıldayıp öksüren) lakabıyla anıldığı belirtilir. Onun İslâm’ı kabul eden ilk on kişiden biri veya otuz sekizinci müslüman olduğu zikredilmiştir. İbn İshak ve İbn Hişâm gibi ilk dönem müelliflerinin naklettiğine göre, Mekkeli müşriklerin tahrikiyle Resûl-i Ekrem’i öldürmeye karar veren Hz. Ömer onun bulunduğu yere giderken yolda Nuaym b. Abdullah ile karşılaşmış ve niyetini ona açmıştır. Nuaym ise Ömer’e Peygamber’i öldürdüğü takdirde Abdümenâfoğulları’nın kendisini sağ bırakmayacağını söylemiş, ayrıca kız kardeşi Fâtıma ile eniştesi Saîd b. Zeyd’in de İslâmiyet’i kabul ettiğini bildirmiştir (İbn Hişâm, I, 258-259). Böylece Hz. Ömer’in iman etmesiyle sonuçlanacak olan gelişmelere zemin hazırlamıştır. Nuaym b. Abdullah Mekke’nin sayılı zenginlerinden olup fakir, dul ve yetimlere yardım ederdi. Bu sebeple yakınları ve Mekke’nin ileri gelenleri onun hicret etmeyip Mekke’de kalmasını istemiş, dilediği şekilde yaşamasına müsaade edeceklerine dair teminat vermişlerdi. Nuaym da Mekke’de kalmış ve daha sonra Hudeybiye Antlaşması sırasında kırk kişilik ailesiyle birlikte Medine’ye hicret etmiştir. Resûl-i Ekrem’in onu kucaklayıp öptüğü ve, “Kavminin sana karşı davranışı benim kavmimin bana karşı davranışından daha iyi oldu. Zira kavmim beni yurdumdan çıkardı ve beni öldürmek istedi; senin kavmin ise seni korudu ve sana eziyete engel oldu” dediği rivayet edilmiş, Nuaym’ın da, “Senin kavmin seni Allah’a itaate ve düşmanlarıyla cihada sevketti; benim kavmim ise beni hicretten ve Allah’a itaatten alıkoydu” şeklinde karşılık verdiği belirtilmiştir ( DİA , XVII, 465). Nuaym b. Abdullah, Hudeybiye Antlaşması’ndan sonra Resûl-i Ekrem’le birlikte bütün gazvelere katıldı, bir ara Kâ‘boğulları’na zekât âmili olarak gönderildi. Hz. Peygamber’den iki hadis rivayet etmiş olan Nuaym b. Abdullah’ın Mûte Savaşı’nda vefat ettiği nakledilmişse de onun Hz. Ömer devrinde Bizanslılar’la yapılan Ecnâdeyn Savaşı’nda şehid düştüğü bildirilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 33. cildinde, 218-219 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:nuaym-b-abdullah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=nuaym-b-abdullah, https://islamansiklopedisi.org.tr/nuaym-b-abdullah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:47Z",
+    "modified": "2026-05-04T15:34:47Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=nuaym-b-abdullah (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Adevî; Kureşî"
+  ],
+  "death_temporal": {
+    "start_ah": 13,
+    "start_ce": 634,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=nuaym-b-abdullah, URL: https://islamansiklopedisi.org.tr/nuaym-b-abdullah || DİA death place: Peygamber || DİA death-date string: (ö. 13/634) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

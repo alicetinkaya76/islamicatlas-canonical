@@ -1,0 +1,59 @@
+{
+ "@id": "iac:person-00024875",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Bosnia And Herzegovina"
+  },
+  "description": {
+   "en": "BOSNIA AND HERZEGOVINA.",
+   "tr": "[BOSNA VE HERSEK] BOSNA VE HERSEK."
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "death_temporal": {
+  "start_ce": 1353,
+  "approximation": "exact"
+ },
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "ei1:1282",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "EI1 vol. 1, p. 36",
+    "extraction_method": "ocr",
+    "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936), digitized/structured ei1_lite v-repo; OCR-derived — noise possible"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_ei1",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-07-10T15:42:10Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-07-10T15:42:10Z",
+  "modified": "2026-07-10T15:42:10Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-07-10T15:42:10Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization by canonicalize_person_ei1 v0.1.0 (H10 Stage 4; Tier-2 kind=new, dated)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (24874-24875) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00024874 lehine yumuşak-silindi. Gerekçe: İki kayıt tüm alanlarıyla birebir aynıdır; \"Bosnia and Herzegovina\" bir şahıs değil ülke adı olduğu için bu da aynı artefaktın mükerrer mint edilmesidir."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00024874"
+ }
+}

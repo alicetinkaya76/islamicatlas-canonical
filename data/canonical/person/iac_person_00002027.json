@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00002027",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DEYLEMÎ, Şehredâr b. Şîrûye",
+      "ar": "شهردار بن شيروية الديلمي"
+    },
+    "originalScript": {
+      "ar": "شهردار بن شيروية الديلمي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Mansûr Şehredâr b. Şîrûye b. Şehredâr"
+      ]
+    },
+    "description": {
+      "tr": "483’te (1090) muhtemelen Hemedan’da doğdu. Doğduğu yıl babası ona edib ve muhaddis Ebû Bekir b. Halef eş-Şîrâzî ve başkalarından icâzet aldı. İlk öğrenimini babası muhaddis Şîrûye b. Şehredâr’dan yaptı. Daha sonra hadis tahsili için Horasan’ın bazı ilim merkezlerini dolaştı. 505’te (1111) babasıyla birlikte yine hadis öğrenmek için İsfahan’a gitti. Burada çoğu Ebû Nuaym el-İsfahânî’nin talebesi olan âlimlerin ders halkalarına katılarak hadis yazdı. Bağdat’a ve Zencân’a seyahat etti ve oradaki âlimlerden faydalandı. Hocaları arasında babasından başka, babasının da hocaları olan Ebü’l-Feth Abdûs b. Abdullah ve Ebû Muhammed Abdurrahman b. Hamd ed-Dûnî ile A‘meş diye bilinen Hamd b. Nasr el-Hemedânî ve kendisinden Ahmed b. Hanbel’in el-Müsned ’ini dinlediği Ahmed b. Muhammed b. Zencûye bulunmaktadır. Şehredâr tahsilini tamamladıktan sonra önce Hemedan’a, daha sonra da Deylem’e dönerek hadis rivayetiyle meşgul oldu. Kendisinden hadis rivayet edenler arasında oğlu Ahmed, el-Ensâb müellifi Abdülkerîm es-Sem‘ânî gibi âlimler bulunmaktadır. Deylemî’nin hadisteki yerini belirtmek üzere onun bu ilimde babasını geçtiği, hadiste hâfızlık derecesine yükseldiği ifade edilmiştir. Deylemî eser vermemekle beraber babasının Kitâbü’l-Firdevs ’indeki hadislerin isnadlarını bir araya toplamış ve kitabı daha kullanışlı hale getirmiştir. Müsnedü Firdevsi’l-aḫbâr ( Firdevsü’l-aḫbâr bi-meʾs̱ûri’l-ḫiṭâb ) adını verdiği bu çalışma babasının kitabından daha fazla rağbet görmüştür (bk. FİRDEVSÜ’l-AHBÂR ). Şehredâr b. Şîrûye Receb 558’de (Haziran 1163) Hemedan’da vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 266 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:deylemi-sehredar-b-siruye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=deylemi-sehredar-b-siruye, https://islamansiklopedisi.org.tr/deylemi-sehredar-b-siruye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=deylemi-sehredar-b-siruye (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 558,
+    "start_ce": 1163,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=deylemi-sehredar-b-siruye, URL: https://islamansiklopedisi.org.tr/deylemi-sehredar-b-siruye || DİA birth place: Hemedan || DİA death place: Hemedan || DİA death-date string: (ö. 558/1163) || DİA categories: hadis > rivayet > isnâd || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004095"
+  ],
+  "students": [
+    "iac:person-00003366",
+    "iac:person-00006826"
+  ]
+}

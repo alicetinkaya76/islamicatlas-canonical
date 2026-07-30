@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00001736",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Celâl Amâsî"
+    },
+    "description": {
+      "tr": "Ali Çelebizâde Alâeddin Hasan Çelebi’nin oğlu, meşhur hattat Şeyh Hamdullah’ın dayısıdır. Oğulları Mehmed Cemâleddin ve Celâlzâde Muhyiddin efendiler de devrin hattatlarındandır. “Celâl oğulları” diye anılan bu iki hattatla akrabası ve talebesi Abdullah b. İlyâs Efendi (Abdullah Amâsî), Anadolu’nun yedi üstadından (esâtize-i Rûm) kabul edilir. Celâl Amâsî hat sanatını Hayreddin Mar‘aşî ile beraber Yahyâ Sûfî Çelebi’den bir müddet meşkettikten sonra Fettâhî Yahyâ Nîsâbûrî’den çeşitli hatları öğrenerek icâzet aldı. Hatla beraber Tokatlıoğlu Cemâleddin Yûsuf Çelebi’den ilim tahsil etti. II. Bayezid Amasya valisi olunca onun yakınları arasına girdi. Bayezid tahta çıktığı zaman kendisini İstanbul’a davet etti. Celâl Amâsî bir süre İstanbul’da kaldıktan sonra Amasya’ya geri döndü. Amasya Valisi Şehzade Ahmed’e hat hocası oldu. 9 Zilhicce 893’te (14 Kasım 1488) arefe günü burada vefat etti. Osmanlı hat ekolünün doğuşunda önemli rolü olan Celâl Amâsî’nin kendine has bir tavrı vardı. Bu tarihlerde hat sanatı alanında önemli gelişmelere sahne olan Amasya’da iki hattat etrafında mektep teşekkül etmişti. Bunlardan biri Hayreddin Mar‘aşî, diğeri de Celâl Amâsî idi. Osmanlı-Türk hattatları bu iki koldan gelmiştir. Hayreddin Mar‘aşî kolu İstanbul’da Şeyh Hamdullah mektebiyle devam edip bugüne kadar bütün İslâm âlemine yayılarak hâkim üslûp olmuştur. Celâl Amâsî kolu ise Amasya’da kısa bir müddet devam etmiş, Şeyh Hamdullah mektebinin daha çok rağbet görmesi sebebiyle daha sonra ilerleyememiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 7. cildinde, 241 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:celal-amasi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=celal-amasi, https://islamansiklopedisi.org.tr/celal-amasi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:celal-amasi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/celal-amasi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:47Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:47Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=celal-amasi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 893,
+    "start_ce": 1488,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=celal-amasi, URL: https://islamansiklopedisi.org.tr/celal-amasi || DİA death place: 893 || DİA death-date string: (ö. 893/1488) || Chunk count: 1"
+}

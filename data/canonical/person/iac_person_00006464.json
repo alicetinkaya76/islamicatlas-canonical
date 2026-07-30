@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00006464",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "RÜKÂNE b. ABDÜYEZÎD",
+      "ar": "ركانة بن عبد يزيد"
+    },
+    "originalScript": {
+      "ar": "ركانة بن عبد يزيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Rükâne b. Abdiyezîd b. Hâşim el-Kureşî el-Muttalibî"
+      ]
+    },
+    "description": {
+      "tr": "Soyu Abdümenâf’ta Resûl-i Ekrem ile birleşir. Babası ve annesi Acle bint Aclân el-Leysiyye de sahâbîdir. Kureyş’in en güçlü pehlivanı olan ve İslâmiyet’in ilk yıllarında Hz. Peygamber’le tuttuğu güreşlerle tanınan Rükâne’nin bu güreşlerde yenildiği takdirde İslâmiyet’i kabul edeceğine, fakat her seferinde yenildiği halde müslüman olmayı kabul etmediğine dair rivayetlere kaynaklarda yer verilmiştir. Rükâne’nin Mekke’nin fethinde müslüman olduğu, ardından Medine’ye yerleştiği, Resûl-i Ekrem’in ona Hayber gelirlerinden 50 vesk verdiği belirtilmektedir. Rükâne’nin hayatıyla ilgili bilinen bir olay da eşi Süheyme bint Uveymir’i bir defada üç talâkla boşamasıdır. Daha sonra yaptığına pişman olmuş, Resûl-i Ekrem’e gelerek durumu arzetmiş, Resûl-i Ekrem’in kaç talâkla boşamaya niyet ettiğini sorması üzerine bir talâkı kastettiğini söylemiş, Resûl-i Ekrem de o takdirde iki talâkla evliliğini sürdürebileceğini belirtmiştir. Onun ikinci talâk hakkını Hz. Ömer döneminde, üçüncüsünü de Hz. Osman zamanında kullanarak Süheyme’yi boşadığı nakledilmektedir ( Müsned , I, 265; Ebû Dâvûd, “Ṭalâḳ”, 13, 14; Tirmizî, “Ṭalâḳ”, 2). Hz. Osman devrinde vefat ettiğine dair rivayetler bulunmakla beraber 41 (661) veya 42’de (662) Medine’de öldüğü kaydedilen Rükâne’nin oğlu Yezîd, kardeşi Uceyr ve Ca‘fer de sahâbîdir. Rükâne Resûl-i Ekrem’den az sayıda hadis rivayet etmiş, oğulları Yezîd ve Muhammed, torunu Ali b. Yezîd, kardeşi Uceyr’in oğlu Nâfi‘ de kendisinden rivayette bulunmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 2008 yılında İstanbul’da basılan 35. cildinde, 284-285 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:rukane-b-abduyezid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=rukane-b-abduyezid, https://islamansiklopedisi.org.tr/rukane-b-abduyezid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:51Z",
+    "modified": "2026-05-04T15:34:51Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=rukane-b-abduyezid (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Muttalibî"
+  ],
+  "death_temporal": {
+    "start_ah": 42,
+    "start_ce": 662,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=rukane-b-abduyezid, URL: https://islamansiklopedisi.org.tr/rukane-b-abduyezid || DİA death-date string: (ö. 42/662 [?]) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

@@ -1,0 +1,82 @@
+{
+  "@id": "iac:person-00001124",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "A‘şâ Hemdân",
+      "ar": "أعشى همدان"
+    },
+    "originalScript": {
+      "ar": "أعشى همدان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Musabbih Abdurrahmân (b. Abdillâh) b. Hâris"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Yemenli Cüşem kabilesinin Hemdân kolundan olup 30 (650) yıllarında Kûfe’de doğdu. Önceleri bir müddet kıraat ve fıkıhla meşgul olduysa da sonradan kendini tamamen şiire verdi ve bu sahada meşhur oldu. Ünlü muhaddis Şa‘bî’nin hem eniştesi hem de kayınbiraderidir. Haccâc’ın 61 (680-81) yılında Deylemîler’e karşı gönderdiği orduya o da katıldı ve esir düştü. Yanında esir olarak bulunduğu Deylemî’nin kızı ona âşık olunca oradan kaçırarak hürriyetine kavuşturdu. A‘şâ daha sonra doğu taraflarına sefere çıkan orduya katılarak Afganistan’ın güneyindeki Mukran’a kadar gitti ve bir süre İsfahan’da kaldı. Haccâc’ın kumandanlarından olup daha sonra ona isyan eden Yemenli Abdurrahman b. Eş‘as’ı hem bilfiil hem de şiiriyle destekledi. Abdurrahman’ı öven ve Haccâc’ı yeren şiirler söyledi. Deyrülcemâcim Savaşı’nda İbnü’l-Eş‘as Haccâc’a yenilince kaçıp kurtuldu; fakat aralarında A‘şâ’nın da bulunduğu bazı taraftarları esir düştü. Haccâc ona kendisi hakkındaki hicviyelerini hatırlattığı zaman bağışlanma ümidiyle irticâlen bir methiye söylediyse de canını kurtaramadı ve 702 yılında öldürüldü. Sade bir üslûba sahip olan A‘şâ kahramanlık, hiciv, gazel ve hikemiyat gibi değişik konularda şiirler söyledi. Bu şiirlerde katıldığı savaşları, esirlikteki hayatını ve başından geçen olayları dile getirdi. Bu sebeple şiirlerinde zamanın siyasî ve dinî akımları açıkça görülmektedir. Bazı dilciler klasik Arap şiiri tarzına bağlılığı sebebiyle onu takdir ederler. Asmaî tarafından şiirlerinin bir divan halinde toplandığı rivayet edilmekle beraber (bk. Sezgin, II, 345) bu divanın günümüze kadar gelip gelmediği henüz bilinmemektedir. Ancak R. Geyer, el-Eġānî ve diğer bazı kaynaklardaki bir kısım kıtalarını ve on beş uzun kasidesini bir araya getirerek A‘şâ lakaplı diğer şairlerin şiirleriyle birlikte The Dīwān of al-Aʿshā adıyla Londra’da yayımladı (1928). Hasan Îsâ Ebû Yâsîn ise Dîvânü Aʿşâ Hemdân ve aḫbâruh adlı çalışmasında onun daha fazla şiirini tesbit etti. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 545-546 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:asa-hemdan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=asa-hemdan, https://islamansiklopedisi.org.tr/asa-hemdan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:5201",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5201, heading_ar=أعشى همدان",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=asa-hemdan (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5201]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5201 (heading_ar=أعشى همدان) via Track A (DİA→Alam xref bridge). dt=Yemenli şair, Kûfe'de yaşamış ve kendi döneminin en iyi şairleri arasında yer al"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 61,
+    "start_ce": 680,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 83,
+    "start_ce": 702,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=asa-hemdan, URL: https://islamansiklopedisi.org.tr/asa-hemdan || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5201] || DİA birth place: Kûfe || DİA death-date string: (ö. 83/702) || DİA categories: fıkıh > rivayet > şiir || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5201, heading_ar=أعشى همدان, dt=Yemenli şair, Kûfe'de yaşamış ve kendi döneminin en iyi şairleri arasında yer almıştır."
+}

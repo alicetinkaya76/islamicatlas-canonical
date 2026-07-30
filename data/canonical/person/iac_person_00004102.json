@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00004102",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN ZİYÂD en-NÎSÂBÛRÎ",
+      "ar": "ابن زياد النيسابوري"
+    },
+    "originalScript": {
+      "ar": "ابن زياد النيسابوري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Bekr Abdullāh b. Muhammed b. Ziyâd en-Nîsâbûrî"
+      ]
+    },
+    "description": {
+      "tr": "238 (852) yılının ilk aylarında Nîşâbur’da doğdu. Tahsil için Horasan, Irak, Dımaşk, Mısır ve Hicaz’a gitti. Öğrenimini tamamlayınca Bağdat’a yerleşti. Hadis hocaları arasında Zühlî, Abdullah b. Hâşim et-Tûsî, Ebû Zür‘a er-Râzî, İbn Vâre, Za‘ferânî, Rebî‘ b. Süleyman el-Murâdî, Müzenî, Bekkâr b. Kuteybe, Yûnus b. Abdüla‘lâ es-Sadefî gibi âlimler bulunmaktadır. Ayrıca Müzenî, Rebî‘, Za‘ferânî ve Ebû Abdullah İbn Abdülhakem’den fıkıh öğrenimi gördü. Güvenilir bir râvi olması yanında fıkıh meselelerini ve sahâbe ihtilâflarını da iyi bilen İbn Ziyâd kendi devrinde Irak Şâfiîleri’nin lideri durumundaydı. Nevevî onu, mezhep imamının usul ve kaidelerine bağlı olarak ictihad yapan “ashâbü’l-vücûh”tan sayar. Dârekutnî, hocaları arasında hadisin sened ve metinlerini ondan daha iyi bilen, fıkıh sahasında da ondan üstün olan birini görmediğini belirtmektedir. Dârekutnî’den başka İbn Şâhin, Da‘lec b. Ahmed, İbnü’l-Muzaffer, Muhallis, İbn Ukde, Hamza el-Kinânî ve Ebû Ali en-Nîsâbûrî gibi birçok âlim kendisinden hadis rivayet etmiştir. 4 Rebîülâhir 324’te (1 Mart 936) vefat eden İbn Ziyâd, Hatîb el-Bağdâdî ile İbnü’l-Cevzî’nin belirttiğine göre Bağdat’taki Bâbülkûfe mevkiinde defnedilmiştir. İsnevî Nîşâbur’da öldüğünü söylüyorsa da ona zaman ve mekân bakımından daha yakın olan Hatîb el-Bağdâdî’nin tesbiti doğru olmalıdır. Kaynaklarda İbn Ziyâd’ın çeşitli eserler yazdığı belirtilmekle birlikte Müzenî’nin el-Muḫtaṣar ’ıyla ilgili Ziyâdât ʿalâ Muḫtaṣari’l-Müzenî adlı kitabından başka herhangi bir eserinin adı zikredilmemektedir. İbnü’l-İmâd, İsnevî’ye atıfta bulunarak Kitâbü’z-Ziyâdât yerine Kitâbü’r-Ribâ adlı bir eserini kaydediyorsa da İsnevî yalnızca birinci eserin adını vermektedir. İbnü’l-İmâd’ın muhtemelen bir hatadan kaynaklanan bu kaydı sebebiyle Ömer Rızâ Kehhâle de bunları iki ayrı eser olarak zikretmiştir ( Muʿcemü’l-müʾellifîn , VI, 119). İbn Ziyâd’ın ayrıca Dârü’l-kütübi’z-Zâhiriyye’de bir mecmua içinde (nr. 18, vr. 134-151) hadise dair el-Fevâʾid adlı bir eserinin kayıtlı olduğu belirtilmektedir (Elbânî, s. 143). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 468 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-ziyad-en-nisaburi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-ziyad-en-nisaburi, https://islamansiklopedisi.org.tr/ibn-ziyad-en-nisaburi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:24Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:24Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:24Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-ziyad-en-nisaburi (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T12:58:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Nîsâbûrî"
+  ],
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 324,
+    "start_ce": 936,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-ziyad-en-nisaburi, URL: https://islamansiklopedisi.org.tr/ibn-ziyad-en-nisaburi || DİA birth place: Nîşâbur || DİA death-date string: (ö. 324/936) || DİA categories: hadis > fıkıh > rivayet || Chunk count: 1",
+  "active_in_places": [
+    "iac:place-00003525"
+  ],
+  "teachers": [
+    "iac:person-00001418",
+    "iac:person-00003610",
+    "iac:person-00005954",
+    "iac:person-00006377",
+    "iac:person-00006538",
+    "iac:person-00007772",
+    "iac:person-00007896"
+  ],
+  "students": [
+    "iac:person-00001915",
+    "iac:person-00001934",
+    "iac:person-00002126",
+    "iac:person-00003151",
+    "iac:person-00004005",
+    "iac:person-00004069",
+    "iac:person-00004286",
+    "iac:person-00005257"
+  ]
+}

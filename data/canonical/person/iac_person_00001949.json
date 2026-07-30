@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00001949",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DÂVÛD-i HALVETÎ",
+      "ar": "داود خلوتى"
+    },
+    "originalScript": {
+      "ar": "داود خلوتى"
+    },
+    "description": {
+      "tr": "Bolu’nun Mudurnu kazasında doğdu. Bağdat’ta tahsil gördükten sonra Amasya’ya giderek Seyyid Yahyâ-yı Şirvânî’nin halifelerinden Habîb Karamânî’ye (ö. 902/1497) intisap etti. Bir süre sonra şeyhi tarafından Halvetîliği yaymak üzere Mudurnu’ya gönderildi ve orada vefat etti. Devrinin önemli âlim ve şeyhlerinden biri olduğu anlaşılan Dâvûd-i Halvetî’nin İsfendiyaroğulları nezdinde büyük itibarı vardı. Nitekim İsfendiyaroğulları Hükümdarı İsmâil Bey’in kardeşi ve rakibi olup Kızıl Ahmed diye bilinen Emîr Ahmed’in kendisinden bazı tasavvufî meselelerin izahını yapan bir eser yazmasını istemesi bunu açıkça göstermektedir. Taşköprizâde, Kızıl Ahmed’in Dâvûd-i Halvetî’ye bir mektup göndererek ondan “devâir-i hams” hakkında bilgi istediğini, şeyhin de buna cevap olarak Gülşen-i Tevhîd adını verdiği büyük bir kitap yazdığını, Türkçe ve Arapça ile karışık olarak telif edilen bu eserin tarikat ehli arasında çok rağbet gördüğünü kaydeder. Eserin “Sebeb-i Te’lîf” bölümünde ifade edildiğine göre de Dâvûd-i Halvetî Kızıl Ahmed’in isteği üzerine mensur küçük bir risâle yazarak ona okumuş, bu risâleyi pek beğenen Kızıl Ahmed’in arzusu üzerine daha sonra aynı konuda manzum olarak Gülşen-i Tevhîd adlı eserini kaleme almıştır. Eserin dörtte birini atvâr-ı seb‘a konusu teşkil eder; diğer bölümlerde ise bazı âyet ve hadislerle Hz. Ali’nin ve Ebû Saîd-i Ebü’l-Hayr, Şehâbeddin es-Sühreverdî, Muhyiddin İbnü’l-Arabî, Mevlânâ Celâleddin, Seyyid Yahyâ-yı Şirvânî, Habîb Karamânî gibi ünlü sûfîlerin sözleri tercüme ve şerhedilir. Başlık şeklinde alınan bu sözlerin tercüme ve şerhleri manzum olarak yapılmıştır. Genellikle mesnevi tarzında kaleme alınan Gülşen-i Tevhîd yer yer kaside, gazel ve rubâîler ihtiva etmektedir. Eserde tasavvufî-ahlâkî konuları işleyen bazı hikâyeler de yer almaktadır. Necati Elgin tarafından Konya Mevlânâ Müzesi Kütüphanesi’ndeki (nr. 5694) 1042 (1633) tarihli nüshaya dayanılarak ilim âlemine tanıtılan eserin, Dâvûd-i Halvetî’nin vefat tarihi olan 913’te (1507) istinsah edilmiş diğer bir nüshası ile istinsah tarihi bilinmeyen bir başka nüshası Süleymaniye Kütüphanesi’ndedir (Hacı Mahmud, nr. 3329, 291 varak; Reşid Efendi, nr. 427, 219 varak). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 28 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:davud-i-halveti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=davud-i-halveti, https://islamansiklopedisi.org.tr/davud-i-halveti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:davud-i-halveti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/davud-i-halveti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:51Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=davud-i-halveti (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 913,
+    "start_ce": 1507,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=davud-i-halveti, URL: https://islamansiklopedisi.org.tr/davud-i-halveti || DİA death place: Bağdat || DİA death-date string: (ö. 913/1507) || DİA categories: şiir > tasavvuf > hadis || Chunk count: 1"
+}

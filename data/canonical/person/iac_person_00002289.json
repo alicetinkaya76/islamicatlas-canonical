@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00002289",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "EBÛ UBEYD es-SEKAFÎ",
+      "ar": "أبو عبيد الثقفي"
+    },
+    "originalScript": {
+      "ar": "أبو عبيد الثقفي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ubeyd b. Mes‘ûd b. Amr es-Sekafî"
+      ]
+    },
+    "description": {
+      "tr": "Muhtâr es-Sekafî’nin babasıdır. Hz. Peygamber zamanında müslüman olduğu rivayet edilen Ebû Ubeyd, Hz. Ömer’in hilâfetinin ilk günlerinde tarih sahnesinde görülmektedir. Hz. Ebû Bekir’in hilâfetinin sonlarında Irak’a gönderilen İslâm ordusu, güçlü Sâsânî kuvvetleri karşısında takviye gücü beklemekteydi. Onun vefatından sonra Hz. Ömer Medine Mescidi’nde biatları kabul ederken müslümanları Irak cephesindeki mücahidlere yardıma çağırdı. Medine halkının çekingen davrandığı bu davete dördüncü gün ilk icabet eden Ebû Ubeyd oldu ve 1000 kişilik gönüllüler birliğinin kumandanlığına getirildi. Hz. Ömer tarafından techiz edilen bu takviye birliği asıl kuvvetlere Nemârık’ta katıldı. Ebû Ubeyd, Câbân ve Merdânşah kumandasındaki Sâsânî ordusuna karşı ilk zaferini burada kazandı ve bu iki kumandanı esir aldı. Kesker yakınlarında bir diğer Sâsânî birliğini yenerek hazinelerini ele geçirdi. Dağılan düşman kuvvetlerinin peşine düştü ve meşhur İranlı kumandanlar Rüstem ve Boran’ın gönderdikleri yeni birlikleri Sakatiye’de hezimete uğratarak bol miktarda ganimet elde etti. Gönderdiği birlikler vasıtasıyla civar bölgeleri itaat altına aldı. Hîre yakınlarında Câlînûs kuvvetlerini de mağlûp etmesi üzerine Rüstem bu orduyu yeni kuvvetler ve birkaç fille takviye ederek tekrar Ebû Ubeyd üzerine gönderdi. Ordusunu Fırat nehri üzerindeki bir köprüden (Ebû Ubeyd Köprüsü) düşmanın bulunduğu tarafa geçirmeye karar veren ve bu kararı benimsemeyen arkadaşlarını korkaklıkla suçlayan Ebû Ubeyd, ordu karşı yakaya geçtikten sonra köprüyü yıktırdı. İki ordu arasında şiddetli bir çarpışma başladı. Müslüman süvariler fillerden ürken atlarına hâkim olamadılar. Savaş meydanının darlığı ve köprünün yıkılmış olması gibi sebeplerle manevra imkânı kalmayınca çarpışma müslümanların aleyhine gelişti. Bunun üzerine Ebû Ubeyd filleri bertaraf etmekten başka çare kalmadığını düşündü ve yaya olarak üzerlerine hücum etti. Ancak bu da sonuç vermedi; hortumunu keserek devirdiği bir filin altında şehid oldu. Müslümanların çoğu da hayatlarını kaybettiler. Köprü Muharebesi (13/634) diye bilinen bu olay İslâm kuvvetlerinin bu cephede ilk yenilgisidir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 249 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-ubeyd-es-sekafi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-ubeyd-es-sekafi, https://islamansiklopedisi.org.tr/ebu-ubeyd-es-sekafi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-ubeyd-es-sekafi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-ubeyd-es-sekafi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:6537",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=6537, heading_ar=أبو عبيد الثقفي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:57Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:57Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:57Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-ubeyd-es-sekafi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[6537]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=6537 (heading_ar=أبو عبيد الثقفي) via Track A (DİA→Alam xref bridge). dt=Komutan, cesaretli bireylerden"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Sekafî"
+  ],
+  "death_temporal": {
+    "start_ah": 13,
+    "start_ce": 634,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-ubeyd-es-sekafi, URL: https://islamansiklopedisi.org.tr/ebu-ubeyd-es-sekafi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[6537] || DİA death-date string: (ö. 13/634) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=6537, heading_ar=أبو عبيد الثقفي, dt=Komutan, cesaretli bireylerden"
+}

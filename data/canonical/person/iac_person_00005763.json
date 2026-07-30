@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00005763",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MUHRİZ b. NADLE",
+      "ar": "محرز بن نضلة"
+    },
+    "originalScript": {
+      "ar": "محرز بن نضلة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Nadle el-Ahrem Muhriz b. Nadle (Nâdıle) b. Abdillâh el-Esedî el-Kureşî"
+      ]
+    },
+    "description": {
+      "tr": "Yaklaşık 590 yılında Mekke’de doğdu. Ahrem lakabıyla ve “fârisü’n-nebî” unvanıyla bilinir. Babasının adının Vehb olduğu da kaydedilir. Kardeşi Muhammed de müslüman olup Medine’ye hicret etmiştir. İlk müslümanlardan olan Muhriz müşriklerin ezâ ve cefalarına metanetle karşı koydu ve inancından tâviz vermedi. Hz. Peygamber’in yanından hiç ayrılmayıp onu müdafaa edenler arasında yer aldı. Hicrete izin verilmesinden sonra diğer muhacirlerle beraber Medine’ye göç etti ve Abdüleşheloğulları mahallesine yerleşti. Resûl-i Ekrem onu ensardan Umâre b. Hazm ile kardeş yaptı. Bedir ve Uhud gazveleri başta olmak üzere Resûlullah’ın bütün seferlerine katılan Muhriz b. Nadle savaşlarda çok önemli hizmetlerde bulundu. 6 (627) yılında Gatafân kabilesinin Fezâre kolundan Uyeyne b. Hısn kumandasında kırk kişilik bir kuvvet, Medine yakınındaki Gābe’de Hz. Peygamber’in develerinin yayıldığı meraya baskın düzenleyip develeri kaçırmıştı. Resûl-i Ekrem’in onların arkasından gönderdiği Sa‘d b. Zeyd kumandasında sekiz kişilik öncü süvari birliğinde Muhriz de vardı. Müslümanların kendilerine yetişmek üzere olduğunu gören Uyeyne ve arkadaşları pusu kurup beklemeye başladılar. Müslümanlar arasında yer alan Seleme b. Ekva‘ bu tehlikeli durumu sezerek müşriklere saldırmakta olan Muhriz’i durdurmaya çalıştı. Fakat Muhriz ona, “Allah’a ve âhiret gününe inanıyor, cennet ve cehennemin hak olduğunu biliyorsan benimle şehâdet arasına girme, şehid olmamı engelleme!” diyerek hücum etti ve Abdurrahman b. Uyeyne el-Fezârî tarafından şehid edildi. Bazı kaynaklarda onu şehid edenin Mes‘ade b. Hakeme olduğu kaydedilir (İbn Abdülber, III, 1365). Muhriz’in cesedi Medine’ye götürülerek Bakī‘ Kabristanı’na defnedildi. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 45 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:muhriz-b-nadle",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=muhriz-b-nadle, https://islamansiklopedisi.org.tr/muhriz-b-nadle",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:muhriz-b-nadle",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/muhriz-b-nadle",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:8901",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8901, heading_ar=محرز بن نضلة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:43Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:43Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=muhriz-b-nadle (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8901]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8901 (heading_ar=محرز بن نضلة) via Track A (DİA→Alam xref bridge). dt=Sahâbî, onların şücaalarından biridir."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Esedî; Kureşî"
+  ],
+  "death_temporal": {
+    "start_ah": 6,
+    "start_ce": 627,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=muhriz-b-nadle, URL: https://islamansiklopedisi.org.tr/muhriz-b-nadle || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8901] || DİA birth place: Mekke || DİA death-date string: (ö. 6/627) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=8901, heading_ar=محرز بن نضلة, dt=Sahâbî, onların şücaalarından biridir."
+}

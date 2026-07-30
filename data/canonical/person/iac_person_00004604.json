@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00004604",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İYÂS b. MUÂVİYE",
+      "ar": "إياس بن معاوية"
+    },
+    "originalScript": {
+      "ar": "إياس بن معاوية"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Vâsile İyâs b. Muâviye b. Kurre b. İyâs"
+      ]
+    },
+    "description": {
+      "tr": "46 (666) yılında doğdu. Dedesi sahâbî, babası tâbiîndendir. Basra’da yetişen İyâs babasının yanı sıra Enes b. Mâlik, Saîd b. Müseyyeb, Hasan-ı Basrî ve Muhammed b. Sîrîn gibi âlimlerden tefsir, fıkıh, hadis dersleri aldı. Abdülmelik b. Mervân döneminde bir ara Dımaşk’a gitti ve orada zekâsıyla dikkati çekti. Ömer b. Abdülazîz’in halife olması üzerine onu tebrik etmek için tekrar Dımaşk’a gitti. Ömer b. Abdülazîz, Basra Valisi Adî b. Ertât’a mektup yazarak İyâs’ı veya Kāsım b. Rebîa’yı kadı tayin etmesini istedi. Kāsım b. Rebîa, İyâs’ın bu göreve daha lâyık olduğunu söyleyince İyâs istemediği halde görevi kabul etti. Bir süre görevine devam eden İyâs’ın, bir mecliste üç talâkla yapılan boşamanın kesin ayrılma (beynûnet-i kübrâ) ifade edeceğine dair görüşü dolayısıyla Vali Adî b. Ertât’la arası açıldı. Bunun üzerine görevinden azledildi. Basra’dan ayrılarak Vâsıt’a giden İyâs burada Vali Ömer b. Hübeyre tarafından muhtesip olarak görevlendirildi. 122 (740) yılında vefat etti; 121’de (739) öldüğü de zikredilmektedir. Sika bir râvi ve iyi bir fakih olan İyâs özellikle sezgisi ve zekâsıyla tanınmış, bu özellikleri dolayısıyla “İyâs’ın ferâseti” ve “İyâs gibi zeki” söyleyişleriyle darbımesellere konu olmuştur. Kaynaklarda bu hususta birçok rivayet nakledilmektedir. Kadılığı sırasında adalete önem verdiği, şâhitlerin güvenilir olmasına dikkat ettiği, davaları uzatmadan isabetli kararlarla sonuçlandırdığı, bazı kararlarının sonraki uygulamalara örnek teşkil ettiği kaydedilmektedir. Onun Vâsıt’a gelmesi halk arasında ilgi uyandırmış, İbn Şübrüme kendisini ziyaret ederek fıkhî birçok mesele hakkında görüşlerini sormuştur. Muhammed b. Aclân, Şu‘be b. Haccâc ve Hammâd b. Seleme kendisinden hadis rivayet edenler arasında yer almaktadır. İbnü’n-Nedîm, Medâinî’nin onun hakkında Aḫbâru İyâs b. Muʿâviye adıyla bir eser yazdığını belirtir ( el-Fihrist , s. 117). Muhammed b. Ali b. Sinân, el-Ḳāḍî İyâs b. Muʿâviye ve’l-ḳażâ bi’l-firâse adlı bir doktora çalışması yapmıştır (Câmiatü’l-İmâm Muhammed b. Suûd el-İslâmiyye el-ma‘hedü’l-âlî li’l-kazâ, 1409 h.). Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 23. cildinde, 498 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:iyas-b-muaviye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=iyas-b-muaviye, https://islamansiklopedisi.org.tr/iyas-b-muaviye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:30Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=iyas-b-muaviye (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 46,
+    "start_ce": 666,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 122,
+    "start_ce": 740,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=iyas-b-muaviye, URL: https://islamansiklopedisi.org.tr/iyas-b-muaviye || DİA death place: Basra || DİA death-date string: (ö. 122/740 [?]) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002515",
+    "iac:person-00003260",
+    "iac:person-00006610"
+  ],
+  "students": [
+    "iac:person-00005670"
+  ]
+}

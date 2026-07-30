@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000491",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH b. ATÎK",
+      "ar": "عبد الله بن عتيك"
+    },
+    "originalScript": {
+      "ar": "عبد الله بن عتيك"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdullāh b. Atîk el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "Medineli olduğu için el-Ensârî nisbesiyle anılan Abdullah, Hazrec kabilesindendir. Uhud Savaşı’ndan itibaren bütün savaşlara katıldı. Hz. Ebû Bekir’in halifeliği sırasında meydana gelen Yemâme Savaşı’nda şehid oldu. Kaynaklarda Abdullah b. Atîk Seriyyesi adıyla geçen ve farklı şekillerde anlatılan bir baskının ya da suikast girişiminin kumandanı olarak tanınır. Bu baskın, Hz. Peygamber aleyhindeki her teşebbüsü bütün gücüyle destekleyen Benî Nadir yahudilerinden Ebû Râfi‘ Sellâm b. Ebü’l-Hukayk’ı öldürmek amacıyla ensardan Hazrec kabilesine mensup sahâbîlerin teklifi üzerine tertiplenmiştir. Hayber civarında kendisine ait müstahkem bir binada oturan bu zengin yahudi Mekke’deki Kureyşliler’i ve bölgedeki diğer Arap kabilelerini müslümanlara karşı kışkırtarak Hendek Savaşı’nı planlayanlardan birisiydi. Hz. Peygamber İbrânîce bilen Abdullah b. Atîk’in kumandasında ensardan beş sahâbîyi onu öldürmekle görevlendirdi. Abdullah ve arkadaşları bir baskın sonucu Ebû Râfi‘i evinde öldürüp Medine’ye döndüler. Bazı kaynaklarda 3. yılın Cemâziyelâhir ayında (Aralık 624) veya 4. yılın Zilhicce ayında (Mayıs 626) olduğuna dair rivayetler bulunmakla birlikte (Taberî, II, 493; Vâkıdî, I, 391), İbn Hişâm’ın naklettiğine göre bu seriyye Hendek (Şevval-Zilkade 5 / Mart-Nisan 627) ve Benî Kurayza (Zilhicce 5 / Mayıs 627) gazvelerinden sonra gerçekleşmiştir ( es-Sîre , II, 273). Nitekim İbn Sa‘d da seriyyenin tarihini 6. yılın Ramazan ayı (Ocak-Şubat 628) olarak vermektedir ( eṭ-Ṭabaḳāt , II, 91). Yemâme savaşında (12/633) şehid düşen Abdullah b. Atîk’ten sadece bir hadis rivayet edilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 86 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız. Bu madde en son 03.09.2025 tarihinde güncellenmiştir."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-b-atik",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-b-atik, https://islamansiklopedisi.org.tr/abdullah-b-atik",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-b-atik",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-b-atik",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-b-atik (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî"
+  ],
+  "death_temporal": {
+    "start_ah": 12,
+    "start_ce": 633,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-b-atik, URL: https://islamansiklopedisi.org.tr/abdullah-b-atik || DİA death-date string: (ö. 12/633) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

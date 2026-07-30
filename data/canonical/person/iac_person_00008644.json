@@ -1,0 +1,85 @@
+{
+ "@id": "iac:person-00008644",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn Abī al-Diyāf",
+   "tr": "İbn Ebî ed-Diyâf",
+   "ar": "ابن أبي الضياف"
+  },
+  "originalScript": {
+   "ar": "ابن أبي الضياف"
+  },
+  "description": {
+   "tr": "Tunuslu vezir, muverrihlerin kâtiplerinden.",
+   "en": "Tunisian vizier, among the historian scribes."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Ahmad b. Abī al-Diyāf b. Umar b. Ahmad b. Nasr, grandson of al-Mujadhdhab b. al-Bāhiyya al-ʿAwanī, of the tribe of Awlād ʿAwn, Abū al-ʿAbbās"
+  },
+  "altLabel": {
+   "tr": [
+    "Ahmmed b. Ebî ed-Diyâf b. Ömer b. Ahmmed b. Nasr, Müceddeb b. el-Bâhiye el-Avn vefâsı, Benî Evlâd Avn kabilesinden, Ebû el-Abbâs"
+   ],
+   "ar": [
+    "أحمد بن أبي الضياف بن عمر بن أحمد بن نصر حفيد المجذوب ابن الباهيالعوني، من قبيلة أولاد عون، أبو العباس"
+   ]
+  }
+ },
+ "profession": [
+  "vizier"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:617",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=617",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:35Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:35Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:35Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=617 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:617."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3770-8644) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003770 lehine yumuşak-silindi. Gerekçe: İbn Ebü'd-Dıyâf'ın Arapça adı, Tunus yeri, 1874 ölüm yılı özdeş; \"vizier\" ile tarihçi-devlet adamı rolleri aynı kişide birleşiyor (İthâf yazarı ve Tunus beyliği kâtibi)."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003770"
+ },
+ "death_temporal": {
+  "start_ah": 1291,
+  "start_ce": 1874,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=617, heading_ar=ابن أبي الضياف || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 36.81, 10.18",
+ "kunya": "أبو العباس"
+}

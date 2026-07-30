@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00000985",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ali Şîruganî"
+    },
+    "description": {
+      "tr": "Kaynaklarda adıyla birlikte zikredilen “şîruganî” kelimesinin ne anlama geldiği tesbit edilememiştir. İstanbul’da doğdu. Doğum tarihi, ailesi ve tahsili hakkında bilgi bulunmamakta ise de iyi bir mûsiki öğrenimi gördüğü anlaşılmaktadır. Gülşeniyye tarikatına intisap ederek tasavvufî bilgisini ilerletti. Şehremini’deki Hulvî Efendi Tekkesi şeyhi Sinan Efendi’nin 1107’de (1695-96) vefatı üzerine bu dergâha şeyh tayin edildi ve vefatına kadar bu görevde kaldı. Kabri aynı dergâhın hazîresindedir. Ölümünden sonra burası Şîruganî Tekkesi adıyla anılmaya başlandı. Güldeste’de Bursalı Muhzirzâde Sâlih Çelebi’den (ö. 1666) bahsedilirken, “İstanbul’da ilm-i mûsikînin peder ü mâderi üstâd-ı nâdirü’l-misl Gülşenî Derviş Ali’den ta‘lîm-i ezkâr ve esvât etmekle ...” şeklindeki ifadeye bakılarak Şîruganî’nin uzun bir hayat sürdüğü söylenebilir. IV. Mehmed devrinde (1648-1687) şöhretinin en parlak zamanını yaşayan Ali Şîruganî, tasavvuftaki mevkii yanında asıl haklı ününü mûsikide kazanmıştır. Yaptığı dinî ve din dışı bestelerle zamanının önemli bestekârları arasında yer almış, Atrabü’l-âsâr ’da belirtildiğine göre 600’ün üzerinde dinî, 100’ün üzerinde de din dışı eser bestelemiştir. Eserlerine, çeşitli el yazması güfte mecmualarında daha çok Dede, bazan da Dede Sinânî, Ali Dede, Derviş Ali, Derviş Ali Sinânî, Derviş Ali Halvetî, Dede-i Atîk adlarıyla rastlanmaktadır. Dede-i Atîk tabiri, büyük bir ihtimalle, Türk mûsikisinin diğer bir meşhur bestekârı olan ve kaynakların çoğunda Dede Efendi diye anılan Hamâmîzâde İsmâil Dede (ö. 1846) ile karıştırılmaması için kullanılmış olmalıdır. Savt, tesbih , tevşîh , durak ve ilâhilerden müteşekkil dinî bestelerinden yaklaşık 450’sinin güftesi tesbit edilmiştir. Zâkirler ve müezzinler tarafından büyük bir rağbetle okunan eserleri arasında durakları, dinî mûsikinin en parlak besteleri arasında sayılmaktadır. Dinî eserlerinde genellikle Abdülahad Nûri, Abdülkerim Fethî, Eşrefoğlu Rûmî, Îsâ Mahvî, Niyâzî-i Mısrî ve Şemseddin Sivâsî gibi mutasavvıf-şairlerle İkbâlî mahlasını kullanan Sultan II. Mustafa’nın şiirlerini bestelemiş, bunlardan yaklaşık yirmi beşinin notası günümüze ulaşmıştır. Ancak bestelediği murabba ve semâilerden hiçbiri zamanımıza ulaşmamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 454 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-sirugani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-sirugani, https://islamansiklopedisi.org.tr/ali-sirugani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ali-sirugani",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ali-sirugani",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:33Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-sirugani (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1126,
+    "start_ce": 1714,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-sirugani, URL: https://islamansiklopedisi.org.tr/ali-sirugani || DİA birth place: İstanbul || DİA death-date string: (ö. 1126/1714) || DİA categories: tasavvuf > tarikat || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "teachers": [
+    "iac:person-00003035"
+  ],
+  "students": [
+    "iac:person-00000850"
+  ]
+}

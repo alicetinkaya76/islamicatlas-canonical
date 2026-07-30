@@ -1,0 +1,74 @@
+{
+  "@id": "iac:person-00002606",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Eşrefzâde Ahmed Ziyâeddin"
+    },
+    "altLabel": {
+      "tr": [
+        "Gülzâr-ı Sulehâ adlı eseriyle tanınan mutasavvıf."
+      ]
+    },
+    "description": {
+      "tr": "1161’de (1748) Bursa’da doğdu. Babası Eşrefzâde Mehmed Fahreddin Efendi’dir. İlk dinî bilgilerini ailesinden aldı, döneminin âlim ve sanatkârlarından faydalandı. Kaltakçızâde Halil Efendi’den hüsn-i hat icâzeti aldı. Tasavvufî eğitimini, Zübdetü’l-beyân adlı tefsirin sahibi amcası Abdülkādir Necib Efendi’nin yanında tamamladı. Yâkubefendizâde Nûri’nin çocuksuz olarak vefatı üzerine Setbaşı’ndaki Çarşamba Dergâhı’nın şeyhliğine getirildi. Tekke şeyhliği yanında Emîr Sultan Camii’nin cuma vâizliği görevini de yürüten Ahmed Ziyâeddin genç yaşta vebadan öldü ve Eyüp Efendi Tekkesi mihrabı önüne defnedildi. Ahmed Ziyâeddin Efendi’nin tek eseri Gülzâr-ı Sulehâ ve Vefeyât-ı Urefâ adını taşımaktadır. İsmâil Belîğ’in Güldeste-i Riyâz-ı İrfân adlı eserine zeyil olarak kaleme alınan Gülzâr-ı Sulehâ 1135-1196 (1723-1782) yılları arasında Bursa’da vefat etmiş olan şeyh, vâiz, vali, müderris, dede, şair ve hattatların hal tercümelerini ihtiva etmektedir. 216 şahıs hakkında bilgi veren eser beş “gülbîn” ve beş “fasıl”a ayrılmıştır. Birinci gülbîn meşâyih, birinci fasıl vâizân, ikinci gülbîn mevâlî, ikinci fasıl müderrisîn, üçüncü gülbîn dedegân, üçüncü fasıl sulehâ, dördüncü gülbîn şuarâ, dördüncü fasıl nüdemâ, beşinci gülbîn hattâtân, beşinci fasıl mûsikişinâsân, tabîbân ve tîrendâzâna ayrılmıştır. Süleyman Hâlis’in Vefeyât ’ından faydalanılarak hazırlanan Gülzâr-ı Sulehâ ’da yer alan şairler şunlardır: Belîğ, Feyzî, Hakkī, Huldî, Levhî, Naîm, Râkım, Şeref. Kitapta elli iki sûfî eser ve menkıbeleriyle tanıtılmıştır. Bunlar arasında Niyâzî-i Mısrî’nin halifesi Gazzî Ahmed Efendi, Rûḥu’l-beyân sahibi İsmâil Hakkı Bursevî, Eşrefzâde İzzeddin Efendi gibi meşhur sûfîler de vardır. Gülzâr-ı Sulehâ ’nın Millî Kütüphane (FB, nr. 176), Bursa Eski Basma ve Yazma Eserler Kütüphanesi ile (Orhan Gazi, nr. 1018/2) Mehmed Şemseddin’de (Ulusoy) birer nüshası bulunmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 485-486 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:esrefzade-ahmed-ziyaeddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=esrefzade-ahmed-ziyaeddin, https://islamansiklopedisi.org.tr/esrefzade-ahmed-ziyaeddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:02Z",
+    "modified": "2026-05-04T15:39:53Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=esrefzade-ahmed-ziyaeddin (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1198,
+    "start_ce": 1784,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=esrefzade-ahmed-ziyaeddin, URL: https://islamansiklopedisi.org.tr/esrefzade-ahmed-ziyaeddin || DİA birth place: Bursa || DİA death place: Bursa || DİA death-date string: (ö. 1198/1784) || DİA categories: tefsir > tasavvuf || Chunk count: 1",
+  "birth_place": "iac:place-00015103",
+  "death_place": "iac:place-00015103"
+}

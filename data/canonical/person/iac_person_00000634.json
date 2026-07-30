@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00000634",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. EBZÂ",
+      "ar": "عبد الرحمن  بن أبزى"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن  بن أبزى"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdurrahmân b. Ebzâ el-Huzâî"
+      ]
+    },
+    "description": {
+      "tr": "Sahâbî olan babası da kendisi gibi Huzâaoğulları’nın âzatlısı idi. Mekke’de doğdu. Kur’ân-ı Kerîm üzerindeki derin bilgisi sebebiyle, efendisi ve Hz. Ömer’in Mekke valisi Nâfi‘ b. Abdülhâris, halife ile görüşmeye giderken onu yerine vekil bıraktı. Bu tercihin sebebini soran Ömer’e Nâfi‘, “Mekke halkı içinde Kur’an’ı en iyi okuyan ve ilâhî emirleri en iyi bilen odur” diye cevap vermiştir (bk. Müslim, “Ṣalâtü’l-müsâfirîn”, 269). Abdurrahman, Sıffîn’de Hz. Ali’ye biat eden ashap arasında yer aldı. Daha sonra Ali onu Horasan’a vali tayin etti (658). İbn Hibbân, Abdurrahman’ı tâbiîlerden sayar, ancak İmam Buhârî ve Ebû Hâtim gibi muhaddisler onun ashaptan olduğunu belirtmişlerdir; hatta Ebû Hâtim, Hz. Peygamber’in arkasında namaz kıldığını ifade etmiştir. Nitekim Resûlullah’ın dağıttığı ganimetlerden hisse aldığına dair kendi rivayeti de bunu göstermektedir (bk. Buhârî, “Selem”, 7). Doğrudan Hz. Peygamber’den rivayet ettiği hadislerden başka (bk. Müsned , III, 406-407), Ebû Bekir, Ali, Ömer, Ammâr, Übey b. Kâ‘b (bk. Müsned , V, 122-125) gibi büyük sahâbîlerden naklettiği rivayetleri Kütüb-i Sitte ’de yer almıştır. Kendisinden de oğulları Saîd ve Abdullah, ayrıca Şa‘bî, Ebû İshak es-Sebîî ve diğer bazı tâbiîler hadis rivayet etmişlerdir. Hayatının ileri dönemlerinde Kûfe’ye yerleşen Abdurrahman’ın nerede vefat ettiği bilinmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 159-160 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-ebza",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-ebza, https://islamansiklopedisi.org.tr/abdurrahman-b-ebza",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-ebza (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Huzâî"
+  ],
+  "death_temporal": {
+    "start_ah": 70,
+    "start_ce": 689,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-ebza, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-ebza || DİA birth place: Mekke || DİA death-date string: (ö. 70/689 civarı) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00002195",
+    "iac:person-00006501"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00005398",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mehmed Tulûî Efendi"
+    },
+    "description": {
+      "tr": "Bolu’nun Mudurnu kazasında doğdu. Müstakimzâde yetmiş yaşında öldüğünü bildirdiğine göre ( Tuhfe , s. 492) 1100 (1689) yılında doğmuş olmalıdır. Bir müddet sonra İstanbul’a gitti. İyi bir öğrenim görmesinin ardından Halvetiyye tarikatının kollarından Nasûhiyye’nin kurucusu Üsküdarlı Şeyh Mehmed Nasûhî Efendi’ye intisap etti. Mehmed Nasûhî Efendi’nin oğlu Şeyh Alâeddin Ali Efendi’den hilâfet aldı. Üsküdar’da Nalçacı Halil Efendi Tekkesi şeyhi Mehmed Efendi’nin 1155’te (1742) vefatı üzerine aynı tekkeye şeyh tayin edildi ve burada on beş yıl kadar şeyhlik yaptı. Memleketi Mudurnu’ya gittiği bir sırada orada hastalanarak “âsâr-ı hikmet” ibaresinin gösterdiği 1170 (1757) yılında vefat etti. Yerine damadı Hüseyin Efendi şeyh oldu. Mehmed Tulûî Efendi hattat Sarı Yahyâ Efendi’nin talebesi olmuş, sülüs ve nesihte ondan icâzet almıştır. Yazdığı şiirlerde Tulûî mahlasını kullanmıştır. Mehmed Tulûî Efendi’nin çok sayıda durak, ilâhi, tevşîh vb. bestelediği bildirilmekteyse de bestelediği eserlerden günümüze ancak güftesi Gafûrî’ye ait, “Sürüp dergâhına rûy-i siyâhım” mısraıyla başlayan ırak ve güftesi Yûnus Emre’ye ait, “Ben bende buldum çün Hakkı” mısraıyla başlayan segâh durakları gelebilmiştir. Mehmet Suphi Ezgi, bu iki durağın notasını neşrettiği eserlerinde (bk. bibl.) Mehmed Tulûî Efendi ile Akbaba İmamı Mehmed Zaîfî Efendi’yi birbirine karıştırmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 539 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-tului-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-tului-efendi, https://islamansiklopedisi.org.tr/mehmed-tului-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mehmed-tului-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mehmed-tului-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:39Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-tului-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1100,
+    "start_ce": 1689,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1170,
+    "start_ce": 1757,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mehmed-tului-efendi, URL: https://islamansiklopedisi.org.tr/mehmed-tului-efendi || DİA death place: 1155 || DİA death-date string: (ö. 1170/1757) || DİA categories: tarikat || Chunk count: 1"
+}

@@ -73,14 +73,23 @@ def test_libraryview_yazari_pid_ile_bagliyor():
 def test_her_kitap_muellifi_havuzda_var():
     books = json.loads(SHELF.read_text(encoding="utf-8"))["books"]
     havuz = {r["id"] for r in json.loads(POOL.read_text(encoding="utf-8"))["kisiler"]}
+    # H49: müellif yumuşak-silinmiş olabilir; o hâlde YÖNLENDİRME zinciriyle
+    # havuzdaki kazanana ulaşmalı. Ölçüldü: birleştirmeden hemen sonra 17
+    # kitabın 5'inin bağı kopmuştu; yönlendirme haritası bunu kapatıyor.
+    redir = {}
+    rp = REPO / "web" / "public" / "view-data" / "person_redirects.json"
+    if rp.is_file():
+        redir = json.loads(rp.read_text(encoding="utf-8"))["redirects"]
     eksik = []
     for b in books:
         pid = b.get("author_pid")
         if not pid:
             eksik.append(f"{b.get('pidnum')}: author_pid YOK")
             continue
-        if int(str(pid).rsplit("-", 1)[-1]) not in havuz:
-            eksik.append(f"{b.get('pidnum')}: {pid} havuzda yok")
+        n = int(str(pid).rsplit("-", 1)[-1])
+        hedef = int(redir.get(str(n), n))
+        if hedef not in havuz:
+            eksik.append(f"{b.get('pidnum')}: {pid} havuzda yok (yönlendirme sonrası {hedef})")
     assert not eksik, f"müellif bağı kurulamayan kitap: {eksik}"
 
 

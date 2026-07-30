@@ -1,0 +1,95 @@
+{
+ "@id": "iac:person-00000237",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Jabir ibn Zayd",
+   "tr": "Câbir b. Zeyd",
+   "ar": "جابر بن زيد"
+  },
+  "originalScript": {
+   "ar": "جابر بن زيد"
+  },
+  "altLabel": {
+   "en": [
+    "Abu al-Sha'tha Jabir ibn Zayd al-Azdi"
+   ],
+   "tr": [
+    "Ebü'ş-Şa'sâ Câbir b. Zeyd el-Ezdî"
+   ],
+   "ar": [
+    "أبو الشعثاء جابر بن زيد الأزدي"
+   ]
+  },
+  "description": {
+   "tr": "İbâdî fıkhının kurucusu ve erken sistematik fıkıh geleneğinin öncüsü || İbn Abbas ve Âişe'den ders alan Câbir, hadis isnadlarında kritik bir halkadır. || [Tarih notu] İbâdî ekolle bağlantısı bazı Sünnî geleneklerde tartışılır.",
+   "en": "Founder of Ibadi jurisprudence and early systematic fiqh || Jabir studied under Ibn Abbas and Aisha. His Ibadi school represents the 'third way' in early Islam. || [Historiographical note] His connection to the Ibadi school is affirmed by Ibadi sources but debated in some Sunni traditions.",
+   "ar": "مؤسس الفقه الإباضي || درس جابر على ابن عباس وعائشة"
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0054",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0054",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:55:58Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:55:58Z",
+  "modified": "2026-05-04T14:55:58Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:55:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0054 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (237-1656) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001656 lehine yumuşak-silindi. Gerekçe: 93/711'de ölen İbâzî fıkhının kurucu siması Câbir b. Zeyd her iki kayıtta da isim ve yıl olarak birebir aynıdır."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001656"
+ },
+ "birth_temporal": {
+  "start_ce": 639,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 711,
+  "approximation": "exact"
+ },
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q6035355",
+   "confidence": 1.0,
+   "method": "openrefine_v3",
+   "reviewed": false,
+   "note": "Auto-matched via OpenRefine recon (top result for 'Jabir ibn Zayd')."
+  }
+ ],
+ "note": "Promoted from science_layer.json scholar id=scholar_0054, lecture_week=n/a. || Key works: {'title': {'en': 'Dīwān Jābir', 'tr': 'Dîvânü Câbir', 'ar': 'ديوان جابر'}, 'year': 700, 'field': 'religious_sciences', 'significance': {'en': 'One of the earliest fiqh compilations, foundational to Ibadi jurisprudence', 'tr': 'En erken fıkıh derlemelerinden biri'}} || Modern parallel: Like an alternative constitutional scholar whose legal framework governs Oman to this day.",
+ "authored_works": [
+  "iac:work-00000079"
+ ]
+}

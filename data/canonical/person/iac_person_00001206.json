@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00001206",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Avfî"
+    },
+    "altLabel": {
+      "tr": [
+        "Nûrüddîn Muhammed b. Muhammed b. Yahyâ el-Avfî el-Hanefî İran edebiyatında ilk şuarâ tezkiresi olan Lübâbü’l-elbâb ’ın müellifi."
+      ],
+      "ar": [
+        "العوفي"
+      ]
+    },
+    "description": {
+      "tr": "567-572 (1171-1177) yılları arasında Buhara’da doğdu. Ashaptan Abdurrahman b. Avf’ın soyundan geldiği rivayet edilir. Babası Merv (veya Mâverâünnehir) kadısı, dedesi yine bu bölgenin kadısı ve ünlü bir hadis âlimi, dayısı Şerefüzzamân Mecdüddin, Batı Karahanlı Devleti hükümdarlarından Kılıç Tamgaç Han’ın hekimi idi. Avfî ilk tahsilini doğduğu şehirde tamamladıktan sonra bilgisini arttırmak ve yazacağı eserler için malzeme toplamak üzere Mâverâünnehir’i, Horasan’ı ve Hindistan’ın birçok şehrini dolaştı. 1201’de Semerkant’a gitti. Dayısı aracılığıyla Kılıç Tamgaç Han’ın hizmetine girerek veliahdı Kılıcarslan Hakan Nusretüddin’in münşîsi oldu. Semerkant’ta fazla kalmayıp önce Hârizm’e (1203), ardından Nesâ ve Nîşâbur’a gitti (1206). Nîşâbur’da birçok ilim adamıyla tanışma fırsatını buldu. Daha sonra İsfizâr ve Herat’a uğrayıp (1210) oradan 1215 yılına kadar kaldığı Sicistan’a geçti. Sicistan’dan büyük bir ihtimalle tekrar Buhara’ya döndü. Moğol tehlikesi karşısında Horasan, İndus ve Gucerât üzerinden Lahor’a ulaştı. Burada Gur Sultanı Şehâbeddin Muhammed’in memlük lerinden Melik Nâsırüddin Kabâce’ye intisap etti (1220). Kısa bir müddet sonra İran edebiyatında ilk şuarâ tezkiresi olan Lübâbü’l-elbâb ’ı yazarak Nâsırüddin Kabâce’nin veziri Aynülmülk Fahreddin Hüseyin’e ithaf etti. Avfî Lahor’da bulunduğu sırada bir taraftan Kanbâyat’ta kadılık yaparken diğer taraftan da Ebû Ali et-Tenûhî’nin (ö. 384/994) bir hikâyeler mecmuası mahiyetindeki el-Ferec baʿde’ş-şidde adlı eserini Farsça’ya çevirdi. 1228’de Delhi Sultanı Şemseddin İltutmış’ın Nâsırüddin Kabâce’yi yenmesi üzerine onun hizmetine girdi. Delhi’de daha önce Nâsırüddin Kabâce’nin emriyle yazmaya başladığı, Moğollar’dan önce İran’da hüküm süren hânedanlara ait 2000’i aşkın tarihî ve edebî hikâyeyi ihtiva eden Cevâmiʿu’l-ḥikâyât ve levâmiʿu’r-rivâyât adlı eserini tamamlayıp İltutmış’ın veziri Nizâmülmülk Muhammed b. Ebû Sa‘d el-Cüneydî’ye sundu (1228). Avfî’nin ölüm tarihi kesin olarak bilinmemekle birlikte 1232 yılına kadar yaşadığı tahmin edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 115-116 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:avfi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=avfi, https://islamansiklopedisi.org.tr/avfi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:8341",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=8341, heading_ar=العوفي",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=avfi (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[8341]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=8341 (heading_ar=العوفي) via Track A (DİA→Alam xref bridge). dt=Hadis ve dil ilmi âlimi"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hanefî"
+  ],
+  "death_temporal": {
+    "start_ah": 629,
+    "start_ce": 1232,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=avfi, URL: https://islamansiklopedisi.org.tr/avfi || El-Aʿlām (Ziriklī) cross-reference: alam_id=[8341] || DİA birth place: Buhara || DİA death-date string: (ö. 629/1232 [?]) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=8341, heading_ar=العوفي, dt=Hadis ve dil ilmi âlimi",
+  "active_in_places": [
+    "iac:place-00006398"
+  ]
+}

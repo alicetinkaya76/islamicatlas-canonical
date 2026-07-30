@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00002160",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Dülâme",
+      "ar": "أبو دلامة"
+    },
+    "originalScript": {
+      "ar": "أبو دلامة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Dülâme Zend b. Cevn"
+      ]
+    },
+    "description": {
+      "tr": "Kûfe’de fakir bir ailenin çocuğu olarak dünyaya geldi. Aslen Habeşistanlı olan babası Benî Esed ’e mensup birinin âzatlı kölesidir. Bazı kaynaklar şairin adını yanlış olarak Zeyd veya Zebd şeklinde yazmışlardır. Emevî Halifesi II. Mervân zamanında (744-750) tanınmaya başlayan Ebû Dülâme, şair olarak Abbâsî halifelerinden Seffâh (750-754) ve bilhassa kendilerine nedimlik yaptığı Mansûr (754-775) ve Mehdî (775-785) dönemlerinde şöhrete kavuşmuştur. Bazı eserlerde Hârûnürreşîd ’in (786-809) saltanatının ilk yıllarına ulaştığı kaydedilmekle birlikte kaynakların çoğunda 161’de (777-78) öldüğü belirtilmektedir. Ebû Dülâme akîdesi ve ahlâkı bozuk, hiç çekinmeden dinî emirlerle alay edebilen bir karaktere sahip olduğu için zındıklıkla itham edilmiştir. Bununla birlikte herkesin hoşlandığı zarif buluşlarıyla nükteler yapan, hoşsohbet ve tatlı dilli bir şairdi. Ebû Müslim-i Horasânî hakkındaki mersiyesiyle meşhur olan Ebû Dülâme’nin saraydaki görevi nükte ve fıkralarıyla halifeleri eğlendirmekti. Mevcut şiirleri onun müstehcen konuları da ele aldığını göstermekte ve bunları halifenin huzurunda bile tekrarlamaktan çekinmediği kaydedilmektedir. Ebü’l-Ferec el-İsfahânî ’nin belirttiğine göre câize alabilmek için tatsız övgülerle dilencilik etmekten çekinmezdi. Herkesi, hatta annesini ve kendisini bile hicvettiği nakledilir. Ebû Dülâme’nin bir divanından söz edilmekte ( Keşfü’ẓ-ẓunûn , I, 771), ancak bu eserin günümüze gelip gelmediği bilinmemektedir. Rüşdî Ali Hasan, onun çeşitli kaynaklarda dağınık halde bulunan şiirlerini toplayarak Dîvânü Ebî Dülâme el-Esedî adıyla neşretmiştir (Beyrut 1404/1985). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 122 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-dulame",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-dulame, https://islamansiklopedisi.org.tr/ebu-dulame",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:3727",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3727, heading_ar=أبو دلامة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:54Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-dulame (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3727]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3727 (heading_ar=أبو دلامة) via Track A (DİA→Alam xref bridge). dt=Pratik şair, nükte ve mizah sahibi, siyah renkte, iri yapılı ve hoş yüzlü."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 161,
+    "start_ce": 777,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-dulame, URL: https://islamansiklopedisi.org.tr/ebu-dulame || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3727] || DİA death-date string: (ö. 161/777-78) || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3727, heading_ar=أبو دلامة, dt=Pratik şair, nükte ve mizah sahibi, siyah renkte, iri yapılı ve hoş yüzlü."
+}

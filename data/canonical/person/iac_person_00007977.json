@@ -1,0 +1,82 @@
+{
+  "@id": "iac:person-00007977",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂMİDÎ, İbrâhim b. Hüseyin",
+      "ar": "إبراهيم بن الحسين الحامدي"
+    },
+    "originalScript": {
+      "ar": "إبراهيم بن الحسين الحامدي"
+    },
+    "description": {
+      "tr": "Müsta‘lî İsmâilîleri’nden olan Tayyibî kolunun ikinci mutlak dâîsi.",
+      "en": "HAMIDI, Hamid al-DIn Abu Bakr 'Omar n.",
+      "ar": "الحميدي، حميد الدين أبو بكر عمر بن."
+    },
+    "altLabel": {
+      "en": [
+        "HAMIDI"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hamidi-ibrahim-b-huseyin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hamidi-ibrahim-b-huseyin, https://islamansiklopedisi.org.tr/hamidi-ibrahim-b-huseyin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "ei1:1741",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 2, p. 36",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:11Z",
+    "modified": "2026-07-10T15:44:36Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hamidi-ibrahim-b-huseyin (0 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 0.99): gap-filled ['description.en', 'description.ar', 'altLabel.en']."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 557,
+    "start_ce": 1162,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hamidi-ibrahim-b-huseyin, URL: https://islamansiklopedisi.org.tr/hamidi-ibrahim-b-huseyin",
+  "authored_works": [
+    "iac:work-00003859"
+  ]
+}

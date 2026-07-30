@@ -1,0 +1,104 @@
+{
+  "@id": "iac:person-00003115",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HALLÂD b. HÂLİD",
+      "ar": "خلاّد بن خالد"
+    },
+    "originalScript": {
+      "ar": "خلاّد بن خالد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Îsâ Hallâd b. Hâlid eş-Şeybânî"
+      ]
+    },
+    "description": {
+      "tr": "Ebû Abdullah künyesi, Sayrafî ve Kûfî nisbeleriyle de anılmış, ayrıca babasının adının Îsâ veya Huleyd olduğu ileri sürülmüştür. Hamza b. Habîb’in önde gelen talebesi Süleym b. Îsâ ile Hüseyin b. Ali el-Cu‘fî, Muhammed b. Hasan er-Revvâsî gibi şahsiyetlerden kıraat öğrendi; Hasan b. Sâlih b. Hay, Züheyr b. Muâviye, Muhammed b. Abdülazîz et-Teymî, Kays b. Rebî‘den hadis rivayet etti. Kendisinden Ebü’l-Hasan Ahmed b. Yezîd el-Hulvânî, Muhammed b. Şâzân el-Cevherî, Muhammed b. Heysem, Kāsım b. Yezîd el-Vezzân gibi âlimler kıraat öğrenirken Ebû Zür‘a er-Râzî ve Ebû Hâtim er-Râzî hadis rivayetinde bulundular. Ebû Hâtim Hallâd’ı sadûk olarak değerlendirmiş, Ebû Amr ed-Dânî, kıraat ilminde Süleym b. Îsâ’nın en sağlam talebesi olduğunu söylemiştir. Hamza b. Habîb’in kıraatini bizzat kendisinden almamış olmasına rağmen meşhur yedi imamın râvilerini iki ile sınırlayarak telif edilen kıraat kitaplarında onun iki râvisinden biri olarak tercih edilmesinin sebebi Hallâd’ın bu ilimdeki seçkin yeri, özellikle Kur’an tilâvetindeki üstün başarısı olmalıdır. Abbas b. Muhammed ed-Dûrî’nin Hamza b. Habîb’in kıraatinin diğer râvisi Halef b. Hişâm’ı överken, “Hallâd istisna edilecek olursa Halef’ten daha güzel Kur’an okuyan birini görmedim” demesi de (İbn Ebû Hâtim, III, 372) Hallâd’ın Kûfe kurrâsı arasındaki müstesna yerini gösterir. Hallâd 220’de (835) Kûfe’de vefat etti. Onun biyografisine yer veren diğer müellifler gibi Buhârî de aynı tarihi zikrederken “220 veya bu yıl civarında” ifadesini kullanmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 381 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hallad-b-halid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hallad-b-halid, https://islamansiklopedisi.org.tr/hallad-b-halid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hallad-b-halid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hallad-b-halid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:3339",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3339, heading_ar=خلاد بن خالد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:11Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hallad-b-halid (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3339]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3339 (heading_ar=خلاد بن خالد) via Track A (DİA→Alam xref bridge). dt=Büyük kurrâlardan"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Şeybânî"
+  ],
+  "death_temporal": {
+    "start_ah": 220,
+    "start_ce": 835,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hallad-b-halid, URL: https://islamansiklopedisi.org.tr/hallad-b-halid || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3339] || DİA death place: Kûfe || DİA death-date string: (ö. 220/835) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3339, heading_ar=خلاد بن خالد, dt=Büyük kurrâlardan",
+  "teachers": [
+    "iac:person-00003803"
+  ]
+}

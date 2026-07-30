@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00005219",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MA‘N b. ADÎ",
+      "ar": "معن بن عديّ"
+    },
+    "originalScript": {
+      "ar": "معن بن عديّ"
+    },
+    "altLabel": {
+      "tr": [
+        "Ma‘n b. Adî b. el-Ced el-Belevî el-Aclânî"
+      ]
+    },
+    "description": {
+      "tr": "İkinci Akabe Biatı’nda (622) bulunduğu bilinmektedir. Hz. Peygamber Ma‘n’ı hicretten sonra Hz. Ömer’in ağabeyi Zeyd b. Hattâb ile kardeş ilân etti. Bedir Gazvesi başta olmak üzere Resûl-i Ekrem’in bütün savaşlarına katıldı. Bedir Gazvesi’nde elde edilen ganimetler dağıtılırken pay almak istemediyse de Resûlullah’ın almasını söylemesi üzerine kabul etti ve bu gazvede şehid olan Mübeşşir b. Abdülmünzîr’in hissesini ailesine ulaştırma görevini de Hz. Peygamber ona verdi. Münafıklar tarafından inşa edilen Mescid-i Dırâr’ın yıkılması için Resûl-i Ekrem’in görevlendirdiği (9/630) sahâbîlerden biri de Ma‘n b. Adî’dir. Ayrıca İslâmiyet’ten önce okuma yazma bilen çok az kişiden biri olduğu için Resûlullah’ın vahiy kâtipleri arasında yer alıyordu. Hz. Peygamber’in vefatı sırasında fitnelerle karşılaşmaktan korkan müslümanların, “Keşke Resûlullah’tan önce ölseydik” diye ağlaştıklarını görünce Ma‘n, Resûl-i Ekrem’in sağlığında olduğu gibi vefatından sonra da ona bağlılığını göstermek için kendisinden önce ölmeyi arzu etmeyeceğini söylemiştir (İbn Sa‘d, III, 465). Hz. Peygamber’in vefatı üzerine ensarın hemen toplanıp aralarından birini halife seçmek istedikleri sırada oraya gelen muhacirlerle aralarında tartışma çıkmış, bu esnada Ma‘n yaptığı konuşmalarla ortalığı yatıştırdığı gibi Hz. Ebû Bekir’in halife seçilmesinde de önemli rolü olmuştur. Hz. Ebû Bekir’in halifeliği döneminde Müseylimetülkezzâb’a karşı yapılan Yemâme savaşı sırasında kumandan olan Hâlid b. Velîd 100 atlıdan oluşan bir öncü birliğin başına Ma‘n’ı tayin etmişti. Bu savaşta büyük yararlıklar gösteren Ma‘n, bir ara müslüman askerlerin bozguna uğraması karşısında ileriye atılarak, “Ey ensar, Allah için düşmanınıza karşı savaşmak üzere geri dönün!” diye bağırmış, öncülüğünü bizzat yaptığı bu saldırı esnasında zor durumdaki askerlerden bazılarını kurtarmasına rağmen sonunda Zeyd b. Hattâb ile birlikte şehid olmuştur (Rebîülevvel 12 / Mayıs-Haziran 633). Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 27. cildinde, 554 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:man-b-adi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=man-b-adi, https://islamansiklopedisi.org.tr/man-b-adi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:man-b-adi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/man-b-adi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:37Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=man-b-adi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Belevî; Aclânî"
+  ],
+  "death_temporal": {
+    "start_ah": 12,
+    "start_ce": 633,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=man-b-adi, URL: https://islamansiklopedisi.org.tr/man-b-adi || DİA death-date string: (ö. 12/633) || Chunk count: 1"
+}

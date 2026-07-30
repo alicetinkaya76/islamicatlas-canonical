@@ -1,0 +1,106 @@
+{
+ "@id": "iac:person-00000364",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn Abi Usaybi'a",
+   "tr": "İbn Ebî Usaybia",
+   "ar": "ابن أبي أصيبعة"
+  },
+  "originalScript": {
+   "ar": "ابن أبي أصيبعة"
+  },
+  "altLabel": {
+   "en": [
+    "Muwaffaq al-Din Abu al-Abbas Ahmad ibn al-Qasim ibn Abi Usaybi'a"
+   ],
+   "tr": [
+    "Muvaffakuddîn Ebü'l-Abbâs Ahmed b. Kâsım İbn Ebî Usaybia"
+   ],
+   "ar": [
+    "موفق الدين أبو العباس أحمد بن القاسم ابن أبي أصيبعة"
+   ]
+  },
+  "description": {
+   "tr": "Hekimlerin en kapsamlı biyografik sözlüğünü derleyerek Yunanca'dan Arapça'ya ve Latince'ye tüm tıbbî bilgi zincirini belgeledi || İbn Ebî Usaybia'nın biyografik sözlüğü, Asklepios'tan kendi çağdaşlarına yaklaşık 400 hekimi belgelemektedir. Bu eser, İslam tıp tarihi ve Yunanca-Arapça çeviri hareketinin en önemli tek kaynağıdır. || [Tarih notu] Savage-Smith ve meslektaşlarının devam eden eleştirel edisyon projesi bu metnin incelenmesini dönüştürmektedir. Müller'in 1884 edisyonu standart referans olmaya devam etmektedir.",
+   "en": "Compiled the most comprehensive biographical dictionary of physicians, documenting the entire Greek-to-Arabic-to-Latin medical knowledge chain || Ibn Abi Usaybi'a's biographical dictionary documents nearly 400 physicians from Asclepius to his contemporaries. This work is the single most important source for the history of Islamic medicine and the Greek-Arabic translation movement. || [Historiographical note] Savage-Smith and colleagues' ongoing critical edition project is transforming the study of this text. Müller's 1884 edition remains the standard reference.",
+   "ar": "جمع أشمل قاموس بيوغرافي للأطباء موثّقًا سلسلة المعرفة الطبية بأكملها من اليونانية إلى العربية فاللاتينية || يوثّق القاموس البيوغرافي لابن أبي أصيبعة نحو 400 طبيب من أسقلبيوس إلى معاصريه. هذا العمل أهم مصدر منفرد لتاريخ الطب الإسلامي وحركة الترجمة اليونانية-العربية. || [Historiographical note] يحوّل مشروع الطبعة النقدية الجاري لسافاج-سميث وزملائه دراسة هذا النص. لا تزال طبعة مولر (1884) المرجع المعياري."
+  }
+ },
+ "profession": [
+  "physician"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0198",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0198",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-05-04T15:39:33Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0198 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (294-364-3762) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000294 lehine yumuşak-silindi. Gerekçe: Üçü de Uyûnü'l-enbâ müellifi tabip-tabakat yazarı İbn Ebî Usaybia'dır (ö. 668/1269-70, Dımaşk)."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000294"
+ },
+ "birth_temporal": {
+  "start_ce": 1203,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1270,
+  "approximation": "exact"
+ },
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q1395668",
+   "confidence": 1.0,
+   "method": "openrefine_v3",
+   "reviewed": false,
+   "note": "Auto-matched via OpenRefine recon (top result for \"Ibn Abi Usaybi'a\")."
+  }
+ ],
+ "note": "Promoted from science_layer.json scholar id=scholar_0198, lecture_week=n/a. || Key works: {'title': {'en': 'Uyun al-Anba fi Tabaqat al-Atibba', 'tr': \"Uyûnü'l-Enbâ fî Tabakâti'l-Etıbbâ\", 'ar': 'عيون الأنباء في طبقات الأطباء'}, 'year': 1245, 'significance': {'en': 'Most comprehensive biographical dictionary of physicians from antiquity to 13th century', 'tr': \"Antikçağ'dan 13. yüzyıla hekimlerin en kapsamlı biyografik sözlüğü\", 'ar': 'أشمل قاموس بيوغرافي للأطباء من العصور القديمة إلى القرن الثالث عشر'}} || Modern parallel: The medieval PubMed — Ibn Abi Usaybi'a created the first searchable database of medical professionals and their publications.",
+ "birth_place": "iac:place-00004883",
+ "active_in_places": [
+  "iac:place-00004883",
+  "iac:place-00009399"
+ ],
+ "authored_works": [
+  "iac:work-00000223"
+ ]
+}

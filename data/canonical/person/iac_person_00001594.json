@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00001594",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Büceyrî",
+      "ar": "البجيري"
+    },
+    "originalScript": {
+      "ar": "البجيري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Hafs Ömer b. Muhammed b. Büceyr el-Hemedânî es-Semerkandî"
+      ]
+    },
+    "description": {
+      "tr": "Dedesine nisbetle Büceyrî veya İbn Büceyr diye anılır. 222’de (837) Mâverâünnehir’deki Re’sülkantara (Huşûfegan) köyünde doğdu. Bir muhaddis olan babası Muhammed b. Büceyr ile birlikte devrin birçok ilim merkezini defalarca dolaştılar. Mısır’a vardıklarında bu ülkenin en tanınmış hadis hâfızı olan Ahmed b. Sâlih vefat etmiş olduğu için ondan hadis rivayet edemediler. Bu arada Büceyrî, Îsâ b. Hammâd Zuğbe, Bişr b. Muâz el-Akadî, Amr b. Ali el-Fellâs ve Bündâr gibi hocalardan hadis öğrendi. Kendisinden de Muhammed b. Muhammed b. Sâbir, Muhammed b. Bekir ed-Dihkān, Îsâ b. Mûsâ el-Kisâî gibi muhaddisler hadis rivayet ettiler. Hadis tahsili için yaptığı uzun seyahatleriyle tanınan ve güvenilir bir muhaddis olan Büceyrî’nin tefsir ilmiyle de meşgul olduğu anlaşılmaktadır. Büceyrî’nin bilinen tek eseri el-Câmiʿu’l-müsned ’dir. Kaynaklarda el-Câmiʿu’ṣ-ṣaḥîḥ adıyla da anılan eserin yegâne nüshası Dârü’l-kütübi’z-Zâhiriyye’de bulunmaktadır (Hadis, nr. 276, kısım 30). Ayrıca et-Tefsîr adlı bir eseri olduğu nakledilmekte ise de hakkında hiçbir kaynakta bilgi verilmemektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 481 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:buceyri",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=buceyri, https://islamansiklopedisi.org.tr/buceyri",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:7725",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=7725, heading_ar=البجيري",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:45Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=buceyri (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[7725]. Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=7725 (heading_ar=البجيري) via Track A (DİA→Alam xref bridge). dt=Hafız, Māverâünnehir muhaddisi, \"Sahîh\" ve \"Tefsîr\" müellifi; Semerkand'in 'Rasu"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hemedânî; Semerkandî"
+  ],
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 311,
+    "start_ce": 923,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=buceyri, URL: https://islamansiklopedisi.org.tr/buceyri || El-Aʿlām (Ziriklī) cross-reference: alam_id=[7725] || DİA death place: Mâverâünnehir || DİA death-date string: (ö. 311/923) || DİA categories: hadis > tefsir > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=7725, heading_ar=البجيري, dt=Hafız, Māverâünnehir muhaddisi, \"Sahîh\" ve \"Tefsîr\" müellifi; Semerkand'in 'Rasu'l-Kıntara' denilen",
+  "students": [
+    "iac:person-00003858"
+  ]
+}

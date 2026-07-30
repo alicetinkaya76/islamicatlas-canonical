@@ -1,0 +1,111 @@
+{
+ "@id": "iac:person-00014699",
+ "@type": [
+  "iac:Person",
+  "iac:Poet"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn al-Sāʿātī",
+   "tr": "İbn es-Sâatî",
+   "ar": "ابن الساعاتي"
+  },
+  "originalScript": {
+   "ar": "ابن الساعاتي"
+  },
+  "description": {
+   "tr": "Meşhur şair, Horasanî asıllı",
+   "en": "Famous poet, of Khurāsānī origin"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAlī b. Muḥammad b. Rustam b. Hardūz"
+  },
+  "altLabel": {
+   "tr": [
+    "Alî b. Muhammed b. Rüstem b. Herdûz"
+   ],
+   "ar": [
+    "علي بن محمد بن رستم بن هردوز، أبو الحسن، بهاء الدين ابن الساعاتي"
+   ]
+  }
+ },
+ "profession": [
+  "poet"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:7380",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7380",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:ibnus-saati-bahaeddin",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/ibnus-saati-bahaeddin",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:34Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:34Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:34Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=7380 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:19Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.99): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7380."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (4316-14699) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00004316 lehine yumuşak-silindi. Gerekçe: Bahâeddin İbnü's-Sââtî 604/1207-08'de ölen, Dımaşk doğumlu ve Mısır'da yaşamış şairdir; her iki kayıtta da şair rolü, ابن الساعاتي adı ve saat/astronomi bağı örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00004316"
+ },
+ "death_temporal": {
+  "start_ah": 604,
+  "start_ce": 1208,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7380, heading_ar=ابن الساعاتي || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+ "active_in_places": [
+  "iac:place-00009399",
+  "iac:place-00011312"
+ ],
+ "kunya": "أبو الحسن"
+}

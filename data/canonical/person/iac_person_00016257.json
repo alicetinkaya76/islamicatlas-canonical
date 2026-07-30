@@ -1,0 +1,110 @@
+{
+  "@id": "iac:person-00016257",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Sahl al-Sarakhsī",
+      "tr": "İbn Sehl es-Serhesî",
+      "ar": "ابن سهل السرخسي"
+    },
+    "originalScript": {
+      "ar": "ابن سهل السرخسي"
+    },
+    "description": {
+      "tr": "Kadı, büyük Hanefî âlimlerinden, müctehid, Serahhs (Horasan'da) halkından",
+      "en": "Judge, one of the greatest Hanafi scholars, mujtahid, from the people of Sarakhs (in Khurasan)",
+      "ar": "مؤلف اعظم عمل موسوعي في الفقه الحنفي وهو المبسوط. املى هذا العمل في ثلاثين مجلدا على تلاميذه وهو في السجن حسب الرواية. ترك ايضا عملا اساسيا في اصول الفقه بعنوان اصول السرخسي."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad b. Ahmad b. Sahl, Abū Bakr, Shams al-A'imma"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Ahmed b. Sehl, Ebû Bekr, Şemsü'l-Eimme"
+      ],
+      "ar": [
+        "محمد بن أحمد بن سهل، أبو بكر، شمس الأئمة"
+      ]
+    }
+  },
+  "profession": [
+    "judge"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:9091",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9091",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      },
+      {
+        "source_id": "scholars:263",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=263",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:50Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=9091 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:38:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['description.ar', 'kunya', 'nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:9091."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 483,
+    "start_ce": 1090,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9091, heading_ar=ابن سهل السرخسي || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 36.55, 61.16",
+  "active_in_places": [
+    "iac:place-00006376",
+    "iac:place-00009139"
+  ],
+  "kunya": "Ebû Bekir",
+  "nisba": [
+    "Serahsî"
+  ],
+  "laqab": [
+    "Şemsü'l-Eimme"
+  ]
+}

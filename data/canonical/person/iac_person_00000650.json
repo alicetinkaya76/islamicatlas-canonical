@@ -1,0 +1,112 @@
+{
+  "@id": "iac:person-00000650",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. YEZÎD",
+      "ar": "عبد الرحمن بن يزيد"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن يزيد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdurrahmân b. Yezîd b. Câriye el-Ensârî",
+        "Abdurrahman b. Yezîd b. Câiye el-Ensârî el-Medenî, Ebû Muhammed"
+      ],
+      "ar": [
+        "عبد الرحمن بن يزيد بن جارية الأنصاري المدني، أبو محمد"
+      ]
+    },
+    "description": {
+      "tr": "Annesi, Hz. Ömer’le evli iken daha sonra ondan boşanan kadın sahâbîlerden Cemîle bint Sâbit, babası ise Vedâ haccının bir bölümünü rivayet etmesiyle tanınan Yezîd b. Câriye’dir. Güvenilir bir râvi olan Abdurrahman b. Yezîd, daha çok Hz. Ömer, Ebû Eyyûb el-Ensârî, Ebû Lübâbe b. Abdülmünzir ve amcası Mücemmi‘ b. Câriye’den hadis rivayet etmiş, kendisinden de Kāsım b. Muhammed b. Ebû Bekir ve İbn Şihâb ez-Zührî gibi tâbiîler rivayette bulunmuşlardır. Ömer b. Abdülazîz’in Hicaz valiliği sırasında Medine’de bir süre kazâ işlerini yürütmüştür. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 177 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+      "en": "From the Successors, a trustworthy transmitter of hadith."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAbd al-Raḥmān b. Yazīd b. Jāriya al-Anṣārī al-Madanī, Abū Muḥammad"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-yezid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-yezid, https://islamansiklopedisi.org.tr/abdurrahman-b-yezid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:5364",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=5364, heading_ar=عبد الرحمن بن يزيد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-yezid (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[5364]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:32:47Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=5364 (heading_ar=عبد الرحمن بن يزيد) via Track A (DİA→Alam xref bridge). dt=Tâbiûn'dan, hadis ricâlinden güvenilir olanlar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+kunya+translit from alam_detail.json el-alam:5364."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî"
+  ],
+  "death_temporal": {
+    "start_ah": 98,
+    "start_ce": 716,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-yezid, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-yezid || El-Aʿlām (Ziriklī) cross-reference: alam_id=[5364] || DİA death-date string: (ö. 98/716-17) || DİA categories: rivayet > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=5364, heading_ar=عبد الرحمن بن يزيد, dt=Tâbiûn'dan, hadis ricâlinden güvenilir olanlar.",
+  "kunya": "أبو محمد",
+  "teachers": [
+    "iac:person-00002162",
+    "iac:person-00003165",
+    "iac:person-00004773",
+    "iac:person-00006207"
+  ],
+  "students": [
+    "iac:person-00007897"
+  ]
+}

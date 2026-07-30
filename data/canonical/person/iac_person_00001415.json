@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00001415",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BEKİR b. ABDULLAH el-MÜZENÎ",
+      "ar": "بكر بن عبد الله المزني"
+    },
+    "originalScript": {
+      "ar": "بكر بن عبد الله المزني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Bekr b. Abdillâh b. Amr el-Müzenî el-Basrî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında fazla bilgi yoktur. Enes b. Mâlik, Abdullah b. Abbas, Abdullah b. Ömer, Hasan-ı Basrî gibi sahâbî ve tâbiîlerden hadis rivayet etmiş, kendisinden de Sâbit el-Bünânî, Süleyman et-Teymî, Katâde, Âsım el-Ahvel rivayette bulunmuştur. Çok hadis rivayet ettiği kaydedilmişse de Ali b. Medînî onun elli kadar hadis naklettiğini belirtmiştir. Rivayetleri Kütüb-i Sitte ’de yer almıştır. Hakkında verilen bilgiler Bekir b. Abdullah’ın zühd ve takvâ sahibi bir fakih, sika bir râvi ve ibretli nasihatleriyle çevresine müessir olmuş bir vâiz olduğunu göstermektedir. Zenginler gibi giyinir, gönüllerini almak maksadıyla fakirlerle sohbet ederdi. Kader konusunda münakaşa edildiğini duyduğu zaman bunu dinlememek için kalkıp iki rek‘at namaz kılmayı tercih eden Bekir b. Abdullah, doğru olması halinde sevap kazandırmayan, yanlış olması halinde insanı günaha sokan suizandan sakınmayı ısrarla tavsiye ederdi. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 361 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:bekir-b-abdullah-el-muzeni",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=bekir-b-abdullah-el-muzeni, https://islamansiklopedisi.org.tr/bekir-b-abdullah-el-muzeni",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:41Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=bekir-b-abdullah-el-muzeni (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Müzenî; Basrî"
+  ],
+  "death_temporal": {
+    "start_ah": 108,
+    "start_ce": 726,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=bekir-b-abdullah-el-muzeni, URL: https://islamansiklopedisi.org.tr/bekir-b-abdullah-el-muzeni || DİA death-date string: (ö. 108/726) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000482",
+    "iac:person-00000704",
+    "iac:person-00002515",
+    "iac:person-00003260"
+  ],
+  "students": [
+    "iac:person-00001148",
+    "iac:person-00004785",
+    "iac:person-00006512"
+  ]
+}

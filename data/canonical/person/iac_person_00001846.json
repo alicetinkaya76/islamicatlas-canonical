@@ -1,0 +1,101 @@
+{
+  "@id": "iac:person-00001846",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Cîzî",
+      "ar": "الجيزي"
+    },
+    "originalScript": {
+      "ar": "الجيزي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed er-Rebî‘ b. Süleymân b. Dâvûd el-Cîzî el-Ezdî"
+      ]
+    },
+    "description": {
+      "tr": "180 (796) yılından sonra doğdu. Kahire’ye bitişik yerleşim merkezi Cîze’ye nisbetle Cîzî, Ezd kabilesinin mevlâ sı olduğu için de Ezdî diye anılmaktadır. İmam Şâfiî’nin “yeni görüş”lerinin râvilerinden biri olan Cîzî, Şâfiî dışında Abdullah b. Abdülhakem, Abdullah b. Vehb el-Mısrî, İshak b. Vehb, Ebü’l-Esved Nadr b. Abdülhamid, Abdullah b. Yûsuf et-Tinnîsî gibi âlimlerden hadis rivayet etmiş, kendisinden de Ebû Dâvûd, Nesâî, İbn Ebû Dâvûd, Ebû Ca‘fer et-Tahâvî, Ebû Bekir el-Bâgandî rivayette bulunmuşlardır. Hadis münekkitleri Cîzî hakkında “sika”, “me’mûn”, “kesîrü’l-hadîs” gibi ifadeler kullanmış, Nesâî ise “lâ be’s” değerlendirmesini tercih etmiştir. Şâfiî’nin diğer bir talebesi olan Rebî‘ b. Süleyman el-Murâdî ile Cîzî arasındaki isim benzerliği zaman zaman karışıklığa sebep olmuşsa da Nevevî’ye göre Şâfiî fıkıh kitaplarında Rebî‘ b. Süleyman ismi mutlak olarak geçince Murâdî kastedilmekte, Cîzî’den bahsedilirken Cîzî nisbesi ayrıca zikredilmektedir ( Tehẕîb , I/1, s. 188). Cîzî’nin İmam Şâfiî’den rivayeti azdır, hatta bazı kaynaklara göre sadece iki meseleden ibarettir. Kitâbü’l-Üm’de geçen Rebî‘ b. Süleyman ismiyle nerelerde Murâdî’nin, nerelerde Cîzî’nin kastedildiği konusunda Zekî Mübârek tarafından yapılan çalışma pek tatminkâr değildir (bk. EI 2 [İng.] , II, 559). 256 yılı Zilhicce ayının sonlarına doğru (Kasım 870) Cîze’de vefat edip oraya defnedilen Cîzî’nin 257 veya 270’te öldüğü de söylenmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 37 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:cizi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=cizi, https://islamansiklopedisi.org.tr/cizi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:cizi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/cizi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:49Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=cizi (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Şâfiî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 180,
+    "start_ce": 796,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 256,
+    "start_ce": 870,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=cizi, URL: https://islamansiklopedisi.org.tr/cizi || DİA death-date string: (ö. 256/870) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00006538",
+    "iac:person-00006568"
+  ],
+  "students": [
+    "iac:person-00000687"
+  ]
+}

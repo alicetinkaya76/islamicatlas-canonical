@@ -1,0 +1,102 @@
+{
+  "@id": "iac:person-00004021",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Semâa",
+      "ar": "ابن سماعة"
+    },
+    "originalScript": {
+      "ar": "ابن سماعة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Semâa b. Ubeydillâh et-Temîmî el-Kûfî"
+      ]
+    },
+    "description": {
+      "tr": "130 (747-48) yılında doğdu. Temîm kabilesinin Dârim koluna mensuptur. Fıkıh tahsilini Hanefî mezhebinin meşhur imamları Ebû Yûsuf, Muhammed b. Hasan eş-Şeybânî ve Hasan b. Ziyâd el-Lü’lüî’den yaptı. Kendisinden Ebû Ca‘fer Ahmed b. Ebû İmrân el-Bağdâdî, Ebû Bekir b. Muhammed el-Kummî, Abdullah b. Ca‘fer er-Râzî gibi âlimler fıkıh dersi aldı. Leys b. Sa‘d, Müseyyeb b. Şerîk, Ya‘lâ b. Hâlid er-Râzî gibi muhaddislerden hadis rivayet eden İbn Semâa’dan Muhammed b. İmrân ed-Dabbî, Hasan b. Muhammed b. Anber el-Veşşâ ve Ebü’l-Hasan Ali b. Mûsâ b. Yezdâd el-Kummî rivayette bulundu. Zehebî, İbn Semâa’nın hadis rivayetinde zayıf sayıldığını belirtirken ( el-Muġnî , II, 589) kaynakların çoğunda güvenilir olduğu kaydedilmektedir. İbn Semâa 192 (808) yılında Me’mûn tarafından Bağdat kadılığına getirildi ve gözlerinin zayıflaması sebebiyle azledildiği 208 (823) yılına kadar bu görevde kaldı. Şâban 233 (Mart 848) tarihinde vefat etti. Mezhepte müctehid bir âlim olan İbn Semâa Irak’ta Hanefî fıkhının otoritelerindendi. Özellikle Ebû Yûsuf ve Muhammed b. Hasan eş-Şeybânî’den bazı eserleri rivayet etmesiyle tanınmış, çeşitli görüş ve rivayetleri daha sonraki mezhep kaynaklarında yer almıştır. İbn Maîn’in, onun re’ye gösterdiği sadakati muhaddislerin hadise göstermedikleri ve ölümünün ehl-i re’y için büyük bir kayıp olduğu yönündeki ifadeleri de İbn Semâa’nın ehl-i re’y ekolü içindeki önemli yerini gösterir. İbn Semâa ayrıca zühd ve takvâsıyla da meşhurdur. Kaynaklarda Nevâdirü’l-mesâʾil ʿan Muḥammed b. el-Ḥasan , el-Meḥâḍır ve’s-sicillât , Edebü’l-ḳāḍî adlı eserleri kaleme aldığı belirtilen İbn Semâa, Şeybânî’nin Kitâbü’l-Kesb ’ini rivayet etmiş olup bu eser Şemsüleimme es-Serahsî tarafından şerhedilmiştir. Şerhin Dârü’l-kütübi’l-Mısriyye’de bulunan yazma nüshasının başında eserin Şeybânî’ye ait el-İktisâb fi’r-rızḳi’l-müsteṭâb ’ın İbn Semâa tarafından yapılan muhtasarı olduğu kaydedildiğinden Mahmûd Arnûs yazmayı bu adla neşretmiş (Kahire 1357/1938), bu yanlışlık bazı kaynaklarda da tekrar edilmiştir (Sezgin, I, 432, 435; DMBİ , III, 704). Süheyl Zekkâr, Topkapı Sarayı Müzesi Kütüphanesi’ndeki (Emanet Hazinesi, nr. 972) Şerḥu Kitâbi’l-Kesb ile bunun aynı eser olduğunu tesbit etmiş ve kitabı İbnü’l-Lebbûdî’nin Fażlü’l-iktisâb ’ı ile birlikte Risâletân fi’l-kesb adıyla yayımlamıştır (Beyrut 1417/1997). Süheyl Zekkâr, her ne kadar Serahsî’nin Kitâbü’l-Kesb ’i müstakil olarak şerhettiğini ve el-Mebsûṭ ’a koymadığını söylüyorsa da ( Risâletân fi’l-kesb , s. 18) bu eser el-Mebsûṭ ’ta da mevcuttur (XXX, 244-287). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 313-314 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-semaa",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-semaa, https://islamansiklopedisi.org.tr/ibn-semaa",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:10006",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=10006, heading_ar=ابن سماعة",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:22Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:22Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-semaa (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[10006]. Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=10006 (heading_ar=ابن سماعة) via Track A (DİA→Alam xref bridge). dt=Hadis hafızı, güvenilir"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Temîmî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 130,
+    "start_ce": 747,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 233,
+    "start_ce": 848,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-semaa, URL: https://islamansiklopedisi.org.tr/ibn-semaa || El-Aʿlām (Ziriklī) cross-reference: alam_id=[10006] || DİA death-date string: (ö. 233/848) || DİA categories: rivayet > hadis > mezhep || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=10006, heading_ar=ابن سماعة, dt=Hadis hafızı, güvenilir",
+  "teachers": [
+    "iac:person-00002303",
+    "iac:person-00003237",
+    "iac:person-00006936"
+  ]
+}

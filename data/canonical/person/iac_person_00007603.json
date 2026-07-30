@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00007603",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "VERRÂK, İshak b. İbrâhim",
+      "ar": "إسحاق بن إبراهيم الورّاق"
+    },
+    "originalScript": {
+      "ar": "إسحاق بن إبراهيم الورّاق"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Ya‘kūb İshâk b. İbrâhîm b. Osmân el-Verrâk el-Mervezî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatına dair çok az bilgi vardır. Aslen Mervli olup daha sonra ailesi veya kendisi Bağdat’a yerleşmiş, bu sebeple Bağdâdî nisbesiyle de anılmıştır. Kırâat-i seb‘a imamlarından Hamza b. Habîb ez-Zeyyât’a kâtiplik yaptığı ve muhtemelen onun kitaplarını istinsah ettiği için Verrâk lakabıyla meşhur olmuş ve “Verrâku Halef” diye anılmıştır. Kardeşi Ebü’l-Abbas Ahmed b. İbrâhim de aynı şekilde Halef b. Hişâm’a kâtiplik yaparak kitaplarını istinsah ettiğinden ona da “Verrâku Halef” denilmiştir. Ebü’l-Abbas’ın ʿAdedü âyi’l-Ḳurʾân adıyla bir kitabı bulunduğu kaydedilmiştir (Hatîb, IV, 8). İbnü’l-Cezerî’nin kıraat ilminde sika olarak değerlendirdiği ve zaptında güçlü yeteneğine işaret ettiği Verrâk muhtemelen Bağdat’ta vefat etti. Hamza b. Habîb ez-Zeyyât’ın iki râvisinden biri olan, aynı zamanda onun kıraatinde bazı hususlarda muhalefet edip farklı tercihler yaptığından meşhur on imam arasında sayılan Halef b. Hişâm’ın kıraati için kırâat-i aşere müellifleri iki râvi belirlemiş ve bunlardan birinin Verrâk olmasını tercih etmiştir. Verrâk kıraat ilmini arz ve semâ yoluyla bizzat Halef b. Hişâm’dan almış ve Hamza b. Habîb ez-Zeyyât’a muhalefet ederek yaptığı tercihleri rivayet etmiştir. Özellikle bu açıdan kıraat ilminde önemli bir yeri vardır. Zira bu rivayetleri Verrâk dışında kimsenin bilmediği ifade edilmiştir ( İbnü’l-Cezerî, en-Neşr , I, 191). Esasen Halef’in kırâat-i aşere imamları arasında yer alması Verrâk’ın aktardığı rivayetler sayesinde mümkün olmuştur. Halef’ten sonra -hocasından elli yedi yaş küçük olmasına rağmen- Bağdat’ta onun yerini alması da Verrâk’ın bu alanda önemsendiğini göstermektedir. Ayrıca Velîd b. Müslim de Verrâk’ın kıraat hocalarındandır. Kıraat ilmindeki öğrencileri arasında oğlu Muhammed b. İshak, Muhammed b. Abdullah b. Ebû Ömer en-Nakkāş, Ali b. Mûsâ es-Sekafî ve İbn Şenebûz sayılabilir. Bu madde TDV İslâm Ansiklopedisi’nin 2013 yılında İstanbul’da basılan 43. cildinde, 61 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:verrak-ishak-b-ibrahim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=verrak-ishak-b-ibrahim, https://islamansiklopedisi.org.tr/verrak-ishak-b-ibrahim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:verrak-ishak-b-ibrahim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/verrak-ishak-b-ibrahim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:05Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:05Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=verrak-ishak-b-ibrahim (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mervezî"
+  ],
+  "death_temporal": {
+    "start_ah": 286,
+    "start_ce": 899,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=verrak-ishak-b-ibrahim, URL: https://islamansiklopedisi.org.tr/verrak-ishak-b-ibrahim || DİA death place: Bağdat || DİA death-date string: (ö. 286/899) || DİA categories: rivayet || Chunk count: 1"
+}

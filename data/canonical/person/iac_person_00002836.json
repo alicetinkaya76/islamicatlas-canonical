@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00002836",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "GASSÂNÎ, Muhammed b. Abdülvehhâb",
+      "ar": "محمد بن عبد الوهّاب الغسّاني"
+    },
+    "originalScript": {
+      "ar": "محمد بن عبد الوهّاب الغسّاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed (Hammû) b. Abdilvehhâb b. İbrâhîm el-Gassânî el-Endelüsî el-Fâsî"
+      ]
+    },
+    "description": {
+      "tr": "Endülüs asıllı olup Fas’a göç eden bir aileden gelmektedir. Bir kısmı Sebte’ye yerleşmiş olan bu ailenin fertleri özellikle Sa‘dîler, daha sonra da Filâlîler döneminde önemli mevkiler elde etmişlerdir. Kāsım el-Gassânî, Sa‘dî Hükümdarı Ahmed el-Mansûr devrinin (1578-1603) başarılı tabip ve ediplerinden olduğu gibi Muhammed b. Abdülvehhâb’ın kardeşi Ahmed de fıkıh, tasavvuf ve edebiyatta meşhur olmuştur. Fas’ta dünyaya gelen Gassânî’nin doğum tarihi ve hayatının ilk yılları hakkında bilgi yoktur. Sa‘dîler Devleti’nde kâtip olarak çalışmış ve daha sonra vezirliğe kadar yükselmiştir. Filâlî Sultanı Mevlây İsmâil’in takdir ve güvenini kazandığı için, 1102’de (1690-91) İspanyollar’a esir düşen müslümanların serbest bırakılmasını, cami ve mescidlerde muhafaza edilmekte olan müslümanlara ait 5000 cilt kitabın iadesini istemek için İspanya Kralı II. Carlos’a, daha sonra da Türk idarecilerle görüşmek üzere Cezayir’e elçi olarak gönderildi (1692). Gassânî Fas’ta öldü ve orada defnedildi. Eserleri. Muhammed el-Gassânî, sekiz ay süren İspanya seyahatiyle ilgili müşahedelerini Riḥletü’l-vezîr fi’ftikâki’l-esîr adlı eserinde toplamıştır. Kitabın bazı bölümleri H. Sauvaire tarafından Fransızca’ya çevrilerek yayımlanmış (Paris 1884), daha sonra tamamı A. Bustânî tarafından İspanyolca tercümesiyle birlikte neşredilmiştir (Tanca 1940). Gassânî’ye ayrıca bir Hicaz seyahatnâmesi nisbet edilmekteyse de (Abdüsselâm b. Abdülkādir, II, 344) bu eser hakkında kaynaklarda yeterli bilgi yoktur. Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 397 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:gassani-muhammed-b-abdulvehhab",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=gassani-muhammed-b-abdulvehhab, https://islamansiklopedisi.org.tr/gassani-muhammed-b-abdulvehhab",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:gassani-muhammed-b-abdulvehhab",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=gassani-muhammed-b-abdulvehhab",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:06Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:06Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:06Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=gassani-muhammed-b-abdulvehhab (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=gassani-muhammed-b-abdulvehhab)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Gassânî; Endelüsî"
+  ],
+  "death_temporal": {
+    "start_ah": 1119,
+    "start_ce": 1707,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=gassani-muhammed-b-abdulvehhab, URL: https://islamansiklopedisi.org.tr/gassani-muhammed-b-abdulvehhab || DİA death place: Fas || DİA death-date string: (ö. 1119/1707) || DİA categories: fıkıh > tasavvuf > tıp || Chunk count: 1",
+  "teachers": [
+    "iac:person-00004092",
+    "iac:person-00005564"
+  ]
+}

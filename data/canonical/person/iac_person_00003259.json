@@ -1,0 +1,63 @@
+{
+  "@id": "iac:person-00003259",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hasan Hükmî",
+      "ar": "حسن حكمى"
+    },
+    "originalScript": {
+      "ar": "حسن حكمى"
+    },
+    "description": {
+      "tr": "Hayatı hakkında fazla bilgi yoktur. Oldukça genç bir yaşta Dîvân-ı Hümâyun kâtipleri zümresine dahil olduğu ve kırk yıldan fazla burada görev yaptığı bilinmektedir. Hükmî lakabının hüküm yazmadaki kabiliyetinden gelmiş olması muhtemeldir. 1006 (1597-98) yılında divanın kırk kıdemli kâtibinden biri olan Hasan Hükmî, aynı zamanda Vezîriâzam Hadım Hasan Paşa’nın tezkireciliğini de yapmaktaydı. 1604-1605’te reîsülküttâb makamına vekâlet etti; hemen ardından 1606’da önce reîsülküttaplığa, birkaç ay sonra da nişancılığa getirildi. 1614 yılında tekrar reîsülküttaplığa yükseltildi. 1618’de nişancı, 1621’de yeniden reîsülküttâb oldu. Bu dönemde reîsülküttaplık görevi nişancılığa göre giderek önem kazanmaya başlamıştı. Hasan Hükmî’nin meslek hayatı bu değişikliği gözler önüne seren bir örnektir. Hükmî sonraki yıllarda çeşitli kitâbet görevlerinde bulundu; 1638’de sipahi mukabelecisi iken son defa reîsülküttaplığa getirildi. Ölüm tarihi kesin olarak bilinmemektedir. Hasan Hükmî, XVII. yüzyılın ilk yarısının meşhur Osmanlı münşîlerinden biri sayılır. 1601’de divan kâtipliğini sürdürürken aynı zamanda bir önceki şehnâmeci olan Lokmân b. Hüseyin’in ricasıyla Tâlikîzâde Mehmed Subhi’nin yerine şehnâmeci tayin edildi. Bu göreve tayiniyle ilgili Cemâziyelâhir 1010 (Aralık 1601) tarihli hükmün sûreti Âyîne-i Zurefâ ’da verilmiştir (s. 41-43). Hükmî, Cigalazâde Sinan Paşa’nın 1604-1605 İran seferine şehnâmeci olarak katılmışsa da gerek bu olaylar gerekse başka konular hakkında herhangi bir şehnâme veya inşâ eseri meydana getirmemiştir. İnşâsına dair birkaç örneğe münşeat mecmualarında rastlanmaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 324-325 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-hukmi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-hukmi, https://islamansiklopedisi.org.tr/hasan-hukmi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-05-04T15:34:12Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-hukmi (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1006,
+    "start_ce": 1597,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1048,
+    "start_ce": 1638,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-hukmi, URL: https://islamansiklopedisi.org.tr/hasan-hukmi || DİA death-date string: (ö. 1048/1638’den sonra) || Chunk count: 1"
+}

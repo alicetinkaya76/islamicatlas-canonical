@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00001634",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "BÛŞENCÎ, Ebü’l-Hasan",
+      "ar": "أبو الحسن البوشنجي"
+    },
+    "originalScript": {
+      "ar": "أبو الحسن البوشنجي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Ahmed el-Bûşencî"
+      ]
+    },
+    "description": {
+      "tr": "Herat yakınlarındaki Bûşenc’de doğdu. Gençlik döneminde Ebû Osman en-Nîşâbûrî’nin sohbetinde bulunduktan sonra memleketinden ayrılarak Irak’a gitti. Burada İbn Atâ ve Cerîrî gibi tanınmış sûfîlerden istifade etti. Meşhur sûfî Şiblî ile bazı tasavvufî konuları tartıştı. Daha sonra gittiği Dımaşk’ta Ebû Amr ed-Dımaşkī ve Tâhir el-Makdisî’nin sohbetlerine katıldı. Uzun süre ayrı kaldığı memleketine dönünce zındıklıkla suçlandı ve bu yüzden Nîşâbur’a gitmek zorunda kaldı. Burada bir zâviye kurarak ölümüne kadar tam bir inzivâ hayatı yaşadı. Tevhid ilmine ve tasavvufî hayata dair çağdaşı diğer mutasavvıflardan daha geniş bilgiye sahip olduğu bildirilen Bûşencî’nin fütüvvet ve tecrîd konularında takip ettiği yol hakkında bazı menkıbeler rivayet edilir. Bûşencî fütüvveti “hak hukuk gözetmek, sürekli murakabe halinde bulunmak, içte olmayan bir şeyi dışta göstermemek” diye tarif eder. İnsanın yalnız iken de haram olan bir şeyi yapmaması ve içi ile dışının bir olması ise mürüvvettir. Tevhid Allah’ı, O’nun kendisini bize tanıttığı gibi tanımak, sonra da O’ndan başkasına ihtiyaç duymamaktır. Tövbe de işlenen günah hatırlandığında ondan haz almamaktır (Hücvîrî, s. 385). Fütüvvet ve melâmet ehlinin esas temayüllerine sahip olan Bûşencî insana en büyük belânın kendisinden geldiğini, insan için hayrın ârızî, şerrin aslî sıfat olduğunu söyler. Ona göre içi dışından iyi olan velî, içi dışı aynı olan âlim, içi dışından kötü olan cahildir. Tasavvufu “hürriyet, fütüvvet ve cömertlikte samimiyet, ahlâkta kibarlık” diye tarif eden Bûşencî samimiyetsiz mutasavvıflardan yakınan ilk sûfîlerdendir. Onun, “Bugün tasavvufun ismi var, hakikati yoktur; oysa eskiden hakikati vardı ama ismi yoktu” sözü çok meşhurdur. Bûşencî sünneti, “Şeceretürrıdvân’daki biat ve buna uygun düşen söz ve işlerdir” şeklinde tarif eder. Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 475-476 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:busenci-ebul-hasan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=busenci-ebul-hasan, https://islamansiklopedisi.org.tr/busenci-ebul-hasan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:busenci-ebul-hasan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/busenci-ebul-hasan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:45Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:45Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:45Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=busenci-ebul-hasan (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.96): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bûşencî"
+  ],
+  "death_temporal": {
+    "start_ah": 348,
+    "start_ce": 959,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=busenci-ebul-hasan, URL: https://islamansiklopedisi.org.tr/busenci-ebul-hasan || DİA birth place: Bûşenc || DİA death-date string: (ö. 348/959) || DİA categories: tasavvuf > sünnet > rivayet || Chunk count: 1"
+}

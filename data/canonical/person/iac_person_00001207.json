@@ -1,0 +1,76 @@
+{
+  "@id": "iac:person-00001207",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AVN b. ABDULLAH",
+      "ar": "عون بن عبد الله"
+    },
+    "originalScript": {
+      "ar": "عون بن عبد الله"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Avn b. Abdillâh b. Utbe b. Mes‘ûd el-Hüzelî el-Kûfî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Medineli olup Medine’nin yedi meşhur fakihinden ( fukahâ-yi seb‘a ) Ubeydullah b. Abdullah’ın kardeşidir. Medine’den Kûfe’ye hicret ederek orada ibadet ve takvâsıyla tanındı. Bir ara Mürcie mezhebinin görüşlerini benimsediyse de sonradan vazgeçti. Halife Ömer b. Abdülazîz’in ilgisine mazhar olarak onunla sohbetlerde bulundu. Kaynaklarda, zenginlerle düşüp kalmaktan çok fakirlere yakın olmayı tercih ettiği rivayet edilen Avn’ın 20.000 dirhemden fazla olan servetini fakirlere dağıttığı nakledilir. Rivayetleri Müslim’in Ṣaḥîḥ ’i ile dört meşhur es-Sünen ’de yer alan Avn, babası Abdullah, kardeşi Ubeydullah, Saîd b. Müseyyeb, İbn Abbas ve Ebû Hüreyre gibi âlimlerden hadis rivayet etmiştir. Onun Hz. Âişe ile Ebû Hüreyre’den olan rivayetlerinin mürsel olduğu söylenmektedir. İshak b. Yezîd el-Hüzelî, Mis‘ar b. Kidâm gibi âlimler de kendisinden rivayette bulunmuşlardır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 123 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:avn-b-abdullah",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=avn-b-abdullah, https://islamansiklopedisi.org.tr/avn-b-abdullah",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=avn-b-abdullah (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hüzelî"
+  ],
+  "death_temporal": {
+    "start_ah": 110,
+    "start_ce": 728,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=avn-b-abdullah, URL: https://islamansiklopedisi.org.tr/avn-b-abdullah || DİA death-date string: (ö. 110/728 [?]) || DİA categories: rivayet > hadis > mezhep || Chunk count: 1",
+  "students": [
+    "iac:person-00005561"
+  ]
+}

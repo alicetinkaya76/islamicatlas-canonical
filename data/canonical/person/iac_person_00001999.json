@@ -1,0 +1,86 @@
+{
+  "@id": "iac:person-00001999",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DERVİŞ ALİ, Büyük"
+    },
+    "description": {
+      "tr": "Kendisinden sonra yaşayan ve aynı adı taşıyan iki hattattan ayırt edilmek için “Büyük”, “Birinci” veya “Mâruf” lakaplarıyla anılır. İstanbul’da doğdu. Yeniçeri ağası Kara Hasan oğlu Hüseyin Ağa’nın mânevî evlâdı veya kölesi olup onun yanında yetişmiş, gençliğinde karakullukçuluk vazifesinde de bulunmuştur. Aklâm-ı sitte yi Hâlid Erzurûmî’den öğrenmiş ve Şükrullah Halîfe, Pîr Mehmed b. Şükrullah, Hasan Üsküdârî, Hâlid Erzurûmî silsilesiyle kendisine kadar gelen Şeyh Hamdullah üslûbunu unutulmak üzere iken yeniden ihya etmiştir. Bu sebeple Derviş Ali’ye “şeyh-i sânî” veya “vâzıu’l-aslı’s-sânî” unvanları da verilmiştir. Tezhipleri ekseriya Sürâhî Mustafa adlı müzehhip tarafından yapılmış kırktan fazla mushaf (kırk beşinci mushafı 1064/1654 tarihini taşımaktadır), çok sayıda en‘âm, evrâd, kıta ve murakka‘ yazan Derviş Ali Ramazan 1084’te (Aralık 1673) hayli yaşlı olarak vefat etti. Defnedildiği Topkapı Mezarlığı’nda bugün mevcut olmayan kabir kitâbesindeki ifadeden, onun devrinin yaygın sporu okçulukla da uğraştığı anlaşılmaktadır. Yetiştirdiği pek çok hattat arasında Ağakapılı İsmâil ve Suyolcuzâde Mustafa efendiler önde gelenleridir. Derviş Ali Hâfız Osman’ın da ilk hocası olup yaşlılığı sebebiyle bu kabiliyetli gençle gerektiği gibi meşgul olamayınca onu Suyolcuzâde’ye göndermiştir. Talebelerinden olan Köprülüzâde Fâzıl Ahmed Paşa’nın, sadrazamlığı sırasında Derviş Ali’nin kendisini ziyaretinde hocasını şeyhülislâmların karşılandığı noktadan karşılayıp elini öperek ona protokol üstü saygı gösterdiği ve makamında yanına oturttuğu kaynaklarda zikredilir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 191-192 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dervis-ali-buyuk",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dervis-ali-buyuk, https://islamansiklopedisi.org.tr/dervis-ali-buyuk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:dervis-ali-buyuk",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/dervis-ali-buyuk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:52Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dervis-ali-buyuk (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1084,
+    "start_ce": 1673,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dervis-ali-buyuk, URL: https://islamansiklopedisi.org.tr/dervis-ali-buyuk || DİA birth place: İstanbul || DİA death place: 1084 || DİA death-date string: (ö. 1084/1673) || Chunk count: 1",
+  "birth_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00004960"
+  ]
+}

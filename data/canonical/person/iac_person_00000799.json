@@ -1,0 +1,84 @@
+{
+  "@id": "iac:person-00000799",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ahmed Hilmi Efendi"
+    },
+    "description": {
+      "tr": "Kastamonuludur. Meslekî hayatına Kazasker Zeynelâbidin Efendi’nin çocuklarına muallimlik yaparak başladı. 1859’da Galata, 1866’da da Sofya mollası oldu. Ardından Mekke-i Mükerreme pâyesini elde etti. 1868’de Dîvân-ı Ahkâm-ı Adliyye âzalığına getirildi; daha sonra İstanbul pâyesini kazandı. Ekim 1875’te Mahkeme-i Temyîz reisi olduktan sonra Anadolu kazaskerliği pâyesini aldı. Nisan 1888’de mâlulen emekliliğini istedi. 6 Zilhicce 1305’te (14 Ağustos 1888) vefat etti ve Fâtih Camii hazîresine defnedildi. Ahmed Hilmi Efendi ilim ve fazileti, ve fıkıhtaki derin bilgisiyle meşhur olmuştur. Mecelle ’nin bütün kitaplarının hazırlanmasına iştirak etmiş ve Mecelle Cemiyeti onun fıkhî meselelere vukufundan çok faydalanmıştır. Mecelle ’nin bir-on birinci kitaplarında “Dîvân-ı Ahkâm-ı Adliyye âzası” unvanıyla, on ikinci kitabında unvansız, on üç-on altıncı kitaplarında da “Mahkeme-i Temyîz reîs-i sânîsi” unvanı altında mührü vardır. Mecelle Cemiyeti reisi Ahmed Cevdet Paşa, Ahmed Hilmi Efendi’nin fıkıhtaki derin bilgisinden övgüyle bahseder. Paşa Yanya valiliğinde bulunduğu sırada da Mecelle ile ilgili çalışmaları Hilmi Efendi ile haberleşerek takip etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 89-90 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-hilmi-efendi--hukukcu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-hilmi-efendi--hukukcu, https://islamansiklopedisi.org.tr/ahmed-hilmi-efendi--hukukcu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-hilmi-efendi--hukukcu",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-hilmi-efendi--hukukcu",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:56Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-hilmi-efendi--hukukcu (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1305,
+    "start_ce": 1888,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-hilmi-efendi--hukukcu, URL: https://islamansiklopedisi.org.tr/ahmed-hilmi-efendi--hukukcu || DİA death place: 1305 || DİA death-date string: (ö. 1305/1888) || DİA categories: fıkıh || Chunk count: 1",
+  "students": [
+    "iac:person-00000960"
+  ]
+}

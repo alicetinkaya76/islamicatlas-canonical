@@ -1,0 +1,66 @@
+{
+  "@id": "iac:person-00003426",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HIRÂŞ b. ÜMEYYE",
+      "ar": "خراش بن أميّة"
+    },
+    "originalScript": {
+      "ar": "خراش بن أميّة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Nadle Hırâş b. Ümeyye b. Rebîa el-Huzâî el-Kâ‘bî"
+      ]
+    },
+    "description": {
+      "tr": "Müreysî‘ Gazvesi’nde, Hudeybiye Antlaşması’nda, Hayber’in fethinde ve daha sonraki savaşlarda bulundu. Hz. Peygamber, Hudeybiye günü Hırâş’ı Sa‘leb diye bilinen devesine bindirip Mekke’ye elçi olarak gönderdi ve müslümanların Mekke’ye umre için gelmekte olduklarını, yanlarında kurbanları bulunduğunu, Kâbe’yi tavaf edip geri döneceklerini Mekkeliler’e bildirmesini söyledi. Ancak Kureyşliler (bir rivayette özellikle İkrime b. Ebû Cehil) ona çok kötü davrandılar. Devesini kesip kendisine eziyet ettiler; hatta onu öldürmek isteyenler olduysa da buna bir akrabası veya ehâbîş engel oldu. Bunun üzerine Hırâş geri dönerek Resûl-i Ekrem’e durumu anlattı ve Kureyşliler’e daha itibarlı bir kimseyi (bir rivayete göre Osman b. Affân) göndermesini söyledi. Hırâş zaman zaman Hz. Peygamber’in berberliğini de yapardı. Nitekim Hudeybiye’de antlaşma sağlanarak Kureyş temsilcileri ayrıldıktan sonra kurbanlar kesilip ihramdan çıkılacağı sırada Resûlullah’ı tıraş etmişti. Onun sadece Umretü’l-kazâ’da Hz. Peygamber’in saçını kestiği de söylenmektedir. Mekke’nin fethinde bulunan Hırâş’ın fethin ikinci günü, kendisine eman verilmiş olan Cüneydib b. Edla‘ı öldürmesine Resûl-i Ekrem çok üzüldü ve Hırâş’ı kınadı. Bazı rivayetlere göre Mekke’de kan dökülmesini bu hadise dolayısıyla irat ettiği bir hutbe ile yasaklamıştır. Hz. Peygamber’in, “Eğer bir kâfire karşılık bir mümini öldürecek olsaydım Hırâş’ı öldürürdüm” dediği nakledilmektedir (Vâkıdî, II, 845). Cüneydib’in diyeti Hırâş’ın kabilesi olan Huzâa’ya ödettirilmiştir. Mekke ile Medine arasında Mekke’den bir konak uzaklıkta bulunan Bi’rü’l-Berûd’u Hırâş’ın kazdırıp etrafını çevirttiği belirtilmektedir. Medine’de yaşadığı bilinen Hırâş Muâviye’nin hilâfetinin sonlarında (60/680) vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 17. cildinde, 325 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hiras-b-umeyye",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hiras-b-umeyye, https://islamansiklopedisi.org.tr/hiras-b-umeyye",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:14Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:14Z",
+    "modified": "2026-05-04T15:34:14Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:14Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hiras-b-umeyye (1 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Huzâî"
+  ],
+  "death_temporal": {
+    "start_ah": 60,
+    "start_ce": 680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hiras-b-umeyye, URL: https://islamansiklopedisi.org.tr/hiras-b-umeyye || DİA death place: Medine || DİA death-date string: (ö. 60/680 [?]) || DİA categories: rivayet > hadis || Chunk count: 1"
+}

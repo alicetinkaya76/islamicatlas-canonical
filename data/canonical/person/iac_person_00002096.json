@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00002096",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Dürrîzâde Abdullah Efendi"
+    },
+    "description": {
+      "tr": "1183’te (1769-70) İstanbul’da doğdu. Şeyhülislâm Dürrîzâde Mehmed Ârif Efendi ’nin oğludur. Babasından ve devrin tanınmış bilginlerinden tahsil gördü. 1196’da (1781-82) icâzet alarak müderrislik hakkını kazandı. Babasının şeyhülislâmlığı sırasında önce İzmir, sonra Galata kadısı oldu. III. Selim ’in, babası Şeyhülislâm Mehmed Ârif Efendi’yi konağında ziyareti sırasında bir lutuf olarak kendisine Mekke kadılığı pâyesi verildi. Daha sonra İstanbul kadılığı ve Anadolu kazaskerliği pâyelerini aldı. 1805’te bilfiil Anadolu kazaskeri, iki yıl sonra da nakîbüleşraf oldu. Bu görevde iken 28 Temmuz 1808’de Eyüp Camii’nde II. Mahmud’a kılıç kuşandırdı. Aynı zamanda Rumeli kazaskerliği pâyesini alan Abdullah Efendi’nin bu sırada meydana gelen Kabakçı İsyanı ’nda devletle âsiler arasında imzalanan anlaşmada ve 29 Eylül 1808’de imzalanan Sened-i İttifak ’ta imzaları bulunmaktadır. 21 Kasım 1808’de şeyhülislâmlığa getirilen Abdullah Efendi bir yıl on ay kadar bu makamda kaldı. Ancak muhtemelen ayaklanan bazı zorbaları teşvik ettiği hususunda II. Mahmud’da bir şüphe uyanması üzerine 22 Eylül 1810’da azledildi, yerine üçüncü defa Sâmânîzâde Ömer Hulûsi Efendi getirildi. 12 Haziran 1812’de Hulûsi Efendi’nin azli üzerine ikinci defa şeyhülislâm oldu. Üç yıla yakın bir süre görevde kaldı. Oldukça karışık geçen bu dönemde Sadrazam Hurşid Ahmed Paşa ’nın zorbaları te’dib kararını tasvip etmeyerek fetva vermemesi sadrazamla birlikte azledilmesine sebep oldu (22 Mart 1815). Azlinden sonra arpalığı olan Manisa’ya gönderildi. Bir süre sonra affedilerek İstanbul’a dönmesine izin verildiyse de tekrar Manisa’ya, oradan da Bursa’ya gönderildi. 1823’te Abdülmecid’in doğumu üzerine affa uğrayarak İstanbul’a döndü. Abdullah Efendi, 1826’da Yeniçeri Ocağı ’nın kaldırılması sırasında mâzul ulemânın en kıdemlilerinden biri olarak hazırlanan mazbataya imzasını koydu; bir süre sonra II. Mahmud’un Kubbealtı’nda akdettiği toplantıda en önemli şahsiyetler arasında yer aldı. 23 Cemâziyelevvel 1244’te (1 Aralık 1828) vefat etti ve Karacaahmet Mezarlığı ’na defnedildi. Başlangıçta babasının, daha sonra da bizzat kendi nüfuzu ile devrinin olaylarında önemli rol oynayan ve itibarını hemen daima koruyan Abdullah Efendi merasim ve teşrifatı seven, ihtişama düşkün bir kişiydi. Köklü ailesinden gelen büyük bir servete sahip olup Bebek’te bugün Mısır Konsolosluğu olarak kullanılan binanın yerinde yalısı, Üsküdar Tunusbağı’nda da bir konağı vardı. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 36-37 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:durrizade-abdullah-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=durrizade-abdullah-efendi, https://islamansiklopedisi.org.tr/durrizade-abdullah-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:durrizade-abdullah-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/durrizade-abdullah-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:53Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=durrizade-abdullah-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1828,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=durrizade-abdullah-efendi, URL: https://islamansiklopedisi.org.tr/durrizade-abdullah-efendi || DİA birth place: İstanbul || DİA death place: 1244 || DİA death-date string: (ö. 1828) || DİA categories: fetva || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

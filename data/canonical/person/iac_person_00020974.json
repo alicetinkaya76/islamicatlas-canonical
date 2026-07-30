@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00020974",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Muhammed b. Talâl"
+    },
+    "description": {
+      "tr": "Son Reşîdî; İbn Suûd Ha'il'i fethetti (1340/1921)"
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:57:ruler:4",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-057, ruler #5",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:15:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:15:10Z",
+    "modified": "2026-05-04T15:15:10Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:15:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Promoted from inline rulers[4] of iac:dynasty-00000057 (The Āl Rashīd) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[4].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "affiliated_dynasties": [
+    "iac:dynasty-00000057"
+  ],
+  "laqab": [
+    "Amīr"
+  ],
+  "floruit_temporal": {
+    "start_ce": 1921,
+    "end_ce": 1921,
+    "start_ah": 1339,
+    "end_ah": 1340,
+    "approximation": "floruit"
+  },
+  "death_temporal": {
+    "start_ce": 1921,
+    "approximation": "circa",
+    "start_ah": 1340,
+    "note": "Inferred from Bosworth reign_end (often ≈ year of death)."
+  },
+  "note": "Promoted from iac:dynasty-00000057 rulers[4] (Bosworth NID-057)."
+}

@@ -1,0 +1,81 @@
+{
+  "@id": "iac:person-00003602",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN ABBÂD, Ebü’l-Velîd",
+      "ar": "أبو الوليد ابن عبّاد"
+    },
+    "originalScript": {
+      "ar": "أبو الوليد ابن عبّاد"
+    },
+    "altLabel": {
+      "tr": [
+        "İsmâîl b. Muhammed b. İsmâîl b. Kureyş b. Abbâd el-Lahmî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Lahmîler’e mensuptur. Atalarından Attâf b. Nuaym, 123 (741) yılında Belc b. Bişr’in maiyetindeki askerlerle birlikte Endülüs’e geçmiş ve Vâdilkebîr’in (Guadalquivir) kıyısında İşbîliye’ye (Sevilla) bağlı bir köye yerleşmişti. Muhtemelen burada dünyaya gelen İbn Abbâd baba tarafından Arap, anne tarafından İspanyol’dur. Gençliğinde İbn Abdülber’le birlikte birçok âlimin meclislerine katıldı. İşbîliye’de Ebû Muhammed el-Bâcî’den, Kurtuba’da (Córdoba) Ebû Muhammed el-Asîlî’den rivayetlerde bulundu ve zamanla dinî ilimlerde temayüz etti. Hakkındaki bilgiler onun yalnız âlim değil irfan sahibi bir mürşid, uzak görüşlü, zeki, zengin ve cömert bir insan olduğu yolundadır. Zenginliğini ifade eden bir rivayete göre oğlu Ebü’l-Kāsım’a bıraktığı servet İşbîliye’nin üçte birine denkti. Zenginliği ve cömertliği sebebiyle, Endülüs Emevî Devleti’ni parçalanmaya götüren iç karışıklıklar sırasında Kurtuba’dan kaçmak zorunda kalan birçok önemli şahsiyet onun himayesine sığınmıştır. İbn Abbâd, II. Hişâm döneminde Hâcib İbn Ebû Âmir el-Mansûr tarafından Kurtuba Camii imam-hatipliğine, ardından İşbîliye kadılığına tayin edildi. Mansûr’un arkasından hâciblik makamını üstlenen oğlu Abdülmelik b. Mansûr el-Muzaffer onu kadılıktan azlettiyse de İşbîliye halkının ısrarı üzerine görevine tekrar getirdi. “Zü’l-vizâreteyn” unvanına sahip olan İbn Abbâd, kadılığın yanında şehrin asayiş işlerinin idare ve kontrolünü de üstlendi. Bu şekilde İşbîliye’nin idaresi büyük çapta onun eline geçti. Bulunduğu makamları kaybetmemek için halifelerle ve diğer devlet adamlarıyla iyi geçinmeye çalıştı ve böylece İşbîliye’de kendisinden sonra kurulacak Abbâdî hânedanı için uygun bir zemin hazırladı. İbn Abbâd 410 (1019) veya 414 (1023) yılında vefat etti. Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 266 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-abbad-ebul-velid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-abbad-ebul-velid, https://islamansiklopedisi.org.tr/ibn-abbad-ebul-velid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:16Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-abbad-ebul-velid (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Lahmî"
+  ],
+  "birth_temporal": {
+    "start_ah": 123,
+    "start_ce": 741,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 410,
+    "start_ce": 1019,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-abbad-ebul-velid, URL: https://islamansiklopedisi.org.tr/ibn-abbad-ebul-velid || DİA death place: İşbîliye || DİA death-date string: (ö. 410/1019 [?]) || DİA categories: rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001138"
+  ]
+}

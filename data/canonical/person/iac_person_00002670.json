@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00002670",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "FÂRİSÎ, Nasr b. Abdülazîz",
+      "ar": "نصر بن عبد العزيز الفارسي"
+    },
+    "originalScript": {
+      "ar": "نصر بن عبد العزيز الفارسي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hüseyn Nasr b. Abdilazîz b. Ahmed el-Fârisî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Şîrâzî nisbesiyle de anıldığına göre Şîraz’da doğduğu söylenebilir. Kıraat ilmine dair ilk dersleri Ali b. Ca‘fer er-Râzî’den aldı. Daha sonra Bağdat’a giderek burada Ebû Ahmed el-Faradî, Ebü’l-Hasan es-Sûsencirdî, Ebü’l-Hasan el-Hammâmî, Mansûr b. Muhammed b. Mansûr gibi hocalardan bu ilimde faydalandı. Bizzat kendisinden rivayet edildiğine göre Ebû Ali Hasan b. Muhammed el-Bağdâdî’nin (ö. 438/1047) er-Ravża adlı eserinde zikredilen bütün tarik ve rivayetlere uygun olarak Kur’an’ın tamamını bu kitapta adları bulunan hocalarından okuyup kıraat ilmindeki ihtisasını tamamladı. Bağdat’tan Mısır’a geçen Fârisî burada kıraat ilminin üstadı olarak seçkin yerini aldı; talebe yetiştirdi ve telifle meşgul oldu. Ebü’l-Kāsım İbnü’l-Fahhâm, Ebü’l-Kāsım Hilf b. İbrâhim b. Nehhâs ve Mürşid b. Yahyâ el-Medînî onun öğrencileri arasında yer aldılar. Hadis ilmiyle de meşgul olduğu anlaşılan Fârisî, İbn Bişrân diye tanınan Ebü’l-Hüseyin Ali b. Muhammed el-Bağdâdî ve İbn Rezkuye’den hadis rivayet etmiş, kendisinden de Ahmed b. Yahyâ el-Cârûd el-Mısrî, Rûzbe b. Mûsâ ve Muhammed b. Ahmed b. Hattâb er-Râzî rivayette bulunmuşlardır. Fârisî’nin bilinen tek eseri el-Câmiʿ fî ẕikri ḳırâʾâti’l-ḳurrâʾi’l-ʿaşere olup bir nüshası Dârü’l-kütübi’z-Zâhiriyye’dedir (nr. 4425, vr. 141-148). Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 171 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:farisi-nasr-b-abdulaziz",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=farisi-nasr-b-abdulaziz, https://islamansiklopedisi.org.tr/farisi-nasr-b-abdulaziz",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:03Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:03Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:03Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=farisi-nasr-b-abdulaziz (1 chunks) by dia adapter (Hafta 4). Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Fârisî"
+  ],
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 461,
+    "start_ce": 1069,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=farisi-nasr-b-abdulaziz, URL: https://islamansiklopedisi.org.tr/farisi-nasr-b-abdulaziz || DİA birth place: Şîraz || DİA death-date string: (ö. 461/1069) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "students": [
+    "iac:person-00002808"
+  ]
+}

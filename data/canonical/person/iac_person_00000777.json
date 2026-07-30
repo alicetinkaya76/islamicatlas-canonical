@@ -1,0 +1,68 @@
+{
+  "@id": "iac:person-00000777",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AHMED EFENDİ, Müftîzâde"
+    },
+    "description": {
+      "tr": "Gelibolu müftüsü olan babasına nisbetle daha çok Müftîzâde lakabıyla meşhur olmuştur. Medrese tahsilinden sonra çeşitli ilmiye görevlerinde bulundu. 1772 Rus seferine Mekke pâyesiyle ordu kadısı olarak katıldı. 1782’de İstanbul kadısı, 1785’te Rumeli kazaskerliği pâyesiyle Anadolu kazaskeri ve 10 Şubat 1786’da şeyhülislâm oldu. 1787’de Rusya’ya sefer açılıp açılmaması hususunda devlet erkânı arasında farklı görüşler belirdiği zaman Sadrazam Koca Yûsuf Paşa, Şeyhülislâm Ahmed Efendi ile birlikte I. Abdülhamid’i arzu etmediği bir savaşa sürükledi. Daha sonra Avusturya’nın da Rusya’nın yanında savaşa katılması, yaşlı şeyhülislâmı harbin neticesi hakkında endişeye düşürdü. Bunun üzerine hatasını ileri sürerek azlini istedi ve 24 Kasım 1787’de görevinden ayrıldı (Cevdet Paşa, IV, 38-39). 1789’da III. Selim’in tahta geçmesinden sonra Şeyhülislâm Hamîdîzâde’nin mâzul şeyhülislâmları arpalık larına gitmeye mecbur etmesi üzerine, Ahmed Efendi de arpalığı olan Ankara’ya gitti. Ancak Mekkî Mehmed Efendi’nin 1791’de ikinci defa şeyhülislâm olması ile İstanbul’a dönmesine izin verildi. 10 Kasım 1791’de vefat etti ve Üsküdar’da Havuzdibi’ne defnedildi. Faziletli, bilgili, ilmî araştırmaya düşkün ve yumuşak huylu bir kimse olan Ahmed Efendi’nin şeyhülislâmlığı bir yıl on ay kadar sürmüştür. Fas Hükümdarı Muhammed b. Abdullah’ın Osmanlı ulemâsına sorduğu dört meseleye tek başına hazırladığı cevaplar, devrin âlimleri tarafından oldukça beğenilmiştir. Ahmed Efendi’nin ayrıca Beyzâvî Tefsiri ’nin bazı kısımlarına hâşiyeler yazdığı da bilinmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 61 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ahmed-efendi-muftizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ahmed-efendi-muftizade, https://islamansiklopedisi.org.tr/ahmed-efendi-muftizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ahmed-efendi-muftizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-efendi-muftizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:52Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:52Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:52Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ahmed-efendi-muftizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1206,
+    "start_ce": 1791,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ahmed-efendi-muftizade, URL: https://islamansiklopedisi.org.tr/ahmed-efendi-muftizade || DİA death place: Üsküdar || DİA death-date string: (ö. 1206/1791) || DİA categories: tefsir || Chunk count: 1"
+}

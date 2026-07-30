@@ -1,0 +1,96 @@
+{
+ "@id": "iac:person-00000351",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Evliya Celebi",
+   "tr": "Evliyâ Çelebi",
+   "ar": "أوليا جلبي"
+  },
+  "originalScript": {
+   "ar": "أوليا جلبي"
+  },
+  "altLabel": {
+   "en": [
+    "Evliya ibn Dervis Mehmed Zilli"
+   ],
+   "tr": [
+    "Evliyâ b. Derviş Mehmed Zillî"
+   ],
+   "ar": [
+    "أوليا بن درويش محمد زلي"
+   ]
+  },
+  "description": {
+   "tr": "Osmanlı İmparatorluğu ve ötesini kapsayan on ciltlik seyahat anlatısı; rakipsiz etnografik detay || Osmanlı seyyahı; 10 ciltlik Seyahatnâme'si 17. yüzyıl Osmanlı dünyasının en kapsamlı panoramasıdır. 40 yılda üç kıtayı gezdi; dil, müzik, mimari ve sosyal yaşam üzerine eşsiz gözlemler aktardı. || [Tarih notu] Dankoff ve Kim'in eleştirel edisyonu Seyahatnâme araştırmalarını dönüştürmüştür. Evliyâ'nın abartılarının edebî gelenek mi yoksa kasıtlı mizah mı olduğu tartışılmaktadır.",
+   "en": "Ten-volume travel account covering Ottoman Empire and beyond; unmatched ethnographic detail || Greatest Ottoman traveler; 10-volume Seyahatname covers 40+ years of travel across 3 continents || [Historiographical note] His account of the Vienna siege, African travels, and Caucasus are primary historical sources",
+   "ar": "رحّالة عثماني؛ سياحتنامه في عشرة مجلدات أشمل بانوراما للعالم العثماني في القرن السابع عشر. جال ثلاث قارات في أربعين عامًا ناقلًا ملاحظات فريدة عن اللغة والموسيقى والعمارة والحياة الاجتماعية. || [Historiographical note] حوّلت الطبعة النقدية لدانكوف وكيم دراسات السياحتنامه. يُناقش ما إذا كانت مبالغات أوليا تقليدًا أدبيًا أم فكاهة مقصودة."
+  }
+ },
+ "profession": [
+  "geographer",
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0177",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0177",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-05-04T15:39:33Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0177 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (223-351-2620) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00002620 lehine yumuşak-silindi. Gerekçe: Üç kayıt da Seyahatnâme müellifi Evliya Çelebi'dir; 1682/1684 farkı ölüm tarihinin kaynaklarda kesin olmamasından kaynaklanıyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00002620"
+ },
+ "birth_temporal": {
+  "start_ce": 1611,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1682,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0177, lecture_week=n/a. || Key works: {'title': {'en': 'Seyahatname (Book of Travels)', 'tr': 'Seyâhatnâme'}, 'year': 1682, 'field': 'geography', 'significance': {'en': 'Ten-volume travel account covering Ottoman Empire and beyond; unmatched ethnographic detail', 'tr': 'Osmanlı İmparatorluğu ve ötesini kapsayan on ciltlik seyahat anlatısı; rakipsiz etnografik detay'}} || Modern parallel: Like a one-person National Geographic — documenting everything from architecture to food to dialects",
+ "birth_place": "iac:place-00000735",
+ "active_in_places": [
+  "iac:place-00000735"
+ ],
+ "authored_works": [
+  "iac:work-00000210"
+ ]
+}

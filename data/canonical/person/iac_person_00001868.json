@@ -1,0 +1,82 @@
+{
+  "@id": "iac:person-00001868",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "CÜLENDÂ b. MES‘ÛD",
+      "ar": "جلندى بن مسعود"
+    },
+    "originalScript": {
+      "ar": "جلندى بن مسعود"
+    },
+    "altLabel": {
+      "tr": [
+        "Cülendâ b. Mes‘ûd b. Ceyfer b. Cülendâ el-Ezdî"
+      ]
+    },
+    "description": {
+      "tr": "Son Emevî halifesi Mervân b. Muhammed zamanında ayaklanan ve 129 (747) yılında öldürülen İbâzî reislerinden Tâlibü’l-Hak Abdullah b. Yahyâ’yı desteklemiştir. İlk Abbâsî halifesi Ebü’l-Abbas es-Seffâh devrinde (750-754) Uman’a önce Cünâh b. Ubâde, sonra da onun oğlu Muhammed b. Cünâh vali olarak tayin edildi. Ancak Uman İbâzîleri, valiler kendilerine oldukça yumuşak davranmış olmalarına rağmen Seffâh’a biata yanaşmadılar; istiklâllerini ilân için teşebbüse geçtiler ve aralarında en âdil ve en faziletli olarak tanınan Cülendâ b. Mes‘ûd’u imamlığa seçtiler (132/750). Seffâh, Uman bölgesindeki Hâricîler’in itaat altına alınmaları için Hâzim b. Huzeyme kumandasında bir kuvvet gönderdi. Basra’dan deniz yoluyla ayrılan Hâzim, Uman sahillerindeki Berkâvân adasında bulunan Şeybân b. Abdülazîz el-Yeşkûrî el-Hâricî başkanlığındaki Süfrîler’i buradan uzaklaştırdı. Uman sahillerine kadar kaçan Şeybân, Cülendâ tarafından Uman’a sokulmadı ve adamlarıyla birlikte öldürüldü. Böylece Hâzim Uman’a girdiğinde karşısında İbâzîler’den başka itaat altına alınacak kimse kalmamıştı. İbâzîler Seffâh’a itaat ve biatı reddedince şiddetli bir savaş başladı. İlk anda Umanlı pek çok İbâzî öldürüldü. Daha sonra Hâzim İbâzîler’in direnişlerini kırmak için ahşap evlerde oturmakta olan Umanlılar’ın evlerini ateşe verdi. Bu durum karşısında kadınlarını ve çocuklarını kurtarmak için savaş düzenini bozan Uman İbâzîleri’nin üzerine hücum eden Hâzim, 134 (751) yılında savaşı kazandı. Savaş sonunda aralarında Cülendâ’nın da bulunduğu 10.000 dolayında İbâzî hayatını kaybetti. İbâzî kaynaklarına göre Uman imamlarının adalet, ihsan, sıdk, basîret, mârifet, vera‘, zühd ve fazilet bakımından en üstünü olan Cülendâ’nın ölümünden sonra Uman İbâzîliği yok olma tehlikesi ile karşı karşıya kalmıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1993 yılında İstanbul’da basılan 8. cildinde, 107-108 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:culenda-b-mesud",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=culenda-b-mesud, https://islamansiklopedisi.org.tr/culenda-b-mesud",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:culenda-b-mesud",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/culenda-b-mesud",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:49Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:49Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=culenda-b-mesud (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 129,
+    "start_ce": 747,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 134,
+    "start_ce": 751,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=culenda-b-mesud, URL: https://islamansiklopedisi.org.tr/culenda-b-mesud || DİA death-date string: (ö. 134/751) || Chunk count: 1"
+}

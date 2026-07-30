@@ -1,0 +1,91 @@
+{
+  "@id": "iac:person-00005871",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mustafa Dede"
+    },
+    "description": {
+      "tr": "900 (1495) yılında Amasya’da doğdu. Osmanlı hat ekolünün kurucusu Şeyh Hamdullah’ın oğlu ve Anadolu’nun yedi büyük hat üstadından (esâtize-i Rûm) biridir. Eniştesi Şükrullah Halife ile birlikte Şeyh Hamdullah yolunu ve silsilesini talebe yetiştirerek devam ettirmiştir. Mustafa Dede ile Şükrullah Halife soyundan Derviş Mehmed b. Mustafa Dede, Hamza b. Mustafa Dede, Hasan b. Hamza, Pîr Mehmed b. Şükrullah, Ahmed b. Mehmed b. Şükrullah ve Hasan Üsküdârî gibi seçkin hattatlar yetişmiştir. Mustafa Dede aklâm-ı sitteyi Şeyh Hamdullah’tan öğrendi. Ancak babasının vefatından sonra yazısını Abdullah Amâsî’ye devam etmek suretiyle geliştirdi. Kahire’ye giderek orada bulduğu Şeyh Hamdullah murakka‘larını inceledi, bu sayede hattını daha da güzelleştirdi. Hac vazifesini yerine getirdikten sonra İstanbul’a döndü. Üsküdar’da talebe yetiştirmekle meşgulken yanlış bir tedavi sonucu kırk beş yaşında öldü (“Gitti dedem cennete” [945]). Kabri Üsküdar Karacaahmet Mezarlığı’nda babasının yanındadır. Hattı metin, üslûbu zarifti. Babası seviyesinde yazardı. Sanat dünyasına mushaf, en‘âm, cüz, murakka‘ ve kıta olarak eserler kazandıran Mustafa Dede’nin Topkapı Sarayı Müzesi Kütüphanesi’nde murakka‘ ve kıtaları (Emanet Hazinesi, nr. 2099-2107, 2299), mushaf-ı şerifi (nr. Y 406), Kehf sûresi (nr. 407), en‘âm-ı şerifi (nr. 305, 306, 402); İstanbul Üniversitesi Kütüphanesi’nde Kur’ân-ı Kerîm’i (AY, nr. 6566, 6625), murakkaı (AY, nr. 6508); Türk Vakıf Hat Sanatları Müzesi’nde murakkaı (nr. 256); Konya Koyunoğlu Müzesi’nde Kur’ân-ı Kerîm’i (nr. 9963) bilinen eserlerindendir. Tuhfe-i Hattâtîn ’de adı geçen talebeleri arasında Gubârî Abdurrahman, Ulvî, Pîr Mehmed b. Şükrullah, Derviş Mehmed b. Mustafa, Mehmed Dal Çelebi, Ali b. Hüsâm, Hamza b. Mustafa Dede önde gelmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 31. cildinde, 293 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mustafa-dede",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mustafa-dede, https://islamansiklopedisi.org.tr/mustafa-dede",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:mustafa-dede",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/mustafa-dede",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:44Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mustafa-dede (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 900,
+    "start_ce": 1495,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 945,
+    "start_ce": 1538,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=mustafa-dede, URL: https://islamansiklopedisi.org.tr/mustafa-dede || DİA birth place: Amasya || DİA death-date string: (ö. 945/1538) || Chunk count: 1",
+  "birth_place": "iac:place-00015105",
+  "teachers": [
+    "iac:person-00003122"
+  ]
+}

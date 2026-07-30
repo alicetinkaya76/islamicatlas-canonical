@@ -1,0 +1,70 @@
+{
+  "@id": "iac:person-00004202",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’l-HANBELÎ, Ebü’l-Kāsım",
+      "ar": "أبو القاسم ابن الحنبلي"
+    },
+    "originalScript": {
+      "ar": "أبو القاسم ابن الحنبلي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Kāsım (Ebü’l-Berekât) Şerefü’l-İslâm Abdülvehhâb b. Abdilvâhid b. Muhammed eş-Şîrâzî ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "Dımaşk’ta doğdu. Pek çok ilim adamının yetiştiği bir aileden gelmektedir. Özellikle babası Ebü’l-Ferec Abdülvâhid eş-Şîrâzî, Hanbelî mezhebinin Suriye ve Filistin bölgesinde yayılması hususunda büyük gayret göstermiş olup soyundan gelenler İbnü’l-Hanbelî diye anılmıştır. İbnü’l-Hanbelî, küçük yaşta kaybettiği babasından ve Ebû Tâlib İbn Yûsuf’tan ders aldı. Fıkıh ve tefsir başta olmak üzere dinî ilimlerde adını duyurdu ve döneminde önde gelen Hanbelî âlimlerinden biri oldu. Şâfiîler’in itirazına rağmen, Hanbelî mezhebinin yayılması ve doktrinin gelişmesinde önemli roller üstlenmiş olan Dımaşk’taki Hanbeliyye Medresesi’ni kurdu. Eş‘arîler’e karşı Hanbelî-Selefî akîdesini savundu. Bilhassa Dımaşk’taki Mâlikiyye Medresesi’nin hocalarından Mâlikî-Eş‘arî âlimi Ebü’l-Haccâc Yûsuf b. Devnâs el-Mağribî el-Findelâvî ile çeşitli konularda tartışmalarda bulundu. Muhtemelen bu tartışmalar yüzünden ortaya çıkan huzursuzluklar sebebiyle bir ara Emeviyye Camii’nde vaaz vermesi yasaklandı. Haçlılar 523 (1129) yılında Dımaşk’a saldırdığı zaman burada hüküm süren Tâcülmülûk Böri b. Tuğtegin, İbnü’l-Hanbelî’yi yardım istemesi için Bağdat’a elçi olarak gönderdi. Halife Müsterşid-Billâh, İbnü’l-Hanbelî’ye hil‘at giydirerek Dımaşk’a askerî yardım göndereceğini vaad etti. İbnü’l-Hanbelî, Bağdat’ta kaldığı süre içinde ders verdi ve bazı ilim adamları ile münazaralar yaptı. Bağdat’ta kendisinden hadis dinleyenler arasında Ebû Bekir İbn Kâmil bulunmaktadır. İbnü’l-Hanbelî 17 Safer 536’da (21 Eylül 1141) Dımaşk’ta vefat etti. Sıbt İbnü’l-Cevzî ölüm tarihini 533 (1138) olarak vermektedir ( Mirʾâtü’z-zamân , VIII/1, s. 169). Kaynaklarda onun el-Münteḫab fi’l-fıḳh (iki cilt), el-Müfredât , el-Burhân fî uṣûli’d-dîn , Risâle fi’r-red ʿale’l-Eşʿariyye adlı eserleri bulunduğu belirtilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 67 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnul-hanbeli-ebul-kasim",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnul-hanbeli-ebul-kasim, https://islamansiklopedisi.org.tr/ibnul-hanbeli-ebul-kasim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:25Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:25Z",
+    "modified": "2026-05-04T15:34:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnul-hanbeli-ebul-kasim (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Şîrâzî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)",
+    "Eş'arî (akîde)"
+  ],
+  "death_temporal": {
+    "start_ah": 536,
+    "start_ce": 1141,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnul-hanbeli-ebul-kasim, URL: https://islamansiklopedisi.org.tr/ibnul-hanbeli-ebul-kasim || DİA birth place: Dımaşk || DİA death place: Dımaşk || DİA death-date string: (ö. 536/1141) || DİA categories: mezhep > fıkıh > hadis || Chunk count: 1"
+}

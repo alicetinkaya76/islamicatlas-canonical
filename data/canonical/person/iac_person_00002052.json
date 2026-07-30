@@ -1,0 +1,89 @@
+{
+  "@id": "iac:person-00002052",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Dimnâtî",
+      "ar": "الدمناتي"
+    },
+    "originalScript": {
+      "ar": "الدمناتي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Süleymân ed-Dimnâtî"
+      ]
+    },
+    "description": {
+      "tr": "1234’te (1818-19) Merakeş yakınlarındaki Dimnat’ta doğdu. Bücüm‘avî nisbesiyle de anılan Dimnâtî’nin hayatı hakkında fazla bilgi yoktur. Mağrib’de fakih Ahmed b. Muhammed es-Sûsî et-Timeccedeştî, Ebü’l-Abbas Ahmed b. Ömer ed-Dükkâlî, Abdülganî ed-Dihlevî el-Medenî’den; Mekke’de Hanbelîler’in müftüsü olan Muhammed b. Abdullah b. Humeyd, Mâlikîler’in müftüsü Hüseyin b. İbrâhim el-Ezherî, Hanefî fakihi Cemâl b. Ömer el-Mekkî gibi âlimlerden ders aldı. Bir müddet Mısır’da yaşadığı da söylenmektedir. Fıkıhta Mâlikî olan ve Şâzelî tarikatına mensup bulunan Dimnâtî 28 Rebîülâhir 1306’da (1 Ocak 1889) Merakeş’te vefat etti. Eserleri. Çoğu önemli hadis şerhlerinin birer cilt halindeki ihtisarından ibaret olan çalışmalarının belli başlıları şunlardır: 1. Nefʿu Ḳūti’l-muġteẕî ʿalâ Câmiʿi’t-Tirmiẕî (Kahire 1298). Süyûtî’nin, Tirmizî’nin el-Câmiʿu’ṣ-ṣaḥîḥ ’ine yaptığı Ḳūtü’l-muġteẕî adlı şerhin muhtasarıdır. 2. Eclâ mesânidi ʿule’r-raḥmân fî aʿlâ esânîdi ʿAlî b. Süleymân (Kahire 1298). Kendilerinden hadis öğrendiği hocaları ile onlardan rivayet ettiği hadislere ve Kütüb-i Sitte ’nin senedlerine dair bilgiler ihtiva eden eserin baş tarafında kendi biyografisi de yer almaktadır. 3. Ḥulâ nühûri ḥûri’l-cinân fî ḥaẓâʾiri’r-raḥmân (Kahire 1298). Hz. Peygamber’e yazılan methiyeleri ihtiva etmektedir. 4. Rûḥu’t-Tevşîḥ (Kahire 1298). Süyûtî’nin et-Tevşîḥ ʿale’l-Câmiʿi’ṣ-ṣaḥîḥ adlı Ṣaḥîḥ-i Buḫârî şerhinin muhtasarı olup 1294 (1877) yılında tamamlanmıştır. 5. Derecâtü Mirḳāti’ṣ-ṣuʿûd ilâ Süneni Ebî Dâvûd (Kahire 1298). Süyûtî’nin Mirḳātü’ṣ-ṣuʿûd ’unun muhtasarı olan bu eserini de 1877 yılında tamamlamıştır. 6. Ġurretü eşhüri’l-envâr bi-şerḥi manẓûmeti Ezhüri’l-ezhâr (Kahire 1298). Vaz‘ , makūlât , sarf, nahiv ve belâgat ilimlerine dair kendi eserinin kısa bir şerhi olup 1297’de (1880) tamamlanmıştır. 7. Veşyü’d-Dîbâc ʿalâ Ṣaḥîḥi Müslim b. el-Ḥaccâc (Kahire 1299). Süyûtî’nin ed-Dîbâc ’ının muhtasarıdır. 8. Nûrü Miṣbâḥi’z-zücâce ʿalâ Süneni İbni Mâce (Kahire 1299). Süyûtî’nin Miṣbâḥu’z-zücâce adlı eserinin özeti mahiyetindedir. 9. ʿArfü Zehri’r-rübâ ʿale’l-Müctebâ (Kahire 1299). Süyûtî’nin, Nesâî’nin es-Sünen ’ine yaptığı Zehrü’r-rubâ adlı şerhin özetinden ibarettir. 10. en-Naṣîḥatü’t-tâmme li’l-ḫalîḳati’l-ʿâmme (Kahire 1899). Müellifin bazı vaazlarını ihtiva etmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 308-309 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:dimnati",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=dimnati, https://islamansiklopedisi.org.tr/dimnati",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:dimnati",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=dimnati",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:53Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:53Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:53Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=dimnati (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=dimnati)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Dimnâtî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 1306,
+    "start_ce": 1889,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=dimnati, URL: https://islamansiklopedisi.org.tr/dimnati || DİA birth place: Dimnat || DİA death place: Merakeş || DİA death-date string: (ö. 1306/1889) || DİA categories: hadis > fıkıh > nahiv || Chunk count: 1"
+}

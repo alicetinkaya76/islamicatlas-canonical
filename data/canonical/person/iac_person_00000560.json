@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000560",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDULLAH ed-DİHLEVÎ",
+      "ar": "عبد الله دهلوى"
+    },
+    "originalScript": {
+      "ar": "عبد الله دهلوى"
+    },
+    "altLabel": {
+      "tr": [
+        "Abdullāh b. Abdillatîf Dihlevî Nakşibendî"
+      ]
+    },
+    "description": {
+      "tr": "Gulâmu Ali diye de tanınır. 1156’da (1743) Pencap’ta doğdu. Rüyasında gördüğü Hz. Ali, doğacak çocuğuna kendi adını koymasını istediğinden babası ona Ali adını verdi. Büyüme çağına gelince Gulâmu Ali adını aldı. Fakat daha sonra rüyasında Hz. Peygamber’in kendisine “Abdullah” diye hitap etmesi üzerine bu iki isimle tanındı. Dinî ilimleri küçük yaşta öğrenmeye başladı. Daha sonra Delhi’ye giderek Abdülazîz ed-Dihlevî’den Ṣaḥîḥ-i Buḫârî okudu. Tefsir, hadis ve fıkıh ilimlerinde kısa zamanda oldukça ileri bir seviyeye ulaştı. Babası, Kādirî şeyhi Nâsırüddin’e intisap etmesini istediyse de bu istek gerçekleşmeden Şeyh Nâsırüddin ölünce onu bu konuda serbest bıraktı. Nakşibendî şeyhi Mazhar Cân-ı Cânân’a (ö. 1195/1780) yirmi iki yıl hizmet ettikten sonra ondan irşad için mutlak icâzet aldı. Şeyhi bir Şiî tarafından öldürülünce onun yerine geçti ve kısa zamanda büyük bir üne kavuştu. Müridlerinin tasavvufî terbiyesiyle ilgilenmesi yanında günün belli saatlerinde zâviyesinde hadis, fıkıh, tefsir ve tasavvuf dersleri okuttu. Kendisinden feyiz almak için Anadolu, Suriye, Irak, Hicaz, Horasan ve Mâverâünnehir’den ziyaretine gelenler, giderek artmaya başladı. Nakşibendîliğin Hâlidiyye kolunun kurucusu Mevlânâ Hâlid el-Bağdâdî de, “Hz. Peygamber’den rüyada aldığı emir üzerine”, Hindistan’a giderek şeyhin müridi oldu. Dihlevî, Kasım 1824’te Delhi’deki zâviyesinde vefat etti. Nakşibendîliğin Müceddidiyye-i Dihleviyye kolunun kurucusu olarak kabul edilen Abdullah ed-Dihlevî, semâa önem vermemekle birlikte Çiştîliğin tesiriyle vecd ve şevk halleri gösterirdi. Kazânî, onun çeşitli risâleleri bulunduğunu söyleyerek Îżâḥu’ṭ-ṭarîḳa (Süleymaniye Ktp., Hasan Hüsnü Paşa, nr. 7421) ve Maḳāmât-ı Maẓhariyye (İstanbul 1986) adlı iki risâlesini zikreder. Abdullah ed-Dihlevî Maḳāmât-ı Maẓhariyye ’de şeyhini anlatmış, Abdülganî b. Ebû Saîd de onun hayatı, kerametleri ve halifeleri hakkında Ḫulâṣa-i Cevâhir-i ʿAleviyye ( Maḳāmât-ı Maẓhariyye içinde, s. 147-191) adlı bir risâle kaleme almıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 94-95 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdullah-ed-dihlevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdullah-ed-dihlevi, https://islamansiklopedisi.org.tr/abdullah-ed-dihlevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdullah-ed-dihlevi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdullah-ed-dihlevi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:39Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdullah-ed-dihlevi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.98): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Bağdâdî"
+  ],
+  "death_temporal": {
+    "start_ah": 1240,
+    "start_ce": 1824,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdullah-ed-dihlevi, URL: https://islamansiklopedisi.org.tr/abdullah-ed-dihlevi || DİA birth place: Pencap || DİA death place: Delhi || DİA death-date string: (ö. 1240/1824) || DİA categories: fıkıh > hadis > tefsir || Chunk count: 1"
+}

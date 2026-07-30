@@ -1,0 +1,113 @@
+{
+  "@id": "iac:person-00000228",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Abbas ibn Firnas",
+      "tr": "Abbâs b. Firnâs",
+      "ar": "عباس بن فرناس"
+    },
+    "originalScript": {
+      "ar": "عباس بن فرناس"
+    },
+    "altLabel": {
+      "en": [
+        "Abu al-Qasim Abbas ibn Firnas"
+      ],
+      "tr": [
+        "Ebü'l-Kâsım Abbâs b. Firnâs"
+      ],
+      "ar": [
+        "أبو القاسم عباس بن فرناس"
+      ]
+    },
+    "description": {
+      "tr": "İlk insan uçuş denemesi — kanatlar inşa edip Kurtuba yakınlarında bir tepeden yaklaşık 10 dakika süzüldü. Ayrıca yapay gök gürültüsü ve şimşekli bir planetaryum yarattı || İbn Firnâs, ilk belgelenmiş insan uçuşu denemesini yapan Emevi Kurtuba'sında Berberî bir polimâttı. || [Tarih notu] el-Makkarî'nin Nefhu't-Tîb'i (17. yy.) birincil kaynaktır.",
+      "en": "First human flight attempt — built wings and glided from a hill near Córdoba for approximately 10 minutes, landing with injuries. Also created a planetarium with artificial thunder and lightning, and manufactured clear glass (rock crystal) || Ibn Firnas was a Berber polymath in Umayyad Córdoba who made the first documented attempt at human flight. He also built a water clock, manufactured clear glass from quartz, and created a room-sized planetarium. The source mentions him in the Andalusia lecture on science as a key figure of early Andalusian innovation. || [Historiographical note] Al-Maqqari's Nafh al-Tib (17th c.) is the primary source. The Baghdad airport Ibn Firnas statue and the lunar crater named after him attest to his enduring fame. Some scholars question whether the flight lasted 10 minutes or was briefer.",
+      "ar": "أول محاولة طيران بشرية — صنع جناحين وحلّق من تلة قرب قرطبة نحو ١٠ دقائق. كما صنع قبة فلكية بالرعد والبرق || كان ابن فرناس عالمًا أمازيغيًا في قرطبة الأموية قام بأول محاولة موثقة للطيران البشري. صنع أيضًا ساعة مائية وزجاجًا شفافًا من الكوارتز"
+    }
+  },
+  "profession": [
+    "scholar",
+    "astronomer"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0045",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0045, lecture_id=endulus-bilim",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "dia-chunks:abbas-b-firnas",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abbas-b-firnas",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:55:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:55:39Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:55:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0045 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 810,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 887,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q305975",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Abbas ibn Firnas')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0045, lecture_week=3. || Key works: {'title': {'en': 'Glider flight attempt', 'tr': 'Planör uçuş denemesi', 'ar': 'محاولة الطيران بجناحين'}, 'year': 875, 'field': 'engineering', 'significance': {'en': \"First documented controlled flight attempt — glided for about 10 minutes from a hill near Córdoba, 600 years before Leonardo da Vinci's designs\", 'tr': \"İlk belgelenmiş kontrollü uçuş denemesi — Kurtuba yakınlarında bir tepeden yaklaşık 10 dakika süzüldü, Leonardo'dan 600 yıl önce\"}} || Modern parallel: The Wright Brothers — but 1,000 years earlier, alone, and using handmade wings from a hilltop in Spain.",
+  "active_in_places": [
+    "iac:place-00009538"
+  ],
+  "authored_works": [
+    "iac:work-00000068"
+  ]
+}

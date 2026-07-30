@@ -1,0 +1,70 @@
+{
+  "@id": "iac:person-00000665",
+  "@type": [
+    "iac:Person",
+    "iac:Poet",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Abdurrahman Nesîb Dede"
+    },
+    "description": {
+      "tr": "İstanbul’un Üsküdar semtinde doğdu. Aziz Mahmud Hüdâyî Âsitânesi şeyhi olan babası Mehmed Şehâbeddin Efendi’nin yanında yetişti ve daha sonra Celvetiyye tarikatına intisap etti. Seyrüsülûkünü tamamladıktan sonra Ayasofya Camii civarındaki Erdebil Tekkesi’ne şeyh oldu. Babasının 1818’de vefatı üzerine de Aziz Mahmud Hüdâyî Âsitânesi’ne şeyh tayin edildi. 1827’de Ordu-yı Hümâyun vâizliğine getirildi. Vefatında âsitâne hazîresine defnedildi. Kendisinden sonra şeyh olan oğlu Mehmed Rûşen Efendi de ölümüne kadar (1891) bu makamda kaldı. Celvetiyye tarikatının önde gelen şeyhlerinden sayılan Nesîb Dede’nin tasavvufî manzumeleri, onun şiir sanatındaki kudretini ortaya koymaktadır. Seyyid mahlası ile yazdığı şiirlerini mürettep bir divanda toplamıştır. Divanının kendi el yazısıyla olan bir nüshası, Üsküdar’da Hacı Selim Ağa Kütüphanesi’nde (Hüdâî Efendi, nr. 1806) kayıtlıdır. Ayrıca Celvetiyye tarikatına dair bir risâlesi olduğu da söylenmektedir. Nesîb Dede mûsiki ile de meşgul olmuştur. Onun dinî mahiyette bazı eserler bestelediği, çeşitli el yazması güfte mecmualarında zikredilmekteyse de bunlardan sadece bir ilâhi ile din dışı sahada bir peşrevi zamanımıza ulaşabilmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 168-169 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "poet",
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-nesib-dede",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-nesib-dede, https://islamansiklopedisi.org.tr/abdurrahman-nesib-dede",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdurrahman-nesib-dede",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdurrahman-nesib-dede",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:44Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:44Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:44Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-nesib-dede (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1842,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-nesib-dede, URL: https://islamansiklopedisi.org.tr/abdurrahman-nesib-dede || DİA death place: 1827 || DİA death-date string: (ö. 1842) || DİA categories: tarikat > tasavvuf > şiir || Chunk count: 1"
+}

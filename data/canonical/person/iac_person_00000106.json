@@ -1,0 +1,114 @@
+{
+  "@id": "iac:person-00000106",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Hishām III",
+      "ar": "هشام"
+    },
+    "description": {
+      "tr": "Son Endülüs Emevî halifesi; sikke bastı (o)",
+      "en": "HISHAM III, al-Mu'tadd, son of the incapable, \nephemeral Caliph 'Abd al-Rahman IV al-Murtada \n(408 = 1018) great great-grandson of the great \n'Abd al-Rahman III (912—961), was the sixteenth and last f",
+      "ar": "هشام الثالث، المعتد، حفيد حفيد عبد الرحمن الثالث، السادس عشر والأخير..."
+    },
+    "altLabel": {
+      "en": [
+        "HISHAM III"
+      ]
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:4:ruler:22",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-004, ruler #23",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+      },
+      {
+        "source_id": "ei1:1891",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "EI1 vol. 2, p. 43",
+        "extraction_method": "ocr",
+        "edition_or_version": "Encyclopaedia of Islam, 1st ed. (Brill, 1913-1936)"
+      },
+      {
+        "source_id": "dia-chunks:hisam-iii",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hisam-iii",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:02:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:02:33Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:02:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Promoted from inline rulers[22] of iac:dynasty-00000004 (The Spanish Umayyads) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[22].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T15:44:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "ei1 augment (H10 Stage 4, Tier-2 conf 1.0): gap-filled ['description.en', 'description.ar', 'altLabel.en']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.96): gap-filled ['prefLabel.ar']."
+      }
+    ],
+    "deprecated": false
+  },
+  "affiliated_dynasties": [
+    "iac:dynasty-00000004"
+  ],
+  "laqab": [
+    "Khalīfa"
+  ],
+  "floruit_temporal": {
+    "start_ce": 1027,
+    "end_ce": 1031,
+    "start_ah": 418,
+    "end_ah": 422,
+    "approximation": "floruit"
+  },
+  "death_temporal": {
+    "start_ce": 1036,
+    "start_ah": 428,
+    "approximation": "exact",
+    "note": "Bosworth death code: d. 428/1036"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q962721",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Hishām III')."
+    }
+  ],
+  "note": "Bosworth death code: d. 428/1036 || Promoted from iac:dynasty-00000004 rulers[22] (Bosworth NID-004)."
+}

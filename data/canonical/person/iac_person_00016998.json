@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00016998",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Muhammad al-Shaykh",
+      "tr": "Muhammed eş-Şeyh",
+      "ar": "محمد الشيخ"
+    },
+    "originalScript": {
+      "ar": "محمد الشيخ"
+    },
+    "description": {
+      "tr": "Merişteki Sa'adî emîrleri arasından bir hükümdar",
+      "en": "One of the Sa'adi rulers among the noble Sharifians in Morocco"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad b. Zaidān b. Ahmad al-Mansūr al-Saʿdī"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed b. Zeydân b. Ahmed el-Mansûr es-Saadî"
+      ],
+      "ar": [
+        "محمد بن زيدان بن أحمد المنصور السعدي، أبو عبد الله، الملقب بالشيخ، أوالشيخ الأصغر"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:9896",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9896",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:58Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:58Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:58Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=9896 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:9896."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1064,
+    "start_ce": 1654,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q1951892",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Muhammad al-Shaykh')."
+    }
+  ],
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9896, heading_ar=محمد الشيخ || Ziriklī century_ce=17 || Ziriklī place coords (city/region of activity): 34.03, -5.0",
+  "authored_works": [
+    "iac:work-00005209"
+  ],
+  "kunya": "أبو عبد الله"
+}

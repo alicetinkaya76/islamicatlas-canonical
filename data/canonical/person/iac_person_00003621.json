@@ -1,0 +1,105 @@
+{
+  "@id": "iac:person-00003621",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN ABDÜSSELÂM el-HEVVÂRÎ",
+      "ar": "ابن عبد السلام الهوّاري"
+    },
+    "originalScript": {
+      "ar": "ابن عبد السلام الهوّاري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Abdisselâm b. Yûsuf el-Hevvârî"
+      ]
+    },
+    "description": {
+      "tr": "676 (1277) yılında Tunus yakınlarındaki Münestîr köyünde doğdu. Bundan dolayı Münestîrî nisbesiyle de anılır. Ebü’l-Abbas el-Batranî, Ebû Abdullah İbn Hârûn ve İbn Cemâa’dan ilim tahsil etti. Şemmâiyye ve Unukulcemel medreselerinde ders verdi. Yetiştirdiği öğrenciler arasında Kādî İbn Haydere, İbn Haldûn, İbn Arafe el-Vergammî ve Muhammed b. Saîd er-Ruaynî gibi âlimler bulunmaktadır. Mâlikî mezhebinde tercih ehli âlimlerden olan İbn Abdüsselâm 734 (1334) yılında Tunus’ta başkadılık (kādılcemâa) görevine getirildi ve bu görevini 22 Receb 749 (16 Ekim 1348) tarihinde vefatına kadar sürdürdü. Eserleri. 1. Tenbîhü’ṭ-ṭâlib li-fehmi elfâẓi Câmiʿi’l-ümmehât li’bni’l-Ḥâcib ( Tenbîhü’ṭ-ṭâlib li-fehmi kelâmi’bni’l-Ḥâcib , Şerḥu Câmiʿi’l-ümmehât ). Mâlikî fakihlerinin ileri gelenlerinden İbnü’l-Hâcib’in Câmiʿu’l-ümmehât ( el-Muḫtaṣar ) adlı eserinin en önemli şerhlerinden olup Fas’ta Hizânetü’l-Karaviyyîn’de (nr. 408, 409, 410) eksik bazı nüshaları bulunmaktadır (ayrıca bk. Brockelmann, I, 373). 2. Dîvânü fetâvâ ( Fetâvâ ; bk. a.g.e. , II, 318). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 287-288 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-abdusselam-el-hevvari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-abdusselam-el-hevvari, https://islamansiklopedisi.org.tr/ibn-abdusselam-el-hevvari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-abdusselam-el-hevvari",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-abdusselam-el-hevvari",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:17Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-abdusselam-el-hevvari (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-abdusselam-el-hevvari)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hevvârî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 676,
+    "start_ce": 1277,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 749,
+    "start_ce": 1348,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-abdusselam-el-hevvari, URL: https://islamansiklopedisi.org.tr/ibn-abdusselam-el-hevvari || DİA birth place: Münestîr || DİA death-date string: (ö. 749/1348) || DİA categories: kelâm > mezhep || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003710"
+  ],
+  "students": [
+    "iac:person-00003650",
+    "iac:person-00003827",
+    "iac:person-00003994",
+    "iac:person-00005198",
+    "iac:person-00006452"
+  ]
+}

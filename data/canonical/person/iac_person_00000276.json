@@ -1,0 +1,105 @@
+{
+  "@id": "iac:person-00000276",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Hezarfen Ahmed Celebi",
+      "tr": "Hezârfen Ahmed Çelebi",
+      "ar": "هزارفن أحمد جلبي"
+    },
+    "originalScript": {
+      "ar": "هزارفن أحمد جلبي"
+    },
+    "description": {
+      "tr": "Galata Kulesi'nden yapay kanatlarla Boğaz'ı geçerek uçuş gerçekleştirdiği rivayet edilir || Uçuşu Evliyâ Çelebi'nin Seyahatnâme'sinde kayıtlıdır. || [Tarih notu] Tarihselliği tartışmalıdır — tek kaynağımız abartmasıyla bilinen Evliyâ Çelebi'dir.",
+      "en": "Reportedly achieved a gliding flight across the Bosphorus from Galata Tower using artificial wings — one of history's earliest documented attempts at human flight || His flight is recorded by Evliya Celebi in the Seyahatname. While details may be embellished, the attempt reflects Ottoman interest in applied aerodynamics and the experimental spirit of 17th-century Istanbul. || [Historiographical note] The historicity is debated — our sole source is Evliya Celebi, known for exaggeration. However, the flight is consistent with contemporary gliding experiments elsewhere.",
+      "ar": "يُروى أنه طار من برج غلطة عبر البوسفور بأجنحة اصطناعية || سجّل أوليا جلبي طيرانه في سياحتنامه"
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0093",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0093",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "scholars:95",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=95",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:57:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:57:16Z",
+    "modified": "2026-07-12T14:48:04Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:57:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0093 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['nisba']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1609,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1640,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q743810",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Hezarfen Ahmed Celebi')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0093, lecture_week=n/a. || Key works: {'title': {'en': 'Gliding flight across the Bosphorus (documented by Evliya Celebi)', 'tr': \"Boğaz üzerinden süzülme uçuşu (Evliyâ Çelebi'nin belgelediği)\", 'ar': 'الطيران الانزلاقي عبر البوسفور'}, 'year': 1632, 'field': 'engineering', 'significance': {'en': 'Reportedly flew from the Galata Tower across the Bosphorus using artificial wings — an early gliding flight', 'tr': \"Yapay kanatlarla Galata Kulesi'nden Boğaz'ı geçerek uçtuğu rivayet edilir — erken dönem süzülme uçuşu\"}} || Modern parallel: Like the Wright Brothers' predecessors — an early aviation pioneer whose achievement was documented by a contemporary witness.",
+  "birth_place": "iac:place-00000735",
+  "active_in_places": [
+    "iac:place-00000735"
+  ],
+  "authored_works": [
+    "iac:work-00000131"
+  ],
+  "nisba": [
+    "İstanbullu"
+  ]
+}

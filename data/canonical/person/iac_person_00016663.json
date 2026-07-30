@@ -1,0 +1,124 @@
+{
+ "@id": "iac:person-00016663",
+ "@type": [
+  "iac:Person",
+  "iac:Ruler"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn Jarīr al-Ṭabarī",
+   "tr": "İbn Cerîr et-Taberî",
+   "ar": "ابن جرير الطبري"
+  },
+  "originalScript": {
+   "ar": "ابن جرير الطبري"
+  },
+  "description": {
+   "tr": "İmâm müfessir müverrih",
+   "en": "The imam, exegete, and historian"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muhammad b. Jarīr b. Yazīd al-Ṭabarī, Abū Jaʿfar"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. Cerîr b. Yezîd et-Taberî, Ebû Cafer",
+    "Taberî"
+   ],
+   "ar": [
+    "محمد بن جرير بن يزيد الطبري، أبو جعفر"
+   ]
+  }
+ },
+ "profession": [
+  "ruler"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:9535",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9535",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "alatli:E0018",
+    "source_type": "secondary_scholarly",
+    "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:54Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:54Z",
+  "modified": "2026-07-24T05:45:29Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:54Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=9535 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:10Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:9535."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-24T05:45:29Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alatli augment (H25, Tier-2 conf 0.99): ['authority_xref', 'altLabel.tr', 'derived_from_layers']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:24:08Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (213-7225-16663-21303) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00007225 lehine yumuşak-silindi. Gerekçe: Dördü de Muhammed b. Cerîr et-Taberî'dir (ö. 922/923, Âmül-Taberistan); 16663'teki 'ruler' rolü etiketleme hatasıdır, nesep 'İbn Cerîr' aynı şahsı işaret eder."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00007225"
+ },
+ "death_temporal": {
+  "start_ah": 310,
+  "start_ce": 923,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9535, heading_ar=ابن جرير الطبري || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 36.3, 53.0",
+ "active_in_places": [
+  "iac:place-00007861"
+ ],
+ "kunya": "أبو جعفر",
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q192124",
+   "confidence": 0.994,
+   "method": "imported_from_source",
+   "reviewed": false,
+   "note": "Alatlı (Tarihe Yön Veren Metinler): Tier-2 ad+ölüm eşleşmesi; QID Wikidata tarih-teyitli."
+  }
+ ],
+ "derived_from_layers": [
+  "alatli"
+ ]
+}

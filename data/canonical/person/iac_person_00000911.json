@@ -1,0 +1,92 @@
+{
+  "@id": "iac:person-00000911",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Alâeddin Ali Esved",
+      "ar": "علاء الدين على اسود"
+    },
+    "originalScript": {
+      "ar": "علاء الدين على اسود"
+    },
+    "description": {
+      "tr": "Afyonkarahisarlı olup Kara Hoca lakabıyla meşhurdur. Babasının adı Ömer’dir. Tahsilini İran’da yaptı. Orhan Gazi zamanında Anadolu’ya geldi ve İznik Medresesi’ne müderris tayin edildi. Talebeleri arasında oğlu Niksârî Hasan Paşa ile Molla Fenârî de bulunmaktadır. 26 Muharrem 800 (19 Ekim 1397) tarihinde vefat eden Ali Esved, İznik Şerefzâde mahallesindeki türbesinde medfundur. Eserleri. 1. el-ʿİnâye . Burhânüşşerîa Mahmûd b. Sadrüşşerîa el-Evvel’in Hanefî fıkhına dair Viḳāyetü’r-rivâye adlı eserine yaptığı şerhtir. İki cilt olan bu eserin Süleymaniye Kütüphanesi’nde yazma nüshaları vardır (Fâtih, nr. 1883-1884; Cârullah Efendi, nr. 765-766). 2. Künûzü’l-envâr . Sultan Murad adına kaleme alınan Rumûzü’l-esrâr adlı fıkıh usulüne dair bir eserin şerhidir. Yazma bir nüshası Nuruosmaniye Kütüphanesi’ndedir (nr. 1334, 334 varak). 4 Zilhicce 769 (21 Temmuz 1368) tarihinde istinsah edilen bu nüshanın mukaddimesinde asıl metnin Ebû Bekir b. İbrâhim’e ait olduğu belirtilmektedir. Ali Esved ayrıca Hatîb el-Kazvînî’ye ait el-Îżâḥ fi’l-meʿânî ve’l-beyân adlı eserle (bk. Keşfü’ẓ-ẓunûn , I, 211) Celâleddin Ömer el-Habbâzî’nin fıkıh usulüne dair el-Muġnî adlı kitabını da şerhetmiştir (bk. Brockelmann, I, 657). Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 319 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:alaeddin-ali-esved",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=alaeddin-ali-esved, https://islamansiklopedisi.org.tr/alaeddin-ali-esved",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:alaeddin-ali-esved",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=alaeddin-ali-esved",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:16Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:16Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:16Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=alaeddin-ali-esved (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=alaeddin-ali-esved)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 800,
+    "start_ce": 1397,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=alaeddin-ali-esved, URL: https://islamansiklopedisi.org.tr/alaeddin-ali-esved || DİA death-date string: (ö. 800/1397) || DİA categories: fıkıh || Chunk count: 1",
+  "students": [
+    "iac:person-00003273",
+    "iac:person-00005578"
+  ]
+}

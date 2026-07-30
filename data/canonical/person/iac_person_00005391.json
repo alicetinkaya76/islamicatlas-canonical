@@ -1,0 +1,67 @@
+{
+  "@id": "iac:person-00005391",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Mehmed Şevket Efendi"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Ahmed Râkım Efendi’nin talebesi olduğu mushaflarında görülen ketebesinden anlaşılmaktadır ve bu şecere Mehmed Hâşim Efendi yoluyla Mustafa Râkım’a bağlanır. İki mushafı ve birkaç levhası dışında eserlerine rastlanmamıştır. Topkapı Sarayı Müzesi Kütüphanesi’nde bulunan her iki mushafı da “nısfü’s-sülüs” kalemiyle istifli biçimde ve on üç satır tertibiyle yazılmıştır. Sülüs hattının daha ziyade XIII-XVI. yüzyıllar arasında muhakkak ve nesihle beraber mushaflarda münâvebeli olarak kullanıldığı görülür, fakat sülüs hattıyla yazılmış böyle mushafa nâdiren rastlanır. Sülüs yazı istiflerinde sıkça kullanılan hurûf-ı mühmele gibi tezyinî işaretlere her iki mushafın bütün satırlarında eksiksiz yer verilmiştir. Bunlardan Hırka-i Saâdet’te bulunan (nr. 7) 1288 (1871) tarihli mushafın müzehhibi belli değildir; Medine bölümünde (nr. 65) kayıtlı olanı ise 1292 (1875) tarihlidir ve müzehhibi Hacı Ali Rızâ Efendi’dir. Bu mushaflarda harflerin tabii boydaki sülüs hattı kadar düzgün tertiplenebildiği söylenemez. Ancak mushafın 7000’e yakın satırının da bir levha veya kıta itinasıyla yazılabilmesi mümkün değildir. Mehmed Şevket Efendi’nin ayrıca yazı taklidinde (bk. HAT ) başarılı olduğu, Mekke Emîri Abdülmuttalib Efendi’nin Sultan Abdülaziz’e hediye edeceği Çemşîr Hâfız Sâlih Efendi’ye ait mushafın hatalı bir sayfasını silip Çemşîr’i taklit ederek tekrar yazmasından anlaşılmaktadır. Asit kullanarak mühür hakketmekte de mahir olduğu rivayet edilen Mehmed Şevket Efendi’nin “kayıt altına girmez” bir yaratılışa sahip bulunduğunu Son Hattatlar ’da İbnülemin Mahmud Kemal nakletmektedir. Sanattaki mertebesi derecesinde tanınmayan Şevket Efendi 1294’te (1877) veya ertesi yıl vefat etmiştir, kabrinin yeri belli değildir. Bu madde TDV İslâm Ansiklopedisi’nin 2019 yılında Ankara’da basılan (gözden geçirilmiş 3. basım) EK-2. cildinde, 233 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:mehmed-sevket-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=mehmed-sevket-efendi, https://islamansiklopedisi.org.tr/mehmed-sevket-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:39Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:39Z",
+    "modified": "2026-05-04T15:40:12Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:39Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=mehmed-sevket-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1877,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=mehmed-sevket-efendi, URL: https://islamansiklopedisi.org.tr/mehmed-sevket-efendi || DİA birth place: İstanbul || DİA death place: 1294 || DİA death-date string: (ö. 1877 [?]) || DİA categories: rivayet || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

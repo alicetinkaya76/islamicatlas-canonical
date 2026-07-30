@@ -1,0 +1,113 @@
+{
+  "@id": "iac:person-00004041",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İbn Süfyân",
+      "ar": "ابن سفيان"
+    },
+    "originalScript": {
+      "ar": "ابن سفيان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Muhammed b. Süfyân el-Kayrevânî el-Hevvârî"
+      ]
+    },
+    "description": {
+      "tr": "Kayrevan’da muhtemelen Hevvâriyyûn diye anılan köyde doğdu (Yâkūt, V, 419). Ebü’l-Hasan Ali b. Muhammed el-Kābisî’den fıkıh tahsil etti ve Mâlikî mezhebinde ileri bir seviyeye ulaştı. Mısır’a giderek İsmâil b. Muhammed el-Mehrî’den Verş’in rivayetiyle Nâfi‘ b. Abdurrahman’ın kıraatini okudu. 380 (990) yılından önce Ebü’t-Tayyib İbn Galbûn’un derslerine devam ederek kıraatlere ait rivayetleri arz yoluyla öğrendi. Mısır’dan Kayrevan’a dönen İbn Süfyân, kıraat ilminde Ya‘kūb b. Saîd el-Hevvârî ve Kerdem b. Abdullah’tan da istifade etti. Zamanında kıraat sahasında çevrenin en tanınmış âlimi olarak bilinen İbn Süfyân’ın ayrıca hesap ve hendeseye de önem verdiği anlaşılmaktadır. Kıraat ilminde Ebü’l-Abbas el-Mehdevî, Ebû Bekir el-Kasrî ve Ebü’l-Hasan Ali b. Acemî gibi şahsiyetler kendisinden faydalanmış; Hâtim b. Muhammed, Ebü’l-Abbas İbnü’d-Delâî ve diğerleri de ondan hadis rivayet etmişlerdir. 403’te (1012-13) Tunus’un Mehdiye şehrine gitti; burada Ebû Muhammed Abdullah b. Hazrec, Ebû Hafs Ömer b. Hasan en-Nefûsî gibi âlimler kendisinden kıraat öğrendiler ve eserlerini okudular. İbn Süfyân, 413 (1022) yılında hac görevini yerine getirdi ve bir yıl kadar Mekke’de mücâvir olarak kaldı. Daha sonra Medine’ye gitti; 1 Safer 415’te (14 Nisan 1024) burada vefat etti ve Bakī‘ Mezarlığı’na defnedildi. Eserleri. İbn Süfyân’ın şöhretini sağlayan eseri el-Hâdî fi’l-ḳırâʾâti’s-sebʿ adını taşımakta olup Süleymaniye Kütüphanesi’nde iki yazma nüshası bulunmaktadır (Fâtih, nr. 61, 102 varak; Ayasofya, nr. 59, vr. 1 a -39 b ). Kaynaklarda adı geçen diğer eserleri de şunlardır: İḫtilâfü ḳurrâʾi’l-emṣâr fî ʿadedi âyi’l-Ḳurʾân , el-İrşâd fî meẕhebi’l-ḳurrâʾ , et-Teẕkire fi’l-ḳırâʾât (son iki eseri yalnız Mahlûf zikretmektedir). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 362-363 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-sufyan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-sufyan, https://islamansiklopedisi.org.tr/ibn-sufyan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:ibn-sufyan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=ibn-sufyan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      },
+      {
+        "source_id": "el-alam:9970",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=9970, heading_ar=ابن سفيان",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:23Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:23Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-sufyan (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[9970]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:37:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T07:06:22Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=ibn-sufyan)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=9970 (heading_ar=ابن سفيان) via Track A (DİA→Alam xref bridge). dt=Kûran okuyucu, Kâhire halkından"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kayrevânî; Hevvârî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 380,
+    "start_ce": 990,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 415,
+    "start_ce": 1024,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-sufyan, URL: https://islamansiklopedisi.org.tr/ibn-sufyan || El-Aʿlām (Ziriklī) cross-reference: alam_id=[9970] || DİA death place: 415 || DİA death-date string: (ö. 415/1024) || DİA categories: rivayet > fıkıh > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=9970, heading_ar=ابن سفيان, dt=Kûran okuyucu, Kâhire halkından",
+  "active_in_places": [
+    "iac:place-00002062",
+    "iac:place-00010037"
+  ]
+}

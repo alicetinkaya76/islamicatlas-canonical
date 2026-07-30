@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00001968",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "DEFRÉMERY, Charles François"
+    },
+    "description": {
+      "tr": "8 Aralık 1822’de Cambrai’de doğdu. 1840’ta Paris’e giderek Reinaud, Caussin de Perceval ve Quatremère gibi ünlü şarkiyatçılardan Arapça ve Farsça dersleri aldı. Caussin de Perceval’den sonra Collège de France’da öğretim üyesi olarak çalıştı (1868). Bir müddet sonra rahatsızlığı yüzünden bu görevden ayrılıp İran tarihi ve edebiyatıyla ilgilenmeye başladı. 18 Ağustos 1883’te Saint-Valery-en-Caux’ta öldü. Eserleri. Daha çok neşre hazırladığı eserlerle tanınan Defrémery’nin Mémoires d’histoire orientale adlı kitabı, Journal Asiatique ’te yayımlanan Doğu tarihiyle ilgili makalelerini ihtiva etmekte olup iki cilt halinde basılmıştır (Paris 1854-1862). Neşre hazırladığı ve Fransızca’ya çevirdiği eserler de şunlardır: 1. İbn Battûta, Riḥle ( Tuḥfetü’n-nüẓẓâr fî ġarâʾibi’l-emṣâr ve ʿacâʾibi’l-esfâr ). İtalyan şarkiyatçısı Sanguinetti ile beraber neşre hazırladığı bu eser Fransızca tercümesiyle birlikte ( Voyages d’Ibn Batoutah texte arabe, accompagné d’une traduction ) dört cilt halinde yayımlanmıştır (Paris 1853-1858). 2. İbnü’l-Esîr, el-Kâmil . Eserin Haçlı seferleriyle ilgili bölümlerini Joseph-Toussaint Reinaud ile beraber Fransızca tercümesiyle birlikte ( Recueil des Histoirens des Croisades, histoirens orientaux ) iki cilt halinde neşretmiştir (Paris 1872-1887). 3. Mîrhând, Ravżatü’ṣ-ṣafâʾ . Eserin Gurlular’la ilgili kısmını Fransızca’ya çevirmiş ve notlar ilâve ederek yayımlamıştır (“Histoire des sultans Ghourides, extraite de l’histoire universelle de Mirkhond”, JA , IV. seri, II [1843], s. 167-200, III [1844], s. 258-291). 4. Hamdullah el-Müstevfî, Târîḫ-i Güzîde . Bu eserin Selçuklular’la ilgili kısmını Fransızca’ya çevirerek neşretmiştir (“Histoire des Seldjoukides, extrait du Tarikh-i Guzideh ”, JA , IV. seri, XI [1848], s. 417-462; XII [1848], s. 259-279, 334-370; XIII [1849], s. 15-55). 5. Hândmîr, Ḥabîbü’s-siyer . Eserin, Türkistan ve Mâverâünnehir’e hâkim olan Moğol hanlarından bahseden kısmını notlar ilâvesiyle Fransızca’ya çevirmiştir (“Histoire des Khans Mongols du Turkistan et de la Transoxiane, extraite du Habib Essiier de Khondémir”, JA , IV. seri, XIX [1852], s. 58-94, 216-288). 6. Atâ Melik Cüveynî, Târîḫ-i Cihângüşâ . Bu eserin Mahmûd Târâbî’nin isyanı, Çağatay Han, oğlu ve torunuyla ilgili kısımlarını Fransızca tercümesiyle birlikte yayımlamıştır ( JA , IV. seri, XX [1852], s. 370-406). Defrémery’nin önemli çalışmalarından biri de Selçuklu Sultanı Berkyaruk hakkındadır (“Recherches sur le règne du sultan seldjoukide Barkiarok (485-498 de l’hégire = 1092-1104 de l’ère chrétienne)”, JA , V. seri, I [1853], s. 425-458; II [1853], s. 217-232). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 88 numaralı sayfada \"DEFREMERY, Charles François\" başlığıyla yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:defremery-charles-francois",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=defremery-charles-francois, https://islamansiklopedisi.org.tr/defremery-charles-francois",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:defremery-charles-francois",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=defremery-charles-francois",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:51Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:51Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:51Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=defremery-charles-francois (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=defremery-charles-francois)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1822,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=defremery-charles-francois, URL: https://islamansiklopedisi.org.tr/defremery-charles-francois || DİA birth place: Cambrai || DİA death-date string: (1822-1883) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001719",
+    "iac:person-00006321",
+    "iac:person-00006389"
+  ]
+}

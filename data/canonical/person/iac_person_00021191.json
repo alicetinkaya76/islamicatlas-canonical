@@ -1,0 +1,65 @@
+{
+  "@id": "iac:person-00021191",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Toktamış Han"
+    },
+    "description": {
+      "tr": "Ak ve Mavi Orda'yı birleştirdi; Timur ile çatıştı; Timur Saray'ı yıktı (797/1395); savaşta öldürüldü"
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "bosworth-nid:134:ruler:3",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-134, ruler #4",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:17:32Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:17:32Z",
+    "modified": "2026-05-04T15:17:32Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:17:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Promoted from inline rulers[3] of iac:dynasty-00000134 (The Khāns of the Golden Horde (Jochi descendants)) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[3].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+      }
+    ],
+    "deprecated": false
+  },
+  "affiliated_dynasties": [
+    "iac:dynasty-00000134"
+  ],
+  "laqab": [
+    "Han"
+  ],
+  "floruit_temporal": {
+    "start_ce": 1378,
+    "end_ce": 1395,
+    "approximation": "floruit"
+  },
+  "death_temporal": {
+    "start_ce": 1395,
+    "approximation": "circa",
+    "note": "Inferred from Bosworth reign_end (often ≈ year of death)."
+  },
+  "note": "Bosworth death code: k. || Promoted from iac:dynasty-00000134 rulers[3] (Bosworth NID-134)."
+}

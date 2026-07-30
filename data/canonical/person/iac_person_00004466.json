@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00004466",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İmâdülmülk",
+      "ar": "عماد الملك"
+    },
+    "originalScript": {
+      "ar": "عماد الملك"
+    },
+    "description": {
+      "tr": "1157 (1744) yılında doğdu. Asıl adı Şehâbeddin’dir. Annesi Vezir Kamerüddin Han’ın kızıdır. Babası Mîr Muhammed Penah, Dekken valiliğini ele geçirmek için çıktığı seferde öldüğü zaman sekiz yaşında olan İmâdülmülk, Delhi’de Vezir Ebü’l-Mansûr Safder Ceng’in himayesinde büyüdü. Çocukluk döneminde devlet hizmetine girdi ve mîr bahşı makamına kadar yükseldi. Afganlı Ahmed Şah Dürrânî’nin Hindistan seferi sırasında onun safına geçti ve emîrü’l-ümerâ tayin edildi. Ancak bir müddet sonra Dürrânî’nin gözünden düşünce görevinden azledildi. Yerine Necîbüddevle’nin tayin edilmesini kabullenemeyen İmâdülmülk Ahmed Şah Dürrânî’nin Hindistan’dan ayrılmasından sonra Necîbüddevle üzerine yürüdü, ardından da güçsüz durumdaki II. Âlemgîr’i öldürttü (1759). Bunun üzerine Ahmed Şah Dürrânî Hindistan’a dönerek İmâdülmülk’ün müttefikleri Maratalar’ı Pânîpet’te ağır bir yenilgiye uğrattı (1761). Olayların kendi aleyhine geliştiğini gören İmâdülmülk, bir süre Baharatpûr’da ve Fârukâbâd’da saklandıktan sonra 1773’te Dekken’e geçti. Eski müttefikleri Maratalar’dan yardım görmesine rağmen kendini güvende hissetmediğinden İngilizler’in kontrolündeki Sûret’e sığındı. Bir müddet burada yaşadıktan sonra hacca gitti. Hac dönüşünde Timur Şah Abdâlî ve Zaman Şah’ın maiyetinde bulundu. 10 Rebîülâhir 1215’te (31 Ağustos 1800) Kalpî’de vefat etti. İmâdülmülk, Âsâf ve Nizâm mahlasıyla Farsça, Arapça, Urduca ve Türkçe şiirler yazmıştır. Farsça şiirlerini ihtiva eden divanı (Delhi 1301) ve sûfî Fahreddin Çiştî’nin hayatına dair Menâḳıb-i Faḫriyye adlı eseri yayımlanmıştır (Delhi 1315). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 176-177 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:imadulmulk",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=imadulmulk, https://islamansiklopedisi.org.tr/imadulmulk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:imadulmulk",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/imadulmulk",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:29Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:29Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=imadulmulk (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ah": 1157,
+    "start_ce": 1744,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 1215,
+    "start_ce": 1800,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=imadulmulk, URL: https://islamansiklopedisi.org.tr/imadulmulk || DİA death place: Kalpî || DİA death-date string: (ö. 1215/1800) || Chunk count: 1"
+}

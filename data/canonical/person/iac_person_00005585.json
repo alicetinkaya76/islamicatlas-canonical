@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00005585",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Molla Miskîn",
+      "ar": "ملاّ مسكين"
+    },
+    "originalScript": {
+      "ar": "ملاّ مسكين"
+    },
+    "altLabel": {
+      "tr": [
+        "Molla Miskîn Muînüddîn Muhammed b. Abdillâh (İbrâhîm) el-Ferâhî el-Herevî"
+      ]
+    },
+    "description": {
+      "tr": "Herat’ta kadılık yapmış olmasının dışında hayatı hakkında bilgi yoktur. Kaynaklarda Molla Miskîn lakabıyla tanınan Meʿâricü’n-nübüvve müellifi Muîn el-Miskîn ile (ö. 907/1501) karıştırıldığı görülmektedir. Şerḥu Kenzi’d-deḳāʾiḳ adlı çalışması Ebü’l-Berekât en-Nesefî’ye ait eserin şerhlerinden biridir. Kitabın 881’de (1476) Semerkant’ta tamamlandığı belirtilmekteyse de (Serkîs, II, 1795) müellifin vefat tarihi dikkate alındığında bu bilginin ihtiyatla karşılanması gerektiği anlaşılmakta, tarihin doğru kabul edilmesi halinde Kâtib Çelebi’nin verdiği ölüm yılının yanlış olma ihtimali ortaya çıkmaktadır. Birçok defa basılan eser üzerine (Bulak 1287 [Hüseynî’nin hâşiyesiyle birlikte]; Kahire 1294, 1303, 1312, 1324, 1328) Ahmed b. Muhammed el-Hamevî Keşfü’r-remz ʿan beyâni (ḫabâye)’l-Kenz (yazmaları için bk. DİA , XV, 457) ve Ebüssuûd Muhammed b. Ali el-Hüseynî Fetḥullāhi’l-muʿîn (son olarak üç cilt halinde Karaçi’de neşredilmiştir [1403/1983]) adıyla birer hâşiye yazmışlardır. Taʿlîḳa ʿalâ ḳavli şihâbi’t-telḫîṣ: Feṣâḥatü’l-kelâm başlığını taşıyan bir risâle ile (Süleymaniye Ktp., M. Ârif - M. Murad, nr. 177) Herat tarihine dair Ravżatü’l-cenne adlı eser de Molla Miskîn’e nisbet edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 30. cildinde, 259 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "judge"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:molla-miskin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=molla-miskin, https://islamansiklopedisi.org.tr/molla-miskin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:molla-miskin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/molla-miskin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:41Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:41Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:41Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=molla-miskin (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ferâhî; Herevî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 954,
+    "start_ce": 1547,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=molla-miskin, URL: https://islamansiklopedisi.org.tr/molla-miskin || DİA death-date string: (ö. 954/1547) || DİA categories: kelâm || Chunk count: 1"
+}

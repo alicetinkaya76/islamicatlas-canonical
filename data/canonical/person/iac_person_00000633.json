@@ -1,0 +1,106 @@
+{
+  "@id": "iac:person-00000633",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. EBÜ’Z-ZİNÂD",
+      "ar": "عبد الرحمن بن أبي الزناد"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن أبي الزناد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdurrahmân b. Ebi’z-Zinâd el-Medenî"
+      ]
+    },
+    "description": {
+      "tr": "100 (718) yılında doğdu. Doğum yeri kesin olarak belli değildir. Babası ünlü fakih Ebü’z-Zinâd Abdullah b. Zekvân’ın künyesine izâfetle İbn Ebü’z-Zinâd diye tanınır. Ebü’z-Zinâd tâbiînden, Abdurrahman ise tebeu’t-tâbiînden sayılır. Zehebî, onu altıncı tabaka âlimleri arasında zikreder. Rivayetleri daha çok babasından olduğu için ilk tahsilini de ondan yaptığı anlaşılmaktadır. Kıraati, meşhur kıraat âlimlerinden Ebû Ca‘fer ve Nâfi‘den öğrenmiştir. Nâfi‘ kıraatine dair bir eser kaleme aldığı bilinmektedir. Ayrıca Süheyl b. Ebû Sâlih, Hişâm b. Urve, Mûsâ b. Ukbe gibi meşhur âlimlerden rivayetleri vardır. Kendisinden de Saîd b. Mansûr, İbn Cüreyc, Ebû Dâvûd et-Tayâlisî ve diğer bazı hadis âlimleri rivayette bulunmuşlardır. Abdurrahman b. Ebü’z-Zinâd, daha çok hadis ilmiyle meşgul olmakla birlikte, fıkhî meselelerde de fetvalar vermiştir. Hadiste genellikle güvenilir kabul edilirse de bazı noktalardan tenkide tâbi tutulmuştur. Bilhassa Hişâm b. Urve’den rivayet ettiği hadislerde güvenilir bir râvi (hüccet) kabul edildiği halde, diğer rivayetlerinde tam mânasıyla sika sayılmamıştır. Cerh ve ta‘dîl imamlarından Yahyâ b. Maîn’e göre ise rivayet konusunda zayıftır. Bazı âlimler Abdurrahman’ı, Bağdat’a gidip yerleştikten sonra babasından garîb hadisler rivayet etmesi sebebiyle tenkit ederler. Onun Medine’de iken rivayet ettiği hadislerin sahih olduğu, ancak Bağdat’ta rivayet ettiklerinin Bağdatlılar tarafından değiştirildiği de ileri sürülmüştür ki bu husus, Irak’a yerleştikten sonra tenkit edilmesine yol açan âmilleri açıklığa kavuşturması bakımından önemlidir. Bütün bunlara rağmen Abdurrahman b. Ebü’z-Zinâd, hadis ilminde ve rivayetinde yeri inkâr edilemeyecek bir âlimdir. Yetmiş dört yaşlarında Bağdat’ta vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 159 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-ebuz-zinad",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-ebuz-zinad, https://islamansiklopedisi.org.tr/abdurrahman-b-ebuz-zinad",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdurrahman-b-ebuz-zinad",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdurrahman-b-ebuz-zinad",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-ebuz-zinad (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Medenî"
+  ],
+  "birth_temporal": {
+    "start_ah": 100,
+    "start_ce": 718,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 174,
+    "start_ce": 790,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-ebuz-zinad, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-ebuz-zinad || DİA death place: Bağdat || DİA death-date string: (ö. 174/790) || DİA categories: rivayet > hadis > fetva || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002152",
+    "iac:person-00003438",
+    "iac:person-00005838",
+    "iac:person-00005969"
+  ],
+  "students": [
+    "iac:person-00000531",
+    "iac:person-00003721",
+    "iac:person-00004559",
+    "iac:person-00006609",
+    "iac:person-00007290",
+    "iac:person-00007657"
+  ]
+}

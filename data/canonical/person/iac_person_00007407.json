@@ -1,0 +1,65 @@
+{
+  "@id": "iac:person-00007407",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "TURAN, Dürrü"
+    },
+    "description": {
+      "tr": "1883’te (bazı kayıtlarda 1885) İstanbul Fatih’te Atikalipaşa semtinde doğdu. Maliye Nezâreti Kuyûd Kalemi memurlarından Saffet Bey’in oğludur. Büyük dayısı Ahmed Dürrü Bey, Hamâmîzâde İsmâil Dede Efendi’nin damadıdır. Mahalle mektebinde sesinin güzelliğiyle dikkati çekerek ilâhicibaşı oldu. Mercan İdâdîsi’ni ve 1905’te girdiği Dârülfünun Edebiyat Fakültesi’ni bitirdi. Dârülelhan’ın her iki döneminde de (1916, 1923) muallim kadrosunda yer aldı ve tambur hocalığı yaptı. 1926’da Dârülelhan’da Yusuf Ziya (Demircioğlu) başkanlığında, Ekrem Besim (Tektaş) ve Rauf Yektâ beylerden meydana gelen bir heyetle Adana, Gaziantep, Kayseri, Niğde, Sivas ve Urfa yörelerine yapılan folklor araştırmaları ve derleme gezilerinin birincisine katıldı. Ardından İstanbul Konservatuvarı ve İstanbul Belediye Konservatuvarı adını alan bu kuruluşta teşkil edilen Türk Mûsikisi İcra Heyeti’nde tambur icracısı ve hayatının son yıllarına kadar Tasnif ve Tesbit Heyeti üyesi olarak görev yaptı. Bazı okullarda Türkçe dersleri de okutan Dürrü Turan 17 Haziran 1961 tarihinde vefat etti ve Zincirlikuyu Mezarlığı’na defnedildi. Tambur icracılığı ve bestekârlığıyla son dönem mûsikişinasları arasında önemli bir yeri bulunan Dürrü Turan ilk mûsiki zevkini küçük yaşta dayısı Esad Efendi’nin evinde yapılan toplantılarda aldı. 1898’de Hacı Ârif Bey’in talebelerinden Mustafa Servet Efendi ile başladığı mûsiki çalışmaları on sekiz yıl devam etti ve ondan 600 civarında eser meşketti. 1902’de Mercan İdâdîsi’ne devam ederken akrabalarından ressam ve mûsikişinas Hikmet Bey ve Enderûnî Ali Bey’den mûsiki dersleri aldı. Tanbûrî Aziz Mahmud Bey’in talebelerinden Kenan Bey’le başladığı tambur derslerine, ünlü deniz ressamı süvari yüzbaşısı Tahsin Bey ve onun tavsiyesiyle Tanbûrî Cemil Bey’le devam etti. Ayrıca Rauf Yektâ Bey ve Hâfız Ahmet Irsoy’dan yirmi beş yıl kadar eser meşketti. 1932-1950 yılları arasında ezanın Türkçe okunması esnasında Dürrü Turan’ın dügâh, hicaz, bayatî ve rast makamlarında bestelediği ezanların örnek alınıp okunduğu ve bu eserlerin notalarının Diyanet İşleri Başkanlığı arşivinde bulunduğu söylenir. Hâfızasındaki eserlerin zenginliğiyle tanınan Dürrü Turan’ın ilk bestesi bir piyeste koro halinde okunmak üzere yazılmış, “İlâhi, en büyük lutfun muhabbettir” mısraıyla başlayan rast şarkısıdır. Öztuna onun dört ezan, on saz semâisi ve yirmi sekiz şarkıdan oluşan eserlerinin listesini vermiştir (bk. bibl.). Bu madde TDV İslâm Ansiklopedisi’nin 2012 yılında İstanbul’da basılan 41. cildinde, 410 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:turan-durru",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=turan-durru, https://islamansiklopedisi.org.tr/turan-durru",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:02Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=turan-durru (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1883,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=turan-durru, URL: https://islamansiklopedisi.org.tr/turan-durru || DİA death-date string: (1883-1961) || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000948",
+    "iac:person-00001773",
+    "iac:person-00004495",
+    "iac:person-00006364"
+  ]
+}

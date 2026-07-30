@@ -1,0 +1,99 @@
+{
+  "@id": "iac:person-00004308",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’r-RABVE",
+      "ar": "ابن الربوة"
+    },
+    "originalScript": {
+      "ar": "ابن الربوة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Nâsırüddîn Muhammed b. Ahmed b. Abdilazîz el-Konevî ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Konyalı olup 679 (1280) yılı başlarında Dımaşk’ta doğdu ve burada yaşadı. Radıyyüddin İbrâhim b. Süleyman el-Mantıkī’den Burhâneddin el-Mergīnânî’nin el-Hidâye adlı eserini okuyarak 721 (1321) yılında fetva icâzeti aldı. Ayrıca Sadreddin Ali el-Hanefî ve İbn Balabân’dan fıkıh öğrendi. Fıkıh, usûl-i fıkıh, ferâiz ve Arapça gramerinde uzmanlaştı. Dımaşk’taki Yelboğa el-Yahyâvî Camii’nde müderris ve hatip olarak görev yaptı. el-Mukaddemiyyetü’l-Cevvâniyye Medresesi’nde ders verdi. Ebû İshak Burhâneddin İbrâhim b. Mûsâ b. Eyyûb el-Ebnâsî kendisinden ders ve fetva icâzeti aldı. 759’da (1358) gittiği Kahire’de bir süre ikamet etti. Hac görevini yerine getirdikten sonra Dımaşk’a döndü ve 20 Cemâziyelevvel 764 (7 Mart 1363) tarihinde burada vefat ederek Sûfiye Kabristanı’na defnedildi. İbnü’r-Rabve’nin eserlerinden, yalnız Ebü’l-Berekât en-Nesefî’nin usûl-i fıkha dair Menârü’l-envâr ’ının muhtasarı olan Ḳudsü’l-esrâr fi’ḫtiṣâri’l-Menâr günümüze ulaşmıştır (Süleymaniye Ktp., Şehid Ali Paşa, nr. 664/1, vr. 1-14; Lâleli, nr. 3658, vr. 86-105). Kaynaklarda adı geçen diğer eserleri de şunlardır: Şerḥu’l-Menâr , el-Mevâhibü’l-Mekkiyye fî şerḥi Ferâʾiżi’s-Sirâciyye , ed-Dürrü’l-münîr fî ḥalli işkâli’l-kebîr (Muhammed b. Hasan eş-Şeybânî’nin el-Câmiʿu’l-kebîr ’inin şerhidir). Ayrıca Kâtib Çelebi, Habbâzî’nin eksik kalan el-Hidâye şerhini Tekmiletü’l-fevâʾid adıyla tamamladığını kaydeder ( Keşfü’ẓ-ẓunûn , II, 2033). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 179 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnur-rabve",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnur-rabve, https://islamansiklopedisi.org.tr/ibnur-rabve",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:27Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:27Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnur-rabve (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "deprecate",
+        "note": "h22_003 kişi-dublet birleştirme: aynı normalize Arapça ad 'ابن الربوه' + aynı ölüm (764 AH / 1363 CE) + ayrık kaynaklar; iac:person-00016314 lehine emekli. PID korunur, geri alınabilir (h22_003 --restore).",
+        "changed_at": "2026-07-20T14:37:49Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854"
+      }
+    ],
+    "deprecated": true,
+    "deprecated_in_favor_of": "iac:person-00016314"
+  },
+  "nisba": [
+    "Konevî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "birth_temporal": {
+    "start_ah": 679,
+    "start_ce": 1280,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 764,
+    "start_ce": 1363,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnur-rabve, URL: https://islamansiklopedisi.org.tr/ibnur-rabve || DİA birth place: Dımaşk || DİA death place: Kahire || DİA death-date string: (ö. 764/1363) || DİA categories: fıkıh > fetva > mantık || Chunk count: 1",
+  "death_place": "iac:place-00009399",
+  "teachers": [
+    "iac:person-00003686"
+  ]
+}

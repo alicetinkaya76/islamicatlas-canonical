@@ -1,0 +1,101 @@
+{
+  "@id": "iac:person-00000266",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Sadr al-Din Qunawi",
+      "tr": "Sadreddin Konevî",
+      "ar": "صدر الدين القونوي"
+    },
+    "originalScript": {
+      "ar": "صدر الدين القونوي"
+    },
+    "altLabel": {
+      "en": [
+        "Ṣadr al-Dīn Muḥammad ibn Isḥāq al-Qūnawī"
+      ],
+      "tr": [
+        "Sadreddîn Muhammed b. İshâk el-Konevî"
+      ],
+      "ar": [
+        "صدر الدين محمد بن إسحاق القونوي"
+      ]
+    },
+    "description": {
+      "tr": "İbnü'l-Arabî'nin tasavvuf felsefesini sistemleştirdi ve Konya'yı Ekberî düşüncenin merkezi haline getirdi || Konevî, İbnü'l-Arabî düşüncesinin Fars dünyasına başlıca aktarıcısı olup Nasîrüddîn Tûsî ile mektuplaştı. || [Tarih notu] İbnü'l-Arabî'nin üvey oğlu ve baş talebesi; Tûsî ile yazışmaları eşsiz bir sûfî-filozof diyaloğunu gösterir.",
+      "en": "Systematized Ibn al-Arabi's mystical philosophy and established Konya as the center of Akbarian thought || Qunawi was the primary transmitter of Ibn al-Arabi's thought to the Persian-speaking world, corresponding with Nasir al-Din al-Tusi. || [Historiographical note] Stepson and chief disciple of Ibn al-Arabi; his correspondence with Tusi shows a unique Sufi-philosopher dialogue.",
+      "ar": "نظّم فلسفة ابن عربي الصوفية وجعل قونية مركزاً للفكر الأكبري || كان الناقل الرئيسي لفكر ابن عربي إلى العالم الفارسي"
+    }
+  },
+  "profession": [
+    "philosopher",
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0083",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0083",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:56:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:56:54Z",
+    "modified": "2026-05-04T15:39:32Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:56:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0083 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1210,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1274,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q770298",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Sadr al-Din Qunawi')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0083, lecture_week=n/a. || Key works: {'title': {'en': 'Miftah al-Ghayb', 'tr': \"Miftâhu'l-Gayb\", 'ar': 'مفتاح الغيب'}, 'year': 1260, 'field': 'philosophy', 'significance': {'en': \"Systematic presentation of Ibn al-Arabi's metaphysics\", 'tr': \"İbnü'l-Arabî metafiziğinin sistematik sunumu\"}}; {'title': {'en': 'al-Fukuk', 'tr': 'el-Fükûk', 'ar': 'الفكوك'}, 'year': 1265, 'field': 'philosophy', 'significance': {'en': \"Commentary clarifying Fusus al-Hikam's most difficult passages\", 'tr': \"Fusûsü'l-Hikem'in en zor pasajlarını açıklayan ş || Modern parallel: Like a systematic philosopher who makes an original thinker's chaotic genius accessible to academic study.",
+  "birth_place": "iac:place-00010004",
+  "active_in_places": [
+    "iac:place-00010004"
+  ],
+  "authored_works": [
+    "iac:work-00000117",
+    "iac:work-00000118"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "@id": "iac:person-00000932",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ b. HUCR",
+      "ar": "عليّ بن حجر"
+    },
+    "originalScript": {
+      "ar": "عليّ بن حجر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. Hucr b. İyâs es-Sa‘dî el-Mervezî"
+      ]
+    },
+    "description": {
+      "tr": "Aslen Horasanlı olup 154’te (771) doğdu. Hadis öğrenmek gayesiyle çeşitli seyahatler yaparak Dımaşk, Kûfe ve Bağdat gibi ilim merkezleri başta olmak üzere çeşitli ülkeleri gezdi; tanınmış bilginlerden hadis okudu. Tahsilinin önemli bir kısmını Bağdat’ta tamamlayarak otuz üç yaşında Merv’e gidip yerleşti. Başta babası Hucr b. İyâs olmak üzere Süfyân b. Uyeyne, Halef b. Halîfe ve Abdullah b. Mübârek gibi âlimlerden hadis rivayet etti. Kaynaklar onun talebeleri arasında, Ebû Dâvûd ve İbn Mâce hariç, diğer Kütüb-i Sitte müelliflerini, Horasanlı muhaddislerin birçoğunu ve daha başka âlimleri sayarlar. Buhârî, onun beş hadisini Ṣaḥîḥ ’ine almış, Müslim seksen sekiz hadisini Ṣaḥîḥ ’inde zikretmiştir. Tirmizî ve Nesâî de rivayetlerine sünenlerinde yer vermişlerdir. Elde ettiği ilmin bir kısmını öğretebilmek için kendi ifadesinde yer alan temennisine uygun olarak doksan yıl kadar yaşamış, hadisleri bilhassa Merv ve çevresinde yayılmıştır. Nesâî, Muhammed b. Ali el-Mervezî, Hâkim ve Hatîb el-Bağdâdî gibi hadisçilere göre, adâlet ve zabt yönünden kusursuz, hadis tahammül ve rivayetinde mahir ve dikkatlidir. Edebiyat ve şiirle de meşgul olmuştur. Aḥkâmü’l-Ḳurʾân ve Fevâʾid fi’l-ḥadîs̱ adlı iki eserinin bulunduğu kaydedilmektedir. Zâhiriyye Kütüphanesi’nde (Mecmua, nr. 53/3, vr. 29 a -42 b ; nr. 89/11, vr. 181 a -190 b ) kayıtlı olan hadis cüzü ile Köprülü Kütüphanesi’nde bulunan (Fâzıl Ahmed Paşa, nr. 428, vr. 1 b -59 b ) onun İsmâil b. Ca‘fer’den rivayet ettiği, üç kısım halinde 500 kadar hadis ihtiva eden Fevâʾid fi’l-ḥadîs̱ aynı eserin farklı kısımları olabilir. Ali b. Hucr Merv’de vefat etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 399 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-b-hucr",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-b-hucr, https://islamansiklopedisi.org.tr/ali-b-hucr",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-b-hucr (1 chunks) by dia adapter (Hafta 4). Madhab: Zâhirî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mervezî"
+  ],
+  "laqab": [
+    "Zâhirî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 244,
+    "start_ce": 858,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-b-hucr, URL: https://islamansiklopedisi.org.tr/ali-b-hucr || DİA death place: Merv || DİA death-date string: (ö. 244/858-59) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000524",
+    "iac:person-00000939",
+    "iac:person-00004557",
+    "iac:person-00006742",
+    "iac:person-00007121"
+  ],
+  "students": [
+    "iac:person-00000408",
+    "iac:person-00001073",
+    "iac:person-00002157",
+    "iac:person-00003235",
+    "iac:person-00003875",
+    "iac:person-00003920",
+    "iac:person-00007357"
+  ]
+}

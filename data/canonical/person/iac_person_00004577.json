@@ -1,0 +1,82 @@
+{
+  "@id": "iac:person-00004577",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İsmâil Rûmî"
+    },
+    "description": {
+      "tr": "Tosya’nın Bansa köyünde doğdu. Babası Çoban Ali, oğlunun daha iyi yetişmesi için Tosya’ya taşındı. Medrese ilimlerini tahsil ederken Halvetiyye tarikatı şeyhlerinden Ahmed Efendi’nin sohbetlerine devam etmeye başlayan İsmâil Rûmî, bir gece rüyasında Abdülkādir-i Geylânî’yi görerek onun mânevî işareti üzerine Bağdat’a gitmek üzere yola çıktı. Bağdat’a ulaşınca Kādiriyye’nin merkez dergâhına gidip dergâhın postnişini Bağdat nakîbüleşrafı Seyyid Feyzullah Efendi’ye kendini tanıttı. Bir müddet sonra erbaîn çıkarmak üzere halvete girdi. Seyrüsülûkünü tamamlayınca mürşidinin tavsiyesi üzerine Bağdat’tan ayrıldı. Anadolu’ya gelmeden Mısır’a uğrayarak sohbetlerine katıldığı Ahmed-i Mısrî’den de icâzetnâme aldı. Bundan dolayı bazı silsilenâmelerde mürşidinin Feyzullah Efendi, bazılarında ise Ahmed Efendi olarak kaydedildiği görülmektedir. 1020 (1611) yılında İstanbul’a gelen İsmâil Rûmî bir süre Sofular Camii’nde kaldı, daha sonra Tophane’de Hacı Pîrî adlı bir kişiye ait arsa üzerinde bir tekke inşa ettirdi (bk. KĀDİRÎHÂNE TEKKESİ ). Onun Anadolu ve Rumeli’nin değişik şehirlerinde kırk kadar tekke yaptırdığı kaydedilmektedir (Seyyid Sırrı Ali, s. 52). Kādiriyye tarikatı, Kādirîhâne diye anılan bu dergâhın kurulmasından sonra İstanbul’da yayılmaya başlamış, XV. yüzyılda Bursa’da kurulan Eşrefiyye kolu ile birlikte bu tarikatın Osmanlı topraklarında yaygınlık kazanmasında önemli rol oynamıştır. Bu tesir sebebiyle “pîr-i sânî” unvanıyla anılan ve kendisine Kādiriyye’nin Rûmiyye kolu nisbet edilen İsmâil Rûmî vefatında kurduğu tekkenin hazîresine defnedildi. Tekkenin meşihatı halifelerinden Seyyid Halil tarafından sürdürülmüştür. Ustrumcalı Ahmed Efendi adlı halifesi 1038’de (1628) Bursa’da İsmâil Rûmî Dergâhı’nı (Hamam Tekke) kurmuştur. İsmâil Rûmî, Sultan Ahmed Camii’nin açılışında dervişleriyle birlikte Kādirî usulü zikir yapmış, daha sonra bu camide cuma günleri namazdan sonra Kādirî evrâdının okunması bir gelenek halini almıştır. Bu gelenek günümüzde de sürmekte, Kādirîhâne şeyhinin görevlendirdiği bir derviş cuma namazından sonra camide Kādirî evrâdını okumaktadır. Kādirîhâne Kādiriyye tarikatının merkez tekkesi olmuş, Anadolu ve Rumeli’de Kādirî şeyhlerinin verdiği icâzetnâmeler Kādirîhâne şeyhi tarafından tasdik edilmiştir (ayrıca bk. KĀDİRÎHÂNE TEKKESİ ; RÛMİYYE ). Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 23. cildinde, 120 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ismail-rumi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ismail-rumi, https://islamansiklopedisi.org.tr/ismail-rumi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ismail-rumi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ismail-rumi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:30Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ismail-rumi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1041,
+    "start_ce": 1631,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ismail-rumi, URL: https://islamansiklopedisi.org.tr/ismail-rumi || DİA birth place: Bansa || DİA death place: Bursa || DİA death-date string: (ö. 1041/1631) || DİA categories: tarikat || Chunk count: 1",
+  "death_place": "iac:place-00015103"
+}

@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00003976",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBN NÂZIRÜ’l-CEYŞ",
+      "ar": "ابن ناظر الجيش"
+    },
+    "originalScript": {
+      "ar": "ابن ناظر الجيش"
+    },
+    "altLabel": {
+      "tr": [
+        "Takıyyüddîn Abdurrahmân b. Muhammed b. Yûsuf b. Ahmed b. Abdiddâim et-Teymî"
+      ]
+    },
+    "description": {
+      "tr": "Muhtemelen 726 (1326) yılında Kahire’de doğdu. Lakabını babasının görev unvanından alır. Dinî ilimler tahsil ettikten sonra kadı ve nâzırü’l-ceyş olan babasının sağlığında Dîvân-ı İnşâ’da kâtibü’d-destliğe girerek devlet hizmetine başladı ve bu görevini Bahrî Memlük sultanları el-Melikü’l-Mansûr Selâhaddin Muhammed (1361-1363) ve el-Melikü’l-Eşref Şa‘bân (1363-1376) dönemlerinde de sürdürdü. el-Melikü’l-Mansûr Alâeddin Ali tarafından 778 (1376) yılında babasının yerine nâzırü’l-ceyş tayin edildi ve ömrünün sonuna kadar bu görevde kaldı. Sultan Berkuk’un birinci saltanatı sırasında öldü. Dîvân-ı İnşâ’daki yazışmalarda, müslüman ve yabancı hükümdarlara gönderilen mektuplarda onun tarafından hazırlananlar örnek alınmıştır. İbn Nâzırü’l-Ceyş’in kaleme aldığı Kitâbü Tes̱ḳīfi’t-Taʿrîf bi’l-muṣṭalaḥi’ş-şerîf , divan kâtipleri için devletin divan ve resmî yazışma geleneğini açıklayan rehber mahiyetinde bir kitaptır ve müellifin kâtipliği sırasında yazılıp nâzırü’l-ceyşliğe getirildiği yıl tamamlanmıştır. Eser, İbn Fazlullah el-Ömerî’nin et-Taʿrîf bi’l-muṣṭalaḥi’ş-şerîf ’ini örnek alan ve bir bakıma onun zeyli gibi olan bir çalışmadır. Özellikle yedinci bölümü Memlükler’de büyük hükümdarlara hangi lakaplarla hitap edildiğini göstermesi açısından önemlidir. İbn Nâzırü’l-Ceyş kitabına kendi dönemiyle ilgili şahsî tecrübelerini de aktarmıştır. Kalkaşendî’nin çokça faydalandığı ve kaynakları arasında adını verdiği eser Rudolf Veselý tarafından yayımlanmıştır (Kahire 1987). Bu madde TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 20. cildinde, 229-230 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "ruler"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibn-nazirul-ceys",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibn-nazirul-ceys, https://islamansiklopedisi.org.tr/ibn-nazirul-ceys",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:21Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:21Z",
+    "modified": "2026-05-04T15:40:02Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibn-nazirul-ceys (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Teymî"
+  ],
+  "birth_temporal": {
+    "start_ah": 726,
+    "start_ce": 1326,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ah": 786,
+    "start_ce": 1384,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibn-nazirul-ceys, URL: https://islamansiklopedisi.org.tr/ibn-nazirul-ceys || DİA birth place: Kahire || DİA death-date string: (ö. 786/1384) || Chunk count: 1",
+  "birth_place": "iac:place-00009399"
+}

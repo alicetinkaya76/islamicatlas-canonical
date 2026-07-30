@@ -1,0 +1,110 @@
+{
+  "@id": "iac:person-00001151",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ASKALÂNÎ, İzzeddin",
+      "ar": "عزّ الدين العسقلاني"
+    },
+    "originalScript": {
+      "ar": "عزّ الدين العسقلاني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Berekât İzzüddîn Ahmed b. İbrâhîm b. Nasrillâh el-Kinânî el-Mısrî el-Askalânî"
+      ]
+    },
+    "description": {
+      "tr": "Askalân asıllı olup 26 Zilkade 800’de (10 Ağustos 1398) Kahire’de doğdu ve tahsilini orada yaptı. İbnü’l-Cezerî, Zeynüddin el-Irâkī, Ebû Bekir el-Merâgī, Âişe bint Muhammed b. Abdülhâdî’den icâzet alan Askalânî, aralarında Makrîzî, Bedreddin el-Aynî, İbn Hacer el-Askalânî, İzzeddin b. Cemâa gibi âlimlerin de bulunduğu birçok hocadan ders okudu. Daha on yedi (veya yirmi) yaşlarında iken kadı nâibi tayin edilen İzzeddin el-Askalânî, Hanbelî mezhebinin önde gelen âlimleri arasında yer aldı. Mısır Hanbelî kādılkudâtlığına getirildi. Kahire’nin birçok medrese ve camisinde dersler verdi. Kalkaşendî, Şemseddin es-Sehâvî, Süyûtî ve daha pek çok talebe kendisinden istifade etti. Kādirî tarikatına da intisap eden Askalânî, gerek devlet erkânının gerekse halkın güven ve saygı duyduğu bir âlim olup mescid, medrese, sebil vb. hayır müesseseleri de kurmuştur. 11 Cemâziyelevvel 876 (26 Ekim 1471) tarihinde Kahire’de vefat etti. Hemen her konuda mensur ve manzum eserler veren Askalânî’nin ed-Diʿâme li-maʿrifeti aḥkâmi sünneti’l-imâme adlı eseri basılmıştır (Dımaşk 1342). Yazma nüshaları mevcut olan diğer başlıca eserleri de şunlardır: Muḫtaṣarü’l-Muḥarrer (fıkıh), Naẓmü Uṣûli İbni’l-Ḥâcib , Ṭabaḳātü’l-Ḥanâbile , Şifâʾü’l-ḳulûb fî menâḳıbı Benî Eyyûb , Ẕikru ḳuḍâti’d-diyâri’l-Mıṣriyye (hicrî 566-860 yılları arasında kadılık yapan kişilere dair), Şerḥu Elfiyyeti İbn Mâlik , Ṣafvetü’l-ḫulâṣa (nahiv), Tenbîhü’l-aḫyâr ʿalâ mâ ḳīle fi’l-menâm mine’l-eşʿâr , Manẓûme fi’l-mesâḥa , Manẓûme fi’l-cebr ve’l-muḳābele . Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 488 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:askalani-izzeddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=askalani-izzeddin, https://islamansiklopedisi.org.tr/askalani-izzeddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:36Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=askalani-izzeddin (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:43Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T13:16:09Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-travel augment (H11 S11b): active_in_places from dia_travel.json (belirsizlik-korumalı birebir etiket eşlemesi; fuzzy yok)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kinânî; Mısrî; Askalânî"
+  ],
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 876,
+    "start_ce": 1471,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=askalani-izzeddin, URL: https://islamansiklopedisi.org.tr/askalani-izzeddin || DİA birth place: Kahire || DİA death place: Kahire || DİA death-date string: (ö. 876/1471) || DİA categories: fıkıh > sünnet > nahiv || Chunk count: 1",
+  "birth_place": "iac:place-00009399",
+  "death_place": "iac:place-00009399",
+  "active_in_places": [
+    "iac:place-00009399"
+  ],
+  "teachers": [
+    "iac:person-00000870",
+    "iac:person-00001222",
+    "iac:person-00003712",
+    "iac:person-00003821",
+    "iac:person-00004159",
+    "iac:person-00004490",
+    "iac:person-00005199"
+  ],
+  "students": [
+    "iac:person-00004699",
+    "iac:person-00006772",
+    "iac:person-00007215"
+  ]
+}

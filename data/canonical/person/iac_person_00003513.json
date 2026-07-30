@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00003513",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HUNEYS b. HUZÂFE",
+      "ar": "خنيس بن حذافة"
+    },
+    "originalScript": {
+      "ar": "خنيس بن حذافة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Huzâfe (Ebü’l-Ahnes) Huneys b. Huzâfe b. Kays el-Kureşî es-Sehmî"
+      ]
+    },
+    "description": {
+      "tr": "Kureyş kabilesinin Sehm kolundandır. İsminin Hubeyş veya Hısn şeklinde kaydedilmesi yanlıştır (İbn Hacer, I, 457; IV, 273). Tanınmış sahâbî Abdullah b. Huzâfe’nin kardeşi olan Huneys Resûlullah’ın Dârülerkam’a girmesinden önce müslüman oldu. İkinci Habeşistan hicretine katıldı; bir müddet sonra bazı muhacirler gibi o da Mekke’ye geri döndü ve Hz. Ömer’in kızı Hafsa ile evlendi. Huneys b. Huzâfe Hafsa ile birlikte Medine’ye hicret etti; daha sonra Hz. Ömer Medine’ye hicret edince onu karşıladı. Ensar ile muhacirler arasında yapılan kardeşlik anlaşmasında ( muâhât ) Hz. Peygamber Huneys’i Ebû Abs ile kardeş ilân etti. Resûl-i Ekrem’in Hafsa ile Uhud Gazvesi’nden önce evlenmesi (İbn Sa‘d, VIII, 83; Belâzürî, I, 422), Bedir Gazvesi’ne katılan Huneys’in Uhud Gazvesi’ne de katıldığı (İbn Abdülber, I, 438; İbnü’l-Esîr, II, 147; İbn Hacer, el-İṣâbe , I, 456) şeklindeki bilgilerin doğru olmadığını göstermektedir. Bedir Gazvesi’nden dönerken yolda hastalanan Huneys b. Huzâfe 3. yılın Muharrem ayında (Temmuz 624) Medine’de vefat etti; cenaze namazını Resûlullah kıldırdı ve Bakī‘ Mezarlığı’nda Osman b. Maz‘ûn’un yanına defnedildi. Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 380 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:huneys-b-huzafe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=huneys-b-huzafe, https://islamansiklopedisi.org.tr/huneys-b-huzafe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:huneys-b-huzafe",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/huneys-b-huzafe",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:15Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=huneys-b-huzafe (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kureşî; Sehmî"
+  ],
+  "death_temporal": {
+    "start_ah": 3,
+    "start_ce": 624,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=huneys-b-huzafe, URL: https://islamansiklopedisi.org.tr/huneys-b-huzafe || DİA death place: Medine || DİA death-date string: (ö. 3/624) || Chunk count: 1"
+}

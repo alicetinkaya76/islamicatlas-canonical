@@ -1,0 +1,107 @@
+{
+  "@id": "iac:person-00002227",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Müshir",
+      "ar": "أبو مسهر"
+    },
+    "originalScript": {
+      "ar": "أبو مسهر"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Müshir Abdüla‘lâ b. Müshir b. Abdila‘lâ el-Gassânî ed-Dımaşkī"
+      ]
+    },
+    "description": {
+      "tr": "Safer 140’ta (Temmuz 757) doğdu. Kur’ân-ı Kerîm’i ve kıraat ilmini Yahyâ ez-Zimârî’nin talebelerinden yanında on iki yıl kaldığı Saîd b. Abdülazîz’den öğrendi. Ayrıca Eyyûb b. Temîm el-Kārî ile kırâat-i seb‘a imamlarından olan Nâfi‘ b. Abdurrahman’dan bu ilimde arz yoluyla faydalandı. Başta kıraat hocası Saîd b. Abdülazîz olmak üzere Mâlik b. Enes, İsmâil b. Ayyâş, Süfyân b. Uyeyne gibi âlimlerden hadis tahsil etti. Evzâî ile görüştü. Kendisinden de Yahyâ b. Maîn, Ahmed b. Hanbel, Muhammed b. Yahyâ ez-Zühlî, Buhârî, Ebû Hâtim er-Râzî gibi otoriteler hadis, Ebû Ubeyd Kāsım b. Sellâm kıraat rivayet ettiler. Hâfızası son derece kuvvetli olan Ebû Müshir, geniş ve çok yönlü kültürüyle tanınan bir âlim, rivayetleri Kütüb-i Sitte ’de yer alan ve hadis otoriteleri tarafından sika kabul edilen bir muhaddisti. Kıraat ve fıkıh ilimlerinden başka megāzî yi de iyi bilirdi. Yahyâ b. Maîn, muhtelif memleketlerde kendilerinden hadis rivayet ettiği hocalar arasında onun bir benzerini görmediğini söylemiş, Ebû Müshir gibi birinin bulunduğu bir şehirde kendisinin hadis rivayet edemeyeceğini ifade etmiştir. Ahmed b. Hanbel de onun güvenilir olduğuna işaret ederken o devirde Dımaşk’ın üç büyük muhaddisinden birinin Ebû Müshir olduğunu belirtmiştir. Bir ara istemediği halde Dımaşk kadılığına tayin edilmiş, fakat ilk fırsatta bu görevi bırakmıştı. Halk kendisini çok sever, bir yerden geçerken saf tutarak elini öpmek isterdi. Bu şöhreti sebebiyle mihne olayında Kur’ân-ı Kerîm’in mahlûk olduğunu söylemesi için o da sorguya çekildi. Dımaşk’tan alınarak Rakka’da bulunan Me’mûn’un huzuruna götürüldüğünde halife ona Kur’an hakkındaki kanaatini sordu. Ebû Müshir’in, Kur’an’ın Allah kelâmı olduğunu söylemekle yetinmesi üzerine Me’mûn idam hazırlığına başlanmasını emretti. Bunun üzerine Ebû Müshir Kur’an’ın mahlûk olduğunu söyledi. Bu kanaati samimi bulmayan Me’mûn ölüm fermanını geri almakla beraber onun Bağdat’a götürülüp ölene kadar hapsedilmesini istedi. Rebîülâhir 218’de (Mayıs 833) hapsedilen Ebû Müshir, aynı yılın Receb (Ağustos) ayında hapishanede vefat etti ve Bâbüttîn Kabristanı’na defnedildi. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 195 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-mushir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-mushir, https://islamansiklopedisi.org.tr/ebu-mushir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-mushir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-mushir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-mushir (1 chunks) by dia adapter (Hafta 4). Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Gassânî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 218,
+    "start_ce": 833,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-mushir, URL: https://islamansiklopedisi.org.tr/ebu-mushir || DİA death place: 218 || DİA death-date string: (ö. 218/833) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00005206",
+    "iac:person-00006603"
+  ],
+  "students": [
+    "iac:person-00001599",
+    "iac:person-00002077",
+    "iac:person-00003121",
+    "iac:person-00004069",
+    "iac:person-00007652"
+  ]
+}

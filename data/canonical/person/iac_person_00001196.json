@@ -1,0 +1,96 @@
+{
+  "@id": "iac:person-00001196",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ATTÂBÎ, Ahmed b. Muhammed",
+      "ar": "أحمد بن محمد العتّابي"
+    },
+    "originalScript": {
+      "ar": "أحمد بن محمد العتّابي"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Nasr (Ebü’l-Kāsım) Zeynüddîn Ahmed b. Muhammed b. Ömer el-Attâbî el-Buhârî"
+      ]
+    },
+    "description": {
+      "tr": "Buhara’nın Dâru Attâb (Attâbiyye) mahallesine nisbetle Attâbî diye anılır. Hayatı hakkında yeterli bilgi yoktur. Vefat tarihi olarak bazı kaynaklar 582 (1186) yılını da zikretmektedir. Mâverâünnehir Hanefî ulemâsı arasında önemli bir yeri olan Attâbî, özellikle fetva kitabıyla ve Hanefî mezhebinin temel kaynaklarına yaptığı şerhlerle tanınmıştır. Meşhur Hanefî fakihlerinden Şemsüleimme el-Kerderî de Attâbî’nin talebesi olup kendisinden Şerḥu’z-Ziyâdât ’ı rivayet etmiştir. Eserleri. 1. Câmiʿu (Cevâmiʿu)’l-fıḳh . İlk Hanefî kaynaklarına dayanan ve Ebû Hanîfe ile talebelerinin görüşleri yanında mütekaddimîn ve müteahhirîn Hanefî âlimlerinin verdiği fetvaları da kapsayan eser el-Fetâva’l-ʿAttâbiyye adıyla tanınmış olup daha sonraki Hanefî fıkıh kitaplarında, özellikle “fetâvâ”larda kendisine atıflarda bulunulmaktadır (yazma nüshaları için bk. Süleymaniye Ktp., Fâtih, nr. 1559, 2289, 2385; Esad Efendi, nr. 1066; Mahmud Paşa, nr. 178; Şehid Ali Paşa, nr. 1042; TSMK, III. Ahmed, nr. 815). 2. Şerḥu’z-Ziyâdât (Süleymaniye Ktp., Fâtih, nr. 1709, 1710; Çorlulu Ali Paşa, nr. 185/1; Molla Çelebi, nr. 47/1, 48). 3. Şerḥu’l-Câmiʿi’l-kebîr (Süleymaniye Ktp., Damad İbrâhim Paşa, nr. 538). 4. Şerḥu’l-Câmiʿi’ṣ-ṣaġīr (Süleymaniye Ktp., Fâtih, nr. 1685; Yenicami, nr. 435; Karaçelebizâde, nr. 102, 103; Bağdatlı Vehbi Efendi, nr. 463; TSMK, III. Ahmed, nr. 729). 5. Muḫtaṣarü’l-Câmiʿi’l-kebîr (Süleymaniye Ktp., Süleymaniye, nr. 605). 6. Tefsîrü’l-Ḳurʾân ( Tefsîrü’l-ʿAttâbî ; Süleymaniye Ktp., Şehid Ali Paşa, nr. 89; eserlerinden bazılarının diğer kütüphanelerdeki yazmaları için bk. Brockelmann, GAL , I, 465; Suppl. , I, 289, 290, 291, 643). Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 93 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:attabi-ahmed-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=attabi-ahmed-b-muhammed, https://islamansiklopedisi.org.tr/attabi-ahmed-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:attabi-ahmed-b-muhammed",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=attabi-ahmed-b-muhammed",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:37Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=attabi-ahmed-b-muhammed (1 chunks) by dia adapter (Hafta 4). Madhab: Hanefî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=attabi-ahmed-b-muhammed)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Attâbî; Buhârî"
+  ],
+  "laqab": [
+    "Hanefî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 586,
+    "start_ce": 1190,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=attabi-ahmed-b-muhammed, URL: https://islamansiklopedisi.org.tr/attabi-ahmed-b-muhammed || DİA death-date string: (ö. 586/1190) || DİA categories: tefsir > fetva > fıkıh || Chunk count: 1",
+  "teachers": [
+    "iac:person-00007527"
+  ],
+  "students": [
+    "iac:person-00004867"
+  ]
+}

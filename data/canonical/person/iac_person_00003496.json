@@ -1,0 +1,90 @@
+{
+  "@id": "iac:person-00003496",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HULVÂNÎ, Ebü’l-Hasan",
+      "ar": "أبو الحسن الحلواني"
+    },
+    "originalScript": {
+      "ar": "أبو الحسن الحلواني"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Ahmed b. Yezîd b. Ezdâz (Yezdâz) el-Hulvânî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatı hakkında yeterli bilgi yoktur. Hadisle de meşgul olmakla birlikte kendisini daha çok kıraat ilmine verdiği ve bu maksatla çeşitli ilim merkezlerine seyahatler yaptığı kaydedilmektedir. Mekke’de Ahmed b. Muhammed el-Kavvâs, Medine’de Kālûn, Kûfe’de ve Irak bölgesinde Halef b. Hişâm, Hallâd b. Hâlid ve Dûrî, Şam’da Hişâm b. Ammâr’dan kıraat okudu. Bunlardan Kālûn için Medine’ye iki, Hişâm b. Ammâr için Dımaşk’a üç defa gittiği ve bu iki zatın rivayetleri konusunda kendisine çok güvenildiği kaynaklarda belirtilmektedir. Hadis konusunda ise Ebû Nuaym Fazl b. Dükeyn, Ebü’r-Rebî‘ ez-Zehrânî, Saîd b. Mansûr, Abdullah b. Sâlih el-İclî, Mûsâ b. Mes‘ûd ve Safvân b. Sâlih ed-Dımaşkī gibi âlimlerden faydalandı. Rey’de kıraat okutan Hulvânî’nin derslerinden Hasan b. Abbas b. Ebû Mihrân, Fazl b. Şâzân, Ca‘fer b. Muhammed b. Heysem, Muhammed b. Amr b. Avn el-Vâsıtî, Muhammed b. Bessâm gibi talebeler faydalanırken Fazl b. Şâzân, Ebû Bekir b. Ziyâd ve Hüseyin b. Ali b. Hammâd ondan hadis rivayet ettiler. Bazı kıraat kitaplarında kurrâ-i aşereden Ebû Ca‘fer el-Kārî’nin iki râvisinden biri (Ebü’l-Alâ el-Hemedânî, I, 69), bazılarında ise kurrâ-i seb‘adan Nâfi‘in Kālûn rivayetine ait tariklerden biri olarak Hulvânî’ye itimat edilmiş, İbn Âmir’in Hişâm b. Ammâr rivayetine ait tariklerden biri de yine Hulvânî tariki olmuştur. Ancak İbn Ebû Hâtim’in zikrettiğine göre Ebû Zür‘a er-Râzî ona hadis konusunda güvenmediğini belirtmiştir. Hulvânî’nin kaynaklarda genellikle 250 (864) olarak zikredilen vefat tarihini Safedî 260 (874) dolaylarında diye belirtmiş, İbnü’l-Cezerî ise bunun 250’den birkaç yıl sonra olabileceğini ileri sürmüştür. Kaynaklarda Hulvânî’ye ait bir eser tesbit edilememişse de İbnü’n-Nedîm’in Ahmed b. Zeyd el-Hulvânî adında bir kişiye ait olduğunu belirterek zikrettiği Kitâbü Ḳırâʾati Ebî ʿAmr adlı eserin -Ahmed b. Zeyd el-Hulvânî adlı bir âlime rastlanmadığı dikkate alınarak- Ahmed b. Yezîd el-Hulvânî’nin bir çalışması olabileceği söylenebilir (İbnü’n-Nedîm, s. 141; DİA , X, 96). Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 346 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hulvani-ebul-hasan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hulvani-ebul-hasan, https://islamansiklopedisi.org.tr/hulvani-ebul-hasan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:hulvani-ebul-hasan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/hulvani-ebul-hasan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:15Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:15Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:15Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hulvani-ebul-hasan (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 0.96): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Hulvânî"
+  ],
+  "death_temporal": {
+    "start_ah": 250,
+    "start_ce": 864,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hulvani-ebul-hasan, URL: https://islamansiklopedisi.org.tr/hulvani-ebul-hasan || DİA death-date string: (ö. 250/864) || DİA categories: hadis > rivayet || Chunk count: 1",
+  "teachers": [
+    "iac:person-00003432"
+  ]
+}

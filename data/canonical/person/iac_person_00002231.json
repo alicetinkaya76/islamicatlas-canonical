@@ -1,0 +1,93 @@
+{
+  "@id": "iac:person-00002231",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Nadre",
+      "ar": "أبو نضرة"
+    },
+    "originalScript": {
+      "ar": "أبو نضرة"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Nadre Münzir b. Mâlik b. Kutaa el-Abdî"
+      ]
+    },
+    "description": {
+      "tr": "Hayatının ilk dönemleri hakkında bilgi yoktur. Abdülkays kabilesine nisbetle Abdî, bu kabilenin bir kolu olan Avaka’dan olması sebebiyle Avakī nisbeleriyle anılır. Dedesinin adı Kıt‘a ve Kut‘a şeklinde de okunmaktadır. Aşere-i mübeşşere den Talha b. Ubeydullah’ı görmüş, Hz. Ali, Ebû Hüreyre, İbn Abbas, İbn Ömer, Ebû Saîd el-Hudrî, İmrân b. Husayn ve Câbir b. Abdullah gibi sahâbîlerden hadis rivayet etmiştir. Kendisinden de Katâde b. Diâme, Yahyâ b. Ebû Kesîr, Âsım el-Ahvel, Humeyd et-Tavîl ve Saîd b. Ebû Arûbe gibi tâbiîn âlimleri rivayette bulunmuşlardır. Basra’nın önde gelen âlimlerinden olan Ebû Nadre hakkında Ahmed b. Hanbel hayırdan başka bir şey bilmediğini söylemiş, İbn Sa‘d, Yahyâ b. Maîn, Ebû Zür‘a er-Râzî ve Nesâî onun sika olduğunu söylemişlerdir. İbn Hibbân ise fasih bir kimse olduğunu, fakat rivayetlerinde hata ettiğini ileri sürmüştür. Ukaylî ve İbn Adî onu zayıf râvilere dair eserlerine almakla beraber aleyhinde bir şey söylememişlerdir. İbn Sa‘d’ın pek çok rivayeti bulunduğunu söylediği Ebû Nadre’nin bu rivayetlerinden bazıları, Buhârî dışında Kütüb-i Sitte ile (bk. Zehebî, Aʿlâmü’n-nübelâʾ , IV, 529) Dârimî’nin es-Sünen ’inde ve Ahmed b. Hanbel’in el-Müsned ’inde yer almıştır (bk. Wensinck, VIII, 265). Ebû Nadre hayatının sonlarına doğru felç oldu ve 108 (726) yılında vefat etti. Bu tarih 107 ve 109 olarak da zikredilmiştir. Cenaze namazını vasiyeti üzerine Hasan-ı Basrî kıldırdı. Yahyâ b. Maîn’in belirttiğine göre Ebû Nadre kavminin ileri gelenlerindendi (arîf). Siyah sarık sarar, sakalını sarıya boyardı. Karısı Zeyneb ile birlikte Horasan fetihlerine katılması, onun âlim ve zâhidliğinin yanında mücahid olduğunu da göstermektedir. Akranı olan Hasan-ı Basrî hastalığı sırasında onu ziyaret edip kendisine hayır duada bulundu. Ebû Nadre, İslâmiyet’in ilk yıllarında müslümanların birbirlerine, boş günlerinde ileride vakit bulamayacakları zamanlar için, sağlıklı günlerinde de hastalıklı dönemler için iyi şeyler yapmayı, gençlik yıllarında ihtiyarlık günleri, henüz hayatta iken de ölüm sonrası için çalışmayı tavsiye ettiklerini söylerdi. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 199 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-nadre",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-nadre, https://islamansiklopedisi.org.tr/ebu-nadre",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-nadre",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-nadre",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:56Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:56Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:56Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-nadre (1 chunks) by dia adapter (Hafta 4). Madhab: Hanbelî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "laqab": [
+    "Hanbelî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 108,
+    "start_ce": 726,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-nadre, URL: https://islamansiklopedisi.org.tr/ebu-nadre || DİA death-date string: (ö. 108/726) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00001622"
+  ],
+  "students": [
+    "iac:person-00003734"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00000637",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABDURRAHMAN b. HÂLİD b. VELÎD",
+      "ar": "عبد الرحمن بن خالد بن الوليد"
+    },
+    "originalScript": {
+      "ar": "عبد الرحمن بن خالد بن الوليد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Muhammed Abdurrahmân b. Hâlid b. el-Velîd el-Mahzûmî"
+      ]
+    },
+    "description": {
+      "tr": "Küçük yaşta Hz. Peygamber’i gören sahâbîlerdendir. On sekiz yaşında iken Yermük Savaşı’na katıldı ve 30-40 kişilik bir süvari birliğinin başında büyük başarı kazandı. Hz. Ömer ve Osman döneminde, Suriye Valisi Muâviye tarafından Bizans’a karşı düzenlenen seferde İslâm ordusuna kumanda etti. Bu savaşlardaki başarısından dolayı Suriye’de büyük bir şöhrete ulaştı ve Muâviye’ye bağlı kalarak Humus valiliği yaptı. Sıffîn Savaşı’nda onun safında yer alan Abdurrahman, 664 ve 665 yıllarında, Bizans’a karşı Anadolu içlerine kış seferleri düzenlemekle görevlendirildi. Oğlu Yezîd’i veliaht tayin eden Muâviye’nin, hilâfet meselesinde oğluna rakip olmasından korktuğu ve şöhretinden çekindiği için, Humus haracı karşılığında Abdurrahman’ı İbn Usâl adlı bir hıristiyan doktora zehirlettiği rivayet edilir. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 162-163 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abdurrahman-b-halid-b-velid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abdurrahman-b-halid-b-velid, https://islamansiklopedisi.org.tr/abdurrahman-b-halid-b-velid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abdurrahman-b-halid-b-velid",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abdurrahman-b-halid-b-velid",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:40Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:40Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:40Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abdurrahman-b-halid-b-velid (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Mahzûmî"
+  ],
+  "death_temporal": {
+    "start_ah": 46,
+    "start_ce": 666,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abdurrahman-b-halid-b-velid, URL: https://islamansiklopedisi.org.tr/abdurrahman-b-halid-b-velid || DİA death-date string: (ö. 46/666) || DİA categories: rivayet || Chunk count: 1"
+}

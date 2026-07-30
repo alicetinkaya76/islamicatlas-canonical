@@ -1,0 +1,75 @@
+{
+  "@id": "iac:person-00006383",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "RECEB ÇELEBİ, Çömlekçizâde"
+    },
+    "description": {
+      "tr": "İstanbul’da doğdu. Babası ve ilk dönemlerinde kendisi çömlekçilik işiyle uğraştığından “Çömlekçizâde” diye tanınmıştır. Bazı kaynaklarda Derviş ve Âbrîzî (ibrikçi) şeklinde de geçmektedir. İyi bir mûsiki eğitimi aldı ve sesinin güzelliği sayesinde Enderun’da başhânendeliğe kadar yükseldi. Huzurunda birçok defa okuduğu IV. Mehmed tarafından takdir edildi. Bir arşiv belgesinde başhânende ve bestekâr Receb Çelebi’nin mûsiki tâlimi için hânesine dört câriye verildiği ve masraflarına karşılık olmak üzere günlük 60 akçe ödendiği belirtilmektedir (Uzunçarşılı, XLI/161 [1977], s. 91, 99). Receb Çelebi’nin adı, XVII. yüzyılda Osmanlı sarayında Hâfız Post ve Buhûrîzâde Mustafa Itrî gibi mûsiki üstatları arasında zikredilmekte ( a.g.e. , XLI/161 [1977], s. 95), Mustafa Itrî kadar meşhur olduğu bildirilmektedir. Ayrıca Seyyid Nuh ve Ali Ufkî Bey gibi tanınmış mûsikişinasların çağdaşıdır. Aynı zamanda usta bir nefîrî olan Receb Çelebi pek çok öğrenci yetiştirmiştir. Hacca gitmek için çıktığı yolculukta Mısır yakınlarında iken 1103’te (1692) gemide vefat ettiği ve cesedinin denize atıldığı belirtilmektedir ( Atrabü’l-âsâr [nşr. M. Veled İzbudak], sy. 6 [1311], s. 280). Ölümüyle ilgili olarak bazı kaynaklarda farklı tarihler verilmektedir. Mehmet Suphi Ezgi’nin, “İştiharı IV. Mehmed zamanıdır” dedikten sonra eserinde vefat yılını 1003 (1595) olarak kaydetmesi ( Nazarî-Amelî Türk Musikisi , IV, 33) bir matbaa hatası olmalıdır. Ayrıca Yılmaz Öztuna onun 1701 ( BTMA , II, 222), Nazmi Özalp 1710’da ( Türk Mûsikîsi Tarihi , I, 409) öldüğünü belirtmekte, bu tarih Atrabü’l-âsâr ’ın İstanbul kütüphanelerindeki sekiz nüshasında 1103 (1692), bir nüshada 1113 (1701) olarak zikredilmektedir ( Şeyhülislâm Esad Efendi [haz. Hakkı Tekin], s. 88). Receb Çelebi’nin dinî ve din dışı saz ve söz eseri olarak 1000 civarında bestesi olduğu bildirilmekteyse de bunlardan çok azı günümüze ulaşmıştır. Öztuna peşrev, beste ve semâi formlarında toplam sekiz adet eserini sıralamaktadır ( BTMA , II, 222), Suphi Ezgi de uşşak makamındaki nakış yürük semâisinin notasını vermektedir ( Nazarî-Amelî Türk Musikisi , III, 206-209). Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 507-508 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "musician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:receb-celebi-comlekcizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=receb-celebi-comlekcizade, https://islamansiklopedisi.org.tr/receb-celebi-comlekcizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:receb-celebi-comlekcizade",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/receb-celebi-comlekcizade",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:50Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:50Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:50Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=receb-celebi-comlekcizade (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:18Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1103,
+    "start_ce": 1692,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=receb-celebi-comlekcizade, URL: https://islamansiklopedisi.org.tr/receb-celebi-comlekcizade || DİA birth place: İstanbul || DİA death place: 1103 || DİA death-date string: (ö. 1103/1692) || Chunk count: 1",
+  "birth_place": "iac:place-00000735"
+}

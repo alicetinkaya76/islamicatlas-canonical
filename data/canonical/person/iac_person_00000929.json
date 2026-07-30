@@ -1,0 +1,110 @@
+{
+  "@id": "iac:person-00000929",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ALİ b. CA‘D",
+      "ar": "عليّ بن الجعد"
+    },
+    "originalScript": {
+      "ar": "عليّ بن الجعد"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebü’l-Hasen Alî b. el-Ca‘d el-Cevherî"
+      ]
+    },
+    "description": {
+      "tr": "Maden (cevher) ticaretiyle meşgul olduğu için el-Cevherî nisbesiyle tanınır. Bağdat’ta doğdu. İbn Ebû Zi’b, Süfyân es-Sevrî ve Mâlik b. Enes gibi muhaddislerden, özellikle de Şu‘be b. Haccâc’dan hadis okudu. Bağdat muhaddisleri arasında Şu‘be’nin hadislerini en iyi bilen kimse olarak tanınır. Buhârî, Ebû Dâvûd, Ebû Hâtim, İbn Ebü’d-Dünyâ vb. muhaddisler kendisinden hadis rivayet ettiler. Kitaplarında yazılı olan bütün hadislerini ezberden okuturdu. Kur’an’ın mahlûk olduğunu (bk. HALKU’l-KUR’ÂN ) söyleyenlere karşı çıkamayacağını ifade etmesi, sahâbe ve seleften bazılarına dil uzatması sebebiyle Ahmed b. Hanbel gibi âlimler ondan hadis rivayet etmeyi uygun görmemişlerdir. Müslim, Ali b. Ca‘d’ın güvenilir bir muhaddis olduğunu kabul ettiği halde Ṣaḥîḥ ’ine onun hiçbir hadisini almamıştır. Buhârî onun Şu‘be’den rivayet ettiği hadislerden on üçünü Ṣaḥîḥ ’ine almış, Ebû Dâvûd da es-Sünen ’inde bazı rivayetlerine yer vermiştir. Ali b. Ca‘d’dan en çok hadis rivayet eden talebesi Ebü’l-Kāsım el-Begavî, hocasının hadislerini el-Caʿdiyyât adıyla bir araya getirmiştir. Müsned adlı bir eseri Dârü’l-kütübi’l-Mısriyye (hadis, nr. 2240) ve Zâhiriyye (hadis, nr. 625) kütüphanelerinde on üç cüz halinde bulunmaktadır. el-Ḥadîs̱ adlı bir diğer eserinin sekiz ve dokuzuncu cüzleri ise Köprülü Kütüphanesi’ndedir (nr. 372/2, 3). Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 384 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ali-b-cad",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ali-b-cad, https://islamansiklopedisi.org.tr/ali-b-cad",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:7019",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=7019, heading_ar=علي بن الجعد",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:17Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:17Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:17Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ali-b-cad (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[7019]. Madhab: Mâlikî."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=7019 (heading_ar=علي بن الجعد) via Track A (DİA→Alam xref bridge). dt=Zamanının Bağdat şeyhü"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Cevherî"
+  ],
+  "laqab": [
+    "Mâlikî (mezhep)"
+  ],
+  "death_temporal": {
+    "start_ah": 230,
+    "start_ce": 844,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ali-b-cad, URL: https://islamansiklopedisi.org.tr/ali-b-cad || El-Aʿlām (Ziriklī) cross-reference: alam_id=[7019] || DİA birth place: Bağdat || DİA death-date string: (ö. 230/844-45) || DİA categories: hadis > rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=7019, heading_ar=علي بن الجعد, dt=Zamanının Bağdat şeyhü",
+  "teachers": [
+    "iac:person-00003768",
+    "iac:person-00005206",
+    "iac:person-00006743",
+    "iac:person-00006906",
+    "iac:person-00007106",
+    "iac:person-00007122"
+  ],
+  "students": [
+    "iac:person-00001402",
+    "iac:person-00001403",
+    "iac:person-00001599",
+    "iac:person-00002157",
+    "iac:person-00003158",
+    "iac:person-00003194",
+    "iac:person-00003747",
+    "iac:person-00003771",
+    "iac:person-00005457",
+    "iac:person-00006650"
+  ]
+}

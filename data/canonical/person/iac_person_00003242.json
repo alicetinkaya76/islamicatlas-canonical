@@ -1,0 +1,60 @@
+{
+  "@id": "iac:person-00003242",
+  "@type": [
+    "iac:Calligrapher",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Hasan Çelebi"
+    },
+    "description": {
+      "tr": "Çerkez asıllı olduğu dışında ailesine dair bilgi yoktur. Büyük bir ihtimalle Kafkasya’dan getirilmiş bir köle iken Ahmed Şemseddin Karahisârî tarafından satın alınmış, efendisi daha sonra onu âzat ederek mânevî evlâdı saymış ve aklâm-ı sitteyi öğretmiştir. Bu sebeple “Karahisârî kulu” lakabıyla da anılır. İmzalarında Karahisârî’nin önceleri kölesi, sonra da oğlu olduğunu belirten ifadeler kullanmış; onun vefatından itibaren künyesinde “Allah’ın kulu” mânasına geldiğinden köleler için baba adı kabul edilen Abdullah’a yer vererek Hasan b. Abdullah şeklinde imza atmıştır. Hasan Çelebi, üstadının sanat üslûbuna en yakın hattat oluşu dolayısıyla Hasan Halîfe adıyla da tanınır. Kaynaklarda Süleymaniye Camii’nin mihrap veya kubbe yazısının (sonuncusu XIX. yüzyılda Abdülfettah Efendi tarafından yeniden yazılmıştır) Karahisârî’ye, bunun dışında kalanların da Hasan Çelebi’ye ait olduğu nakledilmektedir. Diğer bir rivayet de Süleymaniye’deki bütün yazıların Hasan Çelebi tarafından yazıldığı, sadece tabhânedeki bir âyetin (el-İnsân 76/8) Karahisârî’ye ait olduğu, bu yazının da diğerlerinden üstün bulunduğu şeklindedir. Her iki hattatın yazı üslûplarını ayırmak mümkün olmadığından bu konuda fikir yürütmek de gereksizdir. Hasan Çelebi Edirne Selimiye Camii’nin de (yapılışı 1568-1574) bütün yazılarını yazmıştır. Bu yazıların çini ve mermer üstünde olanları zamanımıza kadar gelmiş, kubbe ve yarım kubbe yazıları XIX ve XX. yüzyıllarda devrin celî sülüs anlayışından uzak bulunan mahallî hattatlarca başarısız bir şekilde yenilenmiştir. Evliya Çelebi’nin nakline göre Hasan Çelebi Selimiye Camii’nin kubbe yazılarının mahalline geçirilmesine nezaret ederken gözüne düşen kireç tozunu temizlemek için, celî kalemlerini silmek üzere yanında bulundurduğu kireçli suyu telâşla kullanınca görme hassasını kaybetmiştir. Bunun üzerine Sultan II. Selim tarafından kendisine maaş bağlanmıştır. Ancak Müstakimzâde Süleyman Sâdeddin Efendi, görmüş olduğu 1002 (1594) tarihli bir Hasan Çelebi kıtasından övgüyle bahsetmektedir ki bu durumda Evliya Çelebi’nin rivayetini şüpheyle karşılamak gerekir. Hasan Çelebi, olgunluk döneminde Karahisârî üslûbundan uzaklaşarak pek çok meslektaşı gibi Şeyh Hamdullah yoluna dönmüştür. Bu vadide nesih hattı ile yazdığı bir en‘âm-ı şerîf Topkapı Sarayı Müzesi Kütüphanesi’ndedir (Yeni Yazmalar, nr. 929). Gülzâr-ı Savâb ’da onun nesih hattının Karahisârî’den daha da ileride olduğu ifade edilmektedir. Oğlu İsmâil Efendi de babasının üslûbunda eser veren bir hattattır. Ölüm tarihi kesin olarak tesbit edilemeyen Hasan Çelebi vefatında İstanbul’un Sütlüce semtinde üstadı Karahisârî’nin yanına gömülmüştür; fakat kabrinin yeri belli değildir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 16. cildinde, 312-313 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "calligrapher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:hasan-celebi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=hasan-celebi, https://islamansiklopedisi.org.tr/hasan-celebi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:12Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:12Z",
+    "modified": "2026-05-04T15:34:12Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:12Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=hasan-celebi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1002,
+    "start_ce": 1594,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=hasan-celebi, URL: https://islamansiklopedisi.org.tr/hasan-celebi || DİA death-date string: (ö. 1002/1594’ten sonra) || DİA categories: rivayet || Chunk count: 1"
+}

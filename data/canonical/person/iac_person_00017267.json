@@ -1,0 +1,116 @@
+{
+  "@id": "iac:person-00017267",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Muhammad ʿAbd al-Hayy",
+      "tr": "Muhammed Abdülhay",
+      "ar": "محمد عبد الحي"
+    },
+    "originalScript": {
+      "ar": "محمد عبد الحي"
+    },
+    "description": {
+      "tr": "Hadis ve biyografya ilimlerinde alim, Hanefî fıkıh âlimleri arasından",
+      "en": "Scholar of hadith and biographical sciences, among the Hanafi jurists"
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "Muhammad ʿAbd al-Hayy b. Muhammad ʿAbd al-Halīm al-Ansārī al-Lakhnawī al-Hindī, Abū al-Hasanāt"
+    },
+    "altLabel": {
+      "tr": [
+        "Muhammed Abdülhay b. Muhammed Abdülhalim el-Ensârî el-Laknevi el-Hindî, Ebülhasanât"
+      ],
+      "ar": [
+        "محمد عبد الحي بن محمد عبد الحليم الأنصاري اللكنوي الهندي، أبو الحسنات"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:10197",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10197",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:37:02Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:37:02Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:37:02Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=10197 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:10197."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1304,
+    "start_ce": 1887,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10197, heading_ar=محمد عبد الحي || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 23.0, 78.0",
+  "authored_works": [
+    "iac:work-00001372",
+    "iac:work-00001389",
+    "iac:work-00001792",
+    "iac:work-00002306",
+    "iac:work-00002680",
+    "iac:work-00002685",
+    "iac:work-00004069",
+    "iac:work-00004648",
+    "iac:work-00004664",
+    "iac:work-00005134",
+    "iac:work-00005173",
+    "iac:work-00005318",
+    "iac:work-00005608",
+    "iac:work-00005938",
+    "iac:work-00005942",
+    "iac:work-00006349",
+    "iac:work-00006749",
+    "iac:work-00006969",
+    "iac:work-00007059",
+    "iac:work-00007394",
+    "iac:work-00007477",
+    "iac:work-00007534",
+    "iac:work-00007542",
+    "iac:work-00007834",
+    "iac:work-00007889",
+    "iac:work-00008027",
+    "iac:work-00008101",
+    "iac:work-00008198",
+    "iac:work-00008229",
+    "iac:work-00008446",
+    "iac:work-00008519",
+    "iac:work-00008698",
+    "iac:work-00008719",
+    "iac:work-00008756",
+    "iac:work-00009057"
+  ],
+  "kunya": "Ebülhasanât"
+}

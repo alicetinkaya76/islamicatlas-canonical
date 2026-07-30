@@ -1,0 +1,79 @@
+{
+  "@id": "iac:person-00014684",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ibn Yazdād",
+      "tr": "İbn Yezdâd",
+      "ar": "ابن يزداد"
+    },
+    "originalScript": {
+      "ar": "ابن يزداد"
+    },
+    "description": {
+      "tr": "Vâsıt kadısı, doğum ve vefatı orada.",
+      "en": "Judge of Wāsiṭ, his birth and death were there."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAlī b. Muḥammad b. al-Ḥasan, Ibn Yazdād al-ʿAbdī, Abū Tamām"
+    },
+    "altLabel": {
+      "tr": [
+        "Alî b. Muhammed b. el-Hasan, İbn Yezdâd el-Abdî, Ebû Temâm"
+      ],
+      "ar": [
+        "علي بن محمد بن الحسن، ابن يزداد العبدي، أبو تمام"
+      ]
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:7364",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7364",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:33Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:33Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:33Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=7364 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7364."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 459,
+    "start_ce": 1067,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7364, heading_ar=ابن يزداد || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 32.5, 45.83",
+  "kunya": "أبو تمام"
+}

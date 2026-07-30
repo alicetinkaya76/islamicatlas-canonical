@@ -1,0 +1,99 @@
+{
+  "@id": "iac:person-00001067",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMRE bint ABDURRAHMAN",
+      "ar": "عمرة بنت عبد الرحمن"
+    },
+    "originalScript": {
+      "ar": "عمرة بنت عبد الرحمن"
+    },
+    "altLabel": {
+      "tr": [
+        "Amre bint Abdirrahmân b. Sa‘d b. Zürâre el-Ensâriyye en-Neccâriyye"
+      ],
+      "ar": [
+        "الحر بن عبد الرحمن"
+      ]
+    },
+    "description": {
+      "tr": "Hz. Âişe’nin yanında yetişen ve onun hadislerini çok iyi bilen Amre, Ümmü Seleme, Hamne bint Cahş, Râfi‘ b. Hadîc gibi sahâbîlerden de hadis rivayet etti. Bütün cerh ve ta‘dîl âlimlerince sika ve hüccet kabul edilen Amre, hadislerin toplanması maksadıyla Halife Ömer b. Abdülazîz tarafından çıkarılan fermanda rivayetlerinin yazılması özellikle istenen tâbiîdir. Urve b. Zübeyr, kız kardeşinin oğlu Ebû Bekir b. Hazm, Abdullah b. Ebû Bekir, Zührî, Amr b. Dînâr, kendi oğlu Ebü’r-Ricâl Muhammed b. Abdurrahman ve torunları Amre’den hadis rivayet edenlerin başında gelirler. Zührî, ilminden çok faydalandığı Amre’nin bir “ilim denizi” olduğunu söyler. Kardeşleri, çocukları, yeğenleri ve torunlarıyla tam bir âlimler ve râviler ailesi teşkil eden Amre, hadis ve fıkıh ilimlerine hizmetle geçirdiği yetmiş yedi yıllık bir ömürden sonra 106 (724) yılında Medine’de vefat etti. 98, 99 ve 103 yıllarında öldüğü de söylenmektedir. Amre bint Abdurrahman’dan rivayet edilen hadisler başta Kütüb-i Sitte olmak üzere muteber hadis külliyatının hepsinde yer almaktadır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 95-96 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amre-bint-abdurrahman",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amre-bint-abdurrahman, https://islamansiklopedisi.org.tr/amre-bint-abdurrahman",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:2576",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=2576, heading_ar=الحر بن عبد الرحمن",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amre-bint-abdurrahman (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[2576]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=2576 (heading_ar=الحر بن عبد الرحمن) via Track A (DİA→Alam xref bridge). dt=Süleymân b. Abdülmelik için Endülüs emîri"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 106,
+    "start_ce": 724,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amre-bint-abdurrahman, URL: https://islamansiklopedisi.org.tr/amre-bint-abdurrahman || El-Aʿlām (Ziriklī) cross-reference: alam_id=[2576] || DİA death place: Medine || DİA death-date string: (ö. 106/724) || DİA categories: hadis > rivayet > fıkıh || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=2576, heading_ar=الحر بن عبد الرحمن, dt=Süleymân b. Abdülmelik için Endülüs emîri",
+  "teachers": [
+    "iac:person-00000874",
+    "iac:person-00006330",
+    "iac:person-00007499"
+  ],
+  "students": [
+    "iac:person-00001041",
+    "iac:person-00002144",
+    "iac:person-00007521",
+    "iac:person-00007655",
+    "iac:person-00007897"
+  ]
+}

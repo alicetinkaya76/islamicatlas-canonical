@@ -1,0 +1,150 @@
+{
+  "@id": "iac:person-00000283",
+  "@type": [
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "Ulugh Beg",
+      "tr": "Uluğ Bey",
+      "ar": "ألغ بك"
+    },
+    "originalScript": {
+      "ar": "ألغ بك"
+    },
+    "altLabel": {
+      "en": [
+        "Mirza Muhammad Taraghay ibn Shahrukh (Ulugh Beg)"
+      ],
+      "tr": [
+        "Mîrzâ Muhammed Tarağay b. Şâhruh (Uluğ Bey)"
+      ],
+      "ar": [
+        "ميرزا محمد تراغاي بن شاه رخ (ألغ بك)"
+      ]
+    },
+    "description": {
+      "tr": "Yıldız kataloğu 150 yıl boyunca aşılamayan konum doğruluğu elde etti — Batlamyus ile Tycho Brahe arasındaki en hassas astronomik gözlemler || Uluğ Bey'in Semerkand rasathanesi, 40 metre yarıçaplı sekstantıyla İslam dünyasının en büyüğüydü. || [Tarih notu] Gerçekten çalışan bir bilim insanı olan nadir bir hükümdar — muhtemelen yönetim yerine bilimi öncelediği için kendi oğlu tarafından öldürüldü.",
+      "en": "His star catalogue achieved positional accuracy unsurpassed for 150 years — the most precise astronomical observations between Ptolemy and Tycho Brahe || Ulugh Beg's observatory in Samarkand was the largest in the Islamic world, with a sextant 40 meters in radius. His team included al-Kashi and Qadi Zada al-Rumi. || [Historiographical note] A rare case of a ruler who was genuinely a working scientist — he was murdered by his own son, possibly for prioritizing science over governance.",
+      "ar": "حقق فهرس نجومه دقة مواقعية لم تُتجاوز لمدة 150 سنة || كان مرصد ألغ بك في سمرقند الأكبر في العالم الإسلامي"
+    }
+  },
+  "profession": [
+    "astronomer",
+    "mathematician"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0100",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0100",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "dia-chunks:ulug-bey",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ulug-bey",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "scholars:84",
+        "source_type": "digital_corpus",
+        "page_or_locator": "scholars.csv scholar_id=84",
+        "extraction_method": "structured_json",
+        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+      },
+      {
+        "source_id": "alatli:E0425",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:57:36Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:57:36Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:57:36Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0100 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:04Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['nisba', 'laqab']."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-12T14:48:05Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "scholar_links teacher edge (H10 S13): students += iac:person-00000211."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-1 conf 1.0): ['derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1394,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1449,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q486088",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Ulugh Beg')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0100, lecture_week=n/a. || Key works: {'title': {'en': 'Zīj-i Sultānī (Star Catalogue)', 'tr': 'Zîc-i Sultânî (Yıldız Kataloğu)', 'ar': 'زيج سلطاني'}, 'year': 1437, 'field': 'astronomy', 'significance': {'en': 'Star catalogue of 1,018 stars with positional accuracy unsurpassed until Tycho Brahe 150 years later', 'tr': \"Tycho Brahe'ye kadar 150 yıl boyunca aşılamayan konum doğruluğuyla 1.018 yıldızlık katalog\"}} || Modern parallel: Like a head of state who personally runs the national space agency's telescopes — and produces better data than anyone else for the next century.",
+  "authored_works": [
+    "iac:work-00000140"
+  ],
+  "nisba": [
+    "Timurlu",
+    "Gürgânî"
+  ],
+  "laqab": [
+    "Uluğ Bey (Büyük Bey)"
+  ],
+  "students": [
+    "iac:person-00000211"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

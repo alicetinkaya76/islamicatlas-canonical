@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00004317",
+  "@type": [
+    "iac:Person",
+    "iac:Ruler"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İBNÜ’s-SÂÂTÎ, Fahreddin",
+      "ar": "فخر الدين الساعاتي"
+    },
+    "originalScript": {
+      "ar": "فخر الدين الساعاتي"
+    },
+    "altLabel": {
+      "tr": [
+        "Fahrüddîn Rıdvân b. Muhammed Alî b. Rüstem el-Horasânî es-Sââtî"
+      ]
+    },
+    "description": {
+      "tr": "Dımaşk’ta doğdu; aslen Horasanlı bir aileye mensuptur. Bir muvakkit olan babası aynı zamanda saat yapım ve onarımıyla uğraştığı için İbnü’s-Sââtî nisbesiyle tanınmıştır. Radıyyüddin er-Rahbî ile Dımaşk’a gelen Fahreddin el-Mardînî’den tıp, Tâceddin el-Kindî’den edebiyat okudu. Şiir ve mûsikiyle ilgilenmesinin yanında yüksek seviyede mantık ve felsefe bilgisine de sahipti. Eyyûbî hânedanından I. el-Melikü’l-Âdil’in oğlu el-Melikü’l-Fâiz’in veziri, diğer oğlu el-Melikü’l-Muazzam Îsâ’nın hem veziri hem özel hekimi olan İbnü’s-Sââtî çok zeki ve ihtiras derecesinde ilme düşkün bir kimse idi. Yâkūt el-Hamevî birkaç defa onun meclisine katıldığını belirtir ve 618’de (1221) Dımaşk’ta vefat ettiğini söyler ( Muʿcemü’l-üdebâʾ , XI, 142); öte yandan Bağdatlı İsmâil Paşa 620’de (1223), Heinrich Suter ve Sarton ise 620-630 (1223-1233) yılları arasında öldüğünü söylemektedirler. Babası gibi saat yapım ve onarımını iyi bildiği anlaşılan İbnü’s-Sââtî’nin, babası tarafından yapılarak Dımaşk’ta Bâbü Ceyrûn’a (Bâbü’s-Sâât) konulan saatin bakım ve onarımı için yazdığı ʿİlmü’s-sâʿât ve’l-ʿamel bihâ adlı eseri günümüze ulaşmış ve Muhammed Ahmed Dehmân tarafından başka risâlelerle bir arada yayımlanmıştır (Dımaşk 1402/1981). İsmâil b. Rezzâz el-Cezerî’nin eseriyle birlikte ilk İslâm saatleri konusunda önemli bir kaynak sayılan bu kitabın Almanca özet tercümesini Eilhard Wiedemann ve Fritz Hauser yapmıştır (“Über die Uhren im Bereich der islamischen Kultur”, Nova acta academiae naturae curiosorum , C, Halle 1915, s. 176-266). Kaynaklarda onun, tıpta geleneğine bağlı olduğu İbn Sînâ’nın el-Ḳānûn fi’ṭ-ṭıbb ’ına bir hâşiye ve Kitâbü’l-Ḳūlenc ’ine bir tekmile yazdığı, ayrıca Kitâbü’l-Muḫtârât adı altında Arap şiirinden seçmeler yaptığı zikredilmektedir (İbn Ebû Usaybia, s. 662). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 190 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "physician",
+    "ruler",
+    "vizier"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ibnus-saati-fahreddin",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ibnus-saati-fahreddin, https://islamansiklopedisi.org.tr/ibnus-saati-fahreddin",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:27Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:27Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:27Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ibnus-saati-fahreddin (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Horasânî; Sââtî"
+  ],
+  "death_temporal": {
+    "start_ah": 618,
+    "start_ce": 1221,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ibnus-saati-fahreddin, URL: https://islamansiklopedisi.org.tr/ibnus-saati-fahreddin || DİA birth place: Dımaşk || DİA death place: Dımaşk || DİA death-date string: (ö. 618/1221 [?]) || DİA categories: felsefe > mantık > şiir || Chunk count: 1",
+  "teachers": [
+    "iac:person-00002646"
+  ]
+}

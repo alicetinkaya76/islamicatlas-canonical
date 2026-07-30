@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00002120",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Ebû Abs",
+      "ar": "أبو عبس"
+    },
+    "originalScript": {
+      "ar": "أبو عبس"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abs Abdurrahmân b. Cebr b. Amr el-Ensârî"
+      ]
+    },
+    "description": {
+      "tr": "Evs kabilesinin Benî Hârise kolundandır. Milâdî 584 yılı civarında doğduğu tahmin edilmektedir. İslâmiyet’i kabulünden önce Abdüluzzâ olan adı Hz. Peygamber tarafından Abdurrahman olarak değiştirildi. Ünlü sahâbî Muhammed b. Mesleme’nin eniştesi olan Ebû Abs hicretten önce İslâmiyet’i kabul etti. Annesi Leylâ bint Râfi‘ ve hanımı Ümmü Îsâ, Resûl-i Ekrem’e ilk biat eden hanımlardandır. Hz. Peygamber’le birlikte Bedir , Uhud , Hendek başta olmak üzere bütün gazvelere katıldı. Okuma yazma bilenlerin çok az olduğu İslâm öncesi dönemin okur yazarlarından biri olan Ebû Abs’ın, başlangıçta İslâm kültürünün gelişip kökleşmesine büyük katkısı olmuştur. Hicretin sıkıntılı günlerinin devam ettiği sıralarda Mekkeli muhacirlere yardım elini uzattı. Hz. Peygamber onunla, Hz. Ömer’in kızı Hafsa’nın Resûl-i Ekrem’den önceki kocası Uhud şehidlerinden Huneys b. Huzâfe arasında kardeşlik bağı ( muâhât ) kurdu. Ebû Abs müslüman olduktan sonra yakın arkadaşı Ebû Bürde b. Niyâr ile birlikte, mensup oldukları Hâriseoğulları kabilesinin putlarını gizlice kırmayı iş edinmişlerdi. Öte yandan Bedir yenilgisini bir türlü hazmedemeyip şiirleri, tesirli konuşmaları ve servetiyle Arabistan halkını, özellikle de Mekkeliler’i Hz. Peygamber aleyhine kışkırtan yahudi şairi Kâ‘b b. Eşref ’in öldürülmesine memur edilen heyetin içinde Ebû Abs da yer aldı. Hz. Ömer ve Osman devirlerinde vergi tahsildarlığı görevinde bulunan Ebû Abs, Hz. Osman’ın hilâfetinin sonlarında hastalandı ve yetmiş yaşlarında vefat etti. Bedir ashabına karşı son derece saygılı davranan halife hastalığında onun ziyaretine gitmiş, vefatında cenaze namazını bizzat kendisi kıldırmıştır. Ebû Abs Cennetü’l-bakī‘ a defnedildi. Ebû Abs Hz. Peygamber’den sadece bir hadis rivayet etmiştir. Muhammed, Mahmûd, Ubeydullah, Zeyd ve Humeyd adlı çocukları yoluyla soyunun Medine ve Bağdat’ta devam ettiği söylenir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 87-88 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ebu-abs",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ebu-abs, https://islamansiklopedisi.org.tr/ebu-abs",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:ebu-abs",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-abs",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:54Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:54Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:54Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ebu-abs (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Ensârî"
+  ],
+  "death_temporal": {
+    "start_ah": 34,
+    "start_ce": 654,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=ebu-abs, URL: https://islamansiklopedisi.org.tr/ebu-abs || DİA death-date string: (ö. 34/654) || DİA categories: hadis > rivayet || Chunk count: 1"
+}

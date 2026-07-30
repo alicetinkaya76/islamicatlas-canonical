@@ -1,0 +1,58 @@
+{
+  "@id": "iac:person-00008021",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "Kâzim Reştî",
+      "ar": "كاظم رشتى"
+    },
+    "originalScript": {
+      "ar": "كاظم رشتى"
+    },
+    "description": {
+      "tr": "Şeyhîliğin kurucusu Şeyh Ahmed el-Ahsâî’nin önde gelen müridi, Bahâîliğin teşekkülünde önemli rolü olan ve Bâbîliğin kurucusu Mirza Ali Muhammed’i etkileyen kişilerden biri."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:kazim-resti",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=kazim-resti, https://islamansiklopedisi.org.tr/kazim-resti",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:35:11Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:35:11Z",
+    "modified": "2026-05-04T15:35:11Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:35:11Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=kazim-resti (0 chunks) by dia adapter (Hafta 4)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 1259,
+    "start_ce": 1843,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=kazim-resti, URL: https://islamansiklopedisi.org.tr/kazim-resti"
+}

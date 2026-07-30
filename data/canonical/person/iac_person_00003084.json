@@ -1,0 +1,111 @@
+{
+  "@id": "iac:person-00003084",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "HÂLİD b. MA‘DÂN",
+      "ar": "خالد بن معدان"
+    },
+    "originalScript": {
+      "ar": "خالد بن معدان"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh Hâlid b. Ma‘dân b. Ebî Kerib el-Kelâî"
+      ]
+    },
+    "description": {
+      "tr": "Kelâî nisbesinden hareketle Nîşâbur’a bağlı Kelâ’da doğduğu tahmin edilmektedir. Şam ile Humus bölgelerinde yerleşmesi sebebiyle Şâmî ve Hımsî nisbeleriyle de anılmaktadır. Bir kısmından mürsel olmak üzere Muâz b. Cebel, Hz. Âişe, Ebû Hüreyre, Muâviye b. Ebû Süfyân ve Abdullah b. Ömer gibi sahâbîlerden hadis rivayet etti. Kendisinden de Sevr b. Yezîd, Muhammed b. İbrâhim et-Teymî, Hassân b. Atıyye ve Safvân b. Amr gibi muhaddisler rivayette bulundular. Sika olduğunda görüş birliği bulunan Hâlid’den Evzâî, Süfyân es-Sevrî gibi muhaddisler övgü ile söz etmişlerdir. İbn Kuteybe’nin onu Kaderiyye mezhebine mensup olanlar içinde sayması ( el-Maʿârif, s. 625), diğer kaynaklarda böyle bir bilginin bulunmaması sebebiyle ihtiyatla karşılanmalıdır. Rivayetleri Kütüb-i Sitte ’de yer alan ve Şamlı fıkıh âlimlerinin üçüncü tabakasından olan Hâlid b. Ma‘dân fıkıh sahasında da otorite idi. Halife Velîd b. Abdülmelik bir konu hakkında Hâlid’in görüşüne başvurmuş, daha sonra da bütün kadılara emir göndererek onlardan bu âlimin görüşü doğrultusunda karar vermelerini istemiştir. Yezîd b. Muâviye’nin emniyet teşkilâtında görev yaptığı, başta Mesleme b. Abdülmelik kumandasındaki İstanbul muhasarası olmak üzere Bizans’a karşı yapılan birçok savaşa katıldığı bilinmektedir. 103 (721) yılında Şam yakınlarındaki Entartus’ta vefat eden Hâlid b. Ma‘dân’ın ölüm tarihi 104, 105 ve 108 (726) olarak da zikredilmektedir. Hâlid b. Ma‘dân zühd ve takvâ sahibi bir âlim olup zamanının çoğunu oruçlu geçirirdi. Şöhreti sevmez, etrafına halkın toplandığını görünce hemen oradan uzaklaşırdı. Ona göre insanın ikisi maddî, ikisi mânevî olmak üzere dört gözü vardır. İnsan maddî gözü ile dünyada olup bitenleri, kalp gözü ile de âhiretle ilgili hususları görür. Allah bir kul hakkında hayır murat ettiğinde onun kalp gözünü açar; kul da gayb âlemine dair vaad edilen hususları görerek gaybda olanlardan emin olur. Yiyip hamdetmenin yiyip susmaktan daha hayırlı olduğunu söyleyen Hâlid, “Sizden birinize hayır kapısı açıldığında acele etsin, çünkü o kapının kendisine ne zaman kapanacağını bilemez” diyerek hayırda acele edilmesini tavsiye etmiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 286 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:halid-b-madan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=halid-b-madan, https://islamansiklopedisi.org.tr/halid-b-madan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:halid-b-madan",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/halid-b-madan",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      },
+      {
+        "source_id": "el-alam:3287",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=3287, heading_ar=خالد بن معدان",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:10Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:10Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:10Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=halid-b-madan (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[3287]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=3287 (heading_ar=خالد بن معدان) via Track A (DİA→Alam xref bridge). dt=Tâbiʿ, sika (güvenilir ravi), ibâdet ile ünlü kişilerden"
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Kelâî"
+  ],
+  "death_temporal": {
+    "start_ah": 103,
+    "start_ce": 721,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=halid-b-madan, URL: https://islamansiklopedisi.org.tr/halid-b-madan || El-Aʿlām (Ziriklī) cross-reference: alam_id=[3287] || DİA birth place: Kelâ || DİA death-date string: (ö. 103/721) || DİA categories: rivayet > fıkıh > hadis || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=3287, heading_ar=خالد بن معدان, dt=Tâbiʿ, sika (güvenilir ravi), ibâdet ile ünlü kişilerden",
+  "teachers": [
+    "iac:person-00000533",
+    "iac:person-00000874",
+    "iac:person-00002188",
+    "iac:person-00005605",
+    "iac:person-00005611"
+  ],
+  "students": [
+    "iac:person-00003305"
+  ]
+}

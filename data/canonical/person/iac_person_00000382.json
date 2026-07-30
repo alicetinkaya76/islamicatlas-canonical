@@ -1,0 +1,72 @@
+{
+  "@id": "iac:person-00000382",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ABBAS b. ALİ b. EBÛ TÂLİB",
+      "ar": "عبّاس بن علي بن أبي طالب"
+    },
+    "originalScript": {
+      "ar": "عبّاس بن علي بن أبي طالب"
+    },
+    "description": {
+      "tr": "Annesi Ümmü’l-Benîn bint Hizâm’dır. Kaynaklarda Abbas’ın Kerbelâ Vak‘ası’ndan önceki hayatı hakkında bilgi yoktur. Sünnî ve Şiî kaynakların hemen hemen ittifakla naklettiklerine göre Abbas b. Ali, Hz. Hüseyin ile birlikte Kerbelâ’da bulunmuş ve orada Ehl-i beyt’e su temin ettiği için “es-Sekkā’” lakabıyla anılmıştır. Hüseyin ve yanındakilerin susuzluğu dayanılmaz hale gelince Abbas b. Ali su bulmakla görevlendirilmiş, o da bir gece bu görevi başarıyla yerine getirmiştir. 9 Muharrem 61 (9 Ekim 680) günü, Hz. Hüseyin adına Kûfeli askerlerle görüşmüşse de netice alamamıştır. Hüseyin, Kûfeliler’in ertesi gün saldıracaklarını tahmin ederek yanındakilerin kendisini bırakıp gitmelerini istemiş, fakat Abbas buna şiddetle karşı çıkarak, “Allah bunu bize hiçbir zaman göstermesin” demiştir. Abbas ertesi gün Kerbelâ faciası esnasında Hz. Hüseyin’i korurken, kardeşleri Abdullah, Ca‘fer ve Osman’ın arkasından şehid edilmiştir. Başı diğer Kerbelâ şehidlerininkiyle birlikte Şam’a gönderilmiş, cesedi Gādiriye köyünün sakinleri olan Benî Esed tarafından şehid edildiği yere gömülmüştür. Daha sonra Kerbelâ’da Hz. Hüseyin’in türbesinin kuzey tarafında bugünkü türbesi yapılmıştır. Şiî gelenek, Abbas b. Ali’ye Kerbelâ Vak‘ası’na katılanlar arasında müstesna bir mevki verir; onu menkıbevî bir şahsiyet olarak daima saygı ile anar ve yüceltir. Muharrem âyinleri sırasında gençler ona benzemek için âyine katılanlara su temini hususunda âdeta yarışırlar ve “Yâ Hazret-i Abbas!” nidalarıyla duygularını dile getirirler. Abbas b. Ali, Abbâsîler’in son dönemlerine doğru İran, Azerbaycan ve Hindistan bölgelerinde fütüvvet ve tarikat zümreleri arasında da aynı özelliklerle şöhret bulmuştur. Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 21 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:abbas-b-ali-b-ebu-talib",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=abbas-b-ali-b-ebu-talib, https://islamansiklopedisi.org.tr/abbas-b-ali-b-ebu-talib",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks:abbas-b-ali-b-ebu-talib",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "https://islamansiklopedisi.org.tr/abbas-b-ali-b-ebu-talib",
+        "extraction_method": "structured_json",
+        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:32:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:32:37Z",
+    "modified": "2026-07-10T16:23:25Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:32:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=abbas-b-ali-b-ebu-talib (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-10T16:23:25Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 61,
+    "start_ce": 680,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=abbas-b-ali-b-ebu-talib, URL: https://islamansiklopedisi.org.tr/abbas-b-ali-b-ebu-talib || DİA death-date string: (ö. 61/680) || DİA categories: tarikat || Chunk count: 1"
+}

@@ -1,0 +1,83 @@
+{
+  "@id": "iac:person-00001034",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "ÂMİRÎ, Yahyâ b. Ebû Bekir",
+      "ar": "يحيى بن أبي بكر العامري"
+    },
+    "originalScript": {
+      "ar": "يحيى بن أبي بكر العامري"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Zekeriyyâ İmâdüddîn Yahyâ b. Ebî Bekr el-Âmirî"
+      ]
+    },
+    "description": {
+      "tr": "816’da (1413) Yemen’in Haraz nahiyesinde doğdu. Ebü’l-Feth el-Merâgī, Ali b. İbrâhim en-Nahvî, Muhammed b. Ebü’l-Gays el-Kirmânî, Hâfız b. Fehd el-Mekkî ve babasından fıkıh, hadis, tarih ve tıp öğrenimi gördü. Çeşitli sahalarda eser veren müellif devrinde Yemen’in önde gelen âlimlerindendi. Haraz’da vefat etti. Eserleri. 1. er-Riyâżü’l-müsteṭâbe fî maʿrifeti men revâ fi’ṣ-ṣaḥîḥayn mine’ṣ-ṣaḥâbe . Rivayet ettikleri hadisler Ṣaḥîḥ-i Buḫârî ile Ṣaḥîḥ-i Müslim ’de yer alan ashap hakkında bilgi veren eser ilk defa Ömer Ebû Hacele tarafından yayımlanmıştır (Bhopal 1303). Eser daha sonra da basılmıştır (Katar 1400). 2. Behcetü’l-meḥâfil ve buġyetü’l-emâs̱il fî telḫîṣi’s-siyer ve’l-muʿcizât ve’ş-şemâʾil . Müellifin 855’te (1451) tamamladığı siyer ve fıkhî meselelere dair olan bu eser Cemâleddin Muhammed el-Eşhar el-Yemenî’nin şerhiyle birlikte neşredilmiştir (I-II, Mısır 1330). 3. Ġurbâlü’z-zamân . Hicretten itibaren VII. yüzyılın ortalarına kadar meydana gelen olayları ihtiva eder. 4. Beyânü’l-iʿtiḳād ve mâ yeks̱üru ileyhi iḥtiyâcü’l-ʿibâd . Kelâmla ilgili olan bu eserde akaid meseleleriyle küfür ve irtidadı gerektiren sözler (elfâz-ı küfür) üzerinde durulmaktadır (Süleymaniye Ktp., Mihrişah Sultan, nr. 439/8; Kayseri Râşid Efendi Ktp., nr. 1120/2). Diğer bazı eserleri de şunlardır: el-ʿUded fîmâ lâ yestaġnî ʿanhü aḥad (Süleymaniye Ktp., Bağdatlı Vehbi Efendi, nr. 949), et-Tuḥfetü’l-câmiʿa li’l-müfredâti’ṭ-ṭıbbi’n-nâfiʿa , Vesîletü’ṭ-ṭâlib ilâ neyli’l-meṭâlib , Buġyetü’l-merâm fî sîreti seyyidi’l-enâm . Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 72 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar",
+    "narrator",
+    "historian"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amiri-yahya-b-ebu-bekir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amiri-yahya-b-ebu-bekir, https://islamansiklopedisi.org.tr/amiri-yahya-b-ebu-bekir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "dia-chunks-v8:amiri-yahya-b-ebu-bekir",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA chunks (per-slug aggregated), slug=amiri-yahya-b-ebu-bekir",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:34Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:34Z",
+    "modified": "2026-05-17T04:23:19Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:34Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amiri-yahya-b-ebu-bekir (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-17T04:23:19Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0",
+        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=amiri-yahya-b-ebu-bekir)."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Âmirî"
+  ],
+  "death_temporal": {
+    "start_ah": 893,
+    "start_ce": 1488,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amiri-yahya-b-ebu-bekir, URL: https://islamansiklopedisi.org.tr/amiri-yahya-b-ebu-bekir || DİA death place: Haraz || DİA death-date string: (ö. 893/1488) || DİA categories: hadis > fıkıh > kelâm || Chunk count: 1"
+}

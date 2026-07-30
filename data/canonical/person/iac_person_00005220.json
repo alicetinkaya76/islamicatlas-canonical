@@ -1,0 +1,80 @@
+{
+  "@id": "iac:person-00005220",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "MA‘N b. EVS",
+      "ar": "معن بن أوس"
+    },
+    "originalScript": {
+      "ar": "معن بن أوس"
+    },
+    "altLabel": {
+      "tr": [
+        "Ma‘n b. Evs b. Nasr b. Ziyâd el-Müzenî"
+      ]
+    },
+    "description": {
+      "tr": "Mudar kabilesinin Müzeyne koluna mensuptur. Medine ile Mekke arasında bulunan, toprakları verimli bir bölgede yerleşmiş varlıklı bir ailenin çocuğudur. Gençlik döneminin bir kısmını Câhiliye devrinde geçirdiği ve bu sırada kabilesinin katıldığı savaşlara şahit olduğu kaydedilir (Ömer Ferruh, I, 418). Medine’de hurmalıkları, başka yerlerde arazileriyle deve sürüleri bulunan Ma‘n ticaret hayatına atılarak Şam, Irak (Basra) ve Hicaz’a seyahat etti. Gittiği yerlerde birçok evlilik yaptı, bunlardan hep kız evlâdı dünyaya geldi. Câhiliye geleneğine rağmen kızlarını bağrına basmış, kız çocuğu olduğu için üzülenleri de teselli etmiştir. Ticaret için uzakta bulunduğu sırada bağları ve arazisi gasbedilen Ma‘n, ticaretten kazandıklarını da tüketince hayatının son yıllarını sefalet içinde geçirdi. Onun Hz. Peygamber’le görüşüp fetih ve gazvelere katıldığına dair bir kayıt bulunmamaktadır. Mekke’nin fethinden önce müslüman olduğu ve kabilesi Müzeyne’den bir grupla birlikte Huneyn Gazvesi’ne iştirak ettiği ileri sürülürse de (Brockelmann, I, 72) bu kesin değildir. İslâm’a ne zaman girdiği bilinmeyen Ma‘n, Abdullah b. Cahş, Ömer b. Ebû Seleme gibi birçok sahâbîye methiye yazmış, Hz. Ömer ile görüşüp ona da bir kaside takdim etmiştir. Muâviye b. Ebû Süfyân ile de görüştüğü, Muâviye’nin onun şiirlerini çok beğendiği kaydedilir (Abdülkādir el-Bağdâdî, VII, 260). Birçok olaya şahit olmasına rağmen şiirlerinde bu konuda hiçbir işarete rastlanmaz. Bunun sebebi köy hayatını çok sevmesi ve mecbur kalmadıkça şehre inmemesi olmalıdır. Hayatının son yıllarında gözlerini kaybeden şairin Mervân b. Hakem ile Abdullah b. Zübeyr arasında çıkan olaylara yetiştiğine göre Medine’de 64 (684) yılında öldüğü söylenebilir. Ma‘n b. Evs’in İslâmî erdemlere müslüman olmadan önce de sahip olması, Müslümanlığı kabul ettikten sonra İslâmî prensiplere uygun olarak yaşamaya devam etmesi şiirlerinde fazla bir değişikliğin ortaya çıkmaması neticesini doğurmuş, eski Arap şiirinin geleneği içinde yazdığı şiirlerinin temalarını aynı istikamette sürdürmüştür. Bazı halife ve sahâbîlere takdim ettiği methiyeleri beğenilen şairin hicivlerinde nükteli, alaylı ve sitemli, kendisinin ve kabilesinin erdemlerini övdüğü fahriyyelerinde gerçekçi, hikemiyyâta dair şiirlerinde ise eğitici tavrı dikkat çeker. Ebû Ali el-Kālî tarafından rivayet edilen Ma‘n’ın divanı Câhiliye şiirinin geleneksel konuları olan gazel, medih, fahr, hiciv ve hikemiyyât türü şiirlerden oluşur. İlk defa Almanca bir girişle birlikte Paul Schwartz tarafından neşredilen divanı (Leipzig 1903) daha sonra Kemâl Mustafa ( Maʿn b. Evs: Ḥayâtühû, şiʿrühû, aḫbâruhû , Kahire 1927), Nûrî Hammûdî el-Kaysî – Hâtim Sâlih ed-Dâmin (Bağdad 1977) ve Ömer Muhammed Süleyman el-Kattân ( Şiʿru Maʿn b. Evs el-Müzenî , Cidde 1403/1983) tahkik ederek yayımlamışlardır. Muhammed b. Süleyman es-Sedîs son neşrin eleştirisine dair bir makale yazmıştır ( ʿÂlemü’l-kütüb , VII/4 [Riyad 1986], s. 468-473). Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 27. cildinde, 554-555 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:man-b-evs",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=man-b-evs, https://islamansiklopedisi.org.tr/man-b-evs",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      },
+      {
+        "source_id": "el-alam:12271",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=12271, heading_ar=معن بن أوس",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:37Z",
+    "modified": "2026-07-20T11:51:55Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=man-b-evs (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[12271]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-20T11:51:55Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "El-Aʿlām augmentation: linked alam_id=12271 (heading_ar=معن بن أوس) via Track A (DİA→Alam xref bridge). dt=Cahiliye ve İslam döneminin müşteriki olan bir kudretli şair."
+      }
+    ],
+    "deprecated": false
+  },
+  "nisba": [
+    "Müzenî"
+  ],
+  "death_temporal": {
+    "start_ah": 64,
+    "start_ce": 684,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=man-b-evs, URL: https://islamansiklopedisi.org.tr/man-b-evs || El-Aʿlām (Ziriklī) cross-reference: alam_id=[12271] || DİA death-date string: (ö. 64/684 [?]) || DİA categories: rivayet > şiir || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=12271, heading_ar=معن بن أوس, dt=Cahiliye ve İslam döneminin müşteriki olan bir kudretli şair."
+}

@@ -1,0 +1,78 @@
+{
+  "@id": "iac:person-00015159",
+  "@type": [
+    "iac:Person",
+    "iac:Poet"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "ʿAmr b. al-Masīḥ",
+      "tr": "Amr b. el-Mesîh",
+      "ar": "عمرو بن المسبح"
+    },
+    "originalScript": {
+      "ar": "عمرو بن المسبح"
+    },
+    "description": {
+      "tr": "Faris, uzun ömürlü, şair.",
+      "en": "Knight, long-lived, poet."
+    },
+    "transliteration": {
+      "ar-Latn-x-alalc": "ʿAmr b. al-Masīḥ b. Kaʿb, from Banū Thaʿl, from Ṭayy"
+    },
+    "altLabel": {
+      "tr": [
+        "Amr b. el-Mesîh b. Kaab, Benî Sâal'den (Sîn'i fetihte, Ayn'ı fetihlü), Tay'dan"
+      ],
+      "ar": [
+        "عمرو بن المسبح بن كعب، من بني ثعل (بضم الثاء وفتح العين) ، من طيئ"
+      ]
+    }
+  },
+  "profession": [
+    "poet"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "el-alam:7890",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7890",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_el_alam",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:36:38Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:36:38Z",
+    "modified": "2026-07-14T11:35:23Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:36:38Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from al-Aʿlām alam_id=7890 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T11:35:23Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:7890."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 24,
+    "start_ce": 645,
+    "approximation": "exact"
+  },
+  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7890, heading_ar=عمرو بن المسبح || Ziriklī century_ce=7"
+}

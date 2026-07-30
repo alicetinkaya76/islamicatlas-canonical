@@ -1,0 +1,120 @@
+{
+  "@id": "iac:person-00000259",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "en": "al-Juwayni",
+      "tr": "İmâmü'l-Haremeyn el-Cüveynî",
+      "ar": "إمام الحرمين الجويني"
+    },
+    "originalScript": {
+      "ar": "إمام الحرمين الجويني"
+    },
+    "altLabel": {
+      "en": [
+        "Abū al-Maʿālī ʿAbd al-Malik ibn ʿAbd Allāh al-Juwaynī"
+      ],
+      "tr": [
+        "Ebü'l-Meâlî Abdülmelik b. Abdullah el-Cüveynî",
+        "el-Cüveynî"
+      ],
+      "ar": [
+        "أبو المعالي عبد الملك بن عبد الله الجويني"
+      ]
+    },
+    "description": {
+      "tr": "Eş'arî kelâmını felsefî titizlikle sistemleştirdi; Gazzâlî'nin hocası || Cüveynî, talebesi Gazzâlî'nin İslâm düşüncesini tasavvuf-ortodoksi sentezine yönlendirmesinden önce Eş'arî rasyonel kelâmının zirvesini temsil eder. || [Tarih notu] 'İmâmü'l-Haremeyn' lakabı Nîşâbur'dan sürgün döneminde Mekke ve Medine'deki hocalık yıllarını yansıtır.",
+      "en": "Systematized Ash'ari theology with philosophical rigor; teacher of al-Ghazali || al-Juwayni represented the peak of Ash'ari rational theology before his student al-Ghazali would redirect Islamic thought toward a synthesis of Sufism and orthodoxy. || [Historiographical note] His title 'Imam al-Haramayn' reflects his years of teaching at Mecca and Medina during exile from Nishapur.",
+      "ar": "نظّم العقيدة الأشعرية بدقة فلسفية وكان أستاذ الغزالي || مثّل ذروة علم الكلام الأشعري العقلاني قبل تلميذه الغزالي"
+    }
+  },
+  "profession": [
+    "scholar",
+    "philosopher"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "science-layer:scholar_0076",
+        "source_type": "manual_editorial",
+        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0076",
+        "extraction_method": "structured_json",
+        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+      },
+      {
+        "source_id": "alatli:E0190",
+        "source_type": "secondary_scholarly",
+        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_science_layer",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T14:56:37Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T14:56:37Z",
+    "modified": "2026-07-24T05:45:29Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T14:56:37Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0076 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:39:32Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-24T05:45:29Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "alatli augment (H25, Tier-2 conf 1.0): ['altLabel.tr', 'derived_from_layers']."
+      }
+    ],
+    "deprecated": false
+  },
+  "birth_temporal": {
+    "start_ce": 1028,
+    "approximation": "exact"
+  },
+  "death_temporal": {
+    "start_ce": 1085,
+    "approximation": "exact"
+  },
+  "authority_xref": [
+    {
+      "authority": "wikidata",
+      "id": "Q729591",
+      "confidence": 1.0,
+      "method": "openrefine_v3",
+      "reviewed": false,
+      "note": "Auto-matched via OpenRefine recon (top result for 'Juwayni')."
+    }
+  ],
+  "note": "Promoted from science_layer.json scholar id=scholar_0076, lecture_week=n/a. || Key works: {'title': {'en': 'Kitab al-Irshad', 'tr': \"Kitâbü'l-İrşâd\", 'ar': 'كتاب الإرشاد'}, 'year': 1070, 'field': 'religious_sciences', 'significance': {'en': \"Definitive Ash'ari theological manual\", 'tr': \"Eş'arî kelâmının en önemli el kitabı\"}}; {'title': {'en': 'al-Burhan fi Usul al-Fiqh', 'tr': \"el-Burhân fî Usûli'l-Fıkh\", 'ar': 'البرهان في أصول الفقه'}, 'year': 1075, 'field': 'religious_sciences', 'significance': {'en': 'Revolutionary work in Islamic legal theory incorporating logic', 'tr': 'Mantığ || Modern parallel: Like a university dean who trains the next generation's most transformative thinker.",
+  "birth_place": "iac:place-00003381",
+  "active_in_places": [
+    "iac:place-00011505",
+    "iac:place-00012030"
+  ],
+  "authored_works": [
+    "iac:work-00000106",
+    "iac:work-00000107"
+  ],
+  "derived_from_layers": [
+    "alatli"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "@id": "iac:person-00001052",
+  "@type": [
+    "iac:Narrator",
+    "iac:Person"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "AMR b. MEYMÛN",
+      "ar": "عمرو بن ميمون"
+    },
+    "originalScript": {
+      "ar": "عمرو بن ميمون"
+    },
+    "altLabel": {
+      "tr": [
+        "Ebû Abdillâh (Ebû Yahyâ) Amr b. Meymûn el-Evdî"
+      ]
+    },
+    "description": {
+      "tr": "Yemen’deki Mezhic kabilesinin Evd koluna mensuptur. Hz. Ebû Bekir devrinde Kûfe’ye gelip yerleştiği için el-Kûfî nisbesiyle de anılır. Câhiliye döneminde doğdu. Müslüman olmakla birlikte Hz. Peygamber’i göremedi, bu sebeple muhadramûn dan sayıldı. İslâmiyet’i kabul edişi, Yemen Valisi Muâz b. Cebel’in tesiriyle oldu. Bundan dolayı ona karşı gönlünde derin bir muhabbet uyandı ve yanından hiç ayrılmadı. Muâz’ın vefatından sonra ashâb-ı kirâmın en fakihi olarak gördüğü Abdullah b. Mes‘ûd’un peşini bırakmadı ve kıraat ilmini ondan arz usulüyle tahsil etti. Kendilerinden hadis rivayet ettiği diğer sahâbîler Hz. Ömer, Ali, Sa‘d b. Ebû Vakkās, Ebû Hüreyre, Âişe ve Ebû Eyyûb el-Ensârî’dir. Amr’dan da Şa‘bî, Saîd b. Cübeyr, Amr b. Mürre, Ebû İshak es-Sebîî gibi tanınmış muhaddisler rivayette bulundular. Ebû İshak ondan ayrıca kıraat de öğrendi. Bütün münekkitler Amr’ın güvenilir bir muhaddis olduğunu kabul etmişlerdir. Rivayetleri çok olmamakla beraber Kütüb-i Sitte ’de yer almıştır. Hz. Ömer’in çeşitli uygulamalarını rivayet etmiş, Ebû Lü’lüe tarafından şehid edilişini bizzat görmüş, onun suikasttan sonraki halini ve Hz. Osman’ın halife seçilişini bütün teferruatıyla anlatmıştır (bk. Buhârî, “Feżâʾilü aṣḥâbi’n-nebî”, 8). Talebesi Ebû İshak’ın söylediğine göre Amr b. Meymûn, çevresindeki müslümanların, hatta ashâb-ı kirâmın takdirini kazanmıştır. Yaşadığı uzun yıllar boyunca hac ve umre münasebetiyle birçok defa (rivayete göre 60 veya 100 defa) Kâbe’yi ziyaret etmiştir. Çok yaşlanmasına rağmen ölümü hiç temenni etmemiş, ancak Emevî valilerinden Yezîd b. Ebû Müslim’in rahatsız edici muamelelerine mâruz kalınca, Allah’tan kendisini kötülerle bir arada bulundurmamasını dilemiştir. Ölüm tarihi kesin olarak bilinmemekte, 74 (693) veya 75 (694) yılında vefat ettiği rivayet edilmektedir. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 89 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "narrator"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:amr-b-meymun",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=amr-b-meymun, https://islamansiklopedisi.org.tr/amr-b-meymun",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:33:35Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:33:35Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:33:35Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=amr-b-meymun (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ah": 74,
+    "start_ce": 693,
+    "approximation": "exact"
+  },
+  "note": "DİA cross-reference: slug=amr-b-meymun, URL: https://islamansiklopedisi.org.tr/amr-b-meymun || DİA death place: Allah || DİA death-date string: (ö. 74/693 [?]) || DİA categories: rivayet > hadis || Chunk count: 1",
+  "teachers": [
+    "iac:person-00000874",
+    "iac:person-00000990",
+    "iac:person-00002162",
+    "iac:person-00002188",
+    "iac:person-00006207",
+    "iac:person-00006525"
+  ],
+  "students": [
+    "iac:person-00001053",
+    "iac:person-00002195",
+    "iac:person-00004398",
+    "iac:person-00006375",
+    "iac:person-00006607"
+  ]
+}

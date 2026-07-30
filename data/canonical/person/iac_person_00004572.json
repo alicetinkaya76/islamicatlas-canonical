@@ -1,0 +1,77 @@
+{
+  "@id": "iac:person-00004572",
+  "@type": [
+    "iac:Person",
+    "iac:Scholar"
+  ],
+  "labels": {
+    "prefLabel": {
+      "tr": "İsmâil Necâti Efendi"
+    },
+    "description": {
+      "tr": "Safranbolu’nun Oğulveren köyünde doğdu. Mehmed Efendi’nin oğludur. Tahsilini Safranbolu’da müftü Mehmed Hilmi Efendi’nin yanında tamamladıktan sonra ailesiyle birlikte İstanbul’a yerleşti. Ahıskalı İbrâhim Efendi başta olmak üzere çeşitli hocaların derslerine devam ederek 1868’de icâzet aldı. 1876’da açılan ruûs imtihanını kazanarak dersiâm oldu ve Beyazıt Camii’nde ders vermeye başladı. 1879’da ibtidâ-i hâric müderrisliğine tayin edildi. Aynı yıl mûsıle-i Sahn müderrisliğine terfi etti. 1892’den itibaren icâzet vermeye başladı. Kendisine 1897’de dördüncü rütbeden Mecîdî ve Osmanlı nişanları verildi. 1909’da Dârü’l-hilâfeti’l-aliyye kısm-ı âlî hadis dersi müderrisliğine getirildi. 1896-1908 yılları arasında muhatap, 1909-1910 yıllarında mukarrir olarak huzur derslerine katıldı. Nakşibendî-Hâlidî şeyhlerinden Ahmed Ziyâeddin Gümüşhânevî’ye intisap eden ve seyrüsülûkünü tamamlayıp icâzet alan İsmâil Necâti Efendi, Hasan Hilmi Efendi’nin vefatından sonra Gümüşhânevî Dergâhı’nda irşada başladı (1911). Bu dergâhta ayrıca Ahmed Ziyâeddin Gümüşhânevî’nin Râmûzü’l-eḥâdîs̱ adlı kitabını okuttu, talebe yetiştirdi, icâzet verdi. İstanbul’da vefat eden İsmâil Necâti Efendi, Süleymaniye Camii ön hazîresinde kapalı bir türbeye defnedildi. Vefatına Mustafa Feyzi Efendi, “Feyziyâ üçler huzûrunda oku üç Fâtiha / Burdadır rûh-ı Ziyâ, Hilmî, Necâti berîn” beytini tarih düşürmüştür. Demokrat Parti döneminde Kanûnî Sultan Süleyman’ın türbesi tanzim edilirken hazîrede bulunan kapalı türbeler yıkılınca mezarı açık bir kabir haline gelmiştir. Mezar taşı kitâbesinde yukarıdaki beyit yazılıdır. Cumhuriyet döneminin ilk İstanbul müftüsü Mehmed Fehmi (Ülgener) İsmâil Necâti Efendi’nin oğlu, iktisatçı ve sosyolog Sabri Fehmi Ülgener de torunudur. Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 23. cildinde, 115 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+    }
+  },
+  "profession": [
+    "scholar"
+  ],
+  "provenance": {
+    "derived_from": [
+      {
+        "source_id": "dia:ismail-necati-efendi",
+        "source_type": "tertiary_reference",
+        "page_or_locator": "DİA, slug=ismail-necati-efendi, https://islamansiklopedisi.org.tr/ismail-necati-efendi",
+        "extraction_method": "structured_json",
+        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+      }
+    ],
+    "generated_by": {
+      "pipeline_name": "canonicalize_person_dia",
+      "pipeline_version": "v0.1.0"
+    },
+    "generated_at": "2026-05-04T15:34:30Z",
+    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+    "created": "2026-05-04T15:34:30Z",
+    "modified": "2026-07-14T16:47:21Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "record_history": [
+      {
+        "change_type": "create",
+        "changed_at": "2026-05-04T15:34:30Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Initial canonicalization from DİA slug=ismail-necati-efendi (1 chunks) by dia adapter (Hafta 4)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-05-04T15:40:07Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "Hafta 4 DİA place resolution: birth_place / death_place string matched to place namespace."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-14T16:47:21Z",
+        "changed_by": "https://orcid.org/0000-0002-7747-6854",
+        "release": "v0.1.0-phase0",
+        "note": "dia-relations edges (H11 S11 rev): teachers/students from dia_relations.json ts=[talebe,hoca] (yön popülasyon kanıtıyla düzeltildi; çift-yönlüler uygulanmadı)."
+      },
+      {
+        "change_type": "update",
+        "changed_at": "2026-07-27T21:37:34Z",
+        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+      }
+    ],
+    "deprecated": false
+  },
+  "death_temporal": {
+    "start_ce": 1840,
+    "approximation": "circa"
+  },
+  "note": "DİA cross-reference: slug=ismail-necati-efendi, URL: https://islamansiklopedisi.org.tr/ismail-necati-efendi || DİA birth place: Oğulveren || DİA death place: İstanbul || DİA death-date string: (1840-1919) || DİA categories: hadis || Chunk count: 1",
+  "death_place": "iac:place-00000735",
+  "students": [
+    "iac:person-00007464"
+  ]
+}
