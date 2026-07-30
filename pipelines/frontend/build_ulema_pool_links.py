@@ -37,6 +37,7 @@ PERSON_DIR = REPO / "data" / "canonical" / "person"
 POOL = REPO / "web" / "public" / "books" / "ulema_pool.json"
 OUT = REPO / "web" / "public" / "view-data" / "ulema_pool_links.json"
 OUT_NOTES = REPO / "web" / "public" / "view-data" / "ulema_pool_notes.json"
+REDIR = REPO / "web" / "public" / "view-data" / "person_redirects.json"
 
 NOT_MAX = 240        # panelde okunur uzunluk; tam metin mağazada kalır
 
@@ -97,9 +98,22 @@ def main() -> None:
         return
     havuz_ids = {r["id"] for r in json.loads(POOL.read_text(encoding="utf-8"))["kisiler"]}
 
+    # H49 YAN ETKİSİ: birleştirmeden sonra isnâd uçlarının bir kısmı
+    # yumuşak-silinmiş pid'e işaret ediyor ve panelde "(havuz dışı)" görünüyordu
+    # (ölçüldü: 206 uç). Oysa o kişiler yönlendirmeyle bulunabilir. Uçlar
+    # kazanan pid'e çevrilir — kenar KAYBOLMAZ, doğru kayda bağlanır.
+    # (Zincir sırası önemli: build_person_clusters.py bu script'ten ÖNCE koşar.)
+    redir = {}
+    if REDIR.is_file():
+        raw = json.loads(REDIR.read_text(encoding="utf-8"))["redirects"]
+        redir = {f"iac:person-{int(k):08d}": f"iac:person-{int(v):08d}" for k, v in raw.items()}
+
+    def yonlendir(pid: str) -> str:
+        return redir.get(pid, pid)
+
     links: dict[str, dict] = {}
     notes: dict[str, str] = {}
-    sayac = {"hoca": 0, "talebe": 0, "yer": 0, "not": 0}
+    sayac = {"hoca": 0, "talebe": 0, "yer": 0, "not": 0, "yonlendirilen_uc": 0}
     for f in sorted(PERSON_DIR.glob("*.json")):
         try:
             r = json.loads(f.read_text(encoding="utf-8"))
@@ -112,7 +126,9 @@ def main() -> None:
         for src, dst, key in (("teachers", "h", "hoca"),
                               ("students", "o", "talebe"),
                               ("active_in_places", "y", "yer")):
-            v = [x for x in (r.get(src) or []) if x]
+            # Uçları yönlendir ve kendi kendine bağı (birleşme sonrası oluşabilir) düşür
+            v = [yonlendir(x) for x in (r.get(src) or []) if x]
+            v = [x for x in dict.fromkeys(v) if _num(x) != num]
             if v:
                 e[dst] = v
                 sayac[key] += len(v)
