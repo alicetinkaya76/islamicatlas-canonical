@@ -37,6 +37,7 @@ python3 pipelines/_index/build_lookup.py --quiet   # H31: indeks bayatlamasın (
 python3 pipelines/frontend/build_alatli_synchronic.py | sed 's/^/  /'   # H30: Alatlı senkronik atlas
 python3 pipelines/frontend/build_scholar_network.py | sed 's/^/  /'   # H34: canonical isnâd ağı
 python3 pipelines/frontend/build_ulema_pool.py | sed 's/^/  /' | tail -2   # H29: havuz bayatlamasın (yeni kişi mint'leri)
+python3 pipelines/frontend/build_darp_pids.py | sed 's/^/  /'   # H53: darphane → yer pid köprüsü
 python3 pipelines/frontend/build_person_clusters.py | sed 's/^/  /'   # H47: aynı-kişi kümeleri
 python3 pipelines/frontend/build_person_bridge.py | sed 's/^/  /'   # H45: kişi köprüsü (alam/dia/ei1)
 python3 pipelines/frontend/build_ulema_pool_links.py | sed 's/^/  /'   # H44: havuz ilişki+not yan dosyaları

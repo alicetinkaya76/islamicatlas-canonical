@@ -135,3 +135,37 @@ def test_flyto_boyutsuz_haritada_cagrilmiyor():
         if "flyTo(" not in s:
             continue
         assert "getSize()" in s, f"{rel}: flyTo öncesi konteyner boyutu kontrol edilmiyor"
+
+
+def test_darphane_pid_koprusu_uydurmuyor():
+    """H53: darphane→yer bağı YALNIZ curie eşleşmesinden gelmeli.
+
+    Ad benzerliğiyle eşleştirme YASAK: aynı adı taşıyan farklı darphaneler
+    olağandır ve yanlış eşleşme kullanıcıyı başka bir şehre götürür. Ayrıca
+    yumuşak-silinmiş yere bağ verilmez (ölçüldü: 3 kayıt böyleydi, atlandı) —
+    "pid yaşar" ile "UI onu bulur" aynı şey değildir (H49 dersi).
+    """
+    import json as _json
+    kopru = REPO / "web" / "public" / "view-data" / "darp_pids.json"
+    lite = REPO / "web" / "public" / "data" / "darpislam_lite.json"
+    if not (kopru.is_file() and lite.is_file()):
+        pytest.skip("darphane verisi yok")
+    pids = _json.loads(kopru.read_text(encoding="utf-8"))["pids"]
+    d = _json.loads(lite.read_text(encoding="utf-8"))
+    mints = d if isinstance(d, list) else (d.get("mints") or [])
+    lite_ids = {str(m.get("id")) for m in mints}
+    # Her anahtar gerçekten lite'ta olmalı; uydurma id olmamalı
+    hayalet = [k for k in pids if k not in lite_ids]
+    assert not hayalet, f"lite'ta olmayan darphane id'sine pid: {hayalet[:5]}"
+    # Hedefler yumuşak-silinmiş olmamalı
+    place = REPO / "data" / "canonical" / "place"
+    if place.is_dir():
+        olu = []
+        for k, pid in list(pids.items()):
+            num = int(str(pid).rsplit("-", 1)[-1])
+            p = place / f"iac_place_{num:08d}.json"
+            if not p.is_file():
+                olu.append(f"{k}→{pid} (dosya yok)")
+            elif (_json.loads(p.read_text(encoding="utf-8")).get("provenance") or {}).get("deprecated"):
+                olu.append(f"{k}→{pid} (deprecated)")
+        assert not olu, f"ölü yere bağlanan darphane: {olu[:5]}"

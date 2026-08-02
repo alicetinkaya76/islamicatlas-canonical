@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 
 const METAL_INFO = {
   AU: { tr: 'Altın/Dinar', en: 'Gold/Dinar', icon: '🥇', color: '#FFD700' },
@@ -11,6 +11,21 @@ const METAL_INFO = {
 
 export default function DarpIdCard({ mint, detail, loading, lang, onClose, isMobile }) {
   const [activeTab, setActiveTab] = useState('info');
+  /* H53: darphane katmanı merkezî deftere HİÇ bağlı değildi — darpislam_lite'ın
+     3.381 kaydında pid alanı yoktu (ölçüldü), oysa lookup'ta 2.338 darp-islam
+     curie'si zaten pid'e bağlıydı. Denetimin "2.481 aktif yer hiçbir görünümde
+     yok" bulgusunun en büyük parçası (2.226) buydu. Yan dosya v1'in lite
+     dosyasına dokunmadan köprüyü kurar; pid'i olmayan darphanede rozet ÇIKMAZ
+     (ad benzerliğiyle eşleştirme YAPILMADI — aynı adlı farklı darphaneler
+     olağandır ve yanlış eşleşme kullanıcıyı başka şehre götürür). */
+  const [darpPids, setDarpPids] = useState(null);
+  useEffect(() => {
+    fetch('/view-data/darp_pids.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => setDarpPids(d?.pids || {}))
+      .catch(() => setDarpPids({}));
+  }, []);
+  const placePid = darpPids?.[String(mint.id)] || null;
   const t = (tr, en) => lang === 'tr' ? tr : en;
 
   const name = lang === 'tr' ? mint.name_tr : mint.name_en;
@@ -64,6 +79,19 @@ export default function DarpIdCard({ mint, detail, loading, lang, onClose, isMob
             <span className="darp-idcard-emissions">🪙 {mint.emission_count} {t('darbiyat', 'emissions')}</span>
           )}
         </div>
+
+        {placePid && (
+          <div style={{ margin: '6px 0 2px' }}>
+            <a href={`#yaqut?pid=${encodeURIComponent(placePid)}`}
+              title={t('Bu darphanenin merkezî defterdeki yer kaydı',
+                       'This mint in the canonical place store')}
+              style={{ display: 'inline-block', padding: '3px 9px', borderRadius: 7,
+                border: '1px solid #c9a84c', color: '#c9a84c', textDecoration: 'none',
+                fontSize: 11.5 }}>
+              🌍 {t("Mu'cemü'l-Büldân'da", 'in Muʿjam al-Buldān')} →
+            </a>
+          </div>
+        )}
 
         {/* Quick stats row */}
         <div className="darp-idcard-quick">
