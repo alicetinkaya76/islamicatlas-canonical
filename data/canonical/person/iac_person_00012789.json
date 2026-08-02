@@ -1,166 +1,173 @@
 {
-  "@id": "iac:person-00012789",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "Ibn al-Jawzī",
-      "tr": "İbn Cevzî",
-      "ar": "ابن الجوزي"
-    },
-    "originalScript": {
-      "ar": "ابن الجوزي"
-    },
-    "description": {
-      "tr": "Zamanının tarih ve hadis alanında alim, çok sayıda eser telif etmiş",
-      "en": "Scholar of his age in history and hadith, prolific author",
-      "ar": "ابو الفرج ابن الجوزي من اكثر علماء المذهب الحنبلي انتاجا صنف مئات المصنفات في التاريخ والتفسير والحديث والوعظ والتراجم. كان من ابرز وعاظ بغداد يخطب في جموع تبلغ الالاف. كتابه المنتظم تاريخ شامل للعالم. كما ان الموضوعات في الاحاديث المصنوعة مرجع مهم في تمييز الاحاديث المكذوبة. كان في دائرة الخليفة العباسي المقربة لكنه نفي بسبب الخلافات السياسية."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "ʿAbd al-Raḥmān b. ʿAlī b. Muḥammad al-Jawzī al-Qurayshī al-Baghdādī Abū al-Faraj"
-    },
-    "altLabel": {
-      "tr": [
-        "Abdurrahman b. Alî b. Muhammed el-Cevzî el-Kureyşî el-Bağdâdî Ebû'l-Ferec"
-      ],
-      "ar": [
-        "عبد الرحمن بن علي بن محمد الجوزي القرشي البغدادي، أبو الفرج"
-      ]
-    }
+ "@id": "iac:person-00012789",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn al-Jawzī",
+   "tr": "İbn Cevzî",
+   "ar": "ابن الجوزي"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:5229",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5229",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      },
-      {
-        "source_id": "scholars:79",
-        "source_type": "digital_corpus",
-        "page_or_locator": "scholars.csv scholar_id=79",
-        "extraction_method": "structured_json",
-        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:13Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:13Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:13Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=5229 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-12T14:48:04Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "scholars augment (H10 Stage 3, Tier-2 conf 0.99): gap-filled ['description.ar', 'kunya', 'nisba', 'laqab']."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:5229."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "ابن الجوزي"
   },
-  "death_temporal": {
-    "start_ah": 597,
-    "start_ce": 1201,
-    "approximation": "exact"
+  "description": {
+   "tr": "Zamanının tarih ve hadis alanında alim, çok sayıda eser telif etmiş",
+   "en": "Scholar of his age in history and hadith, prolific author",
+   "ar": "ابو الفرج ابن الجوزي من اكثر علماء المذهب الحنبلي انتاجا صنف مئات المصنفات في التاريخ والتفسير والحديث والوعظ والتراجم. كان من ابرز وعاظ بغداد يخطب في جموع تبلغ الالاف. كتابه المنتظم تاريخ شامل للعالم. كما ان الموضوعات في الاحاديث المصنوعة مرجع مهم في تمييز الاحاديث المكذوبة. كان في دائرة الخليفة العباسي المقربة لكنه نفي بسبب الخلافات السياسية."
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5229, heading_ar=ابن الجوزي || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
-  "authored_works": [
-    "iac:work-00000323",
-    "iac:work-00000535",
-    "iac:work-00000580",
-    "iac:work-00000875",
-    "iac:work-00000964",
-    "iac:work-00001048",
-    "iac:work-00001168",
-    "iac:work-00001454",
-    "iac:work-00001493",
-    "iac:work-00001680",
-    "iac:work-00001777",
-    "iac:work-00001884",
-    "iac:work-00001915",
-    "iac:work-00002039",
-    "iac:work-00002058",
-    "iac:work-00002061",
-    "iac:work-00002067",
-    "iac:work-00002113",
-    "iac:work-00002445",
-    "iac:work-00002460",
-    "iac:work-00002753",
-    "iac:work-00002872",
-    "iac:work-00003128",
-    "iac:work-00003220",
-    "iac:work-00003316",
-    "iac:work-00003437",
-    "iac:work-00003685",
-    "iac:work-00003710",
-    "iac:work-00004251",
-    "iac:work-00004276",
-    "iac:work-00004574",
-    "iac:work-00004649",
-    "iac:work-00004840",
-    "iac:work-00004864",
-    "iac:work-00004918",
-    "iac:work-00005146",
-    "iac:work-00005239",
-    "iac:work-00005351",
-    "iac:work-00005633",
-    "iac:work-00005723",
-    "iac:work-00005765",
-    "iac:work-00005820",
-    "iac:work-00005895",
-    "iac:work-00006001",
-    "iac:work-00006100",
-    "iac:work-00006474",
-    "iac:work-00006517",
-    "iac:work-00006628",
-    "iac:work-00006912",
-    "iac:work-00006989",
-    "iac:work-00007048",
-    "iac:work-00007189",
-    "iac:work-00007206",
-    "iac:work-00007229",
-    "iac:work-00007456",
-    "iac:work-00007625",
-    "iac:work-00007634",
-    "iac:work-00007712",
-    "iac:work-00007838",
-    "iac:work-00007989",
-    "iac:work-00008356",
-    "iac:work-00008660",
-    "iac:work-00008792"
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAbd al-Raḥmān b. ʿAlī b. Muḥammad al-Jawzī al-Qurayshī al-Baghdādī Abū al-Faraj"
+  },
+  "altLabel": {
+   "tr": [
+    "Abdurrahman b. Alî b. Muhammed el-Cevzî el-Kureyşî el-Bağdâdî Ebû'l-Ferec"
+   ],
+   "ar": [
+    "عبد الرحمن بن علي بن محمد الجوزي القرشي البغدادي، أبو الفرج"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:5229",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5229",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "scholars:79",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=79",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
   ],
-  "kunya": "Ebü'l-Ferec",
-  "nisba": [
-    "İbnü'l-Cevzî",
-    "Bağdâdî"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:13Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:13Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:13Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=5229 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 0.99): gap-filled ['description.ar', 'kunya', 'nisba', 'laqab']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:5229."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (4158-12789) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00004158 lehine yumuşak-silindi. Gerekçe: Ebü'l-Ferec İbnü'l-Cevzî (ö. 597/1201) Bağdatlıdır; ad, yıl ve Bağdat koordinatı birebir uyuyor, torunu Sıbt İbnü'l-Cevzî (ö. 1256) yılla ayrışıyor."
+   }
   ],
-  "laqab": [
-    "Cemâlüddîn"
-  ]
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00004158"
+ },
+ "death_temporal": {
+  "start_ah": 597,
+  "start_ce": 1201,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5229, heading_ar=ابن الجوزي || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
+ "authored_works": [
+  "iac:work-00000323",
+  "iac:work-00000535",
+  "iac:work-00000580",
+  "iac:work-00000875",
+  "iac:work-00000964",
+  "iac:work-00001048",
+  "iac:work-00001168",
+  "iac:work-00001454",
+  "iac:work-00001493",
+  "iac:work-00001680",
+  "iac:work-00001777",
+  "iac:work-00001884",
+  "iac:work-00001915",
+  "iac:work-00002039",
+  "iac:work-00002058",
+  "iac:work-00002061",
+  "iac:work-00002067",
+  "iac:work-00002113",
+  "iac:work-00002445",
+  "iac:work-00002460",
+  "iac:work-00002753",
+  "iac:work-00002872",
+  "iac:work-00003128",
+  "iac:work-00003220",
+  "iac:work-00003316",
+  "iac:work-00003437",
+  "iac:work-00003685",
+  "iac:work-00003710",
+  "iac:work-00004251",
+  "iac:work-00004276",
+  "iac:work-00004574",
+  "iac:work-00004649",
+  "iac:work-00004840",
+  "iac:work-00004864",
+  "iac:work-00004918",
+  "iac:work-00005146",
+  "iac:work-00005239",
+  "iac:work-00005351",
+  "iac:work-00005633",
+  "iac:work-00005723",
+  "iac:work-00005765",
+  "iac:work-00005820",
+  "iac:work-00005895",
+  "iac:work-00006001",
+  "iac:work-00006100",
+  "iac:work-00006474",
+  "iac:work-00006517",
+  "iac:work-00006628",
+  "iac:work-00006912",
+  "iac:work-00006989",
+  "iac:work-00007048",
+  "iac:work-00007189",
+  "iac:work-00007206",
+  "iac:work-00007229",
+  "iac:work-00007456",
+  "iac:work-00007625",
+  "iac:work-00007634",
+  "iac:work-00007712",
+  "iac:work-00007838",
+  "iac:work-00007989",
+  "iac:work-00008356",
+  "iac:work-00008660",
+  "iac:work-00008792"
+ ],
+ "kunya": "Ebü'l-Ferec",
+ "nisba": [
+  "İbnü'l-Cevzî",
+  "Bağdâdî"
+ ],
+ "laqab": [
+  "Cemâlüddîn"
+ ]
 }

@@ -1,81 +1,88 @@
 {
-  "@id": "iac:person-00016658",
-  "@type": [
-    "iac:Person"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "Ibn Jābir al-Battānī",
-      "tr": "İbn Câbir el-Battânî",
-      "ar": "ابن جابر البتاني"
-    },
-    "originalScript": {
-      "ar": "ابن جابر البتاني"
-    },
-    "description": {
-      "tr": "Astronom ve mühendis; Franklılar tarafından \"Albategni\" veya \"Albateniüs\" olarak adlandırılır. 244 h",
-      "en": "Astronomer and engineer; called by the Franks 'Albategni' or 'Albateniüs'. Born before 244 A.H. (858"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Muhammad b. Jābir b. Sinān al-Harrānī al-Raqqī al-Ṣābiʾ, Abū ʿAbdallāh al-Battānī"
-    },
-    "altLabel": {
-      "tr": [
-        "Muhammed b. Câbir b. Sinân el-Harrânî er-Rakkî es-Sabî, Ebû Abdullâh el-Battânî"
-      ],
-      "ar": [
-        "محمد بن جابر بن سنان الحراني الرقي الصابئ، أبو عبد الله المعروف بالبتاني"
-      ]
-    }
+ "@id": "iac:person-00016658",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn Jābir al-Battānī",
+   "tr": "İbn Câbir el-Battânî",
+   "ar": "ابن جابر البتاني"
   },
-  "profession": [
-    "astronomer"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:9530",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9530",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:54Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:54Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:54Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=9530 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:9530."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "ابن جابر البتاني"
   },
-  "death_temporal": {
-    "start_ah": 317,
-    "start_ce": 929,
-    "approximation": "exact"
+  "description": {
+   "tr": "Astronom ve mühendis; Franklılar tarafından \"Albategni\" veya \"Albateniüs\" olarak adlandırılır. 244 h",
+   "en": "Astronomer and engineer; called by the Franks 'Albategni' or 'Albateniüs'. Born before 244 A.H. (858"
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9530, heading_ar=ابن جابر البتاني || Ziriklī century_ce=10",
-  "authored_works": [
-    "iac:work-00003054"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muhammad b. Jābir b. Sinān al-Harrānī al-Raqqī al-Ṣābiʾ, Abū ʿAbdallāh al-Battānī"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. Câbir b. Sinân el-Harrânî er-Rakkî es-Sabî, Ebû Abdullâh el-Battânî"
+   ],
+   "ar": [
+    "محمد بن جابر بن سنان الحراني الرقي الصابئ، أبو عبد الله المعروف بالبتاني"
+   ]
+  }
+ },
+ "profession": [
+  "astronomer"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:9530",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9530",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "kunya": "Ebû Abdullâh"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:54Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:54Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:54Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=9530 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:9530."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (201-1501-16658) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000201 lehine yumuşak-silindi. Gerekçe: 929'da ölen astronom Muhammed b. Câbir el-Battânî'dir; 'İbn Câbir' nesebi ile Battân doğum yeri aynı şahsın bilinen künyesini tamamlar."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000201"
+ },
+ "death_temporal": {
+  "start_ah": 317,
+  "start_ce": 929,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9530, heading_ar=ابن جابر البتاني || Ziriklī century_ce=10",
+ "authored_works": [
+  "iac:work-00003054"
+ ],
+ "kunya": "Ebû Abdullâh"
 }

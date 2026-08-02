@@ -1,103 +1,110 @@
 {
-  "@id": "iac:person-00014043",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00014043",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Warsh",
+   "tr": "Varş",
+   "ar": "ورش"
+  },
+  "originalScript": {
+   "ar": "ورش"
+  },
+  "description": {
+   "tr": "Büyük kurrâdan",
+   "en": "Among the great readers"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿUthmān b. Saʿīd b. ʿAdī al-Miṣrī"
+  },
+  "altLabel": {
+   "tr": [
+    "Osmân b. Saîd b. Adî el-Mısrî"
+   ],
+   "ar": [
+    "عثمان بن سعيد بن عدي المصري"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:6645",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6645",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:vers",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/vers",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "Warsh",
-      "tr": "Varş",
-      "ar": "ورش"
-    },
-    "originalScript": {
-      "ar": "ورش"
-    },
-    "description": {
-      "tr": "Büyük kurrâdan",
-      "en": "Among the great readers"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "ʿUthmān b. Saʿīd b. ʿAdī al-Miṣrī"
-    },
-    "altLabel": {
-      "tr": [
-        "Osmân b. Saîd b. Adî el-Mısrî"
-      ],
-      "ar": [
-        "عثمان بن سعيد بن عدي المصري"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:36:26Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:26Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:26Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=6645 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:18Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:6645."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (7604-14043) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00007604 lehine yumuşak-silindi. Gerekçe: Kıraat imamı Verş (ö. 197/812, Mısır) her iki kayıtta ورش adı, aynı yıl ve Kahire/Mısır koordinatıyla aynıdır."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:6645",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6645",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      },
-      {
-        "source_id": "dia-chunks:vers",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "https://islamansiklopedisi.org.tr/vers",
-        "extraction_method": "structured_json",
-        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:26Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:26Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:26Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=6645 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:38:18Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-10T16:23:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:6645."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 197,
-    "start_ce": 812,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6645, heading_ar=ورش || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
-  "active_in_places": [
-    "iac:place-00009399",
-    "iac:place-00011312"
-  ]
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00007604"
+ },
+ "death_temporal": {
+  "start_ah": 197,
+  "start_ce": 812,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6645, heading_ar=ورش || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+ "active_in_places": [
+  "iac:place-00009399",
+  "iac:place-00011312"
+ ]
 }

@@ -1,81 +1,88 @@
 {
-  "@id": "iac:person-00008776",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00008776",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Nuwayrī",
+   "tr": "Nüveyrî",
+   "ar": "النويري"
+  },
+  "originalScript": {
+   "ar": "النويري"
+  },
+  "description": {
+   "tr": "Geniş bilgiye sahip araştırmacı âlim",
+   "en": "Erudite scholar of vast erudition"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Ahmad b. ʿAbd al-Wahhāb b. Muḥammad b. ʿAbd al-Dāʾim al-Qurayshī al-Taymī al-Bakrī Shahāb al-Dīn al-Nuwayrī"
+  },
+  "altLabel": {
+   "tr": [
+    "Ahmed b. Abdülvehhâb b. Muhammed b. Abdüldâim Kuraşî Teymî Bekreyy Şehabüddîn Nüveyrî"
+   ],
+   "ar": [
+    "أحمد بن عبد الوهاب بن محمد بن عبد الدائم القرشي التيمي البكري، شهابالدين النويري"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:770",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=770",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Nuwayrī",
-      "tr": "Nüveyrî",
-      "ar": "النويري"
-    },
-    "originalScript": {
-      "ar": "النويري"
-    },
-    "description": {
-      "tr": "Geniş bilgiye sahip araştırmacı âlim",
-      "en": "Erudite scholar of vast erudition"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Ahmad b. ʿAbd al-Wahhāb b. Muḥammad b. ʿAbd al-Dāʾim al-Qurayshī al-Taymī al-Bakrī Shahāb al-Dīn al-Nuwayrī"
-    },
-    "altLabel": {
-      "tr": [
-        "Ahmed b. Abdülvehhâb b. Muhammed b. Abdüldâim Kuraşî Teymî Bekreyy Şehabüddîn Nüveyrî"
-      ],
-      "ar": [
-        "أحمد بن عبد الوهاب بن محمد بن عبد الدائم القرشي التيمي البكري، شهابالدين النويري"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:35:36Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:36Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:36Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=770 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:770."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (289-6174-8776) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000289 lehine yumuşak-silindi. Gerekçe: Üç kayıt da Nüveyrî nisbesi ve 1333 ölüm yılında birleşiyor; 'Ahmed b. Abdülvehhâb' nesebi Nihâyetü'l-Ereb müellifini kesinleştiriyor (bir kayıttaki 'ruler' etiketi bu veri setinde yaygın rol gürültüsüdür)."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:770",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=770",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:36Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:36Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:36Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=770 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:770."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 733,
-    "start_ce": 1333,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=770, heading_ar=النويري || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
-  "authored_works": [
-    "iac:work-00000250"
-  ]
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000289"
+ },
+ "death_temporal": {
+  "start_ah": 733,
+  "start_ce": 1333,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=770, heading_ar=النويري || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+ "authored_works": [
+  "iac:work-00000250"
+ ]
 }

@@ -1,101 +1,108 @@
 {
-  "@id": "iac:person-00008415",
-  "@type": [
-    "iac:Person"
+ "@id": "iac:person-00008415",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-ʿAsqalānī",
+   "tr": "Askalânî",
+   "ar": "العسقلاني"
+  },
+  "originalScript": {
+   "ar": "العسقلاني"
+  },
+  "description": {
+   "tr": "Fıkıh âlimi, tarihçi. Mısır'da Hanbelîler'in riyâseti kendisine intikal etmiştir.",
+   "en": "Jurist and historian. The leadership of the Ḥanbalīs in Egypt came to him."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Aḥmad b. Ibrāhīm b. Naṣr Allāh, Abū al-Barakāt, ʿIzz al-Dīn al-Kanānī al-ʿAsqalānī al-Aṣl"
+  },
+  "altLabel": {
+   "tr": [
+    "Ahmet b. İbrâhim b. Nasrullah, Ebü'l-Berekât, İzzüddin el-Kenânî el-Askalânî el-Aslî"
+   ],
+   "ar": [
+    "أحمد بن إبراهيم بن نصر الله، أبو البركات، عز الدين الكناني العسقلانيالأصل، المصري الحنبلي"
+   ]
+  }
+ },
+ "profession": [
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:355",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=355",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:askalani-izzeddin",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/askalani-izzeddin",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-ʿAsqalānī",
-      "tr": "Askalânî",
-      "ar": "العسقلاني"
-    },
-    "originalScript": {
-      "ar": "العسقلاني"
-    },
-    "description": {
-      "tr": "Fıkıh âlimi, tarihçi. Mısır'da Hanbelîler'in riyâseti kendisine intikal etmiştir.",
-      "en": "Jurist and historian. The leadership of the Ḥanbalīs in Egypt came to him."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Aḥmad b. Ibrāhīm b. Naṣr Allāh, Abū al-Barakāt, ʿIzz al-Dīn al-Kanānī al-ʿAsqalānī al-Aṣl"
-    },
-    "altLabel": {
-      "tr": [
-        "Ahmet b. İbrâhim b. Nasrullah, Ebü'l-Berekât, İzzüddin el-Kenânî el-Askalânî el-Aslî"
-      ],
-      "ar": [
-        "أحمد بن إبراهيم بن نصر الله، أبو البركات، عز الدين الكناني العسقلانيالأصل، المصري الحنبلي"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "historian"
+  "generated_at": "2026-05-04T15:35:33Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:33Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=355 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:13Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:355."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1151-8415) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001151 lehine yumuşak-silindi. Gerekçe: el-Askalânî nisbesi, tarihçi mesleği, Kahire konumu ve 1471 (876/h) ölüm yılı aynı; İbn Hacer'den (ö. 1449) yıl bakımından ayrışıyor."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:355",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=355",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      },
-      {
-        "source_id": "dia-chunks:askalani-izzeddin",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "https://islamansiklopedisi.org.tr/askalani-izzeddin",
-        "extraction_method": "structured_json",
-        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:33Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:33Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:33Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=355 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:38:13Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-10T16:23:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:355."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 876,
-    "start_ce": 1471,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=355, heading_ar=العسقلاني || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
-  "active_in_places": [
-    "iac:place-00008407"
-  ]
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001151"
+ },
+ "death_temporal": {
+  "start_ah": 876,
+  "start_ce": 1471,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=355, heading_ar=العسقلاني || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+ "active_in_places": [
+  "iac:place-00008407"
+ ]
 }

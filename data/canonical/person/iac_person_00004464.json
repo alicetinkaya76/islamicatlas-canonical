@@ -1,79 +1,86 @@
 {
-  "@id": "iac:person-00004464",
-  "@type": [
-    "iac:Person"
-  ],
-  "labels": {
-    "prefLabel": {
-      "tr": "İMÂDÜDDİN el-HAMZÎ",
-      "ar": "عماد الدين الحمزي"
-    },
-    "originalScript": {
-      "ar": "عماد الدين الحمزي"
-    },
-    "altLabel": {
-      "tr": [
-        "Ebû Mûsâ İmâdüddîn İdrîs b. Alî b. Abdillâh el-Hasenî el-Hamzî"
-      ]
-    },
-    "description": {
-      "tr": "San‘a’da doğdu. Hz. Hasan soyuna mensuptur. Devrinde temayüz ederek Resûlî Hükümdarı el-Melikü’l-Müeyyed Dâvûd’un takdir ve himayesine mazhar oldu ve tablhâne emîrleri arasına girdi. Bir süre sonra Mekke yakınlarında küçük bir kasaba olan Kahme’ye emîr tayin edildi (699/1300). Aynı yıl hac emirliği yapan İmâdüddin Yemen’in ileri gelen devlet adamları arasında yer aldı. Güzel ahlâkı, değişik ilimlerde geniş bilgisiyle tanınan İmâdüddin Zeydiyye mezhebine mensuptu. Bu özelliklerinden dolayı Zeydî imamlığına aday gösterilmiştir. İmâdüddin, İzzeddin İbnü’l-Esîr’in eseri el-Kâmil ’in bir özeti mahiyetindeki Kenzü’l-aḫbâr (aḫyâr) fî maʿrifeti’s-siyer ve’l-aḫbâr adlı dört ciltlik kitabı ile ün yaptı. Eserin sonuna 713 (1313) yılına kadar Mısır, Suriye ve Irak’ta, 714 (1314) yılına kadar da Yemen’de cereyan eden olayları eklemiştir. Kitabın ilk cildi Hz. Peygamber’in sîreti ve Hulefâ-yi Râşidîn, II. cildi Emevîler, III. cildi Abbâsîler dönemiyle Suriye’de hüküm süren devletler, Fâtımîler, Karmatîler ve Haçlılar’la yapılan savaşlara ayrılmıştır. Bu cildin sonunda Yemen’le ilgili bilgiler vermeye başlayan İmâdüddin son ciltte sadece Yemen’e dair konuları ele almış, ayrıca Zeydî imamlarının ve ileri gelenlerinin biyografilerine geniş yer vermiştir. Bu sebeple Kenzü’l-aḫbâr Zeydiyye mezhebi ve Yemen tarihi için önemli bir kaynaktır (yazma nüshaları için bk. Eymen Fuâd Seyyid, s. 139). Eseri Abbas er-Resûlî Nüzhetü’l-ebṣâr fi’ḫtiṣâri Kenzi’l-aḫbâr adıyla özetlemiştir ( a.g.e. , a.y). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 174 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
-    }
+ "@id": "iac:person-00004464",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "İMÂDÜDDİN el-HAMZÎ",
+   "ar": "عماد الدين الحمزي"
   },
-  "profession": [
-    "historian"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "dia:imaduddin-el-hamzi",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "DİA, slug=imaduddin-el-hamzi, https://islamansiklopedisi.org.tr/imaduddin-el-hamzi",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
-      },
-      {
-        "source_id": "dia-chunks:imaduddin-el-hamzi",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "https://islamansiklopedisi.org.tr/imaduddin-el-hamzi",
-        "extraction_method": "structured_json",
-        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_dia",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:34:29Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:34:29Z",
-    "modified": "2026-07-10T16:23:25Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:34:29Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from DİA slug=imaduddin-el-hamzi (1 chunks) by dia adapter (Hafta 4)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-10T16:23:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "عماد الدين الحمزي"
   },
-  "nisba": [
-    "Hasenî; Hamzî"
-  ],
-  "death_temporal": {
-    "start_ah": 714,
-    "start_ce": 1314,
-    "approximation": "exact"
+  "altLabel": {
+   "tr": [
+    "Ebû Mûsâ İmâdüddîn İdrîs b. Alî b. Abdillâh el-Hasenî el-Hamzî"
+   ]
   },
-  "note": "DİA cross-reference: slug=imaduddin-el-hamzi, URL: https://islamansiklopedisi.org.tr/imaduddin-el-hamzi || DİA birth place: San'a || DİA death-date string: (ö. 714/1314) || DİA categories: mezhep || Chunk count: 1"
+  "description": {
+   "tr": "San‘a’da doğdu. Hz. Hasan soyuna mensuptur. Devrinde temayüz ederek Resûlî Hükümdarı el-Melikü’l-Müeyyed Dâvûd’un takdir ve himayesine mazhar oldu ve tablhâne emîrleri arasına girdi. Bir süre sonra Mekke yakınlarında küçük bir kasaba olan Kahme’ye emîr tayin edildi (699/1300). Aynı yıl hac emirliği yapan İmâdüddin Yemen’in ileri gelen devlet adamları arasında yer aldı. Güzel ahlâkı, değişik ilimlerde geniş bilgisiyle tanınan İmâdüddin Zeydiyye mezhebine mensuptu. Bu özelliklerinden dolayı Zeydî imamlığına aday gösterilmiştir. İmâdüddin, İzzeddin İbnü’l-Esîr’in eseri el-Kâmil ’in bir özeti mahiyetindeki Kenzü’l-aḫbâr (aḫyâr) fî maʿrifeti’s-siyer ve’l-aḫbâr adlı dört ciltlik kitabı ile ün yaptı. Eserin sonuna 713 (1313) yılına kadar Mısır, Suriye ve Irak’ta, 714 (1314) yılına kadar da Yemen’de cereyan eden olayları eklemiştir. Kitabın ilk cildi Hz. Peygamber’in sîreti ve Hulefâ-yi Râşidîn, II. cildi Emevîler, III. cildi Abbâsîler dönemiyle Suriye’de hüküm süren devletler, Fâtımîler, Karmatîler ve Haçlılar’la yapılan savaşlara ayrılmıştır. Bu cildin sonunda Yemen’le ilgili bilgiler vermeye başlayan İmâdüddin son ciltte sadece Yemen’e dair konuları ele almış, ayrıca Zeydî imamlarının ve ileri gelenlerinin biyografilerine geniş yer vermiştir. Bu sebeple Kenzü’l-aḫbâr Zeydiyye mezhebi ve Yemen tarihi için önemli bir kaynaktır (yazma nüshaları için bk. Eymen Fuâd Seyyid, s. 139). Eseri Abbas er-Resûlî Nüzhetü’l-ebṣâr fi’ḫtiṣâri Kenzi’l-aḫbâr adıyla özetlemiştir ( a.g.e. , a.y). Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 174 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+  }
+ },
+ "profession": [
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "dia:imaduddin-el-hamzi",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA, slug=imaduddin-el-hamzi, https://islamansiklopedisi.org.tr/imaduddin-el-hamzi",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+   },
+   {
+    "source_id": "dia-chunks:imaduddin-el-hamzi",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/imaduddin-el-hamzi",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_dia",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:34:29Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:34:29Z",
+  "modified": "2026-07-10T16:23:25Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:34:29Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from DİA slug=imaduddin-el-hamzi (1 chunks) by dia adapter (Hafta 4)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (4464-9332) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00009332 lehine yumuşak-silindi. Gerekçe: Her iki kayıtta da 1314 ölüm yılı ve San'a (15.37/44.19) merkezi ortak; İmâdüddin lakabı tek başına genel olsa da Yemen-Zeydî bağlamı ve yıl birlikte el-Hamzî'yi teşhis ediyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00009332"
+ },
+ "nisba": [
+  "Hasenî; Hamzî"
+ ],
+ "death_temporal": {
+  "start_ah": 714,
+  "start_ce": 1314,
+  "approximation": "exact"
+ },
+ "note": "DİA cross-reference: slug=imaduddin-el-hamzi, URL: https://islamansiklopedisi.org.tr/imaduddin-el-hamzi || DİA birth place: San'a || DİA death-date string: (ö. 714/1314) || DİA categories: mezhep || Chunk count: 1"
 }

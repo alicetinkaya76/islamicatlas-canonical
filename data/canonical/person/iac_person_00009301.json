@@ -1,93 +1,100 @@
 {
-  "@id": "iac:person-00009301",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Samīn",
-      "tr": "Semîn",
-      "ar": "السمين"
-    },
-    "originalScript": {
-      "ar": "السمين"
-    },
-    "description": {
-      "tr": "Müfessir, Arapça ve kıraat ilimlerinde âlim.",
-      "en": "Exegete, scholar of Arabic and Quranic readings."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Abū al-ʿAbbās Shihāb al-Dīn Ahmad b. Yūsuf b. ʿAbd al-Dāʾim al-Ḥalabī, known as al-Samīn"
-    },
-    "altLabel": {
-      "tr": [
-        "Ebû'l-Abbâs Şihâbuddîn Ahmed b. Yusuf b. Abdüddâim el-Halebî, Semîn olarak meşhur"
-      ],
-      "ar": [
-        "أحمد بن يوسف بن عبد الدايم الحلبي، أبو العباس، شهاب الدين المعروف ب السمين"
-      ]
-    }
+ "@id": "iac:person-00009301",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Samīn",
+   "tr": "Semîn",
+   "ar": "السمين"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:1368",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1368",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:41Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:41Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:41Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=1368 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:37:53Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1368."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "السمين"
   },
-  "death_temporal": {
-    "start_ah": 756,
-    "start_ce": 1355,
-    "approximation": "exact"
+  "description": {
+   "tr": "Müfessir, Arapça ve kıraat ilimlerinde âlim.",
+   "en": "Exegete, scholar of Arabic and Quranic readings."
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1368, heading_ar=السمين || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 36.2, 37.13",
-  "active_in_places": [
-    "iac:place-00003866"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Abū al-ʿAbbās Shihāb al-Dīn Ahmad b. Yūsuf b. ʿAbd al-Dāʾim al-Ḥalabī, known as al-Samīn"
+  },
+  "altLabel": {
+   "tr": [
+    "Ebû'l-Abbâs Şihâbuddîn Ahmed b. Yusuf b. Abdüddâim el-Halebî, Semîn olarak meşhur"
+   ],
+   "ar": [
+    "أحمد بن يوسف بن عبد الدايم الحلبي، أبو العباس، شهاب الدين المعروف ب السمين"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:1368",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1368",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "authored_works": [
-    "iac:work-00000411",
-    "iac:work-00000898"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:41Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:41Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:41Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=1368 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:53Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1368."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (6845-9301) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00006845 lehine yumuşak-silindi. Gerekçe: es-Semîn el-Halebî (ö. 756/1355) ile السمين kaydı aynı yıl ve Halep koordinatında (36.2, 37.13) birleşiyor; lakap kısaltmasından ibaret bir fark var."
+   }
   ],
-  "kunya": "أبو العباس"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00006845"
+ },
+ "death_temporal": {
+  "start_ah": 756,
+  "start_ce": 1355,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1368, heading_ar=السمين || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 36.2, 37.13",
+ "active_in_places": [
+  "iac:place-00003866"
+ ],
+ "authored_works": [
+  "iac:work-00000411",
+  "iac:work-00000898"
+ ],
+ "kunya": "أبو العباس"
 }

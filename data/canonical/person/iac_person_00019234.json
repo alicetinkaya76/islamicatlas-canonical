@@ -1,89 +1,96 @@
 {
-  "@id": "iac:person-00019234",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Mundhir al-Umawī",
-      "tr": "el-Münzir el-Emevî",
-      "ar": "المنذر الأموي"
-    },
-    "originalScript": {
-      "ar": "المنذر الأموي"
-    },
-    "description": {
-      "tr": "Endülüs'teki Emevi Devleti'nin melikleri arasından",
-      "en": "From the kings of the Umayyad state in al-Andalus"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "al-Mundhir b. Muhammad b. ʿAbd al-Rahmān b. al-Hakam b. Hishām al-Umawī, Abū al-Hakam"
-    },
-    "altLabel": {
-      "tr": [
-        "el-Münzir b. Muhammed b. Abdurrahmân b. el-Hakem b. Hişâm el-Emevî, Ebû el-Hakem"
-      ],
-      "ar": [
-        "المنذر بن محمد بن عبد الرحمن بن الحكم بن هشام الأموي، أبو الحكم"
-      ]
-    }
+ "@id": "iac:person-00019234",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Mundhir al-Umawī",
+   "tr": "el-Münzir el-Emevî",
+   "ar": "المنذر الأموي"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:12383",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=12383",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:37:29Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:37:29Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:37:29Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=12383 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:38:22Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:12383."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "المنذر الأموي"
   },
-  "death_temporal": {
-    "start_ah": 275,
-    "start_ce": 888,
-    "approximation": "exact"
+  "description": {
+   "tr": "Endülüs'teki Emevi Devleti'nin melikleri arasından",
+   "en": "From the kings of the Umayyad state in al-Andalus"
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=12383, heading_ar=المنذر الأموي || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 37.89, -4.78",
-  "active_in_places": [
-    "iac:place-00009538"
+  "transliteration": {
+   "ar-Latn-x-alalc": "al-Mundhir b. Muhammad b. ʿAbd al-Rahmān b. al-Hakam b. Hishām al-Umawī, Abū al-Hakam"
+  },
+  "altLabel": {
+   "tr": [
+    "el-Münzir b. Muhammed b. Abdurrahmân b. el-Hakem b. Hişâm el-Emevî, Ebû el-Hakem"
+   ],
+   "ar": [
+    "المنذر بن محمد بن عبد الرحمن بن الحكم بن هشام الأموي، أبو الحكم"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:12383",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=12383",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "kunya": "أبو الحكم"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:37:29Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:37:29Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:37:29Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=12383 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:22Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:12383."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (89-19234) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000089 lehine yumuşak-silindi. Gerekçe: 888'de ölen Kurtuba Emevî emîri el-Münzir'dir; Ziriklī koordinatı (37.89, -4.78 = Kurtuba) ve 'el-Emevî' nisbesi Endülüs Emevîsi olduğunu teyit eder."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000089"
+ },
+ "death_temporal": {
+  "start_ah": 275,
+  "start_ce": 888,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=12383, heading_ar=المنذر الأموي || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 37.89, -4.78",
+ "active_in_places": [
+  "iac:place-00009538"
+ ],
+ "kunya": "أبو الحكم"
 }

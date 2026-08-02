@@ -1,104 +1,111 @@
 {
-  "@id": "iac:person-00014546",
-  "@type": [
-    "iac:Person",
-    "iac:Poet"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "ʿAlī al-Ḥasrī",
-      "tr": "Alî el-Hasrî",
-      "ar": "علي الحصري"
-    },
-    "originalScript": {
-      "ar": "علي الحصري"
-    },
-    "description": {
-      "tr": "Meşhur şair, \"Yâ leyle's-sabî metâ ġaduh\" matlâlı kasidesinin sahibi. Kördu, Kâyrevân halkındandır,",
-      "en": "A famous poet, author of the qasida beginning with \"Yā layla al-sabī matā ghadu\". He was blind, from"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "ʿAlī b. ʿAbd al-Ghānī al-Fihrī al-Ḥasrī, Abū al-Ḥasan"
-    },
-    "altLabel": {
-      "tr": [
-        "Alî b. Abdülġanî el-Feheyrî el-Hasrî, Ebû'l-Hasan"
-      ],
-      "ar": [
-        "علي بن عبد الغني الفهري الحصري، أبو الحسن"
-      ]
-    }
+ "@id": "iac:person-00014546",
+ "@type": [
+  "iac:Person",
+  "iac:Poet"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "ʿAlī al-Ḥasrī",
+   "tr": "Alî el-Hasrî",
+   "ar": "علي الحصري"
   },
-  "profession": [
-    "poet"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:7210",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7210",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      },
-      {
-        "source_id": "dia-chunks:husri-ali-b-abdulgani",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "https://islamansiklopedisi.org.tr/husri-ali-b-abdulgani",
-        "extraction_method": "structured_json",
-        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:32Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:32Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:32Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=7210 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:37:21Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-10T16:23:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7210."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "علي الحصري"
   },
-  "death_temporal": {
-    "start_ah": 488,
-    "start_ce": 1095,
-    "approximation": "exact"
+  "description": {
+   "tr": "Meşhur şair, \"Yâ leyle's-sabî metâ ġaduh\" matlâlı kasidesinin sahibi. Kördu, Kâyrevân halkındandır,",
+   "en": "A famous poet, author of the qasida beginning with \"Yā layla al-sabī matā ghadu\". He was blind, from"
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7210, heading_ar=علي الحصري || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 35.68, 10.1",
-  "active_in_places": [
-    "iac:place-00001053",
-    "iac:place-00010037"
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAlī b. ʿAbd al-Ghānī al-Fihrī al-Ḥasrī, Abū al-Ḥasan"
+  },
+  "altLabel": {
+   "tr": [
+    "Alî b. Abdülġanî el-Feheyrî el-Hasrî, Ebû'l-Hasan"
+   ],
+   "ar": [
+    "علي بن عبد الغني الفهري الحصري، أبو الحسن"
+   ]
+  }
+ },
+ "profession": [
+  "poet"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:7210",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7210",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:husri-ali-b-abdulgani",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/husri-ali-b-abdulgani",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
   ],
-  "kunya": "أبو الحسن"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:32Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:32Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:32Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=7210 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:21Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7210."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3587-14546) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003587 lehine yumuşak-silindi. Gerekçe: Kayrevanlı âmâ şair Ebü'l-Hasan Ali b. Abdülganî el-Husrî (ö. 488/1095) her iki kayıtta da şair olarak geçiyor ve Zirikli koordinatları (35.68, 10.1) Kayrevan bölgesini gösteriyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003587"
+ },
+ "death_temporal": {
+  "start_ah": 488,
+  "start_ce": 1095,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7210, heading_ar=علي الحصري || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 35.68, 10.1",
+ "active_in_places": [
+  "iac:place-00001053",
+  "iac:place-00010037"
+ ],
+ "kunya": "أبو الحسن"
 }

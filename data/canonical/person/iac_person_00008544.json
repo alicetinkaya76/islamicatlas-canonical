@@ -1,93 +1,100 @@
 {
-  "@id": "iac:person-00008544",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00008544",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn Qasī",
+   "tr": "İbn Kusi",
+   "ar": "ابن قسي"
+  },
+  "originalScript": {
+   "ar": "ابن قسي"
+  },
+  "description": {
+   "tr": "Muletavvil devletinin çökmesi sırasında Endülüs'te ilk isyancı.",
+   "en": "The first rebel in al-Andalus when the state of the Mulaththamūn collapsed."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Ahmad b. al-Husayn, Abū al-Qāsim Ibn Qasī"
+  },
+  "altLabel": {
+   "tr": [
+    "Ahmed b. el-Hüseyn, Ebû el-Kâsım İbn Kusî"
+   ],
+   "ar": [
+    "أحمد بن الحسين، أبو القاسم ابن قسي"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:504",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=504",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:ibn-kasi-ebul-kasim",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/ibn-kasi-ebul-kasim",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "Ibn Qasī",
-      "tr": "İbn Kusi",
-      "ar": "ابن قسي"
-    },
-    "originalScript": {
-      "ar": "ابن قسي"
-    },
-    "description": {
-      "tr": "Muletavvil devletinin çökmesi sırasında Endülüs'te ilk isyancı.",
-      "en": "The first rebel in al-Andalus when the state of the Mulaththamūn collapsed."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Ahmad b. al-Husayn, Abū al-Qāsim Ibn Qasī"
-    },
-    "altLabel": {
-      "tr": [
-        "Ahmed b. el-Hüseyn, Ebû el-Kâsım İbn Kusî"
-      ],
-      "ar": [
-        "أحمد بن الحسين، أبو القاسم ابن قسي"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:35:34Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:34Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:34Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=504 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:504."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3895-8544) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003895 lehine yumuşak-silindi. Gerekçe: Mertula'da isyan eden mutasavvıf Ebü'l-Kāsım İbn Kasî (ö. 546/1151) ile Endülüs koordinatlı Zirikli kaydı aynı kişidir."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:504",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=504",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      },
-      {
-        "source_id": "dia-chunks:ibn-kasi-ebul-kasim",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "https://islamansiklopedisi.org.tr/ibn-kasi-ebul-kasim",
-        "extraction_method": "structured_json",
-        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:34Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:34Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:34Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=504 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-10T16:23:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:504."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 546,
-    "start_ce": 1151,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=504, heading_ar=ابن قسي || Ziriklī century_ce=12 || Ziriklī place coords (city/region of activity): 37.38, -5.0",
-  "kunya": "أبو القاسم"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003895"
+ },
+ "death_temporal": {
+  "start_ah": 546,
+  "start_ce": 1151,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=504, heading_ar=ابن قسي || Ziriklī century_ce=12 || Ziriklī place coords (city/region of activity): 37.38, -5.0",
+ "kunya": "أبو القاسم"
 }

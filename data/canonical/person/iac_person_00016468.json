@@ -1,102 +1,109 @@
 {
-  "@id": "iac:person-00016468",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "Ibn Manda",
-      "tr": "İbn Mende",
-      "ar": "ابن منده"
-    },
-    "originalScript": {
-      "ar": "ابن منده"
-    },
-    "description": {
-      "tr": "Büyük hadis hafızlarından",
-      "en": "One of the great hadith scholars"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Muhammad b. Ishaq b. Muhammad b. Yahya Ibn Manda, Abu Abd Allah al-Abdi al-Isfahani"
-    },
-    "altLabel": {
-      "tr": [
-        "Muhammed b. İshak b. Muhammed b. Yahya İbn Mende, Ebû Abdillah el-Abdî el-Asbahanî"
-      ],
-      "ar": [
-        "محمد بن إسحاق بن محمد بن يحيى، ابن مندة، أبو عبد الله العبدي (نسبة إلىعبد ياليل) الأصبهاني"
-      ]
-    }
+ "@id": "iac:person-00016468",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn Manda",
+   "tr": "İbn Mende",
+   "ar": "ابن منده"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:9331",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9331",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:52Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:52Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:52Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=9331 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:37:18Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:9331."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "ابن منده"
   },
-  "death_temporal": {
-    "start_ah": 395,
-    "start_ce": 1005,
-    "approximation": "exact"
+  "description": {
+   "tr": "Büyük hadis hafızlarından",
+   "en": "One of the great hadith scholars"
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9331, heading_ar=ابن منده || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 32.65, 51.67",
-  "active_in_places": [
-    "iac:place-00000729"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muhammad b. Ishaq b. Muhammad b. Yahya Ibn Manda, Abu Abd Allah al-Abdi al-Isfahani"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. İshak b. Muhammed b. Yahya İbn Mende, Ebû Abdillah el-Abdî el-Asbahanî"
+   ],
+   "ar": [
+    "محمد بن إسحاق بن محمد بن يحيى، ابن مندة، أبو عبد الله العبدي (نسبة إلىعبد ياليل) الأصبهاني"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:9331",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9331",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "authored_works": [
-    "iac:work-00001891",
-    "iac:work-00002082",
-    "iac:work-00002733",
-    "iac:work-00004289",
-    "iac:work-00004942",
-    "iac:work-00007006",
-    "iac:work-00007608",
-    "iac:work-00007799",
-    "iac:work-00008183",
-    "iac:work-00008189",
-    "iac:work-00008668"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:52Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=9331 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:18Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:9331."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3936-16468) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003936 lehine yumuşak-silindi. Gerekçe: Ebû Abdullah İbn Mende'nin ölüm yılı (395/1005) ve İsfahan yeri Zirikli kaydının koordinatlarıyla (32.65/51.67) birebir uyuşuyor; aynı aileden Ebü'l-Kāsım (ö. 1078) ayrı kümede kaldığı için baba-oğul karışması yok."
+   }
   ],
-  "kunya": "أبو عبد الله"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003936"
+ },
+ "death_temporal": {
+  "start_ah": 395,
+  "start_ce": 1005,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9331, heading_ar=ابن منده || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 32.65, 51.67",
+ "active_in_places": [
+  "iac:place-00000729"
+ ],
+ "authored_works": [
+  "iac:work-00001891",
+  "iac:work-00002082",
+  "iac:work-00002733",
+  "iac:work-00004289",
+  "iac:work-00004942",
+  "iac:work-00007006",
+  "iac:work-00007608",
+  "iac:work-00007799",
+  "iac:work-00008183",
+  "iac:work-00008189",
+  "iac:work-00008668"
+ ],
+ "kunya": "أبو عبد الله"
 }

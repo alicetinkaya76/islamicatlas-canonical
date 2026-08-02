@@ -1,68 +1,75 @@
 {
-  "@id": "iac:person-00020786",
-  "@type": [
-    "iac:Person",
-    "iac:Ruler"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Sanūsī al-Kabīr"
-    },
-    "description": {
-      "tr": "Senûsiyye tarikatını kurdu; Cezayir doğumlu; Fas'ta eğitim; Hicaz'da tarikat kurdu"
-    }
+ "@id": "iac:person-00020786",
+ "@type": [
+  "iac:Person",
+  "iac:Ruler"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Sanūsī al-Kabīr"
   },
-  "profession": [
-    "ruler"
+  "description": {
+   "tr": "Senûsiyye tarikatını kurdu; Cezayir doğumlu; Fas'ta eğitim; Hicaz'da tarikat kurdu"
+  }
+ },
+ "profession": [
+  "ruler"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "bosworth-nid:24:ruler:0",
+    "source_type": "secondary_scholarly",
+    "page_or_locator": "Bosworth, New Islamic Dynasties, NID-024, ruler #1",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "bosworth-nid:24:ruler:0",
-        "source_type": "secondary_scholarly",
-        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-024, ruler #1",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:08:29Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:08:29Z",
-    "modified": "2026-05-04T15:08:29Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:08:29Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Promoted from inline rulers[0] of iac:dynasty-00000024 (The Sanūsī Chiefs and Rulers) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[0].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
-      }
-    ],
-    "deprecated": false
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+   "pipeline_version": "v0.1.0"
   },
-  "affiliated_dynasties": [
-    "iac:dynasty-00000024"
+  "generated_at": "2026-05-04T15:08:29Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:08:29Z",
+  "modified": "2026-05-04T15:08:29Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:08:29Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Promoted from inline rulers[0] of iac:dynasty-00000024 (The Sanūsī Chiefs and Rulers) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[0].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (6880-17794-20786) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00006880 lehine yumuşak-silindi. Gerekçe: Üçü de 1859 (1276 h.) yılında ölen Senûsiyye kurucusu Muhammed b. Ali es-Senûsî'dir; Bosworth'taki 'al-Sanūsī al-Kabīr' onun bilinen lakabı, Mostaganem/Vâsıta koordinatı da doğum yerini doğruluyor."
+   }
   ],
-  "laqab": [
-    "Şeyh"
-  ],
-  "floruit_temporal": {
-    "start_ce": 1837,
-    "end_ce": 1859,
-    "start_ah": 1253,
-    "end_ah": 1276,
-    "approximation": "floruit"
-  },
-  "death_temporal": {
-    "start_ce": 1859,
-    "start_ah": 1275,
-    "approximation": "exact",
-    "note": "Bosworth death code: d. 1275/1859"
-  },
-  "note": "Bosworth relation note: — || Bosworth death code: d. 1275/1859 || Promoted from iac:dynasty-00000024 rulers[0] (Bosworth NID-024)."
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00006880"
+ },
+ "affiliated_dynasties": [
+  "iac:dynasty-00000024"
+ ],
+ "laqab": [
+  "Şeyh"
+ ],
+ "floruit_temporal": {
+  "start_ce": 1837,
+  "end_ce": 1859,
+  "start_ah": 1253,
+  "end_ah": 1276,
+  "approximation": "floruit"
+ },
+ "death_temporal": {
+  "start_ce": 1859,
+  "start_ah": 1275,
+  "approximation": "exact",
+  "note": "Bosworth death code: d. 1275/1859"
+ },
+ "note": "Bosworth relation note: — || Bosworth death code: d. 1275/1859 || Promoted from iac:dynasty-00000024 rulers[0] (Bosworth NID-024)."
 }

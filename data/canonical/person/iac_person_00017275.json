@@ -1,93 +1,100 @@
 {
-  "@id": "iac:person-00017275",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00017275",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Qunbul",
+   "tr": "Kenbel",
+   "ar": "قنبل"
+  },
+  "originalScript": {
+   "ar": "قنبل"
+  },
+  "description": {
+   "tr": "Kurrâ ülümâsından.",
+   "en": "One of the notable Qur'anic reciters."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muhammad b. ʿAbd al-Rahmān b. Muhammad al-Makkī al-Mukhzūmī al-mawlā, Abū ʿAmr, al-mashūr bi-Qunbul"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. Abdurrahmân b. Muhammed el-Mekkî el-Muhzûmî el-mevlâ, Ebû Amr, Kenbel el-meşhûr"
+   ],
+   "ar": [
+    "محمد بن عبد الرحمن بن محمد المكي المخزومي بالولاء، أبو عمر، الشهير ب قنبل"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:10208",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10208",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:kunbul",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/kunbul",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "Qunbul",
-      "tr": "Kenbel",
-      "ar": "قنبل"
-    },
-    "originalScript": {
-      "ar": "قنبل"
-    },
-    "description": {
-      "tr": "Kurrâ ülümâsından.",
-      "en": "One of the notable Qur'anic reciters."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Muhammad b. ʿAbd al-Rahmān b. Muhammad al-Makkī al-Mukhzūmī al-mawlā, Abū ʿAmr, al-mashūr bi-Qunbul"
-    },
-    "altLabel": {
-      "tr": [
-        "Muhammed b. Abdurrahmân b. Muhammed el-Mekkî el-Muhzûmî el-mevlâ, Ebû Amr, Kenbel el-meşhûr"
-      ],
-      "ar": [
-        "محمد بن عبد الرحمن بن محمد المكي المخزومي بالولاء، أبو عمر، الشهير ب قنبل"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:37:02Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:37:02Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:37:02Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=10208 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:10208."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (5008-17275) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00005008 lehine yumuşak-silindi. Gerekçe: Kunbül (قنبل, ö. 291/904) Mekkeli kıraat râvisidir; Arapça lakap birebir aynı ve Mekke koordinatı doğum yeriyle uyuşuyor."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:10208",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=10208",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      },
-      {
-        "source_id": "dia-chunks:kunbul",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "https://islamansiklopedisi.org.tr/kunbul",
-        "extraction_method": "structured_json",
-        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:37:02Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:37:02Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:37:02Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=10208 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-10T16:23:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:10208."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 291,
-    "start_ce": 904,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10208, heading_ar=قنبل || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 21.39, 39.86",
-  "kunya": "أبو عمر"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00005008"
+ },
+ "death_temporal": {
+  "start_ah": 291,
+  "start_ce": 904,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=10208, heading_ar=قنبل || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 21.39, 39.86",
+ "kunya": "أبو عمر"
 }

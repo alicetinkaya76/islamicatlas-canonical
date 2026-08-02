@@ -1,89 +1,96 @@
 {
-  "@id": "iac:person-00009529",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Sābūnī",
-      "tr": "Sâbûnî",
-      "ar": "الصابوني"
-    },
-    "originalScript": {
-      "ar": "الصابوني"
-    },
-    "description": {
-      "tr": "Horasan bölgesinde hadis ilminin öncüsü",
-      "en": "The leading authority in Hadith learning in the lands of Khurasan"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Ismāʿīl b. ʿAbd al-Raḥmān b. Aḥmad b. Ismāʿīl, Abū ʿUthmān al-Sābūnī"
-    },
-    "altLabel": {
-      "tr": [
-        "İsmâîl b. Abdurrahmân b. Ahmed b. İsmâîl, Ebû Osmân es-Sâbûnî"
-      ],
-      "ar": [
-        "إسماعيل بن عبد الرحمن بن أحمد بن إسماعيل، أبو عثمان الصابوني"
-      ]
-    }
+ "@id": "iac:person-00009529",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Sābūnī",
+   "tr": "Sâbûnî",
+   "ar": "الصابوني"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:1612",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1612",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:43Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:43Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:43Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=1612 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:37:57Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1612."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "الصابوني"
   },
-  "death_temporal": {
-    "start_ah": 449,
-    "start_ce": 1057,
-    "approximation": "exact"
+  "description": {
+   "tr": "Horasan bölgesinde hadis ilminin öncüsü",
+   "en": "The leading authority in Hadith learning in the lands of Khurasan"
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1612, heading_ar=الصابوني || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 35.0, 59.0",
-  "active_in_places": [
-    "iac:place-00004180"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Ismāʿīl b. ʿAbd al-Raḥmān b. Aḥmad b. Ismāʿīl, Abū ʿUthmān al-Sābūnī"
+  },
+  "altLabel": {
+   "tr": [
+    "İsmâîl b. Abdurrahmân b. Ahmed b. İsmâîl, Ebû Osmân es-Sâbûnî"
+   ],
+   "ar": [
+    "إسماعيل بن عبد الرحمن بن أحمد بن إسماعيل، أبو عثمان الصابوني"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:1612",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1612",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "kunya": "أبو عثمان"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:43Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:43Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:43Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=1612 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:57Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1612."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (6517-9529) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00006517 lehine yumuşak-silindi. Gerekçe: İsmâil b. Abdurrahman es-Sâbûnî'nin 449/1057 ölüm yılı ve Horasan/Nîşâbur bölgesi koordinatı (35.0, 59.0) uyumlu; farklı yıl taşıyan Nûreddin es-Sâbûnî ayrı kümededir."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00006517"
+ },
+ "death_temporal": {
+  "start_ah": 449,
+  "start_ce": 1057,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1612, heading_ar=الصابوني || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 35.0, 59.0",
+ "active_in_places": [
+  "iac:place-00004180"
+ ],
+ "kunya": "أبو عثمان"
 }

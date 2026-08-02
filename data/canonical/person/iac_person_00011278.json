@@ -1,103 +1,110 @@
 {
-  "@id": "iac:person-00011278",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "Rabīʿ al-Qattān",
-      "tr": "Rabî' el-Kattan",
-      "ar": "ربيع القطان"
-    },
-    "originalScript": {
-      "ar": "ربيع القطان"
-    },
-    "description": {
-      "tr": "Zâhid, kâtipler arasından, tefsir, hadis ve vesâik ilimlerinde alim.",
-      "en": "Ascetic, among the scribes, learned in tafsīr, hadith, and the science of documents."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Rabīʿ b. Sulaymān b. ʿAtāʾ Allāh, Abū Sulaymān al-Qattān"
-    },
-    "altLabel": {
-      "tr": [
-        "Rabî' b. Süleymân b. Atâ'illâh, Ebû Süleymân el-Kattân"
-      ],
-      "ar": [
-        "ربيع بن سليمان بن عطاء الله، أبو سليمان القطان، يرفع نسبه إلى قريش"
-      ]
-    }
+ "@id": "iac:person-00011278",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Rabīʿ al-Qattān",
+   "tr": "Rabî' el-Kattan",
+   "ar": "ربيع القطان"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:3548",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=3548",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      },
-      {
-        "source_id": "dia-chunks:rebi-b-suleyman-el-kattan",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "https://islamansiklopedisi.org.tr/rebi-b-suleyman-el-kattan",
-        "extraction_method": "structured_json",
-        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:59Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:59Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:59Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=3548 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:38:27Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-10T16:23:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:3548."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "ربيع القطان"
   },
-  "death_temporal": {
-    "start_ah": 333,
-    "start_ce": 945,
-    "approximation": "exact"
+  "description": {
+   "tr": "Zâhid, kâtipler arasından, tefsir, hadis ve vesâik ilimlerinde alim.",
+   "en": "Ascetic, among the scribes, learned in tafsīr, hadith, and the science of documents."
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=3548, heading_ar=ربيع القطان || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 35.68, 10.1",
-  "active_in_places": [
-    "iac:place-00010037"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Rabīʿ b. Sulaymān b. ʿAtāʾ Allāh, Abū Sulaymān al-Qattān"
+  },
+  "altLabel": {
+   "tr": [
+    "Rabî' b. Süleymân b. Atâ'illâh, Ebû Süleymân el-Kattân"
+   ],
+   "ar": [
+    "ربيع بن سليمان بن عطاء الله، أبو سليمان القطان، يرفع نسبه إلى قريش"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:3548",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=3548",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:rebi-b-suleyman-el-kattan",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/rebi-b-suleyman-el-kattan",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
   ],
-  "kunya": "Ebû Süleymân"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:59Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:59Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:59Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=3548 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:27Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:3548."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (6376-11278) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00006376 lehine yumuşak-silindi. Gerekçe: Kayrevanlı Rebî' b. Süleyman el-Kattân'ın 334/945 ölüm yılı ve Zirikli'nin Kayrevan koordinatı (35.68, 10.1) örtüşüyor; diğer Rebî' b. Süleymanlar (el-Murâdî, el-Cîzî) farklı yüzyıla aittir."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00006376"
+ },
+ "death_temporal": {
+  "start_ah": 333,
+  "start_ce": 945,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=3548, heading_ar=ربيع القطان || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 35.68, 10.1",
+ "active_in_places": [
+  "iac:place-00010037"
+ ],
+ "kunya": "Ebû Süleymân"
 }

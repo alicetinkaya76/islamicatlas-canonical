@@ -1,79 +1,86 @@
 {
-  "@id": "iac:person-00010066",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00010066",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Jābir al-Kalbī",
+   "tr": "Câbir el-Kelbî",
+   "ar": "جابر الكلبي"
+  },
+  "originalScript": {
+   "ar": "جابر الكلبي"
+  },
+  "description": {
+   "tr": "Sicilya'nın emîrlerinden.",
+   "en": "One of the emirs of Sicily."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Jābir b. ʿAlī (Abū al-Qāsim) b. al-Ḥusayn b. ʿAlī b. Abī al-Ḥusayn al-Kalbī"
+  },
+  "altLabel": {
+   "tr": [
+    "Câbir b. Alî (Ebî'l-Kâsım) b. el-Hüseyn b. Alî b. Ebî'l-Hüseyn el-Kelbî"
+   ],
+   "ar": [
+    "جابر بن علي (أبي القاسم) بن الحسين ابن علي بن أبي الحسين الكلبي"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:2199",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=2199",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "Jābir al-Kalbī",
-      "tr": "Câbir el-Kelbî",
-      "ar": "جابر الكلبي"
-    },
-    "originalScript": {
-      "ar": "جابر الكلبي"
-    },
-    "description": {
-      "tr": "Sicilya'nın emîrlerinden.",
-      "en": "One of the emirs of Sicily."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Jābir b. ʿAlī (Abū al-Qāsim) b. al-Ḥusayn b. ʿAlī b. Abī al-Ḥusayn al-Kalbī"
-    },
-    "altLabel": {
-      "tr": [
-        "Câbir b. Alî (Ebî'l-Kâsım) b. el-Hüseyn b. Alî b. Ebî'l-Hüseyn el-Kelbî"
-      ],
-      "ar": [
-        "جابر بن علي (أبي القاسم) بن الحسين ابن علي بن أبي الحسين الكلبي"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:35:48Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:48Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:48Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=2199 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:2199."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (10066-20691) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00020691 lehine yumuşak-silindi. Gerekçe: Kelbî emîri Câbir (ö. 373/983); Sicilya koordinatı ve yıl aynı, kardeşi Ca'fer ayrı kümede duruyor."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:2199",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=2199",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:48Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:48Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:48Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=2199 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:2199."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 373,
-    "start_ce": 983,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=2199, heading_ar=جابر الكلبي || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 37.5, 14.0",
-  "kunya": "Ebû'l-Kâsım"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00020691"
+ },
+ "death_temporal": {
+  "start_ah": 373,
+  "start_ce": 983,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=2199, heading_ar=جابر الكلبي || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 37.5, 14.0",
+ "kunya": "Ebû'l-Kâsım"
 }

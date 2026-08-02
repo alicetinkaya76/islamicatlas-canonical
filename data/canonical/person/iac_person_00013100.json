@@ -1,89 +1,96 @@
 {
-  "@id": "iac:person-00013100",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Mutawakkil II",
-      "tr": "Mütevekkil II",
-      "ar": "المتوكل الثاني"
-    },
-    "originalScript": {
-      "ar": "المتوكل الثاني"
-    },
-    "description": {
-      "tr": "Metinde açık tanım bulunmamaktadır",
-      "en": "No clear description provided in the text"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "ʿAbd al-ʿAzīz b. Yaʿqūb b. Muḥammad al-Mutawakkil I, Ibn al-Muʿtazz Abū Bakr b. Sulaymān al-Mustakfī, Abū al-ʿIzz al-ʿAbbāsī al-Hāšimī, al-Mutawakkil ʿalā Allāh"
-    },
-    "altLabel": {
-      "tr": [
-        "Abdülazîz b. Yakûb b. Muhammed el-Mütevekkil I, İbn el-Mu'tazz Ebû Bekr b. Süleymân el-Müstekfî, Ebû el-İz el-Abbâsî el-Hâşimî, Mütevekkil Alellah"
-      ],
-      "ar": [
-        "عبد العزيز بن يعقوب بن محمد المتوكل الأول، ابن المعتضد أبي بكر ابنسليمان المستكفي، أبو العز العباسي الهاشمي، الملقب بالمتوكل على الله"
-      ]
-    }
+ "@id": "iac:person-00013100",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Mutawakkil II",
+   "tr": "Mütevekkil II",
+   "ar": "المتوكل الثاني"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:5577",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5577",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:16Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:16Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:16Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=5577 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:5577."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "المتوكل الثاني"
   },
-  "death_temporal": {
-    "start_ah": 903,
-    "start_ce": 1497,
-    "approximation": "exact"
+  "description": {
+   "tr": "Metinde açık tanım bulunmamaktadır",
+   "en": "No clear description provided in the text"
   },
-  "authority_xref": [
-    {
-      "authority": "wikidata",
-      "id": "Q210630",
-      "confidence": 0.9,
-      "method": "openrefine_v3",
-      "reviewed": false,
-      "note": "Auto-matched via OpenRefine recon (top result for 'Mutawakkil II')."
-    }
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAbd al-ʿAzīz b. Yaʿqūb b. Muḥammad al-Mutawakkil I, Ibn al-Muʿtazz Abū Bakr b. Sulaymān al-Mustakfī, Abū al-ʿIzz al-ʿAbbāsī al-Hāšimī, al-Mutawakkil ʿalā Allāh"
+  },
+  "altLabel": {
+   "tr": [
+    "Abdülazîz b. Yakûb b. Muhammed el-Mütevekkil I, İbn el-Mu'tazz Ebû Bekr b. Süleymân el-Müstekfî, Ebû el-İz el-Abbâsî el-Hâşimî, Mütevekkil Alellah"
+   ],
+   "ar": [
+    "عبد العزيز بن يعقوب بن محمد المتوكل الأول، ابن المعتضد أبي بكر ابنسليمان المستكفي، أبو العز العباسي الهاشمي، الملقب بالمتوكل على الله"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:5577",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5577",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5577, heading_ar=المتوكل الثاني || Ziriklī century_ce=15",
-  "kunya": "أبو العز"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:16Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:16Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:16Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=5577 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:5577."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (79-13100) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000079 lehine yumuşak-silindi. Gerekçe: 1497'de ölen Kahire Abbâsî gölge halifesi el-Mütevekkil II'dir; regnal numara (II) her iki kayıtta da açıkça belirtilmiş."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000079"
+ },
+ "death_temporal": {
+  "start_ah": 903,
+  "start_ce": 1497,
+  "approximation": "exact"
+ },
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q210630",
+   "confidence": 0.9,
+   "method": "openrefine_v3",
+   "reviewed": false,
+   "note": "Auto-matched via OpenRefine recon (top result for 'Mutawakkil II')."
+  }
+ ],
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5577, heading_ar=المتوكل الثاني || Ziriklī century_ce=15",
+ "kunya": "أبو العز"
 }

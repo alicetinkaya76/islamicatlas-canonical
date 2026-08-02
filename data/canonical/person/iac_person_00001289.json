@@ -1,83 +1,90 @@
 {
-  "@id": "iac:person-00001289",
-  "@type": [
-    "iac:Person",
-    "iac:Poet"
-  ],
-  "labels": {
-    "prefLabel": {
-      "tr": "BÂHARZÎ, Ali b. Hasan",
-      "ar": "علي بن الحسن الباخرزي"
-    },
-    "originalScript": {
-      "ar": "علي بن الحسن الباخرزي"
-    },
-    "altLabel": {
-      "tr": [
-        "Ebü’l-Kāsım (Ebü’l-Hasen) Alî b. el-Hasen b. Alî b. Ebi’t-Tayyib el-Bâharzî"
-      ]
-    },
-    "description": {
-      "tr": "Nîşâbur ile Herat arasında bulunan Bâharz bölgesinin merkezi Mâlîn’de doğdu. Doğum tarihi bilinmemektedir. Kendi ailesi arasında iyi bir öğrenim gördükten sonra Nîşâbur, Herat, Merv, Belh, Rey, İsfahan, Hemedan, Bağdat, Basra ve Vâsıt’ı dolaşarak o devrin tanınmış âlimlerinden tahsilini tamamladı. Nîşâbur’da Şâfiî fakihi ve İmâmü’l-Haremeyn’in babası Ebû Muhammed Abdullah b. Yûsuf el-Cüveynî’den fıkıh tahsil etti ve Şâfiî fakihleri arasındaki yerini aldı. Daha sonra duyduğu büyük ilgi sebebiyle edebiyatla meşgul oldu ve bu sahada isim yaptı. Cüveynî’nin fıkıh derslerine devam ederken, ileride Selçuklu Sultanı Tuğrul Bey’in vezirliğini yapacak olan Muhammed b. Mansûr el-Kündürî ile tanıştı. Kündürî vezir olunca onu yanına aldı ve Dîvân-ı Resâil’in başına getirdi. Tuğrul Bey’le Bağdat’a giden Kündürî Bâharzî’yi de beraberinde götürdü. Orada Halife Kāim-Biemrillâh’a yazdığı kasideyi Bağdatlılar, “Şiirinde Acem soğukluğu var” diyerek beğenmedilerse de bir müddet Basra ve civarında kaldıktan sonra yazdığı şiirler Bağdatlılar’ca takdir edildi. Nitekim Kündürî’nin hadım edilmesi üzerine kaleme aldığı tesliyetnâmesi onun en güzel şiirlerinden biri olarak kabul edilmektedir. Dîvân-ı Resâil’den başka bazı devlet görevlerinde de bulunan ve uzun bir ayrılık ve seyahatten sonra memleketine dönen Bâharzî, Zilkade 467’de (Haziran 1075) bir toplantı sırasında öldürüldü. Eserleri. Hem şair hem münşî (divan kâtibi) olan Bâharzî’nin başlıca eserleri şunlardır: 1. Dîvân . Arapça şiirlerinin toplandığı divanı Muhammed Altuncî tarafından tahkik edilerek 1973’te Bingazi’de yayımlanmıştır. Bazı Farsça kıtalarını da Avfî Lübâbü’l-elbâb ’a almıştır. 2. Dümyetü’l-ḳaṣr ve ʿuṣratü ehli’l-ʿaṣr . Seâlibî’nin Yetîmetü’d-dehr adlı antolojisinin zeyli olan bu kitap Bâharzî’nin en önemli eseridir. İlk defa Râgıb et-Tabbâh tarafından tahkik edilen eserin ancak bir kısmı 1930’da Halep’te yayımlanmıştır. Daha sonra ise Abdülfettâh Muhammed el-Hulv tarafından tahkik edilerek iki cilt halinde (Kahire 1968-1971), Sâmî Mekkî el-Ânî’nin tahkikli neşri yine iki cilt halinde (Bağdat 1971-1973), son olarak da Muhammed Altuncî tarafından üç cilt halinde (Dımaşk 1974-1976) neşredilmiştir. Ali b. Zeyd el-Beyhakī (ö. 565/1169) bu esere Vişâḥu Dümyeti’l-ḳaṣr adıyla bir zeyil yazmış, daha sonra da Dürretü’l-Vişâḥ adıyla ikinci bir zeyil kaleme almıştır (Yâkūt, XIII, 226). 3. Risâletü’ṭ-ṭard . Zevzen hâkimi Ebü’l-Kāsım Abdülhamîd b. Yahyâ ile birlikte çıktıkları iki günlük av yolculuğunu konu edinen bu eseri Muhammed Kāsım Mustafa tahkik ederek Mecelletü Maʿhedi’l-maḫṭûṭâti’l-ʿArabiyye ’de (s. 256-285) yayımlamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 474 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
-    }
+ "@id": "iac:person-00001289",
+ "@type": [
+  "iac:Person",
+  "iac:Poet"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "BÂHARZÎ, Ali b. Hasan",
+   "ar": "علي بن الحسن الباخرزي"
   },
-  "profession": [
-    "poet"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "dia:baharzi-ali-b-hasan",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "DİA, slug=baharzi-ali-b-hasan, https://islamansiklopedisi.org.tr/baharzi-ali-b-hasan",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
-      },
-      {
-        "source_id": "dia-chunks-v8:baharzi-ali-b-hasan",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "DİA chunks (per-slug aggregated), slug=baharzi-ali-b-hasan",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_dia",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:33:39Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:33:39Z",
-    "modified": "2026-05-17T04:23:19Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:33:39Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from DİA slug=baharzi-ali-b-hasan (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-17T04:23:19Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0",
-        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=baharzi-ali-b-hasan)."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "علي بن الحسن الباخرزي"
   },
-  "nisba": [
-    "Bâharzî"
-  ],
-  "laqab": [
-    "Şâfiî (mezhep)"
-  ],
-  "death_temporal": {
-    "start_ah": 467,
-    "start_ce": 1075,
-    "approximation": "exact"
+  "altLabel": {
+   "tr": [
+    "Ebü’l-Kāsım (Ebü’l-Hasen) Alî b. el-Hasen b. Alî b. Ebi’t-Tayyib el-Bâharzî"
+   ]
   },
-  "note": "DİA cross-reference: slug=baharzi-ali-b-hasan, URL: https://islamansiklopedisi.org.tr/baharzi-ali-b-hasan || DİA birth place: Mâlîn || DİA death-date string: (ö. 467/1075) || DİA categories: fıkıh || Chunk count: 1"
+  "description": {
+   "tr": "Nîşâbur ile Herat arasında bulunan Bâharz bölgesinin merkezi Mâlîn’de doğdu. Doğum tarihi bilinmemektedir. Kendi ailesi arasında iyi bir öğrenim gördükten sonra Nîşâbur, Herat, Merv, Belh, Rey, İsfahan, Hemedan, Bağdat, Basra ve Vâsıt’ı dolaşarak o devrin tanınmış âlimlerinden tahsilini tamamladı. Nîşâbur’da Şâfiî fakihi ve İmâmü’l-Haremeyn’in babası Ebû Muhammed Abdullah b. Yûsuf el-Cüveynî’den fıkıh tahsil etti ve Şâfiî fakihleri arasındaki yerini aldı. Daha sonra duyduğu büyük ilgi sebebiyle edebiyatla meşgul oldu ve bu sahada isim yaptı. Cüveynî’nin fıkıh derslerine devam ederken, ileride Selçuklu Sultanı Tuğrul Bey’in vezirliğini yapacak olan Muhammed b. Mansûr el-Kündürî ile tanıştı. Kündürî vezir olunca onu yanına aldı ve Dîvân-ı Resâil’in başına getirdi. Tuğrul Bey’le Bağdat’a giden Kündürî Bâharzî’yi de beraberinde götürdü. Orada Halife Kāim-Biemrillâh’a yazdığı kasideyi Bağdatlılar, “Şiirinde Acem soğukluğu var” diyerek beğenmedilerse de bir müddet Basra ve civarında kaldıktan sonra yazdığı şiirler Bağdatlılar’ca takdir edildi. Nitekim Kündürî’nin hadım edilmesi üzerine kaleme aldığı tesliyetnâmesi onun en güzel şiirlerinden biri olarak kabul edilmektedir. Dîvân-ı Resâil’den başka bazı devlet görevlerinde de bulunan ve uzun bir ayrılık ve seyahatten sonra memleketine dönen Bâharzî, Zilkade 467’de (Haziran 1075) bir toplantı sırasında öldürüldü. Eserleri. Hem şair hem münşî (divan kâtibi) olan Bâharzî’nin başlıca eserleri şunlardır: 1. Dîvân . Arapça şiirlerinin toplandığı divanı Muhammed Altuncî tarafından tahkik edilerek 1973’te Bingazi’de yayımlanmıştır. Bazı Farsça kıtalarını da Avfî Lübâbü’l-elbâb ’a almıştır. 2. Dümyetü’l-ḳaṣr ve ʿuṣratü ehli’l-ʿaṣr . Seâlibî’nin Yetîmetü’d-dehr adlı antolojisinin zeyli olan bu kitap Bâharzî’nin en önemli eseridir. İlk defa Râgıb et-Tabbâh tarafından tahkik edilen eserin ancak bir kısmı 1930’da Halep’te yayımlanmıştır. Daha sonra ise Abdülfettâh Muhammed el-Hulv tarafından tahkik edilerek iki cilt halinde (Kahire 1968-1971), Sâmî Mekkî el-Ânî’nin tahkikli neşri yine iki cilt halinde (Bağdat 1971-1973), son olarak da Muhammed Altuncî tarafından üç cilt halinde (Dımaşk 1974-1976) neşredilmiştir. Ali b. Zeyd el-Beyhakī (ö. 565/1169) bu esere Vişâḥu Dümyeti’l-ḳaṣr adıyla bir zeyil yazmış, daha sonra da Dürretü’l-Vişâḥ adıyla ikinci bir zeyil kaleme almıştır (Yâkūt, XIII, 226). 3. Risâletü’ṭ-ṭard . Zevzen hâkimi Ebü’l-Kāsım Abdülhamîd b. Yahyâ ile birlikte çıktıkları iki günlük av yolculuğunu konu edinen bu eseri Muhammed Kāsım Mustafa tahkik ederek Mecelletü Maʿhedi’l-maḫṭûṭâti’l-ʿArabiyye ’de (s. 256-285) yayımlamıştır. Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 4. cildinde, 474 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+  }
+ },
+ "profession": [
+  "poet"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "dia:baharzi-ali-b-hasan",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA, slug=baharzi-ali-b-hasan, https://islamansiklopedisi.org.tr/baharzi-ali-b-hasan",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+   },
+   {
+    "source_id": "dia-chunks-v8:baharzi-ali-b-hasan",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA chunks (per-slug aggregated), slug=baharzi-ali-b-hasan",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_dia",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:33:39Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:33:39Z",
+  "modified": "2026-05-17T04:23:19Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:33:39Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from DİA slug=baharzi-ali-b-hasan (1 chunks) by dia adapter (Hafta 4). Madhab: Şâfiî."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-17T04:23:19Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0",
+    "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=baharzi-ali-b-hasan)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1289-14398) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00014398 lehine yumuşak-silindi. Gerekçe: el-Bâharzî nisbesi, şair kimliği ve 1075 (467/h) ölüm yılı örtüşüyor; Sayfeddin Bâharzî'den (ö. 1261) yıl bakımından net ayrışıyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00014398"
+ },
+ "nisba": [
+  "Bâharzî"
+ ],
+ "laqab": [
+  "Şâfiî (mezhep)"
+ ],
+ "death_temporal": {
+  "start_ah": 467,
+  "start_ce": 1075,
+  "approximation": "exact"
+ },
+ "note": "DİA cross-reference: slug=baharzi-ali-b-hasan, URL: https://islamansiklopedisi.org.tr/baharzi-ali-b-hasan || DİA birth place: Mâlîn || DİA death-date string: (ö. 467/1075) || DİA categories: fıkıh || Chunk count: 1"
 }

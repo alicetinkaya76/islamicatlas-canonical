@@ -1,78 +1,85 @@
 {
-  "@id": "iac:person-00014655",
-  "@type": [
-    "iac:Person"
+ "@id": "iac:person-00014655",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Abū al-Qāsim al-Tanūkhī",
+   "tr": "Ebû'l-Kâsım et-Tenûhî",
+   "ar": "أبو القاسم التنوخي"
+  },
+  "originalScript": {
+   "ar": "أبو القاسم التنوخي"
+  },
+  "description": {
+   "tr": "Kadı, Mu'tezile âlimleri arasından",
+   "en": "Judge, among the scholars of the Muʿtazila"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAlī b. al-Muhsin b. ʿAlī al-Tanūkhī, Abū al-Qāsim"
+  },
+  "altLabel": {
+   "tr": [
+    "Alî b. el-Muhsin b. Alî et-Tenûhî, Ebû'l-Kâsım"
+   ],
+   "ar": [
+    "علي بن المحسن بن علي التنوخي، أبو القاسم"
+   ]
+  }
+ },
+ "profession": [
+  "judge"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:7332",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7332",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "Abū al-Qāsim al-Tanūkhī",
-      "tr": "Ebû'l-Kâsım et-Tenûhî",
-      "ar": "أبو القاسم التنوخي"
-    },
-    "originalScript": {
-      "ar": "أبو القاسم التنوخي"
-    },
-    "description": {
-      "tr": "Kadı, Mu'tezile âlimleri arasından",
-      "en": "Judge, among the scholars of the Muʿtazila"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "ʿAlī b. al-Muhsin b. ʿAlī al-Tanūkhī, Abū al-Qāsim"
-    },
-    "altLabel": {
-      "tr": [
-        "Alî b. el-Muhsin b. Alî et-Tenûhî, Ebû'l-Kâsım"
-      ],
-      "ar": [
-        "علي بن المحسن بن علي التنوخي، أبو القاسم"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "judge"
+  "generated_at": "2026-05-04T15:36:33Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:33Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=7332 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7332."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (7318-14655) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00007318 lehine yumuşak-silindi. Gerekçe: Ali b. el-Muhassin et-Tenûhî'nin künyesi Ebü'l-Kāsım'dır (ö. 447/1055); aynı künyeyi taşıyan dedesi Ali b. Muhammed (ö. 953) ayrı kümede olduğu için kuşak karışması yoktur."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:7332",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7332",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:33Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:33Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:33Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=7332 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7332."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 447,
-    "start_ce": 1055,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7332, heading_ar=أبو القاسم التنوخي || Ziriklī century_ce=11",
-  "kunya": "أبو القاسم"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00007318"
+ },
+ "death_temporal": {
+  "start_ah": 447,
+  "start_ce": 1055,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7332, heading_ar=أبو القاسم التنوخي || Ziriklī century_ce=11",
+ "kunya": "أبو القاسم"
 }

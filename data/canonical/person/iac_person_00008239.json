@@ -1,98 +1,105 @@
 {
-  "@id": "iac:person-00008239",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Shīrāzī",
-      "tr": "Şîrâzî",
-      "ar": "الشيرازي"
-    },
-    "originalScript": {
-      "ar": "الشيرازي"
-    },
-    "description": {
-      "tr": "Alim ve münâzır.",
-      "en": "A scholar and disputer."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Ibrāhīm b. ʿAlī b. Yūsuf al-Fīrūzābādī al-Shīrāzī, Abū Isḥāq"
-    },
-    "altLabel": {
-      "tr": [
-        "İbrâhîm b. Alî b. Yûsuf el-Ferûzâbâdî eş-Şîrâzî, Ebû İshâk"
-      ],
-      "ar": [
-        "إبراهيم بن علي بن يوسف الفيروزآبادي الشيرازي ، أبو إسحاق"
-      ]
-    }
+ "@id": "iac:person-00008239",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Shīrāzī",
+   "tr": "Şîrâzî",
+   "ar": "الشيرازي"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:157",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=157",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:31Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:31Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:31Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=157 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:38:06Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:157."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "الشيرازي"
   },
-  "death_temporal": {
-    "start_ah": 476,
-    "start_ce": 1083,
-    "approximation": "exact"
+  "description": {
+   "tr": "Alim ve münâzır.",
+   "en": "A scholar and disputer."
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=157, heading_ar=الشيرازي || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 29.59, 52.58",
-  "active_in_places": [
-    "iac:place-00007402"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Ibrāhīm b. ʿAlī b. Yūsuf al-Fīrūzābādī al-Shīrāzī, Abū Isḥāq"
+  },
+  "altLabel": {
+   "tr": [
+    "İbrâhîm b. Alî b. Yûsuf el-Ferûzâbâdî eş-Şîrâzî, Ebû İshâk"
+   ],
+   "ar": [
+    "إبراهيم بن علي بن يوسف الفيروزآبادي الشيرازي ، أبو إسحاق"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:157",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=157",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "authored_works": [
-    "iac:work-00000771",
-    "iac:work-00003069",
-    "iac:work-00003137",
-    "iac:work-00004846",
-    "iac:work-00005388",
-    "iac:work-00006649",
-    "iac:work-00006724"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:31Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:31Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:31Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=157 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:06Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:157."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (7059-8239) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00007059 lehine yumuşak-silindi. Gerekçe: Ebû İshak eş-Şîrâzî (ö. 476/1083) Şâfiî fakihidir ve iki kayıt ad, künye, yıl bakımından birebir aynıdır."
+   }
   ],
-  "kunya": "أبو إسحاق"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00007059"
+ },
+ "death_temporal": {
+  "start_ah": 476,
+  "start_ce": 1083,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=157, heading_ar=الشيرازي || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 29.59, 52.58",
+ "active_in_places": [
+  "iac:place-00007402"
+ ],
+ "authored_works": [
+  "iac:work-00000771",
+  "iac:work-00003069",
+  "iac:work-00003137",
+  "iac:work-00004846",
+  "iac:work-00005388",
+  "iac:work-00006649",
+  "iac:work-00006724"
+ ],
+ "kunya": "أبو إسحاق"
 }

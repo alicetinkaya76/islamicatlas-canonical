@@ -1,80 +1,87 @@
 {
-  "@id": "iac:person-00004684",
-  "@type": [
-    "iac:Person",
-    "iac:Ruler"
-  ],
-  "labels": {
-    "prefLabel": {
-      "tr": "KĀİM-BİEMRİLLÂH es-SA‘DÎ",
-      "ar": "القائم بأمر الله السعدي"
-    },
-    "originalScript": {
-      "ar": "القائم بأمر الله السعدي"
-    },
-    "altLabel": {
-      "tr": [
-        "Ebû Abdillâh el-Kāim-Biemrillâh Mevlây Muhammed b. Muhammed b. Abdirrahmân es-Sa‘dî el-Hasenî el-Fâsî"
-      ]
-    },
-    "description": {
-      "tr": "Muhtemelen Der‘â’da doğdu. Hz. Hasan’ın torunlarından en-Nefsüzzekiyye diye tanınan Muhammed b. Abdullah el-Mehdî’nin soyundandır. Ailesi VI. (XII.) yüzyılda Arabistan’daki Yenbu‘dan Kuzey Afrika’ya göç etmiş ve Tâgmedâret bölgesinde yer alan Der‘â vadisinde yerleşmişti. Muhammed ilk tahsiline Der‘â’da başladı. Kur’an, dinî ilimler ve tarih sahasında kendini yetiştirdi. Daha sonra Sûs’un en önemli dinî şahsiyetlerinden olan Cezûliyye tarikatı şeyhi Muhammed b. Mübârek el-Akāvî’ye intisap etti ve onun tarafından Portekizliler’e karşı cihad etmek üzere Sûs’a gönderildi (916/1510). Târûdânt yakınlarındaki Tîdsî köyünde kabile şeyhleri ve ileri gelenleriyle toplantılar yapan ve buradaki faaliyetleri sonunda etrafında kalabalık bir kitle toplamayı başaran Muhammed “el-Kāim-Biemrillâh” lakabını aldı. Bu kitleyi teşkilâtlandırarak büyük bir güce sahip oldu. Der‘â ve Sûs halkının desteğiyle Portekizliler’le mücadeleye başladı. Agādîr yakınlarında kazandığı zaferlerle şöhretini de yaygınlaştırdı ve 917’de (1511) Sa‘dîler hânedanının temellerini attı. Büyük oğlu Ebü’l-Abbas Ahmed el-A‘rec’i “Melikü Sûs” lakabıyla vali olarak tayin etti, iki yıl sonra da veliaht ilân etti. Hâha ve Şeyâzıme şeyhleri kendisinden yardım isteyince oğlu Mevlây Muhammed eş-Şeyh’i Sûs’ta vekil bırakıp onların yardımına koştu ve Portekizliler’le iş birliği yapan Yahyâ b. Tâfût’u uzaklaştırarak Hâha’ya girdi (922/1516). 923 (1517) yılında Hâha’ya bağlı Efûgāl’de vefat eden Kāim-Biemrillâh, Şeyh Muhammed b. Süleyman el-Cezûlî’nin türbesine defnedildi. Naaşı daha sonra oğlu Ahmed el-A‘rec tarafından Cezûlî’nin cesediyle birlikte Merakeş’e nakledildi. Hâkimiyeti altındaki topraklar Ahmed el-A‘rec ile diğer oğlu Mevlây Muhammed eş-Şeyh arasında taksim edildi. Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 212 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
-    }
+ "@id": "iac:person-00004684",
+ "@type": [
+  "iac:Person",
+  "iac:Ruler"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "KĀİM-BİEMRİLLÂH es-SA‘DÎ",
+   "ar": "القائم بأمر الله السعدي"
   },
-  "profession": [
-    "ruler"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "dia:kaim-biemrillah-es-sadi",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "DİA, slug=kaim-biemrillah-es-sadi, https://islamansiklopedisi.org.tr/kaim-biemrillah-es-sadi",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
-      },
-      {
-        "source_id": "dia-chunks:kaim-biemrillah-es-sadi",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "https://islamansiklopedisi.org.tr/kaim-biemrillah-es-sadi",
-        "extraction_method": "structured_json",
-        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_dia",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:34:31Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:34:31Z",
-    "modified": "2026-07-10T16:23:25Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:34:31Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from DİA slug=kaim-biemrillah-es-sadi (1 chunks) by dia adapter (Hafta 4)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-10T16:23:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "القائم بأمر الله السعدي"
   },
-  "nisba": [
-    "Hasenî"
-  ],
-  "death_temporal": {
-    "start_ah": 923,
-    "start_ce": 1517,
-    "approximation": "exact"
+  "altLabel": {
+   "tr": [
+    "Ebû Abdillâh el-Kāim-Biemrillâh Mevlây Muhammed b. Muhammed b. Abdirrahmân es-Sa‘dî el-Hasenî el-Fâsî"
+   ]
   },
-  "note": "DİA cross-reference: slug=kaim-biemrillah-es-sadi, URL: https://islamansiklopedisi.org.tr/kaim-biemrillah-es-sadi || DİA birth place: Der'â || DİA death place: Efûgāl || DİA death-date string: (ö. 923/1517) || DİA categories: tarikat || Chunk count: 1"
+  "description": {
+   "tr": "Muhtemelen Der‘â’da doğdu. Hz. Hasan’ın torunlarından en-Nefsüzzekiyye diye tanınan Muhammed b. Abdullah el-Mehdî’nin soyundandır. Ailesi VI. (XII.) yüzyılda Arabistan’daki Yenbu‘dan Kuzey Afrika’ya göç etmiş ve Tâgmedâret bölgesinde yer alan Der‘â vadisinde yerleşmişti. Muhammed ilk tahsiline Der‘â’da başladı. Kur’an, dinî ilimler ve tarih sahasında kendini yetiştirdi. Daha sonra Sûs’un en önemli dinî şahsiyetlerinden olan Cezûliyye tarikatı şeyhi Muhammed b. Mübârek el-Akāvî’ye intisap etti ve onun tarafından Portekizliler’e karşı cihad etmek üzere Sûs’a gönderildi (916/1510). Târûdânt yakınlarındaki Tîdsî köyünde kabile şeyhleri ve ileri gelenleriyle toplantılar yapan ve buradaki faaliyetleri sonunda etrafında kalabalık bir kitle toplamayı başaran Muhammed “el-Kāim-Biemrillâh” lakabını aldı. Bu kitleyi teşkilâtlandırarak büyük bir güce sahip oldu. Der‘â ve Sûs halkının desteğiyle Portekizliler’le mücadeleye başladı. Agādîr yakınlarında kazandığı zaferlerle şöhretini de yaygınlaştırdı ve 917’de (1511) Sa‘dîler hânedanının temellerini attı. Büyük oğlu Ebü’l-Abbas Ahmed el-A‘rec’i “Melikü Sûs” lakabıyla vali olarak tayin etti, iki yıl sonra da veliaht ilân etti. Hâha ve Şeyâzıme şeyhleri kendisinden yardım isteyince oğlu Mevlây Muhammed eş-Şeyh’i Sûs’ta vekil bırakıp onların yardımına koştu ve Portekizliler’le iş birliği yapan Yahyâ b. Tâfût’u uzaklaştırarak Hâha’ya girdi (922/1516). 923 (1517) yılında Hâha’ya bağlı Efûgāl’de vefat eden Kāim-Biemrillâh, Şeyh Muhammed b. Süleyman el-Cezûlî’nin türbesine defnedildi. Naaşı daha sonra oğlu Ahmed el-A‘rec tarafından Cezûlî’nin cesediyle birlikte Merakeş’e nakledildi. Hâkimiyeti altındaki topraklar Ahmed el-A‘rec ile diğer oğlu Mevlây Muhammed eş-Şeyh arasında taksim edildi. Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 212 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+  }
+ },
+ "profession": [
+  "ruler"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "dia:kaim-biemrillah-es-sadi",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA, slug=kaim-biemrillah-es-sadi, https://islamansiklopedisi.org.tr/kaim-biemrillah-es-sadi",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+   },
+   {
+    "source_id": "dia-chunks:kaim-biemrillah-es-sadi",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/kaim-biemrillah-es-sadi",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_dia",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:34:31Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:34:31Z",
+  "modified": "2026-07-10T16:23:25Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:34:31Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from DİA slug=kaim-biemrillah-es-sadi (1 chunks) by dia adapter (Hafta 4)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (4684-18154) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00018154 lehine yumuşak-silindi. Gerekçe: Sa'dî hânedanının kurucusu Kāim-Biemrillâh 923/1517'de ölmüştür; Sûs bölgesi koordinatı (30.4/-9.2) DİA'daki Der'a/Sûs bağlamıyla uyuşuyor ve es-Sa'dî nitelemesi her iki kayıtta var."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00018154"
+ },
+ "nisba": [
+  "Hasenî"
+ ],
+ "death_temporal": {
+  "start_ah": 923,
+  "start_ce": 1517,
+  "approximation": "exact"
+ },
+ "note": "DİA cross-reference: slug=kaim-biemrillah-es-sadi, URL: https://islamansiklopedisi.org.tr/kaim-biemrillah-es-sadi || DİA birth place: Der'â || DİA death place: Efûgāl || DİA death-date string: (ö. 923/1517) || DİA categories: tarikat || Chunk count: 1"
 }

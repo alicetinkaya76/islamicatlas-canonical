@@ -1,79 +1,86 @@
 {
-  "@id": "iac:person-00013532",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00013532",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Abū Zayd al-Dabūsī",
+   "tr": "Ebû Zeyd ed-Debûsî",
+   "ar": "أبو زيد الدبوسي"
+  },
+  "originalScript": {
+   "ar": "أبو زيد الدبوسي"
+  },
+  "description": {
+   "tr": "İlm-i hilâfı ortaya koyan ve ön plana çıkaran ilk kişi.",
+   "en": "The first to establish and bring forth the science of legal disputation."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAbd Allāh b. ʿUmar b. ʿĪsā"
+  },
+  "altLabel": {
+   "tr": [
+    "Abdullâh b. Ömer b. Îsâ"
+   ],
+   "ar": [
+    "عبد الله بن عمربن عيسى، أبو زيد"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:6065",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6065",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "Abū Zayd al-Dabūsī",
-      "tr": "Ebû Zeyd ed-Debûsî",
-      "ar": "أبو زيد الدبوسي"
-    },
-    "originalScript": {
-      "ar": "أبو زيد الدبوسي"
-    },
-    "description": {
-      "tr": "İlm-i hilâfı ortaya koyan ve ön plana çıkaran ilk kişi.",
-      "en": "The first to establish and bring forth the science of legal disputation."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "ʿAbd Allāh b. ʿUmar b. ʿĪsā"
-    },
-    "altLabel": {
-      "tr": [
-        "Abdullâh b. Ömer b. Îsâ"
-      ],
-      "ar": [
-        "عبد الله بن عمربن عيسى، أبو زيد"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:36:20Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:20Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:20Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=6065 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:6065."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1963-13532) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001963 lehine yumuşak-silindi. Gerekçe: Ebû Zeyd ed-Debûsî (ö. 430/1039) Debûsiye doğumlu Buhara çevresinde faal Hanefî usulcüsüdür; Ziriklī kaydı aynı künye, nisbe ve yılı verir."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:6065",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6065",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:20Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:20Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:20Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=6065 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:6065."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 430,
-    "start_ce": 1039,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6065, heading_ar=أبو زيد الدبوسي || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 39.77, 64.46",
-  "kunya": "أبو زيد"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001963"
+ },
+ "death_temporal": {
+  "start_ah": 430,
+  "start_ce": 1039,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6065, heading_ar=أبو زيد الدبوسي || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 39.77, 64.46",
+ "kunya": "أبو زيد"
 }

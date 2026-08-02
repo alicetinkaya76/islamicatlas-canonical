@@ -1,89 +1,96 @@
 {
-  "@id": "iac:person-00009395",
-  "@type": [
-    "iac:Person"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "Abū Ḥudhayfah",
-      "tr": "Ebû Hudayfe",
-      "ar": "أبو حذيفة"
-    },
-    "originalScript": {
-      "ar": "أبو حذيفة"
-    },
-    "description": {
-      "tr": "Tarihçi",
-      "en": "Historian"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Isḥāq b. Bashr b. Muḥammad b. ʿAbdallāh b. Sālim al-Hāshimī (mawlā), Abū Ḥudhayfah al-Bukhārī"
-    },
-    "altLabel": {
-      "tr": [
-        "İshâk b. Beşr b. Muhammed b. Abdullâh b. Sâlim el-Hâşimî (velâen), Ebû Hudayfe el-Buhârî"
-      ],
-      "ar": [
-        "إسحاق بن بشر بن محمد بن عبد الله بن سالم الهاشمي بالولاء، أبو حذيفة البخاري"
-      ]
-    }
+ "@id": "iac:person-00009395",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Abū Ḥudhayfah",
+   "tr": "Ebû Hudayfe",
+   "ar": "أبو حذيفة"
   },
-  "profession": [
-    "historian"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:1466",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1466",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:42Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:42Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:42Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=1466 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:37:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1466."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "أبو حذيفة"
   },
-  "death_temporal": {
-    "start_ah": 206,
-    "start_ce": 821,
-    "approximation": "exact"
+  "description": {
+   "tr": "Tarihçi",
+   "en": "Historian"
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1466, heading_ar=أبو حذيفة || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 36.76, 66.9",
-  "active_in_places": [
-    "iac:place-00001521",
-    "iac:place-00002102"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Isḥāq b. Bashr b. Muḥammad b. ʿAbdallāh b. Sālim al-Hāshimī (mawlā), Abū Ḥudhayfah al-Bukhārī"
+  },
+  "altLabel": {
+   "tr": [
+    "İshâk b. Beşr b. Muhammed b. Abdullâh b. Sâlim el-Hâşimî (velâen), Ebû Hudayfe el-Buhârî"
+   ],
+   "ar": [
+    "إسحاق بن بشر بن محمد بن عبد الله بن سالم الهاشمي بالولاء، أبو حذيفة البخاري"
+   ]
+  }
+ },
+ "profession": [
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:1466",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1466",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "kunya": "أبو حذيفة"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:42Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:42Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:42Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=1466 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1466."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (2189-9395) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00002189 lehine yumuşak-silindi. Gerekçe: Ebû Huzeyfe el-Buhârî (İshak b. Bişr, ö. 206/821) her iki kayıtta da tarihçi ve Belh koordinatlı; Ebû Huzeyfe b. Utbe ile ilgisi yok."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00002189"
+ },
+ "death_temporal": {
+  "start_ah": 206,
+  "start_ce": 821,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1466, heading_ar=أبو حذيفة || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 36.76, 66.9",
+ "active_in_places": [
+  "iac:place-00001521",
+  "iac:place-00002102"
+ ],
+ "kunya": "أبو حذيفة"
 }

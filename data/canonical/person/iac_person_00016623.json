@@ -1,110 +1,117 @@
 {
-  "@id": "iac:person-00016623",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Zarkashī",
-      "tr": "Zerkişî",
-      "ar": "الزركشي"
-    },
-    "originalScript": {
-      "ar": "الزركشي"
-    },
-    "description": {
-      "tr": "Şâfiî fıkhı ve usûlü hakkında âlim",
-      "en": "A scholar of Shāfiʿī jurisprudence and principles"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Muhammad b. Bahādir b. ʿAbdallāh al-Zarkashī, Abū ʿAbdallāh, Badr al-Dīn"
-    },
-    "altLabel": {
-      "tr": [
-        "Muhammed b. Behâdir b. Abdullah ez-Zerkişî, Ebû Abdullah, Bedreddîn"
-      ],
-      "ar": [
-        "محمد بن بهادر بن عبد الله الزركشي ، أبو عبد الله، بدر الدين"
-      ]
-    }
+ "@id": "iac:person-00016623",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Zarkashī",
+   "tr": "Zerkişî",
+   "ar": "الزركشي"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:9495",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9495",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      },
-      {
-        "source_id": "dia-chunks:zerkesi-bedreddin",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "https://islamansiklopedisi.org.tr/zerkesi-bedreddin",
-        "extraction_method": "structured_json",
-        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:54Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:54Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:54Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=9495 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-10T16:23:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:9495."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "الزركشي"
   },
-  "death_temporal": {
-    "start_ah": 794,
-    "start_ce": 1392,
-    "approximation": "exact"
+  "description": {
+   "tr": "Şâfiî fıkhı ve usûlü hakkında âlim",
+   "en": "A scholar of Shāfiʿī jurisprudence and principles"
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9495, heading_ar=الزركشي || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
-  "authored_works": [
-    "iac:work-00000589",
-    "iac:work-00000988",
-    "iac:work-00001123",
-    "iac:work-00001502",
-    "iac:work-00002513",
-    "iac:work-00003284",
-    "iac:work-00005111",
-    "iac:work-00005324",
-    "iac:work-00005334",
-    "iac:work-00005827",
-    "iac:work-00006826",
-    "iac:work-00007345",
-    "iac:work-00007671",
-    "iac:work-00007739",
-    "iac:work-00008407"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muhammad b. Bahādir b. ʿAbdallāh al-Zarkashī, Abū ʿAbdallāh, Badr al-Dīn"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. Behâdir b. Abdullah ez-Zerkişî, Ebû Abdullah, Bedreddîn"
+   ],
+   "ar": [
+    "محمد بن بهادر بن عبد الله الزركشي ، أبو عبد الله، بدر الدين"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:9495",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9495",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:zerkesi-bedreddin",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/zerkesi-bedreddin",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
   ],
-  "kunya": "Ebû Abdullah"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:54Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:54Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:54Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=9495 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:9495."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (7824-16623) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00007824 lehine yumuşak-silindi. Gerekçe: Bedreddin ez-Zerkeşî (ö. 794/1392, Kahire) nisbe, yıl ve Kahire koordinatıyla tek kişidir."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00007824"
+ },
+ "death_temporal": {
+  "start_ah": 794,
+  "start_ce": 1392,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9495, heading_ar=الزركشي || Ziriklī century_ce=14 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+ "authored_works": [
+  "iac:work-00000589",
+  "iac:work-00000988",
+  "iac:work-00001123",
+  "iac:work-00001502",
+  "iac:work-00002513",
+  "iac:work-00003284",
+  "iac:work-00005111",
+  "iac:work-00005324",
+  "iac:work-00005334",
+  "iac:work-00005827",
+  "iac:work-00006826",
+  "iac:work-00007345",
+  "iac:work-00007671",
+  "iac:work-00007739",
+  "iac:work-00008407"
+ ],
+ "kunya": "Ebû Abdullah"
 }

@@ -1,75 +1,82 @@
 {
-  "@id": "iac:person-00000003",
-  "@type": [
-    "iac:Person",
-    "iac:Ruler"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "'Uthmān"
-    },
-    "description": {
-      "tr": "Hz. Peygamber'in damadı (eşi Ruqayya); isyancılar tarafından öldürüldü; fitne kapısı açıldı"
-    }
+ "@id": "iac:person-00000003",
+ "@type": [
+  "iac:Person",
+  "iac:Ruler"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "'Uthmān"
   },
-  "profession": [
-    "ruler"
+  "description": {
+   "tr": "Hz. Peygamber'in damadı (eşi Ruqayya); isyancılar tarafından öldürüldü; fitne kapısı açıldı"
+  }
+ },
+ "profession": [
+  "ruler"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "bosworth-nid:1:ruler:2",
+    "source_type": "secondary_scholarly",
+    "page_or_locator": "Bosworth, New Islamic Dynasties, NID-001, ruler #3",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "bosworth-nid:1:ruler:2",
-        "source_type": "secondary_scholarly",
-        "page_or_locator": "Bosworth, New Islamic Dynasties, NID-001, ruler #3",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Bosworth, New Islamic Dynasties (Edinburgh University Press 2004)."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_from_bosworth_rulers",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T14:58:53Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T14:58:53Z",
-    "modified": "2026-07-12T14:15:21Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T14:58:53Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Promoted from inline rulers[2] of iac:dynasty-00000001 (The Rightly-Guided or 'Patriarchal' or 'Orthodox' Caliphs) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[2].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-12T14:15:21Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "h11_001 QID karantinası: wikidata:Q12557 kayıttan çıkarıldı (denetim MISMATCH, sim=31, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
-      }
-    ],
-    "deprecated": false
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_from_bosworth_rulers",
+   "pipeline_version": "v0.1.0"
   },
-  "affiliated_dynasties": [
-    "iac:dynasty-00000001"
+  "generated_at": "2026-05-04T14:58:53Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:53Z",
+  "modified": "2026-07-12T14:15:21Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:53Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Promoted from inline rulers[2] of iac:dynasty-00000001 (The Rightly-Guided or 'Patriarchal' or 'Orthodox' Caliphs) by bosworth-rulers-fixup adapter (Hafta 4). dual-write: original rulers[] retained on dynasty record; rulers[2].person_pid + had_ruler[] populated by integrity/promote_rulers.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:15:21Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "h11_001 QID karantinası: wikidata:Q12557 kayıttan çıkarıldı (denetim MISMATCH, sim=31, doğrulayıcı sinyal yok; kanıt qid_quarantine.json)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3-6242-14065) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00014065 lehine yumuşak-silindi. Gerekçe: Üçü de 656'da öldürülen Halife Osman b. Affân'dır; Tâif doğum yeri ve عثمان بن عفان biçimi aynı şahsı doğrular, nesep eki (kız/oğul) taşıyan yabancı kayıt yok."
+   }
   ],
-  "laqab": [
-    "Khalīfa / Amīr al-Mu'minīn"
-  ],
-  "floruit_temporal": {
-    "start_ce": 644,
-    "end_ce": 656,
-    "start_ah": 23,
-    "end_ah": 35,
-    "approximation": "floruit"
-  },
-  "death_temporal": {
-    "start_ce": 656,
-    "approximation": "circa",
-    "start_ah": 35,
-    "note": "Inferred from Bosworth reign_end (often ≈ year of death)."
-  },
-  "note": "Bosworth relation note: Şûrâ (danışma meclisi) ile seçildi || Bosworth death code: k. (killed in rebellion) || Promoted from iac:dynasty-00000001 rulers[2] (Bosworth NID-001)."
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00014065"
+ },
+ "affiliated_dynasties": [
+  "iac:dynasty-00000001"
+ ],
+ "laqab": [
+  "Khalīfa / Amīr al-Mu'minīn"
+ ],
+ "floruit_temporal": {
+  "start_ce": 644,
+  "end_ce": 656,
+  "start_ah": 23,
+  "end_ah": 35,
+  "approximation": "floruit"
+ },
+ "death_temporal": {
+  "start_ce": 656,
+  "approximation": "circa",
+  "start_ah": 35,
+  "note": "Inferred from Bosworth reign_end (often ≈ year of death)."
+ },
+ "note": "Bosworth relation note: Şûrâ (danışma meclisi) ile seçildi || Bosworth death code: k. (killed in rebellion) || Promoted from iac:dynasty-00000001 rulers[2] (Bosworth NID-001)."
 }

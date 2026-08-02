@@ -1,80 +1,87 @@
 {
-  "@id": "iac:person-00002296",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "tr": "EBÛ YA‘KŪB en-NEHRECÛRÎ",
-      "ar": "أبو يعقوب النهرجوري"
-    },
-    "originalScript": {
-      "ar": "أبو يعقوب النهرجوري"
-    },
-    "altLabel": {
-      "tr": [
-        "Ebû Ya‘kūb İshâk b. Muhammed en-Nehrecûrî"
-      ]
-    },
-    "description": {
-      "tr": "Basra ile Abadan arasında bulunan Nehrecûr’da doğdu. Cüneyd-i Bağdâdî ve Amr b. Osman el-Mekkî gibi tanınmış sûfîlerle arkadaşlık etti. Ebû Ya‘kūb es-Sûsî’nin öğrencisi oldu. Uzun yıllar Mekke’de yaşadı ve orada vefat etti. Kelâbâzî onu eser sahibi sûfîler arasında sayarsa da kaynaklarda herhangi bir eserine rastlanmamaktadır. Nehrecûrî’ye göre âbid Allah’a endişe ile ibadet eder, ârif ise O’na özlemle yaklaşır. Allah’ı bilen O’ndan gafil olmaz. Mânevî hallerin en faziletlisi şeriat ilmine uygun olanıdır. Nitekim bu düşüncesi sebebiyle çağdaşı Hallâc’ın görüşlerini reddetmiştir. Nehrecûrî’nin yakīn kavramı hakkındaki görüşleri dikkat çekicidir. Ona göre kul yakīnin hakikatine tam olarak ulaştığında onun nazarında belâlar nimet, rahatlık ise musibet halini alır. Gözlerin gördüğüne ilim, kalplerin gördüğüne ise yakīn denir. Kul kısmete razı olursa yakīni kemale erer. Arştan arza kadar bütün sebeplerle ilgiyi kesmedikçe, yani gerçek sebebin Allah olduğunu idrak etmedikçe yakīne ulaşılamaz. Her şeyde tek müessir Allah’tır. Yakīndeki artışın sonu yoktur; kişinin dindeki anlayış ve derinliği arttığı nisbette yakīni de artar. Yakīn, gayb halindeki imanın âdeta müşahedeye dönüşmesidir. Ona göre kişinin Allah hakkındaki bilgisi arttıkça hayreti de artar. Allah’ı en iyi bilen, O’nun huzurunda en fazla hayrete düşendir. Bir kimse tevhid yoluna taklitle koyulursa mârifetten uzak kalır. Kötü zandan sakınmak, insanların bize karşı kötü zan beslemesine yol açacak davranışlardan kaçınmamız anlamına gelir. Şükrü eda edilen nimet son bulmaz, nankörlük edilen nimet ise devam etmez. Amellerin en faziletlisi ilme uygun olanıdır. Dünya bir deniz, âhiret onun sahilidir; bu sahile ulaşmak ancak takvâ gemisiyle mümkün olur. Allah’a götüren yol hakkında sorulan bir soruya, “Cahillerden sakın, âlimlerle dost ol, ilme sarıl, zikre devam et. Böyle yaparsan yol ehli olursun” cevabını vermiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 252 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
-    }
+ "@id": "iac:person-00002296",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "EBÛ YA‘KŪB en-NEHRECÛRÎ",
+   "ar": "أبو يعقوب النهرجوري"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "dia:ebu-yakub-en-nehrecuri",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "DİA, slug=ebu-yakub-en-nehrecuri, https://islamansiklopedisi.org.tr/ebu-yakub-en-nehrecuri",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
-      },
-      {
-        "source_id": "dia-chunks:ebu-yakub-en-nehrecuri",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-yakub-en-nehrecuri",
-        "extraction_method": "structured_json",
-        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_dia",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:33:57Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:33:57Z",
-    "modified": "2026-07-10T16:23:25Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:33:57Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from DİA slug=ebu-yakub-en-nehrecuri (1 chunks) by dia adapter (Hafta 4)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-10T16:23:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "أبو يعقوب النهرجوري"
   },
-  "nisba": [
-    "Nehrecûrî"
-  ],
-  "death_temporal": {
-    "start_ah": 330,
-    "start_ce": 941,
-    "approximation": "exact"
+  "altLabel": {
+   "tr": [
+    "Ebû Ya‘kūb İshâk b. Muhammed en-Nehrecûrî"
+   ]
   },
-  "note": "DİA cross-reference: slug=ebu-yakub-en-nehrecuri, URL: https://islamansiklopedisi.org.tr/ebu-yakub-en-nehrecuri || DİA birth place: Nehrecûr || DİA death place: Mekke || DİA death-date string: (ö. 330/941) || Chunk count: 1"
+  "description": {
+   "tr": "Basra ile Abadan arasında bulunan Nehrecûr’da doğdu. Cüneyd-i Bağdâdî ve Amr b. Osman el-Mekkî gibi tanınmış sûfîlerle arkadaşlık etti. Ebû Ya‘kūb es-Sûsî’nin öğrencisi oldu. Uzun yıllar Mekke’de yaşadı ve orada vefat etti. Kelâbâzî onu eser sahibi sûfîler arasında sayarsa da kaynaklarda herhangi bir eserine rastlanmamaktadır. Nehrecûrî’ye göre âbid Allah’a endişe ile ibadet eder, ârif ise O’na özlemle yaklaşır. Allah’ı bilen O’ndan gafil olmaz. Mânevî hallerin en faziletlisi şeriat ilmine uygun olanıdır. Nitekim bu düşüncesi sebebiyle çağdaşı Hallâc’ın görüşlerini reddetmiştir. Nehrecûrî’nin yakīn kavramı hakkındaki görüşleri dikkat çekicidir. Ona göre kul yakīnin hakikatine tam olarak ulaştığında onun nazarında belâlar nimet, rahatlık ise musibet halini alır. Gözlerin gördüğüne ilim, kalplerin gördüğüne ise yakīn denir. Kul kısmete razı olursa yakīni kemale erer. Arştan arza kadar bütün sebeplerle ilgiyi kesmedikçe, yani gerçek sebebin Allah olduğunu idrak etmedikçe yakīne ulaşılamaz. Her şeyde tek müessir Allah’tır. Yakīndeki artışın sonu yoktur; kişinin dindeki anlayış ve derinliği arttığı nisbette yakīni de artar. Yakīn, gayb halindeki imanın âdeta müşahedeye dönüşmesidir. Ona göre kişinin Allah hakkındaki bilgisi arttıkça hayreti de artar. Allah’ı en iyi bilen, O’nun huzurunda en fazla hayrete düşendir. Bir kimse tevhid yoluna taklitle koyulursa mârifetten uzak kalır. Kötü zandan sakınmak, insanların bize karşı kötü zan beslemesine yol açacak davranışlardan kaçınmamız anlamına gelir. Şükrü eda edilen nimet son bulmaz, nankörlük edilen nimet ise devam etmez. Amellerin en faziletlisi ilme uygun olanıdır. Dünya bir deniz, âhiret onun sahilidir; bu sahile ulaşmak ancak takvâ gemisiyle mümkün olur. Allah’a götüren yol hakkında sorulan bir soruya, “Cahillerden sakın, âlimlerle dost ol, ilme sarıl, zikre devam et. Böyle yaparsan yol ehli olursun” cevabını vermiştir. Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 10. cildinde, 252 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "dia:ebu-yakub-en-nehrecuri",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA, slug=ebu-yakub-en-nehrecuri, https://islamansiklopedisi.org.tr/ebu-yakub-en-nehrecuri",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+   },
+   {
+    "source_id": "dia-chunks:ebu-yakub-en-nehrecuri",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/ebu-yakub-en-nehrecuri",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_dia",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:33:57Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:33:57Z",
+  "modified": "2026-07-10T16:23:25Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:33:57Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from DİA slug=ebu-yakub-en-nehrecuri (1 chunks) by dia adapter (Hafta 4)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (2296-9408) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00009408 lehine yumuşak-silindi. Gerekçe: Ebû Ya'kūb en-Nehrecûrî (ö. 330/941, Mekke'de vefat) ile A'lam'ın 'en-Nehrecûrî' kaydı aynı nisbe, aynı yıl ve Hicaz koordinatı (22.0/40.0) ile örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00009408"
+ },
+ "nisba": [
+  "Nehrecûrî"
+ ],
+ "death_temporal": {
+  "start_ah": 330,
+  "start_ce": 941,
+  "approximation": "exact"
+ },
+ "note": "DİA cross-reference: slug=ebu-yakub-en-nehrecuri, URL: https://islamansiklopedisi.org.tr/ebu-yakub-en-nehrecuri || DİA birth place: Nehrecûr || DİA death place: Mekke || DİA death-date string: (ö. 330/941) || Chunk count: 1"
 }

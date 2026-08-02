@@ -67,10 +67,27 @@ def test_olum_yili_farkli_kume_yok(doc):
 
 
 def test_yargi_kalibrasyonu_kayitli():
-    """Kalibrasyon ölçümü kaybolmasın — güven eşiğinin gerekçesi budur."""
+    """Kalibrasyon ölçümü kaybolmasın — güven eşiğinin gerekçesi budur.
+
+    TARİHÇE (dürüstlük kaydı): bu test ilk yazıldığında `kesin` katmanda
+    `hayir == 0` bekliyordu; 150 kümelik iki örneklemde gerçekten 0 çıkmıştı ve
+    "kesin katmanı tam taramaya gerek yok" varsayımının dayanağıydı. TAM TARAMA
+    (945 küme) o varsayımı ÇÜRÜTTÜ: 6 gerçek yanlış küme bulundu (%0,6).
+    Örneklem 0 gösterdi diye popülasyon 0 değildir — H10'da öğrenilen
+    "popülasyon ölçümü nihai hakemdir" kuralının bir örneği daha.
+
+    Test artık 0 değil, ORAN bekliyor: kesin katman %2'nin altında kalmalı.
+    Üstüne çıkarsa ölçüt (ölüm yılı birebir + kaynak ayrıklığı) gerçekten
+    zayıflamış demektir ve yeniden kalibre edilmelidir.
+    """
     if not JUDGE.is_file():
         pytest.skip("yargı yok")
     d = json.loads(JUDGE.read_text(encoding="utf-8"))
-    g = d.get("guven_isabeti", {})
-    assert g.get("kesin", {}).get("hayir", 1) == 0, \
-        "'kesin' katmanda yanlış küme çıkmış — eşik yeniden kalibre edilmeli"
+    k = d.get("guven_isabeti", {}).get("kesin", {})
+    n = sum(k.values())
+    if n < 50:
+        pytest.skip("kesin katmanda anlamlı örneklem yok")
+    oran = k.get("hayir", 0) / n
+    assert oran < 0.02, (
+        f"'kesin' katmanda yanlış oranı %{oran*100:.1f} (n={n}) — eşik zayıflamış, "
+        "ölçüt yeniden kalibre edilmeli")

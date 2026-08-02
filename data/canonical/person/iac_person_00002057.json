@@ -1,81 +1,88 @@
 {
-  "@id": "iac:person-00002057",
-  "@type": [
-    "iac:Person",
-    "iac:Poet"
-  ],
-  "labels": {
-    "prefLabel": {
-      "tr": "DÎNEVERÎ, Nasr b. Ya‘kūb",
-      "ar": "نصر بن يعقوب الدينوري"
-    },
-    "originalScript": {
-      "ar": "نصر بن يعقوب الدينوري"
-    },
-    "altLabel": {
-      "tr": [
-        "Ebû Sa‘d (Saîd) Nasr b. Ya‘kūb ed-Dîneverî Daha çok et-Taʿbîrü’l-Ḳādirî adlı eseriyle tanınan müellif, kâtip ve şair."
-      ]
-    },
-    "description": {
-      "tr": "Hayatına dair yeterli bilgi bulunmamaktadır. Eserleri ve hakkında söylenenler dikkate alındığında kabiliyetli ve çok yönlü bir edip ve sanatkâr olduğu anlaşılır. Büveyhîler’in meşhur veziri İbn Abbâd (ö. 385/995), okuduğu bir eseri ve şiiriyle ilgili olarak Dîneverî’ye yazdığı mektupta ilmî ve edebî şahsiyetinden, karakterinden övgüyle söz etmektedir (bk. Seâlibî, IV, 449-450). Dîneverî, Sultan Mahmûd-ı Gaznevî devrinde (998-1030) Dîvân-ı İnşâ’da kâtip olarak çalışmış ve bu sırada Abbâsî Halifesi Kādir-Billâh’a gönderilen mektupları o kaleme almıştır. Bir süre Nîşâbur’da malî işlerle ilgili bir görevde bulunan Dîneverî’nin yaklaşık 410 (1020) yılında vefat ettiği tahmin edilmektedir. Çok şiir yazdığı kaydedilmekle beraber bir divanının bulunup bulunmadığı bilinmemektedir. Ancak büyük bir bölümü İbn Abbâd ile Ebû Muhammed el-Hâzin gibi kişiler hakkında yazdığı kasidelerden ibaret olan şiirleri çeşitli edebî ve tarihî eserlerde yer almaktadır. Eserleri. et-Taʿbîrü’l-Ḳādirî (el-Ḳādirî fi’t-taʿbîr, el-Câmiʿu’l-kebîr fi’t-taʿbîr) . Rüya tabiri ve rüya tabircilerine dair olan bu eserini 397’de (1006) tamamlayıp Halife Kādir-Billâh’a sunmuştur. Eser, bu alanda yazılıp günümüze kadar gelebilen en eski kitaplardan biridir. Dîneverî eserinde 600 tabirci hakkında bilgi vermektedir (Beyazıt Devlet Ktp., nr. 3932; Hacı Selim Ağa Ktp., nr. 544; diğer nüshaları için bk. GAL [Ar.], IV, 329-330). Şehâbeddin İbn Arabşah tarafından manzum olarak Türkçe’ye çevrilen ( Keşfü’ẓ-ẓunûn , I, 417) et-Taʿbîrü’l-Ḳādirî ayrıca Farsça’ya da tercüme edilmiştir (Süleymaniye Ktp., Ayasofya, nr. 1718). Ebû Ali Hüseyin b. Hasan el-Halîlî’nin Münteḫabü’l-kelâm ʿalâ tefsîri’l-aḥlâm (Bulak 1284) adlı kitabı, el-Ḳādirî fi’t-taʿbîr ile İbn Sîrîn’e (ö. 110/729) isnat edilen Kitâbü Taʿbîri’r-rüʾyâ (Kahire 1281; Luknov 1874; Bombay 1879) adlı eserden yapılan seçmeleri ihtiva etmektedir. Dîneverî’nin kaynaklarda adı geçen diğer eserleri şunlardır: S̱imârü’l-üns fî teşbîhâti’l-fürs , Ravâʾiʿu’t-tevcîhât min (fî) bedâʾiʿi’t-teşbîhât , Ḥuḳḳatü’l-cevâhir fi’l-mefâḫir , Kitâbü’l-Edʿiye (Seâlibî, s. 450; Kütübî, IV, 196). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 359 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
-    }
+ "@id": "iac:person-00002057",
+ "@type": [
+  "iac:Person",
+  "iac:Poet"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "DÎNEVERÎ, Nasr b. Ya‘kūb",
+   "ar": "نصر بن يعقوب الدينوري"
   },
-  "profession": [
-    "poet",
-    "scribe"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "dia:dineveri-nasr-b-yakub",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "DİA, slug=dineveri-nasr-b-yakub, https://islamansiklopedisi.org.tr/dineveri-nasr-b-yakub",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
-      },
-      {
-        "source_id": "dia-chunks-v8:dineveri-nasr-b-yakub",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "DİA chunks (per-slug aggregated), slug=dineveri-nasr-b-yakub",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_dia",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:33:53Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:33:53Z",
-    "modified": "2026-05-17T04:23:19Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:33:53Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from DİA slug=dineveri-nasr-b-yakub (1 chunks) by dia adapter (Hafta 4)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-17T04:23:19Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0",
-        "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=dineveri-nasr-b-yakub)."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "نصر بن يعقوب الدينوري"
   },
-  "nisba": [
-    "Dîneverî; Taʿbîrü"
-  ],
-  "death_temporal": {
-    "start_ah": 410,
-    "start_ce": 1020,
-    "approximation": "exact"
+  "altLabel": {
+   "tr": [
+    "Ebû Sa‘d (Saîd) Nasr b. Ya‘kūb ed-Dîneverî Daha çok et-Taʿbîrü’l-Ḳādirî adlı eseriyle tanınan müellif, kâtip ve şair."
+   ]
   },
-  "note": "DİA cross-reference: slug=dineveri-nasr-b-yakub, URL: https://islamansiklopedisi.org.tr/dineveri-nasr-b-yakub || DİA death place: Nîşâbur || DİA death-date string: (ö. 410/1020 [?]) || DİA categories: şiir > tefsir > kelâm || Chunk count: 1"
+  "description": {
+   "tr": "Hayatına dair yeterli bilgi bulunmamaktadır. Eserleri ve hakkında söylenenler dikkate alındığında kabiliyetli ve çok yönlü bir edip ve sanatkâr olduğu anlaşılır. Büveyhîler’in meşhur veziri İbn Abbâd (ö. 385/995), okuduğu bir eseri ve şiiriyle ilgili olarak Dîneverî’ye yazdığı mektupta ilmî ve edebî şahsiyetinden, karakterinden övgüyle söz etmektedir (bk. Seâlibî, IV, 449-450). Dîneverî, Sultan Mahmûd-ı Gaznevî devrinde (998-1030) Dîvân-ı İnşâ’da kâtip olarak çalışmış ve bu sırada Abbâsî Halifesi Kādir-Billâh’a gönderilen mektupları o kaleme almıştır. Bir süre Nîşâbur’da malî işlerle ilgili bir görevde bulunan Dîneverî’nin yaklaşık 410 (1020) yılında vefat ettiği tahmin edilmektedir. Çok şiir yazdığı kaydedilmekle beraber bir divanının bulunup bulunmadığı bilinmemektedir. Ancak büyük bir bölümü İbn Abbâd ile Ebû Muhammed el-Hâzin gibi kişiler hakkında yazdığı kasidelerden ibaret olan şiirleri çeşitli edebî ve tarihî eserlerde yer almaktadır. Eserleri. et-Taʿbîrü’l-Ḳādirî (el-Ḳādirî fi’t-taʿbîr, el-Câmiʿu’l-kebîr fi’t-taʿbîr) . Rüya tabiri ve rüya tabircilerine dair olan bu eserini 397’de (1006) tamamlayıp Halife Kādir-Billâh’a sunmuştur. Eser, bu alanda yazılıp günümüze kadar gelebilen en eski kitaplardan biridir. Dîneverî eserinde 600 tabirci hakkında bilgi vermektedir (Beyazıt Devlet Ktp., nr. 3932; Hacı Selim Ağa Ktp., nr. 544; diğer nüshaları için bk. GAL [Ar.], IV, 329-330). Şehâbeddin İbn Arabşah tarafından manzum olarak Türkçe’ye çevrilen ( Keşfü’ẓ-ẓunûn , I, 417) et-Taʿbîrü’l-Ḳādirî ayrıca Farsça’ya da tercüme edilmiştir (Süleymaniye Ktp., Ayasofya, nr. 1718). Ebû Ali Hüseyin b. Hasan el-Halîlî’nin Münteḫabü’l-kelâm ʿalâ tefsîri’l-aḥlâm (Bulak 1284) adlı kitabı, el-Ḳādirî fi’t-taʿbîr ile İbn Sîrîn’e (ö. 110/729) isnat edilen Kitâbü Taʿbîri’r-rüʾyâ (Kahire 1281; Luknov 1874; Bombay 1879) adlı eserden yapılan seçmeleri ihtiva etmektedir. Dîneverî’nin kaynaklarda adı geçen diğer eserleri şunlardır: S̱imârü’l-üns fî teşbîhâti’l-fürs , Ravâʾiʿu’t-tevcîhât min (fî) bedâʾiʿi’t-teşbîhât , Ḥuḳḳatü’l-cevâhir fi’l-mefâḫir , Kitâbü’l-Edʿiye (Seâlibî, s. 450; Kütübî, IV, 196). Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 359 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız."
+  }
+ },
+ "profession": [
+  "poet",
+  "scribe"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "dia:dineveri-nasr-b-yakub",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA, slug=dineveri-nasr-b-yakub, https://islamansiklopedisi.org.tr/dineveri-nasr-b-yakub",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+   },
+   {
+    "source_id": "dia-chunks-v8:dineveri-nasr-b-yakub",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA chunks (per-slug aggregated), slug=dineveri-nasr-b-yakub",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), dia_chunks.json source; H8 dia_person_enrichment_v8 upgrade pass."
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_dia",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:33:53Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:33:53Z",
+  "modified": "2026-05-17T04:23:19Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:33:53Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from DİA slug=dineveri-nasr-b-yakub (1 chunks) by dia adapter (Hafta 4)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-17T04:23:19Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0",
+    "note": "H8 Stage 3 dia_person_enrichment_v8 (slug=dineveri-nasr-b-yakub)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (2057-19612) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00019612 lehine yumuşak-silindi. Gerekçe: Nasr b. Ya'kūb ed-Dîneverî (ö. 1020) ile el-A'lâm'ın Dînever/Kirmanşah koordinatlı ed-Dîneverî kaydı aynı yıl ve aynı nisbeyi taşıyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00019612"
+ },
+ "nisba": [
+  "Dîneverî; Taʿbîrü"
+ ],
+ "death_temporal": {
+  "start_ah": 410,
+  "start_ce": 1020,
+  "approximation": "exact"
+ },
+ "note": "DİA cross-reference: slug=dineveri-nasr-b-yakub, URL: https://islamansiklopedisi.org.tr/dineveri-nasr-b-yakub || DİA death place: Nîşâbur || DİA death-date string: (ö. 410/1020 [?]) || DİA categories: şiir > tefsir > kelâm || Chunk count: 1"
 }

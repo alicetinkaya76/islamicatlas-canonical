@@ -1,88 +1,95 @@
 {
-  "@id": "iac:person-00015560",
-  "@type": [
-    "iac:Person"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Ziyānī",
-      "tr": "Ziyânî",
-      "ar": "الزياني"
-    },
-    "originalScript": {
-      "ar": "الزياني"
-    },
-    "description": {
-      "tr": "Tarihçi, vezirlerden biri.",
-      "en": "A historian, one of the viziers."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Abū al-Qāsim b. Ahmad b. ʿAlī b. Ibrāhīm al-Ziyānī"
-    },
-    "altLabel": {
-      "tr": [
-        "Ebû'l-Kâsım b. Ahmed b. Ali b. İbrâhîm ez-Ziyânî"
-      ],
-      "ar": [
-        "أبو القاسم بن أحمد بن علي بن إبراهيم الزياني"
-      ]
-    }
+ "@id": "iac:person-00015560",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Ziyānī",
+   "tr": "Ziyânî",
+   "ar": "الزياني"
   },
-  "profession": [
-    "historian"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:8335",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=8335",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:43Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:43Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:43Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=8335 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:38:17Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:8335."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "الزياني"
   },
-  "death_temporal": {
-    "start_ah": 1249,
-    "start_ce": 1833,
-    "approximation": "exact"
+  "description": {
+   "tr": "Tarihçi, vezirlerden biri.",
+   "en": "A historian, one of the viziers."
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=8335, heading_ar=الزياني || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 34.03, -5.0",
-  "active_in_places": [
-    "iac:place-00009014"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Abū al-Qāsim b. Ahmad b. ʿAlī b. Ibrāhīm al-Ziyānī"
+  },
+  "altLabel": {
+   "tr": [
+    "Ebû'l-Kâsım b. Ahmed b. Ali b. İbrâhîm ez-Ziyânî"
+   ],
+   "ar": [
+    "أبو القاسم بن أحمد بن علي بن إبراهيم الزياني"
+   ]
+  }
+ },
+ "profession": [
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:8335",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=8335",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "kunya": "أبو القاسم"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:43Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:43Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:43Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=8335 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:17Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:8335."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (312-7864-15560) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000312 lehine yumuşak-silindi. Gerekçe: Üçü de Zeyyânî nisbesini (الزياني), 1833 ölüm yılını, tarihçiliği ve Fas/Fes bağlantısını paylaşıyor; et-Tercümânetü'l-Kübrâ müellifi Ebü'l-Kāsım ile aynıdır."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000312"
+ },
+ "death_temporal": {
+  "start_ah": 1249,
+  "start_ce": 1833,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=8335, heading_ar=الزياني || Ziriklī century_ce=19 || Ziriklī place coords (city/region of activity): 34.03, -5.0",
+ "active_in_places": [
+  "iac:place-00009014"
+ ],
+ "kunya": "أبو القاسم"
 }

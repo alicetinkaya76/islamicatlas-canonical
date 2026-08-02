@@ -1,89 +1,96 @@
 {
-  "@id": "iac:person-00018189",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00018189",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Bukhshī",
+   "tr": "el-Buhşî",
+   "ar": "البخشي"
+  },
+  "originalScript": {
+   "ar": "البخشي"
+  },
+  "description": {
+   "tr": "Fıkıh âlimi, mutasavvıf",
+   "en": "Jurist, mystic"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muḥammad b. Muḥammad al-Bukhshī al-Khalwatī al-Biqfālūnī al-Ḥalebī al-Shāfiʿī"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. Muhammed el-Buhşî el-Hulûtî el-Bikfâlûnî el-Halebî eş-Şâfiʿî"
+   ],
+   "ar": [
+    "محمد بن محمد البخشي الخلوتي البكفالوني الحلبي الشافعي"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:11240",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11240",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Bukhshī",
-      "tr": "el-Buhşî",
-      "ar": "البخشي"
-    },
-    "originalScript": {
-      "ar": "البخشي"
-    },
-    "description": {
-      "tr": "Fıkıh âlimi, mutasavvıf",
-      "en": "Jurist, mystic"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Muḥammad b. Muḥammad al-Bukhshī al-Khalwatī al-Biqfālūnī al-Ḥalebī al-Shāfiʿī"
-    },
-    "altLabel": {
-      "tr": [
-        "Muhammed b. Muhammed el-Buhşî el-Hulûtî el-Bikfâlûnî el-Halebî eş-Şâfiʿî"
-      ],
-      "ar": [
-        "محمد بن محمد البخشي الخلوتي البكفالوني الحلبي الشافعي"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:37:15Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:37:15Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:37:15Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=11240 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:53Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:11240."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1302-18189) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001302 lehine yumuşak-silindi. Gerekçe: Her iki kayıtta da Arapça ad birebir البخشي ve ölüm yılı 1687; Mekke koordinatı DİA'daki Bekfelûn doğum yeriyle çelişmez (faaliyet yeri etiketi), ayırt edici bir bileşen bulunmuyor."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:11240",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11240",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:37:15Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:37:15Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:37:15Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=11240 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:37:53Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 2 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:11240."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 1098,
-    "start_ce": 1687,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11240, heading_ar=البخشي || Ziriklī century_ce=17 || Ziriklī place coords (city/region of activity): 21.39, 39.86",
-  "active_in_places": [
-    "iac:place-00003866",
-    "iac:place-00011505"
-  ]
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001302"
+ },
+ "death_temporal": {
+  "start_ah": 1098,
+  "start_ce": 1687,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11240, heading_ar=البخشي || Ziriklī century_ce=17 || Ziriklī place coords (city/region of activity): 21.39, 39.86",
+ "active_in_places": [
+  "iac:place-00003866",
+  "iac:place-00011505"
+ ]
 }

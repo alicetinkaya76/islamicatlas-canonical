@@ -1,79 +1,86 @@
 {
-  "@id": "iac:person-00014315",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00014315",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Makhdum al-Mehāimī",
+   "tr": "el-Mahdum el-Mehâimî",
+   "ar": "المخدوم المهائمي"
+  },
+  "originalScript": {
+   "ar": "المخدوم المهائمي"
+  },
+  "description": {
+   "tr": "Araştırmacı müfessir, vahdeti'l-vücûd mezhebine ait idi.",
+   "en": "Investigative exegete, he held the doctrine of unity of being."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAlī b. Aḥmad b. ʿAlī al-Mehāimī al-Hindī, Abū al-Ḥasan, ʿAlāʾ al-Dīn, known as al-Makhdum, of the Nawāʾit"
+  },
+  "altLabel": {
+   "tr": [
+    "Alî b. Ahmed b. Alî el-Mehâimî el-Hindî, Ebü'l-Hasan, Alâüddîn, el-Maʿrûf el-Mahdum, mine'n-Nuvâit"
+   ],
+   "ar": [
+    "علي بن أحمد بن علي المهائمي الهندي، ابو الحسن، علاء الدين، المعروفبالمخدوم، من النوائت"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:6955",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6955",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Makhdum al-Mehāimī",
-      "tr": "el-Mahdum el-Mehâimî",
-      "ar": "المخدوم المهائمي"
-    },
-    "originalScript": {
-      "ar": "المخدوم المهائمي"
-    },
-    "description": {
-      "tr": "Araştırmacı müfessir, vahdeti'l-vücûd mezhebine ait idi.",
-      "en": "Investigative exegete, he held the doctrine of unity of being."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "ʿAlī b. Aḥmad b. ʿAlī al-Mehāimī al-Hindī, Abū al-Ḥasan, ʿAlāʾ al-Dīn, known as al-Makhdum, of the Nawāʾit"
-    },
-    "altLabel": {
-      "tr": [
-        "Alî b. Ahmed b. Alî el-Mehâimî el-Hindî, Ebü'l-Hasan, Alâüddîn, el-Maʿrûf el-Mahdum, mine'n-Nuvâit"
-      ],
-      "ar": [
-        "علي بن أحمد بن علي المهائمي الهندي، ابو الحسن، علاء الدين، المعروفبالمخدوم، من النوائت"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:36:29Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:29Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:29Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=6955 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:6955."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (5296-14315) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00005296 lehine yumuşak-silindi. Gerekçe: Hindistan Mehâim'li Ali b. Ahmed el-Mehâimî (ö. 835/1432) 'el-Mahdûm' lakabıyla anılır; nisbe, lakab, yıl ve Hindistan koordinatı örtüşüyor."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:6955",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6955",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:29Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:29Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:29Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=6955 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:6955."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 835,
-    "start_ce": 1432,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6955, heading_ar=المخدوم المهائمي || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 23.0, 78.0",
-  "kunya": "أبو الحسن"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00005296"
+ },
+ "death_temporal": {
+  "start_ah": 835,
+  "start_ce": 1432,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6955, heading_ar=المخدوم المهائمي || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 23.0, 78.0",
+ "kunya": "أبو الحسن"
 }

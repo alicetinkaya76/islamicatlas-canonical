@@ -1,79 +1,86 @@
 {
-  "@id": "iac:person-00015488",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00015488",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Faḍl b. Yaḥyā",
+   "tr": "Fadl b. Yahya",
+   "ar": "الفضل بن يحيى"
+  },
+  "originalScript": {
+   "ar": "الفضل بن يحيى"
+  },
+  "description": {
+   "tr": "Abbâsî halifesi er-Reşîd'in veziri ve emzik kardeşi. İnsanlar arasında en cömert olanlardan biri idi",
+   "en": "Vizier of the Abbasid caliph al-Rashīd and his milk-brother. He was among the most generous of peopl"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "al-Faḍl b. Yaḥyā b. Khālid al-Barmakī"
+  },
+  "altLabel": {
+   "tr": [
+    "Fadl b. Yahya b. Halid el-Bermekî"
+   ],
+   "ar": [
+    "الفضل بن يحيى بن خالد البرمكي"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:8254",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=8254",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Faḍl b. Yaḥyā",
-      "tr": "Fadl b. Yahya",
-      "ar": "الفضل بن يحيى"
-    },
-    "originalScript": {
-      "ar": "الفضل بن يحيى"
-    },
-    "description": {
-      "tr": "Abbâsî halifesi er-Reşîd'in veziri ve emzik kardeşi. İnsanlar arasında en cömert olanlardan biri idi",
-      "en": "Vizier of the Abbasid caliph al-Rashīd and his milk-brother. He was among the most generous of peopl"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "al-Faḍl b. Yaḥyā b. Khālid al-Barmakī"
-    },
-    "altLabel": {
-      "tr": [
-        "Fadl b. Yahya b. Halid el-Bermekî"
-      ],
-      "ar": [
-        "الفضل بن يحيى بن خالد البرمكي"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:36:42Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:42Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:42Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=8254 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:8254."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (2698-15488) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00002698 lehine yumuşak-silindi. Gerekçe: \"el-Fazl b. Yahyâ el-Bermekî\" ile \"el-Fazl b. Yahyâ\" nesep zinciri birebir aynı ve her ikisi de 193/808'de ölmüştür; ikinci kayıtta yalnız hânedan nisbesi düşmüştür."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:8254",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=8254",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:42Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:42Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:42Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=8254 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:8254."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 193,
-    "start_ce": 808,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=8254, heading_ar=الفضل بن يحيى || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 33.31, 44.37",
-  "kunya": "أبو الفضل"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00002698"
+ },
+ "death_temporal": {
+  "start_ah": 193,
+  "start_ce": 808,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=8254, heading_ar=الفضل بن يحيى || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 33.31, 44.37",
+ "kunya": "أبو الفضل"
 }

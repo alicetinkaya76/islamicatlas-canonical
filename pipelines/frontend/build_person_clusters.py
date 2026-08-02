@@ -197,11 +197,20 @@ def main() -> None:
     # ya da dışarıda paylaşılmış bir #scholars?pid= linki) BOŞ EKRANA düşerdi.
     # ÖLÇÜLDÜ: birleştirmeden hemen sonra 17 kitabın 5'inin müellif bağı koptu.
     # Yönlendirme haritası bunu kapatır: tüketici eski pid'i kazanana çevirir.
+    # KAYNAK: canonical kayıtların kendisi (ledger DEĞİL). Ledger denetim/geri
+    # alma içindir; yönlendirmenin doğruluğu ondan bağımsız olmalı. Ölçüldü:
+    # ikinci tur ledger'ı ezince ilk turun kayıtları kaybolmuştu — yönlendirme
+    # ledger'a bağlı kalsaydı 544 bağ sessizce kopardı.
     redir = {}
-    if MERGE_LEDGER.is_file():
-        for m in json.loads(MERGE_LEDGER.read_text(encoding="utf-8"))["merges"]:
-            for kayb in m["kaybedenler"]:
-                redir[str(_num(kayb))] = _num(m["kazanan"])
+    for f in sorted((REPO / "data" / "canonical" / "person").glob("*.json")):
+        try:
+            r = json.loads(f.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        prov = r.get("provenance") or {}
+        hedef = prov.get("deprecated_in_favor_of")
+        if prov.get("deprecated") and hedef:
+            redir[str(_num(r.get("@id")))] = _num(hedef)
     REDIR.write_text(json.dumps({
         "_doc": ("Yumuşak-silinen pid → kazanan pid. Eski bağlar (kitap müellifi, "
                  "paylaşılmış derin linkler) kırılmasın diye; kaybeden pid canonical'da "

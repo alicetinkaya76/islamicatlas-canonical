@@ -1,89 +1,96 @@
 {
-  "@id": "iac:person-00018602",
-  "@type": [
-    "iac:Person",
-    "iac:Ruler"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Mawwāq",
-      "tr": "el-Muvâk",
-      "ar": "المواق"
-    },
-    "originalScript": {
-      "ar": "المواق"
-    },
-    "description": {
-      "tr": "Mâlikî fıkıh âlimi: kendi zamanında Granada'nın âlimi ve imamı ve ıslahçısı idi.",
-      "en": "A Mālikī jurist: he was the scholar, imam, and reformer of Granada in his time."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Muḥammad b. Yūsuf b. Abī al-Qāsim b. Yūsuf al-ʿAbdī al-Gharnāṭī, Abū ʿAbd Allāh al-Mawwāq"
-    },
-    "altLabel": {
-      "tr": [
-        "Muhammed b. Yûsuf b. Ebî el-Kâsım b. Yûsuf el-Abdî el-Garnatî, Ebû Abdillâh el-Muvâk"
-      ],
-      "ar": [
-        "محمد بن يوسف بن أبي القاسم بن يوسف العبدري الغرناطي، أبو عبد الله المواق"
-      ]
-    }
+ "@id": "iac:person-00018602",
+ "@type": [
+  "iac:Person",
+  "iac:Ruler"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Mawwāq",
+   "tr": "el-Muvâk",
+   "ar": "المواق"
   },
-  "profession": [
-    "ruler"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:11695",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11695",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:37:21Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:37:21Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:37:21Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=11695 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:38:15Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:11695."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "المواق"
   },
-  "death_temporal": {
-    "start_ah": 897,
-    "start_ce": 1492,
-    "approximation": "exact"
+  "description": {
+   "tr": "Mâlikî fıkıh âlimi: kendi zamanında Granada'nın âlimi ve imamı ve ıslahçısı idi.",
+   "en": "A Mālikī jurist: he was the scholar, imam, and reformer of Granada in his time."
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11695, heading_ar=المواق || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 37.18, -3.6",
-  "active_in_places": [
-    "iac:place-00008830"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muḥammad b. Yūsuf b. Abī al-Qāsim b. Yūsuf al-ʿAbdī al-Gharnāṭī, Abū ʿAbd Allāh al-Mawwāq"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed b. Yûsuf b. Ebî el-Kâsım b. Yûsuf el-Abdî el-Garnatî, Ebû Abdillâh el-Muvâk"
+   ],
+   "ar": [
+    "محمد بن يوسف بن أبي القاسم بن يوسف العبدري الغرناطي، أبو عبد الله المواق"
+   ]
+  }
+ },
+ "profession": [
+  "ruler"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:11695",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=11695",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "kunya": "أبو عبد الله"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:37:21Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:37:21Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:37:21Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=11695 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:15Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:11695."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (5506-18602) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00005506 lehine yumuşak-silindi. Gerekçe: Gırnatalı Mâlikî fakihi el-Mevvâk (ö. 897/1492) ile A'lâm kaydı aynı nisbe ve Gırnata koordinatında birleşiyor; 'ruler' etiketi rol çıkarım hatasıdır."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00005506"
+ },
+ "death_temporal": {
+  "start_ah": 897,
+  "start_ce": 1492,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=11695, heading_ar=المواق || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 37.18, -3.6",
+ "active_in_places": [
+  "iac:place-00008830"
+ ],
+ "kunya": "أبو عبد الله"
 }

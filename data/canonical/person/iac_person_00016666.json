@@ -1,88 +1,95 @@
 {
-  "@id": "iac:person-00016666",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00016666",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Muʿtazz al-ʿAbbāsī",
+   "tr": "El-Mu'tezz el-Abbâsî",
+   "ar": "المعتز العباسي"
+  },
+  "originalScript": {
+   "ar": "المعتز العباسي"
+  },
+  "description": {
+   "tr": "Abbâsî halifesi (el-Muntasır bi'llâh'ın kardeşidir) Sâmerrâ'da doğdu",
+   "en": "An Abbasid caliph (brother of al-Muntaṣir bi-Allāh) born in Samarra"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Muhammad al-Muʿtazz bi-Allāh b. Ja'far al-Mutawakkil ʿalā Allāh b. al-Muʿtaṣim"
+  },
+  "altLabel": {
+   "tr": [
+    "Muhammed el-Mu'tezz bi'llâh b. Ca'fer el-Mütevekkil alâ'llâh b. el-Mu'tasım"
+   ],
+   "ar": [
+    "محمد (المعتز بالله) بن جعفر (المتوكل على الله) بن المعتصم"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:9539",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9539",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Muʿtazz al-ʿAbbāsī",
-      "tr": "El-Mu'tezz el-Abbâsî",
-      "ar": "المعتز العباسي"
-    },
-    "originalScript": {
-      "ar": "المعتز العباسي"
-    },
-    "description": {
-      "tr": "Abbâsî halifesi (el-Muntasır bi'llâh'ın kardeşidir) Sâmerrâ'da doğdu",
-      "en": "An Abbasid caliph (brother of al-Muntaṣir bi-Allāh) born in Samarra"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Muhammad al-Muʿtazz bi-Allāh b. Ja'far al-Mutawakkil ʿalā Allāh b. al-Muʿtaṣim"
-    },
-    "altLabel": {
-      "tr": [
-        "Muhammed el-Mu'tezz bi'llâh b. Ca'fer el-Mütevekkil alâ'llâh b. el-Mu'tasım"
-      ],
-      "ar": [
-        "محمد (المعتز بالله) بن جعفر (المتوكل على الله) بن المعتصم"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:36:54Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:54Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:54Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=9539 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:02Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:9539."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (32-16666) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000032 lehine yumuşak-silindi. Gerekçe: 869'da öldürülen Abbâsî halifesi el-Mu'tez'dir; Sâmerrâ koordinatı ve 'el-Abbâsî' nisbesi tek bir kişiyi gösterir."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:9539",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=9539",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:54Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:54Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:54Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=9539 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:38:02Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:9539."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 255,
-    "start_ce": 869,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9539, heading_ar=المعتز العباسي || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 34.2, 43.88",
-  "active_in_places": [
-    "iac:place-00006219"
-  ]
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000032"
+ },
+ "death_temporal": {
+  "start_ah": 255,
+  "start_ce": 869,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=9539, heading_ar=المعتز العباسي || Ziriklī century_ce=9 || Ziriklī place coords (city/region of activity): 34.2, 43.88",
+ "active_in_places": [
+  "iac:place-00006219"
+ ]
 }

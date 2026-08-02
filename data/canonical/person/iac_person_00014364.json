@@ -1,101 +1,108 @@
 {
-  "@id": "iac:person-00014364",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Marghīnānī",
-      "tr": "Mergînânî",
-      "ar": "المرغيناني"
-    },
-    "originalScript": {
-      "ar": "المرغيناني"
-    },
-    "description": {
-      "tr": "Hanefî fıkhının en büyük bilginlerinden. Nisbesi Mergînân'a (Fergâne havalisinden). Hafız, müfessir,",
-      "en": "Among the greatest jurists of the Hanafi school. His nisba is attributed to Marghīnān (in the enviro"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "ʿAlī b. Abī Bakr b. ʿAbd al-Jalīl al-Farghānī al-Marghīnānī, Abū al-Hasan Burhān al-Dīn"
-    },
-    "altLabel": {
-      "tr": [
-        "Alî b. Ebî Bekr b. Abdülcelîl el-Fergânî el-Mergînânî, Ebul-Hasen Burhânüddîn",
-        "el-Mergînânî"
-      ],
-      "ar": [
-        "علي بن أبي بكر بن عبد الجليل الفرغاني المرغيناني ، أبو الحسن برهان الدين"
-      ]
-    }
+ "@id": "iac:person-00014364",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Marghīnānī",
+   "tr": "Mergînânî",
+   "ar": "المرغيناني"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:7006",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7006",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      },
-      {
-        "source_id": "alatli:E0202",
-        "source_type": "secondary_scholarly",
-        "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:30Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:30Z",
-    "modified": "2026-07-24T05:45:29Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:30Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=7006 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7006."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-24T05:45:29Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alatli augment (H25, Tier-2 conf 1.0): ['altLabel.tr', 'derived_from_layers']."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "المرغيناني"
   },
-  "death_temporal": {
-    "start_ah": 593,
-    "start_ce": 1197,
-    "approximation": "exact"
+  "description": {
+   "tr": "Hanefî fıkhının en büyük bilginlerinden. Nisbesi Mergînân'a (Fergâne havalisinden). Hafız, müfessir,",
+   "en": "Among the greatest jurists of the Hanafi school. His nisba is attributed to Marghīnān (in the enviro"
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7006, heading_ar=المرغيناني || Ziriklī century_ce=12 || Ziriklī place coords (city/region of activity): 25.4, 68.37",
-  "authored_works": [
-    "iac:work-00000953",
-    "iac:work-00003028"
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAlī b. Abī Bakr b. ʿAbd al-Jalīl al-Farghānī al-Marghīnānī, Abū al-Hasan Burhān al-Dīn"
+  },
+  "altLabel": {
+   "tr": [
+    "Alî b. Ebî Bekr b. Abdülcelîl el-Fergânî el-Mergînânî, Ebul-Hasen Burhânüddîn",
+    "el-Mergînânî"
+   ],
+   "ar": [
+    "علي بن أبي بكر بن عبد الجليل الفرغاني المرغيناني ، أبو الحسن برهان الدين"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:7006",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=7006",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "alatli:E0202",
+    "source_type": "secondary_scholarly",
+    "page_or_locator": "Tarihe Yön Veren Metinler, kanon=bize",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Alev Alatlı (der.), Tarihe Yön Veren Metinler, 9 cilt (Kapadokya Üniversitesi Yayınları, 2014/2021)."
+   }
   ],
-  "kunya": "أبو الحسن",
-  "derived_from_layers": [
-    "alatli"
-  ]
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:30Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:30Z",
+  "modified": "2026-07-24T05:45:29Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:30Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=7006 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:7006."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-24T05:45:29Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alatli augment (H25, Tier-2 conf 1.0): ['altLabel.tr', 'derived_from_layers']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (5443-14364) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00005443 lehine yumuşak-silindi. Gerekçe: el-Hidâye müellifi Burhâneddin el-Mergīnânî 593/1197'de vefat etmiştir; nisbe ve yıl birebir aynı olup koordinat gürültüsü ayırt edici değildir."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00005443"
+ },
+ "death_temporal": {
+  "start_ah": 593,
+  "start_ce": 1197,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=7006, heading_ar=المرغيناني || Ziriklī century_ce=12 || Ziriklī place coords (city/region of activity): 25.4, 68.37",
+ "authored_works": [
+  "iac:work-00000953",
+  "iac:work-00003028"
+ ],
+ "kunya": "أبو الحسن",
+ "derived_from_layers": [
+  "alatli"
+ ]
 }

@@ -1,100 +1,107 @@
 {
-  "@id": "iac:person-00000365",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00000365",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Safiyyuddin al-Urmawi",
+   "tr": "Safiyyüddîn el-Urmevî",
+   "ar": "صفي الدين الأرموي"
+  },
+  "originalScript": {
+   "ar": "صفي الدين الأرموي"
+  },
+  "altLabel": {
+   "en": [
+    "Safiyy al-Din Abd al-Mu'min ibn Yusuf al-Urmawi"
+   ],
+   "tr": [
+    "Safiyyüddîn Abdülmü'min b. Yûsuf el-Urmevî"
+   ],
+   "ar": [
+    "صفي الدين عبد المؤمن بن يوسف الأرموي"
+   ]
+  },
+  "description": {
+   "tr": "17 sesli dizi ile Arap müzik teorisini sistematize etti; nota sistemi oluşturdu; Fârâbî'nin teorisi ile Osmanlı/İran pratiği arasında köprü || Safiyyüddîn, Abbâsî Bağdat'ının son büyük müzik teorisyeniydi. Oktavın 17 sesli bölünmesi ve nota sistemi, yüzyıllar boyunca Osmanlı ve İran klasik müziğinin standardı oldu. || [Tarih notu] Wright'ın eleştirel edisyonu, Safiyyüddîn'in sistemini makam teorisinin temeli olarak ortaya koymuştur. Farmer ve Shiloah, onu el-Fârâbî'den modern Ortadoğu müziğine uzanan entelektüel soy ağacına yerleştirmiştir.",
+   "en": "Systematized Arabic musical theory with a 17-tone scale; created notation system; bridge between Farabi's theory and Ottoman/Persian practice || Safiyyuddin was the last great music theorist of Abbasid Baghdad. His 17-tone division of the octave and his notation system became the standard for Ottoman and Persian classical music for centuries. || [Historiographical note] Wright's critical edition established Safiyyuddin's system as the foundation of maqam theory. Farmer and Shiloah placed him in the intellectual lineage from al-Farabi through to modern Middle Eastern music.",
+   "ar": "نظّم نظرية الموسيقى العربية بسلّم ذي سبع عشرة درجة؛ ابتكر نظام تدوين؛ جسر بين نظرية الفارابي والممارسة العثمانية/الفارسية || كان صفي الدين آخر كبار منظّري الموسيقى في بغداد العباسية. أصبح تقسيمه للجواب إلى سبع عشرة درجة ونظام تدوينه معيارًا للموسيقى الكلاسيكية العثمانية والفارسية لقرون. || [Historiographical note] أثبتت الطبعة النقدية لرايت نظام صفي الدين أساسًا لنظرية المقام. ووضعه فارمر وشلواح في السلالة الفكرية من الفارابي إلى الموسيقى الشرق أوسطية الحديثة."
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0200",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0200",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   },
+   {
+    "source_id": "scholars:407",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=407",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "Safiyyuddin al-Urmawi",
-      "tr": "Safiyyüddîn el-Urmevî",
-      "ar": "صفي الدين الأرموي"
-    },
-    "originalScript": {
-      "ar": "صفي الدين الأرموي"
-    },
-    "altLabel": {
-      "en": [
-        "Safiyy al-Din Abd al-Mu'min ibn Yusuf al-Urmawi"
-      ],
-      "tr": [
-        "Safiyyüddîn Abdülmü'min b. Yûsuf el-Urmevî"
-      ],
-      "ar": [
-        "صفي الدين عبد المؤمن بن يوسف الأرموي"
-      ]
-    },
-    "description": {
-      "tr": "17 sesli dizi ile Arap müzik teorisini sistematize etti; nota sistemi oluşturdu; Fârâbî'nin teorisi ile Osmanlı/İran pratiği arasında köprü || Safiyyüddîn, Abbâsî Bağdat'ının son büyük müzik teorisyeniydi. Oktavın 17 sesli bölünmesi ve nota sistemi, yüzyıllar boyunca Osmanlı ve İran klasik müziğinin standardı oldu. || [Tarih notu] Wright'ın eleştirel edisyonu, Safiyyüddîn'in sistemini makam teorisinin temeli olarak ortaya koymuştur. Farmer ve Shiloah, onu el-Fârâbî'den modern Ortadoğu müziğine uzanan entelektüel soy ağacına yerleştirmiştir.",
-      "en": "Systematized Arabic musical theory with a 17-tone scale; created notation system; bridge between Farabi's theory and Ottoman/Persian practice || Safiyyuddin was the last great music theorist of Abbasid Baghdad. His 17-tone division of the octave and his notation system became the standard for Ottoman and Persian classical music for centuries. || [Historiographical note] Wright's critical edition established Safiyyuddin's system as the foundation of maqam theory. Farmer and Shiloah placed him in the intellectual lineage from al-Farabi through to modern Middle Eastern music.",
-      "ar": "نظّم نظرية الموسيقى العربية بسلّم ذي سبع عشرة درجة؛ ابتكر نظام تدوين؛ جسر بين نظرية الفارابي والممارسة العثمانية/الفارسية || كان صفي الدين آخر كبار منظّري الموسيقى في بغداد العباسية. أصبح تقسيمه للجواب إلى سبع عشرة درجة ونظام تدوينه معيارًا للموسيقى الكلاسيكية العثمانية والفارسية لقرون. || [Historiographical note] أثبتت الطبعة النقدية لرايت نظام صفي الدين أساسًا لنظرية المقام. ووضعه فارمر وشلواح في السلالة الفكرية من الفارابي إلى الموسيقى الشرق أوسطية الحديثة."
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T14:58:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:58:52Z",
+  "modified": "2026-07-12T14:48:04Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:58:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0200 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:39:33Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (365-6572-13851) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00006572 lehine yumuşak-silindi. Gerekçe: Üç kayıt da Urmevî nisbesini ve 1294 (693/H) ölüm yılını taşıyor; Ziriklî'nin Bağdat koordinatı Kitâbü'l-Edvâr müellifi Safiyyüddin Abdülmü'min'in faaliyet yeriyle uyuşuyor ve 1283'te ölen Sirâceddin el-Urmevî yıl farkıyla dışarıda kalıyor (üçüncü kayıttaki 'ruler' etiketi bu veri setinde yaygın rol gürültüsüdür)."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "science-layer:scholar_0200",
-        "source_type": "manual_editorial",
-        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0200",
-        "extraction_method": "structured_json",
-        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
-      },
-      {
-        "source_id": "scholars:407",
-        "source_type": "digital_corpus",
-        "page_or_locator": "scholars.csv scholar_id=407",
-        "extraction_method": "structured_json",
-        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_science_layer",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T14:58:52Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T14:58:52Z",
-    "modified": "2026-07-12T14:48:04Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T14:58:52Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0200 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:39:33Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 science_layer place linking: birth_place / active_in_places resolved against Yâqūt-derived place namespace."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-12T14:48:04Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      }
-    ],
-    "deprecated": false
-  },
-  "birth_temporal": {
-    "start_ce": 1216,
-    "approximation": "exact"
-  },
-  "death_temporal": {
-    "start_ce": 1294,
-    "approximation": "exact"
-  },
-  "note": "Promoted from science_layer.json scholar id=scholar_0200, lecture_week=n/a. || Key works: {'title': {'en': 'Kitab al-Adwar (Book of Musical Modes)', 'tr': \"Kitâbü'l-Edvâr (Makamlar Kitabı)\", 'ar': 'كتاب الأدوار'}, 'year': 1252, 'significance': {'en': 'Definitive systematization of Arabic musical theory with 17-tone scale', 'tr': '17 sesli dizi ile Arap müzik teorisinin kesin sistematizasyonu', 'ar': 'التنظيم النهائي لنظرية الموسيقى العربية بسلّم ذي سبع عشرة درجة'}} || Modern parallel: Like the inventor of MIDI — Safiyyuddin created a universal music encoding standard that let different traditions communicate.",
-  "birth_place": "iac:place-00013034",
-  "authored_works": [
-    "iac:work-00000224"
-  ]
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00006572"
+ },
+ "birth_temporal": {
+  "start_ce": 1216,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1294,
+  "approximation": "exact"
+ },
+ "note": "Promoted from science_layer.json scholar id=scholar_0200, lecture_week=n/a. || Key works: {'title': {'en': 'Kitab al-Adwar (Book of Musical Modes)', 'tr': \"Kitâbü'l-Edvâr (Makamlar Kitabı)\", 'ar': 'كتاب الأدوار'}, 'year': 1252, 'significance': {'en': 'Definitive systematization of Arabic musical theory with 17-tone scale', 'tr': '17 sesli dizi ile Arap müzik teorisinin kesin sistematizasyonu', 'ar': 'التنظيم النهائي لنظرية الموسيقى العربية بسلّم ذي سبع عشرة درجة'}} || Modern parallel: Like the inventor of MIDI — Safiyyuddin created a universal music encoding standard that let different traditions communicate.",
+ "birth_place": "iac:place-00013034",
+ "authored_works": [
+  "iac:work-00000224"
+ ]
 }

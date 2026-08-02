@@ -1,106 +1,113 @@
 {
-  "@id": "iac:person-00000787",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00000787",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "AHMED el-MÜCÂHİD",
+   "ar": "أحمد المجاهد"
+  },
+  "originalScript": {
+   "ar": "أحمد المجاهد"
+  },
+  "altLabel": {
+   "tr": [
+    "Ahmed Gran b. İbrâhîm el-Mücâhid",
+    "Ahmed b. Abdurrahman b. Abdullah el-Mücâhid"
+   ],
+   "ar": [
+    "أحمد بن عبد الرحمن بن عبد الله المجاهد"
+   ]
+  },
+  "description": {
+   "tr": "Abad Emirliği’nin Hubat bölgesinde 1506’da doğduğu rivayet edilmektedir. Habeş kaynaklarında Gran (solak) lakabıyla anılan Ahmed el-Mücâhid, emîr olduktan sonra devlet idaresinde büyük değişiklikler yaptı ve 1527’den itibaren de Habeşistan Krallığı’na karşı cihad açtı. Kısa bir zaman içinde Zeyla‘dan Masavva‘a kadar bütün sahili idaresi altına alarak ülkenin büyük bir kısmına sahip oldu. Buna karşılık Portekizliler’le temas halinde bulunan Habeş Hükümdarı Lebna Dengel (II. David), onlardan sağladığı yardımla kendi durumunu takviye edince Ahmed el-Mücâhid de Zebîd’deki Osmanlı beylerbeyi vasıtasıyla Osmanlı Devleti’ne müracaat etti. Ahmed el-Mücâhid, Habeşistan’ı fethetmek için başladığı ve 1543’e kadar sürdürdüğü mücadelede askerleri için gerekli malzemeyi göçebe Somali aşiretinden temin etti. 1530’da Fatagar ve Evfât bölgelerini, 1531’de Davâro ve Şüve (Shoa) eyaletlerini, bir yıl sonra Amhare ve Lasta’yı, 1535’te de Tigre topraklarını ele geçirdi. Buralarda İslâmiyet’in siyasî bakımdan en büyük yayılışı da bu devirde oldu. Bunun üzerine Habeş kralı Portekiz’den tekrar yardım istedi ve 1541 yılında gelen 400-500 kişilik bir askerî yardımla Habeş ordusu ateşli silâh desteği de kazanmış oldu. Takviyeli Habeş kuvvetleriyle yaptığı savaşta mağlûp olan Ahmed el-Mücâhid yeniden Osmanlılar’a başvurdu. Osmanlı Devleti, Habeşistan’da kuvvet dengesinin müslümanların lehinde olmasını istediğinden, Ahmed el-Mücâhid’e Yemen’deki idarecileri vasıtasıyla silâh yardımı yaptığı gibi, hıristiyanlara karşı verdiği mücadeleyi tasvip mânasına onu Habeş hâkimi olarak tanıdı. Kaynaklarda ona 900 tüfekçi ile on top ve bunları kullanacak usta gönderildiği kaydedilmektedir. Ahmed el-Mücâhid aldığı bu yardım sayesinde, 28 Ağustos 1542’de Habeş krallık ordusu ile Portekiz kuvvetlerini büyük bir bozguna uğrattı. Fakat zaferden gurura kapılarak ihtiyatsızca hareket etmeye başladı. Habeşistan’ın tamamını ele geçirmek için 21 Şubat 1543’te yaptığı ikinci savaşta yenildi ve öldürüldü. Bu mağlûbiyet Habeşistan’da İslâmiyet’in yayılışının durmasına sebep oldu. Osmanlılar ise bundan sonra bu ülke ile, burayı fethe karar verinceye kadar (1554), bir daha ilgilenmediler. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 109 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
+   "en": "One of the Zaydī jurists in Sanaa, to whom the leadership of teaching and issuing fatwas ended."
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Aḥmad b. ʿAbd al-Raḥmān b. ʿAbd Allāh al-Mujāhid"
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "dia:ahmed-el-mucahid",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA, slug=ahmed-el-mucahid, https://islamansiklopedisi.org.tr/ahmed-el-mucahid",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+   },
+   {
+    "source_id": "el-alam:668",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=668, heading_ar=أحمد المجاهد",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:ahmed-el-mucahid",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-el-mucahid",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "tr": "AHMED el-MÜCÂHİD",
-      "ar": "أحمد المجاهد"
-    },
-    "originalScript": {
-      "ar": "أحمد المجاهد"
-    },
-    "altLabel": {
-      "tr": [
-        "Ahmed Gran b. İbrâhîm el-Mücâhid",
-        "Ahmed b. Abdurrahman b. Abdullah el-Mücâhid"
-      ],
-      "ar": [
-        "أحمد بن عبد الرحمن بن عبد الله المجاهد"
-      ]
-    },
-    "description": {
-      "tr": "Abad Emirliği’nin Hubat bölgesinde 1506’da doğduğu rivayet edilmektedir. Habeş kaynaklarında Gran (solak) lakabıyla anılan Ahmed el-Mücâhid, emîr olduktan sonra devlet idaresinde büyük değişiklikler yaptı ve 1527’den itibaren de Habeşistan Krallığı’na karşı cihad açtı. Kısa bir zaman içinde Zeyla‘dan Masavva‘a kadar bütün sahili idaresi altına alarak ülkenin büyük bir kısmına sahip oldu. Buna karşılık Portekizliler’le temas halinde bulunan Habeş Hükümdarı Lebna Dengel (II. David), onlardan sağladığı yardımla kendi durumunu takviye edince Ahmed el-Mücâhid de Zebîd’deki Osmanlı beylerbeyi vasıtasıyla Osmanlı Devleti’ne müracaat etti. Ahmed el-Mücâhid, Habeşistan’ı fethetmek için başladığı ve 1543’e kadar sürdürdüğü mücadelede askerleri için gerekli malzemeyi göçebe Somali aşiretinden temin etti. 1530’da Fatagar ve Evfât bölgelerini, 1531’de Davâro ve Şüve (Shoa) eyaletlerini, bir yıl sonra Amhare ve Lasta’yı, 1535’te de Tigre topraklarını ele geçirdi. Buralarda İslâmiyet’in siyasî bakımdan en büyük yayılışı da bu devirde oldu. Bunun üzerine Habeş kralı Portekiz’den tekrar yardım istedi ve 1541 yılında gelen 400-500 kişilik bir askerî yardımla Habeş ordusu ateşli silâh desteği de kazanmış oldu. Takviyeli Habeş kuvvetleriyle yaptığı savaşta mağlûp olan Ahmed el-Mücâhid yeniden Osmanlılar’a başvurdu. Osmanlı Devleti, Habeşistan’da kuvvet dengesinin müslümanların lehinde olmasını istediğinden, Ahmed el-Mücâhid’e Yemen’deki idarecileri vasıtasıyla silâh yardımı yaptığı gibi, hıristiyanlara karşı verdiği mücadeleyi tasvip mânasına onu Habeş hâkimi olarak tanıdı. Kaynaklarda ona 900 tüfekçi ile on top ve bunları kullanacak usta gönderildiği kaydedilmektedir. Ahmed el-Mücâhid aldığı bu yardım sayesinde, 28 Ağustos 1542’de Habeş krallık ordusu ile Portekiz kuvvetlerini büyük bir bozguna uğrattı. Fakat zaferden gurura kapılarak ihtiyatsızca hareket etmeye başladı. Habeşistan’ın tamamını ele geçirmek için 21 Şubat 1543’te yaptığı ikinci savaşta yenildi ve öldürüldü. Bu mağlûbiyet Habeşistan’da İslâmiyet’in yayılışının durmasına sebep oldu. Osmanlılar ise bundan sonra bu ülke ile, burayı fethe karar verinceye kadar (1554), bir daha ilgilenmediler. Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 109 numaralı sayfada yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.",
-      "en": "One of the Zaydī jurists in Sanaa, to whom the leadership of teaching and issuing fatwas ended."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Aḥmad b. ʿAbd al-Raḥmān b. ʿAbd Allāh al-Mujāhid"
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_dia",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:32:52Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:32:52Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:32:52Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from DİA slug=ahmed-el-mucahid (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[668]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:33:14Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "El-Aʿlām augmentation: linked alam_id=668 (heading_ar=أحمد المجاهد) via Track A (DİA→Alam xref bridge). dt=Sanaa'daki Zeydî fukahâsından, onda tedris ve fetva riyaseti sona ermiştir."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+translit from alam_detail.json el-alam:668."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (787-21015) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00021015 lehine yumuşak-silindi. Gerekçe: \"el-Mücâhid\" lakabı ile \"Ahmed Gran\" aynı Adal imamı Ahmed b. İbrâhim el-Gāzî'dir (ö. 1543, doğum ~1506 alanla uyumlu)."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "dia:ahmed-el-mucahid",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "DİA, slug=ahmed-el-mucahid, https://islamansiklopedisi.org.tr/ahmed-el-mucahid",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
-      },
-      {
-        "source_id": "el-alam:668",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām, alam_id=668, heading_ar=أحمد المجاهد",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      },
-      {
-        "source_id": "dia-chunks:ahmed-el-mucahid",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "https://islamansiklopedisi.org.tr/ahmed-el-mucahid",
-        "extraction_method": "structured_json",
-        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_dia",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:32:52Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:32:52Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:32:52Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from DİA slug=ahmed-el-mucahid (1 chunks) by dia adapter (Hafta 4). El-Aʿlām cross-ref: alam_id=[668]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:33:14Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "El-Aʿlām augmentation: linked alam_id=668 (heading_ar=أحمد المجاهد) via Track A (DİA→Alam xref bridge). dt=Sanaa'daki Zeydî fukahâsından, onda tedris ve fetva riyaseti sona ermiştir."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-10T16:23:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+desc.en+translit from alam_detail.json el-alam:668."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 949,
-    "start_ce": 1543,
-    "approximation": "exact"
-  },
-  "note": "DİA cross-reference: slug=ahmed-el-mucahid, URL: https://islamansiklopedisi.org.tr/ahmed-el-mucahid || El-Aʿlām (Ziriklī) cross-reference: alam_id=[668] || DİA birth place: 1506 || DİA death-date string: (ö. 949/1543) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=668, heading_ar=أحمد المجاهد, dt=Sanaa'daki Zeydî fukahâsından, onda tedris ve fetva riyaseti sona ermiştir."
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00021015"
+ },
+ "death_temporal": {
+  "start_ah": 949,
+  "start_ce": 1543,
+  "approximation": "exact"
+ },
+ "note": "DİA cross-reference: slug=ahmed-el-mucahid, URL: https://islamansiklopedisi.org.tr/ahmed-el-mucahid || El-Aʿlām (Ziriklī) cross-reference: alam_id=[668] || DİA birth place: 1506 || DİA death-date string: (ö. 949/1543) || DİA categories: rivayet || Chunk count: 1 || El-Aʿlām (Track A) augmentation: alam_id=668, heading_ar=أحمد المجاهد, dt=Sanaa'daki Zeydî fukahâsından, onda tedris ve fetva riyaseti sona ermiştir."
 }

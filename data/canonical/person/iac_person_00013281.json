@@ -1,89 +1,96 @@
 {
-  "@id": "iac:person-00013281",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "ʿAbdullāh b. Aḥmad",
-      "tr": "Abdullâh b. Ahmed",
-      "ar": "عبد الله بن أحمد"
-    },
-    "originalScript": {
-      "ar": "عبد الله بن أحمد"
-    },
-    "description": {
-      "tr": "Hadis âlimi, Bağdat halkındandır.",
-      "en": "A hadith scholar, from the people of Baghdad."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "ʿAbdullāh b. Aḥmad b. Muḥammad b. Hanbal al-Shaybānī al-Baghdādī, Abū ʿAbd al-Raḥmān"
-    },
-    "altLabel": {
-      "tr": [
-        "Abdullâh b. Ahmed b. Muhammed b. Hanbel eş-Şeybânî el-Bağdâdî, Ebû Abdirrahmân"
-      ],
-      "ar": [
-        "عبد الله بن أحمد بن محمد بن حنبل الشيباني البغدادي، أبو عبد الرحمن"
-      ]
-    }
+ "@id": "iac:person-00013281",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "ʿAbdullāh b. Aḥmad",
+   "tr": "Abdullâh b. Ahmed",
+   "ar": "عبد الله بن أحمد"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:5774",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5774",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:17Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:17Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:17Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=5774 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:37:36Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:5774."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "عبد الله بن أحمد"
   },
-  "death_temporal": {
-    "start_ah": 290,
-    "start_ce": 903,
-    "approximation": "exact"
+  "description": {
+   "tr": "Hadis âlimi, Bağdat halkındandır.",
+   "en": "A hadith scholar, from the people of Baghdad."
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5774, heading_ar=عبد الله بن أحمد || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
-  "active_in_places": [
-    "iac:place-00002027"
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAbdullāh b. Aḥmad b. Muḥammad b. Hanbal al-Shaybānī al-Baghdādī, Abū ʿAbd al-Raḥmān"
+  },
+  "altLabel": {
+   "tr": [
+    "Abdullâh b. Ahmed b. Muhammed b. Hanbel eş-Şeybânî el-Bağdâdî, Ebû Abdirrahmân"
+   ],
+   "ar": [
+    "عبد الله بن أحمد بن محمد بن حنبل الشيباني البغدادي، أبو عبد الرحمن"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:5774",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=5774",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "kunya": "أبو عبد الرحمن"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:17Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:17Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:17Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=5774 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:36Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:5774."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (484-13281) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000484 lehine yumuşak-silindi. Gerekçe: Nesep zinciri örtüşüyor (Abdullah b. Ahmed [b. Hanbel]), ölüm 903 (290/h) ve Bağdat konumu aynı; A'lâm kaydı kısaltılmış biçimdir."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000484"
+ },
+ "death_temporal": {
+  "start_ah": 290,
+  "start_ce": 903,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=5774, heading_ar=عبد الله بن أحمد || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
+ "active_in_places": [
+  "iac:place-00002027"
+ ],
+ "kunya": "أبو عبد الرحمن"
 }

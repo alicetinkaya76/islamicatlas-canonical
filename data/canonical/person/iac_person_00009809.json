@@ -1,79 +1,86 @@
 {
-  "@id": "iac:person-00009809",
-  "@type": [
-    "iac:Person",
-    "iac:Ruler"
+ "@id": "iac:person-00009809",
+ "@type": [
+  "iac:Person",
+  "iac:Ruler"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Ashraf Barsbāy",
+   "tr": "Eşref Barsbay",
+   "ar": "الأشرف برسباي"
+  },
+  "originalScript": {
+   "ar": "الأشرف برسباي"
+  },
+  "description": {
+   "tr": "Mısır'ın sahibi, Çerkez kökenli, Emîr Dıkmaķ'ın kölelerinden idi ve onu Zâhir Berķuķ'a hediye etti.",
+   "en": "Master of Egypt, of Circassian origin, was among the slaves of the Emir Diqmāq and was gifted by him"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Barsbāy al-Diqmāqī al-Zāhirī, Abū al-Naṣr, al-Sulṭān al-Malik al-Ashraf"
+  },
+  "altLabel": {
+   "tr": [
+    "Barsbay el-Dıkmaķî ed-Dâhirî, Ebû en-Nasr, es-Sultân el-Meliku'l-Eşref"
+   ],
+   "ar": [
+    "برسباي الدقماقي الظاهري، أبو النصر، السلطان الملك الأشرف"
+   ]
+  }
+ },
+ "profession": [
+  "ruler"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:1917",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1917",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Ashraf Barsbāy",
-      "tr": "Eşref Barsbay",
-      "ar": "الأشرف برسباي"
-    },
-    "originalScript": {
-      "ar": "الأشرف برسباي"
-    },
-    "description": {
-      "tr": "Mısır'ın sahibi, Çerkez kökenli, Emîr Dıkmaķ'ın kölelerinden idi ve onu Zâhir Berķuķ'a hediye etti.",
-      "en": "Master of Egypt, of Circassian origin, was among the slaves of the Emir Diqmāq and was gifted by him"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Barsbāy al-Diqmāqī al-Zāhirī, Abū al-Naṣr, al-Sulṭān al-Malik al-Ashraf"
-    },
-    "altLabel": {
-      "tr": [
-        "Barsbay el-Dıkmaķî ed-Dâhirî, Ebû en-Nasr, es-Sultân el-Meliku'l-Eşref"
-      ],
-      "ar": [
-        "برسباي الدقماقي الظاهري، أبو النصر، السلطان الملك الأشرف"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "ruler"
+  "generated_at": "2026-05-04T15:35:46Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:46Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:46Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=1917 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1917."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1340-9809-20856) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00020856 lehine yumuşak-silindi. Gerekçe: Üç kayıt da 1438'de ölen Memlük sultanı el-Eşref Barsbay'a işaret ediyor; aynı adı taşıyan ikinci bir sultan bu tarihte yoktur."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:1917",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1917",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:46Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:46Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:46Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=1917 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:1917."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 841,
-    "start_ce": 1438,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1917, heading_ar=الأشرف برسباي || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
-  "kunya": "Ebû en-Nasr"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00020856"
+ },
+ "death_temporal": {
+  "start_ah": 841,
+  "start_ce": 1438,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1917, heading_ar=الأشرف برسباي || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 30.04, 31.24",
+ "kunya": "Ebû en-Nasr"
 }

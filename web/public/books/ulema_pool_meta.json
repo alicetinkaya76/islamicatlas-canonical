@@ -2,13 +2,13 @@
   "_doc": "Ulema Havuzu sayimlari. Her sayi bu kosunun taramasindan uretildi; tahmin/yuvarlama yok. Uretici: pipelines/frontend/build_ulema_pool.py",
   "_notlar": [],
   "cakisma_matrisi": {
-    "a_kesisim_d": 1226,
+    "a_kesisim_d": 1209,
     "a_kesisim_d_kesisim_e": 11,
-    "a_kesisim_e": 109,
-    "d_kesisim_e": 67,
-    "yalniz_a": 10765,
-    "yalniz_d": 5943,
-    "yalniz_e": 958
+    "a_kesisim_e": 101,
+    "d_kesisim_e": 65,
+    "yalniz_a": 10166,
+    "yalniz_d": 5778,
+    "yalniz_e": 949
   },
   "ham_curie_onek_sayimi": {
     "alatli": 234,
@@ -23,50 +23,50 @@
     "science-layer": 182
   },
   "kaynak_basina_kisi": {
-    "a": 12089,
+    "a": 11465,
     "b": 0,
-    "ba": 220,
-    "bc": 5423,
-    "bo": 2253,
-    "by": 823,
-    "d": 7225,
-    "e": 1123,
-    "s": 140,
-    "sc": 251
+    "ba": 215,
+    "bc": 5215,
+    "bo": 2246,
+    "by": 813,
+    "d": 7041,
+    "e": 1104,
+    "s": 134,
+    "sc": 228
   },
   "kaynak_curiesiz_kisi": 0,
   "meslek_dagilimi": {
     "architect": 16,
-    "astronomer": 149,
+    "astronomer": 133,
     "calligrapher": 139,
-    "geographer": 56,
-    "historian": 1174,
-    "judge": 364,
-    "mathematician": 101,
+    "geographer": 53,
+    "historian": 1094,
+    "judge": 344,
+    "mathematician": 91,
     "merchant": 4,
     "mufti": 16,
     "musician": 150,
-    "narrator": 581,
-    "philosopher": 215,
-    "physician": 206,
-    "poet": 2284,
-    "ruler": 2183,
-    "scholar": 16092,
-    "scribe": 145,
-    "translator": 36,
-    "vizier": 132
+    "narrator": 561,
+    "philosopher": 204,
+    "physician": 194,
+    "poet": 2250,
+    "ruler": 2052,
+    "scholar": 15545,
+    "scribe": 139,
+    "translator": 35,
+    "vizier": 126
   },
   "olum_tarihi": {
-    "en_az_biri_var": 22177,
-    "hicri_var": 18823,
-    "miladi_var": 22080,
+    "en_az_biri_var": 21357,
+    "hicri_var": 18019,
+    "miladi_var": 21260,
     "tarihsiz": 103
   },
   "tarama": {
-    "ad_tr_prefLabel_en_fallback": 1748,
+    "ad_tr_prefLabel_en_fallback": 1732,
     "bozuk_pid": 0,
-    "canonical_dosya_okunan": 22280,
-    "deprecated_haric": 708,
+    "canonical_dosya_okunan": 21460,
+    "deprecated_haric": 1528,
     "dosya_bracket_uyumlu": false,
     "entity_bracket_person": 22988,
     "havuz_disi_birakilan": 0
@@ -74,15 +74,15 @@
   "tohum_450": {
     "_doc": "'havuzda' = scholars:<id> curie'si uzerinden havuzdaki bir pid'e IZLENEBILEN tohum sayisi. Curie'si olmayan tohumlar icin havuz uyeligi BILINMIYOR: ayni kisi baska bir kaynak curie'siyle (el-alam, dia, ...) havuzda olabilir; isim eslestirmesi Faz-2 isi, burada tahmin YAPILMADI.",
     "db_json_scholar_sayisi": 450,
-    "havuzda_izlenebilir": 247,
+    "havuzda_izlenebilir": 224,
     "id_araligi": [
       1,
       462
     ],
-    "isnad_dugum_havuzda_izlenebilir": 18,
+    "isnad_dugum_havuzda_izlenebilir": 17,
     "isnad_dugum_tekil": 28,
     "isnad_kenar_tekil": 26,
-    "isnad_tekil_kenar_iki_ucu_havuzda": 9,
+    "isnad_tekil_kenar_iki_ucu_havuzda": 7,
     "isnad_zincir_sayisi_kenar_toplam": 27,
     "scholars_curie_ile_pid_almis": 275,
     "scholars_curie_yok_havuz_durumu_bilinmiyor": 175,
@@ -96,5 +96,5 @@
     ],
     "yetim_scholars_curie_sayisi": 5
   },
-  "toplam_kisi": 22280
+  "toplam_kisi": 21460
 }

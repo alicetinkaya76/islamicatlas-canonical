@@ -173,6 +173,15 @@ def main() -> None:
             save(num, rec)
             yazilan += 1
 
+    # LEDGER KÜMÜLATİF: yeni tur öncekini EZMEZ. Ölçüldü — ikinci tur ledger'ı
+    # üzerine yazınca ilk turun 468 birleştirmesi kaydı kayboldu ve --restore
+    # onları geri alamaz hâle geldi. Geri alma yolu, kaydın bütünlüğüne bağlıdır.
+    onceki = []
+    if LEDGER.is_file():
+        onceki = json.loads(LEDGER.read_text(encoding="utf-8")).get("merges", [])
+    var = {m["kume_id"] for m in onceki}
+    merges = onceki + [m for m in merges if m["kume_id"] not in var]
+
     LEDGER.parent.mkdir(parents=True, exist_ok=True)
     LEDGER.write_text(json.dumps({
         "_doc": ("H49 küme birleştirmesi — YUMUŞAK-SİLME + YÖNLENDİRME. Kaybeden "

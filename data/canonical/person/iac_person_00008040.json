@@ -1,69 +1,76 @@
 {
-  "@id": "iac:person-00008040",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00008040",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "Mirza Ali Muhammed",
+   "ar": "ميرزا على محمد"
+  },
+  "originalScript": {
+   "ar": "ميرزا على محمد"
+  },
+  "altLabel": {
+   "tr": [
+    "Bâb Mîrzâ Alî Muhammed Şîrâzî"
+   ]
+  },
+  "description": {
+   "tr": "XIX. yüzyılda İran’da ortaya çıkan Bâbîliğin kurucusu."
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "dia:mirza-ali-muhammed",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA, slug=mirza-ali-muhammed, https://islamansiklopedisi.org.tr/mirza-ali-muhammed",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "tr": "Mirza Ali Muhammed",
-      "ar": "ميرزا على محمد"
-    },
-    "originalScript": {
-      "ar": "ميرزا على محمد"
-    },
-    "altLabel": {
-      "tr": [
-        "Bâb Mîrzâ Alî Muhammed Şîrâzî"
-      ]
-    },
-    "description": {
-      "tr": "XIX. yüzyılda İran’da ortaya çıkan Bâbîliğin kurucusu."
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_dia",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:35:11Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:11Z",
+  "modified": "2026-05-04T15:35:11Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:11Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from DİA slug=mirza-ali-muhammed (0 chunks) by dia adapter (Hafta 4)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-27T21:37:35Z",
+    "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
+    "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (8040-14800) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00014800 lehine yumuşak-silindi. Gerekçe: Bâbîliğin kurucusu Mirza Ali Muhammed'in lakabı 'Bâb'dır; Şiraz koordinatı ve 1850 yılı örtüşüyor."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "dia:mirza-ali-muhammed",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "DİA, slug=mirza-ali-muhammed, https://islamansiklopedisi.org.tr/mirza-ali-muhammed",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_dia",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:11Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:11Z",
-    "modified": "2026-05-04T15:35:11Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:11Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from DİA slug=mirza-ali-muhammed (0 chunks) by dia adapter (Hafta 4)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-27T21:37:35Z",
-        "changed_by": "pipelines/migrations/h31_001_dotted_i_repair.py",
-        "note": "h31_001: 'i'+U+0307 (Türkçe .title() artefaktı) → 'i'; alanlar: labels"
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 1266,
-    "start_ce": 1850,
-    "approximation": "exact"
-  },
-  "note": "DİA cross-reference: slug=mirza-ali-muhammed, URL: https://islamansiklopedisi.org.tr/mirza-ali-muhammed"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00014800"
+ },
+ "death_temporal": {
+  "start_ah": 1266,
+  "start_ce": 1850,
+  "approximation": "exact"
+ },
+ "note": "DİA cross-reference: slug=mirza-ali-muhammed, URL: https://islamansiklopedisi.org.tr/mirza-ali-muhammed"
 }

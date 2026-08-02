@@ -1,89 +1,96 @@
 {
-  "@id": "iac:person-00015559",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Burzulī",
-      "tr": "Berzalî",
-      "ar": "البرزلي"
-    },
-    "originalScript": {
-      "ar": "البرزلي"
-    },
-    "description": {
-      "tr": "Mağrib'de Mâlikî mezhebinin imamlarından biri.",
-      "en": "One of the leading figures of the Maliki school in the Maghrib."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Abū al-Qāsim b. Ahmad b. Muhammad al-Balūī al-Qayrawānī, known as al-Burzulī"
-    },
-    "altLabel": {
-      "tr": [
-        "Ebû'l-Kâsım b. Ahmed b. Muhammed el-Belûî el-Kayrevânî, Berzalî olarak meşhur"
-      ],
-      "ar": [
-        "أبو القاسم بن أحمد بن محمد البلوي القيرواني، المعروف ب البرزلي"
-      ]
-    }
+ "@id": "iac:person-00015559",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Burzulī",
+   "tr": "Berzalî",
+   "ar": "البرزلي"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:8334",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=8334",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:43Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:43Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:43Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=8334 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:38:27Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:8334."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "البرزلي"
   },
-  "death_temporal": {
-    "start_ah": 844,
-    "start_ce": 1440,
-    "approximation": "exact"
+  "description": {
+   "tr": "Mağrib'de Mâlikî mezhebinin imamlarından biri.",
+   "en": "One of the leading figures of the Maliki school in the Maghrib."
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=8334, heading_ar=البرزلي || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 36.81, 10.18",
-  "active_in_places": [
-    "iac:place-00010037"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Abū al-Qāsim b. Ahmad b. Muhammad al-Balūī al-Qayrawānī, known as al-Burzulī"
+  },
+  "altLabel": {
+   "tr": [
+    "Ebû'l-Kâsım b. Ahmed b. Muhammed el-Belûî el-Kayrevânî, Berzalî olarak meşhur"
+   ],
+   "ar": [
+    "أبو القاسم بن أحمد بن محمد البلوي القيرواني، المعروف ب البرزلي"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:8334",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=8334",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "kunya": "أبو القاسم"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:43Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:43Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:43Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=8334 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:38:27Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:8334."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (1632-15559) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00001632 lehine yumuşak-silindi. Gerekçe: Arapça form her ikisinde de البرزلي (Kayrevan/Tunus çevresi, ö. 1440) olup Türkçe 'Berzalî' yazımı Dımaşklı البرزالي ile karışma değil sadece transkripsiyon kaymasıdır."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00001632"
+ },
+ "death_temporal": {
+  "start_ah": 844,
+  "start_ce": 1440,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=8334, heading_ar=البرزلي || Ziriklī century_ce=15 || Ziriklī place coords (city/region of activity): 36.81, 10.18",
+ "active_in_places": [
+  "iac:place-00010037"
+ ],
+ "kunya": "أبو القاسم"
 }

@@ -1,89 +1,96 @@
 {
-  "@id": "iac:person-00014293",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Muktafī al-ʿAbbāsī",
-      "tr": "Muktefî el-Abbâsî",
-      "ar": "المكتفي العباسي"
-    },
-    "originalScript": {
-      "ar": "المكتفي العباسي"
-    },
-    "description": {
-      "tr": "Irak'ta Abbâsî Devleti halifelerinden",
-      "en": "One of the caliphs of the ʿAbbāsid state in Iraq"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "ʿAlī (al-Muktafī bi-llāh) ibn Aḥmad al-Muʿtaḍḍ ibn al-Muwaffaq ibn al-Mutawakkil, Abū Muḥammad"
-    },
-    "altLabel": {
-      "tr": [
-        "Alî (Muktefî billâh) b. Ahmed el-Mu'tazz b. el-Muvaffak b. el-Mütevekkil, Ebû Muhammed"
-      ],
-      "ar": [
-        "علي (المكتفي بالله) بن أحمد المعتضد ابن الموفق ابن المتوكل، أبو محمد"
-      ]
-    }
+ "@id": "iac:person-00014293",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Muktafī al-ʿAbbāsī",
+   "tr": "Muktefî el-Abbâsî",
+   "ar": "المكتفي العباسي"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:6929",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6929",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:36:29Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:36:29Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:36:29Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=6929 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:37:36Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:6929."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "المكتفي العباسي"
   },
-  "death_temporal": {
-    "start_ah": 295,
-    "start_ce": 908,
-    "approximation": "exact"
+  "description": {
+   "tr": "Irak'ta Abbâsî Devleti halifelerinden",
+   "en": "One of the caliphs of the ʿAbbāsid state in Iraq"
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6929, heading_ar=المكتفي العباسي || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
-  "active_in_places": [
-    "iac:place-00002027"
+  "transliteration": {
+   "ar-Latn-x-alalc": "ʿAlī (al-Muktafī bi-llāh) ibn Aḥmad al-Muʿtaḍḍ ibn al-Muwaffaq ibn al-Mutawakkil, Abū Muḥammad"
+  },
+  "altLabel": {
+   "tr": [
+    "Alî (Muktefî billâh) b. Ahmed el-Mu'tazz b. el-Muvaffak b. el-Mütevekkil, Ebû Muhammed"
+   ],
+   "ar": [
+    "علي (المكتفي بالله) بن أحمد المعتضد ابن الموفق ابن المتوكل، أبو محمد"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:6929",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=6929",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "kunya": "أبو محمد"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:36:29Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:36:29Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:36:29Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=6929 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:36Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:6929."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (36-5798-14293) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00000036 lehine yumuşak-silindi. Gerekçe: 908'de ölen Abbâsî halifesi el-Müktefî-Billâh'tır; Bağdat koordinatı ve hanedan nisbesi örtüşüyor, adaş el-Müktefî (ö. 1160) farklı yıldadır."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00000036"
+ },
+ "death_temporal": {
+  "start_ah": 295,
+  "start_ce": 908,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=6929, heading_ar=المكتفي العباسي || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
+ "active_in_places": [
+  "iac:place-00002027"
+ ],
+ "kunya": "أبو محمد"
 }

@@ -1,97 +1,104 @@
 {
-  "@id": "iac:person-00008943",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Khallāl",
-      "tr": "el-Hallâl",
-      "ar": "الخلال"
-    },
-    "originalScript": {
-      "ar": "الخلال"
-    },
-    "description": {
-      "tr": "Müfessir, hadis ve dil ilminde alim, Hanbelîlerin büyüklerinden",
-      "en": "An exegete and scholar of hadith and language, one of the great Hanbalis"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Ahmad b. Muhammad b. Hārūn, Abū Bakr al-Khallāl"
-    },
-    "altLabel": {
-      "tr": [
-        "Ahmet b. Muhammed b. Hârûn, Ebû Bekr el-Hallâl"
-      ],
-      "ar": [
-        "أحمد بن محمد بن هارون، أبو بكر، الخلال"
-      ]
-    }
+ "@id": "iac:person-00008943",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Khallāl",
+   "tr": "el-Hallâl",
+   "ar": "الخلال"
   },
-  "profession": [
-    "scholar"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:970",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=970",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:38Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:38Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:38Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=970 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-05-04T15:37:36Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:970."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "الخلال"
   },
-  "death_temporal": {
-    "start_ah": 311,
-    "start_ce": 923,
-    "approximation": "exact"
+  "description": {
+   "tr": "Müfessir, hadis ve dil ilminde alim, Hanbelîlerin büyüklerinden",
+   "en": "An exegete and scholar of hadith and language, one of the great Hanbalis"
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=970, heading_ar=الخلال || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
-  "active_in_places": [
-    "iac:place-00002027"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Ahmad b. Muhammad b. Hārūn, Abū Bakr al-Khallāl"
+  },
+  "altLabel": {
+   "tr": [
+    "Ahmet b. Muhammed b. Hârûn, Ebû Bekr el-Hallâl"
+   ],
+   "ar": [
+    "أحمد بن محمد بن هارون، أبو بكر، الخلال"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:970",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=970",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "authored_works": [
-    "iac:work-00002390",
-    "iac:work-00002911",
-    "iac:work-00004952",
-    "iac:work-00006720",
-    "iac:work-00007342",
-    "iac:work-00009223"
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:38Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:38Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:38Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=970 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-05-04T15:37:36Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Hafta 4 person→place resolution: 1 new active_in_places PID(s) added from Yâqūt notable_persons sidecar."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:970."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3116-8943) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003116 lehine yumuşak-silindi. Gerekçe: Ebû Bekir el-Hallâl (ö. 311/923) Bağdatlı Hanbelî âlimidir; Ziriklî kaydının Bağdat koordinatı (33.32, 44.37) ve aynı ölüm yılı DİA maddesiyle birebir örtüşüyor, ikinci kayıt yalnızca nisbeye kısaltılmış."
+   }
   ],
-  "kunya": "أبو بكر"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003116"
+ },
+ "death_temporal": {
+  "start_ah": 311,
+  "start_ce": 923,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=970, heading_ar=الخلال || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
+ "active_in_places": [
+  "iac:place-00002027"
+ ],
+ "authored_works": [
+  "iac:work-00002390",
+  "iac:work-00002911",
+  "iac:work-00004952",
+  "iac:work-00006720",
+  "iac:work-00007342",
+  "iac:work-00009223"
+ ],
+ "kunya": "أبو بكر"
 }

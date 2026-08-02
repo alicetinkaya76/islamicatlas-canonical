@@ -1,58 +1,65 @@
 {
-  "@id": "iac:person-00007937",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00007937",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "tr": "DEYLEMÎ, Muhammed b. Hasan",
+   "ar": "محمد بن حسن الديلمي"
+  },
+  "originalScript": {
+   "ar": "محمد بن حسن الديلمي"
+  },
+  "description": {
+   "tr": "Bâtıniyye’nin tenkidine dair eseriyle tanınan Zeydiyye âlimi."
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "dia:deylemi-muhammed-b-hasan",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "DİA, slug=deylemi-muhammed-b-hasan, https://islamansiklopedisi.org.tr/deylemi-muhammed-b-hasan",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "tr": "DEYLEMÎ, Muhammed b. Hasan",
-      "ar": "محمد بن حسن الديلمي"
-    },
-    "originalScript": {
-      "ar": "محمد بن حسن الديلمي"
-    },
-    "description": {
-      "tr": "Bâtıniyye’nin tenkidine dair eseriyle tanınan Zeydiyye âlimi."
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_dia",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:35:10Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:10Z",
+  "modified": "2026-05-04T15:35:10Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:10Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from DİA slug=deylemi-muhammed-b-hasan (0 chunks) by dia adapter (Hafta 4)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (7937-16745) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00016745 lehine yumuşak-silindi. Gerekçe: Muhammed b. Hasan ed-Deylemî (ö. 711/1311) Yemenli müellif; nisbe, Arapça ad ve San'a koordinatı örtüşüyor."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "dia:deylemi-muhammed-b-hasan",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "DİA, slug=deylemi-muhammed-b-hasan, https://islamansiklopedisi.org.tr/deylemi-muhammed-b-hasan",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Türkiye Diyanet Vakfı İslâm Ansiklopedisi (DİA), online edition; pipeline ETL."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_dia",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:10Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:10Z",
-    "modified": "2026-05-04T15:35:10Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:10Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from DİA slug=deylemi-muhammed-b-hasan (0 chunks) by dia adapter (Hafta 4)."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 711,
-    "start_ce": 1311,
-    "approximation": "exact"
-  },
-  "note": "DİA cross-reference: slug=deylemi-muhammed-b-hasan, URL: https://islamansiklopedisi.org.tr/deylemi-muhammed-b-hasan"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00016745"
+ },
+ "death_temporal": {
+  "start_ah": 711,
+  "start_ce": 1311,
+  "approximation": "exact"
+ },
+ "note": "DİA cross-reference: slug=deylemi-muhammed-b-hasan, URL: https://islamansiklopedisi.org.tr/deylemi-muhammed-b-hasan"
 }

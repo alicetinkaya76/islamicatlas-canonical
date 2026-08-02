@@ -1,93 +1,100 @@
 {
-  "@id": "iac:person-00020578",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00020578",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Ibn Ḥamūya",
+   "tr": "İbn Hamûye",
+   "ar": "ابن حمويه"
+  },
+  "originalScript": {
+   "ar": "ابن حمويه"
+  },
+  "description": {
+   "tr": "Kumandan, edebiyatçılardan. Aslen Nişâbur'da bulunan \"Cüyîn\"den gelen bir aileden. Altıncı yüzyılın",
+   "en": "Commander, among the litterateurs. From a family whose origin is from 'Juwayn' in Nishapur, of which"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Yūsuf (Fakhr al-Dīn) ibn Muḥammad (Ṣadr al-Dīn) ibn ʿUmar ibn ʿAlī ibn Muḥammad Ibn Ḥamūya al-Juwaynī, al-Ṣāḥib Abū al-Muẓaffar"
+  },
+  "altLabel": {
+   "tr": [
+    "Yûsuf (Fahru'd-Dîn) b. Muhammed (Sadru'd-Dîn) b. Ömer b. Ali b. Muhammed İbn Hamûye el-Cüyînî, es-Sâhib Ebû'l-Muzaffer"
+   ],
+   "ar": [
+    "يوسف (فخر الدين) بن محمد (صدر الدين) بن عمر بن علي بن محمد ابن حمويه(2) الجويني، الصاحب أبو المظفر"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:13859",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=13859",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "dia-chunks:ibn-hameveyh-fahreddin",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "https://islamansiklopedisi.org.tr/ibn-hameveyh-fahreddin",
+    "extraction_method": "structured_json",
+    "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "Ibn Ḥamūya",
-      "tr": "İbn Hamûye",
-      "ar": "ابن حمويه"
-    },
-    "originalScript": {
-      "ar": "ابن حمويه"
-    },
-    "description": {
-      "tr": "Kumandan, edebiyatçılardan. Aslen Nişâbur'da bulunan \"Cüyîn\"den gelen bir aileden. Altıncı yüzyılın",
-      "en": "Commander, among the litterateurs. From a family whose origin is from 'Juwayn' in Nishapur, of which"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Yūsuf (Fakhr al-Dīn) ibn Muḥammad (Ṣadr al-Dīn) ibn ʿUmar ibn ʿAlī ibn Muḥammad Ibn Ḥamūya al-Juwaynī, al-Ṣāḥib Abū al-Muẓaffar"
-    },
-    "altLabel": {
-      "tr": [
-        "Yûsuf (Fahru'd-Dîn) b. Muhammed (Sadru'd-Dîn) b. Ömer b. Ali b. Muhammed İbn Hamûye el-Cüyînî, es-Sâhib Ebû'l-Muzaffer"
-      ],
-      "ar": [
-        "يوسف (فخر الدين) بن محمد (صدر الدين) بن عمر بن علي بن محمد ابن حمويه(2) الجويني، الصاحب أبو المظفر"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:37:47Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:37:47Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:37:47Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=13859 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-10T16:23:25Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:13859."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3836-20578) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003836 lehine yumuşak-silindi. Gerekçe: 647/1250'de ölen Fahreddin Yûsuf İbn Hameveyh tek adaydır; rol etiketi farkı (emîr/âlim) bu veri kümesinde gürültülüdür ve Umman koordinatı hatalı coğrafî eşlemedir, ayırt edici sayılmaz."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:13859",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=13859",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      },
-      {
-        "source_id": "dia-chunks:ibn-hameveyh-fahreddin",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "https://islamansiklopedisi.org.tr/ibn-hameveyh-fahreddin",
-        "extraction_method": "structured_json",
-        "edition_or_version": "TDV İslâm Ansiklopedisi (dia_chunks.json)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:37:47Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:37:47Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:37:47Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=13859 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-10T16:23:25Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "AN Cat-B enrichment (H10 Stage 5, Tier-2 conf 1.0): gap-filled nothing (provenance only)."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:13859."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 647,
-    "start_ce": 1250,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=13859, heading_ar=ابن حمويه || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 23.59, 58.38",
-  "kunya": "أبو المظفر"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003836"
+ },
+ "death_temporal": {
+  "start_ah": 647,
+  "start_ce": 1250,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=13859, heading_ar=ابن حمويه || Ziriklī century_ce=13 || Ziriklī place coords (city/region of activity): 23.59, 58.38",
+ "kunya": "أبو المظفر"
 }

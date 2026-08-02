@@ -1,103 +1,110 @@
 {
-  "@id": "iac:person-00008984",
-  "@type": [
-    "iac:Person"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "Miskawayh",
-      "tr": "Miskavih",
-      "ar": "مسكويه"
-    },
-    "originalScript": {
-      "ar": "مسكويه"
-    },
-    "description": {
-      "tr": "Tarihçi araştırmacı. Aslen Rey'den olup İsfahân'da ikamet etti ve orada vefat etti.",
-      "en": "Historian and researcher. Originally from al-Rayy, he settled in Isfahan and died there.",
-      "ar": "كان ابن مسكويه من رواد فلسفة التاريخ الاسلامية وقد جاء بمنهج تحليلي في كتابة التاريخ من خلال كتابه تجارب الامم. وكتابه تهذيب الاخلاق في فلسفة الاخلاق يمزج بين تراث ارسطو والتقليد الايراني والفكر الاسلامي. عمل امينا للمكتبة في البلاط البويهي."
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Aḥmad b. Muḥammad b. Yaʿqūb Miskawayh, Abū ʿAlī"
-    },
-    "altLabel": {
-      "tr": [
-        "Ahmend b. Muhammed b. Yaʿkûb Miskavih, Ebû Alî"
-      ],
-      "ar": [
-        "أحمد بن محمد بن يعقوب مسكويه ، أبو علي"
-      ]
-    }
+ "@id": "iac:person-00008984",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Miskawayh",
+   "tr": "Miskavih",
+   "ar": "مسكويه"
   },
-  "profession": [
-    "historian"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:1019",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1019",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      },
-      {
-        "source_id": "scholars:299",
-        "source_type": "digital_corpus",
-        "page_or_locator": "scholars.csv scholar_id=299",
-        "extraction_method": "structured_json",
-        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:35:38Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:35:38Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:35:38Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=1019 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-12T14:48:04Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['description.ar', 'kunya', 'nisba']."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:1019."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "مسكويه"
   },
-  "death_temporal": {
-    "start_ah": 421,
-    "start_ce": 1030,
-    "approximation": "exact"
+  "description": {
+   "tr": "Tarihçi araştırmacı. Aslen Rey'den olup İsfahân'da ikamet etti ve orada vefat etti.",
+   "en": "Historian and researcher. Originally from al-Rayy, he settled in Isfahan and died there.",
+   "ar": "كان ابن مسكويه من رواد فلسفة التاريخ الاسلامية وقد جاء بمنهج تحليلي في كتابة التاريخ من خلال كتابه تجارب الامم. وكتابه تهذيب الاخلاق في فلسفة الاخلاق يمزج بين تراث ارسطو والتقليد الايراني والفكر الاسلامي. عمل امينا للمكتبة في البلاط البويهي."
   },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1019, heading_ar=مسكويه || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 32.65, 51.67",
-  "authored_works": [
-    "iac:work-00000690",
-    "iac:work-00002162",
-    "iac:work-00003230",
-    "iac:work-00004141"
+  "transliteration": {
+   "ar-Latn-x-alalc": "Aḥmad b. Muḥammad b. Yaʿqūb Miskawayh, Abū ʿAlī"
+  },
+  "altLabel": {
+   "tr": [
+    "Ahmend b. Muhammed b. Yaʿkûb Miskavih, Ebû Alî"
+   ],
+   "ar": [
+    "أحمد بن محمد بن يعقوب مسكويه ، أبو علي"
+   ]
+  }
+ },
+ "profession": [
+  "historian"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:1019",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=1019",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   },
+   {
+    "source_id": "scholars:299",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=299",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
   ],
-  "kunya": "Ebû Ali",
-  "nisba": [
-    "Hâzin",
-    "Râzî → İsfahânî"
-  ]
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
+  },
+  "generated_at": "2026-05-04T15:35:38Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:35:38Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:35:38Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=1019 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['description.ar', 'kunya', 'nisba']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+translit from alam_detail.json el-alam:1019."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (3952-8984) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00003952 lehine yumuşak-silindi. Gerekçe: İbn Miskeveyh ile 'Miskavih' aynı adın iki imlâsıdır; 1030 (421) ölüm yılı ve İsfahan koordinatı ile filozof-tarihçi kimliği tam örtüşüyor."
+   }
+  ],
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00003952"
+ },
+ "death_temporal": {
+  "start_ah": 421,
+  "start_ce": 1030,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=1019, heading_ar=مسكويه || Ziriklī century_ce=11 || Ziriklī place coords (city/region of activity): 32.65, 51.67",
+ "authored_works": [
+  "iac:work-00000690",
+  "iac:work-00002162",
+  "iac:work-00003230",
+  "iac:work-00004141"
+ ],
+ "kunya": "Ebû Ali",
+ "nisba": [
+  "Hâzin",
+  "Râzî → İsfahânî"
+ ]
 }

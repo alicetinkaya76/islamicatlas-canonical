@@ -1,107 +1,114 @@
 {
-  "@id": "iac:person-00000247",
-  "@type": [
-    "iac:Person"
-  ],
-  "labels": {
-    "prefLabel": {
-      "en": "Qutb al-Din al-Shirazi",
-      "tr": "Kutbüddîn eş-Şîrâzî",
-      "ar": "قطب الدين الشيرازي"
-    },
-    "originalScript": {
-      "ar": "قطب الدين الشيرازي"
-    },
-    "altLabel": {
-      "en": [
-        "Qutb al-Din Mahmud ibn Mas'ud al-Shirazi"
-      ],
-      "tr": [
-        "Kutbüddîn Mahmûd b. Mes'ûd eş-Şîrâzî"
-      ],
-      "ar": [
-        "قطب الدين محمود بن مسعود الشيرازي"
-      ]
-    },
-    "description": {
-      "tr": "Merâga'da Batlamyus-dışı modeller geliştirdi; Kopernik'e kilit halka || Tûsî'nin en seçkin öğrencisi. Gezegen modelleri Kopernik'te neredeyse birebir görünür. || [Tarih notu] Merâga-Kopernik bağlantısı bilim tarihinin en önemli açık sorularından biridir.",
-      "en": "Developed non-Ptolemaic planetary models at Maragha; key link to Copernicus || Tusi's most distinguished student. His planetary models appear almost identically in Copernicus's De Revolutionibus. || [Historiographical note] The Maragha-Copernicus connection is one of the most important open questions in history of science.",
-      "ar": "طوّر نماذج كوكبية غير بطلمية في مراغة || أبرز تلاميذ الطوسي"
-    }
+ "@id": "iac:person-00000247",
+ "@type": [
+  "iac:Person"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "Qutb al-Din al-Shirazi",
+   "tr": "Kutbüddîn eş-Şîrâzî",
+   "ar": "قطب الدين الشيرازي"
   },
-  "profession": [
-    "astronomer",
-    "philosopher",
-    "physician"
-  ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "science-layer:scholar_0064",
-        "source_type": "manual_editorial",
-        "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0064",
-        "extraction_method": "structured_json",
-        "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
-      },
-      {
-        "source_id": "scholars:77",
-        "source_type": "digital_corpus",
-        "page_or_locator": "scholars.csv scholar_id=77",
-        "extraction_method": "structured_json",
-        "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_science_layer",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T14:56:17Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T14:56:17Z",
-    "modified": "2026-07-12T14:48:04Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T14:56:17Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from science_layer.json scholar id=scholar_0064 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-12T14:48:04Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['nisba']."
-      }
-    ],
-    "deprecated": false
+  "originalScript": {
+   "ar": "قطب الدين الشيرازي"
   },
-  "birth_temporal": {
-    "start_ce": 1236,
-    "approximation": "exact"
+  "altLabel": {
+   "en": [
+    "Qutb al-Din Mahmud ibn Mas'ud al-Shirazi"
+   ],
+   "tr": [
+    "Kutbüddîn Mahmûd b. Mes'ûd eş-Şîrâzî"
+   ],
+   "ar": [
+    "قطب الدين محمود بن مسعود الشيرازي"
+   ]
   },
-  "death_temporal": {
-    "start_ce": 1311,
-    "approximation": "exact"
+  "description": {
+   "tr": "Merâga'da Batlamyus-dışı modeller geliştirdi; Kopernik'e kilit halka || Tûsî'nin en seçkin öğrencisi. Gezegen modelleri Kopernik'te neredeyse birebir görünür. || [Tarih notu] Merâga-Kopernik bağlantısı bilim tarihinin en önemli açık sorularından biridir.",
+   "en": "Developed non-Ptolemaic planetary models at Maragha; key link to Copernicus || Tusi's most distinguished student. His planetary models appear almost identically in Copernicus's De Revolutionibus. || [Historiographical note] The Maragha-Copernicus connection is one of the most important open questions in history of science.",
+   "ar": "طوّر نماذج كوكبية غير بطلمية في مراغة || أبرز تلاميذ الطوسي"
+  }
+ },
+ "profession": [
+  "astronomer",
+  "philosopher",
+  "physician"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "science-layer:scholar_0064",
+    "source_type": "manual_editorial",
+    "page_or_locator": "İslam Medeniyeti Akademisi v7, scholar id=scholar_0064",
+    "extraction_method": "structured_json",
+    "edition_or_version": "İslam Medeniyeti Akademisi v7 (curated; Selçuk University, 2026)."
+   },
+   {
+    "source_id": "scholars:77",
+    "source_type": "digital_corpus",
+    "page_or_locator": "scholars.csv scholar_id=77",
+    "extraction_method": "structured_json",
+    "edition_or_version": "islamicatlas v1 scholars layer (v4.8.x)"
+   }
+  ],
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_science_layer",
+   "pipeline_version": "v0.1.0"
   },
-  "authority_xref": [
-    {
-      "authority": "wikidata",
-      "id": "Q729903",
-      "confidence": 1.0,
-      "method": "openrefine_v3",
-      "reviewed": false,
-      "note": "Auto-matched via OpenRefine recon (top result for 'Qutb al-Din al-Shirazi')."
-    }
+  "generated_at": "2026-05-04T14:56:17Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T14:56:17Z",
+  "modified": "2026-07-12T14:48:04Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T14:56:17Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from science_layer.json scholar id=scholar_0064 by science-layer adapter (Hafta 4). Tier-1 seed for cross-source resolver (DİA + El-Aʿlām). active_places + birth_place sidecar'd for resolution by person_integrity.py."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-12T14:48:04Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "scholars augment (H10 Stage 3, Tier-2 conf 1.0): gap-filled ['nisba']."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (247-5059) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00005059 lehine yumuşak-silindi. Gerekçe: 1311'de ölen Kutbüddîn eş-Şîrâzî'dir; Şîraz nisbesi, astronomi-felsefe-tıp üçlüsü ve Arapça biçim tam örtüşüyor."
+   }
   ],
-  "note": "Promoted from science_layer.json scholar id=scholar_0064, lecture_week=n/a. || Key works: {'title': {'en': 'Nihāyat al-Idrāk fī Dirāyat al-Aflāk', 'tr': \"Nihâyetü'l-İdrâk\", 'ar': 'نهاية الإدراك في دراية الأفلاك'}, 'year': 1281, 'field': 'astronomy', 'significance': {'en': 'Non-Ptolemaic planetary models using Tusi couple; chain leading to Copernicus', 'tr': 'Tûsî çifti kullanarak Batlamyus-dışı gezegen modelleri'}} || Modern parallel: Like the CERN team that discovered the framework later credited to others.",
-  "authored_works": [
-    "iac:work-00000089",
-    "iac:work-00005756"
-  ],
-  "nisba": [
-    "Şîrâzî"
-  ]
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00005059"
+ },
+ "birth_temporal": {
+  "start_ce": 1236,
+  "approximation": "exact"
+ },
+ "death_temporal": {
+  "start_ce": 1311,
+  "approximation": "exact"
+ },
+ "authority_xref": [
+  {
+   "authority": "wikidata",
+   "id": "Q729903",
+   "confidence": 1.0,
+   "method": "openrefine_v3",
+   "reviewed": false,
+   "note": "Auto-matched via OpenRefine recon (top result for 'Qutb al-Din al-Shirazi')."
+  }
+ ],
+ "note": "Promoted from science_layer.json scholar id=scholar_0064, lecture_week=n/a. || Key works: {'title': {'en': 'Nihāyat al-Idrāk fī Dirāyat al-Aflāk', 'tr': \"Nihâyetü'l-İdrâk\", 'ar': 'نهاية الإدراك في دراية الأفلاك'}, 'year': 1281, 'field': 'astronomy', 'significance': {'en': 'Non-Ptolemaic planetary models using Tusi couple; chain leading to Copernicus', 'tr': 'Tûsî çifti kullanarak Batlamyus-dışı gezegen modelleri'}} || Modern parallel: Like the CERN team that discovered the framework later credited to others.",
+ "authored_works": [
+  "iac:work-00000089",
+  "iac:work-00005756"
+ ],
+ "nisba": [
+  "Şîrâzî"
+ ]
 }

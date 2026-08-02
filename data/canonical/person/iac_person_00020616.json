@@ -1,79 +1,86 @@
 {
-  "@id": "iac:person-00020616",
-  "@type": [
-    "iac:Person",
-    "iac:Scholar"
+ "@id": "iac:person-00020616",
+ "@type": [
+  "iac:Person",
+  "iac:Scholar"
+ ],
+ "labels": {
+  "prefLabel": {
+   "en": "al-Qāḍī Yūsuf",
+   "tr": "Kâzî Yûsuf",
+   "ar": "القاضي يوسف"
+  },
+  "originalScript": {
+   "ar": "القاضي يوسف"
+  },
+  "description": {
+   "tr": "Hadis hafızı, hadiste \"es-Sunen\" adında bir kitabı vardır. Güvenilir, salih ve heybetli bir kişiydi",
+   "en": "A Hadith scholar with a book called 'al-Sunan' in the field; trustworthy, pious and commanding respe"
+  },
+  "transliteration": {
+   "ar-Latn-x-alalc": "Yūsuf b. Yaʿqūb b. Ismāʿīl b. Hemmād b. Zayd b. Derham al-Azdī, mawlāhum, al-Baṣrī, then al-Baghdādī, Abū Muhammad"
+  },
+  "altLabel": {
+   "tr": [
+    "Yûsuf b. Ya'kûb b. İsmâil b. Hemmâd b. Zeyd b. Derhem el-Ezdî, mevlâları, el-Basrî, sonra el-Bağdâdî, Ebû Muhammed"
+   ],
+   "ar": [
+    "يوسف بن يعقوب بن إسماعيل بن حماد بن زيد بن درهم الأزدي، مولاهم، البصريثم البغدادي، أبو محمد"
+   ]
+  }
+ },
+ "profession": [
+  "scholar"
+ ],
+ "provenance": {
+  "derived_from": [
+   {
+    "source_id": "el-alam:13903",
+    "source_type": "tertiary_reference",
+    "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=13903",
+    "extraction_method": "structured_json",
+    "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
+   }
   ],
-  "labels": {
-    "prefLabel": {
-      "en": "al-Qāḍī Yūsuf",
-      "tr": "Kâzî Yûsuf",
-      "ar": "القاضي يوسف"
-    },
-    "originalScript": {
-      "ar": "القاضي يوسف"
-    },
-    "description": {
-      "tr": "Hadis hafızı, hadiste \"es-Sunen\" adında bir kitabı vardır. Güvenilir, salih ve heybetli bir kişiydi",
-      "en": "A Hadith scholar with a book called 'al-Sunan' in the field; trustworthy, pious and commanding respe"
-    },
-    "transliteration": {
-      "ar-Latn-x-alalc": "Yūsuf b. Yaʿqūb b. Ismāʿīl b. Hemmād b. Zayd b. Derham al-Azdī, mawlāhum, al-Baṣrī, then al-Baghdādī, Abū Muhammad"
-    },
-    "altLabel": {
-      "tr": [
-        "Yûsuf b. Ya'kûb b. İsmâil b. Hemmâd b. Zeyd b. Derhem el-Ezdî, mevlâları, el-Basrî, sonra el-Bağdâdî, Ebû Muhammed"
-      ],
-      "ar": [
-        "يوسف بن يعقوب بن إسماعيل بن حماد بن زيد بن درهم الأزدي، مولاهم، البصريثم البغدادي، أبو محمد"
-      ]
-    }
+  "generated_by": {
+   "pipeline_name": "canonicalize_person_el_alam",
+   "pipeline_version": "v0.1.0"
   },
-  "profession": [
-    "scholar"
+  "generated_at": "2026-05-04T15:37:48Z",
+  "attributed_to": "https://orcid.org/0000-0002-7747-6854",
+  "created": "2026-05-04T15:37:48Z",
+  "modified": "2026-07-14T11:35:23Z",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "record_history": [
+   {
+    "change_type": "create",
+    "changed_at": "2026-05-04T15:37:48Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "Initial canonicalization from al-Aʿlām alam_id=13903 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-14T11:35:23Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "release": "v0.1.0-phase0",
+    "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:13903."
+   },
+   {
+    "change_type": "update",
+    "changed_at": "2026-07-30T20:47:58Z",
+    "changed_by": "https://orcid.org/0000-0002-7747-6854",
+    "note": "[h49_001] Aynı kişi kümesi (7757-20616) iki bağımsız mercekle (prosopografi + çürütme) yargılandı ve 'aynı kişi' kararı verildi; iac:person-00007757 lehine yumuşak-silindi. Gerekçe: Kadı Yûsuf b. Ya'kūb (ö. 297/910, Bağdat) 'Yûsuf el-Kādî' ve 'Kâzî Yûsuf' biçimlerinde aynı kişidir; unvan sırası dışında fark yoktur."
+   }
   ],
-  "provenance": {
-    "derived_from": [
-      {
-        "source_id": "el-alam:13903",
-        "source_type": "tertiary_reference",
-        "page_or_locator": "al-Ziriklī, al-Aʿlām (8th ed. 2002), entry alam_id=13903",
-        "extraction_method": "structured_json",
-        "edition_or_version": "Khayr al-Dīn al-Ziriklī, al-Aʿlām (Beirut: Dār al-ʿIlm li’l-Malāyīn, 8th ed. 2002), 8 vols."
-      }
-    ],
-    "generated_by": {
-      "pipeline_name": "canonicalize_person_el_alam",
-      "pipeline_version": "v0.1.0"
-    },
-    "generated_at": "2026-05-04T15:37:48Z",
-    "attributed_to": "https://orcid.org/0000-0002-7747-6854",
-    "created": "2026-05-04T15:37:48Z",
-    "modified": "2026-07-14T11:35:23Z",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "record_history": [
-      {
-        "change_type": "create",
-        "changed_at": "2026-05-04T15:37:48Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "Initial canonicalization from al-Aʿlām alam_id=13903 by el-alam adapter (Hafta 4) [Track B — no DİA cross-ref]."
-      },
-      {
-        "change_type": "update",
-        "changed_at": "2026-07-14T11:35:23Z",
-        "changed_by": "https://orcid.org/0000-0002-7747-6854",
-        "release": "v0.1.0-phase0",
-        "note": "alam-detail augment (H11 S10): gap-fill alt.ar+alt.tr+kunya+translit from alam_detail.json el-alam:13903."
-      }
-    ],
-    "deprecated": false
-  },
-  "death_temporal": {
-    "start_ah": 297,
-    "start_ce": 910,
-    "approximation": "exact"
-  },
-  "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=13903, heading_ar=القاضي يوسف || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
-  "kunya": "أبو محمد"
+  "deprecated": true,
+  "deprecated_in_favor_of": "iac:person-00007757"
+ },
+ "death_temporal": {
+  "start_ah": 297,
+  "start_ce": 910,
+  "approximation": "exact"
+ },
+ "note": "El-Aʿlām (Ziriklī) cross-reference: alam_id=13903, heading_ar=القاضي يوسف || Ziriklī century_ce=10 || Ziriklī place coords (city/region of activity): 33.32, 44.37",
+ "kunya": "أبو محمد"
 }
