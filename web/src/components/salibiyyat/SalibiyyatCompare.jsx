@@ -65,7 +65,9 @@ export default function SalibiyyatCompare({
     if (!cluster) return;
 
     /* FIX: Use computed lat/lon from cluster (derived from events) */
-    const lat = cluster.lat ?? 33;
+    // H51: `?? 33` uydurma koordinattı; koordinatsız küme çizilmez.
+    if (cluster.lat == null || cluster.lon == null) return null;
+    const lat = cluster.lat;
     const lon = cluster.lon ?? 36;
 
     const map = L.map(miniMapContainer.current, {

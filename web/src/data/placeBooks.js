@@ -24,9 +24,22 @@ export function ensurePlaceIndex() {
     .catch(() => {});
 }
 
+/* H51: bu normalizasyon ÜRETİCİDEKİYLE AYNI OLMAK ZORUNDA —
+   pipelines/reading/extract_book_mentions.py ve build_place_index.py İKİ ayrı
+   hareke bloğu siliyor; buradaki kopya TEK aralık kullanıyordu ve U+0621–U+064A
+   arasındaki 42 Arap HARFİNİ de siliyordu.
+
+   SONUÇ ÖLÇÜLDÜ: normAr('بغداد') === '' → place_index'in 4.595 adının HİÇBİRİ
+   eşleşmiyordu; "Bu yeri kitaplarda oku" köprüsü (4.566 yer / 102.984 anılma)
+   kurulduğu H18'den beri TAMAMEN ÖLÜYDÜ ve popup'ta hiç çizilmedi.
+
+   Dosyanın kendi docstring'i "üreticideki norm_ar ile aynı normalizasyon"
+   diyordu — değildi. build_place_index.py'nin "normalizasyon kuralı burada
+   KOPYALANMAZ, sürüklenme olmasın" uyarısına rağmen kopyalanmış ve sürüklenmiş. */
 const normAr = (s) => (s || '')
-  .replace(/[ؐ-ٰٟـ]/g, '')
-  .replace(/أ|إ|آ/g, 'ا')
+  .replace(/[\u0610-\u061A\u064B-\u065F\u0670]/g, '')   // YALNIZ harekeler
+  .replace(/\u0640/g, '')                                   // tatvîl
+  .replace(/[أإآ]/g, 'ا')
   .replace(/ى/g, 'ي')
   .trim();
 

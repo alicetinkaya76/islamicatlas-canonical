@@ -32,7 +32,8 @@ export function ei1Normalize(s) {
     .replace(/[āáà]/g,'a').replace(/[ūú]/g,'u').replace(/[īíì]/g,'i')
     .replace(/[ḥḫ]/g,'h').replace(/ṣ/g,'s').replace(/ṭ/g,'t')
     .replace(/ḍ/g,'d').replace(/ẓ/g,'z').replace(/ʿ|ʾ|'/g,'')
-    .replace(/[\u0610-\u065f\u0670]/g,'')
+    .normalize('NFKD').replace(/[\u0300-\u036F]/g, '')   // H51: İ→i+U+0307
+    .replace(/[\u0610-\u061A\u064B-\u065F\u0670]/g,'')   // H51: YALNIZ harekeler
     .replace(/ة/g,'ه').replace(/ى/g,'ي').replace(/أ|إ|آ/g,'ا');
 }
 

@@ -6,30 +6,11 @@ import { n } from '../../hooks/useEntityLookup';
 import { f } from '../../data/i18n-utils';
 
 /* ═══ Turkish + Arabic tolerant normalization ═══ */
-const normalize = (s) =>
-  s.toLowerCase()
-    .replace(/ı/g, 'i')
-    .replace(/ğ/g, 'g')
-    .replace(/ü/g, 'u')
-    .replace(/ş/g, 's')
-    .replace(/ö/g, 'o')
-    .replace(/ç/g, 'c')
-    .replace(/â/g, 'a')
-    .replace(/î/g, 'i')
-    .replace(/û/g, 'u')
-    .replace(/[āáà]/g, 'a')
-    .replace(/[ūú]/g, 'u')
-    .replace(/[īíì]/g, 'i')
-    .replace(/[ḥḫ]/g, 'h')
-    .replace(/ṣ/g, 's')
-    .replace(/ṭ/g, 't')
-    .replace(/ḍ/g, 'd')
-    .replace(/ẓ/g, 'z')
-    .replace(/ʿ|ʾ|'/g, '')
-    .replace(/[\u0610-\u065f\u0670]/g, '')
-    .replace(/ة/g, 'ه')
-    .replace(/ى/g, 'ي')
-    .replace(/أ|إ|آ/g, 'ا');
+/* H51: bu dosyada normalize'ın KENDİ KOPYASI vardı ve Arapça karakter
+   sınıfı 42 Arap HARFİNİ siliyordu (H44'te bookkit sürümü onarıldı ama
+   9 kopya taranmamıştı — ölçüldü: global aramada 12.935 Arapça adın
+   %99,6'sı boşa düşüyordu). Kopya SİLİNDİ; tek otorite bookkit. */
+import { normalize } from './bookkit/normalize';   // H51: tek otorite (kopya kaldırıldı)
 
 /* ═══ Build search index with multi-field support ═══ */
 function buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData) {
@@ -170,7 +151,14 @@ function buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData)
     idx.push({
       type: 'alam', icon: '📖',
       obj: { id: b.id },
-      lat: b.lat || 30, lon: b.lon || 45,
+  /* H51 — UYDURMA KOORDİNAT SABİTİ KALDIRILDI.
+     Bu satırlar koordinatsız kaydı sessizce 30N/45E'ye (ya da Kahire'ye)
+     çakıyordu; ölçüldü: yalnız Yâkût kolunda 1.483 koordinatsız kayıt tek bir
+     noktaya yığılıyordu ve kullanıcı bunu "bilinen konum" sanıyordu. Bu, bu
+     deponun en sert kuralının ("ortaçağ koordinatı uydurulmaz") doğrudan
+     ihlaliydi. Ayrıca `|| 30` kalıbı geçerli lat=0 değerini de yutuyordu.
+     Koordinat yoksa null kalır; handleSelect uçmaz, kaydı seçer. */
+      lat: b.lat ?? null, lon: b.lon ?? null,
       zoom: b.lat ? 7 : 4,
       name_tr: b.ht || b.h, name_en: b.he || b.h,
       search_tr: searchTr + ' ' + searchAr,
@@ -185,7 +173,7 @@ function buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData)
   (yaqutData || []).forEach(e => {
     idx.push({
       type: 'yaqut', icon: '🌍', obj: { id: e.id },
-      lat: e.lat ?? 30, lon: e.lon ?? 45, zoom: e.lat != null ? 8 : 4,
+      lat: e.lat ?? null, lon: e.lon ?? null, zoom: e.lat != null ? 8 : 4,
       name_tr: e.ht || e.h, name_en: e.he || e.h,
       search_tr: normalize((e.ht || '') + ' ' + (e.h || '')),
       search_en: normalize((e.he || '') + ' ' + (e.h || '')),
@@ -196,7 +184,8 @@ function buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData)
   ((muqData && muqData.places) || []).forEach(e => {
     idx.push({
       type: 'muqaddasi', icon: '📐', obj: { id: e.id },
-      lat: parseFloat(e.lat) || 30, lon: parseFloat(e.lon) || 45, zoom: 8,
+      lat: Number.isFinite(parseFloat(e.lat)) ? parseFloat(e.lat) : null,
+      lon: Number.isFinite(parseFloat(e.lon)) ? parseFloat(e.lon) : null, zoom: 8,
       name_tr: e.name_tr || e.name_ar, name_en: e.name_en || e.name_ar,
       search_tr: normalize((e.name_tr || '') + ' ' + (e.name_ar || '')),
       search_en: normalize((e.name_en || '') + ' ' + (e.name_ar || '')),
@@ -207,7 +196,7 @@ function buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData)
   ((khitatData && khitatData.structures) || []).forEach(e => {
     idx.push({
       type: 'khitat', icon: '🏛', obj: { id: e.id },
-      lat: e.lat ?? 30.05, lon: e.lon ?? 31.26, zoom: 12,
+      lat: e.lat ?? null, lon: e.lon ?? null, zoom: 12,
       name_tr: e.tr || e.en || e.ar, name_en: e.en || e.ar,
       search_tr: normalize((e.tr || '') + ' ' + (e.ar || '')),
       search_en: normalize((e.en || '') + ' ' + (e.ar || '')),
@@ -396,9 +385,11 @@ export default function SearchBar({ lang, onFlyTo, onSelectEntity }) {
       window.location.hash = `#yaqut?search=${encodeURIComponent(item.name_tr || '')}`;
     } else if (item.type === 'science') {
       window.location.hash = '#science';
-    } else {
+    } else if (item.lat != null && item.lon != null) {
       if (onFlyTo) onFlyTo({ lat: item.lat, lon: item.lon, zoom: item.zoom });
     }
+    /* Koordinatsız kayıtta UÇULMAZ — eskiden uydurma sabite uçuluyordu.
+       Kayıt yine seçilir (onSelectEntity), kart açılır; harita yerinde kalır. */
     if (onSelectEntity) onSelectEntity(item);
   }, [onFlyTo, onSelectEntity, query, lang, addToRecent]);
 
@@ -407,7 +398,9 @@ export default function SearchBar({ lang, onFlyTo, onSelectEntity }) {
     if (!filtered.length) return;
     const item = filtered[Math.floor(Math.random() * filtered.length)];
     setQuery(''); setShowDropdown(false); setShowRecent(false);
-    if (onFlyTo) onFlyTo({ lat: item.lat, lon: item.lon, zoom: item.zoom });
+    if (onFlyTo && item.lat != null && item.lon != null) {
+      onFlyTo({ lat: item.lat, lon: item.lon, zoom: item.zoom });
+    }
     if (onSelectEntity) onSelectEntity(item);
   }, [searchIndex, activeCategories, onFlyTo, onSelectEntity]);
 

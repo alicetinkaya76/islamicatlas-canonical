@@ -3,17 +3,11 @@ import T from '../../data/i18n';
 import glossary from '../../data/glossary';
 
 /* ═══ Turkish Character Normalization for Search ═══ */
-const normalize = (s) =>
-  s.toLowerCase()
-    .replace(/ı/g, 'i')
-    .replace(/ğ/g, 'g')
-    .replace(/ü/g, 'u')
-    .replace(/ş/g, 's')
-    .replace(/ö/g, 'o')
-    .replace(/ç/g, 'c')
-    .replace(/â/g, 'a')
-    .replace(/î/g, 'i')
-    .replace(/û/g, 'u');
+/* H51: yerel kopya kaldırıldı — tek otorite bookkit. Bu kopya yalnız TR
+   harflerini ele alıyordu (Arapça sınıfı yoktu, harf yemiyordu) ama
+   kopya olmanın kendisi sürüklenme riskidir: H44'te bookkit onarıldığında
+   9 kopya geride kalmış ve arama aylarca ölü çalışmıştı. */
+import { normalize } from './bookkit/normalize';
 
 export default function GlossaryModal({ lang }) {
   const [open, setOpen] = useState(false);

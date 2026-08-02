@@ -13,16 +13,11 @@ import T from '../../data/i18n';
 const MADHABS = ['Hanefî', 'Şâfiî', 'Mâlikî', 'Hanbelî', 'İmâmî', 'Zeydî', 'İbâzî'];
 
 /* ═══ Turkish + Arabic tolerant normalize ═══ */
-const normalize = (s) =>
-  (s || '').toLowerCase()
-    .replace(/ı/g, 'i').replace(/ğ/g, 'g').replace(/ü/g, 'u')
-    .replace(/ş/g, 's').replace(/ö/g, 'o').replace(/ç/g, 'c')
-    .replace(/â/g, 'a').replace(/î/g, 'i').replace(/û/g, 'u')
-    .replace(/[āáà]/g, 'a').replace(/[ūú]/g, 'u').replace(/[īíì]/g, 'i')
-    .replace(/[ḥḫ]/g, 'h').replace(/ṣ/g, 's').replace(/ṭ/g, 't')
-    .replace(/ḍ/g, 'd').replace(/ẓ/g, 'z').replace(/ʿ|ʾ|'/g, '')
-    .replace(/[\u0610-\u065f\u0670]/g, '') // Arabic diacritics
-    .replace(/ة/g, 'ه').replace(/ى/g, 'ي').replace(/أ|إ|آ/g, 'ا');
+/* H51: bu dosyada normalize'ın KENDİ KOPYASI vardı ve Arapça karakter
+   sınıfı 42 Arap HARFİNİ siliyordu (H44'te bookkit sürümü onarıldı ama
+   9 kopya taranmamıştı — ölçüldü: global aramada 12.935 Arapça adın
+   %99,6'sı boşa düşüyordu). Kopya SİLİNDİ; tek otorite bookkit. */
+import { normalize } from '../../shared/bookkit/normalize';   // H51: tek otorite (kopya kaldırıldı)
 
 /* ═══ Helpers — computed once data arrives ═══ */
 function extractTopProfessions(data) {
