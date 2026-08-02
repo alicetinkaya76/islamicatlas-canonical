@@ -1,4 +1,4 @@
-import { useMemo, useState, useRef } from 'react';
+import { useMemo, useState, useRef, useEffect } from 'react';
 import useAsyncData from '../../hooks/useAsyncData.jsx';
 import { hn } from '../../data/i18n-utils';
 import T from '../../data/i18n';
@@ -24,6 +24,21 @@ export default function YaqutIdCard({ lang, ty, entry, detail, onClose, onLoadDe
   const [eventsExpanded, setEventsExpanded] = useState(false);
   const [personsExpanded, setPersonsExpanded] = useState(false);
   const [xrefExpanded, setXrefExpanded] = useState(true);
+  /* H54: canonical yer alanlarının HİÇBİRİ arayüze çıkmıyordu (grep: subtype 0,
+     located_in 0, temporal_coverage 0, authority_xref 0) ve deponun en zengin
+     yer katmanı `note` içinde string olarak hapisti (ülke 11.237, ince tip
+     6.999, etimoloji 6.000). Yan dosya ikisini de yayına taşır.
+     KAYNAK AYRIMI KORUNUR: `alan` = doğrulanmış canonical alan, `note` =
+     metinden ayıklandı. Ayıklanmış bilgi, doğrulanmış alan gibi gösterilmez. */
+  const [facets, setFacets] = useState(null);
+  useEffect(() => {
+    fetch('/view-data/place_facets.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => setFacets(d?.facets || {}))
+      .catch(() => setFacets({}));
+  }, []);
+  const fac = facets && entry?.pid
+    ? facets[String(entry.pid).replace(/^iac:place-0*/, '')] : null;
   const XREF_PER_PAGE = 15;
 
   // Lazy-load crossref data only when this component mounts
@@ -77,6 +92,52 @@ export default function YaqutIdCard({ lang, ty, entry, detail, onClose, onLoadDe
         <p className="yaqut-idcard-h2">{heading2}</p>
         <p className="yaqut-idcard-arabic" dir="rtl">{entry.h}</p>
       </div>
+
+      {/* H54: merkezî defterden gelen ve v1 kartında BULUNMAYAN olgular.
+
+          ÖLÇÜLDÜ — tekrar etmemek için: yaqut_lite zaten ülke (10.997), bölge
+          (8.519) ve tip (12.935) taşıyor, üstelik tipi canonical'dan DAHA İNCE
+          ("city" ↔ canonical "settlement"). Bu üçünü rozet olarak basmak kartı
+          tekrarla şişirirdi. Yan dosyada duruyorlar (canonical'ın v1'den fakir
+          olduğunun ölçüsü olarak değerliler) ama ekrana çıkmıyorlar.
+
+          Ekrana yalnız v1'de KARŞILIĞI OLMAYAN olgular çıkar: etimoloji
+          (5.988), tarihsel dönem (755), otorite bağlantısı (2.774), üst konum
+          (1.429). Kaynağı 'note' olanlar KESİK çerçeveyle — metinden
+          ayıklandıkları görülsün, doğrulanmış alan gibi durmasınlar. */}
+      {fac && (fac.etimoloji || fac.donem || fac.xref || fac.ust) && (
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, margin: '8px 0 4px' }}>
+          {fac.donem && (
+            <span title={lang === 'tr' ? 'Kaynak metninden ayıklandı (doğrulanmış alan değil)'
+                                       : 'Extracted from source note'}
+              style={{ fontSize: 11, padding: '2px 8px', borderRadius: 999,
+                border: '1px dashed rgba(201,168,76,.55)', color: '#c9a84c', opacity: .85 }}>
+              {lang === 'tr' ? 'dönem' : 'period'}: {String(fac.donem.v)}
+            </span>
+          )}
+          {fac.ust && (
+            <span title={lang === 'tr' ? 'Merkezî defterde doğrulanmış üst konum' : 'Validated parent place'}
+              style={{ fontSize: 11, padding: '2px 8px', borderRadius: 999,
+                border: '1px solid rgba(201,168,76,.75)', color: '#c9a84c' }}>
+              ⬆ {lang === 'tr' ? 'üst konum' : 'within'}
+            </span>
+          )}
+          {fac.xref && (
+            <span title={lang === 'tr' ? 'Merkezî defterde doğrulanmış otorite bağlantısı'
+                                       : 'Validated authority cross-reference'}
+              style={{ fontSize: 11, padding: '2px 8px', borderRadius: 999,
+                border: '1px solid rgba(201,168,76,.75)', color: '#c9a84c' }}>
+              🔗 {Array.isArray(fac.xref.v) ? fac.xref.v.length : 1} {lang === 'tr' ? 'otorite' : 'authority'}
+            </span>
+          )}
+          {fac.etimoloji && (
+            <span style={{ fontSize: 11, opacity: .72, width: '100%', marginTop: 2 }}
+              title={lang === 'tr' ? 'Kaynak metninden ayıklandı' : 'Extracted from note'}>
+              🏷 {String(fac.etimoloji.v)}
+            </span>
+          )}
+        </div>
+      )}
 
       {/* Type & Period badges */}
       <div className="yaqut-idcard-badges">

@@ -169,3 +169,42 @@ def test_darphane_pid_koprusu_uydurmuyor():
             elif (_json.loads(p.read_text(encoding="utf-8")).get("provenance") or {}).get("deprecated"):
                 olu.append(f"{k}→{pid} (deprecated)")
         assert not olu, f"ölü yere bağlanan darphane: {olu[:5]}"
+
+
+def test_yer_olgulari_kaynak_isareti_tasiyor():
+    """H54: ayıklanmış bilgi, doğrulanmış alan gibi gösterilemez.
+
+    `place_facets.json`'daki her olgu `_kaynak` taşır: 'alan' = canonical
+    yapısal alan (doğrulanmış), 'note' = kaynak metninden ayıklandı. UI kesik
+    çerçeveyle ayırıyor. Bu ayrım kaybolursa türetilmiş bilgi doğrulanmış gibi
+    okunur — bu deponun dürüstlük doktrinine aykırı.
+    """
+    import json as _json
+    p = REPO / "web" / "public" / "view-data" / "place_facets.json"
+    if not p.is_file():
+        pytest.skip("place_facets üretilmemiş")
+    d = _json.loads(p.read_text(encoding="utf-8"))
+    eksik = []
+    for pid, fac in list(d["facets"].items())[:3000]:
+        for k, v in fac.items():
+            if not isinstance(v, dict) or v.get("_kaynak") not in ("alan", "note"):
+                eksik.append(f"{pid}.{k}")
+    assert not eksik, f"kaynak işareti olmayan olgu: {eksik[:5]}"
+    # UI kaynak ayrımını gösteriyor mu?
+    ui = (SRC / "components" / "yaqut" / "YaqutIdCard.jsx").read_text(encoding="utf-8")
+    assert "dashed" in ui, "UI 'note'tan ayıklanan olguyu görsel olarak ayırmıyor"
+
+
+def test_yer_olgulari_v1_alanlarini_tekrarlamiyor():
+    """v1 kartında zaten olan ülke/bölge/tip ekrana ikinci kez basılmamalı.
+
+    Ölçüldü: yaqut_lite ct 10.997 · rg 8.519 · gt 12.935 taşıyor ve tipi
+    canonical'dan DAHA İNCE ('city' ↔ 'settlement'). Bunları rozet yapmak kartı
+    tekrarla şişirir. Yan dosyada durmaları sorun değil (canonical'ın v1'den
+    fakir olduğunun ölçüsü); ekrana çıkmamaları gerekir.
+    """
+    ui = (SRC / "components" / "yaqut" / "YaqutIdCard.jsx").read_text(encoding="utf-8")
+    blok = re.search(r"\{fac && \(fac\..*?\n      \)\}", ui, re.S)
+    assert blok, "facet rozet bloğu bulunamadı"
+    for alan in ("fac.ulke", "fac.bolge", "fac.tip"):
+        assert alan not in blok.group(0), f"{alan} ekrana basılıyor — v1 zaten gösteriyor"
