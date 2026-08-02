@@ -42,7 +42,7 @@ function buildStats(data) {
   };
 }
 
-function YaqutViewInner({ lang, t, initialSearch }) {
+function YaqutViewInner({ lang, t, initialSearch, initialPid }) {
   const ty = t.yaqut || {};
   /* H23 veri akışı birleşmesi: canonical'dan türetilen görünüm dosyası
      (build_view_data.py). Emekli/merge kayıtlar düşer, düzeltmeler yansır;
@@ -74,6 +74,17 @@ function YaqutViewInner({ lang, t, initialSearch }) {
   useEffect(() => {
     if (initialSearch) setSearch(initialSearch);
   }, [initialSearch]);
+
+  /* H52: yer derin linkleri ADA göre kuruluyordu (`?search=<ad>`) — oysa
+     yaqut_lite'ın 12.935 satırının %100'ünde pid var. Ad araması çok-adaylı
+     olabiliyor ve kullanıcıyı yanlış kayda ya da boş listeye düşürüyordu;
+     kişi tarafında aynı kusur H43'te onarılmıştı. pid tek kaydı adresler. */
+  useEffect(() => {
+    if (!initialPid || !YAQUT_LITE) return;
+    const num = String(initialPid).replace(/^iac:place-0*/, '');
+    const hit = YAQUT_LITE.find((r) => r.pid && r.pid.replace(/^iac:place-0*/, '') === num);
+    if (hit) setSelectedId(hit.id);
+  }, [initialPid, YAQUT_LITE]);
 
   const filtered = useMemo(() => {
     if (!YAQUT_LITE) return [];

@@ -124,7 +124,19 @@ function FlatMap({ lang, ty, data, selectedId, selectedEntry, detailData, onSele
     ring.addTo(map);
     selectedMarkerRef.current = ring;
 
-    map.flyTo([selectedEntry.lat, selectedEntry.lon], Math.max(map.getZoom(), 6), { duration: 0.8 });
+    /* H52: HARİTA HENÜZ BOYUTLANMAMIŞKEN flyTo NaN ÜRETİR.
+       Leaflet uçuş eğrisini konteyner boyutundan hesaplar; boyut 0x0 iken
+       unproject(NaN, NaN) atar ve bileşen ErrorBoundary'ye düşer. Normal akışta
+       (kullanıcı listeden seçer) harita çoktan hazırdır, ama pid ile DOĞRUDAN
+       açılışta (#yaqut?pid=…) seçim ilk render'da geliyor ve çöküyordu.
+       H17'de AlamMap'te aynı ders alınmıştı: gizli konteynerde flyTo → NaN.
+       Boyut yoksa animasyonsuz setView; kayıt yine doğru yerde açılır. */
+    const boyut = map.getSize();
+    if (!boyut || boyut.x === 0 || boyut.y === 0) {
+      map.setView([selectedEntry.lat, selectedEntry.lon], Math.max(map.getZoom(), 6));
+    } else {
+      map.flyTo([selectedEntry.lat, selectedEntry.lon], Math.max(map.getZoom(), 6), { duration: 0.8 });
+    }
   }, [selectedEntry, detailData]);
 
   /* Heatmap layer */

@@ -507,7 +507,7 @@ export default function App() {
          tab === 'scholars' ? <ScholarView lang={lang} t={t} initialPid={hashParams.pid} initialSearch={hashParams.q} /> :
          tab === 'battles' ? <BattleView lang={lang} t={t} /> :
          tab === 'alam' ? <AlamView lang={lang} t={t} initialSearch={hashParams.search} initialId={hashParams.id} /> :
-         tab === 'yaqut' ? <YaqutView lang={lang} t={t} initialSearch={hashParams.search} /> :
+         tab === 'yaqut' ? <YaqutView lang={lang} t={t} initialSearch={hashParams.search} initialPid={hashParams.pid} /> :
          tab === 'dia' ? <DiaView lang={lang} t={t} initialSearch={hashParams.search} initialSlug={hashParams.slug} /> :
          tab === 'ei1' ? <Ei1View lang={lang} t={t} initialSearch={hashParams.search} initialId={hashParams.slug} /> :
          tab === 'darpislam' ? <DarpView lang={lang} t={t} isMobile={isMobile} initialSearch={hashParams.search} /> :

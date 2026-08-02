@@ -382,7 +382,11 @@ export default function SearchBar({ lang, onFlyTo, onSelectEntity }) {
     if (item.type === 'alam') {
       window.location.hash = `#alam?id=${item.obj.id}`;
     } else if (item.type === 'yaqut') {
-      window.location.hash = `#yaqut?search=${encodeURIComponent(item.name_tr || '')}`;
+      /* H52: pid varsa ONUNLA git — ad araması çok-adaylı olup yanlış kayda
+         düşürebiliyordu (kişi tarafındaki H43 kusurunun yer eşi). */
+      window.location.hash = item.obj?.pid
+        ? `#yaqut?pid=${encodeURIComponent(item.obj.pid)}`
+        : `#yaqut?search=${encodeURIComponent(item.name_tr || '')}`;
     } else if (item.type === 'science') {
       window.location.hash = '#science';
     } else if (item.lat != null && item.lon != null) {

@@ -161,7 +161,14 @@ export function buildCityPopup(c, lang, t) {
   const fun = lf(c, 'fun', lang);
 
   return `<div class="p-title">🏙 ${n(c, lang)}</div>` +
-    `<div class="p-row"><span class="p-k">${mk.pop}</span><span class="p-v">${c.pop ? c.pop.toLocaleString() : '—'} (${c.yr})</span></div>` +
+    /* H52: `${c.yr}` alanı db.json'da YOK (0/80) → 80 şehir popup'ının HEPSİ
+       "1.000.000 (undefined)" basıyordu. Bu, âlim popup'ındaki
+       "undefined — undefined" hatasının (H44) yer eşi: kod, veride bulunmayan
+       bir alan adını okuyordu. Veride `pop` ve `peak_pop` var, YIL yok — o
+       yüzden yıl iddiası tümüyle kaldırıldı; olmayan bir bilgiyi parantez
+       içinde uydurmaktansa hiç göstermemek doğrudur. Zirve nüfus ayrı ve
+       DOLU bir alan olduğu için gösteriliyor. */
+    `<div class="p-row"><span class="p-k">${mk.pop}</span><span class="p-v">${c.pop ? c.pop.toLocaleString() : '—'}${c.peak_pop && c.peak_pop !== c.pop ? ` · ${{ tr: 'zirve', en: 'peak', ar: 'الذروة' }[lang] || 'peak'} ${c.peak_pop.toLocaleString()}` : ''}</span></div>` +
     `<div class="p-row"><span class="p-k">${mk.role}</span><span class="p-v">${lf(c, 'role', lang)}</span></div>` +
     narrBlock(c, lang) +
     ctxRow('🏗', { tr: 'Katmanlar', en: 'Layers', ar: '' }[lang], lf(c, 'layers', lang)) +

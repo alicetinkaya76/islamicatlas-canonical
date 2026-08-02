@@ -78,3 +78,60 @@ def test_uydurma_koordinat_sabiti_yok():
             if kalip.search(satir):
                 ihlal.append(f"{f.relative_to(SRC)}:{i}  {satir.strip()[:70]}")
     assert not ihlal, f"uydurma koordinat sabiti: {ihlal[:5]}"
+
+
+# ── H52: popup alan sözleşmesi + harita guard'ı ────────────────────────────
+def test_popup_ureticileri_var_olan_alan_okuyor():
+    """Popup, veride BULUNMAYAN alan adı okumamalı.
+
+    İki kez ölçüldü: âlim popup'ı `s.field`/`s.sub` okuyordu (db.json'da 0/450)
+    ve "undefined — undefined" basıyordu; şehir popup'ı `c.yr` okuyordu (0/80)
+    ve "(undefined)" basıyordu. Ortak sınıf: kod ile veri arasında ad sürüklenmesi.
+    Bu test KOŞULSUZ basılan alanları veriye karşı doğrular.
+    """
+    import json as _json
+    db = _json.loads((REPO / "web" / "src" / "data" / "db.json").read_text(encoding="utf-8"))
+    src = (SRC / "components" / "shared" / "PopupFactory.js").read_text(encoding="utf-8")
+    kod = re.sub(r"/\*.*?\*/", "", src, flags=re.S)
+    kod = re.sub(r"^\s*//.*$", "", kod, flags=re.M)
+    esleme = {"buildDynastyPopup": "dynasties", "buildBattlePopup": "battles",
+              "buildEventPopup": "events", "buildScholarPopup": "scholars",
+              "buildMonumentPopup": "monuments", "buildCityPopup": "cities",
+              "buildRoutePopup": "routes"}
+    ihlal = []
+    for fn, coll in esleme.items():
+        i = kod.find(f"export function {fn}")
+        if i < 0:
+            continue
+        govde = kod[i:kod.find("\n}", i)]
+        m = re.match(r"export function \w+\((\w+)", govde)
+        if not m:
+            continue
+        var, rows = m.group(1), db.get(coll) or []
+        if not rows:
+            continue
+        alanlar = set()
+        for r2 in re.finditer(r'`<div class="p-row">.*?</div>`', govde):
+            seg = r2.group(0)
+            alanlar |= set(re.findall(rf"\b{var}\.(\w+)", seg))
+            alanlar |= set(re.findall(rf"lf\({var},\s*'(\w+)'", seg))
+        for a in sorted(alanlar):
+            dolu = sum(1 for r3 in rows
+                       if r3.get(a) not in (None, "", [], {})
+                       or any(r3.get(f"{a}_{L}") not in (None, "", [], {}) for L in ("tr", "en", "ar")))
+            if dolu == 0:
+                ihlal.append(f"{fn}: {var}.{a} → {coll}'de 0/{len(rows)}")
+    assert not ihlal, f"popup veride olmayan alan okuyor (undefined basar): {ihlal}"
+
+
+def test_flyto_boyutsuz_haritada_cagrilmiyor():
+    """Leaflet, konteyner 0x0 iken flyTo'da NaN üretir ve bileşen çöker.
+
+    H17'de AlamMap'te, H52'de YaqutMap'te ölçüldü — ikincisinde pid ile
+    doğrudan açılış (#yaqut?pid=…) tam bu yolu tetikliyordu.
+    """
+    for rel in ("components/yaqut/YaqutMap.jsx",):
+        s = (SRC / rel).read_text(encoding="utf-8")
+        if "flyTo(" not in s:
+            continue
+        assert "getSize()" in s, f"{rel}: flyTo öncesi konteyner boyutu kontrol edilmiyor"
