@@ -9,3 +9,4 @@ export { GEO_COLORS, GEO_ICONS, GEO_EN, GEO_TR, PERIOD_LABEL, GEO_DEFAULT_COLOR,
 export { default as VirtualList } from './VirtualList';
 export { normalize } from './normalize';
 export { default as ErrorBoundary } from './ErrorBoundary';
+export { openitiRepoUrl } from './openiti';

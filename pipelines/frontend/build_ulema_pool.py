@@ -69,6 +69,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
 PERSON_DIR = REPO / "data" / "canonical" / "person"
+WORK_DIR = REPO / "data" / "canonical" / "work"
 SQLITE = REPO / "data" / "_index" / "lookup.sqlite"
 SEED_DB = REPO / "data" / "sources" / "scholars" / "db.json"
 SEED_ISNAD = REPO / "data" / "sources" / "scholars" / "isnad_chains.js"
@@ -218,6 +219,72 @@ def load_source_codes():
                 locators.setdefault(num, {})[prefix] = loc
         codes.setdefault(num, set()).add(code)
     return codes, prefix_counts, locators
+
+
+def openiti_authors():
+    """OpenITI külliyatında eseri olan kişiler (pid no kümesi) — H55.
+
+    NEDEN CURIE YETMİYOR: 'bo' rozeti `source_curie`'deki `openiti:` önekinden
+    geliyordu, yani YALNIZ OpenITI'den mint edilmiş kişiye düşüyordu. Oysa DİA
+    ya da el-Aʿlâm'dan mint edilmiş bir kişinin de OpenITI'de eseri olabilir —
+    ve rozet ona çıkmıyordu. Ölçüldü: rozet 2.246 kişide, oysa OpenITI eseri
+    olan 3.553 kişi var; 1.307'si rozetsiz, FAZLADAN rozet alan 0. Yani rozet
+    gerçeğin öz alt kümesiydi ve kaynağı yanlıştı: kişinin mint kaynağı değil,
+    ESERİNİN varlığı sorulmalı.
+
+    Yumuşak-silinmiş müellif pid'leri kazanana çevrilir (H49/H50 birleştirmesi
+    eser kayıtlarının `authors` alanına hiç uğramamıştı; ölçüldü: 1.177 bağ).
+    """
+    if not WORK_DIR.is_dir():
+        return set()
+
+    prov_cache = {}
+
+    def prov(num):
+        if num not in prov_cache:
+            p = PERSON_DIR / f"iac_person_{num:08d}.json"
+            try:
+                prov_cache[num] = (json.loads(p.read_text(encoding="utf-8"))
+                                   .get("provenance") or {})
+            except (OSError, json.JSONDecodeError):
+                prov_cache[num] = {}
+        return prov_cache[num]
+
+    def kazanan(num):
+        gorulen = set()
+        while True:
+            pr = prov(num)
+            if not pr:
+                return None
+            if not pr.get("deprecated"):
+                return num
+            hedef = pid_num(pr.get("deprecated_in_favor_of") or "")
+            if hedef is None or hedef in gorulen:
+                return None
+            gorulen.add(num)
+            num = hedef
+
+    out = set()
+    for f in sorted(WORK_DIR.glob("*.json")):
+        try:
+            r = json.loads(f.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        if (r.get("provenance") or {}).get("deprecated"):
+            continue
+        # Rozetin etiketi "OpenITI külliyatı" — o yüzden yalnız OpenITI izi
+        # taşıyan eser sayılır. Bilim katmanından gelen eserler 's' rozetinde.
+        if not r.get("openiti_uri"):
+            continue
+        for x in (r.get("authors") or []):
+            pid = x.get("person") if isinstance(x, dict) else x
+            n = pid_num(pid or "")
+            if n is None:
+                continue
+            k = kazanan(n)
+            if k is not None:
+                out.add(k)
+    return out
 
 
 def resolve_targets(locators):
@@ -487,6 +554,21 @@ def main():
 
     persons, scan_stats = load_persons()
     codes, prefix_counts, locators = load_source_codes()
+
+    # H55: 'bo' rozetini kişinin MİNT KAYNAĞINDAN değil, ESERİNİN varlığından
+    # türet. Ekleme yapar, silme yapmaz (ölçüldü: fazladan rozet 0).
+    oi = openiti_authors()
+    bo_eklenen = 0
+    for num in oi:
+        if num not in persons:
+            continue                        # havuzda olmayan kişiye rozet basılmaz
+        s = codes.setdefault(num, set())
+        if "bo" not in s:
+            s.add("bo")
+            bo_eklenen += 1
+    print(f"  'bo' rozeti eser bagindan eklendi: +{bo_eklenen} "
+          f"(OpenITI eseri olan kisi {len(oi)})")
+
     targets, target_counts = resolve_targets(locators)
     print(f"  hedefi cozulen: {dict(target_counts)}")
     bracket_total = store_person_total()

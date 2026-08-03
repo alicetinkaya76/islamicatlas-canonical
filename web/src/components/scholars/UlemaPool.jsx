@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
-import { VirtualList, normalize } from '../shared/bookkit';
+import { VirtualList, normalize, openitiRepoUrl } from '../shared/bookkit';
 import { ensurePersonBridge, bridgeByPid } from '../../data/personBridge';
 
 /**
@@ -45,9 +45,14 @@ const SRC = {
      kaydını DEĞİL — etiket bunu söylüyor, "kişi sayfası" izlenimi vermiyor. */
   by: { label: 'Bosworth hanedanı', color: '#ba68c8',
         href: (b, r) => (r?.t?.by ? `#dynasty/${r.t.by}` : null) },
-  /* OpenITI külliyatı: eser mağazada var ama sitede yalnız 17 kitap okunabilir. */
+  /* OpenITI külliyatı. H55'e kadar bu rozet HEDEFSİZDİ (href sabit null) ve
+     havuzu büyütmenin bu eksende karşılığı yoktu. Artık panelde "Merkezî
+     defterdeki eserleri" listesi var; rozet oraya işaret eder. Rozetin kendisi
+     de onarıldı: kişinin MİNT KAYNAĞINDAN değil ESERİNİN varlığından türüyor
+     (2.246 → 3.553; eksik 1.307, fazla 0). */
   bo: { label: 'OpenITI külliyatı', color: '#90a4ae', href: () => null,
-        bosNeden: 'Eseri merkezî defterde kayıtlı, ama bu kitap sitede henüz okunabilir değil.' },
+        panelde: true,
+        bosNeden: 'Eser listesi bu panelde: "Merkezî defterdeki eserleri". Metinlerin çoğu sitede okunabilir değil.' },
   /* Alatlı antolojisi: şeritte çizili ama şerit kişiye derin link kabul etmiyor. */
   ba: { label: 'Alatlı antolojisi', color: '#90a4ae', href: () => null,
         bosNeden: 'Senkronik şeritte çizili; şerit henüz kişiye doğrudan bağ kabul etmiyor.' },
@@ -90,6 +95,8 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
      yalnız 17'sinde (%0,07) görünür; bu bir "özellik" değil, külliyat
      büyüdükçe kendiliğinden büyüyen bir kapıdır. */
   const [shelfByAuthor, setShelfByAuthor] = useState(null);
+  const [works, setWorks] = useState(null);      // H55: müellif → eser köprüsü
+  const [tumEser, setTumEser] = useState(false); // uzun külliyatlar için "hepsi"
   /* H47: AYNI KİŞİ OLABİLECEK öbür kayıtlar. Denetimin ölçtüğü asıl kusur:
      "22.824" bir kişi sayısı DEĞİL kayıt sayısıdır; aynı kişi 2-3 pid'e
      dağılmış ve bedeli sayı değil ZENGİNLİK PARÇALANMASI — biyografi bir
@@ -185,6 +192,20 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
       .then((d) => setNotes(d?.notes || {}))
       .catch(() => setNotes({}));
   }, [selected, notes]);
+
+  /* H55: müellifin merkezî defterdeki eser listesi. 1,6 MB — notlar gibi
+     TEMBEL yüklenir, ilk seçimde bir kez. Havuzu büyütmenin bu eksendeki
+     karşılığı budur: 3.553 kişi artık künyesiyle birlikte külliyatını da
+     gösteriyor (önce rozet vardı, hedefi yoktu). */
+  useEffect(() => {
+    if (!selected || works) return;
+    fetch('/view-data/author_works.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => setWorks(d || { eserler: {}, yazar: {} }))
+      .catch(() => setWorks({ eserler: {}, yazar: {} }));
+  }, [selected, works]);
+
+  useEffect(() => { setTumEser(false); }, [selected]);
 
   const filtered = useMemo(() => {
     if (!pool) return [];
@@ -376,6 +397,73 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
               );
             })()}
 
+            {/* H55 — Merkezî defterdeki külliyat. Rozet ('bo') eskiden hedefsizdi:
+                "OpenITI külliyatı" yazıyor, tıklanınca hiçbir yere gitmiyordu.
+                Eserler burada listelenir; metni sitede olan 17'si okunabilir,
+                geri kalanı KAYITLIDIR ve bunu açıkça söyler. */}
+            {(() => {
+              const ws = works?.yazar?.[String(selected.id)] || [];
+              if (!ws.length) return null;
+              const E = works.eserler || {};
+              const gorunen = tumEser ? ws : ws.slice(0, 8);
+              return (
+                <div style={{ marginTop: 14 }}>
+                  <div style={{ fontSize: 12, color: GOLD, fontWeight: 700, marginBottom: 6 }}>
+                    {tr ? `Merkezî defterdeki eserleri (${ws.length})`
+                        : `Works in the canonical store (${ws.length})`}
+                  </div>
+                  {gorunen.map((w) => {
+                    const e = E[String(w)] || {};
+                    /* TUZAK (ölçüldü): `y` telif tarihi DEĞİL — kayıtların
+                       %97'sinde müellifin ölüm yılıdır ve `yk:'before'` taşır.
+                       Çıplak yıl basmak olmayan bir kesinlik üretirdi. */
+                    const yil = e.y == null ? null
+                      : e.yk === 'before' ? (tr ? `${e.y} (H) öncesi` : `before ${e.y} AH`)
+                      : e.yk === 'circa' ? `≈ ${e.y} (H)`
+                      : `${e.y} (H)`;
+                    return (
+                      <div key={w} style={{ fontSize: 12.5, marginBottom: 7, paddingBottom: 6,
+                        borderBottom: '1px solid rgba(255,255,255,.07)' }}>
+                        {e.a && (
+                          <div dir="rtl" style={{ fontSize: 14, opacity: .95 }}>{e.a}</div>
+                        )}
+                        {e.t && <div style={{ opacity: e.a ? .65 : .95 }}>{e.t}</div>}
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, alignItems: 'center',
+                          marginTop: 3, fontSize: 11, opacity: .6 }}>
+                          {e.k?.map((s) => <span key={s}>{s}</span>)}
+                          {yil && <span>· {yil}</span>}
+                          {e.d && <span>· {e.d}</span>}
+                          {e.r
+                            ? <a href={`#library?book=${String(w).padStart(8, '0')}`}
+                                style={{ color: GOLD, textDecoration: 'none' }}>
+                                📖 {tr ? 'sitede oku' : 'read here'} →
+                              </a>
+                            : <span style={{ opacity: .8 }}>
+                                {tr ? 'metni sitede yok' : 'text not on site'}
+                              </span>}
+                          {e.u && (
+                            <a href={openitiRepoUrl(e.u)}
+                              target="_blank" rel="noreferrer"
+                              style={{ color: 'rgba(255,255,255,.5)', textDecoration: 'none' }}>
+                              OpenITI ↗
+                            </a>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                  {ws.length > 8 && (
+                    <button type="button" onClick={() => setTumEser((v) => !v)}
+                      style={{ background: 'none', border: `1px solid ${GOLD}`, color: GOLD,
+                        borderRadius: 7, padding: '4px 10px', fontSize: 11.5, cursor: 'pointer' }}>
+                      {tumEser ? (tr ? 'daha az' : 'less')
+                               : (tr ? `+${ws.length - 8} eser daha` : `+${ws.length - 8} more`)}
+                    </button>
+                  )}
+                </div>
+              );
+            })()}
+
             {/* İlişkiler — hoca / talebe / yer. Sayı gösterilir, tıklanınca
                 ilgili kişiye gidilir (pid sözleşmesi, H43). */}
             {(() => {
@@ -440,7 +528,15 @@ export default function UlemaPool({ lang = 'tr', initialPid, initialSearch }) {
                   <span key={s} title={def.bosNeden || undefined}
                     style={{ padding: '6px 10px', borderRadius: 8, border: '1px solid rgba(255,255,255,.15)', opacity: .55, fontSize: 12.5 }}>
                     {def.label}
-                    {def.bosNeden && <span style={{ opacity: .7, fontSize: 11 }}> · {tr ? 'sayfa yok' : 'no page'}</span>}
+                    {/* H55: "sayfa yok" eki, panelde İÇERİĞİ OLAN rozet için
+                        yalan olurdu — 'bo' artık eser listesini besliyor. */}
+                    {def.bosNeden && (
+                      <span style={{ opacity: .7, fontSize: 11 }}>
+                        {' · '}
+                        {def.panelde ? (tr ? 'listesi aşağıda' : 'listed below')
+                                     : (tr ? 'sayfa yok' : 'no page')}
+                      </span>
+                    )}
                   </span>
                 );
               })}

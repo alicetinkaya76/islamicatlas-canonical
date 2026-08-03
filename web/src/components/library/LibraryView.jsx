@@ -13,24 +13,19 @@ import 'leaflet/dist/leaflet.css';
 import { fmtCount } from '../../data/sourceCounts';
 import CITY_ATLAS_REGISTRY from '../../data/cityAtlasRegistry';
 import { curatedItems } from '../../config/navRegistry';   // H35: raf tek kaynaktan
+import { normalize, openitiRepoUrl } from '../shared/bookkit';
 import CityAtlasView from '../CityAtlas/CityAtlasView';
 
 const GOLD = '#c9a84c';
-const norm = (s) =>
-  (s || '')
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[̀-ًͯ-ٰٟ]/g, '')
-    .replace(/[ıİ]/g, 'i');
-
-function openitiRepoUrl(uri) {
-  const m = uri.match(/^(\d{4})/);
-  if (!m) return null;
-  const death = parseInt(m[1], 10);
-  const bucket = String(Math.ceil(death / 25) * 25).padStart(4, '0') + 'AH';
-  const author = uri.split('.')[0];
-  return `https://github.com/OpenITI/${bucket}/tree/master/data/${author}/${uri}`;
-}
+/* H55: bölüm ağacı araması artık TEK OTORİTEYİ kullanıyor. Buradaki yerel
+   kopya harekeleri kod-noktası olarak doğru siliyordu ama sınıfı HAM
+   KARAKTERLE yazılmıştı — kaynakta bidi ile yeniden sıralanan, gözle
+   denetlenemeyen bir kalıp — ve bookkit'in kapsamından geriydi:
+   U+0610–061A harekeleri, tatvîl ve TR/DMG eşlemeleri yoktu.
+   H51 dersi: tek kaynağı onarmak yetmez, KOPYALARI ARAMAK da onarımın
+   parçasıdır. openitiRepoUrl de bookkit'e terfi etti (ikinci tüketici:
+   Ulema Havuzu eser listesi, H55). */
+const norm = normalize;
 
 export default function LibraryView({ lang = 'tr', initialBook = null, initialSec = null, initialP = null }) {
   const tr = lang !== 'en';

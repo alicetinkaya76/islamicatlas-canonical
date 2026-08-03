@@ -77,6 +77,14 @@ def ayikla(note: str) -> dict:
         # "Bosworth death code: k. (murdered)" gibi kod satırları da iz sayılır
         if _re.match(r"^[A-Za-z ]+code:", x):
             continue
+        # H55: SERİLEŞTİRİLMİŞ YAPI kullanıcıya gösterilmez. Bilim katmanı
+        # adaptörü eser bilgisini nota bir Python sözlüğü olarak basmış:
+        #   "Key works: {'title': {'en': ..., 'tr': ...}, 'year': 820, ...}"
+        # Ölçüldü: 133 kişide bu ham repr panele çıkıyordu (Hârizmî, Câhiz,
+        # İbn Heysem…). İçindeki bilgi ARTIK DOĞRU YERDE: eserler H55'te
+        # müellif→eser köprüsüyle listeleniyor. Ham hâli düşürülür.
+        if _re.search(r"\{\s*['\"]", x):
+            continue
         if x:
             serbest.append(x)
     if serbest:

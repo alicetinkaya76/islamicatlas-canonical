@@ -13,7 +13,7 @@ import T from '../../data/i18n';
    sınıfı 42 Arap HARFİNİ siliyordu (H44'te bookkit sürümü onarıldı ama
    9 kopya taranmamıştı — ölçüldü: global aramada 12.935 Arapça adın
    %99,6'sı boşa düşüyordu). Kopya SİLİNDİ; tek otorite bookkit. */
-import { normalize } from '../../shared/bookkit/normalize';   // H51: tek otorite (kopya kaldırıldı)
+import { normalize } from '../shared/bookkit/normalize';   // H51: tek otorite (kopya kaldırıldı)
 
 /* ═══ Helpers ═══ */
 function buildStats(data) {
