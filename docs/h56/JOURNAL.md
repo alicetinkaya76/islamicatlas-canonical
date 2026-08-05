@@ -179,3 +179,107 @@ Denetçilere körü körüne güvenilmedi:
 **Faz-2:** `participants_persons`, `preceded_by/followed_by`, `authority_xref`.
 `causes`/`consequences`'in boş olması **kusur değildir** —
 `build_causal_layer.py:8-14` gerekçesini yazmış.
+
+---
+
+# H56 — İKİNCİ DALGA (2026-08-05, `416e368a`)
+
+Birinci dalgada "kalan" diye yazılmış maddelerin çoğu kapandı.
+
+## Sayı ile içerik çelişiyordu
+
+İki bağımsız kesme üst üste biniyordu: üreticide `CAP = 25`, arayüzde
+`slice(0, 12)`. Bağdat marker'ı başlıkta **"388 canonical olay"** yazıp listede
+**12 satır** gösteriyor, sonra açılacak hiçbir hedefi olmayan *"+376 daha"*
+satırı basıyordu.
+
+Ölçüldü: 5.618 çözülen olayın yalnız **2.616'sı (%46)** ekrana ulaşıyordu.
+
+Dağılımı ölçtüm — en yoğun yer 388 olay, toplam 720 marker — ve **kesmeyi
+tamamen kaldırdım.** Payload %100 taşıyor, liste kaydırılabilir. Katman zaten
+opsiyonel ve tembel yüklendiği için 968 KB → 1.445 KB maliyeti yalnız katmanı
+açan kullanıcıya düşüyor. Kalan tavan (`SANITY = 2000`) kesme değil **kaçak
+denetimi**; aşılırsa susulmuyor.
+
+**Ekrana ulaşan olay: 2.616 → 5.618 (+%115).** Bağdat: count 388, payload 388.
+
+## Yanlış kesinlik: koordinat belirsizliği yayına hiç çıkmıyordu
+
+Kaynak place kaydı belirsizliğini **dürüstçe ilan ediyor** —
+`coords.uncertainty` ve `precision_meters` 18.411 yerde dolu:
+centroid 14.532 · approximate 2.456 · exact 1.423. Üretici hiçbirini
+okumuyordu.
+
+Sonuç: **250 km hassasiyetli 218 marker** (613 olay), 100 m hassasiyetli
+Haleb ile birebir aynı görsel kesinlikte çiziliyordu. Artık payload `u`+`pm`
+taşıyor; belirsiz marker kesikli kenarla çiziliyor, popup
+*"üst yerin merkezinden · ±250 km"* diyor. Belirsiz koordinat üzerindeki olay:
+**1.563 (%27,8)**.
+
+## Zombi marker ve sahte alt tür
+
+- Yer indeksinde `deprecated` denetimi yoktu; **Kudüs'te sayı bölünüyordu**
+  (aktif kayıt 14 olay + emekli kayıt 1 olay, aynı koordinat). 29 olay halefe
+  yönlendirildi, marker **721 → 720**.
+- Alt türü olmayan olaya `"Event"` yazılıyordu — *"tür yok"* bir **tür** gibi
+  görünüyordu (**1.838 kayıt**). Alan artık hiç yazılmıyor; arayüz
+  "sınıflanmamış" diyor ve alt tür etiketlerini üç dile çeviriyor (eskiden
+  TR/AR arayüzde de ham İngilizce sınıf adı basılıyordu).
+
+## Yayın kapısındaki engel kalktı
+
+`search/projections/event.yaml` `description_en: $.note` diyordu — yani
+"İngilizce açıklama" adlı alan **Türkçe boru hattı iç kaydını** taşıyordu ve
+`description_tr`/`description_ar` `~` ile kapalıydı.
+
+Ölçüldü (`full_reindex --dry-run --namespace event`): **9.956 dokümanın
+9.956'sında (%100)** en az bir üretim izi — `Kaynak:` 9.102, `Çıkarım güveni`
+9.102, `dup-cluster` 2.917, `v1 tip:` 754. Hosting açıldığı an her olay
+kartının özeti dahilî not gösterecekti.
+
+Üç dil de doğru kaynağa bağlandı (diğer beş namespace zaten öyleydi).
+**Üretim izi taşıyan doküman: 9.956 → 0.** `description_tr` 9.202,
+`description_ar` 9.743 dolu; hiçbiri boş değil. `manuscript.yaml`'daki ikiz
+kalıp da düzeltildi (o namespace'te henüz kayıt yok — canlı zarar yoktu).
+
+## Kurum yayın katmanı
+
+H54'ün kurum eksenindeki karşılığı: 5.423 kayıt.
+
+En önemlisi **koordinat güven uyarısı** — 62 kayıt kendi `note`'unda
+*"Koordinat düşük güvenilirlikli (v1 geocoding)"* diyor ve `grep web/src` bunun
+için **sıfır** isabet veriyordu. 21'i tam olarak **(28.0, 31.0)** — Mısır'ın
+geometrik merkezi — üzerinde ve hepsi manastır.
+
+Türetilmiş olgu: **89 noktayı 3 veya daha çok kurum paylaşıyor** (557 kayıt).
+
+*Denetim bunu "bayraksız kopyalanmış" diye raporlamıştı; ölçünce bayrağın
+**canonical'da var ama note'ta hapis** olduğu görüldü — farklı kusur, farklı
+onarım.*
+
+**Dört kusur da mutasyonla doğrulandı. Test 247 → 259.**
+
+---
+
+## İkinci dalgadan sonra kalan
+
+**Yapılmadı — join anahtarı yok:** `institution_facets.json` ÜRETİLDİ ama
+arayüze **bağlanmadı**. Kurumları gösteren üç görünüm (KhitatView, Konya ve
+Kahire city-atlas) v1'in canlı symlink'indeki dosyaları okuyor ve o dosyalarda
+canonical institution pid'i **yok** — join anahtarı hiç mint edilmemiş.
+Bağlamak için önce `build_book_city_atlas.py` ve v1 katmanlarının kaydın kendi
+`institution` pid'ini yazması gerekiyor. Bu, v1 symlink sınırına dokunduğu için
+ayrı bir turda ve Ali kapısıyla ele alınmalı.
+
+**Yapılmadı — ölçüldü, sırada:**
+- maqrizi katmanının **801/801** kaydına sabit `located_in = Kahire`; 53'ü
+  Kahire'den 50 km'den, 31'i 200 km'den, en uzağı **482 km** uzakta.
+- Canonical olayların tek kapısı hâlâ varsayılan kapalı bir toggle; derin link
+  yok, `SearchBar` indeksi tamamen `db.json`'dan kuruluyor → **9.956 canonical
+  olayın 0'ı aranabilir.**
+- Evliyâ katmanında v1'in `category_confidence` değeri düşürülüyor: 321 kayıt
+  <0,5 güvenle sert `@type` alıyor, izi note'ta bile yok.
+
+**İnsan kapısı (değişmedi):** 9 tutarsız hanedan yılı · 4.774 önder adı ·
+2.238 çözülmemiş yer adı · `PHASE0_CLOSEOUT` event kapanışının statüsü.
+
