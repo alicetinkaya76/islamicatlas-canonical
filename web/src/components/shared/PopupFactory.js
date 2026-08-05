@@ -1,5 +1,7 @@
 import { n, lf } from '../../hooks/useEntityLookup';
 import { booksBlockHtml } from '../../data/placeBooks';
+import { dynastyYearRange, hasMeasuredExtent, EXTENT_NOTE,
+         rulerCoordInherited, RULER_COORD_NOTE } from '../../data/dynastyHonesty';
 
 /* ═══ Popup HTML Builders ═══ */
 
@@ -67,7 +69,11 @@ export function buildDynastyPopup(d, lang, t, analyticsMap, causalIdx) {
   const keyC = lf(d, 'key', lang);
 
   return `<div class="p-title">${n(d, lang)}</div>` +
-    `<div class="p-row"><span class="p-k">${mk.period}</span><span class="p-v">${d.start} – ${d.end}</span></div>` +
+    /* H56: çıplak `${d.start} – ${d.end}` basılıyordu. 186 hanedanın 9'unda
+       aralık imkânsız (Eyyûbîler "1169 – 15"; İslam takvimi 622'de başlar) ve
+       7'sinde `2025` bir "devam ediyor" nöbetçisi. Doğru yıl TAHMİN EDİLMEZ —
+       tutarsız olan öyle etiketlenir, ham değer parantezde kalır. */
+    `<div class="p-row"><span class="p-k">${mk.period}</span><span class="p-v">${dynastyYearRange(d, lang)}</span></div>` +
     (d.rel ? `<div class="p-row"><span class="p-k">${mk.religion}</span>${relBadge(d.rel, t)}</div>` : '') +
     (d.gov ? `<div class="p-row"><span class="p-k">${mk.govType}</span><span class="p-v">${t.gov[d.gov] || d.gov}</span></div>` : '') +
     (d.cap ? `<div class="p-row"><span class="p-k">${mk.capital}</span><span class="p-v">${d.cap}</span></div>` : '') +
@@ -79,7 +85,12 @@ export function buildDynastyPopup(d, lang, t, analyticsMap, causalIdx) {
     ctxRow('📉', mk.fall, lf(d, 'fall', lang)) +
     ctxRow('⏪', mk.before, lf(d, 'ctx_b', lang)) +
     ctxRow('⏩', mk.after, lf(d, 'ctx_a', lang)) +
-    causalBlock('dynasty', d.id, lang, causalIdx);
+    causalBlock('dynasty', d.id, lang, causalIdx) +
+    /* H56: haritadaki dikdörtgen 185/186 kayıtta VERİDEN GELMİYOR — başkent ±
+       sabit derece (editöryel "önem" etiketine göre 8°/5°/3°/1,5°). Ölçülmüş
+       sınır gibi durduğu için burada açıkça söyleniyor. */
+    (hasMeasuredExtent(d) ? '' :
+      `<div class="p-note-approx">${EXTENT_NOTE[lang] || EXTENT_NOTE.tr}</div>`);
 }
 
 /* ── Battle Popup ── */
@@ -192,7 +203,7 @@ export function buildRoutePopup(r, lang, t) {
 }
 
 /* ── Ruler Popup ── */
-export function buildRulerPopup(r, lang, t, dynastyName) {
+export function buildRulerPopup(r, lang, t, dynastyName, dynasty) {
   const mk = t.m;
   const deathLabel = r.dt === 'k.' ? mk.deathKilled : r.dt === 'd.' ? mk.deathNatural : (r.dt || '—');
   const badges = [];
@@ -209,7 +220,13 @@ export function buildRulerPopup(r, lang, t, dynastyName) {
     (r.pred ? `<div class="p-row"><span class="p-k">${mk.predecessor}</span><span class="p-v">${r.pred}</span></div>` : '') +
     (r.succ ? `<div class="p-row"><span class="p-k">${mk.successor}</span><span class="p-v">${r.succ}</span></div>` : '') +
     (r.suc_t ? `<div class="p-row"><span class="p-k">${mk.successionType}</span><span class="p-v">${r.suc_t}</span></div>` : '') +
-    `<div class="p-row"><span class="p-k">${{ tr: 'Ölüm', en: 'Death', ar: '' }[lang]}</span><span class="p-v">${deathLabel}</span></div>`;
+    `<div class="p-row"><span class="p-k">${{ tr: 'Ölüm', en: 'Death', ar: '' }[lang]}</span><span class="p-v">${deathLabel}</span></div>` +
+    /* H56: 830 hükümdarın 830'u kendi hanedanının BAŞKENT koordinatına
+       kopyalanmış; harita 830 noktayı 133 noktaya çakıştırıyor. Nokta
+       "hükümdar buradaydı" demiyor — bunu söylemek gerekiyordu. */
+    (rulerCoordInherited(r, dynasty)
+      ? `<div class="p-note-approx">${RULER_COORD_NOTE[lang] || RULER_COORD_NOTE.tr}</div>`
+      : '');
 }
 
 /* ── Ruler List for Dynasty Popup ── */

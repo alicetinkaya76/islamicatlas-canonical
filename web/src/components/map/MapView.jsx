@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
+import CANONICAL_OVERVIEW from '../../data/canonical_overview.json';
 import L from 'leaflet';
 import { MAP_CONFIG, LAYER_KEYS } from '../../config/layers';
 import { eraName } from '../../config/eras';
@@ -23,6 +24,10 @@ const ENTITY_COLLECTION = {
   monument: 'monuments', city: 'cities', waqf: 'waqfs',
   event: 'events', ruler: 'rulers', madrasa: 'madrasas',
 };
+
+/* H56: katman rozetindeki sayının TEK kaynağı — build_canonical_overview.py
+   üretiyor, burada yalnız okunuyor. */
+const CANON_EVENT_N = (CANONICAL_OVERVIEW.canonical_events || {}).events || 0;
 
 export default function MapView({ lang, t, sidebarOpen, mapRef, onPopupOpen, onTourComplete, onCloseSidebar, entityRoute, onEntityRouteConsumed }) {
   const mapEl = useRef(null);
@@ -274,9 +279,13 @@ export default function MapView({ lang, t, sidebarOpen, mapRef, onPopupOpen, onT
         <button
           className="canonical-toggle"
           onClick={() => setCanonicalVisible(p => !p)}
-          title={lang === 'en'
-            ? 'Book-derived events from the canonical store (5,618)'
-            : 'Merkezî defterden kitap-türevi olaylar (5.618)'}
+          /* H56: sayı ELLE YAZILMIŞTI ('5,618'/'5.618') ve zaten üretilen bir
+             değerin kopyasıydı — mağaza büyüdüğünde sessizce yalan söylerdi.
+             Ayrıca Arapça dalı yoktu (AR arayüzde TR metin görünüyordu). */
+          title={{
+            en: `Book-derived events from the canonical store (${CANON_EVENT_N.toLocaleString('en-US')})`,
+            ar: `أحداث مستمدة من الكتب في السجل المركزي (${CANON_EVENT_N.toLocaleString('ar-EG')})`,
+          }[lang] || `Merkezî defterden kitap-türevi olaylar (${CANON_EVENT_N.toLocaleString('tr-TR')})`}
           style={{
             position: 'absolute', top: 12, right: 390, zIndex: 1000,
             background: canonicalVisible ? 'rgba(56,189,248,0.2)' : 'rgba(18,18,24,0.85)',

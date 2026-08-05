@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { getOutcomeType, outcomeMark, OUTCOME_UNKNOWN_LABEL } from '../../data/battleOutcome';
 import { lf, n } from '../../hooks/useEntityLookup';
 
 const TYPE_ICONS = {
@@ -6,28 +7,14 @@ const TYPE_ICONS = {
   'Civil War': '⚡', 'Land & Naval': '⚔',
 };
 
-function outcomeClass(outEn) {
-  if (!outEn) return 'draw';
-  const low = outEn.toLowerCase();
-  if (low.includes('inconclusive') || low.includes('arbitration')) return 'draw';
-  // "Muslim Victory", "Ottoman Victory", etc → check if it's a defeat from Muslim perspective
-  // We'll consider: if the outcome includes "Victory" from the Muslim/main side, it's win
-  // This is simplistic; we mark known defeat patterns
-  return 'win'; // default, overridden by specific logic below
-}
+/* H56: outcomeClass ÖLÜ KODDU (tanımlıydı, hiç çağrılmıyordu) ve
+   kendi gövdesinde 'default, overridden by specific logic below'
+   diye bir yorum taşıyordu — o mantık hiç yazılmamış. Silindi. */
 
-function getOutcomeType(b) {
-  const out = (b.out_en || '').toLowerCase();
-  if (out.includes('inconclusive') || out.includes('arbitration')) return 'draw';
-  // Known defeat patterns for Muslim side
-  if (out.includes('frankish victory') || out.includes('crusader victory') ||
-      out.includes('holy league victory') || out.includes('mongol victory') ||
-      out.includes('spanish victory') || out.includes('british victory') ||
-      out.includes('qara khitai victory') || out.includes('timurid victory') ||
-      out.includes('partial defeat') || out.includes('umayyad victory') ||
-      out.includes('tactical withdrawal')) return 'loss';
-  return 'win';
-}
+/* H56: yerel kopya SİLİNDİ — tek otorite data/battleOutcome.js.
+   Üç dosyada birebir aynı fonksiyon vardı ve üçünde de varsayılan
+   'win' idi; ölçüldü: 39 savaşta sonuç metni yok ve hepsi ✓ rozeti
+   alıyordu (Tarain I ve Belgrad 1456 tarihsel olarak YENİLGİ). */
 
 export default function BattleCard({ battle, lang, t }) {
   const [showImpact, setShowImpact] = useState(false);
@@ -85,10 +72,16 @@ export default function BattleCard({ battle, lang, t }) {
       {/* Outcome */}
       <div className="bc-section-label">{ts.outcome || 'Outcome'}</div>
       <div style={{ marginBottom: 4 }}>
-        <span className={`bc-outcome-badge ${ot}`}>
-          {ot === 'win' ? '✓' : ot === 'loss' ? '✗' : '~'}
-        </span>
-        {outLabel}
+        {/* H56: sonucu bilinmeyen savaşta rozet HİÇ basılmaz. Eskiden
+            varsayılan 'win'di ve 39 savaş kaynak desteği olmadan ✓ alıyordu. */}
+        {outcomeMark(ot) && (
+          <span className={`bc-outcome-badge ${ot}`}>{outcomeMark(ot)}</span>
+        )}
+        {ot === 'unknown'
+          ? <span style={{ opacity: .6, fontStyle: 'italic' }}>
+              {OUTCOME_UNKNOWN_LABEL[lang] || OUTCOME_UNKNOWN_LABEL.tr}
+            </span>
+          : outLabel}
       </div>
       <hr className="bc-divider" />
 

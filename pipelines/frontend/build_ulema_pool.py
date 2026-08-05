@@ -203,10 +203,21 @@ def load_source_codes():
     # H46: locator (curie'nin ':' sonrası) artık SAKLANIYOR — hedef id'si oradan
     # geliyor. Bugüne dek atılıyordu, bu yüzden 'b' rozeti hedefsizdi.
     locators = {}
+    yonlendirilen = 0
     for source_id, pid in rows:
         num = pid_num(pid)
         if num is None:
             continue
+        # H56: KAYNAK İZİ YUMUŞAK-SİLİNMİŞ KAYITTA KALMASIN. Birleştirmede
+        # kaybeden pid havuzda görünmez; üzerindeki curie de onunla birlikte
+        # ekrandan düşüyordu. Yani birleştirme, birleştirmek İSTEDİĞİ
+        # zenginliği kaybediyordu. İz kazanana taşınır.
+        kaz = merge_winner(num)
+        if kaz is None:
+            continue                    # hedefsiz/döngülü → iz düşürülür
+        if kaz != num:
+            yonlendirilen += 1
+        num = kaz
         prefix, sep, loc = source_id.partition(":")
         prefix_counts[prefix if sep else "(oneksiz)"] += 1
         if not sep:
@@ -218,7 +229,47 @@ def load_source_codes():
             if code != OTHER_CODE:
                 locators.setdefault(num, {})[prefix] = loc
         codes.setdefault(num, set()).add(code)
+    if yonlendirilen:
+        print(f"  birlestirme sonrasi KAZANANA tasinan kaynak izi: {yonlendirilen}")
     return codes, prefix_counts, locators
+
+
+_PROV_CACHE = {}
+
+
+def person_prov(num):
+    """Kişi kaydının provenance'ı (bir kez okunur)."""
+    if num not in _PROV_CACHE:
+        p = PERSON_DIR / f"iac_person_{num:08d}.json"
+        try:
+            _PROV_CACHE[num] = (json.loads(p.read_text(encoding="utf-8"))
+                                .get("provenance") or {})
+        except (OSError, json.JSONDecodeError):
+            _PROV_CACHE[num] = {}
+    return _PROV_CACHE[num]
+
+
+def merge_winner(num):
+    """Yumuşak-silinmiş pid → kazanan pid (zincir + döngü korumalı).
+
+    H49/H50 birleştirmesi 1.364 kaydı yumuşak-sildi. Kaybeden kayıt havuzda
+    GÖRÜNMEZ ama üzerindeki KAYNAK İZLERİ (curie'ler) orada kalmıştı — yani
+    birleştirme, tam da birleştirmek istediği zenginliği ekrandan düşürdü.
+    Ölçüldü: 1.976 curie yetim kaldı, 1.382 KAZANAN kişiyi etkiliyor
+    (a 1.107 · d 342 · bc 334 · sc 52 · s 48 · e 43 · ba 19 · bo 16 · by 15).
+    """
+    gorulen = set()
+    while True:
+        pr = person_prov(num)
+        if not pr:
+            return None
+        if not pr.get("deprecated"):
+            return num
+        hedef = pid_num(pr.get("deprecated_in_favor_of") or "")
+        if hedef is None or hedef in gorulen:
+            return None
+        gorulen.add(num)
+        num = hedef
 
 
 def openiti_authors():
@@ -238,32 +289,6 @@ def openiti_authors():
     if not WORK_DIR.is_dir():
         return set()
 
-    prov_cache = {}
-
-    def prov(num):
-        if num not in prov_cache:
-            p = PERSON_DIR / f"iac_person_{num:08d}.json"
-            try:
-                prov_cache[num] = (json.loads(p.read_text(encoding="utf-8"))
-                                   .get("provenance") or {})
-            except (OSError, json.JSONDecodeError):
-                prov_cache[num] = {}
-        return prov_cache[num]
-
-    def kazanan(num):
-        gorulen = set()
-        while True:
-            pr = prov(num)
-            if not pr:
-                return None
-            if not pr.get("deprecated"):
-                return num
-            hedef = pid_num(pr.get("deprecated_in_favor_of") or "")
-            if hedef is None or hedef in gorulen:
-                return None
-            gorulen.add(num)
-            num = hedef
-
     out = set()
     for f in sorted(WORK_DIR.glob("*.json")):
         try:
@@ -281,7 +306,7 @@ def openiti_authors():
             n = pid_num(pid or "")
             if n is None:
                 continue
-            k = kazanan(n)
+            k = merge_winner(n)
             if k is not None:
                 out.add(k)
     return out
@@ -320,7 +345,14 @@ def resolve_targets(locators):
         for prefix, loc in per_prefix.items():
             if prefix.startswith("dia-chunks"):
                 # PID EŞİTLİĞİ: slug bu kişiye mi ait?
-                if slug2pid.get(loc) == pid:
+                # H56: karşılaştırmanın İKİ TARAFI da yönlendirilir. Slug
+                # kataloğu birleştirmeden ÖNCEKİ pid'i taşıyor olabilir;
+                # ham karşılaştırma, birleştirilmiş kişilerde doğru slug'ı
+                # yanlışlıkla reddederdi (H46 güvencesi korunur: hâlâ AYNI
+                # kişi olma şartı aranıyor, yalnız kimlik kazanan üzerinden).
+                sahip = pid_num(slug2pid.get(loc) or "")
+                sahip = merge_winner(sahip) if sahip is not None else None
+                if sahip is not None and sahip == num:
                     hedef["bc"] = loc
                     sayac["bc"] += 1
                 else:

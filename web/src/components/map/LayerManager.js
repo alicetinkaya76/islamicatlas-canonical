@@ -3,6 +3,7 @@ import DB from '../../data/db.json';
 import { REL_C, ZONE_C, IMP_OP } from '../../config/colors';
 import { n } from '../../hooks/useEntityLookup';
 import { ensurePlaceIndex } from '../../data/placeBooks';
+import { ensureDynastyFlags } from '../../data/dynastyHonesty';
 import {
   buildDynastyPopup, buildBattlePopup, buildEventPopup,
   buildScholarPopup, buildMonumentPopup, buildCityPopup, buildRoutePopup,
@@ -70,6 +71,7 @@ function hasRange(yr) { return yr && (yr[0] !== FULL_RANGE[0] || yr[1] !== FULL_
  */
 export function renderLayers({ lg, layers, filters, year, yearRange, lang, t, analyticsMap, causalIdx, onPopupOpen }) {
   ensurePlaceIndex();   // H18 S2: yer→kitap indeksi (tek sefer, tembel)
+  ensureDynastyFlags(); // H56: hanedan yıl aralığı güvenilirlik bayrakları
   const yr = yearRange || FULL_RANGE;
   const rangeActive = hasRange(yr);
   /* When range is active, use midpoint for opacity/styling calculations */
@@ -93,7 +95,11 @@ export function renderLayers({ lg, layers, filters, year, yearRange, lang, t, an
   Object.values(rulersByDyn).forEach(arr => arr.sort((a, b) => (a.ord || 0) - (b.ord || 0)));
 
   const dynNameMap = {};
-  DB.dynasties.forEach(d => { dynNameMap[d.id] = n(d, lang); });
+  /* H56: hükümdar popup'ı hanedanın KENDİSİNE de ihtiyaç duyuyor —
+     830 hükümdarın koordinatı hanedanın başkentinden devralınmış ve
+     bunu söyleyebilmek için iki kaydı karşılaştırmak gerekiyor. */
+  const dynById = {};
+  DB.dynasties.forEach(d => { dynNameMap[d.id] = n(d, lang); dynById[d.id] = d; });
 
   /* Helper: track popup opens */
   const popupTrack = (marker, type, id) => {
@@ -108,14 +114,17 @@ export function renderLayers({ lg, layers, filters, year, yearRange, lang, t, an
   // ── Dynasties ──
   function dynBbox(d) {
     if (d.bn && d.bs && d.bw && d.be) {
-      return { bn: d.bn, bs: d.bs, bw: d.bw, be: d.be };
+      return { bn: d.bn, bs: d.bs, bw: d.bw, be: d.be, olculmus: true };
     }
     if (!d.lat || !d.lon) return null;
+    /* Buradan aşağısı ÖLÇÜM DEĞİL: başkent ± sabit derece. Yarıçap editöryel
+       bir önem etiketinden geliyor; hiçbir tarihsel sınır kaydına dayanmıyor.
+       Ölçüldü: 186 hanedanın 185'i bu dala düşüyor. */
     const r = d.imp === 'Kritik' ? 8
             : d.imp === 'Yüksek' ? 5
             : d.imp === 'Normal' ? 3
             : 1.5;
-    return { bn: d.lat + r, bs: d.lat - r, bw: d.lon - r, be: d.lon + r };
+    return { bn: d.lat + r, bs: d.lat - r, bw: d.lon - r, be: d.lon + r, olculmus: false };
   }
 
   lg.dynasties.clearLayers();
@@ -137,9 +146,17 @@ export function renderLayers({ lg, layers, filters, year, yearRange, lang, t, an
       const op = (IMP_OP[d.imp] || 0.18) * 1.2;
       const w = d.imp === 'Kritik' ? 4 : d.imp === 'Yüksek' ? 3 : 1.4;
 
+      /* H56: 186 hanedanın 185'inde bu dikdörtgen VERİDEN GELMİYOR —
+         dynBbox() başkenti alıp editöryel "önem" etiketine göre sabit derece
+         ekliyor. Ölçülmüş sınırla aynı görsel dilde çizmek, olmayan bir
+         kartografik iddia üretiyordu. Şematik olanlar KESİKLİ kenarla ve daha
+         düşük dolgu opaklığıyla çiziliyor; ölçülmüş olan (yalnız Endülüs
+         Emevîleri) düz kenarını koruyor. */
+      const olculmus = bbox.olculmus;
       const rect = L.rectangle([[bbox.bs, bbox.bw], [bbox.bn, bbox.be]], {
-        color: col, weight: w, fillColor: col, fillOpacity: op,
-        dashArray: d.imp === 'Düşük' ? '4,4' : ''
+        color: col, weight: olculmus ? w : Math.max(1, w - 0.6),
+        fillColor: col, fillOpacity: olculmus ? op : op * 0.55,
+        dashArray: olculmus ? '' : '5,5'
       }).bindPopup(
         buildDynastyPopup(d, lang, t, analyticsMap, causalIdx) +
         buildRulerListHtml(rulersByDyn[d.id] || [], lang, t),
@@ -353,7 +370,7 @@ export function renderLayers({ lg, layers, filters, year, yearRange, lang, t, an
         radius, fillColor: col, fillOpacity: op,
         color: ruling ? '#fff' : '#0f1629', weight
       })
-        .bindPopup(buildRulerPopup(r, lang, t, dynName), popOpt(340))
+        .bindPopup(buildRulerPopup(r, lang, t, dynName, dynById[r.did]), popOpt(340))
         .bindTooltip(`👑 ${r.n}`, { direction: 'top', offset: [0, -6] })
         .addTo(lg.rulers);
       const rLayers = lg.rulers.getLayers();

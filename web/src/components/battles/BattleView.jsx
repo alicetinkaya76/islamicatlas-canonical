@@ -1,20 +1,15 @@
 import { useState, useMemo, useCallback } from 'react';
+import { getOutcomeType, outcomeMark, OUTCOME_UNKNOWN_LABEL } from '../../data/battleOutcome';
 import DB from '../../data/db.json';
 import BATTLE_META from '../../data/battle_meta';
 import BattleMapView from './BattleMapView';
 import BattleSidebar from './BattleSidebar';
 import '../../styles/battles.css';
 
-function getOutcomeType(b) {
-  const out = (b.out_en || '').toLowerCase();
-  if (out.includes('inconclusive') || out.includes('arbitration')) return 'draw';
-  if (out.includes('frankish victory') || out.includes('crusader victory') ||
-      out.includes('holy league victory') || out.includes('mongol victory') ||
-      out.includes('spanish victory') || out.includes('british victory') ||
-      out.includes('qara khitai victory') || out.includes('timurid victory') ||
-      out.includes('partial defeat') || out.includes('umayyad victory')) return 'loss';
-  return 'win';
-}
+/* H56: yerel kopya SİLİNDİ — tek otorite data/battleOutcome.js.
+   Üç dosyada birebir aynı fonksiyon vardı ve üçünde de varsayılan
+   'win' idi; ölçüldü: 39 savaşta sonuç metni yok ve hepsi ✓ rozeti
+   alıyordu (Tarain I ve Belgrad 1456 tarihsel olarak YENİLGİ). */
 
 export default function BattleView({ lang, t }) {
   const [selectedId, setSelectedId] = useState(null);

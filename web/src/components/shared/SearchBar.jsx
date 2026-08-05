@@ -11,9 +11,11 @@ import { f } from '../../data/i18n-utils';
    9 kopya taranmamıştı — ölçüldü: global aramada 12.935 Arapça adın
    %99,6'sı boşa düşüyordu). Kopya SİLİNDİ; tek otorite bookkit. */
 import { normalize } from './bookkit/normalize';   // H51: tek otorite (kopya kaldırıldı)
+import { dynastyYearRange, ensureDynastyFlags } from '../../data/dynastyHonesty';
 
 /* ═══ Build search index with multi-field support ═══ */
 function buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData) {
+  ensureDynastyFlags();   // H56: yıl aralığı bayrakları (tembel, tek sefer)
   const idx = [];
 
   DB.dynasties.forEach(d => {
@@ -23,7 +25,9 @@ function buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData)
         name_tr: d.tr, name_en: d.en,
         search_tr: normalize(d.tr), search_en: normalize(d.en || ''),
         search_extra: extra,
-        ctx_yr: d.start && d.end ? `(${d.start}–${d.end})` : '',
+        /* H56: aramada da çıplak yıl basılıyordu; 9 hanedanda aralık
+           imkânsız, 7'sinde 2025 bir nöbetçi. Tek otorite: dynastyHonesty. */
+        ctx_yr: d.start && d.end ? `(${dynastyYearRange(d, 'tr')})` : '',
         ctx_detail: d.cap || '',
       });
     }

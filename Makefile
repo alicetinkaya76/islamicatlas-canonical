@@ -47,6 +47,7 @@ view-data:
 	python3 pipelines/frontend/build_place_facets.py
 	python3 pipelines/frontend/build_darp_pids.py
 	python3 pipelines/frontend/build_author_works.py
+	python3 pipelines/frontend/build_dynasty_temporal_flags.py
 	python3 pipelines/frontend/build_person_clusters.py
 	python3 pipelines/frontend/build_person_bridge.py
 	python3 pipelines/frontend/build_ulema_pool_links.py
