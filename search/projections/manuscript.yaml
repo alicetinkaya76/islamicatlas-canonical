@@ -13,9 +13,15 @@ mappings:
   prefLabel_tr: $.labels.prefLabel.tr
   prefLabel_translit: "@derived:translit_ascii_fold(labels.prefLabel.en, shelf_mark)"
   altLabels: "@derived:flatten_altLabels_plus_shelf_variants(shelf_mark)"
-  description_en: $.physical_description
-  description_tr: ~
-  description_ar: ~
+  # H56: event.yaml'daki tuzağın ikizi. `physical_description` bir DİL alanı
+  # değil (yazma tavsifi) ve `_en` kovasına konması onu İngilizce açıklama
+  # gibi gösteriyordu. Bu namespace'te henüz KAYIT YOK (0 dosya), yani canlı
+  # zarar yok; ama kalıp aynı olduğu için burada da düzeltildi ki ilk mint
+  # edildiğinde doğru yerden okusun. Fiziksel tavsif AYRI alanda kalır.
+  description_en: $.labels.description.en
+  description_tr: $.labels.description.tr
+  description_ar: $.labels.description.ar
+  physical_description: $.physical_description
 
   _geo: "@lookup:place_coords(current_library)"
 

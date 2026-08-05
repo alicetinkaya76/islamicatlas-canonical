@@ -41,6 +41,7 @@ python3 pipelines/frontend/build_place_facets.py | sed 's/^/  /'   # H54: yer ol
 python3 pipelines/frontend/build_darp_pids.py | sed 's/^/  /'   # H53: darphane → yer pid köprüsü
 python3 pipelines/frontend/build_author_works.py | sed 's/^/  /'   # H55: müellif → eser köprüsü
 python3 pipelines/frontend/build_dynasty_temporal_flags.py | sed 's/^/  /'   # H56: hanedan yıl bayrakları
+python3 pipelines/frontend/build_institution_facets.py | sed 's/^/  /'   # H56: kurum olguları (koordinat güveni dâhil)
 python3 pipelines/frontend/build_person_clusters.py | sed 's/^/  /'   # H47: aynı-kişi kümeleri
 python3 pipelines/frontend/build_person_bridge.py | sed 's/^/  /'   # H45: kişi köprüsü (alam/dia/ei1)
 python3 pipelines/frontend/build_ulema_pool_links.py | sed 's/^/  /'   # H44: havuz ilişki+not yan dosyaları
