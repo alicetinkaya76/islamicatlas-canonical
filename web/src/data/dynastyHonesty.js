@@ -33,6 +33,22 @@
 let FLAGS = null;
 let started = false;
 
+let FACETS = null;
+/* Popup HTML'i STATİK bir dize olarak kuruluyor; veri sonradan gelirse blok
+   hiç basılmaz. Ölçüldü: temiz yüklemede `.p-canon` yoktu, ancak katman
+   yeniden çizilince çıkıyordu. Abonelik, veri indiğinde bir kez yeniden
+   çizim tetikler. (Aynı gecikme `ensurePlaceIndex` için de geçerli — orası
+   ayrı bir tur.) */
+const aboneler = new Set();
+function haberVer() { aboneler.forEach((f) => { try { f(); } catch { /* yut */ } }); }
+
+/** Veri indiğinde bir kez çağrılır; aboneliği bırakan fonksiyon döner. */
+export function onDynastyDataReady(cb) {
+  aboneler.add(cb);
+  if (FLAGS && FACETS) cb();          // zaten indiyse hemen
+  return () => aboneler.delete(cb);
+}
+
 export function ensureDynastyFlags() {
   if (started) return;
   started = true;
@@ -40,8 +56,37 @@ export function ensureDynastyFlags() {
   fetch(`${base}view-data/dynasty_temporal_flags.json`, { cache: 'no-cache' })
     .then((r) => (r.ok ? r.json() : null))
     .then((d) => { FLAGS = (d && d.flags) || {}; })
-    .catch(() => { FLAGS = {}; });
+    .catch(() => { FLAGS = {}; })
+    .finally(haberVer);
+  /* H57: canonical'ın v1'e EKLEDİĞİ bağlar (ardıllık, başkent yeri, himaye).
+     Denetim ölçtü: canonical dynasty namespace'inin hiçbir alanı arayüze
+     çıkmıyordu — `grep web/src` bosworth_id/had_capital/had_ruler/
+     patron_dynasty için SIFIR isabet. 18 KB, popup'la aynı anda gelir. */
+  fetch(`${base}view-data/dynasty_facets.json`, { cache: 'no-cache' })
+    .then((r) => (r.ok ? r.json() : null))
+    .then((d) => { FACETS = (d && d.facets) || {}; })
+    .catch(() => { FACETS = {}; })
+    .finally(haberVer);
 }
+
+/** v1 hanedan id'si → canonical'ın eklediği bağlar (yoksa null). */
+export function dynastyFacets(id) {
+  if (!FACETS) return null;
+  return FACETS[String(id)] || null;
+}
+
+export const FACET_LABEL = {
+  onc: { tr: 'Öncülü', en: 'Preceded by', ar: 'سبقتها' },
+  ard: { tr: 'Ardılı', en: 'Succeeded by', ar: 'تلتها' },
+  bkt: { tr: 'Başkent kaydı', en: 'Capital record', ar: 'سجل العاصمة' },
+  kurum: { tr: 'Himayesindeki yapı', en: 'Patronised structures', ar: 'المنشآت تحت رعايتها' },
+  /* Çözüm birden çok aday arasından İNSAN ONAYI OLMADAN yapıldıysa söylenir:
+     129 başkent girdisinin 64'ü böyle. Düz bir bağ gibi göstermek, bu
+     depoda tekrar tekrar onarılan "sessiz kesinlik" kalıbı olurdu. */
+  belirsiz: { tr: 'aday arasından seçildi, onaylanmadı',
+              en: 'picked among candidates, unconfirmed',
+              ar: 'اختير من بين مرشحين، غير مؤكد' },
+};
 
 /** Bayrağı olmayan id 'saglam' demektir (üretici yalnız sapmaları yazar). */
 export function dynastyTemporalFlag(id) {

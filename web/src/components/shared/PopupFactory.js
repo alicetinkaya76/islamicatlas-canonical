@@ -1,7 +1,9 @@
 import { n, lf } from '../../hooks/useEntityLookup';
+import DB from '../../data/db.json';   // H57: öncül/ardıl adları için
 import { booksBlockHtml } from '../../data/placeBooks';
 import { dynastyYearRange, hasMeasuredExtent, EXTENT_NOTE,
-         rulerCoordInherited, RULER_COORD_NOTE } from '../../data/dynastyHonesty';
+         rulerCoordInherited, RULER_COORD_NOTE,
+         dynastyFacets, FACET_LABEL } from '../../data/dynastyHonesty';
 
 /* ═══ Popup HTML Builders ═══ */
 
@@ -63,6 +65,44 @@ const ctxRow = (icon, label, val) => val ? `<div class="p-ctx"><span class="p-ct
 export const popOpt = (mw = 420) => ({ maxWidth: mw, maxHeight: 480, className: 'p-rich' });
 
 /* ── Dynasty Popup ── */
+const lbl = (k, lang) => (FACET_LABEL[k] || {})[lang] || (FACET_LABEL[k] || {}).tr || k;
+
+/** Canonical'ın v1'e eklediği hanedan bağları. Facet yoksa hiç basılmaz. */
+function canonicalDynastyBlock(d, lang) {
+  const F = dynastyFacets(d && d.id);
+  if (!F) return '';
+  const A = '#c9a84c';
+  const dyn = (ids) => ids.map((x) => {
+    const o = (DB.dynasties || []).find((y) => y.id === x);
+    const ad = o ? (n(o, lang) || o.tr) : `#${x}`;
+    return `<a href="#dynasty/${x}" style="color:${A};text-decoration:none">${ad}</a>`;
+  }).join(', ');
+  const satir = (k, ic) => (ic
+    ? `<div class="p-row"><span class="p-k">${lbl(k, lang)}</span><span class="p-v">${ic}</span></div>`
+    : '');
+  const bkt = (F.bkt || []).map((b) => {
+    const ad = lang === 'ar' ? (b.ar || b.tr) : (b.tr || b.ar);
+    /* H57: çözücünün BAŞLADIĞI ad, vardığı addan farklıysa İKİSİ DE gösterilir.
+       Doğrulanmış vaka: Emevîler'in başkenti kaynakta 'Şam', çözüm 'Sâm'
+       (سام) — Gûta'da AYRI bir yerleşim, Dımaşk değil; üstelik `unique`
+       damgalı. Bu sapmayı genel bir kuralla yakalamak mümkün değil (TR
+       katlamasında iki ad aynı dizeye iniyor), o yüzden hüküm verilmiyor:
+       okuyan görsün diye kaynak adı yanına yazılıyor. */
+    const kn = b.kn ? `<span style="opacity:.55;font-size:10px"> ← ${b.kn}</span>` : '';
+    const soru = b.belirsiz
+      ? ` <span style="opacity:.6;font-size:10px">· ${lbl('belirsiz', lang)}</span>` : '';
+    return `<a href="#yaqut?pid=${encodeURIComponent(b.pid)}" style="color:${A};text-decoration:none">${ad}</a>${kn}${soru}`;
+  }).join('<br>');
+  const kurum = F.kurum
+    ? `${F.kurum}` : '';
+  const govde = satir('onc', F.onc ? dyn(F.onc) : '')
+    + satir('ard', F.ard ? dyn(F.ard) : '')
+    + satir('bkt', bkt)
+    + satir('kurum', kurum);
+  if (!govde) return '';
+  return `<div class="p-canon">${govde}</div>`;
+}
+
 export function buildDynastyPopup(d, lang, t, analyticsMap, causalIdx) {
   const mk = t.m;
   const an = analyticsMap[d.id];
@@ -86,6 +126,11 @@ export function buildDynastyPopup(d, lang, t, analyticsMap, causalIdx) {
     ctxRow('⏪', mk.before, lf(d, 'ctx_b', lang)) +
     ctxRow('⏩', mk.after, lf(d, 'ctx_a', lang)) +
     causalBlock('dynasty', d.id, lang, causalIdx) +
+    /* H57: canonical'ın v1'e EKLEDİĞİ bağlar. v1'de bu hanedanın öncülü/ardılı
+       BAĞ olarak yok (ctx_b/ctx_a serbest anlatıdır) ve başkent yalnız METİN.
+       Burada tıklanabilir hâlleri veriliyor; başkent çözümü aday arasından
+       onaysız yapıldıysa BU SÖYLENİYOR (129 girdinin 64'ü böyle). */
+    canonicalDynastyBlock(d, lang) +
     /* H56: haritadaki dikdörtgen 185/186 kayıtta VERİDEN GELMİYOR — başkent ±
        sabit derece (editöryel "önem" etiketine göre 8°/5°/3°/1,5°). Ölçülmüş
        sınır gibi durduğu için burada açıkça söyleniyor. */

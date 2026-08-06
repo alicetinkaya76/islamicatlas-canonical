@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { onDynastyDataReady } from '../../data/dynastyHonesty';
 import CANONICAL_OVERVIEW from '../../data/canonical_overview.json';
 import L from 'leaflet';
 import { MAP_CONFIG, LAYER_KEYS } from '../../config/layers';
@@ -126,6 +127,12 @@ export default function MapView({ lang, t, sidebarOpen, mapRef, onPopupOpen, onT
     return () => clearInterval(iv);
   }, [playing]);
 
+  /* H57: canonical hanedan verisi TEMBEL iniyor ama popup HTML'i statik bir
+     dize; veri geç gelirse blok hiç basılmazdı (ölçüldü: temiz yüklemede
+     .p-canon yoktu). Veri indiğinde katmanlar bir kez yeniden çizilir. */
+  const [canonHazir, setCanonHazir] = useState(0);
+  useEffect(() => onDynastyDataReady(() => setCanonHazir((x) => x + 1)), []);
+
   /* ── Render layers ── */
   useEffect(() => {
     if (!mapObj.current) return;
@@ -133,7 +140,7 @@ export default function MapView({ lang, t, sidebarOpen, mapRef, onPopupOpen, onT
       lg: lgRef.current, layers, filters, year, yearRange, lang, t, analyticsMap, causalIdx, onPopupOpen
     });
     setActiveCount(cnt);
-  }, [year, layers, filters, yearRange, lang, t, analyticsMap, causalIdx, onPopupOpen]);
+  }, [year, layers, filters, yearRange, lang, t, analyticsMap, causalIdx, onPopupOpen, canonHazir]);
 
   /* ── Entity deep link handler ── */
   useEffect(() => {

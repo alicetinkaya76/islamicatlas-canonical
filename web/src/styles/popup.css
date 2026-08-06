@@ -166,3 +166,12 @@
   line-height: 1.45;
   opacity: .8;
 }
+
+/* H57 — CANONICAL EK BAĞLARI. v1'in kendi satırlarından ayrışsın diye ince bir
+   çerçeve: buradaki bilgi merkezî defterden gelir ve v1'de karşılığı yoktur
+   (öncül/ardıl bağı, başkentin YER kaydı, himaye sayısı). */
+.p-canon {
+  margin-top: 7px;
+  padding-top: 6px;
+  border-top: 1px dashed rgba(201, 168, 76, .35);
+}

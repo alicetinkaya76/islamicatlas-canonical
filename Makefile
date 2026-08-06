@@ -48,6 +48,7 @@ view-data:
 	python3 pipelines/frontend/build_darp_pids.py
 	python3 pipelines/frontend/build_author_works.py
 	python3 pipelines/frontend/build_dynasty_temporal_flags.py
+	python3 pipelines/frontend/build_dynasty_facets.py
 	python3 pipelines/frontend/build_institution_facets.py
 	python3 pipelines/frontend/build_canonical_search_index.py
 	python3 pipelines/frontend/build_person_clusters.py
