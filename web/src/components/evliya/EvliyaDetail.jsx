@@ -81,7 +81,32 @@ export default function EvliyaDetail({
             <span className="evliya-detail-voyage-years"> ({voyage.start_year}–{voyage.end_year})</span>
           </span>
         )}
-        <span className="evliya-detail-category">{catLabel}</span>
+        {/* H56 — SINIFLANDIRMA GÜVENİ EKRANA ÇIKTI.
+            Denetim ölçtü: v1 katmanı 5.444 yerin HEPSİNDE `category_confidence`
+            taşıyor ama `grep web/src` bu alan için SIFIR isabet veriyordu.
+            Kategori, kaynağın kendi güveni ne olursa olsun aynı kesinlikte
+            basılıyordu. Merkezî deftere geçen 2.575 kaydın 321'i eşiğin
+            altında ve sonuçlar gözle görülür yanlış: "Üsküp Saat Kulesi"
+            cami (0,4), "Nalband (Perdikkas)" cami (0,2) — ikincisi bir
+            yerleşim adı. Doğru kategori TAHMİN EDİLMİYOR; yalnız kaynağın
+            ne kadar emin olduğu söyleniyor. */}
+        <span className="evliya-detail-category"
+          title={typeof place.category_confidence === 'number'
+            ? `Kaynak sınıflandırma güveni: ${place.category_confidence.toFixed(2)}`
+            : undefined}>
+          {catLabel}
+          {typeof place.category_confidence === 'number'
+            && place.category_confidence < 0.5 && (
+            <span className="evliya-cat-low" style={{
+              marginInlineStart: 5, fontSize: '0.82em', opacity: 0.75,
+              borderInlineStart: '2px solid currentColor', paddingInlineStart: 5,
+            }}>
+              {{ tr: 'sınıflandırma şüpheli', en: 'classification uncertain',
+                 ar: 'التصنيف غير مؤكد' }[activeLang] || 'sınıflandırma şüpheli'}
+              {` (${place.category_confidence.toFixed(2)})`}
+            </span>
+          )}
+        </span>
         <span className="evliya-detail-coords">
           {place.lat.toFixed(4)}, {place.lon.toFixed(4)}
         </span>

@@ -24,6 +24,8 @@ from pathlib import Path
 
 import pytest
 
+from ._jsutil import yorumsuz
+
 REPO = Path(__file__).resolve().parents[2]
 SRC = REPO / "web" / "src"
 
@@ -31,20 +33,9 @@ SRC = REPO / "web" / "src"
 IMPORT_RE = re.compile(r"""(?:from|import)\s*\(?\s*['"](\.[^'"]*)['"]""")
 UZANTILAR = ("", ".js", ".jsx", ".ts", ".tsx", ".json", ".css")
 
-BLOK_YORUM = re.compile(r"/\*.*?\*/", re.S)
-
-
-def _yorumsuz(metin: str) -> str:
-    """Yorumları söker. Kapı ilk koşusunda YANLIŞ ALARM verdi: evliya/index.js
-    içindeki `Usage: import { EvliyaView } from './components/evliya';` bir
-    JSDoc satırıydı ve gerçek import sanıldı. Yanlış alarm veren kapı,
-    görmezden gelinen kapıdır — o yüzden yorumlar taramadan çıkarılır."""
-    metin = BLOK_YORUM.sub("", metin)
-    satirlar = []
-    for s in metin.split("\n"):
-        d = s.lstrip()
-        satirlar.append("" if d.startswith("//") or d.startswith("*") else s)
-    return "\n".join(satirlar)
+# Yorum sökme ORTAK yardımcıda (_jsutil): bu oturumda üç kez aynı tuzağa
+# düşüldü, iki kez yanlış alarm bir kez sessiz yanlış negatif olarak.
+_yorumsuz = yorumsuz
 
 
 def _cozulur(temel: Path, hedef: str) -> bool:

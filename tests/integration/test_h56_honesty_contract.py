@@ -11,22 +11,12 @@ from pathlib import Path
 
 import pytest
 
+from ._jsutil import yorumsuz
+
 REPO = Path(__file__).resolve().parents[2]
 
-BLOK_YORUM = re.compile(r"/\*.*?\*/", re.S)
+# Yorum sökme ORTAK yardımcıda (_jsutil).
 
-
-def yorumsuz(metin: str) -> str:
-    """Yorumları söker.
-
-    Bu oturumun ikinci kez öğrendiği ders: kapının kendisi yanlış alarm
-    verirse görmezden gelinir. İlk sefer JSDoc içindeki örnek bir `import`
-    gerçek sanılmıştı; burada da ONARIMI AÇIKLAYAN yorum ("elle yazılmıştı
-    '5.618'") onarılmamış kod sanıldı. Kusurun ADI kusurun KENDİSİ değildir.
-    """
-    metin = BLOK_YORUM.sub("", metin)
-    return "\n".join("" if l.lstrip().startswith(("//", "*")) else l
-                      for l in metin.split("\n"))
 SRC = REPO / "web" / "src"
 DB = SRC / "data" / "db.json"
 FLAGS = REPO / "web" / "public" / "view-data" / "dynasty_temporal_flags.json"
