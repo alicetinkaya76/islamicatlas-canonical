@@ -26,6 +26,8 @@ import unicodedata
 from pathlib import Path
 
 import pytest
+
+from ._store import STORE_SKIP
 from jsonschema import Draft202012Validator
 from referencing import Registry, Resource
 
@@ -40,10 +42,12 @@ from tests.integration import conftest as shared  # noqa: E402
 # H9 Stage 3: on a fresh clone/CI the canonical store + state sidecars are
 # absent (gitignored) — this module used to hard-fail 8 tests there. Skip
 # the whole module instead; locally (store present) nothing changes.
-pytestmark = pytest.mark.skipif(
-    not PERSON_DIR.exists(),
-    reason="canonical person store not present (fresh clone/CI) — run the pipeline first",
-)
+# H59: kapı ARTIK bağlı olduğu HER şeyi soruyor. Eskiden yalnız
+# PERSON_DIR sorulurdu; H49 person/'ı depoya alınca (ama _state/ ve place/
+# gitignore'da kalınca) kapı "hazır" sanıp testleri koşturdu ve CI 7 gün
+# kırmızı kaldı. Bu modül _state sidecar'larını ve place/ kayıtlarını da
+# okuyor — hepsi sorulmalı.
+pytestmark = STORE_SKIP
 
 
 # --------------------------------------------------------------------------- #

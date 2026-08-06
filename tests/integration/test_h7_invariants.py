@@ -20,6 +20,14 @@ from pathlib import Path
 
 import pytest
 
+from ._store import STORE_SKIP
+
+# H59: bu modül hem canonical/person kayıtlarını hem data/_state karantina
+# sidecar'ını okuyor. Kapısı YOKTU; H49 person/'ı depoya alınca CI'da
+# koşmaya başladı ve "kanıt kayboldu" diye düştü — oysa kayıp olan
+# _state/ dizininin kendisiydi. Ortak kapı hepsini sorar.
+pytestmark = STORE_SKIP
+
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 PERSON_DIR = REPO_ROOT / "data" / "canonical" / "person"
 STATE_PATH = REPO_ROOT / "data" / "_state" / "h7_qid_audit_report.json"
