@@ -379,3 +379,93 @@ değil.
 **Faz-2:** ilişkisel katman (`participants_persons`, `preceded_by`,
 `authority_xref`).
 
+---
+
+# H56 — DÖRDÜNCÜ DALGA (2026-08-06, `c67c3f8e`)
+
+Kalan iki otomatik madde kapandı. İkisi de aynı sınıf: **kaynak "emin
+değilim" diyor, merkezî defter kesin konuşuyor.**
+
+## Sınıflandırma güveni düşürülüyordu
+
+v1 evliya katmanı **5.444 yerin hepsinde** `category_confidence` taşıyor.
+Adaptör bunu canonical'a hiç geçirmiyordu (`note`'unda `güven` geçen evliya
+kaydı: **0**) ve arayüz de hiç okumuyordu (`grep web/src` → **0 isabet**).
+
+Sonuç: kaynak *"bu kategoriye %20 eminim"* derken merkezî defter **sert bir
+`institution_subtype`** — ve ondan türeyen `@type` — ilan ediyordu.
+
+Ölçüldü: canonical'a geçen 2.575 kaydın **321'i** eşiğin (0,5) altında. Ve
+sonuçlar soyut değil:
+
+| kayıt | canonical tip | güven |
+|---|---|---|
+| Üsküp Saat Kulesi | `mosque` | 0,40 |
+| Kolçvar (Cetatea Colț) | `palace` | 0,40 |
+| Nalband (Perdikkas) | `mosque` | 0,20 |
+
+Bir saat kulesi camiye, bir Erdel kalesi saraya, bir **yerleşim adı** camiye
+dönmüş. Güven artık yayın katmanında; Evliyâ detay kartı eşik altındakine
+*"sınıflandırma şüpheli (0,20)"* yazıyor. **Doğru tip tahmin edilmedi.**
+
+## Toplu üst konum
+
+Hıtat katmanının **801 kaydının tamamı** tek bir Tier-2 çözümüyle Kahire'ye
+bağlı. Bu adaptörün **belgeli kararı** — *Hıtat* zaten Kahire topografyasıdır
+— ama her kayıt için doğru değil: **29 kayıt** Kahire'den 50 km'den uzakta ve
+koordinatı şüpheli değil. Çoğu Yukarı Mısır (Saîd) manastırı; en uzağı
+**482 km** (Dayr Abī Maysās), biri adında zaten *"صعيد مصر"* taşıyor.
+
+**Ayrım önemli:** 24 kayıt da uzak ama koordinatı "düşük güvenilirlikli"
+işaretli — orada **mesafe kanıt değildir** ve kuyruğa alınmazlar, yalnız
+işaretlenirler. Denetim raporu bu ayrımı yapmadan "53" diyordu.
+
+**350 kayıt insan kuyruğuna alındı**; hiçbirinde önerilen değer yok ve test
+bunu da kilitliyor.
+
+## Kapı kendini üçüncü kez yakaladı — bu sefer ters yönden
+
+Mutasyon turunda arayüzden `category_confidence` okuması kaldırıldı ama
+**test yeşil kaldı** — çünkü kelime dosyanın açıklama bloğunda geçiyordu.
+
+İlk iki sefer (H55 JSDoc import'u, H56 MapView'daki '5.618') yanlış
+**alarm**dı. Bu sefer sessiz yanlış **negatif** — daha kötüsü, çünkü kimse
+fark etmez.
+
+Yorum sökme artık ortak yardımcıda (`tests/integration/_jsutil.py`) ve
+önceki iki kapı da oraya bağlandı.
+
+> **Kusurun adı kusurun kendisi değildir — her iki yönde de.**
+
+## Doğrulama sınırı (dürüstçe)
+
+*"Sınıflandırma şüpheli"* rozetini **ekranda açılmış hâlde göremedim.**
+Evliyâ haritası kümelenmiş canvas marker kullanıyor ve kenar çubuğu araması
+hedef kaydı yüzeye çıkarmadı.
+
+Doğrulanan: veri (1.515 v1 kaydı <0,5; canonical'a geçen 321), üretici
+çıktısı, bileşenin alanı okuduğu (mutasyonla). **Panelin görsel doğrulaması
+yapılmadı.**
+
+**Test 270 → 280.**
+
+---
+
+## H56 kapanışı — dört dalga sonunda
+
+**Kapandı:** uydurma sınıfı 5 vaka · birleştirme artığı (1.976 curie) · olay
+katmanı çifte kesme · koordinat belirsizliği · zombi marker · sahte alt tür ·
+elle yazılmış sayı · arama sızıntısı (9.956→0) · merkezî defter aranabilirliği
+(14.899→49.353) · H51'den kaçan uydurma koordinat · tip güveni · toplu üst
+konum. **Test 216 → 280.**
+
+**Ali kapısında bekleyen:**
+- `institution_facets.json` üretildi, **bağlanmadı** — join anahtarı için v1
+  görünüm dosyalarına canonical pid yazmak gerekiyor (v1 symlink sınırı).
+- İnsan kuyrukları: 9 tutarsız hanedan yılı · 321 şüpheli kurum tipi ·
+  29 uzak Hıtat kaydı · 4.774 önder adı · 2.238 çözülmemiş yer adı.
+- `PHASE0_CLOSEOUT.md:239` event kapanış statüsü.
+
+**Faz-2:** ilişkisel katman (`participants_persons`, `preceded_by`,
+`authority_xref`).
+
