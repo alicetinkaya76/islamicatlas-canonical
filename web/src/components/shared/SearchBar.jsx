@@ -14,7 +14,7 @@ import { normalize } from './bookkit/normalize';   // H51: tek otorite (kopya ka
 import { dynastyYearRange, ensureDynastyFlags } from '../../data/dynastyHonesty';
 
 /* ═══ Build search index with multi-field support ═══ */
-function buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData) {
+function buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData, canonData) {
   ensureDynastyFlags();   // H56: yıl aralığı bayrakları (tembel, tek sefer)
   const idx = [];
 
@@ -212,12 +212,53 @@ function buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData)
     const nm = e.full_name || {};
     idx.push({
       type: 'science', icon: '🔬', obj: { id: e.id },
-      lat: 30, lon: 45, zoom: 4,
+      /* H56: UYDURMA SABİT — H51 süpürgesinden KAÇMIŞ. Diğer dallardaki
+         `lat || 30, lon || 45` kalıbı H51'de temizlenmişti ama bu dal
+         koşulsuz sabit taşıdığı için grep'e takılmadı. Ölçüldü: 182 bilim
+         âlimi, kendi koordinatı olan 0 — hepsi 30N/45E'ye çakılıydı.
+         handleSelect '#science'e gittiği için tıklamada zarar görünmüyordu,
+         ama handleRandom bu sahte noktaya UÇUYORDU ve onSelectEntity onu
+         aşağıya "bilinen konum" diye geçiriyordu.
+         DERS (üçüncü kez): tek kaynağı onarmak yetmez, KOPYALARI ARAMAK da
+         onarımın parçasıdır — ve arama, kalıbın varyantlarını da kapsamalı. */
+      lat: null, lon: null, zoom: 4,
       name_tr: nm.tr || nm.en, name_en: nm.en || nm.tr,
       search_tr: normalize((nm.tr || '') + ' ' + (nm.ar || '')),
       search_en: normalize((nm.en || '') + ' ' + (nm.ar || '')),
       search_extra: normalize((e.fields || []).join(' ')),
       ctx_yr: e.death_year ? `(ö. ${e.death_year})` : '', ctx_detail: 'Bilim Atlası',
+    });
+  });
+
+  /* H56 — MERKEZÎ DEFTER ARANABİLİR OLDU.
+     Denetim ölçtü: arama indeksi TAMAMEN v1'in db.json'ından ve beş lite
+     dosyadan kuruluyordu; mağazadaki 9.956 olayın, 9.404 eserin ve 5.423
+     kurumun ARANABİLİR OLANI SIFIRDI. Yani havuzu büyütmenin arama
+     eksenindeki karşılığı yoktu.
+     Üretici YALNIZ gerçekten açılan hedefi olan kaydı yazar (H46 doktrini):
+     olayın %91'i kitap+bölüm çapası taşıyor, eserlerin tamamı müellifine
+     bağlanıyor, kurumlar hedefsiz olduğu için HİÇ indekslenmiyor. */
+  ((canonData && canonData.kayitlar) || []).forEach(e => {
+    const olay = e.t === 'ce';
+    /* Yıl gösterimi: eser tarafında `y` TELİF TARİHİ DEĞİL, müellifin ölüm
+       yılı sınırıdır (H55) — `yk` olmadan çıplak basmak uydurma kesinliktir. */
+    const yil = e.y == null ? ''
+      : olay ? `(H.${e.y})`
+      : e.yk === 'before' ? `(${e.y} H öncesi)`
+      : `(${e.y} H)`;
+    idx.push({
+      type: olay ? 'canon_event' : 'canon_work',
+      icon: olay ? '📜' : '📕',
+      obj: { b: e.b, s: e.s, p: e.p },
+      lat: null, lon: null, zoom: 4,   // bu kayıtların KENDİ koordinatı yok
+      name_tr: e.n || e.a, name_en: e.n || e.a,
+      search_tr: normalize((e.n || '') + ' ' + (e.a || '')),
+      search_en: normalize((e.n || '') + ' ' + (e.a || '')),
+      search_extra: normalize(e.k || ''),
+      ctx_yr: yil,
+      ctx_detail: olay
+        ? 'Merkezî defter · olay'
+        : (e.r ? 'Merkezî defter · sitede okunabilir' : 'Merkezî defter · eser'),
     });
   });
 
@@ -246,13 +287,24 @@ function getTypeLabels(t, lang) {
     ruler: t.m.ruler, madrasa: t.layers.madrasas, alam: t.alam.title,
     /* H18 S4: tam-pid kaynak kapları tek çip altında */
     sources: { tr: 'Kaynaklar', en: 'Sources', ar: 'المصادر' }[lang] || 'Kaynaklar',
+    /* H56: merkezî defter KENDİ çipini alır — 'Kaynaklar' şemsiyesine
+       sokmak, 18.487 kaydı var olan bir çipin içinde görünmez kılardı ve
+       "havuzu büyütünce ne oluyor?" sorusunun cevabı yine gizli kalırdı. */
+    canon: { tr: 'Merkezî defter', en: 'Canonical store', ar: 'السجل المركزي' }[lang] || 'Merkezî defter',
   };
 }
 
 /* H18 S4: 'sources' çipi bu dört tipin şemsiyesi (battles zaten 'battle') */
 const SOURCE_TYPES = new Set(['yaqut', 'muqaddasi', 'khitat', 'science']);
+/* H56: canonical olay + eser tek çip altında ('canon'). Çip EKLENMESİ ŞART
+   değil sanılabilir ama zorunludur: doSearch her sonucu catMatch'ten geçirir
+   ve tanımlı bir kategoriye düşmeyen tip SESSİZCE elenir — 18.487 kayıt
+   indekse girip aramada hiç görünmezdi. */
+const CANON_TYPES = new Set(['canon_event', 'canon_work']);
 const catMatch = (cats, type) =>
-  cats.has(type) || (SOURCE_TYPES.has(type) && cats.has('sources'));
+  cats.has(type)
+  || (SOURCE_TYPES.has(type) && cats.has('sources'))
+  || (CANON_TYPES.has(type) && cats.has('canon'));
 
 const CATEGORIES = [
   { key: 'dynasty',  icon: '🏛', labelKey: 'dynasty' },
@@ -264,6 +316,7 @@ const CATEGORIES = [
   { key: 'ruler',    icon: '👑', labelKey: 'ruler' },
   { key: 'alam',     icon: '📖', labelKey: 'alam' },
   { key: 'sources',  icon: '🗃', labelKey: 'sources' },
+  { key: 'canon',    icon: '🗂', labelKey: 'canon' },
 ];
 
 /* Map from search category key → map layer key */
@@ -298,10 +351,13 @@ export default function SearchBar({ lang, onFlyTo, onSelectEntity }) {
   /* H24: khitat/science henüz canonical'a bağlanmadı (H23'te 6 görünüm); /data kalır — tutarlı. */
   const { data: khitatData } = useAsyncData(sourcesArmed ? '/data/maqrizi_khitat_atlas_layer.json' : null);
   const { data: scienceData } = useAsyncData(sourcesArmed ? '/data/science_layer.json' : null);
+  /* H56: merkezî defterin aranabilir katmanı (~2,6 MB) — dia_lite/ei1_lite
+     ile aynı büyüklük sınıfında ve aynı tembel yolu izliyor. */
+  const { data: canonData } = useAsyncData(sourcesArmed ? '/view-data/canonical_search.json' : null);
 
   const searchIndex = useMemo(
-    () => buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData),
-    [alamData, yaqutData, muqData, khitatData, scienceData]);
+    () => buildSearchIndex(alamData, yaqutData, muqData, khitatData, scienceData, canonData),
+    [alamData, yaqutData, muqData, khitatData, scienceData, canonData]);
   const totalCount = searchIndex.length;
 
   useEffect(() => {
@@ -393,6 +449,14 @@ export default function SearchBar({ lang, onFlyTo, onSelectEntity }) {
         : `#yaqut?search=${encodeURIComponent(item.name_tr || '')}`;
     } else if (item.type === 'science') {
       window.location.hash = '#science';
+    } else if (item.type === 'canon_event') {
+      /* H56: olayın kendi sayfası yok; kaynağı olan kitap bölümüne gider. */
+      window.location.hash = `#library?book=${String(item.obj.b).padStart(8, '0')}&sec=${item.obj.s}`;
+    } else if (item.type === 'canon_work') {
+      /* Okunabilen esere doğrudan kitap; ötekiler müellifin eser listesine. */
+      window.location.hash = item.obj.b != null
+        ? `#library?book=${String(item.obj.b).padStart(8, '0')}`
+        : `#scholars?pid=iac:person-${String(item.obj.p).padStart(8, '0')}`;
     } else if (item.lat != null && item.lon != null) {
       if (onFlyTo) onFlyTo({ lat: item.lat, lon: item.lon, zoom: item.zoom });
     }

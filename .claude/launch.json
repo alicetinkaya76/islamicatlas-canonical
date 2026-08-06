@@ -2,10 +2,18 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "islamicatlas-web",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8420", "--directory", "web"],
-      "port": 8420
+      "name": "islamicatlas-v2",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--",
+        "--port",
+        "3000",
+        "--strictPort"
+      ],
+      "cwd": "web",
+      "port": 3000
     }
   ]
 }
