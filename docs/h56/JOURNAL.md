@@ -283,3 +283,99 @@ ayrı bir turda ve Ali kapısıyla ele alınmalı.
 **İnsan kapısı (değişmedi):** 9 tutarsız hanedan yılı · 4.774 önder adı ·
 2.238 çözülmemiş yer adı · `PHASE0_CLOSEOUT` event kapanışının statüsü.
 
+---
+
+# H56 — ÜÇÜNCÜ DALGA (2026-08-05/06, `0d1e3cd0`)
+
+## Merkezî defter aranabilir oldu
+
+`SearchBar` indeksi tamamen v1'in `db.json`'ından ve beş "lite" dosyadan
+kuruluyordu. Mağazadaki **9.956 olayın, 9.404 eserin ve 5.423 kurumun
+aranabilir olanı sıfırdı.** Kullanıcı "Kâdisiye" yazınca v1'in 100 küratörlü
+savaşını buluyor, defterdeki 9.956 kitap-türevi olayı bulamıyordu.
+
+**Tek sert kural: yalnız gerçekten açılan hedefi olan kayıt indekslenir**
+(H46 — sahte tıklanabilirlik, dürüst boşluktan kötüdür).
+
+| | mağazada | indekslendi | neden dışarıda |
+|---|---|---|---|
+| olay | 9.956 | **9.102** (%91) | 854'ünde kitap+bölüm çapası yok |
+| eser | 9.404 | **9.385** | 19'unda müellif yok |
+| kurum | 5.423 | **0** | join anahtarı mint edilmemiş → hedef YOK |
+
+**14.899 → 49.353 aranabilir kayıt.**
+
+### Kritik ayrıntı: çip olmadan indeks işe yaramazdı
+
+`doSearch` her sonucu `catMatch`'ten geçiriyor ve **tanımlı bir kategoriye
+düşmeyen tip sessizce eleniyor.** 'canon' çipi eklenmeseydi 18.487 kayıt
+indekse girip aramada hiç görünmeyecekti. Çip 'Kaynaklar' şemsiyesine
+sokulmadı — o zaman *"havuzu büyütünce ne oluyor?"* sorusunun cevabı yine
+gizli kalırdı.
+
+### Uçtan uca doğrulama (canlı)
+
+```
+"Kadisiy"  →  49.353 kayıt arasında 7 canonical olay
+tıkla: "Kâdisiye Savaşı — Rüstem'in öldürülmesi"
+  →  #library?book=00001293&sec=58
+  →  sec_0058.json çekildi
+  →  açılan bölüm başlığı: يوم القادسية
+```
+
+Arama kutusundan kaynak metne kadar zincir çalışıyor.
+
+## H51 süpürgesinden kaçan uydurma koordinat
+
+`SearchBar`'ın bilim atlası dalı `lat: 30, lon: 45` sabitini **koşulsuz**
+taşıyordu. Diğer dallardaki `lat || 30` kalıbı H51'de temizlendiği için bu
+varyant grep'e takılmamıştı.
+
+Ölçüldü: **182 bilim âlimi, kendi koordinatı olan 0** — hepsi tek noktaya
+çakılıydı. `handleSelect` `#science`'e gittiği için tıklamada görünmüyordu,
+ama **`handleRandom` o sahte noktaya uçuyordu** ve `onSelectEntity` onu
+aşağıya "bilinen konum" diye geçiriyordu.
+
+**Ders (üçüncü kez):** tek kaynağı onarmak yetmez, kopyaları aramak da
+onarımın parçasıdır — ve arama, kalıbın **varyantlarını** da kapsamalı.
+Depoda son örnekti; artık `lat: 30, lon: 45` yok ve kapı bunu kilitliyor.
+
+## Doğrulama tuzağı (kod kusuru değil)
+
+Doğrulama sırasında konsol `dynastyYearRange is not defined` gösterdi ve
+`SearchBar` çöküyor sandım. Kaynakta import yerindeydi. Sebep: **geliştirme
+sunucusu ölmüştü** ve tarayıcı, ölmeden önce alınmış bayat bir HMR modülünü
+(`?t=…` sorgulu) servis ediyordu. `.claude/launch.json` statik bir
+`python http.server`'ı işaret ediyordu; vite dev sunucusuna yöneltildi.
+
+*Sunucunun canlı olduğunu doğrulamadan konsol hatasını kod kusuru saymak,
+olmayan bir hatayı kovalamaktır.* Ağ kaydına bakmak (`sec_0058.json → 200`)
+hem bunu hem de "bölüm 58 açılmıyor" yanılgımı çözdü — ekranda gördüğüm
+"Bölüm 1" içindekiler listesinin ilk satırıydı, okuyucunun bulunduğu bölüm
+değil.
+
+**Üç kusur da mutasyonla doğrulandı. Test 259 → 270.**
+
+---
+
+## H56 sonrası kalan (üç dalga sonunda)
+
+**Otomatik onarılabilir:**
+- maqrizi katmanının **801/801** kaydına sabit `located_in = Kahire`; 53'ü
+  50 km'den, 31'i 200 km'den, en uzağı **482 km** uzakta.
+- Evliyâ katmanında v1'in `category_confidence` değeri düşürülüyor: 321 kayıt
+  <0,5 güvenle sert `@type` alıyor, izi note'ta bile yok.
+- Canonical olay katmanının tek kapısı hâlâ varsayılan kapalı bir toggle;
+  `#map?canonical=1` gibi bir derin link yok. (Arama artık ayrı bir kapı
+  açtığı için aciliyeti düştü.)
+
+**Ali kapısı:**
+- `institution_facets.json` üretildi ama **bağlanmadı** — join anahtarı için
+  v1 görünüm dosyalarına canonical pid yazmak gerekiyor, bu v1 symlink
+  sınırına dokunuyor.
+- 9 tutarsız hanedan yılı (kuyrukta) · 4.774 önder adı · 2.238 çözülmemiş yer
+  adı · `PHASE0_CLOSEOUT` event kapanışının statüsü.
+
+**Faz-2:** ilişkisel katman (`participants_persons`, `preceded_by`,
+`authority_xref`).
+
