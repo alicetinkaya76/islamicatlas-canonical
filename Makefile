@@ -56,3 +56,4 @@ view-data:
 	python3 pipelines/frontend/build_ulema_pool_links.py
 	python3 pipelines/frontend/build_causal_review.py
 	python3 pipelines/frontend/build_canonical_overview.py
+	python3 pipelines/frontend/build_source_counts.py

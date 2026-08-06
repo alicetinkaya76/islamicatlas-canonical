@@ -14,6 +14,20 @@
       ],
       "cwd": "web",
       "port": 3000
+    },
+    {
+      "name": "islamicatlas-dist",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview",
+        "--",
+        "--port",
+        "4173",
+        "--strictPort"
+      ],
+      "cwd": "web",
+      "port": 4173
     }
   ]
 }

@@ -41,9 +41,12 @@ ZINCIR_DISI = {
     "build_yaqut_graph.py":
         "Yâkût yer grafı yalnız yaqut_lite değiştiğinde değişir; çıktısı "
         "depoda izleniyor (iki eş kopya, H17 S5).",
-    "build_source_counts.py":
-        "Rozet sayıları web/src/data/source_counts.json'a yazılır ve DEPODA "
-        "İZLENİR; zincire alınırsa her koşuda kaynak ağacı kirlenir.",
+    # H58: BU GEREKÇE YANLIŞ ÇIKTI ve madde listeden ÇIKARILDI.
+    # "Kaynak ağacı kirlenir" doğruydu ama BAYATLAMA MALİYETİ daha ağır:
+    # H49/H50 birleştirmesi 1.364 kaydı yumuşak-sildikten sonra ALTI rozet
+    # 30 Temmuz'dan beri şişik kaldı (havuz 22.824 ↔ gerçek 21.460, aynı
+    # ekranda liste 21.460 diyordu). Üretici artık zincirde; dosyanın
+    # değişmesi kirlilik değil, DOĞRU DAVRANIŞTIR.
 }
 
 

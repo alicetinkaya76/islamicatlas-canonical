@@ -44,6 +44,7 @@ python3 pipelines/frontend/build_dynasty_temporal_flags.py | sed 's/^/  /'   # H
 python3 pipelines/frontend/build_dynasty_facets.py | sed 's/^/  /'   # H57: hanedan ardıllık + başkent + himaye
 python3 pipelines/frontend/build_institution_facets.py | sed 's/^/  /'   # H56: kurum olguları (koordinat güveni dâhil)
 python3 pipelines/frontend/build_canonical_search_index.py | sed 's/^/  /'   # H56: merkezî defter aranabilir
+python3 pipelines/frontend/build_source_counts.py | sed 's/^/  /' | tail -3   # H58: rozet sayıları bayatlamasın
 python3 pipelines/frontend/build_person_clusters.py | sed 's/^/  /'   # H47: aynı-kişi kümeleri
 python3 pipelines/frontend/build_person_bridge.py | sed 's/^/  /'   # H45: kişi köprüsü (alam/dia/ei1)
 python3 pipelines/frontend/build_ulema_pool_links.py | sed 's/^/  /'   # H44: havuz ilişki+not yan dosyaları
