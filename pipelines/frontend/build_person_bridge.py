@@ -47,6 +47,8 @@ Commit karari Ali'ye aittir; script commit yapmaz.
 """
 
 import json
+import pathlib
+import re
 import sqlite3
 import sys
 from pathlib import Path
@@ -73,6 +75,50 @@ DOC = (
 )
 
 
+_SAYAC = {"yonlendirildi": 0, "cozulemedi": 0}
+
+PERSON_DIR = pathlib.Path(__file__).resolve().parents[2] / "data" / "canonical" / "person"
+_PROV = {}
+
+
+def _prov(num):
+    if num not in _PROV:
+        f = PERSON_DIR / f"iac_person_{num:08d}.json"
+        try:
+            _PROV[num] = (json.loads(f.read_text(encoding="utf-8"))
+                          .get("provenance") or {})
+        except (OSError, json.JSONDecodeError):
+            _PROV[num] = {}
+    return _PROV[num]
+
+
+def merge_winner(pid):
+    """Yumuşak-silinmiş pid → kazanan (zincir + döngü korumalı); yoksa None.
+
+    H60: köprü, birleştirmeden ÖNCEKİ pid'leri taşıyordu. Ölçüldü:
+    21.059 bağın 1.449'u (%6) havuzda karşılık BULMUYOR — yani el-Aʿlâm,
+    DİA ve EI-1 kartlarındaki "havuzda aç" bağlarının %6'sı boş ekrana
+    gidiyordu. Aynı kusur H56'da ulema havuzunda onarılmıştı; köprü
+    atlanmış. ("pid yaşar" ≠ "UI bulur" — H49 dersi, üçüncü tekrar.)
+    """
+    m = re.match(r"^iac:person-(\d+)$", pid or "")
+    if not m:
+        return None
+    num = int(m.group(1))
+    gorulen = set()
+    while True:
+        pr = _prov(num)
+        if not pr:
+            return None
+        if not pr.get("deprecated"):
+            return f"iac:person-{num:08d}"
+        h = re.match(r"^iac:person-(\d+)$", str(pr.get("deprecated_in_favor_of") or ""))
+        if not h or int(h.group(1)) in gorulen:
+            return None
+        gorulen.add(num)
+        num = int(h.group(1))
+
+
 def load_person_sources(db_path):
     """pid -> {köprü_kaynağı: [id, ...]} — yalnız person + köprü kaynakları."""
     con = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
@@ -90,7 +136,15 @@ def load_person_sources(db_path):
         src = BRIDGE_SOURCES.get(prefix)
         if src is None:
             continue  # dia-chunks dahil tüm diğer namespace'ler dışarıda
-        persons.setdefault(pid, {}).setdefault(src, []).append(local)
+        # H60: yumuşak-silinmiş pid KAZANANA çevrilir; çözülemezse bağ
+        # hiç yazılmaz (hedefsiz bağ, dürüst boşluktan kötüdür — H46).
+        kaz = merge_winner(pid)
+        if kaz is None:
+            _SAYAC["cozulemedi"] += 1
+            continue
+        if kaz != pid:
+            _SAYAC["yonlendirildi"] += 1
+        persons.setdefault(kaz, {}).setdefault(src, []).append(local)
     return persons
 
 

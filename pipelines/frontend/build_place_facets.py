@@ -56,6 +56,42 @@ DESEN = {
 BOS = {"unknown", "bilinmiyor", "n/a", "none", "-", ""}
 
 
+_PROV = {}
+
+
+def _prov(num):
+    if num not in _PROV:
+        f = PLACE_DIR / f"iac_place_{num:08d}.json"
+        try:
+            _PROV[num] = (json.loads(f.read_text(encoding="utf-8"))
+                          .get("provenance") or {})
+        except (OSError, json.JSONDecodeError):
+            _PROV[num] = {}
+    return _PROV[num]
+
+
+def kazanan(pid):
+    """H60: `ust` (located_in) ÖLÜ bir yere işaret edebiliyordu — ölçüldü:
+    2 tekil pid, 4 geçiş. Üst konum bağı emekli kayda giderse kullanıcı boş
+    ekrana düşer. Zincir + döngü korumalı; çözülemezse None (alan yazılmaz).
+    """
+    n = _num(pid)
+    if n is None:
+        return None
+    gorulen = set()
+    while True:
+        pr = _prov(n)
+        if not pr:
+            return None
+        if not pr.get("deprecated"):
+            return f"iac:place-{n:08d}"
+        h = _num(pr.get("deprecated_in_favor_of") or "")
+        if h is None or h in gorulen:
+            return None
+        gorulen.add(n)
+        n = h
+
+
 def _num(pid):
     try:
         return int(str(pid).rsplit("-", 1)[-1])
@@ -72,7 +108,7 @@ def main() -> None:
         "kayit": 0, "facet_olan": 0,
         "alan_subtype": 0, "alan_located_in": 0, "alan_temporal": 0, "alan_xref": 0,
         "note_tip": 0, "note_ulke": 0, "note_bolge": 0, "note_etimoloji": 0, "note_donem": 0,
-        "deprecated_atlandi": 0,
+        "deprecated_atlandi": 0, "ust_cozulemedi": 0,
     }
     for f in sorted(PLACE_DIR.glob("*.json")):
         try:
@@ -94,8 +130,13 @@ def main() -> None:
             fac["subtype"] = {"v": r["place_subtype"], "_kaynak": "alan"}
             sayac["alan_subtype"] += 1
         if r.get("located_in"):
-            fac["ust"] = {"v": r["located_in"], "_kaynak": "alan"}
-            sayac["alan_located_in"] += 1
+            ham = r["located_in"]
+            ham = ham if isinstance(ham, list) else [ham]
+            coz = [x for x in (kazanan(y) for y in ham) if x]
+            if coz:
+                fac["ust"] = {"v": coz, "_kaynak": "alan"}
+                sayac["alan_located_in"] += 1
+            sayac["ust_cozulemedi"] += len(ham) - len(coz)
         tc = r.get("temporal_coverage")
         if tc:
             fac["donem_alan"] = {"v": tc, "_kaynak": "alan"}

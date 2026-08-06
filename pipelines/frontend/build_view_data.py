@@ -47,6 +47,53 @@ def curie_map(cur, prefix):
         (prefix + ":%",)))
 
 
+_YON_SAYAC = {"cozuldu": 0, "cakisti": 0, "cozulemedi": 0}
+
+
+def merge_winner(pid, ns):
+    """Yumuşak-silinmiş pid → kazanan (zincir + döngü korumalı); yoksa None.
+
+    H60: yayın katmanı satırlarının bir kısmı KENDİ kimliği olarak ölü bir
+    pid taşıyordu — Makdisî katmanında 214, Evliyâ'da 5. Bu satırlara giden
+    her derin link boş ekrana düşer ("pid yaşar" ≠ "UI bulur", H49 dersi).
+
+    ÇAKIŞMA VARSA DOKUNULMAZ: kazanan pid ZATEN ayrı bir satır olarak
+    listede olabilir (ölçüldü: Makdisî'de 14, Evliyâ'da 5). İki satırı
+    birleştirmek bir GÖRÜNTÜ KARARIDIR — farklı kaynaklardan farklı metin ve
+    koordinat taşıyabilirler. Otomatik birleştirilmez; olduğu gibi bırakılır
+    ve sayılır.
+    """
+    cur = pid
+    gorulen = set()
+    while True:
+        rec = load_canonical(cur, ns)
+        if rec is None:
+            return None
+        prov = rec.get("provenance") or {}
+        if not prov.get("deprecated"):
+            return cur
+        h = prov.get("deprecated_in_favor_of")
+        if not h or h in gorulen:
+            return None
+        gorulen.add(cur)
+        cur = h
+
+
+def cozulmus_pid(pid, ns, mevcut):
+    """Kazanana çevir; çakışırsa ELLEME. `mevcut` = bu katmandaki tüm pid'ler."""
+    kaz = merge_winner(pid, ns)
+    if kaz is None:
+        _YON_SAYAC["cozulemedi"] += 1
+        return pid
+    if kaz == pid:
+        return pid
+    if kaz in mevcut:
+        _YON_SAYAC["cakisti"] += 1
+        return pid
+    _YON_SAYAC["cozuldu"] += 1
+    return kaz
+
+
 def load_canonical(pid, ns):
     p = REPO / "data/canonical" / ns / (pid.replace("iac:", "iac_").replace("-", "_") + ".json")
     if not p.exists():
@@ -278,6 +325,42 @@ BUILDERS = {
 }
 
 
+def olu_pidleri_cozumle(data) -> dict:
+    """Satırın KENDİ kimliği ölü bir pid ise kazanana çevir — SON GEÇİŞ.
+
+    Neden burada: çakışma denetimi katmandaki TÜM pid'leri bilmeyi gerektirir;
+    satır satır üretim sırasında bu bilgi henüz yok.
+    """
+    sayac = {"cozuldu": 0, "cakisti": 0, "cozulemedi": 0}
+    satirlar = data if isinstance(data, list) else (data.get("places") or [])
+    if not isinstance(satirlar, list):
+        return sayac
+    mevcut = {x.get("pid") for x in satirlar if isinstance(x, dict) and x.get("pid")}
+    for x in satirlar:
+        if not isinstance(x, dict):
+            continue
+        pid = x.get("pid")
+        if not pid:
+            continue
+        ns = ns_of(pid)
+        rec = load_canonical(pid, ns)
+        if rec is None or not (rec.get("provenance") or {}).get("deprecated"):
+            continue
+        kaz = merge_winner(pid, ns)
+        if kaz is None:
+            sayac["cozulemedi"] += 1
+            continue
+        if kaz in mevcut:
+            # Kazanan ZATEN ayrı bir satır — iki satırı birleştirmek görüntü
+            # kararıdır (farklı kaynak metni/koordinatı olabilir). Dokunulmaz.
+            sayac["cakisti"] += 1
+            continue
+        x["pid"] = kaz
+        mevcut.add(kaz)
+        sayac["cozuldu"] += 1
+    return sayac
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--view", default="all")
@@ -290,7 +373,11 @@ def main():
     keys = BUILDERS if args.view == "all" else {args.view: BUILDERS[args.view]}
     for k, fn in keys.items():
         name, data, stats = fn(cur)
+        yon = olu_pidleri_cozumle(data)
         (outdir / name).write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+        if any(yon.values()):
+            print(f"{'':12s}   ölü pid: çözüldü {yon['cozuldu']} · "
+                  f"ÇAKIŞTI (elle karar) {yon['cakisti']} · çözülemedi {yon['cozulemedi']}")
         # düz liste görünümü → len(data); sarmalayıcı ({...places[]...}) → places sayısı
         n = len(data) if isinstance(data, list) else len(data.get("places", []))
         print(f"{k:12s} → {name}: {n:6d} kayıt "

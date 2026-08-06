@@ -34,6 +34,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
 PERSON_DIR = REPO / "data" / "canonical" / "person"
+PLACE_DIR = REPO / "data" / "canonical" / "place"
 POOL = REPO / "web" / "public" / "books" / "ulema_pool.json"
 OUT = REPO / "web" / "public" / "view-data" / "ulema_pool_links.json"
 OUT_NOTES = REPO / "web" / "public" / "view-data" / "ulema_pool_notes.json"
@@ -119,9 +120,46 @@ def main() -> None:
     def yonlendir(pid: str) -> str:
         return redir.get(pid, pid)
 
+    # H60: YER uçları atlanmıştı. H49'da kişi uçları (h/o) kazanana çevrildi
+    # ama `active_in_places` (y) dokunulmadan geçti. Ölçüldü: 12 tekil ölü
+    # yer pid'i, 457 geçiş — kişi kartındaki "Bağlı yer" sayısı emekli
+    # kayıtları da sayıyordu ve o yerlere gidilemiyordu.
+    # Yönlendirme canonical'dan TEMBEL çözülür (person_redirects yalnız
+    # kişi taşır; yer için ayrı bir sidecar yok).
+    _yer_prov: dict[int, dict] = {}
+
+    def _yer_p(num: int) -> dict:
+        if num not in _yer_prov:
+            f = PLACE_DIR / f"iac_place_{num:08d}.json"
+            try:
+                _yer_prov[num] = (json.loads(f.read_text(encoding="utf-8"))
+                                  .get("provenance") or {})
+            except (OSError, json.JSONDecodeError):
+                _yer_prov[num] = {}
+        return _yer_prov[num]
+
+    def yonlendir_yer(pid: str):
+        """Ölü yer pid'i → kazanan; çözülemezse None (uç DÜŞÜRÜLÜR)."""
+        n = _num(pid)
+        if n is None:
+            return pid
+        gorulen = set()
+        while True:
+            pr = _yer_p(n)
+            if not pr:
+                return None
+            if not pr.get("deprecated"):
+                return f"iac:place-{n:08d}"
+            h = _num(pr.get("deprecated_in_favor_of") or "")
+            if h is None or h in gorulen:
+                return None
+            gorulen.add(n)
+            n = h
+
     links: dict[str, dict] = {}
     notes: dict[str, str] = {}
-    sayac = {"hoca": 0, "talebe": 0, "yer": 0, "not": 0, "yonlendirilen_uc": 0}
+    sayac = {"hoca": 0, "talebe": 0, "yer": 0, "not": 0, "yonlendirilen_uc": 0,
+             "yer_cozulemedi": 0}
     for f in sorted(PERSON_DIR.glob("*.json")):
         try:
             r = json.loads(f.read_text(encoding="utf-8"))
@@ -135,8 +173,15 @@ def main() -> None:
                               ("students", "o", "talebe"),
                               ("active_in_places", "y", "yer")):
             # Uçları yönlendir ve kendi kendine bağı (birleşme sonrası oluşabilir) düşür
-            v = [yonlendir(x) for x in (r.get(src) or []) if x]
-            v = [x for x in dict.fromkeys(v) if _num(x) != num]
+            if dst == "y":
+                v = [yonlendir_yer(x) for x in (r.get(src) or []) if x]
+                once = len(v)
+                v = [x for x in v if x]          # çözülemeyen uç düşürülür
+                sayac["yer_cozulemedi"] += once - len(v)
+                v = list(dict.fromkeys(v))
+            else:
+                v = [yonlendir(x) for x in (r.get(src) or []) if x]
+                v = [x for x in dict.fromkeys(v) if _num(x) != num]
             if v:
                 e[dst] = v
                 sayac[key] += len(v)

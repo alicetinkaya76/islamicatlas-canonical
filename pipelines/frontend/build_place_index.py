@@ -114,6 +114,54 @@ def main() -> int:
             if nm:
                 norm_pids.setdefault(nm, set()).add(pid)
 
+    _PLACE_DIR = REPO_ROOT / "data" / "canonical" / "place"
+    _pv = {}
+
+    def _kaz(pid):
+        try:
+            n = int(str(pid).rsplit("-", 1)[-1])
+        except (ValueError, AttributeError):
+            return None
+        gor = set()
+        while True:
+            if n not in _pv:
+                f = _PLACE_DIR / f"iac_place_{n:08d}.json"
+                try:
+                    _pv[n] = (json.loads(f.read_text(encoding="utf-8"))
+                              .get("provenance") or {})
+                except (OSError, json.JSONDecodeError):
+                    _pv[n] = {}
+            pr = _pv[n]
+            if not pr:
+                return None
+            if not pr.get("deprecated"):
+                return f"iac:place-{n:08d}"
+            h = pr.get("deprecated_in_favor_of")
+            try:
+                h = int(str(h).rsplit("-", 1)[-1])
+            except (ValueError, AttributeError):
+                return None
+            if h in gor:
+                return None
+            gor.add(n)
+            n = h
+
+    # H60: `index` anahtarları pid'dir ve 3'ü ÖLÜYDÜ; bu anahtarlar
+    # `places` sözlüğüne aynen geçiyor ve "bu yeri kitaplarda oku" köprüsü
+    # oradan gidiyor. Çakışmayan yeniden adlandırılır; kazanan ZATEN
+    # anahtarsa DOKUNULMAZ — iki kaydın anılma listelerini (total/secs)
+    # birleştirmek bir VERİ kararıdır, otomatik yapılmaz.
+    _yeniden, _cakisan = 0, 0
+    for _k in list(index):
+        _w = _kaz(_k)
+        if _w is None or _w == _k:
+            continue
+        if _w in index:
+            _cakisan += 1
+            continue
+        index[_w] = index.pop(_k)
+        _yeniden += 1
+
     # --- places gövdesini kur (verilen secs sınırıyla) ---
     def build_places(secs_cap: int) -> dict:
         places = {}
@@ -126,8 +174,19 @@ def main() -> int:
         return places
 
     # --- names haritası: yalnız TEKİL norm-ad → pid ---
-    names = {nm: next(iter(pids))
-             for nm, pids in sorted(norm_pids.items()) if len(pids) == 1}
+    # H60: hedef ÖLÜ bir yer olabiliyordu (ölçüldü: 3 ad). Bu köprü ad
+    # aramasından yer kaydına gider; emekli pid boş ekran demektir.
+
+    names = {}
+    n_olu = 0
+    for nm, pids in sorted(norm_pids.items()):
+        if len(pids) != 1:
+            continue
+        kaz = _kaz(next(iter(pids)))
+        if kaz is None:
+            n_olu += 1          # çözülemeyen ölü hedef: ad hiç yazılmaz
+            continue
+        names[nm] = kaz
     n_ambiguous = sum(1 for pids in norm_pids.values() if len(pids) > 1)
 
     def render(secs_cap: int) -> bytes:
@@ -164,7 +223,9 @@ def main() -> int:
               + ", ".join(missing))
     print(f"tekil yer pid: {len(index)}")
     print(f"yer×kitap çifti: {n_pairs}")
-    print(f"names (tekil norm-ad): {len(names)}  |  elenen belirsiz ad: {n_ambiguous}")
+    print(f"names (tekil norm-ad): {len(names)}  |  elenen belirsiz ad: {n_ambiguous}"
+          f"  |  ölü hedef yüzünden elenen: {n_olu}")
+    print(f"places anahtarı: ölü→kazanan {_yeniden} · ÇAKIŞTI (elle karar) {_cakisan}")
     print(f"secs sınırı: {secs_cap}")
     print(f"çıktı: {OUT_PATH.relative_to(REPO_ROOT)}  ({len(payload):,} B)")
     return 0
